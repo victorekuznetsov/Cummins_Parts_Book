@@ -80,7 +80,8 @@ manuals:
   - "4021940"
   - "4021942"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-018-013.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-018-013.pdf"
 tags:
@@ -97,6 +98,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Tap-Drill Chart - U.S. Customary and Metric
@@ -110,7 +112,15 @@ tags:
 > **Даты:** изменён 2024-06-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-018-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-018-013.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Общие сведения
 
 ![[00r01842.png]]
 
@@ -120,4 +130,10 @@ tags:
 
 ![[00r01845.png]]
 
-The tap drill sizes shown on these cards give the theoretical tap drill size for approximately 60% and 75% of full thread depth. Generally, drill sizes in the 60% range are recommended as these sizes will provide about 90% of the potential holding power. Drill sizes in the 75% range are recommended for shallow hole tapping (less than 1 1/2 times the hole diameter) in soft metals and mild steel.
+Размеры крановых дрелей, показанные на этих картах, дают теоретический размер крановых дрелей примерно на 60% и 75% полной глубины резьбы. Как правило, рекомендуется использовать буровые установки в диапазоне 60%, поскольку эти размеры обеспечивают около 90% потенциальной удерживающей мощности. Размеры буровых установок в диапазоне 75% рекомендуются для мелкого прорезывания отверстия (менее чем в 1 1/2 раза больше диаметра отверстия) в мягких металлах и мягкой стали.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The tap drill sizes shown on these cards give the theoretical tap drill size for approximately 60% and 75% of full thread depth. Generally, drill sizes in the 60% range are recommended as these sizes will provide about 90% of the potential holding power. Drill sizes in the 75% range are recommended for shallow hole tapping (less than 1 1/2 times the hole diameter) in soft metals and mild steel.

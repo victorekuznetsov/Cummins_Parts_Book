@@ -14,13 +14,15 @@ families:
 manuals:
   - "3810497"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-036-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-036-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Fan Hub, Belt Driven
@@ -34,36 +36,72 @@ tags:
 > **Даты:** изменён 2015-05-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-036-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-036-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Every 6000 hours or 2 years, inspect the fan hub for proper end clearance and grease leakage.
 
-Remove the fan belt. [[28-008-002-om-rep — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]
+### Контроль при обслуживании
+
+Каждые 6000 часов или 2 года проверяйте вентиляторный узел на предмет надлежащего зазора и утечки смазки.
+
+Удалите пояс вентилятора.[[28-008-002-om-rep — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе A.]]
 
 ![[fa6blha.png]]
 
-Rotate the fan hub pulley to check for rough or damaged bearings.
+Поверните шкив вентилятора, чтобы проверить наличие грубых или поврежденных подшипников.
 
-Inspect the pulley grooves for excessive wear.
+Осмотрите канавки шкивов на предмет чрезмерного износа.
 
-Check for grease leakage.
+Проверьте утечку смазки.
 
-Use a dial indicator to check the bearing end clearance.
+Используйте индикатор циферблата для проверки оконечного зазора подшипника.
 
-| Bearing End Clearance |  |  |
+| Завершение процедуры |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.03 | MIN | 0.001 |
-| 0.15 | MAX | 0.006 |
+| мм |  | в |
+| 0.03 | Мин | 0.001 |
+| 0.15 | Макс | 0.006 |
 
 ![[fa6blhb.png]]
 
-Replace a fan hub with a new or rebuilt unit as necessary.
+Замените фан-центр новым или перестроенным блоком по мере необходимости.
 
-Contact a Cummins® Authorized Repair Location for the removal and replacement of the fan hub.
+Свяжитесь с авторизованным местом ремонта Cummins® для удаления и замены вентиляторного узла.
 
 ![[fa6puha.png]]
 
-Install the fan belt. [[28-008-002-om-rep — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]
+Установите ремень вентилятора.[[28-008-002-om-rep — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе A.]]
 
 ![[fa6blha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Every 6000 hours or 2 years, inspect the fan hub for proper end clearance and grease leakage.
+>
+> Remove the fan belt. [[28-008-002-om-rep — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]
+>
+> Rotate the fan hub pulley to check for rough or damaged bearings.
+>
+> Inspect the pulley grooves for excessive wear.
+>
+> Check for grease leakage.
+>
+> Use a dial indicator to check the bearing end clearance.
+>
+> | Bearing End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.03 | MIN | 0.001 |
+> | 0.15 | MAX | 0.006 |
+>
+> Replace a fan hub with a new or rebuilt unit as necessary.
+>
+> Contact a Cummins® Authorized Repair Location for the removal and replacement of the fan hub.
+>
+> Install the fan belt. [[28-008-002-om-rep — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]

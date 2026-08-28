@@ -17,7 +17,8 @@ manuals:
   - "3666134"
   - "4021374"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-051.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-051.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Analysis
@@ -38,19 +40,44 @@ tags:
 > **Даты:** изменён 2013-06-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-051.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-051.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-A used oil analysis can help diagnose internal damage and determine if it was caused by one of the following:
 
-- Intake air filter malfunction
-- Coolant leaks
-- High wear metal content
-- Suitability of oil for additional service.
+### Общие сведения
 
-For additional oil analysis information refer to:
+Анализ использованного масла может помочь диагностировать внутреннее повреждение и определить, было ли оно вызвано одним из следующих факторов:
 
-- Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin [[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]]
-- Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]
-- Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin [[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|2883452]].
+- Неисправность фильтра воздухоочистителя
+- Утечка охлаждающей жидкости
+- Высококачественный металлический контент
+- Пригодность масла для дополнительного обслуживания.
+
+Для получения дополнительной информации по анализу нефти обратитесь к:
+
+- Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin (Рекомендации по анализу моторного масла и масла)[[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]]
+- Методы анализа масла для дизельных двигателей высокой мощности, бюллетень[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]
+- Статистический анализ свинцовых чтений образцов масла на двигателях высокой мощности, бюллетень[[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|2883452]].
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> A used oil analysis can help diagnose internal damage and determine if it was caused by one of the following:
+>
+> - Intake air filter malfunction
+> - Coolant leaks
+> - High wear metal content
+> - Suitability of oil for additional service.
+>
+> For additional oil analysis information refer to:
+>
+> - Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin [[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]]
+> - Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]
+> - Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin [[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|2883452]].

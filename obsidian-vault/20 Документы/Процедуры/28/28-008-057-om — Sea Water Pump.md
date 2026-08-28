@@ -13,13 +13,15 @@ families:
   - "K38/K50 · QSK38, QSK50, QSK60"
 manuals:
   - "3810497"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-057-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-057-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Sea Water Pump
@@ -33,10 +35,28 @@ tags:
 > **Даты:** изменён 2011-06-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-057-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-057-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Spline Driven
 
-No routine maintenance is necessary.
+### Контроль при обслуживании
 
-Shaft sealing is by mechanical seal, which does **not** require maintenance. Periodic checks **must** be made to be sure that the seal is **not** leaking. If leakage does occur, it will be observed in the opening between the bearing housing and pump casing.
+Сплин управляем
+
+Нет необходимости в рутинном обслуживании.
+
+Уплотнение вала осуществляется механическим уплотнением, которое **не требует технического обслуживания. Периодические проверки **должны быть сделаны, чтобы убедиться, что печать не утечка. Если утечка действительно происходит, она будет наблюдаться в отверстие между подшипниковой обшивкой и корпусом насоса.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Spline Driven
+>
+> No routine maintenance is necessary.
+>
+> Shaft sealing is by mechanical seal, which does **not** require maintenance. Periodic checks **must** be made to be sure that the seal is **not** leaking. If leakage does occur, it will be observed in the opening between the bearing housing and pump casing.

@@ -75,7 +75,8 @@ manuals:
   - "4021674"
   - "4021940"
   - "4021942"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-018-012.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-018-012.pdf"
 tags:
@@ -92,6 +93,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Pipe Plug Torque Values
@@ -105,25 +107,58 @@ tags:
 > **Даты:** изменён 2024-10-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-018-012.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-018-012.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Tapered pipe plug fittings like National Pipe Thread (NPT) are designed to seal with an interference fit between the male and female thread form.
 
-Interference caused by variables in materials (aluminum / cast iron or steel components), wall thickness, and differences in types of sealants change the amount of torque required to achieve the correct interference and will vary significantly between applications.
+### Общие сведения
 
-Use the recommended Torque Table for proper pipe plug installation.
+Фитинги с заглубленной трубой, такие как National Pipe Thread (NPT), предназначены для уплотнения с помехой между штыревой и гнездовой формой резьбы.
 
-| **Torque Table** |  |  |  |  |  |
+Помехи, вызванные переменными в материалах (алюминий / чугун или стальные компоненты), толщина стенок и различия в типах герметиков, изменяют момент, необходимого для достижения правильной интерференции, и будут значительно различаться между приложениями.
+
+Используйте рекомендуемый стол крутящего момента для правильной установки трубной пробки.
+
+| **Торковый стол** |  |  |  |  |  |
 |---|---|---|---|---|---|
-| Pipe Plug Size | Full Rotations After Hand Tight | Torque |  |  |  |
-| Thread | Actual Thread O.D. | 1 Full Rotation = 360 Degrees | In Aluminum / Cast Iron or Steel Components |  |  |
-| in | mm \[ in \] | Rotations | Degrees | N•m | ft-lb |
-| 1/16 | 8.1 \[ 0.32 \] | 1 to 2 | 360 to 720 | 5 to 15 | 3 to 10 |
-| 1/8 | 10.4 \[ 0.41 \] | 1 to 2 | 360 to 720 | 15 to 20 | 10 to 15 |
-| 1/4 | 13.7 \[ 0.54 \] | 1 to 2 | 360 to 720 | 20 to 25 | 15 to 20 |
-| 3/8 | 17.3 \[ 0.68 \] | 1 to 2 | 360 to 720 | 25 to 35 | 20 to 25 |
-| 1/2 | 21.6 \[ 0.85 \] | 1 to 2 | 360 to 720 | 35 to 55 | 25 to 40 |
-| 3/4 | 26.7 \[ 1.05 \] | 1 to 2 | 360 to 720 | 45 to 75 | 35 to 55 |
-| 1 | 33.5 \[ 1.32 \] | 1 to 2 | 360 to 720 | 60 to 95 | 45 to 70 |
-| 1-1/4 | 42.2 \[ 1.66 \] | 1 to 2 | 360 to 720 | 75 to 115 | 55 to 85 |
-| 1-1/2 | 48.3 \[ 1.90 \] | 1 to 2 | 360 to 720 | 85 to 135 | 65 to 100 |
+| Размер трубы | Полные повороты после жесткой руки | торм |  |  |  |
+| резьба | Реальная болезнь Резьбы. | 1 Полное вращение = 360 градусов | В алюминиевых / литых железо или стальных компонентах |  |  |
+| в | \[в \] | Вращение | Степени | Н•м | фунт-фут |
+| 1/16 | 8.1 \[ 0.32 \] | 1 к 2 | 360 к 720 | 5-15 | 3-10 |
+| 1/8 | 10.4 \[ 0.41 \] | 1 к 2 | 360 к 720 | 15-20 | 10-15 |
+| 1/4 | 13.7 \[ 0.54 \] | 1 к 2 | 360 к 720 | 20 на 25 | 15-20 |
+| 3/8 | 17.3 \[ 0.68 \] | 1 к 2 | 360 к 720 | 25-35 | 20 на 25 |
+| 1/2 | 21.6 \[ 0.85 \] | 1 к 2 | 360 к 720 | 35-55 | 25-40 |
+| 3/4 | 26.7 \[ 1.05 \] | 1 к 2 | 360 к 720 | 45-75 | 35-55 |
+| 1 | 33.5 \[ 1.32 \] | 1 к 2 | 360 к 720 | 60-95 | 45-70 |
+| 1-1/4 | 42.2 \[ 1.66 \] | 1 к 2 | 360 к 720 | 75 к 115 | 55-85 |
+| 1-1/2 | 48.3 \[ 1.90 \] | 1 к 2 | 360 к 720 | 85-135 | 65-100 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Tapered pipe plug fittings like National Pipe Thread (NPT) are designed to seal with an interference fit between the male and female thread form.
+>
+> Interference caused by variables in materials (aluminum / cast iron or steel components), wall thickness, and differences in types of sealants change the amount of torque required to achieve the correct interference and will vary significantly between applications.
+>
+> Use the recommended Torque Table for proper pipe plug installation.
+>
+> | **Torque Table** |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | Pipe Plug Size | Full Rotations After Hand Tight | Torque |  |  |  |
+> | Thread | Actual Thread O.D. | 1 Full Rotation = 360 Degrees | In Aluminum / Cast Iron or Steel Components |  |  |
+> | in | mm \[ in \] | Rotations | Degrees | N•m | ft-lb |
+> | 1/16 | 8.1 \[ 0.32 \] | 1 to 2 | 360 to 720 | 5 to 15 | 3 to 10 |
+> | 1/8 | 10.4 \[ 0.41 \] | 1 to 2 | 360 to 720 | 15 to 20 | 10 to 15 |
+> | 1/4 | 13.7 \[ 0.54 \] | 1 to 2 | 360 to 720 | 20 to 25 | 15 to 20 |
+> | 3/8 | 17.3 \[ 0.68 \] | 1 to 2 | 360 to 720 | 25 to 35 | 20 to 25 |
+> | 1/2 | 21.6 \[ 0.85 \] | 1 to 2 | 360 to 720 | 35 to 55 | 25 to 40 |
+> | 3/4 | 26.7 \[ 1.05 \] | 1 to 2 | 360 to 720 | 45 to 75 | 35 to 55 |
+> | 1 | 33.5 \[ 1.32 \] | 1 to 2 | 360 to 720 | 60 to 95 | 45 to 70 |
+> | 1-1/4 | 42.2 \[ 1.66 \] | 1 to 2 | 360 to 720 | 75 to 115 | 55 to 85 |
+> | 1-1/2 | 48.3 \[ 1.90 \] | 1 to 2 | 360 to 720 | 85 to 135 | 65 to 100 |

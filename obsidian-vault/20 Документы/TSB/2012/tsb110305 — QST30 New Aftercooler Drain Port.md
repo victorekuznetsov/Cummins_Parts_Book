@@ -15,13 +15,15 @@ families:
 parts:
   - "4975820"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110305.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110305.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2012"
+  - "перевод/машинный"
 ---
 
 # QST30 New Aftercooler Drain Port
@@ -33,34 +35,67 @@ tags:
 > **Даты:** выпущен 2012-02-09 · изменён 2012-02-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110305.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110305.pdf)
 
-## QST30 New Aftercooler Drain Port
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## QST30: новое сливное отверстие охладителя наддувочного воздуха
 
-### Contents
+### Положение о гарантии
 
-This document announces a change to the right bank water transfer connector for the aftercooler. The affected options are: TB5717, TB5731, and TB5747. These options are **only** used on QST30 engines with auxiliary cooling systems with a two pump two loop design.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The right bank water transfer connectors have been redesigned with drain ports to allow the coolant to be completely drained from the right bank aftercooler core. Initially, the port was added to the existing part numbers, Part Number 3092905 and Part Number 4975564. This began in production on 01 August 2011.
+### Содержание
 
-The location of the drain port is shown in **Figure 1**, below.
+В этом документе сообщается об изменении на правый берег водопроводного разъёма для послеохладителя. Затронутыми вариантами являются: TB5717, TB5731 и TB5747. Эти опции используются только на двигателях QST30 с вспомогательными системами охлаждения с конструкцией из двух насосов.
+
+Разъемы для передачи воды с правого берега были переработаны с дренажными портами, чтобы охлаждающая жидкость могла полностью сливаться из ядра послеохладителя с правого берега. Первоначально порт был добавлен к существующим номерам деталей, номеру части 3092905 и номеру части 4975564. Начало производства было положено 1 августа 2011 года.
+
+Расположение дренажного порта показано на рисунке 1 ниже.
 
 ![[00m00001.png]]
 
-**Figure 1**. Location of drain port on right bank water transfer connector
+**Рисунок 1**. Расположение дренажного порта на правом берегу водопроводного разъёма
 
-| Table 1. New and Old Right Bank Water Transfer Connectors |  |  |  |
+| Таблица 1. Новые и старые соединения для передачи воды с правого берега |  |  |  |
 |---|---|---|---|
-| New Part Number | Old Part Number | ESN First | Date |
-| 4975819 | 3092905 | 37252700 | 02 Jan 2012 |
-| [[4975820]] | 4975564 | TBD | TBD |
+| Новый номер детали | Прежний номер детали | ESN First | Дата |
+| 4975819 | 3092905 | 37252700 | 02 Январь 2012 |
+| [[4975820]] | 4975564 | ТБД | ТБД |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[4975820]] | WATER TRANSFER CONNECTION | Перепускное водяное соединение |
+
+> [!quote]- Original (English) · английский оригинал
+> ## QST30 New Aftercooler Drain Port
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document announces a change to the right bank water transfer connector for the aftercooler. The affected options are: TB5717, TB5731, and TB5747. These options are **only** used on QST30 engines with auxiliary cooling systems with a two pump two loop design.
+>
+> The right bank water transfer connectors have been redesigned with drain ports to allow the coolant to be completely drained from the right bank aftercooler core. Initially, the port was added to the existing part numbers, Part Number 3092905 and Part Number 4975564. This began in production on 01 August 2011.
+>
+> The location of the drain port is shown in **Figure 1**, below.
+>
+> **Figure 1**. Location of drain port on right bank water transfer connector
+>
+> | Table 1. New and Old Right Bank Water Transfer Connectors |  |  |  |
+> |---|---|---|---|
+> | New Part Number | Old Part Number | ESN First | Date |
+> | 4975819 | 3092905 | 37252700 | 02 Jan 2012 |
+> | [[4975820]] | 4975564 | TBD | TBD |
+>
+> ### Document History

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4022094"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-019-115.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-019-115.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/123"
+  - "перевод/машинный"
 ---
 
 # Rail Fuel Pressure Sensor
@@ -34,55 +36,106 @@ tags:
 > **Даты:** изменён 2011-12-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-019-115.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-019-115.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The injector metering rail 1 pressure sensor is located on the front of the fuel pump.
+
+### Общие сведения
+
+Форсунка с датчиком давления 1 расположен на передней части топливного насоса.
 
 ![[19401094.png]]
 
-### Remove
+### Снятие
 
-Clean the area around the injector metering rail 1 pressure sensor.
+Очистите область вокруг топливного форсунка с помощью датчика давления 1.
 
-Disconnect the injector metering rail 1 pressure sensor connector from the engine harness.
+Отсоедините рельс 1 датчика давления форсунки от проводов двигателя.
 
 ![[19401102.png]]
 
-Remove the injector metering rail 1 pressure sensor.
+Удалите датчик давления 1 форсунки.
 
-Remove the soft seal.
+Удалите мягкую печать.
 
 ![[19401260.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the engine harness connector and the injector metering rail 1 pressure sensor for the following:
+Осмотрите разъём ремня электропроводки двигателя и датчик давления форсунки 1 для следующего:
 
-- Cracked or broken connector shell
-- Missing or damaged connector seals
-- Dirt, debris, or moisture in or on the connector pins
-- Corroded, bent, broken, pushed back, or expanded pins.
+- Разбитая или разбитая соединительная оболочка
+- Пропавшие или поврежденные соединительные уплотнения
+- Грязь, мусор или влага в или на контактах разъема
+- Корродированные, согнутые, сломанные, отодвинутые назад или расширенные булавки.
 
 ![[19d01807.png]]
 
-Inspect the injector metering rail 1 pressure sensor for the following:
+Осмотрите датчик давления форсунки 1 для измерения давления следующим образом:
 
-- Debris on the tip of the sensor
-- Thread damage.
+- Обломки на кончике датчика
+- Повреждение струны.
 
-Replace the injector metering rail 1 pressure sensor if damage is found.
+Заменить датчик давления форсунки 1 датчиком измерения давления, если обнаружено повреждение.
 
 ![[19d01808.png]]
 
-### Install
+### Установка
 
-Install a new soft seal and the injector metering rail 1 pressure sensor.
+Установите новый мягкий уплотнитель и датчик давления 1 топливного форсунка.
 
-> [!tip] Момент затяжки · Torque Value
-> 136 n•m [100 ft-lb]
+> [!tip] Момент затяжки
+> 136 Н·м [100 фунт-фут]
 
-Connect the engine harness to the injector metering rail 1 pressure sensor.
+Подключите жгут электропроводки двигателя к датчику давления 1 топливного форсунка.
 
-Start the engine and check for leaks.
+Запустите двигатель и проверьте наличие утечек.
 
 ![[19401261.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The injector metering rail 1 pressure sensor is located on the front of the fuel pump.
+>
+> ### Remove
+>
+> Clean the area around the injector metering rail 1 pressure sensor.
+>
+> Disconnect the injector metering rail 1 pressure sensor connector from the engine harness.
+>
+> Remove the injector metering rail 1 pressure sensor.
+>
+> Remove the soft seal.
+>
+> ### Inspect for Reuse
+>
+> Inspect the engine harness connector and the injector metering rail 1 pressure sensor for the following:
+>
+> - Cracked or broken connector shell
+> - Missing or damaged connector seals
+> - Dirt, debris, or moisture in or on the connector pins
+> - Corroded, bent, broken, pushed back, or expanded pins.
+>
+> Inspect the injector metering rail 1 pressure sensor for the following:
+>
+> - Debris on the tip of the sensor
+> - Thread damage.
+>
+> Replace the injector metering rail 1 pressure sensor if damage is found.
+>
+> ### Install
+>
+> Install a new soft seal and the injector metering rail 1 pressure sensor.
+>
+> **Момент затяжки · Torque Value**
+> 136 n•m [100 ft-lb]
+>
+> Connect the engine harness to the injector metering rail 1 pressure sensor.
+>
+> Start the engine and check for leaks.

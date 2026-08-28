@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-018.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-018.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Filter Head Adapter
@@ -34,102 +36,196 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-018.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+### Подготовительные операции
 
-> [!warning] CAUTION · Осторожно
-> Use caution when draining oil or replacing filters that the oil is not spilled or drained into the bilge area. The oil and oil filters must be disposed of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-- Remove the oil filters. Refer to Procedure [[20-007-013-tr — Lubricating Oil Filter (Spin-On)|007-013]].
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при сливе масла или замене фильтров, чтобы масло не разлилось или не слилось в зону трюма. Масляные и масляные фильтры должны быть утилизированы в соответствии с местными экологическими нормами.
+
+- Удалите масляные фильтры. См. процедуру[[20-007-013-tr — Lubricating Oil Filter (Spin-On)|007-013]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Threaded
+сжатый
 
-Remove the adapter using a 190.5 cm \[¾-in\] square drive tool.
+Удалите адаптер с помощью квадратного привода 190,5 см \[3⁄4-в\].
 
 ![[07400332.png]]
 
-Plate Type
+Тип пластины
 
-Remove the four capscrews.
+Удалите четыре болта.
 
-Remove the oil filter head adapter.
+Удалите адаптер масляного фильтра.
 
-Remove and discard the o-ring.
+Удалите и отбросьте кольцо.
 
 ![[07400002.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Threaded
+сжатый
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the adapter with solvent.
+Очистите адаптер растворителем.
 
-Check the adapter for damage.
+Проверьте адаптер на наличие повреждений.
 
-If the adapter is damaged, it **must** be replaced.
+Если адаптер поврежден, его необходимо заменить.
 
 ![[07400332.png]]
 
-Plate Type
+Тип пластины
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the adapter with solvent.
+Очистите адаптер растворителем.
 
-Check the adapter for cracks or damage.
+Проверьте адаптер на наличие трещин или повреждений.
 
-If the adapter is damaged, it **must** be replaced.
+Если адаптер поврежден, его необходимо заменить.
 
 ![[07400003.png]]
 
-### Install
+### Установка
 
-Threaded
+сжатый
 
-Apply Loctite® 609 or equivalent to the threads of the adapter.
+Применять Loctite® 609 или эквивалентную резьбу адаптера.
 
-Install the adapter. Use a \[¾-in\] square drive tool
+Установите адаптер. Используйте инструмент квадратного привода \[3⁄4-in\]
 
-Tighten the adapter.
+Затяните адаптер.
 
-> [!tip] Момент затяжки · Torque Value
-> 135 n•m [100 ft-lb]
+> [!tip] Момент затяжки
+> 135 Н·м [100 фунт-фут]
 
 ![[07400332.png]]
 
-Plate Type
+Тип пластины
 
-Lubricate the o-ring (1) and install it into the oil filter head prior to installing the adapter.
+Смазать кольцо (1) и установить его в масляный фильтр головки перед установкой адаптера.
 
-Lubricate o-rings (2 and 3) and install them into the adapter.
+Смазать кольца (2 и 3) и установить их в адаптер.
 
-Use the locating pin to align the oil filter head adapter, with the oil filter head, install the adapter.
+Используйте штифт определения местоположения, чтобы выровнять адаптер головки масляного фильтра с головкой масляного фильтра, установите адаптер.
 
-Install the capscrews.
+Установите болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 23 n•m [17 ft-lb]
+> [!tip] Момент затяжки
+> 23 Н·м [17 фунт-фут]
 
-![[07400004.png]]
+> [!missing]- Иллюстрация `07400004.png` не извлечена — смотрите PDF-оригинал документа
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the oil filters. Refer to Procedure [[20-007-013-tr — Lubricating Oil Filter (Spin-On)|007-013]].
-- Operate the engine and check for leaks.
+- Установите масляные фильтры. См. процедуру[[20-007-013-tr — Lubricating Oil Filter (Spin-On)|007-013]].
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **CAUTION · Осторожно**
+> Use caution when draining oil or replacing filters that the oil is not spilled or drained into the bilge area. The oil and oil filters must be disposed of in accordance with local environmental regulations.
+>
+> - Remove the oil filters. Refer to Procedure [[20-007-013-tr — Lubricating Oil Filter (Spin-On)|007-013]].
+>
+> ### Remove
+>
+> Threaded
+>
+> Remove the adapter using a 190.5 cm \[¾-in\] square drive tool.
+>
+> Plate Type
+>
+> Remove the four capscrews.
+>
+> Remove the oil filter head adapter.
+>
+> Remove and discard the o-ring.
+>
+> ### Clean and Inspect for Reuse
+>
+> Threaded
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the adapter with solvent.
+>
+> Check the adapter for damage.
+>
+> If the adapter is damaged, it **must** be replaced.
+>
+> Plate Type
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the adapter with solvent.
+>
+> Check the adapter for cracks or damage.
+>
+> If the adapter is damaged, it **must** be replaced.
+>
+> ### Install
+>
+> Threaded
+>
+> Apply Loctite® 609 or equivalent to the threads of the adapter.
+>
+> Install the adapter. Use a \[¾-in\] square drive tool
+>
+> Tighten the adapter.
+>
+> **Момент затяжки · Torque Value**
+> 135 n•m [100 ft-lb]
+>
+> Plate Type
+>
+> Lubricate the o-ring (1) and install it into the oil filter head prior to installing the adapter.
+>
+> Lubricate o-rings (2 and 3) and install them into the adapter.
+>
+> Use the locating pin to align the oil filter head adapter, with the oil filter head, install the adapter.
+>
+> Install the capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 23 n•m [17 ft-lb]
+>
+> ### Finishing Steps
+>
+> - Install the oil filters. Refer to Procedure [[20-007-013-tr — Lubricating Oil Filter (Spin-On)|007-013]].
+> - Operate the engine and check for leaks.

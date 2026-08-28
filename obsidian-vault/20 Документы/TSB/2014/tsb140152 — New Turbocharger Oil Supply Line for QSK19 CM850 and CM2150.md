@@ -16,13 +16,15 @@ families:
 parts:
   - "3086021"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140152.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb140152.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
   - "год/2014"
+  - "перевод/машинный"
   - "тема/lubricating-oil-systems"
 ---
 
@@ -36,67 +38,131 @@ tags:
 > **Даты:** выпущен 2014-11-06 · изменён 2014-11-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140152.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb140152.pdf)
 
-## New Turbocharger Oil Supply Line for QSK19 CM850 and CM2150
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новая маслоподводящая магистраль турбокомпрессора для QSK19 CM850 и CM2150
 
-### Contents
+### Положение о гарантии
 
-This document introduces a new turbocharger oil supply line for QSK19 CM850 and CM2150 engines using engine option TP 4725.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-**Reason for Change**
+### Содержание
 
-A section of rigid tube has been added to the new turbocharger oil supply line. This change improves orientation of the turbocharger oil supply line between the turbocharger turbine housing and turbocharger coolant supply line.
+В этом документе представлена новая линия подачи масла турбокомпрессора для двигателей QSK19 CM850 и CM2150 с использованием опции двигателя TP 4725.
 
-**Service Parts Available**
+**Причина изменения**
 
-Yes. See Table 1.
+К новой линии подачи масла турбокомпрессора добавлен участок жесткой трубы. Это изменение улучшает ориентацию линии подачи масла турбокомпрессора между корпусом турбины турбокомпрессора и линией подачи охлаждающей жидкости турбокомпрессора.
 
-**Part Structure**
+**Доступные сервисные части**
 
-The new part number does not obsolete and supersede the existing part number. The new part is backward compatible with the existing part. The existing part will remain available.
+Да. См. таблицу 1.
 
-**Part Disposition**
+**Часть структуры**
 
-None.
+Новый номер детали не устарел и заменяет существующий номер детали. Новая часть обратно совместима с существующей. Существующая часть останется доступной.
 
-**Production Status**
+**Часть расположения**
 
-Implemented for production. See Table 2.
+Нет.
 
-**Publications Affected**
+**Статус в производстве**
 
-None.
+Внедрено в производство. См. таблицу 2.
 
-| Table1, Turbocharger Oil Supply Lines Part Numbers |  |  |
+**Публикации затронуты**
+
+Нет.
+
+| Таблица 1, Номера частей трубопроводов турбокомпрессорных линий |  |  |
 |---|---|---|
-| Part Description | Existing Part Number | New Part Number |
-| Turbocharger Oil Supply Line | [[3086021]] | 4333931 |
+| Часть описание | Существующий номер детали | Новый номер детали |
+| Маслоподводящая магистраль турбокомпрессора | [[3086021]] | 4333931 |
 
-| Table 2, Plant Information |  |  |  |
+| Таблица 2, Информация о растениях |  |  |  |
 |---|---|---|---|
-| New Part Number | ESN First | Build Date | Plant |
-| 4333931 | 37262382 | 21 July 2014 | Seymour Engine Plant |
+| Новый номер детали | ESN First | Дата постройки | растение |
+| 4333931 | 37262382 | 21 июля 2014 | Сеймурский моторный завод |
 
-The following plants may also be affected, however ESN first and build date information is **not** available.
+Могут также быть затронуты следующие растения, однако информация о дате строительства не доступна.
 
-- Chongqing Cummins Engine Company
-- Cummins India LTD Plant
+- Компания Chongqing Cummins Engine
+- Cummins India LTD Plant (Индия)
 
 ![[10r00088.png]]
 
-Figure 1, New Turbocharger Oil Supply Line
+Рисунок 1, новая линия поставок турбокомпрессора
 
 ![[10r00089.png]]
 
-Figure 2, New Turbocharger Oil Supply Line Installed On Engine
+Рисунок 2, Новая линия подачи масла турбокомпрессора, установленная на двигателе
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3086021]] | FLEXIBLE HOSE | Гибкий шланг |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Turbocharger Oil Supply Line for QSK19 CM850 and CM2150
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document introduces a new turbocharger oil supply line for QSK19 CM850 and CM2150 engines using engine option TP 4725.
+>
+> **Reason for Change**
+>
+> A section of rigid tube has been added to the new turbocharger oil supply line. This change improves orientation of the turbocharger oil supply line between the turbocharger turbine housing and turbocharger coolant supply line.
+>
+> **Service Parts Available**
+>
+> Yes. See Table 1.
+>
+> **Part Structure**
+>
+> The new part number does not obsolete and supersede the existing part number. The new part is backward compatible with the existing part. The existing part will remain available.
+>
+> **Part Disposition**
+>
+> None.
+>
+> **Production Status**
+>
+> Implemented for production. See Table 2.
+>
+> **Publications Affected**
+>
+> None.
+>
+> | Table1, Turbocharger Oil Supply Lines Part Numbers |  |  |
+> |---|---|---|
+> | Part Description | Existing Part Number | New Part Number |
+> | Turbocharger Oil Supply Line | [[3086021]] | 4333931 |
+>
+> | Table 2, Plant Information |  |  |  |
+> |---|---|---|---|
+> | New Part Number | ESN First | Build Date | Plant |
+> | 4333931 | 37262382 | 21 July 2014 | Seymour Engine Plant |
+>
+> The following plants may also be affected, however ESN first and build date information is **not** available.
+>
+> - Chongqing Cummins Engine Company
+> - Cummins India LTD Plant
+>
+> Figure 1, New Turbocharger Oil Supply Line
+>
+> Figure 2, New Turbocharger Oil Supply Line Installed On Engine
+>
+> ### Document History

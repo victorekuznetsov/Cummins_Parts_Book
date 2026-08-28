@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 68
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-014-005.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-014-005.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Engine Testing (Engine Dynamometer)
@@ -34,438 +36,446 @@ tags:
 > **Даты:** изменён 2006-07-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-014-005.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-014-005.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This document provides procedures for the use of an engine control. The engine control is a portable, handheld electronic control, used to start and control engine speed on Cummins® electronic engines. It replaces the throttle pedal, driver interface panel, and fault code monitoring circuits. The engine control has a datalink provision to connect to an electronic service tool to monitor engine operation and fault codes. The engine control harnesses required for the engines are purchased separately. The engine control and engine control harnesses are designed to be used with both (+) 12-VDC and (+) 24-VDC battery systems.
 
-> [!note] Note · Примечание
-> The engine control can be used on engines with frequency throttle calibrations by first downloading a linear throttle calibration to the electronic control module (ECM). After the testing/repair is complete, reload the correct frequency throttle calibration.
+### Общие сведения
+
+В настоящем документе предусмотрены процедуры использования системы управления двигателем. Управление двигателем - это портативное, портативное электронное управление, используемое для запуска и управления скоростью двигателя на электронных двигателях Cummins®. Он заменяет педаль дроссельной заслонки, панель интерфейса водителя и схемы мониторинга кода неисправности. Управление двигателем имеет положение шины данных CAN для подключения к электронному сервисному инструменту для мониторинга работы двигателя и кодов неисправностей. Рулевая проводка двигателя, необходимая для двигателей, приобретается отдельно. Усилители управления двигателем и проводов управления двигателем предназначены для использования как с (+) 12-VDC, так и с (+) 24-VDC аккумуляторными системами.
+
+> [!note] Примечание
+> Управление двигателем может быть использовано на двигателях с частотной калибровкой дроссельной заслонки путем первой загрузки линейной калибровки дроссельной заслонки в электронный модуль управления (ECM). После завершения тестирования/ремонта перезагрузите правильную калибровку частоты дроссельной заслонки.
 
 ![[ck800wa.png]]
 
-### Setup
+### Настройка
 
-Make sure the dynamometer capacity is sufficient to permit testing at 100 percent of the engine's rated horsepower. If the capacity is **not** enough, the testing procedure **must** be modified to the restrictions for the dynamometer.
+Убедитесь, что динамометр достаточной мощности, чтобы позволить тестирование на 100 процентов номинальной мощности двигателя. Если емкость **не достаточно, процедура тестирования** должна быть изменена до ограничений для динамометра.
 
-Use engine lifting fixture, Part Number 3162871, to install the engine to the test stand. Align and connect the dynamometer. See the manufactures instructions for aligning and testing the engine.
+Используйте крепление для подъема двигателя, номер детали 3162871, для установки двигателя на испытательный стенд. Выровняйте и соедините динамометр. См. инструкции по производству для выравнивания и тестирования двигателя.
 
-Refer to Service Bulletin 3666005, Dynamometer and Road Engine Testing, for detailed instructions on auxiliary aftercooling system attachment.
+См. Service Bulletin 3666005, Dynamometer and Road Engine Testing, для подробных инструкций по вспомогательному прикреплению системы послеохлаждения.
 
 ![[nobox.png]]
 
-Air Compressor
+Воздушный компрессор
 
-All air compressors manufactured by Cummins® **must** operate loaded during the engine run-in.
+Все воздушные компрессоры, изготовленные Cummins®, должны работать с загрузкой во время работы двигателя.
 
-During the performance check, all air compressors **must** be in the unloaded or non-operating mode.
+Во время проверки производительности все воздушные компрессоры **должны** находиться в незагруженном или нерабочем режиме.
 
-To unload the compressor, connect a source of compressed air capable of producing 665 kPa \[95 psi\] to the air compressor unloader. This air line (1) **must** contain a valve between the air source and the unloader.
+Для разгрузки компрессора подключите источник сжатого воздуха, способный производить 665 кПа[95 psi], к разгрузчику воздушного компрессора. Эта линия сжатого воздуха (1) должна содержать клапан между источником воздуха и разгрузчиком.
 
 ![[14400052.png]]
 
-To load the compressor use an air tank (2), install an air regulator (3) capable of maintaining 345 to 517 kPa \[50 to 75 psi\] of air pressure at both minimum and maximum engine rpm.
+Для загрузки компрессора используйте воздушный бак (2), установите воздушный регулятор (3), способный поддерживать давление воздуха от 345 до 517 кПа \[50 до 75 psi\] как при минимальном, так и при максимальном оборотах двигателя.
 
-Install a steel tube or high temperature hose (1).
+Установите стальную трубу или высокотемпературный шланг (1).
 
-The compressed air load in the accompanying illustration **must** be attached to the air compressor outlet (4).
+Нагрузка сжатого воздуха в сопроводительной иллюстрации должна быть прикреплена к выходу воздушного компрессора (4).
 
-| celsius |  | fahrenheit |
+| целий |  | Фаренгейт |
 |---|---|---|
-| 235 | MIN | 500 |
+| 235 | Мин | 500 |
 
 ![[14400053.png]]
 
-Mechanically Actuated Injector
+Механически приводимый в действие форсунка
 
-Disconnect the OEM harness 21-pin and 31-pin Deutsch connectors from the engine harness.
+Отсоедините проводные упряжки OEM 21-контактный и 31-контактный разъемы Deutsch от электропроводки двигателя.
 
-Connect the engine control harness, Part Number 3163891, 21-pin and 31-pin Deutsch connectors to the engine wiring harness.
+Подключите к ремню электропроводки управления двигателем, номер детали 3163891, 21-контактные и 31-контактные разъёмы Deutsch к ремню электропроводки двигателя.
 
 ![[19a00768.png]]
 
-Electronically Actuated Injector
+Электронный форсунка
 
-Use INSITE™ electronic service tool to monitor engine coolant temperature. Install a coolant pressure sensor, if needed.
+Используйте инструмент электронного обслуживания INSITETM для мониторинга температуры охлаждающей жидкости двигателя. Установите датчик давления охлаждающей жидкости, если это необходимо.
 
 ![[14c00040.png]]
 
-Coolant Plumbing
+Охлаждающая сантехника
 
-Connect the coolant supply to the water inlet connection.
+Подключите подачу охлаждающей жидкости к впускному соединению с водой.
 
-Connect the coolant return to the water outlet connection.
+Подключите охлаждающую жидкость к выходному соединению.
 
-Install the drain plugs and close all of the water drain cocks.
+Установите дренажные пробки и закройте все водосливные петухи.
 
-Open the coolant vents.
+Откройте вентиляционные отверстия.
 
-Low temperature aftercooler engines require connecting the low temperature aftercooler water lines to a remote heat exchanger.
+Низкотемпературные двигатели послеохладителя требуют подключения низкотемпературных линий послеохладителя к удаленному теплообменнику.
 
-Charge air cooled engines require a remote heat exchanger to cool the intake air.
+Зарядка двигателей с воздушным охлаждением требует удаленного теплообменника для охлаждения впускного воздуха.
 
-Marine heat exchanger engines require fresh water supplied to the raw water pump to cool the engine. Marine keel cooled engines require a remote heat exchanger or radiator to cool the engine.
+Морские теплообменники требуют пресной воды, подаваемой в насос для охлаждения двигателя. Двигатели с морским килем требуют удаленного теплообменника или радиатора для охлаждения двигателя.
 
 ![[08400044.png]]
 
-Intake Air Temperature Control
+Контроль температуры воздуха
 
-The use of a remote heat exchanger is mandatory when a Cummins® low temperature aftercooler engine is attached to an engine dynamometer for the purpose of engine run-in, performance testing and engine diagnostics. Do **not** attempt to operate a Cummins® low temperature aftercooler engine without any means of controlling the intake manifold air temperature.
+Использование удаленного теплообменника является обязательным, когда низкотемпературный двигатель послеохладителя Cummins® прикреплен к динамометру двигателя с целью запуска двигателя, тестирования производительности и диагностики двигателя. **Не** пытаться использовать низкотемпературный двигатель послеохладителя Cummins® без каких-либо средств контроля температуры воздуха впускного коллектора.
 
-1. Aftercooler water out
-2. Aftercooler water in
-3. Water out to drain
-4. Cool water in
+1. Послеохлаждение воды
+2. Послеохлажденная вода в
+3. Вода выходит в слив
+4. Холодная вода в
 
 ![[10400042.png]]
 
-LTA
+ЛЕТ
 
-Used **only** on engines with mechanically actuated injectors.
+Используется только на двигателях с механически приводимым в действие топливным форсункой.
 
-> [!note] Note · Примечание
-> The heat exchanger **must** be sized to maintain 70°C \[160°F\] maximum intake air temperature at full power.
+> [!note] Примечание
+> Теплообменник должен быть размером для поддержания максимальной температуры воздуха при впуске 70°C \[160°F\] при полной мощности.
 
-All QSK19 ratings of 601 horsepower and above require low temperature aftercooling and, therefore, have unique radiator requirements. The ratings of 600 HP and below do **not** require low temperature aftercooler. The low temperature aftercooler is a one-pump, two-loop cooling system.
+Все показатели QSK19 мощностью 601 лошадиная сила и выше требуют низкой температуры после охлаждения и, следовательно, имеют уникальные требования к радиатору. Рейтинги 600 л.с. и ниже не требуют низкой температуры после охлаждения. Низкотемпературный послеохладитель представляет собой систему охлаждения с одним насосом и двумя контурами.
 
-1. Water in
-2. Thermostat housing
-3. low temperature aftercooler out
-4. Water out
-5. Low temperature aftercooler return
+1. Вода в
+2. Корпус термостата
+3. Низкая температура после охлаждения
+4. Вода уходит
+5. Низкая температура после охлаждения возвращается
 
 ![[10400043.png]]
 
-Electronically Actuated Injector
+Электронный форсунка
 
-The use of a remote heat exchanger is mandatory when a Cummins® charge air cooled engine is attached to an engine dynamometer for the purpose of engine run-in, performance testing and engine diagnostics. Do **not** attempt to operate a Cummins® charge air cooled engine without any means of controlling the intake manifold air temperature to approximately 49° C \[120° F\] at rated power.
+Использование удаленного теплообменника является обязательным, когда двигатель с воздушным охлаждением Cummins® прикреплен к динамометру двигателя для целей запуска двигателя, тестирования производительности и диагностики двигателя. Сделайте **не** попытку управлять двигателем с воздушным охлаждением Cummins® без каких-либо средств управления температурой воздуха впускного коллектора до приблизительно 49 ° C \[120° F \] при номинальной мощности.
 
-1. Charge air in
-2. Air out
-3. Cool fresh water in
-4. Warm fresh water to drain.
+1. Зарядка воздуха в
+2. Выше воздух
+3. Пресная прохладная вода в
+4. Теплая пресная вода для слива.
 
 ![[10400042.png]]
 
-> [!warning] CAUTION · Осторожно
-> The lubricating oil system must be primed before operating the engine after rebuild to avoid internal component damage. Do not prime the system from the bypass filter as the filter will be damaged.
+> [!warning] ОСТОРОЖНО
+> Система моторного масла должна быть заряжена перед работой двигателя после реконструкции, чтобы избежать повреждения внутренних компонентов. Не загружайте систему из обходного фильтра, так как фильтр будет поврежден.
 
-Remove the large plug from the oil cooler housing.
+Удалите большую пробку из корпуса масляного охладителя.
 
 ![[14400011.png]]
 
-Use a pump capable of supplying 207 kPa \[30 psi\] continuous pressure. Connect the pump to the front of the engine oil cooler as shown.
+Используйте насос, способный подавать 207 кПа \[30 psi\] непрерывного давления. Подключите насос к передней части охладителя моторного масла, как показано.
 
-Use a supply of clean oil. Turn the pump to the ON position. Check the engine oil pressure gauge. When the gauge indicates oil pressure, begin monitoring the oil level in the oil pan.
+Используйте запас чистого масла. Поверните насос в положение ON. Проверьте датчик давления масла в двигателе. Когда калибр указывает на давление масла, начните мониторинг уровня масла в масляной кастрюле.
 
-Turn the pump off when the oil level reaches the low level on the dipstick.
+Выключите насос, когда уровень масла достигает низкого уровня на измерителе уровня масла.
 
 ![[pl4hoha.png]]
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> Do not add cold coolant to a hot engine. This can cause engine casting damage. Allow the engine to cool to below 50°C \[120°F\] before adding coolant.
+> [!warning] ОСТОРОЖНО
+> Не добавляйте холодную охлаждающую жидкость в горячий двигатель. Это может привести к повреждению литья двигателя. Позвольте двигателю охладиться до температуры ниже 50°C \[120°F\] перед добавлением охлаждающей жидкости.
 
-Make sure the cooling system vents on the engine are open. Fill the engine with coolant.
+Убедитесь, что вентиляционные отверстия системы охлаждения на двигателе открыты. Заполните двигатель охлаждающей жидкостью.
 
-Check the engine coolant level to be sure it is filled to the proper level.
+Проверьте уровень охлаждающей жидкости двигателя, чтобы убедиться, что он заполнен до надлежащего уровня.
 
-Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
+См. процедуру[[20-008-018-tr — Cooling System|008-018]].
 
 ![[ra200sa.png]]
 
-Check the engine lubricating oil level to be sure it is filled to the proper level.
+Проверьте уровень моторного масла двигателя, чтобы убедиться, что оно заполнено до нужного уровня.
 
-> [!note] Note · Примечание
-> Use a known source of good quality number 2 diesel fuel.
+> [!note] Примечание
+> Используйте известный источник дизельного топлива хорошего качества № 2.
 
-This is very important since number 1 diesel fuels, along with most other alternate fuels, are lighter (lower specific gravity, higher API gravity) than number 2 diesel fuel. The lighter the fuel, the lower the energy content (BTU) per gallon (liter, etc.).
+Это очень важно, поскольку дизельное топливо № 1, наряду с большинством других альтернативных видов топлива, легче (более низкая удельная гравитация, более высокая гравитация API), чем дизельное топливо № 2. Чем легче топливо, тем ниже содержание энергии (BTU) на галлон (литр и т.д.).
 
 ![[oi900sb.png]]
 
-Engine Throttle Control
+Двигатель Throttle Control
 
-Mechanically Actuated Injectors
+Механически приводимый в действие форсунка
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-Disconnect the battery cables before beginning the following procedure.
+Отключите кабели аккумулятора перед началом следующей процедуры.
 
-Disconnect the OEM harness from the electronic control module (ECM) if applicable.
+Отключите электропроводку OEM от электронного модуля управления (ECM), если это применимо.
 
 ![[22c00141.png]]
 
-Disconnect the OEM harness 21-pin and 31-pin Deutsch connectors from the engine harness, if connected.
+Отсоедините проводные упряжки OEM 21-контактный и 31-контактный разъемы Deutsch от упряжки проводов двигателя, если они подключены.
 
-Connect the engine control harness, Part Number 3163891.
+Подключите электропроводку управления двигателем, номер детали 3163891.
 
-Connect the 21-pin and 31-pin Deutsch connectors to the engine wiring harness.
+Подключите 21-контактные и 31-контактные разъемы Deutsch к ремню электропроводки двигателя.
 
 ![[19a00768.png]]
 
-> [!note] Note · Примечание
-> If additional cable length is needed to connect the engine control, use electrical cable, Part Number 3168895.
+> [!note] Примечание
+> Если для подключения управления двигателем требуется дополнительная длина кабеля, используйте электрический кабель, номер детали 3168895.
 
-Connect the engine control harness (2) to the engine control. An INSITE™ electronic service tool equipped personal computer can be used to monitor circuits for proper operation. Connect the INLINE™ 5 datalink adapter kit, Part Number 4918416, (3) and a personal computer to the datalink connector of the engine control.
+Подключите проводку управления двигателем (2) к управлению двигателем. Электронный инструмент, оснащенный персональным компьютером INSITETM, может использоваться для мониторинга цепей для правильной работы. Подключите комплект адаптера шины данных INLINETM 5 CAN, номер детали 4918416, (3) и персональный компьютер к разъему шины данных CAN управления двигателем.
 
 ![[22c00125.png]]
 
-Engines that are run on an engine dynamometer require the engine harness be installed and connected to the engine. Additionally, the engine control, Part Number 3163890, **must** be used to properly control the engine during the dynamometer run.
+Двигатели, которые работают на динамометре двигателя, требуют установки и подключения к двигателю электропроводки. Кроме того, двигатель, номер детали 3163890, должен быть использован для правильного управления двигателем во время работы динамометра.
 
 ![[wr8coac.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-Connect battery power to the starter.
+Подключите питание от батареи к стартеру.
 
-Connect the dynamometer test OEM wiring harness starter solenoid lead (yellow) to the starter solenoid. Connect the ground lead (black) to the starter solenoid. Connect the ground lead (black) to the starter or battery negative (-) or ground side. Connect the (+) 12 VDC power lead (red) to either the starter or battery positive (+) 12 VDC side.
+Подключите динамометр теста OEM-проводов ремня стартера соленоидного свинца (желтого цвета) к стартерному соленоиду. Подключите грунтовый свинец (черный) к стартеру соленоида. Подключите заземляющий свинец (черный) к стартеру или аккумулятору отрицательной (-) или стороне земли. Подключите (+) 12 VDC power lead (красный) к стартеру или аккумулятору с положительной (+) стороной 12 VDC.
 
 ![[sb8coma.png]]
 
-Rotate the throttle knob fully **counterclockwise**. Push down on the throttle knob to return the throttle to the idle position.
+Вращайте ручку дроссельной заслонки полностью **против часовой стрелки**. Нажмите на ручку дроссельной заслонки, чтобы вернуть дроссель в положение холостого хода.
 
-Repeat this step three times.
+Повторите этот шаг три раза.
 
-Turn the keyswitch to the OFF position for 30 seconds.
+Переключатель зажигания в положение выключения в течение 30 секунд.
 
 ![[22c00156.png]]
 
-> [!warning] CAUTION · Осторожно
-> Check coolant and lubricating oil levels before starting and operating engine. If coolant and lubricating oil are not at the proper level engine damage can result.
+> [!warning] ОСТОРОЖНО
+> Проверьте уровень охлаждающей жидкости и моторного масла перед запуском и работой двигателя. Если охлаждающая жидкость и моторное масло не находятся на должном уровне, может возникнуть повреждение двигателя.
 
-Turn the keyswitch to the START position until the engine starts and release the keyswitch.
+Включите переключатель зажигания в положение START до запуска двигателя и отпустите переключатель зажигания.
 
 ![[22c00129.png]]
 
-Electrically Actuated Injectors
+Электрический форсунка
 
-Disconnect the OEM harness 16-pin and 23-pin Deutsch connectors from the engine harness if connected.
+Отсоедините проводку OEM-упряжи 16-контактных и 23-контактных разъемов Deutsch от электропроводки двигателя, если она подключена.
 
-Connect the engine control harness Part Number 4918643.
+Подключите к проводах управления двигателем жгут № 4918643.
 
-Remove the 3-pin Deutsch terminating resistor cap (cap will have a blue insert) from the wiring harness.
+Удалите 3-контактный резисторный колпачок Deutsch (колпачок будет иметь синюю вставку) из проводной упряжки.
 
-Connect the engine control harness 3-pin Deutsch connector to the SAE J1939 Datalink connector of the engine wiring harness.
+Подключите 3-контактный разъем Deutsch для управления двигателем к разъему шины данных SAE J1939 CAN для проводов двигателя.
 
-The 3-pin Deutsch terminating resisting cap **must** be installed after the engine control harness is removed. If the cap is broken or has been misplaced, replace with resistor cap, Part Number 3163051.
+3-контактный Deutsch, заканчивающий резистентную колпачку, должен быть установлен после того, как убрана проводка управления двигателем. Если крышка сломана или была неправильно расположена, замените резисторную крышку, номер детали 3163051.
 
 ![[22400280.png]]
 
-Ground Connection
+Наземное соединение
 
-Connect the black-wire alligator clip of the engine control harness to the engine block to achieve electrical ground.
+Подключите черную проводку аллигатора к ремню управления двигателем к блоку двигателя, чтобы достичь электрического заземления.
 
 ![[19c01031.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not connect the alligator clip to the starter motor solenoid “S” terminal. Doing so can cause equipment damage.
+> [!warning] ОСТОРОЖНО
+> Не подключайте зажим аллигатора к стартовому моторному соленоидному терминалу «S». Это может привести к повреждению оборудования.
 
-Starter Connection
+Стартовое соединение
 
-If **not** already equipped, install and wire a starter magnetic switch.
+Если **не** уже оборудован, установите и проведите стартерный магнитный переключатель.
 
-Clip the alligator connector to the positive (+) coil terminal of the starter magnetic switch.
+Заткните разъем аллигатора к положительному (+) концевому катушке стартового магнитного переключателя.
 
 ![[22400055.png]]
 
 Air Starter
 
-If an air starter is being used, coil the red wire into a loop and secure the loop to the engine control harness to protect it from an electrical short.
+Если используется воздушный стартер, перевяжите красный провод в петлю и закрепите петлю к электропроводке управления двигателем, чтобы защитить его от электрического короткого.
 
 ![[19c01032.png]]
 
-Engine Operation
+Работа двигателя
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-Attach the engine control harness using the ring terminal of the red wire to the positive (+) terminal of the battery.
+Прикрепите проводку управления двигателем с помощью кольцевого терминала красного провода к положительному (+) терминалу батареи.
 
-Attach the engine control harness using the ring terminal of the black wire to the negative (-) terminal of the battery.
+Прикрепите проводку управления двигателем с помощью кольцевого терминала черного провода к отрицательному (-) терминалу батареи.
 
 ![[22c00141.png]]
 
-> [!warning] CAUTION · Осторожно
-> Verify the red wire is connected to the positive (+) battery terminal and the black wire is connected to the negative (-) battery terminal. Equipment or engine damage can result if not connected properly.
+> [!warning] ОСТОРОЖНО
+> Проверить, что красный провод подключен к положительному (+) клемме батареи, а черный провод подключен к отрицательному (-) клемме батареи. Повреждение оборудования или двигателя может привести к неправильному подключению.
 
-The power light will illuminate when power is supplied and the keyswitch is turned to the accessory or ON position.
+Силовой свет будет освещаться при подаче питания и переключатель зажигания поворачивается в положение аксессуара или Включено.
 
-If the power light does **not** illuminate, return the keyswitch to the OFF position. Verify the red wire is connected to the positive (+) battery terminal and the black wire is connected to the negative (-) battery terminal.
+Если силовой свет не освещается, верните переключатель зажигания в положение выключения. Проверить, что красный провод подключен к положительному (+) клемме батареи, а черный провод подключен к отрицательному (-) клемме батареи.
 
-Turn the keyswitch to the ON position.
+Переведите замок зажигания в положение ON.
 
 ![[22c00127.png]]
 
-Light indicators on the engine control, STOP, WARN, MAINT, WIF, and WAIT TO START, will illuminate if applicable. The light indicators will illuminate for approximately 30 seconds. If no fault codes are found, the light indicators will extinguish.
+Световые индикаторы на управлении двигателем, STOP, WARN, MAINT, WIF и WAIT TO START, будут освещаться, если это применимо. Световые индикаторы будут светиться в течение примерно 30 секунд. Если не будет найдено кодов неисправностей, световые индикаторы погаснут.
 
-If the STOP light indicator (red) or WARN light indicator (yellow) continues to illuminate, use INSITE™ electronic service tool and the OEM service literature to diagnose the engine fault code.
+Если индикатор STOP (красный) или индикатор WARN (желтый) продолжает освещаться, используйте инструмент для электронного обслуживания INSITETM и литературу по обслуживанию OEM для диагностики кода неисправности двигателя.
 
 ![[22c00128.png]]
 
-> [!warning] CAUTION · Осторожно
-> Check coolant and lubricating oil levels before starting and operating engine. If coolant and lubricating oil are not at the proper level engine damage can result.
+> [!warning] ОСТОРОЖНО
+> Проверьте уровень охлаждающей жидкости и моторного масла перед запуском и работой двигателя. Если охлаждающая жидкость и моторное масло не находятся на должном уровне, может возникнуть повреждение двигателя.
 
-Turn the keyswitch to the START position until the engine starts and release the keyswitch.
+Включите переключатель зажигания в положение START до запуска двигателя и отпустите переключатель зажигания.
 
 ![[22c00129.png]]
 
-> [!note] Note · Примечание
-> The engine can be returned to idle at any time by pushing in on the throttle knob.
+> [!note] Примечание
+> Двигатель может быть возвращен в бездействие в любое время, нажав на ручку дросселя.
 
-Slowly rotate the throttle knob **counterclockwise** to increase the engine rpm.
+Медленно поверните ручку дроссельной заслонки **против часовой стрелки**, чтобы увеличить обороты двигателя.
 
-Slowly rotate the throttle knob **clockwise** to decrease the engine rpm.
+Медленно поверните ручку дроссельной заслонки **по часовой стрелке**, чтобы уменьшить обороты двигателя.
 
 ![[22c00130.png]]
 
-Turn the keyswitch to the OFF position to stop the engine.
+Включите переключатель зажигания в положение выключения, чтобы остановить двигатель.
 
 ![[22c00131.png]]
 
-Mechanically Actuated Injector
+Механически приводимый в действие форсунка
 
-> [!note] Note · Примечание
-> Some engines are equipped with fittings used for Compuchek™ testing sensors. The sensor probes used for Compuchek™ and dynamometer testing are **not** compatible. If the same location is used, remove the Compuchek™ fitting and install adapters for the dynamometer sensor.
+> [!note] Примечание
+> Некоторые двигатели оснащены фитингами, используемыми для датчиков тестирования CompuchekTM. Датчики, используемые для тестирования CompuchekTM и динамометра, не совместимы. Если используется одно и то же место, удалите установку CompuchekTM и установите адаптеры для датчика динамометра.
 
-Install the coolant pressure sensor (1).
+Установите датчик давления охлаждающей жидкости (1).
 
-Install the coolant temperature sensor (2).
+Установите датчик температуры охлаждающей жидкости (2).
 
 ![[19400310.png]]
 
-Return parameters to their original value when the test or run-in is complete.
+Возврат параметров к их первоначальному значению, когда тест или запуск завершены.
 
-Connect the keyswitch panel datalink cable to the Cummins® electronic service tool.
+Подключите панель переключателя зажигания CAN кабеля шины данных к электронному сервисному инструменту Cummins®.
 
-Use INSITE™ electronic service tool to set the engine up for the dynamometer. Refer to Procedure [[20-014-008 — Engine Testing (In Chassis)|014-008]] for more information on this feature.
+Используйте инструмент электронного обслуживания INSITETM для настройки двигателя для динамометра. См. процедуру[[20-014-008 — Engine Testing (In Chassis)|014-008]]Для получения дополнительной информации об этой функции.
 
-The setup is now complete, and the auto/manual throttle can be used to control engine speed.
+Настройка теперь завершена, и для управления скоростью двигателя можно использовать автоматическое / ручное дроссельное заслонки.
 
 ![[14c00040.png]]
 
-Engine operating specifications are available from your Cummins® Authorized Repair Location.
+Технические характеристики двигателя доступны в вашем авторизованном месте ремонта Cummins®.
 
 ![[lt800ga.png]]
 
-### Test
+### Проверка
 
-The INSITE™ electronic service tool will provide most, if **not** all, of the parameters.
+Инструменты электронного сервиса INSITETM обеспечат большинство, если не все, параметров.
 
-To properly monitor engine performance, record the following parameters. To limit dynamometer operating time, instrument the engine to make as many checks as possible.
+Для правильного контроля работы двигателя запишите следующие параметры. Чтобы ограничить время работы динамометра, измерьте двигатель, чтобы сделать как можно больше проверок.
 
-- Engine speed rpm with a verified tachometer
-- Fuel pressure
-- Fuel rate (use service tool, Part Number 3376375, or equivalent)
-- Fuel temperature (if needed to correct fuel rate)
-- Fuel inlet restriction
-- Fuel drain line restriction
-- Intake manifold pressure.
-- Intake air restriction
-- Exhaust restriction
-- Coolant temperature
-- Engine blowby
-- Lubricating oil pressure
-- Coolant pressure
-- Intake manifold air temperature
-- Turbocharger inlet air temperature.
+- Скорость двигателя rpm с проверенным тахометром
+- Топливное давление
+- Топливная мощность (использовать сервисную оснастку, Номер детали 3376375 или эквивалент)
+- Температура топлива (если необходимо скорректировать расход топлива)
+- Сопротивление на входе топлива
+- Сопротивление магистрали слива топлива
+- Давление во впускном коллекторе.
+- Ограничение потребления воздуха
+- Сопротивление выпускной системы
+- Температура охлаждающей жидкости
+- Двигатель продувается
+- Давление моторного масла
+- Охлаждающее давление
+- температура воздуха в коллекторе
+- Температура воздуха на входе турбокомпрессора.
 
 ![[nobox.png]]
 
-Engine Speed (rpm)
+Скорость двигателя (rpm)
 
-Use INSITE™ electronic service tool to monitor engine speed. Observe and record the engine speed.
+Используйте инструмент электронного обслуживания INSITETM для мониторинга скорости двигателя. Наблюдайте и записывайте скорость двигателя.
 
-Or use digital optical tachometer, Part Number 3377462, or equivalent, to check and verify engine speed.
+Или используйте цифровой оптический тахометр, номер 3377462, или эквивалент, для проверки и проверки скорости двигателя.
 
 ![[er2tova.png]]
 
-Fuel Pressure
+Топливное давление
 
-Mechanically Actuated Injectors
+Механически приводимый в действие форсунка
 
-Check fuel supply pressure. Refer to Procedure [[20-005-016-tr — Fuel Pump|005-016]].
+Проверьте давление подачи топлива. См. процедуру[[20-005-016-tr — Fuel Pump|005-016]].
 
 ![[05500009.png]]
 
-Fuel Rate
+Тариф на топливо
 
-Mechanically Actuated Injector
+Механически приводимый в действие форсунка
 
-Use fuel measuring device, Part Number 3376375, or equivalent, to measure the rate of fuel consumption.
+Используйте измерительное устройство для измерения расхода топлива, часть 3376375, или эквивалент, для измерения скорости расхода топлива.
 
 ![[eg8togf.png]]
 
-Fuel Inlet Restriction
+Сопротивление на входе топлива
 
-Mechanically Actuated Injectors
+Механически приводимый в действие форсунка
 
-Measure the fuel inlet restriction. Install a vacuum gauge, Part Number ST-434, or equivalent, between the fuel filter and the gear pump inlet.
+Измерить ограничение впуска топлива. Установите вакуумный калибр, номер детали ST-434 или эквивалент, между топливным фильтром и впускным устройством переключателя.
 
-> [!note] Note · Примечание
-> Do **not** measure fuel inlet restriction with the fuel measuring device installed. This will **not** measure the inlet restriction of the vehicle's supply plumbing.
+> [!note] Примечание
+> **Не** Измерять ограничение впуска топлива с помощью установленного устройства измерения топлива. Это не будет измерять ограничение входа сантехники транспортного средства.
 
-Electronically actuated injector refer to Procedure 006-020.
+Электронно приводимый в действие форсунка относится к процедуре 006-020.
 
 ![[06400054.png]]
 
-Fuel Drain Line Restriction
+Сопротивление магистрали слива топлива
 
-Mechanically Actuated Injectors
+Механически приводимый в действие форсунка
 
-Use Pressure Gauge, Part Number ST-1273, or equivalent, to measure fuel drain line restriction.
+Используйте измеритель давления, номер детали ST-1273 или эквивалент, для измерения ограничения линии слива топлива.
 
-> [!note] Note · Примечание
-> Do **not** measure fuel drain line restriction with the fuel measuring device installed. This will **not** measure the drain line restriction of the vehicle's return plumbing.
+> [!note] Примечание
+> Не измеряйте ограничение линии слива топлива с установленным устройством измерения топлива. Это не будет измерять ограничение линии отвода от обратной сантехники транспортного средства.
 
-Refer to Procedure [[20-006-012 — Fuel Drain Line Restriction|006-012]].
+См. процедуру[[20-006-012 — Fuel Drain Line Restriction|006-012]].
 
 ![[06400051.png]]
 
-Intake Manifold Pressure
+Давление во впускном коллекторе
 
-Measure the intake manifold pressure (turbocharger boost). Install pressure gauge, Part Number ST-1273, or equivalent, in the intake manifold as shown.
+Измерьте давление впускного коллектора (усилитель турбокомпрессора). Установите калибр давления, номер детали ST-1273 или эквивалент, в впускном коллекторе, как показано.
 
-Refer to Procedure 010-057.
+См. процедуру 010-057.
 
-Observe the reading on the pressure gauge. Or use INSITE™ electronic service tool.
+Наблюдайте показания на датчике измерения давления. Или используйте инструмент электронного обслуживания INSITETM.
 
 ![[06400102.png]]
 
-Intake Air Restriction
+Ограничение впуска воздуха
 
-Measure the inlet air restriction. Install the vacuum gauge, Part Number ST-434, or equivalent, or a manometer in the intake air piping.
+Измерьте ограничение входного воздуха. Установите вакуумный калибр, номер детали ST-434, или эквивалент, или манометр в трубопроводах для впускного воздуха.
 
-> [!note] Note · Примечание
-> The gauge adapter **must** be installed at a 90 degree angle to the air flow in a straight section of pipe at a minimum of one pipe diameter before the turbocharger.
+> [!note] Примечание
+> Измерительный датчик адаптер должен быть установлен под углом 90 градусов к потоку воздуха в прямом участке трубы при минимум одном диаметре трубы перед турбокомпрессором.
 
-Or use INSITE™ electronic service tool.
+Или используйте инструмент электронного обслуживания INSITETM.
 
-Refer to Procedure [[20-010-031 — Air Intake Restriction|010-031]].
+См. процедуру[[20-010-031 — Air Intake Restriction|010-031]].
 
 ![[10400011.png]]
 
-Exhaust Air Restriction
+Ограничение выхлопных газов
 
-Measure the exhaust air restriction. Install the pressure gauge, Part Number ST-1273, or equivalent, or a manometer in the exhaust air piping.
+Измерьте ограничение выхлопного воздуха. Установите калибр давления, номер детали ST-1273, или эквивалент, или манометр в выхлопных трубах.
 
-The gauge adapter **must** be installed near the turbocharger in a straight section of pipe at the turbine outlet.
+Измерительный датчик адаптер должен быть установлен рядом с турбокомпрессором в прямом участке трубы на выходе турбины.
 
-Refer to Procedure [[20-011-009 — Exhaust Restriction|011-009]].
+См. процедуру[[20-011-009 — Exhaust Restriction|011-009]].
 
 ![[pe4cokb.png]]
 
-Engine Blowby
+Двигатель Blowby
 
-Excessive blowby indicates an air compressor, a turbocharger, or an engine malfunction, allowing combustion gases or air to enter the crankcase and build a pressure higher than normal.
+Чрезмерный продув указывает на воздушный компрессор, турбокомпрессор или неисправность двигателя, что позволяет газам сгорания или воздуху проникать в картер и создавать давление выше нормального.
 
-This procedure describes how to measure crankcase pressure and how to determine the component that is malfunctioning, or use INSITE™ electronic service tool.
+Эта процедура описывает, как измерить давление в картере и как определить компонент, который неисправен, или использовать инструмент электронного обслуживания INSITETM.
 
-Use one of the three blowby service tools and a water manometer, Part Number ST-1111-3, or equivalent. Maximum gauge capacity is 1270 mm-H 2 0 \[50 in-H 2 0\]. The engine blowby tools are similar in design. The difference between the tools is in the size of the orifice.
+Используйте один из трех инструментов для обдува и водяной манометр, часть номер ST-1111-3 или эквивалент. Максимальная мощность измерительной шкалы составляет 1270 мм-Н 2 0 \[50 in-H 2 0\]. Инструменты для продувки двигателя аналогичны по конструкции. Разница между инструментами заключается в размере отверстия.
 
-| Blowby Tool Part Number | Orifice Size \[inch\] |
+| Номер детали инструмента Blowby | Размер отверстия \[inch\] |
 |---|---|
 | 3822566 | \[0.302\] |
 | 3823567 | \[0.354\] |
@@ -473,206 +483,715 @@ Use one of the three blowby service tools and a water manometer, Part Number ST-
 
 ![[eg8toga.png]]
 
-Use a length of hose (1) to attach the blowby tool to one of the crankcase breathers.
+Используйте длинный шланг (1), чтобы прикрепить инструмент для продувки к одному из задувных воздухозаборников.
 
-Plug all of the other breathers.
+Подключите все остальные передышки.
 
-Attach a manometer to the location shown (2).
+Прикрепить манометр к указанному месту (2).
 
 ![[14400010.png]]
 
-A sudden increase in blowby indicates a problem. A gradual increase over a period of time is normal (due to wear of internal engine components).
+Внезапное увеличение продува указывает на проблему. Постепенное увеличение за определенный период времени является нормальным (из-за износа внутренних компонентов двигателя).
 
-Operate the engine at rated rpm and full load (wide open throttle) until a steady reading is obtained.
+Работайте с двигателем при номинальной оборотной массе и полной нагрузке (широко открытый дроссел) до получения устойчивого показания.
 
-Compare the blowby readings to previous readings on the engine. If previous readings for the engine are **not** available, compare the blowby reading to new engine specifications.
+Сравните показания продува с предыдущими показаниями на двигателе. Если предыдущие показания для двигателя не доступны, сравните показания продува с новыми спецификациями двигателя.
 
 ![[eg8toja.png]]
 
-| QSK19 Blowby Limits (using 0.302 inch diameter orifice at rated load and speed) |  |  |
+| QSK19 Blowby Limits (с использованием отверстия диаметром 0,302 дюйма при номинальной нагрузке и скорости) |  |  |
 |---|---|---|
-| Engine HP (RPM Rating) | New/Rebuilt | Used Engine Limit |
-| 699 HP and Below (1500 - 1900) | 305 mm H 2 O \[12 in H 2 O\] | 762 mm H 2 O \[30 in H 2 O\] |
-| 699 HP and Below (2000 and above) | 355 mm H 2 O \[14 in H 2 O\] | 889 mm H 2 O \[35 in H 2 O\] |
-| 700 HP and Above | 508 mm H 2 O \[20 in H 2 O\] | 1270 mm H 2 O \[50 in H 2 O\] |
+| Двигатель HP (RPM Rating) | Новый/перестроенный | Используемый двигательный лимит |
+| 699 л.с. и ниже (1500 - 1900) | 305 мм H 2 O \[12 в H 2 O\] | 762 мм H 2 O \[30 в H 2 O\] |
+| 699 л.с. и ниже (2000 и выше) | 355 мм H 2 O \[14 в H 2 O\] | 889 мм H 2 O \[35 в H 2 O\] |
+| 700 л.с. и выше | 508 мм H 2 O \[20 в H 2 O\] | 1270 мм H 2 O \[50 в H 2 O\] |
 
-| QSK19 Blowby Limits (using 0.354 inch diameter orifice at rated load and speed) |  |  |
+| QSK19 Blowby Limits (с использованием отверстия диаметром 0,354 дюйма при номинальной нагрузке и скорости) |  |  |
 |---|---|---|
-| Engine HP (RPM Rating) | New/Rebuilt | Used Engine Limit |
-| 699 HP and Below (1500 - 1900) | 178 mm H 2 O \[7 in H 2 O\] | 457 mm H 2 O \[18 in H 2 O\] |
-| 699 HP and Below (2000 and above) | 203 mm H 2 O \[8 in H 2 O\] | 508 mm H 2 O \[20 in H 2 O\] |
-| 700 HP and Above | 229 mm H 2 O \[9 in H 2 O\] | 584 mm H 2 O \[23 in H 2 O\] |
+| Двигатель HP (RPM Rating) | Новый/перестроенный | Используемый двигательный лимит |
+| 699 л.с. и ниже (1500 - 1900) | 178 мм H 2 O \[7 в H 2 O\] | 457 мм H 2 O \[18 в H 2 O\] |
+| 699 л.с. и ниже (2000 и выше) | 203 мм H 2 O \[8 в H 2 O\] | 508 мм H 2 O \[20 в H 2 O\] |
+| 700 л.с. и выше | 229 мм H 2 O \[9 в H 2 O\] | 584 мм H 2 O \[23 в H 2 O\] |
 
-| QSK19 Blowby Limits (using 0.406 inch diameter orifice at rated load and speed) |  |  |
+| QSK19 Blowby Limits (с использованием отверстия диаметром 0,406 дюйма при номинальной нагрузке и скорости) |  |  |
 |---|---|---|
-| Engine HP (RPM Rating) | New/Rebuilt | Used Engine Limit |
-| All Ratings | 127 mm H 2 O \[5 in H 2 O\] | 330 mm H 2 O \[13 in H 2 O\] |
+| Двигатель HP (RPM Rating) | Новый/перестроенный | Используемый двигательный лимит |
+| Все рейтинги | 127 мм H 2 O \[5 в H 2 O\] | 330 мм H 2 O \[13 в H 2 O\] |
 
-If the blowby is higher than normal, check the crankcase breathers and breather tubes to see if they are plugged.
+Если продувка выше, чем обычно, проверьте дыхательные пути и дыхательные трубки, чтобы увидеть, подключены ли они.
 
-1. Wing Nut
-2. Washer
-3. Breather
-4. Screen mesh
-5. Breather element
-6. Breather base
+1. Ореховое крыло
+2. стиральная машина
+3. дышащий
+4. Сетка экрана
+5. Элемент сапуна
+6. Дыхательная база
 
-The breather is located inside the housing on electronically actuated injector.
+Дыхательный аппарат расположен внутри корпуса на электронно приводимом в действие топливном форсунке.
 
 ![[br8etha.png]]
 
-Check the engine oil level. If the level is too high it can cause a higher than normal crankcase pressure.
+Проверьте уровень моторного масла. Если уровень слишком высок, это может вызвать более высокое, чем обычно, давление в картере.
 
 ![[oi900sb.png]]
 
-Isolate the turbocharger to determine if the high crankcase pressure is due to seal leakage in the turbocharger.
+Изолируйте турбокомпрессор, чтобы определить, связано ли высокое давление в картере с утечкой уплотнения в турбокомпрессоре.
 
-Disconnect the turbocharger drain line from the oil pan adaptor.
+Отсоедините дренажную линию турбокомпрессора от адаптера масляной поддонной панели.
 
-Install a hose assembly with the two shutoff valves arranged as shown. Place the other hose in an 8 to 19 liter \[2 to 5 gallon\] bucket.
+Установите шланговый сбор с двумя запорными клапанами, расположенными, как показано. Поместите другой шланг в ведро от 8 до 19 литров [2 до 5 галлонов].
 
-> [!note] Note · Примечание
-> The valves **must** have a minimum inside diameter of 19 mm \[0.75 inch\].
+> [!note] Примечание
+> Клапаны **должны** иметь минимальный внутренний диаметр 19 мм \[0,75 дюйма\].
 
 ![[eg4tohe.png]]
 
-Close the valve (A) that allows the oil to drain to the bucket.
+Закройте клапан (A), который позволяет маслу стекать в ведро.
 
 ![[eg4toka.png]]
 
-Open the valve (B) that allows the oil to drain into the engine.
+Откройте клапан (B), который позволяет маслу стекать в двигатель.
 
 ![[eg4tokb.png]]
 
-> [!warning] CAUTION · Осторожно
-> When testing the turbocharger for any contribution to blowby, do not operate the engine with valve A open and valve B closed for more than 1 minute. Operation for more than 1 minute can result in severe engine damage.
+> [!warning] ОСТОРОЖНО
+> При испытании турбокомпрессора на любой вклад в продувку не работайте с двигателем с клапаном А открытым и клапаном В закрытым более 1 минуты. Работа более 1 минуты может привести к серьезным повреждениям двигателя.
 
-Operate the engine at rated speed.
+Управляйте двигателем с номинальной скоростью.
 
-Continue operating at rated speed and load. Open valve A and close valve B. Record the blowby reading.
+Продолжайте работать с номинальной скоростью и нагрузкой. Открытый клапан А и закрытый клапан В. Запишите прослушку.
 
 ![[tb4tosa.png]]
 
-Compare the value to the original reading. If the blowby is now acceptable, replace the turbocharger.
+Сравните значение с оригинальным чтением. Если продувка теперь приемлема, замените турбокомпрессор.
 
-Refer to Procedure [[20-010-033-tr — Turbocharger|010-033]].
+См. процедуру[[20-010-033-tr — Turbocharger|010-033]].
 
 ![[tb400ma.png]]
 
-Isolate the air compressor to determine if it is malfunctioning and causing the high blowby pressure.
+Изолируйте воздушный компрессор, чтобы определить, неисправен ли он и вызывает ли высокое давление продува.
 
-Relieve the air pressure on the first air tank in the system after the air compressor (wet tank).
+Снижает давление воздуха на первый воздушный бак в системе после воздушного компрессора (мокрый бак).
 
-Disconnect the air inlet and outlet connections. Plug the intake manifold or air piping where the inlet connection was removed.
+Отключите впускное и выходное соединения воздуха. Подключите впускной коллектор или воздушные трубопроводы, где было удалено входное соединение.
 
 ![[cp4tbma.png]]
 
-Operate the engine at rated speed and full load (wide open throttle) until a steady blowby reading is obtained.
+Работайте с двигателем с номинальной скоростью и полной нагрузкой (широкий открытый дроссел) до получения устойчивого показания продува.
 
 ![[cp400hi.png]]
 
-Compare the blowby readings to the previous value. If the blowby is now acceptable, replace the air compressor.
+Сравните показания продува к предыдущему значению. Если продувка теперь приемлема, замените воздушный компрессор.
 
-Refer to Procedure [[20-012-014-tr — Air Compressor|012-014]].
+См. процедуру[[20-012-014-tr — Air Compressor|012-014]].
 
 ![[nobox.png]]
 
-A sudden increase in blowby or a high reading that is **not** steady indicates that there is internal damage in the engine.
+Внезапное увеличение продува или высокое значение, которое не является устойчивым, указывает на наличие внутренних повреждений в двигателе.
 
 ![[ew800sa.png]]
 
-Lubricating Oil Pressure
+Давление моторного масла
 
-> [!warning] CAUTION · Осторожно
-> The lubricating oil system must be primed before operating the engine after rebuild to avoid internal component damage. Do not prime the system from the bypass filter as the filter will be damaged.
+> [!warning] ОСТОРОЖНО
+> Система моторного масла должна быть заряжена перед работой двигателя после реконструкции, чтобы избежать повреждения внутренних компонентов. Не загружайте систему из обходного фильтра, так как фильтр будет поврежден.
 
-Use pressure gauge, Part Number 3375275, or equivalent, to measure lubricating oil pressure, or use INSITE™ electronic service tool.
+Используйте измеритель давления, часть 3375275, или эквивалент, для измерения давления моторного масла, или используйте электронный инструмент обслуживания INSITETM.
 
-Install the pressure gauge to the main oil rifle (1) or oil filter head (2).
+Установите датчик измерения давления на главную масляную винтовку (1) или масляную головку фильтра (2).
 
-| kpa |  | psi |
+| каша |  | пси |
 |---|---|---|
-| 138 | MIN | 20 |
-| 207 | NOM | 30 |
+| 138 | Мин | 20 |
+| 207 | НМ | 30 |
 
 ![[ov400ha.png]]
 
-Engine Coolant Pressure
+Двигатель Охлаждающее давление
 
-Measure the coolant pressure at the water manifold (1), or the thermostat housing l.
+Измерить давление охлаждающей жидкости на водяном коллекторе (1) или корпусе термостата l.
 
-| kpa |  | psi |
+| каша |  | пси |
 |---|---|---|
-| 241 | NOM | 35 |
+| 241 | НМ | 35 |
 
 ![[14400009.png]]
 
-High Engine Oil Temperature
+Высокая температура масла двигателя
 
-Measure the lubricating oil temperature. Install a reference gauge to verify the reading of the suspect gauge. Refer to Procedure [[20-007-038 — Lubricating Oil Temperature Gauge|007-038]]. Or use INSITE™ electronic service tool to measure the oil temperature.
+Измерьте температуру моторного масла. Установите контрольный калибр для проверки показаний подозреваемого калибра. См. процедуру[[20-007-038 — Lubricating Oil Temperature Gauge|007-038]]. Или используйте инструмент для электронного обслуживания INSITETM для измерения температуры масла.
 
 ![[07400021.png]]
 
-All air compressors manufactured by Cummins Inc. **must** operate loaded during the engine run-in.
+Все воздушные компрессоры, производимые компанией Cummins Inc. * должен работать с загрузкой во время работы двигателя.
 
-During the performance check, all air compressors **must** be in the unloaded or non-operating mode.
+Во время проверки производительности все воздушные компрессоры **должны** находиться в незагруженном или нерабочем режиме.
 
-To unload the compressor, connect a source of compressed air capable of producing 665 kPa \[95 psi\] to the air compressor unloader. This air line (1) **must** contain a valve between the air source and the unloader.
+Для разгрузки компрессора подключите источник сжатого воздуха, способный производить 665 кПа[95 psi], к разгрузчику воздушного компрессора. Эта линия сжатого воздуха (1) должна содержать клапан между источником воздуха и разгрузчиком.
 
 ![[14400052.png]]
 
-Use an air tank (2). Install an air regulator (3) capable of maintaining 345 to 517 kPa \[50 to 75 psi\] air pressure at both minimum and maximum engine rpm at 260°C \[500° F\].
+Используйте воздушный танк (2). Установите регулятор (3) воздуха, способный поддерживать давление воздуха от 345 до 517 кПа [50 до 75 psi] при минимальной и максимальной оборотах двигателя при 260°C [500°F].
 
-Install a steel tube or high temperature hose (1).
+Установите стальную трубу или высокотемпературный шланг (1).
 
-Connect the tube or hose (1) to the air compressor outlet.
+Подсоедините трубку или шланг (1) к выходу воздушного компрессора.
 
 ![[cp8tohc.png]]
 
-Starting Motor
+Стартер
 
-> [!note] Note · Примечание
-> If another method of starting the engine is used, follow the manufacturer's instructions to make the necessary connections.
+> [!note] Примечание
+> Если используется другой способ запуска двигателя, следуйте инструкциям производителя для создания необходимых соединений.
 
-Inspect the voltage rating on the starting motor before installing the electrical wiring.
+Проверьте рейтинг напряжения на стартовом двигателе перед установкой электрической проводов.
 
-Install the electrical wiring to the starting motor and batteries, if used.
+Установите электрическую проводку на стартовый двигатель и батареи, если они используются.
 
 ![[sb8coma.png]]
 
-> [!warning] CAUTION · Осторожно
-> Verify the red wire is connected to the positive (+) battery terminal and the black wire is connected to the negative (-) battery terminal. Equipment or engine damage can result if not connected properly.
+> [!warning] ОСТОРОЖНО
+> Проверить, что красный провод подключен к положительному (+) клемме батареи, а черный провод подключен к отрицательному (-) клемме батареи. Повреждение оборудования или двигателя может привести к неправильному подключению.
 
-The power light will illuminate when power is supplied and the keyswitch is turned to the accessory or ON position.
+Силовой свет будет освещаться при подаче питания и переключатель зажигания поворачивается в положение аксессуара или Включено.
 
-If the power light does **not** illuminate, return the keyswitch to the OFF position. Verify the red wire is connected to the positive (+) battery terminal and the black wire is connected to the negative (-) battery terminal.
+Если силовой свет не освещается, верните переключатель зажигания в положение выключения. Проверить, что красный провод подключен к положительному (+) клемме батареи, а черный провод подключен к отрицательному (-) клемме батареи.
 
-Turn the keyswitch to the ON position.
+Переведите замок зажигания в положение ON.
 
 ![[22c00127.png]]
 
-Light indicators on the engine control, STOP, WARN, MAINT, WIF, and WAIT TO START, will illuminate if applicable. The light indicators will illuminate for approximately 30 seconds. If no fault codes are found, the light indicators will extinguish.
+Световые индикаторы на управлении двигателем, STOP, WARN, MAINT, WIF и WAIT TO START, будут освещаться, если это применимо. Световые индикаторы будут светиться в течение примерно 30 секунд. Если не будет найдено кодов неисправностей, световые индикаторы погаснут.
 
-If the STOP light indicator (red) or WARN light indicator (yellow) continues to illuminate, use INSITE™ electronic service tool and the OEM service literature to diagnose the engine fault code.
+Если индикатор STOP (красный) или индикатор WARN (желтый) продолжает освещаться, используйте инструмент для электронного обслуживания INSITETM и литературу по обслуживанию OEM для диагностики кода неисправности двигателя.
 
 ![[22c00128.png]]
 
-> [!warning] CAUTION · Осторожно
-> Check coolant and lubricating oil levels before starting and operating engine. If coolant and lubricating oil are not at the proper level engine damage can result.
+> [!warning] ОСТОРОЖНО
+> Проверьте уровень охлаждающей жидкости и моторного масла перед запуском и работой двигателя. Если охлаждающая жидкость и моторное масло не находятся на должном уровне, может возникнуть повреждение двигателя.
 
-Turn the keyswitch to the START position until the engine starts and release the keyswitch.
+Включите переключатель зажигания в положение START до запуска двигателя и отпустите переключатель зажигания.
 
 ![[22c00129.png]]
 
-> [!note] Note · Примечание
-> The engine can be returned to idle at any time by pushing in on the throttle knob.
+> [!note] Примечание
+> Двигатель может быть возвращен в бездействие в любое время, нажав на ручку дросселя.
 
-Slowly rotate the throttle knob **counterclockwise** to increase the engine rpm.
+Медленно поверните ручку дроссельной заслонки **против часовой стрелки**, чтобы увеличить обороты двигателя.
 
-Slowly rotate the throttle knob **clockwise** to decrease the engine rpm.
+Медленно поверните ручку дроссельной заслонки **по часовой стрелке**, чтобы уменьшить обороты двигателя.
 
 ![[22c00130.png]]
 
-Turn the keyswitch to the OFF position to stop the engine.
+Включите переключатель зажигания в положение выключения, чтобы остановить двигатель.
 
 ![[22c00131.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> This document provides procedures for the use of an engine control. The engine control is a portable, handheld electronic control, used to start and control engine speed on Cummins® electronic engines. It replaces the throttle pedal, driver interface panel, and fault code monitoring circuits. The engine control has a datalink provision to connect to an electronic service tool to monitor engine operation and fault codes. The engine control harnesses required for the engines are purchased separately. The engine control and engine control harnesses are designed to be used with both (+) 12-VDC and (+) 24-VDC battery systems.
+>
+> **Note · Примечание**
+> The engine control can be used on engines with frequency throttle calibrations by first downloading a linear throttle calibration to the electronic control module (ECM). After the testing/repair is complete, reload the correct frequency throttle calibration.
+>
+> ### Setup
+>
+> Make sure the dynamometer capacity is sufficient to permit testing at 100 percent of the engine's rated horsepower. If the capacity is **not** enough, the testing procedure **must** be modified to the restrictions for the dynamometer.
+>
+> Use engine lifting fixture, Part Number 3162871, to install the engine to the test stand. Align and connect the dynamometer. See the manufactures instructions for aligning and testing the engine.
+>
+> Refer to Service Bulletin 3666005, Dynamometer and Road Engine Testing, for detailed instructions on auxiliary aftercooling system attachment.
+>
+> Air Compressor
+>
+> All air compressors manufactured by Cummins® **must** operate loaded during the engine run-in.
+>
+> During the performance check, all air compressors **must** be in the unloaded or non-operating mode.
+>
+> To unload the compressor, connect a source of compressed air capable of producing 665 kPa \[95 psi\] to the air compressor unloader. This air line (1) **must** contain a valve between the air source and the unloader.
+>
+> To load the compressor use an air tank (2), install an air regulator (3) capable of maintaining 345 to 517 kPa \[50 to 75 psi\] of air pressure at both minimum and maximum engine rpm.
+>
+> Install a steel tube or high temperature hose (1).
+>
+> The compressed air load in the accompanying illustration **must** be attached to the air compressor outlet (4).
+>
+> | celsius |  | fahrenheit |
+> |---|---|---|
+> | 235 | MIN | 500 |
+>
+> Mechanically Actuated Injector
+>
+> Disconnect the OEM harness 21-pin and 31-pin Deutsch connectors from the engine harness.
+>
+> Connect the engine control harness, Part Number 3163891, 21-pin and 31-pin Deutsch connectors to the engine wiring harness.
+>
+> Electronically Actuated Injector
+>
+> Use INSITE™ electronic service tool to monitor engine coolant temperature. Install a coolant pressure sensor, if needed.
+>
+> Coolant Plumbing
+>
+> Connect the coolant supply to the water inlet connection.
+>
+> Connect the coolant return to the water outlet connection.
+>
+> Install the drain plugs and close all of the water drain cocks.
+>
+> Open the coolant vents.
+>
+> Low temperature aftercooler engines require connecting the low temperature aftercooler water lines to a remote heat exchanger.
+>
+> Charge air cooled engines require a remote heat exchanger to cool the intake air.
+>
+> Marine heat exchanger engines require fresh water supplied to the raw water pump to cool the engine. Marine keel cooled engines require a remote heat exchanger or radiator to cool the engine.
+>
+> Intake Air Temperature Control
+>
+> The use of a remote heat exchanger is mandatory when a Cummins® low temperature aftercooler engine is attached to an engine dynamometer for the purpose of engine run-in, performance testing and engine diagnostics. Do **not** attempt to operate a Cummins® low temperature aftercooler engine without any means of controlling the intake manifold air temperature.
+>
+> 1. Aftercooler water out
+> 2. Aftercooler water in
+> 3. Water out to drain
+> 4. Cool water in
+>
+> LTA
+>
+> Used **only** on engines with mechanically actuated injectors.
+>
+> **Note · Примечание**
+> The heat exchanger **must** be sized to maintain 70°C \[160°F\] maximum intake air temperature at full power.
+>
+> All QSK19 ratings of 601 horsepower and above require low temperature aftercooling and, therefore, have unique radiator requirements. The ratings of 600 HP and below do **not** require low temperature aftercooler. The low temperature aftercooler is a one-pump, two-loop cooling system.
+>
+> 1. Water in
+> 2. Thermostat housing
+> 3. low temperature aftercooler out
+> 4. Water out
+> 5. Low temperature aftercooler return
+>
+> Electronically Actuated Injector
+>
+> The use of a remote heat exchanger is mandatory when a Cummins® charge air cooled engine is attached to an engine dynamometer for the purpose of engine run-in, performance testing and engine diagnostics. Do **not** attempt to operate a Cummins® charge air cooled engine without any means of controlling the intake manifold air temperature to approximately 49° C \[120° F\] at rated power.
+>
+> 1. Charge air in
+> 2. Air out
+> 3. Cool fresh water in
+> 4. Warm fresh water to drain.
+>
+> **CAUTION · Осторожно**
+> The lubricating oil system must be primed before operating the engine after rebuild to avoid internal component damage. Do not prime the system from the bypass filter as the filter will be damaged.
+>
+> Remove the large plug from the oil cooler housing.
+>
+> Use a pump capable of supplying 207 kPa \[30 psi\] continuous pressure. Connect the pump to the front of the engine oil cooler as shown.
+>
+> Use a supply of clean oil. Turn the pump to the ON position. Check the engine oil pressure gauge. When the gauge indicates oil pressure, begin monitoring the oil level in the oil pan.
+>
+> Turn the pump off when the oil level reaches the low level on the dipstick.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Do not add cold coolant to a hot engine. This can cause engine casting damage. Allow the engine to cool to below 50°C \[120°F\] before adding coolant.
+>
+> Make sure the cooling system vents on the engine are open. Fill the engine with coolant.
+>
+> Check the engine coolant level to be sure it is filled to the proper level.
+>
+> Refer to Procedure [[20-008-018-tr — Cooling System|008-018]].
+>
+> Check the engine lubricating oil level to be sure it is filled to the proper level.
+>
+> **Note · Примечание**
+> Use a known source of good quality number 2 diesel fuel.
+>
+> This is very important since number 1 diesel fuels, along with most other alternate fuels, are lighter (lower specific gravity, higher API gravity) than number 2 diesel fuel. The lighter the fuel, the lower the energy content (BTU) per gallon (liter, etc.).
+>
+> Engine Throttle Control
+>
+> Mechanically Actuated Injectors
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+>
+> Disconnect the battery cables before beginning the following procedure.
+>
+> Disconnect the OEM harness from the electronic control module (ECM) if applicable.
+>
+> Disconnect the OEM harness 21-pin and 31-pin Deutsch connectors from the engine harness, if connected.
+>
+> Connect the engine control harness, Part Number 3163891.
+>
+> Connect the 21-pin and 31-pin Deutsch connectors to the engine wiring harness.
+>
+> **Note · Примечание**
+> If additional cable length is needed to connect the engine control, use electrical cable, Part Number 3168895.
+>
+> Connect the engine control harness (2) to the engine control. An INSITE™ electronic service tool equipped personal computer can be used to monitor circuits for proper operation. Connect the INLINE™ 5 datalink adapter kit, Part Number 4918416, (3) and a personal computer to the datalink connector of the engine control.
+>
+> Engines that are run on an engine dynamometer require the engine harness be installed and connected to the engine. Additionally, the engine control, Part Number 3163890, **must** be used to properly control the engine during the dynamometer run.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Connect battery power to the starter.
+>
+> Connect the dynamometer test OEM wiring harness starter solenoid lead (yellow) to the starter solenoid. Connect the ground lead (black) to the starter solenoid. Connect the ground lead (black) to the starter or battery negative (-) or ground side. Connect the (+) 12 VDC power lead (red) to either the starter or battery positive (+) 12 VDC side.
+>
+> Rotate the throttle knob fully **counterclockwise**. Push down on the throttle knob to return the throttle to the idle position.
+>
+> Repeat this step three times.
+>
+> Turn the keyswitch to the OFF position for 30 seconds.
+>
+> **CAUTION · Осторожно**
+> Check coolant and lubricating oil levels before starting and operating engine. If coolant and lubricating oil are not at the proper level engine damage can result.
+>
+> Turn the keyswitch to the START position until the engine starts and release the keyswitch.
+>
+> Electrically Actuated Injectors
+>
+> Disconnect the OEM harness 16-pin and 23-pin Deutsch connectors from the engine harness if connected.
+>
+> Connect the engine control harness Part Number 4918643.
+>
+> Remove the 3-pin Deutsch terminating resistor cap (cap will have a blue insert) from the wiring harness.
+>
+> Connect the engine control harness 3-pin Deutsch connector to the SAE J1939 Datalink connector of the engine wiring harness.
+>
+> The 3-pin Deutsch terminating resisting cap **must** be installed after the engine control harness is removed. If the cap is broken or has been misplaced, replace with resistor cap, Part Number 3163051.
+>
+> Ground Connection
+>
+> Connect the black-wire alligator clip of the engine control harness to the engine block to achieve electrical ground.
+>
+> **CAUTION · Осторожно**
+> Do not connect the alligator clip to the starter motor solenoid “S” terminal. Doing so can cause equipment damage.
+>
+> Starter Connection
+>
+> If **not** already equipped, install and wire a starter magnetic switch.
+>
+> Clip the alligator connector to the positive (+) coil terminal of the starter magnetic switch.
+>
+> Air Starter
+>
+> If an air starter is being used, coil the red wire into a loop and secure the loop to the engine control harness to protect it from an electrical short.
+>
+> Engine Operation
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+>
+> Attach the engine control harness using the ring terminal of the red wire to the positive (+) terminal of the battery.
+>
+> Attach the engine control harness using the ring terminal of the black wire to the negative (-) terminal of the battery.
+>
+> **CAUTION · Осторожно**
+> Verify the red wire is connected to the positive (+) battery terminal and the black wire is connected to the negative (-) battery terminal. Equipment or engine damage can result if not connected properly.
+>
+> The power light will illuminate when power is supplied and the keyswitch is turned to the accessory or ON position.
+>
+> If the power light does **not** illuminate, return the keyswitch to the OFF position. Verify the red wire is connected to the positive (+) battery terminal and the black wire is connected to the negative (-) battery terminal.
+>
+> Turn the keyswitch to the ON position.
+>
+> Light indicators on the engine control, STOP, WARN, MAINT, WIF, and WAIT TO START, will illuminate if applicable. The light indicators will illuminate for approximately 30 seconds. If no fault codes are found, the light indicators will extinguish.
+>
+> If the STOP light indicator (red) or WARN light indicator (yellow) continues to illuminate, use INSITE™ electronic service tool and the OEM service literature to diagnose the engine fault code.
+>
+> **CAUTION · Осторожно**
+> Check coolant and lubricating oil levels before starting and operating engine. If coolant and lubricating oil are not at the proper level engine damage can result.
+>
+> Turn the keyswitch to the START position until the engine starts and release the keyswitch.
+>
+> **Note · Примечание**
+> The engine can be returned to idle at any time by pushing in on the throttle knob.
+>
+> Slowly rotate the throttle knob **counterclockwise** to increase the engine rpm.
+>
+> Slowly rotate the throttle knob **clockwise** to decrease the engine rpm.
+>
+> Turn the keyswitch to the OFF position to stop the engine.
+>
+> Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> Some engines are equipped with fittings used for Compuchek™ testing sensors. The sensor probes used for Compuchek™ and dynamometer testing are **not** compatible. If the same location is used, remove the Compuchek™ fitting and install adapters for the dynamometer sensor.
+>
+> Install the coolant pressure sensor (1).
+>
+> Install the coolant temperature sensor (2).
+>
+> Return parameters to their original value when the test or run-in is complete.
+>
+> Connect the keyswitch panel datalink cable to the Cummins® electronic service tool.
+>
+> Use INSITE™ electronic service tool to set the engine up for the dynamometer. Refer to Procedure [[20-014-008 — Engine Testing (In Chassis)|014-008]] for more information on this feature.
+>
+> The setup is now complete, and the auto/manual throttle can be used to control engine speed.
+>
+> Engine operating specifications are available from your Cummins® Authorized Repair Location.
+>
+> ### Test
+>
+> The INSITE™ electronic service tool will provide most, if **not** all, of the parameters.
+>
+> To properly monitor engine performance, record the following parameters. To limit dynamometer operating time, instrument the engine to make as many checks as possible.
+>
+> - Engine speed rpm with a verified tachometer
+> - Fuel pressure
+> - Fuel rate (use service tool, Part Number 3376375, or equivalent)
+> - Fuel temperature (if needed to correct fuel rate)
+> - Fuel inlet restriction
+> - Fuel drain line restriction
+> - Intake manifold pressure.
+> - Intake air restriction
+> - Exhaust restriction
+> - Coolant temperature
+> - Engine blowby
+> - Lubricating oil pressure
+> - Coolant pressure
+> - Intake manifold air temperature
+> - Turbocharger inlet air temperature.
+>
+> Engine Speed (rpm)
+>
+> Use INSITE™ electronic service tool to monitor engine speed. Observe and record the engine speed.
+>
+> Or use digital optical tachometer, Part Number 3377462, or equivalent, to check and verify engine speed.
+>
+> Fuel Pressure
+>
+> Mechanically Actuated Injectors
+>
+> Check fuel supply pressure. Refer to Procedure [[20-005-016-tr — Fuel Pump|005-016]].
+>
+> Fuel Rate
+>
+> Mechanically Actuated Injector
+>
+> Use fuel measuring device, Part Number 3376375, or equivalent, to measure the rate of fuel consumption.
+>
+> Fuel Inlet Restriction
+>
+> Mechanically Actuated Injectors
+>
+> Measure the fuel inlet restriction. Install a vacuum gauge, Part Number ST-434, or equivalent, between the fuel filter and the gear pump inlet.
+>
+> **Note · Примечание**
+> Do **not** measure fuel inlet restriction with the fuel measuring device installed. This will **not** measure the inlet restriction of the vehicle's supply plumbing.
+>
+> Electronically actuated injector refer to Procedure 006-020.
+>
+> Fuel Drain Line Restriction
+>
+> Mechanically Actuated Injectors
+>
+> Use Pressure Gauge, Part Number ST-1273, or equivalent, to measure fuel drain line restriction.
+>
+> **Note · Примечание**
+> Do **not** measure fuel drain line restriction with the fuel measuring device installed. This will **not** measure the drain line restriction of the vehicle's return plumbing.
+>
+> Refer to Procedure [[20-006-012 — Fuel Drain Line Restriction|006-012]].
+>
+> Intake Manifold Pressure
+>
+> Measure the intake manifold pressure (turbocharger boost). Install pressure gauge, Part Number ST-1273, or equivalent, in the intake manifold as shown.
+>
+> Refer to Procedure 010-057.
+>
+> Observe the reading on the pressure gauge. Or use INSITE™ electronic service tool.
+>
+> Intake Air Restriction
+>
+> Measure the inlet air restriction. Install the vacuum gauge, Part Number ST-434, or equivalent, or a manometer in the intake air piping.
+>
+> **Note · Примечание**
+> The gauge adapter **must** be installed at a 90 degree angle to the air flow in a straight section of pipe at a minimum of one pipe diameter before the turbocharger.
+>
+> Or use INSITE™ electronic service tool.
+>
+> Refer to Procedure [[20-010-031 — Air Intake Restriction|010-031]].
+>
+> Exhaust Air Restriction
+>
+> Measure the exhaust air restriction. Install the pressure gauge, Part Number ST-1273, or equivalent, or a manometer in the exhaust air piping.
+>
+> The gauge adapter **must** be installed near the turbocharger in a straight section of pipe at the turbine outlet.
+>
+> Refer to Procedure [[20-011-009 — Exhaust Restriction|011-009]].
+>
+> Engine Blowby
+>
+> Excessive blowby indicates an air compressor, a turbocharger, or an engine malfunction, allowing combustion gases or air to enter the crankcase and build a pressure higher than normal.
+>
+> This procedure describes how to measure crankcase pressure and how to determine the component that is malfunctioning, or use INSITE™ electronic service tool.
+>
+> Use one of the three blowby service tools and a water manometer, Part Number ST-1111-3, or equivalent. Maximum gauge capacity is 1270 mm-H 2 0 \[50 in-H 2 0\]. The engine blowby tools are similar in design. The difference between the tools is in the size of the orifice.
+>
+> | Blowby Tool Part Number | Orifice Size \[inch\] |
+> |---|---|
+> | 3822566 | \[0.302\] |
+> | 3823567 | \[0.354\] |
+> | 3822568 | \[0.406\] |
+>
+> Use a length of hose (1) to attach the blowby tool to one of the crankcase breathers.
+>
+> Plug all of the other breathers.
+>
+> Attach a manometer to the location shown (2).
+>
+> A sudden increase in blowby indicates a problem. A gradual increase over a period of time is normal (due to wear of internal engine components).
+>
+> Operate the engine at rated rpm and full load (wide open throttle) until a steady reading is obtained.
+>
+> Compare the blowby readings to previous readings on the engine. If previous readings for the engine are **not** available, compare the blowby reading to new engine specifications.
+>
+> | QSK19 Blowby Limits (using 0.302 inch diameter orifice at rated load and speed) |  |  |
+> |---|---|---|
+> | Engine HP (RPM Rating) | New/Rebuilt | Used Engine Limit |
+> | 699 HP and Below (1500 - 1900) | 305 mm H 2 O \[12 in H 2 O\] | 762 mm H 2 O \[30 in H 2 O\] |
+> | 699 HP and Below (2000 and above) | 355 mm H 2 O \[14 in H 2 O\] | 889 mm H 2 O \[35 in H 2 O\] |
+> | 700 HP and Above | 508 mm H 2 O \[20 in H 2 O\] | 1270 mm H 2 O \[50 in H 2 O\] |
+>
+> | QSK19 Blowby Limits (using 0.354 inch diameter orifice at rated load and speed) |  |  |
+> |---|---|---|
+> | Engine HP (RPM Rating) | New/Rebuilt | Used Engine Limit |
+> | 699 HP and Below (1500 - 1900) | 178 mm H 2 O \[7 in H 2 O\] | 457 mm H 2 O \[18 in H 2 O\] |
+> | 699 HP and Below (2000 and above) | 203 mm H 2 O \[8 in H 2 O\] | 508 mm H 2 O \[20 in H 2 O\] |
+> | 700 HP and Above | 229 mm H 2 O \[9 in H 2 O\] | 584 mm H 2 O \[23 in H 2 O\] |
+>
+> | QSK19 Blowby Limits (using 0.406 inch diameter orifice at rated load and speed) |  |  |
+> |---|---|---|
+> | Engine HP (RPM Rating) | New/Rebuilt | Used Engine Limit |
+> | All Ratings | 127 mm H 2 O \[5 in H 2 O\] | 330 mm H 2 O \[13 in H 2 O\] |
+>
+> If the blowby is higher than normal, check the crankcase breathers and breather tubes to see if they are plugged.
+>
+> 1. Wing Nut
+> 2. Washer
+> 3. Breather
+> 4. Screen mesh
+> 5. Breather element
+> 6. Breather base
+>
+> The breather is located inside the housing on electronically actuated injector.
+>
+> Check the engine oil level. If the level is too high it can cause a higher than normal crankcase pressure.
+>
+> Isolate the turbocharger to determine if the high crankcase pressure is due to seal leakage in the turbocharger.
+>
+> Disconnect the turbocharger drain line from the oil pan adaptor.
+>
+> Install a hose assembly with the two shutoff valves arranged as shown. Place the other hose in an 8 to 19 liter \[2 to 5 gallon\] bucket.
+>
+> **Note · Примечание**
+> The valves **must** have a minimum inside diameter of 19 mm \[0.75 inch\].
+>
+> Close the valve (A) that allows the oil to drain to the bucket.
+>
+> Open the valve (B) that allows the oil to drain into the engine.
+>
+> **CAUTION · Осторожно**
+> When testing the turbocharger for any contribution to blowby, do not operate the engine with valve A open and valve B closed for more than 1 minute. Operation for more than 1 minute can result in severe engine damage.
+>
+> Operate the engine at rated speed.
+>
+> Continue operating at rated speed and load. Open valve A and close valve B. Record the blowby reading.
+>
+> Compare the value to the original reading. If the blowby is now acceptable, replace the turbocharger.
+>
+> Refer to Procedure [[20-010-033-tr — Turbocharger|010-033]].
+>
+> Isolate the air compressor to determine if it is malfunctioning and causing the high blowby pressure.
+>
+> Relieve the air pressure on the first air tank in the system after the air compressor (wet tank).
+>
+> Disconnect the air inlet and outlet connections. Plug the intake manifold or air piping where the inlet connection was removed.
+>
+> Operate the engine at rated speed and full load (wide open throttle) until a steady blowby reading is obtained.
+>
+> Compare the blowby readings to the previous value. If the blowby is now acceptable, replace the air compressor.
+>
+> Refer to Procedure [[20-012-014-tr — Air Compressor|012-014]].
+>
+> A sudden increase in blowby or a high reading that is **not** steady indicates that there is internal damage in the engine.
+>
+> Lubricating Oil Pressure
+>
+> **CAUTION · Осторожно**
+> The lubricating oil system must be primed before operating the engine after rebuild to avoid internal component damage. Do not prime the system from the bypass filter as the filter will be damaged.
+>
+> Use pressure gauge, Part Number 3375275, or equivalent, to measure lubricating oil pressure, or use INSITE™ electronic service tool.
+>
+> Install the pressure gauge to the main oil rifle (1) or oil filter head (2).
+>
+> | kpa |  | psi |
+> |---|---|---|
+> | 138 | MIN | 20 |
+> | 207 | NOM | 30 |
+>
+> Engine Coolant Pressure
+>
+> Measure the coolant pressure at the water manifold (1), or the thermostat housing l.
+>
+> | kpa |  | psi |
+> |---|---|---|
+> | 241 | NOM | 35 |
+>
+> High Engine Oil Temperature
+>
+> Measure the lubricating oil temperature. Install a reference gauge to verify the reading of the suspect gauge. Refer to Procedure [[20-007-038 — Lubricating Oil Temperature Gauge|007-038]]. Or use INSITE™ electronic service tool to measure the oil temperature.
+>
+> All air compressors manufactured by Cummins Inc. **must** operate loaded during the engine run-in.
+>
+> During the performance check, all air compressors **must** be in the unloaded or non-operating mode.
+>
+> To unload the compressor, connect a source of compressed air capable of producing 665 kPa \[95 psi\] to the air compressor unloader. This air line (1) **must** contain a valve between the air source and the unloader.
+>
+> Use an air tank (2). Install an air regulator (3) capable of maintaining 345 to 517 kPa \[50 to 75 psi\] air pressure at both minimum and maximum engine rpm at 260°C \[500° F\].
+>
+> Install a steel tube or high temperature hose (1).
+>
+> Connect the tube or hose (1) to the air compressor outlet.
+>
+> Starting Motor
+>
+> **Note · Примечание**
+> If another method of starting the engine is used, follow the manufacturer's instructions to make the necessary connections.
+>
+> Inspect the voltage rating on the starting motor before installing the electrical wiring.
+>
+> Install the electrical wiring to the starting motor and batteries, if used.
+>
+> **CAUTION · Осторожно**
+> Verify the red wire is connected to the positive (+) battery terminal and the black wire is connected to the negative (-) battery terminal. Equipment or engine damage can result if not connected properly.
+>
+> The power light will illuminate when power is supplied and the keyswitch is turned to the accessory or ON position.
+>
+> If the power light does **not** illuminate, return the keyswitch to the OFF position. Verify the red wire is connected to the positive (+) battery terminal and the black wire is connected to the negative (-) battery terminal.
+>
+> Turn the keyswitch to the ON position.
+>
+> Light indicators on the engine control, STOP, WARN, MAINT, WIF, and WAIT TO START, will illuminate if applicable. The light indicators will illuminate for approximately 30 seconds. If no fault codes are found, the light indicators will extinguish.
+>
+> If the STOP light indicator (red) or WARN light indicator (yellow) continues to illuminate, use INSITE™ electronic service tool and the OEM service literature to diagnose the engine fault code.
+>
+> **CAUTION · Осторожно**
+> Check coolant and lubricating oil levels before starting and operating engine. If coolant and lubricating oil are not at the proper level engine damage can result.
+>
+> Turn the keyswitch to the START position until the engine starts and release the keyswitch.
+>
+> **Note · Примечание**
+> The engine can be returned to idle at any time by pushing in on the throttle knob.
+>
+> Slowly rotate the throttle knob **counterclockwise** to increase the engine rpm.
+>
+> Slowly rotate the throttle knob **clockwise** to decrease the engine rpm.
+>
+> Turn the keyswitch to the OFF position to stop the engine.

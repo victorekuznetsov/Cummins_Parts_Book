@@ -13,13 +13,15 @@ families:
   - "QST30"
 manuals:
   - "4021674"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc441-choice.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc441-choice.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Fault Code Path Selection
@@ -33,6 +35,20 @@ tags:
 > **Даты:** изменён 2008-01-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc441-choice.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc441-choice.pdf)
 
-| Are you connected to CM850 service port (source address (00))? | [[60-fc441-ecm2 — Battery 1 Voltage - Data Valid but Below Normal Operational Range - Moderately\|Go to 60-fc441-ecm2]] |
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+| Вы подключены к порту обслуживания CM850 (адрес источника (00))? | [[60-fc441-ecm2 — Battery 1 Voltage - Data Valid but Below Normal Operational Range - Moderately\|Выберите 60-fc441-ecm2]] |
 |---|---|
-| Are you connected to CM552 service port (source address (01))? | [[60-fc441-ecm1 — Battery 1 Voltage - Data Valid but Below Normal Operational Range - Moderately\|Go to 60-fc441-ecm1]] |
+| Вы подключены к порту обслуживания CM552 (адрес источника (01))? | [[60-fc441-ecm1 — Battery 1 Voltage - Data Valid but Below Normal Operational Range - Moderately\|Посмотреть 60-fc441-ecm1]] |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | Are you connected to CM850 service port (source address (00))? | [[60-fc441-ecm2 — Battery 1 Voltage - Data Valid but Below Normal Operational Range - Moderately\|Go to 60-fc441-ecm2]] |
+> |---|---|
+> | Are you connected to CM552 service port (source address (01))? | [[60-fc441-ecm1 — Battery 1 Voltage - Data Valid but Below Normal Operational Range - Moderately\|Go to 60-fc441-ecm1]] |

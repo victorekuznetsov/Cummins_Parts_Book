@@ -24,7 +24,8 @@ parts:
   - "3631958"
   - "5540800"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200111.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200111.pdf"
 tags:
@@ -33,6 +34,7 @@ tags:
   - "двигатель/QSK50"
   - "двигатель/QSK60"
   - "год/2026"
+  - "перевод/машинный"
   - "тема/lubricating-oil-systems"
 ---
 
@@ -46,15 +48,23 @@ tags:
 > **Даты:** выпущен 2026-08-07 · изменён 2026-08-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200111.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200111.pdf)
 
-## Eliminator™ Filter and Eliminator™ Hydraulic Motor
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Фильтр Eliminator™ и его гидромотор
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - K38
 - QSK38 CM850 MCRS
@@ -91,93 +101,93 @@ The information in this document has no effect on present warranty coverage or r
 - QSK95 CM2350 K143C
 - QSK95 CM2350 K147C
 
-**Issue**
+**Проблема**
 
-Symptom: No revolution or slow revolution of the hydraulic motor causing excessive residue to build up on the eliminator filter screens.
+Симптом: Никакой революции или медленной революции гидравлического двигателя, вызывающей избыточный остаток, накапливается на экранах фильтра элиминатора.
 
-Root Cause: Oil leaks internal to the hydraulic motor causes motor to stop functioning as intended.
+Первопричина: Утечка масла внутри гидравлического двигателя приводит к тому, что двигатель перестает функционировать по назначению.
 
-**Verification/Confirmation**
+**Проверка/подтверждение**
 
-Check the function of the hydraulic motor. Make a note of the number of minutes it takes to do one revolution.
+Проверьте функцию гидравлического двигателя. Запишите количество минут, необходимых для совершения одной революции.
 
 ![[17r00747.png]]
 
-Figure 1, Hydraulic Motor
+Рисунок 1 Гидравлический двигатель
 
-The following are given as a guide for a normal operating condition:
+В качестве руководства для нормального рабочего состояния приводятся следующие:
 
-- Engine at idle: 10 minutes maximum
-- Engine at max RPM: 5 minutes maximum
+- Двигатель на холостом ходу: 10 минут максимум
+- Двигатель на максимальной скорости RPM: 5 минут максимум
 
-> [!note] Note · Примечание
-> If the operating indicator does **not** rotate, or the time for one revolution is more than indicated above, check the pressure drop and make a note of the value. Under normal operating conditions, the value **must not** exceed 12 psi.
+> [!note] Примечание
+> Если рабочий индикатор не вращается, или время для одного оборота больше, чем указано выше, проверьте падение давления и запишите значение. При нормальных условиях эксплуатации значение не должно превышать 12 psi.
 
-**Resolution**
+**Решение**
 
-If the motor is found to not function as intended, it **must** be replaced with a new or reconditioned part.
+Если двигатель не работает, как предполагалось, его необходимо заменить новой или восстановленной частью.
 
-**Description of Change**
+**Описание изменения**
 
-This document announces a new hydraulic motor for the Eliminator. This includes changes internally to the motor to increase its capability.
+В этом документе анонсирован новый гидравлический двигатель для «Элиминатора». Это включает в себя изменения внутри двигателя, чтобы увеличить его способность.
 
-**Reason for Change**
+**Причина изменения**
 
-The part has been changed due to the hydraulic motor failing, preventing it from rotating the filtering elements. This causes excessive residue to build up and results in the eliminator failing to filter the oil effectively.
+Часть была изменена из-за отказа гидравлического двигателя, что не позволило ему вращать фильтрующие элементы. Это приводит к чрезмерному накоплению остатков и приводит к тому, что элиминатор не может эффективно фильтровать масло.
 
-**Service Instructions**
+**Указания по обслуживанию**
 
-The hydraulic motor is no longer a serviceable item. If it fails or reaches end of life, it should **not** be disassembled. It **must** be replaced with a new or reconditioned part.
+Гидравлический двигатель больше не является исправным элементом. Если он не справляется или достигает конца жизни, его следует разобрать. **** Заменить его новой или восстановленной частью.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-Service parts are available. Eliminator Assemblies are **not** specific to engine K models or ECM models. To simplify Table 1 **only** the engine platform is communicated.
+Сервисные детали доступны для заказа. Сборки элиминатора **не являются специфичными для моделей двигателя K или моделей ECM. Для упрощения Таблицы 1** сообщается только* платформа двигателя.
 
-| **Table 1, Service Parts** |  |  |  |  |  |
+| **Таблица 1, Части обслуживания** |  |  |  |  |  |
 |---|---|---|---|---|---|
-| Engine Platform | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| NA | Hydraulic Motor | [[5540800]] | Yes | Yes | 6660301 |
-| QSK38M | New Eliminator Assembly | 5540799 | Yes | Yes | 6660263 |
-| ReCon Eliminator Assembly | 5540799RX | Yes | Yes | 6660263RX |  |
-| QSK38 | New Eliminator Assembly | 5540798 | Yes | Yes | 6660283 |
-| QSK50 | ReCon Eliminator Assembly | 5540798RX | Yes | Yes | 6660283RX |
-| QSK45 | New Eliminator Assembly | 5540797 | Yes | Yes | 6660291 |
-| ReCon Eliminator Assembly | 5540797RX | Yes | Yes | 6660291RX |  |
-| QSK60 | New Eliminator Assembly | 6373355 | Yes | Yes | 6660293 |
-| ReCon Eliminator Assembly | 6373355RX | Yes | Yes | 6660293RX |  |
-| QSK78 | New Eliminator Assembly | 6429905 | Yes | Yes | 6660297 |
-| QSK95 | New Eliminator Assembly | 5578723 | Yes | Yes | 6660299 |
-| ReCon Eliminator Assembly | 5578723RX | Yes | Yes | 6570452RX |  |
-| Historical Changes |  |  |  |  |  |
-| NA | Hydraulic Motor | [[3631958]] | Yes | Yes | [[5540800]] |
+| Двигательная платформа | Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| НА | Гидравлический мотор | 5540800 | Да | Да | 6660301 |
+| QSK38M | Новая ассамблея элиминатора | 5540799 | Да | Да | 6660263 |
+| ReCon Eliminator Assembly | 5540799RX | Да | Да | 6660263RX |  |
+| QSK38 | Новая ассамблея элиминатора | 5540798 | Да | Да | 6660283 |
+| QSK50 | ReCon Eliminator Assembly | 5540798RX | Да | Да | 6660283RX |
+| QSK45 | Новая ассамблея элиминатора | 5540797 | Да | Да | 6660291 |
+| ReCon Eliminator Assembly | 5540797RX | Да | Да | 6660291RX |  |
+| QSK60 | Новая ассамблея элиминатора | 6373355 | Да | Да | 6660293 |
+| ReCon Eliminator Assembly | 6373355RX | Да | Да | 6660293RX |  |
+| QSK78 | Новая ассамблея элиминатора | 6429905 | Да | Да | 6660297 |
+| QSK95 | Новая ассамблея элиминатора | 5578723 | Да | Да | 6660299 |
+| ReCon Eliminator Assembly | 5578723RX | Да | Да | 6570452RX |  |
+| Исторические изменения |  |  |  |  |  |
+| НА | Гидравлический мотор | 3631958 | Да | Да | 5540800 |
 
-**Part Compatibility**
+**Совместимость частей**
 
-This part is fully backwards compatible to all eliminators fitted with the existing part number.
+Эта часть полностью обратно совместима со всеми элиминаторами, оснащенными существующим номером детали.
 
-**Part Identification**
+**Идентификация детали**
 
-The two motors are only distinguishable by their stamped part numbers. The part numbers are marked on the motor and is their **only** identifier. The stamped designation “CK” identifies the latest part number motor. The “CK” stamping is only visible when the motor is removed. See Figure 2. The Cummins part number is not stamped onto the motor.
+Два двигателя различимы только по их штампованным номерам деталей. Номера деталей помечены на моторе и являются их **только** идентификатором. Маркированное обозначение «CK» определяет последний двигатель с номером детали. Тиснение «CK» видно только при снятии двигателя. См. рисунок 2. Номер детали Cummins не проштампован на моторе.
 
 ![[17r02759.png]]
 
-Figure 2, Eliminator Motor “CK” Marking Location (Previous version shown “CJ” for this example)
+Рисунок 2, расположение метки «CK» (предыдущая версия, показанная «CJ» для этого примера)
 
 ![[17r02760.png]]
 
-Figure 3, Eliminator Dataplate Position
+Рисунок 3, Положение таблички Элиминатора
 
-**Part Inventory Action**
+**Часть инвентаризации**
 
-Existing Eliminator assembly stock to be scrapped. New parts to be purchased under new or RX part numbers.
+Существующий сборочный запас Eliminator будет списан. Новые детали, которые будут приобретены под новыми или RX номерами деталей.
 
-Existing Eliminator motor stock to be used up before using new part number stock.
+Существующие запасы двигателей Eliminator будут использованы до использования новых номеров деталей.
 
-**Publications Affected / Associated Publications**
+**Публикации, затронутые / Ассоциированные публикации**
 
-Eliminator™ Filter Service Bulletin, Bulletin Number 3666253, applicable to all engines fitted with Eliminator™.
+Вестник службы фильтров EliminatorTM, номер бюллетеня 3666253, применим ко всем двигателям, оснащенным системой EliminatorTM.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -185,3 +195,131 @@ Eliminator™ Filter Service Bulletin, Bulletin Number 3666253, applicable to al
 |---|---|---|
 | [[3631958]] | HYDRAULIC MOTOR ASSEMBLY |  |
 | [[5540800]] | HYDRAULIC MOTOR |  |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Eliminator™ Filter and Eliminator™ Hydraulic Motor
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - K38
+> - QSK38 CM850 MCRS
+> - QSK38 CM2150 MCRS
+> - QSK38 CM2150 K106
+> - QSK38 CM2150 K142M
+> - QSK38 CM2350 K125
+> - QSK38 CM2350 K138M
+> - QSK45 CM500
+> - QSK50 CM2150 MCRS
+> - QSK50 CM2150 K107
+> - QSK50 CM2150 K140M
+> - QSK50 CM2350 K108
+> - QSK50 CM2350 K130
+> - QSK60 CM500
+> - QSK60 CM850 MCRS
+> - QSK60 CM2150 MCRS
+> - QSK60 CM2150 K132M
+> - QSK60 CM2250 K112
+> - QSK60 CM2350 K116
+> - QSK60 CM2350 K117
+> - QSK60 CM2350 K121
+> - QSK60 CM2350 K135
+> - QSK60 CM2350 K136
+> - QSK60 CM2350 K149M
+> - QSK78 CM500
+> - QSK78 CM2250 K104
+> - QSK78 CM2350 K126
+> - QSK78 CM2350 K137
+> - QSK78 CM2350 K154C
+> - QSK95 CM2350 K111
+> - QSK95 CM2350 K113
+> - QSK95 CM2350 K128M
+> - QSK95 CM2350 K143C
+> - QSK95 CM2350 K147C
+>
+> **Issue**
+>
+> Symptom: No revolution or slow revolution of the hydraulic motor causing excessive residue to build up on the eliminator filter screens.
+>
+> Root Cause: Oil leaks internal to the hydraulic motor causes motor to stop functioning as intended.
+>
+> **Verification/Confirmation**
+>
+> Check the function of the hydraulic motor. Make a note of the number of minutes it takes to do one revolution.
+>
+> Figure 1, Hydraulic Motor
+>
+> The following are given as a guide for a normal operating condition:
+>
+> - Engine at idle: 10 minutes maximum
+> - Engine at max RPM: 5 minutes maximum
+>
+> **Note · Примечание**
+> If the operating indicator does **not** rotate, or the time for one revolution is more than indicated above, check the pressure drop and make a note of the value. Under normal operating conditions, the value **must not** exceed 12 psi.
+>
+> **Resolution**
+>
+> If the motor is found to not function as intended, it **must** be replaced with a new or reconditioned part.
+>
+> **Description of Change**
+>
+> This document announces a new hydraulic motor for the Eliminator. This includes changes internally to the motor to increase its capability.
+>
+> **Reason for Change**
+>
+> The part has been changed due to the hydraulic motor failing, preventing it from rotating the filtering elements. This causes excessive residue to build up and results in the eliminator failing to filter the oil effectively.
+>
+> **Service Instructions**
+>
+> The hydraulic motor is no longer a serviceable item. If it fails or reaches end of life, it should **not** be disassembled. It **must** be replaced with a new or reconditioned part.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. Eliminator Assemblies are **not** specific to engine K models or ECM models. To simplify Table 1 **only** the engine platform is communicated.
+>
+> | **Table 1, Service Parts** |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | Engine Platform | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | NA | Hydraulic Motor | [[5540800]] | Yes | Yes | 6660301 |
+> | QSK38M | New Eliminator Assembly | 5540799 | Yes | Yes | 6660263 |
+> | ReCon Eliminator Assembly | 5540799RX | Yes | Yes | 6660263RX |  |
+> | QSK38 | New Eliminator Assembly | 5540798 | Yes | Yes | 6660283 |
+> | QSK50 | ReCon Eliminator Assembly | 5540798RX | Yes | Yes | 6660283RX |
+> | QSK45 | New Eliminator Assembly | 5540797 | Yes | Yes | 6660291 |
+> | ReCon Eliminator Assembly | 5540797RX | Yes | Yes | 6660291RX |  |
+> | QSK60 | New Eliminator Assembly | 6373355 | Yes | Yes | 6660293 |
+> | ReCon Eliminator Assembly | 6373355RX | Yes | Yes | 6660293RX |  |
+> | QSK78 | New Eliminator Assembly | 6429905 | Yes | Yes | 6660297 |
+> | QSK95 | New Eliminator Assembly | 5578723 | Yes | Yes | 6660299 |
+> | ReCon Eliminator Assembly | 5578723RX | Yes | Yes | 6570452RX |  |
+> | Historical Changes |  |  |  |  |  |
+> | NA | Hydraulic Motor | [[3631958]] | Yes | Yes | [[5540800]] |
+>
+> **Part Compatibility**
+>
+> This part is fully backwards compatible to all eliminators fitted with the existing part number.
+>
+> **Part Identification**
+>
+> The two motors are only distinguishable by their stamped part numbers. The part numbers are marked on the motor and is their **only** identifier. The stamped designation “CK” identifies the latest part number motor. The “CK” stamping is only visible when the motor is removed. See Figure 2. The Cummins part number is not stamped onto the motor.
+>
+> Figure 2, Eliminator Motor “CK” Marking Location (Previous version shown “CJ” for this example)
+>
+> Figure 3, Eliminator Dataplate Position
+>
+> **Part Inventory Action**
+>
+> Existing Eliminator assembly stock to be scrapped. New parts to be purchased under new or RX part numbers.
+>
+> Existing Eliminator motor stock to be used up before using new part number stock.
+>
+> **Publications Affected / Associated Publications**
+>
+> Eliminator™ Filter Service Bulletin, Bulletin Number 3666253, applicable to all engines fitted with Eliminator™.
+>
+> ### Document History

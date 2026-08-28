@@ -13,13 +13,15 @@ engines:
   - "41353297"
 families:
   - "QSK19"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103224.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103224.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -33,12 +35,32 @@ tags:
 > **Даты:** выпущен 2009-12-17 · изменён 2008-11-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103224.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103224.pdf)
 
-## Procedure 006-026 (Injector), Replace Section Revision
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Процедура 006-026 (форсунка): пересмотр раздела замены
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises Procedure 006-026 (Injector) in Section 9 of the Operation and Maintenance Manual QSK19 and QSK19 CM850 Modular Common Rail System, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]. This procedure recommends injector replacement at engine half life to rebuild.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Служба/Части» пересматривает Процедура 006-026 (форсунка) в разделе 9 Руководства по эксплуатации и техническому обслуживанию QSK19 и модульной общей железнодорожной системы QSK19 CM850, Бюллетень [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]. Эта процедура рекомендует замену форсунки при сроке службы двигателя для восстановления.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Procedure 006-026 (Injector), Replace Section Revision
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises Procedure 006-026 (Injector) in Section 9 of the Operation and Maintenance Manual QSK19 and QSK19 CM850 Modular Common Rail System, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]. This procedure recommends injector replacement at engine half life to rebuild.

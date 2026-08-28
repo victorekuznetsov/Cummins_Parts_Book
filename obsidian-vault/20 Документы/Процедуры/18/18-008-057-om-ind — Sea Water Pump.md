@@ -30,7 +30,8 @@ manuals:
   - "4021375"
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-057-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-008-057-om-ind.pdf"
 tags:
@@ -41,6 +42,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Sea Water Pump
@@ -54,19 +56,42 @@ tags:
 > **Даты:** изменён 2009-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-057-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-008-057-om-ind.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check the impeller and port plate for damage from cavitation. Replace the parts, if necessary.
+
+### Осмотр
+
+Проверьте крыло и табличку порта на предмет повреждения от кавитации. Замените детали, если это необходимо.
 
 ![[08600056.png]]
 
-> [!note] Note · Примечание
-> This is **only** a temporary repair for an emergency situation. Cummins Inc., does **not** recommend the use of this procedure for a permanent repair. The correct repair procedures **must** be followed as soon as possible.
+> [!note] Примечание
+> Это только временный ремонт в случае чрезвычайной ситуации. Компания Cummins Inc., не рекомендует использовать эту процедуру для постоянного ремонта. Правильные процедуры ремонта должны быть выполнены как можно скорее.
 
-Gilkes recommends the replacement of the mechanical seal **only** when the contact ring is replaced at the same time.
+Гилкес рекомендует заменять механическое уплотнение **только**, когда контактное кольцо заменяется одновременно.
 
-For an emergency repair, the contact ring (1) can be reversed so that the side of the ring that is not worn touches the mechanical seal.
+Для аварийного ремонта контактное кольцо (1) может быть обращено вспять, чтобы не изношенная сторона кольца касалась механического уплотнения.
 
-Reverse the ring and install it in the rubber boot (2).
+Обратите кольцо вспять и установите его в резиновую сапогу (2).
 
 ![[08600120.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> Check the impeller and port plate for damage from cavitation. Replace the parts, if necessary.
+>
+> **Note · Примечание**
+> This is **only** a temporary repair for an emergency situation. Cummins Inc., does **not** recommend the use of this procedure for a permanent repair. The correct repair procedures **must** be followed as soon as possible.
+>
+> Gilkes recommends the replacement of the mechanical seal **only** when the contact ring is replaced at the same time.
+>
+> For an emergency repair, the contact ring (1) can be reversed so that the side of the ring that is not worn touches the mechanical seal.
+>
+> Reverse the ring and install it in the rubber boot (2).

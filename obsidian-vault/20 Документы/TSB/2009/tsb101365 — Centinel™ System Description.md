@@ -19,7 +19,8 @@ families:
   - "K19"
   - "NT/NTA855 · ISM/QSM11"
   - "QST30"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101365.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101365.pdf"
 tags:
@@ -28,6 +29,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -41,12 +43,32 @@ tags:
 > **Даты:** выпущен 2009-12-17 · изменён 2004-01-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101365.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101365.pdf)
 
-## Centinel™ System Description
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Описание системы Centinel™
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic updates the System Description (209-001) of the Centinel™ Master Repair Manual.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Тематика Сервиса/Частей обновляет описание системы (209-001) Руководства по ремонту мастеров CentinelTM.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Centinel™ System Description
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic updates the System Description (209-001) of the Centinel™ Master Repair Manual.

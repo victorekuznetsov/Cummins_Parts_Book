@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc442.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc442.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Battery 1 Voltage High - Warning
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc442.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc442.pdf)
 
-### Fault Code: 442
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Battery 1 Voltage High - Warning
 
-Printable Version
+### Код неисправности: 442
 
-### Overview
+### Высокое напряжение АКБ 1 — предупреждение
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 442 PID(P): SPN: FMI: Lamp: Warning SRT: | Battery 1 voltage high - warning. | ECM damage will occur. |
+| Код неисправности: 442 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Высокое напряжение АКБ 1 — предупреждение. | Повреждение ECM произойдет. |
 
 ![[19803586.png]]
 
-Unswitched Battery Supply Circuit
+Цепь постоянного питания от АКБ
 
-### Circuit Description
+### Описание цепи
 
-The electronic control module (ECM) receives unswitched battery input through the engine harness. There is an in-line 20 amp fuse in the unswitched positive (+) battery wire of the engine harness to protect the engine harness from overheating. The battery return wires are connected directly to the negative (-) battery post.
+Электронный модуль управления (ECM) получает непереключенный вход батареи через электропроводку двигателя. Существует встроенный 20-амперный предохранитель в непереключенном положительном (+) проводе батареи ремня электропроводки двигателя, чтобы защитить ремень электропроводки двигателя от перегрева. Провода возврата аккумулятора соединены непосредственно с отрицательной (-) позицией аккумулятора.
 
-### Component Location
+### Расположение компонента
 
-The ECM is connected to the battery by the OEM harness. This direct link provides a constant power supply for the ECM. Refer to the OEM manual for the battery location.
+ECM подключается к батарее с помощью OEM-проводов. Это прямое соединение обеспечивает постоянный источник питания для ECM. См. руководство OEM для определения местоположения батареи.
 
-### Shoptalk
+### Практические замечания
 
-Improper wiring of the battery circuit is the most likely cause of this fault.
+Неправильная проводка цепи батареи является наиболее вероятной причиной этой неисправности.
 
-Refer to Troubleshooting Fault Code t05-442
+Устранение неполадок код t05-442
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 442
+>
+> ### Battery 1 Voltage High - Warning
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 442 PID(P): SPN: FMI: Lamp: Warning SRT: | Battery 1 voltage high - warning. | ECM damage will occur. |
+>
+> Unswitched Battery Supply Circuit
+>
+> ### Circuit Description
+>
+> The electronic control module (ECM) receives unswitched battery input through the engine harness. There is an in-line 20 amp fuse in the unswitched positive (+) battery wire of the engine harness to protect the engine harness from overheating. The battery return wires are connected directly to the negative (-) battery post.
+>
+> ### Component Location
+>
+> The ECM is connected to the battery by the OEM harness. This direct link provides a constant power supply for the ECM. Refer to the OEM manual for the battery location.
+>
+> ### Shoptalk
+>
+> Improper wiring of the battery circuit is the most likely cause of this fault.
+>
+> Refer to Troubleshooting Fault Code t05-442

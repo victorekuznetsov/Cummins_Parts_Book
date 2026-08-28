@@ -13,13 +13,15 @@ engines:
   - "41353297"
 families:
   - "QSK19"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240145.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb240145.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
   - "год/2024"
+  - "перевод/машинный"
   - "тема/cooling-system"
 ---
 
@@ -33,54 +35,116 @@ tags:
 > **Даты:** выпущен 2024-07-15 · изменён 2024-07-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240145.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb240145.pdf)
 
-## Improved Coolant Bypass Tube P Clip on Construction BH60 Dump Truck
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Улучшенный хомут перепускной трубки ОЖ на самосвале BH60
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - QSK19 CM2150 MCRS
-- Shop Order Number SO63039, A061H855
-- Construction BH60 Dump
+- Заказ на номер магазина SO63039, A061H855
+- Строительный насос BH60
 
-**Description of Change**
+**Описание изменения**
 
-- An improved coolant bypass tube P clip is available.
-- The new coolant bypass P Clip is thicker.
+- Доступен улучшенный обойм трубки P-клипа охлаждающей жидкости.
+- Новый шунтирующий шунт P Clip более толстый.
 
-**Reason for Change**
+**Причина изменения**
 
-The existing coolant bypass tube P clip is incapable of withstanding the coolant tube load and vibration. A broken coolant bypass tube P Clip can lead to increased noise from the engine.
+Существующий обводной обойной трубки P обоймы не способен выдерживать нагрузку трубки охлаждающей жидкости и вибрацию. Разбитая шунтирующая трубка P Clip может привести к увеличению шума от двигателя.
 
-**Resolution**
+**Решение**
 
-If coolant bypass tube P clip has malfunctioned, replace existing P clip part number with new P clip part number.
+Если обводная трубка P-клипа неисправна, замените существующий номер детали P-клипа новым номером части P-клипа.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-Service parts are available. See Table 1 for part numbers.
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
 
-| Table 1, Service Parts |  |  |  |  |
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| P Clip | 3090165 | No | Yes | 3282250 |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| P Клип | 3090165 | Нет | Да | 3282250 |
 
-**Part Inventory Action**
+**Часть инвентаризации**
 
-Use existing part number inventory before using the new part number.
+Используйте существующий инвентарь номеров деталей перед использованием нового номера деталей.
 
-**Production Status**
+**Статус в производстве**
 
-Implemented for production. See Table 2.
+Внедрено в производство. См. таблицу 2.
 
-| Table 2, Production Information |  |  |  |
+| Таблица 2, Информация о производстве |  |  |  |
 |---|---|---|---|
-| Product | ESN First | Build Date 1 | Plant |
-| QSK19C | 25489829 | 24 November 2023 | CIL -Kothrud Engine plant |
-| 1 Generator Set/Engine build date can be found on the Generator Set/engine data plate. |  |  |  |
+| Продукт | ESN First | Постройте дату 1 | растение |
+| QSK19C | 25489829 | 24 ноября 2023 года | Завод двигателей Kothrud |
+| 1 Дата сборки генератора / двигателя может быть найдена на табличке данных генератора / двигателя. |  |  |  |
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Improved Coolant Bypass Tube P Clip on Construction BH60 Dump Truck
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - QSK19 CM2150 MCRS
+> - Shop Order Number SO63039, A061H855
+> - Construction BH60 Dump
+>
+> **Description of Change**
+>
+> - An improved coolant bypass tube P clip is available.
+> - The new coolant bypass P Clip is thicker.
+>
+> **Reason for Change**
+>
+> The existing coolant bypass tube P clip is incapable of withstanding the coolant tube load and vibration. A broken coolant bypass tube P Clip can lead to increased noise from the engine.
+>
+> **Resolution**
+>
+> If coolant bypass tube P clip has malfunctioned, replace existing P clip part number with new P clip part number.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | P Clip | 3090165 | No | Yes | 3282250 |
+>
+> **Part Inventory Action**
+>
+> Use existing part number inventory before using the new part number.
+>
+> **Production Status**
+>
+> Implemented for production. See Table 2.
+>
+> | Table 2, Production Information |  |  |  |
+> |---|---|---|---|
+> | Product | ESN First | Build Date 1 | Plant |
+> | QSK19C | 25489829 | 24 November 2023 | CIL -Kothrud Engine plant |
+> | 1 Generator Set/Engine build date can be found on the Generator Set/engine data plate. |  |  |  |
+>
+> ### Document History

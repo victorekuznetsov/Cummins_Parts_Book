@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-018.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-018.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Starter Switch
@@ -34,42 +36,78 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-018.pdf)
 
-### Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> The engine must not be running and the ignition or keyswitch must be in the OFF position when installing or removing the ignition generator. To reduce the possibility of personal injury or equipment damage, do not touch the pins on the ignition generator when the engine is operating. Always use suitably insulated tools.
 
-Remove the wire connecting the starter switch to the magnetic switch from the starter switch terminal.
+### Проверка при повторном использовании
 
-Connect the positive lead of the digital multimeter, Part Number 3164488 or 3164489, to the starter switch terminal and the negative lead to a chassis or engine ground location.
+> [!danger] ОПАСНО
+> Двигатель не должен работать, а переключатель зажигания или зажигания должен находиться в положении выключения при установке или снятии генератора зажигания. Чтобы уменьшить вероятность травм или повреждения оборудования, не прикасайтесь к штифтам на генераторе зажигания при работе двигателя. Всегда используйте хорошо изолированные инструменты.
+
+Удалите провод, соединяющий стартерный переключатель с магнитным переключателем из терминала стартера.
+
+Подключите положительный щуп цифрового мультиметра, Часть Номер 3164488 или 3164489, к терминалу переключателя стартера и отрицательный щуп к шасси или наземному местоположению двигателя.
 
 ![[sb8tohb.png]]
 
-With the starter switch in the OFF position, there **must** be **no** voltage at the starter switch terminal. If the multimeter indicates voltage, the starter switch is malfunctioning and **must** be replaced.
+При включении стартера в положение выключения **должно быть** нет**напряжение на терминале стартера. Если мультиметр указывает на напряжение, стартерный выключатель неисправен и** должен быть заменен.
 
 ![[sb800kd.png]]
 
-Turn the starter switch to the START position.
+Поверните стартовый переключатель в положение START.
 
-The multimeter **must** indicate system voltage.
+Мультиметр **должен** указывать на напряжение системы.
 
 ![[sb800ke.png]]
 
-If there is **no** voltage:
+Если есть **no** напряжение:
 
-- Turn the starter switch to the OFF position.
-- Connect the multimeter positive lead to the starter switch terminal having a wire connecting the starter switch to the starter solenoid.
+- Поверните стартовый переключатель в положение выключения.
+- Подключите многометровый положительный щуп к терминалу переключателя стартера, имеющему провод, соединяющий стартерный переключатель с стартерным соленоидом.
 
 ![[sb800kf.png]]
 
-If the multimeter indicates system voltage, the starter switch is defective and **must** be replaced.
+Если мультиметр указывает на напряжение системы, то стартерный переключатель неисправен и должен быть заменен.
 
 ![[sb800kt.png]]
 
-If the multimeter indicates **no** voltage, the switch is **not** the cause of the complaint.
+Если мультиметр указывает на **no** напряжение, переключатель **не** является причиной жалобы.
 
 ![[sb8tosg.png]]
 
-Inspect the wiring from the starter switch to the starter solenoid and from the starter solenoid to the battery. Replace any broken or otherwise damaged wires.
+Осмотрите проводку от стартера переключателя на стартер соленоид и от стартера соленоида на батарею. Замените любые сломанные или иным образом поврежденные провода.
 
 ![[sb800ki.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect for Reuse
+>
+> **WARNING · Опасно**
+> The engine must not be running and the ignition or keyswitch must be in the OFF position when installing or removing the ignition generator. To reduce the possibility of personal injury or equipment damage, do not touch the pins on the ignition generator when the engine is operating. Always use suitably insulated tools.
+>
+> Remove the wire connecting the starter switch to the magnetic switch from the starter switch terminal.
+>
+> Connect the positive lead of the digital multimeter, Part Number 3164488 or 3164489, to the starter switch terminal and the negative lead to a chassis or engine ground location.
+>
+> With the starter switch in the OFF position, there **must** be **no** voltage at the starter switch terminal. If the multimeter indicates voltage, the starter switch is malfunctioning and **must** be replaced.
+>
+> Turn the starter switch to the START position.
+>
+> The multimeter **must** indicate system voltage.
+>
+> If there is **no** voltage:
+>
+> - Turn the starter switch to the OFF position.
+> - Connect the multimeter positive lead to the starter switch terminal having a wire connecting the starter switch to the starter solenoid.
+>
+> If the multimeter indicates system voltage, the starter switch is defective and **must** be replaced.
+>
+> If the multimeter indicates **no** voltage, the switch is **not** the cause of the complaint.
+>
+> Inspect the wiring from the starter switch to the starter solenoid and from the starter solenoid to the battery. Replace any broken or otherwise damaged wires.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-219.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-219.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Danfoss™ (Circular DIN Series) Connector
@@ -34,50 +36,92 @@ tags:
 > **Даты:** изменён 2010-12-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-219.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-219.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The connector can have multiple pin configurations.
 
-The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
+### Замена пин
 
-Reference the connector replacement step in this procedure for replacement instructions.
+Разъем может иметь несколько конфигураций штифта.
+
+Контакты разъема могут быть **не** отремонтированы или заменены. Разъем * должен быть заменен как блок.
+
+Ссылка на этап замены разъема в этой процедуре для инструкций по замене.
 
 ![[19803954.png]]
 
-### Connector Replacement
+### Замена разъёма
 
-Reference the appropriate wiring repair kit for the correct repair connector.
+Ссылка на соответствующий комплект ремонта проводов для правильного ремонта разъема.
 
-Refer to the appropriate wiring diagram and engine application for pin locations.
+См. соответствующую схему проводов и приложение двигателя для местоположений штифта.
 
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
 
 ![[19803955.png]]
 
-Measure 152 mm \[6 in\] from the face of the connector and remove the wiring harness protective cover.
+Измерьте 152 мм \[6 в\] от поверхности разъёма и удалите защитную крышку жгута проводов.
 
 ![[19803956.png]]
 
-Before cutting the wires, measure and tag all wires.
+Перед тем как разрезать провода, измерьте и пометьте все провода.
 
-Use wire crimping tool, Part Number 3822930, or equivalent, to cut wires 102 mm \[4 in\] from the face of the connector.
+Используйте инструмент для обжима проводов, номер детали 3822930 или эквивалент, для обрезания проводов 102 мм \[4 в\] от поверхности разъема.
 
 ![[19803957.png]]
 
-Use wire crimping tool, Part Number 3822930, or equivalent, to remove 6 mm \[¼ in\] of wire insulation from the harness wire(s) cut in the previous step.
+Используйте инструмент для обжима проводов, номер детали 3822930 или эквивалент, чтобы удалить 6 мм \[1⁄4 в\] изоляции провода из провода (проводов) ремня на предыдущем этапе.
 
 ![[19803958.png]]
 
-Install the wires of the harness into the heat shrinkable butt splices provided on connector.
+Установите провода проводной упряжки в теплоусадочные сплайсы, предусмотренные на разъеме.
 
-Use wire crimping tool, Part Number 3822930, or equivalent, to crimp the wires into the heat shrinkable butt splices.
+Используйте инструмент для обжима проводов, номер детали 3822930, или эквивалент, чтобы обжимать провода в термоусадочные сплайсы.
 
 ![[19803959.png]]
 
-Use heat gun, Part Number 3822860, or equivalent, to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+Используйте тепловую пушку, номер детали 3822860, или эквивалент, для нагрева термоусадочной трубы. Трубка будет сжиматься и делать соединение водонепроницаемым.
 
 ![[22900119.png]]
 
-Wrap the wires with electrical tape for added protection, to complete the repair.
+Заверните провода электрической лентой для дополнительной защиты, чтобы завершить ремонт.
 
 ![[19803961.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> The connector can have multiple pin configurations.
+>
+> The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
+>
+> Reference the connector replacement step in this procedure for replacement instructions.
+>
+> ### Connector Replacement
+>
+> Reference the appropriate wiring repair kit for the correct repair connector.
+>
+> Refer to the appropriate wiring diagram and engine application for pin locations.
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Measure 152 mm \[6 in\] from the face of the connector and remove the wiring harness protective cover.
+>
+> Before cutting the wires, measure and tag all wires.
+>
+> Use wire crimping tool, Part Number 3822930, or equivalent, to cut wires 102 mm \[4 in\] from the face of the connector.
+>
+> Use wire crimping tool, Part Number 3822930, or equivalent, to remove 6 mm \[¼ in\] of wire insulation from the harness wire(s) cut in the previous step.
+>
+> Install the wires of the harness into the heat shrinkable butt splices provided on connector.
+>
+> Use wire crimping tool, Part Number 3822930, or equivalent, to crimp the wires into the heat shrinkable butt splices.
+>
+> Use heat gun, Part Number 3822860, or equivalent, to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+>
+> Wrap the wires with electrical tape for added protection, to complete the repair.

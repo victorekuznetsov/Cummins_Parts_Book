@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666121"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-012-003.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-012-003.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Air Compressor Carbon Buildup
@@ -34,56 +36,104 @@ tags:
 > **Даты:** изменён 2005-01-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-012-003.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-012-003.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The illustrations shown are of the SS model single-cylinder air compressor. Differences in procedures between the other air compressor models will be shown where necessary.
+
+### Первичная проверка
+
+> [!note] Примечание
+> На изображенных иллюстрациях изображен одноцилиндровый воздушный компрессор модели SS. При необходимости будут показаны различия в процедурах между другими моделями воздушных компрессоров.
 
 ![[cp4shnb.png]]
 
-Shut off the engine.
+Выключи двигатель.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye protection and face protection when using compressed air. Improper use can cause bodily injury from flying debris and dirt.
+> [!danger] ОПАСНО
+> Носите соответствующую защиту глаз и лица при использовании сжатого воздуха. Неправильное использование может привести к телесным повреждениям от летающего мусора и грязи.
 
-Open the drain cock on the wet tank to release compressed air from the system.
+Откройте дренажный петух на мокром баке, чтобы выпустить сжатый воздух из системы.
 
 ![[cp8tbmh.png]]
 
-Remove the air inlet and outlet connections from the air compressor.
+Удалите впускное и выходное соединения воздуха из воздушного компрессора.
 
 ![[12200003.png]]
 
-Measure the total carbon deposit thickness inside the air discharge line as shown.
+Измерить общую толщину углеродного отложения внутри линии разряда воздуха, как показано.
 
-> [!note] Note · Примечание
-> The carbon deposit thickness **must not** exceed 1.6 mm \[0.06 in\].
+> [!note] Примечание
+> Толщина отложения углерода **не должна** превышать 1,6 мм \[0,06 дюйма \].
 
 ![[cp8tbta.png]]
 
-> [!danger] WARNING · Опасно
-> The air discharge line must be capable of withstanding extreme heat and pressure to prevent personal injury and property damage. Refer to the manufacturer's specifications.
+> [!danger] ОПАСНО
+> Линия разряда воздуха должна быть способна выдерживать экстремальную жару и давление, чтобы предотвратить травмы и повреждения имущества. Смотрите спецификации производителя.
 
-> [!note] Note · Примечание
-> If the total carbon deposit thickness exceeds specification, remove and clean, or replace the air discharge line. Refer to the manufacturer's material specifications.
+> [!note] Примечание
+> Если общая толщина углеродного отложения превышает спецификацию, удалите и очистите или замените линию разряда воздуха. См. спецификации материалов производителя.
 
 ![[12200004.png]]
 
-> [!danger] WARNING · Опасно
-> The air discharge line must be capable of withstanding extreme heat and pressure to prevent personal injury and property damage. Refer to the manufacturer's specifications.
+> [!danger] ОПАСНО
+> Линия разряда воздуха должна быть способна выдерживать экстремальную жару и давление, чтобы предотвратить травмы и повреждения имущества. Смотрите спецификации производителя.
 
-Continue to check for carbon buildup in the air discharge line connections up to the first connection, or wet tank.
+Продолжайте проверять накопление углерода в соединениях линии разряда воздуха до первого соединения или мокрого резервуара.
 
-Clean or replace all lines and fittings with carbon deposits greater than 1.6 mm \[0.06 in\]. Refer to the manufacturer's specifications for cleaning or replacement instructions.
+Очистить или заменить все линии и фитинги углеродными отложениями более 1,6 мм \[0,06 дюйма \]. См. спецификации производителя для очистки или инструкции по замене.
 
 ![[cp8tbtb.png]]
 
-Install and tighten the air inlet and outlet connections.
+Установите и затяните впускное и выходное соединения воздуха.
 
 ![[12200003.png]]
 
-Close the wet tank drain cock.
+Закройте мокрый бак дренажного члена.
 
-Operate the engine and check for air leaks.
+Управляйте двигателем и проверяйте наличие утечек воздуха.
 
 ![[ca200da.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> **Note · Примечание**
+> The illustrations shown are of the SS model single-cylinder air compressor. Differences in procedures between the other air compressor models will be shown where necessary.
+>
+> Shut off the engine.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye protection and face protection when using compressed air. Improper use can cause bodily injury from flying debris and dirt.
+>
+> Open the drain cock on the wet tank to release compressed air from the system.
+>
+> Remove the air inlet and outlet connections from the air compressor.
+>
+> Measure the total carbon deposit thickness inside the air discharge line as shown.
+>
+> **Note · Примечание**
+> The carbon deposit thickness **must not** exceed 1.6 mm \[0.06 in\].
+>
+> **WARNING · Опасно**
+> The air discharge line must be capable of withstanding extreme heat and pressure to prevent personal injury and property damage. Refer to the manufacturer's specifications.
+>
+> **Note · Примечание**
+> If the total carbon deposit thickness exceeds specification, remove and clean, or replace the air discharge line. Refer to the manufacturer's material specifications.
+>
+> **WARNING · Опасно**
+> The air discharge line must be capable of withstanding extreme heat and pressure to prevent personal injury and property damage. Refer to the manufacturer's specifications.
+>
+> Continue to check for carbon buildup in the air discharge line connections up to the first connection, or wet tank.
+>
+> Clean or replace all lines and fittings with carbon deposits greater than 1.6 mm \[0.06 in\]. Refer to the manufacturer's specifications for cleaning or replacement instructions.
+>
+> Install and tighten the air inlet and outlet connections.
+>
+> Close the wet tank drain cock.
+>
+> Operate the engine and check for air leaks.

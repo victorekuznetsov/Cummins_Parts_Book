@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-017.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Filter Head (Remote-Mounted)
@@ -34,87 +36,162 @@ tags:
 > **Даты:** изменён 2021-10-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-017.pdf)
 
-### Disassemble
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The same filter head is on K38 and K50 engines.
 
-> [!note] Note · Примечание
-> The location of the plugs and fittings can be reversed on the filter head being serviced.
+### Разборка
 
-Disconnect the oil lines (1) from the oil filter head.
+> [!note] Примечание
+> Такая же головка фильтра установлена на двигателях К38 и К50.
+
+> [!note] Примечание
+> Расположение вилок и фитингов может быть изменено на обслуживаемой головке фильтра.
+
+Отсоедините масляные линии (1) от головки масляного фильтра.
 
 ![[07s00132.png]]
 
-Remove the plugs (1) and the o-rings (2). Discard the o-rings.
+Удалите вилки (1) и кольца (2). Уплотнительные кольца утилизируйте.
 
 ![[of6hdfa.png]]
 
-Mark the location of the elbows and their orientation prior to removal on the filter head.
+Отметьте расположение локтей и их ориентацию перед удалением на головке фильтра.
 
-Remove the elbows (1) and o-rings (2). Discard o-rings.
+Удалите локти (1) и кольца (2). Отбросьте кольца.
 
 ![[07s00133.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturers recommendations for use. Wear goggles and protective clothing to reduce the risk of personal injury.
+> [!danger] ОПАСНО
+> При использовании растворителей, кислот или щелочных материалов для очистки следуйте рекомендациям производителей по применению. Носите очки и защитную одежду, чтобы снизить риск получения травм.
 
-Use solvent. Clean the head.
+Используйте растворитель. Очистите голову.
 
 ![[07601196.png]]
 
-Check the parts for damage.
+Проверьте детали на предмет повреждений.
 
 ![[07601197.png]]
 
-> [!warning] CAUTION · Осторожно
-> The adapters for the bypass filter head are different than on the full-flow filter head or a fuel filter. The adapters have different threads to prevent the installation of the wrong filter element. The adapters for the bypass oil filter have a small hole, 2.56 mm \[0.101 inch\], in the center.
+> [!warning] ОСТОРОЖНО
+> Адаптеры для головки обходного фильтра отличаются от головки фильтра полного потока или топливного фильтра. Адаптеры имеют различную резьбу, чтобы предотвратить установку неправильного фильтрующего элемента. Адаптеры для обходного масляного фильтра имеют небольшое отверстие, 2,56 мм \[0,101 дюйма\], в центре.
 
-> [!note] Note · Примечание
-> A portion of the filter head is **not** shown for clarity.
+> [!note] Примечание
+> Часть головки фильтра **не** показана для ясности.
 
-> [!note] Note · Примечание
-> It is **not** necessary to remove the adapters unless they are damaged or loose.
+> [!note] Примечание
+> Не требуется удалять адаптеры, если они не повреждены или не рыхлые.
 
-Check the adapters.
-
-![[of6hdsb.png]]
-
-### Assemble
-
-If the adapter **must** be replaced, Loctite 242® or equivalent **must** be put on the threads that touch the threads in the filter head.
-
-> [!tip] Момент затяжки · Torque Value
-> 203 n•m [150 ft-lb]
-
-> [!note] Note · Примечание
-> Older filter heads contain a lockplate on each adapter. The lockplate does **not** have to be installed when Loctite® is used on the threads.
+Проверьте адаптеры.
 
 ![[of6hdsb.png]]
 
-Install the o-rings (2) on the plugs (1).
+### Сборка
 
-Install the plugs.
+Если адаптер **должен** быть заменен, то Loctite 242® или эквивалент * должен быть надет на резьбу, которая касается резьбы в головке фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 203 Н·м [150 фунт-фут]
+
+> [!note] Примечание
+> Старые головки фильтров содержат блокировку на каждом адаптере. Замочная табличка **не** должна быть установлена, когда Loctite® используется на резьбе.
+
+![[of6hdsb.png]]
+
+Установите кольца (2) на вилки (1).
+
+Установите штепсель.
+
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
 ![[of6hdfa.png]]
 
-Install o-rings (2) on elbow (1).
+Установите o-кольца (2) на локте (1).
 
-Install the elbows.
+Установите локти.
 
-> [!tip] Момент затяжки · Torque Value
-> 65 n•m [50 ft-lb]
+> [!tip] Момент затяжки
+> 65 Н·м [50 фунт-фут]
 
 ![[07s00133.png]]
 
-Install oil lines (1) to oil filter head as shown.
+Установите масляные линии (1) на головку масляного фильтра, как показано.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
 ![[07s00132.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Disassemble
+>
+> **Note · Примечание**
+> The same filter head is on K38 and K50 engines.
+>
+> **Note · Примечание**
+> The location of the plugs and fittings can be reversed on the filter head being serviced.
+>
+> Disconnect the oil lines (1) from the oil filter head.
+>
+> Remove the plugs (1) and the o-rings (2). Discard the o-rings.
+>
+> Mark the location of the elbows and their orientation prior to removal on the filter head.
+>
+> Remove the elbows (1) and o-rings (2). Discard o-rings.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturers recommendations for use. Wear goggles and protective clothing to reduce the risk of personal injury.
+>
+> Use solvent. Clean the head.
+>
+> Check the parts for damage.
+>
+> **CAUTION · Осторожно**
+> The adapters for the bypass filter head are different than on the full-flow filter head or a fuel filter. The adapters have different threads to prevent the installation of the wrong filter element. The adapters for the bypass oil filter have a small hole, 2.56 mm \[0.101 inch\], in the center.
+>
+> **Note · Примечание**
+> A portion of the filter head is **not** shown for clarity.
+>
+> **Note · Примечание**
+> It is **not** necessary to remove the adapters unless they are damaged or loose.
+>
+> Check the adapters.
+>
+> ### Assemble
+>
+> If the adapter **must** be replaced, Loctite 242® or equivalent **must** be put on the threads that touch the threads in the filter head.
+>
+> **Момент затяжки · Torque Value**
+> 203 n•m [150 ft-lb]
+>
+> **Note · Примечание**
+> Older filter heads contain a lockplate on each adapter. The lockplate does **not** have to be installed when Loctite® is used on the threads.
+>
+> Install the o-rings (2) on the plugs (1).
+>
+> Install the plugs.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> Install o-rings (2) on elbow (1).
+>
+> Install the elbows.
+>
+> **Момент затяжки · Torque Value**
+> 65 n•m [50 ft-lb]
+>
+> Install oil lines (1) to oil filter head as shown.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]

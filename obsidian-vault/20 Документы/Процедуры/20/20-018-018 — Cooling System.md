@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666120"
   - "4021592"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-018-018.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-018-018.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Cooling System
@@ -34,39 +36,86 @@ tags:
 > **Даты:** изменён 2007-01-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-018-018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-018-018.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Coolant Capacity
 
-Engine only with hydromechanical injectors 32.2 liters \[34 qt\]
+### Спецификации
 
-#### Coolant Capacity
+#### Охлаждающая способность
 
-Engine only with electronic injectors 42.2 liters \[44 qt\]
+Двигатель только с гидромеханическим топливным форсункой 32,2 л[34 квт]
 
-| Standard Modulating Thermostat Range | 82° to 94°C \[180° to 202°F\] |
+#### Охлаждающая способность
+
+Двигатель только с электронным топливным форсункой 42,2 л[44 квт]
+
+| Стандартный модулирующий диапазон термостата | 82° до 94°C \[180° до 202°F\] |
 |---|---|
 
-| Standard LTA Thermostat Range | 69° to 78°C \[157° to 172°F\] |
+| Стандартный диапазон LTA Thermostat | 69° до 78°C[157° до 172°F] |
 |---|---|
 
-| Maximum Coolant Pressure (exclusive of pressure cap) | 241 kPa \[35 psi\] |
+| Максимальное давление охлаждающей жидкости (исключая крышку радиатора) | 241 кПа[35 psi] |
 |---|---|
 
-| Maximum Allowable Top Tank Temperature | 100°C \[212°F\] |
+| Максимально допустимая температура топового танка | 100°C[212°F] |
 |---|---|
 
-| Minimum Recommended Top Tank Temperature | 70°C \[160°F\] |
+| Минимальная рекомендуемая температура топового танка | 70°C[160°F] |
 |---|---|
 
-| Maximum Allowable Deaeration Time | 25 minutes |
+| Максимальное допустимое время деаэрации | 25 минут |
 |---|---|
 
-| Minimum Allowable Drawdown or 20% of System Capacity (whichever is greater) | 11 liters \[12 qt\] |
+| Минимальная допустимая просадка или 20% емкости системы (в зависимости от того, что больше) | 11 литров[12 квт] |
 |---|---|
 
-| Minimum Allowable Pressure Cap Relief (at sea level) | 50 kPa \[7 psi\] |
+| Минимально допустимый предел давления радиатора (на уровне моря) | 50 кПа[7 psi] |
 |---|---|
 
-| Maximum Allowable Pressure Cap Relief (at sea level) | 103 kPa \[15 psi\] |
+| Максимально допустимый предел давления радиатора (на уровне моря) | 103 кПа[15 psi] |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> #### Coolant Capacity
+>
+> Engine only with hydromechanical injectors 32.2 liters \[34 qt\]
+>
+> #### Coolant Capacity
+>
+> Engine only with electronic injectors 42.2 liters \[44 qt\]
+>
+> | Standard Modulating Thermostat Range | 82° to 94°C \[180° to 202°F\] |
+> |---|---|
+>
+> | Standard LTA Thermostat Range | 69° to 78°C \[157° to 172°F\] |
+> |---|---|
+>
+> | Maximum Coolant Pressure (exclusive of pressure cap) | 241 kPa \[35 psi\] |
+> |---|---|
+>
+> | Maximum Allowable Top Tank Temperature | 100°C \[212°F\] |
+> |---|---|
+>
+> | Minimum Recommended Top Tank Temperature | 70°C \[160°F\] |
+> |---|---|
+>
+> | Maximum Allowable Deaeration Time | 25 minutes |
+> |---|---|
+>
+> | Minimum Allowable Drawdown or 20% of System Capacity (whichever is greater) | 11 liters \[12 qt\] |
+> |---|---|
+>
+> | Minimum Allowable Pressure Cap Relief (at sea level) | 50 kPa \[7 psi\] |
+> |---|---|
+>
+> | Maximum Allowable Pressure Cap Relief (at sea level) | 103 kPa \[15 psi\] |
+> |---|---|

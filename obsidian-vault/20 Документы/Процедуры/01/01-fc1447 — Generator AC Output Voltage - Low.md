@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1447.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1447.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Generator AC Output Voltage - Low
@@ -34,40 +36,86 @@ tags:
 > **Даты:** изменён 2012-05-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1447.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1447.pdf)
 
-### Fault Code: 1447
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Generator AC Output Voltage - Low
 
-Printable Version
+### Код неисправности: 1447
 
-### Overview
+### Низкое выходное напряжение генератора
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1447 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Generator AC output voltage is low. | Generator set will shut down. |
+| Код неисправности: 1447 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Выходное напряжение генератора переменного тока низкое. | Генератор будет отключен. |
 
 ![[19802905.png]]
 
-Generator Circuit
+Схема генератора
 
-### Circuit Description
+### Описание цепи
 
-The generator set produces electric power. This power is in the form of three-phase AC. The engine control module (ECM) monitors the performance and operation of the generator set. The threshold for a low AC output voltage condition is that one or more of the phase voltages has dropped below 85 percent of nominal for at least 10 seconds.
+Генераторная установка вырабатывает электроэнергию. Эта мощность находится в форме трехфазного АС. Модуль управления двигателем (ECM) контролирует производительность и работу генераторной установки. Порог для состояния низкого выходного напряжения переменного тока заключается в том, что одно или несколько фазовых напряжений упали ниже 85 процентов номинального в течение по крайней мере 10 секунд.
 
-The ECM uses this fault code to tell the operator when he generator set AC output voltage is low.
+ECM использует этот код неисправности, чтобы сообщить оператору, когда он устанавливает выходное напряжение переменного тока на низком уровне.
 
-### Component Location
+### Расположение компонента
 
-Refer to customer/facility/installation documentation for diagrams on the generator set/electrical bus setup.
+См. документацию о клиенте/объекте/установке для диаграмм на генераторной установке/настройке электрической шины.
 
-### Shoptalk
+### Практические замечания
 
-If output voltage is low, the control can **not** drive the output voltage high enough. This fault can be caused by a failed voltage regulator, PT/CT board, bad PMG on field wirings, or an open or short circuit in one of the harnesses.
+Если выходное напряжение низкое, то управление может **не** приводить в действие выходное напряжение достаточно высокое. Эта неисправность может быть вызвана неисправным регулятором напряжения, платой PT / CT, плохой PMG на полевых проводах или открытым или коротким замыканием в одной из проводных ремней.
 
-If the voltages at the output leads of the alternator are significantly higher than the voltages read by INSITE™ electronic service tool, the problem can be in the voltage sensing circuits.
+Если напряжения на выходных проводах генератора значительно выше, чем напряжения, считываемые электронным сервисным оборудованием INSITETM, проблема может быть в цепях датчика напряжения.
 
-If the voltage regulator is getting B positive (+). but the isolated supply LED is **not** lit, the problem is with the voltage regulator.
+Если регулятор напряжения получает B положительно (+). Но изолированный источник питания светодиод **не** освещен, проблема с регулятором напряжения.
 
-Check for overload.
+Проверьте перегрузку.
 
-Refer to Troubleshooting Fault Code t05-1447.
+См. Код устранения неполадок t05-1447.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1447
+>
+> ### Generator AC Output Voltage - Low
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1447 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Generator AC output voltage is low. | Generator set will shut down. |
+>
+> Generator Circuit
+>
+> ### Circuit Description
+>
+> The generator set produces electric power. This power is in the form of three-phase AC. The engine control module (ECM) monitors the performance and operation of the generator set. The threshold for a low AC output voltage condition is that one or more of the phase voltages has dropped below 85 percent of nominal for at least 10 seconds.
+>
+> The ECM uses this fault code to tell the operator when he generator set AC output voltage is low.
+>
+> ### Component Location
+>
+> Refer to customer/facility/installation documentation for diagrams on the generator set/electrical bus setup.
+>
+> ### Shoptalk
+>
+> If output voltage is low, the control can **not** drive the output voltage high enough. This fault can be caused by a failed voltage regulator, PT/CT board, bad PMG on field wirings, or an open or short circuit in one of the harnesses.
+>
+> If the voltages at the output leads of the alternator are significantly higher than the voltages read by INSITE™ electronic service tool, the problem can be in the voltage sensing circuits.
+>
+> If the voltage regulator is getting B positive (+). but the isolated supply LED is **not** lit, the problem is with the voltage regulator.
+>
+> Check for overload.
+>
+> Refer to Troubleshooting Fault Code t05-1447.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4022094"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-fc2998.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-fc2998.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/123"
+  - "перевод/машинный"
 ---
 
 # Engine Torque Limit Feature - Special Instructions
@@ -34,46 +36,98 @@ tags:
 > **Даты:** изменён 2010-08-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-fc2998.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-fc2998.pdf)
 
-### Fault Code: 2998
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Torque Limit Feature - Special Instructions
 
-Printable Version
+### Код неисправности: 2998
 
-### Overview
+### Функция ограничения крутящего момента — особые указания
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 2998 PID(P): SPN: 1632 FMI: 14 Lamp: Amber SRT: | Engine Torque Limit Feature - Special Instructions. Engine overloaded. | Possible engine derate if enabled. |
+| Код неисправности: 2998 PID(P): СПН: 1632 FMI: 14 ламп: Янтарная СРТ: | Функция ограничения крутящего момента — особые указания. Двигатель перегружен. | Возможный двигатель может сломаться, если включен. |
 
 ![[19c01042.png]]
 
 ECM CM2150
 
-### Circuit Description
+### Описание цепи
 
-N/A
+Не применяется
 
-### Component Location
+### Расположение компонента
 
-N/A
+Не применяется
 
-### Shoptalk
+### Практические замечания
 
-This fault code is designed to keep the engine from overloading.
+Этот код неисправности предназначен для предотвращения перегрузки двигателя.
 
-The fault code is triggered when the engine speed fails to attain the commanded speed.
+Код неисправности запускается, когда скорость двигателя не достигает командной скорости.
 
-Potential causes of this fault code are:
+Потенциальными причинами этого кода неисправности являются:
 
-- Low engine power
+- Низкая мощность двигателя
 
-- High idle adjustment is too high
+- Высокая регулировка холостого хода слишком высока
 
-- Excessive hull fouling
+- Чрезмерное засорение корпуса
 
-- Incorrect transmission or propeller.
+- Неправильная трансмиссия или пропеллер.
 
-Refer to the OEM service manual for causes associated with excessive hull fouling and incorrect transmission or propeller, as these are external to engine.
+См. руководство по обслуживанию OEM по причинам, связанным с чрезмерным загрязнением корпуса и неправильной трансмиссией или винтом, поскольку они являются внешними по отношению к двигателю.
 
-Refer to Troubleshooting Fault Code 2998.
+См. Troubleshooting Fault Code 2998.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 2998
+>
+> ### Engine Torque Limit Feature - Special Instructions
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 2998 PID(P): SPN: 1632 FMI: 14 Lamp: Amber SRT: | Engine Torque Limit Feature - Special Instructions. Engine overloaded. | Possible engine derate if enabled. |
+>
+> ECM CM2150
+>
+> ### Circuit Description
+>
+> N/A
+>
+> ### Component Location
+>
+> N/A
+>
+> ### Shoptalk
+>
+> This fault code is designed to keep the engine from overloading.
+>
+> The fault code is triggered when the engine speed fails to attain the commanded speed.
+>
+> Potential causes of this fault code are:
+>
+> - Low engine power
+>
+> - High idle adjustment is too high
+>
+> - Excessive hull fouling
+>
+> - Incorrect transmission or propeller.
+>
+> Refer to the OEM service manual for causes associated with excessive hull fouling and incorrect transmission or propeller, as these are external to engine.
+>
+> Refer to Troubleshooting Fault Code 2998.

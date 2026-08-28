@@ -20,7 +20,8 @@ families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK50"
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150029.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150029.pdf"
 tags:
@@ -29,6 +30,7 @@ tags:
   - "двигатель/QSK50"
   - "двигатель/QSK60"
   - "год/2015"
+  - "перевод/машинный"
   - "тема/electronic-engine-controls"
 ---
 
@@ -42,30 +44,68 @@ tags:
 > **Даты:** выпущен 2015-03-12 · изменён 2015-03-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150029.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150029.pdf)
 
-## Next Generation CENSE™ Module CM2330 Bench Calibration Requirement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-The Next Generation CENSE™ Module CM2330 supplied by Cummins® distribution and dealers does **not** have the appropriate calibration installed. Self-servicing customers without INSITE™ electronic service tool with a Pro level subscription are **not** able to install the required Next Generation CENSE™ Module CM2330 calibration, which may result in extended downtime.
+## Требование стендовой калибровки модуля CENSE™ CM2330
 
-### Confirmation
+### Суть проблемы
 
-**Product Affected:** All High Horsepower Engines Using Next Generation CENSE™ Module CM2330
+Модуль CM2330 следующего поколения CENSETM, поставляемый дистрибьюторами Cummins®, не имеет соответствующей калибровки. Клиенты, которые не имеют электронных инструментов обслуживания INSITETM с подпиской Pro уровня, не могут установить необходимую калибровку CM2330 модуля Next Generation CENSETM, что может привести к длительному простою.
 
-Self-servicing customers were previously able to install calibrations on new replacement CM530 CENSE™ Modules using INSITE™ for CENSE™ electronic service tool.
+### Подтверждение
 
-The Next Generation CENSE™ Module CM2330 calibration can be installed using **only** INSITE™ electronic service tool with a Pro level subscription with the standard INLINE™ adapter via the J1939 service connector socket. See TSB130133.
+**Пострадал продукт:** Все двигатели повышенной мощности с использованием CENSETM следующего поколения CM2330
 
-### Resolution
+Клиенты, которые самостоятельно обслуживают свои устройства, ранее могли устанавливать калибровки на новые модули CM530 CENSETM, используя INSITETM для электронного сервисного инструментария CENSETM.
 
-Cummins® distribution and dealers should inform self-servicing customers of the requirement to have INSITE™ electronic service tool with a Pro level subscription to install calibrations on Next Generation CENSE™ Modules CM2330.
+Калибровка CENSETM Module CM2330 следующего поколения может быть установлена с помощью **только*** электронного сервисного инструментария INSITETM с подпиской уровня Pro со стандартным адаптером INLINETM через разъем для разъема службы J1939. См. TSB130133.
 
-If customers do **not** have access to INSITE™ electronic service tool with a Pro level subscription, the Next Generation CENSE™ Module CM2330 calibration will need to be installed prior to the customer taking possession of Next Generation CENSE™ Module CM2330.
+### Решение
 
-The Next Generation CENSE™ Module CM2330 bench calibration is possible using the engine control module (ECM) bench calibration harness, Cummins® part number 5298707. See Service Tool Instruction Number 3377791-22.
+Дистрибьюторы и дилеры Cummins® должны информировать клиентов, предоставляющих услуги самообслуживания, о требовании иметь электронный сервис INSITETM с подпиской уровня Pro для установки калибровок на модулях CM2330 следующего поколения CENSETM.
 
-### Warranty Statement
+Если клиенты не имеют доступа к электронному сервисному оборудованию INSITETM с подпиской Pro уровня, калибровка модуля CM2330 следующего поколения CENSETM должна быть установлена до того, как клиент получит модуль CM2330 следующего поколения CENSETM.
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Калибровка испытательного стенда CM2330 следующего поколения CENSETM возможна с использованием модуля управления двигателем (ECM) испытательного стенда калибровочной проводов ремня Cummins®, номер детали 5298707. См. Инструкцию по обслуживанию инструментария № 3377791-22.
 
-### Document History
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Next Generation CENSE™ Module CM2330 Bench Calibration Requirement
+>
+> ### Core Issue
+>
+> The Next Generation CENSE™ Module CM2330 supplied by Cummins® distribution and dealers does **not** have the appropriate calibration installed. Self-servicing customers without INSITE™ electronic service tool with a Pro level subscription are **not** able to install the required Next Generation CENSE™ Module CM2330 calibration, which may result in extended downtime.
+>
+> ### Confirmation
+>
+> **Product Affected:** All High Horsepower Engines Using Next Generation CENSE™ Module CM2330
+>
+> Self-servicing customers were previously able to install calibrations on new replacement CM530 CENSE™ Modules using INSITE™ for CENSE™ electronic service tool.
+>
+> The Next Generation CENSE™ Module CM2330 calibration can be installed using **only** INSITE™ electronic service tool with a Pro level subscription with the standard INLINE™ adapter via the J1939 service connector socket. See TSB130133.
+>
+> ### Resolution
+>
+> Cummins® distribution and dealers should inform self-servicing customers of the requirement to have INSITE™ electronic service tool with a Pro level subscription to install calibrations on Next Generation CENSE™ Modules CM2330.
+>
+> If customers do **not** have access to INSITE™ electronic service tool with a Pro level subscription, the Next Generation CENSE™ Module CM2330 calibration will need to be installed prior to the customer taking possession of Next Generation CENSE™ Module CM2330.
+>
+> The Next Generation CENSE™ Module CM2330 bench calibration is possible using the engine control module (ECM) bench calibration harness, Cummins® part number 5298707. See Service Tool Instruction Number 3377791-22.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Document History

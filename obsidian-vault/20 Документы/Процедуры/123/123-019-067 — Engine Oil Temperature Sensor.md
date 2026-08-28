@@ -14,13 +14,15 @@ families:
 manuals:
   - "4022094"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-019-067.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-019-067.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/123"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Temperature Sensor
@@ -34,81 +36,156 @@ tags:
 > **Даты:** изменён 2017-04-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-019-067.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-019-067.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The oil temperature sensor sends engine oil temperature information to the engine control module (ECM). The exact location of the sensor varies with engine family. Refer to the appropriate base engine manual.
+
+### Общие сведения
+
+Датчик температуры масла отправляет информацию о температуре масла двигателя в модуль управления двигателем (ECM). Точное местоположение датчика варьируется в зависимости от семейства двигателей. Смотрите соответствующее руководство по базовому двигателю.
 
 ![[19801851.png]]
 
-### Remove
+### Снятие
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies in the United States of America have determined that used engine oil can be carcinogenic and can cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. Always use the proper environmental procedures to dispose of the oil.
+> [!danger] ОПАСНО
+> Некоторые государственные и федеральные агентства в Соединенных Штатах Америки определили, что используемое моторное масло может быть канцерогенным и может вызывать репродуктивную токсичность. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Всегда используйте надлежащие экологические процедуры для утилизации масла.
 
-Partially drain the engine lubricating oil system. [[20-007-037 — Lubricating Oil System|Refer to Procedure 007-037 in Section 7.]]
+Частично осушить систему моторного масла двигателя.[[20-007-037 — Lubricating Oil System|См. процедуру 007-037 в разделе 7.]]
 
-Lift up on the locking tab and pull the electrical connectors apart.
+Поднимите на запирающую вкладку и разберите электрические разъемы.
 
-Remove the sensor.
+Удалите датчик.
 
 ![[19800823.png]]
 
-### Resistance Check
+### Проверка сопротивления
 
-Disconnect the sensor connector.
+Отключите разъем датчика.
 
-Select the resistance function on the multimeter.
+Выберите функцию сопротивления на мультиметре.
 
-Attach the appropriate test leads to the multimeter probes.
+Прикрепите соответствующий испытательный щуп к многометровым зондам.
 
-Touch the two test leads to the two terminals on the sensor. Measure the resistance.
+Прикоснитесь к двум испытательным зондам на датчике. Измерьте сопротивление.
 
-The multimeter **must** show between 115 and 244k ohms. The resistance value is temperature-dependent as shown in the table below.
+Мультиметр **должен** показывать от 115 до 244k ом. Значение сопротивления зависит от температуры, как показано в таблице ниже.
 
-| Temperature | Range |  |
+| температура | диапазон |  |
 |---|---|---|
-| °C | °F | Ohms |
-| 0 | 32 | 33k to 36k |
-| 25 | 77 | 9k to 11k |
-| 50 | 122 | 3k to 4k |
-| 75 | 167 | 1350 to 1500 |
-| 100 | 212 | 600 to 675 |
+| °C | градус | Омс |
+| 0 | 32 | 33k до 36k |
+| 25 | 77 | 9k до 11k |
+| 50 | 122 | 3k - 4k |
+| 75 | 167 | 1350—1500 |
+| 100 | 212 | 600-675 |
 
 ![[19801852.png]]
 
-If the resistance is out of range, then the sensor has failed.
+Если сопротивление находится вне диапазона, то датчик вышел из строя.
 
-Replace the sensor.
+Замените датчик.
 
 ![[19801853.png]]
 
-### Check for Short Circuit to Ground
+### Проверка на замыкание на массу
 
-Touch the multimeter lead with the attached appropriate test lead to either terminal on the sensor. Touch the other multimeter lead to a good, clean surface on the engine block.
+Прикоснитесь к многометровому свинцу с помощью прикрепленного соответствующего испытательного щупа к любому терминалу на датчике. Прикосновение к другому мультиметру приводит к хорошей, чистой поверхности на блоке двигателя.
 
 ![[19801854.png]]
 
-Measure the resistance.
+Измерьте сопротивление.
 
-The multimeter **must** show greater than 100k ohms, which is an open circuit. If the circuit is **not** closed, then there is a short within the sensor to chassis ground. Replace the sensor.
+Мультиметр **должен** показывать более 100k ом, что является открытой схемой. Если цепь **не** закрыта, то внутри датчика есть короткое расстояние до земли шасси. Замените датчик.
 
 ![[19801621.png]]
 
-### Install
+### Установка
 
-Verify that the new sensor has an o-ring.
+Убедитесь, что новый датчик имеет кольцо.
 
-Lubricate the sensor o-ring with clean engine oil.
+Смазать сенсорное кольцо чистым моторным маслом.
 
-Install the sensor into the engine.
+Установите датчик в двигатель.
 
-Tighten the sensor.
+Затяните датчик.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [11 ft-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [11 фунт-фут]
 
-Push the connectors together until they lock.
+Соедините разъёмы до фиксации.
 
-Fill the engine to the proper level with lubricating oil and operate the engine to check for leaks.
+Заполните двигатель до надлежащего уровня моторным маслом и работайте с двигателем, чтобы проверить наличие утечек.
 
 ![[19800824.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The oil temperature sensor sends engine oil temperature information to the engine control module (ECM). The exact location of the sensor varies with engine family. Refer to the appropriate base engine manual.
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> Some state and federal agencies in the United States of America have determined that used engine oil can be carcinogenic and can cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. Always use the proper environmental procedures to dispose of the oil.
+>
+> Partially drain the engine lubricating oil system. [[20-007-037 — Lubricating Oil System|Refer to Procedure 007-037 in Section 7.]]
+>
+> Lift up on the locking tab and pull the electrical connectors apart.
+>
+> Remove the sensor.
+>
+> ### Resistance Check
+>
+> Disconnect the sensor connector.
+>
+> Select the resistance function on the multimeter.
+>
+> Attach the appropriate test leads to the multimeter probes.
+>
+> Touch the two test leads to the two terminals on the sensor. Measure the resistance.
+>
+> The multimeter **must** show between 115 and 244k ohms. The resistance value is temperature-dependent as shown in the table below.
+>
+> | Temperature | Range |  |
+> |---|---|---|
+> | °C | °F | Ohms |
+> | 0 | 32 | 33k to 36k |
+> | 25 | 77 | 9k to 11k |
+> | 50 | 122 | 3k to 4k |
+> | 75 | 167 | 1350 to 1500 |
+> | 100 | 212 | 600 to 675 |
+>
+> If the resistance is out of range, then the sensor has failed.
+>
+> Replace the sensor.
+>
+> ### Check for Short Circuit to Ground
+>
+> Touch the multimeter lead with the attached appropriate test lead to either terminal on the sensor. Touch the other multimeter lead to a good, clean surface on the engine block.
+>
+> Measure the resistance.
+>
+> The multimeter **must** show greater than 100k ohms, which is an open circuit. If the circuit is **not** closed, then there is a short within the sensor to chassis ground. Replace the sensor.
+>
+> ### Install
+>
+> Verify that the new sensor has an o-ring.
+>
+> Lubricate the sensor o-ring with clean engine oil.
+>
+> Install the sensor into the engine.
+>
+> Tighten the sensor.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [11 ft-lb]
+>
+> Push the connectors together until they lock.
+>
+> Fill the engine to the proper level with lubricating oil and operate the engine to check for leaks.

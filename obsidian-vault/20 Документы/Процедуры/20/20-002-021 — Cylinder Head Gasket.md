@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-002-021.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-002-021.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Cylinder Head Gasket
@@ -34,33 +36,62 @@ tags:
 > **Даты:** изменён 2004-12-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-002-021.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-002-021.pdf)
 
-### Leak Test
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Always wear protective eyewear and protective clothing when cleaning with steam or high pressure water.
 
-Use steam or high pressure water. Clean the exterior of the engine.
+### Тест на утечку
+
+> [!danger] ОПАСНО
+> Всегда носите защитные очки и защитную одежду при чистке паром или водой высокого давления.
+
+Используйте пар или воду высокого давления. Очистите внешний вид двигателя.
 
 ![[ew400ea.png]]
 
-Operate the engine at low idle.
+Работайте с двигателем на низком холостом ходу.
 
-Check for oil or coolant leaks between the cylinder head and the engine block.
+Проверьте наличие утечки масла или охлаждающей жидкости между головкой цилиндра и блоком двигателя.
 
 ![[ew400ka.png]]
 
-Listen for a chirping sound between the cylinder head and engine block. A chirping sound, usually during engine acceleration, indicates a combustion leak.
+Слушайте щебетание между головкой цилиндра и блоком двигателя. Звук щебетания, обычно во время ускорения двигателя, указывает на утечку сгорания.
 
 ![[ew400kh.png]]
 
-If a leak is found, remove the cylinder head and all related components. Refer to Procedure [[20-002-004-tr — Cylinder Head|002-004]].
+Если обнаружена утечка, удалите головку цилиндра и все связанные с ней компоненты. См. процедуру[[20-002-004-tr — Cylinder Head|002-004]].
 
 ![[02400005.png]]
 
-Pressure check the cooling system to be sure the leak was at the head gasket and **not** at the liner counterbore. Refer to Procedure [[20-001-026-tr — Cylinder Block|001-026]] for coolant leaks at the counterbore.
+Проверяйте давление в системе охлаждения, чтобы убедиться, что утечка была в прокладке головы, а не в линейном контрборе. См. процедуру[[20-001-026-tr — Cylinder Block|001-026]]для утечек охлаждающей жидкости на встречном штанге.
 
 ![[ew400sc.png]]
 
-Install the cylinder head and all related components. Refer to Procedure [[20-002-004-tr — Cylinder Head|002-004]].
+Установите головку цилиндра и все связанные с ней компоненты. См. процедуру[[20-002-004-tr — Cylinder Head|002-004]].
 
 ![[02400005.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Leak Test
+>
+> **WARNING · Опасно**
+> Always wear protective eyewear and protective clothing when cleaning with steam or high pressure water.
+>
+> Use steam or high pressure water. Clean the exterior of the engine.
+>
+> Operate the engine at low idle.
+>
+> Check for oil or coolant leaks between the cylinder head and the engine block.
+>
+> Listen for a chirping sound between the cylinder head and engine block. A chirping sound, usually during engine acceleration, indicates a combustion leak.
+>
+> If a leak is found, remove the cylinder head and all related components. Refer to Procedure [[20-002-004-tr — Cylinder Head|002-004]].
+>
+> Pressure check the cooling system to be sure the leak was at the head gasket and **not** at the liner counterbore. Refer to Procedure [[20-001-026-tr — Cylinder Block|001-026]] for coolant leaks at the counterbore.
+>
+> Install the cylinder head and all related components. Refer to Procedure [[20-002-004-tr — Cylinder Head|002-004]].

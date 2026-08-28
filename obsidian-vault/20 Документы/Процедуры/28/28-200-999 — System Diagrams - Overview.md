@@ -13,13 +13,15 @@ families:
   - "K38/K50 · QSK38, QSK50, QSK60"
 manuals:
   - "3810497"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-999.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-200-999.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # System Diagrams - Overview
@@ -33,8 +35,24 @@ tags:
 > **Даты:** изменён 2008-02-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-999.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-200-999.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The following diagrams display the flow through the engine systems. Although parts can change between different applications and installations, the flow remains the same. The systems illustrated are:
 
-Knowledge of the engine systems can help in troubleshooting, service, and general maintenance of the engine.
+### Общие сведения
+
+Следующие диаграммы отображают поток через системы двигателя. Хотя детали могут меняться между различными приложениями и установками, поток остается неизменным. Проиллюстрированными системами являются:
+
+Знание систем двигателя может помочь в устранении неполадок, обслуживании и общем обслуживании двигателя.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The following diagrams display the flow through the engine systems. Although parts can change between different applications and installations, the flow remains the same. The systems illustrated are:
+>
+> Knowledge of the engine systems can help in troubleshooting, service, and general maintenance of the engine.

@@ -17,7 +17,8 @@ families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK50"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250118.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb250118.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
   - "год/2025"
+  - "перевод/машинный"
   - "тема/main-generator"
 ---
 
@@ -38,45 +40,96 @@ tags:
 > **Даты:** выпущен 2025-07-07 · изменён 2025-07-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250118.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb250118.pdf)
 
-## Obsoleting the Re-use Criteria for Crankshaft Adapter Capscrews
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Отмена критериев повторного использования болтов переходника коленвала
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- K50
+### Содержание
+
+**Затронутая продукция**
+
+- К50
 - QSK50 CM850 MCRS
 - QSK50 CM2150 MCRS
 - QSK50 CM2350 K108
 - QSK50 CM2350 K130
 
-**Issue Summary**
+**Резюме проблемы**
 
-Symptom:
+Симптом:
 
-- Crankshaft adapter capscrews have been found broken upon inspection and during engine rebuilds.
+- Винты адаптеров коленчатого вала были обнаружены сломанными при проверке и во время реконструкции двигателя.
 
-**Resolution**
+**Решение**
 
-- **Always** replace crankshaft adapter capscrews during rebuilds and mid-life events.
+- **Всегда** заменяйте болты адаптеров коленчатого вала во время реконструкции и событий среднего возраста.
 
 ![[ks6adma.png]]
 
-Figure 1, Crankshaft Adapter Capscrews.
+Рисунок 1, болты адаптера коленчатого вала.
 
-**Publications Affected**
+**Публикации затронуты**
 
-| Table 1, Publications Affected |  |  |  |  |  |
+| Таблица 1, Публикации, затронутые |  |  |  |  |  |
 |---|---|---|---|---|---|
-| Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
-| Service Manual | K50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
-| Service Manual | QSK50 CM850 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
-| Service Manual | QSK50 CM2150 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
-| Service Manual | QSK50 CM2350 K108 | 4332823 | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
-| Service Manual | QSK50 CM2350 K130 | 5504180 | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
+| Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
+| Руководство по обслуживанию | К50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
+| Руководство по обслуживанию | QSK50 CM850 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
+| Руководство по обслуживанию | QSK50 CM2150 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
+| Руководство по обслуживанию | QSK50 CM2350 K108 | 4332823 | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
+| Руководство по обслуживанию | QSK50 CM2350 K130 | 5504180 | Переходник коленчатого вала | См. процедуру 001-017 | 1 |
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Obsoleting the Re-use Criteria for Crankshaft Adapter Capscrews
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - K50
+> - QSK50 CM850 MCRS
+> - QSK50 CM2150 MCRS
+> - QSK50 CM2350 K108
+> - QSK50 CM2350 K130
+>
+> **Issue Summary**
+>
+> Symptom:
+>
+> - Crankshaft adapter capscrews have been found broken upon inspection and during engine rebuilds.
+>
+> **Resolution**
+>
+> - **Always** replace crankshaft adapter capscrews during rebuilds and mid-life events.
+>
+> Figure 1, Crankshaft Adapter Capscrews.
+>
+> **Publications Affected**
+>
+> | Table 1, Publications Affected |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
+> | Service Manual | K50 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
+> | Service Manual | QSK50 CM850 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
+> | Service Manual | QSK50 CM2150 MCRS | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
+> | Service Manual | QSK50 CM2350 K108 | 4332823 | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
+> | Service Manual | QSK50 CM2350 K130 | 5504180 | Crankshaft Adapter | Refer to Procedure 001-017 | 1 |
+>
+> ### Document History

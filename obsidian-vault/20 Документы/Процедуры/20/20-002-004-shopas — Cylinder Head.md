@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-002-004-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-002-004-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Cylinder Head
@@ -34,60 +36,116 @@ tags:
 > **Даты:** изменён 2015-06-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-002-004-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-002-004-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+### Установка
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-Clean the top of the cylinder block and the cylinder liners.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the threaded holes which attach the cylinder head to the block with electrical contact cleaner, Part Number 3814510, or equivalent.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Dry with compressed air.
+Очистите верхнюю часть блока цилиндров и цилиндрические вкладыши.
+
+Очистите резьбовые отверстия, которые прикрепляют головку цилиндра к блоку с помощью электрического контактного очистителя, номер детали 3814510 или эквивалент.
+
+Просушите сжатым воздухом.
 
 ![[cy8cywa.png]]
 
-Measure the liner protrusion. [[20-001-028-tr — Cylinder Liner|Refer to Procedure 001-028 in Section 1.]]
+Измерьте выступ лайнера.[[20-001-028-tr — Cylinder Liner|См. процедуру 001-028 в разделе 1.]]
 
 ![[ck1cytj.png]]
 
-The word TOP, stamped on top of the head gasket, **must** be visible after the gasket is installed.
+Слово ТОП, проштампованное поверх прокладки головы, должно быть видно после установки прокладки.
 
-Install the cylinder head gasket.
+Установите прокладку головки цилиндра.
 
 ![[02400002.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Install the cylinder head. It **must** slide easily over the dowel pins.
+Установите головку цилиндра. Он должен легко скользить по штифтам.
 
-Apply clean engine oil to the threads of the cylinder head capscrews.
+Нанесите чистое моторное масло на резьбу головных болтов цилиндров.
 
-Apply Loctite™ 51606, or equivalent, non-metal, graphite base, anti-seize compound to the top side of the washer.
+Применяют LoctiteTM 51606, или эквивалентное, неметаллическое, графитовое основание, антисептиковое соединение к верхней стороне стиральной машины.
 
-Install the capscrews.
+Установите болты.
 
 ![[02400165.png]]
 
-The markings on the head of the flange head capscrews serve as an aid during installation.
+Маркировка на головке фланцевых головных болтов служит подспорьем при монтаже.
 
-Torque Value:
+Момент затяжки:
 
-Flange Head Capscrews
+Фланцевые болты
 
-After tightening the capscrew, mark the cylinder head adjacent to one of the two single marks on the capscrew head.
+После затягивания болтов пометьте головку цилиндра, прилегающую к одной из двух одиночных отметин на головке болтов.
 
 ![[kn8csgc.png]]
 
-Tighten the capscrews using the following steps in the sequence shown.
+Затягивайте болты, используя следующие шаги в показанной последовательности.
 
-Torque Value:
+Момент затяжки:
 
 ![[kn400hb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the top of the cylinder block and the cylinder liners.
+>
+> Clean the threaded holes which attach the cylinder head to the block with electrical contact cleaner, Part Number 3814510, or equivalent.
+>
+> Dry with compressed air.
+>
+> Measure the liner protrusion. [[20-001-028-tr — Cylinder Liner|Refer to Procedure 001-028 in Section 1.]]
+>
+> The word TOP, stamped on top of the head gasket, **must** be visible after the gasket is installed.
+>
+> Install the cylinder head gasket.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the cylinder head. It **must** slide easily over the dowel pins.
+>
+> Apply clean engine oil to the threads of the cylinder head capscrews.
+>
+> Apply Loctite™ 51606, or equivalent, non-metal, graphite base, anti-seize compound to the top side of the washer.
+>
+> Install the capscrews.
+>
+> The markings on the head of the flange head capscrews serve as an aid during installation.
+>
+> Torque Value:
+>
+> Flange Head Capscrews
+>
+> After tightening the capscrew, mark the cylinder head adjacent to one of the two single marks on the capscrew head.
+>
+> Tighten the capscrews using the following steps in the sequence shown.
+>
+> Torque Value:

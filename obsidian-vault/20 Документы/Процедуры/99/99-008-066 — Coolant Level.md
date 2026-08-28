@@ -58,7 +58,8 @@ manuals:
   - "4021940"
   - "4021942"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-066.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-008-066.pdf"
 tags:
@@ -74,6 +75,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Coolant Level
@@ -87,30 +89,62 @@ tags:
 > **Даты:** изменён 2023-01-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-008-066.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Do not remove a pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[ 122°F \] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 
-> [!warning] CAUTION · Осторожно
-> Never use a sealing additive to stop leaks in the cooling system. This can result in cooling system plugging and inadequate coolant flow, causing the engine to overheat.
+### Контроль при обслуживании
 
-The coolant level **must** be checked daily.
+> [!danger] ОПАСНО
+> Не снимайте крышку радиатора с горячего двигателя. Подождите, пока температура охлаждающей жидкости не будет ниже 50°C[122°F], прежде чем снимать крышку давления радиатора. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+> [!warning] ОСТОРОЖНО
+> Никогда не используйте уплотняющую добавку, чтобы остановить утечки в системе охлаждения. Это может привести к затыканию системы охлаждения и недостаточному потоку охлаждающей жидкости, что приводит к перегреву двигателя.
+
+Уровень охлаждающей жидкости должен проверяться ежедневно.
 
 ![[15200022.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not add cold coolant to a hot engine. Engine castings can be damaged. Allow the engine to cool to below 50°C \[ 122°F \] before adding coolant.
+> [!warning] ОСТОРОЖНО
+> Не добавляйте холодную охлаждающую жидкость в горячий двигатель. Отливки двигателя могут быть повреждены. Позвольте двигателю охладиться до температуры ниже 50°C[122°F] перед добавлением охлаждающей жидкости.
 
-Coolant added to the engine **must** be mixed with the correct proportions of antifreeze, supplemental coolant additive, and water to avoid engine damage.
+Охлаждающее средство, добавленное в двигатель, должно быть смешано с правильными пропорциями антифриза, дополнительной добавки к охлаждающей жидкости и воды, чтобы избежать повреждения двигателя.
 
-Coolant recommendations and specification details on correct mixing of coolant can be found in Maintenance Specifications (Section V).
+Рекомендации по охлаждению и подробные сведения о правильном смешивании охлаждающей жидкости можно найти в Технических требованиях к техническому обслуживанию (Раздел V).
 
 ![[ra800wn.png]]
 
-Fill the cooling system with coolant. Refer to the markings on the radiator or expansion tank for coolant levels or refer to the OEM manual.
+Заполните систему охлаждения охлаждающей жидкостью. См. маркировку на радиаторе или расширительном баке для уровней охлаждающей жидкости или обратитесь к руководству по OEM.
 
-> [!note] Note · Примечание
-> Some radiators have two fill necks, both of which **must** be filled when the cooling system is drained.
+> [!note] Примечание
+> Некоторые радиаторы имеют две шеи, которые должны быть заполнены, когда система охлаждения сливается.
 
 ![[oi800wc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> **WARNING · Опасно**
+> Do not remove a pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[ 122°F \] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Never use a sealing additive to stop leaks in the cooling system. This can result in cooling system plugging and inadequate coolant flow, causing the engine to overheat.
+>
+> The coolant level **must** be checked daily.
+>
+> **CAUTION · Осторожно**
+> Do not add cold coolant to a hot engine. Engine castings can be damaged. Allow the engine to cool to below 50°C \[ 122°F \] before adding coolant.
+>
+> Coolant added to the engine **must** be mixed with the correct proportions of antifreeze, supplemental coolant additive, and water to avoid engine damage.
+>
+> Coolant recommendations and specification details on correct mixing of coolant can be found in Maintenance Specifications (Section V).
+>
+> Fill the cooling system with coolant. Refer to the markings on the radiator or expansion tank for coolant levels or refer to the OEM manual.
+>
+> **Note · Примечание**
+> Some radiators have two fill necks, both of which **must** be filled when the cooling system is drained.

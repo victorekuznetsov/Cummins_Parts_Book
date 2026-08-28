@@ -24,7 +24,8 @@ families:
   - "QSM11"
   - "QST30"
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2009/tsb090079.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb090079.pdf"
 tags:
@@ -34,6 +35,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/service-tools"
 ---
 
@@ -47,28 +49,64 @@ tags:
 > **Даты:** выпущен 2009-09-24 · изменён 2009-09-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2009/tsb090079.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb090079.pdf)
 
-## Issue With Entering INSITE™ Electronic Service Tool Passwords on a Remote Desktop Connection
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-This Early Field Notification describes an issue with entering INSITE™ electronic service tool passwords on a remote desktop connection. It has been found that a remote desktop connection will prevent access to INSITE™ electronic service tool and passwords from being entered.
+## Проблема ввода паролей INSITE™ через удалённый рабочий стол
 
-### Confirmation
+### Суть проблемы
 
-All engines supported by INSITE™ electronic service tool.
+Это раннее уведомление о поле описывает проблему с вводом паролей электронного сервиса INSITETM на удаленном подключении к рабочему столу. Было обнаружено, что удаленное соединение с рабочим столом предотвратит доступ к инструментам и паролям электронных услуг INSITETM.
 
-When attempting to open INSITE™ electronic service tool through a remote desktop connection, the program will prompt for a password to be entered. When trying to enter a password, an error message is given stating that, “The password entered is invalid”, even though the password has been verified.
+### Подтверждение
 
-N/A
+Все двигатели поддерживаются электронным сервисным оборудованием INSITETM.
 
-N/A
+При попытке открыть инструмент электронного сервиса INSITETM через удаленное соединение с рабочим столом программа предложит ввести пароль. При попытке ввести пароль, дается сообщение об ошибке, в котором говорится, что «введенный пароль недействителен», даже если пароль был проверен.
 
-N/A
+Не применяется
 
-### Resolution
+Не применяется
 
-This issue was corrected with INSITE™ electronic service tool 7.3 and later versions.
+Не применяется
 
-### Warranty Statement
+### Решение
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Эта проблема была исправлена с помощью инструментария 7.3 для электронных услуг INSITETM и более поздних версий.
+
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Issue With Entering INSITE™ Electronic Service Tool Passwords on a Remote Desktop Connection
+>
+> ### Core Issue
+>
+> This Early Field Notification describes an issue with entering INSITE™ electronic service tool passwords on a remote desktop connection. It has been found that a remote desktop connection will prevent access to INSITE™ electronic service tool and passwords from being entered.
+>
+> ### Confirmation
+>
+> All engines supported by INSITE™ electronic service tool.
+>
+> When attempting to open INSITE™ electronic service tool through a remote desktop connection, the program will prompt for a password to be entered. When trying to enter a password, an error message is given stating that, “The password entered is invalid”, even though the password has been verified.
+>
+> N/A
+>
+> N/A
+>
+> N/A
+>
+> ### Resolution
+>
+> This issue was corrected with INSITE™ electronic service tool 7.3 and later versions.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.

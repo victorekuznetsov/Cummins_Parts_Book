@@ -29,7 +29,8 @@ manuals:
   - "3810497"
   - "4021375"
   - "4021530"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-018-006.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-018-006.pdf"
 tags:
@@ -40,6 +41,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Engine Component Torque Values
@@ -53,38 +55,84 @@ tags:
 > **Даты:** изменён 2006-07-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-018-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-018-006.pdf)
 
-### Torque Table
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-| Engine Component Torque Values |  |  |  |  |
+
+### Столик с крутящим моментом
+
+| Моменты затяжки узлов двигателя |  |  |  |  |
 |---|---|---|---|---|
-| Component | Wrench Size | Torque Values |  |  |
-|  |  | N•m | ft-lb | in-lb |
-| Air Compressor Mounting Capscrews (Single Cylinder) | 9/16 | 45 | 33 | N/A |
-| Air Compressor Mounting Capscrews (Two Cylinder) | 3/8 | 65 | 48 | N/A |
-| Air Compressor Support Bracket (Single Cylinder) | 9/16 | 45 | 33 | N/A |
-| Mounting Capscrews to Air Compressor (Single Cylinder) | 9/16 | 45 | 33 | N/A |
-| Mounting Capscrews to Engine Block (Single Cylinder) | 9/16 | 45 | 33 | N/A |
-| Air Compressor Support Bracket (Two Cylinder) | 9/16 | 45 | 33 | N/A |
-| Mounting Capscrews to Air Compressor (Two Cylinder) | 9/16 | 45 | 33 | N/A |
-| Mounting Capscrews to Engine Block (Two Cylinder) | 9/16 | 60 | 44 | N/A |
-| Air Compressor Unloader Valve Capscrews | 1/2 | 15 | N/A | 133 |
-| Barring Mechanism | 3/8 | 45 | 33 | N/A |
-| Cooling Fan Mounting Capscrews | 3/4 | 135 | 100 | N/A |
-| Cooling System Hose Clamps | 5/16 | 6 | N/A | 53 |
-| Crosshead Adjusting Screw Locknut (with adapter ST-669) | 1/2 | 35 | 24 | N/A |
-| Crosshead Adjusting Screw Locknut (without adapter ST-669) | 1/2 | 40 | 30 | N/A |
-| Fan Hub (Belt Driven) Mounting Nuts | 9/16 | 35 | 26 | N/A |
-| Fan Hub (Gear Driven) Mounting Capscrews | 9/16 | 45 | 33 | N/A |
-| Fuel Pump Mounting Capscrews (without air compressor) | 9/16 | 45 | 33 | N/A |
-| Fuel Pump Mounting Capscrews (with air compressor) | 3/8 | 45 | 33 | N/A |
-| Fuel Pump Mounting Nuts (without air compressor) | 11/16 | 45 | 33 | N/A |
-| Injector Adjusting Screw Locknut (with adapter ST-669) | 3/4 | 45 | 33 | N/A |
-| Injector Adjusting Screw Locknut (without adapter ST-669) | 3/4 | 60 | 44 | N/A |
-| Injector Hold Down Capscrews | 1/2 | 16 | N/A | 142 |
-| Oil Control Valve Mounting Capscrews | 1/8 | 9 | N/A | 80 |
-| Rocker Lever Cover Mounting Capscrews | 9/16 | 45 | 33 | N/A |
-| Turbocharger Mounting Capscrews | 9/16 | 35 | 26 | N/A |
-| Valve Adjusting Screw Locknut (with adapter ST-669) | 3/4 | 45 | 33 | N/A |
-| Valve Adjusting Screw Locknut (without adapter ST-669) | 3/4 | 60 | 44 | N/A |
-| Vibration Damper Mounting Capscrews (to crankshaft) | 3/4 | 445 | 328 | N/A |
-| Vibration Damper Mounting Capscrews (to pulley) | 1/2 | 140 | 103 | N/A |
+| компонент | Размер бранча | Моменты затяжки |  |  |
+|  |  | Н•м | фунт-фут | в фунтах |
+| Воздушные компрессоры (Single Cylinder) | 9/16 | 45 | 33 | Не применяется |
+| Воздушные компрессоры (два цилиндра) | 3/8 | 65 | 48 | Не применяется |
+| Поддержка воздушного компрессора (один цилиндр) | 9/16 | 45 | 33 | Не применяется |
+| Монтажные болты для воздушного компрессора (один цилиндр) | 9/16 | 45 | 33 | Не применяется |
+| Монтажные болты для блока двигателя (один цилиндр) | 9/16 | 45 | 33 | Не применяется |
+| Поддержка воздушного компрессора (два цилиндра) | 9/16 | 45 | 33 | Не применяется |
+| Монтажные болты для воздушного компрессора (два цилиндра) | 9/16 | 45 | 33 | Не применяется |
+| Монтажные болты для блока двигателя (два цилиндра) | 9/16 | 60 | 44 | Не применяется |
+| Воздушный компрессор разгрузчик клапан болты | 1/2 | 15 | Не применяется | 133 |
+| Механизм запрета | 3/8 | 45 | 33 | Не применяется |
+| Охлаждение вентиляторные болты | 3/4 | 135 | 100 | Не применяется |
+| Системы охлаждения Hose Clamps | 5/16 | 6 | Не применяется | 53 |
+| клапанный мост, корректирующий винт локаута (с адаптером ST-669) | 1/2 | 35 | 24 | Не применяется |
+| клапанный мост, корректирующий винт локона (без адаптера ST-669) | 1/2 | 40 | 30 | Не применяется |
+| Fan Hub (Belt Driven) - горящие орехи | 9/16 | 35 | 26 | Не применяется |
+| Fan Hub (Gear Driven) - крепление болтов | 9/16 | 45 | 33 | Не применяется |
+| Топливные насосные болты (без воздушного компрессора) | 9/16 | 45 | 33 | Не применяется |
+| Топливные насосные монтажные болты (с воздушным компрессором) | 3/8 | 45 | 33 | Не применяется |
+| Горючие насосы (без воздушного компрессора) | 11/16 | 45 | 33 | Не применяется |
+| форсунка, корректирующий винт локата (с адаптером ST-669) | 3/4 | 45 | 33 | Не применяется |
+| форсунка, корректирующий винт локона (без адаптера ST-669) | 3/4 | 60 | 44 | Не применяется |
+| форсунка Hold Down болты | 1/2 | 16 | Не применяется | 142 |
+| Резервуары для установки клапанов для контроля за нефтью | 1/8 | 9 | Не применяется | 80 |
+| клапанный клапан коромысло рычаг Ковёр Монтаж болтов | 9/16 | 45 | 33 | Не применяется |
+| Турбокомпрессор Монтажные болты | 9/16 | 35 | 26 | Не применяется |
+| клапан Adjusting Screw Locknut (с адаптером ST-669) | 3/4 | 45 | 33 | Не применяется |
+| клапан Adjusting Screw Locknut (без адаптера ST-669) | 3/4 | 60 | 44 | Не применяется |
+| Вибрационный Дампер Монтажные болты (к коленчатому валу) | 3/4 | 445 | 328 | Не применяется |
+| Вибрационный Дампер Монтаж болтов (для шкива) | 1/2 | 140 | 103 | Не применяется |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Torque Table
+>
+> | Engine Component Torque Values |  |  |  |  |
+> |---|---|---|---|---|
+> | Component | Wrench Size | Torque Values |  |  |
+> |  |  | N•m | ft-lb | in-lb |
+> | Air Compressor Mounting Capscrews (Single Cylinder) | 9/16 | 45 | 33 | N/A |
+> | Air Compressor Mounting Capscrews (Two Cylinder) | 3/8 | 65 | 48 | N/A |
+> | Air Compressor Support Bracket (Single Cylinder) | 9/16 | 45 | 33 | N/A |
+> | Mounting Capscrews to Air Compressor (Single Cylinder) | 9/16 | 45 | 33 | N/A |
+> | Mounting Capscrews to Engine Block (Single Cylinder) | 9/16 | 45 | 33 | N/A |
+> | Air Compressor Support Bracket (Two Cylinder) | 9/16 | 45 | 33 | N/A |
+> | Mounting Capscrews to Air Compressor (Two Cylinder) | 9/16 | 45 | 33 | N/A |
+> | Mounting Capscrews to Engine Block (Two Cylinder) | 9/16 | 60 | 44 | N/A |
+> | Air Compressor Unloader Valve Capscrews | 1/2 | 15 | N/A | 133 |
+> | Barring Mechanism | 3/8 | 45 | 33 | N/A |
+> | Cooling Fan Mounting Capscrews | 3/4 | 135 | 100 | N/A |
+> | Cooling System Hose Clamps | 5/16 | 6 | N/A | 53 |
+> | Crosshead Adjusting Screw Locknut (with adapter ST-669) | 1/2 | 35 | 24 | N/A |
+> | Crosshead Adjusting Screw Locknut (without adapter ST-669) | 1/2 | 40 | 30 | N/A |
+> | Fan Hub (Belt Driven) Mounting Nuts | 9/16 | 35 | 26 | N/A |
+> | Fan Hub (Gear Driven) Mounting Capscrews | 9/16 | 45 | 33 | N/A |
+> | Fuel Pump Mounting Capscrews (without air compressor) | 9/16 | 45 | 33 | N/A |
+> | Fuel Pump Mounting Capscrews (with air compressor) | 3/8 | 45 | 33 | N/A |
+> | Fuel Pump Mounting Nuts (without air compressor) | 11/16 | 45 | 33 | N/A |
+> | Injector Adjusting Screw Locknut (with adapter ST-669) | 3/4 | 45 | 33 | N/A |
+> | Injector Adjusting Screw Locknut (without adapter ST-669) | 3/4 | 60 | 44 | N/A |
+> | Injector Hold Down Capscrews | 1/2 | 16 | N/A | 142 |
+> | Oil Control Valve Mounting Capscrews | 1/8 | 9 | N/A | 80 |
+> | Rocker Lever Cover Mounting Capscrews | 9/16 | 45 | 33 | N/A |
+> | Turbocharger Mounting Capscrews | 9/16 | 35 | 26 | N/A |
+> | Valve Adjusting Screw Locknut (with adapter ST-669) | 3/4 | 45 | 33 | N/A |
+> | Valve Adjusting Screw Locknut (without adapter ST-669) | 3/4 | 60 | 44 | N/A |
+> | Vibration Damper Mounting Capscrews (to crankshaft) | 3/4 | 445 | 328 | N/A |
+> | Vibration Damper Mounting Capscrews (to pulley) | 1/2 | 140 | 103 | N/A |

@@ -45,7 +45,8 @@ manuals:
   - "4021442"
   - "4021674"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-209.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-209.pdf"
 tags:
@@ -59,6 +60,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # ITT Cannon Connector Series
@@ -72,42 +74,80 @@ tags:
 > **Даты:** изменён 2003-04-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-209.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-209.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
 
-Refer to the Connector Replacement procedure for replacement instructions.
+### Замена пин
+
+Контакты разъема могут быть **не** отремонтированы или заменены. Разъем * должен быть заменен как блок.
+
+См. процедуру замены разъёма для инструкций по замене.
 
 ![[19400421.png]]
 
-### Connector Replacement
+### Замена разъёма
 
-Measure 152 mm \[6 in\] back from the face of the connector and remove the wiring harness protective cover.
+Измерьте 152 мм \[6 в\] назад от поверхности разъёма и удалите защитную крышку жгута проводов.
 
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
 
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
 ![[19c01369.png]]
 
-Use wire crimping tool, Part Number 3822930, to cut the wires. Cut the first wire 91 mm \[3-½ in\] from the face of the connector.
+Используйте инструмент для обжима проводов, номер детали 3822930, чтобы разрезать провода. Вырежьте первый провод 91 мм \[3-1⁄2 в\] от лицевой части разъема.
 
-Cut the remaining seven wires in increments of 12 mm \[½ in\] back from the previous cut.
+Отрежьте оставшиеся семь проводов с шагом 12 мм \[1⁄2 в\] от предыдущего разреза.
 
 ![[19c01370.png]]
 
-Use the wire crimping tool to remove 6 mm \[¼ in\] of insulation from all eight electrical wires.
+Используйте инструмент для обжима проводов, чтобы удалить 6 мм изоляции из всех восьми электрических проводов.
 
 ![[19400416.png]]
 
-Install the terminal repair wires on the bare wires and use the wire crimping tool to crimp the terminal.
+Установите провода ремонта терминала на голые провода и используйте инструмент для обжима проводов, чтобы обжимать терминал.
 
-Use heat gun, Part Number 3822860, or an open flame to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+Используйте тепловую пушку, номер детали 3822860 или открытое пламя для нагрева термоусадочной трубы. Трубка будет сжиматься и делать соединение водонепроницаемым.
 
 ![[19c01371.png]]
 
-For added protection, wrap the wire with tape to complete the repair.
+Для дополнительной защиты оберните провод лентой, чтобы завершить ремонт.
 
 ![[19c01372.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
+>
+> Refer to the Connector Replacement procedure for replacement instructions.
+>
+> ### Connector Replacement
+>
+> Measure 152 mm \[6 in\] back from the face of the connector and remove the wiring harness protective cover.
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Use wire crimping tool, Part Number 3822930, to cut the wires. Cut the first wire 91 mm \[3-½ in\] from the face of the connector.
+>
+> Cut the remaining seven wires in increments of 12 mm \[½ in\] back from the previous cut.
+>
+> Use the wire crimping tool to remove 6 mm \[¼ in\] of insulation from all eight electrical wires.
+>
+> Install the terminal repair wires on the bare wires and use the wire crimping tool to crimp the terminal.
+>
+> Use heat gun, Part Number 3822860, or an open flame to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+>
+> For added protection, wrap the wire with tape to complete the repair.

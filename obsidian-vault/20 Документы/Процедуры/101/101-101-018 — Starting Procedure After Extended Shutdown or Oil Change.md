@@ -28,7 +28,8 @@ manuals:
   - "4021942"
   - "4915540"
   - "4960314"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-101-018.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-101-018.pdf"
 tags:
@@ -37,6 +38,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Starting Procedure After Extended Shutdown or Oil Change
@@ -50,6 +52,20 @@ tags:
 > **Даты:** изменён 2016-10-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-101-018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-101-018.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Follow the Normal Starting Procedure in this section. The engine will run at idle **only** until the minimum specified oil pressure is detected by the engine control module (ECM).
+
+### Общие сведения
+
+Следуйте обычной процедуре начала в этом разделе. Двигатель будет работать в режиме холостого хода **только** до тех пор, пока минимальное заданное давление масла не будет обнаружено модулем управления двигателем (ECM).
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Follow the Normal Starting Procedure in this section. The engine will run at idle **only** until the minimum specified oil pressure is detected by the engine control module (ECM).

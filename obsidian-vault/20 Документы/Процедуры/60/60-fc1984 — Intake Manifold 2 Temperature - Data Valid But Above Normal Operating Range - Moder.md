@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1984.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1984.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold 2 Temperature - Data Valid But Above Normal Operating Range - Moderately Severe Level
@@ -34,62 +36,130 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1984.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1984.pdf)
 
-### Fault Code: 1984
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold 2 Temperature - Data Valid But Above Normal Operating Range - Moderately Severe Level
 
-Printable Version
+### Код неисправности: 1984
 
-### Overview
+### Температура коллектора 2 выше нормы — умеренный уровень
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1984 PID(P): SPN: 1131 FMI: 0/16 Lamp: Amber SRT: | Intake manifold 2 temperature above engine protection warning limit. | Possible reduced engine performance. |
+| Код неисправности: 1984 PID(P): СПН: 1131 FMI: 0/16 лампа: Янтарная СРТ: | Температура впускного коллектора 2 выше предела предупреждения о защите двигателя. | Возможно снижение производительности двигателя. |
 
 ![[19a00850.png]]
 
-Intake Manifold 2 Temperature Sensor Circuit
+Схема датчика температуры Manifold 2
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold temperature sensor is a variable resistor sensor used by the ECM to monitor the intake manifold temperature. The intake manifold temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the intake manifold temperature.
+Датчик температуры впускного коллектора представляет собой датчик переменного резистора, используемый ECM для мониторинга температуры впускного коллектора. Датчик температуры впускного коллектора имеет две схемы: сигнал и обратные цепи. Напряжение сигнала указывает на температуру впускного коллектора.
 
-### Component Location
+### Расположение компонента
 
-The intake manifold 2 temperature sensor is located in the right bank rear air intake manifold.
+Датчик температуры впускного коллектора 2 расположен в правом береге заднего коллектора воздухозаборника.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+Эта диагностика выполняется постоянно, пока контроллер генераторной установки активен или двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the intake manifold 2 temperature was greater than the engine protection limit.
+Модуль управления двигателем (ECM) обнаружил, что температура впускного коллектора 2 была выше предела защиты двигателя.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
+- Для проверки ремонта доведите двигатель до рабочей температуры и запускайте его в нормальных условиях нагрузки в течение 15 минут.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when Cummins® electronic service tool or equivalent is connected. When troubleshooting a fault code, use the source address displayed in Cummins® electronic service tool or equivalent to determine which ECM and circuit is affected.
+У моделей двигателей, охваченных этим руководством, несколько электронных блоков управления. Каждый ECM имеет индивидуальный адрес источника, который отображается при подключении электронного инструментария или эквивалента Cummins®. При устранении неисправности кода используйте адрес источника, отображаемый в инструменте электронного обслуживания Cummins® или эквивалент, чтобы определить, какая ECM и схема затронута.
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Restricted air flow through the charge-air cooler
+- Ограниченный поток воздуха через охладитель заряда воздуха
 
-- Low coolant level
+- Низкий уровень охлаждающей жидкости
 
-- Undersized aftercooler
+- Недостаточный охладитель
 
-- High turbocharger compressor outlet temperature.
+- Высокая температура розетки компрессора турбокомпрессора.
 
-Refer to Troubleshooting Fault Code 1984.
+См. Troubleshooting Fault Code 1984.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1984
+>
+> ### Intake Manifold 2 Temperature - Data Valid But Above Normal Operating Range - Moderately Severe Level
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1984 PID(P): SPN: 1131 FMI: 0/16 Lamp: Amber SRT: | Intake manifold 2 temperature above engine protection warning limit. | Possible reduced engine performance. |
+>
+> Intake Manifold 2 Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The intake manifold temperature sensor is a variable resistor sensor used by the ECM to monitor the intake manifold temperature. The intake manifold temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the intake manifold temperature.
+>
+> ### Component Location
+>
+> The intake manifold 2 temperature sensor is located in the right bank rear air intake manifold.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the intake manifold 2 temperature was greater than the engine protection limit.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when Cummins® electronic service tool or equivalent is connected. When troubleshooting a fault code, use the source address displayed in Cummins® electronic service tool or equivalent to determine which ECM and circuit is affected.
+>
+> Possible causes of this fault code include:
+>
+> - Restricted air flow through the charge-air cooler
+>
+> - Low coolant level
+>
+> - Undersized aftercooler
+>
+> - High turbocharger compressor outlet temperature.
+>
+> Refer to Troubleshooting Fault Code 1984.

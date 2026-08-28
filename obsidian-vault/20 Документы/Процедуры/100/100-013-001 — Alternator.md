@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666003"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-013-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-013-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Alternator
@@ -34,54 +36,106 @@ tags:
 > **Даты:** изменён 2003-09-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-013-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-013-001.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-Disconnect the ground cable from the battery terminal.
+### Подготовительные операции
 
-Remove and tag all wires.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Remove the drive belt from the alternator pulley.
+Отсоедините наземный кабель от аккумуляторного терминала.
+
+Удалите и пометьте все провода.
+
+Снимите приводной ремень с шкива генератора.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Remove the alternator link capscrew.
+Удалите болты связи генератора.
 
 ![[13900035.png]]
 
-Remove the alternator mounting capscrew.
+Удалите крепежные болты генератора.
 
-Remove the alternator.
-
-![[13900036.png]]
-
-### Install
-
-To install the alternator, the alternator mounting components **must** be tightened in the following sequence:
-
-1. Alternator-to-alternator bracket capscrew
-2. Lower brace-to-alternator capscrew
-3. Lower alternator brace-to-water pump capscrew
-4. Water inlet-to-block capscrews.
-
-> [!note] Note · Примечание
-> The wrench size and torque value is determined by the make and model of the alternator.
+Удалите генератор.
 
 ![[13900036.png]]
 
-### Finishing Steps
+### Установка
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+Для установки генератора переменного тока компоненты крепления генератора * должны быть сжаты в следующей последовательности:
 
-Install the drive belt from the alternator pulley.
+1. 6.2.1.1 Затворы скобки "альтернатор-альтернатор"
+2. Нижние болты сцепления-альтернатора
+3. Нижние болты насоса сцепления с водой
+4. Впускные болты для забора воды.
 
-Install and tag all wires.
+> [!note] Примечание
+> Размер гаечного ключа и момент затяжки определяются маркой и моделью генератора.
 
-Connect the ground cable from the battery terminal.
+![[13900036.png]]
+
+### Завершающие операции
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+Установите приводной ремень с шкива генератора.
+
+Установите и пометьте все провода.
+
+Подключите наземный кабель от терминала батареи.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Disconnect the ground cable from the battery terminal.
+>
+> Remove and tag all wires.
+>
+> Remove the drive belt from the alternator pulley.
+>
+> ### Remove
+>
+> Remove the alternator link capscrew.
+>
+> Remove the alternator mounting capscrew.
+>
+> Remove the alternator.
+>
+> ### Install
+>
+> To install the alternator, the alternator mounting components **must** be tightened in the following sequence:
+>
+> 1. Alternator-to-alternator bracket capscrew
+> 2. Lower brace-to-alternator capscrew
+> 3. Lower alternator brace-to-water pump capscrew
+> 4. Water inlet-to-block capscrews.
+>
+> **Note · Примечание**
+> The wrench size and torque value is determined by the make and model of the alternator.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Install the drive belt from the alternator pulley.
+>
+> Install and tag all wires.
+>
+> Connect the ground cable from the battery terminal.

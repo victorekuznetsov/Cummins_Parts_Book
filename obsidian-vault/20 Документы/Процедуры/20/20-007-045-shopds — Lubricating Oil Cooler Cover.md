@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-045-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-045-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Cooler Cover
@@ -34,29 +36,62 @@ tags:
 > **Даты:** изменён 2024-10-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-045-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-045-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the oil cooler cover (if equipped)
 
-Remove all of the capscrews, the oil cooler cover, and gasket.
+### Снятие
 
-Discard the gasket.
+Снять масляную крышку охладителя (если она оборудована)
+
+Удалите все болты, крышку масляного охладителя и прокладку.
+
+Прокладку утилизируйте.
 
 ![[lc4cvha.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
 
-Remove the torque converter cooler housing (if equipped)
+Удалить корпус охладителя крутящего момента (если он оборудован)
 
-Use two \[3/8-16 x 12 in\] guide studs to support the housing while the capscrews are being removed.
+Используйте два направляющих шпилька \[3/8-16 x 12 in\] для поддержки корпуса при снятии болтов.
 
-Remove the remaining capscrews, the torque converter cooler housing, and the gasket.
+Удалите оставшиеся болты, корпус охладителя крутящего момента и прокладку.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
-Remove the torque converter cooler elements. [[20-008-065-tr — Torque Converter Cooler|Refer to Procedure 008-065 in Section]]
+Удалите элементы охладителя крутящего момента.[[20-008-065-tr — Torque Converter Cooler|См. процедуру 008-065 в разделе]]
 
-Remove and discard the o-rings.
+Удалите и отбросьте кольца.
 
 ![[tc4hsha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the oil cooler cover (if equipped)
+>
+> Remove all of the capscrews, the oil cooler cover, and gasket.
+>
+> Discard the gasket.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+>
+> Remove the torque converter cooler housing (if equipped)
+>
+> Use two \[3/8-16 x 12 in\] guide studs to support the housing while the capscrews are being removed.
+>
+> Remove the remaining capscrews, the torque converter cooler housing, and the gasket.
+>
+> Discard the gasket.
+>
+> Remove the torque converter cooler elements. [[20-008-065-tr — Torque Converter Cooler|Refer to Procedure 008-065 in Section]]
+>
+> Remove and discard the o-rings.

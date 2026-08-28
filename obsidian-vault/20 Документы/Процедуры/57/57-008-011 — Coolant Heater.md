@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-011.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-011.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Coolant Heater
@@ -34,27 +36,60 @@ tags:
 > **Даты:** изменён 2003-01-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-011.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check the coolant heater (engine coolant preheater) for proper operation. Check for loose connections, frayed wires, and coolant leaks. Clean the alkali and sludge from the unit.
 
-Check the lines which take coolant from the coolant heater to the engine block to determine that they are flexible. These lines normally consist of steel tubing connected with silicone hose.
+### Контроль при обслуживании
 
-Do **not** replace the silicone hose with normal radiator hose as it becomes too brittle and breaks.
+Проверьте нагреватель охлаждающей жидкости (предварительный нагреватель охлаждающей жидкости двигателя) для правильной работы. Проверьте наличие свободных соединений, испорченных проводов и утечек охлаждающей жидкости. Очистите щелочь и шлам от агрегата.
 
-> [!note] Note · Примечание
-> The outlet connection from the coolant heater will experience a large number of thermal cycles and thus **must** be of high quality with specific operating capabilities.
+Проверьте линии, которые принимают охлаждающую жидкость от нагревателя охлаждающей жидкости до блока двигателя, чтобы определить, что они гибкие. Эти линии обычно состоят из стальных трубок, соединенных с силиконовым шлангом.
 
-Replacement hose material for the coolant heater to the block hose connection **must** be a polyester reinforced silicone rubber material, capable of 120°C \[250°F\] temperatures and a minimum working pressure rating of 689 kPa \[100 psi\].
+Не заменяйте силиконовый шланг обычным шлангом радиатора, так как он становится слишком хрупким и ломается.
 
-| **Measurements** |  |  |  |
+> [!note] Примечание
+> Выходное соединение от нагревателя охлаждающей жидкости будет испытывать большое количество тепловых циклов и, следовательно, должно быть высокого качества с определенными эксплуатационными возможностями.
+
+Заменой шлангового материала для нагревателя охлаждающей жидкости на соединение блок- шлангов * должен быть полиэфирный усиленный силиконовый резиновый материал, способный к температурам 120°C \[250°F\] и минимальному рабочему давлению 689 кПа \[100 psi\].
+
+| **Измерения** |  |  |  |
 |---|---|---|---|
-|  | celsius | fahrenheit |  |
-|  | Replacement Temperature Capability | 120 | 250 |
+|  | целий | Фаренгейт |  |
+|  | Замена температурной емкости | 120 | 250 |
 
-| **Measurements** |  |  |  |
+| **Измерения** |  |  |  |
 |---|---|---|---|
-|  | kpa | psi |  |
-|  | Minimum Working Pressure Rating | 689 | 100 |
+|  | каша | пси |  |
+|  | Минимальный рейтинг рабочего давления | 689 | 100 |
 
 ![[ch6etva.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Check the coolant heater (engine coolant preheater) for proper operation. Check for loose connections, frayed wires, and coolant leaks. Clean the alkali and sludge from the unit.
+>
+> Check the lines which take coolant from the coolant heater to the engine block to determine that they are flexible. These lines normally consist of steel tubing connected with silicone hose.
+>
+> Do **not** replace the silicone hose with normal radiator hose as it becomes too brittle and breaks.
+>
+> **Note · Примечание**
+> The outlet connection from the coolant heater will experience a large number of thermal cycles and thus **must** be of high quality with specific operating capabilities.
+>
+> Replacement hose material for the coolant heater to the block hose connection **must** be a polyester reinforced silicone rubber material, capable of 120°C \[250°F\] temperatures and a minimum working pressure rating of 689 kPa \[100 psi\].
+>
+> | **Measurements** |  |  |  |
+> |---|---|---|---|
+> |  | celsius | fahrenheit |  |
+> |  | Replacement Temperature Capability | 120 | 250 |
+>
+> | **Measurements** |  |  |  |
+> |---|---|---|---|
+> |  | kpa | psi |  |
+> |  | Minimum Working Pressure Rating | 689 | 100 |

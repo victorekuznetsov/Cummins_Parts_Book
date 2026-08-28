@@ -45,7 +45,8 @@ parts:
   - "3400698"
   - "4000590"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104266.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104266.pdf"
 tags:
@@ -61,6 +62,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "год/2010"
+  - "перевод/машинный"
   - "тема/electrical-equipment"
 ---
 
@@ -74,114 +76,122 @@ tags:
 > **Даты:** выпущен 2010-12-20 · изменён 2010-12-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104266.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104266.pdf)
 
-## Alternator Change
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Замена генератора (изменение конструкции)
 
-### Contents
+### Положение о гарантии
 
-This service parts topic announces a product change in Cummins-branded alternators. Delco Remy America (DRA), the supplier of the 21SI and 30SI Series alternators, has discontinued the production of these alternators. The 21SI will be replaced by the 22SI, and the 30SI will be replaced by the 33SI. This topic offers a comparison between the 21SI and 22SI and the 30SI and 33SI alternators.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The tables below summarize the engine serial number first for the 22SI and 33SI Series alternators. The tables are incomplete because the various engine plants are using up their stock of the 21SI and 30SI Series alternators before ordering the new 22SI and 33SI alternators. This service parts topic will be updated with the completed engine serial number first information as soon as it is available.
+### Содержание
 
-**22SI ALTERNATOR ENGINE SERIAL NUMBER FIRST**
+Эта тема о запасных частях сервиса объявляет об изменении продукта в генераторах под брендом Cummins. Компания Delco Remy America (DRA), поставщик генераторов 21SI и 30SI серии, прекратила производство этих генераторов. 21SI будет заменен 22SI, а 30SI будет заменен 33SI. В этой теме проводится сравнение между 21SI и 22SI и генераторами 30SI и 33SI.
 
-| **22SI ALTERNATOR ENGINE SERIAL NUMBER FIRST** |  |  |  |  |
+В приведенных ниже таблицах приведен первый серийный номер двигателя для генераторов серии 22SI и 33SI. Таблицы неполные, поскольку различные заводы двигателей используют свои запасы генераторов 21SI и 30SI серии перед заказом новых генераторов 22SI и 33SI. Эта тема служебных частей будет обновлена с заполненным серийным номером двигателя, как только она будет доступна.
+
+22SI АЛЬТЕРНАТОР ИНЖЕНИЯ СЕРИАЛЬНЫЙ ПЕРВЫЙ П
+
+| 22SI АЛЬТЕРНАТОР ИНЖЕНИЯ СЕРИАЛЬНЫЙ ПЕРВЫЙ П |  |  |  |  |
 |---|---|---|---|---|
-|  | **Engine Series** |  |  |  |
-| **Part No.** | B/C | L/M | N/Signature | K/V |
+|  | **Серия двигателей** |  |  |  |
+| **Номер детали.** | В/С | L/M | N/Подпись | К/В |
 | 3935527 | 45822614 | 34950352 |  |  |
-| 3935528 | 45827094 |  |  | N/A |
+| 3935528 | 45827094 |  |  | Не применяется |
 | 3935529 |  |  |  |  |
 | 3935530 | 45824427 | 34951091 |  |  |
-| 3935531 |  |  | N/A | N/A |
+| 3935531 |  |  | Не применяется | Не применяется |
 
-> [!note] Note · Примечание
-> N/A indicates that parts are **not** available.
+> [!note] Примечание
+> N/A указывает, что части **не** доступны.
 
-| **33SI ALTERNATOR ENGINE SERIAL NUMBER FIRST** |  |  |  |  |
+| 33СИ АЛЬТЕРНАТОР ИНЖЕНИЯ СЕРИАЛЬНЫЙ ПЕРВЫЙ |  |  |  |  |
 |---|---|---|---|---|
-|  | **Engine Series** |  |  |  |
-| **Part No.** | B/C | L/M | N/Signature | K/V |
-| [[4000590]] |  | 34951754 |  |  |
-| 3400582 | N/A | N/A |  |  |
-| 4000589 | N/A |  |  |  |
-| [[3400698]] | N/A | N/A |  |  |
-| 3413092 | N/A | N/A |  | N/A |
+|  | **Серия двигателей** |  |  |  |
+| **Номер детали.** | В/С | L/M | N/Подпись | К/В |
+| 4000590 |  | 34951754 |  |  |
+| 3400582 | Не применяется | Не применяется |  |  |
+| 4000589 | Не применяется |  |  |  |
+| [[3400698]] | Не применяется | Не применяется |  |  |
+| 3413092 | Не применяется | Не применяется |  | Не применяется |
 
-> [!note] Note · Примечание
-> N/A indicates that parts are **not** available.
+> [!note] Примечание
+> N/A указывает, что части **не** доступны.
 
 ![[13800038.png]]
 
 ![[13800039.png]]
 
-Figure 1, 21SI Alternator
+Рисунок 1, 21SI Альтернатива
 
-Figure 2, 22SI Alternator
+Рисунок 2, 22SI Альтернативатор
 
-**21SI and 22SI Comparison**
+**21SI и 22SI Сравнение**
 
-The 21SI and 22SI alternators are interchangeable on the same mount. There are two minor differences that can affect their fit in some applications: Ground terminal location and maximum housing width.
+21SI и 22SI генераторы являются взаимозаменяемыми на одной и той же установке. Есть два незначительных различия, которые могут повлиять на их пригодность в некоторых приложениях: Расположение наземного терминала и максимальная ширина корпуса.
 
-*Ground Terminal Location*
+* Расположение наземного терминала*
 
-The ground terminal location of the 22SI alternator is 20 mm \[0.79 in\] lower and 11 mm \[0.43 in\] to the left of the 21SI ground terminal as viewed from the rear of the housing. (See Figs. 1 and 2.) The difference between the locations of the ground terminal on the two alternators is 23 mm \[0.91 in\].
+Расположение наземного терминала генератора 22SI составляет 20 мм \[0,79 дюйма \] ниже и 11 мм \[0,43 дюйма \] слева от наземного терминала 21SI, как видно из задней части корпуса. (См. рис. 1 и 2.) Разница между расположением наземного терминала на двух генераторах переменного тока составляет 23 мм \[0,91 дюйма \].
 
-*Maximum Housing Width*
+*Максимальная шина корпуса*
 
-The 22SI alternator is 5 mm \[0.20 in\] wider than the 21SI alternator. The maximum width of the 21SI alternator is 145 mm \[5.71 in\] compared to a width of 150 mm \[5.91 in\] for the 22SI.
+22SI-альтернатор на 5 мм[0,20 дюйма] шире, чем 21SI-альтернатор. Максимальная ширина генератора 21SI составляет 145 мм \[5,71 дюйма \] по сравнению с шириной 150 мм \[5,91 дюйма \] для 22SI.
 
-> [!note] Note · Примечание
-> All 22SI alternators have an indicator (I) terminal and a relay (R) terminal. Use of these terminals is optional. An explanation of the I and R terminals is located at the end of this topic.
+> [!note] Примечание
+> Все генераторы 22SI имеют индикаторный (I) терминал и реле (R) терминал. Использование этих терминалов является необязательным. Объяснение I и R терминалов находится в конце этой темы.
 
-| Figure 1, 21SI Alternator |  |
+| Рисунок 1, 21SI Альтернатива |  |
 |---|---|
-| Reference No. | Description |
-| 1 | Battery terminal |
-| 2 | Relay terminal |
-| 3 | Ground terminal |
+| Ссылка нет. | Наименование |
+| 1 | Батарейный терминал |
+| 2 | Эстафета терминала |
+| 3 | Наземный терминал |
 
-| Figure 2, 22SI Alternator |  |
+| Рисунок 2, 22SI Альтернативатор |  |
 |---|---|
-| Reference No. | Description |
-| 1 | Indicator terminal |
-| 2 | Battery terminal |
-| 3 | Relay terminal |
-| 4 | Ground terminal |
+| Ссылка нет. | Наименование |
+| 1 | Индикационный терминал |
+| 2 | Батарейный терминал |
+| 3 | Эстафета терминала |
+| 4 | Наземный терминал |
 
-In order to print this table properly, please set your printer paper orientation to "LANDSCAPE."
+Чтобы правильно распечатать эту таблицу, пожалуйста, установите ориентацию бумаги принтера на «LANDSCAPE».
 
-| Table 1, 21SI and 22SI Feature Comparison |  |  |  |  |  |  |  |  |  |  |  |
+| Таблица 1, 21SI и 22SI Сравнение характеристик |  |  |  |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Cummins Part No. | Delco Part No. | Series | Rotation | VDC | Amps | G | S | Bat+ | R Trm | I Trm | G Trm |
-| 3918558 | 19010194 | 21SI | **CW/CCW** | 12 | 100 | N | 1 | 1/4 | PIN |  | 1/4 |
-| **3935527** | **19020379** | **22SI** | **CW** | **12** | **100** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
-| 3920615 | 19010196 | 21SI | **CW** | 12 | 130 | N | 1 | 1/4 | PIN |  | 1/4 |
-| **3935528** | **19020380** | **22SI** | **CW** | **12** | **130** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
-| 3920616 | 19010202 | 21SI | **CW/CCW** | 12 | 160 | N | 1 | 1/4 | PIN |  | 1/4 |
-| **3925529** | **19020381** | **22SI** | **CW** | **12** | **160** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
-| 3920617 | 19010199 | 21SI | **CW/CCW** | 24 | 50 | N | 1 | M6 | M4 | M4 | 1/4 |
-| **3935531** | **19020383** | **22SI** | **CW** | **24** | **50** | **N** | **1** | **M6** | **M4** | **M4** | **1/4** |
-| 3920618 | 19010195 | 21SI | **CW/CCW** | 24 | 70 | N | 1 | M6 | M4 | M4 | 1/4 |
-| **3935530** | **19020382** | **22SI** | **CW** | **24** | **70** | **N** | **1** | **M6** | **M4** | **M4** | **1/4** |
-| **3679712** | **19020314** | **22SI** | **CW** | **12** | **130** | **N** | **1** | **5/16** | **No. 10** | **No. 10** | **1/4** |
-| **4003445** | **19020375** | **22SI** | **CW** | **12** | **130** | **N** | **3** | **M6** | **M4** | **BLADE** | **1/4** |
-| **4003446** | **19020376** | **22SI** | **CW** | **24** | **70** | **N** | **3** | **M6** | **M4** | **BLADE** | **1/4** |
+| Камминс, часть нет. | Делько, часть нет. | Серия | вращение | VDC | усилители | GGG | Семья | Бэт + | Р-Трм | Я трм | Трм |
+| 3918558 | 19010194 | 21СИ | **CW/CCW** | 12 | 100 | Н. | 1 | 1/4 | ПИН |  | 1/4 |
+| **3935527** | **19020379** | **22S** | **CW** | **12** | **100** | **Н** | **1** | **1/4** | **PIN** | **Нет. 10** | **1/4** |
+| 3920615 | 19010196 | 21СИ | **CW** | 12 | 130 | Н. | 1 | 1/4 | ПИН |  | 1/4 |
+| **3935528** | **19020380** | **22S** | **CW** | **12** | **130** | **Н** | **1** | **1/4** | **PIN** | **Нет. 10** | **1/4** |
+| 3920616 | 19010202 | 21СИ | **CW/CCW** | 12 | 160 | Н. | 1 | 1/4 | ПИН |  | 1/4 |
+| **3925529** | **19020381** | **22S** | **CW** | **12** | **160** | **Н** | **1** | **1/4** | **PIN** | **Нет. 10** | **1/4** |
+| 3920617 | 19010199 | 21СИ | **CW/CCW** | 24 | 50 | Н. | 1 | М6 | М4 | М4 | 1/4 |
+| **3935531** | **19020383** | **22S** | **CW** | **24** | **50** | **Н** | **1** | **M6** | **M4** | **M4** | **1/4** |
+| 3920618 | 19010195 | 21СИ | **CW/CCW** | 24 | 70 | Н. | 1 | М6 | М4 | М4 | 1/4 |
+| **3935530** | **19020382** | **22S** | **CW** | **24** | **70** | **Н** | **1** | **M6** | **M4** | **M4** | **1/4** |
+| **3679712** | **19020314** | **22S** | **CW** | **12** | **130** | **Н** | **1** | **5/16** | **Нет. 10** | **Нет. 10** | **1/4** |
+| **4003445** | **19020375** | **22S** | **CW** | **12** | **130** | **Н** | **3** | **M6** | **M4** | **БЛЕЙД** | **1/4** |
+| **4003446** | **19020376** | **22S** | **CW** | **24** | **70** | **Н** | **3** | **M6** | **M4** | **БЛЕЙД** | **1/4** |
 
-| Table Key |  |  |  |  |  |
+| Ключ к столу |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **S** | = | System (1-wire, 3-wire | **I Trm** | = | Indicator Terminal Size |
-| **Bat+** | = | Alternator Output Terminal Size | **G Trm** | = | Ground Terminal Size |
-| **VDC** | = | Voltage | **G** | = | Ground Type |
-| **Amps** | = | Amperage | **N** | = | Frame Ground |
-| **R Trm** | = | Relay Terminal Size | **I** | = | Insulated |
+| **S** | = | Система (1-провод, 3-проводная) | **Я тру** | = | Размер терминала |
+| **Бэт+** | = | Размер терминала Alternator Output Terminal | **G Trm** | = | Размер наземного терминала |
+| **VDC** | = | Напряжение | **G** | = | Тип грунта |
+| **Амперс** | = | неторопливость | **Н** | = | Рама земля |
+| **R Trm** | = | Размер терминала ретрансляции | * | = | изолированный |
 
-| Table 2, 22SI Options |  |  |  |  |  |  |
+| Таблица 2, 22SI Варианты |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|
-| Engine Series | Old Option | New Option | Old Part No. | New Part No. | VDC | Amps |
+| Серия Двигатель | Старый вариант | Новый вариант | Старая часть - нет. | Новая часть - нет. | VDC | усилители |
 | **B/C** | EE9055 | EE9124 | 3918558 | 3935527 | 12 | 100 |
 | EE9056 | EE9125 | 3920615 | 3935528 | 12 | 130 |  |
 | EE9057 | EE9126 | 3920616 | 3935529 | 12 | 160 |  |
@@ -199,12 +209,12 @@ In order to print this table properly, please set your printer paper orientation
 | EE8132 | EE2043 | 3920616 | 3935529 | 12 | 160 |  |
 | EE8133 | EE2044 | 3920618 | 3935530 | 24 | 70 |  |
 | EE8140 | EE2042 | 3920615 | 3935528 | 12 | 130 |  |
-| **M11/ISM** | EE2005 | EE2047 | 3918558 | 3935527 | 12 | 100 |
+| **М11/ISM** | EE2005 | EE2047 | 3918558 | 3935527 | 12 | 100 |
 | EE20056 | EE2049 | 3920616 | 3935529 | 12 | 160 |  |
 | EE2007 | EE2050 | 3920618 | 3935530 | 24 | 70 |  |
 | EE2011 | EE2048 | 3920615 | 3935528 | 12 | 130 |  |
 | EE2028 | EE2051 | 3920617 | 3935531 | 24 | 50 |  |
-| **N/NT/N14/Signature** | EE1193 | EE1244 | 3918588 | 3935527 | 12 | 100 |
+| **N/NT/N14/Подпись** | EE1193 | EE1244 | 3918588 | 3935527 | 12 | 100 |
 | EE1209 | EE1245 | 3920615 | 3935528 | 12 | 130 |  |
 | EE1212 | EE1248 | 3920618 | 3935530 | 24 | 70 |  |
 | EE8131 | EE1254 | 3918558 | 3935527 | 12 | 100 |  |
@@ -230,170 +240,170 @@ In order to print this table properly, please set your printer paper orientation
 
 ![[13800037.png]]
 
-Figure 3, 30SI Alternator
+Рисунок 3, 30SI Alternator
 
-Figure 4, 33SI Alternator
+Рисунок 4, 33SI Alternator
 
-**30SI and 33SI Comparison**
+**30SI и 33SI Сравнение**
 
-The 30SI and 33SI alternators are interchangeable on the same mount. The **only** differences that will affect installation are the terminal locations. (See Figs. 3 and 4.)
+30SI и 33SI генераторы являются взаимозаменяемыми на одном и том же монтировочном устройстве. **** Различия, которые будут влиять на установку, являются местами расположения терминала. (См. рис. 3 и 4.
 
-*Ground Terminal Location*
+* Расположение наземного терминала*
 
-The ground terminal on both the 30SI and 33SI is located on top of the housing relative to the rear of the alternator.
+Наземный терминал на обоих 30SI и 33SI расположен на верхней части корпуса относительно задней части генератора.
 
-*Relay Terminal Location*
+* Местоположение терминала *
 
-The relay terminal location on the 30SI alternator is located on the left side when viewed from the rear of the housing. The relay terminal on the 33SI alternator is located in the upper left corner, next to the battery terminal, when viewed from the rear of the housing. The actual difference between the terminal locations is approximately 90 mm \[3.54 in\].
+Расположение релейного терминала на генераторе 30SI расположено с левой стороны, если смотреть с задней стороны корпуса. Терминал реле на генераторе 33SI расположен в верхнем левом углу, рядом с терминалом батареи, при взгляде с задней стороны корпуса. Фактическая разница между расположениями терминала составляет приблизительно 90 мм \[3,54 дюйма \].
 
-*Battery Terminal Location*
+* Место расположения аккумуляторного терминала*
 
-The battery terminal on the 30SI alternator is located on the right side when viewed from the rear of the housing. The battery terminal on the 33SI is located in the upper left corner of the alternator when viewed from the rear of the housing. The actual difference between the terminal locations is approximately 190 mm \[7.48 in\].
+Терминал батареи на генераторе 30SI расположен с правой стороны, если смотреть с задней стороны корпуса. Терминал батареи на 33SI расположен в верхнем левом углу генератора переменного тока при взгляде сзади корпуса. Фактическая разница между точками терминала составляет приблизительно 190 мм \[7,48 дюйма \].
 
-*Indicator Light Terminal Location*
+* Местоположение светового терминала*
 
-The 30SI alternator does **not** have an indicator terminal. The 33SI indicator terminal is located in the upper middle portion of the rear housing, next to the relay terminal.
+У генератора 30SI **не** есть индикаторный терминал. Терминал индикатора 33SI расположен в верхней средней части задней оболочки, рядом с релейным терминалом.
 
-> [!note] Note · Примечание
-> Use of the relay and the indicator terminals is optional. An explanation of these terminals is located at the end of this topic.
+> [!note] Примечание
+> Использование реле и терминалов индикаторов является необязательным. Объяснение этих терминалов находится в конце этой темы.
 
-| Figure 3, 30SI Alternator |  |
+| Рисунок 3, 30SI Alternator |  |
 |---|---|
-| Reference No. | Description |
-| 1 | Ground terminal |
-| 2 | Relay terminal |
-| 3 | Battery terminal |
+| Ссылка нет. | Наименование |
+| 1 | Наземный терминал |
+| 2 | Эстафета терминала |
+| 3 | Батарейный терминал |
 
-| Figure 4, 33SI Alternator |  |
+| Рисунок 4, 33SI Alternator |  |
 |---|---|
-| Reference No. | Description |
-| 1 | Battery terminal |
-| 2 | Relay terminal |
-| 3 | Ground terminal |
-| 4 | Indicator terminal |
+| Ссылка нет. | Наименование |
+| 1 | Батарейный терминал |
+| 2 | Эстафета терминала |
+| 3 | Наземный терминал |
+| 4 | Индикационный терминал |
 
-In order to print this table properly, please set your printer paper orientation to "LANDSCAPE."
+Чтобы правильно распечатать эту таблицу, пожалуйста, установите ориентацию бумаги принтера на «LANDSCAPE».
 
-| Table 3, 30SI and 33SI Feature Comparison |  |  |  |  |  |  |  |  |  |  |  |
+| Таблица 3, 30SI и 33SI Сравнение характеристик |  |  |  |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Cummins Part No. | Delco Part No. | Series | Rotation | VDC | Amps | G | S | Bat+ | R Trm | I Trm | G Trm |
-| 3008988 | 1117833 | 30SI/TR | **CW/CCW** | 12/24 | 90 | N | 1 | 1/4 | PIN |  | 1/4 |
-| **4000589** | **19011193** | **33SI/TR** | **CW/CCW** | **12/24** | **110** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
-| 3004806 | 1117839 | 30SI | **CW/CCW** | 12 | 90 | N | 1 | 1/4 | PIN |  | 1/4 |
-| **3400582** | **19011174** | **33SI** | **CW/CCW** | **12** | **110** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
-| 3000347 | 1117834 | 30SI | **CW/CCW** | 24 | 60 | I | 1 | 1/4 |  |  |  |
-| 3056492 | 1117836 | 30SI | **CW/CCW** | 24 | 75 | N | 1 | 1/4 | PIN | No. 10 | 1/4 |
-| **[[4000590]]** | **19011192** | **33SI** | **CW/CCW** | **24** | **75** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
-| 3072483 | 1117838 | 30SI | **CW/CCW** | 24 | 100 | N | 1 | 1/4 | PIN |  | 1/4 |
-| **[[3400698]]** | **19011175** | **33SI** | **CW/CCW** | **24** | **100** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
-| 3000346\* | 1117733 | 30SI | **CW/CCW** | 32 | 60 | I | 1 | 1/4 |  |  | 1/4 |
-| **3413092\*** | **1901116** | **33SI** | **CW/CCW** | **32** | **60** | **I** | **1** | **1/4** | **PIN** | **10** |  |
-| **3680140** | **19011173** | **33SI** | **CW/CCW** | **12** | **135** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
+| Камминс, часть нет. | Делько, часть нет. | Серия | вращение | VDC | усилители | GGG | Семья | Бэт + | Р-Трм | Я трм | Трм |
+| 3008988 | 1117833 | 30SI/TR | **CW/CCW** | 12/24 | 90 | Н. | 1 | 1/4 | ПИН |  | 1/4 |
+| **4000589** | **19011193** | **33SI/TR** | **CW/CCW** | **12/24** | **110** | **Н** | **1** | **1/4** | **PIN** | **Нет. 10** | **1/4** |
+| 3004806 | 1117839 | 30СИ | **CW/CCW** | 12 | 90 | Н. | 1 | 1/4 | ПИН |  | 1/4 |
+| **3400582** | **19011174** | **33SI** | **CW/CCW** | **12** | **110** | **Н** | **1** | **1/4** | **PIN** | **Нет. 10** | **1/4** |
+| 3000347 | 1117834 | 30СИ | **CW/CCW** | 24 | 60 | Я | 1 | 1/4 |  |  |  |
+| 3056492 | 1117836 | 30СИ | **CW/CCW** | 24 | 75 | Н. | 1 | 1/4 | ПИН | № 10 | 1/4 |
+| **4000590** | **19011192** | **33SI** | **CW/CCW** | **24** | **75** | **Н** | **1** | **1/4** | **PIN** | **Нет. 10** | **1/4** |
+| 3072483 | 1117838 | 30СИ | **CW/CCW** | 24 | 100 | Н. | 1 | 1/4 | ПИН |  | 1/4 |
+| **[[3400698]]** | **19011175** | **33SI** | **CW/CCW** | **24** | **100** | **Н** | **1** | **1/4** | **PIN** | **Нет. 10** | **1/4** |
+| 3000346\* | 1117733 | 30СИ | **CW/CCW** | 32 | 60 | Я | 1 | 1/4 |  |  | 1/4 |
+| **3413092\*** | **1901116** | **33SI** | **CW/CCW** | **32** | **60** | *** | **1** | **1/4** | **PIN** | **10 |  |
+| **3680140** | **19011173** | **33SI** | **CW/CCW** | **12** | **135** | **Н** | **1** | **1/4** | **PIN** | **Нет. 10** | **1/4** |
 
-\* Delco-branded alternator. All others are Cummins-branded.
+* Делко-брендовый генератор. Все остальные - Cummins-бренд.
 
-| Table Key |  |  |  |  |  |
+| Ключ к столу |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **S** | = | System (1-wire, 3-wire | **I Trm** | = | Indicator Terminal Size |
-| **Bat+** | = | Alternator Output Terminal Size | **G Trm** | = | Ground Terminal Size |
-| **VDC** | = | Voltage | **G** | = | Ground Type |
-| **Amps** | = | Amperage | **N** | = | Frame Ground |
-| **R Trm** | = | Relay Terminal Size | **I** | = | Insulated |
+| **S** | = | Система (1-провод, 3-проводная) | **Я тру** | = | Размер терминала |
+| **Бэт+** | = | Размер терминала Alternator Output Terminal | **G Trm** | = | Размер наземного терминала |
+| **VDC** | = | Напряжение | **G** | = | Тип грунта |
+| **Амперс** | = | неторопливость | **Н** | = | Рама земля |
+| **R Trm** | = | Размер терминала ретрансляции | * | = | изолированный |
 
-> [!note] Note · Примечание
-> All 30SI and 33SI alternators are marine corrosion protected.
+> [!note] Примечание
+> Все генераторы 30SI и 33SI защищены от коррозии.
 
-> [!note] Note · Примечание
-> If one or two of the 30SI 24-VDC alternators are used on equipment with dual engines with dual alternators and a common battery pack, the customer will perhaps complain about the charge light staying on at engine idle. To prevent this, use **only** the 33SI 24-VDC alternators on both engines for dual-engine equipment with a common battery pack. The 33SI 24-VDC alternator has an improved voltage regulator to prevent the charge light from coming on at engine idle.
+> [!note] Примечание
+> Если один или два из генераторов 30SI 24-VDC используются на оборудовании с двумя двигателями с двойными генераторами и общим аккумулятором, клиент, возможно, пожалуется на то, что зарядное освещение остается на холостом ходу двигателя. Чтобы предотвратить это, используйте только генераторы 33SI 24-VDC на обоих двигателях для двухмоторного оборудования с общим аккумулятором. Альтернативный генератор 33SI 24-VDC имеет улучшенный регулятор напряжения, чтобы предотвратить заряжание света при холостом ходу двигателя.
 
-| Table 4, 33SI Options |  |  |  |  |  |  |
+| Таблица 4, 33SI Варианты |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|
-| Engine Series | Old Option | New Option | Old Part No. | New Part No. | VDC | Amps |
-| **B/C** | EE9038 | EE9135 | 3056492 | [[4000590]] | 24 | 75 |
-| EE9090 | EE9034 | 3056492 | [[4000590]] | 24 | 75 |  |
-| **L10** | EE8044 | EE2040 | 3000347 | [[4000590]] | 24 | 75 |
+| Серия Двигатель | Старый вариант | Новый вариант | Старая часть - нет. | Новая часть - нет. | VDC | усилители |
+| **B/C** | EE9038 | EE9135 | 3056492 | 4000590 | 24 | 75 |
+| EE9090 | EE9034 | 3056492 | 4000590 | 24 | 75 |  |
+| **L10** | EE8044 | EE2040 | 3000347 | 4000590 | 24 | 75 |
 | EE8049 | EE2031 | 3000347 | 3400582 | 12 | 110 |  |
 | EE8068 | EE2039 | 3008986 | 4000589 | 12/24 | 110 |  |
-| EE8119 | EE2040 | 3056492 | [[4000590]] | 24 | 75 |  |
-| **M11/ISM** | EE2009 | EE2034 | 3004806 | 3400582 | 12 | 110 |
-| EE2014 | EE2046 | 3000347 | [[4000590]] | 24 | 75 |  |
-| EE2016 | EE2046 | 3056492 | [[4000590]] | 24 | 75 |  |
+| EE8119 | EE2040 | 3056492 | 4000590 | 24 | 75 |  |
+| **М11/ISM** | EE 2009 | EE2034 | 3004806 | 3400582 | 12 | 110 |
+| EE2014 | EE2046 | 3000347 | 4000590 | 24 | 75 |  |
+| EE2016 | EE2046 | 3056492 | 4000590 | 24 | 75 |  |
 | EE2017 | EE2045 | 3008988 | 4000589 | 12/24 | 110 |  |
 | **N/NT** | EE8043 | EE1249 | 3000346 | 3413092 | 32 | 60 |
-| EE8044 | EE1250 | 3000347 | [[4000590]] | 24 | 75 |  |
+| EE8044 | EE1250 | 3000347 | 4000590 | 24 | 75 |  |
 | EE8049 | EE1248 | 3004806 | 3400582 | 12 | 110 |  |
 | EE8068 | EE1247 | 3008988 | 4000589 | 12/24 | 110 |  |
-| EE8071 | EE1251 | 3000347 | [[4000590]] | 24 | 75 |  |
+| EE8071 | EE1251 | 3000347 | 4000590 | 24 | 75 |  |
 | EE8072 | EE1249 | 3000346 | 341309 | 32 | 60 |  |
-| EE8119 | EE1251 | 3056492 | [[4000590]] | 24 | 75 |  |
+| EE8119 | EE1251 | 3056492 | 4000590 | 24 | 75 |  |
 | EE8122 | EE1248 | 3004806 | 3400582 | 12 | 110 |  |
 | EE8129 | EE1253 | 3072483 | [[3400698]] | 24 | 100 |  |
-| **N14/Signature** | EE1194 | EE1238 | 3004806 | 3400582 | 12 | 110 |
-| EE1195 | OBSOLETE |  |  |  |  |  |
-| EE1210 | EE1240 | 3056492 | [[4000590]] | 24 | 75 |  |
+| **N14/Подпись** | EE1194 | EE1238 | 3004806 | 3400582 | 12 | 110 |
+| EE1195 | ОБСОЛЕТНЫЙ |  |  |  |  |  |
+| EE1210 | EE1240 | 3056492 | 4000590 | 24 | 75 |  |
 | EE1215 | EE1242 | 3072483 | [[3400698]] | 24 | 100 |  |
 | EE1217 | EE1237 | 3008988 | 4000589 | 12/24 | 110 |  |
 | EE1220 | EE1243 | 3072483 | [[3400698]] | 24 | 100 |  |
-| EE1232 | EE1239 | 3000347 | [[4000590]] | 24 | 75 |  |
-| EE1233 | EE1240 | 3000347 | [[4000590]] | 24 | 75 |  |
-| **KT/QSK19** | EE4028 | EE4053 | 3000347 | [[4000590]] | 24 | 75 |
-| EE4031 | EE4056 | 3056492 | [[4000590]] | 24 | 75 |  |
-| EE4033 | EE4054 | 3000347 | [[4000590]] | 24 | 75 |  |
+| EE1232 | EE1239 | 3000347 | 4000590 | 24 | 75 |  |
+| EE1233 | EE1240 | 3000347 | 4000590 | 24 | 75 |  |
+| **KT/QSK19** | EE4028 | EE4053 | 3000347 | 4000590 | 24 | 75 |
+| EE4031 | EE4056 | 3056492 | 4000590 | 24 | 75 |  |
+| EE4033 | EE4054 | 3000347 | 4000590 | 24 | 75 |  |
 | EE4034 | EE4058 | 3072483 | [[3400698]] | 24 | 100 |  |
 | EE4036 | EE4050 | 3008988 | 4000588 | 12/24 | 110 |  |
 | EE4040 | EE4059 | 3072483 | [[3400698]] | 24 | 100 |  |
 | EE8043 | EE4067 | 3000346 | 3413092 | 32 | 60 |  |
-| EE8044 | EE4055 | 3000347 | [[4000590]] | 24 | 75 |  |
+| EE8044 | EE4055 | 3000347 | 4000590 | 24 | 75 |  |
 | EE8049 | EE4052 | 3004806 | 3400582 | 12 | 110 |  |
 | EE8068 | EE4051 | 3008988 | 4000589 | 12/24 | 110 |  |
 | EE8072 | EE4068 | 3000346 | 3413092 | 32 | 60 |  |
-| EE8119 | EE4057 | 3056492 | [[4000590]] | 24 | 75 |  |
+| EE8119 | EE4057 | 3056492 | 4000590 | 24 | 75 |  |
 | EE8122 | EE4052 | 3004806 | 3400582 | 12 | 110 |  |
 | EE8129 | EE4060 | 3072483 | [[3400698]] | 24 | 100 |  |
-| **QST30** | EE5061 | EE5067 | 3056492 | [[4000590]] | 24 | 75 |
+| **QST30** | EE5061 | EE5067 | 3056492 | 4000590 | 24 | 75 |
 | EE5062 | EE5068 | 3072483 | [[3400698]] | 24 | 100 |  |
-| **KV/QSKV** | EE8044 | EE6047 | 3000347 | [[4000590]] | 24 | 75 |
+| **KV/QSKV** | EE8044 | EE6047 | 3000347 | 4000590 | 24 | 75 |
 | EE8049 | EE6048 | 3004806 | 3400082 | 12 | 110 |  |
 | EE8068 | EE6049 | 3008988 | 4000589 | 12/24 | 110 |  |
-| EE8119 | EE6050 | 3056492 | [[4000590]] | 24 | 75 |  |
+| EE8119 | EE6050 | 3056492 | 4000590 | 24 | 75 |  |
 | EE8129 | EE6051 | 3072483 | [[3400698]] | 24 | 100 |  |
 
-**Indicator (I) Terminal**
+**Индикатор (I) Терминал**
 
-The main function of the indicator (I) terminal is to indicate if the alternator is working correctly. Typically, an indicator light is wired to this terminal. If the alternator is **not** charging properly, the light turns on. Another function of the indicator (I) terminal is that it can be used to supply up to 1 amp of output at system voltage.
+Основная функция терминала индикатора (I) заключается в том, чтобы указать, работает ли генератор переменного тока правильно. Как правило, индикаторный свет подключается к этому терминалу. Если генератор **не** заряжается должным образом, свет включается. Другая функция терминала индикатора (I) заключается в том, что он может использоваться для подачи до 1 ампер выходного сигнала при напряжении системы.
 
-**Relay (R) Terminal**
+**Ретрансляционный (R) терминал**
 
-The function of the relay (R) terminal varies. It can supply up to 4 amps of output at one-half nominal alternator voltage to power items such as a tachometer or an hour meter.
+Функция реле (R) терминала изменяется. Он может подавать до 4 ампер выходного напряжения при полуноминомном напряжении генератора для питания таких элементов, как тахометр или часовой метр.
 
-**One-Wire and Three-Wire Systems**
+**Однопроводные и трехпроводные системы**
 
-*One-Wire System*
+* Система с одним проводом*
 
-This is the simplest of the wiring systems because the **only** wires connected to the alternator are at the battery (BAT) and ground terminals. (See Fig. 5.) Connecting to the R terminal and I terminal is optional.
+Это самая простая из систем проводов, потому что провода, подключенные к генератору переменного тока, находятся в аккумуляторе (BAT) и наземных терминалах. (См. рис. 5) Подключение к терминалу R и терминалу I является необязательным.
 
-*Three-Wire System*
+*Три-Wire системы*
 
-This system requires more wiring because it has a battery (BAT) terminal, R terminal, two blade terminals identified as No. 1 and No. 2, and a ground terminal. Typically, in the three-wire system, the No. 1 blade terminal serves as the I terminal. (See Fig. 5.) The advantage of the three-wire system is that it provides the same features as the one-wire system, plus remote sense. By connecting the No. 2 blade terminal to the battery's positive (+) terminal, the voltage is both sensed and regulated at the battery instead of the alternator. This eliminates the potential for voltage losses in the wiring from the alternator to the battery.
+Эта система требует больше проводов, потому что она имеет терминал батареи (BAT), R-терминал, два лезвия, идентифицированные как No. 1 и нет. 2 и наземный терминал. Как правило, в трехпроводной системе, нет. 1 лезвие терминала служит терминалом I. (См. рис. 5.) Преимущество трехпроводной системы заключается в том, что она обеспечивает те же функции, что и однопроводная система, плюс дистанционное управление. Подключив "нет". 2 лезвия терминала к положительному (+) терминалу батареи, напряжение и ощущается и регулируется на аккумуляторе вместо генератора. Это исключает возможность потери напряжения в проводах от генератора к батарее.
 
 ![[13800021.png]]
 
-Fig. 5, Typical Alternator (Delco-Remy)
+Фиг. 5, Типичный Альтернативатор (Делько-Реми)
 
-| Key | Terminal | Connected to |
+| Ключ | Терминал | Подключенный к |
 |---|---|---|
-| 1 | Output or B | Battery |
-| 2 | Ground\* or B | Ground |
-| 3 and 4 | Relay\* or A.C. | Charge indicator, automatic lockout system, tachometer\*\* |
-| 5 | Terminal No. 1\* or D+ | Indicator light |
-| 6 | Terminal No. 2 | Voltage sense |
-| 7 | Indicator\* | Indicator light |
+| 1 | выход или B | батарея |
+| 2 | Земля* или B | земля |
+| 3 и 4 | Relay или A.C. | Индикатор зарядки, автоматическая система блокировки, тахометр |
+| 5 | Терминал Нет. 1* или D+ | Световой индикатор |
+| 6 | Терминал Нет. 2 | Напряжение чувств |
+| 7 | Показатель* | Световой индикатор |
 
-\* **Not** all alternators have this feature.
+* * Не все генераторы имеют эту функцию.
 
-\*\* Provides voltage pulses at about one-half system voltage at a frequency of one-tenth of generator rpm.
+\*\* Предоставляет импульсы напряжения при примерно половине системного напряжения на частоте одной десятой оборотов генератора.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -401,3 +411,315 @@ Fig. 5, Typical Alternator (Delco-Remy)
 |---|---|---|
 | [[3400698]] | ALTERNATOR | Генератор |
 | [[4000590]] | ALTERNATOR | Генератор |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Alternator Change
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service parts topic announces a product change in Cummins-branded alternators. Delco Remy America (DRA), the supplier of the 21SI and 30SI Series alternators, has discontinued the production of these alternators. The 21SI will be replaced by the 22SI, and the 30SI will be replaced by the 33SI. This topic offers a comparison between the 21SI and 22SI and the 30SI and 33SI alternators.
+>
+> The tables below summarize the engine serial number first for the 22SI and 33SI Series alternators. The tables are incomplete because the various engine plants are using up their stock of the 21SI and 30SI Series alternators before ordering the new 22SI and 33SI alternators. This service parts topic will be updated with the completed engine serial number first information as soon as it is available.
+>
+> **22SI ALTERNATOR ENGINE SERIAL NUMBER FIRST**
+>
+> | **22SI ALTERNATOR ENGINE SERIAL NUMBER FIRST** |  |  |  |  |
+> |---|---|---|---|---|
+> |  | **Engine Series** |  |  |  |
+> | **Part No.** | B/C | L/M | N/Signature | K/V |
+> | 3935527 | 45822614 | 34950352 |  |  |
+> | 3935528 | 45827094 |  |  | N/A |
+> | 3935529 |  |  |  |  |
+> | 3935530 | 45824427 | 34951091 |  |  |
+> | 3935531 |  |  | N/A | N/A |
+>
+> **Note · Примечание**
+> N/A indicates that parts are **not** available.
+>
+> | **33SI ALTERNATOR ENGINE SERIAL NUMBER FIRST** |  |  |  |  |
+> |---|---|---|---|---|
+> |  | **Engine Series** |  |  |  |
+> | **Part No.** | B/C | L/M | N/Signature | K/V |
+> | [[4000590]] |  | 34951754 |  |  |
+> | 3400582 | N/A | N/A |  |  |
+> | 4000589 | N/A |  |  |  |
+> | [[3400698]] | N/A | N/A |  |  |
+> | 3413092 | N/A | N/A |  | N/A |
+>
+> **Note · Примечание**
+> N/A indicates that parts are **not** available.
+>
+> Figure 1, 21SI Alternator
+>
+> Figure 2, 22SI Alternator
+>
+> **21SI and 22SI Comparison**
+>
+> The 21SI and 22SI alternators are interchangeable on the same mount. There are two minor differences that can affect their fit in some applications: Ground terminal location and maximum housing width.
+>
+> *Ground Terminal Location*
+>
+> The ground terminal location of the 22SI alternator is 20 mm \[0.79 in\] lower and 11 mm \[0.43 in\] to the left of the 21SI ground terminal as viewed from the rear of the housing. (See Figs. 1 and 2.) The difference between the locations of the ground terminal on the two alternators is 23 mm \[0.91 in\].
+>
+> *Maximum Housing Width*
+>
+> The 22SI alternator is 5 mm \[0.20 in\] wider than the 21SI alternator. The maximum width of the 21SI alternator is 145 mm \[5.71 in\] compared to a width of 150 mm \[5.91 in\] for the 22SI.
+>
+> **Note · Примечание**
+> All 22SI alternators have an indicator (I) terminal and a relay (R) terminal. Use of these terminals is optional. An explanation of the I and R terminals is located at the end of this topic.
+>
+> | Figure 1, 21SI Alternator |  |
+> |---|---|
+> | Reference No. | Description |
+> | 1 | Battery terminal |
+> | 2 | Relay terminal |
+> | 3 | Ground terminal |
+>
+> | Figure 2, 22SI Alternator |  |
+> |---|---|
+> | Reference No. | Description |
+> | 1 | Indicator terminal |
+> | 2 | Battery terminal |
+> | 3 | Relay terminal |
+> | 4 | Ground terminal |
+>
+> In order to print this table properly, please set your printer paper orientation to "LANDSCAPE."
+>
+> | Table 1, 21SI and 22SI Feature Comparison |  |  |  |  |  |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|---|---|---|---|---|
+> | Cummins Part No. | Delco Part No. | Series | Rotation | VDC | Amps | G | S | Bat+ | R Trm | I Trm | G Trm |
+> | 3918558 | 19010194 | 21SI | **CW/CCW** | 12 | 100 | N | 1 | 1/4 | PIN |  | 1/4 |
+> | **3935527** | **19020379** | **22SI** | **CW** | **12** | **100** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
+> | 3920615 | 19010196 | 21SI | **CW** | 12 | 130 | N | 1 | 1/4 | PIN |  | 1/4 |
+> | **3935528** | **19020380** | **22SI** | **CW** | **12** | **130** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
+> | 3920616 | 19010202 | 21SI | **CW/CCW** | 12 | 160 | N | 1 | 1/4 | PIN |  | 1/4 |
+> | **3925529** | **19020381** | **22SI** | **CW** | **12** | **160** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
+> | 3920617 | 19010199 | 21SI | **CW/CCW** | 24 | 50 | N | 1 | M6 | M4 | M4 | 1/4 |
+> | **3935531** | **19020383** | **22SI** | **CW** | **24** | **50** | **N** | **1** | **M6** | **M4** | **M4** | **1/4** |
+> | 3920618 | 19010195 | 21SI | **CW/CCW** | 24 | 70 | N | 1 | M6 | M4 | M4 | 1/4 |
+> | **3935530** | **19020382** | **22SI** | **CW** | **24** | **70** | **N** | **1** | **M6** | **M4** | **M4** | **1/4** |
+> | **3679712** | **19020314** | **22SI** | **CW** | **12** | **130** | **N** | **1** | **5/16** | **No. 10** | **No. 10** | **1/4** |
+> | **4003445** | **19020375** | **22SI** | **CW** | **12** | **130** | **N** | **3** | **M6** | **M4** | **BLADE** | **1/4** |
+> | **4003446** | **19020376** | **22SI** | **CW** | **24** | **70** | **N** | **3** | **M6** | **M4** | **BLADE** | **1/4** |
+>
+> | Table Key |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **S** | = | System (1-wire, 3-wire | **I Trm** | = | Indicator Terminal Size |
+> | **Bat+** | = | Alternator Output Terminal Size | **G Trm** | = | Ground Terminal Size |
+> | **VDC** | = | Voltage | **G** | = | Ground Type |
+> | **Amps** | = | Amperage | **N** | = | Frame Ground |
+> | **R Trm** | = | Relay Terminal Size | **I** | = | Insulated |
+>
+> | Table 2, 22SI Options |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|
+> | Engine Series | Old Option | New Option | Old Part No. | New Part No. | VDC | Amps |
+> | **B/C** | EE9055 | EE9124 | 3918558 | 3935527 | 12 | 100 |
+> | EE9056 | EE9125 | 3920615 | 3935528 | 12 | 130 |  |
+> | EE9057 | EE9126 | 3920616 | 3935529 | 12 | 160 |  |
+> | EE9058 | EE9128 | 3920617 | 3935531 | 24 | 50 |  |
+> | EE9059 | EE9127 | 3920618 | 3935530 | 24 | 70 |  |
+> | EE9067 | EE9129 | 3918558 | 3935527 | 12 | 100 |  |
+> | EE9073 | EE9130 | 3920615 | 3935528 | 12 | 130 |  |
+> | EE9074 | EE9131 | 3920616 | 3935529 | 12 | 160 |  |
+> | EE9075 | EE9133 | 3920617 | 3935531 | 24 | 50 |  |
+> | EE9076 | EE9132 | 3920618 | 3935530 | 24 | 70 |  |
+> | EE9084 | EE9137 | 3920618 | 3935530 | 24 | 70 |  |
+> | **L10** | EE8015 | EE2044 | 3920618 | 3935530 | 24 | 70 |
+> | EE8029 | EE2041 | 3918558 | 3935527 | 12 | 100 |  |
+> | EE8131 | EE2041 | 3918558 | 3935527 | 12 | 100 |  |
+> | EE8132 | EE2043 | 3920616 | 3935529 | 12 | 160 |  |
+> | EE8133 | EE2044 | 3920618 | 3935530 | 24 | 70 |  |
+> | EE8140 | EE2042 | 3920615 | 3935528 | 12 | 130 |  |
+> | **M11/ISM** | EE2005 | EE2047 | 3918558 | 3935527 | 12 | 100 |
+> | EE20056 | EE2049 | 3920616 | 3935529 | 12 | 160 |  |
+> | EE2007 | EE2050 | 3920618 | 3935530 | 24 | 70 |  |
+> | EE2011 | EE2048 | 3920615 | 3935528 | 12 | 130 |  |
+> | EE2028 | EE2051 | 3920617 | 3935531 | 24 | 50 |  |
+> | **N/NT/N14/Signature** | EE1193 | EE1244 | 3918588 | 3935527 | 12 | 100 |
+> | EE1209 | EE1245 | 3920615 | 3935528 | 12 | 130 |  |
+> | EE1212 | EE1248 | 3920618 | 3935530 | 24 | 70 |  |
+> | EE8131 | EE1254 | 3918558 | 3935527 | 12 | 100 |  |
+> | EE8132 | EE1255 | 3920616 | 3935529 | 12 | 160 |  |
+> | EE8133 | EE1256 | 3920618 | 3935530 | 24 | 70 |  |
+> | **V903** | EE8013 | EE3125 | 3918558 | 3935527 | 12 | 100 |
+> | EE8015 | EE3126 | 3920618 | 3935530 | 24 | 70 |  |
+> | **QSK19** | EE4032 | EE4063 | 3920618 | 3935530 | 24 | 70 |
+> | EE4035 | EE4065 | 3920616 | 3935529 | 12 | 160 |  |
+> | EE8013 | EE4061 | 3918558 | 3935527 | 12 | 100 |  |
+> | EE8015 | EE4064 | 3920618 | 3935530 | 24 | 70 |  |
+> | EE8029 | EE4061 | 3918558 | 3935527 | 12 | 100 |  |
+> | EE8131 | EE4061 | 3918558 | 3935527 | 12 | 100 |  |
+> | EE8132 | EE4062 | 3920616 | 3935529 | 12 | 160 |  |
+> | EE8133 | EE4064 | 3920618 | 3935530 | 24 | 70 |  |
+> | **KV/QSKV** | EE8015 | EE6055 | 3920618 | 3935530 | 24 | 70 |
+> | EE8029 | EE6052 | 3918558 | 3935527 | 12 | 100 |  |
+> | EE8131 | EE6053 | 3918558 | 3935527 | 12 | 100 |  |
+> | EE8132 | EE6054 | 3920616 | 3935529 | 12 | 160 |  |
+> | EE8133 | EE6056 | 3920618 | 3935530 | 24 | 70 |  |
+>
+> Figure 3, 30SI Alternator
+>
+> Figure 4, 33SI Alternator
+>
+> **30SI and 33SI Comparison**
+>
+> The 30SI and 33SI alternators are interchangeable on the same mount. The **only** differences that will affect installation are the terminal locations. (See Figs. 3 and 4.)
+>
+> *Ground Terminal Location*
+>
+> The ground terminal on both the 30SI and 33SI is located on top of the housing relative to the rear of the alternator.
+>
+> *Relay Terminal Location*
+>
+> The relay terminal location on the 30SI alternator is located on the left side when viewed from the rear of the housing. The relay terminal on the 33SI alternator is located in the upper left corner, next to the battery terminal, when viewed from the rear of the housing. The actual difference between the terminal locations is approximately 90 mm \[3.54 in\].
+>
+> *Battery Terminal Location*
+>
+> The battery terminal on the 30SI alternator is located on the right side when viewed from the rear of the housing. The battery terminal on the 33SI is located in the upper left corner of the alternator when viewed from the rear of the housing. The actual difference between the terminal locations is approximately 190 mm \[7.48 in\].
+>
+> *Indicator Light Terminal Location*
+>
+> The 30SI alternator does **not** have an indicator terminal. The 33SI indicator terminal is located in the upper middle portion of the rear housing, next to the relay terminal.
+>
+> **Note · Примечание**
+> Use of the relay and the indicator terminals is optional. An explanation of these terminals is located at the end of this topic.
+>
+> | Figure 3, 30SI Alternator |  |
+> |---|---|
+> | Reference No. | Description |
+> | 1 | Ground terminal |
+> | 2 | Relay terminal |
+> | 3 | Battery terminal |
+>
+> | Figure 4, 33SI Alternator |  |
+> |---|---|
+> | Reference No. | Description |
+> | 1 | Battery terminal |
+> | 2 | Relay terminal |
+> | 3 | Ground terminal |
+> | 4 | Indicator terminal |
+>
+> In order to print this table properly, please set your printer paper orientation to "LANDSCAPE."
+>
+> | Table 3, 30SI and 33SI Feature Comparison |  |  |  |  |  |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|---|---|---|---|---|
+> | Cummins Part No. | Delco Part No. | Series | Rotation | VDC | Amps | G | S | Bat+ | R Trm | I Trm | G Trm |
+> | 3008988 | 1117833 | 30SI/TR | **CW/CCW** | 12/24 | 90 | N | 1 | 1/4 | PIN |  | 1/4 |
+> | **4000589** | **19011193** | **33SI/TR** | **CW/CCW** | **12/24** | **110** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
+> | 3004806 | 1117839 | 30SI | **CW/CCW** | 12 | 90 | N | 1 | 1/4 | PIN |  | 1/4 |
+> | **3400582** | **19011174** | **33SI** | **CW/CCW** | **12** | **110** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
+> | 3000347 | 1117834 | 30SI | **CW/CCW** | 24 | 60 | I | 1 | 1/4 |  |  |  |
+> | 3056492 | 1117836 | 30SI | **CW/CCW** | 24 | 75 | N | 1 | 1/4 | PIN | No. 10 | 1/4 |
+> | **[[4000590]]** | **19011192** | **33SI** | **CW/CCW** | **24** | **75** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
+> | 3072483 | 1117838 | 30SI | **CW/CCW** | 24 | 100 | N | 1 | 1/4 | PIN |  | 1/4 |
+> | **[[3400698]]** | **19011175** | **33SI** | **CW/CCW** | **24** | **100** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
+> | 3000346\* | 1117733 | 30SI | **CW/CCW** | 32 | 60 | I | 1 | 1/4 |  |  | 1/4 |
+> | **3413092\*** | **1901116** | **33SI** | **CW/CCW** | **32** | **60** | **I** | **1** | **1/4** | **PIN** | **10** |  |
+> | **3680140** | **19011173** | **33SI** | **CW/CCW** | **12** | **135** | **N** | **1** | **1/4** | **PIN** | **No. 10** | **1/4** |
+>
+> \* Delco-branded alternator. All others are Cummins-branded.
+>
+> | Table Key |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **S** | = | System (1-wire, 3-wire | **I Trm** | = | Indicator Terminal Size |
+> | **Bat+** | = | Alternator Output Terminal Size | **G Trm** | = | Ground Terminal Size |
+> | **VDC** | = | Voltage | **G** | = | Ground Type |
+> | **Amps** | = | Amperage | **N** | = | Frame Ground |
+> | **R Trm** | = | Relay Terminal Size | **I** | = | Insulated |
+>
+> **Note · Примечание**
+> All 30SI and 33SI alternators are marine corrosion protected.
+>
+> **Note · Примечание**
+> If one or two of the 30SI 24-VDC alternators are used on equipment with dual engines with dual alternators and a common battery pack, the customer will perhaps complain about the charge light staying on at engine idle. To prevent this, use **only** the 33SI 24-VDC alternators on both engines for dual-engine equipment with a common battery pack. The 33SI 24-VDC alternator has an improved voltage regulator to prevent the charge light from coming on at engine idle.
+>
+> | Table 4, 33SI Options |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|
+> | Engine Series | Old Option | New Option | Old Part No. | New Part No. | VDC | Amps |
+> | **B/C** | EE9038 | EE9135 | 3056492 | [[4000590]] | 24 | 75 |
+> | EE9090 | EE9034 | 3056492 | [[4000590]] | 24 | 75 |  |
+> | **L10** | EE8044 | EE2040 | 3000347 | [[4000590]] | 24 | 75 |
+> | EE8049 | EE2031 | 3000347 | 3400582 | 12 | 110 |  |
+> | EE8068 | EE2039 | 3008986 | 4000589 | 12/24 | 110 |  |
+> | EE8119 | EE2040 | 3056492 | [[4000590]] | 24 | 75 |  |
+> | **M11/ISM** | EE2009 | EE2034 | 3004806 | 3400582 | 12 | 110 |
+> | EE2014 | EE2046 | 3000347 | [[4000590]] | 24 | 75 |  |
+> | EE2016 | EE2046 | 3056492 | [[4000590]] | 24 | 75 |  |
+> | EE2017 | EE2045 | 3008988 | 4000589 | 12/24 | 110 |  |
+> | **N/NT** | EE8043 | EE1249 | 3000346 | 3413092 | 32 | 60 |
+> | EE8044 | EE1250 | 3000347 | [[4000590]] | 24 | 75 |  |
+> | EE8049 | EE1248 | 3004806 | 3400582 | 12 | 110 |  |
+> | EE8068 | EE1247 | 3008988 | 4000589 | 12/24 | 110 |  |
+> | EE8071 | EE1251 | 3000347 | [[4000590]] | 24 | 75 |  |
+> | EE8072 | EE1249 | 3000346 | 341309 | 32 | 60 |  |
+> | EE8119 | EE1251 | 3056492 | [[4000590]] | 24 | 75 |  |
+> | EE8122 | EE1248 | 3004806 | 3400582 | 12 | 110 |  |
+> | EE8129 | EE1253 | 3072483 | [[3400698]] | 24 | 100 |  |
+> | **N14/Signature** | EE1194 | EE1238 | 3004806 | 3400582 | 12 | 110 |
+> | EE1195 | OBSOLETE |  |  |  |  |  |
+> | EE1210 | EE1240 | 3056492 | [[4000590]] | 24 | 75 |  |
+> | EE1215 | EE1242 | 3072483 | [[3400698]] | 24 | 100 |  |
+> | EE1217 | EE1237 | 3008988 | 4000589 | 12/24 | 110 |  |
+> | EE1220 | EE1243 | 3072483 | [[3400698]] | 24 | 100 |  |
+> | EE1232 | EE1239 | 3000347 | [[4000590]] | 24 | 75 |  |
+> | EE1233 | EE1240 | 3000347 | [[4000590]] | 24 | 75 |  |
+> | **KT/QSK19** | EE4028 | EE4053 | 3000347 | [[4000590]] | 24 | 75 |
+> | EE4031 | EE4056 | 3056492 | [[4000590]] | 24 | 75 |  |
+> | EE4033 | EE4054 | 3000347 | [[4000590]] | 24 | 75 |  |
+> | EE4034 | EE4058 | 3072483 | [[3400698]] | 24 | 100 |  |
+> | EE4036 | EE4050 | 3008988 | 4000588 | 12/24 | 110 |  |
+> | EE4040 | EE4059 | 3072483 | [[3400698]] | 24 | 100 |  |
+> | EE8043 | EE4067 | 3000346 | 3413092 | 32 | 60 |  |
+> | EE8044 | EE4055 | 3000347 | [[4000590]] | 24 | 75 |  |
+> | EE8049 | EE4052 | 3004806 | 3400582 | 12 | 110 |  |
+> | EE8068 | EE4051 | 3008988 | 4000589 | 12/24 | 110 |  |
+> | EE8072 | EE4068 | 3000346 | 3413092 | 32 | 60 |  |
+> | EE8119 | EE4057 | 3056492 | [[4000590]] | 24 | 75 |  |
+> | EE8122 | EE4052 | 3004806 | 3400582 | 12 | 110 |  |
+> | EE8129 | EE4060 | 3072483 | [[3400698]] | 24 | 100 |  |
+> | **QST30** | EE5061 | EE5067 | 3056492 | [[4000590]] | 24 | 75 |
+> | EE5062 | EE5068 | 3072483 | [[3400698]] | 24 | 100 |  |
+> | **KV/QSKV** | EE8044 | EE6047 | 3000347 | [[4000590]] | 24 | 75 |
+> | EE8049 | EE6048 | 3004806 | 3400082 | 12 | 110 |  |
+> | EE8068 | EE6049 | 3008988 | 4000589 | 12/24 | 110 |  |
+> | EE8119 | EE6050 | 3056492 | [[4000590]] | 24 | 75 |  |
+> | EE8129 | EE6051 | 3072483 | [[3400698]] | 24 | 100 |  |
+>
+> **Indicator (I) Terminal**
+>
+> The main function of the indicator (I) terminal is to indicate if the alternator is working correctly. Typically, an indicator light is wired to this terminal. If the alternator is **not** charging properly, the light turns on. Another function of the indicator (I) terminal is that it can be used to supply up to 1 amp of output at system voltage.
+>
+> **Relay (R) Terminal**
+>
+> The function of the relay (R) terminal varies. It can supply up to 4 amps of output at one-half nominal alternator voltage to power items such as a tachometer or an hour meter.
+>
+> **One-Wire and Three-Wire Systems**
+>
+> *One-Wire System*
+>
+> This is the simplest of the wiring systems because the **only** wires connected to the alternator are at the battery (BAT) and ground terminals. (See Fig. 5.) Connecting to the R terminal and I terminal is optional.
+>
+> *Three-Wire System*
+>
+> This system requires more wiring because it has a battery (BAT) terminal, R terminal, two blade terminals identified as No. 1 and No. 2, and a ground terminal. Typically, in the three-wire system, the No. 1 blade terminal serves as the I terminal. (See Fig. 5.) The advantage of the three-wire system is that it provides the same features as the one-wire system, plus remote sense. By connecting the No. 2 blade terminal to the battery's positive (+) terminal, the voltage is both sensed and regulated at the battery instead of the alternator. This eliminates the potential for voltage losses in the wiring from the alternator to the battery.
+>
+> Fig. 5, Typical Alternator (Delco-Remy)
+>
+> | Key | Terminal | Connected to |
+> |---|---|---|
+> | 1 | Output or B | Battery |
+> | 2 | Ground\* or B | Ground |
+> | 3 and 4 | Relay\* or A.C. | Charge indicator, automatic lockout system, tachometer\*\* |
+> | 5 | Terminal No. 1\* or D+ | Indicator light |
+> | 6 | Terminal No. 2 | Voltage sense |
+> | 7 | Indicator\* | Indicator light |
+>
+> \* **Not** all alternators have this feature.
+>
+> \*\* Provides voltage pulses at about one-half system voltage at a frequency of one-tenth of generator rpm.
+>
+> ### Document History

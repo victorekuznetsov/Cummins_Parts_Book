@@ -13,13 +13,15 @@ engines:
   - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2016/tsb160117.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb160117.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
   - "год/2016"
+  - "перевод/машинный"
   - "тема/cooling-system"
 ---
 
@@ -33,52 +35,112 @@ tags:
 > **Даты:** выпущен 2016-11-14 · изменён 2016-11-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2016/tsb160117.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb160117.pdf)
 
-## Fan Spacer Mounting Capscrew Malfunction
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Отказ болтов крепления проставки вентилятора
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- NTA-855-C (Industrial applications **only**)
+### Содержание
 
-**Issue**
+**Затронутая продукция**
 
-Symptom:
+- NTA-855-C (только для промышленных предприятий)
 
-- Fan spacer mounting capscrews loosen with normal engine operation.
+**Проблема**
 
-Root Cause:
+Симптом:
 
-- Insufficient length of fan spacer mounting capscrews.
+- Фан-спейсер крепления болтов ослабляется при нормальной работе двигателя.
 
-**Verification**
+Первопричина:
 
-- Verify fan spacer mounting capscrews are loose.
+- Недостаточная длина вентиляторных прокладок крепления болтов.
 
-**Resolution**
+**Проверка**
 
-- New fan spacer mounting capscrews 11.4 cm \[ 4.50 in \] in length have been released. Existing fan spacer mounting capscrews are 10.2 cm \[ 4.00 in \] in length.
-- Replace existing fan spacer mounting capscrews with new capscrews. See Table 1 below for part numbers.
+- Проверьте, что вентиляторные прокладки крепления болты свободны.
 
-**Service Parts Availability**
+**Решение**
 
-Service parts are available. See Table 1.
+- Выпущены новые вентиляторные прокладки крепления болтов длиной 11,4 см[4,50 дюйма]. Существующие вентиляторные прокладки крепления болтов имеют длину 10,2 см \[4,00 в \].
+- Замените существующие вентиляторные прокладки крепления болтами с новыми болтами. См. таблицу 1 ниже для номеров частей.
 
-| Table 1, Service Parts |  |  |  |  |
+**Наличие сервисных деталей**
+
+Сервисные детали доступны для заказа. См. таблицу 1.
+
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsoleted | Superseded | New Part Number |
-| Screw, Hexagon Head Cap | 108603 | No | No | 108604 |
+| Часть описание | Существующий номер детали | Устаревший | Заменённый | Новый номер детали |
+| Винтовка Hexagon Head Cap | 108603 | Нет | Нет | 108604 |
 
-**Production Status**
+**Статус в производстве**
 
-| Table 2, Production Information |  |  |  |
+| Таблица 2, Информация о производстве |  |  |  |
 |---|---|---|---|
-| Product | Engine Serial Number (ESN) First | Build Date\* | Engine Plant |
-| NTA-855-C | 25420584 | 26 September 2016 | KCL - INDIA, LTD. |
-| \*Engine build date can be found on the engine data plate |  |  |  |
+| Продукт | Серийный номер двигателя (ESN) | Дата создания* | Машинный завод |
+| NTA-855-C | 25420584 | 26 сентября 2016 | KCL - INDIA, LTD. |
+| *Дата сборки двигателя можно найти на табличке с данными двигателя |  |  |  |
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Fan Spacer Mounting Capscrew Malfunction
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - NTA-855-C (Industrial applications **only**)
+>
+> **Issue**
+>
+> Symptom:
+>
+> - Fan spacer mounting capscrews loosen with normal engine operation.
+>
+> Root Cause:
+>
+> - Insufficient length of fan spacer mounting capscrews.
+>
+> **Verification**
+>
+> - Verify fan spacer mounting capscrews are loose.
+>
+> **Resolution**
+>
+> - New fan spacer mounting capscrews 11.4 cm \[ 4.50 in \] in length have been released. Existing fan spacer mounting capscrews are 10.2 cm \[ 4.00 in \] in length.
+> - Replace existing fan spacer mounting capscrews with new capscrews. See Table 1 below for part numbers.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsoleted | Superseded | New Part Number |
+> | Screw, Hexagon Head Cap | 108603 | No | No | 108604 |
+>
+> **Production Status**
+>
+> | Table 2, Production Information |  |  |  |
+> |---|---|---|---|
+> | Product | Engine Serial Number (ESN) First | Build Date\* | Engine Plant |
+> | NTA-855-C | 25420584 | 26 September 2016 | KCL - INDIA, LTD. |
+> | \*Engine build date can be found on the engine data plate |  |  |  |
+>
+> ### Document History

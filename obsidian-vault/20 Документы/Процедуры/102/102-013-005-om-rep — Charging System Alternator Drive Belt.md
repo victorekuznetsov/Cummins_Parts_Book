@@ -26,7 +26,8 @@ manuals:
   - "3810497"
   - "4021374"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-013-005-om-rep.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-013-005-om-rep.pdf"
 tags:
@@ -36,6 +37,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/102"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator Drive Belt
@@ -49,38 +51,76 @@ tags:
 > **Даты:** изменён 2015-08-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-013-005-om-rep.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-013-005-om-rep.pdf)
 
-### Adjust
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The lower jam nut has left-hand threads.
 
-Loosen the alternator and adjusting link mounting capscrews.
+### Регулировка
 
-Loosen the jam nuts on the adjusting screw.
+> [!note] Примечание
+> Нижний локон имеет левую резьба.
+
+Устранить генератор переменного тока и регулировать крепление болтов.
+
+Освободите гайки от винта, который регулирует.
 
 ![[eh4lkua.png]]
 
-Turn the adjusting screw **clockwise** to increase the belt tension.
+Поверните регулирующий винт **по часовой стрелке**, чтобы увеличить натяжение ремня.
 
 ![[eh4lkub.png]]
 
-> [!note] Note · Примечание
-> The lower jam nut has left-hand threads.
+> [!note] Примечание
+> Нижний локон имеет левую резьба.
 
-Tighten the jam nuts on the adjusting screw.
+Затяните гайки на регулировочном винте.
 
-Tighten the adjusting link and alternator mounting capscrews.
+Затягивать регулировочные звенья и крепления генераторов переменного тока.
 
-Torque Value:
+Момент затяжки:
 
-Jam Nuts
+Джейм Натс
 
-Torque Value:
+Момент затяжки:
 
-Alternator Mounting Capscrews
+6.2.1.3 Установочные болты
 
 ![[eh4lkuc.png]]
 
-Check the belt tension again to be sure it is correct.
+Проверьте натяжение ремня снова, чтобы убедиться, что это правильно.
 
 ![[eh4toga.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Adjust
+>
+> **Note · Примечание**
+> The lower jam nut has left-hand threads.
+>
+> Loosen the alternator and adjusting link mounting capscrews.
+>
+> Loosen the jam nuts on the adjusting screw.
+>
+> Turn the adjusting screw **clockwise** to increase the belt tension.
+>
+> **Note · Примечание**
+> The lower jam nut has left-hand threads.
+>
+> Tighten the jam nuts on the adjusting screw.
+>
+> Tighten the adjusting link and alternator mounting capscrews.
+>
+> Torque Value:
+>
+> Jam Nuts
+>
+> Torque Value:
+>
+> Alternator Mounting Capscrews
+>
+> Check the belt tension again to be sure it is correct.

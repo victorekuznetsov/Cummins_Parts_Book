@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc689.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc689.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Engine Crankshaft Speed/Position - Data Erratic, Intermittent, or Incorrect
@@ -34,62 +36,130 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc689.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc689.pdf)
 
-### Fault Code: 689
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Crankshaft Speed/Position - Data Erratic, Intermittent, or Incorrect
 
-Printable Version
+### Код неисправности: 689
 
-### Overview
+### Частота/положение коленвала — данные нестабильны или неверны
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 689 PID(P): P190 SPN: 190 FMI: 2/2 Lamp: Amber SRT: | The ECM has detected an error in the engine speed signal. | Possible reduced performance or shutdown. |
+| Код неисправности: 689 PID(P): P190 SPN: 190 FMI: 2/2 лампы: Янтарная СРТ: | ECM обнаружил ошибку в сигнале скорости двигателя. | Возможно снижение производительности или выключение. |
 
 ![[19a00864.png]]
 
-Engine Crankshaft Speed Sensor Circuit
+Двигатель Crankshaft Speed Sensor Circuit
 
-### Circuit Description
+### Описание цепи
 
-The crankshaft position and camshaft position sensors are Hall effect type sensors. The engine control module (ECM) provides a 5 volt supply to the position sensor and a return circuit. As the teeth on the crankshaft speed ring or the dimples in the back of the camshaft gear move past the position sensor, a signal is generated on the position sensor signal circuit. The ECM interprets this signal and converts it to an engine speed. A missing tooth on the crankshaft gear is used by the ECM to determine the position of the engine.
+Датчики положения коленчатого вала и положения распределительного вала являются датчиками типа эффекта Холла. Модуль управления двигателем (ECM) обеспечивает подачу 5 вольт на датчик положения и обратную цепь. Когда зубы на коленчатом валу или ямочки в задней части распределительного устройства перемещаются мимо датчика положения, на цепи сигнала датчика положения генерируется сигнал. ECM интерпретирует этот сигнал и преобразует его в скорость двигателя. Отсутствующий зуб на коленчатом валу используется ECM для определения положения двигателя.
 
-### Component Location
+### Расположение компонента
 
-The engine speed sensor and the engine position sensor are located in the flywheel housing.
+Датчик скорости двигателя и датчик положения двигателя расположены в корпусе маховика.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the engine is running.
+Эта диагностика выполняется непрерывно, когда двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected a loss of the crankshaft speed/position sensor while the engine was running.
+Модуль управления двигателем (ECM) обнаружил потерю датчика скорости / положения коленчатого вала во время работы двигателя.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-- Engine torque will be reduced if the engine is operated for an extended period of time with this fault active.
+- Энергетический момент двигателя будет уменьшен, если двигатель работает в течение длительного периода времени с активным разломом.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when Cummins® electronic service tool or equivalent is connected. When troubleshooting a fault code, use the source address displayed in Cummins® electronic service tool or equivalent to determine which ECM and circuit is affected.
+У моделей двигателей, охваченных этим руководством, несколько электронных блоков управления. Каждый ECM имеет индивидуальный адрес источника, который отображается при подключении электронного инструментария или эквивалента Cummins®. При устранении неисправности кода используйте адрес источника, отображаемый в инструменте электронного обслуживания Cummins® или эквивалент, чтобы определить, какая ECM и схема затронута.
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-- Damaged or malfunctioning engine speed sensor
+- Поврежденный или неисправный датчик скорости двигателя
 
-- Damaged tone wheel
+- Поврежденное колесо тона
 
-Refer to Troubleshooting Fault Code 689.
+См. код ошибки 689.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 689
+>
+> ### Engine Crankshaft Speed/Position - Data Erratic, Intermittent, or Incorrect
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 689 PID(P): P190 SPN: 190 FMI: 2/2 Lamp: Amber SRT: | The ECM has detected an error in the engine speed signal. | Possible reduced performance or shutdown. |
+>
+> Engine Crankshaft Speed Sensor Circuit
+>
+> ### Circuit Description
+>
+> The crankshaft position and camshaft position sensors are Hall effect type sensors. The engine control module (ECM) provides a 5 volt supply to the position sensor and a return circuit. As the teeth on the crankshaft speed ring or the dimples in the back of the camshaft gear move past the position sensor, a signal is generated on the position sensor signal circuit. The ECM interprets this signal and converts it to an engine speed. A missing tooth on the crankshaft gear is used by the ECM to determine the position of the engine.
+>
+> ### Component Location
+>
+> The engine speed sensor and the engine position sensor are located in the flywheel housing.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected a loss of the crankshaft speed/position sensor while the engine was running.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> - Engine torque will be reduced if the engine is operated for an extended period of time with this fault active.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when Cummins® electronic service tool or equivalent is connected. When troubleshooting a fault code, use the source address displayed in Cummins® electronic service tool or equivalent to determine which ECM and circuit is affected.
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> - Damaged or malfunctioning engine speed sensor
+>
+> - Damaged tone wheel
+>
+> Refer to Troubleshooting Fault Code 689.

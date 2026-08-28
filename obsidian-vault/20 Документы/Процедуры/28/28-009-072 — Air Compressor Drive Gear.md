@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-009-072.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-009-072.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Air Compressor Drive Gear
@@ -34,64 +36,118 @@ tags:
 > **Даты:** изменён 2015-09-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-009-072.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-009-072.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Loosen eight socket headed capscrews.
 
-Remove air compressor drive gear from left bank camshaft gear.
+### Снятие
+
+Запускаем восемь болтов с розеткой.
+
+Удалите приводную передачу воздушного компрессора из левобережной распределительной передачи.
 
 ![[09s00009.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the air compressor drive gear with solvent or steam.
+Очистите приводную передачу воздушного компрессора растворителем или паром.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[09s00016.png]]
 
-Check the air compressor drive gear for cracks, chipped, or broken teeth.
+Проверьте приводную передачу воздушного компрессора на наличие трещин, сколов или сломанных зубов.
 
-Check the dowel pin for damage.
+Проверьте штифт для полотенца на предмет повреждения.
 
-The gear **must** be replaced if the teeth or dowel pin is damaged.
+Передача должна быть заменена, если зубы или штифт повреждены.
 
 ![[09s00010.png]]
 
-### Install
+### Установка
 
-Make sure rear dowel pin (1) is fitted in the air compressor drive gear
+Убедитесь, что задний штифт (1) установлен в приводной механизм воздушного компрессора
 
 ![[09s00011.png]]
 
-Make sure front dowel pin in the air compressor drive gear is fitted flush to the front face of the camshaft gear within +/- 0.1 mm \[0.004 in\] limit.
+Убедитесь, что передний штифт-дюйм в приводной передаче воздушного компрессора установлен на передней стороне распределительного механизма в пределах +/- 0,1 мм \[0,004 в\] предела.
 
 ![[09s00012.png]]
 
-Fit air compressor drive gear to left bank camshaft gear.
+Приспособить приводную передачу воздушного компрессора к левобережной распределительной передаче.
 
-Make sure rear dowel pin (1) is located correctly into camshaft gear.
+Убедитесь, что задний штифт (1) расположен правильно в распределительной шестерне.
 
 ![[09s00013.png]]
 
-Secure air compressor drive gear with socket headed capscrews and lock washers.
+Защищенное приводное устройство воздушного компрессора с болтами с розеткой и шайбами блокировки.
 
 ![[09s00014.png]]
 
-Tighten capscrews in the specified sequence.
+Затягивать болты в указанной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 26 n•m [230 in-lb]
+> [!tip] Момент затяжки
+> 26 Н·м [230 фунт-дюйм]
 
 ![[09s00017.png]]
 
-> [!note] Note · Примечание
-> Make sure gears are marked with white paint to indicate correct timing location and tooth sit position.
+> [!note] Примечание
+> Убедитесь, что шестерни помечены белой краской, чтобы указать правильное место и положение зуба.
 
 ![[09s00015.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Loosen eight socket headed capscrews.
+>
+> Remove air compressor drive gear from left bank camshaft gear.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the air compressor drive gear with solvent or steam.
+>
+> Dry with compressed air.
+>
+> Check the air compressor drive gear for cracks, chipped, or broken teeth.
+>
+> Check the dowel pin for damage.
+>
+> The gear **must** be replaced if the teeth or dowel pin is damaged.
+>
+> ### Install
+>
+> Make sure rear dowel pin (1) is fitted in the air compressor drive gear
+>
+> Make sure front dowel pin in the air compressor drive gear is fitted flush to the front face of the camshaft gear within +/- 0.1 mm \[0.004 in\] limit.
+>
+> Fit air compressor drive gear to left bank camshaft gear.
+>
+> Make sure rear dowel pin (1) is located correctly into camshaft gear.
+>
+> Secure air compressor drive gear with socket headed capscrews and lock washers.
+>
+> Tighten capscrews in the specified sequence.
+>
+> **Момент затяжки · Torque Value**
+> 26 n•m [230 in-lb]
+>
+> **Note · Примечание**
+> Make sure gears are marked with white paint to indicate correct timing location and tooth sit position.

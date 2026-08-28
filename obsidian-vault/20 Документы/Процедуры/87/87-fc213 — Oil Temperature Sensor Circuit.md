@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666214"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc213.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc213.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
+  - "перевод/машинный"
 ---
 
 # Oil Temperature Sensor Circuit
@@ -34,40 +36,86 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc213.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc213.pdf)
 
-### Fault Code: 213
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Oil Temperature Sensor Circuit
 
-Printable Version
+### Код неисправности: 213
 
-### Overview
+### Цепь датчика температуры масла
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 213 PID(P): P175 SPN: 175 FMI: 4 Lamp: Yellow SRT: | Low voltage detected at the oil temperature signal pin 35 of the engine harness. | No action is taken by the electronic control module (ECM). |
+| Код неисправности: 213 P(P): P175 SPN: 175 ФМИ: 4 лампы: Желтая СТО: | Низкое напряжение, обнаруженное при температуре масла, сигнализирует контакт 35 проводов двигателя. | Электронный модуль управления (ECM) не выполняет никаких действий. |
 
 ![[19802862.png]]
 
-Oil Temperature Sensor Circuit
+Цепь датчика температуры масла
 
-### Circuit Description
+### Описание цепи
 
-The oil temperature sensor monitors oil temperature and passes information to the ECM through the engine harness.
+Датчик температуры масла контролирует температуру масла и передает информацию в ECM через электропроводку двигателя.
 
-### Component Location
+### Расположение компонента
 
-The oil temperature sensor is located in the oil pan on the left side of the engine. The oil temperature sensor is **only** present on engines with CENSE™.
+Датчик температуры масла расположен в масляной панели на левой стороне двигателя. Датчик температуры масла * присутствует только на двигателях с CENSETM.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of the sensor varies with the temperature. Compare the reading you observe to the following table if the sensor is functioning properly.
+Сопротивление датчика изменяется в зависимости от температуры. Сравните показания, которые вы наблюдаете, со следующей таблицей, если датчик работает должным образом.
 
-| Temperature (°C) | Temperature \[°F\] | Resistance (ohms) |
+| Температура (°C) | Температура \[°F\] | Сопротивление (Омс) |
 |---|---|---|
-| 0 | 32 | 30k to 36k |
-| 25 | 77 | 9k to 11k |
-| 50 | 122 | 3k to 4k |
-| 75 | 167 | 1350 to 1500 |
-| 100 | 212 | 600 to 675 |
+| 0 | 32 | 30k до 36k |
+| 25 | 77 | 9k до 11k |
+| 50 | 122 | 3k - 4k |
+| 75 | 167 | 1350—1500 |
+| 100 | 212 | 600-675 |
 
-Refer to Troubleshooting Fault Code t05-213
+См. Код устранения неполадок t05-213
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 213
+>
+> ### Oil Temperature Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 213 PID(P): P175 SPN: 175 FMI: 4 Lamp: Yellow SRT: | Low voltage detected at the oil temperature signal pin 35 of the engine harness. | No action is taken by the electronic control module (ECM). |
+>
+> Oil Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The oil temperature sensor monitors oil temperature and passes information to the ECM through the engine harness.
+>
+> ### Component Location
+>
+> The oil temperature sensor is located in the oil pan on the left side of the engine. The oil temperature sensor is **only** present on engines with CENSE™.
+>
+> ### Shoptalk
+>
+> The resistance of the sensor varies with the temperature. Compare the reading you observe to the following table if the sensor is functioning properly.
+>
+> | Temperature (°C) | Temperature \[°F\] | Resistance (ohms) |
+> |---|---|---|
+> | 0 | 32 | 30k to 36k |
+> | 25 | 77 | 9k to 11k |
+> | 50 | 122 | 3k to 4k |
+> | 75 | 167 | 1350 to 1500 |
+> | 100 | 212 | 600 to 675 |
+>
+> Refer to Troubleshooting Fault Code t05-213

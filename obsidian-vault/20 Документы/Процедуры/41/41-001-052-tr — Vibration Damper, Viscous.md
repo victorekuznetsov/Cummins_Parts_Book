@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666003"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-001-052-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-001-052-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Vibration Damper, Viscous
@@ -34,89 +36,166 @@ tags:
 > **Даты:** изменён 2017-04-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-001-052-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-001-052-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the drive belt. [[100-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
+### Подготовительные операции
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Снимите жгут проводов.[[100-008-002 — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]]
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Remove the six capscrews.
+Удалите шесть болтов.
 
-> [!note] Note · Примечание
-> The crankshaft speed indicator ring is part of the vibration damper assembly and **must not** be removed from the vibration damper.
+> [!note] Примечание
+> Кольцо индикатора скорости коленчатого вала является частью сборки вибродемпфера и **не должно** быть удалено из вибродампфера.
 
-Remove the vibration damper/crankshaft speed indicator ring assembly.
+Удалите вибрационный демпфер/ускоритель коленчатого вала на кольцевой сборке.
 
 ![[01d00606.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use soapy water to clean any oil from the vibration damper/crankshaft speed indicator ring assembly.
+Используйте мыльную воду для очистки любого масла от вибрационного демпфера / узла индикатора скорости коленчатого вала.
 
-Dry the vibration damper/crankshaft speed indicator ring assembly with compressed air.
+Высушить вибрационный демпфер/ускоритель скорости коленчатого вала на кольцевой сборке со сжатым воздухом.
 
 ![[01d00652.png]]
 
-Inspect the crankshaft speed indicator ring for missing teeth, cracks, or damaged surfaces. If any damage is found, the entire vibration damper/crankshaft speed indicator ring assembly **must** be replaced.
+Осмотрите кольцо индикатора скорости коленчатого вала на наличие отсутствующих зубов, трещин или поврежденных поверхностей. Если обнаружено какое-либо повреждение, необходимо заменить всю систему колец индикатора скорости вибрационного демпфера/кранкшафта *.
 
 ![[01d00653.png]]
 
-Check the mounting web for cracks.
+Проверьте монтажную сеть на наличие трещин.
 
-Check the housing for dents or raised surfaces.
+Проверьте кожух на наличие вмятины или поднятых поверхностей.
 
-Replace the damper if damage is found.
+Замените демпфер, если повреждение обнаружено.
 
 ![[da900sd.png]]
 
-> [!note] Note · Примечание
-> The viscous damper is filled with a silicone fluid. After many hours of use, the silicone fluid can become thicker and expand.
+> [!note] Примечание
+> Вязкий демпфер заполнен силиконовой жидкостью. После многих часов использования силиконовая жидкость может стать толще и расширяться.
 
-To determine if the damper thickness is correct, remove the paint from the damper in four locations on either side of the damper.
+Чтобы определить, является ли толщина амортизатора правильной, удалите краску из амортизатора в четырех местах по обе стороны от амортизатора.
 
-Measure and record the thickness of the damper in four places. Measure the thickness at 80.65 mm \[3.175 in\] from the outside of the damper.
+Измерить и зафиксировать толщину амортизатора в четырех местах. Измерьте толщину на 80,65 мм \[3,175 дюйма \] снаружи амортизатора.
 
-Replace the damper if its thickness varies by more than 6.35 mm \[0.25 in\].
+Заменить демпфер, если его толщина изменяется более чем на 6,35 мм \[0,25 дюйма \].
 
 ![[da900tc.png]]
 
-Spray the damper with spot check developer, type SKD-S2, or equivalent.
+Распылите демпфер с разработчиком проверки спота, типом SKD-S2 или эквивалентом.
 
 ![[da800se.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
-> Align the vibration damper/crankshaft speed indicator ring assembly with the index pin located on the nose of the crankshaft.
+> [!note] Примечание
+> Выровнять вибрационный демпфер/узел индикатора скорости коленчатого вала с указательным штифтом, расположенным на носу коленчатого вала.
 
-Lubricate the capscrews with clean engine oil.
+Смазать болты чистым моторным маслом.
 
-Install the vibration damper/crankshaft speed indicator ring assembly.
+Установите вибрационный демпфер/ускоритель скорости коленчатого вала на кольцевой сборке.
 
 ![[01d00606.png]]
 
-Tighten the six vibration damper capscrews in a criss-cross pattern.
+Затяните шесть болтов вибрационного демпфера в рисунке крест-накрест.
 
-Torque Value:
+Момент затяжки:
 
 ![[01d00607.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Install the drive belt. [[100-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine and check for noise and proper operation.
+- Установите приводной ремень.[[100-008-002 — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]]
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем и проверяйте шум и правильную работу.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the drive belt. [[100-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
+>
+> ### Remove
+>
+> Remove the six capscrews.
+>
+> **Note · Примечание**
+> The crankshaft speed indicator ring is part of the vibration damper assembly and **must not** be removed from the vibration damper.
+>
+> Remove the vibration damper/crankshaft speed indicator ring assembly.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use soapy water to clean any oil from the vibration damper/crankshaft speed indicator ring assembly.
+>
+> Dry the vibration damper/crankshaft speed indicator ring assembly with compressed air.
+>
+> Inspect the crankshaft speed indicator ring for missing teeth, cracks, or damaged surfaces. If any damage is found, the entire vibration damper/crankshaft speed indicator ring assembly **must** be replaced.
+>
+> Check the mounting web for cracks.
+>
+> Check the housing for dents or raised surfaces.
+>
+> Replace the damper if damage is found.
+>
+> **Note · Примечание**
+> The viscous damper is filled with a silicone fluid. After many hours of use, the silicone fluid can become thicker and expand.
+>
+> To determine if the damper thickness is correct, remove the paint from the damper in four locations on either side of the damper.
+>
+> Measure and record the thickness of the damper in four places. Measure the thickness at 80.65 mm \[3.175 in\] from the outside of the damper.
+>
+> Replace the damper if its thickness varies by more than 6.35 mm \[0.25 in\].
+>
+> Spray the damper with spot check developer, type SKD-S2, or equivalent.
+>
+> ### Install
+>
+> **Note · Примечание**
+> Align the vibration damper/crankshaft speed indicator ring assembly with the index pin located on the nose of the crankshaft.
+>
+> Lubricate the capscrews with clean engine oil.
+>
+> Install the vibration damper/crankshaft speed indicator ring assembly.
+>
+> Tighten the six vibration damper capscrews in a criss-cross pattern.
+>
+> Torque Value:
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the drive belt. [[100-008-002 — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section 8.]]
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine and check for noise and proper operation.

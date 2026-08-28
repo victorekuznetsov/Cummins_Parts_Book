@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-014-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-014-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Air Compressor
@@ -34,31 +36,64 @@ tags:
 > **Даты:** изменён 2010-11-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-014-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-014-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Single Cylinder
 
-Remove the air inlet and outlet connections from the air compressor.
+### Снятие
+
+Одиночный цилиндр
+
+Удалите впускное и выходное соединения воздуха из воздушного компрессора.
 
 ![[cp4coma.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lbs\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Этот компонент или сборка весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the air connections from the air compressor.
+Удалите воздушные соединения из воздушного компрессора.
 
-Remove the air compressor support bracket and capscrews.
+Снимите воздушный компрессор с опорной кронштейна и болтов.
 
-Remove the four capscrews, the air compressor, and splined coupling.
+Удалите четыре болта, воздушный компрессор и опресненную связь.
 
 ![[cp8comc.png]]
 
-Twin Cylinder
+Двойной цилиндр
 
-Remove the air compressor support mounting capscrews (5).
+Удалите воздушные компрессоры, поддерживающие крепежные болты (5).
 
-Remove the four capscrews (6). Remove the air compressor. Remove the splined coupling (1). Remove and discard the gasket.
+Удалите четыре болта (6). Удалите воздушный компрессор. Удалить сплинированную связь (1). Снимите и утилизируйте прокладку.
 
-It a two-piece bracket is used, remove the bolts and nuts securing the brackets together. Remove the bracket from the compressor and the bracket from the block.
+Используется двухсекционный кронштейн, снимают болты и гайки, крепящие кронштейны вместе. Удалите кронштейн из компрессора и кронштейн из блока.
 
 ![[cp400he.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Single Cylinder
+>
+> Remove the air inlet and outlet connections from the air compressor.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lbs\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the air connections from the air compressor.
+>
+> Remove the air compressor support bracket and capscrews.
+>
+> Remove the four capscrews, the air compressor, and splined coupling.
+>
+> Twin Cylinder
+>
+> Remove the air compressor support mounting capscrews (5).
+>
+> Remove the four capscrews (6). Remove the air compressor. Remove the splined coupling (1). Remove and discard the gasket.
+>
+> It a two-piece bracket is used, remove the bolts and nuts securing the brackets together. Remove the bracket from the compressor and the bracket from the block.

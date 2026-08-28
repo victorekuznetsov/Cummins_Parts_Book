@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-013-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-013-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Housing
@@ -34,37 +36,70 @@ tags:
 > **Даты:** изменён 2013-06-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-013-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-013-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-Use the water tube driver, Part Number ST-1319 (20), or equivalent, to drive the water transfer tube toward the front of the engine until the back part of the water transfer tube clears the rocker lever housing.
+### Снятие
+
+с форсункой механического управления
+
+Используйте драйвер водяной трубки, часть номер ST-1319 (20), или эквивалент, чтобы вести водопроводную трубку к передней части двигателя, пока задняя часть водопроводной трубки не очистит корпус рычага качения клапана.
 
 ![[wm4tbma.png]]
 
-Remove the seven mounting capscrews and the rocker lever housing.
+Снимите семь крепежных болтов и корпус рычага качения клапанного клапана.
 
 ![[rh4hsma.png]]
 
-Remove and discard rocker lever housing gasket.
+Удалить и выбросить клапанный клапан коромысла рукавной прокладки.
 
 ![[rh4hsmb.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Use the water tube driver, Part Number ST-1319 (20), and a hammer to drive the water transfer tube toward the front of the engine until the back part of the water transfer tube clears the rocker lever housing.
+Используйте драйвер водяной трубки, часть номер ST-1319 (20) и молоток, чтобы вести водопроводную трубку к передней части двигателя, пока задняя часть водопроводной трубки не очистит корпус рычага качения клапана.
 
 ![[wm4tbma.png]]
 
-Remove the six mounting capscrews, plain washers, and the rocker lever housing.
+Удалите шесть крепежных болтов, простые шайбы и корпус рычага качения клапанного клапана.
 
-> [!note] Note · Примечание
-> Note the placement of the single shorter capscrew (1).
+> [!note] Примечание
+> Обратите внимание на размещение одиночных более коротких болтов (1).
 
-All rocker lever housings are **not** the same. Tag or mark the parts with their respective locations relative to cylinder number to aid during assembly.
+Все корпуса клапанных качалок для качения **не** одинаковы. Нанесите на детали или пометьте их соответствующими местоположениями относительно числа цилиндров, чтобы помочь во время сборки.
 
 ![[03600149.png]]
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[rh4hsmb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Use the water tube driver, Part Number ST-1319 (20), or equivalent, to drive the water transfer tube toward the front of the engine until the back part of the water transfer tube clears the rocker lever housing.
+>
+> Remove the seven mounting capscrews and the rocker lever housing.
+>
+> Remove and discard rocker lever housing gasket.
+>
+> with Electronically Actuated Injector
+>
+> Use the water tube driver, Part Number ST-1319 (20), and a hammer to drive the water transfer tube toward the front of the engine until the back part of the water transfer tube clears the rocker lever housing.
+>
+> Remove the six mounting capscrews, plain washers, and the rocker lever housing.
+>
+> **Note · Примечание**
+> Note the placement of the single shorter capscrew (1).
+>
+> All rocker lever housings are **not** the same. Tag or mark the parts with their respective locations relative to cylinder number to aid during assembly.
+>
+> Remove and discard the gasket.

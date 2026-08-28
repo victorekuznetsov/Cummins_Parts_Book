@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc2185.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc2185.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Sensor Supply 4 Circuit - Voltage Above Normal or Shorted to High Source
@@ -34,58 +36,122 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc2185.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc2185.pdf)
 
-### Fault Code: 2185
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Sensor Supply 4 Circuit - Voltage Above Normal or Shorted to High Source
 
-Printable Version
+### Код неисправности: 2185
 
-### Overview
+### Цепь питания датчиков 4 — напряжение выше нормы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 2185 PID(P): S232 SPN: 3512 FMI: 3/3 Lamp: Amber SRT: | High voltage detected at sensor supply 4 circuit. | Possible reduced engine performance, shutdown or loss of engine protection. |
+| Код неисправности: 2185 PID(P): S232 SPN: 3512 FMI: 3/3 лампы: Янтарная СРТ: | Высокое напряжение, обнаруженное на цепи питания 4 датчика. | Возможные снижение производительности двигателя, выключение или потеря защиты двигателя. |
 
 ![[19a00875.png]]
 
-Sensor Supply 4 Circuit
+Сенсорная схема поставки 4
 
-### Circuit Description
+### Описание цепи
 
-The sensor supply circuits of the engine control module (ECM) provides a 5 volt supply to various sensors on the engine wiring harness.
+Схемы подачи датчика модуля управления двигателем (ECM) обеспечивают подачу 5 вольт на различные датчики на ремне электропроводки двигателя.
 
-### Component Location
+### Расположение компонента
 
-The sensor supply 4 circuit is located in the engine wiring harness.
+Схема подачи 4 датчика расположена в жгуте проводов двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+Эта диагностика выполняется постоянно, пока контроллер генераторной установки активен или двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the sensor supply 4 signal voltage was out of range high.
+Модуль управления двигателем (ECM) обнаружил, что напряжение 4 сигнала датчика было вне диапазона.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-- A default value for Sensor Supply 4 voltage is used.
+- Используется значение по умолчанию для напряжения Sensor Supply 4.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when Cummins® electronic service tool or equivalent is connected. When troubleshooting a fault code, use the source address displayed in Cummins® electronic service tool or equivalent to determine which ECM and circuit is affected.
+У моделей двигателей, охваченных этим руководством, несколько электронных блоков управления. Каждый ECM имеет индивидуальный адрес источника, который отображается при подключении электронного инструментария или эквивалента Cummins®. При устранении неисправности кода используйте адрес источника, отображаемый в инструменте электронного обслуживания Cummins® или эквивалент, чтобы определить, какая ECM и схема затронута.
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-Refer to Troubleshooting Fault Code 2185.
+См. код 2185 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 2185
+>
+> ### Sensor Supply 4 Circuit - Voltage Above Normal or Shorted to High Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 2185 PID(P): S232 SPN: 3512 FMI: 3/3 Lamp: Amber SRT: | High voltage detected at sensor supply 4 circuit. | Possible reduced engine performance, shutdown or loss of engine protection. |
+>
+> Sensor Supply 4 Circuit
+>
+> ### Circuit Description
+>
+> The sensor supply circuits of the engine control module (ECM) provides a 5 volt supply to various sensors on the engine wiring harness.
+>
+> ### Component Location
+>
+> The sensor supply 4 circuit is located in the engine wiring harness.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the sensor supply 4 signal voltage was out of range high.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> - A default value for Sensor Supply 4 voltage is used.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when Cummins® electronic service tool or equivalent is connected. When troubleshooting a fault code, use the source address displayed in Cummins® electronic service tool or equivalent to determine which ECM and circuit is affected.
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> Refer to Troubleshooting Fault Code 2185.

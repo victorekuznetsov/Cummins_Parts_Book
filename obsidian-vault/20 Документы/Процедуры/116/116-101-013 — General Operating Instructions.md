@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021617"
 figures: 111
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-101-013.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-101-013.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # General Operating Instructions
@@ -34,1296 +36,2378 @@ tags:
 > **Даты:** изменён 2009-04-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-101-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-101-013.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The C Command Elite™ and C Command Elite Plus™ is the premium version of the customer interface box (CIB).
 
-- The CIB is a common point for engine and vessel connections.
-- The CIB provides connections to the ECM through Deutsch™ connectors at the bottom of the CIB panel.
-- Communication protocols are opened through SAE J1939 Ethernet and Modbus™ connections. This communication allows for accurate updates of engine statistics.
-- No engine room panel (ERP) is required because the CIB functions as a local control panel.
-- Supports all C Command™, C Command Elite™, and C Command Elite Plus™ remote options.
-- Full color displays on the diesel control unit (DCU410) and remote panel (RP).
-- Remote panel touch screens capable of monitoring up to 8 engines.
-- Capable of integrating 6 vessel supplied inputs.
-- The C Command Elite™ and C Command Elite Plus™ panel systems support feature meets Marine Society requirements for Class approvals.
-- The DCU410 includes modules for safety and alarm system requirements.
-- Includes sensors, switches, and harnesses to meet Type Approved requirements. Additional vessel inputs available to meet requirements are **not** yet supported.
+### Общие сведения
 
-The combination of these features provides a very flexible and stable platform for engine control and diagnostics.
+C Command EliteTM и C Command Elite PlusTM являются премиальной версией клиентского интерфейса (CIB).
 
-Customer Interface Box
+- CIB является общей точкой для соединений двигателя и судна.
+- CIB обеспечивает подключение к ECM через разъемы DeutschTM в нижней части панели CIB.
+- Протоколы связи открываются через соединения SAE J1939 Ethernet и ModbusTM. Эта связь позволяет точно обновлять статистику двигателя.
+- Панель машинного отделения (ERP) не требуется, поскольку CIB функционирует как локальная панель управления.
+- Поддерживает все опции удаленного доступа C CommandTM, C Command EliteTM и C Command Elite PlusTM.
+- Полноцветные дисплеи на блоке управления дизельным двигателем (DCU410) и удаленной панели (RP).
+- Дистанционные панельные сенсорные экраны способны контролировать до 8 двигателей.
+- Способен интегрировать 6 судов, поставляемых входами.
+- Функция поддержки панелей C Command EliteTM и C Command Elite PlusTM отвечает требованиям Морского общества для получения разрешений класса.
+- DCU410 включает в себя модули для обеспечения безопасности и требований к сигнализации.
+- Включает датчики, переключатели и проводные ремни для удовлетворения утвержденных типовых требований. Дополнительные входные данные судна, доступные для удовлетворения потребностей, еще не поддерживаются.
 
-Isolators are required for the installation of the CIB panel. Engine mounted panels are **not** required.
+Сочетание этих функций обеспечивает очень гибкую и стабильную платформу для управления двигателем и диагностики.
 
-The CIB contains the most basic functions which are required by all system configurations. Most functions in the CIB are performed by the CIB integrated DCU410 control panel and the CIB logic unit (CLU). The DCU410 is a microprocessor controlled unit that performs the extended functions of the C Command Elite™ and C Command Elite Plus™ panel systems. The CLU contains relays, diodes, resistors, switches, microcontroller, and power management capabilities.
+Интерфейсная коробка заказчика
 
-The CIB is a mandatory option that is delivered with every engine, and is designed to function when connected to the vessel, whether or **not** a Cummins Inc. provided remote panel is supplied.
+Для установки панели CIB требуются изоляторы. Панели, установленные на двигателе, не требуются.
 
-The CIB is capable of accepting power from two independent power supplies, but **only** one is required for normal operation. The second power supply is intended to be a backup for the primary power supply in the event of a primary power supply malfunction or to fulfill marine society requirements in the case of C Command Elite Plus™. The CLU automatically switches between the primary and secondary power supplies with any primary malfunction. In addition to the power supply switching, the CIB also conditions and distributes the power received by the vessel power supply. It is capable of detecting under-voltage, over-voltage, under current, over-current, and reverse current for each of the vessel power inputs.
+CIB содержит основные функции, которые требуются для всех конфигураций системы. Большинство функций в CIB выполняются интегрированной панелью управления DCU410 и логическим блоком CIB (CLU). DCU410 представляет собой микропроцессорный управляемый блок, который выполняет расширенные функции систем панели C Command EliteTM и C Command Elite PlusTM. CLU содержит реле, диоды, резисторы, переключатели, микроконтроллер и возможности управления питанием.
 
-> [!warning] CAUTION · Осторожно
-> The CIB is not protected from AC power sources. Damage can occur if AC power is applied to the CIB.
+CIB является обязательным вариантом, который поставляется с каждым двигателем и предназначен для работы при подключении к судну, независимо от того, является ли Cummins Inc. или нет. Предоставляется удаленная панель.
 
-The primary and secondary power supplies are also isolated from each other in the circuitry of the CIB. This makes sure there is protection from ground faults and galvanic issues. The CIB power management system is designed to supply power for **only** Cummins Inc. supplied devices. Vessel connections are primary connected to the X4 terminal strip inside the CIB.
+CIB способен принимать энергию от двух независимых источников питания, но для нормальной работы требуется только один. Второй источник питания предназначен для резервного питания первичного источника питания в случае неисправности первичного источника питания или для выполнения требований морского общества в случае C Command Elite PlusTM. CLU автоматически переключается между первичным и вторичным источниками питания с любой первичной неисправностью. Помимо переключения питания, CIB также вырабатывает и распределяет мощность, получаемую от судового питания. Он способен обнаруживать пониженное напряжение, избыточное напряжение, ток, избыточный ток и обратный ток для каждого входа мощности судна.
 
-The C Command Elite Plus™ panel system requires both power supplies to be connected.
+> [!warning] ОСТОРОЖНО
+> CIB не защищен от источников питания переменного тока. Повреждение может произойти, если к CIB применяется питание переменного тока.
 
-The Ethernet switch is included in the CIB for remote panel and vessel networking connections.
+Первичные и вторичные источники питания также изолированы друг от друга в схеме CIB. Это гарантирует защиту от наземных разломов и гальванических проблем. Система управления питанием CIB предназначена для подачи электроэнергии только для Cummins Inc. поставляемых устройств. Соединения судов первично соединены с концевой полосой X4 внутри CIB.
 
-Cummins Inc. supplies the sensors and connections for the C Command Elite Plus™ panel system.
+Панельная система C Command Elite PlusTM требует подключения обоих источников питания.
 
-The CIB is connected to the engines ECM through Deutsch™ connectors C8, C9, C10, and data link.
+Коммутатор Ethernet включен в CIB для удаленных сетевых соединений с панелью и сосудом.
 
-> [!note] Note · Примечание
-> Power for customer supplied devices is **not** allowed to be connected to the CIB vessel terminal strip.
+Cummins Inc. Поставляет датчики и соединения для панели системы C Command Elite PlusTM.
 
-The connections are as follows:
+CIB подключается к двигателям ECM через разъемы DeutschTM C8, C9, C10 и шину данных CAN.
 
-- ECM unswitched power
-- ECM switched power
-- J1939 data link
-- Diagnostic lamp outputs
-- Analog outputs (speed, pressure, and temperature)
-- Speed control
-- Idle control
-- Remote sensors.
+> [!note] Примечание
+> Мощность для устройств, поставляемых заказчиком, не допускается подключение к терминальной полосе судна CIB.
 
-Diesel Control Unit
+Связи заключаются в следующем:
+
+- ECM непереключенная мощность
+- ECM переключает питание
+- J1939 - канальная шина данных
+- Диагностические лампы
+- Аналоговые выходы (скорость, давление и температура)
+- Контроль скорости
+- Контроль холостого хода
+- Дистанционные датчики.
+
+Дизельный блок управления
 
 ![[15400076.png]]
 
 CIB Integrated Control Panel Diesel Control Unit (DCU)
 
-All control and monitoring can be achieved at the DCU full-color display on the CIB. No separate Engine Room Panel is necessary or provided. See the illustration for a close-up of the DCU unit.
+Все управление и мониторинг могут быть достигнуты на полноцветном дисплее DCU на CIB. Отдельная панель машинного отделения не требуется и не предоставляется. Посмотрите на иллюстрацию для крупного плана подразделения DCU.
 
-The DCU communicates with the ECM via the J1939 bus to the ECM. This display allows the operator to view a selection of parameters as well as full text descriptions of ECM fault codes. The C Command™ ED-3 (if equipped) **must** be configured as described for C Command™ parameters if connected to the C Command Elite™ and C Command Elite Plus™ system. Engine command and monitoring is controlled via both hard and soft keys located on the DCU unit display.
+DCU связывается с ECM через автобус J1939 с ECM. Этот дисплей позволяет оператору просматривать выбор параметров, а также полнотекстовые описания кодов неисправностей ECM. Командный модуль C CommandTM ED-3 (при наличии оборудования) должен быть сконфигурирован так, как описано для параметров C CommandTM, если он подключен к системе C Command EliteTM и C Command Elite PlusTM. Управление и мониторинг двигателя осуществляется как жесткими, так и мягкими клавишами, расположенными на дисплее блока DCU.
 
-The DCU outputs all signals to the CIB Ethernet switch, the Ethernet output is then routed to any Remote Panels that are present on the vessel. Each DCU will be assigned an Engine Number (IP) for recognition on the vessel network. The configuration of this number will be requested the first time the DCU is powered up. This number can also be changed from the DCU main menu, if necessary. In addition, with the use of the web-based configuration interface, the DCU can also be assigned a text name.
+DCU выводит все сигналы на коммутатор CIB Ethernet, затем вывод Ethernet направляется на любые удаленные панели, которые присутствуют на сосуде. Каждому DCU будет присвоен номер двигателя (IP) для распознавания в сети судна. Конфигурация этого номера будет запрошена при первом включении DCU. При необходимости этот номер также можно изменить из главного меню DCU. Кроме того, с использованием веб-интерфейса конфигурации DCU также может быть присвоено текстовое имя.
 
-Any additional inputs from the vessel need to be configured at the DCU unit. The DCU unit controls what is displayed on the remote panel screens.
+Любые дополнительные входы с судна должны быть настроены на блоке DCU. Блок DCU управляет тем, что отображается на экранах удаленных панелей.
 
-Shutdown Unit
+Отряд отключения
 
 ![[15400076.png]]
 
-CIB Integrated Control Panel Remote Input/Output Unit (RIO)
+CIB Integrated Control Panel Remote Input/Output Unit (RIO) (недоступная ссылка)
 
-The SDU unit is an independent component within the CIB.
+Единица SDU является независимым компонентом в рамках CIB.
 
-There are LED indicators on the unit face for status and fault codes.
+На устройстве есть светодиодные индикаторы для кодов состояния и ошибок.
 
-Switch conditions are available on remote panels as well as on Modbus™ and data link. The Reset button on the unit face acknowledges faults and enables shutdown functionality.
+Условия коммутации доступны на удаленных панелях, а также на шине данных ModbusTM и CAN. Кнопка сброса на лице устройства распознает ошибки и позволяет отключить функциональность.
 
-The Safety System requirement from the marine agencies is met with the use of the Shutdown Unit (SDU). The SDU provides secondary engine protection by shutting down the engine if any critical parameters are exceeded. With the exception of engine speed, these signals are provided to the SDU as switch closures based on the exceeded condition.
+Требования к системе безопасности от морских агентств выполняются с использованием блока отключения (SDU). SDU обеспечивает дополнительную защиту двигателя, выключая двигатель, если превышены критические параметры. За исключением скорости двигателя, эти сигналы подаются в SDU в качестве замыканий переключателей на основе превышения состояния.
 
-The SDU has five (5) Cummins® dedicated channels for Safety System shutdown use. An additional three (3) other switch inputs are provided for vessel initiated shutdowns.
+SDU имеет пять (5) выделенных каналов Cummins® для использования системы безопасности. Для инициированных остановок судна предусмотрены дополнительные три (3) других входа переключателя.
 
-The SDU communicates system faults through the use of amber LEDs for individual input channels. Red LEDs are used to communicate a parameter has been exceeded and an in-process engine shutdown. A Shutdown Override function is available on the SDU. This function disables all engine protections provided by the SDU, with the exception of Engine Overspeed protection. The SDU may be configured so that other protections will continue to be enabled when the Shutdown Override function is in use.
+SDU сообщает системные сбои с помощью янтарных светодиодов для отдельных каналов ввода. Красные светодиоды используются для передачи превышения параметра и отключения двигателя в процессе. Функция Shutdown Override доступна в SDU. Эта функция отключает все защиты двигателя, предоставляемые SDU, за исключением защиты от превышения скорости двигателя. SDU может быть настроен так, что другие средства защиты будут продолжать включаться при использовании функции переключения отключения.
 
-A Reset function is included as part of the SDU as well. In the event of a SDU based shutdown, the SDU **must** be reset in order to allow for engine re-start. This function can be utilized by the Reset button located on the SDU front face.
+Функция сброса также включена в состав SDU. В случае остановки на основе SDU, SDU * должен быть сброшен, чтобы позволить повторное запуск двигателя. Эта функция может быть использована кнопкой сброса, расположенной на передней панели SDU.
 
-All QSK Series engines with MCRS are equipped with the same sensors/switches for the Safety System. The following table is a description of the SDU channels and their function.
+Все двигатели серии QSK с MCRS оснащены одинаковыми датчиками/переключателями для системы безопасности. В следующей таблице приведено описание каналов SDU и их функции.
 
-| SDU Channel Descriptions |  |  |
+| Описание канала SDU |  |  |
 |---|---|---|
-| Quantity | Type | Description |
-| 2 | Speed Sensor | Overspeed Speed Range for Switches |
-| 5 | Switch Input (normally open) | Cummins Dedicated Shutdowns: Coolant Temperature, Coolant Pressure, Lubricating Oil Pressure (low-speed range), Lubricating oil Pressure (high-speed range), Remote Engine Stop |
-| 3 | Switch (normally open) | Additional Vessel Shutdowns |
-| 2 | Switch (normally open) | Shutdown Override Contact Reset Button |
-| Note: Three (3) shutdown input channels are available. |  |  |
+| Количество | Тип | Наименование |
+| 2 | Датчик частоты вращения | Overspeed Speed Range для коммутаторов |
+| 5 | Ввод коммутатора (обычно открытый) | Cummins выделяют отключения: Температура охлаждающей жидкости, давление охлаждающей жидкости, давление моторного масла (диапазон низких скоростей), давление моторного масла (диапазон высоких скоростей), остановка дистанционного двигателя |
+| 3 | Коммутатор (обычно открытый) | Дополнительные отключения судов |
+| 2 | Коммутатор (обычно открытый) | Отключение Override Contact Reset Button |
+| Примечание: Доступны три (3) канала ввода выключения. |  |  |
 
-Remote Input/Output Unit
+Удаленная ввод/вывод единицы
 
 ![[15400078.png]]
 
-The Remote Input Output Unit (RIO) is an analog-to-digital converter for alarm sensors. This unit is contained within the CIB and allows for the integration of alarm sensor inputs into the panel system. The RIO broadcasts analog input signals from on-engine alarm sensors and any additional vessel alarms sensor via Modbus™, which can then be read by the DCU.
+Удаленный блок ввода-вывода (RIO) является аналого-цифровым преобразователем для датчиков тревоги. Этот блок содержится в CIB и позволяет интегрировать в панельную систему входы датчика тревоги. RIO передает аналоговые входные сигналы от датчиков сигнализации на двигателе и любого дополнительного датчика сигнализации судна через ModbusTM, который затем может быть считан DCU.
 
-> [!note] Note · Примечание
-> The information from the sensors connected to this unit is **only** available on the Ethernet, Modbus™, or CANOpen interfaces. They can **not** be viewed with a Calterm or INSITE™ electronic service tool.
+> [!note] Примечание
+> Информация от датчиков, подключенных к этому устройству, доступна только в интерфейсах Ethernet, Modbus или CANOpen. Их можно **не** просматривать с помощью инструментария для электронных услуг Calterm или INSITETM.
 
-The required Alarm and Monitoring system sensors to meet Marine Society classifications from Cummins are wired directly from the CIB connector C4 to the RIO. Additional RIO channels are made available at the RIO for vessel supplied sensors that may be required to meet Marine Society requirements **not** covered by the C Command Elite Plus™ system. A list of the Cummins® dedicated channels, per engine type, and the channels available for vessel use are outlined in the Cummins® Dedicated Alarm and Monitoring System Channels table.
+Требуемые датчики системы сигнализации и мониторинга для соответствия классификациям Морского общества от Cummins подключены непосредственно от разъема CIB C4 к RIO. Дополнительные каналы RIO доступны в RIO для датчиков, которые могут потребоваться для удовлетворения требований Морского общества, не охватываемых системой C Command Elite PlusTM. Список выделенных каналов Cummins® для каждого типа двигателя и каналов, доступных для использования на судне, приведен в таблице каналов Cummins® Dedicated Alarm and Monitoring System Channels.
 
-The connections required for the RIO additional channels for the vessel **must** be made at the RIO directly. The terminal numbers for each vessel channel can be found on the C Command Elite Plus™ Marine Wiring Diagram. These channels can be configured from either the DCU Configuration Menu or the web-browser based interface. From there, channels can be activated, sensor ranges/switch conditions can be set, and alarm thresholds can be defined.
+Соединения, необходимые для дополнительных каналов RIO для судна, должны быть сделаны непосредственно в RIO. Номера терминалов для каждого канала судна можно найти в C Command Elite PlusTM Marine Wiring Diagram. Эти каналы могут быть настроены либо из меню конфигурации DCU, либо из интерфейса на основе веб-браузера. Оттуда можно активировать каналы, установить диапазоны датчиков/переключатели и определить пороги сигнализации.
 
-| Cummins® Dedicated Alarm and Monitoring System Channels |  |  |  |
+| Cummins® - выделенные каналы системы сигнализации и мониторинга |  |  |  |
 |---|---|---|---|
-|  | Engine Source |  |  |
-| Description | QSK19 | QSK38 | QSK50/QSK60 |
-| Fuel Leakage (normally closed) | R | R | R |
-| Intake Manifold Temperature (left back front on KV engine) | E | E | E |
-| Left Bank Rear Intake Manifold Temperature (KV engines **only**) |  | R | E |
-| Right Bank Front Intake Manifold Temperature (KV engines **only**) |  | R | E |
-| Right Bank Rear Intake Manifold Temperature (KV engines **only**) |  | R | E |
-| Spare Temperature (e.g., Gear Oil Temperature) | R | R | R |
-| Coolant Pressure | R | R | E |
-| Lubricating Oil Filter Inlet Pressure | R | R | E |
-| Sea Water Pressure | R | R | R |
-| Spare Pressure (e.g., Air Starter) | R | R | R |
-| LEGEND: R = RIO Monitored, E = ECM Monitored |  |  |  |
+|  | Источник: Engine Source |  |  |
+| Наименование | QSK19 | QSK38 | QSK50/QSK60 |
+| Утечка топлива (обычно закрыта) | R | R | R |
+| Температура впускного коллектора (слева спереди на двигателе KV) | Е | Е | Е |
+| Температура заднего входа левого берега (двигатели KV **только**) |  | R | Е |
+| Температура впуска коллектора Right Bank Front (двигатели KV **только**) |  | R | Е |
+| Температура заднего входа в правый берег (двигатели KV **только**) |  | R | Е |
+| Температура запаса (например, температура масла груши) | R | R | R |
+| Охлаждающее давление | R | R | Е |
+| Фильтр моторного масла впускное давление | R | R | Е |
+| давление морской воды | R | R | R |
+| Запасное давление (например, Air Starter) | R | R | R |
+| Легенда: R = RIO Monitored, E = ECM Monitored |  |  |  |
 
-| Additional Alarm and Monitoring System Channels for Vessel Supplied Sensors |  |  |  |
+| Дополнительные каналы сигнализации и системы мониторинга для датчиков, поставляемых на судно |  |  |  |
 |---|---|---|---|
-|  | Engine Source |  |  |
-| Description | QSK19 | QSK38 | QSK50/QSK60 |
-| Three (3) Temperature Channels | R | R | R |
-| Five (5) Pressure Channels | R | R | R |
-| One (1) Coolant Level Channel | R | R | R |
-| Two (2) Exhaust Temperature Channels | R | R | R |
-| Three (3) Switch Inputs (normally open) | R | R | R |
-| Two (2) Relay Outputs | R | R | R |
-| Two (2) Switch Outputs | R | R | R |
-| LEGEND: R = RIO Monitored, E = ECM Monitored |  |  |  |
+|  | Источник: Engine Source |  |  |
+| Наименование | QSK19 | QSK38 | QSK50/QSK60 |
+| 3 (три) температурных канала | R | R | R |
+| 5 (пять) каналов давления | R | R | R |
+| 1 (один) канал уровня охлаждения | R | R | R |
+| 2 (два) выхлопных температурных канала | R | R | R |
+| Три (3) входа коммутатора (обычно открытые) | R | R | R |
+| 2 (два) выходных реле | R | R | R |
+| 2 (два) выходных сигнала | R | R | R |
+| Легенда: R = RIO Monitored, E = ECM Monitored |  |  |  |
 
-| RIO Channel Descriptions |  |  |
+| Описание канала RIO |  |  |
 |---|---|---|
-| Quantity | Type | Description |
-| 4 | Switch Input | 24-VDC Configurable NO/NC Switch Input |
-| 8 | PT100 | Temperature Sensor Input |
-| 9 | 4-20 mA | Pressure Sensor Input |
-| 1 | 0-5 VDC | Coolant Level Sensor Input (Ratiometric) |
-| 2 | Type K | Thermocouple Input |
-| 2 | Relay Output | Configurable Relay Switch Output |
-| 2 | Switch Output | 24-VDC Configurable NO/NC Switch Output |
+| Количество | Тип | Наименование |
+| 4 | Ввод коммутатора | 24-VDC конфигурируемый NO/NC Switch ввод |
+| 8 | PT100 | Ввод датчика температуры |
+| 9 | 4-20 мА | Давление Давление Давление Ввод |
+| 1 | 0-5 VDC | Датчик уровня охлаждения (Ratiometric) |
+| 2 | Тип K | Ввод термопары |
+| 2 | Relay Output | Конфигурируемый Relay Switch Output |
+| 2 | Выключатель Output | 24-VDC конфигурируемый NO/NC выключатель |
 
-Remote Panel
+Дистанционный пульт
 
-The remote panel **must** be mounted in a protected enclosure or console. The remote panel installation kit includes all hardware and seals.
+Удалённая панель должна быть установлена в защищенном корпусе или консоли. Набор для установки удаленной панели включает в себя все аппаратное обеспечение и уплотнения.
 
-The remote panel (RP) is the main engine display available on the C Command Elite™ and C Command Elite Plus™ panel systems. Alarms are displayed as on the DCU410 unit and include a full text description of the alarm or fault. The remote panel includes all of the functionality available at the DCU410 unit, including engine start and stop.
+Удалённая панель (RP) является основным дисплеем двигателя, доступным на панелях C Command EliteTM и C Command Elite PlusTM. Сигналы тревоги отображаются как на блоке DCU410 и включают в себя полное текстовое описание сигнализации или неисправности. Удалённая панель включает в себя все функции, доступные на блоке DCU410, включая запуск и остановку двигателя.
 
-Remote Panel Features:
+Дистанционные панели Особенности:
 
-- Automatically scans for connected engines (DCUs)
-- Up to 8 DCUs may be connected to one RP via Ethernet network
-- Displays engine parameters as displayed on each DCU (Content dependent on DCU)
-- Capability to Start and Stop multiple engines from a single RP
-- Capability to display Alarm status for multiple engines from a single RP
-- Displays service interval timer, as on DCU
-- Alarm broadcasting to the RP may be disabled (in the case of a manned engine room).
+- Автоматическое сканирование подключенных двигателей (DCU)
+- До 8 DCU могут быть подключены к одной RP через сеть Ethernet.
+- Отображает параметры двигателя, отображаемые на каждом DCU (контент, зависящий от DCU)
+- Возможность запуска и остановки нескольких двигателей из одной RP
+- Возможность отображения состояния сигнализации для нескольких двигателей из одной RP
+- Отображает интервальный таймер обслуживания, как на DCU
+- Сигнализация, передаваемая в РП, может быть отключена (в случае пилотируемого машинного отделения).
 
-Like the DCU, the functions of the RP are accessed with a combination of Hard and Soft Keys. The difference is that the RP has a touch screen interface, so rather than pressing buttons below a Soft option, the operator **must** press the function text directly. The Hard keys function in the same manner as the DCU, with **only** one difference. A Home Hard key has been added to ease navigation through the touch screen pages. Also like the DCU, RP **must** be assigned an IP number in order to properly be recognized by the vessel network. This unique IP number will allow for several RPs to be installed on a vessel network without conflict. Additionally, each RP can be assigned a station name to more easily distinguish the location of each RP and which station is in present control. The remote panel can be used to view the status of any of the engines that it has been set up to monitor, without any interaction with other remote panels in the vessel network. To perform control functions, the remote panel **must** be in Active Station Mode.
+Как и DCU, функции RP доступны с комбинацией жестких и мягких клавиш. Разница в том, что RP имеет интерфейс сенсорного экрана, поэтому вместо нажатия кнопок ниже опции Soft оператор **должен **нажать на текст функции напрямую. Жесткие клавиши функционируют так же, как и DCU, с **только одним отличием. Для облегчения навигации по страницам сенсорного экрана был добавлен ключ Home Hard. Также, как и DCU, RP** должен быть присвоен IP-номер, чтобы его правильно распознавала сеть судна. Этот уникальный IP-номер позволит устанавливать несколько RP-систем на судоходную сеть без конфликтов. Кроме того, каждому RP может быть присвоено название станции, чтобы легче различать местоположение каждого RP и какую станцию в настоящее время контролируют. Удалённая панель может использоваться для просмотра состояния любого из двигателей, которые она была настроена для мониторинга, без какого-либо взаимодействия с другими удалёнными панелями в сети судна. Для выполнения функций управления удаленная панель должна быть в режиме активной станции.
 
 ![[15400079.png]]
 
-The remote panel can be assigned a panel location. The panel location is selected from a list in the remote panel system configuration menu. The location will be shown in the upper right hand corner of the display to denote which location is the active station. The following are remote panel locations:
+Удалённой панели может быть присвоено место расположения панели. Расположение панели выбирается из списка в меню конфигурации удаленной системы панели. Местоположение будет показано в верхнем правом углу дисплея, чтобы обозначить, какое местоположение является активной станцией. Ниже приведены удаленные места панели:
 
-- Bridge
-- Port wing station
-- Starboard wing station
-- Tower
-- Engine control room
-- Aft station
-- Bow station
-- Other.
+- Мост
+- Станция Port Wing
+- Станция "Плавовое крыло"
+- Башня
+- Комната управления двигателем
+- Станция кормовой
+- Боу-Стейшн
+- Другой.
 
-### New Connection
+### Новая связь
 
-Diesel Control Unit
+Дизельный блок управления
 
 ![[15400080.png]]
 
-Connectors at Bottom of CIB
+Коннекторы в нижней части CIB
 
-The C Command™ CIB has the following connectors at the bottom of the cabinet:
+C CommandTM CIB имеет следующие разъемы в нижней части шкафа:
 
-- “C1” - 16-Pin Deutsch™ Connector
-- “C2” - 23-Pin Deutsch™ Connector
-- “C3” - 31-Pin Deutsch™ Connector
-- “C31” - Service Connector
+- «C1» — 16-пиновый DeutschTM Connector
+- «C2» - 23-Pin DeutschTM Connector
+- «C3» — 31-Pin DeutschTM Connector
+- «C31» — сервисный коннектор
 
-Connector C1 is connected to Connector C8 (16-pin) on the engine. Connector C2 is connected to Connector C9 (23-pin) on the engine. Connector C3 on the CIB is connected to C10 (31-pin) on the Engine.
+Коннектор С1 подключается к Коннектору С8 (16-контактный) на двигателе. Коннектор С2 подключается к Коннектору С9 (23-контактный) на двигателе. Коннектор С3 на CIB соединен с С10 (31-контактным) на Двигателе.
 
-Remote Panel
+Дистанционный пульт
 
 ![[15400081.png]]
 
-Connection to the remote panel **must** be made through the Ethernet connection so the remote can communicate with the DCU.
+Подключение к удаленной панели должно быть сделано через соединение Ethernet, чтобы удаленный компьютер мог связываться с DCU.
 
-### Setup
+### Настройка
 
-Diesel Control Unit
+Дизельный блок управления
 
-The following is an overview of the DCU Power Wizard process.
+Ниже приведен обзор процесса DCU Power Wizard.
 
-The DCU will power up in conjunction with the CIB Power Switch. During the first power up, the DCU will enter the Power On Wizard. The panel system operates on 24-VDC.
+DCU будет работать в сочетании с коммутатором питания CIB. Во время первого включения DCU войдет в Power On Wizard. Панельная система работает на 24-VDC.
 
-The setup wizard will prompt the user to input the basic data necessary to configure the DCU for the engine type, engine location, and application. The wizard will also allow the operator to set a custom password to protect higher level settings to be changed.
+Мастер настройки предложит пользователю ввести основные данные, необходимые для настройки DCU для типа двигателя, местоположения двигателя и приложения. Мастер также позволит оператору установить пользовательский пароль для защиты настроек более высокого уровня, которые будут изменены.
 
 ![[15400082.png]]
 
-1. Select a language:
+1. Выберите язык:
 
-a. Choose from available languages.
+а. Выберите из доступных языков.
 
-b. Press OK to confirm.
+Б. Нажмите OK, чтобы подтвердить.
 
 ![[15400083.png]]
 
-1. Choose administrator password:
+1. Выберите пароль администратора:
 
-a. Input default password (1234).
+а. Ввод пароля по умолчанию (1234).
 
-b. Input new password.
+Б. Введите новый пароль.
 
-c. Re-enter new password for validation.
+c. Введите новый пароль для проверки.
 
-d. Press OK to confirm.
+Д. Нажмите OK, чтобы подтвердить.
 
 ![[15400084.png]]
 
-1. Select an IP number:
+1. Выберите номер IP:
 
-a. View default IP number for the DCU.
+а. Просмотр IP-номера по умолчанию для DCU.
 
-b. Change the value to required IP for vessel network.
+Б. Измените значение требуемого IP для сети судов.
 
-> [!note] Note · Примечание
-> Devices can **not** have identical IP addresses in an Ethernet network.
+> [!note] Примечание
+> Устройства могут не иметь идентичных IP-адресов в сети Ethernet.
 
-c. Press Save to commit the value.
+c. Нажмите Save, чтобы получить ценность.
 
-d. Press Exit to go to the next step.
+Д. Нажмите Выход, чтобы перейти к следующему шагу.
 
-This value becomes the engine identification number for the remote panel. A name can also be assigned to the engine with the web-browser based tool.
+Это значение становится идентификационным номером двигателя для удаленной панели. Имя также может быть присвоено движку с помощью инструмента на основе веб-браузера.
 
 ![[15400085.png]]
 
-1. Load Configuration:
+1. Конфигурация нагрузки:
 
-a. Highlight “Model” selection box.
+а. Выделите «модель» коробки выбора.
 
-b. Press Edit to change the value.
+Б. Нажмите Edit, чтобы изменить значение.
 
-c. Use Arrow soft keys to move between options.
+c. Используйте мягкие клавиши Arrow для перемещения между опциями.
 
-d. Press OK to save change.
+Д. Нажмите OK, чтобы сохранить изменения.
 
-e. Press Down Arrow hard key to highlight the next selection.
+Е. Нажмите на жесткий ключ вниз стрелка, чтобы выделить следующий выбор.
 
-f. Repeat steps a though d for “Heat Exchanger”, “Type Approved”, and “Engine Application”.
+f. Повторите шаги a(d) для «Теплообменника», «Одобренный тип» и «Приложение для двигателя».
 
-g. Press the Load soft key to commit the configuration to the DCU.
+Г. Нажмите клавишу Load soft, чтобы выполнить настройку в DCU.
 
-h. Press Yes to load the new configuration or press Cancel to return to the setup menu.
+h. Нажмите Да, чтобы загрузить новую конфигурацию или нажмите Отменить, чтобы вернуться в меню настройки.
 
-After configuration, the operator should return to the Home page on the DCU unit.
+После настройки оператор должен вернуться на домашнюю страницу в блоке DCU.
 
 ![[15400086.png]]
 
-Remote Panel
+Дистанционный пульт
 
-The following is an overview of the Remote Panel (RP) Power Wizard process.
+Ниже приведен обзор процесса Remote Panel (RP) Power Wizard.
 
-The remote panel will also power up in conjunction with the CIB Power Switch.
+Удалённая панель также будет работать в сочетании с коммутатором питания CIB.
 
-During the first power up, the RP will also enter its Power On Wizard.
+Во время первого включения RP также войдет в Power On Wizard.
 
-The setup wizard will prompt the user to input the basic data necessary to configure the RP for the Language, Location, IP Address, and Monitored Engine(s). It will also allow the user to set a custom password to protect higher level settings to be changed.
+Мастер настройки предложит пользователю ввести основные данные, необходимые для настройки RP для языка, местоположения, IP-адреса и отслеживаемого движка (движков). Это также позволит пользователю установить пользовательский пароль для защиты настроек более высокого уровня, которые будут изменены.
 
-The RP Power On Wizard is very similar to the DCU Power On Wizard. The main difference is that most of the options for the RP are set by DCU configuration. The information that is required for initial setup is much less than the DCU.
+RP Power On Wizard очень похож на DCU Power On Wizard. Основное отличие заключается в том, что большинство опций для RP задаются конфигурацией DCU. Информация, которая требуется для первоначальной настройки, намного меньше, чем DCU.
 
 ![[15400087.png]]
 
-1. Select a language:
+1. Выберите язык:
 
-a. Choose from available languages.
+а. Выберите из доступных языков.
 
-b. Press OK to confirm.
+Б. Нажмите OK, чтобы подтвердить.
 
 ![[15400088.png]]
 
-1. Choose administrator password:
+1. Выберите пароль администратора:
 
-a. Input default password (1234).
+а. Ввод пароля по умолчанию (1234).
 
-b. Input new password.
+Б. Введите новый пароль.
 
-c. Re-enter new password for validation.
+c. Введите новый пароль для проверки.
 
-d. Press OK to confirm.
+Д. Нажмите OK, чтобы подтвердить.
 
 ![[15400089.png]]
 
-1. Select an IP number:
+1. Выберите номер IP:
 
-a. View default IP number for the DCU.
+а. Просмотр IP-номера по умолчанию для DCU.
 
-b. Change the value to required IP for vessel network.
+Б. Измените значение требуемого IP для сети судов.
 
-> [!note] Note · Примечание
-> Devices can **not** have identical IP addresses in an Ethernet network.
+> [!note] Примечание
+> Устройства могут не иметь идентичных IP-адресов в сети Ethernet.
 
-c. Press Save to commit the value.
+c. Нажмите Save, чтобы получить ценность.
 
-d. Press Exit to go to the next step.
+Д. Нажмите Выход, чтобы перейти к следующему шагу.
 
-This value becomes the engine identification number for the remote panel. A name can also be assigned to the engine with the web-browser based tool.
+Это значение становится идентификационным номером двигателя для удаленной панели. Имя также может быть присвоено движку с помощью инструмента на основе веб-браузера.
 
 ![[15400090.png]]
 
-1. Select panel location name:
+1. Выберите название расположения панели:
 
-a. Choose from available panel names.
+а. Выберите из доступных названий панели.
 
-b. Press OK to confirm.
+Б. Нажмите OK, чтобы подтвердить.
 
-After configuration, the operator should return to the Home page on the DCU unit.
+После настройки оператор должен вернуться на домашнюю страницу в блоке DCU.
 
 ![[15400091.png]]
 
-1. Select engine(s) to monitor:
+1. Выберите двигатель(ы) для мониторинга:
 
-a. Available engine(s) will be listed by IP number and engine name, if set.
+а. Доступный(ые) двигатель(ы) будет указан по номеру IP и названию двигателя, если он установлен.
 
-b. Check select box for engine(s) that RP is intended to monitor.
+Б. Проверьте выберите поле для двигателя (двигателей), который предназначен для мониторинга.
 
-c. Press OK to confirm.
+c. Нажмите OK, чтобы подтвердить.
 
-> [!note] Note · Примечание
-> Presently **only** single engine monitoring is available. Multiple engine monitoring is planned.
+> [!note] Примечание
+> В настоящее время доступен только мониторинг двигателя *. Планируется многократный мониторинг двигателя.
 
 ![[15400092.png]]
 
-1. Remote panel complete:
+1. Дистанционная панель полная:
 
-a. Cummins Inc. RP information screen will be shown on the display.
+а. Cummins Inc. На дисплее будет показан информационный экран RP.
 
-b. RP is ready for system commands.
+Б. RP готов к системным командам.
 
-After configuration, the operator should return to the Home page on the DCU unit.
+После настройки оператор должен вернуться на домашнюю страницу в блоке DCU.
 
 ![[15400093.png]]
 
-### Viewing Data
+### Просмотр данных
 
-Diesel Control Unit
+Дизельный блок управления
 
-The display of the DCU is divided into three functional areas:
+Дисплей DCU разделен на три функциональные зоны:
 
-- Main screen
-- Status Bar
-- Soft Key Indication.
+- Главный экран
+- Статус бара
+- Индикация мягкого ключа.
 
-These areas are shown in the illustration.
+Эти области показаны на иллюстрации.
 
 ![[15400094.png]]
 
-The present status of the system is represented in the top area of the screen. The Status Bar is separated into six fields. Text and graphics are used to provide at-a-glance evaluation of the system state in these fields.
+Текущее состояние системы представлено в верхней части экрана. Статус-бар разделен на шесть полей. Текст и графика используются для оценки состояния системы в этих областях.
 
-1. DCU Present Status
-2. DCU Service Mode
-3. DCU Local/Remote Mode
-4. DCU Override Shutdown Mode
-5. DCU Manual/Automatic Mode
-6. DCU All OK Mode
+1. Текущий статус DCU
+2. Режим обслуживания DCU
+3. DCU локальный/дистанционный режим
+4. Режим Override Shutdown
+5. Ручной/автоматический режим DCU
+6. Все в порядке, режим
 
-The following tables define the possible field contents.
+В следующих таблицах определяется возможное содержание поля.
 
 ![[15400095.png]]
 
-Field 1 of the status bar is used to display the present operating status of the DCU. A text message will be displayed that reflects the mode of operation that the DCU is performing. A list of these messages and what they represent can be found in DCU Status Messages table.
+Поле 1 строки состояния используется для отображения текущего рабочего состояния DCU. Будет отображаться текстовое сообщение, которое отражает режим работы, который выполняет DCU. Список этих сообщений и их представление можно найти в таблице сообщений о состоянии DCU.
 
-| Field 1 DCU Status Messages |  |
+| Поле 1 сообщения о состоянии DCU |  |
 |---|---|
-| Message | Comments |
-| Ready | Ready for engine start |
-| About to start... | When automatic start in Automatic mode |
-| Prelube | Manual or Automatic Prelube |
-| Cranking | “Cranking Attempt n” if n\>1 for Automatic mode |
-| Awaiting Run | Start request made but awaiting release |
-| Awaiting Next Start Attempt | Delay between start attempts |
-| Running | Engine running |
-| Delayed Stop | Automatic stop signal received in automatic mode |
-| Cooling | Cool down mode after delayed stop |
-| Running? | Lost the **only** source of Run indication |
-| Stopping | Stop request made |
-| Stopped | RPM \< 5 |
-| Blocked | Blocked from running |
-| Extended Stopping | Pre-programmed stop delay, 50 seconds. Engine can **not** be started in this state |
-| Start Disabled |  |
+| Послание | Комментарии |
+| Готовы | Готовы к запуску двигателя |
+| Вот-вот начнется... | При автоматическом запуске в автоматическом режиме |
+| Прелюмия | Ручная или автоматическая прелюбия |
+| жуть | «Попытка кранинга n», если n\>1 для автоматического режима |
+| Ожидание бега | Запрос на запуск сделан, но ожидает освобождения |
+| Ожидание следующей попытки | Задержка между попытками запуска |
+| бегать | Двигатель работает |
+| Задержка остановки | Автоматический сигнал остановки, принятый в автоматическом режиме |
+| охлаждение | Режим охлаждения после задержки остановки |
+| Бежать? | Потерял только * источник указания на бег |
+| Прекратить | Запрос о прекращении действия |
+| остановлен | RPM<5 |
+| Заблокированный | Заблокирован от бега |
+| Расширенная остановка | Предварительно запрограммированная задержка остановки, 50 секунд. Двигатель может **не** быть запущен в этом состоянии. |
+| Начать инвалидов |  |
 
-Fields 2 through 6 of the status bar are used to denote the DCU active modes. A graphical representation of the active mode(s) will be displayed in the indicator boxes. The function of each field is described below in the Status Bar Indicators table.
+Поля 2-6 строки состояния используются для обозначения активных режимов DCU. Графическое представление активного режима (режимов) будет отображаться в полях индикаторов. Функция каждого поля описана ниже в таблице индикаторов строки состояния.
 
-| Field 2 - 6 DCU Status Messages |  |  |
+| Поле 2 - 6 сообщений о состоянии DCU |  |  |
 |---|---|---|
-| Field | Name | Description |
-| 2 | Service | Wrench - Service interval/maintenance alarm active |
-| 3 | Local/Remote | L - Local start **only** mode active |
-| 4 | Shutdown Override | SO - Shutdown Override Active |
-| 5 | Manual/Automatic | M - Manual Start/Stop Mode Active |
-| 6 | All OK | Green - No active or unacknowledged red/amber faults present |
+| Поле | Имя | Наименование |
+| 2 | Сервис | Wrench - интервал обслуживания / активная аварийная сигнализация |
+| 3 | Местный/удаленный | L - локальный старт **только** активный режим |
+| 4 | Отключение Override | Скачать Shutdown Override Active |
+| 5 | Ручной/автоматический | M - Ручной режим запуска/остановки |
+| 6 | Все в порядке | Зеленый - нет активных или непризнанных красных / янтарных дефектов |
 
-The most comprehensive area of the display is in the Main Screen. It is responsible for representing available engine data and all menu content. The information in this area changes with the selected function. Some information can continue off of the Main Screen area. In this case, the arrow keys on the side of the DCU can be used to advance the screen/cursor up or down. Additionally, while in the engine data viewing screens, there are multiple data templates that can be scrolled through with the use of the arrow keys.
+Наиболее полная область дисплея находится на главном экране. Он отвечает за представление доступных данных двигателя и всего содержимого меню. Информация в этой области изменяется с выбранной функцией. Некоторая информация может быть удалена из области главного экрана. В этом случае клавиши со стрелками на стороне DCU могут использоваться для продвижения экрана / курсора вверх или вниз. Кроме того, в то время как в экранах просмотра данных двигателя есть несколько шаблонов данных, которые можно прокручивать с помощью клавиш стрелки.
 
 ![[15400094.png]]
 
-### Page Navigation
+### Страница Навигация
 
-Diesel Control Unit
+Дизельный блок управления
 
-This button provides access into the Main Menu of the DCU. From this menu the user can access additional information from the DCU that is **not** contained in the default display screens. The user can also access troubleshooting screens and programming screens for the DCU as well. The menu is separated into several levels. From each level, a specific list of sub-levels is available. The user navigates this list of levels with a combination of Hard and Soft Key presses. A list of the available options from this menu, along with brief descriptions of their function, can be found in DCU Main Menu Option Levels table.
+Эта кнопка обеспечивает доступ к главному меню DCU. Из этого меню пользователь может получить доступ к дополнительной информации из DCU, которая **не** содержится в экранах дисплея по умолчанию. Пользователь также может получить доступ к экранам устранения неполадок и экранам программирования для DCU. Меню разделено на несколько уровней. На каждом уровне имеется конкретный список подуровней. Пользователь перемещается по этому списку уровней с помощью комбинации нажатий Hard и Soft Key. Список доступных опций из этого меню, а также краткое описание их функции можно найти в таблице уровней опций главного меню DCU.
 
-| DCU Main Menu Option Levels |  |  |  |  |
+| DCU Основные уровни меню |  |  |  |  |
 |---|---|---|---|---|
-| Top Level | 2nd Level | 3rd Level | 4th Level | Description |
-| Screen Backlight | Automatic, 10 percent, 50 percent, 100 percent. |  |  | In Automatic, DCU uses a photo sensitive feedback from the front panel. |
-| Language |  |  |  | Select Language |
-| Units |  |  |  | Select Units (Metric/U.S.) Display Unit |
-| Counters | Dialog that display counters. Option to reset trip values. |  |  | From ECM if available, from DCU if **not**. Shall include: - Total hours: minutes - Trip hours: minutes (since start) - Trip hour: minutes (resettable) - Start counter - Fuel consumption counters. Option to reset the fuel consumption trip counters, originated from J1939 or calculated values. |
-| Automatic/Manual |  |  |  | Displays an “M” in the DCU Status Bar. |
-| Local/Remote |  |  |  | Displays an “L” in the DCU Status Bar. |
-| Prelube Override | Yes, No |  |  | Record all changes as events in the Log. If selecting “Yes” a dialog shall appear “Are you sure you want to select Prelube Override? Yes, Cancel” When in Prelube Override, continues in state CRANKING after Prelube Activation signal. When active, shall display “Prelube Override” in the LCD. When engine has been running for \>10 sec, or reached Start Failure Alarm, this shall reset back to “No” (do **not** want to stay in Prelube Override). The configuration shall determine if this menu item is available or **not**. This menu option disappears if Configuration - Prelube Installed - No. |
-| Start Disabled |  |  |  | Start can be disabled in the menu or from external input. While in this mode; if user press the Start button, a dialog shall inform that: ”Start Disabled”. Dialog disappears after 2 sec. |
-| Troubleshooting | Tabular list of status for all available DCU functions |  |  | Use Tab soft button to navigate status pages |
-| Event Log | Displays the Event Log |  |  | Use soft keys to filter/sort events |
-| Engine Service Interval | Tabular list of all programmed service events |  |  | Displays time left until programmed interval. Interval value can be programmed from Configuration option. |
-| Connect a PC | Displays IP address of DCU. Toggle Enabled tick box and Save to activate. |  |  | Enables DHCP server in DCU to allow for communication with Service PC. |
-| Version Information |  |  |  | DCU 410 Firmware, Hardware, Colibri, etc.; RIO 410 Firmware, Hardware (x4); SDU 410 Firmware, Hardware. |
-| Configuration | Password dialog |  |  | If Password is set. In the event of a lost/forgotten password, an encrypted password is shown here that can be decrypted by Cummins Inc. or Auto-Maskin. |
-|  | Password Configuration |  |  |  |
-|  | Load Configuration | Configuration Wizard |  | Load configuration based on wizard profile |
-|  | Interface Design | Form List | Template Design Pages | Change/Add Screen Template content |
-|  | Automatic Start/Stop Config. | Dialog with settings |  | Number of start attempts, etc. |
-|  | Language | English |  | Select the language to be used. |
+| Высший уровень | 2-й уровень | 3-й уровень | 4-й уровень | Наименование |
+| Задняя подсветка | Автоматический, 10%, 50%, 100%. |  |  | В Automatic DCU использует фоточувствительную обратную связь с передней панели. |
+| Язык языка |  |  |  | Выберите язык |
+| Подразделения |  |  |  | Выберите блоки (метрические / США) |
+| счетчики | Диалог, который отображает счетчики. Возможность сброса значений поездки. |  |  | От ECM, если таковой имеется, от DCU, если **не**. Включает: - Всего часов: минуты - часы поездки: минуты (с момента начала) - час поездки: минут (перезагружаемый) - Стартовый счетчик - Счетчики расхода топлива. Вариант сброса счетчиков расхода топлива, возникший в J1939 или рассчитанных значениях. |
+| Автоматический/ручный |  |  |  | Отображает букву «М» в строке состояния DCU. |
+| Местный/удаленный |  |  |  | Отображает букву «L» в строке состояния DCU. |
+| Прелюдия Overlube | Да, нет |  |  | Записывайте все изменения как события в журнале. Если вы выберете «Да», появится диалог «Вы уверены, что хотите выбрать Prelube Override?» Да, отменяется" При переопределении прелюбия продолжается в состоянии КРАНКИНГ после сигнала активации прелюбия. При активации должна отображаться надпись "Prelube Override" в ЖК-дисплее. Если двигатель работает в течение 10 сек или достиг аварийной сигнализации, он должен сброситься обратно на «Нет» (не хочу оставаться в Prelube Override). Конфигурация должна определять, доступен ли данный пункт меню или нет. Этот вариант меню исчезает, если конфигурация - Prelube Installed - нет. |
+| Начать инвалидов |  |  |  | Старт можно отключить в меню или с внешнего входа. В этом режиме; если пользователь нажимает кнопку Пуск, диалог должен сообщить, что: «Начать инвалид». Диалог исчезает через 2 секунды. |
+| устранение неполадок | Табличный список статуса для всех доступных функций DCU |  |  | Используйте мягкую кнопку Tab для навигации по страницам статуса |
+| Лог событий | Отображает журнал событий |  |  | Используйте мягкие клавиши для фильтрации/сортировки событий |
+| Интервал службы двигателя | Табличный список всех программируемых мероприятий по обслуживанию |  |  | Отображает время, оставшееся до запрограммированного интервала. Интервальное значение может быть запрограммировано из опции Конфигурация. |
+| Подключите ПК | Отображает IP-адрес DCU. Toggle Enabled tick box и Save to activate. |  |  | Включает DHCP-сервер в DCU для обеспечения связи с Service PC. |
+| Версия Информация |  |  |  | DCU 410 Прошивка, Аппаратура, Colibri и т.д.; RIO 410 Прошивка, Аппаратура (x4); SDU 410 Прошивка, Аппаратура. |
+| конфигурация | Диалог паролей |  |  | Если пароль установлен. В случае утерянного/забытого пароля здесь показан зашифрованный пароль, который может быть расшифрован компанией Cummins Inc. или Автомаскина. |
+|  | Конфигурация пароля |  |  |  |
+|  | Конфигурация нагрузки | Волшебник конфигурации |  | Конфигурация нагрузки на основе профиля мастера |
+|  | Дизайн интерфейса | Формат списка | Шаблоны дизайна страниц | Изменение / Добавление контента Screen Template |
+|  | Автоматический старт/стоп конфигурация. | Диалог с настройками |  | Количество попыток запуска и т.д. |
+|  | Язык языка | английский |  | Выберите язык, который будет использоваться. |
 
-Screen Backlight:
+Подсветка экрана:
 
-The operator in manual mode can choose the backlight illumination from 10, 50, or 100 percent settings.
+Оператор в ручном режиме может выбрать подсветку подсветки из 10, 50 или 100-процентных настроек.
 
-In Automatic mode, the DCU uses a photo sensitive feedback from the front panel.
+В автоматическом режиме DCU использует фоточувствительную обратную связь с передней панели.
 
 ![[15400097.png]]
 
-Language:
+Язык:
 
-The operator can view what language the DCU will display.
+Оператор может просматривать, на каком языке будет отображаться DCU.
 
-Choices of language:
+Выбор языка:
 
-The language can be set in the DCU Power On Wizard. Reference the setup portion of this procedure.
+Язык можно установить в DCU Power On Wizard. Ссылка на часть установки этой процедуры.
 
 ![[15400098.png]]
 
-Units:
+Единицы:
 
-The operator can toggle between Metric and U.S. values in measurements.
+Оператор может переключаться между Метриком и США. значения в измерениях.
 
 ![[15400099.png]]
 
-Counters:
+Счетчики:
 
-The operator has the option to reset trip values. The screen displays a dialog that displays counters.
+Оператор имеет возможность сброса значений поездки. На экране отображается диалог, который отображает счетчики.
 
-Values are from the ECM if available and from the DCU if **not**.
+Значения от ECM, если они доступны, и от DCU, если **не**.
 
-The counters include:
+Счетчики включают:
 
-- Total hours: minutes
-- Trip hours: minutes (since start)
-- Trip hour: minutes (resettable)
-- Start counter
-- Fuel consumption counters.
+- Всего часов: минуты
+- Часы поездки: минуты (с момента начала)
+- Час поездки: минуты (перезагрузка)
+- Начинать счетчик
+- Счетчики расхода топлива.
 
-Option to reset the fuel consumption trip counters, originated from J1939 or calculated values.
+Вариант сброса счетчиков расхода топлива, возникший в J1939 или рассчитанных значениях.
 
 ![[15400100.png]]
 
-Automatic/Manual:
+Автоматический/ручный:
 
-The Automatic/Manual setting is displayed in field (5) of the status bar.
+Настройка Automatic/Manual отображается в поле (5) строки состояния.
 
-The Select button will toggle between Manual and Automatic.
+Кнопка «Выбрать» будет переключаться между ручным и автоматическим.
 
-Local/Remote:
+Местные/удаленные:
 
-The Local/Remote setting is displayed in field (3) of the status bar.
+Настройка Local/Remote отображается в поле (3) строки состояния.
 
-The Select button will toggle between Local and Remote.
+Кнопка «Выбрать» будет переключаться между локальной и удаленной кнопкой.
 
 ![[15400095.png]]
 
-Prelube Override:
+Прелюбия перекрывает:
 
-The operator can toggle between Yes and No.
+Оператор может переключаться между Да и Нет.
 
-Record all changes as events occur in the Log.
+Записывайте все изменения по мере того, как события происходят в журнале.
 
-If selecting “Yes” a dialog shall appear “Are you sure you want to select Prelube Override? Yes/Cancel”
+Если вы выберете «Да», появится диалог «Вы уверены, что хотите выбрать Prelube Override?» Да/отменить
 
-When in Prelube Override, continues in state CRANKING after Prelube Activation signal.
+При переопределении прелюбия продолжается в состоянии КРАНКИНГ после сигнала активации прелюбия.
 
-When active, shall display “Prelube Override” in the LCD.
+При активации должна отображаться надпись "Prelube Override" в ЖК-дисплее.
 
-When engine has been running for \>10 sec, or reached Start Failure Alarm, this shall reset back to “No” (do **not** want to stay in Prelube Override).
+Если двигатель работает в течение 10 сек или достиг аварийной сигнализации, он должен сброситься обратно на «Нет» (не хочу оставаться в Prelube Override).
 
-> [!note] Note · Примечание
-> The configuration shall determine if this menu item is available or **not**, if configured with no prelube installed. the menu will **not** appear.
+> [!note] Примечание
+> Конфигурация должна определять, доступен ли данный пункт меню или **не**, если он выполнен без предварительной настройки. Меню будет отображаться **не**.
 
-This menu option disappears if Configuration - Prelube Installed - No.
+Этот вариант меню исчезает, если конфигурация - Prelube Installed - нет.
 
 ![[15400103.png]]
 
-Start Disabled:
+Начать инвалидизируемый:
 
-Start can be disabled in the menu or from an external input.
+Старт можно отключить в меню или с внешнего входа.
 
-While in this mode, if the user presses the Start button, a dialog shall inform that: “Start Disabled”. The dialog disappears after 2 seconds.
+В этом режиме, если пользователь нажимает кнопку Пуск, диалог должен сообщить, что: «Начать инвалидов». Диалог исчезает через 2 секунды.
 
 ![[15400104.png]]
 
-Troubleshooting:
+Устранение неполадок:
 
-Displays a tabular list of status for all available DCU functions.
+Отображает табличный список статуса для всех доступных функций DCU.
 
-Use the tab button to navigate through the screen displays.
+Используйте кнопку вкладки для навигации по дисплеям экрана.
 
-The functions are:
+Функции заключаются в следующем:
 
-- Troubleshooting DCU
-- Troubleshooting RIO 1
-- Troubleshooting RIO 2
-- Troubleshooting RIO 3
-- Troubleshooting RIO 4.
+- Устранение неполадок DCU
+- Устранение неполадок RIO 1
+- Устранение неполадок RIO 2
+- Устранение неполадок RIO 3
+- Устранение неполадок RIO 4.
 
 ![[15400105.png]]
 
-The tab screens for the troubleshooting functions are:
+Экраны вкладок для функций устранения неполадок:
 
-- Supply
+- Снабжение
 
-- Switch
+- переключатель
 
-- 4-20 mA
+- 4-20 мА
 
 - PT100
 
-- Com
+- Комментарий
 
-- Output
+- выход
 
-- Input
+- Ввод
 
-- Run Sources
+- Проверить источники
 
-- Button Test.
+- Кнопочный тест.
 
-The tab screens are the same for all functions.
+Экраны вкладок одинаковы для всех функций.
 
 ![[15400096.png]]
 
-Event Log:
+Журнал событий:
 
-The operator can use the soft keys to filter or sort events in this mode.
+Оператор может использовать мягкие клавиши для фильтрации или сортировки событий в этом режиме.
 
-The tab screens are:
+Экраны вкладок:
 
-- Oldest
-- Newest
-- Most Severe.
+- Старейший
+- новейший
+- Очень тяжелая.
 
 ![[15400106.png]]
 
-Engine Overspeed Test:
+Испытание двигателя на сверхскоростной скорости:
 
-The operator can configure the class vessel to allow for this test.
+Оператор может настроить судно класса таким образом, чтобы оно могло пройти это испытание.
 
 ![[15400107.png]]
 
-Engine Service Interval:
+Интервал обслуживания двигателя:
 
-This is a tabular list of all programmed service events. It displays time left until programmed interval. The interval value can be programmed for the Configuration Menu in this procedure.
+Это табличный список всех программируемых мероприятий. Он отображает время, оставшееся до запрограммированного интервала. Значение интервала может быть запрограммировано для меню конфигурации в этой процедуре.
 
-The tab screens are:
+Экраны вкладок:
 
-- Service 1
-- Service 2
-- Service 3
-- Service 4.
+- Сервис 1
+- Сервис 2
+- Сервис 3
+- Служба 4.
 
-The operator can confirm the maintenance interval by pressing the Service Done button.
+Оператор может подтвердить интервал обслуживания, нажав кнопку «Сервис выполнен».
 
-If the Service Done button is pressed, the maintenance interval will advance to the next interval.
+Если кнопка «Сделано в службе» нажата, интервал обслуживания будет продвигаться к следующему интервалу.
 
 ![[15400108.png]]
 
-Connect to PC:
+Подключайтесь к ПК:
 
-Displays the IP address of the DCU.
+Отображает IP-адрес DCU.
 
-Toggle Enabled tick box and Save to activate.
+Toggle Enabled tick box и Save to activate.
 
-Enables DHCP server in DCU to allow for communication with Service PC.
+Включает DHCP-сервер в DCU для обеспечения связи с Service PC.
 
 ![[15400109.png]]
 
-Version Information:
+Информация по версии:
 
-Displays the following information for the operator:
+Отображает следующую информацию для оператора:
 
-- Hardware Version
-- Software Version
-- IP Number.
+- Версия для Hardware
+- Версия программного обеспечения
+- IP номер.
 
-Details can be displayed at anytime by pressing the Detail button. The details include:
+Подробности могут быть отображены в любое время, нажав кнопку «Деталь». Подробности включают:
 
-- DCU 410 Firmware, Hardware, Colibri, etc.
-- RIO 410 Firmware, Hardware (x4)
-- SDU 410 Firmware, Hardware.
+- DCU 410 Прошивка, Аппаратура, Colibri и т.д.
+- RIO 410 Прошивка, Аппаратные средства (x4)
+- SDU 410 Прошивка, Аппаратура.
 
 ![[15400110.png]]
 
-The screen illustrates template design pages and forms list.
+Экран иллюстрирует страницы дизайна шаблонов и список форм.
 
-The operator can change user defined screens and other screens can be adjusted.
+Оператор может изменять пользовательские экраны, а другие экраны могут быть настроены.
 
 ![[15400111.png]]
 
-Configuration Menu
+Меню конфигурации
 
-The following steps are for DCU configuration.
+Следующие шаги предназначены для конфигурации DCU.
 
-This screen displays dialog for the password.
+На этом экране отображается диалог для пароля.
 
-In the event of a lost or forgotten password, an encrypted password can be obtained from a Cummins® Authorized Repair Location.
+В случае утерянного или забытого пароля, зашифрованный пароль может быть получен из авторизованного места ремонта Cummins®.
 
-This directs the operator to the Configuration Menu.
+Это направляет оператора в меню конфигурации.
 
 ![[15400112.png]]
 
-The operator can set which language the DCU will display by using the up and down arrow keys.
+Оператор может установить, какой язык будет отображаться в DCU, используя клавиши стрелки вверх и вниз.
 
-The default language is English.
+Язык по умолчанию - английский.
 
 ![[15400098.png]]
 
-The following steps are Miscellaneous under the Configuration Menu.
+Следующие шаги являются различными в меню конфигурации.
 
-The operator **must** enter a pass code before the Miscellaneous configuration parameters can be changed.
+Оператор **должен** ввести код пропуска до того, как могут быть изменены различные параметры конфигурации.
 
-The parameters include:
+К параметрам относятся:
 
-- Automatic Buzzer Off
-- Fuel Consumption
-- Speed Relays
-- Counter Source
-- Start/Stop Buttons
-- Network Configuration
-- Factory Reset.
+- Автоматический uzzer Off
+- Расход топлива
+- Скорость реле
+- Источник Counter
+- Пуск/остановка кнопки
+- Конфигурация сети
+- Завод перезагрузился.
 
 ![[15400112.png]]
 
-Automatic Buzzer Off:
+Автоматический байкер Off:
 
-The automatic buzzer times out after 12 hours for commissioning.
+Автоматический зуммер разгоняется после 12 часов для ввода в эксплуатацию.
 
-The internal (and external if configured) buzzer will sound once **only** and then turn off.
+Внутренний (и внешний, если настроен) зуммер будет звучать один раз **только**, а затем выключится.
 
-The operator can toggle between inactive and active.
+Оператор может переключаться между неактивным и активным.
 
 ![[15400114.png]]
 
-Fuel Consumption:
+Расход топлива:
 
-Cummins Inc. recommends adjusting Calculate Fuel Consumption parameters. Fuel consumption inaccuracies can occur.
+Cummins Inc. Рекомендует корректировать параметры расхода топлива. Могут возникнуть неточности в потреблении топлива.
 
 ![[15400115.png]]
 
-Speed Relays:
+Скоростные реле:
 
-The operator can enable one or all four of the speed relay outputs.
+Оператор может включить один или все четыре выходных сигнала ретрансляции скорости.
 
-- Enabled
-- Engine speed level
-- Update Event Log.
+- включенный
+- Уровень скорости двигателя
+- Обновить журнал событий.
 
-The settings are the same for all four relays.
+Настройки одинаковы для всех четырех реле.
 
 ![[15400116.png]]
 
-Counter Source:
+Источник: Counter Source
 
-Cummins Inc. recommends this parameter to be set to J1939. The DCU will be able to read input from the ECM.
+Cummins Inc. Этот параметр рекомендуется установить на J1939. DCU сможет считывать данные из ECM.
 
-Engine hours configuration lets you offset broadcast J1939 hours locally on the display.
+Конфигурация часов работы двигателя позволяет вам компенсировать трансляцию J1939 часов локально на дисплее.
 
 ![[15400117.png]]
 
-Start/Stop Buttons:
+Кнопки Start/Stop:
 
-The operator can toggle between Latched and Hold modes by pressing the Select button.
+Оператор может переключаться между режимами Latched и Hold, нажав кнопку Select.
 
-Hold to Start:
+Держите, чтобы начать:
 
-To start the engine, the operator
+Чтобы запустить двигатель, оператор
 
-must
+должен
 
-press and hold the start button until the engine is running. When the engine speed has reached 500 rpm, the engine run signal will become active and the starter will automatically be disengaged. If the engine speed falls below 100 rpm, the run signal will become inactive, thus allowing another start attempt. If the start button is released at any point prior to the engine running, the start process will terminate.
+Нажмите и удерживайте кнопку запуска до тех пор, пока двигатель не запустится. Когда скорость двигателя достигнет 500 об/мин, сигнал запуска двигателя станет активным, и стартер автоматически отключится. Если скорость двигателя падает ниже 100 об/мин, сигнал запуска становится неактивным, что позволяет еще одну попытку запуска. Если кнопка запуска будет выпущена в любой момент до запуска двигателя, процесс запуска завершится.
 
-Latched Start:
+Защелкнутый старт:
 
-To start the engine, the operator first
+Чтобы запустить двигатель, оператор сначала
 
-must
+должен
 
-press the start button. Upon pressing the start button, the DCU will prompt the operator with a start confirmation message “Are you sure?” The operator
+Нажмите кнопку запуска. После нажатия кнопки запуска DCU предложит оператору сообщение подтверждения запуска «Вы уверены?»
 
-must
+должен
 
-then press the soft button labeled “Start” to begin the start sequence. The operator is also offered a “Cancel” soft button in the event the start button press was accidental.
+Затем нажмите мягкую кнопку с надписью «Пуск», чтобы начать последовательность запуска. Оператору также предлагается мягкая кнопка «Отменить» в случае, если нажатие кнопки запуска было случайным.
 
 ![[15400118.png]]
 
-Network Configuration:
+Конфигурация сети:
 
-Enter any value from 2 to 254 in the right-most tick box, where the right-most two digits represent the engine number.
+Введите любое значение от 2 до 254 в правой клеща коробке, где правая самая две цифры представляют номер двигателя.
 
-For example: Enter 101 for engine number 1.
+Например: Введите 101 для двигателя № 1.
 
-- Current IP - save changes
-- Change IP - use Save button.
+- Текущий IP - сохранение изменений
+- Изменить IP - используйте кнопку Сохранить.
 
 ![[15400119.png]]
 
-> [!warning] CAUTION · Осторожно
-> All present configuration settings will be lost by performing a Factory Reset.
+> [!warning] ОСТОРОЖНО
+> Все существующие настройки конфигурации будут потеряны при выполнении сброса заводских настроек.
 
-Factory Reset:
+Заводская перезагрузка:
 
-Removes the present configuration and restores the factory default settings. The DCU will startup the first power sequence at the next power-up.
+Удалите существующую конфигурацию и восстановите заводские настройки по умолчанию. DCU запустит первую последовательность питания при следующем включении питания.
 
 ![[15400120.png]]
 
-The operator can configure the DCU source(s) for the speed sensor rpm by using the Select button.
+Оператор может настроить источник (источники) DCU для датчика скорости rpm с помощью кнопки Select.
 
-- Speed Sensor Configuration
-- Pickup 1 pulse/rev
-- Pickup 2 pulse/rev
-- Update DCU -\> SDU
-- Update SDU -\> DCU.
+- Конфигурация датчика скорости
+- Пикап 1 пульс/резв
+- Пикап 2 пульс/rev
+- Обновление DCU -> SDU
+- Обновление SDU -> DCU.
 
-A note will be displayed stating changes are applied to the SDU directly.
+Будет отображаться записка, в которой будет указано, что изменения непосредственно применяются к SDU.
 
 ![[15400121.png]]
 
-The screen displays present values of the Engine Manufacturer/Type.
+На экране отображаются текущие значения производителя двигателя / типа.
 
 ![[15400122.png]]
 
-The operator can enable or set the prelube parameter.
+Оператор может включить или установить параметр прелюбия.
 
-The following parameters can be set:
+Можно установить следующие параметры:
 
-- Oscillating ON/OFF - check tick box
-- ON time
-- OFF time
-- Pre Start
-- Until Pressure Timeout
-- Action Upon Timeout
-- Override Allowed - check tick box.
+- Oscillating ON/OFF - флажок для проверки клещей
+- Вовремя
+- В свободное время
+- Начинаем.
+- До момента тайм-аута давления
+- Действие в Timeout
+- Override Allowed - проверьте клещей коробки.
 
-The operator can choose how many minutes between prelube cycles when checking the tick box on the oscillating prelube. This function can also speed up the prelube at the start of the engine.
+Оператор может выбрать, сколько минут между циклами прелюбия при проверке коробки клещей на колеблющейся прелюбе. Эта функция также может ускорить прелюбию в начале двигателя.
 
 ![[15400123.png]]
 
-The operator can enable external components (i.e. RIO, SDU, etc.) through the external hardware option screen display.
+Оператор может включать внешние компоненты (т.е. RIO, SDU и т.д.) через внешний экран опции аппаратного обеспечения.
 
-External hardware in use:
+Внешнее оборудование в использовании:
 
-- RIO1 - if active, a tick box will appear
-- RIO2 - if active, a tick box will appear
-- RIO3 - if active, a tick box will appear
-- RIO4 - if active, a tick box will appear
-- SDU - if active, a tick box will appear.
+- RIO1 - если активен, появится клещевая коробка
+- RIO2 - если активен, появится клещевая коробка
+- RIO3 - если активен, появится клещевая коробка
+- RIO4 — если активен, появится клещевая коробка
+- СДУ — при активном появлении появится клещевая коробка.
 
-The C Command Elite Plus™ system CIB will have a single RIO and SDU installed.
+Система C Command Elite PlusTM CIB будет иметь один RIO и SDU.
 
 ![[15400124.png]]
 
-The operator can enable/setup Service Interval Messages by selecting one of four service interval tabs:
+Оператор может включить/настроить Интервальные сообщения Сервиса, выбрав одну из четырех вкладок интервала обслуживания:
 
-Service 1
+Сервис 1
 
-The following parameters are the same on all four service intervals.
+Следующие параметры одинаковы на всех четырех интервалах обслуживания.
 
-- Enabled - check tick box
-- First Service At
-- Then Service Every
-- Pre-Warning Enabled - check tick box
-- SDU - if active, a tick box will appear.
+- Включено - Check Tick Box
+- Первая служба в
+- Обслуживать каждый
+- Предупреждение включено - проверьте коробку с клещами
+- СДУ — при активном появлении появится клещевая коробка.
 
-Service 2, 3, and 4 can be setup like Service 1.
+Сервисы 2, 3 и 4 могут быть настроены как Сервис 1.
 
 ![[15400125.png]]
 
-The operator can enable/setup I/O channel for the DCU display and/or monitoring.
+Оператор может включить/настроить канал ввода/вывода для отображения и/или мониторинга DCU.
 
-The I/O options menu contains the following parameters:
+Меню опций ввода/вывода содержит следующие параметры:
 
-Engine Speed - D + R (DCU and RP)
+Скорость двигателя - D + R (DCU и RP)
 
-- Sensor
-- Display
-- Alarming
-- Other
-- Preview.
+- Сенсор
+- дисплей
+- Тревога
+- другой
+- Предварительный просмотр.
 
-Switch Inputs
+Ввод коммутатора
 
-- Switch Inputs 1 through 8 (E = Event Log is active)
+- Ввод коммутатора 1-8 (E = журнал событий активен)
 
-4-20 mA Inputs (tab screens are the same as Engine Speed)
+4-20 мА входы (темпы экранов такие же, как и скорость двигателя)
 
-PT100 Inputs (PT100 1 through 4) (tab screens are the same as Engine Speed)
+PT100 Inputs (PT100 1-4) (экраны с табами такие же, как и скорость двигателя)
 
-J1939 Inputs
+J1939 Вводы
 
-- Percentage Load - D + R (DCU and RP)
-- Air Filter Differential
-- Air Inlet Pressure
-- Auxiliary Pressure
-- Barometric Pressure
-- Battery Voltage
-- Boost Pressure.
+- Процентная нагрузка - D + R (DCU и RP)
+- фильтр для очистки воздуха дифференциальный
+- Впускное давление воздуха
+- Вспомогательное давление
+- Барометрическое давление
+- Напряжение батареи
+- Повысить давление.
 
 ![[15400126.png]]
 
-The operator can use the Template Design Pages and change/add screen template content. The operator can choose the default template or create an operator defined template.
+Оператор может использовать страницы шаблонного дизайна и изменять/добавлять содержимое шаблона экрана. Оператор может выбрать шаблон по умолчанию или создать шаблон, определенный оператором.
 
-> [!note] Note · Примечание
-> The display will view operator defined screens **only**.
+> [!note] Примечание
+> Дисплей будет просматривать экраны, определенные оператором **только**.
 
 ![[15400111.png]]
 
-Factory Reset
+Перезагрузка завода
 
-The operator can reset the parameters values to the factory default settings.
+Оператор может сбросить значения параметров в заводские настройки по умолчанию.
 
 ![[15400120.png]]
 
-Connect to PC
+Подключайтесь к PC
 
-The following steps are for DCU main menu connecting to a PC with website interface.
+Следующие шаги предназначены для главного меню DCU, подключающегося к ПК с интерфейсом веб-сайта.
 
-The website interface for the DCU will configure the remote panel parameters when the files are uploaded. The remote panel uses the DCU parameters set by the operator on the Connect to PC menu.
+Интерфейс веб-сайта для DCU будет настраивать параметры удаленной панели при загрузке файлов. Удалённая панель использует параметры DCU, заданные оператором в меню Connect to PC.
 
 ![[15400129.png]]
 
-Counters
+счетчики
 
-A list of data the DCU receives from the J1939 data link.
+Список данных, которые DCU получает от шины данных J1939 CAN.
 
 ![[15400130.png]]
 
-Prelube Override
+Прелюдия Overlube
 
-This function is set by default by the manufacturer.
+Эта функция устанавливается по умолчанию производителем.
 
 ![[15400131.png]]
 
-Start Disabled
+Начать инвалидов
 
 ![[15400132.png]]
 
-Troubleshooting
+устранение неполадок
 
-The following parameters can be set:
+Можно установить следующие параметры:
 
-- Supply
-- Switch
-- 4-20 mA
+- Снабжение
+- переключатель
+- 4-20 мА
 - PT100
-- Communication
-- Output
-- Input
-- Run Sources.
+- Коммуникация
+- выход
+- Ввод
+- Проверьте источники.
 
-For example: The supply values are shown in the illustration.
+Например: Значения предложения показаны на иллюстрации.
 
 ![[15400133.png]]
 
-Event Log
+Лог событий
 
-There are several parameters the operator can view from this function:
+Есть несколько параметров, которые оператор может видеть из этой функции:
 
-- All Events
-- Alarms **Only**
-- User Interaction **Only**
-- Commands **Only**
-- Sequence **Only**.
+- Все события
+- Сообщения **Только**
+- Взаимодействие с пользователем **только**
+- Командные команды **Только**
+- Последовательность **Только**
 
 ![[15400134.png]]
 
-The operator can save this file by choosing Save on the menu.
+Оператор может сохранить этот файл, выбрав Сохранить в меню.
 
 ![[15400135.png]]
 
-Engine Service Interval
+Интервал службы двигателя
 
 ![[15400136.png]]
 
-Version Information
+Версия Информация
 
 ![[15400137.png]]
 
-Configuration
+конфигурация
 
-The operator can upload the file once configured.
+Оператор может загрузить файл после его настройки.
 
 ![[15400138.png]]
 
-Interface Design
+Дизайн интерфейса
 
 ![[15400139.png]]
 
-Configuration Menu
+Меню конфигурации
 
-The operator can change a password from the configuration menu.
+Оператор может изменить пароль из меню конфигурации.
 
 ![[15400140.png]]
 
-The operator can upload the configuration file.
+Оператор может загрузить файл конфигурации.
 
 ![[15400141.png]]
 
-The operator can design how the display views data by choosing a different template or creating a user template.
+Оператор может проектировать, как дисплей просматривает данные, выбирая другой шаблон или создавая шаблон пользователя.
 
 ![[15400142.png]]
 
-The operator can set different parameters for the Automatic Start/Stop configuration.
+Оператор может устанавливать различные параметры для конфигурации автоматического запуска/остановки.
 
 ![[15400143.png]]
 
-The language setting defaults to English.
+Язык, устанавливающий по умолчанию английский.
 
-The operator can change the language for all channels or specific channels.
+Оператор может изменять язык для всех каналов или конкретных каналов.
 
 ![[15400144.png]]
 
-The following parameters can be set using the Miscellaneous menu:
+Следующие параметры можно задать с помощью меню Разное:
 
-- Auto Buzzer Off - The operator can toggle between Yes and No.
+- Автобусный зуммер - оператор может переключаться между Да и Нет.
 
 ![[15400145.png]]
 
-- Fuel Consumption
+- Расход топлива
 
 ![[15400146.png]]
 
-- Counters Source
+- Источники Counters
 
 ![[15400147.png]]
 
-- Start/Stop Buttons- The operator can set the button to hold for start and stop.
+- Кнопки запуска/остановки - оператор может настроить кнопку для удерживания для начала и остановки.
 
 ![[15400148.png]]
 
-- Factory Reset
+- Перезагрузка завода
 
 ![[15400149.png]]
 
-The operator can set the parameters on the speed sensor inputs to the SDU.
+Оператор может устанавливать параметры на входах датчика скорости в SDU.
 
 ![[15400150.png]]
 
-The operator can change the engines name and view which type of engine application and manufacturer. The manufacturer **always** defaults to Cummins Inc.
+Оператор может изменить название двигателя и посмотреть, какой тип двигателя применяется и изготовитель. Производитель всегда по умолчанию для Cummins Inc.
 
-The DCU name is also the engines name.
+Название DCU также является названием двигателей.
 
 ![[15400151.png]]
 
-The operator can set the parameters of the prelube start and stop.
+Оператор может задать параметры старта и остановки прелюбия.
 
 ![[15400152.png]]
 
-The operator can set the parameters for the speed sensors to the DCU.
+Оператор может установить параметры датчиков скорости в DCU.
 
 ![[15400153.png]]
 
-The screen displays which type of hardware and which software version is being used.
+На экране отображается, какой тип аппаратного обеспечения и какая версия программного обеспечения используется.
 
 ![[15400154.png]]
 
-The operator can change service intervals by choosing the submit soft button when parameters have been set.
+Оператор может изменять интервалы обслуживания, выбирая мягкую кнопку отправки при задании параметров.
 
 ![[15400155.png]]
 
-The I/O configuration consists of the following parameters:
+Конфигурация ввода/вывода состоит из следующих параметров:
 
-- Engine Speed Inputs
+- Скорость двигателя Входы
 
-- Switch Inputs
+- Ввод коммутатора
 
-- 4-20 mA Inputs
+- 4-20 мА входы
 
-- PT100 Inputs
+- PT100 Вводы
 
-- J1939 Inputs
+- J1939 Вводы
 
-- Differential Inputs
+- Дифференциальные входы
 
-- 24-VDC Input and Outputs
+- 24-VDC вход и выход
 
-- Special Input (used by OEM)
+- Специальный вход (используется OEM)
 
-- On-Panel Relay Outputs
+- Выходы On-Panel Relay
 
-- Off-Panel Relay Outputs
+- Off-Panel Relay Outputs (недоступная ссылка)
 
-- Remote I/O Unit (Speed Relays).
+- Удаленное I/O устройство (Speed Relays).
 
-**Only** a few of the parameters are shown in the following illustrations. All parameter choices remain the same.
+* Некоторые из параметров приведены на следующих примерах. Все параметры выбора остаются прежними.
 
 ![[15400156.png]]
 
-- 4-20 mA Inputs
+- 4-20 мА входы
 
 ![[15400157.png]]
 
-- 24-VDC Inputs or Outputs - The operator can set up to four 24-VDC outputs.
+- 24-VDC входы или выходы - оператор может настроить до четырех выходов 24-VDC.
 
 ![[15400158.png]]
 
-Remote Panel
+Дистанционный пульт
 
-The Remote Panel (RP) main menu consist of the following functions:
+Главное меню удаленной панели (RP) состоит из следующих функций:
 
-- Active Station
-- Backlight
-- Units
-- Wallpaper
-- Language
-- Calibrate Touch Screen
-- System Configuration
-- Information
-- Troubleshooting.
+- Активная станция
+- Подсветка
+- Подразделения
+- обои
+- Язык языка
+- Калибровочный сенсорный экран
+- Конфигурация системы
+- Информация
+- Устранение неполадок.
 
 ![[15400159.png]]
 
-Active Station:
+Активная станция:
 
-The operator can view which station is active or non active by looking in the upper right hand corner of the RP display. The operator can request this station to be Active.
+Оператор может видеть, какая станция активна или неактивна, заглянув в верхний правый угол дисплея RP. Оператор может запросить активную станцию.
 
 ![[15400160.png]]
 
-Backlight:
+Подсветка:
 
-The operator can adjust the intensity of the backlight. This process is the same as the DCU.
+Оператор может регулировать интенсивность подсветки. Этот процесс такой же, как и DCU.
 
 ![[15400161.png]]
 
-Units:
+Единицы:
 
-The operator can toggle between Metric and U.S. measurement values.
+Оператор может переключаться между Метриком и США. Измерительные значения.
 
 ![[15400162.png]]
 
-Language:
+Язык:
 
-The language setting defaults to English.
+Язык, устанавливающий по умолчанию английский.
 
 ![[15400163.png]]
 
-Wallpaper:
+Обои:
 
-The operator can choose between 1 of 3 wallpapers for the display.
+Оператор может выбрать между 1 из 3 обоев для дисплея.
 
 ![[15400164.png]]
 
-Calibration Touch Screen:
+Калибровочный сенсорный экран:
 
-The operator can calibrate the touch screen by touching the tick boxes on the screen. The tick boxes are located in each corner and the center of the display.
+Оператор может откалибровать сенсорный экран, касаясь клещевых коробок на экране. Клещевые коробки расположены в каждом углу и центре дисплея.
 
 ![[15400165.png]]
 
-System Configuration:
+Конфигурация системы:
 
-For the operator to change the system configuration, a password **must** be entered (default 1234). If the password is lost or forgotten, contact a Cummins® Authorized Repair Location to regain access. The following parameters can be adjusted:
+Для изменения конфигурации системы оператору необходимо ввести пароль **** (по умолчанию 1234). Если пароль потерян или забыт, свяжитесь с авторизованным местом ремонта Cummins®, чтобы восстановить доступ. Можно скорректировать следующие параметры:
 
-- Password
+- Пароль
 
-- Priority Selection
+- Приоритетный выбор
 
-- Alarms
+- Сигнал тревоги
 
-- Acknowledgement of Alarms
+- Признание тревоги
 
-- Confirmation Timeout Behavior
+- Подтверждение тайм-аут поведения
 
-- Panel Location
+- Месторасположение панели
 
-- Date and Time
+- Дата и время
 
-- IP Address
+- IP адрес
 
-- DCU Connections
+- DCU соединения
 
-- Factory Reset.
+- Завод перезагрузился.
 
 ![[15400166.png]]
 
-Priority Selection
+Приоритетный выбор
 
-The operator can give a brief description of each 1, 2, or 3.
+Оператор может дать краткое описание каждого из 1, 2 или 3.
 
-Active station priority capabilities are described on the selection screen.
+Функции приоритета активной станции описаны на экране выбора.
 
 ![[15400167.png]]
 
-Alarms
+Сигнал тревоги
 
-The operator can disable all the alarms at this active station Yes \[No\]. Selecting Yes inhibits all alarms on this station.
+Оператор может отключить все сигналы тревоги на этой активной станции Да \[Нет \]. Выбор Да тормозит все сигналы тревоги на этой станции.
 
 ![[15400168.png]]
 
-Acknowledgement of Alarms
+Признание тревоги
 
-Alarms can
+Сигнал тревоги может
 
-not
+не
 
-be silenced or acknowledged on the remote panel, but
+быть замалчиваемым или признанным на удаленной панели, но
 
-must
+должен
 
-be silenced and acknowledged on the DCU at the engine.
+Замолчите и получите признание в DCU на двигателе.
 
 ![[15400169.png]]
 
-Confirmation Timeout Behavior
+Подтверждение тайм-аут поведения
 
-The operator can set the timeout to 10 to 255 seconds \[10\]. The default is hand over control upon timeout. The operator can deny transfer upon timeout.
+Оператор может установить тайм-аут на 10-255 секунд[10]. По умолчанию контроль над временем. Оператор может отказать в передаче по тайм-ауту.
 
 ![[15400170.png]]
 
-Panel Location
+Месторасположение панели
 
-This station can be named the following:
+Эту станцию можно назвать следующей:
 
-- Bridge
+- Мост
 
-- Port Wing Station
+- Портовая станция Wing
 
 - Starboard Wing Station
 
-- Tower
+- Башня
 
-- Engine Control Room
+- Комната управления двигателем
 
-- Engine Room
+- Машинное отделение
 
-- Aft Station
+- Станция Aft
 
-- Bow Station
+- Боу-Стейшн
 
-- Other
+- другой
 
 ![[15400171.png]]
 
-IP Address
+IP адрес
 
-The operator can change the IP address of the RP in the network.
+Оператор может изменить IP-адрес RP в сети.
 
 ![[15400172.png]]
 
-DCU Connections
+DCU соединения
 
-This screen is dialog that displays scan process and results. List available DCU CIB panels in the network, and select (check the tick box) for each. The default setting for this parameter is “none are ignored”.
+Этот экран представляет собой диалог, который отображает процесс сканирования и результаты. Перечислите доступные панели DCU CIB в сети и выберите (проверьте галочку) для каждого. По умолчанию для этого параметра «ни один не игнорируется».
 
-Specific DCUs in the network can be ignored.
+Конкретные DCU в сети могут быть проигнорированы.
 
 ![[15400173.png]]
 
-Factory Reset
+Перезагрузка завода
 
-The operator can reset the configuration to default manufacturer settings.
+Оператор может сбросить конфигурацию до настроек производителя по умолчанию.
 
 ![[15400174.png]]
 
-Version Information:
+Информация по версии:
 
-The Version Information can be displayed by the operator.
+Информация о версии может быть отображена оператором.
 
 ![[15400175.png]]
 
-Troubleshooting:
+Устранение неполадок:
 
-The operator can use the Troubleshooting from the main menu to view different parameters of the engine.
+Оператор может использовать устранение неполадок из главного меню для просмотра различных параметров двигателя.
 
-The tab screens consist are:
+Экраны вкладок состоят из:
 
-- Supply
+- Снабжение
 
-- Switch
+- переключатель
 
-- 4-20 mA
+- 4-20 мА
 
 - PT100
 
-- Communication
+- Коммуникация
 
-- Output
+- выход
 
-- Input
+- Ввод
 
-- Run Sources
+- Проверить источники
 
-- Button Test.
+- Кнопочный тест.
 
 ![[15400176.png]]
 
-Supply:
+Поставка:
 
-This screen displays the power source to the RP.
+Этот экран отображает источник питания для RP.
 
 ![[15400177.png]]
 
-Switch:
+Переключатель:
 
-This screen displays the eight switch inputs to the SDU unit. These switches are normally open.
+Этот экран отображает восемь входов переключателя в блок SDU. Эти переключатели обычно открыты.
 
 ![[15400178.png]]
 
-4-20 mA:
+4-20 мА:
 
-The 4-20 mA circuits are typically for pressure sensors. This screen displays each one of the 4-20 mA circuits and whether they are in use or **not** in use.
+Схемы 4-20 мА обычно предназначены для датчиков давления. Этот экран отображает каждую из схем 4-20 мА и независимо от того, используются они или нет.
 
 ![[15400179.png]]
 
 PT100:
 
-The PT100 circuits are typically for temperature sensors. This screen displays the status of each circuit.
+Схемы PT100 обычно предназначены для датчиков температуры. Этот экран отображает состояние каждой цепи.
 
 ![[15400180.png]]
 
-Com:
+Ком:
 
-This screen displays the communication link between the SDU and multiple RIO circuits to the RP display.
+Этот экран отображает связь между SDU и несколькими схемами RIO на дисплее RP.
 
 ![[15400181.png]]
 
-Output:
+Результат:
 
-This screen displays the Inactive or Active status of each output circuits.
+Этот экран отображает неактивное или активное состояние каждой выходной цепи.
 
 ![[15400182.png]]
 
-Input:
+Ввод:
 
-This screen displays the Inactive or Active status of each input circuit.
+Этот экран отображает неактивный или активный статус каждой входной цепи.
 
 ![[15400183.png]]
 
-Run Sources:
+Источники Run:
 
-This screen displays the status on each source circuit and whether the function has been configured or **not**.
+Этот экран отображает состояние на каждой цепи источника и независимо от того, была ли функция настроена или нет.
 
 ![[15400184.png]]
 
-Button Test:
+Кнопочный тест:
 
-This screen displays the status of each one of the buttons.
+Этот экран отображает состояние каждой из кнопок.
 
-![[15400185.png]]
+> [!missing]- Иллюстрация `15400185.png` не извлечена — смотрите PDF-оригинал документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The C Command Elite™ and C Command Elite Plus™ is the premium version of the customer interface box (CIB).
+>
+> - The CIB is a common point for engine and vessel connections.
+> - The CIB provides connections to the ECM through Deutsch™ connectors at the bottom of the CIB panel.
+> - Communication protocols are opened through SAE J1939 Ethernet and Modbus™ connections. This communication allows for accurate updates of engine statistics.
+> - No engine room panel (ERP) is required because the CIB functions as a local control panel.
+> - Supports all C Command™, C Command Elite™, and C Command Elite Plus™ remote options.
+> - Full color displays on the diesel control unit (DCU410) and remote panel (RP).
+> - Remote panel touch screens capable of monitoring up to 8 engines.
+> - Capable of integrating 6 vessel supplied inputs.
+> - The C Command Elite™ and C Command Elite Plus™ panel systems support feature meets Marine Society requirements for Class approvals.
+> - The DCU410 includes modules for safety and alarm system requirements.
+> - Includes sensors, switches, and harnesses to meet Type Approved requirements. Additional vessel inputs available to meet requirements are **not** yet supported.
+>
+> The combination of these features provides a very flexible and stable platform for engine control and diagnostics.
+>
+> Customer Interface Box
+>
+> Isolators are required for the installation of the CIB panel. Engine mounted panels are **not** required.
+>
+> The CIB contains the most basic functions which are required by all system configurations. Most functions in the CIB are performed by the CIB integrated DCU410 control panel and the CIB logic unit (CLU). The DCU410 is a microprocessor controlled unit that performs the extended functions of the C Command Elite™ and C Command Elite Plus™ panel systems. The CLU contains relays, diodes, resistors, switches, microcontroller, and power management capabilities.
+>
+> The CIB is a mandatory option that is delivered with every engine, and is designed to function when connected to the vessel, whether or **not** a Cummins Inc. provided remote panel is supplied.
+>
+> The CIB is capable of accepting power from two independent power supplies, but **only** one is required for normal operation. The second power supply is intended to be a backup for the primary power supply in the event of a primary power supply malfunction or to fulfill marine society requirements in the case of C Command Elite Plus™. The CLU automatically switches between the primary and secondary power supplies with any primary malfunction. In addition to the power supply switching, the CIB also conditions and distributes the power received by the vessel power supply. It is capable of detecting under-voltage, over-voltage, under current, over-current, and reverse current for each of the vessel power inputs.
+>
+> **CAUTION · Осторожно**
+> The CIB is not protected from AC power sources. Damage can occur if AC power is applied to the CIB.
+>
+> The primary and secondary power supplies are also isolated from each other in the circuitry of the CIB. This makes sure there is protection from ground faults and galvanic issues. The CIB power management system is designed to supply power for **only** Cummins Inc. supplied devices. Vessel connections are primary connected to the X4 terminal strip inside the CIB.
+>
+> The C Command Elite Plus™ panel system requires both power supplies to be connected.
+>
+> The Ethernet switch is included in the CIB for remote panel and vessel networking connections.
+>
+> Cummins Inc. supplies the sensors and connections for the C Command Elite Plus™ panel system.
+>
+> The CIB is connected to the engines ECM through Deutsch™ connectors C8, C9, C10, and data link.
+>
+> **Note · Примечание**
+> Power for customer supplied devices is **not** allowed to be connected to the CIB vessel terminal strip.
+>
+> The connections are as follows:
+>
+> - ECM unswitched power
+> - ECM switched power
+> - J1939 data link
+> - Diagnostic lamp outputs
+> - Analog outputs (speed, pressure, and temperature)
+> - Speed control
+> - Idle control
+> - Remote sensors.
+>
+> Diesel Control Unit
+>
+> CIB Integrated Control Panel Diesel Control Unit (DCU)
+>
+> All control and monitoring can be achieved at the DCU full-color display on the CIB. No separate Engine Room Panel is necessary or provided. See the illustration for a close-up of the DCU unit.
+>
+> The DCU communicates with the ECM via the J1939 bus to the ECM. This display allows the operator to view a selection of parameters as well as full text descriptions of ECM fault codes. The C Command™ ED-3 (if equipped) **must** be configured as described for C Command™ parameters if connected to the C Command Elite™ and C Command Elite Plus™ system. Engine command and monitoring is controlled via both hard and soft keys located on the DCU unit display.
+>
+> The DCU outputs all signals to the CIB Ethernet switch, the Ethernet output is then routed to any Remote Panels that are present on the vessel. Each DCU will be assigned an Engine Number (IP) for recognition on the vessel network. The configuration of this number will be requested the first time the DCU is powered up. This number can also be changed from the DCU main menu, if necessary. In addition, with the use of the web-based configuration interface, the DCU can also be assigned a text name.
+>
+> Any additional inputs from the vessel need to be configured at the DCU unit. The DCU unit controls what is displayed on the remote panel screens.
+>
+> Shutdown Unit
+>
+> CIB Integrated Control Panel Remote Input/Output Unit (RIO)
+>
+> The SDU unit is an independent component within the CIB.
+>
+> There are LED indicators on the unit face for status and fault codes.
+>
+> Switch conditions are available on remote panels as well as on Modbus™ and data link. The Reset button on the unit face acknowledges faults and enables shutdown functionality.
+>
+> The Safety System requirement from the marine agencies is met with the use of the Shutdown Unit (SDU). The SDU provides secondary engine protection by shutting down the engine if any critical parameters are exceeded. With the exception of engine speed, these signals are provided to the SDU as switch closures based on the exceeded condition.
+>
+> The SDU has five (5) Cummins® dedicated channels for Safety System shutdown use. An additional three (3) other switch inputs are provided for vessel initiated shutdowns.
+>
+> The SDU communicates system faults through the use of amber LEDs for individual input channels. Red LEDs are used to communicate a parameter has been exceeded and an in-process engine shutdown. A Shutdown Override function is available on the SDU. This function disables all engine protections provided by the SDU, with the exception of Engine Overspeed protection. The SDU may be configured so that other protections will continue to be enabled when the Shutdown Override function is in use.
+>
+> A Reset function is included as part of the SDU as well. In the event of a SDU based shutdown, the SDU **must** be reset in order to allow for engine re-start. This function can be utilized by the Reset button located on the SDU front face.
+>
+> All QSK Series engines with MCRS are equipped with the same sensors/switches for the Safety System. The following table is a description of the SDU channels and their function.
+>
+> | SDU Channel Descriptions |  |  |
+> |---|---|---|
+> | Quantity | Type | Description |
+> | 2 | Speed Sensor | Overspeed Speed Range for Switches |
+> | 5 | Switch Input (normally open) | Cummins Dedicated Shutdowns: Coolant Temperature, Coolant Pressure, Lubricating Oil Pressure (low-speed range), Lubricating oil Pressure (high-speed range), Remote Engine Stop |
+> | 3 | Switch (normally open) | Additional Vessel Shutdowns |
+> | 2 | Switch (normally open) | Shutdown Override Contact Reset Button |
+> | Note: Three (3) shutdown input channels are available. |  |  |
+>
+> Remote Input/Output Unit
+>
+> The Remote Input Output Unit (RIO) is an analog-to-digital converter for alarm sensors. This unit is contained within the CIB and allows for the integration of alarm sensor inputs into the panel system. The RIO broadcasts analog input signals from on-engine alarm sensors and any additional vessel alarms sensor via Modbus™, which can then be read by the DCU.
+>
+> **Note · Примечание**
+> The information from the sensors connected to this unit is **only** available on the Ethernet, Modbus™, or CANOpen interfaces. They can **not** be viewed with a Calterm or INSITE™ electronic service tool.
+>
+> The required Alarm and Monitoring system sensors to meet Marine Society classifications from Cummins are wired directly from the CIB connector C4 to the RIO. Additional RIO channels are made available at the RIO for vessel supplied sensors that may be required to meet Marine Society requirements **not** covered by the C Command Elite Plus™ system. A list of the Cummins® dedicated channels, per engine type, and the channels available for vessel use are outlined in the Cummins® Dedicated Alarm and Monitoring System Channels table.
+>
+> The connections required for the RIO additional channels for the vessel **must** be made at the RIO directly. The terminal numbers for each vessel channel can be found on the C Command Elite Plus™ Marine Wiring Diagram. These channels can be configured from either the DCU Configuration Menu or the web-browser based interface. From there, channels can be activated, sensor ranges/switch conditions can be set, and alarm thresholds can be defined.
+>
+> | Cummins® Dedicated Alarm and Monitoring System Channels |  |  |  |
+> |---|---|---|---|
+> |  | Engine Source |  |  |
+> | Description | QSK19 | QSK38 | QSK50/QSK60 |
+> | Fuel Leakage (normally closed) | R | R | R |
+> | Intake Manifold Temperature (left back front on KV engine) | E | E | E |
+> | Left Bank Rear Intake Manifold Temperature (KV engines **only**) |  | R | E |
+> | Right Bank Front Intake Manifold Temperature (KV engines **only**) |  | R | E |
+> | Right Bank Rear Intake Manifold Temperature (KV engines **only**) |  | R | E |
+> | Spare Temperature (e.g., Gear Oil Temperature) | R | R | R |
+> | Coolant Pressure | R | R | E |
+> | Lubricating Oil Filter Inlet Pressure | R | R | E |
+> | Sea Water Pressure | R | R | R |
+> | Spare Pressure (e.g., Air Starter) | R | R | R |
+> | LEGEND: R = RIO Monitored, E = ECM Monitored |  |  |  |
+>
+> | Additional Alarm and Monitoring System Channels for Vessel Supplied Sensors |  |  |  |
+> |---|---|---|---|
+> |  | Engine Source |  |  |
+> | Description | QSK19 | QSK38 | QSK50/QSK60 |
+> | Three (3) Temperature Channels | R | R | R |
+> | Five (5) Pressure Channels | R | R | R |
+> | One (1) Coolant Level Channel | R | R | R |
+> | Two (2) Exhaust Temperature Channels | R | R | R |
+> | Three (3) Switch Inputs (normally open) | R | R | R |
+> | Two (2) Relay Outputs | R | R | R |
+> | Two (2) Switch Outputs | R | R | R |
+> | LEGEND: R = RIO Monitored, E = ECM Monitored |  |  |  |
+>
+> | RIO Channel Descriptions |  |  |
+> |---|---|---|
+> | Quantity | Type | Description |
+> | 4 | Switch Input | 24-VDC Configurable NO/NC Switch Input |
+> | 8 | PT100 | Temperature Sensor Input |
+> | 9 | 4-20 mA | Pressure Sensor Input |
+> | 1 | 0-5 VDC | Coolant Level Sensor Input (Ratiometric) |
+> | 2 | Type K | Thermocouple Input |
+> | 2 | Relay Output | Configurable Relay Switch Output |
+> | 2 | Switch Output | 24-VDC Configurable NO/NC Switch Output |
+>
+> Remote Panel
+>
+> The remote panel **must** be mounted in a protected enclosure or console. The remote panel installation kit includes all hardware and seals.
+>
+> The remote panel (RP) is the main engine display available on the C Command Elite™ and C Command Elite Plus™ panel systems. Alarms are displayed as on the DCU410 unit and include a full text description of the alarm or fault. The remote panel includes all of the functionality available at the DCU410 unit, including engine start and stop.
+>
+> Remote Panel Features:
+>
+> - Automatically scans for connected engines (DCUs)
+> - Up to 8 DCUs may be connected to one RP via Ethernet network
+> - Displays engine parameters as displayed on each DCU (Content dependent on DCU)
+> - Capability to Start and Stop multiple engines from a single RP
+> - Capability to display Alarm status for multiple engines from a single RP
+> - Displays service interval timer, as on DCU
+> - Alarm broadcasting to the RP may be disabled (in the case of a manned engine room).
+>
+> Like the DCU, the functions of the RP are accessed with a combination of Hard and Soft Keys. The difference is that the RP has a touch screen interface, so rather than pressing buttons below a Soft option, the operator **must** press the function text directly. The Hard keys function in the same manner as the DCU, with **only** one difference. A Home Hard key has been added to ease navigation through the touch screen pages. Also like the DCU, RP **must** be assigned an IP number in order to properly be recognized by the vessel network. This unique IP number will allow for several RPs to be installed on a vessel network without conflict. Additionally, each RP can be assigned a station name to more easily distinguish the location of each RP and which station is in present control. The remote panel can be used to view the status of any of the engines that it has been set up to monitor, without any interaction with other remote panels in the vessel network. To perform control functions, the remote panel **must** be in Active Station Mode.
+>
+> The remote panel can be assigned a panel location. The panel location is selected from a list in the remote panel system configuration menu. The location will be shown in the upper right hand corner of the display to denote which location is the active station. The following are remote panel locations:
+>
+> - Bridge
+> - Port wing station
+> - Starboard wing station
+> - Tower
+> - Engine control room
+> - Aft station
+> - Bow station
+> - Other.
+>
+> ### New Connection
+>
+> Diesel Control Unit
+>
+> Connectors at Bottom of CIB
+>
+> The C Command™ CIB has the following connectors at the bottom of the cabinet:
+>
+> - “C1” - 16-Pin Deutsch™ Connector
+> - “C2” - 23-Pin Deutsch™ Connector
+> - “C3” - 31-Pin Deutsch™ Connector
+> - “C31” - Service Connector
+>
+> Connector C1 is connected to Connector C8 (16-pin) on the engine. Connector C2 is connected to Connector C9 (23-pin) on the engine. Connector C3 on the CIB is connected to C10 (31-pin) on the Engine.
+>
+> Remote Panel
+>
+> Connection to the remote panel **must** be made through the Ethernet connection so the remote can communicate with the DCU.
+>
+> ### Setup
+>
+> Diesel Control Unit
+>
+> The following is an overview of the DCU Power Wizard process.
+>
+> The DCU will power up in conjunction with the CIB Power Switch. During the first power up, the DCU will enter the Power On Wizard. The panel system operates on 24-VDC.
+>
+> The setup wizard will prompt the user to input the basic data necessary to configure the DCU for the engine type, engine location, and application. The wizard will also allow the operator to set a custom password to protect higher level settings to be changed.
+>
+> 1. Select a language:
+>
+> a. Choose from available languages.
+>
+> b. Press OK to confirm.
+>
+> 1. Choose administrator password:
+>
+> a. Input default password (1234).
+>
+> b. Input new password.
+>
+> c. Re-enter new password for validation.
+>
+> d. Press OK to confirm.
+>
+> 1. Select an IP number:
+>
+> a. View default IP number for the DCU.
+>
+> b. Change the value to required IP for vessel network.
+>
+> **Note · Примечание**
+> Devices can **not** have identical IP addresses in an Ethernet network.
+>
+> c. Press Save to commit the value.
+>
+> d. Press Exit to go to the next step.
+>
+> This value becomes the engine identification number for the remote panel. A name can also be assigned to the engine with the web-browser based tool.
+>
+> 1. Load Configuration:
+>
+> a. Highlight “Model” selection box.
+>
+> b. Press Edit to change the value.
+>
+> c. Use Arrow soft keys to move between options.
+>
+> d. Press OK to save change.
+>
+> e. Press Down Arrow hard key to highlight the next selection.
+>
+> f. Repeat steps a though d for “Heat Exchanger”, “Type Approved”, and “Engine Application”.
+>
+> g. Press the Load soft key to commit the configuration to the DCU.
+>
+> h. Press Yes to load the new configuration or press Cancel to return to the setup menu.
+>
+> After configuration, the operator should return to the Home page on the DCU unit.
+>
+> Remote Panel
+>
+> The following is an overview of the Remote Panel (RP) Power Wizard process.
+>
+> The remote panel will also power up in conjunction with the CIB Power Switch.
+>
+> During the first power up, the RP will also enter its Power On Wizard.
+>
+> The setup wizard will prompt the user to input the basic data necessary to configure the RP for the Language, Location, IP Address, and Monitored Engine(s). It will also allow the user to set a custom password to protect higher level settings to be changed.
+>
+> The RP Power On Wizard is very similar to the DCU Power On Wizard. The main difference is that most of the options for the RP are set by DCU configuration. The information that is required for initial setup is much less than the DCU.
+>
+> 1. Select a language:
+>
+> a. Choose from available languages.
+>
+> b. Press OK to confirm.
+>
+> 1. Choose administrator password:
+>
+> a. Input default password (1234).
+>
+> b. Input new password.
+>
+> c. Re-enter new password for validation.
+>
+> d. Press OK to confirm.
+>
+> 1. Select an IP number:
+>
+> a. View default IP number for the DCU.
+>
+> b. Change the value to required IP for vessel network.
+>
+> **Note · Примечание**
+> Devices can **not** have identical IP addresses in an Ethernet network.
+>
+> c. Press Save to commit the value.
+>
+> d. Press Exit to go to the next step.
+>
+> This value becomes the engine identification number for the remote panel. A name can also be assigned to the engine with the web-browser based tool.
+>
+> 1. Select panel location name:
+>
+> a. Choose from available panel names.
+>
+> b. Press OK to confirm.
+>
+> After configuration, the operator should return to the Home page on the DCU unit.
+>
+> 1. Select engine(s) to monitor:
+>
+> a. Available engine(s) will be listed by IP number and engine name, if set.
+>
+> b. Check select box for engine(s) that RP is intended to monitor.
+>
+> c. Press OK to confirm.
+>
+> **Note · Примечание**
+> Presently **only** single engine monitoring is available. Multiple engine monitoring is planned.
+>
+> 1. Remote panel complete:
+>
+> a. Cummins Inc. RP information screen will be shown on the display.
+>
+> b. RP is ready for system commands.
+>
+> After configuration, the operator should return to the Home page on the DCU unit.
+>
+> ### Viewing Data
+>
+> Diesel Control Unit
+>
+> The display of the DCU is divided into three functional areas:
+>
+> - Main screen
+> - Status Bar
+> - Soft Key Indication.
+>
+> These areas are shown in the illustration.
+>
+> The present status of the system is represented in the top area of the screen. The Status Bar is separated into six fields. Text and graphics are used to provide at-a-glance evaluation of the system state in these fields.
+>
+> 1. DCU Present Status
+> 2. DCU Service Mode
+> 3. DCU Local/Remote Mode
+> 4. DCU Override Shutdown Mode
+> 5. DCU Manual/Automatic Mode
+> 6. DCU All OK Mode
+>
+> The following tables define the possible field contents.
+>
+> Field 1 of the status bar is used to display the present operating status of the DCU. A text message will be displayed that reflects the mode of operation that the DCU is performing. A list of these messages and what they represent can be found in DCU Status Messages table.
+>
+> | Field 1 DCU Status Messages |  |
+> |---|---|
+> | Message | Comments |
+> | Ready | Ready for engine start |
+> | About to start... | When automatic start in Automatic mode |
+> | Prelube | Manual or Automatic Prelube |
+> | Cranking | “Cranking Attempt n” if n\>1 for Automatic mode |
+> | Awaiting Run | Start request made but awaiting release |
+> | Awaiting Next Start Attempt | Delay between start attempts |
+> | Running | Engine running |
+> | Delayed Stop | Automatic stop signal received in automatic mode |
+> | Cooling | Cool down mode after delayed stop |
+> | Running? | Lost the **only** source of Run indication |
+> | Stopping | Stop request made |
+> | Stopped | RPM \< 5 |
+> | Blocked | Blocked from running |
+> | Extended Stopping | Pre-programmed stop delay, 50 seconds. Engine can **not** be started in this state |
+> | Start Disabled |  |
+>
+> Fields 2 through 6 of the status bar are used to denote the DCU active modes. A graphical representation of the active mode(s) will be displayed in the indicator boxes. The function of each field is described below in the Status Bar Indicators table.
+>
+> | Field 2 - 6 DCU Status Messages |  |  |
+> |---|---|---|
+> | Field | Name | Description |
+> | 2 | Service | Wrench - Service interval/maintenance alarm active |
+> | 3 | Local/Remote | L - Local start **only** mode active |
+> | 4 | Shutdown Override | SO - Shutdown Override Active |
+> | 5 | Manual/Automatic | M - Manual Start/Stop Mode Active |
+> | 6 | All OK | Green - No active or unacknowledged red/amber faults present |
+>
+> The most comprehensive area of the display is in the Main Screen. It is responsible for representing available engine data and all menu content. The information in this area changes with the selected function. Some information can continue off of the Main Screen area. In this case, the arrow keys on the side of the DCU can be used to advance the screen/cursor up or down. Additionally, while in the engine data viewing screens, there are multiple data templates that can be scrolled through with the use of the arrow keys.
+>
+> ### Page Navigation
+>
+> Diesel Control Unit
+>
+> This button provides access into the Main Menu of the DCU. From this menu the user can access additional information from the DCU that is **not** contained in the default display screens. The user can also access troubleshooting screens and programming screens for the DCU as well. The menu is separated into several levels. From each level, a specific list of sub-levels is available. The user navigates this list of levels with a combination of Hard and Soft Key presses. A list of the available options from this menu, along with brief descriptions of their function, can be found in DCU Main Menu Option Levels table.
+>
+> | DCU Main Menu Option Levels |  |  |  |  |
+> |---|---|---|---|---|
+> | Top Level | 2nd Level | 3rd Level | 4th Level | Description |
+> | Screen Backlight | Automatic, 10 percent, 50 percent, 100 percent. |  |  | In Automatic, DCU uses a photo sensitive feedback from the front panel. |
+> | Language |  |  |  | Select Language |
+> | Units |  |  |  | Select Units (Metric/U.S.) Display Unit |
+> | Counters | Dialog that display counters. Option to reset trip values. |  |  | From ECM if available, from DCU if **not**. Shall include: - Total hours: minutes - Trip hours: minutes (since start) - Trip hour: minutes (resettable) - Start counter - Fuel consumption counters. Option to reset the fuel consumption trip counters, originated from J1939 or calculated values. |
+> | Automatic/Manual |  |  |  | Displays an “M” in the DCU Status Bar. |
+> | Local/Remote |  |  |  | Displays an “L” in the DCU Status Bar. |
+> | Prelube Override | Yes, No |  |  | Record all changes as events in the Log. If selecting “Yes” a dialog shall appear “Are you sure you want to select Prelube Override? Yes, Cancel” When in Prelube Override, continues in state CRANKING after Prelube Activation signal. When active, shall display “Prelube Override” in the LCD. When engine has been running for \>10 sec, or reached Start Failure Alarm, this shall reset back to “No” (do **not** want to stay in Prelube Override). The configuration shall determine if this menu item is available or **not**. This menu option disappears if Configuration - Prelube Installed - No. |
+> | Start Disabled |  |  |  | Start can be disabled in the menu or from external input. While in this mode; if user press the Start button, a dialog shall inform that: ”Start Disabled”. Dialog disappears after 2 sec. |
+> | Troubleshooting | Tabular list of status for all available DCU functions |  |  | Use Tab soft button to navigate status pages |
+> | Event Log | Displays the Event Log |  |  | Use soft keys to filter/sort events |
+> | Engine Service Interval | Tabular list of all programmed service events |  |  | Displays time left until programmed interval. Interval value can be programmed from Configuration option. |
+> | Connect a PC | Displays IP address of DCU. Toggle Enabled tick box and Save to activate. |  |  | Enables DHCP server in DCU to allow for communication with Service PC. |
+> | Version Information |  |  |  | DCU 410 Firmware, Hardware, Colibri, etc.; RIO 410 Firmware, Hardware (x4); SDU 410 Firmware, Hardware. |
+> | Configuration | Password dialog |  |  | If Password is set. In the event of a lost/forgotten password, an encrypted password is shown here that can be decrypted by Cummins Inc. or Auto-Maskin. |
+> |  | Password Configuration |  |  |  |
+> |  | Load Configuration | Configuration Wizard |  | Load configuration based on wizard profile |
+> |  | Interface Design | Form List | Template Design Pages | Change/Add Screen Template content |
+> |  | Automatic Start/Stop Config. | Dialog with settings |  | Number of start attempts, etc. |
+> |  | Language | English |  | Select the language to be used. |
+>
+> Screen Backlight:
+>
+> The operator in manual mode can choose the backlight illumination from 10, 50, or 100 percent settings.
+>
+> In Automatic mode, the DCU uses a photo sensitive feedback from the front panel.
+>
+> Language:
+>
+> The operator can view what language the DCU will display.
+>
+> Choices of language:
+>
+> The language can be set in the DCU Power On Wizard. Reference the setup portion of this procedure.
+>
+> Units:
+>
+> The operator can toggle between Metric and U.S. values in measurements.
+>
+> Counters:
+>
+> The operator has the option to reset trip values. The screen displays a dialog that displays counters.
+>
+> Values are from the ECM if available and from the DCU if **not**.
+>
+> The counters include:
+>
+> - Total hours: minutes
+> - Trip hours: minutes (since start)
+> - Trip hour: minutes (resettable)
+> - Start counter
+> - Fuel consumption counters.
+>
+> Option to reset the fuel consumption trip counters, originated from J1939 or calculated values.
+>
+> Automatic/Manual:
+>
+> The Automatic/Manual setting is displayed in field (5) of the status bar.
+>
+> The Select button will toggle between Manual and Automatic.
+>
+> Local/Remote:
+>
+> The Local/Remote setting is displayed in field (3) of the status bar.
+>
+> The Select button will toggle between Local and Remote.
+>
+> Prelube Override:
+>
+> The operator can toggle between Yes and No.
+>
+> Record all changes as events occur in the Log.
+>
+> If selecting “Yes” a dialog shall appear “Are you sure you want to select Prelube Override? Yes/Cancel”
+>
+> When in Prelube Override, continues in state CRANKING after Prelube Activation signal.
+>
+> When active, shall display “Prelube Override” in the LCD.
+>
+> When engine has been running for \>10 sec, or reached Start Failure Alarm, this shall reset back to “No” (do **not** want to stay in Prelube Override).
+>
+> **Note · Примечание**
+> The configuration shall determine if this menu item is available or **not**, if configured with no prelube installed. the menu will **not** appear.
+>
+> This menu option disappears if Configuration - Prelube Installed - No.
+>
+> Start Disabled:
+>
+> Start can be disabled in the menu or from an external input.
+>
+> While in this mode, if the user presses the Start button, a dialog shall inform that: “Start Disabled”. The dialog disappears after 2 seconds.
+>
+> Troubleshooting:
+>
+> Displays a tabular list of status for all available DCU functions.
+>
+> Use the tab button to navigate through the screen displays.
+>
+> The functions are:
+>
+> - Troubleshooting DCU
+> - Troubleshooting RIO 1
+> - Troubleshooting RIO 2
+> - Troubleshooting RIO 3
+> - Troubleshooting RIO 4.
+>
+> The tab screens for the troubleshooting functions are:
+>
+> - Supply
+>
+> - Switch
+>
+> - 4-20 mA
+>
+> - PT100
+>
+> - Com
+>
+> - Output
+>
+> - Input
+>
+> - Run Sources
+>
+> - Button Test.
+>
+> The tab screens are the same for all functions.
+>
+> Event Log:
+>
+> The operator can use the soft keys to filter or sort events in this mode.
+>
+> The tab screens are:
+>
+> - Oldest
+> - Newest
+> - Most Severe.
+>
+> Engine Overspeed Test:
+>
+> The operator can configure the class vessel to allow for this test.
+>
+> Engine Service Interval:
+>
+> This is a tabular list of all programmed service events. It displays time left until programmed interval. The interval value can be programmed for the Configuration Menu in this procedure.
+>
+> The tab screens are:
+>
+> - Service 1
+> - Service 2
+> - Service 3
+> - Service 4.
+>
+> The operator can confirm the maintenance interval by pressing the Service Done button.
+>
+> If the Service Done button is pressed, the maintenance interval will advance to the next interval.
+>
+> Connect to PC:
+>
+> Displays the IP address of the DCU.
+>
+> Toggle Enabled tick box and Save to activate.
+>
+> Enables DHCP server in DCU to allow for communication with Service PC.
+>
+> Version Information:
+>
+> Displays the following information for the operator:
+>
+> - Hardware Version
+> - Software Version
+> - IP Number.
+>
+> Details can be displayed at anytime by pressing the Detail button. The details include:
+>
+> - DCU 410 Firmware, Hardware, Colibri, etc.
+> - RIO 410 Firmware, Hardware (x4)
+> - SDU 410 Firmware, Hardware.
+>
+> The screen illustrates template design pages and forms list.
+>
+> The operator can change user defined screens and other screens can be adjusted.
+>
+> Configuration Menu
+>
+> The following steps are for DCU configuration.
+>
+> This screen displays dialog for the password.
+>
+> In the event of a lost or forgotten password, an encrypted password can be obtained from a Cummins® Authorized Repair Location.
+>
+> This directs the operator to the Configuration Menu.
+>
+> The operator can set which language the DCU will display by using the up and down arrow keys.
+>
+> The default language is English.
+>
+> The following steps are Miscellaneous under the Configuration Menu.
+>
+> The operator **must** enter a pass code before the Miscellaneous configuration parameters can be changed.
+>
+> The parameters include:
+>
+> - Automatic Buzzer Off
+> - Fuel Consumption
+> - Speed Relays
+> - Counter Source
+> - Start/Stop Buttons
+> - Network Configuration
+> - Factory Reset.
+>
+> Automatic Buzzer Off:
+>
+> The automatic buzzer times out after 12 hours for commissioning.
+>
+> The internal (and external if configured) buzzer will sound once **only** and then turn off.
+>
+> The operator can toggle between inactive and active.
+>
+> Fuel Consumption:
+>
+> Cummins Inc. recommends adjusting Calculate Fuel Consumption parameters. Fuel consumption inaccuracies can occur.
+>
+> Speed Relays:
+>
+> The operator can enable one or all four of the speed relay outputs.
+>
+> - Enabled
+> - Engine speed level
+> - Update Event Log.
+>
+> The settings are the same for all four relays.
+>
+> Counter Source:
+>
+> Cummins Inc. recommends this parameter to be set to J1939. The DCU will be able to read input from the ECM.
+>
+> Engine hours configuration lets you offset broadcast J1939 hours locally on the display.
+>
+> Start/Stop Buttons:
+>
+> The operator can toggle between Latched and Hold modes by pressing the Select button.
+>
+> Hold to Start:
+>
+> To start the engine, the operator
+>
+> must
+>
+> press and hold the start button until the engine is running. When the engine speed has reached 500 rpm, the engine run signal will become active and the starter will automatically be disengaged. If the engine speed falls below 100 rpm, the run signal will become inactive, thus allowing another start attempt. If the start button is released at any point prior to the engine running, the start process will terminate.
+>
+> Latched Start:
+>
+> To start the engine, the operator first
+>
+> must
+>
+> press the start button. Upon pressing the start button, the DCU will prompt the operator with a start confirmation message “Are you sure?” The operator
+>
+> must
+>
+> then press the soft button labeled “Start” to begin the start sequence. The operator is also offered a “Cancel” soft button in the event the start button press was accidental.
+>
+> Network Configuration:
+>
+> Enter any value from 2 to 254 in the right-most tick box, where the right-most two digits represent the engine number.
+>
+> For example: Enter 101 for engine number 1.
+>
+> - Current IP - save changes
+> - Change IP - use Save button.
+>
+> **CAUTION · Осторожно**
+> All present configuration settings will be lost by performing a Factory Reset.
+>
+> Factory Reset:
+>
+> Removes the present configuration and restores the factory default settings. The DCU will startup the first power sequence at the next power-up.
+>
+> The operator can configure the DCU source(s) for the speed sensor rpm by using the Select button.
+>
+> - Speed Sensor Configuration
+> - Pickup 1 pulse/rev
+> - Pickup 2 pulse/rev
+> - Update DCU -\> SDU
+> - Update SDU -\> DCU.
+>
+> A note will be displayed stating changes are applied to the SDU directly.
+>
+> The screen displays present values of the Engine Manufacturer/Type.
+>
+> The operator can enable or set the prelube parameter.
+>
+> The following parameters can be set:
+>
+> - Oscillating ON/OFF - check tick box
+> - ON time
+> - OFF time
+> - Pre Start
+> - Until Pressure Timeout
+> - Action Upon Timeout
+> - Override Allowed - check tick box.
+>
+> The operator can choose how many minutes between prelube cycles when checking the tick box on the oscillating prelube. This function can also speed up the prelube at the start of the engine.
+>
+> The operator can enable external components (i.e. RIO, SDU, etc.) through the external hardware option screen display.
+>
+> External hardware in use:
+>
+> - RIO1 - if active, a tick box will appear
+> - RIO2 - if active, a tick box will appear
+> - RIO3 - if active, a tick box will appear
+> - RIO4 - if active, a tick box will appear
+> - SDU - if active, a tick box will appear.
+>
+> The C Command Elite Plus™ system CIB will have a single RIO and SDU installed.
+>
+> The operator can enable/setup Service Interval Messages by selecting one of four service interval tabs:
+>
+> Service 1
+>
+> The following parameters are the same on all four service intervals.
+>
+> - Enabled - check tick box
+> - First Service At
+> - Then Service Every
+> - Pre-Warning Enabled - check tick box
+> - SDU - if active, a tick box will appear.
+>
+> Service 2, 3, and 4 can be setup like Service 1.
+>
+> The operator can enable/setup I/O channel for the DCU display and/or monitoring.
+>
+> The I/O options menu contains the following parameters:
+>
+> Engine Speed - D + R (DCU and RP)
+>
+> - Sensor
+> - Display
+> - Alarming
+> - Other
+> - Preview.
+>
+> Switch Inputs
+>
+> - Switch Inputs 1 through 8 (E = Event Log is active)
+>
+> 4-20 mA Inputs (tab screens are the same as Engine Speed)
+>
+> PT100 Inputs (PT100 1 through 4) (tab screens are the same as Engine Speed)
+>
+> J1939 Inputs
+>
+> - Percentage Load - D + R (DCU and RP)
+> - Air Filter Differential
+> - Air Inlet Pressure
+> - Auxiliary Pressure
+> - Barometric Pressure
+> - Battery Voltage
+> - Boost Pressure.
+>
+> The operator can use the Template Design Pages and change/add screen template content. The operator can choose the default template or create an operator defined template.
+>
+> **Note · Примечание**
+> The display will view operator defined screens **only**.
+>
+> Factory Reset
+>
+> The operator can reset the parameters values to the factory default settings.
+>
+> Connect to PC
+>
+> The following steps are for DCU main menu connecting to a PC with website interface.
+>
+> The website interface for the DCU will configure the remote panel parameters when the files are uploaded. The remote panel uses the DCU parameters set by the operator on the Connect to PC menu.
+>
+> Counters
+>
+> A list of data the DCU receives from the J1939 data link.
+>
+> Prelube Override
+>
+> This function is set by default by the manufacturer.
+>
+> Start Disabled
+>
+> Troubleshooting
+>
+> The following parameters can be set:
+>
+> - Supply
+> - Switch
+> - 4-20 mA
+> - PT100
+> - Communication
+> - Output
+> - Input
+> - Run Sources.
+>
+> For example: The supply values are shown in the illustration.
+>
+> Event Log
+>
+> There are several parameters the operator can view from this function:
+>
+> - All Events
+> - Alarms **Only**
+> - User Interaction **Only**
+> - Commands **Only**
+> - Sequence **Only**.
+>
+> The operator can save this file by choosing Save on the menu.
+>
+> Engine Service Interval
+>
+> Version Information
+>
+> Configuration
+>
+> The operator can upload the file once configured.
+>
+> Interface Design
+>
+> Configuration Menu
+>
+> The operator can change a password from the configuration menu.
+>
+> The operator can upload the configuration file.
+>
+> The operator can design how the display views data by choosing a different template or creating a user template.
+>
+> The operator can set different parameters for the Automatic Start/Stop configuration.
+>
+> The language setting defaults to English.
+>
+> The operator can change the language for all channels or specific channels.
+>
+> The following parameters can be set using the Miscellaneous menu:
+>
+> - Auto Buzzer Off - The operator can toggle between Yes and No.
+>
+> - Fuel Consumption
+>
+> - Counters Source
+>
+> - Start/Stop Buttons- The operator can set the button to hold for start and stop.
+>
+> - Factory Reset
+>
+> The operator can set the parameters on the speed sensor inputs to the SDU.
+>
+> The operator can change the engines name and view which type of engine application and manufacturer. The manufacturer **always** defaults to Cummins Inc.
+>
+> The DCU name is also the engines name.
+>
+> The operator can set the parameters of the prelube start and stop.
+>
+> The operator can set the parameters for the speed sensors to the DCU.
+>
+> The screen displays which type of hardware and which software version is being used.
+>
+> The operator can change service intervals by choosing the submit soft button when parameters have been set.
+>
+> The I/O configuration consists of the following parameters:
+>
+> - Engine Speed Inputs
+>
+> - Switch Inputs
+>
+> - 4-20 mA Inputs
+>
+> - PT100 Inputs
+>
+> - J1939 Inputs
+>
+> - Differential Inputs
+>
+> - 24-VDC Input and Outputs
+>
+> - Special Input (used by OEM)
+>
+> - On-Panel Relay Outputs
+>
+> - Off-Panel Relay Outputs
+>
+> - Remote I/O Unit (Speed Relays).
+>
+> **Only** a few of the parameters are shown in the following illustrations. All parameter choices remain the same.
+>
+> - 4-20 mA Inputs
+>
+> - 24-VDC Inputs or Outputs - The operator can set up to four 24-VDC outputs.
+>
+> Remote Panel
+>
+> The Remote Panel (RP) main menu consist of the following functions:
+>
+> - Active Station
+> - Backlight
+> - Units
+> - Wallpaper
+> - Language
+> - Calibrate Touch Screen
+> - System Configuration
+> - Information
+> - Troubleshooting.
+>
+> Active Station:
+>
+> The operator can view which station is active or non active by looking in the upper right hand corner of the RP display. The operator can request this station to be Active.
+>
+> Backlight:
+>
+> The operator can adjust the intensity of the backlight. This process is the same as the DCU.
+>
+> Units:
+>
+> The operator can toggle between Metric and U.S. measurement values.
+>
+> Language:
+>
+> The language setting defaults to English.
+>
+> Wallpaper:
+>
+> The operator can choose between 1 of 3 wallpapers for the display.
+>
+> Calibration Touch Screen:
+>
+> The operator can calibrate the touch screen by touching the tick boxes on the screen. The tick boxes are located in each corner and the center of the display.
+>
+> System Configuration:
+>
+> For the operator to change the system configuration, a password **must** be entered (default 1234). If the password is lost or forgotten, contact a Cummins® Authorized Repair Location to regain access. The following parameters can be adjusted:
+>
+> - Password
+>
+> - Priority Selection
+>
+> - Alarms
+>
+> - Acknowledgement of Alarms
+>
+> - Confirmation Timeout Behavior
+>
+> - Panel Location
+>
+> - Date and Time
+>
+> - IP Address
+>
+> - DCU Connections
+>
+> - Factory Reset.
+>
+> Priority Selection
+>
+> The operator can give a brief description of each 1, 2, or 3.
+>
+> Active station priority capabilities are described on the selection screen.
+>
+> Alarms
+>
+> The operator can disable all the alarms at this active station Yes \[No\]. Selecting Yes inhibits all alarms on this station.
+>
+> Acknowledgement of Alarms
+>
+> Alarms can
+>
+> not
+>
+> be silenced or acknowledged on the remote panel, but
+>
+> must
+>
+> be silenced and acknowledged on the DCU at the engine.
+>
+> Confirmation Timeout Behavior
+>
+> The operator can set the timeout to 10 to 255 seconds \[10\]. The default is hand over control upon timeout. The operator can deny transfer upon timeout.
+>
+> Panel Location
+>
+> This station can be named the following:
+>
+> - Bridge
+>
+> - Port Wing Station
+>
+> - Starboard Wing Station
+>
+> - Tower
+>
+> - Engine Control Room
+>
+> - Engine Room
+>
+> - Aft Station
+>
+> - Bow Station
+>
+> - Other
+>
+> IP Address
+>
+> The operator can change the IP address of the RP in the network.
+>
+> DCU Connections
+>
+> This screen is dialog that displays scan process and results. List available DCU CIB panels in the network, and select (check the tick box) for each. The default setting for this parameter is “none are ignored”.
+>
+> Specific DCUs in the network can be ignored.
+>
+> Factory Reset
+>
+> The operator can reset the configuration to default manufacturer settings.
+>
+> Version Information:
+>
+> The Version Information can be displayed by the operator.
+>
+> Troubleshooting:
+>
+> The operator can use the Troubleshooting from the main menu to view different parameters of the engine.
+>
+> The tab screens consist are:
+>
+> - Supply
+>
+> - Switch
+>
+> - 4-20 mA
+>
+> - PT100
+>
+> - Communication
+>
+> - Output
+>
+> - Input
+>
+> - Run Sources
+>
+> - Button Test.
+>
+> Supply:
+>
+> This screen displays the power source to the RP.
+>
+> Switch:
+>
+> This screen displays the eight switch inputs to the SDU unit. These switches are normally open.
+>
+> 4-20 mA:
+>
+> The 4-20 mA circuits are typically for pressure sensors. This screen displays each one of the 4-20 mA circuits and whether they are in use or **not** in use.
+>
+> PT100:
+>
+> The PT100 circuits are typically for temperature sensors. This screen displays the status of each circuit.
+>
+> Com:
+>
+> This screen displays the communication link between the SDU and multiple RIO circuits to the RP display.
+>
+> Output:
+>
+> This screen displays the Inactive or Active status of each output circuits.
+>
+> Input:
+>
+> This screen displays the Inactive or Active status of each input circuit.
+>
+> Run Sources:
+>
+> This screen displays the status on each source circuit and whether the function has been configured or **not**.
+>
+> Button Test:
+>
+> This screen displays the status of each one of the buttons.

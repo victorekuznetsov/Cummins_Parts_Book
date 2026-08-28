@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 16
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-013.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-013.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Air Compressor Unloader and Valve Assembly
@@ -34,157 +36,290 @@ tags:
 > **Даты:** изменён 2009-03-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-013.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Air pressure must be released from system before removing the air governor to prevent personal injury.
 
-> [!note] Note · Примечание
-> The following procedures are for Holset® air compressors **only**. The illustrations shown will be of the SS model single cylinder air compressor. Differences in procedures for SS, QE and ST model Holset® air compressors will be shown where necessary.
+### Первичная проверка
 
-Remove the air governor or air governor hose from the air compressor unloader body.
+> [!danger] ОПАСНО
+> Давление воздуха должно быть освобождено от системы перед удалением кондиционера, чтобы предотвратить травмы.
+
+> [!note] Примечание
+> Следующие процедуры предназначены для воздушных компрессоров Holset® **только**. На изображенных иллюстрациях будет показан одноцилиндровый воздушный компрессор модели SS. При необходимости будут показаны различия в процедурах для воздушных компрессоров модели SS, QE и ST Holset®.
+
+Удалите воздухоуборщик или воздухоуборочный шланг с корпуса разгрузчика воздушного компрессора.
 
 ![[gv8coma.png]]
 
-Operate the engine to activate the air compressor.
+Управляйте двигателем, чтобы активировать воздушный компрессор.
 
-If the air compressor is **not** pumping, the unloader valve is malfunctioning and **must** be repaired or replaced.
+Если воздушный компрессор **не** перекачивается, клапан разгрузчика неисправен и * должен быть отремонтирован или заменен.
 
 ![[gv800ka.png]]
 
-### Remove
+### Снятие
 
-Holset® SS, E-Type, and ST Models
+Holset® SS, E-Type и ST-модели
 
-> [!danger] WARNING · Опасно
-> The unloader valve body is installed with spring tension. Use care when removing to prevent personal injury. Always wear protective eye wear.
+> [!danger] ОПАСНО
+> Корпус разгрузочного клапана установлен с пружинным натяжением. Используйте уход при удалении, чтобы предотвратить личные травмы. Всегда носите защитный налет.
 
-Hold the unloader valve body down and remove the two captive washer capscrews and the two plain washers.
+Удерживайте корпус разгрузочного клапана и удалите два удерживаемых болта стиральной машины и два простых шайбы.
 
-Remove the unloader valve body.
+Удалите корпус разгрузочного клапана.
 
-Remove the o-ring seal.
+Удалите уплотнение с кольцом.
 
-Remove the rectangular ring seal.
+Удалить прямоугольное кольцо.
 
 ![[cp8vaqa.png]]
 
-Remove the unloader valve cap and the unloader valve spring.
+Снимите крышку разгрузочного клапана и пружину разгрузочного клапана.
 
-> [!note] Note · Примечание
-> Disassembly of the center unloader valve on Holset® two cylinder air compressors is similar to the single cylinder unloader valve.
+> [!note] Примечание
+> Разборка центрального разгрузочного клапана на двухцилиндровых воздушных компрессорах Holset® аналогична разгрузочному клапану одного цилиндра.
 
-Remove the intake valve seat and valve.
+Снимите впускное сиденье и клапан.
 
-Remove the intake valve spring.
+Удалите пружину впускного клапана.
 
 ![[cp8vamz.png]]
 
-Holset® QE Models
+Holset® QE модели
 
-> [!danger] WARNING · Опасно
-> The unloader body is installed with spring tension. Use care when removing to prevent personal injury. Always wear protective eye wear.
+> [!danger] ОПАСНО
+> Корпус разгрузчика устанавливается с весенним натяжением. Используйте уход при удалении, чтобы предотвратить личные травмы. Всегда носите защитный налет.
 
-Hold the unloader valve body down and remove the four capscrews.
+Удерживайте корпус разгрузочного клапана и удалите четыре болта.
 
-Remove the unloader valve spring.
+Удалите пружину разгрузочного клапана.
 
-Remove the unloader valve cap.
+Снимите крышку разгрузочного клапана.
 
 ![[cp8vaqb.png]]
 
-Remove the unloader body gasket and unloader valve cap rectangular ring seal.
+Удалите прокладку корпуса разгрузчика и заглушку клапана разгрузчика прямоугольным кольцевым уплотнением.
 
 ![[cp8vamr.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!warning] CAUTION · Осторожно
-> Do not use caustic cleaners. Caustic cleaners can cause damage to component parts.
+> [!warning] ОСТОРОЖНО
+> Не используйте едкие чистящие средства. Причинные очистители могут нанести ущерб компонентам.
 
-Remove all carbon and varnish from the unloader valve cap body.
+Удалите весь углерод и лак из корпуса разгрузочного клапана.
 
 ![[cp8vaeb.png]]
 
-Use a valve spring tester to check the unloader spring.
+Используйте клапанный пружинный тестер для проверки пружины разгрузчика.
 
-See the Compressor Spring Force Specifications chart shown at the beginning of this section.
+См. диаграмму спецификаций силовых установок компрессора, показанную в начале этого раздела.
 
-Replace the unloader spring if it does **not** meet the specifications shown, or if the wrong spring has been used.
+Заменить пружину разгрузчика, если она не соответствует указанным спецификациям, или если использована неправильная пружина.
 
-> [!note] Note · Примечание
-> For Holset® two cylinder air compressors, check both cylinder and center unloader springs. Cummins Turbo Technologies™, recommends that new springs be installed during rebuild.
+> [!note] Примечание
+> Для двухцилиндровых воздушных компрессоров Holset® проверьте как цилиндрические, так и центральные разгрузочные пружины. Cummins Turbo TechnologiesTM рекомендует устанавливать новые источники во время реконструкции.
 
 ![[cp8sptb.png]]
 
-> [!note] Note · Примечание
-> If the compressor has a flat hat type unloader cap (1), it **must** use an unloader spring and valve seat different than that used with the three prong unloader.
+> [!note] Примечание
+> Если компрессор имеет плоскую шапку разгрузчика типа (1), он **должен** использовать разгрузочный пружинный и клапанный сиденье, отличное от того, которое используется с трехскатным разгрузчиком.
 
 ![[ca2vaga.png]]
 
-### Install
+### Установка
 
-Holset® SS, E-Type, and ST Models
+Holset® SS, E-Type и ST-модели
 
-Assemble the air compressor.
+Соберите воздушный компрессор.
 
-Grease rectangular ring seal, unloader cap and unloader body bore with high temperature grease (Accrolube Lubrication Teflon™ grease or equivalent).
+Уплотнение прямоугольного кольца, разгрузочный колпачок и разгрузочный цилиндр кузова имеют высокотемпературную смазку (смазка Accrolube Lubrication TeflonTM или эквивалент).
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
-Operate the engine and check the compressor for air leaks.
+Управляйте двигателем и проверяйте компрессор на наличие утечек воздуха.
 
 ![[ca800dc.png]]
 
-Holset® QE Models
+Holset® QE модели
 
-Install the new rectangular V-seal into the unloader body.
+Установите новую прямоугольную V-печать в корпус разгрузчика.
 
-> [!note] Note · Примечание
-> The seal **must** be installed with the grooved side up.
+> [!note] Примечание
+> Уплотнение * должно быть установлено с выгнутой стороной вверх.
 
-Liberally lubricate the unloader valve bore above and below the rectangular ring seal with high temperature grease (Accrolube Lubrication Teflon™ grease or equivalent).
+Либерально смазывать разгрузочный клапан цилиндра, который находится выше и ниже прямоугольного кольцевого уплотнения с помощью высокотемпературной смазки (Accrolube Lubrication TeflonTM grease или эквивалент).
 
 ![[cp8sehg.png]]
 
-Install a new o-ring seal on the unloader valve body.
+Установите новое уплотнение на корпус разгрузочного клапана.
 
 ![[cp8sehh.png]]
 
-Use clean 15W40 engine oil, Accrolube Lubrication Teflon™ grease, or equivalent to lubricate the seal.
+Используйте чистое моторное масло 15W40, смазку TeflonTM или эквивалент смазки уплотнения.
 
 ![[cp8sewa.png]]
 
-Liberally lubricate the unloader valve body bore and unloader cap with high temperature grease (Accrolube Lubrication Teflon™ grease or equivalent).
+Либерально смазывать разгрузочный клапан корпуса цилиндра и разгрузочный колпачок высокотемпературной смазкой (Accrolube Lubrication TeflonTM grease или эквивалент).
 
-Install the unloader cap.
+Установите шапку разгрузчика.
 
-Install the unloader spring.
+Установите пружину разгрузчика.
 
 ![[cp8brwb.png]]
 
-Lubricate the unloader screw threads and underhead with clean engine oil (SAE 15W40), before installation.
+Смазать разгрузчик резьбой и подголовником с помощью чистого моторного масла (SAE 15W40) перед установкой.
 
-> [!note] Note · Примечание
-> The two unloader body screws **must not** be used to attach any brackets.
+> [!note] Примечание
+> Два разгрузочных винта кузова не должны использоваться для крепления каких-либо скобок.
 
 ![[cp8cswc.png]]
 
-Assemble the unloader components and attach the unloader assembly to the valve plate with the four capscrews and washers.
+Соберите компоненты разгрузчика и прикрепите сборку разгрузчика к пластине клапана с четырьмя болтами и шайбами.
 
-> [!note] Note · Примечание
-> The longer capscrews are used to mount the manifold to the air compressor.
+> [!note] Примечание
+> Более длинные болты используются для крепления коллектора к воздушному компрессору.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [20 ft-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [20 фунт-фут]
 
-Operate the engine and check the air compressor for air leaks.
+Управляйте двигателем и проверяйте воздушный компрессор на наличие утечек воздуха.
 
 ![[cp8vaqb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> **WARNING · Опасно**
+> Air pressure must be released from system before removing the air governor to prevent personal injury.
+>
+> **Note · Примечание**
+> The following procedures are for Holset® air compressors **only**. The illustrations shown will be of the SS model single cylinder air compressor. Differences in procedures for SS, QE and ST model Holset® air compressors will be shown where necessary.
+>
+> Remove the air governor or air governor hose from the air compressor unloader body.
+>
+> Operate the engine to activate the air compressor.
+>
+> If the air compressor is **not** pumping, the unloader valve is malfunctioning and **must** be repaired or replaced.
+>
+> ### Remove
+>
+> Holset® SS, E-Type, and ST Models
+>
+> **WARNING · Опасно**
+> The unloader valve body is installed with spring tension. Use care when removing to prevent personal injury. Always wear protective eye wear.
+>
+> Hold the unloader valve body down and remove the two captive washer capscrews and the two plain washers.
+>
+> Remove the unloader valve body.
+>
+> Remove the o-ring seal.
+>
+> Remove the rectangular ring seal.
+>
+> Remove the unloader valve cap and the unloader valve spring.
+>
+> **Note · Примечание**
+> Disassembly of the center unloader valve on Holset® two cylinder air compressors is similar to the single cylinder unloader valve.
+>
+> Remove the intake valve seat and valve.
+>
+> Remove the intake valve spring.
+>
+> Holset® QE Models
+>
+> **WARNING · Опасно**
+> The unloader body is installed with spring tension. Use care when removing to prevent personal injury. Always wear protective eye wear.
+>
+> Hold the unloader valve body down and remove the four capscrews.
+>
+> Remove the unloader valve spring.
+>
+> Remove the unloader valve cap.
+>
+> Remove the unloader body gasket and unloader valve cap rectangular ring seal.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **CAUTION · Осторожно**
+> Do not use caustic cleaners. Caustic cleaners can cause damage to component parts.
+>
+> Remove all carbon and varnish from the unloader valve cap body.
+>
+> Use a valve spring tester to check the unloader spring.
+>
+> See the Compressor Spring Force Specifications chart shown at the beginning of this section.
+>
+> Replace the unloader spring if it does **not** meet the specifications shown, or if the wrong spring has been used.
+>
+> **Note · Примечание**
+> For Holset® two cylinder air compressors, check both cylinder and center unloader springs. Cummins Turbo Technologies™, recommends that new springs be installed during rebuild.
+>
+> **Note · Примечание**
+> If the compressor has a flat hat type unloader cap (1), it **must** use an unloader spring and valve seat different than that used with the three prong unloader.
+>
+> ### Install
+>
+> Holset® SS, E-Type, and ST Models
+>
+> Assemble the air compressor.
+>
+> Grease rectangular ring seal, unloader cap and unloader body bore with high temperature grease (Accrolube Lubrication Teflon™ grease or equivalent).
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Operate the engine and check the compressor for air leaks.
+>
+> Holset® QE Models
+>
+> Install the new rectangular V-seal into the unloader body.
+>
+> **Note · Примечание**
+> The seal **must** be installed with the grooved side up.
+>
+> Liberally lubricate the unloader valve bore above and below the rectangular ring seal with high temperature grease (Accrolube Lubrication Teflon™ grease or equivalent).
+>
+> Install a new o-ring seal on the unloader valve body.
+>
+> Use clean 15W40 engine oil, Accrolube Lubrication Teflon™ grease, or equivalent to lubricate the seal.
+>
+> Liberally lubricate the unloader valve body bore and unloader cap with high temperature grease (Accrolube Lubrication Teflon™ grease or equivalent).
+>
+> Install the unloader cap.
+>
+> Install the unloader spring.
+>
+> Lubricate the unloader screw threads and underhead with clean engine oil (SAE 15W40), before installation.
+>
+> **Note · Примечание**
+> The two unloader body screws **must not** be used to attach any brackets.
+>
+> Assemble the unloader components and attach the unloader assembly to the valve plate with the four capscrews and washers.
+>
+> **Note · Примечание**
+> The longer capscrews are used to mount the manifold to the air compressor.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [20 ft-lb]
+>
+> Operate the engine and check the air compressor for air leaks.

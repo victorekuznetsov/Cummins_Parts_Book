@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc234.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc234.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Speed High - Critical
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc234.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc234.pdf)
 
-### Fault Code: 234
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Speed High - Critical
 
-Printable Version
+### Код неисправности: 234
 
-### Overview
+### Высокая частота вращения — критично
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 234 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine speed signals indicate an engine speed greater than shutdown threshold. | Engine will shut down. Fuel shutoff valves are de-energized (valves close). Overspeed relay driver is energized. |
+| Код неисправности: 234 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Сигналы скорости двигателя указывают на скорость двигателя, превышающую порог отключения. | Двигатель отключится. Запорные клапаны отключения топлива обесточены (клапаны закрыты). Водитель реле сверхскоростной передачи заряжается энергией. |
 
 ![[19803603.png]]
 
-Engine Overspeed
+Разнос двигателя (превышение частоты вращения)
 
-### Circuit Description
+### Описание цепи
 
-The engine position sensor(s) monitor the engine position and the engine speed. It then passes this information to the electronic control module (ECM) through the engine harness.
+Датчик(ы) положения двигателя (мотор) контролирует(ют) положение двигателя и скорость двигателя. Затем он передает эту информацию электронному модулю управления (ECM) через электропроводку двигателя.
 
-### Component Location
+### Расположение компонента
 
-Use the following procedure for component location. Refer to Procedure 100-002 for the component location.
+Используйте следующую процедуру для определения местоположения компонентов. См. процедуру 100-002 для определения местоположения компонента.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include external fuel sources drawn into the intake air passage, reverse powering (motoring) of the engine, or tampering of the engine speed/position sensors. Inspect the intake manifold for sources of flammable vapors. Check the turbocharger seals to verify that there are no oil leaks. Inspect the engine speed/position sensors for damage or tampering.
+Возможные причины этого кода неисправности включают внешние источники топлива, втягиваемые в воздухозаборник, обратное питание (моторирование) двигателя или подделку датчиков скорости / положения двигателя. Проверить впускной коллектор на наличие источников легковоспламеняющихся паров. Проверьте уплотнения турбокомпрессора, чтобы убедиться, что нет утечек масла. Осмотрите датчики скорости двигателя / положения на предмет повреждения или подделки.
 
-Refer to Troubleshooting Fault Code t05-234
+См. Код устранения неполадок t05-234
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 234
+>
+> ### Engine Speed High - Critical
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 234 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine speed signals indicate an engine speed greater than shutdown threshold. | Engine will shut down. Fuel shutoff valves are de-energized (valves close). Overspeed relay driver is energized. |
+>
+> Engine Overspeed
+>
+> ### Circuit Description
+>
+> The engine position sensor(s) monitor the engine position and the engine speed. It then passes this information to the electronic control module (ECM) through the engine harness.
+>
+> ### Component Location
+>
+> Use the following procedure for component location. Refer to Procedure 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include external fuel sources drawn into the intake air passage, reverse powering (motoring) of the engine, or tampering of the engine speed/position sensors. Inspect the intake manifold for sources of flammable vapors. Check the turbocharger seals to verify that there are no oil leaks. Inspect the engine speed/position sensors for damage or tampering.
+>
+> Refer to Troubleshooting Fault Code t05-234

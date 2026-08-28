@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-022-001_09.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-022-001_09.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Service Tools
@@ -34,6 +36,14 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-022-001_09.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-022-001_09.pdf)
 
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
 ![[ad8toga.png]]
 
 ![[ad8togb.png]]
@@ -46,10 +56,20 @@ tags:
 
 ![[ck8toge.png]]
 
-| **Tool Number** ST-647 | **Gear Puller** Used to remove drive pulleys and impellers. |  |
+| **Номер инструмента** ST-647 | **Gear Puller** Используется для удаления шкивов и движителей. |  |
 |---|---|---|
-| **Tool Number** 3376326 | **Pulley Installation Tool** Used to install drive pulleys. |  |
-| **Tool Number** 3376663 | **Coupling Puller** Used to remove accessory drive coupling. |  |
-| **Tool Number** 3824760 | **Oil Seal Remover/Installer** Used to remove small bushings, oil seals, and bearings. |  |
-| **Tool Number** 3375066 | **Pipe Sealant** Use when installing pipe plugs or cup plugs on the engine in order to prevent leaks. |  |
-| **Tool Number** ST-1134 | **Dowel Pin Extractor** Used to pull dowel pins. |  |
+| **Инструментальный номер** 3376326 | **Инструмент установки Пулли** Используется для установки шкивов привода. |  |
+| **Инструментальный номер** 3376663 | **Связной пуллер** Используется для удаления вспомогательного привода сцепления. |  |
+| **Инструментальный номер** 3824760 | **Ремовер нефтяной печати / Установщик** Используется для удаления небольших втулок, масляных уплотнений и подшипников. |  |
+| **Инструментальный номер** 3375066 | **Пипе Sealant** Используйте при установке трубных или стаканных пробок на двигатель, чтобы предотвратить утечки. |  |
+| **Номер инструмента** ST-1134 | **Дубличный пин-экстрактор** Используется для вытягивания штифтов. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | **Tool Number** ST-647 | **Gear Puller** Used to remove drive pulleys and impellers. |  |
+> |---|---|---|
+> | **Tool Number** 3376326 | **Pulley Installation Tool** Used to install drive pulleys. |  |
+> | **Tool Number** 3376663 | **Coupling Puller** Used to remove accessory drive coupling. |  |
+> | **Tool Number** 3824760 | **Oil Seal Remover/Installer** Used to remove small bushings, oil seals, and bearings. |  |
+> | **Tool Number** 3375066 | **Pipe Sealant** Use when installing pipe plugs or cup plugs on the engine in order to prevent leaks. |  |
+> | **Tool Number** ST-1134 | **Dowel Pin Extractor** Used to pull dowel pins. |  |

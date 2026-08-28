@@ -14,13 +14,15 @@ families:
 manuals:
   - "4022102"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc111.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc111.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
+  - "перевод/машинный"
 ---
 
 # Engine Control Module Critical Internal Failure - Bad Intelligent Device or Component
@@ -34,56 +36,118 @@ tags:
 > **Даты:** изменён 2016-08-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc111.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc111.pdf)
 
-### Fault Code: 111
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Control Module Critical Internal Failure - Bad Intelligent Device or Component
 
-Printable Version
+### Код неисправности: 111
 
-### Overview
+### Критический внутренний отказ ЭБУ — неисправное устройство
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 111 PID(P): S254 SPN: 629 FMI: 12 Lamp: Red SRT: | Engine Control Module Critical Internal Failure - Bad Intelligent Device or Component. Error internal to the engine control module (ECM) related to memory hardware malfunctions or internal ECM voltage supply circuits. | Engine may **not** start or may be difficult to start. |
+| Код неисправности: 111 PID(P): S254 SPN: 629 FMI: 12 ламп: Красная СТО: | Критический внутренний отказ ЭБУ — неисправное устройство. Ошибка, внутренняя для модуля управления двигателем (ECM), связанная с неисправностями оборудования памяти или внутренними цепями питания напряжения ECM. | Двигатель может **не** запускаться или может быть трудно запустить. |
 
 ![[19d02662.png]]
 
-ECM
+ЭКМ
 
-### Circuit Description
+### Описание цепи
 
-The ECM has internal diagnostics that continuously run and check the internal memory.
+ECM имеет внутреннюю диагностику, которая постоянно работает и проверяет внутреннюю память.
 
-### Component Location
+### Расположение компонента
 
-The ECMs are located on the left (fuel pump) side of the engine.
+ECM расположены на левой (топливный насос) стороне двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the keyswitch is in the ON position.
+Эта диагностика выполняется непрерывно, когда переключатель зажигания находится в положении Включения.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The ECM detected a read or write error internal to the ECM.
+ECM обнаружил ошибку показаний или записи внутри ECM.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the red STOP ENGINE lamp immediately after the diagnostic runs and fails.
+- ECM освещает красную лампу STOP ENGINE сразу после диагностических прогонов и выходит из строя.
 
-- The engine may **not** start.
+- Двигатель может **не** завестись.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+- Для проверки ремонта выполните ключевой цикл, запустите двигатель и запустите его на холостом ходу в течение 1 минуты.
 
-- The fault code status displayed by INSITE™ electronic service tool will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого инструментами электронного сервиса INSITETM, будет изменено на INACTIVE сразу после запуска и прохождения диагностики.
 
-- The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит красную лампу STOP ENGINE сразу после диагностических прогонов и проходов.
 
-- The Reset All Faults command in INSITE™ electronic service tool can be used to clear active and inactive faults.
+- Команда Reset All Faults в инструменте электронного сервиса INSITETM может использоваться для устранения активных и неактивных ошибок.
 
-### Shoptalk
+### Практические замечания
 
-This fault code can **only** be caused by an internal ECM malfunction. Repairs are **not** possible for the ECM.
+Этот код неисправности может быть вызван только внутренними неисправностями ECM. Ремонт невозможен для ECM.
 
-Refer to Troubleshooting Fault Code t05-111
+Устранение неполадок код t05-111
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 111
+>
+> ### Engine Control Module Critical Internal Failure - Bad Intelligent Device or Component
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 111 PID(P): S254 SPN: 629 FMI: 12 Lamp: Red SRT: | Engine Control Module Critical Internal Failure - Bad Intelligent Device or Component. Error internal to the engine control module (ECM) related to memory hardware malfunctions or internal ECM voltage supply circuits. | Engine may **not** start or may be difficult to start. |
+>
+> ECM
+>
+> ### Circuit Description
+>
+> The ECM has internal diagnostics that continuously run and check the internal memory.
+>
+> ### Component Location
+>
+> The ECMs are located on the left (fuel pump) side of the engine.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the keyswitch is in the ON position.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The ECM detected a read or write error internal to the ECM.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the red STOP ENGINE lamp immediately after the diagnostic runs and fails.
+>
+> - The engine may **not** start.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+>
+> - The fault code status displayed by INSITE™ electronic service tool will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The Reset All Faults command in INSITE™ electronic service tool can be used to clear active and inactive faults.
+>
+> ### Shoptalk
+>
+> This fault code can **only** be caused by an internal ECM malfunction. Repairs are **not** possible for the ECM.
+>
+> Refer to Troubleshooting Fault Code t05-111

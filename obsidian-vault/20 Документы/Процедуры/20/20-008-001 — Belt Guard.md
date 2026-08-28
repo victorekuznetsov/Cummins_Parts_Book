@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 12
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Belt Guard
@@ -34,110 +36,204 @@ tags:
 > **Даты:** изменён 2009-08-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-001.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Industrial Applications
 
-Remove the two capscrews and washers from the alternator belt guard.
+### Снятие
 
-Remove the alternator belt guard.
+Промышленное применение
+
+Удалите два болта и шайбы из защитного ремня генератора.
+
+Снимите защитный ремень генератора.
 
 ![[08400509.png]]
 
-Marine Applications
+Судовое применение
 
-Remove the three capscrews and washers from the alternator belt guard.
+Удалите три болта и шайбы из защитного ремня генератора.
 
-Remove the alternator belt guard.
+Снимите защитный ремень генератора.
 
 ![[08400676.png]]
 
-Remove the four capscrews and washers from the accessory drive pulley and the belt guard (if installed). Remove the capscrew, isolator, and spacer.
+Удалите четыре болта и шайбы из вспомогательного приводного шкива и ременного предохранителя (при установке). Удалите болты, изолятор и прокладку.
 
-Remove the belt guard.
+Снимите охрану пояса.
 
 ![[08400510.png]]
 
-Remove the two mounting capscrews and the belt guard bracket.
+Снимите два крепежных болта и защитную кронштейн ремня.
 
 ![[08400512.png]]
 
-Remove the three capscrews, isolators, and spacer from the upper bracket. Remove the belt guard.
+Удалите три болта, изоляторы и спейсер из верхней скобки. Снимите охрану пояса.
 
 ![[08400511.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Industrial Applications
+Промышленное применение
 
-Inspect the belt guard and bracket for cracks or other damage. If damaged, they **must** be replaced.
+Осмотрите защитный ремень и кронштейн на наличие трещин или других повреждений. Если они повреждены, их необходимо заменить.
 
-Inspect the isolators for damage. If the isolators are hard and brittle, they **must** be replaced.
+Проверить изоляторы на предмет повреждения. Если изоляторы жесткие и хрупкие, их необходимо заменить.
 
-If damaged or bent, replace the belt guard studs.
+Если поврежден или согнут, замените шпильки для защиты ремня.
 
 ![[08400513.png]]
 
-Marine Applications
+Судовое применение
 
-Inspect the belt guard and bracket for cracks or other damage. If damaged, they **must** be replaced.
+Осмотрите защитный ремень и кронштейн на наличие трещин или других повреждений. Если они повреждены, их необходимо заменить.
 
-Inspect the isolators for damage. If the isolators are hard and brittle, they **must** be replaced.
+Проверить изоляторы на предмет повреждения. Если изоляторы жесткие и хрупкие, их необходимо заменить.
 
-If damaged or bent, replace the belt guard studs.
+Если поврежден или согнут, замените шпильки для защиты ремня.
 
 ![[08400677.png]]
 
-### Install
+### Установка
 
-Install the belt guard and mounting bracket. Tighten the two capscrews
+Установите защитную ремень и крепежную кронштейн. Затянуть два болта
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[08400512.png]]
 
-Install the belt guard.
+Установите охрану ремня.
 
-Install the three capscrews, isolators and spacer into the upper bracket.
+Установите три болта, изоляторы и прокладку в верхнюю скобку.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[08400511.png]]
 
-Install the accessory drive pulley and belt guard (if installed).
+Установите аксессуар привода шкива и ремня охраны (при установке).
 
-Install the four capscrews and washers.
+Установите четыре болта и шайбы.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [133 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [133 фунт-дюйм]
 
-Install the one capscrew, isolator and spacer.
+Установите один болт, изолятор и прокладку.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[08400510.png]]
 
-Industrial Applications
+Промышленное применение
 
-Install the alternator belt guard.
+Установите защитный ремень генератора.
 
-Install the two capscrews and washers onto the alternator belt guard.
+Установите два болта и шайбы на защитный ремень генератора.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [133 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [133 фунт-дюйм]
 
 ![[08400509.png]]
 
-Marine Applications
+Судовое применение
 
-Position the alternator belt guard.
+Поставьте охрану ремня генератора.
 
-Install the three capscrews, washers, and isolators.
+Установите три болта, шайбы и изоляторы.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [133 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [133 фунт-дюйм]
 
 ![[08400676.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Industrial Applications
+>
+> Remove the two capscrews and washers from the alternator belt guard.
+>
+> Remove the alternator belt guard.
+>
+> Marine Applications
+>
+> Remove the three capscrews and washers from the alternator belt guard.
+>
+> Remove the alternator belt guard.
+>
+> Remove the four capscrews and washers from the accessory drive pulley and the belt guard (if installed). Remove the capscrew, isolator, and spacer.
+>
+> Remove the belt guard.
+>
+> Remove the two mounting capscrews and the belt guard bracket.
+>
+> Remove the three capscrews, isolators, and spacer from the upper bracket. Remove the belt guard.
+>
+> ### Inspect for Reuse
+>
+> Industrial Applications
+>
+> Inspect the belt guard and bracket for cracks or other damage. If damaged, they **must** be replaced.
+>
+> Inspect the isolators for damage. If the isolators are hard and brittle, they **must** be replaced.
+>
+> If damaged or bent, replace the belt guard studs.
+>
+> Marine Applications
+>
+> Inspect the belt guard and bracket for cracks or other damage. If damaged, they **must** be replaced.
+>
+> Inspect the isolators for damage. If the isolators are hard and brittle, they **must** be replaced.
+>
+> If damaged or bent, replace the belt guard studs.
+>
+> ### Install
+>
+> Install the belt guard and mounting bracket. Tighten the two capscrews
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the belt guard.
+>
+> Install the three capscrews, isolators and spacer into the upper bracket.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install the accessory drive pulley and belt guard (if installed).
+>
+> Install the four capscrews and washers.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [133 in-lb]
+>
+> Install the one capscrew, isolator and spacer.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Industrial Applications
+>
+> Install the alternator belt guard.
+>
+> Install the two capscrews and washers onto the alternator belt guard.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [133 in-lb]
+>
+> Marine Applications
+>
+> Position the alternator belt guard.
+>
+> Install the three capscrews, washers, and isolators.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [133 in-lb]

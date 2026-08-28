@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 15
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-003.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-003.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Air in Fuel
@@ -34,156 +36,290 @@ tags:
 > **Даты:** изменён 2023-01-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-003.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-003.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-There are two good methods to check for air in the fuel.
 
-1. Sight glass method
-2. Gear pump drain method.
+### Общие сведения
+
+Существует два способа проверки наличия воздуха в топливе.
+
+1. Метод визуального стекла
+2. Метод слива насоса.
 
 ![[fp8tbka.png]]
 
-### Test
+### Проверка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Depending on the circumstance fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> В зависимости от обстоятельств топливо легко воспламеняется. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
 
-> [!danger] WARNING · Опасно
-> Do not vent the fuel system on a hot engine; this can cause fuel to spill onto a hot exhaust manifold, which can cause a fire.
+> [!danger] ОПАСНО
+> Не вентилируйте топливную систему на горячий двигатель; это может привести к тому, что топливо разольется на горячий выхлопной коллектор, что может вызвать пожар.
 
-Sight Glass Method
+Метод визуального стекла
 
-Remove the fuel inlet line.
+Удалите впускную линию топлива.
 
-Install a sight glass, Part Number 3163270, at the inlet of the fuel pump.
+Установите прицельное стекло, номер детали 3163270, на входе топливного насоса.
 
-Operate the engine at high idle with no load.
+Работайте с двигателем на высоком холостом ходу без нагрузки.
 
-A small air leak will have a "milky" appearance.
+Небольшая утечка воздуха будет иметь «молочный» вид.
 
-A large air leak will look like bubbles in the fuel.
+Большая утечка воздуха будет выглядеть как пузырьки в топливе.
 
-> [!note] Note · Примечание
-> If the application incorporates a Day tank or a Positive Head Fuel System it is recommended to apply a sight glass before this accessory as these devices may mask the presence of air in fuel upstream.
+> [!note] Примечание
+> Если приложение включает в себя дневной бак или топливную систему с положительной головкой, рекомендуется нанести прицельное стекло перед этим аксессуаром, поскольку эти устройства могут маскировать присутствие воздуха в топливе вверх по течению.
 
 ![[06400061.png]]
 
-If an air leak is found, perform the following:
+Если обнаружена утечка воздуха, выполните следующее:
 
-- Systematically inspect the entire fuel supply routing for sources of air ingress starting at the fuel tank followed by all hose/tube interconnections, fuel filtration hardware and day tank/positive head fuel system, if provisioned. Tighten any loose connections as needed.
-- Check the drop tube in the fuel tank for damage.
-- Check the fuel return to tank and ensure the tube is both above fuel level and at a minimum distance of 305 mm \[ 12 in \] from the fuel supply connection.
-- Check the o-rings for damage.
+- Систематически проверяйте всю маршрутизацию подачи топлива для источников проникновения воздуха, начиная с топливного бака, за которым следуют все соединительные соединения шлангов / трубок, оборудование для фильтрации топлива и система дневного бака / положительной головки топлива, если она предусмотрена. Затягивайте любые свободные связи по мере необходимости.
+- Проверьте капельную трубку в топливном баке на предмет повреждения.
+- Проверьте возврат топлива в бак и убедитесь, что трубка находится как выше уровня топлива, так и на минимальном расстоянии 305 мм [12 в ] от соединения подачи топлива.
+- Проверьте кольца на предмет повреждений.
 
 ![[ft8hssa.png]]
 
-Continue to test and look for the source of air until no air bubbles are visible.
+Продолжайте тестировать и искать источник воздуха, пока не появятся пузырьки воздуха.
 
-Remove the sight glass.
+Удалите стекло зрения.
 
-Install and tighten the fuel inlet hose.
+Установите и затяните впускной шланг топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> 120 n•m [89 ft-lb]
+> [!tip] Момент затяжки
+> 120 Н·м [89 фунт-фут]
 
-Retest engine duplicating the operating conditions when performance complaint occurred to confirm air in fuel correction. This is especially important for standby Generator applications with infrequent starts and may require testing after an extended rest period.
+Повторное испытание двигателя, дублирующего условия эксплуатации, когда жалоба на эксплуатационные характеристики подтвердила наличие воздуха в топливной коррекции. Это особенно важно для резервных приложений генератора с нечастыми запусками и может потребовать тестирования после длительного периода отдыха.
 
 ![[06400033.png]]
 
-Gear Pump Drain Method
+Метод вытяжки грушевого насоса
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to avoid severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы избежать серьезных травм или смерти при работе на топливной системе.
 
-To perform a pressure-side air in fuel test, use the following items:
+Для проведения испытания на топливо с использованием воздуха на стороне давления используйте следующие элементы:
 
-- Quick-disconnect female fitting
-- High pressure hose
-- Pressure valve (capable of 2758 kPa \[400 psi\])
-- Clear tubing
-- Clean container.
+- Гнездовая подгонка с быстрым отключением
+- шланг высокого давления
+- Клапан давления (способен работать с 2758 кПа \[400 psi\])
+- Чистая трубка
+- Чистый контейнер.
 
 ![[06400034.png]]
 
-Connect the equipment to the quick connect fitting at the fuel pump outlet.
+Подключите оборудование к быстрому соединению, установленному на выходе топливного насоса.
 
-Put the end of the clear tubing into the clean container.
+Положите конец прозрачной трубки в чистый контейнер.
 
 ![[06400035.png]]
 
-> [!danger] WARNING · Опасно
-> Depending on the circumstance fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> В зависимости от обстоятельств топливо легко воспламеняется. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
 
-> [!danger] WARNING · Опасно
-> Do not vent the fuel system on a hot engine; this can cause fuel to spill onto a hot exhaust manifold, which can cause a fire.
+> [!danger] ОПАСНО
+> Не вентилируйте топливную систему на горячий двигатель; это может привести к тому, что топливо разольется на горячий выхлопной коллектор, что может вызвать пожар.
 
-Operate the engine at high idle with no load. Slowly open the valve until a steady stream of fuel is visible.
+Работайте с двигателем на высоком холостом ходу без нагрузки. Медленно открывайте клапан, пока не будет виден постоянный поток топлива.
 
 ![[06400036.png]]
 
-Put the end of the tube below the surface of the fuel.
+Положите конец трубки под поверхность топлива.
 
-If there is an air leak, bubbles will be visible.
+Если будет утечка воздуха, будут видны пузырьки.
 
-> [!note] Note · Примечание
-> If the application incorporates a Day tank or a Positive Head Fuel System it is recommended to use the Sight Glass Method placed before this accessory as these devices may mask the presence of air in fuel upstream.
+> [!note] Примечание
+> Если приложение включает в себя дневной бак или топливную систему с положительной головкой, рекомендуется использовать метод стекла, размещенный перед этим аксессуаром, поскольку эти устройства могут маскировать присутствие воздуха в топливе вверх по течению.
 
 ![[06400062.png]]
 
-If an air leak is found, perform the following:
+Если обнаружена утечка воздуха, выполните следующее:
 
-- Systematically inspect the entire fuel supply routing for sources of air ingress starting at the fuel tank followed by all hose/tube interconnections, fuel filtration hardware and day tank/positive head fuel system, if provisioned. Tighten any loose connections as needed.
-- Check the drop tube in the fuel tank for damage.
-- Check the fuel return to tank and ensure the tube is both above fuel level and at a minimum distance of 305 mm \[ 12 in \] from the fuel supply connection.
-- Check the o-rings for damage.
+- Систематически проверяйте всю маршрутизацию подачи топлива для источников проникновения воздуха, начиная с топливного бака, за которым следуют все соединительные соединения шлангов / трубок, оборудование для фильтрации топлива и система дневного бака / положительной головки топлива, если она предусмотрена. Затягивайте любые свободные связи по мере необходимости.
+- Проверьте капельную трубку в топливном баке на предмет повреждения.
+- Проверьте возврат топлива в бак и убедитесь, что трубка находится как выше уровня топлива, так и на минимальном расстоянии 305 мм [12 в ] от соединения подачи топлива.
+- Проверьте кольца на предмет повреждений.
 
-Remove the test equipment from the quick connect fitting at the fuel pump outlet.
+Удалите испытательное оборудование из быстрой соединительной установки на выходе топливного насоса.
 
-Retest engine duplicating the operating conditions when performance complaint occurred to confirm air in fuel correction. This is especially important for standby Generator applications with infrequent starts and may require testing after an extended rest period.
+Повторное испытание двигателя, дублирующего условия эксплуатации, когда жалоба на эксплуатационные характеристики подтвердила наличие воздуха в топливной коррекции. Это особенно важно для резервных приложений генератора с нечастыми запусками и может потребовать тестирования после длительного периода отдыха.
 
 ![[ft8hssa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> Depending on the circumstance fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+> [!danger] ОПАСНО
+> В зависимости от обстоятельств топливо легко воспламеняется. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
 
-> [!danger] WARNING · Опасно
-> Do not vent the fuel system on a hot engine; this can cause fuel to spill onto a hot exhaust manifold, which can cause a fire.
+> [!danger] ОПАСНО
+> Не вентилируйте топливную систему на горячий двигатель; это может привести к тому, что топливо разольется на горячий выхлопной коллектор, что может вызвать пожар.
 
-Disconnect the air bleed line from the air bleed valve.
+Отсоедините линию воздушного кровотечения от клапана воздушного кровотечения.
 
-Remove the air bleed valve from the fuel drain manifold.
+Удалите клапан с воздушным кровотечением из коллектора слива топлива.
 
 ![[06300050.png]]
 
-> [!note] Note · Примечание
-> A significant amount of fuel will flow from the air bleed line. Be sure the minimum bucket capacity is 19 liters \[5 gallons\].
+> [!note] Примечание
+> Значительное количество топлива будет поступать из линии воздушного кровотечения. Убедитесь, что минимальная емкость ковша составляет 19 литров [5 галлонов].
 
-Install the air bleed valve onto the air bleed line.
+Установите клапан с воздушным кровотечением на линию с воздушным кровотечением.
 
-Route the air bleed line and valve into the 19 liter \[5 gallon\] bucket.
+Проведите линию кровотока и клапан в 19-литровое ведро [5 галлонов].
 
 ![[06700146.png]]
 
-Plug the fuel drain manifold. Use a M16 x 1.5 straight thread standard plug or fuel system tester, Part Number 4918612.
+Подключите коллектор слива топлива. Используйте стандартную пробку прямой резьбы M16 x 1.5 или тестировщик топливной системы, номер детали 4918612.
 
 ![[22k00011.png]]
 
-Start the engine. Allow it to idle.
+Запускай двигатель. Пусть помолчит.
 
-Watch the fuel flow from the air bleed valve.
+Следите за потоком топлива из воздушного кровоточащего клапана.
 
-If the flow is constant and the stream is steady, there is no air entering the fuel system. If the flow intermittently drops out or is erratic, air is entering the fuel system.
+Если поток постоянный, а поток постоянный, то в топливную систему не поступает воздух. Если поток периодически выпадает или является неустойчивым, воздух поступает в топливную систему.
 
 ![[06700146.png]]
 
-If air is entering the fuel system, check the fuel supply lines for loose connections or damaged o-rings. Use the following procedure or equipment manufacturer service information. [[28-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
+Если воздух поступает в топливную систему, проверьте линии подачи топлива на наличие свободных соединений или поврежденных колец. Используйте следующую процедуру или информацию об услугах производителя оборудования.[[28-006-024-tr — Fuel Supply Lines|См. процедуру 006-024 в разделе 6.]]
 
 ![[06300051.png]]
 
-Remove the plug or fuel system tester. Install the air bleed valve and the air bleed line.
+Удалите пробку или тестер топливной системы. Установите клапан с воздушным кровотечением и линию с воздушным кровотечением.
 
 ![[06300050.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> There are two good methods to check for air in the fuel.
+>
+> 1. Sight glass method
+> 2. Gear pump drain method.
+>
+> ### Test
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Depending on the circumstance fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **WARNING · Опасно**
+> Do not vent the fuel system on a hot engine; this can cause fuel to spill onto a hot exhaust manifold, which can cause a fire.
+>
+> Sight Glass Method
+>
+> Remove the fuel inlet line.
+>
+> Install a sight glass, Part Number 3163270, at the inlet of the fuel pump.
+>
+> Operate the engine at high idle with no load.
+>
+> A small air leak will have a "milky" appearance.
+>
+> A large air leak will look like bubbles in the fuel.
+>
+> **Note · Примечание**
+> If the application incorporates a Day tank or a Positive Head Fuel System it is recommended to apply a sight glass before this accessory as these devices may mask the presence of air in fuel upstream.
+>
+> If an air leak is found, perform the following:
+>
+> - Systematically inspect the entire fuel supply routing for sources of air ingress starting at the fuel tank followed by all hose/tube interconnections, fuel filtration hardware and day tank/positive head fuel system, if provisioned. Tighten any loose connections as needed.
+> - Check the drop tube in the fuel tank for damage.
+> - Check the fuel return to tank and ensure the tube is both above fuel level and at a minimum distance of 305 mm \[ 12 in \] from the fuel supply connection.
+> - Check the o-rings for damage.
+>
+> Continue to test and look for the source of air until no air bubbles are visible.
+>
+> Remove the sight glass.
+>
+> Install and tighten the fuel inlet hose.
+>
+> **Момент затяжки · Torque Value**
+> 120 n•m [89 ft-lb]
+>
+> Retest engine duplicating the operating conditions when performance complaint occurred to confirm air in fuel correction. This is especially important for standby Generator applications with infrequent starts and may require testing after an extended rest period.
+>
+> Gear Pump Drain Method
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to avoid severe personal injury or death when working on the fuel system.
+>
+> To perform a pressure-side air in fuel test, use the following items:
+>
+> - Quick-disconnect female fitting
+> - High pressure hose
+> - Pressure valve (capable of 2758 kPa \[400 psi\])
+> - Clear tubing
+> - Clean container.
+>
+> Connect the equipment to the quick connect fitting at the fuel pump outlet.
+>
+> Put the end of the clear tubing into the clean container.
+>
+> **WARNING · Опасно**
+> Depending on the circumstance fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **WARNING · Опасно**
+> Do not vent the fuel system on a hot engine; this can cause fuel to spill onto a hot exhaust manifold, which can cause a fire.
+>
+> Operate the engine at high idle with no load. Slowly open the valve until a steady stream of fuel is visible.
+>
+> Put the end of the tube below the surface of the fuel.
+>
+> If there is an air leak, bubbles will be visible.
+>
+> **Note · Примечание**
+> If the application incorporates a Day tank or a Positive Head Fuel System it is recommended to use the Sight Glass Method placed before this accessory as these devices may mask the presence of air in fuel upstream.
+>
+> If an air leak is found, perform the following:
+>
+> - Systematically inspect the entire fuel supply routing for sources of air ingress starting at the fuel tank followed by all hose/tube interconnections, fuel filtration hardware and day tank/positive head fuel system, if provisioned. Tighten any loose connections as needed.
+> - Check the drop tube in the fuel tank for damage.
+> - Check the fuel return to tank and ensure the tube is both above fuel level and at a minimum distance of 305 mm \[ 12 in \] from the fuel supply connection.
+> - Check the o-rings for damage.
+>
+> Remove the test equipment from the quick connect fitting at the fuel pump outlet.
+>
+> Retest engine duplicating the operating conditions when performance complaint occurred to confirm air in fuel correction. This is especially important for standby Generator applications with infrequent starts and may require testing after an extended rest period.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Depending on the circumstance fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **WARNING · Опасно**
+> Do not vent the fuel system on a hot engine; this can cause fuel to spill onto a hot exhaust manifold, which can cause a fire.
+>
+> Disconnect the air bleed line from the air bleed valve.
+>
+> Remove the air bleed valve from the fuel drain manifold.
+>
+> **Note · Примечание**
+> A significant amount of fuel will flow from the air bleed line. Be sure the minimum bucket capacity is 19 liters \[5 gallons\].
+>
+> Install the air bleed valve onto the air bleed line.
+>
+> Route the air bleed line and valve into the 19 liter \[5 gallon\] bucket.
+>
+> Plug the fuel drain manifold. Use a M16 x 1.5 straight thread standard plug or fuel system tester, Part Number 4918612.
+>
+> Start the engine. Allow it to idle.
+>
+> Watch the fuel flow from the air bleed valve.
+>
+> If the flow is constant and the stream is steady, there is no air entering the fuel system. If the flow intermittently drops out or is erratic, air is entering the fuel system.
+>
+> If air is entering the fuel system, check the fuel supply lines for loose connections or damaged o-rings. Use the following procedure or equipment manufacturer service information. [[28-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
+>
+> Remove the plug or fuel system tester. Install the air bleed valve and the air bleed line.

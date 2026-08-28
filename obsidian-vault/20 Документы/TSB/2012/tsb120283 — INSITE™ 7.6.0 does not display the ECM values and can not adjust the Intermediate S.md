@@ -16,7 +16,8 @@ engines:
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK50"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120283.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120283.pdf"
 tags:
@@ -24,6 +25,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
   - "год/2012"
+  - "перевод/машинный"
   - "тема/service-tools"
 ---
 
@@ -37,28 +39,64 @@ tags:
 > **Даты:** выпущен 2012-11-06 · изменён 2012-11-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120283.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120283.pdf)
 
-## INSITE™ 7.6.0 does not display the ECM values and can not adjust the Intermediate Speed Control Switch Multiplexing parameters.
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-INSITE™ 7.6.0 does **not** display and can **not** adjust these Multiplexing parameters for ECMs that support this feature:
+## INSITE™ 7.6.0 не отображает значения ЭБУ и не настраивает параметры мультиплексирования ISC
 
-- Intermediate Speed Control Increment / Decrement Switch
-- Intermediate Speed Control Switch 1
-- Intermediate Speed Control Switch 2
-- Intermediate Speed Control Switch 3
-- Intermediate Speed Control Variable Speed Switch.
+### Суть проблемы
 
-### Confirmation
+INSITETM 7.6.0 отображает **не** и может **не** регулировать эти параметры мультиплексирования для ECM, которые поддерживают эту функцию:
 
-None
+- Intermediate Speed Control Increment / Decrement Switch (переключение управления скоростью)
+- Промежуточный коммутатор управления скоростью 1
+- Промежуточный коммутатор управления скоростью 2
+- Промежуточный коммутатор управления скоростью 3
+- Переменный переключатель скорости Intermediate Speed Control Variable Speed Switch.
 
-### Resolution
+### Подтверждение
 
-Issue is under investigation.
+Нет
 
-### Warranty Statement
+### Решение
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Вопрос находится под следствием.
 
-### Document History
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## INSITE™ 7.6.0 does not display the ECM values and can not adjust the Intermediate Speed Control Switch Multiplexing parameters.
+>
+> ### Core Issue
+>
+> INSITE™ 7.6.0 does **not** display and can **not** adjust these Multiplexing parameters for ECMs that support this feature:
+>
+> - Intermediate Speed Control Increment / Decrement Switch
+> - Intermediate Speed Control Switch 1
+> - Intermediate Speed Control Switch 2
+> - Intermediate Speed Control Switch 3
+> - Intermediate Speed Control Variable Speed Switch.
+>
+> ### Confirmation
+>
+> None
+>
+> ### Resolution
+>
+> Issue is under investigation.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Document History

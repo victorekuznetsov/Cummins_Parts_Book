@@ -24,7 +24,8 @@ families:
   - "QSK50"
   - "QSZ13"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190043.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190043.pdf"
 tags:
@@ -35,6 +36,7 @@ tags:
   - "двигатель/QSK50"
   - "двигатель/QSZ13"
   - "год/2019"
+  - "перевод/машинный"
   - "тема/service-tools"
 ---
 
@@ -48,38 +50,82 @@ tags:
 > **Даты:** выпущен 2019-04-09 · изменён 2024-10-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190043.pdf)
 
-## Guidanz™ Mobile App Connection Error
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Ошибка подключения мобильного приложения Guidanz™
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- All electronically controlled engine products released after 2007
+### Содержание
 
-**IssueSymptom:**
+**Затронутая продукция**
 
-Guidanz™ mobile app error “MODULE COMMUNICATION PROBLEM” appears while attempting Bluetooth connection to an INLINE™ 7 datalink adapter while USB cable from INLINE™ 7 datalink adapter is physically connected to a computer. See Figure 1 below.
+- Все продукты с электронным управлением двигателями, выпущенные после 2007 года
 
-Verification
+**Симптом проблемы:**
 
-- INLINE™ 7 datalink adapter is connected to unit and is also physically connected to computer using USB cable
+Ошибка мобильного приложения GuidanzTM «MODULE COMMUNICATION PROBLEM» появляется при попытке подключения Bluetooth к адаптеру шины данных INLINETM 7 CAN, в то время как USB-кабель от адаптера шины данных INLINETM 7 CAN физически подключен к компьютеру. См. рисунок 1 ниже.
 
-AND
+Проверка
 
-- Guidanz™ mobile app Bluetooth connection is attempted to INLINE™ 7
+- Адаптер шины данных INLINETM 7 CAN подключен к блоку и физически подключен к компьютеру с помощью USB-кабеля.
 
-AND
+И
 
-- Guidanz™ mobile app error “MODULE COMMUNICATION PROBLEM” appears
+- Мобильное приложение GuidanzTM Bluetooth-соединение попыталось установить на INLINETM 7
+
+И
+
+- Ошибка мобильного приложения GuidanzTM «Проблема модульной связи»
 
 ![[22r00301.png]]
 
-**Resolution**
+**Решение**
 
-Physically disconnect the USB cable running from the computer to the INLINE™ 7 datalink adapter when attempting Bluetooth connection with the Guidanz™ mobile app.
+Физически отсоедините USB-кабель, работающий от компьютера, к адаптеру шины данных INLINETM 7 CAN при попытке подключения Bluetooth к мобильному приложению GuidanzTM.
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Guidanz™ Mobile App Connection Error
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - All electronically controlled engine products released after 2007
+>
+> **IssueSymptom:**
+>
+> Guidanz™ mobile app error “MODULE COMMUNICATION PROBLEM” appears while attempting Bluetooth connection to an INLINE™ 7 datalink adapter while USB cable from INLINE™ 7 datalink adapter is physically connected to a computer. See Figure 1 below.
+>
+> Verification
+>
+> - INLINE™ 7 datalink adapter is connected to unit and is also physically connected to computer using USB cable
+>
+> AND
+>
+> - Guidanz™ mobile app Bluetooth connection is attempted to INLINE™ 7
+>
+> AND
+>
+> - Guidanz™ mobile app error “MODULE COMMUNICATION PROBLEM” appears
+>
+> **Resolution**
+>
+> Physically disconnect the USB cable running from the computer to the INLINE™ 7 datalink adapter when attempting Bluetooth connection with the Guidanz™ mobile app.
+>
+> ### Document History

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1416.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1416.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Failed to Shut Down
@@ -34,28 +36,62 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1416.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1416.pdf)
 
-### Fault Code: 1416
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Failed to Shut Down
 
-Printable Version
+### Код неисправности: 1416
 
-### Overview
+### Останов не выполнен
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1416 PID(P): SPN: FMI: Lamp: Warning SRT: | Fail to shut down. | The operator has enabled the user-engaged engine shutdown override feature. No engine protection features are working. |
+| Код неисправности: 1416 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Не удалось закрыться. | Оператор включил функцию переопределения остановки двигателя, связанную с пользователем. Никаких защитных функций двигателя не работает. |
 
 ![[19802494.png]]
 
-ECM
+ЭКМ
 
-### Circuit Description
+### Описание цепи
 
-Not applicable
+Не применимо
 
-### Component Location
+### Расположение компонента
 
-Not applicable
+Не применимо
 
-Refer to Troubleshooting Fault Code t05-1416
+См. Код устранения неисправностей t05-1416
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1416
+>
+> ### Failed to Shut Down
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1416 PID(P): SPN: FMI: Lamp: Warning SRT: | Fail to shut down. | The operator has enabled the user-engaged engine shutdown override feature. No engine protection features are working. |
+>
+> ECM
+>
+> ### Circuit Description
+>
+> Not applicable
+>
+> ### Component Location
+>
+> Not applicable
+>
+> Refer to Troubleshooting Fault Code t05-1416

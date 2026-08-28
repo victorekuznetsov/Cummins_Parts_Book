@@ -22,7 +22,8 @@ manuals:
   - "3666260"
   - "4021374"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-033-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-033-om.pdf"
 tags:
@@ -31,6 +32,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Turbocharger
@@ -44,76 +46,152 @@ tags:
 > **Даты:** изменён 2022-08-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-033-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-033-om.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-#### Marine Application Only
+### Подготовительные операции
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the aftercooler heat shield. [[56-010-129-om — Aftercooler Heat Shield|Refer to Procedure 010-129 in Section A.]]
-- Remove the turbocharger heat shield. Contact a Cummins® Authorized Repair Location for removal of the turbocharger heat shield.
-- Remove the air intake and exhaust piping. Contact a Cummins® Authorized Repair Location for removal of the air intake and exhaust piping.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-### Maintenance Check
+#### Морское применение только
 
-Inspect the turbocharger compressor impeller blades for damage.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Удалите теплозащитный экран после охлаждения.[[56-010-129-om — Aftercooler Heat Shield|См. процедуру 010-129 в разделе A.]]
+- Удалите тепловой экран турбокомпрессора. Свяжитесь с авторизованным местом ремонта Cummins® для удаления теплового экрана турбокомпрессора.
+- Удалите воздухозаборник и выхлопные трубы. Свяжитесь с авторизованным местом ремонта Cummins® для удаления воздухозаборника и выхлопных труб.
 
-Contact a Cummins® Authorized Repair Location if damage is found.
+### Контроль при обслуживании
 
-Reference the model number on the turbocharger dataplate.
+Осмотрите лопасти компрессора турбокомпрессора на предмет повреждения.
+
+Свяжитесь с авторизованным местом ремонта Cummins®, если обнаружен ущерб.
+
+Ссылка на номер модели на табличке данных турбокомпрессора.
 
 ![[10400022.png]]
 
-### Measure
+### Измерение
 
-Use a depth gauge, Part Number ST-537, or a dial indicator to measure the axial motion (end-to-end).
+Используйте калибр глубины, номер детали ST-537 или индикатор циферблата для измерения осевой движения (сквозной).
 
-| Compressor Impeller Axial Endplay |  |  |  |
+| Компрессор Impeller Axial Endplay |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Holset® HX82/HX83/HE851 Turbocharger | 0.025 | MIN | 0.001 |
-|  | 0.152 | MAX | 0.006 |
-| Holset® HX60 Turbocharger | 0.051 | MIN | 0.002 |
-|  | 0.152 | MAX | 0.006 |
-| Holset® HX55 Turbocharger | 0.025 | MIN | 0.001 |
-|  | 0.127 | MAX | 0.005 |
-| Holset® HE800 HPRC Turbocharger | 0.009 | MIN | 0.0003 |
-|  | 0.141 | MAX | 0.0055 |
+|  | мм |  | в |
+| Holset® HX82/HX83/HE851 Турбокомпрессор | 0.025 | Мин | 0.001 |
+|  | 0.152 | Макс | 0.006 |
+| Holset® HX60 Turbocharger | 0.051 | Мин | 0.002 |
+|  | 0.152 | Макс | 0.006 |
+| Holset® HX55 Turbocharger | 0.025 | Мин | 0.001 |
+|  | 0.127 | Макс | 0.005 |
+| Holset® HE800 HPRC Turbocharger | 0.009 | Мин | 0.0003 |
+|  | 0.141 | Макс | 0.0055 |
 
-Make sure the movement is within the MIN/MAX TIR values shown above.
+Убедитесь, что движение находится в пределах значений МИН/МАХ МДП, показанных выше.
 
-> [!note] Note · Примечание
-> If the axial clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location.
+> [!note] Примечание
+> Если осевой зазор превышает технические характеристики, турбокомпрессор * должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[tb800jb.png]]
 
-Push the compressor impeller end of the shaft toward the housing.
+Подтолкните конец вала компрессора к корпусу.
 
-Measure the radial clearance (side-to-side) at the compressor impeller nose using a dial indiactor.
+Измерьте радиальный зазор (бок о бок) на носу рабочего колеса компрессора с помощью циферблата.
 
-| Compressor Impeller Radial Clearance |  |  |  |
+| Компрессор Имперлер Радиальный зазор |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Holset® HX82/HX83/HE851 Turbocharger | 0.254 | MIN | 0.01 |
-|  | 0.787 | MAX | 0.031 |
-| Holset® HX60 Turbocharger | 0.406 | MIN | 0.016 |
-|  | 0.584 | MAX | 0.023 |
-| Holset® HX55 Turbocharger | 0.406 | MIN | 0.016 |
-|  | 0.061 | MAX | 0.024 |
-| Holset® HE800 HPRC Turbocharger | 0.0623 | MIN | 0.002 |
-|  | 0.8425 | MAX | 0.033 |
+|  | мм |  | в |
+| Holset® HX82/HX83/HE851 Турбокомпрессор | 0.254 | Мин | 0.01 |
+|  | 0.787 | Макс | 0.031 |
+| Holset® HX60 Turbocharger | 0.406 | Мин | 0.016 |
+|  | 0.584 | Макс | 0.023 |
+| Holset® HX55 Turbocharger | 0.406 | Мин | 0.016 |
+|  | 0.061 | Макс | 0.024 |
+| Holset® HE800 HPRC Turbocharger | 0.0623 | Мин | 0.002 |
+|  | 0.8425 | Макс | 0.033 |
 
-Make sure the movement is within the MIN/MAX TIR values shown above.
+Убедитесь, что движение находится в пределах значений МИН/МАХ МДП, показанных выше.
 
-> [!note] Note · Примечание
-> If the radial clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location.
+> [!note] Примечание
+> Если радиальный зазор превышает технические характеристики, турбокомпрессор * должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[10600221.png]]
 
-### Replace
+### Замена
 
-Contact a Cummins® Authorized Repair Location to schedule this repair.
+Свяжитесь с авторизованным местом ремонта Cummins®, чтобы запланировать этот ремонт.
 
 ![[10600284.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> #### Marine Application Only
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the aftercooler heat shield. [[56-010-129-om — Aftercooler Heat Shield|Refer to Procedure 010-129 in Section A.]]
+> - Remove the turbocharger heat shield. Contact a Cummins® Authorized Repair Location for removal of the turbocharger heat shield.
+> - Remove the air intake and exhaust piping. Contact a Cummins® Authorized Repair Location for removal of the air intake and exhaust piping.
+>
+> ### Maintenance Check
+>
+> Inspect the turbocharger compressor impeller blades for damage.
+>
+> Contact a Cummins® Authorized Repair Location if damage is found.
+>
+> Reference the model number on the turbocharger dataplate.
+>
+> ### Measure
+>
+> Use a depth gauge, Part Number ST-537, or a dial indicator to measure the axial motion (end-to-end).
+>
+> | Compressor Impeller Axial Endplay |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Holset® HX82/HX83/HE851 Turbocharger | 0.025 | MIN | 0.001 |
+> |  | 0.152 | MAX | 0.006 |
+> | Holset® HX60 Turbocharger | 0.051 | MIN | 0.002 |
+> |  | 0.152 | MAX | 0.006 |
+> | Holset® HX55 Turbocharger | 0.025 | MIN | 0.001 |
+> |  | 0.127 | MAX | 0.005 |
+> | Holset® HE800 HPRC Turbocharger | 0.009 | MIN | 0.0003 |
+> |  | 0.141 | MAX | 0.0055 |
+>
+> Make sure the movement is within the MIN/MAX TIR values shown above.
+>
+> **Note · Примечание**
+> If the axial clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location.
+>
+> Push the compressor impeller end of the shaft toward the housing.
+>
+> Measure the radial clearance (side-to-side) at the compressor impeller nose using a dial indiactor.
+>
+> | Compressor Impeller Radial Clearance |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Holset® HX82/HX83/HE851 Turbocharger | 0.254 | MIN | 0.01 |
+> |  | 0.787 | MAX | 0.031 |
+> | Holset® HX60 Turbocharger | 0.406 | MIN | 0.016 |
+> |  | 0.584 | MAX | 0.023 |
+> | Holset® HX55 Turbocharger | 0.406 | MIN | 0.016 |
+> |  | 0.061 | MAX | 0.024 |
+> | Holset® HE800 HPRC Turbocharger | 0.0623 | MIN | 0.002 |
+> |  | 0.8425 | MAX | 0.033 |
+>
+> Make sure the movement is within the MIN/MAX TIR values shown above.
+>
+> **Note · Примечание**
+> If the radial clearance exceeds the specifications, the turbocharger **must** be replaced or rebuilt. Contact a Cummins® Authorized Repair Location.
+>
+> ### Replace
+>
+> Contact a Cummins® Authorized Repair Location to schedule this repair.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021587"
 figures: 24
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-023.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-015-023.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/115"
+  - "перевод/машинный"
 ---
 
 # Customer Interface Box
@@ -34,186 +36,332 @@ tags:
 > **Даты:** изменён 2006-06-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-023.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-015-023.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Engine Stop Button
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of injury and equipment damage, shipboard tag out and lock out procedures must be followed.
+### Снятие
 
-Make a note of the connection points of all wires.
+Кнопка остановки двигателя
 
-Loosen the wire set screws and remove the wires.
+> [!danger] ОПАСНО
+> Для уменьшения возможности получения травм и повреждения оборудования необходимо соблюдать процедуры маркировки и блокировки судов.
+
+Обратите внимание на точки соединения всех проводов.
+
+Освободите провода, запирающие винты и удалите провода.
 
 ![[17800118.png]]
 
-Loosen the bottom button set screw.
+Освободите нижнюю кнопку, запирающую винты.
 
-Lift the upper lever.
+Поднимите верхний рычаг.
 
-Pull rear switch assembly off of the button.
+Выключите заднюю сборку выключателя с кнопки.
 
-Remove button from the front of the panel door.
+Удалите кнопку с передней части двери панели.
 
 ![[17800119.png]]
 
-Terminal Strip
+Терминал Стрип
 
-Note the location of the affected wire.
+Обратите внимание на местоположение поврежденного провода.
 
-Insert a small flat tip screwdriver into the square slot above wire to be removed from terminal strip.
+Вставьте небольшую плоскую отвертку наконечника в квадратное отверстие над проводом, которое будет удалено с терминальной полосы.
 
-Move the screwdriver handle in an upward motion allowing the wire to be released from the terminal strip.
+Переместите ручку отвертки вверх, позволяя проводу быть выпущенным из терминальной полосы.
 
-Remove the wire.
+Удали провод.
 
 ![[17800149.png]]
 
-Loosen the terminal strip securing mechanism set screw.
+Освободите оконечную полосу, закрепляющую механизм, запирающий винты.
 
-Slide the securing mechanism and terminal strip to free area.
+Сдвиньте защитный механизм и терминальную полосу на свободную площадь.
 
 ![[17800152.png]]
 
-Insert a small flat head screwdriver into the bottom square release.
+Вставьте небольшую плоскую отвертку головы в нижний квадрат выпуска.
 
-Move the screwdriver handle in an upward motion to release the terminal strip.
+Переместите ручку отвертки вверх, чтобы освободить терминальную полосу.
 
 ![[17800153.png]]
 
-Circuit Breaker
+Сквозной взломщик
 
-Make a note of the wire location of the wires on the circuit breaker.
+Запишите расположение проводов на выключателе.
 
-Loosen the set screws and remove the wires.
+Освободите запирающие винты и удалите провода.
 
 ![[17800123.png]]
 
-Place a flat head screwdriver in the lower release rectangle and move the handle upward to release the circuit breaker from the track.
+Поместите плоскую головную отвертку в нижний прямоугольник выпуска и переместите ручку вверх, чтобы освободить выключатель от дорожки.
 
-Remove the circuit breaker.
+Удалите выключатель.
 
 ![[17800124.png]]
 
-Logic Unit
+Логический блок
 
-Note all locations of the wires on the customer interface box logic unit.
+Обратите внимание на все местоположения проводов на логическом блоке клиентского интерфейса.
 
-Loosen the set screws on the wires.
+Освободите запирающие винты от проводов.
 
-Remove the wires from the customer interface box logic unit.
+Удалите провода из блока логики клиентского интерфейса.
 
 ![[17800125.png]]
 
-Press down on the top of the customer interface box logic unit.
+Нажмите вниз на верхнюю часть логического блока клиентского интерфейса.
 
-At the end of travel pull outward on the bottom side.
+В конце путешествия вытащите наружу на нижнюю сторону.
 
-Remove the customer interface box logic unit.
+Удалите логический блок клиентского интерфейса.
 
 ![[17800126.png]]
 
-Conductor
+проводник
 
-Remove the associated cable tray covers (1).
+Удалите соответствующие крышки кабельного лотка (1).
 
 ![[17800127.png]]
 
-Note the location of the wire to be removed.
+Обратите внимание на расположение провода, который должен быть удален.
 
-Place the screwdriver in the square slot on the terminal strip.
+Поместите отвертку в квадратное отверстие на терминальной полосе.
 
-Move the handle in an downward motion and remove the wire.
+Переместите ручку в нисходящем движении и удалите провод.
 
 ![[17800149.png]]
 
-Remove the wire from the cable tray.
+Удалите провод из кабельного лотка.
 
-Remove the wire from the other connection point.
+Удалите провод из другой точки соединения.
 
 ![[17800150.png]]
 
-### Install
+### Установка
 
-Engine Stop Button
+Кнопка остановки двигателя
 
-Install the button into the front of the panel door.
+Установите кнопку в переднюю часть двери панели.
 
-Lift the switch assembly upper lever and slide it onto the button.
+Поднимите верхний рычаг коммутатора и нажмите на кнопку.
 
-Release the latch and verify the switch assembly is connected to the button.
+Отпустите защелку и убедитесь, что коммутатор соединен с кнопкой.
 
-Tighten the setscrew located at the bottom of the switch assembly.
+Затянуть штангу, расположенную в нижней части коммутаторной сборки.
 
 ![[17800130.png]]
 
-Install the wires in the noted location.
+Установите провода в указанном месте.
 
-Tighten the wire set screws.
+Затяните замковые винты.
 
 ![[17800118.png]]
 
-Terminal Strip
+Терминал Стрип
 
-Position the upper leg of the terminal strip onto the track.
+Поместите верхнюю часть терминальной полосы на дорожку.
 
-Press the lower portion of the terminal strip until it is completely on the track.
+Нажмите нижнюю часть терминальной полосы, пока она полностью не будет на трассе.
 
-Move the terminal strip into position.
+Переместите терминальную полосу в положение.
 
 ![[17800162.png]]
 
-Move the terminal strip securing mechanism to the terminal strip and tighten the setscrew.
+Переместить механизм крепления терминальной полосы на терминальную полосу и затянуть штангу.
 
-Place the screwdriver in the square slot in the terminal strip and move the handle upward and install the wire in the previously noted location.
+Поместите отвертку в квадратное отверстие в терминальной полосе и переместите ручку вверх и установите провод в ранее отмеченном месте.
 
 ![[17800149.png]]
 
-Circuit Breaker
+Сквозной взломщик
 
-Place the upper connecting tab on the track.
+Поместите верхнюю соединительную вкладку на дорожку.
 
-Push the lower portion of the circuit breaker until it locks onto the track.
+Нажмите нижнюю часть выключателя, пока он не заблокируется на дорожку.
 
 ![[17800134.png]]
 
-Install the wires into the noted locations and tighten the set screws.
+Установите провода в отмеченные места и затяните запирающие винты.
 
 ![[17800135.png]]
 
-Logic Unit
+Логический блок
 
-Place the upper portion of the logic unit on the track.
+Поместите верхнюю часть логического блока на дорожку.
 
-Push the lower portion of the logic unit until it locks onto the track.
+Нажмите нижнюю часть логического блока, пока он не заблокируется на дорожку.
 
 ![[17800136.png]]
 
-Install the wires into the noted locations and tighten the set screws.
+Установите провода в отмеченные места и затяните запирающие винты.
 
 ![[17800137.png]]
 
-Conductor
+проводник
 
-Route the wire through the cable tray to the associated connector.
+Проводите провод через кабельный лоток к связанному разъему.
 
 ![[17800150.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury and equipment damage, the wire must have the correct ferrule installed with the stripping and crimp tool.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность травм и повреждения оборудования, провод должен иметь правильное феррул, установленный с помощью инструмента для стриптиза и обжима.
 
-Strip the wire with the stripping and crimp tool Part Number 4918722.
+Раздевайте проволоку с помощью инструмента для полоскания и обжимания Номер детали 4918722.
 
-Crimp the new ferrule onto the end of the wire.
+Нажмите новое феррул на конец провода.
 
 ![[17800139.png]]
 
-Place the screwdriver in the square slot on the terminal strip.
+Поместите отвертку в квадратное отверстие на терминальной полосе.
 
-Move the handle in an downward motion and insert the wire.
+Переместите ручку в нисходящем движении и вставьте провод.
 
 ![[17800149.png]]
 
-Install the cable tray covers (1).
+Установите крышки кабельного лотка (1).
 
 ![[17800127.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Engine Stop Button
+>
+> **WARNING · Опасно**
+> To reduce the possibility of injury and equipment damage, shipboard tag out and lock out procedures must be followed.
+>
+> Make a note of the connection points of all wires.
+>
+> Loosen the wire set screws and remove the wires.
+>
+> Loosen the bottom button set screw.
+>
+> Lift the upper lever.
+>
+> Pull rear switch assembly off of the button.
+>
+> Remove button from the front of the panel door.
+>
+> Terminal Strip
+>
+> Note the location of the affected wire.
+>
+> Insert a small flat tip screwdriver into the square slot above wire to be removed from terminal strip.
+>
+> Move the screwdriver handle in an upward motion allowing the wire to be released from the terminal strip.
+>
+> Remove the wire.
+>
+> Loosen the terminal strip securing mechanism set screw.
+>
+> Slide the securing mechanism and terminal strip to free area.
+>
+> Insert a small flat head screwdriver into the bottom square release.
+>
+> Move the screwdriver handle in an upward motion to release the terminal strip.
+>
+> Circuit Breaker
+>
+> Make a note of the wire location of the wires on the circuit breaker.
+>
+> Loosen the set screws and remove the wires.
+>
+> Place a flat head screwdriver in the lower release rectangle and move the handle upward to release the circuit breaker from the track.
+>
+> Remove the circuit breaker.
+>
+> Logic Unit
+>
+> Note all locations of the wires on the customer interface box logic unit.
+>
+> Loosen the set screws on the wires.
+>
+> Remove the wires from the customer interface box logic unit.
+>
+> Press down on the top of the customer interface box logic unit.
+>
+> At the end of travel pull outward on the bottom side.
+>
+> Remove the customer interface box logic unit.
+>
+> Conductor
+>
+> Remove the associated cable tray covers (1).
+>
+> Note the location of the wire to be removed.
+>
+> Place the screwdriver in the square slot on the terminal strip.
+>
+> Move the handle in an downward motion and remove the wire.
+>
+> Remove the wire from the cable tray.
+>
+> Remove the wire from the other connection point.
+>
+> ### Install
+>
+> Engine Stop Button
+>
+> Install the button into the front of the panel door.
+>
+> Lift the switch assembly upper lever and slide it onto the button.
+>
+> Release the latch and verify the switch assembly is connected to the button.
+>
+> Tighten the setscrew located at the bottom of the switch assembly.
+>
+> Install the wires in the noted location.
+>
+> Tighten the wire set screws.
+>
+> Terminal Strip
+>
+> Position the upper leg of the terminal strip onto the track.
+>
+> Press the lower portion of the terminal strip until it is completely on the track.
+>
+> Move the terminal strip into position.
+>
+> Move the terminal strip securing mechanism to the terminal strip and tighten the setscrew.
+>
+> Place the screwdriver in the square slot in the terminal strip and move the handle upward and install the wire in the previously noted location.
+>
+> Circuit Breaker
+>
+> Place the upper connecting tab on the track.
+>
+> Push the lower portion of the circuit breaker until it locks onto the track.
+>
+> Install the wires into the noted locations and tighten the set screws.
+>
+> Logic Unit
+>
+> Place the upper portion of the logic unit on the track.
+>
+> Push the lower portion of the logic unit until it locks onto the track.
+>
+> Install the wires into the noted locations and tighten the set screws.
+>
+> Conductor
+>
+> Route the wire through the cable tray to the associated connector.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury and equipment damage, the wire must have the correct ferrule installed with the stripping and crimp tool.
+>
+> Strip the wire with the stripping and crimp tool Part Number 4918722.
+>
+> Crimp the new ferrule onto the end of the wire.
+>
+> Place the screwdriver in the square slot on the terminal strip.
+>
+> Move the handle in an downward motion and insert the wire.
+>
+> Install the cable tray covers (1).

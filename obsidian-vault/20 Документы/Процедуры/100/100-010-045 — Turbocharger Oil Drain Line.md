@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666003"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-045.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-010-045.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Oil Drain Line
@@ -34,51 +36,100 @@ tags:
 > **Даты:** изменён 2003-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-045.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-010-045.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Inspect the turbocharger oil drain line for oil leaks or damage.
 
-Repair as necessary.
+### Первичная проверка
+
+Проверить линию слива масла турбокомпрессора на наличие утечек или повреждений масла.
+
+Ремонт по мере необходимости.
 
 ![[10900249.png]]
 
-### Remove
+### Снятие
 
-Remove the capscrews from the oil drain tube.
+Удалите болты из трубки для слива масла.
 
-Pull the drain line out of the drain line boss.
+Вытащите линию отвода из главного водоотвода.
 
 ![[10900119.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Clean the gasket sealing surfaces.
+Очистить уплотнительные поверхности прокладки.
 
-Clean the o-ring seating bore and make sure it is free of dirt and debris.
+Очистите цилиндр для сидения с кольцом и убедитесь, что он свободен от грязи и мусора.
 
 ![[10900121.png]]
 
-Inspect the line for cracks, wear, and damage.
+Проверьте линию на наличие трещин, износа и повреждений.
 
-Inspect the o-ring for fretting and cracking. Replace if necessary.
+Осмотрите кольцо на трепет и треск. Заменить, если это необходимо.
 
-Check the rubber section of the drain line for deterioration.
+Проверьте резиновый участок дренажной линии на предмет износа.
 
 ![[10900120.png]]
 
-### Install
+### Установка
 
-Apply a thin film of oil to the drain line o-rings.
+Нанесите тонкую пленку масла на окольные кольца дренажной линии.
 
-Push the drain line into the drain line boss. Be sure both o-rings are completely seated in the bore.
+Проталкивайте линию слива в босса слива. Убедитесь, что оба кольца полностью расположены в цилиндре.
 
-Install a new gasket.
+Установите новую прокладку.
 
-Install and tighten the turbocharger oil drain line.
+Установите и затяните линию слива масла турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [20 ft-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [20 фунт-фут]
 
-Operate the engine and check for leaks.
+Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[10900117.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Inspect the turbocharger oil drain line for oil leaks or damage.
+>
+> Repair as necessary.
+>
+> ### Remove
+>
+> Remove the capscrews from the oil drain tube.
+>
+> Pull the drain line out of the drain line boss.
+>
+> ### Clean and Inspect for Reuse
+>
+> Clean the gasket sealing surfaces.
+>
+> Clean the o-ring seating bore and make sure it is free of dirt and debris.
+>
+> Inspect the line for cracks, wear, and damage.
+>
+> Inspect the o-ring for fretting and cracking. Replace if necessary.
+>
+> Check the rubber section of the drain line for deterioration.
+>
+> ### Install
+>
+> Apply a thin film of oil to the drain line o-rings.
+>
+> Push the drain line into the drain line boss. Be sure both o-rings are completely seated in the bore.
+>
+> Install a new gasket.
+>
+> Install and tighten the turbocharger oil drain line.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [20 ft-lb]
+>
+> Operate the engine and check for leaks.

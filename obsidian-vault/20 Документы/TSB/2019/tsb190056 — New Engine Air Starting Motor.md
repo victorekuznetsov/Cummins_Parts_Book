@@ -16,7 +16,8 @@ engines:
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK50"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190056.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190056.pdf"
 tags:
@@ -24,6 +25,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
   - "год/2019"
+  - "перевод/машинный"
   - "тема/electrical-equipment"
 ---
 
@@ -37,20 +39,28 @@ tags:
 > **Даты:** выпущен 2019-04-30 · изменён 2019-04-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190056.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190056.pdf)
 
-## New Engine Air Starting Motor
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый пневматический стартер
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - G50
 - GTA38
 - K38
-- K50
+- К50
 - K50-DPM
 - KTA38GC CM558
 - QSK38 CM2150 K106
@@ -73,23 +83,82 @@ The information in this document has no effect on present warranty coverage or r
 - QSK60 G
 - QSK60 G CM2358 K110
 
-**Description of Change**
+**Описание изменения**
 
-A new engine air starting motor has been released with a more robust pinion tooth chamfer design.
+Новый двигатель воздушного стартового двигателя был выпущен с более надежной конструкцией зубной чамфер.
 
-**Reason for Change**
+**Причина изменения**
 
-Existing engine air starting motors may not engage with the flywheel on the initial attempt to start, causing a crank failure fault on the diesel control unit and preventing further starting attempts.
+Существующие двигатели запуска воздуха двигателя могут не взаимодействовать с маховиком при первоначальной попытке запуска, вызывая неисправность коленчатого винта на блоке управления дизельным двигателем и предотвращая дальнейшие попытки запуска.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-Service parts are available. See Table 1 for part numbers.
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
 
-| Table 1, Service Parts |  |  |  |  |
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| MOTOR, STARTING | 3634784 | Yes | Yes | 5544765 |
-| MOTOR, STARTING | 4100563 | Yes | Yes | 5544766 |
-| MOTOR, STARTING | 4100562 | Yes | No | - |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| МОТОР, НАЧАЛ | 3634784 | Да | Да | 5544765 |
+| МОТОР, НАЧАЛ | 4100563 | Да | Да | 5544766 |
+| МОТОР, НАЧАЛ | 4100562 | Да | Нет | - |
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Engine Air Starting Motor
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - G50
+> - GTA38
+> - K38
+> - K50
+> - K50-DPM
+> - KTA38GC CM558
+> - QSK38 CM2150 K106
+> - QSK38 CM2150 MCRS
+> - QSK38 CM850 MCRS
+> - QSK45 CM500
+> - QSK50 CM2150 K107
+> - QSK50 CM2150 MCRS
+> - QSK50 CM2350 K108
+> - QSK50 CM850 MCRS
+> - QSK50 DF CM850/CM2150 MCRS
+> - QSK60 CM2150 MCRS
+> - QSK60 CM2250 K112
+> - QSK60 CM2350 K116
+> - QSK60 CM2350 K117
+> - QSK60 CM2350 K121
+> - QSK60 CM2350 K133
+> - QSK60 CM500
+> - QSK60 CM850 MCRS
+> - QSK60 G
+> - QSK60 G CM2358 K110
+>
+> **Description of Change**
+>
+> A new engine air starting motor has been released with a more robust pinion tooth chamfer design.
+>
+> **Reason for Change**
+>
+> Existing engine air starting motors may not engage with the flywheel on the initial attempt to start, causing a crank failure fault on the diesel control unit and preventing further starting attempts.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | MOTOR, STARTING | 3634784 | Yes | Yes | 5544765 |
+> | MOTOR, STARTING | 4100563 | Yes | Yes | 5544766 |
+> | MOTOR, STARTING | 4100562 | Yes | No | - |
+>
+> ### Document History

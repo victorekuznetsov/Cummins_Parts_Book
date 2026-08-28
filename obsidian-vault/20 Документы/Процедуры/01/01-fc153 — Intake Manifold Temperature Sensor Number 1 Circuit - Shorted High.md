@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc153.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc153.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Temperature Sensor Number 1 Circuit - Shorted High
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc153.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc153.pdf)
 
-### Fault Code: 153
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold Temperature Sensor Number 1 Circuit - Shorted High
 
-Printable Version
+### Код неисправности: 153
 
-### Overview
+### Цепь датчика температуры коллектора 1 — замыкание на плюс
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 153 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine intake manifold temperature sensor signal is shorted high. | No engine protection for the intake manifold air temperature. Possible white smoke. |
+| Код неисправности: 153 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Сигнал датчика температуры коллектора двигателя высоко закорачивается. | Отсутствие защиты двигателя от температуры воздуха впускного коллектора. Возможен белый дым. |
 
 ![[19803595.png]]
 
-Intake Manifold Temperature Sensor Circuit
+Цепь датчика температуры во впускном коллекторе
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold temperature sensor is used by the ECM to monitor the temperature of the air in the intake manifold after the aftercooler. The intake manifold temperature sensor is used by the ECM for the engine protection system, timing, and fueling control. If the voltage is high, the ECM will log Fault Code 153. Voltage high can be caused by opens in the signal or return wires, voltage shorts to the signal or return wires, or a failed open sensor.
+Датчик температуры впускного коллектора используется ECM для мониторинга температуры воздуха в впускном коллекторе после охладителя. Датчик температуры впускного коллектора используется ECM для системы защиты двигателя, управления временем и заправкой. Если напряжение высокое, ECM регистрирует код 153 ошибки. Высокое напряжение может быть вызвано открытиями в сигнале или обратных проводах, шортами напряжения к сигналу или обратным проводам или неисправным открытым датчиком.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams in Section E of this manual for the component location.
+См. диаграммы двигателя в разделе E этого руководства для определения местоположения компонента.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of the sensor varies with the temperature.
+Сопротивление датчика изменяется в зависимости от температуры.
 
-Refer to Troubleshooting Fault Code t05-153
+Устранение неполадок код t05-153
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 153
+>
+> ### Intake Manifold Temperature Sensor Number 1 Circuit - Shorted High
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 153 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine intake manifold temperature sensor signal is shorted high. | No engine protection for the intake manifold air temperature. Possible white smoke. |
+>
+> Intake Manifold Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The intake manifold temperature sensor is used by the ECM to monitor the temperature of the air in the intake manifold after the aftercooler. The intake manifold temperature sensor is used by the ECM for the engine protection system, timing, and fueling control. If the voltage is high, the ECM will log Fault Code 153. Voltage high can be caused by opens in the signal or return wires, voltage shorts to the signal or return wires, or a failed open sensor.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams in Section E of this manual for the component location.
+>
+> ### Shoptalk
+>
+> The resistance of the sensor varies with the temperature.
+>
+> Refer to Troubleshooting Fault Code t05-153

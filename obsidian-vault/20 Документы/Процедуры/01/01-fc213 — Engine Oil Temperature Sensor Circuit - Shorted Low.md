@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc213.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc213.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Temperature Sensor Circuit - Shorted Low
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc213.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc213.pdf)
 
-### Fault Code: 213
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Oil Temperature Sensor Circuit - Shorted Low
 
-Printable Version
+### Код неисправности: 213
 
-### Overview
+### Цепь датчика температуры масла — замыкание на массу
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 213 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine oil temperature sensor signal is shorted low. | No engine protection for the oil temperature. No effect on performance. |
+| Код неисправности: 213 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Сигнал датчика температуры моторного масла низко закорачивается. | Отсутствие защиты двигателя от температуры масла. Никакого влияния на производительность. |
 
 ![[19803595.png]]
 
-Oil Temperature Sensor Circuit
+Цепь датчика температуры масла
 
-### Circuit Description
+### Описание цепи
 
-The oil temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the engine oil. If the oil temperature becomes too high and engine protection is enabled, a derate condition will be incurred, possibly leading to shutdown.
+Датчик температуры масла используется электронным модулем управления (ECM) для мониторинга температуры масла двигателя. Если температура масла становится слишком высокой и включена защита двигателя, будет понесено ухудшение состояния, что, возможно, приведет к отключению.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of the sensor varies with the temperature.
+Сопротивление датчика изменяется в зависимости от температуры.
 
-Refer to Troubleshooting Fault Code t05-213
+См. Код устранения неполадок t05-213
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 213
+>
+> ### Engine Oil Temperature Sensor Circuit - Shorted Low
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 213 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine oil temperature sensor signal is shorted low. | No engine protection for the oil temperature. No effect on performance. |
+>
+> Oil Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The oil temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the engine oil. If the oil temperature becomes too high and engine protection is enabled, a derate condition will be incurred, possibly leading to shutdown.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> The resistance of the sensor varies with the temperature.
+>
+> Refer to Troubleshooting Fault Code t05-213

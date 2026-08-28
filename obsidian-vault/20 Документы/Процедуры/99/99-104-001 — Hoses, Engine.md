@@ -22,7 +22,8 @@ manuals:
   - "3666260"
   - "4021374"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-104-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-104-001.pdf"
 tags:
@@ -31,6 +32,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Hoses, Engine
@@ -44,16 +46,38 @@ tags:
 > **Даты:** изменён 2015-05-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-104-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-104-001.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check all flexible hoses, tubes, and lines for:
 
-- Leaks
-- Cracks
-- Cuts
-- Collapsing
-- Broken clamps
+### Контроль при обслуживании
 
-If damage is found, replace damaged component.
+Проверьте все гибкие шланги, трубки и линии для:
+
+- Утечки
+- Трещины
+- Порезы
+- хлопанье
+- Разбитые зажимы
+
+Если обнаружен ущерб, замените поврежденный компонент.
 
 ![[rp8hosa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Check all flexible hoses, tubes, and lines for:
+>
+> - Leaks
+> - Cracks
+> - Cuts
+> - Collapsing
+> - Broken clamps
+>
+> If damage is found, replace damaged component.

@@ -51,7 +51,8 @@ manuals:
   - "4021592"
   - "4021940"
 figures: 12
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-067.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-008-067.pdf"
 tags:
@@ -66,6 +67,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Sea Water Strainer
@@ -79,69 +81,122 @@ tags:
 > **Даты:** изменён 2015-10-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-067.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-008-067.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Most sea water systems for heat exchanger cooled engines use a sea water strainer. The strainer removes debris from the sea water before it enters the sea water pump.
+
+### Общие сведения
+
+Большинство систем морской воды для теплообменников с охлаждаемыми двигателями используют сетчатку морской воды. Стендер удаляет мусор из морской воды, прежде чем он попадет в морской водяной насос.
 
 ![[08600057.png]]
 
-Sea water strainer arrangements may differ.
+Схемы стейнеров морской воды могут отличаться.
 
-Inspect the sea water strainer daily for any foreign objects that could restrict water flow.
+Ежедневно проверяйте сетчатку морской воды на предмет любых посторонних предметов, которые могут ограничить поток воды.
 
 ![[08600033.png]]
 
-> [!warning] CAUTION · Осторожно
-> A restricted or clogged sea water strainer can result in hotter than normal, or overheated, engine coolant and marine gear oil temperatures.
+> [!warning] ОСТОРОЖНО
+> Ограниченный или забитый сетчатый фильтр морской воды может привести к более жарким, чем обычно, или перегретым, охлаждающей жидкости двигателя и температурам масла морского снаряжения.
 
-For more detailed information, refer to Sea Water Strainer Cleaning in this section.
+Для получения более подробной информации, обратитесь к очистке дренажа морской воды в этом разделе.
 
 ![[08600034.png]]
 
-If the sea water strainer is below the water level, close the sea water inlet valves before servicing the sea water strainer.
+Если сетчатка морской воды находится ниже уровня воды, закройте впускные клапаны морской воды перед обслуживанием сетчатки морской воды.
 
 ![[08600044.png]]
 
-### Disassemble
+### Разборка
 
-Loosen and remove the sea water strainer wing nut(s) as required.
+Ослабьте и удалите сетчатый орех (ы) крыла морской воды по мере необходимости.
 
 ![[08600060.png]]
 
-Remove the sea water strainer assembly. Be careful **not** to damage o-ring. Retain and inspect for damage.
+Удалите сборку сетчатки морской воды. Будьте осторожны, чтобы не повредить кольцо. Сохранить и проверить на предмет повреждения.
 
 ![[06600072.png]]
 
-Remove the sea water strainer basket.
+Удалите корзину с подтяжкой морской воды.
 
 ![[08600059.png]]
 
-### Clean
+### Очистка
 
-Empty all debris from the sea water strainer basket.
+Пустые все обломки из корзины для стрижек морской воды.
 
-Clean the sea water strainer.
+Очистите сетку морской воды.
 
 ![[08600059.png]]
 
-### Prime
+### Премьер-министр
 
-Prime the sea water strainer with clean water.
+Придавайте сетчатку морской воды чистой водой.
 
 ![[06600073.png]]
 
-### Assemble
+### Сборка
 
-Install the sea water strainer.
+Установите сетку морской воды.
 
-Inspect o-ring seal for tears or damage. Replace if necessary. Be sure o-ring is seated properly.
+Осмотрите уплотнение для слез или повреждений. Заменить, если это необходимо. Убедитесь, что кольцо правильно установлено.
 
 ![[06600072.png]]
 
-Install and tighten the wing nut(s).
+Установите и затяните крыло (ы).
 
 ![[08600060.png]]
 
-Open the sea water inlet valves.
+Откройте впускные клапаны морской воды.
 
 ![[17600022.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Most sea water systems for heat exchanger cooled engines use a sea water strainer. The strainer removes debris from the sea water before it enters the sea water pump.
+>
+> Sea water strainer arrangements may differ.
+>
+> Inspect the sea water strainer daily for any foreign objects that could restrict water flow.
+>
+> **CAUTION · Осторожно**
+> A restricted or clogged sea water strainer can result in hotter than normal, or overheated, engine coolant and marine gear oil temperatures.
+>
+> For more detailed information, refer to Sea Water Strainer Cleaning in this section.
+>
+> If the sea water strainer is below the water level, close the sea water inlet valves before servicing the sea water strainer.
+>
+> ### Disassemble
+>
+> Loosen and remove the sea water strainer wing nut(s) as required.
+>
+> Remove the sea water strainer assembly. Be careful **not** to damage o-ring. Retain and inspect for damage.
+>
+> Remove the sea water strainer basket.
+>
+> ### Clean
+>
+> Empty all debris from the sea water strainer basket.
+>
+> Clean the sea water strainer.
+>
+> ### Prime
+>
+> Prime the sea water strainer with clean water.
+>
+> ### Assemble
+>
+> Install the sea water strainer.
+>
+> Inspect o-ring seal for tears or damage. Replace if necessary. Be sure o-ring is seated properly.
+>
+> Install and tighten the wing nut(s).
+>
+> Open the sea water inlet valves.

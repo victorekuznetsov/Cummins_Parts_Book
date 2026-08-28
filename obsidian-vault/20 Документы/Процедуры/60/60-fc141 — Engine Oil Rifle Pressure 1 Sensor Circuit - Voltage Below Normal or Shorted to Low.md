@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc141.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc141.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Rifle Pressure 1 Sensor Circuit - Voltage Below Normal or Shorted to Low Source
@@ -34,58 +36,122 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc141.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc141.pdf)
 
-### Fault Code: 141
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Oil Rifle Pressure 1 Sensor Circuit - Voltage Below Normal or Shorted to Low Source
 
-Printable Version
+### Код неисправности: 141
 
-### Overview
+### Цепь датчика давления масла в главной магистрали 1 — напряжение ниже нормы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 141 PID(P): P100 SPN: 100 FMI: 4/4 Lamp: Amber SRT: | Low signal voltage or open circuit detected at the engine oil pressure circuit. | None on performance. |
+| Код неисправности: 141 PID(P): P100 SPN: 100 FMI: 4/4 лампы: Янтарная СРТ: | Низкое напряжение сигнала или открытая цепь, обнаруженная в цепи давления масла двигателя. | Ни одного на выступление. |
 
 ![[19a00847.png]]
 
-Engine Oil Rifle Pressure Sensor Circuit
+Схема датчика давления в реактивной винтовке
 
-### Circuit Description
+### Описание цепи
 
-The engine oil rifle pressure sensor is a variable resistance sensor used by the ECM to monitor the lubricating oil pressure. The engine oil rifle pressure sensor has three circuits: 5 volt supply, return, and signal circuits. The signal circuit voltage indicates the oil pressure in the oil rifle.
+Датчик давления винтовки моторного масла представляет собой датчик переменного сопротивления, используемый ECM для мониторинга давления моторного масла. Датчик давления винтовки с моторным маслом имеет три схемы: 5-вольтная цепь подачи, возврата и сигнала. Напряжение цепи сигнала указывает на давление масла в масляной винтовке.
 
-### Component Location
+### Расположение компонента
 
-The engine oil pressure sensor is located in the oil rifle.
+Датчик давления масла двигателя расположен в масляной винтовке.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+Эта диагностика выполняется постоянно, пока контроллер генераторной установки активен или двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the engine oil pressure signal voltage was out of range low.
+Модуль управления двигателем (ECM) обнаружил, что напряжение сигнала давления масла двигателя было вне диапазона низкого.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-- A default value for the engine oil pressure reading is used.
+- Используется значение по умолчанию для показания давления масла в двигателе.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-- Malfunctioning or damaged engine oil rifle pressure sensor.
+- Неисправный или поврежденный датчик давления винтовки с моторным маслом.
 
-Refer to Troubleshooting Fault Code 141.
+См. код 141 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 141
+>
+> ### Engine Oil Rifle Pressure 1 Sensor Circuit - Voltage Below Normal or Shorted to Low Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 141 PID(P): P100 SPN: 100 FMI: 4/4 Lamp: Amber SRT: | Low signal voltage or open circuit detected at the engine oil pressure circuit. | None on performance. |
+>
+> Engine Oil Rifle Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine oil rifle pressure sensor is a variable resistance sensor used by the ECM to monitor the lubricating oil pressure. The engine oil rifle pressure sensor has three circuits: 5 volt supply, return, and signal circuits. The signal circuit voltage indicates the oil pressure in the oil rifle.
+>
+> ### Component Location
+>
+> The engine oil pressure sensor is located in the oil rifle.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the engine oil pressure signal voltage was out of range low.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> - A default value for the engine oil pressure reading is used.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> - Malfunctioning or damaged engine oil rifle pressure sensor.
+>
+> Refer to Troubleshooting Fault Code 141.

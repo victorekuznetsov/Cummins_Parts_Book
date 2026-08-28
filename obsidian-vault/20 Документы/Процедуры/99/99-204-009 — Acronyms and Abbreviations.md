@@ -98,7 +98,8 @@ manuals:
   - "4960250"
   - "4960270"
   - "4960314"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-009.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-204-009.pdf"
 tags:
@@ -115,6 +116,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Acronyms and Abbreviations
@@ -128,87 +130,182 @@ tags:
 > **Даты:** изменён 2020-04-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-204-009.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The following list contains some of the acronyms and abbreviations used in this manual.
 
-| **ANSI** | American National Standards Institute |
+### Общие сведения
+
+В следующем списке приведены некоторые аббревиатуры и сокращения, используемые в этом руководстве.
+
+| **ANSI** | Американский национальный институт стандартов |
 |---|---|
-| **API** | American Petroleum Institute |
-| **ASTM** | American Society of Testing and Materials |
-| **ATDC** | After Top Dead Center |
-| **bhp** | Brake Horsepower |
-| **BTU** | British Thermal Unit |
-| **BTDC** | Before Top Dead Center |
-| **°C** | Celsius |
-| **CAN** | Controller Area Network |
-| **CARB** | California Air Resources Board |
-| **CCA** | Cold Cranking Amperes |
-| **CCV** | Closed Crankcase Ventilation |
-| **CES** | Cummins Engineering Standard |
-| **CIB** | Customer Interface Box |
-| **C.I.D.** | Cubic Inch Displacement |
-| **CNG** | Compressed Natural Gas |
-| **CO** | Carbon Monoxide |
-| **CPL** | Control Parts List |
-| **cSt** | Centistokes |
-| **DEF** | Diesel Exhaust Fluid |
-| **DOC** | Diesel Oxidation Catalyst |
-| **DPF** | Diesel Particulate Filter |
-| **ECM** | Engine Control Module |
-| **EFC** | Electronic Fuel Control |
-| **EGR** | Exhaust Gas Recirculation |
-| **EPA** | Environmental Protection Agency |
-| **ESN** | Engine Serial Number |
-| **°F** | Fahrenheit |
-| **ft-lb** | Foot-Pound Force |
-| **FMI** | Failure Mode Indentifier |
-| **GVW** | Gross Vehicle Weight |
-| **Hg** | Mercury |
-| **hp** | Horsepower |
-| **H** 2 **O** | Water |
-| **inHg** | Inches of Mercury |
-| **in H** 2 **0** | Inches of Water |
-| **ICM** | Ignition Control Module |
-| **IEC** | International Electrotechnical Commission |
-| **JSA** | Job Safety Assessment |
-| **km/l** | Kilometers per Liter |
-| **kPa** | Kilopascal |
-| **LNG** | Liquefied Natural Gas |
-| **LPG** | Liquefied Petroleum Gas |
-| **LTA** | Low Temperature Aftercooler |
-| **MCRS** | Modular Common Rail System |
-| **MIL** | Malfunction Indicator Lamp |
-| **MPa** | Megapascal |
-| **mph** | Miles Per Hour |
-| **mpq** | Miles Per Quart |
-| **N•m** | Newton-meter |
-| **NOx** | Nitrogen Oxides |
-| **NG** | Natural Gas |
-| **O2** | Oxygen |
-| **OAT** | Organic Acid Technology |
-| **OBD** | On-Board Diagnostics |
-| **OEM** | Original Equipment Manufacturer |
-| **OSHA** | Occupational Safety and Health Administration |
-| **PCCNet** | Power Command Control Network |
-| **PID** | Parameter Identification Descriptions |
-| **PPE** | Personal Protective Equipment |
-| **ppm** | Parts Per Million |
-| **psi** | Pounds Per Square Inch |
-| **PTO** | Power Takeoff |
+| **API** | Американский нефтяной институт |
+| **ASTM** | Американское общество испытаний и материалов |
+| **АТДК** | Лучший мертвый центр |
+| ***hp** | Тормозная лошадиная сила |
+| **БТУ** | Британская тепловая единица |
+| **БТДК** | Перед самым мертвым центром |
+| **°C** | Цельсия |
+| **Может** | Сеть Controller Area Network |
+| **CARB** | Калифорнийский совет по воздушным ресурсам |
+| **СС** | Холодный проворачивающий ампер |
+| **CCV** | Закрытая вентиляция картера |
+| **СС** | Cummins Engineering Standard |
+| **CIB** | Интерфейсная коробка заказчика |
+| **C.I.D.** | Кубик-дюймовый вытеснение |
+| **КПГ** | Сжатый природный газ |
+| **CO** | Угарный газ |
+| **CPL** | Список контрольных частей |
+| **cSt** | центристок |
+| **DEF** | Дизельная выхлопная жидкость |
+| **DOC** | Катализатор окисления дизельного топлива |
+| **ДПФ** | Дизельный фильтр твердых частиц |
+| **ECM** | Электронный блок управления двигателем |
+| **EFC** | Электронный контроль топлива |
+| **ЕГР** | Рециркуляция выхлопных газов |
+| **EPA** | Агентство по охране окружающей среды |
+| **ESN** | Серийный номер двигателя |
+| **°F** | Фаренгейт |
+| **фунт-фут** | Сила фут-пунда |
+| **FMI** | Неудачный модемный идентификатор |
+| **GVW** | Валовой вес автомобиля |
+|| Меркурий |
+| **p** | Всадник |
+|| вода |
+| **в Hg** | дюймы Меркурия |
+| *** В H** 2 **0** | дюйм воды |
+| **ММР** | Модуль управления зажиганием |
+| **МЭК** | Международная электротехническая комиссия |
+| **JSA** | Оценка безопасности труда |
+| **км/л** | Километры на литр |
+| **kPa** | Килопаскаль |
+| **СПГ** | Сжиженный природный газ |
+| **СУГ** | Сжиженный нефтяной газ |
+| **LTA** | Низкая температура послеохладителя |
+| **МКС** | Модульная общая железнодорожная система |
+| **МВЛ** | Неисправность индикатора лампы |
+| **МП** | Мегапаскаль |
+| **mph** | Мили в час |
+| **mpq** | Мили за кварт |
+| **Н*м** | Ньютонметр |
+| **NOx** | Окислители азота |
+| **НГ** | Природный газ |
+| **O2** | Кислород |
+| **ОАТ** | Технология органических кислот |
+| **БД** | Диагностика на борту |
+| **OEM** | Оригинальный производитель оборудования |
+| **OSHA** | Управление по безопасности и гигиене труда |
+| **PCCNet** | Сеть управления Power Command Control Network |
+| **ПИД** | Описание параметров |
+| **СИЗ** | Персональное защитное оборудование |
+| **ppm** | Части на миллион |
+| **пси** | Фунты на квадратный дюйм |
+| **PTO** | Взлет мощности |
 | **QSOL** | QuickServe® Online |
-| **REPTO** | Rear Engine Power Takeoff |
-| **RGT** | Rear Gear Train |
-| **rpm** | Revolutions Per Minute |
-| **SAE** | Society of Automotive Engineers |
-| **SCA** | Supplemental Coolant Additive |
-| **SCR** | Selective Catalytic Reduction |
-| **STC** | Step Timing Control |
-| **SID** | Subsystem Identification Descriptions |
+| **REPTO** | Задний двигатель Power Takeoff |
+| **РГТ** | Поезд Rear Gear |
+| **rpm** | Революции в минуту |
+| **SAE** | Общество автомобильных инженеров |
+| **SCA** | Дополнительный охлаждающий аддитив |
+| *** КСУ** | Селективное каталитическое снижение |
+| **ТКП** | Шаг синхронизации контроля |
+| **МУС** | Описание идентификации подсистемы |
 | **TDC** | Top Dead Center |
-| **TSB** | Technical Service Bulletin |
-| **ULSD** | Ultra Low Sulfur Diesel |
-| **VDC** | Volts of Direct Current |
-| **VGT** | Variable Geometry Turbocharger |
-| **VS** | Variable Speed |
-| **VSS** | Vehicle Speed Sensor |
+| **TSB** | Бюллетень технического обслуживания |
+| **УЛСД** | Ультранизкосерничный дизель |
+| **VDC** | Вольты прямого тока |
+| **ВГТ** | Турбокомпрессор с изменяемой геометрией |
+| **VS** | Переменная скорость |
+| **VSS** | Сенсор скорости автомобиля |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The following list contains some of the acronyms and abbreviations used in this manual.
+>
+> | **ANSI** | American National Standards Institute |
+> |---|---|
+> | **API** | American Petroleum Institute |
+> | **ASTM** | American Society of Testing and Materials |
+> | **ATDC** | After Top Dead Center |
+> | **bhp** | Brake Horsepower |
+> | **BTU** | British Thermal Unit |
+> | **BTDC** | Before Top Dead Center |
+> | **°C** | Celsius |
+> | **CAN** | Controller Area Network |
+> | **CARB** | California Air Resources Board |
+> | **CCA** | Cold Cranking Amperes |
+> | **CCV** | Closed Crankcase Ventilation |
+> | **CES** | Cummins Engineering Standard |
+> | **CIB** | Customer Interface Box |
+> | **C.I.D.** | Cubic Inch Displacement |
+> | **CNG** | Compressed Natural Gas |
+> | **CO** | Carbon Monoxide |
+> | **CPL** | Control Parts List |
+> | **cSt** | Centistokes |
+> | **DEF** | Diesel Exhaust Fluid |
+> | **DOC** | Diesel Oxidation Catalyst |
+> | **DPF** | Diesel Particulate Filter |
+> | **ECM** | Engine Control Module |
+> | **EFC** | Electronic Fuel Control |
+> | **EGR** | Exhaust Gas Recirculation |
+> | **EPA** | Environmental Protection Agency |
+> | **ESN** | Engine Serial Number |
+> | **°F** | Fahrenheit |
+> | **ft-lb** | Foot-Pound Force |
+> | **FMI** | Failure Mode Indentifier |
+> | **GVW** | Gross Vehicle Weight |
+> | **Hg** | Mercury |
+> | **hp** | Horsepower |
+> | **H** 2 **O** | Water |
+> | **inHg** | Inches of Mercury |
+> | **in H** 2 **0** | Inches of Water |
+> | **ICM** | Ignition Control Module |
+> | **IEC** | International Electrotechnical Commission |
+> | **JSA** | Job Safety Assessment |
+> | **km/l** | Kilometers per Liter |
+> | **kPa** | Kilopascal |
+> | **LNG** | Liquefied Natural Gas |
+> | **LPG** | Liquefied Petroleum Gas |
+> | **LTA** | Low Temperature Aftercooler |
+> | **MCRS** | Modular Common Rail System |
+> | **MIL** | Malfunction Indicator Lamp |
+> | **MPa** | Megapascal |
+> | **mph** | Miles Per Hour |
+> | **mpq** | Miles Per Quart |
+> | **N•m** | Newton-meter |
+> | **NOx** | Nitrogen Oxides |
+> | **NG** | Natural Gas |
+> | **O2** | Oxygen |
+> | **OAT** | Organic Acid Technology |
+> | **OBD** | On-Board Diagnostics |
+> | **OEM** | Original Equipment Manufacturer |
+> | **OSHA** | Occupational Safety and Health Administration |
+> | **PCCNet** | Power Command Control Network |
+> | **PID** | Parameter Identification Descriptions |
+> | **PPE** | Personal Protective Equipment |
+> | **ppm** | Parts Per Million |
+> | **psi** | Pounds Per Square Inch |
+> | **PTO** | Power Takeoff |
+> | **QSOL** | QuickServe® Online |
+> | **REPTO** | Rear Engine Power Takeoff |
+> | **RGT** | Rear Gear Train |
+> | **rpm** | Revolutions Per Minute |
+> | **SAE** | Society of Automotive Engineers |
+> | **SCA** | Supplemental Coolant Additive |
+> | **SCR** | Selective Catalytic Reduction |
+> | **STC** | Step Timing Control |
+> | **SID** | Subsystem Identification Descriptions |
+> | **TDC** | Top Dead Center |
+> | **TSB** | Technical Service Bulletin |
+> | **ULSD** | Ultra Low Sulfur Diesel |
+> | **VDC** | Volts of Direct Current |
+> | **VGT** | Variable Geometry Turbocharger |
+> | **VS** | Variable Speed |
+> | **VSS** | Vehicle Speed Sensor |

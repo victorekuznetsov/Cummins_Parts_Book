@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc326.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc326.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Level Number 1 Low - Warning
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc326.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc326.pdf)
 
-### Fault Code: 326
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Oil Level Number 1 Low - Warning
 
-Printable Version
+### Код неисправности: 326
 
-### Overview
+### Низкий уровень масла №1 — предупреждение
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 326 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine oil level Number 1 low - warning. Voltage signal indicates low lubricating oil level in the engine. | Calibration-dependent engine shutdown or no action is taken by ECM. |
+| Код неисправности: 326 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Низкий уровень масла №1 — предупреждение. Сигнал напряжения указывает на низкий уровень моторного масла в двигателе. | Зависимое от калибровки отключение двигателя или отсутствие действий со стороны ECM. |
 
 ![[19803584.png]]
 
-Oil Level Sensor Circuit
+Сенсорная схема уровня масла
 
-### Circuit Description
+### Описание цепи
 
-The oil level sensor is used by the electronic control module (ECM) to monitor the amount of oil in the engine.
+Датчик уровня масла используется электронным модулем управления (ECM) для мониторинга количества масла в двигателе.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-A 4-pin oil level sensor will not trigger Fault Code 326.
+4-контактный датчик уровня масла не будет запускать код 326 по умолчанию.
 
-Refer to Troubleshooting Fault Code t05-326
+См. Код устранения неполадок t05-326
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 326
+>
+> ### Engine Oil Level Number 1 Low - Warning
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 326 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine oil level Number 1 low - warning. Voltage signal indicates low lubricating oil level in the engine. | Calibration-dependent engine shutdown or no action is taken by ECM. |
+>
+> Oil Level Sensor Circuit
+>
+> ### Circuit Description
+>
+> The oil level sensor is used by the electronic control module (ECM) to monitor the amount of oil in the engine.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> A 4-pin oil level sensor will not trigger Fault Code 326.
+>
+> Refer to Troubleshooting Fault Code t05-326

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1847.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1847.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Engine Coolant Temperature - Special Instructions
@@ -34,66 +36,138 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1847.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1847.pdf)
 
-### Fault Code: 1847
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Coolant Temperature - Special Instructions
 
-Printable Version
+### Код неисправности: 1847
 
-### Overview
+### Температура охлаждающей жидкости — особые указания
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1847 PID(P): P110 SPN: 110 FMI: 14/14 Lamp: Red SRT: | Engine coolant temperature is above the engine protection warning limit. | Engine will shut down. Generator set will disconnect from the grid. |
+| Код неисправности: 1847 PID(P): P110 SPN: 110 FMI: 14/14 Лампа: Красная СТО: | Температура охлаждающей жидкости двигателя выше предела предупреждения о защите двигателя. | Двигатель отключится. Генераторный набор отключится от сети. |
 
 ![[19a00848.png]]
 
-Engine Coolant Temperature Sensor Circuit
+Схема датчика температуры двигателя
 
-### Circuit Description
+### Описание цепи
 
-The engine coolant temperature sensor is a variable resistor sensor used by the ECM to monitor the engine coolant temperature. The engine coolant temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the coolant temperature.
+Датчик температуры охлаждающей жидкости двигателя представляет собой датчик переменного резистора, используемый ECM для мониторинга температуры охлаждающей жидкости двигателя. Датчик температуры охлаждающей жидкости двигателя имеет две схемы: сигнал и обратные цепи. Напряжение сигнала указывает на температуру охлаждающей жидкости.
 
-### Component Location
+### Расположение компонента
 
-The engine coolant temperature sensor is located on the thermostat housing.
+Датчик температуры охлаждающей жидкости двигателя расположен на корпусе термостата.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the engine is running.
+Эта диагностика выполняется непрерывно, когда двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the engine coolant temperature was greater than the engine protection limit.
+Модуль управления двигателем (ECM) обнаружил, что температура охлаждающей жидкости двигателя была выше предела защиты двигателя.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность выключения сразу же, когда диагностика работает и выходит из строя.
 
-- The engine will be shut down.
+- Двигатель будет отключен.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
+- Для проверки ремонта доведите двигатель до рабочей температуры и запускайте его в нормальных условиях нагрузки в течение 15 минут.
 
-- The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
+- Контроллер генераторной установки отключит индикатор выключения сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Obstructed airflow through the radiator.
+- Затрудняется протекание воздуха через радиатор.
 
-- Engine coolant level low
+- Уровень охлаждающей жидкости в двигателе низкий
 
-- Collapsed or restricted cooling system hoses.
+- Сжатые или ограниченные шланги системы охлаждения.
 
-- Malfunctioning engine coolant thermostat.
+- Неисправный термостат охлаждающей жидкости двигателя.
 
-- A malfunctioning water pump.
+- Неисправный водяной насос.
 
-- Malfunctioning engine coolant temperature sensor
+- Неисправный датчик температуры охлаждающей жидкости двигателя
 
-Refer to Troubleshooting Fault Code 1847.
+См. Troubleshooting Fault Code 1847.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1847
+>
+> ### Engine Coolant Temperature - Special Instructions
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1847 PID(P): P110 SPN: 110 FMI: 14/14 Lamp: Red SRT: | Engine coolant temperature is above the engine protection warning limit. | Engine will shut down. Generator set will disconnect from the grid. |
+>
+> Engine Coolant Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine coolant temperature sensor is a variable resistor sensor used by the ECM to monitor the engine coolant temperature. The engine coolant temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the coolant temperature.
+>
+> ### Component Location
+>
+> The engine coolant temperature sensor is located on the thermostat housing.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the engine coolant temperature was greater than the engine protection limit.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
+>
+> - The engine will be shut down.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
+>
+> - The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Obstructed airflow through the radiator.
+>
+> - Engine coolant level low
+>
+> - Collapsed or restricted cooling system hoses.
+>
+> - Malfunctioning engine coolant thermostat.
+>
+> - A malfunctioning water pump.
+>
+> - Malfunctioning engine coolant temperature sensor
+>
+> Refer to Troubleshooting Fault Code 1847.

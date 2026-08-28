@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-061.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-061.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Pressure Sensor
@@ -34,69 +36,128 @@ tags:
 > **Даты:** изменён 2003-07-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-061.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-061.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Connect an electronic service tool to the datalink.
+
+### Первичная проверка
+
+Подключите электронный инструмент к шине данных CAN.
 
 ![[19800902.png]]
 
-Install a 0 to 2030 mm Hg \[0 to 80 in Hg\] manometer (or gauge) in the \[3/8-inch\] pipe plug hole in the aftercooler housing.
+Установите манометр (или калибр) от 0 до 2030 мм рт.ст. \[0 до 80 в рт.ст.] в отверстие \[3/8-дюймовой \] трубной пробки в корпусе послеохладителя.
 
-Do **not** drill and tap a hole in the aftercooler cover. A faulty reading can result if the aftercooler core is leaking.
+Сделайте **не** сверлить и нажмите отверстие в крышке послеохладителя. Неправильное считывание может привести к утечке ядра после охлаждения.
 
 ![[10400032.png]]
 
-Operate the engine at rated rpm and full load. Compare the reading from the electronic service tool to the gauge reading. If the electronic service tool reading **must** be within 51 mm Hg \[2 in Hg\] of the gauge reading.
+Работайте с двигателем при номинальной оборотах и полной нагрузке. Сравните показания с электронным инструментом обслуживания с показаниями измерительной шкалы. Если показания приборов электронной службы **должны** находиться в пределах 51 мм рт.ст. \[2 в рт.ст.] показаний измерительной шкалы.
 
-If the intake manifold pressure sensor is **not** within specifications, the intake manifold pressure sensor **must** be replaced.
+Если датчик давления впускного коллектора **не** в пределах спецификаций, датчик давления впускного коллектора * должен быть заменен.
 
 ![[17600025.png]]
 
-### Remove
+### Снятие
 
-Disconnect the engine harness from the intake manifold pressure sensor.
+Отсоедините жгут электропроводки двигателя от датчика давления впускного коллектора.
 
-Remove the sensor using a deep-well socket, Part Number 3823843.
+Удалите датчик с помощью глубоководного гнезда, номер детали 3823843.
 
 ![[19400439.png]]
 
-### Test
+### Проверка
 
-Connect an electronic service tool to the datalink.
+Подключите электронный инструмент к шине данных CAN.
 
 ![[19800902.png]]
 
-Connect the engine harness to the intake manifold pressure sensor.
+Подключите жгут проводов двигателя к датчику давления впускного коллектора.
 
-Allow the sensor and harness to hang in air.
+Дайте датчику и проводах висеть в воздухе.
 
 ![[08600402.png]]
 
-Monitor the intake manifold pressure with the electronic service tool.
+Мониторинг давления впускного коллектора с помощью электронного инструментария обслуживания.
 
-The intake manifold pressure **must** be within ±63.5 mm Hg \[2.5 In Hg\] of the barometric pressure sensor value.
+Давление впускного коллектора **должно** находиться в пределах ±63,5 мм рт.ст. \[2,5 In Hg\] значения барометрического датчика давления.
 
-If the intake manifold pressure sensor is not within specifications, the intake manifold pressure sensor **must** be replaced.
+Если датчик давления впускного коллектора не соответствует спецификациям, датчик давления впускного коллектора * должен быть заменен.
 
-Disconnect the electronic service tool.
+Отключите инструмент электронного сервиса.
 
-Disconnect the intake manifold pressure sensor from the engine harness.
+Отсоедините датчик давления впускного коллектора от электропроводки двигателя.
 
 ![[19800902.png]]
 
-### Install
+### Установка
 
-If a new intake manifold pressure sensor is used, make sure the sensor has an o-ring.
+Если используется новый датчик давления впускного коллектора, убедитесь, что датчик имеет кольцо.
 
-Install the sensor into the air intake manifold.
+Установите датчик в коллектор воздухозаборника.
 
-Use a deep-well socket, Part Number 3823843, to tighten the sensor.
+Используйте розетку глубокого колодца, номер детали 3823843, чтобы затянуть датчик.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
 ![[19400440.png]]
 
-Connect the engine harness to the intake manifold pressure sensor.
+Подключите жгут проводов двигателя к датчику давления впускного коллектора.
 
 ![[19400452.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Connect an electronic service tool to the datalink.
+>
+> Install a 0 to 2030 mm Hg \[0 to 80 in Hg\] manometer (or gauge) in the \[3/8-inch\] pipe plug hole in the aftercooler housing.
+>
+> Do **not** drill and tap a hole in the aftercooler cover. A faulty reading can result if the aftercooler core is leaking.
+>
+> Operate the engine at rated rpm and full load. Compare the reading from the electronic service tool to the gauge reading. If the electronic service tool reading **must** be within 51 mm Hg \[2 in Hg\] of the gauge reading.
+>
+> If the intake manifold pressure sensor is **not** within specifications, the intake manifold pressure sensor **must** be replaced.
+>
+> ### Remove
+>
+> Disconnect the engine harness from the intake manifold pressure sensor.
+>
+> Remove the sensor using a deep-well socket, Part Number 3823843.
+>
+> ### Test
+>
+> Connect an electronic service tool to the datalink.
+>
+> Connect the engine harness to the intake manifold pressure sensor.
+>
+> Allow the sensor and harness to hang in air.
+>
+> Monitor the intake manifold pressure with the electronic service tool.
+>
+> The intake manifold pressure **must** be within ±63.5 mm Hg \[2.5 In Hg\] of the barometric pressure sensor value.
+>
+> If the intake manifold pressure sensor is not within specifications, the intake manifold pressure sensor **must** be replaced.
+>
+> Disconnect the electronic service tool.
+>
+> Disconnect the intake manifold pressure sensor from the engine harness.
+>
+> ### Install
+>
+> If a new intake manifold pressure sensor is used, make sure the sensor has an o-ring.
+>
+> Install the sensor into the air intake manifold.
+>
+> Use a deep-well socket, Part Number 3823843, to tighten the sensor.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Connect the engine harness to the intake manifold pressure sensor.

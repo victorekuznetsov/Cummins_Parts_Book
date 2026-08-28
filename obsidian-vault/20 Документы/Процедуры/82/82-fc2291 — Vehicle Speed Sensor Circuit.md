@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc2291.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc2291.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Vehicle Speed Sensor Circuit
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc2291.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc2291.pdf)
 
-### Fault Code: 2291
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Vehicle Speed Sensor Circuit
 
-Printable Version
+### Код неисправности: 2291
 
-### Overview
+### Цепь датчика скорости машины
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 2291 PID(P): SPN: FMI: Lamp: Yellow SRT: | More than 0-mph vehicle speed detected when ICON™ is enabled. | The ICON™ system will be disabled. **Only** mandatory shutdown will be enabled. |
+| Код неисправности: 2291 PID(P): СПН: ФМИ: Лампа: Желтая СТО: | Скорость автомобиля более 0 миль в час, обнаруженная при включении ICONTM. | Система ICONTM будет отключена. * Включено только обязательное отключение. |
 
 ![[19803217.png]]
 
-Integrated Idle ICON™ Circuit
+Интегрированная схема Idle ICONTM
 
-### Circuit Description
+### Описание цепи
 
-The ECM monitors vehicle speed when ICON™ is enabled for safety violation. The ECM reviews data through the magnetic pickup. This fault code indicates that vehicle speed has been detected.
+ECM контролирует скорость автомобиля, когда включена функция ICONTM для нарушения безопасности. ECM анализирует данные через магнитный пикап. Этот код неисправности указывает на то, что скорость автомобиля была обнаружена.
 
-### Component Location
+### Расположение компонента
 
-The vehicle speed sensor circuit is located on the vehicle transmission side.
+Схема датчика скорости транспортного средства расположена на стороне передачи транспортного средства.
 
-### Shoptalk
+### Практические замечания
 
-This fault indicates a vehicle speed greater than 0 mph when ICON™ is enabled. Typically, a loose or faulty ground will generate noise in the vehicle speed sensor circuit.
+Эта неисправность указывает на скорость транспортного средства, превышающую 0 миль в час, когда включен ICONTM. Как правило, свободный или неисправный грунт будет генерировать шум в цепи датчика скорости транспортного средства.
 
-Refer to Troubleshooting Fault Code t05-2291
+См. Код устранения неполадок t05-2291
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 2291
+>
+> ### Vehicle Speed Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 2291 PID(P): SPN: FMI: Lamp: Yellow SRT: | More than 0-mph vehicle speed detected when ICON™ is enabled. | The ICON™ system will be disabled. **Only** mandatory shutdown will be enabled. |
+>
+> Integrated Idle ICON™ Circuit
+>
+> ### Circuit Description
+>
+> The ECM monitors vehicle speed when ICON™ is enabled for safety violation. The ECM reviews data through the magnetic pickup. This fault code indicates that vehicle speed has been detected.
+>
+> ### Component Location
+>
+> The vehicle speed sensor circuit is located on the vehicle transmission side.
+>
+> ### Shoptalk
+>
+> This fault indicates a vehicle speed greater than 0 mph when ICON™ is enabled. Typically, a loose or faulty ground will generate noise in the vehicle speed sensor circuit.
+>
+> Refer to Troubleshooting Fault Code t05-2291

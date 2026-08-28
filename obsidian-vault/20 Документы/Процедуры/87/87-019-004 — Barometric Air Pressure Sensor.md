@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666214"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-019-004.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
+  - "перевод/машинный"
 ---
 
 # Barometric Air Pressure Sensor
@@ -34,37 +36,72 @@ tags:
 > **Даты:** изменён 2004-08-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-019-004.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Connect the INSITE™ electronic service tool to the vehicle datalink.
 
-Turn the keyswitch to the ON position.
+### Первичная проверка
 
-Monitor the ambient air pressure. If the ambient air pressure is less than or equal to 523 mm HG \[20.6 in HG\] and the present elevation is less than 3048 m \[10,000 ft\], replace the ambient air pressure sensor.
+Подключите инструмент электронного сервиса INSITETM к шине данных CAN транспортного средства.
+
+Переведите замок зажигания в положение ON.
+
+Контролируйте давление окружающего воздуха. Если давление окружающего воздуха меньше или равно 523 мм HG \[20,6 в HG\] и настоящее возвышение составляет менее 3048 м \[10 000 футов\], замените датчик давления окружающего воздуха.
 
 ![[19900524.png]]
 
-### Remove
+### Снятие
 
-Lift up on the tab and disconnect the connector from the sensor.
+Поднимите на вкладку и отсоедините разъем от датчика.
 
 ![[19a00243.png]]
 
-Remove the sensor from the engine.
+Удалите датчик из двигателя.
 
 ![[19a00244.png]]
 
-### Install
+### Установка
 
-Install a new sensor on the engine.
+Установите новый датчик на двигатель.
 
-Tighten the sensor.
+Затяните датчик.
 
-> [!tip] Момент затяжки · Torque Value
+> [!tip] Момент затяжки
+> 23 Н·м [204 фунт-дюйм]
+
+![[19a00244.png]]
+
+Соедините разъёмы до фиксации. Слышный щелчок будет слышен, когда разъем запирается на месте.
+
+![[19a00243.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Connect the INSITE™ electronic service tool to the vehicle datalink.
+>
+> Turn the keyswitch to the ON position.
+>
+> Monitor the ambient air pressure. If the ambient air pressure is less than or equal to 523 mm HG \[20.6 in HG\] and the present elevation is less than 3048 m \[10,000 ft\], replace the ambient air pressure sensor.
+>
+> ### Remove
+>
+> Lift up on the tab and disconnect the connector from the sensor.
+>
+> Remove the sensor from the engine.
+>
+> ### Install
+>
+> Install a new sensor on the engine.
+>
+> Tighten the sensor.
+>
+> **Момент затяжки · Torque Value**
 > 23 n•m [204 in-lb]
-
-![[19a00244.png]]
-
-Push the connectors together until they lock. An audible click will be heard when the connector locks in place.
-
-![[19a00243.png]]
+>
+> Push the connectors together until they lock. An audible click will be heard when the connector locks in place.

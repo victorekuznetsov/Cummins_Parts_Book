@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 16
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-057-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-057-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Sea Water Pump
@@ -34,99 +36,174 @@ tags:
 > **Даты:** изменён 2006-08-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-057-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-057-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Установка
 
 Jabsco®
 
-> [!note] Note · Примечание
-> Make sure the o-ring slinger is installed on the shaft before installing the bearing housing.
+> [!note] Примечание
+> Убедитесь, что кольцевой шпангоут установлен на валу перед установкой подшипникового кожуха.
 
-Install the sea water pump bearing housing to impeller housing with four bolts and lock washers, use a 13-mm wrench.
+Установите корпус подшипника морской воды на корпус крыльца с четырьмя болтами и шайбами замка, используйте 13-мм гаечный ключ.
 
 ![[08400274.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not touch the carbon face of the mechanical seal, or leaks and damage can occur.
+> [!warning] ОСТОРОЖНО
+> Не прикасайтесь к углеродной поверхности механического уплотнения, или могут возникнуть утечки и повреждения.
 
-Install the new mechanical seal onto the sea water pump shaft. Seat the seal into the housing recess.
+Установите новое механическое уплотнение на вал морского водяного насоса. Установите печать на углубление корпуса.
 
-> [!note] Note · Примечание
-> **Never** reuse a mechanical seal. **Always** install a new seal, spring, and plate.
+> [!note] Примечание
+> **Никогда не используйте механическую печать повторно. **Всегда Установите новую печать, пружину и пластину.
 
 ![[08400276.png]]
 
-Install the spring and plate.
+Установите пружину и пластину.
 
 ![[08400273.png]]
 
-Install the seal-retaining ring onto the shaft.
+Установите удерживающее уплотнение кольцо на вал.
 
 ![[08400272.png]]
 
-Install the inner wear plate and align the dowel pin in the housing.
+Установите внутреннюю износостойкую пластину и выровните штифт-дюваль в корпусе.
 
 ![[08400271.png]]
 
-Install the cam liner into the sea water pump impeller housing, aligning the hole in the liner with the dowel in the housing.
+Установите кулачный вкладыш в корпус водонасосного насоса, выровняв отверстие в вкладыше с дюбелем в корпусе.
 
 ![[08400270.png]]
 
-Roll the impeller into an oil filter wrench with the fins facing the opposite direction of the sea water pump rotation.
+Поверните колесо в гаечный ключ масляного фильтра с плавниками, обращенными в противоположном направлении вращения водяного насоса.
 
 ![[08400278.png]]
 
-Install the impeller onto the cam liner and onto the splined shaft.
+Установите крыльцо на кулачный лайнер и на опухший вал.
 
 ![[08400279.png]]
 
-Coat the o-ring with engine oil. Install the cover plate o-ring into the groove in the housing.
+Охватите кольцо моторным маслом. Установите обшивку на обшивку в канавку в корпусе.
 
 ![[08400268.png]]
 
-Install the sea water pump front cover with four bolts and lock washers use a 10-mm wrench.
+Установите переднюю крышку морского водяного насоса с четырьмя болтами и шайбами для замка, используя 10-мм гаечный ключ.
 
 ![[08400267.png]]
 
-Gilkes
+Гилкес
 
-Install the sea water pump, new o-ring, and mounting capscrews.
+Установите насос морской воды, новое кольцо и крепежные болты.
 
-| Mounting Capscrews | 80 n.m | \[60 ft-lb\] |
+| Установка болтов | 80 Н·м | [60 фунт-фут] |
 |---|---|---|
 
 ![[08400508.png]]
 
-Install the lower transfer tube, new gasket, and four capscrews.
+Установите нижнюю передаточную трубу, новую прокладку и четыре болта.
 
-| Lower Transfer Tubes Capscrews | 45 n.m | \[33 ft-lb\] |
+| Нижние болты Трансферных труб | 45 Н·м | [33 фунт-фут] |
 |---|---|---|
 
 ![[08400507.png]]
 
-Slide the flexible coupling down onto the lower portion of the transfer tube covering the gap between the upper and lower transfer tubes. Tighten the two coupling capscrews.
+Наклоните гибкую связь вниз на нижнюю часть передающей трубки, покрывающую зазор между верхней и нижней передающей трубками. Затяните два соединительных болта.
 
-| Coupling Capscrews | 45 n.m | \[33 ft-lb\] |
+| Сцепление болтов | 45 Н·м | [33 фунт-фут] |
 |---|---|---|
 
 ![[08400506.png]]
 
-Install the pipe clamp supporting the water transfer tube.
+Установите зажим трубы, поддерживающий водопроводную трубу.
 
-| Pipe Clamp Supporting | 40 n.m | \[30 ft-lb\] |
+| Трубный зажим в поддержку | 40 Н·м | [30 фунт-фут] |
 |---|---|---|
 
 ![[08400505.png]]
 
-Install the inlet connection and elbow, gasket, and the four capscrews to the sea water pump.
+Установите входное соединение и локоть, прокладку и четыре болта к насосу морской воды.
 
-| Inlet Connection Capscrews | 45 n.m | \[33 ft-lb\] |
+| Впускные болты | 45 Н·м | [33 фунт-фут] |
 |---|---|---|
 
 ![[08400504.png]]
 
-Install the sea water piping, new gasket, and the four capscrews and nuts to the inlet connection.
+Установите трубопровод морской воды, новую прокладку, а также четыре болта и гайки на входное соединение.
 
-| Sea Water Piping Capscrews | 80 n.m | \[60 ft-lb\] |
+| Морские водопроводные болты | 80 Н·м | [60 фунт-фут] |
 |---|---|---|
 
 ![[08400503.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Jabsco®
+>
+> **Note · Примечание**
+> Make sure the o-ring slinger is installed on the shaft before installing the bearing housing.
+>
+> Install the sea water pump bearing housing to impeller housing with four bolts and lock washers, use a 13-mm wrench.
+>
+> **CAUTION · Осторожно**
+> Do not touch the carbon face of the mechanical seal, or leaks and damage can occur.
+>
+> Install the new mechanical seal onto the sea water pump shaft. Seat the seal into the housing recess.
+>
+> **Note · Примечание**
+> **Never** reuse a mechanical seal. **Always** install a new seal, spring, and plate.
+>
+> Install the spring and plate.
+>
+> Install the seal-retaining ring onto the shaft.
+>
+> Install the inner wear plate and align the dowel pin in the housing.
+>
+> Install the cam liner into the sea water pump impeller housing, aligning the hole in the liner with the dowel in the housing.
+>
+> Roll the impeller into an oil filter wrench with the fins facing the opposite direction of the sea water pump rotation.
+>
+> Install the impeller onto the cam liner and onto the splined shaft.
+>
+> Coat the o-ring with engine oil. Install the cover plate o-ring into the groove in the housing.
+>
+> Install the sea water pump front cover with four bolts and lock washers use a 10-mm wrench.
+>
+> Gilkes
+>
+> Install the sea water pump, new o-ring, and mounting capscrews.
+>
+> | Mounting Capscrews | 80 n.m | \[60 ft-lb\] |
+> |---|---|---|
+>
+> Install the lower transfer tube, new gasket, and four capscrews.
+>
+> | Lower Transfer Tubes Capscrews | 45 n.m | \[33 ft-lb\] |
+> |---|---|---|
+>
+> Slide the flexible coupling down onto the lower portion of the transfer tube covering the gap between the upper and lower transfer tubes. Tighten the two coupling capscrews.
+>
+> | Coupling Capscrews | 45 n.m | \[33 ft-lb\] |
+> |---|---|---|
+>
+> Install the pipe clamp supporting the water transfer tube.
+>
+> | Pipe Clamp Supporting | 40 n.m | \[30 ft-lb\] |
+> |---|---|---|
+>
+> Install the inlet connection and elbow, gasket, and the four capscrews to the sea water pump.
+>
+> | Inlet Connection Capscrews | 45 n.m | \[33 ft-lb\] |
+> |---|---|---|
+>
+> Install the sea water piping, new gasket, and the four capscrews and nuts to the inlet connection.
+>
+> | Sea Water Piping Capscrews | 80 n.m | \[60 ft-lb\] |
+> |---|---|---|

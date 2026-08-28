@@ -38,7 +38,8 @@ manuals:
   - "4021419"
   - "4021442"
   - "4021674"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-003-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-204-003-tr.pdf"
 tags:
@@ -50,6 +51,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # How to Use the Manual
@@ -63,15 +65,38 @@ tags:
 > **Даты:** изменён 2012-03-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-003-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-204-003-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This manual is organized to provide an easy flow from problem identification to problem correction.
 
-A list of troubleshooting symptoms containing the most common problems is in the Troubleshooting Symptoms, Section (TS). The manual is designed to use the Troubleshooting Symptoms as a guide to locating the problem and directing the end user to the correct procedure for making the repair. Complete the following steps to locate and correct the problem.
+### Общие сведения
 
-1. Locate the symptom on the Section Contents pages of Section TS.
-2. The left column of boxes in the Troubleshooting Symptom Charts indicates a probable cause of the problem, starting at the top with the simplest and easiest to repair, and continuing downward to the most difficult.
-3. Locate the probable cause in the left column then turn to the procedure referenced in the right column.
-4. The Troubleshooting Symptom Charts are based on the following assumptions:
+Это руководство организовано так, чтобы обеспечить легкий переход от идентификации проблемы к исправлению проблемы.
 
-Refer to the Original Equipment Manufacturer's service manual for their specifications.
+Список симптомов устранения неполадок, содержащих наиболее распространенные проблемы, находится в разделе «Симптомы устранения неполадок» (TS). Руководство предназначено для использования симптомов устранения неполадок в качестве руководства по поиску проблемы и направлению конечного пользователя к правильной процедуре ремонта. Выполните следующие шаги, чтобы найти и исправить проблему.
+
+1. Найдите симптом на страницах раздела Содержимое раздела TS.
+2. Левая колонка коробок в диаграммах симптомов устранения неполадок указывает на вероятную причину проблемы, начиная с самого простого и легкого для ремонта, и продолжая вниз к самому сложному.
+3. Найдите вероятную причину в левой колонке, а затем обратитесь к процедуре, указанной в правой колонке.
+4. Таблицы симптомов устранения неполадок основаны на следующих предположениях:
+
+См. руководство по обслуживанию производителя оригинального оборудования для его спецификаций.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> This manual is organized to provide an easy flow from problem identification to problem correction.
+>
+> A list of troubleshooting symptoms containing the most common problems is in the Troubleshooting Symptoms, Section (TS). The manual is designed to use the Troubleshooting Symptoms as a guide to locating the problem and directing the end user to the correct procedure for making the repair. Complete the following steps to locate and correct the problem.
+>
+> 1. Locate the symptom on the Section Contents pages of Section TS.
+> 2. The left column of boxes in the Troubleshooting Symptom Charts indicates a probable cause of the problem, starting at the top with the simplest and easiest to repair, and continuing downward to the most difficult.
+> 3. Locate the probable cause in the left column then turn to the procedure referenced in the right column.
+> 4. The Troubleshooting Symptom Charts are based on the following assumptions:
+>
+> Refer to the Original Equipment Manufacturer's service manual for their specifications.

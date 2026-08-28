@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021617"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-016.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-016.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # Coolant Pressure Sensor
@@ -34,36 +36,72 @@ tags:
 > **Даты:** изменён 2007-04-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-016.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the brass cap and turn the valve ¼ turn in a clockwise direction.
 
-Loosen the coolant pressure sensor connector screw.
+### Снятие
 
-Remove the coolant pressure sensor connector.
+Снимите латунную крышку и поверните клапан 1⁄4 поворота по часовой стрелке.
+
+Освободите винт датчика давления охлаждающей жидкости.
+
+Удалите разъем датчика давления охлаждающей жидкости.
 
 ![[19600966.png]]
 
-Loosen the coolant pressure sensor mounting screws with an allen wrench.
+Устраните винты, устанавливающие датчик давления охлаждающей жидкости, с помощью гаечного ключа Аллена.
 
-Remove the coolant pressure sensor.
+Удалите датчик давления охлаждающей жидкости.
 
 ![[19600967.png]]
 
-### Install
+### Установка
 
-Place the coolant pressure sensor on the block.
+Поместите датчик давления охлаждающей жидкости на блок.
 
-Install the allen head screws and tighten.
+Установите винтовые головки Аллена и затяните.
 
 ![[19600967.png]]
 
-Connect the harness connector to the coolant pressure sensor connector.
+Подключите разъём проводов ремня к разъёму датчика давления охлаждающей жидкости.
 
-Tighten the connector screw.
+Затяните соединительный винт.
 
-Turn the valve ¼ turn in the counterclockwise direction.
+Поверните клапан 1⁄4 в направлении против часовой стрелки.
 
-Install the brass cap.
+Установите латунную шапку.
 
 ![[19600966.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the brass cap and turn the valve ¼ turn in a clockwise direction.
+>
+> Loosen the coolant pressure sensor connector screw.
+>
+> Remove the coolant pressure sensor connector.
+>
+> Loosen the coolant pressure sensor mounting screws with an allen wrench.
+>
+> Remove the coolant pressure sensor.
+>
+> ### Install
+>
+> Place the coolant pressure sensor on the block.
+>
+> Install the allen head screws and tighten.
+>
+> Connect the harness connector to the coolant pressure sensor connector.
+>
+> Tighten the connector screw.
+>
+> Turn the valve ¼ turn in the counterclockwise direction.
+>
+> Install the brass cap.

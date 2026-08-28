@@ -13,13 +13,15 @@ families:
   - "QSK19"
 manuals:
   - "4021617"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-t02-1076.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-t02-1076.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # Engine Does Not Shut Down When Vessel Shutdown 1 Signal Active on Shutdown Unit
@@ -33,54 +35,116 @@ tags:
 > **Даты:** изменён 2008-03-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-t02-1076.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-t02-1076.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Symptoms
 
-- The SDU410 does **not** shut down the engine with signal 1 active at OEM X6 connection.
+Версия для печати
 
-### How To Use This Tree
+### Симптомы
 
-This symptom tree can be used to troubleshoot an OEM circuit malfunction. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+- SDU410 не отключает двигатель с сигналом 1, активным при подключении OEM X6.
 
-### Shoptalk
+### Как пользоваться этим деревом
 
-The SDU410 input signals are switches. These switches are normally open and closed to activate a shutdown.
+Это дерево симптомов может быть использовано для устранения неисправности схемы OEM. Начните с шага 1 поиска неисправностей. На шаге 2 система задаст ряд вопросов и по симптому выдаст перечень действий по поиску неисправности.
 
-## Troubleshooting Summary
+### Практические замечания
 
-| STEPS | SPECIFICATIONS |  |
+Входные сигналы SDU410 являются переключателями. Эти переключатели обычно открыты и закрыты для активации отключения.
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check customer interface box |  |
-|  | **STEP 1A.** Check the customer interface box logic unit LED illumination. | Are any alarms active or LEDs illuminated? |
-|  | **STEP 1B.** Check the SDU410 power supply wire for +24-VDC. | Less than +24-VDC? |
-| STEP 2. | Check customer interface box wiring |  |
-|  | **STEP 2A.** Check the signal 1 signal and return wires for an open at the X6 connection. | Less than 10 ohms? |
+| ШАГ 1. | Проверьте интерфейс клиента |  |
+|  | **STEP 1A.** Проверьте логическую блокировку светодиодного освещения в интерфейсе клиента. | Активны ли какие-либо сигналы тревоги или светодиоды освещены? |
+|  | **STEP 1B.** Проверьте провод электропитания SDU410 на +24-VDC. | Меньше +24-VDC? |
+| ШАГ 2. | Проверка проводки интерфейсной коробки заказчика |  |
+|  | **STEP 2A.** Проверить сигнал 1 и возврат проводов на наличие открытого соединения X6. | Менее 10 Ом? |
 
-### STEP 1. Check customer interface box
+### ШАГ 1. Проверьте интерфейс клиента
 
-#### STEP 1A. Check the customer interface box logic unit LED illumination.
+#### ШАГ 1A. Проверьте логическое устройство клиентского интерфейса LED подсветка.
 
-| **Conditions:** Check the DCU410 unit for alarms and LED illumination. |  |  |
+| **Условия:** Проверьте устройство DCU410 на наличие сигнализации и светодиодной подсветки. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for alarms and LED illumination on the DCU410 unit. | Are any alarms active or LEDs illuminated? **YES** | Contact a Cummins® Authorized Repair Location |
-| Are any alarms active or LEDs illuminated? **NO** | 1B |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте наличие сигнализации и светодиодной подсветки на устройстве DCU410. | Активны ли какие-либо сигналы тревоги или светодиоды освещены? *Да | Свяжитесь с авторизованным местом ремонта Cummins® |
+| Активны ли какие-либо сигналы тревоги или светодиоды освещены? **НЕТ** | 1В |  |
 
-#### STEP 1B. Check the DCU410 power supply wire for +24-VDC.
+#### ШАГ 1B. Проверьте провод питания DCU410 для +24-VDC.
 
-| **Conditions:** Open the customer interface box |  |  |
+| **Условия:** Откройте окно интерфейса клиента |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the voltage at the shutdown unit supply 24-VDC at the SDU410 unit. Place one test lead on the shutdown unit supply 24-VDC supply wire at the SDU410 unit. Place the other test lead on the shutdown unit return wire at the SDU410 unit. Refer to the appropriate circuit diagram or wiring diagram for connection pin identification. | Less than +24-VDC? **YESRepair:** Check the batteries. Refer to the OEM service manual or contact a Cummins® Authorized Repair Location. | Repair complete |
-| Less than +24-VDC? **NO** | 2A |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте напряжение на блоке отключения питания 24-VDC на блоке SDU410. Поместите один испытательный щуп на блок отключения питания 24-VDC на блоке питания SDU410. Поместите другой испытательный щуп на провод возврата блока отключения в блок SDU410. См. соответствующую схему или схему проводов для идентификации соединительного штифта. | Меньше +24-VDC? *** Ремонт:** Проверить аккумуляторы. См. руководство по обслуживанию OEM или свяжитесь с авторизованным местом ремонта Cummins®. | Ремонт завершён |
+| Меньше +24-VDC? **НЕТ** | 2А |  |
 
-### STEP 2. Check customer interface box wiring
+### ШАГ 2. Проверка проводки интерфейсной коробки заказчика
 
-#### STEP 2A. Check the signal 1 signal and return wires for an open at the X6 connection.
+#### ШАГ 2A. Проверьте сигнал 1 и возвращайте провода для открытия соединения X6.
 
-| **Conditions:** Open the customer interface box Disconnect the signal 1 signal and return wires on the OEM X6 connection. |  |  |
+| **Условия:** Откройте окно интерфейса клиента Отключите сигнал 1 и верните провода на OEM X6 соединение. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the signal 1 signal and return wires for an open at the X6 connection. Place one test lead on the signal 1 signal wire at the X6 connector. Place the other test lead on the signal 1 signal wire at the OEM connection. Place one test lead on the signal 1 return wire at the X6 connector. Place the other test lead on the signal 1 return wire at the OEM connection. Refer to the appropriate circuit diagram or wiring diagram for connection pin identification. | Less than 10 ohms? **YES** | Repair complete |
-| Less than 10 ohms? **NORepair:** Replace the wire. Refer to the OEM installation instructions. | Contact a Cummins® Authorized Repair Location. |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте сигнал 1 и возвращайте провода для открытия соединения X6. Поместите один испытательный щуп на сигнальный провод сигнала 1 на разъем X6. Поместите другой испытательный щуп на сигнальный провод сигнала 1 в OEM-соединение. Поместите один испытательный щуп на провод возврата сигнала 1 на разъем X6. Поместите другой испытательный щуп на провод возврата сигнала 1 в OEM-соединение. См. соответствующую схему или схему проводов для идентификации соединительного штифта. | Менее 10 Ом? *Да | Ремонт завершён |
+| Менее 10 Ом? **NORepair:** Заменить провод. См. инструкции по установке OEM. | Обратитесь в авторизованный сервисный центр Cummins®. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ### Symptoms
+>
+> - The SDU410 does **not** shut down the engine with signal 1 active at OEM X6 connection.
+>
+> ### How To Use This Tree
+>
+> This symptom tree can be used to troubleshoot an OEM circuit malfunction. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+>
+> ### Shoptalk
+>
+> The SDU410 input signals are switches. These switches are normally open and closed to activate a shutdown.
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check customer interface box |  |
+> |  | **STEP 1A.** Check the customer interface box logic unit LED illumination. | Are any alarms active or LEDs illuminated? |
+> |  | **STEP 1B.** Check the SDU410 power supply wire for +24-VDC. | Less than +24-VDC? |
+> | STEP 2. | Check customer interface box wiring |  |
+> |  | **STEP 2A.** Check the signal 1 signal and return wires for an open at the X6 connection. | Less than 10 ohms? |
+>
+> ### STEP 1. Check customer interface box
+>
+> #### STEP 1A. Check the customer interface box logic unit LED illumination.
+>
+> | **Conditions:** Check the DCU410 unit for alarms and LED illumination. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for alarms and LED illumination on the DCU410 unit. | Are any alarms active or LEDs illuminated? **YES** | Contact a Cummins® Authorized Repair Location |
+> | Are any alarms active or LEDs illuminated? **NO** | 1B |  |
+>
+> #### STEP 1B. Check the DCU410 power supply wire for +24-VDC.
+>
+> | **Conditions:** Open the customer interface box |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the voltage at the shutdown unit supply 24-VDC at the SDU410 unit. Place one test lead on the shutdown unit supply 24-VDC supply wire at the SDU410 unit. Place the other test lead on the shutdown unit return wire at the SDU410 unit. Refer to the appropriate circuit diagram or wiring diagram for connection pin identification. | Less than +24-VDC? **YESRepair:** Check the batteries. Refer to the OEM service manual or contact a Cummins® Authorized Repair Location. | Repair complete |
+> | Less than +24-VDC? **NO** | 2A |  |
+>
+> ### STEP 2. Check customer interface box wiring
+>
+> #### STEP 2A. Check the signal 1 signal and return wires for an open at the X6 connection.
+>
+> | **Conditions:** Open the customer interface box Disconnect the signal 1 signal and return wires on the OEM X6 connection. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the signal 1 signal and return wires for an open at the X6 connection. Place one test lead on the signal 1 signal wire at the X6 connector. Place the other test lead on the signal 1 signal wire at the OEM connection. Place one test lead on the signal 1 return wire at the X6 connector. Place the other test lead on the signal 1 return wire at the OEM connection. Refer to the appropriate circuit diagram or wiring diagram for connection pin identification. | Less than 10 ohms? **YES** | Repair complete |
+> | Less than 10 ohms? **NORepair:** Replace the wire. Refer to the OEM installation instructions. | Contact a Cummins® Authorized Repair Location. |  |

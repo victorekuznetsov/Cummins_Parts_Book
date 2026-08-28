@@ -25,7 +25,8 @@ parts:
   - "5417037"
   - "5579009"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200032.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200032.pdf"
 tags:
@@ -33,6 +34,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
   - "год/2020"
+  - "перевод/машинный"
   - "тема/fuel-systems-pumps"
 ---
 
@@ -46,81 +48,89 @@ tags:
 > **Даты:** выпущен 2020-03-03 · изменён 2020-03-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200032.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200032.pdf)
 
-## Additional Pre-Lubrication Switch
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Дополнительный датчик предпусковой прокачки
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - QSK50 CM850
 - QSK50 CM2150
 
-Description of Change
+Описание изменения
 
-Engines had an additional pre-lubrication pressure switch intalled in fuel pump drive. The first engine serial number (ESN) to have these parts installed from Daventry plant is ESN 33216387. A service parts kit, Part Number [[5579009]], is available for service up-fit to help ensure proper fuel pump lubrication prior to start.
+Двигатели имели дополнительный переключатель давления перед смазкой, встроенный в привод топливного насоса. Первый серийный номер двигателя (ESN), который будет иметь эти детали, установленные с завода в Давентри, - ESN 33216387. Комплект служебных частей, номер детали[[5579009]], доступен для обслуживания в соответствии с требованиями, чтобы обеспечить надлежащую смазку топливного насоса перед началом работы.
 
-**Reason for Change**
+**Причина изменения**
 
-The second oil pressure pre-lubrication switch confirms that there is a minimum of 4 psi at the fuel pump drive prior to the engine cranking.
+Второй переключатель предварительной смазки под давлением масла подтверждает, что перед включением двигателя на приводе топливного насоса имеется минимум 4 psi.
 
-Service Instructions
+Указания по обслуживанию
 
-In order to up-fit the additional pre-lube oil pressure switch on engines in the field, an adapter must be installed into the new accessory drive support.
+Для того, чтобы приспособить дополнительный переключатель давления масла перед смазкой на двигателях в полевых условиях, адаптер должен быть установлен в новую вспомогательную поддержку привода.
 
-1. [[28-009-011 — Fuel Pump Drive|Refer to Procedure 009-011 in Section 9]] to install the new fuel pump accessory drive support, Part Number 5376094. See Figure 1.
-2. Connect the new pressure switch wire harness extension to the main engine harness. See Figure 2.
-3. Connect existing oil pressure switch plug. See Figure 3.
-4. Route wire harness behind breather box (Figure 4) and behind fuel block (Figure 5).
-5. Use provided capscrews to loosely secure harness as shown. See Figure 6.
-6. Install oil pressure switch into drive and connect to wire harness. See Figure 7.
-7. Torque harness mounting capscrews to block (45 Nm \[33 ft-lb\]). Use provided wire tie clamps to secure wire harness to adjacent components. See Figure 6.
+1. [[28-009-011 — Fuel Pump Drive|См. процедуру 009-011 в разделе 9.]]установить новую поддержку привода вспомогательного топливного насоса, номер детали 5376094. См. рисунок 1.
+2. Подключите новое расширение проводной электропроводки переключателя давления к основной электропроводке двигателя. См. рисунок 2.
+3. Подключите существующую заглушку переключателя давления масла. См. рисунок 3.
+4. Проводная проводная упряжка за коробкой передач (рисунок 4) и за топливным блоком (рисунок 5).
+5. Используйте предоставленные болты для слабо защищенной проводов, как показано. См. Рисунок 6.
+6. Установите переключатель давления масла в привод и подключитесь к проводной проводах. См. рисунок 7.
+7. Торк-проводка жгута монтажа болтов для блокировки (45 Нм \[33 фут-лб \]). Используйте обеспеченные зажимы для зажимов проводной связи для защиты проводной проводов от соседних компонентов. См. Рисунок 6.
 
 ![[17r00612.png]]
 
-Figure 1, Fuel Pump Drive
+Рисунок 1 - Нагнетатель топливного насоса
 
 ![[17r00613.png]]
 
-Figure 2, Pressure Switch Wire Harness Extension
+Рисунок 2, Провода коммутатора давления Провода ремня расширения
 
 ![[17r00614.png]]
 
-Figure 3, Existing Oil Pressure Switch Plug Connection
+Рисунок 3, Существующее соединение коммутатора давления масла
 
 ![[17r00615.png]]
 
-Figure 4, Wire Harness Behind Breather Box
+Рисунок 4, Упряжка проводной проводов За Дыхательной коробкой
 
 ![[17r00616.png]]
 
-Figure 5, Wire Harness Behind Fuel Block
+Рисунок 5, Узлы проводной проводов За топливным блоком
 
 ![[17r00619.png]]
 
-Figure 6, Secure Wire Harness
+Рисунок 6, Безопасная проводная упряжка
 
 ![[17r00620.png]]
 
-Figure 7, Oil Pressure Switch Connection
+Рисунок 7, Подключение переключателя давления масла
 
-| **Table 1, Service Parts** |  |  |  |  |
+| **Таблица 1, Части обслуживания** |  |  |  |  |
 |---|---|---|---|---|
-| **Part Description** | **Quantity** | **Obsolete** | **Superseded** | **New Part Number** |
-| Capscrew | 2 | No | No | 103023 |
-| Captive Washer Capscrew | 3 | No | No | [[3015283]] |
-| Accessory Drive Support Gasket | 1 | No | No | [[3046852]] |
-| Wire Tie Clamp | 6 | No | No | [[3062329]] |
-| Pressure Switch | 1 | No | No | [[4924925]] |
-| Accessory Drive Support | 1 | No | No | [[5376094]] |
-| Capscrew | 4 | No | No | S162A |
-| Lock Washer | 6 | No | No | S610 |
-| Harness | 1 | No | No | [[5417037]] |
+| **Часть описания** | **Количество** | **Устаревший** | **Превышенный** | **Новый номер** |
+| болты | 2 | Нет | Нет | 103023 |
+| Захватывающие болты | 3 | Нет | Нет | [[3015283]] |
+| Прокладка опоры привода вспомогательного оборудования | 1 | Нет | Нет | [[3046852]] |
+| Хомут-стяжка для проводов | 6 | Нет | Нет | [[3062329]] |
+| Датчик-реле давления | 1 | Нет | Нет | [[4924925]] |
+| Опора привода вспомогательного оборудования | 1 | Нет | Нет | [[5376094]] |
+| болты | 4 | Нет | Нет | S162A |
+| Стопорная шайба | 6 | Нет | Нет | S610 |
+| шнур для проводов | 1 | Нет | Нет | [[5417037]] |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -133,3 +143,66 @@ Figure 7, Oil Pressure Switch Connection
 | [[5376094]] | Accessory Drive Support | Опора привода вспомогательного оборудования |
 | [[5417037]] | Wiring Harness | Жгут проводов |
 | [[5579009]] | Pressure Switch Kit | Комплект датчика-реле давления |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Additional Pre-Lubrication Switch
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - QSK50 CM850
+> - QSK50 CM2150
+>
+> Description of Change
+>
+> Engines had an additional pre-lubrication pressure switch intalled in fuel pump drive. The first engine serial number (ESN) to have these parts installed from Daventry plant is ESN 33216387. A service parts kit, Part Number [[5579009]], is available for service up-fit to help ensure proper fuel pump lubrication prior to start.
+>
+> **Reason for Change**
+>
+> The second oil pressure pre-lubrication switch confirms that there is a minimum of 4 psi at the fuel pump drive prior to the engine cranking.
+>
+> Service Instructions
+>
+> In order to up-fit the additional pre-lube oil pressure switch on engines in the field, an adapter must be installed into the new accessory drive support.
+>
+> 1. [[28-009-011 — Fuel Pump Drive|Refer to Procedure 009-011 in Section 9]] to install the new fuel pump accessory drive support, Part Number 5376094. See Figure 1.
+> 2. Connect the new pressure switch wire harness extension to the main engine harness. See Figure 2.
+> 3. Connect existing oil pressure switch plug. See Figure 3.
+> 4. Route wire harness behind breather box (Figure 4) and behind fuel block (Figure 5).
+> 5. Use provided capscrews to loosely secure harness as shown. See Figure 6.
+> 6. Install oil pressure switch into drive and connect to wire harness. See Figure 7.
+> 7. Torque harness mounting capscrews to block (45 Nm \[33 ft-lb\]). Use provided wire tie clamps to secure wire harness to adjacent components. See Figure 6.
+>
+> Figure 1, Fuel Pump Drive
+>
+> Figure 2, Pressure Switch Wire Harness Extension
+>
+> Figure 3, Existing Oil Pressure Switch Plug Connection
+>
+> Figure 4, Wire Harness Behind Breather Box
+>
+> Figure 5, Wire Harness Behind Fuel Block
+>
+> Figure 6, Secure Wire Harness
+>
+> Figure 7, Oil Pressure Switch Connection
+>
+> | **Table 1, Service Parts** |  |  |  |  |
+> |---|---|---|---|---|
+> | **Part Description** | **Quantity** | **Obsolete** | **Superseded** | **New Part Number** |
+> | Capscrew | 2 | No | No | 103023 |
+> | Captive Washer Capscrew | 3 | No | No | [[3015283]] |
+> | Accessory Drive Support Gasket | 1 | No | No | [[3046852]] |
+> | Wire Tie Clamp | 6 | No | No | [[3062329]] |
+> | Pressure Switch | 1 | No | No | [[4924925]] |
+> | Accessory Drive Support | 1 | No | No | [[5376094]] |
+> | Capscrew | 4 | No | No | S162A |
+> | Lock Washer | 6 | No | No | S610 |
+> | Harness | 1 | No | No | [[5417037]] |
+>
+> ### Document History

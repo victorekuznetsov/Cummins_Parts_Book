@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc155.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc155.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Temperature Number 1 High - Critical
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc155.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc155.pdf)
 
-### Fault Code: 155
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold Temperature Number 1 High - Critical
 
-Printable Version
+### Код неисправности: 155
 
-### Overview
+### Высокая температура впускного коллектора 1 — критично
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 155 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine intake manifold air temperature has exceeded the alarm (shutdown) threshold for high intake manifold temperature. | Engine will shut down. High engine temperature (HET) relay driver is energized |
+| Код неисправности: 155 P(P): СПН: ФМИ: Лампа: Отключение SRT: | Температура воздуха впускного коллектора двигателя превысила пороговое значение сигнализации (затвора) для высокой температуры впускного коллектора. | Двигатель отключится. Водитель реле высокой температуры двигателя (HET) заряжается энергией |
 
 ![[19803592.png]]
 
-Intake Manifold Temperature Sensor Circuit
+Цепь датчика температуры во впускном коллекторе
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold temperature sensor is used by the ECM to monitor the temperature of the air in the intake manifold after the aftercooler. The intake manifold temperature sensor is used by the ECM for the engine protection system, timing, and fueling control. If the voltage is low, the ECM will log Fault Code 155. Low voltage can be caused by a cooling system failure or an in-range sensor failure.
+Датчик температуры впускного коллектора используется ECM для мониторинга температуры воздуха в впускном коллекторе после охладителя. Датчик температуры впускного коллектора используется ECM для системы защиты двигателя, управления временем и заправкой. Если напряжение низкое, ECM регистрирует код 155 ошибки. Низкое напряжение может быть вызвано отказом системы охлаждения или отказом датчика в диапазоне.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams in Section E of this manual for the component location.
+См. диаграммы двигателя в разделе E этого руководства для определения местоположения компонента.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of the sensor varies with the temperature.
+Сопротивление датчика изменяется в зависимости от температуры.
 
-Refer to Troubleshooting Fault Code t05-155
+Устранение неполадок код t05-155
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 155
+>
+> ### Intake Manifold Temperature Number 1 High - Critical
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 155 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine intake manifold air temperature has exceeded the alarm (shutdown) threshold for high intake manifold temperature. | Engine will shut down. High engine temperature (HET) relay driver is energized |
+>
+> Intake Manifold Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The intake manifold temperature sensor is used by the ECM to monitor the temperature of the air in the intake manifold after the aftercooler. The intake manifold temperature sensor is used by the ECM for the engine protection system, timing, and fueling control. If the voltage is low, the ECM will log Fault Code 155. Low voltage can be caused by a cooling system failure or an in-range sensor failure.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams in Section E of this manual for the component location.
+>
+> ### Shoptalk
+>
+> The resistance of the sensor varies with the temperature.
+>
+> Refer to Troubleshooting Fault Code t05-155

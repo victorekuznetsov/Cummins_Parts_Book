@@ -30,7 +30,8 @@ manuals:
   - "4021375"
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-016-002-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-016-002-om-ind.pdf"
 tags:
@@ -41,6 +42,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Engine Support Bracket, Front
@@ -54,15 +56,36 @@ tags:
 > **Даты:** изменён 2015-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-016-002-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-016-002-om-ind.pdf)
 
-### Lubricate
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> **Only** use this on engines with a trunion type front mount.
 
-Use high performance, industrial-type grease (NLGI Grade Number 2) fortified with extreme pressure (EP) additives, such as BP Energrease™ FPG or Castrol Spheerol™ EPL 2 grease, or its equivalent.
+### смазать
 
-If above greases are **not** available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+> [!note] Примечание
+> **Только *** Используйте это на двигателях с передним креплением типа трунион.
 
-Lubricate the support until grease appears on the outside of the support.
+Используйте высокопроизводительную смазку промышленного типа (NLGI Grade Number 2), обогащенную добавками с экстремальным давлением (EP), такими как BP EnergreaseTM FPG или Castrol SpheerolTM EPL 2, или ее эквивалент.
+
+Если вышеперечисленные смазки не доступны на местном уровне, обратитесь к дистрибьютору Cummins® за консультацией по другим одобренным эквивалентам Cummins®.
+
+Смазать поддержку до тех пор, пока смазка не появится снаружи поддержки.
 
 ![[em6sula.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Lubricate
+>
+> **Note · Примечание**
+> **Only** use this on engines with a trunion type front mount.
+>
+> Use high performance, industrial-type grease (NLGI Grade Number 2) fortified with extreme pressure (EP) additives, such as BP Energrease™ FPG or Castrol Spheerol™ EPL 2 grease, or its equivalent.
+>
+> If above greases are **not** available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+>
+> Lubricate the support until grease appears on the outside of the support.

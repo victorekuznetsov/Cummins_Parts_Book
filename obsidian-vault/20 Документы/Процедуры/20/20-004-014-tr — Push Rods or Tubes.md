@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 14
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-004-014-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-004-014-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Push Rods or Tubes
@@ -34,148 +36,276 @@ tags:
 > **Даты:** изменён 2015-08-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-004-014-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-004-014-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The QSK19 uses push rods that are machined from solid bar stock instead of tubing. The ball end and the socket are machined on the rod.
 
-It is a good service practice, to mark the push rods for location when removing them from the engine. The valve and injector push rods are not interchangeable. The cam follower assembly **must** be replaced if the push rod is worn or damaged in the area where it contacts the socket.
+### Общие сведения
 
-> [!note] Note · Примечание
-> Replace both the rocker lever adjusting screw and the push rod if the socket surface in the rod or on the adjusting screw is damaged.
+QSK19 использует толкатели, которые обрабатываются из твердого стержня вместо трубки. Конец шара и розетка обрабатываются на стержне.
+
+Это хорошая практика обслуживания, чтобы отметить толкатели для местоположения при удалении их из двигателя. Клапаны и толкатели форсунки не являются взаимозаменяемыми. Кукольный узел * должен быть заменен, если толкатель изношен или поврежден в области, где он контактирует с розеткой.
+
+> [!note] Примечание
+> Заменить как клапанный клапанный рычаг регулирования винта, так и толкатель, если поверхность гнезда в стержне или на регулирующем винте повреждена.
 
 ![[nobox.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-- Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section]]
-- Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section]]
+- Снимите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе]]
+- Удалите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе]]
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-- Remove the high pressure fuel lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section]]
-- Remove the rocker lever covers. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section]]
-- Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section]]
+- Удалите топливные линии высокого давления.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе]]
+- Удалите крышки клапанного клапана.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе]]
+- Удалите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе]]
 
 ![[nobox.png]]
 
-### Remove
+### Снятие
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-It is a good service practice to mark the push rods so they can be installed in their original position.
+Это хорошая практика обслуживания, чтобы отметить толкатели, чтобы они могли быть установлены в их первоначальном положении.
 
-Remove the push rods and crossheads.
+Удалите толкатели и клапанные мосты.
 
 ![[02400001.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-It is recommended a service practice to mark the push rods so they can be installed in their original position.
+Рекомендуется использовать служебную практику для маркировки толкателей, чтобы они могли быть установлены в их первоначальном положении.
 
-Remove the push rods.
+Удалите толкатели.
 
 ![[04600032.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Летающий мусор и грязь могут нанести телесные повреждения.
 
-Use solvent to clean the push rods.
+Используйте растворитель для очистки толкателей.
 
-Dry the push rods with compressed air.
+Высушивайте толкатели со сжатым воздухом.
 
 ![[pr1bdea.png]]
 
-Clean and inspect the push rods. Inspect to be sure the rod is straight. View the rod while rolling it across a level service.
+Очистите и проверьте толкатели. Проверьте, чтобы убедиться, что стержень прямой. Просмотр стержня при его прокатке по сервису уровня.
 
-> [!note] Note · Примечание
-> Do **not** use or try to straighten a bent push rod.
+> [!note] Примечание
+> Не используйте или попробуйте выпрямить согнутый толкатель.
 
 ![[pr8shsa.png]]
 
-Inspect the socket end of the push rod for uneven wear or scratches.
+Осмотрите конец розетки толкателя на предмет неравномерного износа или царапин.
 
-If a worn socket is found, the mating adjusting screw in the rocker lever **must** also be replaced.
+Если найдена изношенная розетка, то также должен быть заменен винт для регулирования спаривания в руке качения клапанного клапана *.
 
-When parallel scratches are found in the contact area, the push rod **must** be replaced.
+Когда в зоне контакта обнаруживаются параллельные царапины, толкатель * должен быть заменен.
 
 ![[pr1bdse.png]]
 
-Inspect both ends of the push rods for wear or damage.
+Осмотрите оба конца толкателей на предмет износа или повреждения.
 
-> [!note] Note · Примечание
-> Replace both the rocker lever adjusting screw and the push rod if the socket surface in the rod or on the adjusting screw is damaged.
+> [!note] Примечание
+> Заменить как клапанный клапанный рычаг регулирования винта, так и толкатель, если поверхность гнезда в стержне или на регулирующем винте повреждена.
 
-The cam follower assembly **must** be replaced if the push rod is worn or damaged in the area where it contacts the socket.
+Кукольный узел * должен быть заменен, если толкатель изношен или поврежден в области, где он контактирует с розеткой.
 
 ![[pr1bdsd.png]]
 
-Inspect the ball end of the push rod.
+Осмотрите шарик на конце толкателя.
 
-The contact area **must** show a smooth seating pattern.
+Контактная зона **должна** показывать ровный рисунок сидения.
 
-If the ball end of the push rod has parallel grooves and scratches with a raised center, the push rod **must** be replaced.
+Если шаровой конец толкателя имеет параллельные канавки и царапины с поднятым центром, толкательный шток * должен быть заменен.
 
-> [!note] Note · Примечание
-> If a worn push rod is found, the mating cam assembly socket **must** be replaced.
+> [!note] Примечание
+> Если найден изношенный толкатель, розетку сборки спаривающей камеры * необходимо заменить.
 
 ![[pr1bdsf.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!note] Note · Примечание
-> The push rods **must** be seated correctly in the cam followers.
+> [!note] Примечание
+> Толчки должны быть правильно сидены в кранах.
 
-> [!note] Note · Примечание
-> Mechanically Actuated Injectors: The injector push rods are thicker in the middle. The valve push rods are the same for both intake and exhaust.
+> [!note] Примечание
+> Механически приводимый в действие форсунка: Топливные форсунки форсунки толще посередине. Клапанные толкатели одинаковы как для впуска, так и для выхлопа.
 
-Use engine oil to lubricate the sockets in the cam followers.
+Используйте моторное масло для смазки розеток в кранах.
 
-Install the push rods.
+Установите толкатели.
 
-Install the crossheads.
+Установите клапанные мосты.
 
 ![[02400001.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!note] Note · Примечание
-> The push rods must be seated correctly in the cam followers.
+> [!note] Примечание
+> Толкательные стержни должны быть правильно сидены в кранах.
 
-Use clean engine oil to lubricate the sockets in the cam followers.
+Используйте чистое моторное масло для смазки розеток в кранах.
 
-Install the push rods.
+Установите толкатели.
 
-Install the crossheads.
+Установите клапанные мосты.
 
 ![[04600032.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-- Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section]]
-- Adjust the overhead (OBC). [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section]]
-- Install the rocker lever covers and all related parts. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section]]
-- Operate the engine and check for leaks.
+- Установите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе]]
+- Установите накладные расходы (OBC).[[20-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе]]
+- Установите крышки клапанного клапана и все связанные с ними части.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе]]
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-- Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section]]
-- Install the rocker lever covers. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section]]
-- Install the high pressure fuel lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section]]
-- Operate the engine and check for leaks.
+- Установите рычаги коромысла.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе]]
+- Установите крышки клапанного клапана.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе]]
+- Установите топливные линии высокого давления.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе]]
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[nobox.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The QSK19 uses push rods that are machined from solid bar stock instead of tubing. The ball end and the socket are machined on the rod.
+>
+> It is a good service practice, to mark the push rods for location when removing them from the engine. The valve and injector push rods are not interchangeable. The cam follower assembly **must** be replaced if the push rod is worn or damaged in the area where it contacts the socket.
+>
+> **Note · Примечание**
+> Replace both the rocker lever adjusting screw and the push rod if the socket surface in the rod or on the adjusting screw is damaged.
+>
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section]]
+> - Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section]]
+>
+> with Electronically Actuated Injector
+>
+> - Remove the high pressure fuel lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section]]
+> - Remove the rocker lever covers. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section]]
+> - Remove the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section]]
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> It is a good service practice to mark the push rods so they can be installed in their original position.
+>
+> Remove the push rods and crossheads.
+>
+> with Electronically Actuated Injector
+>
+> It is recommended a service practice to mark the push rods so they can be installed in their original position.
+>
+> Remove the push rods.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+>
+> Use solvent to clean the push rods.
+>
+> Dry the push rods with compressed air.
+>
+> Clean and inspect the push rods. Inspect to be sure the rod is straight. View the rod while rolling it across a level service.
+>
+> **Note · Примечание**
+> Do **not** use or try to straighten a bent push rod.
+>
+> Inspect the socket end of the push rod for uneven wear or scratches.
+>
+> If a worn socket is found, the mating adjusting screw in the rocker lever **must** also be replaced.
+>
+> When parallel scratches are found in the contact area, the push rod **must** be replaced.
+>
+> Inspect both ends of the push rods for wear or damage.
+>
+> **Note · Примечание**
+> Replace both the rocker lever adjusting screw and the push rod if the socket surface in the rod or on the adjusting screw is damaged.
+>
+> The cam follower assembly **must** be replaced if the push rod is worn or damaged in the area where it contacts the socket.
+>
+> Inspect the ball end of the push rod.
+>
+> The contact area **must** show a smooth seating pattern.
+>
+> If the ball end of the push rod has parallel grooves and scratches with a raised center, the push rod **must** be replaced.
+>
+> **Note · Примечание**
+> If a worn push rod is found, the mating cam assembly socket **must** be replaced.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> The push rods **must** be seated correctly in the cam followers.
+>
+> **Note · Примечание**
+> Mechanically Actuated Injectors: The injector push rods are thicker in the middle. The valve push rods are the same for both intake and exhaust.
+>
+> Use engine oil to lubricate the sockets in the cam followers.
+>
+> Install the push rods.
+>
+> Install the crossheads.
+>
+> with Electronically Actuated Injector
+>
+> **Note · Примечание**
+> The push rods must be seated correctly in the cam followers.
+>
+> Use clean engine oil to lubricate the sockets in the cam followers.
+>
+> Install the push rods.
+>
+> Install the crossheads.
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section]]
+> - Adjust the overhead (OBC). [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section]]
+> - Install the rocker lever covers and all related parts. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section]]
+> - Operate the engine and check for leaks.
+>
+> with Electronically Actuated Injector
+>
+> - Install the rocker levers. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section]]
+> - Install the rocker lever covers. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section]]
+> - Install the high pressure fuel lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section]]
+> - Operate the engine and check for leaks.

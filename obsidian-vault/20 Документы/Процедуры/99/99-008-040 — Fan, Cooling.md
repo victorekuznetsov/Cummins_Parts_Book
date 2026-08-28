@@ -57,7 +57,8 @@ manuals:
   - "4021530"
   - "4021942"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-040.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-008-040.pdf"
 tags:
@@ -73,6 +74,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Fan, Cooling
@@ -86,24 +88,48 @@ tags:
 > **Даты:** изменён 2002-10-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-040.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-008-040.pdf)
 
-### Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Do not rotate the engine by pulling or prying on the fan. The fan blade(s) can be damaged and cause the fan to fail and cause personal injury or property damage. Use the accessory drive shaft or the crankshaft barring tool to rotate the crankshaft.
+
+### Проверка при повторном использовании
+
+> [!danger] ОПАСНО
+> Не вращайте двигатель, тяну или пощупывая вентилятор. Лопатки вентилятора (-ов) могут быть повреждены и привести к отказу вентилятора и вызвать личную травму или повреждение имущества. Используйте вспомогательный приводной вал или инструмент для блокировки коленчатого вала для вращения коленчатого вала.
 
 ![[er200ba.png]]
 
-A visual inspection of the cooling fan is required daily. Check for cracks, loose rivets, and bent or loose blades. Check the fan to make sure it is securely mounted. Tighten the capscrews, if necessary.
+Ежедневно требуется визуальный осмотр вентилятора охлаждения. Проверьте наличие трещин, рыхлых заклепок и согнутых или рыхлых лезвий. Проверьте вентилятор, чтобы убедиться, что он надежно установлен. Затягивайте болты, если это необходимо.
 
 ![[fn8bdsb.png]]
 
-> [!danger] WARNING · Опасно
-> Do not straighten a bent fan blade or continue to use a damaged fan. A bent or damaged fan blade can fail during operation and cause personal injury or property damage.
+> [!danger] ОПАСНО
+> Не выпрямляйте изогнутый вентилятор или продолжайте использовать поврежденный вентилятор. Согнутый или поврежденный лопасти вентилятора могут выйти из строя во время работы и вызвать травмы или имущественный ущерб.
 
 ![[fn800qa.png]]
 
-Replace original equipment fan that is damaged with a fan of the identical part number. Cummins Inc. **must** approve any other fan changes to be covered under warranty.
+Замените оригинальный вентилятор оборудования, который поврежден вентилятором с идентичным номером детали. Cummins Inc.
 
-Refer to the vehicle or equipment manufacturer's specifications for capscrew torque.
+См. спецификации изготовителя транспортного средства или оборудования для крутящего момента болтов.
 
 ![[fn800ba.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect for Reuse
+>
+> **WARNING · Опасно**
+> Do not rotate the engine by pulling or prying on the fan. The fan blade(s) can be damaged and cause the fan to fail and cause personal injury or property damage. Use the accessory drive shaft or the crankshaft barring tool to rotate the crankshaft.
+>
+> A visual inspection of the cooling fan is required daily. Check for cracks, loose rivets, and bent or loose blades. Check the fan to make sure it is securely mounted. Tighten the capscrews, if necessary.
+>
+> **WARNING · Опасно**
+> Do not straighten a bent fan blade or continue to use a damaged fan. A bent or damaged fan blade can fail during operation and cause personal injury or property damage.
+>
+> Replace original equipment fan that is damaged with a fan of the identical part number. Cummins Inc. **must** approve any other fan changes to be covered under warranty.
+>
+> Refer to the vehicle or equipment manufacturer's specifications for capscrew torque.

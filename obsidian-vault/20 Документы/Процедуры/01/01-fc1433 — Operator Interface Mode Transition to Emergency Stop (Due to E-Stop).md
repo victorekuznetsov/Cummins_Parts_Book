@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1433.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1433.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Operator Interface Mode Transition to Emergency Stop (Due to E-Stop)
@@ -34,22 +36,50 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1433.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1433.pdf)
 
-### Fault Code: 1433
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Operator Interface Mode Transition to Emergency Stop (Due to E-Stop)
 
-Printable Version
+### Код неисправности: 1433
 
-### Overview
+### Переход панели оператора в режим аварийного останова (кнопка E-Stop)
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1433 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Operator interface mode transition to emergency stop (due to E-Stop). | Engine will shut down and will **not** restart until the emergency stop switch has been reset. |
+| Код неисправности: 1433 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Переход панели оператора в режим аварийного останова (кнопка E-Stop). | Двигатель отключится и не будет перезагружаться до тех пор, пока выключатель аварийной остановки не будет сброшен. |
 
 ![[19802494.png]]
 
-### Circuit Description
+### Описание цепи
 
-### Component Location
+### Расположение компонента
 
-Refer to Troubleshooting Fault Code t05-1433
+См. Код устранения неисправностей t05-1433
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1433
+>
+> ### Operator Interface Mode Transition to Emergency Stop (Due to E-Stop)
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1433 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Operator interface mode transition to emergency stop (due to E-Stop). | Engine will shut down and will **not** restart until the emergency stop switch has been reset. |
+>
+> ### Circuit Description
+>
+> ### Component Location
+>
+> Refer to Troubleshooting Fault Code t05-1433

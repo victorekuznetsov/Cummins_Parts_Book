@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc232.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc232.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Coolant Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
@@ -34,56 +36,118 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc232.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc232.pdf)
 
-### Fault Code: 232
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Coolant Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
 
-Printable Version
+### Код неисправности: 232
 
-### Overview
+### Цепь датчика давления ОЖ — напряжение ниже нормы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 232 PID(P): P109 SPN: 109 FMI: 4/4 Lamp: Amber SRT: | Low signal voltage detected at the coolant pressure sensor circuit. | None on performance. |
+| Код неисправности: 232 PID(P): P109 SPN: 109 FMI: 4/4 лампы: Янтарная СРТ: | Низкое напряжение сигнала, обнаруженное в цепи датчика давления охлаждающей жидкости. | Ни одного на выступление. |
 
 ![[19a00861.png]]
 
-Coolant Pressure Sensor Circuit
+Цепь датчика давления охлаждающей жидкости
 
-### Circuit Description
+### Описание цепи
 
-The engine coolant pressure sensor is a variable resistance sensor used by the ECM to monitor the coolant pressure. The engine coolant pressure sensor has three circuits: 5 volt supply, return and signal circuits. The signal circuit voltage indicates the coolant pressure in the engine cooling system.
+Датчик давления охлаждающей жидкости двигателя представляет собой датчик переменного сопротивления, используемый ECM для мониторинга давления охлаждающей жидкости. Датчик давления охлаждающей жидкости двигателя имеет три схемы: 5-вольтная цепь подачи, возврата и сигнала. Напряжение цепи сигнала указывает на давление охлаждающей жидкости в системе охлаждения двигателя.
 
-### Component Location
+### Расположение компонента
 
-The coolant pressure sensor is located on the water pump connection to the engine block.
+Датчик давления охлаждающей жидкости расположен на подсоединении водяного насоса к блоку двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active.
+Эта диагностика выполняется непрерывно, когда контроллер генераторного набора активен.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the coolant pressure signal voltage was out of range low.
+Модуль управления двигателем (ECM) обнаружил, что напряжение сигнала давления охлаждающей жидкости было вне диапазона низкого.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- A malfunctioning coolant pressure sensor.
+- Неисправный датчик давления охлаждающей жидкости.
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-Refer to Troubleshooting Fault Code 232.
+См. Код 232 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 232
+>
+> ### Coolant Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 232 PID(P): P109 SPN: 109 FMI: 4/4 Lamp: Amber SRT: | Low signal voltage detected at the coolant pressure sensor circuit. | None on performance. |
+>
+> Coolant Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine coolant pressure sensor is a variable resistance sensor used by the ECM to monitor the coolant pressure. The engine coolant pressure sensor has three circuits: 5 volt supply, return and signal circuits. The signal circuit voltage indicates the coolant pressure in the engine cooling system.
+>
+> ### Component Location
+>
+> The coolant pressure sensor is located on the water pump connection to the engine block.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the coolant pressure signal voltage was out of range low.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - A malfunctioning coolant pressure sensor.
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> Refer to Troubleshooting Fault Code 232.

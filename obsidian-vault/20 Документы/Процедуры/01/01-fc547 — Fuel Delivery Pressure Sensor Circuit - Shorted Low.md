@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc547.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc547.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Fuel Delivery Pressure Sensor Circuit - Shorted Low
@@ -34,34 +36,74 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc547.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc547.pdf)
 
-### Fault Code: 547
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Fuel Delivery Pressure Sensor Circuit - Shorted Low
 
-Printable Version
+### Код неисправности: 547
 
-### Overview
+### Цепь датчика давления подачи топлива — замыкание на массу
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 547 PID(P): SPN: FMI: Lamp: Warning SRT: | Fuel supply pressure sensor circuit - shorted low. | No action taken by the ECM. Possible loss of performance. |
+| Код неисправности: 547 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Цепь датчика давления подачи топлива — замыкание на массу. | Никаких действий со стороны ЕКМ не предпринималось. Возможная потеря производительности. |
 
 ![[19803583.png]]
 
-Fuel Supply Pressure Sensor Circuit
+Схема датчика давления топлива
 
-### Circuit Description
+### Описание цепи
 
-The fuel pressure sensor provides the fuel supply pressure signal to the electronic control module (ECM).
+Датчик давления топлива обеспечивает сигнал давления подачи топлива к электронному модулю управления (ECM).
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-Refer to specific engine wiring diagram for the output voltage of the pressure sensor.
+См. конкретную схему проводов двигателя для выходного напряжения датчика давления.
 
-Note: Some engine models will use the Metri-Pack type connector on this pressure sensor, and some will use the Danfoss™ type connector. The Metri-Pack connector pin designators are alpha and the Danfoss™ connector pin designators are numeric. The steps depicted in this fault code show the Metri-Pack type connector with alpha pin callouts. Refer to specific engine wiring diagrams to determine the correct pin designators for the type of connector.
+Примечание: Некоторые модели двигателей будут использовать разъем типа Metri-Pack на этом датчике давления, а некоторые будут использовать разъем типа DanfossTM. Контактные обозначения разъема Metri-Pack являются альфа-контактными, а контактные обозначения разъема DanfossTM числовыми. Шаги, изображенные в этом коде неисправности, показывают разъем типа Metri-Pack с вызывными альфа-пинами. См. конкретные схемы проводов двигателя, чтобы определить правильные указатели контактов для типа разъема.
 
-Refer to Troubleshooting Fault Code t05-547
+См. Код устранения неполадок t05-547
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 547
+>
+> ### Fuel Delivery Pressure Sensor Circuit - Shorted Low
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 547 PID(P): SPN: FMI: Lamp: Warning SRT: | Fuel supply pressure sensor circuit - shorted low. | No action taken by the ECM. Possible loss of performance. |
+>
+> Fuel Supply Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The fuel pressure sensor provides the fuel supply pressure signal to the electronic control module (ECM).
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> Refer to specific engine wiring diagram for the output voltage of the pressure sensor.
+>
+> Note: Some engine models will use the Metri-Pack type connector on this pressure sensor, and some will use the Danfoss™ type connector. The Metri-Pack connector pin designators are alpha and the Danfoss™ connector pin designators are numeric. The steps depicted in this fault code show the Metri-Pack type connector with alpha pin callouts. Refer to specific engine wiring diagrams to determine the correct pin designators for the type of connector.
+>
+> Refer to Troubleshooting Fault Code t05-547

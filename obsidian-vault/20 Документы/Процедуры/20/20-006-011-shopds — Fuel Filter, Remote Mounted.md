@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-011-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-011-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Fuel Filter, Remote Mounted
@@ -34,26 +36,54 @@ tags:
 > **Даты:** изменён 2009-04-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-011-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-011-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Rail Applications
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+### Снятие
 
-> [!note] Note · Примечание
-> Use two wrenches to remove the fuel hoses.
+Железнодорожное применение
 
-Support the mating fittings with a wrench. Loosen the fuel hose nuts with the other wrench.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
 
-Remove the inlet hose, outlet hose, and o-rings from the fuel filter head.
+> [!note] Примечание
+> Используйте два гаечных ключа для удаления топливных шлангов.
+
+Поддержите спаривающиеся фитинги гаечным ключом. Освободите топливный шланг с другим гаечным ключом.
+
+Удалите впускной шланг, выпускной шланг и о-кольца из головки установки топливного фильтра.
 
 ![[06400044.png]]
 
-Remove the four capscrews and the fuel filter head from the bracket.
+Удалите четыре болта и головку топливного фильтра из кронштейна.
 
 ![[17400023.png]]
 
-Remove the four mounting capscrews and the bracket from the lubricating oil pan.
+Удалите четыре крепежных болта и скобку из моторного масла.
 
 ![[17400024.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Rail Applications
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> **Note · Примечание**
+> Use two wrenches to remove the fuel hoses.
+>
+> Support the mating fittings with a wrench. Loosen the fuel hose nuts with the other wrench.
+>
+> Remove the inlet hose, outlet hose, and o-rings from the fuel filter head.
+>
+> Remove the four capscrews and the fuel filter head from the bracket.
+>
+> Remove the four mounting capscrews and the bracket from the lubricating oil pan.

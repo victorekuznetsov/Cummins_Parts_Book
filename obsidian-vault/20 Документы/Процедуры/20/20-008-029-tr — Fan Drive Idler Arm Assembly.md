@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-029-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-029-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Arm Assembly
@@ -34,69 +36,130 @@ tags:
 > **Даты:** изменён 2018-01-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-029-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-029-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the fan belt. [[20-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section]]
+
+### Подготовительные операции
+
+Удалите пояс вентилятора.[[20-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе]]
 
 ![[fn4blma.png]]
 
-### Remove
+### Снятие
 
-> [!danger] WARNING · Опасно
-> This component will rotate. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component
+> [!danger] ОПАСНО
+> Этот компонент будет вращаться. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-Remove the belt adjusting nut (1) from the tensioner assembly.
+Удалите ремень, регулирующий гайку (1) из натяжного узла.
 
-Remove the three capscrews (2) from the pivot arm assembly.
+Удалите три болта (2) из разворотного рычага.
 
-Remove the pivot arm and the belt tensioner as an assembly.
+Удалите рычаг поворота и натяжитель ремня в качестве сборки.
 
 ![[08400022.png]]
 
-Remove the belt tensioner from the idler arm assembly.
+Снять натяжитель ремня с узла рычага холостого хода.
 
 ![[08400023.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the idler pulley. Rotate the pulley to check for rough bearings. Check the bearing end for clearance.
+Проверьте шкив бездельника. Поверните шкив, чтобы проверить наличие грубых подшипников. Проверьте конец подшипника для очистки.
 
-Inspect the grease seal for damage.
+Проверить уплотнение для жира на предмет повреждения.
 
-| Bearing End Clearance |  |  |
+| Завершение процедуры |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.08 | MIN | 0.003 |
-| 0.25 | MAX | 0.010 |
+| мм |  | в |
+| 0.08 | Мин | 0.003 |
+| 0.25 | Макс | 0.010 |
 
 ![[08400041.png]]
 
-Inspect the belt tensioner assembly for cracks or excessive wear. The part **must** be replaced if worn.
+Осмотрите натяжной ремень сборки на наличие трещин или чрезмерного износа. **** Заменить в случае использования.
 
 ![[08400024.png]]
 
-### Install
+### Установка
 
-Install the belt tensioner on the idler arm. Tighten the capscrews.
+Установите натяжитель ремня на руку холостого хода. Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 95 n•m [70 ft-lb]
+> [!tip] Момент затяжки
+> 95 Н·м [70 фунт-фут]
 
 ![[08400023.png]]
 
-Install the idler arm assembly and capscrews (2). Tighten the capscews.
+Установите сборку и болты рычага холостого хода (2). Затяните капсюши.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
-Install the belt tensioning nut (1). Do **not** tighten the nut.
+Установите ремень натяжной гайки (1). Не затягивайте гайку.
 
 ![[08400022.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Install the fan belt. [[20-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section]]
+Установите ремень вентилятора.[[20-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе]]
 
-Adjust the belt tension. [[20-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section]]
+Отрегулируйте натяжение ремня.[[20-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе]]
 
 ![[fn4blma.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Remove the fan belt. [[20-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section]]
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> This component will rotate. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component
+>
+> Remove the belt adjusting nut (1) from the tensioner assembly.
+>
+> Remove the three capscrews (2) from the pivot arm assembly.
+>
+> Remove the pivot arm and the belt tensioner as an assembly.
+>
+> Remove the belt tensioner from the idler arm assembly.
+>
+> ### Inspect for Reuse
+>
+> Inspect the idler pulley. Rotate the pulley to check for rough bearings. Check the bearing end for clearance.
+>
+> Inspect the grease seal for damage.
+>
+> | Bearing End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.08 | MIN | 0.003 |
+> | 0.25 | MAX | 0.010 |
+>
+> Inspect the belt tensioner assembly for cracks or excessive wear. The part **must** be replaced if worn.
+>
+> ### Install
+>
+> Install the belt tensioner on the idler arm. Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 95 n•m [70 ft-lb]
+>
+> Install the idler arm assembly and capscrews (2). Tighten the capscews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Install the belt tensioning nut (1). Do **not** tighten the nut.
+>
+> ### Finishing Steps
+>
+> Install the fan belt. [[20-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section]]
+>
+> Adjust the belt tension. [[20-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section]]

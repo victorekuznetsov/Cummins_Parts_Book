@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1329.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1329.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Voltage Regulator
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1329.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1329.pdf)
 
-### Fault Code: 1329
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Voltage Regulator
 
-Printable Version
+### Код неисправности: 1329
 
-### Overview
+### Регулятор напряжения
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1329 PID(P): SPN: FMI: Lamp: Warning SRT: | The voltage regulator has lost its DC power supply. | The voltage regulator will **not** be able to regulate generator set output voltage. Possible low AC voltage (Fault Code 1447) condition can occur. |
+| Код неисправности: 1329 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Регулятор напряжения потерял свой источник питания постоянного тока. | Регулятор напряжения **не** сможет регулировать выходное напряжение генераторной установки. Возможен низкий уровень напряжения переменного тока (код ошибки 1447). |
 
 ![[19802802.png]]
 
-Voltage Regulator Circuit
+Схема регулятора напряжения
 
-### Circuit Description
+### Описание цепи
 
-The ECM uses this fault code to inform the operator that the base board can **not** drive DC power to the voltage regulator.
+ECM использует этот код неисправности, чтобы сообщить оператору, что базовая плата может **не** приводить мощность постоянного тока в регулятор напряжения.
 
-### Component Location
+### Расположение компонента
 
-Refer to Section E for location of the voltage regulator.
+См. раздел E для определения местоположения регулятора напряжения.
 
-### Shoptalk
+### Практические замечания
 
-The possible failure modes are open circuit, short circuit, short to ground, internal shorts to the voltage regulator or base board, or bad diode.
+Возможные режимы отказа - это открытый контур, короткое замыкание, короткое к земле, внутренние шорты к регулятору напряжения или базовой плате или плохой диод.
 
-Refer to Troubleshooting Fault Code t05-1329
+См. Код устранения неисправностей t05-1329
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1329
+>
+> ### Voltage Regulator
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1329 PID(P): SPN: FMI: Lamp: Warning SRT: | The voltage regulator has lost its DC power supply. | The voltage regulator will **not** be able to regulate generator set output voltage. Possible low AC voltage (Fault Code 1447) condition can occur. |
+>
+> Voltage Regulator Circuit
+>
+> ### Circuit Description
+>
+> The ECM uses this fault code to inform the operator that the base board can **not** drive DC power to the voltage regulator.
+>
+> ### Component Location
+>
+> Refer to Section E for location of the voltage regulator.
+>
+> ### Shoptalk
+>
+> The possible failure modes are open circuit, short circuit, short to ground, internal shorts to the voltage regulator or base board, or bad diode.
+>
+> Refer to Troubleshooting Fault Code t05-1329

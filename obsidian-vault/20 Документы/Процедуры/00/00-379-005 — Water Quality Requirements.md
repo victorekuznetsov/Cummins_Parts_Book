@@ -25,7 +25,8 @@ families:
   - "QST30"
 manuals:
   - "5411406"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-379-005.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-379-005.pdf"
 tags:
@@ -36,6 +37,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Water Quality Requirements
@@ -49,22 +51,52 @@ tags:
 > **Даты:** изменён 2017-11-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-379-005.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-379-005.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Cooling systems perform best with distilled or deionized water. If distilled or deionized water is **not** available, the quality of the water used **must** meet all the requirements listed in Table 1 below. Excessive levels of calcium and magnesium contribute to scaling problems. Excessive levels of chloride and sulfate cause cooling system corrosion.
 
-If water quality is unknown, water test results can be obtained from local water utility departments or can be tested with:
+### Общие сведения
 
-- Cummins Filtration Monitor-C™ laboratory testing, Part Number CC2700 or CC2706
-- Cummins Filtration Water-Chek™ test stips, Part Number CC2609, used to determine harness, pH, and chloride concentration in water.
+Системы охлаждения лучше всего работают с дистиллированной или деионизированной водой. Если дистиллированная или деионизированная вода **недоступна, качество используемой воды** должно соответствовать всем требованиям, перечисленным в таблице 1 ниже. Чрезмерный уровень кальция и магния способствует проблемам масштабирования. Чрезмерное содержание хлорида и сульфата вызывает коррозию системы охлаждения.
 
-Test data **must** show the following elements. The element levels **must not** exceed the published limits for use in cooling systems.
+Если качество воды неизвестно, результаты испытаний воды могут быть получены из местных отделов водоснабжения или могут быть проверены с помощью:
 
-| Table 1 - Maximum Element Level Allowable in Water |  |
+- Лабораторные испытания Cummins Filtration Monitor-CTM, Part Number CC2700 или CC2706
+- Испытательные штыри Cummins Filtration Water-ChekTM, Part Number CC2609, используются для определения концентрации жгута, рН и хлорида в воде.
+
+Измерительные данные **должны** содержать следующие элементы: Уровни элементов **не должны** превышать установленные пределы для использования в системах охлаждения.
+
+| Таблица 1 - Максимальный уровень элементов, допустимых в воде |  |
 |---|---|
-| Element | Maximum Level Allowable |
-| Calcium + Magnesium (Hardness) | 170 ppm (as CaCO 3) |
-| Chloride | 40 ppm (as CI) |
-| Sulfate | 100 ppm (as SO 4) |
-| Total Dissolved Solids | 340 ppm |
-| pH | 5.5 to 9.0 (min/max) |
+| Элемент | Максимальный допустимый уровень |
+| Кальций + магний (Тяжелость) | 170 ppm (как CaCO 3) |
+| Хлорид | 40 ppm (как CI) |
+| сульфат | 100 ppm (как SO 4) |
+| Полностью растворенные твердые | 340 ppm |
+| pH | 5.5 - 9.0 (мин/макс) |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Cooling systems perform best with distilled or deionized water. If distilled or deionized water is **not** available, the quality of the water used **must** meet all the requirements listed in Table 1 below. Excessive levels of calcium and magnesium contribute to scaling problems. Excessive levels of chloride and sulfate cause cooling system corrosion.
+>
+> If water quality is unknown, water test results can be obtained from local water utility departments or can be tested with:
+>
+> - Cummins Filtration Monitor-C™ laboratory testing, Part Number CC2700 or CC2706
+> - Cummins Filtration Water-Chek™ test stips, Part Number CC2609, used to determine harness, pH, and chloride concentration in water.
+>
+> Test data **must** show the following elements. The element levels **must not** exceed the published limits for use in cooling systems.
+>
+> | Table 1 - Maximum Element Level Allowable in Water |  |
+> |---|---|
+> | Element | Maximum Level Allowable |
+> | Calcium + Magnesium (Hardness) | 170 ppm (as CaCO 3) |
+> | Chloride | 40 ppm (as CI) |
+> | Sulfate | 100 ppm (as SO 4) |
+> | Total Dissolved Solids | 340 ppm |
+> | pH | 5.5 to 9.0 (min/max) |

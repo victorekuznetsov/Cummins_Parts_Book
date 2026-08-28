@@ -54,7 +54,8 @@ manuals:
   - "4021530"
   - "4021942"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-012-021.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-012-021.pdf"
 tags:
@@ -70,6 +71,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Air Tanks and Reservoirs
@@ -83,8 +85,22 @@ tags:
 > **Даты:** изменён 2002-03-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-012-021.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-012-021.pdf)
 
-### Drain
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-If automatic purging or spitter valves are used, confirm the valves are operating correctly. If a manual drain valve is used on the wet tank, open the draincock on the wet tank to drain any moisture accumulated in the air system. If oil is present, the air compressor system **must** be checked. Contact your Cummins Authorized Repair Location.
+
+### дренаж
+
+Если используются автоматические продувочные или запорные клапаны, подтвердите, что клапаны работают правильно. Если на мокром резервуаре используется ручной дренажный клапан, откройте дренажный клапан на мокром резервуаре, чтобы слить любую влагу, накопленную в воздушной системе. Если масло присутствует, то необходимо проверить систему воздушного компрессора *. Свяжитесь с авторизованным местом ремонта Cummins.
 
 ![[cp8tbmh.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Drain
+>
+> If automatic purging or spitter valves are used, confirm the valves are operating correctly. If a manual drain valve is used on the wet tank, open the draincock on the wet tank to drain any moisture accumulated in the air system. If oil is present, the air compressor system **must** be checked. Contact your Cummins Authorized Repair Location.

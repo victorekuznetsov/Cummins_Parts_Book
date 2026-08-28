@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-396.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-396.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Fuel Lift Pump
@@ -34,8 +36,22 @@ tags:
 > **Даты:** изменён 2007-12-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-396.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-396.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Refer to Procedure 005-045 (Fuel Lift Pump) in Section 5 of the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
+
+### Общие сведения
+
+- См. процедуру 005-045 (насосы для поднятия топлива) в разделе 5 Руководства по обслуживанию QST30, Вестник [[4021539 — QST30 Service Manual\|4021539]].
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> - Refer to Procedure 005-045 (Fuel Lift Pump) in Section 5 of the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021587"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-024.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-015-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/115"
+  - "перевод/машинный"
 ---
 
 # Engine Room Panel
@@ -34,70 +36,128 @@ tags:
 > **Даты:** изменён 2010-07-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-015-024.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Instrument Panel
 
-Disconnect the connector from the back of the ED3 instrument panel.
+### Снятие
+
+Панель инструментов
+
+Отсоедините разъем от задней панели прибора ED3.
 
 ![[17800143.png]]
 
-Remove the terminal strip bracket mounting screws.
+Удалите клеммные кронштейны, устанавливающие винты.
 
-Allow the terminal strip and bracket to hang free.
+Разрешите терминальной полосе и скобке висеть бесплатно.
 
 ![[17800144.png]]
 
-Remove the remaining ED3 instrument panel mounting screws.
+Удалите оставшиеся винты для монтажа приборной панели ED3.
 
-Slide the ED3 instrument panel out of the front of the engine room panel door.
+Вытащите приборную панель ED3 из передней части двери панели машинного отделения.
 
 ![[17800145.png]]
 
-Control Indicator Panel
+Панель индикаторов контроля
 
-Disconnect all connectors from the control panel.
+Отключите все разъемы от панели управления.
 
 ![[17800146.png]]
 
-Remove the mounting nuts.
+Удалите крепежные орехи.
 
-Slide the control panel through the front of the engine room panel door.
+Сдвиньте панель управления через переднюю панельную дверь машинного отделения.
 
 ![[17800147.png]]
 
-### Install
+### Установка
 
-Instrument Panel
+Панель инструментов
 
-Slide the ED3 instrument panel into the front of the engine room panel door.
+Сдвиньте приборную панель ED3 в переднюю часть двери панели машинного отделения.
 
-Thread the two non-bracket screws into the ED3 instrument panel.
+Введите два некарманных винта в панель приборов ED3.
 
 ![[17800144.png]]
 
-Place the terminal strip and mounting bracket onto the engine room panel door.
+Поместите терминальную полосу и крепление кронштейна на дверцу панели машинного отделения.
 
-Thread the two mounting screws.
+Нажмите на два крепежных винта.
 
-Tighten all four screws.
+Закрутите все четыре винта.
 
 ![[17800143.png]]
 
-Connect the plug into the back of the ED3 instrument panel.
+Подключите вилку к задней панели прибора ED3.
 
 ![[17800156.png]]
 
-Control Indicator Panel
+Панель индикаторов контроля
 
-Slide the control panel through the front of the engine room panel door.
+Сдвиньте панель управления через переднюю панельную дверь машинного отделения.
 
-Install the mounting nuts.
+Установите крепежные гайки.
 
 ![[17800147.png]]
 
-Connect all connectors to the control panel.
+Подключите все разъемы к панели управления.
 
-Operate the engine and check for proper operation.
+Управляйте двигателем и проверяйте его правильность.
 
 ![[17800158.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Instrument Panel
+>
+> Disconnect the connector from the back of the ED3 instrument panel.
+>
+> Remove the terminal strip bracket mounting screws.
+>
+> Allow the terminal strip and bracket to hang free.
+>
+> Remove the remaining ED3 instrument panel mounting screws.
+>
+> Slide the ED3 instrument panel out of the front of the engine room panel door.
+>
+> Control Indicator Panel
+>
+> Disconnect all connectors from the control panel.
+>
+> Remove the mounting nuts.
+>
+> Slide the control panel through the front of the engine room panel door.
+>
+> ### Install
+>
+> Instrument Panel
+>
+> Slide the ED3 instrument panel into the front of the engine room panel door.
+>
+> Thread the two non-bracket screws into the ED3 instrument panel.
+>
+> Place the terminal strip and mounting bracket onto the engine room panel door.
+>
+> Thread the two mounting screws.
+>
+> Tighten all four screws.
+>
+> Connect the plug into the back of the ED3 instrument panel.
+>
+> Control Indicator Panel
+>
+> Slide the control panel through the front of the engine room panel door.
+>
+> Install the mounting nuts.
+>
+> Connect all connectors to the control panel.
+>
+> Operate the engine and check for proper operation.

@@ -13,13 +13,15 @@ engines:
   - "93087701"
 families:
   - "C8.3 · 6C8.3"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110114.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110114.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
   - "год/2011"
+  - "перевод/машинный"
   - "тема/injectors-and-fuel-lines"
 ---
 
@@ -33,21 +35,29 @@ tags:
 > **Даты:** выпущен 2011-04-19 · изменён 2012-04-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110114.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110114.pdf)
 
-### Warranty Statement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
 
-### Contents
+### Положение о гарантии
 
-The purpose of this document is to increase the awareness of the nozzle opening pressure (NOP) specifications that should be seen on the new versus used injectors for B and C Series engines.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-Most injectors for B and C Series engines have an NOP value stamped on the injector nozzle holder. This NOP value is given in units of bar. For new injectors that have **not** been run on an engine the actual NOP of the injector can be greater than the value as stamped on the injector, but should **not** be less than this value. Typically, the maximum acceptable value of the nozzle opening pressure is the NOP as stamped on the injector +8 bar.
+### Содержание
 
-This value can vary depending on the injector assembly. Reference the list below or the Injection Pumps And Injectors Midrange Engines Manual for the correct NOP range for specific injector assemblies.
+Цель этого документа заключается в повышении осведомленности о спецификациях давления открытия сопла (NOP), которые должны быть видны на новом топливном форсунке для двигателей B и C серии.
 
-As injectors accumulate hours their NOP can decay. Up to 10 percent of decay is normal for used injectors, and injectors that exhibit this decay should still be considered in specification. The maximum allowable decay in NOP is 10 percent of the value stamped on the injector nozzle holder. Refer to the table below for the upper and lower limits of the injector NOP on new and used injectors.
+Большинство топливных форсунок для двигателей серии B и C имеют значение NOP, проштампованное на держателе насадки форсунки. Это значение NOP дается в единицах бара. Для нового форсунки, который **не** работал на двигателе, фактическое значение NOP форсунки может быть больше значения, указанного на топливном форсунке, но должно быть **не** меньше этого значения. Как правило, максимально допустимым значением давления открытия сопла является NOP, как проштамповано на топливной форсунке +8 бар.
 
-| Cummins Injector Assembly Part No. | Lowest Acceptable NOP With Used Injectors (Bar) | Opening Pressure As Stamped on Injector - Lowest Acceptable Limit When Injector Is New (Bar) | Maximum Acceptable NOP New or Used (Bar) |
+Это значение может варьироваться в зависимости от сборки форсунки. Ссылка на приведенный ниже список или руководство по форсуночным насосам и топливным форсункам для двигателей среднего диапазона для правильного диапазона NOP для конкретных сборок топливных форсунок.
+
+По мере накопления топливных форсунок часы их NOP могут распадаться. До 10% распада является нормальным для используемого форсунки, и форсунка, который проявляет этот распад, все еще должен рассматриваться в спецификации. Максимально допустимый распад в NOP составляет 10 процентов от значения, отпечатанного на держателе сопла форсунки. См. таблицу ниже для верхних и нижних пределов NOP форсунки на новом и используемом топливном форсунке.
+
+| Сборка топливных форсунок Cummins Номер детали. | Наименее приемлемый NOP с использованным топливным форсункой (бар) | Давление открытия при нажатии штампа на форсунка - самый низкий допустимый предел, когда форсунка новый (бар) | Максимально допустимый NOP новый или используемый (бар) |
 |---|---|---|---|
 | 3279242 | 202.5 | 225 | 233 |
 | 3279243 | 202.5 | 225 | 233 |
@@ -200,4 +210,175 @@ As injectors accumulate hours their NOP can decay. Up to 10 percent of decay is 
 | 3926820 | 234 | 260 | 268 |
 | 3927320 | 234 | 260 | 268 |
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> The purpose of this document is to increase the awareness of the nozzle opening pressure (NOP) specifications that should be seen on the new versus used injectors for B and C Series engines.
+>
+> Most injectors for B and C Series engines have an NOP value stamped on the injector nozzle holder. This NOP value is given in units of bar. For new injectors that have **not** been run on an engine the actual NOP of the injector can be greater than the value as stamped on the injector, but should **not** be less than this value. Typically, the maximum acceptable value of the nozzle opening pressure is the NOP as stamped on the injector +8 bar.
+>
+> This value can vary depending on the injector assembly. Reference the list below or the Injection Pumps And Injectors Midrange Engines Manual for the correct NOP range for specific injector assemblies.
+>
+> As injectors accumulate hours their NOP can decay. Up to 10 percent of decay is normal for used injectors, and injectors that exhibit this decay should still be considered in specification. The maximum allowable decay in NOP is 10 percent of the value stamped on the injector nozzle holder. Refer to the table below for the upper and lower limits of the injector NOP on new and used injectors.
+>
+> | Cummins Injector Assembly Part No. | Lowest Acceptable NOP With Used Injectors (Bar) | Opening Pressure As Stamped on Injector - Lowest Acceptable Limit When Injector Is New (Bar) | Maximum Acceptable NOP New or Used (Bar) |
+> |---|---|---|---|
+> | 3279242 | 202.5 | 225 | 233 |
+> | 3279243 | 202.5 | 225 | 233 |
+> | 3280567 | 214.5 | 238 | 246 |
+> | 3280787 | 220.5 | 245 | 253 |
+> | 3281825 | 270 | 300 | 308 |
+> | 3355015 | 220.5 | 245 | 253 |
+> | 3355043 | 207 | 230 | 238 |
+> | 3902969 | 220.5 | 245 | 253 |
+> | 3902980 | 220.5 | 245 | 253 |
+> | 3903383 | 198 | 220 | 228 |
+> | 3904197 | 220.5 | 245 | 253 |
+> | 3905752 | 229.5 | 255 | 263 |
+> | 3907173 | 298 | 220 | 228 |
+> | 3908093 | 229.5 | 255 | 263 |
+> | 3908175 | 220.5 | 245 | 253 |
+> | 3908238 | 232 | 258 | 266 |
+> | 3908505 | 184.5 | 205 | 213 |
+> | 3908507 | 184.5 | 205 | 213 |
+> | 3908509 | 184.5 | 205 | 213 |
+> | 3908511 | 184.5 | 205 | 213 |
+> | 3908513 | 184.5 | 205 | 213 |
+> | 3909454 | 220.5 | 245 | 253 |
+> | 3909464 | 220.5 | 245 | 253 |
+> | 3909475 | 198 | 220 | 228 |
+> | 3909476 | 220.5 | 245 | 253 |
+> | 3909509 | 220.5 | 245 | 253 |
+> | 3909522 | 220.5 | 245 | 253 |
+> | 3910325 | 232 | 258 | 266 |
+> | 3910623 | 162 | 180 | 188 |
+> | 3911185 | 162 | 180 | 188 |
+> | 3911340 | 198 | 220 | 228 |
+> | 3911350 | 184.5 | 205 | 213 |
+> | 3912033 | 207 | 230 | 238 |
+> | 3912468 | 220.5 | 245 | 253 |
+> | 3912478 | 229.5 | 255 | 263 |
+> | 3913380 | 220.5 | 245 | 253 |
+> | 3913735 | 270 | 300 | 308 |
+> | 3913992 | 198 | 220 | 228 |
+> | 3914205 | 229.5 | 255 | 263 |
+> | 3914471 | 220.5 | 245 | 253 |
+> | 3914472 | 198 | 220 | 228 |
+> | 3914473 | 220.5 | 245 | 253 |
+> | 3914474 | 198 | 220 | 228 |
+> | 3914491 | 236 | 262 | 270 |
+> | 3914710 | 223 | 248 | 256 |
+> | 3915568 | 198 | 220 | 228 |
+> | 3915790 | 220.5 | 245 | 253 |
+> | 3915792 | 220.5 | 245 | 253 |
+> | 3915806 | 220.5 | 245 | 253 |
+> | 3916232 | 270 | 300 | 308 |
+> | 3916495 | 198 | 220 | 228 |
+> | 3916730 | 229.5 | 255 | 263 |
+> | 3916735 | 229.5 | 255 | 263 |
+> | 3916737 | 229.5 | 255 | 263 |
+> | 3916740 | 234 | 260 | 268 |
+> | 3916742 | 220.5 | 245 | 253 |
+> | 3916745 | 229.5 | 255 | 263 |
+> | 3917040 | 162 | 180 | 188 |
+> | 3917100 | 235.5 | 262 | 270 |
+> | 3917102 | 162 | 180 | 188 |
+> | 3917567 | 198 | 220 | 228 |
+> | 3917601 | 270 | 300 | 308 |
+> | 3917603 | 270 | 300 | 308 |
+> | 3917661 | 220.5 | 245 | 253 |
+> | 3918554 | 198 | 220 | 228 |
+> | 3918965 | 225 | 250 | 260 |
+> | 3919010 | 225 | 250 | 260 |
+> | 3919058 | 270 | 300 | 308 |
+> | 3919091 | 270 | 300 | 308 |
+> | 3919092 | 270 | 300 | 308 |
+> | 3919298 | 220.5 | 245 | 253 |
+> | 3919300 | 198 | 220 | 228 |
+> | 3919302 | 220.5 | 245 | 253 |
+> | 3919304 | 198 | 220 | 228 |
+> | 3919305 | 162 | 180 | 188 |
+> | 3919306 | 162 | 180 | 188 |
+> | 3919307 | 229.5 | 255 | 263 |
+> | 3919309 | 229.5 | 255 | 263 |
+> | 3919311 | 232 | 258 | 266 |
+> | 3919313 | 232 | 258 | 266 |
+> | 3919315 | 229.5 | 255 | 263 |
+> | 3919317 | 220.5 | 245 | 263 |
+> | 3919319 | 198 | 220 | 228 |
+> | 3919320 | 229.5 | 255 | 263 |
+> | 3919322 | 220.5 | 245 | 253 |
+> | 3919323 | 202.5 | 220 | 233 |
+> | 3919324 | 202.5 | 255 | 233 |
+> | 3919325 | 220.5 | 245 | 253 |
+> | 3919326 | 229.5 | 255 | 263 |
+> | 3919327 | 229.5 | 255 | 263 |
+> | 3919328 | 229.5 | 255 | 263 |
+> | 3919329 | 234 | 260 | 268 |
+> | 3919330 | 220.5 | 245 | 253 |
+> | 3919331 | 198 | 220 | 228 |
+> | 3919332 | 229.5 | 255 | 263 |
+> | 3919333 | 220.5 | 245 | 253 |
+> | 3919334 | 220.5 | 245 | 253 |
+> | 3919335 | 198 | 220 | 228 |
+> | 3919336 | 198 | 220 | 228 |
+> | 3919337 | 220.5 | 245 | 253 |
+> | 3919339 | 220.5 | 245 | 253 |
+> | 3919341 | 198 | 220 | 228 |
+> | 3919343 | 220.5 | 245 | 253 |
+> | 3919345 | 220.5 | 245 | 253 |
+> | 3919347 | 220.5 | 245 | 253 |
+> | 3919349 | 198 | 220 | 228 |
+> | 3919350 | 220.5 | 245 | 253 |
+> | 3919353 | 162 | 180 | 188 |
+> | 3919355 | 162 | 180 | 188 |
+> | 3919356 | 235.8 | 262 | 270 |
+> | 3919582 | 220.5 | 245 | 253 |
+> | 3919602 | 184.5 | 205 | 213 |
+> | 3919631 | 270 | 300 | 308 |
+> | 3919744 | 220.5 | 245 | 253 |
+> | 3919760 | 198 | 220 | 228 |
+> | 3919956 | 235.8 | 262 | 270 |
+> | 3919957 | 220.5 | 245 | 253 |
+> | 3919977 | 220.5 | 245 | 253 |
+> | 3920012 | 220.5 | 245 | 253 |
+> | 3920140 | 270 | 300 | 308 |
+> | 3920334 | 198 | 220 | 228 |
+> | 3920526 | 198.9 | 221 | 231 |
+> | 3920527 | 198.9 | 221 | 231 |
+> | 3920529 | 229.5 | 255 | 265 |
+> | 3920531 | 288 | 320 | 328 |
+> | 3920532 | 162 | 180 | 188 |
+> | 3920628 | 319.5 | 355 | 363 |
+> | 3921359 | 184.5 | 205 | 213 |
+> | 3921365 | 319.5 | 355 | 363 |
+> | 3921421 | 220.5 | 245 | 253 |
+> | 3921703 | 198 | 220 | 228 |
+> | 3921835 | 270 | 300 | 308 |
+> | 3921910 | 198 | 220 | 228 |
+> | 3921913 | 220.5 | 245 | 253 |
+> | 3922162 | 220.5 | 245 | 253 |
+> | 3922509 | 232 | 258 | 270 |
+> | 3922515 | 232 | 258 | 270 |
+> | 3922518 | 232 | 258 | 270 |
+> | 3922521 | 232 | 258 | 270 |
+> | 3922907 | 270 | 300 | 308 |
+> | 3922913 | 270 | 300 | 308 |
+> | 3924013 | 235.8 | 262 | 270 |
+> | 3924896 | 243 | 268 | 280 |
+> | 3926117 | 270 | 300 | 308 |
+> | 3926120 | 270 | 300 | 308 |
+> | 3926817 | 232 | 258 | 270 |
+> | 3926818 | 232 | 258 | 270 |
+> | 3926819 | 232 | 258 | 270 |
+> | 3926820 | 234 | 260 | 268 |
+> | 3927320 | 234 | 260 | 268 |
+>
+> ### Document History

@@ -23,7 +23,8 @@ manuals:
   - "4021374"
   - "4021530"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-012-019.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-012-019.pdf"
 tags:
@@ -32,6 +33,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Air Leaks, Compressed Air System
@@ -45,36 +47,74 @@ tags:
 > **Даты:** изменён 2009-01-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-012-019.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-012-019.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This procedure is **only** valid for engines equipped with a compressed air system.
+
+### Общие сведения
+
+Эта процедура действительна только для двигателей, оснащенных системой сжатого воздуха.
 
 ![[nobox.png]]
 
-### Initial Check
+### Первичная проверка
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Fly debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Летающий мусор и грязь могут нанести личные травмы.
 
-> [!note] Note · Примечание
-> The illustrations shown will be of the single-cylinder air compressor. Differences in procedures for SS, QE, and ST model Holset® air compressors will be shown where necessary.
+> [!note] Примечание
+> Показанные иллюстрации будут из одноцилиндрового воздушного компрессора. При необходимости будут показаны различия в процедурах для воздушных компрессоров модели SS, QE и ST Holset®.
 
-Shut off the engine.
+Выключи двигатель.
 
-Open the drain cock on the wet tank to release air from the system. Close the drain cock after the pressure is released.
+Откройте дренажный петух на мокром баке, чтобы выпустить воздух из системы. Закройте дренажный петух после того, как давление будет выпущено.
 
 ![[ca800wb.png]]
 
-Operate the engine to activate the air compressor.
+Управляйте двигателем, чтобы активировать воздушный компрессор.
 
-With the air compressor pumping between 550 to 690 kPa \[80 to 100 psi\], use a solution of soapy water to check for air leaks in the following areas:
+При накачке воздушного компрессора от 550 до 690 кПа[80 до 100 psi] используйте раствор мыльной воды для проверки утечек воздуха в следующих областях:
 
-- Air compressor cover gasket
-- Unloader body o-ring
-- Air compressor head gasket
-- Air compressor valve plate gasket (QE models **only**)
-- Hose and fitting leaks.
+- Прокладка крышки воздушного компрессора
+- Установка корпуса разгрузчика
+- Прокладка головки воздушного компрессора
+- Прокладка клапана воздушного компрессора (модели QE **только**)
+- Хранилище и подогнанные утечки.
 
-If air leaks are found, contact a Cummins® Authorized Repair location.
+Если обнаружены утечки воздуха, обратитесь в авторизованное место ремонта Cummins®.
 
 ![[cp8hdca.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> This procedure is **only** valid for engines equipped with a compressed air system.
+>
+> ### Initial Check
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Fly debris and dirt can cause personal injury.
+>
+> **Note · Примечание**
+> The illustrations shown will be of the single-cylinder air compressor. Differences in procedures for SS, QE, and ST model Holset® air compressors will be shown where necessary.
+>
+> Shut off the engine.
+>
+> Open the drain cock on the wet tank to release air from the system. Close the drain cock after the pressure is released.
+>
+> Operate the engine to activate the air compressor.
+>
+> With the air compressor pumping between 550 to 690 kPa \[80 to 100 psi\], use a solution of soapy water to check for air leaks in the following areas:
+>
+> - Air compressor cover gasket
+> - Unloader body o-ring
+> - Air compressor head gasket
+> - Air compressor valve plate gasket (QE models **only**)
+> - Hose and fitting leaks.
+>
+> If air leaks are found, contact a Cummins® Authorized Repair location.

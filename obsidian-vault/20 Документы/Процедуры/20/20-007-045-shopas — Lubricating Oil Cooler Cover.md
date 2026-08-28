@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-045-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-045-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Cooler Cover
@@ -34,21 +36,44 @@ tags:
 > **Даты:** изменён 2024-10-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-045-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-045-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install the converter cooler housing and elements (if equipped). [[20-008-065-tr — Torque Converter Cooler|Refer to Procedure 008-065 in Section]]
 
-Install the oil cooler cover and new gasket. Use several capscrews to secure the cover in position, but do **not** tighten the capscrews.
+### Установка
+
+Установите корпус преобразователя и элементы охладителя (если они оборудованы).[[20-008-065-tr — Torque Converter Cooler|См. процедуру 008-065 в разделе]]
+
+Установите крышку масляного охладителя и новую прокладку. Используйте несколько болтов, чтобы закрепить крышку в положении, но не затягивайте болты.
 
 ![[lc4cvha.png]]
 
-Install the capscrews as shown.
+Установите болты, как показано.
 
 ![[07400031.png]]
 
-Tighten the capscrews in the sequence shown.
+Затягивайте болты в показанной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 60 n•m [45 ft-lb]
+> [!tip] Момент затяжки
+> 60 Н·м [45 фунт-фут]
 
 ![[07k00143.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Install the converter cooler housing and elements (if equipped). [[20-008-065-tr — Torque Converter Cooler|Refer to Procedure 008-065 in Section]]
+>
+> Install the oil cooler cover and new gasket. Use several capscrews to secure the cover in position, but do **not** tighten the capscrews.
+>
+> Install the capscrews as shown.
+>
+> Tighten the capscrews in the sequence shown.
+>
+> **Момент затяжки · Torque Value**
+> 60 n•m [45 ft-lb]

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc144.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc144.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Engine Coolant Temperature 1 Sensor Circuit - Voltage Above Normal or Shorted to High Source
@@ -34,58 +36,122 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc144.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc144.pdf)
 
-### Fault Code: 144
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Coolant Temperature 1 Sensor Circuit - Voltage Above Normal or Shorted to High Source
 
-Printable Version
+### Код неисправности: 144
 
-### Overview
+### Цепь датчика температуры ОЖ 1 — напряжение выше нормы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 144 PID(P): P110 SPN: 110 FMI: 3/3 Lamp: Amber SRT: | High signal voltage or open circuit detected at engine coolant temperature circuit. | Fan will stay ON if controlled by the engine control module (ECM). |
+| Код неисправности: 144 PID(P): P110 SPN: 110 FMI: 3/3 лампы: Янтарная СРТ: | Высокое напряжение сигнала или открытая схема, обнаруженная в цепи температуры охлаждающей жидкости двигателя. | Вентилятор будет оставаться включенным, если он контролируется модулем управления двигателем (ECM). |
 
 ![[19a00848.png]]
 
-Engine Coolant Temperature Sensor Circuit
+Схема датчика температуры двигателя
 
-### Circuit Description
+### Описание цепи
 
-The engine coolant temperature sensor is a variable resistor sensor used by the ECM to monitor the engine coolant temperature. The engine coolant temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the coolant temperature.
+Датчик температуры охлаждающей жидкости двигателя представляет собой датчик переменного резистора, используемый ECM для мониторинга температуры охлаждающей жидкости двигателя. Датчик температуры охлаждающей жидкости двигателя имеет две схемы: сигнал и обратные цепи. Напряжение сигнала указывает на температуру охлаждающей жидкости.
 
-### Component Location
+### Расположение компонента
 
-The engine coolant temperature sensor is located on the thermostat housing.
+Датчик температуры охлаждающей жидкости двигателя расположен на корпусе термостата.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+Эта диагностика выполняется постоянно, пока контроллер генераторной установки активен или двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected that the engine coolant temperature sensor signal voltage was out of range high.
+Модуль управления двигателем (ECM) обнаружил, что напряжение сигнала датчика температуры охлаждающей жидкости двигателя было вне диапазона.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-- A default value is used for the engine coolant temperature reading.
+- Значение по умолчанию используется для считывания температуры охлаждающей жидкости двигателя.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning engine coolant temperature sensor
+- Неисправный датчик температуры охлаждающей жидкости двигателя
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-Refer to Troubleshooting Fault Code 144.
+См. Код 144 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 144
+>
+> ### Engine Coolant Temperature 1 Sensor Circuit - Voltage Above Normal or Shorted to High Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 144 PID(P): P110 SPN: 110 FMI: 3/3 Lamp: Amber SRT: | High signal voltage or open circuit detected at engine coolant temperature circuit. | Fan will stay ON if controlled by the engine control module (ECM). |
+>
+> Engine Coolant Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine coolant temperature sensor is a variable resistor sensor used by the ECM to monitor the engine coolant temperature. The engine coolant temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the coolant temperature.
+>
+> ### Component Location
+>
+> The engine coolant temperature sensor is located on the thermostat housing.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected that the engine coolant temperature sensor signal voltage was out of range high.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> - A default value is used for the engine coolant temperature reading.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning engine coolant temperature sensor
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> Refer to Troubleshooting Fault Code 144.

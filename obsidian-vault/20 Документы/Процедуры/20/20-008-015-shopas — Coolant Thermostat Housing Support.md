@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 21
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-015-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-015-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Coolant Thermostat Housing Support
@@ -34,283 +36,532 @@ tags:
 > **Даты:** изменён 2014-02-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-015-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-015-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Industrial Applications
 
-Conventional Aftercooling:
+### Установка
 
-Install the o-rings (19) on the coolant transfer tube.
+Промышленное применение
 
-Use vegetable oil to lubricate the o-rings.
+Обычные послеохлаждения:
 
-Install the tube in the bore of the rocker lever housing.
+Установите кольца (19) на трубку для переноса охлаждающей жидкости.
 
-Align the bore in the thermostat housing support with the transfer tube. Push the support into position.
+Используйте растительное масло для смазки колец.
+
+Установите трубку в цилиндрический отсек корпуса рычага качения клапанного клапана.
+
+Выровнять цилиндр, который был в корпусе термостата, с помощью передающей трубки. Вынуждайте поддержку встать на позицию.
 
 ![[th400he.png]]
 
-Spacers are used on cast iron gear covers.
+Спейсеры используются на чугунных чехлах.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08k00030.png]]
 
-> [!note] Note · Примечание
-> The outside capscrew holds a clip for the aftercooler coolant inlet tube.
+> [!note] Примечание
+> Наружные болты удерживают зажим для впускной трубки охлаждающей жидкости после охлаждения.
 
-Install the four lockwashers and capscrews.
+Установите четыре замочных машины и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08400011.png]]
 
-> [!note] Note · Примечание
-> The raised lip on the retainer (7) **must** point toward the thermostat housing.
+> [!note] Примечание
+> Поднятая губа на фиксаторе (7)**должна** указывать на корпус термостата.
 
-Use vegetable oil to lubricate the o-ring. Install a new o-ring on the aftercooler coolant supply tube (31).
+Используйте растительное масло для смазки кольца. Установите новое кольцо на трубку подачи охлаждающей жидкости после охлаждения (31).
 
-Install the tube in the bore of the thermostat housing.
+Установите трубку в цилиндрический отсек корпуса термостата.
 
-Install the retainer clip (7) and capscrew. Tighten the capscrew.
+Установите зажим (7) и болты. Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrew 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> болты 20 Н·м [177 фунт-дюйм]
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Clamp 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> Hose Clamp 6 Н·м [53 фунт-дюйм]
 
-Attach the support clip to the bracket (34).
+Прикрепите опорный клип к скобке (34).
 
 ![[08400013.png]]
 
-Connect the aftercooler coolant return tube, the aftercooler coolant supply tube, gaskets, and hose(s) to the aftercooler.
+Подключите трубку возврата охлаждающей жидкости после охлаждения, трубку подачи охлаждающей жидкости после охлаждения, прокладки и шланг (шланги) к послеохладительной камере.
 
-Install the gasket and return tube capscrews.
+Установите прокладку и возвратные болты труб.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [50 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [50 фунт-дюйм]
 
-Install the vent hose.
+Установите шланг вентиляции.
 
-Connect the coolant temperature sensor wire.
+Подключите провод датчика температуры охлаждающей жидкости.
 
-> [!note] Note · Примечание
-> If the engine is equipped with an air compressor, install the air compressor coolant return tube.
+> [!note] Примечание
+> Если двигатель оснащен воздушным компрессором, установите трубку возврата воздушного компрессора.
 
 ![[08400105.png]]
 
-Use vegetable oil to lubricate the o-ring on the coolant bypass tube.
+Используйте растительное масло для смазки кольца на трубке шунтирования охлаждающей жидкости.
 
-Install the coolant bypass tube.
+Установите трубку для обхода охлаждающей жидкости.
 
-Install the retainer (9) and capscrew.
+Установите фиксатор (9) и болты.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrew 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> болты 45 Н·м [33 фут-лб]
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Clamp 6 n•m [50 in-lb]
+> [!tip] Момент затяжки
+> Hose Clamp 6 Н·м [50 фунт-дюйм]
 
 ![[tb8hoha.png]]
 
-Install the two upper radiator hoses.
+Установите два верхних шланга радиатора.
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [50 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [50 фунт-дюйм]
 
-Install the vent lines.
+Установите линии вентиляции.
 
 ![[08400104.png]]
 
-LTA:
+ЛТА:
 
-Install the o-rings (19) on the coolant transfer tube.
+Установите кольца (19) на трубку для переноса охлаждающей жидкости.
 
-Use vegetable oil to lubricate the o-rings.
+Используйте растительное масло для смазки колец.
 
-Install the tube in the bore of the rocker lever housing.
+Установите трубку в цилиндрический отсек корпуса рычага качения клапанного клапана.
 
-Align the bore in the thermostat housing support with the transfer tube.
+Выровнять цилиндр, который был в корпусе термостата, с помощью передающей трубки.
 
-Push the support into position.
+Вынуждайте поддержку встать на позицию.
 
 ![[08400010.png]]
 
-> [!note] Note · Примечание
-> The outside capscrew holds a clip for the aftercooler water inlet tube.
+> [!note] Примечание
+> Внешние болты удерживают зажим для впускной трубки для воды после охлаждения.
 
-Install the four lock washers and capscrews.
+Установите четыре шайбы и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08400011.png]]
 
-Use vegetable oil to lubricate the o-ring on the coolant bypass tube.
+Используйте растительное масло для смазки кольца на трубке шунтирования охлаждающей жидкости.
 
-Install the coolant bypass tube.
+Установите трубку для обхода охлаждающей жидкости.
 
-Install the retainer (9) and capscrew.
+Установите фиксатор (9) и болты.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrew 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> болты 45 Н·м [33 фут-лб]
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Clamp 6 n•m [50 in-lb]
+> [!tip] Момент затяжки
+> Hose Clamp 6 Н·м [50 фунт-дюйм]
 
 ![[xm4clma.png]]
 
-> [!note] Note · Примечание
-> The raised lip on the retainer (7) **must** point toward the thermostat housing.
+> [!note] Примечание
+> Поднятая губа на фиксаторе (7)**должна** указывать на корпус термостата.
 
-Use vegetable oil to lubricate the o-ring.
+Используйте растительное масло для смазки кольца.
 
-Install a new o-ring on the aftercooler coolant supply tube (31).
+Установите новое кольцо на трубку подачи охлаждающей жидкости после охлаждения (31).
 
-Install the tube in the bore of the thermostat housing.
+Установите трубку в цилиндрический отсек корпуса термостата.
 
-Install the retainer clip (7) and capscrew.
+Установите зажим (7) и болты.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrew 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> болты 20 Н·м [177 фунт-дюйм]
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Clamp 6 n•m [50 in-lb]
+> [!tip] Момент затяжки
+> Hose Clamp 6 Н·м [50 фунт-дюйм]
 
-Attach the support clip to the bracket (34).
+Прикрепите опорный клип к скобке (34).
 
 ![[08400013.png]]
 
-> [!note] Note · Примечание
-> The raised lip on the retainer (7) **must** point toward the thermostat housing.
+> [!note] Примечание
+> Поднятая губа на фиксаторе (7)**должна** указывать на корпус термостата.
 
-Use vegetable oil to lubricate the new o-rings.
+Используйте растительное масло для смазки новых колец.
 
-Install the o-rings on the aftercooler coolant inlet and outlet tubes.
+Установите кольца на впускной и выпускной трубки охлаждающей жидкости после охлаждения.
 
-Install the tubes. Install the retainer clips (7) and capscrews.
+Установите трубы. Установите зажимы (7) и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> Capscrew 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> болты 20 Н·м [177 фунт-дюйм]
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> Hose Clamp 6 n•m [50 in-lb]
+> [!tip] Момент затяжки
+> Hose Clamp 6 Н·м [50 фунт-дюйм]
 
-Attach the support clips to the bracket (34).
+Прикрепите к скобке опорные клипсы (34).
 
-Connect the coolant temperature sensor wire (17).
+Подключите провод датчика температуры охлаждающей жидкости (17).
 
 ![[08400012.png]]
 
-Install both of the radiator vent lines.
+Установите обе линии вентиляции радиатора.
 
-Install the upper low temperature aftercooling radiator hose.
+Установите верхний низкотемпературный шланг для послеохлаждения радиатора.
 
-Tighten the clamps.
+Зажгите зажимы.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [50 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [50 фунт-дюйм]
 
-Install both of the upper engine radiator hoses.
+Установите оба верхних шланга радиатора двигателя.
 
-Tighten the clamps.
+Зажгите зажимы.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [50 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [50 фунт-дюйм]
 
 ![[08400014.png]]
 
-Marine Applications
+Судовое применение
 
-Install the o-rings at the water rail flange and the aftercooler supply and return tubes.
+Установите кольца на фланце рельса и трубы запаса и возврата послеохладителя.
 
-Install the thermostat housing to the top of the gear cover. Use four capscrews.
+Установите корпус термостата на верхнюю часть крышки передач. Используйте четыре болта.
 
-Make sure the o-rings are in place.
+Убедитесь, что кольца на месте.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[08400412.png]]
 
-Install the four capscrews at the aftercooler supply and return tubes.
+Установите четыре болта на подачу послеохладителя и возвратные трубы.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[08400411.png]]
 
-Install the two capscrews at the water rail flange to the thermostat housing.
+Установите два болта на фланце рельса к корпусу термостата.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[08400409.png]]
 
-Connect the coolant temperature sensor connector.
+Подключите разъем датчика температуры охлаждающей жидкости.
 
 ![[08400410.png]]
 
-Install a new o-ring on the LTA supply pipe and insert into the thermostat housing.
+Установите новое о-кольцо на трубу питания LTA и вставьте в корпус термостата.
 
-Install the retaining clip.
+Установите удерживающий клип.
 
-Torque the upper and lower retaining clips.
+Вращение верхних и нижних удерживающих клипов.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[08400408.png]]
 
-Install new o-rings on the water pump inlet pipe. Insert the inlet pipe into the water pump inlet and thermostat housing at the same time.
+Установите новые кольца на впускную трубу водяного насоса. Вставьте впускную трубу в впускной и термостатный корпус водяного насоса одновременно.
 
-Install the retaining clips.
+Установите удерживающие клипы.
 
-Torque the upper and lower retaining clips.
+Вращение верхних и нижних удерживающих клипов.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[08400406.png]]
 
-Install the flexible connections, if removed. Use four capscrews.
+Установите гибкие соединения, если они удалены. Используйте четыре болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 180 n•m [135 ft-lb]
+> [!tip] Момент затяжки
+> 180 Н·м [135 фунт-фут]
 
-Connect the keel cooler supply and return pipes.
+Подключите килевый охладитель подачей и возврата труб.
 
 ![[08400405.png]]
 
-Connect the coolant makeup and vent hoses.
+Подключите косметику охлаждающей жидкости и шланги для вентиляции.
 
 ![[08400404.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Industrial Applications
+>
+> Conventional Aftercooling:
+>
+> Install the o-rings (19) on the coolant transfer tube.
+>
+> Use vegetable oil to lubricate the o-rings.
+>
+> Install the tube in the bore of the rocker lever housing.
+>
+> Align the bore in the thermostat housing support with the transfer tube. Push the support into position.
+>
+> Spacers are used on cast iron gear covers.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> **Note · Примечание**
+> The outside capscrew holds a clip for the aftercooler coolant inlet tube.
+>
+> Install the four lockwashers and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> **Note · Примечание**
+> The raised lip on the retainer (7) **must** point toward the thermostat housing.
+>
+> Use vegetable oil to lubricate the o-ring. Install a new o-ring on the aftercooler coolant supply tube (31).
+>
+> Install the tube in the bore of the thermostat housing.
+>
+> Install the retainer clip (7) and capscrew. Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> Capscrew 20 n•m [177 in-lb]
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> Hose Clamp 6 n•m [53 in-lb]
+>
+> Attach the support clip to the bracket (34).
+>
+> Connect the aftercooler coolant return tube, the aftercooler coolant supply tube, gaskets, and hose(s) to the aftercooler.
+>
+> Install the gasket and return tube capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [50 in-lb]
+>
+> Install the vent hose.
+>
+> Connect the coolant temperature sensor wire.
+>
+> **Note · Примечание**
+> If the engine is equipped with an air compressor, install the air compressor coolant return tube.
+>
+> Use vegetable oil to lubricate the o-ring on the coolant bypass tube.
+>
+> Install the coolant bypass tube.
+>
+> Install the retainer (9) and capscrew.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> Capscrew 45 n•m [33 ft-lb]
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> Hose Clamp 6 n•m [50 in-lb]
+>
+> Install the two upper radiator hoses.
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [50 in-lb]
+>
+> Install the vent lines.
+>
+> LTA:
+>
+> Install the o-rings (19) on the coolant transfer tube.
+>
+> Use vegetable oil to lubricate the o-rings.
+>
+> Install the tube in the bore of the rocker lever housing.
+>
+> Align the bore in the thermostat housing support with the transfer tube.
+>
+> Push the support into position.
+>
+> **Note · Примечание**
+> The outside capscrew holds a clip for the aftercooler water inlet tube.
+>
+> Install the four lock washers and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Use vegetable oil to lubricate the o-ring on the coolant bypass tube.
+>
+> Install the coolant bypass tube.
+>
+> Install the retainer (9) and capscrew.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> Capscrew 45 n•m [33 ft-lb]
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> Hose Clamp 6 n•m [50 in-lb]
+>
+> **Note · Примечание**
+> The raised lip on the retainer (7) **must** point toward the thermostat housing.
+>
+> Use vegetable oil to lubricate the o-ring.
+>
+> Install a new o-ring on the aftercooler coolant supply tube (31).
+>
+> Install the tube in the bore of the thermostat housing.
+>
+> Install the retainer clip (7) and capscrew.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> Capscrew 20 n•m [177 in-lb]
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> Hose Clamp 6 n•m [50 in-lb]
+>
+> Attach the support clip to the bracket (34).
+>
+> **Note · Примечание**
+> The raised lip on the retainer (7) **must** point toward the thermostat housing.
+>
+> Use vegetable oil to lubricate the new o-rings.
+>
+> Install the o-rings on the aftercooler coolant inlet and outlet tubes.
+>
+> Install the tubes. Install the retainer clips (7) and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> Capscrew 20 n•m [177 in-lb]
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> Hose Clamp 6 n•m [50 in-lb]
+>
+> Attach the support clips to the bracket (34).
+>
+> Connect the coolant temperature sensor wire (17).
+>
+> Install both of the radiator vent lines.
+>
+> Install the upper low temperature aftercooling radiator hose.
+>
+> Tighten the clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [50 in-lb]
+>
+> Install both of the upper engine radiator hoses.
+>
+> Tighten the clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [50 in-lb]
+>
+> Marine Applications
+>
+> Install the o-rings at the water rail flange and the aftercooler supply and return tubes.
+>
+> Install the thermostat housing to the top of the gear cover. Use four capscrews.
+>
+> Make sure the o-rings are in place.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the four capscrews at the aftercooler supply and return tubes.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the two capscrews at the water rail flange to the thermostat housing.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Connect the coolant temperature sensor connector.
+>
+> Install a new o-ring on the LTA supply pipe and insert into the thermostat housing.
+>
+> Install the retaining clip.
+>
+> Torque the upper and lower retaining clips.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install new o-rings on the water pump inlet pipe. Insert the inlet pipe into the water pump inlet and thermostat housing at the same time.
+>
+> Install the retaining clips.
+>
+> Torque the upper and lower retaining clips.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the flexible connections, if removed. Use four capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 180 n•m [135 ft-lb]
+>
+> Connect the keel cooler supply and return pipes.
+>
+> Connect the coolant makeup and vent hoses.

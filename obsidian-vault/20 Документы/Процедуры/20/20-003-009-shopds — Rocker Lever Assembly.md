@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-009-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-009-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Assembly
@@ -34,26 +36,56 @@ tags:
 > **Даты:** изменён 2026-02-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-009-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-009-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-Loosen all the adjusting screw nuts and screws to remove all the load from the push rod.
+### Снятие
 
-Do **not** allow the rocker levers to fall off the shaft during removal.
+с форсункой механического управления
 
-Remove the two rocker lever assembly mounting capscrews.
+Удалите все регулирующие гайки и винты, чтобы снять всю нагрузку с толкателя.
 
-Remove the rocker lever assembly.
+Не позволяйте рычагам коромысла падать с вала во время удаления.
+
+Удалите два клапана, которые устанавливают крепления рычага качения.
+
+Снимите клапанный клапан с крепления рычага.
 
 ![[03400026.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Loosen the rocker lever adjusting screws.
+Устраните клапанные рычаги, регулирующие винты.
 
-Loosen the rocker lever shaft mounting capscrews and remove the rocker lever assembly.
+Устраните крепление болтов вала клапанного клапана и удалите клапанный клапанный блок рычага.
 
-Do **not** allow the rocker levers to fall off the shaft during removal.
+Не позволяйте рычагам коромысла падать с вала во время удаления.
 
 ![[03400084.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Loosen all the adjusting screw nuts and screws to remove all the load from the push rod.
+>
+> Do **not** allow the rocker levers to fall off the shaft during removal.
+>
+> Remove the two rocker lever assembly mounting capscrews.
+>
+> Remove the rocker lever assembly.
+>
+> with Electronically Actuated Injector
+>
+> Loosen the rocker lever adjusting screws.
+>
+> Loosen the rocker lever shaft mounting capscrews and remove the rocker lever assembly.
+>
+> Do **not** allow the rocker levers to fall off the shaft during removal.

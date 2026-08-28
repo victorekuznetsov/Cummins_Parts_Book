@@ -25,7 +25,8 @@ families:
   - "QST30"
 manuals:
   - "5411406"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-379-010.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-379-010.pdf"
 tags:
@@ -36,6 +37,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Coolant Filtration
@@ -49,18 +51,44 @@ tags:
 > **Даты:** изменён 2017-11-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-379-010.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-379-010.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Beginning in January 2013, all Cummins® engines are Organic Acid Technology (OAT)/Extended Life coolant compatible. Coolant filters are now optional.
 
-Most Cummins® engines built prior to January 1, 2013 were manufactured with a coolant filter head. Use of a coolant filter is recommended. After January 1, 2013, coolant filters are **only** standard equipment on Cummins® engines greater than 15 liters in displacement. If desired, an aftermarket engine coolant filter head from Cummins Filtration™ can be easily installed on most engines with displacement less than 15 liters.
+### Общие сведения
 
-Several types of coolant filters are available for use on Cummins® engines. The choice of coolant filter type will depend on choice of coolant formulation and choice of service interval. If coolants capable of an extended service interval are used, an extended service interval coolant filter **must** also be used.
+Начиная с января 2013 года, все двигатели Cummins® совместимы с охлаждающей жидкостью с технологией органических кислот (OAT) / Extended Life. Фильтры охлаждения теперь необязательны.
 
-**Chemical Filters**
+Большинство двигателей Cummins®, построенных до 1 января 2013 года, были изготовлены с головкой фильтра охлаждающей жидкости. Рекомендуется использовать фильтр охлаждающей жидкости. После 1 января 2013 года фильтры охлаждающей жидкости являются стандартным оборудованием для двигателей Cummins® объемом более 15 литров. При желании, головка фильтра охлаждающей жидкости двигателя от Cummins FiltrationTM может быть легко установлена на большинстве двигателей с рабочим объемом менее 15 литров.
 
-Some coolant filters contain additives for Supplemental Coolant Additive (SCA) replenishment. These filters, usually referred to as chemical filters, should **only** be used with conventional and hybrid coolants that require SCA replenishment.
+Несколько типов фильтров охлаждающей жидкости доступны для использования на двигателях Cummins®. Выбор типа фильтра для охлаждающей жидкости будет зависеть от выбора состава охлаждающей жидкости и выбора интервала обслуживания. Если используются охлаждающие жидкости, способные к расширенному интервалу обслуживания, также должен использоваться фильтр охлаждающей жидкости с расширенным интервалом обслуживания *.
 
-**Chemical-Free Filters**
+**Химические фильтры**
 
-OAT coolants do **not** require SCA replenishment, and **must** use chemical-free coolant filters.
+Некоторые фильтры охлаждающей жидкости содержат добавки для пополнения дополнительной добавки к охлаждающим веществам (SCA). Эти фильтры, обычно называемые химическими фильтрами, должны использоваться только с обычными и гибридными охлаждающими веществами, которые требуют пополнения SCA.
+
+**Без химикатов**
+
+Охладители ОАТ**не*** требуют пополнения SCA, и **** должны использовать фильтры для охлаждения без использования химических веществ.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Beginning in January 2013, all Cummins® engines are Organic Acid Technology (OAT)/Extended Life coolant compatible. Coolant filters are now optional.
+>
+> Most Cummins® engines built prior to January 1, 2013 were manufactured with a coolant filter head. Use of a coolant filter is recommended. After January 1, 2013, coolant filters are **only** standard equipment on Cummins® engines greater than 15 liters in displacement. If desired, an aftermarket engine coolant filter head from Cummins Filtration™ can be easily installed on most engines with displacement less than 15 liters.
+>
+> Several types of coolant filters are available for use on Cummins® engines. The choice of coolant filter type will depend on choice of coolant formulation and choice of service interval. If coolants capable of an extended service interval are used, an extended service interval coolant filter **must** also be used.
+>
+> **Chemical Filters**
+>
+> Some coolant filters contain additives for Supplemental Coolant Additive (SCA) replenishment. These filters, usually referred to as chemical filters, should **only** be used with conventional and hybrid coolants that require SCA replenishment.
+>
+> **Chemical-Free Filters**
+>
+> OAT coolants do **not** require SCA replenishment, and **must** use chemical-free coolant filters.

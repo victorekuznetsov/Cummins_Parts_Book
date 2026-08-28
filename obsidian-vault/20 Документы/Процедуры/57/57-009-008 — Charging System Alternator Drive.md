@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021539"
 figures: 16
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-008.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-008.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator Drive
@@ -34,177 +36,330 @@ tags:
 > **Даты:** изменён 2025-12-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-008.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Contact cleaner, Part Number 3824510, or equivalent
-- Lubriplate™ 105, Part Number 3163086, or equivalent
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Dial indicator
-- Hydraulic press
+- Контактный очиститель, номер детали 3824510 или эквивалент
+- LubriplateTM 105, Part Number 3163086 или эквивалент
 
-### Preparatory Steps
+#### Дополнительные сервисные позиции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+- Диапазон индикатора
+- Гидравлический пресс
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the belt guards, if equipped. [[57-008-001 — Belt Guard|Refer to Procedure 008-001 in Section 8.]]
-- Remove the charging system alternator drive belt. Refer to Procedure 013-005 in Section 13.
-- Remove the charging system alternator drive pulley. [[57-009-010 — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
+### Подготовительные операции
 
-### Remove
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-Remove the four capscrews and the charging system alternator drive.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Снимите охрану ремня, если она оборудована.[[57-008-001 — Belt Guard|См. процедуру 008-001 в разделе 8.]]
+- Удалите ремень привода генератора переменного тока. См. процедуру 013-005 в разделе 13.
+- Удалите систему зарядки генератора переменного тока шкив.[[57-009-010 — Charging System Alternator Drive Pulley|См. процедуру 009-010 в разделе 9.]]
 
-Remove and discard the o-ring.
+### Снятие
+
+Удалите четыре болта и привод генератора.
+
+Удалите и отбросьте кольцо.
 
 ![[01a00005.png]]
 
-### Disassemble
+### Разборка
 
-Press the shaft out of the gear and rear thrust plate.
+Нажмите вал из шестерни и задней тяговой пластины.
 
-Remove the shaft and hub assembly from the housing.
+Удалить из кожуха вал и узлы сборки.
 
 ![[09a00109.png]]
 
-Press the shaft out of the hub and front thrust plate.
+Нажмите вал из узла и передней тяговой пластины.
 
 ![[09a00110.png]]
 
-Remove the oil seal from the housing.
+Удалите масляную печать из кожуха.
 
-Discard the seal.
+Отбросьте печать.
 
 ![[09a00111.png]]
 
-Press the bushings from the front and rear of the housing.
+Нажимайте на втулки спереди и сзади корпуса.
 
 ![[09a00112.png]]
 
-### Clean
+### Очистка
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the parts with contact cleaner, Part Number 3824510, or equivalent.
+Очистите детали контактным очистителем, Номер детали 3824510 или эквивалент.
 
-Dry the parts with compressed air.
+Сушить детали сжатым воздухом.
 
 ![[pn6vaeb.png]]
 
-### Assemble
+### Сборка
 
-> [!warning] CAUTION · Осторожно
-> Do not use excessive force when pressing components together. Damage to the components can result.
+> [!warning] ОСТОРОЖНО
+> Не используйте чрезмерную силу при сжатии компонентов вместе. Повреждение компонентов может быть.
 
-Press a bushing into the front of the housing. Be sure the bushing is flush with the edge of the housing.
+Нажмите на втулку в передней части корпуса. Убедитесь, что втулка промыта краем корпуса.
 
-Press a bushing into the rear of the housing. Be sure the bushing is flush with the edge of the housing.
+Нажмите на втулку в задней части корпуса. Убедитесь, что втулка промыта краем корпуса.
 
 ![[09a00113.png]]
 
-Coat the oil seal with lithium grease (G2-LI or equivalent).
+Покрыть масляную уплотнение литиевой смазкой (G2-LI или эквивалент).
 
-Press the seal into the front of the housing. Be sure the seal is flush with the edge of the housing.
+Нажмите на печать в передней части корпуса. Убедитесь, что уплотнение промыто краем корпуса.
 
 ![[09a00114.png]]
 
-Press the shaft into the hub until the shoulder of the shaft contacts the hub.
+Нажмите вал в концентратор, пока плечо вала не свяжется с концентратором.
 
 ![[09a00115.png]]
 
-Press the thrust plate onto the shaft.
+Нажмите на тяговую пластину на вал.
 
-Insert the shaft assembly into the front of the housing.
+Вставить вал сборки в переднюю часть корпуса.
 
-Press a second thrust plate onto the shaft. Be sure the second thrust plate does **not** ride on the shoulder of the shaft after installation.
+Нажмите вторую тяговую пластину на вал. Убедитесь, что вторая тяговая пластина **не** едет на плече вала после установки.
 
-Coat both thrust plates with lithium grease (G2-LI or equivalent).
+Покрыть обе тяговые пластины литиевой смазкой (G2-LI или эквивалент).
 
 ![[09a00116.png]]
 
-Press of shrink-fit the gear onto the shaft.
+Нажим нажима на шестеренок на вал.
 
 ![[09a00117.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Clean and inspect the charging system alternator drive shaft for reuse.
+Очистите и проверьте вал привода генератора переменного тока для повторного использования.
 
-Measure the shaft outside diameter.
+Измерьте вал наружного диаметра.
 
-The charging system alternator drive shaft outside diameter measurement specifications are shown below.
+Спецификации измерения внешнего диаметра приводного вала системы зарядки генератора переменного тока приведены ниже.
 
-| **Position** | **mm** |  | **in** |
+| **Позиция** | **мм** |  | **** |
 |---|---|---|---|
-| 1 | 35.950 | MIN | 1.4154 |
-|  | 35.965 | MAX | 1.4159 |
-| 2 | 39.959 | MIN | 1.5732 |
-|  | 39.975 | MAX | 1.5738 |
-| 3 | 30.070 | MIN | 1.1839 |
-|  | 30.085 | MAX | 1.1844 |
-| If the gear is **not** within specification, it **must** be replaced. |  |  |  |
+| 1 | 35.950 | Мин | 1.4154 |
+|  | 35.965 | Макс | 1.4159 |
+| 2 | 39.959 | Мин | 1.5732 |
+|  | 39.975 | Макс | 1.5738 |
+| 3 | 30.070 | Мин | 1.1839 |
+|  | 30.085 | Макс | 1.1844 |
+| Если передача **не*** в пределах спецификации, она * должна быть заменена. |  |  |  |
 
 ![[09a00132.png]]
 
-Measure the end clearance.
+Измерьте конечный зазор.
 
-| Charging System Alternator Drive - End Clearance |  |  |
+| Система зарядки Alternator Drive - End Clearance |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.10 | MIN | 0.0040 |
-| 0.40 | MAX | 0.0158 |
+| мм |  | в |
+| 0.10 | Мин | 0.0040 |
+| 0.40 | Макс | 0.0158 |
 
 ![[09a00113.png]]
 
-Inspect the teeth of the gear for damage.
+Проверьте зубы зубчатой передачи на предмет повреждения.
 
-Measure the gear inside diameter (1).
+Измерить шестерни внутри диаметра (1).
 
-| Charging System Alternator Drive - Inside Diameter |  |  |
+| Система зарядки Alternator Drive - Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 30.00 | MIN | 1.1811 |
-| 30.021 | MAX | 1.1819 |
+| мм |  | в |
+| 30.00 | Мин | 1.1811 |
+| 30.021 | Макс | 1.1819 |
 
-If the gear is **not** within specification, it **must** be replaced.
+Если передача **не*** в пределах спецификации, она * должна быть заменена.
 
 ![[09a00133.png]]
 
-Inspect the shaft, bushings, and thrust plates for visible signs of wear.
+Осмотрите вал, втулки и пластины тяги на предмет видимых признаков износа.
 
 ![[09a00114.png]]
 
-### Install
+### Установка
 
-Install the o-ring and check to make sure the o-ring is **not** twisted.
+Установите кольцо и проверьте, чтобы убедиться, что кольцо **не** скручено.
 
-Lubricate the o-ring and the charging system alternator drive bore in the front gear cover.
+Смазать кольцо и систему зарядки генератора привода цилиндра, который висел в передней крышке передач.
 
-Install the charging system alternator drive and mounting capscrews into the front gear cover.
+Установите привод генератора переменного тока системы зарядки и крепление болтов в переднюю крышку передач.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 113 n•m [83 ft-lb]
+> [!tip] Момент затяжки
+> 113 Н·м [83 фунт-фут]
 
 ![[01a00005.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+
+- Установите систему зарядки генератора переменного тока шкив.[[57-009-010 — Charging System Alternator Drive Pulley|См. процедуру 009-010 в разделе 9.]]
+- Установите ремень привода генератора переменного тока. См. процедуру 013-005 в разделе 13.
+- Установите охрану ремня, если она оборудована.[[57-008-001 — Belt Guard|См. процедуру 008-001 в разделе 8.]]
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем и проверяйте его правильность.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Contact cleaner, Part Number 3824510, or equivalent
+> - Lubriplate™ 105, Part Number 3163086, or equivalent
+>
+> #### Additional Service Items
+>
+> - Dial indicator
+> - Hydraulic press
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Install the charging system alternator drive pulley. [[57-009-010 — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
-- Install the charging system alternator drive belt. Refer to Procedure 013-005 in Section 13.
-- Install the belt guards, if equipped. [[57-008-001 — Belt Guard|Refer to Procedure 008-001 in Section 8.]]
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine and check for proper operation.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the belt guards, if equipped. [[57-008-001 — Belt Guard|Refer to Procedure 008-001 in Section 8.]]
+> - Remove the charging system alternator drive belt. Refer to Procedure 013-005 in Section 13.
+> - Remove the charging system alternator drive pulley. [[57-009-010 — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
+>
+> ### Remove
+>
+> Remove the four capscrews and the charging system alternator drive.
+>
+> Remove and discard the o-ring.
+>
+> ### Disassemble
+>
+> Press the shaft out of the gear and rear thrust plate.
+>
+> Remove the shaft and hub assembly from the housing.
+>
+> Press the shaft out of the hub and front thrust plate.
+>
+> Remove the oil seal from the housing.
+>
+> Discard the seal.
+>
+> Press the bushings from the front and rear of the housing.
+>
+> ### Clean
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the parts with contact cleaner, Part Number 3824510, or equivalent.
+>
+> Dry the parts with compressed air.
+>
+> ### Assemble
+>
+> **CAUTION · Осторожно**
+> Do not use excessive force when pressing components together. Damage to the components can result.
+>
+> Press a bushing into the front of the housing. Be sure the bushing is flush with the edge of the housing.
+>
+> Press a bushing into the rear of the housing. Be sure the bushing is flush with the edge of the housing.
+>
+> Coat the oil seal with lithium grease (G2-LI or equivalent).
+>
+> Press the seal into the front of the housing. Be sure the seal is flush with the edge of the housing.
+>
+> Press the shaft into the hub until the shoulder of the shaft contacts the hub.
+>
+> Press the thrust plate onto the shaft.
+>
+> Insert the shaft assembly into the front of the housing.
+>
+> Press a second thrust plate onto the shaft. Be sure the second thrust plate does **not** ride on the shoulder of the shaft after installation.
+>
+> Coat both thrust plates with lithium grease (G2-LI or equivalent).
+>
+> Press of shrink-fit the gear onto the shaft.
+>
+> ### Inspect for Reuse
+>
+> Clean and inspect the charging system alternator drive shaft for reuse.
+>
+> Measure the shaft outside diameter.
+>
+> The charging system alternator drive shaft outside diameter measurement specifications are shown below.
+>
+> | **Position** | **mm** |  | **in** |
+> |---|---|---|---|
+> | 1 | 35.950 | MIN | 1.4154 |
+> |  | 35.965 | MAX | 1.4159 |
+> | 2 | 39.959 | MIN | 1.5732 |
+> |  | 39.975 | MAX | 1.5738 |
+> | 3 | 30.070 | MIN | 1.1839 |
+> |  | 30.085 | MAX | 1.1844 |
+> | If the gear is **not** within specification, it **must** be replaced. |  |  |  |
+>
+> Measure the end clearance.
+>
+> | Charging System Alternator Drive - End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.10 | MIN | 0.0040 |
+> | 0.40 | MAX | 0.0158 |
+>
+> Inspect the teeth of the gear for damage.
+>
+> Measure the gear inside diameter (1).
+>
+> | Charging System Alternator Drive - Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 30.00 | MIN | 1.1811 |
+> | 30.021 | MAX | 1.1819 |
+>
+> If the gear is **not** within specification, it **must** be replaced.
+>
+> Inspect the shaft, bushings, and thrust plates for visible signs of wear.
+>
+> ### Install
+>
+> Install the o-ring and check to make sure the o-ring is **not** twisted.
+>
+> Lubricate the o-ring and the charging system alternator drive bore in the front gear cover.
+>
+> Install the charging system alternator drive and mounting capscrews into the front gear cover.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 113 n•m [83 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the charging system alternator drive pulley. [[57-009-010 — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
+> - Install the charging system alternator drive belt. Refer to Procedure 013-005 in Section 13.
+> - Install the belt guards, if equipped. [[57-008-001 — Belt Guard|Refer to Procedure 008-001 in Section 8.]]
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine and check for proper operation.

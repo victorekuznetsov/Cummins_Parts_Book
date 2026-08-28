@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666003"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-007-009.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-007-009.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Dipstick
@@ -34,38 +36,76 @@ tags:
 > **Даты:** изменён 2007-07-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-007-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-007-009.pdf)
 
-### Calibrate
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> This procedure **must** begin with the oil pan drained. Refer to Procedure 007-037 (Lubricating Oil System) in Section 7.
 
-Install the dipstick in the dipstick tube housing.
+### калибровать
 
-Use clean engine oil to fill the oil pan to the specified low oil level. Refer to Procedure 018-017 (Lubricating Oil System) in Section V for the correct engine oil capacity.
+> [!note] Примечание
+> Эта процедура **должна** начаться с сливного масла. См. процедуру 007-037 (Система моторного масла) в разделе 7.
+
+Установите калибр уровня масла в корпус измерительной трубки уровня масла.
+
+Используйте чистое моторное масло, чтобы заполнить масляную поддон до указанного низкого уровня масла. См. процедуру 018-017 (Система моторного масла) в разделе V для правильной мощности моторного масла.
 
 ![[lg8dowa.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use care when marking the dipstick. The dipstick will break if the scribe mark is too deep.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при маркировке калибра уровня масла. Измеритель уровня масла будет ломаться, если знак писца слишком глубок.
 
-Remove the dipstick and scribe a mark across the stick at the oil level.
+Удалите калибр уровня масла и напишите отметку на палке на уровне масла.
 
-Label the mark with an "L" to indicate the low oil level.
+Нанесите на маркировку знак "L", чтобы указать низкий уровень масла.
 
-> [!note] Note · Примечание
-> If a new blank dipstick is being used, cut the dipstick off approximately 38 mm \[1.5 in\] below the low oil level mark.
+> [!note] Примечание
+> Если используется новый калибр уровня холостого масла, отрежьте калибр уровня масла примерно на 38 мм \[1,5 дюйма \] ниже отметки низкого уровня масла.
 
 ![[lg8dona.png]]
 
-Wipe off the dipstick and install it in the dipstick tube housing.
+Стирайте калибр уровня масла и устанавливайте его в корпус измерительной трубки уровня масла.
 
-Fill the oil pan to the specified high oil level. Refer to Procedure 018-017 (Lubricating Oil System) in Section V for the correct engine oil capacity.
+Заполните масляную кастрюлю до указанного высокого уровня масла. См. процедуру 018-017 (Система моторного масла) в разделе V для правильной мощности моторного масла.
 
 ![[lg8dowb.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use care when marking the dipstick. The dipstick will break if the scribe mark is too deep.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при маркировке калибра уровня масла. Измеритель уровня масла будет ломаться, если знак писца слишком глубок.
 
-Remove the dipstick and scribe a mark across the stick at the oil level. Label the mark with an "H" to indicate the high oil level.
+Удалите калибр уровня масла и напишите отметку на палке на уровне масла. Нанесите на маркировку знак "H", чтобы указать высокий уровень масла.
 
 ![[lg8donb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Calibrate
+>
+> **Note · Примечание**
+> This procedure **must** begin with the oil pan drained. Refer to Procedure 007-037 (Lubricating Oil System) in Section 7.
+>
+> Install the dipstick in the dipstick tube housing.
+>
+> Use clean engine oil to fill the oil pan to the specified low oil level. Refer to Procedure 018-017 (Lubricating Oil System) in Section V for the correct engine oil capacity.
+>
+> **CAUTION · Осторожно**
+> Use care when marking the dipstick. The dipstick will break if the scribe mark is too deep.
+>
+> Remove the dipstick and scribe a mark across the stick at the oil level.
+>
+> Label the mark with an "L" to indicate the low oil level.
+>
+> **Note · Примечание**
+> If a new blank dipstick is being used, cut the dipstick off approximately 38 mm \[1.5 in\] below the low oil level mark.
+>
+> Wipe off the dipstick and install it in the dipstick tube housing.
+>
+> Fill the oil pan to the specified high oil level. Refer to Procedure 018-017 (Lubricating Oil System) in Section V for the correct engine oil capacity.
+>
+> **CAUTION · Осторожно**
+> Use care when marking the dipstick. The dipstick will break if the scribe mark is too deep.
+>
+> Remove the dipstick and scribe a mark across the stick at the oil level. Label the mark with an "H" to indicate the high oil level.

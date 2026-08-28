@@ -22,7 +22,8 @@ manuals:
   - "3666260"
   - "4021374"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-012-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-012-001.pdf"
 tags:
@@ -31,6 +32,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Air Compressor Air Cleaner Element
@@ -44,10 +46,26 @@ tags:
 > **Даты:** изменён 2004-03-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-012-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-012-001.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-If the air compressor inlet is plumbed to the engine intake air system downstream of the engine intake air filter, an air compressor air cleaner element will **not** be present.
 
-If the air compressor is equipped with an air filter, replace the filter at 250 hours or 6 months.
+### Контроль при обслуживании
+
+Если впуск воздушного компрессора подведен к системе впускного воздуха двигателя ниже по потоку фильтра воздухоочистителя двигателя, элемент воздухоочистителя воздушного компрессора **не** будет присутствовать.
+
+Если воздушный компрессор оснащен фильтром для очистки воздуха, замените его на 250 часов или 6 месяцев.
 
 ![[ac8etga.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> If the air compressor inlet is plumbed to the engine intake air system downstream of the engine intake air filter, an air compressor air cleaner element will **not** be present.
+>
+> If the air compressor is equipped with an air filter, replace the filter at 250 hours or 6 months.

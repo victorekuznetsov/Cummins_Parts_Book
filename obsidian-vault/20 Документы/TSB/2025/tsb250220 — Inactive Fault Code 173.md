@@ -13,13 +13,15 @@ engines:
   - "37295879"
 families:
   - "QST30"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250220.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb250220.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2025"
+  - "перевод/машинный"
   - "тема/electronic-engine-controls"
 ---
 
@@ -33,34 +35,76 @@ tags:
 > **Даты:** выпущен 2025-12-01 · изменён 2025-12-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250220.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb250220.pdf)
 
-## Inactive Fault Code 173
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Неактивный код неисправности 173
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - QST30 CM552
 
-**Issue Summary**
+**Резюме проблемы**
 
-Symptom:
+Симптом:
 
-- Multiple counts of Fault Code 173 will show as inactive after attempting to start the engine.
+- Несколько пунктов кода 173 неисправности будут отображаться как неактивные после попытки запуска двигателя.
 
-Root Cause:
+Первопричина:
 
-- Some calibrations will activate and deactivate this fault code while attempting to start the engine.
+- Некоторые калибровки активируют и деактивируют этот код неисправности при попытке запуска двигателя.
 
-**Verification**
+**Проверка**
 
-This issue applies to engines with engine control module (ECM) Codes K50042.XX, K50204.XX or K50220.XX. Connect to the ECM with recommended Cummins® Electronic Service Tool or equivalent and verify the ECM Code.
+Данная проблема касается двигателей с модулем управления двигателем (ECM) Коды K50042.XX, K50204.XX или K50220.XX. Подключитесь к ECM с помощью рекомендованного инструментария или эквивалента электронного сервиса Cummins® и проверьте код ECM.
 
-**Resolution**
+**Решение**
 
-- If Fault Code 173 continually reappears as inactive, this is a nuisance fault code and can be ignored. If Fault Code173 is showing as active, follow the standard troubleshooting steps.
+- Если код 173 ошибки постоянно появляется как неактивный, это код неисправности, который может быть проигнорирован. Если код 173 ошибки отображается как активный, выполните стандартные шаги по устранению неполадок.
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Inactive Fault Code 173
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - QST30 CM552
+>
+> **Issue Summary**
+>
+> Symptom:
+>
+> - Multiple counts of Fault Code 173 will show as inactive after attempting to start the engine.
+>
+> Root Cause:
+>
+> - Some calibrations will activate and deactivate this fault code while attempting to start the engine.
+>
+> **Verification**
+>
+> This issue applies to engines with engine control module (ECM) Codes K50042.XX, K50204.XX or K50220.XX. Connect to the ECM with recommended Cummins® Electronic Service Tool or equivalent and verify the ECM Code.
+>
+> **Resolution**
+>
+> - If Fault Code 173 continually reappears as inactive, this is a nuisance fault code and can be ignored. If Fault Code173 is showing as active, follow the standard troubleshooting steps.
+>
+> ### Document History

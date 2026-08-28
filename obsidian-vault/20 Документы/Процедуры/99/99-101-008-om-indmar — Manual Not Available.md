@@ -33,7 +33,8 @@ manuals:
   - "4021375"
   - "4021530"
   - "4021539"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-008-om-indmar.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-008-om-indmar.pdf"
 tags:
@@ -45,6 +46,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Manual Not Available
@@ -58,8 +60,24 @@ tags:
 > **Даты:** изменён 2015-01-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-008-om-indmar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-008-om-indmar.pdf)
 
-## **Engine Operating Range ([[99-101-008-om — Engine Operating Range\|99-101-008-om]]-indmar)**
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This procedure is not yet available at the time of publication.
 
-Last Modified: 27-Jan-2015
+## **Дальность действия двигателя (99-101-008-ом-индмар)**
+
+Данная процедура пока не доступна на момент публикации.
+
+Последнее изменение: 27 января 2015 года
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## **Engine Operating Range ([[99-101-008-om — Engine Operating Range\|99-101-008-om]]-indmar)**
+>
+> This procedure is not yet available at the time of publication.
+>
+> Last Modified: 27-Jan-2015

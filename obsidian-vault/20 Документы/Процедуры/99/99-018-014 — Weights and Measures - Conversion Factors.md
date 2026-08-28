@@ -80,7 +80,8 @@ manuals:
   - "4021674"
   - "4021940"
   - "4021942"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-018-014.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-018-014.pdf"
 tags:
@@ -97,6 +98,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Weights and Measures - Conversion Factors
@@ -110,37 +112,82 @@ tags:
 > **Даты:** изменён 2004-03-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-018-014.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-018-014.pdf)
 
-### Conversion Chart
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-| Quantity | U.S. Customary | Metric | From U.S. Customary To Metric Multiply By | From Metric To U.S. Customary Multiply By |  |  |
+
+### Диаграмма конверсии
+
+| Количество | США. обычный | Метрическая система | Из США. Обычный для метрического умножения | От метро до США. обычное умножение на |  |  |
 |---|---|---|---|---|---|---|
-|  | Unit Name | Abbreviation | Unit Name | Abbreviation |  |  |
-| Area | sq. inch | in 2 | sq. millimeters | mm 2 | 645.16 | 0.001550 |
-|  |  | sq. centimeters | cm 2 | 6.452 | 0.155 |  |
-| sq. foot | ft 2 | sq. meter | m 2 | 0.0929 | 10.764 |  |
-| Fuel Consumption | pounds per horsepower hour | lb/hp-hr | grams per kilowatt hour | g/kW-hr | 608.277 | 0.001645 |
-| Fuel Performance | miles per gallon | mpg | kilometers per liter | km/l | 0.4251 | 2.352 |
-| gallons per mile | gpm | liters per kilometer | l/km | 2.352 | 0.4251 |  |
-| Force | pounds force | lbf | Newton | N | 4.4482 | 0.224809 |
-| Length | inch | in | millimeters | mm | 25.40 | 0.039370 |
-| foot | ft | millimeters | mm | 304.801 | 0.00328 |  |
-| Power | horsepower | hp | kilowatt | kW | 0.746 | 1.341 |
-| Pressure | pounds force per sq. inch | psi | kilopascal | kPa | 6.8948 | 0.145037 |
-| inches of mercury | in Hg | kilopascal | kPa | 3.3769 | 0.29613 |  |
-| inches of water | in H 2 O | kilopascal | kPa | 0.2488 | 4.019299 |  |
-| inches of mercury | in Hg | millimeters of mercury | mm Hg | 25.40 | 0.039370 |  |
-| inches of water | in H 2 O | millimeters of water | mm H 2 O | 25.40 | 0.039370 |  |
-| bars | bars | kilopascals | kPa | 100.001 | 0.00999 |  |
-| bars | bars | millimeters of mercury | mm Hg | 750.06 | 0.001333 |  |
-| Temperature | fahrenheit | °F | centigrade | °C | (°F-32) / 1.8 | (1.8 x °C) +32 |
-| Torque | pound force per foot | ft-lb | Newton-meter | N•m | 1.35582 | 0.737562 |
-| pound force per inch | in-lb | Newton-meter | N•m | 0.113 | 8.850756 |  |
-| Velocity | miles/hour | mph | kilometers/hour | kph | 1.6093 | 0.6214 |
-| Volume: liquid displacement | gallon (U.S.) | gal. | liter | l | 3.7853 | 0.264179 |
-| gallon (Imp\*) | gal. | liter | l | 4.546 | 0.219976 |  |
-| cubic inch | in 3 | liter | l | 0.01639 | 61.02545 |  |
-| cubic inch | in 3 | cubic centimeter | cm 3 | 16.387 | 0.06102 |  |
-| Weight (mass) | pounds (avoir.) | lb | kilograms | kg | 0.4536 | 2.204623 |
-| Work | British Thermal Unit | BTU | joules | J | 1054.5 | 0.000948 |
-| British Thermal Unit | BTU | kilowatt-hour | kW-hr | 0.000293 | 3414 |  |
-| horsepower hours | hp-hr | kilowatt-hour | kW-hr | 0.746 | 1.341 |  |
+|  | Имя единицы | Сокращения | Имя единицы | Сокращения |  |  |
+| район | Кв. дюйм | в 2 | Кв. миллиметры | мм 2 | 645.16 | 0.001550 |
+|  |  | Кв. сантиметры | см 2 | 6.452 | 0.155 |  |
+| Кв. нога | фут 2 | Кв. счетчик | м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 м 2 | 0.0929 | 10.764 |  |
+| Расход топлива | фунты за час лошадиной силы | lb/hp-hr | грамм на киловатт-час | g/kW-hr | 608.277 | 0.001645 |
+| Топливная эффективность | Мили на галлон | mpg | километров на литр | км/л | 0.4251 | 2.352 |
+| галлоны на милю | валторна | Литры на километр | л/км | 2.352 | 0.4251 |  |
+| Сила | Сила силы | хулиган | Ньютон | Н. | 4.4482 | 0.224809 |
+| Длина | дюйм | в | миллиметры | мм | 25.40 | 0.039370 |
+| нога | фут | миллиметры | мм | 304.801 | 0.00328 |  |
+| Власть | лошадиная сила | хулиган | киловатт | киловатт | 0.746 | 1.341 |
+| Давление | Сила фунта на кв. дюйм | пси | килопаскаль | каша | 6.8948 | 0.145037 |
+| дюймы ртути | в Hg | килопаскаль | каша | 3.3769 | 0.29613 |  |
+| дюймы воды | В H 2 O | килопаскаль | каша | 0.2488 | 4.019299 |  |
+| дюймы ртути | в Hg | Миллиметры ртути | мм рт. ст. | 25.40 | 0.039370 |  |
+| дюймы воды | В H 2 O | Миллиметры воды | мм Н 2 О | 25.40 | 0.039370 |  |
+| бары | бары | килопаскаль | каша | 100.001 | 0.00999 |  |
+| бары | бары | Миллиметры ртути | мм рт. ст. | 750.06 | 0.001333 |  |
+| температура | Фаренгейт | градус | центростремительный | °C | (°F-32)/1.8 | (1,8 х °C) +32 |
+| торм | Сила фунта за фут | фунт-фут | Ньютонметр | Н•м | 1.35582 | 0.737562 |
+| Сила фунта на дюйм | в фунтах | Ньютонметр | Н•м | 0.113 | 8.850756 |  |
+| Скорость | мили/час | хм | километры/час | хп | 1.6093 | 0.6214 |
+| Объем: вытеснение жидкости | Галлон (США) | Девочка. | литр | л | 3.7853 | 0.264179 |
+| Галлон (Imp\*) | Девочка. | литр | л | 4.546 | 0.219976 |  |
+| кубический дюйм | в 3 | литр | л | 0.01639 | 61.02545 |  |
+| кубический дюйм | в 3 | кубический сантиметр | см 3 | 16.387 | 0.06102 |  |
+| Вес (масса) | Фунты (авуар). | лямблия | килограмм | кг | 0.4536 | 2.204623 |
+| Работа | Британская тепловая единица | БТУ | джоули | Джей | 1054.5 | 0.000948 |
+| Британская тепловая единица | БТУ | киловатт-час | кВтч | 0.000293 | 3414 |  |
+| лошадиные силы | hp-hr | киловатт-час | кВтч | 0.746 | 1.341 |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Conversion Chart
+>
+> | Quantity | U.S. Customary | Metric | From U.S. Customary To Metric Multiply By | From Metric To U.S. Customary Multiply By |  |  |
+> |---|---|---|---|---|---|---|
+> |  | Unit Name | Abbreviation | Unit Name | Abbreviation |  |  |
+> | Area | sq. inch | in 2 | sq. millimeters | mm 2 | 645.16 | 0.001550 |
+> |  |  | sq. centimeters | cm 2 | 6.452 | 0.155 |  |
+> | sq. foot | ft 2 | sq. meter | m 2 | 0.0929 | 10.764 |  |
+> | Fuel Consumption | pounds per horsepower hour | lb/hp-hr | grams per kilowatt hour | g/kW-hr | 608.277 | 0.001645 |
+> | Fuel Performance | miles per gallon | mpg | kilometers per liter | km/l | 0.4251 | 2.352 |
+> | gallons per mile | gpm | liters per kilometer | l/km | 2.352 | 0.4251 |  |
+> | Force | pounds force | lbf | Newton | N | 4.4482 | 0.224809 |
+> | Length | inch | in | millimeters | mm | 25.40 | 0.039370 |
+> | foot | ft | millimeters | mm | 304.801 | 0.00328 |  |
+> | Power | horsepower | hp | kilowatt | kW | 0.746 | 1.341 |
+> | Pressure | pounds force per sq. inch | psi | kilopascal | kPa | 6.8948 | 0.145037 |
+> | inches of mercury | in Hg | kilopascal | kPa | 3.3769 | 0.29613 |  |
+> | inches of water | in H 2 O | kilopascal | kPa | 0.2488 | 4.019299 |  |
+> | inches of mercury | in Hg | millimeters of mercury | mm Hg | 25.40 | 0.039370 |  |
+> | inches of water | in H 2 O | millimeters of water | mm H 2 O | 25.40 | 0.039370 |  |
+> | bars | bars | kilopascals | kPa | 100.001 | 0.00999 |  |
+> | bars | bars | millimeters of mercury | mm Hg | 750.06 | 0.001333 |  |
+> | Temperature | fahrenheit | °F | centigrade | °C | (°F-32) / 1.8 | (1.8 x °C) +32 |
+> | Torque | pound force per foot | ft-lb | Newton-meter | N•m | 1.35582 | 0.737562 |
+> | pound force per inch | in-lb | Newton-meter | N•m | 0.113 | 8.850756 |  |
+> | Velocity | miles/hour | mph | kilometers/hour | kph | 1.6093 | 0.6214 |
+> | Volume: liquid displacement | gallon (U.S.) | gal. | liter | l | 3.7853 | 0.264179 |
+> | gallon (Imp\*) | gal. | liter | l | 4.546 | 0.219976 |  |
+> | cubic inch | in 3 | liter | l | 0.01639 | 61.02545 |  |
+> | cubic inch | in 3 | cubic centimeter | cm 3 | 16.387 | 0.06102 |  |
+> | Weight (mass) | pounds (avoir.) | lb | kilograms | kg | 0.4536 | 2.204623 |
+> | Work | British Thermal Unit | BTU | joules | J | 1054.5 | 0.000948 |
+> | British Thermal Unit | BTU | kilowatt-hour | kW-hr | 0.000293 | 3414 |  |
+> | horsepower hours | hp-hr | kilowatt-hour | kW-hr | 0.746 | 1.341 |  |

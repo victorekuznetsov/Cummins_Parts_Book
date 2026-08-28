@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc166.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc166.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Fuel Rack Position 1 Sensor Circuit - Voltage Above Normal or Shorted to High Source
@@ -34,58 +36,122 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc166.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc166.pdf)
 
-### Fault Code: 166
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Fuel Rack Position 1 Sensor Circuit - Voltage Above Normal or Shorted to High Source
 
-Printable Version
+### Код неисправности: 166
 
-### Overview
+### Цепь датчика положения рейки 1 — напряжение выше нормы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 166 PID(P): S24 SPN: 1210 FMI: 3/3 Lamp: Amber SRT: | High signal voltage detected on the fuel rack position sensor signal circuit. | Possible reduced engine performance. |
+| Код неисправности: 166 PID (P): S24 SPN: 1210 FMI: 3/3 лампы: Янтарная СРТ: | Высокое напряжение сигнала, обнаруженное на цепи сигнала датчика положения топливной стойки. | Возможно снижение производительности двигателя. |
 
 ![[19a00845.png]]
 
-Fuel Rack Position Sensor Circuit
+Сенсорная схема положения топливного стойка
 
-### Circuit Description
+### Описание цепи
 
-The fuel rack position sensor circuit is supplied with a varying current source from the ECM. The fuel rack position uses this current to change the position of the control rack, which regulates the amount of fuel delivered from the fuel pump. The fuel rack position feedback sensor circuit relays the fuel rack position back to the ECM.
+Схема датчика положения топливной стойки снабжена источником переменного тока от ECM. Положение топливной стойки использует этот ток для изменения положения управляющей стойки, которая регулирует количество топлива, подаваемого от топливного насоса. Схема датчика обратной связи положения топливной стойки ретранслирует положение топливной стойки обратно в ECM.
 
-### Component Location
+### Расположение компонента
 
-The fuel rack position sensor is internal to the fuel pump.
+Датчик положения топливной стойки является внутренним для топливного насоса.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+Эта диагностика выполняется постоянно, пока контроллер генераторной установки активен или двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the fuel rack position sensor circuit voltage is out of range high.
+Модуль управления двигателем (ECM) обнаружил, что напряжение цепи датчика положения топливной стойки находится вне диапазона.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-- Damaged or malfunctioning fuel rack position sensor
+- Поврежденный или неисправный датчик положения топливной стойки
 
-- Damaged or loose connections.
+- Поврежденные или рыхлые связи.
 
-Refer to Troubleshooting Fault Code 166.
+См. код 166 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 166
+>
+> ### Fuel Rack Position 1 Sensor Circuit - Voltage Above Normal or Shorted to High Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 166 PID(P): S24 SPN: 1210 FMI: 3/3 Lamp: Amber SRT: | High signal voltage detected on the fuel rack position sensor signal circuit. | Possible reduced engine performance. |
+>
+> Fuel Rack Position Sensor Circuit
+>
+> ### Circuit Description
+>
+> The fuel rack position sensor circuit is supplied with a varying current source from the ECM. The fuel rack position uses this current to change the position of the control rack, which regulates the amount of fuel delivered from the fuel pump. The fuel rack position feedback sensor circuit relays the fuel rack position back to the ECM.
+>
+> ### Component Location
+>
+> The fuel rack position sensor is internal to the fuel pump.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the fuel rack position sensor circuit voltage is out of range high.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> - Damaged or malfunctioning fuel rack position sensor
+>
+> - Damaged or loose connections.
+>
+> Refer to Troubleshooting Fault Code 166.

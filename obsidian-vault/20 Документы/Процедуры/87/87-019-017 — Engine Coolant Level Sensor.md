@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666214"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-017.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-019-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
+  - "перевод/машинный"
 ---
 
 # Engine Coolant Level Sensor
@@ -34,31 +36,62 @@ tags:
 > **Даты:** изменён 2010-08-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-019-017.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 
-Remove the radiator cap. Drain enough coolant from the cooling system to empty the radiator top tank. Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+### Снятие
+
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+Снимите крышку радиатора. Слить достаточно охлаждающей жидкости из системы охлаждения, чтобы опорожнить верхний резервуар радиатора. Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[ra800qa.png]]
 
-Lift up on the locking tab and pull the electrical connectors apart.
+Поднимите на запирающую вкладку и разберите электрические разъемы.
 
-Remove the sensor.
+Удалите датчик.
 
 ![[19900755.png]]
 
-### Install
+### Установка
 
-Install and tighten the new sensor according to the vehicle manufacturer's instructions.
+Установите и затяните новый датчик в соответствии с инструкциями производителя автомобиля.
 
 ![[19900756.png]]
 
-Push the electrical connectors together until they lock.
+Скрепляйте электрические разъемы, пока они не заблокируются.
 
-Fill the cooling system and check for leaks.
+Заполните систему охлаждения и проверьте наличие утечек.
 
-Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+Используйте следующую процедуру в руководстве по обслуживанию QST30, в бюллетене [[4021539 — QST30 Service Manual\|4021539]].[[57-008-018 — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[19900755.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> Remove the radiator cap. Drain enough coolant from the cooling system to empty the radiator top tank. Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+>
+> Lift up on the locking tab and pull the electrical connectors apart.
+>
+> Remove the sensor.
+>
+> ### Install
+>
+> Install and tighten the new sensor according to the vehicle manufacturer's instructions.
+>
+> Push the electrical connectors together until they lock.
+>
+> Fill the cooling system and check for leaks.
+>
+> Use the following procedure in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]]. [[57-008-018 — Cooling System|Refer to Procedure 008-018 in Section 8.]]

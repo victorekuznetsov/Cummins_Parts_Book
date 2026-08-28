@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1383.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1383.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold 1 Pressure Sensor Circuit - Voltage Above Normal or Shorted to High Source
@@ -34,60 +36,126 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1383.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1383.pdf)
 
-### Fault Code: 1383
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold 1 Pressure Sensor Circuit - Voltage Above Normal or Shorted to High Source
 
-Printable Version
+### Код неисправности: 1383
 
-### Overview
+### Цепь датчика давления коллектора 1 — напряжение выше нормы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1383 PID(P): P102 SPN: 102 FMI: 3/3 Lamp: Maintenance SRT: | High signal voltage detected at the intake manifold 1 pressure sensor circuit. | Possible reduced engine performance. |
+| Код неисправности: 1383 PID(P): P102 SPN: 102 FMI: 3/3 лампы: Обслуживание SRT: | Высокое напряжение сигнала, обнаруженное на цепи датчика давления впускного коллектора 1. | Возможно снижение производительности двигателя. |
 
 ![[19a00894.png]]
 
-Intake Manifold 1 Pressure Sensor Circuit.
+Манифольд 1 Схема датчика давления.
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold pressure sensor is a variable resistance sensor used by the ECM to monitor the intake manifold pressure. The intake manifold pressure sensor has three circuits: 5 volt supply, return and signal circuits. The signal circuit voltage indicates the charged air pressure in the intake manifold.
+Датчик давления впускного коллектора представляет собой датчик переменного сопротивления, используемый ECM для мониторинга давления впускного коллектора. Датчик давления впускного коллектора имеет три схемы: 5-вольтная цепь подачи, возврата и сигнала. Напряжение цепи сигнала указывает на заряженное давление воздуха во впускном коллекторе.
 
-### Component Location
+### Расположение компонента
 
-The intake manifold 1 pressure sensor is located in the right bank intake manifold.
+Датчик давления впускного коллектора 1 расположен в правом береге впускного коллектора.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+Эта диагностика выполняется постоянно, пока контроллер генераторной установки активен или двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the intake manifold 1 pressure sensor signal voltage is out of range high.
+Модуль управления двигателем (ECM) обнаружил, что напряжение сигнала датчика давления 1 впускного коллектора находится вне диапазона.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
 
-- Intake manifold 2 pressure sensor is used for intake manifold pressure reading.
+- Датчик давления коллектора 2 используется для считывания давления коллектора впуска.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the warning indicator immediately after the user presses reset.
+- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when Cummins® electronic service tool or equivalent is connected. When troubleshooting a fault code, use the source address displayed in Cummins® electronic service tool or equivalent to determine which ECM and circuit is affected.
+У моделей двигателей, охваченных этим руководством, несколько электронных блоков управления. Каждый ECM имеет индивидуальный адрес источника, который отображается при подключении электронного инструментария или эквивалента Cummins®. При устранении неисправности кода используйте адрес источника, отображаемый в инструменте электронного обслуживания Cummins® или эквивалент, чтобы определить, какая ECM и схема затронута.
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning intake manifold 1 pressure sensor.
+- Неисправный впускной коллектор 1 датчик давления.
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-Refer to Troubleshooting Fault Code 1383.
+См. Troubleshooting Fault Code 1383.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1383
+>
+> ### Intake Manifold 1 Pressure Sensor Circuit - Voltage Above Normal or Shorted to High Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1383 PID(P): P102 SPN: 102 FMI: 3/3 Lamp: Maintenance SRT: | High signal voltage detected at the intake manifold 1 pressure sensor circuit. | Possible reduced engine performance. |
+>
+> Intake Manifold 1 Pressure Sensor Circuit.
+>
+> ### Circuit Description
+>
+> The intake manifold pressure sensor is a variable resistance sensor used by the ECM to monitor the intake manifold pressure. The intake manifold pressure sensor has three circuits: 5 volt supply, return and signal circuits. The signal circuit voltage indicates the charged air pressure in the intake manifold.
+>
+> ### Component Location
+>
+> The intake manifold 1 pressure sensor is located in the right bank intake manifold.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active or when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the intake manifold 1 pressure sensor signal voltage is out of range high.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
+>
+> - Intake manifold 2 pressure sensor is used for intake manifold pressure reading.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when Cummins® electronic service tool or equivalent is connected. When troubleshooting a fault code, use the source address displayed in Cummins® electronic service tool or equivalent to determine which ECM and circuit is affected.
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning intake manifold 1 pressure sensor.
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> Refer to Troubleshooting Fault Code 1383.

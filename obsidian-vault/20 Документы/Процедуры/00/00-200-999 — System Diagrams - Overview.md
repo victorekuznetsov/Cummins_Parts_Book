@@ -52,7 +52,8 @@ manuals:
   - "4021530"
   - "4021940"
   - "4021942"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-200-999.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-200-999.pdf"
 tags:
@@ -68,6 +69,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # System Diagrams - Overview
@@ -81,15 +83,38 @@ tags:
 > **Даты:** изменён 2003-04-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-200-999.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-200-999.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The following drawings show the flow through the engine systems. Although parts can change between different applications and installations, the flow remains the same. The systems shown are:
 
-- Fuel System
-- Lubricating Oil System
-- Coolant System
-- Intake Air System
-- Exhaust System
-- Compressed Air System.
+### Общие сведения
 
-Knowledge of the engine systems can help you in troubleshooting, service, and general maintenance of your engine.
+На следующих чертежах показан поток через системы двигателя. Хотя детали могут меняться между различными приложениями и установками, поток остается неизменным. Показанными системами являются:
+
+- Топливная система
+- Система смазки
+- Система охлаждения
+- Система Intake Air
+- Система выпуска
+- Система сжатого воздуха.
+
+Знание систем двигателя может помочь вам в устранении неполадок, обслуживании и общем обслуживании вашего двигателя.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The following drawings show the flow through the engine systems. Although parts can change between different applications and installations, the flow remains the same. The systems shown are:
+>
+> - Fuel System
+> - Lubricating Oil System
+> - Coolant System
+> - Intake Air System
+> - Exhaust System
+> - Compressed Air System.
+>
+> Knowledge of the engine systems can help you in troubleshooting, service, and general maintenance of your engine.

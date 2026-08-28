@@ -17,7 +17,8 @@ manuals:
   - "3666003"
   - "3666087"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-126.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-010-126.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/6B5.9"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Air Heater Solenoid Switch
@@ -38,54 +40,98 @@ tags:
 > **Даты:** изменён 2003-08-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-126.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-010-126.pdf)
 
-### Resistance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Disconnect the ground cable from the battery terminal.
+
+### Проверка сопротивления
+
+Отсоедините наземный кабель от аккумуляторного терминала.
 
 ![[ee8comk.png]]
 
-Label and remove the leads on the air heater solenoid(s) to be tested.
+Нанесите этикетку и удалите провода на нагреватель воздуха соленоид(ы), подлежащие испытанию.
 
 ![[10900299.png]]
 
-Use an multimeter to check the continuity between the small terminals at the base of the solenoid.
+Используйте мультиметр для проверки непрерывности между небольшими терминалами в основании соленоида.
 
-Continuity: 50 to 100 ohms
+Непрерывность: 50-100 Ом
 
 ![[10900300.png]]
 
-If the circuit is open, replace the solenoid.
+Если схема открыта, замените соленоид.
 
 ![[10900301.png]]
 
-Check for continuity between the two large terminals on the top of the solenoids.
+Проверьте непрерывность между двумя большими терминалами на вершине соленоидов.
 
-The multimeter should indicate an open circuit.
+Мультиметр должен указывать на открытую схему.
 
 ![[10900302.png]]
 
-If any resistance or continuity is detected, replace the solenoids.
+Если обнаруживается какое-либо сопротивление или непрерывность, замените соленоиды.
 
 ![[10900301.png]]
 
-### Test
+### Проверка
 
-Check the solenoid for proper operation.
+Проверьте соленоид на предмет правильной работы.
 
-Connect an multimeter to the two large terminals.
+Подключите мультиметр к двум большим терминалам.
 
-Ground one of the small terminals to the battery ground.
+Наземьте один из небольших терминалов на землю батареи.
 
-Apply system voltage to the other small terminal.
+Примените напряжение системы к другому маленькому терминалу.
 
-The multimeter should indicate zero ohms.
+Мультиметр должен обозначать ноль ом.
 
 ![[10900303.png]]
 
-If the multimeter detects an open circuit, replace the solenoid.
+Если мультиметр обнаруживает открытую цепь, замените соленоид.
 
 ![[10900301.png]]
 
-Reconnect the ground cable to the battery terminal.
+Подсоедините наземный кабель к терминалу батареи.
 
 ![[ea8coha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Resistance Check
+>
+> Disconnect the ground cable from the battery terminal.
+>
+> Label and remove the leads on the air heater solenoid(s) to be tested.
+>
+> Use an multimeter to check the continuity between the small terminals at the base of the solenoid.
+>
+> Continuity: 50 to 100 ohms
+>
+> If the circuit is open, replace the solenoid.
+>
+> Check for continuity between the two large terminals on the top of the solenoids.
+>
+> The multimeter should indicate an open circuit.
+>
+> If any resistance or continuity is detected, replace the solenoids.
+>
+> ### Test
+>
+> Check the solenoid for proper operation.
+>
+> Connect an multimeter to the two large terminals.
+>
+> Ground one of the small terminals to the battery ground.
+>
+> Apply system voltage to the other small terminal.
+>
+> The multimeter should indicate zero ohms.
+>
+> If the multimeter detects an open circuit, replace the solenoid.
+>
+> Reconnect the ground cable to the battery terminal.

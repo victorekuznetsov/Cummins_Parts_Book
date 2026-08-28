@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc223.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc223.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Burn Valve Solenoid Fault
@@ -34,28 +36,62 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc223.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc223.pdf)
 
-### Fault Code: 223
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Burn Valve Solenoid Fault
 
-Printable Version
+### Код неисправности: 223
 
-### Overview
+### Неисправность электромагнита клапана впрыска масла
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 223 PID(P): S085 SPN: 1265 FMI: 4/4 Lamp: Yellow SRT: | Incorrect voltage detected at the Centinel™ actuator circuit by the ECM. | None on performance. Centinel™ deactivated. |
+| Код неисправности: 223 PID(P): S085 SPN: 1265 FMI: 4/4 лампы: Желтая СТО: | Неправильное напряжение, обнаруженное в цепи привода CentinelTM ECM. | Ни одного на выступление. CentinelTM деактивирован. |
 
 ![[19c00572.png]]
 
-Burn Valve Solenoid
+Сжигать соленоиды клапан
 
-### Circuit Description
+### Описание цепи
 
-The burn valve solenoid controls the flow of oil into the fuel drainline during the burn cycle.
+Сгорающий клапан соленоид контролирует поток масла в дренажную линию топлива во время цикла горения.
 
-### Component Location
+### Расположение компонента
 
-The burn valve solenoid is on top of the oil control valve. The oil control valve is on the left side of the engine below the fuel delivery housing.
+Сложный соленоид находится поверх клапана управления маслом. Клапан управления маслом находится на левой стороне двигателя ниже корпуса подачи топлива.
 
-Refer to Troubleshooting Fault Code t05-223
+См. Код устранения неполадок t05-223
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 223
+>
+> ### Burn Valve Solenoid Fault
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 223 PID(P): S085 SPN: 1265 FMI: 4/4 Lamp: Yellow SRT: | Incorrect voltage detected at the Centinel™ actuator circuit by the ECM. | None on performance. Centinel™ deactivated. |
+>
+> Burn Valve Solenoid
+>
+> ### Circuit Description
+>
+> The burn valve solenoid controls the flow of oil into the fuel drainline during the burn cycle.
+>
+> ### Component Location
+>
+> The burn valve solenoid is on top of the oil control valve. The oil control valve is on the left side of the engine below the fuel delivery housing.
+>
+> Refer to Troubleshooting Fault Code t05-223

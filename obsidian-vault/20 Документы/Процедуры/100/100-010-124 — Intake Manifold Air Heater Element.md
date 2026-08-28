@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666003"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-124.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-010-124.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Air Heater Element
@@ -34,64 +36,116 @@ tags:
 > **Даты:** изменён 2003-08-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-124.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-010-124.pdf)
 
-### Resistance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Disconnect the ground cable from the battery. Remove all wires from the intake manifold air heater.
+
+### Проверка сопротивления
+
+Отсоедините наземный кабель от батареи. Удалите все провода из впускного коллектора воздушного обогревателя.
 
 ![[10900304.png]]
 
-Use an ohmmeter to check the resistance across both terminals.
+Используйте омметр для проверки сопротивления на обоих терминалах.
 
 ![[10900305.png]]
 
-Use an ohmmeter to check the resistance from the ground of each positive heater terminal.
+Используйте омметр для проверки сопротивления от земли каждого положительного клемма нагревателя.
 
-The resistance should indicate zero ohms.
+Сопротивление должно указывать ноль омов.
 
-If high ohms are indicated, inspect and clean or repair all heater electrical connections and grounds and recheck for zero ohms.
+Если указаны высокие омы, проверьте и очистите или отремонтируйте все электрические соединения и основания нагревателя и перепроверьте на нулевые омы.
 
-1. Meter reads zero = good heater (both elements)
-2. Meter does **not** move = defective heater
-3. Meter indicates, but **not** zero = dirty or corroded connections. Clean and repair, as necessary.
+1. Метр считывает ноль = хороший нагреватель (оба элемента)
+2. Метр **не*** перемещается = дефектный нагреватель
+3. Метр указывает, но **не** ноль = грязные или разъединенные соединения. Чистить и ремонтировать, по мере необходимости.
 
 ![[10900306.png]]
 
-Check the resistance from the ground wire to a known good ground.
+Проверьте сопротивление от проволоки до известной хорошей земли.
 
-The reading should be less than 10 ohms. If **not**, replace the heater ground wire.
+Чтение должно быть менее 10 Ом. Если **не**, замените наземный провод нагревателя.
 
 ![[10900307.png]]
 
-### Remove
+### Снятие
 
-Remove all three electrical leads from the intake manifold heater.
+Удалите все три электрических провода из впускного коллектора.
 
 ![[10900304.png]]
 
-Remove the four capscrews that attach the air-crossover connection and heater.
+Удалите четыре болта, которые крепят соединение и нагреватель воздух-кроссовер.
 
 ![[10900308.png]]
 
-Remove the heater and gaskets.
+Удалите обогреватель и прокладки.
 
-Clean the mounting surface.
+Очистите монтажную поверхность.
 
 ![[10900309.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Check the intake manifold heater leads and grids for corrosion and damage.
+Проверьте впускной коллектор нагревателя проводов и сетки для коррозии и повреждения.
 
 ![[10900310.png]]
 
-### Install
+### Установка
 
-Install new gaskets and the intake manifold heater.
+Установите новые прокладки и впускной коллекторный нагреватель.
 
-Install the four capscrews and the single black (ground) heater lead.
+Установите четыре болта и один черный (земляной) нагреватель свинца.
 
 ![[10900308.png]]
 
-Install the intake manifold heater leads on the terminals.
+Установите впускной коллектор на клеммах.
 
 ![[10900304.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Resistance Check
+>
+> Disconnect the ground cable from the battery. Remove all wires from the intake manifold air heater.
+>
+> Use an ohmmeter to check the resistance across both terminals.
+>
+> Use an ohmmeter to check the resistance from the ground of each positive heater terminal.
+>
+> The resistance should indicate zero ohms.
+>
+> If high ohms are indicated, inspect and clean or repair all heater electrical connections and grounds and recheck for zero ohms.
+>
+> 1. Meter reads zero = good heater (both elements)
+> 2. Meter does **not** move = defective heater
+> 3. Meter indicates, but **not** zero = dirty or corroded connections. Clean and repair, as necessary.
+>
+> Check the resistance from the ground wire to a known good ground.
+>
+> The reading should be less than 10 ohms. If **not**, replace the heater ground wire.
+>
+> ### Remove
+>
+> Remove all three electrical leads from the intake manifold heater.
+>
+> Remove the four capscrews that attach the air-crossover connection and heater.
+>
+> Remove the heater and gaskets.
+>
+> Clean the mounting surface.
+>
+> ### Inspect for Reuse
+>
+> Check the intake manifold heater leads and grids for corrosion and damage.
+>
+> ### Install
+>
+> Install new gaskets and the intake manifold heater.
+>
+> Install the four capscrews and the single black (ground) heater lead.
+>
+> Install the intake manifold heater leads on the terminals.

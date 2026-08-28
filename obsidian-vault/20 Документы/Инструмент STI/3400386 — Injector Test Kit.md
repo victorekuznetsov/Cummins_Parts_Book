@@ -19,7 +19,8 @@ families:
   - "QSK19"
   - "QSK50"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400386.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400386.pdf"
 tags:
@@ -27,6 +28,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "двигатель/QSK50"
+  - "перевод/машинный"
 ---
 
 # Injector Test Kit
@@ -38,25 +40,56 @@ tags:
 > **Даты:** выпущен 2010-11-02 · изменён 2011-01-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400386.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400386.pdf)
 
-### Description
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Injector Test Kit
 
-### Purpose
+### Наименование
 
-This document provides information for injector test kit, Part Number 2892293. The kit is used to test all Modular Common Rail System (MCRS) injectors to determine if the solenoid is functioning properly.
+Комплект для проверки форсунок
 
-Use the following procedures for instructions on use of the Injector Test Kit.
+### Назначение
 
-- [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6 in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592.]]
-- [[28-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6 in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528.]]
-- [[56-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6 in the QSK45 and QSK60 Service Manual, Bulletin 4021530.]]
+В настоящем документе приводится информация для комплекта для испытания форсунки, номер детали 2892293. Набор используется для тестирования всей форсунки модульной общей железнодорожной системы (MCRS), чтобы определить, правильно ли работает соленоид.
+
+Используйте следующие процедуры для инструкций по использованию форсунки Test Kit.
+
+- [[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6 в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin 4021592.]]
+- [[28-006-026-tr — Injector|См. процедуру 006-026 в разделе 6 в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене 4021528.]]
+- См. процедуру 006-026 в разделе 6 в Руководстве по обслуживанию QSK45 и QSK60, Вестник [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 
 ![[22e00042.png]]
 
-| Table 1, Injector Test Kit, Part Number 2892293 |  |  |  |
+| Таблица 1, комплект для испытания форсунки, номер детали 2892293 |  |  |  |
 |---|---|---|---|
-| Item Number | Part Number | Description | Quantity |
-| 1 | 2892294 | Injector tester | 1 |
-| 2 | 2892295 | Electrical wiring harness | 1 |
-| Not Shown | 2892302 | Storage Case | 1 |
+| Номер позиции | Номер детали | Наименование | Количество |
+| 1 | 2892294 | Испытатель форсунки | 1 |
+| 2 | 2892295 | Электропроводка жгута | 1 |
+| Не показан | 2892302 | Случай хранения | 1 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Description
+>
+> Injector Test Kit
+>
+> ### Purpose
+>
+> This document provides information for injector test kit, Part Number 2892293. The kit is used to test all Modular Common Rail System (MCRS) injectors to determine if the solenoid is functioning properly.
+>
+> Use the following procedures for instructions on use of the Injector Test Kit.
+>
+> - [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6 in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin 4021592.]]
+> - [[28-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6 in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin 4021528.]]
+> - [[56-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6 in the QSK45 and QSK60 Service Manual, Bulletin 4021530.]]
+>
+> | Table 1, Injector Test Kit, Part Number 2892293 |  |  |  |
+> |---|---|---|---|
+> | Item Number | Part Number | Description | Quantity |
+> | 1 | 2892294 | Injector tester | 1 |
+> | 2 | 2892295 | Electrical wiring harness | 1 |
+> | Not Shown | 2892302 | Storage Case | 1 |

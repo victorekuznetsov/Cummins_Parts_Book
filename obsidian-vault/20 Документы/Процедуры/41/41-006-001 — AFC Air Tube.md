@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666003"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-006-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-006-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # AFC Air Tube
@@ -34,36 +36,72 @@ tags:
 > **Даты:** изменён 2003-08-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-006-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-006-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The AFC (air-fuel control) tube allows intake manifold pressure to adjust the fuel metering. Therefore, if the engine is equipped with a turbocharger, the fuel pump meters more fuel for additional horsepower.
+
+### Общие сведения
+
+Трубка AFC (контроль над воздушным топливом) позволяет регулировать давление впускного коллектора для учета топлива. Поэтому, если двигатель оснащен турбокомпрессором, топливный насос измерит больше топлива для дополнительной лошадиной силы.
 
 ![[cp900ma.png]]
 
-### Remove
+### Снятие
 
-Remove the AFC tube.
+Удалите трубку AFC.
 
 ![[cp900ma.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the rubber sealing washers.
+Проверьте резиновые уплотнительные шайбы.
 
-Replace as necessary.
+Заменить по мере необходимости.
 
 ![[ft9wasa.png]]
 
-### Install
+### Установка
 
-Use new copper washers for the banjo fitting.
+Используйте новые медные шайбы для банджо.
 
-Install the AFC tube.
+Установите трубку AFC.
 
-| Banjo Fitting | 24 n.m | \[18 ft-lb\] |
+| Банджо Фиттинг | 24 Н·м | [18 фунт-фут] |
 |---|---|---|
 
-| Threaded Fitting | 8 n.m | \[71 in-lb\] |
+| стойкая фитинговая | 8 Н·м | [71 фунт-дюйм] |
 |---|---|---|
 
 ![[cp900ma.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The AFC (air-fuel control) tube allows intake manifold pressure to adjust the fuel metering. Therefore, if the engine is equipped with a turbocharger, the fuel pump meters more fuel for additional horsepower.
+>
+> ### Remove
+>
+> Remove the AFC tube.
+>
+> ### Inspect for Reuse
+>
+> Inspect the rubber sealing washers.
+>
+> Replace as necessary.
+>
+> ### Install
+>
+> Use new copper washers for the banjo fitting.
+>
+> Install the AFC tube.
+>
+> | Banjo Fitting | 24 n.m | \[18 ft-lb\] |
+> |---|---|---|
+>
+> | Threaded Fitting | 8 n.m | \[71 in-lb\] |
+> |---|---|---|

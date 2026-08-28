@@ -13,13 +13,15 @@ families:
   - "C8.3 · 6C8.3"
 manuals:
   - "3381968"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-018-020-om-mar.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-018-020-om-mar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Exhaust System
@@ -33,7 +35,22 @@ tags:
 > **Даты:** изменён 2007-05-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-018-020-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-018-020-om-mar.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-| Maximum Allowable Exhaust Back Pressure | 75 mm Hg \[3 in Hg\] |
+
+### Спецификации
+
+| Максимально допустимое давление обратного выхлопа | 75 мм рт.ст. \[3 в рт.ст.] |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> | Maximum Allowable Exhaust Back Pressure | 75 mm Hg \[3 in Hg\] |
+> |---|---|

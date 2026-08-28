@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666184"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-066.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-066.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/94"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Pressure Sensor
@@ -34,23 +36,50 @@ tags:
 > **Даты:** изменён 2003-03-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-066.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Lift up on the tab and disconnect the connector from the sensor.
 
-Remove the sensor from the engine block. Use a deep flank drive socket, Part No. 3823843.
+### Снятие
+
+Поднимите на вкладку и отсоедините разъем от датчика.
+
+Удалите датчик из блока двигателя. Используйте розетку с глубоким флангом, номер детали. 3823843.
 
 ![[19400437.png]]
 
-### Install
+### Установка
 
-Make sure the new sensor has an o-ring around the surface where it seals against the engine block.
+Убедитесь, что новый датчик имеет кольцо вокруг поверхности, где он уплотняет блок двигателя.
 
-Install the sensor in the engine block.
+Установите датчик в блок двигателя.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [10 ft-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [10 фунт-фут]
 
-Push the connectors together until they lock.
+Соедините разъёмы до фиксации.
 
 ![[19400438.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Lift up on the tab and disconnect the connector from the sensor.
+>
+> Remove the sensor from the engine block. Use a deep flank drive socket, Part No. 3823843.
+>
+> ### Install
+>
+> Make sure the new sensor has an o-ring around the surface where it seals against the engine block.
+>
+> Install the sensor in the engine block.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [10 ft-lb]
+>
+> Push the connectors together until they lock.

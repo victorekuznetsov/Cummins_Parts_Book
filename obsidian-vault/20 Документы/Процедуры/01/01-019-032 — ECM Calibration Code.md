@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-032.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-032.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # ECM Calibration Code
@@ -34,23 +36,46 @@ tags:
 > **Даты:** изменён 2002-12-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-032.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-032.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-ECM calibrations can be performed by the electronic software database and network.
+
+### Общие сведения
+
+Калибровку ECM можно проводить с помощью электронной базы данных программного обеспечения и сети.
 
 ![[19800902.png]]
 
-The ECM calibration process for the engine occurs with the Run/Stop switch in the Stop position. **Always** follow the instructions on the service tool screens.
+Процесс калибровки ECM для двигателя происходит с выключателем Run/Stop в положении Stop. Всегда следуйте инструкциям на экранах инструментов сервиса.
 
-> [!note] Note · Примечание
-> If the tool will **not** communicate, disconnect the service harness, and reconnect it again to make sure all connections are good.
+> [!note] Примечание
+> Если инструмент будет **не** общаться, отсоедините упряжку служебной проводов и снова подключите ее, чтобы убедиться, что все соединения хороши.
 
 ![[19600070.png]]
 
-Connect the electronic service tool to the service tool datalink, which is located on the engine.
+Подключите инструмент электронного сервиса к шине данных CAN, которая расположена на двигателе.
 
 ![[19800902.png]]
 
-Refer to the INPOWER™ user's manual for detailed ECM calibration procedures.
+См. руководство пользователя INPOWERTM для подробных процедур калибровки ECM.
 
 ![[19800902.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> ECM calibrations can be performed by the electronic software database and network.
+>
+> The ECM calibration process for the engine occurs with the Run/Stop switch in the Stop position. **Always** follow the instructions on the service tool screens.
+>
+> **Note · Примечание**
+> If the tool will **not** communicate, disconnect the service harness, and reconnect it again to make sure all connections are good.
+>
+> Connect the electronic service tool to the service tool datalink, which is located on the engine.
+>
+> Refer to the INPOWER™ user's manual for detailed ECM calibration procedures.

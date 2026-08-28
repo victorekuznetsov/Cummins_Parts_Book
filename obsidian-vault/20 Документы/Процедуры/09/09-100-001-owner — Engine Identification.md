@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021631"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/09/09-100-001-owner.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/09-100-001-owner.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/09"
+  - "перевод/машинный"
 ---
 
 # Engine Identification
@@ -34,36 +36,72 @@ tags:
 > **Даты:** изменён 2006-10-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/09/09-100-001-owner.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/09-100-001-owner.pdf)
 
-### Engine Dataplate
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The engine dataplate provides the model identification and other important information about the engine.
 
-The engine serial number and CPL provides data for ordering parts and service.
+### Заводская табличка двигателя
 
-The dataplate is located on the fuel pump side of engine on the rocker lever housing.
+Диаграмма двигателя обеспечивает идентификацию модели и другую важную информацию о двигателе.
+
+Серийный номер двигателя и CPL предоставляют данные для заказа деталей и обслуживания.
+
+Табличка расположена на стороне топливного насоса двигателя на корпусе рычага качения клапанного клапана.
 
 ![[oi1plgc.png]]
 
-The following information on the dataplate is mandatory when sourcing service parts.
+Следующая информация на табличке данных является обязательной при поиске деталей обслуживания.
 
-(1) Engine Serial Number
+(1) Серийный номер двигателя
 
-(2) Control Parts List
+(2) Контрольные части списка
 
-(3) Model.
+3 Модель.
 
 ![[ap8plgb.png]]
 
-### Fuel Pump Dataplate
+### Таблица данных топливного насоса
 
-The fuel pump dataplate is located on the top of the fuel pump.
+Таблица данных топливного насоса расположена на верхней части топливного насоса.
 
-The fuel pump dataplate provides information for calibration.
+Таблица данных топливного насоса предоставляет информацию для калибровки.
 
 ![[fp8plgb.png]]
 
-### Cummins® Engine Nomenclature
+### Cummins® Номенклатура двигателей
 
-The Cummins® engine nomenclature provides the data as illustrated in the graphic.
+Номенклатура двигателя Cummins® предоставляет данные, как показано на графике.
 
 ![[00100124.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Engine Dataplate
+>
+> The engine dataplate provides the model identification and other important information about the engine.
+>
+> The engine serial number and CPL provides data for ordering parts and service.
+>
+> The dataplate is located on the fuel pump side of engine on the rocker lever housing.
+>
+> The following information on the dataplate is mandatory when sourcing service parts.
+>
+> (1) Engine Serial Number
+>
+> (2) Control Parts List
+>
+> (3) Model.
+>
+> ### Fuel Pump Dataplate
+>
+> The fuel pump dataplate is located on the top of the fuel pump.
+>
+> The fuel pump dataplate provides information for calibration.
+>
+> ### Cummins® Engine Nomenclature
+>
+> The Cummins® engine nomenclature provides the data as illustrated in the graphic.

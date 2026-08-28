@@ -98,7 +98,8 @@ manuals:
   - "4960270"
   - "4960314"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-005.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-204-005.pdf"
 tags:
@@ -115,6 +116,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Illustrations
@@ -128,12 +130,28 @@ tags:
 > **Даты:** изменён 2002-03-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-005.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-204-005.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Some of the illustrations throughout this manual are generic and will **not** look exactly like the engine or parts used in your application. The illustrations can contain symbols to indicate an action required and an acceptable or **not** acceptable condition.
+
+### Общие сведения
+
+Некоторые иллюстрации в этом руководстве являются общими и будут выглядеть точно так же, как двигатель или детали, используемые в вашем приложении. Иллюстрации могут содержать символы, указывающие на требуемое действие и приемлемое или **не** приемлемое условие.
 
 ![[th8sesa.png]]
 
-The illustrations are intended to show repair or replacement procedures. The procedure will be the same for all applications, although the illustration can differ.
+Иллюстрации предназначены для демонстрации процедур ремонта или замены. Процедура будет одинаковой для всех приложений, хотя иллюстрация может отличаться.
 
 ![[ca8vagc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Some of the illustrations throughout this manual are generic and will **not** look exactly like the engine or parts used in your application. The illustrations can contain symbols to indicate an action required and an acceptable or **not** acceptable condition.
+>
+> The illustrations are intended to show repair or replacement procedures. The procedure will be the same for all applications, although the illustration can differ.

@@ -58,7 +58,8 @@ manuals:
   - "4021538"
   - "4021940"
   - "4021942"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-202-002.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-202-002.pdf"
 tags:
@@ -74,6 +75,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Routine Service and Parts
@@ -87,6 +89,20 @@ tags:
 > **Даты:** изменён 2012-06-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-202-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-202-002.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Personnel at Cummins Authorized Repair Locations can assist you with the correct operation and service of your system. Cummins has a worldwide service network of more than 5,000 Distributors and Dealers who have been trained to provide sound advice, expert service, and complete parts support. Check the telephone directory, refer to the directory in this section, or the Service Locator at www.cummins.com for the nearest Cummins Authorized Repair Location.
+
+### Общие сведения
+
+Персонал в авторизованных местах ремонта Cummins может помочь вам с правильной работой и обслуживанием вашей системы. Cummins имеет глобальную сеть обслуживания более 5000 дистрибьюторов и дилеров, которые были обучены предоставлять надежные консультации, экспертное обслуживание и полную поддержку деталей. Проверьте телефонный справочник, обратитесь к справочнику в этом разделе или к сервисному локатору на www.cummins.com для ближайшего авторизованного ремонтного офиса Cummins.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Personnel at Cummins Authorized Repair Locations can assist you with the correct operation and service of your system. Cummins has a worldwide service network of more than 5,000 Distributors and Dealers who have been trained to provide sound advice, expert service, and complete parts support. Check the telephone directory, refer to the directory in this section, or the Service Locator at www.cummins.com for the nearest Cummins Authorized Repair Location.

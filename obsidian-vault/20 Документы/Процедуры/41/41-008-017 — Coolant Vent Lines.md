@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666003"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-017.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-008-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Coolant Vent Lines
@@ -34,21 +36,46 @@ tags:
 > **Даты:** изменён 2003-05-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-008-017.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the coolant vent line.
+
+### Снятие
+
+Удалите линию вентиляции охлаждающей жидкости.
 
 ![[th9tbha.png]]
 
-### Install
+### Установка
 
-Coat the threads of the coolant vent line with Teflon™.
+Покрыть резьбу вентиляционной линии охлаждающей жидкости TeflonTM.
 
-Install the coolant vent line.
+Установите линию вентиляции охлаждающей жидкости.
 
-Tighten the coolant vent line fittings.
+Затянуть фитинги вентиляционных линий охлаждающей жидкости.
 
-> [!tip] Момент затяжки · Torque Value
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
+
+![[th9tbha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the coolant vent line.
+>
+> ### Install
+>
+> Coat the threads of the coolant vent line with Teflon™.
+>
+> Install the coolant vent line.
+>
+> Tighten the coolant vent line fittings.
+>
+> **Момент затяжки · Torque Value**
 > 8 n•m [71 in-lb]
-
-![[th9tbha.png]]

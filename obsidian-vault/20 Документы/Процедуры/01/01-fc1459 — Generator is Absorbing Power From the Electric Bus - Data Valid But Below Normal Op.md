@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1459.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1459.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Generator is Absorbing Power From the Electric Bus - Data Valid But Below Normal Operating Range - Most Severe Level
@@ -34,40 +36,86 @@ tags:
 > **Даты:** изменён 2012-05-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1459.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1459.pdf)
 
-### Fault Code: 1459
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Generator is Absorbing Power From the Electric Bus - Data Valid But Below Normal Operating Range - Most Severe Level
 
-Printable Version
+### Код неисправности: 1459
 
-### Overview
+### Генератор потребляет мощность из сети — ниже нормы — наивысший уровень
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1459 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Reverse kW detected (generator is absorbing voltage from the electric bus). | The generator set will shut down. |
+| Код неисправности: 1459 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Обнаружен обратный кВт (генератор поглощает напряжение от электрической шины). | Генераторная установка будет отключена. |
 
 ![[19802905.png]]
 
-Generator Circuit
+Схема генератора
 
-### Circuit Description
+### Описание цепи
 
-Under normal operating conditions, the generator set connects to the bus. Generator set is producing power, and when it connects to the bus, power is added to the main electric bus. When some events occur, a condition can occur when the generator set is no longer producing power for the electric bus, but rather is drawing power from the electric bus. This condition is called reverse kW.
+В обычных условиях эксплуатации генераторная установка подключается к шине. Генераторный набор вырабатывает энергию, и когда он подключается к шине, мощность добавляется к основному электробусу. Когда происходят некоторые события, может возникнуть состояние, когда генераторная установка больше не производит энергию для электрической шины, а вместо этого потребляет энергию от электрической шины. Это состояние называется обратным kW.
 
-### Component Location
+### Расположение компонента
 
-Reference Section E for location of the engine control module (ECM) card cage. Reference customer/facility/installation documentation for the location of the generator set circuit breaker and interface with the electric bus.
+Справочный раздел E для определения местоположения карточной клетки модуля управления двигателем (ECM). Справочная клиентская/факультативно-установочная документация для определения местоположения генераторного набора выключателя и интерфейса с электрической шиной.
 
-### Shoptalk
+### Практические замечания
 
-The system (electric bus) is driving the engine using the alternator as a motor.
+Система (электрическая шина) управляет двигателем, используя генератор переменного тока в качестве двигателя.
 
-If the problem occurs at initial start-up, verify proper connection of the generator's current transformers.
+Если проблема возникает при первоначальном запуске, проверьте правильное подключение трансформаторов тока генератора.
 
-Verify proper connection of load-sharing lines.
+Проверить правильное соединение линий разделения нагрузки.
 
-Verify that the generator is operating at the correct frequency and voltage.
+Убедитесь, что генератор работает на правильной частоте и напряжении.
 
-Verify that there are no new fuel system problems that are causing the engine **not** to be able to pick up the load.
+Убедитесь, что нет никаких новых проблем с топливной системой, которые заставляют двигатель не иметь возможности поднять нагрузку.
 
-Refer to Troubleshooting Fault Code t05-1459.
+См. Код устранения неполадок t05-1459.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1459
+>
+> ### Generator is Absorbing Power From the Electric Bus - Data Valid But Below Normal Operating Range - Most Severe Level
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1459 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Reverse kW detected (generator is absorbing voltage from the electric bus). | The generator set will shut down. |
+>
+> Generator Circuit
+>
+> ### Circuit Description
+>
+> Under normal operating conditions, the generator set connects to the bus. Generator set is producing power, and when it connects to the bus, power is added to the main electric bus. When some events occur, a condition can occur when the generator set is no longer producing power for the electric bus, but rather is drawing power from the electric bus. This condition is called reverse kW.
+>
+> ### Component Location
+>
+> Reference Section E for location of the engine control module (ECM) card cage. Reference customer/facility/installation documentation for the location of the generator set circuit breaker and interface with the electric bus.
+>
+> ### Shoptalk
+>
+> The system (electric bus) is driving the engine using the alternator as a motor.
+>
+> If the problem occurs at initial start-up, verify proper connection of the generator's current transformers.
+>
+> Verify proper connection of load-sharing lines.
+>
+> Verify that the generator is operating at the correct frequency and voltage.
+>
+> Verify that there are no new fuel system problems that are causing the engine **not** to be able to pick up the load.
+>
+> Refer to Troubleshooting Fault Code t05-1459.

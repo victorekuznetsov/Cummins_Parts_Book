@@ -16,13 +16,15 @@ manuals:
 parts:
   - "4918767"
 figures: 61
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/330/330-006-026-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/330-006-026-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/330"
+  - "перевод/машинный"
 ---
 
 # Injector
@@ -36,686 +38,694 @@ tags:
 > **Даты:** изменён 2025-02-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/330/330-006-026-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/330-006-026-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-> [!note] Note · Примечание
-> Warranty repairs **must** be performed at a Cummins® Authorized Repair Location to accurately calibrate, test, and repair the fuel systems on Cummins® engines.
+### Общие сведения
 
-When removing the injectors from the engine, compare the injector assembly part number with the appropriate Control Parts List (CPL) assembly part number listed in the CPL manual, Bulletin 3379133.
+с форсункой механического управления
 
-> [!note] Note · Примечание
-> The injector plunger and the barrel are machined to a very precise tolerance and are available as a match-fit assembly **only**. Do **not** mix the plungers and the barrels. **Always** replace the plunger and the barrel as a matched assembly if the injector is rebuilt.
+> [!note] Примечание
+> Гарантийный ремонт должен быть выполнен в авторизованном месте ремонта Cummins® для точной калибровки, тестирования и ремонта топливных систем на двигателях Cummins®.
 
-> [!note] Note · Примечание
-> The outer base circle (OBC) valve and injector setting procedure can be used for all fixed time PT™ and hydraulic variable timing/STC engines, regardless of CPL or build date.
+При удалении форсунки из двигателя сравните номер детали сборки форсунки с соответствующим номером детали сборки контрольных частей (CPL), указанным в руководстве по CPL, Бюллетень 3379133.
 
-> [!note] Note · Примечание
-> All STC injector locknuts are made of powdered metal. These locknuts are porous by nature. When air pressure is applied to the STC oil delivery system, it is normal to see air bubbles form on the locknut. This is acceptable leakage. However, an audible air leak from a crack or hole in the locknut is unacceptable.
+> [!note] Примечание
+> Топливный плунжер и ствол обрабатываются до очень точного допуска и доступны в виде сборки **только**. Не смешивайте плунжеры и бочки. **Всегда** заменяйте плунжер и ствол в виде соответствующей сборки, если форсунка перестроен.
 
-The injector barrel, plunger assembly, and injector cup are the parts most commonly replaced when rebuilding an injector.
+> [!note] Примечание
+> Процедура установки клапана и форсунки на внешней основе (OBC) может использоваться для всех двигателей с фиксированным временем PTTM и гидравлическими переменными временем / STC, независимо от даты сборки или CPL.
 
-The barrel, plunger assembly, and plunger to cup seal **must** pass an injector leakage test. See the Injector PT™ Rebuild Manual, Bulletin 3379071.
+> [!note] Примечание
+> Все топливные форсунки STC изготовлены из порошкообразного металла. Эти каштаны пористые по своей природе. Когда давление воздуха применяется к системе доставки масла STC, нормально видеть, как пузырьки воздуха образуются на каштане. Это приемлемая утечка. Однако звуковая утечка воздуха из трещины или отверстия в локоне неприемлема.
 
-The injector stop screw was designed for standardization purposes. The stop screw is used to adjust the top-stop setting of the injector, and also acts as a housing for the tappet assembly. The revised injector stop screw can be used in all previous STC injector assemblies.
+Ствол топливного форсунка, сборка плунжера и топливный форсунок являются частями, которые чаще всего заменяются при реконструкции топливного форсунка.
 
-KT injector cups were released for the KTA marine injector in September, 1987 (Engine Serial Number first 33112795).
+Ствол, плунжерная сборка и плунжер для уплотнения чашки **должны** пройти испытание на утечку топливного форсунка. См. Руководство по восстановлению форсунки PTTM, Бюллетень 3379071.
 
-Due to injector plunger wear, a more durable D4 material replaced the 4140 material on the 9.5 mm \[ 0.37 in \] plunger in November, 1987 (Engine Serial Number first 33113265).
+Форсунка стоп-винт был разработан для целей стандартизации. Остановочный винт используется для регулировки верхнего предела установки форсунки, а также выступает в качестве кожуха для сборки крана. Пересмотренный винт стоп-сигнала форсунки может использоваться во всех предыдущих сборках топливных форсунок STC.
 
-The following injectors have been fitted to K38 and K50 engines. Although this is **not** a complete list, it does cover the basic injector configurations which have been used.
+Чашки для форсунок KT были выпущены для форсунки KTA в сентябре 1987 года (серийный номер двигателя 33112795).
 
-The Standard K (non-top-stop) injector was the first injector fitted to the KV Series engine.
+Из-за износа плунжера с топливным форсункой более прочный материал D4 заменил материал 4140 на 9,5 мм \[0,37 в \] плунжере в ноябре 1987 года (серийный номер двигателя первый 33113265).
 
-Reduced Drain Flow injectors were released as follows:
+Следующие топливные форсунки были установлены на двигатели K38 и K50. Хотя это не полный список, он охватывает основные конфигурации топливных форсунок, которые были использованы.
 
-| Engine | Engine Serial Number | Release Date |
+Стандартный форсунка K (non-top-stop) был первым топливным форсункой, установленным на двигателе серии KV.
+
+Впрыск топлива с пониженным потоком дренажа был выпущен следующим образом:
+
+| Двигатель | Серийный номер двигателя | Дата выхода |
 |---|---|---|
-| KTTA50-C | 33111642 | November 15, 1986 |
-| KT50-C | 33111665 | November 15, 1986 |
-| KTA50-C | 33111645 | November 15, 1986 |
-| KTA50-G | 33111204 | November 15, 1986 |
-| KTTA38-G | 33111291 | November 15, 1986 |
+| KTTA50-C | 33111642 | 15 ноября 1986 года |
+| KT50-C | 33111665 | 15 ноября 1986 года |
+| KTA50-C | 33111645 | 15 ноября 1986 года |
+| KTA50-G | 33111204 | 15 ноября 1986 года |
+| KTTA38-G | 33111291 | 15 ноября 1986 года |
 
-The injectors contained the same parts as previous injectors, except for the barrel and plunger assembly.
+Форсунка содержал те же детали, что и предыдущий форсунка, за исключением ствола и плунжерной сборки.
 
-The injector drain flow is decreased by reducing the drain passage in the reduced drain flow barrel. The lower drain flow reduces the total flow required. The reduction in flow allows the use of the PT™ (Type G) pump in place of the PT™ (Type H) pump. It also allows the use of a 19 mm \[ 0.75 in \] PT™ (Type G) gear pump on K38 engines that previously used the 32 mm \[ 1.25 in \] PT™ (Type G) gear pump.
+Сливной поток форсунки уменьшается за счет уменьшения сливного прохода в сливном потоке бочки. Низкий дренажный поток уменьшает общий требуемый поток. Сокращение потока позволяет использовать насос типа G вместо насоса типа H. Он также позволяет использовать 19 мм \[0,75 в \] PTTM (тип G) передаточный насос на двигателях K38, которые ранее использовали 32 мм \[1,25 в \] передаточный насос PTTM (тип G).
 
-> [!warning] CAUTION · Осторожно
-> Reduced drain flow injectors must be used in complete sets due to the differences in total flow between the previous standard and reduced drain flow injectors. Failure to do so can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Форсунка с пониженным расходом сливного потока топлива должен использоваться в комплекте из-за различий в общем потоке между предыдущим стандартом и форсункой с пониженным расходом сливного топлива. Невыполнение этого требования может привести к повреждению двигателя.
 
-Reduced drain flow injector assemblies were released for STC and non-STC injector configurations.
+Сборки топливных форсунок с пониженным расходом слива были выпущены для конфигураций топливных форсунок STC и не-STC.
 
-A full top-stop injector was released for K series engines in July, 1987 (Engine Serial Number first 33112560). This injector replaced the K hydraulic variable timing/STC injector. The full top-stop injector performs the same function as the previous K hydraulic variable timing/STC injectors, advancing the injection timing by trapping engine oil in the injector's hydraulic tappet. However, the revised injector has an additional top-stop feature to help reduce overhead wear. A top cap is used to stop the upward movement of the STC tappet. This unloads the injector train briefly, allowing oil to lubricate the link and socket joints.
+Полный топовый форсунка был выпущен для двигателей серии K в июле 1987 года (серийный номер двигателя 33112560). Этот форсунка заменил гидравлический переменный тайминг/форсунка КТК. Полный топовый форсунка выполняет ту же функцию, что и предыдущий гидравлический переменный тайминг / форсунка STC, продвигая время впрыска, захватывая моторное масло в гидравлический тапет форсунки. Тем не менее, пересмотренный форсунка имеет дополнительную функцию верхнего уровня, чтобы помочь уменьшить износ. Верхняя крышка используется для остановки движения вверх крана STC. Это на короткое время разгружает топливный форсун, позволяя маслу смазывать соединение и разъемные соединения.
 
-Several of the components of the previous K hydraulic variable timing/STC injector were redesigned in order to convert to the full top-stop design, and some additional components were added.
+Несколько компонентов предыдущего гидравлического форсунки K с переменным временем/STC были переработаны для преобразования в полную топовую конструкцию, и были добавлены некоторые дополнительные компоненты.
 
-The revised K full top-stop STC injector required a different oil transfer tube. The older tube was 7.93 mm \[ 0.3125 in \] longer, and will **not** fit into the oil feed locknut of the revised injector.
+Пересмотренный топовый форсунка K требовал другой трубки для передачи масла. Старая трубка была на 7,93 мм \[0,3125 дюйма \] длиннее и будет **не** вписываться в масляный кормовой локон пересмотренного форсунки.
 
-The K family STC injector was released for service and production on single stage uprate engines in February, 1988 (Engine Serial Number first 33113700).
+Семейство топливных форсунок K STC было выпущено для обслуживания и производства на одноступенчатых двигателях в феврале 1988 года (серийный номер двигателя 33113700).
 
-These injectors are a similar style to the full top-stop STC injector. However, there are several differences.
+Эти топливные форсунки аналогичны полному топ-стопу STC. Однако есть несколько отличий.
 
-- Injector Adapter - The adapter has two major features which make it different from the K STC injector adapter. First, the adapter was modified so that the same o-ring can be used at all three o-ring locations. Second, the adapter has locations for two orifice plugs, one on either side of the adapter.
-- Injector Cup - It has a revised style cup, with a larger diameter tip that improves strength and reliability.
-- Injector Cup Retainer - This was designed to accommodate the revised style cup and to improve ease of assembly.
-- Injector Plunger - The plunger blank is longer than the previous K STC plunger blank. The length was added to the minor diameter areas to allow more fuel capacity.
-- Injector Plunger Coupling - The injector plunger coupling is shorter than the previous K STC plunger coupling to compensate for the longer plunger blank. The overall length of the two different plunger and coupling assemblies after crimping is approximately the same. Previous injector plungers are **not** interchangeable with the new style.
-- Internal Plunger Link - A revised internal link was fitted. It is shorter than the internal K STC plunger link in order to compensate for the longer injector plunger. The overall length of the revised link is 59.31 mm \[ 2.335 in \].
-- Injector Plunger Return Spring - The injector utilizes a revised plunger return spring due to the higher travel requirements.
+- Адаптер топливного форсунка имеет две основные функции, которые отличают его от адаптера топливного форсунка K STC. Во-первых, адаптер был модифицирован таким образом, что одно и то же кольцо может использоваться во всех трех местах расположения кольца. Во-вторых, адаптер имеет места для двух вилок отверстий, по одной с обеих сторон адаптера.
+- Кубок форсунки - имеет переработанный стиль чашки, с большим диаметром наконечник, который повышает прочность и надежность.
+- Форсунка Cup Retainer - это было разработано, чтобы вместить пересмотренный стиль чашки и улучшить удобство сборки.
+- плунжерный заготовитель (Plunger Plunger) - плунжерный заготовка длиннее, чем предыдущий плунжерный заготовка K STC. Длина была добавлена к областям меньшего диаметра, чтобы обеспечить большую емкость топлива.
+- плунжерная муфта - плунжерная муфта топливного форсунка короче, чем предыдущая плунжерная муфта K STC, чтобы компенсировать более длинную плунжерную заготовку. Общая длина двух различных плунжеров и соединительных сборок после обжима примерно одинакова. Предыдущие топливные форсунки **не** взаимозаменяемы с новым стилем.
+- Внутренняя ссылка на голодовку - была установлена пересмотренная внутренняя ссылка. Он короче внутреннего плунжерного соединения K STC, чтобы компенсировать более длинный плунжер топливного форсунка. Общая длина пересмотренного звена составляет 59,31 мм \[2,335 в \].
+- Форсунка Plunger Return Spring - форсунка использует пересмотренную пружину возврата плунжера из-за более высоких требований к поездкам.
 
-Press-Fit plungers and ceramic inner links were released for the standard K STC injector assemblies. The combination of these two features improves injector reliability and durability.
+Прыгуны пресс-фит и керамические внутренние звенья были выпущены для стандартных топливных форсуночных сборок K STC. Сочетание этих двух функций повышает надежность и долговечность форсунки.
 
-Press-Fit plunger assemblies have a stronger joint between the coupling and plunger.
+Прыгунные сборки пресс-фит имеют более прочный стык между муфтой и плунжером.
 
-A revised oil feed locknut and top-stop screw were released for K STC injectors. The revised oil feed locknut has the appropriate total travel settings stamped on it. The revised top-stop screw is 1.78 mm \[ 0.070 in \] longer than the previous top-stop screw.
+Пересмотренный масляный кормовой каштан и верхний винт были выпущены для форсунки K STC. Пересмотренный масляный кормовой локон имеет соответствующие общие настройки проезда, проштампованные на нем. Пересмотренный винт верхнего предела составляет 1,78 мм \[0,007 дюйма \] дольше, чем предыдущий винт верхнего предела.
 
-In the STC injector, injection timing is controlled by the STC hydraulic tappet. The tappet has an inner piston (plunger) and an outer piston (sleeve).
+В топливном форсунке STC время впрыска контролируется гидравлическим краном STC. Кран имеет внутренний поршень (плунжер) и внешний поршень (рукав).
 
-> [!note] Note · Примечание
-> The plunger and sleeve are machined to very precise tolerances. The assembly is matched by a selection process at the factory (match-fit). **Never** exchange or combine the plungers and the sleeves.
+> [!note] Примечание
+> Прыгун и рукав обрабатываются до очень точных допусков. Сборка сопровождается процессом отбора на заводе (матч-фит). Никогда не обменивайте и не комбинируйте плунжеры и рукава.
 
-These tappet components work together with the injector plunger to control injection timing. The tappet assembly can be used with any STC top-stop nut because they are **not** matched.
+Эти компоненты крана работают вместе с плунжером форсунки для контроля времени впрыска. Сборка крана может использоваться с любым орехом верхнего уровня STC, потому что они **не** совпадают.
 
-The tappet assembly and injector are **not** matched sets. The tappet assembly can be used in any STC injector. Cummins Inc. recommends STC tappet disassembly **only** if there is evidence that debris caused by an engine failure has moved beyond the full-flow filters. Any debris in the tappet will lower the performance of the tappet.
+Сборка крана и форсунка **не** соответствуют наборам. Конструкция крана может использоваться в любом топливном форсунке STC. Cummins Inc. рекомендует разбирать краны ТТС **только**, если есть доказательства того, что мусор, вызванный отказом двигателя, вышел за пределы фильтров полного потока. Любой мусор в кране снизит производительность крана.
 
-The method of adjusting the injection timing and injector rocker lever travel on engines with STC is the same as the method on engines without STC. The specification for injector travel and injection timing on engines with STC is different than engines without STC.
+Способ регулировки времени впрыска и движения рычага качения клапана форсунки на двигателях с STC такой же, как и метод на двигателях без STC. Спецификация для перемещения топливных форсунок и времени впрыска на двигателях с STC отличается от двигателей без STC.
 
-The Premium K STC injector assembly supersedes and obsoletes all Standard and Family K STC injector assemblies.
+Сборка топливных форсунок Premium K STC заменяет и устаревает все сборки топливных форсунок Standard и Family K STC.
 
-This injector includes the following features:
+Этот форсунка включает в себя следующие функции:
 
-- Press-fit barrel and plunger assembly
-- Longer barrel
-- Revised oil feed locknut
-- Revised top-stop screw
-- Ceramic inner link
-- Stronger cup.
+- 2.1.1.1.1.1.1 Напорная ствола и плунжерная установка
+- Длинная бочка
+- Пересмотренный масляный кормовой лоцман
+- Пересмотренный верхнего винта
+- Керамическая внутренняя связь
+- Более крепкая чашка.
 
-The revised injector is more reliable and durable than the Standard and Family K STC injectors without the press-fit barrel and plunger assembly and ceramic link.
+Пересмотренный форсунка является более надежным и долговечным, чем форсунка Standard и Family K STC без пресс-подгонки ствола и плунжера сборки и керамической линии.
 
-Standard K STC injectors can **not** be converted to a Premium K STC injector. Very few parts are interchangeable. The full injector assembly **must** be replaced.
+Стандартный форсунка K STC может быть преобразован в премиальный форсунка K STC. Очень немногие части являются взаимозаменяемыми. Полный форсунканый сборочный **** должен быть заменен.
 
-Family K STC injectors can be converted to Premium K STC. However, no reliability or durability improvement will be gained if the Family K STC injectors have press-fit barrel and plunger assemblies and ceramic links. Press-fit barrel and plunger assemblies and ceramic links are available for Family K STC injectors.
+Семейство топливных форсунок K STC может быть преобразовано в Premium K STC. Однако повышение надежности или долговечности не будет достигнуто, если форсунка семейства K STC имеет пресс-подгонные стволы и плунжерные сборки и керамические звенья. Сборки ствола и плунжера пресс-подгонки и керамические линии доступны для форсунки Family K STC.
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!warning] CAUTION · Осторожно
-> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of these components can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Не используйте повторно топливные форсунки для удерживания или уплотнение для сгорания топливного форсунка. Повторное использование этих компонентов может привести к повреждению двигателя.
 
-The injector consists of the following components:
+Форсунка состоит из следующих компонентов:
 
-1. O-ring/damper
-2. Capscrew
-3. Injector hold-down clamp
-4. Seal
-5. O-rings
-6. Injector.
+1. О-кольцо/заслон
+2. болты
+3. зажим для удерживания форсунки
+4. печать
+5. О-кольца
+6. Форсунка.
 
 ![[06400286.png]]
 
-### Initial Check
+### Первичная проверка
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Misfire Using Heat Indicator Marker
+Огонь с использованием маркера теплового индикатора
 
-> [!note] Note · Примечание
-> This procedure will possibly **not** be effective when the symptoms occur only at low idle or when the engine is cold.
+> [!note] Примечание
+> Эта процедура может быть неэффективна, когда симптомы возникают только при низком холостом режиме или когда двигатель холодный.
 
-If the engine exhibits symptoms of a possible injector **not** firing, perform the following check:
+Если двигатель проявляет симптомы возможного форсирования топлива **не**, выполните следующую проверку:
 
-- Operate the engine to normal operating coolant temperature of 80°C \[ 180°F \].
-- Stop the engine and allow the exhaust manifold to cool for 10 minutes.
-- Use a 204°C \[400°F\] temperature indicator marker, Part Number 3165163, to apply a mark (1) on the surface of all exhaust manifold ports. The mark **must** be as close to the cylinder head as possible, but **not** directly on the exhaust manifold mounting flange.
-- Start the engine and operate under light load for a short time. Do **not** operate the engine under heavy load or for an extended period of time, as this can cause inaccurate results.
+- Управляйте двигателем до нормальной рабочей температуры охлаждающей жидкости 80°C \[180°F \].
+- Остановите двигатель и дайте коллектору выхлопных газов остыть в течение 10 минут.
+- Используйте температурный индикатор 204°C \[400°F\], номер детали 3165163, чтобы нанести знак (1) на поверхность всех портов выхлопных коллекторов. Знак **должен быть как можно ближе к головке цилиндра, но **не непосредственно на фланце установки выхлопного коллектора.
+- Запустите двигатель и работайте под легкой нагрузкой в течение короткого времени. Не используйте двигатель под большой нагрузкой или в течение длительного периода времени, так как это может привести к неточным результатам.
 
 ![[06400198.png]]
 
-> [!note] Note · Примечание
-> It is **not** recommended to use the temperature indicator markers to troubleshoot for cylinders that are operating too hot.
+> [!note] Примечание
+> не рекомендуется использовать маркеры температурных индикаторов для устранения неполадок в цилиндрах, которые работают слишком горячими.
 
-If the 204°C \[ 400°F \] mark melts (1) the color will disappear and leave only a transparent glazed appearance where the mark was. This indicates that the cylinder is operating at a temperature above 204°C \[ 400°F \].
+Если 204°C \[400°F \] метка плавится (1), цвет исчезнет и оставит только прозрачный глазурованный вид, где была метка. Это указывает на то, что цилиндр работает при температуре выше 204 ° C [400° F ].
 
-If the 204°C \[ 400°F \] mark does not melt (2) the mark color remains present. This indicates that the cylinder is not operating at or above a temperature of 204°C \[ 400°F \], indicating a possible injection malfunction.
+Если 204°C \[400°F \] не плавится (2), то цвет знака остается присутствующим. Это указывает на то, что цилиндр не работает при температуре 204 ° C \[400°F \] или выше, что указывает на возможную неисправность впрыска.
 
-Reference the Engine Performance Troubleshooting Tree for additional troubleshooting information.
+Ссылка на дерево устранения неполадок производительности двигателя для дополнительной информации об устранении неполадок.
 
 ![[06400199.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Misfire Using Injector Testor Tool
+Misfire с использованием форсунки Testor Tool
 
-> [!note] Note · Примечание
-> This test **must** be performed with the engine shut down for at least 5 minutes.
+> [!note] Примечание
+> Этот тест должен быть выполнен с выключенным двигателем в течение не менее 5 минут.
 
-> [!note] Note · Примечание
-> If the engine is equipped with CM2150 ECMs (1), cover the plug with a lint-free cloth. Slowly loosen the plug on the last injector of the high-pressure fuel lines 1/4 to 1/2 turn. The plug does **not** need to be removed to relieve the pressure. Connect INSITE™ electronic service tool and verify the fuel pressure has bled down by monitoring the fuel rail pressure.
+> [!note] Примечание
+> Если двигатель оснащен CM2150 ECMs (1), накройте вилку тканью без винта. Медленно ослабить вилку на последнем топливном форсунке топливных линий высокого давления от 1/4 до 1/2 поворота. Вилка **не** должна быть удалена, чтобы уменьшить давление. Подключите электронный сервисный инструмент INSITETM и проверьте, что давление топлива снизилось, контролируя давление в топливной рельсе.
 
 ![[06k00003.png]]
 
-If the engine exhibits symptoms of an injector **not** firing, perform the following check using the Injector Tester (1)(2), Part Number 2892293:
+Если двигатель имеет симптомы форсунки **не**, проверьте с помощью тестера (1)(2), номер детали 2892293:
 
-1. Plug the tool harness into the injector tester tool via the 4-pin connector.
-2. Plug the tool harness into the engine harness via the 9-pin connector.
-3. Verify the injector tester tool's yellow READY light is illumintated. If not, verify power supply to the 9-pin connector. If illuminated, proceed.
-4. Turn the keyswitch ON.
-5. Plug the tool harness into injector via the 2-pin connector.
-6. Fully depress and release the injector tester tool's PRESS TO TEST button.
+1. Подключите инструментальную проводку к инструменту тестера форсунки через 4-контактный разъем.
+2. Подключите инструментальную проводку к ремню проводов двигателя через 9-контактный разъем.
+3. Проверьте, что желтый индикатор инструмента для испытания форсунки топлива READY освещен. Если нет, проверьте подачу питания на 9-контактный разъем. Если подсвечивается, продолжайте.
+4. Включите замок зажигания.
+5. Подключите инструментальную проводку в форсунка через 2-контактный разъем.
+6. Полностью раздавить и выпустить инструмент тестировщика топлива форсунки на кнопку PRESS TO TEST.
 
-- If the green PASS light is illuminated, the injector is functioning.
-- If the red FAIL light is illuminated, the injector is failed and must be replaced.
+- Если зеленый PASS свет освещен, то работает форсунка.
+- Если красный свет FAIL освещен, форсунка выходит из строя и должен быть заменен.
 
-Repeat steps 5 and 6 until all injectors have been tested.
+Повторите шаги 5 и 6 до тех пор, пока не будет испытана вся форсунка.
 
 ![[06k00004.png]]
 
-Misfire Using Infrared Thermometer
+Misfire с использованием инфракрасного термометра
 
-If the engine exhibits symptoms of a injector **not** firing, perform the following check:
+Если двигатель проявляет симптомы форсунки **не**, проверьте:
 
-- Operate the engine to normal operating coolant temperature of 80°C \[ 180°F \].
-- Once the engine has reached normal operating temperature, continue operating the engine and perform the following check.
+- Управляйте двигателем до нормальной рабочей температуры охлаждающей жидкости 80°C \[180°F \].
+- После того, как двигатель достиг нормальной рабочей температуры, продолжайте работу двигателя и выполните следующую проверку.
 
 ![[02400014.png]]
 
-Use an infrared thermometer, Part Number 3164487 or equivalent, to measure and record the surface temperature of the exhaust manifold ports.
+Используйте инфракрасный термометр, номер детали 3164487 или эквивалент, для измерения и записи температуры поверхности отводящих коллекторов.
 
-> [!note] Note · Примечание
-> It is important to measure as close to the cylinder head as possible and in the same location on each of the exhaust manifold ports.
+> [!note] Примечание
+> Важно измерять как можно ближе к головке цилиндра и в одном и том же месте на каждом из портов выпускного коллектора.
 
-If an exhaust manifold port surface temperature is more than 40°C or 72°F (for electronically actuated injectors) or 93°C or 167°F (for mechanically actuated injectors) colder than the average surface temperature of all exhaust ports, this indicates a possible injector malfunction.
+Если температура поверхности порта выхлопного коллектора составляет более 40 °C или 72 °F (для форсунки с электронным приводом) или 93 °C или 167 °F (для форсунки с механическим приводом) холоднее, чем средняя температура поверхности всех выхлопных портов, это указывает на возможную неисправность форсунки.
 
 ![[06600265.png]]
 
-### High-Pressure Injector Return Flow Test
+### Высоконапорный форсунка Return Flow Test
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the injector drain flow hose from the fuel drain manifold block located on the left bank of the engine. Remove the hose from the drain manifold block end (1) **only.** See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-013 — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+Удалите шланг потока форсунки из блока коллектора топливного стока, расположенного на левом берегу двигателя. Удалите шланг из конца блока дренажного коллектора (1) **только.** См. GTA38, K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-013 — Fuel Drain Lines|См. процедуру 006-013 в разделе 6.]]
 
-The union fitting in the fuel drain block **must** be capped to prevent fuel leakage during the test. It can be capped with Part Number 3164801, or equivalent.
+Соединение, устанавливаемое в блоке слива топлива, должно быть ограничено для предотвращения утечки топлива во время испытания. Он может быть ограничен номером 3164801 или эквивалентом.
 
 ![[06e00069.png]]
 
-Run the injector drain flow hose into a graduated cylinder to collect drain fuel flow. The cylinder must be capable of holding at least 300 ml \[10 oz\].
+Запуск шланга слива форсунки в градуированный цилиндр для сбора расхода сливного топлива. Цилиндр должен быть способен удерживать не менее 300 мл [10 унций].
 
 ![[22d00140.png]]
 
-Disconnect each of the individual 2-pin injector electrical connectors (12 for QSK38 and 16 for QSK50). Use the following procedure in the QSK38, QSK50, and QSK60 (CM850 Modular Common Rail System) Troubleshooting and Repair Manual, Bulletin 4021533. [[122-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19]].
+Отключите каждый из отдельных 2-контактных топливных форсунок (12 для QSK38 и 16 для QSK50). Используйте следующую процедуру в руководстве по устранению неполадок и ремонту QSK38, QSK50 и QSK60 (CM850 Modular Common Rail System), Bulletin 4021533.[[122-019-043 — Engine Wiring Harness|См. процедуру 019-043 в разделе 19.]].
 
 ![[06e00070.png]]
 
-With the return flow hose routed to the graduated cylinder, crank the engine at a minimum of 150 rpm for 30 seconds in 10 second intervals.
+С обратным потоком шланга, направляемого в градуированный цилиндр, проворачивайте двигатель как минимум 150 об/мин в течение 30 секунд через 10 секунд.
 
-> [!warning] CAUTION · Осторожно
-> Do not overheat the starters. Damage to the starters can result.
+> [!warning] ОСТОРОЖНО
+> Не перегревайте стартеры. Ущерб для начинающих может быть нанесен.
 
-The volume of fuel collected during the 30 second crank cycle **must** be less than the volume indicated in the table below.
+Объем топлива, собранного в течение 30 секунд цикла коленчатых винтов, должен быть меньше объема, указанного в таблице ниже.
 
-| Measured Return Flow |  |
+| Измеренный обратный поток |  |
 |---|---|
-| Engine | Volume |
-| QSK38 | 150 ml \[5 oz\] |
-| QSK50 | 200 ml \[6.75 oz\] |
+| Двигатель | Объем |
+| QSK38 | 150 мл[5 унций] |
+| QSK50 | 200 мл[6,75 унции] |
 
 ![[06e00071.png]]
 
-Remove the cap from the male union and install the fuel drain hose at the fuel drain block.
+Снимите крышку с внешней резьбовой фитинги и установите шланг для слива топлива на блоке слива топлива.
 
-Tighten the hose.
+Затяните шланг.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[06e00069.png]]
 
-### High-Pressure Injector Return Flow Isolation Test
+### Испытание на изоляцию потока топлива под высоким давлением
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Drain the LTA cooling system. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+Охлаждение системы LTA. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
-Remove the intake manifolds. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+Удалите коллекторы для впуска. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
 
 ![[ck800wa.png]]
 
-Install the fuel drain hose on cylinder number 1 LB in place of the banjo bolt through the fuel drain line that routes to the fuel drain block. The fuel drain hose for the QSK38 and QSK50 is Part Number 4918679.
+Установите шланг для слива топлива на цилиндре № 1 LB вместо болта банджо через линию слива топлива, которая проходит к блоку слива топлива. Сливной шланг для QSK38 и QSK50 является частью № 4918679.
 
-Place the end of the fuel injector drain line fuel return flow hose in a small graduated cylinder to collect return flow.
+Поместите конец шланга для подачи топлива в топливный шланг обратного потока в небольшой градуированный цилиндр для сбора обратного потока.
 
 ![[22d00140.png]]
 
-Disconnect each of the individual 2-pin injector electrical connectors (12 for QSK38 and 16 for QSK50). Use the following procedure in the QSK38, QSK50, and QSK60 (CM850 Modular Common Rail System) Troubleshooting and Repair Manual, Bulletin 4021533. [[122-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19.]]
+Отключите каждый из отдельных 2-контактных топливных форсунок (12 для QSK38 и 16 для QSK50). Используйте следующую процедуру в руководстве по устранению неполадок и ремонту QSK38, QSK50 и QSK60 (CM850 Modular Common Rail System), Bulletin 4021533.[[122-019-043 — Engine Wiring Harness|См. процедуру 019-043 в разделе 19.]]
 
 ![[06e00070.png]]
 
-With the return flow hose routed to the graduated cylinder, crank the engine at a minimum of 150 rpm for 30 seconds in 10 second intervals.
+С обратным потоком шланга, направляемого в градуированный цилиндр, проворачивайте двигатель как минимум 150 об/мин в течение 30 секунд через 10 секунд.
 
-> [!warning] CAUTION · Осторожно
-> Do not overheat the starters. Damage to the starters can result.
+> [!warning] ОСТОРОЖНО
+> Не перегревайте стартеры. Ущерб для начинающих может быть нанесен.
 
-Record the amount of fuel collected.
+Зафиксируйте количество собранного топлива.
 
 ![[06e00071.png]]
 
-Swap the fuel drain hose and banjo bolt between cylinders 1 LB and 2 LB.
+Замените шланг для слива топлива и болт банджо между цилиндрами 1 LB и 2 LB.
 
-Place the end of the fuel injector drain line fuel return flow hose in a small graduated cylinder to collect return flow.
+Поместите конец шланга для подачи топлива в топливный шланг обратного потока в небольшой градуированный цилиндр для сбора обратного потока.
 
-Crank the engine at least 150 rpm for 30 seconds in 10 second intervals.
+Проворачивайте двигатель не менее 150 об/мин в течение 30 секунд через 10 секунд.
 
-> [!warning] CAUTION · Осторожно
-> Do not overheat the starters. Damage to the starters can result.
+> [!warning] ОСТОРОЖНО
+> Не перегревайте стартеры. Ущерб для начинающих может быть нанесен.
 
-Record the amount of fuel collected.
+Зафиксируйте количество собранного топлива.
 
 ![[22d00140.png]]
 
-Repeat the previous step until drain flow has been recorded for all cylinders on both banks.
+Повторите предыдущий шаг, пока не будет зафиксирован поток стока для всех цилиндров на обоих берегах.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | ml | fl-oz |
-| Isolated Injector Return Flow with Engine Cranking at 150 rpm for 30 Seconds | 15 | 0.5 |
+|  | млечный | фл-оз |
+| Изолированный форсунка Return Flow с функцией прокрутки двигателя со скоростью 150 об/мин в течение 30 секунд | 15 | 0.5 |
 
-> [!warning] CAUTION · Осторожно
-> Do not overheat the starters. Damage to the starters can result.
+> [!warning] ОСТОРОЖНО
+> Не перегревайте стартеры. Ущерб для начинающих может быть нанесен.
 
 ![[06e00071.png]]
 
-Replace injectors on any cylinder that has more leakage than specified above.
+Заменить форсунка на любой цилиндр, который имеет больше утечки, чем указано выше.
 
-If any injectors were replaced, repeat the test on each of the cylinders until all cylinders have less flow than specified.
+Если какой-либо форсунка был заменен, повторить испытание на каждом из цилиндров до тех пор, пока все цилиндры имеют меньший расход, чем указано.
 
 ![[22d00140.png]]
 
-Remove the fuel drain hose and assemble the fuel drain lines. Refer to Procedure 006-013 in Section 6.
+Удалите шланг для слива топлива и соберите линии слива топлива. См. процедуру 006-013 в разделе 6.
 
-Install the intake manifolds. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+Установите впускные коллекторы. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-010-002-tr — Aftercooler Assembly|См. процедуру 010-002 в разделе 10.]]
 
-Fill the cooling system. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-
-![[ck800wa.png]]
-
-### Preparatory Steps
-
-with Mechanically Actuated Injector
-
-- Remove the rocker lever cover and all related parts. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Remove the rocker lever assembly. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+Заправьте систему охлаждения. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+### Подготовительные операции
 
-- Remove the injector fuel supply lines. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-- Install the injector protective plugs, Part Number [[4918767]].
-- Remove the two-piece rocker lever cover. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+с форсункой механического управления
+
+- Удалите крышку рычага клапанного клапана и все связанные с ней части. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Снимите клапанный клапан с крепления рычага. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+
+![[ck800wa.png]]
+
+с форсункой электронного управления
+
+- Удалите линии подачи топлива форсунки. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Установите защитные вилки форсунки, часть номер[[4918767]].
+- Снимите двухсекционную крышку рычага клапана. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
 ![[nobox.png]]
 
-### Remove
+### Снятие
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!note] Note · Примечание
-> This step applies to engines equipped with STC injectors.
+> [!note] Примечание
+> Этот шаг относится к двигателям, оснащенным топливным форсункой STC.
 
-Remove the STC banjo connector mounting screw.
+Удалите винт крепления разъема STC banjo.
 
-Remove the banjo connector.
+Удалите разъем банджо.
 
-Remove and discard the sealing washer (48) and o-ring (49).
+Удалите и отбросьте уплотнительный шайба (48) и кольцо (49).
 
 ![[he4tbha.png]]
 
-Remove the injector hold down capscrew.
+Удалите форсунка, удерживайте болты.
 
-Remove the injector hold down clamp. Non STC **only**.
+Удалите форсунка, удерживайте зажим. Не только х*****.
 
 ![[fi4hwha.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not allow the STC tappet to fall out of the injector. Engine damage can result.
+> [!warning] ОСТОРОЖНО
+> Не допускайте, чтобы кран STC выпал из топливного форсунка. Повреждение двигателя может привести к
 
-> [!note] Note · Примечание
-> The rocker lever housing has been removed from the illustration for clarity.
+> [!note] Примечание
+> Корпус качалки клапанного клапана был удален из иллюстрации для ясности.
 
-For top-stop injectors, use injector puller, Part Number 3376497.
+Для топового форсунки используйте топливный съёмник, номер детали 3376497.
 
-Make sure the puller arms are firmly under the top-stop screws.
+Убедитесь, что рычаги съёмника прочно находятся под верхними винтами.
 
-Tighten the clamping ring (1).
+Закрепить зажимное кольцо (1).
 
-Use the slide hammer to remove the injector.
+Используйте молоток для удаления форсунки.
 
 ![[05400287.png]]
 
-For standard injectors, use injector puller, Part Number 3376000 or 3376497.
+Для стандартного топливного форсунка используйте топливный форсунок, часть 3376000 или 3376497.
 
-Place the split collar over the injector.
+Поместите раздвоенный воротник над топливным форсункой.
 
-Slide the locking collar over the injector
+Сдвиньте запирающий воротник над топливным форсункой
 
-Use the slide hammer to remove the injector.
+Используйте молоток для удаления форсунки.
 
-> [!note] Note · Примечание
-> If the injector pullers mentioned above are **not** available, carefully use a pry bar. Pry upward in the injector against the cylinder head.
+> [!note] Примечание
+> Если вышеупомянутые топливные съёмники форсунки не доступны, тщательно используйте плак. Поднимитесь вверх в топливном форсунке против головки цилиндра.
 
 ![[05400288.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!warning] CAUTION · Осторожно
-> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of these components can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Не используйте повторно топливные форсунки для удерживания или уплотнение для сгорания топливного форсунка. Повторное использование этих компонентов может привести к повреждению двигателя.
 
-> [!note] Note · Примечание
-> Do **not** reuse protective plugs. The protective plugs **must** be used immediately upon removal from the plastic wrapping. If they are **not** used immediately, the protective plugs **must** be discarded. If the protective plugs are fouled in any manner before use, the protective plugs **must** be discarded and a new set used.
+> [!note] Примечание
+> **Не использовать защитные вилки. Защитные вилки **должны использоваться сразу после удаления из пластиковой упаковки. Если они не используются немедленно, защитные пробки должны быть отброшены. Если защитные пробки каким-либо образом заглушены перед использованием, защитные пробки должны быть выброшены и использован новый набор.
 
-If **not** already completed, plug the ports in each side of the injector T-fitting with the injector protective plugs before removing the injector. Make sure the plugs are wedged firmly into place. This will prevent debris from entering and causing damage to the injector.
+Если **не** уже завершено, заглушить порты в каждой стороне форсунки T-образным с топливным форсункой защитные вилки перед удалением форсунки. Убедитесь, что вилки прочно вбиты на место. Это позволит предотвратить попадание мусора и нанесение ущерба топливному форсунке.
 
 ![[06600454.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, place a clean rag around the injector as well as wear goggles or a face shield to prevent injury from fuel spray from residual fuel pressure while removing the injector.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, поместите чистую тряпку вокруг топливного форсунка, а также используйте очки или щиток для лица, чтобы предотвратить повреждение от распыления топлива от остаточного давления топлива при удалении топливного форсунка.
 
-> [!danger] WARNING · Опасно
-> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
+> [!danger] ОПАСНО
+> Давление топлива в линии достаточно, чтобы проникнуть в кожу и нанести серьезный вред здоровью. Носите перчатки и защитную одежду.
 
-> [!note] Note · Примечание
-> On applications with high drain head pressure, such as a fuel tank mounted higher than the engine, shut off the fuel drain line valve and evacuate the fuel drain line of fuel before removing the injector.
+> [!note] Примечание
+> На приложениях с высоким давлением на головке слива, таких как топливный бак, установленный выше, чем двигатель, отключите клапан линии слива топлива и эвакуируйте линию слива топлива перед удалением топливного форсунка.
 
-Remove and discard the injector hold-down capscrew.
+Удалите и отбросьте топливные форсунки.
 
-Use a heel bar to remove the injector. Place the heel between the injector body and the exhaust rocker lever and gently pry the injector from the injector bore.
+Используйте пятку для удаления форсунки. Поместите пятку между корпусом форсунки и рычагом качения клапана выхлопного клапана и осторожно вытащите форсунка из цилиндра форсунки.
 
-> [!note] Note · Примечание
-> On applications with high drain line head pressure, such as a fuel tank mounted higher than the engine, it is possible for fuel to leak from the drain line into the cylinder when the injector is removed. After removing the injector, check for fuel dripping into the cylinder and evacuate the fuel before continuing in the removal procedure.
+> [!note] Примечание
+> На приложениях с высоким давлением на головке дренажной линии, таких как топливный бак, установленный выше, чем двигатель, топливо может просачиваться из дренажной линии в цилиндр, когда форсунка удаляется. После удаления топливного форсунка проверьте, чтобы топливо капало в цилиндр и эвакуировалось, прежде чем продолжить процедуру удаления.
 
-Cover the injector bore in the cylinder head to prevent foreign objects from entering and possibly damaging the bore and combustion chamber.
+Накройте форсунканый цилиндр, который находится в головке цилиндра, чтобы предотвратить попадание посторонних предметов и, возможно, повреждение цилиндрового отверстия и камеры сгорания.
 
 ![[06400388.png]]
 
-Remove and discard the seal on the end of the injector.
+Удалить и выбросить уплотнение на конце форсунки.
 
 ![[06600273.png]]
 
-Remove and discard the two o-rings on the injector.
+Удалите и отбросьте два кольца на топливном форсунке.
 
 ![[06400289.png]]
 
-Do **not** remove the o-ring/damper at this time.
+В это время не удаляйте кольцо/заглушку.
 
 ![[06600267.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acid, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При использовании растворителей, кислот или щелочных материалов для очистки следуйте рекомендациям производителя по применению. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> Injector plungers and barrels have a precise fit and are damaged easily. Only trained technicians are authorized to remove the plungers. Do not allow the plunger to fall out of the injector.
+> [!warning] ОСТОРОЖНО
+> Топливные плунжеры и бочки имеют точную посадку и легко повреждаются. Только обученные техники имеют право удалять плунжеры. Не позволяйте плунжеру выпадать из топливного форсунка.
 
-> [!note] Note · Примечание
-> Sealing rings are available in different thicknesses to adjust the injector protrusion.
+> [!note] Примечание
+> Уплотнительные кольца доступны в разных толщинах для регулировки протрузии форсунки.
 
-Remove the o-rings (1), (2), and (3).
+Удалите кольца (1), (2) и (3).
 
-Remove the sealing ring (4) and record the thickness.
+Удалите уплотнительное кольцо (4) и запишите толщину.
 
-Clean the exterior of the injector with a lint free cloth.
+Очистить внешний вид форсунки с помощью свободной от вязания ткани.
 
-Check the area that makes contact with the injector.
+Проверьте область, которая контактирует с топливным форсункой.
 
-Check the orifice screen (5). It **must** be clean. If there is debris on the screen, remove the retaining clip and the screen for cleaning.
+Проверьте экран отверстия (5). должно быть чистым. Если на экране есть обломки, удалите удерживающий клип и экран для очистки.
 
-Clean the screen in solvent and dry with compressed air.
+Очистите экран в растворителе и высушите сжатым воздухом.
 
-Install the screen and retaining clip.
+Установите экран и сохраните клип.
 
 ![[06400008.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the injector assembly with electrical contact cleaner, Part Number 3824510, or equivalent. Allow to air dry completely.
+Очистить форсунка сборкой с помощью электрического контактного очистителя, Номер детали 3824510, или эквивалент. Позвольте воздуху полностью высохнуть.
 
-Do **not** use compressed air to dry or clean the injector.
+Не используйте сжатый воздух для сушки или очистки топливного форсунка.
 
 ![[06400291.png]]
 
-Inspect the nozzle tip for damage.
+Проверьте наконечник сопла на предмет повреждения.
 
-Replace injectors with damaged nozzles that prevent fuel delivery into the combustion chamber.
+Заменить форсунка поврежденными соплами, препятствующими подаче топлива в камеру сгорания.
 
-If the injector tip is damaged, inspect the cylinder bore and combustion chamber for damage as well.
+Если наконечник форсунки поврежден, проверьте цилиндр цилиндра и камеру сгорания на предмет повреждения.
 
 ![[06400292.png]]
 
-Inspect the injector body for signs of corrosion, cracks, or any other damage.
+Осмотрите корпус форсунки на наличие признаков коррозии, трещин или любых других повреждений.
 
-Inspect the o-ring grooves for damage that does **not** allow the o-rings to seal properly.
+Осмотрите канавки с кольцом на предмет повреждения, которое не позволяет кольцевым кольцам правильно запечатываться.
 
 ![[06400293.png]]
 
-Inspect the T-fitting on top of the injector where the injector supply lines attach.
+Осмотрите Т-образную установку поверх форсунки, где прикреплены линии подачи форсунки.
 
-Inspect for corrosion, cracks and other damage that does **not** allow for proper sealing of the injector supply lines.
+Проверка на коррозию, трещины и другие повреждения, которые не позволяют обеспечить надлежащее уплотнение линий подачи форсунки.
 
-Replace damaged injectors.
+Заменить поврежденный форсунка.
 
 ![[06400294.png]]
 
-Inspect the o-ring/damper for wear, cracks, or other damage. Replace, if damaged.
+Осмотрите кольцо / демпфер на износ, трещины или другие повреждения. Заменить, если поврежден.
 
 ![[06600268.png]]
 
-If the valve cover shows signs of oil leakage around the injector, replace the o-ring/damper.
+Если в клапанном узле крышки имеются признаки утечки масла вокруг топливного форсунка, замените кольцо/заслон.
 
-Inspect the injector wiring for damaged wires, shrink tubing, elbow, and connector.
+Осмотрите проводку топливного форсунка на поврежденные провода, термоусадочную трубку, локоть и разъем.
 
 ![[06600269.png]]
 
-### Calibrate
+### калибровать
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!note] Note · Примечание
-> The following information for the Mechanically Actuated Injector applies to the step timing control injector for the K38 and K50 engines.
+> [!note] Примечание
+> Следующая информация для форсунки с механическим приводом относится к топливному форсунке с контролем времени шага для двигателей K38 и K50.
 
-This procedure requires special equipment and **must** be done at a Cummins® Authorized Repair Location.
+Эта процедура требует специального оборудования и должна быть выполнена в авторизованном месте ремонта Cummins®.
 
 ![[fi801ua.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Calibration is **not** required for the Modular Common Rail Fuel System.
+Калибровка не требуется для модульной общей системы железнодорожного топлива.
 
 ![[06400349.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Identify the o-rings so they can be installed in the correct groove.
+Определите кольца, чтобы они могли быть установлены в правильной канавке.
 
-- O-ring (1) has a red dot or stripe and is dull gray in appearance.
-- O-ring (2) has no markings.
-- O-ring (3) has a green dot or stripe. The o-ring has a shiny black appearance.
+- О-кольцо (1) имеет красную точку или полосу и имеет тусклый серый вид.
+- У кольца (2) нет маркировки.
+- У кольца О (3) есть зеленая точка или полоса. У кольца блестящий черный вид.
 
-Lubricate the o-rings with vegetable oil and install them in the appropriate location.
+Смазать кольца растительным маслом и установить их в соответствующем месте.
 
-Install the proper size seal ring (4).
+Установите кольцо печати правильного размера (4).
 
 ![[fi4orga.png]]
 
-Position the standard injector in the bore. Turn the injector so that the injector screen points towards the hold down capscrew hole on the intake side of the cylinder head.
+Поместите стандартный форсунка в цилиндр. Поверните форсунка так, чтобы экран форсунки указывал в сторону отверстия для удерживания болтов на впускной стороне головки цилиндра.
 
-> [!note] Note · Примечание
-> Full top-stop injector and early top-stop injector plunger travel can **only** be adjusted when the injectors are removed from the engine. Use adjusting tool, Part Number 3822696, to set the injectors.
+> [!note] Примечание
+> Полный топовый форсунка и ранний топовый форсунка плунжер могут быть отрегулированы только тогда, когда форсунка удален из двигателя. Используйте инструмент регулировки, номер детали 3822696, для установки форсунки.
 
-![[06600563.png]]
+> [!missing]- Иллюстрация `06600563.png` не извлечена — смотрите PDF-оригинал документа
 
-Do **not** allow the STC tappet to fall out of the STC (top-stop) injector. Damage can result.
+не допускать выпадения крана STC из форсунки STC (top-stop). Ущерб может быть.
 
-The STC tappet **must** be near the rocker lever assembly.
+Кран STC **должен** находиться рядом с клапанным клапаном, расположенным на рычаге крепления.
 
 ![[fi8taha.png]]
 
-Do **not** push the injector on the seat until it is correctly aligned.
+Не толкайте форсунка на сиденье, пока он не будет правильно выровнен.
 
-Place the STC injector in the bore. Turn the injector so the hole in the top-stop screw points to the oil supply hole in the rocker lever housing.
+Поместите форсунка STC в цилиндрический отсек. Поверните форсунка так, чтобы отверстие в верхнем винте указывало на отверстие подачи масла в корпусе рычага качения клапана.
 
-Use the oil jumper tube and the connector screw as tools. Turn the injector until the holes are aligned. Remove the connector screw and the tube.
+Используйте масляную прыгунную трубку и соединительный винт в качестве инструментов. Поверните форсунка, пока отверстия не выровнены. Удалите соединительный винт и трубку.
 
 ![[fi400ha.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use a wooden tool to push the injector onto the seat. Failure can result because of splinters falling into the tappet.
+> [!warning] ОСТОРОЖНО
+> Не используйте деревянный инструмент, чтобы нажать на сиденье форсунка. Неудача может возникнуть из-за осколков, падающих в кран.
 
-Apply a quick hard push with a blunt object that touches the top-stop screw to seat the injector.
+Примените быстрый жесткий толчок с тупым предметом, который касается верхнего винта, чтобы усадить форсунка.
 
-A single snapping sound will be heard when the injector is seated properly.
+Один щелчок будет слышен, когда форсунка будет правильно установлен.
 
 ![[fi800hb.png]]
 
-Install the hold-down clamp and the self-locking capscrews.
+Установите зажим и самоблокирующиеся болты.
 
-Tighten the capscrews alternately and evenly so the clamp will be centered on the injector body.
+Затягивайте болты поочередно и равномерно, чтобы зажим был сосредоточен на корпусе форсунки.
 
-> [!tip] Момент затяжки · Torque Value
-> 16.2 n•m [145 in-lb]
+> [!tip] Момент затяжки
+> 16.2 Н·м [145 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Engines equipped with STC injectors, have the hold down clamp already fitted to the injector.
+> [!note] Примечание
+> Двигатели, оснащенные топливным форсункой STC, имеют зажим удерживания, уже установленный на топливном форсунке.
 
 ![[fi4hwha.png]]
 
-Install the o-ring (1) on the jumper tube. Lubricate the o-ring with clean engine oil. Install the jumper tube and the copper sealing washers (2).
+Установите кольцо (1) на прыгунную трубку. Смажьте уплотнительное кольцо чистым моторным маслом. Установите трубку-прыгун и медные герметизирующие шайбы (2).
 
-Install the connector screw and tighten.
+Установите соединительный винт и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-> [!note] Note · Примечание
-> The oil jumper tubes for full stop STC injectors are 8 mm \[5/16\] shorter.
+> [!note] Примечание
+> Трубки для перемычки масла для полной остановки форсунки STC на 8 мм \[5/16\] короче.
 
 ![[he4tbha.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-If the o-ring/damper is damaged, install a new o-ring/damper on the injector.
+Если кольцо/заглушка повреждено, установите новое кольцо/заглушка на форсунка.
 
 ![[06600270.png]]
 
-Install the new o-rings on the injector body.
+Установите новые кольца на корпус форсунки.
 
 ![[06400289.png]]
 
-Install the new seal on the end of the injector.
+Установите новое уплотнение на конце форсунки.
 
 ![[06600273.png]]
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of these components can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Не используйте повторно топливные форсунки для удерживания или уплотнение для сгорания топливного форсунка. Повторное использование этих компонентов может привести к повреждению двигателя.
 
-> [!warning] CAUTION · Осторожно
-> Keep the injector bore and combustion chamber protected when using compressed air to prevent contamination. Failure to do so can cause engine damage.
+> [!warning] ОСТОРОЖНО
+> Держите форсунка цилиндра и камеру сгорания защищенными при использовании сжатого воздуха для предотвращения загрязнения. Неспособность сделать это может привести к повреждению двигателя.
 
-> [!note] Note · Примечание
-> On applications with high drain line head pressure, it is possible for fuel to leak from the drain line into the cylinder when the injector is removed. Before installing the injector, check for fuel dripping into the cylinder and evacuate the fuel before installing the injector.
+> [!note] Примечание
+> На приложениях с высоким давлением на головке дренажной линии топливо может просачиваться из дренажной линии в цилиндр при удалении форсунки. Перед установкой форсунки проверьте, чтобы топливо капало в цилиндр и эвакуируйте топливо перед установкой форсунки.
 
-Clean the injector bore in the cylinder head with electrical contact cleaner, Part Number 3824510, or equivalent, for proper sealing of the o-rings.
+Очистить форсунка цилиндра, который находится в головке цилиндра с электрическим контактным очистителем, Номер детали 3824510, или эквивалент, для надлежащего герметизации колец.
 
-Clean the threaded hole in the cylinder head where the injector hold-down capscrew will be installed with electrical contact cleaner, Part Number 3824510, or equivalent, and compressed air.
+Очистите резьбовое отверстие в головке цилиндра, где топливные форсунки будут установлены с электрическим контактным очистителем, Номер детали 3824510 или эквивалентом, и сжатым воздухом.
 
 ![[06400364.png]]
 
-Lubricate the threads and underside of the new injector hold-down capscrew with clean lubricating engine oil.
+Смазать резьбу и нижнюю часть новых топливных форсунок с помощью чистого смазочного моторного масла.
 
 ![[06400365.png]]
 
-Lubricate all the o-rings with a light coating of clean lubricating engine oil.
+Смазать все кольца легким покрытием из чистого смазочного моторного масла.
 
 ![[06400366.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Не используйте повторно топливные форсунки для удерживания или уплотнение для сгорания топливного форсунка. Повторное использование этих компонентов может привести к повреждению двигателя.
 
-Assemble the injector hold-down clamp and capscrew into the injector.
+Соберите зажим и болты форсунки в форсунка.
 
 ![[06s00062.png]]
 
-> [!warning] CAUTION · Осторожно
-> Only use a soft face mallet. Otherwise damage to the injector can occur.
+> [!warning] ОСТОРОЖНО
+> Используйте только мягкий лицевой молоток. В противном случае может произойти повреждение форсунки.
 
-The injector installer can be used on single or multiple injector installations.
+Установщик форсунки может использоваться на одиночных или нескольких топливных форсуночных установках.
 
-Install the assembly into the cylinder head by tapping gently on the injector with a soft face mallet.
+Установите сборку в головку цилиндра, мягко постукивая по топливной форсунке мягким лицевым молотком.
 
 ![[06400368.png]]
 
-Assemble the injector installer kit, Part Number 4918620. Finger tighten the three shoulder capscrews.
+Соберите комплект установки форсунки, номер детали 4918620. Пальцем затянуть три плечевых болта.
 
 ![[06400369.png]]
 
-Place the injector installer on the injector such that the ball spring plunger on the installer is on the tapered side of the injector (1). If necessary, adjust the ball spring plunger so that it presses against the injector. Make sure the flat side of the injector (2) sits flush with the injector installer.
+Поместите установщик форсунки на форсунка таким образом, чтобы шаровой пружинный плунжер на установщике находился на суженной стороне форсунки (1). При необходимости отрегулировать шаровой пружинный плунжер так, чтобы он прижимался к топливному форсунке. Убедитесь, что плоская сторона форсунки (2) находится в промывке с установщиком форсунки.
 
 ![[06400370.png]]
 
-Align the injector installer with two injectors.
+Выровнять установщик форсунки с двумя топливными форсунками.
 
-Tighten the three shoulder capscrews.
+Затяните три плечевых болта.
 
 ![[06400371.png]]
 
-The 60 degree torque angle can be achieved by marking the location of one corner of the capscrew to a location on the injector hold-down clamp.
+Угол крутящего момента 60 градусов может быть достигнут путем маркировки местоположения одного угла болтов к месту на зажиме удерживания форсунки.
 
-Torque Value:
+Момент затяжки:
 
-Injector Hold-Down Clamp Capscrew
+форсунка Hold-Down Clamp болты
 
 ![[06400297.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-- Install the rocker lever assembly. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
-- Adjust the overhead. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-- For STC Injectors, adjust the overhead. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-007-tr — Overhead Set (Travel Method)|Refer to Procedure 003-007 in Section 3.]]
-- Install the rocker lever cover and all related parts. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Operate the engine and check for leaks.
+- Установите клапанный клапанный крепеж. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Отрегулируйте накладные расходы. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
+- Для форсунки STC отрегулируйте накладные расходы. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-007-tr — Overhead Set (Travel Method)|См. процедуру 003-007 в разделе 3.]]
+- Установите крышку рычага клапанного клапана и все связанные с ней части. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-- Adjust the valves. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-- Install the two-piece rocker lever cover. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Remove the injector protective plugs, Part Number [[4918767]].
-- Install the injector fuel supply lines. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-- Operate the engine and check for leaks.
+- Отрегулируйте клапаны. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
+- Установите двухсекционную крышку рычага клапанного качалки. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Удалите защитные заглушки форсунки, часть номер[[4918767]].
+- Установите линии подачи топлива форсунки. См. GTA38, K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[nobox.png]]
 
@@ -724,3 +734,565 @@ with Electronically Actuated Injector
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[4918767]] | Protective Plug | Защитная пробка |
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> Warranty repairs **must** be performed at a Cummins® Authorized Repair Location to accurately calibrate, test, and repair the fuel systems on Cummins® engines.
+>
+> When removing the injectors from the engine, compare the injector assembly part number with the appropriate Control Parts List (CPL) assembly part number listed in the CPL manual, Bulletin 3379133.
+>
+> **Note · Примечание**
+> The injector plunger and the barrel are machined to a very precise tolerance and are available as a match-fit assembly **only**. Do **not** mix the plungers and the barrels. **Always** replace the plunger and the barrel as a matched assembly if the injector is rebuilt.
+>
+> **Note · Примечание**
+> The outer base circle (OBC) valve and injector setting procedure can be used for all fixed time PT™ and hydraulic variable timing/STC engines, regardless of CPL or build date.
+>
+> **Note · Примечание**
+> All STC injector locknuts are made of powdered metal. These locknuts are porous by nature. When air pressure is applied to the STC oil delivery system, it is normal to see air bubbles form on the locknut. This is acceptable leakage. However, an audible air leak from a crack or hole in the locknut is unacceptable.
+>
+> The injector barrel, plunger assembly, and injector cup are the parts most commonly replaced when rebuilding an injector.
+>
+> The barrel, plunger assembly, and plunger to cup seal **must** pass an injector leakage test. See the Injector PT™ Rebuild Manual, Bulletin 3379071.
+>
+> The injector stop screw was designed for standardization purposes. The stop screw is used to adjust the top-stop setting of the injector, and also acts as a housing for the tappet assembly. The revised injector stop screw can be used in all previous STC injector assemblies.
+>
+> KT injector cups were released for the KTA marine injector in September, 1987 (Engine Serial Number first 33112795).
+>
+> Due to injector plunger wear, a more durable D4 material replaced the 4140 material on the 9.5 mm \[ 0.37 in \] plunger in November, 1987 (Engine Serial Number first 33113265).
+>
+> The following injectors have been fitted to K38 and K50 engines. Although this is **not** a complete list, it does cover the basic injector configurations which have been used.
+>
+> The Standard K (non-top-stop) injector was the first injector fitted to the KV Series engine.
+>
+> Reduced Drain Flow injectors were released as follows:
+>
+> | Engine | Engine Serial Number | Release Date |
+> |---|---|---|
+> | KTTA50-C | 33111642 | November 15, 1986 |
+> | KT50-C | 33111665 | November 15, 1986 |
+> | KTA50-C | 33111645 | November 15, 1986 |
+> | KTA50-G | 33111204 | November 15, 1986 |
+> | KTTA38-G | 33111291 | November 15, 1986 |
+>
+> The injectors contained the same parts as previous injectors, except for the barrel and plunger assembly.
+>
+> The injector drain flow is decreased by reducing the drain passage in the reduced drain flow barrel. The lower drain flow reduces the total flow required. The reduction in flow allows the use of the PT™ (Type G) pump in place of the PT™ (Type H) pump. It also allows the use of a 19 mm \[ 0.75 in \] PT™ (Type G) gear pump on K38 engines that previously used the 32 mm \[ 1.25 in \] PT™ (Type G) gear pump.
+>
+> **CAUTION · Осторожно**
+> Reduced drain flow injectors must be used in complete sets due to the differences in total flow between the previous standard and reduced drain flow injectors. Failure to do so can result in engine damage.
+>
+> Reduced drain flow injector assemblies were released for STC and non-STC injector configurations.
+>
+> A full top-stop injector was released for K series engines in July, 1987 (Engine Serial Number first 33112560). This injector replaced the K hydraulic variable timing/STC injector. The full top-stop injector performs the same function as the previous K hydraulic variable timing/STC injectors, advancing the injection timing by trapping engine oil in the injector's hydraulic tappet. However, the revised injector has an additional top-stop feature to help reduce overhead wear. A top cap is used to stop the upward movement of the STC tappet. This unloads the injector train briefly, allowing oil to lubricate the link and socket joints.
+>
+> Several of the components of the previous K hydraulic variable timing/STC injector were redesigned in order to convert to the full top-stop design, and some additional components were added.
+>
+> The revised K full top-stop STC injector required a different oil transfer tube. The older tube was 7.93 mm \[ 0.3125 in \] longer, and will **not** fit into the oil feed locknut of the revised injector.
+>
+> The K family STC injector was released for service and production on single stage uprate engines in February, 1988 (Engine Serial Number first 33113700).
+>
+> These injectors are a similar style to the full top-stop STC injector. However, there are several differences.
+>
+> - Injector Adapter - The adapter has two major features which make it different from the K STC injector adapter. First, the adapter was modified so that the same o-ring can be used at all three o-ring locations. Second, the adapter has locations for two orifice plugs, one on either side of the adapter.
+> - Injector Cup - It has a revised style cup, with a larger diameter tip that improves strength and reliability.
+> - Injector Cup Retainer - This was designed to accommodate the revised style cup and to improve ease of assembly.
+> - Injector Plunger - The plunger blank is longer than the previous K STC plunger blank. The length was added to the minor diameter areas to allow more fuel capacity.
+> - Injector Plunger Coupling - The injector plunger coupling is shorter than the previous K STC plunger coupling to compensate for the longer plunger blank. The overall length of the two different plunger and coupling assemblies after crimping is approximately the same. Previous injector plungers are **not** interchangeable with the new style.
+> - Internal Plunger Link - A revised internal link was fitted. It is shorter than the internal K STC plunger link in order to compensate for the longer injector plunger. The overall length of the revised link is 59.31 mm \[ 2.335 in \].
+> - Injector Plunger Return Spring - The injector utilizes a revised plunger return spring due to the higher travel requirements.
+>
+> Press-Fit plungers and ceramic inner links were released for the standard K STC injector assemblies. The combination of these two features improves injector reliability and durability.
+>
+> Press-Fit plunger assemblies have a stronger joint between the coupling and plunger.
+>
+> A revised oil feed locknut and top-stop screw were released for K STC injectors. The revised oil feed locknut has the appropriate total travel settings stamped on it. The revised top-stop screw is 1.78 mm \[ 0.070 in \] longer than the previous top-stop screw.
+>
+> In the STC injector, injection timing is controlled by the STC hydraulic tappet. The tappet has an inner piston (plunger) and an outer piston (sleeve).
+>
+> **Note · Примечание**
+> The plunger and sleeve are machined to very precise tolerances. The assembly is matched by a selection process at the factory (match-fit). **Never** exchange or combine the plungers and the sleeves.
+>
+> These tappet components work together with the injector plunger to control injection timing. The tappet assembly can be used with any STC top-stop nut because they are **not** matched.
+>
+> The tappet assembly and injector are **not** matched sets. The tappet assembly can be used in any STC injector. Cummins Inc. recommends STC tappet disassembly **only** if there is evidence that debris caused by an engine failure has moved beyond the full-flow filters. Any debris in the tappet will lower the performance of the tappet.
+>
+> The method of adjusting the injection timing and injector rocker lever travel on engines with STC is the same as the method on engines without STC. The specification for injector travel and injection timing on engines with STC is different than engines without STC.
+>
+> The Premium K STC injector assembly supersedes and obsoletes all Standard and Family K STC injector assemblies.
+>
+> This injector includes the following features:
+>
+> - Press-fit barrel and plunger assembly
+> - Longer barrel
+> - Revised oil feed locknut
+> - Revised top-stop screw
+> - Ceramic inner link
+> - Stronger cup.
+>
+> The revised injector is more reliable and durable than the Standard and Family K STC injectors without the press-fit barrel and plunger assembly and ceramic link.
+>
+> Standard K STC injectors can **not** be converted to a Premium K STC injector. Very few parts are interchangeable. The full injector assembly **must** be replaced.
+>
+> Family K STC injectors can be converted to Premium K STC. However, no reliability or durability improvement will be gained if the Family K STC injectors have press-fit barrel and plunger assemblies and ceramic links. Press-fit barrel and plunger assemblies and ceramic links are available for Family K STC injectors.
+>
+> with Electronically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of these components can result in engine damage.
+>
+> The injector consists of the following components:
+>
+> 1. O-ring/damper
+> 2. Capscrew
+> 3. Injector hold-down clamp
+> 4. Seal
+> 5. O-rings
+> 6. Injector.
+>
+> ### Initial Check
+>
+> with Electronically Actuated Injector
+>
+> Misfire Using Heat Indicator Marker
+>
+> **Note · Примечание**
+> This procedure will possibly **not** be effective when the symptoms occur only at low idle or when the engine is cold.
+>
+> If the engine exhibits symptoms of a possible injector **not** firing, perform the following check:
+>
+> - Operate the engine to normal operating coolant temperature of 80°C \[ 180°F \].
+> - Stop the engine and allow the exhaust manifold to cool for 10 minutes.
+> - Use a 204°C \[400°F\] temperature indicator marker, Part Number 3165163, to apply a mark (1) on the surface of all exhaust manifold ports. The mark **must** be as close to the cylinder head as possible, but **not** directly on the exhaust manifold mounting flange.
+> - Start the engine and operate under light load for a short time. Do **not** operate the engine under heavy load or for an extended period of time, as this can cause inaccurate results.
+>
+> **Note · Примечание**
+> It is **not** recommended to use the temperature indicator markers to troubleshoot for cylinders that are operating too hot.
+>
+> If the 204°C \[ 400°F \] mark melts (1) the color will disappear and leave only a transparent glazed appearance where the mark was. This indicates that the cylinder is operating at a temperature above 204°C \[ 400°F \].
+>
+> If the 204°C \[ 400°F \] mark does not melt (2) the mark color remains present. This indicates that the cylinder is not operating at or above a temperature of 204°C \[ 400°F \], indicating a possible injection malfunction.
+>
+> Reference the Engine Performance Troubleshooting Tree for additional troubleshooting information.
+>
+> with Electronically Actuated Injector
+>
+> Misfire Using Injector Testor Tool
+>
+> **Note · Примечание**
+> This test **must** be performed with the engine shut down for at least 5 minutes.
+>
+> **Note · Примечание**
+> If the engine is equipped with CM2150 ECMs (1), cover the plug with a lint-free cloth. Slowly loosen the plug on the last injector of the high-pressure fuel lines 1/4 to 1/2 turn. The plug does **not** need to be removed to relieve the pressure. Connect INSITE™ electronic service tool and verify the fuel pressure has bled down by monitoring the fuel rail pressure.
+>
+> If the engine exhibits symptoms of an injector **not** firing, perform the following check using the Injector Tester (1)(2), Part Number 2892293:
+>
+> 1. Plug the tool harness into the injector tester tool via the 4-pin connector.
+> 2. Plug the tool harness into the engine harness via the 9-pin connector.
+> 3. Verify the injector tester tool's yellow READY light is illumintated. If not, verify power supply to the 9-pin connector. If illuminated, proceed.
+> 4. Turn the keyswitch ON.
+> 5. Plug the tool harness into injector via the 2-pin connector.
+> 6. Fully depress and release the injector tester tool's PRESS TO TEST button.
+>
+> - If the green PASS light is illuminated, the injector is functioning.
+> - If the red FAIL light is illuminated, the injector is failed and must be replaced.
+>
+> Repeat steps 5 and 6 until all injectors have been tested.
+>
+> Misfire Using Infrared Thermometer
+>
+> If the engine exhibits symptoms of a injector **not** firing, perform the following check:
+>
+> - Operate the engine to normal operating coolant temperature of 80°C \[ 180°F \].
+> - Once the engine has reached normal operating temperature, continue operating the engine and perform the following check.
+>
+> Use an infrared thermometer, Part Number 3164487 or equivalent, to measure and record the surface temperature of the exhaust manifold ports.
+>
+> **Note · Примечание**
+> It is important to measure as close to the cylinder head as possible and in the same location on each of the exhaust manifold ports.
+>
+> If an exhaust manifold port surface temperature is more than 40°C or 72°F (for electronically actuated injectors) or 93°C or 167°F (for mechanically actuated injectors) colder than the average surface temperature of all exhaust ports, this indicates a possible injector malfunction.
+>
+> ### High-Pressure Injector Return Flow Test
+>
+> with Electronically Actuated Injector
+>
+> Remove the injector drain flow hose from the fuel drain manifold block located on the left bank of the engine. Remove the hose from the drain manifold block end (1) **only.** See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-013 — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+>
+> The union fitting in the fuel drain block **must** be capped to prevent fuel leakage during the test. It can be capped with Part Number 3164801, or equivalent.
+>
+> Run the injector drain flow hose into a graduated cylinder to collect drain fuel flow. The cylinder must be capable of holding at least 300 ml \[10 oz\].
+>
+> Disconnect each of the individual 2-pin injector electrical connectors (12 for QSK38 and 16 for QSK50). Use the following procedure in the QSK38, QSK50, and QSK60 (CM850 Modular Common Rail System) Troubleshooting and Repair Manual, Bulletin 4021533. [[122-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19]].
+>
+> With the return flow hose routed to the graduated cylinder, crank the engine at a minimum of 150 rpm for 30 seconds in 10 second intervals.
+>
+> **CAUTION · Осторожно**
+> Do not overheat the starters. Damage to the starters can result.
+>
+> The volume of fuel collected during the 30 second crank cycle **must** be less than the volume indicated in the table below.
+>
+> | Measured Return Flow |  |
+> |---|---|
+> | Engine | Volume |
+> | QSK38 | 150 ml \[5 oz\] |
+> | QSK50 | 200 ml \[6.75 oz\] |
+>
+> Remove the cap from the male union and install the fuel drain hose at the fuel drain block.
+>
+> Tighten the hose.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> ### High-Pressure Injector Return Flow Isolation Test
+>
+> with Electronically Actuated Injector
+>
+> Drain the LTA cooling system. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+>
+> Remove the intake manifolds. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+>
+> Install the fuel drain hose on cylinder number 1 LB in place of the banjo bolt through the fuel drain line that routes to the fuel drain block. The fuel drain hose for the QSK38 and QSK50 is Part Number 4918679.
+>
+> Place the end of the fuel injector drain line fuel return flow hose in a small graduated cylinder to collect return flow.
+>
+> Disconnect each of the individual 2-pin injector electrical connectors (12 for QSK38 and 16 for QSK50). Use the following procedure in the QSK38, QSK50, and QSK60 (CM850 Modular Common Rail System) Troubleshooting and Repair Manual, Bulletin 4021533. [[122-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19.]]
+>
+> With the return flow hose routed to the graduated cylinder, crank the engine at a minimum of 150 rpm for 30 seconds in 10 second intervals.
+>
+> **CAUTION · Осторожно**
+> Do not overheat the starters. Damage to the starters can result.
+>
+> Record the amount of fuel collected.
+>
+> Swap the fuel drain hose and banjo bolt between cylinders 1 LB and 2 LB.
+>
+> Place the end of the fuel injector drain line fuel return flow hose in a small graduated cylinder to collect return flow.
+>
+> Crank the engine at least 150 rpm for 30 seconds in 10 second intervals.
+>
+> **CAUTION · Осторожно**
+> Do not overheat the starters. Damage to the starters can result.
+>
+> Record the amount of fuel collected.
+>
+> Repeat the previous step until drain flow has been recorded for all cylinders on both banks.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | ml | fl-oz |
+> | Isolated Injector Return Flow with Engine Cranking at 150 rpm for 30 Seconds | 15 | 0.5 |
+>
+> **CAUTION · Осторожно**
+> Do not overheat the starters. Damage to the starters can result.
+>
+> Replace injectors on any cylinder that has more leakage than specified above.
+>
+> If any injectors were replaced, repeat the test on each of the cylinders until all cylinders have less flow than specified.
+>
+> Remove the fuel drain hose and assemble the fuel drain lines. Refer to Procedure 006-013 in Section 6.
+>
+> Install the intake manifolds. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-010-002-tr — Aftercooler Assembly|Refer to Procedure 010-002 in Section 10.]]
+>
+> Fill the cooling system. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+>
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Remove the rocker lever cover and all related parts. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Remove the rocker lever assembly. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+>
+> with Electronically Actuated Injector
+>
+> - Remove the injector fuel supply lines. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Install the injector protective plugs, Part Number [[4918767]].
+> - Remove the two-piece rocker lever cover. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> This step applies to engines equipped with STC injectors.
+>
+> Remove the STC banjo connector mounting screw.
+>
+> Remove the banjo connector.
+>
+> Remove and discard the sealing washer (48) and o-ring (49).
+>
+> Remove the injector hold down capscrew.
+>
+> Remove the injector hold down clamp. Non STC **only**.
+>
+> **CAUTION · Осторожно**
+> Do not allow the STC tappet to fall out of the injector. Engine damage can result.
+>
+> **Note · Примечание**
+> The rocker lever housing has been removed from the illustration for clarity.
+>
+> For top-stop injectors, use injector puller, Part Number 3376497.
+>
+> Make sure the puller arms are firmly under the top-stop screws.
+>
+> Tighten the clamping ring (1).
+>
+> Use the slide hammer to remove the injector.
+>
+> For standard injectors, use injector puller, Part Number 3376000 or 3376497.
+>
+> Place the split collar over the injector.
+>
+> Slide the locking collar over the injector
+>
+> Use the slide hammer to remove the injector.
+>
+> **Note · Примечание**
+> If the injector pullers mentioned above are **not** available, carefully use a pry bar. Pry upward in the injector against the cylinder head.
+>
+> with Electronically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of these components can result in engine damage.
+>
+> **Note · Примечание**
+> Do **not** reuse protective plugs. The protective plugs **must** be used immediately upon removal from the plastic wrapping. If they are **not** used immediately, the protective plugs **must** be discarded. If the protective plugs are fouled in any manner before use, the protective plugs **must** be discarded and a new set used.
+>
+> If **not** already completed, plug the ports in each side of the injector T-fitting with the injector protective plugs before removing the injector. Make sure the plugs are wedged firmly into place. This will prevent debris from entering and causing damage to the injector.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, place a clean rag around the injector as well as wear goggles or a face shield to prevent injury from fuel spray from residual fuel pressure while removing the injector.
+>
+> **WARNING · Опасно**
+> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
+>
+> **Note · Примечание**
+> On applications with high drain head pressure, such as a fuel tank mounted higher than the engine, shut off the fuel drain line valve and evacuate the fuel drain line of fuel before removing the injector.
+>
+> Remove and discard the injector hold-down capscrew.
+>
+> Use a heel bar to remove the injector. Place the heel between the injector body and the exhaust rocker lever and gently pry the injector from the injector bore.
+>
+> **Note · Примечание**
+> On applications with high drain line head pressure, such as a fuel tank mounted higher than the engine, it is possible for fuel to leak from the drain line into the cylinder when the injector is removed. After removing the injector, check for fuel dripping into the cylinder and evacuate the fuel before continuing in the removal procedure.
+>
+> Cover the injector bore in the cylinder head to prevent foreign objects from entering and possibly damaging the bore and combustion chamber.
+>
+> Remove and discard the seal on the end of the injector.
+>
+> Remove and discard the two o-rings on the injector.
+>
+> Do **not** remove the o-ring/damper at this time.
+>
+> ### Clean and Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acid, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Injector plungers and barrels have a precise fit and are damaged easily. Only trained technicians are authorized to remove the plungers. Do not allow the plunger to fall out of the injector.
+>
+> **Note · Примечание**
+> Sealing rings are available in different thicknesses to adjust the injector protrusion.
+>
+> Remove the o-rings (1), (2), and (3).
+>
+> Remove the sealing ring (4) and record the thickness.
+>
+> Clean the exterior of the injector with a lint free cloth.
+>
+> Check the area that makes contact with the injector.
+>
+> Check the orifice screen (5). It **must** be clean. If there is debris on the screen, remove the retaining clip and the screen for cleaning.
+>
+> Clean the screen in solvent and dry with compressed air.
+>
+> Install the screen and retaining clip.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the injector assembly with electrical contact cleaner, Part Number 3824510, or equivalent. Allow to air dry completely.
+>
+> Do **not** use compressed air to dry or clean the injector.
+>
+> Inspect the nozzle tip for damage.
+>
+> Replace injectors with damaged nozzles that prevent fuel delivery into the combustion chamber.
+>
+> If the injector tip is damaged, inspect the cylinder bore and combustion chamber for damage as well.
+>
+> Inspect the injector body for signs of corrosion, cracks, or any other damage.
+>
+> Inspect the o-ring grooves for damage that does **not** allow the o-rings to seal properly.
+>
+> Inspect the T-fitting on top of the injector where the injector supply lines attach.
+>
+> Inspect for corrosion, cracks and other damage that does **not** allow for proper sealing of the injector supply lines.
+>
+> Replace damaged injectors.
+>
+> Inspect the o-ring/damper for wear, cracks, or other damage. Replace, if damaged.
+>
+> If the valve cover shows signs of oil leakage around the injector, replace the o-ring/damper.
+>
+> Inspect the injector wiring for damaged wires, shrink tubing, elbow, and connector.
+>
+> ### Calibrate
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> The following information for the Mechanically Actuated Injector applies to the step timing control injector for the K38 and K50 engines.
+>
+> This procedure requires special equipment and **must** be done at a Cummins® Authorized Repair Location.
+>
+> with Electronically Actuated Injector
+>
+> Calibration is **not** required for the Modular Common Rail Fuel System.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> Identify the o-rings so they can be installed in the correct groove.
+>
+> - O-ring (1) has a red dot or stripe and is dull gray in appearance.
+> - O-ring (2) has no markings.
+> - O-ring (3) has a green dot or stripe. The o-ring has a shiny black appearance.
+>
+> Lubricate the o-rings with vegetable oil and install them in the appropriate location.
+>
+> Install the proper size seal ring (4).
+>
+> Position the standard injector in the bore. Turn the injector so that the injector screen points towards the hold down capscrew hole on the intake side of the cylinder head.
+>
+> **Note · Примечание**
+> Full top-stop injector and early top-stop injector plunger travel can **only** be adjusted when the injectors are removed from the engine. Use adjusting tool, Part Number 3822696, to set the injectors.
+>
+> Do **not** allow the STC tappet to fall out of the STC (top-stop) injector. Damage can result.
+>
+> The STC tappet **must** be near the rocker lever assembly.
+>
+> Do **not** push the injector on the seat until it is correctly aligned.
+>
+> Place the STC injector in the bore. Turn the injector so the hole in the top-stop screw points to the oil supply hole in the rocker lever housing.
+>
+> Use the oil jumper tube and the connector screw as tools. Turn the injector until the holes are aligned. Remove the connector screw and the tube.
+>
+> **CAUTION · Осторожно**
+> Do not use a wooden tool to push the injector onto the seat. Failure can result because of splinters falling into the tappet.
+>
+> Apply a quick hard push with a blunt object that touches the top-stop screw to seat the injector.
+>
+> A single snapping sound will be heard when the injector is seated properly.
+>
+> Install the hold-down clamp and the self-locking capscrews.
+>
+> Tighten the capscrews alternately and evenly so the clamp will be centered on the injector body.
+>
+> **Момент затяжки · Torque Value**
+> 16.2 n•m [145 in-lb]
+>
+> **Note · Примечание**
+> Engines equipped with STC injectors, have the hold down clamp already fitted to the injector.
+>
+> Install the o-ring (1) on the jumper tube. Lubricate the o-ring with clean engine oil. Install the jumper tube and the copper sealing washers (2).
+>
+> Install the connector screw and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> **Note · Примечание**
+> The oil jumper tubes for full stop STC injectors are 8 mm \[5/16\] shorter.
+>
+> with Electronically Actuated Injector
+>
+> If the o-ring/damper is damaged, install a new o-ring/damper on the injector.
+>
+> Install the new o-rings on the injector body.
+>
+> Install the new seal on the end of the injector.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of these components can result in engine damage.
+>
+> **CAUTION · Осторожно**
+> Keep the injector bore and combustion chamber protected when using compressed air to prevent contamination. Failure to do so can cause engine damage.
+>
+> **Note · Примечание**
+> On applications with high drain line head pressure, it is possible for fuel to leak from the drain line into the cylinder when the injector is removed. Before installing the injector, check for fuel dripping into the cylinder and evacuate the fuel before installing the injector.
+>
+> Clean the injector bore in the cylinder head with electrical contact cleaner, Part Number 3824510, or equivalent, for proper sealing of the o-rings.
+>
+> Clean the threaded hole in the cylinder head where the injector hold-down capscrew will be installed with electrical contact cleaner, Part Number 3824510, or equivalent, and compressed air.
+>
+> Lubricate the threads and underside of the new injector hold-down capscrew with clean lubricating engine oil.
+>
+> Lubricate all the o-rings with a light coating of clean lubricating engine oil.
+>
+> **CAUTION · Осторожно**
+> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+>
+> Assemble the injector hold-down clamp and capscrew into the injector.
+>
+> **CAUTION · Осторожно**
+> Only use a soft face mallet. Otherwise damage to the injector can occur.
+>
+> The injector installer can be used on single or multiple injector installations.
+>
+> Install the assembly into the cylinder head by tapping gently on the injector with a soft face mallet.
+>
+> Assemble the injector installer kit, Part Number 4918620. Finger tighten the three shoulder capscrews.
+>
+> Place the injector installer on the injector such that the ball spring plunger on the installer is on the tapered side of the injector (1). If necessary, adjust the ball spring plunger so that it presses against the injector. Make sure the flat side of the injector (2) sits flush with the injector installer.
+>
+> Align the injector installer with two injectors.
+>
+> Tighten the three shoulder capscrews.
+>
+> The 60 degree torque angle can be achieved by marking the location of one corner of the capscrew to a location on the injector hold-down clamp.
+>
+> Torque Value:
+>
+> Injector Hold-Down Clamp Capscrew
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Install the rocker lever assembly. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Adjust the overhead. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+> - For STC Injectors, adjust the overhead. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-007-tr — Overhead Set (Travel Method)|Refer to Procedure 003-007 in Section 3.]]
+> - Install the rocker lever cover and all related parts. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Operate the engine and check for leaks.
+>
+> with Electronically Actuated Injector
+>
+> - Adjust the valves. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+> - Install the two-piece rocker lever cover. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Remove the injector protective plugs, Part Number [[4918767]].
+> - Install the injector fuel supply lines. See GTA38, K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Operate the engine and check for leaks.

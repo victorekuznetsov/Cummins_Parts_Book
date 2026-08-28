@@ -49,7 +49,8 @@ manuals:
   - "4021617"
   - "4021674"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-206.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-206.pdf"
 tags:
@@ -64,6 +65,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Deutsch DTM and DTP Connector Series
@@ -77,52 +79,98 @@ tags:
 > **Даты:** изменён 2012-09-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-206.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-206.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The connector can have multiple pin configurations.
 
-The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
+### Замена пин
 
-Refer to the connector replacement procedure for replacement procedures.
+Разъем может иметь несколько конфигураций штифта.
 
-![[19802932.png]]
+Контакты разъема могут быть **не** отремонтированы или заменены. Разъем * должен быть заменен как блок.
 
-### Connector Replacement
-
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
-
-Refer to the appropriate wiring repair kit in the service tool table in the front of Section 19 for the correct repair connector.
-
-Refer to the wiring diagram in Section E for pin locations.
-
-The replacement connector shown in the following procedure is a 4-pin Deutsch series. All sizes of DTM connectors are replaced in the same manner.
+См. процедуру замены разъема для процедур замены.
 
 ![[19802932.png]]
 
-Measure 152 mm \[6 in\] back from the face of the connector and remove the wiring harness protective cover.
+### Замена разъёма
+
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
+
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
+
+Расположение контактов см. на электрической схеме в разделе E.
+
+Замещающий разъем, показанный в следующей процедуре, представляет собой 4-контактную серию Deutsch. Все размеры разъемов DTM заменяются одинаково.
+
+![[19802932.png]]
+
+Измерьте 152 мм \[6 в\] назад от поверхности разъёма и удалите защитную крышку жгута проводов.
 
 ![[19802933.png]]
 
-Before cutting the wires, measure and tag all wires.
+Перед тем как разрезать провода, измерьте и пометьте все провода.
 
-Use wire crimping tool, Part Number 3822930.
+Используйте инструмент для обжима проводов, номер детали 3822930.
 
-Cut wire A 102 mm \[4 in\] from the face of the connector.
+Отрежьте провод A 102 мм \[4 в\] от лицевой стороны разъема.
 
-Cut wire B 102 mm \[4 in\] from the face of the connector.
+Отрежьте провод B 102 мм \[4 в\] от лицевой части разъема.
 
 ![[19802934.png]]
 
-Use wire crimping tool, Part Number 3822930, to remove 6 mm \[¼ in\] of insulation from both electrical wires.
+Используйте инструмент для обжима проводов, номер детали 3822930, чтобы удалить 6 мм изоляции из обоих электрических проводов.
 
 ![[ee8coau.png]]
 
-Install the connector repair wires and use wire crimping tool, Part Number 3822930, to crimp the terminals.
+Установите провода для ремонта разъемов и используйте инструмент для обжима проводов, номер детали 3822930, для обжимания терминалов.
 
-Use heat gun, Part Number 3822860, to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+Используйте тепловую пушку, номер детали 3822860, для нагрева термоусадочной трубы. Трубка будет сжиматься и делать соединение водонепроницаемым.
 
 ![[19802935.png]]
 
-Wrap the wires with tape, for added protection, to complete the repair.
+Заверните провода лентой для дополнительной защиты, чтобы завершить ремонт.
 
-![[19802936.png]]
+> [!missing]- Иллюстрация `19802936.png` не извлечена — смотрите PDF-оригинал документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> The connector can have multiple pin configurations.
+>
+> The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
+>
+> Refer to the connector replacement procedure for replacement procedures.
+>
+> ### Connector Replacement
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Refer to the appropriate wiring repair kit in the service tool table in the front of Section 19 for the correct repair connector.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> The replacement connector shown in the following procedure is a 4-pin Deutsch series. All sizes of DTM connectors are replaced in the same manner.
+>
+> Measure 152 mm \[6 in\] back from the face of the connector and remove the wiring harness protective cover.
+>
+> Before cutting the wires, measure and tag all wires.
+>
+> Use wire crimping tool, Part Number 3822930.
+>
+> Cut wire A 102 mm \[4 in\] from the face of the connector.
+>
+> Cut wire B 102 mm \[4 in\] from the face of the connector.
+>
+> Use wire crimping tool, Part Number 3822930, to remove 6 mm \[¼ in\] of insulation from both electrical wires.
+>
+> Install the connector repair wires and use wire crimping tool, Part Number 3822930, to crimp the terminals.
+>
+> Use heat gun, Part Number 3822860, to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+>
+> Wrap the wires with tape, for added protection, to complete the repair.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4022102"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-042.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-042.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
+  - "перевод/машинный"
 ---
 
 # Engine Speed Sensor (ESS)
@@ -34,52 +36,104 @@ tags:
 > **Даты:** изменён 2009-12-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-042.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-042.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-QSK38 and QSK50 Engines
 
-Disconnect the sensor from the engine harness.
+### Снятие
 
-Remove the sensor from the mounting location.
+Двигатели QSK38 и QSK50
 
-![[19601221.png]]
+Отсоедините датчик от жгута проводов двигателя.
 
-QSK60 Engines
-
-Disconnect the sensor from the engine harness.
-
-Loosen the jam nut from the flywheel housing.
-
-Remove the sensor from the mounting location.
-
-![[19601223.png]]
-
-### Install
-
-QSK38 and QSK50 Engines
-
-Install a new o-ring onto the sensor.
-
-Apply clean engine oil to the o-ring.
-
-Install the new sensor into the mounting hole.
-
-> [!tip] Момент затяжки · Torque Value
-> 34 n•m [25 ft-lb]
-
-Connect the sensor to the engine harness.
+Удалите датчик из места установки.
 
 ![[19601221.png]]
 
-QSK60 Engines
+Двигатели QSK60
 
-Install the new sensor into the mounting hole until it contacts the flywheel. Back off ½ turn.
+Отсоедините датчик от жгута проводов двигателя.
 
-Tighten the jam nut.
+Освободите локон от обшивки маховика.
 
-> [!tip] Момент затяжки · Torque Value
-> 34 n•m [25 ft-lb]
-
-Connect the sensor to the engine harness.
+Удалите датчик из места установки.
 
 ![[19601223.png]]
+
+### Установка
+
+Двигатели QSK38 и QSK50
+
+Установите новое кольцо на датчик.
+
+Нанесите чистое моторное масло на кольцо.
+
+Установите новый датчик в монтажное отверстие.
+
+> [!tip] Момент затяжки
+> 34 Н·м [25 фунт-фут]
+
+Подключите датчик к жгуту проводов двигателя.
+
+![[19601221.png]]
+
+Двигатели QSK60
+
+Установите новый датчик в монтажное отверстие, пока он не свяжется с маховиком. Отойди от поворота.
+
+Затяните локон.
+
+> [!tip] Момент затяжки
+> 34 Н·м [25 фунт-фут]
+
+Подключите датчик к жгуту проводов двигателя.
+
+![[19601223.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> QSK38 and QSK50 Engines
+>
+> Disconnect the sensor from the engine harness.
+>
+> Remove the sensor from the mounting location.
+>
+> QSK60 Engines
+>
+> Disconnect the sensor from the engine harness.
+>
+> Loosen the jam nut from the flywheel housing.
+>
+> Remove the sensor from the mounting location.
+>
+> ### Install
+>
+> QSK38 and QSK50 Engines
+>
+> Install a new o-ring onto the sensor.
+>
+> Apply clean engine oil to the o-ring.
+>
+> Install the new sensor into the mounting hole.
+>
+> **Момент затяжки · Torque Value**
+> 34 n•m [25 ft-lb]
+>
+> Connect the sensor to the engine harness.
+>
+> QSK60 Engines
+>
+> Install the new sensor into the mounting hole until it contacts the flywheel. Back off ½ turn.
+>
+> Tighten the jam nut.
+>
+> **Момент затяжки · Torque Value**
+> 34 n•m [25 ft-lb]
+>
+> Connect the sensor to the engine harness.

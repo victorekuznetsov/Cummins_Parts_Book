@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-016-002-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-016-002-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Engine Support Bracket, Front
@@ -34,35 +36,66 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-016-002-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-016-002-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-Install the engine lifting fixture, Part Number 3162871.
+### Снятие
+
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+
+Установите подъемный механизм двигателя, номер детали 3162871.
 
 ![[ew400ha.png]]
 
-Remove the two capscrews that attach the support to the equipment frame.
+Удалите два болта, которые прикрепляют опору к раме оборудования.
 
-Use a hoist to lift the weight of the engine off the front support.
+Используйте подъемник, чтобы поднять вес двигателя с передней поддержки.
 
 ![[em4csma.png]]
 
-Use the engine support bracket kit, Part Number 3375272. Install one support bracket on each side of the engine.
+Используйте комплект для крепления кронштейна, номер детали 3375272. Установите одну опорную кронштейн на каждую сторону двигателя.
 
 ![[em4suhb.png]]
 
-Lower the engine until the support brackets are supporting the weight.
+Опустите двигатель, пока опорные скобки не поддержат вес.
 
 ![[ew400la.png]]
 
-Remove the front engine support bracket.
+Удалите переднюю опору двигателя.
 
 ![[em4suha.png]]
 
-Rail Applications
+Железнодорожное применение
 
-Remove the front support mounting bracket by removing fifteen capscrews and washers.
+Удалите переднюю опору крепления кронштейна, удалив пятнадцать болтов и шайб.
 
 ![[17400007.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the engine lifting fixture, Part Number 3162871.
+>
+> Remove the two capscrews that attach the support to the equipment frame.
+>
+> Use a hoist to lift the weight of the engine off the front support.
+>
+> Use the engine support bracket kit, Part Number 3375272. Install one support bracket on each side of the engine.
+>
+> Lower the engine until the support brackets are supporting the weight.
+>
+> Remove the front engine support bracket.
+>
+> Rail Applications
+>
+> Remove the front support mounting bracket by removing fifteen capscrews and washers.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc113.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc113.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Timing Rail Actuator Circuit - Shorted High
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc113.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc113.pdf)
 
-### Fault Code: 113
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Timing Rail Actuator Circuit - Shorted High
 
-Printable Version
+### Код неисправности: 113
 
-### Overview
+### Цепь привода рампы опережения — замыкание на плюс
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 113 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine timing actuator circuit - shorted high. Timing actuator circuit is open, or the timing rail actuator signal pin is shorted to ground, or the timing rail actuator return pin is shorted to battery. | No action by the ECM is taken. Actuator is open, closed, or partially closed. Engine power output will vary and white smoke can occur. Fault Code 112 can also be logged. |
+| Код неисправности: 113 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Схема привода привода двигателя синхронизации — закороченная высокая. Схема привода тайминга открыта, или контакт сигнала привода синхронизации закорочен на землю, или обратный контакт привода синхронизации закорочен на батарею. | Никаких действий со стороны ЕКМ не предпринимается. Актуатор открыт, закрыт или частично закрыт. Выходная мощность двигателя будет варьироваться, и может возникнуть белый дым. Также можно записать код 112. |
 
 ![[19803582.png]]
 
-Timing Rail Actuator Circuit
+Схема движения поездов
 
-### Circuit Description
+### Описание цепи
 
-The timing rail actuator circuit supplies current to the timing rail actuator(s). The engine control module (ECM) commands a varying amount of current to the timing rail actuator to control the amount of timing pressure to the injectors.
+Схема привода рельсового механизма синхронизации подает ток на привод (приводы) рельсового механизма (приводов) синхронизации. Модуль управления двигателем (ECM) командует переменным количеством тока к приводу рельса синхронизации для управления количеством давления синхронизации к топливному форсунке.
 
-### Component Location
+### Расположение компонента
 
-The timing rail actuators are located at the left side, toward top, of the ECVA.
+Приводы рельсов расположены с левой стороны, к вершине, ECVA.
 
-### Shoptalk
+### Практические замечания
 
-Confirm that the actuator connector is firmly in place. When there is power to the actuator(s), the actuator opens. This can cause Fault Code 112, timing flow mismatch.
+Подтвердите, что разъем привода прочно на месте. Когда есть питание к приводу(ам), привод открывается. Это может привести к неисправности кода 112, несоответствию потока времени.
 
-Refer to Troubleshooting Fault Code t05-113
+Устранение неполадок код t05-113
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 113
+>
+> ### Timing Rail Actuator Circuit - Shorted High
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 113 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine timing actuator circuit - shorted high. Timing actuator circuit is open, or the timing rail actuator signal pin is shorted to ground, or the timing rail actuator return pin is shorted to battery. | No action by the ECM is taken. Actuator is open, closed, or partially closed. Engine power output will vary and white smoke can occur. Fault Code 112 can also be logged. |
+>
+> Timing Rail Actuator Circuit
+>
+> ### Circuit Description
+>
+> The timing rail actuator circuit supplies current to the timing rail actuator(s). The engine control module (ECM) commands a varying amount of current to the timing rail actuator to control the amount of timing pressure to the injectors.
+>
+> ### Component Location
+>
+> The timing rail actuators are located at the left side, toward top, of the ECVA.
+>
+> ### Shoptalk
+>
+> Confirm that the actuator connector is firmly in place. When there is power to the actuator(s), the actuator opens. This can cause Fault Code 112, timing flow mismatch.
+>
+> Refer to Troubleshooting Fault Code t05-113

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1414.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1414.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Run Relay Contact Diagnostic
@@ -34,34 +36,74 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1414.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1414.pdf)
 
-### Fault Code: 1414
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Run Relay Contact Diagnostic
 
-### Run Relay Contact Diagnostic
+### Код неисправности: 1414
 
-Printable Version
+Диагностика контакта реле работы
 
-### Overview
+### Диагностика контакта реле работы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1414 PID(P): SPN: FMI: Lamp: Warning SRT: | Run relay contact diagnostic has detected an error. | The ECM will **not** be able to enter Run mode. |
+| Код неисправности: 1414 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Проверка контактной диагностики с помощью реле выявила ошибку. | ECM не сможет войти в режим Run. |
 
 ![[19802814.png]]
 
-Run Relay Contact Circuit
+Запуск контактной схемы Relay
 
-### Circuit Description
+### Описание цепи
 
-The ECM checks the run relay contact to make certain it is operating correctly. The ECM uses the contacts to determine that the engine is now in the Run mode. The ECM monitors the feedback from the status line to give the position of the run relay contact.
+ECM проверяет контакт реле запуска, чтобы убедиться, что он работает правильно. ECM использует контакты, чтобы определить, что двигатель находится в режиме Run. ECM отслеживает обратную связь от линии статуса, чтобы придать позиции контакта реле пробега.
 
-### Component Location
+### Расположение компонента
 
-Refer to Section E for the location of the run relay contact and the ECM.
+См. раздел E для определения местоположения контакта с ретранслятором пробега и ECM.
 
-### Shoptalk
+### Практические замечания
 
-The possible modes are open circuit, short to ground, bad run contact, and loss of supply voltage inside the ECM. When the Manual Run/Stop button is in the Run mode, if there is 24 VDC present at the Inline F switched B+ pin, then the circuit is working properly.
+Возможные режимы - открытая цепь, короткая к земле, плохой контакт с пробегом и потеря напряжения питания внутри ECM. Когда кнопка «Руководство по запуску/остановке» находится в режиме «Рунок», если на включённом B+-контакте Inline F присутствует 24 VDC, то схема работает должным образом.
 
-Refer to Troubleshooting Fault Code t05-1414
+См. Код устранения неисправностей t05-1414
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1414
+>
+> Run Relay Contact Diagnostic
+>
+> ### Run Relay Contact Diagnostic
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1414 PID(P): SPN: FMI: Lamp: Warning SRT: | Run relay contact diagnostic has detected an error. | The ECM will **not** be able to enter Run mode. |
+>
+> Run Relay Contact Circuit
+>
+> ### Circuit Description
+>
+> The ECM checks the run relay contact to make certain it is operating correctly. The ECM uses the contacts to determine that the engine is now in the Run mode. The ECM monitors the feedback from the status line to give the position of the run relay contact.
+>
+> ### Component Location
+>
+> Refer to Section E for the location of the run relay contact and the ECM.
+>
+> ### Shoptalk
+>
+> The possible modes are open circuit, short to ground, bad run contact, and loss of supply voltage inside the ECM. When the Manual Run/Stop button is in the Run mode, if there is 24 VDC present at the Inline F switched B+ pin, then the circuit is working properly.
+>
+> Refer to Troubleshooting Fault Code t05-1414

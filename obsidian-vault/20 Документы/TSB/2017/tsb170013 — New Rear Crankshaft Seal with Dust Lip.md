@@ -15,13 +15,15 @@ families:
   - "NT/NTA855 · ISM/QSM11"
 parts:
   - "3001772"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2017/tsb170013.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb170013.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
   - "год/2017"
+  - "перевод/машинный"
   - "тема/cylinder-block"
 ---
 
@@ -35,58 +37,117 @@ tags:
 > **Даты:** выпущен 2017-01-31 · изменён 2017-01-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2017/tsb170013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb170013.pdf)
 
-## New Rear Crankshaft Seal with Dust Lip
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый задний сальник коленвала с пыльником
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This TSB **only** applies to the following engines produced in India:
+### Содержание
 
-- NH/NT (All Versions)
-- NTA14 (All Versions)
-- QSN14 (All Verions)
+**Затронутая продукция**
 
-**Description of Change**
+Данный TSB* применяется только к следующим двигателям, производимым в Индии:
 
-This document announces a new rear crankshaft seal with dust lip which replaces the single lip rear crankshaft seal.
+- NH/NT (все версии)
+- NTA14 (все версии)
+- QSN14 (Все версии)
 
-**Reason for Change**
+**Описание изменения**
 
-New rear crankshaft seal has dust lip seal to prevent dirt ingress.
+В этом документе объявляется о новом уплотнении заднего коленчатого вала с помощью пылевой губы, которая заменяет одногубное уплотнение заднего коленчатого вала.
 
-**Service Parts Availability**
+**Причина изменения**
 
-Service parts are available. See Table 1 for part numbers.
+Новый задний уплотнитель коленчатого вала имеет уплотнение для губ пыли, чтобы предотвратить попадание грязи.
 
-| Table 1, Service Parts |  |  |  |  |
+**Наличие сервисных деталей**
+
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
+
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| Seal, Oil | 211253 | Yes | Yes | 4346552 |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| Уплотнение масляное | 211253 | Да | Да | 4346552 |
 
-> [!note] Note · Примечание
-> Rear crankshaft seal, dual lip, Part Number [[3001772]], used on N14, NH/NT 855 Rail and Mining market has **not** changed. Rear crankshaft seal and related service rear crankshaft seal part numbers will remain unchanged.
+> [!note] Примечание
+> Задняя коленчатая вала, двойная губа, номер детали[[3001772]], используемый на N14, NH/NT 855 Железнодорожный и Горный рынок не изменился. Задняя герметизация коленчатого вала и связанные с ней служебные номера деталей заднего герметика коленчатого вала останутся неизменными.
 
-**Production Status**
+**Статус в производстве**
 
-Implemented for production. See Table 2.
+Внедрено в производство. См. таблицу 2.
 
-| Table 2, Production Information |  |  |  |
+| Таблица 2, Информация о производстве |  |  |  |
 |---|---|---|---|
-| Model | ESN First | Build Date\* | Plant\*\* |
-| NH/NT 855 | 25422680 | 22-November-16 | CIL/India |
-| NTA14 | 25422805 | 6-December-16 | CIL/India |
-| QSN14 CM876 | 25423316 | 20-December-16 | CIL/India |
-| \*Engine build date can be found on the engine data plate. \*\*Engine manufacturing plant can be found on the engine data plate. |  |  |  |
+| Модель | ESN First | Дата создания* | Растение |
+| NH/NT 855 | 25422680 | 22-16 ноября | CIL/Индия |
+| NTA14 | 25422805 | 6 декабря-16 | CIL/Индия |
+| QSN14 CM876 | 25423316 | 20-16 декабря | CIL/Индия |
+| *Дата сборки двигателя может быть найдена на табличке данных двигателя. \*\ Завод по производству двигателей можно найти на табличке с данными о двигателе. |  |  |  |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3001772]] | OIL SEAL | Сальник |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Rear Crankshaft Seal with Dust Lip
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> This TSB **only** applies to the following engines produced in India:
+>
+> - NH/NT (All Versions)
+> - NTA14 (All Versions)
+> - QSN14 (All Verions)
+>
+> **Description of Change**
+>
+> This document announces a new rear crankshaft seal with dust lip which replaces the single lip rear crankshaft seal.
+>
+> **Reason for Change**
+>
+> New rear crankshaft seal has dust lip seal to prevent dirt ingress.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | Seal, Oil | 211253 | Yes | Yes | 4346552 |
+>
+> **Note · Примечание**
+> Rear crankshaft seal, dual lip, Part Number [[3001772]], used on N14, NH/NT 855 Rail and Mining market has **not** changed. Rear crankshaft seal and related service rear crankshaft seal part numbers will remain unchanged.
+>
+> **Production Status**
+>
+> Implemented for production. See Table 2.
+>
+> | Table 2, Production Information |  |  |  |
+> |---|---|---|---|
+> | Model | ESN First | Build Date\* | Plant\*\* |
+> | NH/NT 855 | 25422680 | 22-November-16 | CIL/India |
+> | NTA14 | 25422805 | 6-December-16 | CIL/India |
+> | QSN14 CM876 | 25423316 | 20-December-16 | CIL/India |
+> | \*Engine build date can be found on the engine data plate. \*\*Engine manufacturing plant can be found on the engine data plate. |  |  |  |
+>
+> ### Document History

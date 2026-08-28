@@ -19,7 +19,8 @@ families:
 parts:
   - "3095278"
   - "3803994"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120221.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120221.pdf"
 tags:
@@ -27,6 +28,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
   - "год/2014"
+  - "перевод/машинный"
   - "тема/cylinder-block"
 ---
 
@@ -40,42 +42,50 @@ tags:
 > **Даты:** выпущен 2014-10-21 · изменён 2014-10-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120221.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120221.pdf)
 
-## Front Crankshaft Seal with Wear Sleeve and Press-On Shaft Excluder (POSE)
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Передний сальник коленвала с ремонтной втулкой и напрессовываемым пыльником (POSE)
 
-### Contents
+### Положение о гарантии
 
-This document announces the release of the K19 service front crankshaft seal with wear sleeve and press-on shaft excluder (POSE) for use on 38 liter and 50 liter diesel and gas engines.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-**Seal Assembly with Wear Sleeve**
+### Содержание
 
-This service seal with wear sleeve was developed for use where the shaft sealing surface has been worn or damaged. The wear sleeve is 1.57 mm \[0.062 in\] thick to provide a robust wear surface for the seal. The seal used with the wear sleeve was designed specifically for use with the wear sleeve. The seal is **not** interchangeable with the standard seal since it has a larger inside diameter and fits **only** the wear sleeve. If either the wear sleeve or seal is replaced, or the seal is removed, the complete seal and wear sleeve assembly must be replaced.
+В этом документе сообщается о выпуске уплотнения передней коленчатой валовой части К19 с износостойким рукавом и пресс-на валовой выключатель (POSE) для использования на дизельных и газовых двигателях объемом 38 и 50 литров.
 
-The wear sleeve and seal assembly **must** be installed in one operation. The installation requires the use of a special service tool to install the wear sleeve and seal to specific depths.
+**Запечатать с помощью рукава**
 
-The use of the front crankshaft seal with wear sleeve is recommended for use on all engines during rebuild or repair, in order to prevent wear to the crankshaft nose. This seal with wear sleeve will be installed in production on new engines.
+Эта служебная печать с износостойким рукавом была разработана для использования там, где герметичная поверхность вала была изношена или повреждена. Рукав износа имеет толщину 1,57 мм \[0,062 дюйма \], чтобы обеспечить прочную поверхность износа для уплотнения. Уплотнение, используемое с износостойким рукавом, было разработано специально для использования с износостойким рукавом. Уплотнение не является взаимозаменяемым со стандартным уплотнением, поскольку оно имеет больший внутренний диаметр и подходит только к износу рукава. Если либо рукав износа, либо уплотнение заменены, либо уплотнение удалено, то необходимо заменить всю уплотнение и уплотнение износа.
 
-**POSE**
+Установка износостойкого рукава и уплотнения * должна быть установлена в одной операции. Установка требует использования специальной сервисной оснастки для установки износного рукава и уплотнения на определенные глубины.
 
-The POSE seal improves the front crankshaft seal durability. The POSE seal is installed in front of the front crankshaft seal and rotates with the crankshaft reducing the amount of dirt reaching the front crankshaft sealing element. No special service tools are required to install the POSE seal. The POSE seal can be installed onto the shaft using only hand pressure.
+Использование передней уплотнительной валовой завесы с износостойким рукавом рекомендуется для использования на всех двигателях во время реконструкции или ремонта, чтобы предотвратить износ носа коленчатого вала. Данная пломба с износостойким рукавом будет устанавливаться в производство на новых двигателях.
 
-The engine serial number (ESN) first for the seal with wear sleeve and POSE being installed at the Daventry Engine Plant is 33196377.
+**Поза**
 
-| Description | Part Number |
+Уплотнение POSE улучшает долговечность уплотнения передней коленчатой валки. Уплотнение POSE устанавливается перед передним уплотнением коленчатого вала и вращается с коленчатым валом, уменьшая количество грязи, достигающей переднего уплотнительного элемента коленчатого вала. Для установки печати POSE не требуется никаких специальных инструментов обслуживания. Уплотнение POSE может быть установлено на вал, используя только давление руки.
+
+Серийный номер двигателя (ESN) для печати с износостойким рукавом и POSE, устанавливаемой на заводе Daventry Engine Plant, составляет 33196377.
+
+| Наименование | Номер детали |
 |---|---|
-| Front Crankshaft Seal with Wear Sleeve | [[3095278]] |
-| POSE | 3331663 |
-| Front Crankshaft Seal Kit (contains both components above) | [[3803994]] |
+| Front Crankshaft Seal с носовым рукавом | [[3095278]] |
+| Поза | 3331663 |
+| Front Crankshaft Seal Kit (содержащий оба компонента выше) | 3803994 |
 
-Use the following procedures for further information on removal and installation of the front crankshaft seal.
+Используйте следующие процедуры для получения дополнительной информации о снятии и установке уплотнения передней коленчатой вал.
 
-- K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-001-023-tr — Crankshaft Seal, Front|Refer to Procedure 001-023 in Section 1.]]
-- KTA38GC CM558 Service Manual, Bulletin 4021642. Refer to Procedure 001-023 in Section 1.
+- K38, K50, QSK38 и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-001-023-tr — Crankshaft Seal, Front|См. процедуру 001-023 в разделе 1.]]
+- Руководство по обслуживанию KTA38GC CM558, Вестник 4021642. См. процедуру 001-023 в разделе 1.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -83,3 +93,41 @@ Use the following procedures for further information on removal and installation
 |---|---|---|
 | [[3095278]] | OIL SEAL | Сальник |
 | [[3803994]] | Front Crankshaft Seal Kit | Комплект переднего сальника коленвала |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Front Crankshaft Seal with Wear Sleeve and Press-On Shaft Excluder (POSE)
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document announces the release of the K19 service front crankshaft seal with wear sleeve and press-on shaft excluder (POSE) for use on 38 liter and 50 liter diesel and gas engines.
+>
+> **Seal Assembly with Wear Sleeve**
+>
+> This service seal with wear sleeve was developed for use where the shaft sealing surface has been worn or damaged. The wear sleeve is 1.57 mm \[0.062 in\] thick to provide a robust wear surface for the seal. The seal used with the wear sleeve was designed specifically for use with the wear sleeve. The seal is **not** interchangeable with the standard seal since it has a larger inside diameter and fits **only** the wear sleeve. If either the wear sleeve or seal is replaced, or the seal is removed, the complete seal and wear sleeve assembly must be replaced.
+>
+> The wear sleeve and seal assembly **must** be installed in one operation. The installation requires the use of a special service tool to install the wear sleeve and seal to specific depths.
+>
+> The use of the front crankshaft seal with wear sleeve is recommended for use on all engines during rebuild or repair, in order to prevent wear to the crankshaft nose. This seal with wear sleeve will be installed in production on new engines.
+>
+> **POSE**
+>
+> The POSE seal improves the front crankshaft seal durability. The POSE seal is installed in front of the front crankshaft seal and rotates with the crankshaft reducing the amount of dirt reaching the front crankshaft sealing element. No special service tools are required to install the POSE seal. The POSE seal can be installed onto the shaft using only hand pressure.
+>
+> The engine serial number (ESN) first for the seal with wear sleeve and POSE being installed at the Daventry Engine Plant is 33196377.
+>
+> | Description | Part Number |
+> |---|---|
+> | Front Crankshaft Seal with Wear Sleeve | [[3095278]] |
+> | POSE | 3331663 |
+> | Front Crankshaft Seal Kit (contains both components above) | [[3803994]] |
+>
+> Use the following procedures for further information on removal and installation of the front crankshaft seal.
+>
+> - K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-001-023-tr — Crankshaft Seal, Front|Refer to Procedure 001-023 in Section 1.]]
+> - KTA38GC CM558 Service Manual, Bulletin 4021642. Refer to Procedure 001-023 in Section 1.
+>
+> ### Document History

@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-001-052-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-001-052-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Vibration Damper, Viscous
@@ -34,16 +36,38 @@ tags:
 > **Даты:** изменён 2016-03-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-001-052-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-001-052-om.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> The silicon fluid in the vibration damper will become solid after extended service and will make the damper inoperative. An inoperative vibration damper can cause major engine or drivetrain malfunction.
 
-Check the vibration damper for evidence of fluid loss, dents, and wobble. Inspect the vibration damper thickness for any deformation or raising of the damper cover plate.
+### Осмотр
 
-If any of these conditions are identified, contact a Cummins® Authorized Repair Location to replace the vibration damper.
+> [!warning] ОСТОРОЖНО
+> Кремниевая жидкость в вибрационном демпфере станет твердой после длительного обслуживания и сделает демпфер неработоспособным. Неработающий вибрационный демпфер может вызвать серьезную неисправность двигателя или трансмиссии.
 
-> [!note] Note · Примечание
-> Vibration damper **must** be replaced after 24,000 hours in service.
+Проверьте вибрационный демпфер на наличие признаков потери жидкости, вмятины и колебания. Осмотрите толщину вибрационного демпфера на предмет любой деформации или поднятия пластины покрытия демпфера.
+
+Если какое-либо из этих условий идентифицировано, обратитесь в авторизованное место ремонта Cummins® для замены вибродемпфера.
+
+> [!note] Примечание
+> Вибрационный демпфер должен быть заменен после 24 000 часов работы.
 
 ![[da800sd.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> **CAUTION · Осторожно**
+> The silicon fluid in the vibration damper will become solid after extended service and will make the damper inoperative. An inoperative vibration damper can cause major engine or drivetrain malfunction.
+>
+> Check the vibration damper for evidence of fluid loss, dents, and wobble. Inspect the vibration damper thickness for any deformation or raising of the damper cover plate.
+>
+> If any of these conditions are identified, contact a Cummins® Authorized Repair Location to replace the vibration damper.
+>
+> **Note · Примечание**
+> Vibration damper **must** be replaced after 24,000 hours in service.

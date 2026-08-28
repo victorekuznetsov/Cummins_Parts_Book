@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc232.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc232.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Coolant Pressure Sensor Circuit - Shorted Low
@@ -34,38 +36,82 @@ tags:
 > **Даты:** изменён 2012-05-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc232.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc232.pdf)
 
-### Fault Code: 232
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Coolant Pressure Sensor Circuit - Shorted Low
 
-Printable Version
+### Код неисправности: 232
 
-### Overview
+### Цепь датчика давления ОЖ — замыкание на массу
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 232 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine coolant pressure sensor circuit - shorted low. | No engine protection for coolant pressure. |
+| Код неисправности: 232 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Схема датчика давления охлаждающей жидкости двигателя - низкое закороченное. | Отсутствие защиты двигателя от давления охлаждающей жидкости. |
 
 ![[19803583.png]]
 
-Coolant Pressure Sensor Circuit
+Цепь датчика давления охлаждающей жидкости
 
-### Circuit Description
+### Описание цепи
 
-The coolant pressure sensor monitors coolant pressure and passes information to the engine control module (ECM). Low voltage will trip Fault Code 232 and can be caused by shorts in the supply, signal, or return wires, an open in the return wires, or a failed sensor.
+Датчик давления охлаждающей жидкости контролирует давление охлаждающей жидкости и передает информацию в модуль управления двигателем (ECM). Низкое напряжение будет сбивать Код 232 по умолчанию и может быть вызвано шортами в проводах подачи, сигнала или возврата, открытым в проводах возврата или неисправным датчиком.
 
-### Component Location
+### Расположение компонента
 
-Use the following procedure for component location. Refer to Procedure 100-002 in Section E.
+Используйте следующую процедуру для определения местоположения компонентов. См. процедуру 100-002 в разделе E.
 
-### Shoptalk
+### Практические замечания
 
-Confirm that the radiator cap is installed correctly.
+Подтвердите, что крышка радиатора установлена правильно.
 
-Check the radiator cap for proper operation.
+Проверьте крышку радиатора для правильной работы.
 
-Refer to specific engine wiring diagram for the output voltage of the pressure sensor.
+См. конкретную схему проводов двигателя для выходного напряжения датчика давления.
 
-Note: Some engine models will use the Metri-Pack™ type connector on this pressure sensor, and some will use the Danfoss™ type connector. The Metri-Pack™ connector pin designators are alpha and the Danfoss™ connector pin designators are numeric. The steps depicted in this fault code show the Metri-Pack™ type connector with alpha pin callouts. Reference specific engine wiring diagrams to determine the correct pin designators for the type of connector.
+Примечание: Некоторые модели двигателей будут использовать разъем типа Metri-PackTM на этом датчике давления, а некоторые будут использовать разъем типа DanfossTM. Контактные обозначения разъемов Metri-PackTM являются альфа-контактными, а контактные обозначения разъемов DanfossTM - числовыми. Шаги, изображенные в этом коде неисправности, показывают разъем типа Metri-PackTM с вызывными альфа-пинами. Справочные конкретные схемы проводов двигателя для определения правильных указателей контактов для типа разъема.
 
-Refer to Troubleshooting Fault Code t05-232.
+См. Код устранения неполадок t05-232.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 232
+>
+> ### Coolant Pressure Sensor Circuit - Shorted Low
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 232 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine coolant pressure sensor circuit - shorted low. | No engine protection for coolant pressure. |
+>
+> Coolant Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The coolant pressure sensor monitors coolant pressure and passes information to the engine control module (ECM). Low voltage will trip Fault Code 232 and can be caused by shorts in the supply, signal, or return wires, an open in the return wires, or a failed sensor.
+>
+> ### Component Location
+>
+> Use the following procedure for component location. Refer to Procedure 100-002 in Section E.
+>
+> ### Shoptalk
+>
+> Confirm that the radiator cap is installed correctly.
+>
+> Check the radiator cap for proper operation.
+>
+> Refer to specific engine wiring diagram for the output voltage of the pressure sensor.
+>
+> Note: Some engine models will use the Metri-Pack™ type connector on this pressure sensor, and some will use the Danfoss™ type connector. The Metri-Pack™ connector pin designators are alpha and the Danfoss™ connector pin designators are numeric. The steps depicted in this fault code show the Metri-Pack™ type connector with alpha pin callouts. Reference specific engine wiring diagrams to determine the correct pin designators for the type of connector.
+>
+> Refer to Troubleshooting Fault Code t05-232.

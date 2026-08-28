@@ -44,7 +44,8 @@ manuals:
   - "4021442"
   - "4021674"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-211.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-211.pdf"
 tags:
@@ -58,6 +59,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Packard Relay Connector
@@ -71,69 +73,130 @@ tags:
 > **Даты:** изменён 2012-03-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-211.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-211.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The connector pins can **not** be replaced. The connector **must** be replaced as a unit.
 
-Refer to the Connector Replacement procedure for replacement instructions.
+### Замена пин
+
+Контакты разъема можно заменить **не**. Разъем * должен быть заменен как блок.
+
+См. процедуру замены разъёма для инструкций по замене.
 
 ![[nobox.png]]
 
-### Connector Replacement
+### Замена разъёма
 
-Before installing the new connector, perform a test fit to make sure the connector is keyed properly.
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
 
-Refer to the wiring diagram for pin locations.
+Смотрите схему проводов для местоположений штифта.
 
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
 ![[19d00777.png]]
 
-Measure 152 mm \[6 in\] from the face of the connector, and remove the wiring harness protective cover.
+Измерьте 152 мм \[6 в\] от поверхности разъема, и удалите защитную крышку упряжки проводов.
 
 ![[19d00778.png]]
 
-Before cutting the wires measure and tag them.
+Перед тем как разрезать провода, измерьте и пометьте их.
 
-Use wire crimping tool, Part Number 3822930.
+Используйте инструмент для обжима проводов, номер детали 3822930.
 
-Cut wire A 130 mm \[5 in\] from the face of the connector.
+Отрежьте провод A 130 мм \[5 в\] от лицевой стороны разъема.
 
-Cut wire B 117 mm \[4-½ in\] from the face of the connector.
+Отрезают провод B 117 мм \[4-1⁄2 в\] от лицевой части разъема.
 
-Cut wire C 104 mm \[4 in\] from the face of the connector.
+Отрежьте провод C 104 мм \[4 в\] от лицевой части разъема.
 
-Cut wire D 91 mm \[3-½ in\] from the face of the connector.
+Отрезанная проволока D 91 мм \[3-1⁄2 в\] от лицевой части разъема.
 
 ![[19d00779.png]]
 
-Use crimping tool, Part Number 3822930, to remove 6 mm \[¼ inch\] of insulation from the electrical wires.
+Используйте обжимной инструмент, номер детали 3822930, чтобы удалить 6 мм \[1⁄4 дюйма\] изоляции от электрических проводов.
 
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
 
-Refer to the wiring diagram for pin locations.
+Смотрите схему проводов для местоположений штифта.
 
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
 ![[19d00780.png]]
 
-Install the terminal repair wires on the bare wires. Use wire crimping tool, Part Number 3822930, to crimp the terminals.
+Установите провода для ремонта терминала на голые провода. Используйте инструмент для обжима проводов, номер детали 3822930, чтобы обжимать терминалы.
 
-Use heat gun, Part Number 3822860, or an open flame to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+Используйте тепловую пушку, номер детали 3822860 или открытое пламя для нагрева термоусадочной трубы. Трубка будет сжиматься и делать соединение водонепроницаемым.
 
 ![[19d00781.png]]
 
-Wrap the wires with tape, for added protection, to complete the repair.
+Заверните провода лентой для дополнительной защиты, чтобы завершить ремонт.
 
 ![[19d00782.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934, other lubricants, such as lubricating oil or grease, in the connectors can cause electronic control unit damage, poor performance, or premature connector pin wear.
+> [!warning] ОСТОРОЖНО
+> Используйте только рекомендованную Cummins смазку DS-ES, номер детали 3822934, другие смазочные материалы, такие как моторное масло или смазка, в разъемах могут вызвать повреждение электронного блока управления, плохую производительность или преждевременный контактный износ разъема.
 
-Apply a small amount of lubricant to the connector terminals. Before installing, fill the entire connector cavity with lubricant.
+Нанесите небольшое количество смазки на соединительные терминалы. Перед установкой заполните всю полость разъема смазкой.
 
 ![[19d00783.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> The connector pins can **not** be replaced. The connector **must** be replaced as a unit.
+>
+> Refer to the Connector Replacement procedure for replacement instructions.
+>
+> ### Connector Replacement
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed properly.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Refer to the wiring diagram for pin locations.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Measure 152 mm \[6 in\] from the face of the connector, and remove the wiring harness protective cover.
+>
+> Before cutting the wires measure and tag them.
+>
+> Use wire crimping tool, Part Number 3822930.
+>
+> Cut wire A 130 mm \[5 in\] from the face of the connector.
+>
+> Cut wire B 117 mm \[4-½ in\] from the face of the connector.
+>
+> Cut wire C 104 mm \[4 in\] from the face of the connector.
+>
+> Cut wire D 91 mm \[3-½ in\] from the face of the connector.
+>
+> Use crimping tool, Part Number 3822930, to remove 6 mm \[¼ inch\] of insulation from the electrical wires.
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Refer to the wiring diagram for pin locations.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Install the terminal repair wires on the bare wires. Use wire crimping tool, Part Number 3822930, to crimp the terminals.
+>
+> Use heat gun, Part Number 3822860, or an open flame to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+>
+> Wrap the wires with tape, for added protection, to complete the repair.
+>
+> **CAUTION · Осторожно**
+> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934, other lubricants, such as lubricating oil or grease, in the connectors can cause electronic control unit damage, poor performance, or premature connector pin wear.
+>
+> Apply a small amount of lubricant to the connector terminals. Before installing, fill the entire connector cavity with lubricant.

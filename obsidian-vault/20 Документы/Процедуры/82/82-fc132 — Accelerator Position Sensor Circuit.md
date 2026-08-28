@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc132.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc132.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Accelerator Position Sensor Circuit
@@ -34,36 +36,78 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc132.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc132.pdf)
 
-### Fault Code: 132
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Accelerator Position Sensor Circuit
 
-Printable Version
+### Код неисправности: 132
 
-### Overview
+### Цепь датчика положения акселератора
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 132 PID(P): P091 SPN: 91 FMI: 4/4 Lamp: Red SRT: | Low voltage detected at the accelerator position sensor circuit. | Severe derate (power and speed). Limp home power **only**. |
+| Код неисправности: 132 PID(P): P091 SPN: 91 ФМИ: 4/4 лампы: Красная СТО: | Низкое напряжение, обнаруженное в цепи датчика положения ускорителя. | Сильный дерат (сила и скорость). Слабая домашняя энергия **только** |
 
 ![[19c00644.png]]
 
-Accelerator Position Sensor Circuit
+Цепь датчика положения акселератора
 
-### Circuit Description
+### Описание цепи
 
-The accelerator position sensor is attached to the accelerator pedal. The accelerator position sensor sends a signal to the electronic control module (ECM) when the driver pushes on the accelerator pedal. The accelerator position circuit contains three wires: + 5-VDC supply, return, and signal.
+Датчик положения ускорителя прикрепляется к педали ускорителя. Датчик положения ускорителя посылает сигнал электронному модулю управления (ECM), когда водитель нажимает на педаль акселератора. Схема положения ускорителя содержит три провода: + 5-VDC - поставка, возврат и сигнал.
 
-### Component Location
+### Расположение компонента
 
-The accelerator position sensor is located on the accelerator pedal.
+Датчик положения ускорителя расположен на педали ускорителя.
 
-### Shoptalk
+### Практические замечания
 
-- Check for external circuits hooked into the accelerator position sensor circuit and for tampering in the circuit.
+- Проверьте внешние схемы, подключенные к схеме датчика положения ускорителя, и для подделки в схеме.
 
-- If all the wiring and the sensor checks are good, replace the accelerator position sensor and the idle validation switch circuit wires, between the accelerator pedal and ECM, with new wires. Run the wires through or around the bulkhead without using the bulkhead connector. Test the truck with the test wires. If the fault code goes away, replace the OEM harness. Seal openings in the bulkhead to prevent toxic and noxious fumes from entering the operator area.
+- Если вся проводка и проверка датчика хороши, замените датчик положения ускорителя и провода переключателя проверки неработающего действия между педалью ускорителя и ECM новыми проводами. Проведите провода через или вокруг переборки без использования разъема переборки. Испытайте грузовик с помощью измерительных проводов. Если код неисправности исчезнет, замените OEM-проводку. Тюленьи отверстия в переборке для предотвращения попадания токсичных и вредных паров в зону оператора.
 
-- Verify that the three accelerator position sensor circuit wires are twisted together. Verify that the three idle validation switch circuit wires are twisted together.
+- Убедитесь, что три провода датчика положения ускорителя скручены вместе. Убедитесь, что три провода переключателя проверки скручены вместе.
 
-Refer to Troubleshooting Fault Code t05-132
+Устранение неполадок код t05-132
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 132
+>
+> ### Accelerator Position Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 132 PID(P): P091 SPN: 91 FMI: 4/4 Lamp: Red SRT: | Low voltage detected at the accelerator position sensor circuit. | Severe derate (power and speed). Limp home power **only**. |
+>
+> Accelerator Position Sensor Circuit
+>
+> ### Circuit Description
+>
+> The accelerator position sensor is attached to the accelerator pedal. The accelerator position sensor sends a signal to the electronic control module (ECM) when the driver pushes on the accelerator pedal. The accelerator position circuit contains three wires: + 5-VDC supply, return, and signal.
+>
+> ### Component Location
+>
+> The accelerator position sensor is located on the accelerator pedal.
+>
+> ### Shoptalk
+>
+> - Check for external circuits hooked into the accelerator position sensor circuit and for tampering in the circuit.
+>
+> - If all the wiring and the sensor checks are good, replace the accelerator position sensor and the idle validation switch circuit wires, between the accelerator pedal and ECM, with new wires. Run the wires through or around the bulkhead without using the bulkhead connector. Test the truck with the test wires. If the fault code goes away, replace the OEM harness. Seal openings in the bulkhead to prevent toxic and noxious fumes from entering the operator area.
+>
+> - Verify that the three accelerator position sensor circuit wires are twisted together. Verify that the three idle validation switch circuit wires are twisted together.
+>
+> Refer to Troubleshooting Fault Code t05-132

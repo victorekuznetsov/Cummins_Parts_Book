@@ -18,7 +18,8 @@ families:
 manuals:
   - "3666266"
   - "3666322"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-t02-1001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-t02-1001.pdf"
 tags:
@@ -26,6 +27,7 @@ tags:
   - "двигатель/NT/NTA855"
   - "двигатель/QSM11"
   - "группа/105"
+  - "перевод/машинный"
 ---
 
 # Engine Performance Troubleshooting Tree
@@ -39,771 +41,1550 @@ tags:
 > **Даты:** изменён 2015-04-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-t02-1001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-t02-1001.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Symptoms
 
-- Engine Acceleration or Response Poor
+Версия для печати
 
-- Cranking Fuel Pressure Low
+### Симптомы
 
-- Engine Operating Fuel Pressure Low
-
-- Engine Difficult to Start or Will **Not** Start (Exhaust Smoke)
-
-- Engine Difficult to Start or Will **Not** Start (No Exhaust Smoke)
-
-- Engine Power Output Low
-
-- Engine Runs Rough at Idle
-
-- Engine Runs Rough or Misfires
-
-- Engine Speed Surges at Low or High Idle
-
-- Engine Speed Surges Under Load or in Operating Range
-
-- Smoke, Black - Excessive
-
-- Smoke, White - Excessive
-
-- Engine Shuts Off or Dies Unexpectedly or Dies During Deceleration
-
-- Engine Starts But Will **Not** Keep Running
-
-- Engine Will **Not** Reach Rated Speed (rpm)
-
-### How To Use This Tree
-
-This symptom tree can be used to troubleshoot all performance based symptoms listed above. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
-
-### Shoptalk
-
-Prior to performing INSITE™ electronic service tool EGR Valve and EGR Valve/Turbocharger Operational Test, the engine control module (ECM) Calibration Software Phase could possibly need to be updated to the latest Software Phase. The ECM Calibration Phase Software can be checked in INSITE™ electronic service tool, under 'Features and Parameters'. Expand the selection for 'System ID and Dataplate' and go to 'Calibration Information'. If the Software Phase is earlier than shown below, calibrate the ECM again using the January 2006 INCAL™ CD-ROM, or later. Engines with the Software Phase listed below or later do **not** require a recalibration.
-
-ISM engines with CM875 (engines built after January 2004) require Software Phase 06050312.
-
-This is a warrantable calibration change.
-
-| Minimum and Maximum VGT Actuator Travel Specifications by CPL Number |  |  |
-|---|---|---|
-| CPL | Minimum Actuator Travel mm \[in\] | Maximum Actuator Travel mm \[in\] |
-| 8427, 8559, 8560, 8603, 8706 | 8 mm \[0.315 in\] | 10 mm \[0.394 in\] |
-| 8271, 8272, 8273, 8274, 8503, 8504, 8505, 8506, 8556, 8557, 8561, 8562 | 7 mm \[0.276 in\] | 9 mm \[0.354 in\] |
-| 8377, 8558, 8563, 8572 | 10 mm \[0.394 in\] | 12 mm \[0.472 in\] |
-
-## Troubleshooting Summary
-
-| STEPS | SPECIFICATIONS |  |
-|---|---|---|
-| STEP 1. | Perform basic troubleshooting procedures. |  |
-|  | **STEP 1A.** Check for active fault codes or high counts of inactive fault codes. | Active fault codes or high counts of inactive fault codes? |
-|  | **STEP 1B.** Perform basic troubleshooting checks. | All steps have been verified to be correct? |
-| STEP 2. | Determination of engine symptom. |  |
-|  | **STEP 2A.** Low power, poor acceleration, poor response, or engine will not reach rated speed (rpm). | Engine symptom low power, poor acceleration, poor response, or engine will **not** reach rated speed (rpm)? |
-|  | **STEP 2B.** Engine runs rough or misfires. | Engine symptom Engine Runs Rough or Misfires? |
-|  | **STEP 2C.** Excessive black smoke. | Engine symptom Excessive Black Smoke? |
-|  | **STEP 2D.** Excessive white smoke. | Engine symptom Excessive White Smoke and the engine is using coolant? |
-|  | **STEP 2D-1.** Excessive white smoke. | Engine symptom Excessive White Smoke and the engine is not using coolant? |
-|  | **STEP 2E.** Engine speed surge or engine speed unstable. | Engine symptom Engine Speed Surge or Engine Speed Unstable? |
-|  | **STEP 2F.** Engine will not start or difficult to start, engine shuts off unexpectedly. | Engine symptom Engine Difficult to Start or Will Not Start, or Engine Shuts Off Unexpectedly? |
-| STEP 3. | No-start troubleshooting procedures. |  |
-|  | **STEP 3A.** Check fuel shutoff valve voltage. | Fuel shutoff valve voltage greater than 11-VDC? |
-|  | **STEP 3B.** Determine if engine is equipped with a fuel control module. | Engine equipped with a separate fuel control module? |
-|  | **STEP 3B-1.** Check the ECM connector and pins. | Dirty or damaged pins? |
-|  | **STEP 3B-2.** Check the ECM keyswitch voltage. | Keyswitch voltage equal to battery voltage? |
-|  | **STEP 3B-3.** Check the ECM battery supply voltage. | Voltage equal to battery voltage? |
-|  | **STEP 3B-4.** Check the ECM actuator connector and pins. | Dirty or damaged pins? |
-|  | **STEP 3B-5.** Check for a pin-to-pin short circuit in the engine harness. | Greater than 100k ohms? |
-|  | **STEP 3B-6.** Check for a short circuit to ground in the engine harness. | Greater than 100k ohms? |
-|  | **STEP 3B-7.** Check the continuity of the fuel shutoff valve circuit. | Less than 10 ohms? |
-|  | **STEP 3C.** Check the fuel control module and fuel control module power connector pins. | Dirty or damaged pins? |
-|  | **STEP 3D.** Check for a pin-to-pin short circuit at the fuel control module. | Greater than 100k ohms? |
-|  | **STEP 3E.** Check for a short circuit to ground in the engine harness. | Greater than 100k ohms? |
-|  | **STEP 3F.** Check for a pin-to-pin short circuit in the engine harness. | Greater than 100k ohms? |
-|  | **STEP 3G.** Check ground connections. | Ground connections clean and tight? |
-|  | **STEP 3H.** Check the fuel shutoff valve resistance. | Fuel shutoff solenoid resistance 1 to 5 ohms for 6-VDC solenoids, 6 to 15 ohms for 12-VDC solenoids, 24 to 50 ohms for 24-VDC solenoids, 42 to 80 ohms for 32-VDC solenoids, 46 to 87 ohms for 36-VDC solenoids, 92 to 145 ohms for 48-VDC solenoids, 315 to 375 ohms for 74-VDC solenoids, 645 to 735 ohms for 115-VAC solenoids? |
-|  | **STEP 3I.** Check the engine position sensor installation. | Engine position sensor installed correctly? |
-|  | **STEP 3J.** Determine if engine is equipped with EGR. | Engine equipped with a separate fuel control module? |
-|  | **STEP 3K.** Check for coolant in the EGR transfer tube. | Coolant present in the crossover tube? |
-| STEP 4. | Fuel system checks. |  |
-|  | **STEP 4A.** Check for air in the fuel. | Air bubbles visible in the sight glass? |
-|  | **STEP 4B.** Check fuel inlet restriction. | Fuel inlet restriction less than the specifications? |
-|  | **STEP 4C.** Check drain line restriction. | Fuel drain line restriction less than 89 mm-Hg \[3.5 in-Hg\]? |
-|  | **STEP 4D.** Check fuel pump output pressure. | Fuel pressure meet the specification? |
-|  | **STEP 4E.** Check fuel gear pump check valve. | Check valve installed and operating correctly? |
-|  | **STEP 4F.** Check fuel supply line for restrictions. | Fuel lines free from restrictions? |
-|  | **STEP 4G.** Check for plugged fuel drillings in the cylinder head. | Plastic insert been removed from the fuel supply passage in the cylinder head? |
-| STEP 5. | Injector diagnostics. |  |
-|  | **STEP 5A.** Perform INSITE™ electronic service tool cylinder cutout test. | All cylinders pass the cylinder cutout test? |
-| STEP 6. | Air handling diagnostic checks. |  |
-|  | **STEP 6A.** Start engine and read fault codes. | Active fault codes? |
-|  | **STEP 6B.** Inspect the turbocharger blades for damage. | Damage found on turbocharger fins? |
-|  | **STEP 6C.** Determination of turbocharger type. | Turbocharger a variable geometry turbocharger? |
-|  | **STEP 6D.** Check the variable geometry actuator rod for correct travel. | Turbocharger actuator rod extend between the minimum and maximum actuator travel specification found in the CPL table in the Shop Talk section? |
-|  | **STEP 6D-1.** Check for air leaks and inspect air lines. | Air leaks found in the system? |
-|  | **STEP 6D-2.** Check the engine and vehicle grounds. | Connections tight and corrosion free? |
-|  | **STEP 6D-3.** Check for air pressure at the turbocharger control valve outlet. | Vehicle air tank pressure present at the turbocharger control valve outlet? |
-|  | **STEP 6D-4.** Check for air pressure at the turbocharger control valve outlet. | Pressure gauge read more than 103 kPa \[15 psi\] after 5 minutes? |
-|  | **STEP 6D-5.** Check for correct turbocharger actuator travel. | Turbocharger actuator rod travel at least 12 mm \[0.472 in\]? |
-|  | **STEP 6D-6.** Determine if the engine is equipped with a turbocharger control shutoff valve. | Engine equipped with a turbocharger control shutoff valve? |
-|  | **STEP 6D-7.** Check for air pressure at the turbocharger control shutoff valve outlet. | Air heard escaping from the turbocharger control shutoff valve outlet? |
-|  | **STEP 6D-8.** Check for air pressure at the turbocharger control shutoff valve inlet. | Air heard escaping from the turbocharger control shutoff valve inlet? |
-|  | **STEP 6D-9.** Check for plugged turbocharger control shutoff valve filter. | Air leak present at the turbocharger control shutoff valve filter head? |
-|  | **STEP 6D-10.** Verify the OEM air supply line is connected to the correct port on the turbocharger control valve. | Air heard escaping from the turbocharger control valve inlet? |
-|  | **STEP 6E.** Perform INSITE™ electronic service tool EGR Valve/Turbocharger Operational Test. | Turbocharger Operational Test pass? |
-|  | **STEP 6E-1.** Check the engine and vehicle grounds. | Connections tight and corrosion free? |
-|  | **STEP 6F.** Inspect the wastegate actuator hose. | Holes or cracks found in the wastegate actuator hose? |
-|  | **STEP 6G.** Inspect the wastegate actuator rod for travel. | Wastegate actuator rod move? |
-|  | **STEP 6G-1.** Inspect wastegate actuator rod for travel. | Wastegate actuator rod move? |
-|  | **STEP 6H.** Measure resistance of the four-stage wastegate controllers, if equipped. | Wastegate controller solenoid resistances 6 to 10 ohms for 12-VDC solenoids, 24 to 40 ohms for 24-VDC solenoids? |
-|  | **STEP 6I.** Inspect four-stage wastegate controller, if equipped. | Damage or debris found on the valve disc, valve seat, or actuator disc? |
-| STEP 7. | Check EGR valve for proper operation. |  |
-|  | **STEP 7A.** Check for air leaks in the EGR system. | Air leaks found in the EGR connection tubing? |
-|  | **STEP 7B.** Check repair history. | Record of the poppet head missing? |
-|  | **STEP 7C.** Perform the EGR Valve Test. | EGR Valve Test pass? |
-| STEP 8. | Verify electronic features are operating correctly. |  |
-|  | **STEP 8A.** Verify accelerator pedal travel. | Percent Accelerator read 0 when the accelerator is released and 100 percent when the accelerator is depressed? |
-|  | **STEP 8B.** Monitor vehicle speed. | Vehicle speed read 0 when the vehicle is not moving? |
-|  | **STEP 8C.** Verify electronic feature settings are correct. | Electronic features set correctly? |
-|  | **STEP 8D.** Check barometric pressure sensor reading. | Barometric pressure sensor reading in INSITE™ electronic service tool within 5 percent of the present local barometric pressure reading? |
-| STEP 9. | Perform base engine mechanical checks. |  |
-|  | **STEP 9A.** Verify overhead adjustments are correct. | Overhead settings within the reset limits? |
-|  | **STEP 9B.** Check air intake restriction. | Air intake restriction greater than 635 mm-H 2 O \[25 in-H 2 O\]? |
-|  | **STEP 9C.** Check exhaust restriction. | Exhaust restriction within specification as listed in the Service Manual? |
-|  | **STEP 9D.** Inspect the charge air cooler. | Pressure drop 34 kPa \[5 psi\] or less in 15 seconds? |
-|  | **STEP 9E.** Verify engine brake adjustment. | Engine brake settings within the reset limits? |
-|  | **STEP 9F.** Measure turbocharger axial and radial clearance. | Axial and radial clearances within specification? |
-|  | **STEP 9G.** Verify engine blowby is within specification. | Engine blowby measurements within specification? |
-|  | **STEP 9G-1.** Verify turbocharger contribution to engine blowby. | Did the total engine blowby drop more than 30 percent? |
-|  | **STEP 9H.** Check the static injection timing. | Is the static injection timing correct? |
-| STEP 10. | Check the EGR differential pressure sensor and exhaust gas pressure sensor |  |
-|  | **STEP 10A.** Check the EGR differential pressure tubes for cracks, restrictions, or leaks. | Cracks, restrictions, or leaks present? |
-|  | **STEP 10B.** Check the exhaust gas pressure tubes for cracks, restrictions, or leaks. | Cracks, restrictions, or leaks present? |
-| STEP 11. | Check the EGR cooler. |  |
-|  | **STEP 11A.** Check the EGR cooler for fouling. | EGR cooler efficiency parameter greater than 50 percent after 4 minutes? |
+- Ускорение двигателя или реакция Плохо
 
-### STEP 1. Perform basic troubleshooting procedures.
+- Низкое давление топлива
 
-#### STEP 1A. Check for active fault codes or high counts of inactive fault codes.
+- Двигатель с низким давлением топлива
+
+- Двигатель трудно запустить или не будет * * * * Запуск (выхлопной дым)
+
+- Двигатель трудно запустить или не будет * * * * * (без выхлопного дыма)
+
+- Мощность двигателя низкая
+
+- Двигатель работает в Idle
+
+- Двигатель работает грубо или неисправности
+
+- Скорость двигателя растет при низком или высоком холостом ходу
+
+- Скорость двигателя растет под нагрузкой или в рабочем диапазоне
+
+- Дым, черный - чрезмерный
+
+- Дым, белый - чрезмерный
+
+- Двигатель отключается или неожиданно умирает или умирает во время торможения
+
+- Двигатель запускается, но не будет * продолжать работать
+
+- Двигатель будет **Не** Достичь номинальной скорости (rpm)
+
+### Как пользоваться этим деревом
+
+Это дерево симптомов может быть использовано для устранения всех симптомов, основанных на производительности, перечисленных выше. Начните с шага 1 поиска неисправностей. На шаге 2 система задаст ряд вопросов и по симптому выдаст перечень действий по поиску неисправности.
+
+### Практические замечания
+
+Перед выполнением электронного сервисного инструментария INSITETM EGR клапан и EGR клапан/Turbocharger Operational Test, модуль управления двигателем (ECM) Calibration Software Phase может потребоваться обновить до последней версии Software Phase. Программное обеспечение ECM Calibration Phase можно проверить в инструменте электронного обслуживания INSITETM в разделе «Особенности и параметры». Расширьте выбор для «Идентификатора системы и таблички данных» и перейдите к «Информация о калибровке». Если фаза программного обеспечения наступает раньше, чем показано ниже, откалибровать ECM снова с помощью CD-ROM INCAL 2006 или более поздней версии. Двигатели с Фазой Программного обеспечения, перечисленные ниже или позже, не требуют перекалибровки.
+
+Двигатели ISM с двигателем CM875 (построенные после января 2004 года) требуют программного обеспечения фазы 06050312.
+
+Это оправданное изменение калибровки.
+
+| Минимальные и максимальные характеристики VGT Actuator Travel |  |  |
+|---|---|---|
+| КПЛ | Минимальный привод Путешествие мм \[in\] | Максимальный привод Путешествие мм \[in\] |
+| 8427, 8559, 8560, 8603, 8706 | 8 мм \[0.315 в\] | 10 мм \[0,394 in\] |
+| 8271, 8272, 8273, 8274, 8503, 8504, 8505, 8506, 8556, 8557, 8561, 8562 | 7 мм \[0,276 в\] | 9 мм \[0,354 дюйма\] |
+| 8377, 8558, 8563, 8572 | 10 мм \[0,394 in\] | 12 мм \[0,472 в\] |
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
+|---|---|---|
+| ШАГ 1. | Выполняйте основные процедуры устранения неполадок. |  |
+|  | **STEP 1A.** Проверка активных кодов неисправностей или большого количества неактивных кодов неисправностей. | Активные коды неисправностей или большое количество неактивных кодов неисправностей? |
+|  | **STEP 1B.** Проверка основных неисправностей. | Все шаги были проверены на правильность? |
+| ШАГ 2. | Определение симптома двигателя. |  |
+|  | **STEP 2A.** Низкая мощность, плохое ускорение, плохой отклик или двигатель не будут достигать номинальной скорости (rpm). | Симптом двигателя: низкая мощность, плохое ускорение, плохая реакция или двигатель не достигнет номинальной скорости (rpm)? |
+|  | **STEP 2B.** Двигатель работает на грубых или неисправных огнях. | Симптом двигателя: двигатель работает грубо или неисправности? |
+|  | **ШАГ 2С.** Чрезмерный черный дым. | Симптом двигателя: Чрезмерный черный дым? |
+|  | 2D - чрезмерный белый дым. | Симптом двигателя — чрезмерный белый дым, и двигатель использует охлаждающую жидкость? |
+|  | 2D-1.Чрезмерный белый дым. | Симптом двигателя — чрезмерный белый дым, и двигатель не использует охлаждающую жидкость. |
+|  | **ШАГ 2Е.** Скачок скорости двигателя или неустойчивость скорости двигателя. | Симптом двигателя: скорость двигателя или скорость двигателя нестабильна? |
+|  | Двигатель 2F не запускается и не запускается, двигатель неожиданно выключается. | Симптом двигателя: двигатель трудно запустить или не запустится, или двигатель неожиданно отключается? |
+| ШАГ 3. | Не начинайте процедуры устранения неполадок. |  |
+|  | **STEP 3A.** Проверить напряжение запорного клапана топлива. | Напряжение запорного клапана топлива больше 11-VDC? |
+|  | **STEP 3B** Определить, оснащен ли двигатель модулем управления топливом. | Двигатель оснащен отдельным модулем управления топливом? |
+|  | **STEP 3B-1.** Проверьте разъем и контакты ECM. | Грязные или поврежденные контакты? |
+|  | **STEP 3B-2.** Проверьте напряжение переключателя зажигания ECM. | напряжение переключателя зажигания равно напряжению батареи? |
+|  | **STEP 3B-3.** Проверьте напряжение питания аккумулятора ECM. | Напряжение равно напряжению батареи? |
+|  | **STEP 3B-4.** Проверьте разъем и штифты привода ECM. | Грязные или поврежденные контакты? |
+|  | **STEP 3B-5.** Проверьте короткое замыкание в контактной проводах двигателя. | Больше 100 тысяч ом? |
+|  | **STEP 3B-6.** Проверьте короткое замыкание в ремне электропроводки двигателя. | Больше 100 тысяч ом? |
+|  | **STEP 3B-7.** Проверить непрерывность цепи запорного клапана топлива. | Менее 10 Ом? |
+|  | **STEP 3C** Проверьте контактные элементы модуля управления топливом и модуля управления топливом. | Грязные или поврежденные контакты? |
+|  | **STEP 3D.** Проверьте короткое замыкание в контакте с модулем управления топливом. | Больше 100 тысяч ом? |
+|  | **ШАГ 3Е.** Проверьте короткое замыкание в заземлении в ремне электропроводки двигателя. | Больше 100 тысяч ом? |
+|  | **STEP 3F.** Проверьте короткое замыкание в контактной проводах двигателя. | Больше 100 тысяч ом? |
+|  | **STEP 3G.** Проверка наземных соединений. | Наземные соединения чистые и плотные? |
+|  | **STEP 3H.** Проверьте сопротивление запорного клапана топлива. | Сопротивление соленоидов отключения топлива от 1 до 5 Ом для соленоидов 6-VDC, от 6 до 15 Ом для соленоидов 12-VDC, от 24 до 50 Ом для соленоидов 24-VDC, от 42 до 80 Ом для соленоидов 32-VDC, от 46 до 87 Ом для соленоидов 36-VDC, от 92 до 145 Ом для соленоидов 48-VDC, от 315 до 375 Ом для соленоидов 74-VDC, от 645 до 735 Ом для соленоидов 115-VAC? |
+|  | **STEP 3I.** Проверьте установку датчика положения двигателя. | Правильно установлен датчик положения двигателя? |
+|  | **STEP 3J.** Определить, оснащен ли двигатель EGR. | Двигатель оснащен отдельным модулем управления топливом? |
+|  | **STEP 3K.** Проверьте наличие охлаждающей жидкости в трубке для переноса EGR. | Охлаждающая жидкость в кроссовере? |
+| ШАГ 4. | Проверка топливной системы. |  |
+|  | **СТЭП 4А.** Проверка наличия воздуха в топливе. | Воздушные пузырьки, видимые в стекле? |
+|  | **STEP 4B.** Проверить ограничение впуска топлива. | Ограничение впуска топлива меньше, чем спецификации? |
+|  | **STEP 4C.** Проверить ограничение дренажных линий. | Ограничение линии слива топлива менее 89 мм рт.ст. \[3,5 рт.ст. \]? |
+|  | **STEP 4D.** Проверить выходное давление топливного насоса. | Топливное давление соответствует спецификации? |
+|  | **STEP 4E.** Проверить клапан перекачки топлива. | Проверьте правильность установки и работы клапана? |
+|  | **STEP 4F.** Проверить линию подачи топлива на предмет ограничений. | Топливные линии свободны от ограничений. |
+|  | **STEP 4G.** Проверить наличие заглубленного топливного бурения в головке цилиндра. | Пластиковая вставка была удалена из прохода подачи топлива в головке цилиндра? |
+| ШАГ 5. | Диагностика топливных форсунок. |  |
+|  | **STEP 5A.** Выполните тест на вырез цилиндров с помощью электронного инструментария INSITETM. | Все цилиндры проходят испытание на вырез цилиндров? |
+| ШАГ 6. | Диагностические проверки по обращению с воздухом. |  |
+|  | **STEP 6A.** Запуск двигателя и считывание кодов неисправностей. | Активные коды неисправностей? |
+|  | **STEP 6B** Проверить лезвия турбокомпрессора на предмет повреждения. | Повреждения, обнаруженные на плавниках турбокомпрессора? |
+|  | **STEP 6C** Определение типа турбокомпрессора. | Турбокомпрессор с изменяемой геометрией турбокомпрессор? |
+|  | **STEP 6D.** Проверьте стержень привода с изменяемой геометрией для правильного перемещения. | Стержни привода турбокомпрессора простираются между минимальной и максимальной спецификацией перемещения привода, приведенной в таблице CPL в разделе практических примечаний? |
+|  | **STEP 6D-1.** Проверить наличие утечек воздуха и проверить линию сжатого воздуха. | Утечки воздуха, обнаруженные в системе? |
+|  | **STEP 6D-2.** Проверьте двигатель и автомобиль. | Связи плотные и без коррозии? |
+|  | **STEP 6D-3.** Проверить давление воздуха на выходе турбокомпрессора. | Давление в воздушном баке транспортного средства, присутствующее на выходе клапана управления турбокомпрессором? |
+|  | **STEP 6D-4.** Проверить давление воздуха на выходе турбокомпрессора. | Измеритель давления считывает более 103 кПа[15 psi] через 5 минут. |
+|  | **STEP 6D-5.** Проверьте правильность перемещения турбокомпрессора. | Стержни привода турбокомпрессора перемещаются по меньшей мере на 12 мм \[0,472 дюйма \]? |
+|  | **STEP 6D-6.** Определить, оснащен ли двигатель клапаном отключения управления турбокомпрессором. | Двигатель, оборудованный турбокомпрессорным клапаном управления? |
+|  | **STEP 6D-7.** Проверить давление воздуха на выходе из турбокомпрессора. | Воздух услышал, как выскочили из розетки клапана управления турбокомпрессором? |
+|  | **STEP 6D-8.** Проверить давление воздуха на входе в клапан управления турбокомпрессором. | Воздух услышал, как выскочили из впуска турбокомпрессора? |
+|  | **STEP 6D-9.** Проверьте наличие заглушенного фильтра клапана управления турбокомпрессором. | Утечка воздуха, присутствующая на головке фильтра запорного клапана турбокомпрессора? |
+|  | **STEP 6D-10.** Проверить, подключена ли линия подачи воздуха OEM к правильному порту на клапане управления турбокомпрессором. | Воздух услышал, как выскочили из впуска турбокомпрессора? |
+|  | **STEP 6E.** Выполняйте электронный сервис INSITETM с помощью EGR клапан/Turbocharger Operational Test. | Пропуск на эксплуатационные испытания турбокомпрессора? |
+|  | **ШАГ 6Е-1.** Проверьте двигатель и основание транспортного средства. | Связи плотные и без коррозии? |
+|  | **STEP 6F** Проверить шланг привода обходного клапана турбины. | Отверстия или трещины, обнаруженные в шланге привода обходного клапана турбины? |
+|  | **STEP 6G.** Осмотрите стержень привода обходного клапана турбины для проезда. | Стержень турбинного обходного клапана? |
+|  | **STEP 6G-1.** Проверить стержень привода обходного клапана турбины на проезд. | Стержень турбинного обходного клапана? |
+|  | **STEP 6H.** Измерить сопротивление четырехступенчатых контроллеров обхода турбинного клапана, если они оборудованы. | Соленоидные сопротивления контроллера соленоидов обходного клапана турбины от 6 до 10 Ом для соленоидов 12-VDC, от 24 до 40 Ом для соленоидов 24-VDC? |
+|  | **STEP 6I.** Проверить четырехступенчатый контроллер обходного клапана турбины, если он оборудован. | Повреждение или обломки, обнаруженные на клапанном диске, сиденье клапана или приводном диске? |
+| ШАГ 7. | Проверьте клапан EGR для правильной работы. |  |
+|  | **STEP 7A.** Проверка утечек воздуха в системе EGR. | Утечки воздуха, обнаруженные в трубке соединения EGR? |
+|  | 7B. Проверить историю ремонта. | Запись о пропаже головы куколки? |
+|  | **STEP 7C.** Выполните тест EGR клапан. | Тест EGR клапан? |
+| ШАГ 8. | Проверьте, что электронные функции работают правильно. |  |
+|  | **STEP 8A.** Проверить педаль акселератора. | Процентный ускоритель читает 0, когда ускоритель высвобождается, и 100 процентов, когда ускоритель находится в депрессии. |
+|  | 8B. Следите за скоростью автомобиля. | Скорость транспортного средства 0, когда транспортное средство не движется. |
+|  | **STEP 8C.** Проверить правильность настроек электронных функций. | Электронные функции установлены правильно? |
+|  | **STEP 8D.** Проверить показания датчиков барометрического давления. | Считывание датчика барометрического давления в электронном сервисном оборудовании INSITETM в пределах 5% от текущего локального считывания барометрического давления. |
+| ШАГ 9. | Выполняйте механические проверки базового двигателя. |  |
+|  | **STEP 9A.** Проверить, являются ли корректировки накладных расходов правильными. | Накладные настройки в пределах лимитов сброса? |
+|  | **STEP 9B.** Проверить ограничение впуска воздуха. | Ограничение впуска воздуха более 635 мм-Н 2 О[25 в-Н 2 О]? |
+|  | **STEP 9C.** Проверить ограничение выхлопных газов. | Исчерпывающее ограничение в пределах указанных лимитов, указанных в Руководстве по обслуживанию. |
+|  | **STEP 9D.** Проверьте охладитель воздуха. | Падение давления 34 кПа[5 psi] или меньше за 15 секунд? |
+|  | **STEP 9E.** Проверить регулировку тормозов двигателя. | Настройки тормозов двигателя в пределах пределов сброса? |
+|  | **STEP 9F.** Измерить осевой и радиальный зазор турбокомпрессора. | Осевой и радиальный зазоры в заданных пределах? |
+|  | **STEP 9G.** Проверить, что продувка двигателя находится в пределах спецификации. | Измерения продувки двигателя в заданных пределах? |
+|  | **STEP 9G-1.** Проверить вклад турбокомпрессора в продувку двигателя. | Сократилось ли общее падение двигателя более чем на 30%? |
+|  | **STEP 9H.** Проверьте время статичной инъекции. | Правильно ли выбрано время статической инъекции? |
+| ШАГ 10. | Проверьте датчик дифференциального давления EGR и датчик давления выхлопных газов |  |
+|  | **STEP 10A.** Проверьте трубки дифференциального давления EGR на наличие трещин, ограничений или утечек. | Трещины, ограничения или утечки присутствуют? |
+|  | **STEP 10B.** Проверьте трубки давления выхлопных газов на наличие трещин, ограничений или утечек. | Трещины, ограничения или утечки присутствуют? |
+| ШАГ 11. | Проверьте охладитель EGR. |  |
+|  | **STEP 11A.** Проверьте охладитель EGR на наличие фоулинга. | Параметр эффективности EGR кулера более 50 процентов через 4 минуты. |
 
-| **Conditions:** Connect INSITE™ electronic service tool. Turn keyswitch ON. |  |  |
+### ШАГ 1. Выполняйте основные процедуры устранения неполадок.
+
+#### ШАГ 1A. Проверьте наличие активных кодов неисправностей или большое количество неактивных кодов неисправностей.
+
+| **Условия:** Подключить электронный сервисный инструмент INSITETM. Включите зажигание. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for active fault codes or high counts of inactive fault codes. Use INSITE™ electronic service tool to read the fault codes. | Active fault codes or high counts of inactive fault codes? **YESRepair:** See one of the following manuals: Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381 Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477 Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. | Go to appropriate fault code troubleshooting tree |
-| Active fault codes or high counts of inactive fault codes? **NO** | 1B |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте наличие активных кодов неисправностей или большое количество неактивных кодов неисправностей. Используйте инструмент электронного сервиса INSITETM для считывания кодов неисправностей. | Активные коды неисправностей или большое количество неактивных кодов неисправностей? **Ремонт:** См. одно из следующих руководств: Руководство по устранению и ремонту, Электронная система управления CM870, Двигатели ISM, Руководство по устранению и ремонту бюллетеня 4021381, Электронная система управления CM875, Двигатели ISM, Руководство по устранению и ремонту бюллетеня 4021477, Электронная система управления, Двигатели ISM и QSM11, Бюллетень [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. | Перейти к соответствующему дереву устранения неисправностей кода ошибки |
+| Активные коды неисправностей или большое количество неактивных кодов неисправностей? **НЕТ** | 1В |  |
 
-#### STEP 1B. Perform basic troubleshooting checks.
+#### ШАГ 1B. Выполняйте основные проверки устранения неполадок.
 
-| **Conditions:** |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| The following items must be checked or verified before continuing: Verify the fuel level in the tanks Verify there have not been any changes to CPL components on the engine Verify fuel grade is correct for the application Verify the engine is operating within the recommended altitude Verify engine oil is at the correct level Verify engine parasitics have not changed Verify engine duty cycle has not changed Verify engine cranking speed is greater than 150 rpm. | All steps have been verified to be correct? **YES** | 2A |
-| All steps have been verified to be correct? **NORepair:** Correct the condition and verify complaint is no longer present after repair. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Перед продолжением работы необходимо проверить или проверить следующие пункты: Проверить уровень топлива в баках Проверить, не было ли каких-либо изменений в компонентах CPL на двигателе Проверить класс топлива правильно для применения Проверить, что двигатель работает в пределах рекомендуемой высоты Проверить моторное масло на правильном уровне Проверить, что двигатель не изменил рабочий цикл Проверить, что двигатель не изменил скорость проворачивания двигателя больше 150 об/мин. | Все шаги были проверены на правильность? *Да | 2А |
+| Все шаги были проверены на правильность? **NORepair:** Исправить состояние и проверить жалобу больше не присутствует после ремонта. | Ремонт завершён |  |
 
-### STEP 2. Determination of engine symptom.
+### ШАГ 2. Определение симптома двигателя.
 
-#### STEP 2A. Low power, poor acceleration, poor response, or engine will not reach rated speed (rpm).
+#### ШАГ 2A. Низкая мощность, плохое ускорение, плохой отклик или двигатель не будут достигать номинальной скорости (rpm).
 
-| **Conditions:** |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Interview the driver and verify the complaint. | Engine symptom low power, poor acceleration, poor response, or engine will **not** reach rated speed (rpm)? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 6 - Air Handling Checks With EGR - Step 7 - EGR Checks Step 8 - Electronic Checks Step 5 - Injector Checks Step 9 - Base Engine Checks With EGR - Step 10 - EGR Differential Pressure and Exhaust Gas Pressure Checks With EGR - Step 11 - Check the EGR Cooler | Perform the troubleshooting steps suggested in the repair procedure |
-| Engine symptom low power, poor acceleration, poor response, or engine will **not** reach rated speed (rpm)? **NO** | 2B |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проведите опрос водителя и проверьте жалобу. | Симптом двигателя: низкая мощность, плохое ускорение, плохая реакция или двигатель не достигнет номинальной скорости (rpm)? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 4 - Проверка топливной системы Шаг 6 - Проверка управления воздухом с помощью EGR - Шаг 7 - Проверка EGR Шаг 8 - Электронные проверки Шаг 5 - Проверка форсунки Шаг 9 - Проверка базового двигателя с помощью EGR - Шаг 10 - Проверка дифференциального давления EGR и давления выхлопных газов с помощью EGR - Шаг 11 - Проверка охладителя EGR | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта |
+| Симптом двигателя: низкая мощность, плохое ускорение, плохая реакция или двигатель не достигнет номинальной скорости (rpm)? **НЕТ** | 2В |  |
 
-#### STEP 2B. Engine runs rough or misfires.
+#### ШАГ 2B. Двигатель работает грубо или неисправно.
 
-| **Conditions:** |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Interview the driver and verify the complaint. | Engine symptom Engine Runs Rough or Misfires? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 5 - Injector Checks Step 4 - Fuel System Checks Step 9 - Base Engine Checks With EGR - Step 10 - EGR Differential Pressure and Exhaust Gas Pressure Checks With EGR - Step 11 - Check the EGR Cooler | Perform the troubleshooting steps suggested in the repair procedure |
-| Engine symptom Engine Runs Rough or Misfires? **NO** | 2C |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проведите опрос водителя и проверьте жалобу. | Симптом двигателя: двигатель работает грубо или неисправности? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 5 - Форсунка Шаг 4 - Топливная система Проверка Шаг 9 - Базовый двигатель Проверка с EGR - Шаг 10 - Проверка дифференциального давления EGR и давления выхлопных газов с EGR - Шаг 11 - Проверка охладителя EGR | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта |
+| Симптом двигателя: двигатель работает грубо или неисправности? **НЕТ** | 2C |  |
 
-#### STEP 2C. Excessive black smoke.
+#### ШАГ 2C. Чрезмерный черный дым.
 
-| **Conditions:** |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Interview the driver and verify the complaint. | Engine symptom Excessive Black Smoke? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 6 - Air Handling Checks Step 4 - Fuel System Checks With EGR - Step 7 - EGR Checks With EGR - Step 10 - EGR Differential Pressure and Exhaust Gas Pressure Checks Step 9 - Base Engine Checks | Perform the troubleshooting steps suggested in the repair procedure |
-| Engine symptom Excessive Black Smoke? **NO** | 2D |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проведите опрос водителя и проверьте жалобу. | Симптом двигателя: Чрезмерный черный дым? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 6 - Проверка управления воздухом Шаг 4 - Проверка топливной системы с помощью EGR - Шаг 7 - Проверка EGR с помощью EGR - Шаг 10 - Проверка дифференциального давления EGR и давления выхлопных газов Шаг 9 - Проверка базового двигателя | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта |
+| Симптом двигателя: Чрезмерный черный дым? **НЕТ** | 2D |  |
 
-#### STEP 2D. Excessive white smoke.
+#### ШАГ 2D. Чрезмерный белый дым.
 
-| **Conditions:** |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Interview the driver and verify the complaint. | Engine symptom Excessive White Smoke and the engine is using coolant? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: See the Coolant Loss - Internal symptom tree. | Perform the troubleshooting steps suggested in the repair procedure |
-| Engine symptom Excessive White Smoke and the engine is using coolant? **NO** | 2D-1 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проведите опрос водителя и проверьте жалобу. | Симптом двигателя — чрезмерный белый дым, и двигатель использует охлаждающую жидкость? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Охлаждение - внутреннее дерево симптомов. | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта |
+| Симптом двигателя — чрезмерный белый дым, и двигатель использует охлаждающую жидкость? **НЕТ** | 2D-1 |  |
 
-#### STEP 2D-1. Excessive white smoke.
+#### ШАГ 2D-1. Чрезмерный белый дым.
 
-| **Conditions:** |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Interview the driver and verify the complaint. | Engine symptom Excessive White Smoke and the engine is **not** using coolant? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Injector Checks Step 6 - Air handling checks Step 9 - Base Engine Checks | Perform the troubleshooting steps suggested in the repair procedure |
-| Engine symptom Excessive White Smoke and the engine is **not** using coolant? **NO** | 2E |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проведите опрос водителя и проверьте жалобу. | Симптом двигателя - чрезмерный белый дым, а двигатель **не** использует охлаждающую жидкость. **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 4 - Проверка топливной системы Шаг 5 - Проверка форсунки Шаг 6 - Проверка управления воздухом Шаг 9 - Проверка базового двигателя | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта |
+| Симптом двигателя - чрезмерный белый дым, а двигатель **не** использует охлаждающую жидкость. **НЕТ** | 2Е |  |
 
-#### STEP 2E. Engine speed surge or engine speed unstable.
+#### ШАГ 2E. Скачок скорости двигателя или нестабильная скорость двигателя.
 
-| **Conditions:** |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Interview the driver and verify the complaint. | Engine symptom Engine Speed Surge or Engine Speed Unstable? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Injector Checks Step 10 - EGR Differential Pressure and Exhaust Gas Pressure Checks Step 6 - Air Handling Checks Step 8 - Electronics Checks Step 9 - Base Engine Checks Step 11 - Check the EGR Cooler | Perform the troubleshooting steps suggested in the repair procedure |
-| Engine symptom Engine Speed Surge or Engine Speed Unstable? **NO** | 2F |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проведите опрос водителя и проверьте жалобу. | Симптом двигателя: скорость двигателя или скорость двигателя нестабильна? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 4 - Проверка топливной системы Шаг 5 - Проверка форсунки Шаг 10 - Проверка дифференциального давления EGR и давления выхлопных газов Шаг 6 - Проверка управления воздухом Шаг 8 - Проверка электроники Шаг 9 - Проверка базового двигателя Шаг 11 - Проверка охладителя EGR | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта |
+| Симптом двигателя: скорость двигателя или скорость двигателя нестабильна? **НЕТ** | 2F |  |
 
-#### STEP 2F. Engine will not start or difficult to start, engine shuts off unexpectedly.
+#### ШАГ 2F. Двигатель не заводится или его трудно запустить, двигатель неожиданно отключается.
 
-| **Conditions:** |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Interview the driver and verify the complaint. | Engine symptom Engine Difficult to Start or Will **Not** Start, or Engine Shuts Off Unexpectedly? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 3 - No Start Checks Step 4 - Fuel System Checks Step 5 - Injector Checks Step 6 - Air Handling Checks Step 8 - Electronics Checks Step 9 - Base Engine Checks | Perform the troubleshooting steps suggested in the repair procedure |
-| Engine symptom Engine Difficult to Start or Will **Not** Start, or Engine Shuts Off Unexpectedly? **NO** | Return to correct symptom tree |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проведите опрос водителя и проверьте жалобу. | Симптом двигателя: двигатель трудно запустить или не запустится, или двигатель неожиданно отключается? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 3 - Нет Старт-чеков Шаг 4 - Проверка топливной системы Шаг 5 - Проверка форсунки Шаг 6 - Проверка управления воздухом Шаг 8 - Проверка электроники Шаг 9 - Проверка базового двигателя | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта |
+| Симптом двигателя: двигатель трудно запустить или не запустится, или двигатель неожиданно отключается? **НЕТ** | Вернуться к правильному дереву симптомов |  |
 
-### STEP 3. No-start troubleshooting procedures.
+### ШАГ 3. Не начинайте процедуры устранения неполадок.
 
-#### STEP 3A. Check fuel shutoff valve voltage.
+#### ШАГ 3A. Проверьте напряжение клапана отключения топлива.
 
-| **Conditions:** Turn keyswitch ON. |  |  |
+| **Условия:** Включить переключатель зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Measure the voltage from the fuel shutoff valve post to engine block ground. | Fuel shutoff valve voltage greater than 11-VDC? **YES** | 3H |
-| Fuel shutoff valve voltage greater than 11-VDC? **NO** | 3B |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Измерьте напряжение от стойки запорного клапана топлива до заземления блока двигателя. | Напряжение запорного клапана топлива больше 11-VDC? *Да | 3х |
+| Напряжение запорного клапана топлива больше 11-VDC? **НЕТ** | 3B |  |
 
-#### STEP 3B. Determine if engine is equipped with a fuel control module.
+#### ШАГ 3B. Определить, оснащен ли двигатель модулем управления топливом.
 
-| **Conditions:** Connect all components. |  |  |
+| **Условия:** Соединить все компоненты. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Determine if the engine is equipped with a separate fuel control module. | Engine equipped with a separate fuel control module? **YES** | 3C |
-| Engine equipped with a separate fuel control module? **NO** | 3B-1 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Определить, оснащен ли двигатель отдельным модулем управления топливом. | Двигатель оснащен отдельным модулем управления топливом? *Да | 3C |
+| Двигатель оснащен отдельным модулем управления топливом? **НЕТ** | 3В-1-1 |  |
 
-#### STEP 3B-1. Check the ECM connector and pins.
+#### ШАГ 3B-1. Проверьте разъем и контакты ECM.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the OEM harness connector from the ECM. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините разъём OEM-проводов от ECM. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the OEM harness connector and ECM pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19.]] | Dirty or damaged pins? **YESRepair:** Clean the connector and pins. Repair the damaged harness, connector, or pins, if possible. See one of the following procedures: Flush the dirt, debris, or moisture from the connector pins. Use electrical contact cleaner, Part Number 3824510. Install the appropriate connector seal if it is damaged or missing. Replace the engine harness. Use one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. Replace the OEM harness. Refer to the OEM service manual. Replace the ECM. Use one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-031 in Section 19. | Repair complete |
-| Dirty or damaged pins? **NO** | 3B-2 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Осмотрите разъём проводов OEM и контакты ECM на предмет: Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема разъема или разбитые штифты Разъем разъема разъема или разъема разъема разъема или на разъеме контакты Разъема оболочки разбитого Провода изоляционного повреждения Поврежденный разъем блокировки вкладки. Используйте следующую процедуру для общих методов проверки.[[99-019-361 — Component Connector and Pin Inspection\|См. процедуру 019-361 в разделе 19.]] | Грязные или поврежденные контакты? *** Ремонт:** Очистить разъем и штифты. По возможности отремонтируйте поврежденную проводку, разъем или штифты. См. одну из следующих процедур: Смой грязь, мусор или влагу из контактов разъема. Используйте электрическую контактную очистку, номер детали 3824510. Установите соответствующий уплотнитель разъема, если он поврежден или отсутствует. Замените жгут проводов двигателя. Используйте одну из следующих процедур: Руководство по устранению неполадок и ремонту, Электронная система управления, двигатели ISM и QSM11, Бюллетень [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-043 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM870, бюллетень двигателей ISM 4021381. См. процедуру 019-043 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM875, двигатели ISM, бюллетень 4021477. См. процедуру 019-043 в разделе 19. Замените проводку OEM. См. сервисное руководство изготовителя машины. Заменить ECM. Используйте одну из следующих процедур: Руководство по устранению неполадок и ремонту, Электронная система управления, двигатели ISM и QSM11, Бюллетень [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-031 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM870, бюллетень двигателей ISM 4021381. См. процедуру 019-031 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM875, двигатели ISM, бюллетень 4021477. См. процедуру 019-031 в разделе 19. | Ремонт завершён |
+| Грязные или поврежденные контакты? **НЕТ** | 3В-2-2 |  |
 
-#### STEP 3B-2. Check the ECM keyswitch voltage.
+#### ШАГ 3B-2. Проверьте напряжение переключателя зажигания ECM.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the OEM harness connector from the ECM. Turn keyswitch ON. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините разъём OEM-проводов от ECM. Включите зажигание. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the ECM keyswitch voltage. Measure the voltage from the keyswitch input SIGNAL pin of the OEM connector to ground. Refer to the wiring diagram or circuit diagram for connector pin identification. | Keyswitch voltage equal to battery voltage? **YES** | 3B-3 |
-| Keyswitch voltage equal to battery voltage? **NORepair:** Repair the OEM keyswitch circuit. Use one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-064 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-064 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-064 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте напряжение переключателя зажигания ECM. Измерить напряжение от входного сигнала зажигания переключателя контакта OEM-разъема с землей. См. схему проводов или схему схемы для идентификации контакта с разъемом. | напряжение переключателя зажигания равно напряжению батареи? *Да | 3В-3 |
+| напряжение переключателя зажигания равно напряжению батареи? **NORepair:** Ремонт схемы переключателя зажигания OEM. Используйте одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-064 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, Двигателях ISM, Бюллетене 4021381. См. процедуру 019-064 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-064 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 3B-3. Check the ECM battery supply voltage.
+#### ШАГ 3B-3. Проверьте напряжение питания батареи ECM.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the OEM or 4-pin power harness connector from the ECM. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините OEM или 4-контактный разъем электропроводки от ECM. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the ECM battery supply. Measure the voltage from the battery SUPPLY (+) pins of the OEM or 4-pin power harness connector to the battery SUPPLY (-) pins of the connector. Refer to the wiring diagram or circuit diagram for connector pin identification. | Voltage equal to battery voltage? **YES** | 3B-4 |
-| Voltage equal to battery voltage? **NORepair:** Repair the OEM battery supply or keyswitch circuit. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте источник питания аккумулятора ECM. Измерьте напряжение от контактов батареи SUPPLY (+) OEM или 4-контактного разъема электропроводки жгута к разъемам батареи SUPPLY (-). См. схему проводов или схему схемы для идентификации контакта с разъемом. | Напряжение равно напряжению батареи? *Да | 3В-4 |
+| Напряжение равно напряжению батареи? **NORepair:** Ремонт цепи питания OEM-аккумулятора или переключателя зажигания. | Ремонт завершён |  |
 
-#### STEP 3B-4. Check the ECM actuator connector and pins.
+#### ШАГ 3B-4. Проверьте разъем и штифты привода ECM.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the engine harness or engine harness actuator connector from the ECM. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините электропроводку двигателя или разъём привода электропроводки двигателя от ECM. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the engine harness or engine harness actuator connector and ECM pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19.]] | Dirty or damaged pins? **YESRepair:** Clean the connector and pins. Repair the damaged harness, connector, or pins if possible. See one of the following procedures: Flush the dirt, debris, or moisture from the connector pins. Use electrical contact cleaner, Part Number 3824510. Install the appropriate connector seal if it is damaged or missing. Replace the engine harness. Use one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. Replace the OEM harness. Refer to the OEM service manual. Replace the ECM. Use one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-031 in Section 19. | Repair complete |
-| Dirty or damaged pins? **NO** | 3B-5 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Осмотрите ремень привода двигателя или разъём привода ремня привода двигателя и пинки ECM для следующего: Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема разъема или разбитые штифты Разъем разъема разъема или разъема разъема разъема или на разъеме контакты Разъема оболочки разбитого Провода изоляционного повреждения Поврежденный разъем блокировки вкладки. Используйте следующую процедуру для общих методов проверки.[[99-019-361 — Component Connector and Pin Inspection\|См. процедуру 019-361 в разделе 19.]] | Грязные или поврежденные контакты? *** Ремонт:** Очистить разъем и штифты. По возможности отремонтируйте поврежденную проводку, разъем или штифты. См. одну из следующих процедур: Смой грязь, мусор или влагу из контактов разъема. Используйте электрическую контактную очистку, номер детали 3824510. Установите соответствующий уплотнитель разъема, если он поврежден или отсутствует. Замените жгут проводов двигателя. Используйте одну из следующих процедур: Руководство по устранению неполадок и ремонту, Электронная система управления, двигатели ISM и QSM11, Бюллетень [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-043 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM870, бюллетень двигателей ISM 4021381. См. процедуру 019-043 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM875, двигатели ISM, бюллетень 4021477. См. процедуру 019-043 в разделе 19. Замените проводку OEM. См. сервисное руководство изготовителя машины. Заменить ECM. Используйте одну из следующих процедур: Руководство по устранению неполадок и ремонту, Электронная система управления, двигатели ISM и QSM11, Бюллетень [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-031 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM870, бюллетень двигателей ISM 4021381. См. процедуру 019-031 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM875, двигатели ISM, бюллетень 4021477. См. процедуру 019-031 в разделе 19. | Ремонт завершён |
+| Грязные или поврежденные контакты? **НЕТ** | 3В-5 |  |
 
-#### STEP 3B-5. Check for a pin-to-pin short circuit in the engine harness.
+#### ШАГ 3B-5. Проверьте короткое замыкание контакт-контакт в ремне электропроводки двигателя.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the engine harness or engine harness actuator connector from the ECM. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините электропроводку двигателя или разъём привода электропроводки двигателя от ECM. Удалите кольцевой терминал проводов двигателя из клапана отключения топлива. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for a pin-to-pin short circuit. Measure the resistance between the fuel shutoff valve SIGNAL pin of the engine harness or engine harness actuator connector and all pins in the connector. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3B-6 |
-| Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте короткое замыкание контакт-контакт. Измерить сопротивление между сигналом отключения клапана топлива контакта проводов двигателя или разъема привода двигателя и всех штифтов в разъеме. См. схему проводов или схему схемы для идентификации контакта с разъемом. Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter\|См. процедуру 019-360 в разделе 19.]] | Больше 100 тысяч ом? *Да | 3В-6 |
+| Больше 100 тысяч ом? **NORepair:** Ремонтировать или заменить электропроводку двигателя. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, бюллетене двигателей ISM 4021381. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-043 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 3B-6. Check for a short circuit to ground in the engine harness.
+#### ШАГ 3B-6. Проверьте короткое замыкание, чтобы заземлиться в ремне электропроводки двигателя.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the engine harness or engine harness actuator connector from the ECM. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините электропроводку двигателя или разъём привода электропроводки двигателя от ECM. Удалите кольцевой терминал проводов двигателя из клапана отключения топлива. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for a short circuit to ground. Measure the resistance between the fuel shutoff valve SIGNAL pin of the engine harness or engine harness actuator connector and ground. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3B-7 |
-| Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте короткое замыкание на землю. Измерить сопротивление между сигналом отключения клапана топлива контакта проводов двигателя или разъёма привода двигателя и земли. См. схему проводов или схему схемы для идентификации контакта с разъемом. Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter\|См. процедуру 019-360 в разделе 19.]] | Больше 100 тысяч ом? *Да | 3B-7 |
+| Больше 100 тысяч ом? **NORepair:** Ремонтировать или заменить электропроводку двигателя. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, бюллетене двигателей ISM 4021381. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-043 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 3B-7. Check the continuity of the fuel shutoff valve circuit.
+#### ШАГ 3B-7. Проверьте непрерывность цепи клапана отключения топлива.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the engine harness or engine harness actuator connector from the ECM. Disconnect the fuel shutoff valve wire from the valve terminal post. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините электропроводку двигателя или разъём привода электропроводки двигателя от ECM. Отсоедините провод отключения топливного клапана от стойки клапанного терминала. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the continuity of the fuel shutoff valve circuit. Measure the resistance of the fuel shutoff valve SIGNAL circuit between the engine harness or engine harness actuator connector and the fuel shutoff valve eyelet. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Less than 10 ohms? **YESRepair:** Replace the ECM. See one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-031 in Section 19. | Repair complete |
-| Less than 10 ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте непрерывность цепи клапана отключения топлива. Измерить сопротивление цепи SIGNAL запорного клапана топлива между ремнем электропроводки двигателя или разъемом привода электропроводки двигателя и окне запорного клапана топлива. См. схему проводов или схему схемы для идентификации контакта с разъемом. Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter\|См. процедуру 019-360 в разделе 19.]] | Менее 10 Ом? * Заменить ЭКМ. См. одну из следующих процедур: Руководство по устранению неполадок и ремонту, Электронная система управления, двигатели ISM и QSM11, Бюллетень [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-031 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM870, бюллетень двигателей ISM 4021381. См. процедуру 019-031 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM875, двигатели ISM, бюллетень 4021477. См. процедуру 019-031 в разделе 19. | Ремонт завершён |
+| Менее 10 Ом? **NORepair:** Ремонтировать или заменить электропроводку двигателя. См. одну из следующих процедур: Руководство по устранению неполадок и ремонту, Электронная система управления, двигатели ISM и QSM11, Бюллетень [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-043 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM870, бюллетень двигателей ISM 4021381. См. процедуру 019-043 в разделе 19. Руководство по устранению неполадок и ремонту, электронная система управления CM875, двигатели ISM, бюллетень 4021477. См. процедуру 019-043 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 3C. Check the fuel control module and fuel control module power connector pins.
+#### ШАГ 3C. Проверьте модуль управления топливом и контакты разъема питания модуля управления топливом.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the fuel control module actuator connector from the fuel control module. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините разъем актуатора модуля управления топливом от модуля управления топливом. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the fuel control module and the fuel control module actuator connector pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19.]] | Dirty or damaged pins? **YESRepair:** Clean the connector and pins. Repair the damaged harness, connector, or pins, if possible. Repair or replace the fuel control module harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |
-| Dirty or damaged pins? **NO** | 3D |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверить контактные элементы модуля управления топливом и разъёма модуля управления топливом на предмет: Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема Разъем разъема разъема или разбитые штифты Разъем разъема разъема или разъема разъема разъема или на разъеме контакты Разъема оболочки разбитого Провода изоляционного повреждения Поврежденный разъем блокировки вкладки. Используйте следующую процедуру для общих методов проверки.[[99-019-361 — Component Connector and Pin Inspection\|См. процедуру 019-361 в разделе 19.]] | Грязные или поврежденные контакты? *** Ремонт:** Очистить разъем и штифты. По возможности отремонтируйте поврежденную проводку, разъем или штифты. Ремонт или замена модуля управления топливом проводной упряжкой. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, бюллетене двигателей ISM 4021381. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-043 в разделе 19. | Ремонт завершён |
+| Грязные или поврежденные контакты? **НЕТ** | 3D |  |
 
-#### STEP 3D. Check for a pin-to-pin short circuit at the fuel control module.
+#### ШАГ 3D. Проверьте короткое замыкание контакт-контакт в модуле управления топливом.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the fuel control module actuator connector from the fuel control module. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините разъем актуатора модуля управления топливом от модуля управления топливом. Удалите кольцевой терминал проводов двигателя из клапана отключения топлива. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for a pin-to-pin short circuit. Measure the resistance between the fuel shutoff valve SIGNAL pin of the fuel control module actuator connector and all other pins in the connector. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3E |
-| Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Replace the engine harness. Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Replace the engine harness. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Replace the engine harness. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте короткое замыкание контакт-контакт. Измерить сопротивление между контактом сигнала запорного клапана топливного модуля управления разъемом привода и всеми другими штифтами в разъеме. См. схему проводов или схему схемы для идентификации контакта с разъемом. Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter\|См. процедуру 019-360 в разделе 19.]] | Больше 100 тысяч ом? *Да | 3E |
+| Больше 100 тысяч ом? **NORepair:** Ремонтировать или заменить электропроводку двигателя. См. одну из следующих процедур: Замените жгут проводов двигателя. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-043 в разделе 19. Замените жгут проводов двигателя. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, бюллетене двигателей ISM 4021381. См. процедуру 019-043 в разделе 19. Замените жгут проводов двигателя. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-043 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 3E. Check for a short circuit to ground in the engine harness.
+#### ШАГ 3E. Проверьте короткое замыкание, чтобы заземлиться в ремне электропроводки двигателя.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the fuel control module actuator connector from the fuel control module. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините разъем актуатора модуля управления топливом от модуля управления топливом. Удалите кольцевой терминал проводов двигателя из клапана отключения топлива. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for a short circuit to ground. Measure the resistance between the fuel shutoff valve SIGNAL pin of the engine harness fuel control module actuator connector and engine block ground. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3F |
-| Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте короткое замыкание на землю. Измерить сопротивление между сигналом отключения клапана топлива контакта проводов двигателя с помощью разъёма привода модуля управления топливом и заземления блока двигателя. См. схему проводов или схему схемы для идентификации контакта с разъемом. Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter\|См. процедуру 019-360 в разделе 19.]] | Больше 100 тысяч ом? *Да | 3F |
+| Больше 100 тысяч ом? **NORepair:** Ремонтировать или заменить электропроводку двигателя. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, бюллетене двигателей ISM 4021381. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-043 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 3F. Check for a pin-to-pin short circuit in the engine harness.
+#### ШАГ 3F. Проверьте короткое замыкание контакт-контакт в ремне электропроводки двигателя.
 
-| **Conditions:** Turn keyswitch OFF. Disconnect the fuel control module actuator connector from the fuel control module. Disconnect the engine harness from the ECM. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+| **Условия:** Выключите замок зажигания. Отсоедините разъем актуатора модуля управления топливом от модуля управления топливом. Отсоедините электропроводку двигателя от ECM. Удалите кольцевой терминал проводов двигателя из клапана отключения топлива. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for a pin-to-pin short circuit. Measure the resistance between the fuel shutoff valve SIGNAL pin of the engine harness fuel control module actuator connector and all pins in the engine harness engine control module connector. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3G |
-| Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте короткое замыкание контакт-контакт. Измерить сопротивление между контактом сигнала запорного клапана двигателя проводов ремня управления топливом модуля привода разъема и всех штифтов в проводах двигателя ремня управления двигателем разъёма модуля. См. схему проводов или схему схемы для идентификации контакта с разъемом. Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter\|См. процедуру 019-360 в разделе 19.]] | Больше 100 тысяч ом? *Да | 3G |
+| Больше 100 тысяч ом? **NORepair:** Ремонтировать или заменить электропроводку двигателя. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, бюллетене двигателей ISM 4021381. См. процедуру 019-043 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-043 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 3G. Check ground connections.
+#### ШАГ 3G. Проверьте наземные соединения.
 
-| **Conditions:** Connect all components. |  |  |
+| **Условия:** Соединить все компоненты. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check conditions of grounds. Check for loose, missing, or dirty ground connections at the following locations: Engine harness ground at block stud Starter to block ground strap and battery negative Chassis to engine block or battery negative. | Ground connections clean and tight? **YESRepair:** Replace the engine control module. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-031 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-031 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-031 in Section 19. | Repair complete |
-| Ground connections clean and tight? **NORepair:** Tighten and clean ground connections as needed. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверить условия основания. Проверьте наличие свободных, отсутствующих или грязных наземных соединений в следующих местах: Моторная проводка заземляет заземление на блок-штуке Стартер, чтобы блокировать заземляющий ремень и отрицательный шасси батареи на блок двигателя или отрицательный аккумулятор. | Наземные соединения чистые и плотные? *** Ремонт:** Заменить модуль управления двигателем. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-031 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, бюллетене двигателей ISM 4021381. См. процедуру 019-031 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-031 в разделе 19. | Ремонт завершён |
+| Наземные соединения чистые и плотные? **NORepair:** Затягивать и очищать наземные соединения по мере необходимости. | Ремонт завершён |  |
 
-#### STEP 3H. Check the fuel shutoff valve resistance.
+#### ШАГ 3H. Проверьте сопротивление клапана отключения топлива.
 
-| **Conditions:** Turn keyswitch OFF. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+| **Условия:** Выключите замок зажигания. Удалите кольцевой терминал проводов двигателя из клапана отключения топлива. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the shutoff valve resistance. Measure the resistance between the fuel shutoff valve ring terminal stud and engine block ground. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Fuel shutoff solenoid resistance: 1 to 5 ohms for 6-VDC solenoids 6 to 15 ohms for 12-VDC solenoids 24 to 50 ohms for 24-VDC solenoids 42 to 80 ohms for 32-VDC solenoids 46 to 87 ohms for 36-VDC solenoids 92 to 145 ohms for 48-VDC solenoids 315 to 375 ohms for 74-VDC solenoids 645 to 735 ohms for 115-VAC solenoids? **YES** | 3I |
-| Fuel shutoff solenoid resistance: 1 to 5 ohms for 6-VDC solenoids 6 to 15 ohms for 12-VDC solenoids 24 to 50 ohms for 24-VDC solenoids 42 to 80 ohms for 32-VDC solenoids 46 to 87 ohms for 36-VDC solenoids 92 to 145 ohms for 48-VDC solenoids 315 to 375 ohms for 74-VDC solenoids 645 to 735 ohms for 115-VAC solenoids? **NORepair:** Replace the fuel shutoff valve. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-050 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-050 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-050 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте сопротивление запорного клапана. Измерьте сопротивление между шпилькой запорного клапана запорного кольца и заземлением блока двигателя. Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter\|См. процедуру 019-360 в разделе 19.]] | Соленоидное сопротивление отключения топлива: 1-5 Ом для соленоидов 6-VDC 6-15 Ом для соленоидов 12-VDC 24-50 Ом для соленоидов 24-VDC 42-80 Ом для соленоидов 32-VDC 46-87 Ом для соленоидов 36-VDC 92-145 Ом для соленоидов 48-VDC 315-375 Ом для соленоидов 74-VDC 645-735 Ом для соленоидов 115-VAC? *Да | 3II |
+| Соленоидное сопротивление отключения топлива: 1-5 Ом для соленоидов 6-VDC 6-15 Ом для соленоидов 12-VDC 24-50 Ом для соленоидов 24-VDC 42-80 Ом для соленоидов 32-VDC 46-87 Ом для соленоидов 36-VDC 92-145 Ом для соленоидов 48-VDC 315-375 Ом для соленоидов 74-VDC 645-735 Ом для соленоидов 115-VAC? **NORepair:** Заменить запорный клапан топлива. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-050 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, Двигателях ISM, Бюллетене 4021381. См. процедуру 019-050 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-050 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 3I. Check the engine position sensor installation.
+#### ШАГ 3I. Проверьте установку датчика положения двигателя.
 
-| **Conditions:** Turn keyswitch OFF. |  |  |
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the engine position sensor for proper installation. Excessive air gap between the sensor and camshaft can cause incorrect speed sensor readings. | Engine position sensor installed correctly? **YES** | 3J |
-| Engine position sensor installed correctly? **NORepair:** Install the engine position sensor correctly. Replace the engine position sensor, if necessary. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-038 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-038 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-038 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте датчик положения двигателя для правильной установки. Чрезмерный воздушный зазор между датчиком и распределительным валом может привести к неправильным показаниям датчика скорости. | Правильно установлен датчик положения двигателя? *Да | 3J |
+| Правильно установлен датчик положения двигателя? **NORepair:** Установите датчик положения двигателя правильно. Замените датчик положения двигателя, если это необходимо. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-038 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, Двигателях ISM, Бюллетене 4021381. См. процедуру 019-038 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-038 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 3J. Determine if engine is equipped with exhaust gas recirculation (EGR).
+#### ШАГ 3J. Определить, оснащен ли двигатель рециркуляции выхлопных газов (EGR).
 
-| **Conditions:** Connect all components. |  |  |
+| **Условия:** Соединить все компоненты. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Determine if the engine is equipped with EGR. | Engine equipped with EGR? **YES** | 3K |
-| Engine equipped with EGR? **NO** | Perform next troubleshooting procedure as outlined in Step 2 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Определите, оснащен ли двигатель EGR. | Двигатель, оснащенный EGR? *Да | 3K |
+| Двигатель, оснащенный EGR? **НЕТ** | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |  |
 
-#### STEP 3K. Check for coolant in the EGR transfer tube.
+#### ШАГ 3K. Проверьте наличие охлаждающей жидкости в трубке EGR.
 
-| **Conditions:** Turn keyswitch OFF. |  |  |
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Remove the EGR transfer hose from the EGR cooler outlet. | Is coolant present in the crossover tube? **YESRepair:** See the Coolant Loss - Internal symptom tree. | Repair complete |
-| Is coolant present in the crossover tube? **NO** | Perform next troubleshooting procedure as outlined in Step 2 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Удалите шланг для передачи EGR из розетки охладителя EGR. | Присутствует ли охлаждающая жидкость в кроссоверной трубке? **Ремонт:** См. Дерево внутренних симптомов. | Ремонт завершён |
+| Присутствует ли охлаждающая жидкость в кроссоверной трубке? **НЕТ** | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |  |
 
-### STEP 4. Fuel system checks.
+### ШАГ 4. Проверка топливной системы.
+
+#### ШАГ 4A. Проверьте воздух в топливе.
+
+| **Условия:** Работайте с двигателем на низком холостом ходу (проворачивайте двигатель, если устраняет неисправности No-Start). |  |  |
+|---|---|---|
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Подключите оборудование к топливному насосу, как показано. | Видны ли пузырьки воздуха в стекле? **Ремонт:** Найдите и исправьте причину попадания воздуха в систему подачи топлива OEM или поврежденное уплотнительное кольцо топливного фильтра. | Ремонт завершён |
+| Видны ли пузырьки воздуха в стекле? **НЕТ** | 4B |  |
 
-#### STEP 4A. Check for air in the fuel.
+#### ШАГ 4B. Проверьте ограничение впуска топлива.
 
-| **Conditions:** Operate engine at low idle (engine cranking if troubleshooting No-Start). |  |  |
+| **Условия:** Подключить манометр, номер детали ST-1111-3, к шлангу подачи топливного насоса. Включите зажигание. Работайте с двигателем на номинальной скорости. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Connect the equipment to the fuel pump as shown. | Are air bubbles visible in the sight glass? **YESRepair:** Locate and correct cause of air ingestion in the OEM fuel supply system or damaged fuel filter sealing ring. | Repair complete |
-| Are air bubbles visible in the sight glass? **NO** | 4B |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте ограничение входного отверстия топлива. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 006-020 в разделе 6. | Является ли ограничение впуска топлива меньшим, чем перечисленные ниже характеристики? Грязный - 254 мм-Hg \[10 in-Hg\]; Новый - 152 мм-Hg \[6 in-Hg\] **YES** | 4C |
+| Является ли ограничение впуска топлива меньшим, чем перечисленные ниже характеристики? Грязный - 254 мм рт.ст. \[10 in-Hg\]; новый - 152 мм рт.ст. \[6 in-Hg\] **NORepair:** Найти причину высокого ограничения впуска топлива. Проверьте линии подачи топлива и префильтра. | Ремонт завершён |  |
 
-#### STEP 4B. Check fuel inlet restriction.
+#### ШАГ 4C. Проверьте ограничение дренажной линии.
 
-| **Conditions:** Connect a manometer, Part Number ST-1111-3, to the fuel pump supply hose. Turn keyswitch ON. Operate engine at rated speed. |  |  |
+| **Условия:** Подключить к линии слива топлива манометр, номер детали СТ-1111-3. Включите зажигание. Работайте с двигателем на номинальной скорости. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the fuel inlet restriction. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-006-020-tr — Fuel Inlet Restriction\|Refer to Procedure 006-020 in Section 6.]] | Is fuel inlet restriction less than the specifications listed below? Dirty - 254 mm-Hg \[10 in-Hg\]; New - 152 mm-Hg \[6 in-Hg\] **YES** | 4C |
-| Is fuel inlet restriction less than the specifications listed below? Dirty - 254 mm Hg \[10 in-Hg\]; New - 152 mm-Hg \[6 in-Hg\] **NORepair:** Locate the cause of high fuel inlet restriction. Check the prefilter and fuel supply lines. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверить показания на датчике измерения давления. | Является ли ограничение линии слива топлива менее 89 мм рт.ст. \[3.5 in-Hg\] для автомобильных применений или менее 63,5 мм рт.ст. \[2.5 in-Hg\] для промышленных/генерирующих применений? *Да | 4D |
+| Является ли ограничение линии слива топлива менее 89 мм рт.ст. \[3.5 in-Hg\] для автомобильных применений или менее 63,5 мм рт.ст. \[2.5 in-Hg\] для промышленных/генерирующих применений? **NORepair:** Найти причину высокого ограничения линии слива топлива в линии возврата топлива OEM. | Ремонт завершён |  |
 
-#### STEP 4C. Check drain line restriction.
+#### ШАГ 4D. Проверьте выходное давление топливного насоса.
 
-| **Conditions:** Connect a manometer, Part Number ST-1111-3, to the fuel drain line. Turn keyswitch ON. Operate engine at rated speed. |  |  |
+| **Условия:** Соединить датчик измерения давления на компушеке ТМ, устанавливающий топливный насос. Включите зажигание. Работайте с двигателем на скорости 1200 об/мин (проворачивайте двигатель, если устраняет неисправности No-Start). |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Observe reading on the pressure gauge. | Is fuel drain line restriction less than 89 mm-Hg \[3.5 in-Hg\] for Automotive Applications or less than 63.5 mm-Hg \[2.5 in-Hg\] for Industrial/Generator Applications? **YES** | 4D |
-| Is fuel drain line restriction less than 89 mm-Hg \[3.5 in-Hg\] for Automotive Applications or less than 63.5 mm-Hg \[2.5 in-Hg\] for Industrial/Generator Applications? **NORepair:** Locate cause of high fuel drain line restriction in OEM fuel return line. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Наблюдайте показания на датчике измерения давления. Используйте следующую процедуру в руководстве по обслуживанию ISM, ISMe и QSM11, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 005-011 в разделе 5. Проворачиваю: минимум 172 кПа[25 psi] Двигатель, работающий на скорости 1200 об/мин: минимум 827 кПа[120 psi] | Соответствует ли давление топлива спецификации? *Да | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |
+| Соответствует ли давление топлива спецификации? **НЕТ** | 4Е |  |
 
-#### STEP 4D. Check fuel pump output pressure.
+#### ШАГ 4E. Проверьте клапан насоса топливной передачи.
 
-| **Conditions:** Connect pressure gauge on the Compuchek™ fitting of the fuel pump. Turn keyswitch ON. Operate engine at 1200 rpm (engine cranking if troubleshooting No-Start). |  |  |
+| **Условия:** Отсоединить линию слива топлива от корпуса насоса топливного шестерни. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Observe the reading on the pressure gauge. Use the following procedure in the ISM, ISMe, and QSM11 Service Manual, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-005-011-tr — Fuel Flow\|Refer to Procedure 005-011 in Section 5.]] Cranking: minimum of 172 kPa \[25 psi\] Engine operating at 1200 rpm: minimum of 827 kPa \[120 psi\] | Does the fuel pressure meet the specification? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
-| Does the fuel pressure meet the specification? **NO** | 4E |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте клапан топливного насоса для правильной установки и работы. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 005-026 в разделе 5. | Устанавливается и работает ли контрольный клапан правильно? *Да | 4F |
+| Устанавливается и работает ли контрольный клапан правильно? **NORepair:** При необходимости правильно установить контрольный клапан или заменить контрольный клапан топливного переключателя. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 005-026 в разделе 5. | Ремонт завершён |  |
 
-#### STEP 4E. Check fuel gear pump check valve.
+#### ШАГ 4F. Проверьте линию подачи топлива на наличие ограничений.
 
-| **Conditions:** Disconnect fuel drain line from fuel gear pump housing. |  |  |
+| **Условия:** Соединить все компоненты. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the fuel gear pump check valve for correct installation and operation. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-005-026 — Fuel Pump Gear Pump Check Valve\|Refer to Procedure 005-026 in Section 5.]] | Is check valve installed and operating correctly? **YES** | 4F |
-| Is check valve installed and operating correctly? **NORepair:** Install the check valve correctly or replace the fuel gear pump check valve, if necessary. Use the following procedure in the Service Manual, ISM, ISMe and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-005-026 — Fuel Pump Gear Pump Check Valve\|Refer to Procedure 005-026 in Section 5.]] | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте топливную линию между топливным насосом и головкой цилиндра на наличие препятствий. Проверьте топливную линию на наличие резких изгибов или изгибов, которые могут вызвать ограничение. | Топливные линии свободны от ограничений? *Да | 4G |
+| Топливные линии свободны от ограничений? **NORepair:** Удалить препятствия с топливных линий. Замените перекошенные или ограниченные линии, если это необходимо. | Ремонт завершён |  |
 
-#### STEP 4F. Check fuel supply line for restrictions.
+#### ШАГ 4G. Проверьте наличие заглубленного топливного бурения в головке цилиндра.
 
-| **Conditions:** Connect all components. |  |  |
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the fuel line between the fuel pump and cylinder head for obstructions. Check the fuel line for sharp bends or kinks that could cause a restriction. | Are fuel lines free from restrictions? **YES** | 4G |
-| Are fuel lines free from restrictions? **NORepair:** Remove obstructions from fuel lines. Replace kinked or restricted lines, as necessary. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Если головка цилиндра ReCon® была установлена, проверьте, что пластиковая вставка была удалена из входного прохода подачи топлива в головке цилиндра. | Удален ли пластиковый вставной элемент из прохода подачи топлива в головке цилиндра? *Да | Замените топливный насос. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 005-016 в разделе 5. |
+| Удален ли пластиковый вставной элемент из прохода подачи топлива в головке цилиндра? **NORepair:** Удалить пластиковую вставку из прохода подачи топлива в головке цилиндра. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 002-004 в разделе 2. | Ремонт завершён |  |
 
-#### STEP 4G. Check for plugged fuel drillings in the cylinder head.
+### ШАГ 5. Диагностика топливных форсунок.
 
-| **Conditions:** Turn keyswitch OFF. |  |  |
+#### ШАГ 5A. Выполните электронный сервис INSITETM Cylinder Cutout Test.
+
+| **Условия:** Подключите инструмент для электронного обслуживания INSITETM Операционный двигатель на низком холостом ходу. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| If a ReCon® cylinder head was installed, check that the plastic insert has been removed from the fuel supply inlet passage in the cylinder head. | Has plastic insert been removed from the fuel supply passage in the cylinder head? **YES** | Replace the fuel pump. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-005-016-tr — Fuel Pump\|Refer to Procedure 005-016 in Section 5.]] |
-| Has plastic insert been removed from the fuel supply passage in the cylinder head? **NORepair:** Remove the plastic insert from the fuel supply passage in the cylinder head. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-002-004-tr — Cylinder Head\|Refer to Procedure 002-004 in Section 2.]] | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Выполните электронный сервис INSITETM Cylinder Cutout Test. | Все цилиндры проходят тест на вырезание цилиндров? *Да | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |
+| Все цилиндры проходят тест на вырезание цилиндров? **NORepair:** Заменить форсунка по мере необходимости. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 006-026 в разделе 6. | Ремонт завершён |  |
+
+### ШАГ 6. Диагностические проверки по обращению с воздухом.
 
-### STEP 5. Injector diagnostics.
+#### ШАГ 6A. Запустите двигатель и прочитайте коды неисправностей.
 
-#### STEP 5A. Perform INSITE™ electronic service tool Cylinder Cutout Test.
+| **Условия:** Подключить электронный сервисный инструмент INSITETM. Работайте с двигателем на низком холостом ходу. |  |  |
+|---|---|---|
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте коды неисправностей с работающим двигателем. Используйте инструмент электронного сервиса INSITETM для считывания кодов неисправностей. | Активные коды неисправностей? *Да | Перейти к соответствующему дереву устранения неисправностей кода ошибки |
+| Активные коды неисправностей? **НЕТ** | 6B |  |
 
-| **Conditions:** Connect INSITE™ electronic service tool Operate engine at low idle. |  |  |
+#### ШАГ 6B. Осмотрите лопасти турбокомпрессора на предмет повреждений.
+
+| **Условия:** Выключите двигатель. Удалите впускные и выхлопные соединения для турбокомпрессора. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Perform the INSITE™ electronic service tool Cylinder Cutout Test. | All cylinders pass the Cylinder Cutout Test? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
-| All cylinders pass the Cylinder Cutout Test? **NORepair:** Replace the injectors as needed. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-006-026-tr — Injector\|Refer to Procedure 006-026 in Section 6.]] | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Осмотрите компрессор и турбинные плавники на предмет повреждения или износа. | Повреждения, обнаруженные на плавниках турбокомпрессора? * Заменить турбокомпрессор. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-033 в разделе 10. | Ремонт завершён |
+| Повреждения, обнаруженные на плавниках турбокомпрессора? **НЕТ** | 6C |  |
+
+#### ШАГ 6C. Определение типа турбокомпрессора.
 
-### STEP 6. Air handling diagnostic checks.
+| **Условия:** |  |  |
+|---|---|---|
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Определите, является ли турбокомпрессор турбокомпрессором с изменяемой геометрией. | Турбокомпрессор с изменяемой геометрией турбокомпрессор? *Да | 6D |
+| Турбокомпрессор с изменяемой геометрией турбокомпрессор? **НЕТ** | 6F |  |
 
-#### STEP 6A. Start engine and read fault codes.
+#### ШАГ 6D. Проверьте стержень привода переменной геометрии для правильного перемещения.
 
-| **Conditions:** Connect INSITE™ electronic service tool. Operate engine at low idle. |  |  |
+| **Условия:** Выключите двигатель. Включите зажигание. Подключите инструмент электронного сервиса INSITETM. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the fault codes with the engine operating. Use INSITE™ electronic service tool to read the fault codes. | Active fault codes? **YES** | Go to appropriate fault code troubleshooting tree |
-| Active fault codes? **NO** | 6B |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Используйте инструмент для электронного обслуживания INSITETM для выполнения теста привода турбокомпрессора. Отрегулируйте таймер задержки в тесте привода турбокомпрессора, чтобы можно было наблюдать движение стержня. Выберите положение втягивающего привода с помощью инструментария электронного обслуживания INSITETM. Отметьте или выпишите стержень привода переменной геометрии у основания привода. Выберите положение расширительного привода с помощью инструментария электронного обслуживания INSITETM. Измерить движение стержня, измерив расстояние от основания привода турбокомпрессора до знака писца. Используйте стальную линейку с прямым краем. Убирайте и продлевайте привод турбокомпрессора не менее 10 раз. Проверьте табличку с данными двигателя, чтобы определить номер CPL. Используйте номер CPL из таблички для определения правильного перемещения привода из таблицы CPL в разделе практических заметок. Привод турбокомпрессора движется быстро и четко. Если движение стержня привода медленное, может возникнуть проблема с подачей воздуха, неисправным наземным соединением на двигателе или шасси или механические проблемы с турбокомпрессором с изменяемой геометрией. | Стержни привода турбокомпрессора простираются между минимальной и максимальной спецификацией перемещения привода, приведенной в таблице CPL в разделе практических примечаний? *Да | 6Е |
+| Стержни привода турбокомпрессора простираются между минимальной и максимальной спецификацией перемещения привода, приведенной в таблице CPL в разделе практических примечаний? **НЕТ** | 6D-1 |  |
 
-#### STEP 6B. Inspect the turbocharger blades for damage.
+#### ШАГ 6D-1. Проверьте наличие утечек воздуха и проверьте линию сжатого воздуха.
 
-| **Conditions:** Turn engine OFF. Remove intake and exhaust connections for turbocharger. |  |  |
+| **Условия:** Выключите двигатель. Включите зажигание. Подключите инструмент электронного сервиса INSITETM. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the compressor and turbine fins for damage or wear. | Damage found on turbocharger fins? **YESRepair:** Replace the turbocharger. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
-| Damage found on turbocharger fins? **NO** | 6C |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Используйте инструмент для электронного обслуживания INSITETM для выполнения теста привода турбокомпрессора. Выберите положение расширительного привода. Прослушивайте утечки воздуха в следующих компонентах: Впускное соединение турбокомпрессора с турбокомпрессорным управлением, в случае оснащения турбокомпрессора с контрольным запорным клапаном, в случае оснащения турбокомпрессора с запорным клапаном, впускного клапана турбокомпрессора с приводом турбокомпрессора с турбокомпрессорным приводом Вся линия подачи OEM к турбокомпрессору с запорным клапаном, турбокомпрессора с запорным клапаном с турбокомпрессорным клапаном и турбокомпрессора с приводом турбокомпрессора. Небольшое количество воздуха можно было услышать, вырываясь из клапана управления турбокомпрессором во время испытания привода турбокомпрессора. Это нормальное условие для клапана для достижения давления регулировки выхода. **не*** Заменить клапан управления турбокомпрессором для этого условия. | Утечки воздуха, обнаруженные в системе? *** Ремонт:** Ремонт утечек воздуха. | Ремонт завершён |
+| Утечки воздуха, обнаруженные в системе? **НЕТ** | 6D-2 |  |
 
-#### STEP 6C. Determination of turbocharger type.
+#### ШАГ 6D-2. Проверьте двигатель и автомобиль.
 
-| **Conditions:** |  |  |
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Determine if the turbocharger is a variable geometry turbocharger. | Turbocharger a variable geometry turbocharger? **YES** | 6D |
-| Turbocharger a variable geometry turbocharger? **NO** | 6F |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте наличие рыхлого или разъединенного двигателя, шасси или наземных соединений батареи. Проверьте соединение с землей двигателя. Проверьте наземные соединения шасси. Проверьте соединения терминала батареи. | Связи плотные и без коррозии? *Да | 6D-3 |
+| Связи плотные и без коррозии? **NORepair:** Затягивание связей. Затягивайте свободные соединения и очищайте терминалы. См. сервисное руководство изготовителя машины. | Ремонт завершён |  |
 
-#### STEP 6D. Check the variable geometry actuator rod for correct travel.
+#### ШАГ 6D-3. Проверьте давление воздуха на выходе клапана управления турбокомпрессором.
 
-| **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+| **Условия:** Выключите двигатель. Включите зажигание. Подключите инструмент электронного сервиса INSITETM. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Adjust the delay timer in the Turbocharger Actuator Test so that the rod movement can be observed. Select the retract actuator position with INSITE™ electronic service tool. Mark or scribe the variable geometry actuator rod at the base of the actuator. Select the extend actuator position with INSITE™ electronic service tool. Measure the rod travel by measuring the distance from the base of the turbocharger actuator to the scribe mark. Use a straight edge steel ruler. Retract and extend the turbocharger actuator at least 10 times. Examine the engine dataplate to identify the CPL number. Use the CPL number from the dataplate to identify the proper actuator travel from the CPL table in the Shop Talk section. The turbocharger actuator moves quickly and crisply. If the actuator rod movement is slow, there could be a problem with the air supply, a faulty ground connection on the engine or chassis, or mechanical problems with the variable geometry turbocharger assembly. | Turbocharger actuator rod extend between the minimum and maximum actuator travel specification found in the CPL table in the Shop Talk section? **YES** | 6E |
-| Turbocharger actuator rod extend between the minimum and maximum actuator travel specification found in the CPL table in the Shop Talk section? **NO** | 6D-1 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Выполните тест на привод турбокомпрессора, используйте инструмент электронного обслуживания INSITETM. Выберите положение втягивающего привода. Удалите соединение линии сжатого воздуха на выходе клапана управления турбокомпрессором. Установите M12 CompuchekTM, установленный на выходе клапана управления турбокомпрессором. Установите калибр давления воздуха, который способен считывать не менее 1034 кПа[150 psi]. Используйте инструмент для электронного обслуживания INSITETM для выполнения теста привода турбокомпрессора. Выберите положение расширительного привода. | Давление в воздушном баке транспортного средства, присутствующее на выходе клапана управления турбокомпрессором? *Да | 6D-4 |
+| Давление в воздушном баке транспортного средства, присутствующее на выходе клапана управления турбокомпрессором? **НЕТ** | 6D-6 |  |
 
-#### STEP 6D-1. Check for air leaks and inspect air lines.
+#### ШАГ 6D-4. Проверьте давление воздуха на выходе клапана управления турбокомпрессором.
 
-| **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+| **Условия:** Выключите двигатель. Включите зажигание. Подключите инструмент электронного сервиса INSITETM. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Select the extend actuator position. Listen for air leaks at the following components: Turbocharger control valve Turbocharger control shutoff valve inlet connection, if equipped Turbocharger control shutoff valve outlet connection, if equipped Turbocharger control valve inlet connection Turbocharger control valve outlet connection Turbocharger actuator inlet connection Turbocharger actuator All air lines including the OEM supply line to turbocharger control shutoff valve, turbocharger control shutoff valve to turbocharger control valve, and turbocharger control valve to turbocharger actuator. A small amount of air could possibly be heard escaping from the turbocharger control valve during the turbocharger actuator test. This is a normal condition for the valve to achieve output regulation pressure. Do **not** replace the turbocharger control valve for this condition. | Air leaks found in the system? **YESRepair:** Repair air leaks. | Repair complete |
-| Air leaks found in the system? **NO** | 6D-2 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Выполните тест на привод турбокомпрессора, используйте инструмент электронного обслуживания INSITETM. Выберите положение втягивающего привода. Удалите соединение линии сжатого воздуха на выходе клапана управления турбокомпрессором. Установите M12 CompuchekTM, установленный на выходе клапана управления турбокомпрессором. Установите калибр давления воздуха, способный считывать не менее 1034 кПа[150 psi]. | Измеритель давления считывает более 103 кПа[15 psi] через 5 минут. *** Ремонт:** Заменить клапан управления турбокомпрессором. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, Двигателях ISM, Бюллетене 4021381. См. процедуру 019-388 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-388 в разделе 19. | Ремонт завершён |
+| Измеритель давления считывает более 103 кПа[15 psi] через 5 минут. **НЕТ** | 6D-5 |  |
 
-#### STEP 6D-2. Check the engine and vehicle grounds.
+#### ШАГ 6D-5. Проверьте правильность движения турбокомпрессора.
 
-| **Conditions:** Turn keyswitch OFF. |  |  |
+| **Условия:** Выключите двигатель. Включите зажигание. Подключите инструмент электронного сервиса INSITETM. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for loose or corroded engine, chassis, or battery ground connections. Check the engine ground connection. Check the chassis ground connections. Check the battery terminal connections. | Connections tight and corrosion free? **YES** | 6D-3 |
-| Connections tight and corrosion free? **NORepair:** Tighten the connections. Tighten the loose connections and clean the terminals. Refer to the OEM service manual. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Повреждение турбокомпрессора может возникнуть, если не соблюдается правильная процедура удаления. Удалите привод изменяемой геометрии из турбокомпрессора. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-033 в разделе 10. Используйте инструмент для электронного обслуживания INSITETM для выполнения теста привода турбокомпрессора. Выберите положение расширительного привода. | Стержни привода турбокомпрессора перемещаются по меньшей мере на 12 мм \[0,472 дюйма \]? *** Ремонт:** Заменить сборку турбокомпрессора. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-033 в разделе 10. | Ремонт завершён |
+| Стержни привода турбокомпрессора перемещаются по меньшей мере на 12 мм \[0,472 дюйма \]? **NORepair:** Заменить привод турбокомпрессора. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-113 в разделе 10. | Ремонт завершён |  |
 
-#### STEP 6D-3. Check for air pressure at the turbocharger control valve outlet.
+#### ШАГ 6D-6. Определить, оснащен ли двигатель турбокомпрессорным клапаном управления.
 
-| **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Perform the Turbocharger Actuator Test, use INSITE™ electronic service tool. Select retract actuator position. Remove the air line connection at the outlet of the turbocharger control valve. Install an M12 Compuchek™ fitting at the outlet of the turbocharger control valve. Install an air pressure gauge that is capable of reading at least 1034 kPa \[150 psi\]. Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Select the extend actuator position. | Vehicle air tank pressure present at the turbocharger control valve outlet? **YES** | 6D-4 |
-| Vehicle air tank pressure present at the turbocharger control valve outlet? **NO** | 6D-6 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Определить, оснащен ли двигатель турбокомпрессорным клапаном управления. | Двигатель, оборудованный турбокомпрессорным клапаном управления? *Да | 6D-7 |
+| Двигатель, оборудованный турбокомпрессорным клапаном управления? **НЕТ** | 6D-10 |  |
 
-#### STEP 6D-4. Check for air pressure at the turbocharger control valve outlet.
+#### ШАГ 6D-7. Проверьте давление воздуха на выходе клапана отключения турбокомпрессора.
 
-| **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+| **Условия:** Выключите двигатель. Включите зажигание. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Perform the Turbocharger Actuator Test, use INSITE™ electronic service tool. Select the retract actuator position. Remove the air line connection at the outlet of the turbocharger control valve. Install an M12 Compuchek™ fitting at the outlet of the turbocharger control valve. Install an air pressure gauge capable of reading at least 1034 kPa \[150 psi\]. | Pressure gauge read more than 103 kPa \[15 psi\] after 5 minutes? **YESRepair:** Replace the turbocharger control valve. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-388 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-388 in Section 19. | Repair complete |
-| Pressure gauge read more than 103 kPa \[15 psi\] after 5 minutes? **NO** | 6D-5 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Используйте электронный сервис INSITETM для проведения теста на привод турбокомпрессора. Выберите положение расширительного привода. Устранить соединение линии сжатого воздуха на выходе клапана отключения управления турбокомпрессором. | Воздух услышал, как выскочили из розетки клапана управления турбокомпрессором? *** Ремонт:** Заменить клапан отключения управления турбокомпрессором. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, Двигателях ISM, Бюллетене 4021381. См. процедуру 019-388 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-388 в разделе 19. | Ремонт завершён |
+| Воздух услышал, как выскочили из розетки клапана управления турбокомпрессором? **НЕТ** | 6D-8 |  |
 
-#### STEP 6D-5. Check for correct turbocharger actuator travel.
+#### ШАГ 6D-8. Проверьте давление воздуха на входе в клапан управления турбокомпрессором.
 
-| **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+| **Условия:** Выключите двигатель. Включите зажигание. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Damage to the turbocharger can result if the proper removal procedure is not followed. Remove the variable geometry actuator from the turbocharger. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 010-033 in Section 10. Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Select the extend actuator position. | Turbocharger actuator rod travel at least 12 mm \[0.472 in\]? **YESRepair:** Replace the turbocharger assembly. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
-| Turbocharger actuator rod travel at least 12 mm \[0.472 in\]? **NORepair:** Replace the turbocharger actuator. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-113-tr — Turbocharger, Variable Geometry Actuator\|Refer to Procedure 010-113 in Section 10.]] | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте, подключена ли линия подачи воздуха OEM к правильному порту на клапане отключения управления турбокомпрессором. Освободить соединение линии сжатого воздуха на входе в клапан управления турбокомпрессором. | Воздух услышал, как выскочили из впуска турбокомпрессора? *Да | 6D-9 |
+| Воздух услышал, как выскочили из впуска турбокомпрессора? **NORepair:** Ремонтировать подачу воздуха из воздушных баков OEM. | Ремонт завершён |  |
 
-#### STEP 6D-6. Determine if the engine is equipped with a turbocharger control shutoff valve.
+#### ШАГ 6D-9. Проверьте наличие заглушенного фильтра клапана управления турбокомпрессором.
 
-| **Conditions:** |  |  |
+| **Условия:** Удалить фильтр клапана отключения турбокомпрессора. Включите зажигание. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Determine if the engine is equipped with a turbocharger control shutoff valve. | Engine equipped with a turbocharger control shutoff valve? **YES** | 6D-7 |
-| Engine equipped with a turbocharger control shutoff valve? **NO** | 6D-10 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Используйте инструмент для электронного обслуживания INSITETM для выполнения теста привода турбокомпрессора. Выберите положение расширительного привода. Слушайте, чтобы утечка воздуха произошла на головке фильтра запорного клапана турбокомпрессора. | Утечка воздуха, присутствующая на головке фильтра запорного клапана турбокомпрессора? *** Ремонт:** Заменить фильтр клапанов запорного устройства с турбокомпрессором. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-114 в разделе 10. | Ремонт завершён |
+| Утечка воздуха, присутствующая на головке фильтра запорного клапана турбокомпрессора? **NORepair:** Заменить клапан отключения управления турбокомпрессором. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, Двигателях ISM, Бюллетене 4021381. См. процедуру 019-386 в разделе 19. | Ремонт завершён |  |
 
-#### STEP 6D-7. Check for air pressure at the turbocharger control shutoff valve outlet.
+#### ШАГ 6D-10. Проверьте, подключена ли линия подачи воздуха OEM к правильному порту на клапане управления турбокомпрессором.
 
-| **Conditions:** Turn engine OFF. Turn keyswitch ON. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. Connect INSITE™ electronic service tool. |  |  |
+| **Условия:** Выключите двигатель. Включите зажигание. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Use INSITE™ electronic service to perform the Turbocharger Actuator Test. Select the extend actuator position. Loosen the air line connection at the turbocharger control shutoff valve outlet. | Air heard escaping from the turbocharger control shutoff valve outlet? **YESRepair:** Replace the turbocharger control shutoff valve. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-388 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-388 in Section 19. | Repair complete |
-| Air heard escaping from the turbocharger control shutoff valve outlet? **NO** | 6D-8 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте, подключена ли линия подачи воздуха OEM к правильному порту на клапане управления турбокомпрессором. Устранить соединение линии сжатого воздуха на входе в клапан управления турбокомпрессором. | Воздух услышал выход из впуска турбокомпрессора? *** Ремонт:** Заменить клапан управления турбокомпрессором. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, Двигателях ISM, Бюллетене 4021381. См. процедуру 019-388 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-388 в разделе 19. | Ремонт завершён |
+| Воздух услышал, как выскочили из впуска турбокомпрессора? **NORepair:** Ремонтировать подачу воздуха из воздушных баков OEM. | Ремонт завершён |  |
 
-#### STEP 6D-8. Check for air pressure at the turbocharger control shutoff valve inlet.
+#### ШАГ 6E. Выполняйте электронный сервис INSITETM с помощью EGR клапан/Turbocharger Operational Test.
 
-| **Conditions:** Turn engine OFF. Turn keyswitch ON. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. Проверить воздушные баки транспортного средства заряжаются по меньшей мере до 586 кПа[85 psi] давления воздуха. Запустите двигатель и работайте на низком холостом ходу. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Verify the OEM air supply line is connected to the correct port on the turbocharger control shutoff valve. Loosen the air line connection at the turbocharger control shutoff valve inlet. | Air heard escaping from the turbocharger control shutoff valve inlet? **YES** | 6D-9 |
-| Air heard escaping from the turbocharger control shutoff valve inlet? **NORepair:** Repair the air supply from the OEM air tanks. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Выберите инструмент электронного обслуживания INSITETM EGR/Variable Geometry Turbocharger Operational Test. До начала эксплуатации электронных средств обслуживания INSITETM EGR клапан и EGR клапан/Turbocharger Operational Test, возможно, потребуется обновить фазу программного обеспечения ECM Calibration. Программное обеспечение ECM Calibration Phase можно проверить в инструменте электронного обслуживания INSITETM в разделе «Особенности и параметры». Расширьте выбор для «Идентификатора системы и таблички данных» и перейдите к «Информация о калибровке». Если фаза программного обеспечения наступает раньше, чем показано ниже, перекалибровка ECM с использованием CD-ROM INCALTM от января 2006 года или позже. Двигатели с фазой программного обеспечения, перечисленной ниже или позже, не требуют перекалибровки. Двигатели ISM с двигателем CM875 (построенные после января 2004 года) требуют программного обеспечения фазы 06050312. Это оправданное изменение калибровки. Выберите вариант привода турбокомпрессора в разделе Выбор испытаний. | Пропуск на эксплуатационные испытания турбокомпрессора? *Да | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |
+| Пропуск на эксплуатационные испытания турбокомпрессора? **НЕТ** | 6Е-1 |  |
 
-#### STEP 6D-9. Check for plugged turbocharger control shutoff valve filter.
+#### ШАГ 6E-1. Проверьте двигатель и автомобиль.
 
-| **Conditions:** Remove the turbocharger control shutoff valve filter. Turn keyswitch ON. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. Connect INSITE™ electronic service tool. |  |  |
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Select the extend actuator position. Listen for an air leak at the turbocharger control shutoff valve filter head. | Air leak present at the turbocharger control shutoff valve filter head? **YESRepair:** Replace the turbocharger control shutoff valve filter. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-114-tr — Turbocharger Air Shutoff Valve Filter\|Refer to Procedure 010-114 in Section 10.]] | Repair complete |
-| Air leak present at the turbocharger control shutoff valve filter head? **NORepair:** Replace the turbocharger control shutoff valve. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-386 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте наличие рыхлого или разъединенного двигателя, шасси или наземных соединений батареи. Проверьте соединение с землей двигателя. Проверьте наземные соединения шасси. Проверьте соединения терминала батареи. | Связи плотные и без коррозии? *** Ремонт:** Заменить турбокомпрессор с изменяемой геометрией. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-033 в разделе 10. | Ремонт завершён |
+| Связи плотные и без коррозии? **NORepair:** Затягивание связей. Затягивайте свободные соединения и очищайте терминалы. См. сервисное руководство изготовителя машины. | Проверить ремонт полностью |  |
 
-#### STEP 6D-10. Verify the OEM air supply line is connected to the correct port on the turbocharger control valve.
+#### ШАГ 6F. Осмотрите шланг привода обходного клапана турбины.
 
-| **Conditions:** Turn engine OFF. Turn keyswitch ON. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+| **Условия:** Выключите двигатель. Удалите турбокомпрессор, если привод обходного клапана турбины недоступен. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Verify the OEM air supply line is connected to the correct port on the turbocharger control valve. Loosen the air line connection at the turbocharger control valve inlet. | Air heard escaping form the turbocharger control valve inlet? **YESRepair:** Replace the turbocharger control valve. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-388 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-388 in Section 19. | Repair complete |
-| Air heard escaping from the turbocharger control valve inlet? **NORepair:** Repair the air supply from the OEM air tanks. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Осмотрите интегральный шланг-привода обходного клапана турбины на наличие трещин или отверстий. | Отверстия или трещины, обнаруженные в шланге привода обходного клапана турбины? *** Ремонт:** Заменить шланг привода газотурбинного шунтирующего клапана. | Ремонт завершён |
+| Отверстия или трещины, обнаруженные в шланге привода обходного клапана турбины? **НЕТ** | 6G |  |
 
-#### STEP 6E. Perform INSITE™ electronic service tool EGR Valve/Turbocharger Operational Test.
+#### ШАГ 6G. Осмотрите стержень привода обходного клапана турбины для проезда.
 
-| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. Start the engine and operate at low idle. |  |  |
+| **Условия:** Выключите двигатель. Удалите шланг привода обходного клапана турбины из привода обходного клапана турбины. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Select INSITE™ electronic service tool EGR/Variable Geometry Turbocharger Operational Test. Prior to operating INSITE™ electronic service tool EGR Valve and EGR Valve/Turbocharger Operational Test, the ECM Calibration Software Phase could possibly need to be updated to the latest software phase. The ECM Calibration Phase Software can be checked in INSITE™ electronic service tool, under 'Features and Parameters'. Expand the selection for 'System ID and Dataplate' and go to 'Calibration Information'. If the software phase is earlier than shown below, recalibrate the ECM using the January 2006 INCAL™ CD-ROM, or later. Engines with the software phase listed below or later do **not** require a recalibration. ISM engines with CM875 (engines built after January 2004) require Software Phase 06050312. This is a warrantable calibration change. Choose the Turbocharger actuator option under Test Choices. | Turbocharger Operational Test pass? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
-| Turbocharger Operational Test pass? **NO** | 6E-1 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Применить регулируемый воздухоснабжение 310 кПа[45 psi] к приводу и проверить на движение привода. | Стержень турбинного обходного клапана? *Да | 6 ч. |
+| Стержень турбинного обходного клапана? **НЕТ** | 6G-1 |  |
 
-#### STEP 6E-1. Check the engine and vehicle grounds.
+#### ШАГ 6G-1. Осмотрите стержень привода обходного клапана турбины для проезда.
 
-| **Conditions:** Turn keyswitch OFF. |  |  |
+| **Условия:** Выключите двигатель. Удалите электронный затвор из штифта обходного клапана турбины и отсоедините стержень привода. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for loose or corroded engine, chassis, or battery ground connections. Check the engine ground connection. Check the chassis ground connections. Check the battery terminal connections. | Connections tight and corrosion free? **YESRepair:** Replace the variable geometry turbocharger. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
-| Connections tight and corrosion free? **NORepair:** Tighten the connections. Tighten the loose connections and clean the terminals. Refer to the OEM service manual. | Verify repair Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Применить регулируемый воздухоснабжение 310 кПа[45 psi] к приводу и проверить на движение привода. | Стержень турбинного обходного клапана? **YESRepair:** Переместить рычаг обходного клапана турбины на турбокомпрессоре туда и обратно и проверить его бесперебойную работу. Заменить сборку турбокомпрессора, если арматуру турбины захватили. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, ISM, ISMe и двигателях QSM11, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-033 в разделе 10. | Ремонт завершён |
+| Стержень турбинного обходного клапана? **NORepair:** Заменить привод обходного клапана турбины. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-050 в разделе 10. | Ремонт завершён |  |
 
-#### STEP 6F. Inspect the wastegate actuator hose.
+#### ШАГ 6H. Измерить сопротивление четырехступенчатых турбинных объездных клапанных контроллеров, если они оборудованы.
 
-| **Conditions:** Turn engine OFF. Remove turbocharger if wastegate actuator is inaccessible. |  |  |
+| **Условия:** Выключите двигатель. Отсоедините кольцевые терминалы от четырехступенчатых контроллеров обходного клапана турбины, если они оборудованы. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the integral wastegate actuator hose for cracks or holes. | Holes or cracks found in the wastegate actuator hose? **YESRepair:** Replace wastegate actuator hose. | Repair complete |
-| Holes or cracks found in the wastegate actuator hose? **NO** | 6G |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Измерьте сопротивление от поста обводного клапана турбины к заземлению блока двигателя. Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter\|См. процедуру 019-360 в разделе 19.]] | Соленоидные сопротивления контроллера соленоидов обходного клапана турбины от 6 до 10 Ом для соленоидов 12-VDC, от 24 до 40 Ом для соленоидов 24-VDC? *Да | 6. |
+| Соленоидные сопротивления контроллера соленоидов обходного клапана турбины от 6 до 10 Ом для соленоидов 12-VDC, от 24 до 40 Ом для соленоидов 24-VDC? **NORepair:** Заменить поврежденный контроллер обходного клапана турбины. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-109 в разделе 10. | Ремонт завершён |  |
 
-#### STEP 6G. Inspect the wastegate actuator rod for travel.
+#### ШАГ 6I. Осмотрите четырехступенчатый контроллер обходного клапана турбины, если он оборудован.
 
-| **Conditions:** Turn engine OFF. Remove the wastegate actuator hose from the wastegate actuator. |  |  |
+| **Условия:** Выключите двигатель. Удалите четырехступенчатые контроллеры обходного клапана турбины. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Apply a regulated air supply of 310 kPa \[45 psi\] to the actuator and check for actuator movement. | Wastegate actuator rod move? **YES** | 6H |
-| Wastegate actuator rod move? **NO** | 6G-1 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте клапанный диск, сиденье клапана и приводной диск на наличие грязи, металлических деталей, разделения склеивания, коррозии, трещин или износа. | Повреждение или обломки, обнаруженные на клапанном диске, сиденье клапана или приводном диске? * Заменить неисправные компоненты. Чистые грязные компоненты | Ремонт завершён |
+| Повреждение или обломки, обнаруженные на клапанном диске, сиденье клапана или приводном диске? **НЕТ** | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |  |
+
+### ШАГ 7. Проверьте клапан EGR для правильной работы.
 
-#### STEP 6G-1. Inspect wastegate actuator rod for travel.
+#### ШАГ 7A. Проверьте наличие утечек воздуха в системе EGR.
 
-| **Conditions:** Turn engine OFF. Remove the e-clip from the wastegate pin and disconnect the actuator rod. |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Apply a regulated air supply of 310 kPa \[45 psi\] to the actuator and check for actuator movement. | Wastegate actuator rod move? **YESRepair:** Move the wastegate lever on the turbocharger back and forth and check for smooth operation. Replace the turbocharger assembly if the wastegate is seized. Use the following procedure in the Troubleshooting and Repair Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
-| Wastegate actuator rod move? **NORepair:** Replace the wastegate actuator. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 010-050 in Section 10. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте наличие утечек в трубке подключения EGR и соединениях. Проливы сажи могут быть заметны там, где присутствуют утечки. | Утечки воздуха, обнаруженные в трубке соединения EGR? *** Ремонт:** Ремонт любых утечек в системе EGR. | Ремонт завершён |
+| Утечки воздуха, обнаруженные в трубке соединения EGR? **НЕТ** | 7B |  |
 
-#### STEP 6H. Measure resistance of the four-stage wastegate controllers, if equipped.
+#### ШАГ 7B. Проверьте историю ремонта.
 
-| **Conditions:** Turn engine OFF. Disconnect the ring terminals from the four-stage wastegate controllers, if equipped. |  |  |
+| **Условия:** |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Measure the resistance from the wastegate controller post to engine block ground. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Wastegate controller solenoid resistances 6 to 10 ohms for 12-VDC solenoids, 24 to 40 ohms for 24-VDC solenoids? **YES** | 6I |
-| Wastegate controller solenoid resistances 6 to 10 ohms for 12-VDC solenoids, 24 to 40 ohms for 24-VDC solenoids? **NORepair:** Replace the damaged wastegate controller. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-109-tr — Turbocharger Wastegate Controller\|Refer to Procedure 010-109 in Section 10.]] | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте с клиентом на недавнюю замену клапана EGR. | Запись о пропаже головы куколки? *** Ремонт:** Удалите выхлопной коллектор и проведите провод через каждый порт, чтобы проверить наличие недостающей кукольной головки. | 7C |
+| Запись о пропаже головы куколки? **НЕТ** | 7C |  |
 
-#### STEP 6I. Inspect four-stage wastegate controller, if equipped.
+#### ШАГ 7C. Выполните тест EGR клапан.
 
-| **Conditions:** Turn engine OFF. Remove the four-stage wastegate controllers. |  |  |
+| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the valve disc, valve seat, and actuator disc for dirt, metal parts, bonding separation, corrosion, cracks, or wear. | Damage or debris found on the valve disc, valve seat, or actuator disc? **YESRepair:** Replace failed components. Clean dirty components | Repair complete |
-| Damage or debris found on the valve disc, valve seat, or actuator disc? **NO** | Perform next troubleshooting procedure as outlined in Step 2 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Выполняйте электронный сервис INSITETM с помощью EGR клапан Test. Перед выполнением электронного сервисного инструментария INSITETM EGR клапан и EGR клапан/Turbocharger Operational Test, возможно, потребуется обновить фазу программного обеспечения ECM Calibration. Программное обеспечение ECM Calibration Phase можно проверить в инструменте электронного обслуживания INSITETM в разделе «Особенности и параметры». Расширьте выбор для «Идентификатора системы и таблички данных» и перейдите к «Информация о калибровке». Если фаза программного обеспечения наступает раньше, чем показано ниже, перекалибровка ECM с использованием CD-ROM INCALTM от января 2006 года или позже. Двигатели с фазой программного обеспечения, перечисленной ниже или позже, не требуют перекалибровки. Двигатели ISM с двигателем CM875 (построенные после января 2004 года) требуют программного обеспечения фазы 06050312. Это оправданное изменение калибровки. Проверьте полное движение клапана EGR, выбрав Open клапан и проверив, открывается ли клапан EGR на 100 процентов. | Тест EGR клапан? *Да | Выполните следующую процедуру устранения неполадок, как описано в Шаге 2. |
+| Тест EGR клапан? **NORepair:** Заменить клапан EGR. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 011-022 в разделе 11. | Ремонт завершён |  |
 
-### STEP 7. Check EGR valve for proper operation.
+### ШАГ 8. Проверьте, что электронные функции работают правильно.
+
+#### ШАГ 8A. Проверьте педаль акселератора.
+
+| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+|---|---|---|
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Используйте инструмент электронного сервиса INSITETM для мониторинга процентного ускорителя при полном подавлении и выпуске педали акселератора. | Процентный ускоритель читает 0, когда ускоритель высвобождается, и 100 процентов, когда ускоритель находится в депрессии. *Да | 8B |
+| Положение дроссельной заслонки считывается как 0, когда ускоритель высвобождается, и 100 процентов, когда ускоритель находится в депрессии. **NORepair:** Определение и правильное определение причины ограничения педали акселератора. | Ремонт завершён |  |
 
-#### STEP 7A. Check for air leaks in the EGR system.
+#### ШАГ 8B. Следите за скоростью автомобиля.
 
-| **Conditions:** |  |  |
+| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. Запускай двигатель. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for leaks in the EGR connection tubing and connections. Soot streaks can be noticeable where leaks are present. | Air leaks found in the EGR connection tubing? **YESRepair:** Repair any leaks in the EGR system. | Repair complete |
-| Air leaks found in the EGR connection tubing? **NO** | 7B |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Используйте инструмент электронного обслуживания INSITETM для мониторинга скорости транспортного средства, когда транспортное средство не движется. | Скорость транспортного средства: 0, когда транспортное средство **не** движется. *Да | 8C |
+| Скорость транспортного средства: 0, когда транспортное средство **не** движется. **NORepair:** Проверьте датчик скорости транспортного средства и схему или найдите причину помех скорости транспортного средства. | Ремонт завершён |  |
 
-#### STEP 7B. Check repair history.
+#### ШАГ 8C. Проверьте, что электронные настройки функций являются правильными.
 
-| **Conditions:** |  |  |
+| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check with the customer for a recent EGR valve replacement. | Record of the poppet head missing? **YESRepair:** Remove the exhaust manifold and run a wire through every port to check for the missing poppet head. | 7C |
-| Record of the poppet head missing? **NO** | 7C |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Используйте инструмент электронного сервиса INSITETM для проверки правильно установленных следующих регулируемых параметров: Максимальная скорость автомобиля Защита трансмиссии Заднее отношение оси Количество передач зубчатых зубьев шин шины обороты на милю Защита от опускания Защита от опускания Защита от опускания Защита от опускания Задний ход Задний ход Отношение к колесу Максимальная скорость автомобиля. | Электронные функции установлены правильно? *Да | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |
+| Электронные функции установлены правильно? **NORepair:** Правильное программирование. | Ремонт завершён |  |
 
-#### STEP 7C. Perform the EGR Valve Test.
+#### ШАГ 8D. Проверьте показания датчика барометрического давления.
 
-| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
+| **Условия:** Соединить все компоненты. Подключите инструмент электронного сервиса INSITE. Включите зажигание. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Perform INSITE™ electronic service tool EGR Valve Test. Prior to performing INSITE™ electronic service tool EGR Valve and EGR Valve/Turbocharger Operational Test, the ECM Calibration Software Phase could possibly need to be updated to the latest software phase. The ECM Calibration Phase Software can be checked in INSITE™ electronic service tool, under 'Features and Parameters'. Expand the selection for 'System ID and Dataplate' and go to 'Calibration Information'. If the software phase is earlier than shown below, recalibrate the ECM using the January 2006 INCAL™ CD-ROM, or later. Engines with the software phase listed below or later do **not** require a recalibration. ISM engines with CM875 (engines built after January 2004) require Software Phase 06050312. This is a warrantable calibration change. Check for complete travel of the EGR valve by selecting Open Valve and verifying the EGR Valve opens 100 percent. | EGR Valve Test pass? **YES** | Perform next troubleshooting procedure as outlined in Step 2. |
-| EGR Valve Test pass? **NORepair:** Replace the EGR valve. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-011-022-tr — EGR Valve\|Refer to Procedure 011-022 in Section 11.]] | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте правильное показания датчика барометрического давления. Сравните показания датчика барометрического давления на электронном сервисе InSITETM, оснащающем монитор данных / лаггер, с настоящим локальным барометрическим давлением. См. процедуру 018-028 в разделе V. | Считывание датчика барометрического давления в электронном сервисном оборудовании INSITETM в пределах 5% от текущего локального считывания барометрического давления. *Да | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |
+| Считывание датчика барометрического давления в электронном сервисном оборудовании INSITETM в пределах 5% от текущего локального считывания барометрического давления. **NORepair:** Заменить барометрический датчик давления. См. одну из следующих процедур: Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления, Двигателях ISM и QSM11, Бюллетене [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. См. процедуру 019-004 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM870, Двигателях ISM, Бюллетене 4021381. См. процедуру 019-004 в разделе 19. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронной системе управления CM875, Двигателях ISM, Бюллетене 4021477. См. процедуру 019-004 в разделе 19. | Ремонт завершён |  |
 
-### STEP 8. Verify electronic features are operating correctly.
+### ШАГ 9. Выполняйте механические проверки базового двигателя.
 
-#### STEP 8A. Verify accelerator pedal travel.
+#### ШАГ 9A. Проверить, что корректировки накладных расходов являются правильными.
 
-| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
+| **Условия:** Выключите замок зажигания. Снять клапанную крышку сборки. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Use INSITE™ electronic service tool to monitor percent accelerator while fully depressing and releasing the accelerator pedal. | Percent accelerator read 0 when the accelerator is released and 100 percent when the accelerator is depressed? **YES** | 8B |
-| Throttle position read 0 when the accelerator is released and 100 percent when the accelerator is depressed? **NORepair:** Determine and correct cause of accelerator pedal restriction. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Измерьте накладные настройки. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 003-004 в разделе 3. | Накладные настройки в пределах лимитов сброса? *Да | 9В |
+| Накладные настройки в пределах лимитов сброса? **NORepair:** Отрегулируйте настройки накладных расходов. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 003-004 в разделе 3. | Ремонт завершён |  |
 
-#### STEP 8B. Monitor vehicle speed.
+#### ШАГ 9B. Проверьте ограничение на впуск воздуха.
 
-| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. Start the engine. |  |  |
+| **Условия:** Включить переключатель зажигания. Запуск двигателя при рекламируемых лошадиных силах и оборотах в минуту. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Use INSITE™ electronic service tool to monitor vehicle speed while the vehicle is not moving. | Vehicle speed read 0 when the vehicle is **not** moving? **YES** | 8C |
-| Vehicle speed read 0 when the vehicle is **not** moving? **NORepair:** Check the vehicle speed sensor and circuit or locate the cause of the vehicle speed interference. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте ограничение системы впуска, установив измерительный манометр в систему впуска воздуха. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-031 в разделе 10. | Ограничение впуска воздуха более 635 мм Н2 О[25 в Н2 О]? ***Ремонт:** Исправить причину высокого ограничения впуска воздуха. Проверьте наличие заглубленного фильтра для очистки воздуха или трубопроводов с ограниченным воздухозаборником. | Ремонт завершён |
+| Ограничение впуска воздуха более 635 мм Н2 О[25 в Н2 О]? **НЕТ** | 9С |  |
 
-#### STEP 8C. Verify electronic feature settings are correct.
+#### ШАГ 9C. Проверьте ограничение выхлопа.
 
-| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
+| **Условия:** Установить в выхлопную систему калибр давления. Включите зажигание. Запуск двигателя при рекламируемых лошадиных силах и оборотах в минуту. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Use INSITE™ electronic service tool to verify the following adjustable parameters are correctly set: Maximum vehicle speed Powertrain protection Rear axle ratio Number of transmission tailshaft gear teeth Tire revolutions per mile Gear-down protection Cruise control droop settings Cruise control maximum vehicle speed. | Electronic features set correctly? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
-| Electronic features set correctly? **NORepair:** Correct programmable features. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте ограничение выхлопных газов, установив калибр давления в выхлопной системе, только что пройдя через выход турбокомпрессора. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 011-009 в разделе 11. | Исчерпывающее ограничение в пределах указанных лимитов, перечисленных в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]? *Да | 9D |
+| Исчерпывающее ограничение в пределах указанных лимитов, перечисленных в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]? **NORepair:** Ремонт выхлопной системы для источника высокого ограничения. | Ремонт завершён |  |
 
-#### STEP 8D. Check barometric pressure sensor reading.
+#### ШАГ 9D. Проверьте охладитель воздуха.
 
-| **Conditions:** Connect all components. Connect INSITE electronic service tool. Turn keyswitch ON. |  |  |
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for correct barometric pressure sensor reading. Compare the barometric pressure sensor reading on INSITE™ electronic service tool data monitor/logger to the present local barometric pressure. [[99-018-028 — Barometric Pressure at Altitude\|Refer to Procedure 018-028 in Section V.]] | Barometric pressure sensor reading in INSITE™ electronic service tool within 5 percent of the present local barometric pressure reading? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
-| Barometric pressure sensor reading in INSITE™ electronic service tool within 5 percent of the present local barometric pressure reading? **NORepair:** Replace the barometric pressure sensor. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-004 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-004 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-004 in Section 19. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Испытание давления на охладитель воздуха. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-027 в разделе 10. | Падение давления 34 кПа[5 psi] или меньше за 15 секунд? *Да | 9Е |
+| Падение давления 34 кПа[5 psi] или меньше за 15 секунд? **NORepair:** Ремонт кулера для зарядки воздуха. | Ремонт завершён |  |
 
-### STEP 9. Perform base engine mechanical checks.
+#### ШАГ 9E. Проверьте регулировку тормозов двигателя.
 
-#### STEP 9A. Verify overhead adjustments are correct.
+| **Условия:** Выключите замок зажигания. Снять клапанную крышку сборки. |  |  |
+|---|---|---|
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте, что тормоза двигателя работают правильно. Измерьте настройки тормозов двигателя. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 003-004 в разделе 3. | Настройки тормозов двигателя в пределах пределов сброса? *Да | 9F |
+| Настройки тормозов двигателя в пределах пределов сброса? **NORepair:** Регулировать настройки тормозов двигателя. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 020-024 в разделе 20. | Ремонт завершён |  |
+
+#### ШАГ 9F. Измерить осевой и радиальный зазор турбокомпрессора.
 
-| **Conditions:** Turn keyswitch OFF. Remove valve cover. |  |  |
+| **Условия:** Выключите двигатель. Отсоедините выхлопные и впускные соединения от турбокомпрессора. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Measure the overhead settings. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 003-004 in Section 3. | Overhead settings within the reset limits? **YES** | 9B |
-| Overhead settings within the reset limits? **NORepair:** Adjust the overhead settings. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-003-004-tr — Overhead Set\|Refer to Procedure 003-004 in Section 3.]] | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Измерьте осевые и радиальные зазоры турбокомпрессора. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-033 в разделе 10. | Осевой и радиальный зазоры в заданных пределах? *Да | 9G |
+| Осевой и радиальный зазоры в заданных пределах? **NORepair:** Заменить сборку турбокомпрессора. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-033 в разделе 10. | Ремонт завершён |  |
 
-#### STEP 9B. Check air intake restriction.
+#### ШАГ 9G. Проверить продувку двигателя в пределах спецификации.
 
-| **Conditions:** Turn keyswitch ON. Run engine at advertised horsepower and rpm. |  |  |
+| **Условия:** Выключите замок зажигания. Подсоедините соответствующее отверстие к концу продувной трубы. Запуск двигателя. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the intake system restriction by installing a manometer gauge into the air intake system. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-031-tr — Air Intake Restriction\|Refer to Procedure 010-031 in Section 10.]] | Air intake restriction greater than 635 mm H 2 O \[25 in H 2 O\]? **YESRepair:** Correct the cause of high intake air restriction. Check for plugged air filter or restricted air intake piping. | Repair complete |
-| Air intake restriction greater than 635 mm H 2 O \[25 in H 2 O\]? **NO** | 9C |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Загрузить двигатель до номинальной оборотной силы на динамометрическом шасси. Измерьте продувку двигателя. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 014-002 в разделе 14. | Измерения продувки двигателя в заданных пределах? *Да | 9 ч. |
+| Измерения продувки двигателя в заданных пределах? **НЕТ** | 9G-1 |  |
 
-#### STEP 9C. Check exhaust restriction.
+#### ШАГ 9G-1. Проверить вклад турбокомпрессора в продувку двигателя.
 
-| **Conditions:** Install a pressure gauge into the exhaust system. Turn keyswitch ON. Run engine at advertised horsepower and rpm. |  |  |
+> [!danger] ОПАСНО
+> Не запускайте двигатель более одной минуты. Тяжелое повреждение двигателя может произойти, если двигатель работает слишком долго с турбокомпрессорной линией отключения масла от блока.
+
+| **Условия:** Выключите замок зажигания. Проверить уровень масла можно полностью. Подсоедините соответствующее отверстие к концу продувной трубы. Удалите линию слива масла турбокомпрессора из блока и сливайте в ведро. Убедитесь, что порт слива масла турбокомпрессора в блоке подключен, чтобы не выходили газы из картера. Запуск двигателя. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check exhaust restriction by installing a pressure gauge into the exhaust system just past the turbocharger outlet. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[101-011-009-tr — Exhaust Restriction\|Refer to Procedure 011-009 in Section 11.]] | Exhaust restriction within specification listed in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]? **YES** | 9D |
-| Exhaust restriction within specification listed in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]? **NORepair:** Repair exhaust system for source of high restriction. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Загрузить двигатель до номинальной оборотной силы на динамометрическом шасси. Измерьте продувку двигателя. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 014-002 в разделе 14. | Сократилось ли общее падение двигателя более чем на 30%? *** Ремонт:** Заменить сборку турбокомпрессора. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 010-033 в разделе 10. | Ремонт завершён |
+| Сократилось ли общее падение двигателя более чем на 30%? **Норвегия:** Возможно, потребуется перестроить двигатель. | Ремонт завершён |  |
 
-#### STEP 9D. Inspect the charge air cooler.
+#### ШАГ 9H. Проверьте время статической инъекции.
 
-| **Conditions:** Turn keyswitch OFF. |  |  |
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Pressure test the charge air cooler. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 010-027 in Section 10. | Pressure drop 34 kPa \[5 psi\] or less in 15 seconds? **YES** | 9E |
-| Pressure drop 34 kPa \[5 psi\] or less in 15 seconds? **NORepair:** Repair the charge-air cooler. | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте правильное время статической инъекции. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 006-025 в разделе 6. | Правильно ли выбрано время статической инъекции? *Да | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |
+| Правильно ли выбрано время статической инъекции? **NORepair:** Установить время статического впрыска в спецификацию. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Двигатели ISM, ISMe и QSM11, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 006-025 в разделе 6. | Ремонт завершён |  |
 
-#### STEP 9E. Verify engine brake adjustment.
+### ШАГ 10. Проверьте датчик дифференциального давления EGR и датчик давления выхлопных газов.
 
-| **Conditions:** Turn keyswitch OFF. Remove valve cover. |  |  |
+#### ШАГ 10A. Проверьте трубки дифференциального давления EGR на наличие трещин, ограничений или утечек.
+
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Verify the engine brakes are operating correctly. Measure the engine brake settings. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 003-004 in Section 3. | Engine brake settings within the reset limits? **YES** | 9F |
-| Engine brake settings within the reset limits? **NORepair:** Adjust the engine brake settings. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-020-024-tr — Engine Brake\|Refer to Procedure 020-024 in Section 20.]] | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Осмотрите трубки дифференциального давления EGR на наличие трещин, ограничений или утечек. Проливы сажи могут указывать на то, что линия свободна или треснула. | Трещины, ограничения или утечки присутствуют? **Ремонт:** Затянуть или заменить трубки дифференциального давления EGR. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 011-026 в разделе 11. | Ремонт завершён |
+| Трещины, ограничения или утечки присутствуют? **НЕТ** | Ремонт завершён |  |
 
-#### STEP 9F. Measure turbocharger axial and radial clearance.
+#### ШАГ 10B. Проверьте трубки давления выхлопных газов на наличие трещин, ограничений или утечек.
 
-| **Conditions:** Turn engine OFF. Disconnect exhaust and intake connections from the turbocharger. |  |  |
+| **Условия:** Выключите замок зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Measure the axial and radial clearances of the turbocharger. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Axial and radial clearances within specification? **YES** | 9G |
-| Axial and radial clearances within specification? **NORepair:** Replace the turbocharger assembly. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Осмотрите трубки давления выхлопных газов на наличие трещин, ограничений или утечек. Проливы сажи могут указывать на то, что линия свободна или треснула. | Трещины, ограничения или утечки присутствуют? *** Ремонт:** Затянуть или заменить трубки давления выхлопных газов. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 011-027 в разделе 11. | Ремонт завершён |
+| Трещины, ограничения или утечки присутствуют? **НЕТ** | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |  |
+
+### ШАГ 11. Проверьте охладитель EGR.
 
-#### STEP 9G. Verify engine blowby is within specification.
+#### ШАГ 11A. Проверьте охладитель EGR на наличие фоулинга.
 
-| **Conditions:** Turn keyswitch OFF. Connect the appropriate orifice to the end of the blowby draft tube. Start engine. |  |  |
+| **Условия:** Переключатель управления вентилятором в положении выключения. Выключите кондиционер. Подключите инструмент электронного сервиса INSITETM. Включите зажигание. Убедитесь, что температура охлаждающей жидкости выше 79 ° C \[175 ° F \]. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Load engine to rated rpm on a chassis dynamometer. Measure the engine blowby. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 014-002 in Section 14. | Engine blowby measurements within specification? **YES** | 9H |
-| Engine blowby measurements within specification? **NO** | 9G-1 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Если эффективность охладителя ухудшается, охладитель **не** эффективно охлаждает выхлопные газы и вызывает повышение температуры EGR. Перед выполнением электронного сервисного инструментария INSITETM EGR клапан и EGR клапан/Turbocharger Operational Test убедитесь, что фаза программного обеспечения ECM Calibration обновлена до последней фазы программного обеспечения. Программное обеспечение ECM Calibration Phase можно проверить в электронном сервисе INSITETM в разделе «Особенности и параметры». Расширьте выбор для «Идентификатор системы и табличка данных» и перейдите к «Информация о калибровке». Если Фаза Программного обеспечения наступает раньше, чем показано ниже, откалибровать ECM с использованием CD-ROM INCALTM от января 2006 года или позже. Двигатели с Фазой Программного обеспечения, перечисленные ниже или позже, не требуют калибровки. Двигатели ISM с двигателем CM875 (построенные после января 2004 года) требуют программного обеспечения фазы 06050312. Это оправданное изменение калибровки. Запустите двигатель и установите скорость PTO до 1300 об/мин. Выполните тест EGR клапан в электронном сервисе INSITETM и на 100% откройте клапан EGR. Запустите электронный сервис INSITETM с монитором экрана и монитором EGR с более высокой эффективностью. Работайте с двигателем в таком состоянии в течение 4 минут. Через 4 минуты запишите значение эффективности EGR. Если вентилятор двигателя активируется во время этого испытания, испытание **должно быть начато с самого начала. Если параметр эффективности охладителя EGR отображается как «Недоступный» в инструменте электронного обслуживания INSITETM, проверьте температуру выхлопного газа (рассчитанная), температуру EGR и температуру охлаждающей жидкости двигателя и запишите значения через 4 минуты. Используйте формулу (температура выхлопного газа (вычисленная) MINUS EGR Temperature) DIVIDED BY (температура выхлопного газа (вычисленная) MINUS Engine Coolant Temperature) MULTIPLED BY 100 для определения эффективности EGR. | Параметр эффективности EGR кулера более 50 процентов через 4 минуты. *Да** | Выполните следующую процедуру устранения неполадок, как описано в шаге 2 |
+| Параметр эффективности EGR кулера более 50 процентов через 4 минуты. **NORepair:** Очистить или заменить охладитель EGR. Используйте следующую процедуру в Руководстве по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. См. процедуру 011-019 в разделе 11. | Ремонт завершён |  |
 
-#### STEP 9G-1. Verify turbocharger contribution to engine blowby.
 
-> [!danger] WARNING · Опасно
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ### Symptoms
+>
+> - Engine Acceleration or Response Poor
+>
+> - Cranking Fuel Pressure Low
+>
+> - Engine Operating Fuel Pressure Low
+>
+> - Engine Difficult to Start or Will **Not** Start (Exhaust Smoke)
+>
+> - Engine Difficult to Start or Will **Not** Start (No Exhaust Smoke)
+>
+> - Engine Power Output Low
+>
+> - Engine Runs Rough at Idle
+>
+> - Engine Runs Rough or Misfires
+>
+> - Engine Speed Surges at Low or High Idle
+>
+> - Engine Speed Surges Under Load or in Operating Range
+>
+> - Smoke, Black - Excessive
+>
+> - Smoke, White - Excessive
+>
+> - Engine Shuts Off or Dies Unexpectedly or Dies During Deceleration
+>
+> - Engine Starts But Will **Not** Keep Running
+>
+> - Engine Will **Not** Reach Rated Speed (rpm)
+>
+> ### How To Use This Tree
+>
+> This symptom tree can be used to troubleshoot all performance based symptoms listed above. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+>
+> ### Shoptalk
+>
+> Prior to performing INSITE™ electronic service tool EGR Valve and EGR Valve/Turbocharger Operational Test, the engine control module (ECM) Calibration Software Phase could possibly need to be updated to the latest Software Phase. The ECM Calibration Phase Software can be checked in INSITE™ electronic service tool, under 'Features and Parameters'. Expand the selection for 'System ID and Dataplate' and go to 'Calibration Information'. If the Software Phase is earlier than shown below, calibrate the ECM again using the January 2006 INCAL™ CD-ROM, or later. Engines with the Software Phase listed below or later do **not** require a recalibration.
+>
+> ISM engines with CM875 (engines built after January 2004) require Software Phase 06050312.
+>
+> This is a warrantable calibration change.
+>
+> | Minimum and Maximum VGT Actuator Travel Specifications by CPL Number |  |  |
+> |---|---|---|
+> | CPL | Minimum Actuator Travel mm \[in\] | Maximum Actuator Travel mm \[in\] |
+> | 8427, 8559, 8560, 8603, 8706 | 8 mm \[0.315 in\] | 10 mm \[0.394 in\] |
+> | 8271, 8272, 8273, 8274, 8503, 8504, 8505, 8506, 8556, 8557, 8561, 8562 | 7 mm \[0.276 in\] | 9 mm \[0.354 in\] |
+> | 8377, 8558, 8563, 8572 | 10 mm \[0.394 in\] | 12 mm \[0.472 in\] |
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Perform basic troubleshooting procedures. |  |
+> |  | **STEP 1A.** Check for active fault codes or high counts of inactive fault codes. | Active fault codes or high counts of inactive fault codes? |
+> |  | **STEP 1B.** Perform basic troubleshooting checks. | All steps have been verified to be correct? |
+> | STEP 2. | Determination of engine symptom. |  |
+> |  | **STEP 2A.** Low power, poor acceleration, poor response, or engine will not reach rated speed (rpm). | Engine symptom low power, poor acceleration, poor response, or engine will **not** reach rated speed (rpm)? |
+> |  | **STEP 2B.** Engine runs rough or misfires. | Engine symptom Engine Runs Rough or Misfires? |
+> |  | **STEP 2C.** Excessive black smoke. | Engine symptom Excessive Black Smoke? |
+> |  | **STEP 2D.** Excessive white smoke. | Engine symptom Excessive White Smoke and the engine is using coolant? |
+> |  | **STEP 2D-1.** Excessive white smoke. | Engine symptom Excessive White Smoke and the engine is not using coolant? |
+> |  | **STEP 2E.** Engine speed surge or engine speed unstable. | Engine symptom Engine Speed Surge or Engine Speed Unstable? |
+> |  | **STEP 2F.** Engine will not start or difficult to start, engine shuts off unexpectedly. | Engine symptom Engine Difficult to Start or Will Not Start, or Engine Shuts Off Unexpectedly? |
+> | STEP 3. | No-start troubleshooting procedures. |  |
+> |  | **STEP 3A.** Check fuel shutoff valve voltage. | Fuel shutoff valve voltage greater than 11-VDC? |
+> |  | **STEP 3B.** Determine if engine is equipped with a fuel control module. | Engine equipped with a separate fuel control module? |
+> |  | **STEP 3B-1.** Check the ECM connector and pins. | Dirty or damaged pins? |
+> |  | **STEP 3B-2.** Check the ECM keyswitch voltage. | Keyswitch voltage equal to battery voltage? |
+> |  | **STEP 3B-3.** Check the ECM battery supply voltage. | Voltage equal to battery voltage? |
+> |  | **STEP 3B-4.** Check the ECM actuator connector and pins. | Dirty or damaged pins? |
+> |  | **STEP 3B-5.** Check for a pin-to-pin short circuit in the engine harness. | Greater than 100k ohms? |
+> |  | **STEP 3B-6.** Check for a short circuit to ground in the engine harness. | Greater than 100k ohms? |
+> |  | **STEP 3B-7.** Check the continuity of the fuel shutoff valve circuit. | Less than 10 ohms? |
+> |  | **STEP 3C.** Check the fuel control module and fuel control module power connector pins. | Dirty or damaged pins? |
+> |  | **STEP 3D.** Check for a pin-to-pin short circuit at the fuel control module. | Greater than 100k ohms? |
+> |  | **STEP 3E.** Check for a short circuit to ground in the engine harness. | Greater than 100k ohms? |
+> |  | **STEP 3F.** Check for a pin-to-pin short circuit in the engine harness. | Greater than 100k ohms? |
+> |  | **STEP 3G.** Check ground connections. | Ground connections clean and tight? |
+> |  | **STEP 3H.** Check the fuel shutoff valve resistance. | Fuel shutoff solenoid resistance 1 to 5 ohms for 6-VDC solenoids, 6 to 15 ohms for 12-VDC solenoids, 24 to 50 ohms for 24-VDC solenoids, 42 to 80 ohms for 32-VDC solenoids, 46 to 87 ohms for 36-VDC solenoids, 92 to 145 ohms for 48-VDC solenoids, 315 to 375 ohms for 74-VDC solenoids, 645 to 735 ohms for 115-VAC solenoids? |
+> |  | **STEP 3I.** Check the engine position sensor installation. | Engine position sensor installed correctly? |
+> |  | **STEP 3J.** Determine if engine is equipped with EGR. | Engine equipped with a separate fuel control module? |
+> |  | **STEP 3K.** Check for coolant in the EGR transfer tube. | Coolant present in the crossover tube? |
+> | STEP 4. | Fuel system checks. |  |
+> |  | **STEP 4A.** Check for air in the fuel. | Air bubbles visible in the sight glass? |
+> |  | **STEP 4B.** Check fuel inlet restriction. | Fuel inlet restriction less than the specifications? |
+> |  | **STEP 4C.** Check drain line restriction. | Fuel drain line restriction less than 89 mm-Hg \[3.5 in-Hg\]? |
+> |  | **STEP 4D.** Check fuel pump output pressure. | Fuel pressure meet the specification? |
+> |  | **STEP 4E.** Check fuel gear pump check valve. | Check valve installed and operating correctly? |
+> |  | **STEP 4F.** Check fuel supply line for restrictions. | Fuel lines free from restrictions? |
+> |  | **STEP 4G.** Check for plugged fuel drillings in the cylinder head. | Plastic insert been removed from the fuel supply passage in the cylinder head? |
+> | STEP 5. | Injector diagnostics. |  |
+> |  | **STEP 5A.** Perform INSITE™ electronic service tool cylinder cutout test. | All cylinders pass the cylinder cutout test? |
+> | STEP 6. | Air handling diagnostic checks. |  |
+> |  | **STEP 6A.** Start engine and read fault codes. | Active fault codes? |
+> |  | **STEP 6B.** Inspect the turbocharger blades for damage. | Damage found on turbocharger fins? |
+> |  | **STEP 6C.** Determination of turbocharger type. | Turbocharger a variable geometry turbocharger? |
+> |  | **STEP 6D.** Check the variable geometry actuator rod for correct travel. | Turbocharger actuator rod extend between the minimum and maximum actuator travel specification found in the CPL table in the Shop Talk section? |
+> |  | **STEP 6D-1.** Check for air leaks and inspect air lines. | Air leaks found in the system? |
+> |  | **STEP 6D-2.** Check the engine and vehicle grounds. | Connections tight and corrosion free? |
+> |  | **STEP 6D-3.** Check for air pressure at the turbocharger control valve outlet. | Vehicle air tank pressure present at the turbocharger control valve outlet? |
+> |  | **STEP 6D-4.** Check for air pressure at the turbocharger control valve outlet. | Pressure gauge read more than 103 kPa \[15 psi\] after 5 minutes? |
+> |  | **STEP 6D-5.** Check for correct turbocharger actuator travel. | Turbocharger actuator rod travel at least 12 mm \[0.472 in\]? |
+> |  | **STEP 6D-6.** Determine if the engine is equipped with a turbocharger control shutoff valve. | Engine equipped with a turbocharger control shutoff valve? |
+> |  | **STEP 6D-7.** Check for air pressure at the turbocharger control shutoff valve outlet. | Air heard escaping from the turbocharger control shutoff valve outlet? |
+> |  | **STEP 6D-8.** Check for air pressure at the turbocharger control shutoff valve inlet. | Air heard escaping from the turbocharger control shutoff valve inlet? |
+> |  | **STEP 6D-9.** Check for plugged turbocharger control shutoff valve filter. | Air leak present at the turbocharger control shutoff valve filter head? |
+> |  | **STEP 6D-10.** Verify the OEM air supply line is connected to the correct port on the turbocharger control valve. | Air heard escaping from the turbocharger control valve inlet? |
+> |  | **STEP 6E.** Perform INSITE™ electronic service tool EGR Valve/Turbocharger Operational Test. | Turbocharger Operational Test pass? |
+> |  | **STEP 6E-1.** Check the engine and vehicle grounds. | Connections tight and corrosion free? |
+> |  | **STEP 6F.** Inspect the wastegate actuator hose. | Holes or cracks found in the wastegate actuator hose? |
+> |  | **STEP 6G.** Inspect the wastegate actuator rod for travel. | Wastegate actuator rod move? |
+> |  | **STEP 6G-1.** Inspect wastegate actuator rod for travel. | Wastegate actuator rod move? |
+> |  | **STEP 6H.** Measure resistance of the four-stage wastegate controllers, if equipped. | Wastegate controller solenoid resistances 6 to 10 ohms for 12-VDC solenoids, 24 to 40 ohms for 24-VDC solenoids? |
+> |  | **STEP 6I.** Inspect four-stage wastegate controller, if equipped. | Damage or debris found on the valve disc, valve seat, or actuator disc? |
+> | STEP 7. | Check EGR valve for proper operation. |  |
+> |  | **STEP 7A.** Check for air leaks in the EGR system. | Air leaks found in the EGR connection tubing? |
+> |  | **STEP 7B.** Check repair history. | Record of the poppet head missing? |
+> |  | **STEP 7C.** Perform the EGR Valve Test. | EGR Valve Test pass? |
+> | STEP 8. | Verify electronic features are operating correctly. |  |
+> |  | **STEP 8A.** Verify accelerator pedal travel. | Percent Accelerator read 0 when the accelerator is released and 100 percent when the accelerator is depressed? |
+> |  | **STEP 8B.** Monitor vehicle speed. | Vehicle speed read 0 when the vehicle is not moving? |
+> |  | **STEP 8C.** Verify electronic feature settings are correct. | Electronic features set correctly? |
+> |  | **STEP 8D.** Check barometric pressure sensor reading. | Barometric pressure sensor reading in INSITE™ electronic service tool within 5 percent of the present local barometric pressure reading? |
+> | STEP 9. | Perform base engine mechanical checks. |  |
+> |  | **STEP 9A.** Verify overhead adjustments are correct. | Overhead settings within the reset limits? |
+> |  | **STEP 9B.** Check air intake restriction. | Air intake restriction greater than 635 mm-H 2 O \[25 in-H 2 O\]? |
+> |  | **STEP 9C.** Check exhaust restriction. | Exhaust restriction within specification as listed in the Service Manual? |
+> |  | **STEP 9D.** Inspect the charge air cooler. | Pressure drop 34 kPa \[5 psi\] or less in 15 seconds? |
+> |  | **STEP 9E.** Verify engine brake adjustment. | Engine brake settings within the reset limits? |
+> |  | **STEP 9F.** Measure turbocharger axial and radial clearance. | Axial and radial clearances within specification? |
+> |  | **STEP 9G.** Verify engine blowby is within specification. | Engine blowby measurements within specification? |
+> |  | **STEP 9G-1.** Verify turbocharger contribution to engine blowby. | Did the total engine blowby drop more than 30 percent? |
+> |  | **STEP 9H.** Check the static injection timing. | Is the static injection timing correct? |
+> | STEP 10. | Check the EGR differential pressure sensor and exhaust gas pressure sensor |  |
+> |  | **STEP 10A.** Check the EGR differential pressure tubes for cracks, restrictions, or leaks. | Cracks, restrictions, or leaks present? |
+> |  | **STEP 10B.** Check the exhaust gas pressure tubes for cracks, restrictions, or leaks. | Cracks, restrictions, or leaks present? |
+> | STEP 11. | Check the EGR cooler. |  |
+> |  | **STEP 11A.** Check the EGR cooler for fouling. | EGR cooler efficiency parameter greater than 50 percent after 4 minutes? |
+>
+> ### STEP 1. Perform basic troubleshooting procedures.
+>
+> #### STEP 1A. Check for active fault codes or high counts of inactive fault codes.
+>
+> | **Conditions:** Connect INSITE™ electronic service tool. Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for active fault codes or high counts of inactive fault codes. Use INSITE™ electronic service tool to read the fault codes. | Active fault codes or high counts of inactive fault codes? **YESRepair:** See one of the following manuals: Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381 Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477 Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. | Go to appropriate fault code troubleshooting tree |
+> | Active fault codes or high counts of inactive fault codes? **NO** | 1B |  |
+>
+> #### STEP 1B. Perform basic troubleshooting checks.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | The following items must be checked or verified before continuing: Verify the fuel level in the tanks Verify there have not been any changes to CPL components on the engine Verify fuel grade is correct for the application Verify the engine is operating within the recommended altitude Verify engine oil is at the correct level Verify engine parasitics have not changed Verify engine duty cycle has not changed Verify engine cranking speed is greater than 150 rpm. | All steps have been verified to be correct? **YES** | 2A |
+> | All steps have been verified to be correct? **NORepair:** Correct the condition and verify complaint is no longer present after repair. | Repair complete |  |
+>
+> ### STEP 2. Determination of engine symptom.
+>
+> #### STEP 2A. Low power, poor acceleration, poor response, or engine will not reach rated speed (rpm).
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Interview the driver and verify the complaint. | Engine symptom low power, poor acceleration, poor response, or engine will **not** reach rated speed (rpm)? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 6 - Air Handling Checks With EGR - Step 7 - EGR Checks Step 8 - Electronic Checks Step 5 - Injector Checks Step 9 - Base Engine Checks With EGR - Step 10 - EGR Differential Pressure and Exhaust Gas Pressure Checks With EGR - Step 11 - Check the EGR Cooler | Perform the troubleshooting steps suggested in the repair procedure |
+> | Engine symptom low power, poor acceleration, poor response, or engine will **not** reach rated speed (rpm)? **NO** | 2B |  |
+>
+> #### STEP 2B. Engine runs rough or misfires.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Interview the driver and verify the complaint. | Engine symptom Engine Runs Rough or Misfires? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 5 - Injector Checks Step 4 - Fuel System Checks Step 9 - Base Engine Checks With EGR - Step 10 - EGR Differential Pressure and Exhaust Gas Pressure Checks With EGR - Step 11 - Check the EGR Cooler | Perform the troubleshooting steps suggested in the repair procedure |
+> | Engine symptom Engine Runs Rough or Misfires? **NO** | 2C |  |
+>
+> #### STEP 2C. Excessive black smoke.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Interview the driver and verify the complaint. | Engine symptom Excessive Black Smoke? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 6 - Air Handling Checks Step 4 - Fuel System Checks With EGR - Step 7 - EGR Checks With EGR - Step 10 - EGR Differential Pressure and Exhaust Gas Pressure Checks Step 9 - Base Engine Checks | Perform the troubleshooting steps suggested in the repair procedure |
+> | Engine symptom Excessive Black Smoke? **NO** | 2D |  |
+>
+> #### STEP 2D. Excessive white smoke.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Interview the driver and verify the complaint. | Engine symptom Excessive White Smoke and the engine is using coolant? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: See the Coolant Loss - Internal symptom tree. | Perform the troubleshooting steps suggested in the repair procedure |
+> | Engine symptom Excessive White Smoke and the engine is using coolant? **NO** | 2D-1 |  |
+>
+> #### STEP 2D-1. Excessive white smoke.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Interview the driver and verify the complaint. | Engine symptom Excessive White Smoke and the engine is **not** using coolant? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Injector Checks Step 6 - Air handling checks Step 9 - Base Engine Checks | Perform the troubleshooting steps suggested in the repair procedure |
+> | Engine symptom Excessive White Smoke and the engine is **not** using coolant? **NO** | 2E |  |
+>
+> #### STEP 2E. Engine speed surge or engine speed unstable.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Interview the driver and verify the complaint. | Engine symptom Engine Speed Surge or Engine Speed Unstable? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Injector Checks Step 10 - EGR Differential Pressure and Exhaust Gas Pressure Checks Step 6 - Air Handling Checks Step 8 - Electronics Checks Step 9 - Base Engine Checks Step 11 - Check the EGR Cooler | Perform the troubleshooting steps suggested in the repair procedure |
+> | Engine symptom Engine Speed Surge or Engine Speed Unstable? **NO** | 2F |  |
+>
+> #### STEP 2F. Engine will not start or difficult to start, engine shuts off unexpectedly.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Interview the driver and verify the complaint. | Engine symptom Engine Difficult to Start or Will **Not** Start, or Engine Shuts Off Unexpectedly? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 3 - No Start Checks Step 4 - Fuel System Checks Step 5 - Injector Checks Step 6 - Air Handling Checks Step 8 - Electronics Checks Step 9 - Base Engine Checks | Perform the troubleshooting steps suggested in the repair procedure |
+> | Engine symptom Engine Difficult to Start or Will **Not** Start, or Engine Shuts Off Unexpectedly? **NO** | Return to correct symptom tree |  |
+>
+> ### STEP 3. No-start troubleshooting procedures.
+>
+> #### STEP 3A. Check fuel shutoff valve voltage.
+>
+> | **Conditions:** Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Measure the voltage from the fuel shutoff valve post to engine block ground. | Fuel shutoff valve voltage greater than 11-VDC? **YES** | 3H |
+> | Fuel shutoff valve voltage greater than 11-VDC? **NO** | 3B |  |
+>
+> #### STEP 3B. Determine if engine is equipped with a fuel control module.
+>
+> | **Conditions:** Connect all components. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Determine if the engine is equipped with a separate fuel control module. | Engine equipped with a separate fuel control module? **YES** | 3C |
+> | Engine equipped with a separate fuel control module? **NO** | 3B-1 |  |
+>
+> #### STEP 3B-1. Check the ECM connector and pins.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the OEM harness connector from the ECM. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the OEM harness connector and ECM pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19.]] | Dirty or damaged pins? **YESRepair:** Clean the connector and pins. Repair the damaged harness, connector, or pins, if possible. See one of the following procedures: Flush the dirt, debris, or moisture from the connector pins. Use electrical contact cleaner, Part Number 3824510. Install the appropriate connector seal if it is damaged or missing. Replace the engine harness. Use one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. Replace the OEM harness. Refer to the OEM service manual. Replace the ECM. Use one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-031 in Section 19. | Repair complete |
+> | Dirty or damaged pins? **NO** | 3B-2 |  |
+>
+> #### STEP 3B-2. Check the ECM keyswitch voltage.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the OEM harness connector from the ECM. Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the ECM keyswitch voltage. Measure the voltage from the keyswitch input SIGNAL pin of the OEM connector to ground. Refer to the wiring diagram or circuit diagram for connector pin identification. | Keyswitch voltage equal to battery voltage? **YES** | 3B-3 |
+> | Keyswitch voltage equal to battery voltage? **NORepair:** Repair the OEM keyswitch circuit. Use one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-064 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-064 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-064 in Section 19. | Repair complete |  |
+>
+> #### STEP 3B-3. Check the ECM battery supply voltage.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the OEM or 4-pin power harness connector from the ECM. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the ECM battery supply. Measure the voltage from the battery SUPPLY (+) pins of the OEM or 4-pin power harness connector to the battery SUPPLY (-) pins of the connector. Refer to the wiring diagram or circuit diagram for connector pin identification. | Voltage equal to battery voltage? **YES** | 3B-4 |
+> | Voltage equal to battery voltage? **NORepair:** Repair the OEM battery supply or keyswitch circuit. | Repair complete |  |
+>
+> #### STEP 3B-4. Check the ECM actuator connector and pins.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the engine harness or engine harness actuator connector from the ECM. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the engine harness or engine harness actuator connector and ECM pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19.]] | Dirty or damaged pins? **YESRepair:** Clean the connector and pins. Repair the damaged harness, connector, or pins if possible. See one of the following procedures: Flush the dirt, debris, or moisture from the connector pins. Use electrical contact cleaner, Part Number 3824510. Install the appropriate connector seal if it is damaged or missing. Replace the engine harness. Use one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. Replace the OEM harness. Refer to the OEM service manual. Replace the ECM. Use one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-031 in Section 19. | Repair complete |
+> | Dirty or damaged pins? **NO** | 3B-5 |  |
+>
+> #### STEP 3B-5. Check for a pin-to-pin short circuit in the engine harness.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the engine harness or engine harness actuator connector from the ECM. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for a pin-to-pin short circuit. Measure the resistance between the fuel shutoff valve SIGNAL pin of the engine harness or engine harness actuator connector and all pins in the connector. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3B-6 |
+> | Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+>
+> #### STEP 3B-6. Check for a short circuit to ground in the engine harness.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the engine harness or engine harness actuator connector from the ECM. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for a short circuit to ground. Measure the resistance between the fuel shutoff valve SIGNAL pin of the engine harness or engine harness actuator connector and ground. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3B-7 |
+> | Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+>
+> #### STEP 3B-7. Check the continuity of the fuel shutoff valve circuit.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the engine harness or engine harness actuator connector from the ECM. Disconnect the fuel shutoff valve wire from the valve terminal post. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the continuity of the fuel shutoff valve circuit. Measure the resistance of the fuel shutoff valve SIGNAL circuit between the engine harness or engine harness actuator connector and the fuel shutoff valve eyelet. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Less than 10 ohms? **YESRepair:** Replace the ECM. See one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-031 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-031 in Section 19. | Repair complete |
+> | Less than 10 ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+>
+> #### STEP 3C. Check the fuel control module and fuel control module power connector pins.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the fuel control module actuator connector from the fuel control module. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the fuel control module and the fuel control module actuator connector pins for the following: Loose connector Corroded pins Bent or broken pins Pushed back or expanded pins Moisture in or on the connector Missing or damaged connector seals Dirt or debris in or on the connector pins Connector shell broken Wire insulation damage Damaged connector locking tab. Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection\|Refer to Procedure 019-361 in Section 19.]] | Dirty or damaged pins? **YESRepair:** Clean the connector and pins. Repair the damaged harness, connector, or pins, if possible. Repair or replace the fuel control module harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |
+> | Dirty or damaged pins? **NO** | 3D |  |
+>
+> #### STEP 3D. Check for a pin-to-pin short circuit at the fuel control module.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the fuel control module actuator connector from the fuel control module. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for a pin-to-pin short circuit. Measure the resistance between the fuel shutoff valve SIGNAL pin of the fuel control module actuator connector and all other pins in the connector. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3E |
+> | Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Replace the engine harness. Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Replace the engine harness. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Replace the engine harness. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+>
+> #### STEP 3E. Check for a short circuit to ground in the engine harness.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the fuel control module actuator connector from the fuel control module. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for a short circuit to ground. Measure the resistance between the fuel shutoff valve SIGNAL pin of the engine harness fuel control module actuator connector and engine block ground. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3F |
+> | Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+>
+> #### STEP 3F. Check for a pin-to-pin short circuit in the engine harness.
+>
+> | **Conditions:** Turn keyswitch OFF. Disconnect the fuel control module actuator connector from the fuel control module. Disconnect the engine harness from the ECM. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for a pin-to-pin short circuit. Measure the resistance between the fuel shutoff valve SIGNAL pin of the engine harness fuel control module actuator connector and all pins in the engine harness engine control module connector. Refer to the wiring diagram or circuit diagram for connector pin identification. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Greater than 100k ohms? **YES** | 3G |
+> | Greater than 100k ohms? **NORepair:** Repair or replace the engine harness. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-043 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-043 in Section 19. | Repair complete |  |
+>
+> #### STEP 3G. Check ground connections.
+>
+> | **Conditions:** Connect all components. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check conditions of grounds. Check for loose, missing, or dirty ground connections at the following locations: Engine harness ground at block stud Starter to block ground strap and battery negative Chassis to engine block or battery negative. | Ground connections clean and tight? **YESRepair:** Replace the engine control module. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-031 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines Bulletin 4021381. Refer to Procedure 019-031 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-031 in Section 19. | Repair complete |
+> | Ground connections clean and tight? **NORepair:** Tighten and clean ground connections as needed. | Repair complete |  |
+>
+> #### STEP 3H. Check the fuel shutoff valve resistance.
+>
+> | **Conditions:** Turn keyswitch OFF. Remove the engine harness ring terminal from the fuel shutoff valve. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the shutoff valve resistance. Measure the resistance between the fuel shutoff valve ring terminal stud and engine block ground. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Fuel shutoff solenoid resistance: 1 to 5 ohms for 6-VDC solenoids 6 to 15 ohms for 12-VDC solenoids 24 to 50 ohms for 24-VDC solenoids 42 to 80 ohms for 32-VDC solenoids 46 to 87 ohms for 36-VDC solenoids 92 to 145 ohms for 48-VDC solenoids 315 to 375 ohms for 74-VDC solenoids 645 to 735 ohms for 115-VAC solenoids? **YES** | 3I |
+> | Fuel shutoff solenoid resistance: 1 to 5 ohms for 6-VDC solenoids 6 to 15 ohms for 12-VDC solenoids 24 to 50 ohms for 24-VDC solenoids 42 to 80 ohms for 32-VDC solenoids 46 to 87 ohms for 36-VDC solenoids 92 to 145 ohms for 48-VDC solenoids 315 to 375 ohms for 74-VDC solenoids 645 to 735 ohms for 115-VAC solenoids? **NORepair:** Replace the fuel shutoff valve. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-050 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-050 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-050 in Section 19. | Repair complete |  |
+>
+> #### STEP 3I. Check the engine position sensor installation.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the engine position sensor for proper installation. Excessive air gap between the sensor and camshaft can cause incorrect speed sensor readings. | Engine position sensor installed correctly? **YES** | 3J |
+> | Engine position sensor installed correctly? **NORepair:** Install the engine position sensor correctly. Replace the engine position sensor, if necessary. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-038 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-038 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-038 in Section 19. | Repair complete |  |
+>
+> #### STEP 3J. Determine if engine is equipped with exhaust gas recirculation (EGR).
+>
+> | **Conditions:** Connect all components. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Determine if the engine is equipped with EGR. | Engine equipped with EGR? **YES** | 3K |
+> | Engine equipped with EGR? **NO** | Perform next troubleshooting procedure as outlined in Step 2 |  |
+>
+> #### STEP 3K. Check for coolant in the EGR transfer tube.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Remove the EGR transfer hose from the EGR cooler outlet. | Is coolant present in the crossover tube? **YESRepair:** See the Coolant Loss - Internal symptom tree. | Repair complete |
+> | Is coolant present in the crossover tube? **NO** | Perform next troubleshooting procedure as outlined in Step 2 |  |
+>
+> ### STEP 4. Fuel system checks.
+>
+> #### STEP 4A. Check for air in the fuel.
+>
+> | **Conditions:** Operate engine at low idle (engine cranking if troubleshooting No-Start). |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Connect the equipment to the fuel pump as shown. | Are air bubbles visible in the sight glass? **YESRepair:** Locate and correct cause of air ingestion in the OEM fuel supply system or damaged fuel filter sealing ring. | Repair complete |
+> | Are air bubbles visible in the sight glass? **NO** | 4B |  |
+>
+> #### STEP 4B. Check fuel inlet restriction.
+>
+> | **Conditions:** Connect a manometer, Part Number ST-1111-3, to the fuel pump supply hose. Turn keyswitch ON. Operate engine at rated speed. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the fuel inlet restriction. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-006-020-tr — Fuel Inlet Restriction\|Refer to Procedure 006-020 in Section 6.]] | Is fuel inlet restriction less than the specifications listed below? Dirty - 254 mm-Hg \[10 in-Hg\]; New - 152 mm-Hg \[6 in-Hg\] **YES** | 4C |
+> | Is fuel inlet restriction less than the specifications listed below? Dirty - 254 mm Hg \[10 in-Hg\]; New - 152 mm-Hg \[6 in-Hg\] **NORepair:** Locate the cause of high fuel inlet restriction. Check the prefilter and fuel supply lines. | Repair complete |  |
+>
+> #### STEP 4C. Check drain line restriction.
+>
+> | **Conditions:** Connect a manometer, Part Number ST-1111-3, to the fuel drain line. Turn keyswitch ON. Operate engine at rated speed. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Observe reading on the pressure gauge. | Is fuel drain line restriction less than 89 mm-Hg \[3.5 in-Hg\] for Automotive Applications or less than 63.5 mm-Hg \[2.5 in-Hg\] for Industrial/Generator Applications? **YES** | 4D |
+> | Is fuel drain line restriction less than 89 mm-Hg \[3.5 in-Hg\] for Automotive Applications or less than 63.5 mm-Hg \[2.5 in-Hg\] for Industrial/Generator Applications? **NORepair:** Locate cause of high fuel drain line restriction in OEM fuel return line. | Repair complete |  |
+>
+> #### STEP 4D. Check fuel pump output pressure.
+>
+> | **Conditions:** Connect pressure gauge on the Compuchek™ fitting of the fuel pump. Turn keyswitch ON. Operate engine at 1200 rpm (engine cranking if troubleshooting No-Start). |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Observe the reading on the pressure gauge. Use the following procedure in the ISM, ISMe, and QSM11 Service Manual, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-005-011-tr — Fuel Flow\|Refer to Procedure 005-011 in Section 5.]] Cranking: minimum of 172 kPa \[25 psi\] Engine operating at 1200 rpm: minimum of 827 kPa \[120 psi\] | Does the fuel pressure meet the specification? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
+> | Does the fuel pressure meet the specification? **NO** | 4E |  |
+>
+> #### STEP 4E. Check fuel gear pump check valve.
+>
+> | **Conditions:** Disconnect fuel drain line from fuel gear pump housing. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the fuel gear pump check valve for correct installation and operation. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-005-026 — Fuel Pump Gear Pump Check Valve\|Refer to Procedure 005-026 in Section 5.]] | Is check valve installed and operating correctly? **YES** | 4F |
+> | Is check valve installed and operating correctly? **NORepair:** Install the check valve correctly or replace the fuel gear pump check valve, if necessary. Use the following procedure in the Service Manual, ISM, ISMe and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-005-026 — Fuel Pump Gear Pump Check Valve\|Refer to Procedure 005-026 in Section 5.]] | Repair complete |  |
+>
+> #### STEP 4F. Check fuel supply line for restrictions.
+>
+> | **Conditions:** Connect all components. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the fuel line between the fuel pump and cylinder head for obstructions. Check the fuel line for sharp bends or kinks that could cause a restriction. | Are fuel lines free from restrictions? **YES** | 4G |
+> | Are fuel lines free from restrictions? **NORepair:** Remove obstructions from fuel lines. Replace kinked or restricted lines, as necessary. | Repair complete |  |
+>
+> #### STEP 4G. Check for plugged fuel drillings in the cylinder head.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | If a ReCon® cylinder head was installed, check that the plastic insert has been removed from the fuel supply inlet passage in the cylinder head. | Has plastic insert been removed from the fuel supply passage in the cylinder head? **YES** | Replace the fuel pump. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-005-016-tr — Fuel Pump\|Refer to Procedure 005-016 in Section 5.]] |
+> | Has plastic insert been removed from the fuel supply passage in the cylinder head? **NORepair:** Remove the plastic insert from the fuel supply passage in the cylinder head. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-002-004-tr — Cylinder Head\|Refer to Procedure 002-004 in Section 2.]] | Repair complete |  |
+>
+> ### STEP 5. Injector diagnostics.
+>
+> #### STEP 5A. Perform INSITE™ electronic service tool Cylinder Cutout Test.
+>
+> | **Conditions:** Connect INSITE™ electronic service tool Operate engine at low idle. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Perform the INSITE™ electronic service tool Cylinder Cutout Test. | All cylinders pass the Cylinder Cutout Test? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
+> | All cylinders pass the Cylinder Cutout Test? **NORepair:** Replace the injectors as needed. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-006-026-tr — Injector\|Refer to Procedure 006-026 in Section 6.]] | Repair complete |  |
+>
+> ### STEP 6. Air handling diagnostic checks.
+>
+> #### STEP 6A. Start engine and read fault codes.
+>
+> | **Conditions:** Connect INSITE™ electronic service tool. Operate engine at low idle. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the fault codes with the engine operating. Use INSITE™ electronic service tool to read the fault codes. | Active fault codes? **YES** | Go to appropriate fault code troubleshooting tree |
+> | Active fault codes? **NO** | 6B |  |
+>
+> #### STEP 6B. Inspect the turbocharger blades for damage.
+>
+> | **Conditions:** Turn engine OFF. Remove intake and exhaust connections for turbocharger. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the compressor and turbine fins for damage or wear. | Damage found on turbocharger fins? **YESRepair:** Replace the turbocharger. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
+> | Damage found on turbocharger fins? **NO** | 6C |  |
+>
+> #### STEP 6C. Determination of turbocharger type.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Determine if the turbocharger is a variable geometry turbocharger. | Turbocharger a variable geometry turbocharger? **YES** | 6D |
+> | Turbocharger a variable geometry turbocharger? **NO** | 6F |  |
+>
+> #### STEP 6D. Check the variable geometry actuator rod for correct travel.
+>
+> | **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Adjust the delay timer in the Turbocharger Actuator Test so that the rod movement can be observed. Select the retract actuator position with INSITE™ electronic service tool. Mark or scribe the variable geometry actuator rod at the base of the actuator. Select the extend actuator position with INSITE™ electronic service tool. Measure the rod travel by measuring the distance from the base of the turbocharger actuator to the scribe mark. Use a straight edge steel ruler. Retract and extend the turbocharger actuator at least 10 times. Examine the engine dataplate to identify the CPL number. Use the CPL number from the dataplate to identify the proper actuator travel from the CPL table in the Shop Talk section. The turbocharger actuator moves quickly and crisply. If the actuator rod movement is slow, there could be a problem with the air supply, a faulty ground connection on the engine or chassis, or mechanical problems with the variable geometry turbocharger assembly. | Turbocharger actuator rod extend between the minimum and maximum actuator travel specification found in the CPL table in the Shop Talk section? **YES** | 6E |
+> | Turbocharger actuator rod extend between the minimum and maximum actuator travel specification found in the CPL table in the Shop Talk section? **NO** | 6D-1 |  |
+>
+> #### STEP 6D-1. Check for air leaks and inspect air lines.
+>
+> | **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Select the extend actuator position. Listen for air leaks at the following components: Turbocharger control valve Turbocharger control shutoff valve inlet connection, if equipped Turbocharger control shutoff valve outlet connection, if equipped Turbocharger control valve inlet connection Turbocharger control valve outlet connection Turbocharger actuator inlet connection Turbocharger actuator All air lines including the OEM supply line to turbocharger control shutoff valve, turbocharger control shutoff valve to turbocharger control valve, and turbocharger control valve to turbocharger actuator. A small amount of air could possibly be heard escaping from the turbocharger control valve during the turbocharger actuator test. This is a normal condition for the valve to achieve output regulation pressure. Do **not** replace the turbocharger control valve for this condition. | Air leaks found in the system? **YESRepair:** Repair air leaks. | Repair complete |
+> | Air leaks found in the system? **NO** | 6D-2 |  |
+>
+> #### STEP 6D-2. Check the engine and vehicle grounds.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for loose or corroded engine, chassis, or battery ground connections. Check the engine ground connection. Check the chassis ground connections. Check the battery terminal connections. | Connections tight and corrosion free? **YES** | 6D-3 |
+> | Connections tight and corrosion free? **NORepair:** Tighten the connections. Tighten the loose connections and clean the terminals. Refer to the OEM service manual. | Repair complete |  |
+>
+> #### STEP 6D-3. Check for air pressure at the turbocharger control valve outlet.
+>
+> | **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Perform the Turbocharger Actuator Test, use INSITE™ electronic service tool. Select retract actuator position. Remove the air line connection at the outlet of the turbocharger control valve. Install an M12 Compuchek™ fitting at the outlet of the turbocharger control valve. Install an air pressure gauge that is capable of reading at least 1034 kPa \[150 psi\]. Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Select the extend actuator position. | Vehicle air tank pressure present at the turbocharger control valve outlet? **YES** | 6D-4 |
+> | Vehicle air tank pressure present at the turbocharger control valve outlet? **NO** | 6D-6 |  |
+>
+> #### STEP 6D-4. Check for air pressure at the turbocharger control valve outlet.
+>
+> | **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Perform the Turbocharger Actuator Test, use INSITE™ electronic service tool. Select the retract actuator position. Remove the air line connection at the outlet of the turbocharger control valve. Install an M12 Compuchek™ fitting at the outlet of the turbocharger control valve. Install an air pressure gauge capable of reading at least 1034 kPa \[150 psi\]. | Pressure gauge read more than 103 kPa \[15 psi\] after 5 minutes? **YESRepair:** Replace the turbocharger control valve. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-388 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-388 in Section 19. | Repair complete |
+> | Pressure gauge read more than 103 kPa \[15 psi\] after 5 minutes? **NO** | 6D-5 |  |
+>
+> #### STEP 6D-5. Check for correct turbocharger actuator travel.
+>
+> | **Conditions:** Turn engine OFF. Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Damage to the turbocharger can result if the proper removal procedure is not followed. Remove the variable geometry actuator from the turbocharger. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 010-033 in Section 10. Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Select the extend actuator position. | Turbocharger actuator rod travel at least 12 mm \[0.472 in\]? **YESRepair:** Replace the turbocharger assembly. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
+> | Turbocharger actuator rod travel at least 12 mm \[0.472 in\]? **NORepair:** Replace the turbocharger actuator. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-113-tr — Turbocharger, Variable Geometry Actuator\|Refer to Procedure 010-113 in Section 10.]] | Repair complete |  |
+>
+> #### STEP 6D-6. Determine if the engine is equipped with a turbocharger control shutoff valve.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Determine if the engine is equipped with a turbocharger control shutoff valve. | Engine equipped with a turbocharger control shutoff valve? **YES** | 6D-7 |
+> | Engine equipped with a turbocharger control shutoff valve? **NO** | 6D-10 |  |
+>
+> #### STEP 6D-7. Check for air pressure at the turbocharger control shutoff valve outlet.
+>
+> | **Conditions:** Turn engine OFF. Turn keyswitch ON. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. Connect INSITE™ electronic service tool. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Use INSITE™ electronic service to perform the Turbocharger Actuator Test. Select the extend actuator position. Loosen the air line connection at the turbocharger control shutoff valve outlet. | Air heard escaping from the turbocharger control shutoff valve outlet? **YESRepair:** Replace the turbocharger control shutoff valve. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-388 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-388 in Section 19. | Repair complete |
+> | Air heard escaping from the turbocharger control shutoff valve outlet? **NO** | 6D-8 |  |
+>
+> #### STEP 6D-8. Check for air pressure at the turbocharger control shutoff valve inlet.
+>
+> | **Conditions:** Turn engine OFF. Turn keyswitch ON. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Verify the OEM air supply line is connected to the correct port on the turbocharger control shutoff valve. Loosen the air line connection at the turbocharger control shutoff valve inlet. | Air heard escaping from the turbocharger control shutoff valve inlet? **YES** | 6D-9 |
+> | Air heard escaping from the turbocharger control shutoff valve inlet? **NORepair:** Repair the air supply from the OEM air tanks. | Repair complete |  |
+>
+> #### STEP 6D-9. Check for plugged turbocharger control shutoff valve filter.
+>
+> | **Conditions:** Remove the turbocharger control shutoff valve filter. Turn keyswitch ON. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. Connect INSITE™ electronic service tool. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Use INSITE™ electronic service tool to perform the Turbocharger Actuator Test. Select the extend actuator position. Listen for an air leak at the turbocharger control shutoff valve filter head. | Air leak present at the turbocharger control shutoff valve filter head? **YESRepair:** Replace the turbocharger control shutoff valve filter. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-114-tr — Turbocharger Air Shutoff Valve Filter\|Refer to Procedure 010-114 in Section 10.]] | Repair complete |
+> | Air leak present at the turbocharger control shutoff valve filter head? **NORepair:** Replace the turbocharger control shutoff valve. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-386 in Section 19. | Repair complete |  |
+>
+> #### STEP 6D-10. Verify the OEM air supply line is connected to the correct port on the turbocharger control valve.
+>
+> | **Conditions:** Turn engine OFF. Turn keyswitch ON. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Verify the OEM air supply line is connected to the correct port on the turbocharger control valve. Loosen the air line connection at the turbocharger control valve inlet. | Air heard escaping form the turbocharger control valve inlet? **YESRepair:** Replace the turbocharger control valve. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-388 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-388 in Section 19. | Repair complete |
+> | Air heard escaping from the turbocharger control valve inlet? **NORepair:** Repair the air supply from the OEM air tanks. | Repair complete |  |
+>
+> #### STEP 6E. Perform INSITE™ electronic service tool EGR Valve/Turbocharger Operational Test.
+>
+> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. Verify vehicle air tanks are charged to at least 586 kPa \[85 psi\] air pressure. Start the engine and operate at low idle. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Select INSITE™ electronic service tool EGR/Variable Geometry Turbocharger Operational Test. Prior to operating INSITE™ electronic service tool EGR Valve and EGR Valve/Turbocharger Operational Test, the ECM Calibration Software Phase could possibly need to be updated to the latest software phase. The ECM Calibration Phase Software can be checked in INSITE™ electronic service tool, under 'Features and Parameters'. Expand the selection for 'System ID and Dataplate' and go to 'Calibration Information'. If the software phase is earlier than shown below, recalibrate the ECM using the January 2006 INCAL™ CD-ROM, or later. Engines with the software phase listed below or later do **not** require a recalibration. ISM engines with CM875 (engines built after January 2004) require Software Phase 06050312. This is a warrantable calibration change. Choose the Turbocharger actuator option under Test Choices. | Turbocharger Operational Test pass? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
+> | Turbocharger Operational Test pass? **NO** | 6E-1 |  |
+>
+> #### STEP 6E-1. Check the engine and vehicle grounds.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for loose or corroded engine, chassis, or battery ground connections. Check the engine ground connection. Check the chassis ground connections. Check the battery terminal connections. | Connections tight and corrosion free? **YESRepair:** Replace the variable geometry turbocharger. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
+> | Connections tight and corrosion free? **NORepair:** Tighten the connections. Tighten the loose connections and clean the terminals. Refer to the OEM service manual. | Verify repair Repair complete |  |
+>
+> #### STEP 6F. Inspect the wastegate actuator hose.
+>
+> | **Conditions:** Turn engine OFF. Remove turbocharger if wastegate actuator is inaccessible. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the integral wastegate actuator hose for cracks or holes. | Holes or cracks found in the wastegate actuator hose? **YESRepair:** Replace wastegate actuator hose. | Repair complete |
+> | Holes or cracks found in the wastegate actuator hose? **NO** | 6G |  |
+>
+> #### STEP 6G. Inspect the wastegate actuator rod for travel.
+>
+> | **Conditions:** Turn engine OFF. Remove the wastegate actuator hose from the wastegate actuator. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Apply a regulated air supply of 310 kPa \[45 psi\] to the actuator and check for actuator movement. | Wastegate actuator rod move? **YES** | 6H |
+> | Wastegate actuator rod move? **NO** | 6G-1 |  |
+>
+> #### STEP 6G-1. Inspect wastegate actuator rod for travel.
+>
+> | **Conditions:** Turn engine OFF. Remove the e-clip from the wastegate pin and disconnect the actuator rod. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Apply a regulated air supply of 310 kPa \[45 psi\] to the actuator and check for actuator movement. | Wastegate actuator rod move? **YESRepair:** Move the wastegate lever on the turbocharger back and forth and check for smooth operation. Replace the turbocharger assembly if the wastegate is seized. Use the following procedure in the Troubleshooting and Repair Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
+> | Wastegate actuator rod move? **NORepair:** Replace the wastegate actuator. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 010-050 in Section 10. | Repair complete |  |
+>
+> #### STEP 6H. Measure resistance of the four-stage wastegate controllers, if equipped.
+>
+> | **Conditions:** Turn engine OFF. Disconnect the ring terminals from the four-stage wastegate controllers, if equipped. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Measure the resistance from the wastegate controller post to engine block ground. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter\|Refer to Procedure 019-360 in Section 19.]] | Wastegate controller solenoid resistances 6 to 10 ohms for 12-VDC solenoids, 24 to 40 ohms for 24-VDC solenoids? **YES** | 6I |
+> | Wastegate controller solenoid resistances 6 to 10 ohms for 12-VDC solenoids, 24 to 40 ohms for 24-VDC solenoids? **NORepair:** Replace the damaged wastegate controller. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-109-tr — Turbocharger Wastegate Controller\|Refer to Procedure 010-109 in Section 10.]] | Repair complete |  |
+>
+> #### STEP 6I. Inspect four-stage wastegate controller, if equipped.
+>
+> | **Conditions:** Turn engine OFF. Remove the four-stage wastegate controllers. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the valve disc, valve seat, and actuator disc for dirt, metal parts, bonding separation, corrosion, cracks, or wear. | Damage or debris found on the valve disc, valve seat, or actuator disc? **YESRepair:** Replace failed components. Clean dirty components | Repair complete |
+> | Damage or debris found on the valve disc, valve seat, or actuator disc? **NO** | Perform next troubleshooting procedure as outlined in Step 2 |  |
+>
+> ### STEP 7. Check EGR valve for proper operation.
+>
+> #### STEP 7A. Check for air leaks in the EGR system.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for leaks in the EGR connection tubing and connections. Soot streaks can be noticeable where leaks are present. | Air leaks found in the EGR connection tubing? **YESRepair:** Repair any leaks in the EGR system. | Repair complete |
+> | Air leaks found in the EGR connection tubing? **NO** | 7B |  |
+>
+> #### STEP 7B. Check repair history.
+>
+> | **Conditions:** |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check with the customer for a recent EGR valve replacement. | Record of the poppet head missing? **YESRepair:** Remove the exhaust manifold and run a wire through every port to check for the missing poppet head. | 7C |
+> | Record of the poppet head missing? **NO** | 7C |  |
+>
+> #### STEP 7C. Perform the EGR Valve Test.
+>
+> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Perform INSITE™ electronic service tool EGR Valve Test. Prior to performing INSITE™ electronic service tool EGR Valve and EGR Valve/Turbocharger Operational Test, the ECM Calibration Software Phase could possibly need to be updated to the latest software phase. The ECM Calibration Phase Software can be checked in INSITE™ electronic service tool, under 'Features and Parameters'. Expand the selection for 'System ID and Dataplate' and go to 'Calibration Information'. If the software phase is earlier than shown below, recalibrate the ECM using the January 2006 INCAL™ CD-ROM, or later. Engines with the software phase listed below or later do **not** require a recalibration. ISM engines with CM875 (engines built after January 2004) require Software Phase 06050312. This is a warrantable calibration change. Check for complete travel of the EGR valve by selecting Open Valve and verifying the EGR Valve opens 100 percent. | EGR Valve Test pass? **YES** | Perform next troubleshooting procedure as outlined in Step 2. |
+> | EGR Valve Test pass? **NORepair:** Replace the EGR valve. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-011-022-tr — EGR Valve\|Refer to Procedure 011-022 in Section 11.]] | Repair complete |  |
+>
+> ### STEP 8. Verify electronic features are operating correctly.
+>
+> #### STEP 8A. Verify accelerator pedal travel.
+>
+> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Use INSITE™ electronic service tool to monitor percent accelerator while fully depressing and releasing the accelerator pedal. | Percent accelerator read 0 when the accelerator is released and 100 percent when the accelerator is depressed? **YES** | 8B |
+> | Throttle position read 0 when the accelerator is released and 100 percent when the accelerator is depressed? **NORepair:** Determine and correct cause of accelerator pedal restriction. | Repair complete |  |
+>
+> #### STEP 8B. Monitor vehicle speed.
+>
+> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. Start the engine. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Use INSITE™ electronic service tool to monitor vehicle speed while the vehicle is not moving. | Vehicle speed read 0 when the vehicle is **not** moving? **YES** | 8C |
+> | Vehicle speed read 0 when the vehicle is **not** moving? **NORepair:** Check the vehicle speed sensor and circuit or locate the cause of the vehicle speed interference. | Repair complete |  |
+>
+> #### STEP 8C. Verify electronic feature settings are correct.
+>
+> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Use INSITE™ electronic service tool to verify the following adjustable parameters are correctly set: Maximum vehicle speed Powertrain protection Rear axle ratio Number of transmission tailshaft gear teeth Tire revolutions per mile Gear-down protection Cruise control droop settings Cruise control maximum vehicle speed. | Electronic features set correctly? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
+> | Electronic features set correctly? **NORepair:** Correct programmable features. | Repair complete |  |
+>
+> #### STEP 8D. Check barometric pressure sensor reading.
+>
+> | **Conditions:** Connect all components. Connect INSITE electronic service tool. Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for correct barometric pressure sensor reading. Compare the barometric pressure sensor reading on INSITE™ electronic service tool data monitor/logger to the present local barometric pressure. [[99-018-028 — Barometric Pressure at Altitude\|Refer to Procedure 018-028 in Section V.]] | Barometric pressure sensor reading in INSITE™ electronic service tool within 5 percent of the present local barometric pressure reading? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
+> | Barometric pressure sensor reading in INSITE™ electronic service tool within 5 percent of the present local barometric pressure reading? **NORepair:** Replace the barometric pressure sensor. See one of the following procedures: Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, ISM and QSM11 Engines, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]]. Refer to Procedure 019-004 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM870 Electronic Control System, ISM Engines, Bulletin 4021381. Refer to Procedure 019-004 in Section 19. Use the following procedure in the Troubleshooting and Repair Manual, CM875 Electronic Control System, ISM Engines, Bulletin 4021477. Refer to Procedure 019-004 in Section 19. | Repair complete |  |
+>
+> ### STEP 9. Perform base engine mechanical checks.
+>
+> #### STEP 9A. Verify overhead adjustments are correct.
+>
+> | **Conditions:** Turn keyswitch OFF. Remove valve cover. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Measure the overhead settings. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 003-004 in Section 3. | Overhead settings within the reset limits? **YES** | 9B |
+> | Overhead settings within the reset limits? **NORepair:** Adjust the overhead settings. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-003-004-tr — Overhead Set\|Refer to Procedure 003-004 in Section 3.]] | Repair complete |  |
+>
+> #### STEP 9B. Check air intake restriction.
+>
+> | **Conditions:** Turn keyswitch ON. Run engine at advertised horsepower and rpm. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the intake system restriction by installing a manometer gauge into the air intake system. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-031-tr — Air Intake Restriction\|Refer to Procedure 010-031 in Section 10.]] | Air intake restriction greater than 635 mm H 2 O \[25 in H 2 O\]? **YESRepair:** Correct the cause of high intake air restriction. Check for plugged air filter or restricted air intake piping. | Repair complete |
+> | Air intake restriction greater than 635 mm H 2 O \[25 in H 2 O\]? **NO** | 9C |  |
+>
+> #### STEP 9C. Check exhaust restriction.
+>
+> | **Conditions:** Install a pressure gauge into the exhaust system. Turn keyswitch ON. Run engine at advertised horsepower and rpm. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check exhaust restriction by installing a pressure gauge into the exhaust system just past the turbocharger outlet. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[101-011-009-tr — Exhaust Restriction\|Refer to Procedure 011-009 in Section 11.]] | Exhaust restriction within specification listed in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]? **YES** | 9D |
+> | Exhaust restriction within specification listed in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]? **NORepair:** Repair exhaust system for source of high restriction. | Repair complete |  |
+>
+> #### STEP 9D. Inspect the charge air cooler.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Pressure test the charge air cooler. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 010-027 in Section 10. | Pressure drop 34 kPa \[5 psi\] or less in 15 seconds? **YES** | 9E |
+> | Pressure drop 34 kPa \[5 psi\] or less in 15 seconds? **NORepair:** Repair the charge-air cooler. | Repair complete |  |
+>
+> #### STEP 9E. Verify engine brake adjustment.
+>
+> | **Conditions:** Turn keyswitch OFF. Remove valve cover. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Verify the engine brakes are operating correctly. Measure the engine brake settings. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 003-004 in Section 3. | Engine brake settings within the reset limits? **YES** | 9F |
+> | Engine brake settings within the reset limits? **NORepair:** Adjust the engine brake settings. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-020-024-tr — Engine Brake\|Refer to Procedure 020-024 in Section 20.]] | Repair complete |  |
+>
+> #### STEP 9F. Measure turbocharger axial and radial clearance.
+>
+> | **Conditions:** Turn engine OFF. Disconnect exhaust and intake connections from the turbocharger. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Measure the axial and radial clearances of the turbocharger. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Axial and radial clearances within specification? **YES** | 9G |
+> | Axial and radial clearances within specification? **NORepair:** Replace the turbocharger assembly. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |  |
+>
+> #### STEP 9G. Verify engine blowby is within specification.
+>
+> | **Conditions:** Turn keyswitch OFF. Connect the appropriate orifice to the end of the blowby draft tube. Start engine. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Load engine to rated rpm on a chassis dynamometer. Measure the engine blowby. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 014-002 in Section 14. | Engine blowby measurements within specification? **YES** | 9H |
+> | Engine blowby measurements within specification? **NO** | 9G-1 |  |
+>
+> #### STEP 9G-1. Verify turbocharger contribution to engine blowby.
+>
+> **WARNING · Опасно**
 > Do not run the engine for more than one minute. Severe engine damage can occur if the engine is run too long with the turbocharger oil drain line disconnected from the block.
-
-| **Conditions:** Turn keyswitch OFF. Verify oil level is full. Connect the appropriate orifice to the end of the blowby draft tube. Remove turbocharger oil drain line from the block and drain into a bucket. Make sure the turbocharger oil drain port in the block is plugged so no crankcase gases escape. Start engine. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Load engine to rated rpm on a chassis dynamometer. Measure the engine blowby. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 014-002 in Section 14. | Did the total engine blowby drop more than 30 percent? **YESRepair:** Replace the turbocharger assembly. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
-| Did the total engine blowby drop more than 30 percent? **NORepair:** Engine could possibly need to be rebuilt. | Repair complete |  |
-
-#### STEP 9H. Check the static injection timing.
-
-| **Conditions:** Turn keyswitch OFF. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check for the correct static injection timing. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-006-025-tr — Static Injection Timing\|Refer to Procedure 006-025 in Section 6.]] | Is the static injection timing correct? **YES** | Perform the next troubleshooting procedure as outlined in Step 2 |
-| Is the static injection timing correct? **NORepair:** Set the static injection timing to specification. Use the following procedure in the Troubleshooting and Repair Manual, ISM, ISMe and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-006-025-tr — Static Injection Timing\|Refer to Procedure 006-025 in Section 6.]] | Repair complete |  |
-
-### STEP 10. Check the EGR differential pressure sensor and exhaust gas pressure sensor.
-
-#### STEP 10A. Check the EGR differential pressure tubes for cracks, restrictions, or leaks.
-
-| **Conditions:** Turn keyswitch OFF. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the EGR differential pressure tubes for cracks, restrictions, or leaks. Soot streaks can indicate that the line is loose or cracked. | Cracks, restrictions, or leaks present? **YESRepair:** Tighten or replace the EGR differential pressure tubes. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-011-026-tr — EGR Differential Pressure Sensor Tubes\|Refer to Procedure 011-026 in Section 11.]] | Repair complete |
-| Cracks, restrictions, or leaks present? **NO** | Repair complete |  |
-
-#### STEP 10B. Check the exhaust gas pressure tubes for cracks, restrictions, or leaks.
-
-| **Conditions:** Turn keyswitch OFF. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Inspect the exhaust gas pressure tubes for cracks, restrictions, or leaks. Soot streaks can indicate that the line is loose or cracked. | Cracks, restrictions, or leaks present? **YESRepair:** Tighten or replace the exhaust gas pressure tubes. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube\|Refer to Procedure 011-027 in Section 11.]] | Repair complete |
-| Cracks, restrictions, or leaks present? **NO** | Perform the next troubleshooting procedure as outlined in Step 2 |  |
-
-### STEP 11. Check the EGR cooler.
-
-#### STEP 11A. Check the EGR cooler for fouling.
-
-| **Conditions:** Turn fan control switch in OFF position. Turn air conditioning OFF. Connect INSITE™ electronic service tool. Turn keyswitch ON. Make sure coolant temperature is above 79°C \[175°F\]. |  |  |
-|---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| If the effectiveness of the cooler is degraded, the cooler will **not** effectively cool the exhaust gas and will cause the EGR temperature to rise. Before performing INSITE™ electronic service tool EGR Valve and EGR Valve/Turbocharger Operational Test, make sure the ECM Calibration Software Phase is updated to the latest Software Phase. The ECM Calibration Phase Software can be checked in INSITE™ electronic service tool, under "Features and Parameters". Expand the selection for "System ID and Dataplate" and go to "Calibration Information". If the Software Phase is earlier than shown below, calibrate the ECM using the January 2006 INCAL™ CD-ROM, or later. Engines with the Software Phase listed below or later do **not** require a calibration. ISM engines with CM875 (engines built after January 2004) require Software Phase 06050312. This is a warrantable calibration change. Start the engine and set the PTO speed to 1300 rpm. Perform the EGR Valve Test in INSITE™ electronic service tool and command the EGR valve 100 percent open. Start INSITE™ electronic service tool monitor screen and monitor EGR cooler efficiency. Operate the engine at this condition for 4 minutes. After 4 minutes, record the value of EGR cooler efficiency. If the engine fan activates during this test, the test **must** be started over from the beginning. If the EGR cooler efficiency parameter is displayed as "Not Available" in INSITE™ electronic service tool, monitor Exhaust Gas Temperature (Calculated), EGR Temperature, and Engine Coolant Temperature, and record the values after 4 minutes. Use the formula (Exhaust Gas Temperature (Calculated) MINUS EGR Temperature) DIVIDED BY (Exhaust Gas Temperature (Calculated) MINUS Engine Coolant Temperature) MULTIPLED BY 100 to determine EGR cooler efficiency. | EGR cooler efficiency parameter greater than 50 percent after 4 minutes? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
-| EGR cooler efficiency parameter greater than 50 percent after 4 minutes? **NORepair:** Clean or replace the EGR cooler. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-011-019-tr — EGR Cooler\|Refer to Procedure 011-019 in Section 11.]] | Repair complete |  |
+>
+> | **Conditions:** Turn keyswitch OFF. Verify oil level is full. Connect the appropriate orifice to the end of the blowby draft tube. Remove turbocharger oil drain line from the block and drain into a bucket. Make sure the turbocharger oil drain port in the block is plugged so no crankcase gases escape. Start engine. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Load engine to rated rpm on a chassis dynamometer. Measure the engine blowby. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. Refer to Procedure 014-002 in Section 14. | Did the total engine blowby drop more than 30 percent? **YESRepair:** Replace the turbocharger assembly. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete |
+> | Did the total engine blowby drop more than 30 percent? **NORepair:** Engine could possibly need to be rebuilt. | Repair complete |  |
+>
+> #### STEP 9H. Check the static injection timing.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check for the correct static injection timing. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-006-025-tr — Static Injection Timing\|Refer to Procedure 006-025 in Section 6.]] | Is the static injection timing correct? **YES** | Perform the next troubleshooting procedure as outlined in Step 2 |
+> | Is the static injection timing correct? **NORepair:** Set the static injection timing to specification. Use the following procedure in the Troubleshooting and Repair Manual, ISM, ISMe and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-006-025-tr — Static Injection Timing\|Refer to Procedure 006-025 in Section 6.]] | Repair complete |  |
+>
+> ### STEP 10. Check the EGR differential pressure sensor and exhaust gas pressure sensor.
+>
+> #### STEP 10A. Check the EGR differential pressure tubes for cracks, restrictions, or leaks.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the EGR differential pressure tubes for cracks, restrictions, or leaks. Soot streaks can indicate that the line is loose or cracked. | Cracks, restrictions, or leaks present? **YESRepair:** Tighten or replace the EGR differential pressure tubes. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-011-026-tr — EGR Differential Pressure Sensor Tubes\|Refer to Procedure 011-026 in Section 11.]] | Repair complete |
+> | Cracks, restrictions, or leaks present? **NO** | Repair complete |  |
+>
+> #### STEP 10B. Check the exhaust gas pressure tubes for cracks, restrictions, or leaks.
+>
+> | **Conditions:** Turn keyswitch OFF. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Inspect the exhaust gas pressure tubes for cracks, restrictions, or leaks. Soot streaks can indicate that the line is loose or cracked. | Cracks, restrictions, or leaks present? **YESRepair:** Tighten or replace the exhaust gas pressure tubes. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube\|Refer to Procedure 011-027 in Section 11.]] | Repair complete |
+> | Cracks, restrictions, or leaks present? **NO** | Perform the next troubleshooting procedure as outlined in Step 2 |  |
+>
+> ### STEP 11. Check the EGR cooler.
+>
+> #### STEP 11A. Check the EGR cooler for fouling.
+>
+> | **Conditions:** Turn fan control switch in OFF position. Turn air conditioning OFF. Connect INSITE™ electronic service tool. Turn keyswitch ON. Make sure coolant temperature is above 79°C \[175°F\]. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | If the effectiveness of the cooler is degraded, the cooler will **not** effectively cool the exhaust gas and will cause the EGR temperature to rise. Before performing INSITE™ electronic service tool EGR Valve and EGR Valve/Turbocharger Operational Test, make sure the ECM Calibration Software Phase is updated to the latest Software Phase. The ECM Calibration Phase Software can be checked in INSITE™ electronic service tool, under "Features and Parameters". Expand the selection for "System ID and Dataplate" and go to "Calibration Information". If the Software Phase is earlier than shown below, calibrate the ECM using the January 2006 INCAL™ CD-ROM, or later. Engines with the Software Phase listed below or later do **not** require a calibration. ISM engines with CM875 (engines built after January 2004) require Software Phase 06050312. This is a warrantable calibration change. Start the engine and set the PTO speed to 1300 rpm. Perform the EGR Valve Test in INSITE™ electronic service tool and command the EGR valve 100 percent open. Start INSITE™ electronic service tool monitor screen and monitor EGR cooler efficiency. Operate the engine at this condition for 4 minutes. After 4 minutes, record the value of EGR cooler efficiency. If the engine fan activates during this test, the test **must** be started over from the beginning. If the EGR cooler efficiency parameter is displayed as "Not Available" in INSITE™ electronic service tool, monitor Exhaust Gas Temperature (Calculated), EGR Temperature, and Engine Coolant Temperature, and record the values after 4 minutes. Use the formula (Exhaust Gas Temperature (Calculated) MINUS EGR Temperature) DIVIDED BY (Exhaust Gas Temperature (Calculated) MINUS Engine Coolant Temperature) MULTIPLED BY 100 to determine EGR cooler efficiency. | EGR cooler efficiency parameter greater than 50 percent after 4 minutes? **YES** | Perform next troubleshooting procedure as outlined in Step 2 |
+> | EGR cooler efficiency parameter greater than 50 percent after 4 minutes? **NORepair:** Clean or replace the EGR cooler. Use the following procedure in the Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]. [[35-011-019-tr — EGR Cooler\|Refer to Procedure 011-019 in Section 11.]] | Repair complete |  |

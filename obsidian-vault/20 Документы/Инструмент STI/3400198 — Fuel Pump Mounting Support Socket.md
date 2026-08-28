@@ -13,12 +13,14 @@ engines:
 families:
   - "QST30"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400198.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400198.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/QST30"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump Mounting Support Socket
@@ -30,17 +32,40 @@ tags:
 > **Даты:** выпущен 2004-12-03 · изменён 2004-12-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400198.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400198.pdf)
 
-### Description
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Fuel Pump Mounting Support Socket
 
-### Purpose
+### Наименование
 
-This document provides information for fuel pump mounting support socket, Part Number 4918270. The socket is used to hold the driveshaft while removing the retaining nut on the QST30 engine. For additional information, refer to Procedure 009-040 in the Shop Manual, QST30 Series Engine, Bulletin 3666190.
+Головка для крепления опоры топливного насоса
+
+### Назначение
+
+В настоящем документе приводится информация о поддоне для крепления топливного насоса, номер детали 4918270. Разъем используется для удержания вала привода при снятии удерживающего гайка на двигателе QST30. Для получения дополнительной информации обратитесь к процедуре 009-040 в Руководстве по магазинам, двигателе серии QST30, бюллетене 3666190.
 
 ![[22a00154.png]]
 
-| Table 1, Fuel Pump Mounting Support Socket, Part Number 4918270 |  |  |  |
+| Таблица 1, Сокет поддержки установки топливного насоса, номер детали 4918270 |  |  |  |
 |---|---|---|---|
-| Item Number | Part Number | Description | Quantity |
-| 1 | 4918270 | Fuel Pump Mounting Support Socket | 1 |
+| Номер позиции | Номер детали | Наименование | Количество |
+| 1 | 4918270 | Головка для крепления опоры топливного насоса | 1 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Description
+>
+> Fuel Pump Mounting Support Socket
+>
+> ### Purpose
+>
+> This document provides information for fuel pump mounting support socket, Part Number 4918270. The socket is used to hold the driveshaft while removing the retaining nut on the QST30 engine. For additional information, refer to Procedure 009-040 in the Shop Manual, QST30 Series Engine, Bulletin 3666190.
+>
+> | Table 1, Fuel Pump Mounting Support Socket, Part Number 4918270 |  |  |  |
+> |---|---|---|---|
+> | Item Number | Part Number | Description | Quantity |
+> | 1 | 4918270 | Fuel Pump Mounting Support Socket | 1 |

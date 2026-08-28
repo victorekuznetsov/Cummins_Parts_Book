@@ -49,7 +49,8 @@ manuals:
   - "4021538"
   - "4021940"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-008-059.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-008-059.pdf"
 tags:
@@ -64,6 +65,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QST30"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Zinc Anode
@@ -77,64 +79,124 @@ tags:
 > **Даты:** изменён 2013-08-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-008-059.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-008-059.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Shut off the sea water inlet valve on the vessel hull.
+
+### Снятие
+
+Отключите впускной клапан морской воды на корпусе судна.
 
 ![[08600044.png]]
 
-> [!warning] CAUTION · Осторожно
-> In some cases, it will be necessary to hold the welded fitting on the heat exchanger with an additional wrench to prevent damage to the heat exchanger.
+> [!warning] ОСТОРОЖНО
+> В некоторых случаях потребуется удерживать сварную фитингу на теплообменнике дополнительным гаечным ключом, чтобы предотвратить повреждение теплообменника.
 
-Remove the zinc plug(s).
+Удалите цинковую пробку (розетки).
 
-> [!note] Note · Примечание
-> The illustration shown is generic. For engine-specific locations, see to Section E.
+> [!note] Примечание
+> Приведенная иллюстрация является общей. Для конкретных мест расположения двигателя см. Раздел E.
 
 ![[08900258.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Measure the length of the zinc plug(s) removed from the heat exchanger. Replace any zinc plug if it is 50 percent or more eroded.
+Измерьте длину цинковой пробки (винтовых пробок), удаленной из теплообменника. Замените любую цинковую пробку, если она на 50% или более размыта.
 
-> [!note] Note · Примечание
-> The frequency of change depends on the chemical reaction of the sea water circulated through the heat exchanger.
+> [!note] Примечание
+> Частота изменения зависит от химической реакции морской воды, циркулирующей через теплообменник.
 
 ![[hx4pxna.png]]
 
-| Zinc Plug Erosion Limits |  |  |  |  |
+| Пределы эрозии цинковых плугов |  |  |  |  |
 |---|---|---|---|---|
-|  | mm |  | in |  |
-| A | 19.0 | MIN | 0.750 |  |
-| New |  | 51.0 | MAX | 2.000 |
-| B | 6.4 | MIN | 0.250 |  |
-| New |  | 16.0 | MAX | 0.630 |
+|  | мм |  | в |  |
+| А. | 19.0 | Мин | 0.750 |  |
+| Новый |  | 51.0 | Макс | 2.000 |
+| B | 6.4 | Мин | 0.250 |  |
+| Новый |  | 16.0 | Макс | 0.630 |
 
-> [!note] Note · Примечание
-> If any zinc plug does **not** meet specification, replace it with a new zinc plug.
+> [!note] Примечание
+> Если какая-либо цинковая пробка соответствует спецификации **не**, замените ее новой цинковой пробкой.
 
 ![[hx4pxna.png]]
 
-### Install
+### Установка
 
-Install and tighten the zinc plug(s).
+Установите и затяните цинковую пробку (заглушки).
 
-> [!note] Note · Примечание
-> Do **not** use Teflon™ tape or pipe sealant on the threads of the sacrificial zinc plugs. Use of any type of sealant will insulate the zinc anode and prevent a good ground.
+> [!note] Примечание
+> **не** Используйте ленту TeflonTM или герметик трубы на резьбе жертвенных цинковых пробок. Использование любого типа герметика изолирует цинковый анод и предотвращает хорошую почву.
 
-> [!tip] Момент затяжки · Torque Value
-> 1/4-inch Plug 12 n•m [106 in-lb]
+> [!tip] Момент затяжки
+> 1/4-дюймовый Plug 12 Н·м [106 фунт-дюйм]
 
-> [!tip] Момент затяжки · Torque Value
-> 3/8-inch Plug 22 n•m [195 in-lb]
+> [!tip] Момент затяжки
+> 3/8-дюймовый Plug 22 Н·м [195 фунт-дюйм]
 
-> [!tip] Момент затяжки · Torque Value
-> 1/2-inch Plug 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 1/2-дюймовый Plug 30 Н·м [22 фут-лб]
 
 ![[08900258.png]]
 
-Open the sea water valve on the vessel hull.
+Откройте клапан морской воды на корпусе судна.
 
-Operate the engine and check for leaks.
+Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[17600022.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Shut off the sea water inlet valve on the vessel hull.
+>
+> **CAUTION · Осторожно**
+> In some cases, it will be necessary to hold the welded fitting on the heat exchanger with an additional wrench to prevent damage to the heat exchanger.
+>
+> Remove the zinc plug(s).
+>
+> **Note · Примечание**
+> The illustration shown is generic. For engine-specific locations, see to Section E.
+>
+> ### Inspect for Reuse
+>
+> Measure the length of the zinc plug(s) removed from the heat exchanger. Replace any zinc plug if it is 50 percent or more eroded.
+>
+> **Note · Примечание**
+> The frequency of change depends on the chemical reaction of the sea water circulated through the heat exchanger.
+>
+> | Zinc Plug Erosion Limits |  |  |  |  |
+> |---|---|---|---|---|
+> |  | mm |  | in |  |
+> | A | 19.0 | MIN | 0.750 |  |
+> | New |  | 51.0 | MAX | 2.000 |
+> | B | 6.4 | MIN | 0.250 |  |
+> | New |  | 16.0 | MAX | 0.630 |
+>
+> **Note · Примечание**
+> If any zinc plug does **not** meet specification, replace it with a new zinc plug.
+>
+> ### Install
+>
+> Install and tighten the zinc plug(s).
+>
+> **Note · Примечание**
+> Do **not** use Teflon™ tape or pipe sealant on the threads of the sacrificial zinc plugs. Use of any type of sealant will insulate the zinc anode and prevent a good ground.
+>
+> **Момент затяжки · Torque Value**
+> 1/4-inch Plug 12 n•m [106 in-lb]
+>
+> **Момент затяжки · Torque Value**
+> 3/8-inch Plug 22 n•m [195 in-lb]
+>
+> **Момент затяжки · Torque Value**
+> 1/2-inch Plug 30 n•m [22 ft-lb]
+>
+> Open the sea water valve on the vessel hull.
+>
+> Operate the engine and check for leaks.

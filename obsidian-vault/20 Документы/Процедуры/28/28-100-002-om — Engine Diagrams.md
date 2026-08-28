@@ -14,13 +14,15 @@ families:
 manuals:
   - "3810497"
 figures: 64
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-100-002-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-100-002-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Engine Diagrams
@@ -34,1254 +36,2388 @@ tags:
 > **Даты:** изменён 2014-04-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-100-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-100-002-om.pdf)
 
-### Engine Views
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Industrial Applications
 
-The illustrations show the locations of the major external engine components, and filters, along with service and maintenance points. Some external components will be at different locations for different engine models.
+### Двигатель Views
+
+Промышленное применение
+
+На иллюстрациях показаны расположение основных внешних компонентов двигателя и фильтров, а также точки обслуживания и обслуживания. Некоторые внешние компоненты будут находиться в разных местах для различных моделей двигателей.
 
 ![[00600374.png]]
 
-Front View - KT38
+Вид спереди - KT38
 
-1. Left-bank water outlet
-2. Left-bank thermostat housing
-3. Coolant filter head
-4. Coolant filters
-5. Fan pulley
-6. Front gear cover
-7. Accessory drive pulley
-8. Direction of rotation
-9. Crankshaft pulley
-10. Vibration damper
-11. Alternator drive pulley
-12. Fan idler pulley
-13. Fan hub
-14. Rocker lever cover
-15. Air crossover
-16. Right-bank thermostat housing
-17. Right-bank water outlet.
+1. Левобережная водоотводная розетка
+2. Левобережный термостат
+3. Головка фильтра охлаждающей жидкости
+4. Фильтры охлаждения
+5. Шкив вентилятора
+6. Передняя крышка шестерён
+7. Шкив привода вспомогательного оборудования
+8. Направление вращения
+9. Шкив коленчатого вала
+10. Гаситель крутильных колебаний
+11. Шкив привода генератора
+12. Фан Эйдлер шкив
+13. Ступица вентилятора
+14. Крышка коромысел
+15. Перепускной воздушный канал
+16. Правобережная термостатная гильза
+17. Правобережная водоотводная.
 
 ![[ew600gb.png]]
 
-Left View - KT38
+Слева - KT38
 
-1. Turbocharger
-2. Thermostat housing support
-3. Thermostat housing
-4. Fan hub support
-5. Front gear cover
-6. Front gear housing
-7. Dataplate
-8. Air compressor drive
-9. Air compressor
-10. Fuel pump
-11. Fuel filter head
-12. Fuel filter
-13. Full-flow lubricating oil filter
-14. Crankcase breather
-15. Oil level gauge
-16. Oil fill port
-17. Lubricating oil filter head
-18. Flywheel housing
-19. Cam follower cover
-20. Intake manifold
-21. Lifting bracket
-22. Exhaust manifold
-23. Air transfer housing.
+1. Турбокомпрессор
+2. Опора корпуса термостата
+3. Корпус термостата
+4. Поддержка Fan Hub
+5. Передняя крышка шестерён
+6. Передний картер шестерён
+7. Шильдик (табличка данных)
+8. Привод воздушного компрессора
+9. Воздушный компрессор
+10. Топливный насос
+11. Головка топливного фильтра
+12. Топливный фильтр
+13. Фильтр для моторного масла полного потока
+14. Сапун картера
+15. Маслоизмерительный щуп
+16. Нефтезаливной порт
+17. Головка масляного фильтра
+18. Картер маховика
+19. Крышка толкателей
+20. Впускной коллектор
+21. Подъёмный кронштейн
+22. Выпускной коллектор
+23. Корпус для пересадки воздуха.
 
 ![[00600373.png]]
 
-Rear View - KT38
+Задний вид - KT38
 
-1. Oil cooler cover
-2. Cylinder block
-3. Air transfer housing
-4. Right-bank exhaust manifold
-5. Water outlet passage
-6. Air crossover
-7. Rocker lever cover
-8. Rocker lever housing
-9. Fuel manifold
-10. Cylinder head
-11. Flywheel
-12. Oil pan adapter
-13. Oil pan
-14. Flywheel housing
-15. Left-bank exhaust manifold
-16. Turbocharger.
+1. Охлаждение масляной крышки
+2. Блок цилиндров
+3. Корпус для воздушных перевозок
+4. Правобережный выпускной коллектор
+5. Проход через водоотвод
+6. Перепускной воздушный канал
+7. Крышка коромысел
+8. Корпус коромысел
+9. Топливная магистраль
+10. Головка блока цилиндров
+11. Маховик
+12. Переходник масляного поддона
+13. Масляный поддон
+14. Картер маховика
+15. Левобережный выхлопной коллектор
+16. Турбокомпрессор.
 
 ![[ew600ga.png]]
 
-Right View - KT38
+Вид справа - KT38
 
-1. Air transfer housing
-2. Turbocharger
-3. Air crossover connection
-4. Rocker lever cover
-5. Lifting bracket
-6. Air intake connection
-7. Intake manifold
-8. Cam follower cover
-9. Flywheel housing
-10. Hand hole cover
-11. Oil pan adapter
-12. Plate, oil pan adapter
-13. Oil pan
-14. Water inlet connection
-15. Water pump
-16. Water pump drive
-17. Water bypass tube
-18. Fan belt idler pulley
-19. Crankcase breather
-20. Fan belt idler assembly
-21. Thermostat housing
-22. Water outlet connection.
+1. Корпус для воздушных перевозок
+2. Турбокомпрессор
+3. Перепускной воздушный патрубок
+4. Крышка коромысел
+5. Подъёмный кронштейн
+6. Патрубок впуска воздуха
+7. Впускной коллектор
+8. Крышка толкателей
+9. Картер маховика
+10. Крышка смотрового люка
+11. Переходник масляного поддона
+12. Пластина, адаптер масляной подкладки
+13. Масляный поддон
+14. Патрубок подвода воды
+15. Водяной насос
+16. Привод водяного насоса
+17. Перепускная водяная трубка
+18. Пояс для вентиляторов Idler pulley
+19. Сапун картера
+20. Сборка ленточного ленточного движка
+21. Корпус термостата
+22. Патрубок отвода воды.
 
 ![[ew600gc.png]]
 
-Top View - KT38
+Вид сверху - KT38
 
-1. Alternator
-2. Right-bank water outlet
-3. Right-bank thermostat housing
-4. Fan hub bracket
-5. Fan hub shaft
-6. Thermostat housing support
-7. Left-bank thermostat housing
-8. Left-bank water outlet
-9. Turbocharger
-10. Left-bank exhaust manifold
-11. Rocker lever cover
-12. Air transfer housing
-13. Intake manifold
-14. Water transfer tube
-15. Right-bank exhaust manifold
-16. Flywheel housing
-17. Rocker lever housing
-18. Air crossover.
+1. Генератор
+2. Правобережная розетка для воды
+3. Правобережная термостатная гильза
+4. Кронштейн ступицы вентилятора
+5. Вал ступицы вентилятора
+6. Опора корпуса термостата
+7. Левобережный термостат
+8. Левобережная водоотводная розетка
+9. Турбокомпрессор
+10. Левобережный выхлопной коллектор
+11. Крышка коромысел
+12. Корпус для воздушных перевозок
+13. Впускной коллектор
+14. Перепускная водяная трубка
+15. Правобережный выпускной коллектор
+16. Картер маховика
+17. Корпус коромысел
+18. Перепускной воздушный канал.
 
 ![[00600376.png]]
 
-Front View - KTA38 with Center Mount Aftercooler
+Фронтальный вид - KTA38 с центральным охладителем горы
 
-1. Aftercooler water outlet
-2. Left-bank water outlet
-3. Left-bank thermostat housing
-4. Coolant filter head
-5. Coolant filters
-6. Fan pulley
-7. Front gear cover
-8. Accessory drive pulley
-9. Direction of rotation
-10. Vibration damper
-11. Crankshaft pulley
-12. Alternator drive pulley
-13. Fan idler pulley
-14. Fan hub
-15. Rocker lever cover
-16. Air crossover
-17. Right-bank thermostat housing
-18. Right-bank water outlet.
+1. Послеохлаждение водопроводной трубы
+2. Левобережная водоотводная розетка
+3. Левобережный термостат
+4. Головка фильтра охлаждающей жидкости
+5. Фильтры охлаждения
+6. Шкив вентилятора
+7. Передняя крышка шестерён
+8. Шкив привода вспомогательного оборудования
+9. Направление вращения
+10. Гаситель крутильных колебаний
+11. Шкив коленчатого вала
+12. Шкив привода генератора
+13. Фан Эйдлер шкив
+14. Ступица вентилятора
+15. Крышка коромысел
+16. Перепускной воздушный канал
+17. Правобережная термостатная гильза
+18. Правобережная водоотводная.
 
 ![[ew600gf.png]]
 
-Left View - KTA38 with Center Mount Aftercooler
+Слева - KTA38 с центральным охладителем горы
 
-1. Turbocharger
-2. Aftercooler water outlet
-3. Aftercooler water inlet
-4. Thermostat housing support
-5. Thermostat housing
-6. Fan hub support
-7. Front gear cover
-8. Gear housing
-9. Dataplate
-10. Air compressor drive
-11. Air compressor
-12. Fuel pump
-13. Fuel filter head
-14. Fuel filter
-15. Full-flow lubricating oil filter
-16. Crankcase breather
-17. Oil level gauge
-18. Oil fill port
-19. Lubricating oil filter head
-20. Flywheel housing
-21. Cam follower cover
-22. Intake manifold
-23. Lifting bracket
-24. Exhaust manifold
-25. Aftercooler assembly.
+1. Турбокомпрессор
+2. Послеохлаждение водопроводной трубы
+3. Послеохлаждение впускной воды
+4. Опора корпуса термостата
+5. Корпус термостата
+6. Поддержка Fan Hub
+7. Передняя крышка шестерён
+8. Картер шестерён
+9. Шильдик (табличка данных)
+10. Привод воздушного компрессора
+11. Воздушный компрессор
+12. Топливный насос
+13. Головка топливного фильтра
+14. Топливный фильтр
+15. Фильтр для моторного масла полного потока
+16. Сапун картера
+17. Маслоизмерительный щуп
+18. Нефтезаливной порт
+19. Головка масляного фильтра
+20. Картер маховика
+21. Крышка толкателей
+22. Впускной коллектор
+23. Подъёмный кронштейн
+24. Выпускной коллектор
+25. Охладитель наддувочного воздуха в сборе.
 
 ![[00600375.png]]
 
-Rear View - KTA38 with Center Mount Aftercooler
+Задний вид - KTA38 с центральным охладителем горы
 
-1. Oil Cooler Plate
-2. Aftercooler water inlet tube
-3. Aftercooler assembly
-4. Right-bank exhaust manifold
-5. Water outlet passage
-6. Air crossover
-7. Rocker lever cover
-8. Rocker lever housing
-9. Fuel manifold
-10. Cylinder head
-11. Flexplate
-12. Flywheel housing
-13. Oil pan adapter
-14. Oil pan
-15. Cylinder block
-16. Left-bank exhaust manifold
-17. Turbocharger.
+1. Пластина для охлаждения нефти
+2. Послеохлаждение впускной трубки для воды
+3. Охладитель наддувочного воздуха в сборе
+4. Правобережный выпускной коллектор
+5. Проход через водоотвод
+6. Перепускной воздушный канал
+7. Крышка коромысел
+8. Корпус коромысел
+9. Топливная магистраль
+10. Головка блока цилиндров
+11. Гибкий диск (флексплейт)
+12. Картер маховика
+13. Переходник масляного поддона
+14. Масляный поддон
+15. Блок цилиндров
+16. Левобережный выхлопной коллектор
+17. Турбокомпрессор.
 
 ![[ew600ge.png]]
 
-Right View - KTA38 with Center Mount Aftercooler
+Вид справа - KTA38 с центральным охладителем горы
 
-1. Aftercooler assembly
-2. Turbocharger
-3. Air crossover connection
-4. Rocker lever cover
-5. Lifting bracket
-6. Air intake connection
-7. Intake manifold
-8. Cam follower cover
-9. Flywheel housing
-10. Hand hole cover
-11. Oil pan adapter
-12. Oil pan adapter cover
-13. Oil pan
-14. Water inlet connection
-15. Water pump
-16. Water pump drive
-17. Water bypass tube
-18. Fan belt idler pulley
-19. Crankcase breather
-20. Fan belt idler assembly
-21. Thermostat housing
-22. Water outlet connection
-23. Aftercooler water inlet tube
-24. Aftercooler water outlet tube.
+1. Охладитель наддувочного воздуха в сборе
+2. Турбокомпрессор
+3. Перепускной воздушный патрубок
+4. Крышка коромысел
+5. Подъёмный кронштейн
+6. Патрубок впуска воздуха
+7. Впускной коллектор
+8. Крышка толкателей
+9. Картер маховика
+10. Крышка смотрового люка
+11. Переходник масляного поддона
+12. Крышка переходника масляного поддона
+13. Масляный поддон
+14. Патрубок подвода воды
+15. Водяной насос
+16. Привод водяного насоса
+17. Перепускная водяная трубка
+18. Пояс для вентиляторов Idler pulley
+19. Сапун картера
+20. Сборка ленточного ленточного движка
+21. Корпус термостата
+22. Патрубок отвода воды
+23. Послеохлаждение впускной трубки для воды
+24. Послеохлажденная водоотводная трубка.
 
 ![[ew600gg.png]]
 
-Top View - KTA38 with Center Mount Aftercooler
+Вид сверху - KTA38 с центральным охладителем горы
 
-1. Aftercooler assembly
-2. Aftercooler water outlet tube
-3. Alternator
-4. Right-bank water outlet
-5. Right-bank thermostat housing
-6. Fan hub support
-7. Fan hub shaft
-8. Thermostat housing support
-9. Left-bank thermostat housing
-10. Left-bank water outlet
-11. Turbocharger
-12. Left-bank exhaust manifold
-13. Rocker lever cover
-14. Intake manifold
-15. Water tube
-16. Right-bank exhaust manifold
-17. Oil cooler plate
-18. Rear gear housing
-19. Flywheel housing
-20. Rocker lever housing
-21. Air crossover
-22. Air intake connection.
+1. Охладитель наддувочного воздуха в сборе
+2. Послеохлаждение водоотводной трубы
+3. Генератор
+4. Правобережная розетка для воды
+5. Правобережная термостатная гильза
+6. Поддержка Fan Hub
+7. Вал ступицы вентилятора
+8. Опора корпуса термостата
+9. Левобережный термостат
+10. Левобережная водоотводная розетка
+11. Турбокомпрессор
+12. Левобережный выхлопной коллектор
+13. Крышка коромысел
+14. Впускной коллектор
+15. Водяной тюбик
+16. Правобережный выпускной коллектор
+17. Тарелка для охлаждения масла
+18. Задняя шестерня
+19. Картер маховика
+20. Корпус коромысел
+21. Перепускной воздушный канал
+22. Патрубок впуска воздуха.
 
 ![[00600378.png]]
 
-Front View - KTTA38
+Вид спереди - KTTA38
 
-1. Low stage turbocharger
-2. High stage turbocharger
-3. Left-bank water outlet
-4. Left-bank thermostat housing
-5. Coolant filter head
-6. Coolant filter
-7. STC oil manifold
-8. Fuel manifold
-9. Front gear cover
-10. Accessory drive pulley
-11. Direction of rotation
-12. Crankshaft pulley
-13. Vibration damper
-14. Alternator drive pulley
-15. Fan idler pulley
-16. Fan pulley
-17. Fan hub
-18. Right-bank thermostat housing
-19. Right-bank water outlet.
+1. турбокомпрессор низкой ступени
+2. Турбокомпрессор высокой ступени
+3. Левобережная водоотводная розетка
+4. Левобережный термостат
+5. Головка фильтра охлаждающей жидкости
+6. Фильтр охлаждающей жидкости
+7. Масляный коллектор STC
+8. Топливная магистраль
+9. Передняя крышка шестерён
+10. Шкив привода вспомогательного оборудования
+11. Направление вращения
+12. Шкив коленчатого вала
+13. Гаситель крутильных колебаний
+14. Шкив привода генератора
+15. Фан Эйдлер шкив
+16. Шкив вентилятора
+17. Ступица вентилятора
+18. Правобережная термостатная гильза
+19. Правобережная водоотводная.
 
 ![[ew600gj.png]]
 
-Left View - KTTA38
+Слева - KTTA38
 
-1. High stage turbocharger
-2. Low stage turbocharger
-3. Air crossover connection
-4. Exhaust outlet pipe
-5. Turbocharger support
-6. Left-bank water outlet
-7. Thermostat housing support
-8. Left-bank thermostat housing
-9. Aftercooler water outlet tube
-10. Aftercooler assembly
-11. Aftercooler water inlet tube
-12. Cam follower cover
-13. Dataplate
-14. Front gear cover
-15. Air compressor drive
-16. Air compressor
-17. Front cover
-18. Fuel pump
-19. Fuel filter head
-20. Fuel filter
-21. Oil pan adapter
-22. Full-flow lubricating oil filter
-23. Crankcase breather
-24. Oil level gauge
-25. Lubricating oil filter head
-26. Oil fill port
-27. Flywheel housing
-28. Rocker lever cover.
+1. Турбокомпрессор высокой ступени
+2. турбокомпрессор низкой ступени
+3. Перепускной воздушный патрубок
+4. Выпускная труба
+5. Опора турбокомпрессора
+6. Левобережная водоотводная розетка
+7. Опора корпуса термостата
+8. Левобережный термостат
+9. Послеохлаждение водоотводной трубы
+10. Охладитель наддувочного воздуха в сборе
+11. Послеохлаждение впускной трубки для воды
+12. Крышка толкателей
+13. Шильдик (табличка данных)
+14. Передняя крышка шестерён
+15. Привод воздушного компрессора
+16. Воздушный компрессор
+17. Передняя крышка
+18. Топливный насос
+19. Головка топливного фильтра
+20. Топливный фильтр
+21. Переходник масляного поддона
+22. Фильтр для моторного масла полного потока
+23. Сапун картера
+24. Маслоизмерительный щуп
+25. Головка масляного фильтра
+26. Нефтезаливной порт
+27. Картер маховика
+28. Крышка коромысел.
 
 ![[00600377.png]]
 
-Rear View - KTTA38
+Задний вид - KTTA38
 
-1. Low stage turbocharger
-2. Cylinder block
-3. High stage turbocharger
-4. Exhaust manifold
-5. Turbocharger support
-6. Rocker lever housing cover
-7. Rocker lever housing
-8. Cylinder head
-9. STC oil manifold
-10. Fuel manifold
-11. Flexplate
-12. Oil pan
-13. Oil pan adapter
-14. Flywheel housing.
+1. турбокомпрессор низкой ступени
+2. Блок цилиндров
+3. Турбокомпрессор высокой ступени
+4. Выпускной коллектор
+5. Опора турбокомпрессора
+6. клапанный клапан каскадная крышка
+7. Корпус коромысел
+8. Головка блока цилиндров
+9. Масляный коллектор STC
+10. Топливная магистраль
+11. Гибкий диск (флексплейт)
+12. Масляный поддон
+13. Переходник масляного поддона
+14. Картер маховика.
 
 ![[ew600gi.png]]
 
-Right View - KTTA38
+Правое витрино - KTTA38
 
-1. High stage turbocharger
-2. Low stage turbocharger
-3. Air crossover connection
-4. Exhaust outlet pipe
-5. Turbocharger support
-6. Rocker lever cover
-7. Aftercooler water outlet tube
-8. Aftercooler assembly
-9. Aftercooler water inlet tube
-10. Cam follower cover
-11. Flywheel housing
-12. Hand hole cover
-13. Oil pan adapter
-14. Oil pan cover plate
-15. Oil pan
-16. Water inlet connection
-17. Crankcase breather
-18. Water pump
-19. Water bypass tube
-20. Water pump drive
-21. Fan belt idler pulley
-22. Fan belt idler arm assembly
-23. Right-bank thermostat housing
-24. Right-bank water outlet.
+1. Турбокомпрессор высокой ступени
+2. турбокомпрессор низкой ступени
+3. Перепускной воздушный патрубок
+4. Выпускная труба
+5. Опора турбокомпрессора
+6. Крышка коромысел
+7. Послеохлаждение водоотводной трубы
+8. Охладитель наддувочного воздуха в сборе
+9. Послеохлаждение впускной трубки для воды
+10. Крышка толкателей
+11. Картер маховика
+12. Крышка смотрового люка
+13. Переходник масляного поддона
+14. Тарелка для покрытия масляной подошвы
+15. Масляный поддон
+16. Патрубок подвода воды
+17. Сапун картера
+18. Водяной насос
+19. Перепускная водяная трубка
+20. Привод водяного насоса
+21. Пояс для вентиляторов Idler pulley
+22. Сборка рук бездельника
+23. Правобережная термостатная гильза
+24. Правобережная водоотводная.
 
 ![[ew600gk.png]]
 
-Top View - KTTA38
+Вид сверху - KTTA38
 
-1. Air crossover connection
-2. High stage turbocharger
-3. Air connection
-4. Aftercooler assembly
-5. Water transfer tube
-6. Lifting bracket
-7. Rocker lever cover
-8. Low stage turbocharger
-9. Aftercooler water outlet tube
-10. Right-bank thermostat housing
-11. Right-bank water outlet
-12. Thermostat housing support
-13. Fan hub support
-14. Fan hub shaft
-15. Left-bank thermostat housing
-16. Left-bank water outlet
-17. Turbocharger support
-18. Exhaust outlet pipe
-19. Flywheel housing
-20. Rocker lever housing.
+1. Перепускной воздушный патрубок
+2. Турбокомпрессор высокой ступени
+3. Воздушное соединение
+4. Охладитель наддувочного воздуха в сборе
+5. Перепускная водяная трубка
+6. Подъёмный кронштейн
+7. Крышка коромысел
+8. турбокомпрессор низкой ступени
+9. Послеохлаждение водоотводной трубы
+10. Правобережная термостатная гильза
+11. Правобережная розетка для воды
+12. Опора корпуса термостата
+13. Поддержка Fan Hub
+14. Вал ступицы вентилятора
+15. Левобережный термостат
+16. Левобережная водоотводная розетка
+17. Опора турбокомпрессора
+18. Выпускная труба
+19. Картер маховика
+20. Корпус коромысел.
 
 ![[00600380.png]]
 
-Front View - KTA38 with Outboard Aftercoolers
+Фронтальный вид - KTA38 с подвесными охладителями
 
-1. Turbochargers
-2. Left-bank water outlet
-3. Left-bank thermostat housing
-4. Coolant filter head
-5. Coolant filters
-6. Fan pilot
-7. Front gear cover
-8. Accessory drive pulley
-9. Direction of rotation
-10. Crankshaft pulley
-11. Vibration damper
-12. Alternator drive pulley
-13. Fan idler pulley
-14. Fan hub
-15. Right-bank thermostat housing
-16. Right-bank water outlet.
+1. Турбокомпрессоры
+2. Левобережная водоотводная розетка
+3. Левобережный термостат
+4. Головка фильтра охлаждающей жидкости
+5. Фильтры охлаждения
+6. Пилот-фанат
+7. Передняя крышка шестерён
+8. Шкив привода вспомогательного оборудования
+9. Направление вращения
+10. Шкив коленчатого вала
+11. Гаситель крутильных колебаний
+12. Шкив привода генератора
+13. Фан Эйдлер шкив
+14. Ступица вентилятора
+15. Правобережная термостатная гильза
+16. Правобережная водоотводная.
 
 ![[ew600gn.png]]
 
-Left View - KTA38 with Outboard Aftercoolers
+Слева - KTA38 с Outboard Aftercoolers
 
-1. Turbochargers
-2. Air connection
-3. Air crossover connection
-4. Aftercooler assembly
-5. Rocker lever cover
-6. Aftercooler water outlet tube
-7. Left-bank water outlet
-8. Thermostat housing support
-9. Thermostat housing
-10. Aftercooler water inlet tube
-11. Cam follower cover
-12. Front gear housing
-13. Front gear cover
-14. Air compressor drive
-15. Air compressor
-16. Dataplate
-17. Fuel pump
-18. Fuel filter head
-19. Fuel filter
-20. Full-flow lubricating oil filter
-21. Crankcase breather
-22. Oil level gauge
-23. Lubricating oil filter head
-24. Oil filler port
-25. Flywheel housing.
+1. Турбокомпрессоры
+2. Воздушное соединение
+3. Перепускной воздушный патрубок
+4. Охладитель наддувочного воздуха в сборе
+5. Крышка коромысел
+6. Послеохлаждение водоотводной трубы
+7. Левобережная водоотводная розетка
+8. Опора корпуса термостата
+9. Корпус термостата
+10. Послеохлаждение впускной трубки для воды
+11. Крышка толкателей
+12. Передний картер шестерён
+13. Передняя крышка шестерён
+14. Привод воздушного компрессора
+15. Воздушный компрессор
+16. Шильдик (табличка данных)
+17. Топливный насос
+18. Головка топливного фильтра
+19. Топливный фильтр
+20. Фильтр для моторного масла полного потока
+21. Сапун картера
+22. Маслоизмерительный щуп
+23. Головка масляного фильтра
+24. Порт для заправки масла
+25. Картер маховика.
 
 ![[00600379.png]]
 
-Rear View - KTA38 with Outboard Aftercoolers
+Задний обзор - KTA38 с подвесными охладителями
 
-1. Oil cooler cover plate
-2. Cylinder block
-3. Turbocharger
-4. Exhaust manifold
-5. Air crossover connection
-6. Rocker lever cover
-7. Rocker lever housing
-8. STC (HVT manifold)
-9. Fuel manifold
-10. Cylinder head
-11. Flexplate
-12. Flywheel housing
-13. Oil pan
-14. Oil pan adapter.
+1. Масляная охлаждающая пластина
+2. Блок цилиндров
+3. Турбокомпрессор
+4. Выпускной коллектор
+5. Перепускной воздушный патрубок
+6. Крышка коромысел
+7. Корпус коромысел
+8. STC (HVT Manifold)
+9. Топливная магистраль
+10. Головка блока цилиндров
+11. Гибкий диск (флексплейт)
+12. Картер маховика
+13. Масляный поддон
+14. Переходник масляного поддона.
 
 ![[ew600go.png]]
 
-Top View - KTA38 with Outboard Aftercoolers
+Главная » Новости » KTA38 с Outboard Aftercoolers
 
-1. Turbocharger
-2. Air crossover connection
-3. Aftercooler assembly
-4. Water tubes
-5. Exhaust manifolds
-6. Rocker lever cover
-7. Aftercooler water outlet tube
-8. Right-bank thermostat housing
-9. Right-bank water outlet
-10. Thermostat housing support
-11. Fan hub support
-12. Fan hub shaft
-13. Left-bank thermostat housing
-14. Left-bank water outlet
-15. Flywheel housing
-16. Oil cooler cover plate.
+1. Турбокомпрессор
+2. Перепускной воздушный патрубок
+3. Охладитель наддувочного воздуха в сборе
+4. Водяные трубки
+5. Многообразие выхлопных газов
+6. Крышка коромысел
+7. Послеохлаждение водоотводной трубы
+8. Правобережная термостатная гильза
+9. Правобережная розетка для воды
+10. Опора корпуса термостата
+11. Поддержка Fan Hub
+12. Вал ступицы вентилятора
+13. Левобережный термостат
+14. Левобережная водоотводная розетка
+15. Картер маховика
+16. Тарелка с масляным охладитель.
 
 ![[00600382.png]]
 
-QSK38 Industrial - Front View Sensor Location
+QSK38 Industrial - передний вид датчика
 
-1. Engine coolant temperature sensor
-2. Camshaft position sensor
-3. Lubricating oil temperature sensor.
+1. Датчик температуры охлаждающей жидкости
+2. Датчик положения распределительного вала
+3. Датчик температуры моторного масла.
 
 ![[00600385.png]]
 
-QSK38 Industrial - Left View Sensor Location
+QSK38 Industrial - Сенсор левого обзора
 
-1. Intake manifold temperature sensor (left bank front)
-2. Turbocharger speed sensor
-3. Ambient air pressure sensor
-4. Pre-oil rifle pressure sensor
-5. Oil rifle pressure sensor
-6. ECM 2 (source address 00)
-7. Fuel supply temperature sensor
-8. Fuel supply pressure sensor
-9. ECM 1 (source address 01)
-10. Fuel accumulator pressure sensor
-11. Intake manifold pressure sensor
-12. Camshaft position sensor
+1. Датчик температуры коллектора (левый берег)
+2. Датчик частоты вращения турбокомпрессора
+3. Датчик атмосферного давления
+4. Датчик давления преднефтяной винтовки
+5. Датчик давления винтовки
+6. ECM 2 (адрес источника 00)
+7. Датчик температуры подачи топлива
+8. Датчик давления подачи топлива
+9. ECM 1 (адрес источника 01)
+10. Датчик давления аккумулятора топлива
+11. Датчик давления во впускном коллекторе
+12. Датчик положения распределительного вала
 
-> [!note] Note · Примечание
-> The lubricating oil filter head can be left bank or right bank mounted.
+> [!note] Примечание
+> Головка фильтра моторного масла может быть установлена в левом или правом берегу.
 
 ![[00600384.png]]
 
-QSK38 Industrial - Rear View Sensor Location
+QSK38 Industrial - расположение датчика заднего вида
 
-1. Engine speed sensor (behind flywheel housing).
+1. Датчик скорости двигателя (за обшивкой маховика).
 
 ![[00600383.png]]
 
-QSK38 Industrial - Right View Sensor Location
+QSK38 Industrial - Правое расположение датчика
 
-1. Intake manifold temperature sensor (right bank rear)
-2. Crankcase pressure sensor
-3. Coolant pressure sensor
-4. Lubricating oil temperature sensor (lubricating oil pan)
-5. Intake manifold pressure sensor.
+1. Датчик температуры коллектора впуска (сзади справа)
+2. Датчик давления в чемоданчике
+3. Датчик давления охлаждающей жидкости
+4. Датчик температуры моторного масла (масляный поддон)
+5. Датчик давления во впускном коллекторе.
 
 ![[00600386.png]]
 
-QSK38 Industrial - Top View Sensor Location
+QSK38 Industrial - место расположения датчика Top View
 
-1. Turbocharger speed sensor
-2. Engine speed sensor
-3. Injector solenoid (one per cylinder on top of rocker cover)
-4. Coolant temperature sensor.
+1. Датчик частоты вращения турбокомпрессора
+2. Датчик скорости двигателя
+3. форсунка соленоид (один на цилиндр поверх крышки качели)
+4. Датчик температуры охлаждающей жидкости.
 
 ![[00600391.png]]
 
-QSK38 Marine with Heat Exchanger - Front View Sensor Location
+QSK38 Marine с теплообменником - расположение датчика передней обзорной панели
 
-1. Coolant level sensor (top tank or OEM fitting)
-2. Coolant sight glass
-3. Camshaft position sensor.
+1. Датчик уровня охлаждающей жидкости (верхний бак или OEM-подгонка)
+2. Охлаждающее прицельное стекло
+3. Датчик положения распределительного вала.
 
 ![[00600394.png]]
 
-QSK38 Marine with Heat Exchanger - Left View Sensor Location
+QSK38 Marine с теплообменником - расположение датчика левого обзора
 
-1. Engine coolant temperature sensor
-2. Ambient air pressure sensor
-3. Engine speed sensor
-4. Engine exhaust gas stack temperature sensor, left manifold
-5. Fuel supply pressure sensor
-6. Fuel temperature sensor
-7. Pre-oil filter pressure sensor
-8. Oil rifle pressure sensor
-9. ECM 2 (source address 00)
-10. ECM 1 (source address 01)
-11. Intake manifold temperature sensor (left bank front)
-12. Intake manifold pressure sensor (left bank front)
-13. Fuel accumulator pressure sensor.
+1. Датчик температуры охлаждающей жидкости
+2. Датчик атмосферного давления
+3. Датчик скорости двигателя
+4. Датчик температуры выхлопных газов двигателя, левый коллектор
+5. Датчик давления подачи топлива
+6. Датчик температуры топлива
+7. Датчик давления фильтра для предварительного масла
+8. Датчик давления винтовки
+9. ECM 2 (адрес источника 00)
+10. ECM 1 (адрес источника 01)
+11. Датчик температуры коллектора (левый берег)
+12. Датчик давления впускного коллектора (левый фронт банка)
+13. Датчик давления топливного аккумулятора.
 
 ![[00600393.png]]
 
-QSK38 Marine with Heat Exchanger - Rear View Sensor Location
+QSK38 Marine с теплообменником - расположение датчика заднего вида
 
-1. Engine exhaust gas stack temperature sensor, left manifold
-2. Engine exhaust gas stack temperature sensor, right manifold
-3. Engine speed sensor (behind the flywheel housing).
+1. Датчик температуры выхлопных газов двигателя, левый коллектор
+2. Датчик температуры выхлопных газов двигателя, правильный коллектор
+3. Датчик скорости двигателя (за обшивкой маховика).
 
 ![[00600392.png]]
 
-QSK38 Marine with Heat Exchanger - Right View Sensor Location
+QSK38 Marine с теплообменником - Правое представление
 
-1. Crankcase pressure sensor
-2. Coolant pressure sensor
-3. Lubricating oil temperature sensor (oil pan)
-4. Intake manifold pressure sensor (right bank rear)
-5. Engine exhaust gas stack temperature sensor, right manifold.
+1. Датчик давления в чемоданчике
+2. Датчик давления охлаждающей жидкости
+3. Датчик температуры моторного масла (масляная кастрюля)
+4. Датчик давления впускного коллектора (сзади правого берега)
+5. Датчик температуры выхлопных газов двигателя, правый коллектор.
 
 ![[00600395.png]]
 
-QSK38 Marine with Heat Exchanger - Top View Sensor Location
+QSK38 Marine с теплообменником - расположение датчика Top View
 
-1. Crankcase pressure sensor (behind gear housing)
-2. Exhaust gas temperature sensor (one per cylinder located in the exhaust port outlet of the cylinder head)
-3. Injector solenoid (one per cylinder on top of the rocker cover).
+1. Датчик давления в чемодане (за гильзой передач)
+2. Датчик температуры выхлопного газа (один на цилиндр, расположенный в выпускном отверстии головки цилиндра)
+3. форсунка соленоид (по одному на цилиндр сверху крышки качели).
 
-> [!note] Note · Примечание
-> The exhaust gas temperature sensors on Marine engines are optional.
+> [!note] Примечание
+> Датчики температуры выхлопных газов на двигателях морской пехоты являются необязательными.
 
 ![[00600261.png]]
 
-QSK50 Industrial - Left View Sensor Location
+QSK50 Industrial - Сенсор левого обзора
 
-1. Intake manifold 1 temperature sensor
-2. Turbocharger speed 1 sensor (for engines with single-stage **only**)
-3. Intake manifold 3 temperature sensor
-4. Engine crankshaft speed/position sensor
-5. Engine oil rifle pressure 1 sensor (left-bank option)
-6. Pre-oil filter pressure sensor
-7. Barometric pressure sensor
-8. Fuel delivery pressure sensor
-9. Engine fuel temperature sensor 1
-10. Injector metering rail 1 pressure sensor
-11. Engine camshaft speed/position sensor
-12. Intake manifold 1 pressure sensor
-13. Engine coolant temperature 1 sensor.
+1. Датчик температуры 1 коллектора
+2. Датчик скорости 1 турбокомпрессора (для двигателей с одноступенчатой ***только**)
+3. Датчик температуры коллектора 3
+4. Датчик скорости коленчатого вала двигателя/положения
+5. Датчик давления 1 винтовки моторного масла (левобережная опция)
+6. Датчик давления фильтра для предварительного масла
+7. Датчик барометрического давления
+8. Датчик давления подачи топлива
+9. Датчик температуры топлива 1
+10. рельс измерения давления форсунки 1
+11. Датчик скорости/положения вала двигателя
+12. Датчик давления 1 на входном коллекторе
+13. Датчик температуры охлаждающей жидкости двигателя 1.
 
-> [!note] Note · Примечание
-> Exhaust gas temperature sensors (8 on left-bank, **not** shown)
+> [!note] Примечание
+> Датчики температуры выхлопного газа (8 на левом берегу, **не** показаны)
 
 ![[00600263.png]]
 
-QSK50 Industrial - Right View Sensor Location
+QSK50 Industrial - Правое расположение датчика
 
-1. Intake manifold 4 temperature sensors
-2. Intake manifold 2 temperature sensor
-3. Coolant pressure sensor
-4. Crankcase pressure sensor
-5. Engine oil temperature sensor 1
-6. Intake manifold 2 pressure sensor.
+1. 4 Датчики температуры впускного коллектора
+2. Датчик температуры коллектора 2
+3. Датчик давления охлаждающей жидкости
+4. Датчик давления в чемоданчике
+5. Датчик температуры масла 1
+6. Датчик давления 2-го коллектора.
 
-> [!note] Note · Примечание
-> Exhaust gas temperature sensors (8 on the right bank, **not** shown).
+> [!note] Примечание
+> Датчики температуры выхлопных газов (8 на правом берегу, **не** показаны).
 
 ![[00600396.png]]
 
-QSK50 Marine with Heat Exchanger - Front View Sensor Location
+QSK50 Marine с теплообменником - расположение датчика передней обзорной панели
 
-1. Engine coolant level sensors
-2. Coolant sight glass
-3. Engine coolant temperature sensor
-4. Camshaft position sensor.
+1. Датчики уровня охлаждающей жидкости двигателя
+2. Охлаждающее прицельное стекло
+3. Датчик температуры охлаждающей жидкости
+4. Датчик положения распределительного вала.
 
 ![[00600406.png]]
 
-QSK50 Marine with Heat Exchanger- Left View Sensor Location
+QSK50 Marine с теплообменником - левый вид
 
-1. Coolant temperature sensor
-2. Intake manifold temperature sensor, left bank front
-3. Exhaust gas temperature sensor (one per cylinder located in the exhaust port outlet of the cylinder head)
-4. Ambient air pressure sensor
-5. Engine exhaust gas stack temperature sensor, left manifold
-6. Engine speed sensor (behind flywheel housing)
-7. Fuel supply pressure sensor
-8. Fuel temperature sensor
-9. Oil rifle pressure sensor
-10. Pre-oil filter pressure sensor
-11. ECMs (see last page of Engine Diagrams for identification)
-12. Fuel accumulator pressure sensor
-13. Intake manifold pressure sensor (left bank front).
+1. Датчик температуры охлаждающей жидкости
+2. Датчик температуры коллектора, левый берег
+3. Датчик температуры выхлопного газа (один на цилиндр, расположенный в выпускном отверстии головки цилиндра)
+4. Датчик атмосферного давления
+5. Датчик температуры выхлопных газов двигателя, левый коллектор
+6. Датчик скорости двигателя (за обшивкой маховика)
+7. Датчик давления подачи топлива
+8. Датчик температуры топлива
+9. Датчик давления винтовки
+10. Датчик давления фильтра для предварительного масла
+11. ECM (см. последнюю страницу диаграммы двигателя для идентификации)
+12. Датчик давления аккумулятора топлива
+13. Датчик давления впускного коллектора (левый берег фронта).
 
 ![[00600405.png]]
 
-QSK50 Marine with Heat Exchanger - Rear View Sensor Location
+QSK50 Marine с теплообменником - расположение датчика заднего вида
 
-1. Engine exhaust gas stack temperature sensor, left manifold
-2. Engine exhaust gas stack temperature sensor, right manifold
-3. Fuel supply pressure sensor.
+1. Датчик температуры выхлопных газов двигателя, левый коллектор
+2. Датчик температуры выхлопных газов двигателя, правильный коллектор
+3. Датчик давления подачи топлива.
 
 ![[00600397.png]]
 
-QSK50 Marine with Heat Exchanger - Right View Sensor Location
+QSK50 Marine с теплообменником - Правое представление
 
-1. Intake manifold pressure sensor (rear right bank)
-2. Intake manifold temperature sensor (rear right bank)
-3. Engine coolant pressure sensor
-4. Lubricating oil temperature sensor
-5. Engine exhaust gas stack temperature sensor, right manifold.
+1. Датчик давления в коллекторе впуска (задний правый берег)
+2. Датчик температуры коллектора впуска (задний правый берег)
+3. Датчик давления охлаждающей жидкости двигателя
+4. Датчик температуры моторного масла
+5. Датчик температуры выхлопных газов двигателя, правый коллектор.
 
 ![[00600400.png]]
 
-QSK50 Marine with Heat Exchanger- Top View Sensor Location
+QSK50 Marine с теплообменником - лучшее место для просмотра
 
-1. Exhaust gas temperature sensor (one per cylinder located in the exhaust port outlet of the cylinder head)
-2. Injector solenoid (one per cylinder on top of the rocker housing cover).
+1. Датчик температуры выхлопного газа (один на цилиндр, расположенный в выпускном отверстии головки цилиндра)
+2. форсунка соленоид (по одному на цилиндр сверху крышки обсадного кожуха).
 
-> [!note] Note · Примечание
-> The exhaust gas temperature sensors on marine engines are optional sensors.
+> [!note] Примечание
+> Датчики температуры выхлопных газов на морских двигателях являются дополнительными датчиками.
 
-> [!note] Note · Примечание
-> These engine views are industrial with electronically actuated injectors.
+> [!note] Примечание
+> Эти виды двигателей являются промышленными с электронным топливным форсункой.
 
 ![[00600407.png]]
 
-Front View - QSK38 Industrial (Electronically Actuated Injector)
+Вид спереди - QSK38 Industrial (электронный форсунка)
 
-1. Turbocharger
-2. Left-bank coolant outlet
-3. Air crossover pipe
-4. Left-bank thermostat housing
-5. Water filter
-6. Fan pulley
-7. Fan drive belt
-8. Fuel pump
-9. Lubricating oil fill
-10. Front gear cover
-11. Accessory drive pulley
-12. Stage 2 fuel filters
-13. Lubricating oil sump
-14. Vibration damper
-15. Camshaft pulley
-16. Fan idler pulley
-17. Alternator
-18. Automatic belt tensioner
-19. Fan hub
-20. Right-bank coolant outlet
-21. Right-bank thermostat housing
+1. Турбокомпрессор
+2. Левобережная розетка охлаждающей жидкости
+3. Воздушный кроссовер
+4. Левобережный термостат
+5. Фильтр воды
+6. Шкив вентилятора
+7. Ремень привода вентилятора
+8. Топливный насос
+9. Моторное масло заполняют
+10. Передняя крышка шестерён
+11. Шкив привода вспомогательного оборудования
+12. 2 Фаза топливных фильтров
+13. Смазочный масляный отстойник
+14. Гаситель крутильных колебаний
+15. шкив распредвала
+16. Фан Эйдлер шкив
+17. Генератор
+18. Автоматический натяжитель ремня
+19. Ступица вентилятора
+20. Правобережная розетка охлаждающей жидкости
+21. Правобережная термостатная гильза
 
 ![[00600410.png]]
 
-Left View - QSK38 Industrial (Electronically Actuated Injector)
+В левом углу - QSK38 Industrial (электронный форсунка)
 
-1. Turbocharger
-2. Aftercooler
-3. Injector
-4. Crankshaft breather
-5. Lubricating oil fill
-6. Flywheel housing
-7. Lubricating oil filters
-8. Lubricating oil sump
-9. ECMs
-10. Lubricating oil sump drain
-11. Stage 2 fuel filters
-12. Fuel pump
-13. Accessory drive pulley
-14. Vibration damper
-15. Fan drive belt
-16. Water filter
-17. Fan hub
-18. Air crossover pipe
-19. LTA coolant outlet.
+1. Турбокомпрессор
+2. Охладитель наддувочного воздуха
+3. Форсунка
+4. Задуватель коленчатого вала
+5. Моторное масло заполняют
+6. Картер маховика
+7. Фильтры для моторного масла
+8. Смазочный масляный отстойник
+9. ЭКМ
+10. Слив моторного масла
+11. 2 Фаза топливных фильтров
+12. Топливный насос
+13. Шкив привода вспомогательного оборудования
+14. Гаситель крутильных колебаний
+15. Ремень привода вентилятора
+16. Фильтр воды
+17. Ступица вентилятора
+18. Воздушный кроссовер
+19. Выход охлаждающей жидкости LTA.
 
 ![[00600409.png]]
 
-Rear View - QSK38 Industrial (Electronically Actuated Injector)
+Задний вид - QSK38 Industrial (электронный форсунка)
 
-1. Turbochargers
-2. Air crossover pipe
-3. Exhaust manifolds
-4. Aftercooler covers
-5. Rocker lever cover
-6. Rocker lever housing
-7. Cylinder head
-8. Alternator
-9. Flexplate
-10. Flywheel housing
-11. Oil sump
-12. Stage 2 fuel filter
-13. Lubricating oil filter
-14. ECMs
-15. Dipstick
-16. Lubricating oil fill
-17. Engine speed sensor.
+1. Турбокомпрессоры
+2. Воздушный кроссовер
+3. Многообразие выхлопных газов
+4. Покрытие после охлаждения
+5. Крышка коромысел
+6. Корпус коромысел
+7. Головка блока цилиндров
+8. Генератор
+9. Гибкий диск (флексплейт)
+10. Картер маховика
+11. Нефтяной слив
+12. 2 Фаза топливный фильтр
+13. Масляный фильтр
+14. ЭКМ
+15. Маслоизмерительный щуп
+16. Моторное масло заполняют
+17. Датчик скорости двигателя.
 
 ![[00600408.png]]
 
-Right View - QSK38 Industrial (Electronically Actuated Injector)
+Вид справа - QSK38 Industrial (электронный форсунка)
 
-1. Turbocharger
-2. Aftercooler cover
-3. Injector
-4. Fan hub
-5. Fan belt tensioner
-6. Alternator
-7. Water pump
-8. Water pump coolant inlet
-9. Stage 2 fuel filter
-10. Lubricating oil sump
-11. Crankcase breather
-12. Pre-lubrication oil pump
-13. Lubricating oil sump drain
-14. Starters
-15. Flywheel housing.
+1. Турбокомпрессор
+2. Крышка охладителя наддувочного воздуха
+3. Форсунка
+4. Ступица вентилятора
+5. Натяжитель пояса вентилятора
+6. Генератор
+7. Водяной насос
+8. Впуск охлаждающей жидкости водяного насоса
+9. 2 Фаза топливный фильтр
+10. Смазочный масляный отстойник
+11. Сапун картера
+12. Насос для моторного масла
+13. Слив моторного масла
+14. Стартапы
+15. Картер маховика.
 
 ![[00600411.png]]
 
-Top View - QSK38 Industrial (Electronically Actuated Injectors)
+Вид сверху - QSK38 Industrial (электронный форсунка)
 
-1. Air crossovers
-2. Injectors
-3. Aftercooler covers
-4. Flywheel housing
-5. Turbochargers
-6. Exhaust manifolds
-7. Left-bank coolant outlet
-8. Coolant filters
-9. LTA Coolant outlet
-10. Fan hub
-11. Right-bank coolant outlet
-12. Alternator.
+1. Воздушные кроссоверы
+2. форсунка
+3. Покрытие после охлаждения
+4. Картер маховика
+5. Турбокомпрессоры
+6. Многообразие выхлопных газов
+7. Левобережная розетка охлаждающей жидкости
+8. Фильтры охлаждения
+9. LTA Coolant Outlet
+10. Ступица вентилятора
+11. Правобережная розетка охлаждающей жидкости
+12. Генератор.
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
 ![[05600290.png]]
 
-Front View - QSK50
+Вид спереди: QSK50
 
-1. Low temperature aftercooler thermostat bypass tube
-2. Low temperature aftercooler vent tube
-3. Low temperature aftercooler thermostat housing
-4. High temperature vent line
-5. Air crossover connections
-6. Aftercooler cover
-7. Intake manifold
-8. Coolant filters
-9. Accessory drive pulley
-10. Stage 2 fuel filter
-11. Oil pan sump
-12. Oil pan cover plate
-13. Oil pan adapter
-14. Accessory drive
-15. Crankshaft pulley
-16. Alternator drive pulley
-17. Vibration dampers
-18. Front gear cover
-19. Water pump outlet tube
-20. High temperature vent line.
+1. Низкая температура послеохлаждения термостата шунтирование трубки
+2. Низкая температура послеохлаждения вентиляционной трубки
+3. Низкая температура послеохлаждения термостата корпуса
+4. Вентиляционная линия высокой температуры
+5. Подключение к воздушному кроссоверу
+6. Крышка охладителя наддувочного воздуха
+7. Впускной коллектор
+8. Фильтры охлаждения
+9. Шкив привода вспомогательного оборудования
+10. 2 Фаза топливный фильтр
+11. Сливки с маслом
+12. Тарелка для покрытия масляной подошвы
+13. Переходник масляного поддона
+14. Привод вспомогательного оборудования
+15. Шкив коленчатого вала
+16. Шкив привода генератора
+17. Вибрационные амортизаторы
+18. Передняя крышка шестерён
+19. Пропускная трубка водяного насоса
+20. Высокотемпературная вентиляционная линия.
 
 ![[05600287.png]]
 
-Left View - QSK50
+Слева - QSK50
 
-1. Turbochargers
-2. Air crossover connections
-3. Aftercooler covers
-4. Intake manifold
-5. Crankcase breather
-6. Flywheel housing
-7. Lubricating oil filters
-8. Oil pan sump
-9. Fuel filter head
-10. Stage 2 fuel filters
-11. Electronic Control Modules (ECM)
-12. Fuel pump
-13. Oil pan cover plate
-14. Oil pan adapter
-15. Accessory drive pulley
-16. Front gear housing
-17. Front gear cover
-18. Fuel drain manifold block
-19. Coolant filter.
+1. Турбокомпрессоры
+2. Подключение к воздушному кроссоверу
+3. Покрытие после охлаждения
+4. Впускной коллектор
+5. Сапун картера
+6. Картер маховика
+7. Фильтры для моторного масла
+8. Сливки с маслом
+9. Головка топливного фильтра
+10. 2 Фаза топливных фильтров
+11. Электронные модули управления (ECM)
+12. Топливный насос
+13. Тарелка для покрытия масляной подошвы
+14. Переходник масляного поддона
+15. Шкив привода вспомогательного оборудования
+16. Передний картер шестерён
+17. Передняя крышка шестерён
+18. Блок сливного коллектора топлива
+19. Фильтр охлаждающей жидкости.
 
-> [!note] Note · Примечание
-> Fuel filter (1st stage) is located off engine and is mounted by the OEM.
+> [!note] Примечание
+> Топливный фильтр (1-я ступень) расположен вне двигателя и устанавливается OEM.
 
 ![[05600289.png]]
 
-Rear View - QSK50
+Задний вид - QSK50
 
-1. Turbochargers
-2. Air crossover connections
-3. Aftercooler covers
-4. Rocker lever covers
-5. Rocker lever housing
-6. Intake manifold
-7. Jacket water bypass tube
-8. Water pump outlet tube
-9. Camshaft covers
-10. Oil pan sump
-11. Stage 2 fuel filter
-12. Lubricating oil filters
-13. Flywheel
-14. Flywheel housing.
+1. Турбокомпрессоры
+2. Подключение к воздушному кроссоверу
+3. Покрытие после охлаждения
+4. клапанная каска для качалок
+5. Корпус коромысел
+6. Впускной коллектор
+7. Куртка водяная шунтирующая трубка
+8. Пропускная трубка водяного насоса
+9. Крыши Camshaft
+10. Сливки с маслом
+11. 2 Фаза топливный фильтр
+12. Фильтры для моторного масла
+13. Маховик
+14. Картер маховика.
 
 ![[00600257.png]]
 
-Right View - QSK50
+Правое витрина - QSK50
 
-1. Turbochargers
-2. Air crossover connections
-3. Aftercooler covers
-4. Low temperature aftercooler thermostat bypass tube
-5. Coolant filter
-6. Jacket water bypass tube
-7. Water pump outlet tube
-8. Accessory drive pulley
-9. Water pump
-10. Low temperature aftercooler water pump supply inlet
-11. Crankcase breather
-12. Dipstick tube
-13. Oil fill
-14. Oil pan sump
-15. Oil pan cover plate
-16. Oil pan adapter
-17. Hand hole covers
-18. Flywheel housing.
+1. Турбокомпрессоры
+2. Подключение к воздушному кроссоверу
+3. Покрытие после охлаждения
+4. Низкая температура послеохлаждения термостата шунтирование трубки
+5. Фильтр охлаждающей жидкости
+6. Куртка водяная шунтирующая трубка
+7. Пропускная трубка водяного насоса
+8. Шкив привода вспомогательного оборудования
+9. Водяной насос
+10. Низкая температура после охлаждения насоса подачи воды на входе
+11. Сапун картера
+12. Измерительная приборная трубка для измерения уровня масла
+13. Нефть заполнила
+14. Сливки с маслом
+15. Тарелка для покрытия масляной подошвы
+16. Переходник масляного поддона
+17. Ручные отверстия
+18. Картер маховика.
 
 ![[00600372.png]]
 
-Top View - QSK50
+Оригинальное название: QSK50
 
-1. Rocker lever cover
-2. Aftercooler cover
-3. High stage turbocharger
-4. Air crossover connection
-5. Air crossover
-6. Water transfer tube
-7. Air inlet to turbocharger
-8. Flywheel housing
-9. Low stage turbocharger
-10. Exhaust outlet
-11. Left-bank thermostat housing
-12. Left-bank water outlet
-13. Coolant filters (2 on each thermostat housing)
-14. Fan hub
-15. Fan hub support
-16. Low temperature aftercooler thermostat housing
-17. Right-bank water outlet
-18. Right-bank thermostat housing
-19. Low temperature aftercooler tube.
+1. Крышка коромысел
+2. Крышка охладителя наддувочного воздуха
+3. Турбокомпрессор высокой ступени
+4. Перепускной воздушный патрубок
+5. Перепускной воздушный канал
+6. Перепускная водяная трубка
+7. Впуск воздуха в турбокомпрессор
+8. Картер маховика
+9. турбокомпрессор низкой ступени
+10. Выхлопная труба
+11. Левобережный термостат
+12. Левобережная водоотводная розетка
+13. Фильтры охлаждения (2 на каждом корпусе термостата)
+14. Ступица вентилятора
+15. Поддержка Fan Hub
+16. Низкая температура послеохлаждения термостата корпуса
+17. Правобережная розетка для воды
+18. Правобережная термостатная гильза
+19. Низкая температура послеохладительной трубки.
 
 ![[00600335.png]]
 
-Front View - QSK38 Marine with Heat Exchanger
+Вид спереди: QSK38 Marine с теплообменником
 
-1. Coolant fill
-2. Expansion tank
-3. Coolant vent lines
-4. Turbocharger
-5. Sea water outlet
-6. Aftercooler covers
-7. Stage 2 fuel filter
-8. Fuel pump
-9. Heat exchanger
-10. Sea water pump
-11. Sea water inlet
-12. Alternator belt guard
-13. Coolant filters.
+1. Заполнитель охлаждающей жидкости
+2. Расширительный бачок
+3. Магистрали выпуска воздуха из системы охлаждения
+4. Турбокомпрессор
+5. Выход морской воды
+6. Покрытие после охлаждения
+7. 2 Фаза топливный фильтр
+8. Топливный насос
+9. Теплообменник
+10. Насос забортной воды
+11. Забор морской воды
+12. Защитник пояса альтернативатора
+13. Фильтры охлаждения.
 
 ![[00600338.png]]
 
-Left View - QSK38 Marine with Heat Exchanger
+Слева - QSK38 Marine с теплообменником
 
-1. Expansion tank
-2. Coolant fill
-3. Coolant vent lines
-4. Turbochargers
-5. Air crossover pipe
-6. Stage 2 fuel filters
-7. Flywheel housing
-8. Lubrication oil filters
-9. Oil sump
-10. Oil sump drain
-11. ECMs
-12. Fuel pump
-13. Sea water pump
-14. Aftercooler cover
-15. Heat exchanger.
+1. Расширительный бачок
+2. Заполнитель охлаждающей жидкости
+3. Магистрали выпуска воздуха из системы охлаждения
+4. Турбокомпрессоры
+5. Воздушный кроссовер
+6. 2 Фаза топливных фильтров
+7. Картер маховика
+8. Фильтры для моторного масла
+9. Нефтяной слив
+10. Слив нефтяных отстойников
+11. ЭКМ
+12. Топливный насос
+13. Насос забортной воды
+14. Крышка охладителя наддувочного воздуха
+15. Теплообменник.
 
 ![[00600337.png]]
 
-Rear View - QSK38 Marine with Heat Exchanger
+Задний вид - QSK38 Marine с теплообменником
 
-1. Coolant fill
-2. Expansion tank
-3. Coolant filters
-4. Turbochargers
-5. Aftercooler covers
-6. Air crossover pipe
-7. Alternator
-8. Flywheel housing
-9. Flywheel
-10. Oil sump
-11. Stage 2 fuel filters
-12. Fuel pump
-13. Coolant vent lines.
+1. Заполнитель охлаждающей жидкости
+2. Расширительный бачок
+3. Фильтры охлаждения
+4. Турбокомпрессоры
+5. Покрытие после охлаждения
+6. Воздушный кроссовер
+7. Генератор
+8. Картер маховика
+9. Маховик
+10. Нефтяной слив
+11. 2 Фаза топливных фильтров
+12. Топливный насос
+13. Магистрали выпуска воздуха из системы охлаждения.
 
 ![[00600336.png]]
 
-Right View - QSK38 Marine with Heat Exchanger
+QSK38 Marine с теплообменником
 
-1. Coolant fill
-2. Coolant vent lines
-3. Coolant filters
-4. Heat exchanger
-5. Aftercooler cover
-6. Sea water pump
-7. Engine water pump
-8. Oil sump
-9. Oil level sensor
-10. Oil heater
-11. Starters
-12. Flywheel housing
-13. Stage 2 fuel filters
-14. Air crossover pipe
-15. Turbocharger
-16. Expansion tank.
+1. Заполнитель охлаждающей жидкости
+2. Магистрали выпуска воздуха из системы охлаждения
+3. Фильтры охлаждения
+4. Теплообменник
+5. Крышка охладителя наддувочного воздуха
+6. Насос забортной воды
+7. Двигатель водяного насоса
+8. Нефтяной слив
+9. Датчик уровня масла
+10. Масляный нагреватель
+11. Стартапы
+12. Картер маховика
+13. 2 Фаза топливных фильтров
+14. Воздушный кроссовер
+15. Турбокомпрессор
+16. Расширительный бачок.
 
 ![[00600339.png]]
 
-Top View - QSK38 Marine with Heat Exchanger
+QSK38 Marine с теплообменником
 
-1. Coolant filters
-2. Expansion tank
-3. Coolant fill
-4. Aftercooler covers
-5. Air crossover
-6. Turbochargers
-7. Flywheel housing
-8. Injectors
-9. Sea water outlet from heat exchanger
-10. Heat exchanger
-11. Coolant vent lines.
+1. Фильтры охлаждения
+2. Расширительный бачок
+3. Заполнитель охлаждающей жидкости
+4. Покрытие после охлаждения
+5. Перепускной воздушный канал
+6. Турбокомпрессоры
+7. Картер маховика
+8. форсунка
+9. Морская розетка воды из теплообменника
+10. Теплообменник
+11. Магистрали выпуска воздуха из системы охлаждения.
 
-Marine Applications
+Судовое применение
 
 ![[00600004.png]]
 
-Right View
+Правое мнение
 
-1. Turbocharger
-2. Coolant vent line connections
-3. Cylinder block drains
-4. Dual water outlet connections
-5. Thermostat housing
-6. Coolant heater return
-7. Coolant suction
-8. Alternator
-9. Water pump
-10. Water pump drain
-11. Coolant heater supply
-12. Coolant inlet connection
-13. Oil immersion heater
-14. Oil temperature transducer
-15. Bypass oil filter return
-16. Bypass oil filter
-17. Engine oil drains
-18. Starters
-19. Aftercoolers
-20. Intake manifold
-21. Exhaust
-22. Turbocharger coolant vent line connections.
+1. Турбокомпрессор
+2. Соединения вентиляционных линий охлаждающего вентилятора
+3. Слив блока цилиндров
+4. Двойные водоотводные соединения
+5. Корпус термостата
+6. Возвращение теплоносителя
+7. Отсасывание охлаждающим средством
+8. Генератор
+9. Водяной насос
+10. Слив воды с водяного насоса
+11. Подача охлаждающего нагревателя
+12. Впускное соединение охлаждающей жидкости
+13. Обогреватель для погружения в масло
+14. Преобразователь температуры масла
+15. Обходной фильтр масла возврат
+16. Обход масляного фильтра
+17. Двигательное масло сливает
+18. Стартапы
+19. Послеохладители
+20. Впускной коллектор
+21. выхлоп
+22. Соединение вентиляционных линий турбокомпрессора.
 
 ![[00600005.png]]
 
-Left View
+Левый взгляд
 
-1. Turbocharger
-2. Intake manifold
-3. Exhaust
-4. Fuel return to tank
-5. Fuel inlet connection
-6. Monitoring switch (filtered oil) pre-low oil pressure
-7. Monitoring switch (filtered oil) low oil pressure
-8. Oil pressure transducer
-9. Magnetic pickups
-10. Oil fill and dipstick
-11. Oil filters
-12. Engine oil drains
-13. Crankcase breather
-14. Fuel filters
-15. Fuel pump
-16. Vibration damper
-17. Thermostat housing
-18. Duel water outlet connections
-19. Aftercoolers.
+1. Турбокомпрессор
+2. Впускной коллектор
+3. выхлоп
+4. Возвращение топлива в танк
+5. Впускное соединение топлива
+6. Мониторинг переключателя (фильтрованное масло) преднизкого давления масла
+7. Мониторинг переключателя (фильтрованное масло) низкого давления масла
+8. Преобразователь давления масла
+9. Магнитные пикапы
+10. Масляная начинка и калибр уровня масла
+11. Масляные фильтры
+12. Двигательное масло сливает
+13. Сапун картера
+14. Топливные фильтры
+15. Топливный насос
+16. Гаситель крутильных колебаний
+17. Корпус термостата
+18. Дуэльные водоотводные соединения
+19. Послеохладители.
 
 ![[00600006.png]]
 
 Top View
 
-1. Right-bank intake manifold
-2. Rear engine mounts
-3. Flywheel housing
-4. Exhaust
-5. Rocker lever cover
-6. Left-bank intake manifold
-7. Turbochargers
-8. Alternator
-9. Lifting brackets
-10. Front engine mount
-11. Aftercooler coolant vent connection
-12. Duel water outlet connection
-13. Engine coolant vent line connection
-14. Coolant vent line connection-non-activated Low Temperature Aftercooler cavity
-15. Turbocharger coolant vent line connection
-16. Lifting brackets.
+1. Впускной коллектор правого берега
+2. Задние крепления двигателя
+3. Картер маховика
+4. выхлоп
+5. Крышка коромысел
+6. Левобережный впускной коллектор
+7. Турбокомпрессоры
+8. Генератор
+9. Подъемные скобки
+10. Передняя установка двигателя
+11. Соединение вентиляционных отверстий после охлаждения
+12. Дуэль водоотводное соединение
+13. 2.3 Соединение вентиляционной линии охлаждающей жидкости двигателя
+14. Охлаждающая вентиляционная линия, не активированная низкотемпературная полость послеохлаждения
+15. 2.3.2 Соединение вентиляционной линии с турбокомпрессором
+16. Подъемные скобки.
 
 ![[00600007.png]]
 
-Front View
+Фронтальный вид
 
-1. Turbochargers
-2. Left intake manifold
-3. Left side aftercooler
-4. Pulley, accessory drive
-5. Vibration damper
-6. Engine front mount
-7. Oil drain plug
-8. Port, hydraulic pump drive
-9. Alternator
-10. Alternator drive
-11. Right side aftercooler
-12. Right intake manifold
-13. Coolant outlet
-14. Exhaust.
+1. Турбокомпрессоры
+2. Левый коллектор для приема
+3. Левый боковой послеохладитель
+4. Пулли, дополнительный привод
+5. Гаситель крутильных колебаний
+6. Передняя установка двигателя
+7. Шлюпка для слива масла
+8. Порт, гидравлический насос
+9. Генератор
+10. Привод генератора
+11. Правый боковой послеохладитель
+12. Коллектор правого впуска
+13. выпуск охлаждающей жидкости
+14. Выдох.
 
 ![[00600008.png]]
 
-Rear View
+Задний вид
 
-1. Turbochargers
-2. Left intake manifold
-3. Left side aftercooler
-4. Pulley, accessory drive
-5. Vibration damper
-6. Engine front mount
-7. Oil drain plug
-8. Port, hydraulic pump drive
-9. Alternator
-10. Alternator drive
-11. Right side aftercooler
-12. Right intake manifold
-13. Coolant Outlet
-14. Exhaust.
+1. Турбокомпрессоры
+2. Левый коллектор для приема
+3. Левый боковой послеохладитель
+4. Пулли, дополнительный привод
+5. Гаситель крутильных колебаний
+6. Передняя установка двигателя
+7. Шлюпка для слива масла
+8. Порт, гидравлический насос
+9. Генератор
+10. Привод генератора
+11. Правый боковой послеохладитель
+12. Коллектор правого впуска
+13. Охлаждающая розетка
+14. Выдох.
 
 ![[00600310.png]]
 
-Right View - K38 C Power Keel Cooler Cooled (K50 Similar)
+K38 C Power Keel Cooler Cooled (K50 Similar) (недоступная ссылка)
 
-1. Alternator
-2. Local control panel
-3. Air cleaners
-4. Exhaust connections
-5. Coolant inlet connection from keel cooler
-6. Coolant filters
-7. Duplex fuel filters
-8. Base rail
-9. Flexible mount
-10. Starters
-11. Lubricating oil sump hand pump.
+1. Генератор
+2. Локальная панель управления
+3. Очистители воздуха
+4. Выхлопные связи
+5. Впускное соединение охлаждающей жидкости из килевого охладителя
+6. Фильтры охлаждения
+7. Дуплексные топливные фильтры
+8. Базовый рельс
+9. Гибкая установка
+10. Стартапы
+11. Моторное масло отжимной ручной насос.
 
 ![[00600311.png]]
 
-Left View - K38 C Power Keel Cooler Cooled
+Слева - K38 C Power Keel Cooler
 
-1. Coolant outlet connection to keel cooler
-2. Local control panel
-3. Duplex lubricating oil filters
-4. Duplex fuel filters.
+1. Подключение к выходу охлаждающей жидкости к киловому охладителю
+2. Локальная панель управления
+3. Дуплексные фильтры для моторного масла
+4. Дуплексные топливные фильтры.
 
 ![[00600312.png]]
 
-Right View - K38 C Power Heat Exchanger Cooled (K50 Similar)
+Вид справа - K38 C Power Heat Exchanger Cooled (K50 Similar)
 
-1. Sea water outlet connection
-2. Heat exchanger
-3. Sea water inlet connection
-4. Sea water pump.
+1. Подключение к выходу морской воды
+2. Теплообменник
+3. Впускное соединение морской воды
+4. Насос забортной воды.
 
 ![[00600230.png]]
 
-Front View - K50M2
+Вид спереди - K50M2
 
-1. Exhaust bellows
-2. Air filter
-3. Expansion tank
-4. Air restriction indicator
-5. Heat exchanger
-6. Aftercooler
-7. Fuel filters
-8. Gear cover
-9. Full-flow lubricating oil filters
-10. Damper guard
-11. Oil pan
-12. Bypass lubricating oil filters
-13. Sea water pump
-14. Sea water inlet pipe
-15. Alternator
-16. Heat exchanger sea water inlet pipe
-17. Sea water outlet connection.
+1. Выхлопные трубы
+2. фильтр для очистки воздуха
+3. Расширительный бачок
+4. Показатель ограничения воздуха
+5. Теплообменник
+6. Охладитель наддувочного воздуха
+7. Топливные фильтры
+8. Крышка шестерён
+9. Фильтры для моторного масла полного потока
+10. Охранник Дамбера
+11. Масляный поддон
+12. Обход фильтров моторного масла
+13. Насос забортной воды
+14. Впускная труба морской воды
+15. Генератор
+16. Теплообменник морской водопроводной трубы
+17. Подключение к выходу морской воды.
 
 ![[00600228.png]]
 
-Left View - K50M2
+Левый вид: K50M2
 
-1. Air filters
-2. Air restriction indicator
-3. Air crossover connection
-4. Turbocharger
-5. Exhaust bellows
-6. Single exhaust collector
-7. Heat shield
-8. Aftercooler
-9. Fuel filters
-10. Aftercooler core drain
-11. Full-flow lubricating oil filters
-12. Oil pan
-13. Crankcase breather
-14. Fuel pump
-15. Sea water inlet pipe
-16. Heat exchanger
-17. Sight glass
-18. Expansion tank.
+1. Воздушные фильтры
+2. Показатель ограничения воздуха
+3. Перепускной воздушный патрубок
+4. Турбокомпрессор
+5. Выхлопные трубы
+6. Одиночный выхлопной коллектор
+7. Теплозащитный экран
+8. Охладитель наддувочного воздуха
+9. Топливные фильтры
+10. Послеохлаждение слива ядра
+11. Фильтры для моторного масла полного потока
+12. Масляный поддон
+13. Сапун картера
+14. Топливный насос
+15. Впускная труба морской воды
+16. Теплообменник
+17. Видовое стекло
+18. Расширительный бачок.
 
 ![[00600231.png]]
 
-Rear View - K50M2
+Задний вид - K50M2
 
-1. Exhaust bellows
-2. Air filter
-3. Single exhaust collector
-4. Air restriction indicator
-5. Heat shield coolant supply tube
-6. Aftercooler
-7. Heat shields
-8. Bypass lubricating oil filters
-9. Oil pan
-10. Flywheel
-11. Full-flow lubricating oil filters
-12. Fuel filter.
+1. Выхлопные трубы
+2. фильтр для очистки воздуха
+3. Одиночный выхлопной коллектор
+4. Показатель ограничения воздуха
+5. Трубка подачи теплозащитного щита
+6. Охладитель наддувочного воздуха
+7. Тепловые щиты
+8. Обход фильтров моторного масла
+9. Масляный поддон
+10. Маховик
+11. Фильтры для моторного масла полного потока
+12. Топливный фильтр.
 
 ![[00600227.png]]
 
-Right View - K50M2
+Вид справа - K50M2
 
-1. Turbocharger
-2. Air filters
-3. Air restriction indicator
-4. Expansion tank
-5. Sea water outlet connection
-6. Heat exchanger
-7. Zinc anode plugs
-8. Aftercooler
-9. Sea water inlet pipe
-10. Sea water pump
-11. Water pump
-12. Coolant filters
-13. Crankcase breather
-14. Oil pan
-15. Bypass lubricating oil filters
-16. Aftercooler core drain
-17. Starter
-18. Heat shield
-19. Single exhaust collector
-20. Exhaust bellows.
+1. Турбокомпрессор
+2. Воздушные фильтры
+3. Показатель ограничения воздуха
+4. Расширительный бачок
+5. Подключение к выходу морской воды
+6. Теплообменник
+7. Цинковые анодные пробки
+8. Охладитель наддувочного воздуха
+9. Впускная труба морской воды
+10. Насос забортной воды
+11. Водяной насос
+12. Фильтры охлаждения
+13. Сапун картера
+14. Масляный поддон
+15. Обход фильтров моторного масла
+16. Послеохлаждение слива ядра
+17. Стартер
+18. Теплозащитный экран
+19. Одиночный выхлопной коллектор
+20. Выхлопные трубы.
 
 ![[00600229.png]]
 
-Top View - K50M2
+Вид сверху - K50M2
 
-1. Turbocharger
-2. Air crossover connection
-3. Exhaust bellows
-4. Single exhaust collector
-5. Flywheel housing
-6. Heat shield coolant supply tubes
-7. Fuel filter head
-8. Heat shield
-9. Air filters
-10. Expansion tank
-11. Pressure cap
-12. Sea water outlet connection.
+1. Турбокомпрессор
+2. Перепускной воздушный патрубок
+3. Выхлопные трубы
+4. Одиночный выхлопной коллектор
+5. Картер маховика
+6. Трубы подачи теплозащитного щита
+7. Головка топливного фильтра
+8. Теплозащитный экран
+9. Воздушные фильтры
+10. Расширительный бачок
+11. крышка радиатора
+12. Подключение к выходу морской воды.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Engine Views
+>
+> Industrial Applications
+>
+> The illustrations show the locations of the major external engine components, and filters, along with service and maintenance points. Some external components will be at different locations for different engine models.
+>
+> Front View - KT38
+>
+> 1. Left-bank water outlet
+> 2. Left-bank thermostat housing
+> 3. Coolant filter head
+> 4. Coolant filters
+> 5. Fan pulley
+> 6. Front gear cover
+> 7. Accessory drive pulley
+> 8. Direction of rotation
+> 9. Crankshaft pulley
+> 10. Vibration damper
+> 11. Alternator drive pulley
+> 12. Fan idler pulley
+> 13. Fan hub
+> 14. Rocker lever cover
+> 15. Air crossover
+> 16. Right-bank thermostat housing
+> 17. Right-bank water outlet.
+>
+> Left View - KT38
+>
+> 1. Turbocharger
+> 2. Thermostat housing support
+> 3. Thermostat housing
+> 4. Fan hub support
+> 5. Front gear cover
+> 6. Front gear housing
+> 7. Dataplate
+> 8. Air compressor drive
+> 9. Air compressor
+> 10. Fuel pump
+> 11. Fuel filter head
+> 12. Fuel filter
+> 13. Full-flow lubricating oil filter
+> 14. Crankcase breather
+> 15. Oil level gauge
+> 16. Oil fill port
+> 17. Lubricating oil filter head
+> 18. Flywheel housing
+> 19. Cam follower cover
+> 20. Intake manifold
+> 21. Lifting bracket
+> 22. Exhaust manifold
+> 23. Air transfer housing.
+>
+> Rear View - KT38
+>
+> 1. Oil cooler cover
+> 2. Cylinder block
+> 3. Air transfer housing
+> 4. Right-bank exhaust manifold
+> 5. Water outlet passage
+> 6. Air crossover
+> 7. Rocker lever cover
+> 8. Rocker lever housing
+> 9. Fuel manifold
+> 10. Cylinder head
+> 11. Flywheel
+> 12. Oil pan adapter
+> 13. Oil pan
+> 14. Flywheel housing
+> 15. Left-bank exhaust manifold
+> 16. Turbocharger.
+>
+> Right View - KT38
+>
+> 1. Air transfer housing
+> 2. Turbocharger
+> 3. Air crossover connection
+> 4. Rocker lever cover
+> 5. Lifting bracket
+> 6. Air intake connection
+> 7. Intake manifold
+> 8. Cam follower cover
+> 9. Flywheel housing
+> 10. Hand hole cover
+> 11. Oil pan adapter
+> 12. Plate, oil pan adapter
+> 13. Oil pan
+> 14. Water inlet connection
+> 15. Water pump
+> 16. Water pump drive
+> 17. Water bypass tube
+> 18. Fan belt idler pulley
+> 19. Crankcase breather
+> 20. Fan belt idler assembly
+> 21. Thermostat housing
+> 22. Water outlet connection.
+>
+> Top View - KT38
+>
+> 1. Alternator
+> 2. Right-bank water outlet
+> 3. Right-bank thermostat housing
+> 4. Fan hub bracket
+> 5. Fan hub shaft
+> 6. Thermostat housing support
+> 7. Left-bank thermostat housing
+> 8. Left-bank water outlet
+> 9. Turbocharger
+> 10. Left-bank exhaust manifold
+> 11. Rocker lever cover
+> 12. Air transfer housing
+> 13. Intake manifold
+> 14. Water transfer tube
+> 15. Right-bank exhaust manifold
+> 16. Flywheel housing
+> 17. Rocker lever housing
+> 18. Air crossover.
+>
+> Front View - KTA38 with Center Mount Aftercooler
+>
+> 1. Aftercooler water outlet
+> 2. Left-bank water outlet
+> 3. Left-bank thermostat housing
+> 4. Coolant filter head
+> 5. Coolant filters
+> 6. Fan pulley
+> 7. Front gear cover
+> 8. Accessory drive pulley
+> 9. Direction of rotation
+> 10. Vibration damper
+> 11. Crankshaft pulley
+> 12. Alternator drive pulley
+> 13. Fan idler pulley
+> 14. Fan hub
+> 15. Rocker lever cover
+> 16. Air crossover
+> 17. Right-bank thermostat housing
+> 18. Right-bank water outlet.
+>
+> Left View - KTA38 with Center Mount Aftercooler
+>
+> 1. Turbocharger
+> 2. Aftercooler water outlet
+> 3. Aftercooler water inlet
+> 4. Thermostat housing support
+> 5. Thermostat housing
+> 6. Fan hub support
+> 7. Front gear cover
+> 8. Gear housing
+> 9. Dataplate
+> 10. Air compressor drive
+> 11. Air compressor
+> 12. Fuel pump
+> 13. Fuel filter head
+> 14. Fuel filter
+> 15. Full-flow lubricating oil filter
+> 16. Crankcase breather
+> 17. Oil level gauge
+> 18. Oil fill port
+> 19. Lubricating oil filter head
+> 20. Flywheel housing
+> 21. Cam follower cover
+> 22. Intake manifold
+> 23. Lifting bracket
+> 24. Exhaust manifold
+> 25. Aftercooler assembly.
+>
+> Rear View - KTA38 with Center Mount Aftercooler
+>
+> 1. Oil Cooler Plate
+> 2. Aftercooler water inlet tube
+> 3. Aftercooler assembly
+> 4. Right-bank exhaust manifold
+> 5. Water outlet passage
+> 6. Air crossover
+> 7. Rocker lever cover
+> 8. Rocker lever housing
+> 9. Fuel manifold
+> 10. Cylinder head
+> 11. Flexplate
+> 12. Flywheel housing
+> 13. Oil pan adapter
+> 14. Oil pan
+> 15. Cylinder block
+> 16. Left-bank exhaust manifold
+> 17. Turbocharger.
+>
+> Right View - KTA38 with Center Mount Aftercooler
+>
+> 1. Aftercooler assembly
+> 2. Turbocharger
+> 3. Air crossover connection
+> 4. Rocker lever cover
+> 5. Lifting bracket
+> 6. Air intake connection
+> 7. Intake manifold
+> 8. Cam follower cover
+> 9. Flywheel housing
+> 10. Hand hole cover
+> 11. Oil pan adapter
+> 12. Oil pan adapter cover
+> 13. Oil pan
+> 14. Water inlet connection
+> 15. Water pump
+> 16. Water pump drive
+> 17. Water bypass tube
+> 18. Fan belt idler pulley
+> 19. Crankcase breather
+> 20. Fan belt idler assembly
+> 21. Thermostat housing
+> 22. Water outlet connection
+> 23. Aftercooler water inlet tube
+> 24. Aftercooler water outlet tube.
+>
+> Top View - KTA38 with Center Mount Aftercooler
+>
+> 1. Aftercooler assembly
+> 2. Aftercooler water outlet tube
+> 3. Alternator
+> 4. Right-bank water outlet
+> 5. Right-bank thermostat housing
+> 6. Fan hub support
+> 7. Fan hub shaft
+> 8. Thermostat housing support
+> 9. Left-bank thermostat housing
+> 10. Left-bank water outlet
+> 11. Turbocharger
+> 12. Left-bank exhaust manifold
+> 13. Rocker lever cover
+> 14. Intake manifold
+> 15. Water tube
+> 16. Right-bank exhaust manifold
+> 17. Oil cooler plate
+> 18. Rear gear housing
+> 19. Flywheel housing
+> 20. Rocker lever housing
+> 21. Air crossover
+> 22. Air intake connection.
+>
+> Front View - KTTA38
+>
+> 1. Low stage turbocharger
+> 2. High stage turbocharger
+> 3. Left-bank water outlet
+> 4. Left-bank thermostat housing
+> 5. Coolant filter head
+> 6. Coolant filter
+> 7. STC oil manifold
+> 8. Fuel manifold
+> 9. Front gear cover
+> 10. Accessory drive pulley
+> 11. Direction of rotation
+> 12. Crankshaft pulley
+> 13. Vibration damper
+> 14. Alternator drive pulley
+> 15. Fan idler pulley
+> 16. Fan pulley
+> 17. Fan hub
+> 18. Right-bank thermostat housing
+> 19. Right-bank water outlet.
+>
+> Left View - KTTA38
+>
+> 1. High stage turbocharger
+> 2. Low stage turbocharger
+> 3. Air crossover connection
+> 4. Exhaust outlet pipe
+> 5. Turbocharger support
+> 6. Left-bank water outlet
+> 7. Thermostat housing support
+> 8. Left-bank thermostat housing
+> 9. Aftercooler water outlet tube
+> 10. Aftercooler assembly
+> 11. Aftercooler water inlet tube
+> 12. Cam follower cover
+> 13. Dataplate
+> 14. Front gear cover
+> 15. Air compressor drive
+> 16. Air compressor
+> 17. Front cover
+> 18. Fuel pump
+> 19. Fuel filter head
+> 20. Fuel filter
+> 21. Oil pan adapter
+> 22. Full-flow lubricating oil filter
+> 23. Crankcase breather
+> 24. Oil level gauge
+> 25. Lubricating oil filter head
+> 26. Oil fill port
+> 27. Flywheel housing
+> 28. Rocker lever cover.
+>
+> Rear View - KTTA38
+>
+> 1. Low stage turbocharger
+> 2. Cylinder block
+> 3. High stage turbocharger
+> 4. Exhaust manifold
+> 5. Turbocharger support
+> 6. Rocker lever housing cover
+> 7. Rocker lever housing
+> 8. Cylinder head
+> 9. STC oil manifold
+> 10. Fuel manifold
+> 11. Flexplate
+> 12. Oil pan
+> 13. Oil pan adapter
+> 14. Flywheel housing.
+>
+> Right View - KTTA38
+>
+> 1. High stage turbocharger
+> 2. Low stage turbocharger
+> 3. Air crossover connection
+> 4. Exhaust outlet pipe
+> 5. Turbocharger support
+> 6. Rocker lever cover
+> 7. Aftercooler water outlet tube
+> 8. Aftercooler assembly
+> 9. Aftercooler water inlet tube
+> 10. Cam follower cover
+> 11. Flywheel housing
+> 12. Hand hole cover
+> 13. Oil pan adapter
+> 14. Oil pan cover plate
+> 15. Oil pan
+> 16. Water inlet connection
+> 17. Crankcase breather
+> 18. Water pump
+> 19. Water bypass tube
+> 20. Water pump drive
+> 21. Fan belt idler pulley
+> 22. Fan belt idler arm assembly
+> 23. Right-bank thermostat housing
+> 24. Right-bank water outlet.
+>
+> Top View - KTTA38
+>
+> 1. Air crossover connection
+> 2. High stage turbocharger
+> 3. Air connection
+> 4. Aftercooler assembly
+> 5. Water transfer tube
+> 6. Lifting bracket
+> 7. Rocker lever cover
+> 8. Low stage turbocharger
+> 9. Aftercooler water outlet tube
+> 10. Right-bank thermostat housing
+> 11. Right-bank water outlet
+> 12. Thermostat housing support
+> 13. Fan hub support
+> 14. Fan hub shaft
+> 15. Left-bank thermostat housing
+> 16. Left-bank water outlet
+> 17. Turbocharger support
+> 18. Exhaust outlet pipe
+> 19. Flywheel housing
+> 20. Rocker lever housing.
+>
+> Front View - KTA38 with Outboard Aftercoolers
+>
+> 1. Turbochargers
+> 2. Left-bank water outlet
+> 3. Left-bank thermostat housing
+> 4. Coolant filter head
+> 5. Coolant filters
+> 6. Fan pilot
+> 7. Front gear cover
+> 8. Accessory drive pulley
+> 9. Direction of rotation
+> 10. Crankshaft pulley
+> 11. Vibration damper
+> 12. Alternator drive pulley
+> 13. Fan idler pulley
+> 14. Fan hub
+> 15. Right-bank thermostat housing
+> 16. Right-bank water outlet.
+>
+> Left View - KTA38 with Outboard Aftercoolers
+>
+> 1. Turbochargers
+> 2. Air connection
+> 3. Air crossover connection
+> 4. Aftercooler assembly
+> 5. Rocker lever cover
+> 6. Aftercooler water outlet tube
+> 7. Left-bank water outlet
+> 8. Thermostat housing support
+> 9. Thermostat housing
+> 10. Aftercooler water inlet tube
+> 11. Cam follower cover
+> 12. Front gear housing
+> 13. Front gear cover
+> 14. Air compressor drive
+> 15. Air compressor
+> 16. Dataplate
+> 17. Fuel pump
+> 18. Fuel filter head
+> 19. Fuel filter
+> 20. Full-flow lubricating oil filter
+> 21. Crankcase breather
+> 22. Oil level gauge
+> 23. Lubricating oil filter head
+> 24. Oil filler port
+> 25. Flywheel housing.
+>
+> Rear View - KTA38 with Outboard Aftercoolers
+>
+> 1. Oil cooler cover plate
+> 2. Cylinder block
+> 3. Turbocharger
+> 4. Exhaust manifold
+> 5. Air crossover connection
+> 6. Rocker lever cover
+> 7. Rocker lever housing
+> 8. STC (HVT manifold)
+> 9. Fuel manifold
+> 10. Cylinder head
+> 11. Flexplate
+> 12. Flywheel housing
+> 13. Oil pan
+> 14. Oil pan adapter.
+>
+> Top View - KTA38 with Outboard Aftercoolers
+>
+> 1. Turbocharger
+> 2. Air crossover connection
+> 3. Aftercooler assembly
+> 4. Water tubes
+> 5. Exhaust manifolds
+> 6. Rocker lever cover
+> 7. Aftercooler water outlet tube
+> 8. Right-bank thermostat housing
+> 9. Right-bank water outlet
+> 10. Thermostat housing support
+> 11. Fan hub support
+> 12. Fan hub shaft
+> 13. Left-bank thermostat housing
+> 14. Left-bank water outlet
+> 15. Flywheel housing
+> 16. Oil cooler cover plate.
+>
+> QSK38 Industrial - Front View Sensor Location
+>
+> 1. Engine coolant temperature sensor
+> 2. Camshaft position sensor
+> 3. Lubricating oil temperature sensor.
+>
+> QSK38 Industrial - Left View Sensor Location
+>
+> 1. Intake manifold temperature sensor (left bank front)
+> 2. Turbocharger speed sensor
+> 3. Ambient air pressure sensor
+> 4. Pre-oil rifle pressure sensor
+> 5. Oil rifle pressure sensor
+> 6. ECM 2 (source address 00)
+> 7. Fuel supply temperature sensor
+> 8. Fuel supply pressure sensor
+> 9. ECM 1 (source address 01)
+> 10. Fuel accumulator pressure sensor
+> 11. Intake manifold pressure sensor
+> 12. Camshaft position sensor
+>
+> **Note · Примечание**
+> The lubricating oil filter head can be left bank or right bank mounted.
+>
+> QSK38 Industrial - Rear View Sensor Location
+>
+> 1. Engine speed sensor (behind flywheel housing).
+>
+> QSK38 Industrial - Right View Sensor Location
+>
+> 1. Intake manifold temperature sensor (right bank rear)
+> 2. Crankcase pressure sensor
+> 3. Coolant pressure sensor
+> 4. Lubricating oil temperature sensor (lubricating oil pan)
+> 5. Intake manifold pressure sensor.
+>
+> QSK38 Industrial - Top View Sensor Location
+>
+> 1. Turbocharger speed sensor
+> 2. Engine speed sensor
+> 3. Injector solenoid (one per cylinder on top of rocker cover)
+> 4. Coolant temperature sensor.
+>
+> QSK38 Marine with Heat Exchanger - Front View Sensor Location
+>
+> 1. Coolant level sensor (top tank or OEM fitting)
+> 2. Coolant sight glass
+> 3. Camshaft position sensor.
+>
+> QSK38 Marine with Heat Exchanger - Left View Sensor Location
+>
+> 1. Engine coolant temperature sensor
+> 2. Ambient air pressure sensor
+> 3. Engine speed sensor
+> 4. Engine exhaust gas stack temperature sensor, left manifold
+> 5. Fuel supply pressure sensor
+> 6. Fuel temperature sensor
+> 7. Pre-oil filter pressure sensor
+> 8. Oil rifle pressure sensor
+> 9. ECM 2 (source address 00)
+> 10. ECM 1 (source address 01)
+> 11. Intake manifold temperature sensor (left bank front)
+> 12. Intake manifold pressure sensor (left bank front)
+> 13. Fuel accumulator pressure sensor.
+>
+> QSK38 Marine with Heat Exchanger - Rear View Sensor Location
+>
+> 1. Engine exhaust gas stack temperature sensor, left manifold
+> 2. Engine exhaust gas stack temperature sensor, right manifold
+> 3. Engine speed sensor (behind the flywheel housing).
+>
+> QSK38 Marine with Heat Exchanger - Right View Sensor Location
+>
+> 1. Crankcase pressure sensor
+> 2. Coolant pressure sensor
+> 3. Lubricating oil temperature sensor (oil pan)
+> 4. Intake manifold pressure sensor (right bank rear)
+> 5. Engine exhaust gas stack temperature sensor, right manifold.
+>
+> QSK38 Marine with Heat Exchanger - Top View Sensor Location
+>
+> 1. Crankcase pressure sensor (behind gear housing)
+> 2. Exhaust gas temperature sensor (one per cylinder located in the exhaust port outlet of the cylinder head)
+> 3. Injector solenoid (one per cylinder on top of the rocker cover).
+>
+> **Note · Примечание**
+> The exhaust gas temperature sensors on Marine engines are optional.
+>
+> QSK50 Industrial - Left View Sensor Location
+>
+> 1. Intake manifold 1 temperature sensor
+> 2. Turbocharger speed 1 sensor (for engines with single-stage **only**)
+> 3. Intake manifold 3 temperature sensor
+> 4. Engine crankshaft speed/position sensor
+> 5. Engine oil rifle pressure 1 sensor (left-bank option)
+> 6. Pre-oil filter pressure sensor
+> 7. Barometric pressure sensor
+> 8. Fuel delivery pressure sensor
+> 9. Engine fuel temperature sensor 1
+> 10. Injector metering rail 1 pressure sensor
+> 11. Engine camshaft speed/position sensor
+> 12. Intake manifold 1 pressure sensor
+> 13. Engine coolant temperature 1 sensor.
+>
+> **Note · Примечание**
+> Exhaust gas temperature sensors (8 on left-bank, **not** shown)
+>
+> QSK50 Industrial - Right View Sensor Location
+>
+> 1. Intake manifold 4 temperature sensors
+> 2. Intake manifold 2 temperature sensor
+> 3. Coolant pressure sensor
+> 4. Crankcase pressure sensor
+> 5. Engine oil temperature sensor 1
+> 6. Intake manifold 2 pressure sensor.
+>
+> **Note · Примечание**
+> Exhaust gas temperature sensors (8 on the right bank, **not** shown).
+>
+> QSK50 Marine with Heat Exchanger - Front View Sensor Location
+>
+> 1. Engine coolant level sensors
+> 2. Coolant sight glass
+> 3. Engine coolant temperature sensor
+> 4. Camshaft position sensor.
+>
+> QSK50 Marine with Heat Exchanger- Left View Sensor Location
+>
+> 1. Coolant temperature sensor
+> 2. Intake manifold temperature sensor, left bank front
+> 3. Exhaust gas temperature sensor (one per cylinder located in the exhaust port outlet of the cylinder head)
+> 4. Ambient air pressure sensor
+> 5. Engine exhaust gas stack temperature sensor, left manifold
+> 6. Engine speed sensor (behind flywheel housing)
+> 7. Fuel supply pressure sensor
+> 8. Fuel temperature sensor
+> 9. Oil rifle pressure sensor
+> 10. Pre-oil filter pressure sensor
+> 11. ECMs (see last page of Engine Diagrams for identification)
+> 12. Fuel accumulator pressure sensor
+> 13. Intake manifold pressure sensor (left bank front).
+>
+> QSK50 Marine with Heat Exchanger - Rear View Sensor Location
+>
+> 1. Engine exhaust gas stack temperature sensor, left manifold
+> 2. Engine exhaust gas stack temperature sensor, right manifold
+> 3. Fuel supply pressure sensor.
+>
+> QSK50 Marine with Heat Exchanger - Right View Sensor Location
+>
+> 1. Intake manifold pressure sensor (rear right bank)
+> 2. Intake manifold temperature sensor (rear right bank)
+> 3. Engine coolant pressure sensor
+> 4. Lubricating oil temperature sensor
+> 5. Engine exhaust gas stack temperature sensor, right manifold.
+>
+> QSK50 Marine with Heat Exchanger- Top View Sensor Location
+>
+> 1. Exhaust gas temperature sensor (one per cylinder located in the exhaust port outlet of the cylinder head)
+> 2. Injector solenoid (one per cylinder on top of the rocker housing cover).
+>
+> **Note · Примечание**
+> The exhaust gas temperature sensors on marine engines are optional sensors.
+>
+> **Note · Примечание**
+> These engine views are industrial with electronically actuated injectors.
+>
+> Front View - QSK38 Industrial (Electronically Actuated Injector)
+>
+> 1. Turbocharger
+> 2. Left-bank coolant outlet
+> 3. Air crossover pipe
+> 4. Left-bank thermostat housing
+> 5. Water filter
+> 6. Fan pulley
+> 7. Fan drive belt
+> 8. Fuel pump
+> 9. Lubricating oil fill
+> 10. Front gear cover
+> 11. Accessory drive pulley
+> 12. Stage 2 fuel filters
+> 13. Lubricating oil sump
+> 14. Vibration damper
+> 15. Camshaft pulley
+> 16. Fan idler pulley
+> 17. Alternator
+> 18. Automatic belt tensioner
+> 19. Fan hub
+> 20. Right-bank coolant outlet
+> 21. Right-bank thermostat housing
+>
+> Left View - QSK38 Industrial (Electronically Actuated Injector)
+>
+> 1. Turbocharger
+> 2. Aftercooler
+> 3. Injector
+> 4. Crankshaft breather
+> 5. Lubricating oil fill
+> 6. Flywheel housing
+> 7. Lubricating oil filters
+> 8. Lubricating oil sump
+> 9. ECMs
+> 10. Lubricating oil sump drain
+> 11. Stage 2 fuel filters
+> 12. Fuel pump
+> 13. Accessory drive pulley
+> 14. Vibration damper
+> 15. Fan drive belt
+> 16. Water filter
+> 17. Fan hub
+> 18. Air crossover pipe
+> 19. LTA coolant outlet.
+>
+> Rear View - QSK38 Industrial (Electronically Actuated Injector)
+>
+> 1. Turbochargers
+> 2. Air crossover pipe
+> 3. Exhaust manifolds
+> 4. Aftercooler covers
+> 5. Rocker lever cover
+> 6. Rocker lever housing
+> 7. Cylinder head
+> 8. Alternator
+> 9. Flexplate
+> 10. Flywheel housing
+> 11. Oil sump
+> 12. Stage 2 fuel filter
+> 13. Lubricating oil filter
+> 14. ECMs
+> 15. Dipstick
+> 16. Lubricating oil fill
+> 17. Engine speed sensor.
+>
+> Right View - QSK38 Industrial (Electronically Actuated Injector)
+>
+> 1. Turbocharger
+> 2. Aftercooler cover
+> 3. Injector
+> 4. Fan hub
+> 5. Fan belt tensioner
+> 6. Alternator
+> 7. Water pump
+> 8. Water pump coolant inlet
+> 9. Stage 2 fuel filter
+> 10. Lubricating oil sump
+> 11. Crankcase breather
+> 12. Pre-lubrication oil pump
+> 13. Lubricating oil sump drain
+> 14. Starters
+> 15. Flywheel housing.
+>
+> Top View - QSK38 Industrial (Electronically Actuated Injectors)
+>
+> 1. Air crossovers
+> 2. Injectors
+> 3. Aftercooler covers
+> 4. Flywheel housing
+> 5. Turbochargers
+> 6. Exhaust manifolds
+> 7. Left-bank coolant outlet
+> 8. Coolant filters
+> 9. LTA Coolant outlet
+> 10. Fan hub
+> 11. Right-bank coolant outlet
+> 12. Alternator.
+>
+> with Electronically Actuated Injector
+>
+> Front View - QSK50
+>
+> 1. Low temperature aftercooler thermostat bypass tube
+> 2. Low temperature aftercooler vent tube
+> 3. Low temperature aftercooler thermostat housing
+> 4. High temperature vent line
+> 5. Air crossover connections
+> 6. Aftercooler cover
+> 7. Intake manifold
+> 8. Coolant filters
+> 9. Accessory drive pulley
+> 10. Stage 2 fuel filter
+> 11. Oil pan sump
+> 12. Oil pan cover plate
+> 13. Oil pan adapter
+> 14. Accessory drive
+> 15. Crankshaft pulley
+> 16. Alternator drive pulley
+> 17. Vibration dampers
+> 18. Front gear cover
+> 19. Water pump outlet tube
+> 20. High temperature vent line.
+>
+> Left View - QSK50
+>
+> 1. Turbochargers
+> 2. Air crossover connections
+> 3. Aftercooler covers
+> 4. Intake manifold
+> 5. Crankcase breather
+> 6. Flywheel housing
+> 7. Lubricating oil filters
+> 8. Oil pan sump
+> 9. Fuel filter head
+> 10. Stage 2 fuel filters
+> 11. Electronic Control Modules (ECM)
+> 12. Fuel pump
+> 13. Oil pan cover plate
+> 14. Oil pan adapter
+> 15. Accessory drive pulley
+> 16. Front gear housing
+> 17. Front gear cover
+> 18. Fuel drain manifold block
+> 19. Coolant filter.
+>
+> **Note · Примечание**
+> Fuel filter (1st stage) is located off engine and is mounted by the OEM.
+>
+> Rear View - QSK50
+>
+> 1. Turbochargers
+> 2. Air crossover connections
+> 3. Aftercooler covers
+> 4. Rocker lever covers
+> 5. Rocker lever housing
+> 6. Intake manifold
+> 7. Jacket water bypass tube
+> 8. Water pump outlet tube
+> 9. Camshaft covers
+> 10. Oil pan sump
+> 11. Stage 2 fuel filter
+> 12. Lubricating oil filters
+> 13. Flywheel
+> 14. Flywheel housing.
+>
+> Right View - QSK50
+>
+> 1. Turbochargers
+> 2. Air crossover connections
+> 3. Aftercooler covers
+> 4. Low temperature aftercooler thermostat bypass tube
+> 5. Coolant filter
+> 6. Jacket water bypass tube
+> 7. Water pump outlet tube
+> 8. Accessory drive pulley
+> 9. Water pump
+> 10. Low temperature aftercooler water pump supply inlet
+> 11. Crankcase breather
+> 12. Dipstick tube
+> 13. Oil fill
+> 14. Oil pan sump
+> 15. Oil pan cover plate
+> 16. Oil pan adapter
+> 17. Hand hole covers
+> 18. Flywheel housing.
+>
+> Top View - QSK50
+>
+> 1. Rocker lever cover
+> 2. Aftercooler cover
+> 3. High stage turbocharger
+> 4. Air crossover connection
+> 5. Air crossover
+> 6. Water transfer tube
+> 7. Air inlet to turbocharger
+> 8. Flywheel housing
+> 9. Low stage turbocharger
+> 10. Exhaust outlet
+> 11. Left-bank thermostat housing
+> 12. Left-bank water outlet
+> 13. Coolant filters (2 on each thermostat housing)
+> 14. Fan hub
+> 15. Fan hub support
+> 16. Low temperature aftercooler thermostat housing
+> 17. Right-bank water outlet
+> 18. Right-bank thermostat housing
+> 19. Low temperature aftercooler tube.
+>
+> Front View - QSK38 Marine with Heat Exchanger
+>
+> 1. Coolant fill
+> 2. Expansion tank
+> 3. Coolant vent lines
+> 4. Turbocharger
+> 5. Sea water outlet
+> 6. Aftercooler covers
+> 7. Stage 2 fuel filter
+> 8. Fuel pump
+> 9. Heat exchanger
+> 10. Sea water pump
+> 11. Sea water inlet
+> 12. Alternator belt guard
+> 13. Coolant filters.
+>
+> Left View - QSK38 Marine with Heat Exchanger
+>
+> 1. Expansion tank
+> 2. Coolant fill
+> 3. Coolant vent lines
+> 4. Turbochargers
+> 5. Air crossover pipe
+> 6. Stage 2 fuel filters
+> 7. Flywheel housing
+> 8. Lubrication oil filters
+> 9. Oil sump
+> 10. Oil sump drain
+> 11. ECMs
+> 12. Fuel pump
+> 13. Sea water pump
+> 14. Aftercooler cover
+> 15. Heat exchanger.
+>
+> Rear View - QSK38 Marine with Heat Exchanger
+>
+> 1. Coolant fill
+> 2. Expansion tank
+> 3. Coolant filters
+> 4. Turbochargers
+> 5. Aftercooler covers
+> 6. Air crossover pipe
+> 7. Alternator
+> 8. Flywheel housing
+> 9. Flywheel
+> 10. Oil sump
+> 11. Stage 2 fuel filters
+> 12. Fuel pump
+> 13. Coolant vent lines.
+>
+> Right View - QSK38 Marine with Heat Exchanger
+>
+> 1. Coolant fill
+> 2. Coolant vent lines
+> 3. Coolant filters
+> 4. Heat exchanger
+> 5. Aftercooler cover
+> 6. Sea water pump
+> 7. Engine water pump
+> 8. Oil sump
+> 9. Oil level sensor
+> 10. Oil heater
+> 11. Starters
+> 12. Flywheel housing
+> 13. Stage 2 fuel filters
+> 14. Air crossover pipe
+> 15. Turbocharger
+> 16. Expansion tank.
+>
+> Top View - QSK38 Marine with Heat Exchanger
+>
+> 1. Coolant filters
+> 2. Expansion tank
+> 3. Coolant fill
+> 4. Aftercooler covers
+> 5. Air crossover
+> 6. Turbochargers
+> 7. Flywheel housing
+> 8. Injectors
+> 9. Sea water outlet from heat exchanger
+> 10. Heat exchanger
+> 11. Coolant vent lines.
+>
+> Marine Applications
+>
+> Right View
+>
+> 1. Turbocharger
+> 2. Coolant vent line connections
+> 3. Cylinder block drains
+> 4. Dual water outlet connections
+> 5. Thermostat housing
+> 6. Coolant heater return
+> 7. Coolant suction
+> 8. Alternator
+> 9. Water pump
+> 10. Water pump drain
+> 11. Coolant heater supply
+> 12. Coolant inlet connection
+> 13. Oil immersion heater
+> 14. Oil temperature transducer
+> 15. Bypass oil filter return
+> 16. Bypass oil filter
+> 17. Engine oil drains
+> 18. Starters
+> 19. Aftercoolers
+> 20. Intake manifold
+> 21. Exhaust
+> 22. Turbocharger coolant vent line connections.
+>
+> Left View
+>
+> 1. Turbocharger
+> 2. Intake manifold
+> 3. Exhaust
+> 4. Fuel return to tank
+> 5. Fuel inlet connection
+> 6. Monitoring switch (filtered oil) pre-low oil pressure
+> 7. Monitoring switch (filtered oil) low oil pressure
+> 8. Oil pressure transducer
+> 9. Magnetic pickups
+> 10. Oil fill and dipstick
+> 11. Oil filters
+> 12. Engine oil drains
+> 13. Crankcase breather
+> 14. Fuel filters
+> 15. Fuel pump
+> 16. Vibration damper
+> 17. Thermostat housing
+> 18. Duel water outlet connections
+> 19. Aftercoolers.
+>
+> Top View
+>
+> 1. Right-bank intake manifold
+> 2. Rear engine mounts
+> 3. Flywheel housing
+> 4. Exhaust
+> 5. Rocker lever cover
+> 6. Left-bank intake manifold
+> 7. Turbochargers
+> 8. Alternator
+> 9. Lifting brackets
+> 10. Front engine mount
+> 11. Aftercooler coolant vent connection
+> 12. Duel water outlet connection
+> 13. Engine coolant vent line connection
+> 14. Coolant vent line connection-non-activated Low Temperature Aftercooler cavity
+> 15. Turbocharger coolant vent line connection
+> 16. Lifting brackets.
+>
+> Front View
+>
+> 1. Turbochargers
+> 2. Left intake manifold
+> 3. Left side aftercooler
+> 4. Pulley, accessory drive
+> 5. Vibration damper
+> 6. Engine front mount
+> 7. Oil drain plug
+> 8. Port, hydraulic pump drive
+> 9. Alternator
+> 10. Alternator drive
+> 11. Right side aftercooler
+> 12. Right intake manifold
+> 13. Coolant outlet
+> 14. Exhaust.
+>
+> Rear View
+>
+> 1. Turbochargers
+> 2. Left intake manifold
+> 3. Left side aftercooler
+> 4. Pulley, accessory drive
+> 5. Vibration damper
+> 6. Engine front mount
+> 7. Oil drain plug
+> 8. Port, hydraulic pump drive
+> 9. Alternator
+> 10. Alternator drive
+> 11. Right side aftercooler
+> 12. Right intake manifold
+> 13. Coolant Outlet
+> 14. Exhaust.
+>
+> Right View - K38 C Power Keel Cooler Cooled (K50 Similar)
+>
+> 1. Alternator
+> 2. Local control panel
+> 3. Air cleaners
+> 4. Exhaust connections
+> 5. Coolant inlet connection from keel cooler
+> 6. Coolant filters
+> 7. Duplex fuel filters
+> 8. Base rail
+> 9. Flexible mount
+> 10. Starters
+> 11. Lubricating oil sump hand pump.
+>
+> Left View - K38 C Power Keel Cooler Cooled
+>
+> 1. Coolant outlet connection to keel cooler
+> 2. Local control panel
+> 3. Duplex lubricating oil filters
+> 4. Duplex fuel filters.
+>
+> Right View - K38 C Power Heat Exchanger Cooled (K50 Similar)
+>
+> 1. Sea water outlet connection
+> 2. Heat exchanger
+> 3. Sea water inlet connection
+> 4. Sea water pump.
+>
+> Front View - K50M2
+>
+> 1. Exhaust bellows
+> 2. Air filter
+> 3. Expansion tank
+> 4. Air restriction indicator
+> 5. Heat exchanger
+> 6. Aftercooler
+> 7. Fuel filters
+> 8. Gear cover
+> 9. Full-flow lubricating oil filters
+> 10. Damper guard
+> 11. Oil pan
+> 12. Bypass lubricating oil filters
+> 13. Sea water pump
+> 14. Sea water inlet pipe
+> 15. Alternator
+> 16. Heat exchanger sea water inlet pipe
+> 17. Sea water outlet connection.
+>
+> Left View - K50M2
+>
+> 1. Air filters
+> 2. Air restriction indicator
+> 3. Air crossover connection
+> 4. Turbocharger
+> 5. Exhaust bellows
+> 6. Single exhaust collector
+> 7. Heat shield
+> 8. Aftercooler
+> 9. Fuel filters
+> 10. Aftercooler core drain
+> 11. Full-flow lubricating oil filters
+> 12. Oil pan
+> 13. Crankcase breather
+> 14. Fuel pump
+> 15. Sea water inlet pipe
+> 16. Heat exchanger
+> 17. Sight glass
+> 18. Expansion tank.
+>
+> Rear View - K50M2
+>
+> 1. Exhaust bellows
+> 2. Air filter
+> 3. Single exhaust collector
+> 4. Air restriction indicator
+> 5. Heat shield coolant supply tube
+> 6. Aftercooler
+> 7. Heat shields
+> 8. Bypass lubricating oil filters
+> 9. Oil pan
+> 10. Flywheel
+> 11. Full-flow lubricating oil filters
+> 12. Fuel filter.
+>
+> Right View - K50M2
+>
+> 1. Turbocharger
+> 2. Air filters
+> 3. Air restriction indicator
+> 4. Expansion tank
+> 5. Sea water outlet connection
+> 6. Heat exchanger
+> 7. Zinc anode plugs
+> 8. Aftercooler
+> 9. Sea water inlet pipe
+> 10. Sea water pump
+> 11. Water pump
+> 12. Coolant filters
+> 13. Crankcase breather
+> 14. Oil pan
+> 15. Bypass lubricating oil filters
+> 16. Aftercooler core drain
+> 17. Starter
+> 18. Heat shield
+> 19. Single exhaust collector
+> 20. Exhaust bellows.
+>
+> Top View - K50M2
+>
+> 1. Turbocharger
+> 2. Air crossover connection
+> 3. Exhaust bellows
+> 4. Single exhaust collector
+> 5. Flywheel housing
+> 6. Heat shield coolant supply tubes
+> 7. Fuel filter head
+> 8. Heat shield
+> 9. Air filters
+> 10. Expansion tank
+> 11. Pressure cap
+> 12. Sea water outlet connection.

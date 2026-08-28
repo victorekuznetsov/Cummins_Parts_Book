@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 60
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-057-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-057-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Sea Water Pump
@@ -34,653 +36,1194 @@ tags:
 > **Даты:** изменён 2011-11-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-057-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-057-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Gear Driven
 
-Some K38 and K50 marine series engines are equipped with two sea water pumps. The pumps are mounted on supports on the front gear cover. The supports for the left bank and the right bank are different. The sea water pumps are the same for both the left and right banks. The sea water pump is a gear driven pump, that is driven by the camshaft gear.
+### Общие сведения
 
-The sea water pump on K38 and K50 marine series engines contains a paddle type impeller that allows the pump to function in either a **clockwise** or **counterclockwise** rotation. When viewed from the front of the engine, the sea water pump on the right bank rotates in a **counterclockwise** direction. The sea water pump on the left bank rotates in a **clockwise** direction. The inlet for the sea water pump is the port side nearest to the front gear cover.
+Гир Драйв
 
-The bearings in the sea water pumps on K38 and K50 marine series engines are lubricated by engine oil through drillings in the front gear cover and the pump supports.
+Некоторые двигатели серии K38 и K50 оснащены двумя морскими водяными насосами. Насосы установлены на опорах на передней крышке передач. Поддержка левого и правого банков различна. Морские водяные насосы одинаковы как для левого, так и для правого берега. Морской водяной насос - это насос с приводом передачи, который приводится в действие приводом распределительного вала.
 
-The sea water pumps on K38 and K50 marine series engines are limited to engine speeds of 2000 rpm or less. Cummins Inc., does **not** provide sea water pump gears for engine speeds in excess of 2000 rpm. The sea water pumps mounted on K38 and K50 marine series engines are Gilmec, Model 250/700, manufactured by:
+Насос морской воды на двигателях морской серии K38 и K50 содержит гребной колесный колесо, которое позволяет насосу функционировать либо в повороте по часовой стрелке**, либо **против часовой стрелки**. При взгляде спереди двигателя, морской водяной насос на правом берегу вращается в направлении **против часовой стрелки**. На левом берегу морской водяной насос вращается в направлении **часовой стрелки. Входной отсек для насоса морской воды - это порт, ближайший к передней крышке передач.
+
+Подшипники в морских водяных насосах на двигателях морской серии K38 и K50 смазываются моторным маслом через бурение в передней крышке передач и опорах насоса.
+
+Морские водяные насосы на двигателях морской серии K38 и K50 ограничены скоростью двигателя 2000 об/мин или менее. Cummins Inc., не предоставляет передатчики водяного насоса для двигателей со скоростью более 2000 об/мин. Накопители морской воды, установленные на двигателях морской серии K38 и K50, являются Gilmec, модель 250/700, изготовленными:
 
 - Gilbert Gilkes & Gordon Ltd.
-- Kendal, Cumbria
-- England
+- Кендал, Камбрия
+- Англия
 - LA9 7B2
 
-### Preparatory Steps
+### Подготовительные операции
 
-Gilkes
+Гилкес
 
-- Isolate the water supply to the sea water pump.
-- Disconnect the piping from the sea water pump.
+- Изолируйте водоснабжение от морского водяного насоса.
+- Отсоедините трубопровод от морского водяного насоса.
 
 ![[ck800wa.png]]
 
 Jabsco®
 
-- Isolate the water supply to the sea water pump.
-- Disconnect the piping from the sea water pump.
+- Изолируйте водоснабжение от морского водяного насоса.
+- Отсоедините трубопровод от морского водяного насоса.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Gilkes
+Гилкес
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-> [!warning] CAUTION · Осторожно
-> Do not support the weight of the sea water pump on its shaft end. Damage to the shaft can result.
+> [!warning] ОСТОРОЖНО
+> Не поддерживайте вес морского водяного насоса на его конце вала. Повреждение шахты может привести к этому.
 
-Without the mounting adapter:
+Без монтажного адаптера:
 
-Place a strap around the pump to support the weight of the pump during removal.
+Поместите ремешок вокруг насоса, чтобы поддерживать вес насоса во время удаления.
 
-Remove the two supporting bracket capscrews (1).
+Удалите два поддерживающих болта (1).
 
-Remove the four mounting capscrews and locking washers (2).
+Удалите четыре крепежных болта и запирающие шайбы (2).
 
-Work the pump loose from the gear housing and remove the pump from the engine.
+Отработай насос от коробки передач и убери насос от двигателя.
 
-Discard the o-ring (3).
+Откажитесь от кольца (3).
 
 ![[08s00011.png]]
 
 Jabsco®
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-> [!warning] CAUTION · Осторожно
-> Do not support the weight of the sea water pump on its shaft end. Damage to the shaft can result.
+> [!warning] ОСТОРОЖНО
+> Не поддерживайте вес морского водяного насоса на его конце вала. Повреждение шахты может привести к этому.
 
-With the mounting adapter:
+С монтажным адаптером:
 
-Place a strap around the pump to support the weight of the pump during removal.
+Поместите ремешок вокруг насоса, чтобы поддерживать вес насоса во время удаления.
 
-Remove the two supporting bracket capscrews (1).
+Удалите два поддерживающих болта (1).
 
-Remove the six mounting capscrews and washers (2).
+Удалите шесть крепежных болтов и шайбы (2).
 
-Work the pump loose from the gear housing adaptor and remove the pump from the engine.
+Отработай насос от адаптера корпуса передач и удали насос от двигателя.
 
-Discard the o-ring (5).
+Откажитесь от кольца (5).
 
-Remove the four adaptor mounting capscrews and locking washers (4).
+Удалите четыре крепежных затвора адаптера и запирающие шайбы (4).
 
-Remove the adaptor (6) from the front gear cover. Discard the o-ring (3).
+Удалите адаптер (6) с передней крышки передач. Откажитесь от кольца (3).
 
 ![[08s00012.png]]
 
-### Disassemble
+### Разборка
 
-Gear Driven
+Гир Драйв
 
-Rotate the shaft to check for damaged bearings or parts that are rubbing.
+Поверните вал, чтобы проверить наличие поврежденных подшипников или деталей, которые трется.
 
-If the pump does **not** turn correctly, refer to Refer to Procedure 008-074 in Section 8.
+Если насос поворачивается **не**, обратитесь к процедуре 008-074 в разделе 8.
 
 ![[sw600ca.png]]
 
-While turning the shaft, put clean 15W-40 engine oil in the oil passage to lubricate the bearings.
+При повороте вала поместите чистое моторное масло 15W-40 в нефтяной проход, чтобы смазать подшипники.
 
 ![[sw600cb.png]]
 
-> [!note] Note · Примечание
-> This procedure can also apply to check or replace the seal when the pump is installed on the engine. If the work is being performed with the pump installed, the hoses for the pump **must** be removed.
+> [!note] Примечание
+> Эта процедура также может применяться для проверки или замены уплотнения при установке насоса на двигатель. Если работа выполняется с установленным насосом, шланги для насоса должны быть удалены.
 
-Remove the V-band clamp (1).
+Удалите зажим V-диапазона (1).
 
-Use a scribe or a center punch. Put a mark on both ends of the water pump bodies so that they can be assembled correctly.
+Используйте писец или центральный удар. Нанесите на оба конца корпуса водяного насоса отметку, чтобы их можно было правильно собрать.
 
 ![[sw600fa.png]]
 
-> [!note] Note · Примечание
-> The body is a tight fit. If necessary, use a wooden wedge to aid in the separation of the parts. Put the wedge in the space between the inlet and outlet ports.
+> [!note] Примечание
+> Тело очень плотно прилегает. При необходимости используйте деревянный клин, чтобы помочь в разделении частей. Вставьте клин в пространство между входным и выходным портами.
 
-Insert a wooden hammer handle through the part until the handle is touching the end of the shaft.
+Вставьте деревянную ручку молотка через деталь, пока рукоятка не коснется конца вала.
 
-Pry on the handle.
+Попробуй на ручке.
 
-Remove the nondrive end of the body (2).
+Удалить незадвижной конец тела (2).
 
-> [!note] Note · Примечание
-> The spacer ring (3) can be a tight fit in the nondrive end of the body. It is **not** necessary to remove the spacer ring if it is secure in the body (2).
+> [!note] Примечание
+> Кольцо (3) прокладки может быть плотно прилегать к недрайвному концу корпуса. необязательно удалять кольцо прокладки, если оно надежно в теле (2).
 
-Remove the o-ring seal (4).
+Удалить уплотнение с кольцом (4).
 
 ![[sw600fb.png]]
 
-Remove the cotter pin (5), slotted nut (6), and washer (7).
+Удалите булавку (5), щелевой орех (6) и стиральную машину (7).
 
 ![[sw600fc.png]]
 
-Use standard puller ST-647, or equivalent, and two 8 - 1.25 x 70 mm capscrews (8).
+Используйте стандартный съёмник ST-647, или эквивалент, и два 8 - 1,25 х 70 мм болта (8).
 
-Remove the impeller (9).
+Удалить крыло (9).
 
 ![[sw600fd.png]]
 
-Use a drift and a mallet. Remove the key (10) from the impeller.
+Используйте дрейф и молоток. Удалите ключ (10) из движка.
 
-Remove the shims (11). Keep the shims together for future assembly. The thickness of the shims is critical for the performance of the pump.
+Удалить шлемы (11). Соберите шампуни для будущей сборки. Толщина трамваев имеет решающее значение для производительности насоса.
 
 ![[sw600fe.png]]
 
-> [!note] Note · Примечание
-> The spacer ring can be a tight fit in the body. If necessary, use two pry bars to remove the ring.
+> [!note] Примечание
+> Кольцо прокладки может быть плотно прилегать к телу. При необходимости используйте две решетки для удаления кольца.
 
-Remove the spacer ring (3).
+Удалить кольцо с пробелом (3).
 
 ![[sw600ff.png]]
 
-Bend the lockplates. Remove the four nuts (12) and the lockplates (13).
+Сгибайте локоны. Удалите четыре ореха (12) и локоны (13).
 
-> [!note] Note · Примечание
-> It will be necessary to use a mallet to separate the parts because of the tight fit between the shaft and the water seal and spacer.
+> [!note] Примечание
+> Необходимо будет использовать молоток для разделения деталей из-за плотного соответствия между валом и водяным уплотнением и спейсером.
 
-Remove the drive end of the body (14), and spacer (15), from the bearing housing and shaft assembly (16).
+Удалите приводной конец корпуса (14) и спейсер (15) из подшипникового кожуха и вала сборки (16).
 
 ![[sw600fg.png]]
 
-> [!note] Note · Примечание
-> The port plate can be a tight fit in the body after many hours of operation. If necessary, use the special tool available from Gilkes™.
+> [!note] Примечание
+> Портовая пластина может плотно прилегать к корпусу после многих часов работы. При необходимости используйте специальный инструмент, доступный от GilkesTM.
 
-> [!note] Note · Примечание
-> This tool can also be used to remove the port plate from the nondrive end of the body.
+> [!note] Примечание
+> Этот инструмент также может быть использован для удаления портовой пластины с не приводного конца корпуса.
 
 ![[sw6toga.png]]
 
-Remove the port plate (17) and mechanical seal (18) from the drive end of the pump body (14).
+Удалите портовую пластину (17) и механическое уплотнение (18) с приводного конца корпуса насоса (14).
 
 ![[sw600fh.png]]
 
-Use a press and an appropriate mandrel to remove the contact ring (19) from the body.
+Используйте пресс и соответствующую подружку для удаления контактного кольца (19) из тела.
 
 ![[sw600fi.png]]
 
-Gilkes
+Гилкес
 
-Remove the eight suction bend mounting capscrews (6).
+Удалите восемь крепежных болтов с присасывающим изгибом (6).
 
-Remove the suction bend (15) from the pump case (13).
+Удалите всасывающий изгиб (15) из корпуса насоса (13).
 
-Remove the o-ring (26).
+Удалите кольцо (26).
 
 ![[08600540.png]]
 
-> [!note] Note · Примечание
-> The main impeller uses a left hand thread.
+> [!note] Примечание
+> Главный крыльчатый колесо использует левую резьба руки.
 
-Restrain the shaft spline.
+Ограничьте валовую спираль.
 
-Use a strap wrench to unscrew the main impeller (27).
+Используйте ремешок для открутки основного рабочего колеса (27).
 
-Remove the spacer (39).
+Удалить спайсер (39).
 
 ![[08600541.png]]
 
-Loosen and remove the three screws (12) that hold the wear ring (11) into position.
+Освободите и удалите три винта (12), которые удерживают износное кольцо (11) в положении.
 
-Remove the wear ring and the visible port plate (9).
+Снимите износное кольцо и видимую портовую пластину (9).
 
 ![[08600542.png]]
 
-Rotate the assembly to remove the lip seal (17) and bevelled circlip (18) from the drive end of the bearing housing (3).
+Поверните сборку, чтобы снять уплотнение губы (17) и скошенное затвор (18) с приводного конца несущей оболочки (3).
 
 ![[08600543.png]]
 
-Stand the assembly in a press, supporting it on the square drive end flange. Press down on the shaft end.
+Стоять сборку в прессе, поддерживая ее на конце квадратного привода фланца. Нажмите на конец вала.
 
-As the shaft is pressed through the intermediate body (8) and the bearing housing (3), the priming impeller (25) will be released.
+Когда вал прижимается через промежуточный корпус (8) и подшипниковый кожух (3), то выпускается первичный импеллер (25).
 
-Take care that the shaft does **not** fall.
+Позаботьтесь о том, чтобы вал не упал.
 
-Remove the distance ring (10).
+Удалить кольцо (10).
 
 ![[08600562.png]]
 
-Unscrew and remove the locknut (16).
+Отвинтите и удалите локон (16).
 
-Press the bearing (2) and seal collar (19) off the shaft. This can be tight as it is secured with Loctite® 574 threadlocker.
+Нажмите на подшипник (2) и запечатайте воротник (19) от вала. Это может быть плотным, поскольку он защищен с помощью клея, блокирующего резьбу Loctite® 574.
 
 ![[08600544.png]]
 
-Remove the six screws (6) holding the bearing housing (3) to the intermediate body (8). Make sure to catch the shims (31), (32), (33), and (34).
+Удалите шесть винтов (6), удерживающих оболочку (3) подшипника, в промежуточный корпус (8). Обязательно ловите шампуни (31), (32), (33) и (34).
 
-Press the second port plate (9) out of the intermediate body (8).
+Нажмите вторую порточную пластину (9) из промежуточного корпуса (8).
 
-Remove the seal spacer (24).
+Удалить прокладку (24).
 
-Remove the loose rotating half of the mechanical seal (23) and press out the stationary half.
+Удалите свободную вращающуюся половину механического уплотнения (23) и выдавите стационарную половину.
 
 ![[08600545.png]]
 
-Remove the seal collar (20), the lip seal (22), and remove the circlip (21) from the bearing housing. The inner race of the roller bearing (5) will drop out.
+Удалите воротник (20), уплотнение губ (22) и удалите затвор (21) из подшипникового кожуха. Внутренняя гонка роликового подшипника (5) выпадет.
 
-Press out the bearing outer race.
+Выдавить несущую внешнюю расу.
 
-Remove the o-ring (1).
+Удалить кольцо (1).
 
 ![[08600546.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Gear Driven
+Гир Драйв
 
-> [!danger] WARNING · Опасно
-> When using detergents for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the risk of personal injury.
+> [!danger] ОПАСНО
+> При использовании моющих средств для очистки следуйте рекомендациям производителя по применению. Носите очки и защитную одежду, чтобы снизить риск получения травм.
 
-Use a 5-percent detergent solution to clean the parts. It is important to eliminate all of the grease and dirt from the surfaces that contact the contact ring and the mechanical seal.
+Используйте 5-процентный раствор моющего средства для очистки деталей. Важно устранить всю смазку и грязь с поверхностей, которые контактируют с контактным кольцом и механическим уплотнением.
 
 ![[sw600eb.png]]
 
-Check the impeller (1) and port plate for damage from cavitation.
+Проверьте крыло (1) и табличку порта на предмет повреждения от кавитации.
 
-If necessary, replace the parts.
+При необходимости заменяйте детали.
 
 ![[08600056.png]]
 
-Gilkes™ recommends the replacement of the mechanical seal **only** when the contact ring is replaced at the same time.
+GilkesTM рекомендует заменять механическое уплотнение только тогда, когда контактное кольцо заменено одновременно.
 
-> [!note] Note · Примечание
-> The following is **only** a temporary repair for an emergency situation. Cummins Inc., does **not** recommend the use of this procedure for a permanent repair. The correct repair procedures **must** be followed as soon as possible.
+> [!note] Примечание
+> Компания Cummins Inc., не рекомендует использовать эту процедуру для постоянного ремонта. Правильные процедуры ремонта должны быть выполнены как можно скорее.
 
-For an emergency repair, the contact ring (1) can be reversed so that the side of the ring that is **not** worn touches the mechanical seal.
+Для аварийного ремонта контактное кольцо (1) может быть обращено вспять, так что сторона кольца, которая не изношена, касается механического уплотнения.
 
-Reverse the ring and install it in the rubber boot (2).
+Обратите кольцо вспять и установите его в резиновую сапогу (2).
 
 ![[08600120.png]]
 
-Gilkes
+Гилкес
 
-> [!danger] WARNING · Опасно
-> When using detergents for cleaning, follow the manufacturers recommendations for use. To reduce the possibility of personal injury, wear goggles and protective clothing.
+> [!danger] ОПАСНО
+> При использовании моющих средств для очистки следуйте рекомендациям производителей по применению. Чтобы уменьшить вероятность получения травм, надевайте очки и защитную одежду.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use a 5-percent detergent solution to clean the parts.
+Используйте 5-процентный раствор моющего средства для очистки деталей.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[08600603.png]]
 
-Inspect all sea water pump components for evidence of cracks, pitting, and any obvious damage.
+Проверить все компоненты насоса морской воды на наличие трещин, ям и любых очевидных повреждений.
 
-Replace any damaged parts as necessary.
+Замените поврежденные части по мере необходимости.
 
 ![[08600604.png]]
 
-### Assemble
+### Сборка
 
-Gear Driven
+Гир Драйв
 
-Use a 5-percent detergent solution. Lubricate the rubber boot. Do **not** use grease.
+Используйте 5-процентный раствор моющего средства. Смазать резиновый сапог. Не использовать жир.
 
-Use the special tool (22) that is available from Gilkes™ or install the contact ring (19) by hand in the drive end of the body (14).
+Используйте специальный инструмент (22), который доступен от GilkesTM или установите контактное кольцо (19) вручную в приводной конец корпуса (14).
 
-Make sure the ring touches the bottom of the bore in the body.
+Убедитесь, что кольцо касается нижней части цилиндра, в теле.
 
 ![[sw600aa.png]]
 
-Use a 5-percent detergent solution. Lubricate the inside diameter of the contact ring.
+Используйте 5-процентный раствор моющего средства. Смазать внутренний диаметр контактного кольца.
 
-Install the drive end of the body (14) on the bearing housing and shaft assembly (16).
+Установить приводной конец кузова (14) на подшипниковый корпус и валовый агрегат (16).
 
-Install the lockplates (13) and the nuts (12).
+Установите шлюзовые пластины (13) и гайки (12).
 
-> [!tip] Момент затяжки · Torque Value
-> 34 n•m [25 ft-lb]
+> [!tip] Момент затяжки
+> 34 Н·м [25 фунт-фут]
 
-Bend the lockplate tabs over the nuts and the edge of the housing.
+Наклоните запорные пластины на затылки и край корпуса.
 
 ![[sw600fg.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!warning] CAUTION · Осторожно
-> Do not touch the sealing surface of the seal. The oil from your hands can cause the seal to fail.
+> [!warning] ОСТОРОЖНО
+> Не прикасайтесь к уплотнительной поверхности уплотнения. Масло из ваших рук может привести к тому, что уплотнение выйдет из строя.
 
-Use solvent to clean the shaft and the contact ring.
+Используйте растворитель для очистки вала и контактного кольца.
 
-Use a 5-percent detergent solution to lubricate the shaft.
+Используйте 5-процентный раствор моющего средства для смазки вала.
 
-> [!note] Note · Примечание
-> The largest diameter of the seal **must** touch the contact ring.
+> [!note] Примечание
+> Самый большой диаметр печати **должен** касаться контактного кольца.
 
-Install the mechanical seal (18).
+Установить механическое уплотнение (18).
 
-Push the seal until it touches the contact ring.
+Нажмите на уплотнение, пока оно не коснется контактного кольца.
 
 ![[sw600ab.png]]
 
-> [!warning] CAUTION · Осторожно
-> The lugs on the back of the port plate must enter the slots in the body.
+> [!warning] ОСТОРОЖНО
+> Запястья на задней части портовой пластины должны входить в щели в корпусе.
 
-> [!note] Note · Примечание
-> The port plates are identical and interchangeable.
+> [!note] Примечание
+> Портовые пластины идентичны и взаимозаменяемы.
 
 ![[sw600ac.png]]
 
-Install the drive end of the port plate.
+Установите конец привода портовой пластины.
 
-The port plate will be approximately 13 mm \[0.500 in\] below the chamfer when the plate is installed correctly.
+Портовая пластина будет находиться примерно на 13 мм \[0,500 дюйма \] ниже чамфера, когда пластина установлена правильно.
 
 ![[sw600ad.png]]
 
-Install the spacer (15).
+Установите прокладку (15).
 
-Install the shims (11). The shims **must** touch the drive end of the port plate.
+Установите шампуни (11). Шимы **должны** касаться приводного конца портовой пластины.
 
 ![[sw600ae.png]]
 
-> [!note] Note · Примечание
-> The thickness of the shims is critical to the performance of the pump.
+> [!note] Примечание
+> Толщина трамваев имеет решающее значение для производительности насоса.
 
-Use a straight edge (23) or ring that will touch the step in the shaft.
+Используйте прямой край (23) или кольцо, которое коснется ступени в шахте.
 
-Use a feeler gauge (24), to measure the distance from the step on the shaft and the shims (straight edge) to the port plate.
+Используйте калибр (24), чтобы измерить расстояние от ступеньки на валу и трамвае (прямой край) до портовой пластины.
 
-This distance is the impeller side clearance.
+Это расстояние является боковым зазором крыльца.
 
-| Sea Water Pump Impeller Side Clearance |  |  |
+| Морской водяной насос Impeller Side Clearance |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.18 | MIN | 0.007 |
-| 0.23 | MAX | 0.009 |
+| мм |  | в |
+| 0.18 | Мин | 0.007 |
+| 0.23 | Макс | 0.009 |
 
-If the side clearance is **not** within specifications, remove or install shims (11) until the side clearance is correct.
+Если боковой зазор **не** в пределах спецификаций, удалите или установите шимс (11) до тех пор, пока боковой зазор не будет правильным.
 
-Make sure the contact ring, seal, and port plate are seated properly.
+Убедитесь, что контактное кольцо, уплотнение и портовая пластина правильно размещены.
 
 ![[sw600ja.png]]
 
-Install the shaft key (10).
+Установите ключ вала (10).
 
-Apply Loctite® 609, or equivalent, to the shaft and key.
+Применять Loctite® 609 или эквивалент к валу и ключу.
 
 ![[sw600af.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use a hammer and mandrel to install the impeller. The bearings in the pump will be damaged.
+> [!warning] ОСТОРОЖНО
+> Не используйте молоток и багряницу для установки крыльца. Подшипники в насосе будут повреждены.
 
-> [!note] Note · Примечание
-> Make sure the puller holes in the impeller are positioned toward the nondrive end of the pump.
+> [!note] Примечание
+> Убедитесь, что отверстия в тяговом механизме расположены к не приводному концу насоса.
 
-Align the slot in the impeller with the key. Install the impeller on the shaft.
+Выровнять щель в движке с помощью ключа. Установите на вал крыльчатку.
 
-Use a mallet with a soft nose. Tap the impeller (1) **only** until it is straight on the shaft.
+Используйте молоток с мягким носом. Нажмите на крыло (1) **только**, пока оно не будет прямо на валу.
 
 ![[sw600ag.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use too much grease or antiseize compound. If the grease touches the seal, the seal will fail.
+> [!warning] ОСТОРОЖНО
+> Не используйте слишком много жира или антисептического соединения. Если смазка касается уплотнения, уплотнение выйдет из строя.
 
-Use water pump grease or antiseize compound. Apply a light layer to the threads on the shaft.
+Используйте смазку водяного насоса или антисептический состав. Нанесите на резьба на вале легкий слой.
 
-Install the washer (7) and the nut (6).
+Установите стиральную машину (7) и гайку (6).
 
-Use the nut to push the impeller on the shaft. The impeller will stop when it contacts the shims.
+Используйте гайку, чтобы нажать на вал. Двигатель остановится, когда он соприкоснется с шампуром.
 
 ![[sw600ah.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use this illustration to identify the torque specification for the nut being installed. If the older, smaller nut is torqued to the higher specification, the nut will fail.
+> [!warning] ОСТОРОЖНО
+> Используйте эту иллюстрацию для определения спецификации крутящего момента для устанавливаемого гайки. Если старый, меньший орех привинчен к более высокой спецификации, орех выйдет из строя.
 
-The nut requires a 0.05 mm \[1-1/4 in\] wrench:
+Для гайки требуется гаечный ключ размером 0,05 мм \[1-1/4 в\]:
 
-> [!tip] Момент затяжки · Torque Value
-> 160 n•m [120 ft-lb]
+> [!tip] Момент затяжки
+> 160 Н·м [120 фунт-фут]
 
-The nut requires a 0.044 mm \[1-1/8 in\] wrench:
+Для гайки требуется гаечный ключ размером 0,044 мм \[1-1/8 в\]:
 
-> [!tip] Момент затяжки · Torque Value
-> 110 n•m [80 ft-lb]
+> [!tip] Момент затяжки
+> 110 Н·м [80 фунт-фут]
 
-The larger nut is recommended.
+Рекомендуется более крупный орех.
 
 ![[sw6nuga.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not loosen the nut to align the slots in the nut with the hole in the shaft. Tighten the nut no more than 10 degrees to align the holes. If the slots and holes are not in alignment, change the washer or reduce the thickness of the washer slightly so that a slot and the hole are in alignment at the proper torque.
+> [!warning] ОСТОРОЖНО
+> Не ослабляйте гайку, чтобы выровнять щели в гайке с отверстием в валу. Затянуть гайку не более чем на 10 градусов, чтобы выровнять отверстия. Если щели и отверстия не находятся в выравнивании, измените стиральную машину или немного уменьшите толщину стиральной машины, чтобы щель и отверстие были в выравнивании при правильном крутящем моменте.
 
-Install the cotter pin (5). Bend the ends of the pin over the nut.
+Установите булавку для коттера (5). Сгибайте концы булавки над орехом.
 
 ![[sw600ai.png]]
 
-Install the o-ring seal (4) on the spacer ring (3).
+Установите уплотнение 4 на кольцо 3 прокладки.
 
-Install the spacer ring and o-ring seal. Push the o-ring seal under the lip for the V-Band clamp.
+Установите кольцо прокладки и уплотнение кольца. Нажмите уплотнение с кольцом под губой для зажима V-диапазона.
 
-> [!note] Note · Примечание
-> If the nondrive end of the port plate was removed, install the plate in the body so that the lugs on the plate engage the slots in the body.
+> [!note] Примечание
+> Если не приводной конец портовой пластины был удален, установите пластину в корпусе так, чтобы зацепки на пластине зацепили слоты в корпусе.
 
 ![[sw600aj.png]]
 
-Install the nondrive end of the body (2).
+Установите неуправляемый конец корпуса (2).
 
-Align the marks scribed on the bodies during disassembly. The center of the inlet and outlet ports **must** be in alignment within 3 degrees.
+Выравнивайте метки, нанесенные на тела во время разборки. Центр входных и выходных портов должен быть выровнен в пределах 3 градусов.
 
-Install the V-Band clamp (1).
+Установите зажим V-диапазона (1).
 
-Tighten the clamp.
+Зажим затянуть.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [15 ft-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [15 фунт-фут]
 
-Use a plastic hammer. Tap around the V-Band clamp completely. Torque the clamp fasteners again. Continue this step until the fasteners remain at the correct torque after tapping the clamp.
+Используйте пластиковый молоток. Полностью обойди зажим V-диапазона. Снова зажимные крепежи. Продолжайте этот шаг, пока крепежные элементы не останутся на правильном крутящем моменте после нажатия на зажим.
 
 ![[sw600ak.png]]
 
-Gilkes
+Гилкес
 
-Mechanical seals, lip seals, o-rings, spring washers, and bearings are **not** serviceable, and **must always** be replaced.
+Механические уплотнения, уплотнения для губ, кольца, пружинные шайбы и подшипники **не пригодны для использования и **должны всегда быть заменены.
 
-> [!note] Note · Примечание
-> Whenever Loctite® products are mentioned, all surfaces **must** be clean and grease free in accordance with Loctite® brand recommendations.
+> [!note] Примечание
+> Всякий раз, когда упоминаются продукты Loctite®, все поверхности должны быть чистыми и без жира в соответствии с рекомендациями бренда Loctite®.
 
-Press the bearing (2) onto the shaft (4).
+Нажмите подшипник (2) на вал (4).
 
-Press the shaft and bearing assembly into the bearing housing (3) with a bevelled circlip (18).
+Нажмите вал и подшипник в корпус (3) с скошенным затвором (18).
 
 ![[08600547.png]]
 
-Press the inner race of the roller bearing (5) into position on the shaft. Fully pack this bearing with Shell® ALBIDA “2” grease.
+Нажмите внутреннюю гонку роликового подшипника (5) в положение на валу. Полностью упакуйте этот подшипник смазкой Shell® ALBIDA «2».
 
-Secure the bearing with the circlip (21).
+Закрепите подшипник с помощью затвора (21).
 
 ![[08600548.png]]
 
-Apply Loctite® 574 threadlocker to the face in contact with the shaft.
+Применяют локтит® 574, блокирующий резьба клея к лицу, контактирующему с валом.
 
-Fit the seal collar (19) over the shaft.
+Подгоните воротник печати (19) над валом.
 
-Secure with a locknut (16).
+Защищать с помощью локона (16).
 
-> [!tip] Момент затяжки · Torque Value
-> 50 n•m [37 ft-lb]
+> [!tip] Момент затяжки
+> 50 Н·м [37 фунт-фут]
 
 ![[08600549.png]]
 
-Apply Loctite® 641 retainer to the shaft where the seal collar (20) will fit. Press the seal collar into position.
+Нанесите фиксатор Loctite® 641 на вал, где будет установлен воротник уплотнения (20). Нажмите на воротник печати в положение.
 
-Make sure that excess Loctite™ does **not** enter the bearing.
+Убедитесь, что избыток LoctiteTM не входит в подшипник.
 
 ![[08600550.png]]
 
-Press the lip seal (22) into position. Use grease to lubricate the lips.
+Нажмите на уплотнение губы (22) в положение. Используйте смазку для смазки губ.
 
-Fit the o-ring (1).
+Установите кольцо (1).
 
 ![[08600551.png]]
 
-Press the stationary half of the mechanical seal (23) into the intermediate body (8). Use a 5-percent detergent solution to install the seal.
+Нажмите стационарную половину механического уплотнения (23) на промежуточное тело (8). Используйте 5-процентный раствор моющего средства для установки уплотнения.
 
-Secure the intermediate body to the bearing housing with screws (6) and spring washers (7).
+Закрепить промежуточный корпус к подшипниковой обшивке с помощью винтов (6) и пружинных шайб (7).
 
-Do **not** fully tighten the screws.
+Не затягивайте полностью винты.
 
 ![[08600552.png]]
 
-Use the 5-percent detergent solution to fit the rotating half of the mechanical seal (23) over the shaft.
+Используйте 5-процентный раствор моющего средства для установки вращающейся половины механического уплотнения (23) над валом.
 
-> [!note] Note · Примечание
-> The seal faces **must** be clean and dry to operate effectively.
+> [!note] Примечание
+> Лица тюленей должны быть чистыми и сухими, чтобы эффективно работать.
 
-Slide the seal spacer (24) over the shaft.
+Сдвиньте уплотнительный прокладочный (24) над валом.
 
-Install the drive end port plate (9) with the port at the 9 o'clock position.
+Установите торцевую табличку (9) с портом в положении 9 часов.
 
 ![[08600553.png]]
 
-> [!note] Note · Примечание
-> When pressing the priming impeller onto the shaft, make sure that the shaft end is supported to avoid loading the bearings.
+> [!note] Примечание
+> При нажатии на вал зажимного колеса убедитесь, что конец вала поддерживается, чтобы избежать нагрузки на подшипники.
 
-Press the priming impeller (25) onto the shaft.
+Нажмите на крыльцо (25) вала.
 
 ![[08600554.png]]
 
-Install the distance ring (10), second port plate (9), and wear ring (11).
+Установите кольцо (10), вторую портовую пластину (9) и кольцо износа (11).
 
-> [!note] Note · Примечание
-> Make sure the port plate fitting rib is located at the 12 o'clock position so it locates between the two dowels on the wear plate.
+> [!note] Примечание
+> Убедитесь, что ребро, подходящее для порта, расположено в положении 12 часов, чтобы оно находилось между двумя дюбелями на износной пластине.
 
-Lubricate the screw threads with Loctite® 242 threadlocker.
+Смазать резьбу винтов с помощью клея, блокирующего резьбу Loctite® 242.
 
-Install the screws (12) and spring washers (37).
+Установите винты (12) и пружинные шайбы (37).
 
-> [!tip] Момент затяжки · Torque Value
-> 5 n•m [44 in-lb]
+> [!tip] Момент затяжки
+> 5 Н·м [44 фунт-дюйм]
 
 ![[08600555.png]]
 
-Install the spacer (39).
+Установите прокладку (39).
 
-Screw the impeller (27) onto the shaft using Loctite® 242 threadlocker and a strap wrench.
+Ввинтите крыло (27) на вал с помощью фиксатора резьбы Loctite® 242 и ременного гаечного ключа.
 
-> [!tip] Момент затяжки · Torque Value
-> 175 n•m [129 ft-lb]
+> [!tip] Момент затяжки
+> 175 Н·м [129 фунт-фут]
 
-Wipe away the excess Loctite®.
+Удалите избыток Loctite®.
 
 ![[08600556.png]]
 
-> [!note] Note · Примечание
-> When installing the suction bend and pump case on the assembly, it is important that the sealing o-rings are lubricated so as **not** to damage them during assembly.
+> [!note] Примечание
+> При установке на сборку чехла всасывания и насоса важно, чтобы уплотнительные кольца смазывались так, чтобы **не** повредить их во время сборки.
 
-Install a new o-ring (26).
+Установите новое кольцо (26).
 
-Install the suction bend and pump case assembly (13) using screws (6) and spring washers (7).
+Установите всасывающий изгиб и насосную чехолную установку (13) с использованием винтов (6) и пружинных шайб (7).
 
 ![[08600557.png]]
 
-The side clearance of the priming impeller **must** be equalized by fitting the appropriate shims (31), (32), (33), and (34) between the bearing housing (3) and the intermediate body (8).
+Боковой зазор гребного колеса * должен быть уравнен путем установки соответствующих стрелок (31), (32), (33) и (34) между несущим кожухом (3) и промежуточным корпусом (8).
 
-Use a feeler gauge to check the maximum, then the minimum, clearance.
+Используйте калибр для проверки максимального, а затем минимального зазора.
 
-Select the correct shim(s) to equalize the side clearance. Subtract the minimum clearance from the maximum clearance. Add one-half of the difference to the minimum to obtain the correct side clearance dimension.
+Выберите правильный шим(ы), чтобы уравнять боковой зазор. Вычтите минимальный зазор из максимального зазора. Добавить половину разницы к минимуму, чтобы получить правильный размер бокового зазора.
 
-Tighten the screws (6).
+Закручивайте винты (6).
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[08600558.png]]
 
-Install the rubber flap valve (40) into the machined bore. The small plate side fits into the discharge bore.
+Установите резиновый клапан (40) в обрабатываемый цилиндр. Маленькая сторона пластины помещается в разрядный цилиндр.
 
-Install the o-ring flange (30) and secure down with the countersunk screws (38).
+Установите фланж (30) и закрепите его противозапаховыми винтами (38).
 
 ![[08600559.png]]
 
-### Install
+### Установка
 
-Gilkes
+Гилкес
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-> [!warning] CAUTION · Осторожно
-> The sea water pump must be supported by hand or in a sling until the mounting flange is fully engaged with the engine. Do not support the weight of the sea water pump on its shaft end. Damage to the shaft can result.
+> [!warning] ОСТОРОЖНО
+> Насос морской воды должен поддерживаться вручную или в стропе до тех пор, пока крепежный фланж не будет полностью задействован двигателем. Не поддерживайте вес морского водяного насоса на его конце вала. Повреждение шахты может привести к этому.
 
-Install a new o-ring (3) on the pump mounting flange. Lubricate the o-ring with clean lubricating engine oil.
+Установите новое о-кольцо (3) на фланце насосной установки. Смазать кольцо с чистым смазочным моторным маслом.
 
-Use a hoist to lift and support the pump weight, and install the sea water pump.
+Используйте подъемник для подъема и поддержки веса насоса и установите насос для морской воды.
 
-Install and tighten the four sea water pump mounting capscrews and locking washers (2).
+Установите и затяните четыре крепежных болта и запирающие шайбы водяного насоса (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 75 n•m [55 ft-lb]
+> [!tip] Момент затяжки
+> 75 Н·м [55 фунт-фут]
 
-Install and tighten the support bracket capscrews (1).
+Установите и затяните болты опорных кронштейнов (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08s00011.png]]
 
 Jabsco®
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-> [!warning] CAUTION · Осторожно
-> The sea water pump must be supported by hand or in a sling until the mounting flange is fully engaged with the engine. Do not support the weight of the sea water pump on its shaft end. Damage to the shaft can result.
+> [!warning] ОСТОРОЖНО
+> Насос морской воды должен поддерживаться вручную или в стропе до тех пор, пока крепежный фланж не будет полностью задействован двигателем. Не поддерживайте вес морского водяного насоса на его конце вала. Повреждение шахты может привести к этому.
 
-Install a new o-ring (3) to the mounting adaptor plate (6). Lubricate the o-ring with clean lubricating engine oil.
+Установите новое о-кольцо (3) на монтажную адаптеровую пластину (6). Смазать кольцо с чистым смазочным моторным маслом.
 
-Install the mounting adaptor to the front gear cover.
+Установите монтажный адаптер на переднюю крышку передач.
 
-Install and tighten the four capscrews and washers.
+Установите и затяните четыре болта и шайбы.
 
-> [!tip] Момент затяжки · Torque Value
-> 75 n•m [55 ft-lb]
+> [!tip] Момент затяжки
+> 75 Н·м [55 фунт-фут]
 
-Install a new o-ring (5) on the pump mounting flange. Lubricate the o-ring with clean lubricating engine oil.
+Установите новое о-кольцо (5) на фланце насосной установки. Смазать кольцо с чистым смазочным моторным маслом.
 
-Use a hoist to lift and support the pump weight, and install the sea water pump.
+Используйте подъемник для подъема и поддержки веса насоса и установите насос для морской воды.
 
-Install and tighten the six sea water pump mounting capscrews and washers (2).
+Установите и затяните шесть болтов и шайб для установки водяного насоса (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Install and tighten the support bracket capscrews (1).
+Установите и затяните болты опорных кронштейнов (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08s00012.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Gilkes
+Гилкес
 
-> [!note] Note · Примечание
-> The pump **must** be filled with water before its first use and after being drained for any reason.
+> [!note] Примечание
+> Насос должен быть заполнен водой до его первого использования и после слива по любой причине.
 
-- Connect the pipework to the water pump. Make sure that no loads are imposed on the pump.
-- Fill the pump with water.
-- Open the supply and return valves to the sea water pump.
-- Operate the engine and check for leaks.
+- Подключите трубопровод к водяному насосу. Убедитесь, что на насос не накладывается нагрузка.
+- Заполните насос водой.
+- Откройте подачу и возвратные клапаны в морской водяной насос.
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
 Jabsco®
 
-> [!note] Note · Примечание
-> The pump **must** be filled with water before its first use and after being drained for any reason.
+> [!note] Примечание
+> Насос должен быть заполнен водой до его первого использования и после слива по любой причине.
 
-- Connect the pipework to the water pump. Make sure that no loads are imposed on the pump.
-- Fill the pump with water.
-- Open the supply and return valves to the sea water pump.
-- Operate the engine and check for leaks.
+- Подключите трубопровод к водяному насосу. Убедитесь, что на насос не накладывается нагрузка.
+- Заполните насос водой.
+- Откройте подачу и возвратные клапаны в морской водяной насос.
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Gear Driven
+>
+> Some K38 and K50 marine series engines are equipped with two sea water pumps. The pumps are mounted on supports on the front gear cover. The supports for the left bank and the right bank are different. The sea water pumps are the same for both the left and right banks. The sea water pump is a gear driven pump, that is driven by the camshaft gear.
+>
+> The sea water pump on K38 and K50 marine series engines contains a paddle type impeller that allows the pump to function in either a **clockwise** or **counterclockwise** rotation. When viewed from the front of the engine, the sea water pump on the right bank rotates in a **counterclockwise** direction. The sea water pump on the left bank rotates in a **clockwise** direction. The inlet for the sea water pump is the port side nearest to the front gear cover.
+>
+> The bearings in the sea water pumps on K38 and K50 marine series engines are lubricated by engine oil through drillings in the front gear cover and the pump supports.
+>
+> The sea water pumps on K38 and K50 marine series engines are limited to engine speeds of 2000 rpm or less. Cummins Inc., does **not** provide sea water pump gears for engine speeds in excess of 2000 rpm. The sea water pumps mounted on K38 and K50 marine series engines are Gilmec, Model 250/700, manufactured by:
+>
+> - Gilbert Gilkes & Gordon Ltd.
+> - Kendal, Cumbria
+> - England
+> - LA9 7B2
+>
+> ### Preparatory Steps
+>
+> Gilkes
+>
+> - Isolate the water supply to the sea water pump.
+> - Disconnect the piping from the sea water pump.
+>
+> Jabsco®
+>
+> - Isolate the water supply to the sea water pump.
+> - Disconnect the piping from the sea water pump.
+>
+> ### Remove
+>
+> Gilkes
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> **CAUTION · Осторожно**
+> Do not support the weight of the sea water pump on its shaft end. Damage to the shaft can result.
+>
+> Without the mounting adapter:
+>
+> Place a strap around the pump to support the weight of the pump during removal.
+>
+> Remove the two supporting bracket capscrews (1).
+>
+> Remove the four mounting capscrews and locking washers (2).
+>
+> Work the pump loose from the gear housing and remove the pump from the engine.
+>
+> Discard the o-ring (3).
+>
+> Jabsco®
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> **CAUTION · Осторожно**
+> Do not support the weight of the sea water pump on its shaft end. Damage to the shaft can result.
+>
+> With the mounting adapter:
+>
+> Place a strap around the pump to support the weight of the pump during removal.
+>
+> Remove the two supporting bracket capscrews (1).
+>
+> Remove the six mounting capscrews and washers (2).
+>
+> Work the pump loose from the gear housing adaptor and remove the pump from the engine.
+>
+> Discard the o-ring (5).
+>
+> Remove the four adaptor mounting capscrews and locking washers (4).
+>
+> Remove the adaptor (6) from the front gear cover. Discard the o-ring (3).
+>
+> ### Disassemble
+>
+> Gear Driven
+>
+> Rotate the shaft to check for damaged bearings or parts that are rubbing.
+>
+> If the pump does **not** turn correctly, refer to Refer to Procedure 008-074 in Section 8.
+>
+> While turning the shaft, put clean 15W-40 engine oil in the oil passage to lubricate the bearings.
+>
+> **Note · Примечание**
+> This procedure can also apply to check or replace the seal when the pump is installed on the engine. If the work is being performed with the pump installed, the hoses for the pump **must** be removed.
+>
+> Remove the V-band clamp (1).
+>
+> Use a scribe or a center punch. Put a mark on both ends of the water pump bodies so that they can be assembled correctly.
+>
+> **Note · Примечание**
+> The body is a tight fit. If necessary, use a wooden wedge to aid in the separation of the parts. Put the wedge in the space between the inlet and outlet ports.
+>
+> Insert a wooden hammer handle through the part until the handle is touching the end of the shaft.
+>
+> Pry on the handle.
+>
+> Remove the nondrive end of the body (2).
+>
+> **Note · Примечание**
+> The spacer ring (3) can be a tight fit in the nondrive end of the body. It is **not** necessary to remove the spacer ring if it is secure in the body (2).
+>
+> Remove the o-ring seal (4).
+>
+> Remove the cotter pin (5), slotted nut (6), and washer (7).
+>
+> Use standard puller ST-647, or equivalent, and two 8 - 1.25 x 70 mm capscrews (8).
+>
+> Remove the impeller (9).
+>
+> Use a drift and a mallet. Remove the key (10) from the impeller.
+>
+> Remove the shims (11). Keep the shims together for future assembly. The thickness of the shims is critical for the performance of the pump.
+>
+> **Note · Примечание**
+> The spacer ring can be a tight fit in the body. If necessary, use two pry bars to remove the ring.
+>
+> Remove the spacer ring (3).
+>
+> Bend the lockplates. Remove the four nuts (12) and the lockplates (13).
+>
+> **Note · Примечание**
+> It will be necessary to use a mallet to separate the parts because of the tight fit between the shaft and the water seal and spacer.
+>
+> Remove the drive end of the body (14), and spacer (15), from the bearing housing and shaft assembly (16).
+>
+> **Note · Примечание**
+> The port plate can be a tight fit in the body after many hours of operation. If necessary, use the special tool available from Gilkes™.
+>
+> **Note · Примечание**
+> This tool can also be used to remove the port plate from the nondrive end of the body.
+>
+> Remove the port plate (17) and mechanical seal (18) from the drive end of the pump body (14).
+>
+> Use a press and an appropriate mandrel to remove the contact ring (19) from the body.
+>
+> Gilkes
+>
+> Remove the eight suction bend mounting capscrews (6).
+>
+> Remove the suction bend (15) from the pump case (13).
+>
+> Remove the o-ring (26).
+>
+> **Note · Примечание**
+> The main impeller uses a left hand thread.
+>
+> Restrain the shaft spline.
+>
+> Use a strap wrench to unscrew the main impeller (27).
+>
+> Remove the spacer (39).
+>
+> Loosen and remove the three screws (12) that hold the wear ring (11) into position.
+>
+> Remove the wear ring and the visible port plate (9).
+>
+> Rotate the assembly to remove the lip seal (17) and bevelled circlip (18) from the drive end of the bearing housing (3).
+>
+> Stand the assembly in a press, supporting it on the square drive end flange. Press down on the shaft end.
+>
+> As the shaft is pressed through the intermediate body (8) and the bearing housing (3), the priming impeller (25) will be released.
+>
+> Take care that the shaft does **not** fall.
+>
+> Remove the distance ring (10).
+>
+> Unscrew and remove the locknut (16).
+>
+> Press the bearing (2) and seal collar (19) off the shaft. This can be tight as it is secured with Loctite® 574 threadlocker.
+>
+> Remove the six screws (6) holding the bearing housing (3) to the intermediate body (8). Make sure to catch the shims (31), (32), (33), and (34).
+>
+> Press the second port plate (9) out of the intermediate body (8).
+>
+> Remove the seal spacer (24).
+>
+> Remove the loose rotating half of the mechanical seal (23) and press out the stationary half.
+>
+> Remove the seal collar (20), the lip seal (22), and remove the circlip (21) from the bearing housing. The inner race of the roller bearing (5) will drop out.
+>
+> Press out the bearing outer race.
+>
+> Remove the o-ring (1).
+>
+> ### Clean and Inspect for Reuse
+>
+> Gear Driven
+>
+> **WARNING · Опасно**
+> When using detergents for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the risk of personal injury.
+>
+> Use a 5-percent detergent solution to clean the parts. It is important to eliminate all of the grease and dirt from the surfaces that contact the contact ring and the mechanical seal.
+>
+> Check the impeller (1) and port plate for damage from cavitation.
+>
+> If necessary, replace the parts.
+>
+> Gilkes™ recommends the replacement of the mechanical seal **only** when the contact ring is replaced at the same time.
+>
+> **Note · Примечание**
+> The following is **only** a temporary repair for an emergency situation. Cummins Inc., does **not** recommend the use of this procedure for a permanent repair. The correct repair procedures **must** be followed as soon as possible.
+>
+> For an emergency repair, the contact ring (1) can be reversed so that the side of the ring that is **not** worn touches the mechanical seal.
+>
+> Reverse the ring and install it in the rubber boot (2).
+>
+> Gilkes
+>
+> **WARNING · Опасно**
+> When using detergents for cleaning, follow the manufacturers recommendations for use. To reduce the possibility of personal injury, wear goggles and protective clothing.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use a 5-percent detergent solution to clean the parts.
+>
+> Dry with compressed air.
+>
+> Inspect all sea water pump components for evidence of cracks, pitting, and any obvious damage.
+>
+> Replace any damaged parts as necessary.
+>
+> ### Assemble
+>
+> Gear Driven
+>
+> Use a 5-percent detergent solution. Lubricate the rubber boot. Do **not** use grease.
+>
+> Use the special tool (22) that is available from Gilkes™ or install the contact ring (19) by hand in the drive end of the body (14).
+>
+> Make sure the ring touches the bottom of the bore in the body.
+>
+> Use a 5-percent detergent solution. Lubricate the inside diameter of the contact ring.
+>
+> Install the drive end of the body (14) on the bearing housing and shaft assembly (16).
+>
+> Install the lockplates (13) and the nuts (12).
+>
+> **Момент затяжки · Torque Value**
+> 34 n•m [25 ft-lb]
+>
+> Bend the lockplate tabs over the nuts and the edge of the housing.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **CAUTION · Осторожно**
+> Do not touch the sealing surface of the seal. The oil from your hands can cause the seal to fail.
+>
+> Use solvent to clean the shaft and the contact ring.
+>
+> Use a 5-percent detergent solution to lubricate the shaft.
+>
+> **Note · Примечание**
+> The largest diameter of the seal **must** touch the contact ring.
+>
+> Install the mechanical seal (18).
+>
+> Push the seal until it touches the contact ring.
+>
+> **CAUTION · Осторожно**
+> The lugs on the back of the port plate must enter the slots in the body.
+>
+> **Note · Примечание**
+> The port plates are identical and interchangeable.
+>
+> Install the drive end of the port plate.
+>
+> The port plate will be approximately 13 mm \[0.500 in\] below the chamfer when the plate is installed correctly.
+>
+> Install the spacer (15).
+>
+> Install the shims (11). The shims **must** touch the drive end of the port plate.
+>
+> **Note · Примечание**
+> The thickness of the shims is critical to the performance of the pump.
+>
+> Use a straight edge (23) or ring that will touch the step in the shaft.
+>
+> Use a feeler gauge (24), to measure the distance from the step on the shaft and the shims (straight edge) to the port plate.
+>
+> This distance is the impeller side clearance.
+>
+> | Sea Water Pump Impeller Side Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.18 | MIN | 0.007 |
+> | 0.23 | MAX | 0.009 |
+>
+> If the side clearance is **not** within specifications, remove or install shims (11) until the side clearance is correct.
+>
+> Make sure the contact ring, seal, and port plate are seated properly.
+>
+> Install the shaft key (10).
+>
+> Apply Loctite® 609, or equivalent, to the shaft and key.
+>
+> **CAUTION · Осторожно**
+> Do not use a hammer and mandrel to install the impeller. The bearings in the pump will be damaged.
+>
+> **Note · Примечание**
+> Make sure the puller holes in the impeller are positioned toward the nondrive end of the pump.
+>
+> Align the slot in the impeller with the key. Install the impeller on the shaft.
+>
+> Use a mallet with a soft nose. Tap the impeller (1) **only** until it is straight on the shaft.
+>
+> **CAUTION · Осторожно**
+> Do not use too much grease or antiseize compound. If the grease touches the seal, the seal will fail.
+>
+> Use water pump grease or antiseize compound. Apply a light layer to the threads on the shaft.
+>
+> Install the washer (7) and the nut (6).
+>
+> Use the nut to push the impeller on the shaft. The impeller will stop when it contacts the shims.
+>
+> **CAUTION · Осторожно**
+> Use this illustration to identify the torque specification for the nut being installed. If the older, smaller nut is torqued to the higher specification, the nut will fail.
+>
+> The nut requires a 0.05 mm \[1-1/4 in\] wrench:
+>
+> **Момент затяжки · Torque Value**
+> 160 n•m [120 ft-lb]
+>
+> The nut requires a 0.044 mm \[1-1/8 in\] wrench:
+>
+> **Момент затяжки · Torque Value**
+> 110 n•m [80 ft-lb]
+>
+> The larger nut is recommended.
+>
+> **CAUTION · Осторожно**
+> Do not loosen the nut to align the slots in the nut with the hole in the shaft. Tighten the nut no more than 10 degrees to align the holes. If the slots and holes are not in alignment, change the washer or reduce the thickness of the washer slightly so that a slot and the hole are in alignment at the proper torque.
+>
+> Install the cotter pin (5). Bend the ends of the pin over the nut.
+>
+> Install the o-ring seal (4) on the spacer ring (3).
+>
+> Install the spacer ring and o-ring seal. Push the o-ring seal under the lip for the V-Band clamp.
+>
+> **Note · Примечание**
+> If the nondrive end of the port plate was removed, install the plate in the body so that the lugs on the plate engage the slots in the body.
+>
+> Install the nondrive end of the body (2).
+>
+> Align the marks scribed on the bodies during disassembly. The center of the inlet and outlet ports **must** be in alignment within 3 degrees.
+>
+> Install the V-Band clamp (1).
+>
+> Tighten the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [15 ft-lb]
+>
+> Use a plastic hammer. Tap around the V-Band clamp completely. Torque the clamp fasteners again. Continue this step until the fasteners remain at the correct torque after tapping the clamp.
+>
+> Gilkes
+>
+> Mechanical seals, lip seals, o-rings, spring washers, and bearings are **not** serviceable, and **must always** be replaced.
+>
+> **Note · Примечание**
+> Whenever Loctite® products are mentioned, all surfaces **must** be clean and grease free in accordance with Loctite® brand recommendations.
+>
+> Press the bearing (2) onto the shaft (4).
+>
+> Press the shaft and bearing assembly into the bearing housing (3) with a bevelled circlip (18).
+>
+> Press the inner race of the roller bearing (5) into position on the shaft. Fully pack this bearing with Shell® ALBIDA “2” grease.
+>
+> Secure the bearing with the circlip (21).
+>
+> Apply Loctite® 574 threadlocker to the face in contact with the shaft.
+>
+> Fit the seal collar (19) over the shaft.
+>
+> Secure with a locknut (16).
+>
+> **Момент затяжки · Torque Value**
+> 50 n•m [37 ft-lb]
+>
+> Apply Loctite® 641 retainer to the shaft where the seal collar (20) will fit. Press the seal collar into position.
+>
+> Make sure that excess Loctite™ does **not** enter the bearing.
+>
+> Press the lip seal (22) into position. Use grease to lubricate the lips.
+>
+> Fit the o-ring (1).
+>
+> Press the stationary half of the mechanical seal (23) into the intermediate body (8). Use a 5-percent detergent solution to install the seal.
+>
+> Secure the intermediate body to the bearing housing with screws (6) and spring washers (7).
+>
+> Do **not** fully tighten the screws.
+>
+> Use the 5-percent detergent solution to fit the rotating half of the mechanical seal (23) over the shaft.
+>
+> **Note · Примечание**
+> The seal faces **must** be clean and dry to operate effectively.
+>
+> Slide the seal spacer (24) over the shaft.
+>
+> Install the drive end port plate (9) with the port at the 9 o'clock position.
+>
+> **Note · Примечание**
+> When pressing the priming impeller onto the shaft, make sure that the shaft end is supported to avoid loading the bearings.
+>
+> Press the priming impeller (25) onto the shaft.
+>
+> Install the distance ring (10), second port plate (9), and wear ring (11).
+>
+> **Note · Примечание**
+> Make sure the port plate fitting rib is located at the 12 o'clock position so it locates between the two dowels on the wear plate.
+>
+> Lubricate the screw threads with Loctite® 242 threadlocker.
+>
+> Install the screws (12) and spring washers (37).
+>
+> **Момент затяжки · Torque Value**
+> 5 n•m [44 in-lb]
+>
+> Install the spacer (39).
+>
+> Screw the impeller (27) onto the shaft using Loctite® 242 threadlocker and a strap wrench.
+>
+> **Момент затяжки · Torque Value**
+> 175 n•m [129 ft-lb]
+>
+> Wipe away the excess Loctite®.
+>
+> **Note · Примечание**
+> When installing the suction bend and pump case on the assembly, it is important that the sealing o-rings are lubricated so as **not** to damage them during assembly.
+>
+> Install a new o-ring (26).
+>
+> Install the suction bend and pump case assembly (13) using screws (6) and spring washers (7).
+>
+> The side clearance of the priming impeller **must** be equalized by fitting the appropriate shims (31), (32), (33), and (34) between the bearing housing (3) and the intermediate body (8).
+>
+> Use a feeler gauge to check the maximum, then the minimum, clearance.
+>
+> Select the correct shim(s) to equalize the side clearance. Subtract the minimum clearance from the maximum clearance. Add one-half of the difference to the minimum to obtain the correct side clearance dimension.
+>
+> Tighten the screws (6).
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install the rubber flap valve (40) into the machined bore. The small plate side fits into the discharge bore.
+>
+> Install the o-ring flange (30) and secure down with the countersunk screws (38).
+>
+> ### Install
+>
+> Gilkes
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> **CAUTION · Осторожно**
+> The sea water pump must be supported by hand or in a sling until the mounting flange is fully engaged with the engine. Do not support the weight of the sea water pump on its shaft end. Damage to the shaft can result.
+>
+> Install a new o-ring (3) on the pump mounting flange. Lubricate the o-ring with clean lubricating engine oil.
+>
+> Use a hoist to lift and support the pump weight, and install the sea water pump.
+>
+> Install and tighten the four sea water pump mounting capscrews and locking washers (2).
+>
+> **Момент затяжки · Torque Value**
+> 75 n•m [55 ft-lb]
+>
+> Install and tighten the support bracket capscrews (1).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Jabsco®
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> **CAUTION · Осторожно**
+> The sea water pump must be supported by hand or in a sling until the mounting flange is fully engaged with the engine. Do not support the weight of the sea water pump on its shaft end. Damage to the shaft can result.
+>
+> Install a new o-ring (3) to the mounting adaptor plate (6). Lubricate the o-ring with clean lubricating engine oil.
+>
+> Install the mounting adaptor to the front gear cover.
+>
+> Install and tighten the four capscrews and washers.
+>
+> **Момент затяжки · Torque Value**
+> 75 n•m [55 ft-lb]
+>
+> Install a new o-ring (5) on the pump mounting flange. Lubricate the o-ring with clean lubricating engine oil.
+>
+> Use a hoist to lift and support the pump weight, and install the sea water pump.
+>
+> Install and tighten the six sea water pump mounting capscrews and washers (2).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install and tighten the support bracket capscrews (1).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> ### Finishing Steps
+>
+> Gilkes
+>
+> **Note · Примечание**
+> The pump **must** be filled with water before its first use and after being drained for any reason.
+>
+> - Connect the pipework to the water pump. Make sure that no loads are imposed on the pump.
+> - Fill the pump with water.
+> - Open the supply and return valves to the sea water pump.
+> - Operate the engine and check for leaks.
+>
+> Jabsco®
+>
+> **Note · Примечание**
+> The pump **must** be filled with water before its first use and after being drained for any reason.
+>
+> - Connect the pipework to the water pump. Make sure that no loads are imposed on the pump.
+> - Fill the pump with water.
+> - Open the supply and return valves to the sea water pump.
+> - Operate the engine and check for leaks.

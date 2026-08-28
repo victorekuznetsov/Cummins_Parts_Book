@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc122.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc122.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Pressure Sensor Circuit
@@ -34,40 +36,86 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc122.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc122.pdf)
 
-### Fault Code: 122
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold Pressure Sensor Circuit
 
-Printable Version
+### Код неисправности: 122
 
-### Overview
+### Цепь датчика давления во впускном коллекторе
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 122 PID(P): P102 SPN: 102 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the intake manifold pressure sensor circuit. | Derate in power output of the engine. |
+| Код неисправности: 122 P(P): P102 SPN: 102 FMI: 3/3 лампы: Желтая СТО: | Высокое напряжение, обнаруженное на цепи датчика давления впускного коллектора. | Уменьшите выходную мощность двигателя. |
 
 ![[19200329.png]]
 
-Intake Manifold Pressure Sensor Circuit
+Цепь датчика давления во впускном коллекторе
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold pressure sensor monitors intake manifold pressure and passes information to the electronic control module (ECM) through the engine harness. If the intake manifold pressure becomes too high, it will cause a derate condition.
+Датчик давления впускного коллектора контролирует давление впускного коллектора и передает информацию в электронный модуль управления (ECM) через электропроводку двигателя. Если давление коллектора потребления становится слишком высоким, это вызовет ухудшение состояния.
 
-### Component Location
+### Расположение компонента
 
-The intake manifold pressure sensor is located in the air intake manifold toward the front of the engine.
+Датчик давления впускного коллектора расположен в коллекторе воздухозаборника по направлению к передней части двигателя.
 
-### Shoptalk
+### Практические замечания
 
-- Determine if engine is being overfueled.
+- Определите, перегружен ли двигатель.
 
-- Confirm that the correct intake manifold pressure sensor part number is being used.
+- Подтвердите, что используется правильный номер детали датчика давления коллектора впуска.
 
-- Confirm that the correct turbocharger is being used.
+- Подтвердите, что используется правильный турбокомпрессор.
 
-- If it is suspected that cold intake air is the cause of the high intake manifold pressure, test the engine with warm intake air.
+- Если есть подозрение, что холодный воздух является причиной высокого давления впускного коллектора, проверьте двигатель с теплым воздухом.
 
-- Inspect the intake manifold pressure sensor circuit for signs of tampering. Remove any extra wires from the circuit.
+- Осмотрите цепь датчика давления впускного коллектора на наличие признаков подделки. Удалите любые дополнительные провода из схемы.
 
-Refer to Troubleshooting Fault Code t05-122
+См. Код устранения неполадок t05-122
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 122
+>
+> ### Intake Manifold Pressure Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 122 PID(P): P102 SPN: 102 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the intake manifold pressure sensor circuit. | Derate in power output of the engine. |
+>
+> Intake Manifold Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The intake manifold pressure sensor monitors intake manifold pressure and passes information to the electronic control module (ECM) through the engine harness. If the intake manifold pressure becomes too high, it will cause a derate condition.
+>
+> ### Component Location
+>
+> The intake manifold pressure sensor is located in the air intake manifold toward the front of the engine.
+>
+> ### Shoptalk
+>
+> - Determine if engine is being overfueled.
+>
+> - Confirm that the correct intake manifold pressure sensor part number is being used.
+>
+> - Confirm that the correct turbocharger is being used.
+>
+> - If it is suspected that cold intake air is the cause of the high intake manifold pressure, test the engine with warm intake air.
+>
+> - Inspect the intake manifold pressure sensor circuit for signs of tampering. Remove any extra wires from the circuit.
+>
+> Refer to Troubleshooting Fault Code t05-122

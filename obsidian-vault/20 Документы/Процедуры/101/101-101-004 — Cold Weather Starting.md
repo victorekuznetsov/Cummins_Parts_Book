@@ -28,7 +28,8 @@ manuals:
   - "4915540"
   - "4960314"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-101-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-101-004.pdf"
 tags:
@@ -37,6 +38,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Cold Weather Starting
@@ -50,12 +52,30 @@ tags:
 > **Даты:** изменён 2016-10-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-101-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-101-004.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Follow the Normal Starting Procedure in this section. In cold weather, the engine can run longer at idle but **only** until the minimum specified oil pressure is detected by the engine control module (ECM).
 
-### Using Starting Aids
+### Общие сведения
 
-Cold weather starting aids are available for the engine. Contact a Cummins® Authorized Repair Location for more information.
+Следуйте обычной процедуре начала в этом разделе. В холодную погоду двигатель может работать дольше на холостом ходу, но только до тех пор, пока минимальное заданное давление масла не будет обнаружено модулем управления двигателем (ECM).
+
+### Использование стартовой помощи
+
+Для двигателя доступны стартовые средства холодной погоды. Свяжитесь с авторизованным местом ремонта Cummins® для получения дополнительной информации.
 
 ![[10900055.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Follow the Normal Starting Procedure in this section. In cold weather, the engine can run longer at idle but **only** until the minimum specified oil pressure is detected by the engine control module (ECM).
+>
+> ### Using Starting Aids
+>
+> Cold weather starting aids are available for the engine. Contact a Cummins® Authorized Repair Location for more information.

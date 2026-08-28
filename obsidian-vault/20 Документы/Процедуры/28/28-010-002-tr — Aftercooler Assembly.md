@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 115
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-002-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-010-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Aftercooler Assembly
@@ -34,1223 +36,2224 @@ tags:
 > **Даты:** изменён 2016-03-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-010-002-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Drain the coolant. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-![[ck800wa.png]]
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-with Electronically Actuated Injector
-
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
-
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
-
-- Remove the coolant bypass tube. Refer to Procedure 008-005 in Section 8 (right bank **only**).
-- Remove the exhaust gas temperature converters, if equipped. Refer to Procedure 019-450 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK50, and QSK60 Modular Common Rail System, Bulletin 4021533.
-- Remove the intake manifold air. Refer to Procedure 019-059 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK50, and QSK60 Modular Common Rail System, Bulletin 4021533.
-- Remove the intake manifold air pressure sensor. Refer to Procedure 019-061 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK 50, and QSK60 Modular Common Rail System, Bulletin 4021533.
-- Drain the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Слейте охлаждающую жидкость.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[ck800wa.png]]
 
-### Remove
+с форсункой электронного управления
 
-with Mechanically Actuated Injector
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Center Mount Aftercooler
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Remove the eight capscrews. Remove the two tubes (3). Remove the rectangular ring seals (2).
+- Удалите трубку для обхода охлаждающей жидкости. См. процедуру 008-005 в разделе 8 (правый банк **только**).
+- Удалите преобразователи температуры выхлопных газов, если они оборудованы. См. процедуру 019-450 в разделе 19 в Руководстве по устранению неполадок и ремонту QSK38, QSK50 и модульной общей железнодорожной системе QSK60, Бюллетень 4021533.
+- Удалите воздух впускного коллектора. См. процедуру 019-059 в разделе 19 в Руководстве по устранению неполадок и ремонту QSK38, QSK50 и модульной общей железнодорожной системе QSK60, Бюллетень 4021533.
+- Удалите датчик давления воздуха впускного коллектора. См. процедуру 019-061 в разделе 19 в Руководстве по устранению неполадок и ремонту QSK38, QSK 50 и модульной общей железнодорожной системе QSK60, Бюллетень 4021533.
+- Слейте охлаждающую жидкость.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
-Discard the seals.
+![[ck800wa.png]]
 
-Detach the air fuel control air tube (1) at the aftercooler.
+### Снятие
 
-> [!note] Note · Примечание
-> If the engine has a hose connection between the turbocharger and aftercooler housing, remove the T-bolt clamps and slide the hose back.
+с форсункой механического управления
 
-> [!note] Note · Примечание
-> If the turbocharger uses turbo retaining straps, remove the turbocharger. [[28-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+Центр Маунт Афтероллер
+
+Удалите восемь болтов. Удалите две трубки (3). Удалить прямоугольные кольцевые уплотнения (2).
+
+Отбросьте печати.
+
+Отсоедините воздушную трубку (1) управления топливом на послеохладитель.
+
+> [!note] Примечание
+> Если двигатель имеет шланговое соединение между турбокомпрессором и корпусом послеохладителя, удалите зажимы T-bolt и заполните шланг обратно.
+
+> [!note] Примечание
+> Если турбокомпрессор использует турбоупорные ремни, удалите турбокомпрессор.[[28-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
 
 ![[wa6tbha.png]]
 
-> [!note] Note · Примечание
-> There are four air crossovers.
+> [!note] Примечание
+> Есть четыре воздушных кроссовера.
 
-Remove the four capscrews. Pull the crossover (10) and the tube (9) from the aftercooler.
+Удалите четыре болта. Вытащите кроссовер (10) и трубку (9) из послеохладителя.
 
-Remove the gasket. Remove the tube from the crossover. Remove the o-rings (7).
+Удали прокладку. Удалите трубку с кроссовера. Удалите кольца (7).
 
-Discard the o-rings.
+Уплотнительные кольца утилизируйте.
 
-Remove the dust seal (8). If the dust seal is hard or soaked with oil, discard the seal.
+Удалить пылевые уплотнения (8). Если пылевое уплотнение твердое или пропитано маслом, отбросьте уплотнение.
 
 ![[im600hc.png]]
 
-Remove the two capscrews (10). Remove the four capscrews (7). Remove the water inlet connection assembly (5).
+Удалите два болта (10). Удалите четыре болта (7). Удалить сборку впускного соединения для воды (5).
 
-Remove the two rectangular ring seals (4). Remove the gasket (8).
+Удалите два прямоугольных кольцевых уплотнения (4). Удалить прокладку (8).
 
-Discard the gasket and seals.
+Отбросьте прокладку и уплотнения.
 
 ![[at600hb.png]]
 
-> [!danger] WARNING · Опасно
-> This assembly or component weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Этот сборочный элемент или компонент весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!note] Note · Примечание
-> Older engines have eight support brackets to the support leg capscrews (2)
+> [!note] Примечание
+> Старые двигатели имеют восемь опорных кронштейнов к болтам опорной ноги (2)
 
-Remove the 12 capscrews (2).
+Удалите 12 болтов (2).
 
-Remove the aftercooler assembly (3).
+Удалить сборку послеохладителя (3).
 
 ![[at600ha.png]]
 
-Outboard Aftercooling - Standard Cooling system
+Outboard Aftercooling - Стандартная система охлаждения
 
-Old style plumbing with the hoses removed.
+Старый стиль сантехники с убранными шлангами.
 
-> [!note] Note · Примечание
-> Each of the four aftercoolers has a coolant inlet and outlet tube. **Only** the tubes for the left bank front are shown.
+> [!note] Примечание
+> Каждый из четырех послеохладителей имеет впускную и выпускную трубку охлаждающей жидкости. Показаны только трубки для левобережной передней части.
 
-Remove both tubes from all four of the aftercoolers.
+Удалите обе трубки из всех четырех послеохладителей.
 
-> [!note] Note · Примечание
-> The rocker lever housing end of the outlet tube for the left bank rear aftercooler has a tube nut and a rectangular seal instead of a hose and hose clamps.
+> [!note] Примечание
+> Клапанный клапанный качалочный конец выпускной трубки для левобережного заднего охладителя имеет трубчатый гайку и прямоугольное уплотнение вместо шланга и шлангов.
 
-Remove the capscrew for any support clamp (6).
+Удалите болты для любого зажима поддержки (6).
 
-Loosen the hose clamps.
+Освободите зажимы шланга.
 
-Remove the inlet (11) and outlet (12) tubes. Remove the hoses.
+Удалите впускную (11) и выпускную (12) трубки. Уберите шланги.
 
 ![[wa6tbhb.png]]
 
-New Style Plumbing
+Новый стиль сантехники
 
-> [!note] Note · Примечание
-> Each of the four aftercoolers has a coolant inlet and outlet tube. **Only** the tubes for the left bank are shown
+> [!note] Примечание
+> Каждый из четырех послеохладителей имеет впускную и выпускную трубку охлаждающей жидкости. Показаны только трубки для левого берега
 
-Remove both tubes from all four of the aftercoolers.
+Удалите обе трубки из всех четырех послеохладителей.
 
-Remove the capscrews for any support clamp.
+Удалите болты для любого зажима поддержки.
 
-Loosen the tube nuts and seals (A). Discard the seals. Loosen the hose clamps at the cylinder block connection (C). Remove the inlet (8) and outlet (D) tubes. Remove the hoses.
+Освободите трубчатые орехи и уплотнения (А). Отбросьте печати. Устраните зажимы шланга на блок-соединении цилиндров (С). Удалите впускную (8) и выпускную (D) трубки. Уберите шланги.
 
 ![[10600405.png]]
 
-Type I - Crossovers with Turbo Retaining Straps
+Тип I - кроссоверы с турбоудерживающими шлепками
 
-Remove the capscrews, the clamps (17) for the turbocharger oil inlet hose, and the retaining straps (16).
+Удалите болты, зажимы (17) для впускного шланга турбокомпрессора и удерживающие ремни (16).
 
 ![[at6cohd.png]]
 
-Remove the V-band clamp (15). Pull the air crossover (14) and tube (12) from the turbocharger. Remove the dust seal (13), the tube (12) and the o-ring seals.
+Удалите зажим V-диапазона (15). Вытащите воздушный кроссовер (14) и трубку (12) из турбокомпрессора. Удалите пылевое уплотнение (13), трубку (12) и уплотнение с кольцом.
 
 ![[at6cohb.png]]
 
-Remove the capscrews, the aftercooler-to-aftercooler connection assembly and the gaskets.
+Удалите болты, сборку соединения после охлаждения и прокладки.
 
 ![[at6cohb.png]]
 
-Type II - Air Crossovers with Hose Connections
+Тип II - воздушные кроссоверы с подключением к шлангу
 
-Loosen all of the hose clamps.
+Разрядите все зажимы шланга.
 
-Remove the V-band clamp (18). Pull the air crossover (17) and the hose (16) from the turbocharger. Push the hose (12) on the connection (13) as far as possible.
+Удалите зажим V-диапазона (18). Вытащите воздушный кроссовер (17) и шланг (16) из турбокомпрессора. Нажмите шланг (12) на соединение (13), насколько это возможно.
 
-Remove the four capscrews. Remove the connection and gasket. Remove the hose from the connection.
+Удалите четыре болта. Удалить соединение и прокладку. Удалите шланг из соединения.
 
-Discard the hoses and gasket.
+Выкинуть шланги и прокладку.
 
 ![[im6coha.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!note] Note · Примечание
-> If the aftercooler water tubes have **not** been removed, remove them at this time
+> [!note] Примечание
+> Если послеохлажденные трубки воды не были удалены, удалите их в это время.
 
-Remove all of the capscrews. Remove the aftercooler assembly (40) and the gaskets. Remove the rectangular seal sleeves (2).
+Удалите все болты. Удалите сборку послеохладителя (40) и прокладки. Удалить прямоугольные рукава уплотнения (2).
 
-Discard the seals and gaskets.
+Отбросьте уплотнения и прокладки.
 
 ![[at600hc.png]]
 
-Outboard Aftercooler - Low Temperature Aftercooling (LTA) Cooling System
+Outboard Aftercooler - система охлаждения с низкой температурой (LTA)
 
-The following procedure should be used in both engine banks.
+В обоих банках двигателей следует использовать следующую процедуру.
 
-Loosen capscrews on the water transfer connections to create flexibility.
+Размыкание болтов на соединениях для передачи воды для создания гибкости.
 
-Remove the capscrews for any supporting clamp.
+Удалите болты для любого поддерживающего зажима.
 
-Remove the water transfer tubes.
+Удалите водопроводные трубы.
 
 ![[th6tbma.png]]
 
-Remove the capscrews on the water transfer connections between the aftercooler cores.
+Удалите болты на соединениях передачи воды между охладителями.
 
 ![[10600406.png]]
 
-Remove the water transfer connections.
+Удалите соединения для передачи воды.
 
 ![[10600407.png]]
 
-Loosen all of the hose clamps.
+Разрядите все зажимы шланга.
 
-Remove the V-band clamp (1). Pull the air crossover (2) and the hose (3) from the turbocharger. Push the hose (4) on the connection (5) as far as possible.
+Удалите зажим V-диапазона (1). Вытащите воздушный кроссовер (2) и шланг (3) из турбокомпрессора. Нажмите шланг (4) на соединение (5) как можно дальше.
 
-Remove the four capscrews. Remove the connection and gasket (6). Remove the hose from the connection.
+Удалите четыре болта. Удалить соединение и прокладку (6). Удалите шланг из соединения.
 
-Remove the four capscrews. Remove the flange (7) and the gasket (8).
+Удалите четыре болта. Удалите фланец (7) и прокладку (8).
 
-Discard the hoses and gaskets.
+Выкинуть шланги и прокладки.
 
 ![[10600408.png]]
 
-Loosen hose clamps (18).
+Зажимы шлангов для вымывания (18).
 
 ![[10600409.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove all of the capscrews. Remove the aftercooler assembly (2) and the gaskets.
+Удалите все болты. Удалите сборку послеохладителя (2) и прокладки.
 
-Remove the rectangular seal sleeves (28).
+Удалить прямоугольные рукава уплотнения (28).
 
-Discard the seals and gaskets.
+Отбросьте уплотнения и прокладки.
 
 ![[at6csac.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the hose clamps at the air crossover to turbocharger hose connection and at the aftercooler cover hose connections.
+Удалите зажимы шланга на воздушном кроссовере до соединения шланга с турбокомпрессором и на соединениях шланга после охлаждения.
 
-Remove the air crossover support capscrews. Slide the hoses back from the air crossover and remove the air crossover.
+Удалите воздушные болты поддержки кроссовера. Снимите шланги обратно с воздушного кроссовера и удалите воздушный кроссовер.
 
 ![[10600521.png]]
 
-Remove the eight capscrews from the air transfer bellows. Remove the bellows and discard the gaskets (marine **only**).
+Удалите восемь болтов с воздушных луков. Удалите сильфон и отбросьте прокладки (морские **только**).
 
 ![[10600522.png]]
 
-Remove the hose clamps from the air connection tube at the turbocharger connection tube and the aftercooler cover. Slide the hoses onto the connection tube and remove the tube (marine **only**).
+Удалите зажимы шланга из трубки воздушного соединения на трубке соединения турбокомпрессора и крышке охладителя. Сдвиньте шланги на соединительную трубку и удалите трубку (морская **только**).
 
 ![[10600523.png]]
 
-Remove the hose clamps from the rubber tee coolant connections.
+Удалите зажимы шланга из соединений охлаждающей жидкости резинового тиса.
 
-Slide the air balance tube toward the adjacent aftercooler housing.
+Наклоните трубку воздушного баланса к соседнему корпусу послеохладителя.
 
 ![[10600524.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove a lower mounting capscrew at each end of the aftercooler assembly and install guide pins long enough to protrude from the housing.
+Удалите нижние крепежные болты на каждом конце сборки послеохладителя и установите направляющие штифты достаточно долго, чтобы вытолкнуться из корпуса.
 
-Remove a cover mounting capscrew at each end of the assembly and install lifting eyes.
+Удалите крышки крепления болтов на каждом конце сборки и установите подъемные глаза.
 
-Attach a sling to the lifting eyes and a suitable hoist.
+Прикрепите пращу к поднятым глазам и подходящую подтяжку.
 
-Raise the hoist until tension is applied to the assembly.
+Поднимите подъемник до тех пор, пока напряжение не будет применено к сборке.
 
-Remove the remainder of the mounting capscrews.
+Удалите оставшуюся часть крепежных болтов.
 
 ![[06400100.png]]
 
-Lift and move the assembly away from the cylinder head and the adjacent aftercooler assembly. Be careful not to damage the air balance tube and the rubber coolant connections as the aftercooler assembly is removed.
+Поднимите и переместите сборку подальше от головки цилиндра и смежного послеохладительного сборки. Будьте осторожны, чтобы не повредить трубку воздушного баланса и соединения резиновой охлаждающей жидкости, поскольку сборка послеохладителя удалена.
 
-Repeat the procedure for the remaining assemblies.
+Повторите процедуру для остальных собраний.
 
 ![[10600525.png]]
 
-### Disassemble
+### Разборка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Remove the air tubes (1). Remove the o-rings (2). Discard the o-rings.
+Удалите воздушные трубки (1). Удалите кольца (2). Уплотнительные кольца утилизируйте.
 
-Remove the dust seals (3). Check the dust seals for excessive oil or hardness. Discard any dust seal that is hard or soaked with oil.
+Удалить пылевые уплотнения (3). Проверьте пылевые уплотнения на наличие избыточного масла или твердости. Откажитесь от любой пылевой печати, которая твердая или пропитана маслом.
 
-Check for indications of gasket leaks.
+Проверьте наличие утечек прокладки.
 
 ![[at600gh.png]]
 
-> [!note] Note · Примечание
-> All K50 aftercoolers contain this connection. Newer K38 aftercoolers contain a shorter connection.
+> [!note] Примечание
+> Все послеохладители K50 содержат эту связь. Новые послеохладители K38 содержат более короткое соединение.
 
-Remove the four capscrews for each crossover connection. Remove the connections (5) and gaskets (4).
+Удалите четыре болта для каждого соединения кроссовера. Удалите соединения (5) и прокладки (4).
 
-Discard the gaskets.
+Отбросьте прокладки.
 
 ![[at600fd.png]]
 
-Remove the water outlet connections (6). Remove the rectangular ring or o-ring (7) from the connection. Discard the o-ring.
+Удалить водопроводные соединения (6). Удалить прямоугольное кольцо или о-кольцо (7) из соединения. Отбросьте кольцо.
 
 ![[at600fe.png]]
 
-Remove the four cover plates (4) and gaskets (5).
+Удалите четыре пластины (4) и прокладки (5).
 
-Discard the gaskets.
+Отбросьте прокладки.
 
 ![[ci6hsfb.png]]
 
-Remove the four air crossover connections (6), spacers (7), and gaskets (8).
+Удалите четыре соединения воздушного кроссовера (6), прокладки (7) и прокладки (8).
 
-Discard the gaskets.
+Отбросьте прокладки.
 
 ![[ci6hsfc.png]]
 
-Remove both of the aftercooler covers (13) and gaskets (14).
+Удалите оба чехла послеохладителя (13) и прокладки (14).
 
-Remove the aftercooler elements (15) and the gaskets (14) from the housing (16).
+Удалите элементы послеохлаждения (15) и прокладки (14) из кожуха (16).
 
 ![[at600fh.png]]
 
-Standard System
+Стандартная система
 
-> [!note] Note · Примечание
-> This procedure is performed while the intake manifold (aftercooler housing) remains on the engine.
+> [!note] Примечание
+> Эта процедура выполняется, когда впускной коллектор (охладитель) остается на двигателе.
 
-Remove the parts.
+Удалите части.
 
-1. Capscrews, lock washers, and flat washers
-2. Adapter connections
-3. Gaskets.
+1. болты, стиральные машины и плоские стиральные машины
+2. Адаптерные соединения
+3. Гаскеты.
 
-Discard the gaskets.
+Отбросьте прокладки.
 
-Remove the o-rings (6) from the inner adapters (4).
+Удалите кольца (6) из внутренних адаптеров (4).
 
 ![[at600fa.png]]
 
-Remove the 21 capscrews and flat washers (5).
+Удалите 21 болт и плоские шайбы (5).
 
-> [!note] Note · Примечание
-> Do **not** damage the gasket surfaces if it is necessary to use a wedge to separate the parts.
+> [!note] Примечание
+> Не повреждайте прокладочные поверхности, если необходимо использовать клин для разделения деталей.
 
-Remove the aftercare cover (6). It will be necessary to move the cover so that it will **not** hit the nipple on the element.
+Удалить покрытие после ухода (6). Необходимо будет переместить крышку так, чтобы она **не** ударилась о сосок на элементе.
 
-Remove the gasket (7) from the intake manifold (8).
+Удалите прокладку (7) из впускного коллектора (8).
 
 ![[at600fb.png]]
 
-Remove the eight captive capscrews (9). Note that the washers on the capscrews are spring-type washers.
+Удалите восемь болтов (9). Обратите внимание, что шайбы на болтах являются шайбами пружинного типа.
 
-Remove the element (10) from the intake manifold (8).
+Удалите элемент (10) из впускного коллектора (8).
 
 ![[at600fc.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Low Temperature Aftercooler (LTA) System
+Система низкотемпературного охладителя (LTA)
 
-> [!note] Note · Примечание
-> This procedure is performed while the intake manifold (aftercooler housing) remains on the engine.
+> [!note] Примечание
+> Эта процедура выполняется, когда впускной коллектор (охладитель) остается на двигателе.
 
-Remove the fourteen capscrews (27), washers (26), and spacers (29).
+Удалите четырнадцать болтов (27), шайбы (26) и спейсеры (29).
 
 ![[at6csaa.png]]
 
-Remove the aftercooler element from the housing.
+Удалите элемент послеохлаждения из корпуса.
 
 ![[at6hshb.png]]
 
-Remove the rubber seal from the groove on the aftercooler housing.
+Удалите резиновую уплотнитель из канавки на корпусе послеохладителя.
 
-Inspect the seal. Discard if damaged.
+Проверьте печать. Выбросьте, если поврежден.
 
 ![[at6sewh.png]]
 
-Inspect the rectangular strip seal (3). Discard the seal if it is ripped, cracked, or worn.
+Осмотрите прямоугольную полосу уплотнения (3). Отбросьте печать, если она разорвана, треснула или изношена.
 
 ![[at6coaa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the coolant connections from the aftercooler cover and housing.
+Удалите соединения охлаждающей жидкости из крышки и кожуха послеохладителя.
 
-Discard the connection gasket.
+Отбросьте прокладку соединения.
 
 ![[10600526.png]]
 
-Remove the aftercooler cover mounting capscrews, cover, and gasket.
+Удалите крепежные болты, крышку и прокладку послеохладителя.
 
-Discard the gasket, grommet seal, and o-ring seal.
+Отбросьте прокладку, громмет-печать и уплотнение с кольцом.
 
 ![[10600082.png]]
 
-Remove the aftercooler element and gasket.
+Удалите элемент послеохлаждения и прокладку.
 
-Discard the seals and gaskets.
+Отбросьте уплотнения и прокладки.
 
 ![[08600343.png]]
 
-### Pressure Test
+### Испытание на давление
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-#### Standard System
+#### Стандартная система
 
-- Use a hose plugged with a pipe plug. Plug one of the water nipples as illustrated. Attached an air line and a gauge to the other nipple. Pressure check the element.
-- Apply air pressure. Check for leaks.
+- Используйте шланг, заглушенный трубной пробкой. Подключите один из сосков воды, как показано. Прикрепил линию сжатого воздуха и калибр к другому соску. Проверка давления элемента.
+- Примените давление воздуха. Проверьте на отсутствие утечек.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | kpa | psi |
-| Air Pressure | 448 | 65 |
+|  | каша | пси |
+| Воздушное давление | 448 | 65 |
 
-If the part leaks, it **must** be replaced.
+Если часть просачивается, она должна быть заменена.
 
 ![[at4etsa.png]]
 
-LTA
+ЛЕТ
 
-#### Low Temperature Aftercooled system
+#### Низкая температура системы после охлаждения
 
-- Use a hose plugged with a pipe plug. Plug one of the element nipples. Attach an air line equipped with a gauge and a regulator valve to the remaining nipple.
-- Submerge the core in a tank of water heated to 50° C \[120° F\]. Do **not** apply air pressure yet. Check the tank for bubbles. Note the location and rate of bubbles. These bubbles are the air entrapped behind the silicone bead.
+- Используйте шланг, заглушенный трубной пробкой. Подключите один из элементов сосков. Прикрепить к оставшейся части соска линию сжатого воздуха, оборудованную калибром и регулирующим клапаном.
+- Погрузите ядро в резервуар с водой, нагретой до 50°C[120°F]. * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * Проверьте бак на наличие пузырьков. Обратите внимание на местоположение и скорость пузырьков. Эти пузырьки - воздух, заключенный за силиконовой бусиной.
 
 ![[at6hosa.png]]
 
-Leave the element submerged for 5 minutes to allow the temperature of the element to stabilize. Apply air pressure. Check for leaks. The element leaks when bubbles form faster or from a new location while the tank is pressurized.
+Оставьте элемент погруженным на 5 минут, чтобы температура элемента стабилизировалась. Примените давление воздуха. Проверьте на отсутствие утечек. Элемент просачивается, когда пузырьки образуются быстрее или из нового места, в то время как резервуар находится под давлением.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | kpa | psi |
-| Air Pressure | 448 | 65 |
+|  | каша | пси |
+| Воздушное давление | 448 | 65 |
 
-Replace the element if leaks are discovered.
+Замените элемент, если обнаружены утечки.
 
-> [!note] Note · Примечание
-> A malfunctioning aftercooler element will often be coated on the outside with coolant deposits.
+> [!note] Примечание
+> Неисправный элемент после охлаждения часто будет покрыт снаружи отложениями охлаждающей жидкости.
 
 ![[at6etse.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> All solvent or steam must be drained from the housing. Any liquid remaining in the housing can enter the combustion chamber and damage the engine.
+> [!warning] ОСТОРОЖНО
+> Весь растворитель или пар необходимо слить из кожуха. Любая жидкость, оставшаяся в корпусе, может попасть в камеру сгорания и повредить двигатель.
 
-Use solvent or steam.
+Используйте растворитель или пар.
 
-Clean the exterior of the assembly. Flush the elements through the bores of the water outlet connection at the top. Clean all the bores and grooves for the o-rings. Clean all gasket surfaces. Dry with compressed air.
+Очистить внешний вид сборки. Промывать элементы через отверстия водоотводного соединения в верхней части. Очистите все канавки и канавки для колец. Очистите все прокладочные поверхности. Просушите сжатым воздухом.
 
 ![[at600gh.png]]
 
-Check the assembly for cracks or other damage. There **must** be no cracks in the housing or cover.
+Проверьте сборку на наличие трещин или других повреждений. В корпусе или крышке не должно быть трещин.
 
-Check the dust seals for excessive oil or hardness. Discard any dust seal that is hard or soaked with oil.
+Проверьте пылевые уплотнения на наличие избыточного масла или твердости. Откажитесь от любой пылевой печати, которая твердая или пропитана маслом.
 
-If the parts are cracked or otherwise damaged, or there are any indications of gasket leaks, the assembly **must** be rebuilt.
+Если детали сломаны или повреждены иным образом, или есть какие-либо признаки утечек прокладки, сборка должна быть восстановлена.
 
-> [!note] Note · Примечание
-> If the K50 aftercooler housing does not contain cross bolts, or contains a rib in the center of the housing, it is recommended that the housing be modified for the cross bolts before it is installed again. Refer to Procedure 010-073 in Section 10.
+> [!note] Примечание
+> Если корпус послеохладителя К50 не содержит поперечных болтов или содержит ребро в центре корпуса, рекомендуется изменить корпус для поперечных болтов до его установки снова. См. процедуру 010-073 в разделе 10.
 
 ![[10600055.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-Clean all gasket surfaces.
+Очистите все прокладочные поверхности.
 
-Use solvent or steam to clean the parts.
+Используйте растворитель или пар для очистки деталей.
 
 ![[at1bdeb.png]]
 
-Check the air passages for evidence of coolant leaks. If there is any evidence of leaks, the assembly **must** be rebuilt.
+Проверьте воздушные проходы на наличие утечек охлаждающей жидкости. Если есть какие-либо доказательства утечек, сборка должна быть восстановлена.
 
-Check the parts for cracks or other damage.
+Проверьте детали на наличие трещин или других повреждений.
 
 ![[at600gg.png]]
 
-Inspect the rectangular strip seal (3). Discard the seal if it is ripped, cracked, or worn.
+Осмотрите прямоугольную полосу уплотнения (3). Отбросьте печать, если она разорвана, треснула или изношена.
 
 ![[at6coaa.png]]
 
-### Assemble
+### Сборка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Center Mount Aftercooler
+Центр Маунт Афтероллер
 
-Install the housing-to-element flange gasket (14). Be sure the proper holes are aligned with the roll pin.
+Установите прокладку фланца корпуса к элементу (14). Убедитесь, что правильные отверстия выровнены с штифтом рулона.
 
-Install the cooler element (15).
+Установите холодный элемент (15).
 
-Install a new cover-to-element flange gasket (14) and the cover (13).
+Установите новую прокладку фланца от крышки до элемента (14) и крышку (13).
 
-> [!note] Note · Примечание
-> Each cover contains 18 capscrews.
+> [!note] Примечание
+> Каждая крышка содержит 18 болтов.
 
-Install the flat washers, lock washers, and capscrews.
+Установите плоские шайбы, шайбы блокировки и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-Repeat this step for the other side of the assembly.
+Повторите этот шаг для другой стороны сборки.
 
 ![[at600fh.png]]
 
-Install the four air crossover connection gaskets (8), the spacers (7), the gaskets (8), and the connection (6).
+Установите четыре прокладки воздушного кроссовера (8), прокладки (7), прокладки (8) и соединение (6).
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[ci6hsfc.png]]
 
-Install the new cover plate gaskets (5) and plates (4).
+Установите новые прокладки (5) и пластины (4).
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[ci6hsfb.png]]
 
-> [!note] Note · Примечание
-> The adapters **must** be installed so that the water leakage hole is toward the bottom of the aftercooler housing. This hole prevents any coolant leak from entering the aftercooler housing at the water inlet or outlet connections.
+> [!note] Примечание
+> Адаптеры должны быть установлены так, чтобы отверстие для утечки воды находилось на дне корпуса послеохладителя. Это отверстие предотвращает любую утечку охлаждающей жидкости от входа в корпус послеохладителя на входе в воду или выходных соединениях.
 
-Install four new adapter connection gaskets (9) and adapters (10) on the nipples for the element.
+Установите четыре новых прокладки (9) и адаптеры (10) на соски для элемента.
 
 ![[at600aa.png]]
 
-> [!warning] CAUTION · Осторожно
-> Make sure the correct seal is installed for the water connection. If the wrong seal is installed, a leak will result, leading to engine damage.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что правильное уплотнение установлено для подключения к воде. Если установлен неправильный уплотнитель, то произойдет утечка, что приведет к повреждению двигателя.
 
-> [!note] Note · Примечание
-> This information applies to the water inlet and outlet connections for the aftercooler.
+> [!note] Примечание
+> Эта информация относится к впускным и выходным соединениям для охладителя.
 
-If necessary, install a new rectangular seal ring or a new o-ring on the water outlet connection. Look at the water outlet connection.
+При необходимости установите новое прямоугольное уплотнительное кольцо или новое о-кольцо на водоотводное соединение. Посмотрите на подключение к водоотводу.
 
-Install the rectangular ring seal (17) with the connection (18) that does **not** have the step at the end of the chamfer.
+Установите прямоугольное кольцевое уплотнение (17) с соединением (18), которое не имеет шага в конце чамфера.
 
-Install the o-ring (19) with the connection (20) that has a step at the end of the chamfer.
+Установите кольцо (19) с соединением (20), которое имеет шаг в конце чамфера.
 
-> [!note] Note · Примечание
-> The rectangular seal ring is the same part number as the seal on the water outlet tube. The o-ring is the same part number as the seal (10) on the adapter connection (8). The older connection (20) is **not** available for service.
+> [!note] Примечание
+> Прямоугольное кольцо уплотнения - это то же самое число детали, что и уплотнение на водоотводной трубке. Кольцо - это тот же номер детали, что и уплотнение (10) на соединении адаптера (8). Старое соединение (20) не доступно для обслуживания.
 
 ![[at6cogb.png]]
 
-Install both water outlet connection seals (7) and connections (6). Install the lock washers and capscrews.
+Установите как уплотнения для подключения к водоотводу (7), так и соединения (6). Установите шайбы и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[at600fe.png]]
 
-> [!note] Note · Примечание
-> All K50 aftercoolers contain this connection. Newer K38 aftercoolers contain a shorter connection.
+> [!note] Примечание
+> Все послеохладители K50 содержат эту связь. Новые послеохладители K38 содержат более короткое соединение.
 
-Install new air crossover connection gaskets (4) and connections (5). Install the flat washers, lock washers, and capscrews.
+Установите новые воздушные прокладки (4) и соединения (5). Установите плоские шайбы, шайбы блокировки и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[at600fd.png]]
 
-> [!note] Note · Примечание
-> Lubricate **only** the o-ring seals that are to be installed immediately in the bore of the housing or connection. This will prevent the exposed o-ring from expanding and collecting dirt.
+> [!note] Примечание
+> Смазать только уплотнения для колец, которые должны быть установлены непосредственно в цилиндре корпуса или соединения. Это предотвратит разоблачение кольца от расширения и сбора грязи.
 
-Install two new o-rings (2) on each air tube.
+Установите два новых кольца (2) на каждой воздушной трубке.
 
-Install the dust seals (3) on the air tubes (1).
+Установите пылевые уплотнения (3) на воздушные трубы (1).
 
-Use vegetable oil. Lubricate the o-ring.
+Используйте растительное масло. Смазать кольцо.
 
-Install the air tube in the bore of the housing or connection.
+Установите воздушную трубку в цилиндрический отсек корпуса или соединения.
 
 ![[at600gh.png]]
 
-Standard System
+Стандартная система
 
-Install the element (10) in the manifold (8). Install the eight capscrews (9) that contain the captive spring washers.
+Установите элемент (10) в коллектор (8). Установите восемь болтов (9), которые содержат пленные пружинные шайбы.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[at600fc.png]]
 
-Install a new gasket (7) and cover (6). Install the 21 captive capscrews and flat washers (5).
+Установите новую прокладку (7) и крышку (6). Установите 21 невольничий болт и плоские шайбы (5).
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[at600fb.png]]
 
-Install two new o-rings (4) in each adapter (2).
+Установите два новых кольца (4) в каждый адаптер (2).
 
-Use vegetable oil. Lubricate the o-rings.
+Используйте растительное масло. Смазать кольца.
 
-Install new gaskets (3) and the adapters (2).
+Установите новые прокладки (3) и адаптеры (2).
 
-Install the four capscrews with flat washers and lock washers (1).
+Установите четыре болта с плоскими шайбами и шайбами блокировки (1).
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [142 фунт-дюйм]
 
 ![[at600fa.png]]
 
-Low Temperature Aftercooler (LTA)
+Низкотемпературный охладитель (LTA)
 
-The intake manifolds serve as the aftercooler housing. The element is installed through the cast opening in the side of the housing.
+Впускные коллекторы служат в качестве послеохладительного кожуха. Элемент устанавливается через отливное отверстие в боковой части корпуса.
 
 ![[at6hswa.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Install the foam seal into the groove in the aftercooler housing.
+Установите пенный уплотнитель в канавку в корпусе послеохладителя.
 
-> [!note] Note · Примечание
-> Applying a small amount of sealant (RTV) into the groove aids in holding the foam seal in place. Do **not** allow sealant on the visible portion of the foam seal.
+> [!note] Примечание
+> Нанесение небольшого количества герметика (RTV) в канавку помогает удерживать пенный уплотнитель на месте. не допускать герметика на видимой части пенного уплотнения.
 
 ![[at6sewd.png]]
 
-The length of the seal protruding from each end is then bent and installed into the groove provided to obtain a positive seal with the element mounting flange. The protrusion **must** be 3 to 6 mm \[0.118 to 0.236 inch\] outside the housing at both sides. If required, cut the length to this specification.
+Длина уплотнения, выступающего с каждого конца, затем изгибается и устанавливается в канавку, предусмотренную для получения положительного уплотнения с фиксирующим фланцем элемента. Выпячивание должно быть от 3 до 6 мм \[0,118 до 0,236 дюйма\] снаружи корпуса с обеих сторон. Если требуется, то укажите длину этого описания.
 
 ![[at6gkwb.png]]
 
-Apply a light film of vegetable oil to the foam seal at the ends of the housing to reduce drag of the element and prevent damage to the foam seal during element installation.
+Нанести на пенообразное уплотнение на концах кожуха легкую пленку растительного масла, чтобы уменьшить сопротивление элемента и предотвратить повреждение пенового уплотнения во время установки элемента.
 
 ![[at6sewf.png]]
 
-There are two methods of sealing the aftercooler to element joint:
+Существует два способа уплотнения послеохладителя до элемента сустава:
 
-- Gasket/Sealant
-- Rubber Seal.
+- Гаскет/Заяц
+- Резиновая печать.
 
 ![[nobox.png]]
 
-Gasket/Sealant Installation
+Установка газов/защитных
 
-> [!note] Note · Примечание
-> The gasket was replaced with liquid sealant.
+> [!note] Примечание
+> Прокладка была заменена жидким герметиком.
 
-Apply two separate, continuous beads of liquid sealant Loctite® 509 (also called Loctite® LMD127) directly to the aftercooler housing. Each sealant bead is to be 1.5 mm \[0.039 inch\] in diameter. This sealant replaced the conventional gasket.
+Нанесите две отдельные непрерывные бусинки жидкого герметика Loctite® 509 (также называемого Loctite® LMD127) непосредственно на корпус послеохладителя. Каждая герметичная бусинка должна быть 1,5 мм \[0,039 дюйма\] в диаметре. Этот герметик заменил обычную прокладку.
 
-The sealant is an anaerobic substance and will **only** cure (set up) in the absence of air. The sealant will **not** begin to cure until the aftercooler element is clamped into the housing.
+Уплотнитель является анаэробным веществом и будет **только** вылечить (настраивать) при отсутствии воздуха. Уплотнитель **не** начнет вылечиваться до тех пор, пока не будет зажат в кожух элемент послеохлаждения.
 
-The sealant beads **must** be continuous strips without gaps, to prevent air leakage. Do **not** apply an excessive amount of sealant. Extra sealant does **not** result in a stronger joint.
+Бусины-герметики **должны быть непрерывными полосками без зазоров, чтобы предотвратить утечку воздуха. **Не применять слишком большое количество герметика. Дополнительный герметик **не** приводит к более сильному суставу.
 
 ![[at6seld.png]]
 
-Install two guide pins in the housing for installing the aftercooler element into the housing. The guide plugs allow installation of the heavy element without disturbing the sealant, if used.
+Установите два направляющих штифта в корпус для установки в корпус послеохладителя. Руководящие вилки позволяют устанавливать тяжелый элемент, не нарушая герметик, если он используется.
 
-Guide pins can be made by cutting the head off a 3/8 inch capscrew.
+Руководящие штифты могут быть сделаны путем отрезания головы от 3/8-дюймовых болтов.
 
-Install the aftercooler element into the aftercooler housing.
+Установите элемент послеохладителя в корпус послеохладителя.
 
 ![[at6guwa.png]]
 
-Install the 63 mm \[2.48 inch\] capscrews and washers into the locations shown.
+Установите 63 мм \[2,48 дюйма \] болты и шайбы в показанных местах.
 
-Tighten the capscrews just enough to hold the element in place.
+Затягивайте болты достаточно, чтобы удерживать элемент на месте.
 
-Remove the two guide pins.
+Удалите два направляющих штифта.
 
 ![[at6csaa.png]]
 
-Install the 171 mm \[6.732 inch\] capscrews and washers into the locations as shown.
+Установите 171 мм \[6.732 дюйма \] болты и шайбы в местах, как показано.
 
-Tighten the capscrews just enough to hold the element in place.
+Затягивайте болты достаточно, чтобы удерживать элемент на месте.
 
-The two remaining holes will be used when the water transfer connections are installed. Use the torque value and sequence in this step.
+Два оставшихся отверстия будут использоваться при установке водопроводных соединений. Используйте момент затяжки и последовательность на этом этапе.
 
 ![[at6csaf.png]]
 
-The sealant cures to 80 percent strength 1 hour after the aftercooler element capscrews are tightened. The sealant is completely cured in 24 hours.
+Уплотнитель отверждает до 80 процентов прочности через 1 час после того, как затворы элементов после охлаждения затянуты. Запечатывающий материал полностью излечивается за 24 часа.
 
-Once the engine is filled with coolant and the engine is tested, a small amount of sealant will seep from the joint during the first hour of engine operation. Remove this excess sealant.
+После того, как двигатель заполняется охлаждающей жидкостью и двигатель тестируется, небольшое количество герметика просачивается из сустава в течение первого часа работы двигателя. Удалите этот избыточный герметик.
 
 ![[ew600sb.png]]
 
-Rubber Seal Installation
+Установка Rubber Seal
 
-Install the rubber seal into the groove on the aftercooler housing. Make sure the seal is **not** twisted or damaged.
+Установите резиновую уплотнитель в канавку на корпусе послеохладителя. Убедитесь, что печать **не** скручена или повреждена.
 
 ![[at6sewh.png]]
 
-Install the aftercooler element into the housing. Make sure **not** to dislocate either the foam seal or the rubber seal.
+Установите в кожух послеохладительный элемент. Убедитесь, что **не** вывихнули либо пенный уплотнитель, либо резиновый уплотнитель.
 
-All aftercooler elements are identical and are inserted into the housing with the water inlet and outlet just below the air intake connection.
+Все элементы послеохладителя идентичны и вставляются в кожух с впускным и выходным отверстиями воды чуть ниже соединения воздухозаборника.
 
 ![[at6hshb.png]]
 
-Install the washers (26) and spacers (29) on the fourteen capscrews (27). Insert the capscrews into the holes shown. The three capscrews (1) can only be installed in the rear intake manifold assemblies at this time.
+Установите шайбы (26) и спейсеры (29) на четырнадцать болтов (27). Вставьте болты в показанные отверстия. Три болта (1) могут быть установлены только в задних впускных многообразных узлах в это время.
 
-Capscrews will be inserted in the open positions either during the installation of the aftercooler plumbing or the intake manifold assembly.
+болты будут вставляться в открытые положения либо во время установки сантехники послеохлаждения, либо при монтаже впускного коллектора.
 
-Tighten all of the inserted capscrews just enough to hold the aftercooler element in place.
+Затяните все вставленные болты достаточно, чтобы удерживать элемент послеохладителя на месте.
 
 ![[at6csaa.png]]
 
-Use the sequence shown. Tighten the capscrews.
+Используйте показанную последовательность. Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[10600396.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Check the four aftercooler element locating pins for proper location.
+Проверьте четыре элемента послеохладителя, определяющие местонахождение штифтов для правильного местоположения.
 
 ![[10600527.png]]
 
-Install the aftercooler element gasket.
+Установите прокладку элемента послеохладителя.
 
-Install the upper and lower grommet seals and o-ring seals on the cooler connections.
+Установите верхние и нижние громметовые уплотнения и уплотнения с окольцевым кольцом на более холодные соединения.
 
-Install the aftercooler element into the housing.
+Установите в кожух послеохладительный элемент.
 
 ![[10600528.png]]
 
-Install the twelve capscrews and tighten in the sequence illustrated.
+Установите двенадцать болтов и затяните в проиллюстрированной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08600346.png]]
 
-Apply a light coat of anti-seize lubricant, Part Number 3824759, to the aftercooler cover mounting capscrew threads.
+Нанесите легкий слой антизахватной смазки, номер детали 3824759, на обшивку послеохладителя, на которой установлены болты для крепления.
 
-Install the aftercooler cover and mounting capscrews. Tighten the capscrews in the sequence shown.
+Установите крышку послеохладителя и крепежные болты. Затягивайте болты в показанной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[10600090.png]]
 
-Lubricate the o-ring with Lubriplate™ 105, Part Number 3163087, multi-purpose lubricant
+Смазать кольцо с помощью смазки LubriplateTM 105, Part Number 3163087, многоцелевой смазки
 
-Install the connection gasket and the seal retainer.
+Установите прокладку соединения и уплотнительный фиксатор.
 
-Install the flange connector and the mounting capscrews.
+Установите фланцевый разъём и крепежные болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
 ![[10600526.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> This assembly or component weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Этот сборочный элемент или компонент весит более 23 кг[50 фунтов]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!note] Note · Примечание
-> This procedure applies only to KTA38 and KTA50 engines with a center mount aftercooler. If a KT38 engine is being serviced, omit this procedure and proceed to install the air transfer housing. If an engine with outboard aftercoolers is being serviced, proceed to Install the Turbochargers.
+> [!note] Примечание
+> Данная процедура применяется только к двигателям KTA38 и KTA50 с центральным креплением послеохладителя. Если двигатель KT38 обслуживается, опустите эту процедуру и приступайте к установке корпуса для переноса воздуха. Если двигатель с подвесными охладителями обслуживается, приступайте к установке турбокомпрессоров.
 
-> [!note] Note · Примечание
-> This procedure assumes that the aftercooler was assembled previously. Refer to Procedure 010-999 in Section F.
+> [!note] Примечание
+> Эта процедура предполагает, что афтеркулер был собран ранее. См. процедуру 010-999 в разделе F.
 
-> [!note] Note · Примечание
-> Newer engines have three capscrews with lock washers through the bracket to each support. Older engines have two capscrews with lock washers.
+> [!note] Примечание
+> Более новые двигатели имеют три болта с шайбами блокировки через кронштейн для каждой опоры. Старые двигатели имеют два болта с шайбами.
 
-Center Mount Aftercooler
+Центр Маунт Афтероллер
 
-Install the lock washers (1) and capscrews (2) in the holes in the bracket. Put the aftercooler assembly (3) on the supports and install the capscrews in the supports.
+Установите шайбы (1) и болты (2) в отверстия в скобке. Поставьте сборку послеохладителя (3) на опоры и установите болты в опоры.
 
-> [!tip] Момент затяжки · Torque Value
-> 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> 60 Н·м [44 фунт-фут]
 
 ![[at600ha.png]]
 
-> [!warning] CAUTION · Осторожно
-> Newer engines have rectangular ring seals (4) between the water inlet connections and the tubes on the aftercooler elements. Older engines have o-rings. Determine if seals are required. If the correct seals are not installed, a leak could result leading to engine damage.
+> [!warning] ОСТОРОЖНО
+> Более новые двигатели имеют прямоугольные кольцевые уплотнения (4) между впускными соединениями воды и трубками на элементах послеохладителя. Старые двигатели имеют кольца. Определите, нужны ли пломбы. Если правильные уплотнения не установлены, утечка может привести к повреждению двигателя.
 
-> [!note] Note · Примечание
-> Assemble the aftercooler water inlet connection (5) as shown. Refer to Procedure 010-999 in Section F.
+> [!note] Примечание
+> Соберите послеохлаждающее впускное соединение (5), как показано. См. процедуру 010-999 в разделе F.
 
-Install the seals (4) on the aftercooler element tubes.
+Установите уплотнения (4) на трубки элементов послеохлаждения.
 
-Use vegetable oil. Lubricate the seals.
+Используйте растительное масло. Смазать уплотнения.
 
-Install the water inlet connection (5). Push the connection over the seals until the connection touches the aftercooler housing. Install, but do **not** tighten, the four lock washers (6) and capscrews (7).
+Установите водопроводное соединение (5). Нажмите на соединение через уплотнения, пока соединение не коснется корпуса послеохладителя. Установите, но не затягивайте, четыре шайбы (6) и болты (7).
 
-Install the gasket (8), the lock washers (9), and the capscrews (10).
+Установите прокладку (8), шайбы (9) и болты (10).
 
-Tighten the four capscrews (7).
+Закрепить четыре болта (7).
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-Tighten the two capscrews (10).
+Закрепите два болта (10).
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[at600hb.png]]
 
-If the turbocharger uses a hose connection, slide the hose forward on the connection and tighten the **T-bolt** clamps.
+Если турбокомпрессор использует соединение шланга, переведите шланг вперед на соединение и затяните зажимы **T-bolt**.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Installation of the air fuel control air tube (1) is **not** as difficult if completed before the installation of the water tubes.
+> [!note] Примечание
+> Установка воздухопроводной трубки (1) для управления воздушным топливом не является такой сложной, если она была завершена до установки водопроводных труб.
 
-> [!note] Note · Примечание
-> Two aftercooler water outlet tubes are required
+> [!note] Примечание
+> Требуются две розетки для воды после охлаждения
 
-Install two rectangular seal rings (2) on the water outlet tube. Install the tube, lock washers, and capscrews.
+Установите два прямоугольных кольца уплотнения (2) на водоотводную трубку. Установите трубку, шайбы и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[wa6tbha.png]]
 
-> [!note] Note · Примечание
-> Engines that are equipped with a center mount aftercooler have four air crossover assemblies. Use this procedure to install the parts.
+> [!note] Примечание
+> Двигатели, которые оснащены центральным крепежным афтеркулером, имеют четыре воздушных кроссовера. Используйте эту процедуру для установки деталей.
 
-Install the two o-rings (7) and the dust seal (8) on the tube (9) for the air crossover.
+Установите два кольца (7) и пылевое уплотнение (8) на трубку (9) для воздушного кроссовера.
 
-Use engine oil or Lubriplate™ 105, Part Number 3163087, multi-purpose lubricant. Lubricate the seals.
+Используйте моторное масло или любриплат 105, номер детали 3163087, многоцелевую смазку. Смазать уплотнения.
 
-Install the tube in the air connections on the aftercooler or the air transfer housing.
+Установите трубку в воздушные соединения на послеохладитель или корпус для переноса воздуха.
 
-Install the air crossover (10) on the tube. Push the crossover on the tube as far as possible.
+Установите воздушный кроссовер (10) на трубу. Нажмите кроссовер на трубку как можно дальше.
 
-> [!note] Note · Примечание
-> The raised bead on the gasket **must** be toward the air crossover.
+> [!note] Примечание
+> Поднятая бусина на прокладке **должна** быть к воздушному кроссоверу.
 
-Install the gasket (11) and the four lock washers, flat washers, and capscrews.
+Установите прокладку (11) и четыре шайбы замка, плоские шайбы и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[im600hc.png]]
 
-Outboard Aftercooler - Standard Cooling Systems
+Outboard Aftercooler - Стандартные системы охлаждения
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Install the long capscrews, lock washers, flat washers (1) and the rectangular seal sleeves (2) in the row of capscrew holes that is nearest to the top of the aftercooler assembly. The sleeves prevent dirt and water from damaging the threads of the capscrews.
+Установите длинные болты, замочные шайбы, плоские шайбы (1) и прямоугольные рукава уплотнения (2) в ряд болтовых отверстий, который находится ближе всего к верхней части сборки послеохладителя. Рукава препятствуют загрязнению и воде от повреждения резьбы болтов.
 
-> [!note] Note · Примечание
-> The use of guide pins installed in the row of capscrew holes at the bottom of the cylinder head will aid the assembly procedure.
+> [!note] Примечание
+> Использование направляющих штифтов, установленных в ряде болтовых отверстий на дне головки цилиндра, поможет в процедуре сборки.
 
-> [!note] Note · Примечание
-> The raised bead of the gasket (3) **must** be toward the cylinder head.
+> [!note] Примечание
+> Поднятая бусина прокладки (3)**должна** находиться к головке цилиндра.
 
-Install a gasket (3) on each cylinder head.
+Установите прокладку (3) на каждую головку цилиндра.
 
-Install the aftercooler assembly (4), lock washers, flat washers, and the capscrews.
+Установите сборку послеохладителя (4), шайбы блокировки, плоские шайбы и болты.
 
 ![[at600hc.png]]
 
-Use the following steps to tighten the capscrews in the sequence shown.
+Используйте следующие шаги для затягивания болтов в показанной последовательности.
 
-Torque Value:
+Момент затяжки:
 
 ![[im6csoa.png]]
 
-Type 1- Air Crossovers with Retaining Straps
+Тип 1 - воздушные кроссоверы с удерживающими шлепками
 
-> [!note] Note · Примечание
-> The engine has two air jumper tube assemblies. The assembly for the left bank is shown. The assembly for the right bank **must** be installed so that the opening for the air crossover is nearest to the rear of the engine.
+> [!note] Примечание
+> Двигатель имеет два воздухопрыжковых трубчатых агрегата. Показана сборка для левого берега. Сборка для правого берега должна быть установлена так, чтобы отверстие для воздушного кроссовера было ближе всего к задней части двигателя.
 
-Install the two gaskets (10) and the air jumper tube assembly with the 12 flat washers, 12 lock washers and 12 capscrews.
+Установите две прокладки (10) и трубку воздухопрыжка с 12 плоскими шайбами, 12 шайбами замка и 12 болтами.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[at6cohb.png]]
 
-Install two o-ring seals (11) on the tube (12) for the air crossover. Install the dust seal (13) on the tube.
+Установите два уплотнения (11) на трубу (12) для воздушного кроссовера. Установите пылевое уплотнение (13) на трубу.
 
-Use engine oil or Lubriplate™ 105, Part Number 3163087, multi-purpose lubricant. Lubricate the seals.
+Используйте моторное масло или любриплат 105, номер детали 3163087, многоцелевую смазку. Смазать уплотнения.
 
-Install the tube in the turbocharger. Install the air crossover (14) on the tube. Push the crossover on the tube as far as possible.
+Установите трубку в турбокомпрессор. Установите воздушный кроссовер (14) на трубу. Нажмите кроссовер на трубку как можно дальше.
 
-> [!note] Note · Примечание
-> Check to be sure the crossover and turbocharger compressor housing are aligned properly. If the gaps between the compressor housing and the crossover are **not** the same at the top and the bottom, adjust the turbocharger compressor housing alignment.
+> [!note] Примечание
+> Убедитесь, что корпус компрессора кроссовера и турбокомпрессора выровнен правильно. Если промежутки между корпусом компрессора и кроссовером **не** одинаковы в верхней и нижней части, отрегулируйте выравнивание корпуса компрессора турбокомпрессора.
 
-Install the V-band clamp (15). Tighten the clamp.
+Установите зажим V-диапазона (15). Зажим затянуть.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-Use a mallet. Tap around the clamp to be sure it is seated. Tighten the clamp nut.
+Используйте молоток. Нажмите вокруг зажима, чтобы убедиться, что он сидит. Затяните зажимный орех.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-Continue tapping and tightening the clamp nut until it does **not** turn at the specified torque after tapping.
+Продолжайте постукивать и затягивать зажимную гайку до тех пор, пока она не повернется **не** при указанном крутящем моменте после постукивания.
 
 ![[at6cohc.png]]
 
-> [!note] Note · Примечание
-> Some engines have clamps (17) for the turbocharger oil inlet hose. The hose **must** be clamped to the outside of the retainer plates (16).
+> [!note] Примечание
+> Некоторые двигатели имеют зажимы (17) для впускного шланга турбокомпрессора. Рукава должна быть зажата снаружи фиксирующих пластин (16).
 
-Install the two retainer plates (16), the large flat washers, lock washers, and capscrews.
+Установите две фиксирующие пластины (16), большие плоские шайбы, шайбы блокировки и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[at6cohd.png]]
 
-Type II - Air Crossover with Hoses
+Тип II - воздушный кроссовер с шлангами
 
-Install the hose (12) on the connection (13). Push the hose on the connection as far as possible.
+Установите шланг (12) на соединение (13). Нажмите шланг на соединение как можно дальше.
 
-Insert the connection and the hose between the two manifold assemblies. Fit the hose over the manifold cover.
+Вставьте соединение и шланг между двумя многообразными сборками. Поднимите шланг над крышкой коллектора.
 
-Install the gasket (14), the four flat washers, lock washers, and capscrews.
+Установите прокладку (14), четыре плоские шайбы, шайбы блокировки и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [20 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [20 фунт-дюйм]
 
-Push the hose on the manifold cover until the ends of the hose are the same distance from the gap between the connection and the cover.
+Нажмите шланг на крышку коллектора, пока концы шланга не будут находиться на одинаковом расстоянии от зазора между соединением и крышкой.
 
-Install the two T-bolt clamps (15).
+Установите два зажима T-bolt (15).
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
-
-![[im6coha.png]]
-
-> [!note] Note · Примечание
-> Check to be sure the crossover and the turbocharger compressor housing are aligned properly. Put the crossover in position on the connection (13). Look at the gap between the crossover and the turbocharger housing. If the gap is **not** the same at the top and bottom, the turbocharger compressor housing **must** be adjusted
-
-Install the hose (16) on the crossover (17). Install the hose and tube on the turbocharger housing.
-
-Install the V-band clamp (18).
-
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
-
-Use a mallet. Tap around the clamp to be sure it is seated.
-
-Tighten the nut on the clamp.
-
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
-
-Continue tapping and tightening the clamp nut until it does **not** turn at the specified torque after tapping.
-
-Install the two T-bolt clamps (19).
-
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[im6coha.png]]
 
-Old Style Plumbing with Hoses
+> [!note] Примечание
+> Убедитесь, что кроссовер и корпус компрессора турбокомпрессора выровнены правильно. Поставьте кроссовер в положение на соединении (13). Посмотрите на зазор между кроссовером и корпусом турбокомпрессора. Если зазор **не** в верхней и нижней части, то корпус компрессора турбокомпрессора * должен быть отрегулирован.
 
-Install the hoses and clamps on the inlet tube 4 and the outlet tube (5). Connect the tubes to the aftercooler, the fitting in the cylinder block and the fitting in the thermostat support as shown.
+Установите шланг (16) на кроссовер (17). Установите шланг и трубку на корпус турбокомпрессора.
 
-Install the support clamp (6) on the tube with one of the aftercooler mounting capscrews.
+Установите зажим V-диапазона (18).
 
-> [!note] Note · Примечание
-> **Only** one of the four connections is shown here.
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-> [!tip] Момент затяжки · Torque Value
-> 5 n•m [44 in-lb]
+Используйте молоток. Нажмите вокруг зажима, чтобы убедиться, что он сидит.
+
+Затяните гайку на зажим.
+
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
+
+Продолжайте постукивать и затягивать зажимную гайку до тех пор, пока она не повернется **не** при указанном крутящем моменте после постукивания.
+
+Установите два зажима T-bolt (19).
+
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
+
+![[im6coha.png]]
+
+Старый стиль сплетения с помощью шлангов
+
+Установите шланги и зажимы на входной трубке 4 и выходной трубке (5). Подключите трубы к охладителю, фитингу в блоке цилиндров и фитингу в поддержке термостата, как показано.
+
+Установите опорный зажим (6) на трубу с одним из монтирующих болтов послеохладителя.
+
+> [!note] Примечание
+> * Здесь показана только одна из четырех линий.
+
+> [!tip] Момент затяжки
+> 5 Н·м [44 фунт-дюйм]
 
 ![[wa6tbhb.png]]
 
-New Style Plumbing
+Новый стиль сантехники
 
-Install the hoses on the water transfer tube (C). Install the o-rings and rectangular seal in the core connections.
+Установите шланги на водопроводную трубу (С). Установите кольца и прямоугольное уплотнение в основных соединениях.
 
-Lubricate with engine oil or vegetable oil.
+Смазать моторным маслом или растительным маслом.
 
-Tighten the connecting capscrews.
+Затянуть соединительные болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-Install the clamps. Install inlet tubes (B).
+Установите зажимы. Установите впускные трубы (B).
 
 ![[10600405.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Outboard Aftercooler - LTA Cooling System
+- Outboard Aftercooler - система охлаждения LTA
 
-> [!note] Note · Примечание
-> The aftercooler housings for the left bank front and right bank rear are the same. The left bank rear and the right bank front are also the same.
+> [!note] Примечание
+> Послеохладительные корпуса для левобережной передней и правой береговой задней части одинаковы. Левый берег и левый берег фронта также одинаковы.
 
-> [!note] Note · Примечание
-> Guide pins installed in the row of capscrew holes at the bottom of the cylinder heads will aid in installation.
+> [!note] Примечание
+> Руководящие штифты, установленные в ряде болтовых отверстий на дне головок цилиндров, помогут в установке.
 
-> [!note] Note · Примечание
-> The raised bead of the gasket (21) **must** be toward the cylinder head.
+> [!note] Примечание
+> Поднятая бусина прокладки (21)**должна*** быть по направлению к головке цилиндра.
 
-Install the aftercooler assembly (2), conical washers (23) and the capscrews (25).
+Установите сборку послеохладителя (2), конические шайбы (23) и болты (25).
 
-Install the longer capscrews (25), conical washers (23), and the rectangular seal sleeves (28) in the row of capscrews holes that are nearest the top of the aftercooler assembly. The sleeves will prevent dirt and water from damaging the threads of the capscrews.
+Установите более длинные болты (25), конические шайбы (23) и прямоугольные рукава уплотнения (28) в ряд болтовых отверстий, которые находятся ближе всего к верхней части сборки послеохладителя. Рукава предотвращают попадание грязи и воды в резьбы болтов.
 
-Insert the shorter capscrews (24) and conical washers (23) in the lower row of the assembly.
+Вставьте более короткие болты (24) и конические шайбы (23) в нижнюю строку сборки.
 
 ![[at6csac.png]]
 
-Tighten the capscrews in the sequence shown.
+Затягивайте болты в показанной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[10600411.png]]
 
-Install the hose (11) and the two T-bolt clamps (10) on the two air intake connections (9).
+Установите шланг (11) и два зажима (10) Т-болта на два воздухозаборника (9).
 
-Install gaskets (12) and connections on the intake manifolds. Insert the long capscrews (13) and the short capscrews (30) with washers (14). Tighten the capscrews (13) and (30).
+Установите прокладки (12) и соединения на впускных коллекторах. Вставьте длинные болты (13) и короткие болты (30) с шайбами (14). Затягивать болты (13) и (30).
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
-Tighten the T-bolt clamps.
+Зажгите зажимы Т-болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [70 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [70 фунт-дюйм]
 
 ![[at6cogd.png]]
 
-Do **not** position the clamps over the hose beads. The clamps **must** be positioned between the hose beads and the end of the hose. A portion of the hose **must** extend outside the clamp.
+**не*** ставьте зажимы над шланговыми бусинами. Зажимы **должны быть расположены между шланговыми бусинами и концом шланга. Часть шланга **должна выходить за пределы зажима.
 
-Tighten the T-bolt clamps.
+Зажгите зажимы Т-болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[10600412.png]]
 
-Install the two clamps (16) and the hose (18) over the connections (15 and 17). Do **not** tighten the clamps at this time.
+Установите два зажима (16) и шланг (18) над соединениями (15 и 17). Не затягивайте зажимы в это время.
 
-Install the gaskets (31), eight capscrews (20) and washers (19). Tighten the capscrews.
+Установите прокладки (31), восемь болтов (20) и шайбы (19). Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
-Center the hose (18) over the gap between the connections (15 and 17).
+По центру шланг (18) над зазором между соединениями (15 и 17).
 
 ![[at6coge.png]]
 
-> [!note] Note · Примечание
-> Do **not** position the clamps over the hose beads. The clamps **must** be positioned between the hose beads and the end of the hose. A portion of the hose **must** extend outside the clamp.
+> [!note] Примечание
+> **не*** ставьте зажимы над шланговыми бусинами. Зажимы **должны быть расположены между шланговыми бусинами и концом шланга. Часть шланга **должна выходить за пределы зажима.
 
-Position the clamps between the end of the hose and bead on the connection. Tighten the clamps.
+Поместите зажимы между концом шланга и бусинкой на соединение. Зажгите зажимы.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[at6csac.png]]
 
-The crossover (7) and the turbocharger **must** align properly. Put the crossover in position on the connection (17). Check the gap between the crossover (7) and the turbocharger housing. If the gap is **not** the same at the top and bottom, rotate the crossover connection (17). If this does **not** provide proper alignment, the turbocharger compressor housing **must** be adjusted.
+Кроссовер (7) и турбокомпрессор **должны** выровняться должным образом. Поставьте кроссовер в положение на соединении (17). Проверьте зазор между кроссовером (7) и корпусом турбокомпрессора. Если разрыв **не** одинаков в верхней и нижней части, поверните соединение кроссовера (17). Если это не обеспечивает правильного выравнивания, то корпус компрессора турбокомпрессора должен быть отрегулирован.
 
 ![[at6hoba.png]]
 
-If the gap is **not** the same at the front and rear, rotate the crossover to the position that provides the best possible alignment.
+Если зазор **не** одинаковый спереди и сзади, поверните кроссовер в положение, которое обеспечивает наилучшее выравнивание.
 
 ![[at6hobb.png]]
 
-Install the hose (6) on the crossover (7). Then install the crossover on the turbocharger and the flanged connection.
+Установите шланг (6) на кроссовер (7). Затем установите кроссовер на турбокомпрессор и фланцевое соединение.
 
-Install and tighten the V-band clamp (8).
+Установите и затяните зажим V-диапазона (8).
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[at6hogb.png]]
 
-Tighten the nut on the clamp.
+Затяните гайку на зажим.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-Tap and tighten the clamp nut until it will **not** turn at the specified torque after tightening.
+Нажмите и затяните зажимную гайку до тех пор, пока она не **не** не повернется при указанном крутящем моменте после затягивания.
 
-Install the two T-bolt clamps.
+Установите два зажима T-bolt.
 
 ![[at6clua.png]]
 
-> [!note] Note · Примечание
-> Do **not** position the clamps over the hose beads. The clamps **must** be positioned between the hose beads and the end of the hose. A portion of the hose **must** extend outside the clamp
+> [!note] Примечание
+> **не*** ставьте зажимы над шланговыми бусинами. Зажимы **должны быть расположены между шланговыми бусинами и концом шланга. Часть шланга **должна выдвигаться за пределы зажима
 
-Position the hose (6) in the center of the connection and tighten the clamps (5).
+Поместите шланг (6) в центр соединения и затяните зажимы (5).
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[10600412.png]]
 
-Install the tube clamps (7) and (8) on water transfer tubes (5) and (6). Install capscrews (9).
+Установите зажимы (7) и (8) на водопроводных трубах (5) и (6). Установите болты (9).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Check dust seals (29).
+Проверить пылевые уплотнения (29).
 
 ![[th6tbaa.png]]
 
-Install the vent line on the upper water transfer connection on each bank.
+Установите линию вентиляции на верхнем водопроводном соединении на каждом берегу.
 
-> [!note] Note · Примечание
-> The lines **must** route horizontally or inclined toward the thermostat housing at all times. Any humps or sags will prevent aftercooler core venting and cause core damage. The length of the short hose between the two manifolds is critical. It **mustnot** sag or put excessive stress on the fittings
+> [!note] Примечание
+> Линии **должны** всегда идти горизонтально или наклонно к корпусу термостата. Любые горбы или провисания предотвратят охлаждение ядра и нанесут ущерб ядру. Длина короткого шланга между двумя коллекционерами имеет решающее значение. **не должно** провисать или подвергать чрезмерному напряжению фитинги
 
 ![[th6cowa.png]]
 
-Install the vent lines from each bank to the cross connection on the thermostat housing.
+Установите линии вентиляции от каждого банка до перекрестного соединения на корпус термостата.
 
 ![[10600414.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Use a hoist and sling to lift the aftercooler assembly.
+Используйте подъемник и строп, чтобы поднять сборку послеохладителя.
 
-Install guide studs long enough to protrude from the housing.
+Установите направляющие шпильки достаточно долго, чтобы выдвинуться из корпуса.
 
-Install guide studs into the cylinder head in the lower row of mounting holes.
+Установите направляющие шпильки в головку цилиндра в нижнем ряду монтажных отверстий.
 
 ![[06400100.png]]
 
-Lubricate the air balance tube o-rings with Lubriplate™ 105, Part Number 3163087, multi-purpose lubricant
+Смазать кольца трубки воздушного баланса с помощью смазки LubriplateTM 105, Part Number 3163087, многоцелевой смазки
 
-Install the air balance tube.
+Установите трубку воздушного баланса.
 
-Install the rubber T-coolant connectors.
+Установите резиновые T-охлаждающие разъёмы.
 
 ![[10600524.png]]
 
-Install new intake manifold gaskets, with the raised bead of the gasket toward the cylinder head. Use heavy grease to hold in place.
+Установите новые прокладки впускного коллектора с поднятой бусинкой прокладки к головке цилиндра. Используйте тяжелую смазку, чтобы держаться на месте.
 
-Install the aftercooler assembly with a hoist.
+Установите сборку послеохладителя с помощью подъемника.
 
-Align the rubber water connectors and air balance tube while the assembly is being installed over the guide studs.
+Выровняйте резиновые водопроводные разъёмы и трубку воздушного баланса, пока сборка устанавливается над направляющими шпильками.
 
 ![[10600525.png]]
 
-Install the top row of the aftercooler mounting capscrews (long capscrews). Do **not** tighten the capscrews.
+Установите верхний ряд крепежных болтов послеохладителя (длинные болты). Не затягивайте болты.
 
-Remove the guide studs and install the lower aftercooler mounting capscrews.
+Удалите направляющие шпильки и установите нижние монтирующие болты после охлаждения.
 
-Tighten the aftercooler mounting capscrews in the sequence shown.
+Затягивать болты послеохлаждения в показанной последовательности.
 
-Torque Value:
+Момент затяжки:
 
-Cast Iron Housing Capscrews
+Затворы из железной гильзы
 
-Torque Value:
+Момент затяжки:
 
-Aluminum Housing Capscrews
+Алюминиевые затворы корпуса
 
-Install and tighten the coolant connection hose clamps.
+Установите и затяните зажимы шлангов соединения охлаждающей жидкости.
 
-Torque Value:
+Момент затяжки:
 
-Coolant Connection Clamps
+Зажимы для холодного соединения
 
 ![[10600088.png]]
 
-Inspect the air crossover, turbocharger connection, and the hoses to make sure they are clean.
+Проверьте воздушный кроссовер, соединение турбокомпрессора и шланги, чтобы убедиться, что они чистые.
 
-Install the air crossover, hoses, and the hose clamps.
+Установите воздушный кроссовер, шланги и шланги.
 
-Install the air crossover support capscrews.
+Установите воздушные болты поддержки кроссовера.
 
-Position the hose clamps 10 mm \[0.25 in\] from the raised bead on the turbocharger outlet and the air crossover.
+Поместите зажимы шланга 10 мм \[0,25 дюйма \] от поднятой бусины на выходе турбокомпрессора и воздушном кроссовере.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-Tighten the air crossover support capscrews.
+Затягивайте воздушные болты поддержки кроссовера.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[10600529.png]]
 
-Install the air connection bellows and two new gaskets (marine **only**).
+Установите воздушные соединительные ветки и две новые прокладки (морские **только**).
 
-Install and tighten the eight mounting capscrews.
+Установите и затяните восемь крепежных болтов.
 
-> [!tip] Момент затяжки · Torque Value
-> 142 n•m [105 ft-lb]
+> [!tip] Момент затяжки
+> 142 Н·м [105 фунт-фут]
 
 ![[10600522.png]]
 
-Install the air transfer tube between the aftercooler and the turbocharger (marine **only**).
+Установите воздухопередающую трубу между афтеркулером и турбокомпрессором (морской **только**).
 
-Install and tighten the hose clamps.
+Установите и затяните зажимы шланга.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
 ![[10600523.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries. See equipment manufacturer service information.
-- Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Operate the engine and check for leaks.
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Заправьте систему охлаждения.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Запустите двигатель и проверьте на отсутствие утечек.
+
+![[ck800wa.png]]
+
+с форсункой электронного управления
+
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Установите температурные преобразователи выхлопных газов, если они оборудованы. См. процедуру 019-450 в разделе 19 в Руководстве по устранению неполадок и ремонту QSK38, QSK 50 и модульной общей железнодорожной системе QSK60, Бюллетень 4021533.
+- Установите датчик температуры воздуха впускного коллектора. См. процедуру 019-059 в разделе 19 в Руководстве по устранению неполадок и ремонту QSK38, QSK 50 и модульной общей железнодорожной системе QSK60, Бюллетень 4021533.
+- Установите датчик давления воздуха впускного коллектора. См. процедуру 019-061 в разделе 19 в Руководстве по устранению неполадок и ремонту QSK38, QSK 50 и модульной общей железнодорожной системе QSK60, Бюллетень 4021533.
+- Установите трубку для обхода охлаждающей жидкости. См. процедуру 008-005 в разделе 8 (правый банк **только**).
+- Заправьте систему охлаждения.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
 
-> [!danger] WARNING · Опасно
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
 > Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
-
-> [!danger] WARNING · Опасно
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Install the exhaust gas temperature converters, if equipped. Refer to Procedure 019-450 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK 50, and QSK60 Modular Common Rail System, Bulletin 4021533.
-- Install the intake manifold air temperature sensor. Refer to Procedure 019-059 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK 50, and QSK60 Modular Common Rail System, Bulletin 4021533.
-- Install the intake manifold air pressure sensor. Refer to Procedure 019-061 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK 50, and QSK60 Modular Common Rail System, Bulletin 4021533.
-- Install the coolant bypass tube. Refer to Procedure 008-005 in Section 8 (right bank **only**).
-- Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine and check for leaks.
-
-![[ck800wa.png]]
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Drain the coolant. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> - Remove the coolant bypass tube. Refer to Procedure 008-005 in Section 8 (right bank **only**).
+> - Remove the exhaust gas temperature converters, if equipped. Refer to Procedure 019-450 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK50, and QSK60 Modular Common Rail System, Bulletin 4021533.
+> - Remove the intake manifold air. Refer to Procedure 019-059 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK50, and QSK60 Modular Common Rail System, Bulletin 4021533.
+> - Remove the intake manifold air pressure sensor. Refer to Procedure 019-061 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK 50, and QSK60 Modular Common Rail System, Bulletin 4021533.
+> - Drain the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Center Mount Aftercooler
+>
+> Remove the eight capscrews. Remove the two tubes (3). Remove the rectangular ring seals (2).
+>
+> Discard the seals.
+>
+> Detach the air fuel control air tube (1) at the aftercooler.
+>
+> **Note · Примечание**
+> If the engine has a hose connection between the turbocharger and aftercooler housing, remove the T-bolt clamps and slide the hose back.
+>
+> **Note · Примечание**
+> If the turbocharger uses turbo retaining straps, remove the turbocharger. [[28-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+>
+> **Note · Примечание**
+> There are four air crossovers.
+>
+> Remove the four capscrews. Pull the crossover (10) and the tube (9) from the aftercooler.
+>
+> Remove the gasket. Remove the tube from the crossover. Remove the o-rings (7).
+>
+> Discard the o-rings.
+>
+> Remove the dust seal (8). If the dust seal is hard or soaked with oil, discard the seal.
+>
+> Remove the two capscrews (10). Remove the four capscrews (7). Remove the water inlet connection assembly (5).
+>
+> Remove the two rectangular ring seals (4). Remove the gasket (8).
+>
+> Discard the gasket and seals.
+>
+> **WARNING · Опасно**
+> This assembly or component weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> Older engines have eight support brackets to the support leg capscrews (2)
+>
+> Remove the 12 capscrews (2).
+>
+> Remove the aftercooler assembly (3).
+>
+> Outboard Aftercooling - Standard Cooling system
+>
+> Old style plumbing with the hoses removed.
+>
+> **Note · Примечание**
+> Each of the four aftercoolers has a coolant inlet and outlet tube. **Only** the tubes for the left bank front are shown.
+>
+> Remove both tubes from all four of the aftercoolers.
+>
+> **Note · Примечание**
+> The rocker lever housing end of the outlet tube for the left bank rear aftercooler has a tube nut and a rectangular seal instead of a hose and hose clamps.
+>
+> Remove the capscrew for any support clamp (6).
+>
+> Loosen the hose clamps.
+>
+> Remove the inlet (11) and outlet (12) tubes. Remove the hoses.
+>
+> New Style Plumbing
+>
+> **Note · Примечание**
+> Each of the four aftercoolers has a coolant inlet and outlet tube. **Only** the tubes for the left bank are shown
+>
+> Remove both tubes from all four of the aftercoolers.
+>
+> Remove the capscrews for any support clamp.
+>
+> Loosen the tube nuts and seals (A). Discard the seals. Loosen the hose clamps at the cylinder block connection (C). Remove the inlet (8) and outlet (D) tubes. Remove the hoses.
+>
+> Type I - Crossovers with Turbo Retaining Straps
+>
+> Remove the capscrews, the clamps (17) for the turbocharger oil inlet hose, and the retaining straps (16).
+>
+> Remove the V-band clamp (15). Pull the air crossover (14) and tube (12) from the turbocharger. Remove the dust seal (13), the tube (12) and the o-ring seals.
+>
+> Remove the capscrews, the aftercooler-to-aftercooler connection assembly and the gaskets.
+>
+> Type II - Air Crossovers with Hose Connections
+>
+> Loosen all of the hose clamps.
+>
+> Remove the V-band clamp (18). Pull the air crossover (17) and the hose (16) from the turbocharger. Push the hose (12) on the connection (13) as far as possible.
+>
+> Remove the four capscrews. Remove the connection and gasket. Remove the hose from the connection.
+>
+> Discard the hoses and gasket.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> If the aftercooler water tubes have **not** been removed, remove them at this time
+>
+> Remove all of the capscrews. Remove the aftercooler assembly (40) and the gaskets. Remove the rectangular seal sleeves (2).
+>
+> Discard the seals and gaskets.
+>
+> Outboard Aftercooler - Low Temperature Aftercooling (LTA) Cooling System
+>
+> The following procedure should be used in both engine banks.
+>
+> Loosen capscrews on the water transfer connections to create flexibility.
+>
+> Remove the capscrews for any supporting clamp.
+>
+> Remove the water transfer tubes.
+>
+> Remove the capscrews on the water transfer connections between the aftercooler cores.
+>
+> Remove the water transfer connections.
+>
+> Loosen all of the hose clamps.
+>
+> Remove the V-band clamp (1). Pull the air crossover (2) and the hose (3) from the turbocharger. Push the hose (4) on the connection (5) as far as possible.
+>
+> Remove the four capscrews. Remove the connection and gasket (6). Remove the hose from the connection.
+>
+> Remove the four capscrews. Remove the flange (7) and the gasket (8).
+>
+> Discard the hoses and gaskets.
+>
+> Loosen hose clamps (18).
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove all of the capscrews. Remove the aftercooler assembly (2) and the gaskets.
+>
+> Remove the rectangular seal sleeves (28).
+>
+> Discard the seals and gaskets.
+>
+> with Electronically Actuated Injector
+>
+> Remove the hose clamps at the air crossover to turbocharger hose connection and at the aftercooler cover hose connections.
+>
+> Remove the air crossover support capscrews. Slide the hoses back from the air crossover and remove the air crossover.
+>
+> Remove the eight capscrews from the air transfer bellows. Remove the bellows and discard the gaskets (marine **only**).
+>
+> Remove the hose clamps from the air connection tube at the turbocharger connection tube and the aftercooler cover. Slide the hoses onto the connection tube and remove the tube (marine **only**).
+>
+> Remove the hose clamps from the rubber tee coolant connections.
+>
+> Slide the air balance tube toward the adjacent aftercooler housing.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove a lower mounting capscrew at each end of the aftercooler assembly and install guide pins long enough to protrude from the housing.
+>
+> Remove a cover mounting capscrew at each end of the assembly and install lifting eyes.
+>
+> Attach a sling to the lifting eyes and a suitable hoist.
+>
+> Raise the hoist until tension is applied to the assembly.
+>
+> Remove the remainder of the mounting capscrews.
+>
+> Lift and move the assembly away from the cylinder head and the adjacent aftercooler assembly. Be careful not to damage the air balance tube and the rubber coolant connections as the aftercooler assembly is removed.
+>
+> Repeat the procedure for the remaining assemblies.
+>
+> ### Disassemble
+>
+> with Mechanically Actuated Injector
+>
+> Remove the air tubes (1). Remove the o-rings (2). Discard the o-rings.
+>
+> Remove the dust seals (3). Check the dust seals for excessive oil or hardness. Discard any dust seal that is hard or soaked with oil.
+>
+> Check for indications of gasket leaks.
+>
+> **Note · Примечание**
+> All K50 aftercoolers contain this connection. Newer K38 aftercoolers contain a shorter connection.
+>
+> Remove the four capscrews for each crossover connection. Remove the connections (5) and gaskets (4).
+>
+> Discard the gaskets.
+>
+> Remove the water outlet connections (6). Remove the rectangular ring or o-ring (7) from the connection. Discard the o-ring.
+>
+> Remove the four cover plates (4) and gaskets (5).
+>
+> Discard the gaskets.
+>
+> Remove the four air crossover connections (6), spacers (7), and gaskets (8).
+>
+> Discard the gaskets.
+>
+> Remove both of the aftercooler covers (13) and gaskets (14).
+>
+> Remove the aftercooler elements (15) and the gaskets (14) from the housing (16).
+>
+> Standard System
+>
+> **Note · Примечание**
+> This procedure is performed while the intake manifold (aftercooler housing) remains on the engine.
+>
+> Remove the parts.
+>
+> 1. Capscrews, lock washers, and flat washers
+> 2. Adapter connections
+> 3. Gaskets.
+>
+> Discard the gaskets.
+>
+> Remove the o-rings (6) from the inner adapters (4).
+>
+> Remove the 21 capscrews and flat washers (5).
+>
+> **Note · Примечание**
+> Do **not** damage the gasket surfaces if it is necessary to use a wedge to separate the parts.
+>
+> Remove the aftercare cover (6). It will be necessary to move the cover so that it will **not** hit the nipple on the element.
+>
+> Remove the gasket (7) from the intake manifold (8).
+>
+> Remove the eight captive capscrews (9). Note that the washers on the capscrews are spring-type washers.
+>
+> Remove the element (10) from the intake manifold (8).
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Low Temperature Aftercooler (LTA) System
+>
+> **Note · Примечание**
+> This procedure is performed while the intake manifold (aftercooler housing) remains on the engine.
+>
+> Remove the fourteen capscrews (27), washers (26), and spacers (29).
+>
+> Remove the aftercooler element from the housing.
+>
+> Remove the rubber seal from the groove on the aftercooler housing.
+>
+> Inspect the seal. Discard if damaged.
+>
+> Inspect the rectangular strip seal (3). Discard the seal if it is ripped, cracked, or worn.
+>
+> with Electronically Actuated Injector
+>
+> Remove the coolant connections from the aftercooler cover and housing.
+>
+> Discard the connection gasket.
+>
+> Remove the aftercooler cover mounting capscrews, cover, and gasket.
+>
+> Discard the gasket, grommet seal, and o-ring seal.
+>
+> Remove the aftercooler element and gasket.
+>
+> Discard the seals and gaskets.
+>
+> ### Pressure Test
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> #### Standard System
+>
+> - Use a hose plugged with a pipe plug. Plug one of the water nipples as illustrated. Attached an air line and a gauge to the other nipple. Pressure check the element.
+> - Apply air pressure. Check for leaks.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | kpa | psi |
+> | Air Pressure | 448 | 65 |
+>
+> If the part leaks, it **must** be replaced.
+>
+> LTA
+>
+> #### Low Temperature Aftercooled system
+>
+> - Use a hose plugged with a pipe plug. Plug one of the element nipples. Attach an air line equipped with a gauge and a regulator valve to the remaining nipple.
+> - Submerge the core in a tank of water heated to 50° C \[120° F\]. Do **not** apply air pressure yet. Check the tank for bubbles. Note the location and rate of bubbles. These bubbles are the air entrapped behind the silicone bead.
+>
+> Leave the element submerged for 5 minutes to allow the temperature of the element to stabilize. Apply air pressure. Check for leaks. The element leaks when bubbles form faster or from a new location while the tank is pressurized.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | kpa | psi |
+> | Air Pressure | 448 | 65 |
+>
+> Replace the element if leaks are discovered.
+>
+> **Note · Примечание**
+> A malfunctioning aftercooler element will often be coated on the outside with coolant deposits.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> All solvent or steam must be drained from the housing. Any liquid remaining in the housing can enter the combustion chamber and damage the engine.
+>
+> Use solvent or steam.
+>
+> Clean the exterior of the assembly. Flush the elements through the bores of the water outlet connection at the top. Clean all the bores and grooves for the o-rings. Clean all gasket surfaces. Dry with compressed air.
+>
+> Check the assembly for cracks or other damage. There **must** be no cracks in the housing or cover.
+>
+> Check the dust seals for excessive oil or hardness. Discard any dust seal that is hard or soaked with oil.
+>
+> If the parts are cracked or otherwise damaged, or there are any indications of gasket leaks, the assembly **must** be rebuilt.
+>
+> **Note · Примечание**
+> If the K50 aftercooler housing does not contain cross bolts, or contains a rib in the center of the housing, it is recommended that the housing be modified for the cross bolts before it is installed again. Refer to Procedure 010-073 in Section 10.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> Clean all gasket surfaces.
+>
+> Use solvent or steam to clean the parts.
+>
+> Check the air passages for evidence of coolant leaks. If there is any evidence of leaks, the assembly **must** be rebuilt.
+>
+> Check the parts for cracks or other damage.
+>
+> Inspect the rectangular strip seal (3). Discard the seal if it is ripped, cracked, or worn.
+>
+> ### Assemble
+>
+> with Mechanically Actuated Injector
+>
+> Center Mount Aftercooler
+>
+> Install the housing-to-element flange gasket (14). Be sure the proper holes are aligned with the roll pin.
+>
+> Install the cooler element (15).
+>
+> Install a new cover-to-element flange gasket (14) and the cover (13).
+>
+> **Note · Примечание**
+> Each cover contains 18 capscrews.
+>
+> Install the flat washers, lock washers, and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Repeat this step for the other side of the assembly.
+>
+> Install the four air crossover connection gaskets (8), the spacers (7), the gaskets (8), and the connection (6).
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install the new cover plate gaskets (5) and plates (4).
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> **Note · Примечание**
+> The adapters **must** be installed so that the water leakage hole is toward the bottom of the aftercooler housing. This hole prevents any coolant leak from entering the aftercooler housing at the water inlet or outlet connections.
+>
+> Install four new adapter connection gaskets (9) and adapters (10) on the nipples for the element.
+>
+> **CAUTION · Осторожно**
+> Make sure the correct seal is installed for the water connection. If the wrong seal is installed, a leak will result, leading to engine damage.
+>
+> **Note · Примечание**
+> This information applies to the water inlet and outlet connections for the aftercooler.
+>
+> If necessary, install a new rectangular seal ring or a new o-ring on the water outlet connection. Look at the water outlet connection.
+>
+> Install the rectangular ring seal (17) with the connection (18) that does **not** have the step at the end of the chamfer.
+>
+> Install the o-ring (19) with the connection (20) that has a step at the end of the chamfer.
+>
+> **Note · Примечание**
+> The rectangular seal ring is the same part number as the seal on the water outlet tube. The o-ring is the same part number as the seal (10) on the adapter connection (8). The older connection (20) is **not** available for service.
+>
+> Install both water outlet connection seals (7) and connections (6). Install the lock washers and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> **Note · Примечание**
+> All K50 aftercoolers contain this connection. Newer K38 aftercoolers contain a shorter connection.
+>
+> Install new air crossover connection gaskets (4) and connections (5). Install the flat washers, lock washers, and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> **Note · Примечание**
+> Lubricate **only** the o-ring seals that are to be installed immediately in the bore of the housing or connection. This will prevent the exposed o-ring from expanding and collecting dirt.
+>
+> Install two new o-rings (2) on each air tube.
+>
+> Install the dust seals (3) on the air tubes (1).
+>
+> Use vegetable oil. Lubricate the o-ring.
+>
+> Install the air tube in the bore of the housing or connection.
+>
+> Standard System
+>
+> Install the element (10) in the manifold (8). Install the eight capscrews (9) that contain the captive spring washers.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install a new gasket (7) and cover (6). Install the 21 captive capscrews and flat washers (5).
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install two new o-rings (4) in each adapter (2).
+>
+> Use vegetable oil. Lubricate the o-rings.
+>
+> Install new gaskets (3) and the adapters (2).
+>
+> Install the four capscrews with flat washers and lock washers (1).
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [142 in-lb]
+>
+> Low Temperature Aftercooler (LTA)
+>
+> The intake manifolds serve as the aftercooler housing. The element is installed through the cast opening in the side of the housing.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the foam seal into the groove in the aftercooler housing.
+>
+> **Note · Примечание**
+> Applying a small amount of sealant (RTV) into the groove aids in holding the foam seal in place. Do **not** allow sealant on the visible portion of the foam seal.
+>
+> The length of the seal protruding from each end is then bent and installed into the groove provided to obtain a positive seal with the element mounting flange. The protrusion **must** be 3 to 6 mm \[0.118 to 0.236 inch\] outside the housing at both sides. If required, cut the length to this specification.
+>
+> Apply a light film of vegetable oil to the foam seal at the ends of the housing to reduce drag of the element and prevent damage to the foam seal during element installation.
+>
+> There are two methods of sealing the aftercooler to element joint:
+>
+> - Gasket/Sealant
+> - Rubber Seal.
+>
+> Gasket/Sealant Installation
+>
+> **Note · Примечание**
+> The gasket was replaced with liquid sealant.
+>
+> Apply two separate, continuous beads of liquid sealant Loctite® 509 (also called Loctite® LMD127) directly to the aftercooler housing. Each sealant bead is to be 1.5 mm \[0.039 inch\] in diameter. This sealant replaced the conventional gasket.
+>
+> The sealant is an anaerobic substance and will **only** cure (set up) in the absence of air. The sealant will **not** begin to cure until the aftercooler element is clamped into the housing.
+>
+> The sealant beads **must** be continuous strips without gaps, to prevent air leakage. Do **not** apply an excessive amount of sealant. Extra sealant does **not** result in a stronger joint.
+>
+> Install two guide pins in the housing for installing the aftercooler element into the housing. The guide plugs allow installation of the heavy element without disturbing the sealant, if used.
+>
+> Guide pins can be made by cutting the head off a 3/8 inch capscrew.
+>
+> Install the aftercooler element into the aftercooler housing.
+>
+> Install the 63 mm \[2.48 inch\] capscrews and washers into the locations shown.
+>
+> Tighten the capscrews just enough to hold the element in place.
+>
+> Remove the two guide pins.
+>
+> Install the 171 mm \[6.732 inch\] capscrews and washers into the locations as shown.
+>
+> Tighten the capscrews just enough to hold the element in place.
+>
+> The two remaining holes will be used when the water transfer connections are installed. Use the torque value and sequence in this step.
+>
+> The sealant cures to 80 percent strength 1 hour after the aftercooler element capscrews are tightened. The sealant is completely cured in 24 hours.
+>
+> Once the engine is filled with coolant and the engine is tested, a small amount of sealant will seep from the joint during the first hour of engine operation. Remove this excess sealant.
+>
+> Rubber Seal Installation
+>
+> Install the rubber seal into the groove on the aftercooler housing. Make sure the seal is **not** twisted or damaged.
+>
+> Install the aftercooler element into the housing. Make sure **not** to dislocate either the foam seal or the rubber seal.
+>
+> All aftercooler elements are identical and are inserted into the housing with the water inlet and outlet just below the air intake connection.
+>
+> Install the washers (26) and spacers (29) on the fourteen capscrews (27). Insert the capscrews into the holes shown. The three capscrews (1) can only be installed in the rear intake manifold assemblies at this time.
+>
+> Capscrews will be inserted in the open positions either during the installation of the aftercooler plumbing or the intake manifold assembly.
+>
+> Tighten all of the inserted capscrews just enough to hold the aftercooler element in place.
+>
+> Use the sequence shown. Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Check the four aftercooler element locating pins for proper location.
+>
+> Install the aftercooler element gasket.
+>
+> Install the upper and lower grommet seals and o-ring seals on the cooler connections.
+>
+> Install the aftercooler element into the housing.
+>
+> Install the twelve capscrews and tighten in the sequence illustrated.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Apply a light coat of anti-seize lubricant, Part Number 3824759, to the aftercooler cover mounting capscrew threads.
+>
+> Install the aftercooler cover and mounting capscrews. Tighten the capscrews in the sequence shown.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Lubricate the o-ring with Lubriplate™ 105, Part Number 3163087, multi-purpose lubricant
+>
+> Install the connection gasket and the seal retainer.
+>
+> Install the flange connector and the mounting capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> This assembly or component weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> This procedure applies only to KTA38 and KTA50 engines with a center mount aftercooler. If a KT38 engine is being serviced, omit this procedure and proceed to install the air transfer housing. If an engine with outboard aftercoolers is being serviced, proceed to Install the Turbochargers.
+>
+> **Note · Примечание**
+> This procedure assumes that the aftercooler was assembled previously. Refer to Procedure 010-999 in Section F.
+>
+> **Note · Примечание**
+> Newer engines have three capscrews with lock washers through the bracket to each support. Older engines have two capscrews with lock washers.
+>
+> Center Mount Aftercooler
+>
+> Install the lock washers (1) and capscrews (2) in the holes in the bracket. Put the aftercooler assembly (3) on the supports and install the capscrews in the supports.
+>
+> **Момент затяжки · Torque Value**
+> 60 n•m [44 ft-lb]
+>
+> **CAUTION · Осторожно**
+> Newer engines have rectangular ring seals (4) between the water inlet connections and the tubes on the aftercooler elements. Older engines have o-rings. Determine if seals are required. If the correct seals are not installed, a leak could result leading to engine damage.
+>
+> **Note · Примечание**
+> Assemble the aftercooler water inlet connection (5) as shown. Refer to Procedure 010-999 in Section F.
+>
+> Install the seals (4) on the aftercooler element tubes.
+>
+> Use vegetable oil. Lubricate the seals.
+>
+> Install the water inlet connection (5). Push the connection over the seals until the connection touches the aftercooler housing. Install, but do **not** tighten, the four lock washers (6) and capscrews (7).
+>
+> Install the gasket (8), the lock washers (9), and the capscrews (10).
+>
+> Tighten the four capscrews (7).
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Tighten the two capscrews (10).
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> If the turbocharger uses a hose connection, slide the hose forward on the connection and tighten the **T-bolt** clamps.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> **Note · Примечание**
+> Installation of the air fuel control air tube (1) is **not** as difficult if completed before the installation of the water tubes.
+>
+> **Note · Примечание**
+> Two aftercooler water outlet tubes are required
+>
+> Install two rectangular seal rings (2) on the water outlet tube. Install the tube, lock washers, and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> **Note · Примечание**
+> Engines that are equipped with a center mount aftercooler have four air crossover assemblies. Use this procedure to install the parts.
+>
+> Install the two o-rings (7) and the dust seal (8) on the tube (9) for the air crossover.
+>
+> Use engine oil or Lubriplate™ 105, Part Number 3163087, multi-purpose lubricant. Lubricate the seals.
+>
+> Install the tube in the air connections on the aftercooler or the air transfer housing.
+>
+> Install the air crossover (10) on the tube. Push the crossover on the tube as far as possible.
+>
+> **Note · Примечание**
+> The raised bead on the gasket **must** be toward the air crossover.
+>
+> Install the gasket (11) and the four lock washers, flat washers, and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Outboard Aftercooler - Standard Cooling Systems
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the long capscrews, lock washers, flat washers (1) and the rectangular seal sleeves (2) in the row of capscrew holes that is nearest to the top of the aftercooler assembly. The sleeves prevent dirt and water from damaging the threads of the capscrews.
+>
+> **Note · Примечание**
+> The use of guide pins installed in the row of capscrew holes at the bottom of the cylinder head will aid the assembly procedure.
+>
+> **Note · Примечание**
+> The raised bead of the gasket (3) **must** be toward the cylinder head.
+>
+> Install a gasket (3) on each cylinder head.
+>
+> Install the aftercooler assembly (4), lock washers, flat washers, and the capscrews.
+>
+> Use the following steps to tighten the capscrews in the sequence shown.
+>
+> Torque Value:
+>
+> Type 1- Air Crossovers with Retaining Straps
+>
+> **Note · Примечание**
+> The engine has two air jumper tube assemblies. The assembly for the left bank is shown. The assembly for the right bank **must** be installed so that the opening for the air crossover is nearest to the rear of the engine.
+>
+> Install the two gaskets (10) and the air jumper tube assembly with the 12 flat washers, 12 lock washers and 12 capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install two o-ring seals (11) on the tube (12) for the air crossover. Install the dust seal (13) on the tube.
+>
+> Use engine oil or Lubriplate™ 105, Part Number 3163087, multi-purpose lubricant. Lubricate the seals.
+>
+> Install the tube in the turbocharger. Install the air crossover (14) on the tube. Push the crossover on the tube as far as possible.
+>
+> **Note · Примечание**
+> Check to be sure the crossover and turbocharger compressor housing are aligned properly. If the gaps between the compressor housing and the crossover are **not** the same at the top and the bottom, adjust the turbocharger compressor housing alignment.
+>
+> Install the V-band clamp (15). Tighten the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Use a mallet. Tap around the clamp to be sure it is seated. Tighten the clamp nut.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Continue tapping and tightening the clamp nut until it does **not** turn at the specified torque after tapping.
+>
+> **Note · Примечание**
+> Some engines have clamps (17) for the turbocharger oil inlet hose. The hose **must** be clamped to the outside of the retainer plates (16).
+>
+> Install the two retainer plates (16), the large flat washers, lock washers, and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Type II - Air Crossover with Hoses
+>
+> Install the hose (12) on the connection (13). Push the hose on the connection as far as possible.
+>
+> Insert the connection and the hose between the two manifold assemblies. Fit the hose over the manifold cover.
+>
+> Install the gasket (14), the four flat washers, lock washers, and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [20 in-lb]
+>
+> Push the hose on the manifold cover until the ends of the hose are the same distance from the gap between the connection and the cover.
+>
+> Install the two T-bolt clamps (15).
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> **Note · Примечание**
+> Check to be sure the crossover and the turbocharger compressor housing are aligned properly. Put the crossover in position on the connection (13). Look at the gap between the crossover and the turbocharger housing. If the gap is **not** the same at the top and bottom, the turbocharger compressor housing **must** be adjusted
+>
+> Install the hose (16) on the crossover (17). Install the hose and tube on the turbocharger housing.
+>
+> Install the V-band clamp (18).
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Use a mallet. Tap around the clamp to be sure it is seated.
+>
+> Tighten the nut on the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Continue tapping and tightening the clamp nut until it does **not** turn at the specified torque after tapping.
+>
+> Install the two T-bolt clamps (19).
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> Old Style Plumbing with Hoses
+>
+> Install the hoses and clamps on the inlet tube 4 and the outlet tube (5). Connect the tubes to the aftercooler, the fitting in the cylinder block and the fitting in the thermostat support as shown.
+>
+> Install the support clamp (6) on the tube with one of the aftercooler mounting capscrews.
+>
+> **Note · Примечание**
+> **Only** one of the four connections is shown here.
+>
+> **Момент затяжки · Torque Value**
+> 5 n•m [44 in-lb]
+>
+> New Style Plumbing
+>
+> Install the hoses on the water transfer tube (C). Install the o-rings and rectangular seal in the core connections.
+>
+> Lubricate with engine oil or vegetable oil.
+>
+> Tighten the connecting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install the clamps. Install inlet tubes (B).
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Outboard Aftercooler - LTA Cooling System
+>
+> **Note · Примечание**
+> The aftercooler housings for the left bank front and right bank rear are the same. The left bank rear and the right bank front are also the same.
+>
+> **Note · Примечание**
+> Guide pins installed in the row of capscrew holes at the bottom of the cylinder heads will aid in installation.
+>
+> **Note · Примечание**
+> The raised bead of the gasket (21) **must** be toward the cylinder head.
+>
+> Install the aftercooler assembly (2), conical washers (23) and the capscrews (25).
+>
+> Install the longer capscrews (25), conical washers (23), and the rectangular seal sleeves (28) in the row of capscrews holes that are nearest the top of the aftercooler assembly. The sleeves will prevent dirt and water from damaging the threads of the capscrews.
+>
+> Insert the shorter capscrews (24) and conical washers (23) in the lower row of the assembly.
+>
+> Tighten the capscrews in the sequence shown.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the hose (11) and the two T-bolt clamps (10) on the two air intake connections (9).
+>
+> Install gaskets (12) and connections on the intake manifolds. Insert the long capscrews (13) and the short capscrews (30) with washers (14). Tighten the capscrews (13) and (30).
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Tighten the T-bolt clamps.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [70 in-lb]
+>
+> Do **not** position the clamps over the hose beads. The clamps **must** be positioned between the hose beads and the end of the hose. A portion of the hose **must** extend outside the clamp.
+>
+> Tighten the T-bolt clamps.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> Install the two clamps (16) and the hose (18) over the connections (15 and 17). Do **not** tighten the clamps at this time.
+>
+> Install the gaskets (31), eight capscrews (20) and washers (19). Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Center the hose (18) over the gap between the connections (15 and 17).
+>
+> **Note · Примечание**
+> Do **not** position the clamps over the hose beads. The clamps **must** be positioned between the hose beads and the end of the hose. A portion of the hose **must** extend outside the clamp.
+>
+> Position the clamps between the end of the hose and bead on the connection. Tighten the clamps.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> The crossover (7) and the turbocharger **must** align properly. Put the crossover in position on the connection (17). Check the gap between the crossover (7) and the turbocharger housing. If the gap is **not** the same at the top and bottom, rotate the crossover connection (17). If this does **not** provide proper alignment, the turbocharger compressor housing **must** be adjusted.
+>
+> If the gap is **not** the same at the front and rear, rotate the crossover to the position that provides the best possible alignment.
+>
+> Install the hose (6) on the crossover (7). Then install the crossover on the turbocharger and the flanged connection.
+>
+> Install and tighten the V-band clamp (8).
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Tighten the nut on the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Tap and tighten the clamp nut until it will **not** turn at the specified torque after tightening.
+>
+> Install the two T-bolt clamps.
+>
+> **Note · Примечание**
+> Do **not** position the clamps over the hose beads. The clamps **must** be positioned between the hose beads and the end of the hose. A portion of the hose **must** extend outside the clamp
+>
+> Position the hose (6) in the center of the connection and tighten the clamps (5).
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> Install the tube clamps (7) and (8) on water transfer tubes (5) and (6). Install capscrews (9).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Check dust seals (29).
+>
+> Install the vent line on the upper water transfer connection on each bank.
+>
+> **Note · Примечание**
+> The lines **must** route horizontally or inclined toward the thermostat housing at all times. Any humps or sags will prevent aftercooler core venting and cause core damage. The length of the short hose between the two manifolds is critical. It **mustnot** sag or put excessive stress on the fittings
+>
+> Install the vent lines from each bank to the cross connection on the thermostat housing.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Use a hoist and sling to lift the aftercooler assembly.
+>
+> Install guide studs long enough to protrude from the housing.
+>
+> Install guide studs into the cylinder head in the lower row of mounting holes.
+>
+> Lubricate the air balance tube o-rings with Lubriplate™ 105, Part Number 3163087, multi-purpose lubricant
+>
+> Install the air balance tube.
+>
+> Install the rubber T-coolant connectors.
+>
+> Install new intake manifold gaskets, with the raised bead of the gasket toward the cylinder head. Use heavy grease to hold in place.
+>
+> Install the aftercooler assembly with a hoist.
+>
+> Align the rubber water connectors and air balance tube while the assembly is being installed over the guide studs.
+>
+> Install the top row of the aftercooler mounting capscrews (long capscrews). Do **not** tighten the capscrews.
+>
+> Remove the guide studs and install the lower aftercooler mounting capscrews.
+>
+> Tighten the aftercooler mounting capscrews in the sequence shown.
+>
+> Torque Value:
+>
+> Cast Iron Housing Capscrews
+>
+> Torque Value:
+>
+> Aluminum Housing Capscrews
+>
+> Install and tighten the coolant connection hose clamps.
+>
+> Torque Value:
+>
+> Coolant Connection Clamps
+>
+> Inspect the air crossover, turbocharger connection, and the hoses to make sure they are clean.
+>
+> Install the air crossover, hoses, and the hose clamps.
+>
+> Install the air crossover support capscrews.
+>
+> Position the hose clamps 10 mm \[0.25 in\] from the raised bead on the turbocharger outlet and the air crossover.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Tighten the air crossover support capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the air connection bellows and two new gaskets (marine **only**).
+>
+> Install and tighten the eight mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 142 n•m [105 ft-lb]
+>
+> Install the air transfer tube between the aftercooler and the turbocharger (marine **only**).
+>
+> Install and tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries. See equipment manufacturer service information.
+> - Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Operate the engine and check for leaks.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the exhaust gas temperature converters, if equipped. Refer to Procedure 019-450 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK 50, and QSK60 Modular Common Rail System, Bulletin 4021533.
+> - Install the intake manifold air temperature sensor. Refer to Procedure 019-059 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK 50, and QSK60 Modular Common Rail System, Bulletin 4021533.
+> - Install the intake manifold air pressure sensor. Refer to Procedure 019-061 in Section 19 in the Troubleshooting and Repair Manual QSK38, QSK 50, and QSK60 Modular Common Rail System, Bulletin 4021533.
+> - Install the coolant bypass tube. Refer to Procedure 008-005 in Section 8 (right bank **only**).
+> - Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine and check for leaks.

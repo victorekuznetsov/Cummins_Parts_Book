@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-008.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-008.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Coolant Filter Head (Remote-Mounted)
@@ -34,89 +36,166 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-008.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[122°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+с форсункой механического управления
 
-> [!warning] CAUTION · Осторожно
-> Use caution when draining coolant that the coolant is not spilled or drained into the bilge area. Do not pump coolant overboard. If the coolant is not reused, it must be disposed of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Подождите, пока температура охлаждающей жидкости не будет ниже 50°C \[122°F\], прежде чем снимать крышку радиатора. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-- Drain the cooling system. Refer to the Procedure [[20-008-018-tr — Cooling System|008-018]].
-- Remove the coolant filters. Refer to Procedure [[20-008-006-tr — Coolant Filter|008-006]].
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при сливе охлаждающей жидкости, чтобы охлаждающая жидкость не пролилась или не слилась в зону трюма. Не сливайте охлаждающую жидкость за борт. Если охлаждающая жидкость не используется повторно, она должна быть утилизирована в соответствии с местными экологическими нормами.
+
+- Слейте охлаждающую жидкость. См. Процедуру[[20-008-018-tr — Cooling System|008-018]].
+- Удалите фильтры охлаждающей жидкости. См. процедуру[[20-008-006-tr — Coolant Filter|008-006]].
 
 ![[oi800la.png]]
 
-### Remove
+### Снятие
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Disconnect the coolant inlet and outlet hoses from the coolant filter valve fittings.
+Отсоедините впускные и выпускные шланги охлаждающей жидкости от фитингов фильтра охлаждающей жидкости.
 
-Discard the face seal o-rings.
+Отбросьте уплотнительные кольца.
 
 ![[17400059.png]]
 
-Remove the four capscrews, washers, and coolant filter head from the bracket.
+Удалите четыре болта, шайбы и головку фильтра охлаждающей жидкости из скобки.
 
 ![[17400060.png]]
 
-Remove the bracket, four capscrews, and washers from the lubricating oil pan.
+Снимите скобки, четыре болта и шайбы со моторного масла.
 
 ![[17400061.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Inspect the bracket for cracks or damage.
+Проверьте скобки на наличие трещин или повреждений.
 
-Inspect the filter head for cracks or damaged threads.
+Проверьте головку фильтра на наличие трещин или поврежденных резьб.
 
 ![[17400025.png]]
 
-Check the coolant hoses for cracks.
+Проверьте шланги охлаждающей жидкости на наличие трещин.
 
 ![[oi8hosa.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Install bracket, capscrews, and four washers to the lubricating oil pan. Tighten capscrews.
+Установите кронштейн, болты и четыре шайбы на масляный поддон. Затягивай болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 75 n•m [55 ft-lb]
+> [!tip] Момент затяжки
+> 75 Н·м [55 фунт-фут]
 
 ![[17400061.png]]
 
-Install coolant filter head, four capscrews, and washers to the bracket.
+Установите головку фильтра охлаждающей жидкости, четыре болта и шайбы в кронштейн.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [20 ft-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [20 фунт-фут]
 
 ![[17400060.png]]
 
-Install the face seal o-rings.
+Установите уплотнительные кольца.
 
-Connect the coolant inlet and outlet hoses to the coolant filter valve fittings.
+Подсоедините впускные и выпускные шланги охлаждающей жидкости к фитингам фильтра охлаждающей жидкости.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [20 ft-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [20 фунт-фут]
 
 ![[17400059.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-- Install the coolant filters. Refer to Procedure [[20-008-006-tr — Coolant Filter|008-006]].
-- Fill the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]] and the OEM troubleshooting and repair manual.
-- Operate the engine and check for leaks.
+- Установите фильтры охлаждающей жидкости. См. процедуру[[20-008-006-tr — Coolant Filter|008-006]].
+- Заправьте систему охлаждения. См. процедуру[[20-008-018-tr — Cooling System|008-018]]и руководство по устранению неполадок и ремонту OEM.
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[wf800ha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[122°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **CAUTION · Осторожно**
+> Use caution when draining coolant that the coolant is not spilled or drained into the bilge area. Do not pump coolant overboard. If the coolant is not reused, it must be disposed of in accordance with local environmental regulations.
+>
+> - Drain the cooling system. Refer to the Procedure [[20-008-018-tr — Cooling System|008-018]].
+> - Remove the coolant filters. Refer to Procedure [[20-008-006-tr — Coolant Filter|008-006]].
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Disconnect the coolant inlet and outlet hoses from the coolant filter valve fittings.
+>
+> Discard the face seal o-rings.
+>
+> Remove the four capscrews, washers, and coolant filter head from the bracket.
+>
+> Remove the bracket, four capscrews, and washers from the lubricating oil pan.
+>
+> ### Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> Inspect the bracket for cracks or damage.
+>
+> Inspect the filter head for cracks or damaged threads.
+>
+> Check the coolant hoses for cracks.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> Install bracket, capscrews, and four washers to the lubricating oil pan. Tighten capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 75 n•m [55 ft-lb]
+>
+> Install coolant filter head, four capscrews, and washers to the bracket.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [20 ft-lb]
+>
+> Install the face seal o-rings.
+>
+> Connect the coolant inlet and outlet hoses to the coolant filter valve fittings.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [20 ft-lb]
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Install the coolant filters. Refer to Procedure [[20-008-006-tr — Coolant Filter|008-006]].
+> - Fill the cooling system. Refer to Procedure [[20-008-018-tr — Cooling System|008-018]] and the OEM troubleshooting and repair manual.
+> - Operate the engine and check for leaks.

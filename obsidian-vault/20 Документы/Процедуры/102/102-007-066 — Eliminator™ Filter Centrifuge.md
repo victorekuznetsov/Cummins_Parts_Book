@@ -26,7 +26,8 @@ manuals:
   - "3810497"
   - "4021374"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-007-066.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-007-066.pdf"
 tags:
@@ -36,6 +37,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/102"
+  - "перевод/машинный"
 ---
 
 # Eliminator™ Filter Centrifuge
@@ -49,60 +51,118 @@ tags:
 > **Даты:** изменён 2019-09-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-007-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-007-066.pdf)
 
-### Disassemble
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-For a detailed Disassemble procedure, use the Maintenance Section in the Eliminator™ Filter, Bulletin [[3666253 — Eliminator™ Filter|3666253]].
 
-### Clean and Inspect for Reuse
+### Разборка
 
-For a detailed Clean and Inspect for Reuse, use the Maintenance Section in the Eliminator™ Filter, Bulletin [[3666253 — Eliminator™ Filter|3666253]].
+Для подробной процедуры разборки используйте раздел технического обслуживания в фильтре EliminatorTM, бюллетень[[3666253 — Eliminator™ Filter|3666253]].
 
-### Assemble
+### Очистка и проверка при повторном использовании
 
-For a detailed Assemble procedure, use the Maintenance Section in the Eliminator™ Filter, Bulletin [[3666253 — Eliminator™ Filter|3666253]].
+Для детального анализа и проверки на повторное использование используйте раздел технического обслуживания в фильтре EliminatorTM, бюллетень[[3666253 — Eliminator™ Filter|3666253]].
 
-### Pressure Test
+### Сборка
 
-This test will indicate oil pressure before and after the oil flows through the Eliminator™.
+Для подробной процедуры сборки используйте раздел технического обслуживания в фильтре EliminatorTM, бюллетень[[3666253 — Eliminator™ Filter|3666253]].
 
-Use a differential pressure gauge or one pressure gauge with two oil hoses and two valves (1 and 2) to eliminate gauge error. Use a gauge with a minimum pressure capacity of 1400 kPa \[200 psi\].
+### Испытание на давление
 
-Be sure the engine is switched off.
+Этот тест будет указывать давление масла до и после прохождения через Элиминатор.
+
+Используйте дифференциальный калибр давления или один калибр давления с двумя масляными шлангами и двумя клапанами (1 и 2) для устранения ошибки калибра. Используйте калибр с минимальной мощностью давления 1400 кПа[200 psi].
+
+Убедитесь, что двигатель выключен.
 
 ![[07e00184.png]]
 
-Remove the two plugs from the filter housing.
+Удалите две вилки из корпуса фильтра.
 
-Install the 3end of the valve assembly in the port of the filter nearest to the centrifuge from where the plug was removed.
+Установите 3-конец клапанного узла в порту фильтра, ближайшем к центрифуге, откуда была удалена пробка.
 
-Install the end of the valve assembly in the port of the filter furthest away from the centrifuge from where the other plug has been removed.
+Установите конец клапанного узла в порту фильтра, наиболее удаленном от центрифуги, откуда была удалена другая пробка.
 
 ![[07600238.png]]
 
-Operate the engine at rated revolutions per minute (rpm) until the engine oil reaches its normal operating temperature. Continue running the engine at rated rpm for the duration of the pressure test.
+Работайте с двигателем при номинальных оборотах в минуту (об/мин), пока моторное масло не достигнет нормальной рабочей температуры. Продолжайте работу двигателя при номинальной оборотной массе в течение всего периода испытания на давление.
 
 ![[oi400la.png]]
 
-Close valve (1), open valve (2), and record the pressure value before the Elininator™.
+Закройте клапан (1), открытый клапан (2) и запишите значение давления перед ElininatorTM.
 
-Close valve (2), open valve (1), and record the pressure value after the Eliminator™.
+Закройте клапан (2), открытый клапан (1) и запишите значение давления после ЭлиминатораTM.
 
-If the difference in pressure is more than the maximum allowable value, inspect and clean the Eliminator™ screens before checking the oil pressure differential again.
+Если разница в давлении превышает максимально допустимое значение, проверьте и очистите экраны EliminatorTM, прежде чем снова проверить перепад давления масла.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | kPa | psi |
-| Maximum Oil Pressure Differential | 60 | 9 |
+|  | каша | пси |
+| Максимальный дифференциал давления масла | 60 | 9 |
 
 ![[07e00184.png]]
 
-Turn the engine OFF.
+Выключите двигатель.
 
-Remove the valve assembly from the Eliminator™ and install the two plugs.
+Удалите клапанный узел из EliminatorTM и установите две вилки.
 
-Tighten the plugs.
+Затяните заглушки.
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 10 Н·м [89 фунт-дюйм]
 
 ![[07600238.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Disassemble
+>
+> For a detailed Disassemble procedure, use the Maintenance Section in the Eliminator™ Filter, Bulletin [[3666253 — Eliminator™ Filter|3666253]].
+>
+> ### Clean and Inspect for Reuse
+>
+> For a detailed Clean and Inspect for Reuse, use the Maintenance Section in the Eliminator™ Filter, Bulletin [[3666253 — Eliminator™ Filter|3666253]].
+>
+> ### Assemble
+>
+> For a detailed Assemble procedure, use the Maintenance Section in the Eliminator™ Filter, Bulletin [[3666253 — Eliminator™ Filter|3666253]].
+>
+> ### Pressure Test
+>
+> This test will indicate oil pressure before and after the oil flows through the Eliminator™.
+>
+> Use a differential pressure gauge or one pressure gauge with two oil hoses and two valves (1 and 2) to eliminate gauge error. Use a gauge with a minimum pressure capacity of 1400 kPa \[200 psi\].
+>
+> Be sure the engine is switched off.
+>
+> Remove the two plugs from the filter housing.
+>
+> Install the 3end of the valve assembly in the port of the filter nearest to the centrifuge from where the plug was removed.
+>
+> Install the end of the valve assembly in the port of the filter furthest away from the centrifuge from where the other plug has been removed.
+>
+> Operate the engine at rated revolutions per minute (rpm) until the engine oil reaches its normal operating temperature. Continue running the engine at rated rpm for the duration of the pressure test.
+>
+> Close valve (1), open valve (2), and record the pressure value before the Elininator™.
+>
+> Close valve (2), open valve (1), and record the pressure value after the Eliminator™.
+>
+> If the difference in pressure is more than the maximum allowable value, inspect and clean the Eliminator™ screens before checking the oil pressure differential again.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | kPa | psi |
+> | Maximum Oil Pressure Differential | 60 | 9 |
+>
+> Turn the engine OFF.
+>
+> Remove the valve assembly from the Eliminator™ and install the two plugs.
+>
+> Tighten the plugs.
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [89 in-lb]

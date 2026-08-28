@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666003"
 figures: 44
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-018-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-008-018-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Cooling System
@@ -34,434 +36,788 @@ tags:
 > **Даты:** изменён 2019-01-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-018-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-008-018-tr.pdf)
 
-### Coolant Replacer Method
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Evacuation
 
-The following steps are used to evacuate the cooling system using the coolant replacer tool, Part Number 2892459.
+### Метод замены охлаждающей жидкости
 
-> [!note] Note · Примечание
-> When the vehicle/equipment or engine is equipped with a quick disconnect fitting in the cooling system package, the Coolant Replacer Method is the preferred method for coolant removal. Use the coolant replacer tool, Part Number 2892459. If the vehicle/equipment or engine does **not** have a quick disconnect fitting presently installed, one can be installed in the cooling system package to utilize the Coolant Replacer Method; otherwise the coolant drain and fill method **must** be used.
+эвакуация
 
-Position the equipment on level ground.
+Следующие шаги используются для эвакуации системы охлаждения с использованием инструмента замены охлаждающей жидкости, номер детали 2892459.
+
+> [!note] Примечание
+> Когда транспортное средство/оборудование или двигатель оснащены быстрой установкой отключения в упаковке системы охлаждения, предпочтительным методом удаления охлаждающей жидкости является метод замены охлаждающей жидкости. Используйте инструмент замены охлаждающей жидкости, номер детали 2892459. Если транспортное средство/оборудование или двигатель не имеют **быстрой установки отключения, установленной в настоящее время, можно установить в пакет системы охлаждения для использования метода замены охлаждающей жидкости; в противном случае должен использоваться метод слива и заполнения охлаждающей жидкости**.
+
+Поместите оборудование на ровной местности.
 
 ![[ra8dcwb.png]]
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> Do not use the coolant replacement tool to evacuate contaminated coolant or a system that is suspected of contamination. This could result in cross contamination of coolant. The coolant drain method should be used for removing contaminated coolant. Refer to the manufacturer's manual for specific instructions on cleaning the tool of contaminates.
+> [!warning] ОСТОРОЖНО
+> Не используйте средство для замены охлаждающей жидкости для эвакуации загрязненной охлаждающей жидкости или системы, которая подозревается в загрязнении. Это может привести к перекрестному загрязнению охлаждающей жидкости. Метод слива охлаждающей жидкости должен использоваться для удаления загрязненной охлаждающей жидкости. См. руководство производителя для конкретных инструкций по очистке инструмента от загрязнений.
 
-If the engine is found to have internal or external coolant leaks a coolant test **must** be performed and passed using an appropriate coolant test strip to use the coolant replacement tool. Use of coolant that is **not** acceptable for reuse can cause pitting and corrosion damage. Coolant that does not meet reuse guidelines **must** be replaced or brought into specification and tested by adjusting antifreeze, water, and supplemental coolant additive (SCA) levels if applicable. See Section 5 in the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], for antifreeze, water, and test strip specifications.
+Если обнаружено, что двигатель имеет внутреннюю или внешнюю утечку охлаждающей жидкости, необходимо выполнить испытание охлаждающей жидкости и пройти его с использованием соответствующей испытательной полосы охлаждающей жидкости для использования инструмента замены охлаждающей жидкости. Использование охлаждающей жидкости, которая не приемлема для повторного использования, может привести к повреждению ям и коррозии. Охлаждение, которое не соответствует рекомендациям по повторному использованию, должно быть заменено или включено в спецификацию и испытано путем корректировки уровней антифриза, воды и дополнительной добавки к охлаждающей жидкости (SCA), если это применимо. См. раздел 5 в руководстве по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], для спецификаций антифриза, воды и тест-полосок.
 
-> [!note] Note · Примечание
-> See equipment manufacturer service information for special coolant drain requirements. Special instructions may also be located near the cooling system access point or fill door on the vehicle.
+> [!note] Примечание
+> См. информацию об обслуживании производителя оборудования для специальных требований к сливу охлаждающей жидкости. Специальные инструкции могут также располагаться вблизи точки доступа системы охлаждения или заполнителя на транспортном средстве.
 
-Isolate the engine from the vehicle cooling system by closing coolant flow valves to the equipment heating systems before starting the repair. This will prevent the heater circuit from draining, minimizing the chance for air pockets to be present during the fill process.
+Выделите двигатель из системы охлаждения автомобиля, закрыв клапаны потока охлаждающей жидкости для систем отопления оборудования перед началом ремонта. Это предотвратит слив контура нагревателя, сводя к минимуму вероятность присутствия воздушных карманов во время процесса заполнения.
 
-This air can be very difficult to purge in some applications with several feet of plumbing and multiple heater cores.
+Этот воздух может быть очень трудно очищать в некоторых приложениях с несколькими футами сантехники и несколькими ядрами нагревателя.
 
-Remove the radiator cap.
+Снимите крышку радиатора.
 
 ![[08r00014.png]]
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-The coolant replacement tool tank capacity of 68 liters \[18 gal\] is adequate for most applications. An additional storage tank can be used for cooling system packages with more than 68 liter \[18 gal\] capacity.
+Замена охлаждающей жидкости в баке-инструменте емкостью 68 литров [18 галлов] является достаточной для большинства применений. Дополнительный резервуар для хранения может быть использован для систем охлаждения с емкостью более 68 литров [18 галлонов].
 
-Be sure there is no air pressure in the coolant replacement tool tank by opening the pressure relief valve (1) located on the control block of the coolant replacement tool.
+Убедитесь, что в резервуаре для замены охлаждающей жидкости нет давления воздуха, открыв клапан (1) сброса давления, расположенный на блоке управления инструментом замены охлаждающей жидкости.
 
 ![[08r00015.png]]
 
-Connect the coolant replacement tool to a shop air supply regulated at 621 kPa \[90 psi\].
+Подключите инструмент замены охлаждающей жидкости к источнику подачи сжатого воздуха, регулируемому на 621 кПа[90 psi].
 
-Switch the coolant replacement tool control lever (1) to “VAC” and leave the service hose valve (2) closed. This will create a vacuum in the tank to evacuate coolant from the cooling system package.
+Переключите рычаг управления инструментом замены охлаждающей жидкости (1) на «VAC» и оставьте клапан служебного шланга (2) закрытым. Это создаст вакуум в резервуаре для эвакуации охлаждающей жидкости из пакета системы охлаждения.
 
-Monitor the gauge (3) and build a vacuum of approximately 508 mm-Hg \[20 in-Hg\] in the coolant replacement tool tank. Once the vacuum has been achieved, move the control valve lever (1) to the middle position.
+Мониторинг калибра (3) и создание вакуума приблизительно 508 мм-Hg \[20 in-Hg\] в резервуаре для замены охлаждающей жидкости. После достижения вакуума переместить рычаг (1) управляющего клапана в среднее положение.
 
-Maintain approximately a 508 mm-Hg \[20 in-Hg\] vacuum to achieve a faster drain.
+Поддерживайте примерно 508 мм-Hg \[20 in-Hg\] вакуум для достижения более быстрого слива.
 
 ![[08r00016.png]]
 
-Attach the fill hose quick disconnect coupling (1) of the coolant replacement tool to the quick disconnect fitting. Location of the fitting may vary between original equipment manufacturers (OEMs), but the fitting is generally located in the lowest point of the vehicle/equipment cooling system package.
+Прикрепить заливной шланг быстро отсоединяемой муфты (1) инструмента замены охлаждающей жидкости к быстрому отсоединению фитинга. Расположение фитинга может варьироваться между производителями оригинального оборудования (OEM), но фитинг обычно расположен в самой низкой точке пакета системы охлаждения транспортного средства / оборудования.
 
-> [!note] Note · Примечание
-> Most Volvos are equipped with a different style fitting located in the radiator. An adapter hose is needed to connect the Cummins® coolant replacement tool to the fitting. The adapter hose is included in the accessory kit.
+> [!note] Примечание
+> Большинство Volvo оснащены другим стилем, расположенным в радиаторе. Адаптерный шланг необходим для подключения инструмента замены охлаждающей жидкости Cummins® к фитингу. Адаптерный шланг входит в комплект аксессуаров.
 
 ![[08r00017.png]]
 
-Open the service hose valve (1) by turning it **clockwise** until it is completely open (approximately ¼ turn).
+Откройте клапан служебного шланга (1), повернув его **по часовой стрелке** до полного открытия (приблизительно 1⁄4 поворота).
 
-Additional shop air may be required to maintain enough of a system vacuum to remove the coolant from the system. This can be done by moving the control valve lever (2) back to the VAC position.
+Для поддержания достаточного количества системного вакуума для удаления охлаждающей жидкости из системы может потребоваться дополнительный источник сжатого воздуха. Это можно сделать, переместив рычаг (2) управляющего клапана обратно в положение VAC.
 
 ![[08000046.png]]
 
-When the cooling system has been evacuated, a coolant and air mixture will be visible in the clear section of the coolant replacement tool fill hose.
+Когда система охлаждения будет эвакуирована, охлаждающая жидкость и воздушная смесь будут видны в прозрачном разделе заменяющего охлаждающую жидкость инструмента заполнения шланга.
 
-> [!note] Note · Примечание
-> Some residual coolant will settle in the coolant package as the recessed areas of the block continue to drain down over the next few minutes.
+> [!note] Примечание
+> Некоторые остаточные охлаждающие жидкости будут поселяться в упаковке охлаждающей жидкости, поскольку утопленные участки блока продолжают стекать в течение следующих нескольких минут.
 
-Once the system has been evacuated, turn the service hose valve (1) to the closed position by turning the valve **counterclockwise** a ¼ turn. Disconnect the shop air connection from the coolant replacer tool.
+После того, как система была эвакуирована, поверните клапан служебного шланга (1) в закрытое положение, повернув клапан **против часовой стрелки** на 1⁄4 поворота. Отсоедините подключение подачи сжатого воздуха от инструмента замены охлаждающей жидкости.
 
-Disconnect the fill hose quick disconnect coupling (2) on the coolant replacement tool from the quick disconnect fitting.
+Отсоедините быстрое отсоединение шланга (2) на инструменте замены охлаждающей жидкости от быстрого отсоединения.
 
 ![[08000047.png]]
 
-Injection
+инъекция
 
-> [!warning] CAUTION · Осторожно
-> The cooling system must be filled properly to prevent air locks or serious engine damage can result.
+> [!warning] ОСТОРОЖНО
+> Система охлаждения должна быть заполнена должным образом, чтобы предотвратить замки воздуха или серьезные повреждения двигателя.
 
-The following steps are used to inject coolant into the cooling system using the coolant replacer tool, Part Number 2892459.
+Следующие шаги используются для впрыскивания охлаждающей жидкости в систему охлаждения с использованием инструмента замены охлаждающей жидкости, номер детали 2892459.
 
-> [!note] Note · Примечание
-> When the vehicle/equipment or engine is equipped with a quick disconnect fitting in the cooling system package, the Coolant Replacer Method is the preferred method for coolant removal. Use the coolant replacer tool, Part Number 2892459. If the vehicle/equipment or engine does **not** have a quick disconnect fitting presently installed, one can be installed in the cooling system package to utilize the Coolant Replacer Method; otherwise the coolant drain and fill method **must** be used.
+> [!note] Примечание
+> Когда транспортное средство/оборудование или двигатель оснащены быстрой установкой отключения в упаковке системы охлаждения, предпочтительным методом удаления охлаждающей жидкости является метод замены охлаждающей жидкости. Используйте инструмент замены охлаждающей жидкости, номер детали 2892459. Если транспортное средство/оборудование или двигатель не имеют **быстрой установки отключения, установленной в настоящее время, можно установить в пакет системы охлаждения для использования метода замены охлаждающей жидкости; в противном случае должен использоваться метод слива и заполнения охлаждающей жидкости**.
 
 ![[08r00014.png]]
 
-A premixed, heavy duty coolant, or a mixture of high quality water and heavy duty coolant, can be used if the coolant used meets Cummins® Engineering Standards (CES). Coolant must meet the appropriate CES. [[00-379-004 — Engine Coolant Requirements|Refer to Procedure 379-004 in Section 5]] of the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
+Премиксованная, хладагент с высокой степенью полезного действия или смесь высококачественной воды и хладагента с высокой степенью полезного действия может использоваться, если используемая хладагент соответствует инженерным стандартам Cummins® (CES). Охлаждение должно соответствовать требованиям CES.[[00-379-004 — Engine Coolant Requirements|См. процедуру 379-004 в разделе 5.]]Руководство по эксплуатации жидкостей для продуктов Cummins®, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 
-Good quality water is important for cooling system performance. Excessive levels of calcium and magnesium contribute to scaling problems, and excessive levels of chlorides and sulfates cause cooling system corrosion.
+Хорошее качество воды важно для производительности системы охлаждения. Чрезмерное содержание кальция и магния способствует проблемам масштабирования, а чрезмерное содержание хлоридов и сульфатов вызывает коррозию системы охлаждения.
 
-| Water Quality |  |
+| Качество воды |  |
 |---|---|
-| Calcium Magnesium (Hardness) | Maximum 170 ppm as (CaCO 3 + MgCO 3) |
-| Chloride | 40 ppm as (Cl) |
-| Sulfate | 100 ppm as (SO 4) |
+| Магний кальция (Тяжесть) | Максимальная скорость 170 ppm (CaCO 3 + MgCO 3) |
+| Хлорид | 40 ppm (Cl) |
+| сульфат | 100 ppm (SO 4) |
 
-Cummins Inc. recommends the use of Fleetguard® products.
+Cummins Inc. Рекомендуется использовать продукты Fleetguard®.
 
-See the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], for more engine coolant specifications.
+См. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], для получения дополнительной информации о охлаждающей жидкости двигателя.
 
 ![[08c00127.png]]
 
-> [!warning] CAUTION · Осторожно
-> Opening the manual bleed valve or removing the pipe plug on applicable installations is critical. Failure to do so can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Открытие ручного кровоточащего клапана или удаление пробки трубы на соответствующих установках имеет решающее значение. Невыполнение этого требования может привести к повреждению двигателя.
 
-> [!note] Note · Примечание
-> Some applications can have a manual bleed valve or pipe plug that is required to be opened to properly fill the system. The upper radiator pipe is a common location.
+> [!note] Примечание
+> Некоторые приложения могут иметь ручной кровоточащий клапан или трубную пробку, которую необходимо открыть, чтобы правильно заполнить систему. Верхняя труба радиатора является общим местом.
 
-If applicable, open the manual bleed valve or remove the pipe plug before filling the cooling system.
+Если применимо, откройте ручной кровоточащий клапан или удалите пробку трубы перед заполнением системы охлаждения.
 
 ![[08c00338.png]]
 
-Be sure there is no air pressure in the coolant replacement tool tank by opening the pressure relief valve (1) located on the control block of the coolant replacement tool.
+Убедитесь, что в резервуаре для замены охлаждающей жидкости нет давления воздуха, открыв клапан (1) сброса давления, расположенный на блоке управления инструментом замены охлаждающей жидкости.
 
 ![[08r00015.png]]
 
-Connect the coolant replacement tool to a shop air supply regulated at 621 kPa \[90 psi\].
+Подключите инструмент замены охлаждающей жидкости к источнику подачи сжатого воздуха, регулируемому на 621 кПа[90 psi].
 
-Attach the fill hose quick disconnect coupling (1) of the coolant replacement tool to the quick disconnect fitting located in the vehicle/equipment cooling system package.
+Прикрепить быстрое отсоединение заливного шланга (1) инструмента для замены охлаждающей жидкости к быстрому отсоединению, расположенному в упаковке системы охлаждения транспортного средства/оборудования.
 
-With the service hose valve (2) in the closed position, switch the coolant replacement tool control lever (3) to “P” and build 172 kPa \[25 psi\] pressure on the gauge.
+С помощью клапана служебного шланга (2) в закрытом положении переключите рычаг управления инструментом замены охлаждающей жидкости (3) на «P» и создайте давление 172 кПа[25 psi] на измерителе.
 
-Slowly open the service hose valve (2) part way by turning it **counterclockwise** approximately 1/8 turn.
+Медленно откройте клапан служебного шланга (2), повернув его **против часовой стрелки** приблизительно на 1/8 оборота.
 
-Do **not** open the ball valve completely as this will increase the coolant flow rate and increase the amount of air pockets created in the cooling system. This will provide a more complete injection of coolant.
+Не открывайте шаровой клапан полностью, так как это увеличит расход охлаждающей жидкости и увеличит количество воздушных карманов, созданных в системе охлаждения. Это обеспечит более полную инъекцию охлаждающей жидкости.
 
 ![[08000049.png]]
 
-Fill the cooling system with coolant to the bottom of the fill neck in the radiator fill or recovery/expansion tank or until the coolant replacer tool is empty (whichever occurs first).
+Заполните систему охлаждения охлаждающей жидкостью до нижней части шеи заполнения в резервуаре для заправки или восстановления / расширения радиатора или до тех пор, пока инструмент замены охлаждающей жидкости не будет пуст (в зависимости от того, что произойдет в первую очередь).
 
-On applications that use a coolant recovery system, check to make sure the coolant is at the appropriate level in the coolant recovery tank for the engine temperature.
+В приложениях, которые используют систему восстановления охлаждающей жидкости, проверьте, чтобы убедиться, что охлаждающая жидкость находится на соответствующем уровне в резервуаре для восстановления охлаждающей жидкости для температуры двигателя.
 
-Many coolant recovery/expansion tanks, also called "top tanks", have sight glasses or are made of a clear material (**not** shown) to aid in checking the coolant level without removing the radiator cap.
+Многие резервуары для восстановления / расширения охлаждающей жидкости, также называемые «верхними резервуарами», имеют прицельные стекла или изготовлены из прозрачного материала (не показана), чтобы помочь в проверке уровня охлаждающей жидкости без снятия крышки радиатора.
 
-It is important to understand the impact of temperature on the expansion of the coolant. Most "top tanks" do **not** have a provision for a "FULL HOT" coolant level. Filling the "top tank" while hot will result in a low operating level once the system has cooled.
+Важно понимать влияние температуры на расширение охлаждающей жидкости. Большинство «верхних резервуаров» не имеют положения для уровня охлаждающей жидкости «полностью горячего». Заполнение «верхнего бака» при нагревании приведет к низкому рабочему уровню после охлаждения системы.
 
 ![[08a00269.png]]
 
-> [!warning] CAUTION · Осторожно
-> The cooling system must be filled properly to prevent air locks or serious engine damage can result.
+> [!warning] ОСТОРОЖНО
+> Система охлаждения должна быть заполнена должным образом, чтобы предотвратить замки воздуха или серьезные повреждения двигателя.
 
-> [!note] Note · Примечание
-> If all coolant drained from the system was collected, the same volume or more **must** go back into the system. If any drained coolant remains in the tool after filling, this is an indication of an air pocket in the cooling system package which **must** be purged before returning the vehicle to service.
+> [!note] Примечание
+> Если весь охлаждающий материал, слившийся из системы, был собран, то тот же объем или больше должен вернуться в систему. Если после заполнения в инструменте остается сливной охлаждающая жидкость, это указывает на воздушный карман в упаковке системы охлаждения, который должен быть очищен перед возвращением транспортного средства в эксплуатацию.
 
-> [!note] Note · Примечание
-> Top off of coolant might be necessary for repairs that were performed to correct a coolant loss issue.
+> [!note] Примечание
+> Сверху от охлаждающей жидкости может потребоваться для ремонта, который был выполнен для исправления проблемы потери охлаждающей жидкости.
 
-If all coolant drained from the system would **not** return to the system or the level is above the maximum level. This is an indication of an air pocket in the cooling system package, which **must** be purged before returning the vehicle to service.
+Если вся охлаждающая жидкость, вытекшая из системы, не вернется в систему, или уровень будет выше максимального уровня. Это указание на воздушный карман в упаковке системы охлаждения, который должен быть очищен перед возвращением транспортного средства в эксплуатацию.
 
-To remove an air pocket from the cooling system, the coolant replacement tool can be used. See the vacuum section of this procedure.
+Для удаления воздушного кармана из системы охлаждения можно использовать инструмент замены охлаждающей жидкости. Смотрите раздел вакуума этой процедуры.
 
 ![[08d00364.png]]
 
-Once the coolant level has been returned to the correct level close the service hose valve (1) by turning the valve **clockwise** until closed.
+После того, как уровень охлаждающей жидкости был возвращен на правильный уровень, закройте клапан служебного шланга (1), повернув клапан **по часовой стрелке** до закрытия.
 
-Remove pressure from the coolant replacement tool tank by opening the pressure release valve on the back of the control block (2).
+Удалить давление из резервуара для замены охлаждающей жидкости, открыв клапан высвобождения давления на задней части блока управления (2).
 
-Disconnect the service hose quick disconnect coupling (3) from the quick disconnect fitting of the vehicle/equipment.
+Отсоедините шланг службы быстрого отсоединения соединения (3) от быстрого отсоединения установки транспортного средства/оборудования.
 
 ![[08000049.png]]
 
-Vacuum
+вакуум
 
-The following steps are used to place a vacuum on the cooling system using the coolant replacer tool, Part Number 2892459.
+Следующие шаги используются для размещения вакуума на системе охлаждения с использованием инструмента замены охлаждающей жидкости, номер детали 2892459.
 
-Be sure there is no air pressure in the coolant replacement tool tank by opening the pressure relief valve (1) located on the control block of the coolant replacement tool.
+Убедитесь, что в резервуаре для замены охлаждающей жидкости нет давления воздуха, открыв клапан (1) сброса давления, расположенный на блоке управления инструментом замены охлаждающей жидкости.
 
-Clamp off any vent hoses/connections or overflow to the cooling system.
+Отключите любые шланги / соединения или переполните систему охлаждения.
 
 ![[08r00015.png]]
 
-Attach the coolant dam handle (1) to the fill hose of the coolant replacement tool.
+Прикрепить ручку плотины охлаждающей жидкости (1) к шлангу для заполнения инструмента замены охлаждающей жидкости.
 
 ![[08r00018.png]]
 
-Attach the appropriate size coolant dam rubber adapter (1) onto the coolant dam handle.
+Прикрепить к ручке плотины охлаждающей жидкости соответствующего размера резиновый адаптер (1).
 
-The size of the fill neck will differ between OEMs choose the appropriate sized coolant dam rubber adapters.
+Размер заливной шеи будет отличаться между OEM-производителями, которые выбирают подходящие по размеру адаптеры для плотины охлаждающей жидкости.
 
-Connect the coolant replacement tool to shop air regulated at 621 kPa \[90 psi\].
+Подключите инструмент замены охлаждающей жидкости для подачи сжатого воздуха, регулируемого на 621 кПа[90 psi].
 
 ![[08r00019.png]]
 
-Place the coolant dam over the coolant fill neck in the radiator or overflow tank.
+Поместите плотину охлаждающей жидкости над шеей заполнения охлаждающей жидкости в радиаторе или резервуаре для переполнения.
 
-The size of the fill neck will differ between OEMs. Choose the appropriate sized coolant dam rubber adapters.
+Размеры шеи наполнителя будут отличаться между OEM-производителями. Выберите подходящие по размеру адаптеры для плотины охлаждающей жидкости.
 
-Switch the coolant replacement tool control lever (1) to “VAC” and leave the service hose valve (2) closed. This will create a vacuum in the tank to evacuate coolant from the cooling system package.
+Переключите рычаг управления инструментом замены охлаждающей жидкости (1) на «VAC» и оставьте клапан служебного шланга (2) закрытым. Это создаст вакуум в резервуаре для эвакуации охлаждающей жидкости из пакета системы охлаждения.
 
-Monitor the gauge (3) and build a vacuum of approximately 508 mm-Hg \[20 in-Hg\] in the coolant replacement tool tank.
+Мониторинг калибра (3) и создание вакуума приблизительно 508 мм-Hg \[20 in-Hg\] в резервуаре для замены охлаждающей жидкости.
 
-Slowly open the service hose valve (2) by turning it **clockwise** until it is completely open approximately ¼ turn.
+Медленно откройте клапан служебного шланга (2), повернув его **по часовой стрелке**, пока он полностью не откроется примерно на 1⁄4 оборота.
 
-Once the cooling system is put into a vacuum, any air trapped in the cooling system will be evacuated through the top of the system. This is noticed as air bubbles through the overflow tank or top of the radiator.
+После того, как система охлаждения будет помещена в вакуум, любой воздух, захваченный в системе охлаждения, будет эвакуирован через верхнюю часть системы. Это замечено как пузырьки воздуха через переполненный резервуар или верхнюю часть радиатора.
 
 ![[08r00016.png]]
 
-When air bubbles are no longer being drawn to the top of the cooling system move the control lever to the middle position. Remove the vacuum on the coolant replacement tool tank by opening the pressure relief valve located on the control block of the coolant replacement tool (1).
+Когда пузырьки воздуха больше не притягиваются к верхней части системы охлаждения, рычаг управления перемещается в среднее положение. Удалите вакуум на резервуаре для замены охлаждающей жидкости, открыв клапан сброса давления, расположенный на блоке управления инструментом для замены охлаждающей жидкости (1).
 
-Remove the coolant dam from the radiator fill neck or overflow tank.
+Удалите плотину охлаждающей жидкости из радиатора, заполните шею или переполненный резервуар.
 
-Disconnect the coolant replacement tool from the regulated shop air supply.
+Отключите инструмент замены охлаждающей жидкости от регулируемого подачи сжатого воздуха.
 
-Install the radiator cap.
+Установите крышку радиатора.
 
 ![[08r00015.png]]
 
-### Drain
+### дренаж
 
-Marine Applications
+Судовое применение
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Avoid excessive contact, and wash thoroughly after contact.
-- Keep out of reach of children.
+- Избегайте чрезмерного контакта и тщательно промываются после контакта.
+- Держитесь подальше от детей.
 
 ![[08200157.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use caution when draining coolant that coolant is not spilled or drained into the bilge area. Do not pump the coolant overboard. If the coolant is not reused, it must be discarded in accordance with local environmental regulations.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при сливе охлаждающей жидкости, чтобы охлаждающая жидкость не пролилась или не слилась в зону трюма. Не перекачивайте охлаждающую жидкость за борт. Если охлаждающая жидкость не используется повторно, она должна быть выброшена в соответствии с местными экологическими нормами.
 
-Drain the engine cooling system by opening the drain valve on the engine oil cooler (exhaust side of engine). A drain pan with a capacity of 31.7 liters (8 gal) will be adequate in most installations. Remove the pressure cap to allow the coolant to drain properly. After the cooling system is completely drained, close the drain valve.
+Смять систему охлаждения двигателя, открыв дренажный клапан на охладитель моторного масла (выхлопная сторона двигателя). Сливная кастрюля емкостью 31,7 литра (8 галл) будет достаточной в большинстве установок. Удалите крышку давления радиатора, чтобы охлаждающая жидкость могла правильно стекать. После того, как система охлаждения полностью слита, закройте сливной клапан.
 
 ![[08900261.png]]
 
-All Applications Except Marine
+Все виды применения, кроме морских
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Avoid excessive contact, and wash thoroughly after contact.
-- Keep out of reach of children.
+- Избегайте чрезмерного контакта и тщательно промываются после контакта.
+- Держитесь подальше от детей.
 
 ![[ra900ba.png]]
 
-Drain the cooling system by opening the drain valve on the radiator and removing the plug in the bottom of the water inlet hose. A drain pan with a capacity of 19 liters \[5 gal\] will be adequate for most applications.
+Осушите систему охлаждения, открыв дренажный клапан на радиаторе и удалив пробку в нижней части впускного шланга. Сливная панель емкостью 19 литров [5 галлонов] будет достаточной для большинства применений.
 
 ![[08d00021.png]]
 
-Check for damaged hoses and loose or damaged hose clamps. Replace as required.
+Проверьте наличие поврежденных шлангов и свободных или поврежденных шлангов. Заменить по мере необходимости.
 
-Check the radiator for leaks, damage, and buildup of dirt.
+Проверьте радиатор на наличие утечек, повреждений и накопления грязи.
 
-Clean and replace as required.
+Чистить и заменять по мере необходимости.
 
 ![[ra9hosa.png]]
 
-### Flush
+### флеш
 
-Marine Applications
+Судовое применение
 
-RESTORE™ is a heavy-duty cooling system cleaner that removes corrosion products, silica gel, and other deposits. The performance of RESTORE™ is dependent on time, temperature, and concentration levels. An extremely scaled or flow-restricted system, for example, can require higher concentrations of cleaners, higher temperatures, or longer cleaning times or the use of RESTORE Plus™. Up to twice the recommended concentration levels of RESTORE™ can be used safely. RESTORE Plus™ **must** be used **only** at its recommended concentration level. Extremely scaled or fouled systems can require more than one cleaning.
+RESTORETM - это очиститель для систем охлаждения большой мощности, который удаляет продукты коррозии, силикагель и другие отложения. Производительность RESTORETM зависит от времени, температуры и уровня концентрации. Например, чрезвычайно масштабированная или ограниченная потоком система может потребовать более высоких концентраций очистителей, более высоких температур или более длительного времени очистки или использования RESTORE PlusTM. До двух рекомендованных уровней концентрации RESTORETM можно безопасно использовать. RESTORE PlusTM **должен использоваться только *** при рекомендуемом уровне концентрации. Чрезвычайно масштабированные или загрязненные системы могут потребовать более одной очистки.
 
 ![[ra8togc.png]]
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-If **not** previously done, drain the cooling system. See the information above in "Cooling System - Drain” step. Do **not** allow the cooling system to dry out.
+Если **не** ранее сделано, слив системы охлаждения. См. информацию выше в шаге «Система охлаждения - высыхание». Не допускать высыхания системы охлаждения.
 
-Do **not** remove the coolant filter.
+Не удаляйте фильтр охлаждающей жидкости.
 
 ![[08200169.png]]
 
-> [!warning] CAUTION · Осторожно
-> Fleetguard® RESTORE™ contains no antifreeze. Do not allow the cooling system to freeze during the cleaning operations.
+> [!warning] ОСТОРОЖНО
+> Fleetguard® RESTORETM не содержит антифриз. Не позволяйте системе охлаждения замерзать во время операций очистки.
 
-Immediately add 3.8 liters \[1 gal\] of Fleetguard® RESTORE™, RESTORE Plus™, or equivalent, for each 38 to 57 liters \[10 to 15 gal\] of cooling system capacity. Fill the system with clean water.
+Немедленно добавьте 3,8 литра \[1 галл\] Fleetguard® RESTORETM, RESTORE PlusTM или эквивалент, на каждый 38-57 литров \[10-15 галл\] емкости системы охлаждения. Заполните систему чистой водой.
 
 ![[ra8towa.png]]
 
-Operate the engine at normal operating temperatures, at least 85°C \[185°F\], for 1 to 1½ hours.
+Работайте с двигателем при нормальных рабочих температурах, по крайней мере, 85 ° C [185 ° F ], в течение 1-1 1⁄2 часов.
 
-Shut the engine OFF, allow to cool to 50°C \[122°F\], and drain the cooling system.
+Выключите двигатель, охладите до 50°C[122°F] и осушите систему охлаждения.
 
 ![[08200170.png]]
 
-The system has a design fill rate of 19 liters per minute \[5 gallon per minute\].
+Система имеет расчетную скорость заполнения 19 литров в минуту \[5 галлонов в минуту\].
 
-Marine engines **must** be vented at the coolant outlet housing and at the rear of the expansion tank during filling.
+Морские двигатели **должны** отражаться в корпусе розетки охлаждающей жидкости и в задней части резервуара расширения во время наполнения.
 
-Fill the cooling system with clean, good quality water.
+Заполните систему охлаждения чистой, качественной водой.
 
 ![[ra800wg.png]]
 
-Operate the engine for 5 minutes with the coolant temperature above 85°C \[185°F\].
+Работайте с двигателем в течение 5 минут при температуре охлаждающей жидкости выше 85 ° C \[185 ° F \].
 
-Shut the engine OFF, allow to cool to 50°C \[122°F\], and drain the cooling system.
+Выключите двигатель, охладите до 50°C[122°F] и осушите систему охлаждения.
 
-If the water being drained is still dirty, the system **must** be flushed again until the water comes out clean.
+Если вода, которая сливается, все еще грязная, система должна быть снова смыта до тех пор, пока вода не станет чистой.
 
 ![[08200170.png]]
 
-All Applications Except Marine
+Все виды применения, кроме морских
 
-> [!warning] CAUTION · Осторожно
-> The system must be filled properly to prevent air locks. During filling, air must be purged from the engine coolant passages. Be sure to open the petcock on the aftercooler for aftercooled engines. Wait 2 to 3 minutes to allow the air to be vented; then add coolant mixture to bring the level to the top.
+> [!warning] ОСТОРОЖНО
+> Система должна быть заполнена должным образом, чтобы предотвратить воздушные замки. Во время наполнения воздух должен быть очищен от проходов охлаждающей жидкости двигателя. Обязательно откройте дренажный клапан на афтеркулере для двигателей с последующим охлаждением. Подождите 2-3 минуты, чтобы воздух был пропущен; затем добавьте смесь охлаждающей жидкости, чтобы поднять уровень на вершину.
 
-> [!note] Note · Примечание
-> Adequate venting is provided for a fill rate of 19 liters \[5 gal\] per minute.
+> [!note] Примечание
+> Адекватное вентиляционное отверстие обеспечивается для скорости заполнения 19 литров \[5 галлов\] в минуту.
 
 ![[08d00020.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not install the radiator cap. The engine is to be operated without the cap for this process.
+> [!warning] ОСТОРОЖНО
+> Не устанавливайте крышку радиатора. Двигатель должен работать без крышки для этого процесса.
 
-Fill the system with a mixture of sodium carbonate and water (or a commercially available equivalent).
+Заполните систему смесью карбоната натрия и воды (или коммерчески доступным эквивалентом).
 
-> [!note] Note · Примечание
-> Use 0.5 kg \[1 lb\] of sodium carbonate for every 23 liters \[6 gal\] of water.
+> [!note] Примечание
+> Используйте 0,5 кг \[1 фунт\] карбоната натрия на каждые 23 литра \[6 галл\] воды.
 
 ![[ra900wd.png]]
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Operate the engine for 5 minutes with the coolant temperature above 80°C \[176°F\].
+Работайте с двигателем в течение 5 минут при температуре охлаждающей жидкости выше 80°C[176°F].
 
-Shut the engine OFF, allow to cool to 50°C \[120°F\], and drain the cooling system.
+Выключите двигатель, охладите до 50°C \[120°F\] и разрядите систему охлаждения.
 
 ![[oi800w10.png]]
 
-> [!note] Note · Примечание
-> Make sure to vent the engine and aftercooler for complete filling.
+> [!note] Примечание
+> Обязательно вентилируйте двигатель и послеохладитель для полного наполнения.
 
-> [!note] Note · Примечание
-> Do **not** install the radiator cap or the new coolant filter.
+> [!note] Примечание
+> **Не** Установите крышку радиатора или новый фильтр охлаждающей жидкости.
 
-Fill the cooling system with clean, good, and quality water.
+Заполните систему охлаждения чистой, хорошей и качественной водой.
 
 ![[ra900we.png]]
 
-Operate the engine for 5 minutes with the coolant temperature above 80°C \[176°F\].
+Работайте с двигателем в течение 5 минут при температуре охлаждающей жидкости выше 80°C[176°F].
 
-Shut the engine OFF, allow to cool to 50°C \[120°F\], and drain the cooling system.
+Выключите двигатель, охладите до 50°C \[120°F\] и разрядите систему охлаждения.
 
-> [!note] Note · Примечание
-> If the water being drained is still dirty, the system **must** be flushed again until the water comes out clean.
+> [!note] Примечание
+> Если вода, которая сливается, все еще грязная, система должна быть снова смыта до тех пор, пока вода не станет чистой.
 
 ![[oi800w10.png]]
 
-### Fill
+### заполнять
 
-Marine Applications
+Судовое применение
 
-QSC8.3 and QSL9 Engines with Heat Exchangers
+Двигатели QSC8.3 и QSL9 с теплообменниками
 
-The system has a design fill rate of 19 liters per minute \[5 gallons per minute\].
+Система имеет расчетную скорость заполнения 19 литров в минуту \[5 галлонов в минуту\].
 
-Marine engines **must** be vented at the coolant outlet housing, and at the rear of the expansion tank during filling.
+Морские двигатели **должны** отражаться в корпусе розетки охлаждающей жидкости и в задней части резервуара расширения во время наполнения.
 
-Fill the cooling system with fully formulated coolant or a 50/50 mixture of recommended antifreeze and clean, good quality water, as outlined in the Owners Manual.
+Заполните систему охлаждения полностью приготовленной охлаждающей жидкостью или смесью 50/50 рекомендованного антифриза и чистой, качественной воды, как указано в Руководстве владельцев.
 
-Install the pressure cap. Operate the engine to 50°C \[122°F\], and check for coolant leaks.
+Установите крышку радиатора. Управляйте двигателем до 50°C \[122°F\] и проверяйте наличие утечек охлаждающей жидкости.
 
 ![[08200020.png]]
 
-The freeze point protection **must** be checked after coolant is added to the cooling system.
+Защита точки замерзания должна быть проверена после добавления охлаждающей жидкости в систему охлаждения.
 
-The Fleetguard® refractometer, Part Number C2800, provides a reliable, easy-to-read, and accurate measurement of freeze point protection and antifreeze concentration.
+Рефрактометр Fleetguard®, номер детали C2800, обеспечивает надежное, легко читаемое и точное измерение защиты от замерзания и концентрации антифриза.
 
-See equipment manufacturer service information for the correct operation instructions for the Fleetguard® refractometer, Part Number C2800.
+См. информацию об обслуживании производителя оборудования для правильных инструкций по эксплуатации рефрактометра Fleetguard®, номер детали C2800.
 
 ![[ra8todb.png]]
 
-On QSL9 Keel Cooled Engines, open all engine mounted petcocks and remote heater petcocks.
+На QSL9 Keel Cooled Engines откройте все установленные на двигателе петки и петки удаленного нагревателя.
 
 ![[08d00352.png]]
 
-Fill the cooling system with fully formulated coolant or a 50/50 mixture of recommended antifreeze and clean, good quality water, as outlined in the Owners Manual.
+Заполните систему охлаждения полностью приготовленной охлаждающей жидкостью или смесью 50/50 рекомендованного антифриза и чистой, качественной воды, как указано в Руководстве владельцев.
 
 ![[ra800wn.png]]
 
-> [!note] Note · Примечание
-> The timing and sequence of this action will depend on the height of the petcocks in the cooling system.
+> [!note] Примечание
+> Сроки и последовательность этого действия будут зависеть от высоты петухов в системе охлаждения.
 
-Fill the engine until a solid stream of coolant is visible from the keel cooler thermostat housing, heat transfer tube, and remote mounted heater petcocks. Close the petcocks.
+Заполните двигатель до тех пор, пока твердый поток охлаждающей жидкости не будет виден из корпуса термостата килевого охладителя, трубки теплопередачи и петкоков удаленного нагревателя. Закрой петухов.
 
-Fill until the coolant expansion tank is filled to the proper level and the low coolant level sensor is covered.
+Заполните до тех пор, пока резервуар расширения охлаждающей жидкости не будет заполнен до надлежащего уровня, и датчик уровня низкой охлаждающей жидкости не будет покрыт.
 
-Start the engine. Monitor the coolant level and the low coolant alarm until all air is purged from the system. Operate the engine for 5 minutes with the pressure cap removed, however, do **not** exceed 50°C \[122°F\].
+Запускай двигатель. Контролируйте уровень охлаждающей жидкости и сигнализацию с низким содержанием охлаждающей жидкости до тех пор, пока весь воздух не будет очищен от системы. Работайте с двигателем в течение 5 минут с снятым напорным колпачком радиатора, однако, не превышайте 50 ° C \[122 ° F \].
 
-Shut down the engine and check the coolant level again. Add coolant if needed.
+Выключите двигатель и проверьте уровень охлаждающей жидкости снова. Добавьте охлаждающую жидкость, если это необходимо.
 
-Install the pressure cap. Start the engine and monitor the low coolant alarm during the initial startup test.
+Установите крышку радиатора. Запустите двигатель и следите за сигнализацией с низким содержанием охлаждающей жидкости во время первоначального испытания запуска.
 
-![[08d00345.png]]
+> [!missing]- Иллюстрация `08d00345.png` не извлечена — смотрите PDF-оригинал документа
 
-All Applications Except Marine
+Все виды применения, кроме морских
 
-> [!warning] CAUTION · Осторожно
-> The system must be filled properly to prevent air locks. During filling, air must be purged from the engine coolant passages. Be sure to open the petcock on the aftercooler for aftercooled engines. Wait 2 to 3 minutes to allow the air to be vented; then add coolant mixture to bring the level to the top.
+> [!warning] ОСТОРОЖНО
+> Система должна быть заполнена должным образом, чтобы предотвратить воздушные замки. Во время наполнения воздух должен быть очищен от проходов охлаждающей жидкости двигателя. Обязательно откройте дренажный клапан на афтеркулере для двигателей с последующим охлаждением. Подождите 2-3 минуты, чтобы воздух был пропущен; затем добавьте смесь охлаждающей жидкости, чтобы поднять уровень на вершину.
 
-> [!warning] CAUTION · Осторожно
-> During all coolant fill procedures, all coolant flow valves to equipment heating systems must be opened in order to purge air from those systems as well as from the base engine cooling system. These valves must remain open during the engine cooling system de-aeration process. Make sure adequate coolant levels are maintained in the coolant reservoir during the entire fill procedure. Special care must be taken when filling EGR cooler-equipped engines to make sure all air is purged from the system.
+> [!warning] ОСТОРОЖНО
+> Во время всех процедур заполнения охлаждающей жидкости все клапаны потока охлаждающей жидкости в системы отопления оборудования должны быть открыты для очистки воздуха от этих систем, а также от системы охлаждения базового двигателя. Эти клапаны должны оставаться открытыми во время процесса деаэрации системы охлаждения двигателя. Убедитесь, что в резервуаре охлаждающей жидкости поддерживается достаточный уровень охлаждающей жидкости во время всей процедуры заполнения. Особое внимание следует уделять заправке двигателей с охладительным оборудованием EGR, чтобы убедиться, что весь воздух очищается от системы.
 
-The system is designed to use a specific quantity of coolant. If the coolant level is low, the engine will run hot.
+Система предназначена для использования определенного количества охлаждающей жидкости. Если уровень охлаждающей жидкости низкий, двигатель будет работать горячим.
 
-If frequent addition of coolant is necessary, the engine or system has a leak. Find and repair the leak.
+Если необходимо частое добавление охлаждающей жидкости, двигатель или система имеет утечку. Найдите и исправьте утечку.
 
-The system has a designed fill rate of 19 liters \[5 gal\] per minute.
+Система имеет рассчитанную скорость заполнения 19 литров [5 галлов] в минуту.
 
 ![[08d00020.png]]
 
-> [!warning] CAUTION · Осторожно
-> Never use water alone for coolant. This can result in damage from corrosion.
+> [!warning] ОСТОРОЖНО
+> Никогда не используйте воду в одиночку для охлаждения. Это может привести к повреждению от коррозии.
 
-Use a mixture of 50 percent water and 50 percent ethylene glycol or propylene glycol antifreeze to fill the cooling system.
+Используйте смесь 50 процентов воды и 50 процентов этиленгликоля или пропиленгликоля антифриз для заполнения системы охлаждения.
 
 ![[ra800wn.png]]
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Install the pressure cap. Operate the engine until the coolant reaches a temperature of 80°C \[176°F\]. Check for coolant leaks.
+Установите крышку радиатора. Работайте с двигателем до тех пор, пока охлаждающая жидкость не достигнет температуры 80°C[176°F]. Проверьте на наличие утечек охлаждающей жидкости.
 
-Operate the engine at idle for 25 minutes to purge the air from the cooling system.
+Работайте с двигателем в режиме холостого хода в течение 25 минут, чтобы очистить воздух от системы охлаждения.
 
-Turn all cab heater temperature switches, if equipped, to high to allow maximum coolant flow through the heater core(s). The blower does **not** have to be on.
+Поверните все переключатели температуры кабины, если они оборудованы, на высокий уровень, чтобы обеспечить максимальный поток охлаждающей жидкости через ядро (ядра) нагревателя. Вентилятор не должен быть включен.
 
-Check the coolant level again to make sure the system is full of coolant or that the coolant level has risen to the hot level in the recovery bottle on the system, if so equipped.
+Проверьте уровень охлаждающей жидкости снова, чтобы убедиться, что система полна охлаждающей жидкости или что уровень охлаждающей жидкости поднялся до горячего уровня в бутылке для восстановления на системе, если она оборудована.
 
 ![[ra800sa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Coolant Replacer Method
+>
+> Evacuation
+>
+> The following steps are used to evacuate the cooling system using the coolant replacer tool, Part Number 2892459.
+>
+> **Note · Примечание**
+> When the vehicle/equipment or engine is equipped with a quick disconnect fitting in the cooling system package, the Coolant Replacer Method is the preferred method for coolant removal. Use the coolant replacer tool, Part Number 2892459. If the vehicle/equipment or engine does **not** have a quick disconnect fitting presently installed, one can be installed in the cooling system package to utilize the Coolant Replacer Method; otherwise the coolant drain and fill method **must** be used.
+>
+> Position the equipment on level ground.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Do not use the coolant replacement tool to evacuate contaminated coolant or a system that is suspected of contamination. This could result in cross contamination of coolant. The coolant drain method should be used for removing contaminated coolant. Refer to the manufacturer's manual for specific instructions on cleaning the tool of contaminates.
+>
+> If the engine is found to have internal or external coolant leaks a coolant test **must** be performed and passed using an appropriate coolant test strip to use the coolant replacement tool. Use of coolant that is **not** acceptable for reuse can cause pitting and corrosion damage. Coolant that does not meet reuse guidelines **must** be replaced or brought into specification and tested by adjusting antifreeze, water, and supplemental coolant additive (SCA) levels if applicable. See Section 5 in the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], for antifreeze, water, and test strip specifications.
+>
+> **Note · Примечание**
+> See equipment manufacturer service information for special coolant drain requirements. Special instructions may also be located near the cooling system access point or fill door on the vehicle.
+>
+> Isolate the engine from the vehicle cooling system by closing coolant flow valves to the equipment heating systems before starting the repair. This will prevent the heater circuit from draining, minimizing the chance for air pockets to be present during the fill process.
+>
+> This air can be very difficult to purge in some applications with several feet of plumbing and multiple heater cores.
+>
+> Remove the radiator cap.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> The coolant replacement tool tank capacity of 68 liters \[18 gal\] is adequate for most applications. An additional storage tank can be used for cooling system packages with more than 68 liter \[18 gal\] capacity.
+>
+> Be sure there is no air pressure in the coolant replacement tool tank by opening the pressure relief valve (1) located on the control block of the coolant replacement tool.
+>
+> Connect the coolant replacement tool to a shop air supply regulated at 621 kPa \[90 psi\].
+>
+> Switch the coolant replacement tool control lever (1) to “VAC” and leave the service hose valve (2) closed. This will create a vacuum in the tank to evacuate coolant from the cooling system package.
+>
+> Monitor the gauge (3) and build a vacuum of approximately 508 mm-Hg \[20 in-Hg\] in the coolant replacement tool tank. Once the vacuum has been achieved, move the control valve lever (1) to the middle position.
+>
+> Maintain approximately a 508 mm-Hg \[20 in-Hg\] vacuum to achieve a faster drain.
+>
+> Attach the fill hose quick disconnect coupling (1) of the coolant replacement tool to the quick disconnect fitting. Location of the fitting may vary between original equipment manufacturers (OEMs), but the fitting is generally located in the lowest point of the vehicle/equipment cooling system package.
+>
+> **Note · Примечание**
+> Most Volvos are equipped with a different style fitting located in the radiator. An adapter hose is needed to connect the Cummins® coolant replacement tool to the fitting. The adapter hose is included in the accessory kit.
+>
+> Open the service hose valve (1) by turning it **clockwise** until it is completely open (approximately ¼ turn).
+>
+> Additional shop air may be required to maintain enough of a system vacuum to remove the coolant from the system. This can be done by moving the control valve lever (2) back to the VAC position.
+>
+> When the cooling system has been evacuated, a coolant and air mixture will be visible in the clear section of the coolant replacement tool fill hose.
+>
+> **Note · Примечание**
+> Some residual coolant will settle in the coolant package as the recessed areas of the block continue to drain down over the next few minutes.
+>
+> Once the system has been evacuated, turn the service hose valve (1) to the closed position by turning the valve **counterclockwise** a ¼ turn. Disconnect the shop air connection from the coolant replacer tool.
+>
+> Disconnect the fill hose quick disconnect coupling (2) on the coolant replacement tool from the quick disconnect fitting.
+>
+> Injection
+>
+> **CAUTION · Осторожно**
+> The cooling system must be filled properly to prevent air locks or serious engine damage can result.
+>
+> The following steps are used to inject coolant into the cooling system using the coolant replacer tool, Part Number 2892459.
+>
+> **Note · Примечание**
+> When the vehicle/equipment or engine is equipped with a quick disconnect fitting in the cooling system package, the Coolant Replacer Method is the preferred method for coolant removal. Use the coolant replacer tool, Part Number 2892459. If the vehicle/equipment or engine does **not** have a quick disconnect fitting presently installed, one can be installed in the cooling system package to utilize the Coolant Replacer Method; otherwise the coolant drain and fill method **must** be used.
+>
+> A premixed, heavy duty coolant, or a mixture of high quality water and heavy duty coolant, can be used if the coolant used meets Cummins® Engineering Standards (CES). Coolant must meet the appropriate CES. [[00-379-004 — Engine Coolant Requirements|Refer to Procedure 379-004 in Section 5]] of the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
+>
+> Good quality water is important for cooling system performance. Excessive levels of calcium and magnesium contribute to scaling problems, and excessive levels of chlorides and sulfates cause cooling system corrosion.
+>
+> | Water Quality |  |
+> |---|---|
+> | Calcium Magnesium (Hardness) | Maximum 170 ppm as (CaCO 3 + MgCO 3) |
+> | Chloride | 40 ppm as (Cl) |
+> | Sulfate | 100 ppm as (SO 4) |
+>
+> Cummins Inc. recommends the use of Fleetguard® products.
+>
+> See the Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]], for more engine coolant specifications.
+>
+> **CAUTION · Осторожно**
+> Opening the manual bleed valve or removing the pipe plug on applicable installations is critical. Failure to do so can result in engine damage.
+>
+> **Note · Примечание**
+> Some applications can have a manual bleed valve or pipe plug that is required to be opened to properly fill the system. The upper radiator pipe is a common location.
+>
+> If applicable, open the manual bleed valve or remove the pipe plug before filling the cooling system.
+>
+> Be sure there is no air pressure in the coolant replacement tool tank by opening the pressure relief valve (1) located on the control block of the coolant replacement tool.
+>
+> Connect the coolant replacement tool to a shop air supply regulated at 621 kPa \[90 psi\].
+>
+> Attach the fill hose quick disconnect coupling (1) of the coolant replacement tool to the quick disconnect fitting located in the vehicle/equipment cooling system package.
+>
+> With the service hose valve (2) in the closed position, switch the coolant replacement tool control lever (3) to “P” and build 172 kPa \[25 psi\] pressure on the gauge.
+>
+> Slowly open the service hose valve (2) part way by turning it **counterclockwise** approximately 1/8 turn.
+>
+> Do **not** open the ball valve completely as this will increase the coolant flow rate and increase the amount of air pockets created in the cooling system. This will provide a more complete injection of coolant.
+>
+> Fill the cooling system with coolant to the bottom of the fill neck in the radiator fill or recovery/expansion tank or until the coolant replacer tool is empty (whichever occurs first).
+>
+> On applications that use a coolant recovery system, check to make sure the coolant is at the appropriate level in the coolant recovery tank for the engine temperature.
+>
+> Many coolant recovery/expansion tanks, also called "top tanks", have sight glasses or are made of a clear material (**not** shown) to aid in checking the coolant level without removing the radiator cap.
+>
+> It is important to understand the impact of temperature on the expansion of the coolant. Most "top tanks" do **not** have a provision for a "FULL HOT" coolant level. Filling the "top tank" while hot will result in a low operating level once the system has cooled.
+>
+> **CAUTION · Осторожно**
+> The cooling system must be filled properly to prevent air locks or serious engine damage can result.
+>
+> **Note · Примечание**
+> If all coolant drained from the system was collected, the same volume or more **must** go back into the system. If any drained coolant remains in the tool after filling, this is an indication of an air pocket in the cooling system package which **must** be purged before returning the vehicle to service.
+>
+> **Note · Примечание**
+> Top off of coolant might be necessary for repairs that were performed to correct a coolant loss issue.
+>
+> If all coolant drained from the system would **not** return to the system or the level is above the maximum level. This is an indication of an air pocket in the cooling system package, which **must** be purged before returning the vehicle to service.
+>
+> To remove an air pocket from the cooling system, the coolant replacement tool can be used. See the vacuum section of this procedure.
+>
+> Once the coolant level has been returned to the correct level close the service hose valve (1) by turning the valve **clockwise** until closed.
+>
+> Remove pressure from the coolant replacement tool tank by opening the pressure release valve on the back of the control block (2).
+>
+> Disconnect the service hose quick disconnect coupling (3) from the quick disconnect fitting of the vehicle/equipment.
+>
+> Vacuum
+>
+> The following steps are used to place a vacuum on the cooling system using the coolant replacer tool, Part Number 2892459.
+>
+> Be sure there is no air pressure in the coolant replacement tool tank by opening the pressure relief valve (1) located on the control block of the coolant replacement tool.
+>
+> Clamp off any vent hoses/connections or overflow to the cooling system.
+>
+> Attach the coolant dam handle (1) to the fill hose of the coolant replacement tool.
+>
+> Attach the appropriate size coolant dam rubber adapter (1) onto the coolant dam handle.
+>
+> The size of the fill neck will differ between OEMs choose the appropriate sized coolant dam rubber adapters.
+>
+> Connect the coolant replacement tool to shop air regulated at 621 kPa \[90 psi\].
+>
+> Place the coolant dam over the coolant fill neck in the radiator or overflow tank.
+>
+> The size of the fill neck will differ between OEMs. Choose the appropriate sized coolant dam rubber adapters.
+>
+> Switch the coolant replacement tool control lever (1) to “VAC” and leave the service hose valve (2) closed. This will create a vacuum in the tank to evacuate coolant from the cooling system package.
+>
+> Monitor the gauge (3) and build a vacuum of approximately 508 mm-Hg \[20 in-Hg\] in the coolant replacement tool tank.
+>
+> Slowly open the service hose valve (2) by turning it **clockwise** until it is completely open approximately ¼ turn.
+>
+> Once the cooling system is put into a vacuum, any air trapped in the cooling system will be evacuated through the top of the system. This is noticed as air bubbles through the overflow tank or top of the radiator.
+>
+> When air bubbles are no longer being drawn to the top of the cooling system move the control lever to the middle position. Remove the vacuum on the coolant replacement tool tank by opening the pressure relief valve located on the control block of the coolant replacement tool (1).
+>
+> Remove the coolant dam from the radiator fill neck or overflow tank.
+>
+> Disconnect the coolant replacement tool from the regulated shop air supply.
+>
+> Install the radiator cap.
+>
+> ### Drain
+>
+> Marine Applications
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Avoid excessive contact, and wash thoroughly after contact.
+> - Keep out of reach of children.
+>
+> **CAUTION · Осторожно**
+> Use caution when draining coolant that coolant is not spilled or drained into the bilge area. Do not pump the coolant overboard. If the coolant is not reused, it must be discarded in accordance with local environmental regulations.
+>
+> Drain the engine cooling system by opening the drain valve on the engine oil cooler (exhaust side of engine). A drain pan with a capacity of 31.7 liters (8 gal) will be adequate in most installations. Remove the pressure cap to allow the coolant to drain properly. After the cooling system is completely drained, close the drain valve.
+>
+> All Applications Except Marine
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Avoid excessive contact, and wash thoroughly after contact.
+> - Keep out of reach of children.
+>
+> Drain the cooling system by opening the drain valve on the radiator and removing the plug in the bottom of the water inlet hose. A drain pan with a capacity of 19 liters \[5 gal\] will be adequate for most applications.
+>
+> Check for damaged hoses and loose or damaged hose clamps. Replace as required.
+>
+> Check the radiator for leaks, damage, and buildup of dirt.
+>
+> Clean and replace as required.
+>
+> ### Flush
+>
+> Marine Applications
+>
+> RESTORE™ is a heavy-duty cooling system cleaner that removes corrosion products, silica gel, and other deposits. The performance of RESTORE™ is dependent on time, temperature, and concentration levels. An extremely scaled or flow-restricted system, for example, can require higher concentrations of cleaners, higher temperatures, or longer cleaning times or the use of RESTORE Plus™. Up to twice the recommended concentration levels of RESTORE™ can be used safely. RESTORE Plus™ **must** be used **only** at its recommended concentration level. Extremely scaled or fouled systems can require more than one cleaning.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> If **not** previously done, drain the cooling system. See the information above in "Cooling System - Drain” step. Do **not** allow the cooling system to dry out.
+>
+> Do **not** remove the coolant filter.
+>
+> **CAUTION · Осторожно**
+> Fleetguard® RESTORE™ contains no antifreeze. Do not allow the cooling system to freeze during the cleaning operations.
+>
+> Immediately add 3.8 liters \[1 gal\] of Fleetguard® RESTORE™, RESTORE Plus™, or equivalent, for each 38 to 57 liters \[10 to 15 gal\] of cooling system capacity. Fill the system with clean water.
+>
+> Operate the engine at normal operating temperatures, at least 85°C \[185°F\], for 1 to 1½ hours.
+>
+> Shut the engine OFF, allow to cool to 50°C \[122°F\], and drain the cooling system.
+>
+> The system has a design fill rate of 19 liters per minute \[5 gallon per minute\].
+>
+> Marine engines **must** be vented at the coolant outlet housing and at the rear of the expansion tank during filling.
+>
+> Fill the cooling system with clean, good quality water.
+>
+> Operate the engine for 5 minutes with the coolant temperature above 85°C \[185°F\].
+>
+> Shut the engine OFF, allow to cool to 50°C \[122°F\], and drain the cooling system.
+>
+> If the water being drained is still dirty, the system **must** be flushed again until the water comes out clean.
+>
+> All Applications Except Marine
+>
+> **CAUTION · Осторожно**
+> The system must be filled properly to prevent air locks. During filling, air must be purged from the engine coolant passages. Be sure to open the petcock on the aftercooler for aftercooled engines. Wait 2 to 3 minutes to allow the air to be vented; then add coolant mixture to bring the level to the top.
+>
+> **Note · Примечание**
+> Adequate venting is provided for a fill rate of 19 liters \[5 gal\] per minute.
+>
+> **CAUTION · Осторожно**
+> Do not install the radiator cap. The engine is to be operated without the cap for this process.
+>
+> Fill the system with a mixture of sodium carbonate and water (or a commercially available equivalent).
+>
+> **Note · Примечание**
+> Use 0.5 kg \[1 lb\] of sodium carbonate for every 23 liters \[6 gal\] of water.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Operate the engine for 5 minutes with the coolant temperature above 80°C \[176°F\].
+>
+> Shut the engine OFF, allow to cool to 50°C \[120°F\], and drain the cooling system.
+>
+> **Note · Примечание**
+> Make sure to vent the engine and aftercooler for complete filling.
+>
+> **Note · Примечание**
+> Do **not** install the radiator cap or the new coolant filter.
+>
+> Fill the cooling system with clean, good, and quality water.
+>
+> Operate the engine for 5 minutes with the coolant temperature above 80°C \[176°F\].
+>
+> Shut the engine OFF, allow to cool to 50°C \[120°F\], and drain the cooling system.
+>
+> **Note · Примечание**
+> If the water being drained is still dirty, the system **must** be flushed again until the water comes out clean.
+>
+> ### Fill
+>
+> Marine Applications
+>
+> QSC8.3 and QSL9 Engines with Heat Exchangers
+>
+> The system has a design fill rate of 19 liters per minute \[5 gallons per minute\].
+>
+> Marine engines **must** be vented at the coolant outlet housing, and at the rear of the expansion tank during filling.
+>
+> Fill the cooling system with fully formulated coolant or a 50/50 mixture of recommended antifreeze and clean, good quality water, as outlined in the Owners Manual.
+>
+> Install the pressure cap. Operate the engine to 50°C \[122°F\], and check for coolant leaks.
+>
+> The freeze point protection **must** be checked after coolant is added to the cooling system.
+>
+> The Fleetguard® refractometer, Part Number C2800, provides a reliable, easy-to-read, and accurate measurement of freeze point protection and antifreeze concentration.
+>
+> See equipment manufacturer service information for the correct operation instructions for the Fleetguard® refractometer, Part Number C2800.
+>
+> On QSL9 Keel Cooled Engines, open all engine mounted petcocks and remote heater petcocks.
+>
+> Fill the cooling system with fully formulated coolant or a 50/50 mixture of recommended antifreeze and clean, good quality water, as outlined in the Owners Manual.
+>
+> **Note · Примечание**
+> The timing and sequence of this action will depend on the height of the petcocks in the cooling system.
+>
+> Fill the engine until a solid stream of coolant is visible from the keel cooler thermostat housing, heat transfer tube, and remote mounted heater petcocks. Close the petcocks.
+>
+> Fill until the coolant expansion tank is filled to the proper level and the low coolant level sensor is covered.
+>
+> Start the engine. Monitor the coolant level and the low coolant alarm until all air is purged from the system. Operate the engine for 5 minutes with the pressure cap removed, however, do **not** exceed 50°C \[122°F\].
+>
+> Shut down the engine and check the coolant level again. Add coolant if needed.
+>
+> Install the pressure cap. Start the engine and monitor the low coolant alarm during the initial startup test.
+>
+> All Applications Except Marine
+>
+> **CAUTION · Осторожно**
+> The system must be filled properly to prevent air locks. During filling, air must be purged from the engine coolant passages. Be sure to open the petcock on the aftercooler for aftercooled engines. Wait 2 to 3 minutes to allow the air to be vented; then add coolant mixture to bring the level to the top.
+>
+> **CAUTION · Осторожно**
+> During all coolant fill procedures, all coolant flow valves to equipment heating systems must be opened in order to purge air from those systems as well as from the base engine cooling system. These valves must remain open during the engine cooling system de-aeration process. Make sure adequate coolant levels are maintained in the coolant reservoir during the entire fill procedure. Special care must be taken when filling EGR cooler-equipped engines to make sure all air is purged from the system.
+>
+> The system is designed to use a specific quantity of coolant. If the coolant level is low, the engine will run hot.
+>
+> If frequent addition of coolant is necessary, the engine or system has a leak. Find and repair the leak.
+>
+> The system has a designed fill rate of 19 liters \[5 gal\] per minute.
+>
+> **CAUTION · Осторожно**
+> Never use water alone for coolant. This can result in damage from corrosion.
+>
+> Use a mixture of 50 percent water and 50 percent ethylene glycol or propylene glycol antifreeze to fill the cooling system.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> Install the pressure cap. Operate the engine until the coolant reaches a temperature of 80°C \[176°F\]. Check for coolant leaks.
+>
+> Operate the engine at idle for 25 minutes to purge the air from the cooling system.
+>
+> Turn all cab heater temperature switches, if equipped, to high to allow maximum coolant flow through the heater core(s). The blower does **not** have to be on.
+>
+> Check the coolant level again to make sure the system is full of coolant or that the coolant level has risen to the hot level in the recovery bottle on the system, if so equipped.

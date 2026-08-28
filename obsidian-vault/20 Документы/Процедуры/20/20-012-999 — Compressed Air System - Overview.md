@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-999.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-999.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Compressed Air System - Overview
@@ -34,33 +36,66 @@ tags:
 > **Даты:** изменён 2004-05-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-999.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-999.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The compressed air system normally consists of a gear-driven air compressor, an air governor, air tanks and all necessary plumbing.
 
-The Holset and Cummins single and two cylinder air compressors are engine-driven, piston-type compressors which supply compressed air to operate air activated devices. The compressor runs continuously, but has a loaded and unloaded operating mode.
+### Общие сведения
+
+Система сжатого воздуха обычно состоит из шестерённого воздушного компрессора, воздухоуправителя, воздушных резервуаров и всей необходимой сантехники.
+
+Холсет и Камминс одиночные и два цилиндровых воздушных компрессоров являются двигателями, поршневого типа компрессоры, которые поставляют сжатый воздух для работы воздух активированных устройств. Компрессор работает непрерывно, но имеет загруженный и незагруженный режим работы.
 
 ![[ca800ga.png]]
 
-E-Type Air Compressor
+Воздушный компрессор E-Type
 
-Holset SS and ST model air compressors built with the E-Type unloader can be identified by the letter “E” (SS296E, SS338E, ST676E, and ST773E), and by the caution on the data plate.
+Воздушные компрессоры модели Holset SS и ST, построенные с помощью разгрузчика E-Type, могут быть идентифицированы по букве «E» (SS296E, SS338E, ST676E и ST773E), а также по осторожности на табличке данных.
 
-All QE (QE296 and QE338) model air compressors are equipped with the E-Type unloader.
+Все воздушные компрессоры модели QE (QE296 и QE338) оснащены разгрузчиком E-Type.
 
 ![[cp800qb.png]]
 
-E-Type System **With** Air Dryer
+Система электронного типа **** Air Dryer
 
-Vehicles equipped **with** air dryers vented to the atmosphere during unloaded compressor operation, using the Holset E-Type air compressor, require the installation of an econ valve to prevent excessive oil consumption.
+Транспортные средства, оснащенные **с** воздушными сушилками, вентилируемыми в атмосферу во время работы разгруженного компрессора, с использованием воздушного компрессора Holset E-Type, требуют установки экономного клапана для предотвращения чрезмерного потребления масла.
 
-> [!note] Note · Примечание
-> Some air dryers can have a built-in econ valve. Check with the manufacturer as to which type is installed.
+> [!note] Примечание
+> Некоторые воздушные сушилки могут иметь встроенный эконом-клапан. Проверьте у производителя, какой тип установлен.
 
 ![[cp800pc.png]]
 
-E-Type System **Without** Air Dryer
+Система электронного типа **Без** Air Dryer
 
-Air systems **without** air dryers, or with air dryers **not** vented to the atmosphere during unloaded compressor operation, can use the Holset E-Type unloader valve without modifying the air system.
+Воздушные системы **без** воздушных сушилок или с воздушными сушилками **не**, вентилируемыми в атмосферу во время работы разгрузочного компрессора, могут использовать разгрузочный клапан Holset E-Type без изменения воздушной системы.
 
 ![[cp800pd.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The compressed air system normally consists of a gear-driven air compressor, an air governor, air tanks and all necessary plumbing.
+>
+> The Holset and Cummins single and two cylinder air compressors are engine-driven, piston-type compressors which supply compressed air to operate air activated devices. The compressor runs continuously, but has a loaded and unloaded operating mode.
+>
+> E-Type Air Compressor
+>
+> Holset SS and ST model air compressors built with the E-Type unloader can be identified by the letter “E” (SS296E, SS338E, ST676E, and ST773E), and by the caution on the data plate.
+>
+> All QE (QE296 and QE338) model air compressors are equipped with the E-Type unloader.
+>
+> E-Type System **With** Air Dryer
+>
+> Vehicles equipped **with** air dryers vented to the atmosphere during unloaded compressor operation, using the Holset E-Type air compressor, require the installation of an econ valve to prevent excessive oil consumption.
+>
+> **Note · Примечание**
+> Some air dryers can have a built-in econ valve. Check with the manufacturer as to which type is installed.
+>
+> E-Type System **Without** Air Dryer
+>
+> Air systems **without** air dryers, or with air dryers **not** vented to the atmosphere during unloaded compressor operation, can use the Holset E-Type unloader valve without modifying the air system.

@@ -30,7 +30,8 @@ manuals:
   - "4021375"
   - "4021530"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-006-015-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-006-015-om-ind.pdf"
 tags:
@@ -41,6 +42,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Fuel Filter (Spin-On Type)
@@ -54,39 +56,78 @@ tags:
 > **Даты:** изменён 2006-07-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-006-015-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-006-015-om-ind.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
 
-Close the fuel line shutoff valve before changing the fuel filters, or the overhead tank can drain, causing a fuel leak.
+### Снятие
 
-Remove the fuel filter with filter wrench, Part Number 3376807.
+> [!danger] ОПАСНО
+> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
+
+Закройте запорный клапан топливной линии перед заменой топливных фильтров, или верхний резервуар может стекать, вызывая утечку топлива.
+
+Удалите топливный фильтр с помощью гаечного ключа, номер детали 3376807.
 
 ![[ff6etha.png]]
 
-Remove the thread adapter sealing ring (1).
+Удалите герметичное кольцо адаптера резьбы (1).
 
-Use a clean, lint-free towel to clean the surface of the filter head gasket.
+Используйте чистое, без винта полотенце для очистки поверхности прокладки головки фильтра.
 
 ![[ff2hdva.png]]
 
-### Install
+### Установка
 
-Install a new thread adapter sealing ring supplied with the new filter.
+Установите новое кольцо уплотнения адаптера резьбы, снабженное новым фильтром.
 
-A fuel-water separator or fuel filter and water separator combination **must** be installed.
+Должен быть установлен сепаратор топливной воды или топливный фильтр и комбинация сепаратора воды *.
 
-Apply a light coating of clean engine oil to the surface of the filter gasket.
+Нанесите легкое покрытие чистого моторного масла на поверхность прокладки фильтра.
 
-Fill the filter with clean fuel.
+Заполните фильтр чистым топливом.
 
 ![[ff8bdka.png]]
 
-Install the filter on the filter head. Turn the filter until the gasket touches the surface of the filter head.
+Установите фильтр на головку фильтра. Поверните фильтр до тех пор, пока прокладка не коснется поверхности головки фильтра.
 
-Tighten the filter an additional 1/2 to 3/4 of a turn after the gasket touches the filter head surface.
+Затягивайте фильтр дополнительно от 1/2 до 3/4 поворота после того, как прокладка касается поверхности головки фильтра.
 
-Open the fuel line shutoff valve and check for leaks.
+Откройте запорный клапан топливной линии и проверьте наличие утечек.
 
 ![[ff8bdaa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+>
+> Close the fuel line shutoff valve before changing the fuel filters, or the overhead tank can drain, causing a fuel leak.
+>
+> Remove the fuel filter with filter wrench, Part Number 3376807.
+>
+> Remove the thread adapter sealing ring (1).
+>
+> Use a clean, lint-free towel to clean the surface of the filter head gasket.
+>
+> ### Install
+>
+> Install a new thread adapter sealing ring supplied with the new filter.
+>
+> A fuel-water separator or fuel filter and water separator combination **must** be installed.
+>
+> Apply a light coating of clean engine oil to the surface of the filter gasket.
+>
+> Fill the filter with clean fuel.
+>
+> Install the filter on the filter head. Turn the filter until the gasket touches the surface of the filter head.
+>
+> Tighten the filter an additional 1/2 to 3/4 of a turn after the gasket touches the filter head surface.
+>
+> Open the fuel line shutoff valve and check for leaks.

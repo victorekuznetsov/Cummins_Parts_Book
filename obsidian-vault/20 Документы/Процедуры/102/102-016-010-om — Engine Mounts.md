@@ -36,7 +36,8 @@ manuals:
   - "4021375"
   - "4021530"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-016-010-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-016-010-om.pdf"
 tags:
@@ -48,6 +49,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/102"
+  - "перевод/машинный"
 ---
 
 # Engine Mounts
@@ -61,63 +63,124 @@ tags:
 > **Даты:** изменён 2015-04-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-016-010-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-016-010-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> Engine mounts that act as isolators are **not** supplied by Cummins Inc. See equipment manufacturer service information.
 
-Check the torque on the nuts and bolts. Tighten any that are loose. Inspect the rubber for deterioration and age hardening. Replace any broken or lost bolts, capscrews, or damaged rubber.
+### Контроль при обслуживании
 
-Capscrew size and grade vary with the flywheel housing and mounting arrangement. Determine the size and grade of the mounting bolts. Use the following procedure for capscrew torque specification. [[99-018-009 — Capscrew Markings and Torque Values|Refer to Procedure 018-009 in Section V.]]
+> [!note] Примечание
+> Монтажи двигателей, которые действуют как изоляторы, **не** поставляются компанией Cummins Inc. См. сервисную документацию изготовителя оборудования.
+
+Проверьте крутящий момент на гайках и болтах. Затягивайте все, что недоступно. Проверьте резину на ухудшение и затвердевание возраста. Замените любые сломанные или потерянные болты, болты или поврежденную резину.
+
+Размер и степень болтов варьируются в зависимости от обшивки маховика и монтажной компоновки. Определить размер и степень монтажа болтов. Используйте следующую процедуру для спецификации крутящего момента болтов.[[99-018-009 — Capscrew Markings and Torque Values|См. процедуру 018-009 в разделе V.]]
 
 ![[00600031.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Two different front support assemblies have been supplied on K38 and K50 engines. Previous engines were supplied with a support comprised of two pieces. Present engines are supplied with a support that is one piece.
+На двигатели K38 и K50 были поставлены две различные передние вспомогательные сборки. Предыдущие двигатели снабжались опорой, состоящей из двух частей. Современные двигатели снабжены опорой, которая является одной деталью.
 
-Use solvent to clean the support.
+Используйте растворитель для очистки поддержки.
 
-Dry with compressed air.
-
-![[em6suga.png]]
-
-Check the part for cracks or damage. If the support is cracked or damaged, it **must** be replaced.
-
-Follow the procedure below to check for wear. If wear is apparent, the mounts **must** be replaced.
+Просушите сжатым воздухом.
 
 ![[em6suga.png]]
 
-When applicable, assemble the front support.
+Проверьте деталь на наличие трещин или повреждений. Если опора повреждена или повреждена, ее необходимо заменить.
 
-Torque the capscrews.
+Следуйте процедуре ниже, чтобы проверить износ. Если износ очевиден, то крепления * должны быть заменены.
 
-> [!tip] Момент затяжки · Torque Value
-> 298 n•m [220 ft-lb]
+![[em6suga.png]]
 
-The bore specifications are identical for both types of supports.
+Если это применимо, соберите переднюю поддержку.
 
-| Front Support Bore |  |  |
+Закрутите болты.
+
+> [!tip] Момент затяжки
+> 298 Н·м [220 фунт-фут]
+
+Спецификации цилиндров одинаковы для обоих типов опор.
+
+| Передний опорный цилиндр |  |  |
 |---|---|---|
-| mm |  | in |
-| 210.03 | MIN | 8.269 |
-| 210.08 | MAX | 8.271 |
+| мм |  | в |
+| 210.03 | Мин | 8.269 |
+| 210.08 | Макс | 8.271 |
 
-> [!note] Note · Примечание
-> Modify the older support that has two pieces for the installation of a grease fitting during engine rebuild. Drill and tap the cap of the support for a grease fitting.
+> [!note] Примечание
+> Измените старую опору, которая имеет две части для установки смазочного фитинга во время восстановления двигателя. Сверлить и нажать на крышку опоры для подгонки жира.
 
 ![[em6suta.png]]
 
-Use high performance, industrial-type grease (NLGI Grade Number 2) fortified with extreme pressure (EP) additives, such as BP Energrease™ FPG or Castrol Spheerol™ EPL 2 grease, or its equivalent.
+Используйте высокопроизводительную смазку промышленного типа (NLGI Grade Number 2), обогащенную добавками с экстремальным давлением (EP), такими как BP EnergreaseTM FPG или Castrol SpheerolTM EPL 2, или ее эквивалент.
 
-If the above greases are **not** available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+Если вышеуказанные смазки не доступны на местном уровне, обратитесь к дистрибьютору Cummins® за консультацией по другим одобренным эквивалентам Cummins®.
 
-Lubricate the support until grease appears on the outside of the support.
+Смазать поддержку до тех пор, пока смазка не появится снаружи поддержки.
 
 ![[07600260.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> **Note · Примечание**
+> Engine mounts that act as isolators are **not** supplied by Cummins Inc. See equipment manufacturer service information.
+>
+> Check the torque on the nuts and bolts. Tighten any that are loose. Inspect the rubber for deterioration and age hardening. Replace any broken or lost bolts, capscrews, or damaged rubber.
+>
+> Capscrew size and grade vary with the flywheel housing and mounting arrangement. Determine the size and grade of the mounting bolts. Use the following procedure for capscrew torque specification. [[99-018-009 — Capscrew Markings and Torque Values|Refer to Procedure 018-009 in Section V.]]
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Two different front support assemblies have been supplied on K38 and K50 engines. Previous engines were supplied with a support comprised of two pieces. Present engines are supplied with a support that is one piece.
+>
+> Use solvent to clean the support.
+>
+> Dry with compressed air.
+>
+> Check the part for cracks or damage. If the support is cracked or damaged, it **must** be replaced.
+>
+> Follow the procedure below to check for wear. If wear is apparent, the mounts **must** be replaced.
+>
+> When applicable, assemble the front support.
+>
+> Torque the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 298 n•m [220 ft-lb]
+>
+> The bore specifications are identical for both types of supports.
+>
+> | Front Support Bore |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 210.03 | MIN | 8.269 |
+> | 210.08 | MAX | 8.271 |
+>
+> **Note · Примечание**
+> Modify the older support that has two pieces for the installation of a grease fitting during engine rebuild. Drill and tap the cap of the support for a grease fitting.
+>
+> Use high performance, industrial-type grease (NLGI Grade Number 2) fortified with extreme pressure (EP) additives, such as BP Energrease™ FPG or Castrol Spheerol™ EPL 2 grease, or its equivalent.
+>
+> If the above greases are **not** available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+>
+> Lubricate the support until grease appears on the outside of the support.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc498.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc498.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Level Number 1 Sensor Circuit - Shorted High
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc498.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc498.pdf)
 
-### Fault Code: 498
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Oil Level Number 1 Sensor Circuit - Shorted High
 
-Printable Version
+### Код неисправности: 498
 
-### Overview
+### Цепь датчика уровня масла №1 — замыкание на плюс
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 498 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine oil level Number 1 sensor circuit - shorted high. | No engine protection for low oil level. Centinel system is disabled. |
+| Код неисправности: 498 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Цепь датчика уровня масла №1 — замыкание на плюс. | Отсутствие защиты двигателя при низком уровне масла. Система Centinel отключена. |
 
 ![[19803584.png]]
 
-Oil Level Sensor Circuit
+Сенсорная схема уровня масла
 
-### Circuit Description
+### Описание цепи
 
-The oil level sensor is used by the electronic control module (ECM) to monitor the lubricating oil level. The ECM monitors the voltage on the oil level signal pin and converts this to an electronic value. The oil level value is used by the ECM for the engine protection system.
+Датчик уровня масла используется электронным модулем управления (ECM) для мониторинга уровня моторного масла. ECM контролирует напряжение на уровне масла и преобразует его в электронное значение. Значение уровня масла используется ECM для системы защиты двигателя.
 
-### Component Location
+### Расположение компонента
 
-Refer to the Engine Diagrams. 100-002 for the component location.
+См. схемы двигателя. 100-002 для расположения компонентов.
 
-### Shoptalk
+### Практические замечания
 
-High voltage can be caused by the signal wire shorting to another wire in the harness, an open circuit in the return wire, or a faulty sensor.
+Высокое напряжение может быть вызвано шортингом сигнального провода к другому проводу в проводной упряжке, открытой схемой в обратном проводе или неисправным датчиком.
 
-Refer to Troubleshooting Fault Code t05-498
+См. Код устранения неполадок t05-498
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 498
+>
+> ### Engine Oil Level Number 1 Sensor Circuit - Shorted High
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 498 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine oil level Number 1 sensor circuit - shorted high. | No engine protection for low oil level. Centinel system is disabled. |
+>
+> Oil Level Sensor Circuit
+>
+> ### Circuit Description
+>
+> The oil level sensor is used by the electronic control module (ECM) to monitor the lubricating oil level. The ECM monitors the voltage on the oil level signal pin and converts this to an electronic value. The oil level value is used by the ECM for the engine protection system.
+>
+> ### Component Location
+>
+> Refer to the Engine Diagrams. 100-002 for the component location.
+>
+> ### Shoptalk
+>
+> High voltage can be caused by the signal wire shorting to another wire in the harness, an open circuit in the return wire, or a faulty sensor.
+>
+> Refer to Troubleshooting Fault Code t05-498

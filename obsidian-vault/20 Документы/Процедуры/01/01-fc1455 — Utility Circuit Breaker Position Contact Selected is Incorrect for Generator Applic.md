@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1455.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1455.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Utility Circuit Breaker Position Contact Selected is Incorrect for Generator Application - Condition Exists
@@ -34,36 +36,78 @@ tags:
 > **Даты:** изменён 2012-05-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1455.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1455.pdf)
 
-### Fault Code: 1455
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Utility Circuit Breaker Position Contact Selected is Incorrect for Generator Application - Condition Exists
 
-Printable Version
+### Код неисправности: 1455
 
-### Overview
+### Выбран неверный контакт положения сетевого выключателя — условие возникло
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1455 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Utility circuit breaker position contact selected is incorrect for generator application. | Generator set will **not** start. |
+| Код неисправности: 1455 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Выбранное положение контакта с выключателем полезного действия неправильно для применения генератора. | Набор генератора **не** начинается. |
 
 ![[19802904.png]]
 
-Generator Circuit
+Схема генератора
 
-### Circuit Description
+### Описание цепи
 
-The generator set circuit breaker is the switch for the generator set's connection to the bus. The circuit breaker opens when events have occurred, which forces the generator set to no longer be connected to the bus. The circuit breaker closes when the generator set is to be connected to the bus.
+Выключатель генераторной установки - это переключатель для подключения генераторной установки к шине. Выключатель открывается, когда происходят события, что заставляет генераторную установку больше не подключаться к шине. Выключатель закрывается, когда генераторная установка должна быть подключена к шине.
 
-This fault code is used by the engine control module (ECM) to tell the operator that the electronically selected position contact for the utility circuit breaker is **not** correct for the generator application.
+Этот код неисправности используется модулем управления двигателем (ECM) для того, чтобы сообщить оператору, что электронно выбранный контакт положения для выключателя схемы полезности **не** правильный для применения генератора.
 
-### Component Location
+### Расположение компонента
 
-Refer to Section E for location of the ECM card cage.
+См. раздел E для определения местоположения клетки карты ECM.
 
-Refer to customer/facility/installation documentation for the location of the generator set circuit breaker.
+См. документацию о клиенте/объекте/установке для определения местоположения выключателя генераторной установки.
 
-### Shoptalk
+### Практические замечания
 
-The possible failure modes are improper calibration/trim and/or setup.
+Возможные режимы отказа - неправильная калибровка/обрезка и/или настройка.
 
-Refer to Troubleshooting Fault Code t05-1455.
+См. Код устранения неполадок t05-1455.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1455
+>
+> ### Utility Circuit Breaker Position Contact Selected is Incorrect for Generator Application - Condition Exists
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1455 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Utility circuit breaker position contact selected is incorrect for generator application. | Generator set will **not** start. |
+>
+> Generator Circuit
+>
+> ### Circuit Description
+>
+> The generator set circuit breaker is the switch for the generator set's connection to the bus. The circuit breaker opens when events have occurred, which forces the generator set to no longer be connected to the bus. The circuit breaker closes when the generator set is to be connected to the bus.
+>
+> This fault code is used by the engine control module (ECM) to tell the operator that the electronically selected position contact for the utility circuit breaker is **not** correct for the generator application.
+>
+> ### Component Location
+>
+> Refer to Section E for location of the ECM card cage.
+>
+> Refer to customer/facility/installation documentation for the location of the generator set circuit breaker.
+>
+> ### Shoptalk
+>
+> The possible failure modes are improper calibration/trim and/or setup.
+>
+> Refer to Troubleshooting Fault Code t05-1455.

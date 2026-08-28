@@ -15,13 +15,15 @@ manuals:
   - "3381968"
   - "4021330"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-006.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-008-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Coolant Filter
@@ -35,57 +37,108 @@ tags:
 > **Даты:** изменён 2015-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-008-006.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 
-> [!note] Note · Примечание
-> Some engine models do **not** require coolant filters.
+### Снятие
 
-Turn the shutoff valve to the OFF position by rotating the knob from vertical to horizontal in the direction shown.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+> [!note] Примечание
+> Некоторые модели двигателей не требуют фильтров охлаждающей жидкости.
+
+Поверните запорный клапан в положение OFF, вращая ручку от вертикальной до горизонтальной в показанном направлении.
 
 ![[08d00055.png]]
 
-Remove and discard the coolant filter.
+Удалите и отбросьте фильтр охлаждающей жидкости.
 
 ![[08d00005.png]]
 
-### Clean
+### Очистка
 
-Clean the gasket surface.
+Очистите прокладку поверхности.
 
 ![[08d00005.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> Do not allow oil to get into the filter. Oil will damage the DCA.
+> [!warning] ОСТОРОЖНО
+> Не позволяйте маслу попасть в фильтр. Нефть повредит ДЦА.
 
-> [!warning] CAUTION · Осторожно
-> Mechanical overtightening can distort the threads or damage the filter head.
+> [!warning] ОСТОРОЖНО
+> Механическое затяжение может исказить резьбу или повредить головку фильтра.
 
-Apply a thin film of lubricating oil to the gasket sealing surface before installing the new coolant filter.
+Нанесите тонкую пленку моторного масла на уплотняющую поверхность прокладки перед установкой нового фильтра охлаждающей жидкости.
 
-Install the coolant filter on the filter head. Tighten the filter until the gasket contacts the filter head surface.
+Установите фильтр охлаждающей жидкости на головку фильтра. Затягивайте фильтр до тех пор, пока прокладка не свяжется с поверхностью головки фильтра.
 
-Tighten the coolant filter an additional 1/2 to 3/4 of a turn, or as specified by the filter manufacturer.
+Затягивать фильтр охлаждающей жидкости дополнительно от 1/2 до 3/4 оборота или по назначению изготовителя фильтра.
 
 ![[wf8sewa.png]]
 
-> [!warning] CAUTION · Осторожно
-> The valve must be in the ON position to prevent engine damage.
+> [!warning] ОСТОРОЖНО
+> Клапан должен быть в положении ON, чтобы предотвратить повреждение двигателя.
 
-Turn the shutoff to the ON position by rotating the knob from horizontal to vertical in the direction shown.
+Поверните выключатель в положение ON, вращая ручку от горизонтальной до вертикальной в показанном направлении.
 
 ![[08d00056.png]]
 
-Install the coolant system pressure cap.
+Установите крышку радиатора системы охлаждения.
 
-![[08d00007.png]]
+> [!missing]- Иллюстрация `08d00007.png` не извлечена — смотрите PDF-оригинал документа
 
-Operate the engine. Check for coolant leaks.
+Управляйте двигателем. Проверьте на наличие утечек охлаждающей жидкости.
 
-After the air has been purged from the system, check the coolant level again.
+После того, как воздух был очищен от системы, проверьте уровень охлаждающей жидкости снова.
 
 ![[wf2cnda.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **Note · Примечание**
+> Some engine models do **not** require coolant filters.
+>
+> Turn the shutoff valve to the OFF position by rotating the knob from vertical to horizontal in the direction shown.
+>
+> Remove and discard the coolant filter.
+>
+> ### Clean
+>
+> Clean the gasket surface.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> Do not allow oil to get into the filter. Oil will damage the DCA.
+>
+> **CAUTION · Осторожно**
+> Mechanical overtightening can distort the threads or damage the filter head.
+>
+> Apply a thin film of lubricating oil to the gasket sealing surface before installing the new coolant filter.
+>
+> Install the coolant filter on the filter head. Tighten the filter until the gasket contacts the filter head surface.
+>
+> Tighten the coolant filter an additional 1/2 to 3/4 of a turn, or as specified by the filter manufacturer.
+>
+> **CAUTION · Осторожно**
+> The valve must be in the ON position to prevent engine damage.
+>
+> Turn the shutoff to the ON position by rotating the knob from horizontal to vertical in the direction shown.
+>
+> Install the coolant system pressure cap.
+>
+> Operate the engine. Check for coolant leaks.
+>
+> After the air has been purged from the system, check the coolant level again.

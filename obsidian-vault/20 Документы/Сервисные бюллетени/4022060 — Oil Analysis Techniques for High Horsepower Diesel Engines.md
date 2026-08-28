@@ -31,7 +31,8 @@ families:
   - "QSK50"
   - "QSK60"
   - "QST30"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/4022060.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/4022060.pdf"
 tags:
@@ -43,6 +44,7 @@ tags:
   - "двигатель/QSK50"
   - "двигатель/QSK60"
   - "двигатель/QST30"
+  - "перевод/машинный"
   - "тема/lubricating-oil-systems"
 ---
 
@@ -56,15 +58,23 @@ tags:
 > **Даты:** выпущен 2012-10-04 · изменён 2017-07-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/4022060.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/4022060.pdf)
 
-## Oil Analysis Techniques for High Horsepower Diesel Engines
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-**Product Affected**
 
-This document applies to all versions of the following engines:
+## Методы анализа масла для дизелей большой мощности
+
+**Затронутая продукция**
+
+Настоящий документ распространяется на все версии следующих двигателей:
 
 - K19
 - K38
-- K50
+- К50
 - QSK19
 - QSK23
 - QSK38
@@ -76,359 +86,738 @@ This document applies to all versions of the following engines:
 - QST30
 - V28
 
-This service bulletin outlines the proper use of oil analysis techniques to collect an oil sample, to set oil analysis flag limits, and to identify and take appropriate corrective action based on oil analysis results.
+В бюллетене службы излагаются методы надлежащего использования методов анализа нефти для сбора образца нефти, установления пределов флага анализа нефти, а также для выявления и принятия соответствующих корректирующих действий на основе результатов анализа нефти.
 
-Used oil analysis can be employed to monitor engine oil contaminant levels, which can provide evidence of system weaknesses or malfunctions, such as faulty air filtration, coolant leaks, fuel dilution, and wear metals that can suggest engine damage or unusual wear. Oil analysis can be used to proactively identify and address these issues.
+Используемый анализ масла может быть использован для мониторинга уровня загрязняющих веществ в моторном масле, что может предоставить доказательства слабостей системы или неисправностей, таких как неисправная фильтрация воздуха, утечки охлаждающей жидкости, разбавление топлива и износ металлов, которые могут указывать на повреждение двигателя или необычный износ. Анализ нефти может быть использован для проактивного выявления и решения этих проблем.
 
-Standard oil analysis has limitations, which include the inability to detect large particles and the inability to identify rapidly developing failures. Because of the method used to detect wear metals for standard oil analysis, particles greater than 5 microns (µm) in size can **not** be detected. However, if large particles are suspected, oil analysis labs can perform a ferrographic analysis to quantify individual particles in the sample. Properties like magnetism, heat treatment, shape, and size can be identified to help determine the source of the particles and the associated wear mechanism.
+Стандартный анализ масла имеет ограничения, которые включают в себя неспособность обнаруживать крупные частицы и неспособность идентифицировать быстро развивающиеся сбои. Из-за метода, используемого для обнаружения износа металлов для стандартного анализа масла, частицы размером более 5 микрон (мкм) могут быть обнаружены. Однако, если подозреваются крупные частицы, лаборатории анализа масла могут выполнить феррографический анализ для количественной оценки отдельных частиц в образце. Такие свойства, как магнетизм, термообработка, форма и размер, могут быть идентифицированы, чтобы помочь определить источник частиц и связанный с ними механизм износа.
 
-The second limitation to oil analysis is the inability to detect rapidly developing failures. In order to identify a potential problem, a failure would have had to be in progress at the time the last oil sample was taken. Some failure modes progress so quickly that they will **not** be identified in oil analysis.
+Второе ограничение анализа нефти – невозможность обнаружить быстро развивающиеся сбои. Для выявления потенциальной проблемы в момент взятия последнего образца нефти должен был произойти сбой. Некоторые режимы отказа развиваются так быстро, что они не будут определены в анализе нефти.
 
-The guidelines outlined in this bulletin are **not** to be used to establish oil drain intervals. The use of these guidelines for the purpose of extending oil drain intervals may result in the continued use of oil that no longer provides the intended protection. Oil analysis trends can be charted over a period of time and can provide significant information concerning oil change intervals. For more information on this topic, refer to Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin 3810340, or the Operation and Maintenance manual for the specific engine model for other oil related information.
+Руководящие принципы, изложенные в этом бюллетене, не должны использоваться для установления интервалов слива нефти. Использование этих руководящих принципов для увеличения интервалов отвода нефти может привести к продолжению использования масла, которое больше не обеспечивает предполагаемую защиту. Тенденции анализа нефти могут быть отображены в течение определенного периода времени и могут предоставить важную информацию о интервалах изменения нефти. Для получения дополнительной информации по этой теме обратитесь к рекомендациям по анализу масла и масла Cummins®, Бюллетеню 3810340 или Руководству по эксплуатации и техническому обслуживанию для конкретной модели двигателя для другой информации, связанной с маслом.
 
-Table 1 lists those wear metals, oil contaminants, and oil properties that provide the most reliable indicators to detect a potential problem. This list provides both a minimum set of items that should be checked during oil analysis and a list of recommended items to monitor for extended testing. Extended testing is recommended when a problem with the oil condition is suspected, either from the results of the minimum testing or some other indicator in engine operation.
+В таблице 1 перечислены те, кто носит металлы, нефтяные загрязнители и свойства масла, которые обеспечивают наиболее надежные показатели для выявления потенциальной проблемы. Этот список содержит как минимальный набор элементов, которые должны быть проверены во время анализа нефти, так и список рекомендуемых элементов для мониторинга для расширенного тестирования. Продление испытаний рекомендуется при подозрении на наличие проблемы с состоянием масла либо по результатам минимального испытания, либо по какому-либо другому показателю при работе двигателя.
 
-| Table 1: Elements to Monitor for High Horsepower Engine Oil Analysis |  |  |  |
+| Таблица 1: Элементы для мониторинга анализа масла двигателя высокой мощности |  |  |  |
 |---|---|---|---|
-| Oil Property | Abbreviation | Minimum Testing | Extended Testing |
-| Aluminum (ASTM D5185) | Al | X | X |
-| Copper (ASTM D5185) | Cu | X | X |
-| Fuel dilution (ASTM D7593) | Fuel | X | X |
-| Iron (ASTM D5185) | Fe | X | X |
-| Lead (ASTM D5185) | Pb | X | X |
-| Potassium (ASTM D5185) | K | X | X |
-| Silicon (ASTM D5185) | Si | X | X |
-| Sodium (ASTM D5185) | Na | X | X |
-| Viscosity at 100°C \[212°F\] (ASTM D445) | Visc | X | X |
-| Total base number (ASTM D4739) 1 | TBN |  | X |
-| Total acid number (ASTM D664) | TAN |  | X |
-| Soot (ASTM E1131 2) | Soot |  | X |
-| Nitration (ASTM E2412) | Nit |  | X |
-| Oxidation (ASTM E2412 3 or D7414 3) | Ox |  | X |
+| Нефтяная собственность | Сокращения | Минимальные испытания | Расширенное тестирование |
+| Алюминий (ASTM D5185) | Аль-Аллах | X | X |
+| Медь (ASTM D5185) | Кукуруза | X | X |
+| Разбавление топлива (ASTM D7593) | топливо | X | X |
+| Железо (ASTM D5185) | Феликс | X | X |
+| Свинец (ASTM D5185) | Пб | X | X |
+| Калий (ASTM D5185) | К. | X | X |
+| Кремний (ASTM D5185) | Сиси | X | X |
+| Натрий (ASTM D5185) | Надеть | X | X |
+| Вязкость при 100°C \[212°F\] (ASTM D445) | Виск | X | X |
+| Общее базовое число (ASTM D4739) 1 | ТБН |  | X |
+| Общее количество кислот (ASTM D664) | Тан |  | X |
+| Сажа (ASTM E1131 2) | сажа |  | X |
+| Нитратация (ASTM E2412) | Нит |  | X |
+| Окисление (ASTM E2412 3 или D7414 3) | окс |  | X |
 
-1 ASTM method D2896 is **not** be used. TBN number can be falsely exaggerated for used engine oil.
+1 Метод D2896 ASTM не используется. Число TBN может быть ложно преувеличено для используемого моторного масла.
 
-2 Labs may report a value from E2412 (FTIR) calibrated to E1131.
+2 Лаборатории могут сообщать о значении от E2412 (FTIR), калиброванном до E1131.
 
-3 Fourier transform infrared spectroscopy (FTIR) data can use either ASTM method but should report whether trending or subtraction
+3 Данные инфракрасной спектроскопии Фурье-преобразования (FTIR) могут использовать либо метод ASTM, но должны сообщать о тренде или вычитании
 
-ISO 17025 is an international standard for testing and calibration laboratories that covers both the methodology and testing equipment of a lab. This standard uses an accreditation body to test if the lab consistently produces valid results. Choosing an oil analysis lab that meets the ISO 17025 certification for the particular oil analysis tests listed above is recommended.
+ISO 17025 является международным стандартом для лабораторий по тестированию и калибровке, который охватывает как методологию, так и испытательное оборудование лаборатории. В этом стандарте используется орган по аккредитации для проверки того, дает ли лаборатория достоверные результаты. Рекомендуется выбрать лабораторию анализа масла, которая соответствует сертификации ISO 17025 для конкретных измерительн анализа масла, перечисленных выше.
 
-OIL SAMPLE COLLECTION
+Сбор пробы нефти
 
-Oil sample collection intervals **must** be set in such a manner that trend comparisons can be made. As oil circulates in an engine during normal operation, wear metals and contaminants accumulate at a steady rate. The amount of contaminants in the oil at the time of sampling generally depends on the length of time since the last oil change. In order to be able to detect changes in the wear pattern of an engine, the sample **must** be collected in consistent hour intervals. Background data is required if oil analysis is to be used correctly. Such data **must** include:
+Интервалы сбора проб нефти **должны быть установлены таким образом, чтобы можно было проводить сопоставления тенденций. Поскольку масло циркулирует в двигателе во время нормальной работы, износ металлов и загрязняющих веществ накапливается с постоянной скоростью. Количество загрязняющих веществ в масле во время отбора проб обычно зависит от продолжительности времени с момента последнего изменения масла. Для того чтобы иметь возможность обнаруживать изменения в характере износа двигателя, образец** должен быть собран в последовательные часовые интервалы. Для правильного использования анализа нефти необходимы справочные данные. Такие данные **должны** включать:
 
-Information to provide with each sample:
+Информация для предоставления каждой выборки:
 
-- Engine model/serial number
-- Miles/hours of oil use
-- Miles/hours on engine since new or rebuild
-- Oil used (brand name, performance category and viscosity grade)
-- Date sample was collected
-- Engine application
-- Amount of new oil added since previous oil change.
+- Модель двигателя/серийный номер
+- Мили/часы использования нефти
+- Мили/часы на двигателе с момента нового или перестроенного
+- Используемое масло (наименование бренда, категория производительности и степень вязкости)
+- Была собрана дата выборки
+- Применение двигателя
+- Количество новой нефти, добавленной после предыдущей смены.
 
-Information to investigate potential issues:
+Информация для изучения потенциальных проблем:
 
-- Any recent engine maintenance
-- Analysis of new (unused) oil.
+- Любое недавнее техническое обслуживание двигателя
+- Анализ новых (неиспользованных) масел.
 
-It is important to conduct oil analysis on new (unused) oil to establish a baseline. New (unused) oil analysis samples should be taken each time the oil type or oil supplier is changed or, at a minimum, twice a year. Samples should be taken from the bulk supply tanks to determine the makeup of the oil and also to confirm that no contaminants are being introduced by the storage system.
+Для установления исходного уровня важно провести анализ нефти на новой (неиспользованной) нефти. Новые (неиспользованные) образцы для анализа нефти следует брать каждый раз, когда тип масла или поставщик нефти изменяется или, как минимум, два раза в год. Образцы должны быть взяты из резервуаров для сыпучих материалов для определения состава масла, а также для подтверждения того, что система хранения не вводит никаких загрязняющих веществ.
 
-The sample to be used for analysis **must** be representative of the oil in the engine. Use the following guidelines when collecting oil samples:
+Образец, который будет использоваться для анализа, должен быть репрезентативным для масла в двигателе. Используйте следующие рекомендации при сборе образцов масла:
 
-- Bring the engine to operating temperature prior to sampling. This will make sure representative contaminant levels are in the sampled increment.
-- Successive samples **must** be taken in the same manner and from the same location.
-- Take the oil sample before adding any new oil to the engine.
-- **Always** collect oil in a clean, dry container.
-- Collect a minimum of 118 ml \[4 oz\] of oil.
+- Приведите двигатель к рабочей температуре перед выборкой. Это позволит убедиться, что репрезентативные уровни загрязняющих веществ находятся в отобранном приращении.
+- Последующие образцы должны быть взяты таким же образом и из того же места.
+- Возьмите образец масла, прежде чем добавлять новое масло в двигатель.
+- **Всегда** Собирайте масло в чистом сухом контейнере.
+- Соберите минимум 118 мл [4 унции] масла.
 
-Two methods can be used to collect oil samples:
+Для сбора образцов масла могут использоваться два метода:
 
-The recommended method for collecting an oil sample is to take the sample from a pressurized port while the engine is idling and warm. This method will make sure the oil sample is **not** stagnant and represents the actual homogeneous oil mixture that is flowing through the engine.
+Рекомендуемый метод сбора образца масла заключается в том, чтобы взять образец из порта под давлением, пока двигатель работает на холостом ходу и нагревается. Этот метод гарантирует, что образец масла находится в состоянии стагнации и представляет собой фактическую однородную масляную смесь, которая протекает через двигатель.
 
-1. Clean the outside of the valve by wiping with a clean, dry rag.
-2. Idle the engine and bring to warm temperature.
-3. Purge the sample fitting by allowing a small amount of oil to flow through the valve.
-4. Collect the sample into a clean, dry bottle from the oil stream being pumped by the idling engine.
+1. Очистите внешнюю часть клапана, вытирая чистой сухой тряпкой.
+2. Запускайте двигатель на холостом ходу и доводите до теплой температуры.
+3. Очистите образец, позволив небольшому количеству масла течь через клапан.
+4. Соберите образец в чистую, сухую бутылку из потока масла, перекачиваемого холостым двигателем.
 
-> [!note] Note · Примечание
-> A recommended location for sampling is a port that allows oil to be collected before the oil is filtered. Reference the Operation and Maintenance Manual for component locations.
+> [!note] Примечание
+> Рекомендуемым местом для отбора проб является порт, который позволяет собирать масло до фильтрации масла. Ссылка на Руководство по эксплуатации и техническому обслуживанию для местоположений компонентов.
 
-In cases where the engine is **not** operational, an alternative method may be used. This method uses a vacuum to draw oil out of the sump. The sample should be obtained as soon after stopping the engine as possible so the oil is still warm and stratification has **not** occurred.
+В тех случаях, когда двигатель не работает, может использоваться альтернативный метод. Этот метод использует вакуум для извлечения масла из отстойника. Образец следует получить как можно скорее после остановки двигателя, чтобы масло было еще теплым, а стратификация не произошла.
 
-1. Use the dipstick to determine the oil level in the pan.
-2. Hold a new, clean piece of tubing against the dipstick and mark, on the tube, the location where the dipstick seats.
-3. Cut the tubing so it reaches 25 to 50 mm (1 to 2 inches) below the oil level in the pan.
-4. Insert the tubing into the dipstick tube so that the mark previously made on the tubing is aligned with the top of the opening for the dipstick tube.
-5. Use a hand operated vacuum pump to pump the sample into a clean dry bottle.
+1. Используйте калибр уровня масла для определения уровня масла в кастрюле.
+2. Держите новый, чистый кусок трубки против калибра уровня масла и отметьте на трубке место, где находится калибр уровня масла.
+3. Разрежьте трубку, чтобы она достигла 25-50 мм (1-2 дюйма) ниже уровня масла в кастрюле.
+4. Вставьте трубку в измерительную трубку уровня масла, чтобы отметка, ранее сделанная на трубке, была выровнена с верхней частью отверстия для измерительной трубки уровня масла.
+5. Используйте ручной вакуумный насос, чтобы перекачать образец в чистую сухую бутылку.
 
-> [!note] Note · Примечание
-> Do **not** allow the tube to draw oil from the bottom of the oil pan, because excess debris will be included that could bias the sampling results. Do **not** reuse the sampling tube.
+> [!note] Примечание
+> Сделайте **не**, чтобы трубка извлекала масло из нижней части масляной панели, потому что в нее будет включен избыточный мусор, который может повлиять на результаты отбора проб. Не использовать повторно пробоотборную трубку.
 
-SETTING OIL ANALYSIS FLAG LIMITS
+Сеть нефтяных аналисовых огненных полос
 
-Understanding the oil system is crucial to identifying when an oil sample is indicating a problem. Large oil system capacity, use of Centinel™ oil replenishment systems, and use of eliminator or centrifuge filtration systems will result in overall lower contamination levels, compared to an engine that has a standard sump capacity, no replenishment system, and standard oil filters.
+Понимание нефтяной системы имеет решающее значение для определения того, когда образец масла указывает на проблему. Большая емкость масляной системы, использование систем пополнения масла CentinelTM и использование систем фильтрации элиминатора или центрифуги приведут к общему снижению уровня загрязнения по сравнению с двигателем, который имеет стандартную емкость отстойника, не имеет системы пополнения и стандартных масляных фильтров.
 
-System capacity can be determined by knowing the volume of the oil required to touch the high-level mark on the dipstick and the volume of any remote oil tanks on the machine in which oil is continuously circulated. Oil sump capacities are listed in the operation and maintenance manuals for all Cummins® engines. If the machine is equipped with an oil reserve system with a reservoir remote from the engine oil sump, the reservoir volume **must** be added to the engine sump volume to determine the total system capacity. This is **only** true for remote tanks in which the oil is continuously circulated. The Centinel™ make-up tank volume does **not** add to system capacity, since the engine oil is **not** continuously circulated through this tank.
+Емкость системы может быть определена путем знания объема масла, необходимого для прикосновения к знаку высокого уровня на измерителе уровня масла, и объема любых удаленных нефтяных резервуаров на машине, в которой масло непрерывно циркулирует. Мощности отстойника масла перечислены в руководствах по эксплуатации и техническому обслуживанию для всех двигателей Cummins®. Если машина оснащена системой запаса масла с резервуаром, удаленным от отстойника моторного масла, объем резервуара *** должен быть добавлен к объему отстойника двигателя для определения общей емкости системы. Это верно только для удаленных резервуаров, в которых нефть постоянно циркулирует. Объем макияжа CentinelTM** не*** увеличивает емкость системы, поскольку моторное масло*** не* непрерывно циркулирует через этот бак.
 
-The addition of new oil will also decrease the overall level of contaminants. In all cases, oil consumption should be documented by the amount of oil added prior to each service interval. Trending oil consumption is important, as any rising trend or step change in oil consumption can indicate possible power cylinder wear, system leaks, or other system malfunction.
+Добавление нового масла также снизит общий уровень загрязнения. Во всех случаях потребление масла должно быть документально подтверждено количеством масла, добавленного до каждого интервала обслуживания. Трендовое потребление масла важно, так как любой растущий тренд или изменение уровня потребления масла может указывать на возможное износ цилиндров, утечки системы или другие неисправности системы.
 
-One way to compensate for the differences in oil systems between units is to look at the normal wear rates for each engine individually. This method establishes a baseline specific to that particular engine. Provided the oil usage remains fairly constant and other systems are functioning consistently, the trends in wear metals should remain consistent.
+Один из способов компенсировать различия в масляных системах между агрегатами — это посмотреть на нормальные показатели износа для каждого двигателя в отдельности. Этот метод устанавливает исходную линию, специфичную для этого конкретного двигателя. При условии, что использование масла остается довольно постоянным, а другие системы функционируют последовательно, тенденции в износе металлов должны оставаться неизменными.
 
-For example, setting up statistical flag limits based on a large group will normalize the data. If an engine historically had very low rates of wear, but suddenly jumps to a higher wear rate that is consistent with the average wear rate for the group of engines being analyzed, no flag would be triggered. In comparison, looking at historical readings on a particular unit may cause action to be taken at a lower contaminant level.
+Например, установление ограничений статистического флага на основе большой группы нормализует данные. Если двигатель исторически имел очень низкие показатели износа, но внезапно прыгает до более высокой скорости износа, что согласуется со средней скоростью износа для группы анализируемых двигателей, флаг не будет срабатывать. Для сравнения, просмотр исторических показаний на конкретном устройстве может привести к принятию мер на более низком уровне загрязнения.
 
-Cummins Inc. recommends working with an oil analysis lab to establish warning and critical flag limits using ASTM method D7720-11. If samples are taken periodically throughout the oil drain interval, the oil parameter value can be converted into a rate of increase over new oil. For example, parts per million (ppm) per hour.
+Cummins Inc. Рекомендуется работать с лабораторией анализа масла для установления предупредительных и критических пределов флага с использованием метода ASTM D7720-11. Если образцы периодически берутся в течение всего интервала отвода масла, значение параметра масла может быть преобразовано в скорость увеличения по сравнению с новым маслом. Например, части на миллион (ppm) в час.
 
-As a guideline, engines should be grouped in the following ways for statistical limit comparison:
+В качестве ориентира для статистического сравнения пределов следует сгруппировать двигатели следующим образом:
 
-- Engine Model
-- Application
-- Similar Duty Cycles
-- With Centinel™ and without Centinel™
-- With Eliminator™ or Centrifuge type filtration and with standard filter configurations
-- Common oil system capacities
+- Модель двигателя
+- Применение
+- Похожие циклы дежурств
+- С CentinelTM и без CentinelTM
+- С фильтрацией типа EliminatorTM или Centrifuge и со стандартными конфигурациями фильтров
+- Общие мощности нефтяной системы
 
-If all engines are grouped together regardless of oil systems, the engines with Centinel™, Eliminator™/Centrifuge type filtration, and higher oil system capacities will experience a higher degree of engine wear before the flag limit is reached.
+Если все двигатели сгруппированы вместе, независимо от нефтяных систем, двигатели с фильтрацией типа CentinelTM, EliminatorTM/Centrifuge и более высокими мощностями масляной системы будут испытывать более высокую степень износа двигателя до достижения предела флага.
 
-Table 2 lists condemnation limits for oil. If these limits are reached, the oil **must** be changed.
+В таблице 2 перечислены пределы осуждения нефти. Если эти ограничения достигнуты, то нефть должна быть изменена.
 
-| Table 2: Condemnation Limits for High Horsepower Engine Oil Analysis |  |  |  |
+| Таблица 2: Осуждение ограничений для анализа масла двигателя высокой мощности |  |  |  |
 |---|---|---|---|
-| Oil Property | Abbreviation | Units | Condemnation Limit |
-| Fuel dilution | Fuel | percent (%) | 5% |
-| Viscosity change at 100°C \[212°F\] | Visc | centistokes (cSt) | For xW-40 - MIN: 12.5, MAX: 16.3 |
-| For xW-30 - MIN: 9.3, MAX: 12.5 |  |  |  |
-| Total base number | TBN | milligrams potassium hydroxide per gram of sample (mg KOH/g) | 2.5 number minimum or equal to total acid number (TAN) |
-| Total acid number | TAN | milligrams potassium hydroxide per gram of sample (mg KOH/g) | 2.5 increase over new oil or equal to total base number (TBN) |
-| Soot | Soot | percent (%) | 5% 2 |
-| Nitration | Nit | absorbance units per centimeter (abs/cm) | 25 |
-| Oxidation | Ox | absorbance units per centimeter (abs/cm) | 15 1 |
+| Нефтяная собственность | Сокращения | Подразделения | Ограничение осуждение |
+| Разбавление топлива | топливо | % (%) | 5% |
+| Изменение вязкости при 100°C \[212°F\] | Виск | центристоки (cSt) | Для xW-40 - MIN: 12.5, Макс: 16.3 |
+| Для xW-30 - MIN: 9.3, Макс: 12.5 |  |  |  |
+| Общее базовое число | ТБН | миллиграмм гидроксида калия на грамм образца (мг KOH/г) | 2.5 число минимальное или равное общему числу кислот (TAN) |
+| Общее количество кислот | Тан | миллиграмм гидроксида калия на грамм образца (мг KOH/г) | 2.5 увеличение по сравнению с новой нефтью или равное общему базовому числу (TBN) |
+| сажа | сажа | % (%) | 5% 2 |
+| Нитратация | Нит | единицы поглощения на сантиметр (абс/см) | 25 |
+| окисление | окс | единицы поглощения на сантиметр (абс/см) | 15 1 |
 
-1 Increase over new (unused) oil sample.
+1 Увеличение по сравнению с новым (неиспользованным) образцом масла.
 
-2 Oils meeting API CH-4 (CES 20071) represent a minimum quality standard for Cummins® high horsepower engines. Oils meeting older API requirements (C F-4, CG-4) are **not** formulated to tolerate greater than 1.5 percent soot.
+2 Масла, соответствующие стандарту API CH-4 (CES 20071), представляют собой минимальный стандарт качества для двигателей Cummins® с высокой мощностью. Масла, отвечающие более старым требованиям API (C F-4, CG-4), не могут переносить более 1,5 процента сажи.
 
-Table 3 is to be used **only** as a reference if flag limits are **not** able to be established through statistical analysis.
+Таблица 3 должна использоваться только в качестве ссылки, если ограничения флага не могут быть установлены с помощью статистического анализа.
 
-| Table 3: Flag Guidelines for High Horsepower Engine Oil Analysis |  |  |  |  |
+| Таблица 3: Руководство по флагу для анализа масла двигателя высокой мощности |  |  |  |  |
 |---|---|---|---|---|
-| Oil Property | Abbreviation | Units | Caution Flag Limit | Critical Flag Limit |
-| Aluminum | Al | parts per million (ppm) | 15 | 30 |
-| Copper | Cu | parts per million (ppm) | 60 | 180 |
-| Iron | Fe | parts per million (ppm) | 50 | 130 |
-| Lead | Pb | parts per million (ppm) | 20 | 50 |
-| Potassium | K | parts per million (ppm) | 20 1 | 110 1 |
-| Silicon | Si | parts per million (ppm) | 15 1 | 110 1 |
-| Sodium | Na | parts per million (ppm) | 20 1 | 110 1 |
+| Нефтяная собственность | Сокращения | Подразделения | Предельный флаг предосторожности | Критический предел флага |
+| алюминий | Аль-Аллах | ppm (ppm) - миллион частей | 15 | 30 |
+| медь | Кукуруза | ppm (ppm) - миллион частей | 60 | 180 |
+| железо | Феликс | ppm (ppm) - миллион частей | 50 | 130 |
+| Ведущий | Пб | ppm (ppm) - миллион частей | 20 | 50 |
+| калий | К. | ppm (ppm) - миллион частей | 20 1 | 110 1 |
+| кремний | Сиси | ppm (ppm) - миллион частей | 15 1 | 110 1 |
+| натрий | Надеть | ppm (ppm) - миллион частей | 20 1 | 110 1 |
 
-1 Increase over new (unused) oil sample.
+1 Увеличение по сравнению с новым (неиспользованным) образцом масла.
 
-INVESTIGATION BASED ON FLAG LIMITS
+ИНВЕСТИГАЦИЯ, ОСНОВАННАЯ НА ЛЕГКИХ ОБЛАСТАХ
 
-The troubleshooting trees listed below are intended to serve as a guide for investigating instances of high wear metals or oil contaminants. Some of the trees are set up to direct investigation based on the severity level of the flag.
+Устранение неполадок деревьев, перечисленных ниже, предназначено для того, чтобы служить руководством для расследования случаев износа металлов или нефтяных загрязнителей. Некоторые из деревьев предназначены для прямого исследования, основанного на уровне тяжести флага.
 
-The caution severity level indicates that an abnormal wear condition exists, and the investigation may require minor maintenance to be performed.
+Уровень тяжести осторожности указывает на то, что существует ненормальное состояние износа, и для расследования может потребоваться незначительное техническое обслуживание.
 
-The critical severity level indicates that major wear or contamination exists that requires immediate attention, and the investigation may require partial engine disassembly.
+Критический уровень тяжести указывает на то, что существует значительный износ или загрязнение, которое требует немедленного внимания, и исследование может потребовать частичной разборки двигателя.
 
-These troubleshooting trees are organized so that a problem can be located and corrected by doing the easiest and most logical things first. Complete all steps in the sequence shown from top to bottom.
+Эти деревья для устранения неполадок организованы так, что проблема может быть найдена и исправлена, сначала делая самые простые и логичные вещи. Заполните все шаги в последовательности, показанной сверху вниз.
 
-Some of the steps in the troubleshooting trees require information on oil drain intervals, recent repairs, coolant makeup or oil makeup. This information is used to verify that the engine is experiencing a true incident of high wear or contamination and **not** an abnormal oil condition due to some other factor.
+Некоторые из шагов в устранении неполадок деревьев требуют информации о интервалах слива масла, недавнем ремонте, косметике охлаждающей жидкости или масляном макияже. Эта информация используется для проверки того, что двигатель испытывает реальный инцидент высокого износа или загрязнения и **не** ненормальное состояние масла из-за какого-либо другого фактора.
 
-Many of the troubleshooting trees use combinations of wear metals or contamination indicators to increase confidence in determining where the problem is originating. See the list below to become familiar with sources of wear metals or contaminants.
+Многие из деревьев, устраняющих неполадки, используют комбинации износа металлов или индикаторов загрязнения, чтобы повысить уверенность в определении того, где возникает проблема. Смотрите список ниже, чтобы ознакомиться с источниками износа металлов или загрязняющих веществ.
 
-| Sources of Wear Metals or Contaminants |  |
+| Источники носовых металлов или загрязняющих веществ |  |
 |---|---|
-| (Al) Aluminum | Pistons (some applications), crankshaft and camshaft thrust bearings, camshaft bushings, dirt. |
-| (Cu) Copper | Connecting rod and main bearings, turbocharger bearings, connecting rod bushings, camshaft bushings, idler gear and accessory drive bushings and thrust washers, cam follower pins, rocker lever bushings, lube pump bushings and thrust washers, oil coolers. |
-| Fuel | Unburned fuel in lubricating oil, injectors or fuel pump can be source of contamination. Engine operation, such as frequent starts, excessive idling, and cold weather operation can also lead to fuel dilution. |
-| (Fe) Iron | Cylinder liner, pistons (some applications), gears, crankshaft, camshaft and camshaft follower rollers and shafts. |
-| (Pb) Lead | Rod and main bearings, turbocharger bearings, camshaft bushings, idler gear and accessory drive bushings and thrust washers, lube pump bushings and thrust washers. |
-| (K) Potassium | Element contained in some coolant additive packages, which indicates coolant contamination of oil. |
-| (Si) Silicon | Sand, dirt, silicon sealants and gasket materials, oil additives, cooling system inhibitor. |
-| (Na) Sodium | Element contained in some coolant additive packages which indicates coolant contamination of oil, salt from detergent or road, oil additive. |
-| Viscosity | The property of a fluid measured at a certain temperature that resists the force to cause the fluid to flow. |
-| (TAN) Total Acid Number | A measure of oil's acidity. New oil has a certain level, or starting TAN, due to the type and amount of additives. |
-| (TBN) Total Base Number | A measure of the oil's ability to neutralize acid. New oil has a certain level in the oil formula that is depleted over time due to contact with acid generated by blowby gases. |
-| Soot | Combustion by-products in oil. |
-| Oxidation | A generic measure of the breakdown of a lubricant due to age and exposure to high temperature. High oxidation numbers indicate oil is beyond its useful life. |
-| Nitration | A generic indicator of excessive "blowby" and also indicates the presence of nitric acid formed by nitric oxide, which is a combustion by-product when the engine operates too lean. Nitric acid can attack metal surfaces in the engine and result in corrosive wear. Nitric acid can accelerate oil oxidation. |
+| (Al) Алюминий | Пистоны (некоторые применения), коленчатые валы и подшипники тяги распредвалов, втулки распредвалов, грязь. |
+| Медь (Cu) | Подключающие стержни и основные подшипники, подшипники турбокомпрессора, соединительные стержневые втулки, распределительные втулки распределительного вала, втулки для бездельников и вспомогательные приводные втулки и тяговые мойщики, штифтовые штифты, втулки для кранов, втулки для качелей клапанных клапанов, втулки смазочных насосов и тяговые мойщики, масляные охладители. |
+| топливо | Несгоревшее топливо в смазочном масле, топливном форсунке или топливном насосе может быть источником загрязнения. Работа двигателя, такая как частые запуски, чрезмерное холостое время работы и холодная погода, также может привести к разбавлению топлива. |
+| (Fe) Железо | Линейка цилиндров, поршни (некоторые приложения), шестерни, коленчатый вал, распределительные валы и распределительные валы и валы. |
+| (Pb) Ведущий | Род и основные подшипники, подшипники турбокомпрессора, втулки распределительного вала, втулки бездельников и вспомогательные приводные втулки и моющие устройства с тягой, втулки смазочного насоса и мойщики с тягой. |
+| К. Калий | Элемент, содержащийся в некоторых пакетах с добавками охлаждающей жидкости, что указывает на загрязнение масла охлаждающей жидкостью. |
+| (Si) Кремний | Песок, грязь, кремниевые герметики и прокладочные материалы, масляные добавки, ингибитор системы охлаждения. |
+| Натрий | Элемент, содержащийся в некоторых пакетах с добавками охлаждающей жидкости, который указывает на загрязнение масла охлаждающей жидкостью, соли из моющего средства или дороги, масляной добавки. |
+| вязкость | Свойство жидкости, измеренное при определенной температуре, которая сопротивляется силе, чтобы вызвать поток жидкости. |
+| (TAN) Общее количество кислот | Мера кислотности масла. Новое масло имеет определенный уровень, или стартовый TAN, за счет вида и количества добавок. |
+| (TBN) Общее базовое число | Измерение способности масла нейтрализовать кислоту. Новое масло имеет определенный уровень в масляной формуле, который со временем истощается из-за контакта с кислотой, образующейся в результате продува газов. |
+| сажа | Побочные продукты горения в масле. |
+| окисление | Общий показатель разбивки смазки из-за возраста и воздействия высокой температуры. Высокие показатели окисления указывают на то, что масло находится за пределами своего срока полезного использования. |
+| Нитратация | Общий показатель чрезмерного «взорва» а также указывает на наличие азотной кислоты, образованной оксидом азота, который является побочным продуктом сгорания, когда двигатель работает слишком худощаво. Азотная кислота может атаковать металлические поверхности в двигателе и привести к коррозионному износу. Азотная кислота может ускорить окисление масла. |
 
-Oil Analysis Flags for Common Failure Modes:
+Флаги анализа нефти для распространенных режимов отказа:
 
-Additional information can be obtained when looking at combinations of wear metals and/or contaminants. Listed below are some engine problems that may result in oil analysis flags and an explanation of what combination of elevated wear metals and/or contaminants to look for if suspected.
+Дополнительную информацию можно получить при рассмотрении комбинаций износящих металлов и/или загрязняющих веществ. Ниже перечислены некоторые проблемы с двигателем, которые могут привести к флагам анализа масла и объяснению того, какую комбинацию повышенных износа металлов и / или загрязняющих веществ искать, если подозревается.
 
-| Engine Problems That Result in Oil Analysis Flags |  |
+| Проблемы с двигателем, которые приводят к флагам анализа нефти |  |
 |---|---|
-| Fuel Dilution | The best indicators of fuel dilution are an increased percentage of fuel in the oil and a decrease in viscosity. In cases of high fuel dilution, the oil may smell like fuel and the engine oil level may increase. |
-| Coolant Contamination | The best method to detect coolant contamination of oil is to look for traces of elements, such as sodium and potassium, which are contained in the coolant additive package. These elements can be detected at very low levels, so they can serve as an early warning. Sodium is occasionally found in lubricant additive packages; therefore, it is important to compare the level of sodium with that measured in the baseline (unused) oil sample and to be aware of the coolant additive package formulation. A water content test is **not** a reliable indicator of a coolant leak because oil temperatures are generally higher than the boiling point of water, which allows the water to boil out during normal engine operation, leaving **only** the elements that make up the coolant additive package behind. Glycol tests can also be inaccurate. Small amounts of glycol may **not** be measurable, and high oil temperatures can break down glycol to a state where it will **not** be detected. In addition to identifying the source of coolant contamination, it is important to determine if progressive damage has occurred. Coolant contamination of the lubricating oil can damage bearings and bushings. |
-| Dust Out | Dirt is composed primarily of silica and alumina, so elevated levels of silicon and aluminum in a 2:1 to 10:1 Silicon:Aluminum ratio indicate dirt intrusion. In addition to identifying the source of dirt entry, it is important to determine if progressive damage has occurred. A dust out can cause piston ring/cylinder liner wear, which can lead to lubricating oil contamination or a breakdown of the lubricating oil properties and bearing/bushing failures. |
-| Piston Ring/Cylinder Liner Wear | Increased levels of iron indicate cylinder liner wear. Additionally, wear of the rings and/or liner may allow blowby gases to pass by the rings and contaminate the oil. Elevated levels of soot, oxidation, and nitration along with an increase in viscosity may be observed. Contamination of the oil will also increase total acid number and decrease total base number. In addition to identifying the source of coolant contamination, it is important to determine if progressive damage has occurred. Contaminated lubricating oil can damage bearings and bushings. |
-| Bearing/Bushing Failure | Bearings are made up primarily of lead and copper. An increased level of both of these metals at the same time indicates failure of a bearing and/or bushing. An increase of lead with no increase in copper typically corresponds to a degradation of oil condition that results in attack of the top layer of the bearing. Some other indications may include increases in oxidation, nitration, TAN and/or a decrease in TBN. |
+| Разбавление топлива | Лучшими показателями разбавления топлива являются повышенный процент топлива в масле и снижение вязкости. В случаях высокого разбавления топлива масло может пахнуть топливом, а уровень моторного масла может увеличиться. |
+| Загрязнение охлаждающими веществами | Лучший способ обнаружить загрязнение масла хладагентом — это искать следы элементов, таких как натрий и калий, которые содержатся в упаковке с добавками хладагента. Эти элементы могут быть обнаружены на очень низких уровнях, поэтому они могут служить в качестве предварительного уведомления. Натрий иногда содержится в пакетах смазочных добавок; поэтому важно сравнить уровень натрия с уровнем, измеренным в исходном (неиспользованном) образце масла, и знать состав упаковки с добавками охлаждающей жидкости. Тест на содержание воды является **не** надежным показателем утечки охлаждающей жидкости, поскольку температура масла обычно выше точки кипения воды, что позволяет воде кипеть во время нормальной работы двигателя, оставляя только * элементы, которые составляют пакет присадок охлаждающей жидкости. Тесты на гликол также могут быть неточными. Небольшое количество гликоля может быть измеримым, а высокие температуры масла могут расщеплять гликоль до состояния, когда он не будет обнаружен. Помимо выявления источника загрязнения охлаждающей жидкостью, важно определить, произошло ли прогрессирующее повреждение. Охлаждающее загрязнение моторного масла может повредить подшипники и втулки. |
+| Выброшенная пыль | Грязь состоит в основном из кремния и глинозема, поэтому повышенные уровни кремния и алюминия в соотношении 2:1 к 10:1 кремния: алюминия указывают на проникновение грязи. Помимо определения источника попадания грязи, важно определить, произошло ли прогрессирующее повреждение. Выпадение пыли может вызвать износ поршневого кольца / цилиндрового лайнера, что может привести к загрязнению моторного масла или нарушению свойств моторного масла и отказам подшипников / подвесок. |
+| Кольцо Пистона / Носить цилиндрический лайнер | Повышенный уровень железа указывает на износ цилиндров. Кроме того, износ колец и/или вкладыша может позволить продувающимся газам проходить мимо колец и загрязнять масло. Могут наблюдаться повышенные уровни сажи, окисления и нитратации наряду с увеличением вязкости. Загрязнение масла также увеличит общее количество кислоты и уменьшит общее количество основания. Помимо выявления источника загрязнения охлаждающей жидкостью, важно определить, произошло ли прогрессирующее повреждение. Загрязненное моторное масло может повредить подшипники и втулки. |
+| Неудача / Bushing Failure | Подшипники состоят в основном из свинца и меди. Повышенный уровень обоих этих металлов одновременно указывает на отказ подшипника и/или втулки. Увеличение свинца без увеличения меди обычно соответствует деградации состояния масла, что приводит к атаке верхнего слоя подшипника. Некоторые другие показания могут включать увеличение окисления, нитратирования, TAN и/или уменьшение TBN. |
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Чтобы быть предупрежденным о проблеме, в момент взятия последнего образца масла должен был произойти сбой. Некоторые режимы отказа развиваются так быстро, что они не будут определены в анализе нефти.
+
+> [!note] Примечание
+> Когда масло изменяется на двигателе с удаленным нефтяным баком, в котором масло непрерывно циркулирует (не цистерна CentinelTM), масло в удаленном баке должно быть изменено, в дополнение к маслу в отстойнике двигателя. Если масло в удаленном резервуаре не будет изменено, оно будет действовать как источник загрязнения для следующего образца масла.
+
+Деревья устранения неполадок, перечисленные ниже, предназначены для того, чтобы направить пользователя на процедуры устранения неполадок и ремонта, которые можно найти в соответствующем наборе руководств по QuickserveTM Online для исследуемого двигателя.
+
+> [!note] Примечание
+> Если деревья, перечисленные ниже, устраняют неполадки, рекомендуется провести дальнейший анализ в нефтяной лаборатории Cummins Inc. **не будет платить за этот дополнительный анализ. Cummins Inc.** не оплачивает работу по анализу нефти и не возмещает расходы на тестирование, необходимое для программы анализа нефти.
+
+| Уровень содержания алюминия на миллион (PPM) превышает осторожность или критический предел алюминиевого флага, основанный на результатах нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Расширенный интервал отбора проб нефти | Если время работы масла в пробе больше, чем время работы масла в пробах прошлого образца, износ металлов может быть повышен. | Проверьте, не превышает ли время работы масла на момент пробы более чем на 25 процентов по сравнению с предыдущими часами пробы. Если да, то повторите выборку через регулярный интервал. |
+| Дистанционное циркуляция нефтяных резервуаров, макияжное масло или системы CentinelTM не работают должным образом | Нефть не пополняется или мощность нефти снижается, что приводит к повышенному уровню износа металлов. | Ремонт удаленной циркуляции масла, макияжа или системы CentinelTM. Резервный образец через регулярный интервал. |
+| Двигатель имеет алюминиевые поршни и имеет по крайней мере один силовой цилиндр (поршень), замененный в течение последних 1000 часов. | Ремонт силового цилиндра, приводящий к износу. | Резервный образец через регулярный интервал. Алюминий должен вернуться к нормальному уровню в течение 1000 часов после работы. |
+| Двигатель имеет алюминиевые поршни и недавно был перестроен менее чем за 1000 часов работы. | Взлом силового цилиндра приводит к повышению уровня износа металла. | Резервный образец через регулярный интервал. Алюминий должен вернуться к нормальному уровню в течение 1000 часов после работы. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Алюминиевая поршневая юбка | Алюминиевая поршневая юбка. | Проверьте изображение ECM на наличие неисправностей и повышенного расхода масла или чрезмерного шума двигателя. Следуйте за соответствующими деревьями устранения неполадок. |
+| Вторжение грязи | Грязь состоит из кремнезема и глинозема. Кремний и алюминий в 2:1 до 10:1 Кремний:алюминий соотношение указывает на грязь. | Проверьте, находится ли кремний на повышенном уровне. Если это так, проверьте, отсутствует ли измерительная трубка уровня масла и / или крышка для заполнения масла, рыхлая или имеет отсутствующее уплотнение. Проверить систему впуска для отверстий и источников утечек. Проверьте наличие разрушенных воздушных фильтров и надлежащее уплотнение вокруг воздухоочистителей. Ремонт по мере необходимости. Проверьте увеличение потребления масла и высокий уровень продувки. Ссылка на чрезмерное потребление моторного масла или картерные газы (Blowby) чрезмерное дерево устранения неполадок. Проверьте, находятся ли железо, медь и / или свинец на повышенном уровне. Если да, то обратитесь к соответствующему дереву устранения неполадок. |
+| Повышенная скорость износа подшипников тяги | Повышенная скорость износа подшипников тяги. | Проверьте, находится ли конечный зазор коленчатого вала в пределах спецификации. Если **не**, проверьте или отремонтируйте подшипники тяги. |
+
+| Уровень содержания медных деталей на миллион (PPM) превышает предельный уровень медного флага, основанный на результатах нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Расширенный интервал отбора проб нефти | Если время работы масла в пробе больше, чем время работы масла в пробах прошлого образца, износ металлов может быть повышен. | Проверьте, не превышает ли время работы масла на момент пробы более чем на 25 процентов по сравнению с предыдущими часами пробы. Если да, то повторите выборку через регулярный интервал. |
+| Дистанционное циркуляция нефтяных резервуаров, макияжное масло или системы CentinelTM не работают должным образом | Нефть не пополняется или мощность нефти снижается, что приводит к повышенному уровню износа металлов. | Ремонт удаленной циркуляции масла, макияжа или системы CentinelTM. Резервный образец через регулярный интервал. |
+| В течение последних 1000 часов двигатель заменил по крайней мере один масляный охладитель. | Пассивация масляного охладителя. | Резервный образец через регулярный интервал. Медь должна вернуться к нормальному уровню в течение 1000 часов. |
+| Двигатель новый или недавно перестроенный с менее чем 1000 часов работы | Пассивация масляного охладителя. | Резервный образец через регулярный интервал. Медь должна вернуться к нормальному уровню в течение 1000 часов. |
+| В последнее время состав масла изменили | Пассивация масляного охладителя. | Резервный образец через регулярный интервал. Медь должна вернуться к нормальному уровню в течение 1000 часов. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Нефтяная кислотность атакует подшипниковый материал из-за низкого общего базового числа (TBN) в масле. | Нефтяная кислотность атакует подшипниковый материал из-за низкого общего базового числа (TBN) в масле. | Проверьте, находится ли свинец на повышенном уровне. Если это так, вырежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если подшипники содержат мусор в фильтре/центрифуге, проверьте подшипники. Если нет мусора, меняйте масло, переоценивайте интервал слива масла, повторяйте образец через регулярный интервал. |
+| Коррозионная атака материала подшипника двигателя из-за загрязнения охлаждающей жидкостью | Масляная кислотность атакует несущий материал из-за загрязнения охлаждающей жидкостью. | Проверьте, находится ли свинец на повышенном уровне. Если это так, вырежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если подшипники содержат мусор в фильтре/центрифуге, проверьте подшипники. Проверьте, находятся ли натрий и / или калий на повышенных уровнях. Если да, обратитесь к деревьям, устраняющим неполадки с натрием и / или калием. |
+| Ношение подшипникового материала из-за уменьшения толщины масляной пленки | Высокая температура, низкое давление масла или низкая вязкость компрометируют толщину масляной пленки. | Проверьте, находится ли свинец на повышенном уровне. Если это так, проверьте температуру масла или неисправности давления и разрежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если подшипники содержат мусор в фильтре/центрифуге, проверьте подшипники. |
+
+| Уровень медных деталей на миллион превышает критический предел медного флага, основанный на результатах нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Возможная лабораторная ошибка, загрязнение образца или другие причины, вызывающие однократное высокое считывание | Возможная ошибка лабораторного тестирования, ошибка записи, загрязнение образца или другие причины для одного высокого показания. | Если внезапно высокое чтение, выполнить шаги в медь превышает осторожность флаг предела дерева. Если свинец также имеет внезапное высокое значение, отрежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если нет мусора, то с перерывом в половину (включая измерение TBN) и запросить феррографический анализ на пробе масла, которая произвела повышенный уровень меди. |
+| В течение последних 1000 часов двигатель заменил по крайней мере один масляный охладитель. | Пассивация масляного охладителя. | Резервный образец через регулярный интервал. Медь должна вернуться к нормальному уровню в течение 1000 часов после операции. |
+| Двигатель новый или недавно перестроенный с менее чем 1000 часов работы | Пассивация масляного охладителя. | Резервный образец через регулярный интервал. Медь должна вернуться к нормальному уровню в течение 1000 часов после операции |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Нефтяная кислотность атакует подшипниковый материал из-за низкого общего базового числа (TBN) в масле. | Нефтяная кислотность атакует подшипниковый материал из-за низкого общего базового числа (TBN) в масле. | Если общий базовый уровень (TBN) низкий, оцените интервал слива масла и тип масла. Если свинец также находится на повышенном уровне, разрежьте фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если обломки не обнаружены, запросите феррографический анализ на образец масла, который произвел повышенный уровень меди. Если обломки в фильтре/центрифуге или феррографическом анализе указывают на несущие обломки, проверьте подшипники. |
+| Коррозионная атака подшипникового материала из-за загрязнения охлаждающей жидкостью | Масляная кислотность атакует несущий материал из-за загрязнения охлаждающей жидкостью. | Проверьте, находятся ли натрий и / или калий в критическом состоянии. Если да, ссылочная потеря охлаждающей жидкости - дерево внутренней устранения неполадок. Проверьте, находится ли свинец также на повышенном уровне, если это так, разрежьте фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если обломки не обнаружены, запросите феррографический анализ на образец масла, который произвел повышенный уровень меди. Если обломки в фильтре/центрифуге или феррографическом анализе указывают на несущие обломки, проверьте подшипники. |
+| Ношение подшипникового материала из-за уменьшения толщины масляной пленки | Высокая температура, низкое давление масла или низкая вязкость компрометируют толщину масляной пленки. | Проверьте температуру масла или перепады давления. Проверьте, низкая ли вязкость. Если да, то обратитесь к дереву с низкой вязкостью. Проверьте, находится ли свинец также на повышенном уровне, если это так, разрежьте фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если обломки не обнаружены, запросите феррографический анализ на образец масла, который произвел повышенный уровень меди. Если обломки в фильтре/центрифуге или феррографическом анализе указывают на несущие обломки, проверьте подшипники. |
+| Ношение втулок **не**, содержащих свинец | Подключение стержневых втулок, зубчатых втулок, крановых втулок. | Проверьте температуру масла или перепады давления. Проверьте, низкая ли вязкость. Если да, то обратитесь к дереву с низкой вязкостью. Вырезать фильтры, открывать или открывать центрифугу и проверять наличие мусора. Если в фильтрах/центрифуге не обнаружено обломков, запросите феррографический анализ образца масла, который произвел повышенный уровень меди. Если обломки в фильтре/центрифуге или феррографическом анализе указывают на обломки втулки, проверьте втулки. |
+
+| Разбавление топлива превышает лимит флага на основе результатов нефтяной лаборатории или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Частые старты | Топливо не горит полностью при низких температурах камеры сгорания и может просачиваться мимо поршневых колец и в картер. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. |
+| Чрезмерное идлинг | Топливо не горит полностью при низких температурах камеры сгорания и может просачиваться мимо поршневых колец и в картер. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Если возможно, выключите двигатель, а не на холостом ходу или поднимите скорость холостого хода. |
+| Холодная погода Операция | Топливо не горит полностью при низких температурах камеры сгорания и может просачиваться мимо поршневых колец и в картер. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. |
+| Частые запуски, чрезмерное холостое движение или холодная погодная операция | Топливо не горит полностью при низких температурах камеры сгорания и может просачиваться мимо поршневых колец и в картер. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Если возможно, выключите двигатель, а не на холостом ходу или поднимите скорость холостого хода. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Двигатель имел по крайней мере один форсунка, удаленный в течение последних 1000 часов. | форсунка срезанные или выдувные кольца, форсунка удерживают неправильно вытравленный, форсунка неправильно установленный. | Красить топливо и осматривать область вокруг топливного форсунка с помощью черного света. Ремонт по мере необходимости. |
+| Масло, загрязненное топливом из-за отказа топливного насоса или неисправности форсунки | Чрезмерное топливо, попадающее в моторное масло, снижает вязкость моторного масла. Масло будет иметь запах топлива только при высоких уровнях разбавления топлива. | Подтверждаем, что вязкость также упала ниже предела. Если это так, следуйте за топливом в дерево устранения неполадок моторного масла. |
+
+| Уровень содержания железа на миллион (PPM) превышает предельный уровень предупреждения о железе, основанный на результатах нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Расширенный интервал отбора проб нефти | Если время работы масла в пробе больше, чем время работы масла в пробах прошлого образца, износ металлов может быть повышен. | Проверьте, не превышает ли время работы масла на момент пробы более чем на 25 процентов по сравнению с предыдущими часами пробы. Если да, то повторите выборку через регулярный интервал. |
+| Дистанционное циркуляция нефтяных резервуаров, макияжное масло или системы CentinelTM не работают должным образом | Нефть не пополняется или мощность нефти снижается, что приводит к повышенному уровню износа металлов. | Ремонт удаленной циркуляции масла, макияжа или системы CentinelTM. Резервный образец через регулярный интервал. |
+| Двигатель имел по меньшей мере один силовой цилиндр (кольца и/или вкладыш), замененный в течение последних 1000 часов. | Ремонт силового цилиндра, приводящий к износу. | Резервный образец через регулярный интервал. Железо должно вернуться к нормальному уровню в течение 1000 часов после операции. |
+| Двигатель новый или недавно перестроенный с менее чем 1000 часов работы | Изнашивание силового цилиндра. | Резервный образец через регулярный интервал. Железо должно вернуться к нормальному уровню в течение 1000 часов после операции. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Ношение интерфейса между сталью и втулкой / несущим материалом | Высокое содержание железа и меди и/или свинца указывает на повреждение. | Проверьте, находятся ли свинец и медь на повышенных уровнях. Если да, обратитесь к медным и / или свинцовым деревьям для устранения неполадок. |
+| Увеличение скорости износа колец и/или вкладышей из-за смазки для промывки топлива от вкладышей | Форсунка вышел из строя, в результате чего цилиндры смывались топливом, что вызвало износ лайнера, что привело к повышению железа. | Проверьте наличие признаков низкой вязкости или разбавления топлива. Если это так, то эталонное разбавление топлива или дерево устранения неполадок с низкой вязкостью. |
+| Увеличение скорости износа колец и / или вкладышей из-за пыльных или изношенных колец | Износ цилиндров из-за пыльцы, сломанного кольца или изношенных колец. | Проверить на увеличение потребления нефти. Справочно: Потребление моторного масла Чрезмерное устранение неполадок дерево. |
+| Увеличение скорости износа колец и / или лайнеров из-за перегрузки | Высокие температуры цилиндров, вызванные чрезмерным топливом или ограниченным потоком воздуха, могут ускорить износ цилиндров. | Проверьте наличие дыма или низкой мощности. Если двигатель курит или не тянет мощность, следуйте за деревьями, устраняющими неисправности двигателя. |
+| Железо и железо носят поверхности в двигателе | Распредвал, ролик или неисправность передачи, порождающая мусор. | Запросить феррографический анализ на образец масла, который произвел повышенный уровень железа. Отрежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если обломки фильтра/центрифуги или феррографического анализа указывают на осколки зубчатой передачи, распредвала или ролика, проверьте соответствующим образом. Если нет мусора, меняйте масло и повторяйте образец через равный интервал времени. |
+
+| Уровень железа на миллион превышает критический предел железного флага, основанный на результатах нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Возможная лабораторная ошибка, загрязнение образца или другие причины, вызывающие однократное высокое считывание | Возможная ошибка лабораторного тестирования, ошибка записи, загрязнение образца или другие причины для одного высокого показания. | Если внезапно высокое чтение, выполнить шаги в железе превышает осторожность флаг предела дерева. Если другие металлы также имеют внезапное высокое значение, продолжайте с этим деревом устранения неполадок. |
+| Двигатель имел по меньшей мере один силовой цилиндр (кольца и/или вкладыш), замененный в течение последних 1000 часов. | Ремонт силового цилиндра, приводящий к износу. | Резервный образец через регулярный интервал. Железо должно вернуться к нормальному уровню в течение 1000 часов после операции. |
+| Двигатель новый или недавно перестроенный с менее чем 1000 часов работы | Изнашивание силового цилиндра. | Резервный образец через регулярный интервал. Железо должно вернуться к нормальному уровню в течение 1000 часов после операции. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Ношение интерфейса между сталью и втулкой / несущим материалом | Высокое содержание железа и меди и/или свинца указывает на повреждение. | Проверьте, находятся ли свинец и медь на повышенных уровнях. Если да, обратитесь к медным и / или свинцовым деревьям для устранения неполадок. |
+| Увеличение скорости износа колец и/или вкладышей из-за смазки для промывки топлива от вкладышей | Неисправность форсунки, вызывающая смывание цилиндров топливом, может привести к износу лайнера, что приводит к повышению железа. | Проверьте наличие признаков более низкой вязкости или разбавления топлива. Если да, то см. разбавление топлива и/или дерево устранения неполадок с низкой вязкостью. |
+| Увеличение скорости износа колец и / или лайнеров из-за перегрузки | Высокие температуры цилиндров, вызванные чрезмерным топливом или ограниченным потоком воздуха, могут ускорить износ цилиндров. | Проверьте наличие дыма или низкой мощности. Если двигатель курит или не тянет мощность, следуйте за деревьями, устраняющими неисправности двигателя. |
+| Увеличение скорости износа колец и / или вкладышей из-за сломанных или изношенных колец | Износ цилиндров из-за сломанного кольца, изношенные кольца, вызывающие повышенное железо. | Проверить на увеличение потребления нефти. Если это так, см. Потребление моторного масла Чрезмерное устранение неполадок дерево. |
+| Увеличение скорости износа колец и / или вкладышей из-за проникновения пыли | Износ цилиндров из-за пыльцы, сломанного кольца или изношенных колец. | Проверьте, находится ли кремний на повышенном уровне. Если это так, проверьте, отсутствует ли измерительная трубка уровня масла и / или крышка для заполнения масла, рыхлая или имеет отсутствующее уплотнение. Проверить систему впуска для отверстий и источников утечек. Проверьте наличие разрушенных воздушных фильтров и надлежащее уплотнение вокруг воздухоочистителей. Ремонт системы впуска при необходимости. Проверьте продувку. Если высокий, следуйте за газом Crankcase (Blowby) чрезмерное устранение неполадок дерево. |
+| Железо и железо носят поверхности в двигателе | Распредвал, ролик или неисправность передачи, порождающая мусор. | Запросить феррографический анализ на образец масла, который произвел повышенный уровень железа. Отрежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если обломки фильтра/центрифуги или феррографического анализа указывают на осколки зубчатой передачи, распредвала или ролика, проверьте соответствующим образом. Если нет мусора, меняйте масло и повторяйте образец через равный интервал времени. |
+
+| Уровень свинцовых деталей на миллион превышает лимит предупреждения свинца на основе результатов нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Расширенный интервал отбора проб нефти | Если время работы масла в пробе больше, чем время работы масла в пробах прошлого образца, износ металлов может быть повышен. | Проверьте, не превышает ли время работы масла на момент пробы более чем на 25 процентов по сравнению с предыдущими часами пробы. Если да, то повторите выборку через регулярный интервал. |
+| Дистанционное циркуляция нефтяных резервуаров, макияжное масло или системы CentinelTM не работают должным образом | Нефть не пополняется или мощность нефти снижается, что приводит к повышенному уровню износа металлов. | Ремонт удаленной циркуляции масла, макияжа или системы CentinelTM. Резервный образец через регулярный интервал. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Нефтяная кислотность атакует подшипниковый материал из-за низкого общего базового числа (TBN) в масле. | Нефтяная кислотность атакует подшипниковый материал из-за низкого общего базового числа (TBN) в масле. | Отрежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если подшипники содержат мусор в фильтре/центрифуге, проверьте подшипники. Если нет мусора, меняйте масло, переоценивайте интервал слива масла, повторяйте образец через регулярный интервал. |
+| Коррозионная атака подшипникового материала из-за загрязнения охлаждающей жидкостью | Масляная кислотность атакует несущий материал из-за загрязнения охлаждающей жидкостью. | Проверьте, находится ли медь на повышенном уровне. Если это так, вырежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если подшипники содержат мусор в фильтре/центрифуге, проверьте подшипники. Проверьте, находятся ли натрий и / или калий на повышенных уровнях. Если да, обратитесь к деревьям, устраняющим неполадки с натрием и / или калием. |
+| Ношение подшипникового материала из-за уменьшения толщины масляной пленки | Высокая температура, низкое давление масла или низкая вязкость компрометируют толщину масляной пленки. | Проверьте, находится ли медь на повышенном уровне. Если это так, проверьте температуру масла или неисправности давления и разрежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если подшипники содержат мусор в фильтре/центрифуге, проверьте подшипники. |
+
+| Уровень свинцовых деталей на миллион превышает критический предел флага свинца на основе результатов нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Возможная лабораторная ошибка, загрязнение образца или другие причины, вызывающие однократное высокое считывание | Возможная ошибка лабораторного тестирования, ошибка записи, загрязнение образца или другие причины для одного высокого показания. | Если внезапно высокое чтение, выполнить шаги в свинце превышает осторожность флаг предел дерева. Если медь также имеет внезапное высокое значение, разрежьте масляные фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если нет мусора, то с перерывом в половину (включая измерение TBN) и запросить феррографический анализ на образце масла, который произвел повышенный уровень свинца. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Нефтяная кислотность атакует подшипниковый материал из-за низкого общего базового числа (TBN) в масле. | Нефтяная кислотность атакует подшипниковый материал из-за низкого общего базового числа (TBN) в масле. | Если общий базовый уровень (TBN) низкий, оцените интервал слива масла и тип масла. Разрежьте фильтры открытыми или открытыми центрифугами и проверьте наличие мусора. Если обломки не обнаружены, запросите феррографический анализ на образце масла, который произвел повышенный уровень свинца. Если обломки в фильтре/центрифуге или феррографическом анализе указывают на несущие обломки, проверьте подшипники. |
+| Коррозионная атака подшипникового материала из-за загрязнения охлаждающей жидкостью | Масляная кислотность атакует несущий материал из-за загрязнения охлаждающей жидкостью. | Проверьте, находятся ли натрий и / или калий в критическом состоянии. Если да, ссылочная потеря охлаждающей жидкости - дерево внутренней устранения неполадок. Проверьте, находится ли медь также на повышенном уровне, если это так, разрежьте фильтры, откройте или откройте центрифугу и проверьте наличие мусора. Если обломки не обнаружены, запросите феррографический анализ на образце масла, который произвел повышенный уровень свинца. Если обломки в фильтре/центрифуге или феррографическом анализе указывают на несущие обломки, проверьте подшипники. |
+| Ношение подшипникового материала из-за уменьшения толщины масляной пленки | Высокая температура, низкое давление масла или низкая вязкость компрометируют толщину масляной пленки. | Проверьте температуру масла или перепады давления. Проверьте, низкая ли вязкость. Если да, то обратитесь к дереву с низкой вязкостью. Проверьте, находится ли медь также на повышенном уровне, если это так, разрежьте фильтры открытыми или открытыми центрифугами. Если обломки не обнаружены, запросите феррографический анализ на образце масла, который произвел повышенный уровень свинца. Если обломки в фильтре/центрифуге или феррографическом анализе указывают на несущие обломки, проверьте подшипники. |
+
+| Уровень калиевых частей на миллион (PPM) превышает предупредительный предел калия на основе результатов нефтяной лаборатории или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Масло, загрязненное охлаждающей жидкостью | Калий обычно используется в качестве ингибитора системы охлаждения. | Убедитесь, что охлаждающая жидкость, используемая в этом двигателе, содержит калий. Проверьте, находятся ли натрий и/или кремний также на повышенных уровнях, если они также содержатся в охлаждающей жидкости. Если это так, проверьте потребление охлаждающей жидкости, проверьте и отремонтируйте любые утечки и повторный образец прокладки головы и водяного насоса сливного отверстия с половиной нормального интервала. |
+
+| Уровень калиевых частей на миллион (PPM) превышает критический предел калия на основе результатов нефтяной лаборатории или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Возможная лабораторная ошибка, загрязнение образца или другие причины, вызывающие однократное высокое считывание | Возможная ошибка лабораторного тестирования, ошибка записи, загрязнение образца или другие причины для одного высокого показания. | Если внезапно высокое значение, убедитесь, что охлаждающая жидкость, используемая в этом двигателе, содержит калий. Проверьте, есть ли повышенное считывание в кремнии или натрии, если они содержатся в охлаждающей жидкости. Проверьте повышенный уровень свинца или меди. Если эти комбинации также имеют внезапное высокое значение или если тесты на масло положительные для гликоля, продолжайте с деревом. Если калий повышен, следуйте за калием, превышающим предел осторожности дерева флага. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Масло, загрязненное охлаждающей жидкостью | Калий обычно используется в качестве ингибитора системы охлаждения. | Проверьте и отремонтируйте любые утечки прокладки головы и сливного отверстия водяного насоса. Если никаких внешних утечек или проблем не возникает, следуйте за потерей охлаждающей жидкости - деревом устранения внутренних неполадок. Проверьте осевой и радиальный зазор турбокомпрессора. |
+
+| Уровень содержания кремниевых деталей на миллион (PPM) превышает предел осторожности или критического значения кремниевого флага на основе результатов нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Расширенный интервал отбора проб нефти | Если время работы масла в пробе больше, чем время работы масла в пробах прошлого образца, износ металлов может быть повышен. | Проверьте, не превышает ли время работы масла на момент пробы более чем на 25 процентов по сравнению с предыдущими часами пробы. Если да, то повторите выборку через регулярный интервал. |
+| Дистанционное циркуляция нефтяных резервуаров, макияжное масло или системы CentinelTM не работают должным образом | Нефть не пополняется или мощность нефти снижается, что приводит к повышенному уровню износа металлов. | Ремонт удаленной циркуляции масла, макияжа или системы CentinelTM. Резервный образец через регулярный интервал. |
+| Двигатель был отремонтирован, где были заменены силиконовые прокладки или силиконовый герметик был применен в течение последних 1000 часов. | Ремонт двигателя, приводящий к замене силиконовой прокладки или силиконового герметика, который реагирует с маслом. | Резервный образец через регулярный интервал. Кремний должен вернуться к нормальному уровню в течение 1000 часов работы. |
+| Двигатель новый или недавно перестроенный с менее чем 1000 часов работы | Ремонт двигателя, приводящий к замене силиконовой прокладки или силиконового герметика, который реагирует с маслом. | Резервный образец через регулярный интервал. Кремний должен вернуться к нормальному уровню в течение 1000 часов работы. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Вторжение грязи | Грязь состоит из кремнезема и глинозема. Кремний и алюминий в 2:1 до 10:1 Кремний:алюминий соотношение указывает на грязь. | Проверьте, находится ли алюминий на высоком уровне. Если это так, проверьте, отсутствует ли измерительная трубка уровня масла и / или крышка для заполнения масла, рыхлая или имеет отсутствующее уплотнение. Проверить систему впуска для отверстий и источников утечек. Проверьте наличие разрушенных воздушных фильтров и надлежащее уплотнение вокруг воздухоочистителей. Ремонт по мере необходимости. Проверьте увеличение потребления масла и высокий уровень продувки. Справочно: Потребление моторного масла Чрезмерное или Картерные газы (Blowby) Чрезмерное дерево устранения неполадок. Проверьте, находятся ли железо, медь и / или свинец на повышенном уровне. Если да, то обратитесь к соответствующему дереву устранения неполадок. |
+| Загрязнение охлаждающим веществом | Кремний обычно используется в качестве ингибитора системы охлаждения. | Убедитесь, что охлаждающая жидкость, используемая в этом двигателе, содержит кремний. Проверьте, находятся ли натрий и / или калий на повышенных уровнях. Если да, обратитесь к деревьям, устраняющим неполадки с натрием и / или калием. |
+
+| Уровень натриевых частей на миллион (PPM) превышает предел натриевой осторожности, основанный на результатах нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| В последнее время состав масла изменили | Натрий иногда содержится в масляной присадке. | Сравните части на миллион (ppm) натрия с неиспользованным образцом масла. |
+| Вода для стирки попала в двигатель загрязняющего масла | Соли (натрий) содержатся в моющих средствах. | Определите, мог ли двигатель быть загрязнен водой с промывкой под высоким давлением. Если это так, то меняйте масло и повторите образец с нормальным интервалом. |
+| Масло, загрязненное охлаждающей жидкостью | Натрий обычно используется в качестве ингибитора системы охлаждения. | Убедитесь, что охлаждающая жидкость, используемая в этом двигателе, содержит натрий. Проверьте, находятся ли кремний и/или калий также на повышенных уровнях, если они также содержатся в охлаждающей жидкости. Если это так, проверьте потребление охлаждающей жидкости, проверьте и отремонтируйте любые утечки и повторный образец прокладки головы и водяного насоса сливного отверстия с половиной нормального интервала. |
+
+| Уровень натриевых частей на миллион (PPM) превышает критический предел натриевого флага, основанный на результатах нефтяных лабораторий или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Возможная лабораторная ошибка, загрязнение образца или другие причины, вызывающие однократное высокое считывание | Возможная лабораторная ошибка, загрязнение образца или другие причины, вызывающие однократное высокое считывание. | Если внезапно высокое значение, убедитесь, что охлаждающая жидкость, используемая в этом двигателе, содержит натрий. Проверьте, есть ли повышенное считывание в кремнии или калии, если они содержатся в охлаждающей жидкости. Проверьте повышенный уровень свинца или меди. Если эти комбинации также имеют внезапное высокое значение или если тесты на масло положительные для гликоля, продолжайте с деревом. Если **только *** натрий повышен, следуйте за натрием, превышающим предел предосторожности. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Масло, загрязненное охлаждающей жидкостью | Натрий обычно используется в качестве ингибитора системы охлаждения. | Проверьте и отремонтируйте любые утечки прокладки головы и сливного отверстия водяного насоса. Если никаких внешних утечек или проблем не возникает, следуйте за потерей охлаждающей жидкости - деревом устранения внутренних неполадок. Проверьте осевой и радиальный зазор турбокомпрессора. |
+
+| Вязкость выше предела на основе результатов нефтяной лаборатории или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Расширенный интервал отбора проб нефти | Если время работы масла в пробе больше, чем время работы масла в пробах прошлого образца, вязкость может быть повышена. | Проверьте, не превышает ли время работы масла на момент пробы более чем на 25 процентов по сравнению с предыдущими часами пробы. Если да, то повторите выборку через регулярный интервал. |
+| Дистанционное циркуляция нефтяных резервуаров, макияжное масло или системы CentinelTM не работают должным образом | Нефть не пополняется или мощность нефти снижается, вызывая повышенную вязкость. | Ремонт удаленной циркуляции масла, макияжа или системы CentinelTM. Резервный образец через регулярный интервал. |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Степень вязкости и/или состав масла недавно были изменены | Изменение вязкости масла из-за разницы в спецификации масла. | Подтвержденная вязкость находится в пределах указанных границ состава масла. Резервный образец через регулярный интервал. |
+| Охлаждающая эмульсия с маслом | Масло, загрязненное охлаждающей жидкостью. | Проверьте, находятся ли натрий и / или калий на повышенных уровнях. Если да, обратитесь к деревьям, устраняющим неполадки с натрием и / или калием. |
+| Водная эмульсия с маслом | Конденсация побочных продуктов горения происходит при длительной легкой нагрузке и холодных погодных условиях. | Смените масло. Повышение температуры масла за счет запуска двигателя при более высоких нагрузках или с использованием других средств и снижение работы при легких нагрузках. |
+| Масло, загрязненное побочными продуктами сгорания или пылью | Загрязнение масла, вызывающее более высокую вязкость. | Проверьте продувку. Если высокий, следуйте за газом Crankcase (Blowby) чрезмерное устранение неполадок дерево. |
+| Чрезмерная температура масла | Высокая температура масла из-за локализованного отказа компонентов вызывает окисление масла и увеличивает вязкость. Также можно увидеть повышение износа металлов. | Проверить на увеличение окисления масла. Проверьте высокую температуру масла. Если высокий, следуйте за высокой температурой масла, устраняя неисправности дерева. Проверьте повышенный уровень железа, меди, свинца и / или алюминия. Если высокий, следуйте за деревьями для соответствующих металлов. |
+
+| Вязкость ниже предела на основе результатов нефтяной лаборатории или Cummins Inc. пределы |  |  |
+|---|---|---|
+| Причина | Пояснение | Устранение |
+| Недавно был отремонтирован двигатель, что привело к загрязнению масла. | Предыдущий ремонт вызвал загрязнение нефтью, и нефтяная система была **не** очищена. | Меняйте масло в отстойнике двигателя и удаленном нефтяном баке. Проверьте внешнюю масляную схему (т.е. Удаленный фильтр головки/удаленный масляный бак) для загрязнения. Резервный образец через регулярный интервал. |
+| Степень вязкости и/или состав масла недавно были изменены | Изменение вязкости масла из-за разницы в спецификации масла. | Резервный образец через регулярный интервал. |
+| Масло, загрязненное топливом | Загрязнение топлива снижает вязкость масла. | Убедитесь, что разбавление топлива также отмечено на образце масла. Если это так, следуйте за топливом в дерево устранения неполадок моторного масла. |
+
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Oil Analysis Techniques for High Horsepower Diesel Engines
+>
+> **Product Affected**
+>
+> This document applies to all versions of the following engines:
+>
+> - K19
+> - K38
+> - K50
+> - QSK19
+> - QSK23
+> - QSK38
+> - QSK45
+> - QSK50
+> - QSK60
+> - QSK78
+> - QSK95
+> - QST30
+> - V28
+>
+> This service bulletin outlines the proper use of oil analysis techniques to collect an oil sample, to set oil analysis flag limits, and to identify and take appropriate corrective action based on oil analysis results.
+>
+> Used oil analysis can be employed to monitor engine oil contaminant levels, which can provide evidence of system weaknesses or malfunctions, such as faulty air filtration, coolant leaks, fuel dilution, and wear metals that can suggest engine damage or unusual wear. Oil analysis can be used to proactively identify and address these issues.
+>
+> Standard oil analysis has limitations, which include the inability to detect large particles and the inability to identify rapidly developing failures. Because of the method used to detect wear metals for standard oil analysis, particles greater than 5 microns (µm) in size can **not** be detected. However, if large particles are suspected, oil analysis labs can perform a ferrographic analysis to quantify individual particles in the sample. Properties like magnetism, heat treatment, shape, and size can be identified to help determine the source of the particles and the associated wear mechanism.
+>
+> The second limitation to oil analysis is the inability to detect rapidly developing failures. In order to identify a potential problem, a failure would have had to be in progress at the time the last oil sample was taken. Some failure modes progress so quickly that they will **not** be identified in oil analysis.
+>
+> The guidelines outlined in this bulletin are **not** to be used to establish oil drain intervals. The use of these guidelines for the purpose of extending oil drain intervals may result in the continued use of oil that no longer provides the intended protection. Oil analysis trends can be charted over a period of time and can provide significant information concerning oil change intervals. For more information on this topic, refer to Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin 3810340, or the Operation and Maintenance manual for the specific engine model for other oil related information.
+>
+> Table 1 lists those wear metals, oil contaminants, and oil properties that provide the most reliable indicators to detect a potential problem. This list provides both a minimum set of items that should be checked during oil analysis and a list of recommended items to monitor for extended testing. Extended testing is recommended when a problem with the oil condition is suspected, either from the results of the minimum testing or some other indicator in engine operation.
+>
+> | Table 1: Elements to Monitor for High Horsepower Engine Oil Analysis |  |  |  |
+> |---|---|---|---|
+> | Oil Property | Abbreviation | Minimum Testing | Extended Testing |
+> | Aluminum (ASTM D5185) | Al | X | X |
+> | Copper (ASTM D5185) | Cu | X | X |
+> | Fuel dilution (ASTM D7593) | Fuel | X | X |
+> | Iron (ASTM D5185) | Fe | X | X |
+> | Lead (ASTM D5185) | Pb | X | X |
+> | Potassium (ASTM D5185) | K | X | X |
+> | Silicon (ASTM D5185) | Si | X | X |
+> | Sodium (ASTM D5185) | Na | X | X |
+> | Viscosity at 100°C \[212°F\] (ASTM D445) | Visc | X | X |
+> | Total base number (ASTM D4739) 1 | TBN |  | X |
+> | Total acid number (ASTM D664) | TAN |  | X |
+> | Soot (ASTM E1131 2) | Soot |  | X |
+> | Nitration (ASTM E2412) | Nit |  | X |
+> | Oxidation (ASTM E2412 3 or D7414 3) | Ox |  | X |
+>
+> 1 ASTM method D2896 is **not** be used. TBN number can be falsely exaggerated for used engine oil.
+>
+> 2 Labs may report a value from E2412 (FTIR) calibrated to E1131.
+>
+> 3 Fourier transform infrared spectroscopy (FTIR) data can use either ASTM method but should report whether trending or subtraction
+>
+> ISO 17025 is an international standard for testing and calibration laboratories that covers both the methodology and testing equipment of a lab. This standard uses an accreditation body to test if the lab consistently produces valid results. Choosing an oil analysis lab that meets the ISO 17025 certification for the particular oil analysis tests listed above is recommended.
+>
+> OIL SAMPLE COLLECTION
+>
+> Oil sample collection intervals **must** be set in such a manner that trend comparisons can be made. As oil circulates in an engine during normal operation, wear metals and contaminants accumulate at a steady rate. The amount of contaminants in the oil at the time of sampling generally depends on the length of time since the last oil change. In order to be able to detect changes in the wear pattern of an engine, the sample **must** be collected in consistent hour intervals. Background data is required if oil analysis is to be used correctly. Such data **must** include:
+>
+> Information to provide with each sample:
+>
+> - Engine model/serial number
+> - Miles/hours of oil use
+> - Miles/hours on engine since new or rebuild
+> - Oil used (brand name, performance category and viscosity grade)
+> - Date sample was collected
+> - Engine application
+> - Amount of new oil added since previous oil change.
+>
+> Information to investigate potential issues:
+>
+> - Any recent engine maintenance
+> - Analysis of new (unused) oil.
+>
+> It is important to conduct oil analysis on new (unused) oil to establish a baseline. New (unused) oil analysis samples should be taken each time the oil type or oil supplier is changed or, at a minimum, twice a year. Samples should be taken from the bulk supply tanks to determine the makeup of the oil and also to confirm that no contaminants are being introduced by the storage system.
+>
+> The sample to be used for analysis **must** be representative of the oil in the engine. Use the following guidelines when collecting oil samples:
+>
+> - Bring the engine to operating temperature prior to sampling. This will make sure representative contaminant levels are in the sampled increment.
+> - Successive samples **must** be taken in the same manner and from the same location.
+> - Take the oil sample before adding any new oil to the engine.
+> - **Always** collect oil in a clean, dry container.
+> - Collect a minimum of 118 ml \[4 oz\] of oil.
+>
+> Two methods can be used to collect oil samples:
+>
+> The recommended method for collecting an oil sample is to take the sample from a pressurized port while the engine is idling and warm. This method will make sure the oil sample is **not** stagnant and represents the actual homogeneous oil mixture that is flowing through the engine.
+>
+> 1. Clean the outside of the valve by wiping with a clean, dry rag.
+> 2. Idle the engine and bring to warm temperature.
+> 3. Purge the sample fitting by allowing a small amount of oil to flow through the valve.
+> 4. Collect the sample into a clean, dry bottle from the oil stream being pumped by the idling engine.
+>
+> **Note · Примечание**
+> A recommended location for sampling is a port that allows oil to be collected before the oil is filtered. Reference the Operation and Maintenance Manual for component locations.
+>
+> In cases where the engine is **not** operational, an alternative method may be used. This method uses a vacuum to draw oil out of the sump. The sample should be obtained as soon after stopping the engine as possible so the oil is still warm and stratification has **not** occurred.
+>
+> 1. Use the dipstick to determine the oil level in the pan.
+> 2. Hold a new, clean piece of tubing against the dipstick and mark, on the tube, the location where the dipstick seats.
+> 3. Cut the tubing so it reaches 25 to 50 mm (1 to 2 inches) below the oil level in the pan.
+> 4. Insert the tubing into the dipstick tube so that the mark previously made on the tubing is aligned with the top of the opening for the dipstick tube.
+> 5. Use a hand operated vacuum pump to pump the sample into a clean dry bottle.
+>
+> **Note · Примечание**
+> Do **not** allow the tube to draw oil from the bottom of the oil pan, because excess debris will be included that could bias the sampling results. Do **not** reuse the sampling tube.
+>
+> SETTING OIL ANALYSIS FLAG LIMITS
+>
+> Understanding the oil system is crucial to identifying when an oil sample is indicating a problem. Large oil system capacity, use of Centinel™ oil replenishment systems, and use of eliminator or centrifuge filtration systems will result in overall lower contamination levels, compared to an engine that has a standard sump capacity, no replenishment system, and standard oil filters.
+>
+> System capacity can be determined by knowing the volume of the oil required to touch the high-level mark on the dipstick and the volume of any remote oil tanks on the machine in which oil is continuously circulated. Oil sump capacities are listed in the operation and maintenance manuals for all Cummins® engines. If the machine is equipped with an oil reserve system with a reservoir remote from the engine oil sump, the reservoir volume **must** be added to the engine sump volume to determine the total system capacity. This is **only** true for remote tanks in which the oil is continuously circulated. The Centinel™ make-up tank volume does **not** add to system capacity, since the engine oil is **not** continuously circulated through this tank.
+>
+> The addition of new oil will also decrease the overall level of contaminants. In all cases, oil consumption should be documented by the amount of oil added prior to each service interval. Trending oil consumption is important, as any rising trend or step change in oil consumption can indicate possible power cylinder wear, system leaks, or other system malfunction.
+>
+> One way to compensate for the differences in oil systems between units is to look at the normal wear rates for each engine individually. This method establishes a baseline specific to that particular engine. Provided the oil usage remains fairly constant and other systems are functioning consistently, the trends in wear metals should remain consistent.
+>
+> For example, setting up statistical flag limits based on a large group will normalize the data. If an engine historically had very low rates of wear, but suddenly jumps to a higher wear rate that is consistent with the average wear rate for the group of engines being analyzed, no flag would be triggered. In comparison, looking at historical readings on a particular unit may cause action to be taken at a lower contaminant level.
+>
+> Cummins Inc. recommends working with an oil analysis lab to establish warning and critical flag limits using ASTM method D7720-11. If samples are taken periodically throughout the oil drain interval, the oil parameter value can be converted into a rate of increase over new oil. For example, parts per million (ppm) per hour.
+>
+> As a guideline, engines should be grouped in the following ways for statistical limit comparison:
+>
+> - Engine Model
+> - Application
+> - Similar Duty Cycles
+> - With Centinel™ and without Centinel™
+> - With Eliminator™ or Centrifuge type filtration and with standard filter configurations
+> - Common oil system capacities
+>
+> If all engines are grouped together regardless of oil systems, the engines with Centinel™, Eliminator™/Centrifuge type filtration, and higher oil system capacities will experience a higher degree of engine wear before the flag limit is reached.
+>
+> Table 2 lists condemnation limits for oil. If these limits are reached, the oil **must** be changed.
+>
+> | Table 2: Condemnation Limits for High Horsepower Engine Oil Analysis |  |  |  |
+> |---|---|---|---|
+> | Oil Property | Abbreviation | Units | Condemnation Limit |
+> | Fuel dilution | Fuel | percent (%) | 5% |
+> | Viscosity change at 100°C \[212°F\] | Visc | centistokes (cSt) | For xW-40 - MIN: 12.5, MAX: 16.3 |
+> | For xW-30 - MIN: 9.3, MAX: 12.5 |  |  |  |
+> | Total base number | TBN | milligrams potassium hydroxide per gram of sample (mg KOH/g) | 2.5 number minimum or equal to total acid number (TAN) |
+> | Total acid number | TAN | milligrams potassium hydroxide per gram of sample (mg KOH/g) | 2.5 increase over new oil or equal to total base number (TBN) |
+> | Soot | Soot | percent (%) | 5% 2 |
+> | Nitration | Nit | absorbance units per centimeter (abs/cm) | 25 |
+> | Oxidation | Ox | absorbance units per centimeter (abs/cm) | 15 1 |
+>
+> 1 Increase over new (unused) oil sample.
+>
+> 2 Oils meeting API CH-4 (CES 20071) represent a minimum quality standard for Cummins® high horsepower engines. Oils meeting older API requirements (C F-4, CG-4) are **not** formulated to tolerate greater than 1.5 percent soot.
+>
+> Table 3 is to be used **only** as a reference if flag limits are **not** able to be established through statistical analysis.
+>
+> | Table 3: Flag Guidelines for High Horsepower Engine Oil Analysis |  |  |  |  |
+> |---|---|---|---|---|
+> | Oil Property | Abbreviation | Units | Caution Flag Limit | Critical Flag Limit |
+> | Aluminum | Al | parts per million (ppm) | 15 | 30 |
+> | Copper | Cu | parts per million (ppm) | 60 | 180 |
+> | Iron | Fe | parts per million (ppm) | 50 | 130 |
+> | Lead | Pb | parts per million (ppm) | 20 | 50 |
+> | Potassium | K | parts per million (ppm) | 20 1 | 110 1 |
+> | Silicon | Si | parts per million (ppm) | 15 1 | 110 1 |
+> | Sodium | Na | parts per million (ppm) | 20 1 | 110 1 |
+>
+> 1 Increase over new (unused) oil sample.
+>
+> INVESTIGATION BASED ON FLAG LIMITS
+>
+> The troubleshooting trees listed below are intended to serve as a guide for investigating instances of high wear metals or oil contaminants. Some of the trees are set up to direct investigation based on the severity level of the flag.
+>
+> The caution severity level indicates that an abnormal wear condition exists, and the investigation may require minor maintenance to be performed.
+>
+> The critical severity level indicates that major wear or contamination exists that requires immediate attention, and the investigation may require partial engine disassembly.
+>
+> These troubleshooting trees are organized so that a problem can be located and corrected by doing the easiest and most logical things first. Complete all steps in the sequence shown from top to bottom.
+>
+> Some of the steps in the troubleshooting trees require information on oil drain intervals, recent repairs, coolant makeup or oil makeup. This information is used to verify that the engine is experiencing a true incident of high wear or contamination and **not** an abnormal oil condition due to some other factor.
+>
+> Many of the troubleshooting trees use combinations of wear metals or contamination indicators to increase confidence in determining where the problem is originating. See the list below to become familiar with sources of wear metals or contaminants.
+>
+> | Sources of Wear Metals or Contaminants |  |
+> |---|---|
+> | (Al) Aluminum | Pistons (some applications), crankshaft and camshaft thrust bearings, camshaft bushings, dirt. |
+> | (Cu) Copper | Connecting rod and main bearings, turbocharger bearings, connecting rod bushings, camshaft bushings, idler gear and accessory drive bushings and thrust washers, cam follower pins, rocker lever bushings, lube pump bushings and thrust washers, oil coolers. |
+> | Fuel | Unburned fuel in lubricating oil, injectors or fuel pump can be source of contamination. Engine operation, such as frequent starts, excessive idling, and cold weather operation can also lead to fuel dilution. |
+> | (Fe) Iron | Cylinder liner, pistons (some applications), gears, crankshaft, camshaft and camshaft follower rollers and shafts. |
+> | (Pb) Lead | Rod and main bearings, turbocharger bearings, camshaft bushings, idler gear and accessory drive bushings and thrust washers, lube pump bushings and thrust washers. |
+> | (K) Potassium | Element contained in some coolant additive packages, which indicates coolant contamination of oil. |
+> | (Si) Silicon | Sand, dirt, silicon sealants and gasket materials, oil additives, cooling system inhibitor. |
+> | (Na) Sodium | Element contained in some coolant additive packages which indicates coolant contamination of oil, salt from detergent or road, oil additive. |
+> | Viscosity | The property of a fluid measured at a certain temperature that resists the force to cause the fluid to flow. |
+> | (TAN) Total Acid Number | A measure of oil's acidity. New oil has a certain level, or starting TAN, due to the type and amount of additives. |
+> | (TBN) Total Base Number | A measure of the oil's ability to neutralize acid. New oil has a certain level in the oil formula that is depleted over time due to contact with acid generated by blowby gases. |
+> | Soot | Combustion by-products in oil. |
+> | Oxidation | A generic measure of the breakdown of a lubricant due to age and exposure to high temperature. High oxidation numbers indicate oil is beyond its useful life. |
+> | Nitration | A generic indicator of excessive "blowby" and also indicates the presence of nitric acid formed by nitric oxide, which is a combustion by-product when the engine operates too lean. Nitric acid can attack metal surfaces in the engine and result in corrosive wear. Nitric acid can accelerate oil oxidation. |
+>
+> Oil Analysis Flags for Common Failure Modes:
+>
+> Additional information can be obtained when looking at combinations of wear metals and/or contaminants. Listed below are some engine problems that may result in oil analysis flags and an explanation of what combination of elevated wear metals and/or contaminants to look for if suspected.
+>
+> | Engine Problems That Result in Oil Analysis Flags |  |
+> |---|---|
+> | Fuel Dilution | The best indicators of fuel dilution are an increased percentage of fuel in the oil and a decrease in viscosity. In cases of high fuel dilution, the oil may smell like fuel and the engine oil level may increase. |
+> | Coolant Contamination | The best method to detect coolant contamination of oil is to look for traces of elements, such as sodium and potassium, which are contained in the coolant additive package. These elements can be detected at very low levels, so they can serve as an early warning. Sodium is occasionally found in lubricant additive packages; therefore, it is important to compare the level of sodium with that measured in the baseline (unused) oil sample and to be aware of the coolant additive package formulation. A water content test is **not** a reliable indicator of a coolant leak because oil temperatures are generally higher than the boiling point of water, which allows the water to boil out during normal engine operation, leaving **only** the elements that make up the coolant additive package behind. Glycol tests can also be inaccurate. Small amounts of glycol may **not** be measurable, and high oil temperatures can break down glycol to a state where it will **not** be detected. In addition to identifying the source of coolant contamination, it is important to determine if progressive damage has occurred. Coolant contamination of the lubricating oil can damage bearings and bushings. |
+> | Dust Out | Dirt is composed primarily of silica and alumina, so elevated levels of silicon and aluminum in a 2:1 to 10:1 Silicon:Aluminum ratio indicate dirt intrusion. In addition to identifying the source of dirt entry, it is important to determine if progressive damage has occurred. A dust out can cause piston ring/cylinder liner wear, which can lead to lubricating oil contamination or a breakdown of the lubricating oil properties and bearing/bushing failures. |
+> | Piston Ring/Cylinder Liner Wear | Increased levels of iron indicate cylinder liner wear. Additionally, wear of the rings and/or liner may allow blowby gases to pass by the rings and contaminate the oil. Elevated levels of soot, oxidation, and nitration along with an increase in viscosity may be observed. Contamination of the oil will also increase total acid number and decrease total base number. In addition to identifying the source of coolant contamination, it is important to determine if progressive damage has occurred. Contaminated lubricating oil can damage bearings and bushings. |
+> | Bearing/Bushing Failure | Bearings are made up primarily of lead and copper. An increased level of both of these metals at the same time indicates failure of a bearing and/or bushing. An increase of lead with no increase in copper typically corresponds to a degradation of oil condition that results in attack of the top layer of the bearing. Some other indications may include increases in oxidation, nitration, TAN and/or a decrease in TBN. |
+>
+> **Note · Примечание**
 > In order to be alerted to a problem, a failure would have had to be in progress at the time the last oil sample was taken. Some failure modes progress so quickly that they will **not** be identified in oil analysis.
-
-> [!note] Note · Примечание
+>
+> **Note · Примечание**
 > When oil is changed on an engine with a remote oil tank in which oil is continuously circulated (not a Centinel™ make up tank), the oil in the remote tank **must** be changed, in addition to the oil in the engine sump. If the oil in the remote tank is **not** changed, it will act as a source of contamination for the next oil sample.
-
-The troubleshooting trees listed below are intended to direct the user to troubleshooting and repair procedures that can be found in the appropriate set of manuals on Quickserve™ Online for the engine being investigated.
-
-> [!note] Note · Примечание
+>
+> The troubleshooting trees listed below are intended to direct the user to troubleshooting and repair procedures that can be found in the appropriate set of manuals on Quickserve™ Online for the engine being investigated.
+>
+> **Note · Примечание**
 > If the troubleshooting trees listed below recommend further analysis from an oil lab, Cummins Inc. will **not** pay for this additional analysis. Cummins Inc. does **not** pay for oil analysis work and will **not** reimburse for the testing required for an oil analysis program.
-
-| Aluminum parts per million (PPM) level exceeds caution or critical aluminum flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
-| Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
-| Engine has aluminum pistons and has had at least one power cylinder (piston) replaced within the last 1000 hours | Repair to power cylinder resulting in break-in wear. | Resample at regular interval. Aluminum should return to normal level within 1,000 hours of operation. |
-| Engine has aluminum pistons and is new or recently rebuilt with less than 1000 hours or operation | Power cylinder break-in results in elevated wear metal levels. | Resample at regular interval. Aluminum should return to normal level within 1,000 hours of operation. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Aluminum piston skirt scuffing | Aluminum piston skirt scuffing. | Check ECM image for blowby faults and increased oil consumption or excessive engine noise. Follow the respective troubleshooting trees. |
-| Dirt intrusion | Dirt is made up of Silica and Alumina. Silicon and Aluminum in 2:1 to 10:1 Silicon:Aluminum ratio indicates dirt. | Check whether silicon is also at elevated level. If so, check if dipstick tube and/or oil fill cap is missing, loose, or has a missing seal. Inspect the intake system for holes and sources of leaks. Check for collapsed air filters and proper sealing around air cleaners. Repair as necessary. Check for increased oil consumption and high blowby. Reference the Lubricating Oil Consumption Excessive or Crankcase Gases (Blowby) Excessive Troubleshooting Tree. Check whether iron, copper and/or lead are also at an elevated level. If so, reference the respective troubleshooting tree. |
-| Increased wear rate of thrust bearings | Increased wear rate of thrust bearings. | Check if crankshaft end clearance is within specification. If **not**, inspect or repair thrust bearings. |
-
-| Copper parts per million (PPM) level exceeds copper caution flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
-| Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
-| Engine has had at least one oil cooler replaced within the last 1000 hours | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours. |
-| Engine is new or recently rebuilt with less than 1000 hours of operation | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours. |
-| Oil formulation has recently been changed | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Check if lead is also at an elevated level. If so, cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. If no debris, change oil, reassess oil drain interval, resample at regular interval. |
-| Corrosive attack of engine bearing material due to coolant contamination | Oil acidity is attacking bearing material due to coolant contamination. | Check if lead is also at an elevated level. If so, cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. Check whether sodium and/or potassium are also at elevated levels. If so, reference sodium and/or potassium troubleshooting trees. |
-| Wear of bearing material due to reduced oil film thickness | High temperature, low oil pressure, or low viscosity compromise oil film thickness. | Check whether lead is also at an elevated level. If so, check for oil temperature or pressure faults and cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. |
-
-| Copper parts per million (PPM) level exceeds critical copper flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab testing error, recording error, sample contamination, or other reasons for a single high reading. | If a sudden high reading, perform the steps in the copper exceeds caution flag limit tree. If lead also has a sudden high reading, cut oil filters open or open centrifuge and check for debris. If no debris, resample at half interval (including TBN measurement) and request ferrography analysis on oil sample that produced elevated copper level. |
-| Engine has had at least one oil cooler replaced within the last 1000 hours | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours of operation. |
-| Engine is new or recently rebuilt with less than 1000 hours of operation | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours of operation |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | If Total Base Number (TBN) level is low, evaluate oil drain interval and oil type. If lead is also at an elevated level, cut filters open or open centrifuge and check for debris. If no debris found, request ferrography analysis on oil sample that produced elevated copper level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
-| Corrosive attack of bearing material due to coolant contamination | Oil acidity is attacking bearing material due to coolant contamination. | Check whether sodium and/or potassium are also at critical levels. If so, reference Coolant Loss - Internal troubleshooting tree. Check whether lead is also at elevated level, if so, cut filters open or open centrifuge and check for debris. If no debris found, request ferrography analysis on oil sample that produced elevated copper level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
-| Wear of bearing material due to reduced oil film thickness | High temperature, low oil pressure, or low viscosity compromise oil film thickness. | Check for oil temperature or pressure faults. Check whether viscosity is low. If so, reference low viscosity troubleshooting tree. Check whether lead is also at elevated level, if so, cut filters open or open centrifuge and check for debris. If no debris found, request ferrography analysis on oil sample that produced elevated copper level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
-| Wear of bushings **not** containing lead | Connecting rod bushing, gear bushing, cam follower bushings. | Check for oil temperature or pressure faults. Check whether viscosity is low. If so, reference low viscosity troubleshooting tree. Cut filters open or open centrifuge and check for debris. If no debris found in filters/centrifuge, request ferrography analysis on oil sample that produced elevated copper level. If debris in filter/centrifuge or ferrographic analysis indicates bushing debris, inspect bushings. |
-
-| Fuel dilution exceeds flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Frequent Starts | Fuel does not burn completely at low combustion chamber temperatures and can seep past the piston rings and into the crankcase. | Change oil in engine sump and remote oil tank. |
-| Excessive Idling | Fuel does not burn completely at low combustion chamber temperatures and can seep past the piston rings and into the crankcase. | Change oil in engine sump and remote oil tank. If possible, shut off the engine rather than idling or raise the idle speed. |
-| Cold Weather Operation | Fuel does not burn completely at low combustion chamber temperatures and can seep past the piston rings and into the crankcase. | Change oil in engine sump and remote oil tank. |
-| Frequent starts, excessiveidling, or cold weatheroperation | Fuel does not burn completely at low combustion chamber temperatures and can seep past the piston rings and into the crankcase. | Change oil in engine sump and remote oil tank. If possible, shut off the engine rather than idling or raise the idle speed. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Engine has had at least one injector removed within the last 1000 hours | Injector o-rings cut or blown, injector hold down mis-torqued, injector seal mis-installed. | Dye fuel and inspect area around injector with black light. Repair as necessary. |
-| Oil contaminated by fuel due to fuel pump failure or injector malfunction | Excessive fuel getting in lube oil reduced viscosity of lube oil. Oil will have fuel smell **only** at high fuel dilution levels. | Confirm that viscosity has also dropped below limit. If so, follow Fuel in the Lubricating Oil Troubleshooting Tree. |
-
-| Iron parts per million (PPM) level exceeds iron caution flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
-| Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
-| Engine has had at least one power cylinder (rings and/or liner) replaced within the last 1000 hours | Repair to power cylinder resulting in break-in wear. | Resample at regular interval. Iron should return to normal level within 1,000 hours of operation. |
-| Engine is new or recently rebuilt with less than 1000 hours of operation | Power cylinder break-in wear. | Resample at regular interval. Iron should return to normal level within 1,000 hours of operation. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Wear of interface between steel and bushing/bearing material | High iron and copper and/or lead indicates bearing damage. | Check whether lead and copper are also at elevated levels. If so, reference copper and/or lead troubleshooting trees. |
-| Increased wear rate of rings and/or liners due to fuel washing lubrication from liners | Injector failed, causing cylinder wash down with fuel, which caused liner wear, resulting in higher iron. | Check for evidence of low viscosity or fuel dilution. If so, reference fuel dilution or low viscosity troubleshooting tree. |
-| Increased wear rate of rings and/or liners due to dusting or worn rings | High cylinder wear due to dusting, broken ring, or worn rings. | Check for increased oil consumption. Reference Lubricating Oil Consumption Excessive Troubleshooting Tree. |
-| Increased wear rate of rings and/or liners due to overfueling | High cylinder temperatures caused by excessive fuel or restricted air flow can accelerate cylinder wear. | Check for smoke or low power. If engine smokes or does **not** pull power, follow Engine Performance Troubleshooting Trees. |
-| Iron to iron wear surfaces in engine | Camshaft, roller, or gear failure generating debris. | Request ferrography analysis on oil sample that produced elevated iron level. Cut oil filters open or open centrifuge and check for debris. If debris in filter/centrifuge or ferrographic analysis indicates gear, camshaft or roller debris, inspect accordingly. If no debris, change oil, and resample at regular interval. |
-
-| Iron parts per million (PPM) level exceeds critical iron flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab testing error, recording error, sample contamination, or other reasons for a single high reading. | If a sudden high reading, perform the steps in the iron exceeds caution flag limit tree. If other metals also have a sudden high reading, continue with this troubleshooting tree. |
-| Engine has had at least one power cylinder (rings and/or liner) replaced within the last 1000 hours | Repair to power cylinder resulting in break-in wear. | Resample at regular interval. Iron should return to normal level within 1,000 hours of operation. |
-| Engine is new or recently rebuilt with less than 1000 hours of operation | Power cylinder break-in wear. | Resample at regular interval. Iron should return to normal level within 1,000 hours of operation. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Wear of interface between steel and bushing/bearing material | High iron and copper and/or lead indicates bearing damage. | Check whether lead and copper are also at elevated levels. If so, reference copper and/or lead troubleshooting trees. |
-| Increased wear rate of rings and/or liners due to fuel washing lubrication from liners | Injector failure causing cylinder wash down with fuel can cause liner wear resulting in higher iron. | Check for evidence of lower viscosity or fuel dilution. If so, see fuel dilution and/or low viscosity troubleshooting tree. |
-| Increased wear rate of rings and/or liners due to overfueling | High cylinder temperatures caused by excessive fuel or restricted air flow can accelerate cylinder wear. | Check for smoke or low power. If engine smokes or does **not** pull power, follow Engine Performance Troubleshooting Trees. |
-| Increased wear rate of rings and/or liners due to broken or worn rings | High cylinder wear due to broken ring, worn rings causing higher iron. | Check for increased oil consumption. If so, see Lubricating Oil Consumption Excessive troubleshooting tree. |
-| Increased wear rate of rings and/or liners due to dust intrusion | High cylinder wear due to dusting, broken ring, or worn rings. | Verify if silicon is also at an elevated level. If so, check if dipstick tube and/or oil fill cap is missing, loose, or has a missing seal. Inspect the intake system for holes and sources of leaks. Check for collapsed air filters and proper sealing around air cleaners. Repair the intake system if necessary. Check blowby. If high, follow the Crankcase Gases (Blowby) Excessive troubleshooting tree. |
-| Iron to iron wear surfaces in engine | Camshaft, roller, or gear failure generating debris. | Request ferrography analysis on oil sample that produced elevated iron level. Cut oil filters open or open centrifuge and check for debris. If debris in filter/centrifuge or ferrographic analysis indicates gear, camshaft or roller debris, inspect accordingly. If no debris, change oil, and resample at regular interval. |
-
-| Lead parts per million (PPM) level exceeds lead caution flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
-| Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. If no debris, change oil, reassess oil drain interval, resample at regular interval. |
-| Corrosive attack of bearing material due to coolant contamination | Oil acidity is attacking bearing material due to coolant contamination. | Check if copper is also at an elevated level. If so, cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. Check whether sodium and/or potassium are also at elevated levels. If so, reference sodium and/or potassium troubleshooting trees. |
-| Wear of bearing material due to reduced oil film thickness | High temperature, low oil pressure, or low viscosity compromise oil film thickness. | Check whether copper is also at an elevated level. If so, check for oil temperature or pressure faults and cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. |
-
-| Lead parts per million (PPM) level exceeds critical lead flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab testing error, recording error, sample contamination, or other reasons for a single high reading. | If a sudden high reading, perform the steps in the lead exceeds caution flag limit tree. If copper also has a sudden high reading, cut oil filters open or open centrifuge and check for debris. If no debris, resample at half interval (including TBN measurement) and request ferrography analysis on oil sample that produced elevated lead level. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | If Total Base Number (TBN) level is low, evaluate oil drain interval and oil type. Cut filters open or open centrifuge and inspect for debris. If no debris found, request ferrography analysis on oil sample that produced elevated lead level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
-| Corrosive attack of bearing material due to coolant contamination | Oil acidity is attacking bearing material due to coolant contamination. | Check whether sodium and/or potassium are also at critical levels. If so, reference Coolant Loss - Internal troubleshooting tree. Check whether copper is also at elevated level, if so, cut filters open or open centrifuge and check for debris. If no debris found, request ferrography analysis on oil sample that produced elevated lead level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
-| Wear of bearing material due to reduced oil film thickness | High temperature, low oil pressure, or low viscosity compromise oil film thickness. | Check for oil temperature or pressure faults. Check whether viscosity is low. If so, reference low viscosity troubleshooting tree. Check whether copper is also at elevated level, if so, cut filters open or open centrifuge. If no debris found, request ferrography analysis on oil sample that produced elevated lead level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
-
-| Potassium parts per million (PPM) level exceeds caution potassium flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil contaminated by coolant | Potassium is commonly used as a cooling system inhibitor. | Verify that coolant used in this engine contains potassium. Check whether sodium and/or silicon are also at elevated levels if there are also contained in coolant. If so, monitor coolant consumption, check for and repair any head gasket and water pump weep hole leaks and resample at half of normal interval. |
-
-| Potassium parts per million (PPM) level exceeds critical potassium flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab testing error, recording error, sample contamination, or other reasons for a single high reading. | If a sudden high reading, verify that coolant used in this engine contains potassium. Check if there is an elevated reading in silicon or sodium, if these are contained in coolant. Check for elevated levels of lead or copper. If these combinations also have a sudden high reading, or if oil tests positive for glycol, continue with tree. If **only** potassium is elevated, follow the potassium exceeds caution flag limit tree. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil contaminated by coolant | Potassium is commonly used as a cooling system inhibitor. | Check for and repair any head gasket and water pump weep hole leaks. If no external leaks or problem persists, follow Coolant Loss - Internal Troubleshooting Tree. Check turbocharger axial and radial clearance. |
-
-| Silicon parts per million (PPM) level exceeds the caution or critical silicon flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
-| Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
-| Engine has had a repair where silicone gaskets have been replaced or silicone sealant has been applied within the last 1000 hours | Repair to engine resulting in replacement of silicone gasket or silicone sealant that is reacting with oil. | Resample at regular interval. Silicon should return to normal level within 1,000 hours of operation. |
-| Engine is new or recently rebuilt with less than 1000 hours of operation | Repair to engine resulting in replacement of silicone gasket or silicone sealant that is reacting with oil. | Resample at regular interval. Silicon should return to normal level within 1,000 hours of operation. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Dirt intrusion | Dirt is made up of Silica and Alumina. Silicon and Aluminum in 2:1 to 10:1 Silicon:Aluminum ratio indicates dirt. | Check whether aluminum is also at elevated level. If so, check if dipstick tube and/or oil fill cap is missing, loose, or has a missing seal. Inspect the intake system for holes and sources of leaks. Check for collapsed air filters and proper sealing around air cleaners. Repair as necessary. Check for increased oil consumption and high blowby. Reference Lubricating Oil Consumption Excessive or Crankcase Gases (Blowby) Excessive Troubleshooting Tree. Check whether iron, copper and/or lead are also at an elevated level. If so, reference the respective troubleshooting tree. |
-| Coolant contamination | Silicon is commonly used as a cooling system inhibitor. | Verify that coolant used in this engine contains silicon. Check whether sodium and/or potassium are also at elevated levels. If so, reference sodium and/or potassium troubleshooting trees. |
-
-| Sodium Parts per million (PPM) level exceeds sodium caution flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil formulation has recently been changed | Sodium is sometimes contained in the oil additive package. | Compare parts per million (ppm) of sodium with unused oil sample. |
-| Wash water entered engine contaminating oil | Salts (sodium) are contained in detergents. | Determine if engine could have recently been contaminated with high pressure wash water. If so, change oil and resample at normal interval. |
-| Oil contaminated by coolant | Sodium is commonly used as a cooling system inhibitor. | Verify that coolant used in this engine contains sodium. Check whether silicon and/or potassium are also at elevated levels, if these are also contained in coolant. If so, monitor coolant consumption, check for and repair any head gasket and water pump weep hole leaks and resample at half of normal interval. |
-
-| Sodium Parts per million (PPM) level exceeds critical sodium flag limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab error, sample contamination, or other reasons causing a single high reading. | If a sudden high reading, verify that coolant used in this engine contains sodium. Check if there is an elevated reading in silicon or potassium, if these are contained in coolant. Check for elevated levels of lead or copper. If these combinations also have a sudden high reading, or if oil tests positive for glycol, continue with tree. If **only** sodium is elevated, follow the sodium exceeds caution flag limit tree. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil contaminated by coolant | Sodium is commonly used as a cooling system inhibitor. | Check for and repair any head gasket and water pump weep hole leaks. If no external leaks or problem persists, follow Coolant Loss - Internal Troubleshooting Tree. Check turbocharger axial and radial clearance. |
-
-| Viscosity is higher than limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, viscosity may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
-| Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing increased viscosity. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil formulation and/or viscosity grade has recently been changed | Change in oil viscosity due to difference in oil specification. | Confirm viscosity is within specification of oil formulation. Resample at regular interval. |
-| Coolant emulsion with oil | Oil contaminated by coolant. | Check whether sodium and/or potassium are also at elevated levels. If so, reference sodium and/or potassium troubleshooting trees. |
-| Water emulsion with oil | Combustion by-product condensation occurs with extended light load running and cold weather conditions. | Change oil. Increase oil temperature by running engine at higher loads or using other means and reduce operation at light loads. |
-| Oil contaminated by combustion by-products or dust intrusion | Contamination of oil causing higher viscosity. | Check blowby. If high, follow the Crankcase Gases (Blowby) Excessive troubleshooting tree. |
-| Excessive oil temperature | High oil temperature due to localized component failure causes oil oxidation and increases viscosity. May also see elevation in wear metals. | Check for increase in oxidation of oil. Check for high oil temperature. If high, follow high oil temperature troubleshooting tree. Check for elevated levels of iron, copper, lead, and/or aluminum. If high, follow troubleshooting trees for respective metals. |
-
-| Viscosity is lower than limit based on oil lab results or Cummins Inc. limits |  |  |
-|---|---|---|
-| Cause | Explanation | Correction |
-| Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
-| Oil formulation and/or viscosity grade has recently been changed | Change in oil viscosity due to difference in oil specification. | Resample at regular interval. |
-| Oil contaminated by fuel | Fuel contamination reduces oil viscosity. | Verify that fuel dilution is also flagged on oil sample. If so, follow Fuel in the Lubricating Oil Troubleshooting Tree. |
-
-### Document History
+>
+> | Aluminum parts per million (PPM) level exceeds caution or critical aluminum flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
+> | Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
+> | Engine has aluminum pistons and has had at least one power cylinder (piston) replaced within the last 1000 hours | Repair to power cylinder resulting in break-in wear. | Resample at regular interval. Aluminum should return to normal level within 1,000 hours of operation. |
+> | Engine has aluminum pistons and is new or recently rebuilt with less than 1000 hours or operation | Power cylinder break-in results in elevated wear metal levels. | Resample at regular interval. Aluminum should return to normal level within 1,000 hours of operation. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Aluminum piston skirt scuffing | Aluminum piston skirt scuffing. | Check ECM image for blowby faults and increased oil consumption or excessive engine noise. Follow the respective troubleshooting trees. |
+> | Dirt intrusion | Dirt is made up of Silica and Alumina. Silicon and Aluminum in 2:1 to 10:1 Silicon:Aluminum ratio indicates dirt. | Check whether silicon is also at elevated level. If so, check if dipstick tube and/or oil fill cap is missing, loose, or has a missing seal. Inspect the intake system for holes and sources of leaks. Check for collapsed air filters and proper sealing around air cleaners. Repair as necessary. Check for increased oil consumption and high blowby. Reference the Lubricating Oil Consumption Excessive or Crankcase Gases (Blowby) Excessive Troubleshooting Tree. Check whether iron, copper and/or lead are also at an elevated level. If so, reference the respective troubleshooting tree. |
+> | Increased wear rate of thrust bearings | Increased wear rate of thrust bearings. | Check if crankshaft end clearance is within specification. If **not**, inspect or repair thrust bearings. |
+>
+> | Copper parts per million (PPM) level exceeds copper caution flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
+> | Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
+> | Engine has had at least one oil cooler replaced within the last 1000 hours | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours. |
+> | Engine is new or recently rebuilt with less than 1000 hours of operation | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours. |
+> | Oil formulation has recently been changed | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Check if lead is also at an elevated level. If so, cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. If no debris, change oil, reassess oil drain interval, resample at regular interval. |
+> | Corrosive attack of engine bearing material due to coolant contamination | Oil acidity is attacking bearing material due to coolant contamination. | Check if lead is also at an elevated level. If so, cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. Check whether sodium and/or potassium are also at elevated levels. If so, reference sodium and/or potassium troubleshooting trees. |
+> | Wear of bearing material due to reduced oil film thickness | High temperature, low oil pressure, or low viscosity compromise oil film thickness. | Check whether lead is also at an elevated level. If so, check for oil temperature or pressure faults and cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. |
+>
+> | Copper parts per million (PPM) level exceeds critical copper flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab testing error, recording error, sample contamination, or other reasons for a single high reading. | If a sudden high reading, perform the steps in the copper exceeds caution flag limit tree. If lead also has a sudden high reading, cut oil filters open or open centrifuge and check for debris. If no debris, resample at half interval (including TBN measurement) and request ferrography analysis on oil sample that produced elevated copper level. |
+> | Engine has had at least one oil cooler replaced within the last 1000 hours | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours of operation. |
+> | Engine is new or recently rebuilt with less than 1000 hours of operation | Oil cooler passivation. | Resample at regular interval. Copper should return to normal level within 1,000 hours of operation |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | If Total Base Number (TBN) level is low, evaluate oil drain interval and oil type. If lead is also at an elevated level, cut filters open or open centrifuge and check for debris. If no debris found, request ferrography analysis on oil sample that produced elevated copper level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
+> | Corrosive attack of bearing material due to coolant contamination | Oil acidity is attacking bearing material due to coolant contamination. | Check whether sodium and/or potassium are also at critical levels. If so, reference Coolant Loss - Internal troubleshooting tree. Check whether lead is also at elevated level, if so, cut filters open or open centrifuge and check for debris. If no debris found, request ferrography analysis on oil sample that produced elevated copper level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
+> | Wear of bearing material due to reduced oil film thickness | High temperature, low oil pressure, or low viscosity compromise oil film thickness. | Check for oil temperature or pressure faults. Check whether viscosity is low. If so, reference low viscosity troubleshooting tree. Check whether lead is also at elevated level, if so, cut filters open or open centrifuge and check for debris. If no debris found, request ferrography analysis on oil sample that produced elevated copper level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
+> | Wear of bushings **not** containing lead | Connecting rod bushing, gear bushing, cam follower bushings. | Check for oil temperature or pressure faults. Check whether viscosity is low. If so, reference low viscosity troubleshooting tree. Cut filters open or open centrifuge and check for debris. If no debris found in filters/centrifuge, request ferrography analysis on oil sample that produced elevated copper level. If debris in filter/centrifuge or ferrographic analysis indicates bushing debris, inspect bushings. |
+>
+> | Fuel dilution exceeds flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Frequent Starts | Fuel does not burn completely at low combustion chamber temperatures and can seep past the piston rings and into the crankcase. | Change oil in engine sump and remote oil tank. |
+> | Excessive Idling | Fuel does not burn completely at low combustion chamber temperatures and can seep past the piston rings and into the crankcase. | Change oil in engine sump and remote oil tank. If possible, shut off the engine rather than idling or raise the idle speed. |
+> | Cold Weather Operation | Fuel does not burn completely at low combustion chamber temperatures and can seep past the piston rings and into the crankcase. | Change oil in engine sump and remote oil tank. |
+> | Frequent starts, excessiveidling, or cold weatheroperation | Fuel does not burn completely at low combustion chamber temperatures and can seep past the piston rings and into the crankcase. | Change oil in engine sump and remote oil tank. If possible, shut off the engine rather than idling or raise the idle speed. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Engine has had at least one injector removed within the last 1000 hours | Injector o-rings cut or blown, injector hold down mis-torqued, injector seal mis-installed. | Dye fuel and inspect area around injector with black light. Repair as necessary. |
+> | Oil contaminated by fuel due to fuel pump failure or injector malfunction | Excessive fuel getting in lube oil reduced viscosity of lube oil. Oil will have fuel smell **only** at high fuel dilution levels. | Confirm that viscosity has also dropped below limit. If so, follow Fuel in the Lubricating Oil Troubleshooting Tree. |
+>
+> | Iron parts per million (PPM) level exceeds iron caution flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
+> | Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
+> | Engine has had at least one power cylinder (rings and/or liner) replaced within the last 1000 hours | Repair to power cylinder resulting in break-in wear. | Resample at regular interval. Iron should return to normal level within 1,000 hours of operation. |
+> | Engine is new or recently rebuilt with less than 1000 hours of operation | Power cylinder break-in wear. | Resample at regular interval. Iron should return to normal level within 1,000 hours of operation. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Wear of interface between steel and bushing/bearing material | High iron and copper and/or lead indicates bearing damage. | Check whether lead and copper are also at elevated levels. If so, reference copper and/or lead troubleshooting trees. |
+> | Increased wear rate of rings and/or liners due to fuel washing lubrication from liners | Injector failed, causing cylinder wash down with fuel, which caused liner wear, resulting in higher iron. | Check for evidence of low viscosity or fuel dilution. If so, reference fuel dilution or low viscosity troubleshooting tree. |
+> | Increased wear rate of rings and/or liners due to dusting or worn rings | High cylinder wear due to dusting, broken ring, or worn rings. | Check for increased oil consumption. Reference Lubricating Oil Consumption Excessive Troubleshooting Tree. |
+> | Increased wear rate of rings and/or liners due to overfueling | High cylinder temperatures caused by excessive fuel or restricted air flow can accelerate cylinder wear. | Check for smoke or low power. If engine smokes or does **not** pull power, follow Engine Performance Troubleshooting Trees. |
+> | Iron to iron wear surfaces in engine | Camshaft, roller, or gear failure generating debris. | Request ferrography analysis on oil sample that produced elevated iron level. Cut oil filters open or open centrifuge and check for debris. If debris in filter/centrifuge or ferrographic analysis indicates gear, camshaft or roller debris, inspect accordingly. If no debris, change oil, and resample at regular interval. |
+>
+> | Iron parts per million (PPM) level exceeds critical iron flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab testing error, recording error, sample contamination, or other reasons for a single high reading. | If a sudden high reading, perform the steps in the iron exceeds caution flag limit tree. If other metals also have a sudden high reading, continue with this troubleshooting tree. |
+> | Engine has had at least one power cylinder (rings and/or liner) replaced within the last 1000 hours | Repair to power cylinder resulting in break-in wear. | Resample at regular interval. Iron should return to normal level within 1,000 hours of operation. |
+> | Engine is new or recently rebuilt with less than 1000 hours of operation | Power cylinder break-in wear. | Resample at regular interval. Iron should return to normal level within 1,000 hours of operation. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Wear of interface between steel and bushing/bearing material | High iron and copper and/or lead indicates bearing damage. | Check whether lead and copper are also at elevated levels. If so, reference copper and/or lead troubleshooting trees. |
+> | Increased wear rate of rings and/or liners due to fuel washing lubrication from liners | Injector failure causing cylinder wash down with fuel can cause liner wear resulting in higher iron. | Check for evidence of lower viscosity or fuel dilution. If so, see fuel dilution and/or low viscosity troubleshooting tree. |
+> | Increased wear rate of rings and/or liners due to overfueling | High cylinder temperatures caused by excessive fuel or restricted air flow can accelerate cylinder wear. | Check for smoke or low power. If engine smokes or does **not** pull power, follow Engine Performance Troubleshooting Trees. |
+> | Increased wear rate of rings and/or liners due to broken or worn rings | High cylinder wear due to broken ring, worn rings causing higher iron. | Check for increased oil consumption. If so, see Lubricating Oil Consumption Excessive troubleshooting tree. |
+> | Increased wear rate of rings and/or liners due to dust intrusion | High cylinder wear due to dusting, broken ring, or worn rings. | Verify if silicon is also at an elevated level. If so, check if dipstick tube and/or oil fill cap is missing, loose, or has a missing seal. Inspect the intake system for holes and sources of leaks. Check for collapsed air filters and proper sealing around air cleaners. Repair the intake system if necessary. Check blowby. If high, follow the Crankcase Gases (Blowby) Excessive troubleshooting tree. |
+> | Iron to iron wear surfaces in engine | Camshaft, roller, or gear failure generating debris. | Request ferrography analysis on oil sample that produced elevated iron level. Cut oil filters open or open centrifuge and check for debris. If debris in filter/centrifuge or ferrographic analysis indicates gear, camshaft or roller debris, inspect accordingly. If no debris, change oil, and resample at regular interval. |
+>
+> | Lead parts per million (PPM) level exceeds lead caution flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
+> | Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. If no debris, change oil, reassess oil drain interval, resample at regular interval. |
+> | Corrosive attack of bearing material due to coolant contamination | Oil acidity is attacking bearing material due to coolant contamination. | Check if copper is also at an elevated level. If so, cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. Check whether sodium and/or potassium are also at elevated levels. If so, reference sodium and/or potassium troubleshooting trees. |
+> | Wear of bearing material due to reduced oil film thickness | High temperature, low oil pressure, or low viscosity compromise oil film thickness. | Check whether copper is also at an elevated level. If so, check for oil temperature or pressure faults and cut oil filters open or open centrifuge and check for debris. If bearing debris in filter/centrifuge, inspect bearings. |
+>
+> | Lead parts per million (PPM) level exceeds critical lead flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab testing error, recording error, sample contamination, or other reasons for a single high reading. | If a sudden high reading, perform the steps in the lead exceeds caution flag limit tree. If copper also has a sudden high reading, cut oil filters open or open centrifuge and check for debris. If no debris, resample at half interval (including TBN measurement) and request ferrography analysis on oil sample that produced elevated lead level. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | Oil acidity is attacking bearing material due to low Total Base Number (TBN) in oil. | If Total Base Number (TBN) level is low, evaluate oil drain interval and oil type. Cut filters open or open centrifuge and inspect for debris. If no debris found, request ferrography analysis on oil sample that produced elevated lead level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
+> | Corrosive attack of bearing material due to coolant contamination | Oil acidity is attacking bearing material due to coolant contamination. | Check whether sodium and/or potassium are also at critical levels. If so, reference Coolant Loss - Internal troubleshooting tree. Check whether copper is also at elevated level, if so, cut filters open or open centrifuge and check for debris. If no debris found, request ferrography analysis on oil sample that produced elevated lead level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
+> | Wear of bearing material due to reduced oil film thickness | High temperature, low oil pressure, or low viscosity compromise oil film thickness. | Check for oil temperature or pressure faults. Check whether viscosity is low. If so, reference low viscosity troubleshooting tree. Check whether copper is also at elevated level, if so, cut filters open or open centrifuge. If no debris found, request ferrography analysis on oil sample that produced elevated lead level. If debris in filter/centrifuge or ferrographic analysis indicates bearing debris, inspect bearings. |
+>
+> | Potassium parts per million (PPM) level exceeds caution potassium flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil contaminated by coolant | Potassium is commonly used as a cooling system inhibitor. | Verify that coolant used in this engine contains potassium. Check whether sodium and/or silicon are also at elevated levels if there are also contained in coolant. If so, monitor coolant consumption, check for and repair any head gasket and water pump weep hole leaks and resample at half of normal interval. |
+>
+> | Potassium parts per million (PPM) level exceeds critical potassium flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab testing error, recording error, sample contamination, or other reasons for a single high reading. | If a sudden high reading, verify that coolant used in this engine contains potassium. Check if there is an elevated reading in silicon or sodium, if these are contained in coolant. Check for elevated levels of lead or copper. If these combinations also have a sudden high reading, or if oil tests positive for glycol, continue with tree. If **only** potassium is elevated, follow the potassium exceeds caution flag limit tree. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil contaminated by coolant | Potassium is commonly used as a cooling system inhibitor. | Check for and repair any head gasket and water pump weep hole leaks. If no external leaks or problem persists, follow Coolant Loss - Internal Troubleshooting Tree. Check turbocharger axial and radial clearance. |
+>
+> | Silicon parts per million (PPM) level exceeds the caution or critical silicon flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, wear metals may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
+> | Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing an elevated level of wear metals. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
+> | Engine has had a repair where silicone gaskets have been replaced or silicone sealant has been applied within the last 1000 hours | Repair to engine resulting in replacement of silicone gasket or silicone sealant that is reacting with oil. | Resample at regular interval. Silicon should return to normal level within 1,000 hours of operation. |
+> | Engine is new or recently rebuilt with less than 1000 hours of operation | Repair to engine resulting in replacement of silicone gasket or silicone sealant that is reacting with oil. | Resample at regular interval. Silicon should return to normal level within 1,000 hours of operation. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Dirt intrusion | Dirt is made up of Silica and Alumina. Silicon and Aluminum in 2:1 to 10:1 Silicon:Aluminum ratio indicates dirt. | Check whether aluminum is also at elevated level. If so, check if dipstick tube and/or oil fill cap is missing, loose, or has a missing seal. Inspect the intake system for holes and sources of leaks. Check for collapsed air filters and proper sealing around air cleaners. Repair as necessary. Check for increased oil consumption and high blowby. Reference Lubricating Oil Consumption Excessive or Crankcase Gases (Blowby) Excessive Troubleshooting Tree. Check whether iron, copper and/or lead are also at an elevated level. If so, reference the respective troubleshooting tree. |
+> | Coolant contamination | Silicon is commonly used as a cooling system inhibitor. | Verify that coolant used in this engine contains silicon. Check whether sodium and/or potassium are also at elevated levels. If so, reference sodium and/or potassium troubleshooting trees. |
+>
+> | Sodium Parts per million (PPM) level exceeds sodium caution flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil formulation has recently been changed | Sodium is sometimes contained in the oil additive package. | Compare parts per million (ppm) of sodium with unused oil sample. |
+> | Wash water entered engine contaminating oil | Salts (sodium) are contained in detergents. | Determine if engine could have recently been contaminated with high pressure wash water. If so, change oil and resample at normal interval. |
+> | Oil contaminated by coolant | Sodium is commonly used as a cooling system inhibitor. | Verify that coolant used in this engine contains sodium. Check whether silicon and/or potassium are also at elevated levels, if these are also contained in coolant. If so, monitor coolant consumption, check for and repair any head gasket and water pump weep hole leaks and resample at half of normal interval. |
+>
+> | Sodium Parts per million (PPM) level exceeds critical sodium flag limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Possible lab error, sample contamination, or other reasons causing a single high reading | Possible lab error, sample contamination, or other reasons causing a single high reading. | If a sudden high reading, verify that coolant used in this engine contains sodium. Check if there is an elevated reading in silicon or potassium, if these are contained in coolant. Check for elevated levels of lead or copper. If these combinations also have a sudden high reading, or if oil tests positive for glycol, continue with tree. If **only** sodium is elevated, follow the sodium exceeds caution flag limit tree. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil contaminated by coolant | Sodium is commonly used as a cooling system inhibitor. | Check for and repair any head gasket and water pump weep hole leaks. If no external leaks or problem persists, follow Coolant Loss - Internal Troubleshooting Tree. Check turbocharger axial and radial clearance. |
+>
+> | Viscosity is higher than limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Extended oil sample interval | If oil hours at time of sample are greater than oil hours for past samples, viscosity may be elevated. | Check whether hours on oil at time of sample is more than 25 percent longer than previous sample hours. If so, resample at regular interval. |
+> | Remote oil tank circulation, makeup oil or Centinel™ systems are **not** functioning properly | Oil is **not** being replenished or oil capacity is reduced, causing increased viscosity. | Repair remote oil circulation, makeup oil, or Centinel™ system. Resample at regular interval. |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil formulation and/or viscosity grade has recently been changed | Change in oil viscosity due to difference in oil specification. | Confirm viscosity is within specification of oil formulation. Resample at regular interval. |
+> | Coolant emulsion with oil | Oil contaminated by coolant. | Check whether sodium and/or potassium are also at elevated levels. If so, reference sodium and/or potassium troubleshooting trees. |
+> | Water emulsion with oil | Combustion by-product condensation occurs with extended light load running and cold weather conditions. | Change oil. Increase oil temperature by running engine at higher loads or using other means and reduce operation at light loads. |
+> | Oil contaminated by combustion by-products or dust intrusion | Contamination of oil causing higher viscosity. | Check blowby. If high, follow the Crankcase Gases (Blowby) Excessive troubleshooting tree. |
+> | Excessive oil temperature | High oil temperature due to localized component failure causes oil oxidation and increases viscosity. May also see elevation in wear metals. | Check for increase in oxidation of oil. Check for high oil temperature. If high, follow high oil temperature troubleshooting tree. Check for elevated levels of iron, copper, lead, and/or aluminum. If high, follow troubleshooting trees for respective metals. |
+>
+> | Viscosity is lower than limit based on oil lab results or Cummins Inc. limits |  |  |
+> |---|---|---|
+> | Cause | Explanation | Correction |
+> | Engine has recently been repaired, causing oil contamination | Previous repair caused oil contamination and oil system was **not** purged. | Change oil in engine sump and remote oil tank. Check external oil circuitry (i.e. remote filter head/remote oil tank) for contamination. Resample at regular interval. |
+> | Oil formulation and/or viscosity grade has recently been changed | Change in oil viscosity due to difference in oil specification. | Resample at regular interval. |
+> | Oil contaminated by fuel | Fuel contamination reduces oil viscosity. | Verify that fuel dilution is also flagged on oil sample. If so, follow Fuel in the Lubricating Oil Troubleshooting Tree. |
+>
+> ### Document History

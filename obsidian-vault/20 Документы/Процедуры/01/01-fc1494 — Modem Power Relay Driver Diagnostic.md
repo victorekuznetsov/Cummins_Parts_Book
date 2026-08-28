@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1494.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1494.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Modem Power Relay Driver Diagnostic
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1494.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1494.pdf)
 
-### Fault Code: 1494
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Modem Power Relay Driver Diagnostic
 
-Printable Version
+### Код неисправности: 1494
 
-### Overview
+### Диагностика драйвера реле питания модема
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1494 PID(P): SPN: FMI: Lamp: Warning SRT: | Modem power relay driver diagnostic has detected an error. | Modem will **not** function correctly. No action taken by ECM. No loss of performance. |
+| Код неисправности: 1494 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Диагностика драйвера реле питания модема выявила ошибку. | Модем будет работать **не** правильно. Никаких действий со стороны ЕКМ не предпринимается. Никаких потерь в производительности. |
 
 ![[19802919.png]]
 
-Modem Power Relay Driver Circuit
+Модем Power Relay Driver Circuit
 
-### Circuit Description
+### Описание цепи
 
-The ECM checks the modem power relay driver to ensure correct operation. The ECM uses the modem to inform a remote operator about generator set operation, performance, setup, and diagnostics. The ECM monitors the voltage (no voltage increase will trip Fault Code 1494) caused by short circuits, open circuits, or failed modem power relay driver in the ECM.
+ECM проверяет драйвер реле питания модема, чтобы обеспечить правильную работу. ECM использует модем для информирования удаленного оператора о работе генераторной установки, производительности, настройке и диагностике. ECM контролирует напряжение (без увеличения напряжения будет срабатывать код 1494 по умолчанию), вызванное короткими замыканиями, открытыми цепями или неисправным модемным драйвером реле питания в ECM.
 
-### Component Location
+### Расположение компонента
 
-Refer to site documentation for location of the modem.
+См. документацию сайта по местоположению модема.
 
-### Shoptalk
+### Практические замечания
 
-Possible failure modes are open circuits, short circuits, short to ground, and loss of supply voltage inside the ECM.
+Возможные режимы отказа - это открытые цепи, короткие замыкания, короткие к земле и потеря напряжения питания внутри ECM.
 
-Refer to Troubleshooting Fault Code t05-1494
+См. Код устранения неполадок t05-1494
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1494
+>
+> ### Modem Power Relay Driver Diagnostic
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1494 PID(P): SPN: FMI: Lamp: Warning SRT: | Modem power relay driver diagnostic has detected an error. | Modem will **not** function correctly. No action taken by ECM. No loss of performance. |
+>
+> Modem Power Relay Driver Circuit
+>
+> ### Circuit Description
+>
+> The ECM checks the modem power relay driver to ensure correct operation. The ECM uses the modem to inform a remote operator about generator set operation, performance, setup, and diagnostics. The ECM monitors the voltage (no voltage increase will trip Fault Code 1494) caused by short circuits, open circuits, or failed modem power relay driver in the ECM.
+>
+> ### Component Location
+>
+> Refer to site documentation for location of the modem.
+>
+> ### Shoptalk
+>
+> Possible failure modes are open circuits, short circuits, short to ground, and loss of supply voltage inside the ECM.
+>
+> Refer to Troubleshooting Fault Code t05-1494

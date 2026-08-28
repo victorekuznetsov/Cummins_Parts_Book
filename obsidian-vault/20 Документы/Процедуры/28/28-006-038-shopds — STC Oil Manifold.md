@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-038-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-038-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # STC Oil Manifold
@@ -34,24 +36,52 @@ tags:
 > **Даты:** изменён 2013-01-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-038-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-038-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-STC (HVT) Oil Manifolds
 
-> [!note] Note · Примечание
-> **Only** engines with STC are equipped with these manifolds.
+### Снятие
 
-> [!note] Note · Примечание
-> There is one hose assembly on each bank of the engine.
+STC (HVT) Масляные коллекторы
 
-Detach the hoses from the fittings (8) on the manifolds and on the STC oil control valve (9). Remove any clamps and hose assemblies.
+> [!note] Примечание
+> Только двигатели с STC оснащены этими коллекционерами.
 
-Check the hose for damage. Discard the part if it is damaged.
+> [!note] Примечание
+> На каждом берегу двигателя установлена одна сборка шланга.
+
+Отсоедините шланги от фитингов (8) на коллекторах и на клапане управления маслом STC (9). Удалите любые зажимы и шланги.
+
+Проверьте шланг на предмет повреждений. Откажитесь от части, если она повреждена.
 
 ![[he6hoha.png]]
 
-Remove the flat washers (2), capscrews (3), the manifolds, and the o-ring seals (1).
+Удалите плоские шайбы (2), болты (3), коллекторы и уплотнения для колец (1).
 
-Discard the seals.
+Отбросьте печати.
 
 ![[om600ha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> STC (HVT) Oil Manifolds
+>
+> **Note · Примечание**
+> **Only** engines with STC are equipped with these manifolds.
+>
+> **Note · Примечание**
+> There is one hose assembly on each bank of the engine.
+>
+> Detach the hoses from the fittings (8) on the manifolds and on the STC oil control valve (9). Remove any clamps and hose assemblies.
+>
+> Check the hose for damage. Discard the part if it is damaged.
+>
+> Remove the flat washers (2), capscrews (3), the manifolds, and the o-ring seals (1).
+>
+> Discard the seals.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc588.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc588.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # ICON™ Starter Relay Input Circuit
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc588.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc588.pdf)
 
-### Fault Code: 588
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### ICON™ Starter Relay Input Circuit
 
-Printable Version
+### Код неисправности: 588
 
-### Overview
+### Цепь входа реле стартера ICON™
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 588 PID(P): S121 SPN: 611 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the alarm circuit when low voltage was expected by the ECM. | The ICON™ system will be disabled. **Only** mandatory shutdown will be enabled. Engine can be started normally. |
+| Код неисправности: 588 PID(P): S121 SPN: 611 FMI: 3/3 лампы: Желтая СТО: | Высокое напряжение, обнаруженное на цепи сигнализации, когда низкое напряжение ожидалось ECM. | Система ICONTM будет отключена. * Включено только обязательное отключение. Двигатель можно запускать нормально. |
 
 ![[19803220.png]]
 
-Engine Start Alarm Circuit
+Цепь сигнализации пуска двигателя
 
-### Circuit Description
+### Описание цепи
 
-The alarm circuit turns on the audible alarm to warn of an impending engine start.
+Схема сигнализации включает звуковую сигнализацию, чтобы предупредить о предстоящем запуске двигателя.
 
-### Component Location
+### Расположение компонента
 
-The ICON™ alarm is mounted on the vehicle's fire wall on the intake side of the engine.
+Сигнализация ICONTM установлена на огневой стенке автомобиля на стороне впуска двигателя.
 
-### Shoptalk
+### Практические замечания
 
-This fault typically indicates short circuit to battery or an open circuit. The fan 2 clutch feature is **not** used.
+Эта неисправность обычно указывает на короткое замыкание к батарее или открытому контуру. Функция сцепления вентилятора 2 не используется.
 
-Refer to Troubleshooting Fault Code t05-588
+Устранение неполадок код t05-588
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 588
+>
+> ### ICON™ Starter Relay Input Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 588 PID(P): S121 SPN: 611 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the alarm circuit when low voltage was expected by the ECM. | The ICON™ system will be disabled. **Only** mandatory shutdown will be enabled. Engine can be started normally. |
+>
+> Engine Start Alarm Circuit
+>
+> ### Circuit Description
+>
+> The alarm circuit turns on the audible alarm to warn of an impending engine start.
+>
+> ### Component Location
+>
+> The ICON™ alarm is mounted on the vehicle's fire wall on the intake side of the engine.
+>
+> ### Shoptalk
+>
+> This fault typically indicates short circuit to battery or an open circuit. The fan 2 clutch feature is **not** used.
+>
+> Refer to Troubleshooting Fault Code t05-588

@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666003"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-080.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-008-080.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Belt Tensioner, Automatic (Water Pump)
@@ -34,27 +36,54 @@ tags:
 > **Даты:** изменён 2003-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-080.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-008-080.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the drive belt. Refer to Procedure [[100-008-002 — Drive Belt, Cooling Fan|008-002]].
+
+### Снятие
+
+Снимите жгут проводов. См. процедуру[[100-008-002 — Drive Belt, Cooling Fan|008-002]].
 
 ![[fn9blma.png]]
 
-Remove the belt tensioner from the bracket.
+Снимите натяжитель ремня с кронштейна.
 
 ![[fa9bkma.png]]
 
-### Install
+### Установка
 
-Install the belt tensioner.
+Установите натяжитель ремня.
 
-Install and tighten the belt tensioner mounting capscrew.
+Установите и затяните натяжные болты ремня.
 
-> [!tip] Момент затяжки · Torque Value
+> [!tip] Момент затяжки
+> 43 Н·м [32 фунт-фут]
+
+![[fa9bkma.png]]
+
+Установите приводной ремень. См. процедуру[[100-008-002 — Drive Belt, Cooling Fan|008-002]].
+
+![[fn9blma.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the drive belt. Refer to Procedure [[100-008-002 — Drive Belt, Cooling Fan|008-002]].
+>
+> Remove the belt tensioner from the bracket.
+>
+> ### Install
+>
+> Install the belt tensioner.
+>
+> Install and tighten the belt tensioner mounting capscrew.
+>
+> **Момент затяжки · Torque Value**
 > 43 n•m [32 ft-lb]
-
-![[fa9bkma.png]]
-
-Install the drive belt. Refer to Procedure [[100-008-002 — Drive Belt, Cooling Fan|008-002]].
-
-![[fn9blma.png]]
+>
+> Install the drive belt. Refer to Procedure [[100-008-002 — Drive Belt, Cooling Fan|008-002]].

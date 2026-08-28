@@ -16,7 +16,8 @@ engines:
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK50"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103229.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103229.pdf"
 tags:
@@ -24,6 +25,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -37,12 +39,32 @@ tags:
 > **Даты:** выпущен 2009-12-17 · изменён 2008-11-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103229.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103229.pdf)
 
-## Procedure 006-026 (Injector), Replace Section Revision
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Процедура 006-026 (форсунка): пересмотр раздела замены
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic adds the Procedure 006-026 (Injector) to Section 10 of the Operation and Maintenance Manual K38, K50, QSK38 and QSK50, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]. This procedure recommends injector replacement at engine half life to rebuild for both the mechanically and electronically actuated injectors.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема Службы/Частей добавляет Процедура 006-026 (форсунка) к Разделу 10 Руководства по эксплуатации и техническому обслуживанию K38, K50, QSK38 и QSK50, Бюллетень [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]. Эта процедура рекомендует замену форсунки при периоде полураспада двигателя для восстановления как для форсунки с механическим, так и электронным приводом.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Procedure 006-026 (Injector), Replace Section Revision
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic adds the Procedure 006-026 (Injector) to Section 10 of the Operation and Maintenance Manual K38, K50, QSK38 and QSK50, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]. This procedure recommends injector replacement at engine half life to rebuild for both the mechanically and electronically actuated injectors.

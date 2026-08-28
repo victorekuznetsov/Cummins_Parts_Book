@@ -29,7 +29,8 @@ families:
   - "QSK60"
   - "QSX15"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100051.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100051.pdf"
 tags:
@@ -41,6 +42,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QSX15"
   - "год/2010"
+  - "перевод/машинный"
   - "тема/service-tools"
 ---
 
@@ -54,44 +56,92 @@ tags:
 > **Даты:** выпущен 2010-06-17 · изменён 2010-06-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100051.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100051.pdf)
 
-## INSITE™ 7.4 Features and Parameters Display Issue
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-This Technical Service Bulletin describes an issue with INSITE™ electronic service tool version 7.4 (7.4.0.244) displaying the Features and Parameters column incorrectly (too narrow). This causes the rows to widen and makes it difficult to read the feature names.
+## INSITE™ 7.4: проблема отображения функций и параметров
 
-### Confirmation
+### Суть проблемы
 
-All Engines supported by INSITE™ electronic service tool.
+В настоящем бюллетене по техническим услугам описывается проблема с неправильной (слишком узкой) дисплеем колонки «Особенности и параметры» в версии 7.4 (7.4.0.244) электронного инструментария INSITETM. Это приводит к расширению строк и затрудняет чтение названий функций.
 
-Open Features and Parameters while connected to an ECM and the first column is narrow and the rows are wide.
+### Подтверждение
 
-None
+Все двигатели поддерживаются электронным сервисным оборудованием INSITETM.
 
-INSITE™ electronic service tool version 7.4 (7.4.0.244) is automatically adjusting the first column width incorrectly on some screen resolutions.
+Открытые функции и параметры при подключении к ECM и первая колонка узкая, а строки широкие.
 
-None
+Нет
 
-### Resolution
+В электронной службе INSITETM 7.4 (7.4.0.244) автоматически неправильно настраивается ширина первой колонки на некоторых разрешениях экрана.
 
-Manually adjust the width of the first column:
+Нет
 
-- Move the curser over the column line until it changes to a double arrow.
-- While holding the left mouse button down, move the column line to the right until the column width has increased and then release the mouse button.
+### Решение
+
+Ручно отрегулировать ширину первой колонки:
+
+- Переместите проклятье по колонной линии, пока оно не изменится на двойную стрелку.
+- При удерживании левой кнопки мыши вниз, переместить линию столбца вправо, пока ширина столбца не увеличится, а затем отпустите кнопку мыши.
 
 ![[22000028.png]]
 
-After resizing the column, the row width will automatically adjust.
+После изменения размера колонки ширина строки будет автоматически регулироваться.
 
 ![[22000029.png]]
 
-Change the display resolution to any of the following settings:
+Измените разрешение дисплея на любую из следующих настроек:
 
-- 800 by 600
-- 1024 by 768
-- 1280 by Any
-- 1152 by 864
+- 800 на 600
+- 1024 к 768
+- 1280, любой
+- 1152 к 864
 
-### Warranty Statement
+### Положение о гарантии
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## INSITE™ 7.4 Features and Parameters Display Issue
+>
+> ### Core Issue
+>
+> This Technical Service Bulletin describes an issue with INSITE™ electronic service tool version 7.4 (7.4.0.244) displaying the Features and Parameters column incorrectly (too narrow). This causes the rows to widen and makes it difficult to read the feature names.
+>
+> ### Confirmation
+>
+> All Engines supported by INSITE™ electronic service tool.
+>
+> Open Features and Parameters while connected to an ECM and the first column is narrow and the rows are wide.
+>
+> None
+>
+> INSITE™ electronic service tool version 7.4 (7.4.0.244) is automatically adjusting the first column width incorrectly on some screen resolutions.
+>
+> None
+>
+> ### Resolution
+>
+> Manually adjust the width of the first column:
+>
+> - Move the curser over the column line until it changes to a double arrow.
+> - While holding the left mouse button down, move the column line to the right until the column width has increased and then release the mouse button.
+>
+> After resizing the column, the row width will automatically adjust.
+>
+> Change the display resolution to any of the following settings:
+>
+> - 800 by 600
+> - 1024 by 768
+> - 1280 by Any
+> - 1152 by 864
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.

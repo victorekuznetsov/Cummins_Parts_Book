@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc2562.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc2562.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Gear Box Oil Temperature High - Critical
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc2562.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc2562.pdf)
 
-### Fault Code: 2562
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Gear Box Oil Temperature High - Critical
 
-Printable Version
+### Код неисправности: 2562
 
-### Overview
+### Высокая температура масла редуктора двигателя — критично
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 2562 PCODE(P): SPN: FMI: Lamp: Shutdown SRT: | Voltage signal indicates the engine gear box oil temperature has exceeded the shutdown threshold for high engine gear box oil temperature. | Generator set will shutdown. |
+| Код неисправности: 2562 PCODE(P): СПН: ФМИ: Лампа: Отключение SRT: | Сигнал напряжения указывает, что температура масла в коробке передач двигателя превысила порог отключения для высокой температуры масла в коробке передач двигателя. | Генераторный набор отключится. |
 
 ![[19600392.png]]
 
-Engine Gear Box Oil Temperature Sensor Circuit
+Двигатель Gear Box датчик температуры масла
 
-### Circuit Description
+### Описание цепи
 
-The engine gear box oil temperature sensor is a switch type sensor. After the temperature increases above the switch point, the sensor will close the circuit. This closed circuit will cause the LonWorks digital input module to send a signal on the LonWorks network to the generator set ECM indicating an engine gear box oil temperature high - critical condition exists.
+Датчик температуры масла в коробке передач двигателя является датчиком типа переключателя. После того, как температура повысится выше точки переключателя, датчик закроет цепь. Эта замкнутая цепь заставит цифровой модуль ввода LonWorks послать сигнал в сети LonWorks на генераторный набор ECM, указывающий на высокую температуру масла в коробке передач двигателя - критическое состояние существует.
 
-### Component Location
+### Расположение компонента
 
-The engine gear box oil temperature sensor is located on the gear box.
+Датчик температуры масла в коробке передач двигателя расположен на коробке передач.
 
-### Shoptalk
+### Практические замечания
 
-This fault code can be caused by a high temperature condition, or a short circuit in the engine gear box oil temperature switch to digital input module circuit. Both temperature of the gear box oil and a check for a short circuit **must** be performed to troubleshoot this fault.
+Этот код неисправности может быть вызван высокотемпературным состоянием или коротким замыканием в масляном переключателе коробки передач двигателя на цифровой модуль ввода. Как температура масла коробки передач, так и проверка короткого замыкания должны быть выполнены для устранения неисправности.
 
-Refer to Troubleshooting Fault Code t05-2562
+См. Код устранения неисправностей t05-2562
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 2562
+>
+> ### Engine Gear Box Oil Temperature High - Critical
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 2562 PCODE(P): SPN: FMI: Lamp: Shutdown SRT: | Voltage signal indicates the engine gear box oil temperature has exceeded the shutdown threshold for high engine gear box oil temperature. | Generator set will shutdown. |
+>
+> Engine Gear Box Oil Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine gear box oil temperature sensor is a switch type sensor. After the temperature increases above the switch point, the sensor will close the circuit. This closed circuit will cause the LonWorks digital input module to send a signal on the LonWorks network to the generator set ECM indicating an engine gear box oil temperature high - critical condition exists.
+>
+> ### Component Location
+>
+> The engine gear box oil temperature sensor is located on the gear box.
+>
+> ### Shoptalk
+>
+> This fault code can be caused by a high temperature condition, or a short circuit in the engine gear box oil temperature switch to digital input module circuit. Both temperature of the gear box oil and a check for a short circuit **must** be performed to troubleshoot this fault.
+>
+> Refer to Troubleshooting Fault Code t05-2562

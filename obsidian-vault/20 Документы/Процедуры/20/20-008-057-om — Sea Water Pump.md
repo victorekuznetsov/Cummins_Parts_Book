@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666120"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-057-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-057-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Sea Water Pump
@@ -34,14 +36,34 @@ tags:
 > **Даты:** изменён 2006-08-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-057-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-057-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Inspect the sea water pump for evidence of water or oil indicating seal leakage.
 
-Inspect the inlet and outlet connections for leakage.
+### Контроль при обслуживании
 
-Inspect the housing's mating area for leakage.
+Проверить насос морской воды на наличие воды или масла, указывающих на утечку уплотнения.
 
-Inspect the pump to block mating area for oil leakage.
+Проверить входное и выходное соединения на предмет утечки.
+
+Проверьте спаривающуюся зону корпуса на предмет утечки.
+
+Проверить насос, чтобы заблокировать область спаривания для утечки масла.
 
 ![[08600039.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Inspect the sea water pump for evidence of water or oil indicating seal leakage.
+>
+> Inspect the inlet and outlet connections for leakage.
+>
+> Inspect the housing's mating area for leakage.
+>
+> Inspect the pump to block mating area for oil leakage.

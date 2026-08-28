@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666120"
 figures: 25
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-011-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-011-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Cover
@@ -34,203 +36,364 @@ tags:
 > **Даты:** изменён 2018-11-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-011-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-011-om.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-- Remove the air crossover. Refer to Procedure 010-019 in Section A.
-- Remove the crankcase breather hose. [[20-003-001-om — Crankcase Breather (External)|Refer to Procedure 003-001 in Section A.]]
+### Подготовительные операции
+
+с форсункой механического управления
+
+- Удалите воздушный кроссовер. См. процедуру 010-019 в разделе A.
+- Снимите шланг для дыхания из картерного ящика.[[20-003-001-om — Crankcase Breather (External)|См. процедуру 003-001 в разделе A.]]
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-- Disconnect the crankcase breather hose. [[20-003-001-om — Crankcase Breather (External)|Refer to Procedure 003-001 in Section A.]]
-- Remove the high-pressure injector supply lines. [[20-006-051-om — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section A.]]
+- Отсоедините шланг для дыхания.[[20-003-001-om — Crankcase Breather (External)|См. процедуру 003-001 в разделе A.]]
+- Удалите линии подачи топливного форсунка высокого давления.[[20-006-051-om — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе A.]]
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Crankcase breathers can be mounted in any cylinder location. Record the number of breathers and their correct location before removal.
+Вдохновители для чокнутых можно установить в любом месте цилиндра. Запишите количество передышки и их правильное расположение перед удалением.
 
-Remove the rocker lever cover and discard the gasket.
+Снимите крышку рычага качения клапанного клапана и отбросьте прокладку.
 
 ![[07400026.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the wiring harness from the rocker lever cover bracket by using a small flat tip screw driver to release the locking mechanism.
+Удалите проводку упряжки из клапанного клапана кронштейна крышки рычага, используя небольшой плоский наконечник винтового драйвера, чтобы освободить механизм блокировки.
 
 ![[03400170.png]]
 
-Remove the P-clip securing the injector wiring to the bracket on the injector cover plate.
+Удалите P-клип, закрепляющий проводку топливного форсунка, к кронштейну на крышке топливного форсунка.
 
-Disconnect the electrical connector to the injector.
+Отсоедините электрический разъем к топливному форсуну.
 
 ![[03400127.png]]
 
-For engines with rear turbocharger option:
+Для двигателей с задним турбокомпрессором:
 
-Remove both stainless steel wire ties (1) securing the turbocharger speed sensor wiring to the turbocharger plumbing.
+Удалите оба проволочных соединения из нержавеющей стали (1), обеспечивая проводку датчика скорости турбокомпрессора к сантехнике турбокомпрессора.
 
-Remove the P-clips securing the turbocharger speed sensor wiring to the injector cover plate (2) and to the rocker lever cover (3).
+Удалите P-затворы, обеспечивающие проводку датчика скорости турбокомпрессора к крышке топливного форсунка (2) и к крышке рычага клапанного клапана (3).
 
 ![[03400177.png]]
 
-For engines with the front out turbocharger option, with a turbocharger elbow bracket:
+Для двигателей с передним вариантом турбокомпрессора, с локтевой кронштейн турбокомпрессора:
 
-Remove the P-clips (1) securing the turbocharger speed sensor wiring to the turbocharger elbow bracket, injector cover plate (2), and to the rocker lever cover (3).
+Удалите P-затворы (1), обеспечивающие проводку датчика скорости турбокомпрессора к локтям турбокомпрессора, крышке форсунки (2) и крышке рычага качения клапанного клапана (3).
 
 ![[03400178.png]]
 
-For engines with front out turbocharger option, without a turbocharger elbow bracket:
+Для двигателей с передним вариантом турбокомпрессора, без локтевого кронштейна турбокомпрессора:
 
-Remove the P-clips securing the turbocharger speed sensor wiring to the “L” bracket (1), injector cover plate (2) and to the rocker lever cover (3).
+Удалите P-затворы, обеспечивающие проводку датчика скорости турбокомпрессора к кронштейну (1) «L», крышке форсунки (2) и крышке рычага качения клапанного клапана (3).
 
 ![[03400179.png]]
 
-Remove the two capscrews securing the injector cover plate to the rocker lever cover. Pry injector cover plate evenly on opposite sides using a heel bar.
+Удалите два болта, закрепляющие крышку топливного форсунка, на крышку рычага качения клапанного клапана. Покрыть форсунка пластины равномерно на противоположных сторонах с помощью штанги на каблуке.
 
-Remove the o-ring seal from the rocker lever cover plate and discard it.
+Удалите уплотнение с кольца клапана с пластины крышки рычага качения и отбросьте его.
 
 ![[03400122.png]]
 
-Remove the four capscrews securing the rocker lever cover.
+Удалите четыре болта, обеспечивающие крышку рычага клапанного клапана.
 
-Remove the rocker lever cover, rocker lever cover gasket, and discard the gasket.
+Удалите крышку рычага качения клапанного клапана, прокладку качения клапанного клапана и отбросьте прокладку.
 
 ![[03400123.png]]
 
-Install the cylinder head protective cover in the hole located between the push tubes to prevent debris from entering the engine while the rocker lever cover is removed.
+Установите защитную крышку головки цилиндра в отверстие, расположенное между толкающими трубками, чтобы предотвратить попадание мусора в двигатель, в то время как крышка рычага клапанного клапана удалена.
 
 ![[22400276.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use solvent to clean the rocker lever covers.
+Используйте растворитель для очистки крышек клапанного клапана.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
-Inspect the covers for cracks.
+Проверьте крышки на наличие трещин.
 
 ![[03400004.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Inspect all parts for cracks, damage, stripped threads, or damaged holes. Replace any parts that are damaged.
+Осмотрите все части на наличие трещин, повреждений, полосатых резьб или поврежденных отверстий. Замените все поврежденные части.
 
-Inspect the injector cover plate dust seal for signs of tears or damage.
+Осмотрите пылевые уплотнения форсунки для покрытия пластины на наличие признаков слез или повреждений.
 
-Replace if damaged.
+Заменить, если поврежден.
 
 ![[03400126.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!warning] CAUTION · Осторожно
-> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
+> [!warning] ОСТОРОЖНО
+> Не используйте прокладочный цемент. Гаскетный цемент не позволит прокладке должным образом запечататься.
 
-Install the gaskets, rocker lever covers, and capscrews. Tighten all the capscrews.
+Установите прокладки, крышки клапанных качелей и болты. Затяните все болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[07400026.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the cylinder head protective cover from the push tube hole.
+Удалите защитную крышку головки цилиндра из отверстия в толкающей трубке.
 
 ![[22400276.png]]
 
-Install the new rocker lever cover gasket and rocker lever cover.
+Установите новую крышку прокладки клапанного клапана и крышку рычага клапанного клапана.
 
-Secure the rocker lever cover with four capscrews.
+Закрепите крышку рычага клапанного клапана с четырьмя болтами.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[03400123.png]]
 
-If the injector cover plate dust seal was damaged and needs to be replaced, lubricate the new dust seal with clean engine oil.
+Если пылевое уплотнение форсунки было повреждено и нуждается в замене, смазайте новое пылевое уплотнение чистым моторным маслом.
 
-Check that the smooth side of the seal is facing downward and the side with the groove is facing upward.
+Убедитесь, что гладкая сторона уплотнения обращена вниз, а сторона с канавкой обращена вверх.
 
-Use a soft rubber mallet to tap the seal into place.
+Используйте мягкий резиновый молоток, чтобы нажать на уплотнение на место.
 
 ![[03k00010.png]]
 
-Lubricate the large o-ring and damper on the injector with clean engine oil. Engine oil will protect the o-ring and damper during the installation of the rocker lever cover plate.
+Смазать большое кольцо и демпфер на топливном форсунке чистым моторным маслом. Масло двигателя защитит кольцо и демпфер во время установки пластины крышки клапанного клапана.
 
-Install the new o-ring on the rocker lever cover plate.
+Установите новое кольцо на пластину крышки клапанного клапана.
 
-Install the rocker lever cover plate on the injector and tap into place with a soft face mallet. Secure to the rocker lever cover plate with two capscrews.
+Установите пластину крышки клапанного клапана на форсунка и нажмите на место с мягким лицевым молотком. Защищайте клапанную пластину крышки рычага качения двумя болтами.
 
-Install the rocker lever cover plate to the rocker lever cover.
+Установите пластину крышки клапанного клапана на крышку рычага клапанного клапана.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[03400122.png]]
 
-Connect the injector wiring harness to the injector.
+Подключите к топливному форсунке проводку жгута.
 
-Secure the injector wiring harness to the rocker lever cover with a P-clip.
+Закрепите затвор форсунки к крышке рычага клапанного клапана с помощью P-clip.
 
 ![[03400127.png]]
 
-Connect the injector wiring to the bracket by sliding onto the bracket until the electrical connection locks into position.
+Подключите проводку топливного форсунка к кронштейну, сползая на кронштейн до тех пор, пока электрическое соединение не заблокируется в положение.
 
-If the locking feature on the electrical connection is missing, use a cable tie, Part Number 3822924, or equivalent, to secure the wiring harness to the bracket.
+Если функция блокировки электрического соединения отсутствует, используйте кабельный галстук, Номер детали 3822924 или эквивалент, чтобы закрепить проводку в скобке.
 
 ![[03400169.png]]
 
-When installing the rocker lever cover of cylinder number five:
+При установке клапанного клапана качели рычага крышки цилиндра номер пять:
 
-For engines with rear out turbocharger option:
+Для двигателей с задним турбокомпрессором:
 
-Install two new stainless steel wire ties (1) to secure the turbocharger speed sensor wiring to the turbocharger
+Установите два новых проволочных галстука из нержавеющей стали (1), чтобы обеспечить подключение датчика скорости турбокомпрессора к турбокомпрессору
 
-Install the P-clips that secure the turbocharger speed sensor wiring to the injector cover plate (2) and to the rocker lever cover (3).
+Установите P-затворы, которые обеспечивают проводку датчика скорости турбокомпрессора к крышке топливного форсунка (2) и к крышке рычага клапанного клапана (3).
 
 ![[03400177.png]]
 
-For engines with the front out turbocharger option with a turbocharger elbow bracket:
+Для двигателей с передним вариантом турбокомпрессора с локтевой кронштейн турбокомпрессора:
 
-Install the P-clips (1) that secure the turbocharger speed sensor wiring to the turbocharger elbow bracket, injector cover plate (2), and to the rocker lever cover (3).
+Установите P-клипы (1), которые обеспечивают проводку датчика скорости турбокомпрессора к локтям турбокомпрессора, крышке форсунки (2) и крышке рычага качения клапанного клапана (3).
 
 ![[03400178.png]]
 
-For engines with front out turbocharger elbow bracket:
+Для двигателей с передним турбокомпрессором локтевой кронштейн:
 
-Install the P-clips that secure the turbocharger speed sensor wiring to the “L” bracket (1), injector cover plate (2), and to the rocker lever cover (3).
+Установите P-затворы, которые обеспечивают проводку датчика скорости турбокомпрессора к кронштейну (1) «L», крышке форсунки (2) и крышке рычага качения клапанного клапана (3).
 
 ![[03400179.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-- Install air crossover. Refer to Procedure 010-019 in Section A.
+- Установите воздушный кроссовер. См. процедуру 010-019 в разделе A.
+
+![[ck800wa.png]]
+
+с форсункой электронного управления
+
+- Установите линии подачи топливного форсунка высокого давления.[[20-006-051-om — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе A.]]
+- Подключите шланг для дыхания.[[20-003-001-om — Crankcase Breather (External)|См. процедуру 003-001 в разделе A.]]
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
 
-- Install the high-pressure injector supply lines. [[20-006-051-om — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section A.]]
-- Connect the crankcase breather hose. [[20-003-001-om — Crankcase Breather (External)|Refer to Procedure 003-001 in Section A.]]
-
-![[ck800wa.png]]
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Remove the air crossover. Refer to Procedure 010-019 in Section A.
+> - Remove the crankcase breather hose. [[20-003-001-om — Crankcase Breather (External)|Refer to Procedure 003-001 in Section A.]]
+>
+> with Electronically Actuated Injector
+>
+> - Disconnect the crankcase breather hose. [[20-003-001-om — Crankcase Breather (External)|Refer to Procedure 003-001 in Section A.]]
+> - Remove the high-pressure injector supply lines. [[20-006-051-om — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section A.]]
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Crankcase breathers can be mounted in any cylinder location. Record the number of breathers and their correct location before removal.
+>
+> Remove the rocker lever cover and discard the gasket.
+>
+> with Electronically Actuated Injector
+>
+> Remove the wiring harness from the rocker lever cover bracket by using a small flat tip screw driver to release the locking mechanism.
+>
+> Remove the P-clip securing the injector wiring to the bracket on the injector cover plate.
+>
+> Disconnect the electrical connector to the injector.
+>
+> For engines with rear turbocharger option:
+>
+> Remove both stainless steel wire ties (1) securing the turbocharger speed sensor wiring to the turbocharger plumbing.
+>
+> Remove the P-clips securing the turbocharger speed sensor wiring to the injector cover plate (2) and to the rocker lever cover (3).
+>
+> For engines with the front out turbocharger option, with a turbocharger elbow bracket:
+>
+> Remove the P-clips (1) securing the turbocharger speed sensor wiring to the turbocharger elbow bracket, injector cover plate (2), and to the rocker lever cover (3).
+>
+> For engines with front out turbocharger option, without a turbocharger elbow bracket:
+>
+> Remove the P-clips securing the turbocharger speed sensor wiring to the “L” bracket (1), injector cover plate (2) and to the rocker lever cover (3).
+>
+> Remove the two capscrews securing the injector cover plate to the rocker lever cover. Pry injector cover plate evenly on opposite sides using a heel bar.
+>
+> Remove the o-ring seal from the rocker lever cover plate and discard it.
+>
+> Remove the four capscrews securing the rocker lever cover.
+>
+> Remove the rocker lever cover, rocker lever cover gasket, and discard the gasket.
+>
+> Install the cylinder head protective cover in the hole located between the push tubes to prevent debris from entering the engine while the rocker lever cover is removed.
+>
+> ### Clean and Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use solvent to clean the rocker lever covers.
+>
+> Dry with compressed air.
+>
+> Inspect the covers for cracks.
+>
+> with Electronically Actuated Injector
+>
+> Inspect all parts for cracks, damage, stripped threads, or damaged holes. Replace any parts that are damaged.
+>
+> Inspect the injector cover plate dust seal for signs of tears or damage.
+>
+> Replace if damaged.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
+>
+> Install the gaskets, rocker lever covers, and capscrews. Tighten all the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> Remove the cylinder head protective cover from the push tube hole.
+>
+> Install the new rocker lever cover gasket and rocker lever cover.
+>
+> Secure the rocker lever cover with four capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> If the injector cover plate dust seal was damaged and needs to be replaced, lubricate the new dust seal with clean engine oil.
+>
+> Check that the smooth side of the seal is facing downward and the side with the groove is facing upward.
+>
+> Use a soft rubber mallet to tap the seal into place.
+>
+> Lubricate the large o-ring and damper on the injector with clean engine oil. Engine oil will protect the o-ring and damper during the installation of the rocker lever cover plate.
+>
+> Install the new o-ring on the rocker lever cover plate.
+>
+> Install the rocker lever cover plate on the injector and tap into place with a soft face mallet. Secure to the rocker lever cover plate with two capscrews.
+>
+> Install the rocker lever cover plate to the rocker lever cover.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Connect the injector wiring harness to the injector.
+>
+> Secure the injector wiring harness to the rocker lever cover with a P-clip.
+>
+> Connect the injector wiring to the bracket by sliding onto the bracket until the electrical connection locks into position.
+>
+> If the locking feature on the electrical connection is missing, use a cable tie, Part Number 3822924, or equivalent, to secure the wiring harness to the bracket.
+>
+> When installing the rocker lever cover of cylinder number five:
+>
+> For engines with rear out turbocharger option:
+>
+> Install two new stainless steel wire ties (1) to secure the turbocharger speed sensor wiring to the turbocharger
+>
+> Install the P-clips that secure the turbocharger speed sensor wiring to the injector cover plate (2) and to the rocker lever cover (3).
+>
+> For engines with the front out turbocharger option with a turbocharger elbow bracket:
+>
+> Install the P-clips (1) that secure the turbocharger speed sensor wiring to the turbocharger elbow bracket, injector cover plate (2), and to the rocker lever cover (3).
+>
+> For engines with front out turbocharger elbow bracket:
+>
+> Install the P-clips that secure the turbocharger speed sensor wiring to the “L” bracket (1), injector cover plate (2), and to the rocker lever cover (3).
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Install air crossover. Refer to Procedure 010-019 in Section A.
+>
+> with Electronically Actuated Injector
+>
+> - Install the high-pressure injector supply lines. [[20-006-051-om — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section A.]]
+> - Connect the crankcase breather hose. [[20-003-001-om — Crankcase Breather (External)|Refer to Procedure 003-001 in Section A.]]

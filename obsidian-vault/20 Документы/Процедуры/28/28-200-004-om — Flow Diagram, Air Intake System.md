@@ -14,13 +14,15 @@ families:
 manuals:
   - "3810497"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-004-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-200-004-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Air Intake System
@@ -34,56 +36,110 @@ tags:
 > **Даты:** изменён 2008-03-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-004-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-200-004-om.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Диаграмма потока
 
 ![[10600348.png]]
 
-KTTA Engines
+Двигатели KTTA
 
-1. Intake air inlet to turbocharger
-2. Low-stage turbocharger
-3. High-stage turbocharger
-4. Turbocharged air to aftercooler.
+1. Впуск воздуха в турбокомпрессор
+2. турбокомпрессор низкого уровня
+3. Высокоступенчатый турбокомпрессор
+4. Турбонаддув до охладителя.
 
 ![[10600349.png]]
 
-Center Mount Aftercooler
+Центр Маунт Афтероллер
 
-1. Intake air inlet to turbocharger
-2. Turbocharger
-3. Turbocharger air to aftercooler
-4. Intake air to cylinders.
+1. Впуск воздуха в турбокомпрессор
+2. Турбокомпрессор
+3. Воздух турбокомпрессора после охлаждения
+4. Впускайте воздух в цилиндры.
 
 ![[10600487.png]]
 
-QSK50 Intake Air Flow
+QSK50 вбирает воздушный поток
 
-1. Intake air inlet to turbochargers
-2. Low-stage turbochargers
-3. High-stage turbochargers
-4. Turbocharger air to aftercooler
-5. Aftercoolers
-6. Aftercooler air to cylinders
-7. Intake port.
+1. Впуск воздуха в турбокомпрессоры
+2. Турбокомпрессоры низкой ступени
+3. Высокоступенчатые турбокомпрессоры
+4. Воздух турбокомпрессора после охлаждения
+5. Послеохладители
+6. Послеохлаждение воздуха к цилиндрам
+7. Взять порт.
 
 ![[10600489.png]]
 
-QSK38 Marine Intake Air Flow (QSK50 similar)
+QSK38 Marine Intake Air Flow (похожий на QSK50)
 
-1. Intake air inlet to turbochargers
-2. Turbochargers
-3. Turbocharger air to aftercooler
-4. Aftercoolers
-5. Aftercooler air to cylinders
-6. Intake port.
+1. Впуск воздуха в турбокомпрессоры
+2. Турбокомпрессоры
+3. Воздух турбокомпрессора после охлаждения
+4. Послеохладители
+5. Послеохлаждение воздуха к цилиндрам
+6. Взять порт.
 
 ![[10600488.png]]
 
-QSK38 Intake Air Flow
+QSK38 вбирает воздушный поток
 
-1. Intake air inlet to turbochargers
-2. Turbochargers
-3. Turbocharger air to aftercooler
-4. Aftercoolers
-5. Aftercooler air to cylinders
-6. Intake port.
+1. Впуск воздуха в турбокомпрессоры
+2. Турбокомпрессоры
+3. Воздух турбокомпрессора после охлаждения
+4. Послеохладители
+5. Послеохлаждение воздуха к цилиндрам
+6. Взять порт.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> KTTA Engines
+>
+> 1. Intake air inlet to turbocharger
+> 2. Low-stage turbocharger
+> 3. High-stage turbocharger
+> 4. Turbocharged air to aftercooler.
+>
+> Center Mount Aftercooler
+>
+> 1. Intake air inlet to turbocharger
+> 2. Turbocharger
+> 3. Turbocharger air to aftercooler
+> 4. Intake air to cylinders.
+>
+> QSK50 Intake Air Flow
+>
+> 1. Intake air inlet to turbochargers
+> 2. Low-stage turbochargers
+> 3. High-stage turbochargers
+> 4. Turbocharger air to aftercooler
+> 5. Aftercoolers
+> 6. Aftercooler air to cylinders
+> 7. Intake port.
+>
+> QSK38 Marine Intake Air Flow (QSK50 similar)
+>
+> 1. Intake air inlet to turbochargers
+> 2. Turbochargers
+> 3. Turbocharger air to aftercooler
+> 4. Aftercoolers
+> 5. Aftercooler air to cylinders
+> 6. Intake port.
+>
+> QSK38 Intake Air Flow
+>
+> 1. Intake air inlet to turbochargers
+> 2. Turbochargers
+> 3. Turbocharger air to aftercooler
+> 4. Aftercoolers
+> 5. Aftercooler air to cylinders
+> 6. Intake port.

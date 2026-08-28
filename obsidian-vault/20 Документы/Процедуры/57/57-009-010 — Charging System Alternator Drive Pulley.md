@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021539"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-010.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-010.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator Drive Pulley
@@ -34,58 +36,118 @@ tags:
 > **Даты:** изменён 2025-12-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-010.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-010.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Contact cleaner, Part Number 3824510, or equivalent
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Контактный очиститель, номер детали 3824510 или эквивалент
 
-### Preparatory Steps
+#### Дополнительные сервисные позиции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+- Никаких дополнительных предметов обслуживания не требуется.
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the belt guard, if equipped. [[57-008-001 — Belt Guard|Refer to Procedure 008-001 in Section 8.]]
-- Remove the charging system alternator drive belt. Refer to Procedure 013-005 in Section 13.
+### Подготовительные операции
 
-### Remove
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-Remove the charging system alternator drive pulley.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Снимите охрану ремня, если она оборудована.[[57-008-001 — Belt Guard|См. процедуру 008-001 в разделе 8.]]
+- Удалите ремень привода генератора переменного тока. См. процедуру 013-005 в разделе 13.
+
+### Снятие
+
+Удалите систему зарядки генератора переменного тока шкив.
 
 ![[01a00004.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Remove any buildup in the charging system alternator drive pulley grooves.
+Удалите любое накопление в системе зарядки генератора переменного тока шкивов.
 
-Clean with contact cleaner, Part Number 3824510, or equivalent.
+Чистый с контактным очистителем, Номер детали 3824510, или эквивалент.
 
-Inspect for cracks and other damage.
+Проверка на наличие трещин и других повреждений.
 
-Replace if damage is found.
+Заменить, если обнаружен ущерб.
 
 ![[09n00011.png]]
 
-### Install
+### Установка
 
-Install the charging system alternator drive pulley.
+Установите систему зарядки генератора переменного тока шкив.
 
-> [!tip] Момент затяжки · Torque Value
-> 31 n•m [23 ft-lb]
+> [!tip] Момент затяжки
+> 31 Н·м [23 фунт-фут]
 
 ![[09a00007.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+
+- Установите ремень привода генератора переменного тока. См. процедуру 013-005 в разделе 13.
+- Установите охрану ремня, если она оборудована.[[57-008-001 — Belt Guard|См. процедуру 008-001 в разделе 8.]]
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем и проверяйте его правильность.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Contact cleaner, Part Number 3824510, or equivalent
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Install the charging system alternator drive belt. Refer to Procedure 013-005 in Section 13.
-- Install the belt guard, if equipped. [[57-008-001 — Belt Guard|Refer to Procedure 008-001 in Section 8.]]
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine and check for proper operation.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the belt guard, if equipped. [[57-008-001 — Belt Guard|Refer to Procedure 008-001 in Section 8.]]
+> - Remove the charging system alternator drive belt. Refer to Procedure 013-005 in Section 13.
+>
+> ### Remove
+>
+> Remove the charging system alternator drive pulley.
+>
+> ### Clean and Inspect for Reuse
+>
+> Remove any buildup in the charging system alternator drive pulley grooves.
+>
+> Clean with contact cleaner, Part Number 3824510, or equivalent.
+>
+> Inspect for cracks and other damage.
+>
+> Replace if damage is found.
+>
+> ### Install
+>
+> Install the charging system alternator drive pulley.
+>
+> **Момент затяжки · Torque Value**
+> 31 n•m [23 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the charging system alternator drive belt. Refer to Procedure 013-005 in Section 13.
+> - Install the belt guard, if equipped. [[57-008-001 — Belt Guard|Refer to Procedure 008-001 in Section 8.]]
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine and check for proper operation.

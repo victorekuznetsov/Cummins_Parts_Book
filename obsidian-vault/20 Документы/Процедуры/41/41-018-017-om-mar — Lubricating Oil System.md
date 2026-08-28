@@ -14,13 +14,15 @@ families:
 manuals:
   - "3381968"
   - "4915514"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-018-017-om-mar.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-018-017-om-mar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil System
@@ -34,21 +36,50 @@ tags:
 > **Даты:** изменён 2012-07-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-018-017-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-018-017-om-mar.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Oil Pressure
 
-| At Idle Speed - Minimum | 55 kPa \[8 psi\] |
+### Спецификации
+
+#### Нефтяное давление
+
+| При скорости холостого хода - минимальная | 55 кПа[8 psi] |
 |---|---|
 
-| Normal Operating Range | 205 to 517 kPa \[30 to 75 psi\] |
+| Нормальный диапазон действия | 205-517 кПа[30-75 psi] |
 |---|---|
 
-| Maximum Allowable Oil Temperature | 120°C \[250°F\] |
+| Максимальная допустимая температура масла | 120°C[250°F] |
 |---|---|
 
-| Oil Pan Capacity High/Low | 17/13 liters \[18/14 qt\] |
+| Нефтяной панк-емкость высокая/низкая | 17/13 литров [18/14 квт] |
 |---|---|
 
-| Total System Capacity (excluding bypass filter) | 21.9 liters \[23.2 qt\] |
+| Общая емкость системы (исключая обходной фильтр) | 21,9 литра[23,2 квт] |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> #### Oil Pressure
+>
+> | At Idle Speed - Minimum | 55 kPa \[8 psi\] |
+> |---|---|
+>
+> | Normal Operating Range | 205 to 517 kPa \[30 to 75 psi\] |
+> |---|---|
+>
+> | Maximum Allowable Oil Temperature | 120°C \[250°F\] |
+> |---|---|
+>
+> | Oil Pan Capacity High/Low | 17/13 liters \[18/14 qt\] |
+> |---|---|
+>
+> | Total System Capacity (excluding bypass filter) | 21.9 liters \[23.2 qt\] |
+> |---|---|

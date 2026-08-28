@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-007-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-007-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Bearings, Thrust
@@ -34,31 +36,64 @@ tags:
 > **Даты:** изменён 2015-09-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-007-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-007-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Before installing the thrust bearings, refer to General Information, in Procedure [[20-001-006-tr — Bearings, Main|Refer to Procedure 001-006 in Section 1.]]
 
-Use clean engine oil. Lubricate the upper thrust bearings.
+### Установка
+
+Перед установкой подшипников тяги обратитесь к общей информации в процедуре[[20-001-006-tr — Bearings, Main|См. процедуру 001-006 в разделе 1.]]
+
+Используйте чистое моторное масло. Смазать верхние подшипники тяги.
 
 ![[mb1bewb.png]]
 
-> [!warning] CAUTION · Осторожно
-> The grooves in the thrust bearings must point toward the crankshaft.
+> [!warning] ОСТОРОЖНО
+> Канавки в подшипниках тяги должны указывать на коленчатый вал.
 
-Install the bearings in the Number 6 location.
+Установите подшипники в месте № 6.
 
-> [!note] Note · Примечание
-> Move the crankshaft to the front or to the rear so the second thrust bearing to be installed.
+> [!note] Примечание
+> Переместите коленчатый вал в переднюю или заднюю часть, чтобы установить второй подшипник тяги.
 
-Torque the main bearing cap. [[20-001-006-tr — Bearings, Main|Refer to Procedure 001-006 in Section 1.]]
+Вкрутите главный подшипник.[[20-001-006-tr — Bearings, Main|См. процедуру 001-006 в разделе 1.]]
 
 ![[mb1behb.png]]
 
-Use a dial indicator and measure the crankshaft end clearance. [[20-001-006-tr — Bearings, Main|Refer to Procedure 001-006 in Section 1.]]
+Используйте индикатор циферблата и измерьте конечный зазор коленчатого вала.[[20-001-006-tr — Bearings, Main|См. процедуру 001-006 в разделе 1.]]
 
-If the clearance is **not** within specifications, check for foreign material. Oversize thrust bearings are available to adjust the end clearance.
+Если разрешение **не** в пределах спецификаций, проверьте наличие иностранного материала. Для регулировки зазора на конце имеются подшипники с большой тягой.
 
-> [!note] Note · Примечание
-> The upper and **lower** thrust bearing on the same side of the main caps **must** be the same thickness.
+> [!note] Примечание
+> Верхняя и нижняя тяга, находящаяся на одной стороне главных колпаков, должны быть одинаковой толщины.
 
 ![[mb1beja.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Before installing the thrust bearings, refer to General Information, in Procedure [[20-001-006-tr — Bearings, Main|Refer to Procedure 001-006 in Section 1.]]
+>
+> Use clean engine oil. Lubricate the upper thrust bearings.
+>
+> **CAUTION · Осторожно**
+> The grooves in the thrust bearings must point toward the crankshaft.
+>
+> Install the bearings in the Number 6 location.
+>
+> **Note · Примечание**
+> Move the crankshaft to the front or to the rear so the second thrust bearing to be installed.
+>
+> Torque the main bearing cap. [[20-001-006-tr — Bearings, Main|Refer to Procedure 001-006 in Section 1.]]
+>
+> Use a dial indicator and measure the crankshaft end clearance. [[20-001-006-tr — Bearings, Main|Refer to Procedure 001-006 in Section 1.]]
+>
+> If the clearance is **not** within specifications, check for foreign material. Oversize thrust bearings are available to adjust the end clearance.
+>
+> **Note · Примечание**
+> The upper and **lower** thrust bearing on the same side of the main caps **must** be the same thickness.

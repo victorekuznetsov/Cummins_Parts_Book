@@ -13,13 +13,15 @@ engines:
   - "93087701"
 families:
   - "C8.3 · 6C8.3"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100077.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100077.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
   - "год/2005"
+  - "перевод/машинный"
   - "тема/cylinder-head"
 ---
 
@@ -33,12 +35,32 @@ tags:
 > **Даты:** выпущен 2005-02-21 · изменён 2005-02-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100077.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100077.pdf)
 
-## Cylinder Head Torque For New Block and Capscrews
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Момент затяжки ГБЦ для нового блока и болтов
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin has been superseded by Service/Parts Topic 99T2-6.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Данный технический бюллетень был заменен темой 99T2-6.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Cylinder Head Torque For New Block and Capscrews
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin has been superseded by Service/Parts Topic 99T2-6.

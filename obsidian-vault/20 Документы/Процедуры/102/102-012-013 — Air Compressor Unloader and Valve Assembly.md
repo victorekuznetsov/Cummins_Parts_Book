@@ -26,7 +26,8 @@ manuals:
   - "3810497"
   - "4021374"
 figures: 14
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-012-013.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-012-013.pdf"
 tags:
@@ -36,6 +37,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/102"
+  - "перевод/машинный"
 ---
 
 # Air Compressor Unloader and Valve Assembly
@@ -49,100 +51,180 @@ tags:
 > **Даты:** изменён 2022-06-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-012-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-012-013.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the air governor or air governor signal line from the air compressor body.
+
+### Контроль при обслуживании
+
+Удалите сигнальную линию воздуховодного или воздушного управляющего из корпуса воздушного компрессора.
 
 ![[gv8coma.png]]
 
-Operate the engine to activate the air compressor.
+Управляйте двигателем, чтобы активировать воздушный компрессор.
 
-If the air compressor is **not** pumping, the unloader valve is malfunctioning and **must** be repaired or repalced.
+Если воздушный компрессор **не** перекачивается, клапан разгрузчика неисправен и * должен быть отремонтирован или отремонтирован.
 
 ![[gv800ka.png]]
 
-> [!danger] WARNING · Опасно
-> The unloader valve body is installed with spring tension. To reduce the possibility of personal injury, hold the unloader body down while removing the capscrews.
+> [!danger] ОПАСНО
+> Корпус разгрузочного клапана установлен с пружинным натяжением. Чтобы уменьшить вероятность получения травмы, удерживайте тело разгрузчика при удалении болтов.
 
-Hold the unloader body down and remove the four capscrews.
+Удерживайте корпус разгрузчика и удалите четыре болта.
 
-Remove the unloader valve spring.
+Удалите пружину разгрузочного клапана.
 
-Remove the unloader valve cap.
+Снимите крышку разгрузочного клапана.
 
 ![[cp8vaqb.png]]
 
-Remove the unloader body gasket and unloader valve cap rectangular ring seal.
+Удалите прокладку корпуса разгрузчика и заглушку клапана разгрузчика прямоугольным кольцевым уплотнением.
 
 ![[cp8vamr.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Do not use caustic cleaners. Caustic cleaners can cause personal injury and damage component parts.
+> [!danger] ОПАСНО
+> Не используйте едкие чистящие средства. Причинные очистители могут вызвать травмы и повреждения компонентов.
 
-Clean the unloader valve body with solvent and a nonmetallic brush to remove carbon and varnish. Do **not** use a sharp object. The sealing surface can be damaged.
+Очистить корпус разгрузочного клапана растворителем и неметаллической щеткой для удаления углерода и лака. Не используйте острый предмет. Уплотняющая поверхность может быть повреждена.
 
 ![[cp8vaeb.png]]
 
-Inspect the upper part of the center unloader valve cap where the rectangular ring seal seats for scoring.
+Осмотрите верхнюю часть центральной разгрузочной крышки клапана, где расположены прямоугольные кольцевые сиденья уплотнения для забивания.
 
-Replace the unloader valve cap if scored.
+Заменить разгрузочный клапан на забитый.
 
 ![[cp8cusa.png]]
 
-Inspect the unloader valve for deep scratches or cracks.
+Проверьте клапан разгрузчика на наличие глубоких царапин или трещин.
 
-Replace the unloader valve if scratched or cracked.
+Замените разгрузочный клапан, если он поцарапан или треснул.
 
 ![[gv6vasc.png]]
 
-Inspect the unloader valve for carbon buildup.
+Проверить клапан разгрузчика на накопление углерода.
 
-If carbon or heavy varnish is present, remove, clean, and inspect the compressor head and valve assembly.
+Если присутствует углерод или тяжелый лак, удалите, очистите и проверьте головку компрессора и клапанный узел.
 
-Replace the parts as necessary. Contact a Cummins® Authorized Repair Facility as needed.
+Замените детали по мере необходимости. Свяжитесь с авторизованным ремонтным центром Cummins® по мере необходимости.
 
 ![[cp8vasa.png]]
 
-Install the new rectangular V-seal into the unloader body with the grooved side up.
+Установите новую прямоугольную V-печать в корпус разгрузчика с выгнутой стороной вверх.
 
-Liberally lubricate the unloader valve bore above and beyond the rectangular ring seal with high-temperature grease (Accrolube lubrication Teflon grease, or equivalent).
+Либерально смазывать разгрузочный клапан цилиндра, который находится над и за пределами прямоугольного кольцевого уплотнения с высокотемпературной смазкой (Accrolube lubrication Teflon grease, или эквивалент).
 
 ![[cp8sehg.png]]
 
-Install a new o-ring seal on the unloader valve body.
+Установите новое уплотнение на корпус разгрузочного клапана.
 
 ![[cp8sehh.png]]
 
-Use clean 15W-40 oil to lubricate the valve body seal.
+Используйте чистое масло 15W-40 для смазки уплотнения корпуса клапана.
 
 ![[cp8sewa.png]]
 
-Liberally lubricate the unloader valve body bore and unloader cap with high-temperature grease (Accrolube lubrication Teflon grease, or the equivalent).
+Либерально смазывать разгрузочный клапан корпуса цилиндра и разгрузочный колпачок высокотемпературной смазкой (Accrolube lubrication Teflon grease, или эквивалент).
 
-Install the unloader cap.
+Установите шапку разгрузчика.
 
-Install the unloader spring.
+Установите пружину разгрузчика.
 
 ![[cp8brwb.png]]
 
-Lubricate the unloader capscrew threads and under head with clean engine oil (SAE 15W-40).
+Смазать разгрузчик болтами резьбы и под головой чистым моторным маслом (SAE 15W-40).
 
-The two unloader body capscrews **must not** be used to attach any brackets.
+Два разгрузочных болта не должны использоваться для крепления каких-либо скобок.
 
 ![[cp8cswc.png]]
 
-The longer capscrews are used to mount the manifold to the compressor.
+Более длинные болты используются для крепления коллектора к компрессору.
 
-Assemble the unloader components and attach the unloader assembly to the valve plate with the four capscrews and washers
+Собрать компоненты разгрузчика и прикрепить разгрузочный блок к пластине клапана с четырьмя болтами и шайбами
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [20 ft-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [20 фунт-фут]
 
-Operate the engine and check the air compressor for air leaks.
+Управляйте двигателем и проверяйте воздушный компрессор на наличие утечек воздуха.
 
 ![[cp8vaqb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Remove the air governor or air governor signal line from the air compressor body.
+>
+> Operate the engine to activate the air compressor.
+>
+> If the air compressor is **not** pumping, the unloader valve is malfunctioning and **must** be repaired or repalced.
+>
+> **WARNING · Опасно**
+> The unloader valve body is installed with spring tension. To reduce the possibility of personal injury, hold the unloader body down while removing the capscrews.
+>
+> Hold the unloader body down and remove the four capscrews.
+>
+> Remove the unloader valve spring.
+>
+> Remove the unloader valve cap.
+>
+> Remove the unloader body gasket and unloader valve cap rectangular ring seal.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Do not use caustic cleaners. Caustic cleaners can cause personal injury and damage component parts.
+>
+> Clean the unloader valve body with solvent and a nonmetallic brush to remove carbon and varnish. Do **not** use a sharp object. The sealing surface can be damaged.
+>
+> Inspect the upper part of the center unloader valve cap where the rectangular ring seal seats for scoring.
+>
+> Replace the unloader valve cap if scored.
+>
+> Inspect the unloader valve for deep scratches or cracks.
+>
+> Replace the unloader valve if scratched or cracked.
+>
+> Inspect the unloader valve for carbon buildup.
+>
+> If carbon or heavy varnish is present, remove, clean, and inspect the compressor head and valve assembly.
+>
+> Replace the parts as necessary. Contact a Cummins® Authorized Repair Facility as needed.
+>
+> Install the new rectangular V-seal into the unloader body with the grooved side up.
+>
+> Liberally lubricate the unloader valve bore above and beyond the rectangular ring seal with high-temperature grease (Accrolube lubrication Teflon grease, or equivalent).
+>
+> Install a new o-ring seal on the unloader valve body.
+>
+> Use clean 15W-40 oil to lubricate the valve body seal.
+>
+> Liberally lubricate the unloader valve body bore and unloader cap with high-temperature grease (Accrolube lubrication Teflon grease, or the equivalent).
+>
+> Install the unloader cap.
+>
+> Install the unloader spring.
+>
+> Lubricate the unloader capscrew threads and under head with clean engine oil (SAE 15W-40).
+>
+> The two unloader body capscrews **must not** be used to attach any brackets.
+>
+> The longer capscrews are used to mount the manifold to the compressor.
+>
+> Assemble the unloader components and attach the unloader assembly to the valve plate with the four capscrews and washers
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [20 ft-lb]
+>
+> Operate the engine and check the air compressor for air leaks.

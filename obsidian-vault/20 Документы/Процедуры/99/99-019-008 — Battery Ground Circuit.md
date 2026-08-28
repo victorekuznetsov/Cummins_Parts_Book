@@ -46,7 +46,8 @@ manuals:
   - "4021442"
   - "4021674"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-008.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-008.pdf"
 tags:
@@ -60,6 +61,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Battery Ground Circuit
@@ -73,21 +75,44 @@ tags:
 > **Даты:** изменён 2012-03-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-008.pdf)
 
-### Resistance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check the Original Equipment Manufacturer harness ground connection for loose, corroded, or broken connections.
+
+### Проверка сопротивления
+
+Проверьте оригинальное оборудование производителя проводов наземного соединения для рыхлых, корродированных или сломанных соединений.
 
 ![[19803965.png]]
 
-> [!warning] CAUTION · Осторожно
-> The leads must fit tightly in the connector without expanding the pins in the connector otherwise the connector will be damaged.
+> [!warning] ОСТОРОЖНО
+> Лиды должны плотно поместиться в разъеме без расширения штифтов в разъеме, иначе разъем будет поврежден.
 
-Measure the resistance between the battery supply negative (-) pin of the Original Equipment Manufacturer harness control module connector(s) and engine block ground or chassis ground for each control module. Reference the wiring diagram for connector pin identification. The resistance **must** be 10 ohms or less.
+Измерить сопротивление между отрицательной (-) наконечником питания батареи разъёма (разъемов) модуля управления оригинального оборудования изготовителя и заземлением блока двигателя или заземлением шасси для каждого модуля управления. Ссылка на схему проводов для идентификации контакта с разъемом. Сопротивление должно быть 10 Ом или меньше.
 
 ![[19c01148.png]]
 
-If the resistance value is **not** correct, check the batteries, cables, and cable connections.
+Если значение сопротивления **не** правильно, проверьте батареи, кабели и кабельные соединения.
 
-Repair or replace the parts as required.
+Ремонт или замена деталей по мере необходимости.
 
 ![[ee8cos38.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Resistance Check
+>
+> Check the Original Equipment Manufacturer harness ground connection for loose, corroded, or broken connections.
+>
+> **CAUTION · Осторожно**
+> The leads must fit tightly in the connector without expanding the pins in the connector otherwise the connector will be damaged.
+>
+> Measure the resistance between the battery supply negative (-) pin of the Original Equipment Manufacturer harness control module connector(s) and engine block ground or chassis ground for each control module. Reference the wiring diagram for connector pin identification. The resistance **must** be 10 ohms or less.
+>
+> If the resistance value is **not** correct, check the batteries, cables, and cable connections.
+>
+> Repair or replace the parts as required.

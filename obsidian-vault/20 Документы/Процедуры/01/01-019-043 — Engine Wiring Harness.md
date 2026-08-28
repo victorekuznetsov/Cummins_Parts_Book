@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 153
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-043.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-043.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Wiring Harness
@@ -34,896 +36,1494 @@ tags:
 > **Даты:** изменён 2014-04-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-043.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The PowerCommand Control 3200 and the generator-drive control system-equipped engines have multiple harnesses.
 
-The engine harness is mounted on the engine and is routed from the inline connectors.
+### Общие сведения
+
+PowerCommand Control 3200 и двигатели с системой управления с приводом генератора имеют несколько проводных ремней.
+
+Упряжка для проводов двигателя установлена на двигателе и маршрутизируется от встроенных разъемов.
 
 ![[17600025.png]]
 
 QST30
 
-The QST30 generator-drive uses extension cables and an adapter cable to attach the engine harness to the engine control module (ECM).
+Генератор-привод QST30 использует удлинительные кабели и адаптерный кабель для подключения проводов двигателя к модулю управления двигателем (ECM).
 
-The QST30 generator-drive upgrade engine also uses two separate wiring harnesses to control the engine and some of the equipment operations.
+Модернизация двигателя QST30 с генераторным приводом также использует два отдельных проводных ремня для управления двигателем и некоторыми операциями оборудования.
 
-- Engine harness.
-- Original equipment manufacturer (OEM) harness.
+- Жгут проводов двигателя.
+- Производитель оригинального оборудования (OEM) проводной упряжи.
 
 ![[19a00032.png]]
 
-Replace a harness or extension/adapter cable if an open circuit or a short circuit is found under the protective covering of the harness body.
+Заменить проводной упряжь или удлинитель/адаптер кабеля, если под защитным покрытием корпуса проводов находится открытая цепь или короткое замыкание.
 
 ![[19400386.png]]
 
-### Remove
+### Снятие
 
 QSX15
 
-Disconnect the engine harness from the electrical system at the Inline E connector.
+Отсоедините проводку двигателя от электрической системы на разъеме Inline E.
 
 ![[19802561.png]]
 
-Disconnect the engine harness from the coolant temperature sensor.
+Отсоедините проводку двигателя от датчика температуры охлаждающей жидкости.
 
 ![[19c00248.png]]
 
-Disconnect the engine harness from the intake manifold pressure/temperature sensor.
+Отсоедините проводку двигателя от датчика давления/температуры впускного коллектора.
 
 ![[19900789.png]]
 
-Disconnect the engine harness from the fuel pressure sensor.
+Отсоедините проводку двигателя от датчика давления топлива.
 
 ![[19802624.png]]
 
-Disconnect the engine harness from the fuel system actuators:
+Отсоедините электропроводку двигателя от приводов топливной системы:
 
-1. Fueling actuator 1.
-2. Timing actuator 1.
-3. Timing actuator 2.
-4. Fueling actuator 2.
+1. Топливный привод 1.
+2. Временный привод 1.
+3. Временный привод 2.
+4. Топливный привод 2.
 
 ![[19802625.png]]
 
-Disconnect the engine harness from the fuel shutoff valve.
+Отсоедините жгут электропроводки двигателя от клапана отключения топлива.
 
 ![[19802549.png]]
 
-Disconnect the engine harness from the extension harness at Inline A, Inline B, and Inline C connectors.
+Отсоедините жгут проводов двигателя от удлинителя проводов на разъемах Inline A, Inline B и Inline C.
 
 ![[19802556.png]]
 
-Disconnect the engine harness from the crankshaft engine speed sensor.
+Отсоедините жгут электропроводки двигателя от датчика скорости коленчатого вала двигателя.
 
-Disconnect the engine harness from the camshaft engine speed sensor.
+Отсоедините жгут электропроводки двигателя от датчика скорости двигателя распределительного вала.
 
 ![[17c00050.png]]
 
-Disconnect the engine harness from the barometric pressure sensor.
+Отсоедините проводку двигателя от барометрического датчика давления.
 
 ![[17c00054.png]]
 
-Disconnect the engine harness from the oil pressure/temperature sensor.
+Отсоедините проводку двигателя от датчика давления/температуры масла.
 
 ![[19900794.png]]
 
-Disconnect the engine harness from the fuel supply pump connector, if equipped.
+Отсоедините проводку двигателя от разъема насоса подачи топлива, если он оборудован.
 
 ![[19600429.png]]
 
-Disconnect the engine harness from the Centinel™ actuator connector, if equipped.
+Отсоедините жгут электропроводки двигателя от разъема привода CentinelTM, если он оборудован.
 
 ![[05600052.png]]
 
-Disconnect the engine harness from the Centinel™ makeup tank oil level sensor inline connector, if equipped.
+Отсоедините жгут проводов двигателя от встроенного разъёма датчика уровня масла в баке CentinelTM, если он оборудован.
 
 ![[05100029.png]]
 
-Disconnect the engine harness from the coolant level switch sensor at the 4-pin inline connector.
+Отсоедините проводку двигателя от датчика переключателя уровня охлаждающей жидкости на 4-контактном встроенном разъеме.
 
-Remove any harness supports.
+Удалите все проводов, поддерживающие ремни.
 
-Make sure that all connections made by the engine harness are disconnected and untangled.
+Убедитесь, что все соединения, сделанные с помощью ремня электропроводки двигателя, отключены и распутаны.
 
-Slowly pull the engine harness away, and make sure that there is no binding or tangling.
+Медленно оттяните упряжку от проводов двигателя и убедитесь, что нет связывания или запутывания.
 
 ![[19400417.png]]
 
-QSK23 Engines
+Двигатели QSK23
 
-Disconnect the engine harness from the coolant temperature sensor (1).
+Отсоедините проводку двигателя от датчика температуры охлаждающей жидкости (1).
 
-Remove the engine harness P-clip, spacer, and bracket mounted to thermostat housing (2).
+Удалите проводку двигателя, затвор P-clip, прокладку и кронштейн, установленные на корпус термостата (2).
 
 ![[19401004.png]]
 
-Remove the eight engine harness P-clips from the front of the engine, as shown.
+Удалите восемь проводов двигателя, используя P-клипы с передней части двигателя, как показано.
 
 ![[19401005.png]]
 
-Disconnect the engine harness from the intake manifold temperature and pressure sensors, located on the right side of the fuel filters.
+Отсоедините проводку двигателя от датчиков температуры и давления впускного коллектора, расположенных на правой стороне топливных фильтров.
 
-Remove the engine harness P-clip and spacer attached near the intake manifold pressure sensor.
+Удалите проводку двигателя с помощью P-clip и прокладки, прикрепленной рядом с датчиком давления впускного коллектора.
 
 ![[19401006.png]]
 
-Remove the engine harness P-clips (1) attached to the fuel pump mounting flange.
+Удалите проводку двигателя упряжки P-clips (1), прикрепленные к фланцу установки топливного насоса.
 
-Disconnect the engine harness from the fuel pump actuator (2) and fuel pump pressure sensor (3) connectors.
+Отсоедините электропроводку двигателя от исполнительного устройства (2) топливного насоса и датчика давления (3) топливного насоса.
 
 ![[19401007.png]]
 
-Remove the harness P-clip and the engine ground wire (1) and disconnect the oil pressure sensor (2).
+Удалите проводку упряжки P-clip и заземляющий провод двигателя (1) и отсоедините датчик давления масла (2).
 
 ![[19401008.png]]
 
-Remove the harness P-clips (1) and bracket (2) mounted to and just below the ECM near the ambient air pressure sensor (3).
+Удалите проводку упряжки P-clips (1) и скобки (2), установленные на и чуть ниже ECM рядом с датчиком давления окружающего воздуха (3).
 
-Disconnect the ambient air pressure sensor (3).
+Отключите датчик давления окружающего воздуха (3).
 
 ![[19401009.png]]
 
-Cut the nine wire ties holding the engine harness to the support bracket.
+Разрежьте девять проводных связей, удерживающих ремень проводов двигателя, до опорной кронштейна.
 
 ![[19401010.png]]
 
-Disconnect the engine harness from the following:
+Отсоедините электропроводку двигателя от следующего:
 
-1. ECM connector A.
-2. Fuel rail actuator.
-3. Fuel shutoff solenoid.
-4. Fuel timing actuator.
-5. Fuel temperature sensor.
+1. Разъем ECM A.
+2. Привод рельсов топлива.
+3. Отключение топлива соленоид.
+4. Привод синхронизации топлива.
+5. Датчик температуры топлива.
 
 ![[19401011.png]]
 
-Disconnect the engine harness from the following:
+Отсоедините электропроводку двигателя от следующего:
 
-1. Rail pressure sensor.
-2. Timing pressure sensor.
+1. Датчик давления в топливной рампе.
+2. Датчик давления опережения впрыска.
 
 ![[19401012.png]]
 
-> [!note] Note · Примечание
-> The industrial wiring harness is shown, the power generation wiring harness routing will be slightly different and the harness will have some different connectors.
+> [!note] Примечание
+> Показано промышленное электропроводное устройство, маршрутизация электропроводки будет немного отличаться, а электропроводное устройство будет иметь несколько разных разъемов.
 
-Disconnect the data link (1) connector connecting the engine harness to the OEM harness.
+Отсоедините шину (1) данных CAN, соединяющую жгут проводов двигателя с ремнем проводов OEM.
 
-Remove the wiring P-clip (3) and intake heater connector bracket (4) located above the number 6 cam follower cover.
+Удалите проводку P-clip (3) и соединительный кронштейн (4) впускного нагревателя, расположенный над крышкой крана № 6.
 
-Remove the P-clip (2) near the lower right corner of the number 5 cam follower cover.
+Удалите P-клип (2) рядом с нижним правым углом крышки крана № 5.
 
 ![[19401013.png]]
 
-Remove the P-clips (1) to the rear of the intake manifold and the rear of the cylinder block.
+Удалите P-затворы (1) в заднюю часть впускного коллектора и заднюю часть блока цилиндров.
 
-Disconnect the engine speed sensor connectors (2) and remove the engine harness.
+Отсоедините разъемы датчика скорости двигателя (2) и удалите электропроводку двигателя.
 
 ![[19401015.png]]
 
 QST30
 
-Disconnect the engine harness from the coolant pressure sensor, if equipped.
+Отсоедините проводку двигателя от датчика давления охлаждающей жидкости, если он оборудован.
 
-Remove the engine harness clamps.
+Удалите зажимы ремней жгутов проводов.
 
-Disconnect the engine harness from the coolant temperature sensor and coolant level sensors.
+Отсоедините проводку двигателя от датчика температуры охлаждающей жидкости и датчиков уровня охлаждающей жидкости.
 
-Disconnect the engine harness from the coolant level harness extension connector.
+Отсоедините проводку двигателя от разъема расширения упругой проводов уровня охлаждающей жидкости.
 
 ![[19a00334.png]]
 
-Cut the ties on the thermostat housing bracket, aftercooler tube, and fuel tube.
+Разрежьте галстуки на кронштейне корпуса термостата, трубке послеохладителя и топливной трубке.
 
 ![[19801067.png]]
 
-Disconnect the engine harness from the left bank intake manifold pressure sensor.
+Отсоедините жгут электропроводки двигателя от датчика давления впускного коллектора левого берега.
 
 ![[19a00335.png]]
 
-Disconnect the two 6-pin or one 9-pin data link connector(s) from the harness support bracket by removing the capscrews.
+Отсоедините два 6-контактных или один 9-контактный разъем (разъемы) шины данных CAN от кронштейна поддержки проводов, удалив болты.
 
 ![[19a00273.png]]
 
-Disconnect the inline connector bracket which includes the barometric pressure sensor connector.
+Отсоедините встроенный соединительный кронштейн, который включает в себя разъем датчика барометрического давления.
 
 ![[19d01894.png]]
 
-Disconnect the engine harness from the oil pressure sensor.
+Отсоедините проводку двигателя от датчика давления масла.
 
 ![[19a00254.png]]
 
-Disconnect the engine harness from the oil temperature sensor, if equipped.
+Отключите проводку двигателя от датчика температуры масла, если он оборудован.
 
 ![[19a00558.png]]
 
-Disconnect the engine harness from the left bank fuel pump connector.
+Отсоедините жгут электропроводки двигателя от разъема топливного насоса левого берега.
 
 ![[19a00274.png]]
 
-Disconnect the engine harness from the left bank fuel shutoff valve connectors.
+Отсоедините жгут электропроводки двигателя от разъемов запорного клапана левого берега.
 
 ![[19a00249.png]]
 
-Disconnect the engine harness from the Centinel™ oil level extension harness, if equipped.
+Отсоедините жгут проводов двигателя от удлинителя удлинителя уровня масла CentinelTM, если он оборудован.
 
 ![[19a00558.png]]
 
-Disconnect the engine harness from the left bank intake manifold air temperature sensor.
+Отсоедините жгут электропроводки двигателя от датчика температуры воздуха впускного коллектора левого берега.
 
 ![[19a00247.png]]
 
-Disconnect the engine harness from the grid heater relay connector, if equipped.
+Отсоедините проводку двигателя от ретранслятора реле реле, если он оборудован.
 
 ![[19a00793.png]]
 
-Disconnect the engine harness from the engine speed sensor.
+Отсоедините проводку двигателя от датчика скорости двигателя.
 
 ![[19a00245.png]]
 
-Disconnect the engine harness from the Centinel™ tank switch extension, if equipped.
+Отсоедините жгут электропроводки двигателя от расширения переключателя цистерны CentinelTM, если он оборудован.
 
 ![[19600430.png]]
 
-Disconnect the engine harness engine block ground from the engine block.
+Отсоедините проводку двигателя с заземлением блока двигателя от блока двигателя.
 
 ![[19400393.png]]
 
-Disconnect the engine harness from the fuel supply pump connectors.
+Отсоедините проводку двигателя от разъемов насоса подачи топлива.
 
 ![[19a00792.png]]
 
-Disconnect the engine harness from the fuel supply pump pressure and temperature sensor connectors.
+Отсоедините проводку двигателя от разъемов датчика давления и температуры топливного насоса.
 
 ![[19a00791.png]]
 
-Disconnect the engine harness from the right bank intake manifold air temperature sensor number 2 connector.
+Отсоедините жгут электропроводки двигателя от разъема 2-го разъема датчика температуры воздуха на правом берегу.
 
 ![[19a00277.png]]
 
-Disconnect the engine harness from the Centinel™ actuator connector, if equipped.
+Отсоедините жгут электропроводки двигателя от разъема привода CentinelTM, если он оборудован.
 
 ![[05600052.png]]
 
-Disconnect the engine harness from the right bank fuel injection pump connector.
+Отсоедините жгут электропроводки двигателя от разъема насоса впрыска топлива правого берега.
 
 ![[19a00274.png]]
 
-Disconnect the engine harness from the right bank fuel shutoff valve connectors.
+Отсоедините жгут электропроводки двигателя от разъемов запорного клапана правого берега.
 
 ![[19a00249.png]]
 
-Remove all P-clips and harness retainers from the engine harness and remove the harness.
+Удалите все P-клипы и фиксатора жгута проводов из ремня жгута проводов двигателя и удалите ремень проводов.
 
-Use a 4 mm \[5/32 in\] hex head wrench to disconnect the engine harness Deutsch™ connector from the ECM.
+Используйте 4 мм \[5/32 в \] шестиглавый ключ для отключения разъема электропроводки двигателя DeutschTM от ECM.
 
 ![[19802555.png]]
 
-QST30 Upgrade
+QST30 Обновление
 
-Disconnect the engine harness from the electrical system at the Inline E connector.
+Отсоедините проводку двигателя от электрической системы на разъеме Inline E.
 
 ![[19802561.png]]
 
-Remove the engine harness clamps.
+Удалите зажимы ремней жгутов проводов.
 
-Disconnect the engine harness from the coolant temperature sensor.
+Отсоедините проводку двигателя от датчика температуры охлаждающей жидкости.
 
 ![[00a00036.png]]
 
-Disconnect the engine harness from the oil pressure sensor.
+Отсоедините проводку двигателя от датчика давления масла.
 
 ![[00a00037.png]]
 
-Disconnect the engine harness fuel shutoff control wires from the fuel shutoff solenoids (left bank and right bank).
+Отключите провода управления отключением топлива от топливных соленоидов (левый и правый берег).
 
 ![[19a00101.png]]
 
-Disconnect the engine harness from the fuel pump connectors (left bank and right bank).
+Отсоедините жгут электропроводки двигателя от разъемов топливного насоса (левый берег и правый берег).
 
 ![[19a00274.png]]
 
-Disconnect the engine harness engine block ground from the engine block.
+Отсоедините проводку двигателя с заземлением блока двигателя от блока двигателя.
 
 ![[19a00097.png]]
 
-Use a 4 mm \[5/32 in\] hex head wrench to disconnect the engine harness Deutsch™ connector from any engine harness extension used or the engine harness adapter cable.
+Используйте 4 мм \[5/32 в \] шестиглавый ключ, чтобы отсоединить разъем для проводов двигателя DeutschTM от любого используемого расширения для проводов двигателя или адаптера для проводов двигателя.
 
 ![[19802555.png]]
 
-Cut the remaining ties holding the engine harness to the engine.
+Перережьте оставшиеся галстуки, удерживающие жгут проводов двигателя к двигателю.
 
-Remove the engine harness.
+Удалите жгут электропроводки двигателя.
 
 ![[19600432.png]]
 
-Use a 4 mm \[5/32 in\] hex head wrench to disconnect the engine harness extension cable Deutsch™ connectors.
+Используйте 4 мм \[5/32 в \] шестиглавый ключ для отключения проводов двигателя удлинителя кабеля DeutschTM разъемов.
 
-Use a 4 mm \[5/32 in\] hex head wrench to disconnect the engine harness adapter cable Deutsch™ connectors from the ECM.
+Используйте 4 мм \[5/32 в \] шестиглавый ключ для отключения проводов двигателя ремня адаптера кабеля DeutschTM от ECM.
 
 ![[19802555.png]]
 
-QSK45, QSK60, and QSK78
+QSK45, QSK60 и QSK78
 
-> [!note] Note · Примечание
-> The following graphics represent the QSK60 engines. However, QSK45 and QSK78 engines are similar.
+> [!note] Примечание
+> Следующие графические изображения представляют собой двигатели QSK60. Однако двигатели QSK45 и QSK78 схожи.
 
-The coolant pressure sensor may be located in one of three locations:
+Датчик давления охлаждающей жидкости может быть расположен в одном из трех мест:
 
-- Between the coolant filters, as illustrated.
-- In the engine block, behind the fuel pump.
-- In a spacer block, between the coolant filters and thermostat housing.
+- Между фильтрами охлаждающей жидкости, как показано на рисунке.
+- В блоке двигателя, за топливным насосом.
+- В блоке прокладки, между фильтрами охлаждающей жидкости и корпусом термостата.
 
-Disconnect the engine harness from the coolant temperature sensor (1).
+Отсоедините проводку двигателя от датчика температуры охлаждающей жидкости (1).
 
-Disconnect the engine harness from the coolant pressure sensor (2).
+Отсоедините проводку двигателя от датчика давления охлаждающей жидкости (2).
 
 ![[19400763.png]]
 
-Disconnect the engine harness from the intake manifold air pressure sensor (1).
+Отсоедините проводку двигателя от датчика давления воздуха впускного коллектора (1).
 
-Disconnect the engine harness from the intake manifold air temperature sensor (2).
+Отсоедините проводку двигателя от датчика температуры воздуха впускного коллектора (2).
 
 ![[19400764.png]]
 
-Disconnect the engine harness from the blowby pressure sensor.
+Отсоедините проводку двигателя от датчика давления продувки.
 
 ![[19400765.png]]
 
-Disconnect the engine harness from the fuel pump pressure sensor (1).
+Отсоедините проводку двигателя от датчика давления топливного насоса (1).
 
-Disconnect the engine harness from the fuel pump actuator (2).
+Отсоедините электропроводку двигателя от привода топливного насоса (2).
 
 ![[19400779.png]]
 
-Disconnect the engine harness from the two timing rail actuators (1).
+Отсоедините ремень электропроводки двигателя от двух приводов рельсов синхронизации (1).
 
-Disconnect the engine harness from the fueling rail actuator (2).
+Отсоедините жгут электропроводки двигателя от привода заправки рельсов (2).
 
 ![[19802623.png]]
 
-Disconnect the engine harness from the fuel shutoff valve.
+Отсоедините жгут электропроводки двигателя от клапана отключения топлива.
 
 ![[05400020.png]]
 
-Disconnect the engine harness from the timing rail pressure sensor (1).
+Отсоедините проводку двигателя от датчика давления рельсов (1).
 
-Disconnect the engine harness from the fuel temperature sensor (3).
+Отсоедините проводку двигателя от датчика температуры топлива (3).
 
-Disconnect the engine harness from the injector metering rail pressure sensor (4).
+Отсоедините электропроводку двигателя от датчика давления в рельсах для измерения давления топливного форсунка (4).
 
-Disconnect the engine harness from the barometric pressure sensor (2). This can **not** be located on the electronic control valve assembly. Locate the sensor on the engine harness main trunk support bracket.
+Отсоедините проводку двигателя от барометрического датчика давления (2). Это может быть **не** расположено на электронном клапанном узле. Найдите датчик на проводах двигателя упряжь главного багажника опорной кронштейна.
 
 ![[19400767.png]]
 
-Disconnect the engine harness from the extension harness at Inline A, Inline B, and Inline C connectors.
+Отсоедините жгут проводов двигателя от удлинителя проводов на разъемах Inline A, Inline B и Inline C.
 
 ![[19802556.png]]
 
-Disconnect the engine harness from the oil level sensor, if equipped.
+Отключите проводку двигателя от датчика уровня масла, если он оборудован.
 
 ![[19400768.png]]
 
-> [!note] Note · Примечание
-> This step can **not** be completed on the QSK78 engine. The engine harness and engine support bracket are one piece.
+> [!note] Примечание
+> Этот шаг может быть выполнен на двигателе QSK78. Снаряд для проводов двигателя и опорный кронштейн двигателя - это одна деталь.
 
-To disconnect the 9-pin data link connector from the engine harness support bracket:
+Чтобы отсоединить 9-контактный разъем шины данных CAN от опорной скобки ремня электропроводки двигателя:
 
-1. Remove four capscrews.
-2. Slide the 9-pin data link connector out of the mounting slot in the engine harness support bracket.
+1. Удалите четыре болта.
+2. Вытащите 9-контактный разъем шины данных CAN из крепежного слота в опорном скобке проводов двигателя.
 
 ![[19400769.png]]
 
-Disconnect the engine harness from the engine speed sensor (1).
+Отсоедините проводку двигателя от датчика скорости двигателя (1).
 
-Disconnect the engine harness from the oil pressure sensor (2).
+Отсоедините проводку двигателя от датчика давления масла (2).
 
 ![[19400772.png]]
 
-> [!note] Note · Примечание
-> There are a number of different versions of the breather box QSK45, QSK60, and QSK78 engines. Even though the appearance can be different, the same steps can be used to remove all versions of the breather box.
+> [!note] Примечание
+> Существует несколько различных версий двигателей QSK45, QSK60 и QSK78. Несмотря на то, что внешний вид может быть разным, одни и те же шаги могут быть использованы для удаления всех версий коробки для передышки.
 
-To remove the breather box assembly:
+Для удаления дыхательной коробки сборка:
 
-1. Loosen the three hose clamps (1) and disconnect the three hoses (2) on the bottom of the breather box (3).
-2. Loosen the hose clamp (4) and disconnect the blowby pressure sensor hose (5).
-3. Loosen the hose clamp (6) and disconnect the lower breather hose (7).
-4. Remove the six attaching capscrews (8) and remove the breather box assembly.
+1. Освободите три шланговых зажима (1) и отсоедините три шланга (2) на дне дыхательной коробки (3).
+2. Устраните зажим шланга (4) и отсоедините шланг датчика давления продувки (5).
+3. Освободите зажим шланга (6) и отсоедините нижний шланг для дыхания (7).
+4. Удалите шесть крепежных болтов (8) и удалите сборку коробки для передышки.
 
-Remove the six attaching capscrews (8), and remove the breather box assembly.
+Удалите шесть крепежных болтов (8) и удалите сборку коробки для передышки.
 
 ![[19400773.png]]
 
-Disconnect the engine harness from the flash status at the Inline H connector.
+Отсоедините проводку двигателя от состояния вспышки на разъеме Inline H.
 
 ![[19400404.png]]
 
-Disconnect the engine harness from the aftercooler water temperature sensor.
+Отсоедините проводку двигателя от датчика температуры воды после охлаждения.
 
 ![[19802647.png]]
 
-Disconnect the engine harness from the Centinel™ actuator connector, if equipped.
+Отсоедините жгут электропроводки двигателя от разъема привода CentinelTM, если он оборудован.
 
 ![[05600052.png]]
 
-Disconnect the engine harness from the Centinel™ makeup tank oil level sensor inline connector.
+Отсоедините жгут проводов двигателя от встроенного разъёма датчика уровня масла в баке CentinelTM.
 
 ![[05100029.png]]
 
-Disconnect the engine harness from the coolant level switch sensor at the 4-pin inline connector.
+Отсоедините проводку двигателя от датчика переключателя уровня охлаждающей жидкости на 4-контактном встроенном разъеме.
 
 ![[19400417.png]]
 
-Disconnect the engine harness and engine harness support bracket from the engine.
+Отсоедините жгут проводов проводов двигателя и опорный кронштейн ремня электропроводки двигателя от двигателя.
 
-Make sure that all connections on the engine harness are disconnected and **not** tangled.
+Убедитесь, что все соединения на ремне электропроводки двигателя отключены и **не** запутаны.
 
 ![[19400774.png]]
 
-> [!note] Note · Примечание
-> This step can **not** be completed on the QSK78 engine. The engine harness and engine support bracket are one piece.
+> [!note] Примечание
+> Этот шаг может быть выполнен на двигателе QSK78. Снаряд для проводов двигателя и опорный кронштейн двигателя - это одна деталь.
 
-Slowly pull the engine harness away from the engine block making sure the wires do **not** bind or tangle.
+Медленно оттяните жгут проводов двигателя от блока двигателя, убедившись, что провода **не** связываются или спутываются.
 
 ![[19400778.png]]
 
-### Install
+### Установка
 
 QSX15
 
-Place the engine harness on the engine.
+Поместите жгут проводов двигателя на двигатель.
 
-Fasten the engine harness to the engine at the harness support.
+Пристегните жгут проводов двигателя к двигателю при поддержке жгута проводов.
 
-Connect the engine harness to the coolant level switch sensor at the 4-pin inline connector.
+Подключите жгут проводов двигателя к датчику переключателя уровня охлаждающей жидкости на 4-контактном встроенном разъеме.
 
 ![[19400417.png]]
 
-Connect the engine harness to the Centinel™ makeup tank oil level sensor inline connector, if equipped.
+Подключите жгут проводов двигателя к встроенному разъему датчика уровня масла в баке CentinelTM, если он оборудован.
 
 ![[05100029.png]]
 
-Connect the engine harness to the Centinel™ actuator connector, if equipped.
+Подключите жгут проводов двигателя к разъему привода CentinelTM, если он оборудован.
 
 ![[05600052.png]]
 
-Connect the engine harness to the fuel supply pump connector, if equipped.
+Подключите жгут проводов двигателя к разъему насоса подачи топлива, если он оборудован.
 
 ![[19600429.png]]
 
-Connect the engine harness to the oil pressure/temperature sensor.
+Подключите жгут проводов двигателя к датчику давления/температуры масла.
 
 ![[19900794.png]]
 
-Connect the ambient air pressure sensor to the engine harness.
+Подключите датчик давления окружающего воздуха к электропроводке двигателя.
 
-Connect the engine harness to the camshaft engine speed sensor.
+Подключите жгут электропроводки двигателя к датчику скорости двигателя распределительного вала.
 
-Connect the engine harness to the crankshaft engine speed sensor.
+Подключите жгут электропроводки двигателя к датчику скорости коленчатого вала.
 
 ![[17c00050.png]]
 
-Connect the engine harness to the extension harness at Inline A, Inline B, and Inline C connectors.
+Подключите жгут проводов двигателя к удлинительной жгут проводов на разъемах Inline A, Inline B и Inline C.
 
 ![[19802556.png]]
 
-Connect the engine harness to the fuel shutoff valve.
+Подключите жгут электропроводки двигателя к клапану отключения топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> 3 n•m [27 in-lb]
+> [!tip] Момент затяжки
+> 3 Н·м [27 фунт-дюйм]
 
 ![[19802549.png]]
 
-Connect the engine harness to the fuel system actuators:
+Подключите жгут электропроводки двигателя к исполнительным механизмам топливной системы:
 
-1. Fueling actuator 1.
-2. Timing actuator 1.
-3. Timing actuator 2.
-4. Fueling actuator 2.
+1. Топливный привод 1.
+2. Временный привод 1.
+3. Временный привод 2.
+4. Топливный привод 2.
 
 ![[19802625.png]]
 
-Connect the engine harness to the fuel pressure sensor.
+Подключите жгут электропроводки двигателя к датчику давления топлива.
 
 ![[19802624.png]]
 
-Connect the engine harness to the intake manifold pressure/temperature sensor.
+Подключите жгут проводов двигателя к датчику давления/температуры впускного коллектора.
 
 ![[19900789.png]]
 
-Connect the engine harness to the coolant temperature sensor.
+Подключите электропроводку двигателя к датчику температуры охлаждающей жидкости.
 
 ![[19c00248.png]]
 
-Connect the engine harness to the Inline E connector.
+Подключите жгут проводов двигателя к разъему Inline E.
 
-Make sure that all engine harness connections are secure.
+Убедитесь, что все соединения с жгутом двигателя безопасны.
 
-Connect the electronic service tool and check for fault codes.
+Подключите инструмент электронного сервиса и проверьте коды неисправностей.
 
 ![[19802561.png]]
 
-QSK23 Engines
+Двигатели QSK23
 
-Install the engine harness and connect the engine speed sensor connectors (2).
+Установите жгут проводов двигателя и подключите разъемы датчика скорости двигателя (2).
 
-Install the P-clips (1) to the rear of the intake manifold and the rear of the cylinder block.
+Установите P-затворы (1) в заднюю часть впускного коллектора и заднюю часть блока цилиндров.
 
 ![[19401015.png]]
 
-> [!note] Note · Примечание
-> The industrial wiring harness is shown. The power generation wiring harness routing will be slightly different and the harness will have some different connectors.
+> [!note] Примечание
+> Показана промышленная проводка ремня. Маршрутизация электропроводки будет немного отличаться, и у ремня электропроводки будут несколько разных разъемов.
 
-Install the P-clip (2) near the lower right corner of the number 5 cam follower cover.
+Установите P-клип (2) рядом с нижним правым углом крышки крана № 5.
 
-Install the wiring P-clip (3) and intake heater connector bracket (4) located above the number 6 cam follower cover.
+Установите проводку P-clip (3) и соединительный кронштейн (4) впускного нагревателя, расположенный над крышкой крана № 6.
 
-Connect the data link (1) connector connecting the engine harness to the OEM harness.
+Подключите шину (1) передачи данных CAN, соединяющую жгут проводов двигателя с ремнем проводов OEM.
 
 ![[19401013.png]]
 
-Connect the following to the engine harness:
+Подключите к ремню электропроводки двигателя следующее:
 
-1. Rail pressure sensor.
-2. Timing pressure sensor.
+1. Датчик давления в топливной рампе.
+2. Датчик давления опережения впрыска.
 
 ![[19401012.png]]
 
-Connect the following to the engine harness:
+Подключите к ремню электропроводки двигателя следующее:
 
-1. ECM connector A.
-2. Fuel rail actuator.
-3. Fuel shutoff solenoid.
-4. Fuel timing actuator.
-5. Fuel temperature sensor.
+1. Разъем ECM A.
+2. Привод рельсов топлива.
+3. Отключение топлива соленоид.
+4. Привод синхронизации топлива.
+5. Датчик температуры топлива.
 
-Make sure the positive (+) and negative (-) terminals on the fuel shutoff solenoid are correct.
+Убедитесь, что положительные (+) и отрицательные (-) клеммы на соленоиде отключения топлива верны.
 
 ![[19401011.png]]
 
-Install the nine wire ties holding the engine harness to the support bracket.
+Установите девять проводных связей, удерживающих ремень проводов двигателя, к опорному скобку.
 
 ![[19401027.png]]
 
-Connect the engine harness to the ambient pressure sensor (3).
+Подключите жгут проводов двигателя к датчику давления окружающей среды (3).
 
-Install the harness P-clips (1) and bracket (2) mounted to and just below the ECM near the ambient pressure sensor (3).
+Установите проводку жгута P-клипов (1) и скобки (2), установленные на и чуть ниже ECM рядом с датчиком давления окружающей среды (3).
 
 ![[19401009.png]]
 
-Install the harness P-clip and engine ground wire (1) and connect the oil pressure sensor (2).
+Установите проводку жгута P-clip и заземляющую проволоку двигателя (1) и подключите датчик давления масла (2).
 
 ![[19401008.png]]
 
-Connect the harness to the fuel pump actuator (2) and fuel pump pressure sensor (3).
+Подключите проводную упряжку к приводу (2) топливного насоса и датчику (3) давления топливного насоса.
 
-Install the engine harness P-clips (1) attached to fuel pump mounting flange.
+Установите упряжку Р-клипов (1) проводов двигателя, прикрепленную к фланцу установки топливного насоса.
 
 ![[19401007.png]]
 
-Install the engine harness P-clip and spacer attached near the intake manifold pressure sensor.
+Установите проводку двигателя с помощью P-clip и прокладки, прикрепленной рядом с датчиком давления впускного коллектора.
 
-Connect the engine harness to the intake manifold temperature and pressure sensors, located on the intake manifold on the right hand side of the fuel filters.
+Подключите жгут проводов двигателя к датчикам температуры и давления впускного коллектора, расположенным на впускном коллекторе на правой стороне топливных фильтров.
 
 ![[19401006.png]]
 
-Install the eight engine harness P-clips on the front of the engine, as shown.
+Установите восемь электропроводок двигателя с помощью P-клипов на передней части двигателя, как показано.
 
 ![[19401005.png]]
 
-Install the engine harness P-clip, spacer, and bracket mounted to the thermostat housing (2).
+Установите электропроводку двигателя с помощью P-клипа, прокладки и кронштейна, установленных на корпус термостата (2).
 
-Connect the engine harness to the coolant temperature sensor (1).
+Подключите электропроводку двигателя к датчику температуры охлаждающей жидкости (1).
 
 ![[19401004.png]]
 
 QST30
 
-Install all P-clips and harness retainers to the engine harness
+Установите все P-клипы и фиксаторы жгутов проводов на ремень электропроводки двигателя
 
-Use a 4 mm \[5/32 in\] hex head wrench to connect the engine harness Deutsch connector to the ECM.
+Используйте 4 мм \[5/32 в \] шестигранный головной гаечный ключ для подключения к ECM разъема электропроводки двигателя Deutsch.
 
-Use an inch-pound torque wrench, Part Number 3376592, with 4 mm \[5/32 in\] hex head adapter to tighten the connector jackscrew.
+Используйте крутящий момент в дюйме, номер детали 3376592, с 4 мм \[5/32 в \] шестиглавый адаптер для затягивания разъема винта.
 
-> [!tip] Момент затяжки · Torque Value
-> 2.8 n•m [25 in-lb]
+> [!tip] Момент затяжки
+> 2.8 Н·м [25 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Do **not** over-torque as connector damage can occur.
+> [!note] Примечание
+> Не делайте крутящего момента, так как может произойти повреждение разъема.
 
 ![[19802555.png]]
 
-Connect the engine harness to the right bank fuel shutoff valve connectors.
+Подключите жгут проводов двигателя к разъему клапана отключения топлива правого берега.
 
 ![[19a00249.png]]
 
-Connect the engine harness to the right bank fuel injection pump connector.
+Подключите жгут проводов двигателя к разъему насоса впрыска топлива на правом берегу.
 
 ![[19a00274.png]]
 
-Connect the engine harness to the Centinel™ actuator connector, if equipped.
+Подключите жгут проводов двигателя к разъему привода CentinelTM, если он оборудован.
 
 ![[05600052.png]]
 
-Connect the engine harness to the number 2 right bank intake manifold air temperature sensor connector.
+Подключите жгут проводов двигателя к разъему датчика температуры воздуха на правом берегу № 2.
 
 ![[19a00277.png]]
 
-Connect the engine harness to the fuel supply pump pressure and temperature sensors.
+Подключите электропроводку двигателя к датчикам давления и температуры насоса подачи топлива.
 
 ![[19a00791.png]]
 
-Connect the engine harness to the fuel supply pump connectors.
+Подключите жгут проводов двигателя к разъемам насоса подачи топлива.
 
 ![[19a00792.png]]
 
-Connect the engine harness engine block ground to the engine block.
+Подключите проводку двигателя с жгутом блокировщика к блоку двигателя.
 
 ![[19400393.png]]
 
-Connect the engine harness to the Centinel™ tank switch extension, if equipped.
+Подключите жгут проводов двигателя к расширителю переключателя цистерны CentinelTM, если он оборудован.
 
 ![[05100029.png]]
 
-Connect the engine harness to the engine speed sensor.
+Подключите жгут электропроводки двигателя к датчику скорости двигателя.
 
 ![[19a00245.png]]
 
-Connect the engine harness to the grid heater relay connector, if equipped.
+Подключите электропроводку двигателя к реле реле-разъему реле нагревателя, если он оборудован.
 
 ![[19a00793.png]]
 
-Connect the engine harness to the left bank intake manifold air temperature sensor.
+Подключите жгут электропроводки двигателя к датчику температуры воздуха на впускном коллекторе левого берега.
 
 ![[19a00247.png]]
 
-Connect the engine harness to the Centinel™ oil level extension harness, if equipped.
+Подключите жгут проводов двигателя к удлинительной жгутке уровня масла CentinelTM, если она оборудована.
 
 ![[19a00558.png]]
 
-Connect the engine harness to the left bank fuel shutoff valve connectors.
+Подключите жгут электропроводки двигателя к разъему запорного клапана левого берега.
 
 ![[19a00249.png]]
 
-Connect the engine harness to the left bank fuel pump connector.
+Подключите жгут электропроводки двигателя к разъему топливного насоса на левом берегу.
 
 ![[19a00274.png]]
 
-Connect the engine harness to the oil temperature sensor, if equipped.
+Подключите электропроводку двигателя к датчику температуры масла, если он оборудован.
 
 ![[19a00558.png]]
 
-Connect the engine harness to the oil pressure sensor.
+Подключите жгут электропроводки двигателя к датчику давления масла.
 
 ![[19a00254.png]]
 
-Connect the inline connector bracket which includes the barometric pressure sensor connector.
+Подключите встроенный соединительный кронштейн, который включает в себя разъем датчика барометрического давления.
 
 ![[19d01894.png]]
 
-Connect the two 6-pin or one 9-pin data link connector(s) to the harness support bracket by installing the capscrews.
+Подключите два 6-контактных или один 9-контактный разъем (разъемы) шины данных CAN к кронштейну поддержки проводов, установив болты.
 
 ![[19a00273.png]]
 
-Connect the engine harness to the left bank intake manifold pressure sensor.
+Подключите жгут электропроводки двигателя к датчику давления впускного коллектора левого берега.
 
 ![[19a00335.png]]
 
-Install the ties on the thermostat housing bracket, aftercooler tube, and fuel tube.
+Установите галстуки на кронштейн корпуса термостата, трубку послеохладителя и топливную трубку.
 
 ![[19600431.png]]
 
-Connect the engine harness to the coolant level harness extension connector.
+Подключите жгут проводов двигателя к разъему расширения утилиты на уровне охлаждающей жидкости.
 
-Connect the engine harness to the coolant temperature sensor and the coolant level sensor.
+Подключите электропроводку двигателя к датчику температуры охлаждающей жидкости и датчику уровня охлаждающей жидкости.
 
-Connect the engine harness to the coolant pressure sensor, if equipped.
+Подключите электропроводку двигателя к датчику давления охлаждающей жидкости, если он оборудован.
 
-Install the engine harness clamps and ties.
+Установите зажимы и галстуки для проводов двигателя.
 
 ![[19a00334.png]]
 
-QST30 Upgrade
+QST30 Обновление
 
-Connect the engine harness to the engine using cable ties.
+Подключите жгут проводов двигателя к двигателю с помощью кабельных связей.
 
 ![[19801077.png]]
 
-Connect the engine harness Deutsch connector to the engine harness extension cable, if used, or the engine harness adapter cable. Use a 4 mm \[5/32 in\] hex head wrench to tighten.
+Подключите разъем Deutsch к проводному кабелю расширения упряжки двигателя, если он используется, или адаптерный кабель упряжки двигателя. Используйте 4 мм \[5/32 в \] шестиглавый ключ для затягивания.
 
-Use an inch-pound torque wrench, Part Number 3376592, with 4 mm \[5/32 in\] hex head adapter to tighten the connector jackscrew.
+Используйте крутящий момент в дюйме, номер детали 3376592, с 4 мм \[5/32 в \] шестиглавый адаптер для затягивания разъема винта.
 
-> [!tip] Момент затяжки · Torque Value
-> 2.8 n•m [25 in-lb]
+> [!tip] Момент затяжки
+> 2.8 Н·м [25 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Do not over-torque connector as damage can occur.
+> [!note] Примечание
+> Не перегружайте разъем, так как может произойти повреждение.
 
 ![[19802555.png]]
 
-Connect the engine block ground to the engine block.
+Подключите блок двигателя к блоку двигателя.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[19a00097.png]]
 
-Connect the engine harness to the fuel pump connectors (left bank and right bank).
+Подключите жгут проводов двигателя к разъему топливного насоса (левый берег и правый берег).
 
 ![[19a00274.png]]
 
-Connect the fuel shutoff control wires to the fuel shutoff solenoids (left bank and right bank). Tighten the retaining nut.
+Подключите провода управления отключением топлива к соленоидам отключения топлива (левый и правый берег). Затяните удерживающий орех.
 
-> [!tip] Момент затяжки · Torque Value
-> 3 n•m [27 in-lb]
+> [!tip] Момент затяжки
+> 3 Н·м [27 фунт-дюйм]
 
 ![[19a00101.png]]
 
-Connect the engine harness to the oil pressure sensor.
+Подключите жгут электропроводки двигателя к датчику давления масла.
 
 ![[00a00037.png]]
 
-Connect the engine harness to the coolant temperature sensor.
+Подключите электропроводку двигателя к датчику температуры охлаждающей жидкости.
 
-Connect the engine harness clamps.
+Подключите зажимы ремней жгутов проводов.
 
 ![[00a00036.png]]
 
-Connect the engine harness to the electrical system at the Inline E connector.
+Подключите электропроводку двигателя к электрической системе на разъеме Inline E.
 
 ![[19802561.png]]
 
-Connect the engine harness extension cable to the extension cable connectors.
+Подключите проводку двигателя к удлинительному кабелю к удлинительным кабелям.
 
-Connect the engine harness adapter cable and all engine harness extension cables used.
+Подключите адаптерный кабель ремня электропроводки двигателя и все используемые кабели расширения ремня электропроводки двигателя.
 
-Use an inch-pound torque wrench, Part Number 3376592, with 4 mm \[5/32 in\] hex head adapter to tighten the connector jackscrew.
+Используйте крутящий момент в дюйме, номер детали 3376592, с 4 мм \[5/32 в \] шестиглавый адаптер для затягивания разъема винта.
 
-> [!tip] Момент затяжки · Torque Value
-> 2.8 n•m [25 in-lb]
+> [!tip] Момент затяжки
+> 2.8 Н·м [25 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Do **not** over-torque connector as damage can occur.
+> [!note] Примечание
+> Не делайте *-переворот разъема, как повреждение может произойти.
 
 ![[19802555.png]]
 
-QSK45, QSK60, and QSK78
+QSK45, QSK60 и QSK78
 
-> [!note] Note · Примечание
-> This step can **not** be completed on the QSK78 engine. The engine harness and the engine support bracket are one piece.
+> [!note] Примечание
+> Этот шаг может быть выполнен на двигателе QSK78. Упряжка для проводов двигателя и опорная кронштейн двигателя - это одна деталь.
 
-Connect the engine harness to the engine harness support bracket.
+Подключите жгут проводов двигателя к опорной скобке ремня проводов двигателя.
 
 ![[19400778.png]]
 
-Install the engine harness and engine harness support bracket onto the engine.
+Установите на двигатель жгут проводов проводов и кронштейн крепления жгута.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[19400774.png]]
 
-Connect the coolant level switch sensor at the 4-pin inline connector.
+Подключите датчик переключателя уровня охлаждающей жидкости на 4-контактном встроенном разъеме.
 
 ![[19400417.png]]
 
-Connect the engine harness to the Centinel™ makeup tank oil level sensor Inline connector, if equipped.
+Подключите жгут проводов двигателя к датчику уровня масла в баке CentinelTM Inline, если он оборудован.
 
 ![[05100029.png]]
 
-Connect the engine harness to the Centinel™ actuator connector, if equipped.
+Подключите жгут проводов двигателя к разъему привода CentinelTM, если он оборудован.
 
 ![[05600052.png]]
 
-Connect the engine harness to the aftercooler water temperature sensor.
+Подключите электропроводку двигателя к датчику температуры воды после охлаждения.
 
 ![[19802647.png]]
 
-Connect the engine harness to the flash status at the Inline H connector.
+Подключите жгут проводов двигателя к статусу вспышки на разъеме Inline H.
 
 ![[19400404.png]]
 
-> [!note] Note · Примечание
-> There are a number of different versions of the breather box QSK45, QSK60, and QSK78 engines. Even though the appearance can be different, the same steps can be used to install all versions of the breather box.
+> [!note] Примечание
+> Существует несколько различных версий двигателей QSK45, QSK60 и QSK78. Несмотря на то, что внешний вид может быть разным, одни и те же шаги могут быть использованы для установки всех версий коробки для передышки.
 
-Install the breather box assembly (8).
+Установите сборку коробки для передышки (8).
 
-Install the six mounting capscrews into the breather box assembly.
+Установите шесть крепежных болтов в сборку коробки для передышки.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Connect the lower breather hose (7) to the breather box using the hose clamp (6).
+Подсоедините нижний шланг (7) для дышащего ящика с помощью зажима шланга (6).
 
-Connect the blow by pressure sensor/hose assembly (5) to the breather box using hose clamp (4).
+Подсоедините удар датчиком давления/контейнер (5) к коробке для передышки с помощью зажима шланга (4).
 
-Connect the three hoses (2) to the bottom of the breather box (3), using three hose clamps (1).
+Соедините три шланга (2) со дном коробки (3) для передышки, используя три шланговых зажима (1).
 
 ![[19400773.png]]
 
-Connect the engine harness to the engine speed sensor (1).
+Подключите жгут электропроводки двигателя к датчику скорости двигателя (1).
 
-Connect the engine harness to the oil pressure sensor (2).
+Подключите жгут проводов двигателя к датчику давления масла (2).
 
 ![[19400772.png]]
 
-> [!note] Note · Примечание
-> This step can **not** be completed on the QSK78 engine. The engine harness and the engine support bracket are one piece.
+> [!note] Примечание
+> Этот шаг может быть выполнен на двигателе QSK78. Упряжка для проводов двигателя и опорная кронштейн двигателя - это одна деталь.
 
-Slide the 9-pin data link connector into the mounting slot in the engine harness support bracket.
+Сдвиньте 9-контактный разъем шины данных CAN в крепежное отверстие в опорном скобке ремня электропроводки двигателя.
 
-Install and tighten the capscrews.
+Установите и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 1 n•m [9 in]
+> [!tip] Момент затяжки
+> 1 Н·м [9 в]
 
 ![[19400769.png]]
 
-Connect the engine harness to the oil level sensor, if equipped.
+Подключите электропроводку двигателя к датчику уровня масла, если он оборудован.
 
 ![[19400768.png]]
 
-Connect the engine harness to the extension harness at the Inline A, Inline B, and Inline C connectors.
+Подключите жгут проводов двигателя к удлинительной жгут проводов на разъемах Inline A, Inline B и Inline C.
 
 ![[19802556.png]]
 
-Connect the engine harness to the timing rail pressure sensor (1).
+Подключите электропроводку двигателя к датчику давления рельсов (1).
 
-Connect the engine harness to the fuel temperature sensor (3).
+Подключите электропроводку двигателя к датчику температуры топлива (3).
 
-Connect the engine harness to the injector meter rail pressure sensor (4).
+Подключите электропроводку двигателя к датчику давления в топливном форсунке (4).
 
-Connect the engine harness to the barometric pressure sensor (2). This sensor can **not** be located on the electronic control valve assembly. Locate the sensor on the harness main trunk/support bracket.
+Подключите жгут электропроводки двигателя к барометрическому датчику давления (2). Этот датчик может **не** располагаться на электронном клапанном узле. Найдите датчик на проводах ремня главного багажника/поддержки.
 
 ![[19400767.png]]
 
-Connect the engine harness to the fuel shutoff valve.
+Подключите жгут электропроводки двигателя к клапану отключения топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> 3 n•m [27 in-lb]
+> [!tip] Момент затяжки
+> 3 Н·м [27 фунт-дюйм]
 
 ![[05400020.png]]
 
-Connect the engine harness to the fuel system actuators.
+Подключите жгут электропроводки двигателя к исполнительным механизмам топливной системы.
 
-1. Timing actuators
-2. Fueling actuator.
+1. 4.2.1.4 Сроки привода
+2. Исполнительный механизм подачи топлива.
 
 ![[19802623.png]]
 
-Connect the engine harness to the fuel pump pressure sensor (1).
+Подключите электропроводку двигателя к датчику давления топливного насоса (1).
 
-Connect the engine harness to the fuel pump actuator (2).
+Подключите жгут проводов двигателя к приводу топливного насоса (2).
 
 ![[19400779.png]]
 
-Connect the engine harness to the blowby sensor.
+Подключите жгут электропроводки двигателя к датчику продувки.
 
 ![[19400765.png]]
 
-Connect the engine harness to the intake manifold pressure sensor (1).
+Подключите жгут проводов двигателя к датчику давления впускного коллектора (1).
 
-Connect the engine harness to the intake manifold temperature sensor (2).
+Подключите жгут проводов двигателя к датчику температуры впускного коллектора (2).
 
 ![[19400764.png]]
 
-The coolant pressure sensor can be in three different locations:
+Датчик давления охлаждающей жидкости может быть в трех разных местах:
 
-- Between the coolant filters, as illustrated.
-- In the block, behind the fuel pump.
-- In a spacer block between the coolant filters, and the thermostat housing.
+- Между фильтрами охлаждающей жидкости, как показано на рисунке.
+- В блоке, за топливным насосом.
+- В блоке прокладки между фильтрами охлаждающей жидкости и корпусом термостата.
 
-Connect the engine harness to the coolant pressure sensor.
+Подключите жгут проводов двигателя к датчику давления охлаждающей жидкости.
 
 ![[19400763.png]]
 
-Connect the engine harness to the Inline E connector.
+Подключите жгут проводов двигателя к разъему Inline E.
 
-Make sure all engine harness connections are secure.
+Убедитесь, что все соединения с жгутом двигателя безопасны.
 
-Connect the electronic service tool and check for fault codes.
+Подключите инструмент электронного сервиса и проверьте коды неисправностей.
 
 ![[19400417.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The PowerCommand Control 3200 and the generator-drive control system-equipped engines have multiple harnesses.
+>
+> The engine harness is mounted on the engine and is routed from the inline connectors.
+>
+> QST30
+>
+> The QST30 generator-drive uses extension cables and an adapter cable to attach the engine harness to the engine control module (ECM).
+>
+> The QST30 generator-drive upgrade engine also uses two separate wiring harnesses to control the engine and some of the equipment operations.
+>
+> - Engine harness.
+> - Original equipment manufacturer (OEM) harness.
+>
+> Replace a harness or extension/adapter cable if an open circuit or a short circuit is found under the protective covering of the harness body.
+>
+> ### Remove
+>
+> QSX15
+>
+> Disconnect the engine harness from the electrical system at the Inline E connector.
+>
+> Disconnect the engine harness from the coolant temperature sensor.
+>
+> Disconnect the engine harness from the intake manifold pressure/temperature sensor.
+>
+> Disconnect the engine harness from the fuel pressure sensor.
+>
+> Disconnect the engine harness from the fuel system actuators:
+>
+> 1. Fueling actuator 1.
+> 2. Timing actuator 1.
+> 3. Timing actuator 2.
+> 4. Fueling actuator 2.
+>
+> Disconnect the engine harness from the fuel shutoff valve.
+>
+> Disconnect the engine harness from the extension harness at Inline A, Inline B, and Inline C connectors.
+>
+> Disconnect the engine harness from the crankshaft engine speed sensor.
+>
+> Disconnect the engine harness from the camshaft engine speed sensor.
+>
+> Disconnect the engine harness from the barometric pressure sensor.
+>
+> Disconnect the engine harness from the oil pressure/temperature sensor.
+>
+> Disconnect the engine harness from the fuel supply pump connector, if equipped.
+>
+> Disconnect the engine harness from the Centinel™ actuator connector, if equipped.
+>
+> Disconnect the engine harness from the Centinel™ makeup tank oil level sensor inline connector, if equipped.
+>
+> Disconnect the engine harness from the coolant level switch sensor at the 4-pin inline connector.
+>
+> Remove any harness supports.
+>
+> Make sure that all connections made by the engine harness are disconnected and untangled.
+>
+> Slowly pull the engine harness away, and make sure that there is no binding or tangling.
+>
+> QSK23 Engines
+>
+> Disconnect the engine harness from the coolant temperature sensor (1).
+>
+> Remove the engine harness P-clip, spacer, and bracket mounted to thermostat housing (2).
+>
+> Remove the eight engine harness P-clips from the front of the engine, as shown.
+>
+> Disconnect the engine harness from the intake manifold temperature and pressure sensors, located on the right side of the fuel filters.
+>
+> Remove the engine harness P-clip and spacer attached near the intake manifold pressure sensor.
+>
+> Remove the engine harness P-clips (1) attached to the fuel pump mounting flange.
+>
+> Disconnect the engine harness from the fuel pump actuator (2) and fuel pump pressure sensor (3) connectors.
+>
+> Remove the harness P-clip and the engine ground wire (1) and disconnect the oil pressure sensor (2).
+>
+> Remove the harness P-clips (1) and bracket (2) mounted to and just below the ECM near the ambient air pressure sensor (3).
+>
+> Disconnect the ambient air pressure sensor (3).
+>
+> Cut the nine wire ties holding the engine harness to the support bracket.
+>
+> Disconnect the engine harness from the following:
+>
+> 1. ECM connector A.
+> 2. Fuel rail actuator.
+> 3. Fuel shutoff solenoid.
+> 4. Fuel timing actuator.
+> 5. Fuel temperature sensor.
+>
+> Disconnect the engine harness from the following:
+>
+> 1. Rail pressure sensor.
+> 2. Timing pressure sensor.
+>
+> **Note · Примечание**
+> The industrial wiring harness is shown, the power generation wiring harness routing will be slightly different and the harness will have some different connectors.
+>
+> Disconnect the data link (1) connector connecting the engine harness to the OEM harness.
+>
+> Remove the wiring P-clip (3) and intake heater connector bracket (4) located above the number 6 cam follower cover.
+>
+> Remove the P-clip (2) near the lower right corner of the number 5 cam follower cover.
+>
+> Remove the P-clips (1) to the rear of the intake manifold and the rear of the cylinder block.
+>
+> Disconnect the engine speed sensor connectors (2) and remove the engine harness.
+>
+> QST30
+>
+> Disconnect the engine harness from the coolant pressure sensor, if equipped.
+>
+> Remove the engine harness clamps.
+>
+> Disconnect the engine harness from the coolant temperature sensor and coolant level sensors.
+>
+> Disconnect the engine harness from the coolant level harness extension connector.
+>
+> Cut the ties on the thermostat housing bracket, aftercooler tube, and fuel tube.
+>
+> Disconnect the engine harness from the left bank intake manifold pressure sensor.
+>
+> Disconnect the two 6-pin or one 9-pin data link connector(s) from the harness support bracket by removing the capscrews.
+>
+> Disconnect the inline connector bracket which includes the barometric pressure sensor connector.
+>
+> Disconnect the engine harness from the oil pressure sensor.
+>
+> Disconnect the engine harness from the oil temperature sensor, if equipped.
+>
+> Disconnect the engine harness from the left bank fuel pump connector.
+>
+> Disconnect the engine harness from the left bank fuel shutoff valve connectors.
+>
+> Disconnect the engine harness from the Centinel™ oil level extension harness, if equipped.
+>
+> Disconnect the engine harness from the left bank intake manifold air temperature sensor.
+>
+> Disconnect the engine harness from the grid heater relay connector, if equipped.
+>
+> Disconnect the engine harness from the engine speed sensor.
+>
+> Disconnect the engine harness from the Centinel™ tank switch extension, if equipped.
+>
+> Disconnect the engine harness engine block ground from the engine block.
+>
+> Disconnect the engine harness from the fuel supply pump connectors.
+>
+> Disconnect the engine harness from the fuel supply pump pressure and temperature sensor connectors.
+>
+> Disconnect the engine harness from the right bank intake manifold air temperature sensor number 2 connector.
+>
+> Disconnect the engine harness from the Centinel™ actuator connector, if equipped.
+>
+> Disconnect the engine harness from the right bank fuel injection pump connector.
+>
+> Disconnect the engine harness from the right bank fuel shutoff valve connectors.
+>
+> Remove all P-clips and harness retainers from the engine harness and remove the harness.
+>
+> Use a 4 mm \[5/32 in\] hex head wrench to disconnect the engine harness Deutsch™ connector from the ECM.
+>
+> QST30 Upgrade
+>
+> Disconnect the engine harness from the electrical system at the Inline E connector.
+>
+> Remove the engine harness clamps.
+>
+> Disconnect the engine harness from the coolant temperature sensor.
+>
+> Disconnect the engine harness from the oil pressure sensor.
+>
+> Disconnect the engine harness fuel shutoff control wires from the fuel shutoff solenoids (left bank and right bank).
+>
+> Disconnect the engine harness from the fuel pump connectors (left bank and right bank).
+>
+> Disconnect the engine harness engine block ground from the engine block.
+>
+> Use a 4 mm \[5/32 in\] hex head wrench to disconnect the engine harness Deutsch™ connector from any engine harness extension used or the engine harness adapter cable.
+>
+> Cut the remaining ties holding the engine harness to the engine.
+>
+> Remove the engine harness.
+>
+> Use a 4 mm \[5/32 in\] hex head wrench to disconnect the engine harness extension cable Deutsch™ connectors.
+>
+> Use a 4 mm \[5/32 in\] hex head wrench to disconnect the engine harness adapter cable Deutsch™ connectors from the ECM.
+>
+> QSK45, QSK60, and QSK78
+>
+> **Note · Примечание**
+> The following graphics represent the QSK60 engines. However, QSK45 and QSK78 engines are similar.
+>
+> The coolant pressure sensor may be located in one of three locations:
+>
+> - Between the coolant filters, as illustrated.
+> - In the engine block, behind the fuel pump.
+> - In a spacer block, between the coolant filters and thermostat housing.
+>
+> Disconnect the engine harness from the coolant temperature sensor (1).
+>
+> Disconnect the engine harness from the coolant pressure sensor (2).
+>
+> Disconnect the engine harness from the intake manifold air pressure sensor (1).
+>
+> Disconnect the engine harness from the intake manifold air temperature sensor (2).
+>
+> Disconnect the engine harness from the blowby pressure sensor.
+>
+> Disconnect the engine harness from the fuel pump pressure sensor (1).
+>
+> Disconnect the engine harness from the fuel pump actuator (2).
+>
+> Disconnect the engine harness from the two timing rail actuators (1).
+>
+> Disconnect the engine harness from the fueling rail actuator (2).
+>
+> Disconnect the engine harness from the fuel shutoff valve.
+>
+> Disconnect the engine harness from the timing rail pressure sensor (1).
+>
+> Disconnect the engine harness from the fuel temperature sensor (3).
+>
+> Disconnect the engine harness from the injector metering rail pressure sensor (4).
+>
+> Disconnect the engine harness from the barometric pressure sensor (2). This can **not** be located on the electronic control valve assembly. Locate the sensor on the engine harness main trunk support bracket.
+>
+> Disconnect the engine harness from the extension harness at Inline A, Inline B, and Inline C connectors.
+>
+> Disconnect the engine harness from the oil level sensor, if equipped.
+>
+> **Note · Примечание**
+> This step can **not** be completed on the QSK78 engine. The engine harness and engine support bracket are one piece.
+>
+> To disconnect the 9-pin data link connector from the engine harness support bracket:
+>
+> 1. Remove four capscrews.
+> 2. Slide the 9-pin data link connector out of the mounting slot in the engine harness support bracket.
+>
+> Disconnect the engine harness from the engine speed sensor (1).
+>
+> Disconnect the engine harness from the oil pressure sensor (2).
+>
+> **Note · Примечание**
+> There are a number of different versions of the breather box QSK45, QSK60, and QSK78 engines. Even though the appearance can be different, the same steps can be used to remove all versions of the breather box.
+>
+> To remove the breather box assembly:
+>
+> 1. Loosen the three hose clamps (1) and disconnect the three hoses (2) on the bottom of the breather box (3).
+> 2. Loosen the hose clamp (4) and disconnect the blowby pressure sensor hose (5).
+> 3. Loosen the hose clamp (6) and disconnect the lower breather hose (7).
+> 4. Remove the six attaching capscrews (8) and remove the breather box assembly.
+>
+> Remove the six attaching capscrews (8), and remove the breather box assembly.
+>
+> Disconnect the engine harness from the flash status at the Inline H connector.
+>
+> Disconnect the engine harness from the aftercooler water temperature sensor.
+>
+> Disconnect the engine harness from the Centinel™ actuator connector, if equipped.
+>
+> Disconnect the engine harness from the Centinel™ makeup tank oil level sensor inline connector.
+>
+> Disconnect the engine harness from the coolant level switch sensor at the 4-pin inline connector.
+>
+> Disconnect the engine harness and engine harness support bracket from the engine.
+>
+> Make sure that all connections on the engine harness are disconnected and **not** tangled.
+>
+> **Note · Примечание**
+> This step can **not** be completed on the QSK78 engine. The engine harness and engine support bracket are one piece.
+>
+> Slowly pull the engine harness away from the engine block making sure the wires do **not** bind or tangle.
+>
+> ### Install
+>
+> QSX15
+>
+> Place the engine harness on the engine.
+>
+> Fasten the engine harness to the engine at the harness support.
+>
+> Connect the engine harness to the coolant level switch sensor at the 4-pin inline connector.
+>
+> Connect the engine harness to the Centinel™ makeup tank oil level sensor inline connector, if equipped.
+>
+> Connect the engine harness to the Centinel™ actuator connector, if equipped.
+>
+> Connect the engine harness to the fuel supply pump connector, if equipped.
+>
+> Connect the engine harness to the oil pressure/temperature sensor.
+>
+> Connect the ambient air pressure sensor to the engine harness.
+>
+> Connect the engine harness to the camshaft engine speed sensor.
+>
+> Connect the engine harness to the crankshaft engine speed sensor.
+>
+> Connect the engine harness to the extension harness at Inline A, Inline B, and Inline C connectors.
+>
+> Connect the engine harness to the fuel shutoff valve.
+>
+> **Момент затяжки · Torque Value**
+> 3 n•m [27 in-lb]
+>
+> Connect the engine harness to the fuel system actuators:
+>
+> 1. Fueling actuator 1.
+> 2. Timing actuator 1.
+> 3. Timing actuator 2.
+> 4. Fueling actuator 2.
+>
+> Connect the engine harness to the fuel pressure sensor.
+>
+> Connect the engine harness to the intake manifold pressure/temperature sensor.
+>
+> Connect the engine harness to the coolant temperature sensor.
+>
+> Connect the engine harness to the Inline E connector.
+>
+> Make sure that all engine harness connections are secure.
+>
+> Connect the electronic service tool and check for fault codes.
+>
+> QSK23 Engines
+>
+> Install the engine harness and connect the engine speed sensor connectors (2).
+>
+> Install the P-clips (1) to the rear of the intake manifold and the rear of the cylinder block.
+>
+> **Note · Примечание**
+> The industrial wiring harness is shown. The power generation wiring harness routing will be slightly different and the harness will have some different connectors.
+>
+> Install the P-clip (2) near the lower right corner of the number 5 cam follower cover.
+>
+> Install the wiring P-clip (3) and intake heater connector bracket (4) located above the number 6 cam follower cover.
+>
+> Connect the data link (1) connector connecting the engine harness to the OEM harness.
+>
+> Connect the following to the engine harness:
+>
+> 1. Rail pressure sensor.
+> 2. Timing pressure sensor.
+>
+> Connect the following to the engine harness:
+>
+> 1. ECM connector A.
+> 2. Fuel rail actuator.
+> 3. Fuel shutoff solenoid.
+> 4. Fuel timing actuator.
+> 5. Fuel temperature sensor.
+>
+> Make sure the positive (+) and negative (-) terminals on the fuel shutoff solenoid are correct.
+>
+> Install the nine wire ties holding the engine harness to the support bracket.
+>
+> Connect the engine harness to the ambient pressure sensor (3).
+>
+> Install the harness P-clips (1) and bracket (2) mounted to and just below the ECM near the ambient pressure sensor (3).
+>
+> Install the harness P-clip and engine ground wire (1) and connect the oil pressure sensor (2).
+>
+> Connect the harness to the fuel pump actuator (2) and fuel pump pressure sensor (3).
+>
+> Install the engine harness P-clips (1) attached to fuel pump mounting flange.
+>
+> Install the engine harness P-clip and spacer attached near the intake manifold pressure sensor.
+>
+> Connect the engine harness to the intake manifold temperature and pressure sensors, located on the intake manifold on the right hand side of the fuel filters.
+>
+> Install the eight engine harness P-clips on the front of the engine, as shown.
+>
+> Install the engine harness P-clip, spacer, and bracket mounted to the thermostat housing (2).
+>
+> Connect the engine harness to the coolant temperature sensor (1).
+>
+> QST30
+>
+> Install all P-clips and harness retainers to the engine harness
+>
+> Use a 4 mm \[5/32 in\] hex head wrench to connect the engine harness Deutsch connector to the ECM.
+>
+> Use an inch-pound torque wrench, Part Number 3376592, with 4 mm \[5/32 in\] hex head adapter to tighten the connector jackscrew.
+>
+> **Момент затяжки · Torque Value**
+> 2.8 n•m [25 in-lb]
+>
+> **Note · Примечание**
+> Do **not** over-torque as connector damage can occur.
+>
+> Connect the engine harness to the right bank fuel shutoff valve connectors.
+>
+> Connect the engine harness to the right bank fuel injection pump connector.
+>
+> Connect the engine harness to the Centinel™ actuator connector, if equipped.
+>
+> Connect the engine harness to the number 2 right bank intake manifold air temperature sensor connector.
+>
+> Connect the engine harness to the fuel supply pump pressure and temperature sensors.
+>
+> Connect the engine harness to the fuel supply pump connectors.
+>
+> Connect the engine harness engine block ground to the engine block.
+>
+> Connect the engine harness to the Centinel™ tank switch extension, if equipped.
+>
+> Connect the engine harness to the engine speed sensor.
+>
+> Connect the engine harness to the grid heater relay connector, if equipped.
+>
+> Connect the engine harness to the left bank intake manifold air temperature sensor.
+>
+> Connect the engine harness to the Centinel™ oil level extension harness, if equipped.
+>
+> Connect the engine harness to the left bank fuel shutoff valve connectors.
+>
+> Connect the engine harness to the left bank fuel pump connector.
+>
+> Connect the engine harness to the oil temperature sensor, if equipped.
+>
+> Connect the engine harness to the oil pressure sensor.
+>
+> Connect the inline connector bracket which includes the barometric pressure sensor connector.
+>
+> Connect the two 6-pin or one 9-pin data link connector(s) to the harness support bracket by installing the capscrews.
+>
+> Connect the engine harness to the left bank intake manifold pressure sensor.
+>
+> Install the ties on the thermostat housing bracket, aftercooler tube, and fuel tube.
+>
+> Connect the engine harness to the coolant level harness extension connector.
+>
+> Connect the engine harness to the coolant temperature sensor and the coolant level sensor.
+>
+> Connect the engine harness to the coolant pressure sensor, if equipped.
+>
+> Install the engine harness clamps and ties.
+>
+> QST30 Upgrade
+>
+> Connect the engine harness to the engine using cable ties.
+>
+> Connect the engine harness Deutsch connector to the engine harness extension cable, if used, or the engine harness adapter cable. Use a 4 mm \[5/32 in\] hex head wrench to tighten.
+>
+> Use an inch-pound torque wrench, Part Number 3376592, with 4 mm \[5/32 in\] hex head adapter to tighten the connector jackscrew.
+>
+> **Момент затяжки · Torque Value**
+> 2.8 n•m [25 in-lb]
+>
+> **Note · Примечание**
+> Do not over-torque connector as damage can occur.
+>
+> Connect the engine block ground to the engine block.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Connect the engine harness to the fuel pump connectors (left bank and right bank).
+>
+> Connect the fuel shutoff control wires to the fuel shutoff solenoids (left bank and right bank). Tighten the retaining nut.
+>
+> **Момент затяжки · Torque Value**
+> 3 n•m [27 in-lb]
+>
+> Connect the engine harness to the oil pressure sensor.
+>
+> Connect the engine harness to the coolant temperature sensor.
+>
+> Connect the engine harness clamps.
+>
+> Connect the engine harness to the electrical system at the Inline E connector.
+>
+> Connect the engine harness extension cable to the extension cable connectors.
+>
+> Connect the engine harness adapter cable and all engine harness extension cables used.
+>
+> Use an inch-pound torque wrench, Part Number 3376592, with 4 mm \[5/32 in\] hex head adapter to tighten the connector jackscrew.
+>
+> **Момент затяжки · Torque Value**
+> 2.8 n•m [25 in-lb]
+>
+> **Note · Примечание**
+> Do **not** over-torque connector as damage can occur.
+>
+> QSK45, QSK60, and QSK78
+>
+> **Note · Примечание**
+> This step can **not** be completed on the QSK78 engine. The engine harness and the engine support bracket are one piece.
+>
+> Connect the engine harness to the engine harness support bracket.
+>
+> Install the engine harness and engine harness support bracket onto the engine.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Connect the coolant level switch sensor at the 4-pin inline connector.
+>
+> Connect the engine harness to the Centinel™ makeup tank oil level sensor Inline connector, if equipped.
+>
+> Connect the engine harness to the Centinel™ actuator connector, if equipped.
+>
+> Connect the engine harness to the aftercooler water temperature sensor.
+>
+> Connect the engine harness to the flash status at the Inline H connector.
+>
+> **Note · Примечание**
+> There are a number of different versions of the breather box QSK45, QSK60, and QSK78 engines. Even though the appearance can be different, the same steps can be used to install all versions of the breather box.
+>
+> Install the breather box assembly (8).
+>
+> Install the six mounting capscrews into the breather box assembly.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Connect the lower breather hose (7) to the breather box using the hose clamp (6).
+>
+> Connect the blow by pressure sensor/hose assembly (5) to the breather box using hose clamp (4).
+>
+> Connect the three hoses (2) to the bottom of the breather box (3), using three hose clamps (1).
+>
+> Connect the engine harness to the engine speed sensor (1).
+>
+> Connect the engine harness to the oil pressure sensor (2).
+>
+> **Note · Примечание**
+> This step can **not** be completed on the QSK78 engine. The engine harness and the engine support bracket are one piece.
+>
+> Slide the 9-pin data link connector into the mounting slot in the engine harness support bracket.
+>
+> Install and tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 1 n•m [9 in]
+>
+> Connect the engine harness to the oil level sensor, if equipped.
+>
+> Connect the engine harness to the extension harness at the Inline A, Inline B, and Inline C connectors.
+>
+> Connect the engine harness to the timing rail pressure sensor (1).
+>
+> Connect the engine harness to the fuel temperature sensor (3).
+>
+> Connect the engine harness to the injector meter rail pressure sensor (4).
+>
+> Connect the engine harness to the barometric pressure sensor (2). This sensor can **not** be located on the electronic control valve assembly. Locate the sensor on the harness main trunk/support bracket.
+>
+> Connect the engine harness to the fuel shutoff valve.
+>
+> **Момент затяжки · Torque Value**
+> 3 n•m [27 in-lb]
+>
+> Connect the engine harness to the fuel system actuators.
+>
+> 1. Timing actuators
+> 2. Fueling actuator.
+>
+> Connect the engine harness to the fuel pump pressure sensor (1).
+>
+> Connect the engine harness to the fuel pump actuator (2).
+>
+> Connect the engine harness to the blowby sensor.
+>
+> Connect the engine harness to the intake manifold pressure sensor (1).
+>
+> Connect the engine harness to the intake manifold temperature sensor (2).
+>
+> The coolant pressure sensor can be in three different locations:
+>
+> - Between the coolant filters, as illustrated.
+> - In the block, behind the fuel pump.
+> - In a spacer block between the coolant filters, and the thermostat housing.
+>
+> Connect the engine harness to the coolant pressure sensor.
+>
+> Connect the engine harness to the Inline E connector.
+>
+> Make sure all engine harness connections are secure.
+>
+> Connect the electronic service tool and check for fault codes.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-013-005-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-013-005-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator Drive Belt
@@ -34,61 +36,114 @@ tags:
 > **Даты:** изменён 2019-01-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-013-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-013-005-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Loosen the alternator adjusting link. Refer to Procedure 013-022 in Section 13.
+
+### Подготовительные операции
+
+- Удалите регулировочную линию генератора. См. процедуру 013-022 в разделе 13.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Manually Adjusted Alternator Belt:
+Ремень переменного тока вручную:
 
-Remove the alternator drive belt.
+Снимите ремень привода генератора.
 
 ![[eh6blha.png]]
 
-Automatic Belt Tensioner:
+Автоматический натяжитель пояса:
 
-Remove the capscrew and remove alternator belt tensioner.
+Удалите болты и удалите натяжитель ремня генератора.
 
 ![[13s00044.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Check the belt for wear or other damage.
+Проверьте ремень на износ или другие повреждения.
 
-If the belt indicates any wear or other damage, it **must** be replaced.
+Если ремень указывает на износ или другие повреждения, его * следует заменить.
 
 ![[fa800sa.png]]
 
-### Install
+### Установка
 
-Manually Adjusted Alternator Belt:
+Ремень переменного тока вручную:
 
-Install the alternator belt.
+Установите ремень генератора.
 
 ![[eh6blha.png]]
 
-Automatic Belt Tensioner:
+Автоматический натяжитель пояса:
 
-Install the capscrew and flat washer in the alternator belt tensioner.
+Установите болты и плоскую стиральную машину в натяжитель ремня генератора.
 
 ![[13s00045.png]]
 
-Align the alternator mounting bracket boss and the alternator belt tensions.
+Выровняйте генератор, устанавливающий кронштейн босса и ремень генератора напряжений.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [34.7 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [34.7 фунт-фут]
 
 ![[13s00046.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Adjust the alternator adjusting link. Refer to Procedure 013-022 in Section 13.
-- Start the engine and check for proper operation.
+- Настройка линии регулировки генератора. См. процедуру 013-022 в разделе 13.
+- Запустите двигатель и проверьте его правильность.
 
-- Adjust the alternator adjusting link. Refer to Procedure 013-022 in Section 13.
-- Start the engine. Check for proper operation.
+- Настройка линии регулировки генератора. См. процедуру 013-022 в разделе 13.
+- Запускай двигатель. Проверьте правильность операции.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Loosen the alternator adjusting link. Refer to Procedure 013-022 in Section 13.
+>
+> ### Remove
+>
+> Manually Adjusted Alternator Belt:
+>
+> Remove the alternator drive belt.
+>
+> Automatic Belt Tensioner:
+>
+> Remove the capscrew and remove alternator belt tensioner.
+>
+> ### Inspect for Reuse
+>
+> Check the belt for wear or other damage.
+>
+> If the belt indicates any wear or other damage, it **must** be replaced.
+>
+> ### Install
+>
+> Manually Adjusted Alternator Belt:
+>
+> Install the alternator belt.
+>
+> Automatic Belt Tensioner:
+>
+> Install the capscrew and flat washer in the alternator belt tensioner.
+>
+> Align the alternator mounting bracket boss and the alternator belt tensions.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [34.7 ft-lb]
+>
+> ### Finishing Steps
+>
+> - Adjust the alternator adjusting link. Refer to Procedure 013-022 in Section 13.
+> - Start the engine and check for proper operation.
+>
+> - Adjust the alternator adjusting link. Refer to Procedure 013-022 in Section 13.
+> - Start the engine. Check for proper operation.

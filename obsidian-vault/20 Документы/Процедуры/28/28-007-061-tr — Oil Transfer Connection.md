@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-061-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-061-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Oil Transfer Connection
@@ -34,18 +36,42 @@ tags:
 > **Даты:** изменён 2021-06-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-061-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-061-tr.pdf)
 
-### Clean and Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+### Очистка и проверка при повторном использовании
 
-Clean both faces of the oil transfer connection (1) with solvent and dry with compressed air.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Inspect both faces of the oil transfer connection (1) for cracks, damage, and and gasket residue.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-The oil transfer connection (1) **must** be repaired or replaced if cracked or damaged.
+Очистить обе грани соединения для переноса масла (1) растворителем и высушить сжатым воздухом.
+
+Осмотрите обе стороны соединения (1) для передачи масла на наличие трещин, повреждений и остатков прокладки.
+
+Соединение для передачи масла (1)* должно быть восстановлено или заменено, если оно повреждено или повреждено.
 
 ![[07600388.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean both faces of the oil transfer connection (1) with solvent and dry with compressed air.
+>
+> Inspect both faces of the oil transfer connection (1) for cracks, damage, and and gasket residue.
+>
+> The oil transfer connection (1) **must** be repaired or replaced if cracked or damaged.

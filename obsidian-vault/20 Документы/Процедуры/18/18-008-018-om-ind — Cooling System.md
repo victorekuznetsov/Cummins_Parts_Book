@@ -30,7 +30,8 @@ manuals:
   - "4021375"
   - "4021530"
 figures: 14
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-018-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-008-018-om-ind.pdf"
 tags:
@@ -41,6 +42,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Cooling System
@@ -54,134 +56,248 @@ tags:
 > **Даты:** изменён 2015-04-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-018-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-008-018-om-ind.pdf)
 
-### Drain
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 
-> [!note] Note · Примечание
-> Marine engines will have a heat exchanger or keel coolers instead of a radiator.
+### дренаж
 
-Remove the radiator pressure cap after the engine is cool.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+> [!note] Примечание
+> Морские двигатели будут иметь теплообменник или киль-охладители вместо радиатора.
+
+Удалите крышку радиатора после охлаждения двигателя.
 
 ![[ra800qa.png]]
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Position the vehicle on level ground.
+Поместите автомобиль на ровном месте.
 
-Open the draincock at the bottom of the radiator.
+Откройте дренажный клапан в нижней части радиатора.
 
-Remove the lower radiator hose.
+Удалите нижний шланг радиатора.
 
 ![[oi800la.png]]
 
-### Flush
+### флеш
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Remove the radiator pressure cap after the engine is cool.
+Удалите крышку радиатора после охлаждения двигателя.
 
 ![[ra800qa.png]]
 
-The performance of RESTORE™ cleaning solution is dependent on time, temperature, and concentration levels.
+Производительность раствора для очистки RESTORETM зависит от времени, температуры и уровня концентрации.
 
-An extremely scaled or flow restricted system can require higher concentrations of cleaners, higher temperatures, or longer cleaning time.
+Чрезвычайно масштабированная или ограниченная по потоку система может потребовать более высоких концентраций очистителей, более высоких температур или более длительного времени очистки.
 
-RESTORE™ cleaning solution can be safely used up to twice the recommended concentration levels.
+Раствор для очистки RESTORETM можно безопасно использовать до двух рекомендуемых уровней концентрации.
 
-Extremely scaled or fouled systems can require more than one cleaning.
+Чрезвычайно масштабированные или загрязненные системы могут потребовать более одной очистки.
 
 ![[ra8togb.png]]
 
-> [!warning] CAUTION · Осторожно
-> Fleetguard RESTORE® cleaning solution does not contain antifreeze. Do not allow the cooling system to freeze during the cleaning operation.
+> [!warning] ОСТОРОЖНО
+> Раствор для очистки Fleetguard RESTORE® не содержит антифриз. Не позволяйте системе охлаждения замерзать во время операции очистки.
 
-Immediately add 3.8 liters \[1 gal\] of Fleetguard RESTORE™, cleaning solution or equivalent, for each 38 to 57 liters \[10 gal\] of cooling system capacity.
+Немедленно добавьте 3,8 литра \[1 галл\] раствора для очистки Fleetguard RESTORETM или эквивалента для каждого 38-57 литров \[10 галл\] емкости системы охлаждения.
 
-Fill the cooling system with plain water.
+Заполните систему охлаждения простой водой.
 
-Turn the heater temperature to HIGH to allow maximum coolant flow through the heater core.
+Поверните температуру нагревателя на ВЫСОКО, чтобы обеспечить максимальный поток охлаждающей жидкости через ядро нагревателя.
 
-The blower does **not** have to be on.
+Вентилятор не должен быть включен.
 
 ![[ra8towa.png]]
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Operate the engine to a minimum coolant temperature of 85°C \[185°F\] for 1 to 1½ hours.
+Управляйте двигателем до минимальной температуры охлаждающей жидкости 85 ° C \[185 ° F \] в течение 1-1 1⁄2 часов.
 
-Shut the engine OFF. Allow it to cool to 50°C \[120°F\]. Drain the cooling system.
+Закройте двигатель. Дайте ему остыть до 50°C[120°F]. Слейте охлаждающую жидкость.
 
 ![[eg8gakb.png]]
 
-Fill the cooling system with clean water.
+Заполните систему охлаждения чистой водой.
 
 ![[ra800wg.png]]
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Operate the engine at high idle for five minutes with the coolant temperature above 85°C \[185°F\].
+Работайте с двигателем на высоком холостом ходу в течение пяти минут при температуре охлаждающей жидкости выше 85 ° C \[185 ° F \].
 
-Shut the engine OFF. Allow it to cool to 50°C \[120°F\]. Drain the cooling system.
+Закройте двигатель. Дайте ему остыть до 50°C[120°F]. Слейте охлаждающую жидкость.
 
-If the water drained is dirty, the system **must** be flushed again until the water is clean.
+Если сливная вода грязная, система должна быть снова смыта до тех пор, пока вода не станет чистой.
 
 ![[eg8gakf.png]]
 
-Install a new coolant filter. [[18-008-006-om-ind — Coolant Filter|Refer to Procedure 008-006]] (Coolant Filter) in Section 5.
+Установите новый фильтр охлаждающей жидкости.[[18-008-006-om-ind — Coolant Filter|См. процедуру 008-006]](Фильтр охлаждения) в разделе 5.
 
-Fill the cooling system with fully formulated coolant.
+Заполните систему охлаждения полностью сформулированной охлаждающей жидкостью.
 
-Use additional SCA to bring the coolant to the correct SCA concentration level. [[99-008-046 — Supplemental Coolant Additive (SCA) and Antifreeze Concentration|Refer to Procedure 008-046]] (Supplement Coolant Additive (SCA) and Antifreeze Concentration) in Section 5.
+Используйте дополнительное SCA, чтобы довести охлаждающую жидкость до правильного уровня концентрации SCA.[[99-008-046 — Supplemental Coolant Additive (SCA) and Antifreeze Concentration|См. процедуру 008-046]](Дополнительная добавка к охлаждению (SCA) и концентрация антифриза) в разделе 5.
 
 ![[ra400va.png]]
 
-Install the pressure cap.
+Установите крышку радиатора.
 
-Operate the engine until the coolant reaches a temperature of 70°C \[160°F\], and check for coolant leaks.
+Управляйте двигателем до тех пор, пока охлаждающая жидкость не достигнет температуры 70 ° C \[160° F \], и проверяйте утечки охлаждающей жидкости.
 
 ![[ra800sa.png]]
 
-### Fill
+### заполнять
 
-Close the radiator draincocks.
+Закройте дренажные краны радиатора.
 
-Install the lower radiator hose(s).
+Установите нижний шланг (шланги) радиатора.
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 5 n•m [40 in-lb]
+> [!tip] Момент затяжки
+> 5 Н·м [40 фунт-дюйм]
 
-Use fully formulated coolant to fill the coolant system.
+Используйте полностью сформулированную охлаждающую жидкость для заполнения системы охлаждающей жидкости.
 
-Use the correct units of SCA to obtain the correct cooling system protection. [[99-008-046 — Supplemental Coolant Additive (SCA) and Antifreeze Concentration|Refer to Procedure 008-046]] (Supplement Coolant Additive (SCA) and Antifreeze Concentration) in Section 5.
+Используйте правильные блоки SCA для получения правильной защиты системы охлаждения.[[99-008-046 — Supplemental Coolant Additive (SCA) and Antifreeze Concentration|См. процедуру 008-046]](Дополнительная добавка к охлаждению (SCA) и концентрация антифриза) в разделе 5.
 
 ![[ra400va.png]]
 
-> [!warning] CAUTION · Осторожно
-> If the coolant level is above the bottom of the fill neck there will not be enough space for the air that is in the system. If the air is not trapped at the top of the radiator it can travel to the water pump inlet causing low coolant flow because of impeller cavitation. The cavitation can result in overheating of the engine.
+> [!warning] ОСТОРОЖНО
+> Если уровень охлаждающей жидкости находится выше нижней части шеи заполнения, то не будет достаточно места для воздуха, который находится в системе. Если воздух не застрял в верхней части радиатора, он может попасть на вход водяного насоса, вызывая низкий поток охлаждающей жидкости из-за кавитации импеллера. Кавитация может привести к перегреву двигателя.
 
-Fill the cooling system with coolant to the bottom of the fill neck in the radiator or expansion tank.
+Заполните систему охлаждения охлаждающей жидкостью до нижней части шеи заполнения в радиаторе или резервуаре расширения.
 
 ![[oi800wc.png]]
 
-Replace the radiator or fill cap.
+Замените радиатор или заполните крышку.
 
-Operate the engine until the coolant reaches a temperature of 70°C \[160°F\].
+Работайте с двигателем до тех пор, пока охлаждающая жидкость не достигнет температуры 70 ° C \[160° F \].
 
-Check for leaks.
+Проверьте на отсутствие утечек.
 
 ![[ra800sa.png]]
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Shut the engine off, allow it to cool and check the coolant level.
+Выключите двигатель, дайте ему остыть и проверьте уровень охлаждающей жидкости.
 
 ![[ra800qa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Drain
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **Note · Примечание**
+> Marine engines will have a heat exchanger or keel coolers instead of a radiator.
+>
+> Remove the radiator pressure cap after the engine is cool.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Position the vehicle on level ground.
+>
+> Open the draincock at the bottom of the radiator.
+>
+> Remove the lower radiator hose.
+>
+> ### Flush
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> Remove the radiator pressure cap after the engine is cool.
+>
+> The performance of RESTORE™ cleaning solution is dependent on time, temperature, and concentration levels.
+>
+> An extremely scaled or flow restricted system can require higher concentrations of cleaners, higher temperatures, or longer cleaning time.
+>
+> RESTORE™ cleaning solution can be safely used up to twice the recommended concentration levels.
+>
+> Extremely scaled or fouled systems can require more than one cleaning.
+>
+> **CAUTION · Осторожно**
+> Fleetguard RESTORE® cleaning solution does not contain antifreeze. Do not allow the cooling system to freeze during the cleaning operation.
+>
+> Immediately add 3.8 liters \[1 gal\] of Fleetguard RESTORE™, cleaning solution or equivalent, for each 38 to 57 liters \[10 gal\] of cooling system capacity.
+>
+> Fill the cooling system with plain water.
+>
+> Turn the heater temperature to HIGH to allow maximum coolant flow through the heater core.
+>
+> The blower does **not** have to be on.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> Operate the engine to a minimum coolant temperature of 85°C \[185°F\] for 1 to 1½ hours.
+>
+> Shut the engine OFF. Allow it to cool to 50°C \[120°F\]. Drain the cooling system.
+>
+> Fill the cooling system with clean water.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> Operate the engine at high idle for five minutes with the coolant temperature above 85°C \[185°F\].
+>
+> Shut the engine OFF. Allow it to cool to 50°C \[120°F\]. Drain the cooling system.
+>
+> If the water drained is dirty, the system **must** be flushed again until the water is clean.
+>
+> Install a new coolant filter. [[18-008-006-om-ind — Coolant Filter|Refer to Procedure 008-006]] (Coolant Filter) in Section 5.
+>
+> Fill the cooling system with fully formulated coolant.
+>
+> Use additional SCA to bring the coolant to the correct SCA concentration level. [[99-008-046 — Supplemental Coolant Additive (SCA) and Antifreeze Concentration|Refer to Procedure 008-046]] (Supplement Coolant Additive (SCA) and Antifreeze Concentration) in Section 5.
+>
+> Install the pressure cap.
+>
+> Operate the engine until the coolant reaches a temperature of 70°C \[160°F\], and check for coolant leaks.
+>
+> ### Fill
+>
+> Close the radiator draincocks.
+>
+> Install the lower radiator hose(s).
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 5 n•m [40 in-lb]
+>
+> Use fully formulated coolant to fill the coolant system.
+>
+> Use the correct units of SCA to obtain the correct cooling system protection. [[99-008-046 — Supplemental Coolant Additive (SCA) and Antifreeze Concentration|Refer to Procedure 008-046]] (Supplement Coolant Additive (SCA) and Antifreeze Concentration) in Section 5.
+>
+> **CAUTION · Осторожно**
+> If the coolant level is above the bottom of the fill neck there will not be enough space for the air that is in the system. If the air is not trapped at the top of the radiator it can travel to the water pump inlet causing low coolant flow because of impeller cavitation. The cavitation can result in overheating of the engine.
+>
+> Fill the cooling system with coolant to the bottom of the fill neck in the radiator or expansion tank.
+>
+> Replace the radiator or fill cap.
+>
+> Operate the engine until the coolant reaches a temperature of 70°C \[160°F\].
+>
+> Check for leaks.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> Shut the engine off, allow it to cool and check the coolant level.

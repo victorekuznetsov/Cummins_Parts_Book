@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-062-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-062-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Water Pump
@@ -34,11 +36,28 @@ tags:
 > **Даты:** изменён 2022-10-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-062-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-062-om.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Inspect the water pump for coolant or oil leakage at the water pump weep hole.
 
-> [!note] Note · Примечание
-> A minor chemical buildup or streaking at the water pump weep hole is normal. Do **not** repair or replace the water pump unless an actual leak is confirmed. Contact a Cummins® Authorized Repair Location.
+### Осмотр
+
+Осмотрите водяной насос на наличие хладагента или утечки масла в отверстии для слива водяного насоса.
+
+> [!note] Примечание
+> Незначительное химическое накопление или наращивание на сливном отверстии водяного насоса является нормальным. Не ремонтируйте и не заменяйте водяной насос, если фактическая утечка не подтверждена. Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[08a00043.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> Inspect the water pump for coolant or oil leakage at the water pump weep hole.
+>
+> **Note · Примечание**
+> A minor chemical buildup or streaking at the water pump weep hole is normal. Do **not** repair or replace the water pump unless an actual leak is confirmed. Contact a Cummins® Authorized Repair Location.

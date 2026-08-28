@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-100-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-100-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Identification
@@ -34,12 +36,28 @@ tags:
 > **Даты:** изменён 2002-10-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-100-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-100-001.pdf)
 
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
 ### ECM Dataplate
 
-The external ECM dataplate is located on the side of the ECM opposite the ECM connectors.
+Внешняя табличка ECM расположена на стороне ECM напротив разъемов ECM.
 
 ![[19802621.png]]
 
-The dataplate contains the ECM part number (P/N), the ECM serial number (S/N), the manufacturing date code (D/C), the engine serial number (ESN), the electronic configuration (E/C), the governor type (GOV, this entry will be blank), and the software calibration option (S/C).
+В табличке с данными указаны номер детали ECM (P/N), серийный номер ECM (S/N), код даты изготовления (D/C), серийный номер двигателя (ESN), электронная конфигурация (E/C), тип регулятора (GOV, эта запись будет пустой) и опция калибровки программного обеспечения (S/C).
 
 ![[19802622.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### ECM Dataplate
+>
+> The external ECM dataplate is located on the side of the ECM opposite the ECM connectors.
+>
+> The dataplate contains the ECM part number (P/N), the ECM serial number (S/N), the manufacturing date code (D/C), the engine serial number (ESN), the electronic configuration (E/C), the governor type (GOV, this entry will be blank), and the software calibration option (S/C).

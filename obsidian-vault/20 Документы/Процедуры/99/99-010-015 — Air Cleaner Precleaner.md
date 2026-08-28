@@ -36,7 +36,8 @@ manuals:
   - "4021375"
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-010-015.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-010-015.pdf"
 tags:
@@ -48,6 +49,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Air Cleaner Precleaner
@@ -61,8 +63,22 @@ tags:
 > **Даты:** изменён 2003-02-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-010-015.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-010-015.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Under extremely dirty conditions, an air precleaner can be used. Clean the precleaner jar and dry-type air cleaner dust pans daily or, if necessary, more often, depending on operating conditions.
+
+### Контроль при обслуживании
+
+В крайне грязных условиях можно использовать воздухоочиститель. Очистите банку-преклинер и поддона для очистки воздуха сухого типа ежедневно или, при необходимости, чаще, в зависимости от условий эксплуатации.
 
 ![[10400182.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Under extremely dirty conditions, an air precleaner can be used. Clean the precleaner jar and dry-type air cleaner dust pans daily or, if necessary, more often, depending on operating conditions.

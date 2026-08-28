@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666184"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-fc151.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-fc151.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/94"
+  - "перевод/машинный"
 ---
 
 # Coolant Temperature - Engine Protection
@@ -34,85 +36,175 @@ tags:
 > **Даты:** изменён 2003-03-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-fc151.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-fc151.pdf)
 
-### Fault Code: 151
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Coolant Temperature - Engine Protection
 
-Printable Version
+### Код неисправности: 151
 
-### Overview
+### Температура охлаждающей жидкости — защита двигателя
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 151 PID(P): SPN: FMI: Lamp: SRT: 00-357 | Engine coolant temperature has exceeded the alarm (shutdown) threshold for high coolant temperature. | Engine will shutdown. Common Alarm output is energized. High Coolant Temperature (HCT) relay driver is energized. |
+| Код неисправности: 151 PID(P): СПН: ФМИ: Лампа: СТО: 00-357 | Температура охлаждающей жидкости двигателя превысила порог тревоги (затвора) для высокой температуры охлаждающей жидкости. | Двигатель отключится. Общий выход сигнализации активизирован. Высокотемпературный реле (HCT) заряжается энергией. |
 
 ![[19a00009.png]]
 
-### Circuit Description
+### Описание цепи
 
-The CTS is used by the electronic control module (ECM) to monitor the temperature of the engine coolant. The ECM monitors the voltage on the signal pin and converts this to a temperature value. The coolant temperature is used by the ECM for the engine protection system and fueling control.
+CTS используется электронным модулем управления (ECM) для мониторинга температуры охлаждающей жидкости двигателя. ECM контролирует напряжение на контакте сигнала и преобразует его в температурное значение. Температура охлаждающей жидкости используется ECM для системы защиты двигателя и управления заправкой.
 
-### Component Location
+### Расположение компонента
 
-The CTS is located on the side of the thermostat housing.
+CTS расположен на стороне корпуса термостата.
 
-### Shoptalk
+### Практические замечания
 
-- Make sure the air flow through the radiator is **not** obstructed.
+- Убедитесь, что поток воздуха через радиатор не затрудняется.
 
-- The resistance of all the temperature sensors varies with the temperature. The reading that you observe should compare to the following table if the sensor is functioning properly.
+- Сопротивление всех датчиков температуры изменяется в зависимости от температуры. Считывание, которое вы наблюдаете, должно быть сопоставимо со следующей таблицей, если датчик работает должным образом.
 
-- The threshold for the coolant temperature warning is adjustable with INSITE™, Part No. 3825145. Ensure the threshold is set to the appropriate value.
+- Порог для предупреждения о температуре охлаждающей жидкости регулируется с помощью INSITETM, номер детали. 3825145. Убедитесь, что порог установлен на соответствующее значение.
 
-| Temperature (° C) | Temperature \[° F\] | Resistance (ohms) |
+| Температура (°С) | Температура \[°F\] | Сопротивление (Омс) |
 |---|---|---|
-| 0 | 32 | 30k to 36k |
-| 25 | 77 | 9k to 11k |
-| 50 | 122 | 3k to 4k |
-| 75 | 167 | 1350 to 1500 |
-| 100 | 212 | 600 to 675 |
+| 0 | 32 | 30k до 36k |
+| 25 | 77 | 9k до 11k |
+| 50 | 122 | 3k - 4k |
+| 75 | 167 | 1350—1500 |
+| 100 | 212 | 600-675 |
 
-## Warnings and Cautions
+## Предупреждения и меры предосторожности
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
 >
 
-**Wait until the coolant temperature is below 50° C \[120° F\] before removing the coolant system pressure cap or the CTS. Failure to do so can cause personal injury from heated coolant spray.**
+**Подождите, пока температура охлаждающей жидкости не будет ниже 50°C \[120°F\], прежде чем удалять крышку радиатора системы охлаждающей жидкости или CTS. Неспособность сделать это может привести к травмам от нагреваемого спрея охлаждающей жидкости.**
 
-## Troubleshooting Summary
+## Сводка по поиску неисправности
 
-| STEPS | SPECIFICATIONS |  |
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check the sensor accuracy. |  |
-|  | **STEP 1A.** Verify the sensor accuracy with a thermocouple or similar temperature probe. | Sensor reading is correct |
-| STEP 2. | Clear the fault code. |  |
-|  | **STEP 2A.** Disable the fault code. | Fault Code 151 inactive |
-|  | **STEP 2B.** Clear the inactive fault codes. | All Faults cleared |
+| ШАГ 1. | Проверьте точность датчика. |  |
+|  | **STEP 1A.** Проверить точность датчика с помощью термопары или аналогичного датчика температуры. | Чтение датчиков правильное |
+| ШАГ 2. | Очистите код ошибки. |  |
+|  | **STEP 2A.** Отключить код ошибки. | Код 151 неактивный |
+|  | **STEP 2B.** Очистить коды неактивных ошибок. | Все ошибки устранены |
 
-### STEP 1. Check the sensor accuracy.
+### ШАГ 1. Проверьте точность датчика.
 
-#### STEP 1A. Verify the sensor accuracy with a thermocouple or similar temperature probe.
+#### ШАГ 1A. Проверить точность датчика с помощью термопары или аналогичного датчика температуры.
 
-| **Conditions:** Stop/Run switch in the "STOP" position. Controller in the diagnostic mode. |  |  |
+| **Условия:** Переключатель стоп/бега в положении «стоп». Контроллер в диагностическом режиме. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Connect the temperature probe to the engine near the CTS. Connect INSITE™, Part No. 3825145, to the data link. Compare the coolant temperature reading on the service tool monitor screen to the reading from the temperature probe. **NOTE:** If no temperature measuring device is available, then answer "OK" to this step. | Sensor reading is correct. Refer to Base Engine Troubleshooting and Repair Manual for correct specifications. | 2A |
-| **Go to Fault Code 145** | Fault Code 145 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Подключите датчик температуры к двигателю рядом с CTS. Подключите Insite, номер детали. 3825145, на шину данных CAN. Сравните показания температуры охлаждающей жидкости на экране монитора рабочего инструмента с показаниями датчика температуры. **Примечание:** Если прибор для измерения температуры недоступен, то ответьте «ОК» на этот шаг. | Датчик показаний правильный. См. Руководство по устранению неполадок и ремонту базового двигателя для правильных спецификаций. | 2А |
+| **Перейти к коду 145** | Код ошибки 145 |  |
 
-### STEP 2. Clear the fault code.
+### ШАГ 2. Очистите код ошибки.
 
-#### STEP 2A. Disable the fault code.
+#### ШАГ 2A. Отключите код неисправности.
 
-| **Conditions:** Connect all the components. |  |  |
+| **Условия:** Соедините все компоненты. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Connect all the components. Start the engine and let it warm up to normal operating temperature to verify that the fault has been fixed. | Fault Code 151 inactive | 2B |
-| Return to the troubleshooting steps or contact your local Cummins Authorized Repair Location if all the steps have been completed and checked again. | 1A |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Подключите все компоненты. Запустите двигатель и дайте ему прогреться до нормальной рабочей температуры, чтобы убедиться, что неисправность была исправлена. | Код 151 неактивный | 2В |
+| Вернитесь к шагам устранения неполадок или свяжитесь с вашим местным авторизованным ремонтным центром Cummins, если все шаги были завершены и проверены снова. | 1А |  |
 
-#### STEP 2B. Clear the inactive fault codes.
+#### ШАГ 2B. Сбросьте неактивные коды неисправностей.
 
-| **Conditions:** Connect all the components. |  |  |
+| **Условия:** Соедините все компоненты. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Erase the inactive fault codes using INSITE™, Part No. 3825145. **NOTE:** The datalink connector is located on the right bank of the flywheel housing. | All faults cleared. | Repair complete |
-| **Troubleshoot any remaining active fault codes.** | Appropriate troubleshooting chart |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Стирать неактивные коды неисправностей с помощью INSITETM, номер детали. 3825145. **Примечание:** Разъем шины данных CAN расположен на правом берегу корпуса маховика. | Все ошибки устранены. | Ремонт завершён |
+| **Устранение неполадок с оставшимися активными кодами ошибок.** | Соответствующая диаграмма устранения неполадок |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 151
+>
+> ### Coolant Temperature - Engine Protection
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 151 PID(P): SPN: FMI: Lamp: SRT: 00-357 | Engine coolant temperature has exceeded the alarm (shutdown) threshold for high coolant temperature. | Engine will shutdown. Common Alarm output is energized. High Coolant Temperature (HCT) relay driver is energized. |
+>
+> ### Circuit Description
+>
+> The CTS is used by the electronic control module (ECM) to monitor the temperature of the engine coolant. The ECM monitors the voltage on the signal pin and converts this to a temperature value. The coolant temperature is used by the ECM for the engine protection system and fueling control.
+>
+> ### Component Location
+>
+> The CTS is located on the side of the thermostat housing.
+>
+> ### Shoptalk
+>
+> - Make sure the air flow through the radiator is **not** obstructed.
+>
+> - The resistance of all the temperature sensors varies with the temperature. The reading that you observe should compare to the following table if the sensor is functioning properly.
+>
+> - The threshold for the coolant temperature warning is adjustable with INSITE™, Part No. 3825145. Ensure the threshold is set to the appropriate value.
+>
+> | Temperature (° C) | Temperature \[° F\] | Resistance (ohms) |
+> |---|---|---|
+> | 0 | 32 | 30k to 36k |
+> | 25 | 77 | 9k to 11k |
+> | 50 | 122 | 3k to 4k |
+> | 75 | 167 | 1350 to 1500 |
+> | 100 | 212 | 600 to 675 |
+>
+> ## Warnings and Cautions
+>
+> **WARNING · Опасно**
+>
+> **Wait until the coolant temperature is below 50° C \[120° F\] before removing the coolant system pressure cap or the CTS. Failure to do so can cause personal injury from heated coolant spray.**
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check the sensor accuracy. |  |
+> |  | **STEP 1A.** Verify the sensor accuracy with a thermocouple or similar temperature probe. | Sensor reading is correct |
+> | STEP 2. | Clear the fault code. |  |
+> |  | **STEP 2A.** Disable the fault code. | Fault Code 151 inactive |
+> |  | **STEP 2B.** Clear the inactive fault codes. | All Faults cleared |
+>
+> ### STEP 1. Check the sensor accuracy.
+>
+> #### STEP 1A. Verify the sensor accuracy with a thermocouple or similar temperature probe.
+>
+> | **Conditions:** Stop/Run switch in the "STOP" position. Controller in the diagnostic mode. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Connect the temperature probe to the engine near the CTS. Connect INSITE™, Part No. 3825145, to the data link. Compare the coolant temperature reading on the service tool monitor screen to the reading from the temperature probe. **NOTE:** If no temperature measuring device is available, then answer "OK" to this step. | Sensor reading is correct. Refer to Base Engine Troubleshooting and Repair Manual for correct specifications. | 2A |
+> | **Go to Fault Code 145** | Fault Code 145 |  |
+>
+> ### STEP 2. Clear the fault code.
+>
+> #### STEP 2A. Disable the fault code.
+>
+> | **Conditions:** Connect all the components. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Connect all the components. Start the engine and let it warm up to normal operating temperature to verify that the fault has been fixed. | Fault Code 151 inactive | 2B |
+> | Return to the troubleshooting steps or contact your local Cummins Authorized Repair Location if all the steps have been completed and checked again. | 1A |  |
+>
+> #### STEP 2B. Clear the inactive fault codes.
+>
+> | **Conditions:** Connect all the components. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Erase the inactive fault codes using INSITE™, Part No. 3825145. **NOTE:** The datalink connector is located on the right bank of the flywheel housing. | All faults cleared. | Repair complete |
+> | **Troubleshoot any remaining active fault codes.** | Appropriate troubleshooting chart |  |

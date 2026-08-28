@@ -15,13 +15,15 @@ manuals:
   - "3666120"
   - "4358453"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-036-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-036-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Fan Hub, Belt Driven
@@ -35,20 +37,46 @@ tags:
 > **Даты:** изменён 2026-02-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-036-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-036-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> If the vent plug is not removed, seal and bearing damage will result.
 
-Remove the vent plug from the fan hub grease cavity. Apply grease through the grease fitting until grease comes out of the vent hole.
+### Контроль при обслуживании
 
-Use high performance, general purpose industrial-type grease (NLGI Grade Number 2) Chevron™ SRI Grease 2 or Mobilux™ EP 2 grease, or its equivalent, to lubricate the fan hub.
+> [!warning] ОСТОРОЖНО
+> Если вентиляционная пробка не будет удалена, произойдет уплотнение и повреждение подшипника.
 
-If above greases are **not** available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+Удалите вентиляционную пробку из полости жира вентилятора. Нанесите смазку через масляную подгонки, пока смазка не выйдет из отверстия вентиляции.
 
-Install the vent plug in the vent hole.
+Используйте высокопроизводительную смазку промышленного типа общего назначения (NLGI Grade Number 2) ChevronTM SRI Grease 2 или MobiluxTM EP 2 для смазки вентилятора.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+Если вышеперечисленные смазки не доступны на местном уровне, обратитесь к дистрибьютору Cummins® за консультацией по другим одобренным эквивалентам Cummins®.
+
+Установите вентиляционную вилку в вентиляционном отверстии.
+
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[08400001.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> **CAUTION · Осторожно**
+> If the vent plug is not removed, seal and bearing damage will result.
+>
+> Remove the vent plug from the fan hub grease cavity. Apply grease through the grease fitting until grease comes out of the vent hole.
+>
+> Use high performance, general purpose industrial-type grease (NLGI Grade Number 2) Chevron™ SRI Grease 2 or Mobilux™ EP 2 grease, or its equivalent, to lubricate the fan hub.
+>
+> If above greases are **not** available locally, contact a Cummins® Distributor for advice on other Cummins® approved equivalents.
+>
+> Install the vent plug in the vent hole.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]

@@ -46,7 +46,8 @@ manuals:
   - "4021442"
   - "4021674"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-202.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-202.pdf"
 tags:
@@ -60,6 +61,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Metripack Connector Series
@@ -73,68 +75,126 @@ tags:
 > **Даты:** изменён 2003-04-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-202.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-202.pdf)
 
-### Pin Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The connector can have multiple pin configurations. All types of connectors are repaired in the same manner.
 
-![[19d01801.png]]
+### Замена пин
 
-The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
-
-Refer to the connector replacement procedure for replacement instructions.
-
-![[19900608.png]]
-
-### Connector Replacement
-
-The connector can have multiple pin configurations. All types of connectors are repaired in the same manner.
+Разъем может иметь несколько конфигураций штифта. Все типы разъемов ремонтируются одинаково.
 
 ![[19d01801.png]]
 
-The connectors have different keying and can **not** be interchanged with each other.
+Контакты разъема могут быть **не** отремонтированы или заменены. Разъем * должен быть заменен как блок.
 
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
-
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
-
-Refer to the wiring diagram in Section E for pin locations.
-
-Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+См. процедуру замены разъема для инструкций по замене.
 
 ![[19900608.png]]
 
-Measure 152 mm \[6 in\] back from the face of the connector, and remove the wiring harness protective cover.
+### Замена разъёма
+
+Разъем может иметь несколько конфигураций штифта. Все типы разъемов ремонтируются одинаково.
+
+![[19d01801.png]]
+
+Разъемы имеют различную кнопку и могут **не** быть взаимозаменяемы друг с другом.
+
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
+
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
+
+Расположение контактов см. на электрической схеме в разделе E.
+
+Замените один контактный провод за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
+
+![[19900608.png]]
+
+Измерьте 152 мм \[6 в\] назад от поверхности разъема, и удалите защитную крышку упряжки проводов.
 
 ![[ee8coa09.png]]
 
-Before cutting the wires, measure and tag the wires.
+Перед тем как разрезать провода, измерьте и пометьте провода.
 
-Use wire cutters to cut wire A 117 mm \[4-½ in\] from the face of the connector.
+Используйте резак для резки провода A 117 мм \[4-1⁄2 в\] от поверхности разъема.
 
-Use wire cutters to cut wire B 104 mm \[4 in\] from the face of the connector.
+Используйте резак для резки провода B 104 мм \[4 in\] от поверхности разъема.
 
-Use wire cutters to cut wire C 91 mm \[3-½ in\] from the face of the connector.
+Используйте резак для резки провода C 91 мм \[3-1⁄2 в\] от поверхности разъема.
 
 ![[19400415.png]]
 
-Use crimping tool, Part Number 3822930, to remove 6 mm \[¼ in\] of insulation from all electrical wires.
+Используйте обжимной инструмент, номер детали 3822930, чтобы удалить 6 мм изоляции из всех электрических проводов.
 
-Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+Перед установкой нового разъема выполните измерительную посадку, чтобы убедиться, что разъем правильно заключён.
 
-Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+См. соответствующий комплект для ремонта проводов в таблице инструментов обслуживания в передней части Раздела 19 для правильного ремонтного разъема.
 
-Refer to Section E for pin locations.
+См. раздел E для пин-локаций.
 
-Replace one contact at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+Замените один контакт за раз. Если необходимо заменить более одного провода, прикрепите к каждому удаленному проводу буквенную метку.
 
 ![[19400416.png]]
 
-Install the terminal repair wires on the bare wires and use wire crimping tool, Part Number 3822930, to crimp the terminals.
+Установите провода для ремонта терминала на голые провода и используйте инструмент для обжима проводов, номер детали 3822930, чтобы обжимать терминалы.
 
-Use heat gun, Part Number 3822860, to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+Используйте тепловую пушку, номер детали 3822860, для нагрева термоусадочной трубы. Трубка будет сжиматься и делать соединение водонепроницаемым.
 
 ![[ee8coay.png]]
 
-Wrap the wires with tape, for added protection to complete the repair.
+Заверните провода лентой, чтобы добавить защиту для завершения ремонта.
 
-![[ee8coa12.png]]
+> [!missing]- Иллюстрация `ee8coa12.png` не извлечена — смотрите PDF-оригинал документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Pin Replacement
+>
+> The connector can have multiple pin configurations. All types of connectors are repaired in the same manner.
+>
+> The connector pins can **not** be repaired or replaced. The connector **must** be replaced as a unit.
+>
+> Refer to the connector replacement procedure for replacement instructions.
+>
+> ### Connector Replacement
+>
+> The connector can have multiple pin configurations. All types of connectors are repaired in the same manner.
+>
+> The connectors have different keying and can **not** be interchanged with each other.
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Refer to the wiring diagram in Section E for pin locations.
+>
+> Replace one contact wire at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Measure 152 mm \[6 in\] back from the face of the connector, and remove the wiring harness protective cover.
+>
+> Before cutting the wires, measure and tag the wires.
+>
+> Use wire cutters to cut wire A 117 mm \[4-½ in\] from the face of the connector.
+>
+> Use wire cutters to cut wire B 104 mm \[4 in\] from the face of the connector.
+>
+> Use wire cutters to cut wire C 91 mm \[3-½ in\] from the face of the connector.
+>
+> Use crimping tool, Part Number 3822930, to remove 6 mm \[¼ in\] of insulation from all electrical wires.
+>
+> Before installing the new connector, perform a test fit to make sure the connector is keyed correctly.
+>
+> Refer to the appropriate wiring repair kit in the service tools table in the front of Section 19 for the correct repair connector.
+>
+> Refer to Section E for pin locations.
+>
+> Replace one contact at a time. If more than one wire needs replaced, attach a lettered tag to each wire removed.
+>
+> Install the terminal repair wires on the bare wires and use wire crimping tool, Part Number 3822930, to crimp the terminals.
+>
+> Use heat gun, Part Number 3822860, to heat the shrink tubing. The tubing will shrink and make the connection waterproof.
+>
+> Wrap the wires with tape, for added protection to complete the repair.

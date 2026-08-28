@@ -19,7 +19,8 @@ manuals:
   - "3666260"
   - "3810497"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-013-001-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-013-001-om.pdf"
 tags:
@@ -27,6 +28,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK60"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator
@@ -40,26 +42,54 @@ tags:
 > **Даты:** изменён 2019-12-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-013-001-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-013-001-om.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Make sure that the engine is switched off and any starting mechanisms are isolated before any inspections are made.
 
-If applicable, remove the alternator guard.
+### Снятие
+
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что двигатель выключен и все пусковые механизмы изолированы до проведения любых проверок.
+
+Если это применимо, удалите защитный механизм генератора.
 
 ![[18500189.png]]
 
-### Clean
+### Очистка
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Using a compressed air line, blow through the alternator from the front side in the direction shown until the air comes out clean.
+Используя линию сжатого воздуха, продувайте генератор с передней стороны в направлении, пока воздух не выйдет чистым.
 
 ![[18500188.png]]
 
-### Install
+### Установка
 
-If applicable, reinstall the alternator guard.
+Если это применимо, переустановите защитный механизм генератора.
 
 ![[nobox.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **CAUTION · Осторожно**
+> Make sure that the engine is switched off and any starting mechanisms are isolated before any inspections are made.
+>
+> If applicable, remove the alternator guard.
+>
+> ### Clean
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Using a compressed air line, blow through the alternator from the front side in the direction shown until the air comes out clean.
+>
+> ### Install
+>
+> If applicable, reinstall the alternator guard.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-137-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-137-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Marine Gear Oil Cooler Plumbing
@@ -34,57 +36,114 @@ tags:
 > **Даты:** изменён 2010-11-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-137-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-137-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> There are 3 brackets on the QSK38 engine and 4 brackets on the QSK50 engine.
 
-Install the bolts, washers, and brackets into the lubricating oil pan.
+### Установка
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!note] Примечание
+> На двигателе QSK38 установлены 3 кронштейна и 4 кронштейна на двигателе QSK50.
+
+Установите болты, шайбы и скобки в масляный поддон.
+
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08e00176.png]]
 
-> [!note] Note · Примечание
-> Do **not** torque any fittings or bolts until all components have been installed to make sure of proper alignment.
+> [!note] Примечание
+> не крутите никакие фитинги или болты до тех пор, пока все компоненты не будут установлены, чтобы убедиться в правильном выравнивании.
 
-> [!note] Note · Примечание
-> There are 3 brackets on the QSK38 engine and 4 brackets on the QSK50 engine.
+> [!note] Примечание
+> На двигателе QSK38 установлены 3 кронштейна и 4 кронштейна на двигателе QSK50.
 
-Install the bolts (1), p-clips, and water transfer tubes, using new o-rings.
+Установите болты (1), p-затворы и водопроводные трубы, используя новые кольца.
 
 ![[08e00175.png]]
 
-If removed, install the elbows with new o-rings onto the engine and marine gear oil cooler.
+Если снято, установите локти с новыми кольцами на двигатель и масляный охладитель для судовых передач.
 
-> [!tip] Момент затяжки · Torque Value
-> 135 n•m [100 ft-lb]
+> [!tip] Момент затяжки
+> 135 Н·м [100 фунт-фут]
 
-Connect the coolant line connectors (2) to the fittings on the LTA water pump.
+Подключите разъёмы линии охлаждающей жидкости (2) к фитингам на водяном насосе LTA.
 
-Connect the coolant line connectors (3) to the water transfer tubes.
+Соедините разъёмы линии охлаждающей жидкости (3) с водопроводными трубами.
 
-Install the bolt securing the p-clips (1) together.
+Установите болт, закрепляющий p-затворы (1) вместе.
 
 ![[08e00174.png]]
 
-Connect the coolant line connectors (2) to the elbows on the marine gear cooler.
+Соедините разъёмы линии охлаждающей жидкости (2) с локтями на охладитель морской передачи.
 
-Connect the coolant line connectors (3) to the water transfer tubes.
+Соедините разъёмы линии охлаждающей жидкости (3) с водопроводными трубами.
 
-Install the bolt securing the p-clips (1) together.
+Установите болт, закрепляющий p-затворы (1) вместе.
 
-Tighten the hose fittings and clips.
+Затяните фитинги и зажимы.
 
-Hose Fittings
+Фиттинги для хозяев
 
-> [!tip] Момент затяжки · Torque Value
-> 100 n•m [74 ft-lb]
+> [!tip] Момент затяжки
+> 100 Н·м [74 фунт-фут]
 
-Clips
+Клипы
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[08e00173.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **Note · Примечание**
+> There are 3 brackets on the QSK38 engine and 4 brackets on the QSK50 engine.
+>
+> Install the bolts, washers, and brackets into the lubricating oil pan.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> **Note · Примечание**
+> Do **not** torque any fittings or bolts until all components have been installed to make sure of proper alignment.
+>
+> **Note · Примечание**
+> There are 3 brackets on the QSK38 engine and 4 brackets on the QSK50 engine.
+>
+> Install the bolts (1), p-clips, and water transfer tubes, using new o-rings.
+>
+> If removed, install the elbows with new o-rings onto the engine and marine gear oil cooler.
+>
+> **Момент затяжки · Torque Value**
+> 135 n•m [100 ft-lb]
+>
+> Connect the coolant line connectors (2) to the fittings on the LTA water pump.
+>
+> Connect the coolant line connectors (3) to the water transfer tubes.
+>
+> Install the bolt securing the p-clips (1) together.
+>
+> Connect the coolant line connectors (2) to the elbows on the marine gear cooler.
+>
+> Connect the coolant line connectors (3) to the water transfer tubes.
+>
+> Install the bolt securing the p-clips (1) together.
+>
+> Tighten the hose fittings and clips.
+>
+> Hose Fittings
+>
+> **Момент затяжки · Torque Value**
+> 100 n•m [74 ft-lb]
+>
+> Clips
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]

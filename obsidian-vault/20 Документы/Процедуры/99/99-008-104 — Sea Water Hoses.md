@@ -25,7 +25,8 @@ manuals:
   - "4021538"
   - "4021940"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-104.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-008-104.pdf"
 tags:
@@ -34,6 +35,7 @@ tags:
   - "двигатель/C8.3"
   - "двигатель/QSM11"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Sea Water Hoses
@@ -47,8 +49,22 @@ tags:
 > **Даты:** изменён 2012-08-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-008-104.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-008-104.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Start engine, and inspect all hoses and connections for deterioration or leaks. Replace damaged hoses and clamps, if necessary.
+
+### Осмотр
+
+Запустите двигатель и проверьте все шланги и соединения на предмет износа или утечек. Замените поврежденные шланги и зажимы, если это необходимо.
 
 ![[08400296.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> Start engine, and inspect all hoses and connections for deterioration or leaks. Replace damaged hoses and clamps, if necessary.

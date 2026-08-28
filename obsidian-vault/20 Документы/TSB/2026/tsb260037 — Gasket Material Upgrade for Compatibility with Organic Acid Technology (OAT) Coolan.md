@@ -21,7 +21,8 @@ parts:
   - "4095558"
   - "4914260"
   - "6602757"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260037.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb260037.pdf"
 tags:
@@ -29,6 +30,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QSK23"
   - "год/2026"
+  - "перевод/машинный"
   - "тема/main-generator"
 ---
 
@@ -42,93 +44,101 @@ tags:
 > **Даты:** выпущен 2026-06-22 · изменён 2026-06-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260037.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb260037.pdf)
 
-## Gasket Material Upgrade for Compatibility with Organic Acid Technology (OAT) Coolant
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый материал прокладок для совместимости с ОЖ типа OAT
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- N14 Mechanical
-- N14 CELECT
-- N14 CELECT PLUS
+### Содержание
+
+**Затронутая продукция**
+
+- N14 Механические
+- N14 Правила
+- N14 Целект ПЛЮС
 - NH/NT 855
-- KTA19GC
+- TA19GC
 - QSK23 CM500
 - QSK23 CM500 K157G
 - V28
 - K38
 - KTA38
-- K50
-- GTA50E G CMEICS G115
+- К50
+- GTA50E GMEICS G115
 - G855
 - G855 CM558
 - GTA855 CM558 G103
-- GTA855GCE CMEICS N110C
+- GTA855GCE МЕИКС N110C
 - GTA855 CM558 G101
 - G28
-- GTA28 G CMEICS G117G
+- GTA28 GMEICS G117G
 - GTA38E G CMEICS G114
 - GTA38 G CMEICS G116C
 - G50
-- GTA50E G CMEICS G115
+- GTA50E GMEICS G115
 
-**Issue Summary**
+**Резюме проблемы**
 
-Symptom:
+Симптом:
 
-- Recurring coolant leaks after switching to organic acid technology (OAT) coolant.
+- Повторяющиеся утечки охлаждающей жидкости после перехода на технологию органических кислот (OAT).
 
-Root Cause:
+Первопричина:
 
-- The previously used gasket material is incompatible with OAT coolant.
+- Ранее использованный прокладочный материал несовместим с ОАТ-охладитель.
 
-**Verification**
+**Проверка**
 
-Visually verify that there are leaks at the gaskets. Verify that the engine has OAT coolant. Verify that the gaskets are incompatible with OAT coolant using part number identification on the gasket.
+Визуально проверьте, что на прокладках есть утечки. Убедитесь, что двигатель имеет охлаждающую жидкость OAT. Убедитесь, что прокладки несовместимы с хладагентом OAT, используя идентификационный номер детали на прокладке.
 
-**Resolution**
+**Решение**
 
-Replace malfunctioning gasket made from the previously incompatible material with gasket manufactured from nitrile-based material, which is proven to be compatible with OAT coolant. Replace malfunctioning gasket with the superseded gasket equivalent. Refer to Table 1.
+Заменить неисправную прокладку, изготовленную из ранее несовместимого материала, прокладкой, изготовленной из материала на основе нитрила, которая, как доказано, совместима с охлаждающей жидкостью ОАТ. Заменить неисправную прокладку на замененный эквивалент прокладки. См. таблицу 1.
 
-**Service Parts**
+**Услуги**
 
-Service parts are offered. See Table 1 for part numbers.
+Предлагаются сервисные части. Номера деталей приведены в таблице 1.
 
-| Table 1, Service Parts |  |  |  |  |  |
+| Таблица 1, Части обслуживания |  |  |  |  |  |
 |---|---|---|---|---|---|
-| SMN | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| N14, V28, G855, G855 CM558, GTA855 CM558 G103, GTA855GCE CMEICS N110C, GTA855 CM558 G101, G28, GTA28 G CMEICS G117G | Thermostat Housing Gasket | 102229 | Yes | Yes | 6638637 |
-| Radiator Gasket | 3019158 | Yes | Yes | 6602766 |  |
-| Thermostat Housing Gasket | 130740 | Yes | Yes | 6638638 |  |
-| Thermostat Housing Cover Gasket | 3066285 | Yes | Yes | 6638639 |  |
-| Connection Gasket | 3236814 | Yes | Yes | 6602759 |  |
-| Radiator Gasket | [[4914260]] | Yes | Yes | 6602763 |  |
-| Water Transfer Connection Gasket | 69175 | Yes | Yes | 6602761 |  |
-| Heat Exchanger Gasket | 4104940 | Yes | Yes | 6602762 |  |
-| Thermostat Housing Gasket | 140329 | Yes | Yes | 6602765 |  |
-| QSK19 | Connection Gasket | 3201783 | Yes | Yes | 6602752 |
-| Water Pump Gasket | [[3202283]] | Yes | Yes | 6602753 |  |
-| QSK23 | Thermostat Housing Gasket | [[4095558]] | Yes | Yes | 6602760 |
-| K38, KTA38, K50, GTA50, G38, GTA38E G CMEICS G114, GTA38 G CMEICS G116C, G50, and GTA50E G CMEICS G115 | Water Transfer Connection Gasket | 3015545 | Yes | Yes | 6602754 |
-| Water Transfer Connection Gasket | 206556 | Yes | Yes | 6602751 |  |
-| Water Transfer Connection Gasket | 207535 | Yes | Yes | 6602764 |  |
-| Flange Gasket | [[3014449]] | Yes | Yes | [[6602757]] |  |
+| SMN | Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| N14, V28, G855, G855 CM558, GTA855 CM558 G103, GTA855GCE CMEICS N110C, GTA855 CM558 G101, G28, GTA28 G CMEICS G117G | Прокладка корпуса термостата | 102229 | Да | Да | 6638637 |
+| Прокладка радиатора | 3019158 | Да | Да | 6602766 |  |
+| Прокладка корпуса термостата | 130740 | Да | Да | 6638638 |  |
+| Прокладка крышки корпуса термостата | 3066285 | Да | Да | 6638639 |  |
+| Прокладка соединения | 3236814 | Да | Да | 6602759 |  |
+| Прокладка радиатора | [[4914260]] | Да | Да | 6602763 |  |
+| Прокладка перепускного водяного соединения | 69175 | Да | Да | 6602761 |  |
+| Теплообменник Gasket | 4104940 | Да | Да | 6602762 |  |
+| Прокладка корпуса термостата | 140329 | Да | Да | 6602765 |  |
+| QSK19 | Прокладка соединения | 3201783 | Да | Да | 6602752 |
+| Прокладка водяного насоса | [[3202283]] | Да | Да | 6602753 |  |
+| QSK23 | Прокладка корпуса термостата | 4095558 | Да | Да | 6602760 |
+| K38, KTA38, K50, GTA50, G38, GTA38E G CMEICS G114, GTA38 G CMEICS G116C, G50 и GTA50E G CMEICS G115 | Прокладка перепускного водяного соединения | 3015545 | Да | Да | 6602754 |
+| Прокладка перепускного водяного соединения | 206556 | Да | Да | 6602751 |  |
+| Прокладка перепускного водяного соединения | 207535 | Да | Да | 6602764 |  |
+| Прокладка фланца | [[3014449]] | Да | Да | [[6602757]] |  |
 
-**Production Status**
+**Статус в производстве**
 
-Implemented for production. See Table 2.
+Внедрено в производство. См. таблицу 2.
 
-| Table 2, Production Information |  |  |
+| Таблица 2, Информация о производстве |  |  |
 |---|---|---|
-| ESN First | Build Date 1 | Plant |
-| 33240735 | 20 October 2025 | Daventry Engine Plant |
-| 1 Engine build date can be found on engine dataplate. |  |  |
+| ESN First | Постройте дату 1 | растение |
+| 33240735 | 20 октября 2025 | Давентрийский моторный завод |
+| 1 Дата сборки двигателя можно найти на табличке с данными двигателя. |  |  |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -139,3 +149,92 @@ Implemented for production. See Table 2.
 | [[4095558]] | THERMOSTAT HOUSING GASKET | Прокладка корпуса термостата |
 | [[4914260]] | RADIATOR GASKET | Прокладка радиатора |
 | [[6602757]] | Flange Gasket | Прокладка фланца |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Gasket Material Upgrade for Compatibility with Organic Acid Technology (OAT) Coolant
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - N14 Mechanical
+> - N14 CELECT
+> - N14 CELECT PLUS
+> - NH/NT 855
+> - KTA19GC
+> - QSK23 CM500
+> - QSK23 CM500 K157G
+> - V28
+> - K38
+> - KTA38
+> - K50
+> - GTA50E G CMEICS G115
+> - G855
+> - G855 CM558
+> - GTA855 CM558 G103
+> - GTA855GCE CMEICS N110C
+> - GTA855 CM558 G101
+> - G28
+> - GTA28 G CMEICS G117G
+> - GTA38E G CMEICS G114
+> - GTA38 G CMEICS G116C
+> - G50
+> - GTA50E G CMEICS G115
+>
+> **Issue Summary**
+>
+> Symptom:
+>
+> - Recurring coolant leaks after switching to organic acid technology (OAT) coolant.
+>
+> Root Cause:
+>
+> - The previously used gasket material is incompatible with OAT coolant.
+>
+> **Verification**
+>
+> Visually verify that there are leaks at the gaskets. Verify that the engine has OAT coolant. Verify that the gaskets are incompatible with OAT coolant using part number identification on the gasket.
+>
+> **Resolution**
+>
+> Replace malfunctioning gasket made from the previously incompatible material with gasket manufactured from nitrile-based material, which is proven to be compatible with OAT coolant. Replace malfunctioning gasket with the superseded gasket equivalent. Refer to Table 1.
+>
+> **Service Parts**
+>
+> Service parts are offered. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | SMN | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | N14, V28, G855, G855 CM558, GTA855 CM558 G103, GTA855GCE CMEICS N110C, GTA855 CM558 G101, G28, GTA28 G CMEICS G117G | Thermostat Housing Gasket | 102229 | Yes | Yes | 6638637 |
+> | Radiator Gasket | 3019158 | Yes | Yes | 6602766 |  |
+> | Thermostat Housing Gasket | 130740 | Yes | Yes | 6638638 |  |
+> | Thermostat Housing Cover Gasket | 3066285 | Yes | Yes | 6638639 |  |
+> | Connection Gasket | 3236814 | Yes | Yes | 6602759 |  |
+> | Radiator Gasket | [[4914260]] | Yes | Yes | 6602763 |  |
+> | Water Transfer Connection Gasket | 69175 | Yes | Yes | 6602761 |  |
+> | Heat Exchanger Gasket | 4104940 | Yes | Yes | 6602762 |  |
+> | Thermostat Housing Gasket | 140329 | Yes | Yes | 6602765 |  |
+> | QSK19 | Connection Gasket | 3201783 | Yes | Yes | 6602752 |
+> | Water Pump Gasket | [[3202283]] | Yes | Yes | 6602753 |  |
+> | QSK23 | Thermostat Housing Gasket | [[4095558]] | Yes | Yes | 6602760 |
+> | K38, KTA38, K50, GTA50, G38, GTA38E G CMEICS G114, GTA38 G CMEICS G116C, G50, and GTA50E G CMEICS G115 | Water Transfer Connection Gasket | 3015545 | Yes | Yes | 6602754 |
+> | Water Transfer Connection Gasket | 206556 | Yes | Yes | 6602751 |  |
+> | Water Transfer Connection Gasket | 207535 | Yes | Yes | 6602764 |  |
+> | Flange Gasket | [[3014449]] | Yes | Yes | [[6602757]] |  |
+>
+> **Production Status**
+>
+> Implemented for production. See Table 2.
+>
+> | Table 2, Production Information |  |  |
+> |---|---|---|
+> | ESN First | Build Date 1 | Plant |
+> | 33240735 | 20 October 2025 | Daventry Engine Plant |
+> | 1 Engine build date can be found on engine dataplate. |  |  |
+>
+> ### Document History

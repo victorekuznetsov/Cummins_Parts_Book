@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-006.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Alternator Pulley
@@ -34,13 +36,32 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-006.pdf)
 
-### Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recomendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-Clean the alternator drive and accessory drive pulley with steam or solvent.
+### Проверка при повторном использовании
 
-Check the grooves of the pulley for wear. Check the wear sleeve on the accessory drive pulley. If the part **must** be replaced, Refer to Procedure [[20-009-004 — Accessory Drive Pulley|009-004]].
+> [!danger] ОПАСНО
+> При использовании растворителей, кислот или щелочных материалов для очистки следуйте рекомендациям производителя для использования. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+
+Очистите привод генератора и вспомогательный приводной шкив паром или растворителем.
+
+Проверьте канавки шкива на износ. Проверьте рукав износа на шкиве привода аксессуара. Если часть **должна** быть заменена, см.[[20-009-004 — Accessory Drive Pulley|009-004]].
 
 ![[da2pusa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recomendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the alternator drive and accessory drive pulley with steam or solvent.
+>
+> Check the grooves of the pulley for wear. Check the wear sleeve on the accessory drive pulley. If the part **must** be replaced, Refer to Procedure [[20-009-004 — Accessory Drive Pulley|009-004]].

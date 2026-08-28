@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666214"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc185.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc185.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
+  - "перевод/машинный"
 ---
 
 # Primary Electronic Control Module/Secondary Electronic Control Module (ECM) Communication
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2016-07-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc185.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc185.pdf)
 
-### Fault Code: 185
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Primary Electronic Control Module/Secondary Electronic Control Module (ECM) Communication
 
-Printable Version
+### Код неисправности: 185
 
-### Overview
+### Связь основного и резервного ЭБУ
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 185 PID(P): 231 SPN: 639 FMI: 2 Lamp: Yellow SRT: | Communication between the primary electronic control module (ECM) and secondary ECM has been interrupted. | Engine can **only** run on the left or right bank. Possible loss of performance. |
+| Код неисправности: 185 P(P): 231 SPN: 639 FMI: 2 лампы: Желтая СТО: | Связь между основным электронным модулем управления (ECM) и вторичным ECM была прервана. | Двигатель может работать только на левом или правом берегу. Возможная потеря производительности. |
 
 ![[19a00457.png]]
 
-J1939 Backbone Harness Circuit Diagram
+J1939 Стержневая проводка Circuit Diagram
 
-### Circuit Description
+### Описание цепи
 
-The QST30 electronic control system utilizes an SAE J1939 backbone harness for communication between the primary and secondary ECMs. If this backbone fails, communication between the ECMs will stop, causing the engine to run poorly.
+Электронная система управления QST30 использует магистральную электропроводку SAE J1939 для связи между первичной и вторичной электропроводкой. Если эта магистраль не сработает, связь между ECM прекратится, что приведет к плохому функционированию двигателя.
 
-### Component Location
+### Расположение компонента
 
-The primary ECM is located on the left bank of the engine, in front of the fuel pump. The secondary ECM is located on the right bank of the engine. The SAE J1939 backbone harness is a separate, three-wire harness located on the engine.
+Первичный ECM расположен на левом берегу двигателя, перед топливным насосом. Вторичная ECM расположена на правом берегу двигателя. Стержневой упряжкой SAE J1939 является отдельная трехпроводная упряжка, расположенная на двигателе.
 
-### Shoptalk
+### Практические замечания
 
-The secondary ECM receives its fueling and timing commands from the primary ECM.
+Вторичная ECM получает свои команды заправки и синхронизации от первичной ECM.
 
-Refer to Troubleshooting Fault Code t05-185
+См. Код устранения неполадок t05-185
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 185
+>
+> ### Primary Electronic Control Module/Secondary Electronic Control Module (ECM) Communication
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 185 PID(P): 231 SPN: 639 FMI: 2 Lamp: Yellow SRT: | Communication between the primary electronic control module (ECM) and secondary ECM has been interrupted. | Engine can **only** run on the left or right bank. Possible loss of performance. |
+>
+> J1939 Backbone Harness Circuit Diagram
+>
+> ### Circuit Description
+>
+> The QST30 electronic control system utilizes an SAE J1939 backbone harness for communication between the primary and secondary ECMs. If this backbone fails, communication between the ECMs will stop, causing the engine to run poorly.
+>
+> ### Component Location
+>
+> The primary ECM is located on the left bank of the engine, in front of the fuel pump. The secondary ECM is located on the right bank of the engine. The SAE J1939 backbone harness is a separate, three-wire harness located on the engine.
+>
+> ### Shoptalk
+>
+> The secondary ECM receives its fueling and timing commands from the primary ECM.
+>
+> Refer to Troubleshooting Fault Code t05-185

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4022094"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-fc5635aux.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-fc5635aux.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/123"
+  - "перевод/машинный"
 ---
 
 # Marine Overload Protection - Special Instructions
@@ -34,72 +36,150 @@ tags:
 > **Даты:** изменён 2015-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-fc5635aux.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-fc5635aux.pdf)
 
-### Fault Code: 5635
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Marine Overload Protection - Special Instructions
 
-Printable Version
+### Код неисправности: 5635
 
-### Overview
+### Судовая защита от перегрузки — особые указания
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 5635 PID(P): SPN: 520892 FMI: 14 Lamp: Amber SRT: | Marine Overload Protection - Special Instructions. Overload condition has been detected by the engine control module (ECM). | Reduction in engine torque. |
+| Код неисправности: 5635 PID(P): СПН: 520892 FMI: 14 ламп: Янтарная СРТ: | Судовая защита от перегрузки — особые указания. Состояние перегрузки было обнаружено модулем управления двигателем (ECM). | Снижение крутящего момента двигателя. |
 
 ![[00700049.png]]
 
-Typical Overload Region for Auxiliary Application
+Типичный регион перегрузки для вспомогательного применения
 
-### Circuit Description
+### Описание цепи
 
-X - Engine Speed
+X - Скорость двигателя
 
-Y - Torque
+Y - крутящий момент
 
-1 - Fuel Limited Torque Curve
+1 - Кривая крутящего момента Fuel Limited
 
-2 - Overload Region
+2 - Регион перегрузок
 
-3 - 100 Percent Torque
+3 - 100 % крутящий момент
 
-4 - 110 Percent Torque.
+4-10% крутящего момента.
 
-The shaded region in the graph above corresponds to the calibratable overload region. Marine Overload Protection monitors the engine operating in an overload condition. This feature is needed to limit engine exposure in such working conditions by alerting the operator and, in some cases, by limiting fueling to the engine.
+Затененная область на графике выше соответствует калибруемой области перегрузки. Морская защита от перегрузки контролирует двигатель, работающий в состоянии перегрузки. Эта функция необходима для ограничения воздействия двигателя в таких условиях работы, предупреждая оператора и, в некоторых случаях, ограничивая заправку двигателя.
 
-### Component Location
+### Расположение компонента
 
-N/A
+Не применяется
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-- This diagnostic runs when the engine torque exceeds the overload threshold.
+- Эта диагностика выполняется, когда крутящий момент двигателя превышает порог перегрузки.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-- The ECM detected speed and torque values in the overload region for more than a calibratable time.
+- ECM обнаружил значения скорости и крутящего момента в области перегрузки в течение более чем калибровочного времени.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the amber CHECK ENGINE lamp immediately when the diagnostic runs and fails.
+- ECM освещает лампу янтарного CHECK ENGINE сразу же, когда диагностика проходит и выходит из строя.
 
-- Engine torque will be reduced.
+- Двигатель будет уменьшен.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- The ECM detected speed and torque values in the normal operating region for more than a calibratable time.
+- ECM обнаружил значения скорости и крутящего момента в нормальной операционной области в течение более чем калибруемого времени.
 
-- The fault code status displayed by INSITE™ electronic service tool will change to INACTIVE after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого инструментами электронного сервиса INSITETM, изменится на INACTIVE после запуска и прохождения диагностики.
 
-- The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит лампу янтарного CHECK ENGINE сразу после диагностических прогонов и проходов.
 
-### Shoptalk
+### Практические замечания
 
-This is an information- **only** fault code that becomes active if the engine torque exceeds the overload threshold for a calibratable time.
+Это код ошибки **только**, который активируется, если крутящий момент двигателя превышает порог перегрузки в течение калибруемого времени.
 
-High counts of inactive Fault Code 5635 can indicate the engine is often operated beyond the normal expected region. Vessel operating duty cycle or equipment may need to be investigated to understand fault condition.
+Высокий уровень неактивного кода 5635 может указывать на то, что двигатель часто работает за пределами ожидаемой области. Рабочий цикл судна или оборудование, возможно, потребуется исследовать, чтобы понять состояние неисправности.
 
-No repairs are necessary.
+Ремонт не требуется.
 
-Reference the Marine Application Bulletin – 0.19.00 – Electronic Engine Controls for more information on this diagnostic.
+Ссылка на Бюллетень морских приложений - 0.19.00 - Электронные системы управления двигателем для получения дополнительной информации об этой диагностике.
 
-Refer to Troubleshooting Fault Code 5635.
+См. Код 5635 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 5635
+>
+> ### Marine Overload Protection - Special Instructions
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 5635 PID(P): SPN: 520892 FMI: 14 Lamp: Amber SRT: | Marine Overload Protection - Special Instructions. Overload condition has been detected by the engine control module (ECM). | Reduction in engine torque. |
+>
+> Typical Overload Region for Auxiliary Application
+>
+> ### Circuit Description
+>
+> X - Engine Speed
+>
+> Y - Torque
+>
+> 1 - Fuel Limited Torque Curve
+>
+> 2 - Overload Region
+>
+> 3 - 100 Percent Torque
+>
+> 4 - 110 Percent Torque.
+>
+> The shaded region in the graph above corresponds to the calibratable overload region. Marine Overload Protection monitors the engine operating in an overload condition. This feature is needed to limit engine exposure in such working conditions by alerting the operator and, in some cases, by limiting fueling to the engine.
+>
+> ### Component Location
+>
+> N/A
+>
+> ### Conditions For Running The Diagnostics
+>
+> - This diagnostic runs when the engine torque exceeds the overload threshold.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> - The ECM detected speed and torque values in the overload region for more than a calibratable time.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the amber CHECK ENGINE lamp immediately when the diagnostic runs and fails.
+>
+> - Engine torque will be reduced.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - The ECM detected speed and torque values in the normal operating region for more than a calibratable time.
+>
+> - The fault code status displayed by INSITE™ electronic service tool will change to INACTIVE after the diagnostic runs and passes.
+>
+> - The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> ### Shoptalk
+>
+> This is an information- **only** fault code that becomes active if the engine torque exceeds the overload threshold for a calibratable time.
+>
+> High counts of inactive Fault Code 5635 can indicate the engine is often operated beyond the normal expected region. Vessel operating duty cycle or equipment may need to be investigated to understand fault condition.
+>
+> No repairs are necessary.
+>
+> Reference the Marine Application Bulletin – 0.19.00 – Electronic Engine Controls for more information on this diagnostic.
+>
+> Refer to Troubleshooting Fault Code 5635.

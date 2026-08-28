@@ -33,7 +33,8 @@ families:
   - "QSM11"
   - "QST30"
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101519.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101519.pdf"
 tags:
@@ -46,6 +47,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/information-products"
 ---
 
@@ -59,21 +61,50 @@ tags:
 > **Даты:** выпущен 2009-12-17 · изменён 2004-10-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101519.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101519.pdf)
 
-## New General Cleaning Instruction
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новая общая инструкция по очистке
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic is a revision to Procedure [[99-204-008 — General Cleaning Instructions|204-008]] for General Cleaning Instructions.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-Considerable concern has been generated at both the factory and the field about engine failures that occur a short time after an in-frame repair. Analysis of returned parts indicates many of the failures are the result of dirt entering the engine during the repair. In particular, intensive investigation of failures of ISX engines rod and main bearings very soon after field repairs of the oil coolers, front gear cover, or cylinder head has shown that 30 percent of the failures are due to contamination of some main oil drillings. Investigation into the type and source of the contamination indicates it is appropriate to remind, review, and revise parts cleaning instructions for all engines.
+### Содержание
 
-The statement 'A person can spend too much time cleaning parts but a person can **not** get them too clean' is even more relevant as customer expectations and regulatory requirements increase. These demands coupled with increased diesel engine product complexity place more pressure on the field technician in terms of time required to perform a quality repair. In a effort to reduce customer downtime, many different labor saving devices, techniques, and shortcuts are being used to meet customer expectations. However, some of the shortcuts and labor saving efforts are the very things that can cause contamination of internal engine components that lead to additional failures.
+Эта тема / разделы является пересмотром процедуры[[99-204-008 — General Cleaning Instructions|204-008]]Общие инструкции по уборке.
 
-Attached is the revised General Cleaning Instructions that will be placed in all service publications where those instructions are included. Field shops are strongly encouraged to review these instructions with all technicians and to include general cleaning instructions in technician training programs and new technician orientation programs.
+На заводе и в полевых условиях была высказана значительная обеспокоенность по поводу отказов двигателя, которые происходят через короткое время после ремонта рамы. Анализ возвращенных деталей показывает, что многие из отказов являются результатом попадания грязи в двигатель во время ремонта. В частности, интенсивное исследование отказов стержня двигателей ISX и основных подшипников очень скоро после полевого ремонта масляных охладителей, передней шестерни или головки цилиндров показало, что 30 процентов отказов вызваны загрязнением некоторых основных нефтяных буровых установок. Исследование типа и источника загрязнения указывает на то, что целесообразно напомнить, пересмотреть и пересмотреть инструкции по очистке деталей для всех двигателей.
 
-> [!note] Note · Примечание
+Заявление «Человек может тратить слишком много времени на уборку деталей, но человек может не делать их слишком чистыми» еще более актуально по мере роста ожиданий клиентов и нормативных требований. Эти требования в сочетании с повышенной сложностью продукта дизельного двигателя оказывают большее давление на техников с точки зрения времени, необходимого для качественного ремонта. В попытке сократить время простоя клиентов, для удовлетворения ожиданий клиентов используются различные устройства, методы и ярлыки экономии труда. Однако некоторые из ярлыков и усилий по экономии труда являются теми самыми вещами, которые могут вызвать загрязнение внутренних компонентов двигателя, что приводит к дополнительным сбоям.
+
+Прилагается пересмотренная общая инструкция по уборке, которая будет размещена во всех служебных публикациях, где эти инструкции включены. Полевым мастерским настоятельно рекомендуется ознакомиться с этими инструкциями со всеми техниками и включить общие инструкции по уборке в программы обучения техников и новые программы ориентации техников.
+
+> [!note] Примечание
+> Это улучшение продукта не подлежит кампании.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New General Cleaning Instruction
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic is a revision to Procedure [[99-204-008 — General Cleaning Instructions|204-008]] for General Cleaning Instructions.
+>
+> Considerable concern has been generated at both the factory and the field about engine failures that occur a short time after an in-frame repair. Analysis of returned parts indicates many of the failures are the result of dirt entering the engine during the repair. In particular, intensive investigation of failures of ISX engines rod and main bearings very soon after field repairs of the oil coolers, front gear cover, or cylinder head has shown that 30 percent of the failures are due to contamination of some main oil drillings. Investigation into the type and source of the contamination indicates it is appropriate to remind, review, and revise parts cleaning instructions for all engines.
+>
+> The statement 'A person can spend too much time cleaning parts but a person can **not** get them too clean' is even more relevant as customer expectations and regulatory requirements increase. These demands coupled with increased diesel engine product complexity place more pressure on the field technician in terms of time required to perform a quality repair. In a effort to reduce customer downtime, many different labor saving devices, techniques, and shortcuts are being used to meet customer expectations. However, some of the shortcuts and labor saving efforts are the very things that can cause contamination of internal engine components that lead to additional failures.
+>
+> Attached is the revised General Cleaning Instructions that will be placed in all service publications where those instructions are included. Field shops are strongly encouraged to review these instructions with all technicians and to include general cleaning instructions in technician training programs and new technician orientation programs.
+>
+> **Note · Примечание**
 > This is a product improvement **not** subject to campaign.

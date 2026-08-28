@@ -42,7 +42,8 @@ manuals:
   - "3666415"
   - "4021442"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-220.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-220.pdf"
 tags:
@@ -56,6 +57,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Augat Connector Series
@@ -69,34 +71,66 @@ tags:
 > **Даты:** изменён 2002-07-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-220.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-220.pdf)
 
-### Connector Replacement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Measure 152 mm \[6 inches\] back from the face of the connector.
+
+### Замена разъёма
+
+Измерение 152 мм \[6 дюймов\] назад от поверхности разъема.
 
 ![[19900086.png]]
 
-Before cutting the wires, measure and tag the four wires.
+Перед тем, как разрезать провода, измерьте и пометьте четыре провода.
 
-Cut wire “A” 114 mm \[4.5 inches\] from the face of the connector.
+Вырезать провод «А» на 114 мм \[4,5 дюйма\] от поверхности разъема.
 
-Cut wire “B” 102 mm \[4 inches\] from the face of the connector.
+Вырезать провод «В» 102 мм \[4 дюйма\] от лицевой части разъема.
 
-Cut wire “C” 89 mm \[3.5 inches\] from the face of the connector.
+Вырезать провод «С» 89 мм \[3,5 дюйма\] от лицевой части разъема.
 
-Cut wire “D” 76 mm \[3 inches\] from the face of the connector.
+Отрежьте провод «D» на 76 мм \[3 дюйма\] от поверхности разъема.
 
 ![[19900087.png]]
 
-Remove 6 mm \[1/4 inch\] of insulation from all four wires.
+Удалите 6 мм \[1/4 дюйма\] изоляции из всех четырех проводов.
 
 ![[19900071.png]]
 
-Install the terminal repair wires onto the bare wires and use wire crimping tool, Part No. 3822930, to crimp them together.
+Установите провода для ремонта терминала на голые провода и используйте инструмент для обжима проводов, номер детали. 3822930, чтобы сжать их вместе.
 
-Use a heat gun, Part No. 3823860, or an open flame to heat the shrink tubing. The tubing will shrink and make the connection water resistant.
+Используйте тепловой пистолет, номер детали. 3823860, или открытое пламя для нагрева термоусадочной трубы. Трубка будет сжиматься и делать соединение водонепроницаемым.
 
 ![[19900088.png]]
 
-Wrap the wires with tape, for added protection, to complete the repair.
+Заверните провода лентой для дополнительной защиты, чтобы завершить ремонт.
 
 ![[19900089.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Connector Replacement
+>
+> Measure 152 mm \[6 inches\] back from the face of the connector.
+>
+> Before cutting the wires, measure and tag the four wires.
+>
+> Cut wire “A” 114 mm \[4.5 inches\] from the face of the connector.
+>
+> Cut wire “B” 102 mm \[4 inches\] from the face of the connector.
+>
+> Cut wire “C” 89 mm \[3.5 inches\] from the face of the connector.
+>
+> Cut wire “D” 76 mm \[3 inches\] from the face of the connector.
+>
+> Remove 6 mm \[1/4 inch\] of insulation from all four wires.
+>
+> Install the terminal repair wires onto the bare wires and use wire crimping tool, Part No. 3822930, to crimp them together.
+>
+> Use a heat gun, Part No. 3823860, or an open flame to heat the shrink tubing. The tubing will shrink and make the connection water resistant.
+>
+> Wrap the wires with tape, for added protection, to complete the repair.

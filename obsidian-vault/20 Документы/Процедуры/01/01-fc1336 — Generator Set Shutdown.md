@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1336.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1336.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Generator Set Shutdown
@@ -34,24 +36,54 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1336.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1336.pdf)
 
-### Fault Code: 1336
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Generator Set Shutdown
 
-Printable Version
+### Код неисправности: 1336
 
-### Overview
+### Останов генераторной установки
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1336 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine shutdown. | The generator set will shutdown. |
+| Код неисправности: 1336 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Останов двигателя. | Генераторная установка будет отключена. |
 
 ![[19802494.png]]
 
-ECM
+ЭКМ
 
-### Circuit Description
+### Описание цепи
 
-### Component Location
+### Расположение компонента
 
-Refer to Troubleshooting Fault Code t05-1336
+См. Код устранения неисправностей t05-1336
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1336
+>
+> ### Generator Set Shutdown
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1336 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine shutdown. | The generator set will shutdown. |
+>
+> ECM
+>
+> ### Circuit Description
+>
+> ### Component Location
+>
+> Refer to Troubleshooting Fault Code t05-1336

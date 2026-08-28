@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-004-014-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-004-014-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Push Rods or Tubes
@@ -34,33 +36,70 @@ tags:
 > **Даты:** изменён 2015-08-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-004-014-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-004-014-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-> [!note] Note · Примечание
-> The push rods **must** be seated correctly in the cam followers.
+### Установка
 
-> [!note] Note · Примечание
-> Mechanically Actuated Injectors: The injector push rods are thicker in the middle. The valve push rods are the same for both intake and exhaust.
+с форсункой механического управления
 
-Use engine oil to lubricate the sockets in the cam followers.
+> [!note] Примечание
+> Толчки должны быть правильно сидены в кранах.
 
-Install the push rods.
+> [!note] Примечание
+> Механически приводимый в действие форсунка: Топливные форсунки форсунки толще посередине. Клапанные толкатели одинаковы как для впуска, так и для выхлопа.
 
-Install the crossheads.
+Используйте моторное масло для смазки розеток в кранах.
+
+Установите толкатели.
+
+Установите клапанные мосты.
 
 ![[02400001.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!note] Note · Примечание
-> The push rods must be seated correctly in the cam followers.
+> [!note] Примечание
+> Толкательные стержни должны быть правильно сидены в кранах.
 
-Use clean engine oil to lubricate the sockets in the cam followers.
+Используйте чистое моторное масло для смазки розеток в кранах.
 
-Install the push rods.
+Установите толкатели.
 
-Install the crossheads.
+Установите клапанные мосты.
 
 ![[04600032.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> The push rods **must** be seated correctly in the cam followers.
+>
+> **Note · Примечание**
+> Mechanically Actuated Injectors: The injector push rods are thicker in the middle. The valve push rods are the same for both intake and exhaust.
+>
+> Use engine oil to lubricate the sockets in the cam followers.
+>
+> Install the push rods.
+>
+> Install the crossheads.
+>
+> with Electronically Actuated Injector
+>
+> **Note · Примечание**
+> The push rods must be seated correctly in the cam followers.
+>
+> Use clean engine oil to lubricate the sockets in the cam followers.
+>
+> Install the push rods.
+>
+> Install the crossheads.

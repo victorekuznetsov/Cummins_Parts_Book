@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc295.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc295.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Ambient Air Pressure Sensor
@@ -34,30 +36,66 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc295.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc295.pdf)
 
-### Fault Code: 295
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Ambient Air Pressure Sensor
 
-Printable Version
+### Код неисправности: 295
 
-### Overview
+### Датчик атмосферного давления
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 295 PID(P): P108 SPN: 108 FMI: 2 Lamp: Yellow SRT: | An error in the ambient air pressure sensor signal was detected by the ECM. | Engine is derated to no air setting. |
+| Код неисправности: 295 PID(P): P108 SPN: 108 FMI: 2 лампы: Желтая СТО: | Ошибка в сигнале датчика давления окружающего воздуха была обнаружена ECM. | Двигатель не имеет параметра для установки воздуха. |
 
 ![[19c00652.png]]
 
-Ambient Air Pressure Sensor
+Датчик атмосферного давления
 
-### Circuit Description
+### Описание цепи
 
-### Component Location
+### Расположение компонента
 
-The ambient air pressure sensor is located below the ECM.
+Датчик давления окружающего воздуха расположен ниже ECM.
 
-### Shoptalk
+### Практические замечания
 
-At key-on, the readings for ambient pressure from the ambient air pressure sensor, intake manifold pressure sensor, and oil pressure sensor are compared. This fault code occurs if the ambient air pressure sensor reading is different from the other two.
+При включении клавиш сравниваются показания для давления окружающей среды от датчика давления окружающего воздуха, датчика давления впускного коллектора и датчика давления масла. Этот код неисправности возникает, если показания датчика давления окружающего воздуха отличаются от двух других.
 
-Refer to Troubleshooting Fault Code t05-295
+См. Код устранения неполадок t05-295
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 295
+>
+> ### Ambient Air Pressure Sensor
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 295 PID(P): P108 SPN: 108 FMI: 2 Lamp: Yellow SRT: | An error in the ambient air pressure sensor signal was detected by the ECM. | Engine is derated to no air setting. |
+>
+> Ambient Air Pressure Sensor
+>
+> ### Circuit Description
+>
+> ### Component Location
+>
+> The ambient air pressure sensor is located below the ECM.
+>
+> ### Shoptalk
+>
+> At key-on, the readings for ambient pressure from the ambient air pressure sensor, intake manifold pressure sensor, and oil pressure sensor are compared. This fault code occurs if the ambient air pressure sensor reading is different from the other two.
+>
+> Refer to Troubleshooting Fault Code t05-295

@@ -30,7 +30,8 @@ manuals:
   - "4021375"
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-012-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-012-001.pdf"
 tags:
@@ -41,6 +42,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Air Compressor Air Cleaner Element
@@ -54,55 +56,114 @@ tags:
 > **Даты:** изменён 2006-07-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-012-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-012-001.pdf)
 
-### Replace
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Cummins
 
-Replace the air compressor air cleaner element every 250 hours or 6 months.
+### Замена
 
-Remove the wing nut, cover, housing, and element.
+Камминс
 
-Clean the cover and the housing with a clean cloth.
+Заменяйте элемент воздухоочистителя компрессора каждые 250 часов или 6 месяцев.
 
-Inspect the rubber gasket on the center bolt. Replace, if damaged.
+Удалите крыло, крышку, кожух и элемент.
 
-Install a new element, Fleetguard Part Number AF-251, or Cummins Part Number 256837, in the front cover and assemble over the center bolt. Install the wing nut and finger tighten.
+Очистите крышку и кожух чистой тканью.
+
+Осмотрите резиновую прокладку на центральном болте. Заменить, если поврежден.
+
+Установите новый элемент, Fleetguard Part Number AF-251, или Cummins Part Number 256837, в переднюю крышку и соберите по центру болта. Установите крыло гайки и палец затянуть.
 
 ![[ac8etga.png]]
 
-Bendix-Westinghouse
+Бендикс-Вестингауз
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-> [!danger] WARNING · Опасно
-> Use skin and eye protection when handling caustic solutions to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> Используйте защиту кожи и глаз при обращении с каустической растворами, чтобы уменьшить вероятность получения травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!note] Note · Примечание
-> If other compressors are used, follow the manufacturer's service requirements.
+> [!note] Примечание
+> Если используются другие компрессоры, соблюдайте требования к обслуживанию производителя.
 
-For replacing the paper element, remove the breather cover and element.
+Для замены бумажного элемента удалите крышку и элемент дыхательного аппарата.
 
-Clean by reverse flushing with compressed air.
+Чистить путем обратного промывания сжатым воздухом.
 
-Assemble on the compressor.
+Соберитесь на компрессоре.
 
-Discard the element if it is damaged or can **not** be cleaned.
+Откажитесь от элемента, если он поврежден или может быть очищен.
 
-For replacing the sponge element, remove the breather from the air compressor.
+Для замены губчатого элемента удалите дышащую из воздушного компрессора.
 
-Disassemble the breather, wash all metal parts in solvent, and blow dry with compressed air.
+Разобрать дышащую, промыть все металлические детали в растворителе, и высушить сжатым воздухом.
 
-Wash the element in solvent.
+Вымыть элемент в растворителе.
 
-Remove all solvent from the element.
+Удалите весь растворитель из элемента.
 
-Dip the element in clean engine oil and squeeze excess oil from the element.
+Удалите элемент в чистое моторное масло и выдавите излишки масла из элемента.
 
 ![[ca4etea.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Replace
+>
+> Cummins
+>
+> Replace the air compressor air cleaner element every 250 hours or 6 months.
+>
+> Remove the wing nut, cover, housing, and element.
+>
+> Clean the cover and the housing with a clean cloth.
+>
+> Inspect the rubber gasket on the center bolt. Replace, if damaged.
+>
+> Install a new element, Fleetguard Part Number AF-251, or Cummins Part Number 256837, in the front cover and assemble over the center bolt. Install the wing nut and finger tighten.
+>
+> Bendix-Westinghouse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **WARNING · Опасно**
+> Use skin and eye protection when handling caustic solutions to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **Note · Примечание**
+> If other compressors are used, follow the manufacturer's service requirements.
+>
+> For replacing the paper element, remove the breather cover and element.
+>
+> Clean by reverse flushing with compressed air.
+>
+> Assemble on the compressor.
+>
+> Discard the element if it is damaged or can **not** be cleaned.
+>
+> For replacing the sponge element, remove the breather from the air compressor.
+>
+> Disassemble the breather, wash all metal parts in solvent, and blow dry with compressed air.
+>
+> Wash the element in solvent.
+>
+> Remove all solvent from the element.
+>
+> Dip the element in clean engine oil and squeeze excess oil from the element.

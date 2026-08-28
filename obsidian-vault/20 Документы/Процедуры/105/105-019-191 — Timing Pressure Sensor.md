@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-191.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-019-191.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/105"
+  - "перевод/машинный"
 ---
 
 # Timing Pressure Sensor
@@ -34,57 +36,106 @@ tags:
 > **Даты:** изменён 2004-04-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-191.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-019-191.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Connect an electronic service tool to the vehicle datalink.
+
+### Первичная проверка
+
+Подключите электронный инструмент к шине данных CAN транспортного средства.
 
 ![[19400357.png]]
 
-Turn the keyswitch to the ON position.
+Переведите замок зажигания в положение ON.
 
-Monitor the timing pressure with the electronic service tool.
+Мониторинг давления с помощью электронного инструментария обслуживания.
 
-Timing pressure should be zero psi.
+Давление должно быть нулевым psi.
 
 ![[19800978.png]]
 
-Start the engine and let it idle.
+Запустите двигатель и запускайте его на холостом ходу.
 
-Monitor the timing pressure with the electronic service tool.
+Мониторинг давления с помощью электронного инструментария обслуживания.
 
-The timing pressure should be 60 psi.
+Давление в синхронизации должно составлять 60 psi.
 
 ![[19800979.png]]
 
-### Remove
+### Снятие
 
-Remove the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generation Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines, Bulletin [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] or Procedure [[19-019-031 — Engine Control Module|019-031]] in the Electronic Control System Troubleshooting and Repair Manual, QSK19, QSK23, QSK60 and QSK78 Series Engines, Bulletin [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
+Удалить ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]В руководстве по устранению и ремонту систем управления электрогенерацией, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78, бюллетене [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] или процедуре 019-031 в руководстве по устранению и ремонту систем электронного управления, двигателях QSK19, QSK23, QSK60 и QSK78, бюллетене [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
 
 ![[19400295.png]]
 
-Clean the control valve body around the pressure sensor.
+Очистите корпус управляющего клапана вокруг датчика давления.
 
-Disconnect the sensor connector from the engine harness.
+Отсоедините разъем датчика от жгута проводов двигателя.
 
 ![[19400306.png]]
 
-Remove the pressure sensor with a 1 1/4-inch deep flank drive socket, Part Number 3823843, and a ratchet.
+Удалите датчик давления с помощью 1 1/4-дюймовой фланговой розетки, части 3823843 и скобы.
 
 ![[19400307.png]]
 
-### Install
+### Установка
 
-Inspect the new sensor for an o-ring.
+Осмотрите новый датчик на наличие кольца.
 
-Install the new pressure sensor and tighten.
+Установите новый датчик давления и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
-Connect the sensor connection.
+Подключите сенсорное соединение.
 
 ![[19400308.png]]
 
-Install the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generation Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines, Bulletin [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] or Procedure [[19-019-031 — Engine Control Module|019-031]] in the Electronic Control System Troubleshooting and Repair Manual, QSK19, QSK23, QSK60 and QSK78 Series Engines, Bulletin [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
+Установите ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]В руководстве по устранению и ремонту систем управления электрогенерацией, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78, бюллетене [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] или процедуре 019-031 в руководстве по устранению и ремонту систем электронного управления, двигателях QSK19, QSK23, QSK60 и QSK78, бюллетене [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
 
 ![[19400295.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Connect an electronic service tool to the vehicle datalink.
+>
+> Turn the keyswitch to the ON position.
+>
+> Monitor the timing pressure with the electronic service tool.
+>
+> Timing pressure should be zero psi.
+>
+> Start the engine and let it idle.
+>
+> Monitor the timing pressure with the electronic service tool.
+>
+> The timing pressure should be 60 psi.
+>
+> ### Remove
+>
+> Remove the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generation Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines, Bulletin [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] or Procedure [[19-019-031 — Engine Control Module|019-031]] in the Electronic Control System Troubleshooting and Repair Manual, QSK19, QSK23, QSK60 and QSK78 Series Engines, Bulletin [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
+>
+> Clean the control valve body around the pressure sensor.
+>
+> Disconnect the sensor connector from the engine harness.
+>
+> Remove the pressure sensor with a 1 1/4-inch deep flank drive socket, Part Number 3823843, and a ratchet.
+>
+> ### Install
+>
+> Inspect the new sensor for an o-ring.
+>
+> Install the new pressure sensor and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Connect the sensor connection.
+>
+> Install the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generation Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines, Bulletin [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] or Procedure [[19-019-031 — Engine Control Module|019-031]] in the Electronic Control System Troubleshooting and Repair Manual, QSK19, QSK23, QSK60 and QSK78 Series Engines, Bulletin [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1463.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1463.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Generator Set Not in Auto
@@ -34,24 +36,54 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1463.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1463.pdf)
 
-### Fault Code: 1463
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Generator Set Not in Auto
 
-Printable Version
+### Код неисправности: 1463
 
-### Overview
+### Генераторная установка не в автоматическом режиме
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1463 PCODE(P): SPN: FMI: Lamp: None SRT: | The generator announces to the LonWorks network that it is **not** in auto. | No action is taken by the ECM. |
+| Код неисправности: 1463 PCODE(P): СПН: ФМИ: Лампа: Нет, не srt: | Генератор объявляет в сеть LonWorks, что он **не** в автомобиле. | Никаких действий со стороны ЕКМ не предпринимается. |
 
 ![[19802649.png]]
 
-Generator Set ECM Card Cage
+Генератор установил ECM-картонную клетку
 
-### Circuit Description
+### Описание цепи
 
-### Component Location
+### Расположение компонента
 
-Refer to Troubleshooting Fault Code t05-1463
+См. Код устранения неполадок t05-1463
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1463
+>
+> ### Generator Set Not in Auto
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1463 PCODE(P): SPN: FMI: Lamp: None SRT: | The generator announces to the LonWorks network that it is **not** in auto. | No action is taken by the ECM. |
+>
+> Generator Set ECM Card Cage
+>
+> ### Circuit Description
+>
+> ### Component Location
+>
+> Refer to Troubleshooting Fault Code t05-1463

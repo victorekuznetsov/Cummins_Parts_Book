@@ -75,7 +75,8 @@ manuals:
   - "4960250"
   - "4960270"
   - "4960314"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-102-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-102-001.pdf"
 tags:
@@ -92,6 +93,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Maintenance Record Form
@@ -105,26 +107,60 @@ tags:
 > **Даты:** изменён 2014-08-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-102-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-102-001.pdf)
 
-### Maintenance Data
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-| Maintenance Record |  |
+
+### Данные технического обслуживания
+
+| Техническая документация |  |
 |---|---|
-| Product Serial No.: | Product Model: |
-| Owner's Name: | Equipment Model/Number: |
+| Серия продуктов No: | Модель продукта: |
+| Имя владельца: | Модель/число оборудования: |
 
-Key to table headings:
+Ключ к заголовкам таблиц:
 
-A = Date
+A = Дата
 
-B = Schedule km \[Miles\], Hours or Time Interval
+B = Км. графика \[Миль\], Часы или Интервал времени
 
-C = Actual km \[Miles\] Hour or Time
+C = фактический км \[Miles\] Час или время
 
-D = Maintenance Check Performed
+D = Проверка технического обслуживания
 
-E = Check Performed By
+E = Проверка, выполненная
 
-F = Comments
+F = Комментарии
 
-| A | B | C | D | E | F |
+| А. | B | C | D | Е | F |
 |---|---|---|---|---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Data
+>
+> | Maintenance Record |  |
+> |---|---|
+> | Product Serial No.: | Product Model: |
+> | Owner's Name: | Equipment Model/Number: |
+>
+> Key to table headings:
+>
+> A = Date
+>
+> B = Schedule km \[Miles\], Hours or Time Interval
+>
+> C = Actual km \[Miles\] Hour or Time
+>
+> D = Maintenance Check Performed
+>
+> E = Check Performed By
+>
+> F = Comments
+>
+> | A | B | C | D | E | F |
+> |---|---|---|---|---|---|

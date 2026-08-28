@@ -21,7 +21,8 @@ families:
   - "QSK50"
   - "QSK60"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200195.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200195.pdf"
 tags:
@@ -30,6 +31,7 @@ tags:
   - "двигатель/QSK50"
   - "двигатель/QSK60"
   - "год/2020"
+  - "перевод/машинный"
   - "тема/exhaust-system"
 ---
 
@@ -43,18 +45,26 @@ tags:
 > **Даты:** выпущен 2020-10-13 · изменён 2020-10-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200195.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200195.pdf)
 
-## Insite Data Monitor Exhaust Temperature Sensor Display Issue
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## INSITE: неверное отображение датчика температуры ОГ в мониторе данных
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- QSK38 CM850
-- QSK38 CM2150
+### Содержание
+
+**Затронутая продукция**
+
+- QSK38 M850
+- QSK38 M2150
 - QSK45 CM500
 - QSK50 CM850
 - QSK50 CM2150
@@ -66,31 +76,81 @@ The information in this document has no effect on present warranty coverage or r
 - QSK78 CM500
 - QSK78 CM2350
 
-> [!note] Note · Примечание
-> All SMNs with these engines and control models are affected.
+> [!note] Примечание
+> Все SMN с этими двигателями и моделями управления затронуты.
 
-**Issue**
+**Проблема**
 
-There is an issue getting individual exhaust temperature sensor information to display in Insite data monitor.
+Существует проблема получения индивидуальной информации датчика температуры выхлопных газов для отображения в мониторе данных Insite.
 
-Root Cause: Insite version 8.6.1.96 does not have the ability to display exhaust temperature sensors individually.
+Первопричина: Набор версии 8.6.1.96 не имеет возможности отображения датчиков температуры выхлопных газов по отдельности.
 
-**Verification/Confirmation**
+**Проверка/подтверждение**
 
-The Insite version mentioned above produces a display as shown.
+Версия Insite, упомянутое выше, создает дисплей, как показано.
 
 ![[17r00841.png]]
 
-Figure 1, Individual Exhaust Temperature Sensors Not Visible
+Рисунок 1 Индивидуальные датчики температуры выхлопа, которые не видны
 
-**Resolution**
+**Решение**
 
-Contact Cummins IT to downgrade Insite to previous version 8.6.0.104 or 8.6.0.116 to display individual exhaust temperature sensors.
+Свяжитесь с Cummins IT, чтобы понизить Insite до предыдущей версии 8.6.0.104 или 8.6.0.116 для отображения отдельных датчиков температуры выхлопных газов.
 
 ![[17r00842.png]]
 
-Figure 2, Visible Individual Exhaust Temperature Sensors
+Рисунок 2, Видимые индивидуальные датчики температуры выхлопа
 
-The ability to view individual exhaust temperature sensors will work when Insite 8.7.0 is released.
+Возможность просмотра отдельных датчиков температуры выхлопных газов будет работать при выпуске Insite 8.7.0.
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Insite Data Monitor Exhaust Temperature Sensor Display Issue
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - QSK38 CM850
+> - QSK38 CM2150
+> - QSK45 CM500
+> - QSK50 CM850
+> - QSK50 CM2150
+> - QSK50 CM2350
+> - QSK60 CM500
+> - QSK60 CM850
+> - QSK60 CM2150
+> - QSK60 CM2350
+> - QSK78 CM500
+> - QSK78 CM2350
+>
+> **Note · Примечание**
+> All SMNs with these engines and control models are affected.
+>
+> **Issue**
+>
+> There is an issue getting individual exhaust temperature sensor information to display in Insite data monitor.
+>
+> Root Cause: Insite version 8.6.1.96 does not have the ability to display exhaust temperature sensors individually.
+>
+> **Verification/Confirmation**
+>
+> The Insite version mentioned above produces a display as shown.
+>
+> Figure 1, Individual Exhaust Temperature Sensors Not Visible
+>
+> **Resolution**
+>
+> Contact Cummins IT to downgrade Insite to previous version 8.6.0.104 or 8.6.0.116 to display individual exhaust temperature sensors.
+>
+> Figure 2, Visible Individual Exhaust Temperature Sensors
+>
+> The ability to view individual exhaust temperature sensors will work when Insite 8.7.0 is released.
+>
+> ### Document History

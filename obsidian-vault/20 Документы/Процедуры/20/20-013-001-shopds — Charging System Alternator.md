@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-001-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-001-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator
@@ -34,23 +36,50 @@ tags:
 > **Даты:** изменён 2015-08-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-001-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-001-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Loosen the adjusting link and the alternator mounting capscrews.
 
-> [!note] Note · Примечание
-> The lower jam nut has **left-hand** threads.
+### Снятие
 
-Loosen both of the jam nuts. Turn the adjusting screw to relieve the belt tension.
+Устранить регулировочное звено и крепления генератора.
 
-Remove the alternator belt.
+> [!note] Примечание
+> Нижний локон имеет **левую** резьбу.
+
+Освободите оба ореха. Поверните регулирующий винт, чтобы снять натяжение ремня.
+
+Снимите ремень генератора.
 
 ![[eh4blmb.png]]
 
-Remove capscrews (1) and (2) and the adjusting link.
+Удалите болты (1) и (2) и корректирующее звено.
 
-Remove capscrew (3) and nut.
+Удалите болты (3) и гайки.
 
-Remove the alternator.
+Удалите генератор.
 
 ![[eh4bdha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Loosen the adjusting link and the alternator mounting capscrews.
+>
+> **Note · Примечание**
+> The lower jam nut has **left-hand** threads.
+>
+> Loosen both of the jam nuts. Turn the adjusting screw to relieve the belt tension.
+>
+> Remove the alternator belt.
+>
+> Remove capscrews (1) and (2) and the adjusting link.
+>
+> Remove capscrew (3) and nut.
+>
+> Remove the alternator.

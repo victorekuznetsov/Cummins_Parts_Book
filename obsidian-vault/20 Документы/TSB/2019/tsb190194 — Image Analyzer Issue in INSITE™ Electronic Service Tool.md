@@ -37,7 +37,8 @@ families:
   - "QSX15"
   - "QSZ13"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190194.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190194.pdf"
 tags:
@@ -52,6 +53,7 @@ tags:
   - "двигатель/QSX15"
   - "двигатель/QSZ13"
   - "год/2019"
+  - "перевод/машинный"
   - "тема/service-tools"
 ---
 
@@ -65,28 +67,62 @@ tags:
 > **Даты:** выпущен 2019-11-11 · изменён 2019-11-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190194.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190194.pdf)
 
-## Image Analyzer Issue in INSITE™ Electronic Service Tool
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Проблема анализатора образов в INSITE™
 
-### Contents
+### Положение о гарантии
 
-**Products Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- All electronically controlled engine products.
+### Содержание
 
-**Issue**
+**Пострадавшие продукты**
 
-Work order images created with INSITE™ electronic service tool versions 8.5.0 and 8.5.1 are not able to be properly viewed in ECM Image Analyzer in newer INSITE™ electronic service tool versions. See Figure 1 below for error displayed.
+- Все продукты двигателя с электронным управлением.
+
+**Проблема**
+
+Изображения рабочего заказа, созданные с помощью электронных средств инструментального обеспечения INSITETM версий 8.5.0 и 8.5.1, не могут быть должным образом просмотрены в ECM Image Analyzer в новых версиях электронных средств инструментального обеспечения INSITETM. См. рисунок 1 ниже для отображения ошибки.
 
 ![[19r99593.png]]
 
-Figure 1, ECM Image Analyzer Error Message in INSITE™ Electronic Service Tool.
+Рисунок 1, ECM Image Analyzer сообщение об ошибке в инструменте электронного сервиса INSITETM.
 
-**Resolution**
+**Решение**
 
-Create a new work order image with the latest version of INSITE™ electronic service tool.
+Создайте новый образ рабочего заказа с помощью последней версии инструментария для электронных услуг INSITETM.
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Image Analyzer Issue in INSITE™ Electronic Service Tool
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Products Affected**
+>
+> - All electronically controlled engine products.
+>
+> **Issue**
+>
+> Work order images created with INSITE™ electronic service tool versions 8.5.0 and 8.5.1 are not able to be properly viewed in ECM Image Analyzer in newer INSITE™ electronic service tool versions. See Figure 1 below for error displayed.
+>
+> Figure 1, ECM Image Analyzer Error Message in INSITE™ Electronic Service Tool.
+>
+> **Resolution**
+>
+> Create a new work order image with the latest version of INSITE™ electronic service tool.
+>
+> ### Document History

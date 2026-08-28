@@ -29,7 +29,8 @@ manuals:
   - "3810497"
   - "4021375"
   - "4021530"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-103-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-103-001.pdf"
 tags:
@@ -40,6 +41,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Engine Operation Report
@@ -53,18 +55,44 @@ tags:
 > **Даты:** изменён 2006-07-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-103-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-103-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The engine **must** be maintained in top mechanical condition if the operator is to get optimum satisfaction from its use. The maintenance department needs daily running reports from the operator to make necessary adjustments in the time allotted and to make provisions for more extensive maintenance work as the reports indicate the necessity.
 
-Comparison and intelligent interpretation of the daily report along with a practical follow-up action will eliminate most malfunctions and emergency repairs.
+### Общие сведения
 
-Report to the maintenance department any of the following conditions:
+Двигатель должен поддерживаться в отличном механическом состоянии, если оператор хочет получить оптимальное удовлетворение от его использования. Отделу технического обслуживания нужны ежедневные отчеты от оператора, чтобы внести необходимые корректировки в отведенное время и предусмотреть более обширные работы по техническому обслуживанию, поскольку отчеты указывают на необходимость.
 
-- Low lubricating oil pressure
-- Low power
-- Abnormal water or oil temperature
-- Unusual engine noise
-- Excessive smoke
-- Excessive use of coolant, fuel, or lubricating oil
-- Any fuel, coolant, or lubricating oil leaks.
+Сравнение и разумная интерпретация ежедневного отчета наряду с практическими последующими действиями устранят большинство неисправностей и аварийного ремонта.
+
+Сообщите в отдел технического обслуживания о любом из следующих условий:
+
+- Низкое давление моторного масла
+- Низкая мощность
+- Аномальная температура воды или масла
+- Посторонний шум двигателя
+- Чрезмерный дым
+- Чрезмерное использование хладагента, топлива или моторного масла
+- Любые утечки топлива, охлаждающей жидкости или моторного масла.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The engine **must** be maintained in top mechanical condition if the operator is to get optimum satisfaction from its use. The maintenance department needs daily running reports from the operator to make necessary adjustments in the time allotted and to make provisions for more extensive maintenance work as the reports indicate the necessity.
+>
+> Comparison and intelligent interpretation of the daily report along with a practical follow-up action will eliminate most malfunctions and emergency repairs.
+>
+> Report to the maintenance department any of the following conditions:
+>
+> - Low lubricating oil pressure
+> - Low power
+> - Abnormal water or oil temperature
+> - Unusual engine noise
+> - Excessive smoke
+> - Excessive use of coolant, fuel, or lubricating oil
+> - Any fuel, coolant, or lubricating oil leaks.

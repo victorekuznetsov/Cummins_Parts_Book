@@ -13,13 +13,15 @@ families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
   - "3666266"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-205-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-205-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Additional Service Literature
@@ -33,22 +35,52 @@ tags:
 > **Даты:** изменён 2002-06-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-205-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-205-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The following publications can be purchased:
 
-| Bulletin No. | Title of Publication |
+### Общие сведения
+
+Можно приобрести следующие публикации:
+
+| Вестник нет. | Название публикации |
 |---|---|
-| 3379000 | Air for Your Engines |
-| 3679001 | Fuel for Cummins Engines |
-| 3810340 | Cummins Engine Oil Recommendations |
-| 3387622 | Cold Weather Operation |
-| 3666209 | Cooling System Maintenance Extended Interval |
-| 3666132 | Coolant Requirements and Maintenance |
-| [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] | Troubleshooting and Repair Manual, ISM and QSM11 Series Engines |
-| 3666075 | Shop Manual, M11 Series Engines |
-| 3666404 | Operation and Maintenance Manual, QSM11 Marine and Industrial |
-| 3666413 | QSM11 Industrial Wiring Diagram |
-| 4021323 | QSM11 Power Generation Wiring Diagram |
+| 3379000 | Воздух для ваших двигателей |
+| 3679001 | Топливо для двигателей Cummins |
+| 3810340 | Рекомендации по моторному маслу Cummins |
+| 3387622 | Холодная погода Операция |
+| 3666209 | Система охлаждения для обслуживания расширенный интервал |
+| 3666132 | Требования к охлаждению и техническому обслуживанию |
+| [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] | Руководство по устранению неполадок и ремонту, двигатели серии ISM и QSM11 |
+| 3666075 | Руководство по магазинам, двигатели серии M11 |
+| 3666404 | Руководство по эксплуатации и техническому обслуживанию, QSM11 Морской и промышленный |
+| 3666413 | QSM11 Индустриальная схема проводов |
+| 4021323 | QSM11 Power Generation Wiring |
 | 3666269 | ISM Wiring Diagram |
-| 3666468 | QSM11 Marine Wiring Diagram |
+| 3666468 | QSM11 Диаграмма морской проводов |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The following publications can be purchased:
+>
+> | Bulletin No. | Title of Publication |
+> |---|---|
+> | 3379000 | Air for Your Engines |
+> | 3679001 | Fuel for Cummins Engines |
+> | 3810340 | Cummins Engine Oil Recommendations |
+> | 3387622 | Cold Weather Operation |
+> | 3666209 | Cooling System Maintenance Extended Interval |
+> | 3666132 | Coolant Requirements and Maintenance |
+> | [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] | Troubleshooting and Repair Manual, ISM and QSM11 Series Engines |
+> | 3666075 | Shop Manual, M11 Series Engines |
+> | 3666404 | Operation and Maintenance Manual, QSM11 Marine and Industrial |
+> | 3666413 | QSM11 Industrial Wiring Diagram |
+> | 4021323 | QSM11 Power Generation Wiring Diagram |
+> | 3666269 | ISM Wiring Diagram |
+> | 3666468 | QSM11 Marine Wiring Diagram |

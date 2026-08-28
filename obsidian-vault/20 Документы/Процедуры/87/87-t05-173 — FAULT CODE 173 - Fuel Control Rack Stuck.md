@@ -13,13 +13,15 @@ families:
   - "QST30"
 manuals:
   - "3666214"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-t05-173.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-t05-173.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
+  - "перевод/машинный"
 ---
 
 # FAULT CODE 173 - Fuel Control Rack Stuck
@@ -33,42 +35,92 @@ tags:
 > **Даты:** изменён 2018-08-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-t05-173.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-t05-173.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-## Troubleshooting Summary
 
-| STEPS | SPECIFICATIONS |  |
+Версия для печати
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check for active fault codes. |  |
-|  | **STEP 1A.** Read the fault codes. | Fault Code 166 active |
-| STEP 2. | Clear the fault codes. |  |
-|  | **STEP 2A.** Disable the fault code. | Fault Code 173 inactive |
-|  | **STEP 2B.** Clear the inactive fault codes. | All fault codes cleared |
+| ШАГ 1. | Проверьте наличие активных кодов неисправностей. |  |
+|  | **СТЭП 1А.** Прочитайте коды неисправностей. | Код 166 Active |
+| ШАГ 2. | Сбросьте коды неисправностей. |  |
+|  | **STEP 2A.** Отключить код ошибки. | Код 173 неактивен |
+|  | **STEP 2B.** Очистить коды неактивных ошибок. | Все коды ошибок очищены |
 
-### STEP 1. Check for active fault codes.
+### ШАГ 1. Проверьте наличие активных кодов неисправностей.
 
-#### STEP 1A. Read the fault codes.
+#### ШАГ 1A. Считайте коды неисправностей.
 
-| **Conditions:** Turn keyswitch ON. |  |  |
+| **Условия:** Включить переключатель зажигания. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Read the fault codes. Use INSITE™ electronic service tool to read the fault codes. | Fault Code 166 active | Fault Code 166 |
-| Replace the fuel pump. Refer to Procedure 005-012 in Section 5. | 2A |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Считайте коды неисправностей. Используйте инструмент электронного сервиса INSITETM для считывания кодов неисправностей. | Код 166 Active | Код ошибки 166 |
+| Замените топливный насос. См. процедуру 005-012 в разделе 5. | 2А |  |
 
-### STEP 2. Clear the fault codes.
+### ШАГ 2. Сбросьте коды неисправностей.
 
-#### STEP 2A. Disable the fault code.
+#### ШАГ 2A. Отключите код неисправности.
 
-| **Conditions:** Connect all components. Turn keyswitch ON. |  |  |
+| **Условия:** Соединить все компоненты. Включите зажигание. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Disable fault code. Start the engine and let it idle for 1 minute. Use INSITE™ electronic service tool to verify that the fault. | Fault Code 173 inactive | 2B |
-| Verify that all steps have been completed. If all steps have been completed, then follow the technical escalation process. | Escalate or call for assistance. |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Отключить код ошибки. Запустите двигатель и запускайте его на холостом ходу в течение 1 минуты. Используйте инструмент электронного сервиса INSITETM для проверки вины. | Код 173 неактивен | 2В |
+| Убедитесь, что все шаги были завершены. Если все шаги выполнены, то следуйте процессу технической эскалации. | Эскалация или призыв к помощи. |  |
 
-#### STEP 2B. Clear the inactive fault codes.
+#### ШАГ 2B. Сбросьте неактивные коды неисправностей.
 
-| **Conditions:** Connect all components. Turn keyswitch ON. |  |  |
+| **Условия:** Соединить все компоненты. Включите зажигание. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Clear the inactive fault codes. Use INSITE™ electronic service tool to clear the inactive fault codes. | All fault codes cleared | Repair complete |
-| Troubleshoot any remaining active fault codes. | Appropriate troubleshooting charts |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Сбросьте неактивные коды неисправностей. Используйте инструмент электронного сервиса INSITETM для очистки кодов неактивных ошибок. | Все коды ошибок очищены | Ремонт завершён |
+| Устранение неполадок с оставшимися активными кодами неисправностей. | Соответствующие диаграммы устранения неполадок |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check for active fault codes. |  |
+> |  | **STEP 1A.** Read the fault codes. | Fault Code 166 active |
+> | STEP 2. | Clear the fault codes. |  |
+> |  | **STEP 2A.** Disable the fault code. | Fault Code 173 inactive |
+> |  | **STEP 2B.** Clear the inactive fault codes. | All fault codes cleared |
+>
+> ### STEP 1. Check for active fault codes.
+>
+> #### STEP 1A. Read the fault codes.
+>
+> | **Conditions:** Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Read the fault codes. Use INSITE™ electronic service tool to read the fault codes. | Fault Code 166 active | Fault Code 166 |
+> | Replace the fuel pump. Refer to Procedure 005-012 in Section 5. | 2A |  |
+>
+> ### STEP 2. Clear the fault codes.
+>
+> #### STEP 2A. Disable the fault code.
+>
+> | **Conditions:** Connect all components. Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Disable fault code. Start the engine and let it idle for 1 minute. Use INSITE™ electronic service tool to verify that the fault. | Fault Code 173 inactive | 2B |
+> | Verify that all steps have been completed. If all steps have been completed, then follow the technical escalation process. | Escalate or call for assistance. |  |
+>
+> #### STEP 2B. Clear the inactive fault codes.
+>
+> | **Conditions:** Connect all components. Turn keyswitch ON. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Clear the inactive fault codes. Use INSITE™ electronic service tool to clear the inactive fault codes. | All fault codes cleared | Repair complete |
+> | Troubleshoot any remaining active fault codes. | Appropriate troubleshooting charts |  |

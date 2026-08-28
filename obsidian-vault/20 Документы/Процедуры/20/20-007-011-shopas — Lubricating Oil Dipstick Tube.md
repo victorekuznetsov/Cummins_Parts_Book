@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-011-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-011-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Dipstick Tube
@@ -34,13 +36,32 @@ tags:
 > **Даты:** изменён 2004-05-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-011-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-011-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The dipstick tube and fuel filter mounting locations vary depending on the application of the engine.
 
-Install the dipstick tube.
+### Установка
 
-Tighten the nut 3/4 turn to 1 turn after contact with the ferrule.
+> [!note] Примечание
+> Место установки измерительной трубки и топливного фильтра для измерения уровня масла варьируется в зависимости от применения двигателя.
+
+Установите измерительную трубку уровня масла.
+
+Затянуть гайку 3/4 поворота на 1 поворот после контакта с феррулом.
 
 ![[op4diaa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **Note · Примечание**
+> The dipstick tube and fuel filter mounting locations vary depending on the application of the engine.
+>
+> Install the dipstick tube.
+>
+> Tighten the nut 3/4 turn to 1 turn after contact with the ferrule.

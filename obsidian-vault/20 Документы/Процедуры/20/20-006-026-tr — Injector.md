@@ -18,13 +18,15 @@ parts:
   - "3963990"
   - "4918767"
 figures: 64
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-026-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-026-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Injector
@@ -38,600 +40,608 @@ tags:
 > **Даты:** изменён 2018-05-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-026-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-026-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-The injector consists of the following components:
+### Общие сведения
 
-1. Sealing ring
-2. O-ring (brown, small)
-3. O-ring (green)
-4. O-ring (light blue)
-5. O-ring (black, large)
-6. Capscrew
-7. Injector hold-down clamp
-8. Injector.
+с форсункой механического управления
+
+Форсунка состоит из следующих компонентов:
+
+1. Кольцо для сирени
+2. О-кольцо (коричневое, маленькое)
+3. О-кольцо (зеленое)
+4. О-кольцо (светло-голубое)
+5. О-кольцо (черное, большое)
+6. болты
+7. зажим для удерживания форсунки
+8. Форсунка.
 
 ![[06800009.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-The injector consists of the following components:
+Форсунка состоит из следующих компонентов:
 
-1. O-ring and damper
-2. Capscrew
-3. Injector hold-down clamp
-4. Seal
-5. O-rings
-6. Injector.
+1. О-кольцо и демпфер
+2. болты
+3. зажим для удерживания форсунки
+4. печать
+5. О-кольца
+6. Форсунка.
 
 ![[06400286.png]]
 
-### Initial Check
+### Первичная проверка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Misfire Using Heat Indicator Marker
+Огонь с использованием маркера теплового индикатора
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!note] Note · Примечание
-> This procedure is **not** effective when the symptoms occur **only** at low idle or when the engine is cold.
+> [!note] Примечание
+> Эта процедура не эффективна, когда симптомы возникают только при низком холостом режиме или когда двигатель холодный.
 
-If the engine exhibits symptoms of an injector **not** firing, perform the following check:
+Если двигатель проявляет симптомы форсунки **не**, проверьте:
 
-- Operate the engine to normal operating coolant temperature of 80°C \[180°F\].
-- Stop the engine and allow the exhaust manifold to cool for 10 minutes.
-- Use a 204°C \[400°F\] temperature indicator marker, Part Number 3165163, or equivalent, to apply a mark (1) on the surface of all exhaust manifold ports. The mark **must** be as close to the cylinder head as possible, but **not** directly on the exhaust manifold mounting flange.
-- Start the engine and operate under light load for a short time. Do **not** operate the engine under heavy load or for an extended period of time, as this can cause inaccurate results.
+- Управляйте двигателем до нормальной рабочей температуры охлаждающей жидкости 80°C \[180°F\].
+- Остановите двигатель и дайте коллектору выхлопных газов остыть в течение 10 минут.
+- Используйте температурный индикатор 204°C \[400°F\], номер детали 3165163, или эквивалент, чтобы нанести знак (1) на поверхность всех портов выхлопных коллекторов. Знак **должен быть как можно ближе к головке цилиндра, но **не непосредственно на фланце установки выхлопного коллектора.
+- Запустите двигатель и работайте под легкой нагрузкой в течение короткого времени. Не используйте двигатель под большой нагрузкой или в течение длительного периода времени, так как это может привести к неточным результатам.
 
 ![[06400198.png]]
 
-> [!note] Note · Примечание
-> It is not recommended to use the temperature indicator markers to troubleshoot for cylinders that are operating too hot.
+> [!note] Примечание
+> Не рекомендуется использовать маркеры температурных индикаторов для устранения неполадок цилиндров, работающих слишком горячими.
 
-If the 204°C \[400°F\] mark melts (1) the color will disappear and leave **only** a transparent glazed appearance where the mark was. This indicates that the cylinder is operating at a temperature above 204°C \[400°F\].
+Если 204 ° C \[400° F \] метка плавится (1) цвет исчезнет и оставит только * прозрачный глазурованный вид, где была метка. Это указывает на то, что цилиндр работает при температуре выше 204 ° C \[400° F \].
 
-If the 204°C \[400°F\] mark does **not** melt (2), the mark color remains present. This indicates that the cylinder is **not** operating at a temperature of 204°C \[400°F\], indicating a possible injector malfunction.
+Если знак 204°C \[400°F\] плавится **не** (2), цвет знака остается присутствующим. Это указывает на то, что цилиндр **не** работает при температуре 204 °C \[400°F\], что указывает на возможную неисправность форсунки.
 
 ![[06400199.png]]
 
-> [!warning] CAUTION · Осторожно
-> This tool is not intended to be used above the engine idle speed. Do not use above 900 rpm engine speed. Doing so can damage the engine. Start and operate the engine until the coolant temperature reaches the normal range of 80°C \[180°F\]. Shut the engine off.
+> [!warning] ОСТОРОЖНО
+> Этот инструмент не предназначен для использования выше скорости холостого хода двигателя. Не используйте скорость двигателя выше 900 оборотов в минуту. Это может повредить двигатель. Запуск и работа двигателя до тех пор, пока температура охлаждающей жидкости не достигнет нормального диапазона 80°C \[180°F\]. Выключи двигатель.
 
-Misfire Using Injector Cutout Tool
+Misfire с помощью форсунки Cutout Tool
 
-Start and operate the engine until the coolant temperature reaches the normal range of 80°C \[180°F\].
+Запуск и работа двигателя до тех пор, пока температура охлаждающей жидкости не достигнет нормального диапазона 80°C \[180°F\].
 
-Shut the engine OFF.
+Закройте двигатель.
 
 ![[02400014.png]]
 
-Use a 12-mm hex socket or Allen wrench to remove the existing plug from the top side of the cast iron valve cover.
+Используйте 12-мм шестигранный разъем или гаечный ключ Аллена, чтобы удалить существующую пробку с верхней стороны чугунного клапана.
 
 ![[02400015.png]]
 
-Screw the single injector diagnostic cut-out tool **clockwise** into the threaded hole in the valve cover until it bottoms out on the valve cover.
+Вставьте один инструмент диагностики форсунки топлива **по часовой стрелке** в резьбовое отверстие в клапанном чехле до тех пор, пока оно не выползет на клапанный чехол.
 
 ![[02400016.png]]
 
-> [!warning] CAUTION · Осторожно
-> This tool is not intended to be used above the engine idle speed. Do not use above 900 rpm engine speed. Doing so can damage the engine.
+> [!warning] ОСТОРОЖНО
+> Этот инструмент не предназначен для использования выше скорости холостого хода двигателя. Не используйте скорость двигателя выше 900 оборотов в минуту. Это может повредить двигатель.
 
-Install a 0 to 207 kPa \[0 to 30 psi\] pressure gauge on the Compuchek™ fitting located at the front of the block.
+Установите датчик измерения давления от 0 до 207 кПа \[0 до 30 psi\] на фитинг CompuchekTM, расположенный в передней части блока.
 
-Start and operate engine at idle speed for approximately 1 minute.
+Запуск и работа двигателя на холостом ходу в течение примерно 1 минуты.
 
-- Record the fuel rail pressure reading.
+- Запись показания давления в топливной рельсовой магистрали.
 
 ![[02400020.png]]
 
-Rotate the single-injector diagnostic cut-out tool **counterclockwise** until it is approximately 13 mm \[½ inch\] clear of the valve cover.
+Поверните однофорсунка диагностической вырезной инструмент **против часовой стрелки**, пока он не будет примерно 13 мм \[1⁄2 дюйма] чист от клапанного чехла.
 
-- Note the fuel rail pressure reading.
+- Обратите внимание на показания давления в топливной рельсе.
 
-If the cylinder being tested is working properly, the fuel rail pressure can decrease on reading number 2.
+Если испытываемый цилиндр работает должным образом, давление в топливной рельсе может снизиться при чтении числа 2.
 
-If the cylinder being tested is weak or **not** firing, the fuel rail pressure will **not** change between reading number 1 and number 2.
+Если испытываемый цилиндр слаб или не работает, давление на топливных рельсах будет изменяться между показаниями № 1 и № 2.
 
 ![[02400017.png]]
 
-Shut the engine OFF.
+Закройте двигатель.
 
-Repeat the above steps in different rocker lever covers until the faulty injector is found.
+Повторите вышеупомянутые шаги в различных крышках клапанных клапанов, пока не будет найден неисправный форсунка.
 
-Replace the malfunctioning injector(s).
+Заменить неисправный форсунка (форсунки).
 
 ![[02400018.png]]
 
-After engine diagnostic testing, remove the single-injector diagnostic cut-out tool from the valve cover and install the plug.
+После диагностического тестирования двигателя удалите инструмент для диагностики однофорсунки из сборки крышки клапана и установите вилку.
 
-Tighten the plug.
+Затяните вилку.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[02400019.png]]
 
-Check the injectors when it is suspected they were run dry (without fuel).
+Проверьте форсунка, когда подозревается, что он был пропущен сухим (без топлива).
 
-Remove the rocker lever covers and check to be sure all of the injector links are intact. If they are intact, install the covers and follow the normal injector inspection procedure. If they are **not** intact, follow the injector inspection step in this procedure.
+Удалите крышки клапанного клапана и проверьте, чтобы убедиться, что все линии топливных форсунок не повреждены. Если они не повреждены, установите крышки и следуйте обычной процедуре форсуночного контроля топлива. Если они не повреждены, следуйте шагу форсунки топлива в этой процедуре.
 
-Warm up the engine by running at high idle to stabilize the exhaust temperature. If the exhaust temperatures are within 38°C or 68°F, all injectors are firing and working correctly.
+Разогрейте двигатель, работая на высоком холостом ходу, чтобы стабилизировать температуру выхлопа. Если температура выхлопных газов находится в пределах 38°C или 68°F, то все топливные форсунки работают правильно.
 
 ![[07400026.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Misfire Using Injector Tester Tool
+Misfire с использованием форсунки Tester Tool
 
-> [!note] Note · Примечание
-> This test **must** be performed with the engine shut down for at least 5 minutes.
+> [!note] Примечание
+> Этот тест должен быть выполнен с выключенным двигателем в течение не менее 5 минут.
 
-> [!note] Note · Примечание
-> If the engine is equipped with CM2150 engine control modules (ECMs) (1), cover the plug with a lint-free cloth. Slowly loosen the plug on the last injector of the high-pressure fuel lines 1/4 to 1/2 turn. The plug does **not** need to be removed to relieve the pressure. Connect INSITE™ electronic service tool and verify the fuel pressure has bled down by monitoring the fuel rail pressure.
+> [!note] Примечание
+> Если двигатель оснащен модулями управления двигателем CM2150 (ECM) (1), покройте вилку тканью без винта. Медленно ослабить вилку на последнем топливном форсунке топливных линий высокого давления от 1/4 до 1/2 поворота. Вилка **не** должна быть удалена, чтобы уменьшить давление. Подключите электронный сервисный инструмент INSITETM и проверьте, что давление топлива снизилось, контролируя давление в топливной рельсе.
 
 ![[06k00003.png]]
 
-If the engine exhibits symptoms of an injector **not** firing, perform the following check using the injector tester (1)(2), Part Number 2892293:
+Если двигатель имеет симптомы форсунки **не**, проверьте с помощью тестера (1)(2), номер детали 2892293:
 
-1. Plug the tool harness into the injector tester tool via the 4-pin connector.
-2. Plug the tool harness into the engine harness via the 9-pin connector.
-3. Verify injector tester tool yellow READY light is illuminated. If **not**, verify the power supply to the 9-pin connector. If illuminated, proceed.
-4. Turn keyswitch ON.
-5. Plug the tool harness into the injector via the 2-pin connector.
-6. Fully depress and release the injector tester tool PRESS TO TEST button.
+1. Подключите инструментальную проводку к инструменту тестера форсунки через 4-контактный разъем.
+2. Подключите инструментальную проводку к ремню проводов двигателя через 9-контактный разъем.
+3. Проверьте, что инструмент для испытания топливных форсунок желтый READY свет освещен. Если **не**, проверьте источник питания 9-контактного разъема. Если подсвечивается, продолжайте.
+4. Включите зажигание.
+5. Подключите инструментальную проводку в форсунка через 2-контактный разъем.
+6. Полностью разгерметизируйте и отпустите инструмент для испытания форсунки PRESS TO TEST.
 
-- If a green PASS light is illuminated, the injector is functioning.
-- If a red FAIL light is illuminated, the injector is failed and **must** be replaced.
+- Если зеленый PASS-свет освещается, то работает форсунка.
+- Если загорается красный неисправный свет, то форсунка выходит из строя и должен быть заменен.
 
-Repeat steps 5 and 6 until all injectors have been tested.
+Повторите шаги 5 и 6 до тех пор, пока не будет испытана вся форсунка.
 
 ![[06k00004.png]]
 
-Misfire Using Injector Cutout Tool
+Misfire с помощью форсунки Cutout Tool
 
-Use INSITE™ electronic service tool to perform the Cylinder Cutout Test on engines with electronically actuated injectors. See INSITE™ electronic service tool manual for instructions.
+Используйте инструмент электронного обслуживания INSITETM для выполнения испытания на вырезание цилиндров на двигателях с топливным форсункой с электронным приводом. См. руководство по электронному обслуживанию INSITETM для инструкций.
 
 ![[14c00040.png]]
 
-Check the injectors when it is suspected they were run dry (without fuel).
+Проверьте форсунка, когда подозревается, что он был пропущен сухим (без топлива).
 
-Remove the rocker lever covers and check to be sure all of the injector links are intact. If they are intact, install the covers and follow the normal injector inspection procedure. If they are **not** intact, follow the injector inspection step in this procedure.
+Удалите крышки клапанного клапана и проверьте, чтобы убедиться, что все линии топливных форсунок не повреждены. Если они не повреждены, установите крышки и следуйте обычной процедуре форсуночного контроля топлива. Если они не повреждены, следуйте шагу форсунки топлива в этой процедуре.
 
-Warm up the engine by running at high idle to stabilize the exhaust temperature. If the exhaust temperatures are within 38°C or 68°F, then all injectors are firing and working correctly.
+Разогрейте двигатель, работая на высоком холостом ходу, чтобы стабилизировать температуру выхлопа. Если температура выхлопных газов находится в пределах 38°C или 68°F, то все топливные форсунки работают правильно.
 
 ![[07400026.png]]
 
-### High-Pressure Injector Return Flow Test
+### Высоконапорный форсунка Return Flow Test
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the banjo bolt (1) from the fuel injector drain line at the fuel return manifold. Install the fuel drain fitting and hose, Part Numbers 3164614 and 2892248, in place of the banjo bolt.
+Удалите болт банджо (1) из линии слива форсунки топливного топлива на коллекторе возврата топлива. Установите вместо болта банджо фитинг и шланг для слива топлива, номера частей 3164614 и 2892248.
 
-Place the end of the fuel injector drain line fuel return flow hose in a graduated cylinder with at least 100 ml \[3.4 oz\] capacity to collect return flow.
+Поместите конец топливного форсунка сливной линии топливопроводного шланга в градуированный цилиндр с емкостью не менее 100 мл \[3,4 унции\] для сбора обратного потока.
 
 ![[06k00092.png]]
 
-Unplug all six of the injector connectors and crank the engine at least 150 rpm for 30 seconds.
+Отключите все шесть разъемов топливного форсунка и прокрутите двигатель не менее 150 об/мин в течение 30 секунд.
 
-> [!note] Note · Примечание
-> Do **not** crank the engine for more than 30 seconds; otherwise damage to the starter may occur. Wait 5 minutes before the test is repeated.
-
-![[06400349.png]]
-
-| Flow Specification: Engine Cranking |  |
-|---|---|
-| 19L (Six Injectors) | 75 ml per 30 seconds \[2.5 fl-oz per 30 seconds\] maximum |
-
-If fuel flow is greater than specification, it is necessary to perform the Injector Isolation Test described below.
-
-![[06f00007.png]]
-
-### High-Pressure Injector Return Flow Isolation Test
-
-with Electronically Actuated Injector
-
-Remove the fuel drain manifold banjo bolts and remove both pieces of the fuel drain manifold. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
-
-> [!note] Note · Примечание
-> Marine engines will have to remove the intake manifold to gain access to the drain manifold. [[20-010-023-tr — Air Intake Manifold|Refer to Procedure 010-023 in Section 10.]] [[20-010-019-tr — Air Crossover|Refer to Procedure 010-019 in Section 10.]]
-
-![[ck800wa.png]]
-
-Install a fuel drain test fitting and sealing washer, Part Numbers 2892297 and [[3963990]], into each of the cylinder heads.
-
-Slide a hose over the nipple on each of the fuel drain test fittings and route it to a graduated cylinder with at least 100 ml \[3.4 oz\] capacity.
-
-![[06f00007.png]]
-
-Install threaded plug, Part Number [[3678610]], into the fuel drain block.
-
-Unplug all six of the injector connectors and crank the engine at least 150 rpm for 30 seconds.
-
-> [!note] Note · Примечание
-> Do **not** crank the engine for more than 30 seconds; otherwise damage to the starter may occur. Wait 5 minutes before the test is repeated.
-
-Record the amount of fuel collected from each of the cylinders.
+> [!note] Примечание
+> Не проворачивайте двигатель более 30 секунд; в противном случае может произойти повреждение стартера. Подождите 5 минут, прежде чем тест повторится.
 
 ![[06400349.png]]
 
-| Flow Specification: Engine Cranking |  |
+| Спецификация потока: Кранирование двигателя |  |
 |---|---|
-| 19L (One Injector) | 15 ml per 30 seconds \[0.5 fl-oz per 30 seconds\] maximum |
+| 19L (Шесть топливных форсунок) | 75 мл за 30 секунд \[2,5 фло-оз за 30 секунд\] максимум |
 
-Replace the injector on any cylinder that has more leakage than specified.
-
-If any injectors were replaced, repeat the test on all of the six cylinders until all cylinders have less flow than specified.
+Если расход топлива превышает спецификацию, необходимо выполнить испытание на изоляцию топливного форсунка, описанное ниже.
 
 ![[06f00007.png]]
 
-Remove the fuel drain hoses and test fittings and reassemble the fuel drain lines. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+### Испытание на изоляцию потока топлива под высоким давлением
+
+с форсункой электронного управления
+
+Удалите болты банджо с дренажным коллектором топлива и удалите оба куска топливного дренажного коллектора.[[20-006-013-tr — Fuel Drain Lines|См. процедуру 006-013 в разделе 6.]]
+
+> [!note] Примечание
+> Морские двигатели должны будут удалить впускной коллектор, чтобы получить доступ к дренажному коллектору.[[20-010-023-tr — Air Intake Manifold|См. процедуру 010-023 в разделе 10.]] [[20-010-019-tr — Air Crossover|См. процедуру 010-019 в разделе 10.]]
 
 ![[ck800wa.png]]
 
-### Preparatory Steps
+Установить испытательную установку и уплотнительный стиральный станок для слива топлива, номера частей 2892297 и[[3963990]]в каждую из головок цилиндров.
 
-with Mechanically Actuated Injector
+Нанесите шланг на сосок на каждую из испытательных фитингов для слива топлива и направьте его в градуированный цилиндр с емкостью не менее 100 мл [3,4 унции].
 
-> [!danger] WARNING · Опасно
-> Depending on the circumstance, fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
+![[06f00007.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not spill or drain fuel into the bilge area when disconnecting or removing fuel lines, replacing filters, and priming the fuel system. Do not drop or throw filter elements into the bilge area. The fuel and fuel filters must be disposed of in accordance with local environmental regulations.
+Установите резьбовую вилку, номер детали[[3678610]], в блок слива топлива.
 
-- Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Remove the rocker lever assembly. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+Отключите все шесть разъемов топливного форсунка и прокрутите двигатель не менее 150 об/мин в течение 30 секунд.
+
+> [!note] Примечание
+> Не проворачивайте двигатель более 30 секунд; в противном случае может произойти повреждение стартера. Подождите 5 минут, прежде чем тест повторится.
+
+Запись количества топлива, собранного из каждого цилиндра.
+
+![[06400349.png]]
+
+| Спецификация потока: Кранирование двигателя |  |
+|---|---|
+| 19L (один форсунка) | 15 мл за 30 секунд \[0,5 фло-оз за 30 секунд\] максимум |
+
+Замените форсунка на любой цилиндр, который имеет больше утечки, чем указано.
+
+Если какой-либо форсунка был заменен, повторить испытание на всех шести цилиндрах, пока все цилиндры имеют меньший расход, чем указано.
+
+![[06f00007.png]]
+
+Удалите шланги для слива топлива и испытательные фитинги и соберите линии слива топлива.[[20-006-013-tr — Fuel Drain Lines|См. процедуру 006-013 в разделе 6.]]
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Depending on the circumstance, fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
+с форсункой механического управления
 
-> [!warning] CAUTION · Осторожно
-> Do not spill or drain fuel into the bilge area when disconnecting or removing fuel lines, replacing filters, and priming the fuel system. Do not drop or throw filter elements into the bilge area. The fuel and fuel filters must be disposed of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> В зависимости от условий топливо огнеопасно. При осмотре или выполнении обслуживания или ремонта топливной системы, чтобы уменьшить вероятность пожара и в результате серьезных травм, смерти или повреждения имущества, никогда не курить или разрешать искры или пламя (например, пилотные огни, электрические выключатели или сварочное оборудование) в рабочей зоне.
 
-- Remove the injector supply lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-- Install the injector protective plugs, Part Number [[4918767]].
-- Remove the two-piece valve cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> [!warning] ОСТОРОЖНО
+> При отсоединении и снятии топливных магистралей, замене фильтров и прокачке системы не допускайте пролива и слива топлива в трюм. Не бросайте фильтрующие элементы в трюм. Топливо и топливные фильтры утилизируйте по местным природоохранным требованиям.
+
+- Снимите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Снимите клапанный клапан с крепления рычага.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
 
 ![[ck800wa.png]]
 
-### Remove
+с форсункой электронного управления
 
-with Mechanically Actuated Injector
+> [!danger] ОПАСНО
+> В зависимости от условий топливо огнеопасно. При осмотре или выполнении обслуживания или ремонта топливной системы, чтобы уменьшить вероятность пожара и в результате серьезных травм, смерти или повреждения имущества, никогда не курить или разрешать искры или пламя (например, пилотные огни, электрические выключатели или сварочное оборудование) в рабочей зоне.
 
-> [!note] Note · Примечание
-> The hold-down clamp can **not** be removed until the injector is removed.
+> [!warning] ОСТОРОЖНО
+> При отсоединении и снятии топливных магистралей, замене фильтров и прокачке системы не допускайте пролива и слива топлива в трюм. Не бросайте фильтрующие элементы в трюм. Топливо и топливные фильтры утилизируйте по местным природоохранным требованиям.
 
-Remove the injector hold-down capscrew. Remove the injector and clamp.
+- Удалите линии подачи топливного форсунка.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Установите защитные вилки форсунки, часть номер[[4918767]].
+- Снять двухсекционный клапанный узел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
-Use injector puller, Part Number 3823579, or equivalent, to remove the injectors. Insert the pin of the tool in the hole provided in the body of the injector. The hole faces the front of the engine.
+![[ck800wa.png]]
 
-> [!note] Note · Примечание
-> If the injector puller is **not** available, carefully use a pry bar. Pry upward on the injector against the cylinder head.
+### Снятие
 
-Cover the injection bore to prevent foreign objects from entering the cylinder.
+с форсункой механического управления
+
+> [!note] Примечание
+> Зажим удерживания может быть удален **не** до тех пор, пока не будет удален форсунка.
+
+Удалите затворы удерживания форсунки. Удалите форсунка и зажим.
+
+Используйте топливный форсунок, номер детали 3823579, или эквивалент, чтобы удалить топливный форсунок. Вставьте штифт инструмента в отверстие, предусмотренное в корпусе форсунки. Отверстие обращено к передней части двигателя.
+
+> [!note] Примечание
+> Если топливный форсунок съёмник не доступен, осторожно используйте прыжок. Поднимитесь вверх на топливном форсунке против головки цилиндра.
+
+Накройте цилиндр для инжекции, чтобы предотвратить попадание посторонних предметов в цилиндр.
 
 ![[06400020.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!note] Note · Примечание
-> Do **not** reuse protective plugs. The protective plugs **must** be used immediately upon removal from the plastic wrapping. If they are **not** used immediately, the protective plugs **must** be discarded. If the protective plugs are fouled in any manner before use, the protective plugs **must** be discarded and a new set used.
+> [!note] Примечание
+> **Не использовать защитные вилки. Защитные вилки **должны использоваться сразу после удаления из пластиковой упаковки. Если они не используются немедленно, защитные пробки должны быть отброшены. Если защитные пробки каким-либо образом заглушены перед использованием, защитные пробки должны быть выброшены и использован новый набор.
 
-If **not** already completed, plug the ports in each side of the injector T-piece with the injector protective plugs, before removing the injector. Make sure that the plugs are wedged firmly into place. This will prevent debris from entering and causing damage to the injector.
+Если **не** уже завершено, заглушить порты в каждой стороне топливного форсунка Т-штукатурой защитными вилками топливного форсунка перед удалением топливного форсунка. Убедитесь, что вилки прочно вбиты на место. Это позволит предотвратить попадание мусора и нанесение ущерба топливному форсунке.
 
 ![[06600454.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Не используйте повторно топливные форсунки для удерживания или уплотнение для сгорания топливного форсунка. Повторное использование этих компонентов может привести к повреждению двигателя.
 
-> [!note] Note · Примечание
-> On applications with high drain line head pressure, such as a fuel tank mounted higher than the engine, shut off the fuel drain line valve and evacuate the fuel drain line of fuel before removing the injector.
+> [!note] Примечание
+> На приложениях с высоким давлением на головке дренажной линии, таких как топливный бак, установленный выше, чем двигатель, отключите клапан топливной дренажной линии и эвакуируйте линию топливной дренажной линии топлива перед удалением топливного форсунка.
 
-Remove and discard the injector hold-down capscrew.
+Удалите и отбросьте топливные форсунки.
 
-Use a heel bar to remove the injector. Place the heel between the injector body and the exhaust rocker lever and gently pry the injector from the injector bore.
+Используйте пятку для удаления форсунки. Поместите пятку между корпусом форсунки и рычагом качения клапана выхлопного клапана и осторожно вытащите форсунка из цилиндра форсунки.
 
-> [!note] Note · Примечание
-> On applications with high drain line head pressure, such as a fuel tank mounted higher than the engine, it is possible for fuel to leak from the drain line into the cylinder when the injector is removed. After removing the injector, check for fuel dripping into the cylinder and evacuate the fuel before continuing in the removal procedure.
+> [!note] Примечание
+> На приложениях с высоким давлением на головке дренажной линии, таких как топливный бак, установленный выше, чем двигатель, топливо может просачиваться из дренажной линии в цилиндр, когда форсунка удаляется. После удаления топливного форсунка проверьте, чтобы топливо капало в цилиндр и эвакуировалось, прежде чем продолжить процедуру удаления.
 
-Cover the injector bore in the cylinder head to prevent foreign objects from entering and causing damage to the bore and combustion chamber.
+Накройте форсунканый цилиндр, который находится в головке цилиндра, чтобы предотвратить попадание посторонних предметов и повреждение цилиндровой скважины и камеры сгорания.
 
 ![[06400388.png]]
 
-Remove and discard the seal on the end of the injector.
+Удалить и выбросить уплотнение на конце форсунки.
 
 ![[06400379.png]]
 
-Remove and discard the two o-rings on the injector.
+Удалите и отбросьте два кольца на топливном форсунке.
 
 ![[06400289.png]]
 
-Do **not** remove the o-ring/damper at this time.
+В это время не удаляйте кольцо/заглушку.
 
 ![[06600267.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Use a lint-free cloth to clean the exterior of the injector.
+Используйте безмятежную ткань для очистки внешней стороны форсунки.
 
 ![[06400117.png]]
 
-Remove the sealing ring. Note cylinder location and thickness.
+Удалить уплотнительное кольцо. Обратите внимание на расположение цилиндра и толщину.
 
-Discard sealing ring
+Запечатывающее кольцо
 
-> [!note] Note · Примечание
-> Oversize sealing rings are available to adjust injector protrusion in resurfaced and Recon® cylinder heads. [[20-002-022 — Injector Protrusion|Refer to Procedure 002-022 in Section 2.]]
+> [!note] Примечание
+> Негабаритные уплотнительные кольца доступны для регулировки протрузии форсунки в поверхностных и головках цилиндров Recon®.[[20-002-022 — Injector Protrusion|См. процедуру 002-022 в разделе 2.]]
 
-> [!note] Note · Примечание
-> Recon® cylinder heads are marked to identify which sealing ring should be used. [[20-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
+> [!note] Примечание
+> Головки цилиндров Recon® помечены для определения того, какое уплотнительное кольцо следует использовать.[[20-002-004-tr — Cylinder Head|См. процедуру 002-004 в разделе 2.]]
 
 ![[06400386.png]]
 
-The o-rings **must** be installed in the correct order on the injector. Take note of the o-ring color and orientation prior to removal.
+Углы * должны быть установлены в правильном порядке на топливном форсунке. Обратите внимание на цвет и ориентацию кольца перед удалением.
 
-Remove o-rings 1, 2, 3, and 4.
+Удалите кольца 1, 2, 3 и 4.
 
-Use a lint-free cloth. Clean the exterior of the injector.
+Используйте безмятежную ткань. Очистите внешний вид топливного форсунка.
 
-Carefully check the area where the sealing ring touches the injector.
+Тщательно проверьте область, где уплотнительное кольцо касается топливного форсунка.
 
-Inspect o-ring grooves for damage.
+Проверить канавки с кольцом на предмет повреждения.
 
-Inspect injector body and cup retainer for cracks or other damage.
+Проверить корпус форсунки и держатель для чашки на наличие трещин или других повреждений.
 
-Inspect injector links for excessive wear, pitting or scoring on the ball ends, and other damage.
+Осмотрите топливные форсунки для чрезмерного износа, питтинга или забивания на концах шара и других повреждений.
 
-> [!note] Note · Примечание
-> If the link is damaged or pitting and scoring can be seen or felt, the link **must** be replaced.
+> [!note] Примечание
+> Если ссылка повреждена или пробита, и результат можно увидеть или почувствовать, ссылка должна быть заменена.
 
 ![[06400387.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Use solvent when cleaning the filters. The screens **must** be thoroughly dry prior to installation.
+Используйте растворитель при очистке фильтров. Экраны должны быть полностью сухими перед установкой.
 
-Check the rail (6) and timing (7) filter screens for debris, tears, or punctures. Replace the filter screens if damaged or dirty.
+Проверьте экраны фильтров рельсов (6) и таймингов (7) на предмет наличия мусора, слез или проколов. Замените фильтры, если они повреждены или загрязнены.
 
 ![[06400009.png]]
 
-Check the rail (6) and timing (7) filter screens for proper installation.
+Проверьте экраны фильтров рельсов (6) и таймингов (7) для правильной установки.
 
-The filter screens **must** be securely snapped into the correct position.
+Экраны фильтров должны быть надежно закреплены в правильном положении.
 
 ![[06400010.png]]
 
-Use a small screwdriver to remove the filter screen by gently prying up on the connector clip.
+Используйте небольшую отвертку, чтобы удалить экран фильтра, мягко пощупывая разъемную зажимку.
 
 ![[06400011.png]]
 
-Wrap the filter screen around the inlet groove.
+Заверните экран фильтра вокруг входной канавки.
 
 ![[06400012.png]]
 
-A properly secured connector will create a single snapping sound.
+Правильно закрепленный разъем создаст один щелкающий звук.
 
-Apply pressure on the filter screen connector clip.
+Нажимайте на разъем фильтра экрана.
 
 ![[06400013.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the injector assembly with electrical contact cleaner, Part Number 3824510, or equivalent. Allow to air dry completely.
+Очистить форсунка сборкой с помощью электрического контактного очистителя, Номер детали 3824510, или эквивалент. Позвольте воздуху полностью высохнуть.
 
-Do **not** use compressed air to dry or clean the injector.
+Не используйте сжатый воздух для сушки или очистки топливного форсунка.
 
 ![[06400291.png]]
 
-Inspect the nozzle tip for damage.
+Проверьте наконечник сопла на предмет повреждения.
 
-Replace injectors with damaged nozzles that prevent fuel delivery into the combustion chamber.
+Заменить форсунка поврежденными соплами, препятствующими подаче топлива в камеру сгорания.
 
 ![[06400292.png]]
 
-Inspect the injector body for signs of corrosion, cracks, and other damage.
+Осмотрите корпус форсунки на наличие признаков коррозии, трещин и других повреждений.
 
-Inspect the o-ring grooves for damage that will **not** allow the o-rings to seal properly.
+Осмотрите канавки с кольцом на предмет повреждения, которое **не** позволит кольцам правильно запечатать.
 
 ![[06400293.png]]
 
-Inspect the T-fitting on top of the injector where the injector supply lines attach.
+Осмотрите Т-образную установку поверх форсунки, где прикреплены линии подачи форсунки.
 
-Inspect for corrosion, cracks, and other damage that does **not** allow proper sealing of the injector supply lines.
+Проверка на коррозию, трещины и другие повреждения, которые не позволяют правильно уплотнить линии подачи топливного форсунка.
 
-Replace damaged injectors.
+Заменить поврежденный форсунка.
 
 ![[06400294.png]]
 
-Inspect the o-ring/damper for wear, cracks, and other damage. Replace if damaged.
+Осмотрите кольцо / демпфер на износ, трещины и другие повреждения. Заменить, если поврежден.
 
-If the valve cover shows signs of oil leakage around the injector, replace the o-ring/damper.
+Если в клапанном узле крышки имеются признаки утечки масла вокруг топливного форсунка, замените кольцо/заслон.
 
-Inspect the injector wiring for damage to the wires, shrink tubing, elbow, and connector.
+Осмотрите проводку топливного форсунка на предмет повреждения проводов, термоусадочной трубки, локтя и разъема.
 
 ![[06400296.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-Do **not** lubricate the o-rings until the injector is ready for installation in the cylinder head.
+**не** смазывать кольца до тех пор, пока форсунка не будет готов к установке в головке цилиндра.
 
-Install four new o-rings on the injector. Do **not** twist the o-rings.
+Установите четыре новых кольца на форсунка. Не надо крутить кольца.
 
-O-ring (1) is brown and is smaller in diameter than the other three.
+О-кольцо (1) коричневое и меньше по диаметру, чем остальные три.
 
-O-ring (2) is green.
+О-кольцо (2) - зеленое.
 
-O-ring (3) is light blue and is larger in diameter than (1), but has a smaller cross section than o-ring (4).
+О-кольцо (3) светло-голубое и больше по диаметру, чем (1), но имеет меньшее поперечное сечение, чем о-кольцо (4).
 
-O-ring (4) is black and is the largest in diameter and cross section.
+О-кольцо (4) является черным и является самым большим по диаметру и сечению.
 
 ![[06400387.png]]
 
-Install a new, proper thickness sealing ring which corresponds to the cylinder location noted during removal.
+Установите новое уплотнительное кольцо с надлежащей толщиной, которое соответствует местоположению цилиндра, указанному во время удаления.
 
-> [!note] Note · Примечание
-> If installing an injector for the first time into a resurfaced cylinder head, use the following procedure to determine proper sealing ring thickness. [[20-002-022 — Injector Protrusion|Refer to Procedure 002-022 in Section 2.]]
+> [!note] Примечание
+> Если установка форсунки впервые в головку всплывшего цилиндра, используйте следующую процедуру для определения надлежащей толщины уплотнительного кольца.[[20-002-022 — Injector Protrusion|См. процедуру 002-022 в разделе 2.]]
 
 ![[06400386.png]]
 
-Use clean lubricating engine oil (15W-40) to lubricate the o-rings.
+Используйте чистое смазочное моторное масло (15W-40) для смазки колец.
 
 ![[06400014.png]]
 
-Install the hold-down clamp on the side of the injector.
+Установите зажим удерживания на боковой стороне форсунки.
 
-Install the injector and hold-down clamp in the cylinder head.
+Установите форсунка и удерживающий зажим в головке цилиндра.
 
-> [!note] Note · Примечание
-> If the injector installation tool, Part Number 3824830, is **not** available, use a 40 mm \[1 9/16 in\] socket with an extension and a rubber mallet to install the injector.
+> [!note] Примечание
+> Если инструмент установки форсунки, номер детали 3824830, недоступна, используйте 40 мм \[1 9/16 в\] розетку с расширением и резиновым молотком для установки форсунки.
 
-Use injector installation tool, Part Number 3824830, to set the injector in the bore.
+Используйте инструмент установки форсунки, номер детали 3824830, для установки форсунки в цилиндр.
 
-The slide hammer will make a dull sound when the injector is seated properly.
+Молот скольжения издаст тупой звук, когда форсунка будет правильно установлен.
 
 ![[06400016.png]]
 
-Use clean engine oil to lubricate the injector hold-down capscrew.
+Используйте чистое моторное масло для смазки топливных форсунок удерживающих болтов.
 
-Install and tighten the injector hold-down capscrew.
+Установите и затяните затворы удерживания форсунки.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
 ![[06400365.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Install the new o-ring/damper on the injector.
+Установите новое кольцо/заглушку на форсунка.
 
 ![[06600270.png]]
 
-Install the new o-rings on the injector body.
+Установите новые кольца на корпус форсунки.
 
 ![[06400289.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Не используйте повторно топливные форсунки для удерживания или уплотнение для сгорания топливного форсунка. Повторное использование этих компонентов может привести к повреждению двигателя.
 
-Install the new seal on the end of the injector.
+Установите новое уплотнение на конце форсунки.
 
 ![[06400379.png]]
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> Keep the injector bore and combustion chamber protected when using compressed air to prevent contamination. Failure to do so can cause engine damage.
+> [!warning] ОСТОРОЖНО
+> Держите форсунка цилиндра и камеру сгорания защищенными при использовании сжатого воздуха для предотвращения загрязнения. Неспособность сделать это может привести к повреждению двигателя.
 
-> [!warning] CAUTION · Осторожно
-> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Не используйте повторно топливные форсунки для удерживания или уплотнение для сгорания топливного форсунка. Повторное использование этих компонентов может привести к повреждению двигателя.
 
-> [!note] Note · Примечание
-> On applications with high drain line head pressure, such as a fuel tank mounted higher than the engine, it is possible for fuel to leak from the drain line into the cylinder when the injector is removed. Prior to installing the injector, check for fuel dripping into the cylinder and evacuate the fuel before installing the injector.
+> [!note] Примечание
+> На приложениях с высоким давлением на головке дренажной линии, таких как топливный бак, установленный выше, чем двигатель, топливо может просачиваться из дренажной линии в цилиндр, когда форсунка удаляется. Перед установкой форсунки проверьте, чтобы топливо капало в цилиндр и эвакуировало топливо перед установкой форсунки.
 
-Clean the injector bore in the cylinder head with electrical contact cleaner, Part Number 3824510, or equivalent, to make sure the o-rings will seal properly.
+Очистите форсунканый цилиндр, который находится в головке цилиндра, электрическим контактным очистителем, Номер детали 3824510 или эквивалентом, чтобы убедиться, что кольца будут правильно герметизироваться.
 
-Clean the threaded hole in the cylinder head where the injector hold-down capscrew will be installed with electrical contact cleaner, Part Number 3824510, or equivalent, and compressed air.
+Очистите резьбовое отверстие в головке цилиндра, где топливные форсунки будут установлены с электрическим контактным очистителем, Номер детали 3824510 или эквивалентом, и сжатым воздухом.
 
 ![[06400364.png]]
 
-Lubricate the threads and underside of the new injector hold-down capscrew with clean lubricating engine oil.
+Смазать резьбу и нижнюю часть новых топливных форсунок с помощью чистого смазочного моторного масла.
 
 ![[06400365.png]]
 
-Lubricate all of the o-rings with a light coating of clean lubricating engine oil.
+Смазать все кольца легким покрытием из чистого смазочного моторного масла.
 
 ![[06400366.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Не используйте повторно топливные форсунки для удерживания или уплотнение для сгорания топливного форсунка. Повторное использование этих компонентов может привести к повреждению двигателя.
 
-Assemble the injector hold-down clamp and capscrew into the injector.
+Соберите зажим и болты форсунки в форсунка.
 
 ![[06s00062.png]]
 
-> [!warning] CAUTION · Осторожно
-> Only use a soft face mallet. Otherwise damage to the injector can occur.
+> [!warning] ОСТОРОЖНО
+> Используйте только мягкий лицевой молоток. В противном случае может произойти повреждение форсунки.
 
-The injector installer can be used on single or multiple injector installations.
+Установщик форсунки может использоваться на одиночных или нескольких топливных форсуночных установках.
 
-Install the assembly into the cylinder head by tapping gently on the injector with a soft face mallet.
+Установите сборку в головку цилиндра, мягко постукивая по топливной форсунке мягким лицевым молотком.
 
 ![[06400368.png]]
 
-Assemble the injector installer kit, Part Number 4918620. Hand tighten the three shoulder capscrews.
+Соберите комплект установки форсунки, номер детали 4918620. Рука затягивает три плечевых болта.
 
 ![[06400369.png]]
 
-Place the injector installer on the injector such that the ball spring plunger is on the tapered side of the injector (1). If necessary, adjust the ball spring plunger so that it presses against the injector. Make sure the flat side of the injector (2) sits flush with the injector installer.
+Поместите установщик форсунки на форсунка таким образом, чтобы шаровой пружинный плунжер находился на конической стороне форсунки (1). При необходимости отрегулировать шаровой пружинный плунжер так, чтобы он прижимался к топливному форсунке. Убедитесь, что плоская сторона форсунки (2) находится в промывке с установщиком форсунки.
 
 ![[06400370.png]]
 
-Align the injector installer with two injectors.
+Выровнять установщик форсунки с двумя топливными форсунками.
 
 ![[06400371.png]]
 
-Tighten the injector hold-down capscrews.
+Затянуть затворы форсунки.
 
-The 60 degree torque angle can be achieved at the capscrew by marking the location of one corner of the capscrew to a location on the injector hold-down clamp.
+Угол крутящего момента 60 градусов может быть достигнут на болтах путем маркировки местоположения одного угла болтов на месте на зажиме удерживания форсунки.
 
-Tighten to:
+Подтянуться к:
 
-> [!tip] Момент затяжки · Torque Value
-> 68 n•m [50 ft-lb]
+> [!tip] Момент затяжки
+> 68 Н·м [50 фунт-фут]
 
-Back off completely.
+Отойди полностью.
 
-Tighten to:
+Подтянуться к:
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
-Rotate the capscrew 60 degrees.
+Поверните болты на 60 градусов.
 
-Remove the injector installer.
+Удалите установщик форсунки.
 
 ![[06400297.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-- Install the rocker lever assembly. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
-- Adjust the valves and injectors. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-- Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Operate the engine and check for leaks.
+- Установите клапанный клапанный крепеж.[[20-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]]
+- Регулируйте клапаны и форсунка.[[20-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
+- Установите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-- Adjust the valves. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-- Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Remove the protective plugs, Part Number [[4918767]].
-- Install the injector supply lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-- Operate the engine and check for leaks.
+- Отрегулируйте клапаны.[[20-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
+- Установите крышку коромысел.[[20-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Удалите защитные заглушки, номер детали[[4918767]].
+- Установите линии подачи форсунки.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
@@ -642,3 +652,473 @@ with Electronically Actuated Injector
 | [[3678610]] | THREADED PLUG | Резьбовая пробка |
 | [[3963990]] | SEALING WASHER | Уплотнительная шайба |
 | [[4918767]] | Protective Plug | Защитная пробка |
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> with Mechanically Actuated Injector
+>
+> The injector consists of the following components:
+>
+> 1. Sealing ring
+> 2. O-ring (brown, small)
+> 3. O-ring (green)
+> 4. O-ring (light blue)
+> 5. O-ring (black, large)
+> 6. Capscrew
+> 7. Injector hold-down clamp
+> 8. Injector.
+>
+> with Electronically Actuated Injector
+>
+> The injector consists of the following components:
+>
+> 1. O-ring and damper
+> 2. Capscrew
+> 3. Injector hold-down clamp
+> 4. Seal
+> 5. O-rings
+> 6. Injector.
+>
+> ### Initial Check
+>
+> with Mechanically Actuated Injector
+>
+> Misfire Using Heat Indicator Marker
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **Note · Примечание**
+> This procedure is **not** effective when the symptoms occur **only** at low idle or when the engine is cold.
+>
+> If the engine exhibits symptoms of an injector **not** firing, perform the following check:
+>
+> - Operate the engine to normal operating coolant temperature of 80°C \[180°F\].
+> - Stop the engine and allow the exhaust manifold to cool for 10 minutes.
+> - Use a 204°C \[400°F\] temperature indicator marker, Part Number 3165163, or equivalent, to apply a mark (1) on the surface of all exhaust manifold ports. The mark **must** be as close to the cylinder head as possible, but **not** directly on the exhaust manifold mounting flange.
+> - Start the engine and operate under light load for a short time. Do **not** operate the engine under heavy load or for an extended period of time, as this can cause inaccurate results.
+>
+> **Note · Примечание**
+> It is not recommended to use the temperature indicator markers to troubleshoot for cylinders that are operating too hot.
+>
+> If the 204°C \[400°F\] mark melts (1) the color will disappear and leave **only** a transparent glazed appearance where the mark was. This indicates that the cylinder is operating at a temperature above 204°C \[400°F\].
+>
+> If the 204°C \[400°F\] mark does **not** melt (2), the mark color remains present. This indicates that the cylinder is **not** operating at a temperature of 204°C \[400°F\], indicating a possible injector malfunction.
+>
+> **CAUTION · Осторожно**
+> This tool is not intended to be used above the engine idle speed. Do not use above 900 rpm engine speed. Doing so can damage the engine. Start and operate the engine until the coolant temperature reaches the normal range of 80°C \[180°F\]. Shut the engine off.
+>
+> Misfire Using Injector Cutout Tool
+>
+> Start and operate the engine until the coolant temperature reaches the normal range of 80°C \[180°F\].
+>
+> Shut the engine OFF.
+>
+> Use a 12-mm hex socket or Allen wrench to remove the existing plug from the top side of the cast iron valve cover.
+>
+> Screw the single injector diagnostic cut-out tool **clockwise** into the threaded hole in the valve cover until it bottoms out on the valve cover.
+>
+> **CAUTION · Осторожно**
+> This tool is not intended to be used above the engine idle speed. Do not use above 900 rpm engine speed. Doing so can damage the engine.
+>
+> Install a 0 to 207 kPa \[0 to 30 psi\] pressure gauge on the Compuchek™ fitting located at the front of the block.
+>
+> Start and operate engine at idle speed for approximately 1 minute.
+>
+> - Record the fuel rail pressure reading.
+>
+> Rotate the single-injector diagnostic cut-out tool **counterclockwise** until it is approximately 13 mm \[½ inch\] clear of the valve cover.
+>
+> - Note the fuel rail pressure reading.
+>
+> If the cylinder being tested is working properly, the fuel rail pressure can decrease on reading number 2.
+>
+> If the cylinder being tested is weak or **not** firing, the fuel rail pressure will **not** change between reading number 1 and number 2.
+>
+> Shut the engine OFF.
+>
+> Repeat the above steps in different rocker lever covers until the faulty injector is found.
+>
+> Replace the malfunctioning injector(s).
+>
+> After engine diagnostic testing, remove the single-injector diagnostic cut-out tool from the valve cover and install the plug.
+>
+> Tighten the plug.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Check the injectors when it is suspected they were run dry (without fuel).
+>
+> Remove the rocker lever covers and check to be sure all of the injector links are intact. If they are intact, install the covers and follow the normal injector inspection procedure. If they are **not** intact, follow the injector inspection step in this procedure.
+>
+> Warm up the engine by running at high idle to stabilize the exhaust temperature. If the exhaust temperatures are within 38°C or 68°F, all injectors are firing and working correctly.
+>
+> with Electronically Actuated Injector
+>
+> Misfire Using Injector Tester Tool
+>
+> **Note · Примечание**
+> This test **must** be performed with the engine shut down for at least 5 minutes.
+>
+> **Note · Примечание**
+> If the engine is equipped with CM2150 engine control modules (ECMs) (1), cover the plug with a lint-free cloth. Slowly loosen the plug on the last injector of the high-pressure fuel lines 1/4 to 1/2 turn. The plug does **not** need to be removed to relieve the pressure. Connect INSITE™ electronic service tool and verify the fuel pressure has bled down by monitoring the fuel rail pressure.
+>
+> If the engine exhibits symptoms of an injector **not** firing, perform the following check using the injector tester (1)(2), Part Number 2892293:
+>
+> 1. Plug the tool harness into the injector tester tool via the 4-pin connector.
+> 2. Plug the tool harness into the engine harness via the 9-pin connector.
+> 3. Verify injector tester tool yellow READY light is illuminated. If **not**, verify the power supply to the 9-pin connector. If illuminated, proceed.
+> 4. Turn keyswitch ON.
+> 5. Plug the tool harness into the injector via the 2-pin connector.
+> 6. Fully depress and release the injector tester tool PRESS TO TEST button.
+>
+> - If a green PASS light is illuminated, the injector is functioning.
+> - If a red FAIL light is illuminated, the injector is failed and **must** be replaced.
+>
+> Repeat steps 5 and 6 until all injectors have been tested.
+>
+> Misfire Using Injector Cutout Tool
+>
+> Use INSITE™ electronic service tool to perform the Cylinder Cutout Test on engines with electronically actuated injectors. See INSITE™ electronic service tool manual for instructions.
+>
+> Check the injectors when it is suspected they were run dry (without fuel).
+>
+> Remove the rocker lever covers and check to be sure all of the injector links are intact. If they are intact, install the covers and follow the normal injector inspection procedure. If they are **not** intact, follow the injector inspection step in this procedure.
+>
+> Warm up the engine by running at high idle to stabilize the exhaust temperature. If the exhaust temperatures are within 38°C or 68°F, then all injectors are firing and working correctly.
+>
+> ### High-Pressure Injector Return Flow Test
+>
+> with Electronically Actuated Injector
+>
+> Remove the banjo bolt (1) from the fuel injector drain line at the fuel return manifold. Install the fuel drain fitting and hose, Part Numbers 3164614 and 2892248, in place of the banjo bolt.
+>
+> Place the end of the fuel injector drain line fuel return flow hose in a graduated cylinder with at least 100 ml \[3.4 oz\] capacity to collect return flow.
+>
+> Unplug all six of the injector connectors and crank the engine at least 150 rpm for 30 seconds.
+>
+> **Note · Примечание**
+> Do **not** crank the engine for more than 30 seconds; otherwise damage to the starter may occur. Wait 5 minutes before the test is repeated.
+>
+> | Flow Specification: Engine Cranking |  |
+> |---|---|
+> | 19L (Six Injectors) | 75 ml per 30 seconds \[2.5 fl-oz per 30 seconds\] maximum |
+>
+> If fuel flow is greater than specification, it is necessary to perform the Injector Isolation Test described below.
+>
+> ### High-Pressure Injector Return Flow Isolation Test
+>
+> with Electronically Actuated Injector
+>
+> Remove the fuel drain manifold banjo bolts and remove both pieces of the fuel drain manifold. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+>
+> **Note · Примечание**
+> Marine engines will have to remove the intake manifold to gain access to the drain manifold. [[20-010-023-tr — Air Intake Manifold|Refer to Procedure 010-023 in Section 10.]] [[20-010-019-tr — Air Crossover|Refer to Procedure 010-019 in Section 10.]]
+>
+> Install a fuel drain test fitting and sealing washer, Part Numbers 2892297 and [[3963990]], into each of the cylinder heads.
+>
+> Slide a hose over the nipple on each of the fuel drain test fittings and route it to a graduated cylinder with at least 100 ml \[3.4 oz\] capacity.
+>
+> Install threaded plug, Part Number [[3678610]], into the fuel drain block.
+>
+> Unplug all six of the injector connectors and crank the engine at least 150 rpm for 30 seconds.
+>
+> **Note · Примечание**
+> Do **not** crank the engine for more than 30 seconds; otherwise damage to the starter may occur. Wait 5 minutes before the test is repeated.
+>
+> Record the amount of fuel collected from each of the cylinders.
+>
+> | Flow Specification: Engine Cranking |  |
+> |---|---|
+> | 19L (One Injector) | 15 ml per 30 seconds \[0.5 fl-oz per 30 seconds\] maximum |
+>
+> Replace the injector on any cylinder that has more leakage than specified.
+>
+> If any injectors were replaced, repeat the test on all of the six cylinders until all cylinders have less flow than specified.
+>
+> Remove the fuel drain hoses and test fittings and reassemble the fuel drain lines. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+>
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Depending on the circumstance, fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
+>
+> **CAUTION · Осторожно**
+> Do not spill or drain fuel into the bilge area when disconnecting or removing fuel lines, replacing filters, and priming the fuel system. Do not drop or throw filter elements into the bilge area. The fuel and fuel filters must be disposed of in accordance with local environmental regulations.
+>
+> - Remove the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Remove the rocker lever assembly. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Depending on the circumstance, fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
+>
+> **CAUTION · Осторожно**
+> Do not spill or drain fuel into the bilge area when disconnecting or removing fuel lines, replacing filters, and priming the fuel system. Do not drop or throw filter elements into the bilge area. The fuel and fuel filters must be disposed of in accordance with local environmental regulations.
+>
+> - Remove the injector supply lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Install the injector protective plugs, Part Number [[4918767]].
+> - Remove the two-piece valve cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> The hold-down clamp can **not** be removed until the injector is removed.
+>
+> Remove the injector hold-down capscrew. Remove the injector and clamp.
+>
+> Use injector puller, Part Number 3823579, or equivalent, to remove the injectors. Insert the pin of the tool in the hole provided in the body of the injector. The hole faces the front of the engine.
+>
+> **Note · Примечание**
+> If the injector puller is **not** available, carefully use a pry bar. Pry upward on the injector against the cylinder head.
+>
+> Cover the injection bore to prevent foreign objects from entering the cylinder.
+>
+> with Electronically Actuated Injector
+>
+> **Note · Примечание**
+> Do **not** reuse protective plugs. The protective plugs **must** be used immediately upon removal from the plastic wrapping. If they are **not** used immediately, the protective plugs **must** be discarded. If the protective plugs are fouled in any manner before use, the protective plugs **must** be discarded and a new set used.
+>
+> If **not** already completed, plug the ports in each side of the injector T-piece with the injector protective plugs, before removing the injector. Make sure that the plugs are wedged firmly into place. This will prevent debris from entering and causing damage to the injector.
+>
+> **CAUTION · Осторожно**
+> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+>
+> **Note · Примечание**
+> On applications with high drain line head pressure, such as a fuel tank mounted higher than the engine, shut off the fuel drain line valve and evacuate the fuel drain line of fuel before removing the injector.
+>
+> Remove and discard the injector hold-down capscrew.
+>
+> Use a heel bar to remove the injector. Place the heel between the injector body and the exhaust rocker lever and gently pry the injector from the injector bore.
+>
+> **Note · Примечание**
+> On applications with high drain line head pressure, such as a fuel tank mounted higher than the engine, it is possible for fuel to leak from the drain line into the cylinder when the injector is removed. After removing the injector, check for fuel dripping into the cylinder and evacuate the fuel before continuing in the removal procedure.
+>
+> Cover the injector bore in the cylinder head to prevent foreign objects from entering and causing damage to the bore and combustion chamber.
+>
+> Remove and discard the seal on the end of the injector.
+>
+> Remove and discard the two o-rings on the injector.
+>
+> Do **not** remove the o-ring/damper at this time.
+>
+> ### Clean and Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> Use a lint-free cloth to clean the exterior of the injector.
+>
+> Remove the sealing ring. Note cylinder location and thickness.
+>
+> Discard sealing ring
+>
+> **Note · Примечание**
+> Oversize sealing rings are available to adjust injector protrusion in resurfaced and Recon® cylinder heads. [[20-002-022 — Injector Protrusion|Refer to Procedure 002-022 in Section 2.]]
+>
+> **Note · Примечание**
+> Recon® cylinder heads are marked to identify which sealing ring should be used. [[20-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
+>
+> The o-rings **must** be installed in the correct order on the injector. Take note of the o-ring color and orientation prior to removal.
+>
+> Remove o-rings 1, 2, 3, and 4.
+>
+> Use a lint-free cloth. Clean the exterior of the injector.
+>
+> Carefully check the area where the sealing ring touches the injector.
+>
+> Inspect o-ring grooves for damage.
+>
+> Inspect injector body and cup retainer for cracks or other damage.
+>
+> Inspect injector links for excessive wear, pitting or scoring on the ball ends, and other damage.
+>
+> **Note · Примечание**
+> If the link is damaged or pitting and scoring can be seen or felt, the link **must** be replaced.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Use solvent when cleaning the filters. The screens **must** be thoroughly dry prior to installation.
+>
+> Check the rail (6) and timing (7) filter screens for debris, tears, or punctures. Replace the filter screens if damaged or dirty.
+>
+> Check the rail (6) and timing (7) filter screens for proper installation.
+>
+> The filter screens **must** be securely snapped into the correct position.
+>
+> Use a small screwdriver to remove the filter screen by gently prying up on the connector clip.
+>
+> Wrap the filter screen around the inlet groove.
+>
+> A properly secured connector will create a single snapping sound.
+>
+> Apply pressure on the filter screen connector clip.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the injector assembly with electrical contact cleaner, Part Number 3824510, or equivalent. Allow to air dry completely.
+>
+> Do **not** use compressed air to dry or clean the injector.
+>
+> Inspect the nozzle tip for damage.
+>
+> Replace injectors with damaged nozzles that prevent fuel delivery into the combustion chamber.
+>
+> Inspect the injector body for signs of corrosion, cracks, and other damage.
+>
+> Inspect the o-ring grooves for damage that will **not** allow the o-rings to seal properly.
+>
+> Inspect the T-fitting on top of the injector where the injector supply lines attach.
+>
+> Inspect for corrosion, cracks, and other damage that does **not** allow proper sealing of the injector supply lines.
+>
+> Replace damaged injectors.
+>
+> Inspect the o-ring/damper for wear, cracks, and other damage. Replace if damaged.
+>
+> If the valve cover shows signs of oil leakage around the injector, replace the o-ring/damper.
+>
+> Inspect the injector wiring for damage to the wires, shrink tubing, elbow, and connector.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> Do **not** lubricate the o-rings until the injector is ready for installation in the cylinder head.
+>
+> Install four new o-rings on the injector. Do **not** twist the o-rings.
+>
+> O-ring (1) is brown and is smaller in diameter than the other three.
+>
+> O-ring (2) is green.
+>
+> O-ring (3) is light blue and is larger in diameter than (1), but has a smaller cross section than o-ring (4).
+>
+> O-ring (4) is black and is the largest in diameter and cross section.
+>
+> Install a new, proper thickness sealing ring which corresponds to the cylinder location noted during removal.
+>
+> **Note · Примечание**
+> If installing an injector for the first time into a resurfaced cylinder head, use the following procedure to determine proper sealing ring thickness. [[20-002-022 — Injector Protrusion|Refer to Procedure 002-022 in Section 2.]]
+>
+> Use clean lubricating engine oil (15W-40) to lubricate the o-rings.
+>
+> Install the hold-down clamp on the side of the injector.
+>
+> Install the injector and hold-down clamp in the cylinder head.
+>
+> **Note · Примечание**
+> If the injector installation tool, Part Number 3824830, is **not** available, use a 40 mm \[1 9/16 in\] socket with an extension and a rubber mallet to install the injector.
+>
+> Use injector installation tool, Part Number 3824830, to set the injector in the bore.
+>
+> The slide hammer will make a dull sound when the injector is seated properly.
+>
+> Use clean engine oil to lubricate the injector hold-down capscrew.
+>
+> Install and tighten the injector hold-down capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> Install the new o-ring/damper on the injector.
+>
+> Install the new o-rings on the injector body.
+>
+> **CAUTION · Осторожно**
+> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+>
+> Install the new seal on the end of the injector.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Keep the injector bore and combustion chamber protected when using compressed air to prevent contamination. Failure to do so can cause engine damage.
+>
+> **CAUTION · Осторожно**
+> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+>
+> **Note · Примечание**
+> On applications with high drain line head pressure, such as a fuel tank mounted higher than the engine, it is possible for fuel to leak from the drain line into the cylinder when the injector is removed. Prior to installing the injector, check for fuel dripping into the cylinder and evacuate the fuel before installing the injector.
+>
+> Clean the injector bore in the cylinder head with electrical contact cleaner, Part Number 3824510, or equivalent, to make sure the o-rings will seal properly.
+>
+> Clean the threaded hole in the cylinder head where the injector hold-down capscrew will be installed with electrical contact cleaner, Part Number 3824510, or equivalent, and compressed air.
+>
+> Lubricate the threads and underside of the new injector hold-down capscrew with clean lubricating engine oil.
+>
+> Lubricate all of the o-rings with a light coating of clean lubricating engine oil.
+>
+> **CAUTION · Осторожно**
+> Do not reuse the injector hold-down capscrew or injector combustion seal. The reuse of those components can result in engine damage.
+>
+> Assemble the injector hold-down clamp and capscrew into the injector.
+>
+> **CAUTION · Осторожно**
+> Only use a soft face mallet. Otherwise damage to the injector can occur.
+>
+> The injector installer can be used on single or multiple injector installations.
+>
+> Install the assembly into the cylinder head by tapping gently on the injector with a soft face mallet.
+>
+> Assemble the injector installer kit, Part Number 4918620. Hand tighten the three shoulder capscrews.
+>
+> Place the injector installer on the injector such that the ball spring plunger is on the tapered side of the injector (1). If necessary, adjust the ball spring plunger so that it presses against the injector. Make sure the flat side of the injector (2) sits flush with the injector installer.
+>
+> Align the injector installer with two injectors.
+>
+> Tighten the injector hold-down capscrews.
+>
+> The 60 degree torque angle can be achieved at the capscrew by marking the location of one corner of the capscrew to a location on the injector hold-down clamp.
+>
+> Tighten to:
+>
+> **Момент затяжки · Torque Value**
+> 68 n•m [50 ft-lb]
+>
+> Back off completely.
+>
+> Tighten to:
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> Rotate the capscrew 60 degrees.
+>
+> Remove the injector installer.
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Install the rocker lever assembly. [[20-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3.]]
+> - Adjust the valves and injectors. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+> - Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Operate the engine and check for leaks.
+>
+> with Electronically Actuated Injector
+>
+> - Adjust the valves. [[20-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+> - Install the rocker lever cover. [[20-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Remove the protective plugs, Part Number [[4918767]].
+> - Install the injector supply lines. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+> - Operate the engine and check for leaks.

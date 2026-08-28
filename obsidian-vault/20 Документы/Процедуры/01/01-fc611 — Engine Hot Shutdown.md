@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc611.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc611.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Engine Hot Shutdown
@@ -34,26 +36,58 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc611.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc611.pdf)
 
-### Fault Code: 611
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Hot Shutdown
 
-Printable Version
+### Код неисправности: 611
 
-### Overview
+### Останов горячего двигателя
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 611 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine hot shutdown. Engine shutdown by operator before proper engine cooldown. | No action taken by the ECM. Possible loss of performance. Possible damage to engine can occur. |
+| Код неисправности: 611 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Останов горячего двигателя. Отключение двигателя оператором перед надлежащим охлаждением двигателя. | Никаких действий со стороны ЕКМ не предпринималось. Возможная потеря производительности. Возможные повреждения двигателя могут произойти. |
 
 ![[19802494.png]]
 
-### Circuit Description
+### Описание цепи
 
-nonapplicable for this fault code
+Неприменимость к коду неисправности
 
-### Component Location
+### Расположение компонента
 
-nonapplicable for this fault code
+Неприменимость к коду неисправности
 
-Refer to Troubleshooting Fault Code t05-611
+Устранение неполадок код t05-611
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 611
+>
+> ### Engine Hot Shutdown
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 611 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine hot shutdown. Engine shutdown by operator before proper engine cooldown. | No action taken by the ECM. Possible loss of performance. Possible damage to engine can occur. |
+>
+> ### Circuit Description
+>
+> nonapplicable for this fault code
+>
+> ### Component Location
+>
+> nonapplicable for this fault code
+>
+> Refer to Troubleshooting Fault Code t05-611

@@ -15,13 +15,15 @@ manuals:
   - "4021617"
   - "4021618"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-206-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-206-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # System Identification
@@ -35,19 +37,42 @@ tags:
 > **Даты:** изменён 2007-03-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-206-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-206-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Общие сведения
 
 ![[00600369.png]]
 
-Marine C Command Elite Panel System
+Система управления элитной панелью Marine C Command Elite Panel System
 
-1. Customer interface box
-2. Remote panels.
+1. Интерфейсная коробка заказчика
+2. Дистанционные панели.
 
 ![[00600370.png]]
 
-Marine C Command Elite Plus Panel System
+Панельная система Marine C Command Elite Plus
 
-1. Customer interface box
-2. Remote panels
-3. C Command Elite Plus sensors and harness.
+1. Интерфейсная коробка заказчика
+2. Дистанционные панели
+3. C Command Elite Plus датчики и проводка жгута.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Marine C Command Elite Panel System
+>
+> 1. Customer interface box
+> 2. Remote panels.
+>
+> Marine C Command Elite Plus Panel System
+>
+> 1. Customer interface box
+> 2. Remote panels
+> 3. C Command Elite Plus sensors and harness.

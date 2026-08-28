@@ -22,7 +22,8 @@ families:
 parts:
   - "5376162"
   - "5417137"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180084.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180084.pdf"
 tags:
@@ -31,6 +32,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QSK50"
   - "год/2018"
+  - "перевод/машинный"
   - "тема/fuel-systems-pumps"
 ---
 
@@ -44,44 +46,52 @@ tags:
 > **Даты:** выпущен 2018-06-18 · изменён 2018-06-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180084.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180084.pdf)
 
-## New Stage 2 Fuel Filter
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый топливный фильтр 2-й ступени
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - QSK19 CM850
 - QSK19 CM2150
-- QSK38 CM850
-- QSK38 CM2150
+- QSK38 M850
+- QSK38 M2150
 - QSK50 CM850
 - QSK50 CM2150
 - QSK60 CM850
 - QSK60 CM2150
 
-**Description of Change**
+**Описание изменения**
 
-This document announces a new stage 2 fuel filter that is designed to increase fuel filter life by reducing filter plugging from carboxylates and chemical contamination, while maintaining optimal protection against hard particles. This fuel filter also improves robustness of the center tube resulting in an increased filter collapse strength.
+В этом документе анонсирован новый топливный фильтр 2-й стадии, который предназначен для увеличения срока службы топливного фильтра за счет уменьшения засоряемости фильтра от карбоксилатов и химического загрязнения, при сохранении оптимальной защиты от твердых частиц. Этот топливный фильтр также улучшает прочность центральной трубки, что приводит к увеличению прочности на обрушение фильтра.
 
-**Service Instructions**
+**Указания по обслуживанию**
 
-For customers who are **not** reaching published fuel filter maintenance intervals using existing fuel filter part number, use new fuel filter part number.
+Для клиентов, которые не достигли установленных интервалов обслуживания топливного фильтра с использованием существующего номера части топливного фильтра, используйте новый номер детали топливного фильтра.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-Service parts are available. See Table 1 for part numbers.
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
 
-| Table 1, Service Parts |  |  |  |  |  |  |
+| Таблица 1, Части обслуживания |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|
-| Part Description | Existing Part Number | Existing Cummins Filtration® Part Number | Obsolete | Superseded | New Part Number | New Cummins Filtration® Part Number |
-| Fuel Filter | 2881458 | FF5782 | Yes | Yes | [[5417137]] | FF5782 NN |
-| Fuel Filter Decal | 4309874 | 398241800 | Yes | Yes | [[5376162]] | OS00844 |
+| Часть описание | Существующий номер детали | Существующий фильтр Cummins Part Number | устарелый | Заменённый | Новый номер детали | Новый фильтр Cummins® Part Number |
+| Топливный фильтр | 2881458 | FF5782 | Да | Да | [[5417137]] | FF5782 NN |
+| Фильтр топлива Decal | 4309874 | 398241800 | Да | Да | [[5376162]] | OS00844 |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -89,3 +99,43 @@ Service parts are available. See Table 1 for part numbers.
 |---|---|---|
 | [[5376162]] | INFORMATION DECAL | Информационная наклейка |
 | [[5417137]] | FUEL FILTER | Топливный фильтр |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Stage 2 Fuel Filter
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - QSK19 CM850
+> - QSK19 CM2150
+> - QSK38 CM850
+> - QSK38 CM2150
+> - QSK50 CM850
+> - QSK50 CM2150
+> - QSK60 CM850
+> - QSK60 CM2150
+>
+> **Description of Change**
+>
+> This document announces a new stage 2 fuel filter that is designed to increase fuel filter life by reducing filter plugging from carboxylates and chemical contamination, while maintaining optimal protection against hard particles. This fuel filter also improves robustness of the center tube resulting in an increased filter collapse strength.
+>
+> **Service Instructions**
+>
+> For customers who are **not** reaching published fuel filter maintenance intervals using existing fuel filter part number, use new fuel filter part number.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|
+> | Part Description | Existing Part Number | Existing Cummins Filtration® Part Number | Obsolete | Superseded | New Part Number | New Cummins Filtration® Part Number |
+> | Fuel Filter | 2881458 | FF5782 | Yes | Yes | [[5417137]] | FF5782 NN |
+> | Fuel Filter Decal | 4309874 | 398241800 | Yes | Yes | [[5376162]] | OS00844 |
+>
+> ### Document History

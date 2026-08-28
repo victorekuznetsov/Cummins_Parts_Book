@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021442"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-087.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-019-087.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/07"
+  - "перевод/машинный"
 ---
 
 # Unswitched Battery Supply Circuit
@@ -34,79 +36,152 @@ tags:
 > **Даты:** изменён 2003-12-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-087.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-019-087.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The Electronic Control Module (ECM) receives constant voltage from the batteries through the unswitched battery wires connected directly to the (+) positive battery post.
 
-There are two in-line 10-ampere fuses in the unswitched battery wires to protect the ECM.
+### Общие сведения
+
+Электронный модуль управления (ECM) получает постоянное напряжение от батарей через непереключенные провода батареи, подключенные непосредственно к (+) положительному посту батареи.
+
+В непереключенных проводах батареи есть два встроенных 10-амперных предохранителя для защиты ECM.
 
 ![[19a00746.png]]
 
-### Initial Check
+### Первичная проверка
 
-Inspect the battery cable connections for loose or corroded connections.
+Проверьте соединения кабеля батареи на наличие свободных или разъединенных соединений.
 
-If corroded, repair or replace the battery connections. Refer to the OEM manual.
+Если разъединены, ремонт или замена аккумуляторных соединений. См. руководство по OEM.
 
 ![[19400082.png]]
 
-Inspect the OEM interface harness fuse connections for loose or corroded fuses.
+Осмотрите OEM-интерфейс проводов жгутов предохранителей для рыхлых или корродированных предохранителей.
 
-If corroded, replace the fuses. Refer to Procedure [[99-019-198 — Fuse, Harness In-Line|019-198]].
+Если они повреждены, замените их на другие. См. процедуру[[99-019-198 — Fuse, Harness In-Line|019-198]].
 
-Touch one multimeter lead to each fuse terminal and measure the resistance.
+Прикосновение к одному мультиметру приводит к каждому предохранителю и измеряет сопротивление.
 
-The fuse should measure a closed circuit.
+Запал должен измерять замкнутый контур.
 
-Resistance: 10 ohms or less
+Сопротивление: 10 Ом или меньше
 
 ![[19400084.png]]
 
-Place the multimeter positive probe on the positive (+) terminal of the battery.
+Поместите многометровый положительный щуп на положительный (+) вывод батареи.
 
-Place the multimeter negative probe on the negative (-) terminal of the battery.
+Поместите многометровый отрицательный щуп на отрицательный (-) вывод батареи.
 
-Measure the battery voltage.
+Измерьте напряжение батареи.
 
-Voltage for a 12-VDC system: 9.6 to 16.0 VDC
+Напряжение для системы 12-VDC: 9.6 - 16.0 VDC
 
-If the battery voltage is below 9.6 VDC, replace the battery.
+Если напряжение батареи ниже 9,6 ВДК, замените батарею.
 
-Voltage for a 24-VDC system: 17.3 to 34.7 VDC
+Напряжение для 24-VDC системы: 17.3 - 34.7 VDC
 
-If the battery voltage is below 17.3 VDC, replace the battery.
+Если напряжение батареи ниже 17,3 ВДК, замените батарею.
 
-Refer to the OEM manual for battery replacement.
+См. руководство OEM для замены батареи.
 
 ![[19400083.png]]
 
-### Resistance Check
+### Проверка сопротивления
 
-Disconnect the engine harness connector from the ECM.
+Отсоедините разъем жгута проводов двигателя от ECM.
 
-Check for damaged pins in the ECM and the harness.
+Проверьте наличие поврежденных контактов в ECM и проводах.
 
 ![[19900781.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use probes or test leads other than Part Number 3822758, otherwise the connector will be damaged. The leads must fit tightly in the connector without expanding the pins in the connector.
+> [!warning] ОСТОРОЖНО
+> Не используйте щупы или испытательные щупы, кроме Части № 3822758, иначе разъем будет поврежден. Лиды должны плотно помещаться в разъеме без расширения штифтов в разъеме.
 
-Insert the lead into one of the four unswitched battery supply pins of the engine harness connector.
+Вставьте свинец в один из четырех непереключенных контактов питания аккумулятора разъема жгута проводов двигателя.
 
-Connect the alligator clip to the multimeter probe.
+Подключите аллигатор к многометровому щупу.
 
-Touch the other multimeter probe to the battery connection on the engine harness.
+Прикоснитесь к другому многометровому щупу к соединению батареи на ремне электропроводки двигателя.
 
-Measure the resistance.
+Измерьте сопротивление.
 
-Resistance: 10 ohms or less
+Сопротивление: 10 Ом или меньше
 
-Repeat the check from each of the remaining three unswitched battery supply pins of the engine harness connector to the battery connection on the engine harness.
+Повторите проверку от каждого из оставшихся трех непереключенных контактов питания аккумулятора разъема жгута проводов двигателя к соединению батареи на жгуте проводов двигателя.
 
 ![[19901347.png]]
 
-If more then 10 ohms are measured in any check, there is an open circuit. Repair or replace the engine harness.
+Если в любой проверке измеряется более 10 Ом, то имеется открытая схема. Ремонт или замена ремня электропроводки двигателя.
 
-Refer to Procedures [[07-019-043 — Engine Wiring Harness|019-043]], [[99-019-197 — Ring Terminal|019-197]], [[99-019-199 — Connector, Butt Splice|019-199]], and [[99-019-204 — Deutsch DRC Connector Series|019-204]].
+См. процедуры[[07-019-043 — Engine Wiring Harness|019-043]],[[99-019-197 — Ring Terminal|019-197]],[[99-019-199 — Connector, Butt Splice|019-199]]и[[99-019-204 — Deutsch DRC Connector Series|019-204]].
 
 ![[19901348.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The Electronic Control Module (ECM) receives constant voltage from the batteries through the unswitched battery wires connected directly to the (+) positive battery post.
+>
+> There are two in-line 10-ampere fuses in the unswitched battery wires to protect the ECM.
+>
+> ### Initial Check
+>
+> Inspect the battery cable connections for loose or corroded connections.
+>
+> If corroded, repair or replace the battery connections. Refer to the OEM manual.
+>
+> Inspect the OEM interface harness fuse connections for loose or corroded fuses.
+>
+> If corroded, replace the fuses. Refer to Procedure [[99-019-198 — Fuse, Harness In-Line|019-198]].
+>
+> Touch one multimeter lead to each fuse terminal and measure the resistance.
+>
+> The fuse should measure a closed circuit.
+>
+> Resistance: 10 ohms or less
+>
+> Place the multimeter positive probe on the positive (+) terminal of the battery.
+>
+> Place the multimeter negative probe on the negative (-) terminal of the battery.
+>
+> Measure the battery voltage.
+>
+> Voltage for a 12-VDC system: 9.6 to 16.0 VDC
+>
+> If the battery voltage is below 9.6 VDC, replace the battery.
+>
+> Voltage for a 24-VDC system: 17.3 to 34.7 VDC
+>
+> If the battery voltage is below 17.3 VDC, replace the battery.
+>
+> Refer to the OEM manual for battery replacement.
+>
+> ### Resistance Check
+>
+> Disconnect the engine harness connector from the ECM.
+>
+> Check for damaged pins in the ECM and the harness.
+>
+> **CAUTION · Осторожно**
+> Do not use probes or test leads other than Part Number 3822758, otherwise the connector will be damaged. The leads must fit tightly in the connector without expanding the pins in the connector.
+>
+> Insert the lead into one of the four unswitched battery supply pins of the engine harness connector.
+>
+> Connect the alligator clip to the multimeter probe.
+>
+> Touch the other multimeter probe to the battery connection on the engine harness.
+>
+> Measure the resistance.
+>
+> Resistance: 10 ohms or less
+>
+> Repeat the check from each of the remaining three unswitched battery supply pins of the engine harness connector to the battery connection on the engine harness.
+>
+> If more then 10 ohms are measured in any check, there is an open circuit. Repair or replace the engine harness.
+>
+> Refer to Procedures [[07-019-043 — Engine Wiring Harness|019-043]], [[99-019-197 — Ring Terminal|019-197]], [[99-019-199 — Connector, Butt Splice|019-199]], and [[99-019-204 — Deutsch DRC Connector Series|019-204]].

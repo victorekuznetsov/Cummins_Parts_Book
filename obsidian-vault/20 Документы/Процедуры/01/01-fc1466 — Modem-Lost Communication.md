@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1466.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1466.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Modem-Lost Communication
@@ -34,34 +36,74 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1466.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1466.pdf)
 
-### Fault Code: 1466
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Modem-Lost Communication
 
-Printable Version
+### Код неисправности: 1466
 
-### Overview
+### Модем — потеря связи
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 1466 PID(P): SPN: FMI: Lamp: Warning SRT: | ECM can **not** communicate with the modem. | No action taken by the ECM. |
+| Код неисправности: 1466 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | ECM может **не** общаться с модемом. | Никаких действий со стороны ЕКМ не предпринималось. |
 
 ![[19802919.png]]
 
-Modem Circuit
+Модемная схема
 
-### Circuit Description
+### Описание цепи
 
-The ECM checks the modem to make certain it is operating correctly. The ECM uses the modem to inform a remote operator about generator set operation, performance, setup, and diagnostics. The ECM monitors the modem (no communication with the modem will trip Fault Code 1466) and can be caused by shorts or opens.
+ECM проверяет модем, чтобы убедиться, что он работает правильно. ECM использует модем для информирования удаленного оператора о работе генераторной установки, производительности, настройке и диагностике. ECM контролирует модем (без связи с модемом будет срабатывать код 1466 ошибки) и может быть вызван шортами или открытиями.
 
-### Component Location
+### Расположение компонента
 
-Refer to Section E for location of the modem.
+См. раздел E для определения местоположения модема.
 
-### Shoptalk
+### Практические замечания
 
-The possible failure modes are open circuit, short to ground, and loss of supply voltage inside the ECM.
+Возможные режимы отказа - это открытая цепь, короткая к земле и потеря напряжения питания внутри ECM.
 
-Check for open, short circuit to ground, and loose connections on customer-supplied wiring to the modem.
+Проверьте наличие открытого, короткого замыкания на землю и свободных соединений на проводах, поставляемой клиентом, на модем.
 
-Refer to Troubleshooting Fault Code t05-1466
+См. Код устранения неисправностей t05-1466
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 1466
+>
+> ### Modem-Lost Communication
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 1466 PID(P): SPN: FMI: Lamp: Warning SRT: | ECM can **not** communicate with the modem. | No action taken by the ECM. |
+>
+> Modem Circuit
+>
+> ### Circuit Description
+>
+> The ECM checks the modem to make certain it is operating correctly. The ECM uses the modem to inform a remote operator about generator set operation, performance, setup, and diagnostics. The ECM monitors the modem (no communication with the modem will trip Fault Code 1466) and can be caused by shorts or opens.
+>
+> ### Component Location
+>
+> Refer to Section E for location of the modem.
+>
+> ### Shoptalk
+>
+> The possible failure modes are open circuit, short to ground, and loss of supply voltage inside the ECM.
+>
+> Check for open, short circuit to ground, and loose connections on customer-supplied wiring to the modem.
+>
+> Refer to Troubleshooting Fault Code t05-1466

@@ -49,7 +49,8 @@ families:
   - "QST30"
   - "QSX15"
   - "QSZ13"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666132.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3666132.pdf"
 tags:
@@ -68,6 +69,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "двигатель/QSZ13"
+  - "перевод/машинный"
   - "тема/cooling-system"
 ---
 
@@ -81,11 +83,30 @@ tags:
 > **Даты:** выпущен 2013-07-29 · изменён 2025-01-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666132.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3666132.pdf)
 
-## Cummins® Coolant Requirements and Maintenance
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-For information on engine coolant recommendations and specifications, see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Reference Section 5.
 
-> [!note] Note · Примечание
+## Требования Cummins® к охлаждающей жидкости и её обслуживанию
+
+Для получения информации о рекомендациях и спецификациях охлаждающей жидкости двигателя см. Руководство по эксплуатации жидкостей для Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Справочная часть 5.
+
+> [!note] Примечание
 > [https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/](https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/)
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Cummins® Coolant Requirements and Maintenance
+>
+> For information on engine coolant recommendations and specifications, see Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]]. Reference Section 5.
+>
+> **Note · Примечание**
+> [https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/](https://quickserve.cummins.com/qs3/portal/service/manual/en/5411406/)
+>
+> ### Document History

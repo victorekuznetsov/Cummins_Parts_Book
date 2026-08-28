@@ -97,7 +97,8 @@ manuals:
   - "4960250"
   - "4960270"
   - "4960314"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-205-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-205-004.pdf"
 tags:
@@ -114,6 +115,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Cummins Customized Parts Catalog
@@ -127,50 +129,108 @@ tags:
 > **Даты:** изменён 2023-07-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-205-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-205-004.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Cummins is pleased to announce the availability of a parts catalog compiled specifically for you. Unlike the generic versions of parts catalogs that support general high volume parts content; Cummins Customized catalogs contain only the new factory parts that were used to build your engine.
 
-The catalog cover, as well as the content, is customized with you in mind. You can use the catalog in your shop, at your worksite, or as a coffee table book in your RV or boat. The cover contains your name, company name, address, and telephone number.
+### Общие сведения
 
-This new catalog was designed to provide you with the exact information you need to order parts for your engine. This catalog will be valuable for customers that do **not** have easy access to Cummins QuickServe Online.
+Cummins рада сообщить о наличии каталога запчастей, составленного специально для вас. В отличие от общих версий каталогов деталей, которые поддерживают общее содержание деталей большого объема; Каталоги Cummins Customized содержат только новые заводские детали, которые использовались для создания вашего двигателя.
 
-Additional Features of the Customized Catalog include:
+Обложка каталога, а также контент настроены с учетом вас. Вы можете использовать каталог в своем магазине, на рабочем месте или в качестве книги для журнальных столиков в своем фургоне или лодке. Обложка содержит ваше имя, название компании, адрес и номер телефона.
 
-- Engine Configuration Data
-- Table of Contents
-- Separate Option and Parts Indexes
-- Service Kits (when applicable)
-- ReCon Part Numbers (when applicable)
+Этот новый каталог был разработан, чтобы предоставить вам точную информацию, необходимую для заказа деталей для вашего двигателя. Этот каталог будет полезен для клиентов, которые не имеют легкого доступа к Cummins QuickServe Online.
 
-### Ordering the Customized Parts Catalog
+Дополнительные функции кастомизированного каталога включают:
 
-Ordering by Telephone
+- Данные конфигурации двигателя
+- Таблица содержимого
+- Отдельные индексы опционов и частей
+- Сервисные наборы (если применимо)
+- Номера частей ReCon (если применимо)
 
-- North American Distributors, Original Equipment Manufacturers and Cummins Factory personnel order by calling Iron Mountain Fulfillment Services (IMFS) at 1-800-646-5609.
-- International Distributors and Original Equipment Manufacturers order the CPC from their regional Cummins Parts Distribution Centers (PDC).
-- International PDC orders are called into Iron Mountain at (++) 630-283-2420.
-- Retail Credit Card Orders require a 2 step ordering process.
+### Заказ каталога настраиваемых деталей
 
-Ordering On-Line
+Заказ по телефону
 
-Access the Cummins QSOL store at https://store.cummins.com
+- Североамериканские дистрибьюторы, производители оригинального оборудования и персонал завода Cummins заказывают услуги по доставке железной горы (IMFS) по телефону 1-800-646-5609.
+- Международные дистрибьюторы и производители оригинального оборудования заказывают КТК у своих региональных центров распределения кумминовых деталей (PDC).
+- Международные заказы PDC запускаются в Iron Mountain по телефону (++) 630-283-2420.
+- Розничные заказы на кредитные карты требуют 2-х шагового процесса заказа.
 
-- Find the Customized Parts Catalog button located on the left of the homepage
-- Select format. Your Price is also shown here
-- Finalize Shopping Cart and Check Process as described on the website
+Заказать на линии
 
-North America call Iron Mountain Fulfillment Services (IMFS) at 800-646-5609, International customers call (++) 630-283-2420. Provide IMFS the catalog detail as described on the website. This step is required until we have our On Line form available.
+Доступ к магазину Cummins QSOL по адресу https://store.cummins.com
 
-Required information needed for your Customized Parts Catalog Order.
+- Найдите кнопку Каталог настроенных частей, расположенную слева от главной страницы
+- Выберите формат. Ваша цена также указана здесь
+- Окончательное завершение процесса корзины покупок и проверки, как описано на веб-сайте
 
-- Customer Name
-- Street Address
-- Company Name (optional)
-- Telephone Number
-- Credit Card Number
-- Cummins Engine Serial Number (located on the engine data plate)
+Северная Америка звонит в службу пополнения запасов железных гор (IMFS) по телефону 800-646-5609, международные клиенты звонят (++) 630-283-2420. Предоставьте МВФС подробную информацию о каталоге, как описано на веб-сайте. Этот шаг необходим, пока у нас не будет доступной формы On Line.
 
-Unfortunately **not** all Cummins Engines can be supported by Customized Parts Catalogs. Engines older than 1984 or newer than 3 months might **not** have the necessary parts information to compile a catalog. We will contact you if this condition occurs and explain why we are unable to fill your order.
+Необходимая информация, необходимая для вашего заказа каталога настраиваемых частей.
 
-Customized Parts Catalogs are produced specifically for a single customer. Therefore, the catalogs are **not** returnable for a refund. If we make an error and your catalog is **not** useable, we will correct that error by sending you a new catalog.
+- Имя клиента
+- Уличный адрес
+- Название компании (факультативно)
+- Телефонный номер
+- Номер кредитной карты
+- Серийный номер двигателя Cummins (на табличке с данными двигателя)
+
+К сожалению, не все двигатели Cummins могут поддерживаться каталогами настраиваемых деталей. Двигатели старше 1984 года или новее 3 месяцев могут не иметь необходимой информации о деталях для составления каталога. Мы свяжемся с вами, если это условие произойдет, и объясним, почему мы не можем заполнить ваш заказ.
+
+Каталоги индивидуальных деталей изготавливаются специально для одного клиента. Поэтому каталоги **не** подлежат возврату. Если мы допустили ошибку и ваш каталог не может быть использован, мы исправим эту ошибку, отправив вам новый каталог.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Cummins is pleased to announce the availability of a parts catalog compiled specifically for you. Unlike the generic versions of parts catalogs that support general high volume parts content; Cummins Customized catalogs contain only the new factory parts that were used to build your engine.
+>
+> The catalog cover, as well as the content, is customized with you in mind. You can use the catalog in your shop, at your worksite, or as a coffee table book in your RV or boat. The cover contains your name, company name, address, and telephone number.
+>
+> This new catalog was designed to provide you with the exact information you need to order parts for your engine. This catalog will be valuable for customers that do **not** have easy access to Cummins QuickServe Online.
+>
+> Additional Features of the Customized Catalog include:
+>
+> - Engine Configuration Data
+> - Table of Contents
+> - Separate Option and Parts Indexes
+> - Service Kits (when applicable)
+> - ReCon Part Numbers (when applicable)
+>
+> ### Ordering the Customized Parts Catalog
+>
+> Ordering by Telephone
+>
+> - North American Distributors, Original Equipment Manufacturers and Cummins Factory personnel order by calling Iron Mountain Fulfillment Services (IMFS) at 1-800-646-5609.
+> - International Distributors and Original Equipment Manufacturers order the CPC from their regional Cummins Parts Distribution Centers (PDC).
+> - International PDC orders are called into Iron Mountain at (++) 630-283-2420.
+> - Retail Credit Card Orders require a 2 step ordering process.
+>
+> Ordering On-Line
+>
+> Access the Cummins QSOL store at https://store.cummins.com
+>
+> - Find the Customized Parts Catalog button located on the left of the homepage
+> - Select format. Your Price is also shown here
+> - Finalize Shopping Cart and Check Process as described on the website
+>
+> North America call Iron Mountain Fulfillment Services (IMFS) at 800-646-5609, International customers call (++) 630-283-2420. Provide IMFS the catalog detail as described on the website. This step is required until we have our On Line form available.
+>
+> Required information needed for your Customized Parts Catalog Order.
+>
+> - Customer Name
+> - Street Address
+> - Company Name (optional)
+> - Telephone Number
+> - Credit Card Number
+> - Cummins Engine Serial Number (located on the engine data plate)
+>
+> Unfortunately **not** all Cummins Engines can be supported by Customized Parts Catalogs. Engines older than 1984 or newer than 3 months might **not** have the necessary parts information to compile a catalog. We will contact you if this condition occurs and explain why we are unable to fill your order.
+>
+> Customized Parts Catalogs are produced specifically for a single customer. Therefore, the catalogs are **not** returnable for a refund. If we make an error and your catalog is **not** useable, we will correct that error by sending you a new catalog.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-016.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-016.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Coolant Thermostat Seal
@@ -34,16 +36,36 @@ tags:
 > **Даты:** изменён 2002-07-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-016.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the thermostats from the housing. Refer to Procedure [[57-008-013 — Coolant Thermostat|008-013]].
 
-Remove the seals from the housing. Discard the seals.
+### Снятие
+
+Удалите термостаты из корпуса. См. процедуру[[57-008-013 — Coolant Thermostat|008-013]].
+
+Удалите уплотнения из корпуса. Отбросьте печати.
 
 ![[08a00012.png]]
 
-### Install
+### Установка
 
-Use a mallet and a mandrel, or a socket with a diameter the same as the diameter of the seal case. Install the seals. The seal **must** seat in the bottom of the counterbore.
+Используйте молот и подружку или розетку диаметром, аналогичным диаметру корпуса уплотнения. Установите уплотнения. Пломба должна быть в нижней части контрбора.
 
 ![[th6seha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the thermostats from the housing. Refer to Procedure [[57-008-013 — Coolant Thermostat|008-013]].
+>
+> Remove the seals from the housing. Discard the seals.
+>
+> ### Install
+>
+> Use a mallet and a mandrel, or a socket with a diameter the same as the diameter of the seal case. Install the seals. The seal **must** seat in the bottom of the counterbore.

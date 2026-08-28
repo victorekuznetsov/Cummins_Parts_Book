@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666266"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc443.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc443.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
+  - "перевод/машинный"
 ---
 
 # Throttle Voltage Supply
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-09-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc443.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc443.pdf)
 
-### Fault Code: 443
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Throttle Voltage Supply
 
-Printable Version
+### Код неисправности: 443
 
-### Overview
+### Питание датчика подачи топлива
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 443 PID(P): S221 SPN: 1043 FMI: 4/4 Lamp: Yellow SRT: | Low voltage detected on the electronic control module (ECM) voltage supply line to the throttle(s). | Engine will **only** idle. |
+| Код неисправности: 443 PID(P): S221 SPN: 1043 FMI: 4/4 лампы: Желтая СТО: | Низкое напряжение, обнаруженное на линии электронного модуля управления (ECM) подачи напряжения на дроссель (дроссель). | Двигатель будет только * простаивать. |
 
 ![[19c00644.png]]
 
-Throttle Position Supply Voltage Circuit
+Throttle Position - система напряжения питания
 
-### Circuit Description
+### Описание цепи
 
-The ECM supplies the accelerator and the remote throttle with +5 VDC. If the supply line to the accelerators is damaged, the accelerators will **not** work correctly.
+ECM поставляет ускоритель и дистанционный дроссел с +5 VDC. Если линия подачи на ускорители повреждена, ускорители будут работать неправильно.
 
-### Component Location
+### Расположение компонента
 
-Accelerator pedal is located in the cab. Refer to the OEM manual for remote throttle location.
+Педаль акселератора находится в кабине. См. руководство OEM для удаленного местоположения дроссельной заслонки.
 
-### Shoptalk
+### Практические замечания
 
-Low voltage on the +5-VDC supply line will be caused by a short circuit to ground in a supply line, a short circuit between a supply line or a return line, a failed accelerator, or a failed ECM power supply.
+Низкое напряжение на линии питания +5-VDC будет вызвано коротким замыканием на землю в линии питания, коротким замыканием между линией питания или обратной линией, неисправным ускорителем или неисправным источником питания ECM.
 
-Refer to Troubleshooting Fault Code t05-443
+Устранение неполадок код t05-443
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 443
+>
+> ### Throttle Voltage Supply
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 443 PID(P): S221 SPN: 1043 FMI: 4/4 Lamp: Yellow SRT: | Low voltage detected on the electronic control module (ECM) voltage supply line to the throttle(s). | Engine will **only** idle. |
+>
+> Throttle Position Supply Voltage Circuit
+>
+> ### Circuit Description
+>
+> The ECM supplies the accelerator and the remote throttle with +5 VDC. If the supply line to the accelerators is damaged, the accelerators will **not** work correctly.
+>
+> ### Component Location
+>
+> Accelerator pedal is located in the cab. Refer to the OEM manual for remote throttle location.
+>
+> ### Shoptalk
+>
+> Low voltage on the +5-VDC supply line will be caused by a short circuit to ground in a supply line, a short circuit between a supply line or a return line, a failed accelerator, or a failed ECM power supply.
+>
+> Refer to Troubleshooting Fault Code t05-443

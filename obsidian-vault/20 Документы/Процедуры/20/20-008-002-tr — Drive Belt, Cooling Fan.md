@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-002-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Drive Belt, Cooling Fan
@@ -34,97 +36,186 @@ tags:
 > **Даты:** изменён 2017-03-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-002-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-- Remove the belt guards. Refer to Procedure 008-001 in Section 8.
-- Remove the fan and fan spacers. [[20-008-040 — Fan, Cooling|Refer to Procedure 008-040 in Section 8.]]
+### Подготовительные операции
 
-### Remove
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!danger] WARNING · Опасно
-> The fan belt idler is under tension. To reduce the possibility of personal injury, do not allow your hands to get between the idler and the belt, or the fan hub.
+- Уберите охрану пояса. См. процедуру 008-001 в разделе 8.
+- Удалите вентилятор и фан-спейсеры.[[20-008-040 — Fan, Cooling|См. процедуру 008-040 в разделе 8.]]
 
-Loosen the nuts (1 and 2). Turn the nut (1) **counterclockwise** to the end of the threaded rod to relieve the tension on the belt.
+### Снятие
+
+> [!danger] ОПАСНО
+> Бездельник с поясом вентилятора находится под напряжением. Чтобы уменьшить вероятность получения травмы, не позволяйте рукам встать между бездельником и поясом или вентиляторным узлом.
+
+Освободите орехи (1 и 2). Поверните гайку (1)**против часовой стрелки** до конца резьбового стержня, чтобы снять напряжение на поясе.
 
 ![[08400007.png]]
 
-Remove the fan belt.
+Удалите пояс вентилятора.
 
 ![[fn4blma.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the tensioner assembly (1) and idler pulley (2) for any cracks or excessive wear.
+Осмотрите натяжной блок (1) и шкив (2) для любых трещин или чрезмерного износа.
 
-If the parts are cracked or worn, they **must** be replaced.
+Если детали сломаны или изношены, они должны быть заменены.
 
-- Make sure the idler pulley moves freely
-- Make sure bearing operation is smooth and does **not** have any free play
-- Inspect the idler pulley for damage or wear.
+- Убедитесь, что шкив холостого хода свободно
+- Убедитесь, что подшипник работает гладко и не имеет никакой бесплатной игры.
+- Осмотрите шкив холостого хода на предмет повреждения или износа.
 
 ![[08k00031.png]]
 
-Inspect the belt for:
+Осмотрите пояс для:
 
-- Cracks
-- Glazing
-- Tears or cuts.
+- Трещины
+- остекление
+- Слезы или порезы.
 
 ![[fa800sa.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
-> The fan belt has 21 grooves. The fan hub and crankshaft pulleys have 22 grooves. Install the belt in the grooves toward the front of the engine. The remaining groove that is **not** used is to be toward the radiator.
+> [!note] Примечание
+> Пояс вентилятора имеет 21 канавку. Вентиляторный узел и коленчатые шкивы имеют 22 канавки. Установите ремень в канавках по направлению к передней части двигателя. Оставшаяся канавка, которая не используется, должна быть направлена к радиатору.
 
-Install the belt.
+Установите ремень.
 
 ![[fn4blma.png]]
 
-### Adjust
+### Регулировка
 
-Install the belt tension gauge, Part Number 2892563, or equivalent, on the right side of the belt, halfway between the two pulleys.
+Установите калибр натяжения ремня, Номер детали 2892563, или эквивалент, на правой стороне ремня, на полпути между двумя шкивами.
 
-Loosen the inside nut (2) to the end of the threads.
+Освободите внутреннюю гайку (2) до конца резьбы.
 
-Pull the belt tensioner until the idler pulley contacts the fan belt.
+Натяжитель ремня тяните до тех пор, пока шкив бездельника не свяжется с ремнем вентилятора.
 
-Tighten the nut (1) finger tight.
+Затяните гайку (1) нажатым пальцем.
 
-Tighten the outside nut (1) to a belt tension gauge reading of 1557 N \[350 lbf\].
+Затянуть наружный гайку (1) до показания измерителя напряжения ремня 1557 N \[350 lbf\].
 
 ![[08600664.png]]
 
-Finger tighten the inside nut (2) flush with the bracket before tightening.
+Пальцы затягивают внутренний орех (2) промыть скобкой перед затягиванием.
 
-Hold the outside nut (1) and torque the inside nut (2) to specification.
+Держите наружный орех (1) и крутите внутренний орех (2) до спецификации.
 
-> [!tip] Момент затяжки · Torque Value
-> 81 n•m [60 ft-lb]
+> [!tip] Момент затяжки
+> 81 Н·м [60 фунт-фут]
 
-Bar the engine 360 degrees and recheck the belt tension.
+Заблокируйте двигатель на 360 градусов и перепроверьте натяжение ремня.
 
-Make sure the tension is still within specification.
+Убедитесь, что напряжение все еще находится в пределах установленных пределов.
 
 ![[08600665.png]]
 
-> [!note] Note · Примечание
-> If the belt was **not** replaced, it is **not** necessary to perform this step (belt removed and installed as part of another repair).
+> [!note] Примечание
+> Если ремень был заменен, то для выполнения этого шага (пояс снимается и устанавливается в рамках другого ремонта) нет необходимости.
 
-Operate the engine for 10 minutes at high idle. Reset the belt tension.
+Работайте с двигателем в течение 10 минут на высоком холостом ходу. Сбросьте натяжение ремня.
 
-After this procedure, it is **not** necessary to tension the belt again until the belt is replaced.
+После этой процедуры не нужно снова натягивать ремень до тех пор, пока ремень не будет заменен.
 
 ![[08400007.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+
+- Установите вентилятор и фан-пространство.[[20-008-040 — Fan, Cooling|См. процедуру 008-040 в разделе 8.]]
+- Установите охрану ремня. См. процедуру 008-001 в разделе 8.
+- Управляйте двигателем и проверяйте шум.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
-
-- Install the fan and fan spacers. [[20-008-040 — Fan, Cooling|Refer to Procedure 008-040 in Section 8.]]
-- Install the belt guards. Refer to Procedure 008-001 in Section 8.
-- Operate the engine and check for noise.
+>
+> - Remove the belt guards. Refer to Procedure 008-001 in Section 8.
+> - Remove the fan and fan spacers. [[20-008-040 — Fan, Cooling|Refer to Procedure 008-040 in Section 8.]]
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> The fan belt idler is under tension. To reduce the possibility of personal injury, do not allow your hands to get between the idler and the belt, or the fan hub.
+>
+> Loosen the nuts (1 and 2). Turn the nut (1) **counterclockwise** to the end of the threaded rod to relieve the tension on the belt.
+>
+> Remove the fan belt.
+>
+> ### Inspect for Reuse
+>
+> Inspect the tensioner assembly (1) and idler pulley (2) for any cracks or excessive wear.
+>
+> If the parts are cracked or worn, they **must** be replaced.
+>
+> - Make sure the idler pulley moves freely
+> - Make sure bearing operation is smooth and does **not** have any free play
+> - Inspect the idler pulley for damage or wear.
+>
+> Inspect the belt for:
+>
+> - Cracks
+> - Glazing
+> - Tears or cuts.
+>
+> ### Install
+>
+> **Note · Примечание**
+> The fan belt has 21 grooves. The fan hub and crankshaft pulleys have 22 grooves. Install the belt in the grooves toward the front of the engine. The remaining groove that is **not** used is to be toward the radiator.
+>
+> Install the belt.
+>
+> ### Adjust
+>
+> Install the belt tension gauge, Part Number 2892563, or equivalent, on the right side of the belt, halfway between the two pulleys.
+>
+> Loosen the inside nut (2) to the end of the threads.
+>
+> Pull the belt tensioner until the idler pulley contacts the fan belt.
+>
+> Tighten the nut (1) finger tight.
+>
+> Tighten the outside nut (1) to a belt tension gauge reading of 1557 N \[350 lbf\].
+>
+> Finger tighten the inside nut (2) flush with the bracket before tightening.
+>
+> Hold the outside nut (1) and torque the inside nut (2) to specification.
+>
+> **Момент затяжки · Torque Value**
+> 81 n•m [60 ft-lb]
+>
+> Bar the engine 360 degrees and recheck the belt tension.
+>
+> Make sure the tension is still within specification.
+>
+> **Note · Примечание**
+> If the belt was **not** replaced, it is **not** necessary to perform this step (belt removed and installed as part of another repair).
+>
+> Operate the engine for 10 minutes at high idle. Reset the belt tension.
+>
+> After this procedure, it is **not** necessary to tension the belt again until the belt is replaced.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> - Install the fan and fan spacers. [[20-008-040 — Fan, Cooling|Refer to Procedure 008-040 in Section 8.]]
+> - Install the belt guards. Refer to Procedure 008-001 in Section 8.
+> - Operate the engine and check for noise.

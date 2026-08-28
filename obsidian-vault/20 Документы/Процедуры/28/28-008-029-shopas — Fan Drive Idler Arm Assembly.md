@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-029-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-029-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Arm Assembly
@@ -34,26 +36,58 @@ tags:
 > **Даты:** изменён 2015-05-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-029-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-029-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> **Not** all engines are equipped with this option.
 
-> [!note] Note · Примечание
-> If the engine has two vibration dampers, a longer idler arm than shown is required.
+### Установка
 
-> [!note] Note · Примечание
-> If the engine has a fan hub with 457 mm \[18 in\] center (low mount fan), an adapter plate is required between the idler arm and the front gear cover.
+> [!note] Примечание
+> Не все двигатели оснащены этой опцией.
 
-> [!note] Note · Примечание
-> Check to be sure the spring on the idler arm is **not** under tension. This will aid the future installation of the fan hub.
+> [!note] Примечание
+> Если двигатель имеет два вибрационных амортизатора, требуется более длинная рука бездельника, чем показано.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!note] Примечание
+> Если двигатель имеет вентиляторный концентратор с центром 457 мм[18 в] (вентилятор с низким креплением), между рычагом холостого хода и передней крышкой передач требуется пластина адаптера.
 
-Install the fan belt idler assembly, the three lock washers, and capscrews.
+> [!note] Примечание
+> Убедитесь, что пружина на руке бездельника находится **не** под напряжением. Это поможет будущей установке фан-хаба.
 
-> [!tip] Момент затяжки · Torque Value
-> 60 n•m [45 ft-lb]
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+
+Установите сборку бездельника ремня вентилятора, три шайбы замка и болты.
+
+> [!tip] Момент затяжки
+> 60 Н·м [45 фунт-фут]
 
 ![[fa6idha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **Note · Примечание**
+> **Not** all engines are equipped with this option.
+>
+> **Note · Примечание**
+> If the engine has two vibration dampers, a longer idler arm than shown is required.
+>
+> **Note · Примечание**
+> If the engine has a fan hub with 457 mm \[18 in\] center (low mount fan), an adapter plate is required between the idler arm and the front gear cover.
+>
+> **Note · Примечание**
+> Check to be sure the spring on the idler arm is **not** under tension. This will aid the future installation of the fan hub.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the fan belt idler assembly, the three lock washers, and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 60 n•m [45 ft-lb]

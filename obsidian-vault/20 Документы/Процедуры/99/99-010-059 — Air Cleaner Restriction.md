@@ -52,7 +52,8 @@ manuals:
   - "4021940"
   - "4021942"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-010-059.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-010-059.pdf"
 tags:
@@ -67,6 +68,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Air Cleaner Restriction
@@ -80,30 +82,62 @@ tags:
 > **Даты:** изменён 2010-07-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-010-059.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-010-059.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Mechanical Indicator
 
-> [!warning] CAUTION · Осторожно
-> Never operate the engine without an air cleaner. Intake air must be filtered to prevent dirt and debris from entering the engine and causing premature wear.
+### Контроль при обслуживании
 
-> [!note] Note · Примечание
-> Do **not** remove the felt washer from the indicator. The felt washer absorbs moisture.
+Механический индикатор
 
-A mechanical restriction indicator is available to indicate excessive air restriction through a dry-type air cleaner. This instrument can be mounted in the air cleaner outlet or on the instrument panel. The red flag (1) in the window gradually rises as the cartridge loads with dirt. After changing or replacing the cartridge, reset the indicator by pushing the reset button (2).
+> [!warning] ОСТОРОЖНО
+> Никогда не работайте с двигателем без воздухоочистителя. Впускной воздух должен быть отфильтрован, чтобы предотвратить попадание грязи и мусора в двигатель и вызвать преждевременный износ.
 
-Restriction or vacuum indicators need to be installed as close as possible to the turbocharger air inlet in order to obtain a true indication of restrictions.
+> [!note] Примечание
+> **Не** Удалить войлочную стиральную машину из индикатора. Войлочная стиральная машина поглощает влагу.
+
+Механический индикатор ограничения доступен для указания чрезмерного ограничения воздуха через воздухоочиститель сухого типа. Этот инструмент может быть установлен в выпускной отверстии воздухоочистителя или на панели прибора. Красный флаг (1) в окне постепенно поднимается по мере того, как картридж загружается грязью. После изменения или замены картриджа сбросить индикатор, нажав кнопку сброса (2).
+
+Ограничительные или вакуумные индикаторы должны быть установлены как можно ближе к воздухозаборнику турбокомпрессора, чтобы получить истинное указание на ограничения.
 
 ![[ac4iaga.png]]
 
-Vacuum Indicator
+Вакуумный индикатор
 
-Vacuum switches actuate a warning light on the instrument panel when the air restriction becomes excessive.
+Вакуумные переключатели приводят в действие предупредительный свет на панели приборов, когда ограничение воздуха становится чрезмерным.
 
 ![[ac4iagb.png]]
 
-Industrial Gas Mechanical Indicator
+Промышленный газовый механический индикатор
 
-A mechanical restriction indicator is available to indicate excessive air restriction through a dry-type air cleaner. This instrument is mounted in the air cleaner outlet. The red flag (1) in the window gradually rises as the cartridge loads with dirt. When air restriction is indicated the air filter **must** be replaced. After changing or replacing the cartridge, reset the indicator by pushing the reset button (2)
+Механический индикатор ограничения доступен для указания чрезмерного ограничения воздуха через воздухоочиститель сухого типа. Этот инструмент установлен в выпускной отверстии воздухоочистителя. Красный флаг (1) в окне постепенно поднимается по мере того, как картридж загружается грязью. При указании ограничения воздуха фильтр воздухоочистителя * должен быть заменен. После замены или замены картриджа сбросить индикатор, нажав кнопку сброса (2)
 
 ![[00d00485.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Mechanical Indicator
+>
+> **CAUTION · Осторожно**
+> Never operate the engine without an air cleaner. Intake air must be filtered to prevent dirt and debris from entering the engine and causing premature wear.
+>
+> **Note · Примечание**
+> Do **not** remove the felt washer from the indicator. The felt washer absorbs moisture.
+>
+> A mechanical restriction indicator is available to indicate excessive air restriction through a dry-type air cleaner. This instrument can be mounted in the air cleaner outlet or on the instrument panel. The red flag (1) in the window gradually rises as the cartridge loads with dirt. After changing or replacing the cartridge, reset the indicator by pushing the reset button (2).
+>
+> Restriction or vacuum indicators need to be installed as close as possible to the turbocharger air inlet in order to obtain a true indication of restrictions.
+>
+> Vacuum Indicator
+>
+> Vacuum switches actuate a warning light on the instrument panel when the air restriction becomes excessive.
+>
+> Industrial Gas Mechanical Indicator
+>
+> A mechanical restriction indicator is available to indicate excessive air restriction through a dry-type air cleaner. This instrument is mounted in the air cleaner outlet. The red flag (1) in the window gradually rises as the cartridge loads with dirt. When air restriction is indicated the air filter **must** be replaced. After changing or replacing the cartridge, reset the indicator by pushing the reset button (2)

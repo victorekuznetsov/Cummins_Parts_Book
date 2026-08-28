@@ -15,13 +15,15 @@ manuals:
   - "2883407"
   - "4021330"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-006-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-200-006-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Compressed Air System
@@ -35,15 +37,36 @@ tags:
 > **Даты:** изменён 2007-07-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-006-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-200-006-om-ind.pdf)
 
-### Engine Views
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Marine and Industrial Applications
+
+### Двигатель Views
+
+Морские и промышленные применения
 
 ![[12900096.png]]
 
-1. Air in
-2. Air out
-3. Coolant in
-4. Coolant out
-5. Lubricating oil in
-6. Lubricating oil drain.
+1. Воздух в
+2. Выше воздух
+3. Охлаждение в
+4. Охлаждение
+5. Моторное масло в
+6. Слив моторного масла.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Engine Views
+>
+> Marine and Industrial Applications
+>
+> 1. Air in
+> 2. Air out
+> 3. Coolant in
+> 4. Coolant out
+> 5. Lubricating oil in
+> 6. Lubricating oil drain.

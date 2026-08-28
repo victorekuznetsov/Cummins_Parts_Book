@@ -30,7 +30,8 @@ manuals:
   - "4021375"
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-045-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-008-045-om-ind.pdf"
 tags:
@@ -41,6 +42,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Radiator Hoses
@@ -54,8 +56,22 @@ tags:
 > **Даты:** изменён 2006-07-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-045-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-008-045-om-ind.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Annually inspect the bypass oil filter and cooling system hoses and hose connections for leaks or deterioration. Particles of deteriorated hose can be carried through the cooling system or lubricating system and restrict or clog small passages, especially radiator core, and lubricating oil cooler, and partially stop circulation. Replace as necessary.
+
+### Контроль при обслуживании
+
+Ежегодно осматривайте обходные масляные фильтры и шланги системы охлаждения и шланги соединений для утечек или износа. Частицы изувеченного шланга могут быть пронесены через систему охлаждения или систему смазки и ограничить или закупорить небольшие проходы, особенно сердечник радиатора, и охладитель моторного масла, и частично остановить циркуляцию. Заменить по мере необходимости.
 
 ![[oi8hosa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Annually inspect the bypass oil filter and cooling system hoses and hose connections for leaks or deterioration. Particles of deteriorated hose can be carried through the cooling system or lubricating system and restrict or clog small passages, especially radiator core, and lubricating oil cooler, and partially stop circulation. Replace as necessary.

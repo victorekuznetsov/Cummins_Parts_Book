@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021442"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc153.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-fc153.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/07"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Air Temperature Sensor Circuit - Voltage Above Normal or Shorted to High Source
@@ -34,40 +36,86 @@ tags:
 > **Даты:** изменён 2012-12-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc153.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-fc153.pdf)
 
-### Fault Code: 153
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold Air Temperature Sensor Circuit - Voltage Above Normal or Shorted to High Source
 
-Printable Version
+### Код неисправности: 153
 
-### Overview
+### Цепь датчика температуры воздуха коллектора — напряжение выше нормы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 153 PID(P): P105 SPN: 105 FMI: 3 Lamp: Amber SRT: | Intake manifold air temperature sensor circuit - voltage above normal or shorted to high source. | No engine protection for circuit or sensor failure. |
+| Код неисправности: 153 P(P): P105 SPN: 105 FMI: 3 лампы: Янтарная СРТ: | Цепь датчика температуры воздуха коллектора — напряжение выше нормы. | Отсутствие защиты двигателя от сбоев цепи или датчика. |
 
 ![[19900359.png]]
 
-Intake Manifold Air Temperature Sensor Circuit
+Схема датчика температуры воздуха Manifold Air Temperature Sensor Circuit
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the air in the intake manifold after the aftercooler. The intake manifold temperature sensor is used by the ECM for the engine protection system, timing, and fueling control.
+Датчик температуры впускного коллектора используется электронным модулем управления (ECM) для мониторинга температуры воздуха в впускном коллекторе после охладителя. Датчик температуры впускного коллектора используется ECM для системы защиты двигателя, управления временем и заправкой.
 
-### Component Location
+### Расположение компонента
 
-Reference Section E for a detailed component location view. The intake manifold temperature sensor is located in the intake manifold at the rear of the engine.
+Справочный раздел E для подробного описания местоположения компонента. Датчик температуры впускного коллектора расположен в впускном коллекторе в задней части двигателя.
 
-### Shoptalk
+### Практические замечания
 
-The resistance of all the temperature sensors varies with the temperature. The reading observed should compare to the following table if the sensor is functioning properly.
+Сопротивление всех датчиков температуры изменяется в зависимости от температуры. Наблюдаемое считывание должно быть сопоставимо со следующей таблицей, если датчик работает должным образом.
 
-| Temperature (°F) | Temperature (°C) | Resistance (ohms) |
+| Температура (°F) | Температура (°C) | Сопротивление (Омс) |
 |---|---|---|
-| 32 | 0 | 30k to 36k |
-| 77 | 25 | 9k to 11k |
-| 122 | 50 | 3k to 4k |
-| 167 | 75 | 1350 to 1500 |
-| 212 | 100 | 600 to 675 |
+| 32 | 0 | 30k до 36k |
+| 77 | 25 | 9k до 11k |
+| 122 | 50 | 3k - 4k |
+| 167 | 75 | 1350—1500 |
+| 212 | 100 | 600-675 |
 
-Refer to Troubleshooting Fault Code t05-153
+Устранение неполадок код t05-153
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 153
+>
+> ### Intake Manifold Air Temperature Sensor Circuit - Voltage Above Normal or Shorted to High Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 153 PID(P): P105 SPN: 105 FMI: 3 Lamp: Amber SRT: | Intake manifold air temperature sensor circuit - voltage above normal or shorted to high source. | No engine protection for circuit or sensor failure. |
+>
+> Intake Manifold Air Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The intake manifold temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the air in the intake manifold after the aftercooler. The intake manifold temperature sensor is used by the ECM for the engine protection system, timing, and fueling control.
+>
+> ### Component Location
+>
+> Reference Section E for a detailed component location view. The intake manifold temperature sensor is located in the intake manifold at the rear of the engine.
+>
+> ### Shoptalk
+>
+> The resistance of all the temperature sensors varies with the temperature. The reading observed should compare to the following table if the sensor is functioning properly.
+>
+> | Temperature (°F) | Temperature (°C) | Resistance (ohms) |
+> |---|---|---|
+> | 32 | 0 | 30k to 36k |
+> | 77 | 25 | 9k to 11k |
+> | 122 | 50 | 3k to 4k |
+> | 167 | 75 | 1350 to 1500 |
+> | 212 | 100 | 600 to 675 |
+>
+> Refer to Troubleshooting Fault Code t05-153

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021539"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-195.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-195.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Low-Temperature Aftercooler (LTA) Water Pump Support Bracket
@@ -34,65 +36,120 @@ tags:
 > **Даты:** изменён 2026-02-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-195.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-195.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove nuts and bolts.
+
+### Снятие
+
+Удалите гайки и болты.
 
 ![[08n00349.png]]
 
-Remove capscrews and low-temperature aftercooler (LTA) water pump support.
+Удалите болты и низкотемпературную охладитель (LTA) поддержки водяного насоса.
 
 ![[08n00350.png]]
 
-Remove nuts, spacers and LTA water pump bracket.
+Удалите орехи, спейсеры и кронштейн водяного насоса LTA.
 
 ![[08n00351.png]]
 
-### Clean
+### Очистка
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use solvent to clean the LTA water pump bracket and support. Dry with compressed air.
+Используйте растворитель для очистки кронштейна водяного насоса LTA и поддержки. Просушите сжатым воздухом.
 
 ![[08n00352.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect LTA water pump bracket and support for cracks pitting or other damage.
+Проверьте кронштейн водяного насоса LTA и поддержку трещин или других повреждений.
 
-Replace any damaged components.
+Замените поврежденные компоненты.
 
 ![[08n00353.png]]
 
-### Install
+### Установка
 
-Install spacers, LTA water pump bracket and nuts.
+Установите прокладки, кронштейн водяного насоса LTA и орехи.
 
-Hand tighten nuts.
+Руки затягивают орехи.
 
 ![[08n00351.png]]
 
-Install LTA water pump support and capscrews.
+Установите поддержку водяного насоса LTA и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 65 n•m [48 ft-lb]
+> [!tip] Момент затяжки
+> 65 Н·м [48 фунт-фут]
 
 ![[08n00350.png]]
 
-Install bolts and nuts.
+Установите болты и гайки.
 
-> [!tip] Момент затяжки · Torque Value
-> 113 n•m [83 ft-lb]
+> [!tip] Момент затяжки
+> 113 Н·м [83 фунт-фут]
 
 ![[08n00349.png]]
 
-Tighten nuts on LTA water pump bracket.
+Затягивание орехов на кронштейне водяного насоса LTA.
 
-> [!tip] Момент затяжки · Torque Value
-> 33 n•m [24 ft-lb]
+> [!tip] Момент затяжки
+> 33 Н·м [24 фунт-фут]
 
 ![[08n00354.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove nuts and bolts.
+>
+> Remove capscrews and low-temperature aftercooler (LTA) water pump support.
+>
+> Remove nuts, spacers and LTA water pump bracket.
+>
+> ### Clean
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use solvent to clean the LTA water pump bracket and support. Dry with compressed air.
+>
+> ### Inspect for Reuse
+>
+> Inspect LTA water pump bracket and support for cracks pitting or other damage.
+>
+> Replace any damaged components.
+>
+> ### Install
+>
+> Install spacers, LTA water pump bracket and nuts.
+>
+> Hand tighten nuts.
+>
+> Install LTA water pump support and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 65 n•m [48 ft-lb]
+>
+> Install bolts and nuts.
+>
+> **Момент затяжки · Torque Value**
+> 113 n•m [83 ft-lb]
+>
+> Tighten nuts on LTA water pump bracket.
+>
+> **Момент затяжки · Torque Value**
+> 33 n•m [24 ft-lb]

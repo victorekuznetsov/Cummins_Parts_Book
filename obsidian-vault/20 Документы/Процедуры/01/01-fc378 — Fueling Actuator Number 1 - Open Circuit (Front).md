@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc378.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc378.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
+  - "перевод/машинный"
 ---
 
 # Fueling Actuator Number 1 - Open Circuit (Front)
@@ -34,32 +36,70 @@ tags:
 > **Даты:** изменён 2010-07-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc378.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc378.pdf)
 
-### Fault Code: 378
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Fueling Actuator Number 1 - Open Circuit (Front)
 
-Printable Version
+### Код неисправности: 378
 
-### Overview
+### Исполнительный механизм подачи №1 — обрыв (передний)
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 378 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Fueling actuator Number 1 circuit - open circuit. (front) | Engine will shut down. |
+| Код неисправности: 378 P(P): СПН: ФМИ: Лампа: Отключение SRT: | Топливный привод № 1 схема — открытая схема. (перед) | Двигатель отключится. |
 
 ![[19c01394.png]]
 
-Fueling Actuator Number 1 Circuit
+Заправочный привод № 1 Циркутия
 
-### Circuit Description
+### Описание цепи
 
-The fuel actuators are actuated by the ECM to control fuel metering. Each fuel actuator is connected to the ECM by a supply and a return wire. An electrical pulse is sent to the fuel actuator from the ECM on the supply wire and returns to the ECM on the return wire. Each solenoid valve is normally closed, and it is **only** opened by an electrical pulse from the ECM during metering.
+Приводы топлива приводятся в действие ECM для управления замером топлива. Каждый топливный привод соединен с ECM посредством подачи и обратной проволоки. Электрический импульс отправляется в топливный привод от ECM на подаче провода и возвращается в ECM на обратном проводе. Каждый соленоидный клапан обычно закрыт, и он открыт только электрическим импульсом от ECM во время измерения.
 
-### Component Location
+### Расположение компонента
 
-The front fueling actuator is mounted on the fuel delivery housing. It is the actuator closest to the front of the QSX15 engine.
+Передний привод заправки установлен на корпусе подачи топлива. Это привод, ближайший к передней части двигателя QSX15.
 
-### Shoptalk
+### Практические замечания
 
-The possible failure modes are open circuit, short to ground, high actuator resistance, supply wire shorted to battery, and loss of boost voltage inside of ECM.
+Возможные режимы отказа - это открытая цепь, короткая к земле, высокое сопротивление привода, провод питания, закороченный к батарее, и потеря напряжения наддува внутри ECM.
 
-Refer to Troubleshooting Fault Code t05-378
+См. Код устранения неполадок t05-378
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 378
+>
+> ### Fueling Actuator Number 1 - Open Circuit (Front)
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 378 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Fueling actuator Number 1 circuit - open circuit. (front) | Engine will shut down. |
+>
+> Fueling Actuator Number 1 Circuit
+>
+> ### Circuit Description
+>
+> The fuel actuators are actuated by the ECM to control fuel metering. Each fuel actuator is connected to the ECM by a supply and a return wire. An electrical pulse is sent to the fuel actuator from the ECM on the supply wire and returns to the ECM on the return wire. Each solenoid valve is normally closed, and it is **only** opened by an electrical pulse from the ECM during metering.
+>
+> ### Component Location
+>
+> The front fueling actuator is mounted on the fuel delivery housing. It is the actuator closest to the front of the QSX15 engine.
+>
+> ### Shoptalk
+>
+> The possible failure modes are open circuit, short to ground, high actuator resistance, supply wire shorted to battery, and loss of boost voltage inside of ECM.
+>
+> Refer to Troubleshooting Fault Code t05-378

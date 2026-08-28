@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-031-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-019-031-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Engine Control Module
@@ -34,10 +36,26 @@ tags:
 > **Даты:** изменён 2014-04-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-031-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-019-031-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the six capscrews which hold the ECM to the control valve body.
 
-Remove the ECM from the control valve body.
+### Снятие
+
+Удалите шесть болтов, которые удерживают ECM, в корпус управляющего клапана.
+
+Удалите ECM из корпуса управляющего клапана.
 
 ![[19400294.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the six capscrews which hold the ECM to the control valve body.
+>
+> Remove the ECM from the control valve body.

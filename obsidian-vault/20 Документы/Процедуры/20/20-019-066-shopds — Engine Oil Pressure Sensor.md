@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-066-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-019-066-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Pressure Sensor
@@ -34,10 +36,26 @@ tags:
 > **Даты:** изменён 2004-05-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-066-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-019-066-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Lift up the tab and disconnect the connector from the sensor.
 
-Remove the sensor from the engine block. Use a deep flank drive socket, Part No. 3823843.
+### Снятие
+
+Поднимите вкладку и отсоедините разъем от датчика.
+
+Удалите датчик из блока двигателя. Используйте розетку с глубоким флангом, номер детали. 3823843.
 
 ![[19400437.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Lift up the tab and disconnect the connector from the sensor.
+>
+> Remove the sensor from the engine block. Use a deep flank drive socket, Part No. 3823843.

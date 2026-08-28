@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666134"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-200-002.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-200-002.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Lubricating Oil System
@@ -34,64 +36,126 @@ tags:
 > **Даты:** изменён 2005-09-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-200-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-200-002.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Диаграмма потока
 
 ![[07a00149.png]]
 
-1. Full-flow filter head
-2. Full-flow filter(s)
-3. Lubricating oil pump
-4. High-pressure regulator
-5. Suction tube
-6. Lubricating oil cooler
-7. Low-pressure and lubricating oil cooler bypass regulator
-8. Signal line
-9. Cold oil flow
-10. Hot oil flow
-11. Bypass filters
-12. Oil cooler bypass valve
-13. Bypass valve spring
-14. Regulator valve
-15. Regulator valve spring
-16. Valve body
-17. From main gallery (signal line)
-18. From oil cooler
-19. To oil pan
-20. To oil filter.
+1. Полнотекучий фильтр головки
+2. Фильтр (фильтры) полного потока
+3. Масляный насос
+4. Регулятор высокого давления
+5. всасывающая трубка
+6. Маслоохладитель
+7. Охладитель низкого давления и моторного масла обходной регулятор
+8. Сигнальная линия
+9. Холодный поток нефти
+10. Теплый поток нефти
+11. Обходные фильтры
+12. Масляный охладитель шунтирующий клапан
+13. пружина обходного клапана
+14. Клапан регулятора
+15. Регуляторная пружина клапана
+16. Тело клапана
+17. Главная галерея (сигнальная линия)
+18. От масляного кулера
+19. Заправлять поддон
+20. В масляный фильтр.
 
 ![[07a00012.png]]
 
-Piston Cooling, Connecting Rod, Overhead
+Piston Cooling, Connecting Rod, Overhead (перевод)
 
-1. Crankshaft oil drillings
-2. Main oil drillings
-3. Connecting rod wrist pin oil supply
-4. Upper rocker lever oil supply
-5. Piston cooling oil drilling
-6. Cam follower oil drilling
-7. Piston cooling nozzle.
+1. Бурение нефтяных скважин коленчатого вала
+2. Основные нефтяные бурения
+3. Подключение стержневого штифта к зажиму подачи масла
+4. Верхний клапан клапана качели рукав подачи масла
+5. Piston охлаждает бурение нефти
+6. бурение кранового масла
+7. Форсунка охлаждения поршня.
 
 ![[07a00150.png]]
 
-Front Gear Train
+Поезд Front Gear
 
-1. Right-bank (large) idler gear
-2. Right-bank (small) idler gear
-3. Piston cooling oil supply drillings
-4. Left-bank (large) idler gear.
+1. Правобережная (большая) шестерня
+2. Правобережная (малая) шестерня
+3. Бурение трубопроводов для охлаждения нефти
+4. Левобережное (большое) снаряжение для бездельников.
 
 ![[07a00151.png]]
 
-Turbocharger
+Турбокомпрессор
 
-1. Piston cooling oil supply drilling
-2. Turbocharger oil supply
-3. Turbocharger oil drain.
+1. Piston охлаждает бурение нефтяных запасов
+2. Поставка масла турбокомпрессора
+3. Слив масла с турбокомпрессора.
 
 ![[07a00015.png]]
 
-Lubricating Oil Filter Head
+Головка масляного фильтра
 
-1. Oil supply
-2. Oil drain
-3. Oil filters.
+1. Нефтепродукты
+2. Слив нефти
+3. Масляные фильтры.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> 1. Full-flow filter head
+> 2. Full-flow filter(s)
+> 3. Lubricating oil pump
+> 4. High-pressure regulator
+> 5. Suction tube
+> 6. Lubricating oil cooler
+> 7. Low-pressure and lubricating oil cooler bypass regulator
+> 8. Signal line
+> 9. Cold oil flow
+> 10. Hot oil flow
+> 11. Bypass filters
+> 12. Oil cooler bypass valve
+> 13. Bypass valve spring
+> 14. Regulator valve
+> 15. Regulator valve spring
+> 16. Valve body
+> 17. From main gallery (signal line)
+> 18. From oil cooler
+> 19. To oil pan
+> 20. To oil filter.
+>
+> Piston Cooling, Connecting Rod, Overhead
+>
+> 1. Crankshaft oil drillings
+> 2. Main oil drillings
+> 3. Connecting rod wrist pin oil supply
+> 4. Upper rocker lever oil supply
+> 5. Piston cooling oil drilling
+> 6. Cam follower oil drilling
+> 7. Piston cooling nozzle.
+>
+> Front Gear Train
+>
+> 1. Right-bank (large) idler gear
+> 2. Right-bank (small) idler gear
+> 3. Piston cooling oil supply drillings
+> 4. Left-bank (large) idler gear.
+>
+> Turbocharger
+>
+> 1. Piston cooling oil supply drilling
+> 2. Turbocharger oil supply
+> 3. Turbocharger oil drain.
+>
+> Lubricating Oil Filter Head
+>
+> 1. Oil supply
+> 2. Oil drain
+> 3. Oil filters.

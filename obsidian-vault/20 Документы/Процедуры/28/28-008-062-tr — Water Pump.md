@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021528"
 figures: 62
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-062-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-062-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
+  - "перевод/машинный"
 ---
 
 # Water Pump
@@ -34,768 +36,1420 @@ tags:
 > **Даты:** изменён 2020-03-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-062-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-062-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Jacket
 
-> [!warning] CAUTION · Осторожно
-> The seal will malfunction if the spring tension is not correct. One drop of Loctite® 290, or equivalent, must be applied on the joint between the seat and the shaft. More than one drop of the sealant can contact the sealing surfaces and cause the seal to malfunction.
+### Общие сведения
 
-> [!warning] CAUTION · Осторожно
-> Use of the K50 water pump inlet connection on low temperature aftercooler (LTA) equipped engines will result in excessive cooling system pressures and cooling system malfunctions.
+Жакет
 
-The K38 and K50 water pumps are the same physical size but contain different parts. The correct water pump **must** be installed. If the correct parts are **not** installed, the performance of the water pump will **not** be within specifications.
+> [!warning] ОСТОРОЖНО
+> Уплотнение будет работать неправильно, если весеннее напряжение не правильное. Одна капля Loctite® 290 или эквивалентная, должна быть нанесена на стык между сиденьем и валом. Более одной капли герметика может контактировать с уплотнительными поверхностями и привести к неисправности уплотнения.
 
-The water pump is a centrifugal pump with cast iron impellers **only**. The water pump is gear-driven by a spline coupling. This coupling connects the pump to the water pump drive.
+> [!warning] ОСТОРОЖНО
+> Использование впускного соединения водяного насоса К50 на низкотемпературных двигателях с послеохлаждением (LTA) приведет к чрезмерному давлению системы охлаждения и неисправностям системы охлаждения.
 
-The water pump contains two ball-type bearings. The bearings are lubricated with pressurized engine oil. The new K38 and K50 water pumps contain a front large ball bearing that is a single row type bearing. Older pumps contain a double row type bearing. The water pump body and the bearing spacer are different for the single and double row bearings. If the front bearing is replaced, the same type of bearing **must** be installed.
+Водяные насосы K38 и K50 имеют одинаковый физический размер, но содержат разные части. Правильный водяной насос **должен быть установлен. Если установлены правильные детали **не**, производительность водяного насоса **не будет соответствовать спецификациям.
 
-The water pump shaft and impeller were changed to increase the torque capability of the shaft and impeller joint. The bore in the impeller is smaller. The drive key, the notch for the drive key, and the self-locking capscrew in the impeller were omitted. The older and the new shafts and impellers can be combined, but the torque capability of the joint will **not** be increased. If older and new parts are combined, the drive key and the self-locking capscrew **must** be omitted.
+Водяной насос представляет собой центробежный насос с чугунными рабочими колесами **только**. Водяной насос приводится в движение с помощью шпильной связи. Эта связь соединяет насос с приводом водяного насоса.
 
-The impeller and the water inlet connection have a machined angle that is critical to the performance of the pump. The older and the new K38 parts do **not** have the same angle and are **not** to be combined. The K50 impeller and water inlet connection are always machined to the same angle, but are different than the older and new K38 parts.
+Водный насос содержит два шариковых подшипника. Подшипники смазываются моторным маслом под давлением. Новые водяные насосы K38 и K50 содержат передний большой шарикоподшипник, который является подшипником одного ряда. Старые насосы содержат подшипник двойного ряда. Корпус водяного насоса и подшипниковый прокладочный насос отличаются для однорядных и двухрядных подшипников. Если передний подшипник заменен, то должен быть установлен тот же тип подшипника *.
 
-The water pump shaft was also changed. The new shaft contains one retaining ring **only** and requires a spacer between the two bearings. The spacer is different for the single row and double row, front, large bearing. The older shaft contains two retaining rings and does **not** require a spacer. The older shaft can be installed **only** when the double row bearing is required. If the older shaft is replaced, the correct bearing and spacer **must** be installed for the water pump body.
+Вал и крыло водяного насоса были изменены, чтобы увеличить крутящий момент вала и крыльчатого сустава. Цилиндр, который висел в крыле, меньше. Ключ привода, выемка для ключа привода и самоблокирующиеся болты в крыле не были опущены. Старые и новые валы и рабочие колеса могут быть объединены, но крутящий момент соединения будет **не** увеличен. Если старые и новые детали объединены, ключ привода и самоблокирующиеся болты должны быть опущены.
 
-The water pump contains an oil seal and a water pump seal. A revised water seal was introduced into production in October, 1997 (Engine Serial Number First 33139138). The cavity between these seals has a vent. The vent prevents contamination of the lubricant or coolant if a seal leaks. Oil and coolant seeping from the vent will **not** harm the operation of the pump. Check the vent for any obstruction at each scheduled maintenance interval. The recommended interval is 250 hours or 6 months of operation.
+Рабочий колесо и впускное соединение с водой имеют обработанный угол, который имеет решающее значение для производительности насоса. Старые и новые части K38 имеют одинаковый угол и не должны быть объединены. Движок K50 и впускное соединение всегда обрабатываются под одним углом, но отличаются от старых и новых деталей K38.
 
-The water seal was changed from a two piece to a unitized, one piece design. The seal and seat are fastened together in this design. This helps to prevent malfunctions caused by dirt or oil contacting the seal and seat surfaces during installation. A special tool **must** be used to install the one piece seal so that the seat is installed at the correct dimension from the water pump body. Correct installation results in proper spring tension.
+Также был изменен вал водяного насоса. Новый вал содержит одно удерживающее кольцо **только **и требует прокладки между двумя подшипниками. Пространство отличается для одинарного ряда и двойного ряда, передней, большой подшипник. Старый вал содержит два удерживающих кольца и не требует прокладки. Старый вал может быть установлен только тогда, когда требуется двойной подшипник. Если старый вал заменен, то для корпуса водяного насоса необходимо установить правильный подшипник и разъем *.
 
-Additional information regarding other parts of the cooling system can be found within this section.
+Водный насос содержит масляную печать и водяной насос. Пересмотренный водяной уплотнитель был введен в производство в октябре 1997 года (серийный номер двигателя № 33139138). Полость между этими тюленями имеет вентиляционное отверстие. Вентиляционное отверстие предотвращает загрязнение смазки или охлаждающей жидкости, если уплотнение протекает. Масло и теплоноситель, просачивающиеся из вентиляционного отверстия, **не** нанесут вред работе насоса. Проверьте вентиляционное отверстие на наличие каких-либо препятствий в каждый запланированный интервал технического обслуживания. Рекомендуемый интервал составляет 250 часов или 6 месяцев работы.
 
-K50 engines fitted with an LTA system use the K38 water pump and water pump inlet connection.
+Водяной уплотнитель был изменен с двух частей на единую, единую конструкцию. Уплотнение и сиденье скреплены вместе в этой конструкции. Это помогает предотвратить неисправности, вызванные попаданием грязи или масла в уплотнение и поверхности сидений во время установки. Специальный инструмент должен использоваться для установки уплотнения из одного куска, чтобы сиденье было установлено в правильном размере от корпуса водяного насоса. Правильная установка приводит к правильному весеннему напряжению.
 
-The water pump inlet connection is designed for optimum coolant flow split and decreases the possibility of reverse flow through the main radiator core via the bypass tube. A revised larger diameter water bypass tube is also used.
+Дополнительную информацию о других частях системы охлаждения можно найти в этом разделе.
 
-The following table details the compatibility of the water pump parts.
+Двигатели K50, оснащенные системой LTA, используют водяной насос K38 и впускное соединение водяного насоса.
 
-> [!note] Note · Примечание
-> If the shaft does **not** contain threads in the end for the impeller, the drive key **must** be omitted.
+Впускное соединение водяного насоса предназначено для оптимального разделения потока охлаждающей жидкости и уменьшает возможность обратного потока через основной радиатор через шунтирующую трубку. Также используется пересмотренная трубка для обхода воды большего диаметра.
 
-> [!note] Note · Примечание
-> If the impeller does **not** contain a slot on the side that has vanes, the drive key and self-locking capscrew **must** be omitted.
+В следующей таблице подробно описана совместимость деталей водяного насоса.
 
-> [!note] Note · Примечание
-> If the shaft contains threads in the end for the impeller, and the impeller contains a slot on the side that has vanes, the drive key and self-locking capscrew **must** be installed.
+> [!note] Примечание
+> Если вал содержит резьбу в конце для рабочего колеса, ключ привода должен быть опущен.
 
-### Preparatory Steps
+> [!note] Примечание
+> Если движитель **не** содержит слот на стороне, которая имеет лопасти, ключ привода и самоблокирующиеся болты должны быть опущены.
 
-Jacket
+> [!note] Примечание
+> Если вал содержит резьбу в конце для рабочего колеса, а рабочий колесо содержит щель на стороне, которая имеет лопасти, ключ привода и самоблокирующиеся болты должны быть установлены.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+Жакет
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-- Disconnect the battery cables. See equipment manufacturer service information.
-- Drain the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the coolant bypass tube. Refer to Procedure 008-005 in Section 8.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Dual Impeller
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+- Отсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- Слейте охлаждающую жидкость.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите трубку для обхода охлаждающей жидкости. См. процедуру 008-005 в разделе 8.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+Двойной Империал
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
 
-- Disconnect the battery cables. See equipment manufacturer service information.
-- Drain the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the alternator drive belt. [[28-013-005-tr — Charging System Alternator Drive Belt|Refer to Procedure 013-005 in Section 13.]]
-- Remove the alternator drive pulley. [[28-009-010-tr — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
-- Remove the water pump bypass and feed tubes. [[28-008-138 — Water Pump Plumbing|Refer to Procedure 008-138 in Section 8.]]
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-### Remove
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Jacket
+- Отсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- Слейте охлаждающую жидкость.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Снимите ремень привода генератора.[[28-013-005-tr — Charging System Alternator Drive Belt|См. процедуру 013-005 в разделе 13.]]
+- Удалите шкив привода генератора.[[28-009-010-tr — Charging System Alternator Drive Pulley|См. процедуру 009-010 в разделе 9.]]
+- Удалите водяной насос шунтирование и кормовые трубки.[[28-008-138 — Water Pump Plumbing|См. процедуру 008-138 в разделе 8.]]
 
-Disconnect the lower radiator hose from the water pump inlet.
+### Снятие
 
-> [!note] Note · Примечание
-> On LTA-equipped engines, disconnect the water filter hoses.
+Жакет
+
+Отсоедините нижний шланг радиатора от входного отверстия водяного насоса.
+
+> [!note] Примечание
+> На двигателях, оборудованных LTA, отсоедините шланги фильтра для воды.
 
 ![[08600654.png]]
 
-Remove the two capscrews and heavy washers (6) that hold the support bracket (4) to the cylinder block.
+Удалите два болта и тяжелые шайбы (6), которые удерживают опорную кронштейн (4) на блок цилиндра.
 
-Remove the four capscrews that hold the housing (2) to the water pump (3). Note that the two washers (5) are heavy washers.
+Удалите четыре болта, которые удерживают корпус (2), к водяному насосу (3). Обратите внимание, что две шайбы (5) являются тяжелыми шайбами.
 
-Remove the support bracket. Pull the housing from the pump.
+Снимите опорную кронштейн. Вытащите кожух из насоса.
 
-Remove and discard the o-ring (1).
+Удалить и выбросить кольцо (1).
 
 ![[wi600ha.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the four capscrews that hold the adapter plate (2) to the cylinder block.
+Удалите четыре болта, которые удерживают пластину адаптера (2), в блок цилиндров.
 
-Remove the four capscrews that hold the pump (3) to the water pump drive (6). Remove the pump and the coupling (4). Remove the plate (2) from the pump.
+Удалите четыре болта, которые удерживают насос (3), на привод водяного насоса (6). Удалить насос и соединительную систему (4). Удалите пластину (2) из насоса.
 
-Remove and discard the o-ring seal (1) and the gasket (5).
+Удалить и выбросить уплотнение (1) и прокладку (5).
 
 ![[wp600ha.png]]
 
-Dual Impeller
+Двойной Империал
 
-> [!note] Note · Примечание
-> The procedure for the QSK60 engine is shown. The procedure for the QSK38 and QSK50 engine is similar.
+> [!note] Примечание
+> Показано, как работает двигатель QSK60. Процедура для двигателей QSK38 и QSK50 аналогична.
 
-Open the draincock on the engine block (1) and the water pump (2).
+Откройте дренажный клапан на блоке (1) двигателя и водяной насос (2).
 
 ![[08600747.png]]
 
-Remove the four capscrews and jacket water radiator inlet connection.
+Удалите четыре болта и впускное соединение водяного радиатора.
 
 ![[08600798.png]]
 
-Remove the capscrews and jacket water inlet connection.
+Удалите болты и впускное соединение с водой.
 
 ![[08600799.png]]
 
-Remove the two capscrews (2) from the engine block (1) and the water pump support bracket (3).
+Удалите два болта (2) из блока (1) двигателя и опорный кронштейн водяного насоса (3).
 
-Remove the two capscrews (2) from the water pump (4), and the water pump support bracket (3).
+Удалите два болта (2) из водяного насоса (4) и опорный кронштейн водяного насоса (3).
 
-Remove the capscrews (2) and the water pump support bracket (3) from the water pump (4), and the engine block (1).
+Удалите болты (2) и опорный кронштейн (3) водяного насоса (4) и блок (1) двигателя.
 
 ![[08600750.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the six capscrews (1) from the water pump (2) and the gear housing (3).
+Удалите шесть болтов (1) из водяного насоса (2) и зубчатого кожуха (3).
 
-Remove the four capscrews (4) from the engine block (5).
+Удалите четыре болта (4) из блока двигателя (5).
 
-Remove the water pump from the front gear housing.
+Удалите водяной насос из передней шестеренки.
 
 ![[08600751.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Jacket
+Жакет
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturers' recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При использовании растворителей, кислот или щелочных материалов для очистки следуйте рекомендациям производителей по применению. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean all gasket surfaces.
+Очистите все прокладочные поверхности.
 
-Use solvent to clean the drive shaft end of the pump.
+Используйте растворитель для очистки конца приводного вала насоса.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[wp600fa.png]]
 
-Rotate the shaft to check the bearings for damage or wear. An end clearance of 0.05 to 0.010 mm \[0.002 to 0.004 in\] is required.
+Поверните вал, чтобы проверить подшипники на предмет повреждения или износа. Требуется конечный зазор от 0,05 до 0,010 мм \[0,002 до 0,004 дюйма \].
 
-If the bearings are damaged or worn, the pump **must** be rebuilt.
+Если подшипники повреждены или изношены, насос должен быть восстановлен.
 
 ![[wp6beca.png]]
 
-Check the splines on the shaft and the coupling for damage or wear.
+Проверьте линии на валу и сцепке на предмет повреждения или износа.
 
-If the splines on the shaft are worn or damaged, the pump **must** be rebuilt.
+Если сплайны на валу изношены или повреждены, насос должен быть восстановлен.
 
-If the splines in the coupling are worn, the coupling **must** be replaced.
+Если сплины в соединении изношены, соединение должно быть заменено.
 
-If the splines that contact the water pump drive are worn, check the shaft in the drive.
+Если сплайны, которые контактируют с приводом водяного насоса, изношены, проверьте вал в приводе.
 
 ![[wp6shca.png]]
 
-Dual Impeller
+Двойной Империал
 
-A minor chemical build-up or streaking at the water pump weep hole (1) is normal. Do **not** replace the water pump unless an actual leak is confirmed. If a leak is confirmed, contact a Cummins® Authorized Repair Location for replacement.
+Незначительное химическое накопление или наращивание на сливном отверстии водяного насоса (1) является нормальным. Не заменяйте водяной насос, если фактическая утечка не подтверждена. Если утечка подтверждена, обратитесь в авторизованное место ремонта Cummins для замены.
 
-> [!note] Note · Примечание
-> Engines with a weep hole filter (2) installed may experience an occasional drip and minor chemical buildup from the filter. This is normal and does **not** indicate a leaking pump. Do **not** replace the water pump unless an actual leak is confirmed.
+> [!note] Примечание
+> Двигатели с установленным фильтром (2) для слезоточивого отверстия могут испытывать случайную капельную и небольшую химическую нарастание из фильтра. Это нормально и не указывает на утечку насоса. Не заменяйте водяной насос, если фактическая утечка не подтверждена.
 
 ![[08s00016.png]]
 
-### Disassemble
+### Разборка
 
-Jacket
+Жакет
 
-Remove the following parts:
+Удалите следующие части:
 
-- Spline coupling (1)
-- Mounting gasket (2)
-- Adapter plate (3)
-- O-ring (4)
-- Adapter plate gasket (5).
+- Сплайн-связь (1)
+- Укладка прокладки (2)
+- Адаптивная пластина (3)
+- О-кольцо (4)
+- Прокладка адаптерной пластины (5).
 
-Discard the o-ring and gasket.
+Отбросьте кольцо и прокладку.
 
 ![[wp600fa.png]]
 
-Remove the following parts:
+Удалите следующие части:
 
-- Water inlet connection (6)
-- Gasket (7)
-- Support bracket (8)
-- Draincock (9).
+- Впускное соединение с водой (6)
+- Гаскет (7)
+- Поддержка (8)
+- сливной клапан (9).
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[wp600fb.png]]
 
-Remove the following parts:
+Удалите следующие части:
 
-- Capscrews (10)
-- Water pump inlet connection (11)
-- O-ring seal (12).
+- болты (10)
+- Впускное соединение водяного насоса (11)
+- Уплотнение кольца (12).
 
-Discard the o-ring.
+Отбросьте кольцо.
 
 ![[wp600fc.png]]
 
-> [!note] Note · Примечание
-> The latest water pumps and rebuilt water pumps with revised shafts or impellers do **not** contain the drive key and capscrew.
+> [!note] Примечание
+> Последние водяные насосы и восстановленные водяные насосы с пересмотренными валами или крыльцами **не** содержат ключ привода и болты.
 
-Remove the following parts:
+Удалите следующие части:
 
-- Self-locking capscrew (12)
-- Drive key (13).
+- Самоблокирующиеся болты (12)
+- Ключ от привода (13).
 
 ![[wp600fd.png]]
 
-> [!warning] CAUTION · Осторожно
-> The puller screw must pass easily through the impeller bore to prevent damage.
+> [!warning] ОСТОРОЖНО
+> Винт съёмника должен легко проходить через цилиндрический цилиндр, чтобы предотвратить повреждение.
 
-> [!warning] CAUTION · Осторожно
-> The puller screw must not damage the threads in the shaft if the shaft is to be installed again with an impeller that has a slot for a drive key. Install a short capscrew in the shaft to protect the threads.
+> [!warning] ОСТОРОЖНО
+> Винт съёмника не должен повредить резьбу в валу, если вал должен быть снова установлен с помощью крыльца, который имеет слот для ключа привода. Установите короткие болты в вале для защиты резьбы.
 
-Use a standard puller, Part Number ST-647, or equivalent. Remove the impeller.
+Используйте стандартный съёмник, номер детали ST-647 или эквивалент. Удалите крыльцо.
 
-Clean and check the impeller for damage.
+Очистите и проверьте колесо на предмет повреждения.
 
 ![[wp4ipma.png]]
 
-Remove the large retaining ring (14).
+Удалите большое удерживающее кольцо (14).
 
 ![[wp600fe.png]]
 
-Use an arbor press to support the water pump body. Push on the impeller end of the shaft. Remove the bearing and shaft assembly.
+Используйте пресс для поддержки корпуса водяного насоса. Нажмите на конец вала крыльца. Удалить подшипник и вал сборки.
 
-Discard the water pump seal seat, if equipped.
+Откажитесь от сиденья для уплотнения водяного насоса, если оно оборудовано.
 
 ![[wp600ff.png]]
 
-Remove the following parts:
+Удалите следующие части:
 
-- Oil seal (15)
-- Water seal (16).
+- Нефтяная печать (15)
+- Водяной уплотнитель (16).
 
 ![[wp6sema.png]]
 
-The bearing and shaft assembly can be one of two different designs. The replacement procedure is different for the two designs. The revised bearing and shaft assembly (1), contains a retaining ring (2) nearest to the impeller end of the shaft.
+Подшипник и вал сборки могут быть одной из двух различных конструкций. Процедура замены отличается для двух конструкций. Пересмотренный подшипник и вал (1) содержит удерживающее кольцо (2), ближайшее к крыльцу крыльца вала.
 
-The previous bearing and shaft assembly (3), contains a retaining ring (2) nearest to the end of the shaft that is splined.
+Предыдущий подшипник и вал (3), содержит удерживающее кольцо (2), ближайшее к концу вала, который является разорванным.
 
-The revised assembly (1) can contain different large bearings (4), and bearing spacers (5). The bearing (4) can be a double or single row bearing. The spacer (5) for the single row bearing is longer.
+Пересмотренный сборочный (1) может содержать различные большие подшипники (4) и подшипниковые прокладки (5). Подшипник (4) может быть двух- или однорядным подшипником. Пространство (5) для однорядного подшипника длиннее.
 
-The Water Pump, General Information section in this procedure lists the correct parts.
+В разделе «Водный насос», «Общая информация» в этой процедуре перечислены правильные части.
 
-The previous assembly (3) **must** contain the double row bearing.
+Предыдущий сборочный элемент (3)* должен содержать подшипник с двойным рядом.
 
 ![[wp6shga.png]]
 
-The following steps are for the revised design of the water pump.
+Следующие шаги предназначены для пересмотренной конструкции водяного насоса.
 
-Remove the retaining ring (2).
+Удалить удерживающее кольцо (2).
 
 ![[wp6rrma.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not damage the end of the shaft if it is to be installed again. Support the assembly as shown.
+> [!warning] ОСТОРОЖНО
+> Не повреждайте конец вала, если он должен быть установлен снова. Поддержите сборку, как показано.
 
-Use a hydraulic press to support the large bearing (4) as shown.
+Используйте гидравлический пресс для поддержки большого подшипника (4), как показано.
 
-Remove the small bearing (6), spacer (5), and the large bearing (4) from the shaft (7).
+Удалите маленький подшипник (6), прокладку (5) и большой подшипник (4) из вала (7).
 
 ![[wp6bema.png]]
 
-The following step is for the previous design of the water pump.
+Следующий шаг - для предыдущей конструкции водяного насоса.
 
-Remove the retaining ring (1).
+Удалить удерживающее кольцо (1).
 
-Use a water pump bearing separator, Part Number 3375326, or equivalent. Disassemble the parts.
+Используйте сепаратор подшипника водяного насоса, номер детали 3375326 или эквивалент. Разобрать детали.
 
-Remove the front large bearing (2), spacer (5), and the rear small bearing (3)
+Удалите передний большой подшипник (2), прокладку (5), а задний маленький подшипник (3)
 
 ![[wp4bema.png]]
 
-Dual Impeller
+Двойной Империал
 
-> [!note] Note · Примечание
-> There are no replacement parts or disassembly processes for the dual impeller water pump assembly.
+> [!note] Примечание
+> Не существует заменяющих деталей или процессов разборки для двухколесной водяной насосной установки.
 
-Remove the filter (1) from the water pump weep hole drain tube.
+Удалите фильтр (1) из водонасосной трубки сливного отверстия.
 
-Remove the drain tube (2) from the weep hole fitting (3).
+Удалите дренажную трубку (2) из отверстия для плача (3).
 
-Remove the fitting (3) from the water pump.
+Удалите фитинг (3) из водяного насоса.
 
 ![[08s00014.png]]
 
-### Inspect
+### Осмотр
 
-Jacket
+Жакет
 
-> [!note] Note · Примечание
-> Three different shafts have been used. The outside diameter in the bearing area is the same.
+> [!note] Примечание
+> Использовались три различных вала. Внешний диаметр в области подшипника одинаков.
 
-Measure the outside diameter
+Измерить внешний диаметр
 
-| Water Pump Shaft Outside Diameter (Bearing Area) |  |  |
+| Водный насосный вал снаружи диаметра (место несущей) |  |  |
 |---|---|---|
-| mm |  | in |
-| 30.010 | MIN | 1.1816 |
-| 30.020 | MAX | 1.1820 |
+| мм |  | в |
+| 30.010 | Мин | 1.1816 |
+| 30.020 | Макс | 1.1820 |
 
-| Water Pump Shaft Outside Diameter (Impeller End) |  |  |
+| Водный насосный вал снаружи диаметра (конец Импеллера) |  |  |
 |---|---|---|
-| mm |  | in |
-| 24.643 | MIN | 0.971 |
-| 24.653 | MAX | 0.968 |
+| мм |  | в |
+| 24.643 | Мин | 0.971 |
+| 24.653 | Макс | 0.968 |
 
 ![[wp6shtb.png]]
 
-Measure the shaft outside diameter and the bearing inside diameter
+Измерить вал наружного диаметра и подшипник внутреннего диаметра
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | mm | in |
-| Maximum Clearance | 0.003 | 0.0001 |
+|  | мм | в |
+| Максимальная очистка | 0.003 | 0.0001 |
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | mm | in |
-| Maximum Interference | 0.018 | 0.007 |
+|  | мм | в |
+| Максимальное вмешательство | 0.018 | 0.007 |
 
-> [!note] Note · Примечание
-> The shaft outside diameter specifications are the same as for the revised design shaft.
+> [!note] Примечание
+> Технические характеристики внешнего диаметра вала такие же, как и для пересмотренного конструктивного вала.
 
 ![[wp4shta.png]]
 
-Measure the bore inside diameter.
+Измерьте диаметр цилиндра внутри.
 
-| Water Pump Impeller Inside Diameter (17) |  |  |
+| Императоры водяного насоса внутри диаметра (17) |  |  |
 |---|---|---|
-| mm |  | in |
-| 24.563 | MIN | 0.967 |
-| 24.589 | MAX | 0.968 |
+| мм |  | в |
+| 24.563 | Мин | 0.967 |
+| 24.589 | Макс | 0.968 |
 
-> [!note] Note · Примечание
-> The outside diameter is given for parts identification **only**. It is **not** necessary to measure the part.
+> [!note] Примечание
+> Внешний диаметр дается для идентификации деталей **только**. Необязательно измерять часть.
 
-| Water Pump Impeller Outside Diameter (18) |  |  |  |
+| Императоры водяного насоса снаружи диаметра (18) |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| K38 | 146 | NOM | 5.75 |
-| K50 | 171 | NOM | 6.75 |
+|  | мм |  | в |
+| K38 | 146 | НМ | 5.75 |
+| К50 | 171 | НМ | 6.75 |
 
 ![[wp6ipta.png]]
 
-> [!note] Note · Примечание
-> The angle is given for parts identification **only**. It is **not** necessary to measure the part.
+> [!note] Примечание
+> Угол дается для идентификации деталей **только**. Необязательно измерять часть.
 
-> [!note] Note · Примечание
-> All K50 water pump impellers have a 78 degree angle.
+> [!note] Примечание
+> Все крыльчатки водяного насоса К50 имеют угол 78 градусов.
 
-| K38 Water Pump Impeller Angle (19) |  |
+| Угол Императора водяного насоса K38 (19) |  |
 |---|---|
-| Part Number | Angle |
-| 3050455 | 74 degrees |
-| 3175069 | 74 degrees |
-| 3050453 | 67 degrees |
-| 3001711 | 67 degrees |
+| Номер детали | угловой |
+| 3050455 | 74 градуса |
+| 3175069 | 74 градуса |
+| 3050453 | 67 градусов |
+| 3001711 | 67 градусов |
 
-Install an impeller with a 74 degree angle **only** with a water pump inlet connection that has a 16 degree angle.
+Установите крыльцо с углом 74 градуса **только *** с впускным соединением водяного насоса, которое имеет угол 16 градусов.
 
-Install an impeller with a 67 degree angle **only** with a water pump inlet connection that has a 23 degree angle.
+Установите крыло с углом 67 градусов **только *** с впускным соединением водяного насоса, которое имеет угол 23 градуса.
 
 ![[wp6ipga.png]]
 
-| K38 and K50 Water Pump Body Bore Inside Diameter |  |  |  |
+| K38 и K50 Водяной насос Корпус цилиндра внутри диаметра |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Water Seal (21) | 53.60 | MIN | 2.110 |
-|  | 54.10 | MAX | 2.130 |
-| Oil Seal (22) | 38.05 | MIN | 1.498 |
-|  | 38.10 | MAX | 1.500 |
-| Water Seal (23) | 61.997 | MIN | 2.4408 |
-|  | 62.009 | MAX | 2.4412 |
-| Oil Seal (24) | 71.996 | MIN | 2.8345 |
-|  | 72.012 | MAX | 2.8351 |
+|  | мм |  | в |
+| Водяная печать (21) | 53.60 | Мин | 2.110 |
+|  | 54.10 | Макс | 2.130 |
+| Нефтяная печать (22) | 38.05 | Мин | 1.498 |
+|  | 38.10 | Макс | 1.500 |
+| Водяная печать (23) | 61.997 | Мин | 2.4408 |
+|  | 62.009 | Макс | 2.4412 |
+| Нефтяная печать (24) | 71.996 | Мин | 2.8345 |
+|  | 72.012 | Макс | 2.8351 |
 
 ![[wp6bdta.png]]
 
-> [!note] Note · Примечание
-> The depth of the bore is given for parts identification **only**. It is **not** necessary to measure the part.
+> [!note] Примечание
+> Глубина цилиндра дается для идентификации деталей **только**. Необязательно измерять часть.
 
-| Front Water Pump Bearing Bore Depth in Water Pump Body (25) |  |  |
+| Передний водонасосный несущий цилиндр имеет глубину в корпусе водяного насоса (25) |  |  |
 |---|---|---|
-|  | mm | in |
-| Body for single row bearing | 25.4 | 1.00 |
-| Body for double row bearing | 36.8 | 1.45 |
+|  | мм | в |
+| Корпус для однорядного подшипника | 25.4 | 1.00 |
+| Корпус для подшипников с двойным рядом | 36.8 | 1.45 |
 
 ![[wp6bdga.png]]
 
-> [!note] Note · Примечание
-> The diameter is given for parts identification **only**. It is **not** necessary to measure the part.
+> [!note] Примечание
+> Диаметр дается для идентификации деталей **только**. Необязательно измерять часть.
 
-| Water Pump Impeller **Counterbore** Inside Diameter in Water Pump Body (26) |  |  |
+| Водяной насосный имперфер **контрбор** Внутри диаметра водонасосного корпуса (26) |  |  |
 |---|---|---|
-| Engine Model | mm | in |
-| K38 (revised) | 147 | 5.8 |
-| K38 (previous) | 160 | 6.3 |
-| K50 (all) | 173 | 6.8 |
+| Модель двигателя | мм | в |
+| K38 (пересмотренный) | 147 | 5.8 |
+| K38 (предыдущее) | 160 | 6.3 |
+| K50 (все) | 173 | 6.8 |
 
 ![[wp6bdgb.png]]
 
-### Assemble
+### Сборка
 
-Jacket
+Жакет
 
-> [!warning] CAUTION · Осторожно
-> Be sure the correct large bearing is installed. If the wrong large bearing is installed, the pump will fail.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что установлен правильный большой подшипник. Если установлен неправильный большой подшипник, насос выйдет из строя.
 
-> [!warning] CAUTION · Осторожно
-> The mandrel must contact on the inner race of the bearing to prevent damage.
+> [!warning] ОСТОРОЖНО
+> Мандель должна контактировать с внутренней расой подшипника, чтобы предотвратить повреждение.
 
-> [!note] Note · Примечание
-> On the revised shafts, the bearing will **not** fit tightly on the part of the shaft that is machined smaller (10).
+> [!note] Примечание
+> На пересмотренных валах подшипник **не** плотно поместится на той части вала, которая обрабатывается меньше (10).
 
-The following steps are for the revised design shaft and bearings.
+Следующие шаги предназначены для пересмотренного дизайна вала и подшипников.
 
-Use a hydraulic press to support the shaft as shown.
+Используйте гидравлический пресс для поддержки вала, как показано.
 
-Use a water pump bearing mandrel, Part Number 3375318 (8), or equivalent.
+Используйте подшипник для водяного насоса, номер детали 3375318 (8), или эквивалент.
 
-Push the large bearing (4) on the shaft until it touches the step on the shaft (9).
+Нажмите большой подшипник (4) на вал, пока он не коснется ступеньки на вал (9).
 
 ![[wp6behb.png]]
 
-> [!warning] CAUTION · Осторожно
-> The correct spacer must be installed or the bearing assembly will not fit in the body correctly.
+> [!warning] ОСТОРОЖНО
+> Должен быть установлен правильный разъем или подшипниковый сбор не будет правильно вписываться в корпус.
 
-If the large bearing is a single row bearing (11), install the long spacer (12).
+Если большой подшипник представляет собой однорядный подшипник (11), установите длинный прокладочный (12).
 
-If the large bearing is a double row bearing (13), install the short spacer (14).
+Если большой подшипник имеет двойной ряд (13), установите короткий прокладочный (14).
 
 ![[wp6srga.png]]
 
-Install the correct spacer (5). Slide the spacer on the shaft until it touches the large bearing.
+Установите правильный пробел (5). Скользите с прокладки на вал до тех пор, пока он не коснется большого подшипника.
 
 ![[wp6srha.png]]
 
-> [!warning] CAUTION · Осторожно
-> The mandrel must contact on the inner race of the bearing to prevent damage.
+> [!warning] ОСТОРОЖНО
+> Мандель должна контактировать с внутренней расой подшипника, чтобы предотвратить повреждение.
 
-Use a hydraulic press to support the shaft as shown.
+Используйте гидравлический пресс для поддержки вала, как показано.
 
-Use a water pump bearing mandrel, Part Number 3375318 (8), or equivalent.
+Используйте подшипник для водяного насоса, номер детали 3375318 (8), или эквивалент.
 
-Push the small bearing (2) on the shaft until it touches the spacer (5).
+Нажмите на малый подшипник (2) на вал, пока он не коснется прокладки (5).
 
 ![[wp6behc.png]]
 
-Install the retaining ring (2).
+Установите удерживающее кольцо (2).
 
 ![[wp6rrma.png]]
 
-> [!warning] CAUTION · Осторожно
-> The mandrel must contact on the inner race of the bearing to prevent damage.
+> [!warning] ОСТОРОЖНО
+> Мандель должна контактировать с внутренней расой подшипника, чтобы предотвратить повреждение.
 
-> [!note] Note · Примечание
-> **Only** the large, double row front bearing can be installed on the older design shaft.
+> [!note] Примечание
+> Только большой передний подшипник с двойным рядом может быть установлен на старом конструктивном валу.
 
-The following steps are for the previous design shaft and bearings.
+Следующие шаги предназначены для предыдущего дизайна вала и подшипников.
 
-Use a water pump bearing mandrel, Part Number 3375318 (8), or equivalent. Use an appropriate mandrel (4). Use an arbor press. Support the shaft.
+Используйте подшипник для водяного насоса, номер детали 3375318 (8), или эквивалент. Используйте подходящую подставку (4). Используйте пресс-форму беседки. Поддержите вал.
 
-Install the bearings.
+Установите подшипники.
 
 ![[wp4behb.png]]
 
-Install the retaining ring.
+Установите удерживающее кольцо.
 
 ![[wp4rrhb.png]]
 
-Use water pump seal mandrel, Part Number 3375319, to install the oil seal with the stepped lip facing down toward the impeller.
+Используйте герметичную уздечку водяного насоса, номер детали 3375319, чтобы установить масляную герметичную решетку со ступенчатой губой, обращенной вниз к крыльцу.
 
-The seal **must no** t be more than 0.51mm \[0.020 in\] below the top step in the water pump housing.
+Уплотнение **не должно быть** t более 0,51 мм \[0,020 дюйма \] ниже верхней ступени в корпусе водяного насоса.
 
 ![[wp4seha.png]]
 
-Use an arbor press to support the housing.
+Используйте пресс для арбора, чтобы поддержать корпус.
 
-Use the water pump bearing driver, Part Number 3375318, or equivalent, or push on the end of the shaft. Install the assembly.
+Используйте водителю подшипника водяного насоса, часть 3375318, или эквивалент, или толкайте на конец вала. Установите сборку.
 
 ![[wp4beha.png]]
 
-The beveled edge **must** be positioned as shown. Install the large retaining ring.
+Скошенный край должен быть расположен так, как показано. Установите большое удерживающее кольцо.
 
 ![[wp4rrha.png]]
 
-> [!warning] CAUTION · Осторожно
-> When installing the seal, take care not to damage the seal lip.
+> [!warning] ОСТОРОЖНО
+> При установке уплотнения, берегитесь, чтобы не повредить губу уплотнения.
 
-Press the oil seal onto the shaft using an oil seal mandrel. If an oil seal mandrel is **not** available, press the seal onto the shaft backwards to open up the seal lip, then turn the seal the correct way around.
+Нажмите масляную печать на вал с помощью масляной герметичной лямки. Если подушка для масляной печати недоступна, нажмите на уплотнение на вал назад, чтобы открыть губу уплотнения, а затем поверните уплотнение правильно.
 
-Use a water pump seal installer (27) to press the seal into the housing past the weep hole cavity.
+Используйте установщик уплотнения водяного насоса (27), чтобы нажать уплотнение в кожух мимо полости плачущего отверстия.
 
-Reference the Tool Catalog, Publication Number 3377710, to determine which tool number to use based on the water pump seal part number.
+Ссылка на Каталог инструментов, Публикация № 3377710, чтобы определить, какой номер инструмента использовать на основе номера уплотнения водяного насоса.
 
-The installed distance (D) between the oil seal face from impeller side and the inner face in the impeller housing **must** be between 15.60 to 16.79 mm \[0.614 to 0.0661 in\].
+Установленное расстояние (D) между лицевой стороной масляного уплотнения со стороны рабочего колеса и внутренней лицевой стороной в корпусе рабочего колеса должно быть от 15,60 до 16,79 мм \[0,614 до 0,0661 дюйма \].
 
-Check after installation that the oil seal is **not** obstructing weep hole (W) entry.
+Проверьте после установки, что масляная печать **не** препятствует проникновению в отверстие для плача (W).
 
 ![[08k00028.png]]
 
-> [!warning] CAUTION · Осторожно
-> The seal will malfunction if the spring tension is not correct. One drop of Loctite® 290, or equivalent, must be applied on the joint between the seat and the shaft. More than one drop of the sealant can contact the sealing surfaces and cause the seal to malfunction.
+> [!warning] ОСТОРОЖНО
+> Уплотнение будет работать неправильно, если весеннее напряжение не правильное. Одна капля Loctite® 290 или эквивалентная, должна быть нанесена на стык между сиденьем и валом. Более одной капли герметика может контактировать с уплотнительными поверхностями и привести к неисправности уплотнения.
 
-Apply one drop **only** of Loctite® 290, or equivalent, to the seal and the parting line of the shaft.
+Применять одну каплю **только *** Loctite® 290 или эквивалентную ей, к уплотнению и линии разъединения вала.
 
 ![[wp6sehc.png]]
 
-> [!warning] CAUTION · Осторожно
-> If the impeller and shaft have a slot for the drive key, the slots must be aligned before the impeller is pushed on the shaft.
+> [!warning] ОСТОРОЖНО
+> Если крыло и вал имеют слот для ключа привода, слоты должны быть выровнены до того, как крыло будет нажато на вал.
 
-If either the impeller or shaft does **not** have a slot, omit this step. Position the impeller on the shaft so that the slots are aligned.
+Если либо крыло, либо вал имеют **не** слот, опустить этот шаг. Поместите крыло на вал так, чтобы слоты были выровнены.
 
 ![[wp6ipba.png]]
 
-Apply a smooth coating of Loctite® 609, or equivalent, to the impeller bore.
+Нанесите гладкое покрытие Loctite® 609 или эквивалентное покрытие цилиндра с рабочим колесом.
 
 ![[wp4ipha.png]]
 
-Use an arbor press and a flat steel plate to support the shaft as shown.
+Используйте пресс беседки и плоскую стальную пластину для поддержки вала, как показано.
 
-Install the impeller until it is even with the end of the shaft.
+Установите крыло, пока оно не будет даже с концом вала.
 
 ![[wp6ipha.png]]
 
-> [!note] Note · Примечание
-> If either the shaft or the impeller does **not** have a slot for the drive key, omit this step.
+> [!note] Примечание
+> Если вал или крыло колеса **не** имеют слот для ключа привода, опустить этот шаг.
 
-Install the drive key (13) and the self-locking capscrew (12).
+Установите клавишу (13) привода и самоблокирующиеся болты (12).
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[wp600fd.png]]
 
-Use vegetable oil to lubricate the o-ring.
+Используйте растительное масло для смазки кольца.
 
-Install the parts. Install the top and right capscrews.
+Установите детали. Установите верхние и правые болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[wp600fc.png]]
 
-> [!note] Note · Примечание
-> Do **not** tighten the capscrews for the bracket until the pump is installed on the engine.
+> [!note] Примечание
+> Не затягивайте болты для кронштейна до тех пор, пока насос не будет установлен на двигателе.
 
-Install the support bracket (8) and capscrews.
+Установите опорный кронштейн (8) и болты.
 
-Install the new gasket (7), connection (6), and capscrews.
+Установите новую прокладку (7), соединение (6) и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 41 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 41 Н·м [30 фунт-фут]
 
-Install the draincock (9).
+Установите дренажный клапан (9).
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [133 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [133 фунт-дюйм]
 
 ![[wp600fb.png]]
 
-Use vegetable oil to lubricate the new o-ring (4).
+Используйте растительное масло для смазки нового кольца (4).
 
-Install the o-ring in the groove of the adapter plate (3).
+Установите кольцо o-кольца в канавку пластины адаптера (3).
 
-Install the adapter plate on the body. The thinner side of the plate **must** be nearer to the water pump body.
+Установите пластину адаптера на корпус. Более тонкая сторона пластины должна быть ближе к корпусу водяного насоса.
 
 ![[wp6plha.png]]
 
-Use clean engine oil to lubricate the bearings while rotating the shaft.
+Используйте чистое моторное масло для смазки подшипников при вращении вала.
 
-Use clean engine oil to lubricate the splines on the shaft.
+Используйте чистое моторное масло для смазки сплайнов на валу.
 
-Install the spline coupling (1).
+Установите сплин-сцепку (1).
 
 ![[wp6cpha.png]]
 
-Dual Impeller
+Двойной Империал
 
-Install the weep hole drain tube fitting (3) onto the water pump and tighten.
+Установите трубку для слива слезного отверстия (3) на водяной насос и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 12 n•m [106 in-lb]
+> [!tip] Момент затяжки
+> 12 Н·м [106 фунт-дюйм]
 
-Install the weep hole drain tube (2) onto the fitting (3) and tighten the compression nut.
+Установите трубку для слива слезного отверстия (2) на фитинг (3) и затяните компрессионный орех.
 
-> [!tip] Момент затяжки · Torque Value
-> 12 n•m [106 in-lb]
+> [!tip] Момент затяжки
+> 12 Н·м [106 фунт-дюйм]
 
-Install the filter (1) onto the weep hole drain tube (2).
+Установите фильтр (1) на трубку для слива слезного отверстия (2).
 
 ![[08s00014.png]]
 
-### Install
+### Установка
 
-Jacket
+Жакет
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Install the o-ring (1) in the groove in the water pump adapter plate (2). Use vegetable oil to lubricate the o-ring.
+Установите кольцо (1) в канавку в пластине адаптера водяного насоса (2). Используйте растительное масло для смазки кольца.
 
-> [!note] Note · Примечание
-> The adapter plate **must** be installed so the groove in the plate is toward the pump.
+> [!note] Примечание
+> Пластина адаптера должна быть установлена так, чтобы канавка в пластине была направлена к насосу.
 
-Install the adapter plate on the water pump (3).
+Установите пластину адаптера на водяной насос (3).
 
-Install the spline coupling (4) and the water pump shaft. Install the gasket (5) on the pilot on the water pump. Align the holes.
+Установите шпильную муфту (4) и вал водяного насоса. Установить прокладку (5) на пилота на водяной насос. Выровняйте отверстия.
 
-Position the pump on the water pump drive (6). Rotate the pump to align the spline coupling with the splines on the water pump drive shaft. Install the four lock washers and capscrews that hold the drive to the pump. Tighten the capscrews **only** enough to hold the parts together.
+Поместите насос на водный насос (6). Поверните насос, чтобы выровнять сплин с шпильками на вале привода водяного насоса. Установите четыре шайбы и болты, которые удерживают привод к насосу. Затягивайте болты **только** достаточно, чтобы удерживать детали вместе.
 
-Install the gasket (7) between the adapter plate and the cylinder block. Install, but do **not** tighten, the four lock washers and capscrews that hold the plate to the cylinder block.
+Установите прокладку (7) между пластиной адаптера и блоком цилиндра. Установите, но не затягивайте, четыре шайбы и болты, которые удерживают пластину до блока цилиндров.
 
-Rotate the pump housing so that the pump outlet and the adapter plate are as close to the cylinder block as possible.
+Поверните корпус насоса так, чтобы выпуск насоса и пластина адаптера были как можно ближе к блоку цилиндра.
 
-Tighten the four pump-to-pump drive capscrews.
+Затянуть четыре насоса-насос приводных болтов.
 
-> [!tip] Момент затяжки · Torque Value
-> 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> 60 Н·м [44 фунт-фут]
 
-Tighten the four cylinder block capscrews to the adapter plate.
+Затянуть четыре цилиндра блок болтов на пластину адаптера.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[wp600ha.png]]
 
-Install the o-ring (1) in the groove on the inlet housing (2). Use vegetable oil to lubricate the seal.
+Установите кольцо (1) в канавке на впускной кожух (2). Используйте растительное масло для смазки уплотнения.
 
-Install the housing in the bore in the water pump (3). Align the holes. Install the two lock washers and capscrews in the top and outside capscrew holes. Tighten the capscrews **only** enough to hold the parts together.
+Установить кожух в цилиндр, который был в водяном насосе (3). Выровняйте отверстия. Установите две шайбы и болты замка в верхние и наружные отверстия болтов. Затягивайте болты **только** достаточно, чтобы удерживать детали вместе.
 
-Install the bracket (4) to the pump using two large flat washers (6), lock washers and capscrews. Tighten the capscrews **only** enough to hold the bracket to the housing.
+Установите кронштейн (4) на насос с помощью двух больших плоских шайб (6), шайб и болтов. Затягивайте болты **только *** достаточно, чтобы удерживать скобку к корпусу.
 
-Install the two large flat washers (5), lock washers, and capscrews that hold the bracket to the hand hole cover. Tighten the capscrews **only** enough to hold the bracket to the hand hole cover.
+Установите две большие плоские шайбы (5), запирайте шайбы и болты, которые удерживают кронштейн к крышке ручного отверстия. Затягивайте болты **только *** достаточно, чтобы удерживать кронштейн к крышке отверстия для рук.
 
-> [!note] Note · Примечание
-> Make sure the bracket remains flat against both the housing and the hand cover while tightening the capscrews. If the bracket does not remain flat, it will malfunction and cause the pump or pump drive to also malfunction.
+> [!note] Примечание
+> Убедитесь, что скобка остается плоской как на корпусе, так и на крышке руки при затягивании болтов. Если кронштейн не остается плоским, он будет работать неправильно и вызовет неисправность насоса или насосного привода.
 
-Tighten the four capscrews that hold the bracket to the inlet housing, and the inlet housing to the pump.
+Затяните четыре болта, которые удерживают кронштейн на входном корпусе, и входной корпус на насосе.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
-Tighten the capscrews that hold the bracket to the hand hole cover.
+Затяните болты, которые удерживают кронштейн к крышке отверстия для рук.
 
-> [!tip] Момент затяжки · Torque Value
-> 60 n•m [44 ft-lb]
+> [!tip] Момент затяжки
+> 60 Н·м [44 фунт-фут]
 
 ![[wi600ha.png]]
 
-Replace the coolant filter. Refer to Procedure 008-006 in Section 8.
+Замените фильтр охлаждающей жидкости. См. процедуру 008-006 в разделе 8.
 
 ![[08600655.png]]
 
-Connect the lower radiator hose to the water pump inlet.
+Подсоедините нижний шланг радиатора к входному вентиляционному насосу.
 
-Connect the water filter lines.
+Соедините линии фильтра воды.
 
 ![[08600654.png]]
 
-Dual Impeller
+Двойной Империал
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Install the water pump (2) into the gear housing (3). Use the six capscrews (1) and a new gasket.
+Установите водяной насос (2) в корпус (3) передач. Используйте шесть болтов (1) и новую прокладку.
 
-Install the four capscrews (4) to the engine block (5). Use a new gasket.
+Установите четыре болта (4) на блок двигателя (5). Используйте новую прокладку.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> Water Pump Mounting Capscrews 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Водяной насос Монтажные болты 45 Н·м [33 фут-лб]
 
 ![[08600751.png]]
 
-Install the capscrews (2) and the water pump support bracket (3) to the water pump (4) and the engine block (1).
+Установите болты (2) и подвеску водяного насоса (3) к водяному насосу (4) и блоку двигателя (1).
 
-Install the two capscrews (2) to the water pump (4) and the water pump support bracket (3).
+Установите два болта (2) на водяной насос (4) и опорный кронштейн водяного насоса (3).
 
-Install the two capscrews (2) to the engine block (1) and the water pump support bracket (3).
+Установите два болта (2) на блок (1) двигателя и опорный кронштейн водяного насоса (3).
 
-> [!tip] Момент затяжки · Torque Value
-> Support Bracket Capscrews 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Поддержка болтов для кронштейнов 45 Н·м [33 фут-лб]
 
 ![[08600750.png]]
 
-Lubricate the new o-ring on the jacket water inlet.
+Смазать новое кольцо на впускной воде куртки.
 
-Install the jacket water inlet and capscrews onto the water pump.
+Установите впуск воды в куртку и болты на водяной насос.
 
-> [!tip] Момент затяжки · Torque Value
-> Jacket Water Inlet Capscrews 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Впускные болты для воды в куртке 45 Н·м [33 фут-лб]
 
 ![[08600799.png]]
 
-Install the jacket water radiator inlet connection, gasket, and four capscrews.
+Установите впускное соединение водоизлучателя куртки, прокладку и четыре болта.
 
-> [!tip] Момент затяжки · Torque Value
-> Jacket Water Radiator Inlet Capscrews 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> Впускной болт для водопроводного радиатора в куртке 45 Н·м [33 фут-лб]
 
 ![[08600798.png]]
 
-Close the draincock on the engine block (1) and on the water pump (2).
+Закройте дренажный клапан на блоке (1) двигателя и на водяном насосе (2).
 
 ![[08600747.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Jacket
+Жакет
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+- Установите трубку для обхода охлаждающей жидкости. См. процедуру 008-005 в разделе 8.
+- Заправьте систему охлаждения.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Подсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем до температуры охлаждающей жидкости 70 ° C \[160° F \] и проверяйте наличие утечек.
+
+Двойной Империал
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+- Установите водонасосный шунт и кормовые трубки.[[28-008-138 — Water Pump Plumbing|См. процедуру 008-138 в разделе 8.]]
+- Подсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
+- Заправьте систему охлаждения.[[28-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Установите шкив привода генератора переменного тока.[[28-009-010-tr — Charging System Alternator Drive Pulley|См. процедуру 009-010 в разделе 9.]]
+- Установите ремень привода генератора.[[28-013-005-tr — Charging System Alternator Drive Belt|См. процедуру 013-005 в разделе 13.]]
+- Управляйте двигателем до температуры охлаждающей жидкости 70 ° C \[160° F \] и проверяйте наличие утечек.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Jacket
+>
+> **CAUTION · Осторожно**
+> The seal will malfunction if the spring tension is not correct. One drop of Loctite® 290, or equivalent, must be applied on the joint between the seat and the shaft. More than one drop of the sealant can contact the sealing surfaces and cause the seal to malfunction.
+>
+> **CAUTION · Осторожно**
+> Use of the K50 water pump inlet connection on low temperature aftercooler (LTA) equipped engines will result in excessive cooling system pressures and cooling system malfunctions.
+>
+> The K38 and K50 water pumps are the same physical size but contain different parts. The correct water pump **must** be installed. If the correct parts are **not** installed, the performance of the water pump will **not** be within specifications.
+>
+> The water pump is a centrifugal pump with cast iron impellers **only**. The water pump is gear-driven by a spline coupling. This coupling connects the pump to the water pump drive.
+>
+> The water pump contains two ball-type bearings. The bearings are lubricated with pressurized engine oil. The new K38 and K50 water pumps contain a front large ball bearing that is a single row type bearing. Older pumps contain a double row type bearing. The water pump body and the bearing spacer are different for the single and double row bearings. If the front bearing is replaced, the same type of bearing **must** be installed.
+>
+> The water pump shaft and impeller were changed to increase the torque capability of the shaft and impeller joint. The bore in the impeller is smaller. The drive key, the notch for the drive key, and the self-locking capscrew in the impeller were omitted. The older and the new shafts and impellers can be combined, but the torque capability of the joint will **not** be increased. If older and new parts are combined, the drive key and the self-locking capscrew **must** be omitted.
+>
+> The impeller and the water inlet connection have a machined angle that is critical to the performance of the pump. The older and the new K38 parts do **not** have the same angle and are **not** to be combined. The K50 impeller and water inlet connection are always machined to the same angle, but are different than the older and new K38 parts.
+>
+> The water pump shaft was also changed. The new shaft contains one retaining ring **only** and requires a spacer between the two bearings. The spacer is different for the single row and double row, front, large bearing. The older shaft contains two retaining rings and does **not** require a spacer. The older shaft can be installed **only** when the double row bearing is required. If the older shaft is replaced, the correct bearing and spacer **must** be installed for the water pump body.
+>
+> The water pump contains an oil seal and a water pump seal. A revised water seal was introduced into production in October, 1997 (Engine Serial Number First 33139138). The cavity between these seals has a vent. The vent prevents contamination of the lubricant or coolant if a seal leaks. Oil and coolant seeping from the vent will **not** harm the operation of the pump. Check the vent for any obstruction at each scheduled maintenance interval. The recommended interval is 250 hours or 6 months of operation.
+>
+> The water seal was changed from a two piece to a unitized, one piece design. The seal and seat are fastened together in this design. This helps to prevent malfunctions caused by dirt or oil contacting the seal and seat surfaces during installation. A special tool **must** be used to install the one piece seal so that the seat is installed at the correct dimension from the water pump body. Correct installation results in proper spring tension.
+>
+> Additional information regarding other parts of the cooling system can be found within this section.
+>
+> K50 engines fitted with an LTA system use the K38 water pump and water pump inlet connection.
+>
+> The water pump inlet connection is designed for optimum coolant flow split and decreases the possibility of reverse flow through the main radiator core via the bypass tube. A revised larger diameter water bypass tube is also used.
+>
+> The following table details the compatibility of the water pump parts.
+>
+> **Note · Примечание**
+> If the shaft does **not** contain threads in the end for the impeller, the drive key **must** be omitted.
+>
+> **Note · Примечание**
+> If the impeller does **not** contain a slot on the side that has vanes, the drive key and self-locking capscrew **must** be omitted.
+>
+> **Note · Примечание**
+> If the shaft contains threads in the end for the impeller, and the impeller contains a slot on the side that has vanes, the drive key and self-locking capscrew **must** be installed.
+>
+> ### Preparatory Steps
+>
+> Jacket
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
-
-> [!danger] WARNING · Опасно
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
 > Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
-
-- Install the coolant bypass tube. Refer to Procedure 008-005 in Section 8.
-- Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Connect the battery cables. See equipment manufacturer service information.
-- Operate the engine to 70°C \[160°F\] coolant temperature and check for leaks.
-
-Dual Impeller
-
-> [!danger] WARNING · Опасно
+>
+> - Disconnect the battery cables. See equipment manufacturer service information.
+> - Drain the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the coolant bypass tube. Refer to Procedure 008-005 in Section 8.
+>
+> Dual Impeller
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
-
-> [!danger] WARNING · Опасно
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
 > Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
-
-- Install the water pump bypass and feed tubes. [[28-008-138 — Water Pump Plumbing|Refer to Procedure 008-138 in Section 8.]]
-- Connect the battery cables. See equipment manufacturer service information.
-- Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Install the alternator drive pulley. [[28-009-010-tr — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
-- Install the alternator drive belt. [[28-013-005-tr — Charging System Alternator Drive Belt|Refer to Procedure 013-005 in Section 13.]]
-- Operate the engine to 70°C \[160°F\] coolant temperature and check for leaks.
+>
+> - Disconnect the battery cables. See equipment manufacturer service information.
+> - Drain the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the alternator drive belt. [[28-013-005-tr — Charging System Alternator Drive Belt|Refer to Procedure 013-005 in Section 13.]]
+> - Remove the alternator drive pulley. [[28-009-010-tr — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
+> - Remove the water pump bypass and feed tubes. [[28-008-138 — Water Pump Plumbing|Refer to Procedure 008-138 in Section 8.]]
+>
+> ### Remove
+>
+> Jacket
+>
+> Disconnect the lower radiator hose from the water pump inlet.
+>
+> **Note · Примечание**
+> On LTA-equipped engines, disconnect the water filter hoses.
+>
+> Remove the two capscrews and heavy washers (6) that hold the support bracket (4) to the cylinder block.
+>
+> Remove the four capscrews that hold the housing (2) to the water pump (3). Note that the two washers (5) are heavy washers.
+>
+> Remove the support bracket. Pull the housing from the pump.
+>
+> Remove and discard the o-ring (1).
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the four capscrews that hold the adapter plate (2) to the cylinder block.
+>
+> Remove the four capscrews that hold the pump (3) to the water pump drive (6). Remove the pump and the coupling (4). Remove the plate (2) from the pump.
+>
+> Remove and discard the o-ring seal (1) and the gasket (5).
+>
+> Dual Impeller
+>
+> **Note · Примечание**
+> The procedure for the QSK60 engine is shown. The procedure for the QSK38 and QSK50 engine is similar.
+>
+> Open the draincock on the engine block (1) and the water pump (2).
+>
+> Remove the four capscrews and jacket water radiator inlet connection.
+>
+> Remove the capscrews and jacket water inlet connection.
+>
+> Remove the two capscrews (2) from the engine block (1) and the water pump support bracket (3).
+>
+> Remove the two capscrews (2) from the water pump (4), and the water pump support bracket (3).
+>
+> Remove the capscrews (2) and the water pump support bracket (3) from the water pump (4), and the engine block (1).
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the six capscrews (1) from the water pump (2) and the gear housing (3).
+>
+> Remove the four capscrews (4) from the engine block (5).
+>
+> Remove the water pump from the front gear housing.
+>
+> ### Clean and Inspect for Reuse
+>
+> Jacket
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturers' recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean all gasket surfaces.
+>
+> Use solvent to clean the drive shaft end of the pump.
+>
+> Dry with compressed air.
+>
+> Rotate the shaft to check the bearings for damage or wear. An end clearance of 0.05 to 0.010 mm \[0.002 to 0.004 in\] is required.
+>
+> If the bearings are damaged or worn, the pump **must** be rebuilt.
+>
+> Check the splines on the shaft and the coupling for damage or wear.
+>
+> If the splines on the shaft are worn or damaged, the pump **must** be rebuilt.
+>
+> If the splines in the coupling are worn, the coupling **must** be replaced.
+>
+> If the splines that contact the water pump drive are worn, check the shaft in the drive.
+>
+> Dual Impeller
+>
+> A minor chemical build-up or streaking at the water pump weep hole (1) is normal. Do **not** replace the water pump unless an actual leak is confirmed. If a leak is confirmed, contact a Cummins® Authorized Repair Location for replacement.
+>
+> **Note · Примечание**
+> Engines with a weep hole filter (2) installed may experience an occasional drip and minor chemical buildup from the filter. This is normal and does **not** indicate a leaking pump. Do **not** replace the water pump unless an actual leak is confirmed.
+>
+> ### Disassemble
+>
+> Jacket
+>
+> Remove the following parts:
+>
+> - Spline coupling (1)
+> - Mounting gasket (2)
+> - Adapter plate (3)
+> - O-ring (4)
+> - Adapter plate gasket (5).
+>
+> Discard the o-ring and gasket.
+>
+> Remove the following parts:
+>
+> - Water inlet connection (6)
+> - Gasket (7)
+> - Support bracket (8)
+> - Draincock (9).
+>
+> Discard the gasket.
+>
+> Remove the following parts:
+>
+> - Capscrews (10)
+> - Water pump inlet connection (11)
+> - O-ring seal (12).
+>
+> Discard the o-ring.
+>
+> **Note · Примечание**
+> The latest water pumps and rebuilt water pumps with revised shafts or impellers do **not** contain the drive key and capscrew.
+>
+> Remove the following parts:
+>
+> - Self-locking capscrew (12)
+> - Drive key (13).
+>
+> **CAUTION · Осторожно**
+> The puller screw must pass easily through the impeller bore to prevent damage.
+>
+> **CAUTION · Осторожно**
+> The puller screw must not damage the threads in the shaft if the shaft is to be installed again with an impeller that has a slot for a drive key. Install a short capscrew in the shaft to protect the threads.
+>
+> Use a standard puller, Part Number ST-647, or equivalent. Remove the impeller.
+>
+> Clean and check the impeller for damage.
+>
+> Remove the large retaining ring (14).
+>
+> Use an arbor press to support the water pump body. Push on the impeller end of the shaft. Remove the bearing and shaft assembly.
+>
+> Discard the water pump seal seat, if equipped.
+>
+> Remove the following parts:
+>
+> - Oil seal (15)
+> - Water seal (16).
+>
+> The bearing and shaft assembly can be one of two different designs. The replacement procedure is different for the two designs. The revised bearing and shaft assembly (1), contains a retaining ring (2) nearest to the impeller end of the shaft.
+>
+> The previous bearing and shaft assembly (3), contains a retaining ring (2) nearest to the end of the shaft that is splined.
+>
+> The revised assembly (1) can contain different large bearings (4), and bearing spacers (5). The bearing (4) can be a double or single row bearing. The spacer (5) for the single row bearing is longer.
+>
+> The Water Pump, General Information section in this procedure lists the correct parts.
+>
+> The previous assembly (3) **must** contain the double row bearing.
+>
+> The following steps are for the revised design of the water pump.
+>
+> Remove the retaining ring (2).
+>
+> **CAUTION · Осторожно**
+> Do not damage the end of the shaft if it is to be installed again. Support the assembly as shown.
+>
+> Use a hydraulic press to support the large bearing (4) as shown.
+>
+> Remove the small bearing (6), spacer (5), and the large bearing (4) from the shaft (7).
+>
+> The following step is for the previous design of the water pump.
+>
+> Remove the retaining ring (1).
+>
+> Use a water pump bearing separator, Part Number 3375326, or equivalent. Disassemble the parts.
+>
+> Remove the front large bearing (2), spacer (5), and the rear small bearing (3)
+>
+> Dual Impeller
+>
+> **Note · Примечание**
+> There are no replacement parts or disassembly processes for the dual impeller water pump assembly.
+>
+> Remove the filter (1) from the water pump weep hole drain tube.
+>
+> Remove the drain tube (2) from the weep hole fitting (3).
+>
+> Remove the fitting (3) from the water pump.
+>
+> ### Inspect
+>
+> Jacket
+>
+> **Note · Примечание**
+> Three different shafts have been used. The outside diameter in the bearing area is the same.
+>
+> Measure the outside diameter
+>
+> | Water Pump Shaft Outside Diameter (Bearing Area) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 30.010 | MIN | 1.1816 |
+> | 30.020 | MAX | 1.1820 |
+>
+> | Water Pump Shaft Outside Diameter (Impeller End) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 24.643 | MIN | 0.971 |
+> | 24.653 | MAX | 0.968 |
+>
+> Measure the shaft outside diameter and the bearing inside diameter
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | mm | in |
+> | Maximum Clearance | 0.003 | 0.0001 |
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | mm | in |
+> | Maximum Interference | 0.018 | 0.007 |
+>
+> **Note · Примечание**
+> The shaft outside diameter specifications are the same as for the revised design shaft.
+>
+> Measure the bore inside diameter.
+>
+> | Water Pump Impeller Inside Diameter (17) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 24.563 | MIN | 0.967 |
+> | 24.589 | MAX | 0.968 |
+>
+> **Note · Примечание**
+> The outside diameter is given for parts identification **only**. It is **not** necessary to measure the part.
+>
+> | Water Pump Impeller Outside Diameter (18) |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | K38 | 146 | NOM | 5.75 |
+> | K50 | 171 | NOM | 6.75 |
+>
+> **Note · Примечание**
+> The angle is given for parts identification **only**. It is **not** necessary to measure the part.
+>
+> **Note · Примечание**
+> All K50 water pump impellers have a 78 degree angle.
+>
+> | K38 Water Pump Impeller Angle (19) |  |
+> |---|---|
+> | Part Number | Angle |
+> | 3050455 | 74 degrees |
+> | 3175069 | 74 degrees |
+> | 3050453 | 67 degrees |
+> | 3001711 | 67 degrees |
+>
+> Install an impeller with a 74 degree angle **only** with a water pump inlet connection that has a 16 degree angle.
+>
+> Install an impeller with a 67 degree angle **only** with a water pump inlet connection that has a 23 degree angle.
+>
+> | K38 and K50 Water Pump Body Bore Inside Diameter |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Water Seal (21) | 53.60 | MIN | 2.110 |
+> |  | 54.10 | MAX | 2.130 |
+> | Oil Seal (22) | 38.05 | MIN | 1.498 |
+> |  | 38.10 | MAX | 1.500 |
+> | Water Seal (23) | 61.997 | MIN | 2.4408 |
+> |  | 62.009 | MAX | 2.4412 |
+> | Oil Seal (24) | 71.996 | MIN | 2.8345 |
+> |  | 72.012 | MAX | 2.8351 |
+>
+> **Note · Примечание**
+> The depth of the bore is given for parts identification **only**. It is **not** necessary to measure the part.
+>
+> | Front Water Pump Bearing Bore Depth in Water Pump Body (25) |  |  |
+> |---|---|---|
+> |  | mm | in |
+> | Body for single row bearing | 25.4 | 1.00 |
+> | Body for double row bearing | 36.8 | 1.45 |
+>
+> **Note · Примечание**
+> The diameter is given for parts identification **only**. It is **not** necessary to measure the part.
+>
+> | Water Pump Impeller **Counterbore** Inside Diameter in Water Pump Body (26) |  |  |
+> |---|---|---|
+> | Engine Model | mm | in |
+> | K38 (revised) | 147 | 5.8 |
+> | K38 (previous) | 160 | 6.3 |
+> | K50 (all) | 173 | 6.8 |
+>
+> ### Assemble
+>
+> Jacket
+>
+> **CAUTION · Осторожно**
+> Be sure the correct large bearing is installed. If the wrong large bearing is installed, the pump will fail.
+>
+> **CAUTION · Осторожно**
+> The mandrel must contact on the inner race of the bearing to prevent damage.
+>
+> **Note · Примечание**
+> On the revised shafts, the bearing will **not** fit tightly on the part of the shaft that is machined smaller (10).
+>
+> The following steps are for the revised design shaft and bearings.
+>
+> Use a hydraulic press to support the shaft as shown.
+>
+> Use a water pump bearing mandrel, Part Number 3375318 (8), or equivalent.
+>
+> Push the large bearing (4) on the shaft until it touches the step on the shaft (9).
+>
+> **CAUTION · Осторожно**
+> The correct spacer must be installed or the bearing assembly will not fit in the body correctly.
+>
+> If the large bearing is a single row bearing (11), install the long spacer (12).
+>
+> If the large bearing is a double row bearing (13), install the short spacer (14).
+>
+> Install the correct spacer (5). Slide the spacer on the shaft until it touches the large bearing.
+>
+> **CAUTION · Осторожно**
+> The mandrel must contact on the inner race of the bearing to prevent damage.
+>
+> Use a hydraulic press to support the shaft as shown.
+>
+> Use a water pump bearing mandrel, Part Number 3375318 (8), or equivalent.
+>
+> Push the small bearing (2) on the shaft until it touches the spacer (5).
+>
+> Install the retaining ring (2).
+>
+> **CAUTION · Осторожно**
+> The mandrel must contact on the inner race of the bearing to prevent damage.
+>
+> **Note · Примечание**
+> **Only** the large, double row front bearing can be installed on the older design shaft.
+>
+> The following steps are for the previous design shaft and bearings.
+>
+> Use a water pump bearing mandrel, Part Number 3375318 (8), or equivalent. Use an appropriate mandrel (4). Use an arbor press. Support the shaft.
+>
+> Install the bearings.
+>
+> Install the retaining ring.
+>
+> Use water pump seal mandrel, Part Number 3375319, to install the oil seal with the stepped lip facing down toward the impeller.
+>
+> The seal **must no** t be more than 0.51mm \[0.020 in\] below the top step in the water pump housing.
+>
+> Use an arbor press to support the housing.
+>
+> Use the water pump bearing driver, Part Number 3375318, or equivalent, or push on the end of the shaft. Install the assembly.
+>
+> The beveled edge **must** be positioned as shown. Install the large retaining ring.
+>
+> **CAUTION · Осторожно**
+> When installing the seal, take care not to damage the seal lip.
+>
+> Press the oil seal onto the shaft using an oil seal mandrel. If an oil seal mandrel is **not** available, press the seal onto the shaft backwards to open up the seal lip, then turn the seal the correct way around.
+>
+> Use a water pump seal installer (27) to press the seal into the housing past the weep hole cavity.
+>
+> Reference the Tool Catalog, Publication Number 3377710, to determine which tool number to use based on the water pump seal part number.
+>
+> The installed distance (D) between the oil seal face from impeller side and the inner face in the impeller housing **must** be between 15.60 to 16.79 mm \[0.614 to 0.0661 in\].
+>
+> Check after installation that the oil seal is **not** obstructing weep hole (W) entry.
+>
+> **CAUTION · Осторожно**
+> The seal will malfunction if the spring tension is not correct. One drop of Loctite® 290, or equivalent, must be applied on the joint between the seat and the shaft. More than one drop of the sealant can contact the sealing surfaces and cause the seal to malfunction.
+>
+> Apply one drop **only** of Loctite® 290, or equivalent, to the seal and the parting line of the shaft.
+>
+> **CAUTION · Осторожно**
+> If the impeller and shaft have a slot for the drive key, the slots must be aligned before the impeller is pushed on the shaft.
+>
+> If either the impeller or shaft does **not** have a slot, omit this step. Position the impeller on the shaft so that the slots are aligned.
+>
+> Apply a smooth coating of Loctite® 609, or equivalent, to the impeller bore.
+>
+> Use an arbor press and a flat steel plate to support the shaft as shown.
+>
+> Install the impeller until it is even with the end of the shaft.
+>
+> **Note · Примечание**
+> If either the shaft or the impeller does **not** have a slot for the drive key, omit this step.
+>
+> Install the drive key (13) and the self-locking capscrew (12).
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Use vegetable oil to lubricate the o-ring.
+>
+> Install the parts. Install the top and right capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> **Note · Примечание**
+> Do **not** tighten the capscrews for the bracket until the pump is installed on the engine.
+>
+> Install the support bracket (8) and capscrews.
+>
+> Install the new gasket (7), connection (6), and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 41 n•m [30 ft-lb]
+>
+> Install the draincock (9).
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [133 in-lb]
+>
+> Use vegetable oil to lubricate the new o-ring (4).
+>
+> Install the o-ring in the groove of the adapter plate (3).
+>
+> Install the adapter plate on the body. The thinner side of the plate **must** be nearer to the water pump body.
+>
+> Use clean engine oil to lubricate the bearings while rotating the shaft.
+>
+> Use clean engine oil to lubricate the splines on the shaft.
+>
+> Install the spline coupling (1).
+>
+> Dual Impeller
+>
+> Install the weep hole drain tube fitting (3) onto the water pump and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 12 n•m [106 in-lb]
+>
+> Install the weep hole drain tube (2) onto the fitting (3) and tighten the compression nut.
+>
+> **Момент затяжки · Torque Value**
+> 12 n•m [106 in-lb]
+>
+> Install the filter (1) onto the weep hole drain tube (2).
+>
+> ### Install
+>
+> Jacket
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the o-ring (1) in the groove in the water pump adapter plate (2). Use vegetable oil to lubricate the o-ring.
+>
+> **Note · Примечание**
+> The adapter plate **must** be installed so the groove in the plate is toward the pump.
+>
+> Install the adapter plate on the water pump (3).
+>
+> Install the spline coupling (4) and the water pump shaft. Install the gasket (5) on the pilot on the water pump. Align the holes.
+>
+> Position the pump on the water pump drive (6). Rotate the pump to align the spline coupling with the splines on the water pump drive shaft. Install the four lock washers and capscrews that hold the drive to the pump. Tighten the capscrews **only** enough to hold the parts together.
+>
+> Install the gasket (7) between the adapter plate and the cylinder block. Install, but do **not** tighten, the four lock washers and capscrews that hold the plate to the cylinder block.
+>
+> Rotate the pump housing so that the pump outlet and the adapter plate are as close to the cylinder block as possible.
+>
+> Tighten the four pump-to-pump drive capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 60 n•m [44 ft-lb]
+>
+> Tighten the four cylinder block capscrews to the adapter plate.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the o-ring (1) in the groove on the inlet housing (2). Use vegetable oil to lubricate the seal.
+>
+> Install the housing in the bore in the water pump (3). Align the holes. Install the two lock washers and capscrews in the top and outside capscrew holes. Tighten the capscrews **only** enough to hold the parts together.
+>
+> Install the bracket (4) to the pump using two large flat washers (6), lock washers and capscrews. Tighten the capscrews **only** enough to hold the bracket to the housing.
+>
+> Install the two large flat washers (5), lock washers, and capscrews that hold the bracket to the hand hole cover. Tighten the capscrews **only** enough to hold the bracket to the hand hole cover.
+>
+> **Note · Примечание**
+> Make sure the bracket remains flat against both the housing and the hand cover while tightening the capscrews. If the bracket does not remain flat, it will malfunction and cause the pump or pump drive to also malfunction.
+>
+> Tighten the four capscrews that hold the bracket to the inlet housing, and the inlet housing to the pump.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Tighten the capscrews that hold the bracket to the hand hole cover.
+>
+> **Момент затяжки · Torque Value**
+> 60 n•m [44 ft-lb]
+>
+> Replace the coolant filter. Refer to Procedure 008-006 in Section 8.
+>
+> Connect the lower radiator hose to the water pump inlet.
+>
+> Connect the water filter lines.
+>
+> Dual Impeller
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Install the water pump (2) into the gear housing (3). Use the six capscrews (1) and a new gasket.
+>
+> Install the four capscrews (4) to the engine block (5). Use a new gasket.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> Water Pump Mounting Capscrews 45 n•m [33 ft-lb]
+>
+> Install the capscrews (2) and the water pump support bracket (3) to the water pump (4) and the engine block (1).
+>
+> Install the two capscrews (2) to the water pump (4) and the water pump support bracket (3).
+>
+> Install the two capscrews (2) to the engine block (1) and the water pump support bracket (3).
+>
+> **Момент затяжки · Torque Value**
+> Support Bracket Capscrews 45 n•m [33 ft-lb]
+>
+> Lubricate the new o-ring on the jacket water inlet.
+>
+> Install the jacket water inlet and capscrews onto the water pump.
+>
+> **Момент затяжки · Torque Value**
+> Jacket Water Inlet Capscrews 45 n•m [33 ft-lb]
+>
+> Install the jacket water radiator inlet connection, gasket, and four capscrews.
+>
+> **Момент затяжки · Torque Value**
+> Jacket Water Radiator Inlet Capscrews 45 n•m [33 ft-lb]
+>
+> Close the draincock on the engine block (1) and on the water pump (2).
+>
+> ### Finishing Steps
+>
+> Jacket
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Install the coolant bypass tube. Refer to Procedure 008-005 in Section 8.
+> - Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Connect the battery cables. See equipment manufacturer service information.
+> - Operate the engine to 70°C \[160°F\] coolant temperature and check for leaks.
+>
+> Dual Impeller
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Install the water pump bypass and feed tubes. [[28-008-138 — Water Pump Plumbing|Refer to Procedure 008-138 in Section 8.]]
+> - Connect the battery cables. See equipment manufacturer service information.
+> - Fill the cooling system. [[28-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Install the alternator drive pulley. [[28-009-010-tr — Charging System Alternator Drive Pulley|Refer to Procedure 009-010 in Section 9.]]
+> - Install the alternator drive belt. [[28-013-005-tr — Charging System Alternator Drive Belt|Refer to Procedure 013-005 in Section 13.]]
+> - Operate the engine to 70°C \[160°F\] coolant temperature and check for leaks.

@@ -35,7 +35,8 @@ families:
   - "QSM11"
   - "QST30"
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101106.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101106.pdf"
 tags:
@@ -49,6 +50,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "год/2011"
+  - "перевод/машинный"
   - "тема/service-tools"
 ---
 
@@ -62,28 +64,64 @@ tags:
 > **Даты:** выпущен 2011-03-18 · изменён 2011-03-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101106.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101106.pdf)
 
-## Error 102 When Installing INSITE™ Electronic Service Tool 7.4.1 on Windows® Vista™/7 PCs
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-Error 102 occurs when trying to install INSITE™ 7.4.1 with the Cummins® INSITE™ Update Manager.
+## Ошибка 102 при установке INSITE™ 7.4.1 на Windows® Vista™/7
 
-### Confirmation
+### Суть проблемы
 
-This procedure should be followed after installing INSITE™ 7.4.1.
+Ошибка 102 возникает при попытке установки INSITETM 7.4.1 с помощью диспетчера обновлений Cummins® INSITETM.
 
-### Resolution
+### Подтверждение
 
-NOTE: This procedure requires administrator rights to complete!!
+Эта процедура должна быть выполнена после установки INSITETM 7.4.1.
 
-1. Download and save a copy of the MstFileReplaceUtility.zip to the desktop of the INSITE™ PC.
-2. Unzip and extract the **MstFileReplaceUtility.exe** to the desktop of the INSITE™ PC.
-3. Double-click the **MstFileReplaceUtility.exe** to run it.
-4. The utility will give a message to confirm that the files were copied successfully. Click **OK** on this message.
-5. Continue with the INSITE™ updates installation using the Cummins INSITE™ Update Manager.
+### Решение
 
-### Warranty Statement
+Примечание: Эта процедура требует прав администратора для завершения!!!
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+1. Загрузите и сохраните копию MstFileReplaceUtility.zip на верстак ПК INSITETM.
+2. Unzip и извлеките **MstFileReplaceUtility.exe** на верстак ПК INSITETM.
+3. Дважды щелкните **MstFileReplaceUtility.exe**, чтобы запустить его.
+4. Утилита даст сообщение, подтверждающее, что файлы были успешно скопированы. Нажмите **OK** на это сообщение.
+5. Продолжайте установку обновлений INSITETM с помощью диспетчера обновлений Cummins INSITETM.
 
-### Document History
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Error 102 When Installing INSITE™ Electronic Service Tool 7.4.1 on Windows® Vista™/7 PCs
+>
+> ### Core Issue
+>
+> Error 102 occurs when trying to install INSITE™ 7.4.1 with the Cummins® INSITE™ Update Manager.
+>
+> ### Confirmation
+>
+> This procedure should be followed after installing INSITE™ 7.4.1.
+>
+> ### Resolution
+>
+> NOTE: This procedure requires administrator rights to complete!!
+>
+> 1. Download and save a copy of the MstFileReplaceUtility.zip to the desktop of the INSITE™ PC.
+> 2. Unzip and extract the **MstFileReplaceUtility.exe** to the desktop of the INSITE™ PC.
+> 3. Double-click the **MstFileReplaceUtility.exe** to run it.
+> 4. The utility will give a message to confirm that the files were copied successfully. Click **OK** on this message.
+> 5. Continue with the INSITE™ updates installation using the Cummins INSITE™ Update Manager.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Document History

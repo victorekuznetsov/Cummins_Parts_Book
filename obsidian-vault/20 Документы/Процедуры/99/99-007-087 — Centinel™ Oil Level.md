@@ -34,7 +34,8 @@ manuals:
   - "3810497"
   - "4021374"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-007-087.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-007-087.pdf"
 tags:
@@ -46,6 +47,7 @@ tags:
   - "двигатель/QST30"
   - "двигатель/QSX15"
   - "группа/99"
+  - "перевод/машинный"
 ---
 
 # Centinel™ Oil Level
@@ -59,8 +61,22 @@ tags:
 > **Даты:** изменён 2006-05-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-007-087.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-007-087.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Centinel tank oil level should be checked daily to ensure that there is enough oil to operate the engine. Some tanks may be OEM supplied, refer to the OEM manufacturer's instructions for checking oil level in those installations. It is critical that engine oil level in the engine sump be checked daily even when using a makeup tank. Refer to procedure 007-043. Centinel™ is prohibited on engines with an aftertreatment system.
+
+### Контроль при обслуживании
+
+Уровень масла в баке Centinel должен проверяться ежедневно, чтобы убедиться, что масла достаточно для работы двигателя. Некоторые резервуары могут поставляться OEM, см. инструкции производителя OEM по проверке уровня масла в этих установках. Крайне важно, чтобы уровень моторного масла в отстойнике двигателя ежедневно проверялся даже при использовании макияжа. См. процедуру 007-043. CentinelTM запрещен на двигателях с системой последующей обработки.
 
 ![[05100048.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Centinel tank oil level should be checked daily to ensure that there is enough oil to operate the engine. Some tanks may be OEM supplied, refer to the OEM manufacturer's instructions for checking oil level in those installations. It is critical that engine oil level in the engine sump be checked daily even when using a makeup tank. Refer to procedure 007-043. Centinel™ is prohibited on engines with an aftertreatment system.

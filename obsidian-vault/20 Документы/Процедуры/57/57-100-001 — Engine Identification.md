@@ -15,13 +15,15 @@ manuals:
   - "3666134"
   - "4915520"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-100-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-100-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
+  - "перевод/машинный"
 ---
 
 # Engine Identification
@@ -35,112 +37,212 @@ tags:
 > **Даты:** изменён 2013-02-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-100-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-100-001.pdf)
 
-### Cummins® Engine Nomenclature
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The model name provides identification data for the engine. Refer to the illustration for the model name identification.
 
-The application codes are:
+### Cummins® Номенклатура двигателей
 
-- C = Construction
-- D = Generator drive
-- F = Fire pump
-- G = Generator set
-- L = Locomotive
-- M = Marine
-- P = Power unit
-- R = Railcar.
+Название модели предоставляет идентификационные данные для двигателя. Смотрите иллюстрацию для идентификации имени модели.
+
+Коды приложений:
+
+- С = строительство
+- D = привод генератора
+- F - пожарный насос
+- G = генераторный набор
+- L = локомотив
+- M = морской
+- P = Силовая установка
+- R = Железнодорожный вагон.
 
 ![[00a00001.png]]
 
-### General Specifications
+### Общие спецификации
 
-#### Cylinder Numbering Sequence
+#### Цилиндровая нумерация последовательностей
 
-- RB = Right bank of cylinders
-- LB = Left bank of cylinders.
+- RB - правый берег цилиндров
+- LB - левый берег цилиндров.
 
-> [!note] Note · Примечание
-> Cylinders can be numbered either by bank or sequentially.
+> [!note] Примечание
+> Цилиндры могут быть пронумерованы либо банком, либо последовательно.
 
-Engine firing order: 1R-1L-5R-5L-3R-3L-6R-6L-2R-2L-4R-4L.
+Приказ на стрельбу двигателя: 1R-1L-5R-5L-3R-3L-6R-6L-2R-2L-4R-4L.
 
-Cylinders are numbered from the front gear cover end of the engine.
+Цилиндры пронумерованы от передней части крышки передних передач двигателя.
 
-To determine the right and left banks on the engine, stand at the rear of the engine and face the front.
+Чтобы определить правый и левый берега на двигателе, встаньте сзади двигателя и лицом к переднему.
 
 ![[02600054.png]]
 
-The illustration identifies the locations of the intake and exhaust valves.
+На иллюстрации указаны места расположения впускных и выпускных клапанов.
 
-Each cylinder has two rocker levers. On the left bank, the lever nearest to the rear of the engine is the intake lever. On the right bank, the exhaust valve is nearest to the rear.
+Каждый цилиндр имеет два рычага коромысла. На левом берегу ближайшим к задней части двигателя рычагом является впускной рычаг. На правом берегу выхлопной клапан находится ближе всего к задней части.
 
 ![[03a00031.png]]
 
-### Engine Dataplate
+### Заводская табличка двигателя
 
-The engine dataplate shows specific facts about your engine. The engine serial number (ESN) (1), control parts list (CPL) (2), model (3), and horsepower and rpm ratings provide information for ordering parts and performing service.
+На табличке с данными двигателя указаны конкретные факты о вашем двигателе. Серийный номер двигателя (ESN) (1), список контрольных частей (CPL) (2), модель (3) и рейтинги мощности и оборотов в минуту предоставляют информацию для заказа деталей и выполнения обслуживания.
 
-The engine dataplate **must not** be changed unless approved by Cummins Inc.
+Диаграмма двигателя не должна быть изменена, если она не одобрена Cummins Inc.
 
-The engine dataplate on the QST30 engines are located on the left-bank side of the aftercooler.
+Диаграмма двигателя на двигателях QST30 расположена на левобережной стороне послеохладителя.
 
 ![[ap8plgb.png]]
 
-### Fuel Injection Pump Dataplate
+### Таблица данных насоса для впрыска топлива
 
-Bosch™
+Bosch
 
-This is an illustration of the dataplate on the Bosch™ fuel injection pump. The dataplate is mounted on the outboard side of the injection pump housing.
+Это иллюстрация таблички на насосе впрыска топлива BoschTM. Табличка данных установлена на боковой стороне корпуса насоса для впрыска.
 
-1. Injection pump serial number
-2. Bosch™ part number
-3. Bosch™ pump identification code
-4. Cummins® part number (first seven digits on this line).
+1. Серийный номер насоса для инжекций
+2. Номер детали BoschTM
+3. Идентификационный код насоса BoschTM
+4. Номер детали Cummins® (первые семь цифр на этой строке).
 
 ![[05a00094.png]]
 
-### Engine Control Module Dataplate
+### Модуль управления двигателем Dataplate
 
-Industrial Applications
+Промышленное применение
 
-The external engine control module (ECM) dataplate contains the following data about the engine and ECM:
+На внешней табличке модуля управления двигателем (ECM) содержатся следующие данные о двигателе и ECM:
 
-1. PN - ECM part number
-2. SN - ECM serial number
-3. DC - Date code (the date the ECM was programmed at the factory)
-4. ESN - Engine serial number
-5. ECM CODE - The ECM calibration identifier.
+1. PN - ECM - номер детали
+2. SN - серийный номер ECM
+3. DC - Дата кода (дата, когда ECM был запрограммирован на заводе)
+4. ESN - серийный номер двигателя
+5. ECM CODE - идентификатор калибровки ECM.
 
 ![[19900348.png]]
 
-Generator-Drive
+Двигатель генератора
 
-The external ECM dataplate is located at the top of the ECM.
+Внешняя табличка данных ECM расположена в верхней части ECM.
 
 ![[00a00137.png]]
 
-The external ECM dataplate contains the following data about the engine and ECM:
+Внешний регистрационный номер ECM содержит следующие данные о двигателе и ECM:
 
-1. PN - ECM part number
-2. SN - ECM serial number
-3. DC - Date code (the date the ECM was programmed at the factory)
-4. ESN - Engine serial number
-5. ECM CODE - The ECM calibration identifier.
+1. PN - ECM - номер детали
+2. SN - серийный номер ECM
+3. DC - Дата кода (дата, когда ECM был запрограммирован на заводе)
+4. ESN - серийный номер двигателя
+5. ECM CODE - идентификатор калибровки ECM.
 
 ![[19801041.png]]
 
-The external ECM dataplate for the generator-drive control system is located on the side of the ECM, opposite the ECM connectors.
+Внешняя табличка ECM для системы управления приводом генератора расположена на стороне ECM, напротив разъемов ECM.
 
 ![[19802621.png]]
 
-The external ECM dataplate for the generator-drive control system contains the following data about the engine and ECM:
+Внешняя табличка ECM для системы управления приводом генератора содержит следующие данные о двигателе и ECM:
 
-1. P/N - ECM part number
-2. S/N - ECM serial number
-3. D/C - Date code (the date the ECM was programmed at the factory)
-4. ESN - Engine serial number
-5. E/C - Electronic configuration
-6. GOV - Governor type (GOV, this entry will be blank)
-7. S/C - Software calibration option.
+1. P/N - номер детали ECM
+2. S/N - серийный номер ECM
+3. D/C - код даты (дата, когда ECM был запрограммирован на заводе)
+4. ESN - серийный номер двигателя
+5. E/C - Электронная конфигурация
+6. GOV - Губернаторский тип (GOV, эта запись будет пустой)
+7. S/C - опция калибровки программного обеспечения.
 
 ![[19802622.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Cummins® Engine Nomenclature
+>
+> The model name provides identification data for the engine. Refer to the illustration for the model name identification.
+>
+> The application codes are:
+>
+> - C = Construction
+> - D = Generator drive
+> - F = Fire pump
+> - G = Generator set
+> - L = Locomotive
+> - M = Marine
+> - P = Power unit
+> - R = Railcar.
+>
+> ### General Specifications
+>
+> #### Cylinder Numbering Sequence
+>
+> - RB = Right bank of cylinders
+> - LB = Left bank of cylinders.
+>
+> **Note · Примечание**
+> Cylinders can be numbered either by bank or sequentially.
+>
+> Engine firing order: 1R-1L-5R-5L-3R-3L-6R-6L-2R-2L-4R-4L.
+>
+> Cylinders are numbered from the front gear cover end of the engine.
+>
+> To determine the right and left banks on the engine, stand at the rear of the engine and face the front.
+>
+> The illustration identifies the locations of the intake and exhaust valves.
+>
+> Each cylinder has two rocker levers. On the left bank, the lever nearest to the rear of the engine is the intake lever. On the right bank, the exhaust valve is nearest to the rear.
+>
+> ### Engine Dataplate
+>
+> The engine dataplate shows specific facts about your engine. The engine serial number (ESN) (1), control parts list (CPL) (2), model (3), and horsepower and rpm ratings provide information for ordering parts and performing service.
+>
+> The engine dataplate **must not** be changed unless approved by Cummins Inc.
+>
+> The engine dataplate on the QST30 engines are located on the left-bank side of the aftercooler.
+>
+> ### Fuel Injection Pump Dataplate
+>
+> Bosch™
+>
+> This is an illustration of the dataplate on the Bosch™ fuel injection pump. The dataplate is mounted on the outboard side of the injection pump housing.
+>
+> 1. Injection pump serial number
+> 2. Bosch™ part number
+> 3. Bosch™ pump identification code
+> 4. Cummins® part number (first seven digits on this line).
+>
+> ### Engine Control Module Dataplate
+>
+> Industrial Applications
+>
+> The external engine control module (ECM) dataplate contains the following data about the engine and ECM:
+>
+> 1. PN - ECM part number
+> 2. SN - ECM serial number
+> 3. DC - Date code (the date the ECM was programmed at the factory)
+> 4. ESN - Engine serial number
+> 5. ECM CODE - The ECM calibration identifier.
+>
+> Generator-Drive
+>
+> The external ECM dataplate is located at the top of the ECM.
+>
+> The external ECM dataplate contains the following data about the engine and ECM:
+>
+> 1. PN - ECM part number
+> 2. SN - ECM serial number
+> 3. DC - Date code (the date the ECM was programmed at the factory)
+> 4. ESN - Engine serial number
+> 5. ECM CODE - The ECM calibration identifier.
+>
+> The external ECM dataplate for the generator-drive control system is located on the side of the ECM, opposite the ECM connectors.
+>
+> The external ECM dataplate for the generator-drive control system contains the following data about the engine and ECM:
+>
+> 1. P/N - ECM part number
+> 2. S/N - ECM serial number
+> 3. D/C - Date code (the date the ECM was programmed at the factory)
+> 4. ESN - Engine serial number
+> 5. E/C - Electronic configuration
+> 6. GOV - Governor type (GOV, this entry will be blank)
+> 7. S/C - Software calibration option.

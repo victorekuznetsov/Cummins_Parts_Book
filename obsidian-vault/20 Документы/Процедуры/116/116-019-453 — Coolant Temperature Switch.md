@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021617"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-453.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-453.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
+  - "перевод/машинный"
 ---
 
 # Coolant Temperature Switch
@@ -34,42 +36,80 @@ tags:
 > **Даты:** изменён 2007-04-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-453.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-453.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Loosen the engine coolant temperature switch connector screw.
 
-Remove the connector from the engine coolant temperature switch.
+### Снятие
+
+Освободите разъем переключателя температуры охлаждающей жидкости двигателя.
+
+Удалите разъем из переключателя температуры охлаждающей жидкости двигателя.
 
 ![[19600969.png]]
 
-Remove the engine coolant temperature switch mounting allen head capscrews.
+Удалите переключатель температуры охлаждающей жидкости двигателя, устанавливающий болты на головке Аллена.
 
 ![[19600970.png]]
 
-The engine coolant temperature switch sensor bulb is installed into a brass housing located in the coolant manifold. The coolant does **not** need to be drained to remove the sensor bulb.
+Лампа датчика переключателя температуры охлаждающей жидкости двигателя установлена в латунный корпус, расположенный в коллекторе охлаждающей жидкости. Охладитель **не** необходимо слить, чтобы удалить лампочку датчика.
 
-Loosen the engine coolant temperature switch sensor bulb and nut.
+Освободите лампу и гайку датчика температуры охлаждающей жидкости двигателя.
 
-Remove the engine coolant temperature sensor nut and bulb from the brass housing in the coolant manifold.
-
-![[19600971.png]]
-
-### Install
-
-Place the engine coolant temperature switch sensor bulb and nut into the brass housing in the coolant manifold.
-
-Tighten the engine coolant temperature switch sensor nut.
+Удалите гайку и лампу датчика температуры охлаждающей жидкости двигателя из латунного корпуса в коллекторе охлаждающей жидкости.
 
 ![[19600971.png]]
 
-Place the engine coolant temperature switch onto the C Command Elite Plus manifold mounting plate.
+### Установка
 
-Install and tighten the engine coolant temperature switch mounting allen head capscrews.
+Поместите лампу и гайку датчика температуры охлаждающей жидкости двигателя в латунный корпус в коллекторе охлаждающей жидкости.
+
+Затяните гайку датчика температуры охлаждающей жидкости двигателя.
+
+![[19600971.png]]
+
+Поместите переключатель температуры охлаждающей жидкости двигателя на монтажную пластину C Command Elite Plus.
+
+Установите и затяните переключатель температуры охлаждающей жидкости двигателя, устанавливающий болты на головке Аллена.
 
 ![[19600970.png]]
 
-Install the harness connector onto the engine coolant temperature switch.
+Установите разъём жгута проводов на переключатель температуры охлаждающей жидкости двигателя.
 
-Tighten the engine coolant temperature switch connector screw.
+Затягивайте разъем переключателя температуры охлаждающей жидкости двигателя.
 
 ![[19600969.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Loosen the engine coolant temperature switch connector screw.
+>
+> Remove the connector from the engine coolant temperature switch.
+>
+> Remove the engine coolant temperature switch mounting allen head capscrews.
+>
+> The engine coolant temperature switch sensor bulb is installed into a brass housing located in the coolant manifold. The coolant does **not** need to be drained to remove the sensor bulb.
+>
+> Loosen the engine coolant temperature switch sensor bulb and nut.
+>
+> Remove the engine coolant temperature sensor nut and bulb from the brass housing in the coolant manifold.
+>
+> ### Install
+>
+> Place the engine coolant temperature switch sensor bulb and nut into the brass housing in the coolant manifold.
+>
+> Tighten the engine coolant temperature switch sensor nut.
+>
+> Place the engine coolant temperature switch onto the C Command Elite Plus manifold mounting plate.
+>
+> Install and tighten the engine coolant temperature switch mounting allen head capscrews.
+>
+> Install the harness connector onto the engine coolant temperature switch.
+>
+> Tighten the engine coolant temperature switch connector screw.

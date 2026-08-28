@@ -34,7 +34,8 @@ manuals:
   - "4021530"
   - "4021539"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-007-009.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-007-009.pdf"
 tags:
@@ -46,6 +47,7 @@ tags:
   - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Dipstick
@@ -59,48 +61,96 @@ tags:
 > **Даты:** изменён 2010-03-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-007-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-007-009.pdf)
 
-### Calibrate
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid contact of hot oil with your skin.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+### калибровать
 
-Make sure the vehicle is sitting on a level surface.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, избегайте контакта горячего масла с кожей.
 
-Drain the oil. Use the following procedure in the Operation and Maintenance Manual. [[18-007-002 — Lubricating Oil and Filters|Refer to Procedure 007-002 in Section 5.]] Use the following procedure in the Service Manual. [[18-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 5.]]
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Install the dipstick into the dipstick tube housing.
+Убедитесь, что автомобиль находится на ровной поверхности.
 
-Use the correct volume of clean 15W-40 engine oil. Fill the oil pan to the specified LOW or L oil level.
+Слить масло. Используйте следующую процедуру в Руководстве по эксплуатации и техническому обслуживанию.[[18-007-002 — Lubricating Oil and Filters|См. процедуру 007-002 в разделе 5.]]Используйте следующую процедуру в Руководстве по обслуживанию. См. процедуру 007-037 в разделе 5.
 
-Use the lubricating oil system specifications for the correct engine oil capacity for the application. [[18-018-017 — Lubricating Oil System|Refer to Procedure 018-017 in Section V.]]
+Установите калибр уровня масла в корпус измерительной трубки уровня масла.
+
+Используйте правильный объем чистого моторного масла 15W-40. Заполните масляную поддон до указанного уровня масла LOW или L.
+
+Используйте спецификации системы моторного масла для правильной мощности моторного масла для применения.[[18-018-017 — Lubricating Oil System|См. процедуру 018-017 в разделе V.]]
 
 ![[lg8dowa.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use care when marking the dipstick, or the dipstick will break if the scribe mark is too deep.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при маркировке калибра уровня масла, или калибр уровня масла сломается, если знак писца слишком глубок.
 
-Remove the dipstick and scribe a mark across it at the oil level. Label the mark "L" to indicate the low oil level.
+Удалите калибр уровня масла и напишите на него отметку на уровне масла. Нанесите на маркировку «L» для обозначения низкого уровня масла.
 
-If a new, blank dipstick is being used, cut the dipstick approximately 38 mm \[1.5 in\] below the LOW or L oil level mark.
+Если используется новый калибр уровня холостого масла, вырежьте калибр уровня масла примерно на 38 мм \[1,5 дюйма \] ниже отметки уровня масла LOW или L.
 
 ![[lg8dona.png]]
 
-Wipe the excess oil from the dipstick and install it into the dipstick housing.
+Удалите избыток масла из калибра уровня масла и установите его в корпус калибра уровня масла.
 
-Use the correct amount of oil to fill the oil pan to the specified HIGH or H oil level.
+Используйте правильное количество масла для заполнения масляной панели до указанного уровня масла HIGH или H.
 
-Use the lubricating oil system specifications for the correct engine oil capacity. [[18-018-017 — Lubricating Oil System|Refer to Procedure 018-017 in Section V.]]
+Используйте спецификации системы моторного масла для правильной мощности моторного масла.[[18-018-017 — Lubricating Oil System|См. процедуру 018-017 в разделе V.]]
 
 ![[lg8dowb.png]]
 
-> [!warning] CAUTION · Осторожно
-> Use care when marking the dipstick, or the dipstick will break if the scribe mark is too deep.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при маркировке калибра уровня масла, или калибр уровня масла сломается, если знак писца слишком глубок.
 
-Remove the dipstick and scribe a mark across it at the oil level.
+Удалите калибр уровня масла и напишите на него отметку на уровне масла.
 
-Label the mark "H" to indicate the high oil level.
+Нанесите на маркировку «H» для обозначения высокого уровня масла.
 
 ![[lg8donb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Calibrate
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Make sure the vehicle is sitting on a level surface.
+>
+> Drain the oil. Use the following procedure in the Operation and Maintenance Manual. [[18-007-002 — Lubricating Oil and Filters|Refer to Procedure 007-002 in Section 5.]] Use the following procedure in the Service Manual. [[18-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 5.]]
+>
+> Install the dipstick into the dipstick tube housing.
+>
+> Use the correct volume of clean 15W-40 engine oil. Fill the oil pan to the specified LOW or L oil level.
+>
+> Use the lubricating oil system specifications for the correct engine oil capacity for the application. [[18-018-017 — Lubricating Oil System|Refer to Procedure 018-017 in Section V.]]
+>
+> **CAUTION · Осторожно**
+> Use care when marking the dipstick, or the dipstick will break if the scribe mark is too deep.
+>
+> Remove the dipstick and scribe a mark across it at the oil level. Label the mark "L" to indicate the low oil level.
+>
+> If a new, blank dipstick is being used, cut the dipstick approximately 38 mm \[1.5 in\] below the LOW or L oil level mark.
+>
+> Wipe the excess oil from the dipstick and install it into the dipstick housing.
+>
+> Use the correct amount of oil to fill the oil pan to the specified HIGH or H oil level.
+>
+> Use the lubricating oil system specifications for the correct engine oil capacity. [[18-018-017 — Lubricating Oil System|Refer to Procedure 018-017 in Section V.]]
+>
+> **CAUTION · Осторожно**
+> Use care when marking the dipstick, or the dipstick will break if the scribe mark is too deep.
+>
+> Remove the dipstick and scribe a mark across it at the oil level.
+>
+> Label the mark "H" to indicate the high oil level.

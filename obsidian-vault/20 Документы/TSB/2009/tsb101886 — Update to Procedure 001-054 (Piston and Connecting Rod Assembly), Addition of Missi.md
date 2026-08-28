@@ -13,13 +13,15 @@ engines:
   - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101886.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101886.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
   - "год/2009"
+  - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -33,18 +35,44 @@ tags:
 > **Даты:** выпущен 2009-12-17 · изменён 2006-04-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101886.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101886.pdf)
 
-## Update to Procedure 001-054 (Piston and Connecting Rod Assembly), Addition of Missing Procedure Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Обновление процедуры 001-054: добавлены недостающие шаги
 
-### Contents
+### Положение о гарантии
 
-The purpose of this Service/Parts Topic is to update procedure 001-054 with the missing Disassemble, Clean and Inspect for Reuse, Assemble, and Install steps.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-> [!note] Note · Примечание
+### Содержание
+
+Цель данной темы Сервиса/Частей состоит в обновлении процедуры 001-054 с помощью отсутствующих этапов Разборки, Очистки и Инспектирования для повторного использования, Сборки и Установки.
+
+> [!note] Примечание
+> Это усовершенствование продукта и не подлежит кампании.
+
+> [!note] Примечание
+> Это изменение не будет * выпускать какие-либо новые части или влиять на номера деталей.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Update to Procedure 001-054 (Piston and Connecting Rod Assembly), Addition of Missing Procedure Steps
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> The purpose of this Service/Parts Topic is to update procedure 001-054 with the missing Disassemble, Clean and Inspect for Reuse, Assemble, and Install steps.
+>
+> **Note · Примечание**
 > This is a product improvement and is **not** subject to campaign.
-
-> [!note] Note · Примечание
+>
+> **Note · Примечание**
 > This change will **not** release any new parts or affect any part numbers.

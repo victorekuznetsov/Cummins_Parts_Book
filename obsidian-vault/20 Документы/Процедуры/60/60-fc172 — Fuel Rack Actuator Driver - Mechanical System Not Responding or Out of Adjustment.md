@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc172.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc172.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
+  - "перевод/машинный"
 ---
 
 # Fuel Rack Actuator Driver - Mechanical System Not Responding or Out of Adjustment
@@ -34,58 +36,122 @@ tags:
 > **Даты:** изменён 2020-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc172.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc172.pdf)
 
-### Fault Code: 172
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Fuel Rack Actuator Driver - Mechanical System Not Responding or Out of Adjustment
 
-Printable Version
+### Код неисправности: 172
 
-### Overview
+### Драйвер привода рейки — механическая система не отвечает или разрегулирована
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 172 PID(P): S23 SPN: 638 FMI: 7/7 Lamp: Red SRT: | Fuel control rack is in a stuck position. | Engine will shut down. |
+| Код неисправности: 172 PID(P): S23 SPN: 638 FMI: 7/7 Лампа: Красная СТО: | Реестр управления топливом находится в застрявшем положении. | Двигатель отключится. |
 
 ![[19a00845.png]]
 
-Fuel Rack Actuator Driver Circuit
+Схема привода привода топливного рейка
 
-### Circuit Description
+### Описание цепи
 
-The fuel control rack and solenoid determine the quantity of fuel metered to the engine.
+Реестр управления топливом и соленоид определяют количество топлива, отмеренное для двигателя.
 
-### Component Location
+### Расположение компонента
 
-The fuel control rack and solenoid are internal parts of the fuel injection pump.
+Реестр управления топливом и соленоид являются внутренними частями топливного насоса.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the generator set controller is active.
+Эта диагностика выполняется непрерывно, когда контроллер генераторного набора активен.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the fuel rack is stuck or **not** responding to fueling commands.
+Модуль управления двигателем (ECM) обнаружил, что топливный стойка застряла или **не** реагирует на команды заправки.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность выключения сразу же, когда диагностика работает и выходит из строя.
 
-- The engine will be shut down.
+- Двигатель будет отключен.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
+- Контроллер генераторной установки отключит индикатор выключения сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Loose or damaged actuator connector.
+- Разъем разъема или поврежденного привода.
 
-- Malfunctioning fuel pump.
+- Неисправный топливный насос.
 
-Refer to Troubleshooting Fault Code 172.
+См. Код 172 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 172
+>
+> ### Fuel Rack Actuator Driver - Mechanical System Not Responding or Out of Adjustment
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 172 PID(P): S23 SPN: 638 FMI: 7/7 Lamp: Red SRT: | Fuel control rack is in a stuck position. | Engine will shut down. |
+>
+> Fuel Rack Actuator Driver Circuit
+>
+> ### Circuit Description
+>
+> The fuel control rack and solenoid determine the quantity of fuel metered to the engine.
+>
+> ### Component Location
+>
+> The fuel control rack and solenoid are internal parts of the fuel injection pump.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the generator set controller is active.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the fuel rack is stuck or **not** responding to fueling commands.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
+>
+> - The engine will be shut down.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Loose or damaged actuator connector.
+>
+> - Malfunctioning fuel pump.
+>
+> Refer to Troubleshooting Fault Code 172.

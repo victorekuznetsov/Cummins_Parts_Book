@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021592"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-010-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-009-010-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
+  - "перевод/машинный"
 ---
 
 # Alternator Drive Pulley
@@ -34,21 +36,46 @@ tags:
 > **Даты:** изменён 2006-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-010-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-009-010-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the plastic plug at the end of the shaft.
 
-Insert the adapter, Part Number 3376089, in the shaft to prevent damage. The adapter is included with the pulley installation tool, Part Number 3376326.
+### Снятие
 
-> [!note] Note · Примечание
-> If the adapter is **not** available, a \[3/4-16 inch\] capscrew with a head ground smaller than the pulley inside diameter can be used.
+Удалите пластиковую пробку в конце вала.
+
+Вставьте адаптер, номер детали 3376089, в шахту, чтобы предотвратить повреждение. Адаптер включен в комплект с установочным инструментом шкива, Номер детали 3376326.
+
+> [!note] Примечание
+> Если адаптер не доступен, можно использовать болты \[3/4-16 дюйма] с головкой меньше, чем шкив внутри диаметра.
 
 ![[dw4puma.png]]
 
-Put the puller on the pulley.
+Положите съёмник на шкив.
 
-Remove the pulley.
+Уберите шкив.
 
-Remove the adapter.
+Удалите адаптер.
 
 ![[01400114.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the plastic plug at the end of the shaft.
+>
+> Insert the adapter, Part Number 3376089, in the shaft to prevent damage. The adapter is included with the pulley installation tool, Part Number 3376326.
+>
+> **Note · Примечание**
+> If the adapter is **not** available, a \[3/4-16 inch\] capscrew with a head ground smaller than the pulley inside diameter can be used.
+>
+> Put the puller on the pulley.
+>
+> Remove the pulley.
+>
+> Remove the adapter.
