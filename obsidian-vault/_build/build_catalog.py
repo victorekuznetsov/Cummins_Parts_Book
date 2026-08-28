@@ -3,7 +3,7 @@
 """Разбор каталогов запчастей data/<ESN>.js в состояние для заметок.
 
 Собирает: двигатели, узлы (опции), комплекты, детали (карточки),
-обратные связи деталь -> узлы/комплекты/двигатели, цены из каталогов NHL,
+обратные связи деталь -> узлы/комплекты/двигатели, цены «Горной Евразии»,
 чертежи листов узлов.
 """
 import collections
@@ -14,31 +14,39 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from common import BUILD, NHL, SRC, catalogs, load_json, save_json
+from common import BUILD, SRC, catalogs, load_json, save_json
 
 PHOTO = "https://parts.cummins.com/graphics/parts/{p3}/{no}/{img}"
 
 
-def nhl_prices():
-    """Цены из каталогов машин NHL: артикул -> {машина: {цена, группа, имя}}."""
-    out = collections.defaultdict(dict)
-    for machine, path in NHL.items():
-        f = os.path.join(path, "data", "prices.js")
-        if not os.path.exists(f):
-            continue
-        s = open(f, encoding="utf-8").read()
-        data = json.loads(s[s.find("=") + 1:].rstrip().rstrip(";"))
-        for no, rec in data.items():
-            out[no][machine] = {
-                "price": rec.get("p"),
-                "group": rec.get("g", ""),
-                "name": rec.get("n", ""),
-            }
+def ge_prices():
+    """Прайс «Горная Евразия» из data/prices.js: артикул -> {текущая, несогласованная}.
+
+    Ключ прайса нормализован (верхний регистр, без пробелов и дефисов), как в
+    каталоге, поэтому и здесь номер приводится к тому же виду."""
+    f = os.path.join(SRC, "data", "prices.js")
+    if not os.path.exists(f):
+        return {}
+    cur, unapproved = {}, {}
+    for line in open(f, encoding="utf-8"):
+        for var, dst in (("CUMMINS_PRICES_CUR", cur), ("CUMMINS_PRICES", unapproved)):
+            head = "window." + var + " = "
+            if line.startswith(head):
+                dst.update(json.loads(line[len(head):].rstrip().rstrip(";")))
+                break
+    out = {}
+    for key, src in (("cur", cur), ("new", unapproved)):
+        for no, val in src.items():
+            out.setdefault(no, {})[key] = val
     return out
 
 
+def norm_no(no):
+    return re.sub(r"[\s-]", "", str(no or "")).upper()
+
+
 def main():
-    prices = nhl_prices()
+    prices = ge_prices()
     engines, options, kits, parts = {}, {}, {}, {}
 
     for cat in catalogs():
@@ -117,7 +125,7 @@ def main():
         rec["alt_names"] = [n for n, _ in rec["names"].most_common()[1:]]
         rec.pop("names")
         rec["engines"] = sorted(rec["engines"])
-        rec["price"] = prices.get(no, {})
+        rec["price"] = prices.get(norm_no(no), {})
         card = rec.get("card") or {}
         views = card.get("views") or ([rec["img"]] if rec["img"] else [])
         rec["photos"] = [PHOTO.format(p3=no[:3], no=no, img=v) for v in views[:4]]

@@ -7,12 +7,8 @@ import re
 import unicodedata
 
 SRC = os.environ.get("KB_SRC", "/home/user/Cummins_Parts_Book")
-# каталоги машин NHL: единый репозиторий NHL_Parts_Book, папка на машину
-NHL = {
-    "NTE200": os.environ.get("KB_NTE200", "/home/user/NHL_Parts_Book/nte200"),
-    "NTE240": os.environ.get("KB_NTE240", "/home/user/NHL_Parts_Book/nte240"),
-    "TR100A": os.environ.get("KB_TR100", "/home/user/NHL_Parts_Book/tr100"),
-}
+# Каталоги самих машин (NTE200, NTE240, TR100A) живут в отдельном репозитории
+# NHL_Parts_Book: здесь только двигатели Cummins и документация к ним.
 VAULT = os.environ.get("KB_VAULT", os.path.join(SRC, "obsidian-vault"))
 BUILD = os.path.join(SRC, "kb_build")
 
@@ -190,6 +186,16 @@ def catalogs():
             continue
         out.append(json.loads(s[m.end():].rstrip().rstrip(";")))
     return out
+
+
+def engine_registry():
+    """engines.js -> {ESN: запись}. Там же машина, владелец и участок парка."""
+    f = os.path.join(SRC, "engines.js")
+    if not os.path.exists(f):
+        return {}
+    src = open(f, encoding="utf-8").read()
+    m = re.search(r"window\.ENGINES\s*=\s*(\[.*\]);", src, re.S)
+    return {e["esn"]: e for e in json.loads(m.group(1))} if m else {}
 
 
 def ru(dic, key, default=""):

@@ -183,8 +183,12 @@ parts.cummins.com.
 инструменту и установке, руководства. Из них собираются:
 
 * раздел «База знаний» самого каталога — `data/kb_*.js` и `data/kb/body_*.js`;
-* хранилище Obsidian в `obsidian-vault/` (22 653 заметки: документы, детали,
-  узлы, комплекты, двигатели, парк, темы).
+* хранилище Obsidian в `obsidian-vault/` (документы, детали, узлы, комплекты,
+  двигатели, парк, темы).
+
+Каталог и база знаний — **только про двигатели Cummins**. Каталоги машин
+(NTE200, NTE240, TR100A) живут в репозитории `NHL_Parts_Book` и сюда не
+включаются.
 
 Документация привязана к 28 двигателям каталога из 30 (нет по CPL 4342 и 8761 —
 двум DH46C3). Русский текст есть у 3112 документов и русские заголовки у 5000;
@@ -197,11 +201,10 @@ parts.cummins.com.
 ```
 python3 obsidian-vault/_build/build_docs.py        # HTML -> Markdown, иллюстрации из PDF
 python3 obsidian-vault/_build/build_catalog.py     # детали/узлы/комплекты из data/<ESN>.js
-python3 obsidian-vault/_build/build_machines.py    # каталоги машин NHL
 python3 obsidian-vault/_build/build_fleet.py       # парк: машина -> VIN -> ESN -> CPL
 python3 obsidian-vault/_build/write_docs.py        # заметки документов
 python3 obsidian-vault/_build/write_catalog.py     # заметки каталога
-python3 obsidian-vault/_build/write_machines.py obsidian-vault/_build/write_fleet.py
+python3 obsidian-vault/_build/write_fleet.py
 python3 obsidian-vault/_build/write_fleet_polyus.py
 python3 obsidian-vault/_build/build_index.py       # главная, индексы, темы
 python3 obsidian-vault/_build/web_data.py          # data/kb_*.js для каталога
