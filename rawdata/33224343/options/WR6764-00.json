@@ -1,0 +1,334 @@
+{
+ "componentHash": "D70E4FD4AAB298C89C2EE7E3E0088845C8A9867739D2CBA0BC5CA8E563E9C329B8B265B7D3C6C0F6B1895F21544B5002341D4DA926367E3BD87E475C66B1CC39",
+ "esnType": "mbom",
+ "optionName": "Electronic Control Module Wiring Harness (Distributor Upfit 1)",
+ "build": "Distributor Upfit 1",
+ "buildDate": "2021-06-03 00:00:00.0",
+ "specGroup": null,
+ "optionFlag": "O",
+ "plantCode": "0",
+ "graphic": null,
+ "path": null,
+ "buildCode": "Distributor Upfit 1",
+ "optionNumber": "WR6764-00",
+ "optionNo": "WR6764-00",
+ "graphics": [],
+ "graphicCount": "0",
+ "remarks": "",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "68152",
+      "partDesc": "Clip",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "68152B",
+      "partDesc": "Clip",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "69911A",
+      "partDesc": "Clip",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3062329",
+      "partDesc": "Wire Tie Clamp",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3093957",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3627412",
+      "partDesc": "Clip",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628553",
+      "partDesc": "Tube Brace",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628554",
+      "partDesc": "Tube Brace",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628585",
+      "partDesc": "Tube Brace",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3639664",
+      "partDesc": "Wiring Harness",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900589",
+      "partDesc": "Hexagon Flange Nut",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900629",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900630",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900679",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3902460",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3906216",
+      "partDesc": "Hexagon Flange Nut",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3913372",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4017050",
+      "partDesc": "Protective Cover",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4066935",
+      "partDesc": "Wiring Brace",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4067011",
+      "partDesc": "Wiring Retainer Bracket",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4100552",
+      "partDesc": "Clip",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5541628",
+      "partDesc": "Electronic Control Module Wiring Harness",
+      "systems": [
+       "ELECTRICS",
+       "CONTROLS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "_source": "esnInfo/optionList (componentDetails API вернул 404 для этого узла)"
+}

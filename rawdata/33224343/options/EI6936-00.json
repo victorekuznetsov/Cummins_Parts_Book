@@ -1,0 +1,130 @@
+{
+ "componentHash": "6969F1D9447E725AFBDEAE2EB43B0D9AB652A99F5C22E6CE06EF5EAF3236281F4DB9071AF9DBA46EF56807F0FC596A23CF4B9D4640BD0C74259FC7C8637A6625",
+ "esnType": "mbom",
+ "optionName": "Electronic Engine Monitor (Distributor Upfit 1)",
+ "build": "Distributor Upfit 1",
+ "buildDate": "2021-06-03 00:00:00.0",
+ "specGroup": null,
+ "optionFlag": "O",
+ "plantCode": "0",
+ "graphic": null,
+ "path": null,
+ "buildCode": "Distributor Upfit 1",
+ "optionNumber": "EI6936-00",
+ "optionNo": "EI6936-00",
+ "graphics": [],
+ "graphicCount": "0",
+ "remarks": "",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "3645413",
+      "partDesc": "Dataplate",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3901865",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4309938",
+      "partDesc": "Production Configuration Data",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4309939",
+      "partDesc": "Calibration Dependency Data",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4323413",
+      "partDesc": "Application Configuration Data",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4326927",
+      "partDesc": "Electronic Control Module",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4326926",
+      "partDesc": "Electronic Control Module",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5545206",
+      "partDesc": "Calibration Software",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "_source": "esnInfo/optionList (componentDetails API вернул 404 для этого узла)"
+}

@@ -1,0 +1,312 @@
+{
+ "componentHash": "276CAD6DC4F7CE6D67ADAD4464A2A06DBB230C3C54080D98E08CDF0A21FD4E6226A4845ADBB302C55A0A6699D2236A957992839CA29C8EA9CA70DBE76960FBCA",
+ "esnType": "mbom",
+ "optionName": "Aftercooler Water Plumbing (Distributor Upfit 1)",
+ "build": "Distributor Upfit 1",
+ "buildDate": "2021-06-03 00:00:00.0",
+ "specGroup": null,
+ "optionFlag": "O",
+ "plantCode": "0",
+ "graphic": null,
+ "path": null,
+ "buildCode": "Distributor Upfit 1",
+ "optionNumber": "WA6728-00",
+ "optionNo": "WA6728-00",
+ "graphics": [],
+ "graphicCount": "0",
+ "remarks": "",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "68189",
+      "partDesc": "Clip",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3093828",
+      "partDesc": "Hexagon Flange Nut",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3093957",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3279244",
+      "partDesc": "Hexagon Head Cap Screw",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3635440",
+      "partDesc": "Water Transfer Tube",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3637131",
+      "partDesc": "Retaining Clamp",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3637402",
+      "partDesc": "Wear Sleeve",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3647994",
+      "partDesc": "O Ring Seal",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3648024",
+      "partDesc": "Water Transfer Tube",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900630",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900679",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3902460",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3903990",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3913372",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4066204",
+      "partDesc": "Water Tube Bracket",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4080242",
+      "partDesc": "Mounting Spacer",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4080243",
+      "partDesc": "Water Tube Bracket",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4080251",
+      "partDesc": "Connection Bracket",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4100863",
+      "partDesc": "Water Transfer Tube",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4100991",
+      "partDesc": "Water Tube Bracket",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5372144",
+      "partDesc": "Water Transfer Tube",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5374092",
+      "partDesc": "Connection Bracket",
+      "systems": [
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "_source": "esnInfo/optionList (componentDetails API вернул 404 для этого узла)"
+}

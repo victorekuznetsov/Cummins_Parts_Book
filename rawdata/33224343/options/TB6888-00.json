@@ -1,0 +1,544 @@
+{
+ "componentHash": "36C5F9549DA7CA2D8969C29E0004A5BED44E325DB9E4D5CC00380791E352E87AF2CF79F014DA4B62E5A731CB1CCED1E8A6F33CD6C7197BCDCEF0FD7F4CDADF06",
+ "esnType": "mbom",
+ "optionName": "Aftercooler (Distributor Upfit 1)",
+ "build": "Distributor Upfit 1",
+ "buildDate": "2021-06-03 00:00:00.0",
+ "specGroup": null,
+ "optionFlag": "O",
+ "plantCode": "0",
+ "graphic": null,
+ "path": null,
+ "buildCode": "Distributor Upfit 1",
+ "optionNumber": "TB6888-00",
+ "optionNo": "TB6888-00",
+ "graphics": [],
+ "graphicCount": "0",
+ "remarks": "",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "131584",
+      "partDesc": "Roll Pin",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "206808",
+      "partDesc": "Grommet Seal",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3035026",
+      "partDesc": "O Ring Seal",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3082358",
+      "partDesc": "O Ring Seal",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3093932",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3102651",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3171170",
+      "partDesc": "Connection Gasket",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3171287",
+      "partDesc": "Connection Gasket",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3331834",
+      "partDesc": "Rectangular Ring Seal",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628604",
+      "partDesc": "Pipe Plug",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628605",
+      "partDesc": "Pipe Plug",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3637776",
+      "partDesc": "Intake Manifold Gasket",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3638582",
+      "partDesc": "Draincock",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3638769",
+      "partDesc": "Coupling Nipple",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3641726",
+      "partDesc": "Hump Hose",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3642037",
+      "partDesc": "Mounting Spacer",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3643875",
+      "partDesc": "Round Head Cap Screw",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3645972",
+      "partDesc": "T Bolt Clamp",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3645975",
+      "partDesc": "Hose Clamp",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3651300",
+      "partDesc": "Water Transfer Connection",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3681390",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3903112",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3904446",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3925437",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4008037",
+      "partDesc": "T Bolt Clamp",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4017163",
+      "partDesc": "Flange",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4017508",
+      "partDesc": "Air Balance Tube",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4066129",
+      "partDesc": "Seal Retainer",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4924790",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4927995",
+      "partDesc": "Air Crossover Connection",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4999047",
+      "partDesc": "Air Intake Manifold",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4999050",
+      "partDesc": "Air Intake Manifold",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4999052",
+      "partDesc": "Aftercooler Cover",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4999056",
+      "partDesc": "Air Crossover Connection",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4999239",
+      "partDesc": "Aftercooler Cover",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5540851",
+      "partDesc": "Aftercooler Cover Gasket",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "5543593",
+      "partDesc": "Aftercooler Core",
+      "systems": [
+       "AIR INTAKE",
+       "COOLING"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "_source": "esnInfo/optionList (componentDetails API вернул 404 для этого узла)"
+}

@@ -1,0 +1,546 @@
+{
+ "componentHash": "00C1865880FC7652D3BCE2359F46233898642B9DFC993ED8081BAB178852BB82C565B97DD634F4DBD968B9F754A571BE4663446CB3C09CD24486B4AC985928C7",
+ "esnType": "mbom",
+ "optionName": "Engine Monitoring Wiring Harness (Distributor Upfit 1)",
+ "build": "Distributor Upfit 1",
+ "buildDate": "2021-06-03 00:00:00.0",
+ "specGroup": null,
+ "optionFlag": "O",
+ "plantCode": "0",
+ "graphic": null,
+ "path": null,
+ "buildCode": "Distributor Upfit 1",
+ "optionNumber": "EI6843-00",
+ "optionNo": "EI6843-00",
+ "graphics": [],
+ "graphicCount": "0",
+ "remarks": "",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": [
+    {
+     "data": {
+      "partNo": "68152",
+      "partDesc": "Clip",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "180371",
+      "partDesc": "Clip",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "2872254",
+      "partDesc": "Pressure Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4010519",
+      "partDesc": "O Ring Seal",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3062329",
+      "partDesc": "Wire Tie Clamp",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3089316",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3093956",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3279244",
+      "partDesc": "Hexagon Head Cap Screw",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3281178",
+      "partDesc": "Clip",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3408345",
+      "partDesc": "Temperature Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3408346",
+      "partDesc": "Temperature Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4921574",
+      "partDesc": "O Ring Seal",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3408558",
+      "partDesc": "Pressure Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3408559",
+      "partDesc": "Pressure Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4010519",
+      "partDesc": "O Ring Seal",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3628553",
+      "partDesc": "Tube Brace",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3637070",
+      "partDesc": "Electronic Control Module Wiring Harness",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3638772",
+      "partDesc": "Electronic Control Module Bracket",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3639265",
+      "partDesc": "Clip",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3639665",
+      "partDesc": "Wiring Harness",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3642037",
+      "partDesc": "Mounting Spacer",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3645834",
+      "partDesc": "Temperature Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3647448",
+      "partDesc": "Wiring Brace",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3648149",
+      "partDesc": "Electronic Control Module Wiring Harness",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3648150",
+      "partDesc": "Electronic Control Module Wiring Harness",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900589",
+      "partDesc": "Hexagon Flange Nut",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900626",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900629",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3900679",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3913372",
+      "partDesc": "Hexagon Flange Head Cap Screw",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4016268",
+      "partDesc": "Temperature Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3408345",
+      "partDesc": "Temperature Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "3408346",
+      "partDesc": "Temperature Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4921574",
+      "partDesc": "O Ring Seal",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4017050",
+      "partDesc": "Protective Cover",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4066652",
+      "partDesc": "Electronic Control Module Wiring Harness",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4066935",
+      "partDesc": "Wiring Brace",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4066937",
+      "partDesc": "Wiring Brace",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4954905",
+      "partDesc": "Temperature Sensor",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    },
+    {
+     "data": {
+      "partNo": "4010519",
+      "partDesc": "O Ring Seal",
+      "systems": [
+       "ELECTRICS"
+      ],
+      "callOut": "",
+      "qty": ""
+     },
+     "expanded": false,
+     "children": []
+    }
+   ]
+  }
+ ],
+ "_source": "esnInfo/optionList (componentDetails API вернул 404 для этого узла)"
+}

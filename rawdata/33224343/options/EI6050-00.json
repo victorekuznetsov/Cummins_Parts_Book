@@ -1,0 +1,25 @@
+{
+ "componentHash": "627DDB0B295471369EDC505237425B048D7F68725BAB3C9402DEC0BBCB29132A492CCF56108ED9D897F198EB25C9513752BD67337B8CFDA7C4AC293177F79BDC",
+ "esnType": "mbom",
+ "optionName": "Electronic Engine Monitor Arrangement (Distributor Upfit 1)",
+ "build": "Distributor Upfit 1",
+ "buildDate": "2021-06-03 00:00:00.0",
+ "specGroup": null,
+ "optionFlag": "O",
+ "plantCode": "0",
+ "graphic": null,
+ "path": null,
+ "buildCode": "Distributor Upfit 1",
+ "optionNumber": "EI6050-00",
+ "optionNo": "EI6050-00",
+ "graphics": [],
+ "graphicCount": "0",
+ "remarks": "",
+ "groups": [
+  {
+   "groupName": null,
+   "parts": []
+  }
+ ],
+ "_source": "esnInfo/optionList (componentDetails API вернул 404 для этого узла)"
+}
