@@ -36,8 +36,8 @@
 
 ## Источники
 
-* Документы — `quickserve.cummins.com` (выгрузка в ветке
-  `claude/cummins-parts-knowledge-base-qa0n50` того же репозитория: HTML + PDF).
+* Документы — `quickserve.cummins.com` (выгрузка в ветке `main` того же
+  репозитория, папка `bulletins/`: HTML + PDF).
 * Каталоги запчастей — `parts.cummins.com` по серийным номерам двигателей.
 * Каталоги и цены машин — репозитории `NHL_Parts_Book-NTE200`,
   `NHL_Parts_Book-NTE240`, `NHL_Parts_Book-TR100`.

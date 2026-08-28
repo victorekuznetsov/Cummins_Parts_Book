@@ -43,13 +43,13 @@ tags:
 | 26 | [[3896083]] | Screw, Hexagon Head Cap |  | 1 |
 | 27 | [[4068146]] | Bracket, Idler Pulley |  | 1 |
 |  | 2888890 | Tensioner, Belt S Nut, Regular Hexagon Jam UNF S Pin, Cotter |  | 1 |
-| 29 | 177269 | End, Control Rod |  | 1 |
+| 29 | [[177269]] | End, Control Rod |  | 1 |
 | 9 | [[3036900]] | Washer, Plain · 1/2 in. |  | 1 |
 | 30 | [[3076301]] | Clamp, Wire Tie |  | 2 |
 | 31 | [[3086244]] | Housing, Belt Tensioner |  | 1 |
 | 32 | [[3086251]] | Retainer, Spring |  | 1 |
 | 33 | [[3086252]] | Pin, Clevis |  | 1 |
-| 34 | 3086253 | End, Control Rod |  | 1 |
+| 34 | [[3086253]] | End, Control Rod |  | 1 |
 | 35 | [[3086269]] | Spring, Compression |  | 1 |
 | 36 | [[3090194]] | Seal, Dust |  | 1 |
 | 37 | [[3402156]] | Guide, Spring |  | 1 |

@@ -22,7 +22,7 @@ tags:
 | 18 | [[3678924]] | Plug, Threaded · Service As 3678923 |  | 1 |
 | 19 | [[3678925]] | Seal, O Ring · M10 |  | 1 |
 | 20 | [[3094024]] | Washer, Plain · M10 |  | 4 |
-|  | 3648162 | Seal, Dust rh6000gb JV 23-JAN-06 |  | 1 |
+|  | [[3648162]] | Seal, Dust rh6000gb JV 23-JAN-06 |  | 1 |
 | 1 | [[3092481]] | Cover, Rocker Lever |  | 10 |
 | 2 | [[3092484]] | Gasket, Rocker Lever Hsg |  | 12 |
 | 3 | 3092716 | Shield, Heat |  | 2 |

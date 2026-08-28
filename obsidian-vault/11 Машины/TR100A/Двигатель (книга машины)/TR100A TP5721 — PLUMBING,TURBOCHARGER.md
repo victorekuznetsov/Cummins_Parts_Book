@@ -33,7 +33,7 @@ tags:
 |  | [[3679139]] | Seal, O Ring |  | 1 |
 |  | [[3922794]] | Seal, O Ring |  | 1 |
 |  | [[3092021]] | Spacer, Mounting |  | 1 |
-|  | 3092388 | Clip |  | 2 |
+|  | [[3092388]] | Clip |  | 2 |
 |  | 3093597 | Clamp, Tube |  | 4 |
 |  | [[3093742]] | Screw, Hexagon Head Cap · M10 x 1.50 x 20. |  | 6 |
 |  | [[3093743]] | Screw, Hexagon Head Cap · M10 x 1.50 x 25. |  | 6 |
