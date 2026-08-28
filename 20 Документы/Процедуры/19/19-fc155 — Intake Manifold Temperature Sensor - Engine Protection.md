@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc155.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc155.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Temperature Sensor - Engine Protection
@@ -38,40 +40,86 @@ tags:
 > **Даты:** изменён 2010-08-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc155.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc155.pdf)
 
-### Fault Code: 155
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold Temperature Sensor - Engine Protection
 
-Printable Version
+### Код неисправности: 155
 
-### Overview
+### Датчик температуры впускного коллектора — защита двигателя
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 155 PID(P): P105 SPN: 105 FMI: 0 Lamp: Engine Protection SRT: 00-360 | High intake air manifold temperature has been detected. Voltage signal at intake manifold air temperature signal pin 23 indicates intake manifold air temperature above 104°C \[219°F\]. | Calibration-dependent progressive power and speed derate and engine shutdown as the temperature increases over thresholds. |
+| Код неисправности: 155 P(P): P105 SPN: 105 FMI: 0 лампочка: Защита двигателя SRT: 00-360 | Была обнаружена высокая температура впускного коллектора воздуха. Сигнал напряжения при контакте 23 с температурой воздуха впускного коллектора указывает температуру воздуха впускного коллектора выше 104 °C \[219 °F\]. | Калибровочная зависимость прогрессивной мощности и скорости ухудшается, а двигатель отключается по мере повышения температуры над порогами. |
 
 ![[19400062.png]]
 
-Intake Manifold Temperature Sensor Circuit
+Цепь датчика температуры во впускном коллекторе
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold temperature sensor is used by the ECM to monitor the temperature of the air in the intake manifold after the aftercooler. The intake manifold temperature sensor is used by the ECM for the engine protection system, timing, and fueling control. The ECM monitors the voltage on pin 23. The ECM expects to see the voltage vary between 0.5 and 4.5-VDC. If the voltage is below 0.5-VDC, the ECM will log Fault Code 155. Voltage below 0.5-VDC on pin 23 can be caused by a cooling system malfunction or an in-range sensor malfunction.
+Датчик температуры впускного коллектора используется ECM для мониторинга температуры воздуха в впускном коллекторе после охладителя. Датчик температуры впускного коллектора используется ECM для системы защиты двигателя, управления временем и заправкой. ECM контролирует напряжение на контакте 23. ECM ожидает, что напряжение будет варьироваться от 0,5 до 4,5-VDC. Если напряжение ниже 0,5-VDC, ECM регистрирует код 155 по умолчанию. Напряжение ниже 0,5-VDC при контакте 23 может быть вызвано неисправностью системы охлаждения или неисправностью датчика в диапазоне.
 
-### Component Location
+### Расположение компонента
 
-QSK19 series engines - The intake manifold temperature sensor is located above the fuel pump, next to the intake manifold pressure sensor.
+Двигатели серии QSK19 - датчик температуры впускного коллектора расположен над топливным насосом, рядом с датчиком давления впускного коллектора.
 
-### Shoptalk
+### Практические замечания
 
-The following chart shows resistance of the intake manifold temperature sensor at various temperature readings.
+На следующей диаграмме показано сопротивление датчика температуры впускного коллектора при различных показаниях температуры.
 
-| Temperature(°C) | Temperature\[°F\] | Resistance(ohms) |
+| Температура (°C) | Температура \[°F\] | Сопротивление (Омс) |
 |---|---|---|
-| 0 | 32 | 30k to 36k |
-| 25 | 77 | 9k to 11k |
-| 50 | 122 | 3k to 4k |
-| 75 | 167 | 1350 to 1500 |
-| 100 | 212 | 600 to 675 |
+| 0 | 32 | 30k до 36k |
+| 25 | 77 | 9k до 11k |
+| 50 | 122 | 3k - 4k |
+| 75 | 167 | 1350—1500 |
+| 100 | 212 | 600-675 |
 
-Refer to Troubleshooting Fault Code 155.
+См. код 155 устранения неполадок.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 155
+>
+> ### Intake Manifold Temperature Sensor - Engine Protection
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 155 PID(P): P105 SPN: 105 FMI: 0 Lamp: Engine Protection SRT: 00-360 | High intake air manifold temperature has been detected. Voltage signal at intake manifold air temperature signal pin 23 indicates intake manifold air temperature above 104°C \[219°F\]. | Calibration-dependent progressive power and speed derate and engine shutdown as the temperature increases over thresholds. |
+>
+> Intake Manifold Temperature Sensor Circuit
+>
+> ### Circuit Description
+>
+> The intake manifold temperature sensor is used by the ECM to monitor the temperature of the air in the intake manifold after the aftercooler. The intake manifold temperature sensor is used by the ECM for the engine protection system, timing, and fueling control. The ECM monitors the voltage on pin 23. The ECM expects to see the voltage vary between 0.5 and 4.5-VDC. If the voltage is below 0.5-VDC, the ECM will log Fault Code 155. Voltage below 0.5-VDC on pin 23 can be caused by a cooling system malfunction or an in-range sensor malfunction.
+>
+> ### Component Location
+>
+> QSK19 series engines - The intake manifold temperature sensor is located above the fuel pump, next to the intake manifold pressure sensor.
+>
+> ### Shoptalk
+>
+> The following chart shows resistance of the intake manifold temperature sensor at various temperature readings.
+>
+> | Temperature(°C) | Temperature\[°F\] | Resistance(ohms) |
+> |---|---|---|
+> | 0 | 32 | 30k to 36k |
+> | 25 | 77 | 9k to 11k |
+> | 50 | 122 | 3k to 4k |
+> | 75 | 167 | 1350 to 1500 |
+> | 100 | 212 | 600 to 675 |
+>
+> Refer to Troubleshooting Fault Code 155.

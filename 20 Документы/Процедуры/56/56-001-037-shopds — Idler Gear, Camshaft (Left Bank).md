@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-037-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-037-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Idler Gear, Camshaft (Left Bank)
@@ -31,12 +33,30 @@ tags:
 > **Даты:** изменён 2018-08-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-037-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-037-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Mark the gears before disassembly so proper reassembly can occur or align the factory timing marks. Cummins Inc., recommends measuring the camshaft idler gear end clearance before removing the gear.
 
-Remove the four mounting capscrews, thrust retainer plate, thrust bearing, and the left bank camshaft idler gear
+### Снятие
 
-Remove the idler shaft.
+Отметьте перед демонтажем передаточные механизмы, чтобы могла произойти правильная повторная сборка или выровняйте заводские временные метки. Cummins Inc. рекомендует измерять зазор конца зубчатой передачи распредваленного вала перед снятием зубчатой передачи.
+
+Удалите четыре крепежных болта, пластину удерживающего устройства, подшипник тяги и левобережную передачу бездействия распределительного вала
+
+Удалите вал бездельника.
 
 ![[01600083.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Mark the gears before disassembly so proper reassembly can occur or align the factory timing marks. Cummins Inc., recommends measuring the camshaft idler gear end clearance before removing the gear.
+>
+> Remove the four mounting capscrews, thrust retainer plate, thrust bearing, and the left bank camshaft idler gear
+>
+> Remove the idler shaft.

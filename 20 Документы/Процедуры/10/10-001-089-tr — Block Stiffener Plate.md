@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666239"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-001-089-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-001-089-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Block Stiffener Plate
@@ -34,58 +36,104 @@ tags:
 > **Даты:** изменён 2019-05-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-001-089-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-001-089-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+### Подготовительные операции
 
-Drain the lubricating oil. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7]].
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
+
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+Слить моторное масло.[[10-007-037-tr — Lubricating Oil System|См. процедуру 007-037 в разделе 7.]].
 
 ![[07200008.png]]
 
-Remove the oil pan. [[10-007-025-tr — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7]].
+Уберите масляную кастрюлю.[[10-007-025-tr — Lubricating Oil Pan|См. процедуру 007-025 в разделе 7.]].
 
 ![[07c00149.png]]
 
-Remove the lubricating oil suction tube. Refer to Procedure 007-035 in Section 7.
+Удалите всасывающую трубку моторного масла. См. процедуру 007-035 в разделе 7.
 
 ![[07c00016.png]]
 
-### Remove
+### Снятие
 
-Remove the 10 capscrews and the block stiffener plate.
-
-![[01c00100.png]]
-
-### Install
-
-Install the block stiffener plate and the 10 capscrews. Tighten the capscrews.
-
-Torque Value:
+Удалите 10 болтов и блок-затворную пластину.
 
 ![[01c00100.png]]
 
-### Finishing Steps
+### Установка
 
-Install the lubricating oil suction tube. Refer to Procedure 007-035 in Section 7.
+Установите блок-затвор и 10 болтов. Затяните болты.
+
+Момент затяжки:
+
+![[01c00100.png]]
+
+### Завершающие операции
+
+Установите всасывающую трубку моторного масла. См. процедуру 007-035 в разделе 7.
 
 ![[07c00016.png]]
 
-Install the oil pan. [[10-007-025-tr — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7]].
+Установите масляную кастрюлю.[[10-007-025-tr — Lubricating Oil Pan|См. процедуру 007-025 в разделе 7.]].
 
 ![[07c00149.png]]
 
-Prime the lubricating oil system. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7]].
+В первую очередь система моторного масла.[[10-007-037-tr — Lubricating Oil System|См. процедуру 007-037 в разделе 7.]].
 
 ![[07c00160.png]]
 
-Fill the engine with lubricating oil. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7]].
+Заполните двигатель моторным маслом.[[10-007-037-tr — Lubricating Oil System|См. процедуру 007-037 в разделе 7.]].
 
 ![[oi800wa.png]]
 
-Operate the engine until it reaches a temperature of 82°C \[180°F\]. Check for lubricating oil leaks.
+Работайте с двигателем до тех пор, пока он не достигнет температуры 82 ° C \[180° F \]. Проверьте на утечку моторного масла.
 
 ![[00c00030.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Drain the lubricating oil. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7]].
+>
+> Remove the oil pan. [[10-007-025-tr — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7]].
+>
+> Remove the lubricating oil suction tube. Refer to Procedure 007-035 in Section 7.
+>
+> ### Remove
+>
+> Remove the 10 capscrews and the block stiffener plate.
+>
+> ### Install
+>
+> Install the block stiffener plate and the 10 capscrews. Tighten the capscrews.
+>
+> Torque Value:
+>
+> ### Finishing Steps
+>
+> Install the lubricating oil suction tube. Refer to Procedure 007-035 in Section 7.
+>
+> Install the oil pan. [[10-007-025-tr — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7]].
+>
+> Prime the lubricating oil system. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7]].
+>
+> Fill the engine with lubricating oil. [[10-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7]].
+>
+> Operate the engine until it reaches a temperature of 82°C \[180°F\]. Check for lubricating oil leaks.

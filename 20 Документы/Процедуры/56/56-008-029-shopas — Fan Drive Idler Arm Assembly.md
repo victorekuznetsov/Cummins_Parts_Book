@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-029-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-029-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Arm Assembly
@@ -35,72 +37,142 @@ tags:
 > **Даты:** изменён 2017-03-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-029-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-029-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-On engines fitted with the slide arm adjuster, install the idler assembly and bracket on engine.
 
-Install the four capscrews and two clamping plates.
+### Установка
 
-> [!tip] Момент затяжки · Torque Value
-> 280 n•m [207 ft-lb]
+На двигателях, оснащенных регулировщиком рычага скольжения, устанавливают сборку холостого хода и кронштейн на двигателе.
+
+Установите четыре болта и две зажимные пластины.
+
+> [!tip] Момент затяжки
+> 280 Н·м [207 фунт-фут]
 
 ![[08600779.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
 
-On engines fitted with the control arm adjuster, use the correct lifting equipment to install the idler pulley support bracket.
+На двигателях, оснащенных регулятором рычага управления, используйте правильное подъемное оборудование для установки опорного кронштейна шкива холостого хода.
 
-Make sure the rubber gasket (4) remains in the correct position during installation.
+Убедитесь, что резиновая прокладка (4) остается в правильном положении во время установки.
 
-Install the studs (2) and spacers (3).
+Установите шпильки (2) и прокладки (3).
 
-Install the idler support bracket and gasket (4).
+Установите опорную кронштейн и прокладку холостого хода (4).
 
-Install the 12 mm capscrews (1) into the idler pulley support bracket and tighten.
+Установите 12-мм болты (1) в опорную кронштейн и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 115 n•m [85 ft-lb]
+> [!tip] Момент затяжки
+> 115 Н·м [85 фунт-фут]
 
-Install the locknuts onto the studs (2) and tighten.
+Установите каштаны на шпильки (2) и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 80 n•m [59 ft-lb]
+> [!tip] Момент затяжки
+> 80 Н·м [59 фунт-фут]
 
 ![[08600250.png]]
 
-For engines that have a Rockford™ fan clutch, a solenoid bracket (2) is installed with the actuator bracket (1). The same mounting capscrews are used.
+Для двигателей, имеющих вентиляторное сцепление RockfordTM, устанавливается соленоидная кронштейн (2) с кронштейном привода (1). Используются те же крепежные болты.
 
-Install the actuator bracket capscrews, actuator bracket (1) and solenoid bracket (2) on the front gear cover.
+Установите болты привода, кронштейна (1) привода и соленоидного кронштейна (2) на передней крышке передач.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 115 n•m [85 ft-lb]
+> [!tip] Момент затяжки
+> 115 Н·м [85 фунт-фут]
 
 ![[08600252.png]]
 
-Position the idler arm assembly (2) with washer plate (10) and capscrews (9).
+Поместите сборку рычага бездельника (2) с шайбой пластиной (10) и болтами (9).
 
-Install the six capscrews (8).
+Установите шесть болтов (8).
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 200 n•m [148 ft-lb]
+> [!tip] Момент затяжки
+> 200 Н·м [148 фунт-фут]
 
-Install the idler arm assembly (7), washer (6), retainer plug (5), and capscrews (4).
+Установите сборку рычага холостого хода (7), шайбу (6), фиксаторную пробку (5) и болты (4).
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08600228.png]]
 
-Install the three capscrews (3) in the idler arm assembly (2).
+Установите три болта (3) в сборе рычага холостого хода (2).
 
-> [!tip] Момент затяжки · Torque Value
-> 200 n•m [148 ft-lb]
+> [!tip] Момент затяжки
+> 200 Н·м [148 фунт-фут]
 
 ![[08600227.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> On engines fitted with the slide arm adjuster, install the idler assembly and bracket on engine.
+>
+> Install the four capscrews and two clamping plates.
+>
+> **Момент затяжки · Torque Value**
+> 280 n•m [207 ft-lb]
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
+>
+> On engines fitted with the control arm adjuster, use the correct lifting equipment to install the idler pulley support bracket.
+>
+> Make sure the rubber gasket (4) remains in the correct position during installation.
+>
+> Install the studs (2) and spacers (3).
+>
+> Install the idler support bracket and gasket (4).
+>
+> Install the 12 mm capscrews (1) into the idler pulley support bracket and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 115 n•m [85 ft-lb]
+>
+> Install the locknuts onto the studs (2) and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 80 n•m [59 ft-lb]
+>
+> For engines that have a Rockford™ fan clutch, a solenoid bracket (2) is installed with the actuator bracket (1). The same mounting capscrews are used.
+>
+> Install the actuator bracket capscrews, actuator bracket (1) and solenoid bracket (2) on the front gear cover.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 115 n•m [85 ft-lb]
+>
+> Position the idler arm assembly (2) with washer plate (10) and capscrews (9).
+>
+> Install the six capscrews (8).
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 200 n•m [148 ft-lb]
+>
+> Install the idler arm assembly (7), washer (6), retainer plug (5), and capscrews (4).
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the three capscrews (3) in the idler arm assembly (2).
+>
+> **Момент затяжки · Torque Value**
+> 200 n•m [148 ft-lb]

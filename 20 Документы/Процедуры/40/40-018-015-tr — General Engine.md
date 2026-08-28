@@ -12,13 +12,15 @@ families:
   - "6B5.9"
 manuals:
   - "3666087"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-015-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-015-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # General Engine
@@ -32,213 +34,434 @@ tags:
 > **Даты:** изменён 2019-12-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-015-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-015-tr.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive Applications
 
-#### Horsepower
+### Спецификации
 
-| B3.9, B5.9 | Refer to engine dataplate |
+Автомобильное применение
+
+#### Всадник
+
+| B3.9, B5.9 | См. табличку с данными двигателя |
 |---|---|
 
-#### Bore
+#### цилиндр
 
-| B3.9, B5.9 | 102 mm \[4.02 in\] |
+| B3.9, B5.9 | 102 мм \[4.02 in\] |
 |---|---|
 
-#### Stroke
+#### инсульт
 
-| B3.9, B5.9 | 120 mm \[4.72 in\] |
+| B3.9, B5.9 | 120 мм \[4,72 в\] |
 |---|---|
 
-#### Displacement
+#### вытеснение
 
-| B3.9 | 3.9 liters \[238 C.I.D.\] |
+| В3.9 | 3,9 литра[238 C.I.D.] |
 |---|---|
 
-| B5.9 | 5.9 liters \[360 C.I.D.\] |
+| В5.9 | 5,9 литра[360 C.I.D.] |
 |---|---|
 
-#### Engine Weight (dry) Less Flywheel and Electric Components
+#### Вес двигателя (сухой) меньше колеса и электрических компонентов
 
-| B3.9 | 308 to 329 kg \[679 to 725 lb\] |
+| В3.9 | 308-329 кг[679-725 фунтов] |
 |---|---|
 
-| B5.9 | 388 to 411 kg \[855 to 906 lb\] |
+| В5.9 | 388-411 кг[855-906 фунтов] |
 |---|---|
 
-#### Firing Order
+#### Огнестрельное предписание
 
-| B3.9 | 1-3-4-2 |
+| В3.9 | 1-3-4-2 |
 |---|---|
 
-| B5.9 | 1-5-3-6-2-4 |
+| В5.9 | 1-5-3-6-2-4 |
 |---|---|
 
-#### Valve Clearance
+#### зазор клапана
 
-#### B3.9 and B5.9
+#### B3.9 и B5.9
 
-| Intake | 0.25 mm \[0.010 in\] |
+| принимать | 0,25 мм \[0,010 в\] |
 |---|---|
 
-| Exhaust | 0.51 mm \[0.020 in\] |
+| выхлоп | 0,51 мм \[0,020 in\] |
 |---|---|
 
-#### Compression Ratio
+#### Соотношение сжатия
 
-| B3.9 | (rotary pump) 17.6:1 |
+| В3.9 | (поворотный насос) 17.6:1 |
 |---|---|
 
-| B5.9 | (in-line pump) 17.9:1 |
+| В5.9 | (входной насос) 17.9:1 |
 |---|---|
 
-#### Crankshaft Rotation (viewed from the front of the engine)
+#### Вращение коленчатого вала (видно спереди двигателя)
 
-| B3.9 and B5.9 | **Clockwise** |
+| B3.9 и B5.9 | **По часовой стрелке** |
 |---|---|
 
-#### Aspiration
+#### Стремление
 
-#### Turbocharged
+#### Турбонаддув
 
-| B3.9 | Yes |
+| В3.9 | Да |
 |---|---|
 
-| B5.9 | Yes |
+| В5.9 | Да |
 |---|---|
 
-#### Aspiration
+#### Стремление
 
-#### Charge Air Cooled
+#### Зарядка Air Cooled
 
-| B3.9 | Yes |
+| В3.9 | Да |
 |---|---|
 
-| B5.9 | Yes |
+| В5.9 | Да |
 |---|---|
 
-Industrial Applications
+Промышленное применение
 
-| Horsepower | Refer to engine dataplate |
+| Всадник | См. табличку с данными двигателя |
 |---|---|
 
-#### Engine Weight (Dry) Less Flywheel and Electronics
+#### Вес двигателя (сухой) меньше колеса и электроники
 
-| B4.5 (naturally aspirated) | 326 kg \[721 lb\] |
+| B4.5 (естественно аспирированный) | 326 кг[721 фунт] |
 |---|---|
 
-| B4.5 and B3.9 (turbocharged) | 338 kg \[745 lb\] |
+| B4.5 и B3.9 (с турбонаддувом) | 338 кг[745 фунтов] |
 |---|---|
 
-| B5.9 | 432 kg \[952 lb\] |
+| В5.9 | 432 кг[952 фунта] |
 |---|---|
 
-| Compression Ratio | 18:1 |
+| Соотношение сжатия | 18:1 |
 |---|---|
 
-#### Bore
+#### цилиндр
 
-| B3.9 and B5.9 | 102 mm \[4.02 in\] |
+| B3.9 и B5.9 | 102 мм \[4.02 in\] |
 |---|---|
 
-| B4.5 | 107 mm \[4.21 in\] |
+| В4.5 | 107 мм \[4.21 in\] |
 |---|---|
 
-#### Stroke
+#### инсульт
 
-| B4.5 | 138 mm \[5.42 in\] |
+| В4.5 | 138 мм \[5,42 дюйма \] |
 |---|---|
 
-| B4.5 RGT | 124 mm \[4.88 in\] |
+| B4.5 RGT | 124 мм \[4,88 in\] |
 |---|---|
 
-| B3.9 and B5.9 | 120 mm \[4.72 in\] |
+| B3.9 и B5.9 | 120 мм \[4,72 в\] |
 |---|---|
 
-#### Displacement
+#### вытеснение
 
-| B3.9 | 3.9 liters \[238 C.I.D.\] |
+| В3.9 | 3,9 литра[238 C.I.D.] |
 |---|---|
 
-| B4.5 | 4.5 liters \[275 C.I.D.\] |
+| В4.5 | 4,5 литра[275 C.I.D.] |
 |---|---|
 
-| B5.9 | 5.9 liters \[359 C.I.D.\] |
+| В5.9 | 5,9 литра[359 C.I.D.] |
 |---|---|
 
-#### Firing Order
+#### Огнестрельное предписание
 
-| B3.9 and B4.5 | 1-3-4-2 |
+| B3.9 и B4.5 | 1-3-4-2 |
 |---|---|
 
-| B5.9 | 1-5-3-6-2-4 |
+| В5.9 | 1-5-3-6-2-4 |
 |---|---|
 
-#### Valve Clearance
+#### зазор клапана
 
-| Intake | 0.25 mm \[0.010 in\] |
+| принимать | 0,25 мм \[0,010 в\] |
 |---|---|
 
-| Exhaust | 0.51 mm \[0.020 in\] |
+| выхлоп | 0,51 мм \[0,020 in\] |
 |---|---|
 
-| Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+| Вращение коленчатого вала (видно спереди двигателя) | **По часовой стрелке** |
 |---|---|
 
-#### Engine Weight (Dry) Less Flywheel and Electronics
+#### Вес двигателя (сухой) меньше колеса и электроники
 
-| B4.5 (naturally aspirated) | 326 kg \[721 lb\] |
+| B4.5 (естественно аспирированный) | 326 кг[721 фунт] |
 |---|---|
 
-| B4.5 and B3.9 (turbocharged) | 338 kg \[745 lb\] |
+| B4.5 и B3.9 (с турбонаддувом) | 338 кг[745 фунтов] |
 |---|---|
 
-| B5.9 | 432 kg \[952 lb\] |
+| В5.9 | 432 кг[952 фунта] |
 |---|---|
 
-| Compression Ratio | 18:1 |
+| Соотношение сжатия | 18:1 |
 |---|---|
 
-#### Bore
+#### цилиндр
 
-| B3.9, and B5.9 | 102 mm \[4.02 in\] |
+| B3.9 и B5.9 | 102 мм \[4.02 in\] |
 |---|---|
 
-#### Stroke
+#### инсульт
 
-| B4.5 | 138 mm \[5.42 in\] |
+| В4.5 | 138 мм \[5,42 дюйма \] |
 |---|---|
 
-| B3.9 and B5.9 | 120 mm \[4.72 in\] |
+| B3.9 и B5.9 | 120 мм \[4,72 в\] |
 |---|---|
 
-#### Displacement
+#### вытеснение
 
-| B3.9 | 3.9 liters \[238 C.I.D.\] |
+| В3.9 | 3,9 литра[238 C.I.D.] |
 |---|---|
 
-| B4.5 | 4.5 liters \[275 C.I.D.\] |
+| В4.5 | 4,5 литра[275 C.I.D.] |
 |---|---|
 
-| B5.9 | 5.9 liters \[359 C.I.D.\] |
+| В5.9 | 5,9 литра[359 C.I.D.] |
 |---|---|
 
-#### Firing Order
+#### Огнестрельное предписание
 
-| B3.9 and B4.5 | 1-3-4-2 |
+| B3.9 и B4.5 | 1-3-4-2 |
 |---|---|
 
-| B5.9 | 1-5-3-6-2-4 |
+| В5.9 | 1-5-3-6-2-4 |
 |---|---|
 
-#### Valve Clearance
+#### зазор клапана
 
-| Intake | 0.25 mm \[0.010 in\] |
+| принимать | 0,25 мм \[0,010 в\] |
 |---|---|
 
-| Exhaust | 0.51 mm \[0.020 in\] |
+| выхлоп | 0,51 мм \[0,020 in\] |
 |---|---|
 
-| Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+| Вращение коленчатого вала (видно спереди двигателя) | **По часовой стрелке** |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> Automotive Applications
+>
+> #### Horsepower
+>
+> | B3.9, B5.9 | Refer to engine dataplate |
+> |---|---|
+>
+> #### Bore
+>
+> | B3.9, B5.9 | 102 mm \[4.02 in\] |
+> |---|---|
+>
+> #### Stroke
+>
+> | B3.9, B5.9 | 120 mm \[4.72 in\] |
+> |---|---|
+>
+> #### Displacement
+>
+> | B3.9 | 3.9 liters \[238 C.I.D.\] |
+> |---|---|
+>
+> | B5.9 | 5.9 liters \[360 C.I.D.\] |
+> |---|---|
+>
+> #### Engine Weight (dry) Less Flywheel and Electric Components
+>
+> | B3.9 | 308 to 329 kg \[679 to 725 lb\] |
+> |---|---|
+>
+> | B5.9 | 388 to 411 kg \[855 to 906 lb\] |
+> |---|---|
+>
+> #### Firing Order
+>
+> | B3.9 | 1-3-4-2 |
+> |---|---|
+>
+> | B5.9 | 1-5-3-6-2-4 |
+> |---|---|
+>
+> #### Valve Clearance
+>
+> #### B3.9 and B5.9
+>
+> | Intake | 0.25 mm \[0.010 in\] |
+> |---|---|
+>
+> | Exhaust | 0.51 mm \[0.020 in\] |
+> |---|---|
+>
+> #### Compression Ratio
+>
+> | B3.9 | (rotary pump) 17.6:1 |
+> |---|---|
+>
+> | B5.9 | (in-line pump) 17.9:1 |
+> |---|---|
+>
+> #### Crankshaft Rotation (viewed from the front of the engine)
+>
+> | B3.9 and B5.9 | **Clockwise** |
+> |---|---|
+>
+> #### Aspiration
+>
+> #### Turbocharged
+>
+> | B3.9 | Yes |
+> |---|---|
+>
+> | B5.9 | Yes |
+> |---|---|
+>
+> #### Aspiration
+>
+> #### Charge Air Cooled
+>
+> | B3.9 | Yes |
+> |---|---|
+>
+> | B5.9 | Yes |
+> |---|---|
+>
+> Industrial Applications
+>
+> | Horsepower | Refer to engine dataplate |
+> |---|---|
+>
+> #### Engine Weight (Dry) Less Flywheel and Electronics
+>
+> | B4.5 (naturally aspirated) | 326 kg \[721 lb\] |
+> |---|---|
+>
+> | B4.5 and B3.9 (turbocharged) | 338 kg \[745 lb\] |
+> |---|---|
+>
+> | B5.9 | 432 kg \[952 lb\] |
+> |---|---|
+>
+> | Compression Ratio | 18:1 |
+> |---|---|
+>
+> #### Bore
+>
+> | B3.9 and B5.9 | 102 mm \[4.02 in\] |
+> |---|---|
+>
+> | B4.5 | 107 mm \[4.21 in\] |
+> |---|---|
+>
+> #### Stroke
+>
+> | B4.5 | 138 mm \[5.42 in\] |
+> |---|---|
+>
+> | B4.5 RGT | 124 mm \[4.88 in\] |
+> |---|---|
+>
+> | B3.9 and B5.9 | 120 mm \[4.72 in\] |
+> |---|---|
+>
+> #### Displacement
+>
+> | B3.9 | 3.9 liters \[238 C.I.D.\] |
+> |---|---|
+>
+> | B4.5 | 4.5 liters \[275 C.I.D.\] |
+> |---|---|
+>
+> | B5.9 | 5.9 liters \[359 C.I.D.\] |
+> |---|---|
+>
+> #### Firing Order
+>
+> | B3.9 and B4.5 | 1-3-4-2 |
+> |---|---|
+>
+> | B5.9 | 1-5-3-6-2-4 |
+> |---|---|
+>
+> #### Valve Clearance
+>
+> | Intake | 0.25 mm \[0.010 in\] |
+> |---|---|
+>
+> | Exhaust | 0.51 mm \[0.020 in\] |
+> |---|---|
+>
+> | Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+> |---|---|
+>
+> #### Engine Weight (Dry) Less Flywheel and Electronics
+>
+> | B4.5 (naturally aspirated) | 326 kg \[721 lb\] |
+> |---|---|
+>
+> | B4.5 and B3.9 (turbocharged) | 338 kg \[745 lb\] |
+> |---|---|
+>
+> | B5.9 | 432 kg \[952 lb\] |
+> |---|---|
+>
+> | Compression Ratio | 18:1 |
+> |---|---|
+>
+> #### Bore
+>
+> | B3.9, and B5.9 | 102 mm \[4.02 in\] |
+> |---|---|
+>
+> #### Stroke
+>
+> | B4.5 | 138 mm \[5.42 in\] |
+> |---|---|
+>
+> | B3.9 and B5.9 | 120 mm \[4.72 in\] |
+> |---|---|
+>
+> #### Displacement
+>
+> | B3.9 | 3.9 liters \[238 C.I.D.\] |
+> |---|---|
+>
+> | B4.5 | 4.5 liters \[275 C.I.D.\] |
+> |---|---|
+>
+> | B5.9 | 5.9 liters \[359 C.I.D.\] |
+> |---|---|
+>
+> #### Firing Order
+>
+> | B3.9 and B4.5 | 1-3-4-2 |
+> |---|---|
+>
+> | B5.9 | 1-5-3-6-2-4 |
+> |---|---|
+>
+> #### Valve Clearance
+>
+> | Intake | 0.25 mm \[0.010 in\] |
+> |---|---|
+>
+> | Exhaust | 0.51 mm \[0.020 in\] |
+> |---|---|
+>
+> | Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+> |---|---|

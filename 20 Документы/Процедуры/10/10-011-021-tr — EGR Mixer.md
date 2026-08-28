@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666239"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-011-021-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-011-021-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # EGR Mixer
@@ -30,76 +32,146 @@ tags:
 > **Даты:** изменён 2011-10-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-011-021-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-011-021-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the charge air cooler connection hose and hose clamp from the EGR mixer inlet. Refer to Procedure 010-027.
-- Remove the air compressor supply line. [[10-012-014-tr — Air Compressor|Refer to Procedure 012-014]].
-- Remove the v-band clamp between the EGR mixer and the charge air cooler inlet adapter.
+
+### Подготовительные операции
+
+- Удалите шланг соединения охладителя воздуха и зажим шланга из впуска смесителя EGR. См. процедуру 010-027.
+- Удалите линию подачи воздушного компрессора.[[10-012-014-tr — Air Compressor|См. процедуру 012-014]].
+- Удалите зажим v-диапазона между смесителем EGR и впускным адаптером воздушного охладителя заряда.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Do **not** remove the EGR inlet pipe into the EGR mixer. This is a precision interface and performance will be affected if disturbed. There is no service procedure for this and none is required.
+**Не** Удалите впускную трубу EGR в смеситель EGR. Это точный интерфейс, и производительность будет затронута, если она будет нарушена. Для этого нет процедуры обслуживания и не требуется.
 
-Remove the capscrews at the four-bolt flange between the EGR mixer and the air intake horn.
+Удалите болты на четырех болтовом фланце между смесителем EGR и рогом воздухозаборника.
 
 ![[11c00025.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Use compressed air to blow out any debris or soot buildup inside the EGR mixer.
+Используйте сжатый воздух, чтобы выдуть любой мусор или сажу внутри смесителя EGR.
 
-Clean all mounting surfaces with solvent.
+Очистить все монтажные поверхности растворителем.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
-Inspect the EGR mixer for cracks. Replace the EGR mixer if cracks are found.
+Проверьте смеситель EGR на наличие трещин. Замените смеситель EGR, если обнаружены трещины.
 
 ![[11c00017.png]]
 
-Inspect the v-band clamps for signs of overextension. The band **must not** be bent or cracked.
+Осмотрите зажимы v-диапазона на наличие признаков перерастяжения. Группа не должна быть согнута или треснута.
 
-Inspect the v-band clamp thread for damage.
+Осмотрите резьбу зажима v-диапазона на предмет повреждения.
 
-Replace the v-band clamp if damage is found.
+Замените зажим v-диапазона, если обнаружено повреждение.
 
 ![[11d00092.png]]
 
-Inspect the hose clamp(s) for cracks or other damage.
+Осмотрите зажим (зажимы) шланга на наличие трещин или других повреждений.
 
-Replace hose clamp(s) if cracks or other damage is found.
+Заменить шланг зажим (зажимы), если обнаружены трещины или другие повреждения.
 
-Inspect hose(s) for cracks or other damage.
+Проверить шланг(ы) на наличие трещин или других повреждений.
 
-Replace hose(s) if cracks or other damage is found.
+Заменить шланг (шланги), если обнаружены трещины или другие повреждения.
 
 ![[12200023.png]]
 
-### Install
+### Установка
 
-Install the hose at the EGR mixer inlet.
+Установите шланг на входе смесителя EGR.
 
-Install a new o-ring between the EGR mixer and the air intake connection. Install and tighten capscrews.
+Установите новое кольцо между смесителем EGR и соединением воздухозаборника. Установите и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 34 n•m [25 ft-lb]
+> [!tip] Момент затяжки
+> 34 Н·м [25 фунт-фут]
 
 ![[11c00025.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the v-band clamp on the inlet adapter and the EGR mixer.
-- Install the air compressor supply line. [[10-012-014-tr — Air Compressor|Refer to Procedure 012-014]].
-- Install the charge air cooler connection. Refer to Procedure 010-027.
-- Start and operate the engine and check for leaks at the air connections.
+- Установите зажим v-диапазона на входном адаптере и смесителе EGR.
+- Установите линию подачи воздушного компрессора.[[10-012-014-tr — Air Compressor|См. процедуру 012-014]].
+- Установите соединение охладителя воздуха. См. процедуру 010-027.
+- Запустите и управляйте двигателем и проверьте наличие утечек на воздушных соединениях.
 
-If failure resulted in coolant, oil, excessive fuel or excessive black smoke entering the exhaust system, the aftertreatment system **must** be inspected. [[101-014-013-tr — Aftertreatment Testing|Refer to Procedure 014-013]].
+Если в результате отказа охлаждающая жидкость, масло, чрезмерное топливо или чрезмерный черный дым попадают в выхлопную систему, система последующей обработки должна быть проверена.[[101-014-013-tr — Aftertreatment Testing|См. процедуру 014-013]].
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the charge air cooler connection hose and hose clamp from the EGR mixer inlet. Refer to Procedure 010-027.
+> - Remove the air compressor supply line. [[10-012-014-tr — Air Compressor|Refer to Procedure 012-014]].
+> - Remove the v-band clamp between the EGR mixer and the charge air cooler inlet adapter.
+>
+> ### Remove
+>
+> Do **not** remove the EGR inlet pipe into the EGR mixer. This is a precision interface and performance will be affected if disturbed. There is no service procedure for this and none is required.
+>
+> Remove the capscrews at the four-bolt flange between the EGR mixer and the air intake horn.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Use compressed air to blow out any debris or soot buildup inside the EGR mixer.
+>
+> Clean all mounting surfaces with solvent.
+>
+> Dry with compressed air.
+>
+> Inspect the EGR mixer for cracks. Replace the EGR mixer if cracks are found.
+>
+> Inspect the v-band clamps for signs of overextension. The band **must not** be bent or cracked.
+>
+> Inspect the v-band clamp thread for damage.
+>
+> Replace the v-band clamp if damage is found.
+>
+> Inspect the hose clamp(s) for cracks or other damage.
+>
+> Replace hose clamp(s) if cracks or other damage is found.
+>
+> Inspect hose(s) for cracks or other damage.
+>
+> Replace hose(s) if cracks or other damage is found.
+>
+> ### Install
+>
+> Install the hose at the EGR mixer inlet.
+>
+> Install a new o-ring between the EGR mixer and the air intake connection. Install and tighten capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 34 n•m [25 ft-lb]
+>
+> ### Finishing Steps
+>
+> - Install the v-band clamp on the inlet adapter and the EGR mixer.
+> - Install the air compressor supply line. [[10-012-014-tr — Air Compressor|Refer to Procedure 012-014]].
+> - Install the charge air cooler connection. Refer to Procedure 010-027.
+> - Start and operate the engine and check for leaks at the air connections.
+>
+> If failure resulted in coolant, oil, excessive fuel or excessive black smoke entering the exhaust system, the aftertreatment system **must** be inspected. [[101-014-013-tr — Aftertreatment Testing|Refer to Procedure 014-013]].

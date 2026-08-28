@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-001-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-001-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # AFC Air Tube
@@ -33,66 +35,126 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-001-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-001-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-- Disconnect the batteries.
+### Подготовительные операции
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Отсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-### Remove
+### Снятие
 
-Distributor-Type Fuel Injection Pumps
+Насосы для впрыска топлива типа распределителя
 
-Remove the fuel tube from the manifold fitting and the pump.
+Удалите топливный трубка из коллектора и насоса.
 
 ![[fe9tbma.png]]
 
-In-Line Pumps
+Насосы в линии
 
-Remove the AFC tube.
+Удалите трубку AFC.
 
 ![[fe9tbmb.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-In-Line Pump
+Внутренняя помпа
 
-Inspect the rubber sealing washers, and replace as necessary.
+Проверьте резиновые уплотнительные шайбы и замените по мере необходимости.
 
 ![[ft9wasa.png]]
 
-### Install
+### Установка
 
-Distributor-Type Pump
+Насос типа распределителя
 
-> [!note] Note · Примечание
-> Use new sealing washers when installing the tube.
+> [!note] Примечание
+> Используйте новые уплотнительные шайбы при установке трубки.
 
-Assemble in the reverse order of removal.
+Собрать в обратном порядке удаления.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[fe9tbma.png]]
 
-In-Line Pump
+Внутренняя помпа
 
-Install the AFC tube in the reverse order of removal.
+Установите трубку AFC в обратном порядке удаления.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[fe9tbmb.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries
-- Operate the engine and check for leaks.
+- Подключите батареи
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[13900050.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries.
+>
+> ### Remove
+>
+> Distributor-Type Fuel Injection Pumps
+>
+> Remove the fuel tube from the manifold fitting and the pump.
+>
+> In-Line Pumps
+>
+> Remove the AFC tube.
+>
+> ### Inspect for Reuse
+>
+> In-Line Pump
+>
+> Inspect the rubber sealing washers, and replace as necessary.
+>
+> ### Install
+>
+> Distributor-Type Pump
+>
+> **Note · Примечание**
+> Use new sealing washers when installing the tube.
+>
+> Assemble in the reverse order of removal.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> In-Line Pump
+>
+> Install the AFC tube in the reverse order of removal.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries
+> - Operate the engine and check for leaks.

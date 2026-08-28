@@ -19,7 +19,8 @@ manuals:
   - "3666239"
   - "3666322"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-003-019-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-003-019-tr.pdf"
 tags:
@@ -27,6 +28,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Crankcase Breather Element
@@ -40,55 +42,112 @@ tags:
 > **Даты:** изменён 2018-08-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-003-019-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-003-019-tr.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Blowby tool, Part Number 3822566, 3822567, or 3822568
-- Water manometer, Part Number ST-1111-3
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Инструмент для блокировки, Часть Номер 3822566, 3822567 или 3822568
+- Водный манометр, часть номер СТ-1111-3
 
-### Remove
+#### Дополнительные сервисные позиции
 
-Loosen the eight cover mounting captive capscrews.
+- Никаких дополнительных предметов обслуживания не требуется.
 
-Remove the element cover.
+### Снятие
 
-> [!note] Note · Примечание
-> Discard the crankcase breather element in accordance with local environmental regulations.
+Освободите восемь крышек, устанавливающих пленные болты.
 
-Remove and discard the crankcase breather element.
+Удалите крышку элемента.
 
-Wipe out any excess dirt or oil from the inside of the cover.
+> [!note] Примечание
+> Откажитесь от элемента капкан-дыхатель в соответствии с местными экологическими нормами.
+
+Удалите и отбросьте элемент каприза.
+
+Удалите излишки грязи или масла изнутри крышки.
 
 ![[03c00136.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Wipe off any excess dirt or oil from the crankcase breather insert.
+Смывать любую избыток грязи или масла из вставки капельницы.
 
-Clean the crankcase breather insert and allow to air dry.
+Очистите вставку капельницы и дайте воздуху высохнуть.
 
-Inspect the crankcase breather insert housing and outer seal for cuts, cracks or other damage.
+Осмотрите корпус капота и наружное уплотнение для порезов, трещин или других повреждений.
 
-Replace if damage is observed.
+Заменить, если наблюдается повреждение.
 
 ![[03a00089.png]]
 
-### Install
+### Установка
 
-Install the new crankcase breather element in the breather housing.
+Установите новый элемент капельницы в корпусе.
 
-Make sure the element is properly seated in the housing so its seal will **not** be cut, crimped, or otherwise compromised when installing the housing cover.
+Убедитесь, что элемент правильно расположен в корпусе, поэтому его уплотнение **не будет **вырезано, обрезано или иным образом скомпрометировано при установке крышки корпуса.
 
-Install the cover.
+Установите крышку.
 
-Tighten the eight captive mounting capscrews.
+Затяните восемь крепежных болтов в неволе.
 
-> [!tip] Момент затяжки · Torque Value
-> 5.2 n•m [46 in-lb]
+> [!tip] Момент затяжки
+> 5.2 Н·м [46 фунт-дюйм]
 
 ![[03c00146.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Blowby tool, Part Number 3822566, 3822567, or 3822568
+> - Water manometer, Part Number ST-1111-3
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### Remove
+>
+> Loosen the eight cover mounting captive capscrews.
+>
+> Remove the element cover.
+>
+> **Note · Примечание**
+> Discard the crankcase breather element in accordance with local environmental regulations.
+>
+> Remove and discard the crankcase breather element.
+>
+> Wipe out any excess dirt or oil from the inside of the cover.
+>
+> ### Clean and Inspect for Reuse
+>
+> Wipe off any excess dirt or oil from the crankcase breather insert.
+>
+> Clean the crankcase breather insert and allow to air dry.
+>
+> Inspect the crankcase breather insert housing and outer seal for cuts, cracks or other damage.
+>
+> Replace if damage is observed.
+>
+> ### Install
+>
+> Install the new crankcase breather element in the breather housing.
+>
+> Make sure the element is properly seated in the housing so its seal will **not** be cut, crimped, or otherwise compromised when installing the housing cover.
+>
+> Install the cover.
+>
+> Tighten the eight captive mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 5.2 n•m [46 in-lb]

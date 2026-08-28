@@ -221,5 +221,5 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021539 — QST30 Service Manual\|4021539]]-t047-tr | Engine Noise Excessive | 19-Dec-2025 |
-| [[4021539 — QST30 Service Manual\|4021539]]-t006-tr | Air Compressor Noise is Excessive | 19-Dec-2025 |
+| [[[4021539 — QST30 Service Manual\|4021539]]-t047-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021539/4021539-t047-tr.html) | Engine Noise Excessive | 19-Dec-2025 |
+| [[[4021539 — QST30 Service Manual\|4021539]]-t006-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021539/4021539-t006-tr.html) | Air Compressor Noise is Excessive | 19-Dec-2025 |

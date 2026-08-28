@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 17
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-061-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-061-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Water Manifold
@@ -31,127 +33,228 @@ tags:
 > **Даты:** изменён 2008-10-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-061-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-061-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-QSK60 Marine Applications
 
-- Drain the coolant. [[56-008-018-tr — Cooling System|Refer to Procedure 008-018 (Cooling System) in Section 8.]]
-- Remove the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 (Aftercooler Heat Shield) in Section 10.]]
+### Подготовительные операции
+
+QSK60 Морские применения
+
+- Слейте охлаждающую жидкость.[[56-008-018-tr — Cooling System|См. процедуру 008-018 (Система охлаждения) в разделе 8.]]
+- Удалите охладители тепловых экранов.[[56-010-129-tr — Aftercooler Heat Shield|См. процедуру 010-129 (Холодный щит) в разделе 10.]]
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-QSK60 Marine Applications
+QSK60 Морские применения
 
-Remove any vessel plumbing, such as a Mercer connector and vent lines, from the water manifold. Refer to the proper vessel manufacturer's service manual for instructions.
-
-![[08600605.png]]
-
-- Remove the three capscrews securing the jacket water bypass line to the water manifold.
+Удалите любую сантехнику судна, такую как разъём Мерсера и линии вентиляции, из водяного коллектора. См. руководство по обслуживанию производителя судов для инструкций.
 
 ![[08600605.png]]
 
-- Remove the three capscrews securing the jacket water bypass line to the water manifold.
+- Удалите три болта, обеспечивающие линию водопровода куртки к водяному коллектора.
+
+![[08600605.png]]
+
+- Удалите три болта, обеспечивающие линию водопровода куртки к водяному коллектора.
 
 ![[08600961.png]]
 
-Remove the three capscrews in each of the two outlet pipes.
+Удалите три болта в каждой из двух выпускных труб.
 
-Discard the gaskets.
+Отбросьте прокладки.
 
 ![[08600598.png]]
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-Remove the four capscrews securing the water manifold to the support bracket.
+Удалите четыре болта, обеспечивающие защиту водяного коллектора, в опорную кронштейн.
 
-Remove the water manifold.
+Удалите водяной коллектор.
 
 ![[08600599.png]]
 
-Remove the capscrews securing the support bracket to the engine.
+Удалите болты, закрепляющие опорный кронштейн на двигателе.
 
 ![[08600600.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-QSK60 Marine Applications
+QSK60 Морские применения
 
-Clean the water manifold.
+Очистите водопровод.
 
 ![[08600601.png]]
 
-Inspect the water manifold for cracks and visible leaks.
+Осмотрите коллектор воды на наличие трещин и видимых утечек.
 
-Replace the water manifold, if necessary.
+Замените водопровод, если это необходимо.
 
 ![[08600602.png]]
 
-### Install
+### Установка
 
-QSK60 Marine Applications
+QSK60 Морские применения
 
-The bottom four capscrews securing the support bracket require a round spacer under the capscrew head.
+Нижние четыре болта, закрепляющие опорный кронштейн, требуют круглого прокладки под головкой болтов.
 
-Install the capscrews securing the support bracket to the engine. Do **not** tighten the capscrews at this time.
+Установите болты, обеспечивающие закрепление опорного кронштейна на двигателе. Не затягивайте болты в это время.
 
 ![[08600600.png]]
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-Fit the water manifold onto the support bracket.
+Подгоните коллектор воды к опорной скобке.
 
-Install the new gaskets for the water outlet pipes.
+Установите новые прокладки для водоотводных труб.
 
-Install the three capscrews securing each of the two water manifold outlet pipes to the thermostat housing.
+Установите три болта, обеспечивающие закрепление каждой из двух водоотводных труб к корпусу термостата.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[08600598.png]]
 
-Install the four capscrews securing the water manifold to the support bracket.
+Установите четыре болта, обеспечивающие защиту водяного коллектора, на опорную скобку.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[08600599.png]]
 
-- Install the three capscrews securing the jacket water bypass line to the water manifold.
+- Установите три болта, обеспечивающие линию водопровода куртки к водяному коллектору.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08600605.png]]
 
-- Install the three capscrews securing the jacket water bypass line to the water manifold.
+- Установите три болта, обеспечивающие линию водопровода куртки к водяному коллектору.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[08600961.png]]
 
-Tighten the six capscrews securing the support bracket to the engine.
+Затянуть шесть болтов, закрепляющих опорный кронштейн на двигателе.
 
-> [!tip] Момент затяжки · Torque Value
-> 550 n•m [406 ft-lb]
+> [!tip] Момент затяжки
+> 550 Н·м [406 фунт-фут]
 
 ![[08600600.png]]
 
-Install any vessel plumbing, such as a Mercer™ connector and vent lines, to the water manifold.
+Установите любую сантехнику судна, такую как разъём MercerTM и линии вентиляции, к водяному коллектора.
 
-Refer to the proper vessel manufacturer's service manual for torque specifications.
+См. руководство по обслуживанию производителя судна для спецификаций крутящего момента.
 
 ![[08600605.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-QSK60 Marine Applications
+QSK60 Морские применения
 
-- Install the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 (Aftercooler Heat Shield) in Section 10.]].
-- Add coolant to engine and check for leaks. [[56-008-018-tr — Cooling System|Refer to Procedure 008-018 (Cooling System) in Section 8.]]
+- Установите послеохладительные тепловые экраны.[[56-010-129-tr — Aftercooler Heat Shield|См. процедуру 010-129 (Холодный щит) в разделе 10.]].
+- Добавьте охлаждающую жидкость в двигатель и проверьте наличие утечек.[[56-008-018-tr — Cooling System|См. процедуру 008-018 (Система охлаждения) в разделе 8.]]
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> QSK60 Marine Applications
+>
+> - Drain the coolant. [[56-008-018-tr — Cooling System|Refer to Procedure 008-018 (Cooling System) in Section 8.]]
+> - Remove the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 (Aftercooler Heat Shield) in Section 10.]]
+>
+> ### Remove
+>
+> QSK60 Marine Applications
+>
+> Remove any vessel plumbing, such as a Mercer connector and vent lines, from the water manifold. Refer to the proper vessel manufacturer's service manual for instructions.
+>
+> - Remove the three capscrews securing the jacket water bypass line to the water manifold.
+>
+> - Remove the three capscrews securing the jacket water bypass line to the water manifold.
+>
+> Remove the three capscrews in each of the two outlet pipes.
+>
+> Discard the gaskets.
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Remove the four capscrews securing the water manifold to the support bracket.
+>
+> Remove the water manifold.
+>
+> Remove the capscrews securing the support bracket to the engine.
+>
+> ### Clean and Inspect for Reuse
+>
+> QSK60 Marine Applications
+>
+> Clean the water manifold.
+>
+> Inspect the water manifold for cracks and visible leaks.
+>
+> Replace the water manifold, if necessary.
+>
+> ### Install
+>
+> QSK60 Marine Applications
+>
+> The bottom four capscrews securing the support bracket require a round spacer under the capscrew head.
+>
+> Install the capscrews securing the support bracket to the engine. Do **not** tighten the capscrews at this time.
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Fit the water manifold onto the support bracket.
+>
+> Install the new gaskets for the water outlet pipes.
+>
+> Install the three capscrews securing each of the two water manifold outlet pipes to the thermostat housing.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Install the four capscrews securing the water manifold to the support bracket.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> - Install the three capscrews securing the jacket water bypass line to the water manifold.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> - Install the three capscrews securing the jacket water bypass line to the water manifold.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Tighten the six capscrews securing the support bracket to the engine.
+>
+> **Момент затяжки · Torque Value**
+> 550 n•m [406 ft-lb]
+>
+> Install any vessel plumbing, such as a Mercer™ connector and vent lines, to the water manifold.
+>
+> Refer to the proper vessel manufacturer's service manual for torque specifications.
+>
+> ### Finishing Steps
+>
+> QSK60 Marine Applications
+>
+> - Install the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 (Aftercooler Heat Shield) in Section 10.]].
+> - Add coolant to engine and check for leaks. [[56-008-018-tr — Cooling System|Refer to Procedure 008-018 (Cooling System) in Section 8.]]

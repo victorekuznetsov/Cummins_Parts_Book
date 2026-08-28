@@ -8,12 +8,14 @@ engines:
   - "80248213"
 families:
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101698.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101698.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Change in Engine Brake Running Clearance Minimum Specifications
@@ -24,21 +26,50 @@ tags:
 > **Даты:** изменён 2005-07-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101698.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101698.pdf)
 
-## Change in Engine Brake Running Clearance Minimum Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Изменение минимальных спецификаций очистки тормозов двигателя
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts topic introduces a change in the minimum specification of the engine brake rocker lever running clearance for the Signature, ISX, and QSX15 engines. The change has been made to add a safety margin to accommodate exhaust valve stem growth.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The table below contains the new and the previous running clearance limits.
+### Содержание
 
-|  | mm |  | in |
+Эта тема «Служба/Части» вносит изменения в минимальные спецификации двигателя, в котором рычаг качения клапана тормозного клапана работает с зазором для двигателей Signature, ISX и QSX15. Изменения были внесены, чтобы добавить запас прочности для размещения роста стебля выпускного клапана.
+
+В приведенной ниже таблице содержатся новые и предыдущие пределы допуска к работе.
+
+|  | мм |  | в |
 |---|---|---|---|
-| Previous Specification | 0.508 | MIN | 0.020 |
-|  | 2.79 | MAX | 0.110 |
-| New Specification | 0.635 | MIN | 0.025 |
-|  | 2.79 | MAX | 0.110 |
+| Предыдущая спецификация | 0.508 | Мин | 0.020 |
+|  | 2.79 | Макс | 0.110 |
+| Новая спецификация | 0.635 | Мин | 0.025 |
+|  | 2.79 | Макс | 0.110 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Change in Engine Brake Running Clearance Minimum Specifications
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts topic introduces a change in the minimum specification of the engine brake rocker lever running clearance for the Signature, ISX, and QSX15 engines. The change has been made to add a safety margin to accommodate exhaust valve stem growth.
+>
+> The table below contains the new and the previous running clearance limits.
+>
+> |  | mm |  | in |
+> |---|---|---|---|
+> | Previous Specification | 0.508 | MIN | 0.020 |
+> |  | 2.79 | MAX | 0.110 |
+> | New Specification | 0.635 | MIN | 0.025 |
+> |  | 2.79 | MAX | 0.110 |

@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-056.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-056.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Level Sensor
@@ -38,42 +40,86 @@ tags:
 > **Даты:** изменён 2011-10-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-056.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-056.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The following steps for the removal and installation of the lubricating oil level sensor are applicable to QSK45, QSK60, and QSK78 engines **only**.
 
-**Make-up Tank**
+### Снятие
 
-Partially drain the engine lubricating oil system.
+> [!note] Примечание
+> Следующие шаги по удалению и установке датчика уровня моторного масла применимы к двигателям QSK45, QSK60 и QSK78 **только**.
 
-- Use the following procedure in the Troubleshooting and Repair Manual, QSK78 Troubleshooting and Repair Manual, Bulletin 3666727. Refer to Procedure 007-025 in Section 7.
-- Use the following procedure in the Troubleshooting and Repair Manual, QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. [[56-007-025-tr — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7.]]
+**Макейп-танк**
 
-Lift up on the locking tab and pull the electrical connectors apart.
+Частично осушить систему моторного масла двигателя.
 
-Remove the sensor.
+- Используйте следующую процедуру в Руководстве по устранению и исправлению неполадок, Руководстве по устранению и исправлению неполадок QSK78, Вестник 3666727. См. процедуру 007-025 в разделе 7.
+- Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Руководстве по обслуживанию QSK45 и QSK60, Вестник [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].[[56-007-025-tr — Lubricating Oil Pan|См. процедуру 007-025 в разделе 7.]]
+
+Поднимите на запирающую вкладку и разберите электрические разъемы.
+
+Удалите датчик.
 
 ![[19800848.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as lubricating oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector wear.
+> [!warning] ОСТОРОЖНО
+> Используйте только рекомендованную Cummins смазку DS-ES, номер детали 3822934. Другие смазочные материалы, такие как моторное масло или смазка, в разъемах могут вызвать повреждение ECM, плохую производительность двигателя или преждевременный износ разъема.
 
-Apply a small amount of lubricant to the connector terminals. Before installing, fill the entire connector cavity with lubricant.
+Нанесите небольшое количество смазки на соединительные терминалы. Перед установкой заполните всю полость разъема смазкой.
 
 ![[cel28.png]]
 
-Lubricate the sensor o-ring using clean engine oil.
+Смазать сенсорное кольцо с помощью чистого моторного масла.
 
-Install the new sensor into the engine. Tighten the sensor.
+Установите новый датчик в двигатель. Затяните датчик.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
-Push the electrical connectors together until they lock.
+Скрепляйте электрические разъемы, пока они не заблокируются.
 
-Fill the engine to the proper level with lubricating oil and operate the engine to check for leaks.
+Заполните двигатель до надлежащего уровня моторным маслом и работайте с двигателем, чтобы проверить наличие утечек.
 
 ![[19800848.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **Note · Примечание**
+> The following steps for the removal and installation of the lubricating oil level sensor are applicable to QSK45, QSK60, and QSK78 engines **only**.
+>
+> **Make-up Tank**
+>
+> Partially drain the engine lubricating oil system.
+>
+> - Use the following procedure in the Troubleshooting and Repair Manual, QSK78 Troubleshooting and Repair Manual, Bulletin 3666727. Refer to Procedure 007-025 in Section 7.
+> - Use the following procedure in the Troubleshooting and Repair Manual, QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. [[56-007-025-tr — Lubricating Oil Pan|Refer to Procedure 007-025 in Section 7.]]
+>
+> Lift up on the locking tab and pull the electrical connectors apart.
+>
+> Remove the sensor.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as lubricating oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector wear.
+>
+> Apply a small amount of lubricant to the connector terminals. Before installing, fill the entire connector cavity with lubricant.
+>
+> Lubricate the sensor o-ring using clean engine oil.
+>
+> Install the new sensor into the engine. Tighten the sensor.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> Push the electrical connectors together until they lock.
+>
+> Fill the engine to the proper level with lubricating oil and operate the engine to check for leaks.

@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102557.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102557.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Revision, Assembly Step, Fan Drive Idler Arm Assembly Procedure
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2007-11-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102557.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102557.pdf)
 
-## Revision, Assembly Step, Fan Drive Idler Arm Assembly Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр, этап сборки, процедура сборки оружия Fan Drive Idler
 
-### Contents
+### Положение о гарантии
 
-This purpose of this Service/Parts Topic is revise the assembly step in Procedure 008-029 (Fan Drive Idler Arm Assembly) in Group 8. The procedure now includes a slide arm design idler assembly.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта цель данной темы Услуги/Части заключается в пересмотре этапа сборки в Процедуре 008-029 (Fan Drive Idler Arm Assembly) в группе 8. Процедура теперь включает в себя сборку слайдового рычага.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision, Assembly Step, Fan Drive Idler Arm Assembly Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This purpose of this Service/Parts Topic is revise the assembly step in Procedure 008-029 (Fan Drive Idler Arm Assembly) in Group 8. The procedure now includes a slide arm design idler assembly.

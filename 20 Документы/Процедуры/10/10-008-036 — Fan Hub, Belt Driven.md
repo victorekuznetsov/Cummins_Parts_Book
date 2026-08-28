@@ -15,13 +15,15 @@ manuals:
   - "3666251"
   - "3666423"
 figures: 19
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-008-036.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-008-036.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Fan Hub, Belt Driven
@@ -35,194 +37,358 @@ tags:
 > **Даты:** изменён 2002-11-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-008-036.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-008-036.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-With EGR
 
-Remove the following:
+### Подготовительные операции
 
-- Fan. Refer to Procedure 008-040.
-- Cooling fan drive belt. Refer to Procedure [[10-008-002 — Drive Belt, Cooling Fan|008-002]].
-- Automatic belt tensioner (water pump). Refer to Procedure [[10-008-080 — Belt Tensioner, Automatic (Water Pump)|008-080]].
+С EGR
+
+Удалить следующее:
+
+- Фан. См. процедуру 008-040.
+- Охлаждающий ремень вентилятора. См. процедуру[[10-008-002 — Drive Belt, Cooling Fan|008-002]].
+- Автоматический натяжитель ремня (водяной насос). См. процедуру[[10-008-080 — Belt Tensioner, Automatic (Water Pump)|008-080]].
 
 ![[nobox.png]]
 
-### Remove
+### Снятие
 
-With EGR
+С EGR
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы избежать травм, используйте подъемник или получите помощь, чтобы поднять эту сборку.
 
-Remove the mounting capscrews and the fan hub assembly.
+Удалите крепежные болты и сборку вентилятора.
 
 ![[08c00146.png]]
 
-Automotive Applications Without EGR
+Автомобили без EGR
 
-Remove the fan. Refer to Procedure 008-040.
+Удалите вентилятора. См. процедуру 008-040.
 
-Remove the alternator and water pump belts. Refer to Procedure 008-003 and Procedure 013-005.
+Удалите генератор и ремни водяного насоса. См. процедуру 008-003 и процедуру 013-005.
 
 ![[08c00001.png]]
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы избежать травм, используйте подъемник или получите помощь, чтобы поднять эту сборку.
 
-Remove alternator belt tensioner and bracket.
+Снимите натяжитель ремня генератора и скобку.
 
-Remove the capscrews and the fan hub assembly.
+Удалите болты и сборку вентилятора.
 
 ![[08c00031.png]]
 
-Industrial and Power Generation Application Without EGR
+Промышленное и энергетическое производство без EGR
 
-Remove the fan. Refer to Procedure 008-040.
+Удалите вентилятора. См. процедуру 008-040.
 
-Remove the fan and water pump belt. Refer to Procedure 008-003.
+Удалите вентилятор и ремень водяного насоса. См. процедуру 008-003.
 
 ![[08c00168.png]]
 
-Remove the alternator drive belt. Refer to Procedure 013-005.
+Снимите ремень привода генератора. См. процедуру 013-005.
 
 ![[08c00171.png]]
 
-> [!note] Note · Примечание
-> The fan support **must** be removed prior to removing the fan hub.
+> [!note] Примечание
+> Поддержка вентилятора должна быть удалена до удаления фан-центра.
 
-Remove the fan hub from the fan hub support. Refer to Procedure 008-088.
+Удалите фан-хаб из поддержки фан-хаба. См. процедуру 008-088.
 
 ![[01c00289.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-With EGR
+С EGR
 
-Inspect the fan hub for the following:
+Осмотрите фан-центр на следующее:
 
-- Freedom of rotation
-- Cracks
-- Grease seal leakage.
+- Свобода ротации
+- Трещины
+- Утечка уплотнения.
 
-Repair or replace the fan hub if the fan hub does **not** rotate freely or if there is evidence of cracks or grease seal leakage.
+Ремонт или замена вентиляторного узла, если вентиляторный центр **не** вращается свободно или если есть признаки трещин или утечки уплотнения смазки.
 
-Refer to the OEM service literature for repair of the fan hub.
+Смотрите литературу OEM-сервиса по ремонту вентиляторного узла.
 
 ![[08c00147.png]]
 
-Measure the fan hub end clearance play. The end clearance is dependent upon the fan hub style.
+Измерьте игру в конце разрешения фан-хаба. Конечный зазор зависит от стиля фан-хаба.
 
-Replace the fan hub if the end clearance is **not** within the manufacturer's specifications.
+Заменить вентиляторный концентратор, если конечный зазор **не** в пределах спецификаций производителя.
 
-Refer to OEM service manual for additional inspection steps.
+См. руководство по обслуживанию OEM для дополнительных этапов проверки.
 
 ![[fa1bdta.png]]
 
-Without EGR
+Без ЭКГ
 
-Inspect the fan hub for the following:
+Осмотрите фан-центр на следующее:
 
-- Freedom of rotation
-- Cracks
-- Grease seal leakage.
+- Свобода ротации
+- Трещины
+- Утечка уплотнения.
 
-Repair or replace the fan hub if the fan hub does **not** rotate freely or if there is evidence of cracks or grease seal leakage.
+Ремонт или замена вентиляторного узла, если вентиляторный центр **не** вращается свободно или если есть признаки трещин или утечки уплотнения смазки.
 
 ![[08c00031.png]]
 
-Measure the fan hub end clearance. The end clearance is dependent upon the fan hub style.
+Измерьте конечный зазор вентилятора. Конечный зазор зависит от стиля фан-хаба.
 
-Replace the fan hub if the end clearance is **not** within specifications.
+Замените вентиляторный концентратор, если конечный зазор **не** в спецификациях.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 0.08 | MIN | 0.003 |
-| 0.25 | MAX | 0.009 |
+| 0.08 | Мин | 0.003 |
+| 0.25 | Макс | 0.009 |
 
 ![[fa1bdta.png]]
 
-### Install
+### Установка
 
-With EGR
+С EGR
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы избежать травм, используйте подъемник или получите помощь, чтобы поднять эту сборку.
 
-Install the fan hub assembly and the capscrews.
+Установите сборку вентилятора и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 113 n•m [83 ft-lb]
+> [!tip] Момент затяжки
+> 113 Н·м [83 фунт-фут]
 
 ![[08c00146.png]]
 
-Automotive Applications Without EGR
+Автомобили без EGR
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы избежать травм, используйте подъемник или получите помощь, чтобы поднять эту сборку.
 
-Install the fan hub and the capscrews.
+Установите вентиляторный центр и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 90 n•m [66 ft-lb]
+> [!tip] Момент затяжки
+> 90 Н·м [66 фунт-фут]
 
-Install the belt tensioner bracket.
+Установите кронштейн натяжителя ремня.
 
 ![[08c00031.png]]
 
-Install the belts. Refer to the Procedure 008-003 and 013-005.
+Установите ремни. См. Процедуры 008-003 и 013-005.
 
-Install the fan. Refer to Procedure 008-040.
+Установите вентилятор. См. процедуру 008-040.
 
 ![[08c00172.png]]
 
-Industrial and Power Generation Application Without EGR
+Промышленное и энергетическое производство без EGR
 
-> [!note] Note · Примечание
-> The fan hub **must** be installed in the correct location on the fan support to allow proper clearance between the fan and fan shroud. Refer to the OEM service manual.
+> [!note] Примечание
+> Вентиляторный концентратор должен быть установлен в правильном месте на опоре вентилятора, чтобы обеспечить надлежащий зазор между вентилятором и вентиляторной оболочкой. См. сервисное руководство изготовителя машины.
 
 ![[rs800sa.png]]
 
-> [!note] Note · Примечание
-> The fan hub **must** be installed prior to installing the fan support.
+> [!note] Примечание
+> Вентиляторный концентратор должен быть установлен перед установкой поддержки вентилятора.
 
-Install the fan hub on the fan support using four capscrews and washers.
+Установите фан-хаб на поддержку вентилятора с помощью четырех болтов и мойщиков.
 
-> [!note] Note · Примечание
-> Make certain the correct fan center is used for the application.
+> [!note] Примечание
+> Убедитесь, что для приложения используется правильный фан-центр.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 90 n•m [66 ft-lb]
+> [!tip] Момент затяжки
+> 90 Н·м [66 фунт-фут]
 
-Install the fan support. Refer to Procedure 008-088.
+Установите поддержку вентилятора. См. процедуру 008-088.
 
 ![[01c00289.png]]
 
-Install the alternator belt tensioner bracket.
+Установите кронштейн натяжителя ремня генератора.
 
-Install the alternator drive belt. Refer to Procedure 013-005.
+Установите ремень привода генератора. См. процедуру 013-005.
 
 ![[08c00171.png]]
 
-Install the fan and water pump drive belt. Refer to Procedure 008-003.
+Установите вентилятор и ремень привода водяного насоса. См. процедуру 008-003.
 
-Install the cooling fan. Refer to Procedure 008-040.
+Установите охлаждающий вентилятор. См. процедуру 008-040.
 
 ![[08c00168.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-With EGR
+С EGR
 
-Install the following:
+Установите следующее:
 
-- Automatic belt tensioner (water pump). Refer to Procedure [[10-008-080 — Belt Tensioner, Automatic (Water Pump)|008-080]].
-- Cooling fan drive belt. Refer to Procedure [[10-008-002 — Drive Belt, Cooling Fan|008-002]].
-- Fan. Refer to Procedure 008-040.
+- Автоматический натяжитель ремня (водяной насос). См. процедуру[[10-008-080 — Belt Tensioner, Automatic (Water Pump)|008-080]].
+- Охлаждающий ремень вентилятора. См. процедуру[[10-008-002 — Drive Belt, Cooling Fan|008-002]].
+- Фан. См. процедуру 008-040.
 
 ![[nobox.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> With EGR
+>
+> Remove the following:
+>
+> - Fan. Refer to Procedure 008-040.
+> - Cooling fan drive belt. Refer to Procedure [[10-008-002 — Drive Belt, Cooling Fan|008-002]].
+> - Automatic belt tensioner (water pump). Refer to Procedure [[10-008-080 — Belt Tensioner, Automatic (Water Pump)|008-080]].
+>
+> ### Remove
+>
+> With EGR
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+>
+> Remove the mounting capscrews and the fan hub assembly.
+>
+> Automotive Applications Without EGR
+>
+> Remove the fan. Refer to Procedure 008-040.
+>
+> Remove the alternator and water pump belts. Refer to Procedure 008-003 and Procedure 013-005.
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+>
+> Remove alternator belt tensioner and bracket.
+>
+> Remove the capscrews and the fan hub assembly.
+>
+> Industrial and Power Generation Application Without EGR
+>
+> Remove the fan. Refer to Procedure 008-040.
+>
+> Remove the fan and water pump belt. Refer to Procedure 008-003.
+>
+> Remove the alternator drive belt. Refer to Procedure 013-005.
+>
+> **Note · Примечание**
+> The fan support **must** be removed prior to removing the fan hub.
+>
+> Remove the fan hub from the fan hub support. Refer to Procedure 008-088.
+>
+> ### Clean and Inspect for Reuse
+>
+> With EGR
+>
+> Inspect the fan hub for the following:
+>
+> - Freedom of rotation
+> - Cracks
+> - Grease seal leakage.
+>
+> Repair or replace the fan hub if the fan hub does **not** rotate freely or if there is evidence of cracks or grease seal leakage.
+>
+> Refer to the OEM service literature for repair of the fan hub.
+>
+> Measure the fan hub end clearance play. The end clearance is dependent upon the fan hub style.
+>
+> Replace the fan hub if the end clearance is **not** within the manufacturer's specifications.
+>
+> Refer to OEM service manual for additional inspection steps.
+>
+> Without EGR
+>
+> Inspect the fan hub for the following:
+>
+> - Freedom of rotation
+> - Cracks
+> - Grease seal leakage.
+>
+> Repair or replace the fan hub if the fan hub does **not** rotate freely or if there is evidence of cracks or grease seal leakage.
+>
+> Measure the fan hub end clearance. The end clearance is dependent upon the fan hub style.
+>
+> Replace the fan hub if the end clearance is **not** within specifications.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 0.08 | MIN | 0.003 |
+> | 0.25 | MAX | 0.009 |
+>
+> ### Install
+>
+> With EGR
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+>
+> Install the fan hub assembly and the capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 113 n•m [83 ft-lb]
+>
+> Automotive Applications Without EGR
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+>
+> Install the fan hub and the capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 90 n•m [66 ft-lb]
+>
+> Install the belt tensioner bracket.
+>
+> Install the belts. Refer to the Procedure 008-003 and 013-005.
+>
+> Install the fan. Refer to Procedure 008-040.
+>
+> Industrial and Power Generation Application Without EGR
+>
+> **Note · Примечание**
+> The fan hub **must** be installed in the correct location on the fan support to allow proper clearance between the fan and fan shroud. Refer to the OEM service manual.
+>
+> **Note · Примечание**
+> The fan hub **must** be installed prior to installing the fan support.
+>
+> Install the fan hub on the fan support using four capscrews and washers.
+>
+> **Note · Примечание**
+> Make certain the correct fan center is used for the application.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 90 n•m [66 ft-lb]
+>
+> Install the fan support. Refer to Procedure 008-088.
+>
+> Install the alternator belt tensioner bracket.
+>
+> Install the alternator drive belt. Refer to Procedure 013-005.
+>
+> Install the fan and water pump drive belt. Refer to Procedure 008-003.
+>
+> Install the cooling fan. Refer to Procedure 008-040.
+>
+> ### Finishing Steps
+>
+> With EGR
+>
+> Install the following:
+>
+> - Automatic belt tensioner (water pump). Refer to Procedure [[10-008-080 — Belt Tensioner, Automatic (Water Pump)|008-080]].
+> - Cooling fan drive belt. Refer to Procedure [[10-008-002 — Drive Belt, Cooling Fan|008-002]].
+> - Fan. Refer to Procedure 008-040.

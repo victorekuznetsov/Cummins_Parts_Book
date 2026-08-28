@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-007-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-007-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Heater
@@ -33,75 +35,138 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-007-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-007-001.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-- Disconnect the batteries.
+### Подготовительные операции
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Отсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and can cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Некоторые государственные и федеральные агентства определили, что используемое моторное масло может быть канцерогенным и вызывать репродуктивную токсичность. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-- Drain the lubricating oil. Refer to [[40-007-037 — Lubricating Oil System|Procedure 007-037]].
+- Слить моторное масло. Видишь?[[40-007-037 — Lubricating Oil System|Процедура 007-037]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Disconnect the oil heater electrical cord.
+Отключите электрический шнур масляного нагревателя.
 
-Remove the heater element.
+Удалите элемент нагревателя.
 
 ![[op9swma.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Clean the heater element with a dry, clean towel.
+Очистите нагревательный элемент сухим, чистым полотенцем.
 
 ![[07d00113.png]]
 
-Check for cracks in the heating element.
+Проверьте наличие трещин в нагревательном элементе.
 
 ![[07d00114.png]]
 
-### Test
+### Проверка
 
-Perform a resistance test on the engine lubricating oil heater element.
+Проведите испытание на сопротивление на элементе нагревателя моторного масла двигателя.
 
-The readings **must** be a minimum of 91 ohms to a maximum 101 ohms.
+Показания должны быть не менее 91 ом до максимум 101 ом.
 
 ![[07d00089.png]]
 
-### Install
+### Установка
 
-Replace the heater element.
+Замените элемент нагревателя.
 
-> [!tip] Момент затяжки · Torque Value
-> 80 n•m [59 ft-lb]
+> [!tip] Момент затяжки
+> 80 Н·м [59 фунт-фут]
 
-Connect oil heater electrical cord.
+Подключите кабель нагревателя масла.
 
 ![[op9swha.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Refill the engine with clean oil to the correct level. Refer to [[40-007-037 — Lubricating Oil System|Procedure 007-037]].
+- Заправьте двигатель чистым маслом до нужного уровня. Видишь?[[40-007-037 — Lubricating Oil System|Процедура 007-037]].
 
 ![[ck800wa.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries.
+- Подсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-- Operate the engine and check for leaks.
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[07d00087.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and can cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> - Drain the lubricating oil. Refer to [[40-007-037 — Lubricating Oil System|Procedure 007-037]].
+>
+> ### Remove
+>
+> Disconnect the oil heater electrical cord.
+>
+> Remove the heater element.
+>
+> ### Clean and Inspect for Reuse
+>
+> Clean the heater element with a dry, clean towel.
+>
+> Check for cracks in the heating element.
+>
+> ### Test
+>
+> Perform a resistance test on the engine lubricating oil heater element.
+>
+> The readings **must** be a minimum of 91 ohms to a maximum 101 ohms.
+>
+> ### Install
+>
+> Replace the heater element.
+>
+> **Момент затяжки · Torque Value**
+> 80 n•m [59 ft-lb]
+>
+> Connect oil heater electrical cord.
+>
+> ### Finishing Steps
+>
+> - Refill the engine with clean oil to the correct level. Refer to [[40-007-037 — Lubricating Oil System|Procedure 007-037]].
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries.
+>
+> - Operate the engine and check for leaks.

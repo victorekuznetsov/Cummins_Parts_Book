@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666239"
 figures: 85
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-010-033-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-010-033-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Turbocharger
@@ -34,973 +36,1784 @@ tags:
 > **Даты:** изменён 2022-10-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-010-033-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-010-033-tr.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> Brush away any loose dirt from around the area of air handling connections to avoid contamination of the interior of the engine.
 
-Shut the engine OFF.
+### Первичная проверка
 
-Allow the turbocharger to cool.
+> [!note] Примечание
+> Удалите любую рыхлую грязь из области соединений для обработки воздуха, чтобы избежать загрязнения внутренней части двигателя.
 
-Remove the intake piping and compressor discharge piping. Cover the openings in the pipes with caps from the Air Handling and Vehicle Air Plumbing Clean Care Kits, Part Numbers 4919403 and 4919425, respectively.
+Закройте двигатель.
 
-Lubricating oil leaks from the compressor (cold side) or turbine (hot side) seals are symptoms of air restrictions, leaks, or a restricted turbocharger oil drain line.
+Позвольте турбокомпрессору остыть.
 
-See Turbocharger Lubricating Oil Leak Troubleshooting, Service Bulletin 5504213, if a turbocharger is leaking oil.
+Удалите впускной трубопровод и трубопровод разгрузки компрессора. Накройте отверстия в трубах крышками из комплектов для чистого ухода за воздушным транспортом и сантехники для воздуха, номеров частей 4919403 и 4919425 соответственно.
 
-After reviewing Service Bulletin 5504213, see the following troubleshooting trees, if necessary.
+Утечки моторного масла из компрессорного (холодная сторона) или турбинного (горячая сторона) уплотнений являются симптомами воздушных ограничений, утечек или ограниченной линии слива масла турбокомпрессора.
 
-- Turbocharger – Compressor Seal Oil Leak
-- Turbocharger – Turbine Seal Oil Leak.
+См. Turbocharger Lubricating Oil Leak Troubleshooting, Service Bulletin 5504213, if a Turbocharger is leaking oil.
+
+После просмотра Бюллетеня 5504213 см. следующие способы устранения неполадок, если это необходимо.
+
+- Турбокомпрессор - Compressor Seal Oil Leak
+- Turbocharger - Утечка масла из тюленей.
 
 ![[10c00591.png]]
 
-Inspect the turbocharger compressor impeller blades for damage.
+Осмотрите лопасти компрессора турбокомпрессора на предмет повреждения.
 
-Replace the turbocharger if damage is found.
+Замените турбокомпрессор, если обнаружены повреждения.
 
-If the turbocharger compressor impeller is damaged, do the following:
+Если крыло компрессора турбокомпрессора повреждено, сделайте следующее:
 
-- Inspect the intake piping and filter element for damage.
-- Repair any damaged parts before operating the engine.
-- See High Blowby and Lubricating Oil Consumption Caused by Dirt and Dust Ingestion, Service Bulletin [[5613318 — Checking For Dirt and Dust Ingestion While Troubleshooting High Blowby|5613318]].
+- Проверить впускной трубопровод и фильтрующий элемент на предмет повреждения.
+- Ремонт любых поврежденных деталей перед работой двигателя.
+- См. Высокое потребление моторного масла, вызванное попаданием грязи и пыли, служебный бюллетень[[5613318 — Checking For Dirt and Dust Ingestion While Troubleshooting High Blowby|5613318]].
 
 ![[ci8ilca.png]]
 
-Inspect the turbine wheel for damage.
+Проверьте колесо турбины на предмет повреждений.
 
-Replace the turbocharger if damage is found.
+Замените турбокомпрессор, если обнаружены повреждения.
 
-If turbine wheel is damaged, see Prevention of Turbocharger Damage After Engine Mechanical Issue, Service Bulletin [[4326040 — Prevention of Turbocharger Damage After Engine Mechanical Issue|4326040]].
+Если турбинное колесо повреждено, см. Предотвращение повреждения турбокомпрессора после механических проблем двигателя, служебный бюллетень[[4326040 — Prevention of Turbocharger Damage After Engine Mechanical Issue|4326040]].
 
 ![[tb1ipcd.png]]
 
-### Leak Test
+### Тест на утечку
 
-Automotive with CM870
+Автомобильный с CM870
 
-> [!note] Note · Примечание
-> This test **only** needs to be performed if troubleshooting for coolant loss or if a leak is suspected
+> [!note] Примечание
+> Этот тест **только **должен быть выполнен, если обнаружение неисправностей при потере охлаждающей жидкости или если подозревается утечка.
 
-Connect a Turbocharger Coolant Leak Test Kit, Part Number 3164682, to the coolant inlet and outlet.
+Подключите комплект для испытания на охлаждение с турбокомпрессором, номер детали 3164682, к входу и выходу охлаждающей жидкости.
 
-Use shop air supply to pressurize the turbocharger to 276 kPa \[40 psi\].
+Используйте подачу сжатого воздуха для давления турбокомпрессора до 276 кПа[40 psi].
 
-Close the air pressure regulator.
+Закройте регулятор давления воздуха.
 
 ![[10c00071.png]]
 
-Watch for the pressure to decrease. Pressure **must not** decrease more than 34 kPa \[5 psi\] in 1 minute.
+Следите за тем, чтобы давление уменьшалось. Давление **не должно **уменьшаться более чем на 34 кПа \[5 psi\] за 1 минуту.
 
 ![[10c00072.png]]
 
-If the pressure decreases more than 34 kPa \[5 psi\] in 1 minute, use a spray bottle of soapy water to wet all of the hose connections. Bubbles will appear if the connections are leaking.
+Если давление уменьшается более чем на 34 кПа \[5 psi\] за 1 минуту, используйте баллончик с распылением мыльной воды, чтобы промочить все соединения шланга. Пузыри появятся, если соединения протекают.
 
-If the pressure does decrease excessively, and the hose connections are **not** leaking, replace the turbocharger.
+Если давление действительно чрезмерно снижается, а шланговые соединения не протекают, замените турбокомпрессор.
 
 ![[10c00077.png]]
 
-Automotive With CM871
+Автомобильный с CM871
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-This test **only** needs to be performed if troubleshooting for coolant loss or if an internal leak is suspected.
+Этот тест **только **должен быть выполнен, если есть подозрение на утечку охлаждающей жидкости или если есть подозрение на внутреннюю утечку.
 
-> [!note] Note · Примечание
-> The engine **must** be within 3°C or 5°F of ambient temperature to perform the test.
+> [!note] Примечание
+> Для проведения испытания двигатель должен находиться в пределах 3°C или 5°F от температуры окружающей среды.
 
-If a turbocharger internal coolant leak is suspected, use the Turbocharger Coolant Leak Test Kit, Part Number 5299740, along with Air Pressure Regulator Kit, Part Number 3164231, to check for a leak.
+Если подозревается внутренняя утечка хладагента турбокомпрессора, используйте испытательный комплект для утечек хладагента турбокомпрессора, номер детали 5299740, а также комплект регулятора давления воздуха, номер детали 3164231, чтобы проверить утечку.
 
-- Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+- Слейте охлаждающую жидкость.[[10-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
 
 ![[ra8homa.png]]
 
-- To test for a turbocharger bearing housing internal coolant leak, disconnect the coolant inlet line to the bearing housing and install the adapter fitting for the pressure regulator supplied with the Turbocharger Coolant Leak Test Kit, Part Number 5299740.
-- To test for a turbocharger actuator internal coolant leak, disconnect the coolant inlet line to the turbocharger actuator and install the adapter fitting for the pressure regulator supplied with the Turbocharger Coolant Leak Test Kit, Part Number 5299740.
+- Для испытания внутренней утечки охлаждающей жидкости в корпус турбокомпрессора отсоедините впускную линию охлаждающей жидкости к корпусу подшипника и установите адаптер, подходящий для регулятора давления, поставляемого с комплектом испытаний на охлаждение с турбокомпрессором, номер детали 5299740.
+- Для испытания внутренней утечки охлаждающей жидкости в приводе турбокомпрессора отсоедините впускную линию охлаждающей жидкости к приводу турбокомпрессора и установите адаптер, подходящий для регулятора давления, поставляемого с комплектом испытаний на охлаждение с турбокомпрессором, номер детали 5299740.
 
 ![[10r00106.png]]
 
-- Disconnect the turbocharger coolant return line at the turbocharger outlet port and install the plug supplied with Turbocharger Coolant Leak Test Kit, Part Number 5299740, to block off the turbocharger coolant outlet port.
-- Disconnect the turbocharger actuator coolant return line at the turbocharger actuator and install the plug supplied with Turbocharger Coolant Leak Test Kit, Part Number 5299740, to block off the turbocharger actuator coolant outlet port.
+- Отсоедините обратную линию хладагента турбокомпрессора в порту выхода турбокомпрессора и установите вилку, поставляемую с комплектом испытаний на охлаждение с турбокомпрессором, номер детали 5299740, чтобы заблокировать выходной порт хладагента турбокомпрессора.
+- Отсоедините обратную линию охлаждающей жидкости привода турбокомпрессора в приводе турбокомпрессора и установите пробку, поставляемую с комплектом испытаний на охлаждение с турбокомпрессором, номер детали 5299740, чтобы заблокировать выходной порт хладагента привода турбокомпрессора.
 
 ![[10r00107.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-- Use compressed air supply to pressurize the turbocharger bearing housing to 276 kPa \[40 psi\].
-- Close the air pressure regulator.
-- Watch for the pressure to decrease. The pressure **must not** decrease more than 34 kPa \[5 psi\] in 1 minute.
+- Используйте подачу сжатого воздуха для давления корпуса турбокомпрессора до 276 кПа[40 psi].
+- Закройте регулятор давления воздуха.
+- Следите за тем, чтобы давление уменьшалось. Давление **не должно **уменьшаться более чем на 34 кПа \[5 psi\] за 1 минуту.
 
 ![[10r00108.png]]
 
-- If the pressure decreases, use a spray bottle of soapy water to wet the coolant leak test connections and threaded joints. Bubbles will appear if the connections or threaded joints are leaking
-- If the pressure decreases and the hose connections or threaded joints are **not** leaking, replace the turbocharger **only** and reuse the actuator.
-- If the pressure does **not** decrease, no leaks have been detected in the turbocharger bearing housing. Proceed to the next steps for testing the actuator for coolant leak.
+- Если давление уменьшается, используйте баллончик с распылением мыльной воды, чтобы смачивать измерительные соединения утечки охлаждающей жидкости и резьбовые соединения. Пузыри появятся, если соединения или резьбовые соединения протекают
+- Если давление уменьшается, а соединения шлангов или резьбовых соединений не протекают, замените турбокомпрессор только и повторно используйте привод.
+- Если давление не уменьшается, то в корпусе турбокомпрессора не было обнаружено никаких утечек. Переходим к следующим шагам для тестирования привода на утечку охлаждающей жидкости.
 
 ![[10r00109.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-- Use compressed air supply to pressurize the turbocharger actuator to 276 kPa \[40 psi\].
-- Close the air pressure regulator.
-- Watch for the pressure to decrease. The pressure **must not** decrease more than 34 kPa \[5 psi\] in 1 minute.
+- Используйте подачу сжатого воздуха для давления в приводе турбокомпрессора до 276 кПа[40 psi].
+- Закройте регулятор давления воздуха.
+- Следите за тем, чтобы давление уменьшалось. Давление **не должно **уменьшаться более чем на 34 кПа \[5 psi\] за 1 минуту.
 
 ![[10r00110.png]]
 
-- If the pressure decreases, use a spray bottle of soapy water to wet the coolant leak test connections and threaded joints. Bubbles will appear if the connections or threaded joints are leaking.
-- If the pressure decreases and the hose connections or threaded joints are **not** leaking, replace the actuator **only** and reuse the turbocharger.
-- If the pressure does **not** decrease, no leaks have been detected in the turbocharger actuator. No further Turbocharger Coolant Leak Test steps are necessary.
+- Если давление уменьшается, используйте баллончик с распылением мыльной воды, чтобы смачивать измерительные соединения утечки охлаждающей жидкости и резьбовые соединения. Пузыри появятся, если соединения или резьбовые соединения протекают.
+- Если давление уменьшается, а соединения шлангов или резьбовых соединений не протекают, замените привод **только **и повторно используйте турбокомпрессор.
+- Если давление не уменьшается, то в приводе турбокомпрессора не было обнаружено никаких утечек. Никаких дальнейших шагов по тестированию на охлаждение турбокомпрессора не требуется.
 
 ![[10r00111.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-#### ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+#### ISX Automotive с CM570, QSX15 с CM570 и силовая генерация с CM570
 
-- Remove the wastegate actuator hose. Refer to Procedure 010-050 in Section 10.
+- Удалите шланг привода обходного клапана турбины. См. процедуру 010-050 в разделе 10.
 
-Automotive with CM870
+Автомобильный с CM870
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-- Drain the coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Disconnect the turbocharger speed sensor. For Signature™ and ISX engines, see the following procedure in the Signature and ISX CM870 Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021334. Refer to Procedure 019-390 in Section 19.
-- Disconnect the turbocharger compressor air inlet temperature sensor. For ISX engines, see the following procedure in the Signature and ISX CM870 Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021334. Refer to Procedure 019-395 in Section 19.
-- Disconnect the variable geometry actuator air supply line. Refer to Procedure 010-113 in Section 10.
-- Remove the turbocharger coolant hoses. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
+- Слейте охлаждающую жидкость.[[10-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Отключите датчик скорости турбокомпрессора. Для двигателей SignatureTM и ISX см. следующую процедуру в руководстве по устранению неполадок и ремонту электронной системы управления Signature и ISX CM870, Bulletin 4021334. См. процедуру 019-390 в разделе 19.
+- Отключите датчик температуры впускного отверстия компрессора турбокомпрессора. Для двигателей ISX см. следующую процедуру в руководстве по устранению неполадок и ремонту электронной системы управления ISX CM870, Bulletin 4021334. См. процедуру 019-395 в разделе 19.
+- Отсоедините линию подачи воздуха привода переменной геометрии. См. процедуру 010-113 в разделе 10.
+- Удалите шланги для охлаждения турбокомпрессора.[[10-010-041-tr — Turbocharger Coolant Hoses|См. процедуру 010-041 в разделе 10.]]
 
-Automotive With CM871
+Автомобильный с CM871
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!note] Note · Примечание
-> Brush away any loose dirt from around the area of the air handling connections to avoid contamination of the interior of the engine.
+> [!note] Примечание
+> Удалите любую рыхлую грязь из области соединений для обработки воздуха, чтобы избежать загрязнения внутренней части двигателя.
 
-- Drain the coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Disconnect the turbocharger speed sensor. For ISX and ISM engines, see the following procedure in the ISX CM871 and ISM CM876 Electronic Control System, Troubleshooting and Repair Manual, Bulletin 4021560. Refer to Procedure 019-390 in Section 19.
-- Disconnect the turbocharger compressor air inlet temperature sensor. For ISX and ISM engines, see the following procedure in the ISX CM871 and ISM CM876 Electronic Control System, Troubleshooting and Repair Manual, Bulletin 4021560. Refer to Procedure 019-395 in Section 19.
-- Remove the turbocharger coolant hoses. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
-- Remove the charge air piping. Use protective caps from the Air Handling Clean Care Kit, Part Number 4919403, to cover open points.
-- Remove the turbocharger air inlet piping. Use protective caps from the Air Handling and Vehicle Air Plumbing Clean Care Kits, Part Numbers 4919403 and 4919425 respectively, to cover open points.
-- Disconnect the aftertreatment adapter pipe. Use a protective cap from the Air Handling Clean Care Kit, Part Numbers 4919403 and 4919425 respectively, to cover the turbocharger exhaust outlet. [[101-011-043-tr — Aftertreatment Adapter Pipe|Refer to Procedure 011-043 in Section 11.]]
+- Слейте охлаждающую жидкость.[[10-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Отключите датчик скорости турбокомпрессора. Для двигателей ISX и ISM см. следующую процедуру в электронных системах управления ISX CM871 и ISM CM876, руководство по устранению неполадок и ремонту, вестник 4021560. См. процедуру 019-390 в разделе 19.
+- Отключите датчик температуры впускного отверстия компрессора турбокомпрессора. Для двигателей ISX и ISM см. следующую процедуру в электронных системах управления ISX CM871 и ISM CM876, руководство по устранению неполадок и ремонту, вестник 4021560. См. процедуру 019-395 в разделе 19.
+- Удалите шланги для охлаждения турбокомпрессора.[[10-010-041-tr — Turbocharger Coolant Hoses|См. процедуру 010-041 в разделе 10.]]
+- Удалите воздушные трубы заряда. Используйте защитные колпачки из комплекта для чистого ухода за воздухом, номер детали 4919403, для покрытия открытых точек.
+- Удалите трубы впуска воздуха турбокомпрессора. Используйте защитные крышки из комплектов для чистого ухода за воздушным транспортом и сантехники для транспортных средств, номера частей 4919403 и 4919425 соответственно, для покрытия открытых точек.
+- Отсоедините адаптер после обработки трубы. Используйте защитный колпачок из комплекта для чистого ухода за воздухом, номера частей 4919403 и 4919425 соответственно, чтобы покрыть выпуск турбокомпрессора.[[101-011-043-tr — Aftertreatment Adapter Pipe|См. процедуру 011-043 в разделе 11.]]
 
-### Remove
+### Снятие
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-#### Automotive, Industrial, and Power Generation with CM570
+#### Автомобильная, промышленная и энергетическая генерация с CM570
 
-- Remove the oil supply, oil drain tube, and brace, if equipped, from the turbocharger.
+- Удалите подачу масла, трубку для слива масла и скобу, если она оборудована, из турбокомпрессора.
 
 ![[17c00120.png]]
 
-Remove the intake and exhaust pipes from the turbocharger.
+Удалите впускные и выхлопные трубы из турбокомпрессора.
 
-Remove the charge air cooler piping from the discharge elbow.
+Удалите трубы охладителя воздуха с разрядного локтя.
 
 ![[17c00121.png]]
 
-Remove the clamp, o-ring, and discharge elbow from the turbocharger.
+Удалите зажим, о-кольцо и выпустите локтевую часть из турбокомпрессора.
 
-Discard the o-ring.
+Отбросьте кольцо.
 
 ![[17c00124.png]]
 
-> [!note] Note · Примечание
-> In some applications, the turbocharger will **not** clear the lubricating oil cooler assembly during removal and installation. It will, perhaps, be necessary to remove the exhaust manifold and turbocharger together, and then separate the two components. Use the following procedure if the two components **must** be removed together for the removal and installation of the exhaust manifold. Refer to Procedure 011-007 in Section 11.
+> [!note] Примечание
+> В некоторых случаях турбокомпрессор **не** очищает сборку охладителя моторного масла во время удаления и установки. Возможно, потребуется снять выхлопной коллектор и турбокомпрессор вместе, а затем разделить два компонента. Используйте следующую процедуру, если два компонента должны быть удалены вместе для удаления и установки коллектора выхлопных газов. См. процедуру 011-007 в разделе 11.
 
-If the turbocharger mounting nuts do **not** loosen freely, split the nuts to avoid breaking a mounting stud.
+Если турбокомпрессорные крепежные гайки **не **свободно расшатываются, расщепьте гайки, чтобы избежать разрушения крепежных шпильков.
 
-Remove the four turbocharger mounting nuts.
+Удалите четыре турбокомпрессора, устанавливающих гайки.
 
-Remove the turbocharger and discard the gasket.
+Удалите турбокомпрессор и отбросьте прокладку.
 
 ![[17c00122.png]]
 
-Automotive with CM870
+Автомобильный с CM870
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!warning] CAUTION · Осторожно
-> When installing a lifting eye, be sure the shoulder of the lifting eye is bottomed against the bearing housing. Failure to do so can result in failure of the lifting eye and personal injury.
+> [!warning] ОСТОРОЖНО
+> При установке подъемного глаза убедитесь, что плечо подъемного глаза прижато к оболочку подшипника. Неспособность сделать это может привести к отказу от поднятия глаз и травме.
 
-> [!warning] CAUTION · Осторожно
-> If the lifting eye is installed in the turbocharger bearing housing, it is to be used exclusively for turbocharger removal and installation. It is not to be used in removal of the exhaust manifold, or engine. Doing so will cause damage to the turbocharger.
+> [!warning] ОСТОРОЖНО
+> Если подъёмный глаз установлен в корпусе подшипника турбокомпрессора, он должен использоваться исключительно для удаления и установки турбокомпрессора. Он не должен использоваться при удалении выхлопного коллектора или двигателя. Это приведет к повреждению турбокомпрессора.
 
-Remove the oil supply and the oil drain tube from the turbocharger.
+Удалите подачу масла и трубку для слива масла из турбокомпрессора.
 
 ![[10c00136.png]]
 
-Remove the intake and the exhaust pipes from the turbocharger.
+Удалите впускную и выхлопную трубы из турбокомпрессора.
 
-Remove the charge air cooler piping from the discharge elbow.
+Удалите трубы охладителя воздуха с разрядного локтя.
 
 ![[10c00201.png]]
 
-Remove the clamp, o-ring, and discharge elbow from the turbocharger.
+Удалите зажим, о-кольцо и выпустите локтевую часть из турбокомпрессора.
 
-Discard the o-ring.
+Отбросьте кольцо.
 
 ![[17c00124.png]]
 
-The capscrew in the top of the turbocharger bearing housing can be removed and replaced with a lifting eye to aid in removal of the turbocharger.
+Болты в верхней части корпуса подшипника турбокомпрессора могут быть удалены и заменены подъемным глазом, чтобы помочь в удалении турбокомпрессора.
 
-If the turbocharger mounting nuts do **not** loosen freely, split the nuts to avoid breaking a mounting stud.
+Если турбокомпрессорные крепежные гайки **не **свободно расшатываются, расщепьте гайки, чтобы избежать разрушения крепежных шпильков.
 
-Remove the four turbocharger mounting nuts.
+Удалите четыре турбокомпрессора, устанавливающих гайки.
 
-Remove the turbocharger and discard the gasket.
+Удалите турбокомпрессор и отбросьте прокладку.
 
 ![[10c00059.png]]
 
-Automotive With CM871
+Автомобильный с CM871
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the turbocharger oil supply line from the male union on the turbocharger bearing housing.
+Удалите линию подачи масла турбокомпрессора из наружной резьбовой установки на корпусе подшипника турбокомпрессора.
 
-Remove the turbocharger oil supply line from the lubricating oil filter head.
+Удалите линию подачи масла турбокомпрессора из головки фильтра моторного масла.
 
 ![[10c00374.png]]
 
-Remove the turbocharger oil drain line from the turbocharger and discard the gasket.
+Удалите линию слива масла турбокомпрессора из турбокомпрессора и отбросьте прокладку.
 
-Pull the turbocharger oil drain line from the cylinder block by hand.
+Вытащите линию слива масла турбокомпрессора из блока цилиндров вручную.
 
-If the grommet seal is attached to the drain tube, remove and inspect the grommet. Replace the grommet if damaged.
+Если громмет-уплотнение прикреплена к дренажной трубе, удалите и проверьте громмет. Замените громмет, если он поврежден.
 
-Install the grommet into the cylinder block if no damage is found.
+Установите громмет в блок цилиндра, если не обнаружено повреждений.
 
 ![[07600300.png]]
 
-Thread a lifting strap around the turbocharger bearing housing. Take care **not** to bend the coolant lines when lifting the turbocharger.
+Нажмите подъемный ремень вокруг корпуса турбокомпрессора. Позаботьтесь о том, чтобы **не** сгибать линии охлаждающей жидкости при подъеме турбокомпрессора.
 
-Care **must** be taken **not** to damage the turbocharger compressor inlet air temperature sensor, the turbocharger speed sensor, and the turbocharger actuator coolant lines when removing the turbocharger.
 
-Remove the four turbocharger mounting nuts.
 
-> [!note] Note · Примечание
-> If the turbocharger mounting nuts do **not** loosen freely, split the nuts to avoid breaking a mounting stud.
+Удалите четыре турбокомпрессора, устанавливающих гайки.
 
-Remove the turbocharger and discard the gaskets.
+> [!note] Примечание
+> Если турбокомпрессорные крепежные гайки **не **свободно расшатываются, расщепьте гайки, чтобы избежать разрушения крепежных шпильков.
+
+Удалите турбокомпрессор и отбросьте прокладки.
 
 ![[10c00247.png]]
 
-Cover the turbocharger exhaust inlet port with heavy tape or a protective cap from the Air Handling and the Vehicle Air Plumbing Clean Care Kit, Part Numbers 4919403 and 4919425, respectively. Cover the opening on the exhaust manifold with heavy tape.
+Накройте входной порт турбокомпрессора тяжелой лентой или защитным колпачком из комплекта для чистого ухода за воздухом и сантехники для транспортных средств, номера частей 4919403 и 4919425, соответственно. Накрыть отверстие на выпускном коллекторе тяжелой лентой.
 
-If the turbocharger is being replaced with a new turbocharger, remove the variable geometry turbocharger (VGT) actuator. [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
+Если турбокомпрессор заменяется новым турбокомпрессором, удалите привод турбокомпрессора с изменяемой геометрией (VGT).[[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|См. процедуру 010-134 в разделе 10.]]
 
 ![[10c00308.png]]
 
-### Disassemble
+### Разборка
 
-#### Turbine Housing Replacement for ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+#### Замена корпуса турбины для ISX Automotive с CM570, QSX15 с CM570 и производство электроэнергии с CM570
 
-- Place the turbocharger outlet on a clean flat surface. Create an alignment mark on the turbine housing, bearing housing and the V-band clamp. This mark will make certain the components are oriented correctly during the assembly process.
+- Поместите розетку турбокомпрессора на чистую плоскую поверхность. Создать знак выравнивания на корпусе турбины, опорном кожухе и зажиме V-диапазона. Эта отметка позволит убедиться, что компоненты правильно ориентированы во время процесса сборки.
 
-> [!note] Note · Примечание
-> This procedure applies **only** to Automotive with CM570, QSX15 with CM570, and Power Generation with CM570. Do **not** disassemble VGT.
+> [!note] Примечание
+> Эта процедура применяется только к автомобилям с CM570, QSX15 с CM570 и к производству электроэнергии с CM570. **Не** разбирать ВГТ.
 
 ![[10c00223.png]]
 
-Loosen the turbine side V-band locknut. Remove and discard the V-band clamp.
+Освободите турбинный флакон V-диапазона. Удалите и отбросьте зажим V-диапазона.
 
 ![[10c00224.png]]
 
-> [!warning] CAUTION · Осторожно
-> Turbine blades can be easily damaged and care is required for the turbine housing removal process.
+> [!warning] ОСТОРОЖНО
+> Лопасти турбины могут быть легко повреждены, и требуется уход за процессом удаления корпуса турбины.
 
-Use a soft hammer to tap the turbine housing down against a soft bench surface.
+Используйте мягкий молоток, чтобы нажать на корпус турбины на мягкую поверхность испытательного стенда.
 
-As the bearing housing and compressor housing assembly loosen, gently lift the assembly out of the turbine housing.
+Когда подшипниковый корпус и корпус компрессора ослабляются, мягко поднимайте сборку из корпуса турбины.
 
-Wastegate mounting is **not** affected by this disassembly process.
+На монтаж обходного клапана турбины **не** влияет этот процесс разборки.
 
-**Always** clean the turbine housing before assembly, paying particular attention to the surface close to the turbine housing and the bearing housing location.
+**Всегда** очищайте кожух турбины перед сборкой, уделяя особое внимание поверхности, близкой к корпусу турбины, и расположению корпуса подшипника.
 
 ![[10c00225.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-#### Turbine Housing Cleaning for ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+#### Очистка корпуса турбины для ISX Automotive с CM570, QSX15 с CM570 и производство электроэнергии с CM570
 
-- The turbocharger turbine housing surface adjacent to the turbine compressor wheels **must** be clean, smooth, and free from deposits.
-- Inspect the components to detect signs of burning and other conditions in order to obtain as much information as possible before washing.
+- Поверхность корпуса турбины турбокомпрессора, прилегающая к колесам компрессора турбины, должна быть чистой, гладкой и свободной от отложений.
+- Проверяйте компоненты, чтобы обнаружить признаки горения и другие условия, чтобы получить как можно больше информации перед стиркой.
 
-> [!note] Note · Примечание
-> This procedure applies **only** to Automotive with CM570, QSX15 with CM570, and Power Generation with CM570. Do **not** disassemble VGTs.
+> [!note] Примечание
+> Эта процедура применяется только к автомобилям с CM570, QSX15 с CM570 и к производству электроэнергии с CM570. **Не** Разбирать ВГТ.
 
 ![[10c00232.png]]
 
-> [!warning] CAUTION · Осторожно
-> Wear appropriate eye and face protection when using non-corrosive metal cleaner.
+> [!warning] ОСТОРОЖНО
+> Носите соответствующую защиту глаз и лица при использовании некоррозионного металлоочистителя.
 
-Soak the turbocharger turbine housing in a non-corrosive, low flash point metal cleaner to loosen deposits.
+Замочите корпус турбины турбокомпрессора в некоррозионном металлоочистителе с низкой температурой вспышки, чтобы ослабить отложения.
 
 ![[10c00233.png]]
 
-> [!warning] CAUTION · Осторожно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!warning] ОСТОРОЖНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Scale-like deposits, if any, **must** be removed by using a non-metallic bristle brush. After removing the deposits, wash and dry the components.
+Масштабные отложения, если таковые имеются, должны быть удалены с помощью неметаллической щетки. После удаления отложений промойте и высушивайте компоненты.
 
-Dry the components with compressed air.
+Сушить компоненты сжатым воздухом.
 
 ![[10c00234.png]]
 
-> [!warning] CAUTION · Осторожно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!warning] ОСТОРОЖНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!note] Note · Примечание
-> Do **not** bead blast aluminum and cast iron components together.
+> [!note] Примечание
+> Делайте **не** бусины из алюминиевых и чугунных компонентов вместе.
 
-> [!note] Note · Примечание
-> To prevent bead spray impinging directly on the clamp plate and turbine flange threads, mask and plug off all items.
+> [!note] Примечание
+> Чтобы предотвратить попадание шарикового распыления непосредственно на зажимную пластину и турбинную фланцевую резьбу, маскируйте и отключите все предметы.
 
-> [!note] Note · Примечание
-> Prevent the bead spray impinging directly on the wastegate valve spindle, as beads can penetrate the spindle bore and lead to spindle seizure.
+> [!note] Примечание
+> Предотвратите попадание шарикового спрея непосредственно на шпиндель обходного клапана турбины, так как бусины могут проникать в цилиндр шпинделя и приводить к захвату шпинделя.
 
-It is permissible to bead blast the turbocharger turbine housing if chemical and brush cleaning are **not** effective.
+Допускается взрыв шарика корпуса турбины турбокомпрессора, если химические и чистящие щетки не эффективны.
 
 ![[10c00236.png]]
 
-After removing the deposits, wash and dry the components.
+После удаления отложений промойте и высушивайте компоненты.
 
 ![[10c00234.png]]
 
-#### ISX Automotive with CM570, QSX15 with CM570 and Power Generation with CM570
+#### ISX Automotive с CM570, QSX15 с CM570 и силовая генерация с CM570
 
-- Clean the retaining nut mating surfaces of the turbocharger and the exhaust manifold.
-- Clean the mating surfaces with Scotch-Brite™ 7448 abrasive pad.
-- The surface under the mounting nuts **must** be free of dirt, rust, or any other debris, before applying anti-seize compound, Part Number 3823097.
+- Очистить удерживающие поверхности гайки турбокомпрессора и выхлопного коллектора.
+- Очистите спаривающиеся поверхности абразивной подушкой Scotch-BriteTM 7448.
+- Поверхность под крепежными гайками должна быть свободна от грязи, ржавчины или любого другого мусора, прежде чем применять противозахватное соединение, номер детали 3823097.
 
 ![[10200013.png]]
 
-Inspect the wastegate actuator. Refer to Procedure 010-050 in Section 10.
+Осмотрите привод обходного клапана турбины. См. процедуру 010-050 в разделе 10.
 
-Inspect the turbocharger casings.
+Осмотрите корпуса турбокомпрессора.
 
-Replace the housing if through cracks are found in the outer walls.
+Замените кожух, если в наружных стенах обнаружены трещины.
 
 ![[tb1hssc.png]]
 
-Cracking in the turbine housing inlet flange and the inlet duct generally requires replacement of the turbine housing. Acceptance and rejection guidelines are shown in these illustrations. If an exhaust gasket is available, **always** make certain that cracks do **not** exist within the sealing area.
+Трещина во впускном фланце турбины и входном канале обычно требует замены корпуса турбины. Рекомендации по принятию и отклонению показаны на этих иллюстрациях. Если имеется прокладка для выхлопных газов, **всегда** убедитесь, что трещины **не** существуют в зоне герметизации.
 
-Check the turbine housing inlet flange flatness. It **must** be within 0.1 mm \[0.004 in\] to be acceptable for reuse.
+Проверьте плоскость впускного фланга турбины. должно быть в пределах 0,1 мм \[0,004 дюйма \], чтобы быть приемлемым для повторного использования.
 
 ![[10c00226.png]]
 
-Flange Fasteners - Clearance Holes
+Фланцевые застежки - клиренсовые отверстия
 
-Check the fastener hole diameter. It **must not** be more than 1.5 mm \[0.006 in\] larger than the maximum thread diameter of the fastener.
+Проверьте диаметр отверстия крепежа. Он **не должен** быть больше 1,5 мм \[0,006 дюйма\], чем максимальный диаметр резьбы крепежа.
 
 ![[10c00227.png]]
 
-> [!warning] CAUTION · Осторожно
-> If external cracks are found on the turbine housing, the turbine housing must be replaced.
+> [!warning] ОСТОРОЖНО
+> Если на корпусе турбины обнаружены внешние трещины, корпус турбины должен быть заменен.
 
-> [!warning] CAUTION · Осторожно
-> Turbine blades can be easily damaged and care is required for the turbine housing installation process.
+> [!warning] ОСТОРОЖНО
+> Лопасти турбины могут быть легко повреждены, и требуется уход за процессом установки корпуса турбины.
 
-Cracking of the internal wall at the entry to the turbine wheel (tongue) is acceptable as a service condition, and the turbine housing can be re-used.
+Трещина внутренней стенки при входе в колесо турбины (язык) является приемлемым в качестве рабочего условия, и корпус турбины может быть повторно использован.
 
 ![[10c00228.png]]
 
-Inspect the turbocharger compressor V-band outlet and the discharge elbow V-band connection for dents or fretting.
+Осмотрите выходную точку V-диапазона турбокомпрессора и разрядное соединение V-диапазона локтя для вмятин или трения.
 
-Replace the turbocharger or discharge elbow, if damaged, to prevent compressed air leaks.
+Замените турбокомпрессор или разрядный локоть, если они повреждены, чтобы предотвратить утечки сжатого воздуха.
 
 ![[tb1crmb.png]]
 
-Check the axial movement of the turbocharger wheels and shaft.
+Проверьте осевое движение колес турбокомпрессора и вала.
 
-Use dial depth gauge, Part Number ST-537, or equivalent.
+Используйте прибор для измерения глубины циферблата, номер детали ST-537 или эквивалент.
 
-Push the rotor assembly away from the gauge.
+Отодвиньте ротор от калибра.
 
-Set the gauge to zero (0).
+Установите калибр на ноль (0).
 
 ![[10c00084.png]]
 
-Push the rotor assembly toward the gauge and record the reading.
+Подтолкните ротор к измерительной шкале и запишите показания.
 
-| Turbocharger Axial Clearance |  |  |
+| Осевой зазор турбокомпрессора |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.025 | MIN | 0.001 |
-| 0.127 | MAX | 0.005 |
+| мм |  | в |
+| 0.025 | Мин | 0.001 |
+| 0.127 | Макс | 0.005 |
 
-If the turbocharger axial clearance is **not** within specifications, the turbocharger **must** be replaced.
+Если осевой зазор турбокомпрессора **не** в пределах спецификаций, турбокомпрессор должен быть заменен.
 
 ![[10c00085.png]]
 
-Inspect the compressor wheel for signs of rubbing against the compressor cover. Replace the turbocharger if rubbing evidence is seen.
+Осмотрите колесо компрессора на наличие признаков трения о крышку компрессора. Замените турбокомпрессор, если обнаружены следы трения.
 
-Check the radial movement of the turbocharger wheels and shaft.
+Проверьте радиальное движение колес турбокомпрессора и вала.
 
-Use light finger pressure to push the compressor wheel toward the side of the compressor housing.
+Используйте давление легкого пальца, чтобы подтолкнуть колесо компрессора к стороне корпуса компрессора.
 
-Repeat the procedure for the turbine wheel and housing.
+Повторите процедуру для колеса турбины и корпуса.
 
-Replace the turbocharger if either wheel contacts the housing.
+Замените турбокомпрессор, если любое колесо контактирует с корпусом.
 
 ![[10c00137.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!warning] CAUTION · Осторожно
-> Do not use caustic cleaners to clean the charge air cooler. Damage to the charge air cooler will result.
+> [!warning] ОСТОРОЖНО
+> Не используйте едкие очистители для очистки заряженного воздушного охладителя. Повреждение кулера для воздуха заряда приведет к повреждению.
 
-Make sure all system level causes of oil leaks have been addressed using the Compressor Side Oil Leak troubleshooting symptom tree.
+Убедитесь, что все системные причины утечек масла были устранены с помощью дерева симптомов утечек компрессорной стороны масла.
 
-Clean turbocharger outlets with a non-reactive oil cleaning spray or solution and a lint-free towel.
+Чистые розетки турбокомпрессора с нереактивным спреем для очистки масла или раствором и полотенцем без винта.
 
 ![[10a00265.png]]
 
-If the engine experiences a turbocharger malfunction or any other occasion where oil or debris is put into the charge air system, the charge air system **must** be inspected and cleaned. Refer to Procedure 010-027 in Section 10.
+Если двигатель испытывает неисправность турбокомпрессора или любой другой случай, когда масло или мусор помещаются в систему зарядного воздуха, система зарядного воздуха должна быть проверена и очищена. См. процедуру 010-027 в разделе 10.
 
 ![[oi100wi.png]]
 
-Automotive with CM870
+Автомобильный с CM870
 
-Inspect for cracks in the turbocharger and compressor casings.
+Осмотрите трещины в корпусах турбокомпрессора и компрессора.
 
-Replace the turbocharger if through cracks in the outer walls are found.
+Замените турбокомпрессор, если в наружных стенах обнаружены трещины.
 
-Inspect for cracks on the turbine inlet and exhaust mounting flanges. Replace the turbocharger if any cracks are found.
+Осмотрите трещины на входных и выпускных клапанах турбины. Замените турбокомпрессор, если обнаружены трещины.
 
 ![[10c00060.png]]
 
-Clean the retaining nut mating surfaces of the turbocharger and the exhaust manifold.
+Очистить удерживающие поверхности гайки турбокомпрессора и выхлопного коллектора.
 
-Clean the mating surfaces with Scotch-Brite™ 7448 abrasive pad.
+Очистите спаривающиеся поверхности абразивной подушкой Scotch-BriteTM 7448.
 
-The surface under the mounting nuts **must** be free of dirt, rust, or any other debris before applying anti-seize compound, Part Number 3823097.
+Поверхность под крепежными гайками должна быть свободна от грязи, ржавчины или любого другого мусора перед применением анти-захватного соединения, номер детали 3823097.
 
 ![[10200013.png]]
 
-Inspect the turbocharger compressor V-band outlet and the discharge elbow V-band connection for dents or fretting.
+Осмотрите выходную точку V-диапазона турбокомпрессора и разрядное соединение V-диапазона локтя для вмятин или трения.
 
-Replace the turbocharger or discharge elbow, if damaged, to prevent compressed air leaks.
+Замените турбокомпрессор или разрядный локоть, если они повреждены, чтобы предотвратить утечки сжатого воздуха.
 
-Inspect the compressor wheel for signs of rubbing against the compressor cover. Replace the turbocharger if rubbing evidence is seen.
+Осмотрите колесо компрессора на наличие признаков трения о крышку компрессора. Замените турбокомпрессор, если обнаружены следы трения.
 
-Use light finger pressure to push the compressor wheel. If the compressor wheel contacts the cover, replace the turbocharger.
+Используйте давление легких пальцев, чтобы подтолкнуть колесо компрессора. Если колесо компрессора контактирует с крышкой, замените турбокомпрессор.
 
-If the engine experiences a turbocharger malfunction or any other occasion where oil or debris is put into the charge air system, the charge air system **must** be inspected and cleaned. Refer to Procedure 010-027 in Section 10.
+Если двигатель испытывает неисправность турбокомпрессора или любой другой случай, когда масло или мусор помещаются в систему зарядного воздуха, система зарядного воздуха должна быть проверена и очищена. См. процедуру 010-027 в разделе 10.
 
 ![[tb1crmb.png]]
 
-Check the axial movement of the turbocharger wheels and shaft.
+Проверьте осевое движение колес турбокомпрессора и вала.
 
-Use dial depth gauge, Part Number ST-537, or equivalent.
+Используйте прибор для измерения глубины циферблата, номер детали ST-537 или эквивалент.
 
-Push the rotor assembly away from the gauge.
+Отодвиньте ротор от калибра.
 
-Set the gauge to zero (0).
+Установите калибр на ноль (0).
 
 ![[10c00084.png]]
 
-Push the rotor assembly toward the gauge and record the reading.
+Подтолкните ротор к измерительной шкале и запишите показания.
 
-| Turbocharger Axial Clearance |  |  |
+| Осевой зазор турбокомпрессора |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.025 | MIN | 0.001 |
-| 0.127 | MAX | 0.005 |
+| мм |  | в |
+| 0.025 | Мин | 0.001 |
+| 0.127 | Макс | 0.005 |
 
-If the turbocharger axial clearance is **not** within specifications, the turbocharger **must** be replaced.
+Если осевой зазор турбокомпрессора **не** в пределах спецификаций, турбокомпрессор должен быть заменен.
 
 ![[10c00085.png]]
 
-Inspect the compressor wheel for signs of rubbing against the compressor cover.
+Осмотрите колесо компрессора на наличие признаков трения о крышку компрессора.
 
-Replace the turbocharger if rubbing evidence is seen.
+Замените турбокомпрессор, если обнаружены следы трения.
 
-Check the radial movement of the turbocharger wheels and shaft.
+Проверьте радиальное движение колес турбокомпрессора и вала.
 
-Use light finger pressure to push the compressor wheel toward the side of the compressor housing.
+Используйте давление легкого пальца, чтобы подтолкнуть колесо компрессора к стороне корпуса компрессора.
 
-Repeat the procedure for the turbine wheel and housing.
+Повторите процедуру для колеса турбины и корпуса.
 
-Replace the turbocharger if either wheel contacts the housing.
+Замените турбокомпрессор, если любое колесо контактирует с корпусом.
 
 ![[10c00137.png]]
 
-Automotive With CM871
+Автомобильный с CM871
 
-Inspect the variable geometry actuator and mechanism for proper operation. [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
+Осмотрите привод изменяемой геометрии и механизм для правильной работы.[[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|См. процедуру 010-134 в разделе 10.]]
 
 ![[10c00177.png]]
 
-Inspect for cracks in the turbocharger and compressor casings.
+Осмотрите трещины в корпусах турбокомпрессора и компрессора.
 
-Replace the turbocharger if through cracks in the outer walls are found.
+Замените турбокомпрессор, если в наружных стенах обнаружены трещины.
 
-Inspect for cracks on the turbine inlet and exhaust mounting flanges. Replace the turbocharger if any cracks are found.
+Осмотрите трещины на входных и выпускных клапанах турбины. Замените турбокомпрессор, если обнаружены трещины.
 
 ![[10c00387.png]]
 
-> [!note] Note · Примечание
-> All openings on the turbocharger, including the turbine inlet connection, **must** be plugged with caps from the Air Handling and Vehicle Air Plumbing Clean Care Kits, Part Numbers 4919403, and 4919425 respectively, during flange cleaning.
+> [!note] Примечание
+> Все отверстия на турбокомпрессоре, включая впускное соединение турбины, должны быть заглушены крышками из комплектов для чистого ухода за воздушным транспортным средством и сантехники для воздуха, номеров частей 4919403 и 4919425 соответственно во время очистки фланцев.
 
-Clean the turbocharger and exhaust manifold where the retaining nut contacts the turbocharger and exhaust manifold.
+Очистите турбокомпрессор и выхлопной коллектор, где удерживающий гайка контактирует с турбокомпрессором и выхлопным коллектором.
 
-Clean the mating surfaces with Scotch-Brite™ 7448 abrasive pad.
+Очистите спаривающиеся поверхности абразивной подушкой Scotch-BriteTM 7448.
 
-After abrasive cleaning, wipe debris from both surfaces with a clean shop towel.
+После абразивной чистки протрите обломки с обеих поверхностей чистым полотенцем магазина.
 
-The surface under the mounting nuts **must** be free of dirt, rust, or any other debris, before applying anti-seize compound, Part Number 3823097.
+Поверхность под крепежными гайками должна быть свободна от грязи, ржавчины или любого другого мусора, прежде чем применять противозахватное соединение, номер детали 3823097.
 
 ![[10200013.png]]
 
-Check for evidence of coolant in the oil supply and oil drain fittings. Reference Coolant in the Lubricating Oil troubleshooting symptom tree if coolant is found.
+Проверьте наличие хладагента в масляной подаче и масляной дренажной арматуры. Справочный охладитель в дереве симптомов устранения неполадок моторного масла, если обнаружена охлаждающая жидкость.
 
 ![[10c00388.png]]
 
-Inspect the turbocharger compressor V-band outlet and the discharge elbow V-band connection for dents or fretting.
+Осмотрите выходную точку V-диапазона турбокомпрессора и разрядное соединение V-диапазона локтя для вмятин или трения.
 
-Replace the turbocharger or discharge elbow, if damaged, to prevent compressed air leaks.
+Замените турбокомпрессор или разрядный локоть, если они повреждены, чтобы предотвратить утечки сжатого воздуха.
 
-Inspect the compressor wheel for signs of rubbing against the compressor cover. Replace the turbocharger if rubbing evidence is seen.
+Осмотрите колесо компрессора на наличие признаков трения о крышку компрессора. Замените турбокомпрессор, если обнаружены следы трения.
 
-Use light finger pressure to push the compressor wheel. If the compressor wheel contacts the cover, replace the turbocharger.
+Используйте давление легких пальцев, чтобы подтолкнуть колесо компрессора. Если колесо компрессора контактирует с крышкой, замените турбокомпрессор.
 
-If the engine experiences a turbocharger malfunction or any other occasion where oil or debris is put into the charge air system, the charge air system **must** be inspected and cleaned. Refer to Procedure 010-027 in Section 10.
+Если двигатель испытывает неисправность турбокомпрессора или любой другой случай, когда масло или мусор помещаются в систему зарядного воздуха, система зарядного воздуха должна быть проверена и очищена. См. процедуру 010-027 в разделе 10.
 
 ![[tb1crmb.png]]
 
-Check the axial movement of the turbocharger wheels and shaft.
+Проверьте осевое движение колес турбокомпрессора и вала.
 
-Use dial depth gauge, Part Number ST-537, or equivalent.
+Используйте прибор для измерения глубины циферблата, номер детали ST-537 или эквивалент.
 
-Push the rotor assembly away from the gauge.
+Отодвиньте ротор от калибра.
 
-Set the gauge to zero (0).
+Установите калибр на ноль (0).
 
 ![[10c00084.png]]
 
-Push the rotor assembly toward the gauge and record the reading
+Подтолкните ротор к измерительному прибору и запишите показания
 
-| Turbocharger Axial Clearance |  |  |
+| Осевой зазор турбокомпрессора |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.025 | MIN | 0.001 |
-| 0.127 | MAX | 0.005 |
+| мм |  | в |
+| 0.025 | Мин | 0.001 |
+| 0.127 | Макс | 0.005 |
 
-If the turbocharger axial clearance is **not** within specifications, the turbocharger **must** be replaced.
+Если осевой зазор турбокомпрессора **не** в пределах спецификаций, турбокомпрессор должен быть заменен.
 
 ![[10c00085.png]]
 
-Inspect the compressor wheel for signs of rubbing against the compressor cover.
+Осмотрите колесо компрессора на наличие признаков трения о крышку компрессора.
 
-Replace the turbocharger if rubbing evidence is seen.
+Замените турбокомпрессор, если обнаружены следы трения.
 
-Check the radial movement of the turbocharger wheels and shaft.
+Проверьте радиальное движение колес турбокомпрессора и вала.
 
-Use light finger pressure to push the compressor wheel toward the side of the compressor housing.
+Используйте давление легкого пальца, чтобы подтолкнуть колесо компрессора к стороне корпуса компрессора.
 
-Repeat the procedure for the turbine wheel and housing.
+Повторите процедуру для колеса турбины и корпуса.
 
-Replace the turbocharger if either wheel contacts the housing.
+Замените турбокомпрессор, если любое колесо контактирует с корпусом.
 
 ![[10c00137.png]]
 
-### Assemble
+### Сборка
 
-#### ISX Automotive with CM570, QSX15 with CM570 and Power Generation with CM570
+#### ISX Automotive с CM570, QSX15 с CM570 и силовая генерация с CM570
 
-- To install the turbine housing, position the V-band clamp over the bearing housing and align the ink marks applied during the disassembly process.
-- Apply anti-seize compound to the bearing housing locating bore of the turbine housing.
-- Carefully slide the bearing and compressor housing assembly into the turbine housing. Use the ink alignment mark to locate the turbine housing assembly in the correct orientation with the turbine housing.
+- Для установки корпуса турбины поместите зажим V-диапазона над корпусом подшипника и выровните маркировочные знаки чернил, нанесенные во время процесса разборки.
+- Нанести противозахватное соединение на оболочку подшипника, расположенную в цилиндре корпуса турбины.
+- Тщательно сдвинуть подшипник и компрессорный корпус в корпус турбины. Используйте знак выравнивания чернил, чтобы найти сборку корпуса турбины в правильной ориентации с корпусом турбины.
 
 ![[10c00225.png]]
 
-Place the new V-band clamp in the correct orientation and tighten the locknut.
+Поместите новый V-диапазонный зажим в правильную ориентацию и затяните локон.
 
-Torque value for Cummins®-branded turbochargers.
+Момент затяжки для турбокомпрессоров Cummins®.
 
-> [!tip] Момент затяжки · Torque Value
-> 18 n•m [159 in-lb]
+> [!tip] Момент затяжки
+> 18 Н·м [159 фунт-дюйм]
 
-Torque value for Holset®-branded turbochargers.
+Момент затяжки для турбокомпрессоров марки Holset®.
 
-> [!tip] Момент затяжки · Torque Value
-> 11.3 n•m [100 in-lb]
+> [!tip] Момент затяжки
+> 11.3 Н·м [100 фунт-дюйм]
 
-Loosen the locknut 180 degrees, and tighten the locknut again.
+Освободите 180 градусов и снова затяните.
 
-Torque value for Cummins®-branded turbochargers.
+Момент затяжки для турбокомпрессоров Cummins®.
 
-> [!tip] Момент затяжки · Torque Value
-> 18 n•m [159 in-lb]
+> [!tip] Момент затяжки
+> 18 Н·м [159 фунт-дюйм]
 
-Torque value for Holset®-branded turbochargers.
+Момент затяжки для турбокомпрессоров марки Holset®.
 
-> [!tip] Момент затяжки · Torque Value
-> 11.3 n•m [100 in-lb]
+> [!tip] Момент затяжки
+> 11.3 Н·м [100 фунт-дюйм]
 
-Make certain the rotor assembly rotates freely and neither the compressor wheel nor the turbine wheel is rubbing against the housing.
+Убедитесь, что сборка ротора вращается свободно, и ни колесо компрессора, ни колесо турбины не трется о кожух.
 
 ![[10c00224.png]]
 
-### Install
+### Установка
 
-#### ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+#### ISX Automotive с CM570, QSX15 с CM570 и силовая генерация с CM570
 
-- Apply a film of high-temperature anti-seize compound, Part Number 3823097, or equivalent, to the turbocharger mounting studs.
+- Нанесите пленку высокотемпературного антисептического соединения, номер детали 3823097, или эквивалент, на крепежные шпильки турбокомпрессора.
 
 ![[tb1hshc.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!note] Note · Примечание
-> If the exhaust manifold and turbocharger were removed together in order for the turbocharger to clear the lubricating oil cooler assembly, see the following procedure for installation of the exhaust manifold. Refer to Procedure 011-007 in Section 11.
+> [!note] Примечание
+> Если выхлопной коллектор и турбокомпрессор были удалены вместе, чтобы турбокомпрессор мог очистить сборку охладителя моторного масла, см. следующую процедуру установки выхлопного коллектора. См. процедуру 011-007 в разделе 11.
 
-Install a new mounting gasket, the turbocharger, and the four mounting nuts.
+Установите новую монтажную прокладку, турбокомпрессор и четыре монтажных гайки.
 
-Tighten the mounting nuts.
+Затяните крепежные гайки.
 
-Torque value for the standard nut:
+Момент затяжки для стандартного гайка:
 
-> [!tip] Момент затяжки · Torque Value
-> 61 n•m [45 ft-lb]
+> [!tip] Момент затяжки
+> 61 Н·м [45 фунт-фут]
 
-Torque value for the Spiralock™ nut (identified by "SPL" on the nut flange):
+Момент затяжки для гайки SpiralockTM (определяется по "SPL" на гайковом фланце):
 
-> [!tip] Момент затяжки · Torque Value
-> 81 n•m [60 ft-lb]
+> [!tip] Момент затяжки
+> 81 Н·м [60 фунт-фут]
 
 ![[17c00122.png]]
 
-If installing a new turbocharger, it can be necessary to rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+При установке нового турбокомпрессора может потребоваться повернуть корпус компрессора турбокомпрессора, чтобы правильно выровняться с трубопроводами охладителя воздуха.
 
-Rotate the turbocharger compressor housing by loosening the V-band between the turbocharger bearing housing and the turbocharger compressor housing.
+Вращайте корпус компрессора турбокомпрессора, ослабляя V-диапазон между корпусом подшипника турбокомпрессора и корпусом компрессора турбокомпрессора.
 
-Rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+Поверните корпус компрессора турбокомпрессора, чтобы правильно выровняться с трубопроводом охладителя воздуха для заряда.
 
-Tighten the V-band clamp.
+Зажим V-диапазона затягивается.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[tb1csob.png]]
 
-Install the discharge elbow and clamp onto the charge air cooler pipe connection.
+Установите разрядный локоть и зажим на подключение трубы охладителя воздуха.
 
-Do **not** tighten the clamp until the elbow is installed on the turbocharger.
+Зажим зажима затягивают до тех пор, пока локтевой канат не будет установлен на турбокомпрессоре.
 
 ![[tb1tbhc.png]]
 
-If a new turbocharger is being installed, the variable geometry turbocharger actuator from the original turbocharger **must** be reused.
+Если устанавливается новый турбокомпрессор, то необходимо повторно использовать привод турбокомпрессора с изменяемой геометрией от оригинального турбокомпрессора.
 
-[[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
+[[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|См. процедуру 010-134 в разделе 10.]]
 
-Install a new o-ring, clamp, and discharge elbow to the turbocharger.
+Установите новое кольцо, зажим и локтевую разрядку турбокомпрессора.
 
-Tighten the clamp.
+Зажим затянуть.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[10c00083.png]]
 
-Install a new gasket, oil drain tube, and capscrews.
+Установите новую прокладку, трубку для слива масла и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[17c00125.png]]
 
-Install the turbocharger anti-rotation brace, if equipped. The end rests on the oil cooler housing.
+Установите антиротационную скобу турбокомпрессора, если она оборудована. Конец покоится на корпусе масляного охладителя.
 
-This brace requires longer, 1.25 mm \[0.049 in\], capscrews.
+Эта скоба требует более длинных, 1,25 мм \[0,049 дюйма \], болтов.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[10c00160.png]]
 
-Pour approximately 50 to 60 cc \[1.7 to 2 oz\] of clean engine oil into the turbocharger oil supply opening.
+Налейте приблизительно 50-60 куб.см \[1,7-2 унции \] чистого моторного масла в отверстие подачи масла турбокомпрессора.
 
 ![[17c00126.png]]
 
-> [!warning] CAUTION · Осторожно
-> Proper routing of the turbocharger oil supply tube is critical to prevent failure. Avoid any tube-to-metal contact. (The inlet supply fitting must be oriented slightly off vertical to allow proper alignment.)
+> [!warning] ОСТОРОЖНО
+> Правильная маршрутизация трубки подачи масла турбокомпрессора имеет решающее значение для предотвращения сбоя. Избегайте контакта трубы с металлом. (Впускной блок питания должен быть слегка сориентирован по вертикали, чтобы обеспечить правильное выравнивание.)
 
-If installing a new turbocharger, make sure the turbocharger is aligned, loosen the compressor and turbine V-bands, and adjust as needed. Tighten the V-bands.
+Если вы устанавливаете новый турбокомпрессор, убедитесь, что турбокомпрессор выровнен, ослабьте компрессор и турбины V-диапазонов и настройте по мере необходимости. Уплотните V-диапазоны.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-> [!tip] Момент затяжки · Torque Value
-> 12 n•m [106 in-lb]
+> [!tip] Момент затяжки
+> 12 Н·м [106 фунт-дюйм]
 
-If installing a new turbocharger, install the male union elbow.
+При установке нового турбокомпрессора установите наружный резьбовый фитинговый локоть.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
-Install the turbocharger oil supply tube on the elbow.
+Установите трубку подачи масла турбокомпрессора на локте.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
 ![[17c00127.png]]
 
-Install the intake and exhaust pipes to the turbocharger. Tighten the clamp.
+Установите впускные и выхлопные трубы на турбокомпрессор. Зажим затянуть.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[17c00128.png]]
 
-Automotive with CM870
+Автомобильный с CM870
 
-#### Variable Geometry
+#### Переменная геометрия
 
-- Apply a film of high-temperature anti-seize compound, Part Number 3823097, to the turbocharger mounting studs.
+- Нанесите пленку высокотемпературного антисептического соединения, номер детали 3823097, на крепежные шпильки турбокомпрессора.
 
 ![[tb1hshc.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!warning] CAUTION · Осторожно
-> When installing a lifting eye, be sure the shoulder of the lifting eye is bottomed against bearing housing. Failure to do so can result in failure of the lifting eye and personal injury.
+> [!warning] ОСТОРОЖНО
+> При установке подъемного глаза убедитесь, что плечо подъемного глаза прижато к несущей кожуху. Неспособность сделать это может привести к отказу от поднятия глаз и травме.
 
-> [!warning] CAUTION · Осторожно
-> If a lifting eye is installed in turbocharger bearing housing, it is to be used exclusively for turbocharger removal and installation. It is not to be used in the removal of the exhaust manifold or engine. Doing so will cause damage to the turbocharger.
+> [!warning] ОСТОРОЖНО
+> Если подъёмный глаз установлен в корпусе подшипника турбокомпрессора, он должен использоваться исключительно для удаления и установки турбокомпрессора. Он не должен использоваться при удалении выхлопного коллектора или двигателя. Это приведет к повреждению турбокомпрессора.
 
-> [!warning] CAUTION · Осторожно
-> Do not rotate the turbocharger turbine housing. Loosening the turbine V-band and rotating the turbine housing can cause damage to the internal variable geometry mechanism.
+> [!warning] ОСТОРОЖНО
+> Не вращайте корпус турбины турбокомпрессора. Размывание V-диапазона турбины и вращение корпуса турбины могут привести к повреждению механизма внутренней изменяемой геометрии.
 
-The capscrew in the top of the turbocharger bearing housing can be removed and replaced with a lifting eye to aid in the installation of the turbocharger.
+Болты в верхней части корпуса подшипника турбокомпрессора могут быть удалены и заменены подъемным глазом, чтобы помочь в установке турбокомпрессора.
 
-Install a new gasket, the turbocharger, and the four mounting nuts. Tighten the mounting nuts.
+Установите новую прокладку, турбокомпрессор и четыре крепежных гайки. Затяните крепежные гайки.
 
-> [!tip] Момент затяжки · Torque Value
-> 102 n•m [75 ft-lb]
+> [!tip] Момент затяжки
+> 102 Н·м [75 фунт-фут]
 
 ![[17c00122.png]]
 
-If installing a new turbocharger, it can be necessary to rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+При установке нового турбокомпрессора может потребоваться повернуть корпус компрессора турбокомпрессора, чтобы правильно выровняться с трубопроводами охладителя воздуха.
 
-Rotate the turbocharger compressor housing by loosening the V-band between the turbocharger bearing housing and the turbocharger compressor housing.
+Вращайте корпус компрессора турбокомпрессора, ослабляя V-диапазон между корпусом подшипника турбокомпрессора и корпусом компрессора турбокомпрессора.
 
-Rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+Поверните корпус компрессора турбокомпрессора, чтобы правильно выровняться с трубопроводом охладителя воздуха для заряда.
 
-Tighten the V-band clamp.
+Зажим V-диапазона затягивается.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[tb1csob.png]]
 
-Install the discharge elbow and clamp onto the charge air cooler pipe connection.
+Установите разрядный локоть и зажим на подключение трубы охладителя воздуха.
 
-Do **not** tighten the clamp until the elbow is installed on the turbocharger.
+Зажим зажима затягивают до тех пор, пока локтевой канат не будет установлен на турбокомпрессоре.
 
 ![[tb1tbhc.png]]
 
-Install a new o-ring, clamp, and discharge elbow to the turbocharger.
+Установите новое кольцо, зажим и локтевую разрядку турбокомпрессора.
 
-Tighten the clamp.
+Зажим затянуть.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[10c00083.png]]
 
-Install a new gasket, oil drain tube, and capscrews.
+Установите новую прокладку, трубку для слива масла и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
 ![[10c00136.png]]
 
-Install the intake and exhaust pipes to the turbocharger, and tighten the clamps.
+Установите впускные и выхлопные трубы на турбокомпрессор, а зажимы затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[17c00128.png]]
 
-Automotive With CM871
+Автомобильный с CM871
 
-Apply a film of high-temperature anti-seize compound, Part Number 3823097, or equivalent, to the turbocharger mounting studs and to the flange area on the retaining nuts. Properly applying anti-seize compound will reduce the possibility of the nuts loosening over time.
+Нанесите пленку высокотемпературного антисептического соединения, номер детали 3823097, или эквивалент, на крепежные шпильки турбокомпрессора и на область фланца на удерживающих гайках. Правильное применение анти-захват соединения уменьшит возможность расшатывания гаек с течением времени.
 
 ![[tb1hshc.png]]
 
-If installing a new turbocharger, install the coolant and oil fittings into the bearing housing.
+При установке нового турбокомпрессора установите в подшипниковый кожух охлаждающую жидкость и масляную фурнитуру.
 
-> [!note] Note · Примечание
-> Use a ratchet and deep well socket to install these fittings.
+> [!note] Примечание
+> Используйте рэтчет и глубокую колодезную розетку для установки этих фитингов.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
-> [!warning] CAUTION · Осторожно
-> Proper routing of the turbocharger oil supply tube is critical to prevent failure. Avoid any tube-to-metal contact.
+> [!warning] ОСТОРОЖНО
+> Правильная маршрутизация трубки подачи масла турбокомпрессора имеет решающее значение для предотвращения сбоя. Избегайте контакта трубы с металлом.
 
-Install the turbocharger oil supply hose onto the oil supply fitting. The oil supply hose **must** point directly downward in order for it to properly connect to the oil supply fitting on the lubricating oil filter head.
+Установите шланг подачи масла турбокомпрессора на фитинг подачи масла. Шланг подачи масла **должен** указывать прямо вниз, чтобы он правильно соединялся с установкой подачи масла на головке фильтра моторного масла.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
-Install the turbocharger actuator coolant supply and return fittings into the electronic actuator. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
+Установите в электронный привод привода турбокомпрессора подачу охлаждающей жидкости и возвратную фитинги.[[10-010-041-tr — Turbocharger Coolant Hoses|См. процедуру 010-041 в разделе 10.]]
 
 ![[10c00222.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!warning] CAUTION · Осторожно
-> Do not rotate the turbocharger turbine housing. Loosening the turbine V-band and rotating the turbine housing can cause damage to the internal variable geometry mechanism.
+> [!warning] ОСТОРОЖНО
+> Не вращайте корпус турбины турбокомпрессора. Размывание V-диапазона турбины и вращение корпуса турбины могут привести к повреждению механизма внутренней изменяемой геометрии.
 
-> [!note] Note · Примечание
-> Thread a lifting strap around the turbocharger bearing housing. Take care **not** to bend the coolant lines when lifting the turbocharger.
+> [!note] Примечание
+> Нажмите подъемный ремень вокруг корпуса турбокомпрессора. Позаботьтесь о том, чтобы **не** сгибать линии охлаждающей жидкости при подъеме турбокомпрессора.
 
-> [!note] Note · Примечание
-> All four mounting studs have to be the same material for proper clamping force.
+> [!note] Примечание
+> Все четыре крепежных шпильки должны быть одинаковыми для правильного зажима.
 
-Care **must** be taken **not** to damage the turbocharger compressor inlet air temperature sensor, the turbocharger speed sensor, and the turbocharger actuator coolant lines when installing the turbocharger.
 
-Install a new gasket, the turbocharger, and the four mounting nuts. Tighten the mounting nuts.
 
-> [!tip] Момент затяжки · Torque Value
-> Stainless Steel 102 n•m [75 ft-lb]
+Установите новую прокладку, турбокомпрессор и четыре крепежных гайки. Затяните крепежные гайки.
+
+> [!tip] Момент затяжки
+> Нержавеющая сталь 102 Н·м [75 футов-лб]
 
 ![[10c00247.png]]
 
-If installing a new turbocharger, it can be necessary to rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+При установке нового турбокомпрессора может потребоваться повернуть корпус компрессора турбокомпрессора, чтобы правильно выровняться с трубопроводами охладителя воздуха.
 
-Rotate the turbocharger compressor housing by loosening the V-band between the turbocharger bearing housing and the turbocharger compressor housing.
+Вращайте корпус компрессора турбокомпрессора, ослабляя V-диапазон между корпусом подшипника турбокомпрессора и корпусом компрессора турбокомпрессора.
 
-Rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+Поверните корпус компрессора турбокомпрессора, чтобы правильно выровняться с трубопроводом охладителя воздуха для заряда.
 
-Tighten the V-band clamp.
+Зажим V-диапазона затягивается.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[tb1csob.png]]
 
-Use the torque plus angle method:
+Используйте метод крутящего момента плюс угла:
 
-> [!tip] Момент затяжки · Torque Value
-> INCONEL® with Inscribed “I“ 61 n•m [45 ft-lb]
+> [!tip] Момент затяжки
+> INCONEL® с надписью «I» 61 Н·м [45 футов-лб]
 
-Rotate 60 degrees.
+Повернитесь на 60 градусов.
 
-If the compressor housing **must** be rotated, loosen the compressor V-band clamp enough to allow the compressor housing to rotate.
+Если корпус компрессора **должен** вращаться, ослабьте зажим V-диапазона компрессора достаточно, чтобы позволить корпусу компрессора вращаться.
 
-Rotate the compressor housing to the proper orientation.
+Поверните корпус компрессора в правильную ориентацию.
 
-Tighten the compressor housing V-band clamp.
+Закрепить зажим корпуса компрессора V-диапазона.
 
-> [!tip] Момент затяжки · Torque Value
-> 8.5 n•m [75 in-lb]
+> [!tip] Момент затяжки
+> 8.5 Н·м [75 фунт-дюйм]
 
 ![[10a00246.png]]
 
-Install a new o-ring seal, clamp, and discharge elbow to the turbocharger.
+Установите новое уплотнение, зажим и локтевую разрядку на турбокомпрессор.
 
-Tighten the clamps.
+Зажгите зажимы.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[10c00083.png]]
 
-Insert the bottom of the drain tube into the grommet seal that is pressed into the cylinder block.
+Вставьте дно дренажной трубки в уплотнение громмета, которое нажимается на блок цилиндра.
 
-Install a new gasket, oil drain tube, and capscrews.
+Установите новую прокладку, трубку для слива масла и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[10c00372.png]]
 
-Connect the oil supply hose to the oil supply fitting located on the lubricating oil filter head.
+Подключите шланг подачи масла к фитингу подачи масла, расположенному на головке фильтра моторного масла.
 
-Tighten the oil supply hose.
+Затяните шланг для подачи масла.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
-Install the turbocharger oil supply line onto the turbocharger bearing housing male union.
+Установите линию подачи масла турбокомпрессора на корпус подшипника турбокомпрессора, облицованный внешней резьбой.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [22 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [22 фунт-фут]
 
 ![[10c00374.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-#### ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+#### ISX Automotive с CM570, QSX15 с CM570 и силовая генерация с CM570
 
-- Install the wastegate actuator hose. Refer to Procedure 010-050 in Section 10.
-- Start and operate the engine until the coolant temperature reaches 82°C \[180°F\]. Check for air, coolant, and oil leaks.
+- Установите шланг привода обходного клапана турбины. См. процедуру 010-050 в разделе 10.
+- Запуск и работа двигателя до тех пор, пока температура охлаждающей жидкости не достигнет 82 ° C \[180° F \]. Проверьте наличие воздуха, охлаждающей жидкости и утечки масла.
 
-Automotive with CM870
+Автомобильный с CM870
 
-> [!warning] CAUTION · Осторожно
+> [!warning] ОСТОРОЖНО
+> Связь с датчиком скорости турбокомпрессора и компрессором турбокомпрессора для впуска температуры воздуха должна быть надежно привязана и удалена от источников тепла, таких как выпускной коллектор и трубка датчика давления выхлопных газов. Неспособность сделать это может привести к повреждению проводов датчика.
+
+> [!warning] ОСТОРОЖНО
+> Датчик температуры воздуха на входе турбокомпрессора должен быть расположен так, чтобы корпус датчика указывал вверх и в сторону от коллектора выхлопных газов. Неспособность сделать это может привести к повреждению датчика.
+
+> [!warning] ОСТОРОЖНО
+> Не закручивайте линии охлаждающей жидкости при затягивании. Невыполнение этого требования повредит линии охлаждающей жидкости.
+
+- Установите шланги для охлаждения турбокомпрессора.[[10-010-041-tr — Turbocharger Coolant Hoses|См. процедуру 010-041 в разделе 10.]]
+- Подключите линию подачи воздуха привода переменной геометрии. См. процедуру 010-113 в разделе 10.
+- Подключите электрические разъемы на датчике скорости турбокомпрессора и датчике температуры впуска воздуха компрессора турбокомпрессора. Для двигателей ISX см. следующую процедуру в руководстве по устранению неполадок и ремонту электронной системы управления ISX CM870, Bulletin 4021334. См. процедуру 019-395 в разделе 19. Также см. следующую процедуру в Руководстве по устранению неполадок и ремонту электронной системы управления ISX CM870, Бюллетень 4021334. См. процедуру 019-390 в разделе 19.
+- Заполните систему охлаждения охлаждающей жидкостью.[[10-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Запуск и работа двигателя до тех пор, пока температура охлаждающей жидкости не достигнет 82 ° C \[180°F]. Проверьте наличие воздуха, охлаждающей жидкости и утечки масла.
+
+Автомобильный с CM871
+
+- Установите воздушные трубопроводы заряда. См. процедуру 010-027 в разделе 10.
+- Установите адаптер после обработки трубы.[[101-011-043-tr — Aftertreatment Adapter Pipe|См. процедуру 011-043 в разделе 11.]]
+- Установите шланги для охлаждения турбокомпрессора.[[10-010-041-tr — Turbocharger Coolant Hoses|См. процедуру 010-041 в разделе 10.]]
+- Подключите датчик температуры впускного воздуха компрессора турбокомпрессора. Для двигателей ISX и ISM см. следующую процедуру в электронных системах управления ISX CM871 и ISM CM876, руководство по устранению неполадок и ремонту, вестник 4021560. См. процедуру 019-395 в разделе 19.
+- Подключите электрический разъем на датчике скорости турбокомпрессора, электрическом приводе турбокомпрессора и датчике температуры впуска воздуха компрессора турбокомпрессора. Для двигателей ISX и ISM см. следующую процедуру в разделе 19 в электронных системах управления ISX CM871 и ISM CM876, руководство по устранению неполадок и ремонту, вестник 4021560. См. процедуру 019-390 в разделе 19.
+- Подключите адаптер после обработки трубы.[[101-011-043-tr — Aftertreatment Adapter Pipe|См. процедуру 011-043 в разделе 11.]]
+- Заправьте систему охлаждения.[[10-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Управляйте двигателем. Проверьте на отсутствие утечек.
+
+> [!note] Примечание
+> Если неисправность привела к попаданию масла, избыточного топлива или черного дыма в выхлопную систему, необходимо проверить систему последующей обработки.[[4021600 — Aftertreatment Diesel Oxidation Catalyst (DOC) and Aftertreatment Diesel Particulate|См. Aftertreatment Diesel Oxidation Catalyst and Aftertreatment Diesel Particulate Filter Reuse Guidelines, Bulletin 4021600.]]
+
+> [!note] Примечание
+> Если неисправность привела к попаданию охлаждающей жидкости в выхлопную систему, система последующей обработки может быть восстановлена.[[101-014-013-tr — Aftertreatment Testing|См. процедуру 014-013 в разделе 14.]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> **Note · Примечание**
+> Brush away any loose dirt from around the area of air handling connections to avoid contamination of the interior of the engine.
+>
+> Shut the engine OFF.
+>
+> Allow the turbocharger to cool.
+>
+> Remove the intake piping and compressor discharge piping. Cover the openings in the pipes with caps from the Air Handling and Vehicle Air Plumbing Clean Care Kits, Part Numbers 4919403 and 4919425, respectively.
+>
+> Lubricating oil leaks from the compressor (cold side) or turbine (hot side) seals are symptoms of air restrictions, leaks, or a restricted turbocharger oil drain line.
+>
+> See Turbocharger Lubricating Oil Leak Troubleshooting, Service Bulletin 5504213, if a turbocharger is leaking oil.
+>
+> After reviewing Service Bulletin 5504213, see the following troubleshooting trees, if necessary.
+>
+> - Turbocharger – Compressor Seal Oil Leak
+> - Turbocharger – Turbine Seal Oil Leak.
+>
+> Inspect the turbocharger compressor impeller blades for damage.
+>
+> Replace the turbocharger if damage is found.
+>
+> If the turbocharger compressor impeller is damaged, do the following:
+>
+> - Inspect the intake piping and filter element for damage.
+> - Repair any damaged parts before operating the engine.
+> - See High Blowby and Lubricating Oil Consumption Caused by Dirt and Dust Ingestion, Service Bulletin [[5613318 — Checking For Dirt and Dust Ingestion While Troubleshooting High Blowby|5613318]].
+>
+> Inspect the turbine wheel for damage.
+>
+> Replace the turbocharger if damage is found.
+>
+> If turbine wheel is damaged, see Prevention of Turbocharger Damage After Engine Mechanical Issue, Service Bulletin [[4326040 — Prevention of Turbocharger Damage After Engine Mechanical Issue|4326040]].
+>
+> ### Leak Test
+>
+> Automotive with CM870
+>
+> **Note · Примечание**
+> This test **only** needs to be performed if troubleshooting for coolant loss or if a leak is suspected
+>
+> Connect a Turbocharger Coolant Leak Test Kit, Part Number 3164682, to the coolant inlet and outlet.
+>
+> Use shop air supply to pressurize the turbocharger to 276 kPa \[40 psi\].
+>
+> Close the air pressure regulator.
+>
+> Watch for the pressure to decrease. Pressure **must not** decrease more than 34 kPa \[5 psi\] in 1 minute.
+>
+> If the pressure decreases more than 34 kPa \[5 psi\] in 1 minute, use a spray bottle of soapy water to wet all of the hose connections. Bubbles will appear if the connections are leaking.
+>
+> If the pressure does decrease excessively, and the hose connections are **not** leaking, replace the turbocharger.
+>
+> Automotive With CM871
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> This test **only** needs to be performed if troubleshooting for coolant loss or if an internal leak is suspected.
+>
+> **Note · Примечание**
+> The engine **must** be within 3°C or 5°F of ambient temperature to perform the test.
+>
+> If a turbocharger internal coolant leak is suspected, use the Turbocharger Coolant Leak Test Kit, Part Number 5299740, along with Air Pressure Regulator Kit, Part Number 3164231, to check for a leak.
+>
+> - Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+>
+> - To test for a turbocharger bearing housing internal coolant leak, disconnect the coolant inlet line to the bearing housing and install the adapter fitting for the pressure regulator supplied with the Turbocharger Coolant Leak Test Kit, Part Number 5299740.
+> - To test for a turbocharger actuator internal coolant leak, disconnect the coolant inlet line to the turbocharger actuator and install the adapter fitting for the pressure regulator supplied with the Turbocharger Coolant Leak Test Kit, Part Number 5299740.
+>
+> - Disconnect the turbocharger coolant return line at the turbocharger outlet port and install the plug supplied with Turbocharger Coolant Leak Test Kit, Part Number 5299740, to block off the turbocharger coolant outlet port.
+> - Disconnect the turbocharger actuator coolant return line at the turbocharger actuator and install the plug supplied with Turbocharger Coolant Leak Test Kit, Part Number 5299740, to block off the turbocharger actuator coolant outlet port.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> - Use compressed air supply to pressurize the turbocharger bearing housing to 276 kPa \[40 psi\].
+> - Close the air pressure regulator.
+> - Watch for the pressure to decrease. The pressure **must not** decrease more than 34 kPa \[5 psi\] in 1 minute.
+>
+> - If the pressure decreases, use a spray bottle of soapy water to wet the coolant leak test connections and threaded joints. Bubbles will appear if the connections or threaded joints are leaking
+> - If the pressure decreases and the hose connections or threaded joints are **not** leaking, replace the turbocharger **only** and reuse the actuator.
+> - If the pressure does **not** decrease, no leaks have been detected in the turbocharger bearing housing. Proceed to the next steps for testing the actuator for coolant leak.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> - Use compressed air supply to pressurize the turbocharger actuator to 276 kPa \[40 psi\].
+> - Close the air pressure regulator.
+> - Watch for the pressure to decrease. The pressure **must not** decrease more than 34 kPa \[5 psi\] in 1 minute.
+>
+> - If the pressure decreases, use a spray bottle of soapy water to wet the coolant leak test connections and threaded joints. Bubbles will appear if the connections or threaded joints are leaking.
+> - If the pressure decreases and the hose connections or threaded joints are **not** leaking, replace the actuator **only** and reuse the turbocharger.
+> - If the pressure does **not** decrease, no leaks have been detected in the turbocharger actuator. No further Turbocharger Coolant Leak Test steps are necessary.
+>
+> ### Preparatory Steps
+>
+> #### ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+>
+> - Remove the wastegate actuator hose. Refer to Procedure 010-050 in Section 10.
+>
+> Automotive with CM870
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> - Drain the coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Disconnect the turbocharger speed sensor. For Signature™ and ISX engines, see the following procedure in the Signature and ISX CM870 Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021334. Refer to Procedure 019-390 in Section 19.
+> - Disconnect the turbocharger compressor air inlet temperature sensor. For ISX engines, see the following procedure in the Signature and ISX CM870 Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021334. Refer to Procedure 019-395 in Section 19.
+> - Disconnect the variable geometry actuator air supply line. Refer to Procedure 010-113 in Section 10.
+> - Remove the turbocharger coolant hoses. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
+>
+> Automotive With CM871
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **Note · Примечание**
+> Brush away any loose dirt from around the area of the air handling connections to avoid contamination of the interior of the engine.
+>
+> - Drain the coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Disconnect the turbocharger speed sensor. For ISX and ISM engines, see the following procedure in the ISX CM871 and ISM CM876 Electronic Control System, Troubleshooting and Repair Manual, Bulletin 4021560. Refer to Procedure 019-390 in Section 19.
+> - Disconnect the turbocharger compressor air inlet temperature sensor. For ISX and ISM engines, see the following procedure in the ISX CM871 and ISM CM876 Electronic Control System, Troubleshooting and Repair Manual, Bulletin 4021560. Refer to Procedure 019-395 in Section 19.
+> - Remove the turbocharger coolant hoses. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
+> - Remove the charge air piping. Use protective caps from the Air Handling Clean Care Kit, Part Number 4919403, to cover open points.
+> - Remove the turbocharger air inlet piping. Use protective caps from the Air Handling and Vehicle Air Plumbing Clean Care Kits, Part Numbers 4919403 and 4919425 respectively, to cover open points.
+> - Disconnect the aftertreatment adapter pipe. Use a protective cap from the Air Handling Clean Care Kit, Part Numbers 4919403 and 4919425 respectively, to cover the turbocharger exhaust outlet. [[101-011-043-tr — Aftertreatment Adapter Pipe|Refer to Procedure 011-043 in Section 11.]]
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> #### Automotive, Industrial, and Power Generation with CM570
+>
+> - Remove the oil supply, oil drain tube, and brace, if equipped, from the turbocharger.
+>
+> Remove the intake and exhaust pipes from the turbocharger.
+>
+> Remove the charge air cooler piping from the discharge elbow.
+>
+> Remove the clamp, o-ring, and discharge elbow from the turbocharger.
+>
+> Discard the o-ring.
+>
+> **Note · Примечание**
+> In some applications, the turbocharger will **not** clear the lubricating oil cooler assembly during removal and installation. It will, perhaps, be necessary to remove the exhaust manifold and turbocharger together, and then separate the two components. Use the following procedure if the two components **must** be removed together for the removal and installation of the exhaust manifold. Refer to Procedure 011-007 in Section 11.
+>
+> If the turbocharger mounting nuts do **not** loosen freely, split the nuts to avoid breaking a mounting stud.
+>
+> Remove the four turbocharger mounting nuts.
+>
+> Remove the turbocharger and discard the gasket.
+>
+> Automotive with CM870
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **CAUTION · Осторожно**
+> When installing a lifting eye, be sure the shoulder of the lifting eye is bottomed against the bearing housing. Failure to do so can result in failure of the lifting eye and personal injury.
+>
+> **CAUTION · Осторожно**
+> If the lifting eye is installed in the turbocharger bearing housing, it is to be used exclusively for turbocharger removal and installation. It is not to be used in removal of the exhaust manifold, or engine. Doing so will cause damage to the turbocharger.
+>
+> Remove the oil supply and the oil drain tube from the turbocharger.
+>
+> Remove the intake and the exhaust pipes from the turbocharger.
+>
+> Remove the charge air cooler piping from the discharge elbow.
+>
+> Remove the clamp, o-ring, and discharge elbow from the turbocharger.
+>
+> Discard the o-ring.
+>
+> The capscrew in the top of the turbocharger bearing housing can be removed and replaced with a lifting eye to aid in removal of the turbocharger.
+>
+> If the turbocharger mounting nuts do **not** loosen freely, split the nuts to avoid breaking a mounting stud.
+>
+> Remove the four turbocharger mounting nuts.
+>
+> Remove the turbocharger and discard the gasket.
+>
+> Automotive With CM871
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the turbocharger oil supply line from the male union on the turbocharger bearing housing.
+>
+> Remove the turbocharger oil supply line from the lubricating oil filter head.
+>
+> Remove the turbocharger oil drain line from the turbocharger and discard the gasket.
+>
+> Pull the turbocharger oil drain line from the cylinder block by hand.
+>
+> If the grommet seal is attached to the drain tube, remove and inspect the grommet. Replace the grommet if damaged.
+>
+> Install the grommet into the cylinder block if no damage is found.
+>
+> Thread a lifting strap around the turbocharger bearing housing. Take care **not** to bend the coolant lines when lifting the turbocharger.
+>
+> Care **must** be taken **not** to damage the turbocharger compressor inlet air temperature sensor, the turbocharger speed sensor, and the turbocharger actuator coolant lines when removing the turbocharger.
+>
+> Remove the four turbocharger mounting nuts.
+>
+> **Note · Примечание**
+> If the turbocharger mounting nuts do **not** loosen freely, split the nuts to avoid breaking a mounting stud.
+>
+> Remove the turbocharger and discard the gaskets.
+>
+> Cover the turbocharger exhaust inlet port with heavy tape or a protective cap from the Air Handling and the Vehicle Air Plumbing Clean Care Kit, Part Numbers 4919403 and 4919425, respectively. Cover the opening on the exhaust manifold with heavy tape.
+>
+> If the turbocharger is being replaced with a new turbocharger, remove the variable geometry turbocharger (VGT) actuator. [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
+>
+> ### Disassemble
+>
+> #### Turbine Housing Replacement for ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+>
+> - Place the turbocharger outlet on a clean flat surface. Create an alignment mark on the turbine housing, bearing housing and the V-band clamp. This mark will make certain the components are oriented correctly during the assembly process.
+>
+> **Note · Примечание**
+> This procedure applies **only** to Automotive with CM570, QSX15 with CM570, and Power Generation with CM570. Do **not** disassemble VGT.
+>
+> Loosen the turbine side V-band locknut. Remove and discard the V-band clamp.
+>
+> **CAUTION · Осторожно**
+> Turbine blades can be easily damaged and care is required for the turbine housing removal process.
+>
+> Use a soft hammer to tap the turbine housing down against a soft bench surface.
+>
+> As the bearing housing and compressor housing assembly loosen, gently lift the assembly out of the turbine housing.
+>
+> Wastegate mounting is **not** affected by this disassembly process.
+>
+> **Always** clean the turbine housing before assembly, paying particular attention to the surface close to the turbine housing and the bearing housing location.
+>
+> ### Clean and Inspect for Reuse
+>
+> #### Turbine Housing Cleaning for ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+>
+> - The turbocharger turbine housing surface adjacent to the turbine compressor wheels **must** be clean, smooth, and free from deposits.
+> - Inspect the components to detect signs of burning and other conditions in order to obtain as much information as possible before washing.
+>
+> **Note · Примечание**
+> This procedure applies **only** to Automotive with CM570, QSX15 with CM570, and Power Generation with CM570. Do **not** disassemble VGTs.
+>
+> **CAUTION · Осторожно**
+> Wear appropriate eye and face protection when using non-corrosive metal cleaner.
+>
+> Soak the turbocharger turbine housing in a non-corrosive, low flash point metal cleaner to loosen deposits.
+>
+> **CAUTION · Осторожно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Scale-like deposits, if any, **must** be removed by using a non-metallic bristle brush. After removing the deposits, wash and dry the components.
+>
+> Dry the components with compressed air.
+>
+> **CAUTION · Осторожно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **Note · Примечание**
+> Do **not** bead blast aluminum and cast iron components together.
+>
+> **Note · Примечание**
+> To prevent bead spray impinging directly on the clamp plate and turbine flange threads, mask and plug off all items.
+>
+> **Note · Примечание**
+> Prevent the bead spray impinging directly on the wastegate valve spindle, as beads can penetrate the spindle bore and lead to spindle seizure.
+>
+> It is permissible to bead blast the turbocharger turbine housing if chemical and brush cleaning are **not** effective.
+>
+> After removing the deposits, wash and dry the components.
+>
+> #### ISX Automotive with CM570, QSX15 with CM570 and Power Generation with CM570
+>
+> - Clean the retaining nut mating surfaces of the turbocharger and the exhaust manifold.
+> - Clean the mating surfaces with Scotch-Brite™ 7448 abrasive pad.
+> - The surface under the mounting nuts **must** be free of dirt, rust, or any other debris, before applying anti-seize compound, Part Number 3823097.
+>
+> Inspect the wastegate actuator. Refer to Procedure 010-050 in Section 10.
+>
+> Inspect the turbocharger casings.
+>
+> Replace the housing if through cracks are found in the outer walls.
+>
+> Cracking in the turbine housing inlet flange and the inlet duct generally requires replacement of the turbine housing. Acceptance and rejection guidelines are shown in these illustrations. If an exhaust gasket is available, **always** make certain that cracks do **not** exist within the sealing area.
+>
+> Check the turbine housing inlet flange flatness. It **must** be within 0.1 mm \[0.004 in\] to be acceptable for reuse.
+>
+> Flange Fasteners - Clearance Holes
+>
+> Check the fastener hole diameter. It **must not** be more than 1.5 mm \[0.006 in\] larger than the maximum thread diameter of the fastener.
+>
+> **CAUTION · Осторожно**
+> If external cracks are found on the turbine housing, the turbine housing must be replaced.
+>
+> **CAUTION · Осторожно**
+> Turbine blades can be easily damaged and care is required for the turbine housing installation process.
+>
+> Cracking of the internal wall at the entry to the turbine wheel (tongue) is acceptable as a service condition, and the turbine housing can be re-used.
+>
+> Inspect the turbocharger compressor V-band outlet and the discharge elbow V-band connection for dents or fretting.
+>
+> Replace the turbocharger or discharge elbow, if damaged, to prevent compressed air leaks.
+>
+> Check the axial movement of the turbocharger wheels and shaft.
+>
+> Use dial depth gauge, Part Number ST-537, or equivalent.
+>
+> Push the rotor assembly away from the gauge.
+>
+> Set the gauge to zero (0).
+>
+> Push the rotor assembly toward the gauge and record the reading.
+>
+> | Turbocharger Axial Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.025 | MIN | 0.001 |
+> | 0.127 | MAX | 0.005 |
+>
+> If the turbocharger axial clearance is **not** within specifications, the turbocharger **must** be replaced.
+>
+> Inspect the compressor wheel for signs of rubbing against the compressor cover. Replace the turbocharger if rubbing evidence is seen.
+>
+> Check the radial movement of the turbocharger wheels and shaft.
+>
+> Use light finger pressure to push the compressor wheel toward the side of the compressor housing.
+>
+> Repeat the procedure for the turbine wheel and housing.
+>
+> Replace the turbocharger if either wheel contacts the housing.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **CAUTION · Осторожно**
+> Do not use caustic cleaners to clean the charge air cooler. Damage to the charge air cooler will result.
+>
+> Make sure all system level causes of oil leaks have been addressed using the Compressor Side Oil Leak troubleshooting symptom tree.
+>
+> Clean turbocharger outlets with a non-reactive oil cleaning spray or solution and a lint-free towel.
+>
+> If the engine experiences a turbocharger malfunction or any other occasion where oil or debris is put into the charge air system, the charge air system **must** be inspected and cleaned. Refer to Procedure 010-027 in Section 10.
+>
+> Automotive with CM870
+>
+> Inspect for cracks in the turbocharger and compressor casings.
+>
+> Replace the turbocharger if through cracks in the outer walls are found.
+>
+> Inspect for cracks on the turbine inlet and exhaust mounting flanges. Replace the turbocharger if any cracks are found.
+>
+> Clean the retaining nut mating surfaces of the turbocharger and the exhaust manifold.
+>
+> Clean the mating surfaces with Scotch-Brite™ 7448 abrasive pad.
+>
+> The surface under the mounting nuts **must** be free of dirt, rust, or any other debris before applying anti-seize compound, Part Number 3823097.
+>
+> Inspect the turbocharger compressor V-band outlet and the discharge elbow V-band connection for dents or fretting.
+>
+> Replace the turbocharger or discharge elbow, if damaged, to prevent compressed air leaks.
+>
+> Inspect the compressor wheel for signs of rubbing against the compressor cover. Replace the turbocharger if rubbing evidence is seen.
+>
+> Use light finger pressure to push the compressor wheel. If the compressor wheel contacts the cover, replace the turbocharger.
+>
+> If the engine experiences a turbocharger malfunction or any other occasion where oil or debris is put into the charge air system, the charge air system **must** be inspected and cleaned. Refer to Procedure 010-027 in Section 10.
+>
+> Check the axial movement of the turbocharger wheels and shaft.
+>
+> Use dial depth gauge, Part Number ST-537, or equivalent.
+>
+> Push the rotor assembly away from the gauge.
+>
+> Set the gauge to zero (0).
+>
+> Push the rotor assembly toward the gauge and record the reading.
+>
+> | Turbocharger Axial Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.025 | MIN | 0.001 |
+> | 0.127 | MAX | 0.005 |
+>
+> If the turbocharger axial clearance is **not** within specifications, the turbocharger **must** be replaced.
+>
+> Inspect the compressor wheel for signs of rubbing against the compressor cover.
+>
+> Replace the turbocharger if rubbing evidence is seen.
+>
+> Check the radial movement of the turbocharger wheels and shaft.
+>
+> Use light finger pressure to push the compressor wheel toward the side of the compressor housing.
+>
+> Repeat the procedure for the turbine wheel and housing.
+>
+> Replace the turbocharger if either wheel contacts the housing.
+>
+> Automotive With CM871
+>
+> Inspect the variable geometry actuator and mechanism for proper operation. [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
+>
+> Inspect for cracks in the turbocharger and compressor casings.
+>
+> Replace the turbocharger if through cracks in the outer walls are found.
+>
+> Inspect for cracks on the turbine inlet and exhaust mounting flanges. Replace the turbocharger if any cracks are found.
+>
+> **Note · Примечание**
+> All openings on the turbocharger, including the turbine inlet connection, **must** be plugged with caps from the Air Handling and Vehicle Air Plumbing Clean Care Kits, Part Numbers 4919403, and 4919425 respectively, during flange cleaning.
+>
+> Clean the turbocharger and exhaust manifold where the retaining nut contacts the turbocharger and exhaust manifold.
+>
+> Clean the mating surfaces with Scotch-Brite™ 7448 abrasive pad.
+>
+> After abrasive cleaning, wipe debris from both surfaces with a clean shop towel.
+>
+> The surface under the mounting nuts **must** be free of dirt, rust, or any other debris, before applying anti-seize compound, Part Number 3823097.
+>
+> Check for evidence of coolant in the oil supply and oil drain fittings. Reference Coolant in the Lubricating Oil troubleshooting symptom tree if coolant is found.
+>
+> Inspect the turbocharger compressor V-band outlet and the discharge elbow V-band connection for dents or fretting.
+>
+> Replace the turbocharger or discharge elbow, if damaged, to prevent compressed air leaks.
+>
+> Inspect the compressor wheel for signs of rubbing against the compressor cover. Replace the turbocharger if rubbing evidence is seen.
+>
+> Use light finger pressure to push the compressor wheel. If the compressor wheel contacts the cover, replace the turbocharger.
+>
+> If the engine experiences a turbocharger malfunction or any other occasion where oil or debris is put into the charge air system, the charge air system **must** be inspected and cleaned. Refer to Procedure 010-027 in Section 10.
+>
+> Check the axial movement of the turbocharger wheels and shaft.
+>
+> Use dial depth gauge, Part Number ST-537, or equivalent.
+>
+> Push the rotor assembly away from the gauge.
+>
+> Set the gauge to zero (0).
+>
+> Push the rotor assembly toward the gauge and record the reading
+>
+> | Turbocharger Axial Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.025 | MIN | 0.001 |
+> | 0.127 | MAX | 0.005 |
+>
+> If the turbocharger axial clearance is **not** within specifications, the turbocharger **must** be replaced.
+>
+> Inspect the compressor wheel for signs of rubbing against the compressor cover.
+>
+> Replace the turbocharger if rubbing evidence is seen.
+>
+> Check the radial movement of the turbocharger wheels and shaft.
+>
+> Use light finger pressure to push the compressor wheel toward the side of the compressor housing.
+>
+> Repeat the procedure for the turbine wheel and housing.
+>
+> Replace the turbocharger if either wheel contacts the housing.
+>
+> ### Assemble
+>
+> #### ISX Automotive with CM570, QSX15 with CM570 and Power Generation with CM570
+>
+> - To install the turbine housing, position the V-band clamp over the bearing housing and align the ink marks applied during the disassembly process.
+> - Apply anti-seize compound to the bearing housing locating bore of the turbine housing.
+> - Carefully slide the bearing and compressor housing assembly into the turbine housing. Use the ink alignment mark to locate the turbine housing assembly in the correct orientation with the turbine housing.
+>
+> Place the new V-band clamp in the correct orientation and tighten the locknut.
+>
+> Torque value for Cummins®-branded turbochargers.
+>
+> **Момент затяжки · Torque Value**
+> 18 n•m [159 in-lb]
+>
+> Torque value for Holset®-branded turbochargers.
+>
+> **Момент затяжки · Torque Value**
+> 11.3 n•m [100 in-lb]
+>
+> Loosen the locknut 180 degrees, and tighten the locknut again.
+>
+> Torque value for Cummins®-branded turbochargers.
+>
+> **Момент затяжки · Torque Value**
+> 18 n•m [159 in-lb]
+>
+> Torque value for Holset®-branded turbochargers.
+>
+> **Момент затяжки · Torque Value**
+> 11.3 n•m [100 in-lb]
+>
+> Make certain the rotor assembly rotates freely and neither the compressor wheel nor the turbine wheel is rubbing against the housing.
+>
+> ### Install
+>
+> #### ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+>
+> - Apply a film of high-temperature anti-seize compound, Part Number 3823097, or equivalent, to the turbocharger mounting studs.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> If the exhaust manifold and turbocharger were removed together in order for the turbocharger to clear the lubricating oil cooler assembly, see the following procedure for installation of the exhaust manifold. Refer to Procedure 011-007 in Section 11.
+>
+> Install a new mounting gasket, the turbocharger, and the four mounting nuts.
+>
+> Tighten the mounting nuts.
+>
+> Torque value for the standard nut:
+>
+> **Момент затяжки · Torque Value**
+> 61 n•m [45 ft-lb]
+>
+> Torque value for the Spiralock™ nut (identified by "SPL" on the nut flange):
+>
+> **Момент затяжки · Torque Value**
+> 81 n•m [60 ft-lb]
+>
+> If installing a new turbocharger, it can be necessary to rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+>
+> Rotate the turbocharger compressor housing by loosening the V-band between the turbocharger bearing housing and the turbocharger compressor housing.
+>
+> Rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+>
+> Tighten the V-band clamp.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> Install the discharge elbow and clamp onto the charge air cooler pipe connection.
+>
+> Do **not** tighten the clamp until the elbow is installed on the turbocharger.
+>
+> If a new turbocharger is being installed, the variable geometry turbocharger actuator from the original turbocharger **must** be reused.
+>
+> [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
+>
+> Install a new o-ring, clamp, and discharge elbow to the turbocharger.
+>
+> Tighten the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Install a new gasket, oil drain tube, and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Install the turbocharger anti-rotation brace, if equipped. The end rests on the oil cooler housing.
+>
+> This brace requires longer, 1.25 mm \[0.049 in\], capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Pour approximately 50 to 60 cc \[1.7 to 2 oz\] of clean engine oil into the turbocharger oil supply opening.
+>
+> **CAUTION · Осторожно**
+> Proper routing of the turbocharger oil supply tube is critical to prevent failure. Avoid any tube-to-metal contact. (The inlet supply fitting must be oriented slightly off vertical to allow proper alignment.)
+>
+> If installing a new turbocharger, make sure the turbocharger is aligned, loosen the compressor and turbine V-bands, and adjust as needed. Tighten the V-bands.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> **Момент затяжки · Torque Value**
+> 12 n•m [106 in-lb]
+>
+> If installing a new turbocharger, install the male union elbow.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> Install the turbocharger oil supply tube on the elbow.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> Install the intake and exhaust pipes to the turbocharger. Tighten the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Automotive with CM870
+>
+> #### Variable Geometry
+>
+> - Apply a film of high-temperature anti-seize compound, Part Number 3823097, to the turbocharger mounting studs.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **CAUTION · Осторожно**
+> When installing a lifting eye, be sure the shoulder of the lifting eye is bottomed against bearing housing. Failure to do so can result in failure of the lifting eye and personal injury.
+>
+> **CAUTION · Осторожно**
+> If a lifting eye is installed in turbocharger bearing housing, it is to be used exclusively for turbocharger removal and installation. It is not to be used in the removal of the exhaust manifold or engine. Doing so will cause damage to the turbocharger.
+>
+> **CAUTION · Осторожно**
+> Do not rotate the turbocharger turbine housing. Loosening the turbine V-band and rotating the turbine housing can cause damage to the internal variable geometry mechanism.
+>
+> The capscrew in the top of the turbocharger bearing housing can be removed and replaced with a lifting eye to aid in the installation of the turbocharger.
+>
+> Install a new gasket, the turbocharger, and the four mounting nuts. Tighten the mounting nuts.
+>
+> **Момент затяжки · Torque Value**
+> 102 n•m [75 ft-lb]
+>
+> If installing a new turbocharger, it can be necessary to rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+>
+> Rotate the turbocharger compressor housing by loosening the V-band between the turbocharger bearing housing and the turbocharger compressor housing.
+>
+> Rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+>
+> Tighten the V-band clamp.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> Install the discharge elbow and clamp onto the charge air cooler pipe connection.
+>
+> Do **not** tighten the clamp until the elbow is installed on the turbocharger.
+>
+> Install a new o-ring, clamp, and discharge elbow to the turbocharger.
+>
+> Tighten the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Install a new gasket, oil drain tube, and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> Install the intake and exhaust pipes to the turbocharger, and tighten the clamps.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Automotive With CM871
+>
+> Apply a film of high-temperature anti-seize compound, Part Number 3823097, or equivalent, to the turbocharger mounting studs and to the flange area on the retaining nuts. Properly applying anti-seize compound will reduce the possibility of the nuts loosening over time.
+>
+> If installing a new turbocharger, install the coolant and oil fittings into the bearing housing.
+>
+> **Note · Примечание**
+> Use a ratchet and deep well socket to install these fittings.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> **CAUTION · Осторожно**
+> Proper routing of the turbocharger oil supply tube is critical to prevent failure. Avoid any tube-to-metal contact.
+>
+> Install the turbocharger oil supply hose onto the oil supply fitting. The oil supply hose **must** point directly downward in order for it to properly connect to the oil supply fitting on the lubricating oil filter head.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> Install the turbocharger actuator coolant supply and return fittings into the electronic actuator. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **CAUTION · Осторожно**
+> Do not rotate the turbocharger turbine housing. Loosening the turbine V-band and rotating the turbine housing can cause damage to the internal variable geometry mechanism.
+>
+> **Note · Примечание**
+> Thread a lifting strap around the turbocharger bearing housing. Take care **not** to bend the coolant lines when lifting the turbocharger.
+>
+> **Note · Примечание**
+> All four mounting studs have to be the same material for proper clamping force.
+>
+> Care **must** be taken **not** to damage the turbocharger compressor inlet air temperature sensor, the turbocharger speed sensor, and the turbocharger actuator coolant lines when installing the turbocharger.
+>
+> Install a new gasket, the turbocharger, and the four mounting nuts. Tighten the mounting nuts.
+>
+> **Момент затяжки · Torque Value**
+> Stainless Steel 102 n•m [75 ft-lb]
+>
+> If installing a new turbocharger, it can be necessary to rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+>
+> Rotate the turbocharger compressor housing by loosening the V-band between the turbocharger bearing housing and the turbocharger compressor housing.
+>
+> Rotate the turbocharger compressor housing to properly align with the charge air cooler piping.
+>
+> Tighten the V-band clamp.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> Use the torque plus angle method:
+>
+> **Момент затяжки · Torque Value**
+> INCONEL® with Inscribed “I“ 61 n•m [45 ft-lb]
+>
+> Rotate 60 degrees.
+>
+> If the compressor housing **must** be rotated, loosen the compressor V-band clamp enough to allow the compressor housing to rotate.
+>
+> Rotate the compressor housing to the proper orientation.
+>
+> Tighten the compressor housing V-band clamp.
+>
+> **Момент затяжки · Torque Value**
+> 8.5 n•m [75 in-lb]
+>
+> Install a new o-ring seal, clamp, and discharge elbow to the turbocharger.
+>
+> Tighten the clamps.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Insert the bottom of the drain tube into the grommet seal that is pressed into the cylinder block.
+>
+> Install a new gasket, oil drain tube, and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Connect the oil supply hose to the oil supply fitting located on the lubricating oil filter head.
+>
+> Tighten the oil supply hose.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> Install the turbocharger oil supply line onto the turbocharger bearing housing male union.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [22 ft-lb]
+>
+> ### Finishing Steps
+>
+> #### ISX Automotive with CM570, QSX15 with CM570, and Power Generation with CM570
+>
+> - Install the wastegate actuator hose. Refer to Procedure 010-050 in Section 10.
+> - Start and operate the engine until the coolant temperature reaches 82°C \[180°F\]. Check for air, coolant, and oil leaks.
+>
+> Automotive with CM870
+>
+> **CAUTION · Осторожно**
 > Turbocharger speed sensor harness and turbocharger compressor inlet air temperature sensor harnesses must be tied securely and away from heat sources, such as the exhaust manifold and exhaust pressure sensor tube. Failure to do so can cause damage to the sensor harness.
-
-> [!warning] CAUTION · Осторожно
+>
+> **CAUTION · Осторожно**
 > The turbocharger compressor inlet air temperature sensor must be positioned so the sensor body is pointing up and away from the exhaust manifold. Failure to do so can cause sensor damage.
-
-> [!warning] CAUTION · Осторожно
+>
+> **CAUTION · Осторожно**
 > Do not twist coolant lines while tightening. Failure to do so will damage coolant lines.
-
-- Install the turbocharger coolant hoses. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
-- Connect the variable geometry actuator air supply line. Refer to Procedure 010-113 in Section 10.
-- Connect the electrical connectors on the turbocharger speed sensor and the turbocharger compressor air inlet temperature sensor. For ISX engines, see the following procedure in the Signature and ISX CM870 Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021334. Refer to Procedure 019-395 in Section 19. Also, see the following procedure in the Signature and ISX CM870 Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021334. Refer to Procedure 019-390 in Section 19.
-- Fill the cooling system with coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Start and operate the engine until the coolant temperature reaches 82°C \[180°F. Check for air, coolant, and oil leaks.
-
-Automotive With CM871
-
-- Install the charge air piping. Refer to Procedure 010-027 in Section 10.
-- Install the aftertreatment adapter pipe. [[101-011-043-tr — Aftertreatment Adapter Pipe|Refer to Procedure 011-043 in Section 11.]]
-- Install the turbocharger coolant hoses. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
-- Connect the turbocharger compressor air inlet temperature sensor. For the ISX and ISM engines, see the following procedure in the ISX CM871 and ISM CM876 Electronic Control System, Troubleshooting and Repair Manual, Bulletin 4021560. Refer to Procedure 019-395 in Section 19.
-- Connect the electrical connector on the turbocharger speed sensor, turbocharger electric actuator, and the turbocharger compressor air inlet temperature sensor. For the ISX and ISM engines, see the following procedure in Section 19 in the ISX CM871 and ISM CM876 Electronic Control System, Troubleshooting and Repair Manual, Bulletin 4021560. Refer to Procedure 019-390 in Section 19.
-- Connect the aftertreatment adapter pipe. [[101-011-043-tr — Aftertreatment Adapter Pipe|Refer to Procedure 011-043 in Section 11.]]
-- Fill the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Operate the engine. Check for leaks.
-
-> [!note] Note · Примечание
+>
+> - Install the turbocharger coolant hoses. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
+> - Connect the variable geometry actuator air supply line. Refer to Procedure 010-113 in Section 10.
+> - Connect the electrical connectors on the turbocharger speed sensor and the turbocharger compressor air inlet temperature sensor. For ISX engines, see the following procedure in the Signature and ISX CM870 Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021334. Refer to Procedure 019-395 in Section 19. Also, see the following procedure in the Signature and ISX CM870 Electronic Control System Troubleshooting and Repair Manual, Bulletin 4021334. Refer to Procedure 019-390 in Section 19.
+> - Fill the cooling system with coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Start and operate the engine until the coolant temperature reaches 82°C \[180°F. Check for air, coolant, and oil leaks.
+>
+> Automotive With CM871
+>
+> - Install the charge air piping. Refer to Procedure 010-027 in Section 10.
+> - Install the aftertreatment adapter pipe. [[101-011-043-tr — Aftertreatment Adapter Pipe|Refer to Procedure 011-043 in Section 11.]]
+> - Install the turbocharger coolant hoses. [[10-010-041-tr — Turbocharger Coolant Hoses|Refer to Procedure 010-041 in Section 10.]]
+> - Connect the turbocharger compressor air inlet temperature sensor. For the ISX and ISM engines, see the following procedure in the ISX CM871 and ISM CM876 Electronic Control System, Troubleshooting and Repair Manual, Bulletin 4021560. Refer to Procedure 019-395 in Section 19.
+> - Connect the electrical connector on the turbocharger speed sensor, turbocharger electric actuator, and the turbocharger compressor air inlet temperature sensor. For the ISX and ISM engines, see the following procedure in Section 19 in the ISX CM871 and ISM CM876 Electronic Control System, Troubleshooting and Repair Manual, Bulletin 4021560. Refer to Procedure 019-390 in Section 19.
+> - Connect the aftertreatment adapter pipe. [[101-011-043-tr — Aftertreatment Adapter Pipe|Refer to Procedure 011-043 in Section 11.]]
+> - Fill the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Operate the engine. Check for leaks.
+>
+> **Note · Примечание**
 > If a malfunction resulted in oil, excessive fuel, or excessive black smoke entering the exhaust system, the aftertreatment system **must** be inspected. [[4021600 — Aftertreatment Diesel Oxidation Catalyst (DOC) and Aftertreatment Diesel Particulate|Refer to the Aftertreatment Diesel Oxidation Catalyst and Aftertreatment Diesel Particulate Filter Reuse Guidelines, Bulletin 4021600.]]
-
-> [!note] Note · Примечание
+>
+> **Note · Примечание**
 > If a malfunction resulted in coolant entering the exhaust system, the aftertreatment system can be recovered. [[101-014-013-tr — Aftertreatment Testing|Refer to Procedure 014-013 in Section 14.]]

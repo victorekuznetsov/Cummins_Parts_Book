@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-006-006-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-006-006-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Engine Control Module Cooling Plate, Fuel Cooled
@@ -31,53 +33,104 @@ tags:
 > **Даты:** изменён 2015-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-006-006-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-006-006-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the ECM. Refer to Procedure 019-031 in Section 19.
-- Remove the inlet and outlet fuel plumbing from the cooling plate. Refer to the OEM service manual.
+
+### Подготовительные операции
+
+- Удалить ECM. См. процедуру 019-031 в разделе 19.
+- Удалите впускную и выпускную топливные трубы из охлаждающей пластины. См. сервисное руководство изготовителя машины.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Remove the four cooling plate mounting capscrews.
+Удалите четыре болта для установки охлаждающей пластины.
 
-Do **not** lose any of the heat-resistant grommets. They are on both sides of the cooling plate.
+Не теряйте ни одного из термостойких громметов. Они находятся по обе стороны от охлаждающей пластины.
 
-One of the mounting locations has heat-resistant star washer grommets on both sides of the cooling plate.
+Одно из мест монтажа имеет термостойкие звездные шайбые станки по обе стороны охлаждающей пластины.
 
-Remove the cooling plate.
+Удалите охлаждающую пластину.
 
 ![[19200118.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the cooling plate for cracks or other damage.
+Осмотрите охлаждающую пластину на наличие трещин или других повреждений.
 
-Replace the cooling plate if damaged.
+Замените охлаждающую пластину, если она повреждена.
 
-Check the restriction across the ECM cooling plate. Refer to Procedure 006-020 in Section 6.
+Проверьте ограничение на охлаждающей пластине ECM. См. процедуру 006-020 в разделе 6.
 
 ![[06200056.png]]
 
-### Install
+### Установка
 
-Install a new cooling plate.
+Установите новую охлаждающую пластину.
 
-Install the heat-resistant grommets on both sides of the cooling plate.
+Установите термостойкие громметы по обе стороны охлаждающей пластины.
 
-Install the two heat-resistant star washer grommets at the same mounting location.
+Установите два термостойких звездных шайбых станка в одном и том же месте монтажа.
 
-Tighten the four capscrews.
+Затяните четыре болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[19200118.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the inlet and outlet fuel plumbing from the ccoling plate. Inspect for paint or grease on the cooling plate. Refer to the OEM service manual.
-- Install the ECM. Refer to Procedure 019-031 in Section 19.
+- Установите впускную и выпускную топливные сантехники из охлаждающей пластины. Осмотрите краску или смазку на охлаждающей пластине. См. сервисное руководство изготовителя машины.
+- Установите ECM. См. процедуру 019-031 в разделе 19.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the ECM. Refer to Procedure 019-031 in Section 19.
+> - Remove the inlet and outlet fuel plumbing from the cooling plate. Refer to the OEM service manual.
+>
+> ### Remove
+>
+> Remove the four cooling plate mounting capscrews.
+>
+> Do **not** lose any of the heat-resistant grommets. They are on both sides of the cooling plate.
+>
+> One of the mounting locations has heat-resistant star washer grommets on both sides of the cooling plate.
+>
+> Remove the cooling plate.
+>
+> ### Inspect for Reuse
+>
+> Inspect the cooling plate for cracks or other damage.
+>
+> Replace the cooling plate if damaged.
+>
+> Check the restriction across the ECM cooling plate. Refer to Procedure 006-020 in Section 6.
+>
+> ### Install
+>
+> Install a new cooling plate.
+>
+> Install the heat-resistant grommets on both sides of the cooling plate.
+>
+> Install the two heat-resistant star washer grommets at the same mounting location.
+>
+> Tighten the four capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> ### Finishing Steps
+>
+> - Install the inlet and outlet fuel plumbing from the ccoling plate. Inspect for paint or grease on the cooling plate. Refer to the OEM service manual.
+> - Install the ECM. Refer to Procedure 019-031 in Section 19.

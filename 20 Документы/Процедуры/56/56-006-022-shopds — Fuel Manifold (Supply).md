@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-022-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-022-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fuel Manifold (Supply)
@@ -35,36 +37,72 @@ tags:
 > **Даты:** изменён 2008-11-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-022-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-022-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-QSK45 Engines
 
-Remove the 24 fuel manifold mounting capscrews.
+### Снятие
 
-Remove the left-bank fuel manifold.
+Двигатели QSK45
 
-Repeat this process for the removal of the right-bank fuel manifold.
+Удалите 24 топливных болта для монтажа коллектора.
+
+Удалите левобережный топливный коллектор.
+
+Повторите этот процесс для удаления правобережного топливного коллектора.
 
 ![[06600140.png]]
 
-Two Piece Fuel Manifold
+Два топливных коллектора
 
-Remove the transfer tubes and o-rings. Discard the o-rings.
+Удалите передающие трубки и кольца. Уплотнительные кольца утилизируйте.
 
 ![[ck800wa.png]]
 
-QSK60 Engines
+Двигатели QSK60
 
-Remove the 32 fuel manifold mounting capscrews.
+Удалите 32 топливных болта.
 
-Remove the left-bank fuel manifold.
+Удалите левобережный топливный коллектор.
 
-Repeat this process for the removal of the right-bank fuel manifold.
+Повторите этот процесс для удаления правобережного топливного коллектора.
 
 ![[06600141.png]]
 
-Two Piece Fuel Manifold
+Два топливных коллектора
 
-Remove the transfer tubes and o-rings. Discard the o-rings.
+Удалите передающие трубки и кольца. Уплотнительные кольца утилизируйте.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> QSK45 Engines
+>
+> Remove the 24 fuel manifold mounting capscrews.
+>
+> Remove the left-bank fuel manifold.
+>
+> Repeat this process for the removal of the right-bank fuel manifold.
+>
+> Two Piece Fuel Manifold
+>
+> Remove the transfer tubes and o-rings. Discard the o-rings.
+>
+> QSK60 Engines
+>
+> Remove the 32 fuel manifold mounting capscrews.
+>
+> Remove the left-bank fuel manifold.
+>
+> Repeat this process for the removal of the right-bank fuel manifold.
+>
+> Two Piece Fuel Manifold
+>
+> Remove the transfer tubes and o-rings. Discard the o-rings.

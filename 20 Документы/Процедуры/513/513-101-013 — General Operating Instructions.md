@@ -16,13 +16,15 @@ manuals:
   - "5411480"
   - "5411481"
 figures: 61
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-101-013.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-101-013.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/513"
+  - "перевод/машинный"
 ---
 
 # General Operating Instructions
@@ -36,763 +38,1412 @@ tags:
 > **Даты:** изменён 2025-06-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-101-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-101-013.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-ED-4
 
-The C Command Connect and Connect Premier Marine Panel System is used to monitor basic vessel sensors, engine operating characteristics, and to control engine start and stop functions.
+### Общие сведения
 
-The C Command Connect and Connect Premier Marine Panel System is comprised of the following components the operator can interface with, which may or may **not** be supplied by Cummins Inc.:
+ЭД-4
 
-- System enable switch (Cummins® or original equipment manufacturer (OEM)-supplied)
-- Start switch (Cummins® or OEM-supplied)
-- Stop switch (Cummins® or OEM-supplied)
-- External alarm horn (Cummins® or OEM-supplied)
-- Customer interface box (C.I.B.) (Cummins®-supplied **only**)
-- Display (Cummins® or OEM-supplied).
+Система C Command Connect и Connect Premier Marine Panel System используется для мониторинга основных датчиков судна, эксплуатационных характеристик двигателя, а также для управления функциями запуска и остановки двигателя.
 
-> [!note] Note · Примечание
-> The ED-4 display is **only** supplied by Cummins Inc.
+Система управления морскими панелями C Command Connect и Connect Premier состоит из следующих компонентов, с которыми может взаимодействовать оператор, которые могут быть или не быть предоставлены Cummins Inc.:
 
-> [!warning] CAUTION · Осторожно
-> If a non-Cummins® supplied engine instrumentation and/or alarm system is utilized, it is the owner's responsibility to verify the engine alarm communication (visual and audible) to the operator is enabled and functional while operating the engine. • This includes aftermarket additions or modifications to the engine instrumentation and/or alarm system. • Be aware that software updates to non-Cummins® supplied engine instrumentation may inadvertently disable the engine instrumentation and/or alarm functionality. • Cummins Inc. is not responsible for failures or damage resulting from use of engine instrumentation and alarm systems that are not supplied by a Cummins® factory.
+- Система включает переключатель (Cummins® или производитель оригинального оборудования (OEM))
+- Стартовый переключатель (Cummins® или OEM-поставки)
+- Стоп-переключатель (Cummins® или OEM-поставки)
+- Внешний сигнальный рог (Cummins® или OEM-поставки)
+- Клиентский интерфейс (C.I.B.) (Cummins®-поставляется **только**)
+- Дисплей (Cummins® или OEM-поставки).
 
-The system enable switch turns on the Cummins® C Command Connect and Connect Premier Marine Panel System. It is typically located at the main helm station and can either be the vessel's main key switch or wired separately to a remote toggle switch.
+> [!note] Примечание
+> Дисплей ED-4 поставляется только компанией Cummins Inc.
 
-The control system and engine control module (ECM) receives switched battery input from the system enable switch when the switch is pushed to the ON position. The switch is used to send a "wake" signal to the engine ECM. The switch can also be used to shut off the engine by removing power from the entire control system.
+> [!warning] ОСТОРОЖНО
+> Если используется прибор и/или система сигнализации, не поставляемые компанией Cummins®, ответственность владельца заключается в проверке того, включена ли и функционирует ли оператор сигнализации двигателя (визуальная и звуковая) при работе двигателя. • Это включает в себя послепродажное добавление или модификацию приборов и/или сигнализации двигателя. • Имейте в виду, что обновления программного обеспечения для не поставляемых приборов двигателя Cummins® могут непреднамеренно отключить приборы и/или функции сигнализации двигателя. • Cummins Inc. не несет ответственности за сбои или повреждения, вызванные использованием приборов и систем сигнализации двигателя, которые не поставляются заводом Cummins®.
 
-> [!note] Note · Примечание
-> If equipped, battery disconnect switch(s) should be left energized one minute after system enable switch off. Failure to do so may cause improper ECM power downs resulting in interruptions of trip data writing to long term memory.
+Система включает в себя переключатель командной системы Cummins® C Command Connect и системы морских панелей Connect Premier. Он обычно расположен на главной станции штурвала и может быть либо главным переключателем зажигания судна, либо подключен отдельно к удаленному переключателю переключения.
 
-The Cummins®-supplied switch is shown.
+Система управления и модуль управления двигателем (ECM) принимают ввод переключаемой батареи от системы, включающей переключатель, когда переключатель нажимается на положение ON. Переключатель используется для отправки сигнала «бодрствования» на двигатель ECM. Выключатель также может быть использован для отключения двигателя, удалив мощность из всей системы управления.
+
+> [!note] Примечание
+> Если они оборудованы, выключатель (переключатели) аккумулятора должен быть оставлен под напряжением через минуту после выключения системы. Неспособность сделать это может привести к ненадлежащим отключению питания ECM, что приведет к прерыванию записи данных о поездке в долговременную память.
+
+Показано переключатель Cummins®.
 
 ![[00e00117.png]]
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of damage to the starting motor, do not engage the starting motor for more than 30 seconds. Wait 2 minutes between each attempt to start (electrical starting motors only).
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения пускового двигателя, не задействуйте пусковой двигатель более 30 секунд. Подождите 2 минуты между каждой попыткой запуска (только электрические пусковые двигатели).
 
-> [!warning] CAUTION · Осторожно
-> Unless the engine is equipped with starter lock out capability, activating the start switch while the engine is running will engage the starter and may result in engine damage.
+> [!warning] ОСТОРОЖНО
+> Если двигатель не оснащен возможностью блокировки стартера, активация стартового выключателя во время работы двигателя задействует стартер и может привести к повреждению двигателя.
 
 PS102
 
-The start switch is typically located on the helm panel.
+Стартовый переключатель обычно расположен на панели руля.
 
-The switch is pressed and held to start the engine. Typically, the switch is held for less than 5 seconds to start the engine.
+Переключатель нажимается и удерживается для запуска двигателя. Обычно переключатель удерживается менее 5 секунд для запуска двигателя.
 
-A single quick press of the start switch will engage the starter, but will **not** start the engine.
+Один быстрый нажатие стартового выключателя задействует стартер, но не запустит двигатель.
 
-Some engines are equipped with an engine starting motor protection feature. If the starting motor is engaged for 30 or more seconds, without the engine starting, the starter will be locked out from operating, allowing for proper cooling of the starting motor for 2 minutes.
+Некоторые двигатели оснащены функцией защиты двигателя от запуска двигателя. Если пусковой двигатель включен в течение 30 и более секунд, без запуска двигателя стартер будет заблокирован от работы, что позволит правильно охладить пусковой двигатель в течение 2 минут.
 
-The Cummins®-supplied switch is shown.
+Показано переключатель Cummins®.
 
 ![[00e00118.png]]
 
-The stop switch is typically located on the helm panel.
+Остановочный выключатель обычно расположен на панели руля.
 
-The Cummins®-supplied switch has a light that illuminates when an engine stop signal is engaged. The light will illuminate if an engine stop signal is engaged at any stop switch location on the vessel.
+Переключатель Cummins® имеет свет, который освещается при включении сигнала остановки двигателя. Свет будет освещаться, если сигнал остановки двигателя включен в любом месте переключения остановки на судне.
 
-The stop switch is pressed and held to stop the engine. Typically the stop switch should be held for 5 seconds to stop the engine.
+Остановочный выключатель нажимается и удерживается, чтобы остановить двигатель. Обычно стоп-сигнал должен удерживаться в течение 5 секунд, чтобы остановить двигатель.
 
-A single quick press of the stop switch will interrupt the system enable signal to the engine ECM, but will **not** stop the engine.
+Один быстрый нажатие стоп-сигнала прервет систему, включив сигнал на двигатель ECM, но не остановит двигатель.
 
-The Cummins®-supplied switch is shown.
+Показано переключатель Cummins®.
 
 ![[00e00119.png]]
 
 PS103
 
-The start switch is typically located on the helm panel.
+Стартовый переключатель обычно расположен на панели руля.
 
-A single quick press up (2) of the start / stop switch (1) will engage the starter, and start the engine.
+Один быстрый нажатие (2) стартового/стоп-переключателя (1) будет включать стартер, и запустите двигатель.
 
-If the starting motor is engaged for 30 or more seconds, without the engine starting, the starter will be locked out from operating, allowing for proper cooling of the starting motor for 2 minutes.
+Если пусковой двигатель включен в течение 30 и более секунд, без запуска двигателя стартер будет заблокирован от работы, что позволит правильно охладить пусковой двигатель в течение 2 минут.
 
-The Cummins®-supplied switch is shown.
+Показано переключатель Cummins®.
 
 ![[00v00097.png]]
 
-> [!warning] CAUTION · Осторожно
-> The engine must have adequate oil pressure within 15 seconds after starting. If the WARNING lamp indicating low oil pressure has not gone out or there is no oil pressure indicated on a gauge within 15 seconds, shut off the engine immediately to avoid engine damage. The low oil pressure troubleshooting procedure is located in Troubleshooting Symptoms (Section TS).
+> [!warning] ОСТОРОЖНО
+> Двигатель должен иметь достаточное давление масла в течение 15 секунд после запуска. Если лампа предупреждения, указывающая на низкое давление масла, не погасла или на измерительном приборе не было давления масла в течение 15 секунд, немедленно выключите двигатель, чтобы избежать повреждения двигателя. Процедура устранения неполадок при низком давлении масла находится в разделе «Симптомы устранения неполадок» (Troubleshooting Symptoms).
 
 ![[eg8gask.png]]
 
-Idle the engine 3 to 5 minutes before operating with a load.
+Запуск двигателя на холостом ходу за 3-5 минут до работы с нагрузкой.
 
 ![[oi800v02.png]]
 
-External Alarm Horn:
+Внешний сигнал тревоги:
 
-The external alarm horn is connected to the helm harness and is typically located behind the dash.
+Внешний рог тревоги соединен с рулевой проводкой и обычно расположен за приборной панелью.
 
-The ED-4 display also has an internal audible alarm horn. The internal alarm horn does **not** meet Cummins® requirements. Therefore, the external horn is mandatory.
+Дисплей ED-4 также имеет внутренний звуковой сигнал тревоги. Внутренний рог тревоги не соответствует требованиям Cummins®. Поэтому внешний рог является обязательным.
 
-The alarm horn is an audible warning to the operator for select vessel, engine, and transmission sensor fault conditions.
+Рог тревоги является звуковым предупреждением оператору для выбранных условий неисправности судна, двигателя и датчика передачи.
 
-The audible alarm horns can **not** be disabled.
+Слышные рога тревоги могут быть отключены **не**.
 
-The following audible alarms will be heard for fault severities:
+Для выявления степени тяжести вины будут слышны следующие звуковые сигналы тревоги:
 
-- Warning - a single instance of multiple short beeps; Typically three beeps.
-- Critical - repeating cycle of a longer constant tone.
+- Предупреждение — один экземпляр нескольких коротких звуковых сигналов; Как правило, три сигнала.
+- Критический — повторяющийся цикл более длинного постоянного тона.
 
 ![[00e00120.png]]
 
-There are two configurations of the C.I.B.
+Существует две конфигурации C.I.B.
 
-1. C Command Connect
-2. C Command Connect Premier.
+1. Связь команд
+2. C Command Connect Premier (англ.)русск.
 
-The Premier configuration contains a Cummins®-supplied ED-4 display.
+Конфигурация Premier содержит дисплей ED-4, поставляемый Cummins®.
 
 ![[15e00014.png]]
 
-Each engine will have its own C.I.B.
+Каждый двигатель будет иметь свой собственный C.I.B.
 
-The C.I.B. contains the following:
+В отделе расследований. содержит следующее:
 
-1. Engine start and stop switch
-2. ED-4 display (Connect Premier option **only**)
-3. Circuit breakers
-4. Battery positive connection lug
-5. Polytetrafluoroethylene sealed membrane vent
-6. Battery negative connection lug
-7. J1939 3 pin connection
-8. Main extension wiring harness connection
-9. OEM sensor wiring harness connection, if equipped (Connect Premier option **only**)
-10. National Marine Electronics Association (NMEA) 2000® connection (Connect Premier option **only**)
-11. OEM interface wiring harness connection
-12. Engine interface wiring harness connection.
+1. Включатель запуска и остановки двигателя
+2. Дисплей ED-4 (Подключение Premier **только**)
+3. Выключатели
+4. Положительная связь с аккумулятором
+5. Политетрафторэтилен герметичный мембранный вентиляционный отверстий
+6. Отрицательное соединение батареи Lug
+7. J1939 3-контактная связь
+8. Основное расширение проводов жгутового соединения
+9. Подключение к проводах OEM-датчика, если оно оборудовано (опция Connect Premier **только**)
+10. Национальная ассоциация морской электроники (NMEA) 2000® (подключение Premier)
+11. OEM интерфейс проводка жгут соединение
+12. Интерфейс двигателя подключает жгут.
 
 ![[15e00015.png]]
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of damage to the starting motor, do not engage the starting motor for more than 30 seconds. Wait 2 minutes between each attempt to start (electrical starting motors only).
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения пускового двигателя, не задействуйте пусковой двигатель более 30 секунд. Подождите 2 минуты между каждой попыткой запуска (только электрические пусковые двигатели).
 
 PS102
 
 CIB Engine Start/Stop Switch:
 
-The C Command Connect and Connect Premier start/stop switch is located on the C.I.B.
+Командный коммутатор C Command Connect и переключатель запуска/остановки Connect Premier расположены на C.I.B.
 
-The C.I.B. engine start/stop switch (1) is a 2-way momentary switch.
+В отделе расследований. Переключатель запуска/остановки двигателя (1) представляет собой 2-хсторонний сиюминутный переключатель.
 
-The start side of the switch (2) is pressed and held to start the engine. Typically, the switch is held for less than 5 seconds to start the engine.
+Стартовая сторона переключателя (2) нажимается и удерживается для запуска двигателя. Обычно переключатель удерживается менее 5 секунд для запуска двигателя.
 
-A single quick press of the start switch will engage the starter, but will **not** start the engine.
+Один быстрый нажатие стартового выключателя задействует стартер, но не запустит двигатель.
 
-> [!note] Note · Примечание
-> Some engines are equipped with an Engine Starting Motor Protection feature. If the starting motor is engaged for 30 or more seconds, without the engine starting, the starter will be locked out from operating, allowing for proper cooling of the starting motor for 2 minutes.
+> [!note] Примечание
+> Некоторые двигатели оснащены функцией защиты двигателя от запуска двигателя. Если пусковой двигатель включен в течение 30 и более секунд, без запуска двигателя стартер будет заблокирован от работы, что позволит правильно охладить пусковой двигатель в течение 2 минут.
 
-The stop side of the switch (3) is pressed and held to stop the engine. Typically the stop switch should be held for 5 seconds to stop the engine.
+Стоп-сторона выключателя (3) нажимается и удерживается для остановки двигателя. Обычно стоп-сигнал должен удерживаться в течение 5 секунд, чтобы остановить двигатель.
 
-A single quick press of the stop switch will interrupt the system enable signal to the engine ECM and interrupt combustion, but will **not** stop the engine.
+Один быстрый нажатие стоп-ключа прервет систему, включив сигнал на двигатель ECM и прервав горение, но не остановит двигатель.
 
-The start/stop switch has lights that illuminate when an engine start or stop signal is engaged.
+Переключатель запуска/остановки имеет огни, которые освещаются при включении сигнала запуска или остановки двигателя.
 
-The lights will illuminate if an engine start or stop signal is engaged at any start or stop switch location on the vessel.
+Огни будут освещаться, если сигнал запуска или остановки двигателя включен в любом месте пуска или остановки на судне.
 
 ![[00e00121.png]]
 
 PS103
 
-C.I.B. Engine Start/Stop Switch:
+В.И.Б. Переключатель запуска/остановки двигателя:
 
-The C Command Connect and Connect Premier start/stop switch is located on the C.I.B.
+Командный коммутатор C Command Connect и переключатель запуска/остановки Connect Premier расположены на C.I.B.
 
-The C.I.B. engine start/stop switch (1) is a 2-way momentary switch.
+В отделе расследований. Переключатель запуска/остановки двигателя (1) представляет собой 2-хсторонний сиюминутный переключатель.
 
-A single quick press up (2) of the start / stop switch (1) will engage the starter, and start the engine.
+Один быстрый нажатие (2) стартового/стоп-переключателя (1) будет включать стартер, и запустите двигатель.
 
-> [!note] Note · Примечание
-> If the starting motor is engaged for 30 or more seconds, without the engine starting, the starter will be locked out from operating, allowing for proper cooling of the starting motor for 2 minutes.
+> [!note] Примечание
+> Если пусковой двигатель включен в течение 30 и более секунд, без запуска двигателя стартер будет заблокирован от работы, что позволит правильно охладить пусковой двигатель в течение 2 минут.
 
-If engine is running, a single quick press up (2) of the start/stop switch (1) will stop the engine.
+Если двигатель работает, одно быстрое нажатие (2) стартового/стоп-переключателя (1) остановит двигатель.
 
-The start/stop switch has lights that illuminate when an engine start or stop signal is engaged.
+Переключатель запуска/остановки имеет огни, которые освещаются при включении сигнала запуска или остановки двигателя.
 
-The lights will illuminate if an engine start or stop signal is engaged at any start or stop switch location on the vessel.
+Огни будут освещаться, если сигнал запуска или остановки двигателя включен в любом месте пуска или остановки на судне.
 
 ![[00e00173.png]]
 
-C.I.B. ED-4 Display:
+В.И.Б. Дисплей ED-4:
 
-The ED-4 display is only supplied by Cummins. The ED-4 display (1) is connected with the ECM through a Society of Automotive Engineers (SAE) J1939 data link. The display will indicate engine operating parameters and fault codes. The display is the gateway for relaying engine ECM information to NMEA 2000®.
+Дисплей ED-4 поставляется только компанией Cummins. Дисплей ED-4 (1) связан с ECM через шину данных CAN Общества автомобильных инженеров (SAE) J1939. На дисплее будут указаны параметры работы двигателя и коды неисправностей. Дисплей является шлюзом для передачи информации о ECM двигателя в NMEA 2000®.
 
-When mounted at the C.I.B., the display requires a unique software load for the C Command Connect Premier Panel System and is **not** common with other Cummins® controls systems.
+При установке на C.I.B. дисплей требует уникальной загрузки программного обеспечения для системы панели C Command Connect Premier и не является общим с другими системами управления Cummins®.
 
-The display software name and version can be found in the “About” menu screen.
+Имя и версия программного обеспечения дисплея можно найти на экране меню «О нас».
 
-The display comes preloaded with software and is updateable.
+Дисплей поставляется с предустановленным программным обеспечением и обновляется.
 
-When mounted at the C.I.B., the display's vessel personality file will need to be updated for each vessel application at initial install by the OEM or, if replaced, during a service event.
+При установке на C.I.B. файл личности судна дисплея должен быть обновлен для каждой заявки на судно при первоначальной установке OEM или, если он будет заменен, во время мероприятия обслуживания.
 
-> [!note] Note · Примечание
-> Contact a Cummins® distributor for ED-4 display software and vessel personality file updates.
+> [!note] Примечание
+> Свяжитесь с дистрибьютором Cummins® для обновления программного обеспечения дисплея ED-4 и файлов личности судна.
 
 ![[15e00021.png]]
 
-ED-4 Display (Helm Mounted):
+Дисплей ED-4 (Helm Mounted):
 
-> [!note] Note · Примечание
-> The ED-4 display is **only** supplied by Cummins.
+> [!note] Примечание
+> Дисплей ED-4 поставляется только компанией Cummins.
 
-The display is typically connected to the ECM through a SAE J1939 data link. The display will indicate engine operating parameters and fault codes. The display is the gateway for relaying engine ECM information to NMEA 2000®. When mounted at the helm, the display requires a unique software load for the C Command Connect and Connect Premier Marine Panel System and is **not** common with other Cummins® controls systems.
+Дисплей обычно подключается к ECM через шину данных SAE J1939 CAN. На дисплее будут указаны параметры работы двигателя и коды неисправностей. Дисплей является шлюзом для передачи информации о ECM двигателя в NMEA 2000®. При установке у руля дисплею требуется уникальная программная нагрузка для системы управления C Command Connect и Connect Premier Marine Panel System и он **не** не является общим с другими системами управления Cummins®.
 
-The display software name and version can be found in the “About” menu screen.
+Имя и версия программного обеспечения дисплея можно найти на экране меню «О нас».
 
-The display comes preloaded with software and is updateable.
+Дисплей поставляется с предустановленным программным обеспечением и обновляется.
 
-When mounted at the helm, the display's vessel personality file will need to be updated for each vessel application at initial install by the OEM or, if replaced, during a service event.
+При установке у руля файл личности судна дисплея должен быть обновлен для каждой заявки на судно при первоначальной установке OEM или, если он будет заменен, во время мероприятия обслуживания.
 
-> [!note] Note · Примечание
-> Contact a Cummins® distributor for ED-4 display software and vessel personality file updates.
+> [!note] Примечание
+> Свяжитесь с дистрибьютором Cummins® для обновления программного обеспечения дисплея ED-4 и файлов личности судна.
 
 ![[15e00022.png]]
 
-The ED-4 display is an LCD that provides information to the operator.
+Дисплей ED-4 представляет собой ЖК-дисплей, который предоставляет информацию оператору.
 
-The user can interact with the display through keys (1 through 5) on the front of the display.
+Пользователь может взаимодействовать с дисплеем через клавиши (1-5) на передней панели дисплея.
 
-The function of the key is shown on the ED-4 screen above the key, which changes as selections are made.
+Функция ключа показана на экране ED-4 над ключом, который изменяется по мере выбора.
 
-A variety of engine and vessel data, fault/alarm codes, diagnostics, and configuration setups can be viewed on the ED-4 display.
+Различные данные о двигателе и сосуде, коды неисправностей / аварийных сигналов, диагностические и конфигурационные настройки можно просматривать на дисплее ED-4.
 
-Reference the sections below for general ED-4 access and setup information.
+Ссылка на разделы ниже для общего доступа ED-4 и информации о настройках.
 
-Contact a Cummins® distributor for setup information located in the Configuration page.
+Свяжитесь с дистрибьютором Cummins® для информации о настройках, расположенной на странице Конфигурация.
 
-> [!note] Note · Примечание
-> Modifying ED-4 settings in the Configuration page is **not** recommended. Doing so may result in loss of functionality of the system. Accessing the Configuration page is logged in the ED-4 internal memory.
+> [!note] Примечание
+> Изменение настроек ED-4 на странице Конфигурация не рекомендуется. Это может привести к потере функциональности системы. Доступ к странице конфигурации регистрируется во внутренней памяти ED-4.
 
 ![[00e00122.png]]
 
-When the system enable switch is pressed, the ED-4 powers on. While powering on, the Cummins® splash screen is shown.
+Когда система включает переключатель, ED-4 включается. При включении показан экран брызг Cummins®.
 
-> [!note] Note · Примечание
-> The ED-4 may take up to 15 seconds to complete the power-on sequence and establish communication with other ED-4s in the system.
+> [!note] Примечание
+> ED-4 может занять до 15 секунд, чтобы завершить последовательность включения питания и установить связь с другими ED-4 в системе.
 
 ![[00e00123.png]]
 
-Once the power-on sequence completes, the data screen page will display data.
+Как только последовательность включения питания завершится, страница экрана данных будет отображать данные.
 
-> [!note] Note · Примечание
-> Dashed lines indicate data is **not** being received for the given parameter or the vessel is **not** equipped to monitor it.
+> [!note] Примечание
+> По пунктирным линиям данные **не** принимаются по данному параметру или судно **не** оборудовано для контроля за ним.
 
-The ED-4 engine and vessel data will vary with application, but typically include:
+Данные о двигателе и судне ED-4 будут варьироваться в зависимости от применения, но обычно включают:
 
-- Engine speed
-- System battery voltage
-- Engine coolant temperature
-- Engine oil pressure
-- Transmission gear oil pressure and temperature
-- Rudder angle
-- Percent engine load
-- Engine hours
-- Fuel rate
-- Fuel level.
+- Скорость двигателя
+- Система питания аккумулятора
+- Температура охлаждающей жидкости двигателя
+- Давление масла в двигателе
+- Трансмиссионное оборудование давление и температура масла
+- угол наклона рулевого колеса
+- Процентная нагрузка двигателя
+- Двигатель часов
+- Расход топлива
+- Уровень топлива.
 
-Press key 1 or “Next” to view additional data screens.
-
-![[00e00124.png]]
-
-The display mode of the ED-4 can be changed by pressing key 2 or “Mode” on the data screen page.
-
-Action:
-
-- Press key 2 or “Mode”.
-
-The display modes are controlled by the VPF. For example, it allows the operator to change screens for single engine, twin engine, and generator set.
+Нажмите клавишу 1 или «Далее», чтобы просмотреть дополнительные экраны данных.
 
 ![[00e00124.png]]
 
-The software and vessel personality file information of the ED-4 display can be viewed by pressing key 5 or “Menu” on the data screen page.
+Режим отображения ED-4 можно изменить, нажав клавишу 2 или «Режим» на странице экрана данных.
 
-Action:
+Действие:
 
-- Press key 5 or “Menu”
-- Select “About” and press key 4 or “Enter”
-- Press key 3 or “VPF” for VPF information
-- Press key 4 or “Info” for software information.
+- Нажмите клавишу 2 или «Режим».
 
-Press key 5 or “Back” to exit the page.
+Режимы отображения контролируются VPF. Например, он позволяет оператору менять экраны для одного двигателя, двухдвигательного и генераторного агрегатов.
 
-Press key 5 or “Exit” to return to the data screen page.
+![[00e00124.png]]
+
+Программное обеспечение и информация о файле личности сосуда дисплея ED-4 можно просмотреть, нажав клавишу 5 или «Меню» на странице экрана данных.
+
+Действие:
+
+- Нажмите клавишу 5 или «Меню»
+- Выберите «О» и нажмите клавишу 4 или «Войти»
+- Нажмите клавишу 3 или «VPF» для информации о VPF
+- Нажмите клавишу 4 или «Информация» для информации о программном обеспечении.
+
+Нажмите клавишу 5 или «Назад», чтобы выйти из страницы.
+
+Нажмите клавишу 5 или «Выход» для возврата на страницу экрана данных.
 
 ![[00e00126.png]]
 
-When an engine or vessel fault condition becomes active, an alarm pop up screen will appear on the ED-4 data screen indicating a fault is present.
+Когда состояние неисправности двигателя или судна становится активным, на экране данных ED-4 появится экран всплывающего сигнала тревоги, указывающий на наличие неисправности.
 
-The ED-4 **only** provides select alarm pop up messages on the data screen depending on the engine and vessel application against which the operator would need to take action.
+ED-4 **только **обеспечивает выбор сообщений тревоги на экране данных в зависимости от приложения двигателя и судна, против которого оператору необходимо будет принять меры.
 
-The alarm pop message notification is controlled by the vessel personality file loaded in the ED-4.
+Уведомление о всплывающем сообщении контролируется файлом личности судна, загруженным в ED-4.
 
-> [!note] Note · Примечание
-> **Only** engine or vessel fault conditions that require defined actions will display on the ED-4 data screen as an alarm pop up message.
-
-![[00e00127.png]]
-
-When an alarm pop up message is shown, details about each fault can be viewed by pressing the ED-4 keys.
-
-Press key 1 or “Previous”
-
-Press key 2 or “Next”
-
-Press key 5 or “Close” to remove the alarm pop up message.
-
-> [!note] Note · Примечание
-> To acknowledge an alarm pop up message and silence the audible alarm, press key 5 or “Close”.
-
-> [!note] Note · Примечание
-> ED-4(s) can only acknowledge and silence alarms for the engine they are connected to. Depending on network system connections, it can be necessary to acknowledge alarms on multiple ED-4s in order to acknowledge faults from multiple engines. This can include accessing the C.I.B. ED-4(s) located in the engine room if an ED-4(s) is not installed at the helm.
+> [!note] Примечание
+> Только в условиях неисправности двигателя или судна, требующих определенных действий, на экране данных ED-4 будет отображаться сообщение о вскрытии сигнала тревоги.
 
 ![[00e00127.png]]
 
-Typical information shown on the data screen alarm pop up message:
+Когда отображается сообщение о вскрытии сигнала тревоги, детали о каждом неисправности можно просмотреть, нажав клавиши ED-4.
 
-1. Status and number of system faults
-2. Brief description of the fault and recommended action
-3. Type of fault (warning or critical)
-4. Source detecting the fault
-5. Cummins fault code (FC) or alarm code (AC).
+Нажмите клавишу 1 или «Предыдущее»
 
-Typically, FCs are associated with Cummins® engine sensors, while ACs are associated with vessel sensors.
+Нажмите клавишу 2 или «Далее»
+
+Нажмите клавишу 5 или «Закрыть», чтобы удалить всплывающее сообщение тревоги.
+
+> [!note] Примечание
+> Чтобы подтвердить всплывающее сообщение тревоги и заставить замолчать звуковую тревогу, нажмите клавишу 5 или «Закрыть».
+
+> [!note] Примечание
+> ED-4(ы) может распознавать и заглушать сигнализацию только для двигателя, к которому они подключены. В зависимости от сетевых системных соединений может потребоваться распознать сигнализацию на нескольких ЭД-4, чтобы распознать неисправности от нескольких двигателей. Это может включать в себя доступ к C.I.B. ED-4(s), расположенные в машинном отделении, если ED-4(s) не установлен у руля.
+
+![[00e00127.png]]
+
+Типичная информация, отображаемая на экране данных, всплывает сообщение:
+
+1. Состояние и количество системных неисправностей
+2. Краткое описание ошибки и рекомендуемые действия
+3. Тип ошибки (предупреждение или критическая)
+4. Источник, обнаруживающий неисправность
+5. Код неисправности Cummins (FC) или код тревоги (AC).
+
+Как правило, FC связаны с датчиками двигателя Cummins®, а AC связаны с датчиками сосудов.
 
 ![[00e00129.png]]
 
-Once an alarm pop up message has been acknowledged by the operator, the message will disappear.
+Как только оператор распознает сигнал тревоги, сообщение исчезает.
 
-The alarm bell lamp (1) will **not** disappear until 30 seconds after all faults go inactive.
+Сигнальная лампа (1) не исчезнет до 30 секунд после того, как все неисправности станут неактивными.
 
-The alarm pop up message can be brought back up on the screen for review by pressing key 4 or “Alarms”.
+Сообщение о всплывании сигнала тревоги может быть возвращено на экран для просмотра нажатием клавиши 4 или «Скорая помощь».
 
 ![[00e00130.png]]
 
-> [!note] Note · Примечание
-> The ED-4 Diagnostics page should **only** be used under the guidance of an authorized Cummins technician.
+> [!note] Примечание
+> Страница Диагностика ЭД-4 должна использоваться только под руководством уполномоченного специалиста Cummins.
 
-> [!note] Note · Примечание
-> Do **not** enable the “Demo Data” or “Demo Alarm” selections in the Diagnostics page. Doing so will cause false data and alarm messages to be shown on the ED-4 display data screen.
+> [!note] Примечание
+> Не включайте в раздел «Демоданные» или «Демо-сигнал тревоги» на странице «Диагностика». Это приведет к тому, что ложные данные и сообщения тревоги будут отображаться на экране данных дисплея ED-4.
 
 ![[00e00131.png]]
 
-MFD (Multifunction Display) (Helm-Mounted):
+MFD (Multifunction Display) (Многофункциональный дисплей):
 
-The MFD is connected with the engine ECM through a J1939 or NMEA 2000® data link.
+MFD соединен с двигателем ECM через шину данных J1939 или NMEA 2000® CAN.
 
-The MFD will indicate engine operating parameters and fault information.
+В МФД будут указаны параметры работы двигателя и информация о неисправности.
 
-The MFD is typically **not** supplied by Cummins Inc. See equipment manufacturer service information for service, setup, or software updates.
+MFD обычно не поставляется Cummins Inc. См. информацию об услугах производителя оборудования для обслуживания, настройки или обновления программного обеспечения.
 
 ![[15d00958.png]]
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-ED-5/ED-7 Display (Helm Mounted):
+Дисплей ED-5/ED-7 (Helm Mounted):
 
-The ED-5/ED-7 display **must** be supplied by Cummins due to software compatibility.
+Дисплей ED-5/ED-7 должен быть предоставлен компанией Cummins в связи с совместимостью программного обеспечения.
 
-The display is typically connected to the ECM through a SAE J1939 data link. The display will indicate engine operating parameters and fault codes. The display is the gateway for relaying engine ECM information to NMEA 2000® protocol.
+Дисплей обычно подключается к ECM через шину данных SAE J1939 CAN. На дисплее будут указаны параметры работы двигателя и коды неисправностей. Дисплей является шлюзом для передачи информации о ECM двигателя в протокол NMEA 2000®.
 
-The display software name and version can be found in the “About” menu screen.
+Имя и версия программного обеспечения дисплея можно найти на экране меню «О нас».
 
-The ED-5/ED-7 display comes from the factory with software and configuration installed. The ED-5/ED-7 display **must** be configured by the OEM when installed for each vessel. If the ED-5/ED-7 display is replaced during a service event, the software and configuration for each vessel **must** be installed.
+Дисплей ED-5/ED-7 поставляется с завода с установленным программным обеспечением и конфигурацией. Дисплей ED-5/ED-7 должен быть сконфигурирован OEM при установке для каждого судна. Если дисплей ED-5/ED-7 заменяется во время служебного мероприятия, необходимо установить программное обеспечение и конфигурацию для каждого судна.
 
-Contact a Cummins® authorized repair location for ED-5/ED-7 display software updates. The ED-5/ED-7 displays use the same software package.
+Свяжитесь с авторизованным местом ремонта Cummins® для обновления программного обеспечения дисплея ED-5/ED-7. Дисплеи ED-5/ED-7 используют один и тот же программный пакет.
 
 ![[00e00284.png]]
 
-The ED-5/ED-7 display is a touchscreen interface that provides information to the operator.
+Дисплей ED-5/ED-7 представляет собой сенсорный интерфейс, который предоставляет информацию оператору.
 
-The user can interact with the display through touchscreen interface of the display or through an optional remote keypad device.
+Пользователь может взаимодействовать с дисплеем через сенсорный интерфейс дисплея или через дополнительное удаленное устройство клавиатуры.
 
-There are different symbols on the ED-5/ED-7 display interface and menu structure.
+На интерфейсе дисплея ED-5/ED-7 и структуре меню присутствуют различные символы.
 
-1. Menu
-2. Backlight
-3. Alarm
-4. Back
-5. Preferences
-6. Security
-7. Trip Information
-8. Decrease
-9. Increase
+1. Меню
+2. Подсветка
+3. Тревога
+4. Назад
+5. Предпопоказаний
+6. Безопасность
+7. Информация о поездке
+8. уменьшать
+9. увеличение
 
 ![[00e00285.png]]
 
-The engine and vessel data, fault/alarm codes, diagnostics, and configuration setups can be viewed on the ED-5/ED-7 display. Reference the sections below for general ED-5/ED-7 access and setup information. Contact a Cummins® authorized repair location for setup information located in the Security page protected with a PIN. Modifying the ED-5/ED-7 Security settings in the Main Menu can result in loss of functionality of the system.
+Данные двигателя и судна, коды неисправностей/сигналов тревоги, диагностические и конфигурационные настройки можно просматривать на дисплее ED-5/ED-7. Ссылка на разделы ниже для общего доступа и информации о настройках ED-5/ED-7. Свяжитесь с авторизованным местом ремонта Cummins® для информации о настройке, расположенной на защищенной странице безопасности с PIN-кодом. Изменение настроек безопасности ED-5/ED-7 в главном меню может привести к потере функциональности системы.
 
 ![[00e00286.png]]
 
-When the system enable switch is pressed, the ED-5/ED-7 powers on. While powering on, the Cummins® splash screen is shown.
+Когда система включает переключатель, ED-5/ED-7 включается. При включении показан экран брызг Cummins®.
 
-> [!note] Note · Примечание
-> The ED-5/ED-7 can take up to 10 seconds to complete the power-on sequence and establish communication with other ED-4/ED-5/ED-7 displays in the system.
+> [!note] Примечание
+> ED-5/ED-7 может занять до 10 секунд, чтобы завершить последовательность включения питания и установить связь с другими дисплеями ED-4/ED-5/ED-7 в системе.
 
 ![[00e00287.png]]
 
-Once the power-on sequence completes, the data screen page will display data.
+Как только последовательность включения питания завершится, страница экрана данных будет отображать данные.
 
-Dashed lines indicate data is **not** being received for the given parameter or the vessel is **not** equipped to monitor the parameter data.
+По пунктирным линиям данные **не** принимаются по данному параметру или судно **не** оборудовано для мониторинга данных по параметру.
 
-The ED-5/ED-7 engine and vessel data will vary with application, but typically include:
+Данные о двигателе и сосуде ED-5/ED-7 будут варьироваться в зависимости от применения, но обычно включают:
 
-- Engine speed
-- System battery voltage
-- Engine coolant temperature
-- Engine oil pressure
-- Engine boost pressure
-- Intake Manifold temperature
-- Transmission gear oil pressure and temperature
-- Rudder angle
-- Percent engine load
-- Engine hours
-- Fuel rate
-- Fuel level
+- Скорость двигателя
+- Система питания аккумулятора
+- Температура охлаждающей жидкости двигателя
+- Давление масла в двигателе
+- Двигатель повышает давление
+- Температура коллектора
+- Трансмиссионное оборудование давление и температура масла
+- угол наклона рулевого колеса
+- Процентная нагрузка двигателя
+- Двигатель часов
+- Расход топлива
+- Уровень топлива
 
-Swipe the screen left to right or right to left on the screen to view additional data screens.
+Прокрутите экран слева направо или справа налево на экране, чтобы просмотреть дополнительные экраны данных.
 
 ![[00e00288.png]]
 
-The software and configuration information of the ED-5/ED-7 display can be viewed by touch and hold in the center of the screen or press on the “Menu” (I) on the data screen page.
+Программное обеспечение и информация о конфигурации дисплея ED-5/ED-7 можно просматривать на ощупь и удерживать в центре экрана или нажимать на «Меню» (I) на странице экрана данных.
 
-Action:
+Действие:
 
-- Touch and hold in the center of the screen or press the “Menu” (I).
-- Select “About” for software information
-- Select “Config” for configuration information.
+- Прикоснитесь и удерживайте в центре экрана или нажмите «Меню» (I).
+- Выберите «О нас» для информации о программном обеспечении
+- Выберите «Конфигурация» для информации о конфигурации.
 
-Swipe the screen left to right or use the “Back” (IV) soft key on the screen to exit the page.
+Прокрутите экран слева направо или используйте мягкий ключ «Назад» (IV) на экране, чтобы выйти из страницы.
 
 ![[00e00289.png]]
 
-When an engine or vessel fault condition becomes active, an alarm pop up screen will appear on the ED-5/ED-7 data screen indicating a fault is present.
+Когда состояние неисправности двигателя или судна становится активным, на экране данных ED-5/ED-7 появится экран всплывающего сигнала тревоги, указывающий на наличие неисправности.
 
-**Only** engine or vessel fault conditions that require defined actions will display on the ED-5/ED-7 data screen as an alarm pop up message.
+Только в условиях неисправности двигателя или судна, требующих определенных действий, на экране данных ED-5/ED-7 будет отображаться сообщение о вскрытии сигнала тревоги.
 
 ![[00e00290.png]]
 
-When an alarm pop up message is shown and more than one fault code is active, details about each fault can be viewed by swiping the screen left to right.
+Когда отображается сообщение о вскрытии сигнала тревоги и активен более одного кода неисправности, детали о каждом неисправности можно просмотреть, проведя по экрану слева направо.
 
-- Press “Prev”
-- Press “Next”
+- Пресс-релиз «Prev»
+- Нажмите «Далее»
 
-Swipe on the screen left to right or use the “Back”(IV) soft key on the screen to exit the alarm pop up message.
+Прокрутите на экране слева направо или используйте мягкий ключ «Назад» (IV) на экране, чтобы выйти из сообщения о всплывании сигнализации.
 
-To acknowledge an alarm pop up message and silence the audible alarm, Swipe left to right or use the “Back”(IV) soft key or return button on remote keypad to exit the alarm pop up message.
+Чтобы подтвердить всплывающее сообщение тревоги и заглушить звуковое сообщение, прокрутите слева направо или используйте мягкий ключ «Назад» (IV) или кнопку возврата на удаленной клавиатуре, чтобы выйти из всплывающего сообщения тревоги.
 
-ED-5/ED-7 displays can only acknowledge and silence alarms for the engine to which they are connected. Depending on network system connections, it can be necessary to acknowledge alarms on multiple ED-5/ED-7 displays to acknowledge faults from multiple engines.
+Дисплеи ED-5/ED-7 могут распознавать и заглушать сигнализацию только для двигателя, к которому они подключены. В зависимости от сетевых системных соединений может потребоваться распознать сигнализацию на нескольких дисплеях ED-5/ED-7, чтобы распознать неисправности от нескольких двигателей.
 
-Typical information shown on the data screen alarm pop up message:
+Типичная информация, отображаемая на экране данных, всплывает сообщение:
 
-1. Status and number of system faults
-2. Brief description of the fault and recommended action
-3. Type of fault (warning or critical)
-4. Source detecting the fault
-5. Cummins® fault code (FC) or alarm code (AC).
+1. Состояние и количество системных неисправностей
+2. Краткое описание ошибки и рекомендуемые действия
+3. Тип ошибки (предупреждение или критическая)
+4. Источник, обнаруживающий неисправность
+5. Код неисправности Cummins® (FC) или код тревоги (AC).
 
-Typically, fault codes are associated with Cummins® engine sensors, while ACs are associated with vessel sensors.
+Как правило, коды неисправностей связаны с датчиками двигателя Cummins®, а переменные тока связаны с датчиками сосудов.
 
 ![[00e00291.png]]
 
-Once an alarm pop up message has been acknowledged by the operator, the pop up message is closed and can be brought back up on screen by pressing the “Alarm”(III) soft key on the screen. The ED-5/ED-7 Diagnostics page should **only** be used under the guidance of a Cummins®-authorized service provider. Enabling the “Demo Data” selections in the Diagnostics page will cause false data and alarm messages to be shown on the ED-5/ED-7 display data screen. The Advanced alarm screen shows additional details related to the active fault code – J1939 SPN, J1939 FMI, Cummins® Fault Code, source of fault code, manufacturer identification, engine hours, occurrence count. Time since alarm is the time elapsed since the fault code became active and is counted locally on the display and will update at every instance of display restart.
+После того, как оператор распознает всплывающее сообщение, всплывающее сообщение закрывается и может быть восстановлено на экране, нажав на мягкий ключ «Alarm» (III) на экране. Страница Диагностика ED-5/ED-7 должна использоваться только под руководством уполномоченного поставщика услуг Cummins®. Включение выбора «Демо-данных» на странице «Диагностика» приведет к отображению ложных данных и сообщений тревоги на экране данных дисплея ED-5 / ED-7. На экране Advanced alarm отображаются дополнительные детали, связанные с активным кодом неисправности - J1939 SPN, J1939 FMI, кодом неисправности Cummins®, источником кода неисправности, идентификацией производителя, часами работы двигателя, количеством входящих в систему. Время с момента тревоги - это время, прошедшее с момента активации кода неисправности, которое учитывается локально на дисплее и обновляется при каждом перезапуске дисплея.
 
 ![[00e00292.png]]
 
-### Setup
+### Настройка
 
 PS102
 
-The brightness of the ED-4 display can be changed by pressing key 3 or “Light” on the data screen page.
+Яркость дисплея ED-4 можно изменить, нажав клавишу 3 или «Свет» на странице экрана данных.
 
-Action:
+Действие:
 
-- Press key 3 or “Light”
-- Press key 1 or “Dimmer”
-- Press key 2 or “Brighter”.
+- Нажмите клавишу 3 или «Свет»
+- Нажмите клавишу 1 или «Dimmer»
+- Нажмите клавишу 2 или «Ярче».
 
-The percent brightness of the display is shown above key 3 and ranges from 10 to 100%.
+Процент яркости дисплея показан выше ключа 3 и колеблется от 10 до 100%.
 
-Press key 5 or “Back” to save the setting and exit the brightness setting.
+Нажмите клавишу 5 или «Назад», чтобы сохранить настройку и выйти из настройки яркости.
 
 ![[00e00132.png]]
 
 PS103
 
-The brightness of the ED-4 display can be changed by pressing key 3 or “Function” on the data screen page.
+Яркость дисплея ED-4 можно изменить, нажав клавишу 3 или «Функцию» на странице экрана данных.
 
-#### Action:
+#### Действие:
 
-- Press key 3 or “Function”
-- Press key 3 or “Dimmer”
-- Press key 4 or “Brighter”.
+- Нажмите клавишу 3 или «Функция»
+- Нажмите клавишу 3 или «Dimmer»
+- Нажмите клавишу 4 или «Ярче».
 
-The percent brightness of the display is shown in the Brightness row and ranges from 10 to 100%.
+Процент яркости дисплея показан в строке Яркость и колеблется от 10 до 100%.
 
-Press key 5 or “Exit” to save the setting and exit the brightness setting.
+Нажмите клавишу 5 или «Выход», чтобы сохранить настройку и выйти из настроек яркости.
 
 ![[15e00190.png]]
 
-If equipped, the trip reset of the ED-4 can be changed by pressing key 3 or “Function” on the data screen page.
+При оснащении сброс поездки ED-4 можно изменить, нажав клавишу 3 или «Функцию» на странице экрана данных.
 
-#### Action:
+#### Действие:
 
-- Press key 3 or “Function”
-- Press key 2 or “Down”
-- Press key 4 or “Choose”
-- Press key 4 or “Send”.
+- Нажмите клавишу 3 или «Функция»
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 или «Выбрать»
+- Нажмите клавишу 4 или «Отправить».
 
-If feature is available, pressing “send” will reset the trip information. A warning message will appear after pressing “Send” to notify that the trip reset message was sent.
+Если функция доступна, нажатие «отправить» сбросит информацию о поездке. Предупреждающее сообщение появится после нажатия «Отправить», чтобы уведомить о том, что сообщение о сбросе поездки было отправлено.
 
-Press key 5 or “Back” to save the setting and exit the trip reset setting.
+Нажмите клавишу 5 или «Назад», чтобы сохранить настройку и выйти из настройки сброса поездки.
 
 ![[15e00191.png]]
 
-The fluid tank profile can be changed by pressing key 5 or “Menu” on the data screen page.
+Профиль резервуара с жидкостью можно изменить, нажав клавишу 5 или «Меню» на странице экрана данных.
 
-#### Action:
+#### Действие:
 
-- Press key 5 or “Menu”
-- Select “Configuration” and press key 4 or “Enter”
-- Press key 1 or “Accept”
-- Select “Device and press key 4 or “Enter” (NOTE: Device could be any of Starboard, Port, Starboard-Outer, Port-Inner)
-- Select “Tank Profile” and press key 4 or “Enter”
-- Select appropriate fluid to be configured
-- Press key 4 or “Setup”
-- Press key 4 or “Start”.
+- Нажмите клавишу 5 или «Меню»
+- Выберите «Конфигурация» и нажмите клавишу 4 или «Войти»
+- Нажмите клавишу 1 или «Принять»
+- Выберите «Устройство и нажмите клавишу 4 или «Введите» (Примечание:) Устройство может быть любым из Starboard, Port, Starboard-Outer, Port-Inner.
+- Выберите «Профиль танка» и нажмите клавишу 4 или «Войти».
+- Выберите подходящую жидкость для настройки
+- Нажмите клавишу 4 или «Настройка»
+- Нажмите клавишу 4 или «Начать».
 
-The fuel, engine oil, coolant, fresh water, wastewater and black water tanks can be configured with the ED-4, if vessel permits.
+Топливо, моторное масло, охлаждающая жидкость, пресная вода, сточные воды и резервуары для черной воды могут быть сконфигурированы с помощью ED-4, если позволяет судно.
 
-A message will appear on the ED-4 display which will ask to confirm tank is empty before proceeding configuration.
+На дисплее ED-4 появится сообщение, в котором будет указано, что резервуар пуст, прежде чем приступить к конфигурации.
 
 ![[00e00176.png]]
 
-The fluid tank profile can be changed by pressing key 5 or “Menu” on the data screen page, if configured tank levels are known at 25%, 50% & 75% of tank capacity. The fuel, engine oil, coolant, fresh water, wastewater and black water tanks can be configured with the ED4, if vessel permits and VPF supports the input for configuration.
+Профиль резервуара с жидкостью можно изменить, нажав клавишу 5 или «Меню» на странице экрана данных, если известны конфигурированные уровни резервуара при 25, 50 и 75 % емкости резервуара. Топливо, моторное масло, охлаждающая жидкость, пресная вода, сточные воды и резервуары для черной воды могут быть сконфигурированы с помощью ED4, если позволяет судно и VPF поддерживает вход для конфигурации.
 
-#### Action:
+#### Действие:
 
-- Press key 5 or “Menu”
-- Select “Configuration” and press key 4 or “Enter”
-- Press key 1 or “Accept”
-- Select “Device” and press key 4 or “Enter” (NOTE: Device could be any of Starboard, Port, Starboard-Outer, Port-Inner)
-- Select “Tank Profile” and press key 4 or “Enter”
-- Select fluid type to be configured
-- Press key 4 or “Setup”
-- Press key 2 or “Down”
-- Press key 4 or “Start”
-- Select “Tank Volume”
-- Press key 4 or “Inc” and key 3 or “Dec” to enter “Tank Volume”
-- Press key 2 or “Down”
-- Press key 4 or “Inc” and key 3 or “Dec” to enter 25% tank level known at “Point 1”
-- Press key 2 or “Down”
-- Press key 4 or “Inc” and key 3 or “Dec” to enter 50% tank level known at “Point 2”
-- Press key 2 or “Down”
-- Press key 4 or “Inc” and key 3 or “Dec” to enter 75% tank level known at “Point 3”
+- Нажмите клавишу 5 или «Меню»
+- Выберите «Конфигурация» и нажмите клавишу 4 или «Войти»
+- Нажмите клавишу 1 или «Принять»
+- Выберите «Устройство» и нажмите клавишу 4 или «Ввести» (Примечание: Устройство может быть любым из Starboard, Port, Starboard-Outer, Port-Inner.
+- Выберите «Профиль танка» и нажмите клавишу 4 или «Войти».
+- Выберите тип жидкости, который должен быть сконфигурирован
+- Нажмите клавишу 4 или «Настройка»
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 или «Начать»
+- Выберите «Танковый объем»
+- Нажмите клавишу 4 или «Inc», а также клавишу 3 или «Dec», чтобы ввести «Танковый том».
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 или «Inc», а также клавишу 3 или «Dec», чтобы войти в 25-процентный уровень резервуара, известный в «Точка 1».
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 или «Inc», а также клавишу 3 или «Dec», чтобы войти в 50% уровень резервуара, известный в «Точка 2».
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 или «Inc», а также клавишу 3 или «Dec», чтобы войти на уровень 75 % резервуара, известный в «Точка 3».
 
-The Main Menu page of the ED-4 display can be accessed by pressing key 5 or “Menu” on the data screen page.
+На главную страницу меню дисплея ED-4 можно получить доступ, нажав клавишу 5 или «Меню» на странице экрана данных.
 
-#### Action:
+#### Действие:
 
-- Press key 5 or “Menu”.
+- Нажмите клавишу 5 или «Меню».
 
-Press key 5 or “Exit” to return to the data screen page.
+Нажмите клавишу 5 или «Выход» для возврата на страницу экрана данных.
 
 ![[00e00133.png]]
 
-The language of the ED-4 display can be changed by pressing key 5 or “Menu” on the data screen page.
+Язык дисплея ED-4 можно изменить, нажав клавишу 5 или «Меню» на странице экрана данных.
 
-Action:
+Действие:
 
-- Press key 5 or “Menu”
-- Select “Language” and press key 4 or “Change”
-- Select the preferred language and press key 4 or “Enter”.
+- Нажмите клавишу 5 или «Меню»
+- Выберите «Язык» и нажмите клавишу 4 или «Изменить»
+- Выберите предпочтительный язык и нажмите клавишу 4 или «Войти».
 
-Press key 5 or “Back” to save the setting and exit the page.
+Нажмите клавишу 5 или «Назад», чтобы сохранить настройку и выйти из страницы.
 
-Press key 5 or “Exit” to return to the data screen page.
+Нажмите клавишу 5 или «Выход» для возврата на страницу экрана данных.
 
 ![[00e00134.png]]
 
-The units of the ED-4 display can be changed by pressing key 5 or “Menu” on the data screen page.
+Единицы дисплея ED-4 можно изменить, нажав клавишу 5 или «Меню» на странице экрана данных.
 
-Action:
+Действие:
 
-- Press key 5 or “Menu”
-- Select “Units” and press key 4 or “Enter”
-- Select each parameter and press key 4 or “Change” to view the desired units.
+- Нажмите клавишу 5 или «Меню»
+- Выберите «Единицы» и нажмите клавишу 4 или «Войти»
+- Выберите каждый параметр и нажмите клавишу 4 или «Изменить», чтобы просмотреть нужные блоки.
 
-Press key 5 or “Back” to save the setting and exit the page.
+Нажмите клавишу 5 или «Назад», чтобы сохранить настройку и выйти из страницы.
 
-Press key 5 or “Exit” to return to the data screen page.
+Нажмите клавишу 5 или «Выход» для возврата на страницу экрана данных.
 
 ![[00e00135.png]]
 
-The key tone of the ED-4 display can be changed to ON or OFF by pressing key 5 or “Menu” on the data screen page.
+Тон клавиши дисплея ED-4 можно изменить на Включить или Выключить, нажав клавишу 5 или «Меню» на странице экрана данных.
 
-Action:
+Действие:
 
-- Press key 5 or “Menu”
-- Select “Key Tone” and press key 4 or “Change”.
+- Нажмите клавишу 5 или «Меню»
+- Выберите «Ключевой тон» и нажмите клавишу 4 или «Изменить».
 
-Press key 5 or “Exit” to save the setting and exit the page.
+Нажмите клавишу 5 или «Выход», чтобы сохранить настройку и выйти из страницы.
 
 ![[00e00136.png]]
 
-Contact a Cummins distributor for setup information located in the Configuration® page.
+Свяжитесь с дистрибьютором Cummins для информации о настройках, расположенной на странице Configuration®.
 
-> [!note] Note · Примечание
-> Modifying ED-4 settings in the Configuration page is **not** recommended. Doing so may result in loss of functionality of the C Command system. Accessing the Configuration page is logged in the ED-4 internal memory.
+> [!note] Примечание
+> Изменение настроек ED-4 на странице Конфигурация не рекомендуется. Это может привести к потере функциональности системы командования C. Доступ к странице конфигурации регистрируется во внутренней памяти ED-4.
 
 ![[00e00137.png]]
 
 PS108
 
-The brightness menu of the ED-5/ED-7 display can be changed by pressing “Backlight”(II)” on the data screen page or touch and hold in the center of the screen or by pressing the “Menu”(I) on the data screen page.
+Меню яркости дисплея ED-5/ED-7 можно изменить, нажав «Задний свет» (II) на странице экрана данных или нажмите на кнопку «Прикоснуться» и удерживайте в центре экрана или нажав «Меню» (I) на странице экрана данных.
 
-Action:
+Действие:
 
-- Access “Menu”(I)
-- Select “Preferences”(V)
-- In the “Backlight” option, select “Increase”(IX) or “Decrease”(VIII) backlight of the display from range 10 to 100.
+- Доступ к «Menu»(I)
+- Выберите «Предпопоказаний» (V)
+- В опции «Задний свет» выберите «Увеличить» (IX) или «Уменьшеть» (VIII) подсветку дисплея от 10 до 100.
 
-Swipe left to right on screen or use the “Back”(IV) soft key to exit and save the setting. The setting once saved gets shared with other ED-7/ED-5 and ED-4s displays on the network. See additional graphics below of the preferences menu and backlight setting.
+Прокрутите слева направо на экране или используйте мягкий ключ «Назад» (IV) для выхода и сохранения настроек. После сохранения настройки она будет совместно использоваться с другими дисплеями ED-7/ED-5 и ED-4 в сети. Смотрите дополнительную графику ниже меню предпочтений и настройки подсветки.
 
 ![[00e00294.png]]
 
 ![[00e00295.png]]
 
-Preferences Menu
+Меню предпочтений
 
 ![[00e00293.png]]
 
-Setting Backlight Option in Preferences Menu
+Настройка опции подсветки в меню предпочтений
 
-The trip information of the ED-5/ED-7 is shown in the “Trip Information” on the menu screen page.
+Информация о поездке ED-5/ED-7 отображается в разделе «Информация о поездке» на странице меню.
 
-Action:
+Действие:
 
-- Touch and hold in the center of the data screen or Press “Menu”(I) on the data screen page.
-- Press “Trip Information”(VII) in the menu page.
+- Прикоснитесь и удерживайте в центре экрана данных или нажмите «Menu» (I) на странице экрана данных.
+- Нажмите «Информация о поездке» (VII) на странице меню.
 
 ![[00e00296.png]]
 
-Pressing “Trip Information Reset” will reset the trip information. A warning message will appear after pressing “Trip Information Reset” to notify that the trip reset message was sent.
+Нажатие «Trip Information Reset» перезагрузит информацию о поездке. Предупреждающее сообщение появится после нажатия «Trip Information Reset», чтобы уведомить о том, что сообщение было отправлено.
 
-Swipe left to right or use “Back”(IV) soft key on the screen to exit the trip reset setting.
+Прокрутите слева направо или используйте мягкий ключ «Назад» (IV) на экране, чтобы выйти из настройки сброса поездки.
 
 ![[00e00297.png]]
 
-The language of the ED-5/ED-7 display can be changed by “Language” option in the “Preferences”(V)) option in the “Menu”(I).
+Язык дисплея ED-5/ED-7 может быть изменен опцией «Язык» в опции «Предпопоказаний» (V) в «Меню» (I).
 
-Action:
+Действие:
 
-- Touch and hold in the center of the data screen or Press “Menu”(I) icon on the data screen page.
-- Select “Preferences”(V)”.
-- Select “Language”.
-- Select the preferred language.
+- Прикоснитесь и удерживайте в центре экрана данных или нажмите значок «Menu» (I) на странице экрана данных.
+- Выберите «Предпопоказаний» (V).
+- Выберите «Язык».
+- Выберите предпочтительный язык.
 
-Swipe left to right to save or use ”Back”(IV) soft key on the screen to exit the language setting. See additional graphics below listing all available language options.
+Прокрутите слева направо, чтобы сохранить или использовать мягкий ключ «Назад» (IV) на экране, чтобы выйти из настройки языка. Смотрите дополнительную графику ниже, в которой перечислены все доступные языковые параметры.
 
 ![[00e00298.png]]
 
 ![[00e00299.png]]
 
-Language Selection
+Выбор языка
 
-The units of the ED-5/ED-7 display can be changed by “Units” option in the “Preferences”(V) option in the “Menu”.
+Единицы дисплея ED-5/ED-7 могут быть изменены опцией «Единицы» в опции «Предпопоказаний» (V) в «Меню».
 
-Action:
+Действие:
 
-- Touch and hold in the center of the data screen or Press “Menu”(I) icon on the data screen page.
-- Select “Preferences”(V).
-- Select “Units”.
-- Select the desired units for each parameter unit family to change or option to change between US and Metric unit family.
+- Прикоснитесь и удерживайте в центре экрана данных или нажмите значок «Menu» (I) на странице экрана данных.
+- Выберите «Предпопоказаний» (V).
+- Выберите «Единицы».
+- Выберите нужные единицы для каждого семейства единиц измерения, чтобы изменить или изменить вариант между семейством единиц измерения и семейством единиц измерения.
 
-Swipe left to right or use ”Back”(IV) soft key on the screen to save and exit the Units setting. See additional graphics below listing all available units for each parameter family.
+Прокрутите слева направо или используйте мягкий ключ «Назад» (IV) на экране, чтобы сохранить и выйти из настройки «Единицы». Дополнительные графические изображения ниже перечисляют все доступные единицы для каждого семейства параметров.
 
 ![[00e00300.png]]
 
 ![[00e00301.png]]
 
-Units Selection
+Единицы выбора
 
-The key tone of the ED-5/ED-7 display can be changed to “Bleep” option in the “Preferences”(V) option in the “Menu”.
+Ключевой тон дисплея ED-5/ED-7 может быть изменен на опцию «Bleep» в опции «Preferences» (V) в «Menu».
 
-Action:
+Действие:
 
-- Touch and hold in the center of the data screen or Press “Menu”(I) icon on the data screen page.
-- Select “Preferences”(V).
-- Select “Bleep” or the value to change.
+- Прикоснитесь и удерживайте в центре экрана данных или нажмите значок «Menu» (I) на странице экрана данных.
+- Выберите «Предпопоказаний» (V).
+- Выберите «Сон» или значение изменения.
 
-Swipe on the screen left to right or use “Back“(IV) soft key to save and exit the bleep setting. See additional graphics below for bleep tone selection in the Preferences Menu.
+Прокрутите экран слева направо или используйте мягкий ключ «Назад» (IV), чтобы сохранить и выйти из настройки блефа. Дополнительные графические элементы для выбора блеф-тонов см. ниже в меню «Предпопоказаний».
 
 ![[00e00302.png]]
 
 ![[00e00303.png]]
 
-Bleep Tone Selection in Preferences Menu
+Выбор тонуса для сна в меню предпочтений
 
-The ED-5/ED-7 display provides PIN protection with a 4-digit number that prevents someone unauthorized to change advanced configuration of the display. The PIN protection can be accessed from “Menu”(I) on the data screen page. The default security level is “User” level with limited capability, for advanced level user needs to access “Diagnostic” level with factory saved PIN.
+Дисплей ED-5/ED-7 обеспечивает защиту PIN-кода 4-значным номером, что предотвращает несанкционированное изменение расширенной конфигурации дисплея. К PIN-защите можно получить доступ из «Menu» (I) на странице экрана данных. Уровень безопасности по умолчанию — это уровень «Пользователь» с ограниченными возможностями, для пользователей расширенного уровня необходимо получить доступ к «Диагностическому» уровню с сохраненным PIN-кодом.
 
-The default security PIN to access advanced settings is “1919”. Sharing the default security PIN without proper knowledge may lead to unintended changes causing loss or erratic function.
+PIN-код безопасности по умолчанию для доступа к расширенным настройкам - «1919». Обмен PIN-кодом безопасности по умолчанию без надлежащего знания может привести к непреднамеренным изменениям, вызывающим потерю или неустойчивую функцию.
 
-Action:
+Действие:
 
-- Touch and hold in the center of the data screen or press icon on the data screen page.
-- Select “Security”(VI) icon.
-- Select “Change Level”.
-- Select “Diagnostic”.
-- Enter the PIN using the number pad provided on the display screen.
-- Select “OK”.
+- Прикоснитесь и удерживайте в центре экрана данных или нажмите значок на странице экрана данных.
+- Выберите значок «Безопасность» (VI).
+- Выберите «Изменить уровень».
+- Выберите «Диагностика».
+- Введите PIN-код с помощью номерной панели, предоставленной на экране дисплея.
+- Выберите «ОК».
 
-Swipe left to right or use “Back”(IV) soft key on the screen to save, exit the security menu and access the diagnostic menu. See additional graphics below for Security menu selections and security pin entry.
+Прокрутите слева направо или используйте мягкий ключ «Назад» (IV) на экране, чтобы сохранить, выйти из меню безопасности и получить доступ к диагностическому меню. Дополнительные графики см. ниже для выбора меню безопасности и ввода штифта безопасности.
 
 ![[00e00304.png]]
 
 ![[00e00305.png]]
 
-Change Level Selection in Security Menu
+Выбор уровня изменения в меню безопасности
 
 ![[00e00306.png]]
 
-Diagnostic Selection in Security Menu
+Диагностический выбор в меню безопасности
 
 ![[00e00307.png]]
 
-Security Pin Entry
+Безопасность Pin Entry
 
-The application configuration or theme of the ED-5/ED-7 display can be changed by accessing “Themes” from the PIN protected option in the security menu.
+Конфигурацию приложения или тему дисплея ED-5/ED-7 можно изменить, зайдя в меню безопасности в меню «Темы» из защищенной PIN-кода.
 
-User **must** know the valid PIN to access the Diagnostic security level.
+Пользователь **должен** знать действительный PIN-код для доступа к уровню безопасности Диагностики.
 
-Action:
+Действие:
 
-- Touch and hold in the center of the data screen or Press “Menu”(I) icon on the data screen page.
-- Select “Security”(VI).
-- Select “Change Level”.
-- Select “Diagnostic”.
-- Enter the PIN using the number pad provided on the display screen.
-- Select “OK”.
-- Swipe left to right to exit the PIN protection screen.
-- Select “Setup”.
-- Select “Themes”.
-- Select “Theme”.
-- Choose theme based on vessel application.
+- Прикоснитесь и удерживайте в центре экрана данных или нажмите значок «Menu» (I) на странице экрана данных.
+- Выберите «Безопасность» (VI).
+- Выберите «Изменить уровень».
+- Выберите «Диагностика».
+- Введите PIN-код с помощью номерной панели, предоставленной на экране дисплея.
+- Выберите «ОК».
+- Прокрутите слева направо, чтобы выйти из экрана защиты PIN-кода.
+- Выберите «Setup».
+- Выберите «Темы».
+- Выберите «Тема».
+- Выберите тему, основанную на применении судна.
 
-Swipe left to right or use the “Back”(IV) soft key on the screen to save, exit the security menu and access the diagnostic menu.
+Прокрутите слева направо или используйте мягкий ключ «Назад» (IV) на экране, чтобы сохранить, выйти из меню безопасности и получить доступ к диагностическому меню.
 
-The supported ED-5/ED-7 display themes compatible with vessel application configuration can be accessed from Cummins QuickServe® Online Marine Panel Firmware Updates. See additional graphics below for Themes menu selections.
+Поддерживаемые темы дисплея ED-5/ED-7, совместимые с конфигурацией приложения судна, можно получить в Cummins QuickServe® Online Marine Panel Firmware Updates. Дополнительные графические элементы см. ниже для выбора меню Темы.
 
 ![[00e00308.png]]
 
 ![[00e00309.png]]
 
-Themes in Setup Menu
+Темы в меню Setup
 
 ![[00e00310.png]]
 
-Theme Selection in Theme Manager Menu
+Выбор темы в меню Менеджер темы
 
 ![[00e00311.png]]
 
-Available Themes
+Доступные темы
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> ED-4
+>
+> The C Command Connect and Connect Premier Marine Panel System is used to monitor basic vessel sensors, engine operating characteristics, and to control engine start and stop functions.
+>
+> The C Command Connect and Connect Premier Marine Panel System is comprised of the following components the operator can interface with, which may or may **not** be supplied by Cummins Inc.:
+>
+> - System enable switch (Cummins® or original equipment manufacturer (OEM)-supplied)
+> - Start switch (Cummins® or OEM-supplied)
+> - Stop switch (Cummins® or OEM-supplied)
+> - External alarm horn (Cummins® or OEM-supplied)
+> - Customer interface box (C.I.B.) (Cummins®-supplied **only**)
+> - Display (Cummins® or OEM-supplied).
+>
+> **Note · Примечание**
+> The ED-4 display is **only** supplied by Cummins Inc.
+>
+> **CAUTION · Осторожно**
+> If a non-Cummins® supplied engine instrumentation and/or alarm system is utilized, it is the owner's responsibility to verify the engine alarm communication (visual and audible) to the operator is enabled and functional while operating the engine. • This includes aftermarket additions or modifications to the engine instrumentation and/or alarm system. • Be aware that software updates to non-Cummins® supplied engine instrumentation may inadvertently disable the engine instrumentation and/or alarm functionality. • Cummins Inc. is not responsible for failures or damage resulting from use of engine instrumentation and alarm systems that are not supplied by a Cummins® factory.
+>
+> The system enable switch turns on the Cummins® C Command Connect and Connect Premier Marine Panel System. It is typically located at the main helm station and can either be the vessel's main key switch or wired separately to a remote toggle switch.
+>
+> The control system and engine control module (ECM) receives switched battery input from the system enable switch when the switch is pushed to the ON position. The switch is used to send a "wake" signal to the engine ECM. The switch can also be used to shut off the engine by removing power from the entire control system.
+>
+> **Note · Примечание**
+> If equipped, battery disconnect switch(s) should be left energized one minute after system enable switch off. Failure to do so may cause improper ECM power downs resulting in interruptions of trip data writing to long term memory.
+>
+> The Cummins®-supplied switch is shown.
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of damage to the starting motor, do not engage the starting motor for more than 30 seconds. Wait 2 minutes between each attempt to start (electrical starting motors only).
+>
+> **CAUTION · Осторожно**
+> Unless the engine is equipped with starter lock out capability, activating the start switch while the engine is running will engage the starter and may result in engine damage.
+>
+> PS102
+>
+> The start switch is typically located on the helm panel.
+>
+> The switch is pressed and held to start the engine. Typically, the switch is held for less than 5 seconds to start the engine.
+>
+> A single quick press of the start switch will engage the starter, but will **not** start the engine.
+>
+> Some engines are equipped with an engine starting motor protection feature. If the starting motor is engaged for 30 or more seconds, without the engine starting, the starter will be locked out from operating, allowing for proper cooling of the starting motor for 2 minutes.
+>
+> The Cummins®-supplied switch is shown.
+>
+> The stop switch is typically located on the helm panel.
+>
+> The Cummins®-supplied switch has a light that illuminates when an engine stop signal is engaged. The light will illuminate if an engine stop signal is engaged at any stop switch location on the vessel.
+>
+> The stop switch is pressed and held to stop the engine. Typically the stop switch should be held for 5 seconds to stop the engine.
+>
+> A single quick press of the stop switch will interrupt the system enable signal to the engine ECM, but will **not** stop the engine.
+>
+> The Cummins®-supplied switch is shown.
+>
+> PS103
+>
+> The start switch is typically located on the helm panel.
+>
+> A single quick press up (2) of the start / stop switch (1) will engage the starter, and start the engine.
+>
+> If the starting motor is engaged for 30 or more seconds, without the engine starting, the starter will be locked out from operating, allowing for proper cooling of the starting motor for 2 minutes.
+>
+> The Cummins®-supplied switch is shown.
+>
+> **CAUTION · Осторожно**
+> The engine must have adequate oil pressure within 15 seconds after starting. If the WARNING lamp indicating low oil pressure has not gone out or there is no oil pressure indicated on a gauge within 15 seconds, shut off the engine immediately to avoid engine damage. The low oil pressure troubleshooting procedure is located in Troubleshooting Symptoms (Section TS).
+>
+> Idle the engine 3 to 5 minutes before operating with a load.
+>
+> External Alarm Horn:
+>
+> The external alarm horn is connected to the helm harness and is typically located behind the dash.
+>
+> The ED-4 display also has an internal audible alarm horn. The internal alarm horn does **not** meet Cummins® requirements. Therefore, the external horn is mandatory.
+>
+> The alarm horn is an audible warning to the operator for select vessel, engine, and transmission sensor fault conditions.
+>
+> The audible alarm horns can **not** be disabled.
+>
+> The following audible alarms will be heard for fault severities:
+>
+> - Warning - a single instance of multiple short beeps; Typically three beeps.
+> - Critical - repeating cycle of a longer constant tone.
+>
+> There are two configurations of the C.I.B.
+>
+> 1. C Command Connect
+> 2. C Command Connect Premier.
+>
+> The Premier configuration contains a Cummins®-supplied ED-4 display.
+>
+> Each engine will have its own C.I.B.
+>
+> The C.I.B. contains the following:
+>
+> 1. Engine start and stop switch
+> 2. ED-4 display (Connect Premier option **only**)
+> 3. Circuit breakers
+> 4. Battery positive connection lug
+> 5. Polytetrafluoroethylene sealed membrane vent
+> 6. Battery negative connection lug
+> 7. J1939 3 pin connection
+> 8. Main extension wiring harness connection
+> 9. OEM sensor wiring harness connection, if equipped (Connect Premier option **only**)
+> 10. National Marine Electronics Association (NMEA) 2000® connection (Connect Premier option **only**)
+> 11. OEM interface wiring harness connection
+> 12. Engine interface wiring harness connection.
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of damage to the starting motor, do not engage the starting motor for more than 30 seconds. Wait 2 minutes between each attempt to start (electrical starting motors only).
+>
+> PS102
+>
+> CIB Engine Start/Stop Switch:
+>
+> The C Command Connect and Connect Premier start/stop switch is located on the C.I.B.
+>
+> The C.I.B. engine start/stop switch (1) is a 2-way momentary switch.
+>
+> The start side of the switch (2) is pressed and held to start the engine. Typically, the switch is held for less than 5 seconds to start the engine.
+>
+> A single quick press of the start switch will engage the starter, but will **not** start the engine.
+>
+> **Note · Примечание**
+> Some engines are equipped with an Engine Starting Motor Protection feature. If the starting motor is engaged for 30 or more seconds, without the engine starting, the starter will be locked out from operating, allowing for proper cooling of the starting motor for 2 minutes.
+>
+> The stop side of the switch (3) is pressed and held to stop the engine. Typically the stop switch should be held for 5 seconds to stop the engine.
+>
+> A single quick press of the stop switch will interrupt the system enable signal to the engine ECM and interrupt combustion, but will **not** stop the engine.
+>
+> The start/stop switch has lights that illuminate when an engine start or stop signal is engaged.
+>
+> The lights will illuminate if an engine start or stop signal is engaged at any start or stop switch location on the vessel.
+>
+> PS103
+>
+> C.I.B. Engine Start/Stop Switch:
+>
+> The C Command Connect and Connect Premier start/stop switch is located on the C.I.B.
+>
+> The C.I.B. engine start/stop switch (1) is a 2-way momentary switch.
+>
+> A single quick press up (2) of the start / stop switch (1) will engage the starter, and start the engine.
+>
+> **Note · Примечание**
+> If the starting motor is engaged for 30 or more seconds, without the engine starting, the starter will be locked out from operating, allowing for proper cooling of the starting motor for 2 minutes.
+>
+> If engine is running, a single quick press up (2) of the start/stop switch (1) will stop the engine.
+>
+> The start/stop switch has lights that illuminate when an engine start or stop signal is engaged.
+>
+> The lights will illuminate if an engine start or stop signal is engaged at any start or stop switch location on the vessel.
+>
+> C.I.B. ED-4 Display:
+>
+> The ED-4 display is only supplied by Cummins. The ED-4 display (1) is connected with the ECM through a Society of Automotive Engineers (SAE) J1939 data link. The display will indicate engine operating parameters and fault codes. The display is the gateway for relaying engine ECM information to NMEA 2000®.
+>
+> When mounted at the C.I.B., the display requires a unique software load for the C Command Connect Premier Panel System and is **not** common with other Cummins® controls systems.
+>
+> The display software name and version can be found in the “About” menu screen.
+>
+> The display comes preloaded with software and is updateable.
+>
+> When mounted at the C.I.B., the display's vessel personality file will need to be updated for each vessel application at initial install by the OEM or, if replaced, during a service event.
+>
+> **Note · Примечание**
+> Contact a Cummins® distributor for ED-4 display software and vessel personality file updates.
+>
+> ED-4 Display (Helm Mounted):
+>
+> **Note · Примечание**
+> The ED-4 display is **only** supplied by Cummins.
+>
+> The display is typically connected to the ECM through a SAE J1939 data link. The display will indicate engine operating parameters and fault codes. The display is the gateway for relaying engine ECM information to NMEA 2000®. When mounted at the helm, the display requires a unique software load for the C Command Connect and Connect Premier Marine Panel System and is **not** common with other Cummins® controls systems.
+>
+> The display software name and version can be found in the “About” menu screen.
+>
+> The display comes preloaded with software and is updateable.
+>
+> When mounted at the helm, the display's vessel personality file will need to be updated for each vessel application at initial install by the OEM or, if replaced, during a service event.
+>
+> **Note · Примечание**
+> Contact a Cummins® distributor for ED-4 display software and vessel personality file updates.
+>
+> The ED-4 display is an LCD that provides information to the operator.
+>
+> The user can interact with the display through keys (1 through 5) on the front of the display.
+>
+> The function of the key is shown on the ED-4 screen above the key, which changes as selections are made.
+>
+> A variety of engine and vessel data, fault/alarm codes, diagnostics, and configuration setups can be viewed on the ED-4 display.
+>
+> Reference the sections below for general ED-4 access and setup information.
+>
+> Contact a Cummins® distributor for setup information located in the Configuration page.
+>
+> **Note · Примечание**
+> Modifying ED-4 settings in the Configuration page is **not** recommended. Doing so may result in loss of functionality of the system. Accessing the Configuration page is logged in the ED-4 internal memory.
+>
+> When the system enable switch is pressed, the ED-4 powers on. While powering on, the Cummins® splash screen is shown.
+>
+> **Note · Примечание**
+> The ED-4 may take up to 15 seconds to complete the power-on sequence and establish communication with other ED-4s in the system.
+>
+> Once the power-on sequence completes, the data screen page will display data.
+>
+> **Note · Примечание**
+> Dashed lines indicate data is **not** being received for the given parameter or the vessel is **not** equipped to monitor it.
+>
+> The ED-4 engine and vessel data will vary with application, but typically include:
+>
+> - Engine speed
+> - System battery voltage
+> - Engine coolant temperature
+> - Engine oil pressure
+> - Transmission gear oil pressure and temperature
+> - Rudder angle
+> - Percent engine load
+> - Engine hours
+> - Fuel rate
+> - Fuel level.
+>
+> Press key 1 or “Next” to view additional data screens.
+>
+> The display mode of the ED-4 can be changed by pressing key 2 or “Mode” on the data screen page.
+>
+> Action:
+>
+> - Press key 2 or “Mode”.
+>
+> The display modes are controlled by the VPF. For example, it allows the operator to change screens for single engine, twin engine, and generator set.
+>
+> The software and vessel personality file information of the ED-4 display can be viewed by pressing key 5 or “Menu” on the data screen page.
+>
+> Action:
+>
+> - Press key 5 or “Menu”
+> - Select “About” and press key 4 or “Enter”
+> - Press key 3 or “VPF” for VPF information
+> - Press key 4 or “Info” for software information.
+>
+> Press key 5 or “Back” to exit the page.
+>
+> Press key 5 or “Exit” to return to the data screen page.
+>
+> When an engine or vessel fault condition becomes active, an alarm pop up screen will appear on the ED-4 data screen indicating a fault is present.
+>
+> The ED-4 **only** provides select alarm pop up messages on the data screen depending on the engine and vessel application against which the operator would need to take action.
+>
+> The alarm pop message notification is controlled by the vessel personality file loaded in the ED-4.
+>
+> **Note · Примечание**
+> **Only** engine or vessel fault conditions that require defined actions will display on the ED-4 data screen as an alarm pop up message.
+>
+> When an alarm pop up message is shown, details about each fault can be viewed by pressing the ED-4 keys.
+>
+> Press key 1 or “Previous”
+>
+> Press key 2 or “Next”
+>
+> Press key 5 or “Close” to remove the alarm pop up message.
+>
+> **Note · Примечание**
+> To acknowledge an alarm pop up message and silence the audible alarm, press key 5 or “Close”.
+>
+> **Note · Примечание**
+> ED-4(s) can only acknowledge and silence alarms for the engine they are connected to. Depending on network system connections, it can be necessary to acknowledge alarms on multiple ED-4s in order to acknowledge faults from multiple engines. This can include accessing the C.I.B. ED-4(s) located in the engine room if an ED-4(s) is not installed at the helm.
+>
+> Typical information shown on the data screen alarm pop up message:
+>
+> 1. Status and number of system faults
+> 2. Brief description of the fault and recommended action
+> 3. Type of fault (warning or critical)
+> 4. Source detecting the fault
+> 5. Cummins fault code (FC) or alarm code (AC).
+>
+> Typically, FCs are associated with Cummins® engine sensors, while ACs are associated with vessel sensors.
+>
+> Once an alarm pop up message has been acknowledged by the operator, the message will disappear.
+>
+> The alarm bell lamp (1) will **not** disappear until 30 seconds after all faults go inactive.
+>
+> The alarm pop up message can be brought back up on the screen for review by pressing key 4 or “Alarms”.
+>
+> **Note · Примечание**
+> The ED-4 Diagnostics page should **only** be used under the guidance of an authorized Cummins technician.
+>
+> **Note · Примечание**
+> Do **not** enable the “Demo Data” or “Demo Alarm” selections in the Diagnostics page. Doing so will cause false data and alarm messages to be shown on the ED-4 display data screen.
+>
+> MFD (Multifunction Display) (Helm-Mounted):
+>
+> The MFD is connected with the engine ECM through a J1939 or NMEA 2000® data link.
+>
+> The MFD will indicate engine operating parameters and fault information.
+>
+> The MFD is typically **not** supplied by Cummins Inc. See equipment manufacturer service information for service, setup, or software updates.
+>
+> ED-5 and ED-7
+>
+> ED-5/ED-7 Display (Helm Mounted):
+>
+> The ED-5/ED-7 display **must** be supplied by Cummins due to software compatibility.
+>
+> The display is typically connected to the ECM through a SAE J1939 data link. The display will indicate engine operating parameters and fault codes. The display is the gateway for relaying engine ECM information to NMEA 2000® protocol.
+>
+> The display software name and version can be found in the “About” menu screen.
+>
+> The ED-5/ED-7 display comes from the factory with software and configuration installed. The ED-5/ED-7 display **must** be configured by the OEM when installed for each vessel. If the ED-5/ED-7 display is replaced during a service event, the software and configuration for each vessel **must** be installed.
+>
+> Contact a Cummins® authorized repair location for ED-5/ED-7 display software updates. The ED-5/ED-7 displays use the same software package.
+>
+> The ED-5/ED-7 display is a touchscreen interface that provides information to the operator.
+>
+> The user can interact with the display through touchscreen interface of the display or through an optional remote keypad device.
+>
+> There are different symbols on the ED-5/ED-7 display interface and menu structure.
+>
+> 1. Menu
+> 2. Backlight
+> 3. Alarm
+> 4. Back
+> 5. Preferences
+> 6. Security
+> 7. Trip Information
+> 8. Decrease
+> 9. Increase
+>
+> The engine and vessel data, fault/alarm codes, diagnostics, and configuration setups can be viewed on the ED-5/ED-7 display. Reference the sections below for general ED-5/ED-7 access and setup information. Contact a Cummins® authorized repair location for setup information located in the Security page protected with a PIN. Modifying the ED-5/ED-7 Security settings in the Main Menu can result in loss of functionality of the system.
+>
+> When the system enable switch is pressed, the ED-5/ED-7 powers on. While powering on, the Cummins® splash screen is shown.
+>
+> **Note · Примечание**
+> The ED-5/ED-7 can take up to 10 seconds to complete the power-on sequence and establish communication with other ED-4/ED-5/ED-7 displays in the system.
+>
+> Once the power-on sequence completes, the data screen page will display data.
+>
+> Dashed lines indicate data is **not** being received for the given parameter or the vessel is **not** equipped to monitor the parameter data.
+>
+> The ED-5/ED-7 engine and vessel data will vary with application, but typically include:
+>
+> - Engine speed
+> - System battery voltage
+> - Engine coolant temperature
+> - Engine oil pressure
+> - Engine boost pressure
+> - Intake Manifold temperature
+> - Transmission gear oil pressure and temperature
+> - Rudder angle
+> - Percent engine load
+> - Engine hours
+> - Fuel rate
+> - Fuel level
+>
+> Swipe the screen left to right or right to left on the screen to view additional data screens.
+>
+> The software and configuration information of the ED-5/ED-7 display can be viewed by touch and hold in the center of the screen or press on the “Menu” (I) on the data screen page.
+>
+> Action:
+>
+> - Touch and hold in the center of the screen or press the “Menu” (I).
+> - Select “About” for software information
+> - Select “Config” for configuration information.
+>
+> Swipe the screen left to right or use the “Back” (IV) soft key on the screen to exit the page.
+>
+> When an engine or vessel fault condition becomes active, an alarm pop up screen will appear on the ED-5/ED-7 data screen indicating a fault is present.
+>
+> **Only** engine or vessel fault conditions that require defined actions will display on the ED-5/ED-7 data screen as an alarm pop up message.
+>
+> When an alarm pop up message is shown and more than one fault code is active, details about each fault can be viewed by swiping the screen left to right.
+>
+> - Press “Prev”
+> - Press “Next”
+>
+> Swipe on the screen left to right or use the “Back”(IV) soft key on the screen to exit the alarm pop up message.
+>
+> To acknowledge an alarm pop up message and silence the audible alarm, Swipe left to right or use the “Back”(IV) soft key or return button on remote keypad to exit the alarm pop up message.
+>
+> ED-5/ED-7 displays can only acknowledge and silence alarms for the engine to which they are connected. Depending on network system connections, it can be necessary to acknowledge alarms on multiple ED-5/ED-7 displays to acknowledge faults from multiple engines.
+>
+> Typical information shown on the data screen alarm pop up message:
+>
+> 1. Status and number of system faults
+> 2. Brief description of the fault and recommended action
+> 3. Type of fault (warning or critical)
+> 4. Source detecting the fault
+> 5. Cummins® fault code (FC) or alarm code (AC).
+>
+> Typically, fault codes are associated with Cummins® engine sensors, while ACs are associated with vessel sensors.
+>
+> Once an alarm pop up message has been acknowledged by the operator, the pop up message is closed and can be brought back up on screen by pressing the “Alarm”(III) soft key on the screen. The ED-5/ED-7 Diagnostics page should **only** be used under the guidance of a Cummins®-authorized service provider. Enabling the “Demo Data” selections in the Diagnostics page will cause false data and alarm messages to be shown on the ED-5/ED-7 display data screen. The Advanced alarm screen shows additional details related to the active fault code – J1939 SPN, J1939 FMI, Cummins® Fault Code, source of fault code, manufacturer identification, engine hours, occurrence count. Time since alarm is the time elapsed since the fault code became active and is counted locally on the display and will update at every instance of display restart.
+>
+> ### Setup
+>
+> PS102
+>
+> The brightness of the ED-4 display can be changed by pressing key 3 or “Light” on the data screen page.
+>
+> Action:
+>
+> - Press key 3 or “Light”
+> - Press key 1 or “Dimmer”
+> - Press key 2 or “Brighter”.
+>
+> The percent brightness of the display is shown above key 3 and ranges from 10 to 100%.
+>
+> Press key 5 or “Back” to save the setting and exit the brightness setting.
+>
+> PS103
+>
+> The brightness of the ED-4 display can be changed by pressing key 3 or “Function” on the data screen page.
+>
+> #### Action:
+>
+> - Press key 3 or “Function”
+> - Press key 3 or “Dimmer”
+> - Press key 4 or “Brighter”.
+>
+> The percent brightness of the display is shown in the Brightness row and ranges from 10 to 100%.
+>
+> Press key 5 or “Exit” to save the setting and exit the brightness setting.
+>
+> If equipped, the trip reset of the ED-4 can be changed by pressing key 3 or “Function” on the data screen page.
+>
+> #### Action:
+>
+> - Press key 3 or “Function”
+> - Press key 2 or “Down”
+> - Press key 4 or “Choose”
+> - Press key 4 or “Send”.
+>
+> If feature is available, pressing “send” will reset the trip information. A warning message will appear after pressing “Send” to notify that the trip reset message was sent.
+>
+> Press key 5 or “Back” to save the setting and exit the trip reset setting.
+>
+> The fluid tank profile can be changed by pressing key 5 or “Menu” on the data screen page.
+>
+> #### Action:
+>
+> - Press key 5 or “Menu”
+> - Select “Configuration” and press key 4 or “Enter”
+> - Press key 1 or “Accept”
+> - Select “Device and press key 4 or “Enter” (NOTE: Device could be any of Starboard, Port, Starboard-Outer, Port-Inner)
+> - Select “Tank Profile” and press key 4 or “Enter”
+> - Select appropriate fluid to be configured
+> - Press key 4 or “Setup”
+> - Press key 4 or “Start”.
+>
+> The fuel, engine oil, coolant, fresh water, wastewater and black water tanks can be configured with the ED-4, if vessel permits.
+>
+> A message will appear on the ED-4 display which will ask to confirm tank is empty before proceeding configuration.
+>
+> The fluid tank profile can be changed by pressing key 5 or “Menu” on the data screen page, if configured tank levels are known at 25%, 50% & 75% of tank capacity. The fuel, engine oil, coolant, fresh water, wastewater and black water tanks can be configured with the ED4, if vessel permits and VPF supports the input for configuration.
+>
+> #### Action:
+>
+> - Press key 5 or “Menu”
+> - Select “Configuration” and press key 4 or “Enter”
+> - Press key 1 or “Accept”
+> - Select “Device” and press key 4 or “Enter” (NOTE: Device could be any of Starboard, Port, Starboard-Outer, Port-Inner)
+> - Select “Tank Profile” and press key 4 or “Enter”
+> - Select fluid type to be configured
+> - Press key 4 or “Setup”
+> - Press key 2 or “Down”
+> - Press key 4 or “Start”
+> - Select “Tank Volume”
+> - Press key 4 or “Inc” and key 3 or “Dec” to enter “Tank Volume”
+> - Press key 2 or “Down”
+> - Press key 4 or “Inc” and key 3 or “Dec” to enter 25% tank level known at “Point 1”
+> - Press key 2 or “Down”
+> - Press key 4 or “Inc” and key 3 or “Dec” to enter 50% tank level known at “Point 2”
+> - Press key 2 or “Down”
+> - Press key 4 or “Inc” and key 3 or “Dec” to enter 75% tank level known at “Point 3”
+>
+> The Main Menu page of the ED-4 display can be accessed by pressing key 5 or “Menu” on the data screen page.
+>
+> #### Action:
+>
+> - Press key 5 or “Menu”.
+>
+> Press key 5 or “Exit” to return to the data screen page.
+>
+> The language of the ED-4 display can be changed by pressing key 5 or “Menu” on the data screen page.
+>
+> Action:
+>
+> - Press key 5 or “Menu”
+> - Select “Language” and press key 4 or “Change”
+> - Select the preferred language and press key 4 or “Enter”.
+>
+> Press key 5 or “Back” to save the setting and exit the page.
+>
+> Press key 5 or “Exit” to return to the data screen page.
+>
+> The units of the ED-4 display can be changed by pressing key 5 or “Menu” on the data screen page.
+>
+> Action:
+>
+> - Press key 5 or “Menu”
+> - Select “Units” and press key 4 or “Enter”
+> - Select each parameter and press key 4 or “Change” to view the desired units.
+>
+> Press key 5 or “Back” to save the setting and exit the page.
+>
+> Press key 5 or “Exit” to return to the data screen page.
+>
+> The key tone of the ED-4 display can be changed to ON or OFF by pressing key 5 or “Menu” on the data screen page.
+>
+> Action:
+>
+> - Press key 5 or “Menu”
+> - Select “Key Tone” and press key 4 or “Change”.
+>
+> Press key 5 or “Exit” to save the setting and exit the page.
+>
+> Contact a Cummins distributor for setup information located in the Configuration® page.
+>
+> **Note · Примечание**
+> Modifying ED-4 settings in the Configuration page is **not** recommended. Doing so may result in loss of functionality of the C Command system. Accessing the Configuration page is logged in the ED-4 internal memory.
+>
+> PS108
+>
+> The brightness menu of the ED-5/ED-7 display can be changed by pressing “Backlight”(II)” on the data screen page or touch and hold in the center of the screen or by pressing the “Menu”(I) on the data screen page.
+>
+> Action:
+>
+> - Access “Menu”(I)
+> - Select “Preferences”(V)
+> - In the “Backlight” option, select “Increase”(IX) or “Decrease”(VIII) backlight of the display from range 10 to 100.
+>
+> Swipe left to right on screen or use the “Back”(IV) soft key to exit and save the setting. The setting once saved gets shared with other ED-7/ED-5 and ED-4s displays on the network. See additional graphics below of the preferences menu and backlight setting.
+>
+> Preferences Menu
+>
+> Setting Backlight Option in Preferences Menu
+>
+> The trip information of the ED-5/ED-7 is shown in the “Trip Information” on the menu screen page.
+>
+> Action:
+>
+> - Touch and hold in the center of the data screen or Press “Menu”(I) on the data screen page.
+> - Press “Trip Information”(VII) in the menu page.
+>
+> Pressing “Trip Information Reset” will reset the trip information. A warning message will appear after pressing “Trip Information Reset” to notify that the trip reset message was sent.
+>
+> Swipe left to right or use “Back”(IV) soft key on the screen to exit the trip reset setting.
+>
+> The language of the ED-5/ED-7 display can be changed by “Language” option in the “Preferences”(V)) option in the “Menu”(I).
+>
+> Action:
+>
+> - Touch and hold in the center of the data screen or Press “Menu”(I) icon on the data screen page.
+> - Select “Preferences”(V)”.
+> - Select “Language”.
+> - Select the preferred language.
+>
+> Swipe left to right to save or use ”Back”(IV) soft key on the screen to exit the language setting. See additional graphics below listing all available language options.
+>
+> Language Selection
+>
+> The units of the ED-5/ED-7 display can be changed by “Units” option in the “Preferences”(V) option in the “Menu”.
+>
+> Action:
+>
+> - Touch and hold in the center of the data screen or Press “Menu”(I) icon on the data screen page.
+> - Select “Preferences”(V).
+> - Select “Units”.
+> - Select the desired units for each parameter unit family to change or option to change between US and Metric unit family.
+>
+> Swipe left to right or use ”Back”(IV) soft key on the screen to save and exit the Units setting. See additional graphics below listing all available units for each parameter family.
+>
+> Units Selection
+>
+> The key tone of the ED-5/ED-7 display can be changed to “Bleep” option in the “Preferences”(V) option in the “Menu”.
+>
+> Action:
+>
+> - Touch and hold in the center of the data screen or Press “Menu”(I) icon on the data screen page.
+> - Select “Preferences”(V).
+> - Select “Bleep” or the value to change.
+>
+> Swipe on the screen left to right or use “Back“(IV) soft key to save and exit the bleep setting. See additional graphics below for bleep tone selection in the Preferences Menu.
+>
+> Bleep Tone Selection in Preferences Menu
+>
+> The ED-5/ED-7 display provides PIN protection with a 4-digit number that prevents someone unauthorized to change advanced configuration of the display. The PIN protection can be accessed from “Menu”(I) on the data screen page. The default security level is “User” level with limited capability, for advanced level user needs to access “Diagnostic” level with factory saved PIN.
+>
+> The default security PIN to access advanced settings is “1919”. Sharing the default security PIN without proper knowledge may lead to unintended changes causing loss or erratic function.
+>
+> Action:
+>
+> - Touch and hold in the center of the data screen or press icon on the data screen page.
+> - Select “Security”(VI) icon.
+> - Select “Change Level”.
+> - Select “Diagnostic”.
+> - Enter the PIN using the number pad provided on the display screen.
+> - Select “OK”.
+>
+> Swipe left to right or use “Back”(IV) soft key on the screen to save, exit the security menu and access the diagnostic menu. See additional graphics below for Security menu selections and security pin entry.
+>
+> Change Level Selection in Security Menu
+>
+> Diagnostic Selection in Security Menu
+>
+> Security Pin Entry
+>
+> The application configuration or theme of the ED-5/ED-7 display can be changed by accessing “Themes” from the PIN protected option in the security menu.
+>
+> User **must** know the valid PIN to access the Diagnostic security level.
+>
+> Action:
+>
+> - Touch and hold in the center of the data screen or Press “Menu”(I) icon on the data screen page.
+> - Select “Security”(VI).
+> - Select “Change Level”.
+> - Select “Diagnostic”.
+> - Enter the PIN using the number pad provided on the display screen.
+> - Select “OK”.
+> - Swipe left to right to exit the PIN protection screen.
+> - Select “Setup”.
+> - Select “Themes”.
+> - Select “Theme”.
+> - Choose theme based on vessel application.
+>
+> Swipe left to right or use the “Back”(IV) soft key on the screen to save, exit the security menu and access the diagnostic menu.
+>
+> The supported ED-5/ED-7 display themes compatible with vessel application configuration can be accessed from Cummins QuickServe® Online Marine Panel Firmware Updates. See additional graphics below for Themes menu selections.
+>
+> Themes in Setup Menu
+>
+> Theme Selection in Theme Manager Menu
+>
+> Available Themes

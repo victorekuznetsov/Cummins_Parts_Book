@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021555"
 figures: 27
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-208-001.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-208-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Component Identification
@@ -35,114 +37,122 @@ tags:
 > **Даты:** изменён 2006-03-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-208-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-208-001.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The alarm and safety system consists of the following components:
 
-- Full or Classed Auxiliary Customer interface Box
-- Full or Classed Propulsion Interface Box and Engine Room Panel
-- Local Analog Display (Front and Back)
-- Remote Analog Panel
-- Safety Module Display (Front and Back)
-- Classed Auxiliary Printed Circuit Board
-- Sensors and Switches.
+### Общие сведения
 
-### Component List
+Система сигнализации и безопасности состоит из следующих компонентов:
+
+- Полный или классный интерфейс клиентского интерфейса
+- Полный или классный интерфейсный ящик и панель машинного отделения
+- Локальный аналоговый дисплей (впереди и назад)
+- Дистанционная аналоговая панель
+- Дисплей модуля безопасности (впереди и назад)
+- Классификация Auxiliary Printed Circuit Board
+- Датчики и коммутаторы.
+
+### Список компонентов
 
 ![[15600071.png]]
 
-Full or Classed Auxiliary Customer Interface Box
+Полный или классный интерфейс клиентского интерфейса
 
-1. Safety module
-2. Local analog display
-3. Emergency-stop button
-4. Master switch
-5. Engine speed switch
-6. Printed circuit board
-7. Dominion electronic control module
-8. Vessel interface terminal strip
-9. Power module
-10. Speed comparator.
+1. Модуль безопасности
+2. Местный аналоговый дисплей
+3. Кнопка аварийной остановки
+4. Мастер-переключатель
+5. 2.1.2.1.1 Скоростной механизм
+6. Печатная плата
+7. Электронный модуль управления Dominion
+8. Терминальная полоса интерфейса судна
+9. Модуль питания
+10. Скоростной компаратор.
 
 ![[15600055.png]]
 
-Full or Classed Propulsion Customer Interface Box and Engine Room Panel
+Полный или классный интерфейс клиента движка и панель машинного отделения
 
-1. Customer interface box
-2. Engine room panel
-3. Local analog display
-4. Safety module display
-5. Master switch
-6. Vessel interface terminal strip
-7. Power module
-8. Cetrek display.
+1. Интерфейсная коробка заказчика
+2. Пульт машинного отделения
+3. Местный аналоговый дисплей
+4. Модуль безопасности
+5. Мастер-переключатель
+6. Терминальная полоса интерфейса судна
+7. Модуль питания
+8. Показ Цетрека.
 
 ![[15600088.png]]
 
-Local Analog Display View.
+Местный аналоговый дисплей.
 
-1. Silence alarm horn button
-2. Acknowledge button
-3. Hold to stop button
-4. Remote Lamp
-5. Control button
-6. Local Lamp
-7. Hold to start button
+1. Кнопка сигнализации тишины
+2. Кнопка подтверждения
+3. Держите кнопку остановки
+4. Удалённая лампа
+5. Кнопка управления
+6. Местная лампа
+7. Держите кнопку запуска
 
 ![[15600090.png]]
 
-Local Analog Display Rear View.
+Местный аналоговый дисплей Rear View.
 
-1. Connectors
-2. Fuse
-3. RS232 service connector
-4. Reset button
+1. Коннекторы
+2. предохранитель
+3. RS232 - сервисный разъем
+4. Кнопка сброса
 
 ![[15600089.png]]
 
-Remote Analog Panel View.
+Дистанционно-аналоговый обзор.
 
-1. Silence alarm horn button
-2. Dimmer button
-3. Hold to stop button
-4. Remote Lamp
-5. Local Lamp
-6. Hold to start button.
+1. Кнопка сигнализации тишины
+2. Кнопка "Умерить"
+3. Держите кнопку остановки
+4. Удалённая лампа
+5. Местная лампа
+6. Держись, чтобы начать.
 
 ![[15600061.png]]
 
-Safety Module Front Display.
+Модуль безопасности Front Display.
 
-- Left half, information lamp array
-- Right half, alarm lamp array
+- Левая половина, информационный фонарь
+- Вправо, половина, сигнальная лампа
 
 ![[15600062.png]]
 
-Safety Module Back View.
+Модуль безопасности Back View.
 
-1. Fuse
-2. Reset button
-3. Overspeed setpoint switch.
+1. предохранитель
+2. Кнопка сброса
+3. Переключатель переключения передач.
 
 ![[15600059.png]]
 
-Classed Auxiliary Printed Circuit Board.
+Классификация вспомогательной печатной платы.
 
-1. Droop potentiometer
-2. Droop and isochronous lamps
-3. Diagnostic and normal lamps
-4. Diagnostic mode switch
-5. Dominion fault reset button
-6. 5A Fuse
-7. Connectors
-8. Relays
-9. 10A Fuse.
+1. Потенциометр с петлей
+2. Сверхъемные и изохронные лампы
+3. Диагностические и нормальные лампы
+4. Диагностический переключатель режима
+5. Кнопка сброса неисправностей Dominion
+6. 5А предохранитель
+7. Коннекторы
+8. реле
+9. 10А Фьюжн.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-> [!danger] WARNING · Опасно
-> Do not remove the check valves while the engine is running. This will result in pressurized hot oil to be sprayed. Only remove the sensor.
+> [!danger] ОПАСНО
+> Не снимайте контрольные клапаны во время работы двигателя. Это приведет к распылению горячего масла под давлением. Удалите только датчик.
 
 ![[15600085.png]]
 
@@ -152,16 +162,16 @@ Classed Auxiliary Printed Circuit Board.
 
 ![[15600084.png]]
 
-Alarm Sensor
+Сенсор тревоги
 
-Pressure Sensor
+Датчик давления
 
-Temperature Sensor
+Датчик температуры
 
-Fuel Filter Differential Pressure Sensor
+Датчик дифференциального давления топливного фильтра
 
-> [!note] Note · Примечание
-> While some sensors look alike, they have different setpoints set at the factory. There are multiple part numbers for a common sensor type (pressure, temperature, etc.). Do **not** change the preset setpoint. If a setpoint has been changed it must be changed back to the setpoints set at the factory. Refer to Setpoint Adjustment in Procedure [[56-209-001 — System Description|209-001]].
+> [!note] Примечание
+> Хотя некоторые датчики выглядят одинаково, на заводе установлены разные точки. Существует несколько номеров деталей для общего типа датчика (давление, температура и т. Д.). не меняйте заданную точку. Если установленная точка была изменена, она должна быть изменена обратно на установленные точки, установленные на заводе. См. Setpoint adjustment in Procedure[[56-209-001 — System Description|209-001]].
 
 ![[15600080.png]]
 
@@ -171,21 +181,21 @@ Fuel Filter Differential Pressure Sensor
 
 ![[15600076.png]]
 
-Oil Pan Temperature (left bank in oil pan)
+Температура масляного пана (левый банк в масляной кастрюле)
 
-Aftercooler Water Inlet Temperature (front)(2) and Adapter (1)
+Послеохладитель Температура входа воды (передняя часть) (2) и Адаптер (1)
 
-Fuel Filter Outlet Pressure and Fuel Filter Differential Pressure (left bank rear)
+Давление на выходе топливного фильтра и дифференциальное давление на топливный фильтр (слева)
 
-Lubricating Oil Filter Inlet Pressure (2) and Lubricating Oil Filter Outlet (1).
+Фильтр моторного масла Впускное давление (2) и выход фильтра моторного масла (1).
 
 ![[15600077.png]]
 
 ![[nobox.png]]
 
-Coolant Temperature (front).
+Температура охлаждения (передняя).
 
-The check valves serve the same purpose as the manifold blocks. They allow the removal of the sensor from the engine while it is running so a known pressure source can be applied to the sensor for testing purposes as required by agencies.
+Проверочные клапаны служат той же цели, что и многообразные блоки. Они позволяют удалять датчик из двигателя во время его работы, чтобы известный источник давления мог быть применен к датчику для целей тестирования, как того требуют агентства.
 
 ![[15600128.png]]
 
@@ -195,21 +205,21 @@ The check valves serve the same purpose as the manifold blocks. They allow the r
 
 ![[15600073.png]]
 
-Coolant Pressure Isolation Valve (1) and Coolant Pressure Safety Switch (2)
+Валент (1) для изоляции от холодного давления и переключатель (2) безопасности от холодного давления
 
-Exhaust Gas Temperature (individual cylinders)
+Температура выхлопных газов (индивидуальные баллоны)
 
-Exhaust Stack Temperature.
+Температура выхлопных труб.
 
-Engine Speed Sensor - Safety System (flywheel housing right bank).
+Сенсор скорости двигателя - Система безопасности (полетный корпус справа от берега).
 
 ![[15600082.png]]
 
 ![[15600083.png]]
 
-Pressure Switch
+Датчик-реле давления
 
-Temperature Switch.
+Переключатель температуры.
 
 ![[15600122.png]]
 
@@ -217,8 +227,144 @@ Temperature Switch.
 
 ![[15600068.png]]
 
-Lubricating Oil Pressure Switches (right bank rear)
+Переключатели давления моторного масла (сзади правого берега)
 
-Coolant Pressure Switch and Coolant Temperature Switch (front).
+Переключатель давления охлаждающей жидкости и переключатель температуры охлаждающей жидкости (передний).
 
-Engine Speed Sensor - Safety System (flywheel housing left bank).
+Сенсор скорости двигателя - Система безопасности (полетный корпус левого берега).
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The alarm and safety system consists of the following components:
+>
+> - Full or Classed Auxiliary Customer interface Box
+> - Full or Classed Propulsion Interface Box and Engine Room Panel
+> - Local Analog Display (Front and Back)
+> - Remote Analog Panel
+> - Safety Module Display (Front and Back)
+> - Classed Auxiliary Printed Circuit Board
+> - Sensors and Switches.
+>
+> ### Component List
+>
+> Full or Classed Auxiliary Customer Interface Box
+>
+> 1. Safety module
+> 2. Local analog display
+> 3. Emergency-stop button
+> 4. Master switch
+> 5. Engine speed switch
+> 6. Printed circuit board
+> 7. Dominion electronic control module
+> 8. Vessel interface terminal strip
+> 9. Power module
+> 10. Speed comparator.
+>
+> Full or Classed Propulsion Customer Interface Box and Engine Room Panel
+>
+> 1. Customer interface box
+> 2. Engine room panel
+> 3. Local analog display
+> 4. Safety module display
+> 5. Master switch
+> 6. Vessel interface terminal strip
+> 7. Power module
+> 8. Cetrek display.
+>
+> Local Analog Display View.
+>
+> 1. Silence alarm horn button
+> 2. Acknowledge button
+> 3. Hold to stop button
+> 4. Remote Lamp
+> 5. Control button
+> 6. Local Lamp
+> 7. Hold to start button
+>
+> Local Analog Display Rear View.
+>
+> 1. Connectors
+> 2. Fuse
+> 3. RS232 service connector
+> 4. Reset button
+>
+> Remote Analog Panel View.
+>
+> 1. Silence alarm horn button
+> 2. Dimmer button
+> 3. Hold to stop button
+> 4. Remote Lamp
+> 5. Local Lamp
+> 6. Hold to start button.
+>
+> Safety Module Front Display.
+>
+> - Left half, information lamp array
+> - Right half, alarm lamp array
+>
+> Safety Module Back View.
+>
+> 1. Fuse
+> 2. Reset button
+> 3. Overspeed setpoint switch.
+>
+> Classed Auxiliary Printed Circuit Board.
+>
+> 1. Droop potentiometer
+> 2. Droop and isochronous lamps
+> 3. Diagnostic and normal lamps
+> 4. Diagnostic mode switch
+> 5. Dominion fault reset button
+> 6. 5A Fuse
+> 7. Connectors
+> 8. Relays
+> 9. 10A Fuse.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Do not remove the check valves while the engine is running. This will result in pressurized hot oil to be sprayed. Only remove the sensor.
+>
+> Alarm Sensor
+>
+> Pressure Sensor
+>
+> Temperature Sensor
+>
+> Fuel Filter Differential Pressure Sensor
+>
+> **Note · Примечание**
+> While some sensors look alike, they have different setpoints set at the factory. There are multiple part numbers for a common sensor type (pressure, temperature, etc.). Do **not** change the preset setpoint. If a setpoint has been changed it must be changed back to the setpoints set at the factory. Refer to Setpoint Adjustment in Procedure [[56-209-001 — System Description|209-001]].
+>
+> Oil Pan Temperature (left bank in oil pan)
+>
+> Aftercooler Water Inlet Temperature (front)(2) and Adapter (1)
+>
+> Fuel Filter Outlet Pressure and Fuel Filter Differential Pressure (left bank rear)
+>
+> Lubricating Oil Filter Inlet Pressure (2) and Lubricating Oil Filter Outlet (1).
+>
+> Coolant Temperature (front).
+>
+> The check valves serve the same purpose as the manifold blocks. They allow the removal of the sensor from the engine while it is running so a known pressure source can be applied to the sensor for testing purposes as required by agencies.
+>
+> Coolant Pressure Isolation Valve (1) and Coolant Pressure Safety Switch (2)
+>
+> Exhaust Gas Temperature (individual cylinders)
+>
+> Exhaust Stack Temperature.
+>
+> Engine Speed Sensor - Safety System (flywheel housing right bank).
+>
+> Pressure Switch
+>
+> Temperature Switch.
+>
+> Lubricating Oil Pressure Switches (right bank rear)
+>
+> Coolant Pressure Switch and Coolant Temperature Switch (front).
+>
+> Engine Speed Sensor - Safety System (flywheel housing left bank).

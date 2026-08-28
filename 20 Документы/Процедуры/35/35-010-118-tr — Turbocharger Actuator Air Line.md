@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-118-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-118-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Actuator Air Line
@@ -31,76 +33,144 @@ tags:
 > **Даты:** изменён 2005-10-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-118-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-118-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Disconnect the air line from turbocharger control valve.
 
-Use masking tape to tape the end of the air line and turbocharger control valve to prevent contamination.
+### Снятие
 
-Remove the turbocharger control valve air line.
+Отсоедините линию сжатого воздуха от клапана управления турбокомпрессором.
+
+Используйте маскирующую ленту для склеивания конца линии сжатого воздуха и клапана управления турбокомпрессором для предотвращения загрязнения.
+
+Удалите управляющий клапан турбокомпрессора линии сжатого воздуха.
 
 ![[19202572.png]]
 
-> [!warning] CAUTION · Осторожно
-> The turbocharger control valve is very sensitive to contamination. Failure to prevent contamination from entering the turbocharger control valve air lines will cause damage to the turbocharger control valve.
+> [!warning] ОСТОРОЖНО
+> Клапан управления турбокомпрессором очень чувствителен к загрязнению. Неспособность предотвратить попадание загрязнения в управляющий клапан турбокомпрессора линии сжатого воздуха приведет к повреждению управляющего клапана турбокомпрессора.
 
-Disconnect the air line at turbocharger actuator.
+Отсоедините линию сжатого воздуха на приводе турбокомпрессора.
 
-Use masking tape to tape the end of air line and turbocharger actuator to prevent contamination.
+Используйте маскирующую ленту для склеивания конца линии сжатого воздуха и привода турбокомпрессора для предотвращения загрязнения.
 
 ![[10200106.png]]
 
-Remove the P-clip at the rear of the turbocharger bearing housing.
+Удалите P-затвор в задней части корпуса подшипника турбокомпрессора.
 
 ![[10200107.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect air line connections for damage or cracks.
+Проверить соединения сжатых воздушных линий на предмет повреждений или трещин.
 
-Inspect air line for wear or damage.
+Проверить линию сжатого воздуха на износ или повреждение.
 
-Inspect o-rings for signs of damage or distortion.
+Осмотрите кольца на наличие признаков повреждения или искажения.
 
-Replace as necessary.
+Заменить по мере необходимости.
 
 ![[10200109.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> The turbocharger control valve is very sensitive to contamination. Failure to prevent contamination from entering the turbocharger control valve air lines will cause damage to the turbocharger control valve.
+> [!warning] ОСТОРОЖНО
+> Клапан управления турбокомпрессором очень чувствителен к загрязнению. Неспособность предотвратить попадание загрязнения в управляющий клапан турбокомпрессора линии сжатого воздуха приведет к повреждению управляющего клапана турбокомпрессора.
 
-> [!warning] CAUTION · Осторожно
-> Do not use thread sealant. Use of thread sealant will cause damage to turbocharger control valve.
+> [!warning] ОСТОРОЖНО
+> Не используйте герметик. Использование герметика резьбы приведет к повреждению клапана управления турбокомпрессором.
 
-Remove masking tape from the ends of the turbocharger actuator supply line before installing the line.
+Удалите маскирующую ленту с концов линии подачи привода турбокомпрессора перед установкой линии.
 
-Connect the air supply line to the turbocharger air control valve.
+Подключите линию подачи воздуха к клапану управления воздухом турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [142 фунт-дюйм]
 
 ![[19202572.png]]
 
-Connect the air supply line to the turbocharger actuator.
+Подключите линию подачи воздуха к приводу турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 16 n•m [142 in-lb]
+> [!tip] Момент затяжки
+> 16 Н·м [142 фунт-дюйм]
 
 ![[10200106.png]]
 
-Connect the P-clip to the rear of the turbocharger bearing housing.
+Подсоедините P-клип к задней части корпуса подшипника турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[10200107.png]]
 
-Start and run the engine.
+Запустите и запустите двигатель.
 
-Verify proper operation.
+Проверить правильность операции.
 
-Check for air leaks.
+Проверьте утечку воздуха.
 
 ![[oi200dd.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Disconnect the air line from turbocharger control valve.
+>
+> Use masking tape to tape the end of the air line and turbocharger control valve to prevent contamination.
+>
+> Remove the turbocharger control valve air line.
+>
+> **CAUTION · Осторожно**
+> The turbocharger control valve is very sensitive to contamination. Failure to prevent contamination from entering the turbocharger control valve air lines will cause damage to the turbocharger control valve.
+>
+> Disconnect the air line at turbocharger actuator.
+>
+> Use masking tape to tape the end of air line and turbocharger actuator to prevent contamination.
+>
+> Remove the P-clip at the rear of the turbocharger bearing housing.
+>
+> ### Inspect for Reuse
+>
+> Inspect air line connections for damage or cracks.
+>
+> Inspect air line for wear or damage.
+>
+> Inspect o-rings for signs of damage or distortion.
+>
+> Replace as necessary.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> The turbocharger control valve is very sensitive to contamination. Failure to prevent contamination from entering the turbocharger control valve air lines will cause damage to the turbocharger control valve.
+>
+> **CAUTION · Осторожно**
+> Do not use thread sealant. Use of thread sealant will cause damage to turbocharger control valve.
+>
+> Remove masking tape from the ends of the turbocharger actuator supply line before installing the line.
+>
+> Connect the air supply line to the turbocharger air control valve.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [142 in-lb]
+>
+> Connect the air supply line to the turbocharger actuator.
+>
+> **Момент затяжки · Torque Value**
+> 16 n•m [142 in-lb]
+>
+> Connect the P-clip to the rear of the turbocharger bearing housing.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Start and run the engine.
+>
+> Verify proper operation.
+>
+> Check for air leaks.

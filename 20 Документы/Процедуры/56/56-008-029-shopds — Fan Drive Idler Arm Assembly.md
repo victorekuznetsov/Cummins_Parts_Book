@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-029-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-029-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Arm Assembly
@@ -35,56 +37,110 @@ tags:
 > **Даты:** изменён 2017-03-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-029-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-029-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-On engines fitted with the slide arm adjuster, remove the four capscrews from the adjusting bracket.
+### Снятие
 
-Remove the fan idler assembly and adjusting bracket, as an assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+
+На двигателях, оснащенных регулировщиком рычага скольжения, снять четыре болта с регулировочного кронштейна.
+
+Удалите сборку вентилятора и регулировочный кронштейн в качестве сборки.
 
 ![[08600779.png]]
 
-> [!danger] WARNING · Опасно
-> The belt tensioner and the pivot arm assembly will rotate during removal. Personal injury can result. To reduce the possibility of personal injury, use a hoist or get assistance to lift the component.
+> [!danger] ОПАСНО
+> Натяжитель ремня и стойка поворотной руки будут вращаться во время удаления. Личная травма может быть результатом. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в поднятии компонента.
 
-On engines fitted with the control arm adjuster, loosen the belt control rod (1) to release the idler arm assembly (2).
+На двигателях, оснащенных регулятором рычага управления, ослабить стержень (1) управления ремнем, чтобы освободить сборку рычага холостого хода (2).
 
-Remove the three capscrews (3) from the idler arm assembly (2).
+Удалите три болта (3) из сборки рычага холостого хода (2).
 
 ![[08600227.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Remove the two capscrews (4), retainer plug (5), washer (6), and the control rod (7).
+Удалите два болта (4), фиксатор (5), шайбу (6) и управляющий стержень (7).
 
-Remove the six capscrews (8).
+Удалите шесть болтов (8).
 
-Remove the capscrew (9), washer plate (10), and idler arm assembly (2).
+Удалите болты (9), шайбую пластину (10) и сборку рычага бездельника (2).
 
 ![[08600228.png]]
 
-For engines that use a Rockford™ fan clutch, the actuator bracket (1) has a solenoid bracket (2) attached by using the actuator bracket mounting capscrews. Both the solenoid bracket and actuator bracket are removed at the same time.
+Для двигателей, использующих вентиляторное сцепление RockfordTM, кронштейн (1) привода имеет соленоидную кронштейну (2), прикрепленную с помощью болтов крепления кронштейна привода. И соленоидная кронштейн, и приводная кронштейн удаляются одновременно.
 
-Remove the actuator bracket capscrews.
+Снимите болты приводного кронштейна.
 
-Remove the actuator bracket (1) and the solenoid bracket (2).
+Снимите скобку привода (1) и соленоидную скобку (2).
 
 ![[08600252.png]]
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Use the correct lifting equipment to remove the idler pulley support bracket.
+Используйте правильное подъемное оборудование, чтобы снять опорную кронштейн шкива холостого хода.
 
-Remove the lower nuts from the idler pulley support bracket.
+Удалите нижние гайки из опорной кронштейна шкива холостого хода.
 
-Remove the capscrews (1) from the idler pulley support bracket.
+Удалите болты (1) из опорной кронштейна шкива холостого хода.
 
-Remove the idler pulley support bracket.
+Снимите опорную кронштейн шкива холостого хода.
 
-Remove the spacers (3) and studs (2).
+Удалите прокладки (3) и шпильки (2).
 
 ![[08600805.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> On engines fitted with the slide arm adjuster, remove the four capscrews from the adjusting bracket.
+>
+> Remove the fan idler assembly and adjusting bracket, as an assembly.
+>
+> **WARNING · Опасно**
+> The belt tensioner and the pivot arm assembly will rotate during removal. Personal injury can result. To reduce the possibility of personal injury, use a hoist or get assistance to lift the component.
+>
+> On engines fitted with the control arm adjuster, loosen the belt control rod (1) to release the idler arm assembly (2).
+>
+> Remove the three capscrews (3) from the idler arm assembly (2).
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Remove the two capscrews (4), retainer plug (5), washer (6), and the control rod (7).
+>
+> Remove the six capscrews (8).
+>
+> Remove the capscrew (9), washer plate (10), and idler arm assembly (2).
+>
+> For engines that use a Rockford™ fan clutch, the actuator bracket (1) has a solenoid bracket (2) attached by using the actuator bracket mounting capscrews. Both the solenoid bracket and actuator bracket are removed at the same time.
+>
+> Remove the actuator bracket capscrews.
+>
+> Remove the actuator bracket (1) and the solenoid bracket (2).
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> Use the correct lifting equipment to remove the idler pulley support bracket.
+>
+> Remove the lower nuts from the idler pulley support bracket.
+>
+> Remove the capscrews (1) from the idler pulley support bracket.
+>
+> Remove the idler pulley support bracket.
+>
+> Remove the spacers (3) and studs (2).

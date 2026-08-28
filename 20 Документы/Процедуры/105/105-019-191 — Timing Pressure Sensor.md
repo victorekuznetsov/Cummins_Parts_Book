@@ -68,7 +68,7 @@ tags:
 
 ### Снятие
 
-Удалить ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]В руководстве по устранению и ремонту систем управления электрогенерацией, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78, бюллетене [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] или процедуре 019-031 в руководстве по устранению и ремонту систем электронного управления, двигателях QSK19, QSK23, QSK60 и QSK78, бюллетене [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
+Удалить ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]Руководство по устранению неполадок и ремонту системы управления электрогенерацией, двигатели серии QSK60, QSK45, QSX15, QSK23, QSK15, бюллетень [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] или процедура[[19-019-031 — Engine Control Module|019-031]]Руководство по устранению неполадок и ремонту в электронной системе управления, двигатели серии QSK60, QSK23, QSK19 и QSK78, бюллетень [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
 
 ![[19400295.png]]
 
@@ -95,7 +95,7 @@ tags:
 
 ![[19400308.png]]
 
-Установите ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]В руководстве по устранению и ремонту систем управления электрогенерацией, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78, бюллетене [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] или процедуре 019-031 в руководстве по устранению и ремонту систем электронного управления, двигателях QSK19, QSK23, QSK60 и QSK78, бюллетене [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
+Установите ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]Руководство по устранению неполадок и ремонту системы управления электрогенерацией, двигатели серии QSK60, QSK45, QSX15, QSK23, QSK15, бюллетень [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]] или процедура[[19-019-031 — Engine Control Module|019-031]]Руководство по устранению неполадок и ремонту в электронной системе управления, двигатели серии QSK60, QSK23, QSK19 и QSK78, бюллетень [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
 
 ![[19400295.png]]
 

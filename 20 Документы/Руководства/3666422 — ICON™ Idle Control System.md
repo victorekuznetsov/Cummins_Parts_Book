@@ -34,9 +34,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666422 — ICON™ Idle Control System\|3666422]]-toc | Table of Contents |  |
-| [[3666422 — ICON™ Idle Control System\|3666422]]-titlepage | Titlepage | 23-Feb-2005 |
-| ft-frwd | Foreword | 22-May-2006 |
+| [[[3666422 — ICON™ Idle Control System\|3666422]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666422/3666422-toc.html) | Table of Contents |  |
+| [[[3666422 — ICON™ Idle Control System\|3666422]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666422/3666422-titlepage.html) | Titlepage | 23-Feb-2005 |
+| [ft-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666422/ft-frwd.html) | Foreword | 22-May-2006 |
 
 ### Section i - Introduction
 
@@ -72,13 +72,13 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666422 — ICON™ Idle Control System\|3666422]]-backcover | Backcover | 01-Dec-2004 |
+| [[[3666422 — ICON™ Idle Control System\|3666422]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666422/3666422-backcover.html) | Backcover | 01-Dec-2004 |
 
 ### Section W - Warranty
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3381351 | ICON™ Idle Control System Product | 22-Dec-2004 |
+| [3381351](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381351/3381351-history.html) | ICON™ Idle Control System Product | 22-Dec-2004 |
 
 ### Section S - Service Assistance
 

@@ -30,10 +30,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021941 — QSM11 Industrial Owners Manual\|4021941]]-toc | Table of Contents |  |
+| [[[4021941 — QSM11 Industrial Owners Manual\|4021941]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021941/4021941-toc.html) | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
-| [[4021941 — QSM11 Industrial Owners Manual\|4021941]]-titlepage | Titlepage | 13-Feb-2008 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021941/own-frwd.html) | Foreword | 14-Jul-2006 |
+| [[[4021941 — QSM11 Industrial Owners Manual\|4021941]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021941/4021941-titlepage.html) | Titlepage | 13-Feb-2008 |
 
 ### Section i - Introduction
 
@@ -48,11 +48,11 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-frt | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
-| ind-bck | Owner's Warranty Responsibilities | 14-Oct-2003 |
-| ind-m11-n14 | Component Coverage | 10-Dec-2004 |
-| 3381322 | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
-| 3381321 | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
+| [ind-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021941/ind-frt.html) | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
+| [ind-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021941/ind-bck.html) | Owner's Warranty Responsibilities | 14-Oct-2003 |
+| [ind-m11-n14](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021941/ind-m11-n14.html) | Component Coverage | 10-Dec-2004 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
 
 ### Section V - Maintenance Specifications
 
@@ -79,7 +79,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021941 — QSM11 Industrial Owners Manual\|4021941]]-backcover | Backcover | 13-Feb-2008 |
+| [[[4021941 — QSM11 Industrial Owners Manual\|4021941]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021941/4021941-backcover.html) | Backcover | 13-Feb-2008 |
 
 ### Section 1 - Operating Instructions
 

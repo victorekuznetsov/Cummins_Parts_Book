@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-042.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-042.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Engine Speed Sensor (ESS)
@@ -38,66 +40,128 @@ tags:
 > **Даты:** изменён 2008-07-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-042.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-042.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-QSK19 Engines
 
-Disconnect the engine speed sensor connector from the engine harness.
+### Снятие
 
-Loosen the locknut.
+Двигатели QSK19
 
-Remove the engine speed sensor from the cylinder block.
+Отсоедините разъем датчика скорости двигателя от электропроводки двигателя.
+
+Ослабьте локон.
+
+Удалите датчик скорости двигателя из блока цилиндров.
 
 ![[19400427.png]]
 
-QSK23, QSK45, QSK60, and QSK78
+QSK23, QSK45, QSK60 и QSK78
 
-Disconnect the sensor from the engine harness.
+Отсоедините датчик от жгута проводов двигателя.
 
-Loosen the jam nut from the flywheel housing.
+Освободите локон от обшивки маховика.
 
-Remove the sensor from the mounting location.
+Удалите датчик из места установки.
 
 ![[19601223.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the engine speed sensor for debris, cracked or chipped potting, extruded potting, and damage from contact with the cam gear.
+Осмотрите датчик скорости двигателя на предмет обломков, трещин или сколов горшка, экструдированного горшка и повреждения от контакта с кулачковой передачей.
 
-If there is debris on the engine speed sensor, clean the sensor.
+Если на датчике скорости двигателя есть мусор, очистите датчик.
 
-If the sensor is chipped, cracked, extruded, or otherwise damaged, replace the sensor with a new sensor.
+Если датчик сколот, треснул, экструдировался или иным образом поврежден, замените датчик новым датчиком.
 
 ![[19800369.png]]
 
-### Install
+### Установка
 
-QSK19 Engines
+Двигатели QSK19
 
-Install a new o-ring onto the engine speed sensor.
+Установите новое кольцо на датчик скорости двигателя.
 
-Install the new engine speed sensor into the mounting hole in the cylinder block.
+Установите новый датчик скорости двигателя в монтажное отверстие в блоке цилиндров.
 
-Tighten the engine speed sensor with the installation tool, Part Number 3822747.
+Закрепите датчик скорости двигателя установочным инструментом, Номер детали 3822747.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[19400428.png]]
 
-Connect the sensor to the sensor harness. Push the connectors together until they lock.
+Подключите датчик к проводах датчика. Соедините разъёмы до фиксации.
 
 ![[19400429.png]]
 
-QSK23, QSK45, QSK60, and QSK78
+QSK23, QSK45, QSK60 и QSK78
 
-Install the new sensor into the mounting hole until it contacts the flywheel. Back off ½ turn.
+Установите новый датчик в монтажное отверстие, пока он не свяжется с маховиком. Отойди от поворота.
 
-Tighten the jam nut.
+Затяните локон.
 
-> [!tip] Момент затяжки · Torque Value
-> 34 n•m [25 ft-lb]
+> [!tip] Момент затяжки
+> 34 Н·м [25 фунт-фут]
 
-Connect the sensor to the engine harness.
+Подключите датчик к жгуту проводов двигателя.
 
 ![[19601223.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> QSK19 Engines
+>
+> Disconnect the engine speed sensor connector from the engine harness.
+>
+> Loosen the locknut.
+>
+> Remove the engine speed sensor from the cylinder block.
+>
+> QSK23, QSK45, QSK60, and QSK78
+>
+> Disconnect the sensor from the engine harness.
+>
+> Loosen the jam nut from the flywheel housing.
+>
+> Remove the sensor from the mounting location.
+>
+> ### Inspect for Reuse
+>
+> Inspect the engine speed sensor for debris, cracked or chipped potting, extruded potting, and damage from contact with the cam gear.
+>
+> If there is debris on the engine speed sensor, clean the sensor.
+>
+> If the sensor is chipped, cracked, extruded, or otherwise damaged, replace the sensor with a new sensor.
+>
+> ### Install
+>
+> QSK19 Engines
+>
+> Install a new o-ring onto the engine speed sensor.
+>
+> Install the new engine speed sensor into the mounting hole in the cylinder block.
+>
+> Tighten the engine speed sensor with the installation tool, Part Number 3822747.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> Connect the sensor to the sensor harness. Push the connectors together until they lock.
+>
+> QSK23, QSK45, QSK60, and QSK78
+>
+> Install the new sensor into the mounting hole until it contacts the flywheel. Back off ½ turn.
+>
+> Tighten the jam nut.
+>
+> **Момент затяжки · Torque Value**
+> 34 n•m [25 ft-lb]
+>
+> Connect the sensor to the engine harness.

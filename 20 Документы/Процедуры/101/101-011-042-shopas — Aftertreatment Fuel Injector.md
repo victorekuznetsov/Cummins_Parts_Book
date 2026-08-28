@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-011-042-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-011-042-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Aftertreatment Fuel Injector
@@ -31,28 +33,62 @@ tags:
 > **Даты:** изменён 2017-03-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-011-042-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-011-042-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install a new fibrous insulator.
 
-Install a new metal gasket.
+### Установка
 
-> [!note] Note · Примечание
-> The fibrous insulator will be against the injector.
+Установите новый фиброзный изолятор.
 
-Install the aftertreatment injector onto the adapter pipe.
+Установите новую металлическую прокладку.
 
-> [!note] Note · Примечание
-> Make sure the aftertreatment injector harness is **not** touching the adapter pipe.
+> [!note] Примечание
+> Фиброзный изолятор будет против топливного форсунка.
 
-> [!note] Note · Примечание
-> The tall side of the injector and injector heat shield should be facing the turbocharger side.
+Установите послеочистительный форсунка на трубу адаптера.
 
-Install new capscrews. Anti-seize compound will already be applied to the capscrews.
+> [!note] Примечание
+> Убедитесь, что после обработки топливный форсунок проводов жгута **не** касался трубы адаптера.
 
-The use of the original capscrews will result in clamp load loss and gasket leakage.
+> [!note] Примечание
+> Высокие стороны форсунки и топливного форсунка теплового экрана должны быть обращены к стороне турбокомпрессора.
 
-> [!tip] Момент затяжки · Torque Value
-> 11.3 n•m [100 in-lb]
+Установите новые болты. Противоусадочное соединение уже будет применяться к болтам.
+
+Использование оригинальных болтов приведет к потере нагрузки и утечке прокладки.
+
+> [!tip] Момент затяжки
+> 11.3 Н·м [100 фунт-дюйм]
 
 ![[06c00112.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Install a new fibrous insulator.
+>
+> Install a new metal gasket.
+>
+> **Note · Примечание**
+> The fibrous insulator will be against the injector.
+>
+> Install the aftertreatment injector onto the adapter pipe.
+>
+> **Note · Примечание**
+> Make sure the aftertreatment injector harness is **not** touching the adapter pipe.
+>
+> **Note · Примечание**
+> The tall side of the injector and injector heat shield should be facing the turbocharger side.
+>
+> Install new capscrews. Anti-seize compound will already be applied to the capscrews.
+>
+> The use of the original capscrews will result in clamp load loss and gasket leakage.
+>
+> **Момент затяжки · Torque Value**
+> 11.3 n•m [100 in-lb]

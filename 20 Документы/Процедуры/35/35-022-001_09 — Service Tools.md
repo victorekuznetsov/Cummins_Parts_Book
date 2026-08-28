@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-022-001_09.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-022-001_09.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Service Tools
@@ -35,10 +37,24 @@ tags:
 > **Даты:** изменён 2002-08-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-022-001_09.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-022-001_09.pdf)
 
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
 ![[3823774.png]]
 
 ![[3824270.png]]
 
-| **Tool Number** 3823774 | **Needle Bearing Kit** Used to remove and install needle bearings in the hydraulic pump adapter. Use mandrel, Part Number 3823776, to install hydraulic pump needle bearings. |  |
+| **Инструментальный номер **3823774 | **Подшипник подшипника иглы** Используется для удаления и установки подшипников иглы в гидравлическом адаптере насоса. Используйте подшипник, номер детали 3823776, для установки подшипников для гидравлических насосов. |  |
 |---|---|---|
-| **Tool Number** 3824270 | **Engine Baring Tool** Used to fasten a slide hammer to the hydraulic drive adapter for removal. |  |
+| **Инструментальный номер **3824270 | **Инструмент для обшивки двигателя** Используется для крепления молотка к гидравлическому адаптеру привода для удаления. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | **Tool Number** 3823774 | **Needle Bearing Kit** Used to remove and install needle bearings in the hydraulic pump adapter. Use mandrel, Part Number 3823776, to install hydraulic pump needle bearings. |  |
+> |---|---|---|
+> | **Tool Number** 3824270 | **Engine Baring Tool** Used to fasten a slide hammer to the hydraulic drive adapter for removal. |  |

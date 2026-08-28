@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-002-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-002-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Drive Belt, Cooling Fan
@@ -35,27 +37,54 @@ tags:
 > **Даты:** изменён 2017-03-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-002-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-002-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> The fan belt idler is under tension. Do not allow your hands to get between the idler and the belt or the fan hub. Personal injury can result.
 
-For the spring type tensioner, loosen the six capscrews (1) and the three capscrews (2) and the center capscrew (4). Turn the hexagon nut (3) **counterclockwise** to relieve tension on the belt.
+### Снятие
+
+> [!danger] ОПАСНО
+> Бездельник с поясом вентилятора находится под напряжением. Не позволяйте рукам встать между бездельником и поясом или вентиляторным узлом. Личная травма может быть результатом.
+
+Для натяжителя пружинного типа ослабить шесть болтов (1) и три болта (2) и центральные болты (4). Поверните шестиугольник (3)** против часовой стрелки**, чтобы снять напряжение на поясе.
 
 ![[08600165.png]]
 
-Remove the fan belt.
+Удалите пояс вентилятора.
 
 ![[08600162.png]]
 
-For the slide type tensioner, loosen the four mounting capscrews (1).
+Для натяжителя типа скольжения ослабить четыре крепежных болта (1).
 
-Turn the tensioning capscrew to relieve the tension on the belt.
+Поверните натяжные болты, чтобы снять напряжение на поясе.
 
 ![[08k00042.png]]
 
-For the automatic type tensioner (when removing the belt **only**):
+Для автоматического натяжителя типа (при снятии ремня **только**):
 
-Use a large wrench to hold the idler cap (1). Rotate the idler cap **clockwise** to relieve the tension on the idler (2).
+Используйте большой гаечный ключ, чтобы держать крышку холостого хода (1). Поверните крышку холостого хода **по часовой стрелке**, чтобы снять напряжение на холостом ходу (2).
 
 ![[08k00043.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> The fan belt idler is under tension. Do not allow your hands to get between the idler and the belt or the fan hub. Personal injury can result.
+>
+> For the spring type tensioner, loosen the six capscrews (1) and the three capscrews (2) and the center capscrew (4). Turn the hexagon nut (3) **counterclockwise** to relieve tension on the belt.
+>
+> Remove the fan belt.
+>
+> For the slide type tensioner, loosen the four mounting capscrews (1).
+>
+> Turn the tensioning capscrew to relieve the tension on the belt.
+>
+> For the automatic type tensioner (when removing the belt **only**):
+>
+> Use a large wrench to hold the idler cap (1). Rotate the idler cap **clockwise** to relieve the tension on the idler (2).

@@ -30,10 +30,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]]-toc | Table of Contents |  |
-| [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]]-titlepage | Titlepage | 28-Apr-2004 |
+| [[[4915528 — QSK45 and QSK60 Owners Manual\|4915528]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915528/4915528-toc.html) | Table of Contents |  |
+| [[[4915528 — QSK45 and QSK60 Owners Manual\|4915528]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915528/4915528-titlepage.html) | Titlepage | 28-Apr-2004 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915528/own-frwd.html) | Foreword | 14-Jul-2006 |
 
 ### Section i - Introduction
 
@@ -62,13 +62,13 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-frt | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
-| ind-bck | Owner's Warranty Responsibilities | 14-Oct-2003 |
-| ind-qsk19-qsk23 | Coverage | 22-Dec-2004 |
-| 3381322 | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
-| 3381321 | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
-| 3381775 | Commercial Applications Marine Propulsion and Marine Auxiliary Products Worldwide | 12-May-2009 |
-| 3381307 | All Engines Worldwide Generator Drive | 25-Aug-2009 |
+| [ind-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915528/ind-frt.html) | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
+| [ind-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915528/ind-bck.html) | Owner's Warranty Responsibilities | 14-Oct-2003 |
+| [ind-qsk19-qsk23](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915528/ind-qsk19-qsk23.html) | Coverage | 22-Dec-2004 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | Commercial Applications Marine Propulsion and Marine Auxiliary Products Worldwide | 12-May-2009 |
+| [3381307](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381307/3381307-history.html) | All Engines Worldwide Generator Drive | 25-Aug-2009 |
 
 ### Section V - Maintenance Specifications
 
@@ -92,7 +92,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]]-backcover | Backcover | 22-Sep-2004 |
+| [[[4915528 — QSK45 and QSK60 Owners Manual\|4915528]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915528/4915528-backcover.html) | Backcover | 22-Sep-2004 |
 
 ### Section E - Engine and System Identification
 

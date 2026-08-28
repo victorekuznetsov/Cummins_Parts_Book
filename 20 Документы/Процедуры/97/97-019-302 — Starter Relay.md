@@ -15,7 +15,8 @@ families:
 manuals:
   - "3666415"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-302.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-302.pdf"
 tags:
@@ -23,6 +24,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Starter Relay
@@ -35,18 +37,40 @@ tags:
 > **Даты:** изменён 2003-06-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-302.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-302.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Turn the keyswitch to the OFF position.
 
-Disconnect the starter relay (mounted on the vehicle's firewall) from the ICON™ engine harness connector.
+### Снятие
+
+Переведите замок зажигания в положение OFF.
+
+Отсоедините стартерную реле (установленную на брандмауэр автомобиля) от разъема жгута электропроводки двигателя ICONTM.
 
 ![[19802877.png]]
 
-### Install
+### Установка
 
-Turn the keyswitch to the OFF position.
+Переведите замок зажигания в положение OFF.
 
-Install the starter relay into the ICON™ engine harness connector (i.e., the relay holder) on the vehicle's firewall.
+Установите стартер реле в разъем для проводов двигателя ICONTM (т.е. держатель реле) на брандмауэре автомобиля.
 
 ![[19802877.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Turn the keyswitch to the OFF position.
+>
+> Disconnect the starter relay (mounted on the vehicle's firewall) from the ICON™ engine harness connector.
+>
+> ### Install
+>
+> Turn the keyswitch to the OFF position.
+>
+> Install the starter relay into the ICON™ engine harness connector (i.e., the relay holder) on the vehicle's firewall.

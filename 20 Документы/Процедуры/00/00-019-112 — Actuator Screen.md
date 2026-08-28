@@ -16,7 +16,8 @@ manuals:
 parts:
   - "3867393"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-019-112.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-019-112.pdf"
 tags:
@@ -24,6 +25,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/00"
+  - "перевод/машинный"
 ---
 
 # Actuator Screen
@@ -36,28 +38,36 @@ tags:
 > **Даты:** изменён 2002-08-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-019-112.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-019-112.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Refer to the following applicable procedure to remove the actuator: • Fuel Pump Actuator (019-117) • Rail Actuator (019-337) • Timing Actuator (019-339).
 
-Use quick-dry electrical contact cleaner, Part Number 3824510, and clean the screen filter area thoroughly.
+### Снятие
+
+См. следующую применимую процедуру удаления привода: • Привод нагнетателя топливного насоса (019-117) • Привод рельсов (019-337) • Привод временных отверстий (019-339).
+
+Используйте быстросушливый электрический контактный очиститель, номер детали 3824510, и тщательно очищайте область фильтра экрана.
 
 ![[19400303.png]]
 
-Use a fine-blade screwdriver or knife edge to separate the snap connection of the screen filter.
+Используйте отвертку с тонкой лезвием или нож, чтобы разделить щелчок подключения фильтра экрана.
 
-Remove and discard the screen filter.
+Удалите и отбросьте фильтр экрана.
 
 ![[19400304.png]]
 
-### Install
+### Установка
 
-Wrap a new screen filter, Part Number [[3867393]], around the actuator.
+Оберните новый фильтр экрана, номер детали[[3867393]]вокруг привода.
 
-Use a pair of needle-nose pliers to carefully join the screen filter ends.
+Используйте пару плоскогубцев с иглой, чтобы аккуратно соединить концы фильтра экрана.
 
-> [!note] Note · Примечание
-> Be sure that the screen filter is in its groove and the two ends are nearly joined **before** using the pliers.
+> [!note] Примечание
+> Убедитесь, что фильтр экрана находится в канавке, и два конца почти соединены до использования плоскогубцев.
 
 ![[19400305.png]]
 
@@ -66,3 +76,23 @@ Use a pair of needle-nose pliers to carefully join the screen filter ends.
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3867393]] | FILTER SCREEN | Сетчатый фильтр |
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Refer to the following applicable procedure to remove the actuator: • Fuel Pump Actuator (019-117) • Rail Actuator (019-337) • Timing Actuator (019-339).
+>
+> Use quick-dry electrical contact cleaner, Part Number 3824510, and clean the screen filter area thoroughly.
+>
+> Use a fine-blade screwdriver or knife edge to separate the snap connection of the screen filter.
+>
+> Remove and discard the screen filter.
+>
+> ### Install
+>
+> Wrap a new screen filter, Part Number [[3867393]], around the actuator.
+>
+> Use a pair of needle-nose pliers to carefully join the screen filter ends.
+>
+> **Note · Примечание**
+> Be sure that the screen filter is in its groove and the two ends are nearly joined **before** using the pliers.

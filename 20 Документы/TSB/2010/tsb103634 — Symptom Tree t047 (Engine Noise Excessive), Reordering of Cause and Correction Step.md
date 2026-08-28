@@ -8,12 +8,14 @@ engines:
   - "80248213"
 families:
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103634.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103634.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Symptom Tree t047 (Engine Noise Excessive), Reordering of Cause and Correction Steps
@@ -24,12 +26,32 @@ tags:
 > **Даты:** изменён 2009-10-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103634.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103634.pdf)
 
-## Symptom Tree t047 (Engine Noise Excessive), Reordering of Cause and Correction Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Дерево t047 (избыточный шум двигателя), изменение процедуры причин и коррекция
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises Symptom Tree t047 (Engine Noise Excessive). The sequence of the Cause and Correction steps has been rearranged.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Тематика: Симптомное дерево t047 (избыточный шум двигателя). Последовательность причин и исправлений была перестроена.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Symptom Tree t047 (Engine Noise Excessive), Reordering of Cause and Correction Steps
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises Symptom Tree t047 (Engine Noise Excessive). The sequence of the Cause and Correction steps has been rearranged.

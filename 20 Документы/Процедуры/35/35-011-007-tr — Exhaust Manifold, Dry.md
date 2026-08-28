@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 51
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-007-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-007-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Exhaust Manifold, Dry
@@ -35,534 +37,974 @@ tags:
 > **Даты:** изменён 2020-01-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-007-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-007-tr.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-With CM870 and CM570
 
-Operate the engine and inspect the exhaust manifold for leaks at the slip joints.
+### Первичная проверка
 
-If the manifold is leaking at the slip joints, it **must** be repaired.
+С CM870 и CM570
 
-Some ISM engines are equipped with exhaust seal rings located within the slip joints. All ISM CM876 engines are equipped with exhaust seal rings.
+Управляйте двигателем и проверяйте выхлопной коллектор на наличие утечек в скольженных соединениях.
 
-> [!note] Note · Примечание
-> For engines **not** equipped with seal rings, the kit for the front slip joint is different than the kit for the rear slip joint. The outer shells are different, as well as the graphite seal. **Only** the clamps are similar.
+Если коллектор протекает в скольженных суставах, его необходимо отремонтировать.
+
+Некоторые двигатели ISM оснащены кольцами отработавших уплотнений, расположенными в скольжении. Все двигатели ISM CM876 оснащены кольцами отработавших газов.
+
+> [!note] Примечание
+> Для двигателей **не**, оснащенных уплотнительными кольцами, комплект для переднескользящего соединения отличается от комплекта для заднего скольжения. Внешние оболочки различны, как и графитовое уплотнение. Только зажимы похожи.
 
 ![[11200157.png]]
 
-### Repair
+### ремонт
 
-Automotive with CM875, CM870 and CM570
+Автомобильные модели CM875, CM870 и CM570
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury from hot surfaces, allow the engine to cool before beginning work. Wear appropriate hand and eye protection.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травм от горячих поверхностей, позвольте двигателю остыть перед началом работы. Носите соответствующую защиту рук и глаз.
 
-> [!note] Note · Примечание
-> For engines without exhaust seal rings.
+> [!note] Примечание
+> Для двигателей без выпускных колец.
 
-| Exhaust Manifold Slip Joint Seal Kit Contents |  |
+| Exhaust Manifold Slip Joint Seal Kit Contents (недоступная ссылка) |  |
 |---|---|
-| Part Description | Quantity per Kit |
-| Covers | 2 |
-| Seal | 1 |
-| Clamp | 1 |
-| Note: Each kit contains parts for one slip joint repair. Two kits, front and rear, will be needed to service the front and back. |  |
+| Часть описание | Количество на комплект |
+| петли | 2 |
+| уплотнение | 1 |
+| зажим | 1 |
+| Примечание: Каждый комплект содержит детали для одного ремонта скольжения. Для обслуживания передней и задней части потребуется два комплекта. |  |
 
-Remove the turbocharger inlet and exhaust piping. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+Удалите впускной и выхлопной трубопроводы турбокомпрессора.[[35-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
 
-Remove the front and rear exhaust manifold heat shields located below the manifold. [[35-011-032-tr — Heat Shield|Refer to Procedure 011-032 in Section 11.]]
+Удалите передний и задний тепловые экраны выхлопных коллекторов, расположенные ниже коллектора.[[35-011-032-tr — Heat Shield|См. процедуру 011-032 в разделе 11.]]
 
 ![[tb2comc.png]]
 
-Twist the graphite seal to open it, and place it on the end section of the manifold, up against the slip joint.
+Поверните графитовую уплотнение, чтобы открыть ее, и поместите на конец секции коллектора, против скольжения сустава.
 
 ![[11c00085.png]]
 
-> [!note] Note · Примечание
-> The recessed inside diameter goes against the center section. The split in the seal is located horizontally away from the engine.
+> [!note] Примечание
+> Утопленный внутренний диаметр идет против центрального участка. Раскол в уплотнении расположен горизонтально от двигателя.
 
-Place the top and bottom shells over the graphite ring and the exhaust housing center section step.
+Поместите верхнюю и нижнюю оболочки над графитовым кольцом и ступенью центра обсадного кожуха выхлопных газов.
 
-When placing the shells over the seal, start with the back edges closer together than the front. When the clamp is tightened, it will pull the graphite split tighter together.
+При размещении снарядов над уплотнением начните с задних краев ближе друг к другу, чем передние. Когда зажим затянут, он будет тянуть графит, расколовшийся более плотно.
 
 ![[11200153.png]]
 
-Place the top and bottom shells over the slip joint and graphite seal with the notch in the cover toward the center of the exhaust manifold center section.
+Поместите верхнюю и нижнюю оболочку над скольжением сустава и графитовым уплотнением с выемкой в крышке к центру секции центра выхлопного коллектора.
 
-> [!note] Note · Примечание
-> A pry bar can be used to get the outer shells pressed together enough to get the clamp on. Do **not** damage the EGR cooler with the pry bar.
+> [!note] Примечание
+> Сквозной штанги можно использовать, чтобы наружные оболочки были сжаты достаточно, чтобы зажим был включен. Не повреждайте охладитель EGR с помощью pry bar.
 
-Be sure to keep the mating edges aligned with the exhaust manifold parting line.
+Обязательно держите спаривающиеся края выровненными с выхлопной коллекцией разделительной линии.
 
 ![[11200154.png]]
 
-Front Seal - Note the location and orientation of the clamp.
+Передняя уплотнение - обратите внимание на местоположение и ориентацию зажима.
 
-Tighten the clamp.
+Зажим затянуть.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
 ![[11200156.png]]
 
-Rear Seal - Note the location and orientation of the clamp.
+Задняя уплотнение - обратите внимание на местоположение и ориентацию зажима.
 
-Tighten the clamp.
+Зажим затянуть.
 
-> [!tip] Момент затяжки · Torque Value
-> 11 n•m [97 in-lb]
+> [!tip] Момент затяжки
+> 11 Н·м [97 фунт-дюйм]
 
-Replace the heat shields. [[35-011-032-tr — Heat Shield|Refer to Procedure 011-032 in Section 11.]]
+Замените тепловые экраны.[[35-011-032-tr — Heat Shield|См. процедуру 011-032 в разделе 11.]]
 
-Replace the turbocharger plumbing.
+Заменить сантехнику турбокомпрессора.
 
-Clean the soot from around the slip joint area.
+Очистите сажу от вокруг области скольжения.
 
 ![[11200155.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Automotive with CM870
+Автомобильный с CM870
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Drain the coolant. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the air piping from the turbocharger.
-- Remove the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Remove the EGR valve coolant lines. [[35-011-022-tr — EGR Valve|Refer to Procedure 011-022 in Section 11.]]
-- Remove the water manifold return tube. [[35-008-061-tr — Water Manifold|Refer to Procedure 008-061 in Section 8.]]
-- Remove the EGR cooler coolant lines. [[35-011-031-tr — EGR Cooler Coolant Lines|Refer to Procedure 011-031 in Section 11.]]
-- Remove the EGR valve. [[35-011-022-tr — EGR Valve|Refer to Procedure 011-022 in Section 11.]]
-- Remove the exhaust gas pressure sensor tube. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|Refer to Procedure 011-027 in Section 11.]]
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Слейте охлаждающую жидкость.[[35-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите воздушные трубопроводы из турбокомпрессора.
+- Удалите турбокомпрессор.[[35-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Удалите линии охлаждающей жидкости клапана EGR.[[35-011-022-tr — EGR Valve|См. процедуру 011-022 в разделе 11.]]
+- Удалите водоразборную трубку.[[35-008-061-tr — Water Manifold|См. процедуру 008-061 в разделе 8.]]
+- Удалите линии охлаждающей жидкости EGR.[[35-011-031-tr — EGR Cooler Coolant Lines|См. процедуру 011-031 в разделе 11.]]
+- Удалите клапан EGR.[[35-011-022-tr — EGR Valve|См. процедуру 011-022 в разделе 11.]]
+- Удалите трубку датчика давления выхлопных газов.[[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|См. процедуру 011-027 в разделе 11.]]
 
-Automotive with CM876
+Автомобильный с CM876
 
-> [!note] Note · Примечание
-> Brush away any loose dirt from the vicinity of the air handling connections to avoid contamination of the interior of the engine.
+> [!note] Примечание
+> Удалите любую рыхлую грязь из окрестностей соединений для обработки воздуха, чтобы избежать загрязнения внутренней части двигателя.
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Drain the coolant. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the air piping from the turbocharger. Cover open points using caps from the Air Handling and Vehicle Air Plumbing Clean Care Kits.
-- Remove the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Remove the water manifold return tube. [[35-008-061-tr — Water Manifold|Refer to Procedure 008-061 in Section 8.]]
-- Remove the EGR cooler coolant lines. [[35-011-031-tr — EGR Cooler Coolant Lines|Refer to Procedure 011-031 in Section 11.]]
-- Remove the exhaust gas pressure sensor tube. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|Refer to Procedure 011-027 in Section 11.]]
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Слейте охлаждающую жидкость.[[35-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите воздушные трубопроводы из турбокомпрессора. Покрыть открытые точки с помощью крышек из комплектов для чистого ухода Air Handling и Vehicle Air Plumbing.
+- Удалите турбокомпрессор.[[35-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Удалите водоразборную трубку.[[35-008-061-tr — Water Manifold|См. процедуру 008-061 в разделе 8.]]
+- Удалите линии охлаждающей жидкости EGR.[[35-011-031-tr — EGR Cooler Coolant Lines|См. процедуру 011-031 в разделе 11.]]
+- Удалите трубку датчика давления выхлопных газов.[[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|См. процедуру 011-027 в разделе 11.]]
 
-Automotive with CM570
+Автомобильный с CM570
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the air piping from the turbocharger.
-- Remove the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Удалите воздушные трубопроводы из турбокомпрессора.
+- Удалите турбокомпрессор.[[35-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
 
-Marine Applications
+Судовое применение
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Drain the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Remove the heat exchanger. [[35-008-053-tr — Heat Exchanger|Refer to Procedure 008-053 in Section 8.]]
-- Remove the aftercooler assembly (sea water). Refer to Procedure 010-005 in Section 10.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Слейте охлаждающую жидкость.[[35-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите турбокомпрессор.[[35-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Удалите теплообменник.[[35-008-053-tr — Heat Exchanger|См. процедуру 008-053 в разделе 8.]]
+- Удалите сборку послеохладителя (морская вода). См. процедуру 010-005 в разделе 10.
 
-### Remove
+### Снятие
 
-Remove the EGR cooler coolant return tube bracket from the exhaust manifold.
+Удалите кронштейн хладагента EGR из коллектора выхлопных газов.
 
-Remove the exhaust manifold.
+Удалите выхлопной коллектор.
 
-Cover all open points on the exhaust manifold and cylinder head with the appropriate protective caps or heavy tape, if needed.
+Накройте все открытые точки на выпускном коллекторе и головке цилиндра соответствующими защитными колпачками или тяжелой лентой, если это необходимо.
 
-Remove the two upper capscrews from the end sections of the exhaust manifold and install two guide studs, Part Number 3376488.
+Удалите два верхних болта с конца секций выпускного коллектора и установите два направляющих шпилька, номер детали 3376488.
 
-Remove the remaining capscrews, exhaust manifold, and gaskets.
+Удалите оставшиеся болты, выхлопной коллектор и прокладки.
 
-Discard the gaskets.
+Отбросьте прокладки.
 
 ![[11200126.png]]
 
-Automotive with CM570
+Автомобильный с CM570
 
-Remove the two upper capscrews from the end sections of the exhaust manifold and install two guide studs, Part Number 3376488.
+Удалите два верхних болта с конца секций выпускного коллектора и установите два направляющих шпилька, номер детали 3376488.
 
-Remove the remaining capscrews, exhaust manifold, and gaskets.
+Удалите оставшиеся болты, выхлопной коллектор и прокладки.
 
-Discard the gaskets.
+Отбросьте прокладки.
 
 ![[xm200mb.png]]
 
-Marine Applications
+Судовое применение
 
-Remove the heat shield mounting capscrews.
+Удалите крепежные болты теплового экрана.
 
-Remove the heat shield.
+Удалите тепловой экран.
 
-Remove the insulation blanket mounting capscrews.
+Удалите изоляционные одеяла, устанавливающие болты.
 
-Remove the insulation blanket.
+Удалите изоляционное одеяло.
 
 ![[11z00071.png]]
 
-Remove an upper capscrew and spacer from each end of the exhaust manifold and install guide studs, Part Number 3376488.
+Удалите верхние болты и прокладку с каждого конца выпускного коллектора и установите направляющие шпильки, номер детали 3376488.
 
-Remove the remaining capscrews, spacers, exhaust manifold, and gaskets.
+Удалите оставшиеся болты, спейсеры, выхлопной коллектор и прокладки.
 
-Discard the gaskets.
+Отбросьте прокладки.
 
 ![[11z00072.png]]
 
-### Disassemble
+### Разборка
 
-Remove the exhaust manifold end sections.
+Удалите секции конца выпускного коллектора.
 
 ![[11200127.png]]
 
-Cover the open points of the exhaust manifold with the appropriate protective caps or heavy tape, if needed.
+При необходимости накройте открытые точки коллектора выхлопных газов соответствующими защитными колпачками или тяжелой лентой.
 
 ![[11200232.png]]
 
-Marine Applications
+Судовое применение
 
-Inspect the exhaust manifold slip joint for signs of soot leakage.
+Осмотрите выхлопной коллектор скольжения сустава на наличие признаков утечки сажи.
 
-If there is no evidence of an exhaust leak from the slip joint and there are no visible cracks or damage, do **not** separate the exhaust manifold sections.
+Если нет никаких доказательств утечки выхлопных газов из скольжения и нет видимых трещин или повреждений, не разделяйте секции коллектора выхлопных газов.
 
 ![[11z00073.png]]
 
-If soot leakage or damage is found, separate the manifold sections.
+Если обнаружена утечка или повреждение сажи, разделите многообразные секции.
 
 ![[11z00074.png]]
 
-Cover the exhaust manifold openings with protective caps or heavy tape.
+Накройте отверстия выхлопного коллектора защитными колпачками или тяжелой лентой.
 
 ![[11z00075.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Automotive with CM875, CM870 and CM570
+Автомобильные модели CM875, CM870 и CM570
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use 240-grit emery cloth to remove carbon deposits from the sealing surfaces.
+Используйте 240-гритовую салфетку для удаления отложений углерода с герметичных поверхностей.
 
-Use steam to clean the exhaust manifold.
+Используйте пар для очистки выхлопного коллектора.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[xm2hseb.png]]
 
-Inspect the parts for cracks or other damage.
+Осмотрите детали на наличие трещин или других повреждений.
 
-A charge air cooler failure can cause progressive damage to the exhaust manifold. If the exhaust manifold is damaged, check the charge air cooler. [[35-010-027-tr — Charge-Air Cooler|Refer to Procedure 010-027 in Section 10.]]
+Отказ воздушного охладителя заряда может привести к прогрессивному повреждению выхлопного коллектора. Если выхлопной коллектор поврежден, проверьте охладитель воздуха заряда.[[35-010-027-tr — Charge-Air Cooler|См. процедуру 010-027 в разделе 10.]]
 
-Inspect the exhaust manifold slip joint for wear.
+Осмотрите выхлопной коллектор скольжения сустав для износа.
 
-Inspect the exhaust manifold turbocharger mounting surface for warping.
+Осмотрите поверхность установки турбокомпрессора выхлопного коллектора на предмет деформации.
 
 ![[11200135.png]]
 
-Inspect the mounting surfaces for flatness.
+Осмотрите монтажные поверхности на плоскостность.
 
-The exhaust manifold mounting surface **must** be flat to within 0.25 mm \[0.010 in\]. The turbocharger mounting flange **must** have a surface flatness of 0.13 mm \[0.005 in\].
+Установочная поверхность выхлопного коллектора **должна быть плоской в пределах 0,25 мм \[0,010 в\]. Фланец для крепления турбокомпрессора **должен иметь плоскость поверхности 0,13 мм \[0,005 дюйма \].
 
-If these surfaces are **not** within the flatness specifications, see the Alternative Repair Manual, L10 and M11 Series Engines, Bulletin 3810310.
+Если эти поверхности не соответствуют спецификациям плоскостности, см. Руководство по альтернативному ремонту, Двигатели серии L10 и M11, Бюллетень 3810310.
 
 ![[xm2hsta.png]]
 
-Automotive with CM876
+Автомобильный с CM876
 
-Inspect the exhaust manifold slip joints for signs of soot leakage.
+Осмотрите выхлопные коллекторные скольжения на наличие признаков утечки сажи.
 
-If there is no evidence of an exhaust leak from the slip joints and there are no visible cracks or damage, do **not** remove the exhaust manifold end sections.
+Если нет никаких доказательств утечки выхлопных газов из скольжения суставов и нет видимых трещин или повреждений, не удаляйте торцевые секции коллектора выхлопных газов.
 
 ![[11c00156.png]]
 
-Inspect the exhaust manifold turbocharger mounting flange for warpage.
+Осмотрите фланж установки турбокомпрессора коллектора выхлопных газов для деформации.
 
-The exhaust manifold mounting surface **must** be flat to within 0.25 mm \[0.010 in\].
+Установочная поверхность выхлопного коллектора должна быть плоской в пределах 0,25 мм \[0,010 в\].
 
-The turbocharger mounting flange **must** have a surface flatness of 0.13 mm \[0.005 in\].
+Фланец для крепления турбокомпрессора **должен **иметь плоскость поверхности 0,13 мм \[0,005 дюйма \].
 
 ![[xm2hsta.png]]
 
-Inspect for cracks or other damage.
+Проверка на наличие трещин или других повреждений.
 
-> [!note] Note · Примечание
-> A charge air cooler failure can cause progressive damage to the exhaust manifold. If the exhaust manifold is damaged, check the charge air cooler. [[35-010-027-tr — Charge-Air Cooler|Refer to Procedure 010-027 in Section 10.]]
+> [!note] Примечание
+> Отказ воздушного охладителя заряда может привести к прогрессивному повреждению выхлопного коллектора. Если выхлопной коллектор поврежден, проверьте охладитель воздуха заряда.[[35-010-027-tr — Charge-Air Cooler|См. процедуру 010-027 в разделе 10.]]
 
 ![[11c00152.png]]
 
-Check that the exhaust seal is fully seated against the shoulder of the exhaust manifold male end section. If the exhaust seal is **not** fully seated against the shoulder, the exhaust seal **must** be replaced.
+Убедитесь, что уплотнение выхлопных газов полностью усажено на плечо штыревой конечной секции коллектора выхлопных газов. Если герметик выхлопных газов **не** полностью установлен на плече, герметик выхлопных газов должен быть заменен.
 
 ![[11c00159.png]]
 
-Inspect the manifold seal bore for wear.
+Осмотрите цилиндр с уплотнением многообразия, который был изношен.
 
-Inspect the exhaust seal for signs of damage or excessive wear.
+Осмотрите уплотнение выхлопа на наличие признаков повреждения или чрезмерного износа.
 
-The exhaust seal **must not** show signs of dents or other damage.
+Уплотнение выхлопных газов **не должно** иметь признаков вмятины или других повреждений.
 
-Measure the wear width on the exhaust seal ring. The wear width **must not** be more than 1 mm \[0.04 inch\] wide anywhere on the seal.
+Измерить ширину износа на кольце отработавшего уплотнения. Ширина износа **не должна **быть более 1 мм \[0,04 дюйма\] в ширину в любом месте на уплотнения.
 
 ![[11c00153.png]]
 
-Wear width larger than 1 mm \[0.04 in\] indicates a failure and the exhaust seal **must** be replaced.
+Ширина ношения более 1 мм \[0,04 дюйма \] указывает на отказ и герметичность выхлопных газов должна быть заменена.
 
 ![[11c00154.png]]
 
-The wear width **must** be uniform around the seal. If one side of the exhaust seal ring is worn more than the other, the exhaust seal **must** be replaced.
+Ширина износа **должна быть равномерной вокруг уплотнения. Если одна сторона кольца герметизации выхлопных газов носится больше, чем другая, то герметика выхлопных газов **должна быть заменена.
 
 ![[11c00155.png]]
 
-If there is no evidence of an exhaust leak from the slip joints and there are no visible cracks or other damage, do **not** remove the exhaust manifold seal rings.
+Если нет никаких доказательств утечки выхлопных газов из скольжения суставов и нет видимых трещин или других повреждений, не удаляйте кольца уплотнения коллектора выхлопных газов.
 
-If there is a failure or damage, remove the exhaust manifold seal rings.
+Если есть сбой или повреждение, удалите кольца уплотнения коллектора выхлопных газов.
 
 ![[11c00156.png]]
 
-Remove the exhaust seal rings, located within the slip-joint.
+Удалите кольца отработавших газов, расположенные в пределах скольжения.
 
-Use tin snip or side cuts, to cut halfway through the seal in two locations, about 25.4 mm \[1 in\] apart.
+Используйте жестяной снип или боковые разрезы, чтобы прорезать половину уплотнения в двух местах, примерно на 25,4 мм \[1 в\] друг от друга.
 
 ![[11c00148.png]]
 
-Twist and pull the seal off the exhaust manifold end sections.
+Скрутите и вытяните уплотнение с конца выпускного коллектора.
 
-Take care **not** to damage the seal carrier surface.
+Позаботьтесь о том, чтобы не повредить поверхность герметика.
 
-Discard the exhaust seal ring.
+Отбросьте кольцо с выхлопной уплотнением.
 
 ![[11c00149.png]]
 
-Use a soft cloth or a shop towel wetted with a safety solvent to remove carbon deposits from the sealing surfaces.
+Используйте мягкую ткань или полотенце магазина, смачивающееся с помощью растворителя безопасности, чтобы удалить отложения углерода с герметичных поверхностей.
 
 ![[11c00192.png]]
 
-Inspect the exhaust seal ring mating surfaces of the male and female sections of the exhaust manifolds.
+Осмотрите спаривающиеся поверхности кольца уплотнения выхлопных газов штыревой и гнездовой секций коллекторов выхлопных газов.
 
-If scratches or nicks can be felt with a fingernail on the exhaust seal ring mating surfaces, the exhaust manifold section **must** be replaced.
+Если царапины или никаши можно почувствовать ногтем на спаривающих поверхностях кольца уплотнения выхлопных газов, секцию коллектора выхлопных газов следует заменить.
 
 ![[11c00193.png]]
 
-After completing inspections, cover the exhaust manifold with the appropriate protective caps or heavy tape, if needed.
+После завершения проверок накройте выхлопный коллектор соответствующими защитными колпачками или тяжелой лентой, если это необходимо.
 
 ![[11200233.png]]
 
-Marine Applications
+Судовое применение
 
-Inspect the exhaust manifold slip joint for signs of soot leakage.
+Осмотрите выхлопной коллектор скольжения сустава на наличие признаков утечки сажи.
 
-If there is no evidence of an exhaust leak from the slip joint and there are no visible cracks or damage, do **not** separate the exhaust manifold sections.
+Если нет никаких доказательств утечки выхлопных газов из скольжения и нет видимых трещин или повреждений, не разделяйте секции коллектора выхлопных газов.
 
 ![[11z00073.png]]
 
-If soot leakage or damage is found, separate the manifold sections.
+Если обнаружена утечка или повреждение сажи, разделите многообразные секции.
 
 ![[11z00074.png]]
 
-Inspect the parts for cracks or other damage.
+Осмотрите детали на наличие трещин или других повреждений.
 
-Inspect the exhaust manifold slip joint for wear.
+Осмотрите выхлопной коллектор скольжения сустав для износа.
 
-Inspect the exhaust manifold turbocharger mounting surface for warping.
+Осмотрите поверхность установки турбокомпрессора выхлопного коллектора на предмет деформации.
 
 ![[11z00076.png]]
 
-Measure the mounting surfaces for flatness.
+Измеряйте поверхности для плоскостных.
 
-The exhaust manifold mounting surface (1) **must** be flat to within 0.25 mm \[0.010 in\]. The turbocharger mounting flange (2) **must** have a surface flatness of 0.13 mm \[0.005 in\].
+Конструкция монтажа выхлопного коллектора (1)** должна быть плоской до 0,25 мм \[0,010 в\]. Фланж установки турбокомпрессора (2) **должен иметь плоскость поверхности 0,13 мм \[0,005 in\].
 
-If these surfaces are **not** within the flatness specifications, see the Alternative Repair Manual, L10 and M11 Series Engines, Bulletin 3810310.
+Если эти поверхности не соответствуют спецификациям плоскостности, см. Руководство по альтернативному ремонту, Двигатели серии L10 и M11, Бюллетень 3810310.
 
 ![[11z00077.png]]
 
-### Assemble
+### Сборка
 
-Automotive with CM875, CM870 and CM570
+Автомобильные модели CM875, CM870 и CM570
 
-Install the exhaust manifold end sections to the center section.
-
-![[11200127.png]]
-
-Automotive with CM876
-
-Install the exhaust manifold end sections to the center section.
-
-The end section bolt holes **must** be 225 mm \[8.875 inch\] center to center before installing onto the cylinder head.
-
-> [!note] Note · Примечание
-> The exhaust manifold sections **must** be assembled on a flat surface for proper alignment.
-
-> [!note] Note · Примечание
-> QSM11 engines do **not** have an exhaust manifold seal.
-
-The below steps in the Assemble section do **not** apply to the QSM11 engines.
+Установите конечные секции выпускного коллектора в центральную секцию.
 
 ![[11200127.png]]
 
-Place the exhaust seal onto the lip of the exhaust seal installer, Part Number 4918709.
+Автомобильный с CM876
 
-Use a light coat of grease or clean engine oil to lubricate the exhaust seal during assembly onto the male and female sections of the exhaust manifold.
+Установите конечные секции выпускного коллектора в центральную секцию.
+
+Отверстия болтов в конце секции должны быть от центра до центра 225 мм \[8,875 дюйма \] перед установкой на головку цилиндра.
+
+> [!note] Примечание
+> Секции выхлопного коллектора должны быть собраны на плоской поверхности для правильного выравнивания.
+
+> [!note] Примечание
+> Двигатели QSM11 не имеют уплотнения выхлопного коллектора.
+
+Нижеприведенные шаги в разделе «Сборка» не применяются к двигателям QSM11.
+
+![[11200127.png]]
+
+Поместите уплотнение отработавшего газа на губу установщика уплотнения отработавшего газа, номер детали 4918709.
+
+Используйте легкий слой смазки или чистого моторного масла для смазки уплотнения выхлопных газов во время сборки на штыревые и гнездовые секции коллектора выхлопных газов.
 
 ![[11c00157.png]]
 
-Position the seal installer and seal in line with the sealing surface on the exhaust manifold and strike with a lead or a dead blow hammer until the seal is fully seated.
+Поместите установщик и уплотнение уплотнительной машины в соответствии с уплотнительной поверхностью на выпускном коллекторе и ударьте свинцом или молотом с мертвым ударом, пока уплотнение не будет полностью сидено.
 
-Seal rings **must** remain square to manifold component axes during installation.
+Кольца уплотнения **должны **оставаться квадратными для многообразных осей компонентов во время установки.
 
 ![[11c00158.png]]
 
-Marine Applications
+Судовое применение
 
-Remove any protective caps or tape covering the manifold openings.
+Удалите любые защитные колпачки или ленту, закрывающие отверстия коллектора.
 
 ![[11z00075.png]]
 
-Assemble the manifold sections.
+Соберите многообразные секции.
 
 ![[11z00074.png]]
 
-### Install
+### Установка
 
-Remove any protective caps or heavy tape.
+Удалите любые защитные колпачки или тяжелую ленту.
 
-Install two guide studs, Part Number 3376488, in the two top end holes of the cylinder head exhaust ports.
+Установите два направляющих шпилька, номер детали 3376488, в двух верхних отверстиях головки цилиндра выхлопных портов.
 
-Install new gaskets between the cylinder head and the exhaust manifold.
+Установите новые прокладки между головкой цилиндра и выпускным коллектором.
 
-Install the exhaust manifold over the guide pins.
+Установите выхлопной коллектор над направляющими штифтами.
 
 ![[11200126.png]]
 
-Attach the EGR cooler coolant return tube bracket at the number 4 and number 5 exhaust ports. Orient bracket as shown.
+Прикрепить кронштейн хладагента EGR к холодильной установке на выхлопных газах номеров 4 и 5. Восточная скобка, как показано.
 
-Apply a film of high temperature anti-seize compound to the capscrew threads to be sure of proper loading on the capscrews.
+Нанесите пленку высокотемпературного антизахватного соединения на резьбу болтов, чтобы убедиться в правильной нагрузке на болты.
 
-Hand start the capscrews through the bracket, spacers, manifold, and gaskets.
+Рука запускает болты через скобки, прокладки, коллектор и прокладки.
 
 ![[11200128.png]]
 
-Apply a film of high temperature anti-seize compound to the capscrew threads and install them into the cylinder head.
+Нанесите пленку высокотемпературного антисептического соединения на болты, резьбу и установите их в головку цилиндра.
 
-Remove the guide studs and install the remaining capscrews.
+Удалите направляющие шпильки и установите оставшиеся болты.
 
-Tighten the capscrews in the sequence shown.
+Затягивайте болты в показанной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 57 n•m [42 ft-lb]
+> [!tip] Момент затяжки
+> 57 Н·м [42 фунт-фут]
 
 ![[11200129.png]]
 
-Automotive with CM570
+Автомобильный с CM570
 
-Install two guide studs, Part Number 3376488, in the two top end holes of the cylinder head exhaust ports.
+Установите два направляющих шпилька, номер детали 3376488, в двух верхних отверстиях головки цилиндра выхлопных портов.
 
-Install a new gasket over each guide stud.
+Установите новую прокладку над каждым направляющим шпильком.
 
-Do **not** use any kind of adhesive to hold the gaskets.
+не использовать какой-либо клей для удержания прокладок.
 
 ![[kn200wa.png]]
 
-To aid in future capscrew removal, apply a coating of high temperature anti-seize compound to the capscrew threads.
+Чтобы помочь в будущем удалении болтов, нанесите на резьбу болтов покрытие высокотемпературного анти-захватного соединения.
 
-Install the exhaust manifold, tubular spacers, and capscrews.
+Установите выхлопной коллектор, трубчатые прокладки и болты.
 
-The exhaust manifold can be tilted back enough to install a new gasket on each exhaust port as the capscrews are being installed.
+Выхлопной коллектор может быть наклонен назад достаточно, чтобы установить новую прокладку на каждом выхлопном порту, когда болты устанавливаются.
 
 ![[xm200hb.png]]
 
-Tighten the capscrews in the sequence shown.
+Затягивайте болты в показанной последовательности.
 
-The torque values given have been established using anti-seize compound as a lubricant.
+Приведенные значения крутящего момента были установлены с использованием анти-захват соединения в качестве смазки.
 
-Torque Value:
+Момент затяжки:
 
 ![[xm2csod.png]]
 
-Marine Applications
+Судовое применение
 
-Apply a film of high temperature anti-seize compound to new exhaust manifold capscrews.
+Нанесите пленку высокотемпературного антисептического соединения на новые болты выхлопных коллекторов.
 
-Align the manifold and gaskets using guide studs.
+Выровнять коллектор и прокладки с помощью направляющих шпиль.
 
-Install spacers and new capscrews hand tight.
+Установите прокладки и новые болты скрепите руки.
 
-Remove guide studs and install remaining spacers and capscrews hand tight.
+Удалите направляющие шпильки и установите оставшиеся спейсеры и болты скрепите руку.
 
-Tighten the capscrews in the sequence shown.
+Затягивайте болты в показанной последовательности.
 
-Torque Value:
+Момент затяжки:
 
 ![[11z00079.png]]
 
-Tighten the capscrews in the sequence shown.
+Затягивайте болты в показанной последовательности.
 
-Torque Value:
+Момент затяжки:
 
 ![[11z00080.png]]
 
-Install the exhaust manifold insulation blanket.
+Установите одеяло изоляции коллектора выхлопных газов.
 
-Install the exhaust manifold heat shield.
+Установите тепловой экран выхлопного коллектора.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[11z00071.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+Автомобильный с CM570
+
+- Установите турбокомпрессор.[[35-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Установите воздушные трубопроводы к турбокомпрессору. См. информацию об обслуживании производителя оборудования для правильного значения крутящего момента.
+- Заправьте систему охлаждения.[[35-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Управляйте двигателем и проверяйте наличие утечек воздуха или выхлопных газов.
+
+Автомобильные модели CM875, CM870 и CM570
+
+- Установите клапан EGR.[[35-011-022-tr — EGR Valve|См. процедуру 011-022 в разделе 11.]]
+- Установите линии охлаждающей жидкости EGR.[[35-011-031-tr — EGR Cooler Coolant Lines|См. процедуру 011-031 в разделе 11.]]
+- Установите водоразборную трубу обратного хода.[[35-008-061-tr — Water Manifold|См. процедуру 008-061 в разделе 8.]]
+- Установите линии охлаждающей жидкости клапана EGR.[[35-011-030-tr — EGR Valve Coolant Lines|См. процедуру 011-030 в разделе 11.]]
+- Установите турбокомпрессор.[[35-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Установите трубку датчика давления выхлопных газов.[[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|См. процедуру 011-027 в разделе 11.]]
+- Установите воздушные трубопроводы к турбокомпрессору. См. информацию об обслуживании производителя оборудования для правильного значения крутящего момента.
+- Заправьте систему охлаждения.[[35-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Управляйте двигателем. Проверьте наличие утечек воздуха или выхлопных газов.
+
+Автомобильный с CM876
+
+- Установите трубку датчика давления выхлопных газов.[[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|См. процедуру 011-027 в разделе 11.]]
+- Установите линии охлаждающей жидкости EGR.[[35-011-031-tr — EGR Cooler Coolant Lines|См. процедуру 011-031 в разделе 11.]]
+- Установите водоразборную трубу обратного хода.[[35-008-061-tr — Water Manifold|См. процедуру 008-061 в разделе 8.]]
+- Установите турбокомпрессор.[[35-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Установите воздушные трубопроводы к турбокомпрессору.
+- Заправьте систему охлаждения.[[35-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Управляйте двигателем. Проверьте наличие утечек воздуха или выхлопных газов.
+
+Судовое применение
+
+- Установите теплообменник.[[35-008-053-tr — Heat Exchanger|См. процедуру 008-053 в разделе 8.]]
+- Установите сборку послеохладителя (морская вода). См. процедуру 010-005 в разделе 10.
+- Установите турбокомпрессор.[[35-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Заправьте систему охлаждения.[[35-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Управляйте двигателем до температуры охлаждающей жидкости 70°C[158°F]. Проверьте на отсутствие утечек.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> With CM870 and CM570
+>
+> Operate the engine and inspect the exhaust manifold for leaks at the slip joints.
+>
+> If the manifold is leaking at the slip joints, it **must** be repaired.
+>
+> Some ISM engines are equipped with exhaust seal rings located within the slip joints. All ISM CM876 engines are equipped with exhaust seal rings.
+>
+> **Note · Примечание**
+> For engines **not** equipped with seal rings, the kit for the front slip joint is different than the kit for the rear slip joint. The outer shells are different, as well as the graphite seal. **Only** the clamps are similar.
+>
+> ### Repair
+>
+> Automotive with CM875, CM870 and CM570
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury from hot surfaces, allow the engine to cool before beginning work. Wear appropriate hand and eye protection.
+>
+> **Note · Примечание**
+> For engines without exhaust seal rings.
+>
+> | Exhaust Manifold Slip Joint Seal Kit Contents |  |
+> |---|---|
+> | Part Description | Quantity per Kit |
+> | Covers | 2 |
+> | Seal | 1 |
+> | Clamp | 1 |
+> | Note: Each kit contains parts for one slip joint repair. Two kits, front and rear, will be needed to service the front and back. |  |
+>
+> Remove the turbocharger inlet and exhaust piping. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+>
+> Remove the front and rear exhaust manifold heat shields located below the manifold. [[35-011-032-tr — Heat Shield|Refer to Procedure 011-032 in Section 11.]]
+>
+> Twist the graphite seal to open it, and place it on the end section of the manifold, up against the slip joint.
+>
+> **Note · Примечание**
+> The recessed inside diameter goes against the center section. The split in the seal is located horizontally away from the engine.
+>
+> Place the top and bottom shells over the graphite ring and the exhaust housing center section step.
+>
+> When placing the shells over the seal, start with the back edges closer together than the front. When the clamp is tightened, it will pull the graphite split tighter together.
+>
+> Place the top and bottom shells over the slip joint and graphite seal with the notch in the cover toward the center of the exhaust manifold center section.
+>
+> **Note · Примечание**
+> A pry bar can be used to get the outer shells pressed together enough to get the clamp on. Do **not** damage the EGR cooler with the pry bar.
+>
+> Be sure to keep the mating edges aligned with the exhaust manifold parting line.
+>
+> Front Seal - Note the location and orientation of the clamp.
+>
+> Tighten the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Rear Seal - Note the location and orientation of the clamp.
+>
+> Tighten the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 11 n•m [97 in-lb]
+>
+> Replace the heat shields. [[35-011-032-tr — Heat Shield|Refer to Procedure 011-032 in Section 11.]]
+>
+> Replace the turbocharger plumbing.
+>
+> Clean the soot from around the slip joint area.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-Automotive with CM570
-
-- Install the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Install the air piping to the turbocharger. See equipment manufacturer service information for the correct torque value.
-- Fill the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Operate the engine and check for air or exhaust leaks.
-
-Automotive with CM875, CM870 and CM570
-
-- Install the EGR valve. [[35-011-022-tr — EGR Valve|Refer to Procedure 011-022 in Section 11.]]
-- Install the EGR cooler coolant lines. [[35-011-031-tr — EGR Cooler Coolant Lines|Refer to Procedure 011-031 in Section 11.]]
-- Install the water manifold return tube. [[35-008-061-tr — Water Manifold|Refer to Procedure 008-061 in Section 8.]]
-- Install the EGR valve coolant lines. [[35-011-030-tr — EGR Valve Coolant Lines|Refer to Procedure 011-030 in Section 11.]]
-- Install the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Install the exhaust gas pressure sensor tube. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|Refer to Procedure 011-027 in Section 11.]]
-- Install the air piping to the turbocharger. See equipment manufacturer service information for the correct torque value.
-- Fill the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Operate the engine. Check for air or exhaust leaks.
-
-Automotive with CM876
-
-- Install the exhaust gas pressure sensor tube. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|Refer to Procedure 011-027 in Section 11.]]
-- Install the EGR cooler coolant lines. [[35-011-031-tr — EGR Cooler Coolant Lines|Refer to Procedure 011-031 in Section 11.]]
-- Install the water manifold return tube. [[35-008-061-tr — Water Manifold|Refer to Procedure 008-061 in Section 8.]]
-- Install the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Install the air piping to the turbocharger.
-- Fill the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Operate the engine. Check for air or exhaust leaks.
-
-Marine Applications
-
-- Install the heat exchanger. [[35-008-053-tr — Heat Exchanger|Refer to Procedure 008-053 in Section 8.]]
-- Install the aftercooler assembly (sea water). Refer to Procedure 010-005 in Section 10.
-- Install the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Fill the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine to 70°C \[158°F\] coolant temperature. Check for leaks.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Automotive with CM870
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Drain the coolant. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the air piping from the turbocharger.
+> - Remove the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Remove the EGR valve coolant lines. [[35-011-022-tr — EGR Valve|Refer to Procedure 011-022 in Section 11.]]
+> - Remove the water manifold return tube. [[35-008-061-tr — Water Manifold|Refer to Procedure 008-061 in Section 8.]]
+> - Remove the EGR cooler coolant lines. [[35-011-031-tr — EGR Cooler Coolant Lines|Refer to Procedure 011-031 in Section 11.]]
+> - Remove the EGR valve. [[35-011-022-tr — EGR Valve|Refer to Procedure 011-022 in Section 11.]]
+> - Remove the exhaust gas pressure sensor tube. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|Refer to Procedure 011-027 in Section 11.]]
+>
+> Automotive with CM876
+>
+> **Note · Примечание**
+> Brush away any loose dirt from the vicinity of the air handling connections to avoid contamination of the interior of the engine.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Drain the coolant. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the air piping from the turbocharger. Cover open points using caps from the Air Handling and Vehicle Air Plumbing Clean Care Kits.
+> - Remove the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Remove the water manifold return tube. [[35-008-061-tr — Water Manifold|Refer to Procedure 008-061 in Section 8.]]
+> - Remove the EGR cooler coolant lines. [[35-011-031-tr — EGR Cooler Coolant Lines|Refer to Procedure 011-031 in Section 11.]]
+> - Remove the exhaust gas pressure sensor tube. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|Refer to Procedure 011-027 in Section 11.]]
+>
+> Automotive with CM570
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the air piping from the turbocharger.
+> - Remove the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+>
+> Marine Applications
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Drain the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Remove the heat exchanger. [[35-008-053-tr — Heat Exchanger|Refer to Procedure 008-053 in Section 8.]]
+> - Remove the aftercooler assembly (sea water). Refer to Procedure 010-005 in Section 10.
+>
+> ### Remove
+>
+> Remove the EGR cooler coolant return tube bracket from the exhaust manifold.
+>
+> Remove the exhaust manifold.
+>
+> Cover all open points on the exhaust manifold and cylinder head with the appropriate protective caps or heavy tape, if needed.
+>
+> Remove the two upper capscrews from the end sections of the exhaust manifold and install two guide studs, Part Number 3376488.
+>
+> Remove the remaining capscrews, exhaust manifold, and gaskets.
+>
+> Discard the gaskets.
+>
+> Automotive with CM570
+>
+> Remove the two upper capscrews from the end sections of the exhaust manifold and install two guide studs, Part Number 3376488.
+>
+> Remove the remaining capscrews, exhaust manifold, and gaskets.
+>
+> Discard the gaskets.
+>
+> Marine Applications
+>
+> Remove the heat shield mounting capscrews.
+>
+> Remove the heat shield.
+>
+> Remove the insulation blanket mounting capscrews.
+>
+> Remove the insulation blanket.
+>
+> Remove an upper capscrew and spacer from each end of the exhaust manifold and install guide studs, Part Number 3376488.
+>
+> Remove the remaining capscrews, spacers, exhaust manifold, and gaskets.
+>
+> Discard the gaskets.
+>
+> ### Disassemble
+>
+> Remove the exhaust manifold end sections.
+>
+> Cover the open points of the exhaust manifold with the appropriate protective caps or heavy tape, if needed.
+>
+> Marine Applications
+>
+> Inspect the exhaust manifold slip joint for signs of soot leakage.
+>
+> If there is no evidence of an exhaust leak from the slip joint and there are no visible cracks or damage, do **not** separate the exhaust manifold sections.
+>
+> If soot leakage or damage is found, separate the manifold sections.
+>
+> Cover the exhaust manifold openings with protective caps or heavy tape.
+>
+> ### Clean and Inspect for Reuse
+>
+> Automotive with CM875, CM870 and CM570
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use 240-grit emery cloth to remove carbon deposits from the sealing surfaces.
+>
+> Use steam to clean the exhaust manifold.
+>
+> Dry with compressed air.
+>
+> Inspect the parts for cracks or other damage.
+>
+> A charge air cooler failure can cause progressive damage to the exhaust manifold. If the exhaust manifold is damaged, check the charge air cooler. [[35-010-027-tr — Charge-Air Cooler|Refer to Procedure 010-027 in Section 10.]]
+>
+> Inspect the exhaust manifold slip joint for wear.
+>
+> Inspect the exhaust manifold turbocharger mounting surface for warping.
+>
+> Inspect the mounting surfaces for flatness.
+>
+> The exhaust manifold mounting surface **must** be flat to within 0.25 mm \[0.010 in\]. The turbocharger mounting flange **must** have a surface flatness of 0.13 mm \[0.005 in\].
+>
+> If these surfaces are **not** within the flatness specifications, see the Alternative Repair Manual, L10 and M11 Series Engines, Bulletin 3810310.
+>
+> Automotive with CM876
+>
+> Inspect the exhaust manifold slip joints for signs of soot leakage.
+>
+> If there is no evidence of an exhaust leak from the slip joints and there are no visible cracks or damage, do **not** remove the exhaust manifold end sections.
+>
+> Inspect the exhaust manifold turbocharger mounting flange for warpage.
+>
+> The exhaust manifold mounting surface **must** be flat to within 0.25 mm \[0.010 in\].
+>
+> The turbocharger mounting flange **must** have a surface flatness of 0.13 mm \[0.005 in\].
+>
+> Inspect for cracks or other damage.
+>
+> **Note · Примечание**
+> A charge air cooler failure can cause progressive damage to the exhaust manifold. If the exhaust manifold is damaged, check the charge air cooler. [[35-010-027-tr — Charge-Air Cooler|Refer to Procedure 010-027 in Section 10.]]
+>
+> Check that the exhaust seal is fully seated against the shoulder of the exhaust manifold male end section. If the exhaust seal is **not** fully seated against the shoulder, the exhaust seal **must** be replaced.
+>
+> Inspect the manifold seal bore for wear.
+>
+> Inspect the exhaust seal for signs of damage or excessive wear.
+>
+> The exhaust seal **must not** show signs of dents or other damage.
+>
+> Measure the wear width on the exhaust seal ring. The wear width **must not** be more than 1 mm \[0.04 inch\] wide anywhere on the seal.
+>
+> Wear width larger than 1 mm \[0.04 in\] indicates a failure and the exhaust seal **must** be replaced.
+>
+> The wear width **must** be uniform around the seal. If one side of the exhaust seal ring is worn more than the other, the exhaust seal **must** be replaced.
+>
+> If there is no evidence of an exhaust leak from the slip joints and there are no visible cracks or other damage, do **not** remove the exhaust manifold seal rings.
+>
+> If there is a failure or damage, remove the exhaust manifold seal rings.
+>
+> Remove the exhaust seal rings, located within the slip-joint.
+>
+> Use tin snip or side cuts, to cut halfway through the seal in two locations, about 25.4 mm \[1 in\] apart.
+>
+> Twist and pull the seal off the exhaust manifold end sections.
+>
+> Take care **not** to damage the seal carrier surface.
+>
+> Discard the exhaust seal ring.
+>
+> Use a soft cloth or a shop towel wetted with a safety solvent to remove carbon deposits from the sealing surfaces.
+>
+> Inspect the exhaust seal ring mating surfaces of the male and female sections of the exhaust manifolds.
+>
+> If scratches or nicks can be felt with a fingernail on the exhaust seal ring mating surfaces, the exhaust manifold section **must** be replaced.
+>
+> After completing inspections, cover the exhaust manifold with the appropriate protective caps or heavy tape, if needed.
+>
+> Marine Applications
+>
+> Inspect the exhaust manifold slip joint for signs of soot leakage.
+>
+> If there is no evidence of an exhaust leak from the slip joint and there are no visible cracks or damage, do **not** separate the exhaust manifold sections.
+>
+> If soot leakage or damage is found, separate the manifold sections.
+>
+> Inspect the parts for cracks or other damage.
+>
+> Inspect the exhaust manifold slip joint for wear.
+>
+> Inspect the exhaust manifold turbocharger mounting surface for warping.
+>
+> Measure the mounting surfaces for flatness.
+>
+> The exhaust manifold mounting surface (1) **must** be flat to within 0.25 mm \[0.010 in\]. The turbocharger mounting flange (2) **must** have a surface flatness of 0.13 mm \[0.005 in\].
+>
+> If these surfaces are **not** within the flatness specifications, see the Alternative Repair Manual, L10 and M11 Series Engines, Bulletin 3810310.
+>
+> ### Assemble
+>
+> Automotive with CM875, CM870 and CM570
+>
+> Install the exhaust manifold end sections to the center section.
+>
+> Automotive with CM876
+>
+> Install the exhaust manifold end sections to the center section.
+>
+> The end section bolt holes **must** be 225 mm \[8.875 inch\] center to center before installing onto the cylinder head.
+>
+> **Note · Примечание**
+> The exhaust manifold sections **must** be assembled on a flat surface for proper alignment.
+>
+> **Note · Примечание**
+> QSM11 engines do **not** have an exhaust manifold seal.
+>
+> The below steps in the Assemble section do **not** apply to the QSM11 engines.
+>
+> Place the exhaust seal onto the lip of the exhaust seal installer, Part Number 4918709.
+>
+> Use a light coat of grease or clean engine oil to lubricate the exhaust seal during assembly onto the male and female sections of the exhaust manifold.
+>
+> Position the seal installer and seal in line with the sealing surface on the exhaust manifold and strike with a lead or a dead blow hammer until the seal is fully seated.
+>
+> Seal rings **must** remain square to manifold component axes during installation.
+>
+> Marine Applications
+>
+> Remove any protective caps or tape covering the manifold openings.
+>
+> Assemble the manifold sections.
+>
+> ### Install
+>
+> Remove any protective caps or heavy tape.
+>
+> Install two guide studs, Part Number 3376488, in the two top end holes of the cylinder head exhaust ports.
+>
+> Install new gaskets between the cylinder head and the exhaust manifold.
+>
+> Install the exhaust manifold over the guide pins.
+>
+> Attach the EGR cooler coolant return tube bracket at the number 4 and number 5 exhaust ports. Orient bracket as shown.
+>
+> Apply a film of high temperature anti-seize compound to the capscrew threads to be sure of proper loading on the capscrews.
+>
+> Hand start the capscrews through the bracket, spacers, manifold, and gaskets.
+>
+> Apply a film of high temperature anti-seize compound to the capscrew threads and install them into the cylinder head.
+>
+> Remove the guide studs and install the remaining capscrews.
+>
+> Tighten the capscrews in the sequence shown.
+>
+> **Момент затяжки · Torque Value**
+> 57 n•m [42 ft-lb]
+>
+> Automotive with CM570
+>
+> Install two guide studs, Part Number 3376488, in the two top end holes of the cylinder head exhaust ports.
+>
+> Install a new gasket over each guide stud.
+>
+> Do **not** use any kind of adhesive to hold the gaskets.
+>
+> To aid in future capscrew removal, apply a coating of high temperature anti-seize compound to the capscrew threads.
+>
+> Install the exhaust manifold, tubular spacers, and capscrews.
+>
+> The exhaust manifold can be tilted back enough to install a new gasket on each exhaust port as the capscrews are being installed.
+>
+> Tighten the capscrews in the sequence shown.
+>
+> The torque values given have been established using anti-seize compound as a lubricant.
+>
+> Torque Value:
+>
+> Marine Applications
+>
+> Apply a film of high temperature anti-seize compound to new exhaust manifold capscrews.
+>
+> Align the manifold and gaskets using guide studs.
+>
+> Install spacers and new capscrews hand tight.
+>
+> Remove guide studs and install remaining spacers and capscrews hand tight.
+>
+> Tighten the capscrews in the sequence shown.
+>
+> Torque Value:
+>
+> Tighten the capscrews in the sequence shown.
+>
+> Torque Value:
+>
+> Install the exhaust manifold insulation blanket.
+>
+> Install the exhaust manifold heat shield.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> Automotive with CM570
+>
+> - Install the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Install the air piping to the turbocharger. See equipment manufacturer service information for the correct torque value.
+> - Fill the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Operate the engine and check for air or exhaust leaks.
+>
+> Automotive with CM875, CM870 and CM570
+>
+> - Install the EGR valve. [[35-011-022-tr — EGR Valve|Refer to Procedure 011-022 in Section 11.]]
+> - Install the EGR cooler coolant lines. [[35-011-031-tr — EGR Cooler Coolant Lines|Refer to Procedure 011-031 in Section 11.]]
+> - Install the water manifold return tube. [[35-008-061-tr — Water Manifold|Refer to Procedure 008-061 in Section 8.]]
+> - Install the EGR valve coolant lines. [[35-011-030-tr — EGR Valve Coolant Lines|Refer to Procedure 011-030 in Section 11.]]
+> - Install the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Install the exhaust gas pressure sensor tube. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|Refer to Procedure 011-027 in Section 11.]]
+> - Install the air piping to the turbocharger. See equipment manufacturer service information for the correct torque value.
+> - Fill the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Operate the engine. Check for air or exhaust leaks.
+>
+> Automotive with CM876
+>
+> - Install the exhaust gas pressure sensor tube. [[35-011-027-tr — Exhaust Gas Pressure Sensor Tube|Refer to Procedure 011-027 in Section 11.]]
+> - Install the EGR cooler coolant lines. [[35-011-031-tr — EGR Cooler Coolant Lines|Refer to Procedure 011-031 in Section 11.]]
+> - Install the water manifold return tube. [[35-008-061-tr — Water Manifold|Refer to Procedure 008-061 in Section 8.]]
+> - Install the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Install the air piping to the turbocharger.
+> - Fill the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Operate the engine. Check for air or exhaust leaks.
+>
+> Marine Applications
+>
+> - Install the heat exchanger. [[35-008-053-tr — Heat Exchanger|Refer to Procedure 008-053 in Section 8.]]
+> - Install the aftercooler assembly (sea water). Refer to Procedure 010-005 in Section 10.
+> - Install the turbocharger. [[35-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Fill the cooling system. [[35-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine to 70°C \[158°F\] coolant temperature. Check for leaks.

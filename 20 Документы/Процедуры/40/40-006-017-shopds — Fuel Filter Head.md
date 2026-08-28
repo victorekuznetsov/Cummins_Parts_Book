@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-017-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-017-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fuel Filter Head
@@ -33,24 +35,50 @@ tags:
 > **Даты:** изменён 2015-01-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-017-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-017-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Front Gear Train
 
-Remove the two capscrews retaining the filter head.
+### Снятие
 
-Remove the filter head from the engine.
+Поезд Front Gear
+
+Удалите два болта, удерживающие головку фильтра.
+
+Удалите головку фильтра из двигателя.
 
 ![[06900231.png]]
 
-Rear Gear Train
+Поезд Rear Gear
 
-Remove the three capscrews holding the fuel filter bracket to the cylinder block.
+Удалите три болта, удерживающие кронштейн топливного фильтра, в блок цилиндров.
 
 ![[06900291.png]]
 
-### Disassemble
+### Разборка
 
-Remove the dual-filter adapter, if equipped.
+Удалите двухфильтровый адаптер, если он оборудован.
 
 ![[ff9hdmb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Front Gear Train
+>
+> Remove the two capscrews retaining the filter head.
+>
+> Remove the filter head from the engine.
+>
+> Rear Gear Train
+>
+> Remove the three capscrews holding the fuel filter bracket to the cylinder block.
+>
+> ### Disassemble
+>
+> Remove the dual-filter adapter, if equipped.

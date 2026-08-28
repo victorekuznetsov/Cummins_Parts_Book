@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021375"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-045.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-045.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Radiator Hoses
@@ -33,47 +35,92 @@ tags:
 > **Даты:** изменён 2003-05-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-045.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-045.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+### Подготовительные операции
 
-- Drain the cooling system. Refer to Procedure [[89-008-045 — Radiator Hoses|008-018]].
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+
+- Слейте охлаждающую жидкость. См. процедуру[[89-008-045 — Radiator Hoses|008-018]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Loosen the hose clamp.
+Освободите зажим шланга.
 
-Remove the radiator hose from the engine.
+Удалите шланг радиатора из двигателя.
 
 ![[08400348.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect all hoses for cracks, cuts, or collapsing.
+Осмотрите все шланги на наличие трещин, порезов или обрушений.
 
-The silicone engine coolant hose will exhibit swelling due to the elasticity of the hose.
+Силиконовый шланг охлаждающей жидкости двигателя будет демонстрировать отек из-за эластичности шланга.
 
 ![[ra8hosa.png]]
 
-### Install
+### Установка
 
-Install the radiator hose.
+Установите шланг радиатора.
 
-Tighten the clamp.
+Зажим затянуть.
 
-> [!tip] Момент затяжки · Torque Value
-> 5 n•m [40 in-lb]
+> [!tip] Момент затяжки
+> 5 Н·м [40 фунт-дюйм]
 
 ![[08400348.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Fill the cooling system. Refer to Procedure 008-018.
+- Заправьте систему охлаждения. См. процедуру 008-018.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> - Drain the cooling system. Refer to Procedure [[89-008-045 — Radiator Hoses|008-018]].
+>
+> ### Remove
+>
+> Loosen the hose clamp.
+>
+> Remove the radiator hose from the engine.
+>
+> ### Inspect for Reuse
+>
+> Inspect all hoses for cracks, cuts, or collapsing.
+>
+> The silicone engine coolant hose will exhibit swelling due to the elasticity of the hose.
+>
+> ### Install
+>
+> Install the radiator hose.
+>
+> Tighten the clamp.
+>
+> **Момент затяжки · Torque Value**
+> 5 n•m [40 in-lb]
+>
+> ### Finishing Steps
+>
+> - Fill the cooling system. Refer to Procedure 008-018.

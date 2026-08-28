@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-007-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-007-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Cooler Element
@@ -35,22 +37,50 @@ tags:
 > **Даты:** изменён 2016-04-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-007-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-007-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> All water or cleaning solutions must be removed from the interior of the oil cooler element. A failure can result from a contaminated lubrication system if all of the liquid is not removed.
 
-> [!warning] CAUTION · Осторожно
-> When installing new oil cooler elements, make sure that all of the shipping plugs have been removed from the oil cooler elements or the engine will be severely damaged by lack of lubrication.
+### Установка
 
-Install the four o-rings (1) in the grooves on each oil cooler element.
+> [!warning] ОСТОРОЖНО
+> Все растворы для очистки или воды должны быть удалены из внутренней части масляного охладителя. Неисправность может быть результатом загрязненной системы смазки, если вся жидкость не удалена.
 
-Lubricate the four o-rings (1) with vegetable oil for each oil cooler element.
+> [!warning] ОСТОРОЖНО
+> При установке новых элементов масляного охладителя убедитесь, что все вилки для доставки были удалены из элементов масляного охладителя или двигатель будет серьезно поврежден из-за отсутствия смазки.
 
-The QSK45 engine contains three oil cooler elements and the QSK60 contains four oil cooler elements.
+Установите четыре кольца (1) в канавках на каждый элемент масляного охладителя.
 
-Install the oil cooler elements.
+Смазать четыре кольца (1) растительным маслом для каждого элемента охладителя масла.
 
-Install the support gaskets on the top post of the oil cooler element.
+Двигатель QSK45 содержит три масляных охлаждающих элемента, а QSK60 содержит четыре масляных охлаждающих элемента.
+
+Установите элементы масляного охладителя.
+
+Установите опорные прокладки на верхнем посту масляного охладителя.
 
 ![[07600286.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **CAUTION · Осторожно**
+> All water or cleaning solutions must be removed from the interior of the oil cooler element. A failure can result from a contaminated lubrication system if all of the liquid is not removed.
+>
+> **CAUTION · Осторожно**
+> When installing new oil cooler elements, make sure that all of the shipping plugs have been removed from the oil cooler elements or the engine will be severely damaged by lack of lubrication.
+>
+> Install the four o-rings (1) in the grooves on each oil cooler element.
+>
+> Lubricate the four o-rings (1) with vegetable oil for each oil cooler element.
+>
+> The QSK45 engine contains three oil cooler elements and the QSK60 contains four oil cooler elements.
+>
+> Install the oil cooler elements.
+>
+> Install the support gaskets on the top post of the oil cooler element.

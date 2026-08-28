@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666239"
 figures: 54
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-008-062-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-008-062-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Water Pump
@@ -34,648 +36,1196 @@ tags:
 > **Даты:** изменён 2018-09-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-008-062-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-008-062-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive with CM870
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+Автомобильный с CM870
 
-- Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
-- Remove the water pump drive belt and tensioner. Refer to Procedure 008-080 in Section 8.
-- Remove the refrigerant compressor drive belt. Refer to Procedure 009-052 in Section 9.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Automotive with CM570
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+- Слейте охлаждающую жидкость.[[10-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]].
+- Удалите ремень привода водяного насоса и натяжитель. См. процедуру 008-080 в разделе 8.
+- Удалите ремень привода компрессора хладагента. См. процедуру 009-052 в разделе 9.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+Автомобильный с CM570
 
-- Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
-- Remove the water pump and fan drive belt. Refer to Procedure 008-003 in Section 8.
-- Remove the alternator drive belt. Refer to Procedure 013-005 in Section 13.
-- Remove the alternator. Refer to Procedure 013-001 in Section 13.
-- Remove the water pump belt tensioner bracket and belt tensioner. Refer to Procedure 008-080 in Section 8.
-- If necessary, remove the vibration dampers. [[10-001-052-tr — Vibration Damper, Viscous|Refer to Procedure 001-052 in Section 1]].
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Industrial CM570 and Power Generation without CM570
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+- Слейте охлаждающую жидкость.[[10-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]].
+- Удалите водяной насос и ремень привода вентилятора. См. процедуру 008-003 в разделе 8.
+- Снимите ремень привода генератора. См. процедуру 013-005 в разделе 13.
+- Удалите генератор. См. процедуру 013-001 в разделе 13.
+- Снимите натяжную кронштейн ремня водяного насоса и натяжную ремень. См. процедуру 008-080 в разделе 8.
+- При необходимости удалите вибрационные демпферы.[[10-001-052-tr — Vibration Damper, Viscous|См. процедуру 001-052 в разделе 1.]].
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep children and pets away. If the coolant is not going to be reused, dispose of it in accordance with local environmental regulations.
+Промышленный CM570 и производство электроэнергии без CM570
 
-- Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
-- Remove the cooling fan and water pump belt. Refer to Procedure 008-003 in Section 8.
-- Remove the alternator drive belt. Refer to Procedure 013-005 in Section 13.
-- Remove the alternator. Refer to Procedure 013-001 in Section 13.
-- If required, remove the damper assembly. [[10-001-052-tr — Vibration Damper, Viscous|Refer to Procedure 001-052 in Section 1]].
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-Automotive With CM871
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Держите детей и домашних животных подальше. Если охлаждающая жидкость не собирается повторно использоваться, утилизировать ее в соответствии с местными экологическими нормами.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+- Слейте охлаждающую жидкость.[[10-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]].
+- Удалите охлаждающий вентилятор и ремень водяного насоса. См. процедуру 008-003 в разделе 8.
+- Снимите ремень привода генератора. См. процедуру 013-005 в разделе 13.
+- Удалите генератор. См. процедуру 013-001 в разделе 13.
+- При необходимости снимите сборку демпфера.[[10-001-052-tr — Vibration Damper, Viscous|См. процедуру 001-052 в разделе 1.]].
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+Автомобильный с CM871
 
-- Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
-- Remove the water pump drive belt and tensioner. Refer to Procedure 008-080 in Section 8.
-- Remove the refrigerant compressor drive belt. Refer to Procedure 009-052 in Section 9.
-- Remove the water pump cartridge. [[10-008-102-tr — Water Pump Cartridge|Refer to Procedure 008-102 in Section 8]].
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-### Remove
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Automotive with CM870
+- Слейте охлаждающую жидкость.[[10-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]].
+- Удалите ремень привода водяного насоса и натяжитель. См. процедуру 008-080 в разделе 8.
+- Удалите ремень привода компрессора хладагента. См. процедуру 009-052 в разделе 9.
+- Удалите картридж водяного насоса.[[10-008-102-tr — Water Pump Cartridge|См. процедуру 008-102 в разделе 8.]].
 
-Remove two water pump mounting capscrews. Install two guide studs.
+### Снятие
+
+Автомобильный с CM870
+
+Удалите два болта для установки водяного насоса. Установите два направляющих шпильки.
 
 ![[08c00200.png]]
 
-Remove the remaining three capscrews, water pump, and o-ring seal.
+Удалите оставшиеся три болта, водяной насос и уплотнение.
 
-Discard the o-ring seal.
+Отбросьте уплотнение.
 
 ![[08c00201.png]]
 
-Automotive CM570 with One Piece Water Pump Design
+Автомобильный CM570 с дизайном водяного насоса One Piece
 
-Remove two water pump capscrews. Install guide studs.
+Удалите два болта водяного насоса. Установите направляющие шпильки.
 
-Remove remaining three capscrews, water pump, and water inlet o-ring seal.
+Удалите оставшиеся три болта, водяной насос и впускное кольцо для воды.
 
-Discard the o-ring seal.
+Отбросьте уплотнение.
 
 ![[08c00025.png]]
 
-Industrial CM570 with One Piece Water Pump Design and Power Generation without CM570
+Промышленный CM570 с одним насосом для воды и производство электроэнергии без CM570
 
-Remove the pulley (1), pilot adapter (2), and belt tensioner bracket (3).
+Удалите шкив (1), пилотный адаптер (2) и кронштейн натяжителя ремня (3).
 
 ![[08c00175.png]]
 
-Remove the remaining water pump capscrews, and water inlet o-rings.
+Удалите оставшиеся болты водяного насоса и впускные кольца для воды.
 
-Discard the o-ring seals.
+Отбросьте уплотнения с кольцами.
 
 ![[08c00176.png]]
 
-Automotive With CM871
+Автомобильный с CM871
 
-Remove the five water pump housing mounting capscrews.
+Удалите пять болтов для монтажа корпуса водяного насоса.
 
-Remove the two bracket mounting capscrews.
+Удалите два крепежных болта.
 
-Remove the exhaust gas recirculation (EGR) tube outlet capscrew.
+Удалите болты выпускных трубок для рециркуляции выхлопных газов (EGR).
 
-Remove the water pump housing and o-ring seals.
+Удалите корпус водяного насоса и уплотнения с окольцевым кольцом.
 
-Discard the water inlet o-ring seal and EGR tube inlet and outlet o-ring seal.
+Откажитесь от впускного уплотнения для водяного кольца и впускного и выходного уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для уплотнения для у
 
 ![[08c00249.png]]
 
-Automotive CM570 and Industrial CM570 with Two Piece Design Water Pump
+Автомобильный CM570 и промышленный CM570 с двумя насосами Piece Design
 
-Remove the five water pump housing mounting capscrews.
+Удалите пять болтов для монтажа корпуса водяного насоса.
 
-Remove the three bracket mounting capscrews.
+Удалите три крепежных болта.
 
-Remove the water pump housing and o-ring seals.
+Удалите корпус водяного насоса и уплотнения с окольцевым кольцом.
 
-Discard the water inlet o-ring seal
+Откажитесь от водяного впускного уплотнения
 
 ![[08a00322.png]]
 
-### Clean
+### Очистка
 
-One Piece Design, All Applications
+Один дизайн, все приложения
 
-Clean the water pump and water inlet connections.
+Очистите водяной насос и впускные соединения воды.
 
 ![[08c00087.png]]
 
-Inspect the water pump housing for cracks.
+Осмотрите корпус водяного насоса на наличие трещин.
 
-Inspect the water pump weep hole for indication of leaks.
+Проверить отверстие для слива водяного насоса для указания утечек.
 
-A streak or chemical buildup at the weep hole is **not** justification for water pump replacement. If a steady flow of coolant or oil is observed, recondition the existing water pump or replace the water pump with a new or rebuilt unit.
+Пролив или химическое накопление в дыре для плача является **не **оправданием для замены водяного насоса. Если наблюдается устойчивый поток охлаждающей жидкости или масла, восстановить существующий водяной насос или заменить водяной насос с новым или восстановленным блоком.
 
 ![[08c00177.png]]
 
-Automotive CM570/Industrial CM570 with Two Piece Design Water Pump and Automotive with CM871
+Автомобильный CM570/Промышленный CM570 с двумя насосами Piece Design и автомобильный с CM871
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the water pump components. Use solvent. Dry with compressed air.
+Очистите компоненты водяного насоса. Используйте растворитель. Просушите сжатым воздухом.
 
 ![[08c00267.png]]
 
-Inspect the water pump housing for cracks and damage.
+Осмотрите корпус водяного насоса на наличие трещин и повреждений.
 
-Inspect the water pump inlet tube for out of roundness, damage, or leaks.
+Осмотрите впускную трубку водяного насоса на предмет не округлости, повреждения или утечки.
 
-If the water pump housing is damaged, it must be replaced.
+Если корпус водяного насоса поврежден, его необходимо заменить.
 
-Continuous pitting deeper than 0.635 mm \[0.025 in\] or individual pits deeper than 2.54 mm \[0.100 inch\] are not acceptable.
+Непрерывные углубления глубже 0,635 мм \[0,025 дюйма \] или отдельные ямы глубже 2,54 мм \[0,100 дюйма \] не приемлемы.
 
-Replace the water pump housing if **not** within specifications.
+Заменить корпус водяного насоса, если **не** в пределах спецификаций.
 
 ![[08c00250.png]]
 
-### Disassemble
+### Разборка
 
-> [!danger] WARNING · Опасно
-> The retaining clip contains extreme amounts of potential energy. To reduce the possibility of personal injury from the clip slipping, place the water pump in a box prior to removing the retaining clip.
+> [!danger] ОПАСНО
+> Удерживающий клип содержит экстремальное количество потенциальной энергии. Чтобы уменьшить вероятность получения травмы от проскальзывания клипса, поместите водяной насос в коробку перед удалением удерживающего клипса.
 
-> [!note] Note · Примечание
-> This step **only** applies to the automotive CM570 and industrial CM570 with a one piece water pump design.
+> [!note] Примечание
+> Этот шаг применяется только к автомобильному CM570 и промышленному CM570 с однокомпонентным водяным насосом.
 
-Place the water pump in a box.
+Поместите водяной насос в коробку.
 
-Remove the retaining clip securing the impeller cover.
+Удалите удерживающий зажим, закрепляющий крышку рабочего колеса.
 
-Remove and discard the water pump outlet o-ring.
+Удалите и отбросьте розетку водяного насоса o-ring.
 
 ![[08c00221.png]]
 
-Use a heel bar to remove the impeller cover from the pump.
+Используйте пяточный прут, чтобы снять крышку рабочего колеса с насоса.
 
-Discard the o-ring.
+Отбросьте кольцо.
 
 ![[08c00222.png]]
 
-Support the water pump housing pulley in a press with the pulley facing up.
+Поддерживайте шкив корпуса водяного насоса в прессе, когда шкив обращен вверх.
 
-Press the pulley off of the water pump and shaft assembly.
+Нажмите на шкив водяного насоса и валового агрегата.
 
 ![[08c00227.png]]
 
-Position the water pump with the pulley end facing up.
+Поместите водяной насос с шкивом, обращенным лицом вверх.
 
-Remove the bearing bore retaining clip.
+Снять подшипниковый цилиндр с удерживающей зажимной зажимной панелью.
 
 ![[08c00228.png]]
 
-Support the water pump in a press with the impeller facing up.
+Поддерживайте водяной насос в прессе с крыльцом, обращенным вверх.
 
-Press the shaft out of the impeller and through the pump housing.
+Нажмите вал из крыльца и через корпус насоса.
 
-Remove the impeller from the housing.
+Снимите с корпуса крыльцо.
 
-Discard a phenolic impeller, retain a cast iron impeller.
+Откажитесь от фенольного импеллера, сохраните чугунный импеллер.
 
 ![[08c00229.png]]
 
-Support the water pump in a press with the pulley end facing up.
+Поддерживайте водяной насос в прессе, когда конец шкива обращен вверх.
 
-Press the seal out of the housing.
+Нажмите на уплотнение из корпуса.
 
 ![[08c00230.png]]
 
-> [!note] Note · Примечание
-> Disassemble the shaft and bearings **only** if the seal is leaking or the bearing is damaged.
+> [!note] Примечание
+> Разобрать вал и подшипники **только**, если уплотнение протекает или подшипник поврежден.
 
-Remove the retaining ring (1).
+Удалить удерживающее кольцо (1).
 
-Use water pump bearing separator, Part Number 3375326 to remove the:
+Используйте сепаратор подшипников водяного насоса, номер детали 3375326 для удаления:
 
-- Front bearing (2)
-- Rear bearing (3).
+- Передний подшипник (2)
+- Задний подшипник (3).
 
 ![[08400113.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!note] Note · Примечание
-> This step **only** applies to the automotive CM570 and industrial CM570 with a one piece water pump design.
+> [!note] Примечание
+> Этот шаг применяется только к автомобильному CM570 и промышленному CM570 с однокомпонентным водяным насосом.
 
-Clean the water pump components. Use solvent. Dry with compressed air.
+Очистите компоненты водяного насоса. Используйте растворитель. Просушите сжатым воздухом.
 
 ![[08c00231.png]]
 
-Inspect the water pump housing for cracks and damage.
+Осмотрите корпус водяного насоса на наличие трещин и повреждений.
 
-If the water pump housing is damaged, it **must** be replaced.
+Если корпус водяного насоса поврежден, его необходимо заменить.
 
 ![[08c00232.png]]
 
-Inspect the cast iron impeller for cracks, pitting, and other damage.
+Осмотрите чугунный крыльцо на наличие трещин, ям и других повреждений.
 
-Continuous pitting deeper than 0.635 mm \[0.025 in\] or individual pits deeper than 2.54 mm \[0.100 in\] are **not** acceptable.
+Непрерывные углубления глубже 0,635 мм \[0,025 в\] или отдельные ямы глубже 2,54 мм \[0,100 в\] являются не приемлемыми.
 
-Replace the impeller if damaged or if pits are **not** within specifications.
+Заменить крыло, если повреждено или если ямы **не **в пределах спецификаций.
 
 ![[08c00233.png]]
 
-The water pump bearings are sealed bearings.
+Подшипники водяного насоса являются герметичными подшипниками.
 
-Spin the bearings to check for roughness.
+Поверните подшипники, чтобы проверить шероховатость.
 
-Inspect the bearings for signs of grease purge.
+Осмотрите подшипники на наличие признаков очистки смазки.
 
-If the bearing seals show signs of grease purge or the bearing does **not** spin smoothly, it **must** be replaced.
+Если подшипники имеют признаки очистки смазки или подшипник **не** вращается плавно, его следует заменить.
 
 ![[08400123.png]]
 
-Inspect the impeller cover for cracks and other damage.
+Проверьте крышку рабочего колеса на наличие трещин и других повреждений.
 
-Scratching on the inside face is acceptable.
+Хватать на внутренней стороне лица вполне приемлемо.
 
-If there is any damage to the outer o-ring area, the impeller cover **must** be replaced.
+Если имеется какое-либо повреждение внешней области кольца, то крышка рабочего колеса должна быть заменена.
 
 ![[08c00236.png]]
 
-Inspect the impeller cover retaining clip.
+Проверьте крышку рабочего колеса, удерживающую зажим.
 
-If the retaining clip is rusted or pitted, it **must** be replaced.
+Если удерживающий клип ржавеет или питается, его необходимо заменить.
 
 ![[08c00237.png]]
 
-Inspect the pulley for cracks, wear, and damage.
+Проверьте шкив на наличие трещин, износа и повреждений.
 
-Inspect the mating surface and pulley bore areas for damage.
+Осмотрите поверхность спаривания и цилиндрический шкив для повреждений.
 
-If the pulley is damaged, it **must** be replaced.
+Если шкив поврежден, его необходимо заменить.
 
 ![[08c00238.png]]
 
-### Measure
+### Измерение
 
-> [!note] Note · Примечание
-> This step **only** applies to the automotive CM570 and industrial CM570 with a one piece water pump design.
+> [!note] Примечание
+> Этот шаг применяется только к автомобильному CM570 и промышленному CM570 с однокомпонентным водяным насосом.
 
-Measure the inside diameter of the water pump housing large bearing bore.
+Измерьте внутренний диаметр корпуса водяного насоса с большим несущим цилиндром.
 
-| Water Pump Housing Large Bearing Bore Inside Diameter |  |  |
+| Водяной насос корпус Большой несущий цилиндр с отверстием внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 71.988 | MIN | 2.834 |
-| 72.018 | MAX | 2.835 |
+| мм |  | в |
+| 71.988 | Мин | 2.834 |
+| 72.018 | Макс | 2.835 |
 
-If the water pump housing large bearing bore inside diameter is **not** within specifications, the water pump housing **must** be replaced.
+Если корпус водяного насоса с большим подшипниковым цилиндром, имеющим внутренний диаметр, **не** в пределах спецификаций, корпус водяного насоса должен быть заменен.
 
 ![[08c00239.png]]
 
-Measure the inside diameter of the cast iron impeller.
+Измерьте внутренний диаметр чугунного рабочего колеса.
 
-| Cast Iron Impeller Inside Diameter |  |  |
+| Железный имперфер внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 15.850 | MIN | 0.624 |
-| 15.875 | MAX | 0.625 |
+| мм |  | в |
+| 15.850 | Мин | 0.624 |
+| 15.875 | Макс | 0.625 |
 
-If the cast iron impeller inside diameter is **not** within specifications, it **must** be replaced.
+Если железо, внутри диаметра, не находится в пределах спецификаций, его необходимо заменить.
 
 ![[08c00234.png]]
 
-Measure the outside diameter of the water pump shaft.
+Измерьте внешний диаметр вала водяного насоса.
 
-| Water Pump Shaft Diameter |  |  |  |
+| Диаметр вала водяного насоса |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| Small End | 25.015 | MIN | 0.9848 |
-|  | 25.002 | MAX | 0.9843 |
-| Large End | 29.015 | MIN | 1.1423 |
-|  | 29.002 | MAX | 1.1418 |
+|  | мм |  | в |
+| Маленький конец | 25.015 | Мин | 0.9848 |
+|  | 25.002 | Макс | 0.9843 |
+| Большой конец | 29.015 | Мин | 1.1423 |
+|  | 29.002 | Макс | 1.1418 |
 
-Measure the outside diameter of the larger end of the shaft.
+Измерьте внешний диаметр более крупного конца вала.
 
-If the shaft is **not** within specifications, it **must** be replaced.
+Если вал **не** в пределах спецификаций, он должен быть заменен.
 
 ![[08c00235.png]]
 
-Measure the inside diameter of the pulley bore.
+Измерьте внутренний диаметр цилиндра шкива.
 
-| Pulley Bore Inside Diameter |  |  |
+| Пулли цилиндр внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 28.936 | MIN | 1.139 |
-| 29.964 | MAX | 1.140 |
+| мм |  | в |
+| 28.936 | Мин | 1.139 |
+| 29.964 | Макс | 1.140 |
 
-If the pulley bore is **not** within specifications, the pulley **must** be replaced.
+Если цилиндрический отсек шкива **не** в пределах спецификаций, шкив должен быть заменен.
 
 ![[wp5bota.png]]
 
-### Assemble
+### Сборка
 
-> [!warning] CAUTION · Осторожно
-> The mandrel must make contact on the inner race of the bearing to prevent damage to the bearing.
+> [!warning] ОСТОРОЖНО
+> Мандель должна контактировать с внутренней расой подшипника, чтобы предотвратить повреждение подшипника.
 
-> [!note] Note · Примечание
-> This step **only** applies to the automotive CM570 and industrial CM570 with a one piece water pump design.
+> [!note] Примечание
+> Этот шаг применяется только к автомобильному CM570 и промышленному CM570 с однокомпонентным водяным насосом.
 
-Support the shaft in an arbor press.
+Поддержите вал в прессе беседки.
 
-Use an arbor press with water pump mandrel, Part Number ST-658 (4), or equivalent, to install the bearings.
+Используйте пресс-контейнер с подшипником водяного насоса, номер детали ST-658 (4), или эквивалент, для установки подшипников.
 
 ![[08400115.png]]
 
-Install the retaining clip with the beveled side of the clip facing away from the bearing.
+Установите удерживающий клип со скошенной стороной клипа, обращенной в сторону от подшипника.
 
 ![[08400116.png]]
 
-Support the water pump housing on a table with the pulley end facing up.
+Поддерживайте корпус водяного насоса на столе с шкивом, обращенным лицом вверх.
 
-Install the shaft and bearing assembly into the bearing bore with the smaller bearing end of the assembly entering first.
+Установите вал и подшипниковый узел в несущий цилиндр с меньшим подшипниковым концом сборки, входящей первой.
 
-If the shaft does **not** drop into position from its weight, the assembly can be pressed into place.
+Если вал падает в положение от своего веса, сборку можно нажать на место.
 
 ![[08c00240.png]]
 
-Install the retaining clip with the beveled side of the clip facing away from the bearing.
+Установите удерживающий клип со скошенной стороной клипа, обращенной в сторону от подшипника.
 
 ![[08400126.png]]
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of damage to the water pump housing, make sure the impeller end of the shaft is supported before pressing on the pulley.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения корпуса водяного насоса, убедитесь, что конец крыльца вала поддерживается перед нажатием на шкив.
 
-Support the impeller end of the shaft in a press.
+Поддерживайте конец крыльца вала в прессе.
 
-Press on the pulley until it is flush with the end of the shaft.
+Нажмите на шкив, пока он не промывается концом вала.
 
-Make sure the pulley rotates freely.
+Убедитесь, что шкив вращается свободно.
 
 ![[08c00241.png]]
 
-Press the water pump seal onto the shaft.
+Нажмите на уплотнение водяного насоса на вал.
 
-Measure the water pump seal installed height.
+Измерьте высоту установленного уплотнения водяного насоса.
 
-| Water Pump Seal Installed Height |  |  |
+| Установка водяного насоса на высоту |  |  |
 |---|---|---|
-| mm |  | in |
-| 10.919 | MIN | 0.430 |
-| 11.679 | MAX | 0.460 |
+| мм |  | в |
+| 10.919 | Мин | 0.430 |
+| 11.679 | Макс | 0.460 |
 
-If the water pump seal installed height is **not** within specifications, the seal **must** be removed and installed again.
+Если установленная высота уплотнения водяного насоса **не** в пределах спецификаций, уплотнение должно быть удалено и установлено снова.
 
 ![[08400127.png]]
 
-Support the water pump in a press with the pulley down.
+Поддерживайте водяной насос в прессе с шкивом вниз.
 
-Press the impeller, vane side up, onto the shaft until it is flush with the end of the shaft.
+Нажмите на крыльцо, лопатку вверх, на вал, пока он не промывается концом вала.
 
 ![[08c00242.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use petroleum based lubricants. Petroleum based lubricants cause the o-ring seals to crack, leading to a coolant leak.
+> [!warning] ОСТОРОЖНО
+> Не используйте смазочные материалы на масляной основе. Смазочные материалы на основе масла вызывают трещину уплотнений кольца, что приводит к утечке охлаждающей жидкости.
 
-> [!warning] CAUTION · Осторожно
-> Make sure the o-ring is seated properly. If the o-ring is not seated properly it can be damaged during impeller cover installation.
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что кольцо правильно установлено. Если кольцо не находится должным образом, оно может быть повреждено во время установки крышки рабочего колеса.
 
-Lubricate the impeller cover o-ring. Use soapy water.
+Смазать кольцевую крышку крыльца. Используйте мыльную воду.
 
-Install the cover o-ring into the water pump housing.
+Установите крышку-кольцо в корпус водяного насоса.
 
 ![[08c00243.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use petroleum lubricant on the impeller cover, o-ring damage can result from the use of petroleum lubricant.
+> [!warning] ОСТОРОЖНО
+> Не используйте смазку на крышке рабочего колеса, повреждение кольца может быть результатом использования смазки.
 
-Lubricate the outside diameter of the impeller cover and the o-ring bore. Use soapy water.
+Смазать наружный диаметр крышки рабочего колеса и цилиндр с кольцом. Используйте мыльную воду.
 
-Support the water pump in a press.
+Поддерживайте водяной насос в прессе.
 
-Press the impeller cover into the bore until seated.
+Нажмите на крышку рабочего колеса в цилиндр, пока не усаживаетесь.
 
 ![[08c00244.png]]
 
-> [!danger] WARNING · Опасно
-> The retaining clip contains extreme amounts of potential energy. To reduce the possibility of personal injury from the clip slipping, place the water pump in a box prior to installing the retaining clip.
+> [!danger] ОПАСНО
+> Удерживающий клип содержит экстремальное количество потенциальной энергии. Чтобы уменьшить вероятность получения травмы от проскальзывания клипса, поместите водяной насос в коробку перед установкой удерживающего клипса.
 
-Place the water pump in a box.
+Поместите водяной насос в коробку.
 
-Install the retaining clip.
+Установите удерживающий клип.
 
 ![[08c00221.png]]
 
-Measure the impeller clearance between the impeller and impeller cover. Use a feeler gauge.
+Измерить зазор между заслоном и крышкой. Используйте калибр для щупалец.
 
-| Impeller Clearance |  |  |
+| Проверка герметичного колеса |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.29 | MIN | 0.011 |
-| 1.24 | MAX | 0.049 |
+| мм |  | в |
+| 0.29 | Мин | 0.011 |
+| 1.24 | Макс | 0.049 |
 
 ![[08c00246.png]]
 
-### Install
+### Установка
 
-Automotive with CM870
+Автомобильный с CM870
 
-> [!warning] CAUTION · Осторожно
-> Do not use petroleum based lubricants. Petroleum based lubricants cause the o-ring seals to crack, leading to a coolant leak.
+> [!warning] ОСТОРОЖНО
+> Не используйте смазочные материалы на масляной основе. Смазочные материалы на основе масла вызывают трещину уплотнений кольца, что приводит к утечке охлаждающей жидкости.
 
-Lubricate and install the new o-ring seal.
+Смазать и установить новый уплотнитель O-ring.
 
-Install the two guide studs.
+Установите два направляющих шпильки.
 
-Install the water pump and three capscrews.
+Установите водяной насос и три болта.
 
 ![[08c00201.png]]
 
-Remove the two guide studs. Install the remaining mounting capscrews.
+Удалите два направляющих шпильки. Установите оставшиеся крепежные болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 72 n•m [53 ft-lb]
+> [!tip] Момент затяжки
+> 72 Н·м [53 фунт-фут]
 
 ![[08c00200.png]]
 
-Automotive with CM570
+Автомобильный с CM570
 
-Install a new o-ring seal in the water inlet.
+Установите новое уплотнение с кольцом на входе в воду.
 
-Install the two guide studs.
+Установите два направляющих шпильки.
 
 ![[08c00019.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use petroleum based lubricants. Petroleum based lubricants cause the o-ring seals to crack, leading to a coolant leak.
+> [!warning] ОСТОРОЖНО
+> Не используйте смазочные материалы на масляной основе. Смазочные материалы на основе масла вызывают трещину уплотнений кольца, что приводит к утечке охлаждающей жидкости.
 
-Install a new o-ring seal in the water pump outlet groove.
+Установите новое уплотнение с помощью кольца в канавку для выхода водяного насоса.
 
-Apply a thin layer of non-petroleum-based lubricant, such as vegetable oil, to both o-ring seals.
+Нанесите тонкий слой смазки на основе не нефтелея, такой как растительное масло, на оба уплотнения с кольцом.
 
 ![[08c00178.png]]
 
-Use clean engine oil to lubricate the threads and bottom of the capscrew heads of all the water pump capscrews.
+Используйте чистое моторное масло для смазки резьбы и днища болтов головок всех болтов водяного насоса.
 
-Install the water pump and two lower capscrews.
+Установите водяной насос и два нижних болта.
 
-Tighten the capscrews to hold the pump in place.
+Затяните болты, чтобы удерживать насос на месте.
 
 ![[08c00179.png]]
 
-> [!note] Note · Примечание
-> Some configurations do **not** use the middle aluminum belt tensioner bracket shown. Refer to Procedure 008-088 in Section 8 for the appropriate tensioner bracket installation.
+> [!note] Примечание
+> В некоторых конфигурациях **не** используется показанная скоба среднего алюминиевого ремня. См. процедуру 008-088 в разделе 8 для соответствующей установки натяжных скобок.
 
-Install the belt tensioner bracket, if equipped, and capscrews in the location shown.
+Установите кронштейн натяжителя ремня, если он оборудован, и болты в показанном месте.
 
-Finger tighten all capscrews.
+Пальцы затягивают все болты.
 
 ![[08c00180.png]]
 
-Tighten the water pump mounting capscrews in the sequence and values shown.
+Затягивать болты для установки водяного насоса в показанной последовательности и значениях.
 
-Torque Value:
+Момент затяжки:
 
-Capscrews 1, 2, and 3
+болты 1, 2 и 3
 
-Torque Value:
+Момент затяжки:
 
-Capscrews 4 and 5
+болты 4 и 5
 
-Torque Value:
+Момент затяжки:
 
-All Capscrews, Engines Without Belt Tensioner Bracket
+Все болты, двигатели без ремня натяжения
 
 ![[08c00181.png]]
 
-Industrial CM570 and Power Generation without CM570
+Промышленный CM570 и производство электроэнергии без CM570
 
-Install a new o-ring seal in the water inlet.
+Установите новое уплотнение с кольцом на входе в воду.
 
-Install the two guide studs.
+Установите два направляющих шпильки.
 
 ![[08c00019.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use petroleum based lubricants. Petroleum based lubricants cause the o-ring seals to crack, leading to a coolant leak.
+> [!warning] ОСТОРОЖНО
+> Не используйте смазочные материалы на масляной основе. Смазочные материалы на основе масла вызывают трещину уплотнений кольца, что приводит к утечке охлаждающей жидкости.
 
-Install a new o-ring seal in the water pump outlet groove.
+Установите новое уплотнение с помощью кольца в канавку для выхода водяного насоса.
 
-Apply a thin layer of non-petroleum-based lubricant, such as vegetable oil, to both o-ring seals.
+Нанесите тонкий слой смазки на основе не нефтелея, такой как растительное масло, на оба уплотнения с кольцом.
 
 ![[08c00178.png]]
 
-Use clean engine oil to lubricate the threads and bottom of the capscrew heads of all the water pump capscrews.
+Используйте чистое моторное масло для смазки резьбы и днища болтов головок всех болтов водяного насоса.
 
-Position the water pump on the engine.
+Поместите водяной насос на двигатель.
 
-Install the bottom two capscrews finger-tight.
+Установите два нижних болта герметичными.
 
 ![[08c00182.png]]
 
-> [!note] Note · Примечание
-> Some configurations do **not** use the middle aluminum belt tensioner bracket. Refer to Procedure 008-088 in Section 8 for the appropriate tensioner bracket installation.
+> [!note] Примечание
+> Некоторые конфигурации **не** используют среднюю алюминиевую натяжную кронштейн ремня. См. процедуру 008-088 в разделе 8 для соответствующей установки натяжных скобок.
 
-> [!note] Note · Примечание
-> Early engines that did **not** have a slotted hole on the middle aluminum belt tensioner idler bracket required the vibration dampers to be removed to remove and install the water pump.
+> [!note] Примечание
+> Ранние двигатели, которые не имели отверстия на средней алюминиевой ленте натяжного кронштейна, требовали удаления вибрационных амортизаторов для удаления и установки водяного насоса.
 
-Install the belt tensioner bracket, if equipped, and the capscrews in the locations shown.
+Установите кронштейн натяжителя ремня, если он оборудован, и болты в показанных местах.
 
-Finger tighten all capscrews.
+Пальцы затягивают все болты.
 
 ![[08c00183.png]]
 
-Tighten the water pump mounting capscrews in the sequence and values shown.
+Затягивать болты для установки водяного насоса в показанной последовательности и значениях.
 
-Torque Value:
+Момент затяжки:
 
-Capscrews 1, 2, and 3
+болты 1, 2 и 3
 
-Torque Value:
+Момент затяжки:
 
-Capscrews 4 and 5
+болты 4 и 5
 
-Torque Value:
+Момент затяжки:
 
-All Capscrews, Engines Without Belt Tensioner Bracket
+Все болты, двигатели без ремня натяжения
 
 ![[08c00181.png]]
 
-Align the idler pulley (1) and the shaft of the pilot adapter (2) with the belt tensioner bracket (3) using the guide pin on the pilot adapter (4), if equipped.
+Выровнять шкив (1) холостого хода и вал пилотного адаптера (2) с помощью кронштейна натяжителя ремня (3) с помощью направляющего штифта на пилотном адаптере (4), если он оборудован.
 
-Install the belt idler pulley and shaft on the belt idler bracket using one washer and capscrew.
+Установите ленточный шкив и вал на ленточный кронштейн с помощью одной шайбы и болтов.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [25 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [25 фунт-фут]
 
-Install the dust seal.
+Установите пылевую уплотнение.
 
 ![[01c00282.png]]
 
-Automotive With CM871
+Автомобильный с CM871
 
-> [!warning] CAUTION · Осторожно
-> Do not use petroleum based lubricants, petroleum based lubricants cause the o-ring to crack or swell, leading to a coolant leak.
+> [!warning] ОСТОРОЖНО
+> Не используйте смазочные материалы на масляной основе, смазочные материалы на масляной основе вызывают трещину или набухание кольца, что приводит к утечке охлаждающей жидкости.
 
-Install a new water pump inlet o-ring seal and a new EGR tube outlet o-ring seal.
+Установите новый впускной уплотнитель водяного насоса и новый уплотнитель уплотнения
 
-Install the five water pump housing capscrews.
+Установите пять болтов корпуса водяного насоса.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 72 n•m [53 ft-lb]
+> [!tip] Момент затяжки
+> 72 Н·м [53 фунт-фут]
 
-Install the two bracket capscrews.
+Установите два болта скобки.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [25 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [25 фунт-фут]
 
-Install the EGR tube outlet capscrew.
+Установите болты выходных трубок EGR.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 30 n•m [25 ft-lb]
+> [!tip] Момент затяжки
+> 30 Н·м [25 фунт-фут]
 
 ![[08c00249.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Automotive with CM870
+Автомобильный с CM870
 
-- Fill the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018]].
-- Install the water pump drive belt and tensioner. Refer to Procedure 008-080.
-- Install the refrigerant compressor drive belt. Refer to Procedure 009-052.
+- Заправьте систему охлаждения.[[10-008-018-tr — Cooling System|См. процедуру 008-018]].
+- Установите ремень привода водяного насоса и натяжитель. См. процедуру 008-080.
+- Установите ремень привода компрессора хладагента. См. процедуру 009-052.
 
-Automotive with CM570
+Автомобильный с CM570
 
-- Install the vibration dampers, if removed. [[10-001-052-tr — Vibration Damper, Viscous|Refer to Procedure 001-052]].
-- Install the alternator. Refer to Procedure 013-001.
-- Install the water pump belt tensioner bracket and belt tensioner. Refer to Procedure 008-080.
-- Install the alternator drive belt. Refer to Procedure 013-005.
-- Install the water pump drive belt. Refer to Procedure 008-003.
-- Fill the engine with heavy-duty coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018]].
-- Start the engine and check for leaks.
+- Установите вибрационные демпферы, если они удалены.[[10-001-052-tr — Vibration Damper, Viscous|См. процедуру 001-052]].
+- Установите генератор. См. процедуру 013-001.
+- Установите натяжную кронштейн ремня водяного насоса и натяжную ремень. См. процедуру 008-080.
+- Установите ремень привода генератора. См. процедуру 013-005.
+- Установите ремень привода водяного насоса. См. процедуру 008-003.
+- Заполните двигатель сверхмощной охлаждающей жидкостью.[[10-008-018-tr — Cooling System|См. процедуру 008-018]].
+- Запустите двигатель и проверьте наличие утечек.
 
-Industrial CM570 and Power Generation without CM570
+Промышленный CM570 и производство электроэнергии без CM570
 
-- Install the damper assembly, if removed. [[10-001-052-tr — Vibration Damper, Viscous|Refer to Procedure 001-052]].
-- Install the alternator. Refer to Procedure 013-001.
-- Install the alternator drive belt. Refer to Procedure 013-005.
-- Install the fan and water pump drive belt. Refer to Procedure 008-003.
-- Fill the engine with heavy-duty coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018]].
-- Start the engine and check for leaks.
+- Установите сборку демпфера, если она удалена.[[10-001-052-tr — Vibration Damper, Viscous|См. процедуру 001-052]].
+- Установите генератор. См. процедуру 013-001.
+- Установите ремень привода генератора. См. процедуру 013-005.
+- Установите вентилятор и ремень привода водяного насоса. См. процедуру 008-003.
+- Заполните двигатель сверхмощной охлаждающей жидкостью.[[10-008-018-tr — Cooling System|См. процедуру 008-018]].
+- Запустите двигатель и проверьте наличие утечек.
 
-Automotive With CM871
+Автомобильный с CM871
 
-- Install the water pump cartridge. [[10-008-102-tr — Water Pump Cartridge|Refer to Procedure 008-102]].
-- Install the refrigerant compressor drive belt. Refer to Procedure 009-052.
-- Install the water pump drive belt and tensioner. Refer to Procedure 008-080.
-- Fill the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018]].
-- Operate the engine and check for leaks.
+- Установите картридж водяного насоса.[[10-008-102-tr — Water Pump Cartridge|См. процедуру 008-102]].
+- Установите ремень привода компрессора хладагента. См. процедуру 009-052.
+- Установите ремень привода водяного насоса и натяжитель. См. процедуру 008-080.
+- Заправьте систему охлаждения.[[10-008-018-tr — Cooling System|См. процедуру 008-018]].
+- Запустите двигатель и проверьте на отсутствие утечек.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Automotive with CM870
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
+> - Remove the water pump drive belt and tensioner. Refer to Procedure 008-080 in Section 8.
+> - Remove the refrigerant compressor drive belt. Refer to Procedure 009-052 in Section 9.
+>
+> Automotive with CM570
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
+> - Remove the water pump and fan drive belt. Refer to Procedure 008-003 in Section 8.
+> - Remove the alternator drive belt. Refer to Procedure 013-005 in Section 13.
+> - Remove the alternator. Refer to Procedure 013-001 in Section 13.
+> - Remove the water pump belt tensioner bracket and belt tensioner. Refer to Procedure 008-080 in Section 8.
+> - If necessary, remove the vibration dampers. [[10-001-052-tr — Vibration Damper, Viscous|Refer to Procedure 001-052 in Section 1]].
+>
+> Industrial CM570 and Power Generation without CM570
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep children and pets away. If the coolant is not going to be reused, dispose of it in accordance with local environmental regulations.
+>
+> - Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
+> - Remove the cooling fan and water pump belt. Refer to Procedure 008-003 in Section 8.
+> - Remove the alternator drive belt. Refer to Procedure 013-005 in Section 13.
+> - Remove the alternator. Refer to Procedure 013-001 in Section 13.
+> - If required, remove the damper assembly. [[10-001-052-tr — Vibration Damper, Viscous|Refer to Procedure 001-052 in Section 1]].
+>
+> Automotive With CM871
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> - Drain the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8]].
+> - Remove the water pump drive belt and tensioner. Refer to Procedure 008-080 in Section 8.
+> - Remove the refrigerant compressor drive belt. Refer to Procedure 009-052 in Section 9.
+> - Remove the water pump cartridge. [[10-008-102-tr — Water Pump Cartridge|Refer to Procedure 008-102 in Section 8]].
+>
+> ### Remove
+>
+> Automotive with CM870
+>
+> Remove two water pump mounting capscrews. Install two guide studs.
+>
+> Remove the remaining three capscrews, water pump, and o-ring seal.
+>
+> Discard the o-ring seal.
+>
+> Automotive CM570 with One Piece Water Pump Design
+>
+> Remove two water pump capscrews. Install guide studs.
+>
+> Remove remaining three capscrews, water pump, and water inlet o-ring seal.
+>
+> Discard the o-ring seal.
+>
+> Industrial CM570 with One Piece Water Pump Design and Power Generation without CM570
+>
+> Remove the pulley (1), pilot adapter (2), and belt tensioner bracket (3).
+>
+> Remove the remaining water pump capscrews, and water inlet o-rings.
+>
+> Discard the o-ring seals.
+>
+> Automotive With CM871
+>
+> Remove the five water pump housing mounting capscrews.
+>
+> Remove the two bracket mounting capscrews.
+>
+> Remove the exhaust gas recirculation (EGR) tube outlet capscrew.
+>
+> Remove the water pump housing and o-ring seals.
+>
+> Discard the water inlet o-ring seal and EGR tube inlet and outlet o-ring seal.
+>
+> Automotive CM570 and Industrial CM570 with Two Piece Design Water Pump
+>
+> Remove the five water pump housing mounting capscrews.
+>
+> Remove the three bracket mounting capscrews.
+>
+> Remove the water pump housing and o-ring seals.
+>
+> Discard the water inlet o-ring seal
+>
+> ### Clean
+>
+> One Piece Design, All Applications
+>
+> Clean the water pump and water inlet connections.
+>
+> Inspect the water pump housing for cracks.
+>
+> Inspect the water pump weep hole for indication of leaks.
+>
+> A streak or chemical buildup at the weep hole is **not** justification for water pump replacement. If a steady flow of coolant or oil is observed, recondition the existing water pump or replace the water pump with a new or rebuilt unit.
+>
+> Automotive CM570/Industrial CM570 with Two Piece Design Water Pump and Automotive with CM871
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the water pump components. Use solvent. Dry with compressed air.
+>
+> Inspect the water pump housing for cracks and damage.
+>
+> Inspect the water pump inlet tube for out of roundness, damage, or leaks.
+>
+> If the water pump housing is damaged, it must be replaced.
+>
+> Continuous pitting deeper than 0.635 mm \[0.025 in\] or individual pits deeper than 2.54 mm \[0.100 inch\] are not acceptable.
+>
+> Replace the water pump housing if **not** within specifications.
+>
+> ### Disassemble
+>
+> **WARNING · Опасно**
+> The retaining clip contains extreme amounts of potential energy. To reduce the possibility of personal injury from the clip slipping, place the water pump in a box prior to removing the retaining clip.
+>
+> **Note · Примечание**
+> This step **only** applies to the automotive CM570 and industrial CM570 with a one piece water pump design.
+>
+> Place the water pump in a box.
+>
+> Remove the retaining clip securing the impeller cover.
+>
+> Remove and discard the water pump outlet o-ring.
+>
+> Use a heel bar to remove the impeller cover from the pump.
+>
+> Discard the o-ring.
+>
+> Support the water pump housing pulley in a press with the pulley facing up.
+>
+> Press the pulley off of the water pump and shaft assembly.
+>
+> Position the water pump with the pulley end facing up.
+>
+> Remove the bearing bore retaining clip.
+>
+> Support the water pump in a press with the impeller facing up.
+>
+> Press the shaft out of the impeller and through the pump housing.
+>
+> Remove the impeller from the housing.
+>
+> Discard a phenolic impeller, retain a cast iron impeller.
+>
+> Support the water pump in a press with the pulley end facing up.
+>
+> Press the seal out of the housing.
+>
+> **Note · Примечание**
+> Disassemble the shaft and bearings **only** if the seal is leaking or the bearing is damaged.
+>
+> Remove the retaining ring (1).
+>
+> Use water pump bearing separator, Part Number 3375326 to remove the:
+>
+> - Front bearing (2)
+> - Rear bearing (3).
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **Note · Примечание**
+> This step **only** applies to the automotive CM570 and industrial CM570 with a one piece water pump design.
+>
+> Clean the water pump components. Use solvent. Dry with compressed air.
+>
+> Inspect the water pump housing for cracks and damage.
+>
+> If the water pump housing is damaged, it **must** be replaced.
+>
+> Inspect the cast iron impeller for cracks, pitting, and other damage.
+>
+> Continuous pitting deeper than 0.635 mm \[0.025 in\] or individual pits deeper than 2.54 mm \[0.100 in\] are **not** acceptable.
+>
+> Replace the impeller if damaged or if pits are **not** within specifications.
+>
+> The water pump bearings are sealed bearings.
+>
+> Spin the bearings to check for roughness.
+>
+> Inspect the bearings for signs of grease purge.
+>
+> If the bearing seals show signs of grease purge or the bearing does **not** spin smoothly, it **must** be replaced.
+>
+> Inspect the impeller cover for cracks and other damage.
+>
+> Scratching on the inside face is acceptable.
+>
+> If there is any damage to the outer o-ring area, the impeller cover **must** be replaced.
+>
+> Inspect the impeller cover retaining clip.
+>
+> If the retaining clip is rusted or pitted, it **must** be replaced.
+>
+> Inspect the pulley for cracks, wear, and damage.
+>
+> Inspect the mating surface and pulley bore areas for damage.
+>
+> If the pulley is damaged, it **must** be replaced.
+>
+> ### Measure
+>
+> **Note · Примечание**
+> This step **only** applies to the automotive CM570 and industrial CM570 with a one piece water pump design.
+>
+> Measure the inside diameter of the water pump housing large bearing bore.
+>
+> | Water Pump Housing Large Bearing Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 71.988 | MIN | 2.834 |
+> | 72.018 | MAX | 2.835 |
+>
+> If the water pump housing large bearing bore inside diameter is **not** within specifications, the water pump housing **must** be replaced.
+>
+> Measure the inside diameter of the cast iron impeller.
+>
+> | Cast Iron Impeller Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 15.850 | MIN | 0.624 |
+> | 15.875 | MAX | 0.625 |
+>
+> If the cast iron impeller inside diameter is **not** within specifications, it **must** be replaced.
+>
+> Measure the outside diameter of the water pump shaft.
+>
+> | Water Pump Shaft Diameter |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | Small End | 25.015 | MIN | 0.9848 |
+> |  | 25.002 | MAX | 0.9843 |
+> | Large End | 29.015 | MIN | 1.1423 |
+> |  | 29.002 | MAX | 1.1418 |
+>
+> Measure the outside diameter of the larger end of the shaft.
+>
+> If the shaft is **not** within specifications, it **must** be replaced.
+>
+> Measure the inside diameter of the pulley bore.
+>
+> | Pulley Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 28.936 | MIN | 1.139 |
+> | 29.964 | MAX | 1.140 |
+>
+> If the pulley bore is **not** within specifications, the pulley **must** be replaced.
+>
+> ### Assemble
+>
+> **CAUTION · Осторожно**
+> The mandrel must make contact on the inner race of the bearing to prevent damage to the bearing.
+>
+> **Note · Примечание**
+> This step **only** applies to the automotive CM570 and industrial CM570 with a one piece water pump design.
+>
+> Support the shaft in an arbor press.
+>
+> Use an arbor press with water pump mandrel, Part Number ST-658 (4), or equivalent, to install the bearings.
+>
+> Install the retaining clip with the beveled side of the clip facing away from the bearing.
+>
+> Support the water pump housing on a table with the pulley end facing up.
+>
+> Install the shaft and bearing assembly into the bearing bore with the smaller bearing end of the assembly entering first.
+>
+> If the shaft does **not** drop into position from its weight, the assembly can be pressed into place.
+>
+> Install the retaining clip with the beveled side of the clip facing away from the bearing.
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of damage to the water pump housing, make sure the impeller end of the shaft is supported before pressing on the pulley.
+>
+> Support the impeller end of the shaft in a press.
+>
+> Press on the pulley until it is flush with the end of the shaft.
+>
+> Make sure the pulley rotates freely.
+>
+> Press the water pump seal onto the shaft.
+>
+> Measure the water pump seal installed height.
+>
+> | Water Pump Seal Installed Height |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 10.919 | MIN | 0.430 |
+> | 11.679 | MAX | 0.460 |
+>
+> If the water pump seal installed height is **not** within specifications, the seal **must** be removed and installed again.
+>
+> Support the water pump in a press with the pulley down.
+>
+> Press the impeller, vane side up, onto the shaft until it is flush with the end of the shaft.
+>
+> **CAUTION · Осторожно**
+> Do not use petroleum based lubricants. Petroleum based lubricants cause the o-ring seals to crack, leading to a coolant leak.
+>
+> **CAUTION · Осторожно**
+> Make sure the o-ring is seated properly. If the o-ring is not seated properly it can be damaged during impeller cover installation.
+>
+> Lubricate the impeller cover o-ring. Use soapy water.
+>
+> Install the cover o-ring into the water pump housing.
+>
+> **CAUTION · Осторожно**
+> Do not use petroleum lubricant on the impeller cover, o-ring damage can result from the use of petroleum lubricant.
+>
+> Lubricate the outside diameter of the impeller cover and the o-ring bore. Use soapy water.
+>
+> Support the water pump in a press.
+>
+> Press the impeller cover into the bore until seated.
+>
+> **WARNING · Опасно**
+> The retaining clip contains extreme amounts of potential energy. To reduce the possibility of personal injury from the clip slipping, place the water pump in a box prior to installing the retaining clip.
+>
+> Place the water pump in a box.
+>
+> Install the retaining clip.
+>
+> Measure the impeller clearance between the impeller and impeller cover. Use a feeler gauge.
+>
+> | Impeller Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.29 | MIN | 0.011 |
+> | 1.24 | MAX | 0.049 |
+>
+> ### Install
+>
+> Automotive with CM870
+>
+> **CAUTION · Осторожно**
+> Do not use petroleum based lubricants. Petroleum based lubricants cause the o-ring seals to crack, leading to a coolant leak.
+>
+> Lubricate and install the new o-ring seal.
+>
+> Install the two guide studs.
+>
+> Install the water pump and three capscrews.
+>
+> Remove the two guide studs. Install the remaining mounting capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 72 n•m [53 ft-lb]
+>
+> Automotive with CM570
+>
+> Install a new o-ring seal in the water inlet.
+>
+> Install the two guide studs.
+>
+> **CAUTION · Осторожно**
+> Do not use petroleum based lubricants. Petroleum based lubricants cause the o-ring seals to crack, leading to a coolant leak.
+>
+> Install a new o-ring seal in the water pump outlet groove.
+>
+> Apply a thin layer of non-petroleum-based lubricant, such as vegetable oil, to both o-ring seals.
+>
+> Use clean engine oil to lubricate the threads and bottom of the capscrew heads of all the water pump capscrews.
+>
+> Install the water pump and two lower capscrews.
+>
+> Tighten the capscrews to hold the pump in place.
+>
+> **Note · Примечание**
+> Some configurations do **not** use the middle aluminum belt tensioner bracket shown. Refer to Procedure 008-088 in Section 8 for the appropriate tensioner bracket installation.
+>
+> Install the belt tensioner bracket, if equipped, and capscrews in the location shown.
+>
+> Finger tighten all capscrews.
+>
+> Tighten the water pump mounting capscrews in the sequence and values shown.
+>
+> Torque Value:
+>
+> Capscrews 1, 2, and 3
+>
+> Torque Value:
+>
+> Capscrews 4 and 5
+>
+> Torque Value:
+>
+> All Capscrews, Engines Without Belt Tensioner Bracket
+>
+> Industrial CM570 and Power Generation without CM570
+>
+> Install a new o-ring seal in the water inlet.
+>
+> Install the two guide studs.
+>
+> **CAUTION · Осторожно**
+> Do not use petroleum based lubricants. Petroleum based lubricants cause the o-ring seals to crack, leading to a coolant leak.
+>
+> Install a new o-ring seal in the water pump outlet groove.
+>
+> Apply a thin layer of non-petroleum-based lubricant, such as vegetable oil, to both o-ring seals.
+>
+> Use clean engine oil to lubricate the threads and bottom of the capscrew heads of all the water pump capscrews.
+>
+> Position the water pump on the engine.
+>
+> Install the bottom two capscrews finger-tight.
+>
+> **Note · Примечание**
+> Some configurations do **not** use the middle aluminum belt tensioner bracket. Refer to Procedure 008-088 in Section 8 for the appropriate tensioner bracket installation.
+>
+> **Note · Примечание**
+> Early engines that did **not** have a slotted hole on the middle aluminum belt tensioner idler bracket required the vibration dampers to be removed to remove and install the water pump.
+>
+> Install the belt tensioner bracket, if equipped, and the capscrews in the locations shown.
+>
+> Finger tighten all capscrews.
+>
+> Tighten the water pump mounting capscrews in the sequence and values shown.
+>
+> Torque Value:
+>
+> Capscrews 1, 2, and 3
+>
+> Torque Value:
+>
+> Capscrews 4 and 5
+>
+> Torque Value:
+>
+> All Capscrews, Engines Without Belt Tensioner Bracket
+>
+> Align the idler pulley (1) and the shaft of the pilot adapter (2) with the belt tensioner bracket (3) using the guide pin on the pilot adapter (4), if equipped.
+>
+> Install the belt idler pulley and shaft on the belt idler bracket using one washer and capscrew.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [25 ft-lb]
+>
+> Install the dust seal.
+>
+> Automotive With CM871
+>
+> **CAUTION · Осторожно**
+> Do not use petroleum based lubricants, petroleum based lubricants cause the o-ring to crack or swell, leading to a coolant leak.
+>
+> Install a new water pump inlet o-ring seal and a new EGR tube outlet o-ring seal.
+>
+> Install the five water pump housing capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 72 n•m [53 ft-lb]
+>
+> Install the two bracket capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [25 ft-lb]
+>
+> Install the EGR tube outlet capscrew.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 30 n•m [25 ft-lb]
+>
+> ### Finishing Steps
+>
+> Automotive with CM870
+>
+> - Fill the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018]].
+> - Install the water pump drive belt and tensioner. Refer to Procedure 008-080.
+> - Install the refrigerant compressor drive belt. Refer to Procedure 009-052.
+>
+> Automotive with CM570
+>
+> - Install the vibration dampers, if removed. [[10-001-052-tr — Vibration Damper, Viscous|Refer to Procedure 001-052]].
+> - Install the alternator. Refer to Procedure 013-001.
+> - Install the water pump belt tensioner bracket and belt tensioner. Refer to Procedure 008-080.
+> - Install the alternator drive belt. Refer to Procedure 013-005.
+> - Install the water pump drive belt. Refer to Procedure 008-003.
+> - Fill the engine with heavy-duty coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018]].
+> - Start the engine and check for leaks.
+>
+> Industrial CM570 and Power Generation without CM570
+>
+> - Install the damper assembly, if removed. [[10-001-052-tr — Vibration Damper, Viscous|Refer to Procedure 001-052]].
+> - Install the alternator. Refer to Procedure 013-001.
+> - Install the alternator drive belt. Refer to Procedure 013-005.
+> - Install the fan and water pump drive belt. Refer to Procedure 008-003.
+> - Fill the engine with heavy-duty coolant. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018]].
+> - Start the engine and check for leaks.
+>
+> Automotive With CM871
+>
+> - Install the water pump cartridge. [[10-008-102-tr — Water Pump Cartridge|Refer to Procedure 008-102]].
+> - Install the refrigerant compressor drive belt. Refer to Procedure 009-052.
+> - Install the water pump drive belt and tensioner. Refer to Procedure 008-080.
+> - Fill the cooling system. [[10-008-018-tr — Cooling System|Refer to Procedure 008-018]].
+> - Operate the engine and check for leaks.

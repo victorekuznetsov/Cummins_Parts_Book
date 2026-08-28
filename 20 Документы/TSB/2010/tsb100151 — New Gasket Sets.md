@@ -72,12 +72,14 @@ parts:
   - "4086225"
   - "4089233"
   - "4101150"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100151.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100151.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Gasket Sets
@@ -88,262 +90,270 @@ tags:
 > **Даты:** изменён 2014-03-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100151.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100151.pdf)
 
-## New Gasket Sets
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новые наборы Gasket
 
-### Contents
+### Положение о гарантии
 
-Currently there is an upper gasket set for the QSK45, Part Number 4024980, and an upper gasket set for the QSK60, Part Number [[4025140]]. These are large sets with many different o-rings, seals, and hoses. The new gasket sets are divided into specific functions on the engine. The smaller sets can be purchased for smaller repairs. A combination of the smaller sets is the same as the original upper gasket set.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-All QSK45 and QSK60 power generation and industrial engines will be affected by this change.
+### Содержание
 
-| QSK60 Old Upper Gasket Set, Part Number [[4025140]] |  |  |
+В настоящее время имеется верхний прокладочный комплект для QSK45, номер детали 4024980 и верхний прокладочный комплект для QSK60, номер детали.[[4025140]]. Это большие наборы с множеством различных колец, уплотнений и шлангов. Новые прокладки делятся на конкретные функции на двигателе. Меньшие комплекты можно приобрести для меньшего ремонта. Комбинация меньших наборов такая же, как и исходный набор верхней прокладки.
+
+Все двигатели QSK45 и QSK60 будут подвержены влиянию этих изменений.
+
+| QSK60 Старый верхний набор, номер детали[[4025140]] |  |  |
 |---|---|---|
-| Part Number | Quantity | Description |
-| 70415 | 1 | Seal, O-ring |
-| 145528 | 2 | Seal, O-ring |
-| 206808 | 8 | Seal, Water Connection |
-| 216187 | 8 | Seal, O-ring |
-| [[3028291]] | 34 | Seal, O-ring |
-| [[3035026]] | 8 | Seal, O-ring |
-| [[3064886]] | 4 | Hose, Plain |
-| [[3082315]] | 16 | Gasket, Exhaust |
-| [[3082357]] | 4 | Seal, Grommet |
-| [[3082358]] | 4 | Seal, O-ring |
-| [[3089019]] | 1 | Seal, O-ring |
-| [[3089247]] | 6 | Gasket, Connection |
-| [[3089318]] | 1 | Gasket, Flange |
-| [[3089319]] | 1 | Gasket, Flange |
-| [[3089501]] | 8 | Seal, Rectangular |
-| [[3089955]] | 8 | Gasket, Connection |
-| [[3171170]] | 6 | Gasket, Connection |
-| [[3171287]] | 8 | Gasket, Connection |
-| [[3171306]] | 8 | Gasket, Exhaust Outlet |
-| [[3171368]] | 8 | Gasket, Turbocharger |
-| [[3171421]] | 32 | Lockplate |
-| [[3171499]] | 16 | Gasket, Rocker Lever |
-| [[3171695]] | 2 | Gasket, Connection |
-| [[3202117]] | 8 | Gasket, Connection |
-| [[3331834]] | 32 | Seal, Rectangular |
-| [[3332000]] | 1 | Gasket, Thermostat |
-| [[3332081]] | 1 | Gasket, Water Transfer |
-| [[3332104]] | 2 | Connection, Fuel |
-| [[3332143]] | 1 | Gasket, Connection |
-| [[3332157]] | 1 | Gasket, Thermostat |
-| [[3332181]] | 16 | Gasket, Fuel Manifold |
-| [[3332291]] | 16 | Gasket, Rocker Lever |
-| [[3347937]] | 16 | Seal, O-ring |
-| [[3347939]] | 16 | Seal, O-ring |
-| [[3410688]] | 1 | Gasket, Thermostat |
-| [[3627695]] | 6 | Seal, O-ring |
-| [[3627961]] | 6 | Seal, Thermostat |
-| [[3630125]] | 4 | Hose, Plain |
-| [[3630740]] | 5 | Seal, O-ring |
-| [[3678786]] | 3 | Seal, O-ring |
-| [[3678925]] | 1 | Seal, O-ring |
-| [[3679139]] | 2 | Seal, O-ring |
-| [[3867651]] | 16 | Seal, O-ring |
-| [[3867687]] | 16 | Seal, Injector |
-| [[3922794]] | 2 | Seal, O-ring |
-| [[4000713]] | 4 | Gasket, Aftercooler |
-| [[4000716]] | 4 | Gasket, Connection |
-| [[4001044]] | 4 | Hose, Hump |
-| [[4010577]] | 16 | Seal, O-ring |
-| 4017166 | 4 | Connection, Water |
-| [[4065349]] | 4 | Gasket, Exhaust Outlet |
-| [[4066038]] | 4 | Gasket, Intake |
-| [[4066112]] | 34 | Seal, O-ring |
-| [[4080544]] | 2 | Hose, Plain |
-| [[4086225]] | 16 | Gasket, Cylinder Head |
+| Номер детали | Количество | Наименование |
+| 70415 | 1 | Тюлень, кольцо О |
+| 145528 | 2 | Тюлень, кольцо О |
+| 206808 | 8 | Тюлень, водопроводная связь |
+| 216187 | 8 | Тюлень, кольцо О |
+| [[3028291]] | 34 | Тюлень, кольцо О |
+| [[3035026]] | 8 | Тюлень, кольцо О |
+| [[3064886]] | 4 | Хосе, Плейн |
+| [[3082315]] | 16 | Гаскет, выхлоп |
+| [[3082357]] | 4 | Тюлень, Громмет. |
+| [[3082358]] | 4 | Тюлень, кольцо О |
+| [[3089019]] | 1 | Тюлень, кольцо О |
+| [[3089247]] | 6 | Гаскет, соединение |
+| [[3089318]] | 1 | Гаскет, Фланж |
+| [[3089319]] | 1 | Гаскет, Фланж |
+| [[3089501]] | 8 | Уплотнение, прямоугольная |
+| [[3089955]] | 8 | Гаскет, соединение |
+| [[3171170]] | 6 | Гаскет, соединение |
+| [[3171287]] | 8 | Гаскет, соединение |
+| [[3171306]] | 8 | Гаскет, выпускной выход |
+| [[3171368]] | 8 | Гаскет, турбокомпрессор |
+| [[3171421]] | 32 | Стопорная пластина |
+| [[3171499]] | 16 | Гаскет, рычаг клапанного качалки |
+| [[3171695]] | 2 | Гаскет, соединение |
+| [[3202117]] | 8 | Гаскет, соединение |
+| [[3331834]] | 32 | Уплотнение, прямоугольная |
+| [[3332000]] | 1 | Гаскет, термостат |
+| [[3332081]] | 1 | Гаскет, водопровод |
+| [[3332104]] | 2 | Связь, топливо |
+| [[3332143]] | 1 | Гаскет, соединение |
+| [[3332157]] | 1 | Гаскет, термостат |
+| [[3332181]] | 16 | Гаскет, топливный коллектор |
+| [[3332291]] | 16 | Гаскет, рычаг клапанного качалки |
+| [[3347937]] | 16 | Тюлень, кольцо О |
+| [[3347939]] | 16 | Тюлень, кольцо О |
+| [[3410688]] | 1 | Гаскет, термостат |
+| [[3627695]] | 6 | Тюлень, кольцо О |
+| [[3627961]] | 6 | Тюлень, термостат |
+| [[3630125]] | 4 | Хосе, Плейн |
+| [[3630740]] | 5 | Тюлень, кольцо О |
+| [[3678786]] | 3 | Тюлень, кольцо О |
+| [[3678925]] | 1 | Тюлень, кольцо О |
+| [[3679139]] | 2 | Тюлень, кольцо О |
+| [[3867651]] | 16 | Тюлень, кольцо О |
+| [[3867687]] | 16 | Тюлень, форсунка |
+| [[3922794]] | 2 | Тюлень, кольцо О |
+| [[4000713]] | 4 | Гаскет, послеохладитель |
+| [[4000716]] | 4 | Гаскет, соединение |
+| [[4001044]] | 4 | Хосе, Горб |
+| [[4010577]] | 16 | Тюлень, кольцо О |
+| 4017166 | 4 | Связь, вода |
+| [[4065349]] | 4 | Гаскет, выпускной выход |
+| [[4066038]] | 4 | Гаскет, прием |
+| [[4066112]] | 34 | Тюлень, кольцо О |
+| [[4080544]] | 2 | Хосе, Плейн |
+| [[4086225]] | 16 | Гаскет, голова цилиндра |
 
-To obtain a complete upper gasket set, the following **must** be ordered:
+Для получения полного верхнего набора прокладок необходимо заказать следующее:
 
-| QSK60 Upper Gasket Sets |  |  |
+| Верхний набор QSK60 |  |  |
 |---|---|---|
-| Part Number | Description | Quantity |
-| 4089200 | Quadrant Head Gasket Set | 4 |
-| 4089201 | Quadrant Aftercooler Gasket Set | 4 |
-| 4089202 | Cooling System Gasket Set | 1 |
-| 4089203 | Turbocharger and Intercooler Gasket Set | 1 |
+| Номер детали | Наименование | Количество |
+| 4089200 | Квадрантный набор для геймпадов | 4 |
+| 4089201 | Квадрантный комплект для охладителя | 4 |
+| 4089202 | Набор для гаскета системы охлаждения | 1 |
+| 4089203 | Турбокомпрессор и интеркулерный набор | 1 |
 
-| Quadrant Head Gasket Set, Part Number 4089200 |  |  |
+| Квадрантная головной гарнитурная гарнитура, номер детали 4089200 |  |  |
 |---|---|---|
-| Part Number | Quantity | Description |
-| [[3082315]] | 4 | Gasket, Exhaust Manifold |
-| [[3171421]] | 8 | Lockplate |
-| [[3171499]] | 4 | Gasket, Rocker Lever |
-| [[3332291]] | 4 | Gasket, Rocker Lever Cover |
-| 4066243 | 4 | Gasket, Cylinder |
-| [[3867687]] | 4 | Seal, Injector |
-| [[3347937]] | 4 | Seal, O-ring |
-| [[3347939]] | 4 | Seal, O-ring |
-| [[3867651]] | 4 | Seal, O-ring |
-| [[3332181]] | 4 | Gasket, Fuel Connection |
-| [[4010577]] | 4 | Seal, O-ring |
+| Номер детали | Количество | Наименование |
+| [[3082315]] | 4 | Гаскет, многообразие выхлопных газов |
+| [[3171421]] | 8 | Стопорная пластина |
+| [[3171499]] | 4 | Гаскет, рычаг клапанного качалки |
+| [[3332291]] | 4 | Гаскет, клапанный клапан, рычаг качалки |
+| 4066243 | 4 | Гаскет, цилиндр |
+| [[3867687]] | 4 | Тюлень, форсунка |
+| [[3347937]] | 4 | Тюлень, кольцо О |
+| [[3347939]] | 4 | Тюлень, кольцо О |
+| [[3867651]] | 4 | Тюлень, кольцо О |
+| [[3332181]] | 4 | Гаскет, топливный шнур |
+| [[4010577]] | 4 | Тюлень, кольцо О |
 
-| Quadrant Aftercooler Gasket Set, Part Number 4089201 |  |  |
+| Квадрантный комплект для охладителя, номер детали 4089201 |  |  |
 |---|---|---|
-| Part Number | Quantity | Description |
-| 206808 | 2 | Seal, Grommet |
-| [[3035026]] | 2 | Seal, O-ring |
-| [[3082357]] | 1 | Seal, Grommet |
-| [[3082358]] | 1 | Seal, O-ring |
-| [[3171170]] | 2 | Gasket, Connection |
-| [[3171287]] | 2 | Gasket, Connection |
-| 3254315 | 3 | Clamp, Hose |
-| [[3331834]] | 8 | Seal, Rectangular Ring |
-| [[3678912]] | 2 | Seal, O-ring |
-| [[3678925]] | 1 | Seal, O-ring |
-| [[3922794]] | 1 | Seal, O-ring |
-| [[4000713]] | 1 | Gasket, Aftercooler Cover |
-| [[4001044]] | 1 | Hose, Hump |
-| [[4066038]] | 1 | Gasket, Intake Manifold |
-| 4017166 | 1 | T-piece |
+| Номер детали | Количество | Наименование |
+| 206808 | 2 | Тюлень, Громмет. |
+| [[3035026]] | 2 | Тюлень, кольцо О |
+| [[3082357]] | 1 | Тюлень, Громмет. |
+| [[3082358]] | 1 | Тюлень, кольцо О |
+| [[3171170]] | 2 | Гаскет, соединение |
+| [[3171287]] | 2 | Гаскет, соединение |
+| 3254315 | 3 | Зажим, Хосе |
+| [[3331834]] | 8 | Кольцо уплотнительное прямоугольное |
+| [[3678912]] | 2 | Тюлень, кольцо О |
+| [[3678925]] | 1 | Тюлень, кольцо О |
+| [[3922794]] | 1 | Тюлень, кольцо О |
+| [[4000713]] | 1 | Гаскет, Aftercooler Cover |
+| [[4001044]] | 1 | Хосе, Горб |
+| [[4066038]] | 1 | Гаскет, впускной коллектор |
+| 4017166 | 1 | Т-образный |
 
-| Cooling System Gasket Set, Part Number 4089202 |  |  |
+| Набор для охлаждения системы, номер детали 4089202 |  |  |
 |---|---|---|
-| Part Number | Quantity | Description |
-| [[3081695]] | 34 | Seal, O-ring |
-| 4080549 | 4 | Hose, Plain |
-| [[4080544]] | 2 | Hose, Plain |
-| [[3089019]] | 1 | Seal, O-ring |
-| [[4101150]] | 7 | Gasket, Connection |
-| [[3089318]] | 1 | Gasket, Flange |
-| [[3089319]] | 1 | Gasket, Flange |
-| [[3647994]] | 34 | Seal, O-ring |
-| 4101149 | 1 | Gasket, Water Transfer |
-| [[3332143]] | 1 | Gasket, Connection |
-| [[3332157]] | 1 | Gasket, Thermostat Housing |
-| 3649412 | 1 | Gasket, Thermostat Housing |
-| 4015668 | 1 | Gasket, Thermostat Housing |
-| [[3627961]] | 6 | Seal, Thermostat |
-| [[3678606]] | 1 | Seal, O-ring |
+| Номер детали | Количество | Наименование |
+| [[3081695]] | 34 | Тюлень, кольцо О |
+| 4080549 | 4 | Хосе, Плейн |
+| [[4080544]] | 2 | Хосе, Плейн |
+| [[3089019]] | 1 | Тюлень, кольцо О |
+| [[4101150]] | 7 | Гаскет, соединение |
+| [[3089318]] | 1 | Гаскет, Фланж |
+| [[3089319]] | 1 | Гаскет, Фланж |
+| [[3647994]] | 34 | Тюлень, кольцо О |
+| 4101149 | 1 | Гаскет, водопровод |
+| [[3332143]] | 1 | Гаскет, соединение |
+| [[3332157]] | 1 | Гаскет, корпус термостата |
+| 3649412 | 1 | Гаскет, корпус термостата |
+| 4015668 | 1 | Гаскет, корпус термостата |
+| [[3627961]] | 6 | Тюлень, термостат |
+| [[3678606]] | 1 | Тюлень, кольцо О |
 
-| Turbocharger and Intercooler Gasket Set, Part Number 4089203 |  |  |
+| Набор турбокомпрессоров и интеркулерных заправок, номер детали 4089203 |  |  |
 |---|---|---|
-| Part Number | Quantity | Description |
-| 216187 | 8 | Seal, O-ring |
-| [[3089240]] | 6 | Seal, O-ring |
-| [[3089955]] | 8 | Gasket, Connection |
-| [[3171306]] | 8 | Gasket, Exhaust Out Connection |
-| [[4065615]] | 4 | Gasket, Turbocharger |
-| 3171790 | 2 | Hose, Plain |
-| [[3627695]] | 6 | Seal, O-ring |
-| [[3630125]] | 4 | Hose, Plain |
-| [[3630740]] | 5 | Seal, O-ring |
-| [[3678786]] | 3 | Seal, O-ring |
-| 4000715 | 2 | Gasket, Intercooler Cover |
-| [[4000716]] | 4 | Gasket, Connection |
-| [[3089501]] | 8 | Seal, Rectangular |
-| [[4065349]] | 4 | Gasket, Exhaust Outlet |
-| [[3171695]] | 2 | Gasket, Connection |
+| Номер детали | Количество | Наименование |
+| 216187 | 8 | Тюлень, кольцо О |
+| [[3089240]] | 6 | Тюлень, кольцо О |
+| [[3089955]] | 8 | Гаскет, соединение |
+| [[3171306]] | 8 | Гаскет, выхлопная связь |
+| [[4065615]] | 4 | Гаскет, турбокомпрессор |
+| 3171790 | 2 | Хосе, Плейн |
+| [[3627695]] | 6 | Тюлень, кольцо О |
+| [[3630125]] | 4 | Хосе, Плейн |
+| [[3630740]] | 5 | Тюлень, кольцо О |
+| [[3678786]] | 3 | Тюлень, кольцо О |
+| 4000715 | 2 | Гаскет, Intercooler Cover |
+| [[4000716]] | 4 | Гаскет, соединение |
+| [[3089501]] | 8 | Уплотнение, прямоугольная |
+| [[4065349]] | 4 | Гаскет, выпускной выход |
+| [[3171695]] | 2 | Гаскет, соединение |
 
-| Old QSK45 Upper Gasket Set, Part Number 4024980 |  |  |
+| Старый набор верхней корзины QSK45, номер детали 4024980 |  |  |
 |---|---|---|
-| Part Number | Quantity | Description |
-| 70415 | 1 | Seal, O-ring |
-| 145528 | 2 | Seal, O-ring |
-| 193734 | 2 | Seal, O-ring |
-| 206808 | 13 | Seal, Water Connection |
-| 216187 | 2 | Seal, O-ring |
-| [[3028291]] | 26 | Seal, O-ring |
-| [[3035026]] | 8 | Seal, O-ring |
-| [[3082315]] | 12 | Gasket, Exhaust |
-| [[3082357]] | 4 | Seal, Grommet |
-| [[3082358]] | 4 | Seal, O-ring |
-| [[3089019]] | 1 | Seal, O-ring |
-| 3089236 | 1 | Gasket, Thermostat |
-| [[3089240]] | 2 | Seal, O-ring |
-| [[3089247]] | 5 | Gasket, Connection |
-| [[3089318]] | 1 | Gasket, Flange |
-| [[3089319]] | 1 | Gasket, Flange |
-| [[3089392]] | 2 | Seal, O-ring |
-| [[3089501]] | 8 | Seal, Rectangular |
-| [[3089955]] | 2 | Gasket, Connection |
-| [[3171287]] | 6 | Gasket, Connection |
-| [[3171695]] | 2 | Gasket, Connection |
-| [[3331834]] | 24 | Seal, Rectangular |
-| [[3332000]] | 1 | Gasket, Thermostat |
-| [[3332081]] | 1 | Gasket, Water Transfer |
-| [[3332181]] | 1 | Gasket, Fuel Manifold |
-| [[3332291]] | 12 | Gasket, Rocker Lever |
-| [[3627695]] | 4 | Seal, O-ring |
-| [[3627961]] | 6 | Seal, Thermostat |
-| [[3630740]] | 1 | Seal, O-ring |
-| [[3678606]] | 1 | Seal, O-ring |
-| [[3678786]] | 2 | Seal, O-ring |
-| [[3678912]] | 2 | Seal, O-ring |
-| [[3678925]] | 1 | Seal, O-ring |
-| [[3679139]] | 1 | Seal, O-ring |
-| [[3922794]] | 4 | Seal, O-ring |
-| 4000714 | 4 | Gasket, Aftercooler |
-| 4066037 | 4 | Gasket, Intake Manifold |
-| [[4066112]] | 18 | Seal, O-ring |
-| 4080532 | 12 | Gasket, Cylinder Head |
+| Номер детали | Количество | Наименование |
+| 70415 | 1 | Тюлень, кольцо О |
+| 145528 | 2 | Тюлень, кольцо О |
+| 193734 | 2 | Тюлень, кольцо О |
+| 206808 | 13 | Тюлень, водопроводная связь |
+| 216187 | 2 | Тюлень, кольцо О |
+| [[3028291]] | 26 | Тюлень, кольцо О |
+| [[3035026]] | 8 | Тюлень, кольцо О |
+| [[3082315]] | 12 | Гаскет, выхлоп |
+| [[3082357]] | 4 | Тюлень, Громмет. |
+| [[3082358]] | 4 | Тюлень, кольцо О |
+| [[3089019]] | 1 | Тюлень, кольцо О |
+| 3089236 | 1 | Гаскет, термостат |
+| [[3089240]] | 2 | Тюлень, кольцо О |
+| [[3089247]] | 5 | Гаскет, соединение |
+| [[3089318]] | 1 | Гаскет, Фланж |
+| [[3089319]] | 1 | Гаскет, Фланж |
+| [[3089392]] | 2 | Тюлень, кольцо О |
+| [[3089501]] | 8 | Уплотнение, прямоугольная |
+| [[3089955]] | 2 | Гаскет, соединение |
+| [[3171287]] | 6 | Гаскет, соединение |
+| [[3171695]] | 2 | Гаскет, соединение |
+| [[3331834]] | 24 | Уплотнение, прямоугольная |
+| [[3332000]] | 1 | Гаскет, термостат |
+| [[3332081]] | 1 | Гаскет, водопровод |
+| [[3332181]] | 1 | Гаскет, топливный коллектор |
+| [[3332291]] | 12 | Гаскет, рычаг клапанного качалки |
+| [[3627695]] | 4 | Тюлень, кольцо О |
+| [[3627961]] | 6 | Тюлень, термостат |
+| [[3630740]] | 1 | Тюлень, кольцо О |
+| [[3678606]] | 1 | Тюлень, кольцо О |
+| [[3678786]] | 2 | Тюлень, кольцо О |
+| [[3678912]] | 2 | Тюлень, кольцо О |
+| [[3678925]] | 1 | Тюлень, кольцо О |
+| [[3679139]] | 1 | Тюлень, кольцо О |
+| [[3922794]] | 4 | Тюлень, кольцо О |
+| 4000714 | 4 | Гаскет, послеохладитель |
+| 4066037 | 4 | Гаскет, впускной коллектор |
+| [[4066112]] | 18 | Тюлень, кольцо О |
+| 4080532 | 12 | Гаскет, голова цилиндра |
 
-To obtain a complete QSK45 upper gasket set, the following **must** be ordered:
+Для получения полного набора верхней прокладки QSK45 необходимо заказать следующее:
 
-| QSK45 Upper Gasket Sets |  |  |
+| Верхний гарнитур QSK45 |  |  |
 |---|---|---|
-| Part Number | Description | Quantity |
-| 4089231 | Quadrant Head Gasket Set | 4 |
-| 4089232 | Quadrant Aftercooler Gasket Set | 4 |
-| 4089202 | Cooling System Gasket Set | 1 (contents listed above) |
-| [[4089233]] | Turbocharger and Intercooler Gasket Set | 1 |
+| Номер детали | Наименование | Количество |
+| 4089231 | Квадрантный набор для геймпадов | 4 |
+| 4089232 | Квадрантный комплект для охладителя | 4 |
+| 4089202 | Набор для гаскета системы охлаждения | 1 (содержимое, указанное выше) |
+| [[4089233]] | Турбокомпрессор и интеркулерный набор | 1 |
 
-| Quadrant Head Gasket Set, Part Number 4089231 |  |  |
+| Квадрантная головной уборная, номер детали 4089231 |  |  |
 |---|---|---|
-| Part Number | Quantity | Description |
-| [[3082315]] | 3 | Gasket, Exhaust Manifold |
-| [[3171421]] | 6 | Lockplate |
-| [[3171499]] | 3 | Gasket, Rocker Lever |
-| [[3332291]] | 3 | Gasket, Rocker Lever Cover |
-| 4066243 | 3 | Gasket, Cylinder |
-| [[3867687]] | 3 | Seal, Injector |
-| [[3347937]] | 3 | Seal, O-ring |
-| [[3347939]] | 3 | Seal, O-ring |
-| [[3867651]] | 3 | Seal, O-ring |
-| [[3332181]] | 3 | Gasket, Fuel Connection |
-| [[4010577]] | 3 | Seal, O-ring |
-| [[3637870]] | 3 | Gasket, Fuel Manifold |
+| Номер детали | Количество | Наименование |
+| [[3082315]] | 3 | Гаскет, многообразие выхлопных газов |
+| [[3171421]] | 6 | Стопорная пластина |
+| [[3171499]] | 3 | Гаскет, рычаг клапанного качалки |
+| [[3332291]] | 3 | Гаскет, клапанный клапан, рычаг качалки |
+| 4066243 | 3 | Гаскет, цилиндр |
+| [[3867687]] | 3 | Тюлень, форсунка |
+| [[3347937]] | 3 | Тюлень, кольцо О |
+| [[3347939]] | 3 | Тюлень, кольцо О |
+| [[3867651]] | 3 | Тюлень, кольцо О |
+| [[3332181]] | 3 | Гаскет, топливный шнур |
+| [[4010577]] | 3 | Тюлень, кольцо О |
+| [[3637870]] | 3 | Гаскет, топливный коллектор |
 
-| Quadrant Aftercooler Gasket Set, Part Number 4089232 |  |  |
+| Квадрантный комплект для охладителя, номер детали 4089232 |  |  |
 |---|---|---|
-| Part Number | Quantity | Description |
-| 206808 | 2 | Seal, Grommet |
-| [[3035026]] | 2 | Seal, O-ring |
-| [[3082357]] | 1 | Seal, Grommet |
-| [[3082358]] | 1 | Seal, O-ring |
-| [[3171287]] | 2 | Gasket, Connection |
-| 3254315 | 2 | Clamp, Hose |
-| [[3331834]] | 6 | Seal, Rectangular Ring |
-| [[3678912]] | 2 | Seal, O-ring |
-| [[3678925]] | 1 | Seal, O-ring |
-| [[3922794]] | 2 | Seal, O-ring |
-| 4000714 | 1 | Gasket, Aftercooler Cover |
-| [[4001044]] | 1 | Hose, Hump |
-| 4066037 | 1 | Gasket, Intake Manifold |
-| 4017166 | 1 | T-piece |
+| Номер детали | Количество | Наименование |
+| 206808 | 2 | Тюлень, Громмет. |
+| [[3035026]] | 2 | Тюлень, кольцо О |
+| [[3082357]] | 1 | Тюлень, Громмет. |
+| [[3082358]] | 1 | Тюлень, кольцо О |
+| [[3171287]] | 2 | Гаскет, соединение |
+| 3254315 | 2 | Зажим, Хосе |
+| [[3331834]] | 6 | Кольцо уплотнительное прямоугольное |
+| [[3678912]] | 2 | Тюлень, кольцо О |
+| [[3678925]] | 1 | Тюлень, кольцо О |
+| [[3922794]] | 2 | Тюлень, кольцо О |
+| 4000714 | 1 | Гаскет, Aftercooler Cover |
+| [[4001044]] | 1 | Хосе, Горб |
+| 4066037 | 1 | Гаскет, впускной коллектор |
+| 4017166 | 1 | Т-образный |
 
-| Turbocharger and Intercooler Gasket Set, Part Number [[4089233]] |  |  |
+| Набор турбокомпрессоров и интеркулерных гаскетов, номер детали[[4089233]] |  |  |
 |---|---|---|
-| Part Number | Quantity | Description |
-| 216187 | 8 | Seal, O-ring |
-| [[3089240]] | 6 | Seal, O-ring |
-| [[3089955]] | 8 | Gasket, Connection |
-| [[3331924]] | 4 | Gasket, Turbocharger |
-| [[3627695]] | 6 | Seal, O-ring |
-| [[3630125]] | 4 | Hose, Plain |
-| [[3630740]] | 5 | Seal, O-ring |
-| [[3678786]] | 3 | Seal, O-ring |
-| [[3089501]] | 8 | Seal, Rectangular |
-| [[3202117]] | 4 | Gasket, Oil Drain |
-| [[3171695]] | 2 | Gasket, Connection |
+| Номер детали | Количество | Наименование |
+| 216187 | 8 | Тюлень, кольцо О |
+| [[3089240]] | 6 | Тюлень, кольцо О |
+| [[3089955]] | 8 | Гаскет, соединение |
+| [[3331924]] | 4 | Гаскет, турбокомпрессор |
+| [[3627695]] | 6 | Тюлень, кольцо О |
+| [[3630125]] | 4 | Хосе, Плейн |
+| [[3630740]] | 5 | Тюлень, кольцо О |
+| [[3678786]] | 3 | Тюлень, кольцо О |
+| [[3089501]] | 8 | Уплотнение, прямоугольная |
+| [[3202117]] | 4 | Гаскет, Масляной Дрейн |
+| [[3171695]] | 2 | Гаскет, соединение |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -411,3 +421,261 @@ To obtain a complete QSK45 upper gasket set, the following **must** be ordered:
 | [[4086225]] | Cylinder Head Gasket | Прокладка головки блока цилиндров |
 | [[4089233]] | Turbocharger Intercooler Gasket Kit | Комплект прокладок турбокомпрессора и интеркулера |
 | [[4101150]] | CONNECTION GASKET | Прокладка соединения |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Gasket Sets
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> Currently there is an upper gasket set for the QSK45, Part Number 4024980, and an upper gasket set for the QSK60, Part Number [[4025140]]. These are large sets with many different o-rings, seals, and hoses. The new gasket sets are divided into specific functions on the engine. The smaller sets can be purchased for smaller repairs. A combination of the smaller sets is the same as the original upper gasket set.
+>
+> All QSK45 and QSK60 power generation and industrial engines will be affected by this change.
+>
+> | QSK60 Old Upper Gasket Set, Part Number [[4025140]] |  |  |
+> |---|---|---|
+> | Part Number | Quantity | Description |
+> | 70415 | 1 | Seal, O-ring |
+> | 145528 | 2 | Seal, O-ring |
+> | 206808 | 8 | Seal, Water Connection |
+> | 216187 | 8 | Seal, O-ring |
+> | [[3028291]] | 34 | Seal, O-ring |
+> | [[3035026]] | 8 | Seal, O-ring |
+> | [[3064886]] | 4 | Hose, Plain |
+> | [[3082315]] | 16 | Gasket, Exhaust |
+> | [[3082357]] | 4 | Seal, Grommet |
+> | [[3082358]] | 4 | Seal, O-ring |
+> | [[3089019]] | 1 | Seal, O-ring |
+> | [[3089247]] | 6 | Gasket, Connection |
+> | [[3089318]] | 1 | Gasket, Flange |
+> | [[3089319]] | 1 | Gasket, Flange |
+> | [[3089501]] | 8 | Seal, Rectangular |
+> | [[3089955]] | 8 | Gasket, Connection |
+> | [[3171170]] | 6 | Gasket, Connection |
+> | [[3171287]] | 8 | Gasket, Connection |
+> | [[3171306]] | 8 | Gasket, Exhaust Outlet |
+> | [[3171368]] | 8 | Gasket, Turbocharger |
+> | [[3171421]] | 32 | Lockplate |
+> | [[3171499]] | 16 | Gasket, Rocker Lever |
+> | [[3171695]] | 2 | Gasket, Connection |
+> | [[3202117]] | 8 | Gasket, Connection |
+> | [[3331834]] | 32 | Seal, Rectangular |
+> | [[3332000]] | 1 | Gasket, Thermostat |
+> | [[3332081]] | 1 | Gasket, Water Transfer |
+> | [[3332104]] | 2 | Connection, Fuel |
+> | [[3332143]] | 1 | Gasket, Connection |
+> | [[3332157]] | 1 | Gasket, Thermostat |
+> | [[3332181]] | 16 | Gasket, Fuel Manifold |
+> | [[3332291]] | 16 | Gasket, Rocker Lever |
+> | [[3347937]] | 16 | Seal, O-ring |
+> | [[3347939]] | 16 | Seal, O-ring |
+> | [[3410688]] | 1 | Gasket, Thermostat |
+> | [[3627695]] | 6 | Seal, O-ring |
+> | [[3627961]] | 6 | Seal, Thermostat |
+> | [[3630125]] | 4 | Hose, Plain |
+> | [[3630740]] | 5 | Seal, O-ring |
+> | [[3678786]] | 3 | Seal, O-ring |
+> | [[3678925]] | 1 | Seal, O-ring |
+> | [[3679139]] | 2 | Seal, O-ring |
+> | [[3867651]] | 16 | Seal, O-ring |
+> | [[3867687]] | 16 | Seal, Injector |
+> | [[3922794]] | 2 | Seal, O-ring |
+> | [[4000713]] | 4 | Gasket, Aftercooler |
+> | [[4000716]] | 4 | Gasket, Connection |
+> | [[4001044]] | 4 | Hose, Hump |
+> | [[4010577]] | 16 | Seal, O-ring |
+> | 4017166 | 4 | Connection, Water |
+> | [[4065349]] | 4 | Gasket, Exhaust Outlet |
+> | [[4066038]] | 4 | Gasket, Intake |
+> | [[4066112]] | 34 | Seal, O-ring |
+> | [[4080544]] | 2 | Hose, Plain |
+> | [[4086225]] | 16 | Gasket, Cylinder Head |
+>
+> To obtain a complete upper gasket set, the following **must** be ordered:
+>
+> | QSK60 Upper Gasket Sets |  |  |
+> |---|---|---|
+> | Part Number | Description | Quantity |
+> | 4089200 | Quadrant Head Gasket Set | 4 |
+> | 4089201 | Quadrant Aftercooler Gasket Set | 4 |
+> | 4089202 | Cooling System Gasket Set | 1 |
+> | 4089203 | Turbocharger and Intercooler Gasket Set | 1 |
+>
+> | Quadrant Head Gasket Set, Part Number 4089200 |  |  |
+> |---|---|---|
+> | Part Number | Quantity | Description |
+> | [[3082315]] | 4 | Gasket, Exhaust Manifold |
+> | [[3171421]] | 8 | Lockplate |
+> | [[3171499]] | 4 | Gasket, Rocker Lever |
+> | [[3332291]] | 4 | Gasket, Rocker Lever Cover |
+> | 4066243 | 4 | Gasket, Cylinder |
+> | [[3867687]] | 4 | Seal, Injector |
+> | [[3347937]] | 4 | Seal, O-ring |
+> | [[3347939]] | 4 | Seal, O-ring |
+> | [[3867651]] | 4 | Seal, O-ring |
+> | [[3332181]] | 4 | Gasket, Fuel Connection |
+> | [[4010577]] | 4 | Seal, O-ring |
+>
+> | Quadrant Aftercooler Gasket Set, Part Number 4089201 |  |  |
+> |---|---|---|
+> | Part Number | Quantity | Description |
+> | 206808 | 2 | Seal, Grommet |
+> | [[3035026]] | 2 | Seal, O-ring |
+> | [[3082357]] | 1 | Seal, Grommet |
+> | [[3082358]] | 1 | Seal, O-ring |
+> | [[3171170]] | 2 | Gasket, Connection |
+> | [[3171287]] | 2 | Gasket, Connection |
+> | 3254315 | 3 | Clamp, Hose |
+> | [[3331834]] | 8 | Seal, Rectangular Ring |
+> | [[3678912]] | 2 | Seal, O-ring |
+> | [[3678925]] | 1 | Seal, O-ring |
+> | [[3922794]] | 1 | Seal, O-ring |
+> | [[4000713]] | 1 | Gasket, Aftercooler Cover |
+> | [[4001044]] | 1 | Hose, Hump |
+> | [[4066038]] | 1 | Gasket, Intake Manifold |
+> | 4017166 | 1 | T-piece |
+>
+> | Cooling System Gasket Set, Part Number 4089202 |  |  |
+> |---|---|---|
+> | Part Number | Quantity | Description |
+> | [[3081695]] | 34 | Seal, O-ring |
+> | 4080549 | 4 | Hose, Plain |
+> | [[4080544]] | 2 | Hose, Plain |
+> | [[3089019]] | 1 | Seal, O-ring |
+> | [[4101150]] | 7 | Gasket, Connection |
+> | [[3089318]] | 1 | Gasket, Flange |
+> | [[3089319]] | 1 | Gasket, Flange |
+> | [[3647994]] | 34 | Seal, O-ring |
+> | 4101149 | 1 | Gasket, Water Transfer |
+> | [[3332143]] | 1 | Gasket, Connection |
+> | [[3332157]] | 1 | Gasket, Thermostat Housing |
+> | 3649412 | 1 | Gasket, Thermostat Housing |
+> | 4015668 | 1 | Gasket, Thermostat Housing |
+> | [[3627961]] | 6 | Seal, Thermostat |
+> | [[3678606]] | 1 | Seal, O-ring |
+>
+> | Turbocharger and Intercooler Gasket Set, Part Number 4089203 |  |  |
+> |---|---|---|
+> | Part Number | Quantity | Description |
+> | 216187 | 8 | Seal, O-ring |
+> | [[3089240]] | 6 | Seal, O-ring |
+> | [[3089955]] | 8 | Gasket, Connection |
+> | [[3171306]] | 8 | Gasket, Exhaust Out Connection |
+> | [[4065615]] | 4 | Gasket, Turbocharger |
+> | 3171790 | 2 | Hose, Plain |
+> | [[3627695]] | 6 | Seal, O-ring |
+> | [[3630125]] | 4 | Hose, Plain |
+> | [[3630740]] | 5 | Seal, O-ring |
+> | [[3678786]] | 3 | Seal, O-ring |
+> | 4000715 | 2 | Gasket, Intercooler Cover |
+> | [[4000716]] | 4 | Gasket, Connection |
+> | [[3089501]] | 8 | Seal, Rectangular |
+> | [[4065349]] | 4 | Gasket, Exhaust Outlet |
+> | [[3171695]] | 2 | Gasket, Connection |
+>
+> | Old QSK45 Upper Gasket Set, Part Number 4024980 |  |  |
+> |---|---|---|
+> | Part Number | Quantity | Description |
+> | 70415 | 1 | Seal, O-ring |
+> | 145528 | 2 | Seal, O-ring |
+> | 193734 | 2 | Seal, O-ring |
+> | 206808 | 13 | Seal, Water Connection |
+> | 216187 | 2 | Seal, O-ring |
+> | [[3028291]] | 26 | Seal, O-ring |
+> | [[3035026]] | 8 | Seal, O-ring |
+> | [[3082315]] | 12 | Gasket, Exhaust |
+> | [[3082357]] | 4 | Seal, Grommet |
+> | [[3082358]] | 4 | Seal, O-ring |
+> | [[3089019]] | 1 | Seal, O-ring |
+> | 3089236 | 1 | Gasket, Thermostat |
+> | [[3089240]] | 2 | Seal, O-ring |
+> | [[3089247]] | 5 | Gasket, Connection |
+> | [[3089318]] | 1 | Gasket, Flange |
+> | [[3089319]] | 1 | Gasket, Flange |
+> | [[3089392]] | 2 | Seal, O-ring |
+> | [[3089501]] | 8 | Seal, Rectangular |
+> | [[3089955]] | 2 | Gasket, Connection |
+> | [[3171287]] | 6 | Gasket, Connection |
+> | [[3171695]] | 2 | Gasket, Connection |
+> | [[3331834]] | 24 | Seal, Rectangular |
+> | [[3332000]] | 1 | Gasket, Thermostat |
+> | [[3332081]] | 1 | Gasket, Water Transfer |
+> | [[3332181]] | 1 | Gasket, Fuel Manifold |
+> | [[3332291]] | 12 | Gasket, Rocker Lever |
+> | [[3627695]] | 4 | Seal, O-ring |
+> | [[3627961]] | 6 | Seal, Thermostat |
+> | [[3630740]] | 1 | Seal, O-ring |
+> | [[3678606]] | 1 | Seal, O-ring |
+> | [[3678786]] | 2 | Seal, O-ring |
+> | [[3678912]] | 2 | Seal, O-ring |
+> | [[3678925]] | 1 | Seal, O-ring |
+> | [[3679139]] | 1 | Seal, O-ring |
+> | [[3922794]] | 4 | Seal, O-ring |
+> | 4000714 | 4 | Gasket, Aftercooler |
+> | 4066037 | 4 | Gasket, Intake Manifold |
+> | [[4066112]] | 18 | Seal, O-ring |
+> | 4080532 | 12 | Gasket, Cylinder Head |
+>
+> To obtain a complete QSK45 upper gasket set, the following **must** be ordered:
+>
+> | QSK45 Upper Gasket Sets |  |  |
+> |---|---|---|
+> | Part Number | Description | Quantity |
+> | 4089231 | Quadrant Head Gasket Set | 4 |
+> | 4089232 | Quadrant Aftercooler Gasket Set | 4 |
+> | 4089202 | Cooling System Gasket Set | 1 (contents listed above) |
+> | [[4089233]] | Turbocharger and Intercooler Gasket Set | 1 |
+>
+> | Quadrant Head Gasket Set, Part Number 4089231 |  |  |
+> |---|---|---|
+> | Part Number | Quantity | Description |
+> | [[3082315]] | 3 | Gasket, Exhaust Manifold |
+> | [[3171421]] | 6 | Lockplate |
+> | [[3171499]] | 3 | Gasket, Rocker Lever |
+> | [[3332291]] | 3 | Gasket, Rocker Lever Cover |
+> | 4066243 | 3 | Gasket, Cylinder |
+> | [[3867687]] | 3 | Seal, Injector |
+> | [[3347937]] | 3 | Seal, O-ring |
+> | [[3347939]] | 3 | Seal, O-ring |
+> | [[3867651]] | 3 | Seal, O-ring |
+> | [[3332181]] | 3 | Gasket, Fuel Connection |
+> | [[4010577]] | 3 | Seal, O-ring |
+> | [[3637870]] | 3 | Gasket, Fuel Manifold |
+>
+> | Quadrant Aftercooler Gasket Set, Part Number 4089232 |  |  |
+> |---|---|---|
+> | Part Number | Quantity | Description |
+> | 206808 | 2 | Seal, Grommet |
+> | [[3035026]] | 2 | Seal, O-ring |
+> | [[3082357]] | 1 | Seal, Grommet |
+> | [[3082358]] | 1 | Seal, O-ring |
+> | [[3171287]] | 2 | Gasket, Connection |
+> | 3254315 | 2 | Clamp, Hose |
+> | [[3331834]] | 6 | Seal, Rectangular Ring |
+> | [[3678912]] | 2 | Seal, O-ring |
+> | [[3678925]] | 1 | Seal, O-ring |
+> | [[3922794]] | 2 | Seal, O-ring |
+> | 4000714 | 1 | Gasket, Aftercooler Cover |
+> | [[4001044]] | 1 | Hose, Hump |
+> | 4066037 | 1 | Gasket, Intake Manifold |
+> | 4017166 | 1 | T-piece |
+>
+> | Turbocharger and Intercooler Gasket Set, Part Number [[4089233]] |  |  |
+> |---|---|---|
+> | Part Number | Quantity | Description |
+> | 216187 | 8 | Seal, O-ring |
+> | [[3089240]] | 6 | Seal, O-ring |
+> | [[3089955]] | 8 | Gasket, Connection |
+> | [[3331924]] | 4 | Gasket, Turbocharger |
+> | [[3627695]] | 6 | Seal, O-ring |
+> | [[3630125]] | 4 | Hose, Plain |
+> | [[3630740]] | 5 | Seal, O-ring |
+> | [[3678786]] | 3 | Seal, O-ring |
+> | [[3089501]] | 8 | Seal, Rectangular |
+> | [[3202117]] | 4 | Gasket, Oil Drain |
+> | [[3171695]] | 2 | Gasket, Connection |
+>
+> ### Document History

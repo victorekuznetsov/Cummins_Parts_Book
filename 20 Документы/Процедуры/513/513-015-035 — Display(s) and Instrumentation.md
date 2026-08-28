@@ -12,13 +12,15 @@ families:
 manuals:
   - "5411480"
 figures: 60
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-015-035.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-015-035.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/513"
+  - "перевод/машинный"
 ---
 
 # Display(s) and Instrumentation
@@ -31,930 +33,1748 @@ tags:
 > **Даты:** изменён 2025-07-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-015-035.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-015-035.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- USB extension cable, Part Number 5394862 (if needed for access).
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- USB drive.
+- USB-кабель расширения, номер детали 5394862 (при необходимости для доступа).
 
-### General Information
+#### Дополнительные сервисные позиции
 
-The display used for the Marine C Command Connect and Connect Premier Panel System is called an ED-4/ED-5/ED-7. The ED-4 is required for the customer interface box (C.I.B.) in the premier option. The ED-4/ED-5/ED-7 at the helm is an option and some boat builders may choose **not** to use one. Original equipment manufacturers (OEM) have the option to use one or more ED-4s in multiple engine applications. The ED-4/ED-5/ED-7 has the ability to display multiple engine information at one time.
+- USB-накопитель.
 
-The ED-4/ED-5/ED-7 display is **only** supplied by Cummins Inc. and is designed to operate at nominal battery voltage of 12 or 24 volts.
+### Общие сведения
 
-The ED-4/ED-5/ED-7 display is connected to the engine control module (ECM) through a Society of Automotive Engineers (SAE) J1939 data link. The display will indicate engine operating parameters and fault codes. The display is the gateway for relaying engine ECM information to National Marine Electronics Association (NMEA) 2000, if equipped. The display requires a unique software load for the C Command Connect and Connect Premier Panel System and is **not** common with other Cummins® controls systems.
+Дисплей, используемый для системы управления морскими средствами связи C Command Connect и Connect Premier Panel System, называется ED-4/ED-5/ED-7. ED-4 требуется для клиентского интерфейса (C.I.B.) в главном варианте. ED-4/ED-5/ED-7 у руля является вариантом, и некоторые строители лодок могут выбрать вариант, который не будет использоваться. Производители оригинального оборудования (OEM) имеют возможность использовать один или несколько ED-4 в нескольких приложениях двигателя. ED-4/ED-5/ED-7 имеет возможность отображать несколько данных двигателя одновременно.
 
-The display software name and version can be found in the “About” menu screen.
+Дисплей ED-4/ED-5/ED-7 поставляется только компанией Cummins Inc. и предназначен для работы при номинальном напряжении батареи 12 или 24 вольт.
 
-The display is preloaded with software and is updateable. The ED-4 display's software and vessel personality file **must** be updated for each vessel application at initial install by the OEM or, if replaced, during a service event. The ED-5/ED-7 display is preloaded with software and **only** requires selection of preloaded personality file/themes from the display.
+Дисплей ED-4/ED-5/ED-7 подключен к модулю управления двигателем (ECM) через шину данных CAN Общества автомобильных инженеров (SAE) J1939. На дисплее будут указаны параметры работы двигателя и коды неисправностей. Дисплей является шлюзом для передачи информации о двигателе ECM в Национальную ассоциацию морской электроники (NMEA) 2000, если он оборудован. Дисплей требует уникальной загрузки программного обеспечения для C Command Connect и Connect Premier Panel System и не является общим с другими системами управления Cummins®.
 
-Software and vessel personality file are loaded using the USB connection on the rear of the ED-4 /ED-5/ED-7.
+Имя и версия программного обеспечения дисплея можно найти на экране меню «О нас».
 
-ED-4
+Дисплей предварительно загружен программным обеспечением и обновляется. Программное обеспечение дисплея ED-4 и файл личности судна **должны быть обновлены для каждого приложения судна при первоначальной установке OEM или, если они заменены, во время мероприятия обслуживания. Дисплей ED-5/ED-7 предварительно загружен программным обеспечением и **только требует выбора предварительно загруженного файла/тем личности с дисплея.
+
+Программное обеспечение и файл личности сосуда загружаются с помощью USB-соединения на задней панели ED-4 /ED-5 /ED-7.
+
+ЭД-4
 
 ![[15e00022.png]]
 
-ED-4 Display
+Дисплей ED-4
 
-Do **not** press the button (1) located below the USB port on the rear of the ED-4 display. Pressing the button may affect performance and software/vessel personality files loaded in the ED-4.
+Нажмите кнопку (1), расположенную ниже порта USB, на задней панели дисплея ED-4. Нажатие кнопки может повлиять на производительность и файлы личности программного обеспечения / судна, загруженные в ED-4.
 
-Use the following procedures for ED-4 recovery steps.
+Используйте следующие процедуры для этапов восстановления ЭД-4.
 
-- [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15.]]
-- [[513-015-107 — Display Software|Refer to Procedure 015-107 in Section 15.]]
+- [[513-015-044 — Managing Vessel Personalities|См. процедуру 015-044 в разделе 15.]]
+- [[513-015-107 — Display Software|См. процедуру 015-107 в разделе 15.]]
 
 ![[15e00154.png]]
 
-Multifunction Display:
+Многофункциональный дисплей:
 
-The multifunction display is connected with the engine ECM through a J1939 or NMEA 2000 data link.
+Многофункциональный дисплей соединен с двигателем ECM через шину данных J1939 или NMEA 2000 CAN.
 
-The multifunction display will indicate engine operating parameters and fault information.
+Многофункциональный дисплей будет указывать параметры работы двигателя и информацию о неисправности.
 
-The multifunction display is typically **not** supplied by Cummins Inc. See equipment manufacturer service information for service, setup, or software updates.
+Многофункциональный дисплей обычно не поставляется Cummins Inc. См. информацию об услугах производителя оборудования для обслуживания, настройки или обновления программного обеспечения.
 
 ![[15d00958.png]]
 
-### Test
+### Проверка
 
-ED-4
+ЭД-4
 
-The user can interact with the display through keys (1) through (5) on the front of the display.
+Пользователь может взаимодействовать с дисплеем через клавиши (1) - (5) на передней панели дисплея.
 
-The function of the key is shown on the ED-4 screen above the key, which changes as selections are made.
+Функция ключа показана на экране ED-4 над ключом, который изменяется по мере выбора.
 
-A variety of diagnostics can be performed with the ED-4 display.
+Разнообразную диагностику можно проводить с помощью дисплея ED-4.
 
 ![[00e00122.png]]
 
-The Diagnostics page on the Main Menu page of the ED-4 display can be accessed by pressing key 5 or “Menu” on the data screen page.
+На странице Диагностика на главном меню дисплея ED-4 можно получить доступ, нажав клавишу 5 или «Меню» на странице экрана данных.
 
-Action:
+Действие:
 
-- Press key 5 or “Menu”
+- Нажмите клавишу 5 или «Меню»
 
-When Finished:
+Когда закончите:
 
-- Press key 5 or “Exit” to return to the data screen page.
+- Нажмите клавишу 5 или «Выход» для возврата на страницу экрана данных.
 
 ![[15e00080.png]]
 
-There are a number of items in the ED-4 Diagnostics page that can be accessed.
+На странице Диагностика ED-4 есть несколько элементов, к которым можно получить доступ.
 
-1. Advanced Alarms – used for viewing additional details about alarms
-2. Data Log and View – used to view and log data
-3. Lamp Diagnostic – used to view lamps
-4. Demo Data – places the display in demo mode
-5. Demo Alarm - places the display in demo alarm mode.
+1. Advanced Alarms — используется для просмотра дополнительных деталей о сигнализации
+2. Data Log and View — используется для просмотра и регистрации данных
+3. Диагностика ламп - используется для просмотра ламп
+4. Demo Data — размещает дисплей в демо-режиме
+5. Demo Alarm - помещает дисплей в режим демо-сигнализации.
 
-> [!note] Note · Примечание
-> Do **not** leave “Demo Data” or “Demo Alarm” selections enabled in the Diagnostics page. Doing so will cause false data and alarms messages to be shown on the ED-4 display data screen.
+> [!note] Примечание
+> Не оставляйте включенными на странице «Диагностика» варианты «Демо-данные» или «Демо-сигнал тревоги». Это приведет к тому, что ложные данные и сообщения тревоги будут отображаться на экране данных дисплея ED-4.
 
 ![[15e00081.png]]
 
-Diagnostics - Advanced Alarms
+Диагностика - Продвинутая тревога
 
-To obtain more information on an alarm or to view all alarms received by the ED-4, go to the “Advanced Alarms” in the Diagnostics page.
+Чтобы получить дополнительную информацию о сигнализации или просмотреть все сигналы тревоги, полученные ЭД-4, перейдите на страницу «Расширенная тревога» на странице «Диагностика».
 
-> [!note] Note · Примечание
-> Once a system fault is corrected, it may take up to 60 seconds for the alarm code to disappear on the ED-4 display.
+> [!note] Примечание
+> После исправления системного сбоя может потребоваться до 60 секунд, чтобы код сигнализации исчез на дисплее ED-4.
 
 ![[00e00131.png]]
 
-Diagnostics – Advanced Alarms
+Диагностика - Продвинутая тревога
 
-Typical information shown in the Advanced Alarms page:
+Типичная информация, показанная на странице Advanced Alarms:
 
-1. Status and number of system faults
-2. Description of the fault
-3. SPN of fault
-4. FMI of fault
-5. Engine hours at the time the fault occurred **Note:** The engine hours will reset to current engine hours broadcasted by the ECM after a key cycle.
-6. Cummins fault code (FC) or alarm code (AC) number
-7. Source detecting the fault
-8. Count of fault occurrences.
+1. Состояние и количество системных неисправностей
+2. Описание неисправности
+3. СПН неисправности
+4. FMI - ошибка
+5. Часы работы двигателя в момент возникновения неисправности **Примечание: **Часы работы двигателя будут сбрасываться на текущие часы работы двигателя, транслируемые ECM после ключевого цикла.
+6. Код неисправности Cummins (FC) или номер сигнализации (AC)
+7. Источник, обнаруживающий неисправность
+8. Подсчет случаев вины.
 
-> [!note] Note · Примечание
-> If the count of fault occurrences is **not** known, the value of 127 will be shown by the ED-4. This value will be seen for all alarm codes and generator faults.
+> [!note] Примечание
+> Если количество случаев неисправности не известно, значение 127 будет показано ED-4. Это значение будет видно для всех кодов сигнализации и неисправностей генератора.
 
-Action:
+Действие:
 
-- Select “Menu”, then “Diagnostics”, then “Advanced Alarms”.
-- Press key 1 or “Previous” to scroll.
-- Press key 2 or “Next” to scroll.
+- Выберите «Мену», затем «Диагностика», затем «Расширенная тревога».
+- Нажмите клавишу 1 или «Предыдущее» для прокрутки.
+- Нажмите клавишу 2 или «Далее» для прокрутки.
 
 ![[15e00083.png]]
 
-Diagnostics - Advanced Alarms
+Диагностика - Продвинутая тревога
 
-Pressing key 4 or “DM2” in the “Advanced Alarms” page will populate the ED-4 with inactive faults codes saved by the engine ECM.
+Нажатие клавиши 4 или «DM2» на странице «Расширенные сигналы тревоги» заполнит ED-4 кодами неактивных неисправностей, сохраненными двигателем ECM.
 
-> [!note] Note · Примечание
-> The DM2 alarms will appear as Active on the ED-4 screen, even though they are inactive in the engine ECM.
+> [!note] Примечание
+> Сигналы DM2 будут отображаться как активные на экране ED-4, даже если они неактивны в двигателе ECM.
 
-The DM2 messages shown on the ED-4 will disappear after approximately 2 minutes or after a system enable switch power cycle.
+Сообщения DM2, отображаемые на ED-4, исчезнут примерно через 2 минуты или после того, как система включит цикл переключения питания.
 
-INSITE™ electronic service tool can be used to clear all inactive fault codes from the engine ECM.
+Инструменты электронного обслуживания INSITETM могут использоваться для очистки всех кодов неактивных неисправностей от двигателя ECM.
 
-When Finished:
+Когда закончите:
 
-- Press key 5 or “Close” to remove the alarm pop up message.
-- Press key 5 or “Back” to exit the page.
+- Нажмите клавишу 5 или «Закрыть», чтобы удалить всплывающее сообщение тревоги.
+- Нажмите клавишу 5 или «Назад», чтобы выйти из страницы.
 
 ![[15e00084.png]]
 
-Diagnostics - Data Log and View
+Диагностика - журнал данных и просмотр
 
-To data log or view data monitored by the ED-4, go to the “Data Log and View” in the Diagnostics page.
+Для регистрации данных или просмотра данных, контролируемых ED-4, перейдите в «Лог данных и просмотр» на странице «Диагностика».
 
-Action:
+Действие:
 
-- Press key 4 or “Enter”.
+- Нажмите клавишу 4 или «Войти».
 
-When Finished:
+Когда закончите:
 
-- Press key 5 or “Back” to exit the page.
+- Нажмите клавишу 5 или «Назад», чтобы выйти из страницы.
 
 ![[15e00085.png]]
 
-Diagnostics - Data Log and View
+Диагностика - журнал данных и просмотр
 
-There are a number of items in the ED-4 Data Log and View page that can be accessed.
+В ED-4 Data Log и View есть несколько элементов, к которым можно получить доступ.
 
-1. CAN Viewer and Logger - used for viewing and logging controller area network (CAN) data link information.
-2. Parameter Logger - used to view and log parameter data. This features is not enabled at product launch.
-3. I/O Viewer - used to view OEM sensor input and output information.
-4. Parameter Viewer - used to view data received from various components.
+1. CAN Viewer and Logger - используется для просмотра и регистрации данных в сети контроллеров (CAN) CAN.
+2. Parameter Logger - используется для просмотра и регистрации данных параметров. Эти функции не включены при запуске продукта.
+3. I/O Viewer - используется для просмотра входной и выходной информации OEM-датчика.
+4. Parameter Viewer — используется для просмотра данных, полученных от различных компонентов.
 
 ![[15e00086.png]]
 
-Data Log and View - CAN Viewer and Logger
+Data Log and View - просмотрщик и регистратор данных
 
-In the “Data Log and View” page, enter the “CAN Viewer and Logger” page.
+На странице «Лог данных и просмотр» введите страницу «CAN Viewer and Logger».
 
-Action:
+Действие:
 
-- Press key 4 or “View"
+- Нажмите клавишу 4 или «Вид»
 
-After entering the page. CAN data can be viewed live on the display in real time.
+После ввода страницы. Данные CAN можно просматривать в реальном времени на дисплее.
 
-In this page, ED-4 has the capability of viewing, logging, and exporting CAN data.
+На этой странице ED-4 имеет возможность просмотра, регистрации и экспорта данных CAN.
 
-When Finished:
+Когда закончите:
 
-- Press key 5 or “Back” to exit the page.
+- Нажмите клавишу 5 или «Назад», чтобы выйти из страницы.
 
 ![[15e00087.png]]
 
-Data Log and View - CAN Viewer and Logger
+Data Log and View - просмотрщик и регистратор данных
 
-To view basic information about the ED-4 CAN network, enter the “Stats” page.
+Чтобы просмотреть основную информацию о сети ED-4 CAN, введите страницу «Статистика».
 
-Action:
+Действие:
 
-- Press key 4 or “Stats”
+- Нажмите клавишу 4 или «Статистика»
 
-After entering the page. CAN data can be viewed live on the display in real time.
+После ввода страницы. Данные CAN можно просматривать в реальном времени на дисплее.
 
-CAN 1 is J1939 data link network.
+CAN 1 — сеть шины данных J1939 CAN.
 
-CAN 2 is typically the NMEA 2000 data link network.
+CAN 2 обычно представляет собой сеть шины данных NMEA 2000 CAN.
 
-If there is an issue with the ED-4 or CAN data link network, there may be values other than 0 shown for Bit Error Count Rx (receive) and Bit Error Count Tx (transmit).
+Если есть проблема с сетью шины данных ED-4 или CAN CAN, могут быть показаны значения, отличные от 0 для Bit Error Count Rx (прием) и Bit Error Count Tx (передачи).
 
-When Finished:
+Когда закончите:
 
-- Press key 5 or “Back” to exit the page.
+- Нажмите клавишу 5 или «Назад», чтобы выйти из страницы.
 
 ![[15e00088.png]]
 
-Data Log and View - CAN Viewer and Logger
+Data Log and View - просмотрщик и регистратор данных
 
-Data logging is helpful for determining if the J1939 and/or NMEA 2000 network is working properly.
+Регистрация данных полезна для определения того, работает ли сеть J1939 и/или NMEA 2000 должным образом.
 
-> [!note] Note · Примечание
-> It is important to verify the gateway ED-4 is receiving J1939 messages from the engine ECM before using ED-4 data logging to troubleshoot NMEA 2000 or J1939 issues at the MFD.
+> [!note] Примечание
+> Важно проверить, что шлюз ED-4 принимает сообщения J1939 от двигателя ECM, прежде чем использовать запись данных ED-4 для устранения неполадок NMEA 2000 или J1939 в MFD.
 
-When logging, the data is stored on the ED-4 up to 20,000 frames.
+При входе в систему данные хранятся на ЭД-4 до 20 000 кадров.
 
-- It is important to log and export CAN data from the ED-4 that is set up as the gateway for the J1939 and/or NMEA 2000 data or receiving and/or transmitting J1939 data. On the C Command Connect Premier option, the gateway will **always** be the ED-4 in the C.I.B. Enter the ED-4 Configuration page to determine if the ED-4 is set up as a gateway for the system.
-
-![[15e00087.png]]
-
-Data Log and View - CAN Viewer and Logger
-
-To log CAN data:
-
-- Press key 3 or “Record”
-- If troubleshooting CAN data link issues, it is recommended to allow the ED-4 to capture 20,000 frames of data before pressing key 3 or “Stop”. The ED-4 will automatically stop recording after 20,000 frames, which is approximately 2 minutes. If additional datalogging is needed to capture an event, the record key will need to be pressed again.
-- The log file will save to the ED-4 internal memory.
+- Важно регистрировать и экспортировать данные CAN из ED-4, который настроен как шлюз для данных J1939 и/или NMEA 2000 или приема и/или передачи данных J1939. В варианте C Command Connect Premier шлюз всегда будет ED-4 в C.I.B. Введите страницу конфигурации ED-4, чтобы определить, установлен ли ED-4 в качестве шлюза для системы.
 
 ![[15e00087.png]]
 
-To extract the log, insert a USB drive into the back of the ED-4.
+Data Log and View - просмотрщик и регистратор данных
 
-Once the USB drive is detected by the ED-4:
+Для регистрации данных CAN:
 
-- Press key 2 or “Down” and select “Extract Log(s)”.
-- Press key 4 or “Save”.
-- When finished, press Key 5 or “Eject”.
+- Нажмите клавишу 3 или «Запись»
+- При устранении неполадок шины данных CAN CAN рекомендуется разрешить ED-4 захватывать 20 000 кадров данных перед нажатием клавиши 3 или «Стоп». ED-4 автоматически прекращает запись после 20 000 кадров, что составляет примерно 2 минуты. Если для захвата события требуется дополнительная регистрация данных, то необходимо снова нажать клавишу записи.
+- Файл журнала будет сохраняться во внутренней памяти ED-4.
 
-The log file will be saved in the “LOGS” folder automatically created on the USB drive.
+![[15e00087.png]]
 
-> [!note] Note · Примечание
-> It is recommend to save and remove log files from the LOGS folder on the USB drive before exporting log files from the ED-4.
+Чтобы извлечь журнал, вставьте USB-накопитель в заднюю часть ED-4.
+
+После того, как USB-накопитель обнаружен ED-4:
+
+- Нажмите клавишу 2 или «Вниз» и выберите «Извлеките журнал(ы)».
+- Нажмите клавишу 4 или «Сохранить».
+- После завершения нажмите клавишу 5 или «Выбросить».
+
+Файл журнала будет сохранен в папке «LOGS», автоматически созданной на USB-накопителе.
+
+> [!note] Примечание
+> Рекомендуется сохранять и удалять файлы журналов из папки LOGS на USB-накопителе перед экспортом файлов журналов из ED-4.
 
 ![[15e00091.png]]
 
-The saved log file(s) can be analyzed.
+Сохраненный файл(ы) журнала(ов) может быть проанализирован.
 
-Log files are compressed into a zip file on the USB drive called "Logs\_XXXXX.zip".
+Файлы журнала сжимаются в Zip-файл на USB-накопителе под названием «Logs\_XXXXX.zip».
 
-- Extract the zip file using a decompression tool such as WinZip™ or comparable software.
+- Извлеките Zip-файл с помощью инструмента декомпрессии, такого как WinZipTM или аналогичного программного обеспечения.
 
-The XXXXX in "Logs\_XXXXX.zip" and "Canlog\_XXXXX\_\#.asc" represents the software serial number for the ED-4 from which the CAN log was exported.
+XXXXX в «Logs\_XXXXX.zip» и «Canlog\_XXXXX\_\#.asc» представляет собой программный серийный номер для ED-4, из которого был экспортирован журнал CAN.
 
-The \# in "Canlog\_XXXXX\_\#.asc" represents the order in which the CAN logs were created. For example, the first CAN log file saved will be "CAN\_XXXXX\_1.asc" and the second one saved will be "Canlog\_XXXXX\_2.asc" and so on.
+\# в «Canlog\_XXXXX\_\#.asc» представляет процедура, в котором были созданы журналы CAN. Например, первый сохраненный файл журнала CAN будет «CAN\_XXXXX\_1.asc», а второй сохранен будет «Canlog\_XXXXX\_2.asc» и так далее.
 
-It is important to utilize the most recent index log file for analysis of the signals being broadcast.
+Важно использовать самый последний файл журнала индекса для анализа передаваемых сигналов.
 
-> [!note] Note · Примечание
-> The date and time stamp on the log files will **not** be correct since the ED-4 is **not** capable of determining the actual date and time.
+> [!note] Примечание
+> Дата и время в файлах журнала будут **не** быть правильными, так как ED-4 не может определить фактическую дату и время.
 
 ![[15e00090.png]]
 
-To analyze the data, open the "Canlog\_XXXXX\_\#.asc" file(s) in Excel and perform the following data format.
+Для анализа данных откройте файл(ы) Canlog\_XXXXX\_\#.asc в Excel и выполните следующий формат данных.
 
-1. Select “Delimited”
-2. Select “Space Delimited”.
+1. Выберите «Ограниченный»
+2. Выберите «Ограниченное пространство».
 
 ![[15e00093.png]]
 
-After formatting, review the data in Excel.
+После форматирования просмотрите данные в Excel.
 
 1. CAN Network Fields
 2. PGN Fields.
 
-It is possible to examine the logged data stored in the ASC file and determine if the parameter is being transmitted appropriately from the ED-4 gateway to the NMEA 2000 network and J1939.
+Можно изучить зарегистрированные данные, хранящиеся в файле ASC, и определить, передается ли параметр надлежащим образом из шлюза ED-4 в сеть NMEA 2000 и J1939.
 
-Example:
+Пример:
 
-To determine if the “Transmission” parameters are being broadcast properly on CAN NMEA 2000 network, hold down the Control key in Excel and press F to perform a search for “F205”. If this parameter is **not** found in the spreadsheet, then the ED-4 is **not** broadcasting the transmission parameters properly. Load the appropriate VPF into the ED-4 to be sure that the network settings are set up correctly for the vessel.
+Чтобы определить, правильно ли транслируются параметры «Передача» в сети CAN NMEA 2000, удерживайте клавишу управления в Excel и нажмите F для выполнения поиска «F205». Если этот параметр **не **находится в электронной таблице, то ED-4 **не** передает параметры передачи должным образом. Загрузите соответствующий VPF в ED-4, чтобы убедиться, что настройки сети установлены правильно для судна.
 
-If all parameters are being broadcast correctly, then the OEM MFD is either **not** configured properly or there is an issue in the OEM NMEA 2000 or J1939 wiring to the MFD.
+Если все параметры транслируются правильно, то OEM MFD либо **не** настроен правильно, либо в OEM NMEA 2000 или J1939 есть проблема с подключением к MFD.
 
 ![[15e00094.png]]
 
-Review the data in Excel.
+Просмотрите данные в Excel.
 
 1. CAN Network Fields
 2. PGN Fields.
 
-CAN Message Example (all hex values): XX **F004** \#\#.
+Пример сообщения CAN (все значения hex): XX **F004** \#\#.
 
-- The "XX" prior to the PGN number includes the priority of the message. This is any two digit number, followed by 4 digit PGN.
-- The 4 digit PGN number is valuable for determining if the ED-4 is broadcasting the signal properly.
-- The \#\# after the PGN number represents the two digit address number of the J1939 or NMEA 2000 device which are broadcasting the signals.
+- В число «XX» перед номером PGN входит приоритет сообщения. Это любое двухзначное число, за которым следует 4-значный PGN.
+- 4-значный PGN-номер является ценным для определения правильности передачи сигнала ED-4.
+- После PGN номер представляет собой двухзначный адрес устройства J1939 или NMEA 2000, которое передает сигналы.
 
-| **CAN Network Fields(0 = CAN1)** (**1 = CAN2)** | **CAN Message(XX =** | **Parameter Information** |
+| **CAN Network Fields (0 = CAN1)** (**1 = CAN2)** | **CAN Message (XX =**) | **Информация о параметре** |
 |---|---|---|
-| 0 | XXF004\#\# | Engine Parameters |
-| 0 | XXFECA\#\# | DM1 (Diagnostic Message 1) |
-| 0 | XXF10D\#\# | Rudder Angle |
-| 0 | XXFEF8\#\# | Transmission |
-| 0 | XXFEFC\#\# | Fuel Level |
-| 1 | XXF200\#\# | Engine Parameters |
-| 1 | XXF201\#\# | Engine Parameters |
-| 1 | XXF10D\#\# | Rudder Angle |
-| 1 | XXF205\#\# | Transmission |
-| 1 | XXF211\#\# | Fuel Level |
+| 0 | XXF004\## | Параметры двигателя |
+| 0 | XXFECA\## | DM1 (диагностическое сообщение 1) |
+| 0 | XXF10D\## | Английское название Rudder Angle |
+| 0 | XXFEF8\## | передача |
+| 0 | XXFEFC\## | Уровень топлива |
+| 1 | XXF200\## | Параметры двигателя |
+| 1 | XXF201\## | Параметры двигателя |
+| 1 | XXF10D\## | Английское название Rudder Angle |
+| 1 | XXF205\## | передача |
+| 1 | XXF211\## | Уровень топлива |
 
-If parameter information is **not** found in the log file, troubleshoot by determining if the correct VPF file is loaded in the ED-4 and there are **not** issues with the J1939 data link.
+Если информация о параметрах **не** найдена в файле журнала, устранение неполадок путем определения того, загружается ли правильный файл VPF в ED-4, и есть проблемы с шиной данных J1939 CAN.
 
-If parameter information is found in the log file, consult the OEM for troubleshooting support of the MFD.
+Если информация о параметрах находится в файле журнала, обратитесь к OEM для устранения неполадок поддержки MFD.
 
-> [!note] Note · Примечание
-> Some MFDs may **not** be compatible or capable of receiving CAN message information from the ED-4.
+> [!note] Примечание
+> Некоторые MFD могут быть совместимы или способны принимать информацию CAN-сообщения от ED-4.
 
 ![[15e00094.png]]
 
-Data Log and View - Parameter Logger
+Лог данных и просмотр - Parameter Logger
 
-Parameter Logger functionality is **not** enabled at time of product launch.
+Функциональность Parameter Logger не включена во время запуска продукта.
 
 ![[15e00096.png]]
 
-Data Log and View - I/O Viewer
+Data Log and View - I/O Viewer (англ.) (недоступная ссылка)
 
-In the “Data Log and View” page, enter the “I/O Viewer” page.
+На странице «Лог данных и просмотр» введите страницу «I/O Viewer».
 
-Action:
+Действие:
 
-- Press key 4 or “View.
-- Press key 2 or “Next” to view the available sensor information.
+- Нажмите клавишу 4 или "Просмотр.
+- Нажмите клавишу 2 или «Далее», чтобы просмотреть доступную информацию датчика.
 
-After entering the page, OEM sensor data can be viewed live on the display in real time.
+После ввода на страницу данные датчика OEM можно просматривать в режиме реального времени на дисплее.
 
-The units in the Parameter Viewer page are fixed and are **not** impacted by the user Units selection setting. All pressure values are absolute.
+Единицы на странице Parameter Viewer фиксированы и не подвержены влиянию настройки выбора пользовательских блоков. Все значения давления абсолютны.
 
-> [!note] Note · Примечание
-> There is a pressure difference reading of approximately 2 kPa \[0.29 psi\] between C.I.B. ED-4 and Helm ED-4 due to message broadcast tolerances.
+> [!note] Примечание
+> Между C.I.B. имеется разность давлений приблизительно 2 кПа \[0,29 psi\]. ED-4 и Helm ED-4 из-за допусков передачи сообщений.
 
-When Finished:
+Когда закончите:
 
-- Press key 5 or “Back” to exit the page.
+- Нажмите клавишу 5 или «Назад», чтобы выйти из страницы.
 
 ![[15e00097.png]]
 
-Data Log and View - I/O Viewer
+Data Log and View - I/O Viewer (англ.) (недоступная ссылка)
 
-The following information is available on the I/O viewer page and can be useful during troubleshooting. The VPF controls the functionality and vessel sensor set up parameters displayed on the page.
+Следующая информация доступна на странице просмотра ввода/вывода и может быть полезна при устранении неполадок. VPF контролирует функциональность и настраивает параметры датчика судна, отображаемые на странице.
 
-1. Input or output designated with a component/sensor name for the parameter.
-2. The connector and pin location on the back of the ED-4 that the sensor is pinned to. See the C Command Connect wiring diagram to determine the ED-4 pin connector location to the C.I.B.
-3. Measurement Mode
-4. Raw Value - the data value the ED-4 is receiving. If dashes are seen, then the ED-4 is **not** receiving signal data from the component/sensor.
-5. Raw value destination information of the data. If dashes are seen, then the ED-4 is **not** passing signal data for the component/sensor.
-6. Output - component/sensor range.
+1. Ввод или вывод, обозначенный компонентом/датчиком для параметра.
+2. Разъем и место штифта на задней панели ED-4, к которому прикреплен датчик. См. схему проводов C Command Connect для определения местоположения разъема ED-4 к C.I.B.
+3. Режим измерения
+4. Сырое значение - значение данных, которое получает ЭД-4. Если видны тире, то ЭД-4 **не** принимает данные сигнала от компонента/датчика.
+5. Сырье значение назначения информации данных. Если видны тире, то ED-4 - это **не** передача данных сигнала для компонента/датчика.
+6. Выход — диапазон компонентов/датчиков.
 
-Use the following procedure for accessing sensor information contained in the VPF. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15]]. The Cummins® Marine Application Engineering group creates the VPF and updates the Cummins® INCAL™ disc or drive folder “Cummins ED-4 Display Vessel Personality File Tracking Sheet” with file name, version, and description of the vessel, application, equipment, and vessel sensor information.
+Используйте следующую процедуру для доступа к информации датчика, содержащейся в VPF.[[513-015-044 — Managing Vessel Personalities|См. процедуру 015-044 в разделе 15.]]. Группа Cummins® Marine Application Engineering создает VPF и обновляет дисковую или приводную папку Cummins® INCALTM «Cummins ED-4 Display Vessel Personality File Tracking Sheet» с именем файла, версией и описанием судна, приложения, оборудования и информации датчика судна.
 
 ![[15e00098.png]]
 
-Data Log and View - I/O Viewer
+Data Log and View - I/O Viewer (англ.) (недоступная ссылка)
 
-The process below can be performed to confirm the ED-4 chip has **not** failed and the analog input channels are working properly.
+Процесс, описанный ниже, может быть выполнен для подтверждения того, что чип ED-4 не вышел из строя, а аналоговые каналы ввода работают должным образом.
 
-Action:
+Действие:
 
-1. Power up the ED-4 with the Secondary connector unplugged from the rear of the ED-4.
-2. Press key 5 or “Menu”.
-3. Scroll to "Configuration" and press key 4 or "Enter".
-4. Press key 1 or "Accept" on the Warning screen.
-5. Scroll to "IO Configuration" and press key 4 or "Enter".
-6. Scroll to option "AI6-Custom 1" and press key 4 or "Enter".
-7. Scroll to "Resistance (0-500)" and press key 4 or "Enter" to turn “On” the setting.
-8. Press key 5 or “Back” to the Main Menu Screen.
-9. Access “I/O Viewer” page under “Menu -\> “Diagnostics” -\> “Data Log and View”.
-10. Scroll to “I/O Viewer” press key 4 or “View”.
-11. Press key 2 or “Next” to "AI6-Custom 1" I/O Viewer page.
-12. Confirm that “Measurement Mode, Resistance” is seen. Check that the raw value for resistance seen is approximately 1100 ohms. If the raw resistance value is below 1000 ohms, this would typically indicate a failed ED-4 display with analog I/O issues. The normal open circuit resistance on analog input pins for a known good ED-4 is typically above 1100 ohms.
-13. Change back the “AI6-Custom 1” setting made in Step 7 by following the next steps.
-14. Press key 5 or “Back” to the Main Menu Screen.
-15. Scroll to "Configuration" and press key 4 or "Enter".
-16. Press key 1 or "Accept" on the Warning screen.
-17. Scroll to "IO Configuration" and press key 4 or "Enter".
-18. Scroll to option "AI6-Custom 1" and press key 4 or "Enter".
-19. Select "Off" and press key 4 or "Enter".
+1. Включите ED-4 со Вторичным разъемом, отключенным сзади ED-4.
+2. Нажмите клавишу 5 или «Меню».
+3. Прокрутите до «Конфигурация» и нажмите клавишу 4 или «Войти».
+4. Нажмите клавишу 1 или «Принять» на экране предупреждения.
+5. Прокрутите до «IO Configuration» и нажмите клавишу 4 или «Войти».
+6. Прокрутите до опции «AI6-Custom 1» и нажмите клавишу 4 или «Войти».
+7. Прокрутите до «Сопротивление (0-500)» и нажмите клавишу 4 или «Войти», чтобы включить настройку «Включить».
+8. Нажмите клавишу 5 или «Назад» на экран главного меню.
+9. Доступ к странице «I/O Viewer» в разделе «Menu -> «Диагностика» -> «Лог данных и просмотр».
+10. Прокрутите до клавиши 4 «I/O Viewer» или «View».
+11. Нажмите клавишу 2 или «Далее» на страницу «AI6-Custom 1» I/O Viewer.
+12. Подтверждаем, что «режим измерения, сопротивление» виден. Проверьте, что сырое значение для наблюдаемого сопротивления составляет приблизительно 1100 Ом. Если значение сопротивления необработанного сигнала ниже 1000 Ом, это обычно указывает на неисправный дисплей ED-4 с аналоговыми проблемами ввода/вывода. Нормальное сопротивление открытой цепи на аналоговых входных штифтах для известного хорошего ED-4 обычно выше 1100 Ом.
+13. Измените настройки «AI6-Custom 1», выполненные на шаге 7, выполнив следующие действия.
+14. Нажмите клавишу 5 или «Назад» на экран главного меню.
+15. Прокрутите до «Конфигурация» и нажмите клавишу 4 или «Войти».
+16. Нажмите клавишу 1 или «Принять» на экране предупреждения.
+17. Прокрутите до «IO Configuration» и нажмите клавишу 4 или «Войти».
+18. Прокрутите до опции «AI6-Custom 1» и нажмите клавишу 4 или «Войти».
+19. Выберите «Выключить» и нажмите клавишу 4 или «Ввести».
 
-When Finished:
+Когда закончите:
 
-- Press key 5 or “Back” to return to the Menu page.
-- Press key 5 or “Exit” to return to the data screen page.
+- Нажмите клавишу 5 или «Назад», чтобы вернуться на страницу меню.
+- Нажмите клавишу 5 или «Выход» для возврата на страницу экрана данных.
 
 ![[15e00099.png]]
 
-Data Log and View - Parameter Viewer
+Data Log and View - Просмотр параметров
 
-In the “Data Log and View” page, enter the “Parameter Viewer” page.
+На странице «Лог данных и просмотр» введите страницу «Параметрический просмотр».
 
-The number in the bracket (1) signifies the engine or device the parameter data signal is being received from.
+Число в скобке (1) означает двигатель или устройство, от которого поступает сигнал данных параметров.
 
-The number is in sequence to the engines listed on the ED-4 “Configuration” page. For example, if Stbd and Port are listed, then Stbd is device 1 and Port is device 2 on the parameter viewer page.
+Номер соответствует двигателям, указанным на странице «Конфигурация» ED-4. Например, если перечислены Stbd и Port, то Stbd — это устройство 1 и Port — это устройство 2 на странице просмотра параметров.
 
-Action:
+Действие:
 
-- Press key 4 or “View.
-- Press key 2 or “Next” to view parameters.
-- Press key 4 or “Device” to view the parameters for the different engines/devices the ED-4 is monitoring. Use the following procedure to determine the ED-4 setup. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+- Нажмите клавишу 4 или "Просмотр.
+- Нажмите клавишу 2 или «Далее», чтобы просмотреть параметры.
+- Нажмите клавишу 4 или «Устройство», чтобы просмотреть параметры для различных двигателей/устройств, которые ED-4 контролирует. Используйте следующую процедуру для определения установки ED-4.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 15.]]
 
-When Finished:
+Когда закончите:
 
-- Press key 5 or “Back” to exit the page.
+- Нажмите клавишу 5 или «Назад», чтобы выйти из страницы.
 
 ![[15e00100.png]]
 
-The tank profile can be configured if the fluid tank is being monitored through the ED-4.
+Профиль резервуара может быть сконфигурирован, если резервуар с жидкостью контролируется через ED-4.
 
-The fluid tank profile can be changed by pressing key 5 or “Menu” on the data screen page.
+Профиль резервуара с жидкостью можно изменить, нажав клавишу 5 или «Меню» на странице экрана данных.
 
-#### Action
+#### Меры
 
-- Press key 5 or “Menu”
-- Select “Configuration” and press key 4 or “Enter"
-- Press key 1 or “Accept”
-- Select “Device and press key 4 or “Enter” (NOTE: Device could be any of Starboard, Port, Starboard-Outer, Port-Inner)
-- Select “Tank Profile” and press key 4 or “Enter"
-- Select appropriate fluid to be configured
-- Press key 4 or “Setup"
-- Press key 4 or “Start".
+- Нажмите клавишу 5 или «Меню»
+- Выберите «Конфигурация» и нажмите клавишу 4 или «Войти»
+- Нажмите клавишу 1 или «Принять»
+- Выберите «Устройство и нажмите клавишу 4 или «Введите» (Примечание:) Устройство может быть любым из Starboard, Port, Starboard-Outer, Port-Inner.
+- Выберите «Профиль танка» и нажмите клавишу 4 или «Войти».
+- Выберите подходящую жидкость для настройки
+- Нажмите клавишу 4 или «Setup»
+- Нажмите клавишу 4 или «Начать».
 
-The fuel, engine oil, coolant, fresh water, wastewater and black water tanks can be configured with the ED-4, if vessel permits.
+Топливо, моторное масло, охлаждающая жидкость, пресная вода, сточные воды и резервуары для черной воды могут быть сконфигурированы с помощью ED-4, если позволяет судно.
 
-A message will appear on the ED4 display which will ask to confirm tank is empty before proceeding configuration.
+На дисплее ED4 появится сообщение, в котором будет указано, что резервуар пуст, прежде чем приступить к конфигурации.
 
 ![[15e00189.png]]
 
-The fluid tank profile can be changed by pressing key 5 or “Menu” on the data screen page, if configured tank levels are known at 25%, 50% & 75% of tank capacity. The fuel, engine oil, coolant, fresh water, wastewater and black water tanks can be configured with the ED-4, if vessel permits and VPF supports the input for configuration.
+Профиль резервуара с жидкостью можно изменить, нажав клавишу 5 или «Меню» на странице экрана данных, если известны конфигурированные уровни резервуара при 25, 50 и 75 % емкости резервуара. Топливо, моторное масло, охлаждающая жидкость, пресная вода, сточные воды и резервуары для черной воды могут быть сконфигурированы с помощью ED-4, если позволяет судно и VPF поддерживает вход для конфигурации.
 
-#### Action:
+#### Действие:
 
-- Press key 5 or “Menu”
-- Select “Configuration” and press key 4 or “Enter”
-- Press key 1 or “Accept"
-- Select “Device” and press key 4 or “Enter” (NOTE: Device could be any of Starboard, Port, Starboard-Outer, Port-Inner)
-- Select “Tank Profile” and press key 4 or “Enter”
-- Select fluid type to be configured
-- Press key 4 or “Setup”
-- Press key 2 or “Down"
-- Press key 4 or “Start”
-- Select “Tank Volume"
-- Press key 4 or “Inc” and key 3 or “Dec” to enter “Tank Volume"
-- Press key 2 or “Down"
-- Press key 4 or “Inc” and key 3 or “Dec” to enter 25% tank level known at “Point 1”
-- Press key 2 or “Down"
-- Press key 4 or “Inc” and key 3 or “Dec” to enter 50% tank level known at “Point 2”
-- Press key 2 or “Down”
-- Press key 4 or “Inc” and key 3 or “Dec” to enter 75% tank level known at “Point 3"
+- Нажмите клавишу 5 или «Меню»
+- Выберите «Конфигурация» и нажмите клавишу 4 или «Войти»
+- Нажмите клавишу 1 или «Принять»
+- Выберите «Устройство» и нажмите клавишу 4 или «Ввести» (Примечание: Устройство может быть любым из Starboard, Port, Starboard-Outer, Port-Inner.
+- Выберите «Профиль танка» и нажмите клавишу 4 или «Войти».
+- Выберите тип жидкости, который должен быть сконфигурирован
+- Нажмите клавишу 4 или «Настройка»
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 или «Начать»
+- Выберите «Танковый объем»
+- Нажмите клавишу 4 или «Inc», а также клавишу 3 или «Dec», чтобы ввести «Танковый том».
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 или «Inc», а также клавишу 3 или «Dec», чтобы войти в 25-процентный уровень резервуара, известный в «Точка 1».
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 или «Inc», а также клавишу 3 или «Dec», чтобы войти в 50% уровень резервуара, известный в «Точка 2».
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 или «Inc», а также клавишу 3 или «Dec», чтобы войти на уровень 75 %, известный в «Точка 3».
 
-If equipped, the brightness of the ED-4 display can be changed by pressing key 3 or “Function” on the data screen page.
+При оснащении яркость дисплея ED-4 можно изменить, нажав клавишу 3 или «Функцию» на странице экрана данных.
 
-#### Action:
+#### Действие:
 
-- Press key 3 or "Function"
-- Press key 3 or "Dimmer"
-- Press key 4 or "Brighter"
+- Нажмите клавишу 3 или «Функция»
+- Нажмите клавишу 3 или «Dimmer»
+- Нажмите клавишу 4 или «Ярче»
 
-The percent brightness of the display is shown in the Brightness row and ranges from 10 to 100%.
+Процент яркости дисплея показан в строке Яркость и колеблется от 10 до 100%.
 
-Press key 5 or “Exit” to save the setting and exit the brightness setting.
+Нажмите клавишу 5 или «Выход», чтобы сохранить настройку и выйти из настроек яркости.
 
 ![[15e00190.png]]
 
-If equipped, the trip reset of the ED-4 can be changed by pressing key 3 or “Function” on the data screen page.
+При оснащении сброс поездки ED-4 можно изменить, нажав клавишу 3 или «Функцию» на странице экрана данных.
 
-#### Action:
+#### Действие:
 
-- Press key 3 or "Function"
-- Press key 2 or "Down"
-- Press key 4 of "Choose"
-- Press key 4 or "Send"
+- Нажмите клавишу 3 или «Функция»
+- Нажмите клавишу 2 или «Вниз»
+- Нажмите клавишу 4 «Выбрать»
+- Нажмите клавишу 4 или «Отправить»
 
-If feature is available, pressing “send” will reset the trip information. A warning message will appear after pressing “Send” to notify that the trip reset message was sent.
+Если функция доступна, нажатие «отправить» сбросит информацию о поездке. Предупреждающее сообщение появится после нажатия «Отправить», чтобы уведомить о том, что сообщение о сбросе поездки было отправлено.
 
-Press key 5 or “Back” to save the setting and exit the trip reset setting.
+Нажмите клавишу 5 или «Назад», чтобы сохранить настройку и выйти из настройки сброса поездки.
 
 ![[15e00191.png]]
 
-Data Log and View - Parameter Viewer
+Data Log and View - Просмотр параметров
 
-The software controls the parameters displayed on the page; therefore, some parameters may or may **not** be representative of the product the system is connected to.
+Программное обеспечение управляет параметрами, отображаемыми на странице; поэтому некоторые параметры могут быть или не быть репрезентативными для продукта, к которому подключена система.
 
-At the time of product launch, the Parameter Viewer page contains all parameters the ED-4 is capable of monitoring; It is **not** tailored for each marine application.
+На момент запуска продукта страница Parameter Viewer содержит все параметры, которые ED-4 способен контролировать; Он не предназначен для каждого морского применения.
 
-After entering the page, parameter data can be viewed live on the display in real time and can be useful during troubleshooting. If dashes are seen, then the ED-4 is **not** receiving signal data for the parameter. Possible data signal issues may include an issue with the component or an issue with the data link.
+После ввода на страницу данные параметров можно просматривать в режиме реального времени на дисплее и могут быть полезны при устранении неполадок. Если видны тире, то ED-4 **не** принимает данные сигнала для параметра. Возможные проблемы с сигналом данных могут включать в себя проблему с компонентом или проблему с шиной данных CAN.
 
-The units in the Parameter Viewer page are fixed and are **not** impacted by the user Units selection setting. All pressure values are absolute.
+Единицы на странице Parameter Viewer фиксированы и не подвержены влиянию настройки выбора пользовательских блоков. Все значения давления абсолютны.
 
-> [!note] Note · Примечание
-> There is a pressure difference reading of approximately 2 kPA \[0.29 psi\] between CIB ED-4 and Helm ED-4 due to message broadcast tolerances.
+> [!note] Примечание
+> Существует разница в давлении примерно 2 кПа[0,29 psi] между CIB ED-4 и Helm ED-4 из-за допусков передачи сообщений.
 
 ![[15e00101.png]]
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-The user can interact with the display touch screen or through remote keypad installed standalone near the display.
+Пользователь может взаимодействовать с сенсорным экраном дисплея или через удаленную клавиатуру, установленную отдельно рядом с дисплеем.
 
-The function of the display touch screen and remote keypad.
+Функция дисплея сенсорный экран и удаленная клавиатура.
 
-1. Press in the middle of the data screen to open the Menu page or press on the “Menu”(I) soft key to open the Menu page.
-2. Press any space of the data screen to open the data screen edit page.
-3. Swipe from right to left or left to right when on the data screen to scroll.
-4. Swipe from left to right on the screen when in the Menu structure to return to last page or exit the menu or press on the “Back”(IV) button on the data screen to return to the last page.
-5. Press on the “Alarm”(III) soft key to open the Alarms page.
-6. Press “Backlight”(II) soft key to open the backlight control page.
+1. Нажмите в середине экрана данных, чтобы открыть страницу меню или нажмите на мягкий ключ «Menu» (I), чтобы открыть страницу меню.
+2. Нажмите любое пространство экрана данных, чтобы открыть страницу редактирования экрана данных.
+3. Прокрутите справа налево или слева направо, когда на экране данных прокрутить.
+4. Прокрутите слева направо на экране, когда в структуре меню вернуться на последнюю страницу или выйти из меню или нажать на кнопку «Назад» (IV) на экране данных, чтобы вернуться на последнюю страницу.
+5. Нажмите на мягкий ключ «Тревога» (III), чтобы открыть страницу «Тревога».
+6. Нажмите «Backlight» (II) мягкий ключ, чтобы открыть страницу управления подсветкой.
 
 ![[00e00328.png]]
 
 ![[00u00146.png]]
 
-1. Key 1 (Up) - Press key 1 to scroll up.
-2. Key 2 (Left) – Press key 2 to scroll left.
-3. Key 3 (Enter / Select) –
-4. Key 4 (Down) - Press key 4 to scroll down.
-5. Key 5 (Right) - Press key 5 to scroll right.
-6. Key 6 (Return / Exit) - Press key 6 to exit screen prompts, exit screen editor, exit menu page or to go back to previous menu level and while on data screen press key 6 once to enter the active alarm page.
-7. Hold Key 1 (Up) and Key 4 (Down) for 3 seconds to access the soft keys on the screen. Once the soft keys are highlighted using key 3 (Enter / Select) to access the function.
+1. Ключ 1 (Up) - Нажмите клавишу 1 для прокрутки вверх.
+2. Ключ 2 (слева) - нажмите клавишу 2, чтобы прокрутить влево.
+3. Ключ 3 (введите / выберите)
+4. Ключ 4 (Down) - нажмите клавишу 4, чтобы прокрутить вниз.
+5. Ключ 5 (справа) - нажмите клавишу 5, чтобы прокрутить правильно.
+6. Ключ 6 (Возвращение/Выход) - клавиша 6 нажатия для подсказок на экране выхода, редактор экрана выхода, страница меню выхода или для возврата к предыдущему уровню меню и во время нажатия на экран данных клавиша 6 один раз для ввода активной страницы тревоги.
+7. Держите клавиши 1 (вверх) и 4 (вниз) в течение 3 секунд, чтобы получить доступ к клавишам на экране. После того, как мягкие клавиши выделены, используется клавиша 3 (Enter/Select) для доступа к функции.
 
-A variety of diagnostics can be performed with the ED-5/ED-7 display.
+Разнообразную диагностику можно проводить с помощью дисплея ED-5/ED-7.
 
-The Diagnostics page is part of the advanced settings and is protected by a security PIN. The Main Menu page of the ED-5/ED-7 display can be accessed by pressing the middle of the data screen page or use “Menu”(I) soft key on the screen or press and hold key 3 or “Select/Enter” on the remote keypad.
+Страница «Диагностика» является частью расширенных настроек и защищена PIN-кодом безопасности. На главную страницу меню дисплея ED-5/ED-7 можно получить доступ, нажав на середину страницы экрана данных или используя мягкий ключ «Menu» (I) на экране или нажмите и удерживайте ключ 3 или «Выбрать/Ввести» на удаленной клавиатуре.
 
-Action:
+Действие:
 
-- Press the middle of the data screen page or press and hold key 3 or “Select/Enter” on the remote keypad.
-- Select “Security”, then “Change Level”, then “Diagnostic” or use the remote keypad to scroll through menu and selection.
-- Enter the “Security PIN”. Default security PIN to access advanced settings is “1919”.
-- Swipe right to left to access the Diagnostics page.
+- Нажмите на середину страницы экрана данных или нажмите и удерживайте клавишу 3 или «Выбрать/Ввести» на удаленной клавиатуре.
+- Выберите «Безопасность», затем «Изменить уровень», затем «Диагностика» или используйте удаленную клавиатуру для прокрутки меню и выбора.
+- Введите «PIN-код безопасности». PIN-код безопасности по умолчанию для доступа к расширенным настройкам - «1919».
+- Прокрутите справа налево, чтобы получить доступ к странице Диагностика.
 
-Sharing the default security PIN without proper knowledge can lead to unintended changes causing loss or erratic function.
+Обмен PIN-кодом безопасности по умолчанию без надлежащего знания может привести к непреднамеренным изменениям, вызывающим потерю или неустойчивую функцию.
 
-The security PIN entry on the display is **only** available using touchscreen and cannot be performed using CAN keypad.
+Запись PIN-кода безопасности на дисплее доступна только с помощью сенсорного экрана и не может быть выполнена с помощью клавиатуры CAN.
 
-When Finished:
+Когда закончите:
 
-- Swipe from left to right when in the Menu structure to exit to the data screen page.
+- Прокрутите слева направо, когда в структуре меню выйдет на страницу экрана данных.
 
 ![[00e00330.png]]
 
 ![[00e00331.png]]
 
-Security Pin Entry
+Безопасность Pin Entry
 
 ![[00e00332.png]]
 
-Diagnostics Page
+Страница диагностики
 
-There are number of items in the ED-5 and ED-7 Diagnostics page that can be accessed.
+На странице Диагностика ED-5 и ED-7 есть несколько элементов, которые можно получить.
 
-1. CAN Viewer – used to view and log data
-2. DB Viewer – used to view data
-3. Alarm Viewer – used for viewing additional details about alarms
-4. Device Information – used to devices on the network
-5. Demo Data – places the display in demo mode
+1. CAN Viewer — используется для просмотра и регистрации данных
+2. DB Viewer — используется для просмотра данных
+3. Alarm Viewer — используется для просмотра дополнительных деталей о сигнализации
+4. Информация об устройстве - используется для устройств в сети
+5. Demo Data — размещает дисплей в демо-режиме
 
-Do **not** leave “Demo Data” selections enabled in the Diagnostics page. Doing so will cause false data and alarms messages to be shown on the ED-5/ED-7 display data screen.
+Не оставляйте включенными «Демоданные» на странице «Диагностика». Это приведет к тому, что ложные данные и сообщения тревоги будут отображаться на экране данных дисплея ED-5 / ED-7.
 
 ![[00e00333.png]]
 
 CAN Viewer
 
-CAN Viewer data logging is helpful for determining if the J1939 and/or NMEA 2000 network is working properly.
+Регистрация данных CAN Viewer полезна для определения правильности работы сети J1939 и/или NMEA 2000.
 
-It is important to verify the gateway ED-5/ED-7 is receiving J1939 messages from the engine ECM before using ED-5/ED-7 data logging to troubleshoot NMEA 2000 or J1939 issues at the MFD.
+Важно проверить, что шлюз ED-5/ED-7 принимает сообщения J1939 от двигателя ECM, прежде чем использовать запись данных ED-5/ED-7 для устранения неполадок NMEA 2000 или J1939 в MFD.
 
-When logging, the data is stored on the ED-5/ED-7 up to 40,000 frames.
+При входе в систему данные хранятся на ED-5/ED-7 до 40 000 кадров.
 
-- It is important to log data from the ED-5/ED-7 set up as the gateway for receiving the J1939 data.
+- Важно регистрировать данные из ED-5/ED-7, установленных в качестве шлюза для получения данных J1939.
 
 ![[00e00334.png]]
 
-Data Log and View - CAN Viewer and Logger
+Data Log and View - просмотрщик и регистратор данных
 
-To log CAN data:
+Для регистрации данных CAN:
 
-- Select “Logger”, then “Save to display”.
-- Press key 3 or “Record”
-- If troubleshooting CAN data link issues, it is recommended to allow the ED-5/ED-7 to capture 40,000 frames of data before pressing key 3 or “Stop”. The ED-5 and ED-7 will automatically stop recording after 20,000 frames, which is approximately 2 minutes. If additional datalogging is needed to capture an event, the record key will need to be pressed again.
-- The log file will save to the ED-5 and ED-7 internal memory.
+- Выберите «Logger», затем «Сохранить для отображения».
+- Нажмите клавишу 3 или «Запись»
+- При устранении неполадок шины данных CAN CAN рекомендуется разрешить ED-5/ED-7 захватывать 40 000 кадров данных перед нажатием клавиши 3 или «Стоп». ED-5 и ED-7 автоматически прекращают запись после 20 000 кадров, что составляет примерно 2 минуты. Если для захвата события требуется дополнительная регистрация данных, то необходимо снова нажать клавишу записи.
+- Файл журнала сохраняет внутреннюю память ED-5 и ED-7.
 
 ![[00e00335.png]]
 
-To extract the log, insert a USB drive into the back of the ED-5/ED-7.
+Чтобы извлечь журнал, вставьте USB-накопитель в заднюю часть ED-5/ED-7.
 
-Once the USB drive is detected by the ED-5/ED-7:
+После того, как USB-накопитель обнаружен ED-5/ED-7:
 
-- Select “Offload Log(s)”.
-- When finished, exit the USB Detected screen by swiping left to right.
+- Выберите «Offload Log(s)».
+- Когда закончите, выйдите из экрана USB Detected, проведя пальцем влево направо.
 
-The log file will be saved in the “1536-Serial Number” folder automatically created on the USB drive. Serial Number is unique to device and can be accessed from “About” screen.
+Файл журнала будет сохранен в папке 1536-Serial Number, автоматически созданной на USB-накопителе. Серийный номер уникален для устройства и доступен с экрана «О нас».
 
-The saved log file(s) can be analyzed.
+Сохраненный файл(ы) журнала(ов) может быть проанализирован.
 
-Log files are stored into a folder on the USB drive called “1536-Serial Number”.
+Файлы журнала хранятся в папке на USB-накопителе под названием «1536-серийный номер».
 
-The CAN log file saved will be “canLog.asc”.
+Сохраненный файл журнала CAN будет «canLog.asc».
 
 ![[00e00336.png]]
 
-To analyze the data, open the “canLog.asc” file(s) in Excel and perform the following data format.
+Для анализа данных откройте файл (файлы)canLog.asc в Excel и выполните следующий формат данных.
 
-1. Select “Delimited”.
-2. Select “Space Delimited"
+1. Выберите «Ограниченный».
+2. Выберите «Space Delimited»
 
 ![[00e00337.png]]
 
-After formatting, review the data in Excel.
+После форматирования просмотрите данные в Excel.
 
 1. CAN Network Fields
 2. PGN Fields.
 
-If all parameters are being broadcast correctly, then the OEM MFD is either **not** configured properly or there is an issue in the OEM NMEA 2000 or J1939 wiring to the MFD.
+Если все параметры транслируются правильно, то OEM MFD либо **не** настроен правильно, либо в OEM NMEA 2000 или J1939 есть проблема с подключением к MFD.
 
 ![[00e00338.png]]
 
-Review the data in Excel.
+Просмотрите данные в Excel.
 
 1. CAN Network Fields
 2. PGN Fields.
 
-CAN Message Example (all hex values): XXF004\#\#.
+Пример сообщения CAN (все значения hex): XXF004\#\#.
 
-- The "XX" prior to the PGN number includes the priority of the message. This is any two digit number, followed by 4 digit PGN.
-- The 4 digit PGN number is valuable for determining if the ED-5 and ED-7 is broadcasting the signal properly.
-- The \#\# after the PGN number represents the two digit address number of the J1939 or NMEA 2000 device which are broadcasting the signals.
+- В число «XX» перед номером PGN входит приоритет сообщения. Это любое двухзначное число, за которым следует 4-значный PGN.
+- 4-значный PGN-номер является ценным для определения правильности передачи сигнала ED-5 и ED-7.
+- После PGN номер представляет собой двухзначный адрес устройства J1939 или NMEA 2000, которое передает сигналы.
 
-| CAN Network Fields (1 = CAN1) (2 = CAN2) | CAN Message (XX =) | Parameter Information |
+| CAN Network Fields (1 = CAN1) (2 = CAN2) | CAN-сообщение (XX =) | Параметры информации |
 |---|---|---|
-| 1 | XXF004\#\# | Engine Parameters |
-| 1 | XXFECA\#\# | DM1 (Diagnostic Message 1) |
-| 1 | XXF10D\#\# | Rudder Angle |
-| 1 | XXFEF8\#\# | Transmission |
-| 1 | XXFEFC\#\# | Fuel Level |
-| 2 | XXF200\#\# | Engine Parameters |
-| 2 | XXF201\#\# | Engine Parameters |
-| 2 | XXF10D\#\# | Rudder Angle |
-| 2 | XXF205\#\# | Transmission |
-| 2 | XXF211\#\# | Fuel Level |
+| 1 | XXF004\## | Параметры двигателя |
+| 1 | XXFECA\## | DM1 (диагностическое сообщение 1) |
+| 1 | XXF10D\## | Английское название Rudder Angle |
+| 1 | XXFEF8\## | передача |
+| 1 | XXFEFC\## | Уровень топлива |
+| 2 | XXF200\## | Параметры двигателя |
+| 2 | XXF201\## | Параметры двигателя |
+| 2 | XXF10D\## | Английское название Rudder Angle |
+| 2 | XXF205\## | передача |
+| 2 | XXF211\## | Уровень топлива |
 
-If parameter information is not found in the log file, troubleshoot by determining if the correct configuration is loaded in the ED-5/ED-7 and there are **not** issues with the J1939 data link.
+Если информация о параметрах не найдена в файле журнала, устранение неполадок путем определения, загружена ли правильная конфигурация в ED-5/ED-7, и есть проблемы с шиной данных J1939 CAN.
 
-If parameter information is found in the log file, consult the OEM for troubleshooting support of the MFD.
+Если информация о параметрах находится в файле журнала, обратитесь к OEM для устранения неполадок поддержки MFD.
 
-> [!note] Note · Примечание
-> Some MFDs may **not** be compatible or capable of receiving CAN message information from the ED-5/ED-7.
+> [!note] Примечание
+> Некоторые MFD могут быть совместимы или способны принимать информацию CAN-сообщения от ED-5/ED-7.
 
-Diagnostics - Advanced Alarms
+Диагностика - Продвинутая тревога
 
-To obtain more information on an alarm or to view all alarms received by the ED-5/ED-7, go to the “Advanced Alarms” in the Diagnostics page. Once a system fault is corrected, it can take up to 60 seconds for the alarm code to disappear on the ED-5/ED-7 display.
+Чтобы получить дополнительную информацию о сигнализации или просмотреть все сигналы тревоги, полученные ED-5 / ED-7, перейдите на страницу «Расширенная тревога» на странице «Диагностика». После исправления системного сбоя может потребоваться до 60 секунд, чтобы код сигнализации исчез на дисплее ED-5 / ED-7.
 
 ![[00e00339.png]]
 
-Diagnostics – Alarm Viewer
+Диагностика - Тревога Зритель
 
-Typical information shown in the Alarm Viewer page:
+Типичная информация, показанная на странице «Тревожный зритель»:
 
-1. Status and number of system faults
-2. Description of the fault
-3. SPN/FMI of fault
-4. Cummins® fault code (FC) or alarm code (AC) number
-5. Source detecting the fault
-6. Engine hours at the time the fault occurred
-7. Occurrence Count
-8. Manufacturer Information
-9. Duration since alarm become active
+1. Состояние и количество системных неисправностей
+2. Описание неисправности
+3. SPN/FMI неисправности
+4. Код неисправности Cummins® (FC) или номер сигнализации (AC)
+5. Источник, обнаруживающий неисправность
+6. Двигатель в момент возникновения неисправности
+7. Очередной граф
+8. Информация о производителе
+9. Срок действия сигнализации становится активным
 
-The engine hours and duration since alarm become active will reset to current engine hours broadcasted by the ECM after a key cycle and duration time after a key cycle.
+Часы работы двигателя и продолжительность с момента активации сигнализации будут сбрасываться на текущие часы работы двигателя, транслируемые ECM после ключевого цикла, и продолжительность времени после ключевого цикла.
 
-> [!note] Note · Примечание
-> If the count of fault occurrences is **not** known, the value of 127 will be shown by the ED-5 and ED-7. This value will be seen for all alarm codes and generator faults.
+> [!note] Примечание
+> Если количество случаев неисправности не известно, значение 127 будет показано ED-5 и ED-7. Это значение будет видно для всех кодов сигнализации и неисправностей генератора.
 
-Action:
+Действие:
 
-- Select “Menu”, then “Diagnostics”, then “Alarm Viewer”.
-- Press “Prev” to scroll.
-- Press “Next” to scroll.
+- Выберите «Меню», затем «Диагностика», затем «Тревожный зритель».
+- Нажмите «Prev» для прокрутки.
+- Нажмите «Далее» для прокрутки.
 
 ![[00e00340.png]]
 
-Diagnostics - Alarm Viewer
+Диагностика - Тревога Зритель
 
-- Pressing “Historic” in the “Alarm Viewer” page.
-- Pressing “Req.” will populate the ED-5/ED-7 with inactive faults codes saved by the engine ECM.
+- Нажимаем «Историческое» на странице «Тревожный зритель».
+- Нажатие «Req» заполнит ED-5/ED-7 кодами неактивных неисправностей, сохраненными двигателем ECM.
 
-The DM2/DM54 alarms will appear as Active on the ED-5/ED-7 screen, even though they are inactive in the engine ECM.
+Сигналы DM2/DM54 будут отображаться как активные на экране ED-5/ED-7, даже если они неактивны в двигателе ECM.
 
-The DM2/DM54 messages shown on the ED-5/ED-7 will disappear after approximately 2 minutes or after a system enable switch power cycle.
+Сообщения DM2/DM54, отображаемые на ED-5/ED-7, исчезнут примерно через 2 минуты или после того, как система включит цикл переключения питания.
 
-INSITE™ electronic service tool can be used to clear all inactive fault codes from the engine ECM.
+Инструменты электронного обслуживания INSITETM могут использоваться для очистки всех кодов неактивных неисправностей от двигателя ECM.
 
-When Finished:
+Когда закончите:
 
-- Swipe from left to right or when in the Menu structure or “Return/Exit” button on the remote keypad to exit to the data screen page.
+- Прокрутите слева направо или в структуре меню или кнопке «Возвращение / выход» на удаленной клавиатуре, чтобы выйти на страницу экрана данных.
 
 ![[00e00341.png]]
 
-Diagnostics – DB Viewer
+Диагностика - DB Viewer
 
-To view data monitored by the ED-5/ED-7, go to the “DB Viewer” in the Diagnostics page. The number in the parenthesis signifies the engine or device the parameter data is being received from.
+Для просмотра данных, контролируемых ED-5/ED-7, перейдите на страницу «DB Viewer» на странице «Диагностика». Число в скобках означает двигатель или устройство, из которого принимаются данные о параметрах.
 
-The number is in sequence to the engines listed on the ED-5/ED-7 “Setup” page. For example, if Stbd and Port are listed, then Stbd is device 2 and Port is device 1 on the parameter viewer page.
+Номер соответствует двигателям, указанным на странице «Setup» ED-5/ED-7. Например, если перечислены Stbd и Port, то Stbd — это устройство 2, а Port — это устройство 1 на странице просмотра параметров.
 
-Action:
+Действие:
 
-- Select “DB Viewer” using touch screen or “Select/Enter” button on the remote CAN keypad.
-- Use up and down button to scroll through the list of parameters.
-- Press “Change Instance” to view the parameters for the different engines/devices the ED-5/ED-7 is monitoring. Use the following procedure to determine the ED-5/ED-7 setup. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+- Выберите «DB Viewer» с помощью сенсорного экрана или кнопки «Выбрать / ввести» на удаленной клавиатуре CAN.
+- Используйте кнопку вверх и вниз, чтобы прокрутить список параметров.
+- Нажмите «Изменить положение» для просмотра параметров для различных двигателей/устройств, которые контролируются ED-5/ED-7. Используйте следующую процедуру для определения установки ED-5/ED-7.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 15.]]
 
-When Finished:
+Когда закончите:
 
-- Swipe from left to right or use “Back”(IV) button on the screen or when in the Menu structure or “Return/Exit” button on the remote keypad to exit to the data screen page.
+- Прокрутите слева направо или используйте кнопку «Назад» (IV) на экране или когда в структуре меню или кнопке «Возвращение / выход» на удаленной клавиатуре для выхода на страницу экрана данных.
 
 ![[00e00342.png]]
 
 ![[00e00343.png]]
 
-DB Viewer Screen and Parameters
+DB-экран и параметры просмотра
 
-Diagnostics – Device Information
+Диагностика – информация об устройстве
 
-To view other devices connected on the CAN network with the ED-5/ED-7, go to the “Device Information” in the Diagnostics page. The page shows the options for CAN1 and CAN2 to view list of other devices, respective source address and manufacturer identifier.
+Для просмотра других устройств, подключенных к сети CAN с ED-5/ED-7, перейдите на страницу «Информация об устройстве» на странице «Диагностика». На странице показаны опции для CAN1 и CAN2 для просмотра списка других устройств, соответствующего адреса источника и идентификатора производителя.
 
-Action:
+Действие:
 
-- Select “Device Information” using touch screen or “Select/Enter” button on the remote keypad.
-- Select “CAN1” using touch screen or “Select/Enter” button on the remote keypad.
+- Выберите «Информация об устройстве» с помощью сенсорного экрана или кнопки «Выбрать/Ввести» на удаленной клавиатуре.
+- Выберите «CAN1» с помощью сенсорного экрана или кнопки «Выбрать/Ввести» на удаленной клавиатуре.
 
-When Finished:
+Когда закончите:
 
-- Swipe from left to right or use “Back”(IV) button on the screen or when in the Menu structure or “Return/Exit” button on the remote keypad to exit to the data screen page.
+- Прокрутите слева направо или используйте кнопку «Назад» (IV) на экране или когда в структуре меню или кнопке «Возвращение / выход» на удаленной клавиатуре для выхода на страницу экрана данных.
 
 ![[00e00344.png]]
 
 ![[00e00345.png]]
 
-Device Information Page
+Страница информации об устройстве
 
-Brightness Control
+Контроль яркости
 
-The brightness of the ED-5/ED-7 display can be changed by pressing in the middle of the data screen page or pressing the “Backlight”(II) soft key on the data screen or press and hold “Select/Enter” button of the remote keypad while on the data screen page. The brightness control feature includes configurable backlight levels as “Dark Mode” and “Light Mode”. The “Dark Mode” is pre-configured as 20 percent and “Light Mode” is pre-configured as 90 percent.
+Яркость дисплея ED-5/ED-7 можно изменить, нажав в середине страницы экрана данных или нажав на мягкий ключ «Backlight» (II) на экране данных или нажмите и удерживайте кнопку «Выбрать/Ввести» удаленной клавиатуры во время на странице экрана данных. Функция управления яркостью включает в себя настраиваемые уровни подсветки как «темный режим» и «легкий режим». «Темный режим» предварительно настроен на 20 процентов, а «Легкий режим» предварительно настроен на 90 процентов.
 
-Action:
+Действие:
 
-- Press “Preferences” or select “Preferences” using the remote keypad.
-- Press “-“ to decrease the brightness level.
-- Press “+” to increase the brightness level
+- Нажмите «Предпопоказаний» или выберите «Предпопоказаний» с помощью удаленной клавиатуры.
+- Нажмите «-», чтобы уменьшить уровень яркости.
+- Нажмите «+» для повышения уровня яркости
 
 ![[00e00346.png]]
 
 ![[00e00347.png]]
 
-Adjusting Brightness Settings
+Регулировка настроек яркости
 
-The brightness of the display is shown in the Backlight row and ranges from 10 to 100 percent, with 10 percent being minimum brightness level and 100 percent being maximum brightness level.
+Яркость дисплея показана в ряду подсветки и составляет от 10 до 100 процентов, причем 10 процентов - минимальный уровень яркости и 100 процентов - максимальный уровень яркости.
 
-Swipe left to right or press “Back”(IV) button on the screen or press “Return/Exit” key to save the setting and exit the brightness setting.
+Прокрутите влево вправо или нажмите кнопку «Назад» (IV) на экране или нажмите клавишу «Возвращение / Выход», чтобы сохранить настройку и выйти из настройки яркости.
 
-> [!note] Note · Примечание
-> The brightness change when performed on ED-4 and change is transmitted to ED-5/ED-7, the brightness level on ED-5 / ED-7 can show differently considering the difference in the display hardware's.
+> [!note] Примечание
+> Изменение яркости при выполнении на ЭД-4 и изменение передается на ЭД-5/ЭД-7, уровень яркости на ЭД-5/ЭД-7 может отображаться по-разному с учетом разницы в аппаратном обеспечении дисплея.
 
-Trip Information
+Информация о поездке
 
-The trip reset function can be accessed from the Diagnostics page.
+Функцию сброса поездки можно получить на странице Диагностика.
 
-Action:
+Действие:
 
-- Press the middle of the data screen page or press & hold key 4 or “Select/Enter” on the remote keypad.
-- Select “Trip Information”(VII) or use the remote keypad to scroll through menu for selection.
-- Select device to access trip information received from the device.
-- Select “Trip Information Reset” to send trip reset message.
+- Нажмите середину страницы экрана данных или нажмите и удерживайте клавишу 4 или «Выбрать / Ввести» на удаленной клавиатуре.
+- Выберите «Информация о поездке» (VII) или используйте удаленную клавиатуру для прокрутки меню для выбора.
+- Выберите устройство для доступа к информации о поездке, полученной с устройства.
+- Выберите «Trip Information Reset» для отправки сообщения о сбросе поездки.
 
-If feature is available, pressing “send” will reset the trip information. A warning message will appear after pressing “Send” to notify that the trip reset message was sent.
+Если функция доступна, нажатие «отправить» сбросит информацию о поездке. Предупреждающее сообщение появится после нажатия «Отправить», чтобы уведомить о том, что сообщение о сбросе поездки было отправлено.
 
-Swipe left to right or use “Back”(IV) button on the screen or press “Return/Exit” key to save the setting and exit the trip information.
+Прокрутите слева направо или используйте кнопку «Назад» (IV) на экране или нажмите клавишу «Возвращение / Выход», чтобы сохранить настройку и выйти из информации о поездке.
 
 ![[00e00348.png]]
 
 ![[00e00349.png]]
 
-Trip Information Selection Screen
+Trip Information Selection Экран
 
 ![[00e00350.png]]
 
-Trip Information Reset Screen
+Trip Information Reset Screen (Сброс информации)
 
-### Preparatory Steps
+### Подготовительные операции
 
-ED-4
+ЭД-4
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Document display software. [[513-015-107 — Display Software|Refer to Procedure 015-107 in Section 15.]]
-- Document and save VPF. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15]].
-- Check the configuration information. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15]].
-- Check the general operating instructions settings. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1]].
-- Remove the ED-4 display from the C.I.B., if required. Refer to Procedure 015-023 in Section 15.
-- Disconnect the batteries. See equipment manufacturer service information.
+- Программное обеспечение для отображения документов.[[513-015-107 — Display Software|См. процедуру 015-107 в разделе 15.]]
+- Документируйте и сохраните VPF.[[513-015-044 — Managing Vessel Personalities|См. процедуру 015-044 в разделе 15.]].
+- Проверьте информацию о конфигурации.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 15.]].
+- Проверьте общие настройки инструкций по эксплуатации.[[513-101-013 — General Operating Instructions|См. процедуру 101-013 в разделе 1.]].
+- Удалите дисплей ED-4 из C.I.B., если это необходимо. См. процедуру 015-023 в разделе 15.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Document display software. [[513-015-107 — Display Software|Refer to Procedure 015-107 in Section 15.]]
-- Document and save VPF. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15.]]
-- Check the configuration information. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
-- Check the general operating instructions settings. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1.]]
-- Disconnect the batteries. See equipment manufacturer service information.
+- Программное обеспечение для отображения документов.[[513-015-107 — Display Software|См. процедуру 015-107 в разделе 15.]]
+- Документируйте и сохраните VPF.[[513-015-044 — Managing Vessel Personalities|См. процедуру 015-044 в разделе 15.]]
+- Проверьте информацию о конфигурации.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 15.]]
+- Проверьте общие настройки инструкций по эксплуатации.[[513-101-013 — General Operating Instructions|См. процедуру 101-013 в разделе 1.]]
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
 
-### Remove
+### Снятие
 
-ED-4
+ЭД-4
 
-Disconnect the harness connectors from the ED-4 display.
+Отсоедините разъёмы жгута проводов от дисплея ED-4.
 
-1. Primary (gray)
-2. Secondary (black).
+1. Первичный (серый)
+2. Вторичный (черный).
 
 ![[15e00151.png]]
 
-Remove the plastic mounting stud nuts.
+Удалите пластиковые крепежные гайки.
 
-Remove the ED-4 from the helm.
+Удалить ЭД-4 с руля.
 
-> [!note] Note · Примечание
-> It is recommended that the plastic studs and nuts are used to mount the ED-4 to the helm. If different mounting hardware is used, it is important to use the proper length screws for mounting the ED-4. The ED-4 will be damaged if too long of screws are used.
+> [!note] Примечание
+> Рекомендуется использовать пластиковые шпильки и гайки для крепления ЭД-4 к рулю. Если используется различное оборудование для монтажа, важно использовать правильные винты длины для установки ED-4. ЭД-4 будет повреждена, если используется слишком много винтов.
 
 ![[15e00103.png]]
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-Disconnect the harness connectors from the ED-5/ED-7 display.
+Отсоедините разъёмы жгута проводов от дисплея ED-5/ED-7.
 
 1. CAN1.
-2. AUX.
+2. Аукс.
 
-Remove the plastic mounting stud nuts.
+Удалите пластиковые крепежные гайки.
 
-Remove the ED-5/ED-7 from the helm.
+Удалить ED-5/ED-7 с руля.
 
-It is recommended that the plastic studs and nuts are used to mount the ED-5/ED-7 to the helm. It is **not** recommended to use different mounting hardware as the unit will be damaged due to long screws.
+Рекомендуется использовать пластиковые шпильки и гайки для крепления ED-5/ED-7 к рулю. Не рекомендуется использовать различные крепежные устройства, так как устройство будет повреждено из-за длинных винтов.
 
 ![[00j00457.png]]
 
-### Inspect
+### Осмотр
 
-Inspect the ED-4 and mounting seal.
+Проверьте ED-4 и крепежную уплотнение.
 
-Replace the ED-4 if damaged.
+Замените ЭД-4, если поврежден.
 
-Damage to the mounting seal may be due to improper installation at the helm mounting location or mounting surface condition.
+Повреждение крепежного уплотнения может быть вызвано неправильной установкой в месте крепления руля или состоянием поверхности крепления.
 
 ![[15e00068.png]]
 
-### Install
+### Установка
 
-ED-4
+ЭД-4
 
-Insert the ED-4 into the helm opening.
+Вставьте ЭД-4 в отверстие руля.
 
-Secure the ED-4 with the plastic mounting studs and nuts. Do **not** over-tighten the nuts. Hand-tighten **only**.
+Закрепите ED-4 с помощью пластиковых креплений и гаек. Не надо, не надо, затягивать гайки. Рукоять только.
 
-> [!note] Note · Примечание
-> It is recommended that the plastic studs and nuts are used to mount the ED-4 to the helm. If different mounting hardware is used, it is important to use the proper length screws for mounting the ED-4. The ED-4 will be damaged if too long of screws are used.
+> [!note] Примечание
+> Рекомендуется использовать пластиковые шпильки и гайки для крепления ЭД-4 к рулю. Если используется различное оборудование для монтажа, важно использовать правильные винты длины для установки ED-4. ЭД-4 будет повреждена, если используется слишком много винтов.
 
-> [!note] Note · Примечание
-> The ED-4 installed in the CIB requires unique fasteners that **must** be reused. Use the following procedure for installation information. Refer to Procedure 015-023 in Section 15.
+> [!note] Примечание
+> ED-4, установленный в CIB, требует уникальных крепежных элементов, которые должны быть повторно использованы. Используйте следующую процедуру для информации об установке. См. процедуру 015-023 в разделе 15.
 
 ![[15e00103.png]]
 
-Inspect the harness connectors before installation.
+Проверьте разъёмы жгута проводов перед установкой.
 
-Connect the harness connectors to the ED-4 display.
+Подключите разъёмы жгута проводов к дисплею ED-4.
 
-1. Primary (gray)
-2. Secondary (black).
+1. Первичный (серый)
+2. Вторичный (черный).
 
-Verify the harness connections are **not** excessively stressed.
+Проверьте, что проводные соединения жгута **не **чрезмерно напряжены.
 
 ![[15e00151.png]]
 
-ED-5 and ED-7
+ED-5 и ED-7
 
-Insert the ED-5/ED-7 into the helm opening.
+Вставьте ED-5/ED-7 в отверстие руля.
 
-Secure the ED-5/ED-7 with the plastic mounting studs and nuts. Do **not** overtighten the nuts. Hand-tighten **only**.
+Закрепите ED-5/ED-7 с помощью пластиковых крепежных шпиль и гаек. Не надо, не надо, затягивать гайки. Рукоять только.
 
 ![[00j00458.png]]
 
-Inspect the harness connectors before installation.
+Проверьте разъёмы жгута проводов перед установкой.
 
-Connect the harness connectors to the ED-5/ED-7 display.
+Подключите разъёмы жгута проводов к дисплею ED-5/ED-7.
 
 1. CAN1.
-2. AUX.
+2. Аукс.
 
-Verify the harness connections are **not** excessively stressed and **not** overtighten the connections to the display.
+Проверьте, что проводные соединения жгута проводов **не **чрезмерно напряжены и **не **затягивают соединения с дисплеем.
 
 ![[00j00457.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-ED-4
+ЭД-4
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Установите дисплей ED-4 на C.I.B., если он удален. См. процедуру 015-023 в разделе 15.
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Если дисплей ED-4 заменен, программное обеспечение дисплея и VPF должны быть обновлены.
+- Проверьте информацию о конфигурации.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 15.]]
+- Проверьте общие настройки инструкций по эксплуатации.[[513-101-013 — General Operating Instructions|См. процедуру 101-013 в разделе 1.]].
+- Проведите системный тест для проверки правильности работы.[[513-015-047 — Final Verification|См. процедуру 015-047 в разделе 15.]]
+
+ED-5 и ED-7
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Если дисплей ED-5/ED-7 заменен, программное обеспечение дисплея и VPF должны быть обновлены.
+- Проверьте информацию о конфигурации.[[513-015-108 — Display Configuration|См. процедуру 015-108 в разделе 15.]]
+- Проверьте общие настройки инструкций по эксплуатации.[[513-101-013 — General Operating Instructions|См. процедуру 101-013 в разделе 1.]]
+- Проведите системный тест для проверки правильности работы.[[513-015-047 — Final Verification|См. процедуру 015-047 в разделе 15.]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - USB extension cable, Part Number 5394862 (if needed for access).
+>
+> #### Additional Service Items
+>
+> - USB drive.
+>
+> ### General Information
+>
+> The display used for the Marine C Command Connect and Connect Premier Panel System is called an ED-4/ED-5/ED-7. The ED-4 is required for the customer interface box (C.I.B.) in the premier option. The ED-4/ED-5/ED-7 at the helm is an option and some boat builders may choose **not** to use one. Original equipment manufacturers (OEM) have the option to use one or more ED-4s in multiple engine applications. The ED-4/ED-5/ED-7 has the ability to display multiple engine information at one time.
+>
+> The ED-4/ED-5/ED-7 display is **only** supplied by Cummins Inc. and is designed to operate at nominal battery voltage of 12 or 24 volts.
+>
+> The ED-4/ED-5/ED-7 display is connected to the engine control module (ECM) through a Society of Automotive Engineers (SAE) J1939 data link. The display will indicate engine operating parameters and fault codes. The display is the gateway for relaying engine ECM information to National Marine Electronics Association (NMEA) 2000, if equipped. The display requires a unique software load for the C Command Connect and Connect Premier Panel System and is **not** common with other Cummins® controls systems.
+>
+> The display software name and version can be found in the “About” menu screen.
+>
+> The display is preloaded with software and is updateable. The ED-4 display's software and vessel personality file **must** be updated for each vessel application at initial install by the OEM or, if replaced, during a service event. The ED-5/ED-7 display is preloaded with software and **only** requires selection of preloaded personality file/themes from the display.
+>
+> Software and vessel personality file are loaded using the USB connection on the rear of the ED-4 /ED-5/ED-7.
+>
+> ED-4
+>
+> ED-4 Display
+>
+> Do **not** press the button (1) located below the USB port on the rear of the ED-4 display. Pressing the button may affect performance and software/vessel personality files loaded in the ED-4.
+>
+> Use the following procedures for ED-4 recovery steps.
+>
+> - [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15.]]
+> - [[513-015-107 — Display Software|Refer to Procedure 015-107 in Section 15.]]
+>
+> Multifunction Display:
+>
+> The multifunction display is connected with the engine ECM through a J1939 or NMEA 2000 data link.
+>
+> The multifunction display will indicate engine operating parameters and fault information.
+>
+> The multifunction display is typically **not** supplied by Cummins Inc. See equipment manufacturer service information for service, setup, or software updates.
+>
+> ### Test
+>
+> ED-4
+>
+> The user can interact with the display through keys (1) through (5) on the front of the display.
+>
+> The function of the key is shown on the ED-4 screen above the key, which changes as selections are made.
+>
+> A variety of diagnostics can be performed with the ED-4 display.
+>
+> The Diagnostics page on the Main Menu page of the ED-4 display can be accessed by pressing key 5 or “Menu” on the data screen page.
+>
+> Action:
+>
+> - Press key 5 or “Menu”
+>
+> When Finished:
+>
+> - Press key 5 or “Exit” to return to the data screen page.
+>
+> There are a number of items in the ED-4 Diagnostics page that can be accessed.
+>
+> 1. Advanced Alarms – used for viewing additional details about alarms
+> 2. Data Log and View – used to view and log data
+> 3. Lamp Diagnostic – used to view lamps
+> 4. Demo Data – places the display in demo mode
+> 5. Demo Alarm - places the display in demo alarm mode.
+>
+> **Note · Примечание**
+> Do **not** leave “Demo Data” or “Demo Alarm” selections enabled in the Diagnostics page. Doing so will cause false data and alarms messages to be shown on the ED-4 display data screen.
+>
+> Diagnostics - Advanced Alarms
+>
+> To obtain more information on an alarm or to view all alarms received by the ED-4, go to the “Advanced Alarms” in the Diagnostics page.
+>
+> **Note · Примечание**
+> Once a system fault is corrected, it may take up to 60 seconds for the alarm code to disappear on the ED-4 display.
+>
+> Diagnostics – Advanced Alarms
+>
+> Typical information shown in the Advanced Alarms page:
+>
+> 1. Status and number of system faults
+> 2. Description of the fault
+> 3. SPN of fault
+> 4. FMI of fault
+> 5. Engine hours at the time the fault occurred **Note:** The engine hours will reset to current engine hours broadcasted by the ECM after a key cycle.
+> 6. Cummins fault code (FC) or alarm code (AC) number
+> 7. Source detecting the fault
+> 8. Count of fault occurrences.
+>
+> **Note · Примечание**
+> If the count of fault occurrences is **not** known, the value of 127 will be shown by the ED-4. This value will be seen for all alarm codes and generator faults.
+>
+> Action:
+>
+> - Select “Menu”, then “Diagnostics”, then “Advanced Alarms”.
+> - Press key 1 or “Previous” to scroll.
+> - Press key 2 or “Next” to scroll.
+>
+> Diagnostics - Advanced Alarms
+>
+> Pressing key 4 or “DM2” in the “Advanced Alarms” page will populate the ED-4 with inactive faults codes saved by the engine ECM.
+>
+> **Note · Примечание**
+> The DM2 alarms will appear as Active on the ED-4 screen, even though they are inactive in the engine ECM.
+>
+> The DM2 messages shown on the ED-4 will disappear after approximately 2 minutes or after a system enable switch power cycle.
+>
+> INSITE™ electronic service tool can be used to clear all inactive fault codes from the engine ECM.
+>
+> When Finished:
+>
+> - Press key 5 or “Close” to remove the alarm pop up message.
+> - Press key 5 or “Back” to exit the page.
+>
+> Diagnostics - Data Log and View
+>
+> To data log or view data monitored by the ED-4, go to the “Data Log and View” in the Diagnostics page.
+>
+> Action:
+>
+> - Press key 4 or “Enter”.
+>
+> When Finished:
+>
+> - Press key 5 or “Back” to exit the page.
+>
+> Diagnostics - Data Log and View
+>
+> There are a number of items in the ED-4 Data Log and View page that can be accessed.
+>
+> 1. CAN Viewer and Logger - used for viewing and logging controller area network (CAN) data link information.
+> 2. Parameter Logger - used to view and log parameter data. This features is not enabled at product launch.
+> 3. I/O Viewer - used to view OEM sensor input and output information.
+> 4. Parameter Viewer - used to view data received from various components.
+>
+> Data Log and View - CAN Viewer and Logger
+>
+> In the “Data Log and View” page, enter the “CAN Viewer and Logger” page.
+>
+> Action:
+>
+> - Press key 4 or “View"
+>
+> After entering the page. CAN data can be viewed live on the display in real time.
+>
+> In this page, ED-4 has the capability of viewing, logging, and exporting CAN data.
+>
+> When Finished:
+>
+> - Press key 5 or “Back” to exit the page.
+>
+> Data Log and View - CAN Viewer and Logger
+>
+> To view basic information about the ED-4 CAN network, enter the “Stats” page.
+>
+> Action:
+>
+> - Press key 4 or “Stats”
+>
+> After entering the page. CAN data can be viewed live on the display in real time.
+>
+> CAN 1 is J1939 data link network.
+>
+> CAN 2 is typically the NMEA 2000 data link network.
+>
+> If there is an issue with the ED-4 or CAN data link network, there may be values other than 0 shown for Bit Error Count Rx (receive) and Bit Error Count Tx (transmit).
+>
+> When Finished:
+>
+> - Press key 5 or “Back” to exit the page.
+>
+> Data Log and View - CAN Viewer and Logger
+>
+> Data logging is helpful for determining if the J1939 and/or NMEA 2000 network is working properly.
+>
+> **Note · Примечание**
+> It is important to verify the gateway ED-4 is receiving J1939 messages from the engine ECM before using ED-4 data logging to troubleshoot NMEA 2000 or J1939 issues at the MFD.
+>
+> When logging, the data is stored on the ED-4 up to 20,000 frames.
+>
+> - It is important to log and export CAN data from the ED-4 that is set up as the gateway for the J1939 and/or NMEA 2000 data or receiving and/or transmitting J1939 data. On the C Command Connect Premier option, the gateway will **always** be the ED-4 in the C.I.B. Enter the ED-4 Configuration page to determine if the ED-4 is set up as a gateway for the system.
+>
+> Data Log and View - CAN Viewer and Logger
+>
+> To log CAN data:
+>
+> - Press key 3 or “Record”
+> - If troubleshooting CAN data link issues, it is recommended to allow the ED-4 to capture 20,000 frames of data before pressing key 3 or “Stop”. The ED-4 will automatically stop recording after 20,000 frames, which is approximately 2 minutes. If additional datalogging is needed to capture an event, the record key will need to be pressed again.
+> - The log file will save to the ED-4 internal memory.
+>
+> To extract the log, insert a USB drive into the back of the ED-4.
+>
+> Once the USB drive is detected by the ED-4:
+>
+> - Press key 2 or “Down” and select “Extract Log(s)”.
+> - Press key 4 or “Save”.
+> - When finished, press Key 5 or “Eject”.
+>
+> The log file will be saved in the “LOGS” folder automatically created on the USB drive.
+>
+> **Note · Примечание**
+> It is recommend to save and remove log files from the LOGS folder on the USB drive before exporting log files from the ED-4.
+>
+> The saved log file(s) can be analyzed.
+>
+> Log files are compressed into a zip file on the USB drive called "Logs\_XXXXX.zip".
+>
+> - Extract the zip file using a decompression tool such as WinZip™ or comparable software.
+>
+> The XXXXX in "Logs\_XXXXX.zip" and "Canlog\_XXXXX\_\#.asc" represents the software serial number for the ED-4 from which the CAN log was exported.
+>
+> The \# in "Canlog\_XXXXX\_\#.asc" represents the order in which the CAN logs were created. For example, the first CAN log file saved will be "CAN\_XXXXX\_1.asc" and the second one saved will be "Canlog\_XXXXX\_2.asc" and so on.
+>
+> It is important to utilize the most recent index log file for analysis of the signals being broadcast.
+>
+> **Note · Примечание**
+> The date and time stamp on the log files will **not** be correct since the ED-4 is **not** capable of determining the actual date and time.
+>
+> To analyze the data, open the "Canlog\_XXXXX\_\#.asc" file(s) in Excel and perform the following data format.
+>
+> 1. Select “Delimited”
+> 2. Select “Space Delimited”.
+>
+> After formatting, review the data in Excel.
+>
+> 1. CAN Network Fields
+> 2. PGN Fields.
+>
+> It is possible to examine the logged data stored in the ASC file and determine if the parameter is being transmitted appropriately from the ED-4 gateway to the NMEA 2000 network and J1939.
+>
+> Example:
+>
+> To determine if the “Transmission” parameters are being broadcast properly on CAN NMEA 2000 network, hold down the Control key in Excel and press F to perform a search for “F205”. If this parameter is **not** found in the spreadsheet, then the ED-4 is **not** broadcasting the transmission parameters properly. Load the appropriate VPF into the ED-4 to be sure that the network settings are set up correctly for the vessel.
+>
+> If all parameters are being broadcast correctly, then the OEM MFD is either **not** configured properly or there is an issue in the OEM NMEA 2000 or J1939 wiring to the MFD.
+>
+> Review the data in Excel.
+>
+> 1. CAN Network Fields
+> 2. PGN Fields.
+>
+> CAN Message Example (all hex values): XX **F004** \#\#.
+>
+> - The "XX" prior to the PGN number includes the priority of the message. This is any two digit number, followed by 4 digit PGN.
+> - The 4 digit PGN number is valuable for determining if the ED-4 is broadcasting the signal properly.
+> - The \#\# after the PGN number represents the two digit address number of the J1939 or NMEA 2000 device which are broadcasting the signals.
+>
+> | **CAN Network Fields(0 = CAN1)** (**1 = CAN2)** | **CAN Message(XX =** | **Parameter Information** |
+> |---|---|---|
+> | 0 | XXF004\#\# | Engine Parameters |
+> | 0 | XXFECA\#\# | DM1 (Diagnostic Message 1) |
+> | 0 | XXF10D\#\# | Rudder Angle |
+> | 0 | XXFEF8\#\# | Transmission |
+> | 0 | XXFEFC\#\# | Fuel Level |
+> | 1 | XXF200\#\# | Engine Parameters |
+> | 1 | XXF201\#\# | Engine Parameters |
+> | 1 | XXF10D\#\# | Rudder Angle |
+> | 1 | XXF205\#\# | Transmission |
+> | 1 | XXF211\#\# | Fuel Level |
+>
+> If parameter information is **not** found in the log file, troubleshoot by determining if the correct VPF file is loaded in the ED-4 and there are **not** issues with the J1939 data link.
+>
+> If parameter information is found in the log file, consult the OEM for troubleshooting support of the MFD.
+>
+> **Note · Примечание**
+> Some MFDs may **not** be compatible or capable of receiving CAN message information from the ED-4.
+>
+> Data Log and View - Parameter Logger
+>
+> Parameter Logger functionality is **not** enabled at time of product launch.
+>
+> Data Log and View - I/O Viewer
+>
+> In the “Data Log and View” page, enter the “I/O Viewer” page.
+>
+> Action:
+>
+> - Press key 4 or “View.
+> - Press key 2 or “Next” to view the available sensor information.
+>
+> After entering the page, OEM sensor data can be viewed live on the display in real time.
+>
+> The units in the Parameter Viewer page are fixed and are **not** impacted by the user Units selection setting. All pressure values are absolute.
+>
+> **Note · Примечание**
+> There is a pressure difference reading of approximately 2 kPa \[0.29 psi\] between C.I.B. ED-4 and Helm ED-4 due to message broadcast tolerances.
+>
+> When Finished:
+>
+> - Press key 5 or “Back” to exit the page.
+>
+> Data Log and View - I/O Viewer
+>
+> The following information is available on the I/O viewer page and can be useful during troubleshooting. The VPF controls the functionality and vessel sensor set up parameters displayed on the page.
+>
+> 1. Input or output designated with a component/sensor name for the parameter.
+> 2. The connector and pin location on the back of the ED-4 that the sensor is pinned to. See the C Command Connect wiring diagram to determine the ED-4 pin connector location to the C.I.B.
+> 3. Measurement Mode
+> 4. Raw Value - the data value the ED-4 is receiving. If dashes are seen, then the ED-4 is **not** receiving signal data from the component/sensor.
+> 5. Raw value destination information of the data. If dashes are seen, then the ED-4 is **not** passing signal data for the component/sensor.
+> 6. Output - component/sensor range.
+>
+> Use the following procedure for accessing sensor information contained in the VPF. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15]]. The Cummins® Marine Application Engineering group creates the VPF and updates the Cummins® INCAL™ disc or drive folder “Cummins ED-4 Display Vessel Personality File Tracking Sheet” with file name, version, and description of the vessel, application, equipment, and vessel sensor information.
+>
+> Data Log and View - I/O Viewer
+>
+> The process below can be performed to confirm the ED-4 chip has **not** failed and the analog input channels are working properly.
+>
+> Action:
+>
+> 1. Power up the ED-4 with the Secondary connector unplugged from the rear of the ED-4.
+> 2. Press key 5 or “Menu”.
+> 3. Scroll to "Configuration" and press key 4 or "Enter".
+> 4. Press key 1 or "Accept" on the Warning screen.
+> 5. Scroll to "IO Configuration" and press key 4 or "Enter".
+> 6. Scroll to option "AI6-Custom 1" and press key 4 or "Enter".
+> 7. Scroll to "Resistance (0-500)" and press key 4 or "Enter" to turn “On” the setting.
+> 8. Press key 5 or “Back” to the Main Menu Screen.
+> 9. Access “I/O Viewer” page under “Menu -\> “Diagnostics” -\> “Data Log and View”.
+> 10. Scroll to “I/O Viewer” press key 4 or “View”.
+> 11. Press key 2 or “Next” to "AI6-Custom 1" I/O Viewer page.
+> 12. Confirm that “Measurement Mode, Resistance” is seen. Check that the raw value for resistance seen is approximately 1100 ohms. If the raw resistance value is below 1000 ohms, this would typically indicate a failed ED-4 display with analog I/O issues. The normal open circuit resistance on analog input pins for a known good ED-4 is typically above 1100 ohms.
+> 13. Change back the “AI6-Custom 1” setting made in Step 7 by following the next steps.
+> 14. Press key 5 or “Back” to the Main Menu Screen.
+> 15. Scroll to "Configuration" and press key 4 or "Enter".
+> 16. Press key 1 or "Accept" on the Warning screen.
+> 17. Scroll to "IO Configuration" and press key 4 or "Enter".
+> 18. Scroll to option "AI6-Custom 1" and press key 4 or "Enter".
+> 19. Select "Off" and press key 4 or "Enter".
+>
+> When Finished:
+>
+> - Press key 5 or “Back” to return to the Menu page.
+> - Press key 5 or “Exit” to return to the data screen page.
+>
+> Data Log and View - Parameter Viewer
+>
+> In the “Data Log and View” page, enter the “Parameter Viewer” page.
+>
+> The number in the bracket (1) signifies the engine or device the parameter data signal is being received from.
+>
+> The number is in sequence to the engines listed on the ED-4 “Configuration” page. For example, if Stbd and Port are listed, then Stbd is device 1 and Port is device 2 on the parameter viewer page.
+>
+> Action:
+>
+> - Press key 4 or “View.
+> - Press key 2 or “Next” to view parameters.
+> - Press key 4 or “Device” to view the parameters for the different engines/devices the ED-4 is monitoring. Use the following procedure to determine the ED-4 setup. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+>
+> When Finished:
+>
+> - Press key 5 or “Back” to exit the page.
+>
+> The tank profile can be configured if the fluid tank is being monitored through the ED-4.
+>
+> The fluid tank profile can be changed by pressing key 5 or “Menu” on the data screen page.
+>
+> #### Action
+>
+> - Press key 5 or “Menu”
+> - Select “Configuration” and press key 4 or “Enter"
+> - Press key 1 or “Accept”
+> - Select “Device and press key 4 or “Enter” (NOTE: Device could be any of Starboard, Port, Starboard-Outer, Port-Inner)
+> - Select “Tank Profile” and press key 4 or “Enter"
+> - Select appropriate fluid to be configured
+> - Press key 4 or “Setup"
+> - Press key 4 or “Start".
+>
+> The fuel, engine oil, coolant, fresh water, wastewater and black water tanks can be configured with the ED-4, if vessel permits.
+>
+> A message will appear on the ED4 display which will ask to confirm tank is empty before proceeding configuration.
+>
+> The fluid tank profile can be changed by pressing key 5 or “Menu” on the data screen page, if configured tank levels are known at 25%, 50% & 75% of tank capacity. The fuel, engine oil, coolant, fresh water, wastewater and black water tanks can be configured with the ED-4, if vessel permits and VPF supports the input for configuration.
+>
+> #### Action:
+>
+> - Press key 5 or “Menu”
+> - Select “Configuration” and press key 4 or “Enter”
+> - Press key 1 or “Accept"
+> - Select “Device” and press key 4 or “Enter” (NOTE: Device could be any of Starboard, Port, Starboard-Outer, Port-Inner)
+> - Select “Tank Profile” and press key 4 or “Enter”
+> - Select fluid type to be configured
+> - Press key 4 or “Setup”
+> - Press key 2 or “Down"
+> - Press key 4 or “Start”
+> - Select “Tank Volume"
+> - Press key 4 or “Inc” and key 3 or “Dec” to enter “Tank Volume"
+> - Press key 2 or “Down"
+> - Press key 4 or “Inc” and key 3 or “Dec” to enter 25% tank level known at “Point 1”
+> - Press key 2 or “Down"
+> - Press key 4 or “Inc” and key 3 or “Dec” to enter 50% tank level known at “Point 2”
+> - Press key 2 or “Down”
+> - Press key 4 or “Inc” and key 3 or “Dec” to enter 75% tank level known at “Point 3"
+>
+> If equipped, the brightness of the ED-4 display can be changed by pressing key 3 or “Function” on the data screen page.
+>
+> #### Action:
+>
+> - Press key 3 or "Function"
+> - Press key 3 or "Dimmer"
+> - Press key 4 or "Brighter"
+>
+> The percent brightness of the display is shown in the Brightness row and ranges from 10 to 100%.
+>
+> Press key 5 or “Exit” to save the setting and exit the brightness setting.
+>
+> If equipped, the trip reset of the ED-4 can be changed by pressing key 3 or “Function” on the data screen page.
+>
+> #### Action:
+>
+> - Press key 3 or "Function"
+> - Press key 2 or "Down"
+> - Press key 4 of "Choose"
+> - Press key 4 or "Send"
+>
+> If feature is available, pressing “send” will reset the trip information. A warning message will appear after pressing “Send” to notify that the trip reset message was sent.
+>
+> Press key 5 or “Back” to save the setting and exit the trip reset setting.
+>
+> Data Log and View - Parameter Viewer
+>
+> The software controls the parameters displayed on the page; therefore, some parameters may or may **not** be representative of the product the system is connected to.
+>
+> At the time of product launch, the Parameter Viewer page contains all parameters the ED-4 is capable of monitoring; It is **not** tailored for each marine application.
+>
+> After entering the page, parameter data can be viewed live on the display in real time and can be useful during troubleshooting. If dashes are seen, then the ED-4 is **not** receiving signal data for the parameter. Possible data signal issues may include an issue with the component or an issue with the data link.
+>
+> The units in the Parameter Viewer page are fixed and are **not** impacted by the user Units selection setting. All pressure values are absolute.
+>
+> **Note · Примечание**
+> There is a pressure difference reading of approximately 2 kPA \[0.29 psi\] between CIB ED-4 and Helm ED-4 due to message broadcast tolerances.
+>
+> ED-5 and ED-7
+>
+> The user can interact with the display touch screen or through remote keypad installed standalone near the display.
+>
+> The function of the display touch screen and remote keypad.
+>
+> 1. Press in the middle of the data screen to open the Menu page or press on the “Menu”(I) soft key to open the Menu page.
+> 2. Press any space of the data screen to open the data screen edit page.
+> 3. Swipe from right to left or left to right when on the data screen to scroll.
+> 4. Swipe from left to right on the screen when in the Menu structure to return to last page or exit the menu or press on the “Back”(IV) button on the data screen to return to the last page.
+> 5. Press on the “Alarm”(III) soft key to open the Alarms page.
+> 6. Press “Backlight”(II) soft key to open the backlight control page.
+>
+> 1. Key 1 (Up) - Press key 1 to scroll up.
+> 2. Key 2 (Left) – Press key 2 to scroll left.
+> 3. Key 3 (Enter / Select) –
+> 4. Key 4 (Down) - Press key 4 to scroll down.
+> 5. Key 5 (Right) - Press key 5 to scroll right.
+> 6. Key 6 (Return / Exit) - Press key 6 to exit screen prompts, exit screen editor, exit menu page or to go back to previous menu level and while on data screen press key 6 once to enter the active alarm page.
+> 7. Hold Key 1 (Up) and Key 4 (Down) for 3 seconds to access the soft keys on the screen. Once the soft keys are highlighted using key 3 (Enter / Select) to access the function.
+>
+> A variety of diagnostics can be performed with the ED-5/ED-7 display.
+>
+> The Diagnostics page is part of the advanced settings and is protected by a security PIN. The Main Menu page of the ED-5/ED-7 display can be accessed by pressing the middle of the data screen page or use “Menu”(I) soft key on the screen or press and hold key 3 or “Select/Enter” on the remote keypad.
+>
+> Action:
+>
+> - Press the middle of the data screen page or press and hold key 3 or “Select/Enter” on the remote keypad.
+> - Select “Security”, then “Change Level”, then “Diagnostic” or use the remote keypad to scroll through menu and selection.
+> - Enter the “Security PIN”. Default security PIN to access advanced settings is “1919”.
+> - Swipe right to left to access the Diagnostics page.
+>
+> Sharing the default security PIN without proper knowledge can lead to unintended changes causing loss or erratic function.
+>
+> The security PIN entry on the display is **only** available using touchscreen and cannot be performed using CAN keypad.
+>
+> When Finished:
+>
+> - Swipe from left to right when in the Menu structure to exit to the data screen page.
+>
+> Security Pin Entry
+>
+> Diagnostics Page
+>
+> There are number of items in the ED-5 and ED-7 Diagnostics page that can be accessed.
+>
+> 1. CAN Viewer – used to view and log data
+> 2. DB Viewer – used to view data
+> 3. Alarm Viewer – used for viewing additional details about alarms
+> 4. Device Information – used to devices on the network
+> 5. Demo Data – places the display in demo mode
+>
+> Do **not** leave “Demo Data” selections enabled in the Diagnostics page. Doing so will cause false data and alarms messages to be shown on the ED-5/ED-7 display data screen.
+>
+> CAN Viewer
+>
+> CAN Viewer data logging is helpful for determining if the J1939 and/or NMEA 2000 network is working properly.
+>
+> It is important to verify the gateway ED-5/ED-7 is receiving J1939 messages from the engine ECM before using ED-5/ED-7 data logging to troubleshoot NMEA 2000 or J1939 issues at the MFD.
+>
+> When logging, the data is stored on the ED-5/ED-7 up to 40,000 frames.
+>
+> - It is important to log data from the ED-5/ED-7 set up as the gateway for receiving the J1939 data.
+>
+> Data Log and View - CAN Viewer and Logger
+>
+> To log CAN data:
+>
+> - Select “Logger”, then “Save to display”.
+> - Press key 3 or “Record”
+> - If troubleshooting CAN data link issues, it is recommended to allow the ED-5/ED-7 to capture 40,000 frames of data before pressing key 3 or “Stop”. The ED-5 and ED-7 will automatically stop recording after 20,000 frames, which is approximately 2 minutes. If additional datalogging is needed to capture an event, the record key will need to be pressed again.
+> - The log file will save to the ED-5 and ED-7 internal memory.
+>
+> To extract the log, insert a USB drive into the back of the ED-5/ED-7.
+>
+> Once the USB drive is detected by the ED-5/ED-7:
+>
+> - Select “Offload Log(s)”.
+> - When finished, exit the USB Detected screen by swiping left to right.
+>
+> The log file will be saved in the “1536-Serial Number” folder automatically created on the USB drive. Serial Number is unique to device and can be accessed from “About” screen.
+>
+> The saved log file(s) can be analyzed.
+>
+> Log files are stored into a folder on the USB drive called “1536-Serial Number”.
+>
+> The CAN log file saved will be “canLog.asc”.
+>
+> To analyze the data, open the “canLog.asc” file(s) in Excel and perform the following data format.
+>
+> 1. Select “Delimited”.
+> 2. Select “Space Delimited"
+>
+> After formatting, review the data in Excel.
+>
+> 1. CAN Network Fields
+> 2. PGN Fields.
+>
+> If all parameters are being broadcast correctly, then the OEM MFD is either **not** configured properly or there is an issue in the OEM NMEA 2000 or J1939 wiring to the MFD.
+>
+> Review the data in Excel.
+>
+> 1. CAN Network Fields
+> 2. PGN Fields.
+>
+> CAN Message Example (all hex values): XXF004\#\#.
+>
+> - The "XX" prior to the PGN number includes the priority of the message. This is any two digit number, followed by 4 digit PGN.
+> - The 4 digit PGN number is valuable for determining if the ED-5 and ED-7 is broadcasting the signal properly.
+> - The \#\# after the PGN number represents the two digit address number of the J1939 or NMEA 2000 device which are broadcasting the signals.
+>
+> | CAN Network Fields (1 = CAN1) (2 = CAN2) | CAN Message (XX =) | Parameter Information |
+> |---|---|---|
+> | 1 | XXF004\#\# | Engine Parameters |
+> | 1 | XXFECA\#\# | DM1 (Diagnostic Message 1) |
+> | 1 | XXF10D\#\# | Rudder Angle |
+> | 1 | XXFEF8\#\# | Transmission |
+> | 1 | XXFEFC\#\# | Fuel Level |
+> | 2 | XXF200\#\# | Engine Parameters |
+> | 2 | XXF201\#\# | Engine Parameters |
+> | 2 | XXF10D\#\# | Rudder Angle |
+> | 2 | XXF205\#\# | Transmission |
+> | 2 | XXF211\#\# | Fuel Level |
+>
+> If parameter information is not found in the log file, troubleshoot by determining if the correct configuration is loaded in the ED-5/ED-7 and there are **not** issues with the J1939 data link.
+>
+> If parameter information is found in the log file, consult the OEM for troubleshooting support of the MFD.
+>
+> **Note · Примечание**
+> Some MFDs may **not** be compatible or capable of receiving CAN message information from the ED-5/ED-7.
+>
+> Diagnostics - Advanced Alarms
+>
+> To obtain more information on an alarm or to view all alarms received by the ED-5/ED-7, go to the “Advanced Alarms” in the Diagnostics page. Once a system fault is corrected, it can take up to 60 seconds for the alarm code to disappear on the ED-5/ED-7 display.
+>
+> Diagnostics – Alarm Viewer
+>
+> Typical information shown in the Alarm Viewer page:
+>
+> 1. Status and number of system faults
+> 2. Description of the fault
+> 3. SPN/FMI of fault
+> 4. Cummins® fault code (FC) or alarm code (AC) number
+> 5. Source detecting the fault
+> 6. Engine hours at the time the fault occurred
+> 7. Occurrence Count
+> 8. Manufacturer Information
+> 9. Duration since alarm become active
+>
+> The engine hours and duration since alarm become active will reset to current engine hours broadcasted by the ECM after a key cycle and duration time after a key cycle.
+>
+> **Note · Примечание**
+> If the count of fault occurrences is **not** known, the value of 127 will be shown by the ED-5 and ED-7. This value will be seen for all alarm codes and generator faults.
+>
+> Action:
+>
+> - Select “Menu”, then “Diagnostics”, then “Alarm Viewer”.
+> - Press “Prev” to scroll.
+> - Press “Next” to scroll.
+>
+> Diagnostics - Alarm Viewer
+>
+> - Pressing “Historic” in the “Alarm Viewer” page.
+> - Pressing “Req.” will populate the ED-5/ED-7 with inactive faults codes saved by the engine ECM.
+>
+> The DM2/DM54 alarms will appear as Active on the ED-5/ED-7 screen, even though they are inactive in the engine ECM.
+>
+> The DM2/DM54 messages shown on the ED-5/ED-7 will disappear after approximately 2 minutes or after a system enable switch power cycle.
+>
+> INSITE™ electronic service tool can be used to clear all inactive fault codes from the engine ECM.
+>
+> When Finished:
+>
+> - Swipe from left to right or when in the Menu structure or “Return/Exit” button on the remote keypad to exit to the data screen page.
+>
+> Diagnostics – DB Viewer
+>
+> To view data monitored by the ED-5/ED-7, go to the “DB Viewer” in the Diagnostics page. The number in the parenthesis signifies the engine or device the parameter data is being received from.
+>
+> The number is in sequence to the engines listed on the ED-5/ED-7 “Setup” page. For example, if Stbd and Port are listed, then Stbd is device 2 and Port is device 1 on the parameter viewer page.
+>
+> Action:
+>
+> - Select “DB Viewer” using touch screen or “Select/Enter” button on the remote CAN keypad.
+> - Use up and down button to scroll through the list of parameters.
+> - Press “Change Instance” to view the parameters for the different engines/devices the ED-5/ED-7 is monitoring. Use the following procedure to determine the ED-5/ED-7 setup. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+>
+> When Finished:
+>
+> - Swipe from left to right or use “Back”(IV) button on the screen or when in the Menu structure or “Return/Exit” button on the remote keypad to exit to the data screen page.
+>
+> DB Viewer Screen and Parameters
+>
+> Diagnostics – Device Information
+>
+> To view other devices connected on the CAN network with the ED-5/ED-7, go to the “Device Information” in the Diagnostics page. The page shows the options for CAN1 and CAN2 to view list of other devices, respective source address and manufacturer identifier.
+>
+> Action:
+>
+> - Select “Device Information” using touch screen or “Select/Enter” button on the remote keypad.
+> - Select “CAN1” using touch screen or “Select/Enter” button on the remote keypad.
+>
+> When Finished:
+>
+> - Swipe from left to right or use “Back”(IV) button on the screen or when in the Menu structure or “Return/Exit” button on the remote keypad to exit to the data screen page.
+>
+> Device Information Page
+>
+> Brightness Control
+>
+> The brightness of the ED-5/ED-7 display can be changed by pressing in the middle of the data screen page or pressing the “Backlight”(II) soft key on the data screen or press and hold “Select/Enter” button of the remote keypad while on the data screen page. The brightness control feature includes configurable backlight levels as “Dark Mode” and “Light Mode”. The “Dark Mode” is pre-configured as 20 percent and “Light Mode” is pre-configured as 90 percent.
+>
+> Action:
+>
+> - Press “Preferences” or select “Preferences” using the remote keypad.
+> - Press “-“ to decrease the brightness level.
+> - Press “+” to increase the brightness level
+>
+> Adjusting Brightness Settings
+>
+> The brightness of the display is shown in the Backlight row and ranges from 10 to 100 percent, with 10 percent being minimum brightness level and 100 percent being maximum brightness level.
+>
+> Swipe left to right or press “Back”(IV) button on the screen or press “Return/Exit” key to save the setting and exit the brightness setting.
+>
+> **Note · Примечание**
+> The brightness change when performed on ED-4 and change is transmitted to ED-5/ED-7, the brightness level on ED-5 / ED-7 can show differently considering the difference in the display hardware's.
+>
+> Trip Information
+>
+> The trip reset function can be accessed from the Diagnostics page.
+>
+> Action:
+>
+> - Press the middle of the data screen page or press & hold key 4 or “Select/Enter” on the remote keypad.
+> - Select “Trip Information”(VII) or use the remote keypad to scroll through menu for selection.
+> - Select device to access trip information received from the device.
+> - Select “Trip Information Reset” to send trip reset message.
+>
+> If feature is available, pressing “send” will reset the trip information. A warning message will appear after pressing “Send” to notify that the trip reset message was sent.
+>
+> Swipe left to right or use “Back”(IV) button on the screen or press “Return/Exit” key to save the setting and exit the trip information.
+>
+> Trip Information Selection Screen
+>
+> Trip Information Reset Screen
+>
+> ### Preparatory Steps
+>
+> ED-4
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Install the ED-4 display onto the C.I.B., if removed. Refer to Procedure 015-023 in Section 15.
-- Connect the batteries. See equipment manufacturer service information.
-- If the ED-4 display is replaced, the display software and VPF **must** be updated.
-- Check the configuration information. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
-- Check the general operating instructions settings. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1]].
-- Perform system test to verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]
-
-ED-5 and ED-7
-
-> [!danger] WARNING · Опасно
+>
+> - Document display software. [[513-015-107 — Display Software|Refer to Procedure 015-107 in Section 15.]]
+> - Document and save VPF. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15]].
+> - Check the configuration information. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15]].
+> - Check the general operating instructions settings. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1]].
+> - Remove the ED-4 display from the C.I.B., if required. Refer to Procedure 015-023 in Section 15.
+> - Disconnect the batteries. See equipment manufacturer service information.
+>
+> ED-5 and ED-7
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Connect the batteries. See equipment manufacturer service information.
-- If the ED-5/ED-7 display is replaced, the display software and VPF **must** be updated.
-- Check the configuration information. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
-- Check the general operating instructions settings. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1.]]
-- Perform system test to verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]
+>
+> - Document display software. [[513-015-107 — Display Software|Refer to Procedure 015-107 in Section 15.]]
+> - Document and save VPF. [[513-015-044 — Managing Vessel Personalities|Refer to Procedure 015-044 in Section 15.]]
+> - Check the configuration information. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+> - Check the general operating instructions settings. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1.]]
+> - Disconnect the batteries. See equipment manufacturer service information.
+>
+> ### Remove
+>
+> ED-4
+>
+> Disconnect the harness connectors from the ED-4 display.
+>
+> 1. Primary (gray)
+> 2. Secondary (black).
+>
+> Remove the plastic mounting stud nuts.
+>
+> Remove the ED-4 from the helm.
+>
+> **Note · Примечание**
+> It is recommended that the plastic studs and nuts are used to mount the ED-4 to the helm. If different mounting hardware is used, it is important to use the proper length screws for mounting the ED-4. The ED-4 will be damaged if too long of screws are used.
+>
+> ED-5 and ED-7
+>
+> Disconnect the harness connectors from the ED-5/ED-7 display.
+>
+> 1. CAN1.
+> 2. AUX.
+>
+> Remove the plastic mounting stud nuts.
+>
+> Remove the ED-5/ED-7 from the helm.
+>
+> It is recommended that the plastic studs and nuts are used to mount the ED-5/ED-7 to the helm. It is **not** recommended to use different mounting hardware as the unit will be damaged due to long screws.
+>
+> ### Inspect
+>
+> Inspect the ED-4 and mounting seal.
+>
+> Replace the ED-4 if damaged.
+>
+> Damage to the mounting seal may be due to improper installation at the helm mounting location or mounting surface condition.
+>
+> ### Install
+>
+> ED-4
+>
+> Insert the ED-4 into the helm opening.
+>
+> Secure the ED-4 with the plastic mounting studs and nuts. Do **not** over-tighten the nuts. Hand-tighten **only**.
+>
+> **Note · Примечание**
+> It is recommended that the plastic studs and nuts are used to mount the ED-4 to the helm. If different mounting hardware is used, it is important to use the proper length screws for mounting the ED-4. The ED-4 will be damaged if too long of screws are used.
+>
+> **Note · Примечание**
+> The ED-4 installed in the CIB requires unique fasteners that **must** be reused. Use the following procedure for installation information. Refer to Procedure 015-023 in Section 15.
+>
+> Inspect the harness connectors before installation.
+>
+> Connect the harness connectors to the ED-4 display.
+>
+> 1. Primary (gray)
+> 2. Secondary (black).
+>
+> Verify the harness connections are **not** excessively stressed.
+>
+> ED-5 and ED-7
+>
+> Insert the ED-5/ED-7 into the helm opening.
+>
+> Secure the ED-5/ED-7 with the plastic mounting studs and nuts. Do **not** overtighten the nuts. Hand-tighten **only**.
+>
+> Inspect the harness connectors before installation.
+>
+> Connect the harness connectors to the ED-5/ED-7 display.
+>
+> 1. CAN1.
+> 2. AUX.
+>
+> Verify the harness connections are **not** excessively stressed and **not** overtighten the connections to the display.
+>
+> ### Finishing Steps
+>
+> ED-4
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the ED-4 display onto the C.I.B., if removed. Refer to Procedure 015-023 in Section 15.
+> - Connect the batteries. See equipment manufacturer service information.
+> - If the ED-4 display is replaced, the display software and VPF **must** be updated.
+> - Check the configuration information. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+> - Check the general operating instructions settings. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1]].
+> - Perform system test to verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]
+>
+> ED-5 and ED-7
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries. See equipment manufacturer service information.
+> - If the ED-5/ED-7 display is replaced, the display software and VPF **must** be updated.
+> - Check the configuration information. [[513-015-108 — Display Configuration|Refer to Procedure 015-108 in Section 15.]]
+> - Check the general operating instructions settings. [[513-101-013 — General Operating Instructions|Refer to Procedure 101-013 in Section 1.]]
+> - Perform system test to verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]

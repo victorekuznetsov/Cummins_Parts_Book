@@ -10,13 +10,15 @@ families:
 manuals:
   - "3666087"
 figures: 13
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-013-003-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-013-003-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Charging System Alternator Bracket
@@ -29,142 +31,266 @@ tags:
 > **Даты:** изменён 2020-11-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-013-003-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-013-003-tr.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Check that the alternator pulley is in line with the other belt driven pulleys. Verify all pulleys are aligned correctly using one of the following pulley alignment fixture tools or equivalent:
 
-- Part Number 3163524
-- Part Number 93874 (Dayco)
+### Первичная проверка
 
-If alternator pulley is out of alignment, verify that the correct alternator brackets have been used and/or have been installed correctly.
+Проверьте, что шкив генератора находится в соответствии с другими шкивами, приводимыми в движение ремнем. Проверьте, правильно ли выровнены все шкивы, используя один из следующих инструментов выравнивания шкивов или эквивалент:
+
+- Часть 3163524
+- Часть 93874 (Дэйко)
+
+Если шкив генератора не выровнен, убедитесь, что правильные скобки генератора были использованы и / или установлены правильно.
 
 ![[13d00038.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the batteries.
+- Отсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-- Remove the drive belt. Refer to [[40-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure Procedure 008-002]]
-- Remove the alternator. Refer to [[40-013-001-tr — Charging System Alternator|Refer to Procedure Procedure 013-001]].
+- Снимите жгут проводов. Видишь?[[40-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002]]
+- Удалите генератор. Видишь?[[40-013-001-tr — Charging System Alternator|См. процедуру 013-001]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Spool Mount:
+Гора Спул:
 
-Remove the upper alternator bracket mounting capscrews.
+Удалите верхние кронштейны генератора, устанавливающие болты.
 
-Remove the alternator bracket.
+Снимите скобку генератора.
 
 ![[13900125.png]]
 
-> [!note] Note · Примечание
-> On some applications, the alternator bracket and water inlet are combined in the same bracket. Refer to [[40-008-082-tr — Water Inlet Connection|Refer to Procedure Procedure 008-082]], where applicable.
+> [!note] Примечание
+> В некоторых случаях кронштейн генератора и впуск воды объединяются в одну кронштейн. Видишь?[[40-008-082-tr — Water Inlet Connection|См. процедуру 008-082]]где это применимо.
 
-Remove the lower alternator bracket mounting capscrews.
+Удалите нижние кронштейны генератора, устанавливающие болты.
 
-Remove the alternator bracket.
+Снимите скобку генератора.
 
 ![[13d00045.png]]
 
-Hinge Mount:
+Гора Хингэ:
 
-Remove the upper alternator bracket mounting capscrews.
+Удалите верхние кронштейны генератора, устанавливающие болты.
 
-Remove the lower alternator bracket mounting capscrews.
+Удалите нижние кронштейны генератора, устанавливающие болты.
 
-Remove the alternator brackets.
+Снимите скобки генератора.
 
 ![[13d00027.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use steam or solvent to clean the alternator brackets. Dry with compressed air.
+Используйте пар или растворитель для очистки скобок генератора. Просушите сжатым воздухом.
 
 ![[13d00059.png]]
 
-Inspect the alternator brackets for cracks or damage.
+Проверьте скобки генератора на наличие трещин или повреждений.
 
-If any cracks are found on the alternator brackets, they **must** be replaced.
+Если на скобках генератора обнаружены трещины, их необходимо заменить.
 
 ![[13d00060.png]]
 
-### Install
+### Установка
 
-Spool Mount:
+Гора Спул:
 
-Install the upper alternator bracket and mounting capscrews.
+Установите верхний кронштейн генератора и крепежные болты.
 
-Tighten the upper and lower alternator bracket mounting capscrew.
+Затянуть верхние и нижние кронштейны генератора крепления болтов.
 
-Torque Value:
+Момент затяжки:
 
-M8
+М8
 
-Torque Value:
+Момент затяжки:
 
-M10
+М10
 
 ![[13900125.png]]
 
-> [!note] Note · Примечание
-> On some applications, the alternator bracket and water inlet are combined in the same bracket. Refer to [[40-008-082-tr — Water Inlet Connection|Refer to Procedure Procedure 008-082]], where applicable.
+> [!note] Примечание
+> В некоторых случаях кронштейн генератора и впуск воды объединяются в одну кронштейн. Видишь?[[40-008-082-tr — Water Inlet Connection|См. процедуру 008-082]]где это применимо.
 
-Install the lower alternator mounting bracket over the two dowel pins.
+Установите нижнюю кронштейну крепления генератора на два штифта.
 
-Install the two alternator bracket mounting capscrews and tighten.
+Установите два крепежных болта генератора и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
 ![[13d00045.png]]
 
-Hinge Mount:
+Гора Хингэ:
 
-Install the upper alternator bracket and mounting capscrews.
+Установите верхний кронштейн генератора и крепежные болты.
 
-Install the lower alternator bracket and mounting capscrew.
+Установите нижнюю кронштейн генератора и крепежные болты.
 
-> [!note] Note · Примечание
-> Depending on the alternator configuration, it may be necessary to wait until the alternator is installed before tightening the lower alternator bracket. This will allow adjustment of the bracket.
+> [!note] Примечание
+> В зависимости от конфигурации генератора переменного тока может потребоваться подождать, пока генератор не будет установлен, прежде чем затянуть нижнюю скобу генератора. Это позволит корректировать скобки.
 
-Tighten the upper and lower alternator bracket mounting capscrew.
+Затянуть верхние и нижние кронштейны генератора крепления болтов.
 
-Torque Value:
+Момент затяжки:
 
-M8
+М8
 
-Torque Value:
+Момент затяжки:
 
-M10
+М10
 
 ![[13d00027.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the alternator. Refer to [[40-013-001-tr — Charging System Alternator|Refer to Procedure Procedure 013-001]].
-- Install the drive belt. Refer to [[40-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure Procedure 008-002]].
+- Установите генератор. Видишь?[[40-013-001-tr — Charging System Alternator|См. процедуру 013-001]].
+- Установите приводной ремень. Видишь?[[40-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002]].
 
 ![[ck800wa.png]]
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries.
+- Подсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Check that the alternator pulley is in line with the other belt driven pulleys. Verify all pulleys are aligned correctly using one of the following pulley alignment fixture tools or equivalent:
+>
+> - Part Number 3163524
+> - Part Number 93874 (Dayco)
+>
+> If alternator pulley is out of alignment, verify that the correct alternator brackets have been used and/or have been installed correctly.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries.
+>
+> - Remove the drive belt. Refer to [[40-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure Procedure 008-002]]
+> - Remove the alternator. Refer to [[40-013-001-tr — Charging System Alternator|Refer to Procedure Procedure 013-001]].
+>
+> ### Remove
+>
+> Spool Mount:
+>
+> Remove the upper alternator bracket mounting capscrews.
+>
+> Remove the alternator bracket.
+>
+> **Note · Примечание**
+> On some applications, the alternator bracket and water inlet are combined in the same bracket. Refer to [[40-008-082-tr — Water Inlet Connection|Refer to Procedure Procedure 008-082]], where applicable.
+>
+> Remove the lower alternator bracket mounting capscrews.
+>
+> Remove the alternator bracket.
+>
+> Hinge Mount:
+>
+> Remove the upper alternator bracket mounting capscrews.
+>
+> Remove the lower alternator bracket mounting capscrews.
+>
+> Remove the alternator brackets.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use steam or solvent to clean the alternator brackets. Dry with compressed air.
+>
+> Inspect the alternator brackets for cracks or damage.
+>
+> If any cracks are found on the alternator brackets, they **must** be replaced.
+>
+> ### Install
+>
+> Spool Mount:
+>
+> Install the upper alternator bracket and mounting capscrews.
+>
+> Tighten the upper and lower alternator bracket mounting capscrew.
+>
+> Torque Value:
+>
+> M8
+>
+> Torque Value:
+>
+> M10
+>
+> **Note · Примечание**
+> On some applications, the alternator bracket and water inlet are combined in the same bracket. Refer to [[40-008-082-tr — Water Inlet Connection|Refer to Procedure Procedure 008-082]], where applicable.
+>
+> Install the lower alternator mounting bracket over the two dowel pins.
+>
+> Install the two alternator bracket mounting capscrews and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Hinge Mount:
+>
+> Install the upper alternator bracket and mounting capscrews.
+>
+> Install the lower alternator bracket and mounting capscrew.
+>
+> **Note · Примечание**
+> Depending on the alternator configuration, it may be necessary to wait until the alternator is installed before tightening the lower alternator bracket. This will allow adjustment of the bracket.
+>
+> Tighten the upper and lower alternator bracket mounting capscrew.
+>
+> Torque Value:
+>
+> M8
+>
+> Torque Value:
+>
+> M10
+>
+> ### Finishing Steps
+>
+> - Install the alternator. Refer to [[40-013-001-tr — Charging System Alternator|Refer to Procedure Procedure 013-001]].
+> - Install the drive belt. Refer to [[40-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure Procedure 008-002]].
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries.

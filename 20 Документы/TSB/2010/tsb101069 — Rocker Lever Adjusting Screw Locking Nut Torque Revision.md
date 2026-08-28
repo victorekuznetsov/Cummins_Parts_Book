@@ -10,13 +10,15 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101069.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101069.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
   - "год/2010"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Adjusting Screw Locking Nut Torque Revision
@@ -27,26 +29,60 @@ tags:
 > **Даты:** выпущен 2010-11-19 · изменён 2010-11-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101069.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101069.pdf)
 
-## Rocker Lever Adjusting Screw Locking Nut Torque Revision
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-The locking nut torque value in Procedure 003-006 (Overhead Set (OBC)) in Section 3, was **not** consistent with other High Horsepower engine design margins.
+## Рука клапанного клапана, корректирующая запирание винта Nut Torque
 
-### Confirmation
+### Суть проблемы
 
-Procedure 003-006 (Overhead Set (OBC)) in Section 3, has been updated to revise the rocker lever adjusting screw locking nut torque value.
+Момент затяжки гайки в процедуре 003-006 (Накладной комплект (OBC)) в разделе 3, было **не** в соответствии с другими запасами конструкции двигателя высокой мощности.
 
-- QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]
-- Industrial QSK45G and QSK60G Series Engines, Troubleshooting and Repair Manual, Bulletin 4021383
-- QSK60G Generator CM700 Troubleshooting and Repair Manual, Bulletin 4021396.
+### Подтверждение
 
-### Resolution
+Процедура 003-006 (Накладной комплект (OBC)) в разделе 3 была обновлена для пересмотра значения крутящего момента гайки клапанного клапана, регулирующего усилие крепления винта.
 
-The locking nut torque value has been increased to align with other High Horsepower engine design margins.
+- Руководство по обслуживанию QSK45 и QSK60, Вестник [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]
+- Промышленные двигатели серии QSK45G и QSK60G, руководство по устранению неполадок и ремонту, бюллетень 4021383
+- Генератор QSK60G CM700 Устранение неполадок и руководство по ремонту, Вестник 4021396.
 
-### Warranty Statement
+### Решение
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Момент затяжки запирающего гайка было увеличено, чтобы соответствовать другим конструктивным запасам двигателя высокой мощности.
 
-### Document History
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Rocker Lever Adjusting Screw Locking Nut Torque Revision
+>
+> ### Core Issue
+>
+> The locking nut torque value in Procedure 003-006 (Overhead Set (OBC)) in Section 3, was **not** consistent with other High Horsepower engine design margins.
+>
+> ### Confirmation
+>
+> Procedure 003-006 (Overhead Set (OBC)) in Section 3, has been updated to revise the rocker lever adjusting screw locking nut torque value.
+>
+> - QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]
+> - Industrial QSK45G and QSK60G Series Engines, Troubleshooting and Repair Manual, Bulletin 4021383
+> - QSK60G Generator CM700 Troubleshooting and Repair Manual, Bulletin 4021396.
+>
+> ### Resolution
+>
+> The locking nut torque value has been increased to align with other High Horsepower engine design margins.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Document History

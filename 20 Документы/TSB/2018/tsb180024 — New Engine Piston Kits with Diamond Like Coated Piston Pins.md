@@ -9,12 +9,14 @@ engines:
 families:
   - "QSX15"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180024.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180024.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # New Engine Piston Kits with Diamond Like Coated Piston Pins
@@ -25,63 +27,130 @@ tags:
 > **Даты:** изменён 2018-02-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180024.pdf)
 
-## New Engine Piston Kits with Diamond Like Coated Piston Pins
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый двигатель Piston Kits с бриллиантом, как покрытые пистонские пинсы
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-Engines:
+### Содержание
+
+**Затронутая продукция**
+
+Двигатели:
 
 - QSX15 CM2350 X106
 - QSX15 CM570
 - QSX15 CM2250
 
-Controlled Product Lists:
+Контролируемые списки продуктов:
 
 - 3961
 - 8587
 - 8588
 
-**Description of Change**
+**Описание изменения**
 
-- A new diamond like coated piston pin and service kits are available.
-- New diamond like coated piston pin is darker in color. See Figures 1 and 2 below.
+- Доступны новые алмазы, такие как покрытый поршневой штифт и наборы для обслуживания.
+- Новый алмаз, как покрытый поршневой штифт, темнее по цвету. См. рисунки 1 и 2 ниже.
 
 ![[01r00221.png]]
 
-Figure 1, Existing Piston Pin.
+Рисунок 1 Существующий Пистон Пин.
 
 ![[01r00222.png]]
 
-Figure 2, Diamond Like Coated Piston Pin.
+Рисунок 2, Бриллиант, как покрытый Пистон Пин.
 
-**Reason for Change**
+**Причина изменения**
 
-New diamond like coated piston pin increases piston pin joint service life.
+Новый алмаз, как покрытый поршневой штифт, увеличивает срок службы поршневого штифта.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-Service parts are available. See Table 1 for part numbers.
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
 
-| Table 1, Service Parts |  |  |  |  |
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| kit, engine piston | 4376246 | No | No | 5473086 |
-| kit, engine piston | 4376567 | No | No | 5473087 |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| комплект, поршень двигателя | 4376246 | Нет | Нет | 5473086 |
+| комплект, поршень двигателя | 4376567 | Нет | Нет | 5473087 |
 
-**Production Status**
+**Статус в производстве**
 
-Implemented for production. See Table 2
+Внедрено в производство. См. таблицу 2.
 
-| Table 2, Production Information |  |  |
+| Таблица 2, Информация о производстве |  |  |
 |---|---|---|
-| ESN First | Build Date 1 | Plant |
-| 80031461 | 21 December 2017 | Jamestown Engine Plant |
-| 1 Engine build date can be found on the engine dataplate. |  |  |
+| ESN First | Постройте дату 1 | растение |
+| 80031461 | 21 декабря 2017 | Джеймстаунский двигательный завод |
+| 1 Дату сборки двигателя можно найти на табличке с данными двигателя. |  |  |
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Engine Piston Kits with Diamond Like Coated Piston Pins
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> Engines:
+>
+> - QSX15 CM2350 X106
+> - QSX15 CM570
+> - QSX15 CM2250
+>
+> Controlled Product Lists:
+>
+> - 3961
+> - 8587
+> - 8588
+>
+> **Description of Change**
+>
+> - A new diamond like coated piston pin and service kits are available.
+> - New diamond like coated piston pin is darker in color. See Figures 1 and 2 below.
+>
+> Figure 1, Existing Piston Pin.
+>
+> Figure 2, Diamond Like Coated Piston Pin.
+>
+> **Reason for Change**
+>
+> New diamond like coated piston pin increases piston pin joint service life.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | kit, engine piston | 4376246 | No | No | 5473086 |
+> | kit, engine piston | 4376567 | No | No | 5473087 |
+>
+> **Production Status**
+>
+> Implemented for production. See Table 2
+>
+> | Table 2, Production Information |  |  |
+> |---|---|---|
+> | ESN First | Build Date 1 | Plant |
+> | 80031461 | 21 December 2017 | Jamestown Engine Plant |
+> | 1 Engine build date can be found on the engine dataplate. |  |  |
+>
+> ### Document History

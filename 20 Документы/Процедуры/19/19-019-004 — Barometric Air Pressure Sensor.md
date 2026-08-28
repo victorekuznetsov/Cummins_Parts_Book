@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-004.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-004.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Barometric Air Pressure Sensor
@@ -38,31 +40,64 @@ tags:
 > **Даты:** изменён 2002-08-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-004.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Connect an electronic service tool to the vehicle datalink.
 
-Turn the keyswitch to the ON position.
+### Первичная проверка
 
-Monitor the ambient air pressure. If an ambient air pressure is less than or equal to 523 mm Hg \[20.6 in Hg\] and the current elevation is less than 10,000 feet, replace the ambient air pressure sensor.
+Подключите электронный инструмент к шине данных CAN транспортного средства.
+
+Переведите замок зажигания в положение ON.
+
+Контролируйте давление окружающего воздуха. Если давление окружающего воздуха меньше или равно 523 мм рт.ст. \[20,6 в рт.ст.] и текущее возвышение составляет менее 10 000 футов, замените датчик давления окружающего воздуха.
 
 ![[19400357.png]]
 
-### Remove
+### Снятие
 
-Lift up on the tab and disconnect the connector from the sensor.
+Поднимите на вкладку и отсоедините разъем от датчика.
 
-Remove the mounting capscrews and sensor from the engine.
+Удалите крепежные болты и датчик из двигателя.
 
 ![[19400379.png]]
 
-### Install
+### Установка
 
-Install a new sensor on the engine. Tighten the capscrews.
+Установите новый датчик на двигатель. Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
+> [!tip] Момент затяжки
+> 23 Н·м [204 фунт-дюйм]
+
+Соедините разъёмы до фиксации.
+
+![[19400379.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> Connect an electronic service tool to the vehicle datalink.
+>
+> Turn the keyswitch to the ON position.
+>
+> Monitor the ambient air pressure. If an ambient air pressure is less than or equal to 523 mm Hg \[20.6 in Hg\] and the current elevation is less than 10,000 feet, replace the ambient air pressure sensor.
+>
+> ### Remove
+>
+> Lift up on the tab and disconnect the connector from the sensor.
+>
+> Remove the mounting capscrews and sensor from the engine.
+>
+> ### Install
+>
+> Install a new sensor on the engine. Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
 > 23 n•m [204 in-lb]
-
-Push the connectors together until they lock.
-
-![[19400379.png]]
+>
+> Push the connectors together until they lock.

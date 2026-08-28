@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-004-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-004-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Accessory Drive Pulley
@@ -35,22 +37,50 @@ tags:
 > **Даты:** изменён 2021-03-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-004-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-004-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Do not lubricate the drive seal. The seal must be clean and dry or the seal will leak.
 
-> [!warning] CAUTION · Осторожно
-> Do not use a hammer to drive the pulley into position. Damage to the thrust bearing will result.
+### Установка
 
-Install new oil seal. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
+> [!warning] ОСТОРОЖНО
+> Не смазывайте уплотнение привода. Пломба должна быть чистой и сухой, иначе пломба протечет.
 
-Lubricate the outside of the shaft and the inside of the pulley with clean engine oil.
+> [!warning] ОСТОРОЖНО
+> Не используйте молоток, чтобы привести шкив в положение. В результате будет нанесен ущерб подшипнику тяги.
 
-Insert the adapter, Part Number 3163373, into the pulley installation tool, Part Number 3376326.
+Установите новый масляный уплотнитель.[[56-001-003-tr — Accessory Drive Seal|См. процедуру 001-003 в разделе 1.]]
 
-Using the pulley installation tool, install the pulley on the shaft until it touches the step on the shaft.
+Смазать внешнюю часть вала и внутреннюю часть шкива чистым моторным маслом.
 
-Remove the tool and adapter.
+Вставьте адаптер, Часть Номер 3163373, в инструмент установки шкива, Часть Номер 3376326.
+
+Используя инструмент установки шкива, установите шкив на вал до тех пор, пока он не коснется ступеньки на вал.
+
+Удалите инструмент и адаптер.
 
 ![[09k00005.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> **CAUTION · Осторожно**
+> Do not lubricate the drive seal. The seal must be clean and dry or the seal will leak.
+>
+> **CAUTION · Осторожно**
+> Do not use a hammer to drive the pulley into position. Damage to the thrust bearing will result.
+>
+> Install new oil seal. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
+>
+> Lubricate the outside of the shaft and the inside of the pulley with clean engine oil.
+>
+> Insert the adapter, Part Number 3163373, into the pulley installation tool, Part Number 3376326.
+>
+> Using the pulley installation tool, install the pulley on the shaft until it touches the step on the shaft.
+>
+> Remove the tool and adapter.

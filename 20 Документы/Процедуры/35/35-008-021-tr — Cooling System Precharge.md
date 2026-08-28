@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-021-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-021-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Cooling System Precharge
@@ -31,24 +33,50 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-021-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-021-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Correct use of SCAs in conjunction with proper maintenance practices are needed to protect engines from cooling system problems. The system **must** be precharged with the correct number of units of SCA.
 
-Cummins/Fleetguard® uses the SCA unit to define the required concentration level to protect against liner pitting.
+### Общие сведения
+
+Для защиты двигателей от проблем с системой охлаждения необходимо правильное использование SCA в сочетании с надлежащей практикой технического обслуживания. Система должна быть заряжена с правильным количеством единиц SCA.
+
+Cummins/Fleetguard® использует блок SCA для определения необходимого уровня концентрации для защиты от прокладки гильзы.
 
 ![[oi805vg.png]]
 
-### Factory Precharge Method
+### Метод предварительной зарядки завода
 
-New engines have a DCA4 coolant filter installed at the factory that will precharge the cooling system to the correct SCA concentration of approximately 1.5 units per gallon.
+Новые двигатели оснащены фильтром охлаждающей жидкости DCA4, установленным на заводе, который будет заряжать систему охлаждения до правильной концентрации SCA примерно 1,5 единицы на галлон.
 
 ![[oi203vd.png]]
 
-### Customer Precharge Method
+### Способ оплаты клиента
 
-When coolant is replaced in the field, it **must** be replaced with fully formulated coolant or a 50/50 mixture of good-quality water and fully formulated antifreeze and the correct service coolant filter.
+Когда охлаждающая жидкость заменяется в полевых условиях, она должна быть заменена полностью приготовленной охлаждающей жидкостью или смесью 50/50 воды хорошего качества и полностью приготовленным антифризом и правильным фильтром для охлаждающей жидкости.
 
-When coolant is replaced in the field, it **must** be replaced with fully formulated coolant or a 50/50 mixture of good-quality water and fully formulated antifreeze and the correct service coolant filter. [[35-018-018-tr — Cooling System|Refer to Procedure 018-018 in Section V]] for correct requirements.
+Когда охлаждающая жидкость заменяется в полевых условиях, она должна быть заменена полностью приготовленной охлаждающей жидкостью или смесью 50/50 воды хорошего качества и полностью приготовленным антифризом и правильным фильтром для охлаждающей жидкости.[[35-018-018-tr — Cooling System|См. процедуру 018-018 в разделе V.]]Для правильных требований.
 
 ![[oi805vh.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Correct use of SCAs in conjunction with proper maintenance practices are needed to protect engines from cooling system problems. The system **must** be precharged with the correct number of units of SCA.
+>
+> Cummins/Fleetguard® uses the SCA unit to define the required concentration level to protect against liner pitting.
+>
+> ### Factory Precharge Method
+>
+> New engines have a DCA4 coolant filter installed at the factory that will precharge the cooling system to the correct SCA concentration of approximately 1.5 units per gallon.
+>
+> ### Customer Precharge Method
+>
+> When coolant is replaced in the field, it **must** be replaced with fully formulated coolant or a 50/50 mixture of good-quality water and fully formulated antifreeze and the correct service coolant filter.
+>
+> When coolant is replaced in the field, it **must** be replaced with fully formulated coolant or a 50/50 mixture of good-quality water and fully formulated antifreeze and the correct service coolant filter. [[35-018-018-tr — Cooling System|Refer to Procedure 018-018 in Section V]] for correct requirements.

@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021375"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-051.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-051.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Radiator Top Tank
@@ -33,22 +35,48 @@ tags:
 > **Даты:** изменён 2003-05-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-008-051.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-008-051.pdf)
 
-### Leak Test
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Headed coolant spray or steam can cause personal injury.
+### Тест на утечку
 
-Drain the cooling system. Refer to Procedure 008-018.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Головной спрей охлаждающей жидкости или пар может вызвать личную травму.
+
+Слейте охлаждающую жидкость. См. процедуру 008-018.
 
 ![[oi800la.png]]
 
-Plug the radiator fill line outlet.
+Подключите розетку для заполнения линии радиатора.
 
-Fill the top tank within 50 mm \[2 in\] from the top with water.
+Заполните верхний резервуар в пределах 50 мм \[2 в\] от верха водой.
 
-If the level drops and leakage is observed from the draincock and the lower radiator outlet, the baffle is leaking. The radiator **must** be repaired or replaced.
+Если уровень падает и наблюдается утечка из дренажного клапана и нижней розетки радиатора, перегородка протекает. Радиатор должен быть отремонтирован или заменен.
 
 ![[ra800sd.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Leak Test
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Headed coolant spray or steam can cause personal injury.
+>
+> Drain the cooling system. Refer to Procedure 008-018.
+>
+> Plug the radiator fill line outlet.
+>
+> Fill the top tank within 50 mm \[2 in\] from the top with water.
+>
+> If the level drops and leakage is observed from the draincock and the lower radiator outlet, the baffle is leaking. The radiator **must** be repaired or replaced.

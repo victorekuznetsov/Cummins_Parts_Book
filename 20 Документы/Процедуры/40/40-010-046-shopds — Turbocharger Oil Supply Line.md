@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-010-046-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-010-046-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Oil Supply Line
@@ -33,10 +35,26 @@ tags:
 > **Даты:** изменён 2008-08-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-010-046-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-010-046-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the oil supply line from the oil filter head.
 
-Remove the oil supply line from the turbocharger bearing housing.
+### Снятие
+
+Удалите линию подачи масла из головки масляного фильтра.
+
+Удалите линию подачи масла из корпуса подшипника турбокомпрессора.
 
 ![[tb9ftma.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the oil supply line from the oil filter head.
+>
+> Remove the oil supply line from the turbocharger bearing housing.

@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-003-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-003-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Accessory Drive Seal
@@ -35,29 +37,60 @@ tags:
 > **Даты:** изменён 2021-04-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-003-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-003-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Separate the rotational and stationary part of the seal.
 
-Locate the stationary part of the seal on the end of the seal installation tool, Part Number 5573257.
+### Установка
+
+Отделить вращательную и стационарную часть уплотнения.
+
+Расположение стационарной части уплотнения на конце инструмента установки уплотнения, Номер детали 5573257.
 
 ![[00r01581.png]]
 
-Put the spacer on the shaft.
+Положите спейсер на вал.
 
-Slide the tool on to the end of the shaft.
+Наклоните инструмент к концу вала.
 
-Tap the end of the installation tool with a mallet to push the stationary part of the seal into the gear housing.
+Нажмите на конец установочного инструмента с помощью молотка, чтобы протолкнуть стационарную часть уплотнения в корпус зубчатой передачи.
 
-The spacer **must** be installed, or the seal will **not** locate correctly.
+Пространство **должно быть установлено, или уплотнение **не будет правильно расположена.
 
 ![[00r01582.png]]
 
-Place the rotational part of the seal on top of the pulley shaft.
+Поместите вращательную часть уплотнения на вершину шкивного вала.
 
-Use seal installation tool, Part Number 5573258 to install the seal on to the pulley with the aid of a mallet.
+Используйте инструмент установки уплотнения, номер детали 5573258, чтобы установить уплотнение на шкив с помощью молотка.
 
-> [!note] Note · Примечание
-> If you are moving from an older style seal that utilizes three bolts for installation to the new seal a new design pulley **must** also be purchased.
+> [!note] Примечание
+> Если вы переходите от старого уплотнения, которое использует три болта для установки, к новому уплотнению, также должен быть приобретен новый дизайн шкива.
 
 ![[00r01583.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Separate the rotational and stationary part of the seal.
+>
+> Locate the stationary part of the seal on the end of the seal installation tool, Part Number 5573257.
+>
+> Put the spacer on the shaft.
+>
+> Slide the tool on to the end of the shaft.
+>
+> Tap the end of the installation tool with a mallet to push the stationary part of the seal into the gear housing.
+>
+> The spacer **must** be installed, or the seal will **not** locate correctly.
+>
+> Place the rotational part of the seal on top of the pulley shaft.
+>
+> Use seal installation tool, Part Number 5573258 to install the seal on to the pulley with the aid of a mallet.
+>
+> **Note · Примечание**
+> If you are moving from an older style seal that utilizes three bolts for installation to the new seal a new design pulley **must** also be purchased.

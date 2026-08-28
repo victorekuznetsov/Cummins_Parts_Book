@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021374"
   - "4021375"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-018-020.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-018-020.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Exhaust System
@@ -33,11 +35,30 @@ tags:
 > **Даты:** изменён 2007-05-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-018-020.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-018-020.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-| Back Pressure - Maximum (at rated speed and load) | 75 mm Hg \[3.0 in Hg\] |
+
+### Спецификации
+
+| Давление в спине - максимальное (при номинальной скорости и нагрузке) | 75 мм рт.ст. \[3.0 в рт.ст.] |
 |---|---|
 
-#### Exhaust Pipe Size (normally acceptable inside diameter):
+#### Размер выхлопных труб (нормально приемлемый внутренний диаметр):
 
-All Ratings 152 mm \[6.0 in\]
+Все рейтинги 152 мм \[6.0 in\]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> | Back Pressure - Maximum (at rated speed and load) | 75 mm Hg \[3.0 in Hg\] |
+> |---|---|
+>
+> #### Exhaust Pipe Size (normally acceptable inside diameter):
+>
+> All Ratings 152 mm \[6.0 in\]

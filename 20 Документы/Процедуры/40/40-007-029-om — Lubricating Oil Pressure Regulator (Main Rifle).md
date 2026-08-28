@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021538"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-007-029-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-007-029-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pressure Regulator (Main Rifle)
@@ -33,35 +35,68 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-007-029-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-007-029-om.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Thoroughly clean the area around the pressure regulator plug to prevent debris from falling into the plunger bore when the plug is removed.
+
+### Подготовительные операции
+
+Тщательно очистить область вокруг вилки регулятора давления, чтобы предотвратить попадание мусора в цилиндр плунжера, когда вилка удалена.
 
 ![[07900020.png]]
 
-### Remove
+### Снятие
 
-Remove the threaded plug, spring, and plunger.
+Удалите резьбовую пробку, пружину и плунжер.
 
 ![[lc9pxma.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Clean and inspect the regulator valve.
+Очистите и проверьте клапан регулятора.
 
 ![[lc9vaeb.png]]
 
-Clean and inspect the regulator valve bore.
+Очистить и осмотреть регуляторный клапан цилиндра.
 
-In order to regulate the oil pressure, the valve **must** move freely in the bore.
+Для регулирования давления масла клапан **должен** свободно перемещаться в цилиндре.
 
 ![[lc9brea.png]]
 
-### Install
+### Установка
 
-Install a new sealing o-ring on the threaded plug and lubricate with clean lubricating engine oil. Install the pressure regulator assembly.
+Установите новое уплотнительное кольцо на резьбовую пробку и смазывайте чистым смазочным моторным маслом. Установите сборку регулятора давления.
 
-> [!tip] Момент затяжки · Torque Value
-> 80 n•m [59 ft-lb]
+> [!tip] Момент затяжки
+> 80 Н·м [59 фунт-фут]
 
 ![[lc9vahb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Thoroughly clean the area around the pressure regulator plug to prevent debris from falling into the plunger bore when the plug is removed.
+>
+> ### Remove
+>
+> Remove the threaded plug, spring, and plunger.
+>
+> ### Clean and Inspect for Reuse
+>
+> Clean and inspect the regulator valve.
+>
+> Clean and inspect the regulator valve bore.
+>
+> In order to regulate the oil pressure, the valve **must** move freely in the bore.
+>
+> ### Install
+>
+> Install a new sealing o-ring on the threaded plug and lubricate with clean lubricating engine oil. Install the pressure regulator assembly.
+>
+> **Момент затяжки · Torque Value**
+> 80 n•m [59 ft-lb]

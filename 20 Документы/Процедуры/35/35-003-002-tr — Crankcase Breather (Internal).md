@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-003-002-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-003-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Crankcase Breather (Internal)
@@ -31,87 +33,162 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-003-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-003-002-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-With EGR
 
-Remove the tube support bracket capscrew and bracket.
+### Снятие
 
-Remove the tube from the engine.
+С EGR
+
+Снимите болты и скобки для подпорки трубки.
+
+Удалите трубку из двигателя.
 
 ![[03200060.png]]
 
-Remove the rocker lever housing cover. [[35-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+Снимите крышку корпуса клапанного клапана.[[35-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
 ![[02200021.png]]
 
-Without EGR
+Без ЭКГ
 
-Remove the tube support bracket capscrew and bracket.
+Снимите болты и скобки для подпорки трубки.
 
-Remove the tube from the engine.
+Удалите трубку из двигателя.
 
 ![[03200037.png]]
 
-Remove the rocker lever housing cover. [[35-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+Снимите крышку корпуса клапанного клапана.[[35-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
 ![[03200047.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use solvent to clean the cover, breather cavity, and breather tube.
+Используйте растворитель для очистки крышки, дыхательной полости и дыхательной трубки.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[03200008.png]]
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use compressed air to blow through the breather cavity.
+Используйте сжатый воздух, чтобы продуть через полость вдоха.
 
-If the breather cavity is clogged and the restriction can **not** be removed by cleaning, the cover **must** be replaced.
+Если полость передышки забита и ограничение может быть удалено путем очистки, крышка должна быть заменена.
 
-Use air pressure to blow through the tube.
+Используйте давление воздуха, чтобы продуть трубку.
 
-Replace the tube if it is clogged.
+Замените трубку, если она забита.
 
 ![[br200ka.png]]
 
-### Install
+### Установка
 
-With EGR
+С EGR
 
-Install the rocker lever housing cover. [[35-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+Установите крышку корпуса клапанного клапана.[[35-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
 ![[02200021.png]]
 
-Install the breather tube, bracket, and capscrew on the engine.
+Установите дыхательную трубку, кронштейн и болты на двигателе.
 
-Tighten the bracket capscrew.
+Затяните болты скоб.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [20 ft-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [20 фунт-фут]
 
 ![[03200060.png]]
 
-Without EGR
+Без ЭКГ
 
-Install the rocker lever housing cover. [[35-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+Установите крышку корпуса клапанного клапана.[[35-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
 ![[03200047.png]]
 
-Install the breather tube, bracket, and capscrew on the engine.
+Установите дыхательную трубку, кронштейн и болты на двигателе.
 
-Tighten the bracket capscrew.
+Затяните болты скоб.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [239 in-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [239 фунт-дюйм]
 
 ![[03200037.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> With EGR
+>
+> Remove the tube support bracket capscrew and bracket.
+>
+> Remove the tube from the engine.
+>
+> Remove the rocker lever housing cover. [[35-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+>
+> Without EGR
+>
+> Remove the tube support bracket capscrew and bracket.
+>
+> Remove the tube from the engine.
+>
+> Remove the rocker lever housing cover. [[35-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use solvent to clean the cover, breather cavity, and breather tube.
+>
+> Dry with compressed air.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use compressed air to blow through the breather cavity.
+>
+> If the breather cavity is clogged and the restriction can **not** be removed by cleaning, the cover **must** be replaced.
+>
+> Use air pressure to blow through the tube.
+>
+> Replace the tube if it is clogged.
+>
+> ### Install
+>
+> With EGR
+>
+> Install the rocker lever housing cover. [[35-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+>
+> Install the breather tube, bracket, and capscrew on the engine.
+>
+> Tighten the bracket capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [20 ft-lb]
+>
+> Without EGR
+>
+> Install the rocker lever housing cover. [[35-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+>
+> Install the breather tube, bracket, and capscrew on the engine.
+>
+> Tighten the bracket capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [239 in-lb]

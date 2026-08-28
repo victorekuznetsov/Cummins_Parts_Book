@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-035-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-035-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Suction Tube (Block-Mounted)
@@ -35,85 +37,170 @@ tags:
 > **Даты:** изменён 2021-01-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-035-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-035-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-There are different lubricating oil suction tube arrangements depending on the oil pan style.
 
-Remove the nuts (5), capscrews (4), and strap (3) from the vertical support bracket assembly (2).
+### Снятие
 
-Remove the capscrews (8) and remove the vertical support bracket assembly.
+Существуют различные схемы всасывания моторного масла в зависимости от стиля масляной поддона.
 
-Remove the three capscrews (6), and the oil suction tube (1).
+Удалите гайки (5), болты (4) и ремешок (3) из вертикального опорного скобчатого узла (2).
+
+Удалите болты (8) и удалите вертикальный опорный скоб.
+
+Удалите три болта (6) и масляную всасывающую трубку (1).
 
 ![[07600387.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к травмам.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Fly debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Летающий мусор и грязь могут нанести личные травмы.
 
-The oil suction tube on the engine being serviced can be different than illustrated. Different oil sump locations and depths require different oil suction tubes. The type of screen on the end of the lubricating oil suction tube can be different.
+Масляная всасывающая трубка на обслуживаемом двигателе может отличаться от проиллюстрированной. Различные места и глубины отстойника масла требуют разных масляных всасывающих трубок. Тип экрана на конце всасывающей трубки моторного масла может быть разным.
 
-Remove the sealing ring (1), or the gasket (2) from the lubricating oil suction tube.
+Удалите уплотнительное кольцо (1) или прокладку (2) из всасывающей трубки моторного масла.
 
-Use solvent or steam to clean the lubricating oil suction tube and dry with compressed air.
+Используйте растворитель или пар для очистки всасывающей трубки моторного масла и высыхания со сжатым воздухом.
 
 ![[lp6tbea.png]]
 
-> [!warning] CAUTION · Осторожно
-> If the lubricating oil suction tube is repaired by welding, be sure all of the welding slag and any metal that can break are removed from the inside of tube. If debris enters the lubricating oil pump and system, the gears will be damaged and failure will result.
+> [!warning] ОСТОРОЖНО
+> Если всасывающая трубка моторного масла ремонтируется сваркой, убедитесь, что весь шлак сварки и любой металл, который может разорваться, удаляются изнутри трубки. Если мусор попадает в насос и систему моторного масла, шестерни будут повреждены, и в результате произойдет сбой.
 
-Check the lubricating oil suction tube and brackets for damage or cracks. Check for wear in the area of the support brackets.
+Проверьте всасывающую трубку и скобки для моторного масла на предмет повреждений или трещин. Проверьте износ в области опорных скобок.
 
-If the lubricating oil suction tube or the brackets are cracked or damaged, they **must** be repaired or replaced.
+Если всасывающая трубка или скобки моторного масла треснуты или повреждены, они должны быть отремонтированы или заменены.
 
 ![[lp6tbsa.png]]
 
-### Install
+### Установка
 
-Install the small support bracket, if applicable (11).
+Установите небольшую опорную кронштейн, если это применимо (11).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Install the lubricating oil suction tube (1) and seal (10) to oil pump with the three capscrews (6).
+Установите всасывающую трубку (1) и уплотнение (10) для масляного насоса с тремя болтами (6).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-> [!note] Note · Примечание
-> If the rear housing has been removed and reinstalled, it will possibly be necessary to realign it when installing the lubricating oil suction tube.
+> [!note] Примечание
+> Если задний кожух был удален и переустановлен, возможно, потребуется перестроить его при установке всасывающей трубки моторного масла.
 
-Hand tighten the strap on the small bracket, if applicable (12).
+Рука затягивает ремень на небольшой скобке, если это применимо (12).
 
-Install the lubricating oil suction tube support bracket (2) and hand tighten the two to four supporting capscrews (8).
+Установите подпорную кронштейн (2) моторного масла и подтяните руку на два-четыре поддерживающих болта (8).
 
-> [!note] Note · Примечание
-> The bracket may have two or four capscrews depending on the oil pan style.
+> [!note] Примечание
+> Кронштейн может иметь два или четыре болта в зависимости от стиля масляной поддона.
 
-In the slotted holes, the bolts **must** be at the tube end of the slot.
+В прорезных отверстиях болты должны быть на конце прорези.
 
-Install the vertical support bracket straps (3) on the lubricating oil suction tube bracket (2) with two capscrews (4) and nuts (5).
+Установите вертикальные опорные ремни (3) на смазочный масляный всасывающий кронштейн (2) с двумя болтами (4) и гайками (5).
 
-Tighten the nuts and capscrews (4)(5).
+Затягивать гайки и болты (4)(5).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Tighten the capscrews supporting the main bracket (2). The capscrews **must** be at the tube end of the slot.
+Затягивать болты, поддерживающие основную скобку (2). Затворы должны быть на конце трубы слота.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Tighten the top support strap, if applicable (12).
+Затягивайте верхнюю опорную лямку, если это применимо (12).
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[00r00988.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> There are different lubricating oil suction tube arrangements depending on the oil pan style.
+>
+> Remove the nuts (5), capscrews (4), and strap (3) from the vertical support bracket assembly (2).
+>
+> Remove the capscrews (8) and remove the vertical support bracket assembly.
+>
+> Remove the three capscrews (6), and the oil suction tube (1).
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Fly debris and dirt can cause personal injury.
+>
+> The oil suction tube on the engine being serviced can be different than illustrated. Different oil sump locations and depths require different oil suction tubes. The type of screen on the end of the lubricating oil suction tube can be different.
+>
+> Remove the sealing ring (1), or the gasket (2) from the lubricating oil suction tube.
+>
+> Use solvent or steam to clean the lubricating oil suction tube and dry with compressed air.
+>
+> **CAUTION · Осторожно**
+> If the lubricating oil suction tube is repaired by welding, be sure all of the welding slag and any metal that can break are removed from the inside of tube. If debris enters the lubricating oil pump and system, the gears will be damaged and failure will result.
+>
+> Check the lubricating oil suction tube and brackets for damage or cracks. Check for wear in the area of the support brackets.
+>
+> If the lubricating oil suction tube or the brackets are cracked or damaged, they **must** be repaired or replaced.
+>
+> ### Install
+>
+> Install the small support bracket, if applicable (11).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the lubricating oil suction tube (1) and seal (10) to oil pump with the three capscrews (6).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> **Note · Примечание**
+> If the rear housing has been removed and reinstalled, it will possibly be necessary to realign it when installing the lubricating oil suction tube.
+>
+> Hand tighten the strap on the small bracket, if applicable (12).
+>
+> Install the lubricating oil suction tube support bracket (2) and hand tighten the two to four supporting capscrews (8).
+>
+> **Note · Примечание**
+> The bracket may have two or four capscrews depending on the oil pan style.
+>
+> In the slotted holes, the bolts **must** be at the tube end of the slot.
+>
+> Install the vertical support bracket straps (3) on the lubricating oil suction tube bracket (2) with two capscrews (4) and nuts (5).
+>
+> Tighten the nuts and capscrews (4)(5).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Tighten the capscrews supporting the main bracket (2). The capscrews **must** be at the tube end of the slot.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Tighten the top support strap, if applicable (12).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]

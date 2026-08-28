@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021375"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-007-011.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-007-011.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Dipstick Tube
@@ -33,19 +35,42 @@ tags:
 > **Даты:** изменён 2003-05-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-007-011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-007-011.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the dipstick and dipstick tube.
+
+### Снятие
+
+Удалите калибр уровня масла и калибр уровня масла.
 
 ![[07400233.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Место установки трубки калибра для измерения уровня масла варьируется в зависимости от применения двигателя.
+
+Установите измерительную трубку уровня масла.
+
+Затянуть гайку 3⁄4 до 1 поворота после контакта с феррулом.
+
+![[07400233.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the dipstick and dipstick tube.
+>
+> ### Install
+>
+> **Note · Примечание**
 > The dipstick tube mounting location varies depending on the engine application.
-
-Install the dipstick tube.
-
-Tighten the nut ¾ to 1 turn after contact with the ferrule.
-
-![[07400233.png]]
+>
+> Install the dipstick tube.
+>
+> Tighten the nut ¾ to 1 turn after contact with the ferrule.

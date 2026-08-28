@@ -11,12 +11,14 @@ engines:
   - "37280605"
 families:
   - "K19"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101366.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101366.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K19"
+  - "перевод/машинный"
 ---
 
 # Centinel™ Oil Lines
@@ -28,12 +30,32 @@ tags:
 > **Даты:** изменён 2004-01-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101366.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101366.pdf)
 
-## Centinel™ Oil Lines
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Масляные магистрали Centinel™
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic introduces procedure [[96-007-088 — Centinel™ Oil Lines|007-088]] and [[96-007-089 — Centinel™ Oil Make-Up Tank|007-089]] for Centinel™ Installations.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема / разделы вводит процедуру[[96-007-088 — Centinel™ Oil Lines|007-088]]и[[96-007-089 — Centinel™ Oil Make-Up Tank|007-089]]Установки CentinelTM.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Centinel™ Oil Lines
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic introduces procedure [[96-007-088 — Centinel™ Oil Lines|007-088]] and [[96-007-089 — Centinel™ Oil Make-Up Tank|007-089]] for Centinel™ Installations.

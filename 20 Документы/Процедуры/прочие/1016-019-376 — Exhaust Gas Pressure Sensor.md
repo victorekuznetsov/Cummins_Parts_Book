@@ -10,12 +10,14 @@ families:
 manuals:
   - "5659763"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-019-376.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-019-376.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/15N"
+  - "перевод/машинный"
 ---
 
 # Exhaust Gas Pressure Sensor
@@ -28,70 +30,140 @@ tags:
 > **Даты:** изменён 2024-11-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-019-376.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-019-376.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Cummins® electronic service tool, or equivalent
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Deep well socket.
+- Электронный сервисный инструмент Cummins® или эквивалент
 
-### General Information
+#### Дополнительные сервисные позиции
 
-The exhaust gas pressure sensor monitors the pressure from the exhaust and passes that information on to the Engine Control Module (ECM) through the engine harness. If the exhaust gas pressure becomes too low, it will cause a derate condition.
+- Глубокая колодец.
 
-### Preparatory Steps
+### Общие сведения
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+Датчик давления выхлопных газов контролирует давление от выхлопных газов и передает эту информацию в модуль управления двигателем (ECM) через электропроводку двигателя. Если давление выхлопных газов становится слишком низким, это вызовет ухудшение состояния.
 
-- Disconnect the batteries. See equipment manufacturer service information.
+### Подготовительные операции
 
-### Remove
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Remove the two sensor shields if equipped.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+
+### Снятие
+
+Удалите два сенсорных экрана, если они оборудованы.
 
 ![[19s00253.png]]
 
-Slide the locking tab on the connector sideways. Push down on the button toward the rear of the connector and disconnect it from the sensor.
+Сдвиньте запирающую вкладку на разъём вбок. Нажмите на кнопку в направлении задней части разъема и отсоедините его от датчика.
 
-Remove the sensor from the engine.
+Удалите датчик из двигателя.
 
 ![[19d01891.png]]
 
-### Install
+### Установка
 
-Verify the new sensor has an o-ring.
+Проверьте, что новый датчик имеет кольцо.
 
-Lubricate the o-ring with clean engine oil.
+Смажьте уплотнительное кольцо чистым моторным маслом.
 
-Install the sensor into the engine. Tighten the sensor.
+Установите датчик в двигатель. Затяните датчик.
 
-Use a deep well socket, being careful **not** to overtighten the sensor.
+Используйте глубокий колодец, будьте осторожны **не**, чтобы перегружать датчик.
 
-> [!tip] Момент затяжки · Torque Value
-> 13 n•m [115 in-lb]
+> [!tip] Момент затяжки
+> 13 Н·м [115 фунт-дюйм]
 
-Push the connectors together until they lock.
+Соедините разъёмы до фиксации.
 
-Slide the locking tab to the lock position.
+Сдвиньте запирающую вкладку в положение замка.
 
 ![[19d01892.png]]
 
-Install the two sensor shields on Exhaust Gas Recirculation (EGR) cooler if removed.
+Установите два сенсорных экрана на охладитель рециркуляции выхлопных газов (EGR), если он удален.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [212 in-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [212 фунт-дюйм]
 
 ![[19s00253.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Используйте рекомендованную электронную сервисную оснастку Cummins® или эквивалентную для сброса топливных столов, если датчик давления выхлопных газов заменен. См. процедуру 005-263 в разделе 5.
+- Управляйте двигателем. Проверьте правильность операции.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Cummins® electronic service tool, or equivalent
+>
+> #### Additional Service Items
+>
+> - Deep well socket.
+>
+> ### General Information
+>
+> The exhaust gas pressure sensor monitors the pressure from the exhaust and passes that information on to the Engine Control Module (ECM) through the engine harness. If the exhaust gas pressure becomes too low, it will cause a derate condition.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Connect the batteries. See equipment manufacturer service information.
-- Use the recommended Cummins® electronic service tool, or equivalent, to reset the fuel tables if the exhaust gas pressure sensor is replaced. Refer to Procedure 005-263 in Section 5.
-- Operate the engine. Check for proper operation.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+>
+> ### Remove
+>
+> Remove the two sensor shields if equipped.
+>
+> Slide the locking tab on the connector sideways. Push down on the button toward the rear of the connector and disconnect it from the sensor.
+>
+> Remove the sensor from the engine.
+>
+> ### Install
+>
+> Verify the new sensor has an o-ring.
+>
+> Lubricate the o-ring with clean engine oil.
+>
+> Install the sensor into the engine. Tighten the sensor.
+>
+> Use a deep well socket, being careful **not** to overtighten the sensor.
+>
+> **Момент затяжки · Torque Value**
+> 13 n•m [115 in-lb]
+>
+> Push the connectors together until they lock.
+>
+> Slide the locking tab to the lock position.
+>
+> Install the two sensor shields on Exhaust Gas Recirculation (EGR) cooler if removed.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [212 in-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries. See equipment manufacturer service information.
+> - Use the recommended Cummins® electronic service tool, or equivalent, to reset the fuel tables if the exhaust gas pressure sensor is replaced. Refer to Procedure 005-263 in Section 5.
+> - Operate the engine. Check for proper operation.

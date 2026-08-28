@@ -10,12 +10,14 @@ engines:
 families:
   - "QSK60"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100282.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100282.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Direct Drive Fan Hub Washer
@@ -26,29 +28,64 @@ tags:
 > **Даты:** изменён 2004-06-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100282.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100282.pdf)
 
-## New Direct Drive Fan Hub Washer
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый фан-хаб Direct Drive Washer
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin introduces a new hardened fan hub bearing washer for the direct drive type fan hub used on QSK45 and QSK60 series engines equipped with a direct drive fan hub. The new washer has increased material hardness. The washer is located between the two bearings in the fan hub. Its purpose is to maintain preload on the bearings within the fan hub to increase durability.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The washer is denoted by item 3 in Figure 1 below.
+### Содержание
 
-| Fan Hub Washers |  |
+В этом бюллетене технического обслуживания представлена новая закаленная шайба для подшипников вентилятора типа прямого привода, используемая на двигателях серии QSK45 и QSK60, оснащенных вентилятором прямого привода. Новая шайба обладает повышенной твердостью материала. Шайба расположена между двумя подшипниками в фан-центре. Его цель состоит в том, чтобы поддерживать предварительную нагрузку на подшипники в фан-центре для повышения долговечности.
+
+Шайба обозначается пунктом 3 на рисунке 1 ниже.
+
+| Фан Хаб Ошерс |  |
 |---|---|
-| Part Number | Washer Status |
-| 3171138 | Superseded |
-| 3635836 | Current for production and service |
+| Номер детали | Статус шайбы |
+| 3171138 | Заменённый |
+| 3635836 | Текущий для производства и обслуживания |
 
 ![[08600337.png]]
 
-Figure 1.
+Рисунок 1.
 
-Engine Serial Number first is 33156262.
+Серийный номер двигателя - 33156262.
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Это усовершенствование продукта и не подлежит кампании.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Direct Drive Fan Hub Washer
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin introduces a new hardened fan hub bearing washer for the direct drive type fan hub used on QSK45 and QSK60 series engines equipped with a direct drive fan hub. The new washer has increased material hardness. The washer is located between the two bearings in the fan hub. Its purpose is to maintain preload on the bearings within the fan hub to increase durability.
+>
+> The washer is denoted by item 3 in Figure 1 below.
+>
+> | Fan Hub Washers |  |
+> |---|---|
+> | Part Number | Washer Status |
+> | 3171138 | Superseded |
+> | 3635836 | Current for production and service |
+>
+> Figure 1.
+>
+> Engine Serial Number first is 33156262.
+>
+> **Note · Примечание**
 > This is a product improvement and is **not** subject to campaign.

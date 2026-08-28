@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-011-052-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-011-052-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Aftertreatment Fuel Shutoff Manifold
@@ -31,60 +33,120 @@ tags:
 > **Даты:** изменён 2012-03-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-011-052-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-011-052-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive With CM871
 
-> [!note] Note · Примечание
-> The pressure sensor and shutoff valve are located on the same side of the shutoff manifold.
+### Установка
 
-> [!note] Note · Примечание
-> The pressure sensor is mounted above the shutoff valve.
+Автомобильный с CM871
 
-Install the pressure sensor, the fuel shutoff valve, and the fuel drain valve.
+> [!note] Примечание
+> Датчик давления и запорный клапан расположены на одной стороне запорного коллектора.
 
-> [!tip] Момент затяжки · Torque Value
-> Pressure Sensor 14 n•m [124 in-lb]
+> [!note] Примечание
+> Датчик давления установлен над запорным клапаном.
 
-> [!tip] Момент затяжки · Torque Value
-> Fuel Shutoff Valve 14 n•m [124 in-lb]
+Установите датчик давления, клапан отключения топлива и клапан слива топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> Fuel Drain Valve 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> Датчик давления 14 Н·м [124 фунт-дюйм]
+
+> [!tip] Момент затяжки
+> Затвор топлива клапан 14 Н·м [124 фунт-дюйм]
+
+> [!tip] Момент затяжки
+> Длина топливного дренажа 14 Н·м [124 фунт-дюйм]
 
 ![[11c00355.png]]
 
-Install the two capscrews to attach the aftertreatment fuel shutoff manifold to the bracket on the engine.
+Установите два болта, чтобы прикрепить послеочистительный топливный отключающий коллектор к скобке на двигателе.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[11c00354.png]]
 
-Automotive with CM876
+Автомобильный с CM876
 
-> [!note] Note · Примечание
-> The pressure sensor and shutoff valve are located on the same side of the shutoff manifold.
+> [!note] Примечание
+> Датчик давления и запорный клапан расположены на одной стороне запорного коллектора.
 
-> [!note] Note · Примечание
-> The pressure sensor is mounted above the shutoff valve.
+> [!note] Примечание
+> Датчик давления установлен над запорным клапаном.
 
-Install the pressure sensor, the fuel shutoff valve, and the fuel drain valve.
+Установите датчик давления, клапан отключения топлива и клапан слива топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> Pressure Sensor 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> Датчик давления 14 Н·м [124 фунт-дюйм]
 
-> [!tip] Момент затяжки · Torque Value
-> Fuel Shutoff Valve 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> Затвор топлива клапан 14 Н·м [124 фунт-дюйм]
 
-> [!tip] Момент затяжки · Torque Value
-> Fuel Drain Valve 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> Длина топливного дренажа 14 Н·м [124 фунт-дюйм]
 
 ![[11c00355.png]]
 
-Install the two capscrews to attach the aftertreatment fuel shutoff manifold to the bracket on the engine.
+Установите два болта, чтобы прикрепить послеочистительный топливный отключающий коллектор к скобке на двигателе.
 
-> [!tip] Момент затяжки · Torque Value
-> 25 n•m [221 in-lb]
+> [!tip] Момент затяжки
+> 25 Н·м [221 фунт-дюйм]
 
 ![[11200206.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Automotive With CM871
+>
+> **Note · Примечание**
+> The pressure sensor and shutoff valve are located on the same side of the shutoff manifold.
+>
+> **Note · Примечание**
+> The pressure sensor is mounted above the shutoff valve.
+>
+> Install the pressure sensor, the fuel shutoff valve, and the fuel drain valve.
+>
+> **Момент затяжки · Torque Value**
+> Pressure Sensor 14 n•m [124 in-lb]
+>
+> **Момент затяжки · Torque Value**
+> Fuel Shutoff Valve 14 n•m [124 in-lb]
+>
+> **Момент затяжки · Torque Value**
+> Fuel Drain Valve 14 n•m [124 in-lb]
+>
+> Install the two capscrews to attach the aftertreatment fuel shutoff manifold to the bracket on the engine.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]
+>
+> Automotive with CM876
+>
+> **Note · Примечание**
+> The pressure sensor and shutoff valve are located on the same side of the shutoff manifold.
+>
+> **Note · Примечание**
+> The pressure sensor is mounted above the shutoff valve.
+>
+> Install the pressure sensor, the fuel shutoff valve, and the fuel drain valve.
+>
+> **Момент затяжки · Torque Value**
+> Pressure Sensor 14 n•m [124 in-lb]
+>
+> **Момент затяжки · Torque Value**
+> Fuel Shutoff Valve 14 n•m [124 in-lb]
+>
+> **Момент затяжки · Torque Value**
+> Fuel Drain Valve 14 n•m [124 in-lb]
+>
+> Install the two capscrews to attach the aftertreatment fuel shutoff manifold to the bracket on the engine.
+>
+> **Момент затяжки · Torque Value**
+> 25 n•m [221 in-lb]

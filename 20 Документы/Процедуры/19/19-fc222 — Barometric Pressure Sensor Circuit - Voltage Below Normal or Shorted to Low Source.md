@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc222.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc222.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Barometric Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
@@ -38,60 +40,126 @@ tags:
 > **Даты:** изменён 2024-03-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc222.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc222.pdf)
 
-### Fault Code: 222
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Barometric Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
 
-Printable Version
+### Код неисправности: 222
 
-### Overview
+### Цепь датчика барометрического давления — напряжение ниже нормы
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 222 PID(P): P108 SPN: 108 FMI: 4/4 Lamp: Amber SRT: | Low voltage detected at the ambient air pressure sensor. | Possible reduced engine performance. |
+| Код неисправности: 222 PID(P): P108 SPN: 108 FMI: 4/4 лампы: Янтарная СРТ: | Низкое напряжение, обнаруженное на датчике давления окружающего воздуха. | Возможно снижение производительности двигателя. |
 
 ![[11m00068.png]]
 
-Ambient Air Pressure Sensor Circuit
+Цепь датчика атмосферного давления
 
-### Circuit Description
+### Описание цепи
 
-The ambient air pressure sensor provides the ambient air pressure signal to the ECM through the engine harness. The ECM uses the ambient air pressure sensor to adjust fueling based on the altitude.
+Датчик давления окружающего воздуха обеспечивает сигнал давления окружающего воздуха к ECM через электропроводку двигателя. ECM использует датчик давления окружающего воздуха для регулировки заправки топливом в зависимости от высоты.
 
-### Component Location
+### Расположение компонента
 
-The ambient air pressure sensor is located below the ECM on the control valve body.
+Датчик давления окружающего воздуха расположен ниже ECM на корпусе управляющего клапана.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the keyswitch is in the ON position or when the engine is running.
+Эта диагностика выполняется непрерывно, когда переключатель зажигания находится в положении Включения или когда двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the ambient air pressure signal voltage was out of range low.
+Модуль управления двигателем (ECM) обнаружил, что напряжение сигнала давления окружающего воздуха было вне диапазона низкого.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the amber CHECK ENGINE lamp immediately when the diagnostic runs and fails.
+- ECM освещает лампу янтарного CHECK ENGINE сразу же, когда диагностика проходит и выходит из строя.
 
-- A default value for the ambient air pressure reading is used.
+- Используется значение по умолчанию для показания давления окружающего воздуха.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+- Для проверки ремонта выполните ключевой цикл, запустите двигатель и запустите его на холостом ходу в течение 1 минуты.
 
-- The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого рекомендованным электронным сервисным инструментом Cummins® или его эквивалентом, будет изменено на INACTIVE сразу после диагностических запусков и проходов.
 
-- The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит лампу янтарного CHECK ENGINE сразу после диагностических прогонов и проходов.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+- Команда «Сбросить все ошибки» в рекомендуемой электронной сервисной оснастке Cummins® или эквиваленте может использоваться для устранения активных и неактивных ошибок.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged ambient air pressure sensor.
+- Неисправность или повреждение датчика давления окружающего воздуха.
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-Refer to Troubleshooting Fault Code t05-222
+См. Код устранения неполадок t05-222
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 222
+>
+> ### Barometric Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 222 PID(P): P108 SPN: 108 FMI: 4/4 Lamp: Amber SRT: | Low voltage detected at the ambient air pressure sensor. | Possible reduced engine performance. |
+>
+> Ambient Air Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The ambient air pressure sensor provides the ambient air pressure signal to the ECM through the engine harness. The ECM uses the ambient air pressure sensor to adjust fueling based on the altitude.
+>
+> ### Component Location
+>
+> The ambient air pressure sensor is located below the ECM on the control valve body.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the keyswitch is in the ON position or when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the ambient air pressure signal voltage was out of range low.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the amber CHECK ENGINE lamp immediately when the diagnostic runs and fails.
+>
+> - A default value for the ambient air pressure reading is used.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+>
+> - The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged ambient air pressure sensor.
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> Refer to Troubleshooting Fault Code t05-222

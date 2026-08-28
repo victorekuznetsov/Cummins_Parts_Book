@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-339.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-339.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Timing Actuator
@@ -38,28 +40,58 @@ tags:
 > **Даты:** изменён 2002-09-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-019-339.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-019-339.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Clean the area around the timing actuator.
 
-Disconnect the timing actuator connector from the engine harness.
+### Снятие
 
-> [!note] Note · Примечание
-> The front timing actuator is located on the fuel delivery housing. It is the second actuator from the front of the engine. The rear timing actuator is located on the fuel delivery housing. It is the second actuator from the rear of the engine.
+Очистите область вокруг привода синхронизации.
+
+Отсоедините разъем привода синхронизации от жгута проводов двигателя.
+
+> [!note] Примечание
+> Передний привод синхронизации расположен на корпусе подачи топлива. Это второй привод с передней части двигателя. Задний привод синхронизации расположен на корпусе подачи топлива. Это второй привод сзади двигателя.
 
 ![[19400300.png]]
 
-Remove the timing actuator.
+Удалите привод синхронизации.
 
 ![[19400301.png]]
 
-### Install
+### Установка
 
-Install a new timing actuator.
+Установите новый привод времени.
 
-> [!tip] Момент затяжки · Torque Value
-> 5.4 n•m [44 in-lb]
+> [!tip] Момент затяжки
+> 5.4 Н·м [44 фунт-дюйм]
 
-Connect the engine harness to the timing actuator.
+Подключите жгут электропроводки двигателя к приводу синхронизации.
 
 ![[19400302.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Clean the area around the timing actuator.
+>
+> Disconnect the timing actuator connector from the engine harness.
+>
+> **Note · Примечание**
+> The front timing actuator is located on the fuel delivery housing. It is the second actuator from the front of the engine. The rear timing actuator is located on the fuel delivery housing. It is the second actuator from the rear of the engine.
+>
+> Remove the timing actuator.
+>
+> ### Install
+>
+> Install a new timing actuator.
+>
+> **Момент затяжки · Torque Value**
+> 5.4 n•m [44 in-lb]
+>
+> Connect the engine harness to the timing actuator.

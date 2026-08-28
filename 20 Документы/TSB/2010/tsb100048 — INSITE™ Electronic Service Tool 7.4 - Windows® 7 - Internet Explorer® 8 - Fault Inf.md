@@ -20,7 +20,8 @@ families:
   - "QSM11"
   - "QSX15"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100048.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100048.pdf"
 tags:
@@ -30,6 +31,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "год/2010"
+  - "перевод/машинный"
 ---
 
 # INSITE™ Electronic Service Tool 7.4 - Windows® 7 - Internet Explorer® 8 - Fault Information System Issue
@@ -40,34 +42,74 @@ tags:
 > **Даты:** выпущен 2010-05-11 · изменён 2010-05-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100048.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100048.pdf)
 
-## INSITE™ Electronic Service Tool 7.4 - Windows® 7 - Internet Explorer® 8 - Fault Information System Issue
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-This Technical Service Bulletin describes an issue with INSITE™ electronic service tool version 7.4 (7.4.0.244), on Windows® 7, with Internet Explorer® 8, when opening the fault information system (FIS). After opening a fault code, a script error window will open, instead of the troubleshooting steps.
+## Инструмент для электронных сервисов INSITETM 7.4 - Windows® 7 - Internet Explorer® 8 - Проблема с неисправностью информационной системы
 
-### Confirmation
+### Суть проблемы
 
-All engines supported with INSITE™ electronic service tool.
+В настоящем бюллетене по техническим услугам описывается проблема с инструментами для электронных служб INSITETM версии 7.4 (7.4.0.244), в Windows 7, с Internet Explorer 8, при открытии системы информации о неисправностях (FIS). После открытия кода ошибки откроется окно ошибки сценария, а не этапы устранения неполадок.
 
-When opening the troubleshooting steps for a Fault Code with INSITE™ electronic service tool, a Script Error window will open.
+### Подтверждение
 
-None
+Все двигатели поддерживаются с помощью электронного инструментария INSITETM.
 
-The older FIS files format includes a pop-up warning window.
+При открытии шагов по устранению неполадок для кода ошибки с помощью инструментария электронного сервиса INSITETM откроется окно ошибки сценария.
 
-None
+Нет
 
-### Resolution
+Старый формат файлов FIS включает в себя всплывающее окно предупреждения.
 
-Click Yes or No on the Script Error window to open the Fault Code troubleshooting steps.
+Нет
+
+### Решение
+
+Нажмите «Да» или «Нет» в окне ошибки сценария, чтобы открыть шаги по устранению неполадок кода ошибки.
 
 ![[19000001.png]]
 
-Screenshot of error message in INSITE™ Update Manager
+Скриншот сообщения об ошибке в диспетчере обновлений INSITETM
 
-The FIS files are being reformatted and will have this warning window removed. Periodically check the Cummins INSITE™ Update Manager for updated FIS files.
+Файлы FIS переформатируются и удалит это окно предупреждения. Периодически проверяйте Cummins INSITETM Update Manager на наличие обновленных файлов FIS.
 
-### Warranty Statement
+### Положение о гарантии
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## INSITE™ Electronic Service Tool 7.4 - Windows® 7 - Internet Explorer® 8 - Fault Information System Issue
+>
+> ### Core Issue
+>
+> This Technical Service Bulletin describes an issue with INSITE™ electronic service tool version 7.4 (7.4.0.244), on Windows® 7, with Internet Explorer® 8, when opening the fault information system (FIS). After opening a fault code, a script error window will open, instead of the troubleshooting steps.
+>
+> ### Confirmation
+>
+> All engines supported with INSITE™ electronic service tool.
+>
+> When opening the troubleshooting steps for a Fault Code with INSITE™ electronic service tool, a Script Error window will open.
+>
+> None
+>
+> The older FIS files format includes a pop-up warning window.
+>
+> None
+>
+> ### Resolution
+>
+> Click Yes or No on the Script Error window to open the Fault Code troubleshooting steps.
+>
+> Screenshot of error message in INSITE™ Update Manager
+>
+> The FIS files are being reformatted and will have this warning window removed. Periodically check the Cummins INSITE™ Update Manager for updated FIS files.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.

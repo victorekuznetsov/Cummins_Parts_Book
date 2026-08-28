@@ -16,12 +16,14 @@ parts:
   - "3075381"
   - "3076033"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110143.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110143.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K19"
+  - "перевод/машинный"
 ---
 
 # STC, HVT Tappet Assemblies and Rebuild Kits (1224)
@@ -32,194 +34,202 @@ tags:
 > **Даты:** изменён 2011-05-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110143.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110143.pdf)
 
-## STC, HVT Tappet Assemblies and Rebuild Kits (1224)
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## STC, HVT Tappet Assemblies and Rebuild Kits (1224) (недоступная ссылка)
 
-### Contents
+### Положение о гарантии
 
-This document was originally released between 1994 and 2001. It has been added to QSOL for informational purposes
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This document contains all of the current information on New and ReCon® STC/HVT tappet assembly part numbers, physical descriptions, compatibility matrix, and tappet rebuild kit information. Desregard all STC/HVT tappet information in the following Service Parts Topics: 86T6-5, 86T6-5A, 87T6-7, 87T6-11, 88T6-4, 88T6-4A, 88T6-8, 88T6-9, 89T6-9A, 90T6-5, 91T6-5, and 93T6-2, topic except the rebuild guidelines in SPT 91T6-11.
+### Содержание
 
-**STC/HVT Tappet Assemblies**
+Этот документ был первоначально выпущен в период с 1994 по 2001 год. Он был добавлен в QSOL для информационных целей.
 
-There are 11 different STV/HVT tappet assemblies that have been produced by Cummins Engine Company and Diesel ReCon®. Table 1 lists the important information for each of these assemblies. Refer to Figure 1 and Figure 2 for tappet physical descriptions.
+Этот документ содержит всю текущую информацию о новых и ReCon® STC/HVT номерах деталей сборки, физических описаниях, матрице совместимости и информации о наборе для восстановления тапета. Относитесь ко всей информации о STC/HVT в следующих разделах разделов: 86T6-5, 86T6-5A, 87T6-7, 87T6-11, 88T6-4, 88T6-4A, 88T6-8, 88T6-9, 89T6-9A, 90T6-5, 91T6-5 и 93T6-2, за исключением руководящих принципов по восстановлению в SPT 91T6-11.
 
-| **Table 1: STC/HVT Tappet Assembly Information** |  |  |  |  |  |
+**Сборки Tappet STC/HVT**
+
+Существует 11 различных сборок кранов STV/HVT, которые были произведены компанией Cummins Engine Company и Diesel ReCon®. В таблице 1 приводится важная информация для каждого из этих собраний. См. Рисунок 1 и Рисунок 2 для физических описаний крана.
+
+| **Таблица 1: Информация о сборке Tappet/HVT** |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **STC/HVT Tappet Assembly Part No.** | **Tappet Description** | **Engine Model** | **Tappet Rebuild Kit** | **Superseding Tappet Assembly Part No.** | **ReCon® Thick Socket Tappet\* Part No.** |
-| 3027405 | Non-flanged | K/KV | None | 3055747 | None |
-| 3050341 | Flanged | NTTA-450 | 3803101 | 3053774 | None |
-| 3053774 | Top-Stop | NBC-IV | 3803101 | 3055747 | 3604618 |
-| 3055747 | Grooved | NT & K/KV | 3803101 | 3062122 | [[3075381]] |
-| 3062122 | Noise Fixed | NT & K/KV | 3803101 | [[3075381]] | [[3075381]] |
-| 3066710 | 1991 L10 LP1 | 91 L10 Only | 3803101 | None | 3652737 |
-| 3069701 | 1991 STC | 91 N14 & L10 | 3803101 | 3075383 | 3075383 |
-| [[3075381]] | Pre-1991 Thick Socket | NT & K/KV | 3803497 | None | None |
-| 3075383 | 1991 STC Thick Socket | 91 N14 & L10 | 3803497 | None | None |
-| 3604618\* | Top-Stop Thick Socket | NT & K/KV | 3803497 | None | None |
-| 3652737 | 1991 L10 LP1 Thick Socket | 91 L10 Only | 3803497 | None | None |
-| \*ReCon® Machined tappets to accept thick socket hardware. These tappets are **only** used in ReCon® remanufactured STC injectors. Refer to Figure 4: ReCon® Tappet Part No. Location. |  |  |  |  |  |
+| **STC/HVT Tappet Assembly Part No.** | **Описание приложения** | **Модели двигателей** | **Комплект для восстановления приложений** | **Превосходная сборка таппета Номер детали** | **ReCon® Thick Socket Tappet* Номер детали** |
+| 3027405 | неокрашенный | K/KV | Нет | 3055747 | Нет |
+| 3050341 | смягченный | NTTA-450 | 3803101 | 3053774 | Нет |
+| 3053774 | Стоп-стоп | NBC-IV | 3803101 | 3055747 | 3604618 |
+| 3055747 | рваный | NT & K/KV | 3803101 | 3062122 | [[3075381]] |
+| 3062122 | шум фиксированный | NT & K/KV | 3803101 | [[3075381]] | [[3075381]] |
+| 3066710 | 1991 L10 LP1 | 91 L10 Только | 3803101 | Нет | 3652737 |
+| 3069701 | 1991 год, ТТК | 91 N14 и L10 | 3803101 | 3075383 | 3075383 |
+| [[3075381]] | 1991 ф Толстая розетка Thick Socket | NT & K/KV | 3803497 | Нет | Нет |
+| 3075383 | 1991 ф Толстая розетка Thick Socket | 91 N14 и L10 | 3803497 | Нет | Нет |
+| 3604618\* | Top-Stop Thick Socket (Топ-стоп) | NT & K/KV | 3803497 | Нет | Нет |
+| 3652737 | 1991 L10 LP1 Thick Socket (Толстая розетка) | 91 L10 Только | 3803497 | Нет | Нет |
+| *ReCon® Обработанные краны для приема толстого розеточного оборудования. Эти краны используются только в восстановленном топливном форсунке ReCon®. См. Рисунок 4: ReCon® Таппет Номер детали. Местонахождение. |  |  |  |  |  |
 
-**Tappet Physcial Descriptions**
+**Таппеты с описанием**
 
 ![[94t4001.png]]
 
 ![[94t4002.png]]
 
-Figure 2: 1991 Tappets
+Рисунок 2: 1991 Таппеты
 
 ![[94t4003.png]]
 
-Figure 3: Production Tappet Part No. Location
+Рисунок 3: Производственный таппет Номер детали. Местоположение
 
 ![[94t4004.png]]
 
-Figure 4: ReCon Tappet Part No. Location
+Рисунок 4: ReCon Tappet Part No. Местоположение
 
-| **Table 2: STC/HVT Injector and Tappet Assembly Compatibility Matrix** |  |  |  |  |
+| Таблица 2: ТЭК/ТВ форсунка и матрица совместимости с системой Tappet Assembly |  |  |  |  |
 |---|---|---|---|---|
-| **Injector Assembly Part No.** | **Original Tappet Type** | **Original Tappet Part No.** | **Current Tappet Part No.** | **ReCon® Tappet Part No.** |
-| 3036444 | Thin Socket | 3055747 | \*1 | - |
-| 3045816 | Thin Socket | 3055747 | \*1 | - |
-| 3052226 | Thin Socket | 3027405 | [[3075381]] | - |
-| 3052228 | Thin Socket | 3050341 | \*1 | - |
-| 3053206 | Thin Socket | 3027405 | [[3075381]] | \*1 |
-| 3053764 | Thin Socket | 3053774 | \*1 | - |
-| 3053766 | Thin Socket | 3053774 | \*1 | - |
-| 3053767 | Thin Socket | 3053774 | \*1 | - |
-| 3056495 | Thin Socket | 3055747 | \*1 | - |
-| 3058800 | Thin Socket | 3055747 | \*1 | \*1 |
-| 3058802 | Thin Socket | 3055747 | \*1 | \*1 |
-| 3058852 | Thin Socket | 3055747 | \*1 | - |
-| 3059255 | Thin Socket | 3055747 | \*1 | - |
-| 3059257 | Thin Socket | 3055747 | \*1 | - |
-| 3059458 | Thin Socket | 3055747 | \*1 | - |
-| 3059923 | Thin Socket | 3055747 | \*1 | - |
-| 3059925 | Thin Socket | 3055747 | \*1 | - |
-| 3059927 | Thin Socket | 3055747 | \*1 | - |
-| 3059960 | Thin Socket | 3055747 | \*1 | - |
-| 3060410 | Thin Socket | 3050341 | \*1 | - |
-| 3060594 | Thin Socket | 3055747 | \*1 | - |
-| 3062092 | Thin Socket | 3055747 | \*1 | \*1 |
-| 3062147 | Thin Socket | 3062122 | \*1 | - |
-| 3062148 | Thin Socket | 3062122 | \*1 | - |
-| 3062149 | Thin Socket | 3062122 | \*1 | - |
-| 3062150 | Thin Socket | 3062122 | \*1 | - |
-| 3062151 | Thin Socket | 3062122 | \*1 | - |
-| 3062152 | Thin Socket | 3062122 | \*1 | - |
-| 3062153 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3062611 | Thin Socket | 3062122 | \*1 | - |
-| 3063228 | Thin Socket | 3062122 | \*1 | - |
-| 3064457 | Thin Socket | 3062122 | \*1 | - |
-| 3065349 | Thin Socket | 3062122 | \*1 | - |
-| 3065350 | Thin Socket | 3062122 | \*1 | - |
-| 3066915 | Thin Socket | 3062122 | \*1 | - |
-| 3067393 | Thin Socket | 3062122 | \*1 | - |
-| 3067403 | Thin Socket | 3062122 | \*1 | - |
-| 3068086 | Thin Socket | 3066710 | - | - |
-| 3068824 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3068825 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3068826 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3068899 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3070178 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3070421 | Thin Socket | 3059701 | \*2 | - |
-| 3070422 | Thin Socket | 3069701 | \*2 | - |
-| 3070649 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3071491 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3071492 | Thin socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3071494 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3071497 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3071498 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3071499 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3071500 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3071565 | Thin Socket | 3069701 | \*2 | - |
-| 3072029 | Thin Socket | 3066710 | - | 3652737 |
-| 3072030 | Thin Socket | 3066710 | - | 3652737 |
-| 3073569 | Thin Socket | 3069701 | \*2 | \*2 |
-| 3073571 | Thin Socket | 3069701 | \*2 | \*2 |
-| 3073572 | Thin Socket | 3069701 | \*2 | \*2 |
-| 3073574 | Thin Socket | 3069701 | \*2 | \*2 |
-| 3074250 | Thin Socket | 3069701 | 3075383 | 3075383 |
-| 3074251 | Thin Socket | 3069701 | 3075383 | 3075383 |
-| 3074252 | Thin Socket | 3069701 | 3075383 | 3075383 |
-| 3074319 | Thin Socket | 3069701 | 3075383 | 3075383 |
-| 3075343 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3075447 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3076034 | Thick Socket | 3075383 | 3075383 | 3075383 |
-| 3076050 | Thick Socket | 3075383 | 3075383 | 3075383 |
-| 3076130 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3076132 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3076132 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3076134 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3076700 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3076702 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3076703 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3076704 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3077714 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3077715 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3077718 | Thick Socket | [[3075381]] | [[3075381]] | [[3075381]] or 3604618 |
-| 3078194 | Thick Socket | 3075383 | 3075383 | 3075383 |
-| 3078195 | Thick Socket | 3075383 | 3075383 | 3075383 |
-| 3078196 | Thick Socket | 3075383 | 3075383 | 3075383 |
-| 3078197 | Thick Socket | 3075383 | 3075383 | 3075383 |
-| 3078198 | Thick Socket | 3075383 | 3075383 | 3075383 |
-| 3078206 | Thick Socket | 3075383 | 3075383 | 3075383 |
-| 3079669 | Thick Socket | [[3075381]] | [[3075381]] | [[3075381]] or 3604618 |
-| 3079946 | Thick Socket | [[3075381]] | [[3075381]] | [[3075381]] or 3604618 |
-| 3079947 | Thick Socket | [[3075381]] | [[3075381]] | [[3075381]] or 3604618 |
-| 3083765 | Thick Socket | 3075383 | 3075383 | 3075383 |
-| 3279719 | Thin Socket | 3062122 | \*1 | - |
-| 3729777 | Thin Socket | 3062122 | \*1 | - |
-| 3279830 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
-| 3279847 | Thin Socket | 3062122 | \*1 | - |
-| 3627922 | Thick Socket | [[3075381]] | [[3075381]] | - |
-| 3652513PX | Thick Socket | - | - | [[3075381]] or 3604618 |
-| 3652514PX | Thick Socket | - | - | [[3075381]] or 3604618 |
-| 3652515PX | Thick Socket | - | - | [[3075381]] or 3604618 |
+| **Топливная форсуночная сборка Номер детали** | **Оригинальный тип таппета** | **Оригинальный таппет Номер детали** | **Текущий Таппет Номер детали** | **ReCon® Таппет Номер детали** |
+| 3036444 | тонкая розетка | 3055747 | \*1 | - |
+| 3045816 | тонкая розетка | 3055747 | \*1 | - |
+| 3052226 | тонкая розетка | 3027405 | [[3075381]] | - |
+| 3052228 | тонкая розетка | 3050341 | \*1 | - |
+| 3053206 | тонкая розетка | 3027405 | [[3075381]] | \*1 |
+| 3053764 | тонкая розетка | 3053774 | \*1 | - |
+| 3053766 | тонкая розетка | 3053774 | \*1 | - |
+| 3053767 | тонкая розетка | 3053774 | \*1 | - |
+| 3056495 | тонкая розетка | 3055747 | \*1 | - |
+| 3058800 | тонкая розетка | 3055747 | \*1 | \*1 |
+| 3058802 | тонкая розетка | 3055747 | \*1 | \*1 |
+| 3058852 | тонкая розетка | 3055747 | \*1 | - |
+| 3059255 | тонкая розетка | 3055747 | \*1 | - |
+| 3059257 | тонкая розетка | 3055747 | \*1 | - |
+| 3059458 | тонкая розетка | 3055747 | \*1 | - |
+| 3059923 | тонкая розетка | 3055747 | \*1 | - |
+| 3059925 | тонкая розетка | 3055747 | \*1 | - |
+| 3059927 | тонкая розетка | 3055747 | \*1 | - |
+| 3059960 | тонкая розетка | 3055747 | \*1 | - |
+| 3060410 | тонкая розетка | 3050341 | \*1 | - |
+| 3060594 | тонкая розетка | 3055747 | \*1 | - |
+| 3062092 | тонкая розетка | 3055747 | \*1 | \*1 |
+| 3062147 | тонкая розетка | 3062122 | \*1 | - |
+| 3062148 | тонкая розетка | 3062122 | \*1 | - |
+| 3062149 | тонкая розетка | 3062122 | \*1 | - |
+| 3062150 | тонкая розетка | 3062122 | \*1 | - |
+| 3062151 | тонкая розетка | 3062122 | \*1 | - |
+| 3062152 | тонкая розетка | 3062122 | \*1 | - |
+| 3062153 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3062611 | тонкая розетка | 3062122 | \*1 | - |
+| 3063228 | тонкая розетка | 3062122 | \*1 | - |
+| 3064457 | тонкая розетка | 3062122 | \*1 | - |
+| 3065349 | тонкая розетка | 3062122 | \*1 | - |
+| 3065350 | тонкая розетка | 3062122 | \*1 | - |
+| 3066915 | тонкая розетка | 3062122 | \*1 | - |
+| 3067393 | тонкая розетка | 3062122 | \*1 | - |
+| 3067403 | тонкая розетка | 3062122 | \*1 | - |
+| 3068086 | тонкая розетка | 3066710 | - | - |
+| 3068824 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3068825 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3068826 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3068899 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3070178 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3070421 | тонкая розетка | 3059701 | \*2 | - |
+| 3070422 | тонкая розетка | 3069701 | \*2 | - |
+| 3070649 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3071491 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3071492 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3071494 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3071497 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3071498 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3071499 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3071500 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3071565 | тонкая розетка | 3069701 | \*2 | - |
+| 3072029 | тонкая розетка | 3066710 | - | 3652737 |
+| 3072030 | тонкая розетка | 3066710 | - | 3652737 |
+| 3073569 | тонкая розетка | 3069701 | \*2 | \*2 |
+| 3073571 | тонкая розетка | 3069701 | \*2 | \*2 |
+| 3073572 | тонкая розетка | 3069701 | \*2 | \*2 |
+| 3073574 | тонкая розетка | 3069701 | \*2 | \*2 |
+| 3074250 | тонкая розетка | 3069701 | 3075383 | 3075383 |
+| 3074251 | тонкая розетка | 3069701 | 3075383 | 3075383 |
+| 3074252 | тонкая розетка | 3069701 | 3075383 | 3075383 |
+| 3074319 | тонкая розетка | 3069701 | 3075383 | 3075383 |
+| 3075343 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3075447 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3076034 | Толстая розетка | 3075383 | 3075383 | 3075383 |
+| 3076050 | Толстая розетка | 3075383 | 3075383 | 3075383 |
+| 3076130 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3076132 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3076132 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3076134 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3076700 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3076702 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3076703 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3076704 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3077714 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3077715 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3077718 | Толстая розетка | [[3075381]] | [[3075381]] | [[3075381]]3604618 или |
+| 3078194 | Толстая розетка | 3075383 | 3075383 | 3075383 |
+| 3078195 | Толстая розетка | 3075383 | 3075383 | 3075383 |
+| 3078196 | Толстая розетка | 3075383 | 3075383 | 3075383 |
+| 3078197 | Толстая розетка | 3075383 | 3075383 | 3075383 |
+| 3078198 | Толстая розетка | 3075383 | 3075383 | 3075383 |
+| 3078206 | Толстая розетка | 3075383 | 3075383 | 3075383 |
+| 3079669 | Толстая розетка | [[3075381]] | [[3075381]] | [[3075381]]3604618 или |
+| 3079946 | Толстая розетка | [[3075381]] | [[3075381]] | [[3075381]]3604618 или |
+| 3079947 | Толстая розетка | [[3075381]] | [[3075381]] | [[3075381]]3604618 или |
+| 3083765 | Толстая розетка | 3075383 | 3075383 | 3075383 |
+| 3279719 | тонкая розетка | 3062122 | \*1 | - |
+| 3729777 | тонкая розетка | 3062122 | \*1 | - |
+| 3279830 | тонкая розетка | 3062122 | [[3075381]] | [[3075381]]3604618 или |
+| 3279847 | тонкая розетка | 3062122 | \*1 | - |
+| 3627922 | Толстая розетка | [[3075381]] | [[3075381]] | - |
+| 3652513PX | Толстая розетка | - | - | [[3075381]]3604618 или |
+| 3652514PX | Толстая розетка | - | - | [[3075381]]3604618 или |
+| 3652515PX | Толстая розетка | - | - | [[3075381]]3604618 или |
 
-> [!note] Note · Примечание
-> These injector assemblies are obsolete in product, at ReCon®, or both. However, when servicing those injectors that still exist in the field, use any of the Pre-1991 tappets listed for that assembly, or tappet Part No. [[3075381]].
+> [!note] Примечание
+> Эти топливные форсунки устаревают в продукте, в ReCon® или в обоих. Однако при обслуживании тех топливных форсунок, которые все еще существуют в полевых условиях, используйте любой из кранов Pre-1991, перечисленных для этой сборки, или кран Номер детали.[[3075381]].
 
-> [!note] Note · Примечание
-> These injector assemblies are obsolete in production, at ReCon®, or both. However, when servicing those injectors that still exist in the field, use any of the 1991 tappets listed for that assembly, or tappet Part No. 3075383.
+> [!note] Примечание
+> Эти топливные форсунки устаревают в производстве, в ReCon® или и то, и другое. Однако при обслуживании тех топливных форсунок, которые все еще существуют в полевых условиях, используйте любой из кранов 1991 года, перечисленных для этой сборки, или кран Номер детали. 3075383.
 
-> [!warning] CAUTION · Осторожно
-> Tappet Part Nos. 3053774 and 3604618 MUST be used with top stop screw Part No. 3053771 or poor engine performance will reuslt.
+> [!warning] ОСТОРОЖНО
+> Таппетная номер деталиs. 3053774 и 3604618 ДОЛЖНЫ использоваться с верхним стоп-винтом Номер детали. 3053771 или плохая производительность двигателя будет повторно использована.
 
-**Tappet Rebuild Kit Information**
+**Информация о восстановлении пакета**
 
-Below is information on the parts that make up a tappet rebuild kit. There are 3 different tappet rebuild kits. Twop kits Part Nos. 3801688 and 3803101, are for thin socket tappets. The other kit, Part No. 3803497, is for thick socket tappets. Refer to Figure 5: STC Injector Tappet Parts and Table 3: STC Injector Tappet Repair Kits.
+Ниже приведена информация о частях, которые составляют комплект для восстановления крана. Есть 3 различных набора для восстановления крана. Наборы для двух частей Nos. 3801688 и 3803101, предназначены для тонких кранов. Другой комплект, номер детали. 3803497, для толстых кранов. См. Рисунок 5: ТТС форсунка Таппет Части и Таблица 3: STC форсунка Tappet Repair Kits.
 
-> [!warning] CAUTION · Осторожно
-> Do NOT use tappet rebuild kit Part No. 3801688 or 3803101, to rebuild any Thick Socket tappet or severe engine damage will occur.
+> [!warning] ОСТОРОЖНО
+> Не используйте набор для восстановления крана Часть Нет. 3801688 или 3803101, для восстановления любого крана толстой розетки или серьезного повреждения двигателя.
 
 ![[94t4005.png]]
 
-Figure 5: STC Injector Tappet Parts
+Рисунок 5: ТЭК форсунка Tappet Parts
 
-| **Table 3: STC Injector Repair Kits** |  |  |  |  |
+| **Таблица 3: Ремонт топливных форсунок STC** |  |  |  |  |
 |---|---|---|---|---|
-| **Item No.** | **Description** | **Thin Socket Kit Part No. 3801688** | **Thin Socket Kit Part No. 3803101** | **Thick Socket Kit Part No. 3803497** |
-| 1 | Retaining Ring | [[3027988]] | Same as in Kit 3801688 | Same as in Kit 3801688 |
-| 2 | Plunger Check Ball Spring | [[3027994]] | Same as in kit 3801688 | Same as in kit 3801688 |
-| 3 | Inlet Check Ball | [[3027996]] | Same as in Kit 3801688 | Same as in Kit 3801688 |
-| 4 | Tappet Socket | 3031198 | Same as in Kit 3801688 | 3075384 |
-| 5 | Sleeve Spring Guide | 3050344\* | Same as in Kit 3801688 | 3075385\* |
-| 6 | Sleeve Spring | 3050345\* | Same as in Kit 3801688 | Same as in Kit 3801688 |
-| 7 | Plunger Spring | [[3054852]]\* | Same as in Kit 3801688 | Same as in Kit 3801688 |
-| 8 | Sleeve Check Ball | 3050346 | 3062119 | Same as in Kit 3803101 |
-| 9 | Plunger Spring Guide | [[3076033]]\* | Same as in Kit 3801688 | Same as in Kit 3801688 |
-| 10 | Tappet Plunger | - | - | - |
-| 11 | Tappet Sleeve | - | - | - |
-| \* These parts are also available individually. |  |  |  |  |
+| **Пункт No** | **Описание** | **Тонкая розетка Номер детали. 3801688** | **Тонкая розетка Номер детали. 3803101** | **Набор для толстых розеток Номер детали. 3803497** |
+| 1 | Стопорное кольцо | [[3027988]] | Как и в Kit 3801688 | Как и в Kit 3801688 |
+| 2 | Проверка блеска пружины | [[3027994]] | Как в комплекте 3801688 | Как в комплекте 3801688 |
+| 3 | Проверить мяч | [[3027996]] | Как и в Kit 3801688 | Как и в Kit 3801688 |
+| 4 | Гнездовой пакет | 3031198 | Как и в Kit 3801688 | 3075384 |
+| 5 | Руководитель по пружине Sleeve Spring | 3050344\* | Как и в Kit 3801688 | 3075385\* |
+| 6 | Слив Пружина | 3050345\* | Как и в Kit 3801688 | Как и в Kit 3801688 |
+| 7 | Голодная пружина | [[3054852]]\* | Как и в Kit 3801688 | Как и в Kit 3801688 |
+| 8 | Рукав Проверить мяч | 3050346 | 3062119 | Как и в случае с Kit 3803101 |
+| 9 | Путеводитель по пружине Plunger | [[3076033]]\* | Как и в Kit 3801688 | Как и в Kit 3801688 |
+| 10 | Таппет Плунгер | - | - | - |
+| 11 | Таппет Слив | - | - | - |
+| Эти части также доступны в индивидуальном порядке. |  |  |  |  |
 
-If a rebuild kit is required to replace a part, use the following procedure to select the correct tappet rebuild kit.
+Если для замены части требуется набор для восстановления, используйте следующую процедуру для выбора правильного комплекта для восстановления крана.
 
-**Table 4: Thick Socket TappetsTappet Part No.**
+Таблица 4: Thick Socket TappetsTappet Part No.
 
 [[3075381]]
 
@@ -229,19 +239,19 @@ If a rebuild kit is required to replace a part, use the following procedure to s
 
 3652737
 
-If the tappet part number is **not** one of the part numbers listed above, measure the depth of the socket seat. Refer to Figures 6 and 7 for details on measuring the depth of the socket seat.
+Если номер детали крана **не **один из номеров детали, перечисленных выше, измерьте глубину сиденья гнезда. См. рисунки 6 и 7 для получения подробной информации об измерении глубины сиденья розетки.
 
-Use Rebuild Kit, Part No. 3803497, if the socket seat depth is 0.281 ± 0.005 inches or use Rebuild Kit, Part No. 3803101, if the socket seat depth is 0.241 ±
+Используйте набор для восстановления, номер детали. 3803497, если глубина сиденья розетки составляет 0,281 ± 0,005 дюйма или использовать комплект для восстановления, номер детали. 3803101, если глубина сиденья розетки составляет 0,241 ±
 
 ![[94t4006.png]]
 
-Figure 6: Thick Socket Tappet
+Рисунок 6: Толстый розеточный таппет
 
 ![[94t4007.png]]
 
-Figure 7: Thin Socket Tappet
+Рисунок 7: Тонкий Socket Tappet
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -253,3 +263,201 @@ Figure 7: Thin Socket Tappet
 | [[3054852]] | COMPRESSION SPRING | Пружина сжатия |
 | [[3075381]] | HYDRAULIC VARIABLE TIMING TAPPET |  |
 | [[3076033]] | SPRING GUIDE | Направляющая пружины |
+
+> [!quote]- Original (English) · английский оригинал
+> ## STC, HVT Tappet Assemblies and Rebuild Kits (1224)
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document was originally released between 1994 and 2001. It has been added to QSOL for informational purposes
+>
+> This document contains all of the current information on New and ReCon® STC/HVT tappet assembly part numbers, physical descriptions, compatibility matrix, and tappet rebuild kit information. Desregard all STC/HVT tappet information in the following Service Parts Topics: 86T6-5, 86T6-5A, 87T6-7, 87T6-11, 88T6-4, 88T6-4A, 88T6-8, 88T6-9, 89T6-9A, 90T6-5, 91T6-5, and 93T6-2, topic except the rebuild guidelines in SPT 91T6-11.
+>
+> **STC/HVT Tappet Assemblies**
+>
+> There are 11 different STV/HVT tappet assemblies that have been produced by Cummins Engine Company and Diesel ReCon®. Table 1 lists the important information for each of these assemblies. Refer to Figure 1 and Figure 2 for tappet physical descriptions.
+>
+> | **Table 1: STC/HVT Tappet Assembly Information** |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> | **STC/HVT Tappet Assembly Part No.** | **Tappet Description** | **Engine Model** | **Tappet Rebuild Kit** | **Superseding Tappet Assembly Part No.** | **ReCon® Thick Socket Tappet\* Part No.** |
+> | 3027405 | Non-flanged | K/KV | None | 3055747 | None |
+> | 3050341 | Flanged | NTTA-450 | 3803101 | 3053774 | None |
+> | 3053774 | Top-Stop | NBC-IV | 3803101 | 3055747 | 3604618 |
+> | 3055747 | Grooved | NT & K/KV | 3803101 | 3062122 | [[3075381]] |
+> | 3062122 | Noise Fixed | NT & K/KV | 3803101 | [[3075381]] | [[3075381]] |
+> | 3066710 | 1991 L10 LP1 | 91 L10 Only | 3803101 | None | 3652737 |
+> | 3069701 | 1991 STC | 91 N14 & L10 | 3803101 | 3075383 | 3075383 |
+> | [[3075381]] | Pre-1991 Thick Socket | NT & K/KV | 3803497 | None | None |
+> | 3075383 | 1991 STC Thick Socket | 91 N14 & L10 | 3803497 | None | None |
+> | 3604618\* | Top-Stop Thick Socket | NT & K/KV | 3803497 | None | None |
+> | 3652737 | 1991 L10 LP1 Thick Socket | 91 L10 Only | 3803497 | None | None |
+> | \*ReCon® Machined tappets to accept thick socket hardware. These tappets are **only** used in ReCon® remanufactured STC injectors. Refer to Figure 4: ReCon® Tappet Part No. Location. |  |  |  |  |  |
+>
+> **Tappet Physcial Descriptions**
+>
+> Figure 2: 1991 Tappets
+>
+> Figure 3: Production Tappet Part No. Location
+>
+> Figure 4: ReCon Tappet Part No. Location
+>
+> | **Table 2: STC/HVT Injector and Tappet Assembly Compatibility Matrix** |  |  |  |  |
+> |---|---|---|---|---|
+> | **Injector Assembly Part No.** | **Original Tappet Type** | **Original Tappet Part No.** | **Current Tappet Part No.** | **ReCon® Tappet Part No.** |
+> | 3036444 | Thin Socket | 3055747 | \*1 | - |
+> | 3045816 | Thin Socket | 3055747 | \*1 | - |
+> | 3052226 | Thin Socket | 3027405 | [[3075381]] | - |
+> | 3052228 | Thin Socket | 3050341 | \*1 | - |
+> | 3053206 | Thin Socket | 3027405 | [[3075381]] | \*1 |
+> | 3053764 | Thin Socket | 3053774 | \*1 | - |
+> | 3053766 | Thin Socket | 3053774 | \*1 | - |
+> | 3053767 | Thin Socket | 3053774 | \*1 | - |
+> | 3056495 | Thin Socket | 3055747 | \*1 | - |
+> | 3058800 | Thin Socket | 3055747 | \*1 | \*1 |
+> | 3058802 | Thin Socket | 3055747 | \*1 | \*1 |
+> | 3058852 | Thin Socket | 3055747 | \*1 | - |
+> | 3059255 | Thin Socket | 3055747 | \*1 | - |
+> | 3059257 | Thin Socket | 3055747 | \*1 | - |
+> | 3059458 | Thin Socket | 3055747 | \*1 | - |
+> | 3059923 | Thin Socket | 3055747 | \*1 | - |
+> | 3059925 | Thin Socket | 3055747 | \*1 | - |
+> | 3059927 | Thin Socket | 3055747 | \*1 | - |
+> | 3059960 | Thin Socket | 3055747 | \*1 | - |
+> | 3060410 | Thin Socket | 3050341 | \*1 | - |
+> | 3060594 | Thin Socket | 3055747 | \*1 | - |
+> | 3062092 | Thin Socket | 3055747 | \*1 | \*1 |
+> | 3062147 | Thin Socket | 3062122 | \*1 | - |
+> | 3062148 | Thin Socket | 3062122 | \*1 | - |
+> | 3062149 | Thin Socket | 3062122 | \*1 | - |
+> | 3062150 | Thin Socket | 3062122 | \*1 | - |
+> | 3062151 | Thin Socket | 3062122 | \*1 | - |
+> | 3062152 | Thin Socket | 3062122 | \*1 | - |
+> | 3062153 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3062611 | Thin Socket | 3062122 | \*1 | - |
+> | 3063228 | Thin Socket | 3062122 | \*1 | - |
+> | 3064457 | Thin Socket | 3062122 | \*1 | - |
+> | 3065349 | Thin Socket | 3062122 | \*1 | - |
+> | 3065350 | Thin Socket | 3062122 | \*1 | - |
+> | 3066915 | Thin Socket | 3062122 | \*1 | - |
+> | 3067393 | Thin Socket | 3062122 | \*1 | - |
+> | 3067403 | Thin Socket | 3062122 | \*1 | - |
+> | 3068086 | Thin Socket | 3066710 | - | - |
+> | 3068824 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3068825 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3068826 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3068899 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3070178 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3070421 | Thin Socket | 3059701 | \*2 | - |
+> | 3070422 | Thin Socket | 3069701 | \*2 | - |
+> | 3070649 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3071491 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3071492 | Thin socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3071494 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3071497 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3071498 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3071499 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3071500 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3071565 | Thin Socket | 3069701 | \*2 | - |
+> | 3072029 | Thin Socket | 3066710 | - | 3652737 |
+> | 3072030 | Thin Socket | 3066710 | - | 3652737 |
+> | 3073569 | Thin Socket | 3069701 | \*2 | \*2 |
+> | 3073571 | Thin Socket | 3069701 | \*2 | \*2 |
+> | 3073572 | Thin Socket | 3069701 | \*2 | \*2 |
+> | 3073574 | Thin Socket | 3069701 | \*2 | \*2 |
+> | 3074250 | Thin Socket | 3069701 | 3075383 | 3075383 |
+> | 3074251 | Thin Socket | 3069701 | 3075383 | 3075383 |
+> | 3074252 | Thin Socket | 3069701 | 3075383 | 3075383 |
+> | 3074319 | Thin Socket | 3069701 | 3075383 | 3075383 |
+> | 3075343 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3075447 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3076034 | Thick Socket | 3075383 | 3075383 | 3075383 |
+> | 3076050 | Thick Socket | 3075383 | 3075383 | 3075383 |
+> | 3076130 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3076132 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3076132 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3076134 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3076700 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3076702 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3076703 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3076704 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3077714 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3077715 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3077718 | Thick Socket | [[3075381]] | [[3075381]] | [[3075381]] or 3604618 |
+> | 3078194 | Thick Socket | 3075383 | 3075383 | 3075383 |
+> | 3078195 | Thick Socket | 3075383 | 3075383 | 3075383 |
+> | 3078196 | Thick Socket | 3075383 | 3075383 | 3075383 |
+> | 3078197 | Thick Socket | 3075383 | 3075383 | 3075383 |
+> | 3078198 | Thick Socket | 3075383 | 3075383 | 3075383 |
+> | 3078206 | Thick Socket | 3075383 | 3075383 | 3075383 |
+> | 3079669 | Thick Socket | [[3075381]] | [[3075381]] | [[3075381]] or 3604618 |
+> | 3079946 | Thick Socket | [[3075381]] | [[3075381]] | [[3075381]] or 3604618 |
+> | 3079947 | Thick Socket | [[3075381]] | [[3075381]] | [[3075381]] or 3604618 |
+> | 3083765 | Thick Socket | 3075383 | 3075383 | 3075383 |
+> | 3279719 | Thin Socket | 3062122 | \*1 | - |
+> | 3729777 | Thin Socket | 3062122 | \*1 | - |
+> | 3279830 | Thin Socket | 3062122 | [[3075381]] | [[3075381]] or 3604618 |
+> | 3279847 | Thin Socket | 3062122 | \*1 | - |
+> | 3627922 | Thick Socket | [[3075381]] | [[3075381]] | - |
+> | 3652513PX | Thick Socket | - | - | [[3075381]] or 3604618 |
+> | 3652514PX | Thick Socket | - | - | [[3075381]] or 3604618 |
+> | 3652515PX | Thick Socket | - | - | [[3075381]] or 3604618 |
+>
+> **Note · Примечание**
+> These injector assemblies are obsolete in product, at ReCon®, or both. However, when servicing those injectors that still exist in the field, use any of the Pre-1991 tappets listed for that assembly, or tappet Part No. [[3075381]].
+>
+> **Note · Примечание**
+> These injector assemblies are obsolete in production, at ReCon®, or both. However, when servicing those injectors that still exist in the field, use any of the 1991 tappets listed for that assembly, or tappet Part No. 3075383.
+>
+> **CAUTION · Осторожно**
+> Tappet Part Nos. 3053774 and 3604618 MUST be used with top stop screw Part No. 3053771 or poor engine performance will reuslt.
+>
+> **Tappet Rebuild Kit Information**
+>
+> Below is information on the parts that make up a tappet rebuild kit. There are 3 different tappet rebuild kits. Twop kits Part Nos. 3801688 and 3803101, are for thin socket tappets. The other kit, Part No. 3803497, is for thick socket tappets. Refer to Figure 5: STC Injector Tappet Parts and Table 3: STC Injector Tappet Repair Kits.
+>
+> **CAUTION · Осторожно**
+> Do NOT use tappet rebuild kit Part No. 3801688 or 3803101, to rebuild any Thick Socket tappet or severe engine damage will occur.
+>
+> Figure 5: STC Injector Tappet Parts
+>
+> | **Table 3: STC Injector Repair Kits** |  |  |  |  |
+> |---|---|---|---|---|
+> | **Item No.** | **Description** | **Thin Socket Kit Part No. 3801688** | **Thin Socket Kit Part No. 3803101** | **Thick Socket Kit Part No. 3803497** |
+> | 1 | Retaining Ring | [[3027988]] | Same as in Kit 3801688 | Same as in Kit 3801688 |
+> | 2 | Plunger Check Ball Spring | [[3027994]] | Same as in kit 3801688 | Same as in kit 3801688 |
+> | 3 | Inlet Check Ball | [[3027996]] | Same as in Kit 3801688 | Same as in Kit 3801688 |
+> | 4 | Tappet Socket | 3031198 | Same as in Kit 3801688 | 3075384 |
+> | 5 | Sleeve Spring Guide | 3050344\* | Same as in Kit 3801688 | 3075385\* |
+> | 6 | Sleeve Spring | 3050345\* | Same as in Kit 3801688 | Same as in Kit 3801688 |
+> | 7 | Plunger Spring | [[3054852]]\* | Same as in Kit 3801688 | Same as in Kit 3801688 |
+> | 8 | Sleeve Check Ball | 3050346 | 3062119 | Same as in Kit 3803101 |
+> | 9 | Plunger Spring Guide | [[3076033]]\* | Same as in Kit 3801688 | Same as in Kit 3801688 |
+> | 10 | Tappet Plunger | - | - | - |
+> | 11 | Tappet Sleeve | - | - | - |
+> | \* These parts are also available individually. |  |  |  |  |
+>
+> If a rebuild kit is required to replace a part, use the following procedure to select the correct tappet rebuild kit.
+>
+> **Table 4: Thick Socket TappetsTappet Part No.**
+>
+> [[3075381]]
+>
+> 3075383
+>
+> 3604618
+>
+> 3652737
+>
+> If the tappet part number is **not** one of the part numbers listed above, measure the depth of the socket seat. Refer to Figures 6 and 7 for details on measuring the depth of the socket seat.
+>
+> Use Rebuild Kit, Part No. 3803497, if the socket seat depth is 0.281 ± 0.005 inches or use Rebuild Kit, Part No. 3803101, if the socket seat depth is 0.241 ±
+>
+> Figure 6: Thick Socket Tappet
+>
+> Figure 7: Thin Socket Tappet
+>
+> ### Document History

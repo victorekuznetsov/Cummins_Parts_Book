@@ -14,13 +14,15 @@ manuals:
   - "4021389"
   - "4021391"
 figures: 11
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-100-001-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-100-001-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Engine Identification
@@ -34,91 +36,168 @@ tags:
 > **Даты:** изменён 2015-11-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-100-001-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-100-001-om-ind.pdf)
 
-### Engine Dataplate
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-B3.9, B5.9, and B4.5 Engines
 
-The engine dataplate shows specific facts about your engine. The engine serial number and Control Parts List provide information for ordering parts and for service. The engine dataplate **must not** be changed unless approved by Cummins Inc.
+### Заводская табличка двигателя
+
+Двигатели B3.9, B5.9 и B4.5
+
+На табличке с данными двигателя указаны конкретные факты о вашем двигателе. Серийный номер двигателя и список контрольных частей предоставляют информацию для заказа деталей и обслуживания. Диаграмма двигателя не должна быть изменена, если она не одобрена Cummins Inc.
 
 ![[00900060.png]]
 
-B4.5 RGT Engines
+Двигатели B4.5 RGT
 
-The engine dataplate shows specific facts about your engine. The engine serial number and Control Parts List provide information for ordering parts and for service. The engine dataplate **must not** be changed unless approved by Cummins Inc.
+На табличке с данными двигателя указаны конкретные факты о вашем двигателе. Серийный номер двигателя и список контрольных частей предоставляют информацию для заказа деталей и обслуживания. Диаграмма двигателя не должна быть изменена, если она не одобрена Cummins Inc.
 
 ![[00d00076.png]]
 
-Have the following engine data available when communicating with a Cummins Authorized Repair Location. The information on the dataplate is **mandatory** when sourcing service parts.
+Иметь следующие данные о двигателе при общении с авторизованным местом ремонта Cummins. Информация на табличке данных является **обязательной** при поиске частей обслуживания.
 
 ![[00d00075.png]]
 
-1. Control parts list (CPL)
-2. Model
-3. Engine serial number
-4. Emissions certification
-5. Horsepower and rpm rating.
+1. Список контрольных частей (CPL)
+2. Модель
+3. Серийный номер двигателя
+4. Сертификация выбросов
+5. Верхняя сила и рейтинг rpm.
 
 ![[00400678.png]]
 
-1. Control parts list (CPL)
-2. Model
-3. Engine serial number
-4. Horsepower and rpm rating.
+1. Список контрольных частей (CPL)
+2. Модель
+3. Серийный номер двигателя
+4. Верхняя сила и рейтинг rpm.
 
-> [!note] Note · Примечание
-> If the engine dataplate (1) is **not** readable, the engine serial number (2) can be identified on the engine block above the oil cooler.
+> [!note] Примечание
+> Если табличка (1) двигателя **не**читаема, серийный номер (2) двигателя может быть идентифицирован на блоке двигателя над масляным охладителем.
 
 ![[00900031.png]]
 
-### Cummins® Engine Nomenclature
+### Cummins® Номенклатура двигателей
 
-B5.9
+В5.9
 
-The model name provides the following engine data:
+Название модели содержит следующие данные о двигателе:
 
-- B = Engine series
-- 5.9 = Displacement in liters.
+- B = серия двигателей
+- 5.9 = Перемещение в литрах.
 
 ![[17900077.png]]
 
-B3.9
+В3.9
 
-The model name provides the following engine data:
+Название модели содержит следующие данные о двигателе:
 
-- B = Engine series
-- 3.9 = Displacement in liters.
+- B = серия двигателей
+- 3.9 = Перемещение в литрах.
 
 ![[ew900gg.png]]
 
-The Cummins engine nomenclature provides the data as illustrated in the graphic.
+Номенклатура двигателя Cummins предоставляет данные, как показано на графике.
 
 ![[00d00020.png]]
 
-The model name for engines in industrial applications provides the data shown below For example:
+Название модели для двигателей в промышленных приложениях содержит данные, приведенные ниже.
 
 4BTAA-3.9
 
-- 4 = Number of cylinders
-- B = Engine series
-- T = Turbocharged
-- AA = Charge air cooled
-- 3.9 = Displacement in liters.
+- 4 = количество цилиндров
+- B = серия двигателей
+- T = турбированный
+- AA = Зарядка воздуха охлаждается
+- 3.9 = Перемещение в литрах.
 
-> [!note] Note · Примечание
-> The suffix RGT refers to “Rear Gear Train” engines.
+> [!note] Примечание
+> Суффикс RGT относится к двигателям «Rear Gear Train».
 
 ![[ew900gg.png]]
 
-### Fuel Injection Pump Dataplate
+### Таблица данных насоса для впрыска топлива
 
-Bosch™ Rotary
+Bosch® Rotary
 
-The injection pump dataplate for the Bosch® VE pump is located on the side of the injection pump. The dataplate provides information for fuel pump calibration.
+Таблица данных инжекционного насоса для насоса Bosch® VE расположена на стороне инжекционного насоса. На табличке представлена информация для калибровки топливного насоса.
 
 ![[ip9plga.png]]
 
-Delphi Rotary
+Дельфи Ротари
 
-The injection pump dataplate for the Delphi DP pump is located on the side of the injection pump. The dataplate provides information for fuel pump calibration.
+Таблица данных инжекционного насоса для насоса Delphi DP расположена на стороне инжекционного насоса. На табличке представлена информация для калибровки топливного насоса.
 
 ![[05900794.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Engine Dataplate
+>
+> B3.9, B5.9, and B4.5 Engines
+>
+> The engine dataplate shows specific facts about your engine. The engine serial number and Control Parts List provide information for ordering parts and for service. The engine dataplate **must not** be changed unless approved by Cummins Inc.
+>
+> B4.5 RGT Engines
+>
+> The engine dataplate shows specific facts about your engine. The engine serial number and Control Parts List provide information for ordering parts and for service. The engine dataplate **must not** be changed unless approved by Cummins Inc.
+>
+> Have the following engine data available when communicating with a Cummins Authorized Repair Location. The information on the dataplate is **mandatory** when sourcing service parts.
+>
+> 1. Control parts list (CPL)
+> 2. Model
+> 3. Engine serial number
+> 4. Emissions certification
+> 5. Horsepower and rpm rating.
+>
+> 1. Control parts list (CPL)
+> 2. Model
+> 3. Engine serial number
+> 4. Horsepower and rpm rating.
+>
+> **Note · Примечание**
+> If the engine dataplate (1) is **not** readable, the engine serial number (2) can be identified on the engine block above the oil cooler.
+>
+> ### Cummins® Engine Nomenclature
+>
+> B5.9
+>
+> The model name provides the following engine data:
+>
+> - B = Engine series
+> - 5.9 = Displacement in liters.
+>
+> B3.9
+>
+> The model name provides the following engine data:
+>
+> - B = Engine series
+> - 3.9 = Displacement in liters.
+>
+> The Cummins engine nomenclature provides the data as illustrated in the graphic.
+>
+> The model name for engines in industrial applications provides the data shown below For example:
+>
+> 4BTAA-3.9
+>
+> - 4 = Number of cylinders
+> - B = Engine series
+> - T = Turbocharged
+> - AA = Charge air cooled
+> - 3.9 = Displacement in liters.
+>
+> **Note · Примечание**
+> The suffix RGT refers to “Rear Gear Train” engines.
+>
+> ### Fuel Injection Pump Dataplate
+>
+> Bosch™ Rotary
+>
+> The injection pump dataplate for the Bosch® VE pump is located on the side of the injection pump. The dataplate provides information for fuel pump calibration.
+>
+> Delphi Rotary
+>
+> The injection pump dataplate for the Delphi DP pump is located on the side of the injection pump. The dataplate provides information for fuel pump calibration.

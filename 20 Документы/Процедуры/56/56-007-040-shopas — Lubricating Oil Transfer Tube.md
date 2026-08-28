@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-040-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-040-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Transfer Tube
@@ -35,97 +37,196 @@ tags:
 > **Даты:** изменён 2010-05-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-040-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-040-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-S-Shape type
 
-> [!note] Note · Примечание
-> Arrangement consists of lubricating oil pump connection (3) and block connection (1), with a steel tube (2) bridging the connections (1) and (3). Connection (1) has three mounting capscrews. Steel tube has slight bend in its section.
+### Установка
 
-Lubricate the seals (5) and (6) with clean grease prior to installation.
+S-образный тип
 
-Attach connector (1) to engine block with capscrews (10).
+> [!note] Примечание
+> Устройство состоит из насоса моторного масла (3) и блочного соединения (1) со стальной трубкой (2), соединяющей соединения (1) и (3). Соединение (1) имеет три крепежных болта. Стальная труба имеет небольшой изгиб в своем участке.
 
-Install the lubricating oil transfer tube (2) with seal (5) with the three capscrews (9) into connector (1).
+Смазать уплотнения (5) и (6) чистой смазкой перед установкой.
 
-Attach connector (3) to the lubricating oil transfer tube (2) with seal (6).
+Прикрепить разъём (1) к блоку двигателя с болтами (10).
 
-Attach connector (3) with capscrews (10).
+Установите трубку (2) для переноса моторного масла с уплотнением (5) с тремя болтами (9) в разъём (1).
 
-Tighten the capscrews except for the two bracket capscrews (8).
+Прикрепить разъём (3) к трубке для переноса моторного масла (2) с уплотнением (6).
 
-Torque Value:
+Прикрепить разъём (3) болтами (10).
 
-M10 Capscrews
+Закрепите болты, за исключением двух болтов скобки (8).
 
-Torque Value:
+Момент затяжки:
 
-M12 Capscrews
+болты М10
 
-Loosen the capscrews that attaches bracket (4) to the cylinder block.
+Момент затяжки:
 
-> [!note] Note · Примечание
-> Loosen the capscrews only enough to allow the bracket to move. The bracket **must** remain flat against the cylinder block.
+болты М12
 
-Tighten the two capscrews (8) that fasten the bracket (4) and clamp to connector (1).
+Устраните болты, которые крепят кронштейн (4) к блоку цилиндра.
 
-Tighten the two capscrews in the bracket to cylinder block connection.
+> [!note] Примечание
+> Освободите болты только настолько, чтобы позволить скобке двигаться. Кронштейн **должен** оставаться плоским относительно блока цилиндров.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+Закрепите два болта (8), которые крепят кронштейн (4) и зажим для разъема (1).
+
+Затяните два болта в скобке до соединения блока цилиндров.
+
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[07600388.png]]
 
-Elbow type
+Тип локтя
 
-> [!note] Note · Примечание
-> Arrangement consists of block connection (1), with a steel tube (2) which bridges from block connections (1) directly to lubricating oil pump.
+> [!note] Примечание
+> Устройство состоит из блочного соединения (1) со стальной трубкой (2), которая соединяется от блочных соединений (1) непосредственно с насосом моторного масла.
 
-Lubricate the seals (3) with clean grease prior to installation.
+Смазать уплотнения (3) чистой смазкой перед установкой.
 
-Install bracket (4) secure with two capscrews (11) to cylinder block.
+Установите скобки (4) защищёнными двумя болтами (11) на блок цилиндров.
 
-Install oil transfer tube (2) to lubricating oil pump and secure with three off capscrews (6).
+Установите нефтепереносную трубку (2) на насос моторного масла и закрепите тремя отключающими болтами (6).
 
-Install block connector (1) and secure with capscrews (7), (8), and (9) to cylinder block.
+Установите блок-разъем (1) и закрепите болтами (7), (8) и (9) блок цилиндров.
 
-Install remaining capscrews (6) to transfer tube clamp (2) and block connector (1).
+Установите оставшиеся болты (6) для переноса зажима трубки (2) и блок-разъема (1).
 
-Install tube brace (5) and secure with capscrews (10) and nuts (12).
+Установите трубчатую скобу (5) и закрепите болтами (10) и гайками (12).
 
-Torque Value:
+Момент затяжки:
 
-M10 Capscrews
+болты М10
 
-Torque Value:
+Момент затяжки:
 
-M12 Capscrews
+болты М12
 
 ![[07601042.png]]
 
-Straight type
+Прямой тип
 
-> [!note] Note · Примечание
-> Arrangement consists of lubricating oil pump connection (2) and block connection (6), with a steel tube (4) bridging the connections (2) and (6). Connection (6) has four mounting capscrews. Steel tube is straight in section.
+> [!note] Примечание
+> Устройство состоит из насоса моторного масла (2) и блочного соединения (6), со стальной трубкой (4), соединяющей соединения (2) и (6). Соединение (6) имеет четыре крепежных болта. Стальная труба находится прямо в секции.
 
-Lubricate seals (5) with clean grease prior to installation.
+Смазочные уплотнения (5) с чистой смазкой перед установкой.
 
-Install connector (6) with capscrews (7), (8), and (9).
+Установите разъем (6) с болтами (7), (8) и (9).
 
-Install the lubricating oil transfer tube (4) with seal (5), with three capscrews (10) into connector (6).
+Установите трубку (4) для переноса моторного масла с уплотнением (5) с тремя болтами (10) в разъём (6).
 
-Install sleeve (1) into bore of lubricating oil pump.
+Установите рукав (1) в цилиндрический штангу насоса моторного масла.
 
-Attach connector (2) to the lubricating oil transfer tube (4), with seal (5) and three capscrews (10).
+Прикрепить разъём (2) к трубке (4) для переноса моторного масла, с уплотнением (5) и тремя болтами (10).
 
-Attache connector (2) with capscrews (3).
+Установить разъём (2) с болтами (3).
 
-Torque Value:
+Момент затяжки:
 
-M10 Capscrews
+болты М10
 
-Torque Value:
+Момент затяжки:
 
-M12 Capscrews
+болты М12
 
 ![[07601043.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> S-Shape type
+>
+> **Note · Примечание**
+> Arrangement consists of lubricating oil pump connection (3) and block connection (1), with a steel tube (2) bridging the connections (1) and (3). Connection (1) has three mounting capscrews. Steel tube has slight bend in its section.
+>
+> Lubricate the seals (5) and (6) with clean grease prior to installation.
+>
+> Attach connector (1) to engine block with capscrews (10).
+>
+> Install the lubricating oil transfer tube (2) with seal (5) with the three capscrews (9) into connector (1).
+>
+> Attach connector (3) to the lubricating oil transfer tube (2) with seal (6).
+>
+> Attach connector (3) with capscrews (10).
+>
+> Tighten the capscrews except for the two bracket capscrews (8).
+>
+> Torque Value:
+>
+> M10 Capscrews
+>
+> Torque Value:
+>
+> M12 Capscrews
+>
+> Loosen the capscrews that attaches bracket (4) to the cylinder block.
+>
+> **Note · Примечание**
+> Loosen the capscrews only enough to allow the bracket to move. The bracket **must** remain flat against the cylinder block.
+>
+> Tighten the two capscrews (8) that fasten the bracket (4) and clamp to connector (1).
+>
+> Tighten the two capscrews in the bracket to cylinder block connection.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Elbow type
+>
+> **Note · Примечание**
+> Arrangement consists of block connection (1), with a steel tube (2) which bridges from block connections (1) directly to lubricating oil pump.
+>
+> Lubricate the seals (3) with clean grease prior to installation.
+>
+> Install bracket (4) secure with two capscrews (11) to cylinder block.
+>
+> Install oil transfer tube (2) to lubricating oil pump and secure with three off capscrews (6).
+>
+> Install block connector (1) and secure with capscrews (7), (8), and (9) to cylinder block.
+>
+> Install remaining capscrews (6) to transfer tube clamp (2) and block connector (1).
+>
+> Install tube brace (5) and secure with capscrews (10) and nuts (12).
+>
+> Torque Value:
+>
+> M10 Capscrews
+>
+> Torque Value:
+>
+> M12 Capscrews
+>
+> Straight type
+>
+> **Note · Примечание**
+> Arrangement consists of lubricating oil pump connection (2) and block connection (6), with a steel tube (4) bridging the connections (2) and (6). Connection (6) has four mounting capscrews. Steel tube is straight in section.
+>
+> Lubricate seals (5) with clean grease prior to installation.
+>
+> Install connector (6) with capscrews (7), (8), and (9).
+>
+> Install the lubricating oil transfer tube (4) with seal (5), with three capscrews (10) into connector (6).
+>
+> Install sleeve (1) into bore of lubricating oil pump.
+>
+> Attach connector (2) to the lubricating oil transfer tube (4), with seal (5) and three capscrews (10).
+>
+> Attache connector (2) with capscrews (3).
+>
+> Torque Value:
+>
+> M10 Capscrews
+>
+> Torque Value:
+>
+> M12 Capscrews

@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-007-083-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-007-083-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil and Filter Analysis
@@ -35,34 +37,70 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-007-083-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-007-083-tr.pdf)
 
-### Inspect
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-A used oil analysis can help diagnose internal damage and determine the cause, such as:
 
-- intake air filter malfunction
-- coolant leaks
-- oil diluted with fuel
-- metal particles causing wear.
+### Осмотр
+
+Анализ использованного масла может помочь диагностировать внутреннее повреждение и определить причину, такую как:
+
+- неисправность фильтра воздухоочистителя
+- утечки охлаждающей жидкости
+- масло, разбавленное топливом
+- металлические частицы, вызывающие износ.
 
 ![[oi801ke.png]]
 
-> [!note] Note · Примечание
-> Do **not** disassemble an engine for repair based **only** on the results of an oil analysis. Inspect the oil filters also. If the oil filter shows evidence of internal damage, find the source of the problem and repair the damage. See the appropriate section(s) of this manual based on the following oil filter inspection.
+> [!note] Примечание
+> **Не разбирать двигатель для ремонта на основе **только по результатам анализа масла. Также проверьте масляные фильтры. Если масляный фильтр показывает признаки внутреннего повреждения, найдите источник проблемы и отремонтируйте повреждение. См. соответствующий раздел (разделы) настоящего руководства на основе следующего осмотра масляного фильтра.
 
-For additional oil analysis information, refer to Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin [[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]].
+Для получения дополнительной информации по анализу масла обратитесь к рекомендациям по анализу масла и масла Cummins®, Бюллетень[[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]].
 
 ![[lt801ka.png]]
 
-Use tube cutter, Part Number 3376579, to open the combination oil filter.
+Используйте трубчатый резак, номер детали 3376579, чтобы открыть комбинированный масляный фильтр.
 
-Inspect the filter element for evidence of moisture or metal particles.
+Проверить фильтрующий элемент на наличие влаги или металлических частиц.
 
-| Metal | Possible Source |
+| металл | Возможный источник |
 |---|---|
-| Copper | Bearings and Bushings |
-| Chromium | Piston Rings |
-| Iron | Cylinder Liners, Overhead Components |
-| Lead | Bearing Overlay Material |
-| Aluminum | Piston Wear or Scuffing |
+| медь | Подшипники и бушинги |
+| Хром | Поршневые кольца |
+| железо | Цилиндровые гильзы, накладные компоненты |
+| Ведущий | Накладной материал Bearing Overlay |
+| алюминий | Пистонский костюм или потасовка |
 
 ![[lf8etka.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect
+>
+> A used oil analysis can help diagnose internal damage and determine the cause, such as:
+>
+> - intake air filter malfunction
+> - coolant leaks
+> - oil diluted with fuel
+> - metal particles causing wear.
+>
+> **Note · Примечание**
+> Do **not** disassemble an engine for repair based **only** on the results of an oil analysis. Inspect the oil filters also. If the oil filter shows evidence of internal damage, find the source of the problem and repair the damage. See the appropriate section(s) of this manual based on the following oil filter inspection.
+>
+> For additional oil analysis information, refer to Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin [[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]].
+>
+> Use tube cutter, Part Number 3376579, to open the combination oil filter.
+>
+> Inspect the filter element for evidence of moisture or metal particles.
+>
+> | Metal | Possible Source |
+> |---|---|
+> | Copper | Bearings and Bushings |
+> | Chromium | Piston Rings |
+> | Iron | Cylinder Liners, Overhead Components |
+> | Lead | Bearing Overlay Material |
+> | Aluminum | Piston Wear or Scuffing |

@@ -29,9 +29,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-toc | Table of Contents |  |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-titlepage | Titlepage | 24-Jan-2006 |
-| tr-frwd | Foreword | 22-May-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-toc.html) | Table of Contents |  |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-titlepage.html) | Titlepage | 24-Jan-2006 |
+| [tr-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/tr-frwd.html) | Foreword | 22-May-2006 |
 
 ### Section i - Introduction
 
@@ -125,33 +125,33 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t083-tr | Fault Code Warning Lamps Stay On (No Apparent Reason) | 20-Jan-2006 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t084-tr | Fault Code Warning Lamps Do Not Illuminate | 20-Jan-2006 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t085-tr | Fault Code Warning Lamps Will Not Illuminate With the Diagnostic Switch in the “ON” Position | 20-Jan-2006 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t087-tr | Fuel Consumption Excessive | 20-Jan-2006 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t088-tr | Fuel Consumption Excessive- Performance Evaluation | 20-Jan-2006 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t116-tr | Smoke, Black- Excessive | 20-Jan-2006 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t118-tr | Smoke, White- Excessive | 20-Jan-2006 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t120-155-tr | Switched Feature Malfunctioning | 20-Jan-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t083-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t083-tr.html) | Fault Code Warning Lamps Stay On (No Apparent Reason) | 20-Jan-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t084-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t084-tr.html) | Fault Code Warning Lamps Do Not Illuminate | 20-Jan-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t085-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t085-tr.html) | Fault Code Warning Lamps Will Not Illuminate With the Diagnostic Switch in the “ON” Position | 20-Jan-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t087-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t087-tr.html) | Fuel Consumption Excessive | 20-Jan-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t088-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t088-tr.html) | Fuel Consumption Excessive- Performance Evaluation | 20-Jan-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t116-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t116-tr.html) | Smoke, Black- Excessive | 20-Jan-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t118-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t118-tr.html) | Smoke, White- Excessive | 20-Jan-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t120-155-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t120-155-tr.html) | Switched Feature Malfunctioning | 20-Jan-2006 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t016-tr | Communication Error - Electronic Service Tool or Control Device | 23-Jun-2010 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t087-tr | Fuel Consumption Excessive | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t088-tr | Fuel Consumption Excessive- Performance Evaluation | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t116-tr | Smoke, Black- Excessive | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t118-tr | Smoke, White- Excessive | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t033-tr | Engine Acceleration or Response Poor | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t041-tr | Engine Deceleratres Slowly | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t043-tr | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t044-tr | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t057-tr | Engine Power Output Low | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t058-tr | Engine Power Output Low - Performance Measurement | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t061-tr | Engine Runs Rough at Idle | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t062-tr | Engine Runs Rough or Misfires | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t064-tr | Engine Shuts Off Unexpectedly or Dies During Deceleration | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t067-tr | Engine Speed Surges Under Load or in Operating Range | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t071-tr | Engine Starts But Will Not Accelerate | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t072-tr | Engine Starts But Will Not Keep Running | 14-Nov-2012 |
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t081-tr | Engine Will Not Shut Off | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t016-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t016-tr.html) | Communication Error - Electronic Service Tool or Control Device | 23-Jun-2010 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t087-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t087-tr.html) | Fuel Consumption Excessive | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t088-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t088-tr.html) | Fuel Consumption Excessive- Performance Evaluation | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t116-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t116-tr.html) | Smoke, Black- Excessive | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t118-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t118-tr.html) | Smoke, White- Excessive | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t033-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t033-tr.html) | Engine Acceleration or Response Poor | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t041-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t041-tr.html) | Engine Deceleratres Slowly | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t043-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t043-tr.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t044-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t044-tr.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t057-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t057-tr.html) | Engine Power Output Low | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t058-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t058-tr.html) | Engine Power Output Low - Performance Measurement | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t061-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t061-tr.html) | Engine Runs Rough at Idle | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t062-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t062-tr.html) | Engine Runs Rough or Misfires | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t064-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t064-tr.html) | Engine Shuts Off Unexpectedly or Dies During Deceleration | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t067-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t067-tr.html) | Engine Speed Surges Under Load or in Operating Range | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t071-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t071-tr.html) | Engine Starts But Will Not Accelerate | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t072-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t072-tr.html) | Engine Starts But Will Not Keep Running | 14-Nov-2012 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-t081-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-t081-tr.html) | Engine Will Not Shut Off | 14-Nov-2012 |
 
 ### Section F - Familiarization
 
@@ -244,7 +244,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-backcover | Backcover | 18-Jan-2006 |
+| [[[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666070/3666070-backcover.html) | Backcover | 18-Jan-2006 |
 
 ### Section L - Service Literature
 

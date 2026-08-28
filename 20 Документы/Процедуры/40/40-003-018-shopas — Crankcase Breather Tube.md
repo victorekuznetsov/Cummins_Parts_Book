@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-003-018-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-003-018-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Crankcase Breather Tube
@@ -33,36 +35,72 @@ tags:
 > **Даты:** изменён 2015-11-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-003-018-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-003-018-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Front Gear Train
 
-Connect the crankcase breather tube to the tappet cover on the side of the cylinder block.
+### Установка
 
-Install the crankcase breather tube clamp.
+Поезд Front Gear
+
+Подключите трубку капкан-духодыхатель к крышке крана на стороне блока цилиндров.
+
+Установите зажим трубки капканной дыхательной трубки.
 
 ![[03900081.png]]
 
-Rear Gear Train
+Поезд Rear Gear
 
-Prior to installing the breather tube, apply engine oil to the o-rings located on the breather tube.
+Перед установкой дыхательной трубки нанесите моторное масло на кольца, расположенные на дыхательной трубке.
 
 ![[03d00159.png]]
 
-Install the breather tube into the rear gear housing.
+Установите дыхательную трубку в заднюю коробку передач.
 
 ![[03900113.png]]
 
-Connect the breather tube connection to the rocker lever cover.
+Подключите подключение дыхательной трубки к крышке рычага клапанного клапана.
 
-Two capscrews directly mount the breather tube to the rocker lever cover. Install the capscrews to connect the breather tube connection to the rocker lever cover.
+Два болта непосредственно монтируют дыхательную трубку к крышке рычага клапанного клапана. Установите болты, чтобы соединить соединение дыхательной трубки с крышкой рычага клапанного клапана.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 10 Н·м [89 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Some breather tube connections use internal Torx capscrews to secure the breather tube to the rocker lever cover.
+> [!note] Примечание
+> Некоторые соединения дыхательной трубки используют внутренние болты Torx, чтобы обеспечить дыхательную трубку к крышке рычага клапанного клапана.
 
 ![[03900112.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Front Gear Train
+>
+> Connect the crankcase breather tube to the tappet cover on the side of the cylinder block.
+>
+> Install the crankcase breather tube clamp.
+>
+> Rear Gear Train
+>
+> Prior to installing the breather tube, apply engine oil to the o-rings located on the breather tube.
+>
+> Install the breather tube into the rear gear housing.
+>
+> Connect the breather tube connection to the rocker lever cover.
+>
+> Two capscrews directly mount the breather tube to the rocker lever cover. Install the capscrews to connect the breather tube connection to the rocker lever cover.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [89 in-lb]
+>
+> **Note · Примечание**
+> Some breather tube connections use internal Torx capscrews to secure the breather tube to the rocker lever cover.

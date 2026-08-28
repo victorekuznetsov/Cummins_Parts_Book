@@ -30,10 +30,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021939 — QSM11 Marine Owners Manual\|4021939]]-toc | Table of Contents |  |
+| [[[4021939 — QSM11 Marine Owners Manual\|4021939]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021939/4021939-toc.html) | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
-| [[4021939 — QSM11 Marine Owners Manual\|4021939]]-titlepage | Titlepage | 17-Dec-2007 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021939/own-frwd.html) | Foreword | 14-Jul-2006 |
+| [[[4021939 — QSM11 Marine Owners Manual\|4021939]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021939/4021939-titlepage.html) | Titlepage | 17-Dec-2007 |
 
 ### Section i - Introduction
 
@@ -69,19 +69,19 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021939 — QSM11 Marine Owners Manual\|4021939]]-backcover | Backcover | 17-Dec-2007 |
+| [[[4021939 — QSM11 Marine Owners Manual\|4021939]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021939/4021939-backcover.html) | Backcover | 17-Dec-2007 |
 
 ### Section W - Warranty
 
 | Номер | Название | Дата |
 |---|---|---|
-| 4081863 | CMD Diamond Recreational Marine Propulsion | 08-Apr-2008 |
-| 4081921 | CMD Quantum Commercial Marine Propulsion (QSB5.9/QSC8.3/QSL9/QSM11) | 23-May-2008 |
-| 4081872 | CMD Quantum Recreational Marine Propulsion (QSB5.9/QSC8.3/QSL9/QSM11) | 01-Oct-2008 |
-| 3381775 | All Engines Worldwide Commercial Marine Propulsion Auxiliary Products | 12-May-2009 |
-| 4081872 | CMD Quantum Recreational Marine Propulsion (QSB5.9/QSC8.3/QSL9/QSM11) | 01-Oct-2008 |
-| 4324826 | Cummins Recreational Marine Propulsion (QSB5.9/QSB6.7/QSC8.3/QSL9/QSM11) | 15-Jun-2012 |
-| 4324827 | Cummins Light Commercial Marine Propulsion (4B/QSB5.9/6B/QSB6.7/6C/QSC8.3/QSL9/QSM11) | 02-Jul-2014 |
+| [4081863](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4081863/4081863-history.html) | CMD Diamond Recreational Marine Propulsion | 08-Apr-2008 |
+| [4081921](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4081921/4081921-history.html) | CMD Quantum Commercial Marine Propulsion (QSB5.9/QSC8.3/QSL9/QSM11) | 23-May-2008 |
+| [4081872](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4081872/4081872-history.html) | CMD Quantum Recreational Marine Propulsion (QSB5.9/QSC8.3/QSL9/QSM11) | 01-Oct-2008 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Worldwide Commercial Marine Propulsion Auxiliary Products | 12-May-2009 |
+| [4081872](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4081872/4081872-history.html) | CMD Quantum Recreational Marine Propulsion (QSB5.9/QSC8.3/QSL9/QSM11) | 01-Oct-2008 |
+| [4324826](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4324826/4324826-history.html) | Cummins Recreational Marine Propulsion (QSB5.9/QSB6.7/QSC8.3/QSL9/QSM11) | 15-Jun-2012 |
+| [4324827](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4324827/4324827-history.html) | Cummins Light Commercial Marine Propulsion (4B/QSB5.9/6B/QSB6.7/6C/QSC8.3/QSL9/QSM11) | 02-Jul-2014 |
 
 ### Section 1 - Operating Instructions
 

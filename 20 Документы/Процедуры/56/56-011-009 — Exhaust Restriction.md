@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-011-009.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-011-009.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Exhaust Restriction
@@ -35,44 +37,86 @@ tags:
 > **Даты:** изменён 2015-09-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-011-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-011-009.pdf)
 
-### Measure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Connect a pressure gauge in the exhaust piping. The gauge **must** have a capacity of 160 mm Hg \[6 in Hg\].
+
+### Измерение
+
+Подключите датчик измерения давления в выхлопных трубах. Калибр **должен** иметь емкость 160 мм рт. ст. [6 в рт. ст.].
 
 ![[10600351.png]]
 
-The pressure gauge adapter, or fitting, **must** be installed at a 90-degree angle to the exhaust flow in a straight section of pipe. The adapter location **must** be a minimum of 254 mm \[10 in\] after the turbocharger.
+Адаптер калибра давления или фитинг **должен быть установлен под углом 90 градусов к потоку выхлопных газов в прямом участке трубы. Расположение адаптера **должно быть не менее 254 мм \[10 в\] после турбокомпрессора.
 
-The adapter **must not** extend through the wall of the exhaust tubing.
+Адаптер **не должен** проходить через стенку выхлопной трубы.
 
-If the adapter **must** be located in a curved section of tubing, locate it on the flat side of the curve, **not** in the radius, or the measured value will **not** be accurate.
+Если адаптер **должен** располагаться в изогнутом участке трубки, то его следует расположить на плоской стороне кривой, **не** в радиусе, или измеренное значение будет **не** быть точным.
 
-Connect a 305 mm \[12 in\] piece of metal tubing between the gauge adapter and the gauge hose. This will prevent damage to the hose from extreme heat.
+Соедините 305 мм \[12 в \] кусок металлической трубки между измерительным датчиком адаптера и измерительным датчиком шланга. Это позволит предотвратить повреждение шланга от экстремальной жары.
 
 ![[ci8gaha.png]]
 
-Operate the engine at rated rpm and load; record the manometer reading.
+Управляйте двигателем с номинальной оборотной массой и нагрузкой; записывайте показания манометра.
 
-| Exhaust Restriction - QSK45 and QSK60 Single Stage and QSK60 Marine |  |  |
+| Ограничение выхлопных газов: QSK45 и QSK60 Single Stage и QSK60 Marine |  |  |
 |---|---|---|
-| mm-hg |  | in-hg |
-| 75 | MAX | 3.0 |
+| хг |  | в хг |
+| 75 | Макс | 3.0 |
 
-| Exhaust Restriction - QSK60 Two Stage |  |  |
+| Ограничение выхлопных газов - QSK60 |  |  |
 |---|---|---|
-| mm-hg |  | in-hg |
-| 50 | MAX | 2.0 |
+| хг |  | в хг |
+| 50 | Макс | 2.0 |
 
-Stall speed is **not** full power.
+Скорость остановки **не **полная мощность.
 
 ![[10600352.png]]
 
-If the exhaust restriction exceeds the specification, inspect the exhaust piping for damage. Refer to the OEM's instructions.
+Если ограничение выхлопных газов превышает спецификацию, проверьте трубопроводы выхлопных газов на предмет повреждения. Смотрите инструкции OEM.
 
-If damage is **not** visible, check the size and routing of the exhaust piping. Refer to the installation recommendation bulletin.
+Если повреждение **не видно**, проверьте размер и маршрутизацию выхлопных труб. См. бюллетень с рекомендацией по установке.
 
 ![[10600353.png]]
 
-Remove the test equipment.
+Удалите испытательное оборудование.
 
 ![[10600351.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Measure
+>
+> Connect a pressure gauge in the exhaust piping. The gauge **must** have a capacity of 160 mm Hg \[6 in Hg\].
+>
+> The pressure gauge adapter, or fitting, **must** be installed at a 90-degree angle to the exhaust flow in a straight section of pipe. The adapter location **must** be a minimum of 254 mm \[10 in\] after the turbocharger.
+>
+> The adapter **must not** extend through the wall of the exhaust tubing.
+>
+> If the adapter **must** be located in a curved section of tubing, locate it on the flat side of the curve, **not** in the radius, or the measured value will **not** be accurate.
+>
+> Connect a 305 mm \[12 in\] piece of metal tubing between the gauge adapter and the gauge hose. This will prevent damage to the hose from extreme heat.
+>
+> Operate the engine at rated rpm and load; record the manometer reading.
+>
+> | Exhaust Restriction - QSK45 and QSK60 Single Stage and QSK60 Marine |  |  |
+> |---|---|---|
+> | mm-hg |  | in-hg |
+> | 75 | MAX | 3.0 |
+>
+> | Exhaust Restriction - QSK60 Two Stage |  |  |
+> |---|---|---|
+> | mm-hg |  | in-hg |
+> | 50 | MAX | 2.0 |
+>
+> Stall speed is **not** full power.
+>
+> If the exhaust restriction exceeds the specification, inspect the exhaust piping for damage. Refer to the OEM's instructions.
+>
+> If damage is **not** visible, check the size and routing of the exhaust piping. Refer to the installation recommendation bulletin.
+>
+> Remove the test equipment.

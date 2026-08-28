@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-009-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-003-009-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Assembly
@@ -35,24 +37,52 @@ tags:
 > **Даты:** изменён 2023-01-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-009-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-003-009-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-Do **not** allow the rocker levers to fall off the shaft during removal.
+### Снятие
 
-Remove the two rocker lever assembly mounting capscrews.
+с форсункой механического управления
 
-Remove the rocker lever assembly.
+Не позволяйте рычагам коромысла падать с вала во время удаления.
+
+Удалите два клапана, которые устанавливают крепления рычага качения.
+
+Снимите клапанный клапан с крепления рычага.
 
 ![[03400026.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Loosen the rocker lever adjusting screws.
+Устраните клапанные рычаги, регулирующие винты.
 
-Loosen the rocker lever shaft mounting capscrews and remove the rocker lever assembly.
+Устраните крепление болтов вала клапанного клапана и удалите клапанный клапанный блок рычага.
 
-Do **not** allow the rocker levers to fall off the shaft during removal.
+Не позволяйте рычагам коромысла падать с вала во время удаления.
 
 ![[03400084.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> Do **not** allow the rocker levers to fall off the shaft during removal.
+>
+> Remove the two rocker lever assembly mounting capscrews.
+>
+> Remove the rocker lever assembly.
+>
+> with Electronically Actuated Injector
+>
+> Loosen the rocker lever adjusting screws.
+>
+> Loosen the rocker lever shaft mounting capscrews and remove the rocker lever assembly.
+>
+> Do **not** allow the rocker levers to fall off the shaft during removal.

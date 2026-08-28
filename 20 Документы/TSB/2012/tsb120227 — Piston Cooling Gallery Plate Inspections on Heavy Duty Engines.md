@@ -13,13 +13,15 @@ families:
   - "QSM11"
   - "QSX15"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120227.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120227.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSM11"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Piston Cooling Gallery Plate Inspections on Heavy Duty Engines
@@ -30,18 +32,42 @@ tags:
 > **Даты:** изменён 2012-07-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120227.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120227.pdf)
 
-## Piston Cooling Gallery Plate Inspections on Heavy Duty Engines
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Piston Cooling Gallery Plate инспекционирует двигатели для тяжелых двигателей
 
-### Contents
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
 
 ![[02r00001.png]]
 
-Before installing new or used pistons, inspect the condition of the piston oil cooling gallery plates. Pistons have been found with loose, broken, and missing plates. In all, cases, the piston is to be replaced and the new piston inspected.
+Перед установкой новых или использованных поршней проверьте состояние плит галереи охлаждения поршневого масла. Пистоны были найдены с рыхлыми, сломанными и отсутствующими пластинами. В любом случае поршень подлежит замене, а новый поршень - проверке.
 
-Piston crown cooling and oil retention will be impacted by loose, broken, or missing cooling plates. In some cases progressive damage could occur such as scuffing, accelerated ring wear, accelerated liner polishing, etc.
+Охлаждение коронки поршня и удержание масла будут затронуты рыхлыми, сломанными или отсутствующими охлаждающими пластинами. В некоторых случаях могут возникнуть прогрессивные повреждения, такие как потасовка, ускоренное износ кольца, ускоренная полировка гильзы и т. Д.
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Piston Cooling Gallery Plate Inspections on Heavy Duty Engines
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> Before installing new or used pistons, inspect the condition of the piston oil cooling gallery plates. Pistons have been found with loose, broken, and missing plates. In all, cases, the piston is to be replaced and the new piston inspected.
+>
+> Piston crown cooling and oil retention will be impacted by loose, broken, or missing cooling plates. In some cases progressive damage could occur such as scuffing, accelerated ring wear, accelerated liner polishing, etc.
+>
+> ### Document History

@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc134.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc134.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Remote Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
@@ -34,38 +36,82 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc134.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc134.pdf)
 
-### Fault Code: 134
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Remote Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
 
-Printable Version
+### Код неисправности: 134
 
-### Overview
+### Датчик положения дистанционного акселератора: Педаль или рычаг ускорителя CELECTTM-Type
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 134 PID(P): P29 SPN: 029 FMI: 4 Lamp: Red SRT: 00-386 | Less than 0.12 VDC detected at the remote accelerator pedal or lever position signal pin 30 of the OEM interface harness. | Calibration-dependent power and speed derate. |
+| Код неисправности: 134 PID(P): P29 SPN: 029 FMI: 4 лампы: Красная СТО: 00-386 | Менее 0,12 VDC обнаруживается на удаленной педали акселератора или рычага положения сигнала контакта 30 интерфейса OEM-проводов ремня. | Калибровочная зависимость мощности и скорости снижается. |
 
 ![[19400819.png]]
 
-Remote Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
+Датчик положения дистанционного акселератора: Педаль или рычаг ускорителя CELECTTM-Type
 
-### Circuit Description
+### Описание цепи
 
-The remote accelerator pedal or lever provides the operator's accelerator command to the ECM through the OEM harness and OEM interface harness. The ECM uses this signal to determine the fueling command for the fuel rail actuator valve.
+Педаль или рычаг дистанционного ускорителя обеспечивает команду ускорителя оператора к ECM через OEM-проводку и OEM-интерфейс. ECM использует этот сигнал для определения команды заправки клапана привода топливной рельсы.
 
-### Component Location
+### Расположение компонента
 
-The accelerator pedal or lever location varies with each OEM. Refer to the OEM manual.
+Расположение педали или рычага ускорителя варьируется в зависимости от каждого OEM. См. руководство по OEM.
 
-### Shoptalk
+### Практические замечания
 
-The remote accelerator pedal or lever position sensor is a potentiometer. The resistance specifications of the remote accelerator pedal or lever position sensor are the following:
+Удаленный датчик положения педали акселератора или рычага представляет собой потенциометр. Спецификации сопротивления педали дистанционного ускорителя или датчика положения рычага следующие:
 
-- Between the supply and the return = 2000 to 3000 ohms
+- Между предложением и возвратом = 2000-3000 Ом
 
-- Between the supply and the signal: Released = 1500 to 3000 ohms. Depressed = 200 to 1500 ohms.
+- Между подачей и сигналом: Выпущен = 1500-3000 Ом. Депрессия = 200-1500 Ом.
 
-Note: If the accelerator pedal or lever or remote accelerator pedal or lever position sensor is changed, or after a calibration download, cycle the accelerator pedal or lever (turn keyswitch ON) through its complete travel 3 times. This procedure calibrates the new accelerator pedal or lever with the ECM.
+Примечание: Если педаль акселератора или рычаг или педаль дистанционного акселератора или датчик положения рычага изменены, или после калибровочной загрузки, цикл педали акселератора или рычага (переключатель зажигания поворота ON) через его полное перемещение 3 раза. Эта процедура калибрует новую педаль акселератора или рычаг с помощью ECM.
 
-Refer to Troubleshooting Fault Code t05-134
+Устранение неполадок код t05-134
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 134
+>
+> ### Remote Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 134 PID(P): P29 SPN: 029 FMI: 4 Lamp: Red SRT: 00-386 | Less than 0.12 VDC detected at the remote accelerator pedal or lever position signal pin 30 of the OEM interface harness. | Calibration-dependent power and speed derate. |
+>
+> Remote Accelerator Position Sensor: CELECT™-Type Accelerator Pedal or Lever
+>
+> ### Circuit Description
+>
+> The remote accelerator pedal or lever provides the operator's accelerator command to the ECM through the OEM harness and OEM interface harness. The ECM uses this signal to determine the fueling command for the fuel rail actuator valve.
+>
+> ### Component Location
+>
+> The accelerator pedal or lever location varies with each OEM. Refer to the OEM manual.
+>
+> ### Shoptalk
+>
+> The remote accelerator pedal or lever position sensor is a potentiometer. The resistance specifications of the remote accelerator pedal or lever position sensor are the following:
+>
+> - Between the supply and the return = 2000 to 3000 ohms
+>
+> - Between the supply and the signal: Released = 1500 to 3000 ohms. Depressed = 200 to 1500 ohms.
+>
+> Note: If the accelerator pedal or lever or remote accelerator pedal or lever position sensor is changed, or after a calibration download, cycle the accelerator pedal or lever (turn keyswitch ON) through its complete travel 3 times. This procedure calibrates the new accelerator pedal or lever with the ECM.
+>
+> Refer to Troubleshooting Fault Code t05-134

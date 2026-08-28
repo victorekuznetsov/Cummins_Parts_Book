@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021375"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-003-011.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-003-011.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Cover
@@ -33,33 +35,68 @@ tags:
 > **Даты:** изменён 2003-05-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-003-011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-003-011.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the six capscrews, washers, and seal washers from the rocker lever cover.
 
-Remove the rocker lever cover.
+### Снятие
+
+Удалите шесть болтов, шайб и шайб уплотнения из крышки рычага качения клапанного клапана.
+
+Снимите крышку коромысел.
 
 ![[00600100.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Inspect the cover for cracks.
+Проверьте крышку на наличие трещин.
 
-Inspect the seal groove for damage.
+Проверьте канавку уплотнения на предмет повреждения.
 
 ![[03400107.png]]
 
-### Install
+### Установка
 
-The rocker lever cover is fitted with a seal, a gasket is **not** required. Each capscrew **must** be used in conjunction with a washer and sealing washer.
+Клапанная крышка качелей клапана снабжена уплотнением, прокладка **не требуется*. Каждый болт **должен использоваться в сочетании с шайбой машиной и шайбой машиной.
 
-Install the rocker lever cover onto the rocker lever housing.
+Установите крышку рычага качения клапанного клапана на корпус качения клапана.
 
-Install the six capscrews.
+Установите шесть болтов.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 10 Н·м [89 фунт-дюйм]
 
 ![[00600100.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the six capscrews, washers, and seal washers from the rocker lever cover.
+>
+> Remove the rocker lever cover.
+>
+> ### Inspect for Reuse
+>
+> Inspect the cover for cracks.
+>
+> Inspect the seal groove for damage.
+>
+> ### Install
+>
+> The rocker lever cover is fitted with a seal, a gasket is **not** required. Each capscrew **must** be used in conjunction with a washer and sealing washer.
+>
+> Install the rocker lever cover onto the rocker lever housing.
+>
+> Install the six capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [89 in-lb]

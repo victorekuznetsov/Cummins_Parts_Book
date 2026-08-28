@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-030-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-030-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Pulley Assembly
@@ -35,27 +37,56 @@ tags:
 > **Даты:** изменён 2009-02-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-030-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-030-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> For fan hub installations that were **not** manufactured by Cummins Inc., contact the OEM.
 
-Loosen the fan idler pulley shaft locknut.
+### Снятие
+
+> [!note] Примечание
+> Для установок вентиляторных концентраторов, которые были **не** произведены Cummins Inc., свяжитесь с OEM.
+
+Ослабьте вентилятор холостого вала локона.
 
 ![[fn2idla.png]]
 
-Loosen the adjusting mechanism and move the fan idler pulley and fan pulley centers as close as possible.
+Устраните механизм регулировки и переместите шкив бездельника и шкивные центры вентилятора как можно ближе.
 
-Remove the fan belt.
+Удалите пояс вентилятора.
 
 ![[fn2blmb.png]]
 
-Remove the roll pin and washer from the idler pulley adjusting screw.
+Удалите рулон и шайбу из винта, регулирующего шкив холостого хода.
 
-Remove the locknut and washer from the back of the idler pulley shaft.
+Уберите каштан и шайбу с задней части шкивного вала холостого хода.
 
-Remove the adjusting screw.
+Удалите корректирующий винт.
 
-Remove the fan idler pulley from the fan hub support bracket.
+Удалите шкив вентилятора бездельника из кронштейна поддержки вентилятора.
 
 ![[fa2idha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **Note · Примечание**
+> For fan hub installations that were **not** manufactured by Cummins Inc., contact the OEM.
+>
+> Loosen the fan idler pulley shaft locknut.
+>
+> Loosen the adjusting mechanism and move the fan idler pulley and fan pulley centers as close as possible.
+>
+> Remove the fan belt.
+>
+> Remove the roll pin and washer from the idler pulley adjusting screw.
+>
+> Remove the locknut and washer from the back of the idler pulley shaft.
+>
+> Remove the adjusting screw.
+>
+> Remove the fan idler pulley from the fan hub support bracket.

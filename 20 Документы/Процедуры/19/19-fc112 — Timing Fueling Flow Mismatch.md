@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc112.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc112.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Timing Fueling Flow Mismatch
@@ -34,40 +36,86 @@ tags:
 > **Даты:** изменён 2011-03-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc112.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc112.pdf)
 
-### Fault Code: 112
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Timing Fueling Flow Mismatch
 
-Printable Version
+### Код неисправности: 112
 
-### Overview
+### Сроки подачи топлива Несоответствие
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 112 PID(P): S20 SPN: 635 FMI: 7 Lamp: Red SRT: 00-342 | The error between estimated timing fueling and desired timing fueling is outside acceptable limits. | Depending on the calibration, the engine will shut down or speed-derate or no action by the ECM is taken. |
+| Код неисправности: 112 PID(P): S20 SPN: 635 FMI: 7 ламп: Красная СТО: 00-342 | Погрешность между расчетным временем заправки топливом и желаемым временем заправки находится за пределами допустимых пределов. | В зависимости от калибровки двигатель будет выключен или замедлен или не будет предпринято никаких действий со стороны ECM. |
 
 ![[19400109.png]]
 
-Fuel System Flow Schematic
+Схема расхода топлива
 
-### Circuit Description
+### Описание цепи
 
-The electronic control module (ECM) uses the timing pressure signal and engine speed to estimate the actual timing the engine is receiving and then constantly compares this value to the desired timing for the given speed and load. When there is too large an error in these values for too long a time, this fault is logged.
+Электронный модуль управления (ECM) использует сигнал давления времени и скорость двигателя для оценки фактического времени приема двигателя, а затем постоянно сравнивает это значение с желаемым временем для заданной скорости и нагрузки. Когда в этих значениях слишком большая ошибка в течение слишком долгого времени, эта ошибка регистрируется.
 
-### Component Location
+### Расположение компонента
 
-The timing actuator is located on the top of the control valve body, toward the front of the engine and behind the ECM.
+Привод синхронизации расположен на верхней части корпуса управляющего клапана, в направлении передней части двигателя и позади ECM.
 
-### Shoptalk
+### Практические замечания
 
-The estimated timing fueling and the desired timing fueling parameters can be monitored on INSITE™ electronic service tool. This fault is a check on the ECM's control of the timing actuator and subsequent fuel flow. If the desired timing fueling can **not** be met by commanding more current to the actuator or if the desired timing fueling is being exceeded and can **not** be reduced by reducing the current to the actuator, this fault is logged.
+Расчетное время заправки топливом и желаемые параметры заправки могут контролироваться на электронном сервисном оборудовании INSITETM. Эта неисправность является проверкой контроля ECM за приводом синхронизации и последующим потоком топлива. Если требуемое время заправки топливом может быть удовлетворено **не**, если требуется больше тока для привода или если требуемое время заправки топливом превышено и может **не** быть уменьшено путем уменьшения тока до привода, эта ошибка регистрируется.
 
-This fault is **not** logged when:
+Эта ошибка не зарегистрирована, когда:
 
-- Coolant temperature is below 0°C \[32°F\].
+- Температура охлаждающей жидкости ниже 0°C[32°F].
 
-- Fault Code 116 or 117 is active.
+- Код 116 или 117 ошибки активен.
 
-- Once the keyswitch is cycled, this fault becomes inactive.
+- Как только переключатель зажигания цикличен, эта ошибка становится неактивной.
 
-Refer to Troubleshooting Fault Code t05-112
+Устранение неполадок код t05-112
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 112
+>
+> ### Timing Fueling Flow Mismatch
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 112 PID(P): S20 SPN: 635 FMI: 7 Lamp: Red SRT: 00-342 | The error between estimated timing fueling and desired timing fueling is outside acceptable limits. | Depending on the calibration, the engine will shut down or speed-derate or no action by the ECM is taken. |
+>
+> Fuel System Flow Schematic
+>
+> ### Circuit Description
+>
+> The electronic control module (ECM) uses the timing pressure signal and engine speed to estimate the actual timing the engine is receiving and then constantly compares this value to the desired timing for the given speed and load. When there is too large an error in these values for too long a time, this fault is logged.
+>
+> ### Component Location
+>
+> The timing actuator is located on the top of the control valve body, toward the front of the engine and behind the ECM.
+>
+> ### Shoptalk
+>
+> The estimated timing fueling and the desired timing fueling parameters can be monitored on INSITE™ electronic service tool. This fault is a check on the ECM's control of the timing actuator and subsequent fuel flow. If the desired timing fueling can **not** be met by commanding more current to the actuator or if the desired timing fueling is being exceeded and can **not** be reduced by reducing the current to the actuator, this fault is logged.
+>
+> This fault is **not** logged when:
+>
+> - Coolant temperature is below 0°C \[32°F\].
+>
+> - Fault Code 116 or 117 is active.
+>
+> - Once the keyswitch is cycled, this fault becomes inactive.
+>
+> Refer to Troubleshooting Fault Code t05-112

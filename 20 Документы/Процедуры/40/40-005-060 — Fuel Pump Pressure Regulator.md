@@ -10,13 +10,15 @@ families:
 manuals:
   - "3666087"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-060.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-060.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump Pressure Regulator
@@ -29,54 +31,104 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-005-060.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-005-060.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-- Disconnect the batteries.
+### Подготовительные операции
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Отсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-### Remove
+### Снятие
 
-Remove the pressure relief valve and copper sealing washer.
+Снимите клапан сброса давления и медную герметичную шайбу.
 
 ![[ft9vama.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to avoid personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Носите очки и защитную одежду, чтобы избежать травм.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Летающий мусор и грязь могут нанести телесные повреждения.
 
-Thoroughly flush the high-pressure relief valve with a mixture of strong detergent and water or solvent.
+Тщательно промыть клапан высокого давления смесью сильного моющего средства и воды или растворителя.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[fs9vaea.png]]
 
-> [!warning] CAUTION · Осторожно
-> A sticky check ball can result in engine damage and low power.
+> [!warning] ОСТОРОЖНО
+> Липкий контрольный шар может привести к повреждению двигателя и низкой мощности.
 
-Use a small screwdriver to check that the check ball is **not** sticking in the high-pressure relief valve assembly.
+Используйте небольшую отвертку, чтобы проверить, что контрольный шар **не **прилипает к клапану высокого давления.
 
 ![[fs9cbsa.png]]
 
-### Install
+### Установка
 
-Install the high-pressure relief valve assembly.
+Установите клапанный узел высокого давления.
 
 ![[ft9tbhi.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries
-- Operate the engine and check for leaks.
+- Подключите батареи
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[13900050.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries.
+>
+> ### Remove
+>
+> Remove the pressure relief valve and copper sealing washer.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to avoid personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause bodily injury.
+>
+> Thoroughly flush the high-pressure relief valve with a mixture of strong detergent and water or solvent.
+>
+> Dry with compressed air.
+>
+> **CAUTION · Осторожно**
+> A sticky check ball can result in engine damage and low power.
+>
+> Use a small screwdriver to check that the check ball is **not** sticking in the high-pressure relief valve assembly.
+>
+> ### Install
+>
+> Install the high-pressure relief valve assembly.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries
+> - Operate the engine and check for leaks.

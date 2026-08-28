@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-016-005-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-016-005-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Flywheel
@@ -35,26 +37,58 @@ tags:
 > **Даты:** изменён 2018-02-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-016-005-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-016-005-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-> [!note] Note · Примечание
-> For the QSK45 excavator applications that use the 12-point head capscrews, remove and discard the flywheel, capscrews, and spacer at end of every life rebuild.
+### Снятие
 
-Remove two capscrews and install two guide studs.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Install two T-handles.
+> [!note] Примечание
+> Для экскаваторов QSK45, которые используют 12-точечные головные болты, удаляют и выбрасывают маховик, болты и спейсер в конце каждой реконструкции.
 
-Install the lifting straps.
+Удалите два болта и установите два направляющих шпилька.
 
-Remove the remaining capscrews.
+Установите две Т-ручки.
 
-A mallet can be used to tap the flywheel, if necessary.
+Установите подъемные ремни.
 
-Remove the flywheel.
+Удалите оставшиеся болты.
 
-Remove and discard the roll pin in the rear face of the crankshaft.
+Молот может быть использован для прикосновения маховика, если это необходимо.
+
+Удалите маховик.
+
+Удалите и отбросьте рулонный штифт в задней части коленчатого вала.
 
 ![[fw400ma.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **Note · Примечание**
+> For the QSK45 excavator applications that use the 12-point head capscrews, remove and discard the flywheel, capscrews, and spacer at end of every life rebuild.
+>
+> Remove two capscrews and install two guide studs.
+>
+> Install two T-handles.
+>
+> Install the lifting straps.
+>
+> Remove the remaining capscrews.
+>
+> A mallet can be used to tap the flywheel, if necessary.
+>
+> Remove the flywheel.
+>
+> Remove and discard the roll pin in the rear face of the crankshaft.

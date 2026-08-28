@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-004-014-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-004-014-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Push Rods or Tubes
@@ -35,20 +37,44 @@ tags:
 > **Даты:** изменён 2012-10-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-004-014-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-004-014-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-It is a recommended service practice to mark the push rods so they can be installed in their original position.
+### Снятие
 
-Remove the push rods.
+с форсункой механического управления
+
+Рекомендуется использовать сервисную практику для маркировки толкателей, чтобы они могли быть установлены в их первоначальном положении.
+
+Удалите толкатели.
 
 ![[02400001.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-It is a recommended service practice to mark the push rods so they can be installed in their original position.
+Рекомендуется использовать сервисную практику для маркировки толкателей, чтобы они могли быть установлены в их первоначальном положении.
 
-Remove the push rods.
+Удалите толкатели.
 
 ![[04600032.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> It is a recommended service practice to mark the push rods so they can be installed in their original position.
+>
+> Remove the push rods.
+>
+> with Electronically Actuated Injector
+>
+> It is a recommended service practice to mark the push rods so they can be installed in their original position.
+>
+> Remove the push rods.

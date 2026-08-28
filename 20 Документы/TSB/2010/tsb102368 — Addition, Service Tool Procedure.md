@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102368.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102368.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Addition, Service Tool Procedure
@@ -25,15 +27,38 @@ tags:
 > **Даты:** изменён 2007-07-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102368.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102368.pdf)
 
-## Addition, Service Tool Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Добавление, инструментальная процедура обслуживания
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic adds service tools Fluorescent Tracer Dye and Black Light Lamp Kit to the Service Tools Procedure 022-001\_08 in Section 8.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-> [!note] Note · Примечание
+### Содержание
+
+В этом разделе «Сервис/Части» добавлены инструменты обслуживания Fluorescent Tracer Dye и Black Light Lamp Kit в Процедуру 022-001\_08 в разделе 8.
+
+> [!note] Примечание
+> Это усовершенствование продукта и не подлежит кампании.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Addition, Service Tool Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic adds service tools Fluorescent Tracer Dye and Black Light Lamp Kit to the Service Tools Procedure 022-001\_08 in Section 8.
+>
+> **Note · Примечание**
 > This is a product improvement and is **not** subject to campaign.

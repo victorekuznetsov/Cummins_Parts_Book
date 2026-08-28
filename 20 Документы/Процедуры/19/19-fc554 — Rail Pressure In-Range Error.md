@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc554.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc554.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Rail Pressure In-Range Error
@@ -34,38 +36,82 @@ tags:
 > **Даты:** изменён 2026-05-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc554.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc554.pdf)
 
-### Fault Code: 554
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Rail Pressure In-Range Error
 
-Printable Version
+### Код неисправности: 554
 
-### Overview
+### Ошибка в Железнодорожном Давлении
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 554 PID(P): P157 SPN: 157 FMI: 2 Lamp: Yellow SRT: | More than 0.67 VDC detected at the rail pressure signal pin 31 of the engine harness at engine key-on. | Calibration-dependent engine derate. |
+| Код неисправности: 554 PID(P): P157 SPN: 157 ФМИ: 2 лампы: Желтая СТО: | Более 0,67 ВДК обнаружено при контакте 31 рельсового сигнала давления рельсовой проводов ремня электропроводки при включении двигателя. | Калиброво-зависимый двигатель дератирует. |
 
 ![[19400880.png]]
 
-Rail Pressure Sensor Circuit
+Схема датчика давления на железной дороге
 
-### Circuit Description
+### Описание цепи
 
-The rail pressure sensor provides a signal to the ECM through the engine harness. The ECM uses the rail pressure sensor signal to monitor the pressure going to the injectors from the control valve body. At start-up, the ECM expects to see the voltage on signal pin 31 between 0.40 and 4.60 VDC. If the voltage is other than the specified range on start-up, the ECM will log this fault.
+Датчик давления на рельсах обеспечивает сигнал к ECM через электропроводку двигателя. ECM использует сигнал датчика давления рельсов для контроля давления, идущего к топливной форсунке от корпуса управляющего клапана. При запуске ECM ожидает увидеть напряжение на контакте 31 сигнала между 0,40 и 4,60 VDC. Если напряжение отличается от заданного диапазона при запуске, ECM регистрирует эту неисправность.
 
-### Component Location
+### Расположение компонента
 
-The rail pressure sensor is located in the control valve body.
+Датчик давления в рельсах расположен в корпусе управляющего клапана.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged rail pressure sensor
+- Неисправность или повреждение датчика давления в рельсах
 
-- Malfunctioning or damaged engine wiring harness
+- Неисправная или поврежденная электропроводка двигателя
 
-- Fuel drain line restriction
+- Сопротивление магистрали слива топлива
 
-Refer to Troubleshooting Fault Code t05-554
+См. Код устранения неполадок t05-554
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 554
+>
+> ### Rail Pressure In-Range Error
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 554 PID(P): P157 SPN: 157 FMI: 2 Lamp: Yellow SRT: | More than 0.67 VDC detected at the rail pressure signal pin 31 of the engine harness at engine key-on. | Calibration-dependent engine derate. |
+>
+> Rail Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The rail pressure sensor provides a signal to the ECM through the engine harness. The ECM uses the rail pressure sensor signal to monitor the pressure going to the injectors from the control valve body. At start-up, the ECM expects to see the voltage on signal pin 31 between 0.40 and 4.60 VDC. If the voltage is other than the specified range on start-up, the ECM will log this fault.
+>
+> ### Component Location
+>
+> The rail pressure sensor is located in the control valve body.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged rail pressure sensor
+>
+> - Malfunctioning or damaged engine wiring harness
+>
+> - Fuel drain line restriction
+>
+> Refer to Troubleshooting Fault Code t05-554

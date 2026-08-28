@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-051-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-051-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Injector Supply Lines (High Pressure)
@@ -33,51 +35,96 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-051-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-051-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Distributor-Type Pumps
 
-Install the fuel lines to the fuel injection pump.
+### Установка
 
-> [!note] Note · Примечание
-> Use two wrenches to prevent the delivery valve holder from turning.
+Насосы типа распределителя
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+Установите топливные линии на насос для впрыска топлива.
+
+> [!note] Примечание
+> Используйте два гаечных ключа, чтобы предотвратить поворот держателя клапана доставки.
+
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[06900288.png]]
 
-Install the fuel line clamp capscrews to the intake cover.
+Установите зажимные болты топливной линии на крышку впуска.
 
 ![[ft9bkma.png]]
 
-Connect the high-pressure fuel lines to the injectors.
+Подключите топливные линии высокого давления к топливному форсуну.
 
-> [!tip] Момент затяжки · Torque Value
-> 38 n•m [28 ft-lb]
+> [!tip] Момент затяжки
+> 38 Н·м [28 фунт-фут]
 
 ![[fs9fthc.png]]
 
-In-Line Pump
+Внутренняя помпа
 
-Install fuel line fittings (1), support bracket capscrews (2), vibration capscrew isolator (3), and isolators (4).
+Установите фитинги топливной линии (1), болты опорных кронштейнов (2), изолятор вибрационных болтов (3) и изоляторы (4).
 
 ![[ft9bkgb.png]]
 
-Connect the high-pressure fuel lines to the injectors.
+Подключите топливные линии высокого давления к топливному форсуну.
 
-> [!tip] Момент затяжки · Torque Value
-> 38 n•m [28 ft-lb]
+> [!tip] Момент затяжки
+> 38 Н·м [28 фунт-фут]
 
 ![[ft9tbwc.png]]
 
-Connect the fuel line(s) to the fuel injection pump.
+Подсоедините топливную линию (линии) к насосу для впрыска топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[06900287.png]]
 
-Install the fuel line clamp capscrews to the intake cover.
+Установите зажимные болты топливной линии на крышку впуска.
 
 ![[ft9bkmb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Distributor-Type Pumps
+>
+> Install the fuel lines to the fuel injection pump.
+>
+> **Note · Примечание**
+> Use two wrenches to prevent the delivery valve holder from turning.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> Install the fuel line clamp capscrews to the intake cover.
+>
+> Connect the high-pressure fuel lines to the injectors.
+>
+> **Момент затяжки · Torque Value**
+> 38 n•m [28 ft-lb]
+>
+> In-Line Pump
+>
+> Install fuel line fittings (1), support bracket capscrews (2), vibration capscrew isolator (3), and isolators (4).
+>
+> Connect the high-pressure fuel lines to the injectors.
+>
+> **Момент затяжки · Torque Value**
+> 38 n•m [28 ft-lb]
+>
+> Connect the fuel line(s) to the fuel injection pump.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> Install the fuel line clamp capscrews to the intake cover.

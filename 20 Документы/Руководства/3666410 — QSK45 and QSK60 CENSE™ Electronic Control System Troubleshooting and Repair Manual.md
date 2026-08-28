@@ -30,9 +30,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-toc | Table of Contents |  |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-titlepage | Titlepage | 14-Feb-2005 |
-| tr-frwd | Foreword | 22-May-2006 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-toc.html) | Table of Contents |  |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-titlepage.html) | Titlepage | 14-Feb-2005 |
+| [tr-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/tr-frwd.html) | Foreword | 22-May-2006 |
 
 ### Section i - Introduction
 
@@ -91,20 +91,20 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-25-tr | Intake Air Temperature is High | 15-Dec-2003 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t114-tr | CENSE™ Electronic Control Module (ECM) Not Communicating - Fault Code Lamps Are Not Blinking (Lamps Are Off Or Always On) | 15-Dec-2003 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t113-tr | CENSE™ Electronic Control Module (ECM) Not Communicating - Fault Code Lamps Are Blinking | 03-Feb-2004 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t082-25-tr | Exhaust Temperature is High (Single Cylinder) | 11-Jan-2007 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-25-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t096-25-tr.html) | Intake Air Temperature is High | 15-Dec-2003 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t114-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t114-tr.html) | CENSE™ Electronic Control Module (ECM) Not Communicating - Fault Code Lamps Are Not Blinking (Lamps Are Off Or Always On) | 15-Dec-2003 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t113-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t113-tr.html) | CENSE™ Electronic Control Module (ECM) Not Communicating - Fault Code Lamps Are Blinking | 03-Feb-2004 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t082-25-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t082-25-tr.html) | Exhaust Temperature is High (Single Cylinder) | 11-Jan-2007 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t030-tr | Cylinder Power is Low (Multiple Cylinders) | 04-Jan-2010 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t094-15-tr | Hot Shutdown | 04-Jan-2010 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-tr | Intake Manifold Air Temperature Above Specification | 04-Jan-2010 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-15-tr | Intake Manifold Air Temperature is High | 04-Jan-2010 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-20-tr | Intake Manifold Air Temperature is High (Rapid Rise) | 04-Jan-2010 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t103-55-tr | Lubricating Oil Filter Restriction is High | 04-Jan-2010 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t082-15-tr | Exhaust Temperature is High (Multiple Cylinders) | 11-Jan-2010 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t031-tr | Cylinder Power is Low (Single Cylinder) | 11-Mar-2010 |
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-55-tr | Intake Manifold Pressure is High | 11-Mar-2010 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t030-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t030-tr.html) | Cylinder Power is Low (Multiple Cylinders) | 04-Jan-2010 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t094-15-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t094-15-tr.html) | Hot Shutdown | 04-Jan-2010 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t096-tr.html) | Intake Manifold Air Temperature Above Specification | 04-Jan-2010 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-15-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t096-15-tr.html) | Intake Manifold Air Temperature is High | 04-Jan-2010 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-20-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t096-20-tr.html) | Intake Manifold Air Temperature is High (Rapid Rise) | 04-Jan-2010 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t103-55-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t103-55-tr.html) | Lubricating Oil Filter Restriction is High | 04-Jan-2010 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t082-15-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t082-15-tr.html) | Exhaust Temperature is High (Multiple Cylinders) | 11-Jan-2010 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t031-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t031-tr.html) | Cylinder Power is Low (Single Cylinder) | 11-Mar-2010 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-t096-55-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-t096-55-tr.html) | Intake Manifold Pressure is High | 11-Mar-2010 |
 
 ### Section V - Specifications
 
@@ -292,7 +292,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-backcover | Backcover | 14-Feb-2005 |
+| [[[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666410/3666410-backcover.html) | Backcover | 14-Feb-2005 |
 
 ### Section 19 - Electronic Engine Controls
 

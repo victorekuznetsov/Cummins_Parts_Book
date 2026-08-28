@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-009-001-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-009-001-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Accessory Drive
@@ -33,13 +35,32 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-009-001-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-009-001-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the two capscrews securing the accessory drive to the rear gear housing.
 
-Remove the accessory drive and gasket.
+### Снятие
 
-> [!note] Note · Примечание
-> For front gear train engines it may be necessary to remove the external oil supply tube.
+Удалите два болта, обеспечивающие привод аксессуара к задней коробке передач.
+
+Удалите дополнительный привод и прокладку.
+
+> [!note] Примечание
+> Для передних передних двигателей поезда может потребоваться удаление внешней трубки подачи масла.
 
 ![[09900034.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the two capscrews securing the accessory drive to the rear gear housing.
+>
+> Remove the accessory drive and gasket.
+>
+> **Note · Примечание**
+> For front gear train engines it may be necessary to remove the external oil supply tube.

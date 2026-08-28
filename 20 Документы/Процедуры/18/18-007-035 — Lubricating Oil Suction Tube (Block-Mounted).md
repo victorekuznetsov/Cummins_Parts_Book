@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021499"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-007-035.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-007-035.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Suction Tube (Block-Mounted)
@@ -34,113 +36,222 @@ tags:
 > **Даты:** изменён 2018-01-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-007-035.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-007-035.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- No Cummins® service tools required.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Не требуется никаких инструментов обслуживания Cummins®.
 
-### Preparatory Steps
+#### Дополнительные сервисные позиции
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+- Никаких дополнительных предметов обслуживания не требуется.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-> [!warning] CAUTION · Осторожно
-> Do not spill or drain fuel into the bilge area when disconnecting or removing fuel lines, replacing filters, and priming the fuel system. Do not drop or throw filter elements into the bilge area. The fuel and fuel filters must be disposed of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-- Drain the lubricating oil. [[18-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7.]]
-- Remove the lubricating oil pan. Refer to Procedure 007-025 in Section 7.
-- Remove the lubricating oil pan adapter cover. [[18-007-027-tr — Lubricating Oil Pan Adapter|Refer to Procedure 007-027 in Section 7.]]
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-### Remove
+> [!warning] ОСТОРОЖНО
+> При отсоединении и снятии топливных магистралей, замене фильтров и прокачке системы не допускайте пролива и слива топлива в трюм. Не бросайте фильтрующие элементы в трюм. Топливо и топливные фильтры утилизируйте по местным природоохранным требованиям.
 
-Standard Suction Tube
+- Слить моторное масло.[[18-007-037-tr — Lubricating Oil System|См. процедуру 007-037 в разделе 7.]]
+- Снимите смазочный маслосборник. См. процедуру 007-025 в разделе 7.
+- Снимите крышку адаптера для моторного масла.[[18-007-027-tr — Lubricating Oil Pan Adapter|См. процедуру 007-027 в разделе 7.]]
 
-Remove the three capscrews from P-clips, bracket, and the suction tube.
+### Снятие
 
-Remove the oil pan suction tube.
+Стандартная всасывающая трубка
 
-Remove and discard the gasket.
+Удалите три болта из P-зажимов, скобки и всасывающей трубки.
+
+Удалите масляную поддонную всасывающую трубку.
+
+Снимите и утилизируйте прокладку.
 
 ![[07400017.png]]
 
-Deep Sump Suction Tube
+Глубокий насосный насос
 
-Remove the capscrews from the P-clips, bracket, and flange connection to the engine block.
+Удалите болты из P-зажимов, скобки и фланцевого соединения с блоком двигателя.
 
-Remove the oil pan suction tube.
+Удалите масляную поддонную всасывающую трубку.
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[07400206.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the oil suction tube with solvent and dry with compressed air.
+Очистите масляную всасывающую трубку растворителем и высушить сжатым воздухом.
 
-Inspect the oil suction tube for cracks or other damage.
+Проверьте масляную всасывающую трубку на наличие трещин или других повреждений.
 
-If the oil suction tube is cracked or otherwise damaged, the oil suction tube must be replaced.
+Если масляная всасывающая трубка треснула или иным образом повреждена, масляная всасывающая трубка должна быть заменена.
 
 ![[07400355.png]]
 
-Use a gasket scraper to clean the gasket surface.
+Используйте прокладочный скребок для очистки поверхности прокладки.
 
 ![[op9tbeb.png]]
 
-### Install
+### Установка
 
-Standard Suction Tube
+Стандартная всасывающая трубка
 
-Install the gasket, standard suction tube, bracket, and P-clip.
+Установите прокладку, стандартную всасывающую трубку, кронштейн и P-клип.
 
-Tighten the two suction tube connector capscrews.
+Затянуть два соединительных болта всасывающей трубки.
 
-> [!tip] Момент затяжки · Torque Value
-> 61 n•m [45 ft-lb]
+> [!tip] Момент затяжки
+> 61 Н·м [45 фунт-фут]
 
-Tighten the bracket and P-clip capscrews.
+Затяните скобки и болты P-clip.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [20 ft-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [20 фунт-фут]
 
 ![[07400017.png]]
 
-Deep Sump Suction Tube
+Глубокий насосный насос
 
-Install the gasket, deep sump suction tube, brackets, and P-clips.
+Установите прокладку, глубокую отстойную всасывающую трубку, скобки и P-затворы.
 
-Tighten the two suction tube connector capscrews.
+Затянуть два соединительных болта всасывающей трубки.
 
-> [!tip] Момент затяжки · Torque Value
-> 61 n•m [45 ft-lb]
+> [!tip] Момент затяжки
+> 61 Н·м [45 фунт-фут]
 
-Tighten the bracket and P-clip capscrews.
+Затяните скобки и болты P-clip.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [20 ft-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [20 фунт-фут]
 
 ![[07400206.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the lubricating oil pan. Refer to Procedure 007-025 in Section 7.
-- Install the lubricating oil pan adapter cover. [[18-007-027-tr — Lubricating Oil Pan Adapter|Refer to Procedure 007-027 in Section 7.]]
-- Fill the engine with lubricating oil. [[18-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7.]]
-- Operate the engine. Check for leaks.
+- Установите смазочный маслосборник. См. процедуру 007-025 в разделе 7.
+- Установите крышку адаптера для моторного масла.[[18-007-027-tr — Lubricating Oil Pan Adapter|См. процедуру 007-027 в разделе 7.]]
+- Заполните двигатель моторным маслом.[[18-007-037-tr — Lubricating Oil System|См. процедуру 007-037 в разделе 7.]]
+- Управляйте двигателем. Проверьте на отсутствие утечек.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - No Cummins® service tools required.
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Do not spill or drain fuel into the bilge area when disconnecting or removing fuel lines, replacing filters, and priming the fuel system. Do not drop or throw filter elements into the bilge area. The fuel and fuel filters must be disposed of in accordance with local environmental regulations.
+>
+> - Drain the lubricating oil. [[18-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7.]]
+> - Remove the lubricating oil pan. Refer to Procedure 007-025 in Section 7.
+> - Remove the lubricating oil pan adapter cover. [[18-007-027-tr — Lubricating Oil Pan Adapter|Refer to Procedure 007-027 in Section 7.]]
+>
+> ### Remove
+>
+> Standard Suction Tube
+>
+> Remove the three capscrews from P-clips, bracket, and the suction tube.
+>
+> Remove the oil pan suction tube.
+>
+> Remove and discard the gasket.
+>
+> Deep Sump Suction Tube
+>
+> Remove the capscrews from the P-clips, bracket, and flange connection to the engine block.
+>
+> Remove the oil pan suction tube.
+>
+> Remove and discard the gasket.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the oil suction tube with solvent and dry with compressed air.
+>
+> Inspect the oil suction tube for cracks or other damage.
+>
+> If the oil suction tube is cracked or otherwise damaged, the oil suction tube must be replaced.
+>
+> Use a gasket scraper to clean the gasket surface.
+>
+> ### Install
+>
+> Standard Suction Tube
+>
+> Install the gasket, standard suction tube, bracket, and P-clip.
+>
+> Tighten the two suction tube connector capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 61 n•m [45 ft-lb]
+>
+> Tighten the bracket and P-clip capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [20 ft-lb]
+>
+> Deep Sump Suction Tube
+>
+> Install the gasket, deep sump suction tube, brackets, and P-clips.
+>
+> Tighten the two suction tube connector capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 61 n•m [45 ft-lb]
+>
+> Tighten the bracket and P-clip capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [20 ft-lb]
+>
+> ### Finishing Steps
+>
+> - Install the lubricating oil pan. Refer to Procedure 007-025 in Section 7.
+> - Install the lubricating oil pan adapter cover. [[18-007-027-tr — Lubricating Oil Pan Adapter|Refer to Procedure 007-027 in Section 7.]]
+> - Fill the engine with lubricating oil. [[18-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037 in Section 7.]]
+> - Operate the engine. Check for leaks.

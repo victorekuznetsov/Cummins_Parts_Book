@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102510.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102510.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Complete Revision, Sensor Wiring Harness Procedure
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2007-10-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102510.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102510.pdf)
 
-## Complete Revision, Sensor Wiring Harness Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Полный пересмотр, процедура функционирования сенсорной проводов
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic adds the content from Procedures 019-043 (Engine Wiring Harness) to 019-081 (Sensor Wiring Harness). In addition, wiring harness bracket and cover torques have been included. Procedure 019-043 (Engine Wiring Harness) is no longer included in the Troubleshooting and Repair Manual, CENSE™ System, QSK45 and QSK60 Engine Series, Bulletin [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]].
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема службы/частей добавляет содержание из процедур 019-043 (Взаимодействие с проводкой двигателя) до 019-081 (Взаимодействие с датчиком). Кроме того, были включены кронштейны для проводов и крутящие моменты крышки. Процедура 019-043 (Применение электропроводки двигателя) больше не включена в Руководство по устранению неполадок и ремонту, Систему CENSETM, Серию двигателей QSK45 и QSK60, Бюллетень [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]].
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Complete Revision, Sensor Wiring Harness Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic adds the content from Procedures 019-043 (Engine Wiring Harness) to 019-081 (Sensor Wiring Harness). In addition, wiring harness bracket and cover torques have been included. Procedure 019-043 (Engine Wiring Harness) is no longer included in the Troubleshooting and Repair Manual, CENSE™ System, QSK45 and QSK60 Engine Series, Bulletin [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual\|3666410]].

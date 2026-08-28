@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-017-011-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-017-011-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Straight Thread Plug
@@ -35,36 +37,70 @@ tags:
 > **Даты:** изменён 2009-03-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-017-011-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-017-011-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Select the appropriate size allen wrench or socket, and remove the plug.
+
+### Снятие
+
+Выберите подходящий размер гаечного ключа или гнезда Allen и удалите вилку.
 
 ![[bp2pxha.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Use spray cleaner, Part Number 3823717 or equivalent, to clean the threads of the straight thread plugs and threaded bores.
+Используйте пылесос, номер детали 3823717 или эквивалент, для очистки резьбы прямолинейных вилок и резьбовых штанги.
 
 ![[bp2pxea.png]]
 
-Inspect the threads of the pipe plugs for mutilation or other damage.
+Осмотрите резьбу трубных пробок на предмет увечья или других повреждений.
 
-Inspect the threaded bores for damage.
+Осмотрите резьбовые отверстия на предмет повреждения.
 
-Repair the bores, if necessary. Refer to the Alternate Repair Manual, L10 Series Engines, Bulletin 3810310.
+Ремонтировать борозды, если это необходимо. См. руководство по альтернативному ремонту, двигатели серии L10, бюллетень 3810310.
 
 ![[17200021.png]]
 
-### Install
+### Установка
 
-Install a new o-ring on the plug. Lubricate with clean 15W-40 oil.
+Установите новое кольцо на вилку. Смазать чистым маслом 15W-40.
 
-Install and tighten the plugs.
+Установите и затяните штепсельные вилки.
 
-Use to the following chart for torque values.
+Используйте следующую диаграмму для значений крутящего момента.
 
 ![[bp2pxhb.png]]
 
-Tighten straight thread plugs to the appropriate torque value.
+Затягивайте прямые резьбы к соответствующему значению крутящего момента.
 
 ![[oi203vg.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Select the appropriate size allen wrench or socket, and remove the plug.
+>
+> ### Clean and Inspect for Reuse
+>
+> Use spray cleaner, Part Number 3823717 or equivalent, to clean the threads of the straight thread plugs and threaded bores.
+>
+> Inspect the threads of the pipe plugs for mutilation or other damage.
+>
+> Inspect the threaded bores for damage.
+>
+> Repair the bores, if necessary. Refer to the Alternate Repair Manual, L10 Series Engines, Bulletin 3810310.
+>
+> ### Install
+>
+> Install a new o-ring on the plug. Lubricate with clean 15W-40 oil.
+>
+> Install and tighten the plugs.
+>
+> Use to the following chart for torque values.
+>
+> Tighten straight thread plugs to the appropriate torque value.

@@ -15,13 +15,15 @@ manuals:
   - "3666251"
   - "3666423"
 figures: 15
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-010-024-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-010-024-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Air Leaks, Air Intake and Exhaust Systems
@@ -35,150 +37,278 @@ tags:
 > **Даты:** изменён 2015-04-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-010-024-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-010-024-om.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Engine intake air must be filtered to prevent dirt and debris from entering the engine. If the intake air piping is damaged or loose, unfiltered air will enter the engine and cause premature wear.
 
-Inspect for loose clamps or damage between the intake air piping, air cleaner, turbocharger, charge-air cooler, and intake manifold.
+### Контроль при обслуживании
 
-Replace any damaged pipes, and tighten loose clamps.
+> [!warning] ОСТОРОЖНО
+> Воздух для впуска двигателя должен быть фильтрован, чтобы предотвратить попадание грязи и мусора в двигатель. Если впускной воздушный трубопровод поврежден или свободен, нефильтрованный воздух попадет в двигатель и вызовет преждевременный износ.
+
+Осмотрите на наличие свободных зажимов или повреждений между трубопроводами для впускного воздуха, воздухоочистителем, турбокомпрессором, охладителем для заряда воздуха и впускным коллектором.
+
+Замените любые поврежденные трубы и затяните свободные зажимы.
 
 ![[ci100cc.png]]
 
-Check for corrosion of the intake system piping under the clamps and hoses. Corrosion can allow corrosive products and dirt to enter the intake system. Disassemble and clean as required.
+Проверить на коррозию трубопроводов системы впуска под зажимами и шлангами. Коррозия может позволить коррозионным продуктам и грязи войти в систему потребления. Разбирать и чистить по мере необходимости.
 
-Excessive back pressure can cause exhaust leaks. Verify the exhaust back pressure is within specified limits. [[101-011-009-tr — Exhaust Restriction|Refer to Procedure 011-009 in Section 11]].
+Чрезмерное давление в спине может вызвать утечку выхлопных газов. Проверить обратное давление выхлопных газов в определенных пределах.[[101-011-009-tr — Exhaust Restriction|См. процедуру 011-009 в разделе 11.]].
 
-Operate the engine at full throttle and maximum load, and check for air leaks. Listen for a whistling noise caused by high-pressure air leaks.
+Управляйте двигателем при полной дроссельной заслоне и максимальной нагрузке, а также проверяйте наличие утечек воздуха. Прислушайтесь к свистящему шуму, вызванному утечками воздуха высокого давления.
 
 ![[tb800ca.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use air tools to remove or install the nut on the V-band clamp. Use of these tools can seriously damage the threads or the bolt and cause the clamp to not be able to be used.
+> [!warning] ОСТОРОЖНО
+> Не используйте воздушные инструменты для удаления или установки гайки на зажим V-диапазона. Использование этих инструментов может серьезно повредить резьбу или болт и привести к тому, что зажим не сможет быть использован.
 
-The noise can be caused by an air leak from the following:
+Шум может быть вызван утечкой воздуха из следующего:
 
-Turbocharger-to-charge-air cooler elbow connection.
+Подключение локтя к охладителям воздуха.
 
-- Inspect the connection and o-ring seal for damage.
-- Tighten the V-band clamps.
+- Проверить соединение и уплотнение для уплотнения.
+- Зажимы V-диапазона затягиваются.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[ci1cocc.png]]
 
-Any charge-air cooler piping or connecting hose.
+Любые трубы для охлаждения воздуха или соединительные шланги.
 
-- Inspect the hose and piping for damage.
-- Tighten the hose clamps.
+- Проверьте шланг и трубопровод на предмет повреждения.
+- Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[17c00085.png]]
 
-Check soot streaks from the exhaust manifold slip joints.
+Проверьте полосы сажи из выхлопных коллекторов.
 
-Remove the exhaust manifold and inspect the slip joints for damage.
+Удалите выхлопной коллектор и проверьте скольжение суставов на предмет повреждения.
 
-Check exhaust manifold-to-cylinder head sealing gasket.
+Проверьте прокладку для герметизации головки выхлопного коллектора в цилиндр.
 
-If soot streaks are found replace the exhaust manifold to cylinder head gaskets. Refer to Procedure 011-007 in Section 11.
+Если обнаружены полосы сажи, замените выпускной коллектор на прокладки головки цилиндров. См. процедуру 011-007 в разделе 11.
 
 ![[11c00156.png]]
 
-Turbocharger-to-exhaust-manifold mounting gasket.
+Уплотнение прокладки с турбокомпрессором на выхлопной коллектор.
 
-- Replace the gasket.
+- Замените прокладку.
 
-[[10-010-033-tr — Turbocharger|Refer to Procedure 010-033]].
+[[10-010-033-tr — Turbocharger|См. процедуру 010-033]].
 
 ![[17c00122.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use air tools to remove or install the nut on the V-band clamp. Use of these tools can seriously damage the threads or the bolt and cause the clamp to not be able to be used.
+> [!warning] ОСТОРОЖНО
+> Не используйте воздушные инструменты для удаления или установки гайки на зажим V-диапазона. Использование этих инструментов может серьезно повредить резьбу или болт и привести к тому, что зажим не сможет быть использован.
 
-Turbine housing sealing surface air leak.
+Турбинный кожух, герметизирующий утечку поверхностного воздуха.
 
-- Tighten the V-band clamp.
+- Зажим V-диапазона затягивается.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
-- Check for an air leak.
-- If an air leak is still present, remove and replace the turbocharger.
+- Проверьте утечку воздуха.
+- Если утечка воздуха все еще присутствует, удалите и замените турбокомпрессор.
 
 ![[tb1csoe.png]]
 
-Compressor housing sealing surface air leak.
+Компрессорная обшивка, уплотняющая утечку поверхностного воздуха.
 
-- Tighten the V-band.
+- Затягивание V-диапазона.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-- Check for an air leak.
-- If an air leak is still present, remove and replace the turbocharger. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10]].
+- Проверьте утечку воздуха.
+- Если утечка воздуха все еще присутствует, удалите и замените турбокомпрессор.[[10-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]].
 
 ![[tb1csob.png]]
 
-Variable Geometry
+Переменная геометрия
 
-> [!danger] WARNING · Опасно
-> Removing the turbine housing V-band tamper proofing on any variable geometry turbocharger will void the Cummins Inc. warranty coverage.
+> [!danger] ОПАСНО
+> Удаление корпуса турбины V-диапазонной проверки на любом турбокомпрессоре с изменяемой геометрией аннулирует Cummins Inc. гарантийное покрытие.
 
-Turbine housing sealing surface air leak: For variable geometry turbochargers, the turbine V-band nut has a tamper proof clamp. Therefore the torque specifications for the turbine V-band will **not** be able to be checked.
+Утечка поверхностного воздуха из турбинового кожуха: Для турбокомпрессоров с изменяемой геометрией гайка турбины V-диапазона имеет зажим для проверки на предмет несанкционированного доступа. Поэтому спецификации крутящего момента для турбины V-диапазона будут не в состоянии быть проверены.
 
-The purpose of the tamper proofing is to prevent disturbing this joint. Any loosening of the V-band or adjusting of the orientation of the turbine housing will affect the sliding nozzle clearances and will damage the turbocharger and result in poor performance.
+Цель проверки на предмет подделки заключается в предотвращении нарушения этого соединения. Любое ослабление V-диапазона или регулировка ориентации корпуса турбины повлияет на раздвижные просветы сопла и повредит турбокомпрессор и приведет к плохой производительности.
 
-Indications of leakage are soot streaks from the joint and/or an audible whistle from the engine. The turbochargers **must** be replaced if there are any indications of leakage from the turbine housing V-band joint.
+Показателями утечки являются сажевые полосы от сустава и/или звуковой свисток от двигателя. Турбокомпрессоры должны быть заменены, если есть какие-либо признаки утечки из турбинного корпуса V-диапазонного соединения.
 
 ![[17c00122.png]]
 
-EGR plumbing sealing joints leak:
+Утечка уплотнительных соединений для сантехники EGR:
 
-Check for soot streaks from the EGR crossover tube and hoses.
+Проверьте полосы сажи из кроссовера EGR и шлангов.
 
-Tighten the hose clamps. [[10-011-025-tr — EGR Connection Tubes|Refer to Procedure 011-025 in Section 11]].
+Затяните хомуты шлангов.[[10-011-025-tr — EGR Connection Tubes|См. процедуру 011-025 в разделе 11.]].
 
-Check for an exhaust leak. If an exhaust leak is still present, remove and replace the EGR crossover tube or hose.
+Проверьте на утечку выхлопных газов. Если утечка выхлопных газов все еще присутствует, удалите и замените трубку или шланг кроссовера EGR.
 
 ![[10c00205.png]]
 
-Check for soot streaks from the EGR valve gasket and seal rings.
+Проверьте полоски сажи из прокладки клапана EGR и уплотнительных колец.
 
-Inspect for signs of leakage such as soot streaks. If signs of leakage are present, replace the EGR valve gaskets. [[10-011-022-tr — EGR Valve|Refer to Procedure 011-022 in Section 11]].
+Осмотрите признаки утечки, такие как сажа. Если признаки утечки присутствуют, замените прокладки клапана EGR.[[10-011-022-tr — EGR Valve|См. процедуру 011-022 в разделе 11.]].
 
 ![[10c00208.png]]
 
-Check for leakage from the EGR valve weep hole.
+Проверьте утечку из рыдающего отверстия клапана EGR.
 
-Soot leakage at the EGR valve weep hole is normal and can be expected. Do **not** replace the EGR valve if soot streaks are found at the EGR valve weep hole.
+Утечка сажи в клапане EGR является нормальной и может быть ожидаемой. **не** Заменить клапан EGR, если в клапане EGR обнаружены полосы сажи.
 
 ![[11c00176.png]]
 
-Check for leakage from the EGR cooler bellows.
+Проверьте утечку из охладителя EGR.
 
-Inspect for signs of leakage such as soot streaks. If signs of leakage are present, replace the EGR cooler or gasket. [[10-011-019-tr — EGR Cooler|Refer to Procedure 011-019 in Section 11]].
+Осмотрите признаки утечки, такие как сажа. Если признаки утечки присутствуют, замените охладитель EGR или прокладку.[[10-011-019-tr — EGR Cooler|См. процедуру 011-019 в разделе 11.]].
 
 ![[10c00210.png]]
 
-Check for soot leakage at the EGR differential pressure sensing tubes.
+Проверьте утечку сажи в трубках для измерения дифференциального давления EGR.
 
-Inspect for signs of leakage such as soot streaks, appearing yellowish brown or black.
+Осмотрите признаки утечки, такие как сажа, появляющиеся желтовато-коричневые или черные.
 
-If signs of leakage are present, replace the EGR differential pressure tubes. [[10-011-026-tr — EGR Differential Pressure Sensor Tubes|Refer to Procedure 011-026 in Section 11]].
+Если признаки утечки присутствуют, замените трубки дифференциального давления EGR.[[10-011-026-tr — EGR Differential Pressure Sensor Tubes|См. процедуру 011-026 в разделе 11.]].
 
 ![[10c00211.png]]
 
-Check for soot leakage on the exhaust adapter pipe.
+Проверьте утечку сажи на выхлопной трубе адаптера.
 
-Inspect for signs for leakage such as soot streaks, appearing yellowish brown or black.
+Осмотрите признаки утечки, такие как сажа, появляющиеся желтовато-коричневые или черные.
 
-If signs of leakage are present, replace the gasket and V-band clamp. [[101-011-043-tr — Aftertreatment Adapter Pipe|Refer to Procedure 011-043 in Section 11]].
+Если признаки утечки присутствуют, замените прокладку и зажим V-диапазона.[[101-011-043-tr — Aftertreatment Adapter Pipe|См. процедуру 011-043 в разделе 11.]].
 
-Clean all soot stains and paint the components in order to detect future leaks.
+Очистите все пятна сажи и покрасьте компоненты, чтобы обнаружить будущие утечки.
 
 ![[10c00212.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> **CAUTION · Осторожно**
+> Engine intake air must be filtered to prevent dirt and debris from entering the engine. If the intake air piping is damaged or loose, unfiltered air will enter the engine and cause premature wear.
+>
+> Inspect for loose clamps or damage between the intake air piping, air cleaner, turbocharger, charge-air cooler, and intake manifold.
+>
+> Replace any damaged pipes, and tighten loose clamps.
+>
+> Check for corrosion of the intake system piping under the clamps and hoses. Corrosion can allow corrosive products and dirt to enter the intake system. Disassemble and clean as required.
+>
+> Excessive back pressure can cause exhaust leaks. Verify the exhaust back pressure is within specified limits. [[101-011-009-tr — Exhaust Restriction|Refer to Procedure 011-009 in Section 11]].
+>
+> Operate the engine at full throttle and maximum load, and check for air leaks. Listen for a whistling noise caused by high-pressure air leaks.
+>
+> **CAUTION · Осторожно**
+> Do not use air tools to remove or install the nut on the V-band clamp. Use of these tools can seriously damage the threads or the bolt and cause the clamp to not be able to be used.
+>
+> The noise can be caused by an air leak from the following:
+>
+> Turbocharger-to-charge-air cooler elbow connection.
+>
+> - Inspect the connection and o-ring seal for damage.
+> - Tighten the V-band clamps.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Any charge-air cooler piping or connecting hose.
+>
+> - Inspect the hose and piping for damage.
+> - Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Check soot streaks from the exhaust manifold slip joints.
+>
+> Remove the exhaust manifold and inspect the slip joints for damage.
+>
+> Check exhaust manifold-to-cylinder head sealing gasket.
+>
+> If soot streaks are found replace the exhaust manifold to cylinder head gaskets. Refer to Procedure 011-007 in Section 11.
+>
+> Turbocharger-to-exhaust-manifold mounting gasket.
+>
+> - Replace the gasket.
+>
+> [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033]].
+>
+> **CAUTION · Осторожно**
+> Do not use air tools to remove or install the nut on the V-band clamp. Use of these tools can seriously damage the threads or the bolt and cause the clamp to not be able to be used.
+>
+> Turbine housing sealing surface air leak.
+>
+> - Tighten the V-band clamp.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]
+>
+> - Check for an air leak.
+> - If an air leak is still present, remove and replace the turbocharger.
+>
+> Compressor housing sealing surface air leak.
+>
+> - Tighten the V-band.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> - Check for an air leak.
+> - If an air leak is still present, remove and replace the turbocharger. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10]].
+>
+> Variable Geometry
+>
+> **WARNING · Опасно**
+> Removing the turbine housing V-band tamper proofing on any variable geometry turbocharger will void the Cummins Inc. warranty coverage.
+>
+> Turbine housing sealing surface air leak: For variable geometry turbochargers, the turbine V-band nut has a tamper proof clamp. Therefore the torque specifications for the turbine V-band will **not** be able to be checked.
+>
+> The purpose of the tamper proofing is to prevent disturbing this joint. Any loosening of the V-band or adjusting of the orientation of the turbine housing will affect the sliding nozzle clearances and will damage the turbocharger and result in poor performance.
+>
+> Indications of leakage are soot streaks from the joint and/or an audible whistle from the engine. The turbochargers **must** be replaced if there are any indications of leakage from the turbine housing V-band joint.
+>
+> EGR plumbing sealing joints leak:
+>
+> Check for soot streaks from the EGR crossover tube and hoses.
+>
+> Tighten the hose clamps. [[10-011-025-tr — EGR Connection Tubes|Refer to Procedure 011-025 in Section 11]].
+>
+> Check for an exhaust leak. If an exhaust leak is still present, remove and replace the EGR crossover tube or hose.
+>
+> Check for soot streaks from the EGR valve gasket and seal rings.
+>
+> Inspect for signs of leakage such as soot streaks. If signs of leakage are present, replace the EGR valve gaskets. [[10-011-022-tr — EGR Valve|Refer to Procedure 011-022 in Section 11]].
+>
+> Check for leakage from the EGR valve weep hole.
+>
+> Soot leakage at the EGR valve weep hole is normal and can be expected. Do **not** replace the EGR valve if soot streaks are found at the EGR valve weep hole.
+>
+> Check for leakage from the EGR cooler bellows.
+>
+> Inspect for signs of leakage such as soot streaks. If signs of leakage are present, replace the EGR cooler or gasket. [[10-011-019-tr — EGR Cooler|Refer to Procedure 011-019 in Section 11]].
+>
+> Check for soot leakage at the EGR differential pressure sensing tubes.
+>
+> Inspect for signs of leakage such as soot streaks, appearing yellowish brown or black.
+>
+> If signs of leakage are present, replace the EGR differential pressure tubes. [[10-011-026-tr — EGR Differential Pressure Sensor Tubes|Refer to Procedure 011-026 in Section 11]].
+>
+> Check for soot leakage on the exhaust adapter pipe.
+>
+> Inspect for signs for leakage such as soot streaks, appearing yellowish brown or black.
+>
+> If signs of leakage are present, replace the gasket and V-band clamp. [[101-011-043-tr — Aftertreatment Adapter Pipe|Refer to Procedure 011-043 in Section 11]].
+>
+> Clean all soot stains and paint the components in order to detect future leaks.

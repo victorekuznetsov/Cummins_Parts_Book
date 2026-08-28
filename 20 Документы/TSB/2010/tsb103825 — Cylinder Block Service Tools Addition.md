@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103825.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103825.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Cylinder Block Service Tools Addition
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2009-06-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103825.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103825.pdf)
 
-## Cylinder Block Service Tools Addition
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Cylinder Block Service Tools Добавление
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic adds a new service tool, Part Number 4919357, to Procedure 022-001 (Service Tools). This new tool is used to remove main bearings caps.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема добавляет новый инструмент обслуживания, Номер детали 4919357, к процедуре 022-001 (Инструменты обслуживания). Этот новый инструмент используется для удаления основных подшипников.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Cylinder Block Service Tools Addition
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic adds a new service tool, Part Number 4919357, to Procedure 022-001 (Service Tools). This new tool is used to remove main bearings caps.

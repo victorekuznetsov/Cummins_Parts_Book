@@ -33,10 +33,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive\|4021631]]-toc | Table of Contents |  |
+| [[[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive\|4021631]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021631/4021631-toc.html) | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
-| [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive\|4021631]]-titlepage | Titlepage | 02-Oct-2006 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021631/own-frwd.html) | Foreword | 14-Jul-2006 |
+| [[[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive\|4021631]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021631/4021631-titlepage.html) | Titlepage | 02-Oct-2006 |
 
 ### Section i - Introduction
 
@@ -51,11 +51,11 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3381772 | Recreational Applications Marine Propulsion Products | 22-Apr-2005 |
-| 3381322 | All Engines Off-Highway Engines International | 23-Apr-2007 |
-| 3381321 | All Engines Off-Highway Engines United States and Canada | 20-Jun-2007 |
-| 3381775 | All Engines Commercial Applications Marine Propulsion and Marine Auxiliary Products Worldwide | 12-May-2009 |
-| 3381307 | All Engines Worldwide Generator Drive | 25-Aug-2009 |
+| [3381772](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381772/3381772-history.html) | Recreational Applications Marine Propulsion Products | 22-Apr-2005 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | All Engines Off-Highway Engines International | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | All Engines Off-Highway Engines United States and Canada | 20-Jun-2007 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Commercial Applications Marine Propulsion and Marine Auxiliary Products Worldwide | 12-May-2009 |
+| [3381307](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381307/3381307-history.html) | All Engines Worldwide Generator Drive | 25-Aug-2009 |
 
 ### Section V - Maintenance Specifications
 
@@ -89,7 +89,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive\|4021631]]-backcover | Backcover | 02-Oct-2006 |
+| [[[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive\|4021631]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021631/4021631-backcover.html) | Backcover | 02-Oct-2006 |
 
 ### Section 1 - Operating Instructions
 

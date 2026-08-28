@@ -28,10 +28,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4960250 — B Automotive, Recreational Vehicle, and Bus Owners Manual\|4960250]]-toc | Table of Contents |  |
-| [[4960250 — B Automotive, Recreational Vehicle, and Bus Owners Manual\|4960250]]-titlepage | Titlepage | 21-Sep-2005 |
+| [[[4960250 — B Automotive, Recreational Vehicle, and Bus Owners Manual\|4960250]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960250/4960250-toc.html) | Table of Contents |  |
+| [[[4960250 — B Automotive, Recreational Vehicle, and Bus Owners Manual\|4960250]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960250/4960250-titlepage.html) | Titlepage | 21-Sep-2005 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960250/own-frwd.html) | Foreword | 14-Jul-2006 |
 
 ### Section i - Introduction
 
@@ -46,13 +46,13 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-qsb-qsc-qs9-b-c-a | Coverage | 14-May-2003 |
-| auto-frt | California Emission Control System Warranty, On-Highway | 14-Dec-2004 |
-| 3381327 | B5.9 & C8.3 Engines, United States and Canada, Recreational Vehicle | 21-Dec-2004 |
-| auto-bck | Owners Responsibility | 22-Dec-2004 |
-| 3381264 | BB Gas Plus/BLPG Plus/ISB Engines, United States and Canada, Automotive | 07-Aug-2009 |
-| 3381329 | All Engines, United States and Canada, School Bus | 24-Aug-2009 |
-| 3381278 | All Engines Worldwide, All Bus (Except U.S./Canada Diesel Powered School Buses) | 14-Sep-2009 |
+| [ind-qsb-qsc-qs9-b-c-a](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960250/ind-qsb-qsc-qs9-b-c-a.html) | Coverage | 14-May-2003 |
+| [auto-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960250/auto-frt.html) | California Emission Control System Warranty, On-Highway | 14-Dec-2004 |
+| [3381327](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381327/3381327-history.html) | B5.9 & C8.3 Engines, United States and Canada, Recreational Vehicle | 21-Dec-2004 |
+| [auto-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960250/auto-bck.html) | Owners Responsibility | 22-Dec-2004 |
+| [3381264](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381264/3381264-history.html) | BB Gas Plus/BLPG Plus/ISB Engines, United States and Canada, Automotive | 07-Aug-2009 |
+| [3381329](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381329/3381329-history.html) | All Engines, United States and Canada, School Bus | 24-Aug-2009 |
+| [3381278](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381278/3381278-history.html) | All Engines Worldwide, All Bus (Except U.S./Canada Diesel Powered School Buses) | 14-Sep-2009 |
 
 ### Section V - Maintenance Specifications
 
@@ -73,7 +73,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4960250 — B Automotive, Recreational Vehicle, and Bus Owners Manual\|4960250]]-backcover | Backcover | 21-Sep-2005 |
+| [[[4960250 — B Automotive, Recreational Vehicle, and Bus Owners Manual\|4960250]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4960250/4960250-backcover.html) | Backcover | 21-Sep-2005 |
 
 ### Section 1 - Operating Instructions
 

@@ -8,12 +8,14 @@ engines:
   - "80248213"
 families:
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103283.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103283.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Engine Performance Troubleshooting Tree, Guided Step 5B Revision
@@ -24,12 +26,32 @@ tags:
 > **Даты:** изменён 2009-01-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103283.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103283.pdf)
 
-## Engine Performance Troubleshooting Tree, Guided Step 5B Revision
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Двигатель производительности устранение неисправностей дерево, Руководящий шаг 5B ревизия
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises Guided Step 5B in the Engine Performance Troubleshooting Tree, adding a note about repeating the test step if more than one injuector is malfunctioning.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема службы / частей пересматривает Руководящий шаг 5B в Дереве устранения неполадок в работе двигателя, добавляя примечание о повторении этапа испытания, если более одного инсульта неисправен.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Engine Performance Troubleshooting Tree, Guided Step 5B Revision
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises Guided Step 5B in the Engine Performance Troubleshooting Tree, adding a note about repeating the test step if more than one injuector is malfunctioning.

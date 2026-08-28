@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-010-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-010-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Camshaft Bushings
@@ -35,12 +37,28 @@ tags:
 > **Даты:** изменён 2005-07-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-010-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-010-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use the camshaft bushing tool hydraulic actuator kit, Part Number 3823621, and camshaft bushing installation/removal kit, Part Number 3163015, to remove the camshaft bushings.
+
+### Снятие
+
+Используйте инструмент втулки распределительного вала гидравлический приводной комплект, Номер детали 3823621, и втулки втулки распределительного вала монтаж/удаление комплекта, Номер детали 3163015, для удаления втулки распределительного вала.
 
 ![[ka3bswa.png]]
 
-Remove the camshaft bushings.
+Удалить втулки распределительного вала.
 
 ![[22800450.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Use the camshaft bushing tool hydraulic actuator kit, Part Number 3823621, and camshaft bushing installation/removal kit, Part Number 3163015, to remove the camshaft bushings.
+>
+> Remove the camshaft bushings.

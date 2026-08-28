@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103819.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103819.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Cylinder Block Procedure, Head Deck Surface Section Revision
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2009-06-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103819.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103819.pdf)
 
-## Cylinder Block Procedure, Head Deck Surface Section Revision
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Процедура блокировки цилиндров, пересмотр раздела поверхности головной палубы
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the deck height measurements in the Head Deck Surface section of Procedure 001-026 (Cylinder Block) in Section 1 of the QSK45 and QSK60 Series Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Служба/Части» пересматривает измерения высоты палубы в разделе «Поверхность головной палубы» Процедуры 001-026 (Клиндерный блок) в разделе 1 Руководства по обслуживанию серии QSK45 и QSK60, Бюллетень [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Cylinder Block Procedure, Head Deck Surface Section Revision
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the deck height measurements in the Head Deck Surface section of Procedure 001-026 (Cylinder Block) in Section 1 of the QSK45 and QSK60 Series Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].

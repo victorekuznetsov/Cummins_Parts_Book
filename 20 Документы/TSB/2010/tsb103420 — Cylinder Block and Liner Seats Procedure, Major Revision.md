@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103420.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103420.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Cylinder Block and Liner Seats Procedure, Major Revision
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2009-03-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103420.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103420.pdf)
 
-## Cylinder Block and Liner Seats Procedure, Major Revision
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Процедура блокировки цилиндров и линейных сидений, капитальный ремонт
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises multiple sections of Procedure 001-027 (Cylinder Block and Liner Seats).
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Сервис/Части» пересматривает несколько разделов Процедуры 001-027 (Блок цилиндров и линейные сиденья).
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Cylinder Block and Liner Seats Procedure, Major Revision
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises multiple sections of Procedure 001-027 (Cylinder Block and Liner Seats).

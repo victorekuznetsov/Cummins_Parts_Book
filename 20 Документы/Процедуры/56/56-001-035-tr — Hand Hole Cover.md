@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 16
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-035-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-035-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Hand Hole Cover
@@ -31,185 +33,346 @@ tags:
 > **Даты:** изменён 2021-02-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-035-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-035-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-- Remove the Crankcase Breather. [[56-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001]].
+### Подготовительные операции
 
-![[ck800wa.png]]
+с форсункой механического управления
 
-with Electronically Actuated Injector
-
-- Remove the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016]].
-- Disconnect the crankcase breather. [[56-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001]].
-- Remove the electronic control module (ECM) cooling plate. [[56-008-128 — ECM Cooling Plate|Refer to Procedure 008-128]].
-- Remove the pre-lubricating oil pump. [[56-007-063-tr — Pre-Lubricating Oil Pump|Refer to Procedure 007-063]].
-- Remove the water pump. [[56-008-062-tr — Water Pump|Refer to Procedure 008-062]].
-- Remove the starter motors. [[56-013-020-tr — Starting Motor|Refer to Procedure 013-020]].
-- Remove the lubrication oil filters (Spin-On). [[56-007-013-tr — Lubricating Oil Filter (Spin-On)|Refer to Procedure 007-013]].
-- Remove the eliminator filter. [[56-007-067-tr — Eliminator™ Filter|Refer to Procedure 007-067]].
+- Удалите дыхание из чемодана.[[56-003-001-tr — Crankcase Breather (External)|См. процедуру 003-001]].
 
 ![[ck800wa.png]]
 
-### Remove
+с форсункой электронного управления
 
-Standard
+- Удалите топливный насос.[[56-005-016-tr — Fuel Pump|См. процедуру 005-016]].
+- Отключите задувку из картерного ящика.[[56-003-001-tr — Crankcase Breather (External)|См. процедуру 003-001]].
+- Удалите охлаждающую пластину электронного модуля управления (ECM).[[56-008-128 — ECM Cooling Plate|См. процедуру 008-128]].
+- Удалите предварительно смазочный масляный насос.[[56-007-063-tr — Pre-Lubricating Oil Pump|См. процедуру 007-063]].
+- Удалите водяной насос.[[56-008-062-tr — Water Pump|См. процедуру 008-062]].
+- Удалите стартерные двигатели.[[56-013-020-tr — Starting Motor|См. процедуру 013-020]].
+- Удалите фильтры моторного масла (Spin-On).[[56-007-013-tr — Lubricating Oil Filter (Spin-On)|См. процедуру 007-013]].
+- Удалите фильтр элиминатора.[[56-007-067-tr — Eliminator™ Filter|См. процедуру 007-067]].
 
-Remove the hand hole cover capscrews.
+![[ck800wa.png]]
 
-Remove the hand hole cover.
+### Снятие
 
-Remove and discard the o-ring.
+Стандартный стандарт
+
+Удалите затворы крышки ручного отверстия.
+
+Удалите крышку ручного отверстия.
+
+Удалите и отбросьте кольцо.
 
 ![[03600025.png]]
 
-Block Mounted Crankcase Breather
+Заблокированный капкан дышащий
 
-Disconnect the crankcase breather pipe.
+Отсоедините трубку для дыхания.
 
-Remove the hand hole cover capscrews.
+Удалите затворы крышки ручного отверстия.
 
-Remove the hand hole cover.
+Удалите крышку ручного отверстия.
 
-Remove and discard the o-ring.
+Удалите и отбросьте кольцо.
 
 ![[01600367.png]]
 
-Eliminator™
+Элиминатор
 
-Remove the hand hole cover capscrews.
+Удалите затворы крышки ручного отверстия.
 
-Remove the Eliminator hand hole cover. Note the location where installed.
+Удалите крышку ручного отверстия Eliminator. Обратите внимание на место, где установлена.
 
-Remove and discard the o-ring.
+Удалите и отбросьте кольцо.
 
 ![[01600363.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use solvent to clean the hand hole covers and capscrews.
+Используйте растворитель для очистки крышек и болтов ручного отверстия.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[01600364.png]]
 
-Inspect the hand hole covers for damage, holes, and cracks.
+Проверьте крышки ручного отверстия на предмет повреждений, отверстий и трещин.
 
-Replace if damaged.
+Заменить, если поврежден.
 
 ![[01600365.png]]
 
-Inspect the capscrews for damage and stripped threads.
+Осмотрите болты на предмет повреждения и полосатой резьбы.
 
-Replace if damaged.
+Заменить, если поврежден.
 
 ![[01600366.png]]
 
-### Install
+### Установка
 
-Standard
+Стандартный стандарт
 
-> [!note] Note · Примечание
-> **:** For Low NOx emissions capability products, the dipstick hand hole cover is reversed, with dipstick on the left, and filling point on the right. Ensure this is fitted, to prevent interference between the filling cap and Fuel Tubes.
+> [!note] Примечание
+>**:** Для продуктов с низким уровнем выбросов NOx покрытие ручного отверстия для измерения уровня масла поворачивается вспять, а калибр уровня масла находится слева, а точка наполнения - справа. Убедитесь, что это установлено, чтобы предотвратить помехи между крышкой наполнения и топливными трубами.
 
-Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+Используйте минимальное количество растяжения и сделайте **не**, чтобы кольцо скручивалось при установке на крышку ручного отверстия.
 
-Install a new o-ring into the groove of the hand hole cover.
+Установите новое кольцо в канавку крышки ручного отверстия.
 
-Lubricate the o-ring seal with clean engine oil.
+Смазать уплотнение с помощью чистого моторного масла.
 
 ![[03600022.png]]
 
-Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+**не** вытаскивать крышку ручного отверстия в блок цилиндра, затягивая болты.
 
-Place the hand hole cover into the cylinder block
+Поместите крышку ручного отверстия в блок цилиндра
 
-Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+Поверните крышку ручного отверстия, пока отверстия местоположения не выровняются с монтажными отверстиями на блоке.
 
-Apply firm pressure, pressing the hand hole cover into place.
+Нанесите твердое давление, нажав на крышку отверстия для рук.
 
-Install and tighten capscrews.
+Установите и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[01600370.png]]
 
-Block Mounted Crankcase Breather
+Заблокированный капкан дышащий
 
-Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+Используйте минимальное количество растяжения и сделайте **не**, чтобы кольцо скручивалось при установке на крышку ручного отверстия.
 
-Install a new o-ring into the groove of the hand hole cover.
+Установите новое кольцо в канавку крышки ручного отверстия.
 
-Lubricate the o-ring seal with clean engine oil.
+Смазать уплотнение с помощью чистого моторного масла.
 
 ![[01600367.png]]
 
-Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+**не** вытаскивать крышку ручного отверстия в блок цилиндра, затягивая болты.
 
-Place the hand hole cover into the cylinder block.
+Поместите крышку ручного отверстия в блок цилиндра.
 
-Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+Поверните крышку ручного отверстия, пока отверстия местоположения не выровняются с монтажными отверстиями на блоке.
 
-Apply firm pressure, pressing the hand hole cover into place.
+Нанесите твердое давление, нажав на крышку отверстия для рук.
 
-Install and tighten capscrews.
+Установите и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[01600368.png]]
 
-Eliminator™
+Элиминатор
 
-Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+Используйте минимальное количество растяжения и сделайте **не**, чтобы кольцо скручивалось при установке на крышку ручного отверстия.
 
-Install a new o-ring into the groove of the hand hole cover.
+Установите новое кольцо в канавку крышки ручного отверстия.
 
-Lubricate the o-ring seal with clean engine oil.
+Смазать уплотнение с помощью чистого моторного масла.
 
 ![[01600363.png]]
 
-Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+**не** вытаскивать крышку ручного отверстия в блок цилиндра, затягивая болты.
 
-Place the hand hole cover into the cylinder block.
+Поместите крышку ручного отверстия в блок цилиндра.
 
-Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+Поверните крышку ручного отверстия, пока отверстия местоположения не выровняются с монтажными отверстиями на блоке.
 
-Apply firm pressure, pressing the hand hole cover into place.
+Нанесите твердое давление, нажав на крышку отверстия для рук.
 
-Install and tighten capscrews.
+Установите и затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[01600369.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-- Install the Crankcase Breather. [[56-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001]].
+- Установите капкан-дыхатель.[[56-003-001-tr — Crankcase Breather (External)|См. процедуру 003-001]].
+
+![[ck800wa.png]]
+
+с форсункой электронного управления
+
+- Установите фильтр элиминатора.[[56-007-067-tr — Eliminator™ Filter|См. процедуру 007-067]].
+- Установите фильтры моторного масла (Spin-On).[[56-007-013-tr — Lubricating Oil Filter (Spin-On)|См. процедуру 007-013]].
+- Установите стартерные двигатели.[[56-013-020-tr — Starting Motor|См. процедуру 013-020]].
+- Установите водяной насос.[[56-008-062-tr — Water Pump|См. процедуру 008-062]].
+- Установите предварительно смазочный масляный насос.[[56-007-063-tr — Pre-Lubricating Oil Pump|См. процедуру 007-063]].
+- Установите охлаждающую пластину электронного модуля управления (ECM).[[56-008-128 — ECM Cooling Plate|См. процедуру 008-128]].
+- Подключите затвор для дыхания.[[56-003-001-tr — Crankcase Breather (External)|См. процедуру 003-001]].
+- Установите топливный насос.[[56-005-016-tr — Fuel Pump|См. процедуру 005-016]].
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
 
-- Install the eliminator filter. [[56-007-067-tr — Eliminator™ Filter|Refer to Procedure 007-067]].
-- Install the lubrication oil filters (Spin-On). [[56-007-013-tr — Lubricating Oil Filter (Spin-On)|Refer to Procedure 007-013]].
-- Install the starter motors. [[56-013-020-tr — Starting Motor|Refer to Procedure 013-020]].
-- Install the water pump. [[56-008-062-tr — Water Pump|Refer to Procedure 008-062]].
-- Install the pre-lubricating oil pump. [[56-007-063-tr — Pre-Lubricating Oil Pump|Refer to Procedure 007-063]].
-- Install the electronic control module (ECM) cooling plate. [[56-008-128 — ECM Cooling Plate|Refer to Procedure 008-128]].
-- Connect the crankcase breather. [[56-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001]].
-- Install the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016]].
-- Operate the engine and check for leaks.
-
-![[ck800wa.png]]
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Remove the Crankcase Breather. [[56-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001]].
+>
+> with Electronically Actuated Injector
+>
+> - Remove the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016]].
+> - Disconnect the crankcase breather. [[56-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001]].
+> - Remove the electronic control module (ECM) cooling plate. [[56-008-128 — ECM Cooling Plate|Refer to Procedure 008-128]].
+> - Remove the pre-lubricating oil pump. [[56-007-063-tr — Pre-Lubricating Oil Pump|Refer to Procedure 007-063]].
+> - Remove the water pump. [[56-008-062-tr — Water Pump|Refer to Procedure 008-062]].
+> - Remove the starter motors. [[56-013-020-tr — Starting Motor|Refer to Procedure 013-020]].
+> - Remove the lubrication oil filters (Spin-On). [[56-007-013-tr — Lubricating Oil Filter (Spin-On)|Refer to Procedure 007-013]].
+> - Remove the eliminator filter. [[56-007-067-tr — Eliminator™ Filter|Refer to Procedure 007-067]].
+>
+> ### Remove
+>
+> Standard
+>
+> Remove the hand hole cover capscrews.
+>
+> Remove the hand hole cover.
+>
+> Remove and discard the o-ring.
+>
+> Block Mounted Crankcase Breather
+>
+> Disconnect the crankcase breather pipe.
+>
+> Remove the hand hole cover capscrews.
+>
+> Remove the hand hole cover.
+>
+> Remove and discard the o-ring.
+>
+> Eliminator™
+>
+> Remove the hand hole cover capscrews.
+>
+> Remove the Eliminator hand hole cover. Note the location where installed.
+>
+> Remove and discard the o-ring.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use solvent to clean the hand hole covers and capscrews.
+>
+> Dry with compressed air.
+>
+> Inspect the hand hole covers for damage, holes, and cracks.
+>
+> Replace if damaged.
+>
+> Inspect the capscrews for damage and stripped threads.
+>
+> Replace if damaged.
+>
+> ### Install
+>
+> Standard
+>
+> **Note · Примечание**
+> **:** For Low NOx emissions capability products, the dipstick hand hole cover is reversed, with dipstick on the left, and filling point on the right. Ensure this is fitted, to prevent interference between the filling cap and Fuel Tubes.
+>
+> Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+>
+> Install a new o-ring into the groove of the hand hole cover.
+>
+> Lubricate the o-ring seal with clean engine oil.
+>
+> Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+>
+> Place the hand hole cover into the cylinder block
+>
+> Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+>
+> Apply firm pressure, pressing the hand hole cover into place.
+>
+> Install and tighten capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Block Mounted Crankcase Breather
+>
+> Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+>
+> Install a new o-ring into the groove of the hand hole cover.
+>
+> Lubricate the o-ring seal with clean engine oil.
+>
+> Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+>
+> Place the hand hole cover into the cylinder block.
+>
+> Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+>
+> Apply firm pressure, pressing the hand hole cover into place.
+>
+> Install and tighten capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Eliminator™
+>
+> Use the minimum amount of stretch and do **not** allow the o-ring to twist when installing in onto the hand hole cover.
+>
+> Install a new o-ring into the groove of the hand hole cover.
+>
+> Lubricate the o-ring seal with clean engine oil.
+>
+> Do **not** pull the hand hole cover into the cylinder block by tightening the capscrews.
+>
+> Place the hand hole cover into the cylinder block.
+>
+> Turn the hand hole cover until the location holes line up with the mounting holes on the block.
+>
+> Apply firm pressure, pressing the hand hole cover into place.
+>
+> Install and tighten capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Install the Crankcase Breather. [[56-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001]].
+>
+> with Electronically Actuated Injector
+>
+> - Install the eliminator filter. [[56-007-067-tr — Eliminator™ Filter|Refer to Procedure 007-067]].
+> - Install the lubrication oil filters (Spin-On). [[56-007-013-tr — Lubricating Oil Filter (Spin-On)|Refer to Procedure 007-013]].
+> - Install the starter motors. [[56-013-020-tr — Starting Motor|Refer to Procedure 013-020]].
+> - Install the water pump. [[56-008-062-tr — Water Pump|Refer to Procedure 008-062]].
+> - Install the pre-lubricating oil pump. [[56-007-063-tr — Pre-Lubricating Oil Pump|Refer to Procedure 007-063]].
+> - Install the electronic control module (ECM) cooling plate. [[56-008-128 — ECM Cooling Plate|Refer to Procedure 008-128]].
+> - Connect the crankcase breather. [[56-003-001-tr — Crankcase Breather (External)|Refer to Procedure 003-001]].
+> - Install the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016]].
+> - Operate the engine and check for leaks.

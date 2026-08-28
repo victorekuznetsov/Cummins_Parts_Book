@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 66
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-011.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-011.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump Drive
@@ -35,713 +37,1302 @@ tags:
 > **Даты:** изменён 2023-10-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-011.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-> [!danger] WARNING · Опасно
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Depending on the circumstance, diesel fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
+> [!danger] ОПАСНО
+> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
 
-> [!note] Note · Примечание
-> If an air compressor is **not** mounted on the engine, it will **not** be necessary to drain the cooling system.
+> [!danger] ОПАСНО
+> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-- Drain the cooling system. [[56-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Remove the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
-- Remove the air compressor. [[56-012-014-tr — Air Compressor|Refer to Procedure 012-014 in Section 12.]]
-- Remove the accessory drive pulley. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
-- Remove the accessory drive cover, if applicable. [[56-009-039-tr — Accessory Drive Cover|Refer to Procedure 009-039 in Section 9.]]
-- Remove the accessory drive seal, if applicable. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
+> [!danger] ОПАСНО
+> В зависимости от обстоятельств, дизельное топливо является легковоспламеняющимся. При осмотре или выполнении обслуживания или ремонта топливной системы, чтобы уменьшить вероятность пожара и в результате серьезных травм, смерти или повреждения имущества, никогда не курить или разрешать искры или пламя (например, пилотные огни, электрические выключатели или сварочное оборудование) в рабочей зоне.
 
-![[ck800wa.png]]
+> [!note] Примечание
+> Если воздушный компрессор **не** установлен на двигателе, то для слива системы охлаждения не потребуется.
 
-with Electronically Actuated Injector
-
-> [!danger] WARNING · Опасно
-> Depending on the circumstance, diesel fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
-
-- Remove the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
-- Remove the accessory drive pulley. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
-- Remove the accessory drive cover, if applicable. [[56-009-039-tr — Accessory Drive Cover|Refer to Procedure 009-039 in Section 9.]]
-- Remove the accessory drive seal, if applicable. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
+- Слейте охлаждающую жидкость.[[56-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Удалите топливный насос.[[56-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
+- Удалите воздушный компрессор.[[56-012-014-tr — Air Compressor|См. процедуру 012-014 в разделе 12.]]
+- Удалите дополнительный приводной шкив.[[56-009-004-tr — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
+- Удалите крышку вспомогательного привода, если это применимо.[[56-009-039-tr — Accessory Drive Cover|См. процедуру 009-039 в разделе 9.]]
+- Удалить уплотнение привода аксессуара, если это применимо.[[56-001-003-tr — Accessory Drive Seal|См. процедуру 001-003 в разделе 1.]]
 
 ![[ck800wa.png]]
 
-### Remove
+с форсункой электронного управления
 
-with Mechanically Actuated Injector
+> [!danger] ОПАСНО
+> В зависимости от обстоятельств, дизельное топливо является легковоспламеняющимся. При осмотре или выполнении обслуживания или ремонта топливной системы, чтобы уменьшить вероятность пожара и в результате серьезных травм, смерти или повреждения имущества, никогда не курить или разрешать искры или пламя (например, пилотные огни, электрические выключатели или сварочное оборудование) в рабочей зоне.
 
-> [!warning] CAUTION · Осторожно
-> Make sure the Woodruff key has been removed before attempting to remove the fuel pump drive assembly. Damage to the bushing in the front gear housing cover can result if the key is not removed.
+- Удалите топливный насос.[[56-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
+- Удалите дополнительный приводной шкив.[[56-009-004-tr — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
+- Удалите крышку вспомогательного привода, если это применимо.[[56-009-039-tr — Accessory Drive Cover|См. процедуру 009-039 в разделе 9.]]
+- Удалить уплотнение привода аксессуара, если это применимо.[[56-001-003-tr — Accessory Drive Seal|См. процедуру 001-003 в разделе 1.]]
 
-Remove the oil slinger.
+![[ck800wa.png]]
+
+### Снятие
+
+с форсункой механического управления
+
+> [!warning] ОСТОРОЖНО
+> Убедитесь, что ключ Вудраффа был удален, прежде чем пытаться удалить сборку привода топливного насоса. Повреждение втулки в крышке передней шестерни может произойти, если ключ не удален.
+
+Удалите масляный слингер.
 
 ![[dp6puma.png]]
 
-Remove the six capscrews from the drive housing flange.
+Снимите шесть болтов с фланца корпуса привода.
 
-Remove the drive and discard the gasket.
+Снимите диск и отбросьте прокладку.
 
 ![[dp6drha.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the six capscrews.
+Удалите шесть болтов.
 
-Remove the accessory drive assembly.
+Удалить сборку привода аксессуара.
 
-Remove and inspect the gasket.
+Удалить и осмотреть прокладку.
 
 ![[09600083.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Use solvent to clean the outer housing of the accessory drive.
+Используйте растворитель для очистки наружного корпуса вспомогательного привода.
 
 ![[dp6drfb.png]]
 
-Use a dial indicator to measure the accessory driveshaft end clearance.
+Используйте индикатор циферблата для измерения дополнительного оконечного зазора вала привода.
 
-| Accessory Driveshaft End Clearance |  |  |
+| Дискография Driveshaft End Clearance |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.05 | MIN | 0.0020 |
-| 0.30 | MAX | 0.0118 |
+| мм |  | в |
+| 0.05 | Мин | 0.0020 |
+| 0.30 | Макс | 0.0118 |
 
 ![[dp6drca.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Use solvent to clean the outer housing of the accessory drive.
+Используйте растворитель для очистки наружного корпуса вспомогательного привода.
 
 ![[09600084.png]]
 
-Use a dial indicator to measure the fuel pump driveshaft end clearance.
+Используйте индикатор циферблата для измерения торцевого зазора вала топливного насоса.
 
-| Fuel Pump Driveshaft End Clearance |  |  |
+| Расчистка топливного насоса Driveshaft End |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.13 | MIN | 0.0051 |
-| 0.29 | MAX | 0.0114 |
+| мм |  | в |
+| 0.13 | Мин | 0.0051 |
+| 0.29 | Макс | 0.0114 |
 
 ![[dp6drca.png]]
 
-### Disassemble
+### Разборка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!warning] CAUTION · Осторожно
-> To prevent damage to the shaft, the capscrew must be installed into the drive shaft without the washer.
+> [!warning] ОСТОРОЖНО
+> Для предотвращения повреждения вала болты должны быть установлены в приводной вал без шайбы.
 
-Remove the capscrew and washer.
+Уберите болты и шайбу.
 
-Install the capscrew into the shaft.
+Установите болты в шахту.
 
 ![[dp6drfa.png]]
 
-Use a jaw puller to remove the Lovejoy or spline type coupling.
+Используйте челюсть, чтобы удалить соединение типа Lovejoy или spline.
 
-Remove the capscrew from the shaft.
+Удалите болты из вала.
 
 ![[dp6drfb.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Remove the clamping washer (1).
+Удалить зажимную шайбу (1).
 
-Remove the gear and shaft assembly.
+Снять шестерню и вал сборки.
 
-Remove the pipe plug from the housing.
+Удалите трубу из корпуса.
 
-Use solvent to clean the parts.
+Используйте растворитель для очистки деталей.
 
 ![[09600067.png]]
 
-Measure the inside diameter of the bushings.
+Измерьте внутренний диаметр втулок.
 
-| Accessory Drive Bushing Inside Diameter |  |  |
+| Драйвовый бушинг внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 49.95 | MIN | 1.9665 |
-| 50.03 | MAX | 1.9697 |
+| мм |  | в |
+| 49.95 | Мин | 1.9665 |
+| 50.03 | Макс | 1.9697 |
 
-If the inside diameter of either bushing is **not** within specification, both bushings **must** be replaced.
+Если внутренний диаметр любого из втулок **не** в пределах спецификации, оба втулки должны быть заменены.
 
 ![[dp6bsta.png]]
 
-Check the grooved surfaces of the bushings (1) for damage.
+Проверить выгнутые поверхности втулок (1) на предмет повреждения.
 
-Measure the distance from the outside of the thrust faces of the two bushings.
+Измерьте расстояние от внешней стороны тяговых граней двух втулок.
 
-| Accessory Drive Bushing Thrust Face Distance |  |  |
+| Драйвовая качающаяся тяга Расстояние лица |  |  |
 |---|---|---|
-| mm |  | in |
-| 45.37 | MIN | 1.7862 |
-| 46.45 | MAX | 1.8287 |
+| мм |  | в |
+| 45.37 | Мин | 1.7862 |
+| 46.45 | Макс | 1.8287 |
 
-If the distance between the two thrust faces is **not** within specification, both bushings **must** be replaced.
+Если расстояние между двумя тяговыми гранями **не** в пределах спецификации, то оба втулки должны быть заменены.
 
 ![[09s00004.png]]
 
-Remove the flanged bushing from the drive housing using a brass drift (1), taking care **not** to damage the bushing bore.
+Удалите фланцевый втулку из приводного кожуха с помощью латунного дрейфа (1), позаботившись о том, чтобы **не** повредить цилиндр втулки.
 
 ![[09600009.png]]
 
-**Only** remove the gear from the shaft when the gear or the shaft **must** be replaced.
+**Снимите с вала только тогда, когда необходимо заменить передачу или вал**.
 
-Use an arbor press to remove the gear.
+Используйте пресс для арбора, чтобы снять снаряжение.
 
 ![[09600056.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the straight thread o-ring plug from the fuel pump drive.
+Удалите прямую резьбу из привода топливного насоса.
 
 ![[09600087.png]]
 
-Remove the mesh screen with a small flat tip screwdriver.
+Удалите сетчатый экран с помощью небольшой плоской отвертки.
 
 ![[09600088.png]]
 
-Use a press to remove the shaft from both the gear and the pump drive housing.
+Используйте пресс для удаления вала как из коробки передач, так и из корпуса насоса.
 
 ![[09600090.png]]
 
-Measure the inside diameter of the bushings.
+Измерьте внутренний диаметр втулок.
 
-| Fuel Pump Drive Bushing Inside Diameter |  |  |
+| Топливный насос Drive Bushing Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 33.57 | MIN | 1.3172 |
-| 33.64 | MAX | 1.3244 |
+| мм |  | в |
+| 33.57 | Мин | 1.3172 |
+| 33.64 | Макс | 1.3244 |
 
-If the inside diameter of either bushing is **not** within specification, both bushings **must** be replaced.
+Если внутренний диаметр любого из втулок **не** в пределах спецификации, оба втулки должны быть заменены.
 
 ![[dp6bsta.png]]
 
-Check the grooved surfaces of the bushings (1) for damage.
+Проверить выгнутые поверхности втулок (1) на предмет повреждения.
 
-Measure the distance from the outside of the thrust faces of the two bushings.
+Измерьте расстояние от внешней стороны тяговых граней двух втулок.
 
-| Fuel Pump Drive Bushing Thrust Face Distance |  |  |
+| Топливный насос Drive Bushing Thrust Face Distance |  |  |
 |---|---|---|
-| mm |  | in |
-| 45.52 | MIN | 1.7921 |
-| 45.64 | MAX | 1.7968 |
+| мм |  | в |
+| 45.52 | Мин | 1.7921 |
+| 45.64 | Макс | 1.7968 |
 
-If the distance between the two thrust faces is **not** within specification, both bushings **must** be replaced.
+Если расстояние между двумя тяговыми гранями **не** в пределах спецификации, то оба втулки должны быть заменены.
 
 ![[09s00004.png]]
 
-Remove the flanged bushing from the drive housing. Use a brass drift (1), taking care **not** to damage the bushing bore.
+Снять фланцевый втулку с гильзы привода. Используйте латунный дрейф (1), заботясь о том, чтобы **не **повредить втулочный цилиндр.
 
 ![[09600009.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the fuel pump drive assembly and inspect it for reuse.
+Очистите топливный насос и проверьте его на повторное использование.
 
-Clean the pulley and inspect if for reuse, if applicable.
+Очистите шкив и проверьте, если это применимо, для повторного использования.
 
 ![[08600657.png]]
 
-The coupling washer **must** be clamped tightly between the coupling and the shaft. If the washer is **not** tight, rebuild the drive unit.
+Сцепная шайба **должна** крепко зажиматься между сцепной машиной и валом. Если шайба **не **плотная, перестроить приводной блок.
 
 ![[dp6drcb.png]]
 
-Inspect the shaft in the gear fit area for fretting or burrs.
+Осмотрите вал в зоне, пригодной для снаряжения, на наличие фреттинга или заусенцев.
 
-Clean burrs with emery cloth.
+Чистые заусеницы с салфеткой.
 
 ![[09600059.png]]
 
-Measure the shaft outside diameter.
+Измерьте вал наружного диаметра.
 
-| Accessory Driveshaft Outside Diameter |  |  |  |
+| Драйвовый вал снаружи диаметра |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| (1) | 34.964 | MIN | 1.3765 |
-|  | 34.976 | MAX | 1.3770 |
-| (2) | 43.928 | MIN | 1.7294 |
-|  | 43.940 | MAX | 1.7299 |
-| (3) | 44.370 | MIN | 1.7468 |
-|  | 44.630 | MAX | 1.7571 |
-| (4) | 45.070 | MIN | 1.7744 |
-|  | 45.082 | MAX | 1.7749 |
-| (5) | 49.820 | MIN | 1.9614 |
-|  | 49.832 | MAX | 1.9619 |
-| (6) | 25.325 | MIN | 0.9970 |
-|  | 25.375 | MAX | 0.9990 |
+|  | мм |  | в |
+| (1) | 34.964 | Мин | 1.3765 |
+|  | 34.976 | Макс | 1.3770 |
+| (2) | 43.928 | Мин | 1.7294 |
+|  | 43.940 | Макс | 1.7299 |
+| (3) | 44.370 | Мин | 1.7468 |
+|  | 44.630 | Макс | 1.7571 |
+| (4) | 45.070 | Мин | 1.7744 |
+|  | 45.082 | Макс | 1.7749 |
+| (5) | 49.820 | Мин | 1.9614 |
+|  | 49.832 | Макс | 1.9619 |
+| (6) | 25.325 | Мин | 0.9970 |
+|  | 25.375 | Макс | 0.9990 |
 
-If the outside diameter is **not** within specification, the shaft **must** be replaced.
+Если внешний диаметр **не** в пределах спецификации, вал должен быть заменен.
 
 ![[09600068.png]]
 
-Check the gear teeth and gear bore for damage.
+Проверьте зубья зубчатой передачи и цилиндр переключения передач на предмет повреждения.
 
-Replace the gear, if damaged.
+Замените шестерню, если она повреждена.
 
 ![[09600057.png]]
 
-Measure the gear inside diameter.
+Измерьте шестерню внутри диаметра.
 
-| Accessory Drive Gear Inside Diameter |  |  |
+| Диаметр Drive Gear Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 44.98 | MIN | 1.7709 |
-| 45.02 | MAX | 1.7724 |
+| мм |  | в |
+| 44.98 | Мин | 1.7709 |
+| 45.02 | Макс | 1.7724 |
 
-If the gear is **not** within specification, the gear **must** be replaced.
+Если передача **не** в пределах спецификации, то передача должна быть заменена.
 
 ![[dp1geta.png]]
 
-Check the inner diameter of the coupling for damage.
+Проверьте внутренний диаметр соединения на предмет повреждения.
 
-If damage is found, the coupling **must** be replaced.
+Если повреждение обнаружено, соединение должно быть заменено.
 
-Measure the inside diameter of the coupling.
+Измерьте внутренний диаметр сцепления.
 
-| Fuel Pump Drive Lovejoy Coupling Inside Diameter |  |  |
+| Нагнетатель топлива Lovejoy Coupling Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 25.377 | MIN | 0.9991 |
-| 25.407 | MAX | 1.0003 |
+| мм |  | в |
+| 25.377 | Мин | 0.9991 |
+| 25.407 | Макс | 1.0003 |
 
-| Fuel Pump Drive Spline Coupling Inside Diameter |  |  |
+| Топливный насос привод Spline Coupling Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 25.255 | MIN | 0.9943 |
-| 25.278 | MAX | 0.9952 |
+| мм |  | в |
+| 25.255 | Мин | 0.9943 |
+| 25.278 | Макс | 0.9952 |
 
-If the inner diameter of the coupling is **not** within specification, the coupling **must** be replaced.
+Если внутренний диаметр соединения **не** в пределах спецификации, то соединение должно быть заменено.
 
 ![[dp8cpta.png]]
 
-If the bushing was removed, inspect the housing for scoring and other damage.
+Если втулка была снята, осмотрите кожух на предмет забивания и других повреждений.
 
-Replace the housing if damaged.
+Замените кожух, если он поврежден.
 
 ![[dp8hssa.png]]
 
-If the bushing was removed, measure the inside diameter of the bushing bore.
+Если втулка была удалена, измерьте внутренний диаметр цилиндра втулки.
 
-| Fuel Drive Drive Bushing Bore Inside Diameter |  |  |
+| Топливный привод Драйв Бушинг цилиндра прокачка внутри диаметр |  |  |
 |---|---|---|
-| mm |  | in |
-| 60.00 | MIN | 2.3622 |
-| 60.05 | MAX | 2.3642 |
+| мм |  | в |
+| 60.00 | Мин | 2.3622 |
+| 60.05 | Макс | 2.3642 |
 
-Replace the housing if the bushing bore is **not** within specifications.
+Заменить корпус, если втулочный цилиндр имеет **не** в пределах спецификаций.
 
 ![[09600017.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Use solvent to clean the fuel pump drive components.
+Используйте растворитель для очистки компонентов привода топливного насоса.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[09600082.png]]
 
-Inspect the screen for cracks or other damage.
+Проверьте экран на наличие трещин или других повреждений.
 
-If any damage is found, the screen **must** be replaced.
+Если обнаружен какой-либо ущерб, экран должен быть заменен.
 
 ![[09600091.png]]
 
-Check the inner diameter of the shaft spline for damage.
+Проверьте внутренний диаметр вала на предмет повреждения.
 
-If damage is found, the shaft **must** be replaced.
+Если повреждение обнаружено, вал должен быть заменен.
 
-Measure the inside diameter of the shaft.
+Измерьте внутренний диаметр вала.
 
-| Fuel Pump Drive Spline Inside Diameter |  |  |
+| Топливный насос Drive Spline внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 46.000 | MIN | 1.8110 |
-| 46.190 | MAX | 1.8185 |
+| мм |  | в |
+| 46.000 | Мин | 1.8110 |
+| 46.190 | Макс | 1.8185 |
 
-If the inner diameter of the shaft is **not** within specification, the shaft **must** be replaced.
+Если внутренний диаметр вала **не** в пределах спецификации, вал должен быть заменен.
 
 ![[09600085.png]]
 
-If the bushing was removed, inspect the housing for scoring and other damage.
+Если втулка была снята, осмотрите кожух на предмет забивания и других повреждений.
 
-Replace the housing, if damaged.
+Замените кожух, если он поврежден.
 
 ![[dp8hssa.png]]
 
-If the bushing was removed, measure the inside diameter of the bushing bore.
+Если втулка была удалена, измерьте внутренний диаметр цилиндра втулки.
 
-| Fuel Pump Drive Bushing Bore Inside Diameter |  |  |
+| Топливный насос Драйв Буширование цилиндра Bore Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 40.26 | MIN | 1.5850 |
-| 40.77 | MAX | 1.6051 |
+| мм |  | в |
+| 40.26 | Мин | 1.5850 |
+| 40.77 | Макс | 1.6051 |
 
-Replace the housing if the bushing bore is **not** within specifications.
+Заменить корпус, если втулочный цилиндр имеет **не** в пределах спецификаций.
 
 ![[09600017.png]]
 
-Inspect the shaft in the gear fit area for fretting or burrs.
+Осмотрите вал в зоне, пригодной для снаряжения, на наличие фреттинга или заусенцев.
 
-Clean burrs with emery cloth.
+Чистые заусеницы с салфеткой.
 
 ![[05600373.png]]
 
-Measure the driveshaft outside diameter.
+Измерьте вал снаружи диаметром.
 
-| Fuel Pump Driveshaft Outside Diameter |  |  |  |
+| Двигательный вал топливного насоса снаружи диаметра |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| (1) | 34.963 | MIN | 1.3765 |
-|  | 34.978 | MAX | 1.3771 |
-| (2) | 43.928 | MIN | 1.7294 |
-|  | 43.940 | MAX | 1.7299 |
-| (3) | 44.370 | MIN | 1.7468 |
-|  | 44.630 | MAX | 1.7571 |
-| (4) | 49.820 | MIN | 1.9614 |
-|  | 49.832 | MAX | 1.9619 |
+|  | мм |  | в |
+| (1) | 34.963 | Мин | 1.3765 |
+|  | 34.978 | Макс | 1.3771 |
+| (2) | 43.928 | Мин | 1.7294 |
+|  | 43.940 | Макс | 1.7299 |
+| (3) | 44.370 | Мин | 1.7468 |
+|  | 44.630 | Макс | 1.7571 |
+| (4) | 49.820 | Мин | 1.9614 |
+|  | 49.832 | Макс | 1.9619 |
 
-If the outside diameter is **not** within specification, the driveshaft **must** be replaced.
+Если внешний диаметр **не** в пределах спецификации, вал привода должен быть заменен.
 
-> [!note] Note · Примечание
-> Dimensions 2 and 3 are on the same section of the driveshaft. Dimension 3 **only** applies in the area adjacent to the shoulder, where the keyway is located.
+> [!note] Примечание
+> Размеры 2 и 3 находятся на одной и той же секции вала привода. Размер 3 применяется только в области, прилегающей к плечу, где расположена клавиша.
 
 ![[05600374.png]]
 
-Check the gear teeth and gear bore for damage.
+Проверьте зубья зубчатой передачи и цилиндр переключения передач на предмет повреждения.
 
-Replace the gear, if damaged.
+Замените шестерню, если она повреждена.
 
 ![[09600057.png]]
 
-Measure the gear inside diameter.
+Измерьте шестерню внутри диаметра.
 
-| Fuel Pump Drive Gear Inside Diameter |  |  |
+| Топливный насос Drive Gear внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 39.73 | MIN | 1.5642 |
-| 39.75 | MAX | 1.5650 |
+| мм |  | в |
+| 39.73 | Мин | 1.5642 |
+| 39.75 | Макс | 1.5650 |
 
-If the gear is **not** within specification, the gear **must** be replaced.
+Если передача **не** в пределах спецификации, то передача должна быть заменена.
 
 ![[dp1geta.png]]
 
-### Assemble
+### Сборка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!danger] WARNING · Опасно
-> Wear protective clothing to reduce the possibility of personal injury from burns.
+> [!danger] ОПАСНО
+> Носите защитную одежду, чтобы уменьшить вероятность получения травм от ожогов.
 
-> [!warning] CAUTION · Осторожно
-> Do not exceed the specified time or temperature. Damage to the gear teeth will result.
+> [!warning] ОСТОРОЖНО
+> Не превышайте заданное время или температуру. Повреждение зубьев зубчатой передачи будет иметь последствия.
 
-If an adequate press is **not** available, an oven can be used.
+Если достаточное нажатие не доступно, можно использовать духовку.
 
-Heat the gear at 235°C \[450°F\] for **not** less than one hour, and **not** more than six hours.
+Нагрейте шестерню при 235 ° C \[450°F\] в течение **не **менее одного часа и **не **более шести часов.
 
 ![[dp8gewa.png]]
 
-> [!danger] WARNING · Опасно
-> Wear protective clothing to reduce the possibility of personal injury from burns.
+> [!danger] ОПАСНО
+> Носите защитную одежду, чтобы уменьшить вероятность получения травм от ожогов.
 
-Support the gear.
+Поддержите передачу.
 
-Slide the shaft into the gear until the shoulder of the shaft touches the gear.
+Сдвиньте вал в шестерню, пока плечо вала не коснется шестерни.
 
 ![[dp6gehb.png]]
 
-If an arbor press is available, support the gear.
+Если имеется пресс-контейнер, поддержите передачу.
 
-Lubricate the shaft with clean engine oil.
+Смазать вал чистым моторным маслом.
 
-Press the shaft through the gear until the shoulder of the shaft touches the gear.
+Нажмите вал через передачу, пока плечо вала не коснется передачи.
 
 ![[dp6geha.png]]
 
-> [!warning] CAUTION · Осторожно
-> If the heat method was used to install the gear, allow the gear to air cool. Do not use water or oil to reduce cooling time. Damage to the gear can result.
+> [!warning] ОСТОРОЖНО
+> Если метод нагрева использовался для установки шестерни, позвольте шестерне охлаждать воздух. Не используйте воду или масло для уменьшения времени охлаждения. Повреждение шестерни может привести к этому.
 
-Use a feeler gauge to measure the distance between the shoulder of the shaft and the gear.
+Используйте калибр для измерения расстояния между плечом вала и передачей.
 
-| Accessory Drive Gear to Shaft Distance |  |  |
+| Привод Gear для виража расстояния |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.05 | MAX | 0.0020 |
+| мм |  | в |
+| 0.05 | Макс | 0.0020 |
 
-If the distance between the gear and the shaft is **not** within specification, press the gear on until the specification is met.
+Если расстояние между шестерней и валом находится **не** в пределах спецификации, нажмите на шестерню до тех пор, пока не будут выполнены технические требования.
 
 ![[dp6geda.png]]
 
-> [!warning] CAUTION · Осторожно
-> The bushings must be pressed in square to the bores of the housing. The thrust faces of the two bushings must be parallel and concentric. The bushing with the center counterbored must have the pressure applied to the counterbore face and not on the thrust bearing face. Failure to comply can result in distortion of the thrust face.
+> [!warning] ОСТОРОЖНО
+> Втулки должны быть прижаты в квадрате к скобкам корпуса. Лица тяги двух втулок должны быть параллельными и концентрическими. Втулка с противоборствующим центром должна иметь давление, приложенное к противоборствующей стороне, а не к подшипниковой поверхности тяги. Несоблюдение может привести к искажению тягового лица.
 
-Support the housing.
+Поддержите корпус.
 
-The bushing with the smaller outside diameter is pressed into the output side.
+Втулка с меньшим внешним диаметром прижимается к выходной стороне.
 
-Using an arbor press and the shaft as a mandrel, press the bushing into the housing.
+Используя пресс-конструкцию беседки и вал в качестве подмандатной, нажмите на втулку в кожух.
 
-Turn the housing over and press the remaining bushing into place.
+Переверните кожух и нажмите оставшийся втулка на место.
 
 ![[09600004.png]]
 
-Lubricate the grooved surface of the thrust bearing with Lubriplate™ 105, Part Number 3163086, 3163087, or equivalent.
+Смазать канавку подшипника тяги с помощью LubriplateTM 105, Part Number 3163086, 3163087 или эквивалента.
 
-Install the gear and shaft assembly into the housing.
+Установите в кожух зубчатую передачу и вал.
 
-Install the clamping washer (1) with the beveled edge up.
+Установите зажимную шайбу (1) с скошенным краем вверх.
 
-Install the pipe plug into the housing.
+Установите трубную пробку в корпус.
 
-Tighten the pipe plug.
+Затяните трубку.
 
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [71 in-lb]
+> [!tip] Момент затяжки
+> 8 Н·м [71 фунт-дюйм]
 
 ![[09600067.png]]
 
-Support the assembly on the gear or the shaft.
+Поддерживайте сборку на шестеренке или валу.
 
-Use an arbor press and a mandrel to press the coupling onto the shaft until it touches the clamping washer.
+Используйте пресс для беседки и подружку, чтобы нажать на сцепление на вал, пока оно не коснется зажимной шайбы.
 
-The clamping washer **must** be positioned tightly between the coupling and the shoulder of the shaft.
+Зажимная шайба **должна** располагаться плотно между сцеплением и плечом вала.
 
 ![[dp8cphc.png]]
 
-The capscrew **must** contain an oil drilling if an air compressor is to be mounted on the engine.
+болты должны содержать бурение масла, если воздушный компрессор должен быть установлен на двигателе.
 
-Install the washer and capscrew.
+Установите шайбу и болты.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 9.525 mm [0.375 in] Capscrew Length 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 9,525 мм [0,375 в] болты Длина 45 Н·м [33 фут-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> 12.7 mm [0.50 in] Capscrew Length 100 n•m [74 ft-lb]
+> [!tip] Момент затяжки
+> 12,7 мм [0,50 дюйма] болты Длина 100 Н·м [74 фут-лб]
 
 ![[dp6drae.png]]
 
-Rotate the driveshaft, checking for correct assembly.
+Вращайте вал, проверяя правильность сборки.
 
-Use a dial indicator to measure the accessory driveshaft end clearance.
+Используйте индикатор циферблата для измерения дополнительного оконечного зазора вала привода.
 
-| Accessory Driveshaft End Clearance |  |  |
+| Дискография Driveshaft End Clearance |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.05 | MIN | 0.0020 |
-| 0.30 | MAX | 0.0118 |
+| мм |  | в |
+| 0.05 | Мин | 0.0020 |
+| 0.30 | Макс | 0.0118 |
 
-If the end clearance is **not** within specifications, make sure the coupling is positioned tightly against the clamping washer.
+Если конечный зазор **не** в пределах спецификаций, убедитесь, что соединение расположено плотно против зажимной шайбы.
 
 ![[dp6drca.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-If the bushings were removed, use the shaft as a mandrel and press one bushing into the housing until the underside of the bushing head is flush with the counterbore in the housing. Turn the housing over and press the remaining bushing into place.
+Если втулки были удалены, используйте вал в качестве подручного и нажмите один втулка в кожух, пока нижняя часть втулки головка не промывается с контрбором в кожух. Переверните кожух и нажмите оставшийся втулка на место.
 
 ![[09600092.png]]
 
-Install the shaft into the housing.
+Установите вал в кожух.
 
 ![[09600096.png]]
 
-> [!danger] WARNING · Опасно
-> Wear protective clothing to reduce the possibility of personal injury from burns.
+> [!danger] ОПАСНО
+> Носите защитную одежду, чтобы уменьшить вероятность получения травм от ожогов.
 
-> [!warning] CAUTION · Осторожно
-> Do not exceed the specified time or temperature. Damage to the gear teeth will result.
+> [!warning] ОСТОРОЖНО
+> Не превышайте заданное время или температуру. Повреждение зубьев зубчатой передачи будет иметь последствия.
 
-If an adequate press is **not** available, an oven can be used.
+Если достаточное нажатие не доступно, можно использовать духовку.
 
-Heat the gear to 204°C \[400°F\] for **not** less than 1 hour, and **not** more than 6 hours.
+Нагрейте снаряжение до 204 ° C \[400°F\] в течение **не **менее 1 часа и **не **более 6 часов.
 
 ![[dp8gewa.png]]
 
-> [!danger] WARNING · Опасно
-> Wear protective clothing to reduce the possibility of personal injury from burns.
+> [!danger] ОПАСНО
+> Носите защитную одежду, чтобы уменьшить вероятность получения травм от ожогов.
 
-Install the key onto the shaft.
+Установите ключ на вал.
 
-Support the shaft and housing.
+Поддерживайте вал и кожух.
 
-Slide the gear onto the shaft until the shoulder of the shaft touches the gear.
+Сдвиньте шестерню на вал, пока плечо вала не коснется шестерни.
 
 ![[09600097.png]]
 
-If an arbor press is available, support the gear.
+Если имеется пресс-контейнер, поддержите передачу.
 
-Install the key onto the shaft.
+Установите ключ на вал.
 
-Lubricate the shaft with clean engine oil.
+Смазать вал чистым моторным маслом.
 
-Press the shaft through the gear until the shoulder of the shaft touches the gear.
+Нажмите вал через передачу, пока плечо вала не коснется передачи.
 
 ![[09600098.png]]
 
-> [!warning] CAUTION · Осторожно
-> If the heat method was used to install the gear, allow the gear to air cool. Do not use water or oil to reduce cooling time. Damage to the gear can result.
+> [!warning] ОСТОРОЖНО
+> Если метод нагрева использовался для установки шестерни, позвольте шестерне охлаждать воздух. Не используйте воду или масло для уменьшения времени охлаждения. Повреждение шестерни может привести к этому.
 
-Use a feeler gauge to measure the distance between the shoulder of the shaft and the gear.
+Используйте калибр для измерения расстояния между плечом вала и передачей.
 
-| Accessory Drive Gear to Shaft Distance |  |  |
+| Привод Gear для виража расстояния |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.05 | MAX | 0.0020 |
+| мм |  | в |
+| 0.05 | Макс | 0.0020 |
 
-If the distance between the gear and the shaft is **not** within specification, press the gear on until the specification is met.
+Если расстояние между шестерней и валом находится **не** в пределах спецификации, нажмите на шестерню до тех пор, пока не будут выполнены технические требования.
 
 ![[09600099.png]]
 
-Install the screen into the housing by pushing the screen in by hand.
+Установите экран в корпус, нажав экран вручную.
 
 ![[09600093.png]]
 
-Install the straight thread o-ring plug.
+Установите прямую резьбу o-кольцевой пробки.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[09600087.png]]
 
-Rotate the driveshaft, checking for correct assembly.
+Вращайте вал, проверяя правильность сборки.
 
-Use a dial indicator to measure the fuel pump driveshaft end clearance.
+Используйте индикатор циферблата для измерения торцевого зазора вала топливного насоса.
 
-| Fuel Pump Driveshaft End Clearance |  |  |
+| Расчистка топливного насоса Driveshaft End |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.13 | MIN | 0.0051 |
-| 0.29 | MAX | 0.0114 |
+| мм |  | в |
+| 0.13 | Мин | 0.0051 |
+| 0.29 | Макс | 0.0114 |
 
-If the end clearance is **not** within specifications, make sure the coupling is positioned tightly against the clamping washer.
+Если конечный зазор **не** в пределах спецификаций, убедитесь, что соединение расположено плотно против зажимной шайбы.
 
 ![[dp6drca.png]]
 
-### Install
+### Установка
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-> [!note] Note · Примечание
-> This procedure also applies to the drive installed on engines that have a governor drive.
+> [!note] Примечание
+> Эта процедура также применяется к приводу, установленному на двигателях, которые имеют привод губернатора.
 
-Use Lubriplate™ to lubricate the bushing in the front gear housing cover.
+Используйте LubriplateTM для смазки втулки в крышке корпуса передней передачи.
 
-> [!note] Note · Примечание
-> Do **not** use sealants on the gasket. The gasket is manufactured from the material that sealants will damage.
+> [!note] Примечание
+> **не** использовать герметики на прокладке. Прокладка изготовлена из материала, который повредят герметики.
 
-Install the gasket (1) onto the pilot of the housing cover.
+Установить прокладку (1) на лоцманскую крышку корпуса.
 
-Install the drive assembly (2), turning the shaft as necessary to engage the gears.
+Установите приводной агрегат (2), поворачивая вал по мере необходимости для приведения в действие шестерен.
 
-Capscrew Specifications:
+Спецификации болтов:
 
 1. M10 X 1.50 X 35
 
-Tighten the capscrews alternately and evenly.
+Затягивайте болты попеременно и равномерно.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[dp6drha.png]]
 
-With the accessory drive installed, measure the end clearance.
+С установленным приводом аксессуара измерьте конечный зазор.
 
-| Fuel Pump Drive End Clearance |  |  |
+| Распределение по расходу топлива |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.05 | MIN | 0.0020 |
-| 0.30 | MAX | 0.0118 |
+| мм |  | в |
+| 0.05 | Мин | 0.0020 |
+| 0.30 | Макс | 0.0118 |
 
 ![[dp6drca.png]]
 
-Install the oil slinger.
+Установите масляный шлепанец.
 
 ![[dp6puha.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-> [!warning] CAUTION · Осторожно
-> Do not use sealants on the gasket. The gasket is manufactured from material that sealants will damage.
+> [!warning] ОСТОРОЖНО
+> Не используйте герметики на прокладке. Прокладка изготовлена из материала, который повредят герметики.
 
-Lubricate the bushing in the front gear housing cover with Lubriplate™ 105.
+Смазать втулку в кожухе передней передачи с помощью LubriplateTM 105.
 
-Install the gasket onto the pilot of the drive housing cover.
+Установите прокладку на пилотную крышку гильзы привода.
 
 ![[09600037.png]]
 
-There is **not** a requirement to align the index on the drive gear with the marks on the camshaft gear on QSK60 engines.
+Существует требование **не** выравнивать индекс на приводной передаче с отметками на распределительной передаче на двигателях QSK60.
 
-Install the fuel pump drive assembly, turning the shaft as necessary to engage the gears.
+Установите сборку привода топливного насоса, поворачивая вал по мере необходимости для приведения в действие шестерен.
 
-Install and tighten the six capscrews.
+Установите и затяните шесть болтов.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[09600083.png]]
 
-With the fuel pump drive installed, measure the end clearance.
+При установке привода топливного насоса измерьте конечный зазор.
 
-| Fuel Pump Drive End Clearance |  |  |
+| Распределение по расходу топлива |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.13 | MIN | 0.0051 |
-| 0.29 | MAX | 0.0114 |
+| мм |  | в |
+| 0.13 | Мин | 0.0051 |
+| 0.29 | Макс | 0.0114 |
 
 ![[dp6drca.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-with Mechanically Actuated Injector
+с форсункой механического управления
 
-- Install the accessory drive seal, if applicable. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
-- Install the accessory drive pulley, if applicable. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
-- Install the accessory drive cover, if applicable. [[56-009-039-tr — Accessory Drive Cover|Refer to Procedure 009-039 in Section 9.]]
-- Install the air compressor. [[56-012-014-tr — Air Compressor|Refer to Procedure 012-014 in Section 12.]]
-- Install the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
-- Fill the cooling system. [[56-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
-- Operate the engine until the coolant temperature reaches 71°C \[160°F\]. Check for coolant leaks.
+- Установите дополнительное уплотнение диска, если это применимо.[[56-001-003-tr — Accessory Drive Seal|См. процедуру 001-003 в разделе 1.]]
+- Установите дополнительный привод шкива, если это применимо.[[56-009-004-tr — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
+- Установите дополнительное покрытие привода, если это применимо.[[56-009-039-tr — Accessory Drive Cover|См. процедуру 009-039 в разделе 9.]]
+- Установите воздушный компрессор.[[56-012-014-tr — Air Compressor|См. процедуру 012-014 в разделе 12.]]
+- Установите топливный насос.[[56-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
+- Заправьте систему охлаждения.[[56-008-018-tr — Cooling System|См. процедуру 008-018 в разделе 8.]]
+- Работайте с двигателем до тех пор, пока температура охлаждающей жидкости не достигнет 71 ° C \[160° F \]. Проверьте на наличие утечек охлаждающей жидкости.
+
+![[ck800wa.png]]
+
+с форсункой электронного управления
+
+- Установите дополнительное уплотнение диска, если это применимо.[[56-001-003-tr — Accessory Drive Seal|См. процедуру 001-003 в разделе 1.]]
+- Установите дополнительный привод шкива, если это применимо.[[56-009-004-tr — Accessory Drive Pulley|См. процедуру 009-004 в разделе 9.]]
+- Установите дополнительное покрытие привода, если это применимо.[[56-009-039-tr — Accessory Drive Cover|См. процедуру 009-039 в разделе 9.]]
+- Установите топливный насос.[[56-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
+- Управляйте двигателем до тех пор, пока температура охлаждающей жидкости не достигнет 71 ° C \[160° F \] и не проверьте наличие утечек.
 
 ![[ck800wa.png]]
 
-with Electronically Actuated Injector
 
-- Install the accessory drive seal, if applicable. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
-- Install the accessory drive pulley, if applicable. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
-- Install the accessory drive cover, if applicable. [[56-009-039-tr — Accessory Drive Cover|Refer to Procedure 009-039 in Section 9.]]
-- Install the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
-- Operate the engine until the coolant temperature reaches 71°C \[160°F\] and check for leaks.
-
-![[ck800wa.png]]
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
+>
+> **WARNING · Опасно**
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
+>
+> **WARNING · Опасно**
+> Depending on the circumstance, diesel fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
+>
+> **Note · Примечание**
+> If an air compressor is **not** mounted on the engine, it will **not** be necessary to drain the cooling system.
+>
+> - Drain the cooling system. [[56-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Remove the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
+> - Remove the air compressor. [[56-012-014-tr — Air Compressor|Refer to Procedure 012-014 in Section 12.]]
+> - Remove the accessory drive pulley. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
+> - Remove the accessory drive cover, if applicable. [[56-009-039-tr — Accessory Drive Cover|Refer to Procedure 009-039 in Section 9.]]
+> - Remove the accessory drive seal, if applicable. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> Depending on the circumstance, diesel fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
+>
+> - Remove the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
+> - Remove the accessory drive pulley. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
+> - Remove the accessory drive cover, if applicable. [[56-009-039-tr — Accessory Drive Cover|Refer to Procedure 009-039 in Section 9.]]
+> - Remove the accessory drive seal, if applicable. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
+>
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> Make sure the Woodruff key has been removed before attempting to remove the fuel pump drive assembly. Damage to the bushing in the front gear housing cover can result if the key is not removed.
+>
+> Remove the oil slinger.
+>
+> Remove the six capscrews from the drive housing flange.
+>
+> Remove the drive and discard the gasket.
+>
+> with Electronically Actuated Injector
+>
+> Remove the six capscrews.
+>
+> Remove the accessory drive assembly.
+>
+> Remove and inspect the gasket.
+>
+> ### Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Use solvent to clean the outer housing of the accessory drive.
+>
+> Use a dial indicator to measure the accessory driveshaft end clearance.
+>
+> | Accessory Driveshaft End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.05 | MIN | 0.0020 |
+> | 0.30 | MAX | 0.0118 |
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Use solvent to clean the outer housing of the accessory drive.
+>
+> Use a dial indicator to measure the fuel pump driveshaft end clearance.
+>
+> | Fuel Pump Driveshaft End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.13 | MIN | 0.0051 |
+> | 0.29 | MAX | 0.0114 |
+>
+> ### Disassemble
+>
+> with Mechanically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> To prevent damage to the shaft, the capscrew must be installed into the drive shaft without the washer.
+>
+> Remove the capscrew and washer.
+>
+> Install the capscrew into the shaft.
+>
+> Use a jaw puller to remove the Lovejoy or spline type coupling.
+>
+> Remove the capscrew from the shaft.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Remove the clamping washer (1).
+>
+> Remove the gear and shaft assembly.
+>
+> Remove the pipe plug from the housing.
+>
+> Use solvent to clean the parts.
+>
+> Measure the inside diameter of the bushings.
+>
+> | Accessory Drive Bushing Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 49.95 | MIN | 1.9665 |
+> | 50.03 | MAX | 1.9697 |
+>
+> If the inside diameter of either bushing is **not** within specification, both bushings **must** be replaced.
+>
+> Check the grooved surfaces of the bushings (1) for damage.
+>
+> Measure the distance from the outside of the thrust faces of the two bushings.
+>
+> | Accessory Drive Bushing Thrust Face Distance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 45.37 | MIN | 1.7862 |
+> | 46.45 | MAX | 1.8287 |
+>
+> If the distance between the two thrust faces is **not** within specification, both bushings **must** be replaced.
+>
+> Remove the flanged bushing from the drive housing using a brass drift (1), taking care **not** to damage the bushing bore.
+>
+> **Only** remove the gear from the shaft when the gear or the shaft **must** be replaced.
+>
+> Use an arbor press to remove the gear.
+>
+> with Electronically Actuated Injector
+>
+> Remove the straight thread o-ring plug from the fuel pump drive.
+>
+> Remove the mesh screen with a small flat tip screwdriver.
+>
+> Use a press to remove the shaft from both the gear and the pump drive housing.
+>
+> Measure the inside diameter of the bushings.
+>
+> | Fuel Pump Drive Bushing Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 33.57 | MIN | 1.3172 |
+> | 33.64 | MAX | 1.3244 |
+>
+> If the inside diameter of either bushing is **not** within specification, both bushings **must** be replaced.
+>
+> Check the grooved surfaces of the bushings (1) for damage.
+>
+> Measure the distance from the outside of the thrust faces of the two bushings.
+>
+> | Fuel Pump Drive Bushing Thrust Face Distance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 45.52 | MIN | 1.7921 |
+> | 45.64 | MAX | 1.7968 |
+>
+> If the distance between the two thrust faces is **not** within specification, both bushings **must** be replaced.
+>
+> Remove the flanged bushing from the drive housing. Use a brass drift (1), taking care **not** to damage the bushing bore.
+>
+> ### Clean and Inspect for Reuse
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the fuel pump drive assembly and inspect it for reuse.
+>
+> Clean the pulley and inspect if for reuse, if applicable.
+>
+> The coupling washer **must** be clamped tightly between the coupling and the shaft. If the washer is **not** tight, rebuild the drive unit.
+>
+> Inspect the shaft in the gear fit area for fretting or burrs.
+>
+> Clean burrs with emery cloth.
+>
+> Measure the shaft outside diameter.
+>
+> | Accessory Driveshaft Outside Diameter |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | (1) | 34.964 | MIN | 1.3765 |
+> |  | 34.976 | MAX | 1.3770 |
+> | (2) | 43.928 | MIN | 1.7294 |
+> |  | 43.940 | MAX | 1.7299 |
+> | (3) | 44.370 | MIN | 1.7468 |
+> |  | 44.630 | MAX | 1.7571 |
+> | (4) | 45.070 | MIN | 1.7744 |
+> |  | 45.082 | MAX | 1.7749 |
+> | (5) | 49.820 | MIN | 1.9614 |
+> |  | 49.832 | MAX | 1.9619 |
+> | (6) | 25.325 | MIN | 0.9970 |
+> |  | 25.375 | MAX | 0.9990 |
+>
+> If the outside diameter is **not** within specification, the shaft **must** be replaced.
+>
+> Check the gear teeth and gear bore for damage.
+>
+> Replace the gear, if damaged.
+>
+> Measure the gear inside diameter.
+>
+> | Accessory Drive Gear Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 44.98 | MIN | 1.7709 |
+> | 45.02 | MAX | 1.7724 |
+>
+> If the gear is **not** within specification, the gear **must** be replaced.
+>
+> Check the inner diameter of the coupling for damage.
+>
+> If damage is found, the coupling **must** be replaced.
+>
+> Measure the inside diameter of the coupling.
+>
+> | Fuel Pump Drive Lovejoy Coupling Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 25.377 | MIN | 0.9991 |
+> | 25.407 | MAX | 1.0003 |
+>
+> | Fuel Pump Drive Spline Coupling Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 25.255 | MIN | 0.9943 |
+> | 25.278 | MAX | 0.9952 |
+>
+> If the inner diameter of the coupling is **not** within specification, the coupling **must** be replaced.
+>
+> If the bushing was removed, inspect the housing for scoring and other damage.
+>
+> Replace the housing if damaged.
+>
+> If the bushing was removed, measure the inside diameter of the bushing bore.
+>
+> | Fuel Drive Drive Bushing Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 60.00 | MIN | 2.3622 |
+> | 60.05 | MAX | 2.3642 |
+>
+> Replace the housing if the bushing bore is **not** within specifications.
+>
+> with Electronically Actuated Injector
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Use solvent to clean the fuel pump drive components.
+>
+> Dry with compressed air.
+>
+> Inspect the screen for cracks or other damage.
+>
+> If any damage is found, the screen **must** be replaced.
+>
+> Check the inner diameter of the shaft spline for damage.
+>
+> If damage is found, the shaft **must** be replaced.
+>
+> Measure the inside diameter of the shaft.
+>
+> | Fuel Pump Drive Spline Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 46.000 | MIN | 1.8110 |
+> | 46.190 | MAX | 1.8185 |
+>
+> If the inner diameter of the shaft is **not** within specification, the shaft **must** be replaced.
+>
+> If the bushing was removed, inspect the housing for scoring and other damage.
+>
+> Replace the housing, if damaged.
+>
+> If the bushing was removed, measure the inside diameter of the bushing bore.
+>
+> | Fuel Pump Drive Bushing Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 40.26 | MIN | 1.5850 |
+> | 40.77 | MAX | 1.6051 |
+>
+> Replace the housing if the bushing bore is **not** within specifications.
+>
+> Inspect the shaft in the gear fit area for fretting or burrs.
+>
+> Clean burrs with emery cloth.
+>
+> Measure the driveshaft outside diameter.
+>
+> | Fuel Pump Driveshaft Outside Diameter |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | (1) | 34.963 | MIN | 1.3765 |
+> |  | 34.978 | MAX | 1.3771 |
+> | (2) | 43.928 | MIN | 1.7294 |
+> |  | 43.940 | MAX | 1.7299 |
+> | (3) | 44.370 | MIN | 1.7468 |
+> |  | 44.630 | MAX | 1.7571 |
+> | (4) | 49.820 | MIN | 1.9614 |
+> |  | 49.832 | MAX | 1.9619 |
+>
+> If the outside diameter is **not** within specification, the driveshaft **must** be replaced.
+>
+> **Note · Примечание**
+> Dimensions 2 and 3 are on the same section of the driveshaft. Dimension 3 **only** applies in the area adjacent to the shoulder, where the keyway is located.
+>
+> Check the gear teeth and gear bore for damage.
+>
+> Replace the gear, if damaged.
+>
+> Measure the gear inside diameter.
+>
+> | Fuel Pump Drive Gear Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 39.73 | MIN | 1.5642 |
+> | 39.75 | MAX | 1.5650 |
+>
+> If the gear is **not** within specification, the gear **must** be replaced.
+>
+> ### Assemble
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> Wear protective clothing to reduce the possibility of personal injury from burns.
+>
+> **CAUTION · Осторожно**
+> Do not exceed the specified time or temperature. Damage to the gear teeth will result.
+>
+> If an adequate press is **not** available, an oven can be used.
+>
+> Heat the gear at 235°C \[450°F\] for **not** less than one hour, and **not** more than six hours.
+>
+> **WARNING · Опасно**
+> Wear protective clothing to reduce the possibility of personal injury from burns.
+>
+> Support the gear.
+>
+> Slide the shaft into the gear until the shoulder of the shaft touches the gear.
+>
+> If an arbor press is available, support the gear.
+>
+> Lubricate the shaft with clean engine oil.
+>
+> Press the shaft through the gear until the shoulder of the shaft touches the gear.
+>
+> **CAUTION · Осторожно**
+> If the heat method was used to install the gear, allow the gear to air cool. Do not use water or oil to reduce cooling time. Damage to the gear can result.
+>
+> Use a feeler gauge to measure the distance between the shoulder of the shaft and the gear.
+>
+> | Accessory Drive Gear to Shaft Distance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.05 | MAX | 0.0020 |
+>
+> If the distance between the gear and the shaft is **not** within specification, press the gear on until the specification is met.
+>
+> **CAUTION · Осторожно**
+> The bushings must be pressed in square to the bores of the housing. The thrust faces of the two bushings must be parallel and concentric. The bushing with the center counterbored must have the pressure applied to the counterbore face and not on the thrust bearing face. Failure to comply can result in distortion of the thrust face.
+>
+> Support the housing.
+>
+> The bushing with the smaller outside diameter is pressed into the output side.
+>
+> Using an arbor press and the shaft as a mandrel, press the bushing into the housing.
+>
+> Turn the housing over and press the remaining bushing into place.
+>
+> Lubricate the grooved surface of the thrust bearing with Lubriplate™ 105, Part Number 3163086, 3163087, or equivalent.
+>
+> Install the gear and shaft assembly into the housing.
+>
+> Install the clamping washer (1) with the beveled edge up.
+>
+> Install the pipe plug into the housing.
+>
+> Tighten the pipe plug.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [71 in-lb]
+>
+> Support the assembly on the gear or the shaft.
+>
+> Use an arbor press and a mandrel to press the coupling onto the shaft until it touches the clamping washer.
+>
+> The clamping washer **must** be positioned tightly between the coupling and the shoulder of the shaft.
+>
+> The capscrew **must** contain an oil drilling if an air compressor is to be mounted on the engine.
+>
+> Install the washer and capscrew.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 9.525 mm [0.375 in] Capscrew Length 45 n•m [33 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> 12.7 mm [0.50 in] Capscrew Length 100 n•m [74 ft-lb]
+>
+> Rotate the driveshaft, checking for correct assembly.
+>
+> Use a dial indicator to measure the accessory driveshaft end clearance.
+>
+> | Accessory Driveshaft End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.05 | MIN | 0.0020 |
+> | 0.30 | MAX | 0.0118 |
+>
+> If the end clearance is **not** within specifications, make sure the coupling is positioned tightly against the clamping washer.
+>
+> with Electronically Actuated Injector
+>
+> If the bushings were removed, use the shaft as a mandrel and press one bushing into the housing until the underside of the bushing head is flush with the counterbore in the housing. Turn the housing over and press the remaining bushing into place.
+>
+> Install the shaft into the housing.
+>
+> **WARNING · Опасно**
+> Wear protective clothing to reduce the possibility of personal injury from burns.
+>
+> **CAUTION · Осторожно**
+> Do not exceed the specified time or temperature. Damage to the gear teeth will result.
+>
+> If an adequate press is **not** available, an oven can be used.
+>
+> Heat the gear to 204°C \[400°F\] for **not** less than 1 hour, and **not** more than 6 hours.
+>
+> **WARNING · Опасно**
+> Wear protective clothing to reduce the possibility of personal injury from burns.
+>
+> Install the key onto the shaft.
+>
+> Support the shaft and housing.
+>
+> Slide the gear onto the shaft until the shoulder of the shaft touches the gear.
+>
+> If an arbor press is available, support the gear.
+>
+> Install the key onto the shaft.
+>
+> Lubricate the shaft with clean engine oil.
+>
+> Press the shaft through the gear until the shoulder of the shaft touches the gear.
+>
+> **CAUTION · Осторожно**
+> If the heat method was used to install the gear, allow the gear to air cool. Do not use water or oil to reduce cooling time. Damage to the gear can result.
+>
+> Use a feeler gauge to measure the distance between the shoulder of the shaft and the gear.
+>
+> | Accessory Drive Gear to Shaft Distance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.05 | MAX | 0.0020 |
+>
+> If the distance between the gear and the shaft is **not** within specification, press the gear on until the specification is met.
+>
+> Install the screen into the housing by pushing the screen in by hand.
+>
+> Install the straight thread o-ring plug.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Rotate the driveshaft, checking for correct assembly.
+>
+> Use a dial indicator to measure the fuel pump driveshaft end clearance.
+>
+> | Fuel Pump Driveshaft End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.13 | MIN | 0.0051 |
+> | 0.29 | MAX | 0.0114 |
+>
+> If the end clearance is **not** within specifications, make sure the coupling is positioned tightly against the clamping washer.
+>
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> **Note · Примечание**
+> This procedure also applies to the drive installed on engines that have a governor drive.
+>
+> Use Lubriplate™ to lubricate the bushing in the front gear housing cover.
+>
+> **Note · Примечание**
+> Do **not** use sealants on the gasket. The gasket is manufactured from the material that sealants will damage.
+>
+> Install the gasket (1) onto the pilot of the housing cover.
+>
+> Install the drive assembly (2), turning the shaft as necessary to engage the gears.
+>
+> Capscrew Specifications:
+>
+> 1. M10 X 1.50 X 35
+>
+> Tighten the capscrews alternately and evenly.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> With the accessory drive installed, measure the end clearance.
+>
+> | Fuel Pump Drive End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.05 | MIN | 0.0020 |
+> | 0.30 | MAX | 0.0118 |
+>
+> Install the oil slinger.
+>
+> with Electronically Actuated Injector
+>
+> **CAUTION · Осторожно**
+> Do not use sealants on the gasket. The gasket is manufactured from material that sealants will damage.
+>
+> Lubricate the bushing in the front gear housing cover with Lubriplate™ 105.
+>
+> Install the gasket onto the pilot of the drive housing cover.
+>
+> There is **not** a requirement to align the index on the drive gear with the marks on the camshaft gear on QSK60 engines.
+>
+> Install the fuel pump drive assembly, turning the shaft as necessary to engage the gears.
+>
+> Install and tighten the six capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> With the fuel pump drive installed, measure the end clearance.
+>
+> | Fuel Pump Drive End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.13 | MIN | 0.0051 |
+> | 0.29 | MAX | 0.0114 |
+>
+> ### Finishing Steps
+>
+> with Mechanically Actuated Injector
+>
+> - Install the accessory drive seal, if applicable. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
+> - Install the accessory drive pulley, if applicable. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
+> - Install the accessory drive cover, if applicable. [[56-009-039-tr — Accessory Drive Cover|Refer to Procedure 009-039 in Section 9.]]
+> - Install the air compressor. [[56-012-014-tr — Air Compressor|Refer to Procedure 012-014 in Section 12.]]
+> - Install the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
+> - Fill the cooling system. [[56-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]
+> - Operate the engine until the coolant temperature reaches 71°C \[160°F\]. Check for coolant leaks.
+>
+> with Electronically Actuated Injector
+>
+> - Install the accessory drive seal, if applicable. [[56-001-003-tr — Accessory Drive Seal|Refer to Procedure 001-003 in Section 1.]]
+> - Install the accessory drive pulley, if applicable. [[56-009-004-tr — Accessory Drive Pulley|Refer to Procedure 009-004 in Section 9.]]
+> - Install the accessory drive cover, if applicable. [[56-009-039-tr — Accessory Drive Cover|Refer to Procedure 009-039 in Section 9.]]
+> - Install the fuel pump. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
+> - Operate the engine until the coolant temperature reaches 71°C \[160°F\] and check for leaks.

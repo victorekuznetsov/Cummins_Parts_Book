@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666251"
   - "3666423"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-018-016.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-018-016.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Fuel System
@@ -34,30 +36,68 @@ tags:
 > **Даты:** изменён 2010-02-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-018-016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-018-016.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive with CM870
 
-#### Maximum Allowable Restriction to Pump With or Without Fuel Cooler:
+### Спецификации
 
-With Clean Filter 203 mm Hg \[8 in Hg\]With Dirty Filter 305 mm Hg \[12 in Hg\]
+Автомобильный с CM870
 
-| Maximum Allowable Fuel Return Line RestrictionMinimum Allowable Fuel Tank Vent CapabilityMaximum Allowable Fuel Inlet TemperatureFuel Shutoff Solenoid ResistanceMaximum Allowable Pressure Drop Across Pressure Fuel Filter | 229 mm Hg \[9 in Hg\] 2.0 m 3 /hr \[70 ft 3 /hr\] 71°C \[160°F\] 6 to 10 ohms 517 kPa \[75 psi\] |
+#### Максимальное допустимое ограничение накачки с охладителями топлива или без них:
+
+С чистым фильтром 203 мм рт. ст. [8 в рт. ст.] с грязным фильтром 305 мм рт. ст. [12 в рт. ст.]
+
+| Максимально допустимое ограничение линии возврата топлива Минимальная допустимая емкость топливных баков Максимальная допустимая температура впуска топлива Отключение соленоидного сопротивленияМаксимальное допустимое давление Спад через фильтр топлива под давлением | 229 мм Hg \[9 в Hg\] 2,0 м 3/ч \[70 футов 3/ч\] 71°C \[160°F\] 6-10 ом 517 кПа \[75 psi\] |
 |---|---|
 
-Automotive, Industrial with CM570 and Power Generation without CM570
+Автомобильная и промышленная модель с CM570 и силовой установкой без CM570
 
-#### Maximum Allowable Fuel Return Line Restriction
+#### Максимально допустимое ограничение линии возврата топлива
 
-With Check Valve 165 mm Hg \[6.5 in Hg\]Without Check Valve 229 mm Hg \[9 in Hg\]
+С Check клапан 165 мм рт. ст. \[6,5 в рт. ст. \] Без Check клапан 229 мм рт. ст. \[9 в рт. ст. \]
 
-| Minimum Allowable Fuel Tank Vent CapabilityMaximum Allowable Fuel Inlet TemperatureFuel Shutoff Solenoid Resistance | 2.0 m 3 /hr \[70 ft 3 /hr\] 71°C \[160°F\] 6 to 10 ohms |
+| Минимальная допустимая емкость топливных баков Максимальная допустимая температура впуска топлива Отключение топлива Соленоидное сопротивление | 2,0 м 3 / ч \[70 футов 3 / ч \] 71 ° C \[160°F \] 6-10 Ом |
 |---|---|
 
-#### Maximum Allowable Inlet Restriction at the IFSM - high idle, no load:
+#### Максимальное допустимое ограничение входа в IFSM - высокий холостой ход, без нагрузки:
 
-Upper Location 355 mm Hg \[14 in Hg\]Lower Location 305 mm Hg \[12 in Hg\]
+Верхнее расположение 355 мм рт. ст. \[14 в рт. ст. \] Нижнее расположение 305 мм рт. ст. \[12 в рт. ст. \]
 
-#### Maximum Allowable Inlet Restriction at OEM Fuel Inlet:
+#### Максимальное допустимое ограничение входа на входе OEM-топлива:
 
-Without Remote Mount Filter 76 mm Hg \[3 in Hg\]With Remote Mount Filter 254 mm Hg \[10 in Hg\]
+Без дистанционного фильтра для горных пород 76 мм рт. ст. [3 в рт. ст.] С дистанционным фильтром для горных пород 254 мм рт. ст. [10 в рт. ст.]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> Automotive with CM870
+>
+> #### Maximum Allowable Restriction to Pump With or Without Fuel Cooler:
+>
+> With Clean Filter 203 mm Hg \[8 in Hg\]With Dirty Filter 305 mm Hg \[12 in Hg\]
+>
+> | Maximum Allowable Fuel Return Line RestrictionMinimum Allowable Fuel Tank Vent CapabilityMaximum Allowable Fuel Inlet TemperatureFuel Shutoff Solenoid ResistanceMaximum Allowable Pressure Drop Across Pressure Fuel Filter | 229 mm Hg \[9 in Hg\] 2.0 m 3 /hr \[70 ft 3 /hr\] 71°C \[160°F\] 6 to 10 ohms 517 kPa \[75 psi\] |
+> |---|---|
+>
+> Automotive, Industrial with CM570 and Power Generation without CM570
+>
+> #### Maximum Allowable Fuel Return Line Restriction
+>
+> With Check Valve 165 mm Hg \[6.5 in Hg\]Without Check Valve 229 mm Hg \[9 in Hg\]
+>
+> | Minimum Allowable Fuel Tank Vent CapabilityMaximum Allowable Fuel Inlet TemperatureFuel Shutoff Solenoid Resistance | 2.0 m 3 /hr \[70 ft 3 /hr\] 71°C \[160°F\] 6 to 10 ohms |
+> |---|---|
+>
+> #### Maximum Allowable Inlet Restriction at the IFSM - high idle, no load:
+>
+> Upper Location 355 mm Hg \[14 in Hg\]Lower Location 305 mm Hg \[12 in Hg\]
+>
+> #### Maximum Allowable Inlet Restriction at OEM Fuel Inlet:
+>
+> Without Remote Mount Filter 76 mm Hg \[3 in Hg\]With Remote Mount Filter 254 mm Hg \[10 in Hg\]

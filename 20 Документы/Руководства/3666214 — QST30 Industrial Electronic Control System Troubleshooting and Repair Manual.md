@@ -33,9 +33,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-toc | table of contents |  |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-titlepage | titlepage | 18-Mar-2003 |
-| tr-frwd | foreword | 22-May-2006 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-toc.html) | table of contents |  |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-titlepage.html) | titlepage | 18-Mar-2003 |
+| [tr-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/tr-frwd.html) | foreword | 22-May-2006 |
 
 ### Section i - Introduction
 
@@ -124,30 +124,30 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t066-tr | Engine Speed Surges at Low or High Idle | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t067-tr | Engine Speed Surges Under Load or in Operating Range | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t072-tr | Engine Starts But Will Not Keep Running | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t080-tr | Engine Will Not Reach Rated Speed (RPM) | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t081-tr | Engine Will Not Shut Off | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t083-tr | Fault Code Warning Lamps Stay On (No Apparent Reason) | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t084-tr | Fault Code Warning Lamps Do Not Illuminate | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t087-tr | Fuel Consumption Excessive | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t099-tr | Low Idle Adjust Switch Does Not Work | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t116-tr | Smoke, Black-Excessive | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t118-tr | Smoke, White-Excessive | 05-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t033-tr | Engine Acceleration or Response Poor | 06-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t041-tr | Engine Decelerates Slowly | 06-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t043-tr | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 06-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t059-tr | Engine Runs on One Bank Only | 06-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t061-tr | Engine Runs Rough at Idle | 06-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t062-tr | Engine Runs Rough or Misfires | 06-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t064-tr | Engine Shuts Off Unexpectedly or Dies During Deceleration | 06-Feb-2004 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t057-tr | Engine Power Output Low | 13-Feb-2008 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t066-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t066-tr.html) | Engine Speed Surges at Low or High Idle | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t067-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t067-tr.html) | Engine Speed Surges Under Load or in Operating Range | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t072-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t072-tr.html) | Engine Starts But Will Not Keep Running | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t080-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t080-tr.html) | Engine Will Not Reach Rated Speed (RPM) | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t081-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t081-tr.html) | Engine Will Not Shut Off | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t083-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t083-tr.html) | Fault Code Warning Lamps Stay On (No Apparent Reason) | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t084-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t084-tr.html) | Fault Code Warning Lamps Do Not Illuminate | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t087-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t087-tr.html) | Fuel Consumption Excessive | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t099-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t099-tr.html) | Low Idle Adjust Switch Does Not Work | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t116-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t116-tr.html) | Smoke, Black-Excessive | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t118-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t118-tr.html) | Smoke, White-Excessive | 05-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t033-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t033-tr.html) | Engine Acceleration or Response Poor | 06-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t041-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t041-tr.html) | Engine Decelerates Slowly | 06-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t043-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t043-tr.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 06-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t059-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t059-tr.html) | Engine Runs on One Bank Only | 06-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t061-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t061-tr.html) | Engine Runs Rough at Idle | 06-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t062-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t062-tr.html) | Engine Runs Rough or Misfires | 06-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t064-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t064-tr.html) | Engine Shuts Off Unexpectedly or Dies During Deceleration | 06-Feb-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t057-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t057-tr.html) | Engine Power Output Low | 13-Feb-2008 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t044-tr | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 11-Dec-2009 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t016-tr | Communication Error - Electronic Service Tool or Control Device | 23-Jun-2010 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t092-5-tr | Fuel Leak - External | 11-Jul-2025 |
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t016-tr | Communication Error - Electronic Service Tool or Control Device | 26-Aug-2025 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t044-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t044-tr.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 11-Dec-2009 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t016-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t016-tr.html) | Communication Error - Electronic Service Tool or Control Device | 23-Jun-2010 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t092-5-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t092-5-tr.html) | Fuel Leak - External | 11-Jul-2025 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-t016-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-t016-tr.html) | Communication Error - Electronic Service Tool or Control Device | 26-Aug-2025 |
 
 ### Section F - Familiarization
 
@@ -282,7 +282,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-backcover | Backcover | 09-Aug-2004 |
+| [[[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666214/3666214-backcover.html) | Backcover | 09-Aug-2004 |
 
 ### Section TT - Troubleshooting Symptoms (New Format)
 

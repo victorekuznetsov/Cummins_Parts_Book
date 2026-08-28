@@ -24,12 +24,14 @@ parts:
   - "4016948"
   - "4065666"
   - "4066547"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100708.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100708.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Pump Rebuild Parts Announcement
@@ -40,47 +42,55 @@ tags:
 > **Даты:** изменён 2014-04-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100708.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100708.pdf)
 
-## Lubricating Oil Pump Rebuild Parts Announcement
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Объявление о восстановлении смазочных масел
 
-### Contents
+### Положение о гарантии
 
-This Parts Announcement supersedes 02T7-8, please replace 02T7-8 with this topic. This parts announcement provides tables listing the common parts used to rebuild the lubricating oil pump for the QSK45 and QSK60 series engines. If a pump does **not** have a pressure relief valve, it is recommended that the pump be replaced with one that has an integrated high pressure relief valve. Part numbers and engine serial number (ESN) first are in Table 3 below.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-| **Table 1, QSK45 and QSK60 Lubricating Oil Pump Rebuild Kit** |  |  |
+### Содержание
+
+Данное объявление заменяет 02T7-8, пожалуйста, замените 02T7-8 на эту тему. В этом объявлении о запчастях приводятся таблицы, в которых перечислены общие детали, используемые для восстановления насоса для моторного масла для двигателей серии QSK45 и QSK60. Если насос **не** имеет клапан для сброса давления, рекомендуется заменить насос на такой, который имеет встроенный клапан для сброса высокого давления. Номера деталей и серийный номер двигателя (ESN) указаны в таблице 3 ниже.
+
+| **Таблица 1, QSK45 и QSK60 Набор для восстановления насосов для моторного масла** |  |  |
 |---|---|---|
-| Part Number | Description | Quantity |
-| [[4066547]] | Idler shaft kit | 1 |
-| [[4016829]] | Ball bearing | 1 |
-| [[4016842]] | Suction head to housing gasket | 1 |
-| [[3900631]] | Capscrew M8 | 3 |
-| [[3901249]] | Capscrew M12 | 1 |
-| [[4065666]] | High pressure relief valve spring | 1 |
-| [[3635142]] | Pressure regulator spring | 1 |
-| [[4016948]] | Poppet spacer | 1 |
-| [[4016827]] | Snap ring | 1 |
-| [[3635141]] | Pressure regulator valve | 1 |
+| Номер детали | Наименование | Количество |
+| [[4066547]] | Вазовая установка Idler | 1 |
+| [[4016829]] | Шарикоподшипник | 1 |
+| [[4016842]] | Отсасывающий шлем к прокладке гильзы | 1 |
+| [[3900631]] | болты М8 | 3 |
+| [[3901249]] | болты М12 | 1 |
+| [[4065666]] | 4.1.1.1.4 Спиральная клапанная пружина высокого давления | 1 |
+| [[3635142]] | Пружина регулятора давления | 1 |
+| [[4016948]] | Поппет Спейсер | 1 |
+| [[4016827]] | Кольцо скачка | 1 |
+| [[3635141]] | Клапан-регулятор давления | 1 |
 
-| **Table 2, Items used with QSK45 and QSK60 Lubricating Oil Pump Rebuild Kit, Purchased Separately** |  |  |
+| **Таблица 2, Предметы, используемые с комплектом для восстановления насосов для моторного масла QSK45 и QSK60, приобретенные отдельно** |  |  |
 |---|---|---|
-| Part Number | Description | Quantity |
-| 4016659 | Discharge tube | 1 |
-| [[3089886]] | Rectangular seal | 2 |
-| [[3089891]] | Rectangular seal | 1 |
-| [[4016660]]\* | Shim, 0.13 mm \[0.005 in\] | 2 |
-| [[4016661]]\* | Shim, 0.25 mm \[0.010 in\] | 2 |
-| \* Shims to be used **only** when the pump housing is to be replaced. |  |  |
+| Номер детали | Наименование | Количество |
+| 4016659 | Разрядная труба | 1 |
+| [[3089886]] | Прямоугольная уплотнение | 2 |
+| [[3089891]] | Прямоугольная уплотнение | 1 |
+| [[4016660]]\* | Шим, 0,13 мм \[0,005 in\] | 2 |
+| [[4016661]]\* | Шим, 0,25 мм \[0,010 в\] | 2 |
+| Шимс должен использоваться только, когда корпус насоса должен быть заменен. |  |  |
 
-| **Table 3, New Part Number for Lubricating Oil Pump with High Pressure Relief Valve** |  |  |  |
+| **Таблица 3, новый номер детали для насоса для моторного масла с клапаном для сброса высокого давления** |  |  |  |
 |---|---|---|---|
-| Engine | Old Part Number | New Part Number | ESN First |
+| Двигатель | Прежний номер детали | Новый номер детали | ESN First |
 | QSK45 | 4100710 | 3638986 | 33164296 |
 | QSK60 | 4100711 | 3638987 | 33164290 |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -100,3 +110,46 @@ This Parts Announcement supersedes 02T7-8, please replace 02T7-8 with this topic
 | [[4016948]] | Mounting Spacer | Монтажная распорная втулка |
 | [[4065666]] | Compression Spring | Пружина сжатия |
 | [[4066547]] | Lubricating Pump Idler Kit | Комплект промежуточной шестерни масляного насоса |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Lubricating Oil Pump Rebuild Parts Announcement
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Parts Announcement supersedes 02T7-8, please replace 02T7-8 with this topic. This parts announcement provides tables listing the common parts used to rebuild the lubricating oil pump for the QSK45 and QSK60 series engines. If a pump does **not** have a pressure relief valve, it is recommended that the pump be replaced with one that has an integrated high pressure relief valve. Part numbers and engine serial number (ESN) first are in Table 3 below.
+>
+> | **Table 1, QSK45 and QSK60 Lubricating Oil Pump Rebuild Kit** |  |  |
+> |---|---|---|
+> | Part Number | Description | Quantity |
+> | [[4066547]] | Idler shaft kit | 1 |
+> | [[4016829]] | Ball bearing | 1 |
+> | [[4016842]] | Suction head to housing gasket | 1 |
+> | [[3900631]] | Capscrew M8 | 3 |
+> | [[3901249]] | Capscrew M12 | 1 |
+> | [[4065666]] | High pressure relief valve spring | 1 |
+> | [[3635142]] | Pressure regulator spring | 1 |
+> | [[4016948]] | Poppet spacer | 1 |
+> | [[4016827]] | Snap ring | 1 |
+> | [[3635141]] | Pressure regulator valve | 1 |
+>
+> | **Table 2, Items used with QSK45 and QSK60 Lubricating Oil Pump Rebuild Kit, Purchased Separately** |  |  |
+> |---|---|---|
+> | Part Number | Description | Quantity |
+> | 4016659 | Discharge tube | 1 |
+> | [[3089886]] | Rectangular seal | 2 |
+> | [[3089891]] | Rectangular seal | 1 |
+> | [[4016660]]\* | Shim, 0.13 mm \[0.005 in\] | 2 |
+> | [[4016661]]\* | Shim, 0.25 mm \[0.010 in\] | 2 |
+> | \* Shims to be used **only** when the pump housing is to be replaced. |  |  |
+>
+> | **Table 3, New Part Number for Lubricating Oil Pump with High Pressure Relief Valve** |  |  |  |
+> |---|---|---|---|
+> | Engine | Old Part Number | New Part Number | ESN First |
+> | QSK45 | 4100710 | 3638986 | 33164296 |
+> | QSK60 | 4100711 | 3638987 | 33164290 |
+>
+> ### Document History

@@ -11,12 +11,14 @@ families:
   - "QSK60"
 parts:
   - "3647133"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120120.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120120.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New QSK45 and QSK60 Low Temperature Aftercooler (LTA) Circuit T-Piece Connection
@@ -27,20 +29,41 @@ tags:
 > **Даты:** изменён 2012-04-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120120.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120120.pdf)
 
-## New QSK45 and QSK60 Low Temperature Aftercooler (LTA) Circuit T-Piece Connection
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый низкотемпературный охладитель QSK45 и QSK60 (LTA) с цепью T-Piece
 
-### Contents
+### Положение о гарантии
 
-This document announces the release of a new Low Temperature Aftercooler (LTA) circuit T-piece connection, Part Number [[3647133]]. This new part is a fully cast component that replaces the previous fabricated T-piece connection, Part Number 3332158. This T-piece connection is used to connect the LTA pump to the radiator piping. The ESN first for the new Low Temperature Aftercooler (LTA) circuit T-piece connection is 33192732.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-### Document History
+### Содержание
+
+В этом документе анонсирован выпуск нового низкотемпературного охладителя (LTA) цепи T-образного соединения, номер детали[[3647133]]. Эта новая деталь является полностью литым компонентом, который заменяет предыдущее изготовленное соединение T-образного элемента, номер детали 3332158. Это соединение T-образного элемента используется для подключения насоса LTA к трубопроводу радиатора. ESN первым для нового низкотемпературного охладителя (LTA) цепь T-образного соединения 33192732.
+
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3647133]] | WATER INLET CONNECTION | Патрубок подвода воды |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New QSK45 and QSK60 Low Temperature Aftercooler (LTA) Circuit T-Piece Connection
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document announces the release of a new Low Temperature Aftercooler (LTA) circuit T-piece connection, Part Number [[3647133]]. This new part is a fully cast component that replaces the previous fabricated T-piece connection, Part Number 3332158. This T-piece connection is used to connect the LTA pump to the radiator piping. The ESN first for the new Low Temperature Aftercooler (LTA) circuit T-piece connection is 33192732.
+>
+> ### Document History

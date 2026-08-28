@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 20
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-013-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-013-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Filter (Spin-On)
@@ -35,206 +37,380 @@ tags:
 > **Даты:** изменён 2013-06-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-013-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-013-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+### Снятие
 
-The QSK45 engine has three combination oil filters and the QSK60 has four combination oil filters.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-Use an oil filter wrench, Part Number 3375049 or equivalent, to remove the oil filters.
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Discard the filters if **not** required for failure analysis.
+Двигатель QSK45 имеет три комбинированных масляных фильтра, а QSK60 имеет четыре комбинированных масляных фильтра.
+
+Используйте гаечный ключ масляного фильтра, часть 3375049 или эквивалент, чтобы удалить масляные фильтры.
+
+Откажитесь от фильтров, если **не** требуется для анализа отказов.
 
 ![[07600230.png]]
 
-Some QSK60 Power Generation engines have an oil by-pass line from the PRELUB™ to the fuel pump acccessory drive with a small oil filter installed.
+Некоторые двигатели QSK60 Power Generation имеют линию обхода масла от PRELUBTM до аккуссионного привода топливного насоса с установленным небольшим масляным фильтром.
 
-Use an oil wrench, Part Number 3400158 or equivalent, to remove the oil filter, if applicable.
+Используйте масляный ключ, часть 3400158 или эквивалент, чтобы удалить масляный фильтр, если это применимо.
 
-Discard the filter if **not** required for failure analysis.
+Откажитесь от фильтра, если **не** требуется для анализа отказов.
 
 ![[07500014.png]]
 
-### Inspect
+### Осмотр
 
-> [!danger] WARNING · Опасно
-> Carefully cut the combination oil filter open. The filter element spring is under compression and can cause personal injury.
+> [!danger] ОПАСНО
+> Тщательно разрежьте фильтр масла. Фильтрующий элемент пружины находится под сжатием и может нанести личную травму.
 
-Use tube cutter, Part Number 3376579, to open the full-flow oil filter.
+Используйте трубчатый резак, номер детали 3376579, чтобы открыть фильтр для масла полного потока.
 
-Inspect the filter element for evidence of moisture and metal particles.
+Проверить фильтрующий элемент на наличие влаги и металлических частиц.
 
-If metallic debris is found, the lube pump idler shaft and gear **must** be carefully inspected for damage. [[56-007-031-tr — Lubricating Oil Pump|Refer to Procedure 007-031 in Section 7.]]
+Если металлический мусор обнаружен, то смазочный вал насоса и снаряжение должны быть тщательно проверены на предмет повреждения.[[56-007-031-tr — Lubricating Oil Pump|См. процедуру 007-031 в разделе 7.]]
 
-| Metal | Probable Source |
+| металл | Вероятный источник |
 |---|---|
-| Copper | Bearings and bushings |
-| Chromium | Piston rings |
-| Iron | Cylinder liners, gears, and camshafts |
-| Lead | Bearing overlay material |
-| Aluminum | Piston skirts, camshaft bushings, crankshaft thrust bearings, and aluminum aftercoolers |
+| медь | Подшипники и втулки |
+| Хром | Поршневые кольца |
+| железо | Линейки цилиндров, шестерни и распределительные валы |
+| Ведущий | Накладной материал |
+| алюминий | Поршневые юбки, втулки распределительных валов, подшипники тяги коленчатого вала и алюминиевые охладители |
 
 ![[lf8etka.png]]
 
-### Install
+### Установка
 
-Clean the oil filter head sealing surface with a lint free cloth.
+Очистите масляный фильтр головки уплотнительной поверхности с помощью свободной от вязания ткани.
 
 ![[07600259.png]]
 
-The QSK45 engine has three combination oil filters and the QSK60 engine has four combination oil filters.
+Двигатель QSK45 имеет три комбинированных масляных фильтра, а двигатель QSK60 имеет четыре комбинированных масляных фильтра.
 
-Use engine oil to lubricate the oil filters' rubber seals.
+Используйте моторное масло для смазки резиновых уплотнений масляных фильтров.
 
-Fill the oil filters with clean engine oil.
+Заполните масляные фильтры чистым моторным маслом.
 
 ![[lf8etwb.png]]
 
-> [!warning] CAUTION · Осторожно
-> Mechanical overtightening can distort the threads or damage the filter element seal. If the threads appear damaged, replace the oil filter head adapter.
+> [!warning] ОСТОРОЖНО
+> Механическое затяжение может исказить резьбу или повредить уплотнение фильтрующего элемента. Если резьба кажется поврежденной, замените масляный фильтр головным адаптером.
 
-> [!warning] CAUTION · Осторожно
-> Locate the oil filter wrench, Part Number 3400158, near the top of the oil filter canister. This will reduce the possibility of damaging the oil filter.
+> [!warning] ОСТОРОЖНО
+> Найдите гаечный ключ масляного фильтра, номер детали 3400158, рядом с верхней частью канистра масляного фильтра. Это уменьшит возможность повреждения масляного фильтра.
 
-Install the oil filter. Turn it until the seal contacts the filter head sealing surface.
+Установите масляный фильтр. Поверните его, пока уплотнение не соприкоснется с поверхностью уплотнения головки фильтра.
 
-Turn the oil filter an additional 3/4 to 1 turn.
+Поверните масляный фильтр дополнительно от 3/4 до 1 поворота.
 
 ![[07600230.png]]
 
-Install and tighten the drain plug.
+Установите и затяните сливную пробку.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[07600258.png]]
 
-Some QSK60 Power Generation engines have an oil by-pass line from the PRELUBTM to the fuel pump accessory drive with a small oil filter installed.
+Некоторые двигатели QSK60 Power Generation имеют линию обхода масла от PRELUBTM до привода аксессуара топливного насоса с установленным небольшим масляным фильтром.
 
-Use engine oil to lubricate the oil filter's rubber seal.
+Используйте моторное масло для смазки резинового уплотнения масляного фильтра.
 
-Fill the oil filter with clean engine oil.
+Заполните масляный фильтр чистым моторным маслом.
 
 ![[lf8etwb.png]]
 
-> [!warning] CAUTION · Осторожно
-> Mechanical overtightening can distort the threads or damage the filter element seal. If the threads appear damaged, replace the oil filter head adapter.
+> [!warning] ОСТОРОЖНО
+> Механическое затяжение может исказить резьбу или повредить уплотнение фильтрующего элемента. Если резьба кажется поврежденной, замените масляный фильтр головным адаптером.
 
-> [!warning] CAUTION · Осторожно
-> Locate the oil filter wrench, Part Number 3400158, near the top of the oil filter canister. This will reduce the possibility of damaging the oil filter.
+> [!warning] ОСТОРОЖНО
+> Найдите гаечный ключ масляного фильтра, номер детали 3400158, рядом с верхней частью канистра масляного фильтра. Это уменьшит возможность повреждения масляного фильтра.
 
-Install the oil filter, turning it until the seal contacts the filter head's sealing surface.
+Установите масляный фильтр, поворачивая его до тех пор, пока уплотнение не соприкоснется с уплотнительной поверхностью головки фильтра.
 
-Turn the oil filter an additional 3/4 to 1 full turn.
+Поверните масляный фильтр еще на 3/4 до 1 полного оборота.
 
 ![[07500014.png]]
 
-### Pressure Differential Test
+### Дифференциальный тест давления
 
 Spin-on Type
 
-This test will indicate oil pressure before and after the oil flows through the filters.
+Это испытание будет указывать давление масла до и после того, как масло проходит через фильтры.
 
-Use a differential pressure gauge or one pressure gauge with two oil hoses and two valves to eliminate gauge error. Use a gauge with a minimum pressure capacity of 1400 kPa \[200 psi\].
+Используйте дифференциальный калибр давления или один калибр давления с двумя масляными шлангами и двумя клапанами для устранения ошибки калибра. Используйте калибр с минимальной мощностью давления 1400 кПа[200 psi].
 
-Make sure the engine is switched off.
+Убедитесь, что двигатель выключен.
 
 ![[07600291.png]]
 
-Remove the M14 hex plug (7) from the outlet end of the oil filter head (10) and install end 7 of the valve assembly in the port of the filter head from where the hex plug (7) has been removed.
+Удалите штепсель M14 (7) из выпускного конца головки (10) масляного фильтра и установите конец 7 клапанного узла в порту головки фильтра, откуда была удалена штепсель (7).
 
-This reading will indicate the oil pressure after the oil flows through the filters.
+Это показание будет указывать на давление масла после того, как масло течет через фильтры.
 
-Remove the hex plug (18) from the oil pump inlet end of the filter head (10) and install end 6 of the valve assembly oil hose into where the second hex plug (18) has been removed.
+Удалите шестую пробку (18) из впускного конца масляного насоса головки (10) фильтра и установите конец 6 клапанного шланга для масла в том месте, где была удалена вторая шестнадцатеричная пробка (18).
 
-This reading will indicate the oil pressure before the oil flows through the filters.
+Это показание будет указывать на давление масла до того, как масло прольется через фильтры.
 
 ![[07600525.png]]
 
-Operate the engine at rated rpm until the engine oil reaches its normal operating temperature. Continue to operate the engine at rated rpm for the duration of the pressure test.
+Работайте с двигателем при номинальной оборотной массе, пока моторное масло не достигнет нормальной рабочей температуры. Продолжайте эксплуатировать двигатель при номинальной оборотной мощности в течение всего периода испытания на давление.
 
 ![[oi400la.png]]
 
-Close valve (7) and open valve (6) to read the oil pressure before the filters.
+Закройте клапан (7) и открытый клапан (6) для считывания давления масла перед фильтрами.
 
-Close valve (6) and open valve (7) to read the oil pressure after the filters.
+Закройте клапан (6) и открытый клапан (7) для считывания давления масла после фильтров.
 
-If the difference in pressure is more than the maximum allowable value, an oil filter with excessive restriction is being used. Replace the filters and check the pressure differential again.
+Если разница в давлении превышает максимально допустимое значение, используется масляный фильтр с чрезмерным ограничением. Замените фильтры и проверьте перепад давления снова.
 
-| **Measurements** |  |  |  |
+| **Измерения** |  |  |  |
 |---|---|---|---|
-|  | kpa | psi |  |
-| Maximum Oil Filter Pressure Differential | New/clean oil filters | 83 | 12 |
-|  | Used oil filters | 240 | 35 |
+|  | каша | пси |  |
+| Максимальный дифференциал давления фильтра масла | Новые/чистые масляные фильтры | 83 | 12 |
+|  | Используемые масляные фильтры | 240 | 35 |
 
 ![[07600291.png]]
 
-Turn the engine OFF.
+Выключите двигатель.
 
-Remove the end of the valve assembly (5) from the oil pump end of filter head (2) and install the hex plug (4).
+Удалите конец клапанного узла (5) из масляного насоса конца головки фильтра (2) и установите шестислойную пробку (4).
 
-Tighten the hex plug.
+Затяните штепсель.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [239 in-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [239 фунт-дюйм]
 
 ![[07600290.png]]
 
-Remove the hose (3) from the outlet end of filter head (2) and install the hex plug (1).
+Удалите шланг (3) из конца выпускной головки фильтра (2) и установите шестнадцатеричный штепсель (1).
 
-Tighten the hex plug.
+Затяните штепсель.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [239 in-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [239 фунт-дюйм]
 
 ![[07600289.png]]
 
-Eliminator™
+Элиминатор
 
-This test will indicate oil pressure before and after the oil flows through the eliminator.
+Это испытание будет указывать давление масла до и после того, как масло течет через элиминатор.
 
-Use a differential pressure gauge or one pressure gauge with two oil hoses and two valves to eliminate gauge error. Use a gauge with a minimum pressure capacity of 1400 kPa \[200 psi\].
+Используйте дифференциальный калибр давления или один калибр давления с двумя масляными шлангами и двумя клапанами для устранения ошибки калибра. Используйте калибр с минимальной мощностью давления 1400 кПа[200 psi].
 
-Make sure the engine is switched off.
+Убедитесь, что двигатель выключен.
 
 ![[07600291.png]]
 
-Remove the two plugs from the filter housing.
+Удалите две вилки из корпуса фильтра.
 
-Install end of the valve assembly in the port of the filter nearest to the centrifuge from where the plug has been removed.
+Установите конец клапанного узла в порту фильтра, ближайшем к центрифуге, откуда была удалена пробка.
 
-Install the end of the valve assembly in the port of the filter furthest away from the centrifuge from where the other plug has been removed.
+Установите конец клапанного узла в порту фильтра, наиболее удаленном от центрифуги, откуда была удалена другая пробка.
 
 ![[07600238.png]]
 
-Operate the engine at rated rpm until the engine oil reaches its normal operating temperature. Continue operating the engine at rated rpm for the duration of the pressure test.
+Работайте с двигателем при номинальной оборотной массе, пока моторное масло не достигнет нормальной рабочей температуры. Продолжайте работу двигателя при номинальной оборотной массе в течение всего периода испытания на давление.
 
 ![[oi400la.png]]
 
-Close valve (7), open valve (6), and record the pressure value before the eliminator.
+Закройте клапан (7), открытый клапан (6) и запишите значение давления перед элиминатором.
 
-Close valve (6), open valve (7), and record the pressure value after the eliminator.
+Закройте клапан (6), открытый клапан (7) и запишите значение давления после элиминатора.
 
-If the difference in pressure is more than the maximum allowable value, inspect and clean the eliminator screens before checking the oil pressure differential again.
+Если разница в давлении превышает максимально допустимое значение, проверьте и очистите экраны элиминатора, прежде чем снова проверить перепад давления масла.
 
-| Measurements |  |  |
+| Измерения |  |  |
 |---|---|---|
-|  | kpa | psi |
-| Maximum Oil Pressure Differential | 60 | 9 |
+|  | каша | пси |
+| Максимальный дифференциал давления масла | 60 | 9 |
 
 ![[07600291.png]]
 
-Turn the engine OFF.
+Выключите двигатель.
 
-Remove the valve assembly from the Eliminator and install the two plugs.
+Удалите клапанный узел из Элиминатора и установите две вилки.
 
-Tighten the plugs.
+Затяните заглушки.
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [89 in-lb]
+> [!tip] Момент затяжки
+> 10 Н·м [89 фунт-дюйм]
 
 ![[07600238.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> The QSK45 engine has three combination oil filters and the QSK60 has four combination oil filters.
+>
+> Use an oil filter wrench, Part Number 3375049 or equivalent, to remove the oil filters.
+>
+> Discard the filters if **not** required for failure analysis.
+>
+> Some QSK60 Power Generation engines have an oil by-pass line from the PRELUB™ to the fuel pump acccessory drive with a small oil filter installed.
+>
+> Use an oil wrench, Part Number 3400158 or equivalent, to remove the oil filter, if applicable.
+>
+> Discard the filter if **not** required for failure analysis.
+>
+> ### Inspect
+>
+> **WARNING · Опасно**
+> Carefully cut the combination oil filter open. The filter element spring is under compression and can cause personal injury.
+>
+> Use tube cutter, Part Number 3376579, to open the full-flow oil filter.
+>
+> Inspect the filter element for evidence of moisture and metal particles.
+>
+> If metallic debris is found, the lube pump idler shaft and gear **must** be carefully inspected for damage. [[56-007-031-tr — Lubricating Oil Pump|Refer to Procedure 007-031 in Section 7.]]
+>
+> | Metal | Probable Source |
+> |---|---|
+> | Copper | Bearings and bushings |
+> | Chromium | Piston rings |
+> | Iron | Cylinder liners, gears, and camshafts |
+> | Lead | Bearing overlay material |
+> | Aluminum | Piston skirts, camshaft bushings, crankshaft thrust bearings, and aluminum aftercoolers |
+>
+> ### Install
+>
+> Clean the oil filter head sealing surface with a lint free cloth.
+>
+> The QSK45 engine has three combination oil filters and the QSK60 engine has four combination oil filters.
+>
+> Use engine oil to lubricate the oil filters' rubber seals.
+>
+> Fill the oil filters with clean engine oil.
+>
+> **CAUTION · Осторожно**
+> Mechanical overtightening can distort the threads or damage the filter element seal. If the threads appear damaged, replace the oil filter head adapter.
+>
+> **CAUTION · Осторожно**
+> Locate the oil filter wrench, Part Number 3400158, near the top of the oil filter canister. This will reduce the possibility of damaging the oil filter.
+>
+> Install the oil filter. Turn it until the seal contacts the filter head sealing surface.
+>
+> Turn the oil filter an additional 3/4 to 1 turn.
+>
+> Install and tighten the drain plug.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Some QSK60 Power Generation engines have an oil by-pass line from the PRELUBTM to the fuel pump accessory drive with a small oil filter installed.
+>
+> Use engine oil to lubricate the oil filter's rubber seal.
+>
+> Fill the oil filter with clean engine oil.
+>
+> **CAUTION · Осторожно**
+> Mechanical overtightening can distort the threads or damage the filter element seal. If the threads appear damaged, replace the oil filter head adapter.
+>
+> **CAUTION · Осторожно**
+> Locate the oil filter wrench, Part Number 3400158, near the top of the oil filter canister. This will reduce the possibility of damaging the oil filter.
+>
+> Install the oil filter, turning it until the seal contacts the filter head's sealing surface.
+>
+> Turn the oil filter an additional 3/4 to 1 full turn.
+>
+> ### Pressure Differential Test
+>
+> Spin-on Type
+>
+> This test will indicate oil pressure before and after the oil flows through the filters.
+>
+> Use a differential pressure gauge or one pressure gauge with two oil hoses and two valves to eliminate gauge error. Use a gauge with a minimum pressure capacity of 1400 kPa \[200 psi\].
+>
+> Make sure the engine is switched off.
+>
+> Remove the M14 hex plug (7) from the outlet end of the oil filter head (10) and install end 7 of the valve assembly in the port of the filter head from where the hex plug (7) has been removed.
+>
+> This reading will indicate the oil pressure after the oil flows through the filters.
+>
+> Remove the hex plug (18) from the oil pump inlet end of the filter head (10) and install end 6 of the valve assembly oil hose into where the second hex plug (18) has been removed.
+>
+> This reading will indicate the oil pressure before the oil flows through the filters.
+>
+> Operate the engine at rated rpm until the engine oil reaches its normal operating temperature. Continue to operate the engine at rated rpm for the duration of the pressure test.
+>
+> Close valve (7) and open valve (6) to read the oil pressure before the filters.
+>
+> Close valve (6) and open valve (7) to read the oil pressure after the filters.
+>
+> If the difference in pressure is more than the maximum allowable value, an oil filter with excessive restriction is being used. Replace the filters and check the pressure differential again.
+>
+> | **Measurements** |  |  |  |
+> |---|---|---|---|
+> |  | kpa | psi |  |
+> | Maximum Oil Filter Pressure Differential | New/clean oil filters | 83 | 12 |
+> |  | Used oil filters | 240 | 35 |
+>
+> Turn the engine OFF.
+>
+> Remove the end of the valve assembly (5) from the oil pump end of filter head (2) and install the hex plug (4).
+>
+> Tighten the hex plug.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [239 in-lb]
+>
+> Remove the hose (3) from the outlet end of filter head (2) and install the hex plug (1).
+>
+> Tighten the hex plug.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [239 in-lb]
+>
+> Eliminator™
+>
+> This test will indicate oil pressure before and after the oil flows through the eliminator.
+>
+> Use a differential pressure gauge or one pressure gauge with two oil hoses and two valves to eliminate gauge error. Use a gauge with a minimum pressure capacity of 1400 kPa \[200 psi\].
+>
+> Make sure the engine is switched off.
+>
+> Remove the two plugs from the filter housing.
+>
+> Install end of the valve assembly in the port of the filter nearest to the centrifuge from where the plug has been removed.
+>
+> Install the end of the valve assembly in the port of the filter furthest away from the centrifuge from where the other plug has been removed.
+>
+> Operate the engine at rated rpm until the engine oil reaches its normal operating temperature. Continue operating the engine at rated rpm for the duration of the pressure test.
+>
+> Close valve (7), open valve (6), and record the pressure value before the eliminator.
+>
+> Close valve (6), open valve (7), and record the pressure value after the eliminator.
+>
+> If the difference in pressure is more than the maximum allowable value, inspect and clean the eliminator screens before checking the oil pressure differential again.
+>
+> | Measurements |  |  |
+> |---|---|---|
+> |  | kpa | psi |
+> | Maximum Oil Pressure Differential | 60 | 9 |
+>
+> Turn the engine OFF.
+>
+> Remove the valve assembly from the Eliminator and install the two plugs.
+>
+> Tighten the plugs.
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [89 in-lb]

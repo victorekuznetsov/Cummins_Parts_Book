@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-031-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-031-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Gear Cover, Front
@@ -35,43 +37,88 @@ tags:
 > **Даты:** изменён 2005-12-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-031-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-031-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
+### Снятие
 
-The front cover has capscrews that go up through the oil pan adapter and into the front gear cover.
+с форсункой механического управления
 
-Remove the 28 capscrews and washers.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого сборочного устройства.
 
-Use the guide pins to support the front gear cover, slide it forward, and install the lifting eye into the threaded hole in the top center of the front gear cover.
+Передняя крышка имеет болты, которые проходят через адаптер масляной панели и в переднюю крышку передач.
 
-Remove the front gear cover and gear cover gasket.
+Удалите 28 болтов и шайбы.
 
-The front gear cover gasket is an edge-molded gasket. Inspect the gasket; if any damage is found, the gasket **must** be replaced.
+Используйте направляющие штифты для поддержки передней крышки передач, скользите вперед и установите подъемный глаз в резьбовое отверстие в верхнем центре передней крышки передач.
+
+Снимите переднюю крышку передач и прокладку крышки передач.
+
+Передняя чехолная прокладка представляет собой гранеобразную прокладку. Проверить прокладку; если обнаружен какой-либо ущерб, прокладку необходимо заменить.
 
 ![[01600082.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Remove the five capscrews that go up through the oil pan adapter and into the front gear cover.
+Удалите пять болтов, которые проходят через адаптер масляной панели и в переднюю крышку передач.
 
 ![[01600153.png]]
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого сборочного устройства.
 
-Remove the front gear cover capscrews and washers.
+Удалите болты переднего шестерни и шайбы.
 
-> [!note] Note · Примечание
-> The number of capscrews depends on the engine options.
+> [!note] Примечание
+> Количество болтов зависит от опций двигателя.
 
-Use the guide pins to support the front gear cover, slide it forward, and install the lifting eye into the threaded hole in the top center of the front gear cover.
+Используйте направляющие штифты для поддержки передней крышки передач, скользите вперед и установите подъемный глаз в резьбовое отверстие в верхнем центре передней крышки передач.
 
-Remove the front gear cover and gear cover gasket.
+Снимите переднюю крышку передач и прокладку крышки передач.
 
-The front gear cover gasket is an edge-molded gasket. Inspect the gasket; if any damage is found, the gasket **must** be replaced.
+Передняя чехолная прокладка представляет собой гранеобразную прокладку. Проверить прокладку; если обнаружен какой-либо ущерб, прокладку необходимо заменить.
 
 ![[01600374.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> with Mechanically Actuated Injector
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
+>
+> The front cover has capscrews that go up through the oil pan adapter and into the front gear cover.
+>
+> Remove the 28 capscrews and washers.
+>
+> Use the guide pins to support the front gear cover, slide it forward, and install the lifting eye into the threaded hole in the top center of the front gear cover.
+>
+> Remove the front gear cover and gear cover gasket.
+>
+> The front gear cover gasket is an edge-molded gasket. Inspect the gasket; if any damage is found, the gasket **must** be replaced.
+>
+> with Electronically Actuated Injector
+>
+> Remove the five capscrews that go up through the oil pan adapter and into the front gear cover.
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
+>
+> Remove the front gear cover capscrews and washers.
+>
+> **Note · Примечание**
+> The number of capscrews depends on the engine options.
+>
+> Use the guide pins to support the front gear cover, slide it forward, and install the lifting eye into the threaded hole in the top center of the front gear cover.
+>
+> Remove the front gear cover and gear cover gasket.
+>
+> The front gear cover gasket is an edge-molded gasket. Inspect the gasket; if any damage is found, the gasket **must** be replaced.

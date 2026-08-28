@@ -12,13 +12,15 @@ families:
 manuals:
   - "5411480"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-015-099.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-015-099.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/513"
+  - "перевод/машинный"
 ---
 
 # Drive Application Wiring Harness
@@ -31,105 +33,206 @@ tags:
 > **Даты:** изменён 2019-10-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/513/513-015-099.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/513-015-099.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- Electrical test lead, Part Number 3824812
-- Electrical test lead, Part Number 3823993
-- Electrical test lead, Part Number 3823994.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Электрический испытательный щуп, номер детали 3824812
+- Электрический испытательный щуп, номер детали 3823993
+- Электрический испытательный щуп, номер детали 3823994.
 
-### General Information
+#### Дополнительные сервисные позиции
+
+- Никаких дополнительных предметов обслуживания не требуется.
+
+### Общие сведения
 
 **PS102**
 
-The drive application wiring harness connects the system enable signal, exhaust temperature sensor, neutral safety switch, and transmission gear oil pressure and temperature sensors to the engine control module (ECM) original equipment manufacturer (OEM) interface round 19 pin connection located at the rear of the engine.
+Прикладная проводка привода соединяет систему, включающую сигнал, датчик температуры выхлопа, нейтральный переключатель безопасности и датчики давления и температуры трансмиссии масла с модулем управления двигателем (ECM) оригинального производителя оборудования (OEM) с интерфейсом вокруг 19 штифтового соединения, расположенного в задней части двигателя.
 
 **PS103**
 
-The drive application wiring harness connects the transmission gear oil pressure and temperature sensor to the ECM and does not go through the 19 pin connection. These sensors are monitored through the ECM. Refer to the engine service manual for troubleshooting.
+Прикладная проводка привода подключает датчик давления и температуры масла передатчика к ECM и не проходит через 19-контактное соединение. Эти датчики контролируются через ECM. Смотрите руководство по обслуживанию двигателя для устранения неполадок.
 
-> [!note] Note · Примечание
-> The neutral safety connection will be connected to the drive application wiring harness or the OEM interface wiring harness.
+> [!note] Примечание
+> Нейтральное безопасное соединение будет подключено к электропроводке привода или к электропроводке интерфейса OEM.
 
-The primary purpose of this harness is to provide the length necessary to connect the components and interface with the engine ECM. Use the wiring diagram for details.
+Основная цель этой проводов заключается в обеспечении длины, необходимой для подключения компонентов и интерфейса с двигателем ECM. Используйте схему проводов для деталей.
 
-> [!note] Note · Примечание
-> The harness may be supplied by the OEM, therefore the Cummins® service tools listed in this procedure may **not** fit. Contact the OEM for repair information.
+> [!note] Примечание
+> Связь проводов может быть поставлена OEM, поэтому сервисные инструменты Cummins®, перечисленные в этой процедуре, могут **не** подходить. Свяжитесь с OEM для получения информации о ремонте.
 
 ![[00e00105.png]]
 
-### Test
+### Проверка
 
-Use the following procedure for detailed component diagrams. [[513-208-002 — Component Diagrams|Refer to Procedure 208-002 in Section E]]
+Используйте следующую процедуру для подробных диаграмм компонентов.[[513-208-002 — Component Diagrams|См. процедуру 208-002 в разделе E.]]
 
-Use the wiring diagram, if necessary.
+Используйте схему проводов, если это необходимо.
 
-Check the harness for connectivity and damage. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter|Refer to Procedure 019-360 in Section 19.]]
+Проверьте электропроводку для подключения и повреждения. Используйте следующую процедуру для общих методов измерения сопротивления.[[99-019-360 — Resistance Measurement Using a Multimeter|См. процедуру 019-360 в разделе 19.]]
 
-Use the following procedure for service tools. Refer to Procedure 022-001 in Section 22.
+Используйте следующую процедуру для инструментов обслуживания. См. процедуру 022-001 в разделе 22.
 
-Use the above Select Service Tools section for test lead information.
+Используйте приведенный выше раздел «Выбрать инструменты обслуживания» для информации о тестировании.
 
-Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection|Refer to Procedure 019-361 in Section 19.]]
+Используйте следующую процедуру для общих методов проверки.[[99-019-361 — Component Connector and Pin Inspection|См. процедуру 019-361 в разделе 19.]]
 
 ![[3164133.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the batteries. See equipment manufacturer service information.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
 
-### Remove
+### Снятие
 
 **PS102**
 
-Disconnect the drive application wiring harness from the engine, system enable connector, neutral safety switch connector, exhaust temperature sensor, and transmission gear oil pressure and temperature sensors.
+Отсоедините электропроводку привода от двигателя, система включит разъем, нейтральный разъем переключателя безопасности, датчик температуры выхлопа и датчики давления и температуры трансмиссии масла.
 
-If necessary for repair, remove the harness.
+При необходимости ремонта удалите проводку упряжки.
 
-Note the harness routing and location of harness mounting points for installation.
+Обратите внимание на маршрутизацию и расположение точек монтажа жгута проводов для установки.
 
 ![[15e00032.png]]
 
 **PS103**
 
-Disconnect the drive application wiring harness from the engine, transmission gear oil pressure and temperature sensors.
+Отсоедините привод приложения проводов жгута от двигателя, трансмиссии передач датчиков давления и температуры.
 
-If necessary for repair, remove the harness.
+При необходимости ремонта удалите проводку упряжки.
 
-Note the harness routing and location of harness mounting points for installation.
+Обратите внимание на маршрутизацию и расположение точек монтажа жгута проводов для установки.
 
 ![[15e00192.png]]
 
-### Install
+### Установка
 
 **PS102**
 
-Connect the drive application wiring harness to the engine, system enable connector, neutral safety switch connector, exhaust temperature sensor, and transmission gear oil pressure and temperature sensors.
+Подключите электропроводку привода к двигателю, система включит разъем, нейтральный разъем переключателя безопасности, датчик температуры выхлопа и датчики давления масла и температуры передач.
 
-Route and secure the harness to mounting points noted during removal.
+Маршрут и охраняйте электропроводку до точек монтажа, отмеченных во время удаления.
 
 ![[15e00032.png]]
 
 **PS103**
 
-Connect the drive application wiring harness from the engine, transmission gear oil pressure and temperature sensors.
+Подключите привод приложения проводов жгута от двигателя, трансмиссии передач датчиков давления и температуры.
 
-Route and secure the harness to mounting points noted during removal.
+Маршрут и охраняйте электропроводку до точек монтажа, отмеченных во время удаления.
 
 ![[15e00192.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Проведите системный тест для проверки правильности работы.[[513-015-047 — Final Verification|См. процедуру 015-047 в разделе 15.]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Electrical test lead, Part Number 3824812
+> - Electrical test lead, Part Number 3823993
+> - Electrical test lead, Part Number 3823994.
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### General Information
+>
+> **PS102**
+>
+> The drive application wiring harness connects the system enable signal, exhaust temperature sensor, neutral safety switch, and transmission gear oil pressure and temperature sensors to the engine control module (ECM) original equipment manufacturer (OEM) interface round 19 pin connection located at the rear of the engine.
+>
+> **PS103**
+>
+> The drive application wiring harness connects the transmission gear oil pressure and temperature sensor to the ECM and does not go through the 19 pin connection. These sensors are monitored through the ECM. Refer to the engine service manual for troubleshooting.
+>
+> **Note · Примечание**
+> The neutral safety connection will be connected to the drive application wiring harness or the OEM interface wiring harness.
+>
+> The primary purpose of this harness is to provide the length necessary to connect the components and interface with the engine ECM. Use the wiring diagram for details.
+>
+> **Note · Примечание**
+> The harness may be supplied by the OEM, therefore the Cummins® service tools listed in this procedure may **not** fit. Contact the OEM for repair information.
+>
+> ### Test
+>
+> Use the following procedure for detailed component diagrams. [[513-208-002 — Component Diagrams|Refer to Procedure 208-002 in Section E]]
+>
+> Use the wiring diagram, if necessary.
+>
+> Check the harness for connectivity and damage. Use the following procedure for general resistance measurement techniques. [[99-019-360 — Resistance Measurement Using a Multimeter|Refer to Procedure 019-360 in Section 19.]]
+>
+> Use the following procedure for service tools. Refer to Procedure 022-001 in Section 22.
+>
+> Use the above Select Service Tools section for test lead information.
+>
+> Use the following procedure for general inspection techniques. [[99-019-361 — Component Connector and Pin Inspection|Refer to Procedure 019-361 in Section 19.]]
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Connect the batteries. See equipment manufacturer service information.
-- Perform system test to verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+>
+> ### Remove
+>
+> **PS102**
+>
+> Disconnect the drive application wiring harness from the engine, system enable connector, neutral safety switch connector, exhaust temperature sensor, and transmission gear oil pressure and temperature sensors.
+>
+> If necessary for repair, remove the harness.
+>
+> Note the harness routing and location of harness mounting points for installation.
+>
+> **PS103**
+>
+> Disconnect the drive application wiring harness from the engine, transmission gear oil pressure and temperature sensors.
+>
+> If necessary for repair, remove the harness.
+>
+> Note the harness routing and location of harness mounting points for installation.
+>
+> ### Install
+>
+> **PS102**
+>
+> Connect the drive application wiring harness to the engine, system enable connector, neutral safety switch connector, exhaust temperature sensor, and transmission gear oil pressure and temperature sensors.
+>
+> Route and secure the harness to mounting points noted during removal.
+>
+> **PS103**
+>
+> Connect the drive application wiring harness from the engine, transmission gear oil pressure and temperature sensors.
+>
+> Route and secure the harness to mounting points noted during removal.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries. See equipment manufacturer service information.
+> - Perform system test to verify proper function. [[513-015-047 — Final Verification|Refer to Procedure 015-047 in Section 15.]]

@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 21
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-016-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-016-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Hydraulic Pump Drive
@@ -35,239 +37,444 @@ tags:
 > **Даты:** изменён 2015-11-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-009-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-009-016-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the hydraulic pump. See equipment manufacturer service information.
+
+### Подготовительные операции
+
+Удалите гидравлический насос. См. сервисную документацию изготовителя оборудования.
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-Remove the hydraulic pump drive mounting capscrews.
+Удалите гидравлический насос привода крепления болтов.
 
-Remove the hydraulic drive assembly.
+Удалите гидравлический привод сборки.
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[09600033.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Measure the end clearance.
+Измерьте конечный зазор.
 
-| Hydraulic Pump Drive End Clearance |  |  |
+| Гидравлический насос Drive End Clearance |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.125 | MIN | 0.005 |
-| 0.285 | MAX | 0.011 |
+| мм |  | в |
+| 0.125 | Мин | 0.005 |
+| 0.285 | Макс | 0.011 |
 
-If the end clearance is **not** within specifications, the assembly **must** be rebuilt.
+Если конечный зазор **не** в пределах спецификаций, сборка должна быть перестроена.
 
 ![[hd4dria.png]]
 
-### Disassemble
+### Разборка
 
-Remove the cover, if equipped.
+Снимите крышку, если она оборудована.
 
-Remove and discard the gasket.
+Снимите и утилизируйте прокладку.
 
 ![[hd4drfa.png]]
 
-Use a press and suitable mandrel to remove the shaft and gear assembly from the housing. The shaft and gear assembly **must** be pressed out of the retaining ring (1).
+Используйте пресс и подходящую подружку для удаления вала и шестерни из корпуса. Вал и шестерня сборки должны быть выжаты из удерживающего кольца (1).
 
 ![[09k00001.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturers recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При использовании растворителей, кислот или щелочных материалов для очистки следуйте рекомендациям производителей по применению. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the hydraulic drive bushing bore in the front gear cover and measure the inside diameter. [[56-001-031-tr — Gear Cover, Front|Refer to Procedure 001-031 in Section 1.]]
+Очистите гидравлический приводной втулочный цилиндр, который находится в передней крышке передач, и измерьте внутренний диаметр.[[56-001-031-tr — Gear Cover, Front|См. процедуру 001-031 в разделе 1.]]
 
 ![[01600356.png]]
 
-Measure the inside diameter of the hydraulic pump drive bushings.
+Измерьте внутренний диаметр втулок привода гидравлического насоса.
 
-| Hydraulic Pump Drive Bushing Inside Diameter |  |  |
+| Гидравлический насос Drive Bushing Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 49.95 | MIN | 1.967 |
-| 50.03 | MAX | 1.970 |
+| мм |  | в |
+| 49.95 | Мин | 1.967 |
+| 50.03 | Макс | 1.970 |
 
-If the inside diameter of either bushing is **not** within specifications, both bushings **must** be replaced.
+Если внутренний диаметр любого из втулок **не** в пределах спецификаций, оба втулки должны быть заменены.
 
 ![[hd4hsta.png]]
 
-Check the grooved surfaces of the bushings (1) for damage.
+Проверить выгнутые поверхности втулок (1) на предмет повреждения.
 
-Measure the distance from the outside of the thrust faces of the two bushings.
+Измерьте расстояние от внешней стороны тяговых граней двух втулок.
 
-Check the bushings in four locations.
+Проверьте втулки в четырех местах.
 
-| Hydraulic Pump Drive Bushing Thrust Face Distance |  |  |
+| Гидравлический насос Drive Bushing Thrust Face Distance |  |  |
 |---|---|---|
-| mm |  | in |
-| 45.370 | MIN | 1.786 |
-| 45.450 | MAX | 1.789 |
+| мм |  | в |
+| 45.370 | Мин | 1.786 |
+| 45.450 | Макс | 1.789 |
 
-If the distance between the two thrust faces is **not** within specification, both bushings **must** be replaced.
+Если расстояние между двумя тяговыми гранями **не** в пределах спецификации, то оба втулки должны быть заменены.
 
 ![[09600066.png]]
 
-Remove the flanged bushing from the drive housing. Use a brass drift (1), taking care **not** to damage the bushing bore of the housing.
+Снять фланцевый втулку с гильзы привода. Используйте латунный дрейф (1), заботясь о том, чтобы **не** повредить цилиндр втулки корпуса.
 
 ![[09600009.png]]
 
-If the bushing was removed, inspect the housing for scoring and other damage.
+Если втулка была снята, осмотрите кожух на предмет забивания и других повреждений.
 
-Replace the housing if damaged.
+Замените кожух, если он поврежден.
 
 ![[dp8hssa.png]]
 
-If the bushing was removed, measure the inside diameter of the bushing bore.
+Если втулка была удалена, измерьте внутренний диаметр цилиндра втулки.
 
-| Hydraulic Pump Drive Unit Housing Bore Inside Diameter |  |  |
+| Гидравлический насосный блок цилиндра с внутренней диаметрией |  |  |
 |---|---|---|
-| mm |  | in |
-| 60.00 | MIN | 2.362 |
-| 60.05 | MAX | 2.364 |
+| мм |  | в |
+| 60.00 | Мин | 2.362 |
+| 60.05 | Макс | 2.364 |
 
-Replace the housing if the bushing bore is **not** within specifications.
+Заменить корпус, если втулочный цилиндр имеет **не** в пределах спецификаций.
 
 ![[09600017.png]]
 
-Inspect the retaining ring for any signs of damage or cracks. Replace, if necessary.
+Осмотрите удерживающее кольцо на наличие каких-либо признаков повреждения или трещин. Заменить, если необходимо.
 
-Measure the inside diameter of the retaining ring.
+Измерьте внутренний диаметр удерживающего кольца.
 
-| Hydraulic Pump Drive Retaining Ring Inside Diameter |  |  |
+| Гидравлический насосный привод, удерживающий кольцо внутри диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 41.869 | MIN | 1.6484 |
-| 41.893 | MAX | 1.6493 |
+| мм |  | в |
+| 41.869 | Мин | 1.6484 |
+| 41.893 | Макс | 1.6493 |
 
-Replace the retaining ring if the internal diameter is **not** within specification.
+Заменить удерживающее кольцо, если внутренний диаметр не находится в пределах спецификации.
 
 ![[09k00002.png]]
 
-### Assemble
+### Сборка
 
-> [!warning] CAUTION · Осторожно
-> The bushing must be pressed in square to the bores of the housing. If the bushing is not square, damage to the bushing could possibly occur.
+> [!warning] ОСТОРОЖНО
+> Втулка должна быть прижата в квадрате к скобкам корпуса. Если втулка не квадратная, повреждение втулки может произойти.
 
-Install the bushing into the housing.
+Установите втулку в корпус.
 
-Support the housing on a press. Use the shaft as a mandrel to press the bushing into position.
+Поддержите гильзу на прессе. Используйте вал в качестве подмандатной, чтобы нажать на втулку в положение.
 
-Turn the housing over. Press the remaining bushing into place.
+Переверни гильзу. Нажмите оставшийся втулки на место.
 
 ![[09600004.png]]
 
-Measure the distance from the outside of the thrust faces of the two bushings. Check in four positions.
+Измерьте расстояние от внешней стороны тяговых граней двух втулок. Проверьте четыре позиции.
 
-| Hydraulic Pump Drive Bushing Thrust Face Distance |  |  |
+| Гидравлический насос Drive Bushing Thrust Face Distance |  |  |
 |---|---|---|
-| mm |  | in |
-| 45.370 | MIN | 1.786 |
-| 45.450 | MAX | 1.789 |
+| мм |  | в |
+| 45.370 | Мин | 1.786 |
+| 45.450 | Макс | 1.789 |
 
-If the distance between the two thrust faces is **not** within specification, check the installation. Make sure the bushings are correctly positioned.
+Если расстояние между двумя тяговыми гранями **не** в пределах спецификации, проверьте установку. Убедитесь, что втулки правильно расположены.
 
-Lubricate the bushings. Insert the drive shaft assembly into the housing to verify it spins freely.
+Смазать втулки. Вставьте в корпус приводной вал, чтобы убедиться, что он свободно вращается.
 
 ![[09600066.png]]
 
-Measure the inside diameter of the hydraulic pump drive unit bushings to check for any distortion during installation.
+Измерьте внутренний диаметр втулок гидравлического насоса, чтобы проверить наличие каких-либо искажений во время установки.
 
-| Hydraulic Pump Drive Bushing Inside Diameter |  |  |
+| Гидравлический насос Drive Bushing Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 49.95 | MIN | 1.967 |
-| 50.03 | MAX | 1.970 |
+| мм |  | в |
+| 49.95 | Мин | 1.967 |
+| 50.03 | Макс | 1.970 |
 
-If the inside diameter of either bushing is **not** within specifications, both bushings **must** be replaced.
+Если внутренний диаметр любого из втулок **не** в пределах спецификаций, оба втулки должны быть заменены.
 
-> [!note] Note · Примечание
-> The hydraulic pump drive unit housing **must** be inspected again to identify any reason for distortion.
+> [!note] Примечание
+> Гидравлический насосный приводной блок корпуса должен быть проверен снова, чтобы определить любую причину искажения.
 
-Lubricate the bushing. Insert the drive shaft assembly into the housing to verify it spins freely.
+Смазать втулку. Вставьте в корпус приводной вал, чтобы убедиться, что он свободно вращается.
 
 ![[hd4hsta.png]]
 
-Lubricate the grooved surface of the thrust bearing with Lubriplate™ 105, Part Number 3163086, or equivalent.
+Смазать канавку подшипника тяги с помощью LubriplateTM 105, Part Number 3163086 или эквивалента.
 
-Install the gear and shaft assembly in the housing.
+Установите в корпусе шестерню и вал.
 
-Move the assembly to a mandrel press.
+Перенесите сборку в подручный пресс.
 
-Position the assembly with the gear on the underside of the housing.
+Поместите сборку с шестерней на нижнюю сторону корпуса.
 
-Make sure the assembly is supported squarely on the end of the shaft.
+Убедитесь, что сборка поддерживается прямо на конце вала.
 
-Position the retaining ring on the shaft with the beveled edge facing down toward the bushing.
+Поместите удерживающее кольцо на вал с скошенным краем, обращенным вниз к втулке.
 
-Use the press and a suitable mandrel to press the retaining ring onto the shaft until it is against the shoulder on the shaft.
+Используйте пресс и подходящую подружку, чтобы нажать удерживающее кольцо на вал, пока оно не окажется у плеча на валу.
 
 ![[09k00003.png]]
 
-Measure the end clearance.
+Измерьте конечный зазор.
 
-| Hydraulic Pump Drive End Clearance |  |  |
+| Гидравлический насос Drive End Clearance |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.125 | MIN | 0.005 |
-| 0.285 | MAX | 0.011 |
+| мм |  | в |
+| 0.125 | Мин | 0.005 |
+| 0.285 | Макс | 0.011 |
 
-If the end clearance is **not** within specifications, the assembly **must** be inspected to check for correct installation of the bushings and retaining ring.
+Если конечный зазор **не** в пределах спецификаций, сборка должна быть проверена для проверки правильной установки втулок и удерживающего кольца.
 
-> [!note] Note · Примечание
-> Spin the shaft assembly in the housing to verify that it spins freely.
+> [!note] Примечание
+> Вращайте сборку вала в кожух, чтобы убедиться, что он вращается свободно.
 
 ![[hd4dria.png]]
 
-### Install
+### Установка
 
-Lubricate hydraulic drive bushing in the front cover with Lubriplate™ 105.
+Смазочный гидравлический привод втулки в передней крышке с LubriplateTM 105.
 
-Install the new gasket.
+Установите новую прокладку.
 
-Install the pump drive.
+Установите насосный привод.
 
-Align the capscrew holes.
+Выровняйте отверстия болтов.
 
-Install and tighten the hydraulic pump drive mounting capscrews.
+Установите и затяните гидравлический насос привода крепления болтов.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[09600033.png]]
 
-Measure the hydraulic pump drive end clearance after installing the drive.
+Измерьте гидравлический насос привода конце зазора после установки привода.
 
-| Hydraulic Pump Drive End Clearance - Installed |  |  |
+| Гидравлический насос привод конце зазор - установлен |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.125 | MIN | 0.005 |
-| 0.285 | MAX | 0.011 |
+| мм |  | в |
+| 0.125 | Мин | 0.005 |
+| 0.285 | Макс | 0.011 |
 
-If the end clearance is **not** within specifications, the assembly **must** be inspected for correct installation.
+Если конечный зазор **не** в пределах спецификаций, сборка должна быть проверена на предмет правильной установки.
 
 ![[09600038.png]]
 
-Install a new gasket. Install the cover, if equipped.
+Установите новую прокладку. Установите крышку, если она оборудована.
 
-Install the locktight capscrews or, if fitted, lock washers and the capscrews.
+Установите герметичные болты или, если они установлены, шайбы и болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [239 in-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [239 фунт-дюйм]
 
 ![[hd4drfa.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Install the hydraulic pump. See equipment manufacturer service information.
+Установите гидравлический насос. См. сервисную документацию изготовителя оборудования.
 
 ![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Remove the hydraulic pump. See equipment manufacturer service information.
+>
+> ### Remove
+>
+> Remove the hydraulic pump drive mounting capscrews.
+>
+> Remove the hydraulic drive assembly.
+>
+> Remove and discard the gasket.
+>
+> ### Inspect for Reuse
+>
+> Measure the end clearance.
+>
+> | Hydraulic Pump Drive End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.125 | MIN | 0.005 |
+> | 0.285 | MAX | 0.011 |
+>
+> If the end clearance is **not** within specifications, the assembly **must** be rebuilt.
+>
+> ### Disassemble
+>
+> Remove the cover, if equipped.
+>
+> Remove and discard the gasket.
+>
+> Use a press and suitable mandrel to remove the shaft and gear assembly from the housing. The shaft and gear assembly **must** be pressed out of the retaining ring (1).
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturers recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the hydraulic drive bushing bore in the front gear cover and measure the inside diameter. [[56-001-031-tr — Gear Cover, Front|Refer to Procedure 001-031 in Section 1.]]
+>
+> Measure the inside diameter of the hydraulic pump drive bushings.
+>
+> | Hydraulic Pump Drive Bushing Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 49.95 | MIN | 1.967 |
+> | 50.03 | MAX | 1.970 |
+>
+> If the inside diameter of either bushing is **not** within specifications, both bushings **must** be replaced.
+>
+> Check the grooved surfaces of the bushings (1) for damage.
+>
+> Measure the distance from the outside of the thrust faces of the two bushings.
+>
+> Check the bushings in four locations.
+>
+> | Hydraulic Pump Drive Bushing Thrust Face Distance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 45.370 | MIN | 1.786 |
+> | 45.450 | MAX | 1.789 |
+>
+> If the distance between the two thrust faces is **not** within specification, both bushings **must** be replaced.
+>
+> Remove the flanged bushing from the drive housing. Use a brass drift (1), taking care **not** to damage the bushing bore of the housing.
+>
+> If the bushing was removed, inspect the housing for scoring and other damage.
+>
+> Replace the housing if damaged.
+>
+> If the bushing was removed, measure the inside diameter of the bushing bore.
+>
+> | Hydraulic Pump Drive Unit Housing Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 60.00 | MIN | 2.362 |
+> | 60.05 | MAX | 2.364 |
+>
+> Replace the housing if the bushing bore is **not** within specifications.
+>
+> Inspect the retaining ring for any signs of damage or cracks. Replace, if necessary.
+>
+> Measure the inside diameter of the retaining ring.
+>
+> | Hydraulic Pump Drive Retaining Ring Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 41.869 | MIN | 1.6484 |
+> | 41.893 | MAX | 1.6493 |
+>
+> Replace the retaining ring if the internal diameter is **not** within specification.
+>
+> ### Assemble
+>
+> **CAUTION · Осторожно**
+> The bushing must be pressed in square to the bores of the housing. If the bushing is not square, damage to the bushing could possibly occur.
+>
+> Install the bushing into the housing.
+>
+> Support the housing on a press. Use the shaft as a mandrel to press the bushing into position.
+>
+> Turn the housing over. Press the remaining bushing into place.
+>
+> Measure the distance from the outside of the thrust faces of the two bushings. Check in four positions.
+>
+> | Hydraulic Pump Drive Bushing Thrust Face Distance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 45.370 | MIN | 1.786 |
+> | 45.450 | MAX | 1.789 |
+>
+> If the distance between the two thrust faces is **not** within specification, check the installation. Make sure the bushings are correctly positioned.
+>
+> Lubricate the bushings. Insert the drive shaft assembly into the housing to verify it spins freely.
+>
+> Measure the inside diameter of the hydraulic pump drive unit bushings to check for any distortion during installation.
+>
+> | Hydraulic Pump Drive Bushing Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 49.95 | MIN | 1.967 |
+> | 50.03 | MAX | 1.970 |
+>
+> If the inside diameter of either bushing is **not** within specifications, both bushings **must** be replaced.
+>
+> **Note · Примечание**
+> The hydraulic pump drive unit housing **must** be inspected again to identify any reason for distortion.
+>
+> Lubricate the bushing. Insert the drive shaft assembly into the housing to verify it spins freely.
+>
+> Lubricate the grooved surface of the thrust bearing with Lubriplate™ 105, Part Number 3163086, or equivalent.
+>
+> Install the gear and shaft assembly in the housing.
+>
+> Move the assembly to a mandrel press.
+>
+> Position the assembly with the gear on the underside of the housing.
+>
+> Make sure the assembly is supported squarely on the end of the shaft.
+>
+> Position the retaining ring on the shaft with the beveled edge facing down toward the bushing.
+>
+> Use the press and a suitable mandrel to press the retaining ring onto the shaft until it is against the shoulder on the shaft.
+>
+> Measure the end clearance.
+>
+> | Hydraulic Pump Drive End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.125 | MIN | 0.005 |
+> | 0.285 | MAX | 0.011 |
+>
+> If the end clearance is **not** within specifications, the assembly **must** be inspected to check for correct installation of the bushings and retaining ring.
+>
+> **Note · Примечание**
+> Spin the shaft assembly in the housing to verify that it spins freely.
+>
+> ### Install
+>
+> Lubricate hydraulic drive bushing in the front cover with Lubriplate™ 105.
+>
+> Install the new gasket.
+>
+> Install the pump drive.
+>
+> Align the capscrew holes.
+>
+> Install and tighten the hydraulic pump drive mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Measure the hydraulic pump drive end clearance after installing the drive.
+>
+> | Hydraulic Pump Drive End Clearance - Installed |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.125 | MIN | 0.005 |
+> | 0.285 | MAX | 0.011 |
+>
+> If the end clearance is **not** within specifications, the assembly **must** be inspected for correct installation.
+>
+> Install a new gasket. Install the cover, if equipped.
+>
+> Install the locktight capscrews or, if fitted, lock washers and the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [239 in-lb]
+>
+> ### Finishing Steps
+>
+> Install the hydraulic pump. See equipment manufacturer service information.

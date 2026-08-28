@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-008-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-008-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Camshaft
@@ -35,66 +37,122 @@ tags:
 > **Даты:** изменён 2009-03-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-008-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-008-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Установка
 
 ![[cg8geha.png]]
 
-Use Lubriplate™ 105 or equivalent, to coat the camshaft bushings and camshaft.
+Используйте LubriplateTM 105 или эквивалент, чтобы покрыть втулки распределительного вала и распределительный вал.
 
 ![[cg8bdwa.png]]
 
-Install camshaft installation pilot, Part Number 3376388, as follows:
+Установите пилот установки распределительного вала, номер детали 3376388, следующим образом:
 
-- Install expander (1), Part Number 3376923,
-- Turn the screw inside the expander **clockwise** to expand the swell plug.
+- Установить расширитель (1), номер детали 3376923,
+- Поверните винт внутри расширителя **по часовой стрелке**, чтобы расширить вилку набухания.
 
 ![[cg2toha.png]]
 
-- Install the arbor sleeve (2) over the expander.
-- Install the locating pilot extensions (3) to the expander.
+- Установите рукав арбора (2) над расширителем.
+- Установите размещающие пилотные расширения (3) на расширитель.
 
 ![[cg2tohd.png]]
 
-Rotate the camshaft slowly as it is being installed in the cylinder block.
+Медленно поверните распределительный вал, поскольку он устанавливается в блок цилиндров.
 
 ![[cg200hc.png]]
 
-The camshaft installation pilot **must** be disassembled as it clears the number seven camshaft bushing to prevent interference with the rib across the top of die-cast flywheel housings.
+Пилот установки распределительного вала должен быть разобран, поскольку он очищает втулку распределительного вала номер семь, чтобы предотвратить помехи ребром поверх отбрасываемых корпусов маховика.
 
-Remove the camshaft pilot.
+Удалите пилота распределительного вала.
 
 ![[cg2tomc.png]]
 
-Rotate the camshaft to align the holes in the camshaft gear with the thrust plate capscrew holes in the cylinder block.
+Поверните распределительный вал, чтобы выровнять отверстия в распределительной передаче с отверстиями в блоке цилиндров с пластинами тяги.
 
-Align the capscrew holes in the thrust plate with the cylinder block capscrew holes.
+Выровнять болты отверстия в пластине тяги с цилиндр блок болтов отверстия.
 
-Install the capscrews.
+Установите болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[cg2cshb.png]]
 
-Use a new gasket to install the camshaft rear cover plate.
+Используйте новую прокладку для установки задней крышки распределительного вала.
 
-Tighten the three capscrews.
+Затяните три болта.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
-Measure the camshaft end clearance.
+Измерить расчистку распредвала.
 
-| Camshaft End Clearance |  |  |
+| Осевой зазор распределительного вала |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.13 | MIN | 0.005 |
-| 0.33 | MAX | 0.013 |
+| мм |  | в |
+| 0.13 | Мин | 0.005 |
+| 0.33 | Макс | 0.013 |
 
 ![[cg2geda.png]]
 
-Do **not** drop the cam follower levers on the camshaft lobes.
+Не сбрасывайте рычаги крана на доли распредвала.
 
-Carefully lower the cam followers onto the camshaft.
+Осторожно опустите краны на распредвал.
 
 ![[kf2rohc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Use Lubriplate™ 105 or equivalent, to coat the camshaft bushings and camshaft.
+>
+> Install camshaft installation pilot, Part Number 3376388, as follows:
+>
+> - Install expander (1), Part Number 3376923,
+> - Turn the screw inside the expander **clockwise** to expand the swell plug.
+>
+> - Install the arbor sleeve (2) over the expander.
+> - Install the locating pilot extensions (3) to the expander.
+>
+> Rotate the camshaft slowly as it is being installed in the cylinder block.
+>
+> The camshaft installation pilot **must** be disassembled as it clears the number seven camshaft bushing to prevent interference with the rib across the top of die-cast flywheel housings.
+>
+> Remove the camshaft pilot.
+>
+> Rotate the camshaft to align the holes in the camshaft gear with the thrust plate capscrew holes in the cylinder block.
+>
+> Align the capscrew holes in the thrust plate with the cylinder block capscrew holes.
+>
+> Install the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Use a new gasket to install the camshaft rear cover plate.
+>
+> Tighten the three capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Measure the camshaft end clearance.
+>
+> | Camshaft End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.13 | MIN | 0.005 |
+> | 0.33 | MAX | 0.013 |
+>
+> Do **not** drop the cam follower levers on the camshaft lobes.
+>
+> Carefully lower the cam followers onto the camshaft.

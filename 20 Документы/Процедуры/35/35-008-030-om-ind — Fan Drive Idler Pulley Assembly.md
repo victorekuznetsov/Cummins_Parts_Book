@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021942"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-030-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-030-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fan Drive Idler Pulley Assembly
@@ -35,29 +37,60 @@ tags:
 > **Даты:** изменён 2012-02-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-030-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-030-om-ind.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the fan drive belt. [[35-008-002-om-ind — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]
+
+### Контроль при обслуживании
+
+Удалите ремень привода вентилятора.[[35-008-002-om-ind — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе A.]]
 
 ![[08200107.png]]
 
-Check the idler pulley for:
+Проверьте шкив idler для:
 
-- Freedom of rotation
-- Cracked, chipped, or broken pulley grooves.
+- Свобода ротации
+- Разбитые, разбитые или сломанные шкивные канавки.
 
 ![[08200108.png]]
 
-Measure the pulley end clearance.
+Измерьте зазор конца шкива.
 
-| Idler Pulley End Clearance |  |  |
+| Идлер Пулли Конец допуска |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.025 | MIN | 0.0010 |
-| 0.250 | MAX | 0.0100 |
+| мм |  | в |
+| 0.025 | Мин | 0.0010 |
+| 0.250 | Макс | 0.0100 |
 
-Replace or rebuild the idler pulley if the end clearance is **not** within these specifications.
+Заменить или перестроить шкив холостого хода, если конечный зазор **не** в пределах этих спецификаций.
 
-Contact a Cummins® Authorized Repair Location.
+Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[fa2idia.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Remove the fan drive belt. [[35-008-002-om-ind — Drive Belt, Cooling Fan|Refer to Procedure 008-002 in Section A.]]
+>
+> Check the idler pulley for:
+>
+> - Freedom of rotation
+> - Cracked, chipped, or broken pulley grooves.
+>
+> Measure the pulley end clearance.
+>
+> | Idler Pulley End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.025 | MIN | 0.0010 |
+> | 0.250 | MAX | 0.0100 |
+>
+> Replace or rebuild the idler pulley if the end clearance is **not** within these specifications.
+>
+> Contact a Cummins® Authorized Repair Location.

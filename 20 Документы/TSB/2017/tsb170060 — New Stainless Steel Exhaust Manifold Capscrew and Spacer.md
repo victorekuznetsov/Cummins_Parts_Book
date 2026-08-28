@@ -12,12 +12,14 @@ families:
 parts:
   - "5372426"
   - "5372868"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2017/tsb170060.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb170060.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Stainless Steel Exhaust Manifold Capscrew and Spacer
@@ -28,56 +30,64 @@ tags:
 > **Даты:** изменён 2017-07-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2017/tsb170060.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb170060.pdf)
 
-## New Stainless Steel Exhaust Manifold Capscrew and Spacer
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новые болты из нержавеющей стали Exhaust Manifold и Spacer
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- QSK45 (All Versions)
-- QSK60 (All Versions)
+### Содержание
 
-**Description of Change**
+**Затронутая продукция**
 
-- A new stainless steel exhaust manifold capscrew and mounting spacer have been released. The new capscrew has longer threads. The new spacer has as increased internal inner diameter chamfer to allow for more capscrew clearance.
-- The existing steel capscrew design remains unchanged and has been released under a new part number.
+- QSK45 (все версии)
+- QSK60 (все версии)
 
-**Reason for Change**
+**Описание изменения**
 
-New components are more robust.
+- Выпущены новые болты выхлопных коллекторов из нержавеющей стали и монтажный спейсер. Новые болты имеют более длинную резьбу. Новый спейсер имеет увеличенный внутренний внутренний диаметр чамфера, чтобы обеспечить больший зазор болтов.
+- Существующая конструкция стальных болтов остается неизменной и выпущена под новым номером детали.
 
-**Service Instructions**
+**Причина изменения**
 
-New stainless steel capscrew **must** be used in conjunction with new spacers.
+Новые компоненты более прочные.
 
-**Service Parts Availability**
+**Указания по обслуживанию**
 
-Service parts are available. See Table 1 for part numbers.
+Новые болты из нержавеющей стали должны использоваться вместе с новыми спейсерами.
 
-| Table 1, Service Parts |  |  |  |  |
+**Наличие сервисных деталей**
+
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
+
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| Screw, High Temperature (Stainless Steel) | 4065866 | Yes | No | [[5372426]] |
-| Spacer, Mounting | 3046287 | Yes | Yes | [[5372868]] |
-| Screw, Hex Flange Head Cap (Steel) | - | - | - | 5374571 |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| Винт, высокая температура (нержавеющая сталь) | 4065866 | Да | Нет | [[5372426]] |
+| Спейсер, Маунтинг | 3046287 | Да | Да | [[5372868]] |
+| Шлюха, Хекс Флэндж, головная кепка (Сталь) | - | - | - | 5374571 |
 
-**Part CompatibilityNever** mix stainless steel and steel capscrews in same exhaust manifold section.
+**Часть Совместимость Никогда** не смешивайте болты из нержавеющей стали и стали в одной и той же секции выпускного коллектора.
 
-**Part Identification**
+**Идентификация детали**
 
-- Stainless steel capscrew will have part number etched into head of capscrew, and steel capscrew head will be stamped with a “V” or “Vimi”.
-- New mounting spacer will have two grooves running around the circumference.
+- Болты из нержавеющей стали будут иметь номер детали, вытравленный в головку болтов, а головка из стальных болтов будет проштампована буквой «V» или «Vimi».
+- Новый монтажный спейсер будет иметь две канавки, бегущие по окружности.
 
-**Part Inventory Action**
+**Часть инвентаризации**
 
-- QSK60 construction engines are recommended to use new stainless steel capscrew.
-- All other applications are recommend to use steel capscrew unless capscrew malfunctions are experienced.
+- Конструкционные двигатели QSK60 рекомендуют использовать новые болты из нержавеющей стали.
+- Все другие приложения рекомендуют использовать стальные болты, если не возникают неисправности болтов.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -85,3 +95,55 @@ Service parts are available. See Table 1 for part numbers.
 |---|---|---|
 | [[5372426]] | HIGH TEMPERATURE SCREW | Жаростойкий винт |
 | [[5372868]] | MOUNTING SPACER | Монтажная распорная втулка |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Stainless Steel Exhaust Manifold Capscrew and Spacer
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - QSK45 (All Versions)
+> - QSK60 (All Versions)
+>
+> **Description of Change**
+>
+> - A new stainless steel exhaust manifold capscrew and mounting spacer have been released. The new capscrew has longer threads. The new spacer has as increased internal inner diameter chamfer to allow for more capscrew clearance.
+> - The existing steel capscrew design remains unchanged and has been released under a new part number.
+>
+> **Reason for Change**
+>
+> New components are more robust.
+>
+> **Service Instructions**
+>
+> New stainless steel capscrew **must** be used in conjunction with new spacers.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | Screw, High Temperature (Stainless Steel) | 4065866 | Yes | No | [[5372426]] |
+> | Spacer, Mounting | 3046287 | Yes | Yes | [[5372868]] |
+> | Screw, Hex Flange Head Cap (Steel) | - | - | - | 5374571 |
+>
+> **Part CompatibilityNever** mix stainless steel and steel capscrews in same exhaust manifold section.
+>
+> **Part Identification**
+>
+> - Stainless steel capscrew will have part number etched into head of capscrew, and steel capscrew head will be stamped with a “V” or “Vimi”.
+> - New mounting spacer will have two grooves running around the circumference.
+>
+> **Part Inventory Action**
+>
+> - QSK60 construction engines are recommended to use new stainless steel capscrew.
+> - All other applications are recommend to use steel capscrew unless capscrew malfunctions are experienced.
+>
+> ### Document History

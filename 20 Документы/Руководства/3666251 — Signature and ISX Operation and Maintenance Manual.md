@@ -29,10 +29,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-toc | table of contents |  |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-toc.html) | table of contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| om-frwd | foreword | 22-May-2006 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-titlepage | titlepage | 24-May-2007 |
+| [om-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/om-frwd.html) | foreword | 22-May-2006 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-titlepage.html) | titlepage | 24-May-2007 |
 
 ### Section i - Introduction
 
@@ -180,70 +180,70 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t008-om | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 14-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t010-om | Air Compressor Will Not Stop Pumping | 14-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t004-om | Air Compressor Air Pressure Rises Slowly | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t006-om | Air Compressor Noise is Excessive | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t007-om | Air Compressor Pumping Excess Lubricating Oil into the Air System | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t013-om | Alternator Not Charging or Insufficient Charging | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t021-om | Coolant Loss - Internal | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t023-om | Coolant Temperature is Above Normal - Sudden Overheat | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t027-om | Crankcase Gases (Blowby) Excessive | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t038-om | Engine Brake - One or More Cylinders Braking with Power Switch Off | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t041-om | Engine Decelerates Slowly | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t047-om | Engine Noise Excessive | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t075-om | Engine Vibration Excessive | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t087-om | Fuel Consumption Excessive | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t091-om | Fuel in Coolant | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t092-om | Fuel in the Lubricating Oil | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t096-om | Intake Manifold Air Temperature Above Specification | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t102-om | Lubricating Oil Consumption Excessive | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t103-om | Lubricating Oil Contaminated | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t104-om | Lubricating Oil Pressure High | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t106-om | Lubricating Oil Sludge in the Crankcase Excessive | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t108-om | Lubricating or Transmission Oil in the Coolant | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t116-om | Smoke, Black - Excessive | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t121-om | Turbocharger Boost Pressure Low | 15-Mar-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t122-om | Turbocharger Leaks Engine Oil or Fuel | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t008-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t008-om.html) | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 14-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t010-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t010-om.html) | Air Compressor Will Not Stop Pumping | 14-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t004-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t004-om.html) | Air Compressor Air Pressure Rises Slowly | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t006-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t006-om.html) | Air Compressor Noise is Excessive | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t007-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t007-om.html) | Air Compressor Pumping Excess Lubricating Oil into the Air System | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t013-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t013-om.html) | Alternator Not Charging or Insufficient Charging | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t021-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t021-om.html) | Coolant Loss - Internal | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t023-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t023-om.html) | Coolant Temperature is Above Normal - Sudden Overheat | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t027-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t027-om.html) | Crankcase Gases (Blowby) Excessive | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t038-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t038-om.html) | Engine Brake - One or More Cylinders Braking with Power Switch Off | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t041-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t041-om.html) | Engine Decelerates Slowly | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t047-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t047-om.html) | Engine Noise Excessive | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t075-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t075-om.html) | Engine Vibration Excessive | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t087-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t087-om.html) | Fuel Consumption Excessive | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t091-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t091-om.html) | Fuel in Coolant | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t092-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t092-om.html) | Fuel in the Lubricating Oil | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t096-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t096-om.html) | Intake Manifold Air Temperature Above Specification | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t102-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t102-om.html) | Lubricating Oil Consumption Excessive | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t103-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t103-om.html) | Lubricating Oil Contaminated | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t104-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t104-om.html) | Lubricating Oil Pressure High | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t106-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t106-om.html) | Lubricating Oil Sludge in the Crankcase Excessive | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t108-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t108-om.html) | Lubricating or Transmission Oil in the Coolant | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t116-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t116-om.html) | Smoke, Black - Excessive | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t121-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t121-om.html) | Turbocharger Boost Pressure Low | 15-Mar-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t122-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t122-om.html) | Turbocharger Leaks Engine Oil or Fuel | 15-Mar-2002 |
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t020-om | Coolant Loss - External | 08-Oct-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t024-om | Coolant Temperature is Below Normal | 08-Oct-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t036-om | Engine Brake Does Not Operate | 08-Oct-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t037-om | Engine Brake - Low Retarding Power or Slow to Activate | 08-Oct-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t048-om | Engine Noise Excessive - Combustion Knocks | 08-Oct-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t081-om | Engine Will Not Shut Off | 08-Oct-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t107-om | Lubricating Oil Temperature Above Specification | 08-Oct-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t118-om | Smoke, White - Excessive | 08-Oct-2002 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t022-om | Coolant Temperature Above Normal - Gradual Overheat | 09-Oct-2003 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t105-om | Lubricating Oil Pressure Low | 08-Jul-2008 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t020-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t020-om.html) | Coolant Loss - External | 08-Oct-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t024-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t024-om.html) | Coolant Temperature is Below Normal | 08-Oct-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t036-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t036-om.html) | Engine Brake Does Not Operate | 08-Oct-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t037-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t037-om.html) | Engine Brake - Low Retarding Power or Slow to Activate | 08-Oct-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t048-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t048-om.html) | Engine Noise Excessive - Combustion Knocks | 08-Oct-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t081-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t081-om.html) | Engine Will Not Shut Off | 08-Oct-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t107-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t107-om.html) | Lubricating Oil Temperature Above Specification | 08-Oct-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t118-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t118-om.html) | Smoke, White - Excessive | 08-Oct-2002 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t022-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t022-om.html) | Coolant Temperature Above Normal - Gradual Overheat | 09-Oct-2003 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t105-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t105-om.html) | Lubricating Oil Pressure Low | 08-Jul-2008 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t043-om | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 02-Feb-2010 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke | 02-Feb-2010 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t057-om | Engine Power Output Low | 02-Feb-2010 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t061-om | Engine Runs Rough at Idle | 02-Feb-2010 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t062-om | Engine Runs Rough or Misfires | 02-Feb-2010 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t064-om | Engine Shuts Off Unexpectedly or Dies During Deceleration | 02-Feb-2010 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t066-om | Engine Speed Surges at Low or High Idle | 02-Feb-2010 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t067-om | Engine Speed Surges Under Load or in Operating Range | 02-Feb-2010 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t072-om | Engine Starts But Will Not Keep Running | 02-Feb-2010 |
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t109-om | Operating Fuel Pressure is Low | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t043-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t043-om.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t044-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t044-om.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t057-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t057-om.html) | Engine Power Output Low | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t061-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t061-om.html) | Engine Runs Rough at Idle | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t062-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t062-om.html) | Engine Runs Rough or Misfires | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t064-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t064-om.html) | Engine Shuts Off Unexpectedly or Dies During Deceleration | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t066-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t066-om.html) | Engine Speed Surges at Low or High Idle | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t067-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t067-om.html) | Engine Speed Surges Under Load or in Operating Range | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t072-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t072-om.html) | Engine Starts But Will Not Keep Running | 02-Feb-2010 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-t109-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-t109-om.html) | Operating Fuel Pressure is Low | 02-Feb-2010 |
 
 ### Section W - Warranty
 
 | Номер | Название | Дата |
 |---|---|---|
-| auto-signature600-isx-wrty | Coverage | 14-Mar-2002 |
-| 3381334 | L10/M11/N14/ISM/ISX/Sig Engines, Latin America, Automotive | 09-Dec-2003 |
-| 3605761 | L10/M11/ISM/N14/ISX/SIG Engines, South Africa, Automotive | 15-Oct-2004 |
-| auto-frt | California Emission Control, System Warranty, On-Highway | 14-Dec-2004 |
-| auto-bck | California Emission Control, System Warranty, On-Highway | 22-Dec-2004 |
-| isx-w_egr | California Emission Control System Warranty | 26-Jan-2006 |
-| 3381258 | All Engines, Europe, Automotive | 20-Oct-2006 |
-| 3381080 | L10/ M11/ISM/N14/ISX/SIG, Engines, International, Automotive | 21-Jan-2009 |
-| 3381396 | California Emission, Control System Warranty, Automotive | 01-May-2009 |
-| 3381161 | United States and Canada, Fire Apparatus/Crash Trucks | 25-Aug-2009 |
-| 3381340 | All Electronic Diesel Engines, United States and Canada, Recreational Vehicle | 27-Aug-2009 |
-| 3381139 | L10/ M11/ISM/N14/ISX/Sig, Engines, United States and Canada, Automotive | 11-Nov-2009 |
+| [auto-signature600-isx-wrty](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/auto-signature600-isx-wrty.html) | Coverage | 14-Mar-2002 |
+| [3381334](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381334/3381334-history.html) | L10/M11/N14/ISM/ISX/Sig Engines, Latin America, Automotive | 09-Dec-2003 |
+| [3605761](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3605761/3605761-history.html) | L10/M11/ISM/N14/ISX/SIG Engines, South Africa, Automotive | 15-Oct-2004 |
+| [auto-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/auto-frt.html) | California Emission Control, System Warranty, On-Highway | 14-Dec-2004 |
+| [auto-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/auto-bck.html) | California Emission Control, System Warranty, On-Highway | 22-Dec-2004 |
+| [isx-w_egr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/isx-w_egr.html) | California Emission Control System Warranty | 26-Jan-2006 |
+| [3381258](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381258/3381258-history.html) | All Engines, Europe, Automotive | 20-Oct-2006 |
+| [3381080](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381080/3381080-history.html) | L10/ M11/ISM/N14/ISX/SIG, Engines, International, Automotive | 21-Jan-2009 |
+| [3381396](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381396/3381396-history.html) | California Emission, Control System Warranty, Automotive | 01-May-2009 |
+| [3381161](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381161/3381161-history.html) | United States and Canada, Fire Apparatus/Crash Trucks | 25-Aug-2009 |
+| [3381340](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381340/3381340-history.html) | All Electronic Diesel Engines, United States and Canada, Recreational Vehicle | 27-Aug-2009 |
+| [3381139](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381139/3381139-history.html) | L10/ M11/ISM/N14/ISX/Sig, Engines, United States and Canada, Automotive | 11-Nov-2009 |
 
 ### Section D - System Diagrams
 
@@ -301,7 +301,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-backcover | backcover | 15-May-2006 |
+| [[[3666251 — Signature and ISX Operation and Maintenance Manual\|3666251]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666251/3666251-backcover.html) | backcover | 15-May-2006 |
 
 ### Section S - Service Assistance
 

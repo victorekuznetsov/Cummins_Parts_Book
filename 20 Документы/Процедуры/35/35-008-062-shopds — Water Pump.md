@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-062-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-062-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Water Pump
@@ -35,82 +37,152 @@ tags:
 > **Даты:** изменён 2012-01-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-062-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-062-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-With EGR
 
-Loosen the coolant bypass hose clamps on both the upper and lower hoses.
+### Снятие
 
-Remove the upper coolant hose from the thermostat housing.
+С EGR
+
+Освободите шланги для обхода охлаждающей жидкости как на верхних, так и на нижних шлангах.
+
+Удалите верхний шланг охлаждающей жидкости из корпуса термостата.
 
 ![[th2homa.png]]
 
-Remove the four thermostat housing mounting capscrews and the thermostat housing.
+Удалите четыре крепежных болта термостата и корпус термостата.
 
 ![[th2hsha.png]]
 
-The coolant flow that provides cooling to the torque converter (if equipped) is achieved in different manners.
+Поток охлаждающей жидкости, обеспечивающий охлаждение крутящего момента (если он оборудован), достигается различными способами.
 
-ISM and QSM Series engines use a torque converter cooler disc inside the coolant bypass hose to direct engine coolant to the inlet side of the torque converter cooler.
+Двигатели серии ISM и QSM используют диск охладителя крутящего момента внутри шланга обхода охлаждающей жидкости для направления охлаждающей жидкости двигателя на входную сторону охладителя крутящего момента.
 
-1. Torque converter coolant supply
-2. Torque converter disc (orifice)
-3. Bypass hose
-4. Water pump.
+1. Подача охлаждающей жидкости для крутящего момента
+2. Диск преобразователя крутящего момента (или отверстие)
+3. шланг обходной
+4. Водяной насос.
 
 ![[08200076.png]]
 
-Loosen the EGR cooler coolant supply lower tube retaining clamp capscrew. Remove the EGR cooler coolant supply lower tube retaining clamp and tube.
+Охлаждение охлаждающей жидкости EGR обеспечивает нижние зажимные болты для удерживания трубки. Удалите охлаждающую жидкость EGR, подавающую нижний зажим и трубку.
 
-Remove and discard the o-ring.
+Удалите и отбросьте кольцо.
 
 ![[08200235.png]]
 
-Remove the three water pump mounting capscrews.
+Удалите три болта для установки водяного насоса.
 
-Remove the two water pump water transfer connection capscrews and push the water pump transfer connection into the water pump as far as possible to facilitate water pump removal.
+Удалите два болта для передачи воды водяным насосом и подтолкните соединение для передачи водяного насоса в водяной насос как можно дальше, чтобы облегчить удаление водяного насоса.
 
-Remove the water pump. Twist the pump outward from the top, and angle the rear of the pump downward, as it is being removed, to allow the pump to pass the thermostat housing support.
+Удалите водяной насос. Выведите насос наружу сверху и наклоните заднюю часть насоса вниз, когда он удаляется, чтобы насос мог пройти поддержку корпуса термостата.
 
-Remove the water pump water transfer connection from the water pump.
+Удалите соединение для передачи воды из водяного насоса.
 
 ![[08200198.png]]
 
-Check the needle bearing for damage and freedom of needle rotation. Replace the bearing if it is damaged or if it does not turn freely.
+Проверьте подшипник иглы на предмет повреждения и свободы вращения иглы. Замените подшипник, если он поврежден или если он не поворачивается свободно.
 
-If the bearing is replaced, use bearing installation tool, Part Number 3824117, along with a cup driver, to remove the needle bearing from the gear housing. Gently tap the bearing out from the rear side of the housing.
+Если подшипник заменен, используйте инструмент установки подшипника, номер детали 3824117, вместе с водителем чашки, чтобы удалить подшипник иглы из корпуса зубчатой передачи. Осторожно нажмите на подшипник с задней стороны корпуса.
 
 ![[gh2bema.png]]
 
-Without EGR
+Без ЭКГ
 
-The coolant flow that provides cooling to the torque converter (if equipped) is achieved in different manners.
+Поток охлаждающей жидкости, обеспечивающий охлаждение крутящего момента (если он оборудован), достигается различными способами.
 
-ISM and QSM Series engines use a torque converter cooler disc inside the coolant bypass hose to direct engine coolant to the inlet side of the torque converter cooler.
+Двигатели серии ISM и QSM используют диск охладителя крутящего момента внутри шланга обхода охлаждающей жидкости для направления охлаждающей жидкости двигателя на входную сторону охладителя крутящего момента.
 
-1. Torque converter coolant supply
-2. Torque converter disc (orifice)
-3. Bypass hose
-4. Water pump.
+1. Подача охлаждающей жидкости для крутящего момента
+2. Диск преобразователя крутящего момента (или отверстие)
+3. шланг обходной
+4. Водяной насос.
 
 ![[08200076.png]]
 
-Remove the two water pump water transfer connection capscrews.
+Удалите два болта для передачи воды водяным насосом.
 
-Remove the three water pump mounting capscrews.
+Удалите три болта для установки водяного насоса.
 
-Rotate the water pump outward so the water transfer connection can be removed from the water pump.
+Поверните водяной насос наружу, чтобы соединение для передачи воды можно было удалить из водяного насоса.
 
-Remove the water transfer connection from the water pump.
+Удалите соединение для передачи воды из водяного насоса.
 
 ![[wp200md.png]]
 
-Remove the water pump. Twist the pump outward from the top, and angle the rear of the pump downward, as it is being removed, to allow the pump to pass the thermostat housing support.
+Удалите водяной насос. Выведите насос наружу сверху и наклоните заднюю часть насоса вниз, когда он удаляется, чтобы насос мог пройти поддержку корпуса термостата.
 
 ![[wp200mi.png]]
 
-Check the needle bearing for damage and freedom of needle rotation. Replace the bearing if it is damaged or if it does **not** turn freely.
+Проверьте подшипник иглы на предмет повреждения и свободы вращения иглы. Замените подшипник, если он поврежден или если он не поворачивается свободно.
 
-If the bearing is replaced, use bearing installation tool, Part Number 3824117, along with a cup driver to remove the needle bearing from the gear housing. Gently tap the bearing out from the rear side of the housing.
+Если подшипник заменен, используйте инструмент установки подшипника, Номер детали 3824117, вместе с водителем чашки, чтобы удалить подшипник иглы из корпуса зубчатой передачи. Осторожно нажмите на подшипник с задней стороны корпуса.
 
 ![[gh2bema.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> With EGR
+>
+> Loosen the coolant bypass hose clamps on both the upper and lower hoses.
+>
+> Remove the upper coolant hose from the thermostat housing.
+>
+> Remove the four thermostat housing mounting capscrews and the thermostat housing.
+>
+> The coolant flow that provides cooling to the torque converter (if equipped) is achieved in different manners.
+>
+> ISM and QSM Series engines use a torque converter cooler disc inside the coolant bypass hose to direct engine coolant to the inlet side of the torque converter cooler.
+>
+> 1. Torque converter coolant supply
+> 2. Torque converter disc (orifice)
+> 3. Bypass hose
+> 4. Water pump.
+>
+> Loosen the EGR cooler coolant supply lower tube retaining clamp capscrew. Remove the EGR cooler coolant supply lower tube retaining clamp and tube.
+>
+> Remove and discard the o-ring.
+>
+> Remove the three water pump mounting capscrews.
+>
+> Remove the two water pump water transfer connection capscrews and push the water pump transfer connection into the water pump as far as possible to facilitate water pump removal.
+>
+> Remove the water pump. Twist the pump outward from the top, and angle the rear of the pump downward, as it is being removed, to allow the pump to pass the thermostat housing support.
+>
+> Remove the water pump water transfer connection from the water pump.
+>
+> Check the needle bearing for damage and freedom of needle rotation. Replace the bearing if it is damaged or if it does not turn freely.
+>
+> If the bearing is replaced, use bearing installation tool, Part Number 3824117, along with a cup driver, to remove the needle bearing from the gear housing. Gently tap the bearing out from the rear side of the housing.
+>
+> Without EGR
+>
+> The coolant flow that provides cooling to the torque converter (if equipped) is achieved in different manners.
+>
+> ISM and QSM Series engines use a torque converter cooler disc inside the coolant bypass hose to direct engine coolant to the inlet side of the torque converter cooler.
+>
+> 1. Torque converter coolant supply
+> 2. Torque converter disc (orifice)
+> 3. Bypass hose
+> 4. Water pump.
+>
+> Remove the two water pump water transfer connection capscrews.
+>
+> Remove the three water pump mounting capscrews.
+>
+> Rotate the water pump outward so the water transfer connection can be removed from the water pump.
+>
+> Remove the water transfer connection from the water pump.
+>
+> Remove the water pump. Twist the pump outward from the top, and angle the rear of the pump downward, as it is being removed, to allow the pump to pass the thermostat housing support.
+>
+> Check the needle bearing for damage and freedom of needle rotation. Replace the bearing if it is damaged or if it does **not** turn freely.
+>
+> If the bearing is replaced, use bearing installation tool, Part Number 3824117, along with a cup driver to remove the needle bearing from the gear housing. Gently tap the bearing out from the rear side of the housing.

@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666239"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-011-073.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-011-073.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Exhaust Manifold Turbocharger Mounting Stud Replacement
@@ -30,66 +32,132 @@ tags:
 > **Даты:** изменён 2019-02-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-011-073.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-011-073.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- No recommended Cummins® service tools.
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Penetrating oil
-- Standard stud extractor
-- Anti-seize compound.
+- Не рекомендуется использовать инструменты Cummins®.
 
-### Preparatory Steps
+#### Дополнительные сервисные позиции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+- проникающее масло
+- Стандартный экстрактор шпильки
+- Антисептик.
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the exhaust manifold. Refer to Procedure 011-007 in Section 11.
+### Подготовительные операции
 
-### Remove
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-Apply penetrating oil to the base of the turbocharger mounting stud to be removed.
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Удалите выхлопной коллектор. См. процедуру 011-007 в разделе 11.
 
-Multiple applications of the penetrating oil may be necessary to free the turbocharger mounting stud. Follow the manufacturer's instructions.
+### Снятие
+
+Нанесите проникающее масло на основание крепления турбокомпрессора, которое должно быть удалено.
+
+Для освобождения крепежа турбокомпрессора может потребоваться несколько применений проникающего масла. Следуйте инструкциям производителя.
 
 ![[xm1bova.png]]
 
-Use a standard stud extractor to remove the turbocharger mounting stud(s) from the exhaust manifold.
+Используйте стандартный шпильчатый экстрактор для удаления шпильки (шпильки) для установки турбокомпрессора из выхлопного коллектора.
 
 ![[xm1boma.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Visually inspect for damaged threads in the turbocharger mounting stud holes.
+Визуально осмотрите поврежденные резьбы в отверстиях для крепления шпильки турбокомпрессора.
 
-Visually inspect the manifold sections for cracks or other damage.
+Визуально осмотрите секции коллектора на наличие трещин или других повреждений.
 
 ![[xm1bosa.png]]
 
-### Install
+### Установка
 
-> [!note] Note · Примечание
-> Install the shorter threaded end of the turbocharger mounting stud in the exhaust manifold flange.
+> [!note] Примечание
+> Установите более короткий резьбовый конец крепления турбокомпрессора в фланце выпускного коллектора.
 
-Apply a coat of anti-seize compound to the threads.
+Нанесите на резьбу покрытие из антисептического соединения.
 
-Install the studs in the mounting flange.
+Установите шпильки в крепежном фланце.
 
-Use two mounting nuts locked together to tighten the studs.
+Используйте два крепежных гайки, запертые вместе, чтобы затянуть шпильки.
 
-> [!tip] Момент затяжки · Torque Value
-> 20 n•m [177 in-lb]
+> [!tip] Момент затяжки
+> 20 Н·м [177 фунт-дюйм]
 
 ![[xm1boha.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Установите выхлопной коллектор. См. процедуру 011-007 в разделе 11.
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - No recommended Cummins® service tools.
+>
+> #### Additional Service Items
+>
+> - Penetrating oil
+> - Standard stud extractor
+> - Anti-seize compound.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Install the exhaust manifold. Refer to Procedure 011-007 in Section 11.
-- Connect the batteries. See equipment manufacturer service information.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the exhaust manifold. Refer to Procedure 011-007 in Section 11.
+>
+> ### Remove
+>
+> Apply penetrating oil to the base of the turbocharger mounting stud to be removed.
+>
+> Multiple applications of the penetrating oil may be necessary to free the turbocharger mounting stud. Follow the manufacturer's instructions.
+>
+> Use a standard stud extractor to remove the turbocharger mounting stud(s) from the exhaust manifold.
+>
+> ### Inspect for Reuse
+>
+> Visually inspect for damaged threads in the turbocharger mounting stud holes.
+>
+> Visually inspect the manifold sections for cracks or other damage.
+>
+> ### Install
+>
+> **Note · Примечание**
+> Install the shorter threaded end of the turbocharger mounting stud in the exhaust manifold flange.
+>
+> Apply a coat of anti-seize compound to the threads.
+>
+> Install the studs in the mounting flange.
+>
+> Use two mounting nuts locked together to tighten the studs.
+>
+> **Момент затяжки · Torque Value**
+> 20 n•m [177 in-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the exhaust manifold. Refer to Procedure 011-007 in Section 11.
+> - Connect the batteries. See equipment manufacturer service information.

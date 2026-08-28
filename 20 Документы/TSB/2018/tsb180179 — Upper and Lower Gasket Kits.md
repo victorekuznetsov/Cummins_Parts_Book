@@ -42,12 +42,14 @@ parts:
   - "4307319"
   - "4347897"
   - "5282819"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180179.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180179.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK23"
+  - "перевод/машинный"
 ---
 
 # Upper and Lower Gasket Kits
@@ -58,92 +60,100 @@ tags:
 > **Даты:** изменён 2019-02-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180179.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180179.pdf)
 
-## Upper and Lower Gasket Kits
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Верхний и нижний наборы для гаскета
 
-### Contents
+### Положение о гарантии
 
-**Product Affected:**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Пострадавший продукт:**
 
 - QSK23 CM500
 
-**Description of Change**
+**Описание изменения**
 
-This document announces the release of new upper and lower gasket kits for service.
+В этом документе анонсируется выпуск новых аптечек верхнего и нижнего уровней для обслуживания.
 
-**Reason for Change**
+**Причина изменения**
 
-These new upper and lower gasket kits improve serviceability.
+Эти новые верхние и нижние прокладки улучшают исправность.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-Service parts are available. See Tables 1, 2, and 3 for part numbers.
+Сервисные детали доступны для заказа. См. таблицы 1, 2 и 3 для номеров частей.
 
-| **Table 1, Service Parts** |  |
+| **Таблица 1, Части обслуживания** |  |
 |---|---|
-| **Part Description** | **New Part Number** |
-| Upper Gasket Kit | 4089360 |
-| Lower Gasket Kit | 4089361 |
+| **Часть описания** | **Новый номер** |
+| Верхний набор для гаскета | 4089360 |
+| Нижняя Гаскетная Кит | 4089361 |
 
-| **Table 2, Upper Gasket Kit Part Number 4089360 Contents** |  |  |
+| **Таблица 2, Верхняя часть набора для гаскета № 4089360** |  |  |
 |---|---|---|
-| **Part Description** | **Qty** | **Part Number** |
-| Thermostat Seal | 2 | [[3092399]] |
-| O Ring Seal | 6 | [[3093964]] |
-| Sealing Washer | 12 | [[3094065]] |
-| O Ring Seal | 6 | [[3347939]] |
-| O Ring Seal | 6 | [[3867651]] |
-| Sealing Washer | 6 | [[3918192]] |
-| Valve Cover Gasket | 6 | [[4006217]] |
-| Sealing Washer | 36 | [[4006239]] |
-| O Ring Seal | 6 | [[4010577]] |
-| Cylinder Head Gasket | 6 | [[4095440]] |
-| Intake Manifold Gasket | 6 | [[4095443]] |
-| Exhaust Outlet Connection Gasket | 6 | [[4095453]] |
-| Cover Plate Gasket | 1 | [[4095546]] |
-| Thermostat Housing Gasket | 1 | [[4095558]] |
-| Connection Gasket | 1 | 4095681 |
-| Connection Gasket | 1 | 4095682 |
-| Spacer Gasket | 1 | 4095974 |
-| Injector Seal | 6 | [[4307148]] |
-| O Ring Seal | 6 | [[4307319]] |
-| Cover Plate Gasket | 1 | [[4347897]] |
-| O Ring Seal | 2 | [[5282819]] |
+| **Часть описания** | **Кти** | **Номера деталей** |
+| Уплотнение термостата | 2 | [[3092399]] |
+| Уплотнительное кольцо | 6 | [[3093964]] |
+| Уплотнительная шайба | 12 | [[3094065]] |
+| Уплотнительное кольцо | 6 | [[3347939]] |
+| Уплотнительное кольцо | 6 | [[3867651]] |
+| Уплотнительная шайба | 6 | [[3918192]] |
+| Прокладка клапанной крышки | 6 | [[4006217]] |
+| Уплотнительная шайба | 36 | [[4006239]] |
+| Уплотнительное кольцо | 6 | [[4010577]] |
+| Прокладка головки блока цилиндров | 6 | [[4095440]] |
+| Прокладка впускного коллектора | 6 | [[4095443]] |
+| Прокладка выпускного патрубка | 6 | [[4095453]] |
+| Прокладка крышки-пластины | 1 | [[4095546]] |
+| Прокладка корпуса термостата | 1 | [[4095558]] |
+| Прокладка соединения | 1 | 4095681 |
+| Прокладка соединения | 1 | 4095682 |
+| Гаскет Spacer | 1 | 4095974 |
+| Уплотнение форсунки | 6 | [[4307148]] |
+| Уплотнительное кольцо | 6 | [[4307319]] |
+| Прокладка крышки-пластины | 1 | [[4347897]] |
+| Уплотнительное кольцо | 2 | [[5282819]] |
 
-| **Table 3, Lower Gasket Kit Part Number 4089361 Contents** |  |  |
+| **Таблица 3, Нижняя часть набора для гаскета № 4089361** |  |  |
 |---|---|---|
-| **Part Description** | **Qty** | **Part Number** |
-| Oil Seal | 1 | [[3016792]] |
-| O Ring seal | 1 | [[3093809]] |
-| Cover Plate Gasket | 1 | [[3094281]] |
-| Cover Plate Gasket | 1 | [[3863491]] |
-| Starter Gasket | 2 | 3864194 |
-| Sealing Washer | 10 | [[3918192]] |
-| Cover Plate Gasket | 1 | [[4095468]] |
-| Starter Gasket | 1 | [[4095483]] |
-| Grommet Seal | 4 | [[4095534]] |
-| Camshaft Cover Gasket | 6 | [[4095564]] |
-| Fuel Pump Gasket | 1 | [[4095607]] |
-| O Ring Seal | 1 | 4095613 |
-| O Ring Seal | 1 | 4095614 |
-| O Ring Seal | 1 | 4095615 |
-| Sealing Washer | 4 | 4095639 |
-| Dust Seal | 1 | 4095789 |
-| O Ring Seal | 1 | [[4095892]] |
-| O Ring Seal | 1 | [[4095893]] |
-| O Ring Seal | 1 | 4095896 |
-| O Ring Seal | 1 | [[4095947]] |
-| Pad | 24 | [[4096011]] |
-| Front Cover Seal | 1 | [[4096669]] |
-| Dust Seal | 1 | [[4096670]] |
-| O Ring Seal | 2 | [[4096976]] |
-| Cover Plate Gasket | 1 | [[4347897]] |
-| Lube Oil Filter Cover Gasket | 1 | 5301935 |
+| **Часть описания** | **Кти** | **Номера деталей** |
+| Сальник | 1 | [[3016792]] |
+| Уплотнительное кольцо | 1 | [[3093809]] |
+| Прокладка крышки-пластины | 1 | [[3094281]] |
+| Прокладка крышки-пластины | 1 | [[3863491]] |
+| Прокладка стартера | 2 | 3864194 |
+| Уплотнительная шайба | 10 | [[3918192]] |
+| Прокладка крышки-пластины | 1 | [[4095468]] |
+| Прокладка стартера | 1 | [[4095483]] |
+| Уплотнительная втулка (грумет) | 4 | [[4095534]] |
+| Прокладка крышки распредвала | 6 | [[4095564]] |
+| Прокладка топливного насоса | 1 | [[4095607]] |
+| Уплотнительное кольцо | 1 | 4095613 |
+| Уплотнительное кольцо | 1 | 4095614 |
+| Уплотнительное кольцо | 1 | 4095615 |
+| Уплотнительная шайба | 4 | 4095639 |
+| Пыльник | 1 | 4095789 |
+| Уплотнительное кольцо | 1 | [[4095892]] |
+| Уплотнительное кольцо | 1 | [[4095893]] |
+| Уплотнительное кольцо | 1 | 4095896 |
+| Уплотнительное кольцо | 1 | [[4095947]] |
+| Пад | 24 | [[4096011]] |
+| Передняя крышка Seal | 1 | [[4096669]] |
+| Пыльник | 1 | [[4096670]] |
+| Уплотнительное кольцо | 2 | [[4096976]] |
+| Прокладка крышки-пластины | 1 | [[4347897]] |
+| Lube Oil Filter на крышке | 1 | 5301935 |
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -183,3 +193,91 @@ Service parts are available. See Tables 1, 2, and 3 for part numbers.
 | [[4307319]] | O RING SEAL | Уплотнительное кольцо |
 | [[4347897]] | COVER PLATE GASKET | Прокладка крышки-пластины |
 | [[5282819]] | O RING SEAL | Уплотнительное кольцо |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Upper and Lower Gasket Kits
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected:**
+>
+> - QSK23 CM500
+>
+> **Description of Change**
+>
+> This document announces the release of new upper and lower gasket kits for service.
+>
+> **Reason for Change**
+>
+> These new upper and lower gasket kits improve serviceability.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Tables 1, 2, and 3 for part numbers.
+>
+> | **Table 1, Service Parts** |  |
+> |---|---|
+> | **Part Description** | **New Part Number** |
+> | Upper Gasket Kit | 4089360 |
+> | Lower Gasket Kit | 4089361 |
+>
+> | **Table 2, Upper Gasket Kit Part Number 4089360 Contents** |  |  |
+> |---|---|---|
+> | **Part Description** | **Qty** | **Part Number** |
+> | Thermostat Seal | 2 | [[3092399]] |
+> | O Ring Seal | 6 | [[3093964]] |
+> | Sealing Washer | 12 | [[3094065]] |
+> | O Ring Seal | 6 | [[3347939]] |
+> | O Ring Seal | 6 | [[3867651]] |
+> | Sealing Washer | 6 | [[3918192]] |
+> | Valve Cover Gasket | 6 | [[4006217]] |
+> | Sealing Washer | 36 | [[4006239]] |
+> | O Ring Seal | 6 | [[4010577]] |
+> | Cylinder Head Gasket | 6 | [[4095440]] |
+> | Intake Manifold Gasket | 6 | [[4095443]] |
+> | Exhaust Outlet Connection Gasket | 6 | [[4095453]] |
+> | Cover Plate Gasket | 1 | [[4095546]] |
+> | Thermostat Housing Gasket | 1 | [[4095558]] |
+> | Connection Gasket | 1 | 4095681 |
+> | Connection Gasket | 1 | 4095682 |
+> | Spacer Gasket | 1 | 4095974 |
+> | Injector Seal | 6 | [[4307148]] |
+> | O Ring Seal | 6 | [[4307319]] |
+> | Cover Plate Gasket | 1 | [[4347897]] |
+> | O Ring Seal | 2 | [[5282819]] |
+>
+> | **Table 3, Lower Gasket Kit Part Number 4089361 Contents** |  |  |
+> |---|---|---|
+> | **Part Description** | **Qty** | **Part Number** |
+> | Oil Seal | 1 | [[3016792]] |
+> | O Ring seal | 1 | [[3093809]] |
+> | Cover Plate Gasket | 1 | [[3094281]] |
+> | Cover Plate Gasket | 1 | [[3863491]] |
+> | Starter Gasket | 2 | 3864194 |
+> | Sealing Washer | 10 | [[3918192]] |
+> | Cover Plate Gasket | 1 | [[4095468]] |
+> | Starter Gasket | 1 | [[4095483]] |
+> | Grommet Seal | 4 | [[4095534]] |
+> | Camshaft Cover Gasket | 6 | [[4095564]] |
+> | Fuel Pump Gasket | 1 | [[4095607]] |
+> | O Ring Seal | 1 | 4095613 |
+> | O Ring Seal | 1 | 4095614 |
+> | O Ring Seal | 1 | 4095615 |
+> | Sealing Washer | 4 | 4095639 |
+> | Dust Seal | 1 | 4095789 |
+> | O Ring Seal | 1 | [[4095892]] |
+> | O Ring Seal | 1 | [[4095893]] |
+> | O Ring Seal | 1 | 4095896 |
+> | O Ring Seal | 1 | [[4095947]] |
+> | Pad | 24 | [[4096011]] |
+> | Front Cover Seal | 1 | [[4096669]] |
+> | Dust Seal | 1 | [[4096670]] |
+> | O Ring Seal | 2 | [[4096976]] |
+> | Cover Plate Gasket | 1 | [[4347897]] |
+> | Lube Oil Filter Cover Gasket | 1 | 5301935 |
+>
+> ### Document History

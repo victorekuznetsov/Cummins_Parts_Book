@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101164.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101164.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Main Bearing Bore Alignment
@@ -25,19 +27,46 @@ tags:
 > **Даты:** изменён 2002-05-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101164.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101164.pdf)
 
-## Main Bearing Bore Alignment
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Главная Подшипниковый цилиндр Bore Alignment
 
-### Contents
+### Положение о гарантии
 
-This service/parts topic describes the procedure to check the main bearing bore alignment of the QSK45 and QSK60 series engines. This procedure will be included in the future QSK45 and QSK60 Shop manual, Bulletin 4021373.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-| Table 1, Service Tools for the QSK45 and QSK60 Main Bearing Bore Alignment |  |
+### Содержание
+
+В данной теме описана процедура проверки выравнивания несущих цилиндров двигателей серий QSK45 и QSK60. Эта процедура будет включена в будущие руководства по магазинам QSK45 и QSK60, в бюллетень 4021373.
+
+| Таблица 1, Инструменты обслуживания для QSK45 и QSK60 Основной подшипниковый цилиндр выравнивания |  |
 |---|---|
-| Part Description | Part Number |
-| Centering Ring | 3164873 |
-| Checking Ring | 3164872 |
-| Checking Bar | 3375061 |
+| Часть описание | Номер детали |
+| Центрированное кольцо | 3164873 |
+| Проверить кольцо | 3164872 |
+| Проверить бар | 3375061 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Main Bearing Bore Alignment
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service/parts topic describes the procedure to check the main bearing bore alignment of the QSK45 and QSK60 series engines. This procedure will be included in the future QSK45 and QSK60 Shop manual, Bulletin 4021373.
+>
+> | Table 1, Service Tools for the QSK45 and QSK60 Main Bearing Bore Alignment |  |
+> |---|---|
+> | Part Description | Part Number |
+> | Centering Ring | 3164873 |
+> | Checking Ring | 3164872 |
+> | Checking Bar | 3375061 |

@@ -13,12 +13,14 @@ families:
 manuals:
   - "5659763"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-008-017.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-008-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/15N"
+  - "перевод/машинный"
 ---
 
 # Coolant Vent Lines
@@ -32,26 +34,54 @@ tags:
 > **Даты:** изменён 2022-12-14
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-008-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-008-017.pdf)
 
-### Select Service Tools
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Recommended Cummins® Service Tools
 
-- No recommended Cummins® service tools required
+### Выбор сервисного инструмента
 
-#### Additional Service Items
+#### Рекомендованный сервисный инструмент Cummins®
 
-- No additional service items required.
+- Не требуется никаких рекомендуемых инструментов обслуживания Cummins®
 
-### Initial Check
+#### Дополнительные сервисные позиции
 
-The cooling system **must** be designed to allow air to escape while filling the coolant system.
+- Никаких дополнительных предметов обслуживания не требуется.
+
+### Первичная проверка
+
+Система охлаждения должна быть спроектирована таким образом, чтобы воздух мог выходить при заполнении системы охлаждения.
 
 ![[ra100vb.png]]
 
-During engine operation, coolant will continuously flow through the engine vent line to remove air from the coolant.
+Во время работы двигателя охлаждающая жидкость будет непрерывно течь через линию вентиляции двигателя, чтобы удалить воздух из охлаждающей жидкости.
 
 ![[ra800vh.png]]
 
-The cooling system vent line is plumbed from a special connection located on the top of the thermostat housing to Exhaust Gas Recirculation (EGR) cooler vent port, then goes to the radiator fill tank or auxiliary tank above the coolant level.
+Линия вентиляции системы охлаждения отводится от специального соединения, расположенного на верхней части корпуса термостата, к более холодному вентиляционному порту с отработавшим газом (EGR), затем идет к резервуару для наполнения радиатора или вспомогательному резервуару выше уровня охлаждающей жидкости.
 
 ![[08s00161.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - No recommended Cummins® service tools required
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### Initial Check
+>
+> The cooling system **must** be designed to allow air to escape while filling the coolant system.
+>
+> During engine operation, coolant will continuously flow through the engine vent line to remove air from the coolant.
+>
+> The cooling system vent line is plumbed from a special connection located on the top of the thermostat housing to Exhaust Gas Recirculation (EGR) cooler vent port, then goes to the radiator fill tank or auxiliary tank above the coolant level.

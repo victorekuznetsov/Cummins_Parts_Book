@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-051-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-051-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Injector Supply Lines (High Pressure)
@@ -33,41 +35,78 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-051-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-051-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-Distributor-Type Pumps
+### Снятие
 
-> [!note] Note · Примечание
-> Thoroughly clean the area around the fuel lines before removal.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Disconnect the high-pressure fuel lines from the injectors, and complete the following steps:
+Насосы типа распределителя
+
+> [!note] Примечание
+> Тщательно очистить территорию вокруг топливных линий перед удалением.
+
+Отсоедините топливные линии высокого давления от топливного форсунка и выполните следующие действия:
 
 ![[fs9fthc.png]]
 
-Remove the fuel line clamp capscrews from the intake cover.
+Удалите зажимные болты топливной линии из крышки впуска.
 
 ![[ft9bkma.png]]
 
-Remove the fuel lines from the fuel injection pump.
+Удалите топливные линии из насоса для впрыска топлива.
 
-> [!note] Note · Примечание
-> Use two wrenches to prevent the delivery valve holder from turning.
+> [!note] Примечание
+> Используйте два гаечных ключа, чтобы предотвратить поворот держателя клапана доставки.
 
 ![[ft900mc.png]]
 
-In-Line Pump
+Внутренняя помпа
 
-Disconnect the fuel line(s) from the injectors.
+Отсоедините топливный(ые) трубопровод(ы) от форсунки.
 
 ![[ft9tbwc.png]]
 
-Remove the fuel line clamp capscrews from the intake cover.
+Удалите зажимные болты топливной линии из крышки впуска.
 
 ![[ft9bkmb.png]]
 
-Disconnect the fuel line(s) from the fuel injection pump.
+Отсоедините топливный(ые) трубопровод(ы) от насоса(ов) для впрыска топлива.
 
 ![[fs9ftmh.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Distributor-Type Pumps
+>
+> **Note · Примечание**
+> Thoroughly clean the area around the fuel lines before removal.
+>
+> Disconnect the high-pressure fuel lines from the injectors, and complete the following steps:
+>
+> Remove the fuel line clamp capscrews from the intake cover.
+>
+> Remove the fuel lines from the fuel injection pump.
+>
+> **Note · Примечание**
+> Use two wrenches to prevent the delivery valve holder from turning.
+>
+> In-Line Pump
+>
+> Disconnect the fuel line(s) from the injectors.
+>
+> Remove the fuel line clamp capscrews from the intake cover.
+>
+> Disconnect the fuel line(s) from the fuel injection pump.

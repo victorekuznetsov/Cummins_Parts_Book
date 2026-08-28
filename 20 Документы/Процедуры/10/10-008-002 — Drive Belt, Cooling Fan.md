@@ -15,13 +15,15 @@ manuals:
   - "3666251"
   - "3666423"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-008-002.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-008-002.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Drive Belt, Cooling Fan
@@ -35,38 +37,76 @@ tags:
 > **Даты:** изменён 2002-11-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-008-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-008-002.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Drives Alternator
 
-> [!warning] CAUTION · Осторожно
-> The belt tensioner is spring loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner or cause personal injury.
+### Снятие
 
-Pivot the automatic tensioner down to relieve tension on the belt. Remove the belt.
+Водитель Alternator
+
+> [!warning] ОСТОРОЖНО
+> Натяжитель ремня загружен пружиной и должен быть отвлечен от приводного ремня. Разворот в неправильном направлении может привести к повреждению натяжителя ремня или вызвать личную травму.
+
+Включите автоматический натяжитель, чтобы снять напряжение на поясе. Снимите ремень.
 
 ![[08c00198.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Drives Alternator
+Водитель Alternator
 
-Inspect the alternator pulley, the water pump pulley, the fan clutch pulley, and the crankshaft pulley for cracks, burrs, and broken or deformed grooves.
+Осмотрите шкив генератора, шкив водяного насоса, шкив сцепления вентилятора и шкив коленчатого вала на наличие трещин, заусенцев и сломанных или деформированных канавок.
 
-Use a wire brush to clean debris found in the pulley grooves.
+Используйте проволочную щетку для очистки мусора, найденного в канавках шкива.
 
 ![[fa8pusa.png]]
 
-Inspect the belt for cracks, glazing, tears or cuts, and excessive wear. Replace the belt if necessary.
+Осмотрите пояс на наличие трещин, остекления, слез или порезов, а также чрезмерного износа. При необходимости заменяйте ремень.
 
 ![[fa9blsa.png]]
 
-### Install
+### Установка
 
-Drives Alternator
+Водитель Alternator
 
-> [!warning] CAUTION · Осторожно
-> The belt tensioner is spring loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner or cause personal injury.
+> [!warning] ОСТОРОЖНО
+> Натяжитель ремня загружен пружиной и должен быть отвлечен от приводного ремня. Разворот в неправильном направлении может привести к повреждению натяжителя ремня или вызвать личную травму.
 
-Pivot and hold the belt tensioner. Install the drive belt and release the tensioner.
+Поверните и удерживайте натяжитель ремня. Установите приводной ремень и отпустите натяжитель.
 
 ![[08c00198.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Drives Alternator
+>
+> **CAUTION · Осторожно**
+> The belt tensioner is spring loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner or cause personal injury.
+>
+> Pivot the automatic tensioner down to relieve tension on the belt. Remove the belt.
+>
+> ### Clean and Inspect for Reuse
+>
+> Drives Alternator
+>
+> Inspect the alternator pulley, the water pump pulley, the fan clutch pulley, and the crankshaft pulley for cracks, burrs, and broken or deformed grooves.
+>
+> Use a wire brush to clean debris found in the pulley grooves.
+>
+> Inspect the belt for cracks, glazing, tears or cuts, and excessive wear. Replace the belt if necessary.
+>
+> ### Install
+>
+> Drives Alternator
+>
+> **CAUTION · Осторожно**
+> The belt tensioner is spring loaded and must be pivoted away from the drive belt. Pivoting in the wrong direction can result in damage to the belt tensioner or cause personal injury.
+>
+> Pivot and hold the belt tensioner. Install the drive belt and release the tensioner.

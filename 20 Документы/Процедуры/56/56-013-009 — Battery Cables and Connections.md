@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-009.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-009.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Battery Cables and Connections
@@ -35,20 +37,44 @@ tags:
 > **Даты:** изменён 2002-07-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-009.pdf)
 
-### Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Inspect the battery terminals for loose, broken, or corroded connections. Repair or replace broken cables or terminals.
+
+### Проверка при повторном использовании
+
+Проверьте клеммы батареи на наличие свободных, сломанных или разъединенных соединений. Ремонт или замена сломанных кабелей или терминалов.
 
 ![[ea8cosa.png]]
 
-If the connections are corroded, remove the cables and use a battery brush to clean the cable and battery terminals.
+Если соединения разъединены, удалите кабели и используйте щетку батареи для очистки кабеля и клемм батареи.
 
-> [!danger] WARNING · Опасно
-> Always connect the negative (-) cable last to avoid sparks that can ignite explosive battery gases.
+> [!danger] ОПАСНО
+> Всегда подключайте отрицательный (-) кабель последним, чтобы избежать искр, которые могут воспламенить взрывоопасные газы батареи.
 
-> [!danger] WARNING · Опасно
-> Batteries emit hydrogen gas. To avoid explosion and personal injury, do not smoke or allow ignition sources in area when servicing batteries.
+> [!danger] ОПАСНО
+> Батареи выделяют водородный газ. Чтобы избежать взрыва и травм, не курите и не допускайте источники возгорания в зоне при обслуживании батарей.
 
-Connect and tighten the battery cables. Use grease to coat the battery terminals to prevent corrosion.
+Подключите и затяните кабели батареи. Используйте смазку для покрытия терминалов батареи для предотвращения коррозии.
 
 ![[ea8coea.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Inspect for Reuse
+>
+> Inspect the battery terminals for loose, broken, or corroded connections. Repair or replace broken cables or terminals.
+>
+> If the connections are corroded, remove the cables and use a battery brush to clean the cable and battery terminals.
+>
+> **WARNING · Опасно**
+> Always connect the negative (-) cable last to avoid sparks that can ignite explosive battery gases.
+>
+> **WARNING · Опасно**
+> Batteries emit hydrogen gas. To avoid explosion and personal injury, do not smoke or allow ignition sources in area when servicing batteries.
+>
+> Connect and tighten the battery cables. Use grease to coat the battery terminals to prevent corrosion.

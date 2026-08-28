@@ -11,12 +11,14 @@ families:
 parts:
   - "5532492"
   - "5679854"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2022/tsb220095.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb220095.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # New Lubricating Oil Pump
@@ -27,15 +29,23 @@ tags:
 > **Даты:** изменён 2022-05-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2022/tsb220095.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb220095.pdf)
 
-## New Lubricating Oil Pump
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый насос для моторного масла
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - ISX CM570
 - ISX CM870
@@ -54,27 +64,27 @@ The information in this document has no effect on present warranty coverage or r
 - QSX15 CM570 X147G
 - X15 CM2350 X116B
 
-**Description of Change**
+**Описание изменения**
 
-A new lubricating oil pump is available.
+Доступен новый насос для моторного масла.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-Service parts are available. See Table 1 for part numbers.
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
 
-| Table 1, Service Parts |  |  |  |  |
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| Lubrication Oil Pump | 3687528 | No | Yes | 5680039 |
-| [[5532492]] | No | Yes |  |  |
-| 5599284 | No | Yes |  |  |
-| [[5679854]] | No | Yes |  |  |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| Насос для моторного масла | 3687528 | Нет | Да | 5680039 |
+| [[5532492]] | Нет | Да |  |  |
+| 5599284 | Нет | Да |  |  |
+| [[5679854]] | Нет | Да |  |  |
 
-**Part Inventory Action**
+**Часть инвентаризации**
 
-Use existing part number inventory before using the new part number.
+Используйте существующий инвентарь номеров деталей перед использованием нового номера деталей.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -82,3 +92,53 @@ Use existing part number inventory before using the new part number.
 |---|---|---|
 | [[5532492]] | LUBRICATING OIL PUMP | Масляный насос |
 | [[5679854]] | LUBRICATING OIL PUMP | Масляный насос |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Lubricating Oil Pump
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - ISX CM570
+> - ISX CM870
+> - ISX CM871
+> - ISX CM871 E
+> - ISX15 CM2250
+> - ISX15 CM2250 SN
+> - ISX15 CM2350 X101
+> - QSX15 CM2250
+> - QSX15 CM2250 ECF
+> - QSX15 CM2250 X115
+> - QSX15 CM2350 X105
+> - QSX15 CM2350 X106
+> - QSX15 CM570
+> - QSX15 CM2350 X118
+> - QSX15 CM570 X147G
+> - X15 CM2350 X116B
+>
+> **Description of Change**
+>
+> A new lubricating oil pump is available.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | Lubrication Oil Pump | 3687528 | No | Yes | 5680039 |
+> | [[5532492]] | No | Yes |  |  |
+> | 5599284 | No | Yes |  |  |
+> | [[5679854]] | No | Yes |  |  |
+>
+> **Part Inventory Action**
+>
+> Use existing part number inventory before using the new part number.
+>
+> ### Document History

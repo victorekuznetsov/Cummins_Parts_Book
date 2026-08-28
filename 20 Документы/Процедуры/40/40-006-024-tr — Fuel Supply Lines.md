@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 21
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-024-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-024-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fuel Supply Lines
@@ -33,166 +35,298 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-024-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-024-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-- Disconnect the batteries.
+### Подготовительные операции
+
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Отсоедините аккумуляторные батареи.
 
 ![[13900050.png]]
 
-### Remove
+### Снятие
 
-Low Pressure Fuel Line(s)
+Топливная линия (линии) низкого давления
 
-Low-Pressure Fuel Line Replacement - Distributor-Type Pumps
+Замена топливной линии низкого давления - насосы типа распределителя
 
-Remove the line from the fuel transfer pump and fuel filter head.
+Удалите линию из насоса для передачи топлива и головки установки топливного фильтра.
 
 ![[ft9tbme.png]]
 
-Bosch® In-Line Fuel Injection Pump Fuel Line
+Bosch® In-Line Fuel Injection Pump Fuel Line (Топливная линия)
 
-Remove the fuel line from the piston-style fuel transfer pump.
+Удалите топливный поток из насоса для передачи топлива в поршневом стиле.
 
 ![[ft9tbmf.png]]
 
-Remove the fuel drain manifold line at the filter head.
+Удалите линию коллектора слива топлива на головке фильтра.
 
 ![[ft9wamc.png]]
 
-Remove the fuel line from the filter head.
+Удалите топливный поток из головки фильтра.
 
 ![[ft9tbmh.png]]
 
-Fuel Injection Pump Supply Line - Distributor-Type Pumps
+Линия подачи насосов для впрыска топлива - насосы типа распределителя
 
-Remove the bleed screw banjo fitting, and complete the following steps:
+Удалите кровоточащий винтовой банджо и выполните следующие шаги:
 
 ![[ft900va.png]]
 
-Remove the fuel line from the Bosch® fuel injection pump fitting.
+Удалите топливный трубопровод из установки насоса для впрыска топлива Bosch®.
 
-> [!note] Note · Примечание
-> To prevent loosening the fuel injection pump inlet fitting, use two wrenches when removing the fuel supply line.
+> [!note] Примечание
+> Чтобы предотвратить ослабление впускной установки насоса для впрыска топлива, используйте два гаечных ключа при удалении линии подачи топлива.
 
 ![[ft9tbmi.png]]
 
-Remove the fuel supply line from the two Lucas CAV fuel injection pump fittings.
+Удалите линию подачи топлива из двух фитингов топливного насоса Lucas CAV.
 
-> [!note] Note · Примечание
-> Replace the seals in the fittings if the line is disassembled.
+> [!note] Примечание
+> Заменить уплотнения в фитингах, если линия разобрана.
 
 ![[ft9tbmj.png]]
 
-Pump Supply Line - Bosch® In-Line Pump
+Линия подачи насосов - Bosch® In-Line Pump
 
-Remove the banjo capscrew and sealing washers at the filter head.
+Удалите болты банджо и герметизирующие шайбы на головке фильтра.
 
 ![[ft9wamb.png]]
 
-Remove the banjo capscrew and copper sealing washer at the fuel injection pump inlet.
+Удалите болты банджо и медную герметичную шайбу на входе насоса для впрыска топлива.
 
 ![[ft9csma.png]]
 
-### Install
+### Установка
 
-Low Pressure Fuel Line(s)
+Топливная линия (линии) низкого давления
 
-> [!note] Note · Примечание
-> When replacing the fuel lines, replace the banjo fitting sealing washers (1) each time they are removed.
+> [!note] Примечание
+> При замене топливных линий заменяйте герметичные шайбы (1), установленные на банджо, каждый раз, когда они удаляются.
 
 ![[ft9tbhc.png]]
 
-Fuel Pump Supply Line - Bosch® In-Line Pump.
+Линия подачи топливного насоса - Bosch® In-Line Pump.
 
-Install the banjo capscrew and copper sealing washer at the fuel injection pump inlet.
+Установите болты банджо и медную герметичную шайбу на входе насоса для впрыска топлива.
 
-> [!note] Note · Примечание
-> When replacing the fuel lines, replace the banjo fitting sealing washers each time they are removed.
+> [!note] Примечание
+> При замене топливных линий заменяйте герметичные шайбы, установленные на банджо, каждый раз, когда они удаляются.
 
-Install the fuel line and tighten.
+Установите топливный поток и затяните.
 
-> [!tip] Момент затяжки · Torque Value
-> 32 n•m [24 ft-lb]
+> [!tip] Момент затяжки
+> 32 Н·м [24 фунт-фут]
 
 ![[05900874.png]]
 
-Install the banjo capscrew and sealing washers at the filter head.
+Установите болты банджо и герметизирующие шайбы на головке фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[ft9wamb.png]]
 
-Install the fuel supply line to the two Lucas CAV fuel injection pumps.
+Установите линию подачи топлива на два насоса для впрыска топлива Lucas CAV.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[ft9tbmj.png]]
 
-Install the fuel line to the Bosch® fuel injection pump fitting.
+Установите топливный трубопровод на установку насоса для впрыска топлива Bosch®.
 
-> [!note] Note · Примечание
-> To prevent overtightening the fuel injection pump inlet fitting, use two wrenches when installing the fuel supply line.
+> [!note] Примечание
+> Чтобы предотвратить затягивание впускной установки насоса для впрыска топлива, используйте два гаечных ключа при установке линии подачи топлива.
 
-> [!tip] Момент затяжки · Torque Value
-> 32 n•m [24 ft-lb]
+> [!tip] Момент затяжки
+> 32 Н·м [24 фунт-фут]
 
 ![[05900875.png]]
 
-Fuel Injection Pump Supply Line - Distributor-Type Pumps.
+Линия подачи насосов для впрыска топлива - насосы типа распределителя.
 
-Install the bleed screw banjo fitting.
+Установите кровоточащий винтовой банджо.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[ft900va.png]]
 
-Install the fuel line to the filter head.
+Установите топливный трубопровод на головку фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[05900876.png]]
 
-Install the fuel drain manifold line at the filter head.
+Установите линию коллектора слива топлива на головке фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 13 n•m [10 ft-lb]
+> [!tip] Момент затяжки
+> 13 Н·м [10 фунт-фут]
 
 ![[ft9wamc.png]]
 
-Bosch® In-Line Fuel Injection Pump Fuel Line.
+Bosch® In-Line Fuel Injection Pump Fuel Line (Топливная линия для впрыска топлива).
 
-Install the fuel line to the piston-style fuel transfer pump.
+Установите топливный трубопровод на насос для передачи топлива в поршневом стиле.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
-> [!note] Note · Примечание
-> To prevent overtightening the fuel injection pump inlet fitting, use two wrenches when installing the fuel supply line.
+> [!note] Примечание
+> Чтобы предотвратить затягивание впускной установки насоса для впрыска топлива, используйте два гаечных ключа при установке линии подачи топлива.
 
 ![[05900877.png]]
 
-Low-Pressure Fuel Line Replacment - Distributor-Type Pumps.
+Замена топливной линии низкого давления - насосы типа распределителя.
 
-Install the line from the fuel transfer pump and fuel filter head.
+Установите линию от насоса для передачи топлива и головки установки топливного фильтра.
 
-> [!tip] Момент затяжки · Torque Value
-> 24 n•m [18 ft-lb]
+> [!tip] Момент затяжки
+> 24 Н·м [18 фунт-фут]
 
 ![[05900878.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Connect the batteries
-- Operate the engine and check for leaks.
+- Подключите батареи
+- Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[13900050.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Disconnect the batteries.
+>
+> ### Remove
+>
+> Low Pressure Fuel Line(s)
+>
+> Low-Pressure Fuel Line Replacement - Distributor-Type Pumps
+>
+> Remove the line from the fuel transfer pump and fuel filter head.
+>
+> Bosch® In-Line Fuel Injection Pump Fuel Line
+>
+> Remove the fuel line from the piston-style fuel transfer pump.
+>
+> Remove the fuel drain manifold line at the filter head.
+>
+> Remove the fuel line from the filter head.
+>
+> Fuel Injection Pump Supply Line - Distributor-Type Pumps
+>
+> Remove the bleed screw banjo fitting, and complete the following steps:
+>
+> Remove the fuel line from the Bosch® fuel injection pump fitting.
+>
+> **Note · Примечание**
+> To prevent loosening the fuel injection pump inlet fitting, use two wrenches when removing the fuel supply line.
+>
+> Remove the fuel supply line from the two Lucas CAV fuel injection pump fittings.
+>
+> **Note · Примечание**
+> Replace the seals in the fittings if the line is disassembled.
+>
+> Pump Supply Line - Bosch® In-Line Pump
+>
+> Remove the banjo capscrew and sealing washers at the filter head.
+>
+> Remove the banjo capscrew and copper sealing washer at the fuel injection pump inlet.
+>
+> ### Install
+>
+> Low Pressure Fuel Line(s)
+>
+> **Note · Примечание**
+> When replacing the fuel lines, replace the banjo fitting sealing washers (1) each time they are removed.
+>
+> Fuel Pump Supply Line - Bosch® In-Line Pump.
+>
+> Install the banjo capscrew and copper sealing washer at the fuel injection pump inlet.
+>
+> **Note · Примечание**
+> When replacing the fuel lines, replace the banjo fitting sealing washers each time they are removed.
+>
+> Install the fuel line and tighten.
+>
+> **Момент затяжки · Torque Value**
+> 32 n•m [24 ft-lb]
+>
+> Install the banjo capscrew and sealing washers at the filter head.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> Install the fuel supply line to the two Lucas CAV fuel injection pumps.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> Install the fuel line to the Bosch® fuel injection pump fitting.
+>
+> **Note · Примечание**
+> To prevent overtightening the fuel injection pump inlet fitting, use two wrenches when installing the fuel supply line.
+>
+> **Момент затяжки · Torque Value**
+> 32 n•m [24 ft-lb]
+>
+> Fuel Injection Pump Supply Line - Distributor-Type Pumps.
+>
+> Install the bleed screw banjo fitting.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> Install the fuel line to the filter head.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> Install the fuel drain manifold line at the filter head.
+>
+> **Момент затяжки · Torque Value**
+> 13 n•m [10 ft-lb]
+>
+> Bosch® In-Line Fuel Injection Pump Fuel Line.
+>
+> Install the fuel line to the piston-style fuel transfer pump.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> **Note · Примечание**
+> To prevent overtightening the fuel injection pump inlet fitting, use two wrenches when installing the fuel supply line.
+>
+> Low-Pressure Fuel Line Replacment - Distributor-Type Pumps.
+>
+> Install the line from the fuel transfer pump and fuel filter head.
+>
+> **Момент затяжки · Torque Value**
+> 24 n•m [18 ft-lb]
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Connect the batteries
+> - Operate the engine and check for leaks.

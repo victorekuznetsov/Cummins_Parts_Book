@@ -8,12 +8,14 @@ engines:
   - "80248213"
 families:
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103832.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103832.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Service Tool Procedure, Cylinder Block Capscrew Thread Repair Service Tools Added
@@ -24,12 +26,32 @@ tags:
 > **Даты:** изменён 2009-06-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103832.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103832.pdf)
 
-## Service Tool Procedure, Cylinder Block Capscrew Thread Repair Service Tools Added
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Обслуживание инструментальных средств Процедура, Cylinder Block болты Thread Repair Service Tools Добавлено
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises Procedure 022-001\_01 (Service Tools) to include the tool part numbers required to complete the cylinder head capscrew thread repair.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема службы/частей пересматривает Процедура 022-001\_01 (Сервисные инструменты), чтобы включить номера деталей инструмента, необходимые для завершения ремонта резьбы головки цилиндра.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Service Tool Procedure, Cylinder Block Capscrew Thread Repair Service Tools Added
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises Procedure 022-001\_01 (Service Tools) to include the tool part numbers required to complete the cylinder head capscrew thread repair.

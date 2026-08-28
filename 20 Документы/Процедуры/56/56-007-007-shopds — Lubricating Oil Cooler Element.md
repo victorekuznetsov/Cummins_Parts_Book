@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-007-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-007-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Cooler Element
@@ -35,13 +37,32 @@ tags:
 > **Даты:** изменён 2016-04-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-007-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-007-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> Do not damage the oil cooler elements by prying with tools that have sharp or pointed edges or corners. The sharp tools can penetrate the oil cooler element and cause a leak.
 
-Remove the three oil cooler elements (2) on the QSK45 engine or the four oil cooler elements (2) on a QSK60 engine.
+### Снятие
 
-Remove and discard four o-rings (1) from each oil cooler element (2).
+> [!warning] ОСТОРОЖНО
+> Не повреждайте элементы масляного охладителя, посторонних инструментов, которые имеют острые или заостренные края или углы. Острые инструменты могут проникать в элемент масляного охладителя и вызывать утечку.
+
+Удалите три масляных охладителя (2) на двигателе QSK45 или четыре масляных охладителя (2) на двигателе QSK60.
+
+Удалите и отбросьте четыре кольца (1) из каждого элемента масляного охладителя (2).
 
 ![[07600286.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **CAUTION · Осторожно**
+> Do not damage the oil cooler elements by prying with tools that have sharp or pointed edges or corners. The sharp tools can penetrate the oil cooler element and cause a leak.
+>
+> Remove the three oil cooler elements (2) on the QSK45 engine or the four oil cooler elements (2) on a QSK60 engine.
+>
+> Remove and discard four o-rings (1) from each oil cooler element (2).

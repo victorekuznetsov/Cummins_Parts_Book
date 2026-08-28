@@ -8,12 +8,14 @@ engines:
   - "80248213"
 families:
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190074.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190074.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Western Star Charging System Alternator Bracket Interference with Water Pump
@@ -24,54 +26,116 @@ tags:
 > **Даты:** изменён 2019-05-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190074.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190074.pdf)
 
-## Western Star Charging System Alternator Bracket Interference with Water Pump
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document authorizes specific changes to the repair practice for failures covered under product warranty coverages.
+## Western Star Charging System Alternator Bracket Interference (перехват кронштейна)
 
-### Contents
+### Положение о гарантии
 
-**Products Affected**
+Информация, содержащаяся в этом документе, разрешает внесение конкретных изменений в практику ремонта при неисправностях, охватываемых гарантийным покрытием продукции.
 
-Engine:
+### Содержание
 
-- Signature ISX CM570
+**Пострадавшие продукты**
 
-Chassis
+Двигатель:
 
-- Western Star
+- Подпись ISX CM570
 
-**Issue**
+шасси
 
-Symptom:
+- Западная звезда
 
-- New design water pump is **not** compatible with Western Star chassis charging system alternator bracket.
+**Проблема**
 
-Root Cause:
+Симптом:
 
-- Charging system alternator bracket is **not** compatible dimensionally with the new design water pump.
+- Новый дизайн водяного насоса не совместим с зарядной системой переменного генератора шасси Western Star.
 
-**Verification**
+Первопричина:
 
-New water pump is **not** be able to be mounted with existing alternator bracket.
+- Система зарядки генератора скобки **не** совместима с новым дизайном водяного насоса.
 
-**Resolution**
+**Проверка**
 
-A new Western Star charging system alternator bracke has been released that is compatible with the new water pump.
+Новый водяной насос не может быть установлен с существующим кронштейном генератора переменного тока.
 
-**Service Instructions**
+**Решение**
 
-New charging system alternator bracket **must** be ordered if new water pump is to be installed. See Table 1 below for part number information.
+Выпущен новый зарядный блок-генератор Western Star, совместимый с новым водяным насосом.
 
-**Service Parts Availability**
+**Указания по обслуживанию**
 
-Service parts are available. See Table 1 for part numbers.
+Для установки нового водяного насоса необходимо заказать новую систему зарядки генератора переменного тока. См. таблицу 1 ниже для информации о номере части.
 
-| Table 1, Service Parts |  |  |  |  |
+**Наличие сервисных деталей**
+
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
+
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| WATER PUMP | 4923759 | Yes | Yes | 5484604 |
-| ALTERNATOR BRACKET | 80204-3414 | Yes | Yes | 01-34949-000 |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| Водяной насос | 4923759 | Да | Да | 5484604 |
+| Кронштейн генератора | 80204-3414 | Да | Да | 01-34949-000 |
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Western Star Charging System Alternator Bracket Interference with Water Pump
+>
+> ### Warranty Statement
+>
+> The information in this document authorizes specific changes to the repair practice for failures covered under product warranty coverages.
+>
+> ### Contents
+>
+> **Products Affected**
+>
+> Engine:
+>
+> - Signature ISX CM570
+>
+> Chassis
+>
+> - Western Star
+>
+> **Issue**
+>
+> Symptom:
+>
+> - New design water pump is **not** compatible with Western Star chassis charging system alternator bracket.
+>
+> Root Cause:
+>
+> - Charging system alternator bracket is **not** compatible dimensionally with the new design water pump.
+>
+> **Verification**
+>
+> New water pump is **not** be able to be mounted with existing alternator bracket.
+>
+> **Resolution**
+>
+> A new Western Star charging system alternator bracke has been released that is compatible with the new water pump.
+>
+> **Service Instructions**
+>
+> New charging system alternator bracket **must** be ordered if new water pump is to be installed. See Table 1 below for part number information.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | WATER PUMP | 4923759 | Yes | Yes | 5484604 |
+> | ALTERNATOR BRACKET | 80204-3414 | Yes | Yes | 01-34949-000 |
+>
+> ### Document History

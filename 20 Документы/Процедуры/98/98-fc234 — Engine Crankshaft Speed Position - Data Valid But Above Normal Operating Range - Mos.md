@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666070"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc234.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc234.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/98"
+  - "перевод/машинный"
 ---
 
 # Engine Crankshaft Speed/Position - Data Valid But Above Normal Operating Range - Most Severe Level
@@ -30,76 +32,158 @@ tags:
 > **Даты:** изменён 2021-09-09
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc234.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc234.pdf)
 
-### Fault Code: 234
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Crankshaft Speed/Position - Data Valid But Above Normal Operating Range - Most Severe Level
 
-Printable Version
+### Код неисправности: 234
 
-### Overview
+### Скорость/позиция коленчатого вала двигателя - данные действительны, но выше нормального рабочего диапазона - самый тяжелый уровень
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 234 PID(P): P190 SPN: FMI: 0 Lamp: Flashing SRT: 00-628 | Engine speed signal indicates engine speed above engine protection limit. | Engine will shut down. |
+| Код неисправности: 234 PID(P): P190 SPN: ФМИ: 0 лампочка: Флешинг SRT: 00-628 | Сигнал скорости двигателя указывает на скорость двигателя выше предела защиты двигателя. | Двигатель отключится. |
 
 ![[19802309.png]]
 
-Engine Speed Sensor Circuit
+Цепь датчика частоты вращения двигателя
 
-### Circuit Description
+### Описание цепи
 
-The engine speed sensor is dual channel speed sensor used by the ECM to monitor the engine speed. The speed sensor has four circuits: two signal circuits, and two return circuits. As the teeth on the crankshaft flywheel move past the speed sensor, a signal is generated on the speed sensor signal circuits.
+Датчик скорости двигателя - это датчик скорости с двумя каналами, используемый ECM для мониторинга скорости двигателя. Датчик скорости имеет четыре схемы: Две сигнальные цепи и две обратные цепи. Когда зубы на маховике коленчатого вала проходят мимо датчика скорости, на цепях сигналов датчика скорости генерируется сигнал.
 
-### Component Location
+### Расположение компонента
 
-The engine speed sensor is located in the flywheel housing at the rear of the engine.
+Датчик скорости двигателя расположен в корпусе маховика в задней части двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the engine is running.
+Эта диагностика выполняется непрерывно, когда двигатель работает.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The ECM detects the engine speed has exceeded the calibration limit for excessive engine speed.
+ECM обнаруживает, что скорость двигателя превысила предел калибровки для чрезмерной скорости двигателя.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the red STOP ENGINE lamp immediately when the diagnostic runs and fails.
+- ECM освещает красную лампу STOP ENGINE сразу же после запуска и отказа диагностического устройства.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- The generator set controller displays the fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность сразу же, когда диагностика работает и выходит из строя.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- Turn the keyswitch OFF. Allow the ECM to completely power down and turn the keyswitch ON.
+- Выключите замок зажигания. Позвольте ECM полностью выключить питание и включить переключатель зажигания.
 
-- The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого рекомендованным электронным сервисным инструментом Cummins® или его эквивалентом, будет изменено на INACTIVE сразу после диагностических запусков и проходов.
 
-- The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит красную лампу STOP ENGINE сразу после диагностических прогонов и проходов.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+- Команда «Сбросить все ошибки» в рекомендуемой электронной сервисной оснастке Cummins® или эквиваленте может использоваться для устранения активных и неактивных ошибок.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the indicator immediately after the user presses reset.
+- Контроллер генераторной установки выключит индикатор сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- External fuel sources drawn into the intake air pressure.
+- Внешние источники топлива, втягиваемые в давление впускного воздуха.
 
-- Reverse powering (motering) of the engine.
+- Обратное питание (управление) двигателя.
 
-- Tampering of the engine speed sensors.
+- Укрощение датчиков скорости двигателя.
 
-- Malfunctioning or damaged fuel pump.
+- Неисправный или поврежденный топливный насос.
 
-- Malfunctioning or damaged turbocharger oil seals.
+- Неисправность или повреждение уплотнений масла турбокомпрессора.
 
-Refer to Troubleshooting Fault Code t05-234
+См. Код устранения неполадок t05-234
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 234
+>
+> ### Engine Crankshaft Speed/Position - Data Valid But Above Normal Operating Range - Most Severe Level
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 234 PID(P): P190 SPN: FMI: 0 Lamp: Flashing SRT: 00-628 | Engine speed signal indicates engine speed above engine protection limit. | Engine will shut down. |
+>
+> Engine Speed Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine speed sensor is dual channel speed sensor used by the ECM to monitor the engine speed. The speed sensor has four circuits: two signal circuits, and two return circuits. As the teeth on the crankshaft flywheel move past the speed sensor, a signal is generated on the speed sensor signal circuits.
+>
+> ### Component Location
+>
+> The engine speed sensor is located in the flywheel housing at the rear of the engine.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the engine is running.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The ECM detects the engine speed has exceeded the calibration limit for excessive engine speed.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the red STOP ENGINE lamp immediately when the diagnostic runs and fails.
+>
+> For Power Generation Applications:
+>
+> - The generator set controller displays the fault immediately when the diagnostics runs and fails.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - Turn the keyswitch OFF. Allow the ECM to completely power down and turn the keyswitch ON.
+>
+> - The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the red STOP ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+>
+> For Power Generation Applications:
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - External fuel sources drawn into the intake air pressure.
+>
+> - Reverse powering (motering) of the engine.
+>
+> - Tampering of the engine speed sensors.
+>
+> - Malfunctioning or damaged fuel pump.
+>
+> - Malfunctioning or damaged turbocharger oil seals.
+>
+> Refer to Troubleshooting Fault Code t05-234

@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc423.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc423.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Timing Pressure Sensor In-Range Error
@@ -34,38 +36,82 @@ tags:
 > **Даты:** изменён 2026-05-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc423.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc423.pdf)
 
-### Fault Code: 423
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Timing Pressure Sensor In-Range Error
 
-Printable Version
+### Код неисправности: 423
 
-### Overview
+### Датчик давления в диапазоне погрешностей
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 423 PID(P): P156 SPN: 156 FMI: 2 Lamp: Yellow SRT: 00-369 | More than 1.83 VDC detected at the timing pressure signal pin 33 of the engine harness at engine key on. | Calibration-dependent power and speed derate. |
+| Код неисправности: 423 PID(P): P156 SPN: 156 FMI: 2 лампы: Желтая СТО: 00-369 | Более 1,83 VDC обнаружены при контакте сигнала давления 33 с проводкой двигателя на ключе двигателя. | Калибровочная зависимость мощности и скорости снижается. |
 
 ![[19400803.png]]
 
-Timing Pressure Sensor Circuit
+Схема датчика давления
 
-### Circuit Description
+### Описание цепи
 
-The timing pressure sensor provides a signal to the ECM through the engine harness. The ECM uses the timing pressure sensor signal to monitor the amount of fuel going to the injector's timing chamber from the control valve body.
+Датчик давления синхронизации обеспечивает сигнал к ECM через электропроводку двигателя. ECM использует сигнал датчика давления синхронизации для контроля количества топлива, поступающего в камеру синхронизации форсунки из корпуса управляющего клапана.
 
-### Component Location
+### Расположение компонента
 
-The timing pressure sensor is located on the upper right side of the control valve body.
+Датчик давления синхронизации расположен на верхней правой стороне корпуса управляющего клапана.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged timing pressure sensor
+- Неисправность или повреждение датчика давления
 
-- Malfunctioning or damaged engine wiring harness
+- Неисправная или поврежденная электропроводка двигателя
 
-- Fuel drain line restriction
+- Сопротивление магистрали слива топлива
 
-Refer to Troubleshooting Fault Code t05-423
+См. Код устранения неполадок t05-423
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 423
+>
+> ### Timing Pressure Sensor In-Range Error
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 423 PID(P): P156 SPN: 156 FMI: 2 Lamp: Yellow SRT: 00-369 | More than 1.83 VDC detected at the timing pressure signal pin 33 of the engine harness at engine key on. | Calibration-dependent power and speed derate. |
+>
+> Timing Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The timing pressure sensor provides a signal to the ECM through the engine harness. The ECM uses the timing pressure sensor signal to monitor the amount of fuel going to the injector's timing chamber from the control valve body.
+>
+> ### Component Location
+>
+> The timing pressure sensor is located on the upper right side of the control valve body.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged timing pressure sensor
+>
+> - Malfunctioning or damaged engine wiring harness
+>
+> - Fuel drain line restriction
+>
+> Refer to Troubleshooting Fault Code t05-423

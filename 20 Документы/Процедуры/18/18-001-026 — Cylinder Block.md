@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021499"
 figures: 48
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-001-026.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-001-026.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Cylinder Block
@@ -34,640 +36,1192 @@ tags:
 > **Даты:** изменён 2019-01-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-001-026.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-001-026.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-There are seven variations of K19 cylinder blocks and oversize liners now in the field. Use the following information to identify the parts that are used. Make sure the correct parts are used with the correct block.
 
-Definition of counterbore features:
+### Общие сведения
 
-- (1) Upper counterbore inside diameter, called upper press fit inside diameter
-- (2) Counterbore depth
-- (3) Lower counterbore inside diameter, called lower press fit inside diameter
-- (4) Packing ring bore
-- (5) Counterbore ledge
-- (6) Counter bore radius (graphic illustrates double undercut radius).
+В настоящее время в поле представлены семь вариантов блоков цилиндров K19 и негабаритных гильз. Используйте следующую информацию для идентификации используемых частей. Убедитесь, что правильные части используются с правильным блоком.
+
+Определение противоборствующих признаков:
+
+- (1) Верхний контрбор внутри диаметра, называемый верхним прессом, помещается внутри диаметра
+- 2 Глубина контработажа
+- (3) Нижняя противоборка внутри диаметра, называемая нижней прессовой посадкой внутри диаметра
+- 4) Упаковочный цилиндрический цилиндр
+- (5) Контрборский выступ
+- (6) Радиус ствола цилиндра счетчика (графический показан двойной радиус разреза).
 
 ![[ck4brgl.png]]
 
-The thick flanged block:
+Толстый фланцевый блок:
 
-- (1) The upper press fit inside diameter of the bore is machined at the factory and referred to as standard. The inside diameter of the standard bore is 188.16 to 188.21 mm \[7.408 to 7.410 in\].
-- (2) The counterbore standard depth for some engines built between September 1994, engine serial number 37155415, and June 1995, engine serial number 37158125, and after is 13.746 to 13.818 mm \[0.5412 to 0.544 in\]. The counterbore standard depth for all engines built June 1995, engine serial number 37158125, is 13.754 to 13.818 mm \[0.5422 to 0.544 in\]. The counterbore standard depth for all blocks manufactured from February 1981 to September 1994, engine serial number 37155415, is 13.23 to 13.28 mm \[0.521 to 0.523 in\].
-- (3) Lower press fit inside diameter of the bore is machined at the factory and referred to as standard. The inside diameter of the standard bore is 180.09 to 180.14 mm \[7.090 to 7.092 in\].
-- (6) The thick flange block has the double undercut radius.
+- (1) Верхний пресс, установленный внутри диаметра цилиндрового отверстия, обрабатывается на заводе и называется стандартным. Внутренний диаметр стандартного цилиндрового отверстия составляет от 188,16 до 188,21 мм \[7,408 до 7,410 в\].
+- (2) Стандартная глубина встречного ствола для некоторых двигателей, построенных между сентябрем 1994 года, серийный номер двигателя 37155415 и июнем 1995 года, серийный номер двигателя 37158125, и после составляет от 13,746 до 13,818 мм \[0,5412 до 0,544 в\]. Стандартная глубина встречного ствола для всех двигателей, построенных в июне 1995 года, серийный номер двигателя 37158125, составляет от 13,754 до 13,818 мм \[0,5422 до 0,544 дюйма \]. Стандартная глубина встречного ствола для всех блоков, изготовленных с февраля 1981 года по сентябрь 1994 года, серийный номер двигателя 37155415, составляет от 13,23 до 13,28 мм \[0,521 до 0,523 дюйма \].
+- (3) Нижний пресс, установленный внутри диаметра цилиндрового отверстия, обрабатывается на заводе и называется стандартным. Внутренний диаметр стандартного цилиндрового отверстия составляет 180,09-180,14 мм \[7,090-7,092 дюйма \].
+- (6) Толстый фланцевый блок имеет двойной радиус подрезания.
 
-Most engines with an engine serial number greater than 311216 70, February 1981, contain this type of block.
+Большинство двигателей с серийным номером двигателя более 311216 70, февраль 1981 года, содержат этот тип блока.
 
-All K19 engines with engine serial number that begins with 37, December 1986, and engines with a serial number that begins with a 66, have this type of block.
+Все двигатели K19 с серийным номером двигателя, начинающимся с 37 декабря 1986 года, и двигатели с серийным номером, начинающимся с 66, имеют этот тип блока.
 
 ![[ck4brgb.png]]
 
-The thin flange factory modified block is the same as the thick flange block except for the groove (7), which has **no** function.
+Тонкий фальцевый модифицированный блок такой же, как и толстый фланцевый блок, за исключением канавки (7), которая имеет функцию **no**.
 
-This block is treated exactly the same as the thick flange block.
+Этот блок обрабатывается точно так же, как толстый фланцевый блок.
 
 ![[ck4brgj.png]]
 
-The thin flange field modified to thick flange block will be referred to as the ex-thin flange block.
+Тонкое фланцевое поле, модифицированное до толстого фланцевого блока, будет называться бывшим тонким фланцевым блоком.
 
-- (1) The upper press fit inside diameter varies with the upper press fit oversized liner used during the modification.
-- (2) The depth is 13.23 to 13.28 mm \[0.521 to 0.523 in\].
-- (3) The lower press fit inside diameter is the same as the thick flange block.
-- (8) It has a 1.73 to 1.85 mm \[0.068 to 0.073 in\] radius that is **not** undercut.
+- (1) Верхний пресс, установленный внутри диаметра, изменяется в зависимости от верхнего пресса, установленного на негабаритном гильзе, используемом во время модификации.
+- (2) Глубина составляет от 13,23 до 13,28 мм \[0,521 до 0,523 в\].
+- (3) Нижний пресс, расположенный внутри диаметра, такой же, как толстый фланцевый блок.
+- (8) Он имеет радиус от 1,73 до 1,85 мм \[0,068 до 0,073 в\], который не является подрезанным.
 
-This type block is found on engines with engine serial number between 31103629, November 1976, and 31121670, February 1981. as they were originally built with thin flange blocks.
+Этот тип блока встречается на двигателях с серийным номером двигателя между 31103629, ноябрь 1976 года и 31121670, февраль 1981 года. Изначально они были построены из тонких фланцевых блоков.
 
 ![[ck4brgi.png]]
 
-The thin flange block has:
+Тонкий фланцевый блок имеет:
 
-- (1) A upper press fit inside diameter that can vary depending on the type of the upper press fit oversized thin flange liner used. Standard thin flanged liners are available. Oversized thin flange liners are no longer available.
-- (2) Counterbore depth is 7.62 to 7.67 mm \[0.300 ot 0.302 in\].
-- (3) Lower press fit inside diameter is the same as the thick flange type.
+- (1) Верхний пресс, расположенный внутри диаметра, который может варьироваться в зависимости от типа верхнего пресса, используемого для тонкого фланцевого гильзы. Доступны стандартные тонкие фланцевые гильзы. Негабаритные тонкие фланцельные гильзы больше не доступны.
+- (2) Глубина противоствольной кости составляет от 7,62 до 7,67 мм \[0,300 ot 0,302 in\].
+- (3) Нижний пресс, установленный внутри диаметра, такой же, как и толстый фланцеобразный тип.
 
-The radius is double undercut. This type of block is found on engines with an engine serial number range of 31103629 to 31121669.
+Радиус двойной подрез. Этот тип блока встречается на двигателях с серийным номером двигателя от 31103629 до 31121669.
 
 ![[ck4brgh.png]]
 
-The counterbore ring thick flange (8) is identified by the counter bore ring.
+Контрборное кольцо толщиной с фланцем (8) идентифицируется противоцилиндровым кольцом с стволом.
 
-Depth (2), depth (11), and the inside diameter (3) are the same as present K38 and K50 engines, and thus use standard and oversized K38 and K50 liners. This type is **not** lower press fit. That is, by design there was **not** always a press fit below the liner flange (3). There is no recommended salvage for the inside diameter (3) on these blocks.
+Глубина (2), глубина (11) и внутренний диаметр (3) такие же, как у существующих двигателей K38 и K50, и, таким образом, используют стандартные и негабаритные гильзы K38 и K50. Этот тип **не **ниже подгонки пресса. То есть по конструкции всегда имелась **не** подкладка пресса под льняной фланцем (3). На этих блоках не рекомендуется спасение внутреннего диаметра (3).
 
-This type block is found on engines with an engine serial range between 31101150, August 1975, to 31103628, November 1976.
+Этот тип блока встречается на двигателях с серийным диапазоном двигателей между 31101150, август 1975 года, и 31103628, ноябрь 1976 года.
 
 ![[ck4brgm.png]]
 
-The original K19:
+Оригинал K19:
 
-- (1) Upper press fit inside diameter is the same as the present K38 and K50 engines.
-- (2) Depth is the same as the present K38 and K50 engines.
-- (3) Lower counterbore is the same as the present K38 and K50, but will probably **not** provide press fit to the liner.
+- (1) Диаметр верхнего пресса внутри такой же, как у современных двигателей K38 и K50.
+- (2) Глубина двигателя такая же, как у современных двигателей К38 и К50.
+- (3) Нижняя контрбора такая же, как у нынешних K38 и K50, но, вероятно, не будет обеспечивать пресс-подгонки гильзы.
 
-There is no recommended salvage for the inside diameter (3) on this type block.
+На блоке этого типа не рекомендуется спасение для внутреннего диаметра (3).
 
-This type of block is found on engines with an engine serial number range of 31100101, July 1974, to 31101149, August 1975.
+Этот тип блока встречается на двигателях с серийным номером двигателя 31100101, июль 1974 года, 31101149, август 1975 года.
 
-Cummins Inc. recommends this style block **not** be reused.
+Cummins Inc. Этот стиль блок **не **не рекомендуется использовать повторно.
 
 ![[ck4brgg.png]]
 
-The cylinder liners are:
+Цилиндровые вкладыши:
 
-- (1) Flange outside diameter referred to as the upper press fit outside diameter.
-- (2) Referred to as lower press fit outside diameter.
+- (1) Фланец наружного диаметра, называемый верхним прессом, подходит для наружного диаметра.
+- (2) Называется нижним прессом, подходящим для наружного диаметра.
 
-The standard K19 liners are those liners used in new production K19 engines. Oversized liners have dimensions that are oversized with respect to the standard liner.
+Стандартные гильзы K19 — это те, которые используются в новых двигателях K19. Негабаритные гильзы имеют размеры, которые являются негабаритными по отношению к стандартному гильзе.
 
-For example, 20/20 OS means the upper press fit outside diameter (1) is 0.020 inch larger than the standard liner and the lower press fit outside diameter is 0.020 in larger than the standard liner.
+Например, 20/20 OS означает, что верхний пресс, установленный на внешний диаметр (1), на 0,020 дюйма больше, чем стандартный гильза, а нижний пресс, установленный на внешний диаметр, на 0,020 больше, чем стандартный гильза.
 
 ![[ck8cytc.png]]
 
-The specification for the liner flange thickness on all K19 liners, standard and oversized is the same, 13.360 to 13.386 mm \[0.526 to 0.527 in\].
+Спецификация для толщины фланца гильзы на всех гильзах K19, стандартных и негабаритных, одинакова: от 13,360 до 13,386 мм \[0,526 до 0,527 дюйма \].
 
-The K38 and K50 liner is referred to as the liner used to in new production K38 and K50 engines. The K38 and K50 production liner upper press fit outside diameter is normally 2.16 mm \[0.085 in\] larger and the lower press fit outside diameter is normally 1.65 mm \[0.065 in\] larger than the respective outside diameter on the standard K19 liner.
+Гильзы K38 и K50 называются гильзами, используемыми в новых двигателях K38 и K50. Верхний прессовый диаметр K38 и K50 обычно составляет 2,16 мм \[0,085 дюйма \], а нижний прессовый диаметр наружного диаметра обычно 1,65 мм \[0,065 дюйма \] больше соответствующего наружного диаметра на стандартном гильзе K19.
 
-The K38 and K50 liner can be described as 85/65 oversized with respect to the K19. The use of K38 and K50 oversized upper press fit liners to repair K19 counterbores is **not** recommended.
+Линейные машины K38 и K50 могут быть описаны как 85/65 по сравнению с K19. Использование негабаритных гильз K38 и K50 для ремонта контрбор K19 не рекомендуется.
 
-The use of standard K38 and K50 liners in a properly machined K19 block is authorized.
+Разрешено использование стандартных гильз K38 и K50 в правильно обработанном блоке K19.
 
 ![[ck8cyta.png]]
 
-### Preparatory Steps
+### Подготовительные операции
 
-Use a drill, a sheet metal screw, and the listed parts from the light duty puller kit, Part Number 3375784:
+Используйте сверло, винт из листового металла и перечисленные детали из комплекта для легкого съёмника, Номер детали 3375784:
 
-- Slide hammer
-- Hook.
+- Скользящий молоток
+- Крюк.
 
 ![[01400283.png]]
 
-Remove the listed plugs:
+Удалите перечисленные вилки:
 
-- (1) Main oil passage cup plug
-- (2) Piston cooling oil passage cup plug
-- (3) Main oil passage pipe plug
-- (4) Water pump idler oil passage plug.
+- (1) Основной клапан для пропускной трубки
+- (2) Пистон охлаждающий масляный проходной штепсель
+- (3) Основной трубопроводный трубопровод для подачи масла
+- (4) Водный насос idler масляный проход штепсель.
 
 ![[01400652.png]]
 
-> [!note] Note · Примечание
-> Engines equipped with a rear gear drive **must not** have a plug in the main oil passage.
+> [!note] Примечание
+> Двигатели, оснащенные задним приводом передач**, не должны **иметь вилку в основном масляном проходе.
 
-Remove the listed plugs:
+Удалите перечисленные вилки:
 
-- (5) Main oil passage cup plug
-- (6) Piston cooling rifle cup plug
-- (7) Piston cooling oil passage pipe plug.
+- (5) Основная масляная пробка для прохода
+- (6) Пистонская охлаждающая винт
+- (7) Штепсельная труба для трубопроводов для охлаждения масла в поршне.
 
 ![[01400285.png]]
 
-Remove the seven cup plugs from the camshaft oil passages.
+Удалите семь пробок из распределительных масляных проходов.
 
-These passages extend through the camshaft bores to the main bearing bores. The passage for the number six main rifle contains a steel tube that has an interference fit with the drilled passage.
+Эти проходы проходят через камшафовые отверстия к основным несущим. Проход для винты номер шесть содержит стальную трубу, которая имеет помехи, подходящие для пробуренного прохода.
 
 ![[01400286.png]]
 
-To allow for the proper coolant flow and air removal of the cylinder head and engine block on a horizontally mounted K19 engine, a coolant drilling runs the entire length of the cylinder block and passes through the center of each cylinder liner cavity.
+Чтобы обеспечить надлежащий поток охлаждающей жидкости и удаление воздуха из головки цилиндра и блока двигателя на горизонтально установленном двигателе K19, бурение охлаждающей жидкости проходит через всю длину блока цилиндров и проходит через центр каждой полости вкладыша цилиндра.
 
-The drilling is plugged by a ¼ pipe plug.
+Бурение заглушается 1⁄4 трубной пробкой.
 
-It is **not** necessary to remove the cup plug at the end of the block unless it is leaking.
+необязательно удалять заглушку чашки в конце блока, если она не протекает.
 
 ![[17400006.png]]
 
-Remove the cup plug from the hydraulic pump idler oil passage.
+Удалите пробку чашки из прохода гидравлического насоса холостого масла.
 
-Remove the pipe plug from the lubricating oil pump oil passage.
+Удалите пробку трубы из прохода масла насоса моторного масла.
 
 ![[01400287.png]]
 
-Use dowel pin extractor, Part Number 3163720, or equivalent to perform the listed steps to remove the 12 cylinder head groove pins.
+Используйте экстрактор с дюбелем, номер детали 3163720 или эквивалент для выполнения перечисленных шагов для удаления штифтов с 12-цилиндровым головным канавкой.
 
-1. Place the split collet (8) over the groove pin.
-2. Slide the extractor collar (9) over the split collet.
-3. Use the slide hammer (10) to push the extractor collar over the split collet tightly.
-4. Use the slide hammer to remove the groove pin.
+1. Поместите раздвоенную коллету (8) над заколкой канавки.
+2. Сдвиньте воротник (9) экстрактора над расщепленной коллетой.
+3. Используйте молоток (10) для толкания воротника экстрактора по расколотой кольце плотно.
+4. Используйте молоток для скольжения, чтобы удалить заколку канавки.
 
 ![[01400289.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of leaks and engine damage, do not damage the machine gasket surfaces or the camshaft bushings.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность утечек и повреждения двигателя, не повреждайте поверхности прокладки машины или втулки распределительного вала.
 
-Use a scraper, a wire brush, or hand pad, Part Number 3823258, to clean all the heavy dirt deposits off the cylinder block and clean:
+Используйте скребок, проволочную щетку или ручную подушку, номер детали 3823258, чтобы очистить все тяжелые отложения грязи от блока цилиндров и очистить:
 
-- All gasket surfaces
-- All mounting surfaces
-- Cylinder liner counterbore ledge and press fit areas
-- Cylinder liner packing ring bore
-- Top of block
-- Main bearing saddle and caps
-- All cup plug bores.
+- Все прокладочные поверхности
+- Все монтажные поверхности
+- Защита от шпангоутов и прессов в зонах, пригодных для заправки цилиндров
+- Цилиндровый цилиндр для упаковки цилиндров
+- Верхний блок
+- Главная седло и колпачки
+- Все закуски для чашек.
 
-Clean all the oil passages with a long handle bottle brush.
+Очистите все проходы масла длинной ручкой бутылочной щетки.
 
 ![[01400290.png]]
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!warning] CAUTION · Осторожно
-> A cleaning solution must be used that will not harm camshaft bearings.
+> [!warning] ОСТОРОЖНО
+> Необходимо использовать очищающий раствор, который не нанесет вреда подшипникам распределительного вала.
 
-Cummins Inc. does **not** recommend any specific cleaning solution. Use the General Cleaning Instructions procedure. [[99-204-008 — General Cleaning Instructions|Refer to Procedure 204-008]].
+Cummins Inc. не рекомендует какой-либо конкретный раствор для очистки. Используйте процедуру общей инструкции по очистке.[[99-204-008 — General Cleaning Instructions|См. процедуру 204-008]].
 
-Follow the instructions of the manufacturer of the cleaning tank and the manufacturer of the cleaning solution.
+Следуйте инструкциям производителя чистящего бака и производителя чистящего раствора.
 
-Remove the block from the engine stand and place it into a tank of cleaning solution.
+Удалите блок из подставки двигателя и поместите его в резервуар с очищающим раствором.
 
 ![[01400392.png]]
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> To reduce the possibility of damage to the cylinder block, make sure all the water is removed from the capscrew holes and the oil passages.
+> [!warning] ОСТОРОЖНО
+> Чтобы уменьшить вероятность повреждения блока цилиндров, убедитесь, что вся вода удалена из болтовых отверстий и масляных проходов.
 
-Remove the block from the cleaning tank.
+Удалите блок из резервуара для очистки.
 
-Steam clean the block.
+Чистить паром блок.
 
-Make sure all the oil passages are clean.
+Убедитесь, что все масляные каналы чистые.
 
-Dry the block with compressed air.
+Высушить блок сжатым воздухом.
 
-If the cylinder block is **not** going to be used immediately, apply a coating of preservative oil to prevent rust.
+Если блок цилиндра не будет использоваться немедленно, нанесите покрытие из консервантного масла для предотвращения ржавчины.
 
-Cover the block to prevent dirt from sticking to the oil.
+Покройте блок, чтобы предотвратить попадание грязи в масло.
 
 ![[01400393.png]]
 
-Check the top surface of the block for wear. If fretting damage is present in an area where a head gasket seal ring or a grommet makes contact, the surface **must** be repaired.
+Проверьте верхнюю поверхность блока на предмет износа. Если повреждение при трении присутствует в области, где кольцо уплотнения прокладки головы или громмет вступают в контакт, поверхность должна быть восстановлена.
 
-Fretting damage in any other area is acceptable if it does **not** change the protrusion measurement of the counterbore or liner.
+Ущерб от трения в любой другой области допустим, если он не изменяет измерение выступа контрбора или гильзы.
 
-A newly machined surface **must** be flat within 0.05 mm \[0.002 in\] under a cylinder head. Waves on the surface are acceptable as long as they are **not** more than 0.018 mm \[0.0007 in\] high, and the high and low points of the waves are **not** closer than 25 mm \[1.0 in\].
+Новая обработанная поверхность **должна быть плоской в пределах 0,05 мм \[0,002 дюйма \] под головкой цилиндра. Волны на поверхности приемлемы, если они **не** более 0,018 мм \[0,0007 in\] в высоту, а высокие и низкие точки волн **не ближе 25 мм \[1.0 in\].
 
-A newly machined surface **must** meet the specifications for block height. The top of the surface of the cylinder liner counterbore **must** be machined.
+Новая обработанная поверхность **должна соответствовать спецификациям для высоты блока. Верхняя часть поверхности противоборка цилиндрового гильзы **должна быть обработана.
 
 ![[ck4breb.png]]
 
-The parting line of the main bearing cap is **not** at the same height as the centerline of the main bearing bore.
+Распределительная линия главного подшипника **не** на той же высоте, что и центральная линия главного подшипникового цилиндра.
 
-Measure the cylinder block height.
+Измерьте высоту блока цилиндров.
 
-If the checking ring or the centering ring is **not** available, the height of the block can be measured from the top of the bearing saddle (14).
+Если контрольное кольцо или центрирующее кольцо недоступно, высота блока может быть измерена с верхней части несущего седла (14).
 
-| Cylinder Block Height |  |  |  |
+| Цилиндровый блок высота |  |  |  |
 |---|---|---|---|
-|  | mm |  | in |
-| (13) Center Line Main Bearing Bore | 481.94 | MIN | 18.974 |
-|  | 482.78 | MAX | 19.007 |
-| (14) Top of Main Bearing Saddle | 407.70 | MIN | 16.051 |
-|  | 408.53 | MAX | 16.084 |
+|  | мм |  | в |
+| (13) Центральная линия Основной несущий цилиндр | 481.94 | Мин | 18.974 |
+|  | 482.78 | Макс | 19.007 |
+| 14 Верхняя часть основного несущего седла | 407.70 | Мин | 16.051 |
+|  | 408.53 | Макс | 16.084 |
 
-If the height of the block from the crankshaft centerline is less than 482.42 mm \[18.993 in\], a 0.51 mm \[0.020 in\] oversize head gasket **must** be used.
+Если высота блока от центральной линии коленчатого вала меньше 482,42 мм \[18,93 дюйма \], следует использовать прокладку головы размером 0,51 мм \[0,020 дюйма \].
 
-If the height of the block from the main bearing bore is less than 408.20 mm \[16.071 in\], a 0.51 mm \[0.020 in\] oversize head gasket **must** be used.
+Если высота блока от основного несущих цилиндров составляет менее 408,20 мм \[16,071 дюйма \], то следует использовать прокладку головки размером 0,51 мм \[0,020 дюйма \].
 
-The height of the block **must not** vary more than 0.05 mm \[0.002 in\] from end-to-end of the block. If the block height is **not** within specifications, the top surface of the block **must** be machined or the block replaced.
+Высота блока **не должна **изменяться более чем на 0,05 мм \[0,002 в\] от конца до конца блока. Если высота блока **не** в пределах спецификаций, верхняя поверхность блока должна быть обработана или блок заменен.
 
-If the top surface of the block is machined, ledge depth of the cylinder liner counterbore **must** be machined.
+Если верхняя поверхность блока обработана, то должна быть обработана глубина выступа противоборки цилиндрового гильзы.
 
 ![[01400391.png]]
 
-Check the main bearing caps that are loose.
+Проверьте основные колпачки подшипников, которые являются рыхлыми.
 
-The main bearing cap **must** be repalced if:
+Основной подшипник должен быть отремонтирован, если:
 
-- The clearance causes the main bore alignment **not** to be within specifications.
-- The clearance between the block and the cap is more than 0.18 mm \[0.007 in\] on either side of the cap when the cap is installed and tightened to specifications.
-- There is fretting or heat damage to the cap.
+- Разрешение приводит к тому, что выравнивание основного цилиндра **не **находится в пределах спецификаций.
+- Зазор между блоком и крышкой составляет более 0,18 мм \[0,007 дюйма \] с обеих сторон крышки, когда крышка установлена и затянута до спецификаций.
+- Возникает раздражение или тепловое повреждение колпачка.
 
-On new or reconditioned blocks, the main bearing cap is 0.00 to 0.254 mm \[0.00 to 0.010 in\] larger than the block. Force **must** be used to install the caps.
+На новых или восстановленных блоках основной подшипник колпачок от 0,00 до 0,254 мм \[0,00 до 0,010 в\] больше блока. Сила должна быть использована для установки колпачков.
 
-Service caps do **not** have the bore machined to a final specification. If the cap is machined, use the correct parts of the main bearing boring tool, Part Number ST-1177.
+Обслуживающие крышки **не** имеют цилиндрическую стволу, обработанную до окончательной спецификации. Если крышка обработана, используйте правильные части основного инструмента для бурения подшипника, часть номер ST-1177.
 
 ![[01400330.png]]
 
-Check the water holes (15). If erosion or pitting is more than 0.08 mm \[0.003 in\] deep or extends more than 2.4 mm \[0.095 in\] from the edge of the water hole, the water hole **must** be repaired.
+Проверьте отверстия для воды (15). Если эрозия или прокол глубиной более 0,08 мм \[0,003 дюйма \] или простирается более чем на 2,4 мм \[0,095 дюйма \] от края водяного отверстия, то водоотверстие должно быть отремонтировано.
 
-Use the coolant passage repair kit, Part Number 3824047, or the water hole surface repair kit, Part Number 3824066, to repair the water hole.
+Используйте комплект для ремонта прохода охлаждающей жидкости, Номер детали 3824047, или комплект для ремонта поверхности водяного отверстия, Номер детали 3824066, для ремонта водяного отверстия.
 
-Check the threads of the capscrew holes (16) for damage. Use a threaded insert if a damaged hole **must** be repaired.
+Проверьте резьбу болтов отверстия (16) на предмет повреждения. Используйте резьбовую вставку, если поврежденное отверстие должно быть отремонтировано.
 
 ![[01400339.png]]
 
-Main Bearing Bore
+Главная Подшипниковый цилиндр
 
-Place two centering rings, Part Number ST-1177-54, in the number two and number six main bearing locations.
+Поместите два центрирующих кольца, часть номер ST-1177-54, в номер два и номер шесть основных несущих локаций.
 
 ![[01400324.png]]
 
-The main bearing caps are numbered one through seven. Install each cap in the correct location. The slot in the cap for the bearing tang **must** be on the same side as the slot in the block.
+Основные подшипники пронумерованы от одного до семи. Установите каждый колпачок в правильном месте. Слот в крышке для подшипника танго должен быть на той же стороне, что и слот в блоке.
 
-Position the main bearing caps in the cylinder block.
+Поместите основные подшипниковые колпачки в блок цилиндров.
 
-Install the capscrews, making sure they are positioned correctly.
+Установите болты, убедившись, что они расположены правильно.
 
-Use a mallet to drive the caps down until they touch the block.
+Используйте молоток, чтобы опустить крышки, пока они не коснутся блока.
 
-If any of the caps do **not** require force during installation, mark the cap to check the side clearance.
+Если какой-либо из колпачков **не** требует силы во время установки, пометьте колпачок, чтобы проверить боковой зазор.
 
-Tighten the capscrews for the main bearing caps.
+Затягивайте болты для основных подшипников.
 
-Torque Value:
+Момент затяжки:
 
 ![[01400323.png]]
 
-Lubricate the inside diameter of the two centering rings.
+Смазать внутренний диаметр двух центрирующих колец.
 
-Install the alignment/boring bar, Part Number ST-1177-16, in the two centering rings.
+Установите выравнивающую/скучную полосу, номер детали ST-1177-16, в два центрирующих кольца.
 
-The bar **must** turn easily.
+Бар должен легко поворачиваться.
 
-If the bar does **not** turn easily, make sure the main bearing caps are installed correctly.
+Если бар делает **не** поворот легко, убедитесь, что основные колпачки подшипников установлены правильно.
 
-If the main bearing caps appear to be installed correctly, move the centering ring to another bearing location.
+Если основные подшипники установлены правильно, переместите центрирующее кольцо в другое место подшипника.
 
 ![[01400328.png]]
 
-Install the checking ring into the main bearing bore by hand.
+Установите контрольное кольцо в основной несущий цилиндр, который несет вручную.
 
-If the ring will **not** slide through the main bearing bore, check the bore for burrs.
+Если кольцо **не** скользит через основной несущий цилиндр, проверьте цилиндрический отверстий на наличие заусениц.
 
-Remove any burrs in the bore.
+Удалите любые заусенцы в цилиндре.
 
-If the checking ring still will **not** slide through the bore, the bore is undersized and **must** be repaired. Refer to the Alternate Repair Manual, Bulletin 3379035.
+Если контрольное кольцо все еще будет **не** скользить по цилиндру, то цилиндрический отсек будет меньше и должен быть отремонтирован. См. руководство по альтернативному ремонту, Бюллетень 3379035.
 
 ![[01400327.png]]
 
-Use a 0.076 mm \[0.003 in\] feeler gauge that is **not** more than 13 mm \[0.5 in\] wide.
+Используйте калибр для считывания 0,076 мм \[0,003 in\] шириной **не** более 13 мм \[0,5 in\].
 
-Center the checking ring in the bore.
+В центре проверочного кольца в цилиндре.
 
-Attempt to insert the feeler gauge between the checking ring and the bore.
+Попробуйте вставить датчик измерения щупальца между контрольным кольцом и цилиндром.
 
-Rotate the gauge in the bore at both sides of the checking ring.
+Поверните калибр в цилиндре, который был с обеих сторон контрольного кольца.
 
-The bore alignment of the main bearing is acceptable if:
+Выравнивание цилиндра основного подшипника допустимо, если:
 
-- The gauge does **not** enter at any point.
-- The gauge will enter but will **not** slide through or around the bore, and the alignment bar will rotate with the gauge inserted.
+- Калибр **не** вводится в любой момент.
+- Калибр войдет, но не будет скользить через или вокруг цилиндра, и выравнивающая панель будет вращаться с вставленным калибром.
 
-The bore alignment of the main bearing is **not** acceptable if:
+Выравнивание цилиндра основного подшипника **не** приемлемо, если:
 
-- The gauge enters and slides around the bore. This indicates the bore is oversize and **must** be repaired.
-- The gauge will enter on one side **only**, but can slide around the bore. This indicates the bore is tapered and **must** be repaired.
+- Калибр входит и скользит вокруг цилиндра. Это указывает на то, что цилиндрический отсек имеет большой размер и должен быть отремонтирован.
+- Калибр войдет с одной стороны **только**, но может скользить по цилиндру. Это означает, что цилиндрический отсек сужен и должен быть отремонтирован.
 
 ![[01400326.png]]
 
-If the tools to check the main bearing bore alignment are **not** available, use a dial bore indicator.
+Если инструменты для проверки выравнивания несущих цилиндров не доступны, используйте индикатор цилиндров с циферблатом.
 
-Measure the inside diameter in the three positions illustrated in the graphic. The inside diameter **must** be completely round within 0.013 mm \[0.0005 in\].
+Измерьте внутренний диаметр в трех положениях, проиллюстрированных на графике. Внутренний диаметр должен быть полностью круглым в пределах 0,013 мм \[0,0005 дюйма \].
 
-> [!note] Note · Примечание
-> Support the rear portion of the block on a flat surface to obtain the most accurate measurement of the inside diameter.
+> [!note] Примечание
+> Поддерживайте заднюю часть блока на плоской поверхности, чтобы получить наиболее точное измерение внутреннего диаметра.
 
-| Main Bearing Bore I.D. (Capscrews Torqued to Specification) |  |  |
+| Главный несущий цилиндр имел идентификационные данные. (встроены в спецификацию) |  |  |
 |---|---|---|
-| mm |  | in |
-| 148.44 | MIN | 5.8444 |
-| 148.50 | MAX | 5.8465 |
+| мм |  | в |
+| 148.44 | Мин | 5.8444 |
+| 148.50 | Макс | 5.8465 |
 
 ![[01400329.png]]
 
-### Assemble
+### Сборка
 
-> [!warning] CAUTION · Осторожно
-> Do not install any cup plugs or pipe plugs in the block until the inspect and any necessary repair procedures are completed. This will prevent dirt from being trapped in any oil passages.
+> [!warning] ОСТОРОЖНО
+> Не устанавливайте в блоке ни вилки для чашек, ни вилки для труб до тех пор, пока не будет завершена проверка и любые необходимые процедуры ремонта. Это позволит предотвратить попадание грязи в любые масляные проходы.
 
-Apply a thin coat of pipe Loctite sealant, Part Number 3375068, or equivalent, to the pipe or cup plugs.
+Нанесите тонкий слой трубы герметик Loctite, номер детали 3375068, или эквивалент, на трубу или заглушку чашки.
 
-Install the pipe plugs.
+Установите трубные пробки.
 
-Use cup plug driver, Part Number 3164085 or 3376795, with all cup plug drivers to install the cup plugs.
+Используйте драйвер чашечной пробки, номер детали 3164085 или 3376795, со всеми драйверами чашечной пробки для установки чашечных пробок.
 
-| Cup Plug Driver Part Number | Cup Plug Size |
+| Чашечный винт номер детали | Размер Кубка |
 |---|---|
-| 3822372 | 0.375 in |
-| 3376793 | 0.500 in |
-| 3376813 | 0.875 in |
-| 3376812 | 1.125 in |
-| 3376814 | 1.625 in |
+| 3822372 | 0.375 в |
+| 3376793 | 0.500 в |
+| 3376813 | 0.875 в |
+| 3376812 | 1.125 в |
+| 3376814 | 1,625 в |
 
 ![[ck8epwa.png]]
 
-### Crack Detection Test
+### Тест на обнаружение крэка
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the counterbore area with safety solvent.
+Очистите зону противоборства с помощью безопасного растворителя.
 
 ![[ck4breb.png]]
 
-Metallurgical analysis of cross sections of counterbores having circumferential cracks has revealed the cracks are surface-initiated on the top of the counterbore ledge, and normally do **not** propagate vertically through the counterbore ledge into the coolant passage around the cylinder liner.
+Металлургический анализ поперечных сечений контрбор, имеющих окружные трещины, показал, что трещины инициируются поверхностью на вершине выступа контрборы и обычно распространяются вертикально через выступ контрборы в проход охлаждающей жидкости вокруг цилиндрового гильзы.
 
 ![[01400320.png]]
 
-Pitting on the liner seat is **not** acceptable. The illustration in the graphic is an example of pitting in a damaged area.
+Питание на линейном сиденье не приемлемо. Иллюстрация на графике является примером точечной работы в поврежденной области.
 
-This block requires machining before it can be used. [[18-001-028-tr — Cylinder Liner|Refer to Procedure 001-028]] for the machine depth for the seal ring.
+Этот блок требует обработки, прежде чем он может быть использован.[[18-001-028-tr — Cylinder Liner|См. процедуру 001-028]]для глубины машины для кольца уплотнения.
 
 ![[ck4slsa.png]]
 
-Check the counterbore ledge for cracks with crack detection kit, Part Number 3375432, or equivalent.
+Проверьте выступ противоборства на наличие трещин с помощью набора обнаружения трещин, Номер детали 3375432 или эквивалента.
 
-Circumferential cracks of the counterbore ledge are acceptable if the cracks do **not** extend to or over the edge of the ledge as shown in the illustration.
+Круговые трещины выступа против ствола допустимы, если трещины распространяются **не** на край выступа или над ним, как показано на иллюстрации.
 
-Circumferential cracks in the radius are acceptable if they do **not** extend more than 90 degrees around the radius.
+Круговые трещины в радиусе допустимы, если они  **не **распространяются более чем на 90 градусов вокруг радиуса.
 
 ![[01400311.png]]
 
-It is **not** necessary to machine the block in an effort to remove acceptable cracks.
+не требуется для того, чтобы обработать блок, чтобы удалить приемлемые трещины.
 
-If cracks that are **not** acceptable are found during the initial inspection, the counterbore **must** be machined.
+Если трещины, которые являются **не приемлемыми, обнаружены во время первоначального осмотра, противоборство **должно быть обработано.
 
-If a crack that is **not** acceptable remains after the machining repair procedure is completed, the block is **not** acceptable for use.
+Если трещина, которая является **не приемлемой, остается после завершения процедуры ремонта обработки, блок **не приемлем для использования.
 
 ![[01400312.png]]
 
-Check the capscrew holes for cracks.
+Проверьте отверстия болтов на наличие трещин.
 
-Cracks that extend from the counter bore wall to the capscrew hole are acceptable for use **only** if they do **not** extend into the threaded portion of the hole.
+Трещины, которые простираются от стенки цилиндра к отверстию болтов, приемлемы для использования только**, если они **не распространяются в резьбовую часть отверстия.
 
 ![[01400313.png]]
 
-Cracks that extend into the threaded portion of the capscrew hole require repair with a blind-end thread insert.
+Трещины, которые распространяются в резьбовую часть отверстия болтов, требуют ремонта с помощью вставки с слепой резьбой.
 
-Use the thread salvage kit, Part Number 3164021 or 3376208, to repair the insert.
+Используйте спасательный комплект для резьбы, Номер детали 3164021 или 3376208, для ремонта вставки.
 
 ![[01400314.png]]
 
-Check for cracks running horizontally around the vertical wall of the counterbore.
+Проверьте наличие трещин, проходящих горизонтально вокруг вертикальной стенки противоборства.
 
-All coolant passages that are closest to the bore **must** be repaired with coolant passage threaded inserts.
+Все проходы охлаждающей жидкости, которые находятся ближе всего к цилиндру, должны быть отремонтированы с помощью резьбовых вставок с проходом охлаждающей жидкости.
 
 ![[01400316.png]]
 
-Check for cracks that run vertically to a coolant passage or a capscrew hole.
+Проверьте наличие трещин, которые проходят вертикально к проходу охлаждающей жидкости или отверстию болтов.
 
-Those passages **must** be repaired with coolant passage threaded inserts.
+Эти проходы должны быть отремонтированы с помощью хладагентных проходных резьбовых вставок.
 
 ![[01400317.png]]
 
-Cylinder block with vertical cracks that extend from a coolant passage down over the counterbore ledge can **not** be repaired.
+Цилиндровый блок с вертикальными трещинами, которые простираются от прохода охлаждающей жидкости вниз по выступу против бора, может **не** быть отремонтирован.
 
 ![[01400318.png]]
 
-### Measure
+### Измерение
 
-Two dial bore gauge setting rings have been released to support salvage of the lower press fit bore in a K19 cylinder block.
+Два циферблата цилиндра с измерительными колец калибровки были выпущены для поддержки спасения нижней пресса подгонка цилиндра в блок цилиндров K19.
 
-Both rings have steps:
+Оба кольца имеют ступеньки:
 
-- Standard/0.020 - The inside diameter of the bores in the gauge are:
-- Small inside diameter (Standard K19) - 180.11 mm \[7.091 in\]
-- Large inside diameter (0.020 oversized) - 180.62 mm \[7.111 in\]
-- 0.065/0.85 - The inside diameter of the bores in the gauge are:
-- Small inside diameter (0.065 oversized) - 181.76 mm \[7.156 in\]
-- Large inside diameter (0.085 oversized) - 182.27 mm \[7.176 in\]
+- Стандарт/0.020 - Внутренний диаметр скобок в измерительной ширине составляет:
+- Малый внутренний диаметр (стандарт K19) - 180,11 мм \[7,091 в\]
+- Большой внутренний диаметр (0,020 негабаритных) - 180,62 мм \[7,111 в\]
+- 0,065/0,85 - Внутренний диаметр скобок в измерительной ширине составляет:
+- Малый внутренний диаметр (0,065 негабаритных) - 181,76 мм \[7,156 в\]
+- Большой внутренний диаметр (0,085 негабаритных) - 182,27 мм \[7,176 в\]
 
-The 0.065 oversize ring for the K19 is the same as the new production lower press fit ring on the K38 and K50 engines.
+Кольцо размера 0,065 для K19 такое же, как и новое серийное кольцо с подгонки для пресса на двигателях K38 и K50.
 
-Both of the setting rings are included in counterbore salvage kit, Part Number 3824119.
+Оба установочных кольца включены в комплект для спасения контрбора, номер детали 3824119.
 
 ![[ck8tog12.png]]
 
-The following lower press fit bore specifications apply to the thick flange, thin flange factory modified, ex-thin, and thin flange type blocks.
+Следующие спецификации цилиндров с подгонки для нижнего пресса применяются к толстому фланцу, модифицированному тонкому фланцевому заводу, тонким блокам типа экс-тонкого и тонкого фланга.
 
-| (3) New Block Lower Press Fit Specifications |  |  |
+| (3) Новые спецификации для нижней пресс-подгонки |  |  |
 |---|---|---|
-| mm |  | in |
-| 180.09 | MIN | 7.090 |
-| 180.14 | MAX | 7.092 |
+| мм |  | в |
+| 180.09 | Мин | 7.090 |
+| 180.14 | Макс | 7.092 |
 
-| New Block Maximum Out of Round |  |  |
+| Новый блок максимум вне круга |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.05 | MAX | 0.002 |
+| мм |  | в |
+| 0.05 | Макс | 0.002 |
 
-| In Service Lower Press Fit Specifications |  |  |
+| Спецификации для уплотнения с низким уровнем |  |  |
 |---|---|---|
-| mm |  | in |
-| 180.09 | MIN | 7.090 |
-| 180.16 | MAX | 7.093 |
+| мм |  | в |
+| 180.09 | Мин | 7.090 |
+| 180.16 | Макс | 7.093 |
 
-| In Service Maximum Out of Round |  |  |
+| Максимально выйдя из круга |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.08 | MAX | 0.003 |
+| мм |  | в |
+| 0.08 | Макс | 0.003 |
 
-There **must** be a minimum of 0.025 mm \[0.001 in\] press fit all around between the lower press fit outside diameter of the liner and the lower press fit inside diameter of the block. Often, the new standard K19 liners can be sorted by measuring to find a liner that will provide adequate press fit without machining the lower press fit inside diameter of the block.
+Там должно быть как минимум 0,025 мм \[0,001 в\] пресс, расположенный вокруг между нижним прессом, установленным на внешнем диаметре гильзы, и нижним прессом, установленным на внутреннем диаметре блока. Часто новые стандартные гильзы K19 можно сортировать путем измерения, чтобы найти гильза, который обеспечит адекватную подгонку пресса без обработки нижней подвески пресса внутри диаметра блока.
 
-If the lower press fit inside diameter is **not** within specifications, it **must** be machined to accept either an oversized lower press fit K19 liner or K38 or K50 liner.
+Если нижний пресс, установленный внутри диаметра, **не** в соответствии со спецификациями, он должен быть обработан таким образом, чтобы принимать либо негабаритный нижний пресс, установленный на гильзе K19, либо на гильзе K38 или K50.
 
 ![[ck4brgb.png]]
 
-Use a dial bore gauge, Part Number 3376619 or 3375072, or equivalent. Other measuring devices such as inside diameter micrometers or calipers are **not** as accurate as a dial bore gauge and can cause unnecessary machining of cylinder blocks.
+Используйте циферблатный цилиндрический калибр, номер детали 3376619 или 3375072, или эквивалент. Другие измерительные устройства, такие как микрометры внутреннего диаметра или суппорты, не так точны, как калибр цилиндра циферблата, и могут вызвать ненужную обработку блоков цилиндров.
 
-Ring gauge, Part Number 3376831, has an inside diameter of 188.214 mm \[7.410 in\]. Use this gauge when setting up the dial bore gauge to measure thick flange, factory modified thin flange, and ex-thin flange blocks that have **not** been machined for oversized upper press fit K19 liners.
+Кольцевой калибр, номер детали 3376831, имеет внутренний диаметр 188,214 мм \[7,410 в\]. Используйте этот калибр при установке циферблата цилиндра калибр для измерения толстого фланца, заводской модифицированный тонкий фланец и бывшие тонкие фланцевые блоки, которые **не** были обработаны для негабаритных верхних прессов подгоняемых гильз K19.
 
-Ring gauge, Part Number 3376832, has an inside diameter of 190.335 mm \[7.4935 in\]. Use this gauge when setting up the dial bore gauge to measure blocks that have been machined for 83/Standard oversized upper press fit liners or K38 and K50 standard liners.
+Кольцевой калибр, номер детали 3376832, имеет внутренний диаметр 190,335 мм \[7,4935 в\]. Используйте этот калибр при установке калибра цилиндрического цилиндра для измерения блоков, которые были обработаны для 83/стандартных габаритных габарит
 
 ![[ck8tog12.png]]
 
-The specification for the upper press fit inside diameter (1) is dependent on whether or **not** the block has been machined for oversized upper press fit liners.
+Спецификация для верхней прессовой подгонки внутреннего диаметра (1) зависит от того, был ли блок обработан для негабаритных верхних прессовых подгонках.
 
-For blocks in service, the upper press fit inside diameter **must** be **not** more than the 0.076 mm \[0.003 in\]. Smaller than 0.076 mm \[0.003 in\], larger than the liner flange outside diameter on the liner that is to be installed in that bore. This bore can be as much as 0.15 mm \[0.006 in\] out of round.
+Для блоков в эксплуатации верхний пресс должен соответствовать внутреннему диаметру **не должен быть **больше, чем 0,076 мм \[0,003 дюйма \]. Меньше 0,076 мм \[0,003 дюйма \], больше, чем фланец гильзы наружного диаметра на гильзе, который должен быть установлен в цилиндре. Этот цилиндр может быть целых 0,15 мм \[0,006 дюйма \] вне круга.
 
-When machining the block to accept the oversized lower press fit or K38 and K50 liners, the inside diameter (1) needs to be the same size as the 0.076 mm \[0.003 in\], larger than the liner to be installed in that bore.
+При обработке блока для принятия негабаритного нижнего прессового подгонка или гильз K38 и K50 внутренний диаметр (1) должен быть того же размера, что и 0,076 мм \[0,003 дюйма \], больше, чем гильза, который будет установлен в этом цилиндре.
 
-Use a depth micrometer. When measuring a ex-thin flange block, make sure the end of the gauge tip is **not** contacting the ledge radius.
+Используйте микрометр глубины. При измерении экс-тонкого фланцевого блока убедитесь, что конец наконечника калибра **не **контактирует с радиусом выступа.
 
-Measure the depth at four points.
+Измерьте глубину в четырех точках.
 
-The four measures **must not** vary more than 0.25 mm \[0.001 in\].
+Четыре измерения **не должны **изменяться более чем на 0,25 мм \[0,001 в\].
 
-The maximum depth for any K19 block, except the counterbore ring type, is 158.8 mm \[0.625 in\]. This maximum depth also applies if the block deck height is at the minimum specifications.
+Максимальная глубина для любого блока K19, за исключением типа противоборствующего кольца, составляет 158,8 мм \[0,625 дюйма \]. Эта максимальная глубина также применяется, если высота палубного блока соответствует минимальным техническим требованиям.
 
 ![[ck4brgl.png]]
 
-| Counterbore Repair Matrix - Thick Flange and Factory Modified Type Blocks |  |  |  |
+| Матрица ремонта контрбора - толстый фланец и заводские модифицированные блоки типа |  |  |  |
 |---|---|---|---|
-| Liner Removed | Lower Press Fit in Specification | Upper Press Fit in Specification | Recommended Counterbore Repair |
-| Standard | Yes | Yes | Machine depth for seal ring, use standard liner |
-| Standard | Yes | No | Machine for 10/10 liner and seal ring |
-| Standard | No | Yes | Machine for 10/10 liner and seal ring |
-| Standard | No | No | Machine for 10/10 liner and seal ring |
-| 20/Standard | Yes | Yes | Machine depth for seal ring, Use 20/standard oversize upper press fit liner |
-| 20/Standard | Yes | No | Machine for 40/standard liner and seal ring |
-| 20/Standard | No | Yes | Machine for 20/20 liner and seal ring |
-| 20/Standard | No | No | Machine for 60/20 liner and seal ring |
-| 40/Standard | Yes | Yes | Machine depth for seal ring, use 40/standard oversize upper press fit liner |
-| 40/Standard | Yes | No | Machine for 40/standard liner and seal ring |
-| 40/Standard | No | Yes | Machine for 60/20 liner and seal ring |
-| 40/Standard | No | No | Machine for 60/20 liner and seal ring |
-| 60/Standard | Yes | Yes | Machine depth for seal ring, use 60 standard oversize upper press fit liner |
-| 60/Standard | Yes | No | Machine for K38 and K50 liner and seal ring |
-| 60/Standard | No | Yes | Machine for 60/20 liner and seal ring |
-| 60/Standard | No | No | Machine for K38 and K50 liner and seal ring |
-| 83/Standard | Yes | Yes | Machine depth for seal ring, use 83/standard oversize upper press fit liner |
-| 83/Standard | Yes | No | None, upper press fit already over K38 and K50 standard |
-| 83/Standard | No | Yes | Machine for K38 and K50 liner and seal ring |
-| 83/Standard | No | No | None, bores already over K38 and K50 standard |
-| 95/Standard | Yes | Yes | Machine depth for seal ring, Use 95/standard oversize upper press fit liner |
-| 95/Standard | Yes | No | None, upper press fit already over K38 and K50 standard |
-| 95/Standard | No | Yes | None, upper press fit already over K38 and K50 standard |
-| 95/Standard | No | No | None, bores already over K38 and K50 standard |
-| 10/10 | Yes | Yes | Machine depth for thicker seal ring, use 10/10 liner |
-| 10/10 | Yes | No | Machine for 20/20 liner and seal ring |
-| 10/10 | No | Yes | Machine for 20/20 liner and seal ring |
-| 10/10 | No | No | Machine for 20/20 liner and seal ring |
-| 20/20 | Yes | Yes | Machine depth for thicker seal ring, use 20/20 liner |
-| 20/20 | Yes | No | Machine for 60/20 and thicker seal ring |
-| 20/20 | No | Yes | Machine for K38 and K50 standard and thicker seal ring |
-| 20/20 | No | No | Machine for K38 and K50 standard and thicker seal ring |
-| 60/20 | Yes | Yes | Machine for thicker seal ring, use 60/20 liner |
-| 60/20 | Yes | No | Machine for K38 and K50 standard and thicker seal ring |
-| 60/20 | No | Yes | Machine for K38 and K50 standard and thicker seal ring |
-| 60/20 | No | No | Machine for K38 and K50 standard and thicker seal ring |
-| K38 and K50 | Yes | Yes | Machine for thicker seal ring, use K38 and K50 standard liner |
-| K38 and K50 | Yes | No | None, upper press fit already over K38 and K50 standard |
-| K38 and K50 | No | Yes | None, upper press fit already over K38 and K50 standard |
-| K38 and K50 | No | No | None, bores already over K38 and K50 standard |
+| Линейка убрана | Нижний пресс Fit в спецификации | Верхний пресс Fit в спецификации | Рекомендуемый ремонт контрбора |
+| Стандартный стандарт | Да | Да | Глубина машины для кольца уплотнения, использование стандартного гильзы |
+| Стандартный стандарт | Да | Нет | Машина для 10/10 линейного и уплотнительного колец |
+| Стандартный стандарт | Нет | Да | Машина для 10/10 линейного и уплотнительного колец |
+| Стандартный стандарт | Нет | Нет | Машина для 10/10 линейного и уплотнительного колец |
+| 20/Стандарт | Да | Да | Глубина машины для кольца уплотнения, Используйте 20/стандартный верхний пресс-подгонный гильза |
+| 20/Стандарт | Да | Нет | Машина для 40/стандартного гильзы и кольца уплотнения |
+| 20/Стандарт | Нет | Да | Машина для линейного и уплотнительного кольца 20/20 |
+| 20/Стандарт | Нет | Нет | Машина для кольца 60/20 и уплотнительного кольца |
+| 40/Стандарт | Да | Да | Глубина машины для кольца уплотнения, используйте 40/стандартный верхний пресс-подгонный гильза |
+| 40/Стандарт | Да | Нет | Машина для 40/стандартного гильзы и кольца уплотнения |
+| 40/Стандарт | Нет | Да | Машина для кольца 60/20 и уплотнительного кольца |
+| 40/Стандарт | Нет | Нет | Машина для кольца 60/20 и уплотнительного кольца |
+| 60/Стандарт | Да | Да | Глубина машины для кольца уплотнения, используйте 60 стандартных верхних прессов для подгонки подкладки |
+| 60/Стандарт | Да | Нет | Машина для гильз и герметичных колец K38 и K50 |
+| 60/Стандарт | Нет | Да | Машина для кольца 60/20 и уплотнительного кольца |
+| 60/Стандарт | Нет | Нет | Машина для гильз и герметичных колец K38 и K50 |
+| 83/Стандарт | Да | Да | Глубина машины для кольца уплотнения, используйте 83/стандартный верхний пресс-подгонный гильза |
+| 83/Стандарт | Да | Нет | Нет, верхний пресс подходит уже по стандарту K38 и K50. |
+| 83/Стандарт | Нет | Да | Машина для гильз и герметичных колец K38 и K50 |
+| 83/Стандарт | Нет | Нет | Нет, уже более стандартных K38 и K50. |
+| 95/Стандарт | Да | Да | Глубина машины для кольца уплотнения, Используйте 95/стандартный верхний пресс-подгонный гильза |
+| 95/Стандарт | Да | Нет | Нет, верхний пресс подходит уже по стандарту K38 и K50. |
+| 95/Стандарт | Нет | Да | Нет, верхний пресс подходит уже по стандарту K38 и K50. |
+| 95/Стандарт | Нет | Нет | Нет, уже более стандартных K38 и K50. |
+| 10/10 | Да | Да | Глубина машины для более толстого кольца уплотнения, используйте 10/10 гильза |
+| 10/10 | Да | Нет | Машина для линейного и уплотнительного кольца 20/20 |
+| 10/10 | Нет | Да | Машина для линейного и уплотнительного кольца 20/20 |
+| 10/10 | Нет | Нет | Машина для линейного и уплотнительного кольца 20/20 |
+| 20/20 | Да | Да | Глубина машины для более толстого кольца уплотнения, используйте 20/20 гильза |
+| 20/20 | Да | Нет | Машина для 60/20 и более толстое кольцо уплотнения |
+| 20/20 | Нет | Да | Машина для стандартных и толстых герметичных колец K38 и K50 |
+| 20/20 | Нет | Нет | Машина для стандартных и толстых герметичных колец K38 и K50 |
+| 60/20 | Да | Да | Машина для более толстого кольца уплотнения, используйте 60/20 гильза |
+| 60/20 | Да | Нет | Машина для стандартных и толстых герметичных колец K38 и K50 |
+| 60/20 | Нет | Да | Машина для стандартных и толстых герметичных колец K38 и K50 |
+| 60/20 | Нет | Нет | Машина для стандартных и толстых герметичных колец K38 и K50 |
+| K38 и K50 | Да | Да | Машина для более толстого уплотнительного кольца, использующая стандартный гильза K38 и K50 |
+| K38 и K50 | Да | Нет | Нет, верхний пресс подходит уже по стандарту K38 и K50. |
+| K38 и K50 | Нет | Да | Нет, верхний пресс подходит уже по стандарту K38 и K50. |
+| K38 и K50 | Нет | Нет | Нет, уже более стандартных K38 и K50. |
 
-| Counterbore Repair Matrix - Ex-Thin Type Blocks |  |  |  |
+| Матрица восстановления контрбора - Блокировки бывшего тонкого типа |  |  |  |
 |---|---|---|---|
-| Liner Removed | Lower Press Fit in Specification | Upper Press Fit in Specification | Recommended Counterbore Repair |
-| 60/Standard | Yes | Yes | Machine depth for seal ring, use 60/standard oversize upper press fit liner |
-| 60/Standard | Yes | No | Machine for K38 and K50 liner and seal ring |
-| 60/Standard | No | Yes | Machine for 60/20 oversize and seal ring |
-| 60/Standard | No | No | Machine for K38 and K50 liner and seal ring |
-| 83/Standard | Yes | Yes | Machine depth for seal ring, use 83/standard of upper press fit liner |
-| 83/Standard | Yes | No | None, upper press fit already over K38 and K50 liner |
-| 83/Standard | No | Yes | Machine for K38 and K50 liner and seal ring |
-| 83/Standard | No | No | None, bores already over K38 and K50 standard |
-| 95/Standard | Yes | Yes | Machine depth for seal ring, use 95/standard oversize upper press fit liner |
-| 95/Standard | Yes | No | None, upper press fit already over K38 and K50 standard |
-| 95/Standard | No | Yes | None, upper press fit already over K38 and K50 standard |
-| 95/Standard | No | No | None, bores already over K38 and K50 standard |
-| 60/20 | Yes | Yes | Machine for thicker seal ring, use 60/20 liner |
-| 60/20 | Yes | No | Machine for K38 and K50 standard and thicker seal ring |
-| 60/20 | No | Yes | Machine for K38 and K50 standard and thicker seal ring |
-| 60/20 | No | No | Machine for K38 and K50 standard and thicker seal ring |
-| K38 and K50 | Yes | Yes | Machine for thicker seal ring, use K38 and K50 standard liner |
-| K38 and K50 | Yes | No | None, upper press fit already over K38 and K50 standard |
-| K38 and K50 | No | Yes | None, lower press fit over K38 and K50 standard |
-| K38 and K50 | No | No | None, bores already over K38 and K50 standard |
+| Линейка убрана | Нижний пресс Fit в спецификации | Верхний пресс Fit в спецификации | Рекомендуемый ремонт контрбора |
+| 60/Стандарт | Да | Да | Глубина машины для кольца уплотнения, используйте 60/стандартный верхний пресс-подгонный гильза |
+| 60/Стандарт | Да | Нет | Машина для гильз и герметичных колец K38 и K50 |
+| 60/Стандарт | Нет | Да | Машина для кольца 60/20 и уплотнения |
+| 60/Стандарт | Нет | Нет | Машина для гильз и герметичных колец K38 и K50 |
+| 83/Стандарт | Да | Да | Глубина машины для уплотнительного кольца, использование 83/стандарта верхнего прессового фитинга |
+| 83/Стандарт | Да | Нет | Нет, верхний пресс уже подходит для гильз K38 и K50. |
+| 83/Стандарт | Нет | Да | Машина для гильз и герметичных колец K38 и K50 |
+| 83/Стандарт | Нет | Нет | Нет, уже более стандартных K38 и K50. |
+| 95/Стандарт | Да | Да | Глубина машины для кольца уплотнения, используйте 95/стандартный верхний пресс-подгонный гильза |
+| 95/Стандарт | Да | Нет | Нет, верхний пресс подходит уже по стандарту K38 и K50. |
+| 95/Стандарт | Нет | Да | Нет, верхний пресс подходит уже по стандарту K38 и K50. |
+| 95/Стандарт | Нет | Нет | Нет, уже более стандартных K38 и K50. |
+| 60/20 | Да | Да | Машина для более толстого кольца уплотнения, используйте 60/20 гильза |
+| 60/20 | Да | Нет | Машина для стандартных и толстых герметичных колец K38 и K50 |
+| 60/20 | Нет | Да | Машина для стандартных и толстых герметичных колец K38 и K50 |
+| 60/20 | Нет | Нет | Машина для стандартных и толстых герметичных колец K38 и K50 |
+| K38 и K50 | Да | Да | Машина для более толстого уплотнительного кольца, использующая стандартный гильза K38 и K50 |
+| K38 и K50 | Да | Нет | Нет, верхний пресс подходит уже по стандарту K38 и K50. |
+| K38 и K50 | Нет | Да | Ни один, нижняя пресса подходит по стандарту K38 и K50 |
+| K38 и K50 | Нет | Нет | Нет, уже более стандартных K38 и K50. |
 
-| Counterbore Repair Matrix - Thin Flange Type Blocks |  |  |  |
+| Матрица восстановления контрбора - тонкие блоки типа фланжа |  |  |  |
 |---|---|---|---|
-| Liner Removed | Lower Press Fit in Specification | Upper Press Fit in Specification | Recommended Counterbore Repair |
-| Thin flange | Yes | Yes | Machine depth for seal ring, use thin flange liner |
-| Thin flange | Yes | No | Machine for 60/standard liner and seal ring |
-| Thin flange | No | Yes | Machine for 60/20 liner and seal ring |
-| Thin flange | No | No | Machine for 60/20 liner and seal ring |
+| Линейка убрана | Нижний пресс Fit в спецификации | Верхний пресс Fit в спецификации | Рекомендуемый ремонт контрбора |
+| тонкий фланж | Да | Да | Глубина машины для кольца уплотнения, используйте тонкий фланцевый гильза |
+| тонкий фланж | Да | Нет | Машина для 60/стандартного гильзы и кольца уплотнения |
+| тонкий фланж | Нет | Да | Машина для кольца 60/20 и уплотнительного кольца |
+| тонкий фланж | Нет | Нет | Машина для кольца 60/20 и уплотнительного кольца |
 
-| Counterbore Machining Specifications |  |  |  |  |
+| Спецификации обработки Counterbore |  |  |  |  |
 |---|---|---|---|---|
-| Liner Upper Press Fit/Lower Press Fit | Upper Press Fit Bore Inside Diameter | Lower Press Fit Bore Inside Diameter |  |  |
-| Oversize/Oversize | Minimum mm \[in\] | Maximum mm \[in\] | Minimum mm \[in\] | Maximum mm \[in\] |
-| Standard/Standard | 188.16 \[7.408\] | 188.32 \[7.414\] 1 | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+| Линейный пресс Upper Press Fit/Lower Press Fit | Верхний пресс Fit цилиндра внутри диаметра | Нижний пресс Fit цилиндра в диаметре |  |  |
+| Размер/обогащение | Минимальный размер \[in\] | Максимальный размер \[in\] | Минимальный размер \[in\] | Максимальный размер \[in\] |
+| Стандарт/Стандарт | 188.16 \[7.408\] | 188.32 \[7.414\] 1 | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
 | 10/10 | 188.44 \[7.419\] | 188.57 \[7.424\] | 180.34 \[7.100\] | 180.42 \[7.103\] |
 | 20/20 | 188.75 \[7.431\] | 188.82 \[7.434\] | 180.59 \[7.110\] | 180.64 \[7.112\] |
 | 60/20 | 189.76 \[7.471\] | 189.84 \[7.474\] | 180.59 \[7.110\] | 180.64 \[7.112\] |
 | K38/K50 | 190.37 \[7.495\] | 190.45 \[7.498\] | 181.74 \[7.155\] | 181.79 \[7.157\] |
-| 20/Standard | 188.67 \[7.428\] | 188.72 \[7.430\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
-| 40/Standard | 189.18 \[7.448\] | 189.23 \[7.450\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
-| 60/Standard | 189.69 \[7.468\] | 189.74 \[7.470\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
-| 83/Standard | 190.27 \[7.491\] | 190.32 \[7.493\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
-| 95/Standard | 190.58 \[7.503\] | 190.63 \[7.505\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
-| Thin flange/Standard | 188.01 \[7.402\] | 188.09 \[7.405\] 1 | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
-| 1 Maximum inside diameter blocks in service. |  |  |  |  |
-| 2 Maximum inside diameter blocks in service. **Must** be a minimum of 0.03 mm \[0.001 in\] press fit between liner and block. |  |  |  |  |
+| 20/Стандарт | 188.67 \[7.428\] | 188.72 \[7.430\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+| 40/Стандарт | 189.18 \[7.448\] | 189.23 \[7.450\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+| 60/Стандарт | 189.69 \[7.468\] | 189.74 \[7.470\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+| 83/Стандарт | 190.27 \[7.491\] | 190.32 \[7.493\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+| 95/Стандарт | 190.58 \[7.503\] | 190.63 \[7.505\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+| Тонкий фланж / Стандарт | 188.01 \[7.402\] | 188.09 \[7.405\] 1 | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+| 1 Максимальный внутренний диаметр блоков в эксплуатации. |  |  |  |  |
+| 2 Максимальный внутренний диаметр блоков в эксплуатации. Должна быть минимальная 0,03 мм \[0,001 дюйма \] между гильзой и блоком. |  |  |  |  |
 
-Measure the counterbore depth at the four locations illustrated in the graphic with a depth micrometer.
+Измерьте глубину контрбора в четырех местах, проиллюстрированных на графике с помощью микрометра глубины.
 
-Make sure the micrometer contacts the flat surface of the ledge. It **must not** touch the radius.
+Убедитесь, что микрометр контактирует с плоской поверхностью выступа. Не должно касаться радиуса.
 
-| Counterbore Depth |  |  |
+| Глубина контрбора |  |  |
 |---|---|---|
-| mm |  | in |
-| 13.754 | MIN | 0.5415 |
-| 13.805 | MAX | 0.5435 |
+| мм |  | в |
+| 13.754 | Мин | 0.5415 |
+| 13.805 | Макс | 0.5435 |
 
-The four measurements **must not** vary more than 0.25 mm \[0.001 in\]. If the measurements exceed the specifications, the counterbore ledge **must** be machined.
+Четыре измерения **не должны **изменяться более чем на 0,25 мм \[0,001 в\]. Если измерения превышают технические характеристики, то необходимо обработать выступ контрборе.
 
 ![[ck4brta.png]]
 
-Make sure the indicator does **not** contact the counterbore radius on a block that does **not** have a double undercut.
+Убедитесь, что индикатор **не** не контактирует с радиусом встречной стрелки на блоке, который **не** имеет двойное подрезание.
 
-Use depth gauge assembly, Part Number 3164438 or 3823495, or equivalent, to measure the angle of the counterbore ledge at four places on the counterbore circumference.
+Используйте калибр глубины, номер детали 3164438 или 3823495, или эквивалент, для измерения угла выступа контрбора в четырех местах на окружности контрбора.
 
-The measurement of the ledge depth **must** be as near to the counterbore radius as possible, and as near to the counterbore edge as possible.
+Измерение глубины выступа должно быть как можно ближе к радиусу противоборства и как можно ближе к краю противоборства.
 
 ![[ck4brtb.png]]
 
-The angle (12) of the counterbore ledge is acceptable if the measurement near the counterbore is the same or no more than 0.36 mm \[0.0014 in\] shorter than the measurement near the counterbore radius.
+Угол (12) выступа противного бора приемлем, если измерение вблизи противоборствующего выступа одинаковое или не более 0,36 мм \[0,0014 в\] короче измерения вблизи радиуса противного бора.
 
-If the measurement near the counterbore ledge is greater than the measurement near the counterbore radius, the ledge **must** be machined.
+Если измерение вблизи выступа против бора больше, чем измерение вблизи радиуса противоборства, выступ должен быть обработан.
 
 ![[ck8brna.png]]
 
-Measure the chamfer at the top of the packing ring bore. Excessive pitting **must** be repaired.
+Измерьте шарнир в верхней части цилиндра упаковочного кольца. Излишнюю грязь надо починить.
 
-| (4) Packing Ring Bore |  |  |
+| 4) Упаковочный цилиндр с кольцом |  |  |
 |---|---|---|
-| mm |  | in |
-| 177.34 | MIN | 6.982 |
-| 177.39 | MAX | 6.984 |
+| мм |  | в |
+| 177.34 | Мин | 6.982 |
+| 177.39 | Макс | 6.984 |
 
-If the packing ring bore is **not** within specifications, it **must** be repaired. Refer to the Alternate Repair Manual, Bulletin 3379035.
+Если упаковочный цилиндр с кольцом **не** в пределах спецификаций, он должен быть отремонтирован. См. руководство по альтернативному ремонту, Бюллетень 3379035.
 
 ![[ck4brnb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> There are seven variations of K19 cylinder blocks and oversize liners now in the field. Use the following information to identify the parts that are used. Make sure the correct parts are used with the correct block.
+>
+> Definition of counterbore features:
+>
+> - (1) Upper counterbore inside diameter, called upper press fit inside diameter
+> - (2) Counterbore depth
+> - (3) Lower counterbore inside diameter, called lower press fit inside diameter
+> - (4) Packing ring bore
+> - (5) Counterbore ledge
+> - (6) Counter bore radius (graphic illustrates double undercut radius).
+>
+> The thick flanged block:
+>
+> - (1) The upper press fit inside diameter of the bore is machined at the factory and referred to as standard. The inside diameter of the standard bore is 188.16 to 188.21 mm \[7.408 to 7.410 in\].
+> - (2) The counterbore standard depth for some engines built between September 1994, engine serial number 37155415, and June 1995, engine serial number 37158125, and after is 13.746 to 13.818 mm \[0.5412 to 0.544 in\]. The counterbore standard depth for all engines built June 1995, engine serial number 37158125, is 13.754 to 13.818 mm \[0.5422 to 0.544 in\]. The counterbore standard depth for all blocks manufactured from February 1981 to September 1994, engine serial number 37155415, is 13.23 to 13.28 mm \[0.521 to 0.523 in\].
+> - (3) Lower press fit inside diameter of the bore is machined at the factory and referred to as standard. The inside diameter of the standard bore is 180.09 to 180.14 mm \[7.090 to 7.092 in\].
+> - (6) The thick flange block has the double undercut radius.
+>
+> Most engines with an engine serial number greater than 311216 70, February 1981, contain this type of block.
+>
+> All K19 engines with engine serial number that begins with 37, December 1986, and engines with a serial number that begins with a 66, have this type of block.
+>
+> The thin flange factory modified block is the same as the thick flange block except for the groove (7), which has **no** function.
+>
+> This block is treated exactly the same as the thick flange block.
+>
+> The thin flange field modified to thick flange block will be referred to as the ex-thin flange block.
+>
+> - (1) The upper press fit inside diameter varies with the upper press fit oversized liner used during the modification.
+> - (2) The depth is 13.23 to 13.28 mm \[0.521 to 0.523 in\].
+> - (3) The lower press fit inside diameter is the same as the thick flange block.
+> - (8) It has a 1.73 to 1.85 mm \[0.068 to 0.073 in\] radius that is **not** undercut.
+>
+> This type block is found on engines with engine serial number between 31103629, November 1976, and 31121670, February 1981. as they were originally built with thin flange blocks.
+>
+> The thin flange block has:
+>
+> - (1) A upper press fit inside diameter that can vary depending on the type of the upper press fit oversized thin flange liner used. Standard thin flanged liners are available. Oversized thin flange liners are no longer available.
+> - (2) Counterbore depth is 7.62 to 7.67 mm \[0.300 ot 0.302 in\].
+> - (3) Lower press fit inside diameter is the same as the thick flange type.
+>
+> The radius is double undercut. This type of block is found on engines with an engine serial number range of 31103629 to 31121669.
+>
+> The counterbore ring thick flange (8) is identified by the counter bore ring.
+>
+> Depth (2), depth (11), and the inside diameter (3) are the same as present K38 and K50 engines, and thus use standard and oversized K38 and K50 liners. This type is **not** lower press fit. That is, by design there was **not** always a press fit below the liner flange (3). There is no recommended salvage for the inside diameter (3) on these blocks.
+>
+> This type block is found on engines with an engine serial range between 31101150, August 1975, to 31103628, November 1976.
+>
+> The original K19:
+>
+> - (1) Upper press fit inside diameter is the same as the present K38 and K50 engines.
+> - (2) Depth is the same as the present K38 and K50 engines.
+> - (3) Lower counterbore is the same as the present K38 and K50, but will probably **not** provide press fit to the liner.
+>
+> There is no recommended salvage for the inside diameter (3) on this type block.
+>
+> This type of block is found on engines with an engine serial number range of 31100101, July 1974, to 31101149, August 1975.
+>
+> Cummins Inc. recommends this style block **not** be reused.
+>
+> The cylinder liners are:
+>
+> - (1) Flange outside diameter referred to as the upper press fit outside diameter.
+> - (2) Referred to as lower press fit outside diameter.
+>
+> The standard K19 liners are those liners used in new production K19 engines. Oversized liners have dimensions that are oversized with respect to the standard liner.
+>
+> For example, 20/20 OS means the upper press fit outside diameter (1) is 0.020 inch larger than the standard liner and the lower press fit outside diameter is 0.020 in larger than the standard liner.
+>
+> The specification for the liner flange thickness on all K19 liners, standard and oversized is the same, 13.360 to 13.386 mm \[0.526 to 0.527 in\].
+>
+> The K38 and K50 liner is referred to as the liner used to in new production K38 and K50 engines. The K38 and K50 production liner upper press fit outside diameter is normally 2.16 mm \[0.085 in\] larger and the lower press fit outside diameter is normally 1.65 mm \[0.065 in\] larger than the respective outside diameter on the standard K19 liner.
+>
+> The K38 and K50 liner can be described as 85/65 oversized with respect to the K19. The use of K38 and K50 oversized upper press fit liners to repair K19 counterbores is **not** recommended.
+>
+> The use of standard K38 and K50 liners in a properly machined K19 block is authorized.
+>
+> ### Preparatory Steps
+>
+> Use a drill, a sheet metal screw, and the listed parts from the light duty puller kit, Part Number 3375784:
+>
+> - Slide hammer
+> - Hook.
+>
+> Remove the listed plugs:
+>
+> - (1) Main oil passage cup plug
+> - (2) Piston cooling oil passage cup plug
+> - (3) Main oil passage pipe plug
+> - (4) Water pump idler oil passage plug.
+>
+> **Note · Примечание**
+> Engines equipped with a rear gear drive **must not** have a plug in the main oil passage.
+>
+> Remove the listed plugs:
+>
+> - (5) Main oil passage cup plug
+> - (6) Piston cooling rifle cup plug
+> - (7) Piston cooling oil passage pipe plug.
+>
+> Remove the seven cup plugs from the camshaft oil passages.
+>
+> These passages extend through the camshaft bores to the main bearing bores. The passage for the number six main rifle contains a steel tube that has an interference fit with the drilled passage.
+>
+> To allow for the proper coolant flow and air removal of the cylinder head and engine block on a horizontally mounted K19 engine, a coolant drilling runs the entire length of the cylinder block and passes through the center of each cylinder liner cavity.
+>
+> The drilling is plugged by a ¼ pipe plug.
+>
+> It is **not** necessary to remove the cup plug at the end of the block unless it is leaking.
+>
+> Remove the cup plug from the hydraulic pump idler oil passage.
+>
+> Remove the pipe plug from the lubricating oil pump oil passage.
+>
+> Use dowel pin extractor, Part Number 3163720, or equivalent to perform the listed steps to remove the 12 cylinder head groove pins.
+>
+> 1. Place the split collet (8) over the groove pin.
+> 2. Slide the extractor collar (9) over the split collet.
+> 3. Use the slide hammer (10) to push the extractor collar over the split collet tightly.
+> 4. Use the slide hammer to remove the groove pin.
+>
+> ### Clean and Inspect for Reuse
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of leaks and engine damage, do not damage the machine gasket surfaces or the camshaft bushings.
+>
+> Use a scraper, a wire brush, or hand pad, Part Number 3823258, to clean all the heavy dirt deposits off the cylinder block and clean:
+>
+> - All gasket surfaces
+> - All mounting surfaces
+> - Cylinder liner counterbore ledge and press fit areas
+> - Cylinder liner packing ring bore
+> - Top of block
+> - Main bearing saddle and caps
+> - All cup plug bores.
+>
+> Clean all the oil passages with a long handle bottle brush.
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **CAUTION · Осторожно**
+> A cleaning solution must be used that will not harm camshaft bearings.
+>
+> Cummins Inc. does **not** recommend any specific cleaning solution. Use the General Cleaning Instructions procedure. [[99-204-008 — General Cleaning Instructions|Refer to Procedure 204-008]].
+>
+> Follow the instructions of the manufacturer of the cleaning tank and the manufacturer of the cleaning solution.
+>
+> Remove the block from the engine stand and place it into a tank of cleaning solution.
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> To reduce the possibility of damage to the cylinder block, make sure all the water is removed from the capscrew holes and the oil passages.
+>
+> Remove the block from the cleaning tank.
+>
+> Steam clean the block.
+>
+> Make sure all the oil passages are clean.
+>
+> Dry the block with compressed air.
+>
+> If the cylinder block is **not** going to be used immediately, apply a coating of preservative oil to prevent rust.
+>
+> Cover the block to prevent dirt from sticking to the oil.
+>
+> Check the top surface of the block for wear. If fretting damage is present in an area where a head gasket seal ring or a grommet makes contact, the surface **must** be repaired.
+>
+> Fretting damage in any other area is acceptable if it does **not** change the protrusion measurement of the counterbore or liner.
+>
+> A newly machined surface **must** be flat within 0.05 mm \[0.002 in\] under a cylinder head. Waves on the surface are acceptable as long as they are **not** more than 0.018 mm \[0.0007 in\] high, and the high and low points of the waves are **not** closer than 25 mm \[1.0 in\].
+>
+> A newly machined surface **must** meet the specifications for block height. The top of the surface of the cylinder liner counterbore **must** be machined.
+>
+> The parting line of the main bearing cap is **not** at the same height as the centerline of the main bearing bore.
+>
+> Measure the cylinder block height.
+>
+> If the checking ring or the centering ring is **not** available, the height of the block can be measured from the top of the bearing saddle (14).
+>
+> | Cylinder Block Height |  |  |  |
+> |---|---|---|---|
+> |  | mm |  | in |
+> | (13) Center Line Main Bearing Bore | 481.94 | MIN | 18.974 |
+> |  | 482.78 | MAX | 19.007 |
+> | (14) Top of Main Bearing Saddle | 407.70 | MIN | 16.051 |
+> |  | 408.53 | MAX | 16.084 |
+>
+> If the height of the block from the crankshaft centerline is less than 482.42 mm \[18.993 in\], a 0.51 mm \[0.020 in\] oversize head gasket **must** be used.
+>
+> If the height of the block from the main bearing bore is less than 408.20 mm \[16.071 in\], a 0.51 mm \[0.020 in\] oversize head gasket **must** be used.
+>
+> The height of the block **must not** vary more than 0.05 mm \[0.002 in\] from end-to-end of the block. If the block height is **not** within specifications, the top surface of the block **must** be machined or the block replaced.
+>
+> If the top surface of the block is machined, ledge depth of the cylinder liner counterbore **must** be machined.
+>
+> Check the main bearing caps that are loose.
+>
+> The main bearing cap **must** be repalced if:
+>
+> - The clearance causes the main bore alignment **not** to be within specifications.
+> - The clearance between the block and the cap is more than 0.18 mm \[0.007 in\] on either side of the cap when the cap is installed and tightened to specifications.
+> - There is fretting or heat damage to the cap.
+>
+> On new or reconditioned blocks, the main bearing cap is 0.00 to 0.254 mm \[0.00 to 0.010 in\] larger than the block. Force **must** be used to install the caps.
+>
+> Service caps do **not** have the bore machined to a final specification. If the cap is machined, use the correct parts of the main bearing boring tool, Part Number ST-1177.
+>
+> Check the water holes (15). If erosion or pitting is more than 0.08 mm \[0.003 in\] deep or extends more than 2.4 mm \[0.095 in\] from the edge of the water hole, the water hole **must** be repaired.
+>
+> Use the coolant passage repair kit, Part Number 3824047, or the water hole surface repair kit, Part Number 3824066, to repair the water hole.
+>
+> Check the threads of the capscrew holes (16) for damage. Use a threaded insert if a damaged hole **must** be repaired.
+>
+> Main Bearing Bore
+>
+> Place two centering rings, Part Number ST-1177-54, in the number two and number six main bearing locations.
+>
+> The main bearing caps are numbered one through seven. Install each cap in the correct location. The slot in the cap for the bearing tang **must** be on the same side as the slot in the block.
+>
+> Position the main bearing caps in the cylinder block.
+>
+> Install the capscrews, making sure they are positioned correctly.
+>
+> Use a mallet to drive the caps down until they touch the block.
+>
+> If any of the caps do **not** require force during installation, mark the cap to check the side clearance.
+>
+> Tighten the capscrews for the main bearing caps.
+>
+> Torque Value:
+>
+> Lubricate the inside diameter of the two centering rings.
+>
+> Install the alignment/boring bar, Part Number ST-1177-16, in the two centering rings.
+>
+> The bar **must** turn easily.
+>
+> If the bar does **not** turn easily, make sure the main bearing caps are installed correctly.
+>
+> If the main bearing caps appear to be installed correctly, move the centering ring to another bearing location.
+>
+> Install the checking ring into the main bearing bore by hand.
+>
+> If the ring will **not** slide through the main bearing bore, check the bore for burrs.
+>
+> Remove any burrs in the bore.
+>
+> If the checking ring still will **not** slide through the bore, the bore is undersized and **must** be repaired. Refer to the Alternate Repair Manual, Bulletin 3379035.
+>
+> Use a 0.076 mm \[0.003 in\] feeler gauge that is **not** more than 13 mm \[0.5 in\] wide.
+>
+> Center the checking ring in the bore.
+>
+> Attempt to insert the feeler gauge between the checking ring and the bore.
+>
+> Rotate the gauge in the bore at both sides of the checking ring.
+>
+> The bore alignment of the main bearing is acceptable if:
+>
+> - The gauge does **not** enter at any point.
+> - The gauge will enter but will **not** slide through or around the bore, and the alignment bar will rotate with the gauge inserted.
+>
+> The bore alignment of the main bearing is **not** acceptable if:
+>
+> - The gauge enters and slides around the bore. This indicates the bore is oversize and **must** be repaired.
+> - The gauge will enter on one side **only**, but can slide around the bore. This indicates the bore is tapered and **must** be repaired.
+>
+> If the tools to check the main bearing bore alignment are **not** available, use a dial bore indicator.
+>
+> Measure the inside diameter in the three positions illustrated in the graphic. The inside diameter **must** be completely round within 0.013 mm \[0.0005 in\].
+>
+> **Note · Примечание**
+> Support the rear portion of the block on a flat surface to obtain the most accurate measurement of the inside diameter.
+>
+> | Main Bearing Bore I.D. (Capscrews Torqued to Specification) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 148.44 | MIN | 5.8444 |
+> | 148.50 | MAX | 5.8465 |
+>
+> ### Assemble
+>
+> **CAUTION · Осторожно**
+> Do not install any cup plugs or pipe plugs in the block until the inspect and any necessary repair procedures are completed. This will prevent dirt from being trapped in any oil passages.
+>
+> Apply a thin coat of pipe Loctite sealant, Part Number 3375068, or equivalent, to the pipe or cup plugs.
+>
+> Install the pipe plugs.
+>
+> Use cup plug driver, Part Number 3164085 or 3376795, with all cup plug drivers to install the cup plugs.
+>
+> | Cup Plug Driver Part Number | Cup Plug Size |
+> |---|---|
+> | 3822372 | 0.375 in |
+> | 3376793 | 0.500 in |
+> | 3376813 | 0.875 in |
+> | 3376812 | 1.125 in |
+> | 3376814 | 1.625 in |
+>
+> ### Crack Detection Test
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the counterbore area with safety solvent.
+>
+> Metallurgical analysis of cross sections of counterbores having circumferential cracks has revealed the cracks are surface-initiated on the top of the counterbore ledge, and normally do **not** propagate vertically through the counterbore ledge into the coolant passage around the cylinder liner.
+>
+> Pitting on the liner seat is **not** acceptable. The illustration in the graphic is an example of pitting in a damaged area.
+>
+> This block requires machining before it can be used. [[18-001-028-tr — Cylinder Liner|Refer to Procedure 001-028]] for the machine depth for the seal ring.
+>
+> Check the counterbore ledge for cracks with crack detection kit, Part Number 3375432, or equivalent.
+>
+> Circumferential cracks of the counterbore ledge are acceptable if the cracks do **not** extend to or over the edge of the ledge as shown in the illustration.
+>
+> Circumferential cracks in the radius are acceptable if they do **not** extend more than 90 degrees around the radius.
+>
+> It is **not** necessary to machine the block in an effort to remove acceptable cracks.
+>
+> If cracks that are **not** acceptable are found during the initial inspection, the counterbore **must** be machined.
+>
+> If a crack that is **not** acceptable remains after the machining repair procedure is completed, the block is **not** acceptable for use.
+>
+> Check the capscrew holes for cracks.
+>
+> Cracks that extend from the counter bore wall to the capscrew hole are acceptable for use **only** if they do **not** extend into the threaded portion of the hole.
+>
+> Cracks that extend into the threaded portion of the capscrew hole require repair with a blind-end thread insert.
+>
+> Use the thread salvage kit, Part Number 3164021 or 3376208, to repair the insert.
+>
+> Check for cracks running horizontally around the vertical wall of the counterbore.
+>
+> All coolant passages that are closest to the bore **must** be repaired with coolant passage threaded inserts.
+>
+> Check for cracks that run vertically to a coolant passage or a capscrew hole.
+>
+> Those passages **must** be repaired with coolant passage threaded inserts.
+>
+> Cylinder block with vertical cracks that extend from a coolant passage down over the counterbore ledge can **not** be repaired.
+>
+> ### Measure
+>
+> Two dial bore gauge setting rings have been released to support salvage of the lower press fit bore in a K19 cylinder block.
+>
+> Both rings have steps:
+>
+> - Standard/0.020 - The inside diameter of the bores in the gauge are:
+> - Small inside diameter (Standard K19) - 180.11 mm \[7.091 in\]
+> - Large inside diameter (0.020 oversized) - 180.62 mm \[7.111 in\]
+> - 0.065/0.85 - The inside diameter of the bores in the gauge are:
+> - Small inside diameter (0.065 oversized) - 181.76 mm \[7.156 in\]
+> - Large inside diameter (0.085 oversized) - 182.27 mm \[7.176 in\]
+>
+> The 0.065 oversize ring for the K19 is the same as the new production lower press fit ring on the K38 and K50 engines.
+>
+> Both of the setting rings are included in counterbore salvage kit, Part Number 3824119.
+>
+> The following lower press fit bore specifications apply to the thick flange, thin flange factory modified, ex-thin, and thin flange type blocks.
+>
+> | (3) New Block Lower Press Fit Specifications |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 180.09 | MIN | 7.090 |
+> | 180.14 | MAX | 7.092 |
+>
+> | New Block Maximum Out of Round |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.05 | MAX | 0.002 |
+>
+> | In Service Lower Press Fit Specifications |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 180.09 | MIN | 7.090 |
+> | 180.16 | MAX | 7.093 |
+>
+> | In Service Maximum Out of Round |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.08 | MAX | 0.003 |
+>
+> There **must** be a minimum of 0.025 mm \[0.001 in\] press fit all around between the lower press fit outside diameter of the liner and the lower press fit inside diameter of the block. Often, the new standard K19 liners can be sorted by measuring to find a liner that will provide adequate press fit without machining the lower press fit inside diameter of the block.
+>
+> If the lower press fit inside diameter is **not** within specifications, it **must** be machined to accept either an oversized lower press fit K19 liner or K38 or K50 liner.
+>
+> Use a dial bore gauge, Part Number 3376619 or 3375072, or equivalent. Other measuring devices such as inside diameter micrometers or calipers are **not** as accurate as a dial bore gauge and can cause unnecessary machining of cylinder blocks.
+>
+> Ring gauge, Part Number 3376831, has an inside diameter of 188.214 mm \[7.410 in\]. Use this gauge when setting up the dial bore gauge to measure thick flange, factory modified thin flange, and ex-thin flange blocks that have **not** been machined for oversized upper press fit K19 liners.
+>
+> Ring gauge, Part Number 3376832, has an inside diameter of 190.335 mm \[7.4935 in\]. Use this gauge when setting up the dial bore gauge to measure blocks that have been machined for 83/Standard oversized upper press fit liners or K38 and K50 standard liners.
+>
+> The specification for the upper press fit inside diameter (1) is dependent on whether or **not** the block has been machined for oversized upper press fit liners.
+>
+> For blocks in service, the upper press fit inside diameter **must** be **not** more than the 0.076 mm \[0.003 in\]. Smaller than 0.076 mm \[0.003 in\], larger than the liner flange outside diameter on the liner that is to be installed in that bore. This bore can be as much as 0.15 mm \[0.006 in\] out of round.
+>
+> When machining the block to accept the oversized lower press fit or K38 and K50 liners, the inside diameter (1) needs to be the same size as the 0.076 mm \[0.003 in\], larger than the liner to be installed in that bore.
+>
+> Use a depth micrometer. When measuring a ex-thin flange block, make sure the end of the gauge tip is **not** contacting the ledge radius.
+>
+> Measure the depth at four points.
+>
+> The four measures **must not** vary more than 0.25 mm \[0.001 in\].
+>
+> The maximum depth for any K19 block, except the counterbore ring type, is 158.8 mm \[0.625 in\]. This maximum depth also applies if the block deck height is at the minimum specifications.
+>
+> | Counterbore Repair Matrix - Thick Flange and Factory Modified Type Blocks |  |  |  |
+> |---|---|---|---|
+> | Liner Removed | Lower Press Fit in Specification | Upper Press Fit in Specification | Recommended Counterbore Repair |
+> | Standard | Yes | Yes | Machine depth for seal ring, use standard liner |
+> | Standard | Yes | No | Machine for 10/10 liner and seal ring |
+> | Standard | No | Yes | Machine for 10/10 liner and seal ring |
+> | Standard | No | No | Machine for 10/10 liner and seal ring |
+> | 20/Standard | Yes | Yes | Machine depth for seal ring, Use 20/standard oversize upper press fit liner |
+> | 20/Standard | Yes | No | Machine for 40/standard liner and seal ring |
+> | 20/Standard | No | Yes | Machine for 20/20 liner and seal ring |
+> | 20/Standard | No | No | Machine for 60/20 liner and seal ring |
+> | 40/Standard | Yes | Yes | Machine depth for seal ring, use 40/standard oversize upper press fit liner |
+> | 40/Standard | Yes | No | Machine for 40/standard liner and seal ring |
+> | 40/Standard | No | Yes | Machine for 60/20 liner and seal ring |
+> | 40/Standard | No | No | Machine for 60/20 liner and seal ring |
+> | 60/Standard | Yes | Yes | Machine depth for seal ring, use 60 standard oversize upper press fit liner |
+> | 60/Standard | Yes | No | Machine for K38 and K50 liner and seal ring |
+> | 60/Standard | No | Yes | Machine for 60/20 liner and seal ring |
+> | 60/Standard | No | No | Machine for K38 and K50 liner and seal ring |
+> | 83/Standard | Yes | Yes | Machine depth for seal ring, use 83/standard oversize upper press fit liner |
+> | 83/Standard | Yes | No | None, upper press fit already over K38 and K50 standard |
+> | 83/Standard | No | Yes | Machine for K38 and K50 liner and seal ring |
+> | 83/Standard | No | No | None, bores already over K38 and K50 standard |
+> | 95/Standard | Yes | Yes | Machine depth for seal ring, Use 95/standard oversize upper press fit liner |
+> | 95/Standard | Yes | No | None, upper press fit already over K38 and K50 standard |
+> | 95/Standard | No | Yes | None, upper press fit already over K38 and K50 standard |
+> | 95/Standard | No | No | None, bores already over K38 and K50 standard |
+> | 10/10 | Yes | Yes | Machine depth for thicker seal ring, use 10/10 liner |
+> | 10/10 | Yes | No | Machine for 20/20 liner and seal ring |
+> | 10/10 | No | Yes | Machine for 20/20 liner and seal ring |
+> | 10/10 | No | No | Machine for 20/20 liner and seal ring |
+> | 20/20 | Yes | Yes | Machine depth for thicker seal ring, use 20/20 liner |
+> | 20/20 | Yes | No | Machine for 60/20 and thicker seal ring |
+> | 20/20 | No | Yes | Machine for K38 and K50 standard and thicker seal ring |
+> | 20/20 | No | No | Machine for K38 and K50 standard and thicker seal ring |
+> | 60/20 | Yes | Yes | Machine for thicker seal ring, use 60/20 liner |
+> | 60/20 | Yes | No | Machine for K38 and K50 standard and thicker seal ring |
+> | 60/20 | No | Yes | Machine for K38 and K50 standard and thicker seal ring |
+> | 60/20 | No | No | Machine for K38 and K50 standard and thicker seal ring |
+> | K38 and K50 | Yes | Yes | Machine for thicker seal ring, use K38 and K50 standard liner |
+> | K38 and K50 | Yes | No | None, upper press fit already over K38 and K50 standard |
+> | K38 and K50 | No | Yes | None, upper press fit already over K38 and K50 standard |
+> | K38 and K50 | No | No | None, bores already over K38 and K50 standard |
+>
+> | Counterbore Repair Matrix - Ex-Thin Type Blocks |  |  |  |
+> |---|---|---|---|
+> | Liner Removed | Lower Press Fit in Specification | Upper Press Fit in Specification | Recommended Counterbore Repair |
+> | 60/Standard | Yes | Yes | Machine depth for seal ring, use 60/standard oversize upper press fit liner |
+> | 60/Standard | Yes | No | Machine for K38 and K50 liner and seal ring |
+> | 60/Standard | No | Yes | Machine for 60/20 oversize and seal ring |
+> | 60/Standard | No | No | Machine for K38 and K50 liner and seal ring |
+> | 83/Standard | Yes | Yes | Machine depth for seal ring, use 83/standard of upper press fit liner |
+> | 83/Standard | Yes | No | None, upper press fit already over K38 and K50 liner |
+> | 83/Standard | No | Yes | Machine for K38 and K50 liner and seal ring |
+> | 83/Standard | No | No | None, bores already over K38 and K50 standard |
+> | 95/Standard | Yes | Yes | Machine depth for seal ring, use 95/standard oversize upper press fit liner |
+> | 95/Standard | Yes | No | None, upper press fit already over K38 and K50 standard |
+> | 95/Standard | No | Yes | None, upper press fit already over K38 and K50 standard |
+> | 95/Standard | No | No | None, bores already over K38 and K50 standard |
+> | 60/20 | Yes | Yes | Machine for thicker seal ring, use 60/20 liner |
+> | 60/20 | Yes | No | Machine for K38 and K50 standard and thicker seal ring |
+> | 60/20 | No | Yes | Machine for K38 and K50 standard and thicker seal ring |
+> | 60/20 | No | No | Machine for K38 and K50 standard and thicker seal ring |
+> | K38 and K50 | Yes | Yes | Machine for thicker seal ring, use K38 and K50 standard liner |
+> | K38 and K50 | Yes | No | None, upper press fit already over K38 and K50 standard |
+> | K38 and K50 | No | Yes | None, lower press fit over K38 and K50 standard |
+> | K38 and K50 | No | No | None, bores already over K38 and K50 standard |
+>
+> | Counterbore Repair Matrix - Thin Flange Type Blocks |  |  |  |
+> |---|---|---|---|
+> | Liner Removed | Lower Press Fit in Specification | Upper Press Fit in Specification | Recommended Counterbore Repair |
+> | Thin flange | Yes | Yes | Machine depth for seal ring, use thin flange liner |
+> | Thin flange | Yes | No | Machine for 60/standard liner and seal ring |
+> | Thin flange | No | Yes | Machine for 60/20 liner and seal ring |
+> | Thin flange | No | No | Machine for 60/20 liner and seal ring |
+>
+> | Counterbore Machining Specifications |  |  |  |  |
+> |---|---|---|---|---|
+> | Liner Upper Press Fit/Lower Press Fit | Upper Press Fit Bore Inside Diameter | Lower Press Fit Bore Inside Diameter |  |  |
+> | Oversize/Oversize | Minimum mm \[in\] | Maximum mm \[in\] | Minimum mm \[in\] | Maximum mm \[in\] |
+> | Standard/Standard | 188.16 \[7.408\] | 188.32 \[7.414\] 1 | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+> | 10/10 | 188.44 \[7.419\] | 188.57 \[7.424\] | 180.34 \[7.100\] | 180.42 \[7.103\] |
+> | 20/20 | 188.75 \[7.431\] | 188.82 \[7.434\] | 180.59 \[7.110\] | 180.64 \[7.112\] |
+> | 60/20 | 189.76 \[7.471\] | 189.84 \[7.474\] | 180.59 \[7.110\] | 180.64 \[7.112\] |
+> | K38/K50 | 190.37 \[7.495\] | 190.45 \[7.498\] | 181.74 \[7.155\] | 181.79 \[7.157\] |
+> | 20/Standard | 188.67 \[7.428\] | 188.72 \[7.430\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+> | 40/Standard | 189.18 \[7.448\] | 189.23 \[7.450\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+> | 60/Standard | 189.69 \[7.468\] | 189.74 \[7.470\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+> | 83/Standard | 190.27 \[7.491\] | 190.32 \[7.493\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+> | 95/Standard | 190.58 \[7.503\] | 190.63 \[7.505\] | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+> | Thin flange/Standard | 188.01 \[7.402\] | 188.09 \[7.405\] 1 | 180.09 \[7.090\] | 180.16 \[7.093\] 2 |
+> | 1 Maximum inside diameter blocks in service. |  |  |  |  |
+> | 2 Maximum inside diameter blocks in service. **Must** be a minimum of 0.03 mm \[0.001 in\] press fit between liner and block. |  |  |  |  |
+>
+> Measure the counterbore depth at the four locations illustrated in the graphic with a depth micrometer.
+>
+> Make sure the micrometer contacts the flat surface of the ledge. It **must not** touch the radius.
+>
+> | Counterbore Depth |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 13.754 | MIN | 0.5415 |
+> | 13.805 | MAX | 0.5435 |
+>
+> The four measurements **must not** vary more than 0.25 mm \[0.001 in\]. If the measurements exceed the specifications, the counterbore ledge **must** be machined.
+>
+> Make sure the indicator does **not** contact the counterbore radius on a block that does **not** have a double undercut.
+>
+> Use depth gauge assembly, Part Number 3164438 or 3823495, or equivalent, to measure the angle of the counterbore ledge at four places on the counterbore circumference.
+>
+> The measurement of the ledge depth **must** be as near to the counterbore radius as possible, and as near to the counterbore edge as possible.
+>
+> The angle (12) of the counterbore ledge is acceptable if the measurement near the counterbore is the same or no more than 0.36 mm \[0.0014 in\] shorter than the measurement near the counterbore radius.
+>
+> If the measurement near the counterbore ledge is greater than the measurement near the counterbore radius, the ledge **must** be machined.
+>
+> Measure the chamfer at the top of the packing ring bore. Excessive pitting **must** be repaired.
+>
+> | (4) Packing Ring Bore |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 177.34 | MIN | 6.982 |
+> | 177.39 | MAX | 6.984 |
+>
+> If the packing ring bore is **not** within specifications, it **must** be repaired. Refer to the Alternate Repair Manual, Bulletin 3379035.

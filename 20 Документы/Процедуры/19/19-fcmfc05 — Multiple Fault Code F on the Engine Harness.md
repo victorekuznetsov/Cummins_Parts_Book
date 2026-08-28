@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fcmfc05.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fcmfc05.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Multiple Fault Code F on the Engine Harness
@@ -34,30 +36,66 @@ tags:
 > **Даты:** изменён 2010-08-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fcmfc05.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fcmfc05.pdf)
 
-### Fault Code: Multiple F
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Multiple Fault Code F on the Engine Harness
 
-Printable Version
+### Код неисправности: Многократный F
 
-### Overview
+### Многократный код F на ремне жгута проводов двигателя
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: Multiple F PID(P): SPN: FMI: Lamp: SRT: 00-381 | On engines without CENSE™, the common return fails internal to the ECM, affecting pins 17 and 18 on the engine harness, and pins 11 and 21 on the OEM interface harness. | Multiple fault codes. |
+| Код неисправности: Многократный F PID(P): СПН: ФМИ: Лампа: СТО: 00-381 | На двигателях без CENSETM общий возврат неисправен внутри ECM, затрагивая контакты 17 и 18 на ремне электропроводки двигателя, а контакты 11 и 21 на ремне электропроводки интерфейса OEM. | Несколько кодов ошибок. |
 
 ![[nobox.png]]
 
-### Circuit Description
+### Описание цепи
 
-The ECM supplies all of the engine pressure sensors on the engine harness with +5 VDC from either pin 5 or pin 6. The ECM has common returns for all of the engine pressure sensors and all of the temperature sensors on either pin 17 or pin 18. A failure on either of these wires will cause multiple fault codes.
+ECM поставляет все датчики давления двигателя на ремне электропроводки двигателя с +5 VDC от контакта 5 или контакта 6. ECM имеет общую отдачу для всех датчиков давления двигателя и всех датчиков температуры при контакте 17 или контакте 18. Неисправность на любом из этих проводов вызовет несколько кодов неисправностей.
 
-### Component Location
+### Расположение компонента
 
-Refer to the engine diagrams.
+См. схемы двигателя.
 
-### Shoptalk
+### Практические замечания
 
-Look for open circuits in the common supply and return wires and shorts from battery or ground to the supply and return wires or defective ECM power supply. A failed pressure sensor can cause multiple fault codes.
+Ищите открытые цепи в общих проводах питания и возврата и шортах от батареи или земли до проводов питания и возврата или дефектного источника питания ECM. Неисправный датчик давления может вызвать несколько кодов неисправностей.
 
-Refer to Troubleshooting Fault Code t05-mfc05
+См. код устранения неисправностей t05-mfc05
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: Multiple F
+>
+> ### Multiple Fault Code F on the Engine Harness
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: Multiple F PID(P): SPN: FMI: Lamp: SRT: 00-381 | On engines without CENSE™, the common return fails internal to the ECM, affecting pins 17 and 18 on the engine harness, and pins 11 and 21 on the OEM interface harness. | Multiple fault codes. |
+>
+> ### Circuit Description
+>
+> The ECM supplies all of the engine pressure sensors on the engine harness with +5 VDC from either pin 5 or pin 6. The ECM has common returns for all of the engine pressure sensors and all of the temperature sensors on either pin 17 or pin 18. A failure on either of these wires will cause multiple fault codes.
+>
+> ### Component Location
+>
+> Refer to the engine diagrams.
+>
+> ### Shoptalk
+>
+> Look for open circuits in the common supply and return wires and shorts from battery or ground to the supply and return wires or defective ECM power supply. A failed pressure sensor can cause multiple fault codes.
+>
+> Refer to Troubleshooting Fault Code t05-mfc05

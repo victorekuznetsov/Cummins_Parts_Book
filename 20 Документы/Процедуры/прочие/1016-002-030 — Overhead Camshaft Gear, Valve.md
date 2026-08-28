@@ -10,12 +10,14 @@ families:
 manuals:
   - "5659763"
 figures: 12
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-002-030.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-002-030.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/15N"
+  - "перевод/машинный"
 ---
 
 # Overhead Camshaft Gear, Valve
@@ -28,163 +30,310 @@ tags:
 > **Даты:** изменён 2024-11-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-002-030.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-002-030.pdf)
 
-### Exploded View
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Взрывной вид
 
 ![[02r00107.png]]
 
-Overhead Camshaft Gear Exploded View
+Взрыв Camshaft Gear взорвался
 
-1. Friction shim - quantity 1
-2. Ring dowel - quantity 1
-3. Overhead camshaft gear - quantity 1
-4. Capscrew - quantity 4
-5. Capscrew - quantity 3
-6. Cover plate - quantity 1
-7. Cover plate gasket - quantity 1
-8. Capscrew - quantity 3
-9. Gear retainer - quantity 1
-10. Compound camshaft idler gear - quantity 1
-11. Idler shaft - quantity 1
-12. Ring dowel - quantity 1
+1. Трение шима - количество 1
+2. Кольцевой дюбель - количество 1
+3. Верхняя канатная передача - количество 1
+4. болты - количество 4
+5. болты - количество 3
+6. Табличка обложки - количество 1
+7. Прокладка для обложки - количество 1
+8. болты - количество 3
+9. Грушевой фиксатор - количество 1
+10. Соединение шасси бездельника - количество 1
+11. Идлеров вал - количество 1
+12. Кольцевой дюбель - количество 1
 
-### Select Service Tools
+### Выбор сервисного инструмента
 
-#### Recommended Cummins® Service Tools
+#### Рекомендованный сервисный инструмент Cummins®
 
-- Engine barring tool, Part Number 4919092
-- Engine Timing Kit, Part Number 5572725
+- Инструмент для заграждения двигателя, номер детали 4919092
+- Комплект для синхронизации двигателя, номер детали 5572725
 
-#### Additional Service Items
+#### Дополнительные сервисные позиции
 
-- No additional service items required.
+- Никаких дополнительных предметов обслуживания не требуется.
 
-### General Information
+### Общие сведения
 
-If the camshaft gear is separated from camshaft, verify a new friction shim is used.
+Если распределительная передача отделена от распределительного вала, проверьте, используется новый трение шим.
 
-The four capscrew holes on camshaft gear and three capscrew holes on compound camshaft idler gear shaft are **not** symmetrically arranged.
+Четыре болтовых отверстия на распределительной шестерне и три болтовых отверстия на сложном распределительном вале без вала шестерни **не** расположены симметрично.
 
-There are two layers camshaft idle gear on this engine. The compound camshaft idler gear is installed on cylinder head, and another is installed on cylinder block (middle idle gear). Refer to Procedure 001-115 in Section 1.
+На этом двигателе имеется два слоя распредвалной праздной передачи. Составное шасси бездельника устанавливается на головку цилиндра, а другое устанавливается на блок цилиндра (среднее шасси безделья). См. процедуру 001-115 в разделе 1.
 
-### Preparatory Steps
+### Подготовительные операции
 
-> [!danger] WARNING · Опасно
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Disconnect the batteries. See equipment manufacturer service information.
-- Remove the rocker lever cover. [[1016-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Снимите крышку коромысел.[[1016-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
 
-### Remove
+### Снятие
 
-Remove the cover plate.
+Снимите крышку.
 
-Discard the cover plate gasket.
+Отбросьте прокладку крышки.
 
 ![[02r00108.png]]
 
-Use the engine barring tool, Part Number 4919092, to rotate the engine **clockwise** when viewed from the crankshaft pulley to Top Dead Center (TDC).
+Используйте инструмент для блокировки двигателя, номер детали 4919092, чтобы вращать двигатель **по часовой стрелке **при просмотре с коленчатого вала на Top Dead Center (TDC).
 
-Use the timing pin, Part Number 5572723, included in Engine Timing Kit, Part Number 5572725, to lock the engine by pushing it through the designated holes on the vibration damper and the lubricating pump housing.
+Используйте запирающий штифт коленчатого вала, номер детали 5572723, включенная в комплект для определения времени работы двигателя, номер детали 5572725, чтобы заблокировать двигатель, проталкивая его через обозначенные отверстия на виброгаситель и корпус смазочного насоса.
 
 ![[01r00303.png]]
 
-> [!warning] CAUTION · Осторожно
-> Engine damage can occur if the static timing of the engine is not correct. The crankshaft and camshaft must be pinned before removing the camshaft gear.
+> [!warning] ОСТОРОЖНО
+> Повреждение двигателя может произойти, если статические сроки двигателя неверны. Кранкшафт и распредвал должны быть прикреплены перед снятием распредвалной передачи.
 
-Insert the cam timing pin, Part Number 5572724, included in Engine Timing Kit, Part Number 5572725, into the bigger hole found on the front of the camshaft. The camshaft will be locked at TDC for number 1 cylinder.
+Вставьте запирающий штифт коленчатого вала, номер детали 5572724, включенная в комплект для временных рамок двигателя, номер детали 5572725, в большее отверстие, обнаруженное на передней части распределительного вала. Распредвал будет запираться на TDC для цилиндра № 1.
 
 ![[01r00337.png]]
 
-Remove the four bolts from the camshaft gear.
+Снимите четыре болта с распределительного механизма.
 
-Remove the camshaft gear.
+Снимите валовую передачу.
 
-Discard the friction shim.
+Отбросьте трение шим.
 
 ![[02r00109.png]]
 
-Remove the three bolts from the compound camshaft idler gear.
+Удалите три болта из смесительного распределительного устройства.
 
-Remove the compound camshaft idler gear, shaft, and gear retainer.
+Удалите составную шасси бездельника, вал и релеранжер.
 
 ![[02r00110.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the overhead camshaft gear, compound camshaft idler gear, shaft, and gear retainer with solvent.
+Очистить верхнюю шасси распределительного вала, составную шасси бездельника распределительного вала, вала и зацепки передач растворителем.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[02r00111.png]]
 
-Inspect the gear, shaft, and gear retainer for cracks or excessive wear.
+Осмотрите передачу, вал и удерживающий механизм для трещин или чрезмерного износа.
 
-Check for missing or bent teeth.
+Проверьте наличие отсутствующих или согнутых зубов.
 
-Replace if any damage is found.
+Заменить, если обнаружен какой-либо ущерб.
 
 ![[02r00112.png]]
 
-### Install
+### Установка
 
-Install the compound camshaft idler gear to shaft.
+Установите составную камшафную шестерню на вал.
 
-Install the gear with shaft onto block.
+Установите шестерню с валом на блок.
 
-Verify ring dowel on shaft is engaged with hole in block.
+Проверить кольцевой дюбель на вале занимается отверстием в блоке.
 
-Install gear retainer with capscrews.
+Установите релеренатор с болтами.
 
-Tighten all three cam idler gear capscrews.
+Затяните все три болта для кулачков.
 
-> [!tip] Момент затяжки · Torque Value
-> 120 n•m [89 ft-lb]
+> [!tip] Момент затяжки
+> 120 Н·м [89 фунт-фут]
 
 ![[02r00110.png]]
 
-Install the overhead camshaft gear with new friction shim and tighten the four bolts.
+Установите верхнюю шасси распредвала с новой фрикционной рубкой и затяните четыре болта.
 
-Verify ring dowel is on gear.
+Проверьте, что дюжина на шестеренке.
 
-> [!tip] Момент затяжки · Torque Value
-> Spur gear 65 n•m [48 ft-lb]
+> [!tip] Момент затяжки
+> Шпоровая передача 65 Н·м [48 футов-лб]
 
-> [!tip] Момент затяжки · Torque Value
-> Helical gear 76 n•m [56 ft-lb]
+> [!tip] Момент затяжки
+> Вертолетная передача 76 Н·м [56 футов-лб]
 
 ![[02r00109.png]]
 
-Remove the timing pins.
+Удалите временные штифты.
 
 ![[02r00113.png]]
 
-Install the cover plate with new gasket.
+Установите крышку с новой прокладкой.
 
-> [!tip] Момент затяжки · Torque Value
-> 23 n•m [204 in-lb]
+> [!tip] Момент затяжки
+> 23 Н·м [204 фунт-дюйм]
 
-> [!note] Note · Примечание
-> Be caution of the tang location on the cover plate and gasket.
+> [!note] Примечание
+> Будьте осторожны с расположением танга на пластине крышки и прокладке.
 
-> [!note] Note · Примечание
-> Put the arrow direction vertically and toward up.
+> [!note] Примечание
+> Поставьте направление стрелки вертикально и вверх.
 
 ![[02r00121.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!danger] WARNING · Опасно
+> [!danger] ОПАСНО
+> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+
+- Установите крышку коромысел.[[1016-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
+- Запустите двигатель и проверьте на отсутствие утечек.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Exploded View
+>
+> Overhead Camshaft Gear Exploded View
+>
+> 1. Friction shim - quantity 1
+> 2. Ring dowel - quantity 1
+> 3. Overhead camshaft gear - quantity 1
+> 4. Capscrew - quantity 4
+> 5. Capscrew - quantity 3
+> 6. Cover plate - quantity 1
+> 7. Cover plate gasket - quantity 1
+> 8. Capscrew - quantity 3
+> 9. Gear retainer - quantity 1
+> 10. Compound camshaft idler gear - quantity 1
+> 11. Idler shaft - quantity 1
+> 12. Ring dowel - quantity 1
+>
+> ### Select Service Tools
+>
+> #### Recommended Cummins® Service Tools
+>
+> - Engine barring tool, Part Number 4919092
+> - Engine Timing Kit, Part Number 5572725
+>
+> #### Additional Service Items
+>
+> - No additional service items required.
+>
+> ### General Information
+>
+> If the camshaft gear is separated from camshaft, verify a new friction shim is used.
+>
+> The four capscrew holes on camshaft gear and three capscrew holes on compound camshaft idler gear shaft are **not** symmetrically arranged.
+>
+> There are two layers camshaft idle gear on this engine. The compound camshaft idler gear is installed on cylinder head, and another is installed on cylinder block (middle idle gear). Refer to Procedure 001-115 in Section 1.
+>
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
-
-- Install the rocker lever cover. [[1016-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-- Connect the batteries. See equipment manufacturer service information.
-- Operate the engine and check for leaks.
+>
+> - Disconnect the batteries. See equipment manufacturer service information.
+> - Remove the rocker lever cover. [[1016-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+>
+> ### Remove
+>
+> Remove the cover plate.
+>
+> Discard the cover plate gasket.
+>
+> Use the engine barring tool, Part Number 4919092, to rotate the engine **clockwise** when viewed from the crankshaft pulley to Top Dead Center (TDC).
+>
+> Use the timing pin, Part Number 5572723, included in Engine Timing Kit, Part Number 5572725, to lock the engine by pushing it through the designated holes on the vibration damper and the lubricating pump housing.
+>
+> **CAUTION · Осторожно**
+> Engine damage can occur if the static timing of the engine is not correct. The crankshaft and camshaft must be pinned before removing the camshaft gear.
+>
+> Insert the cam timing pin, Part Number 5572724, included in Engine Timing Kit, Part Number 5572725, into the bigger hole found on the front of the camshaft. The camshaft will be locked at TDC for number 1 cylinder.
+>
+> Remove the four bolts from the camshaft gear.
+>
+> Remove the camshaft gear.
+>
+> Discard the friction shim.
+>
+> Remove the three bolts from the compound camshaft idler gear.
+>
+> Remove the compound camshaft idler gear, shaft, and gear retainer.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the overhead camshaft gear, compound camshaft idler gear, shaft, and gear retainer with solvent.
+>
+> Dry with compressed air.
+>
+> Inspect the gear, shaft, and gear retainer for cracks or excessive wear.
+>
+> Check for missing or bent teeth.
+>
+> Replace if any damage is found.
+>
+> ### Install
+>
+> Install the compound camshaft idler gear to shaft.
+>
+> Install the gear with shaft onto block.
+>
+> Verify ring dowel on shaft is engaged with hole in block.
+>
+> Install gear retainer with capscrews.
+>
+> Tighten all three cam idler gear capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 120 n•m [89 ft-lb]
+>
+> Install the overhead camshaft gear with new friction shim and tighten the four bolts.
+>
+> Verify ring dowel is on gear.
+>
+> **Момент затяжки · Torque Value**
+> Spur gear 65 n•m [48 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Helical gear 76 n•m [56 ft-lb]
+>
+> Remove the timing pins.
+>
+> Install the cover plate with new gasket.
+>
+> **Момент затяжки · Torque Value**
+> 23 n•m [204 in-lb]
+>
+> **Note · Примечание**
+> Be caution of the tang location on the cover plate and gasket.
+>
+> **Note · Примечание**
+> Put the arrow direction vertically and toward up.
+>
+> ### Finishing Steps
+>
+> **WARNING · Опасно**
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+>
+> - Install the rocker lever cover. [[1016-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+> - Connect the batteries. See equipment manufacturer service information.
+> - Operate the engine and check for leaks.

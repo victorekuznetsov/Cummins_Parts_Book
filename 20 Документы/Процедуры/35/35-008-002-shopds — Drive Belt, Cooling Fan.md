@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-002-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-002-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Drive Belt, Cooling Fan
@@ -35,14 +37,32 @@ tags:
 > **Даты:** изменён 2011-04-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-002-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-002-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Loosen the fan idler pulley shaft locknut.
+
+### Снятие
+
+Ослабьте вентилятор холостого вала локона.
 
 ![[fn2idla.png]]
 
-Turn the adjusting screw **counterclockwise** to release the belt tension.
+Поверните регулирующий винт **против часовой стрелки**, чтобы снять натяжение ремня.
 
-Move the fan idler pulley and fan pulley centers as close as possible. The belt can then be removed without excessive force.
+Переместите шкив бездельника и шкивные центры вентилятора как можно ближе. Затем ремень можно снять без чрезмерного усилия.
 
 ![[fn2blmb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Loosen the fan idler pulley shaft locknut.
+>
+> Turn the adjusting screw **counterclockwise** to release the belt tension.
+>
+> Move the fan idler pulley and fan pulley centers as close as possible. The belt can then be removed without excessive force.

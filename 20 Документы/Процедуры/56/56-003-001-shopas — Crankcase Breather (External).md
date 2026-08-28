@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 27
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-001-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-003-001-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Crankcase Breather (External)
@@ -35,289 +37,532 @@ tags:
 > **Даты:** изменён 2013-05-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-001-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-003-001-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Box Type
 
-Install the bracket onto the cam follower cover.
+### Установка
 
-Tighten the capscrews.
+Тип коробки
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+Установите кронштейн на крышку крана.
+
+Затяните болты.
+
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[03600026.png]]
 
-Install the crankcase breather box onto the bracket.
+Установите коробку для передышки на скобку.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[03600028.png]]
 
-Install the crankcase breather outlet hose.
+Установите шланг для выдоха из картерного заслонника.
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600029.png]]
 
-Install the hose (7) between the front left-hand crankcase breather box and the hand hole cover in the left bank number five location.
+Установите шланг (7) между передней левой коробкой для передышки и крышкой ручного отверстия на левом берегу номер пять.
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600030.png]]
 
-Install the hose (11) between the front center crankcase breather box outlet and the hand hole cover in the left bank number five location.
+Установите шланг (11) между передней центральной розеткой капкан-духодыхатель и крышкой ручного отверстия в левом берегу номер пять.
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600032.png]]
 
-Install the hose (10) between the front right-hand crankcase breather box outlet and the hand hole cover in the left bank number six location.
+Установите шланг (10) между передней розеткой для дышащего клапана и крышкой ручного отверстия на левом берегу номер шесть.
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600034.png]]
 
-Install the hose (12) onto the right-hand crankcase breather box outlet.
+Установите шланг (12) на правую розетку для дышащего картера.
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600036.png]]
 
-Install the reducer hose (16).
+Установите шланг редуктора (16).
 
-Make sure the arrow on the blowby sensor is pointing in the same direction as gas flow.
+Убедитесь, что стрелка на датчике продувки направлена в том же направлении, что и поток газа.
 
-Install the blowby sensor (15).
+Установите датчик продувки (15).
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600038.png]]
 
-Install the hose (14) onto the blowby sensor outlet.
+Установите шланг (14) на розетку датчика продувки.
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600040.png]]
 
-Install a reducer hose onto the outlet.
+Установите шланг-редуктор на выход.
 
-Install the blowby sensor feed and hose assembly.
+Установите датчик подачи и сборки шланга.
 
-Tighten the hose clamps.
+Затяните хомуты шлангов.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600042.png]]
 
-Install the hose brace.
+Установите шланговый скоб.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[03600044.png]]
 
-Install the outlet hose into the brace using a P-clip, capscrew, and flange head nut.
+Установите выпускной шланг в скобу с помощью P-клипа, болтов и фланцевого головной гайки.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[03600045.png]]
 
-Purse Type
+Тип кошелька
 
-Install the breather box onto the cam follower cover.
+Установите коробку для передышки на крышку крана.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[03600057.png]]
 
-Remove the M42 plug from the orifice, if necessary.
+Удалите вилку M42 из отверстия, если это необходимо.
 
-Install the elbow onto the oil pan.
+Установите локтевую панель на масляную поддон.
 
-> [!tip] Момент затяжки · Torque Value
-> 74 n•m [55 ft-lb]
+> [!tip] Момент затяжки
+> 74 Н·м [55 фунт-фут]
 
-Install the larger diameter hose onto the elbow.
+Установите шланг большего диаметра на локте.
 
-> [!tip] Момент затяжки · Torque Value
-> 183 n•m [135 ft-lb]
+> [!tip] Момент затяжки
+> 183 Н·м [135 фунт-фут]
 
-Install the small diameter hose onto the elbow.
+Установите шланг небольшого диаметра на локте.
 
-> [!tip] Момент затяжки · Torque Value
-> 130 n•m [96 ft-lb]
+> [!tip] Момент затяжки
+> 130 Н·м [96 фунт-фут]
 
-> [!note] Note · Примечание
-> If the hose body rotates during tightening of the upper connections, slacken off, and repeat process. If hose continues to twist, restrain with a suitable strap wrench holding the hose immediately below the upper hexagon.
+> [!note] Примечание
+> Если корпус шланга вращается во время затягивания верхних соединений, отключайтесь и повторяйте процесс. Если шланг продолжает скручиваться, удерживайте подходящим ремешком гаечный ключ, удерживающий шланг непосредственно под верхним шестиугольником.
 
-Install the large diameter hose onto the crankcase breather box.
+Установите шланг большого диаметра на коробку для передышки.
 
-> [!tip] Момент затяжки · Torque Value
-> 130 n•m [96 ft-lb]
+> [!tip] Момент затяжки
+> 130 Н·м [96 фунт-фут]
 
-Install the small diameter hose onto the crankcase breather box.
+Установите шланг небольшого диаметра на коробку для передышки.
 
-> [!tip] Момент затяжки · Torque Value
-> 100 n•m [74 ft-lb]
+> [!tip] Момент затяжки
+> 100 Н·м [74 фунт-фут]
 
 ![[03600073.png]]
 
-Install the two-piece clamp onto both hoses.
+Установите зажим из двух частей на оба шланга.
 
-Make sure the clamp does **not** pinch the fire sleeve of the larger diameter hose.
+Убедитесь, что зажим не зажимает рукав огня из шланга большего диаметра.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 80 n•m [59 ft-lb]
+> [!tip] Момент затяжки
+> 80 Н·м [59 фунт-фут]
 
 ![[03600096.png]]
 
-Install the carryover hose to the outlet tube on the crankcase breather box.
+Установите шланг переноса на выпускную трубку на коробке для передышки.
 
-Do **not** tighten the hose clamp yet.
+Не затягивайте зажим шланга.
 
-Install the blowby “Y” tube onto the carryover hose.
+Установите продувную трубку «Y» на переносной шланг.
 
-Do **not** tighten the hose clamps yet.
+Не затягивайте пока зажимы шлангов.
 
 ![[03600060.png]]
 
-Install the support brace which secures the blowby “Y” tube.
+Установите опорный скоб, который обеспечивает продувную трубку «Y».
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
-Use a P-clip and capscrew. Fix the blowby “Y” tube to the support brace.
+Используйте P-клип и болты. Закрепить продувную трубку "Y" на опорной скобке.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[03600062.png]]
 
-Install the long outlet tube.
+Установите длинную выпускную трубку.
 
-Install the blowby sensor.
+Установите датчик продува.
 
-Install the long tube onto the bottom of the blowby sensor.
+Установите длинную трубку на дно датчика продува.
 
 ![[03600069.png]]
 
-Tighten all crankcase outlet hose clamps.
+Закрепите все зажимы шлангов для вытяжки.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600031.png]]
 
-Install the blowby hose brace.
+Установите скобку для шланга.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
-Fit the hoses to the P-clips and fix to the support brace.
+Подгоните шланги к P-затворам и закрепите на подпорной скобке.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[03600070.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Install the crankcase breather and four capscrews.
+Установите капкан-духовку и четыре болта.
 
-Torque Value:
+Момент затяжки:
 
-Crankcase Capscrews
+болты для винта
 
 ![[03600132.png]]
 
-Install the oil drain pipe, gasket, and four capscrews.
+Установите нефтесливную трубу, прокладку и четыре болта.
 
-Torque Value:
+Момент затяжки:
 
-Oil Drain Pipe Capscrews
+Сливные болты маслопровода
 
 ![[03600133.png]]
 
-Install a new drain hose and hose clamps.
+Установите новый дренажный шланг и шланговые зажимы.
 
-Torque Value:
+Момент затяжки:
 
-Drain Hose Clamps
+Зажимы для дренажа
 
 ![[03600132.png]]
 
-Install the molded hose and two hose clamps.
+Установите формованный шланг и два шланговых зажима.
 
-Torque Value:
+Момент затяжки:
 
-Molded Hose Clamps
+Зажимы для пресс-контейнеров
 
 ![[03600131.png]]
 
-Install the breather tube (with oil fill), hoses and hose clamps.
+Установите дыхательную трубку (с масляным наполнителем), шланги и шланги зажимы.
 
-Torque Value:
+Момент затяжки:
 
-Breather Hose Clamps
+Зажимы для дыхательных путей
 
 ![[03600129.png]]
 
-Install the two flexible hoses.
+Установите два гибких шланга.
 
-Torque Value:
+Момент затяжки:
 
-Flexible Hose Clamps
+Гибкие зажимы для хозяев
 
 ![[03600128.png]]
 
-Install the hose P-clips.
+Установите P-клипы.
 
-Torque Value:
+Момент затяжки:
 
-Flexible Hose P-clip Capscrews
+Гибкие болты Hose P-clip
 
-Operate the engine and check for leaks.
+Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[03600127.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Box Type
+>
+> Install the bracket onto the cam follower cover.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Install the crankcase breather box onto the bracket.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Install the crankcase breather outlet hose.
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the hose (7) between the front left-hand crankcase breather box and the hand hole cover in the left bank number five location.
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the hose (11) between the front center crankcase breather box outlet and the hand hole cover in the left bank number five location.
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the hose (10) between the front right-hand crankcase breather box outlet and the hand hole cover in the left bank number six location.
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the hose (12) onto the right-hand crankcase breather box outlet.
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the reducer hose (16).
+>
+> Make sure the arrow on the blowby sensor is pointing in the same direction as gas flow.
+>
+> Install the blowby sensor (15).
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the hose (14) onto the blowby sensor outlet.
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install a reducer hose onto the outlet.
+>
+> Install the blowby sensor feed and hose assembly.
+>
+> Tighten the hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the hose brace.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Install the outlet hose into the brace using a P-clip, capscrew, and flange head nut.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Purse Type
+>
+> Install the breather box onto the cam follower cover.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Remove the M42 plug from the orifice, if necessary.
+>
+> Install the elbow onto the oil pan.
+>
+> **Момент затяжки · Torque Value**
+> 74 n•m [55 ft-lb]
+>
+> Install the larger diameter hose onto the elbow.
+>
+> **Момент затяжки · Torque Value**
+> 183 n•m [135 ft-lb]
+>
+> Install the small diameter hose onto the elbow.
+>
+> **Момент затяжки · Torque Value**
+> 130 n•m [96 ft-lb]
+>
+> **Note · Примечание**
+> If the hose body rotates during tightening of the upper connections, slacken off, and repeat process. If hose continues to twist, restrain with a suitable strap wrench holding the hose immediately below the upper hexagon.
+>
+> Install the large diameter hose onto the crankcase breather box.
+>
+> **Момент затяжки · Torque Value**
+> 130 n•m [96 ft-lb]
+>
+> Install the small diameter hose onto the crankcase breather box.
+>
+> **Момент затяжки · Torque Value**
+> 100 n•m [74 ft-lb]
+>
+> Install the two-piece clamp onto both hoses.
+>
+> Make sure the clamp does **not** pinch the fire sleeve of the larger diameter hose.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 80 n•m [59 ft-lb]
+>
+> Install the carryover hose to the outlet tube on the crankcase breather box.
+>
+> Do **not** tighten the hose clamp yet.
+>
+> Install the blowby “Y” tube onto the carryover hose.
+>
+> Do **not** tighten the hose clamps yet.
+>
+> Install the support brace which secures the blowby “Y” tube.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Use a P-clip and capscrew. Fix the blowby “Y” tube to the support brace.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Install the long outlet tube.
+>
+> Install the blowby sensor.
+>
+> Install the long tube onto the bottom of the blowby sensor.
+>
+> Tighten all crankcase outlet hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the blowby hose brace.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Fit the hoses to the P-clips and fix to the support brace.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> Install the crankcase breather and four capscrews.
+>
+> Torque Value:
+>
+> Crankcase Capscrews
+>
+> Install the oil drain pipe, gasket, and four capscrews.
+>
+> Torque Value:
+>
+> Oil Drain Pipe Capscrews
+>
+> Install a new drain hose and hose clamps.
+>
+> Torque Value:
+>
+> Drain Hose Clamps
+>
+> Install the molded hose and two hose clamps.
+>
+> Torque Value:
+>
+> Molded Hose Clamps
+>
+> Install the breather tube (with oil fill), hoses and hose clamps.
+>
+> Torque Value:
+>
+> Breather Hose Clamps
+>
+> Install the two flexible hoses.
+>
+> Torque Value:
+>
+> Flexible Hose Clamps
+>
+> Install the hose P-clips.
+>
+> Torque Value:
+>
+> Flexible Hose P-clip Capscrews
+>
+> Operate the engine and check for leaks.

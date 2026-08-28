@@ -17,7 +17,8 @@ families:
   - "QSX15"
 manuals:
   - "3666415"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-fc597.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-fc597.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Fault Code Path Selection
@@ -38,6 +40,20 @@ tags:
 > **Даты:** изменён 2004-09-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-fc597.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-fc597.pdf)
 
-| Do you have Electrical Charging System Voltage (Aftermarket or OEM) | [[97-fc597aft — Electrical Charging System Voltage Low - Data Valid but Below Normal Operational\|Go to 97-fc597aft]] |
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+| Есть ли у вас напряжение системы электрической зарядки (Aftermarket или OEM) | [[97-fc597aft — Electrical Charging System Voltage Low - Data Valid but Below Normal Operational\|97-fc597aft]] |
 |---|---|
-| Do you have Electrical Charging System Voltage (Integrated) | [[97-fc597int — Electrical Charging System Voltage Low - Data Valid But Below Normal Operational\|Go to 97-fc597int]] |
+| Имеется ли у вас электрическое напряжение системы зарядки (интегрированная) | [[97-fc597int — Electrical Charging System Voltage Low - Data Valid But Below Normal Operational\|97-fc597int (англ.)русск.]] |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | Do you have Electrical Charging System Voltage (Aftermarket or OEM) | [[97-fc597aft — Electrical Charging System Voltage Low - Data Valid but Below Normal Operational\|Go to 97-fc597aft]] |
+> |---|---|
+> | Do you have Electrical Charging System Voltage (Integrated) | [[97-fc597int — Electrical Charging System Voltage Low - Data Valid But Below Normal Operational\|Go to 97-fc597int]] |

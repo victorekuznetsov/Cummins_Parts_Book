@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666239"
 figures: 76
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-010-145.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-010-145.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Variable Geometry Turbocharger Shroud Plate
@@ -30,615 +32,1086 @@ tags:
 > **Даты:** изменён 2013-04-18
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-010-145.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-010-145.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive with CM870
 
-- Remove the turbocharger and inspect for reuse. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+### Подготовительные операции
 
-> [!note] Note · Примечание
-> This repair requires the use of different turbocharger housing kits, depending on the engine CPL, and turbocharger serial number (found on the turbocharger dataplate). Reference the appropriate parts release information to determine which turbocharger housing kit to use.
+Автомобильный с CM870
 
-![[ck800wa.png]]
+- Удалите турбокомпрессор и проверьте его на повторное использование.[[10-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
 
-### Preparatory Steps
-
-Automotive With CM871
-
-- Remove the turbocharger and inspect for reuse. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Remove the turbocharger actuator. [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
-
-> [!note] Note · Примечание
-> This repair requires the use of different turbocharger housing kits, depending on the engine CPL, and turbocharger serial number (found on the turbocharger dataplate). Reference the appropriate parts release information to determine which turbocharger housing kit to use.
+> [!note] Примечание
+> Этот ремонт требует использования различных комплектов корпуса турбокомпрессора, в зависимости от двигателя CPL, и серийного номера турбокомпрессора (найденного на табличке с данными турбокомпрессора). Ссылка на соответствующую информацию о выпуске деталей, чтобы определить, какой комплект корпуса турбокомпрессора использовать.
 
 ![[ck800wa.png]]
 
-### Disassemble
+### Подготовительные операции
 
-Automotive with CM870
+Автомобильный с CM871
 
-Check for an "S" mark on the top right corner of the turbocharger data tag. This mark indicates that this repair procedure has already been completed on this turbocharger.
+- Удалите турбокомпрессор и проверьте его на повторное использование.[[10-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Удалите привод турбокомпрессора.[[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|См. процедуру 010-134 в разделе 10.]]
 
-If there is an "S" mark present, do **not** proceed with this repair procedure; proceed with turbocharger replacement.
+> [!note] Примечание
+> Этот ремонт требует использования различных комплектов корпуса турбокомпрессора, в зависимости от двигателя CPL, и серийного номера турбокомпрессора (найденного на табличке с данными турбокомпрессора). Ссылка на соответствующую информацию о выпуске деталей, чтобы определить, какой комплект корпуса турбокомпрессора использовать.
 
-Cover the oil supply and drain ports in the bearing housing. Use clean care parts, Part Number 4919216 and 4919221.
+![[ck800wa.png]]
+
+### Разборка
+
+Автомобильный с CM870
+
+Проверьте наличие отметки «S» в правом верхнем углу тега данных турбокомпрессора. Эта отметка указывает на то, что эта процедура ремонта уже завершена на этом турбокомпрессоре.
+
+Если присутствует отметка «S», не следует продолжать эту процедуру ремонта; продолжайте замену турбокомпрессора.
+
+Покрыть порты подачи и отвода масла в подшипниковом кожухе. Используйте чистые части ухода, Части № 4919216 и 4919221.
 
 ![[10a00159.png]]
 
-> [!danger] WARNING · Опасно
-> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+> [!danger] ОПАСНО
+> Держите пальцы и руки подальше от привода, чтобы уменьшить вероятность получения травм в результате внезапного движения при подаче воздуха.
 
-With the actuator in place, use coupling, Part Number 3824843, to connect a regulated air supply to the actuator air inlet. Check the actuator travel. Remove air to allow the actuator to retract. Mark or scribe the VG actuator rod at the base of the actuator. Measure the rod travel by measuring the distance from the base of the turbocharger actuator to the scribe mark. Use a straight edge steel ruler to measure.
+При наличии привода используйте соединительную систему, номер детали 3824843, для подключения регулируемого подачи воздуха к впуску привода воздуха. Проверьте ход привода. Удалите воздух, чтобы позволить приводу убираться. Отметьте или выпишите стержень привода VG у основания привода. Измерить движение стержня, измерив расстояние от основания привода турбокомпрессора до знака писца. Используйте стальную линейку с прямым краем для измерения.
 
-The turbocharger actuator rod should extend more than 10 mm \[0.394 in\]. If it does **not**, verify the turbocharger actuator is functioning correctly. Refer to Procedure 010-113 in Section 10. If functioning correctly, install to the turbocharger and continue through the procedure.
+Стержень привода турбокомпрессора должен простираться более чем на 10 мм \[0,394 дюйма\]. Если это не так, убедитесь, что привод турбокомпрессора работает правильно. См. процедуру 010-113 в разделе 10. Если все работает правильно, установите турбокомпрессор и продолжайте процедуру.
 
 ![[10y00007.png]]
 
-Create an alignment mark on the turbocharger turbine housing, bearing housing, and V-band clamp in line with the oil drain on the bearing housing.
+Создать знак выравнивания на корпусе турбины турбокомпрессора, корпусе подшипника и зажиме V-диапазона в соответствии с сливом масла на корпусе подшипника.
 
-This mark will enable the components to be oriented correctly during assembly.
+Эта маркировка позволит правильно ориентировать компоненты во время сборки.
 
 ![[10a00137.png]]
 
-Loosen the turbocharger turbine housing V-band clamp. The turbine housing V-band clamp locknut cover **must** be removed (use an 11 mm socket) before the locknut can be loosened.
+Ослабьте турбину турбокомпрессора, обрамляющую зажим V-диапазона. Турбинный корпус V-диапазона зажима замковой крышки должен быть удален (используй 11-мм гнездо) до того, как замковый гайка может быть ослаблен.
 
 ![[10a00138.png]]
 
-After the clamp locknut is loosened, the V-band clamp can be spread and locked open by using the threaded end of the clamp, pressing it against the opposite end. This can aid in the removal of the turbine housing.
+После того, как зажимный зажим разрыхлился, зажим V-диапазона может быть раздвинут и заблокирован открытым с помощью резьбового конца зажима, прижимая его к противоположному концу. Это может помочь в удалении корпуса турбины.
 
 ![[10y00001.png]]
 
-> [!warning] CAUTION · Осторожно
-> The turbine blades or the nozzle ring can be easily damaged. Care is required for the turbine housing removal process.
+> [!warning] ОСТОРОЖНО
+> Лопасти турбины или кольцо сопла могут быть легко повреждены. Требуется осторожность для процесса удаления корпуса турбины.
 
-Slightly lift or angle the turbocharger while using a lead hammer to tap the turbine housing down against the bench surface.
+Немного поднимите или угоните турбокомпрессор при использовании свинцового молотка, чтобы нажать на корпус турбины против поверхности испытательного стенда.
 
-Tap so that the turbine housing can be removed squarely. This will reduce the possibility of damage to the nozzle ring assembly. It can take a considerable amount of force to remove the turbine housing.
+Нажмите так, чтобы корпус турбины можно было снять прямо. Это уменьшит возможность повреждения кольцевой сборки сопла. Для удаления корпуса турбины может потребоваться значительное количество силы.
 
-As the bearing housing and compressor housing assembly loosen, gently lift the assembly from the turbine housing and carefully place the compressor housing side down.
+Когда подшипниковый корпус и корпус компрессора ослабляются, мягко поднимите сборку из корпуса турбины и осторожно поместите сторону корпуса компрессора вниз.
 
 ![[10a00139.png]]
 
-Once the turbocharger turbine housing is removed, inspect the turbine wheel blades for damage.
+После того, как корпус турбины турбокомпрессора удален, проверьте лопасти колес турбины на предмет повреждения.
 
-If the blades are damaged, the turbocharger **must** be replaced.
+Если лопасти повреждены, турбокомпрессор должен быть заменен.
 
-A small amount of wear on the tips is acceptable and will **not** affect the operation of the turbocharger.
+Небольшое количество износа на кончиках допустимо и не повлияет на работу турбокомпрессора.
 
 ![[10a00141.png]]
 
-Use a straight-edge gauge to measure the length from the bottom-most blade on the turbine wheel to the point where wear begins on the wheel (if any).
+Используйте прямолинейный калибр для измерения длины от самого нижнего лопасти на колесе турбины до точки, где начинается износ колеса (если таковой имеется).
 
-This length should be greater than 8 mm \[0.315 in\]. If it is **not**, the turbocharger **must** be replaced.
+Эта длина должна быть больше 8 мм \[0,315 дюйма \]. Если это **не**, турбокомпрессор должен быть заменен.
 
 ![[10y00003.png]]
 
-Use a dial indicator to check radial movement at the turbine wheel nose.
+Используйте индикатор циферблата для проверки радиального движения на носу колеса турбины.
 
-Push the turbine wheel away from the gauge and set the indicator to zero.
+Отодвиньте колесо турбины от калибра и установите индикатор на ноль.
 
-Push the turbine toward the gauge and record the reading.
+Подтолкните турбину к измерительному прибору и запишите показания.
 
-| Turbocharger Radial Bearing Clearance |  |  |
+| Радиальный зазор подшипника турбокомпрессора |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.590 | MAX | 0.023 |
+| мм |  | в |
+| 0.590 | Макс | 0.023 |
 
-If the turbocharger radial clearance is **not** within specifications, the turbocharger **must** be replaced.
+Если радиальный зазор турбокомпрессора **не** в пределах спецификаций, турбокомпрессор должен быть заменен.
 
 ![[10a00165.png]]
 
-Use contact cleaner, or equivalent, to carefully clean the nozzle ring and vanes.
+Используйте контактный очиститель или эквивалент, чтобы тщательно очистить кольцо сопла и лопатки.
 
 ![[10y00010.png]]
 
-Inspect the variable geometry turbocharger nozzle ring for cracking.
+Осмотрите кольцо турбокомпрессора переменной геометрии на предмет растрескивания.
 
-If an axial crack on the nozzle ring is observed, the turbocharger **must** be replaced.
+Если наблюдается осевая трещина на сопловом кольце, турбокомпрессор должен быть заменен.
 
 ![[10a00143.png]]
 
-Inspect the variable geometry turbocharger nozzle ring for vane damage.
+Осмотрите кольцо сопла турбокомпрессора переменной геометрии на предмет повреждения лопасти.
 
-If there are dents, dings, or pieces broken out of **any** of the nozzle vanes, the turbocharger **must** be replaced.
+Если имеются вмятины, динги или куски, выбитые из **любого **лопастей сопла, турбокомпрессор должен быть заменен.
 
 ![[10a00144.png]]
 
-> [!danger] WARNING · Опасно
-> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+> [!danger] ОПАСНО
+> Держите пальцы и руки подальше от привода, чтобы уменьшить вероятность получения травм в результате внезапного движения при подаче воздуха.
 
-Use regulated air with the VGT actuator to extend the nozzle ring.
+Используйте регулируемый воздух с приводом VGT для расширения кольца сопла.
 
-To reduce the spring load at the linkage, use coupling, Part Number 3824843, to apply 414 kPa \[60 psi\] of air pressure to the actuator air inlet.
+Для уменьшения весенней нагрузки на сцепке используйте сцепление, номер детали 3824843, чтобы приложить 414 кПа \[60 psi\] давления воздуха к впуску воздуха привода.
 
 ![[10y00007.png]]
 
-Tilt the nozzle ring back and forth by hand to check for excessive play.
+Наклоните кольцо сопла назад и вперед вручную, чтобы проверить чрезмерную игру.
 
-The nozzle should rock back and forth gently, but if one side of the nozzle can drop significantly more than the other, the play is excessive.
+Сопло должно мягко качаться назад и вперед, но если одна сторона сопла может упасть значительно больше, чем другая, игра чрезмерна.
 
-If there is excessive play in the nozzle ring, the turbocharger **must** be replaced.
+Если в кольце сопла присутствует чрезмерная игра, турбокомпрессор должен быть заменен.
 
 ![[10y00004.png]]
 
-Inspect the variable geometry turbocharger nozzle ring for cracking.
+Осмотрите кольцо турбокомпрессора переменной геометрии на предмет растрескивания.
 
-If an axial crack on the nozzle ring is observed, the turbocharger **must** be replaced.
+Если наблюдается осевая трещина на сопловом кольце, турбокомпрессор должен быть заменен.
 
 ![[10a00143.png]]
 
-Inspect the variable geometry turbocharger nozzle ring for vane damage.
+Осмотрите кольцо сопла турбокомпрессора переменной геометрии на предмет повреждения лопасти.
 
-If there are dents, dings, or pieces broken out of **any** of the nozzle vanes, the turbocharger **must** be replaced.
+Если имеются вмятины, динги или куски, выбитые из **любого **лопастей сопла, турбокомпрессор должен быть заменен.
 
 ![[10a00144.png]]
 
-Check for excessive wear on the leading edge of the nozzle vanes.
+Проверьте наличие чрезмерного износа на переднем крае лопаток сопла.
 
-Use the nozzle vane wear gauge, Part Number 2892218, to check for excessive wear. Use the CM870 or CM871 end of the wear gauge, depending on the turbocharger. Place the nozzle vane wear gauge against each vane and down against the nozzle ring. It is important to place the gauge down completely against the nozzle ring face.
+Используйте калибр для ношения сопла, номер детали 2892218, чтобы проверить наличие чрезмерного износа. Используйте CM870 или CM871 конца калибра износа, в зависимости от турбокомпрессора. Поместите калибр на сопле против каждого лопатки и вниз против кольца сопла. Важно полностью поместить калибр на лицо кольца сопла.
 
-If the gauge can rock back and forth, the wear is **not** excessive. If the gauge can **not** rock back and forth, the nozzle vane has excessive wear.
+Если калибр может качаться туда-сюда, износ **не **чрезмерный. Если калибр может **не** качать взад и вперед, лопатка сопла имеет чрезмерный износ.
 
-If excessive wear is found and a vane does **not** pass the wear gauge check, the turbocharger **must** be replaced.
+Если обнаружен чрезмерный износ и лопасти не проходят проверку измерительной шкалы износа, турбокомпрессор должен быть заменен.
 
 ![[10y00013.png]]
 
-Check for burrs on the leading edge of the nozzle vanes.
+Проверьте наличие заусенцев на переднем крае лопаток сопла.
 
-The surface of the vane face should be smooth. A burr can be felt with the fingertip.
+Поверхность лопаточной поверхности должна быть гладкой. Заусеница может ощущаться кончиком пальца.
 
-These burrs are typical and can be removed.
+Эти заусеницы типичны и могут быть удалены.
 
-If burrs are present, place the turbine wheel protective cap, Part Number 2892213, over the turbine wheel.
+Если имеются заусенцы, поместите защитный колпачок колеса турбины, часть 2892213, над колесом турбины.
 
-Use an abrasive disc and air tool or drill to remove the burrs from the edge of each vane.
+Используйте абразивный диск и воздушный инструмент или сверло, чтобы удалить заусенцы с края каждой лопатки.
 
 ![[10a00146.png]]
 
-Make sure the burrs are removed completely from each vane by feeling with the fingertip.
+Убедитесь, что заусеницы полностью удалены из каждого лопатки, чувствуя кончиком пальца.
 
-Carefully clean off any debris around the bearing housing surface and seal groove.
+Тщательно очищайте любые обломки вокруг поверхности оболочки подшипника и канавки уплотнения.
 
 ![[10a00162.png]]
 
-Use a wire brush and air tool or drill to clean the turbine housing mating surface on the bearing housing.
+Используйте проволочную щетку и воздушный инструмент или сверло для очистки поверхности спаривания корпуса турбины на подшипниковом кожухе.
 
-Clean both the horizontal and vertical mating surfaces.
+Очистите как горизонтальные, так и вертикальные поверхности для спаривания.
 
-Make sure the groove in which the seal ring sits is completely clean.
+Убедитесь, что канавка, в которой находится кольцо уплотнения, полностью чистая.
 
-After completed, remove the turbine wheel protective cap.
+После завершения снимите защитную крышку колеса турбины.
 
 ![[10a00147.png]]
 
-> [!danger] WARNING · Опасно
-> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+> [!danger] ОПАСНО
+> Держите пальцы и руки подальше от привода, чтобы уменьшить вероятность получения травм в результате внезапного движения при подаче воздуха.
 
-Use regulated air with the VGT actuator to extend the nozzle ring.
+Используйте регулируемый воздух с приводом VGT для расширения кольца сопла.
 
-To reduce the spring load at the linkage, use coupling, Part Number 3824843, to apply 414 kPa \[60 psi\] of air pressure to the actuator air inlet.
+Для уменьшения весенней нагрузки на сцепке используйте сцепление, номер детали 3824843, чтобы приложить 414 кПа \[60 psi\] давления воздуха к впуску воздуха привода.
 
 ![[10y00007.png]]
 
-Use the shroud gauge tool, Part Number 2892179, to check the nozzle vanes for bending. It is important to use the correct shroud gauge tool. ISX CM870 and ISX CM871 turbochargers use different shroud gauge tools. Check the part number to make sure the correct one is used.
+Используйте инструмент измерительной измерительной машины, номер детали 2892179, чтобы проверить сопла лопаток на изгиб. Важно использовать правильный инструмент для измерения саванны. Турбокомпрессоры ISX CM870 и ISX CM871 используют различные калибры саванной измерительной системы. Проверьте номер детали, чтобы убедиться, что используется правильный.
 
-Carefully align and rotate the shroud gauge tool until all nozzle vanes are engaged. Keep the shroud gauge tool parallel to the table. Slowly move it along the nozzle vanes until the shroud gauge tool is completely against the nozzle ring face.
+Тщательно выровняйте и вращайте инструмент измерительной манометрии плащаницы до тех пор, пока не будут задействованы все сопла. Держите инструмент измерительной манометрии плащаницы параллельно столу. Медленно перемещайте его вдоль лопаток сопла, пока инструмент измерительной манометрии саван не будет полностью обращен к лицу кольца сопла.
 
-The shroud gauge tool should be able to drop completely to the bottom of the nozzle ring assembly. Slowly pull the shroud plate tool back up and out of the nozzle vanes.
+Инструмент измерительной манометрии плащаницы должен быть в состоянии полностью опуститься на дно кольцевой сборки сопла. Медленно вытащите инструмент из плащаницы и вытащите его из лопаток.
 
-If the shroud gauge tool does **not** move freely, inspect for burrs that were missed on the nozzle vanes and remove, if possible.
+Если инструмент измерительной манометрии плащаницы не перемещается **не** свободно, проверьте наличие заусенцев, которые были пропущены на лопатках сопла, и удалите, если это возможно.
 
 ![[10a00149.png]]
 
-If the shroud gauge tool continues to **not** fully engage, or if it requires excessive force to move up and down, bending of the nozzle vanes can possibly be required.
+Если инструмент измерительной измерительной машины продолжает **не** полностью взаимодействовать или если он требует чрезмерной силы для движения вверх и вниз, возможно, потребуется изгиб лопаток сопла.
 
-If it does **not** move freely after several attempts of bending a nozzle vane and checking with the shroud gauge tool, the turbocharger **must** be replaced.
+Если он не двигается свободно после нескольких попыток сгибания лопатки сопла и проверки с помощью инструмента измерительной манометрии плащаницы, турбокомпрессор должен быть заменен.
 
 ![[10a00164.png]]
 
-### Disassemble
+### Разборка
 
-Automotive With CM871
+Автомобильный с CM871
 
-Cover the oil supply and drain ports in the bearing housing. Use clean care parts, Part Number 4919216 and 4919221.
+Покрыть порты подачи и отвода масла в подшипниковом кожухе. Используйте чистые части ухода, Части № 4919216 и 4919221.
 
-Check for an "S" mark on the top right corner of the turbocharger data tag. This mark indicates that this repair procedure has already been completed on this turbocharger.
+Проверьте наличие отметки «S» в правом верхнем углу тега данных турбокомпрессора. Эта отметка указывает на то, что эта процедура ремонта уже завершена на этом турбокомпрессоре.
 
-If there is an "S" mark present, do **not** proceed with this repair procedure; proceed with turbocharger replacement.
+Если присутствует отметка «S», не следует продолжать эту процедуру ремонта; продолжайте замену турбокомпрессора.
 
 ![[10a00159.png]]
 
-Place the turbocharger on a flat sturdy table with the compressor housing down.
+Поместите турбокомпрессор на плоский прочный стол с компрессорной обшивкой вниз.
 
-Lock the nozzle ring by using the sector gear positioning tool, Part Number 2892215.
+Заблокируйте кольцо сопла с помощью инструмента позиционирования секторальных шестерен, номер детали 2892215.
 
-Place the sector gear positioning tool over the sector gear and tighten the capscrews in the bottom left and top right VGT actuator mounting capscrew holes finger tight.
+Поместите инструмент позиционирования секторной передачи поверх секторной передачи и затяните болты в нижнем левом и верхнем правом приводе ВГТ, крепящие болты, отверстия пальцами.
 
-It is **not** necessary to place the locking pin in the sector gear positioning tool at this time.
+В настоящее время не требуется размещать штифт блокировки в инструменте позиционирования секторальных шестерен.
 
-It is important to have the sector gear positioning tool in place prior to removing the turbine housing in order to reduce the possibility of over-stroking the nozzle ring.
+Важно иметь инструмент позиционирования секторной передачи перед удалением корпуса турбины, чтобы уменьшить возможность чрезмерного нажатия на кольцо сопла.
 
 ![[10a00136.png]]
 
-Create an alignment mark on the turbocharger turbine housing, bearing housing, and V-band clamp in line with the oil drain on the bearing housing.
+Создать знак выравнивания на корпусе турбины турбокомпрессора, корпусе подшипника и зажиме V-диапазона в соответствии с сливом масла на корпусе подшипника.
 
-This mark will enable the components to be oriented correctly during assembly.
+Эта маркировка позволит правильно ориентировать компоненты во время сборки.
 
 ![[10a00137.png]]
 
-Loosen the turbocharger turbine housing V-band clamp. The turbine housing V-band clamp locknut cover **must** be removed (use an 11 mm socket) before the locknut can be loosened.
+Ослабьте турбину турбокомпрессора, обрамляющую зажим V-диапазона. Турбинный корпус V-диапазона зажима замковой крышки должен быть удален (используй 11-мм гнездо) до того, как замковый гайка может быть ослаблен.
 
 ![[10a00138.png]]
 
-After the clamp locknut is loosened, the V-band clamp can be spread and locked open by using the threaded end of the clamp, pressing it against the opposite end. This can aid in the removal of the turbine housing.
+После того, как зажимный зажим разрыхлился, зажим V-диапазона может быть раздвинут и заблокирован открытым с помощью резьбового конца зажима, прижимая его к противоположному концу. Это может помочь в удалении корпуса турбины.
 
 ![[10y00001.png]]
 
-> [!warning] CAUTION · Осторожно
-> The turbine blades or the nozzle ring can be easily damaged. Care is required for the turbine housing removal process.
+> [!warning] ОСТОРОЖНО
+> Лопасти турбины или кольцо сопла могут быть легко повреждены. Требуется осторожность для процесса удаления корпуса турбины.
 
-Slightly lift or angle the turbocharger while using a lead hammer to tap the turbine housing down against the bench surface.
+Немного поднимите или угоните турбокомпрессор при использовании свинцового молотка, чтобы нажать на корпус турбины против поверхности испытательного стенда.
 
-Tap so that the turbine housing can be removed squarely. This will reduce the possibility of damage to the nozzle ring assembly. It can take a considerable amount of force to remove the turbine housing.
+Нажмите так, чтобы корпус турбины можно было снять прямо. Это уменьшит возможность повреждения кольцевой сборки сопла. Для удаления корпуса турбины может потребоваться значительное количество силы.
 
-As the bearing housing and compressor housing assembly loosen, gently lift the assembly from the turbine housing and carefully place the compressor housing side down.
+Когда подшипниковый корпус и корпус компрессора ослабляются, мягко поднимите сборку из корпуса турбины и осторожно поместите сторону корпуса компрессора вниз.
 
 ![[10a00139.png]]
 
-With the turbine housing removed and the sector gear positioning tool, Part Number 2892215, still installed, move the sector gear back and forth by hand to check for smooth movement.
+С снятым корпусом турбины и инструментом позиционирования секторной передачи, номер детали 2892215, все еще установлена, перемещайте секторную передачу вперед и назад вручную, чтобы проверить плавное движение.
 
-If the sector gear movement is **not** smooth, the turbocharger **must** be replaced.
+Если секторное переключение передач **не** гладко, турбокомпрессор должен быть заменен.
 
 ![[10a00140.png]]
 
-Carefully rotate the turbocharger on its side and move the sector gear back and forth by hand again to check for smooth movement.
+Тщательно поверните турбокомпрессор на бок и перенесите секторную передачу назад и вперед вручную, чтобы проверить плавное движение.
 
-If the sector gear movement is **not** smooth, the turbocharger **must** be replaced.
+Если секторное переключение передач **не** гладко, турбокомпрессор должен быть заменен.
 
 ![[10y00002.png]]
 
-Once the turbocharger turbine housing is removed, inspect the turbine wheel blades for damage.
+После того, как корпус турбины турбокомпрессора удален, проверьте лопасти колес турбины на предмет повреждения.
 
-If the blades are damaged, the turbocharger **must** be replaced.
+Если лопасти повреждены, турбокомпрессор должен быть заменен.
 
-A small amount of wear on the tips is acceptable and will **not** affect the operation of the turbocharger.
+Небольшое количество износа на кончиках допустимо и не повлияет на работу турбокомпрессора.
 
 ![[10a00141.png]]
 
-Use a straightedge gauge to measure the length from the bottom-most blade on the turbine wheel to the point where wear begins on the wheel (if any).
+Используйте калибр с прямой кромкой для измерения длины от самого нижнего лезвия на колесе турбины до точки, где начинается износ колеса (если таковой имеется).
 
-This length should be greater than 8 mm \[0.315 in\]. If it is **not**, the turbocharger **must** be replaced.
+Эта длина должна быть больше 8 мм \[0,315 дюйма \]. Если это **не**, турбокомпрессор должен быть заменен.
 
 ![[10y00003.png]]
 
-Use a dial indicator to check radial movement at the turbine wheel nose.
+Используйте индикатор циферблата для проверки радиального движения на носу колеса турбины.
 
-Push the turbine wheel away from the gauge and set the indicator to zero.
+Отодвиньте колесо турбины от калибра и установите индикатор на ноль.
 
-Push the turbine toward the gauge and record the reading.
+Подтолкните турбину к измерительному прибору и запишите показания.
 
-| Turbocharger Radial Bearing Clearance |  |  |
+| Радиальный зазор подшипника турбокомпрессора |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.590 | MAX | 0.023 |
+| мм |  | в |
+| 0.590 | Макс | 0.023 |
 
-If the turbocharger radial clearance is **not** within specifications, the turbocharger **must** be replaced.
+Если радиальный зазор турбокомпрессора **не** в пределах спецификаций, турбокомпрессор должен быть заменен.
 
 ![[10a00165.png]]
 
-Use contact cleaner, or equivalent, to carefully clean the nozzle ring and vanes.
+Используйте контактный очиститель или эквивалент, чтобы тщательно очистить кольцо сопла и лопатки.
 
 ![[10a00161.png]]
 
-Inspect the variable geometry turbocharger nozzle ring for cracking.
+Осмотрите кольцо турбокомпрессора переменной геометрии на предмет растрескивания.
 
-If an axial crack on the nozzle ring is observed, the turbocharger **must** be replaced.
+Если наблюдается осевая трещина на сопловом кольце, турбокомпрессор должен быть заменен.
 
 ![[10a00143.png]]
 
-Inspect the variable geometry turbocharger nozzle ring for vane damage.
+Осмотрите кольцо сопла турбокомпрессора переменной геометрии на предмет повреждения лопасти.
 
-If there are dents, dings, or pieces broken out of **any** of the nozzle vanes, the turbocharger **must** be replaced.
+Если имеются вмятины, динги или куски, выбитые из **любого **лопастей сопла, турбокомпрессор должен быть заменен.
 
 ![[10a00144.png]]
 
-Extend the nozzle ring out and lock it in place by placing the locking pin through the sector gear positioning tool and into the sector gear hole.
+Расширьте кольцо сопла и заприте его на месте, поместив штифт блокировки через инструмент позиционирования секторальных передач и в секторное отверстие передач.
 
-Tilt the nozzle ring back and forth by hand to check for excessive play.
+Наклоните кольцо сопла назад и вперед вручную, чтобы проверить чрезмерную игру.
 
-The nozzle should rock bach and forth slightly. If one side of the nozzle can drop significantly more than the other, the play is excessive.
+Сопло должно слегка раскачивать Бах и выдвигаться вперед. Если одна сторона сопла может упасть значительно больше, чем другая, игра чрезмерна.
 
-If there is excessive play in the nozzle ring, the turbocharger **must** be replaced.
+Если в кольце сопла присутствует чрезмерная игра, турбокомпрессор должен быть заменен.
 
-After completed, the pin going through the sector gear positioning tool and sector gear hole can be removed.
+После завершения, штифт, проходящий через инструмент позиционирования секторальных передач и секторное отверстие передач, может быть удален.
 
 ![[10y00004.png]]
 
-Check for excessive wear on the leading edge of the nozzle vanes.
+Проверьте наличие чрезмерного износа на переднем крае лопаток сопла.
 
-Use the nozzle vane wear gauge, Part Number 2892212, to check for excessive wear. Use the CM870 or CM871 end of the wear gauge, depending on the turbocharger. Place the nozzle vane wear gauge against each vane and down against the nozzle ring. It is important to place the gauge down completely against the nozzle ring face.
+Используйте калибр для износа лопатки, номер детали 2892212, чтобы проверить наличие чрезмерного износа. Используйте CM870 или CM871 конца калибра износа, в зависимости от турбокомпрессора. Поместите калибр на сопле против каждого лопатки и вниз против кольца сопла. Важно полностью поместить калибр на лицо кольца сопла.
 
-If the gauge can rock back and forth, the wear is **not** excessive. If the gauge can **not** rock back and forth, the nozzle vane has excessive wear.
+Если калибр может качаться туда-сюда, износ **не **чрезмерный. Если калибр может **не** качать взад и вперед, лопатка сопла имеет чрезмерный износ.
 
-If excessive wear is found and a vane does **not** pass the wear gauge check, the turbocharger **must** be replaced.
+Если обнаружен чрезмерный износ и лопасти не проходят проверку измерительной шкалы износа, турбокомпрессор должен быть заменен.
 
 ![[10a00145.png]]
 
-Check for burrs on the leading edge of the nozzle vanes.
+Проверьте наличие заусенцев на переднем крае лопаток сопла.
 
-The surface of the vane face should be smooth. A burr can be felt with the fingertip.
+Поверхность лопаточной поверхности должна быть гладкой. Заусеница может ощущаться кончиком пальца.
 
-These burrs are typical and can be removed.
+Эти заусеницы типичны и могут быть удалены.
 
-If burrs are present, place the turbine wheel protective cap, Part Number 2892213, over the turbine wheel.
+Если имеются заусенцы, поместите защитный колпачок колеса турбины, часть 2892213, над колесом турбины.
 
 ![[10a00146.png]]
 
-Use an abrasive disc, Part Number 3824541, and air tool or drill to clean up the burrs on the edge of each vane. Do **not** use excessive force or time to clean the vanes; burrs are fairly easy to remove.
+Используйте абразивный диск, номер детали 3824541 и воздушный инструмент или сверло для очистки заусениц на краю каждой лопасти. Не используйте чрезмерную силу или время для очистки лопаток; заусенцы довольно легко удалить.
 
-Make sure the burrs are removed completely from each vane by feeling with the fingertip.
+Убедитесь, что заусеницы полностью удалены из каждого лопатки, чувствуя кончиком пальца.
 
-Carefully clean off any debris around the bearing housing surface and seal groove.
+Тщательно очищайте любые обломки вокруг поверхности оболочки подшипника и канавки уплотнения.
 
 ![[10a00162.png]]
 
-Use a wire brush and air tool or drill to clean the turbine housing mating surface on the bearing housing.
+Используйте проволочную щетку и воздушный инструмент или сверло для очистки поверхности спаривания корпуса турбины на подшипниковом кожухе.
 
-Clean both the horizontal and vertical mating surfaces.
+Очистите как горизонтальные, так и вертикальные поверхности для спаривания.
 
-Make sure the groove in which the seal ring sits is completely clean.
+Убедитесь, что канавка, в которой находится кольцо уплотнения, полностью чистая.
 
-After completed, remove the turbine wheel protective cap.
+После завершения снимите защитную крышку колеса турбины.
 
 ![[10a00147.png]]
 
-Use the sector gear positioning tool, Part Number 2892215, to lock the nozzle ring in the fully open position.
+Используйте инструмент позиционирования секторальных шестерен, Номер детали 2892215, чтобы зафиксировать кольцо сопла в полностью открытом положении.
 
-Place the sector gear positioning tool over the sector gear and tighten the capscrews in the bottom left and top right VGT actuator mounting capscrew holes hand-tight.
+Поместите инструмент позиционирования секторальных передач над секторными передачами и затяните болты в нижнем левом и правом верхнем приводе привода VGT, устанавливающие болты отверстиями ручной герметичности.
 
-Insert the locking pin through the sector gear positioning tool and into the sector gear hole.
+Вставьте штифт блокировки через инструмент позиционирования секторальных передач и в секторное отверстие передач.
 
-At this point, the nozzle ring should be at the fully extended position.
+В этот момент кольцо сопла должно находиться в полностью удлиненном положении.
 
 ![[10a00148.png]]
 
-Use the shroud gauge tool, Part Number 2892180, to check the nozzle vanes for bending. It is important to use the correct shroud gauge tool. ISX CM870 and ISX CM871 turbochargers use different shroud gauge tools. Check the part number to make sure the correct one is used.
+Используйте инструмент измерительной манометрии саван, номер детали 2892180, чтобы проверить лопатки сопла на изгиб. Важно использовать правильный инструмент для измерения саванны. Турбокомпрессоры ISX CM870 и ISX CM871 используют различные калибры саванной измерительной системы. Проверьте номер детали, чтобы убедиться, что используется правильный.
 
-Carefully align and rotate the shroud gauge tool until all nozzle vanes are engaged. Keep the shroud gauge tool parallel to the table. Slowly move it along the nozzle vanes until the shroud gauge tool is completely against the nozzle ring face.
+Тщательно выровняйте и вращайте инструмент измерительной манометрии плащаницы до тех пор, пока не будут задействованы все сопла. Держите инструмент измерительной манометрии плащаницы параллельно столу. Медленно перемещайте его вдоль лопаток сопла, пока инструмент измерительной манометрии саван не будет полностью обращен к лицу кольца сопла.
 
-The shroud gauge tool should be able to drop completely to the bottom of the nozzle ring assembly. Slowly pull the shroud plate tool back up and out of the nozzle vanes.
+Инструмент измерительной манометрии плащаницы должен быть в состоянии полностью опуститься на дно кольцевой сборки сопла. Медленно вытащите инструмент из плащаницы и вытащите его из лопаток.
 
-If the shroud gauge tool does **not** move freely, inspect for burrs that were missed on the nozzle vanes and remove, if possible.
+Если инструмент измерительной манометрии плащаницы не перемещается **не** свободно, проверьте наличие заусенцев, которые были пропущены на лопатках сопла, и удалите, если это возможно.
 
 ![[10a00149.png]]
 
-If the shroud gauge tool continues to **not** fully engage, or if it requires excessive force to move up and down, bending of the nozzle vanes can possibly be required.
+Если инструмент измерительной измерительной машины продолжает **не** полностью взаимодействовать или если он требует чрезмерной силы для движения вверх и вниз, возможно, потребуется изгиб лопаток сопла.
 
-If it does **not** move freely after several attempts of bending a nozzle vane and checking with the shroud gauge tool, the turbocharger **must** be replaced.
+Если он не двигается свободно после нескольких попыток сгибания лопатки сопла и проверки с помощью инструмента измерительной манометрии плащаницы, турбокомпрессор должен быть заменен.
 
 ![[10a00164.png]]
 
-### Assemble
+### Сборка
 
-Automotive with CM870
+Автомобильный с CM870
 
-Place the new turbine housing assembly directly on top of the old turbine housing. Align the mounting flanges so that they are parallel.
+Поместите новый корпус турбины непосредственно на вершину старого корпуса турбины. Выравнивайте крепежные фланцы так, чтобы они были параллельными.
 
-Use the alignment marks that were made on the old turbine housing to the new turbine housing so that it can be aligned properly to the turbocharger.
+Используйте знаки выравнивания, которые были сделаны на старом корпусе турбины к новому корпусу турбины, чтобы он мог быть правильно выровнен с турбокомпрессором.
 
 ![[10a00150.png]]
 
-Place the new V-band clamp directly on top of the old V-band clamp. Align them exactly.
+Поместите новый зажим V-диапазона прямо поверх старого зажима V-диапазона. Выровняйте их точно.
 
-Use the alignment marks that were made on the old V-band clamp to the new V-band clamp so that it can be properly aligned to the turbocharger.
+Используйте знаки выравнивания, которые были сделаны на старом зажиме V-диапазона, чтобы новый зажим V-диапазона мог быть правильно выровнен с турбокомпрессором.
 
 ![[10a00151.png]]
 
-Remove and replace the seal ring that goes around the nozzle ring.
+Удалите и замените кольцо уплотнения, которое проходит вокруг кольца сопла.
 
-The gap for the seal ring can be placed in any position.
+Зазор для кольца уплотнения можно разместить в любом положении.
 
 ![[10a00152.png]]
 
-- With the turbine wheel protective cap, Part Number 2892213, on the turbine wheel, carefully blow off any debris in the groove where the C-seal sits.
-- Place the new C-seal (bearing housing to turbine housing seal) onto the sealing surface of the turbocharger bearing housing.
-- Anti-seize compound can be placed in a few places around the circumference of the C-seal to better hold it in place during the assembly process.
+- С защитной крышкой колеса турбины, Номер детали 2892213, на колесе турбины, тщательно сдувайте любой мусор в канавке, где сидит тюлень C.
+- Поместите новый C-уплотнение (несущий кожух к уплотнению корпуса турбины) на уплотняющую поверхность корпуса турбокомпрессора.
+- Антисептик можно поместить в несколько мест по окружности C-уплотнения, чтобы лучше удерживать его на месте во время процесса сборки.
 
 ![[10a00153.png]]
 
-- Replace the turbine housing V-band clamp.
-- To install the turbine housing, position the V-band clamp over the bearing housing and align the ink marks applied during the disassembly process.
+- Заменить турбинный корпус V-диапазонным зажимом.
+- Для установки корпуса турбины поместите зажим V-диапазона над корпусом подшипника и выровните маркировочные знаки чернил, нанесенные во время процесса разборки.
 
-The V-band clamp can be spread and locked open by pressing the threaded end of the clamp against the opposite end. This will aid in allowing the turbine housing to drop into place.
+Зажим V-диапазона может быть распространён и закрыт открытым, нажимая резьбовый конец зажима на противоположный конец. Это поможет в том, чтобы корпус турбины упал на место.
 
 ![[10a00160.png]]
 
-- With the nozzle ring still at an extended position, carefully lower the turbine housing into the bearing and compressor housing assembly until the nozzle vanes contact the shroud plate.
-- Carefully rotate the turbine housing, as needed, in order to engage all of the nozzle vanes.
-- Remain as parallel to the table as possible while lowering the turbine housing, until the nozzle vanes are fully engaged.
+- С насадочным кольцом, все еще находящимся в удлиненном положении, осторожно опустите корпус турбины в подшипник и корпус компрессора до тех пор, пока насадочные лопатки не соприкасаются с пластиной саван.
+- Тщательно вращайте корпус турбины, по мере необходимости, чтобы задействовать все сопла лопаток.
+- Оставайтесь как можно более параллельными столу при опускании корпуса турбины, пока сопла не будут полностью задействованы.
 
 ![[10a00154.png]]
 
-- Carefully rotate the turbine housing until the marks on the bearing housing and turbine housing are directly aligned.
+- Тщательно вращайте корпус турбины до тех пор, пока метки на корпусе подшипника и корпусе турбины не будут непосредственно выровнены.
 
 ![[10a00155.png]]
 
-> [!danger] WARNING · Опасно
-> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+> [!danger] ОПАСНО
+> Держите пальцы и руки подальше от привода, чтобы уменьшить вероятность получения травм в результате внезапного движения при подаче воздуха.
 
-Release the actuator by disconnecting the coupling and regulated air supply.
+Выпустить привод, отсоединив сцепление и регулируемое подачу воздуха.
 
 ![[10y00007.png]]
 
-Carefully tap on the turbine housing with a lead hammer until the turbine housing is fully seated on the bearing housing surface.
+Тщательно нажмите на корпус турбины свинцовым молотком, пока корпус турбины полностью не усадится на поверхность корпуса подшипника.
 
-Tighten the locknut on the V-band clamp.
+Затяните зажим V-диапазона.
 
-Place the new V-band clamp in the correct orientation and tighten the locknut.
+Поместите новый V-диапазонный зажим в правильную ориентацию и затяните локон.
 
-> [!tip] Момент затяжки · Torque Value
-> 11.3 n•m [100 in-lb]
+> [!tip] Момент затяжки
+> 11.3 Н·м [100 фунт-дюйм]
 
-Loosen the locknut 180 degrees and tighten the locknut.
+Освободите каштан на 180 градусов и затяните каштан.
 
-> [!tip] Момент затяжки · Torque Value
-> 11.3 n•m [100 in-lb]
+> [!tip] Момент затяжки
+> 11.3 Н·м [100 фунт-дюйм]
 
 ![[10a00157.png]]
 
-> [!danger] WARNING · Опасно
-> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+> [!danger] ОПАСНО
+> Держите пальцы и руки подальше от привода, чтобы уменьшить вероятность получения травм в результате внезапного движения при подаче воздуха.
 
-Use coupling, Part Number 3824843, to connect a regulated air supply to the actuator air inlet. Check the actuator travel. Remove air to allow the actuator to retract. Use a straight edge steel ruler to measure.
+Используйте соединительную систему, номер детали 3824843, для подключения регулируемого подачи воздуха к впуску воздуха привода. Проверьте ход привода. Удалите воздух, чтобы позволить приводу убираться. Используйте стальную линейку с прямым краем для измерения.
 
-The turbocharger actuator rod should extend more than 10 mm \[0.394 in\].
+Стержень привода турбокомпрессора должен простираться более чем на 10 мм \[0,394 дюйма\].
 
-If movement is **not** smooth, or if there is **not** full travel, rotate the turbine housing **clockwise**. Rotate **counterclockwise** back to the alignment marks.
+Если движение **не** гладко, или если есть **не** полный ход, поверните корпус турбины **по часовой стрелке**. Поверните **против часовой стрелки** обратно к знакам выравнивания.
 
-Check for full travel of the actuator rod.
+Проверьте полное движение приводного стержня.
 
-Several rotational movements can need to be made in order to correctly align the nozzle ring and the sector gear.
+Для правильного выравнивания кольца сопла и секторного оборудования может потребоваться несколько вращательных движений.
 
 ![[10y00007.png]]
 
-Use a metal stamping tool to mark an “S” on the top right corner of the turbocharger data tag.
+Используйте металлический инструмент штамповки, чтобы отметить «S» в правом верхнем углу тега данных турбокомпрессора.
 
-It is important that it be marked in the corner, as the middle of the data tag may **not** have a surface behind it.
+Важно, чтобы он был отмечен в углу, так как середина метки данных может **не** иметь поверхность позади него.
 
 ![[10a00159.png]]
 
-### Assemble
+### Сборка
 
-Automotive With CM871
+Автомобильный с CM871
 
-Place the new turbine housing assembly directly on top of the old turbine housing. Align the mounting flanges so that they are parallel.
+Поместите новый корпус турбины непосредственно на вершину старого корпуса турбины. Выравнивайте крепежные фланцы так, чтобы они были параллельными.
 
-Use the alignment marks that were made on the old turbine housing to the new turbine housing so that it can be aligned properly to the turbocharger.
+Используйте знаки выравнивания, которые были сделаны на старом корпусе турбины к новому корпусу турбины, чтобы он мог быть правильно выровнен с турбокомпрессором.
 
 ![[10a00150.png]]
 
-Place the new V-band clamp directly on top of the old V-band clamp. Align them exactly.
+Поместите новый зажим V-диапазона прямо поверх старого зажима V-диапазона. Выровняйте их точно.
 
-Use the alignment marks that were made on the old V-band clamp to the new V-band clamp so that it can be properly aligned to the turbocharger.
+Используйте знаки выравнивания, которые были сделаны на старом зажиме V-диапазона, чтобы новый зажим V-диапазона мог быть правильно выровнен с турбокомпрессором.
 
 ![[10a00151.png]]
 
-Remove and replace the seal ring that goes around the nozzle ring.
+Удалите и замените кольцо уплотнения, которое проходит вокруг кольца сопла.
 
-The gap for the seal ring can be placed in any position.
+Зазор для кольца уплотнения можно разместить в любом положении.
 
 ![[10a00152.png]]
 
-- With the turbine wheel protective cap, Part Number 2892213, on the turbine wheel, carefully blow off any debris in the groove where the C-seal sits.
-- Place the new C-seal (bearing housing to turbine housing seal) onto the sealing surface of the turbocharger bearing housing.
-- Anti-seize compound can be placed in a few places around the circumference of the C-seal to better hold it in place during the assembly process.
+- С защитной крышкой колеса турбины, Номер детали 2892213, на колесе турбины, тщательно сдувайте любой мусор в канавке, где сидит тюлень C.
+- Поместите новый C-уплотнение (несущий кожух к уплотнению корпуса турбины) на уплотняющую поверхность корпуса турбокомпрессора.
+- Антисептик можно поместить в несколько мест по окружности C-уплотнения, чтобы лучше удерживать его на месте во время процесса сборки.
 
 ![[10a00153.png]]
 
-- Replace the turbine housing V-band clamp.
-- To install the turbine housing, position the V-band clamp over the bearing housing and align the ink marks applied during the disassembly process.
+- Заменить турбинный корпус V-диапазонным зажимом.
+- Для установки корпуса турбины поместите зажим V-диапазона над корпусом подшипника и выровните маркировочные знаки чернил, нанесенные во время процесса разборки.
 
-The V-band clamp can be spread and locked open by pressing the threaded end of the clamp against the opposite end. This will aid in allowing the turbine housing to drop into place.
+Зажим V-диапазона может быть распространён и закрыт открытым, нажимая резьбовый конец зажима на противоположный конец. Это поможет в том, чтобы корпус турбины упал на место.
 
 ![[10a00160.png]]
 
-- Make sure the sector gear positioning tool is still installed and the nozzle ring is at the fully extended position (the locking pin should be installed).
-- Carefully lower the turbine housing into the bearing and compressor housing assembly until the nozzle vanes contact the shroud plate.
-- Carefully rotate the turbine housing, as needed, in order to engage all of the nozzle vanes.
-- Remain as parallel to the table as possible while lowering the turbine housing, until the nozzle vanes are fully engaged.
+- Убедитесь, что инструмент позиционирования секторного оборудования все еще установлен, а кольцо сопла находится в полностью удлиненном положении (должен быть установлен штифт блокировки).
+- Тщательно опустите корпус турбины в подшипник и компрессорный корпус до тех пор, пока сопла не соприкасаются с пластиной саван.
+- Тщательно вращайте корпус турбины, по мере необходимости, чтобы задействовать все сопла лопаток.
+- Оставайтесь как можно более параллельными столу при опускании корпуса турбины, пока сопла не будут полностью задействованы.
 
 ![[10a00154.png]]
 
-- Carefully rotate the turbine housing until the marks on the bearing housing and turbine housing are directly aligned.
+- Тщательно вращайте корпус турбины до тех пор, пока метки на корпусе подшипника и корпусе турбины не будут непосредственно выровнены.
 
 ![[10a00155.png]]
 
-Carefully remove the sector gear positioning tool, Part Number 2892215.
+Тщательно удалите инструмент позиционирования секторальных передач, номер детали 2892215.
 
-> [!note] Note · Примечание
-> If the turbine housing has to be removed at any point, the sector gear positioning tool **must** be installed first.
+> [!note] Примечание
+> Если корпус турбины должен быть удален в любой точке, сначала должен быть установлен инструмент позиционирования секторной передачи.
 
 ![[10a00156.png]]
 
-Carefully tap on the turbine housing with a lead hammer until the turbine housing is fully seated on the bearing housing surface.
+Тщательно нажмите на корпус турбины свинцовым молотком, пока корпус турбины полностью не усадится на поверхность корпуса подшипника.
 
-Tighten the locknut on the V-band clamp.
+Затяните зажим V-диапазона.
 
-Place the new V-band clamp in the correct orientation and tighten the locknut.
+Поместите новый V-диапазонный зажим в правильную ориентацию и затяните локон.
 
-> [!tip] Момент затяжки · Torque Value
-> 11.3 n•m [100 in-lb]
+> [!tip] Момент затяжки
+> 11.3 Н·м [100 фунт-дюйм]
 
-Loosen the locknut 180 degrees and tighten the locknut.
+Освободите каштан на 180 градусов и затяните каштан.
 
-> [!tip] Момент затяжки · Torque Value
-> 11.3 n•m [100 in-lb]
+> [!tip] Момент затяжки
+> 11.3 Н·м [100 фунт-дюйм]
 
 ![[10a00157.png]]
 
-Move the sector gear back and forth by hand to check for smooth movement.
+Перемещайте сектор снаряжения назад и вперед вручную, чтобы проверить плавное движение.
 
-If movement is **not** smooth, rotate the turbine housing **clockwise**. Then, rotate **counterclockwise** back to the alignment marks.
+Если движение **не** гладко, поверните корпус турбины **по часовой стрелке**. Затем поверните **против часовой стрелки** обратно к знакам выравнивания.
 
-Check for smooth movement of the sector gear again. Several rotational movements can need to be made in order to correctly align the nozzle ring and the sector gear.
+Проверьте плавное движение секторного оборудования снова. Для правильного выравнивания кольца сопла и секторного оборудования может потребоваться несколько вращательных движений.
 
 ![[10a00158.png]]
 
-The sector gear travel gauges are designed for specific turbocharger models. To determine the correct gauge, verify the turbocharger model number from the turbocharger dataplate. Select the gauge that matches the first three letters of the turbocharger model number.
+Секторные датчики движения шестерни предназначены для конкретных моделей турбокомпрессоров. Чтобы определить правильный калибр, проверьте номер модели турбокомпрессора из таблички данных турбокомпрессора. Выберите калибр, который соответствует первым трем буквам номера модели турбокомпрессора.
 
 ![[10d00480.png]]
 
-If the turbocharger data tag is missing or covered with paint, an alternate method of determining the turbocharger model number is to measure the distance between the top of the cup plug hole to the bearing housing edge.
+Если метка данных турбокомпрессора отсутствует или покрыта краской, альтернативным методом определения номера модели турбокомпрессора является измерение расстояния между верхней частью отверстия в заглушке чашки до края корпуса подшипника.
 
-If the distance is greater than 19 mm \[0.748 in\], the turbocharger model is HE4xx.
+Если расстояние больше 19 мм \[0,748 дюйма \], то модель турбокомпрессора HE4xx.
 
-If the distance is less than 19 mm \[0.748 in\], the model is HE5xx.
+Если расстояние меньше 19 мм[0,748 дюйма], то модель HE5xx.
 
 ![[10d00481.png]]
 
-Carefully bend the gauge and slide the thin section under the sector gear to install the sector gear travel gauge.
+Тщательно согните калибр и сполните тонкую секцию под секторным механизмом, чтобы установить калибр для перемещения секторного оборудования.
 
-If necessary, pull the sector gear out by hand to allow more clearance for the gauge.
+При необходимости вытаскивайте секторное оборудование вручную, чтобы обеспечить больший зазор для калибра.
 
-Verify the three alignment bosses are fully engaged in the bearing housing.
+Проверьте, что три выравнивающих босса полностью заняты подшипниковым кожухом.
 
 ![[10d00482.png]]
 
-Rotate the sector gear **counterclockwise**, toward the turbocharger turbine housing, until it stops.
+Поверните секторную передачу **против часовой стрелки** к корпусу турбины турбокомпрессора, пока он не остановится.
 
-The edge of the sector gear **must** be in the green acceptance zone of the gauge.
+Край секторального оборудования **должен** находиться в зеленой зоне приемки калибра.
 
 ![[10d00484.png]]
 
-Rotate the sector gear **clockwise**, toward the turbocharger compressor housing, until it stops. The edge of the sector gear **must** be in the green acceptance zone of the gauge.
+Поверните секторную передачу **по часовой стрелке** в сторону корпуса компрессора турбокомпрессора, пока он не остановится. Край секторального оборудования **должен** находиться в зеленой зоне приемки калибра.
 
-If the sector gear does **not** go through the full range of motion, or if the sector gear requires excessive force to move it by hand, rotate the turbine housing back and forth until a smooth and full motion of the sector gear is achieved.
+Если секторная передача проходит **не** через полный диапазон движения, или если секторная передача требует чрезмерной силы для перемещения ее вручную, вращайте корпус турбины туда и обратно до тех пор, пока не будет достигнуто плавное и полное движение секторной передачи.
 
 ![[10d00483.png]]
 
-Use a metal stamping tool to mark an “S” on the top right corner of the turbocharger data tag.
+Используйте металлический инструмент штамповки, чтобы отметить «S» в правом верхнем углу тега данных турбокомпрессора.
 
-It is important that it be marked in the corner, as the middle of the data tag may **not** have a surface behind it.
+Важно, чтобы он был отмечен в углу, так как середина метки данных может **не** иметь поверхность позади него.
 
 ![[10a00159.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Automotive with CM870
+Автомобильный с CM870
 
-- Install the turbocharger. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Operate the engine and check for leaks.
+- Установите турбокомпрессор.[[10-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Запустите двигатель и проверьте на отсутствие утечек.
+
+![[ck800wa.png]]
+
+### Завершающие операции
+
+Автомобильный с CM871
+
+- Установите турбокомпрессор.[[10-010-033-tr — Turbocharger|См. процедуру 010-033 в разделе 10.]]
+- Установите привод турбокомпрессора.[[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|См. процедуру 010-134 в разделе 10.]]
+- Запустите двигатель и проверьте на отсутствие утечек.
+
+Если неисправность привела к попаданию в выхлопную систему охлаждающей жидкости, масла, избыточного топлива или черного дыма, необходимо проверить систему последующей обработки.[[101-014-013 — Aftertreatment Testing|См. процедуру 014-013 в разделе 14.]]
 
 ![[ck800wa.png]]
 
-### Finishing Steps
 
-Automotive With CM871
-
-- Install the turbocharger. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
-- Install the turbocharger actuator. [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
-- Operate the engine and check for leaks.
-
-If a malfunction resulted in coolant, oil, excessive fuel, or excessive black smoke entering the exhaust system, the aftertreatment system **must** be inspected. [[101-014-013 — Aftertreatment Testing|Refer to Procedure 014-013 in Section 14.]]
-
-![[ck800wa.png]]
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Automotive with CM870
+>
+> - Remove the turbocharger and inspect for reuse. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+>
+> **Note · Примечание**
+> This repair requires the use of different turbocharger housing kits, depending on the engine CPL, and turbocharger serial number (found on the turbocharger dataplate). Reference the appropriate parts release information to determine which turbocharger housing kit to use.
+>
+> ### Preparatory Steps
+>
+> Automotive With CM871
+>
+> - Remove the turbocharger and inspect for reuse. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Remove the turbocharger actuator. [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
+>
+> **Note · Примечание**
+> This repair requires the use of different turbocharger housing kits, depending on the engine CPL, and turbocharger serial number (found on the turbocharger dataplate). Reference the appropriate parts release information to determine which turbocharger housing kit to use.
+>
+> ### Disassemble
+>
+> Automotive with CM870
+>
+> Check for an "S" mark on the top right corner of the turbocharger data tag. This mark indicates that this repair procedure has already been completed on this turbocharger.
+>
+> If there is an "S" mark present, do **not** proceed with this repair procedure; proceed with turbocharger replacement.
+>
+> Cover the oil supply and drain ports in the bearing housing. Use clean care parts, Part Number 4919216 and 4919221.
+>
+> **WARNING · Опасно**
+> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+>
+> With the actuator in place, use coupling, Part Number 3824843, to connect a regulated air supply to the actuator air inlet. Check the actuator travel. Remove air to allow the actuator to retract. Mark or scribe the VG actuator rod at the base of the actuator. Measure the rod travel by measuring the distance from the base of the turbocharger actuator to the scribe mark. Use a straight edge steel ruler to measure.
+>
+> The turbocharger actuator rod should extend more than 10 mm \[0.394 in\]. If it does **not**, verify the turbocharger actuator is functioning correctly. Refer to Procedure 010-113 in Section 10. If functioning correctly, install to the turbocharger and continue through the procedure.
+>
+> Create an alignment mark on the turbocharger turbine housing, bearing housing, and V-band clamp in line with the oil drain on the bearing housing.
+>
+> This mark will enable the components to be oriented correctly during assembly.
+>
+> Loosen the turbocharger turbine housing V-band clamp. The turbine housing V-band clamp locknut cover **must** be removed (use an 11 mm socket) before the locknut can be loosened.
+>
+> After the clamp locknut is loosened, the V-band clamp can be spread and locked open by using the threaded end of the clamp, pressing it against the opposite end. This can aid in the removal of the turbine housing.
+>
+> **CAUTION · Осторожно**
+> The turbine blades or the nozzle ring can be easily damaged. Care is required for the turbine housing removal process.
+>
+> Slightly lift or angle the turbocharger while using a lead hammer to tap the turbine housing down against the bench surface.
+>
+> Tap so that the turbine housing can be removed squarely. This will reduce the possibility of damage to the nozzle ring assembly. It can take a considerable amount of force to remove the turbine housing.
+>
+> As the bearing housing and compressor housing assembly loosen, gently lift the assembly from the turbine housing and carefully place the compressor housing side down.
+>
+> Once the turbocharger turbine housing is removed, inspect the turbine wheel blades for damage.
+>
+> If the blades are damaged, the turbocharger **must** be replaced.
+>
+> A small amount of wear on the tips is acceptable and will **not** affect the operation of the turbocharger.
+>
+> Use a straight-edge gauge to measure the length from the bottom-most blade on the turbine wheel to the point where wear begins on the wheel (if any).
+>
+> This length should be greater than 8 mm \[0.315 in\]. If it is **not**, the turbocharger **must** be replaced.
+>
+> Use a dial indicator to check radial movement at the turbine wheel nose.
+>
+> Push the turbine wheel away from the gauge and set the indicator to zero.
+>
+> Push the turbine toward the gauge and record the reading.
+>
+> | Turbocharger Radial Bearing Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.590 | MAX | 0.023 |
+>
+> If the turbocharger radial clearance is **not** within specifications, the turbocharger **must** be replaced.
+>
+> Use contact cleaner, or equivalent, to carefully clean the nozzle ring and vanes.
+>
+> Inspect the variable geometry turbocharger nozzle ring for cracking.
+>
+> If an axial crack on the nozzle ring is observed, the turbocharger **must** be replaced.
+>
+> Inspect the variable geometry turbocharger nozzle ring for vane damage.
+>
+> If there are dents, dings, or pieces broken out of **any** of the nozzle vanes, the turbocharger **must** be replaced.
+>
+> **WARNING · Опасно**
+> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+>
+> Use regulated air with the VGT actuator to extend the nozzle ring.
+>
+> To reduce the spring load at the linkage, use coupling, Part Number 3824843, to apply 414 kPa \[60 psi\] of air pressure to the actuator air inlet.
+>
+> Tilt the nozzle ring back and forth by hand to check for excessive play.
+>
+> The nozzle should rock back and forth gently, but if one side of the nozzle can drop significantly more than the other, the play is excessive.
+>
+> If there is excessive play in the nozzle ring, the turbocharger **must** be replaced.
+>
+> Inspect the variable geometry turbocharger nozzle ring for cracking.
+>
+> If an axial crack on the nozzle ring is observed, the turbocharger **must** be replaced.
+>
+> Inspect the variable geometry turbocharger nozzle ring for vane damage.
+>
+> If there are dents, dings, or pieces broken out of **any** of the nozzle vanes, the turbocharger **must** be replaced.
+>
+> Check for excessive wear on the leading edge of the nozzle vanes.
+>
+> Use the nozzle vane wear gauge, Part Number 2892218, to check for excessive wear. Use the CM870 or CM871 end of the wear gauge, depending on the turbocharger. Place the nozzle vane wear gauge against each vane and down against the nozzle ring. It is important to place the gauge down completely against the nozzle ring face.
+>
+> If the gauge can rock back and forth, the wear is **not** excessive. If the gauge can **not** rock back and forth, the nozzle vane has excessive wear.
+>
+> If excessive wear is found and a vane does **not** pass the wear gauge check, the turbocharger **must** be replaced.
+>
+> Check for burrs on the leading edge of the nozzle vanes.
+>
+> The surface of the vane face should be smooth. A burr can be felt with the fingertip.
+>
+> These burrs are typical and can be removed.
+>
+> If burrs are present, place the turbine wheel protective cap, Part Number 2892213, over the turbine wheel.
+>
+> Use an abrasive disc and air tool or drill to remove the burrs from the edge of each vane.
+>
+> Make sure the burrs are removed completely from each vane by feeling with the fingertip.
+>
+> Carefully clean off any debris around the bearing housing surface and seal groove.
+>
+> Use a wire brush and air tool or drill to clean the turbine housing mating surface on the bearing housing.
+>
+> Clean both the horizontal and vertical mating surfaces.
+>
+> Make sure the groove in which the seal ring sits is completely clean.
+>
+> After completed, remove the turbine wheel protective cap.
+>
+> **WARNING · Опасно**
+> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+>
+> Use regulated air with the VGT actuator to extend the nozzle ring.
+>
+> To reduce the spring load at the linkage, use coupling, Part Number 3824843, to apply 414 kPa \[60 psi\] of air pressure to the actuator air inlet.
+>
+> Use the shroud gauge tool, Part Number 2892179, to check the nozzle vanes for bending. It is important to use the correct shroud gauge tool. ISX CM870 and ISX CM871 turbochargers use different shroud gauge tools. Check the part number to make sure the correct one is used.
+>
+> Carefully align and rotate the shroud gauge tool until all nozzle vanes are engaged. Keep the shroud gauge tool parallel to the table. Slowly move it along the nozzle vanes until the shroud gauge tool is completely against the nozzle ring face.
+>
+> The shroud gauge tool should be able to drop completely to the bottom of the nozzle ring assembly. Slowly pull the shroud plate tool back up and out of the nozzle vanes.
+>
+> If the shroud gauge tool does **not** move freely, inspect for burrs that were missed on the nozzle vanes and remove, if possible.
+>
+> If the shroud gauge tool continues to **not** fully engage, or if it requires excessive force to move up and down, bending of the nozzle vanes can possibly be required.
+>
+> If it does **not** move freely after several attempts of bending a nozzle vane and checking with the shroud gauge tool, the turbocharger **must** be replaced.
+>
+> ### Disassemble
+>
+> Automotive With CM871
+>
+> Cover the oil supply and drain ports in the bearing housing. Use clean care parts, Part Number 4919216 and 4919221.
+>
+> Check for an "S" mark on the top right corner of the turbocharger data tag. This mark indicates that this repair procedure has already been completed on this turbocharger.
+>
+> If there is an "S" mark present, do **not** proceed with this repair procedure; proceed with turbocharger replacement.
+>
+> Place the turbocharger on a flat sturdy table with the compressor housing down.
+>
+> Lock the nozzle ring by using the sector gear positioning tool, Part Number 2892215.
+>
+> Place the sector gear positioning tool over the sector gear and tighten the capscrews in the bottom left and top right VGT actuator mounting capscrew holes finger tight.
+>
+> It is **not** necessary to place the locking pin in the sector gear positioning tool at this time.
+>
+> It is important to have the sector gear positioning tool in place prior to removing the turbine housing in order to reduce the possibility of over-stroking the nozzle ring.
+>
+> Create an alignment mark on the turbocharger turbine housing, bearing housing, and V-band clamp in line with the oil drain on the bearing housing.
+>
+> This mark will enable the components to be oriented correctly during assembly.
+>
+> Loosen the turbocharger turbine housing V-band clamp. The turbine housing V-band clamp locknut cover **must** be removed (use an 11 mm socket) before the locknut can be loosened.
+>
+> After the clamp locknut is loosened, the V-band clamp can be spread and locked open by using the threaded end of the clamp, pressing it against the opposite end. This can aid in the removal of the turbine housing.
+>
+> **CAUTION · Осторожно**
+> The turbine blades or the nozzle ring can be easily damaged. Care is required for the turbine housing removal process.
+>
+> Slightly lift or angle the turbocharger while using a lead hammer to tap the turbine housing down against the bench surface.
+>
+> Tap so that the turbine housing can be removed squarely. This will reduce the possibility of damage to the nozzle ring assembly. It can take a considerable amount of force to remove the turbine housing.
+>
+> As the bearing housing and compressor housing assembly loosen, gently lift the assembly from the turbine housing and carefully place the compressor housing side down.
+>
+> With the turbine housing removed and the sector gear positioning tool, Part Number 2892215, still installed, move the sector gear back and forth by hand to check for smooth movement.
+>
+> If the sector gear movement is **not** smooth, the turbocharger **must** be replaced.
+>
+> Carefully rotate the turbocharger on its side and move the sector gear back and forth by hand again to check for smooth movement.
+>
+> If the sector gear movement is **not** smooth, the turbocharger **must** be replaced.
+>
+> Once the turbocharger turbine housing is removed, inspect the turbine wheel blades for damage.
+>
+> If the blades are damaged, the turbocharger **must** be replaced.
+>
+> A small amount of wear on the tips is acceptable and will **not** affect the operation of the turbocharger.
+>
+> Use a straightedge gauge to measure the length from the bottom-most blade on the turbine wheel to the point where wear begins on the wheel (if any).
+>
+> This length should be greater than 8 mm \[0.315 in\]. If it is **not**, the turbocharger **must** be replaced.
+>
+> Use a dial indicator to check radial movement at the turbine wheel nose.
+>
+> Push the turbine wheel away from the gauge and set the indicator to zero.
+>
+> Push the turbine toward the gauge and record the reading.
+>
+> | Turbocharger Radial Bearing Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.590 | MAX | 0.023 |
+>
+> If the turbocharger radial clearance is **not** within specifications, the turbocharger **must** be replaced.
+>
+> Use contact cleaner, or equivalent, to carefully clean the nozzle ring and vanes.
+>
+> Inspect the variable geometry turbocharger nozzle ring for cracking.
+>
+> If an axial crack on the nozzle ring is observed, the turbocharger **must** be replaced.
+>
+> Inspect the variable geometry turbocharger nozzle ring for vane damage.
+>
+> If there are dents, dings, or pieces broken out of **any** of the nozzle vanes, the turbocharger **must** be replaced.
+>
+> Extend the nozzle ring out and lock it in place by placing the locking pin through the sector gear positioning tool and into the sector gear hole.
+>
+> Tilt the nozzle ring back and forth by hand to check for excessive play.
+>
+> The nozzle should rock bach and forth slightly. If one side of the nozzle can drop significantly more than the other, the play is excessive.
+>
+> If there is excessive play in the nozzle ring, the turbocharger **must** be replaced.
+>
+> After completed, the pin going through the sector gear positioning tool and sector gear hole can be removed.
+>
+> Check for excessive wear on the leading edge of the nozzle vanes.
+>
+> Use the nozzle vane wear gauge, Part Number 2892212, to check for excessive wear. Use the CM870 or CM871 end of the wear gauge, depending on the turbocharger. Place the nozzle vane wear gauge against each vane and down against the nozzle ring. It is important to place the gauge down completely against the nozzle ring face.
+>
+> If the gauge can rock back and forth, the wear is **not** excessive. If the gauge can **not** rock back and forth, the nozzle vane has excessive wear.
+>
+> If excessive wear is found and a vane does **not** pass the wear gauge check, the turbocharger **must** be replaced.
+>
+> Check for burrs on the leading edge of the nozzle vanes.
+>
+> The surface of the vane face should be smooth. A burr can be felt with the fingertip.
+>
+> These burrs are typical and can be removed.
+>
+> If burrs are present, place the turbine wheel protective cap, Part Number 2892213, over the turbine wheel.
+>
+> Use an abrasive disc, Part Number 3824541, and air tool or drill to clean up the burrs on the edge of each vane. Do **not** use excessive force or time to clean the vanes; burrs are fairly easy to remove.
+>
+> Make sure the burrs are removed completely from each vane by feeling with the fingertip.
+>
+> Carefully clean off any debris around the bearing housing surface and seal groove.
+>
+> Use a wire brush and air tool or drill to clean the turbine housing mating surface on the bearing housing.
+>
+> Clean both the horizontal and vertical mating surfaces.
+>
+> Make sure the groove in which the seal ring sits is completely clean.
+>
+> After completed, remove the turbine wheel protective cap.
+>
+> Use the sector gear positioning tool, Part Number 2892215, to lock the nozzle ring in the fully open position.
+>
+> Place the sector gear positioning tool over the sector gear and tighten the capscrews in the bottom left and top right VGT actuator mounting capscrew holes hand-tight.
+>
+> Insert the locking pin through the sector gear positioning tool and into the sector gear hole.
+>
+> At this point, the nozzle ring should be at the fully extended position.
+>
+> Use the shroud gauge tool, Part Number 2892180, to check the nozzle vanes for bending. It is important to use the correct shroud gauge tool. ISX CM870 and ISX CM871 turbochargers use different shroud gauge tools. Check the part number to make sure the correct one is used.
+>
+> Carefully align and rotate the shroud gauge tool until all nozzle vanes are engaged. Keep the shroud gauge tool parallel to the table. Slowly move it along the nozzle vanes until the shroud gauge tool is completely against the nozzle ring face.
+>
+> The shroud gauge tool should be able to drop completely to the bottom of the nozzle ring assembly. Slowly pull the shroud plate tool back up and out of the nozzle vanes.
+>
+> If the shroud gauge tool does **not** move freely, inspect for burrs that were missed on the nozzle vanes and remove, if possible.
+>
+> If the shroud gauge tool continues to **not** fully engage, or if it requires excessive force to move up and down, bending of the nozzle vanes can possibly be required.
+>
+> If it does **not** move freely after several attempts of bending a nozzle vane and checking with the shroud gauge tool, the turbocharger **must** be replaced.
+>
+> ### Assemble
+>
+> Automotive with CM870
+>
+> Place the new turbine housing assembly directly on top of the old turbine housing. Align the mounting flanges so that they are parallel.
+>
+> Use the alignment marks that were made on the old turbine housing to the new turbine housing so that it can be aligned properly to the turbocharger.
+>
+> Place the new V-band clamp directly on top of the old V-band clamp. Align them exactly.
+>
+> Use the alignment marks that were made on the old V-band clamp to the new V-band clamp so that it can be properly aligned to the turbocharger.
+>
+> Remove and replace the seal ring that goes around the nozzle ring.
+>
+> The gap for the seal ring can be placed in any position.
+>
+> - With the turbine wheel protective cap, Part Number 2892213, on the turbine wheel, carefully blow off any debris in the groove where the C-seal sits.
+> - Place the new C-seal (bearing housing to turbine housing seal) onto the sealing surface of the turbocharger bearing housing.
+> - Anti-seize compound can be placed in a few places around the circumference of the C-seal to better hold it in place during the assembly process.
+>
+> - Replace the turbine housing V-band clamp.
+> - To install the turbine housing, position the V-band clamp over the bearing housing and align the ink marks applied during the disassembly process.
+>
+> The V-band clamp can be spread and locked open by pressing the threaded end of the clamp against the opposite end. This will aid in allowing the turbine housing to drop into place.
+>
+> - With the nozzle ring still at an extended position, carefully lower the turbine housing into the bearing and compressor housing assembly until the nozzle vanes contact the shroud plate.
+> - Carefully rotate the turbine housing, as needed, in order to engage all of the nozzle vanes.
+> - Remain as parallel to the table as possible while lowering the turbine housing, until the nozzle vanes are fully engaged.
+>
+> - Carefully rotate the turbine housing until the marks on the bearing housing and turbine housing are directly aligned.
+>
+> **WARNING · Опасно**
+> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+>
+> Release the actuator by disconnecting the coupling and regulated air supply.
+>
+> Carefully tap on the turbine housing with a lead hammer until the turbine housing is fully seated on the bearing housing surface.
+>
+> Tighten the locknut on the V-band clamp.
+>
+> Place the new V-band clamp in the correct orientation and tighten the locknut.
+>
+> **Момент затяжки · Torque Value**
+> 11.3 n•m [100 in-lb]
+>
+> Loosen the locknut 180 degrees and tighten the locknut.
+>
+> **Момент затяжки · Torque Value**
+> 11.3 n•m [100 in-lb]
+>
+> **WARNING · Опасно**
+> Keep fingers and hands away from the actuator link to reduce the possibility of personal injury as a result of sudden movement when air is supplied.
+>
+> Use coupling, Part Number 3824843, to connect a regulated air supply to the actuator air inlet. Check the actuator travel. Remove air to allow the actuator to retract. Use a straight edge steel ruler to measure.
+>
+> The turbocharger actuator rod should extend more than 10 mm \[0.394 in\].
+>
+> If movement is **not** smooth, or if there is **not** full travel, rotate the turbine housing **clockwise**. Rotate **counterclockwise** back to the alignment marks.
+>
+> Check for full travel of the actuator rod.
+>
+> Several rotational movements can need to be made in order to correctly align the nozzle ring and the sector gear.
+>
+> Use a metal stamping tool to mark an “S” on the top right corner of the turbocharger data tag.
+>
+> It is important that it be marked in the corner, as the middle of the data tag may **not** have a surface behind it.
+>
+> ### Assemble
+>
+> Automotive With CM871
+>
+> Place the new turbine housing assembly directly on top of the old turbine housing. Align the mounting flanges so that they are parallel.
+>
+> Use the alignment marks that were made on the old turbine housing to the new turbine housing so that it can be aligned properly to the turbocharger.
+>
+> Place the new V-band clamp directly on top of the old V-band clamp. Align them exactly.
+>
+> Use the alignment marks that were made on the old V-band clamp to the new V-band clamp so that it can be properly aligned to the turbocharger.
+>
+> Remove and replace the seal ring that goes around the nozzle ring.
+>
+> The gap for the seal ring can be placed in any position.
+>
+> - With the turbine wheel protective cap, Part Number 2892213, on the turbine wheel, carefully blow off any debris in the groove where the C-seal sits.
+> - Place the new C-seal (bearing housing to turbine housing seal) onto the sealing surface of the turbocharger bearing housing.
+> - Anti-seize compound can be placed in a few places around the circumference of the C-seal to better hold it in place during the assembly process.
+>
+> - Replace the turbine housing V-band clamp.
+> - To install the turbine housing, position the V-band clamp over the bearing housing and align the ink marks applied during the disassembly process.
+>
+> The V-band clamp can be spread and locked open by pressing the threaded end of the clamp against the opposite end. This will aid in allowing the turbine housing to drop into place.
+>
+> - Make sure the sector gear positioning tool is still installed and the nozzle ring is at the fully extended position (the locking pin should be installed).
+> - Carefully lower the turbine housing into the bearing and compressor housing assembly until the nozzle vanes contact the shroud plate.
+> - Carefully rotate the turbine housing, as needed, in order to engage all of the nozzle vanes.
+> - Remain as parallel to the table as possible while lowering the turbine housing, until the nozzle vanes are fully engaged.
+>
+> - Carefully rotate the turbine housing until the marks on the bearing housing and turbine housing are directly aligned.
+>
+> Carefully remove the sector gear positioning tool, Part Number 2892215.
+>
+> **Note · Примечание**
+> If the turbine housing has to be removed at any point, the sector gear positioning tool **must** be installed first.
+>
+> Carefully tap on the turbine housing with a lead hammer until the turbine housing is fully seated on the bearing housing surface.
+>
+> Tighten the locknut on the V-band clamp.
+>
+> Place the new V-band clamp in the correct orientation and tighten the locknut.
+>
+> **Момент затяжки · Torque Value**
+> 11.3 n•m [100 in-lb]
+>
+> Loosen the locknut 180 degrees and tighten the locknut.
+>
+> **Момент затяжки · Torque Value**
+> 11.3 n•m [100 in-lb]
+>
+> Move the sector gear back and forth by hand to check for smooth movement.
+>
+> If movement is **not** smooth, rotate the turbine housing **clockwise**. Then, rotate **counterclockwise** back to the alignment marks.
+>
+> Check for smooth movement of the sector gear again. Several rotational movements can need to be made in order to correctly align the nozzle ring and the sector gear.
+>
+> The sector gear travel gauges are designed for specific turbocharger models. To determine the correct gauge, verify the turbocharger model number from the turbocharger dataplate. Select the gauge that matches the first three letters of the turbocharger model number.
+>
+> If the turbocharger data tag is missing or covered with paint, an alternate method of determining the turbocharger model number is to measure the distance between the top of the cup plug hole to the bearing housing edge.
+>
+> If the distance is greater than 19 mm \[0.748 in\], the turbocharger model is HE4xx.
+>
+> If the distance is less than 19 mm \[0.748 in\], the model is HE5xx.
+>
+> Carefully bend the gauge and slide the thin section under the sector gear to install the sector gear travel gauge.
+>
+> If necessary, pull the sector gear out by hand to allow more clearance for the gauge.
+>
+> Verify the three alignment bosses are fully engaged in the bearing housing.
+>
+> Rotate the sector gear **counterclockwise**, toward the turbocharger turbine housing, until it stops.
+>
+> The edge of the sector gear **must** be in the green acceptance zone of the gauge.
+>
+> Rotate the sector gear **clockwise**, toward the turbocharger compressor housing, until it stops. The edge of the sector gear **must** be in the green acceptance zone of the gauge.
+>
+> If the sector gear does **not** go through the full range of motion, or if the sector gear requires excessive force to move it by hand, rotate the turbine housing back and forth until a smooth and full motion of the sector gear is achieved.
+>
+> Use a metal stamping tool to mark an “S” on the top right corner of the turbocharger data tag.
+>
+> It is important that it be marked in the corner, as the middle of the data tag may **not** have a surface behind it.
+>
+> ### Finishing Steps
+>
+> Automotive with CM870
+>
+> - Install the turbocharger. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Operate the engine and check for leaks.
+>
+> ### Finishing Steps
+>
+> Automotive With CM871
+>
+> - Install the turbocharger. [[10-010-033-tr — Turbocharger|Refer to Procedure 010-033 in Section 10.]]
+> - Install the turbocharger actuator. [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 in Section 10.]]
+> - Operate the engine and check for leaks.
+>
+> If a malfunction resulted in coolant, oil, excessive fuel, or excessive black smoke entering the exhaust system, the aftertreatment system **must** be inspected. [[101-014-013 — Aftertreatment Testing|Refer to Procedure 014-013 in Section 14.]]

@@ -11,12 +11,14 @@ families:
 parts:
   - "4356366"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150047.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150047.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # New Integrated Cylinder Head Valve Guide Seal and Valve Spring Guide
@@ -27,75 +29,149 @@ tags:
 > **Даты:** изменён 2015-04-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150047.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150047.pdf)
 
-## New Integrated Cylinder Head Valve Guide Seal and Valve Spring Guide
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый интегрированный цилиндрический головка клапана руководство уплотнения и клапан пружина руководство
 
-### Contents
+### Положение о гарантии
 
-This document introduces a new style integrated cylinder head valve guide seal and valve spring guide.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-**Product Affected**
+### Содержание
 
-- ISX15 (All Versions)
-- QSX15 (All Versions)
+Этот документ вводит новый стиль интегрированного направляющего уплотнения головки цилиндра и направляющего пружины клапана.
 
-**Description of Change**
+**Затронутая продукция**
 
-The design change integrates the cylinder head valve guide seal, Part Number 4312008, and valve spring guide, Part Number 3680318, into a single component which will be called the cylinder head valve stem seal, Part Number [[4356366]]. See Figure 1.
+- ISX15 (все версии)
+- QSX15 (все версии)
 
-The change applies to both the intake valve and exhaust valve assemblies.
+**Описание изменения**
+
+Изменение конструкции объединяет уплотнение направляющего клапана головки цилиндра, Номер детали 4312008, и направляющее пружинное устройство клапана, Номер детали 3680318, в один компонент, который будет называться стволовым уплотнением головного клапана цилиндра, Номер детали[[4356366]]. См. рисунок 1.
+
+Изменение касается как впускного клапана, так и сборок выпускных клапанов.
 
 ![[02r00004.png]]
 
-Figure 1, New Integrated Valve Stem Seal Design (Left) Obsolete Valve Guide Seal (Right)
+Рисунок 1 Новый интегрированный дизайн штампа клапана (слева) Устаревшая штамп-руководство клапана (справа)
 
-**Reason for Change**
+**Причина изменения**
 
-As a single component, the integrated design is retained securely by the valve spring to eliminate valve guide seal lifting. The valve stem seal design also lowers the oil metering rate which results in less oil passing through the valve guide seal.
+В качестве одного компонента интегрированная конструкция надежно удерживается пружиной клапана для устранения подъема герметичности клапана. Конструкция штокового уплотнения клапана также снижает скорость измерения масла, что приводит к меньшему количеству масла, проходящего через штеклевое уплотнение клапана.
 
-**Service Parts Availability**
+**Наличие сервисных деталей**
 
-Service parts are available. See Table 1 for part numbers.
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
 
-| **Table 1, Part Information** |  |  |  |
+| **Таблица 1, часть Информация** |  |  |  |
 |---|---|---|---|
-| **Part Description** | **Obsolete Part Number** | **Part Description** | **New Part Number** |
-| Cylinder Head Valve Guide Seal | 4312008 | Valve Stem Seal | [[4356366]] |
-| Valve Spring Guide | 3680318 | Valve Stem Seal | [[4356366]] |
+| **Часть описания** | **Устаревший номер детали** | **Часть описания** | **Новый номер** |
+| Цилиндровая головка клапан Guide | 4312008 | Маслосъёмный колпачок клапана | [[4356366]] |
+| Направляющая пружины клапана | 3680318 | Маслосъёмный колпачок клапана | [[4356366]] |
 
-**Part Compatibility**
+**Совместимость частей**
 
-The new cylinder head valve stem seal, Part Number [[4356366]], can be mixed within the same engine with any cylinder head valve guide seal and valve spring guide design.
+Новый штепсельный уплотнитель головного клапана цилиндра, часть Номер[[4356366]], может быть смешан в пределах одного и того же двигателя с любым цилиндром головки клапана направляющей уплотнения и клапана пружинной направляющей конструкции.
 
-**Part Structure**
+**Часть структуры**
 
-The existing cylinder head valve guide seal and valve spring guide part numbers are obsoleted and superseded by the valve stem seal part number.
+Существующие номера направляющих уплотнений головки цилиндров и направляющих частей клапана пружины устарели и заменены номером части стволового уплотнения клапана.
 
-**Part Inventory Action**
+**Часть инвентаризации**
 
-Use existing part number inventory before using the new part number.
+Используйте существующий инвентарь номеров деталей перед использованием нового номера деталей.
 
-**Production Status**
+**Статус в производстве**
 
-Implemented for production. See Table 2.
+Внедрено в производство. См. таблицу 2.
 
-| **Table 2, Production Status** |  |  |  |
+| **Таблица 2, производственный статус** |  |  |  |
 |---|---|---|---|
-| **New Part Number** | **ESN First** | **Build Date** 1 | **Plant** |
-| [[4356366]] | 79812545 | 11 February 2015 | Jamestown Engine Plant |
-| 1 Engine build date can be found on the engine dataplate. |  |  |  |
+| **Новый номер** | **Впервые** | **Дата создания** 1 | **Завод** |
+| [[4356366]] | 79812545 | 11 февраля 2015 | Джеймстаунский двигательный завод |
+| 1 Дату сборки двигателя можно найти на табличке с данными двигателя. |  |  |  |
 
-**Publications Affected**
+**Публикации затронуты**
 
-To be announced.
+Объявлять.
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[4356366]] | Valve Stem Seal | Маслосъёмный колпачок клапана |
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Integrated Cylinder Head Valve Guide Seal and Valve Spring Guide
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This document introduces a new style integrated cylinder head valve guide seal and valve spring guide.
+>
+> **Product Affected**
+>
+> - ISX15 (All Versions)
+> - QSX15 (All Versions)
+>
+> **Description of Change**
+>
+> The design change integrates the cylinder head valve guide seal, Part Number 4312008, and valve spring guide, Part Number 3680318, into a single component which will be called the cylinder head valve stem seal, Part Number [[4356366]]. See Figure 1.
+>
+> The change applies to both the intake valve and exhaust valve assemblies.
+>
+> Figure 1, New Integrated Valve Stem Seal Design (Left) Obsolete Valve Guide Seal (Right)
+>
+> **Reason for Change**
+>
+> As a single component, the integrated design is retained securely by the valve spring to eliminate valve guide seal lifting. The valve stem seal design also lowers the oil metering rate which results in less oil passing through the valve guide seal.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | **Table 1, Part Information** |  |  |  |
+> |---|---|---|---|
+> | **Part Description** | **Obsolete Part Number** | **Part Description** | **New Part Number** |
+> | Cylinder Head Valve Guide Seal | 4312008 | Valve Stem Seal | [[4356366]] |
+> | Valve Spring Guide | 3680318 | Valve Stem Seal | [[4356366]] |
+>
+> **Part Compatibility**
+>
+> The new cylinder head valve stem seal, Part Number [[4356366]], can be mixed within the same engine with any cylinder head valve guide seal and valve spring guide design.
+>
+> **Part Structure**
+>
+> The existing cylinder head valve guide seal and valve spring guide part numbers are obsoleted and superseded by the valve stem seal part number.
+>
+> **Part Inventory Action**
+>
+> Use existing part number inventory before using the new part number.
+>
+> **Production Status**
+>
+> Implemented for production. See Table 2.
+>
+> | **Table 2, Production Status** |  |  |  |
+> |---|---|---|---|
+> | **New Part Number** | **ESN First** | **Build Date** 1 | **Plant** |
+> | [[4356366]] | 79812545 | 11 February 2015 | Jamestown Engine Plant |
+> | 1 Engine build date can be found on the engine dataplate. |  |  |  |
+>
+> **Publications Affected**
+>
+> To be announced.
+>
+> ### Document History

@@ -11,13 +11,15 @@ families:
   - "QSM11"
 manuals:
   - "4332828"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/300/300-t02-1141.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/300-t02-1141.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/300"
+  - "перевод/машинный"
 ---
 
 # Control Panel Configured Incorrectly
@@ -30,42 +32,92 @@ tags:
 > **Даты:** изменён 2019-05-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/300/300-t02-1141.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/300-t02-1141.pdf)
 
-Printable Version
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Symptoms
 
-- The control panel is configured incorrectly for the engine application.
+Версия для печати
 
-### How To Use This Tree
+### Симптомы
 
-This symptom tree can be used to troubleshoot a malfunction. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+- Панель управления неправильно настроена для применения двигателя.
 
-### Shoptalk
+### Как пользоваться этим деревом
 
-This fault code has no external wiring from the control panel except the +24 VDC control panel power supply.
+По этому дереву симптомов можно вести поиск неисправности. Начните с шага 1 поиска неисправностей. На шаге 2 система задаст ряд вопросов и по симптому выдаст перечень действий по поиску неисправности.
 
-## Troubleshooting Summary
+### Практические замечания
 
-| STEPS | SPECIFICATIONS |  |
+Этот код неисправности не имеет внешней проводов от панели управления, за исключением блока питания панели управления +24 VDC.
+
+## Сводка по поиску неисправности
+
+| Степс | Спецификации |  |
 |---|---|---|
-| STEP 1. | Check the customer interface box (C.I.B.) wiring. |  |
-|  | **STEP 1A.** Check the control panel display for faults. | Control panel indicates fault(s)? |
-|  | **STEP 1A-1.** Check the control panel power SUPPLY wire for voltage +24 VDC. | Less than +24 VDC? |
+| ШАГ 1. | Проверьте клиентский интерфейс (C.I.B.) проводов. |  |
+|  | **STEP 1A.** Проверьте дисплеи панели управления на наличие неисправностей. | Панель управления указывает на неисправность (неисправности)? |
+|  | **ШАГ 1А-1.** Проверьте питание панели управления Проводом SUPPLY на напряжение +24 ВДК. | Меньше +24 VDC? |
 
-### STEP 1. Check the customer interface box (C.I.B.) wiring.
+### ШАГ 1. Проверьте клиентский интерфейс (C.I.B.) проводов.
 
-#### STEP 1A. Check the control panel display for faults.
+#### ШАГ 1A. Проверьте дисплей панели управления на наличие неисправностей.
 
-| **Conditions:** Locate the control panel display. |  |  |
+| **Условия: **Найдите дисплей панели управления. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the control panel display for faults. | Control panel indicates fault(s)? **YESRepair:** Troubleshoot the appropriate fault code. Reference the Marine Auxiliary QSB7-DM CM850 Fault Code Troubleshooting Manual, Bulletin 4325972, Section TF; or ISM and QSM 11 Electronic Control System Troubleshooting and Repair Manual, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]], Section TF; or X15 CM2350 X125M Fault Code Troubleshooting Manual, Bulletin 5504346, Section TF. | Repair complete |
-| Control panel indicates fault(s)? **NO** | 1A-1 |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте дисплей панели управления на наличие неисправностей. | Панель управления указывает на неисправность (неисправности)? **Ремонт: **Устранение неисправностей с помощью соответствующего кода ошибки. Ссылка на Руководство по устранению неполадок в коде QSB7-DM CM850, Бюллетень 4325972, Раздел TF; или Руководство по устранению и ремонту неполадок в электронной системе управления ISM и QSM 11, Бюллетень [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]], Раздел TF; или Руководство по устранению неполадок в коде X15 CM2350 X125M, Бюллетень 5504346, Раздел TF. | Ремонт завершён |
+| Панель управления указывает на неисправность (неисправности)? **НЕТ** | 1А-1-1 |  |
 
-#### STEP 1A-1. Check the control panel power SUPPLY wire for voltage +24 VDC.
+#### ШАГ 1A-1. Проверьте питание панели управления SUPPLY провода на напряжение +24 VDC.
 
-| **Conditions:** Open the C.I.B. |  |  |
+| **Условия: **Открыть ЦБ. |  |  |
 |---|---|---|
-| **Action** | **Specification/Repair** | **Next Step** |
-| Check the voltage at the battery 1 voltage (switched power) wire at the control panel. Place one test lead at the battery 1 voltage (switched power) SUPPLY wire at the control panel. Place the other test lead on the panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than +24 VDC? **YESRepair:** Check the batteries. See equipment manufacturer service information. | Repair complete |
-| Less than +24 VDC? **NO** | Contact a Cummins® Authorized Repair Location. |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверьте напряжение на батарее 1 напряжение (переключенная мощность) провода на панели управления. Поместите один испытательный щуп на напряжение батареи 1 (переключенная мощность) Провода SUPPLY на панели управления. Поместите другой испытательный щуп на землю панели. См. соответствующую схему или схему проводов для идентификации штифта и провода. | Меньше +24 VDC? **Ремонт:** Проверить аккумуляторы. См. сервисную документацию изготовителя оборудования. | Ремонт завершён |
+| Меньше +24 VDC? **НЕТ** | Обратитесь в авторизованный сервисный центр Cummins®. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> Printable Version
+>
+> ### Symptoms
+>
+> - The control panel is configured incorrectly for the engine application.
+>
+> ### How To Use This Tree
+>
+> This symptom tree can be used to troubleshoot a malfunction. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
+>
+> ### Shoptalk
+>
+> This fault code has no external wiring from the control panel except the +24 VDC control panel power supply.
+>
+> ## Troubleshooting Summary
+>
+> | STEPS | SPECIFICATIONS |  |
+> |---|---|---|
+> | STEP 1. | Check the customer interface box (C.I.B.) wiring. |  |
+> |  | **STEP 1A.** Check the control panel display for faults. | Control panel indicates fault(s)? |
+> |  | **STEP 1A-1.** Check the control panel power SUPPLY wire for voltage +24 VDC. | Less than +24 VDC? |
+>
+> ### STEP 1. Check the customer interface box (C.I.B.) wiring.
+>
+> #### STEP 1A. Check the control panel display for faults.
+>
+> | **Conditions:** Locate the control panel display. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the control panel display for faults. | Control panel indicates fault(s)? **YESRepair:** Troubleshoot the appropriate fault code. Reference the Marine Auxiliary QSB7-DM CM850 Fault Code Troubleshooting Manual, Bulletin 4325972, Section TF; or ISM and QSM 11 Electronic Control System Troubleshooting and Repair Manual, Bulletin [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual\|3666266]], Section TF; or X15 CM2350 X125M Fault Code Troubleshooting Manual, Bulletin 5504346, Section TF. | Repair complete |
+> | Control panel indicates fault(s)? **NO** | 1A-1 |  |
+>
+> #### STEP 1A-1. Check the control panel power SUPPLY wire for voltage +24 VDC.
+>
+> | **Conditions:** Open the C.I.B. |  |  |
+> |---|---|---|
+> | **Action** | **Specification/Repair** | **Next Step** |
+> | Check the voltage at the battery 1 voltage (switched power) wire at the control panel. Place one test lead at the battery 1 voltage (switched power) SUPPLY wire at the control panel. Place the other test lead on the panel ground. Refer to the appropriate circuit diagram or wiring diagram for pin and wire identification. | Less than +24 VDC? **YESRepair:** Check the batteries. See equipment manufacturer service information. | Repair complete |
+> | Less than +24 VDC? **NO** | Contact a Cummins® Authorized Repair Location. |  |

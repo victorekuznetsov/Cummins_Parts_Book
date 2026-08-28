@@ -16,13 +16,15 @@ manuals:
   - "4021538"
   - "4960250"
   - "4960270"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-018-024.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-018-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/100"
+  - "перевод/машинный"
 ---
 
 # Cummins®/Fleetguard® Filter Specifications
@@ -36,16 +38,40 @@ tags:
 > **Даты:** изменён 2016-09-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-018-024.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Fleetguard® is a subsidiary of Cummins Inc. Fleetguard® filters are developed through joint testing at Cummins, Inc. and Fleetguard®. Fleetguard® filters are standard on new Cummins® engines. Cummins Inc. recommends their use.
 
-Fleetguard® products meet all Cummins® Source Approval Test standards to provide the quality filtration necessary to achieve the engine's design life. If other brands are substituted, the purchaser should insist on products the supplier has tested to meet Cummins, Inc. high-quality standards.
+### Общие сведения
 
-Cummins, Inc. can **not** be responsible for problems caused by nongenuine filters that do **not** meet Cummins® performance or durability requirements.
+Fleetguard® является дочерней компанией Cummins Inc. Фильтры Fleetguard® разрабатываются в рамках совместных испытаний в Cummins, Inc. и Fleetguard®. Фильтры Fleetguard® являются стандартными для новых двигателей Cummins®. Cummins Inc. рекомендует их использование.
 
-| Filter Part Numbers |  |  |  |  |  |  |
+Продукты Fleetguard® соответствуют всем стандартам Cummins® Source Approval Test, чтобы обеспечить качественную фильтрацию, необходимую для достижения срока службы двигателя. Если другие бренды заменяются, покупатель должен настаивать на продуктах, которые поставщик протестировал для удовлетворения потребностей Cummins, Inc. Высокие стандарты качества.
+
+Cummins, Inc. не может быть ответственным за проблемы, вызванные ненастоящими фильтрами, которые не соответствуют требованиям производительности или долговечности Cummins®.
+
+| Фильтр номеров частей |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|
-|  | Lubricating Oil Filter B3.9 | Lubricating Oil Filter B4.5 | Lubricating Oil Filter B5.9 | Fuel Filter B3.9 | Fuel Filter B4.5 | Fuel Filter B5.9 |
+|  | Фильтр моторного масла B3.9 | Фильтр моторного масла B4.5 | Фильтр моторного масла B5.9 | Топливный фильтр B3.9 | Топливный фильтр B4.5 | Топливный фильтр B5.9 |
 | Cummins® Part Number | 3934429 | 3934429 | 3934430 | 3991350 | 3991350 | 3991350 |
-| Fleetguard® Part Number | LF3805 | LF3805 | LF3806 | FS19608 | FS19608 | FS19608 |
+| Fleetguard - Номер детали | LF3805 | LF3805 | LF3806 | FS19608 | FS19608 | FS19608 |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Fleetguard® is a subsidiary of Cummins Inc. Fleetguard® filters are developed through joint testing at Cummins, Inc. and Fleetguard®. Fleetguard® filters are standard on new Cummins® engines. Cummins Inc. recommends their use.
+>
+> Fleetguard® products meet all Cummins® Source Approval Test standards to provide the quality filtration necessary to achieve the engine's design life. If other brands are substituted, the purchaser should insist on products the supplier has tested to meet Cummins, Inc. high-quality standards.
+>
+> Cummins, Inc. can **not** be responsible for problems caused by nongenuine filters that do **not** meet Cummins® performance or durability requirements.
+>
+> | Filter Part Numbers |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|
+> |  | Lubricating Oil Filter B3.9 | Lubricating Oil Filter B4.5 | Lubricating Oil Filter B5.9 | Fuel Filter B3.9 | Fuel Filter B4.5 | Fuel Filter B5.9 |
+> | Cummins® Part Number | 3934429 | 3934429 | 3934430 | 3991350 | 3991350 | 3991350 |
+> | Fleetguard® Part Number | LF3805 | LF3805 | LF3806 | FS19608 | FS19608 | FS19608 |

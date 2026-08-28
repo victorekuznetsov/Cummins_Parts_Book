@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021389"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-200-001-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-200-001-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Fuel System
@@ -33,48 +35,98 @@ tags:
 > **Даты:** изменён 2006-10-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-200-001-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-200-001-om-ind.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Front Gear Train
+
+### Диаграмма потока
+
+Поезд Front Gear
 
 ![[05900779.png]]
 
-Industrial Applications
+Промышленное применение
 
-1. Fuel from supply tank
-2. Fuel lift pump
-3. Fuel filter/water separator
-4. Low-pressure fuel supply lines
-5. Bosch® KKSB cold start injection advance
-6. Bosch® VE injection pump
-7. Fuel drain manifold
-8. High-pressure fuel supply lines
-9. Bosch® closed nozzle injectors
-10. Fuel return to supply tanks.
+1. Топливо из резервуара снабжения
+2. Топливоподкачивающий насос
+3. Топливный фильтр/водоотделитель
+4. Линии подачи топлива низкого давления
+5. Bosch® KKSB холодный форсуночный старт
+6. Bosch® VE форсуночный насос
+7. Коллектор слива топлива
+8. Линии подачи топлива высокого давления
+9. Bosch® закрытый насадочный форсунка
+10. Возвращение топлива в резервуары.
 
-Rear Gear Train
+Поезд Rear Gear
 
 ![[00d00246.png]]
 
-Industrial Applications
+Промышленное применение
 
-1. Fuel from supply tank
-2. Fuel lift pump
-3. Fuel filter/water separator
-4. Low-pressure fuel supply lines
-5. Bosch® KKSB cold start injection advance
-6. Bosch® VE injection pump
-7. Fuel drain manifold and return to supply tanks
-8. High-pressure fuel supply lines
-9. Bosch® closed nozzle injectors
-10. High pressure connector.
+1. Топливо из резервуара снабжения
+2. Топливоподкачивающий насос
+3. Топливный фильтр/водоотделитель
+4. Линии подачи топлива низкого давления
+5. Bosch® KKSB холодный форсуночный старт
+6. Bosch® VE форсуночный насос
+7. Топливный слив коллектора и возврат к резервуарам снабжения
+8. Линии подачи топлива высокого давления
+9. Bosch® закрытый насадочный форсунка
+10. Коннектор высокого давления.
 
-Industrial Applications
+Промышленное применение
 
 ![[00900281.png]]
 
-Hydraulic Cold Start Injection Advance (Rotary Pumps Only)
+Гидравлический запуск холодного форсуночного зачета (только для ротационных насосов)
 
-1. KSB valve
-2. Wiring harness
-3. Temperature switch.
+1. Клапан КСБ
+2. Жгут проводов
+3. Переключатель температуры.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> Front Gear Train
+>
+> Industrial Applications
+>
+> 1. Fuel from supply tank
+> 2. Fuel lift pump
+> 3. Fuel filter/water separator
+> 4. Low-pressure fuel supply lines
+> 5. Bosch® KKSB cold start injection advance
+> 6. Bosch® VE injection pump
+> 7. Fuel drain manifold
+> 8. High-pressure fuel supply lines
+> 9. Bosch® closed nozzle injectors
+> 10. Fuel return to supply tanks.
+>
+> Rear Gear Train
+>
+> Industrial Applications
+>
+> 1. Fuel from supply tank
+> 2. Fuel lift pump
+> 3. Fuel filter/water separator
+> 4. Low-pressure fuel supply lines
+> 5. Bosch® KKSB cold start injection advance
+> 6. Bosch® VE injection pump
+> 7. Fuel drain manifold and return to supply tanks
+> 8. High-pressure fuel supply lines
+> 9. Bosch® closed nozzle injectors
+> 10. High pressure connector.
+>
+> Industrial Applications
+>
+> Hydraulic Cold Start Injection Advance (Rotary Pumps Only)
+>
+> 1. KSB valve
+> 2. Wiring harness
+> 3. Temperature switch.

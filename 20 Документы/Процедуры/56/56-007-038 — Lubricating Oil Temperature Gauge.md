@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-038.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-038.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Temperature Gauge
@@ -35,66 +37,124 @@ tags:
 > **Даты:** изменён 2005-07-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-038.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-038.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+### Подготовительные операции
 
-Drain the lubricating oil. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]].
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
+
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+
+Слить моторное масло. См. процедуру[[56-007-037-tr — Lubricating Oil System|007-037]].
 
 ![[07600302.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-Remove one of the pipe plugs on either side of the oil pan.
+Удалите одну из трубных пробок по обе стороны от масляной панели.
 
-Use a reference gauge of known accuracy, with a minimum temperature capacity of 150°C \[300°F\].
+Используйте эталонный калибр известной точности, с минимальной температурной емкостью 150°C \[300°F\].
 
-Install the gauge into the oil pan to verify the reading of the suspect gauge.
+Установите калибр в масляную поддон для проверки показаний подозреваемого калибра.
 
 ![[08400039.png]]
 
-Fill the engine with clean engine oil. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]].
+Заполните двигатель чистым моторным маслом. См. процедуру[[56-007-037-tr — Lubricating Oil System|007-037]].
 
-Operate the engine.
+Управляйте двигателем.
 
-Compare the temperature reading of the master gauge to the suspect gauge.
+Сравните показания температуры главного калибра с калибром подозреваемого.
 
 ![[07400021.png]]
 
-If the suspect gauge does **not** read the same temperature as the reference gauge, check the following for defects:
+Если калибр подозреваемого **не** считывает ту же температуру, что и эталонный калибр, проверьте следующие дефекты:
 
-- Electrical wiring
-- Sending unit.
+- Электрическая проводка
+- Отправляю.
 
-Replace all defective parts.
+Заменить все дефектные части.
 
 ![[oi100sf.png]]
 
-Drain the lubricating oil. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]].
+Слить моторное масло. См. процедуру[[56-007-037-tr — Lubricating Oil System|007-037]].
 
 ![[07600302.png]]
 
-Remove the reference gauge.
+Удалить контрольный калибр.
 
-Install and tighten the oil pan plug.
+Установите и затяните масляную вилку.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[08400039.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Fill the engine with clean engine oil. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]].
+Заполните двигатель чистым моторным маслом. См. процедуру[[56-007-037-tr — Lubricating Oil System|007-037]].
 
 ![[oi801vw.png]]
 
-Operate the engine to normal operating temperature.
+Управляйте двигателем до нормальной рабочей температуры.
 
-Check for leaks.
+Проверьте на отсутствие утечек.
 
 ![[07600232.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Drain the lubricating oil. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]].
+>
+> ### Inspect for Reuse
+>
+> Remove one of the pipe plugs on either side of the oil pan.
+>
+> Use a reference gauge of known accuracy, with a minimum temperature capacity of 150°C \[300°F\].
+>
+> Install the gauge into the oil pan to verify the reading of the suspect gauge.
+>
+> Fill the engine with clean engine oil. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]].
+>
+> Operate the engine.
+>
+> Compare the temperature reading of the master gauge to the suspect gauge.
+>
+> If the suspect gauge does **not** read the same temperature as the reference gauge, check the following for defects:
+>
+> - Electrical wiring
+> - Sending unit.
+>
+> Replace all defective parts.
+>
+> Drain the lubricating oil. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]].
+>
+> Remove the reference gauge.
+>
+> Install and tighten the oil pan plug.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> ### Finishing Steps
+>
+> Fill the engine with clean engine oil. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]].
+>
+> Operate the engine to normal operating temperature.
+>
+> Check for leaks.

@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666239"
 figures: 17
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-002-024-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-002-024-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Overhead Camshaft, Valve
@@ -30,145 +32,264 @@ tags:
 > **Даты:** изменён 2019-09-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-002-024-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-002-024-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the upper gear cover. Refer to Procedure 001-079 in Section 1.
+
+### Подготовительные операции
+
+Снимите верхнюю крышку передач. См. процедуру 001-079 в разделе 1.
 
 ![[01c00344.png]]
 
-Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+Снимите крышку коромысел. См. процедуру 003-011 в разделе 3.
 
 ![[03c00002.png]]
 
-Disconnect the engine brake wiring harness. [[10-020-015 — Engine Brake Wiring Harness|Refer to Procedure 020-015 in Section 20]].
+Отключите тормозную проводку двигателя.[[10-020-015 — Engine Brake Wiring Harness|См. процедуру 020-015 в разделе 20.]].
 
-Remove the rocker lever shafts. [[10-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009]] in Section 3.
+Удалите валы рычага качения клапанного клапана.[[10-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009]]в разделе 3.
 
 ![[01c00384.png]]
 
-Remove the valve camshaft gear. [[10-001-088-tr — Engine Base Timing|Refer to Procedure 001-088]] in Section 1.
+Снимите клапанную коробку вала.[[10-001-088-tr — Engine Base Timing|См. процедуру 001-088]]в разделе 1.
 
 ![[01c00217.png]]
 
-### Remove
+### Снятие
 
-Remove the retainer capscrews, retainer, seal, and o-ring.
+Удалите болты, фиксатор, уплотнение и о-кольцо.
 
-Discard the seal and o-ring.
+Отбросьте уплотнение и кольцо.
 
 ![[01c00203.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, надевайте защитные перчатки при обращении с деталями с острыми краями.
 
-> [!warning] CAUTION · Осторожно
-> Use caution when removing the camshaft to avoid damaging the camshaft bushings.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при удалении распредвала, чтобы избежать повреждения втулок распредвала.
 
-Use the Valve Camshaft Removal and Installation Kit, Part Number 5299837, to remove the camshaft from the cylinder head.
+Используйте комплект для удаления и установки клапанного вала, номер детали 5299837, чтобы удалить распределительный вал из головки цилиндра.
 
-Use the Camshaft Removal and Installation Kit, Part Number 5395348, to pull and guide the camshaft out of the cylinder head until three journals remain in the cylinder head. Carefully remove the remainder of the camshaft by hand.
+Используйте комплект для удаления и установки распределительного вала, номер детали 5395348, чтобы вытащить и направить распределительный вал из головки цилиндра, пока три журнала не останутся в головке цилиндра. Тщательно удалите оставшуюся часть распредвала вручную.
 
 ![[02a00066.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, надевайте защитные перчатки при обращении с деталями с острыми краями.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the valve camshaft and the bore of the valve camshaft gear with ENVIROSOL™ 655 solvent, or equivalent, and a lint-free cloth.
+Очистите клапанный распределительный вал и цилиндровый вал клапанного распределительного механизма растворителем ENVIROSOLTM 655 или эквивалентом и тканью без винта.
 
-Clean all debris from the cylinder head and the camshaft bushings.
+Очистите все обломки от головки цилиндра и втулок распределительного вала.
 
 ![[01c00210.png]]
 
-Check the valve camshaft and valve camshaft gear for fretting damage.
+Проверьте клапанный распределительный вал и клапанную распределительную передачу для повреждения при трении.
 
-The valve camshaft and valve camshaft gear **must** be replaced if damaged.
+Клапанный распределительный вал и клапанная распределительная передача должны быть заменены в случае повреждения.
 
 ![[01c00211.png]]
 
-Measure the outside diameter of the seven valve camshaft bearing journals.
+Измерить внешний диаметр семи клапанных распределительных валов, несущих журналы.
 
-| Valve Camshaft Bearing Journal Outside Diameter |  |  |
+| клапан Camshaft Bearing Journal выходит за пределы диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 64.987 | MIN | 2.5585 |
-| 65.013 | MAX | 2.5596 |
+| мм |  | в |
+| 64.987 | Мин | 2.5585 |
+| 65.013 | Макс | 2.5596 |
 
-If the camshaft journals are **not** within specifications, the camshaft **must** be replaced.
+Если журналы распредвала **не** в пределах спецификаций, распредвал должен быть заменен.
 
 ![[02c00070.png]]
 
-Inspect the camshaft lobes for cracks, scratches, and other damage. Refer to Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappets, Bulletin [[3666052 — Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappet|3666052,]] for further reuse guidelines.
+Осмотрите доли распредвалов на наличие трещин, царапин и других повреждений. См. Руководство по повторному использованию Camshaft для двигателей Cummins® с последователями роликов или таппетами роликов, бюллетень[[3666052 — Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappet|3666052,]]для дальнейшего повторного использования.
 
 ![[02c00071.png]]
 
-If the valve camshaft and/or the rocker levers need to be replaced, use the Camshaft Compatibility Matrix to determine whether the camshaft and rocker lever roller combination being installed is compatible.
+Если необходимо заменить клапанный распределительный вал и/или рычаги коромысла, используйте матрицу совместимости распределительного вала для определения совместимости устанавливаемой комбинации рулонных роликов распределительного вала и клапанного клапана.
 
-If the matrix states that the combination of the camshaft and rocker lever roller is “No”, the correct combination **must** be installed using the Valve Camshaft Compatibility Matrix.
+Если матрица утверждает, что комбинация распредвала и клапанного клапана коромысла нарукавного ролика является «Нет», правильная комбинация должна быть установлена с использованием матрицы совместимости клапана с клапаном.
 
-The wide rocker lever roller is 17 mm \[0.67 in\] and the narrow rocker lever roller is 15 mm \[0.59 in\].
+Широкий клапанный клапанный ролик для ролика для рук составляет 17 мм \[0,67 дюйма \], а узкий клапанный ролик для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика для ролика
 
-The wide camshaft lobe is 20 mm \[0.79 in\] and the narrow camshaft lobe is 18.5 mm \[0.73 in\].
+Широкая доля распределительного вала составляет 20 мм \[0,79 дюйма \], а узкая доля распределительного вала составляет 18,5 мм \[0,73 дюйма \].
 
-| Valve Camshaft Compatibility Matrix | Wide Camshaft Lobe | Narrow Camshaft Lobe |
+| Совместимость клапан Camshaft Matrix | Широкая ширина Camshaft Lobe | Узкий луб Распредвала |
 |---|---|---|
-| Wide Rocker Lever Roller | Yes | No |
-| Narrow Rocker Lever Roller | Yes | Yes |
+| Широкий клапанный клапан коромысла Рука Роллера | Да | Нет |
+| Узкий клапанный клапан коромысло рука Роллер | Да | Да |
 
 ![[nobox.png]]
 
-### Install
+### Установка
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, надевайте защитные перчатки при обращении с деталями с острыми краями.
 
-> [!warning] CAUTION · Осторожно
-> Use caution when installing the camshaft to avoid damaging the camshaft bushings.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при установке распредвал, чтобы избежать повреждения втулок распредвалов.
 
-Coat the inside of the valve camshaft bushings with Lubriplate™ prior to installing the camshaft.
+Покрыть внутреннюю часть втулок распределительного вала LubriplateTM перед установкой распределительного вала.
 
-Use the Valve Camshaft Removal and Installation Kit, Part Number 5299837, to install the camshaft into the cylinder head.
+Используйте комплект для удаления и установки клапанного распределительного вала, номер детали 5299837, для установки распределительного вала в головку цилиндра.
 
-Install the camshaft by hand until three journals are in the cylinder head. Use the Camshaft Installation and Removal Kit, Part Number 5395348, to pull and guide the camshaft into the cylinder head.
+Установите распредвал вручную, пока три журнала не окажутся в головке цилиндра. Используйте комплект установки и удаления распределительного вала, номер детали 5395348, чтобы потянуть и направить распределительный вал в головку цилиндра.
 
 ![[02a00057.png]]
 
-Install new o-rings onto the retainer plate.
+Установите новые кольца на фиксаторную пластину.
 
-Install the retainer plate and capscrews.
+Установите фиксаторную пластину и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[01c00203.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Install the valve camshaft gear. [[10-001-088-tr — Engine Base Timing|Refer to Procedure 001-088 in Section 1]].
+Установите клапанную коробку вала.[[10-001-088-tr — Engine Base Timing|См. процедуру 001-088 в разделе 1.]].
 
 ![[01c00217.png]]
 
-Install the rocker lever shafts. [[10-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3]].
+Установите валы рычага качения клапанного клапана.[[10-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009 в разделе 3.]].
 
-Connect the engine brake wiring harness. [[10-020-015 — Engine Brake Wiring Harness|Refer to Procedure 020-015 in Section 20]].
+Подключите тормозную проводку двигателя.[[10-020-015 — Engine Brake Wiring Harness|См. процедуру 020-015 в разделе 20.]].
 
-Install the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+Установите крышку коромысел. См. процедуру 003-011 в разделе 3.
 
 ![[02c00068.png]]
 
-Install the upper gear cover. Refer to Procedure 001-079 in Section 1.
+Установите верхнюю крышку передач. См. процедуру 001-079 в разделе 1.
 
 ![[01c00344.png]]
 
-Operate the engine until it reaches normal operating temperature. Check for leaks.
+Работайте с двигателем до тех пор, пока он не достигнет нормальной рабочей температуры. Проверьте на отсутствие утечек.
 
 ![[00c00030.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Remove the upper gear cover. Refer to Procedure 001-079 in Section 1.
+>
+> Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+>
+> Disconnect the engine brake wiring harness. [[10-020-015 — Engine Brake Wiring Harness|Refer to Procedure 020-015 in Section 20]].
+>
+> Remove the rocker lever shafts. [[10-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009]] in Section 3.
+>
+> Remove the valve camshaft gear. [[10-001-088-tr — Engine Base Timing|Refer to Procedure 001-088]] in Section 1.
+>
+> ### Remove
+>
+> Remove the retainer capscrews, retainer, seal, and o-ring.
+>
+> Discard the seal and o-ring.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+>
+> **CAUTION · Осторожно**
+> Use caution when removing the camshaft to avoid damaging the camshaft bushings.
+>
+> Use the Valve Camshaft Removal and Installation Kit, Part Number 5299837, to remove the camshaft from the cylinder head.
+>
+> Use the Camshaft Removal and Installation Kit, Part Number 5395348, to pull and guide the camshaft out of the cylinder head until three journals remain in the cylinder head. Carefully remove the remainder of the camshaft by hand.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the valve camshaft and the bore of the valve camshaft gear with ENVIROSOL™ 655 solvent, or equivalent, and a lint-free cloth.
+>
+> Clean all debris from the cylinder head and the camshaft bushings.
+>
+> Check the valve camshaft and valve camshaft gear for fretting damage.
+>
+> The valve camshaft and valve camshaft gear **must** be replaced if damaged.
+>
+> Measure the outside diameter of the seven valve camshaft bearing journals.
+>
+> | Valve Camshaft Bearing Journal Outside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 64.987 | MIN | 2.5585 |
+> | 65.013 | MAX | 2.5596 |
+>
+> If the camshaft journals are **not** within specifications, the camshaft **must** be replaced.
+>
+> Inspect the camshaft lobes for cracks, scratches, and other damage. Refer to Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappets, Bulletin [[3666052 — Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappet|3666052,]] for further reuse guidelines.
+>
+> If the valve camshaft and/or the rocker levers need to be replaced, use the Camshaft Compatibility Matrix to determine whether the camshaft and rocker lever roller combination being installed is compatible.
+>
+> If the matrix states that the combination of the camshaft and rocker lever roller is “No”, the correct combination **must** be installed using the Valve Camshaft Compatibility Matrix.
+>
+> The wide rocker lever roller is 17 mm \[0.67 in\] and the narrow rocker lever roller is 15 mm \[0.59 in\].
+>
+> The wide camshaft lobe is 20 mm \[0.79 in\] and the narrow camshaft lobe is 18.5 mm \[0.73 in\].
+>
+> | Valve Camshaft Compatibility Matrix | Wide Camshaft Lobe | Narrow Camshaft Lobe |
+> |---|---|---|
+> | Wide Rocker Lever Roller | Yes | No |
+> | Narrow Rocker Lever Roller | Yes | Yes |
+>
+> ### Install
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+>
+> **CAUTION · Осторожно**
+> Use caution when installing the camshaft to avoid damaging the camshaft bushings.
+>
+> Coat the inside of the valve camshaft bushings with Lubriplate™ prior to installing the camshaft.
+>
+> Use the Valve Camshaft Removal and Installation Kit, Part Number 5299837, to install the camshaft into the cylinder head.
+>
+> Install the camshaft by hand until three journals are in the cylinder head. Use the Camshaft Installation and Removal Kit, Part Number 5395348, to pull and guide the camshaft into the cylinder head.
+>
+> Install new o-rings onto the retainer plate.
+>
+> Install the retainer plate and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> ### Finishing Steps
+>
+> Install the valve camshaft gear. [[10-001-088-tr — Engine Base Timing|Refer to Procedure 001-088 in Section 1]].
+>
+> Install the rocker lever shafts. [[10-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009 in Section 3]].
+>
+> Connect the engine brake wiring harness. [[10-020-015 — Engine Brake Wiring Harness|Refer to Procedure 020-015 in Section 20]].
+>
+> Install the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+>
+> Install the upper gear cover. Refer to Procedure 001-079 in Section 1.
+>
+> Operate the engine until it reaches normal operating temperature. Check for leaks.

@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-001-024-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-001-024-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/101"
+  - "перевод/машинный"
 ---
 
 # Crankshaft Seal, Rear
@@ -35,74 +37,144 @@ tags:
 > **Даты:** изменён 2009-04-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-001-024-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-001-024-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Non-REPTO Dry Lip Seal
 
-> [!note] Note · Примечание
-> **Only** the unitized seal can be used as the service replacement for Non-REPTO Dry Seal application.
+### Снятие
 
-Remove the 12 mounting capscrews from the rear crankshaft oil seal.
+Не-REPTO сухой чехол для губ
 
-The lip style seal can be easily removed by hand or light prying bars.
+> [!note] Примечание
+> Только унифицированная уплотнение может использоваться в качестве замены для применения без РЕПТО.
 
-Discard the oil seal.
+Удалите 12 крепежных болтов из заднего уплотнения коленчатого вала.
+
+Уплотнение в стиле губ можно легко удалить вручную или легкими посторонних решетками.
+
+Отбросьте масляную уплотнение.
 
 ![[22200082.png]]
 
-Non-REPTO Dry Unitized Seal
+Не-REPTO сухая унифицированная уплотнение
 
-The unitized seal requires the rear crankshaft seal replacer kit, Part Number 3164302, for the removal process.
+Для уплотнения требуется комплект замены уплотнения заднего коленчатого вала, номер детали 3164302, для процесса удаления.
 
-1. Installer plate
-2. Crankshaft seal guide
-3. Guide screw
-4. Washer
-5. Installer screw
-6. Sheet metal screw
-7. Button head socket screw
-8. Drill bit
-9. Remover screw adapter
-10. Remover screw.
+1. Установочная пластина
+2. Руководитель по уплотнению коленчатого вала
+3. Рулевой винт
+4. шайба
+5. винт установщика
+6. Металлический винтовой лист
+7. Винт для розетки с кнопкой
+8. Бит дрель
+9. Перезапуск винтового адаптера
+10. Винт для ремовера.
 
 ![[22200154.png]]
 
-Place the remover screw adapter (9) on the back side of the installer plate.
+Поместите адаптер (9) для винта на задней стороне установочной пластины.
 
-Install the three button head socket screws (7) through the installer plate, into the adapter, and hand tighten.
+Установите три винта головки (7) кнопки через пластину установщика, в адаптер и затяните руку.
 
-Position the installer plate on the rear crankshaft oil seal.
+Поместите пластину установщика на масляный уплотнитель заднего коленчатого вала.
 
 ![[22200155.png]]
 
-Apply grease to the drill to catch the chips.
+Приложите смазку к сверлу, чтобы поймать чипсы.
 
-Drill one hole through the oil seal casing, using the installer plate as a location guide.
+Пробурите одно отверстие через кожух масляного уплотнения, используя пластину установщика в качестве ориентира местоположения.
 
-Install a sheet metal screw and hand tighten.
+Установите винт из листового металла и затяните руки.
 
-Repeat the process of drilling and installing the sheet metal screws.
+Повторите процесс сверления и установки винтов из листового металла.
 
-At least three sheet metal screws equally spaced, **must** be used. It can be necessary to use more sheet metal screws on some engines.
+По крайней мере, три листовых металлических винта, одинаково разнесенных, должны быть использованы. Может потребоваться использовать больше винтов из листового металла на некоторых двигателях.
 
 ![[22200146.png]]
 
-Lubricate the threads and tip of the remover screw with Lubriplate™ multi-purpose lubricant, Part Number 3163086, Part Number 3163087, or a suitable grease.
+Смазать резьбу и наконечник винта-удаляющего смазочного материала LubriplateTM, Part Number 3163086, Part Number 3163087 или подходящей смазкой.
 
-Install and turn the remover screw **clockwise** until the rear crankshaft oil seal is removed.
+Установите и поверните винт убирающего устройства **по часовой стрелке** до тех пор, пока не будет удалена масляная пломба заднего коленчатого вала.
 
-Discard the rear crankshaft oil seal.
+Откажитесь от масляного уплотнения заднего коленчатого вала.
 
 ![[22200152.png]]
 
-REPTO Dry Seal
+Сухая уплотнение Dry Seal
 
-Remove the crankshaft gear mounting capscrews.
+Удалите болты крепления коленчатых валов.
 
-Remove the 12 capscrews fastening the oil seal to the flywheel housing.
+Удалите 12 болтов, крепящих масляную уплотнитель к корпусу маховика.
 
-Use a heel bar to remove the oil seal (2) and dust seal (1) together.
+Используйте штангу каблука, чтобы удалить масляную уплотнение (2) и пылевую уплотнение (1) вместе.
 
-Remove the gasket (3) and discard.
+Удалить прокладку (3) и выбросить.
 
 ![[01200155.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Non-REPTO Dry Lip Seal
+>
+> **Note · Примечание**
+> **Only** the unitized seal can be used as the service replacement for Non-REPTO Dry Seal application.
+>
+> Remove the 12 mounting capscrews from the rear crankshaft oil seal.
+>
+> The lip style seal can be easily removed by hand or light prying bars.
+>
+> Discard the oil seal.
+>
+> Non-REPTO Dry Unitized Seal
+>
+> The unitized seal requires the rear crankshaft seal replacer kit, Part Number 3164302, for the removal process.
+>
+> 1. Installer plate
+> 2. Crankshaft seal guide
+> 3. Guide screw
+> 4. Washer
+> 5. Installer screw
+> 6. Sheet metal screw
+> 7. Button head socket screw
+> 8. Drill bit
+> 9. Remover screw adapter
+> 10. Remover screw.
+>
+> Place the remover screw adapter (9) on the back side of the installer plate.
+>
+> Install the three button head socket screws (7) through the installer plate, into the adapter, and hand tighten.
+>
+> Position the installer plate on the rear crankshaft oil seal.
+>
+> Apply grease to the drill to catch the chips.
+>
+> Drill one hole through the oil seal casing, using the installer plate as a location guide.
+>
+> Install a sheet metal screw and hand tighten.
+>
+> Repeat the process of drilling and installing the sheet metal screws.
+>
+> At least three sheet metal screws equally spaced, **must** be used. It can be necessary to use more sheet metal screws on some engines.
+>
+> Lubricate the threads and tip of the remover screw with Lubriplate™ multi-purpose lubricant, Part Number 3163086, Part Number 3163087, or a suitable grease.
+>
+> Install and turn the remover screw **clockwise** until the rear crankshaft oil seal is removed.
+>
+> Discard the rear crankshaft oil seal.
+>
+> REPTO Dry Seal
+>
+> Remove the crankshaft gear mounting capscrews.
+>
+> Remove the 12 capscrews fastening the oil seal to the flywheel housing.
+>
+> Use a heel bar to remove the oil seal (2) and dust seal (1) together.
+>
+> Remove the gasket (3) and discard.

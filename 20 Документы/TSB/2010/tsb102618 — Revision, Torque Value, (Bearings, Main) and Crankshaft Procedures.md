@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102618.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102618.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Revision, Torque Value, (Bearings, Main) and Crankshaft Procedures
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2007-12-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102618.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102618.pdf)
 
-## Revision, Torque Value, (Bearings, Main) and Crankshaft Procedures
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр, момент затяжки, (подшипники, основные) и процедуры коленчатого вала
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises the torque specification for main bearing side bolts in Procedures 001-006 (Bearings, Main) and 001-016 (Crankshaft) in Section 1.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема Службы/Частей пересматривает спецификацию крутящего момента для основных боковых болтов подшипника в Процедурах 001-006 (Подшипники, Основной) и 001-016 (Кранкшафт) в разделе 1.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision, Torque Value, (Bearings, Main) and Crankshaft Procedures
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the torque specification for main bearing side bolts in Procedures 001-006 (Bearings, Main) and 001-016 (Crankshaft) in Section 1.

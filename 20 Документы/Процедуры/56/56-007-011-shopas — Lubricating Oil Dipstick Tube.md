@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-011-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-011-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Dipstick Tube
@@ -35,88 +37,166 @@ tags:
 > **Даты:** изменён 2021-02-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-011-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-011-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Standard Tube
 
-> [!note] Note · Примечание
-> The location of the hand hole cover incorporating the dipstick tube and oil filler tube can vary depending on the application of the engine.
+### Установка
 
-Install the dipstick and dipstick tube (2), or the dipstick tube and oil filler tube assembly (3) with the two mounting capscrews (1).
+Стандартная трубка
 
-Tighten the two capscrews (1).
+> [!note] Примечание
+> Расположение крышки ручного отверстия, включающего измерительную трубку уровня масла и трубку масляного наполнителя, может варьироваться в зависимости от применения двигателя.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+Установите калибр уровня масла и калибр уровня масла (2) или калибр уровня масла и сборку измерительной трубки наполнителя масла (3) с двумя монтажными болтами (1).
+
+Закрепить два болта (1).
+
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[07600288.png]]
 
-Extended Tube
+Расширенная трубка
 
-Install the dipstick hand hole cover (1) and two capscrews (2).
+Установите масляный уровень измерительного датчика ручного отверстия крышки (1) и двух болтов (2).
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
-Slide the sleeve (3) over the filler tube and tighten the clamps.
+Сдвиньте рукав (3) по трубке наполнителя и затяните зажимы.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600095.png]]
 
-Install the p-clip (1) and capscrew supporting the dipstick tube.
+Установите p-клип (1) и болты, поддерживающие измерительную трубку уровня масла.
 
-Tighten the capscrew.
+Затяните болт.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[03600094.png]]
 
-Install the upper dipstick support bracket (1) and two capscrews.
+Установите верхний уровень масла измерительной шкалы опорной кронштейна (1) и два болта.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[03600093.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Install the metal dipstick tube and new gasket to the engine. Tighten the capscrews.
+Установите металлическую измерительную трубку уровня масла и новую прокладку к двигателю. Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[07601080.png]]
 
-Install the dipstick tube p-clip.
+Установите уровень масла измерительной трубки p-clip.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [35 фунт-фут]
 
 ![[07601079.png]]
 
-Install a new o-ring on the plastic dipstick tube and install it onto the metal dipstick tube.
+Установите новое кольцо на измерительной трубке уровня пластического масла и установите его на измерительную трубку уровня металлического масла.
 
-> [!tip] Момент затяжки · Torque Value
-> 27 n•m [20 ft-lb]
+> [!tip] Момент затяжки
+> 27 Н·м [20 фунт-фут]
 
 ![[07601076.png]]
 
-If the engine is equipped with a long dipstick tube, secure the dipstick tube to the upper bracket with clamps, plate and capscrews.
+Если двигатель оснащен длинной измерительной трубкой уровня масла, прикрепите измерительную трубку уровня масла к верхней скобке с зажимами, пластинами и болтами.
 
-> [!tip] Момент затяжки · Torque Value
-> 7 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 7 Н·м [80 фунт-дюйм]
 
 ![[07601077.png]]
 
-Install the dipstick by inserting, pushing down on the handle and turning it **clockwise**.
+Установите калибр уровня масла, вставив, надавив на ручку и повернув ее **по часовой стрелке**.
 
-Operate the engine and check for leaks.
+Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[07601087.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Standard Tube
+>
+> **Note · Примечание**
+> The location of the hand hole cover incorporating the dipstick tube and oil filler tube can vary depending on the application of the engine.
+>
+> Install the dipstick and dipstick tube (2), or the dipstick tube and oil filler tube assembly (3) with the two mounting capscrews (1).
+>
+> Tighten the two capscrews (1).
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Extended Tube
+>
+> Install the dipstick hand hole cover (1) and two capscrews (2).
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Slide the sleeve (3) over the filler tube and tighten the clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> Install the p-clip (1) and capscrew supporting the dipstick tube.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> Install the upper dipstick support bracket (1) and two capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> Install the metal dipstick tube and new gasket to the engine. Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Install the dipstick tube p-clip.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [35 ft-lb]
+>
+> Install a new o-ring on the plastic dipstick tube and install it onto the metal dipstick tube.
+>
+> **Момент затяжки · Torque Value**
+> 27 n•m [20 ft-lb]
+>
+> If the engine is equipped with a long dipstick tube, secure the dipstick tube to the upper bracket with clamps, plate and capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 7 n•m [80 in-lb]
+>
+> Install the dipstick by inserting, pushing down on the handle and turning it **clockwise**.
+>
+> Operate the engine and check for leaks.

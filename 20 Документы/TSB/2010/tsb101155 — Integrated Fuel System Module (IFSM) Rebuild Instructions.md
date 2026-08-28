@@ -62,12 +62,14 @@ parts:
   - "4965689"
   - "4984297"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101155.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101155.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Integrated Fuel System Module (IFSM) Rebuild Instructions
@@ -78,158 +80,166 @@ tags:
 > **Даты:** изменён 2017-09-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101155.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101155.pdf)
 
-## Integrated Fuel System Module (IFSM) Rebuild Instructions
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Интегрированный модуль топливной системы (IFSM)
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+**Затронутая продукция**
 
 - ISX CM570
 - ISX CM870
 - ISX CM871
 - QSX CM570
 
-This Service/Parts Topic introduces a rebuild kit designed to assist the rebuild of the integrated fuel system module (IFSM) and also updates procedure 005-073 in the Signature, ISX, QSX Troubleshooting and Repair Manual, Bulletin [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]].
+В этом разделе «Сервис/Части» представлен набор для восстановления, предназначенный для содействия восстановлению интегрированного модуля топливной системы (IFSM), а также обновлена процедура 005-073 в Руководстве по устранению неполадок и ремонту ISX, QSX, Бюллетень [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]].
 
-The tables shown below summarize the part numbers of the contents included in the Rebuild Kit, as well as reusable components.
+В таблицах, показанных ниже, суммируются номера частей содержимого, включенного в комплект для восстановления, а также многоразовые компоненты.
 
-| Table 1, Integrated Fuel System Module (IFSM) Rebuild Kit Contents, Part Number [[4025255]], for CM570 |  |  |  |
+| Таблица 1, Интегрированный модуль топливной системы (IFSM) Восстановление комплекта содержимого, номер детали[[4025255]]Для CM570 |  |  |  |
 |---|---|---|---|
-| Part Number | Housing Assembly Content | Description | Quantity |
-| S-2286 | - | Screw, drive | 2 |
-| 105375 | - | Nameplate | 1 |
-| 129888 | - | Seal, rectangular ring (fuel shutoff valve) | 2 |
-| 151900 | - | Seal, rectangular ring (damper) | 2 |
-| [[3045986]] | - | Seal, o-ring (actuator) | 4 |
-| [[3089240]] | - | Seal, o-ring (check valve) | 2 |
-| [[3330478]] | - | Seal, o-ring (2620 kPa regulator) \[380 psi regulator\] | 1 |
-| [[3348703]] | - | Seal, o-ring (1724 kPa regulator) \[250 psi regulator\] | 1 |
-| [[3678786]] | - | Seal, o-ring (male union) | 3 |
-| [[3678912]] | - | Seal, o-ring (M14 plugs and Compuchek® fitting) | 6 |
-| [[3679139]] | - | Seal, o-ring (drain fitting) | 1 |
-| [[3867481]] | - | Seal, o-ring (fuel pump) | 1 |
-| [[3867640]] | - | Seal, o-ring (1724 kPa regulator) \[250 psi regulator\] | 14 |
-| [[3867641]] | - | Seal, o-ring (2620 kPa regulator) \[380 psi regulator\] | 1 |
-| [[4010519]] | - | Seal, o-ring (temperature and pressure sensors) | 3 |
-| [[2872195]] | - | Gasket, support (fuel pump) | 1 |
-| [[4965689]] | - | Gasket, fuel control housing | 1 |
-| [[4076597]] | - | Housing, fuel control assembly | 1 |
-| - | [[4984297]] | Housing, fuel control Housing, fuel control | 1 |
-| - | [[3015521]] | Ball | 1 |
-| - | [[3330019]] | Screw, socket head capscrew | 1 |
-| - | [[3330719]] | Plate, thrust bearing | 1 |
-| - | [[3330720]] | Shaft, idler | 1 |
-| - | [[3331275]] | Retainer, shaft | 1 |
-| - | [[3867093]] | Gear, idler | 1 |
-| - | [[4076593]] | Valve, air bleed check | 1 |
-| - | [[4076599]] | Plug, orifice | 1 |
-| [[4954473]] | - | Gasket, fuel pump (lift pump) | 1 |
-| [[3025806]] | - | Screw, socket head cap | 3 |
-| [[3021123]] | - | Seal, o-ring | 1 |
-| [[3922794]] | - | Seal, o-ring | 2 |
-| [[3037537]] | - | Seal, o-ring | 2 |
-| [[3042543]] | - | Seal, o-ring | 1 |
-| [[3089392]] | - | Seal, o-ring | 1 |
-| [[3084539]] | - | Seal, o-ring | 1 |
-| [[3678846]] | - | Seal, o-ring | 2 |
-| [[4076585]] | - | Plate, cover | 1 |
-| [[3347832]] | - | Seal, gromnet | 4 |
-| [[3918190]] | - | Washer, sealing | 2 |
+| Номер детали | Кассовая сборка Содержание | Наименование | Количество |
+| S-2286 | - | К черту, езжай. | 2 |
+| 105375 | - | Заводская табличка | 1 |
+| 129888 | - | Тюлень, прямоугольное кольцо (запорный клапан топлива) | 2 |
+| 151900 | - | Тюлень, прямоугольное кольцо (дампер) | 2 |
+| [[3045986]] | - | Тюлень, о-кольцо (автомобиль) | 4 |
+| [[3089240]] | - | Тюлень, о-кольцо (проверочный клапан) | 2 |
+| [[3330478]] | - | Тюлень, о-кольцо (регулятор 2620 кПа) \[380 psi регулятор\] | 1 |
+| [[3348703]] | - | Тюлень, о-кольцо (1724 кПа регулятор) \[250 psi регулятор\] | 1 |
+| [[3678786]] | - | Тюлень, о-кольцо (внешне резьбовая фитинга) | 3 |
+| [[3678912]] | - | Уплотнение, о-кольцо (M14 штепсель и Compuchek®) | 6 |
+| [[3679139]] | - | Тюлень, о-кольцо (подгонка для дренажа) | 1 |
+| [[3867481]] | - | Тюлень, о-кольцо (топливный насос) | 1 |
+| [[3867640]] | - | Тюлень, о-кольцо (1724 кПа регулятор) \[250 psi регулятор\] | 14 |
+| [[3867641]] | - | Тюлень, о-кольцо (регулятор 2620 кПа) \[380 psi регулятор\] | 1 |
+| [[4010519]] | - | Тюлень, о-кольцо (датчики температуры и давления) | 3 |
+| [[2872195]] | - | Гаскет, опора (топливный насос) | 1 |
+| [[4965689]] | - | Гаскет, корпус управления топливом | 1 |
+| [[4076597]] | - | корпус, сборка управления топливом | 1 |
+| - | [[4984297]] | кожух, кожух управления топливом, управление топливом | 1 |
+| - | [[3015521]] | Шарик | 1 |
+| - | [[3330019]] | Винт, розетка, головка болтов | 1 |
+| - | [[3330719]] | Плита, подшипник тяги | 1 |
+| - | [[3330720]] | Шефт, Эйдлер | 1 |
+| - | [[3331275]] | Запасной вал | 1 |
+| - | [[3867093]] | Гир, Эйдлер | 1 |
+| - | [[4076593]] | Валв, проверка на кровотечение из воздуха | 1 |
+| - | [[4076599]] | Подъемник, отверстие | 1 |
+| [[4954473]] | - | Гаскет, топливный насос (лифтовый насос) | 1 |
+| [[3025806]] | - | К черту головной убор. | 3 |
+| [[3021123]] | - | Тюлень, кольцо | 1 |
+| [[3922794]] | - | Тюлень, кольцо | 2 |
+| [[3037537]] | - | Тюлень, кольцо | 2 |
+| [[3042543]] | - | Тюлень, кольцо | 1 |
+| [[3089392]] | - | Тюлень, кольцо | 1 |
+| [[3084539]] | - | Тюлень, кольцо | 1 |
+| [[3678846]] | - | Тюлень, кольцо | 2 |
+| [[4076585]] | - | Пластина, покрытие | 1 |
+| [[3347832]] | - | Тюлень, гремнет | 4 |
+| [[3918190]] | - | Шайба, герметизация | 2 |
 
-| **Table 2, Integrated Fuel System Module (IFSM) Kit Content, Part Number 4955685, for CM870 and CM871** |  |  |  |
+| **Таблица 2, Интегрированный модуль топливной системы (IFSM) Комплектный контент, Номер детали 4955685, для CM870 и CM871** |  |  |  |
 |---|---|---|---|
-| **Part Number** | **Housing Assembly Content** | **Description** | **Quantity** |
-| S-2286 | - | Screw, drive | 2 |
-| 105375 | - | Nameplate | 1 |
-| 129888 | - | Seal, rectangular ring (fuel shutoff valve) | 2 |
-| 151900 | - | Seal, rectangular ring (damper) | 2 |
-| [[3045986]] | - | Seal, o-ring (actuator) | 4 |
-| [[3089240]] | - | Seal, o-ring (check valve) | 2 |
-| [[3330478]] | - | Seal, o-ring (2620 kPa regulator) \[380 psi regulator\] | 1 |
-| [[3348703]] | - | Seal, o-ring (1724 kPa regulator) \[250 psi regulator\] | 1 |
-| [[3627695]] | - | Seal, o-ring (male union) | 2 |
-| [[3678786]] | - | Seal, o-ring (male union) | 2 |
-| [[3678912]] | - | Seal, o-ring (M14 plugs and Compuchek® fitting) | 7 |
-| [[3679139]] | - | Seal, o-ring (drain fitting) | 1 |
-| [[3867481]] | - | Seal, o-ring (fuel pump) | 1 |
-| [[3867640]] | - | Seal, o-ring (1724 kPa regulator) \[250 psi regulator\] | 13 |
-| [[3867641]] | - | Seal, o-ring (2620 kPa regulator) \[380 psi regulator\] | 1 |
-| [[4010519]] | - | Seal, o-ring (temperature and pressure sensors) | 2 |
-| [[2872195]] | - | Gasket, support (fuel pump) | 1 |
-| [[4965689]] | - | Gasket, fuel control housing | 1 |
-| 4921791 | - | Housing, fuel control assembly | 1 |
-| - | 4984296 | Housing, fuel controlHousing, fuel control | 1 |
-| - | [[3015521]] | Ball | 1 |
-| - | [[3330019]] | Screw, socket head capscrew | 1 |
-| - | [[3330719]] | Plate, thrust bearing | 1 |
-| - | [[3330720]] | Shaft, idler | 1 |
-| - | [[3331275]] | Retainer, shaft | 1 |
-| - | [[3867093]] | Gear, idler | 1 |
-| - | [[4076593]] | Valve, air bleed check | 1 |
-| - | [[4076599]] | Plug, orifice | 1 |
-| 4954474 | - | Gasket, fuel pump (lift pump) | 1 |
-| [[4088806]] | - | Gasket, fuel pump | 1 |
+| **Номера деталей** | **Кадровый контент** | **Описание** | **Количество** |
+| S-2286 | - | К черту, езжай. | 2 |
+| 105375 | - | Заводская табличка | 1 |
+| 129888 | - | Тюлень, прямоугольное кольцо (запорный клапан топлива) | 2 |
+| 151900 | - | Тюлень, прямоугольное кольцо (дампер) | 2 |
+| [[3045986]] | - | Тюлень, о-кольцо (автомобиль) | 4 |
+| [[3089240]] | - | Тюлень, о-кольцо (проверочный клапан) | 2 |
+| [[3330478]] | - | Тюлень, о-кольцо (регулятор 2620 кПа) \[380 psi регулятор\] | 1 |
+| [[3348703]] | - | Тюлень, о-кольцо (1724 кПа регулятор) \[250 psi регулятор\] | 1 |
+| [[3627695]] | - | Тюлень, о-кольцо (внешне резьбовая фитинга) | 2 |
+| [[3678786]] | - | Тюлень, о-кольцо (внешне резьбовая фитинга) | 2 |
+| [[3678912]] | - | Уплотнение, о-кольцо (M14 штепсель и Compuchek®) | 7 |
+| [[3679139]] | - | Тюлень, о-кольцо (подгонка для дренажа) | 1 |
+| [[3867481]] | - | Тюлень, о-кольцо (топливный насос) | 1 |
+| [[3867640]] | - | Тюлень, о-кольцо (1724 кПа регулятор) \[250 psi регулятор\] | 13 |
+| [[3867641]] | - | Тюлень, о-кольцо (регулятор 2620 кПа) \[380 psi регулятор\] | 1 |
+| [[4010519]] | - | Тюлень, о-кольцо (датчики температуры и давления) | 2 |
+| [[2872195]] | - | Гаскет, опора (топливный насос) | 1 |
+| [[4965689]] | - | Гаскет, корпус управления топливом | 1 |
+| 4921791 | - | корпус, сборка управления топливом | 1 |
+| - | 4984296 | корпус, управление топливомЖилье, управление топливом | 1 |
+| - | [[3015521]] | Шарик | 1 |
+| - | [[3330019]] | Винт, розетка, головка болтов | 1 |
+| - | [[3330719]] | Плита, подшипник тяги | 1 |
+| - | [[3330720]] | Шефт, Эйдлер | 1 |
+| - | [[3331275]] | Запасной вал | 1 |
+| - | [[3867093]] | Гир, Эйдлер | 1 |
+| - | [[4076593]] | Валв, проверка на кровотечение из воздуха | 1 |
+| - | [[4076599]] | Подъемник, отверстие | 1 |
+| 4954474 | - | Гаскет, топливный насос (лифтовый насос) | 1 |
+| [[4088806]] | - | Гаскет, топливный насос | 1 |
 
-| Table 3, Reusable Components |  |  |
+| Таблица 3, Многоразовые компоненты |  |  |
 |---|---|---|
-| Part Number | Description | Quantity |
-| 70704 | Washer, plain (gear pump mounting) | 4 |
-| 129768 | Spring, valve (FSO assembly) | 1 |
-| 129839 | Shield, shutoff valve | 1 |
-| 196057 | Disc, valve (FSO assembly) | 1 |
-| [[3025806]] | Screw, socket head capscrew (lift pump mounting) | 4 |
-| [[4088863]] | Housing, actuator (FSO assembly) | 1 |
-| [[4088274]] | Disc, actuator (FSO assembly) | 1 |
-| [[3100221]] | Nipple, coupling (Compuchek® fitting) | 2 |
-| 4076472 | Screw, socket head capscrew (actuator mounting) | 12 |
-| [[4076471]] | Screw, socket head cap (FSO mounting) | 4 |
-| [[3331873]] | Union, male | 1 |
-| [[3348322]] | Valve, pressure regulator (1724 kPa regulator) \[250 psi regulator\] | 1 |
-| [[3397506]] | Screw, socket head capscrew (fuel damper mounting) | 4 |
-| [[3408421]] | Solenoid (FSO assembly) | 1 |
-| [[3417138]] | Elbow, male adapter (fuel drain line number 8) | 1 |
-| [[3678921]] | Plug, threaded | 5 |
-| 3681694 | Fitting, inlet | 1 |
-| [[4954905]] | Sensor, temperature | 1 |
-| [[3902023]] | Screw, hexagon flange head capscrew (fuel damper assembly) | 2 |
-| 4009956 | Valve, pressure regulator (2620 kPa regulator) \[380 psi regulator\] | 1 |
-| [[4010077]] | Valve, check | 1 |
-| [[3678873]] | Plug, threaded | 1 |
-| 4061815 | Actuator, metering | 2 |
-| 4061816 | Actuator, timing | 2 |
-| 4088847 | Pump, gear fuel | 1 |
-| 4076858 | Screw, socket head capscrew (gear pump mounting) | 4 |
-| 4921519 | Sensor, pressure | 1 |
-| 4076857 (+12-VDC) or 4935093 (+24-VDC) | Pump, fuel (lift pump) - EGR differential pressure sensor side mounted | 1 |
-| 5362253 (+12-VDC or 4935093 (+24-VDC) | Pump, fuel (lift pump) - EGR differential pressure sensor rear mounted | 1 |
-| - | Damper, fuel control (assembly) | 2 |
+| Номер детали | Наименование | Количество |
+| 70704 | Шайба, простая (монтаж гирмы) | 4 |
+| 129768 | Пружина, клапан (сборка FSO) | 1 |
+| 129839 | Щит, запорный клапан | 1 |
+| 196057 | Диск, клапан (сборка FSO) | 1 |
+| [[3025806]] | Винт, розетки головные болты (монтаж насоса) | 4 |
+| [[4088863]] | корпус, привод (сборка FSO) | 1 |
+| [[4088274]] | Диск, привод (сборка FSO) | 1 |
+| [[3100221]] | Nipple, соединение (Compuchek® fitting) | 2 |
+| 4076472 | Винт, розетки головные болты (монтаж двигателя) | 12 |
+| [[4076471]] | Винт, крышка головки розетки (FSO монтирование) | 4 |
+| [[3331873]] | Союз, штыревой | 1 |
+| [[3348322]] | Валв, регулятор давления (1724 кПа регулятор) \[250 psi регулятор\] | 1 |
+| [[3397506]] | Винт, затворы головки розетки (монтаж заглушки топлива) | 4 |
+| [[3408421]] | Solenoid (сборка FSO) | 1 |
+| [[3417138]] | Локтел, штуцер с наружной резьбой (линия слива топлива № 8) | 1 |
+| [[3678921]] | Вилка, вилка | 5 |
+| 3681694 | Прием, вход | 1 |
+| [[4954905]] | Датчик, температура | 1 |
+| [[3902023]] | Винт, шестиугольные фланцевые головные болты (сборка топливных демпферов) | 2 |
+| 4009956 | Валва, регулятор давления (регулятор 2620 кПа) \[380 psi регулятор\] | 1 |
+| [[4010077]] | Валве, проверь. | 1 |
+| [[3678873]] | Вилка, вилка | 1 |
+| 4061815 | Привод, дозировка | 2 |
+| 4061816 | Привод, время | 2 |
+| 4088847 | Насос, топливо для передач | 1 |
+| 4076858 | Винт, розетки головные болты (накачка гирлянды) | 4 |
+| 4921519 | Датчик, давление | 1 |
+| 4076857 (+12-VDC) или 4935093 (+24-VDC) | Насос, топливо (подъемный насос) - датчик дифференциального давления EGR, установленный сбоку | 1 |
+| 5362253 (+12-VDC или 4935093 (+24-VDC)) | Насос, топливо (подъемный насос) - датчик дифференциального давления EGR, установленный сзади | 1 |
+| - | Дампер, контроль топлива (сборка) | 2 |
 
-| Table 4, Integrated Fuel System Module (IFSM) Configuration Chart |  |  |  |  |  |
+| Таблица 4, Интегрированный модуль топливной системы (IFSM) |  |  |  |  |  |
 |---|---|---|---|---|---|
 |  |  | 4076844 | 4077280 | 4088505 | 4088510 |
-| Electric Lift Pump | Yes +12 VDC solenoid pump |  |  |  |  |
-| Electric Lift Pump | Yes +24 VDC solenoid pump |  |  |  |  |
-| Electric Lift Pump | Yes +12 VDC engine mount vane pump |  |  |  |  |
-| Electric Lift Pump | Yes +24 VDC engine mount vane pump |  |  |  |  |
-| Electric Lift Pump | Yes +12 VDC IFSM mount vane pump | X |  | X |  |
-| Electric Lift Pump | Yes +24 VDC IFSM mount vane pump |  | X |  | X |
-| Electric Lift Pump | No |  |  |  |  |
-| EGR Differential Pressure Sensor | Mounted to side of lift pump | X | X |  |  |
-| EGR Differential Pressure Sensor | Mounted to rear of lift pump |  |  | X | X |
+| Электрический насос лифт | Да +12 VDC соленоидный насос |  |  |  |  |
+| Электрический насос лифт | Да +24 VDC соленоидный насос |  |  |  |  |
+| Электрический насос лифт | Да +12 VDC двигатель крепления лопастного насоса |  |  |  |  |
+| Электрический насос лифт | Да +24 VDC двигатель крепления лопастного насоса |  |  |  |  |
+| Электрический насос лифт | Да +12 VDC IFSM крепление лопастного насоса | X |  | X |  |
+| Электрический насос лифт | Да +24 VDC IFSM крепление лопастного насоса |  | X |  | X |
+| Электрический насос лифт | Нет |  |  |  |  |
+| EGR датчик дифференциального давления | Прикреплен к боковой части подъемного насоса | X | X |  |  |
+| EGR датчик дифференциального давления | Прикреплен к задней части подъемного насоса |  |  | X | X |
 
 ![[05c00219.png]]
 
-Figure 1, Integrated Fuel System Module (IFSM) Port Locations.
+Рисунок 1, Интегрированный модуль топливной системы (IFSM) Расположение портов.
 
-**Related Procedures**
+**Связанные процедуры**
 
-[[10-005-073-tr — Integrated Fuel System Module (IFSM)|Refer to Procedure 005-073]] Integrated Fuel System Module (IFSM).
+[[10-005-073-tr — Integrated Fuel System Module (IFSM)|См. процедуру 005-073]]Модуль интегрированной топливной системы (IFSM).
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
@@ -287,3 +297,155 @@ Figure 1, Integrated Fuel System Module (IFSM) Port Locations.
 | [[4954905]] | TEMPERATURE SENSOR | Датчик температуры |
 | [[4965689]] | Fuel Control Housing Gasket | Прокладка корпуса управления подачей топлива |
 | [[4984297]] | FUEL CONTROL HOUSING | Корпус узла управления подачей топлива |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Integrated Fuel System Module (IFSM) Rebuild Instructions
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - ISX CM570
+> - ISX CM870
+> - ISX CM871
+> - QSX CM570
+>
+> This Service/Parts Topic introduces a rebuild kit designed to assist the rebuild of the integrated fuel system module (IFSM) and also updates procedure 005-073 in the Signature, ISX, QSX Troubleshooting and Repair Manual, Bulletin [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]].
+>
+> The tables shown below summarize the part numbers of the contents included in the Rebuild Kit, as well as reusable components.
+>
+> | Table 1, Integrated Fuel System Module (IFSM) Rebuild Kit Contents, Part Number [[4025255]], for CM570 |  |  |  |
+> |---|---|---|---|
+> | Part Number | Housing Assembly Content | Description | Quantity |
+> | S-2286 | - | Screw, drive | 2 |
+> | 105375 | - | Nameplate | 1 |
+> | 129888 | - | Seal, rectangular ring (fuel shutoff valve) | 2 |
+> | 151900 | - | Seal, rectangular ring (damper) | 2 |
+> | [[3045986]] | - | Seal, o-ring (actuator) | 4 |
+> | [[3089240]] | - | Seal, o-ring (check valve) | 2 |
+> | [[3330478]] | - | Seal, o-ring (2620 kPa regulator) \[380 psi regulator\] | 1 |
+> | [[3348703]] | - | Seal, o-ring (1724 kPa regulator) \[250 psi regulator\] | 1 |
+> | [[3678786]] | - | Seal, o-ring (male union) | 3 |
+> | [[3678912]] | - | Seal, o-ring (M14 plugs and Compuchek® fitting) | 6 |
+> | [[3679139]] | - | Seal, o-ring (drain fitting) | 1 |
+> | [[3867481]] | - | Seal, o-ring (fuel pump) | 1 |
+> | [[3867640]] | - | Seal, o-ring (1724 kPa regulator) \[250 psi regulator\] | 14 |
+> | [[3867641]] | - | Seal, o-ring (2620 kPa regulator) \[380 psi regulator\] | 1 |
+> | [[4010519]] | - | Seal, o-ring (temperature and pressure sensors) | 3 |
+> | [[2872195]] | - | Gasket, support (fuel pump) | 1 |
+> | [[4965689]] | - | Gasket, fuel control housing | 1 |
+> | [[4076597]] | - | Housing, fuel control assembly | 1 |
+> | - | [[4984297]] | Housing, fuel control Housing, fuel control | 1 |
+> | - | [[3015521]] | Ball | 1 |
+> | - | [[3330019]] | Screw, socket head capscrew | 1 |
+> | - | [[3330719]] | Plate, thrust bearing | 1 |
+> | - | [[3330720]] | Shaft, idler | 1 |
+> | - | [[3331275]] | Retainer, shaft | 1 |
+> | - | [[3867093]] | Gear, idler | 1 |
+> | - | [[4076593]] | Valve, air bleed check | 1 |
+> | - | [[4076599]] | Plug, orifice | 1 |
+> | [[4954473]] | - | Gasket, fuel pump (lift pump) | 1 |
+> | [[3025806]] | - | Screw, socket head cap | 3 |
+> | [[3021123]] | - | Seal, o-ring | 1 |
+> | [[3922794]] | - | Seal, o-ring | 2 |
+> | [[3037537]] | - | Seal, o-ring | 2 |
+> | [[3042543]] | - | Seal, o-ring | 1 |
+> | [[3089392]] | - | Seal, o-ring | 1 |
+> | [[3084539]] | - | Seal, o-ring | 1 |
+> | [[3678846]] | - | Seal, o-ring | 2 |
+> | [[4076585]] | - | Plate, cover | 1 |
+> | [[3347832]] | - | Seal, gromnet | 4 |
+> | [[3918190]] | - | Washer, sealing | 2 |
+>
+> | **Table 2, Integrated Fuel System Module (IFSM) Kit Content, Part Number 4955685, for CM870 and CM871** |  |  |  |
+> |---|---|---|---|
+> | **Part Number** | **Housing Assembly Content** | **Description** | **Quantity** |
+> | S-2286 | - | Screw, drive | 2 |
+> | 105375 | - | Nameplate | 1 |
+> | 129888 | - | Seal, rectangular ring (fuel shutoff valve) | 2 |
+> | 151900 | - | Seal, rectangular ring (damper) | 2 |
+> | [[3045986]] | - | Seal, o-ring (actuator) | 4 |
+> | [[3089240]] | - | Seal, o-ring (check valve) | 2 |
+> | [[3330478]] | - | Seal, o-ring (2620 kPa regulator) \[380 psi regulator\] | 1 |
+> | [[3348703]] | - | Seal, o-ring (1724 kPa regulator) \[250 psi regulator\] | 1 |
+> | [[3627695]] | - | Seal, o-ring (male union) | 2 |
+> | [[3678786]] | - | Seal, o-ring (male union) | 2 |
+> | [[3678912]] | - | Seal, o-ring (M14 plugs and Compuchek® fitting) | 7 |
+> | [[3679139]] | - | Seal, o-ring (drain fitting) | 1 |
+> | [[3867481]] | - | Seal, o-ring (fuel pump) | 1 |
+> | [[3867640]] | - | Seal, o-ring (1724 kPa regulator) \[250 psi regulator\] | 13 |
+> | [[3867641]] | - | Seal, o-ring (2620 kPa regulator) \[380 psi regulator\] | 1 |
+> | [[4010519]] | - | Seal, o-ring (temperature and pressure sensors) | 2 |
+> | [[2872195]] | - | Gasket, support (fuel pump) | 1 |
+> | [[4965689]] | - | Gasket, fuel control housing | 1 |
+> | 4921791 | - | Housing, fuel control assembly | 1 |
+> | - | 4984296 | Housing, fuel controlHousing, fuel control | 1 |
+> | - | [[3015521]] | Ball | 1 |
+> | - | [[3330019]] | Screw, socket head capscrew | 1 |
+> | - | [[3330719]] | Plate, thrust bearing | 1 |
+> | - | [[3330720]] | Shaft, idler | 1 |
+> | - | [[3331275]] | Retainer, shaft | 1 |
+> | - | [[3867093]] | Gear, idler | 1 |
+> | - | [[4076593]] | Valve, air bleed check | 1 |
+> | - | [[4076599]] | Plug, orifice | 1 |
+> | 4954474 | - | Gasket, fuel pump (lift pump) | 1 |
+> | [[4088806]] | - | Gasket, fuel pump | 1 |
+>
+> | Table 3, Reusable Components |  |  |
+> |---|---|---|
+> | Part Number | Description | Quantity |
+> | 70704 | Washer, plain (gear pump mounting) | 4 |
+> | 129768 | Spring, valve (FSO assembly) | 1 |
+> | 129839 | Shield, shutoff valve | 1 |
+> | 196057 | Disc, valve (FSO assembly) | 1 |
+> | [[3025806]] | Screw, socket head capscrew (lift pump mounting) | 4 |
+> | [[4088863]] | Housing, actuator (FSO assembly) | 1 |
+> | [[4088274]] | Disc, actuator (FSO assembly) | 1 |
+> | [[3100221]] | Nipple, coupling (Compuchek® fitting) | 2 |
+> | 4076472 | Screw, socket head capscrew (actuator mounting) | 12 |
+> | [[4076471]] | Screw, socket head cap (FSO mounting) | 4 |
+> | [[3331873]] | Union, male | 1 |
+> | [[3348322]] | Valve, pressure regulator (1724 kPa regulator) \[250 psi regulator\] | 1 |
+> | [[3397506]] | Screw, socket head capscrew (fuel damper mounting) | 4 |
+> | [[3408421]] | Solenoid (FSO assembly) | 1 |
+> | [[3417138]] | Elbow, male adapter (fuel drain line number 8) | 1 |
+> | [[3678921]] | Plug, threaded | 5 |
+> | 3681694 | Fitting, inlet | 1 |
+> | [[4954905]] | Sensor, temperature | 1 |
+> | [[3902023]] | Screw, hexagon flange head capscrew (fuel damper assembly) | 2 |
+> | 4009956 | Valve, pressure regulator (2620 kPa regulator) \[380 psi regulator\] | 1 |
+> | [[4010077]] | Valve, check | 1 |
+> | [[3678873]] | Plug, threaded | 1 |
+> | 4061815 | Actuator, metering | 2 |
+> | 4061816 | Actuator, timing | 2 |
+> | 4088847 | Pump, gear fuel | 1 |
+> | 4076858 | Screw, socket head capscrew (gear pump mounting) | 4 |
+> | 4921519 | Sensor, pressure | 1 |
+> | 4076857 (+12-VDC) or 4935093 (+24-VDC) | Pump, fuel (lift pump) - EGR differential pressure sensor side mounted | 1 |
+> | 5362253 (+12-VDC or 4935093 (+24-VDC) | Pump, fuel (lift pump) - EGR differential pressure sensor rear mounted | 1 |
+> | - | Damper, fuel control (assembly) | 2 |
+>
+> | Table 4, Integrated Fuel System Module (IFSM) Configuration Chart |  |  |  |  |  |
+> |---|---|---|---|---|---|
+> |  |  | 4076844 | 4077280 | 4088505 | 4088510 |
+> | Electric Lift Pump | Yes +12 VDC solenoid pump |  |  |  |  |
+> | Electric Lift Pump | Yes +24 VDC solenoid pump |  |  |  |  |
+> | Electric Lift Pump | Yes +12 VDC engine mount vane pump |  |  |  |  |
+> | Electric Lift Pump | Yes +24 VDC engine mount vane pump |  |  |  |  |
+> | Electric Lift Pump | Yes +12 VDC IFSM mount vane pump | X |  | X |  |
+> | Electric Lift Pump | Yes +24 VDC IFSM mount vane pump |  | X |  | X |
+> | Electric Lift Pump | No |  |  |  |  |
+> | EGR Differential Pressure Sensor | Mounted to side of lift pump | X | X |  |  |
+> | EGR Differential Pressure Sensor | Mounted to rear of lift pump |  |  | X | X |
+>
+> Figure 1, Integrated Fuel System Module (IFSM) Port Locations.
+>
+> **Related Procedures**
+>
+> [[10-005-073-tr — Integrated Fuel System Module (IFSM)|Refer to Procedure 005-073]] Integrated Fuel System Module (IFSM).
+>
+> ### Document History

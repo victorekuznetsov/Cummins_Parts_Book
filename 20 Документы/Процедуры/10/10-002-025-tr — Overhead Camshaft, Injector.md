@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666239"
 figures: 22
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-002-025-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-002-025-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Overhead Camshaft, Injector
@@ -30,169 +32,302 @@ tags:
 > **Даты:** изменён 2019-10-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-002-025-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-002-025-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the upper gear cover. Refer to Procedure 001-079 in Section 1.
+
+### Подготовительные операции
+
+Снимите верхнюю крышку передач. См. процедуру 001-079 в разделе 1.
 
 ![[01c00344.png]]
 
-Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+Снимите крышку коромысел. См. процедуру 003-011 в разделе 3.
 
 ![[03c00002.png]]
 
-Remove the rocker lever shafts. [[10-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009]] in Section 3.
+Удалите валы рычага качения клапанного клапана.[[10-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009]]в разделе 3.
 
 ![[03c00006.png]]
 
-Remove the injector camshaft scissor gear. [[10-001-088-tr — Engine Base Timing|Refer to Procedure 001-088]] in Section 1.
+Снимите ножницы топливных форсунок.[[10-001-088-tr — Engine Base Timing|См. процедуру 001-088]]в разделе 1.
 
 ![[01c00038.png]]
 
-Remove the integrated fuel system module. [[10-005-073-tr — Integrated Fuel System Module (IFSM)|Refer to Procedure 005-073 in Section 5]].
+Удалите модуль интегрированной топливной системы.[[10-005-073-tr — Integrated Fuel System Module (IFSM)|См. процедуру 005-073 в разделе 5.]].
 
 ![[02c00001.png]]
 
-Remove the camshaft sensor. Refer to Procedure 019-038 in Section 19.
+Удалите датчик распредвала. См. процедуру 019-038 в разделе 19.
 
 ![[17c00050.png]]
 
-### Remove
+### Снятие
 
-Remove the injector camshaft cover plate capscrews.
+Удалите болты крышки форсунки.
 
-Remove the injector cover plate and gasket.
+Снимите крышку топливного форсунка и прокладку.
 
-Discard the gasket.
+Прокладку утилизируйте.
 
 ![[01c00220.png]]
 
-Remove the two capscrews and the injector camshaft retainer plate and o-rings.
+Удалите два болта и пластину удерживающего вала форсунки и кольца.
 
-Discard the o-rings.
+Уплотнительные кольца утилизируйте.
 
 ![[01c00224.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, надевайте защитные перчатки при обращении с деталями с острыми краями.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!warning] CAUTION · Осторожно
-> Use caution when removing the camshaft to avoid damaging the camshaft bushings.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при удалении распредвала, чтобы избежать повреждения втулок распредвала.
 
-Remove the injector camshaft.
+Удалить топливный вал форсунки.
 
-Use the Camshaft Installation and Removal Kit, Part Number 5395348, to pull and guide the camshaft out of the cylinder head until three journals remain in the cylinder head. Carefully remove the remainder of the camshaft by hand.
+Используйте комплект установки и удаления распределительного вала, номер детали 5395348, чтобы вытащить и направить распределительный вал из головки цилиндра, пока три журнала не останутся в головке цилиндра. Тщательно удалите оставшуюся часть распредвала вручную.
 
 ![[02a00067.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, надевайте защитные перчатки при обращении с деталями с острыми краями.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+> [!danger] ОПАСНО
+> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
 
-Clean the injector camshaft and the bore of the injector camshaft scissor gear with ENVIROSOL™ 655 solvent, or equivalent, and a lint-free cloth.
+Очистите форсунканый распределительный вал и цилиндровый вал топливного форсуночного распределительного механизма ножницами с растворителем ENVIROSOLTM 655 или эквивалентом и тканью без винта.
 
-Clean all debris from the cylinder head and the camshaft bushings.
+Очистите все обломки от головки цилиндра и втулок распределительного вала.
 
 ![[01c00225.png]]
 
-Check the injector camshaft and injector camshaft scissor gear for fretting damage.
+Проверьте распредвал форсунки и ножницы форсунки для растяжения повреждений.
 
-The camshaft and gear **must** be replaced if damaged.
+Вал и шестерня должны быть заменены в случае повреждения.
 
 ![[01c00228.png]]
 
-Measure the seven injector camshaft bearing journals.
+Измерьте семь журналов подшипников распределительного вала форсунки.
 
-| Injector Camshaft Bearing Journal Outside Diameter |  |  |
+| форсунка Camshaft Bearing Journal Outside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 84.987 | MIN | 3.3459 |
-| 85.013 | MAX | 3.3469 |
+| мм |  | в |
+| 84.987 | Мин | 3.3459 |
+| 85.013 | Макс | 3.3469 |
 
-If the camshaft bearing journals are **not** within specifications, the camshaft **must** be replaced.
+Если журналы с подшипником кулачков **не** в пределах спецификаций, кулачковый вал должен быть заменен.
 
 ![[02c00072.png]]
 
-Inspect the camshaft lobes for cracks, scratches, or other damage.
+Осмотрите доли распредвалов на наличие трещин, царапин или других повреждений.
 
-Refer to the Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappets, Service Bulletin [[3666052 — Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappet|3666052]], for further reuse guidelines.
+См. Руководство по повторному использованию Camshaft для двигателей Cummins® с последователями роликов или таппетами роликов, бюллетень службы[[3666052 — Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappet|3666052]]Для дальнейшего повторного использования.
 
 ![[02c00073.png]]
 
-### Install
+### Установка
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, надевайте защитные перчатки при обращении с деталями с острыми краями.
 
-> [!danger] WARNING · Опасно
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+> [!danger] ОПАСНО
+> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-> [!warning] CAUTION · Осторожно
-> Use caution when installing the camshaft to avoid damaging the camshaft bushings.
+> [!warning] ОСТОРОЖНО
+> Используйте осторожность при установке распредвал, чтобы избежать повреждения втулок распредвалов.
 
-Coat the inside of the injector camshaft bearings with Lubriplate™ prior to installing camshaft.
+Покрыть внутреннюю часть подшипников распределительного вала форсунки LubriplateTM перед установкой распределительного вала.
 
-Install the injector camshaft.
+Установите форсунканый распределительный вал.
 
-Install the camshaft by hand until three journals are in the cylinder head. Use the Camshaft Installation and Removal Kit, Part Number 5395348, to pull and guide the camshaft into the cylinder head.
+Установите распредвал вручную, пока три журнала не окажутся в головке цилиндра. Используйте комплект установки и удаления распределительного вала, номер детали 5395348, чтобы потянуть и направить распределительный вал в головку цилиндра.
 
 ![[02c00069.png]]
 
-Install new o-rings on the retainer plate.
+Установите новые кольца на фиксаторную пластину.
 
-Install the retainer plate and capscrews.
+Установите фиксаторную пластину и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[01c00224.png]]
 
-Install the injector camshaft cover plate with a new gasket.
+Установите крышку форсунки с новой прокладкой.
 
-Install the capscrews.
+Установите болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 40 n•m [30 ft-lb]
+> [!tip] Момент затяжки
+> 40 Н·м [30 фунт-фут]
 
 ![[01c00220.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Install the integrated fuel system module. [[10-005-073-tr — Integrated Fuel System Module (IFSM)|Refer to Procedure 005-073]] in Section 5.
+Установите модуль интегрированной топливной системы.[[10-005-073-tr — Integrated Fuel System Module (IFSM)|См. процедуру 005-073]]в разделе 5.
 
 ![[02c00001.png]]
 
-Install the camshaft sensor. Refer to Procedure 019-038 in Section 19.
+Установите датчик распредвала. См. процедуру 019-038 в разделе 19.
 
 ![[17c00050.png]]
 
-Install the injector camshaft scissor gear. [[10-001-088-tr — Engine Base Timing|Refer to Procedure 001-088]] in Section 1.
+Установите ножницы топливных форсунок.[[10-001-088-tr — Engine Base Timing|См. процедуру 001-088]]в разделе 1.
 
 ![[01c00047.png]]
 
-Install the rocker lever shafts. [[10-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009]] in Section 3.
+Установите валы рычага качения клапанного клапана.[[10-003-009-tr — Rocker Lever Assembly|См. процедуру 003-009]]в разделе 3.
 
-Install the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+Установите крышку коромысел. См. процедуру 003-011 в разделе 3.
 
 ![[02c00068.png]]
 
-Install the upper gear cover. Refer to Procedure 001-079 in Section 1.
+Установите верхнюю крышку передач. См. процедуру 001-079 в разделе 1.
 
 ![[01c00344.png]]
 
-Operate the engine to normal operating temperature. Check for leaks.
+Управляйте двигателем до нормальной рабочей температуры. Проверьте на отсутствие утечек.
 
 ![[00c00030.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Remove the upper gear cover. Refer to Procedure 001-079 in Section 1.
+>
+> Remove the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+>
+> Remove the rocker lever shafts. [[10-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009]] in Section 3.
+>
+> Remove the injector camshaft scissor gear. [[10-001-088-tr — Engine Base Timing|Refer to Procedure 001-088]] in Section 1.
+>
+> Remove the integrated fuel system module. [[10-005-073-tr — Integrated Fuel System Module (IFSM)|Refer to Procedure 005-073 in Section 5]].
+>
+> Remove the camshaft sensor. Refer to Procedure 019-038 in Section 19.
+>
+> ### Remove
+>
+> Remove the injector camshaft cover plate capscrews.
+>
+> Remove the injector cover plate and gasket.
+>
+> Discard the gasket.
+>
+> Remove the two capscrews and the injector camshaft retainer plate and o-rings.
+>
+> Discard the o-rings.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **CAUTION · Осторожно**
+> Use caution when removing the camshaft to avoid damaging the camshaft bushings.
+>
+> Remove the injector camshaft.
+>
+> Use the Camshaft Installation and Removal Kit, Part Number 5395348, to pull and guide the camshaft out of the cylinder head until three journals remain in the cylinder head. Carefully remove the remainder of the camshaft by hand.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
+>
+> Clean the injector camshaft and the bore of the injector camshaft scissor gear with ENVIROSOL™ 655 solvent, or equivalent, and a lint-free cloth.
+>
+> Clean all debris from the cylinder head and the camshaft bushings.
+>
+> Check the injector camshaft and injector camshaft scissor gear for fretting damage.
+>
+> The camshaft and gear **must** be replaced if damaged.
+>
+> Measure the seven injector camshaft bearing journals.
+>
+> | Injector Camshaft Bearing Journal Outside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 84.987 | MIN | 3.3459 |
+> | 85.013 | MAX | 3.3469 |
+>
+> If the camshaft bearing journals are **not** within specifications, the camshaft **must** be replaced.
+>
+> Inspect the camshaft lobes for cracks, scratches, or other damage.
+>
+> Refer to the Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappets, Service Bulletin [[3666052 — Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappet|3666052]], for further reuse guidelines.
+>
+> ### Install
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+>
+> **WARNING · Опасно**
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
+>
+> **CAUTION · Осторожно**
+> Use caution when installing the camshaft to avoid damaging the camshaft bushings.
+>
+> Coat the inside of the injector camshaft bearings with Lubriplate™ prior to installing camshaft.
+>
+> Install the injector camshaft.
+>
+> Install the camshaft by hand until three journals are in the cylinder head. Use the Camshaft Installation and Removal Kit, Part Number 5395348, to pull and guide the camshaft into the cylinder head.
+>
+> Install new o-rings on the retainer plate.
+>
+> Install the retainer plate and capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> Install the injector camshaft cover plate with a new gasket.
+>
+> Install the capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 40 n•m [30 ft-lb]
+>
+> ### Finishing Steps
+>
+> Install the integrated fuel system module. [[10-005-073-tr — Integrated Fuel System Module (IFSM)|Refer to Procedure 005-073]] in Section 5.
+>
+> Install the camshaft sensor. Refer to Procedure 019-038 in Section 19.
+>
+> Install the injector camshaft scissor gear. [[10-001-088-tr — Engine Base Timing|Refer to Procedure 001-088]] in Section 1.
+>
+> Install the rocker lever shafts. [[10-003-009-tr — Rocker Lever Assembly|Refer to Procedure 003-009]] in Section 3.
+>
+> Install the rocker lever cover. Refer to Procedure 003-011 in Section 3.
+>
+> Install the upper gear cover. Refer to Procedure 001-079 in Section 1.
+>
+> Operate the engine to normal operating temperature. Check for leaks.

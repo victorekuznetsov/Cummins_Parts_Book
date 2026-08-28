@@ -9,12 +9,14 @@ engines:
   - "71156161"
 families:
   - "QSM11"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101174.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101174.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSM11"
+  - "перевод/машинный"
 ---
 
 # Camshaft End Clearance Specification Change
@@ -25,14 +27,36 @@ tags:
 > **Даты:** изменён 2002-08-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101174.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101174.pdf)
 
-## Camshaft End Clearance Specification Change
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Camshaft End Clearance Изменение спецификации
 
-### Contents
+### Положение о гарантии
 
-This service/parts topic is being issued to update the camshaft end clearance specification. The current camshaft end clearance, 0.127 to 0.3302 mm \[0.005 to 0.013 in\], changes to 0.127 to 0.4064 mm \[0.005 to 0.016 in\]. An improved factory engine assembly process to install the cam gear allows this increased tolerance range.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-The Troubleshooting and Repair Manuals for M11, ISM, and QSM11 will be updated with this change.
+### Содержание
+
+Эта тема обслуживания/частей выпускается для обновления спецификации зазора конца распределительного вала. Текущий зазор конца распределительного вала от 0,127 до 0,3302 мм \[0,005 до 0,013 дюйма \], изменяется до 0,127 до 0,4064 мм \[0,005 до 0,016 дюйма \]. Улучшенный процесс сборки заводского двигателя для установки кулачковой передачи позволяет увеличить диапазон допусков.
+
+Руководство по устранению неполадок и ремонту для M11, ISM и QSM11 будет обновлено с этим изменением.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Camshaft End Clearance Specification Change
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service/parts topic is being issued to update the camshaft end clearance specification. The current camshaft end clearance, 0.127 to 0.3302 mm \[0.005 to 0.013 in\], changes to 0.127 to 0.4064 mm \[0.005 to 0.016 in\]. An improved factory engine assembly process to install the cam gear allows this increased tolerance range.
+>
+> The Troubleshooting and Repair Manuals for M11, ISM, and QSM11 will be updated with this change.

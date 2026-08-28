@@ -12,13 +12,15 @@ families:
 manuals:
   - "4358378"
 figures: 48
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/326/326-015-074.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/326-015-074.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/326"
+  - "перевод/машинный"
 ---
 
 # Component Software Download Tool
@@ -31,521 +33,954 @@ tags:
 > **Даты:** изменён 2019-11-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/326/326-015-074.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/326-015-074.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+### Общие сведения
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear goggles and protective clothing.
+> [!danger] ОПАСНО
+> Для уменьшения возможности получения травм или повреждения оборудования, эта процедура должна выполняться только квалифицированными специалистами по обслуживанию.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, не прикасайтесь к проводам или компоненту электропитания во время процедуры тестирования.
 
-Cummins® Marine Controls come with preloaded software from the factory.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травм, надевайте очки и защитную одежду.
 
-Use the following procedure to find and select software when updates are required. [[326-015-075 — Component Software Management|Refer to Procedure 015-075 in Section 15.]]
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-### Preparatory Steps
+Cummins Marine Controls поставляется с предустановленным программным обеспечением с завода.
 
-> [!warning] CAUTION · Осторожно
-> Before updating software in any control system component, verify that the Vessel Control System is completely operational. It is also important to test and document the configuration settings and vessel personality of the component, if needed.
+Используйте следующую процедуру для поиска и выбора программного обеспечения, когда требуется обновление.[[326-015-075 — Component Software Management|См. процедуру 015-075 в разделе 15.]]
 
-Prior to software file download, document and understand the vessel performance and alarm/fault codes. Follow the alarm/fault code or the appropriate troubleshooting symptom tree in order to understand issues. For an inboard joystick vessel, it will also be necessary to confirm the vessel personality is working correctly and the appropriate personality for the application is being utilized. Prior to component software update, reference the following procedures for testing and configuration setup information:
+### Подготовительные операции
 
-- Refer to Procedure 015-051 in Section 15 for the lever control station.
-- Refer to Procedure 015-052 in Section 15 for the inboard joystick.
-- [[326-015-054 — Vessel Configuration|Refer to Procedure 015-054 in Section 15]] for the vessel configuration.
-- Refer to Procedure 015-055 in Section 15 for the throttle control processor module.
-- Refer to Procedure 015-056 in Section 15 for the thruster interface module.
-- Perform a sea trial to verify proper function. Refer to Procedure 015-046 in Section 15.
+> [!warning] ОСТОРОЖНО
+> Перед обновлением программного обеспечения в любом компоненте системы управления убедитесь, что система управления судном полностью работоспособна. Также важно проверить и задокументировать настройки конфигурации и индивидуальность сосуда компонента, если это необходимо.
 
-### Setup Information
+Перед загрузкой программного обеспечения задокументируйте и поймите производительность судна и коды аварийной сигнализации / неисправности. Следуйте коду тревоги / ошибки или соответствующему дереву симптомов устранения неполадок, чтобы понять проблемы. Для бортового судна джойстика также необходимо будет подтвердить, что личность судна работает правильно, и используется соответствующая личность для приложения. Перед обновлением программного обеспечения компонента обратитесь к следующим процедурам тестирования и информации о настройке конфигурации:
 
-The following equipment is needed to connect to the component to perform a software update:
+- См. процедуру 015-051 в разделе 15 для станции управления рычагом.
+- См. процедуру 015-052 в разделе 15 для бортового джойстика.
+- [[326-015-054 — Vessel Configuration|См. процедуру 015-054 в разделе 15.]]конфигурация судна.
+- См. процедуру 015-055 в разделе 15 для модуля процессора управления дроссельной заслонки.
+- См. процедуру 015-056 в разделе 15 для модуля интерфейса двигателя.
+- Проведите морское испытание, чтобы проверить правильность работы. См. процедуру 015-046 в разделе 15.
 
-- Compatible computer
-- In-Circuit Programmer (ICP) Application and USB driver
-- Component Software Download Tool Kit Cummins® Part Number 5563489
-- Version 4 and greater control head programming cable.
+### Настройка информации
 
-The ICP Application and USB Driver can be found at INSITE.CUMMINS.COM in the related tools section of the website or on the Cummins® software shelf.
+Для подключения к компоненту для выполнения обновления программного обеспечения необходимо следующее оборудование:
 
-For computer compatibility requirements, reference INSITE.CUMMINS.COM.
+- Совместимый компьютер
+- In-Circuit Programmer (ICP) - приложение и USB драйвер
+- Компонент программного обеспечения Скачать инструмент Kit Cummins® Часть Номер 5563489
+- Версия 4 и более мощный кабель программирования головки управления.
 
-> [!note] Note · Примечание
-> For Cummins® employees, this software application should be downloaded from the Cummins® software shelf, keyword search 'ICP'.
+Приложение ICP и USB Driver можно найти на сайте INSITE.CUMMINS.COM в разделе соответствующих инструментов веб-сайта или на полке программного обеспечения Cummins®.
 
-Once the ICP Application is installed on the computer, it can be found under the name “ICP for Windows".
+Для требований к совместимости с компьютером, см. INSITE.CUMMINS.COM.
 
-![[ck800wa.png]]
+> [!note] Примечание
+> Для сотрудников Cummins® это программное приложение должно быть загружено с полки программного обеспечения Cummins®, поиск по ключевым словам «ICP».
 
-**ICP Application and USB Driver Installation**
-
-In order to load new software in the component software download tool (ICP2-Portable Programmer), Cummins® Part Number 5563489, it is necessary to install the ICP Application and USB driver in a Windows PC.
-
-> [!note] Note · Примечание
-> Do **not** connect the component software download tool (ICP2-Portable Programmer) to the computer until the ICP Aplication and USB driver are installed.
-
-![[ck800wa.png]]
-
-1. Download and save the ICP Application files to a suitable directory on your computer.
-
-2. This is a zip file. Extract the files from the zip file and save them in the same directory.
-
-3. Start the "ICPWin\_setup\_XXXX.exe program. This will install the application software on the computer. Respond to the prompts with any program installation.
-
-> [!note] Note · Примечание
-> One of the installation options is to install the ICP plug-in for the MPLAB (R) IDE. Answer “NO” - this is **not** used with the component software download tool (ICP2-Portable Programmer), Cummins® Part Number 5563489.
-
-4. Open the “CP2102\_USB\_Certified\_Driver” directory and run the program “CP210xVCPInstaller”. Respond to the prompts as with any program installation.
-
-5. Plug the component software download tool (ICP2-Portable Programmer) into the computer using any USB port. The computer will find the device driver and install it. Wait until the message is given that the device driver installation is complete before unplugging.
-
-> [!note] Note · Примечание
-> Connect the component software download tool (ICP2-Portable Programmer) to the same USB port each time. If it is **not**, the communications port will need to be reset for the new USB port.
+После установки приложения ICP на компьютере его можно найти под названием «ICP для Windows».
 
 ![[ck800wa.png]]
 
-**ICP Application and USB Driver Configuration**
+**Приложение ICP и установка USB-накопителя**
 
-1. Start the application – “ICP for Windows”. This will be found in the “Softlog” folder in the Start menu. During the initial startup of this program:
+Для того чтобы загрузить новое программное обеспечение в компонентный программный инструмент загрузки (ICP2-Portable Programmer), Cummins® Part Number 5563489, необходимо установить ICP-приложение и USB-драйвер в ПК с Windows.
 
-1. Make sure that the component software download tool (ICP2-Portable Programmer) is plugged in to the computer USB connection BEFORE you start up the “ICP for Windows” application
-2. An error will pop up during the initial startup process indicating that the program “Can't Open Port”. This is normal. The communications port will be set in Step 4 below
-3. The “About” information screen will pop up during the initial startup indicating that the connections should be checked. Press OK and ignore.
-4. If a message appears “Newer firmware is available. Upgrade now?” - Press “NO".
+> [!note] Примечание
+> Не подключайте инструмент загрузки программного обеспечения (ICP2-Portable Programmer) к компьютеру до установки ICP Aplication и USB драйвера.
+
+![[ck800wa.png]]
+
+1. Загрузите и сохраните файлы приложения ICP в подходящую директорию на вашем компьютере.
+
+2. Это Zip-файл. Извлеките файлы из ZIP-файла и сохраните их в том же каталоге.
+
+3. Запустите программу "ICPWin\_setup\_XXXX.exe". Это позволит установить прикладное программное обеспечение на компьютер. Отвечайте на запросы с любой установкой программы.
+
+> [!note] Примечание
+> Одним из вариантов установки является установка плагина ICP для IDE MPLAB (R). Ответ «НЕТ» — это **не** используется с компонентом программного обеспечения (ICP2-Portable Programmer), Cummins® Part Number 5563489.
+
+4. Откройте каталог «CP2102\_USB\_Certified\_Driver» и запустите программу «CP210xVCPInstaller». Отвечайте на запросы, как при любой установке программы.
+
+5. Подключите компонент программного обеспечения (ICP2-Portable Programmer) к компьютеру с помощью любого USB-порта. Компьютер найдет драйвер устройства и установит его. Подождите, пока будет дано сообщение о том, что установка драйвера устройства завершена, прежде чем отключить.
+
+> [!note] Примечание
+> Подключайте компонентный инструмент загрузки программного обеспечения (ICP2-Portable Programmer) к одному и тому же порту USB каждый раз. Если это не так, порт связи должен быть сброшен для нового порта USB.
+
+![[ck800wa.png]]
+
+**Приложение ICP и конфигурация USB-драйвера**
+
+1. Запустите приложение — «ICP для Windows». Это будет найдено в папке «Softlog» в меню «Пуск». В ходе начального запуска этой программы:
+
+1. Убедитесь, что компонент программного обеспечения загружается инструмент (ICP2-Portable Programmer) подключен к компьютеру USB-соединение, прежде чем вы запустите приложение «ICP для Windows».
+2. Во время начального процесса запуска всплывет ошибка, указывающая на то, что программа «Не может открыть порт». Это нормально. Порт связи будет установлен на шаге 4 ниже.
+3. Экран информации «О» появится во время начального запуска, указывая, что соединения должны быть проверены. Нажмите OK и игнорируйте.
+4. Если сообщение появляется "Существует более новая прошивка. Обновление сейчас? - Нажмите "Нет".
 
 ![[15a00013.png]]
 
-2. Select the program which will be used. Click on "Programmer" then "Select Programmer". Highlight the box next to "ICP2-Portable” and press “OK”.
+2. Выберите программу, которая будет использоваться. Нажмите на «Программист», затем «Выбрать программиста». Выделите коробку рядом с «ICP2-Portable» и нажмите «ОК».
 
 ![[15a00014.png]]
 
-3. Select the communications port which will be used. Click on "Communication" then "RS-232/USB/Bluetooth".
+3. Выберите порт связи, который будет использоваться. Нажмите на «Сообщение», затем «RS-232/USB/Bluetooth».
 
 ![[15a00015.png]]
 
-4. Highlight the selection indicated “Silicon Labs CP210x to USB to UART bridge” and then press “OK".
+4. Выделите выбор, который указывает «Silicon Labs CP210x to USB to UART Bridge» и затем нажмите «ОК».
 
-> [!note] Note · Примечание
-> If a message appears “Newer firmware is available. Upgrade now?”, press “YES” and follow the on-screen instructions.
+> [!note] Примечание
+> Если сообщение появляется "Существует более новая прошивка. Обновление сейчас?, нажмите «ДА» и следуйте инструкциям на экране.
 
 ![[15a00016.png]]
 
-5. Save the Configuration. Click on “File” then “Save Configuration” and press “Enter”. The programmer type and communication port are now saved.
+5. Сохранить конфигурацию. Нажмите на «Файл», затем «Сохранить конфигурацию» и нажмите «Войти». Сохранены тип программиста и порт связи.
 
 ![[15a00017.png]]
 
-### Transfer
+### передача
 
-To transfer software from the computer to the component software download tool (ICP2-Portable Programmer), do the following in the order below.
+Для передачи программного обеспечения с компьютера на компонент программного обеспечения скачать инструмент (ICP2-Portable Programmer), сделать следующее в порядке ниже.
 
-1. The software, also called “Environment”, which will be loaded on the component software download tool (ICP2-Portable Programmer) should be obtained and stored on the computer. Use the following procedure to find and select software when software updates are required. [[326-015-075 — Component Software Management|Refer to Procedure 015-075 in Section 15.]]
+1. Программное обеспечение, также называемое «Окружающая среда», которое будет загружаться на компонент программного обеспечения (ICP2-Portable Programmer), должно быть получено и сохранено на компьютере. Используйте следующую процедуру для поиска и выбора программного обеспечения, когда требуется обновление программного обеспечения.[[326-015-075 — Component Software Management|См. процедуру 015-075 в разделе 15.]]
 
-2. Connect the component software download tool (ICP2-Portable Programmer) Cummins® Part Number 5563489 to computer using USB cable Cummins® Part Number 5299884.
+2. Подключите компонентный инструмент загрузки программного обеспечения (ICP2-Portable Programmer) Cummins® Part Number 5563489 к компьютеру с использованием USB-кабеля Cummins® Part Number 5299884.
 
-3. Start the “ICP for Windows” application.
+3. Запустите приложение «ICP для Windows».
 
-1. Two screens will appear during start up - “What's New” and “About” (ICP Family). Click “OK” to ignore these boxes.
-2. During this process, the ICP for Windows application will establish communication with the component software download tool (ICP2-Portable Programmer). If this fails, the communication port will have to be reset. See Setup Information section above.
+1. Во время запуска появятся два экрана — «Что нового» и «О семье» (ICP Family). Нажмите «ОК», чтобы проигнорировать эти поля.
+2. В ходе этого процесса приложение ICP для Windows установит связь с компонентом программного обеспечения (ICP2-Portable Programmer). Если это не удастся, порт связи придется сбросить. См. раздел «Информация о настройках» выше.
 
 ![[15a00018.png]]
 
-4. On the Control Center box, click on the “PC-Driven” tab on the main screen.
+4. На поле Центра управления нажмите на вкладку «PC-Driven» на главном экране.
 
-5. On the “ICP2 Portable Environment box”, click on the button associated with the “Environment” box where the software will be stored. In the screenshot shown, the software will be stored in “Environment \#2".
+5. На «коробке переносной среды ICP2» нажмите кнопку, связанную с «коробкой окружающей среды», где будет храниться программное обеспечение. На показанном скриншоте программное обеспечение будет храниться в «Окружающая среда \#2».
 
 ![[15a00019.png]]
 
-6. Click on “Environment” then “Transfer Environment to Programmer ….” in order to transfer the software environment from the computer to the component software download tool (ICP2-Portable Programmer. Using the normal Windows commands, browse to the location where the software environment was stored in Step 1 above, highlight the file name, and then click “Open”. A progress bar will pop up indicating that the software transfer is in progress. A popup screen will be shown when the transfer is successful.
+6. Нажмите на «Окружающая среда», затем «Перенести среду программисту...», чтобы перенести программную среду с компьютера на инструмент загрузки программного обеспечения компонента (ICP2-Portable Programmer). Используя обычные команды Windows, просмотрите место, где программная среда была сохранена на шаге 1 выше, выделите имя файла, а затем нажмите «Открыть». Всплывет строка прогресса, указывающая, что передача программного обеспечения продолжается. Экран всплывающего окна будет показан, когда передача будет успешной.
 
-7. When the software transfer is complete, disconnect the component software download tool (ICP2-Portable Programmer) from the computer.
+7. Когда передача программного обеспечения завершена, отсоедините компонент программного обеспечения (ICP2-Portable Programmer) от компьютера.
 
 ![[15a00020.png]]
 
-8. Use a label maker to document the software file name and version on the component software download tool (ICP2-Portable Programmer) in the space next to the environment number (1). [[326-015-075 — Component Software Management|Refer to Procedure 015-075 in Section 15]] for details about software file name format.
+8. Используйте метку производителя для документирования имени файла программного обеспечения и версии на компоненте программного обеспечения скачать инструмент (ICP2-Portable Programmer) в пространстве рядом с номером среды (1).[[326-015-075 — Component Software Management|См. процедуру 015-075 в разделе 15.]]Подробнее о формате имени файла программного обеспечения.
 
 ![[15a00021.png]]
 
-### Connect
+### Подключай
 
-> [!warning] CAUTION · Осторожно
-> Before updating software in any control system component, verify that the Vessel Control System is completely operational. It is also important to test and document the configuration settings and vessel personality (if needed) of the component. See Preparatory Steps Section above.
+> [!warning] ОСТОРОЖНО
+> Перед обновлением программного обеспечения в любом компоненте системы управления убедитесь, что система управления судном полностью работоспособна. Также важно проверить и задокументировать настройки конфигурации и индивидуальность сосуда (при необходимости) компонента. См. раздел подготовительные шаги выше.
 
-The process of updating software in the control system component is as follows:
+Процесс обновления программного обеспечения в компоненте системы управления заключается в следующем:
 
-1. Remove the control system component from the location where it is mounted. See below for details on each component.
-2. Reconnect the control system component to boat wiring in order to power up the component prior to software download. See below for details on each component.
-3. Disassemble, if necessary, the control system component to gain access to the programming pins and connect the programing cable. See below for details on each component.
-4. Connect component software download tool (ICP2-Portable Programmer) to the component, and download the software from the Programmer to the control system component. See Download section below.
-5. After programming, disconnect the programmer and cables from the component and reassemble, if necessary. Install the control system component.
-6. If needed, configure the control system component and load vessel personality. Test and validate the control system for proper operation. See Finishing Step section.
+1. Удалите компонент системы управления из места, где он установлен. Ниже приведены подробности по каждому компоненту.
+2. Подсоедините компонент системы управления к проводах лодки, чтобы включить компонент до загрузки программного обеспечения. Ниже приведены подробности по каждому компоненту.
+3. Разобрать, при необходимости, компонент системы управления для получения доступа к штифтам программирования и подключения кабеля программирования. Ниже приведены подробности по каждому компоненту.
+4. Подключите компонент программного обеспечения (ICP2-Portable Programmer) к компоненту и загрузите программное обеспечение от Программиста к компоненту системы управления. См. раздел Download ниже.
+5. После программирования отсоедините программист и кабели от компонента и соберите их заново, если это необходимо. Установите компонент системы управления.
+6. При необходимости настройте компонент системы управления и нагрузите личность судна. Проверить и проверить систему управления на предмет правильной работы. См. раздел «Завершение шага».
 
 ![[ck800wa.png]]
 
-Inboard Joystick
+Внутренний Joystick
 
-The joystick configuration and vessel personality should be saved for reinstallation when the software update download is complete. See Preparatory Step section.
+Конфигурация джойстика и личность сосуда должны быть сохранены для переустановки, когда загрузка обновления программного обеспечения завершена. См. раздел подготовительный этап.
 
 ![[15500006.png]]
 
-1. If the programming port located on the bottom of the joystick is **not** accessible, remove the joystick. Refer to Procedure 015-052 in Section 15.
+1. Если порт программирования, расположенный на дне джойстика, недоступен, удалите джойстик. См. процедуру 015-052 в разделе 15.
 
 ![[15500015.png]]
 
-2. Provide power to the joystick.
+2. Дайте энергию джойстику.
 
-If the joystick was removed, connect the yellow CANbus cable,Cummins® Part Number 5299804, in the Component Software Download Tool Kit, Cummins® Part Number 5563489, to extend power from the CANbus cable disconnected to the joystick in step 1.
+Если джойстик был удален, соедините желтый кабель CANbus, Cummins® Part Number 5299804, в комплекте инструментов загрузки программного обеспечения, Cummins® Part Number 5563489, чтобы увеличить мощность от кабеля CANbus, отключенного до джойстика на шаге 1.
 
-Turn the system power "ON", engine OFF, to verify the joystick lights come on.
+Включите питание системы «Включено», выключите двигатель, чтобы проверить, включены ли джойстики.
 
-> [!note] Note · Примечание
-> When using the yellow CANbus cable, Cummins® Part Number 5299804, power extension cable, the lights on the component will begin flashing approximately 15 seconds after the system power is turned on.
+> [!note] Примечание
+> При использовании желтого кабеля CANbus, Cummins® Part Number 5299804, кабеля расширения мощности, огни на компоненте начнут мигать примерно через 15 секунд после включения питания системы.
 
-If there were two CANbus cables disconnected in Step 1, and no joystick lights are observed when the system power is “ON”, connect the yellow CANbus, Cummins® Part Number 5299804, to the other CANbus cable disconnected in Step 1.
+Если на шаге 1, были отключены два кабеля CANbus, и при включении питания системы не наблюдается джойстиков, соедините желтый кабель CANbus, Cummins® Part Number 5299804 с другим кабелем CANbus, отключенным на шаге 1.
 
-Turn the system power “OFF” once power is verified to the control system component.
+Включите питание системы «OFF» после проверки мощности на компонент системы управления.
 
 ![[15a00022.png]]
 
-3. Connect component programming cable, Cummins® Part Number 5299798, to the joystick programming port.
+3. Подключите компонентный программный кабель Cummins® Part Number 5299798 к порту джойстика.
 
-> [!note] Note · Примечание
-> The joystick has an external programming port on the bottom cover. Disassembly of the joystick is **not** required for software download.
+> [!note] Примечание
+> Джойстик имеет внешний порт программирования на нижней крышке. Разборка джойстика не требуется для загрузки программного обеспечения.
 
 ![[15a00023.png]]
 
-4. Use component software download tool (ICP2-Portable Programmer) to download software to the component. See Download section for details.
+4. Используйте инструмент загрузки программного обеспечения (ICP2-Portable Programmer) для загрузки программного обеспечения в компонент. См. раздел Download для подробностей.
 
 ![[ck800wa.png]]
 
-5. If removed, install the inboard joystick. Refer to Procedure 015-052 in Section 15.
+5. Если вы его удалите, установите бортовой джойстик. См. процедуру 015-052 в разделе 15.
 
-6. Configure the control system component and load vessel personality. Test and validate the control system for proper operation. See Finishing Step section.
+6. Настройка компонента системы управления и нагрузка судна. Проверить и проверить систему управления на предмет правильной работы. См. раздел «Завершение шага».
 
 ![[15500015.png]]
 
-Thruster Interface Module
+Модуль интерфейса ruster
 
-1) Remove and disassemble the thruster interface module. Refer to Procedure 015-056 in Section 15.
+1) Удалить и разобрать модуль интерфейса двигателя. См. процедуру 015-056 в разделе 15.
 
 ![[15500011.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, не прикасайтесь к проводам или компоненту электропитания во время процедуры тестирования.
 
-> [!warning] CAUTION · Осторожно
-> The thruster interface module circuit board is extremely sensitive to static electricity and should not be touched. Hold the circuit board by the Deutsch™ connectors. When placing the circuit board on a surface, ensure that the surface is clean and the circuit board does not touch anything which is metal.
+> [!warning] ОСТОРОЖНО
+> Схемная плата модуля интерфейса двигателя чрезвычайно чувствительна к статическому электричеству и не должна касаться. Держите печатную плату разъемами DeutschTM. При размещении печатной платы на поверхности убедитесь, что поверхность чистая и печатная плата не касается ничего, что является металлом.
 
-2) Connect the yellow CANbus cable, Cummins® Part Number 5299804, in the Component Software Download Tool Kit, Cummins® Part Number 5563489, to extend power from the CANbus cable disconnected in Step 1 to the thruster interface module.
+2) Подключить желтый кабель CANbus, Cummins® Part Number 5299804, в комплекте инструментов загрузки программного обеспечения для компонентов, Cummins® Part Number 5563489, для увеличения мощности от кабеля CANbus, отключенного на этапе 1, до модуля интерфейса двигателя.
 
-Provide power to the thruster interface module by connecting the black 12-pin connector.
+Обеспечьте питание модуля интерфейса двигателя, подключив черный 12-контактный разъем.
 
-Turn the system power “ON”, engine OFF. The thruster interface power supply light (5) indicates that the circuit board is receiving power from the CAN network.
+Включите питание системы «Включено», двигатель выключен. Интерфейс двигателя питания света (5) указывает, что плата получает питание от сети CAN.
 
-> [!note] Note · Примечание
-> When using the yellow CANbus cable Cummins® Part Number 5299804 power extension cable, the lights on the component will begin flashing approximately 15 seconds after the system power is turned on.
+> [!note] Примечание
+> При использовании желтого кабеля CANbus Cummins® Part Number 5299804 силовой удлинитель кабеля, огни на компоненте начнут мигать примерно через 15 секунд после включения питания системы.
 
-Turn the system power “OFF” once power is verified to the control system component.
+Включите питание системы «OFF» после проверки мощности на компонент системы управления.
 
-> [!note] Note · Примечание
-> A portion of the thruster interface module circuit board is shielded for EMI protection. The shield cannot be removed. The lights under the shield can be viewed in the gap above the lights.
+> [!note] Примечание
+> Часть платы модуля интерфейса двигателя защищена для защиты EMI. Щит не может быть снят. Огни под щитом можно увидеть в промежутке над огнями.
 
 ![[15900103.png]]
 
-3) Connect component programming cable, Cummins® Part Number 5299797 (1), to the programming pins.
+3) Подключить компонентный программный кабель Cummins® Part Number 5299797 (1) к программным штифтам.
 
-> [!note] Note · Примечание
-> The circuit board is located between the cable pin connector.
+> [!note] Примечание
+> Схемная плата расположена между разъёмом штифта кабеля.
 
 ![[15a00024.png]]
 
-4) Use component software download tool (ICP2-Portable Programmer) to download software to the component. See Download section for details.
+4) Используйте инструмент загрузки программного обеспечения компонента (ICP2-Portable Programmer) для загрузки программного обеспечения в компонент. См. раздел Download для подробностей.
 
 ![[ck800wa.png]]
 
-5) Assemble and install the thruster interface module. Refer to Procedure 015-056 in Section 15.
+5) Собрать и установить модуль интерфейса двигателя. См. процедуру 015-056 в разделе 15.
 
-6) Test and validate the control system for proper operation. See Finishing Step section.
+6) Испытание и проверка системы управления на предмет ее надлежащей работы. См. раздел «Завершение шага».
 
 ![[15500011.png]]
 
-Version 3 and Older Lever Control Station
+Версия 3 и старая станция управления рычагами
 
-There are two different versions of control heads. The legacy control head version is 3 and older and the existing version is 4 and greater. Version 4 and greater control heads have an additional service port on the bottom of the device.
+Существует две разные версии головок управления. Унаследованная версия с головкой управления 3 и старше, а существующая версия 4 и больше. Версия 4 и большие головки управления имеют дополнительный порт обслуживания на нижней части устройства.
 
-1) Remove the lever control station. Refer to Procedure 015-051 in Section 15.
+1) Снять станцию управления рычагом. См. процедуру 015-051 в разделе 15.
 
 ![[15500012.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, не прикасайтесь к проводам или компоненту электропитания во время процедуры тестирования.
 
-2) Provide power to the lever control station.
+2) Обеспечить питанием станцию управления рычагом.
 
-Follow Option A or B below, depending on the number of CANbus cables connected to the lever control station.
+Следуйте варианту А или В ниже, в зависимости от количества кабелей CANbus, подключенных к станции управления рычагом.
 
-Option A:
+Вариант А:
 
-If **only** one CANbus cable is connected to the lever control station:
+Если только один кабель CANbus подключен к станции управления рычагом:
 
-Connect the yellow CANbus cable, Cummins® Part Number 5299804, in the Component Software Download Tool Kit, Cummins® Part Number 5299795, to extend power from the CANbus cable disconnected to the lever control station in step 1.
+Подключите желтый кабель CANbus, Cummins® Part Number 5299804, в комплекте инструментов загрузки программного обеспечения для компонентов, Cummins® Part Number 5299795, чтобы увеличить мощность от кабеля CANbus, отключенного до станции управления рычагом на шаге 1.
 
-Option B:
+Вариант В:
 
-If two CANbus cables are installed on the lever control station:
+Если на стойке управления рычагом установлены два кабеля CANbus:
 
-Determine which cable is routed to the throttle control processor module and connect the lever control station to that cable using the yellow CANbus cable, Cummins® Part Number 5299804.
+Определите, какой кабель направляется в модуль процессора управления дроссельной заслонки, и подключите станцию управления рычагом к этому кабелю с помощью желтого кабеля CANbus, Cummins® Part Number 5299804.
 
-If this can **not** be determined, choose one cable, and install the yellow CANbus cable, Cummins® Part Number 5299804 and turn the system power “ON” and engine OFF. If lights are observed on the lever control station when the system power is “ON”, and engine OFF, the correct cable connection has been made.
+Если это можно определить **не**, выберите один кабель и установите желтый кабель CANbus, Cummins® Part Number 5299804 и включите питание системы «Включено» и выключите двигатель. Если на станции управления рычагом наблюдаются огни, когда питание системы «Включено», и выключен двигатель, правильное подключение кабеля было сделано.
 
-> [!note] Note · Примечание
-> When using the yellow CANbus cable, Cummins® Part Number 5299804, power extension cable, the lights on the component will begin flashing approximately 15 seconds after the system power is turned on.
+> [!note] Примечание
+> При использовании желтого кабеля CANbus, Cummins® Part Number 5299804, кабеля расширения мощности, огни на компоненте начнут мигать примерно через 15 секунд после включения питания системы.
 
-If no lights are on, connect the yellow CANbus cable, Cummins® Part Number 5299804, to the other CANbus cable. Once the cable is connected to the correct CANbus cable and verified it provides power to the lever control station, turn the system power “OFF".
+Если свет не включен, соедините желтый кабель CANbus, Cummins® Part Number 5299804 с другим кабелем CANbus. После того, как кабель подключен к правильному кабелю CANbus и проверен, он обеспечивает питание к рычажной станции управления, поверните систему питания «OFF».
 
 ![[15a00025.png]]
 
-3) Connect the component programming cable to the programming pins.
+3) Подключить кабель программирования компонентов к штифтам программирования.
 
-The lever control station **must** be disassembled in order to access the programming pins.
+Станция управления рычагом должна быть разобрана для доступа к штифтам программирования.
 
-Press the lever control station handles to the full ahead forward position.
+Нажмите на ручки рычага управления в полном переднем положении.
 
-Place lever control station upside down onto a soft cloth.
+Поместите станцию управления рычагом вверх ногами на мягкую ткань.
 
-Rotate the lever control station so that the front of the lever control station (button pad side) is closest to you.
+Поверните станцию управления рычагом так, чтобы передняя часть станции управления рычагом (сторона кнопочника) была ближе всего к вам.
 
-Remove the screws from the bottom cover.
+Удалите винты с нижней крышки.
 
-Grasp the bottom cover/gasket and pull towards you and rotate the cover/gasket assembly 180 degrees as shown.
+Возьмите нижнюю крышку / прокладку и потяните к себе и поверните крышку / прокладку на 180 градусов, как показано.
 
 ![[15a00026.png]]
 
-Locate the programming pins on the lever control station circuit board with the lever control station upside down and the front of the lever control station (button pad side) towards you.
+Найдите программные штифты на плате управления рычажком с станцией управления рычагом вверх ногами и передней частью станции управления рычагом (сторона кнопочной панели) к вам.
 
-A) Two button lever control station - programming pins are located on the bottom right corner.
+A) Станция управления рычагом с двумя кнопками - штифты программирования расположены в правом нижнем углу.
 
-Connect the programming cable connector: Two button lever control station Cummins® Part Number 5299800.
+Подключите программный кабельный разъем: Две кнопки рычага управления станции Cummins® Часть Номер 5299800.
 
-The programming cable connector for the two button lever control station is orientated correctly by following the instructions on the cable connector label.
+Программирующий кабельный разъем для двух кнопочных рычагов управления станцией правильно ориентирован, следуя инструкциям на этикетке кабельного разъема.
 
-Make sure the connector connects to all pins.
+Убедитесь, что разъем подключается ко всем штифтам.
 
 ![[15a00027.png]]
 
-B) Four button lever control station - programming pins are located on the middle right side.
+B) Четыре кнопочных рычага управления станцией - программные штифты расположены посередине справа.
 
-Connect the programming cable connector: Four button lever control station Cummins® Part Number 5299799
+Подключите программный кабельный разъем: Четыре кнопки рычага управления станции Cummins® Часть Номер 5299799
 
-The programming cable connector for the four button lever control station is keyed and is orientated correctly when clicks into place. Make sure the connector connects to all pins.
+Разъем кабеля программирования для станции управления рычагом с четырьмя кнопками нажат и правильно ориентирован при нажатии на место. Убедитесь, что разъем подключается ко всем штифтам.
 
 ![[15a00028.png]]
 
-4) Use component software download tool (ICP2-Portable Programmer) to download software to the component. See Download section for details.
+4) Используйте инструмент загрузки программного обеспечения компонента (ICP2-Portable Programmer) для загрузки программного обеспечения в компонент. См. раздел Download для подробностей.
 
 ![[ck800wa.png]]
 
-5) Assemble and install the lever control station.
+5) Собрать и установить станцию управления рычагом.
 
-Remove the yellow CANbus cable power extension from the lever control station connector.
+Удалите желтое расширение кабеля CANbus от разъема станции управления рычагом.
 
-Rotate the gasket/cover assembly back onto the bottom of the lever control station.
+Поверните прокладку/узел крышки обратно на дно станции управления рычагом.
 
-Make sure that the bottom cover is properly seated into the lever control station gasket.
+Убедитесь, что нижняя крышка правильно вставлена в прокладку станции управления рычагом.
 
-Inspect the wires that run from the connectors to the lever control station. Make sure the wires are not “pinched” as the gasket/ cover is pushed against the bottom of the lever control station.
+Осмотрите провода, которые проходят от разъемов до станции управления рычагом. Убедитесь, что провода не «зажаты», так как прокладка / крышка прижата к нижней части станции управления рычагом.
 
 ![[15a00029.png]]
 
-Once the gasket/cover assembly is placed correctly and the gasket is fully seated onto the lever control station, attach the bottom cover and evenly tighten the screws in a star-shaped pattern. Make sure wires do **not** pop out and get pinched.
+После того, как прокладка / крышка сборки размещена правильно и прокладка полностью сиденье на рычаг управления станцией, прикрепить нижнюю крышку и равномерно затянуть винты в звездообразной форме рисунка. Убедитесь, что провода **не **выскакивают и зажимаются.
 
-Once tightened, the gasket should be evenly compressed and shaped all around the lever control station.
+После того, как прокладка будет сжата, она должна быть равномерно сжата и сформирована вокруг станции управления рычагом.
 
 ![[15a00030.png]]
 
-Install the lever control station. Refer to Procedure 015-051 in Section 15.
+Установите станцию управления рычагом. См. процедуру 015-051 в разделе 15.
 
-6) Configure the control system component. Test and validate the control system for proper operation. See Finishing Step section.
+6) Настройка компонента системы управления. Проверить и проверить систему управления на предмет правильной работы. См. раздел «Завершение шага».
 
 ![[15500012.png]]
 
-Version 4 and Greater Lever Control Station
+Версия 4 и станция управления большим рычагом
 
-There are two different versions of control head levers. The legacy control head lever version (1) is 3 and the existing version is 4 (2). Version 4 and greater control head levers have an additional programming port on the bottom of the device.
+Существует две разные версии рычагов управления головкой. Унаследованная версия рычага управления (1) - 3, а существующая версия - 4 (2). Версия 4 и большие рычаги управления головкой имеют дополнительный порт программирования на нижней части устройства.
 
-1. Remove the lever control station. Locate the version number on the data plate on the bottom of the lever control station. Refer to Procedure 015-051 in Section 15.
+1. Удалите станцию управления рычагом. Найдите номер версии на табличке с данными в нижней части станции управления рычагом. См. процедуру 015-051 в разделе 15.
 
 ![[15e00176.png]]
 
-2. Connect the programming cable, Cummins® Part Number 5563489, to the control head programming port. This cable is included in the Component Software Download Tool Kit, Cummins® Part Number 5563489. The programming cable is also available to purchase as a standalone cable.
+2. Подключите программный кабель Cummins® Part Number 5563489 к порту программирования управляющей головки. Этот кабель включен в комплект инструментов загрузки программного обеспечения, Cummins® Part Number 5563489. Программный кабель также доступен для покупки в качестве автономного кабеля.
 
-3. Connect the programming cable, Cummins® Part Number 5563489, to ICP2 Portable Programmer.
+3. Подключите программный кабель Cummins® Part Number 5563489 к ICP2 Portable Programmer.
 
-> [!note] Note · Примечание
-> The Version 4 and greater control lever has an external programming port on the bottom cover. Disassembly of the control lever is not required for software download.
+> [!note] Примечание
+> Версия 4 и больший рычаг управления имеют внешний порт программирования на нижней крышке. Разборка рычага управления не требуется для загрузки программного обеспечения.
 
-4. Use ICP for Windows (ICP2-Portable Programmer) to download software to the component. See Download section for details.
+4. Используйте ICP для Windows (ICP2-Portable Programmer) для загрузки программного обеспечения в компонент. См. раздел Download для подробностей.
 
 ![[ck800wa.png]]
 
-Throttle Control Processor Module
+Модуль процессора управления дроссельной заслонки
 
-1) Remove the throttle control processor module. Refer to Procedure 015-055 in Section 15.
+1) Удалить модуль процессора управления дроссельной заслонки. См. процедуру 015-055 в разделе 15.
 
 ![[15500009.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, не прикасайтесь к проводам или компоненту электропитания во время процедуры тестирования.
 
-> [!warning] CAUTION · Осторожно
-> It is critical that the appropriate jumper plug is used with the throttle control processor module and system power supply battery voltage.
+> [!warning] ОСТОРОЖНО
+> Крайне важно, чтобы соответствующая вилка перемычки использовалась с процессорным модулем управления дроссельной заслонки и напряжением батареи питания системы.
 
-2) Provide power to the throttle control processor module.
+2) Обеспечить питание модуля процессора управления дроссельной заслонки.
 
-1. Connect the power extension cable, Cummins® Part Number 5299805, to reconnect power to the throttle control processor module.
-2. Connect the yellow CANbus cable, Cummins® Part Number 5299804, in the Component Software Download Tool Kit, Cummins® Part Number 5299795, to extend power from the CANbus cable disconnected in Step 1 to the lever control station.
-3. Insert the power jumper plug.
+1. Подключите кабель расширения мощности, Cummins® Part Number 5299805, чтобы восстановить подключение мощности к модулю процессора управления дроссельной заслонки.
+2. Подключите желтый кабель CANbus, Cummins® Part Number 5299804, в комплекте инструментов загрузки программного обеспечения для компонентов, Cummins® Part Number 5299795, чтобы расширить мощность от кабеля CANbus, отключенного на шаге 1, до станции управления рычагом.
+3. Вставьте вилку прыгуна.
 
-> [!note] Note · Примечание
-> When using the yellow CANbus cable, Cummins® Part Number 5299804, power extension cable, the lights on the component will begin flashing approximately 15 seconds after the system power is turned on.
+> [!note] Примечание
+> При использовании желтого кабеля CANbus, Cummins® Part Number 5299804, кабеля расширения мощности, огни на компоненте начнут мигать примерно через 15 секунд после включения питания системы.
 
-#### Throttle Control Processor Module, EEC3
+#### Модуль процессора управления дроссельной заслонки, EEC3
 
-- Insert the power jumper plug into the 12 pin connector labeled “CP Enable” in order to activate the processor.
+- Вставьте в 12-контактный разъем вилку перемычки питания с надписью «CP Enable», чтобы активировать процессор.
 
 Power Jumper Plug:
 
-- EEC3 - 24 volt Cummins® Part Number 5299802
-- EEC3 - 12 volt Cummins® Part Number 5299803.
+- EEC3 - 24 вольт Cummins® Part Number 5299802
+- EEC3 - 12 вольт Cummins® Часть Номер 5299803.
 
-#### Throttle Control Processor Module, EEC4
+#### Модуль процессора управления дроссельной заслонки, EEC4
 
-- Insert the power jumper plug into either the port or starboard 12 pin connector labeled “Gear Shift” in order to activate the processor.
+- Вставьте вилку перемычки питания в порт или в правый 12-контактный разъем с надписью «Gear Shift», чтобы активировать процессор.
 
 Power Jumper Plug:
 
 - EEC4 - Cummins® Part Number 5299801.
 
-> [!note] Note · Примечание
-> Once the jumper is plugged in, power is immediately supplied to the throttle control processor module from unswitched battery supply. The keyswitch is bypassed and no longer sends a signal to turn the power on. The throttle control processor module enable relay should audibly “click” as it powers up when the jumper is plugged in. The lights on the lever control station will begin flashing approximately 15 seconds after the jumper is plugged in.
+> [!note] Примечание
+> После того, как прыгун подключен, мощность немедленно подается в модуль процессора управления дроссельной заслонки от непереключенного питания батареи. Переключатель зажигания обойден и больше не посылает сигнал для включения питания. Модуль процессора управления дроссельной заслонки включает реле, которое должно громко «щелкать», когда оно включается, когда прыгун подключен. Свет на станции управления рычагом начнет мигать примерно через 15 секунд после подключения прыгуна.
 
-Remove the jumper plug to turn the system power “OFF” once power is verified to the control system component.
+Удалите вилку перемычки, чтобы включить питание системы «OFF», как только питание будет проверено на компоненте системы управления.
 
 ![[15a00031.png]]
 
-3) Connect the component programming cable to the programming pins. The throttle control processor module **must** be disassembled in order to access the programming pins. Remove the back cover from the throttle control processor module by removing the screws, mounting standoffs, and grommets.
+3) Подключить кабель программирования компонентов к штифтам программирования. Процессорный модуль управления дроссельной заслонки должен быть разобран для доступа к штифтам программирования. Удалите заднюю крышку из модуля процессора управления дроссельной заслонки, удалив винты, монтажные противостояния и громметы.
 
 ![[15a00032.png]]
 
-Connect the programming cable connector, Cummins® Part Number 5299799, to the programming pins. The programming pins are located on the circuit board at the middle top side opposite the external harness connectors.
+Подключите кабельный разъем программирования Cummins® Part Number 5299799 к штифтам программирования. Пины программирования расположены на плате в средней верхней части напротив внешних разъёмов жгута проводов.
 
 ![[15a00033.png]]
 
-4) Use component software download tool (ICP2-Portable Programmer) to download software to the component. See Download Step section for details.
+4) Используйте инструмент загрузки программного обеспечения компонента (ICP2-Portable Programmer) для загрузки программного обеспечения в компонент. См. раздел Шаг для деталей.
 
 ![[ck800wa.png]]
 
-5) Assemble and install the throttle control processor module. Make sure the sealing gasket is positioned correctly and install the back cover to the throttle control processor module. Install the screws, mounting standoffs, and grommets.
+5) Сборка и установка модуля процессора управления дроссельной заслонки. Убедитесь, что уплотнительная прокладка правильно расположена и установите заднюю крышку на модуль процессора управления дроссельной заслонки. Установите винты, монтажные противостояния и громметы.
 
 ![[15a00032.png]]
 
-Install the throttle control processor module. Refer to Procedure 015-055 in Section 15.
+Установите модуль процессора управления дроссельной заслонки. См. процедуру 015-055 в разделе 15.
 
-6) Configure the control system component. Test and validate the control system for proper operation. See Finishing Steps section.
+6) Настройка компонента системы управления. Проверить и проверить систему управления на предмет правильной работы. См. раздел Завершающие шаги.
 
 ![[15500009.png]]
 
-### Download
+### скачать
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, не прикасайтесь к проводам или компоненту электропитания во время процедуры тестирования.
 
-> [!warning] CAUTION · Осторожно
-> Before updating software in any control system component, verify that the Vessel Control System is completely operational. It is also important to test and document the configuration settings and vessel personality, if needed, of the component. See Preparatory Steps Section above.
+> [!warning] ОСТОРОЖНО
+> Перед обновлением программного обеспечения в любом компоненте системы управления убедитесь, что система управления судном полностью работоспособна. Также важно проверить и задокументировать настройки конфигурации и индивидуальность сосуда, если это необходимо. См. раздел подготовительные шаги выше.
 
-The process of updating the software in the control system component is as follows:
+Процесс обновления программного обеспечения в компоненте системы управления заключается в следующем:
 
-1) Connect component software download tool (ICP2-Portable Programmer) (1) to the cable (2) connected to the programming pins on the control system component. The programming cable will vary depending on the specific component.
+1) Подключить компонент программного обеспечения инструмент загрузки (ICP2-Portable Programmer) (1) к кабелю (2), подключенному к штифтам программирования на компоненте системы управления. Программный кабель будет варьироваться в зависимости от конкретного компонента.
 
-2) Turn the system power “ON”, engine OFF, and verify the control system component is receiving power.
+2) Включите питание системы "Включено", выключите двигатель и проверьте, что компонент системы управления принимает питание.
 
 ![[15a00034.png]]
 
-3) Press and release the “PWR” button (1) to activate the programmer. The “Power” light will illuminate when the programmer is on.
+3) Нажмите и отпустите кнопку (1) «PWR» для активации программиста. Свет «Power» будет освещаться, когда программист включен.
 
-> [!note] Note · Примечание
-> ICP2-Portable Programmer can be powered by internal batteries or by computer using the USB cable, Cummins® Part Number 5299884.
+> [!note] Примечание
+> ICP2-Portable Programr может питаться от внутренних батарей или компьютера с помощью USB-кабеля, Cummins® Part Number 5299884.
 
-4) Press and release the “ENV” button (2) to select the programming environment which you wish to download to the component. The light for the selected environment will illuminate.
+4) Нажмите и отпустите кнопку (2) "ENV", чтобы выбрать среду программирования, которую вы хотите загрузить в компонент. Свет для выбранной среды будет освещаться.
 
-5) Press and release the “GO” button (3) to begin the download process. The “PASS” and “FAIL” lights will be illuminated while the component is being programmed.
+5) Нажмите и отпустите кнопку (3) «GO», чтобы начать процесс загрузки. Светильники «PASS» и «FAIL» будут освещаться во время программирования компонента.
 
-> [!note] Note · Примечание
-> When the download successfully completes, the “PASS” light will be on alone.
+> [!note] Примечание
+> Когда загрузка успешно завершится, свет «PASS» будет включен в одиночку.
 
-6) Turn the system power “OFF” to the control system component.
+6) Включить в компонент системы управления питание "OFF".
 
-7) Press and release the “PWR” button to turn off the programmer. Remove component software download tool (ICP2-Portable Programmer) and cable from the component programming pins.
+7) Нажмите и отпустите кнопку "PWR", чтобы отключить программиста. Удалите инструмент загрузки компонентов (ICP2-Portable Programmer) и кабель из контактов программирования компонентов.
 
-8) Update the datatag on the component with the software file name and version by striking through the old version and writing the new information. [[326-015-075 — Component Software Management|Refer to Procedure 015-075 in Section 15]] for details about software file name format.
+8) Обновить данные о компоненте с помощью имени файла программного обеспечения и версии путем проставления удара по старой версии и записи новой информации.[[326-015-075 — Component Software Management|См. процедуру 015-075 в разделе 15.]]Подробнее о формате имени файла программного обеспечения.
 
-9) Assemble and install the component. See section above for details.
+9) Собрать и установить компонент. См. раздел выше для деталей.
 
 ![[15a00035.png]]
 
-### Troubleshooting
+### устранение неполадок
 
-If unable to connect the ICP Application with the ICP2-Portable Programmer, try the following:
+Если вы не можете подключить приложение ICP к программисту ICP2-Portable, попробуйте следующее:
 
-1. Before opening the application, leave the USB cable plugged into the programmer for one minute to allow time for the computer to recognize the programmer.
-2. Verify the USB cable is plugged in securely.
-3. Verify the power light is coming on the ICP2-Portable Programmer.
-4. Verify the correct configuration settings and USB COM port is selected. See Setup Information Step section.
+1. Перед открытием приложения оставьте USB-кабель подключенным к программисту на одну минуту, чтобы компьютер мог распознать программиста.
+2. Убедитесь, что USB-кабель подключен безопасно.
+3. Проверить, что силовой свет поступает на ICP2-Portable Programmer.
+4. Выберите правильные настройки конфигурации и порт USB COM. См. раздел «Информационный шаг настройки».
 
 ![[ck800wa.png]]
 
-If unable to transfer a file from the computer to the ICP2-Portable Programmer, try the following:
+Если вы не можете передать файл с компьютера на ICP2-Portable Programmer, попробуйте следующее:
 
-1. Verify the file has a.pj2 extension.
-2. Get the file from the Marine Panel Firmware Updates - Cummins Inboard Joystick webpage (https://quickserve.cummins.com/qs3/qsol/service/marine/mpf\_joystick.html), save to a computer, and try again. The file may have become corrupt or may have been modified. Files modified from an unauthorized source will **not** read correctly and can **not** be downloaded.
+1. Проверить, что файл имеет расширение a.pj2.
+2. Получите файл из Обновления прошивки для морской панели - веб-страница Cummins Inboard Joystick (https://quickserve.cummins.com/qs3/qsol/service/marine/mpf\_joystick.html), сохраните на компьютер и попробуйте снова. Файл может быть поврежден или изменен. Файлы, измененные из несанкционированного источника, будут **не** читаться правильно и могут **не** загружаться.
 
-> [!note] Note · Примечание
+> [!note] Примечание
 > [https://quickserve.cummins.com/qs3/qsol/service/marine/mpf\_joystick.html](https://quickserve.cummins.com/qs3/qsol/service/marine/mpf_joystick.html)
 
 ![[ck800wa.png]]
 
-If unable to transfer a file from the ICP2-Portable Programmer to the control system component, try the following:
+Если вы не можете передать файл от ICP2-Portable Programr компоненту системы управления, попробуйте следующее:
 
-1. Verify the ICP2-Portable Programmer batteries are fresh or it is powered by the USB cable.
-2. Verify the control system component is receiving power.
-3. Verify the correct programming cable is being used for the control system component.
-4. Verify the programming cable is connected properly to the programmer and the control system component programming pins.
-5. Verify the correct environment is selected for download from the programmer to the control system component.
-6. A.pj2 extension file from Marine Panel Firmware Updates - Cummins Inboard Joystick webpage **must** be used. Get the file from the Marine Panel Firmware Updates - Cummins Inboard Joystick webpage, save to a computer, transfer to the programmer, and try again. The file may have become corrupt or may have been modified. Files modified from an unauthorized source will **not** read correctly and can **not** be downloaded.
+1. Проверьте, что батареи ICP2-Portable Programr свежие или питаются от USB-кабеля.
+2. Проверьте, что компонент системы управления получает питание.
+3. Проверить правильность кабеля программирования используется для компонента системы управления.
+4. Убедитесь, что кабель программирования подключен правильно к программисту и клеммам программирования компонентов системы управления.
+5. Проверить правильность выбранной среды для загрузки из программиста в компонент системы управления.
+6. Файл расширения A.pj2 из Marine Panel Firmware Updates - веб-страница Cummins Inboard Joystick **должна быть использована. Получите файл из обновления микропрограммной программы Marine Panel - Cummins Inboard Joystick, сохраните на компьютере, перенесите на программиста и попробуйте снова. Файл может быть поврежден или изменен. Файлы, измененные из несанкционированного источника, будут **не** читаться правильно и могут **не загружаться.
 
 ![[ck800wa.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-> [!warning] CAUTION · Осторожно
+> [!warning] ОСТОРОЖНО
+> После обновления программного обеспечения в любом компоненте системы управления убедитесь, что система управления судном полностью работоспособна, протестируйте и обновите настройки конфигурации компонента.
+
+После загрузки файла программного обеспечения следуйте коду тревоги / ошибки или соответствующему дереву симптомов устранения неполадок, чтобы понять проблемы.
+
+Для бортового судна джойстика также необходимо будет подтвердить, что личность судна работает правильно и является подходящей личностью для применения.
+
+После обновления программного обеспечения компонента обратитесь к следующим процедурам тестирования и информации о настройке конфигурации:
+
+- См. процедуру 015-051 в разделе 15 для станции управления рычагом.
+- См. процедуру 015-052 в разделе 15 для бортового джойстика.
+- [[326-015-054 — Vessel Configuration|См. процедуру 015-054 в разделе 15.]]конфигурация судна.
+- См. процедуру 015-055 в разделе 15 для модуля процессора управления дроссельной заслонки.
+- См. процедуру 015-056 в разделе 15 для модуля интерфейса двигателя.
+- Проведите морское испытание, чтобы проверить правильность работы. См. процедуру 015-046 в разделе 15.
+
+![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury or equipment damage, this procedure must only be performed by suitably qualified service technicians.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear goggles and protective clothing.
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Cummins® Marine Controls come with preloaded software from the factory.
+>
+> Use the following procedure to find and select software when updates are required. [[326-015-075 — Component Software Management|Refer to Procedure 015-075 in Section 15.]]
+>
+> ### Preparatory Steps
+>
+> **CAUTION · Осторожно**
+> Before updating software in any control system component, verify that the Vessel Control System is completely operational. It is also important to test and document the configuration settings and vessel personality of the component, if needed.
+>
+> Prior to software file download, document and understand the vessel performance and alarm/fault codes. Follow the alarm/fault code or the appropriate troubleshooting symptom tree in order to understand issues. For an inboard joystick vessel, it will also be necessary to confirm the vessel personality is working correctly and the appropriate personality for the application is being utilized. Prior to component software update, reference the following procedures for testing and configuration setup information:
+>
+> - Refer to Procedure 015-051 in Section 15 for the lever control station.
+> - Refer to Procedure 015-052 in Section 15 for the inboard joystick.
+> - [[326-015-054 — Vessel Configuration|Refer to Procedure 015-054 in Section 15]] for the vessel configuration.
+> - Refer to Procedure 015-055 in Section 15 for the throttle control processor module.
+> - Refer to Procedure 015-056 in Section 15 for the thruster interface module.
+> - Perform a sea trial to verify proper function. Refer to Procedure 015-046 in Section 15.
+>
+> ### Setup Information
+>
+> The following equipment is needed to connect to the component to perform a software update:
+>
+> - Compatible computer
+> - In-Circuit Programmer (ICP) Application and USB driver
+> - Component Software Download Tool Kit Cummins® Part Number 5563489
+> - Version 4 and greater control head programming cable.
+>
+> The ICP Application and USB Driver can be found at INSITE.CUMMINS.COM in the related tools section of the website or on the Cummins® software shelf.
+>
+> For computer compatibility requirements, reference INSITE.CUMMINS.COM.
+>
+> **Note · Примечание**
+> For Cummins® employees, this software application should be downloaded from the Cummins® software shelf, keyword search 'ICP'.
+>
+> Once the ICP Application is installed on the computer, it can be found under the name “ICP for Windows".
+>
+> **ICP Application and USB Driver Installation**
+>
+> In order to load new software in the component software download tool (ICP2-Portable Programmer), Cummins® Part Number 5563489, it is necessary to install the ICP Application and USB driver in a Windows PC.
+>
+> **Note · Примечание**
+> Do **not** connect the component software download tool (ICP2-Portable Programmer) to the computer until the ICP Aplication and USB driver are installed.
+>
+> 1. Download and save the ICP Application files to a suitable directory on your computer.
+>
+> 2. This is a zip file. Extract the files from the zip file and save them in the same directory.
+>
+> 3. Start the "ICPWin\_setup\_XXXX.exe program. This will install the application software on the computer. Respond to the prompts with any program installation.
+>
+> **Note · Примечание**
+> One of the installation options is to install the ICP plug-in for the MPLAB (R) IDE. Answer “NO” - this is **not** used with the component software download tool (ICP2-Portable Programmer), Cummins® Part Number 5563489.
+>
+> 4. Open the “CP2102\_USB\_Certified\_Driver” directory and run the program “CP210xVCPInstaller”. Respond to the prompts as with any program installation.
+>
+> 5. Plug the component software download tool (ICP2-Portable Programmer) into the computer using any USB port. The computer will find the device driver and install it. Wait until the message is given that the device driver installation is complete before unplugging.
+>
+> **Note · Примечание**
+> Connect the component software download tool (ICP2-Portable Programmer) to the same USB port each time. If it is **not**, the communications port will need to be reset for the new USB port.
+>
+> **ICP Application and USB Driver Configuration**
+>
+> 1. Start the application – “ICP for Windows”. This will be found in the “Softlog” folder in the Start menu. During the initial startup of this program:
+>
+> 1. Make sure that the component software download tool (ICP2-Portable Programmer) is plugged in to the computer USB connection BEFORE you start up the “ICP for Windows” application
+> 2. An error will pop up during the initial startup process indicating that the program “Can't Open Port”. This is normal. The communications port will be set in Step 4 below
+> 3. The “About” information screen will pop up during the initial startup indicating that the connections should be checked. Press OK and ignore.
+> 4. If a message appears “Newer firmware is available. Upgrade now?” - Press “NO".
+>
+> 2. Select the program which will be used. Click on "Programmer" then "Select Programmer". Highlight the box next to "ICP2-Portable” and press “OK”.
+>
+> 3. Select the communications port which will be used. Click on "Communication" then "RS-232/USB/Bluetooth".
+>
+> 4. Highlight the selection indicated “Silicon Labs CP210x to USB to UART bridge” and then press “OK".
+>
+> **Note · Примечание**
+> If a message appears “Newer firmware is available. Upgrade now?”, press “YES” and follow the on-screen instructions.
+>
+> 5. Save the Configuration. Click on “File” then “Save Configuration” and press “Enter”. The programmer type and communication port are now saved.
+>
+> ### Transfer
+>
+> To transfer software from the computer to the component software download tool (ICP2-Portable Programmer), do the following in the order below.
+>
+> 1. The software, also called “Environment”, which will be loaded on the component software download tool (ICP2-Portable Programmer) should be obtained and stored on the computer. Use the following procedure to find and select software when software updates are required. [[326-015-075 — Component Software Management|Refer to Procedure 015-075 in Section 15.]]
+>
+> 2. Connect the component software download tool (ICP2-Portable Programmer) Cummins® Part Number 5563489 to computer using USB cable Cummins® Part Number 5299884.
+>
+> 3. Start the “ICP for Windows” application.
+>
+> 1. Two screens will appear during start up - “What's New” and “About” (ICP Family). Click “OK” to ignore these boxes.
+> 2. During this process, the ICP for Windows application will establish communication with the component software download tool (ICP2-Portable Programmer). If this fails, the communication port will have to be reset. See Setup Information section above.
+>
+> 4. On the Control Center box, click on the “PC-Driven” tab on the main screen.
+>
+> 5. On the “ICP2 Portable Environment box”, click on the button associated with the “Environment” box where the software will be stored. In the screenshot shown, the software will be stored in “Environment \#2".
+>
+> 6. Click on “Environment” then “Transfer Environment to Programmer ….” in order to transfer the software environment from the computer to the component software download tool (ICP2-Portable Programmer. Using the normal Windows commands, browse to the location where the software environment was stored in Step 1 above, highlight the file name, and then click “Open”. A progress bar will pop up indicating that the software transfer is in progress. A popup screen will be shown when the transfer is successful.
+>
+> 7. When the software transfer is complete, disconnect the component software download tool (ICP2-Portable Programmer) from the computer.
+>
+> 8. Use a label maker to document the software file name and version on the component software download tool (ICP2-Portable Programmer) in the space next to the environment number (1). [[326-015-075 — Component Software Management|Refer to Procedure 015-075 in Section 15]] for details about software file name format.
+>
+> ### Connect
+>
+> **CAUTION · Осторожно**
+> Before updating software in any control system component, verify that the Vessel Control System is completely operational. It is also important to test and document the configuration settings and vessel personality (if needed) of the component. See Preparatory Steps Section above.
+>
+> The process of updating software in the control system component is as follows:
+>
+> 1. Remove the control system component from the location where it is mounted. See below for details on each component.
+> 2. Reconnect the control system component to boat wiring in order to power up the component prior to software download. See below for details on each component.
+> 3. Disassemble, if necessary, the control system component to gain access to the programming pins and connect the programing cable. See below for details on each component.
+> 4. Connect component software download tool (ICP2-Portable Programmer) to the component, and download the software from the Programmer to the control system component. See Download section below.
+> 5. After programming, disconnect the programmer and cables from the component and reassemble, if necessary. Install the control system component.
+> 6. If needed, configure the control system component and load vessel personality. Test and validate the control system for proper operation. See Finishing Step section.
+>
+> Inboard Joystick
+>
+> The joystick configuration and vessel personality should be saved for reinstallation when the software update download is complete. See Preparatory Step section.
+>
+> 1. If the programming port located on the bottom of the joystick is **not** accessible, remove the joystick. Refer to Procedure 015-052 in Section 15.
+>
+> 2. Provide power to the joystick.
+>
+> If the joystick was removed, connect the yellow CANbus cable,Cummins® Part Number 5299804, in the Component Software Download Tool Kit, Cummins® Part Number 5563489, to extend power from the CANbus cable disconnected to the joystick in step 1.
+>
+> Turn the system power "ON", engine OFF, to verify the joystick lights come on.
+>
+> **Note · Примечание**
+> When using the yellow CANbus cable, Cummins® Part Number 5299804, power extension cable, the lights on the component will begin flashing approximately 15 seconds after the system power is turned on.
+>
+> If there were two CANbus cables disconnected in Step 1, and no joystick lights are observed when the system power is “ON”, connect the yellow CANbus, Cummins® Part Number 5299804, to the other CANbus cable disconnected in Step 1.
+>
+> Turn the system power “OFF” once power is verified to the control system component.
+>
+> 3. Connect component programming cable, Cummins® Part Number 5299798, to the joystick programming port.
+>
+> **Note · Примечание**
+> The joystick has an external programming port on the bottom cover. Disassembly of the joystick is **not** required for software download.
+>
+> 4. Use component software download tool (ICP2-Portable Programmer) to download software to the component. See Download section for details.
+>
+> 5. If removed, install the inboard joystick. Refer to Procedure 015-052 in Section 15.
+>
+> 6. Configure the control system component and load vessel personality. Test and validate the control system for proper operation. See Finishing Step section.
+>
+> Thruster Interface Module
+>
+> 1) Remove and disassemble the thruster interface module. Refer to Procedure 015-056 in Section 15.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+>
+> **CAUTION · Осторожно**
+> The thruster interface module circuit board is extremely sensitive to static electricity and should not be touched. Hold the circuit board by the Deutsch™ connectors. When placing the circuit board on a surface, ensure that the surface is clean and the circuit board does not touch anything which is metal.
+>
+> 2) Connect the yellow CANbus cable, Cummins® Part Number 5299804, in the Component Software Download Tool Kit, Cummins® Part Number 5563489, to extend power from the CANbus cable disconnected in Step 1 to the thruster interface module.
+>
+> Provide power to the thruster interface module by connecting the black 12-pin connector.
+>
+> Turn the system power “ON”, engine OFF. The thruster interface power supply light (5) indicates that the circuit board is receiving power from the CAN network.
+>
+> **Note · Примечание**
+> When using the yellow CANbus cable Cummins® Part Number 5299804 power extension cable, the lights on the component will begin flashing approximately 15 seconds after the system power is turned on.
+>
+> Turn the system power “OFF” once power is verified to the control system component.
+>
+> **Note · Примечание**
+> A portion of the thruster interface module circuit board is shielded for EMI protection. The shield cannot be removed. The lights under the shield can be viewed in the gap above the lights.
+>
+> 3) Connect component programming cable, Cummins® Part Number 5299797 (1), to the programming pins.
+>
+> **Note · Примечание**
+> The circuit board is located between the cable pin connector.
+>
+> 4) Use component software download tool (ICP2-Portable Programmer) to download software to the component. See Download section for details.
+>
+> 5) Assemble and install the thruster interface module. Refer to Procedure 015-056 in Section 15.
+>
+> 6) Test and validate the control system for proper operation. See Finishing Step section.
+>
+> Version 3 and Older Lever Control Station
+>
+> There are two different versions of control heads. The legacy control head version is 3 and older and the existing version is 4 and greater. Version 4 and greater control heads have an additional service port on the bottom of the device.
+>
+> 1) Remove the lever control station. Refer to Procedure 015-051 in Section 15.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+>
+> 2) Provide power to the lever control station.
+>
+> Follow Option A or B below, depending on the number of CANbus cables connected to the lever control station.
+>
+> Option A:
+>
+> If **only** one CANbus cable is connected to the lever control station:
+>
+> Connect the yellow CANbus cable, Cummins® Part Number 5299804, in the Component Software Download Tool Kit, Cummins® Part Number 5299795, to extend power from the CANbus cable disconnected to the lever control station in step 1.
+>
+> Option B:
+>
+> If two CANbus cables are installed on the lever control station:
+>
+> Determine which cable is routed to the throttle control processor module and connect the lever control station to that cable using the yellow CANbus cable, Cummins® Part Number 5299804.
+>
+> If this can **not** be determined, choose one cable, and install the yellow CANbus cable, Cummins® Part Number 5299804 and turn the system power “ON” and engine OFF. If lights are observed on the lever control station when the system power is “ON”, and engine OFF, the correct cable connection has been made.
+>
+> **Note · Примечание**
+> When using the yellow CANbus cable, Cummins® Part Number 5299804, power extension cable, the lights on the component will begin flashing approximately 15 seconds after the system power is turned on.
+>
+> If no lights are on, connect the yellow CANbus cable, Cummins® Part Number 5299804, to the other CANbus cable. Once the cable is connected to the correct CANbus cable and verified it provides power to the lever control station, turn the system power “OFF".
+>
+> 3) Connect the component programming cable to the programming pins.
+>
+> The lever control station **must** be disassembled in order to access the programming pins.
+>
+> Press the lever control station handles to the full ahead forward position.
+>
+> Place lever control station upside down onto a soft cloth.
+>
+> Rotate the lever control station so that the front of the lever control station (button pad side) is closest to you.
+>
+> Remove the screws from the bottom cover.
+>
+> Grasp the bottom cover/gasket and pull towards you and rotate the cover/gasket assembly 180 degrees as shown.
+>
+> Locate the programming pins on the lever control station circuit board with the lever control station upside down and the front of the lever control station (button pad side) towards you.
+>
+> A) Two button lever control station - programming pins are located on the bottom right corner.
+>
+> Connect the programming cable connector: Two button lever control station Cummins® Part Number 5299800.
+>
+> The programming cable connector for the two button lever control station is orientated correctly by following the instructions on the cable connector label.
+>
+> Make sure the connector connects to all pins.
+>
+> B) Four button lever control station - programming pins are located on the middle right side.
+>
+> Connect the programming cable connector: Four button lever control station Cummins® Part Number 5299799
+>
+> The programming cable connector for the four button lever control station is keyed and is orientated correctly when clicks into place. Make sure the connector connects to all pins.
+>
+> 4) Use component software download tool (ICP2-Portable Programmer) to download software to the component. See Download section for details.
+>
+> 5) Assemble and install the lever control station.
+>
+> Remove the yellow CANbus cable power extension from the lever control station connector.
+>
+> Rotate the gasket/cover assembly back onto the bottom of the lever control station.
+>
+> Make sure that the bottom cover is properly seated into the lever control station gasket.
+>
+> Inspect the wires that run from the connectors to the lever control station. Make sure the wires are not “pinched” as the gasket/ cover is pushed against the bottom of the lever control station.
+>
+> Once the gasket/cover assembly is placed correctly and the gasket is fully seated onto the lever control station, attach the bottom cover and evenly tighten the screws in a star-shaped pattern. Make sure wires do **not** pop out and get pinched.
+>
+> Once tightened, the gasket should be evenly compressed and shaped all around the lever control station.
+>
+> Install the lever control station. Refer to Procedure 015-051 in Section 15.
+>
+> 6) Configure the control system component. Test and validate the control system for proper operation. See Finishing Step section.
+>
+> Version 4 and Greater Lever Control Station
+>
+> There are two different versions of control head levers. The legacy control head lever version (1) is 3 and the existing version is 4 (2). Version 4 and greater control head levers have an additional programming port on the bottom of the device.
+>
+> 1. Remove the lever control station. Locate the version number on the data plate on the bottom of the lever control station. Refer to Procedure 015-051 in Section 15.
+>
+> 2. Connect the programming cable, Cummins® Part Number 5563489, to the control head programming port. This cable is included in the Component Software Download Tool Kit, Cummins® Part Number 5563489. The programming cable is also available to purchase as a standalone cable.
+>
+> 3. Connect the programming cable, Cummins® Part Number 5563489, to ICP2 Portable Programmer.
+>
+> **Note · Примечание**
+> The Version 4 and greater control lever has an external programming port on the bottom cover. Disassembly of the control lever is not required for software download.
+>
+> 4. Use ICP for Windows (ICP2-Portable Programmer) to download software to the component. See Download section for details.
+>
+> Throttle Control Processor Module
+>
+> 1) Remove the throttle control processor module. Refer to Procedure 015-055 in Section 15.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+>
+> **CAUTION · Осторожно**
+> It is critical that the appropriate jumper plug is used with the throttle control processor module and system power supply battery voltage.
+>
+> 2) Provide power to the throttle control processor module.
+>
+> 1. Connect the power extension cable, Cummins® Part Number 5299805, to reconnect power to the throttle control processor module.
+> 2. Connect the yellow CANbus cable, Cummins® Part Number 5299804, in the Component Software Download Tool Kit, Cummins® Part Number 5299795, to extend power from the CANbus cable disconnected in Step 1 to the lever control station.
+> 3. Insert the power jumper plug.
+>
+> **Note · Примечание**
+> When using the yellow CANbus cable, Cummins® Part Number 5299804, power extension cable, the lights on the component will begin flashing approximately 15 seconds after the system power is turned on.
+>
+> #### Throttle Control Processor Module, EEC3
+>
+> - Insert the power jumper plug into the 12 pin connector labeled “CP Enable” in order to activate the processor.
+>
+> Power Jumper Plug:
+>
+> - EEC3 - 24 volt Cummins® Part Number 5299802
+> - EEC3 - 12 volt Cummins® Part Number 5299803.
+>
+> #### Throttle Control Processor Module, EEC4
+>
+> - Insert the power jumper plug into either the port or starboard 12 pin connector labeled “Gear Shift” in order to activate the processor.
+>
+> Power Jumper Plug:
+>
+> - EEC4 - Cummins® Part Number 5299801.
+>
+> **Note · Примечание**
+> Once the jumper is plugged in, power is immediately supplied to the throttle control processor module from unswitched battery supply. The keyswitch is bypassed and no longer sends a signal to turn the power on. The throttle control processor module enable relay should audibly “click” as it powers up when the jumper is plugged in. The lights on the lever control station will begin flashing approximately 15 seconds after the jumper is plugged in.
+>
+> Remove the jumper plug to turn the system power “OFF” once power is verified to the control system component.
+>
+> 3) Connect the component programming cable to the programming pins. The throttle control processor module **must** be disassembled in order to access the programming pins. Remove the back cover from the throttle control processor module by removing the screws, mounting standoffs, and grommets.
+>
+> Connect the programming cable connector, Cummins® Part Number 5299799, to the programming pins. The programming pins are located on the circuit board at the middle top side opposite the external harness connectors.
+>
+> 4) Use component software download tool (ICP2-Portable Programmer) to download software to the component. See Download Step section for details.
+>
+> 5) Assemble and install the throttle control processor module. Make sure the sealing gasket is positioned correctly and install the back cover to the throttle control processor module. Install the screws, mounting standoffs, and grommets.
+>
+> Install the throttle control processor module. Refer to Procedure 015-055 in Section 15.
+>
+> 6) Configure the control system component. Test and validate the control system for proper operation. See Finishing Steps section.
+>
+> ### Download
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, do not touch the electrical supply wires or component while the testing procedure is in progress.
+>
+> **CAUTION · Осторожно**
+> Before updating software in any control system component, verify that the Vessel Control System is completely operational. It is also important to test and document the configuration settings and vessel personality, if needed, of the component. See Preparatory Steps Section above.
+>
+> The process of updating the software in the control system component is as follows:
+>
+> 1) Connect component software download tool (ICP2-Portable Programmer) (1) to the cable (2) connected to the programming pins on the control system component. The programming cable will vary depending on the specific component.
+>
+> 2) Turn the system power “ON”, engine OFF, and verify the control system component is receiving power.
+>
+> 3) Press and release the “PWR” button (1) to activate the programmer. The “Power” light will illuminate when the programmer is on.
+>
+> **Note · Примечание**
+> ICP2-Portable Programmer can be powered by internal batteries or by computer using the USB cable, Cummins® Part Number 5299884.
+>
+> 4) Press and release the “ENV” button (2) to select the programming environment which you wish to download to the component. The light for the selected environment will illuminate.
+>
+> 5) Press and release the “GO” button (3) to begin the download process. The “PASS” and “FAIL” lights will be illuminated while the component is being programmed.
+>
+> **Note · Примечание**
+> When the download successfully completes, the “PASS” light will be on alone.
+>
+> 6) Turn the system power “OFF” to the control system component.
+>
+> 7) Press and release the “PWR” button to turn off the programmer. Remove component software download tool (ICP2-Portable Programmer) and cable from the component programming pins.
+>
+> 8) Update the datatag on the component with the software file name and version by striking through the old version and writing the new information. [[326-015-075 — Component Software Management|Refer to Procedure 015-075 in Section 15]] for details about software file name format.
+>
+> 9) Assemble and install the component. See section above for details.
+>
+> ### Troubleshooting
+>
+> If unable to connect the ICP Application with the ICP2-Portable Programmer, try the following:
+>
+> 1. Before opening the application, leave the USB cable plugged into the programmer for one minute to allow time for the computer to recognize the programmer.
+> 2. Verify the USB cable is plugged in securely.
+> 3. Verify the power light is coming on the ICP2-Portable Programmer.
+> 4. Verify the correct configuration settings and USB COM port is selected. See Setup Information Step section.
+>
+> If unable to transfer a file from the computer to the ICP2-Portable Programmer, try the following:
+>
+> 1. Verify the file has a.pj2 extension.
+> 2. Get the file from the Marine Panel Firmware Updates - Cummins Inboard Joystick webpage (https://quickserve.cummins.com/qs3/qsol/service/marine/mpf\_joystick.html), save to a computer, and try again. The file may have become corrupt or may have been modified. Files modified from an unauthorized source will **not** read correctly and can **not** be downloaded.
+>
+> **Note · Примечание**
+> [https://quickserve.cummins.com/qs3/qsol/service/marine/mpf\_joystick.html](https://quickserve.cummins.com/qs3/qsol/service/marine/mpf_joystick.html)
+>
+> If unable to transfer a file from the ICP2-Portable Programmer to the control system component, try the following:
+>
+> 1. Verify the ICP2-Portable Programmer batteries are fresh or it is powered by the USB cable.
+> 2. Verify the control system component is receiving power.
+> 3. Verify the correct programming cable is being used for the control system component.
+> 4. Verify the programming cable is connected properly to the programmer and the control system component programming pins.
+> 5. Verify the correct environment is selected for download from the programmer to the control system component.
+> 6. A.pj2 extension file from Marine Panel Firmware Updates - Cummins Inboard Joystick webpage **must** be used. Get the file from the Marine Panel Firmware Updates - Cummins Inboard Joystick webpage, save to a computer, transfer to the programmer, and try again. The file may have become corrupt or may have been modified. Files modified from an unauthorized source will **not** read correctly and can **not** be downloaded.
+>
+> ### Finishing Steps
+>
+> **CAUTION · Осторожно**
 > After updating software in any control system component, verify that the Vessel Control System is completely operational, test and update the configuration settings of the component.
-
-After software file download, follow the alarm/fault code or the appropriate troubleshooting symptom tree in order to understand issues.
-
-For an inboard joystick vessel, it will also be necessary to confirm the vessel personality is working correctly and is the appropriate personality for the application.
-
-After component software update, refer to the following procedures for testing and configuration setup information:
-
-- Refer to Procedure 015-051 in Section 15 for the lever control station.
-- Refer to Procedure 015-052 in Section 15 for the inboard joystick.
-- [[326-015-054 — Vessel Configuration|Refer to Procedure 015-054 in Section 15]] for the vessel configuration.
-- Refer to Procedure 015-055 in Section 15 for the throttle control processor module.
-- Refer to Procedure 015-056 in Section 15 for the thruster interface module.
-- Perform a sea trial to verify proper function. Refer to Procedure 015-046 in Section 15.
-
-![[ck800wa.png]]
+>
+> After software file download, follow the alarm/fault code or the appropriate troubleshooting symptom tree in order to understand issues.
+>
+> For an inboard joystick vessel, it will also be necessary to confirm the vessel personality is working correctly and is the appropriate personality for the application.
+>
+> After component software update, refer to the following procedures for testing and configuration setup information:
+>
+> - Refer to Procedure 015-051 in Section 15 for the lever control station.
+> - Refer to Procedure 015-052 in Section 15 for the inboard joystick.
+> - [[326-015-054 — Vessel Configuration|Refer to Procedure 015-054 in Section 15]] for the vessel configuration.
+> - Refer to Procedure 015-055 in Section 15 for the throttle control processor module.
+> - Refer to Procedure 015-056 in Section 15 for the thruster interface module.
+> - Perform a sea trial to verify proper function. Refer to Procedure 015-046 in Section 15.

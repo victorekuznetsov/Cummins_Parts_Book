@@ -10,12 +10,14 @@ engines:
 families:
   - "QSK60"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101277.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101277.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # New Oversize Head Gasket
@@ -26,38 +28,80 @@ tags:
 > **Даты:** изменён 2003-08-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101277.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101277.pdf)
 
-## New Oversize Head Gasket
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новая головная уборка Oversize
 
-### Contents
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
 
 ![[02600044.png]]
 
-This service/parts topic introduces a new oversize head gasket and wear limits for the cylinder block head deck of the QSK45 and QSK60 engines. The new cylinder head gasket, Part Number 4086730, has been released to allow the repair of worn cylinder blocks at engine rebuild/overhaul. The new gasket makes use of the same material and form as the existing gasket but is 0.51 mm \[0.020 in\] thicker. The gasket has a notch in the carrier to denote the gasket is a service oversize gasket, see the illustration above.
+Эта тема сервиса/частей вводит новые прокладки головки негабаритного размера и ограничения на износ цилиндров на головке блока двигателей QSK45 и QSK60. Новая прокладка головки цилиндра, номер детали 4086730, была выпущена для ремонта изношенных блоков цилиндров при реконструкции / капитальном ремонте двигателя. Новая прокладка использует тот же материал и форму, что и существующая прокладка, но толщиной 0,51 мм \[0,020 дюйма \]. Прокладка имеет выемку в носителе для обозначения прокладки - это прокладка сверх размера услуги, см. иллюстрацию выше.
 
 ![[02600045.png]]
 
-The illustration above shows the dimensions for the oversize gasket.
+На приведенной выше иллюстрации показаны размеры прокладки негабаритного размера.
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 3.12 | MIN | 0.123 |
-| 3.48 | MAX | 0.137 |
+| 3.12 | Мин | 0.123 |
+| 3.48 | Макс | 0.137 |
 
-| mm |  | in |
+| мм |  | в |
 |---|---|---|
-| 2.43 | MIN | 0.096 |
-| 2.59 | MAX | 0.102 |
+| 2.43 | Мин | 0.096 |
+| 2.59 | Макс | 0.102 |
 
-Cylinder block head decks wear due to several factors, some are listed below:
+Накладные балки цилиндров износятся из-за нескольких факторов, некоторые из них перечислены ниже:
 
-Dirt under the gasket
+Грязь под прокладкой
 
-- In operation, fine particles of dirt can get under the head gasket where it becomes trapped. In operation, the cylinder head moves on the head gasket (very small amounts) and the gasket moves on the cylinder block. When dirt is trapped between the gasket and the block, motion frets the cylinder block surface.
+- В процессе работы мелкие частицы грязи могут попасть под прокладку головы, где она попадает в ловушку. В процессе работы головка цилиндра перемещается по прокладке головы (очень небольшие количества), а прокладка перемещается по блоку цилиндра. Когда грязь застревает между прокладкой и блоком, движение сжимает поверхность блока цилиндра.
 
-Coolant leaks
+Утечка охлаждающей жидкости
 
-- If coolant leaks from the head gasket, the counterbore, or leaks externally, corrosion can start. The cylinder head deck is eroded by corrosion and pitting.
+- Если хладагент протекает из прокладки головы, контрбора или протекает наружу, может начаться коррозия. Головная палуба цилиндра размыта коррозией и ямами.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Oversize Head Gasket
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This service/parts topic introduces a new oversize head gasket and wear limits for the cylinder block head deck of the QSK45 and QSK60 engines. The new cylinder head gasket, Part Number 4086730, has been released to allow the repair of worn cylinder blocks at engine rebuild/overhaul. The new gasket makes use of the same material and form as the existing gasket but is 0.51 mm \[0.020 in\] thicker. The gasket has a notch in the carrier to denote the gasket is a service oversize gasket, see the illustration above.
+>
+> The illustration above shows the dimensions for the oversize gasket.
+>
+> | mm |  | in |
+> |---|---|---|
+> | 3.12 | MIN | 0.123 |
+> | 3.48 | MAX | 0.137 |
+>
+> | mm |  | in |
+> |---|---|---|
+> | 2.43 | MIN | 0.096 |
+> | 2.59 | MAX | 0.102 |
+>
+> Cylinder block head decks wear due to several factors, some are listed below:
+>
+> Dirt under the gasket
+>
+> - In operation, fine particles of dirt can get under the head gasket where it becomes trapped. In operation, the cylinder head moves on the head gasket (very small amounts) and the gasket moves on the cylinder block. When dirt is trapped between the gasket and the block, motion frets the cylinder block surface.
+>
+> Coolant leaks
+>
+> - If coolant leaks from the head gasket, the counterbore, or leaks externally, corrosion can start. The cylinder head deck is eroded by corrosion and pitting.

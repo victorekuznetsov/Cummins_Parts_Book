@@ -83,12 +83,14 @@ parts:
   - "4101403"
   - "4101407"
 figures: 14
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100832.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100832.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Phase 2.0 Harness Introduction
@@ -99,914 +101,922 @@ tags:
 > **Даты:** изменён 2009-07-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100832.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100832.pdf)
 
-## Phase 2.0 Harness Introduction
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Фаза 2.0 электропроводки Узлы Введение
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin supersedes 04T19-2. Replace 04T19-2 with this topic.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This Technical Service Bulletin introduces the new QSK60 Industrial engine harness and the CENSE™ harness, also known as the Phase 2.0 harness. The new harness supersedes the Phase 1.0 harness in production, but the Phase 1.0 harness will be available for service. Installation procedures for the harnesses will be published in a separate publication. The engine serial number (ESN) first for this change is 33152044.
+### Содержание
 
-The new harness is a foam-filled metallic enclosure and designed to increase certain sensor, connector, and wiring robustness. New wiring diagrams will be available for the harness. The engine harness consists of two parts: one with three metallic enclosures linked together with two flexible conduits mounted on the left bank; the other is a single metallic enclosure mounted at the rear. The optional CENSE™ harness is mounted on the right bank.
+Данный бюллетень технического обслуживания заменяет собой номер 04Т19-2. Заменить 04Т19-2 этой темой.
 
-Do **not** drill into metallic harness enclosures.
+В этом бюллетене технического обслуживания представлены новые электропроводки QSK60 Industrial и электропроводки CENSETM, также известные как электропроводка фазы 2.0. Новая электропроводка заменяет электропроводку 1.0 в производстве, но электропроводка 1.0 будет доступна для обслуживания. Процедуры установки проводных ремней будут опубликованы в отдельном издании. Серийный номер двигателя (ESN) для этого изменения - 33152044.
 
-#### Engine Harness Overview
+Новая электропроводка представляет собой заполненный пеной металлический корпус и предназначена для повышения определенной надежности датчика, разъема и проводов. Для электропроводки будут доступны новые схемы. Моторная проводка жгута состоит из двух частей: Один с тремя металлическими корпусами, соединенными вместе с двумя гибкими трубопроводами, установленными на левом берегу; другой - один металлический корпус, установленный сзади. Опциональная проводная упряжка CENSETM установлена на правом берегу.
 
-- The service port box section is mounted on the left bank front intake manifold.
-- The rear section is connected to the left and right bank sections via 33- and 47-pin Deutsch connectors.
-- Certain pressure sensors are being replaced with a more robust design.
+**не** сверлить в металлические проводов жгутов корпусов.
 
-The lower front and middle sections are mounted on the left bank cam follower covers while the third upper front section is mounted on the left bank front intake manifold. The separate rear section is mounted above the flywheel housing. A special bracket is used for engines with the '0' flywheel housing option. The locations for the mounting capscrews for the front and middle harness enclosures are shown in the installation procedure.
+#### ← Моторная проводка Уголь обзор
 
-The original Phase 2.0 harness was designed with cartridge-style fuses. The new improved fuse is a Packard-style design. There are different part numbers for the left bank harness options (with CENSE™ and without CENSE™) for the different fuse designs.
+- Секция ящика служебного порта установлена на левобережном переднем впускном коллекторе.
+- Задняя секция соединена с левой и правой секциями через 33- и 47-контактные разъемы Deutsch.
+- Некоторые датчики давления заменяются более прочным дизайном.
 
-| Harness | FuseStyle | Part Number |
+Нижняя передняя и средняя секции установлены на левобережных кранах, а третья верхняя передняя секция установлена на левобережном переднем впускном коллекторе. Отдельная задняя секция установлена над обшивкой маховика. Специальная кронштейн используется для двигателей с опцией корпуса маховика «0». Места установки болтов для передних и средних ограждений жгутов проводов показаны в процедуре установки.
+
+Оригинальная проводная упряжка Фазы 2.0 была разработана с предохранителями в стиле картриджей. Новый улучшенный предохранитель представляет собой дизайн в стиле Packard. Существуют различные номера деталей для вариантов электропроводки левого берега (с CENSETM и без CENSETM) для различных конструкций предохранителей.
+
+| шнур для проводов | Фюзеляж | Номер детали |
 |---|---|---|
-| LB harness with CENSE™ | Cartridge Packard | 4066648 4101013 |
-| LB harness with CENSE™ | Cartridge Packard | 4066649 4101012 |
+| LB Wiring Grund с помощью CENSETM | Картридж Паккард | 4066648 4101013 |
+| LB Wiring Grund с помощью CENSETM | Картридж Паккард | 4066649 4101012 |
 
 ![[19600363.png]]
 
-Figure 2, Cartridge-Style Fuse
+Рисунок 2, Картридж-стильный предохранитель
 
 ![[19600362.png]]
 
-Figure 1, Packard-Style Fuse
+Рисунок 1 - Паккард-стильный предохранитель
 
-A new version of the QSK60 wiring harness (Phase 2.0 harness) has been developed to improve product quality. The new features include:
+Новая версия электропроводки QSK60 (Phase 2.0) была разработана для улучшения качества продукции. Новые функции включают:
 
-- Enclosed aluminum harness pipe
-- Danfoss brand pressure sensors
-- DIN-style connectors
-- Improved exhaust gas temperature sensor thermocouple geometry.
+- Закрытые алюминиевые проводов жгут трубы
+- Датчики давления Danfoss
+- Разъемы в стиле DIN
+- Улучшена геометрия термопары датчика температуры выхлопных газов.
 
-These changes increase sensor and wiring harness robustness. The Phase 2.0 harness specifically improves the reliability and durability of the CENSE™ module and the engine wiring harness.
+Эти изменения повышают надежность датчика и проводов. Жгут проводов 2-го этапа специально повышает надежность и долговечность модуля CENSETM и ремня электропроводки двигателя.
 
-The Phase 2.0 harness went into production November 25, 2002. The engine serial number first is 33153219.
+Упряжка для проводов 2-го этапа была запущена в производство 25 ноября 2002 года. Серийный номер двигателя - 33153219.
 
-Phase 2.0 electronics are a major improvement in the design and installation of sensors and Quantum and CENSE™ harnesses.
+Электроника фазы 2.0 является важным усовершенствованием в проектировании и установке датчиков и проводных ремней Quantum и CENSE.
 
-Key Design Features
+Ключевые особенности дизайна
 
-Engine Harness
+Жгут проводов двигателя
 
-- Phase 2.0 harness employs foamed-pipe technology where the wires are enclosed inside a metallic box section that is foam filled and completely sealed.
-- The Quantum harness is mounted on the left bank of the engine.
-- There are four metallic enclosures linked together with flexible conduits.
-- Two sections are mounted on the left bank cam follower covers.
-- Service port box section is mounted on the left bank front intake manifold.
-- Rear section is mounted on a bracket that is fitted to the flywheel housing.
-- The rear section is connected to the left and right bank sections via 40-pin Deutsch connectors.
+- На этапе 2.0 в электропроводке используется технология пенотрубок, где провода заключены в металлическую секцию коробки, которая заполнена пеной и полностью запечатана.
+- Квантовая проводка установлена на левом берегу двигателя.
+- Существует четыре металлических корпуса, соединенных вместе с гибкими трубопроводами.
+- Две секции установлены на левобережной крышке крана.
+- Секция портовых ящиков службы установлена на левобережном переднем входном коллекторе.
+- Задняя секция установлена на кронштейне, который установлен на корпус маховика.
+- Задняя секция соединена с левой и правой секциями через 40-контактные разъемы Deutsch.
 
-CENSE™ Harness
+CENSETM Wiring Grund
 
-- CENSE™ electronic control module is mounted on the left bank number 3 cam follower cover
-- CENSE™ harness is divided into two sections. For the Right Bank sensors/connections, there is a harness box section mounted on the right bank. It is linked to the CENSE™ electronic module on the left bank via a 40-pin Deutsch connector mounted on the rear harness section.
-- The left bank connections are built into the left bank harness.
-- The connections for the CENSE™ electronic module are incorporated into the left bank harness.
+- Электронный модуль управления CENSETM установлен на левом берегу No3 крана
+- Связь CENSETM разделена на две части. Для датчиков / соединений Right Bank на правом берегу установлен раздел коробки для проводов. Он связан с электронным модулем CENSETM на левом берегу через 40-контактный разъем Deutsch, установленный на задней секции проводов.
+- Связи левого берега встроены в электропроводку левого берега.
+- Соединения для электронного модуля CENSETM включены в электропроводку левого берега.
 
-Pressure Sensors and Connection (Danfoss)
+Датчики давления и соединение (Danfoss)
 
-- The pressure sensor design is very robust.
-- The DIN-style connector for these sensors has a locking feature that guarantees a firm connection between the sensor and harness. This results in improved robustness in terms of pin fretting.
-- There is no need for a calibration change as a result of the revision to Danfoss sensors.
-- These connectors are also keyed and color coded to prevent wrong connections being made in the field as well as on the assembly line.
-- There is more information concerning the Danfoss sensors in the QSK45 Phase 2.0 harness introduction topic 03T19-30.
+- Конструкция датчика давления очень надежна.
+- Разъем в стиле DIN для этих датчиков имеет функцию блокировки, которая гарантирует прочное соединение между датчиком и проводкой. Это приводит к повышению надежности с точки зрения трения булавками.
+- Нет необходимости в изменении калибровки в результате пересмотра датчиков Danfoss.
+- Эти разъемы также закодированы и имеют цвет, чтобы предотвратить неправильные соединения, которые производятся в полевых условиях, а также на сборочной линии.
+- Более подробная информация о датчиках Danfoss содержится во введении темы 03T19-30 в QSK45 Phase 2.0.
 
-| Pressure Sensor Part Number Service Adapter and Pencil Connector Matrix |  |  |  |  |  |  |  |
+| Датчик давления Part Number Service Adapter и матрица карандашного коннектора |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
-| Pressure Sensor | DIN-Packard Connector Adapter Harness | Old Sensor Part Number | New Sensor Part Number | DIN Connector Keying | DIN Connector Color | Packard Connector Keying | Service Pigtail Part Number |
-| Boost (left bank front) | 3408507 | 3408347 | 3408556 | Key 3 | Green | Round | 3164710 |
-| Boost (right bank rear) | 3408507 | 3408347 | 3408556 | Key 3 | Green | Round | 3164710 |
-| Coolant | 3408508 | 3160404 | 3408556 | Key 3 | Green | Chevy | 3164710 |
-| Fuel pump | 3408509 | 3408414 | 3408566 | Key 1 | Black | Round | 3164709 |
-| Fuel rail | [[3408510]] | 3408379 | 3408562 | Key 2 | Gray | Barn | 3164709 |
-| Oil rifle | 3408511 | 3865337 | [[4088734]] | Key 2 | Gray | Chevy | 3164709 |
-| Post-filter oil | 3408509 | 3330527 | [[3408558]] | Key 1 | Black | Round | 3164708 |
-| Pre-filter oil | 3408509 | 3330527 | [[3408558]] | Key 1 | Black | Round | 3164708 |
-| Timing rail | 3408509 | 3408381 | 3408585 | Key 1 | Black | Round | 3164708 |
+| Датчик давления | DIN-Packard Connector Adapter - адаптер для проводов | Старый сенсорный номер | Новый сенсорный номер | DIN Connector Keying | DIN Connector Color | Packard Connector Keying | Сервисный номер детали свиного хвоста |
+| Фронт левого берега (Left Bank Front) | 3408507 | 3408347 | 3408556 | Ключ 3 | Зеленый | Круглый круг | 3164710 |
+| Boost (правый берег) | 3408507 | 3408347 | 3408556 | Ключ 3 | Зеленый | Круглый круг | 3164710 |
+| охлаждающий | 3408508 | 3160404 | 3408556 | Ключ 3 | Зеленый | Шевроле | 3164710 |
+| Топливный насос | 3408509 | 3408414 | 3408566 | Ключ 1 | черный | Круглый круг | 3164709 |
+| Топливный рельс | [[3408510]] | 3408379 | 3408562 | Ключ 2 | Грей | Сад | 3164709 |
+| Масляная винт | 3408511 | 3865337 | [[4088734]] | Ключ 2 | Грей | Шевроле | 3164709 |
+| Постфильтровое масло | 3408509 | 3330527 | [[3408558]] | Ключ 1 | черный | Круглый круг | 3164708 |
+| Предфильтровое масло | 3408509 | 3330527 | [[3408558]] | Ключ 1 | черный | Круглый круг | 3164708 |
+| Железная дорога | 3408509 | 3408381 | 3408585 | Ключ 1 | черный | Круглый круг | 3164708 |
 
-Other product changes with the QSK60 Phase 2.0 Harness Introduction:
+Другие изменения продукта с помощью электропроводки QSK60 Phase 2.0 Введение:
 
-- Exhaust gas temperature sensor improvements
-- Improved breather design includes relocation
-- Revise oil fill and dipstick arrangement
-- Left bank oil level sensor relocation
-- Pan adapter boss for oil level sensor
-- Integral valve fan clutch control
-- Relocation of Centinel™ valve to rear of engine on left bank side.
+- Улучшение датчика температуры выхлопного газа
+- Улучшенный дизайн дыхательной системы включает в себя переезд
+- Пересмотр схемы заливки и измерения уровня масла
+- Сенсор левобережного уровня масла перемещается
+- Пан адаптер босс для датчика уровня масла
+- 5.2.1.1 Интегральный вентиляторный вентилятор сцепления
+- Перемещение клапана CentinelTM в заднюю часть двигателя с левой стороны.
 
-> [!note] Note · Примечание
-> The Phase 2.0 Harness can **only** be used in conjunction with the new crankcase breather design.
+> [!note] Примечание
+> Упряжка для проводов 2-го этапа может использоваться только в сочетании с новой конструкцией капканного воздуходувного устройства.
 
-| Harness Phase | Exhaust Gas Temperature Sensor Connector | Lead Length and Routing |
+| Узкоструйная проводка | Коннектор температуры выхлопного газа | Длина и маршрутизация свинца |
 |---|---|---|
-| Phase 1.5 | Packard | 1.2 m \[4 ft\] around intake manifold |
-| Phase 2.0 | Deutsch | Side port location with shortened lengths. Three exhaust gas temperature sensors bundled per connector |
+| Фаза 1.5 | Паккард | 1.2 м \[4 фута \] вокруг впускного коллектора |
+| Фаза 2.0 | немецкий | Расположение бокового порта с укороченной длиной. Три датчика температуры выхлопных газов, установленных на разъем |
 
-Exhaust Gas Temperature Sensor Improvements
+Улучшение датчика температуры выхлопных газов
 
-- Redesigned to route between cylinder heads
-- Changed cylinder head port location for improved serviceability
-- Reduced length and strengthened wall section of Inconel portion
-- Improved Deutsch type connector with stabilization
-- Field upfit kit available.
+- Переделано для маршрутизации между головками цилиндров
+- Измененное расположение головки цилиндра для улучшения исправности
+- Уменьшенная длина и усиленная стеновая часть Инконеля
+- Улучшенный разъем типа Deutsch со стабилизацией
+- Набор для подгонки полей доступен.
 
 ![[19600217.png]]
 
-Improved design is braided steel covered by a silicone sheath with Deutsch™ connector and heat shrink seal.
+Улучшенная конструкция - это плетеная сталь, покрытая силиконовой оболочкой с разъемом DeutschTM и термоусадочным уплотнением.
 
 ![[19600218.png]]
 
-The old Exhaust Gas Temperature Sensor, Inconel™ design.
+Старый датчик температуры выхлопных газов, дизайн InconelTM.
 
 ![[19600436.png]]
 
-Phase 2.0 Exhaust Gas Temperature Sensor Routing
+Фаза 2.0 Маршрутизация датчиков температуры выхлопных газов
 
-1 and 2 Mounting clips.
+1 и 2 монтажные клипы.
 
 ![[19600437.png]]
 
-Exhaust Gas Temperature Sensor
+Датчик температуры выхлопных газов
 
-1. Exhaust gas temperature sensor harness
-2. Exhaust gas temperature sensor tunnel bracket
-3. Exhaust gas temperature sensors.
+1. Датчик температуры выхлопного газа для проводов
+2. Кронштейн туннеля датчика температуры выхлопного газа
+3. Датчики температуры выхлопных газов.
 
 ![[19600438.png]]
 
-Left Bank Engine
+Левобережный двигатель
 
-1. Crankcase breather.
+1. Сапун картера.
 
 ![[19600439.png]]
 
-Left Bank Front Engine
+Левый берег фронтальной машины
 
-1. Fuel pump pressure sensor
-2. Left bank lower front harness
-3. Intake manifold pressure sensor
-4. Intake manifold temperature sensor
-5. Left bank middle harness.
+1. Датчик давления топливного насоса
+2. Левобережье Нижняя передняя проводка
+3. Датчик давления во впускном коллекторе
+4. Датчик температуры коллектора
+5. Средний жгут левого берега.
 
 ![[19600440.png]]
 
-Left Bank Rear Corner Original Equipment Manufacturer Connectors.
+Левобережный задний угол оригинального оборудования производителя разъёмов.
 
-1. 31-pin original equipment manufacturer cab disconnect
-2. 21-pin original equipment manufacturer power sensor disconnect
-3. 23-pin CENSE™ original equipment manufacturer disconnect.
+1. 31-контактная кабина производителя оригинального оборудования отсоединяется
+2. 21-контактный датчик питания производителя оригинального оборудования отключается
+3. 23-контактный CENSETM отключает производителя оригинального оборудования.
 
 ![[19600441.png]]
 
-Left Bank Engine
+Левобережный двигатель
 
-1. Centinel™ Connection
-2. Adaptor harness (single plug to two plugs) for original equipment manufacturer speed sensor.
-3. Original equipment manufacturer speed sensor.
+1. Связь CentinelTM
+2. Адаптерная проводка жгута (одноразовая вилка к двум вилкам) для оригинального датчика скорости производителя оборудования.
+3. Оригинальный датчик скорости производителя оборудования.
 
 ![[19600442.png]]
 
-Left Bank Side of Engine (CENSE™ Module)
+Левобережная сторона двигателя (модуль CENSETM)
 
-1. CENSE™ module cover bracket
-2. CENSE™ Connector
-3. Left bank rear intake manifold temperature sensor (CENSE™ sensor).
+1. Модуль CENSETM покрывает скобки
+2. Коннектор CENSETM
+3. Датчик температуры заднего впускного коллектора левого берега (датчик CENSETM).
 
 ![[19600443.png]]
 
-Left Bank Front
+Левый берег фронта
 
-1. Exhaust Gas Temperature Sensor breakout (CENSE™ option only)
-2. Fan/clutch coolant temperature sensor breakout
-3. P-clips
-4. Bracket.
+1. Ветка электропроводки с датчиком температуры выхлопных газов (только вариант CENSETM)
+2. Датчик температуры охлаждающей жидкости вентилятора/сцепления
+3. P-клипы
+4. Кронштейн.
 
 ![[19600444.png]]
 
-Fan Clutch
+Муфта вентилятора
 
-1. Fan clutch actuator
-2. Fan clutch connector
-3. P-clips
-4. Fan clutch extension harness.
+1. Вентилятор сцепления
+2. Разъем сцепления вентиляторов
+3. P-клипы
+4. Усилитель сцепления вентилятора.
 
 ![[19600445.png]]
 
-Rear of QSK60 2-Stage Engine
+Задняя часть 2-ступенчатого двигателя QSK60
 
-1. Right bank harness
-2. Rear harness
+1. Правобережная проводка
+2. Задняя проводка
 
-| Service Kits for QSK60 Engines with Head Deck Breather System and Phase 1.0 Harness |  |  |  |  |  |  |  |
+| Сервисные комплекты для двигателей QSK60 с системой дыхания на головной палубе и жгутом для проводов фазы 1.0 |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
-|  | Desired Harness |  |  |  |  |  |  |
-| Desired Breather |  | 60-A Phase 1.0 without CENSE™ | 60-B Phase 1.0 with CENSE™ | 60-C Phase 1.5 without CENSE™ | 60-D Phase 1.5 with CENSE™ | 60-E Phase 2.0 without CENSE™ | 60-F Phase 2.0 with CENSE™ |
-| 60-G Head deck | **Not** applicable | **Not** applicable | Kit 60-C | Kit 60-D | **Not** applicable | **Not** applicable |  |
-| 60-H Single bank | Kit 60-H | Kit 60-H | Kits 60-C and 60-H | Kits 60-D and 60-H | **Not** applicable | **Not** applicable |  |
-| 60-J Production/phase 2 torpedo | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Kits 60-E and 60-J | Kits 60-F and 60-J |  |
+|  | Желаемая электропроводка |  |  |  |  |  |  |
+| Желаемое дыхание |  | 60-фаза 1.0 без CENSETM | 60-B Фаза 1.0 с CENSETM | Фаза 1.5 60С без CENSETM | Фаза 1.5 60D с CENSETM | 60-E Фаза 2.0 без CENSETM | 60-F Фаза 2.0 с CENSETM |
+| 60-G Головная палуба | **Не применяется | **Не применяется | Комплект 60С | Комплект 60-D | **Не применяется | **Не применяется |  |
+| Единый банк 60-H | Комплект 60-Н | Комплект 60-Н | Комплекты 60-C и 60-H | Комплекты 60-D и 60-H | **Не применяется | **Не применяется |  |
+| 60-J Производство/фаза 2 торпеда | **Не применяется | **Не применяется | **Не применяется | **Не применяется | Комплекты 60-E и 60-J | Комплекты 60-F и 60-J |  |
 
-| Service Kits for QSK60 Engines with Single Bank Breather System and Phase 1.0 Harness |  |  |  |  |  |  |  |
+| Сервисные комплекты для двигателей QSK60 с однобанковской дыхательной системой и жгутом для проводов 1.0 фазы |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
-|  | Desired Harness |  |  |  |  |  |  |
-| Desired Breather |  | 60-A Phase 1.0 without CENSE™ | 60-B Phase 1.0 with CENSE™ | 60-C Phase 1.5 without CENSE™ | 60-D Phase 1.5 with CENSE™ | 60-E Phase 2.0 without CENSE™ | 60-F Phase 2.0 with CENSE™ |
-| 60-K Head deck | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable |  |
-| 60-L Single bank | **Not** applicable | **Not** applicable | Kit 60-C | Kit 60-D | **Not** applicable | **Not** applicable |  |
-| 60-N Production/phase 2 torpedo | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Kits 60-E and 60-N | Kits 60-F and 60-N |  |
+|  | Желаемая электропроводка |  |  |  |  |  |  |
+| Желаемое дыхание |  | 60-фаза 1.0 без CENSETM | 60-B Фаза 1.0 с CENSETM | Фаза 1.5 60С без CENSETM | Фаза 1.5 60D с CENSETM | 60-E Фаза 2.0 без CENSETM | 60-F Фаза 2.0 с CENSETM |
+| 60-К Головная палуба | **Не применяется | **Не применяется | **Не применяется | **Не применяется | **Не применяется | **Не применяется |  |
+| 60-литровый единый банк | **Не применяется | **Не применяется | Комплект 60С | Комплект 60-D | **Не применяется | **Не применяется |  |
+| 60-N Производство/фаза 2 торпеда | **Не применяется | **Не применяется | **Не применяется | **Не применяется | Комплекты 60-E и 60-N | Комплекты 60-F и 60-N |  |
 
-| Service Kits for QSK60 Engines with Single Bank Breather System and Phase 1.5 Harness |  |  |  |  |  |  |  |
+| Сервисные комплекты для двигателей QSK60 с однобанковской дыхательной системой и проводной упряжкой фазы 1.5 |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
-|  | Desired Harness |  |  |  |  |  |  |
-| Desired Breather |  | 60-A Phase 1.0 without CENSE™ | 60-B Phase 1.0 with CENSE™ | 60-C Phase 1.5 without CENSE™ | 60-D Phase 1.5 with CENSE™ | 60-E Phase 2.0 without CENSE™ | 60-F Phase 2.0 with CENSE™ |
-| 60-K Head deck | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable |  |
-| 60-L Single bank | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Not applicable | **Not** applicable |  |
-| 60-N Production/phase 2 torpedo | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Kits 60-E and 60-N | Kits 60-F and 60-N |  |
+|  | Желаемая электропроводка |  |  |  |  |  |  |
+| Желаемое дыхание |  | 60-фаза 1.0 без CENSETM | 60-B Фаза 1.0 с CENSETM | Фаза 1.5 60С без CENSETM | Фаза 1.5 60D с CENSETM | 60-E Фаза 2.0 без CENSETM | 60-F Фаза 2.0 с CENSETM |
+| 60-К Головная палуба | **Не применяется | **Не применяется | **Не применяется | **Не применяется | **Не применяется | **Не применяется |  |
+| 60-литровый единый банк | **Не применяется | **Не применяется | **Не применяется | **Не применяется | Не применимо | Не применяется |  |
+| 60-N Производство/фаза 2 торпеда | **Не применяется | **Не применяется | **Не применяется | **Не применяется | Комплекты 60-E и 60-N | Комплекты 60-F и 60-N |  |
 
-| Service Kits for QSK60 Engines with Deck Head Breather System and Phase 1.5 Harness |  |  |  |  |  |  |  |
+| Сервисные комплекты для двигателей QSK60 с системой торцевого дыхания и проводной упряжкой фазы 1.5 |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
-|  | Desired Harness |  |  |  |  |  |  |
-| Desired Breather |  | 60-A Phase 1.0 without CENSE™ | 60-B Phase 1.0 with CENSE™ | 60-C Phase 1.5 without CENSE™ | 60-D Phase 1.5 with CENSE™ | 60-E Phase 2.0 without CENSE™ | 60-F Phase 2.0 with CENSE™ |
-| 60-K Head deck | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable |  |
-| 60-L Single bank | **Not** applicable | **Not** applicable | Kit 60-L | Kit 60-L | **Not** applicable | **Not** applicable |  |
-| 60-J Production/phase 2 torpedo | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Kits 60-E and 60-J | Kits 60-F and 60-J |  |
+|  | Желаемая электропроводка |  |  |  |  |  |  |
+| Желаемое дыхание |  | 60-фаза 1.0 без CENSETM | 60-B Фаза 1.0 с CENSETM | Фаза 1.5 60С без CENSETM | Фаза 1.5 60D с CENSETM | 60-E Фаза 2.0 без CENSETM | 60-F Фаза 2.0 с CENSETM |
+| 60-К Головная палуба | **Не применяется | **Не применяется | **Не применяется | **Не применяется | **Не применяется | **Не применяется |  |
+| 60-литровый единый банк | **Не применяется | **Не применяется | Комплект 60-L | Комплект 60-L | **Не применяется | **Не применяется |  |
+| 60-J Производство/фаза 2 торпеда | **Не применяется | **Не применяется | **Не применяется | **Не применяется | Комплекты 60-E и 60-J | Комплекты 60-F и 60-J |  |
 
-This kit is designed for the QSK60 engines phase 1.5 harness without CENSE™. It contains harnesses, sensors, and mounting hardware.
+Этот комплект предназначен для двигателей QSK60 фазы 1.5 с проводной упряжкой без CENSETM. Он содержит проводные ремни, датчики и монтажное оборудование.
 
-| Kit 60-C Harnesses, Sensors and Mounting Hardware for QSK60 Engines Phase 1.5 Harness Without CENSE™ |  |  |  |
+| Комплект 60-C жгутов, датчиков и монтажного оборудования для двигателей QSK60 Фаза 1.5 жгут проводов без CENSETM |  |  |  |
 |---|---|---|---|
-| Part Number | Name | Quantity | Remarks |
-| 69911 | Clip | 3 | Two clips to support the oil level sensor and blowby sensor harness breakouts to the hand hole cover (left bank 3) |
-| Supports a brace mounted on oil pan rail |  |  |  |
-| One clip to secure fuel pump pressure sensor and actuator harness breakouts to the left bank 1 and 2 cam cover at the lower capscrew location |  |  |  |
-| [[3093956]] | Screw, hexagonal flange head capscrew | 1 | M8 mounts p-clip holding oil rifle pressure sensor breakout to the support bracket at the rear of the engine. |
-| 3171395 | Clip | 4 | Plastic p-clips securing electronic control module harness breakouts to vertically mounted electronic control module bracket. |
-| 3178520 | Clip | 2 | Secures boost pressure, intake air temperature, or fan clutch breakouts to left bank 1 and 2 cam cover at the upper left and lower middle capscrew locations. |
-| [[3332136]] | Union, male | 1 | Male union fitting for coolant hose. |
-| 3408507 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for boost pressure sensor. |
-| 3408509 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for coolant pressure sensor. |
-| 3408509 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for timing rail pressure sensor. |
-| 3408509 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for fuel pump pressure sensor. |
-| [[3408510]] | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for fuel rail pressure. |
-| 3408511 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for oil rifle pressure sensor. |
-| 3408556 | Sensor, pressure | 2 | Danfoss boost pressure sensor (left bank front). |
-| Coolant pressure sensor. |  |  |  |
-| 3408562 | Sensor, pressure | 1 | Danfoss fuel rail pressure sensor electronic control valve assembly. |
-| 3408564 | Sensor, pressure | 1 | Danfoss timing rail pressure sensor electronic control valve assembly. |
-| 3408566 | Sensor, pressure | 1 | Danfoss fuel pump pressure sensor - remove snubber hose and snubber hose mountings from fuel pump. |
-| [[3410392]] | Elbow, male union | 1 | Number 20 fuel filter head outlet fitting. |
-| [[3628553]] | Brace, tube | 1 | Brace to support the oil level sensor and blowby sensor harness breakouts mounted on the oil pan rail. |
-| [[3629452]] | Clip | 4 | Secures oil level sensor extension harness to oil pan. |
-| Secures fuel pump actuator harness breakout to bottom of fuel pump flange. |  |  |  |
-| Secures fuel pump pressure sensor breakout to top of fuel pump flange. |  |  |  |
-| 3630805 | Clamp, wire tie | 4 | Secures fuel pump sensor and actuator breakouts together. |
-| Secures the fuel pump sensor and actuator breakouts and the coolant pressure sensor breakout together. |  |  |  |
-| Secures the fuel temperature and fuel pressure sensor electronic control valve assembly breakouts to the upper horizontal electronic control module bracket. |  |  |  |
-| Secures engine speed sensor breakouts and oil rifle pressure sensor breakout together. |  |  |  |
-| 3657731 | Clip | 1 | Secures oil rifle pressure sensor breakout to bracket at rear of engine. |
-| [[3900589]] | Nut, hexagon flange | 1 | M8 secures p-clip to oil level sensor/blowby sensor support brace. |
-| [[3900630]] | Screw, hexagonal flange capscrew | 1 | M8 secures p-clip to oil level sensor/blowby sensor support brace. |
-| [[3900634]] | Screw, hexagonal flange capscrew | 2 | M10 secures enclosure bracket to cam covers. |
-| [[3900679]] | Screw, hexagonal flange capscrew | 1 | M10 secures enclosure bracket to cam covers. |
-| [[3901249]] | Screw, hexagonal flange capscrew | 1 | M12 secures oil level sensor/blowby sensor support brace to the oil pan rail. |
-| [[3906216]] | Nut, hexagon flange | 5 | M6 secures plastic p-clips to vertically mounted electronic control module bracket. |
-| Secures weatherpack clips, holding speed sensor breakouts, to bracket mounted at the rear of the engine. |  |  |  |
-| Secures p-clip to fuel rail bracket at the front left of the engine. |  |  |  |
-| [[3913372]] | Screw, hexagonal flange capscrew | 2 | M12 secures speed sensor/oil pressure sensor bracket of the engine block. |
-| [[3913638]] | Screw, hexagonal flange capscrew | 3 | M6 secure vertically mounted electronic control module harness support bracket to the horizontal. |
-| Used to secure weatherpack clips to the support bracket at the rear of the engine. |  |  |  |
-| 4000659 | Harness, wiring | 1 | Extension harness to connect to oil level sensor located on the right bank side. |
-| [[4007074]] | Elbow, male union | 1 | Fuel pump number 20 inlet fitting. |
-| 4016678 | Brace, wiring | 1 | Vertically mounted electronic control module harness breakout support bracket. |
-| 4017143 | Bracket, enclosure | 1 | Brace to support interconnect box at the rear end of the left bank harness to cam cover. |
-| 4017568 | Brace, wiring | 2 | Horizontal Electronic control module brackets. |
-| 4066054 | Bracket, wiring retainer | 1 | Brace to support p-clips for harness breakouts for speed and oil rifle pressure sensor. |
-| [[4066064]] | Clip | 2 | Weatherpack clips to support harness breakouts for speed sensor. |
-| 4066168 | Clip | 1 | Secures fan clutch/coolant temperature sensor harness breakouts to the stud on the fuel rail bracket at left bank front of the engine. |
-| 4086499 | Harness, external control module | 1 | Left bank vehicle and engine harness. |
-| [[4088734]] | Sensor, pressure | 1 | Oil rifle pressure sensor (transparent gauge 0 to 689 kPa \[0 to 100 psig\] mounted on flywheel housing. |
-| 4100627 | Hose, flexible | 1 | Coolant pressure sensor hose adapter. |
-| 4100631 | Adapter, o-ring | 1 | Adapter fitted into cylinder block in the kim-hot start location. |
-| 4101147 | Hose, flexible | 1 | Number 20 fuel filter hose - fuel pump hose with 90 degree elbow. |
-| QSK60 Engines Single Cylinder Air Compressors |  |  |  |
-| 4100720 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
-| QSK60 Engines with Twin Cylinder Air Compressors |  |  |  |
-| 4080587 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
-| QSK60 Engines without An Air Compressor |  |  |  |
-| 4065606 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
-| QSK60 Engines With “00” Flywheel Housing |  |  |  |
-| 3408471 | Sensor, speed | 1 | Four-pin single plug speed sensor for “00” flywheel housing. |
-| [[3408526]] | Adapter, electrical connector | 1 | Deutsch connector - Packard connector adapter harness for engine speed sensor. |
-| QSK60 Engines With “0” Flywheel Housing |  |  |  |
-| 3408472 | Sensor, speed | 1 | Four-pin single plug speed sensor for “0” flywheel housing. |
-| [[3408526]] | Adapter, electrical connector |  | Deutsch connector - Packard connector adapter harness for engine speed sensor. |
-| QSK60 Engines With Rockford Fan clutch Solenoid |  |  |  |
-| 114307 | Brace, tube | 1 | Brace to support the fan clutch breakout. |
-| [[3093956]] | Screw, hexagon flange head capscrew | 1 | M8 secures p-clip holding fan clutch breakout to support brace. |
-| [[3629452]] | Clip | 1 | Secures fan clutch breakout to fan clutch breakout support brace. |
-| [[3900589]] | Nut, hexagon flange | 1 | M8 secures p-clip holding fan clutch breakout to support brace. |
-| [[3903990]] | Screw, hexagon flange head capscrew | 1 | M10 mounts support brace to idler pulley bracket. |
+| Номер детали | Имя | Количество | Замечания |
+| 69911 | Скоба | 3 | Два клипса для поддержки датчика уровня масла и датчика продувки проводов жгута проводов к крышке ручного отверстия (левый берег 3) |
+| Поддерживает скобу, установленную на рельсовой рельсовой подвеске |  |  |  |
+| Один клип для защиты датчика давления топливного насоса и проводов привода от прорывов на левом берегу 1 и 2 кулачковой крышки в нижней точке болтов |  |  |  |
+| [[3093956]] | К черту, шестиугольные фланцевые затворы | 1 | M8 монтирует p-clip, удерживающий датчик давления масляной винты, проводя ветку жгута проводов к опорному скобу в задней части двигателя. |
+| 3171395 | Скоба | 4 | Пластиковые p-клипы, обеспечивающие электронный модуль управления, устанавливают разрывы электропроводки на вертикально установленный электронный модуль управления. |
+| 3178520 | Скоба | 2 | Обеспечивает повышение давления, температуры воздуха впуска или прорывов сцепления вентилятора на левом берегу 1 и 2 кулачковой крышки в верхнем левом и нижнем среднем местах болтов. |
+| [[3332136]] | Союз, штыревой | 1 | Наружно резьбовая фитинговая установка для шланга охлаждающей жидкости. |
+| 3408507 | Адаптер, электрический разъем | 1 | Danfoss Sensor - адаптер разъема Packard для подключения жгута для датчика давления. |
+| 3408509 | Адаптер, электрический разъем | 1 | Danfoss Sensor - адаптер разъема Packard для проводов ремня для датчика давления охлаждающей жидкости. |
+| 3408509 | Адаптер, электрический разъем | 1 | Danfoss Sensor - адаптер разъема Packard для проводов рельсов для датчика давления рельсов. |
+| 3408509 | Адаптер, электрический разъем | 1 | Danfoss Sensor - адаптер разъема Packard для проводов ремня для датчика давления топливного насоса. |
+| [[3408510]] | Адаптер, электрический разъем | 1 | Danfoss Sensor - адаптер разъема Packard для проводов рельсов топлива. |
+| 3408511 | Адаптер, электрический разъем | 1 | Danfoss Sensor - адаптер разъема Packard для проводов жгута для датчика давления масляной винты. |
+| 3408556 | Датчик, давление | 2 | Датчик давления Danfoss (слева на передней панели). |
+| Датчик давления охлаждающей жидкости. |  |  |  |
+| 3408562 | Датчик, давление | 1 | Датчик давления на топливных рельсах Danfoss электронный клапанный узел управления. |
+| 3408564 | Датчик, давление | 1 | Датчик давления датчика давления Danfoss электронный клапан управления. |
+| 3408566 | Датчик, давление | 1 | Датчик давления топливного насоса Danfoss - удалите шланг и шланги шланга из топливного насоса. |
+| [[3410392]] | Локтевой, с наружной резьбой фитинг | 1 | Номер 20 топливного фильтра, устанавливающего розетку розетки. |
+| [[3628553]] | Сцепление, трубка | 1 | Подготовка для поддержки датчика уровня масла и датчика продувки проводов жгута, установленного на рельсе масляного поддона. |
+| [[3629452]] | Скоба | 4 | Защищает датчик уровня масла проводкой спряжения к масляной кастрюле. |
+| Защищает привод топливного насоса проводкой жгута проводов ветки жгута до дна фланца топливного насоса. |  |  |  |
+| Защищает ветку жгута датчика давления топливного насоса до верхней части фланца топливного насоса. |  |  |  |
+| 3630805 | Зажим, стяжка | 4 | Обеспечивает совместное выключение датчика топливного насоса и привода. |
+| Защищает датчик топливного насоса и выключатели привода и ветку жгута проводов датчика давления охлаждающей жидкости. |  |  |  |
+| Защищает выключатели электронного клапана управления датчиком температуры топлива и давления топлива в верхнюю горизонтальную кронштейн электронного модуля управления. |  |  |  |
+| Обеспечивает выключение датчика скорости двигателя и датчика давления масляной винты, проводя ветку жгута проводов вместе. |  |  |  |
+| 3657731 | Скоба | 1 | Защищает ветку жгута датчика давления масляной винты в скобках сзади двигателя. |
+| [[3900589]] | Гайка, шестиугольник. | 1 | M8 обеспечивает p-клип датчику уровня масла / блокировочной датчику поддержки скобки. |
+| [[3900630]] | К черту, шестиугольные фланцевые болты | 1 | M8 обеспечивает p-клип датчику уровня масла / блокировочной датчику поддержки скобки. |
+| [[3900634]] | К черту, шестиугольные фланцевые болты | 2 | M10 обеспечивает защиту кронштейна корпуса от кулачков. |
+| [[3900679]] | К черту, шестиугольные фланцевые болты | 1 | M10 обеспечивает защиту кронштейна корпуса от кулачков. |
+| [[3901249]] | К черту, шестиугольные фланцевые болты | 1 | M12 обеспечивает датчик уровня масла / датчик поддержки срабатывания к рельсу масляного поддона. |
+| [[3906216]] | Гайка, шестиугольник. | 5 | M6 обеспечивает защиту пластиковых p-затворов от вертикально установленных электронных кронштейнов модулей управления. |
+| Закрепляет зажимы метеопакета, удерживая выключатели датчика скорости, кронштейном, установленным в задней части двигателя. |  |  |  |
+| Защищает p-клип для заправки рельсовой кронштейн в передней левой части двигателя. |  |  |  |
+| [[3913372]] | К черту, шестиугольные фланцевые болты | 2 | M12 обеспечивает защиту датчика скорости/датчика давления масла блока двигателя. |
+| [[3913638]] | К черту, шестиугольные фланцевые болты | 3 | M6 защищен вертикально установленным электронным модулем управления проводкой ремня поддержки кронштейна к горизонтали. |
+| Используется для закрепления метеоупаковок к опорному скобку в задней части двигателя. |  |  |  |
+| 4000659 | шнур, шнур, шнур | 1 | Расширение проводов жгута для подключения к датчику уровня масла, расположенному на правой стороне берега. |
+| [[4007074]] | Локтевой, с наружной резьбой фитинг | 1 | Топливный насос № 20 впускной установки. |
+| 4016678 | Сцепление, проводка | 1 | Вертикально установленный электронный модуль управления проводкой жгута жгута проводов ветки подпорной кронштейна. |
+| 4017143 | Скобка, корпус | 1 | Подготовьтесь к поддержке межсоединительного ящика на заднем конце левобережной проводов для укрытия. |
+| 4017568 | Сцепление, проводка | 2 | Горизонтальные электронные кронштейны модулей управления. |
+| 4066054 | Кронштейн, фиксатор проводов | 1 | Хронология для поддержки p-клипов для проводов сбруи для датчика давления скорости и масляной винты. |
+| [[4066064]] | Скоба | 2 | Клипы Weatherpack для поддержки прорывов проводов для датчика скорости. |
+| 4066168 | Скоба | 1 | Обеспечивает сцепление вентилятора / датчик температуры охлаждения проводов ремня прорывов к шпильке на топливной рельсовой кронштейн в левобережной передней части двигателя. |
+| 4086499 | жгут проводов, внешний модуль управления | 1 | Упряжка для электропроводки и электропроводки левого берега. |
+| [[4088734]] | Датчик, давление | 1 | Датчик давления масляной винты (прозрачный калибр от 0 до 689 кПа \[0 до 100 psiг\], установленный на корпусе маховика). |
+| 4100627 | Хлопья, гибкие | 1 | Адаптер шланга датчика давления охлаждающей жидкости. |
+| 4100631 | Адаптер, кольцо | 1 | Адаптер, установленный в блок цилиндров в месте запуска Ким-Хота. |
+| 4101147 | Хлопья, гибкие | 1 | Номер 20 шланг топливного фильтра - шланг топливного насоса с локтем 90 градусов. |
+| QSK60 Двигатели одноцилиндровые воздушные компрессоры |  |  |  |
+| 4100720 | Хлопья, гибкие | 1 | Топливный насос — электронный клапан управления сборочным топливным шлангом. |
+| Двигатели QSK60 с двойными цилиндровыми воздушными компрессорами |  |  |  |
+| 4080587 | Хлопья, гибкие | 1 | Топливный насос — электронный клапан управления сборочным топливным шлангом. |
+| Двигатели QSK60 без воздушного компрессора |  |  |  |
+| 4065606 | Хлопья, гибкие | 1 | Топливный насос — электронный клапан управления сборочным топливным шлангом. |
+| Двигатели QSK60 с корпусом «00» Flywheel |  |  |  |
+| 3408471 | Датчик, скорость | 1 | Четырехконтактный одноконтактный датчик скорости для корпуса маховика «00». |
+| [[3408526]] | Адаптер, электрический разъем | 1 | Deutsch connector — адаптер разъема Packard для подключения жгута для датчика скорости двигателя. |
+| Двигатели QSK60 с корпусом «0» Flywheel |  |  |  |
+| 3408472 | Датчик, скорость | 1 | Четырехконтактный одноконтактный датчик скорости для корпуса маховика «0». |
+| [[3408526]] | Адаптер, электрический разъем |  | Deutsch connector — адаптер разъема Packard для подключения жгута для датчика скорости двигателя. |
+| QSK60 Engines с муфтой Rockford Fan Solenoid |  |  |  |
+| 114307 | Сцепление, трубка | 1 | Подготовьтесь к поддержке вентилятора сцепления проводов ветки ремня. |
+| [[3093956]] | К черту, шестиугольные фланцевые затворы | 1 | M8 обеспечивает p-clip удерживание вентилятора сцепления проводов ответвления жгута для поддержки скобки. |
+| [[3629452]] | Скоба | 1 | Защищает вентилятор сцепления проводов жгута ветви к вентилятору сцепления проводов жгута ветки поддержки сцепления. |
+| [[3900589]] | Гайка, шестиугольник. | 1 | M8 обеспечивает p-clip удерживание вентилятора сцепления проводов ответвления жгута для поддержки скобки. |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 1 | M10 крепится к подлокотнику шкива холостого хода. |
 
-| Kit 60-D Harnesses, Sensors and Mounting Hardware for QSK60 Engines Phase 1.5 With CENSE™ |  |  |  |
+| Комплект 60-D жгутов, датчиков и монтажного оборудования для двигателей QSK60 Фаза 1.5 с CENSETM |  |  |  |
 |---|---|---|---|
-| Part Number | Name | Quantity | Remarks |
-| 69911 | Clip | 2 | Clip to support the oil level sensor and blowby sensor harness breakouts to the support brace mounted on the oil pan rail. |
-| Clip to secure fuel pump sensor and actuator harness breakouts to the left bank plus 2 cam cover at the lower capscrew location. |  |  |  |
-| 70709 | Washer, plain | 2 | Used in conjunction with p-clip and nut on left bank curved CENSE™ harness brace. |
-| Used in conjunction with p-clip and nut on right bank curved CENSE™ harness brace. |  |  |  |
-| 180371 | Clip | 32 | Used on each cylinder support exhaust gas temperature sensor extension harness. |
-| Support exhaust gas temperature sensor extension harness on Z-bracket mounted under coolant transfer tube. |  |  |  |
-| [[3081825]] | Clip | 4 | One per quadrant used to secure all four exhaust gas temperature sensor extension harnesses in quadrant to aftercooler cover. |
-| [[3093946]] | Nut, regular hexagon | 8 | M6 secures clip 4017498 to small studs on wiring harness brace and left bank front brace. |
-| [[3093956]] | Screw, hexagonal flange capscrew | 1 | M8 mounts p-clip holding oil rifle pressure sensor to the support bracket at the rear of the engine. |
-| 3171395 | Clip | 4 | Plastic p-clips securing electronic control valve assembly harness breakouts to vertically mounted electronic control module bracket. |
-| 3171451 | Screw, pan head capscrew | 36 | Connects 4 spacers to the left bank front brace. |
-| Connects 4 spacers to the left bank rear brace. |  |  |  |
-| Secures RS232 data link to flange on left bank front harness. |  |  |  |
-| Connects 4 spacers to the right bank front brace. |  |  |  |
-| Connects 4 spacers to the right bank rear brace. |  |  |  |
-| 3171470 | Washer, plain | 4 | Used on RS232 data link support flange on the left bank front brace. |
-| 3178520 | Clip | 3 | Secures boost pressure/intake air temperature/fan clutch breakouts to left bank 1 cam cover upper left and lower middle capscrew locations. |
-| Secures oil temperature/oil level/blowby flow harness breakouts to left bank 6 hand hole cover. |  |  |  |
-| [[3332136]] | Union, male | 1 | Male union fitting for coolant hose. |
-| 3408507 | Adapter, electric connector | 2 | Danfoss Sensor - Packard connector adapter harness boost pressure sensor (left bank front and right bank rear). |
-| 3408509 | Adapter, electric connector | 5 | Danfoss Sensor - Packard connector adapter harness coolant pressure sensor. |
-| Lubrication pressure sensors. |  |  |  |
-| Timing rail pressure sensor electronic control valve assembly. |  |  |  |
-| Fuel pump pressure sensor. |  |  |  |
-| [[3408510]] | Adapter, electric connector | 12 | Danfoss Sensor - Packard connector adapter harness for fuel rail pressure sensor electronic control valve assembly. |
-| 3408511 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for oil rifle pressure sensor. |
-| 3408540 | Sensor, exhaust gas temperature | 16 | Temperature sensors. |
-| 3408556 | Sensor, pressure | 3 | Danfoss Sensor - boost pressure sensor (left bank front and right bank rear). |
-| Coolant pressure sensor. |  |  |  |
-| [[3408558]] | Sensor, pressure | 2 | Danfoss pre and post lube oil pressure sensors. |
-| 3408562 | Sensor, pressure | 1 | Danfoss fuel rail pressure sensor electronic control valve assembly. |
-| 3408564 | Sensor, pressure | 1 | Danfoss timing rail pressure sensor electronic control valve assembly. |
-| 3408566 | Sensor, pressure | 1 | Danfoss fuel pump pressure sensor. |
-| [[3410392]] | Elbow, male union | 1 | Number 20 fuel filter head outlet fitting. |
-| [[3628553]] | Brace, tube | 1 | Brace to support the oil level/temperature sensors and the blowby sensor harness breakouts mounted on the oil pan rail. |
-| 369451 | Clip | 2 | Mounts CENSE™ harness to left bank curved CENSE™ harness brace. |
-| Mounts CENSE™ harness to right bank curved CENSE™ harness brace. |  |  |  |
-| [[3629452]] | Clip | 5 | Secures oil level sensor extension harness to oil pan. |
-| Secures fuel pump actuator harness breakout to bottom of fuel pump flange. |  |  |  |
-| Secures fuel pump pressure sensor breakout to top of fuel pump flange. |  |  |  |
-| Secures oil temperature CENSE™ harness breakout to the support on the oil pan rail. |  |  |  |
-| 3630804 | Clamp, wire tie | 3 | Secures backbone harness to the CENSE™ harness on main brace. |
-| 3630805 | Clamp, wire tie | 40 | Secures fuel pump sensor and actuator breakouts together. |
-| Secures the fuel pump sensor and actuator breakouts and the coolant pressure sensor breakout together. |  |  |  |
-| Secures the fuel temperature and fuel pressure sensor breakouts to the upper horizontal electronic control module brackets. |  |  |  |
-| Secures engine speed sensor breakouts and oil rifle pressure sensor together. |  |  |  |
-| Secures backbone harness to CENSE™ harness on left bank curved CENSE™ harness brace. |  |  |  |
-| Secures exhaust gas temperature sensor extension harness to the CENSE™ harness (2 for each cylinder). |  |  |  |
-| 3657731 | Clip | 1 | Secures oil rifle pressure sensor breakout to bracket at rear of engine. |
-| 3823336 | Kit, butt splice | 32 | Connects the exhaust gas temperature sensor extension harness to the CENSE™ harness. |
-| [[3900589]] | Nut, hexagon flange | 1 | M8 secure p-clip to oil level sensor/blowby sensor support brace mounted on the oil pan rail. |
-| [[3900629]] | Screw, hexagonal flange capscrew | 4 | M8 secures the right bank curved bracket to the harness brace. |
-| Secures the left bank curved bracket to the harness brace. |  |  |  |
-| [[3900629]] | Screw, hexagonal flange capscrew | 20 | M8 secures the left bank front CENSE™ harness brace to the intake manifold (upper). |
-| Secures the left bank rear CENSE™ harness brace to the intake manifold (upper). |  |  |  |
-| Secures the right bank front CENSE™ harness brace to the intake manifold (upper). |  |  |  |
-| Secures the right bank rear CENSE™ harness brace to the intake manifold (upper). |  |  |  |
-| Secures the exhaust gas temperature sensor Z-bracket to the rocker housing. |  |  |  |
-| Secures the p-clips to the Z-bracket. |  |  |  |
-| [[3900630]] | Screw, hexagonal flange capscrew | 1 | M8 secure p-clip to oil level sensor/blowby sensor support brace mounted on the oil pan rail. |
-| [[3900634]] | Screw, hexagonal flange capscrew | 2 | M10 secure enclosure bracket to cam cover. |
-| [[3900679]] | Screw, hexagonal flange capscrew | 1 | M10 secures enclosure bracket to cam covers. |
-| [[3901249]] | Screw, hexagonal flange capscrew | 1 | M12 secures oil level sensor/blowby sensor support brace to the oil pan rail. |
-| [[3901445]] | Screw, hexagonal flange capscrew | 16 | M8 secures the left bank front CENSE™ harness brace to the intake manifold (lower). |
-| Secure the left bank rear CENSE™ harness brace to the intake manifold (lower). |  |  |  |
-| Secures the right bank front CENSE™ harness brace to the intake manifold (lower). |  |  |  |
-| Secures the right bank front CENSE™ harness brace to the intake manifold (lower). |  |  |  |
-| [[3902460]] | Screw, hexagonal flange capscrew | 8 | M10 secure the right bank curved bracket to the support bracket. |
-| Secures the left bank curved bracket to the support bracket. |  |  |  |
-| Secures the support brackets for the curved brace to the flanges on the CENSE™ module bracket and mount the heat shield. |  |  |  |
-| [[3903990]] | Screw, hexagonal flange capscrew | 4 | M10 secure the CENSE™ module housing to the mounting brackets. |
-| [[3906216]] | Nut, hexagon flange | 20 | M6 securing plastic p-clips to vertically mounted electronic control module bracket. |
-| Secures weatherpack clips, holding speed sensor breakouts, to bracket. |  |  |  |
-| Secures p-clip to fuel rail bracket mounted at the front left of the engine. |  |  |  |
-| Left bank front CENSE™ harness brace. |  |  |  |
-| Left bank rear CENSE™ harness brace. |  |  |  |
-| Right bank front CENSE™ harness brace. |  |  |  |
-| Right bank rear CENSE™ harness brace. |  |  |  |
-| Secures T-section flange to left bank curved CENSE™ harness brace. |  |  |  |
-| Secures p-clip to left bank curved CENSE™ harness brace. |  |  |  |
-| Secures T-section flange to right bank curved CENSE™ harness brace. |  |  |  |
-| Secures p-clip to right bank curved CENSE™ harness brace. |  |  |  |
-| [[3913372]] | Screw, hexagonal flange capscrew | 2 | M12 secures speed sensor/oil pressure sensor bracket to the engine block. |
-| [[3913638]] | Screw, hexagonal flange capscrew | 3 | M6 secure vertically mounted electronic control module harness support bracket to the horizontal electronic control module brackets. |
-| Used to secure weatherpack clips to the support bracket at the rear of the engine. |  |  |  |
-| 4000659 | Harness, wiring | 1 | Extension harness to connect to oil level sensor mounted on the right bank side. |
-| [[4007074]] | Elbow, male union | 1 | Fuel pump number 20 inlet fitting. |
-| 4016678 | Brace, Wiring | 1 | Vertically mounted electronic control valve assembly harness breakout support bracket. |
-| 4017143 | Bracket, enclosure | 1 | Brace to support interconnect box at the rear end of the left bank harness. |
-| 4017464 | Harness, external control middle wiring | 1 | Right bank CENSE™ harness wiring. |
-| 4017465 | Harness, external control middle wiring | 1 | Left bank CENSE™ harness wiring. |
-| 4017483 | Brace, wiring | 1 | right bank curved brace, supporting CENSE™ harness to the CENSE™ module. |
-| 4017498 | Clip | 8 | Holds clip 4017499 left bank front brace. |
-| Right bank front brace. |  |  |  |
-| 4017499 | Clip | 8 | Supports CENSE™ harness breakouts on harness braces (attached to clip 4017498). |
-| Left bank front brace. |  |  |  |
-| Right bank front brace. |  |  |  |
-| 4017514 | Harness, control middle assembly | 1 | CENSE™ electronic control module harness, housing, cover, and assembly. |
-| 4017519 | Harness, wiring | 1 | Backbone extension harness. |
-| 4017568 | Brace, wiring | 2 | Horizontal electronic control module brackets. |
-| 4017634 | Brace, wiring | 2 | Curved brace support brackets, mounted to flanges on CENSE™ electronic control module housing support brackets. |
-| 4065922 | Spacer, mounting | 16 | Spacer placed between harness support braces and the intake manifold. |
-| Left bank front harness support brace. |  |  |  |
-| Left bank rear harness support brace. |  |  |  |
-| Right bank front harness support brace. |  |  |  |
-| Right bank rear harness support brace. |  |  |  |
-| 4066053 | Shield, heat | 1 | Mounted on the back of the CENSE™ module, on the flanges on the CENSE™ electronic control module housing support brackets. |
-| 4066054 | Bracket, wiring retainer | 1 | Brace to support p-clips for harness breakouts for speed and oil rifle pressure sensor. |
-| [[4066064]] | Clip | 2 | Clips to support harness breakouts for speed sensor. |
-| 4066070 | Brace, wiring | 1 | Left bank rear CENSE™ harness support brace mounted on intake manifolds. |
-| 4066144 | Brace, wiring | 1 | Right bank rear CENSE™ harness support brace mounted on intake manifolds. |
-| 4066148 | Brace, wiring | 1 | Left bank front CENSE™ harness support brace mounted on intake manifolds. |
-| 4066168 | Clip | 1 | Secures fan clutch/coolant temperature sensor to fuel rail bracket at left bank front of the engine. |
-| 4066560 | Z-bracket | 16 | Mounts p-clip onto the rocker box capscrew under the low temperature aftercooler coolant transfer tube. |
-| 4066813 | Harness, exhaust gas temperate extension | 16 | Extension harness for exhaust gas temperature sensor. |
-| 4080161 | Brace, wiring | 1 | Right bank front CENSE™ harness support brace mounted on intake manifolds. |
-| 4086499 | Harness, electronic control module | 1 | Left bank vehicle and engine harness. |
-| [[4088734]] | Sensor, pressure | 1 | Oil rifle pressure sensor (transparent gauge 0 to 689 kPa \[0 to 100 psi\] mounted on flywheel housing. |
-| 4100464 | Brace, wiring | 1 | Left bank curved brace, supporting CENSE™ harness to the CENSE™ module. |
-| 4100627 | Hose, flexible | 1 | Coolant pressure sensor hose adapter. |
-| 4100631 | Adapter, o-ring | 1 | Adapter fitted into cylinder block in the kim-hot start location. |
-| 4101147 | Hose, flexible | 1 | Number 20 fuel filter hose - fuel pump hose with 90 degree elbow. |
-| QSK60 Engines with Single Cylinder Air Compressors Add to Kit 60-D |  |  |  |
-| 4100720 |  | 1 | Fuel pump - electronic control valve assembly fuel hose. |
-| QSK60 Engines with Twin Cylinder Air Compressors Add to Kit 60-D |  |  |  |
-| 4080587 |  | 1 | Fuel pump - electronic control valve assembly fuel hose. |
-| QSK60 Engines Without an Air Compressors Add to Kit 60-D |  |  |  |
-| 4065606 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
-| QSK60 Engines With “00” Flywheel Housing Add to Kit 60-D |  |  |  |
-| 3408471 | Sensor, speed | 1 | Four pin single plug speed sensor for “00” flywheel housing. |
-| [[3408526]] | Adapter, electric connector | 1 | Deutsch connector - Packard connector adapter harness for engine speed sensor. |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 4 | Mounts support brackets to flywheel housing and engine block. |
-| 4066097 | Bracket, module | 1 | Rear left CENSE™ module support bracket. |
-| 4066104 | Bracket, module | 1 | Rear right CENSE™ module support bracket. |
-| QSK60 Engines With “0” Flywheel Housing Add to Kit 60-D |  |  |  |
-| 3408472 | Sensor, speed | 1 | Four pin single plug speed sensor for “0” flywheel housing. |
-| [[3408526]] | Adapter, electric connector | 1 | Deutsch connector - Packard connector adapter harness for engine speed sensor. |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 4 | Mounts support brackets to flywheel housing and engine block. |
-| 4066081 | Bracket, module | 1 | Rear left CENSE™ module support bracket. |
-| 4066089 | Bracket, module | 1 | CENSE™ module support bracket. |
-| QSK60 Engines With Rockford Fan Clutch Solenoid Add to Kit 60-D |  |  |  |
-| 114307 | Brace, tube | 1 | Brace to support the fan clutch breakout. |
-| [[3093956]] | Screw, hexagonal flange head capscrew | 1 | M8 secures p-clip to fan clutch breakout support brace. |
-| [[3629452]] | Clip | 1 | Secures fan clutch breakout to fan clutch breakout support brace. |
-| [[3900589]] | Nut, hexagonal flange | 1 | M8 secures p-clip to fan clutch breakout support brace. |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 1 | M10 mounts support brace to the idler pulley bracket. |
-| QSK60 Engines Without Eliminator Add to Kit 60-D |  |  |  |
-| [[3629452]] | Clip | 4 | Secures pre/post oil filter pressure sensor CENSE™ harness breakouts to the cam cover and oil filter head. |
-| M8 secure the right bank front protective cover to the harness brace. |  |  |  |
-| [[3900629]] | Screw, hexagonal flange head capscrew | 24 | Secures the right bank rear protective cover to the harness brace. |
-| Secures the left bank rear protective cover to the harness brace. |  |  |  |
-| Secures the left bank front protective cover to the harness brace. |  |  |  |
-| 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
-| 4017493 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
-| 4017494 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
-| 4066130 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
-| QSK60 Engines With Eliminator Add to Kit 60-D |  |  |  |
-| 3630805 | Clamp, wire tie | 4 | Secures eliminator post/pre pressure sensor CENSE™ breakouts. |
-| [[3900629]] | Screw, hexagonal flange head capscrew | 24 | M8 secure the right bank front protective cover to the harness brace. |
-| Secures the right bank rear protective cover to the harness brace. |  |  |  |
-| Secures the left bank rear protective cover to the harness brace. |  |  |  |
-| Secures the left bank front protective cover to the harness brace. |  |  |  |
-| 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
-| 4017493 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
-| 4066130 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
-| 4080162 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
-| WA1200 Engine Add to Kit 60-D |  |  |  |
-| [[3629452]] | Clip | 4 | Secures pre/post oil filter pressure sensor CENSE™ harness breakouts to the cam cover and dummy oil filter head. |
-| [[3900629]] | Screw, hexagonal flange head capscrew | 24 | M8 secure the right bank front protective cover to the harness brace. |
-| Secures the right bank rear protective cover to the harness brace. |  |  |  |
-| Secures the left bank rear protective cover to the harness brace. |  |  |  |
-| Secures the left bank front protective cover to the harness brace. |  |  |  |
-| 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
-| 4066181 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
-| 4066182 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
-| 4066183 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
-| Komatsu Engine Without Eliminator Add to Kit 60-D |  |  |  |
-| [[3629452]] | Clip | 4 | Secures pre/post oil filter pressure sensor CENSE™ harness breakouts to the cam cover and oil filter head. |
-| [[3900629]] | Screw, hexagonal flange head capscrew | 24 | M8 secure the right bank front protective cover to the harness brace. |
-| Secures the right bank rear protective cover to the harness brace. |  |  |  |
-| Secures the left bank rear protective cover to the harness brace. |  |  |  |
-| Secures the left bank front protective cover to the harness brace. |  |  |  |
-| 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
-| 4017493 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
-| 4017494 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
-| 4066183 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
-| Komatsu Engine With Eliminator Add to Kit 60-D |  |  |  |
-| 3630805 | Clamp, wire tie | 4 | Secures eliminator post/pre pressure sensor CENSE™ breakouts. |
-| [[3900629]] | Screw, hexagonal flange head capscrew | 24 | M8 secure the right bank front protective cover to the harness brace. |
-| Secures the right bank rear protective cover to the harness brace. |  |  |  |
-| Secures the left bank rear protective cover to the harness brace. |  |  |  |
-| Secures the left bank front protective cover to the harness brace. |  |  |  |
-| 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
-| 4017493 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
-| 4066183 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
-| 4080162 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
+| Номер детали | Имя | Количество | Замечания |
+| 69911 | Скоба | 2 | Клип для поддержки датчика уровня масла и продувки датчика проводов ремня прорывов к опорной скобке, установленной на рельсе масляного поддона. |
+| Слой для защиты датчика топливного насоса и проводов привода от прорывов на левом берегу плюс 2 кулачковая крышка в нижней точке болтов. |  |  |  |
+| 70709 | Шайба, простая | 2 | Используется в сочетании с p-clip и гайкой на левом берегу изогнутой проводной упряжкой CENSETM. |
+| Используется в сочетании с p-clip и гайкой на правом берегу изогнутой проводной упряжкой CENSETM. |  |  |  |
+| 180371 | Скоба | 32 | Используется на каждом цилиндре поддержки датчика температуры выхлопных газов расширения проводов ремня. |
+| Поддерживают датчик температуры выхлопных газов удлиняющей проводкой на Z-кронштейне, установленном под трубкой переноса охлаждающей жидкости. |  |  |  |
+| [[3081825]] | Скоба | 4 | Один на квадрант используется для обеспечения всех четырех датчиков температуры выхлопных газов, проводящих проводов в квадранте к крышке послеохладителя. |
+| [[3093946]] | Гайка, обычный шестиугольник | 8 | M6 обеспечивает зажим 4017498 для небольших шпиль на проводах скобки ремня и левобережной передней скобки. |
+| [[3093956]] | К черту, шестиугольные фланцевые болты | 1 | M8 устанавливает p-клип, удерживающий датчик давления масляной винты, на опорную кронштейн в задней части двигателя. |
+| 3171395 | Скоба | 4 | Пластиковые p-клипы, обеспечивающие электронный клапан управления, закрепляют проводку жгута электропроводки на вертикально установленном электронном блоке управления. |
+| 3171451 | К черту, болты на голове | 36 | Соединяет 4 прокладки с передней скобкой левого берега. |
+| Подключает 4 прокладки к задней скобке левого берега. |  |  |  |
+| Защищает шину данных RS232 CAN для фланца на левобережной передней проводах. |  |  |  |
+| Соединяет 4 прокладки с правой передней скобкой. |  |  |  |
+| Подключает 4 прокладки к правому берегу задней скобки. |  |  |  |
+| 3171470 | Шайба, простая | 4 | Используется на шине поддержки данных RS232 CAN на передней скобке левого берега. |
+| 3178520 | Скоба | 3 | Обеспечивает повышение давления / температуры воздуха / прорывы сцепления с вентилятором на левом берегу 1 кулачка верхнего левого и нижнего среднего болтов. |
+| Обеспечивает температуру масла / уровень масла / прорывы проводов потока на левобережную 6-ручную крышку отверстия. |  |  |  |
+| [[3332136]] | Союз, штыревой | 1 | Наружно резьбовая фитинговая установка для шланга охлаждающей жидкости. |
+| 3408507 | Адаптер, электрический разъем | 2 | Danfoss Sensor - адаптер разъема Packard, проводящий датчик давления наддува (слева на передней и справа на задней стороне). |
+| 3408509 | Адаптер, электрический разъем | 5 | Danfoss Sensor - адаптер разъема Packard, проводящий датчик давления охлаждающей жидкости. |
+| Датчики давления смазки. |  |  |  |
+| Сроки работы датчика давления рельсов электронного клапанного узла. |  |  |  |
+| Датчик давления топливного насоса. |  |  |  |
+| [[3408510]] | Адаптер, электрический разъем | 12 | Danfoss Sensor - адаптер разъема Packard для проводов рельсового датчика давления топлива электронного клапанного узла управления. |
+| 3408511 | Адаптер, электрический разъем | 1 | Danfoss Sensor - адаптер разъема Packard для проводов жгута для датчика давления масляной винты. |
+| 3408540 | Датчик, температура выхлопных газов | 16 | Датчики температуры. |
+| 3408556 | Датчик, давление | 3 | Датчик давления Danfoss - датчик давления (левый передний и правый задний берег). |
+| Датчик давления охлаждающей жидкости. |  |  |  |
+| [[3408558]] | Датчик, давление | 2 | Датчики давления масла смазки Danfoss pre and post. |
+| 3408562 | Датчик, давление | 1 | Датчик давления на топливных рельсах Danfoss электронный клапанный узел управления. |
+| 3408564 | Датчик, давление | 1 | Датчик давления датчика давления Danfoss электронный клапан управления. |
+| 3408566 | Датчик, давление | 1 | Датчик давления топливного насоса Danfoss. |
+| [[3410392]] | Локтевой, с наружной резьбой фитинг | 1 | Номер 20 топливного фильтра, устанавливающего розетку розетки. |
+| [[3628553]] | Сцепление, трубка | 1 | Подготовка для поддержки датчиков уровня масла / температуры и разрывов проводов датчика продувки, установленных на рельсе масляного поддона. |
+| 369451 | Скоба | 2 | Горы CENSETM проводка жгут для левобережья изогнутая CENSETM проводка жгут скобки. |
+| Горы CENSETM проводка жгут на правый берег изогнутой CENSETM проводка жгут скобки. |  |  |  |
+| [[3629452]] | Скоба | 5 | Защищает датчик уровня масла проводкой спряжения к масляной кастрюле. |
+| Защищает привод топливного насоса проводкой жгута проводов ветки жгута до дна фланца топливного насоса. |  |  |  |
+| Защищает ветку жгута датчика давления топливного насоса до верхней части фланца топливного насоса. |  |  |  |
+| Обеспечивает температуру масла CENSETM проводкой упряжки проводов упряжки ветки к опоре на масляной подложке. |  |  |  |
+| 3630804 | Зажим, стяжка | 3 | Обеспечивает магистральную проводку жгута проводов к ремню проводов CENSETM на главной скобке. |
+| 3630805 | Зажим, стяжка | 40 | Обеспечивает совместное выключение датчика топливного насоса и привода. |
+| Защищает датчик топливного насоса и выключатели привода и ветку жгута проводов датчика давления охлаждающей жидкости. |  |  |  |
+| Защищает выключатели датчика температуры и давления топлива в верхних горизонтальных электронных кронштейнах модуля управления. |  |  |  |
+| Обеспечивает выключение датчика скорости двигателя и датчика давления масляной винты вместе. |  |  |  |
+| Обеспечивает использование магистральной проводов для электропроводки CENSETM на левобережной кривой скобке CENSETM. |  |  |  |
+| Обеспечивает датчик температуры выхлопных газов удлиняющим жгутом проводов к жгуту проводов CENSETM (2 для каждого цилиндра). |  |  |  |
+| 3657731 | Скоба | 1 | Защищает ветку жгута датчика давления масляной винты в скобках сзади двигателя. |
+| 3823336 | Кит, сплайс. | 32 | Подключает датчик температуры выхлопных газов к проводной ремне CENSETM. |
+| [[3900589]] | Гайка, шестиугольник. | 1 | M8 защищенный p-clip to oil level sensor/blowby sensor support brace, установленный на рельсе масляного поддона. |
+| [[3900629]] | К черту, шестиугольные фланцевые болты | 4 | M8 обеспечивает правый берег изогнутой скобки к проводах скобки. |
+| Закрепляет левый берег изогнутой скобкой к проводной скобке. |  |  |  |
+| [[3900629]] | К черту, шестиугольные фланцевые болты | 20 | M8 обеспечивает левобережную переднюю проводную упряжку CENSETM к впускному коллектору (верхний). |
+| Закрепляет левобережную заднюю проводку CENSETM скобкой для впускного коллектора (верхняя). |  |  |  |
+| Обеспечивает правый берег передней проводов CENSETM сцеплением с впускным коллектором (верхний). |  |  |  |
+| Обеспечивает правый берег задней проводной упряжкой CENSETM к впускному коллектору (верхнему). |  |  |  |
+| Закрепляет датчик температуры выхлопных газов Z-кронштейн на кожухе скалолаза. |  |  |  |
+| Закрепляет p-клипы на Z-бракет. |  |  |  |
+| [[3900630]] | К черту, шестиугольные фланцевые болты | 1 | M8 защищенный p-clip to oil level sensor/blowby sensor support brace, установленный на рельсе масляного поддона. |
+| [[3900634]] | К черту, шестиугольные фланцевые болты | 2 | M10 защищенный кронштейн корпуса для кулачковой крышки. |
+| [[3900679]] | К черту, шестиугольные фланцевые болты | 1 | M10 обеспечивает защиту кронштейна корпуса от кулачков. |
+| [[3901249]] | К черту, шестиугольные фланцевые болты | 1 | M12 обеспечивает датчик уровня масла / датчик поддержки срабатывания к рельсу масляного поддона. |
+| [[3901445]] | К черту, шестиугольные фланцевые болты | 16 | M8 обеспечивает левобережную переднюю проводную упряжку CENSETM к впускному коллектору (нижнюю). |
+| Закрепите левобережную заднюю проводную упряжку CENSETM на впускном коллекторе (ниже). |  |  |  |
+| Обеспечивает правый берег передней проводов CENSETM сцеплением с впускным коллектором (нижний). |  |  |  |
+| Обеспечивает правый берег передней проводов CENSETM сцеплением с впускным коллектором (нижний). |  |  |  |
+| [[3902460]] | К черту, шестиугольные фланцевые болты | 8 | M10 обеспечивает защиту правой кривой кронштейна на стороне поддержки. |
+| Закрепляет левый берег изогнутой скобкой к опорной скобке. |  |  |  |
+| Закрепляет опорные скобки для изогнутой скобки к флангам на скобке модуля CENSETM и монтирует теплозащитный экран. |  |  |  |
+| [[3903990]] | К черту, шестиугольные фланцевые болты | 4 | M10 обеспечивает закрепление корпуса модуля CENSETM в монтажных скобках. |
+| [[3906216]] | Гайка, шестиугольник. | 20 | M6, обеспечивающий закрепление пластиковых p-затворов в вертикально установленном электронном блоке управления. |
+| Закрепляет метеоупаковки, удерживая выключатели датчиков скорости, в скобки. |  |  |  |
+| Защищает p-клип для заправки рельсового кронштейна, установленного в передней левой части двигателя. |  |  |  |
+| Скобка левобережной передней проводов CENSETM. |  |  |  |
+| Задняя левобережная проводка CENSETM. |  |  |  |
+| Правобережная передняя проводка CENSETM скобка. |  |  |  |
+| Задняя проводка CENSETM с правым берегом. |  |  |  |
+| Обеспечивает секцию T-секций левобережной изогнутой проводной скобкой CENSETM. |  |  |  |
+| Обеспечивает p-клип левобережной кривой скобки CENSETM. |  |  |  |
+| Защищает фланж T-секций до правого бокового изогнутого скобка проводов CENSETM. |  |  |  |
+| Обеспечивает p-клип к правому берегу изогнутой проводов CENSETM скобки. |  |  |  |
+| [[3913372]] | К черту, шестиугольные фланцевые болты | 2 | M12 обеспечивает закрепление датчика скорости/датчика давления масла в блоке двигателя. |
+| [[3913638]] | К черту, шестиугольные фланцевые болты | 3 | M6 защищена вертикально установленным электронным модулем управления проводкой ремня поддержки кронштейна к горизонтальным электронным модулям управления кронштейнами. |
+| Используется для закрепления метеоупаковок к опорному скобку в задней части двигателя. |  |  |  |
+| 4000659 | шнур, шнур, шнур | 1 | Расширение проводов жгута для подключения к датчику уровня масла, установленному на правой стороне берега. |
+| [[4007074]] | Локтевой, с наружной резьбой фитинг | 1 | Топливный насос № 20 впускной установки. |
+| 4016678 | Хватка, проводка | 1 | Вертикально установленный электронный клапан управления монтажной проводкой жгута жгута проводов ветки подпорной кронштейна. |
+| 4017143 | Скобка, корпус | 1 | Подготовьтесь к поддержке межсоединительного ящика на заднем конце левобережной проводной упряжки. |
+| 4017464 | проводка упряжка, внешний контроль средняя проводка | 1 | Правобережная проводка CENSETM wiring джойстик. |
+| 4017465 | проводка упряжка, внешний контроль средняя проводка | 1 | Левобережная проводка CENSETM wiring spedge wiring. |
+| 4017483 | Сцепление, проводка | 1 | Правобережная изогнутая скоба, поддерживающая проводную упряжку CENSETM к модулю CENSETM. |
+| 4017498 | Скоба | 8 | Удерживает зажим 4017499 левого борта передней скобки. |
+| Правый передний браслет. |  |  |  |
+| 4017499 | Скоба | 8 | Поддерживает выключатели CENSETM на брекетах жгута проводов (прикрепленных к зажиму 4017498). |
+| Передняя скоба левого берега. |  |  |  |
+| Правый передний браслет. |  |  |  |
+| 4017514 | проводка упряжка, контроль среднего монтажа | 1 | Электронный модуль управления CENSETM проводка жгута, корпуса, крышки и сборки. |
+| 4017519 | шнур, шнур, шнур | 1 | Узлы для растяжки позвоночника. |
+| 4017568 | Сцепление, проводка | 2 | Горизонтальные электронные кронштейны модулей управления. |
+| 4017634 | Сцепление, проводка | 2 | Изогнутые опорные скобки скоб, установленные на фланцы на электронных опорных скобках модуля управления CENSETM. |
+| 4065922 | Спейсер, монтаж | 16 | Пространство помещается между проводными упряжками опоры и впускным коллектором. |
+| Скобка поддержки левобережной передней проводов. |  |  |  |
+| Задняя проводка левого берега поддерживает скобу. |  |  |  |
+| Правобережная передняя проводка упряжки поддержки скобки. |  |  |  |
+| Задняя проводка справа на заднем скобе поддерживает скобу. |  |  |  |
+| 4066053 | Щит, тепло | 1 | Установлен на задней панели модуля CENSETM, на флангах на электронных опорных кронштейнах модуля управления CENSETM. |
+| 4066054 | Кронштейн, фиксатор проводов | 1 | Хронология для поддержки p-клипов для проводов сбруи для датчика давления скорости и масляной винты. |
+| [[4066064]] | Скоба | 2 | Клипы для поддержки проводов сбрызгивания для датчика скорости. |
+| 4066070 | Сцепление, проводка | 1 | Задняя левобережная проводка CENSETM поддерживает скобки, установленные на впускных коллекторах. |
+| 4066144 | Сцепление, проводка | 1 | Задняя проводная упряжка CENSETM с правым берегом, установленная на впускных коллекторах. |
+| 4066148 | Сцепление, проводка | 1 | Левобережная передняя проводка CENSETM поддерживает скобки, установленные на впускных коллекторах. |
+| 4066168 | Скоба | 1 | Защищает датчик температуры сцепления вентилятора / охлаждающей жидкости для заправки рельсовой кронштейн в левобережной передней части двигателя. |
+| 4066560 | З-брекет | 16 | Горы p-клипа на болты коробки коромысла под низкотемпературной трубкой перекачки охлаждающей жидкости после охлаждения. |
+| 4066813 | проводка упряжка, выхлопные газы умеренное расширение | 16 | Расширение проводов жгута для датчика температуры выхлопных газов. |
+| 4080161 | Сцепление, проводка | 1 | Правобережная передняя проводка CENSETM поддерживает скобки, установленные на впускных коллекторах. |
+| 4086499 | электропроводка, электронный модуль управления | 1 | Упряжка для электропроводки и электропроводки левого берега. |
+| [[4088734]] | Датчик, давление | 1 | Датчик давления масляной винты (прозрачный калибр от 0 до 689 кПа \[0 до 100 psi\], установленный на корпусе маховика). |
+| 4100464 | Сцепление, проводка | 1 | Левобережная изогнутая скоба, поддерживающая проводную упряжку CENSETM к модулю CENSETM. |
+| 4100627 | Хлопья, гибкие | 1 | Адаптер шланга датчика давления охлаждающей жидкости. |
+| 4100631 | Адаптер, кольцо | 1 | Адаптер, установленный в блок цилиндров в месте запуска Ким-Хота. |
+| 4101147 | Хлопья, гибкие | 1 | Номер 20 шланг топливного фильтра - шланг топливного насоса с локтем 90 градусов. |
+| Двигатели QSK60 с одноцилиндровыми воздушными компрессорами добавляются в комплект 60-D |  |  |  |
+| 4100720 |  | 1 | Топливный насос — электронный клапан управления сборочным топливным шлангом. |
+| Двигатели QSK60 с двойными цилиндровыми воздушными компрессорами добавляются в комплект 60-D |  |  |  |
+| 4080587 |  | 1 | Топливный насос — электронный клапан управления сборочным топливным шлангом. |
+| Двигатели QSK60 без воздушных компрессоров добавляют в комплект 60-D |  |  |  |
+| 4065606 | Хлопья, гибкие | 1 | Топливный насос — электронный клапан управления сборочным топливным шлангом. |
+| Двигатели QSK60 с корпусом «00» Flywheel Добавить в комплект 60-D |  |  |  |
+| 3408471 | Датчик, скорость | 1 | Четыре штифтовых однопланковых датчика скорости для корпуса маховика «00». |
+| [[3408526]] | Адаптер, электрический разъем | 1 | Deutsch connector — адаптер разъема Packard для подключения жгута для датчика скорости двигателя. |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 4 | Горы поддерживают кронштейны для обсадки маховика и блока двигателя. |
+| 4066097 | Кронштейн, модуль | 1 | Задняя левая опора модуля CENSETM. |
+| 4066104 | Кронштейн, модуль | 1 | Задняя правая опора модуля CENSETM. |
+| Двигатели QSK60 с корпусом «0» Flywheel Добавить в комплект 60-D |  |  |  |
+| 3408472 | Датчик, скорость | 1 | Четыре штифтовых однопланковых датчика скорости для корпуса маховика «0». |
+| [[3408526]] | Адаптер, электрический разъем | 1 | Deutsch connector — адаптер разъема Packard для подключения жгута для датчика скорости двигателя. |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 4 | Горы поддерживают кронштейны для обсадки маховика и блока двигателя. |
+| 4066081 | Кронштейн, модуль | 1 | Задняя левая опора модуля CENSETM. |
+| 4066089 | Кронштейн, модуль | 1 | Модуль поддержки CENSETM. |
+| Двигатели QSK60 с соленоидом Rockford Fan Clutch добавлены в комплект 60-D |  |  |  |
+| 114307 | Сцепление, трубка | 1 | Подготовьтесь к поддержке вентилятора сцепления проводов ветки ремня. |
+| [[3093956]] | К черту, шестиугольные фланцевые затворы | 1 | M8 обеспечивает p-clip для проводов сцепления вентилятора с помощью вспомогательной скобки ветки. |
+| [[3629452]] | Скоба | 1 | Защищает вентилятор сцепления проводов жгута ветви к вентилятору сцепления проводов жгута ветки поддержки сцепления. |
+| [[3900589]] | Гайка, шестиугольный фланж | 1 | M8 обеспечивает p-clip для проводов сцепления вентилятора с помощью вспомогательной скобки ветки. |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 1 | M10 крепится к подлокотнику шкива холостого хода. |
+| Двигатели QSK60 без элиминатора добавляют в комплект 60-D |  |  |  |
+| [[3629452]] | Скоба | 4 | Защищает датчик давления масляного фильтра CENSETM от прорывов проводов к крышке камеры и масляной головке фильтра. |
+| M8 обеспечивает правый передний защитный чехол для проводов скобки. |  |  |  |
+| [[3900629]] | К черту, шестиугольные фланцевые затворы | 24 | Защищает правый берег задней защитной крышкой от проводов скобки. |
+| Закрепляет левый берег задней защитной крышкой скобки жгута проводов. |  |  |  |
+| Защищает левобережную переднюю защитную крышку от проводов скобки. |  |  |  |
+| 4017479 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с левого берега защищена защитным покрытием. |
+| 4017493 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с правым берегом имеет защитное покрытие. |
+| 4017494 | Прикрытие, защитное | 1 | Правобережная передняя проводка CENSETM упряжка защитного покрытия. |
+| 4066130 | Прикрытие, защитное | 1 | Левобережная передняя проводка CENSETM обеспечивает защитное покрытие. |
+| Двигатели QSK60 с элиминатором добавляют в комплект 60-D |  |  |  |
+| 3630805 | Зажим, стяжка | 4 | Защищает выключатель после/предварительно от выключателей CENSETM. |
+| [[3900629]] | К черту, шестиугольные фланцевые затворы | 24 | M8 обеспечивает правый передний защитный чехол для проводов скобки. |
+| Защищает правый берег задней защитной крышкой от проводов скобки. |  |  |  |
+| Закрепляет левый берег задней защитной крышкой скобки жгута проводов. |  |  |  |
+| Защищает левобережную переднюю защитную крышку от проводов скобки. |  |  |  |
+| 4017479 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с левого берега защищена защитным покрытием. |
+| 4017493 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с правым берегом имеет защитное покрытие. |
+| 4066130 | Прикрытие, защитное | 1 | Правобережная передняя проводка CENSETM упряжка защитного покрытия. |
+| 4080162 | Прикрытие, защитное | 1 | Левобережная передняя проводка CENSETM обеспечивает защитное покрытие. |
+| Двигатель WA1200 в комплекте 60-D |  |  |  |
+| [[3629452]] | Скоба | 4 | Защищает датчик давления масляного фильтра CENSETM от прорывов проводов к крышке камеры и фиктивной головке масляного фильтра. |
+| [[3900629]] | К черту, шестиугольные фланцевые затворы | 24 | M8 обеспечивает правый передний защитный чехол для проводов скобки. |
+| Защищает правый берег задней защитной крышкой от проводов скобки. |  |  |  |
+| Закрепляет левый берег задней защитной крышкой скобки жгута проводов. |  |  |  |
+| Защищает левобережную переднюю защитную крышку от проводов скобки. |  |  |  |
+| 4017479 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с левого берега защищена защитным покрытием. |
+| 4066181 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с правым берегом имеет защитное покрытие. |
+| 4066182 | Прикрытие, защитное | 1 | Правобережная передняя проводка CENSETM упряжка защитного покрытия. |
+| 4066183 | Прикрытие, защитное | 1 | Левобережная передняя проводка CENSETM обеспечивает защитное покрытие. |
+| Двигатель Komatsu без элиминатора добавьте в комплект 60-D |  |  |  |
+| [[3629452]] | Скоба | 4 | Защищает датчик давления масляного фильтра CENSETM от прорывов проводов к крышке камеры и масляной головке фильтра. |
+| [[3900629]] | К черту, шестиугольные фланцевые затворы | 24 | M8 обеспечивает правый передний защитный чехол для проводов скобки. |
+| Защищает правый берег задней защитной крышкой от проводов скобки. |  |  |  |
+| Закрепляет левый берег задней защитной крышкой скобки жгута проводов. |  |  |  |
+| Защищает левобережную переднюю защитную крышку от проводов скобки. |  |  |  |
+| 4017479 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с левого берега защищена защитным покрытием. |
+| 4017493 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с правым берегом имеет защитное покрытие. |
+| 4017494 | Прикрытие, защитное | 1 | Правобережная передняя проводка CENSETM упряжка защитного покрытия. |
+| 4066183 | Прикрытие, защитное | 1 | Левобережная передняя проводка CENSETM обеспечивает защитное покрытие. |
+| Двигатель Komatsu с элиминатором добавьте в комплект 60-D |  |  |  |
+| 3630805 | Зажим, стяжка | 4 | Защищает выключатель после/предварительно от выключателей CENSETM. |
+| [[3900629]] | К черту, шестиугольные фланцевые затворы | 24 | M8 обеспечивает правый передний защитный чехол для проводов скобки. |
+| Защищает правый берег задней защитной крышкой от проводов скобки. |  |  |  |
+| Закрепляет левый берег задней защитной крышкой скобки жгута проводов. |  |  |  |
+| Защищает левобережную переднюю защитную крышку от проводов скобки. |  |  |  |
+| 4017479 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с левого берега защищена защитным покрытием. |
+| 4017493 | Прикрытие, защитное | 1 | Задняя проводка CENSETM с правым берегом имеет защитное покрытие. |
+| 4066183 | Прикрытие, защитное | 1 | Правобережная передняя проводка CENSETM упряжка защитного покрытия. |
+| 4080162 | Прикрытие, защитное | 1 | Левобережная передняя проводка CENSETM обеспечивает защитное покрытие. |
 
-| Kit 60-E Harnesses, Sensors and Mounting Hardware for QSK60 Engines Phase 2.0 Without CENSE™ |  |  |  |
+| Комплект 60-E жгутов, датчиков и монтажного оборудования для двигателей QSK60 Фаза 2.0 без CENSETM |  |  |  |
 |---|---|---|---|
-| Part Number | Name | Quantity | Remarks |
-| 68152 | Clip | 1 | Secures breakout for coolant temperature sensor and fan clutch solenoid to bracket on mounted on the left bank front after cooler cover. |
-| 68152 B | Clip | 1 | Secures blowby harness breakout to oil pan rail. |
-| 69465 | Clip | 1 | Secures harness breakout that links middle and front section of the left bank harness to the cam follower cover at the upper capscrew location. |
-| 202888 | Clip | 1 | P-clip to secure coolant pressure sensor hose to L-bracket on the left bank 1 hand hole cover. |
-| [[3089316]] | Screw, hexagonal flange head capscrew | 3 | Secures quantum harness box to the cam follower covers at the left middle capscrew locations. |
-| [[3093828]] | Nut, hexagonal head flange | 1 | M10 secures p-clip for coolant pressure sensor hose to L-bracket on the left bank 1 hand hole cover. |
-| [[3093957]] | Screw, hexagonal flange capscrew | 2 | M10 mounts L-bracket for Centinal™ harness breakout to block at rear left of the engine. |
-| Secures p-clip for coolant pressure sensor hose adapter to L-bracket mounted on the left bank 1 hand hole cover. |  |  |  |
-| [[3332136]] | Union, male | 1 | Male union for fitting coolant pressure sensor hose. |
-| 3408556 | Sensor, pressure | 2 | Left bank front intake manifold (boost) pressure sensor. |
-| 3408562 | Sensor, pressure | 1 | Fuel rail pressure sensor (part of electronic control valve assembly assembly). |
-| 3408564 | Sensor, pressure | 1 | Timing rail pressure sensor (part of electronic control valve assembly assembly). |
-| 3408566 | Sensor, pressure | 1 | Fuel pump pressure sensor. |
-| [[3410392]] | Elbow, male union | 1 | Number 20 fuel filter head outlet fitting. |
-| [[3627412]] | Clip | 1 | Secures harness breakout for fuel pump pressure sensor and actuator to the left bank 1 and 2 cam follower cover at the lower capscrew location. |
-| [[3628553]] | Brace, tube | 2 | L-bracket mounted to hand hole cover left bank 3 for mounting the Quantum electronic control module ground breakout. |
-| L-bracket for securing coolant pressure sensor hose to the left bank 1 hand hole cover. |  |  |  |
-| 368585 | Brace tube | 1 | L-bracket to secure Centinal™/OEM speed sensor breakout to block at the rear left of the engine. |
-| [[3900589]] | Nut, hexagonal head flange | 2 | M8 secures ground cable to L bracket on the left bank 3 hand hole cover. |
-| Secures p-clip holding Centinal™ harness breakout to L-bracket on block rear left of the engine. |  |  |  |
-| [[3900629]] | Screw, hexagonal flange capscrew | 2 | M8 secures ground cable to L-bracket on block at rear left of the engine. |
-| [[3900630]] | Screw, hexagonal flange capscrew | 1 | M8 mounts p-clip onto bracket on front left aftercooler cover. |
-| [[3900679]] | Screw, hexagonal flange capscrew | 3 | M10 mounts harness box at the rear of the engine to the flywheel housing or support bracket. |
-| Mounts to the front section of the quantum harness to front cam follower cover at lower capscrew location. |  |  |  |
-| [[3906216]] | Nut, hexagonal flange capscrew | 1 | M6 secures p-clip onto stud on the bracket on left bank front fuel rail. |
-| [[3913372]] | Screw, hexagonal flange capscrew | 1 | M12 secures p-clip holding blowby breakout to the oil pan adapter. |
-| [[4007074]] | Elbow, male union | 1 | Fuel pump number 20 inlet fitting. |
-| [[4066935]] | Brace, wiring | 1 | Brace to secure fan clutch/coolant temperature harness breakout to the left bank front aftercooler cover. |
-| 4067054 | Harness, electronic control module wiring | 1 | Engine harness, mounted on the left bank with **No** Cense™ option. Harness will have Packard spade fuses, sealed OEM box, potted back shells, Y's and T's and Schlemer conduit. |
-| 4086487 | Harness, electronic control module wiring | 1 | Rear section of the engine harness for **No** Cense™ option (mounted on flywheel housing or support bracket on flywheel housing). |
-| [[4088734]] | Sensor, pressure | 1 | Oil rifle pressure sensor (transparent gauge 0 to 689 kPa \[0 to 100 psig\]) mounted on flywheel housing. |
-| [[4100552]] | Clip | 12 | Secures oil level sensor breakout on right bank to cam follower cover. |
-| Lubricating filter head. |  |  |  |
-| Oil pan adapter. |  |  |  |
-| Secures Centinal™ harness breakout to L-bracket on block at the rear left of the engine. |  |  |  |
-| Secures fuel pump pressure sensor breakout to fuel pump flange. |  |  |  |
-| Secures coolant pressure sensor harness breakout to cam covers at the lower capscrew location. |  |  |  |
-| 4100627 | Hose, flexible | 1 | Coolant pressure sensor hose adapter. |
-| 4100631 | Adapter, o-ring | 1 | Adapter fitted into cylinder block in the kim-hot start location. |
-| 4101147 | Hose, flexible | 1 | Number 20 fuel filter hose - fuel pump hose with 90 degree elbow. |
-| QSK60 Engines With Single Cylinder Air Compressors Add to Kit 60-E |  |  |  |
-| 4100720 | Hose, flexible | 1 | Fuel pump electronic control valve assembly fuel hose. |
-| QSK60 Engines Twin Single Cylinder Air Compressors Add to Kit 60-E |  |  |  |
-| 4080587 | Hose, flexible | 1 | Fuel pump electronic control valve assembly fuel hose. |
-| QSK60 Engines Without An Air Compressor Add to Kit 60-E |  |  |  |
-| 4065606 | Hose, flexible |  | Fuel pump electronic control valve assembly fuel hose. |
-| QSK60 Engines With “00” Flywheel Housing Add to Kit 60-E |  |  |  |
-| 3408471 | Sensor, speed | 1 | Four pin single plug speed sensor for “00” flywheel housing. |
-| QSK60 Engines With “0” Flywheel Housing Add to Kit 60-E |  |  |  |
-| 3408472 | Sensor, speed | 1 | Four pin single plug speed sensor for “0” flywheel housing. |
-| [[3902460]] | Screw, hexagonal flange capscrew | 2 | M10 mounts bracket onto the flywheel housing. |
-| [[4067011]] | Bracket, external control module wiring | 1 | Bracket to mount rear section of the harness box onto the flywheel housing. |
-| QSK60 Engines With Rockford Fan Clutch Solenoid Add to Kit 60-E |  |  |  |
-| 114307 | Brace, tube | 1 | Brace to support the fan clutch breakout extension harness. |
-| [[3093956]] | Screw, hexagonal flange head capscrew | 1 | M8 secures p-clip to fan clutch breakout support brace. |
-| [[3900589]] | Nut, hexagonal flange | 1 | M8 secures p-clip to fan clutch breakout support brace. |
-| [[3629452]] | Clip | 1 | Secures fan clutch breakout to support brace. |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 1 | M10 mounts support brace to the idler pulley bracket. |
-| 4066664 | Harness, electronic control module wiring | 1 | Fan clutch extension harness. |
-| QSK60 Engines With Burn and Make-Up Centinal™ Oil Replenishing System Add to Kit 60-E |  |  |  |
-| [[3170823]] | Elbow, male union | 1 |  |
-| [[3682300]] | Union, male | 1 |  |
-| [[3900635]] | Screw, hexagonal flange head capscrew | 2 |  |
-| [[3901249]] | Screw, hexagonal flange head capscrew | 2 |  |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 3 |  |
-| [[4000694]] | Connector, male | 1 |  |
-| 4066833 | Bracket, valve | 1 |  |
-| 4086288 | Adapter, o-ring | 1 |  |
-| [[4086294]] | Union, male | 1 |  |
-| [[4086355]] | Hose, flexible | 1 |  |
-| [[4086356]] | Hose, flexible | 1 |  |
-| [[4086357]] | Hose, flexible | 1 |  |
-| [[4086382]] | Clamp, retaining | 1 |  |
-| [[4086648]] | Valve, oil control | 1 |  |
-| QSK60 Engines With Burn Only Centinal™ Oil Replenishing System Add to Kit 60-E |  |  |  |
-| [[3170823]] | Elbow, male union | 1 |  |
-| [[3682300]] | Union, male | 1 |  |
-| [[3900635]] | Screw, hexagonal flange head capscrew | 2 |  |
-| [[3901249]] | Screw, hexagonal flange head capscrew | 2 |  |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 3 |  |
-| [[4000694]] | Connector, male | 1 |  |
-| [[4016411]] | Elbow, male union | 1 |  |
-| [[4016412]] | Adapter, reducing | 1 |  |
-| 4016565 | Hose, flexible | 1 |  |
-| 4066833 | Bracket, valve | 1 |  |
-| [[4086294]] | Union, male | 1 |  |
-| [[4086355]] | Hose, flexible | 1 |  |
-| [[4086357]] | Hose, flexible | 1 |  |
-| [[4086648]] | Valve, oil control | 1 |  |
+| Номер детали | Имя | Количество | Замечания |
+| 68152 | Скоба | 1 | Обеспечивает проводку ветки жгута проводов для датчика температуры охлаждающей жидкости и вентилятора сцепления соленоида, чтобы скобки на крепились на левом берегу фронта после более прохладной крышки. |
+| 68152 B | Скоба | 1 | Защищает проводку с помощью продувки, проводку с помощью ветки с жгутом для масла. |
+| 69465 | Скоба | 1 | Защищает проводку жгута проводов, которая связывает среднюю и переднюю часть левобережной проводов жгута к крышке крана в верхней точке болтов. |
+| 202888 | Скоба | 1 | P-клип для закрепления шланга датчика давления охлаждающей жидкости на L-кронштейне на левом берегу 1 ручной крышки отверстия. |
+| [[3089316]] | К черту, шестиугольные фланцевые затворы | 3 | Защищает коробку для квантовой проводов к крышкам крана в местах левых средних болтов. |
+| [[3093828]] | Гайка, шестиугольный фланж головы | 1 | M10 обеспечивает p-клип для шланга датчика давления охлаждающей жидкости к L-кронштейну на левом берегу 1 ручной крышки отверстия. |
+| [[3093957]] | К черту, шестиугольные фланцевые болты | 2 | M10 монтирует L-кронштейн для проводов CentinalTM с помощью ветки жгута для блокировки в заднем левом углу двигателя. |
+| Защищает p-клип для адаптера шланга датчика давления охлаждающей жидкости к L-кронштейну, установленному на крышке отверстия для рук на левом берегу 1. |  |  |  |
+| [[3332136]] | Союз, штыревой | 1 | Наружно резьбовая арматура для установки шланга датчика давления охлаждающей жидкости. |
+| 3408556 | Датчик, давление | 2 | Датчик давления левобережного фронтального впускного коллектора (буст). |
+| 3408562 | Датчик, давление | 1 | Датчик давления в топливной рельсе (часть электронного клапана управления сборкой). |
+| 3408564 | Датчик, давление | 1 | Датчик давления временных рельсов (часть электронного клапанного узла управления). |
+| 3408566 | Датчик, давление | 1 | Датчик давления топливного насоса. |
+| [[3410392]] | Локтевой, с наружной резьбой фитинг | 1 | Номер 20 топливного фильтра, устанавливающего розетку розетки. |
+| [[3627412]] | Скоба | 1 | Защищает проводку упряжки проводов упряжки ветки для датчика давления топливного насоса и привода к левому берегу 1 и 2 крана крышки в нижней точке болтов. |
+| [[3628553]] | Сцепление, трубка | 2 | L-кронштейн, установленный на крышке ручного отверстия левого берега 3 для установки ветки наземной проводов квантового электронного модуля управления. |
+| L-кронштейн для закрепления шланга датчика давления охлаждающей жидкости на левом берегу 1 ручной крышки отверстия. |  |  |  |
+| 368585 | Трубка с подтяжкой | 1 | L-кронштейн для защиты ветки датчика скорости CentinalTM/OEM для блокировки в задней левой части двигателя. |
+| [[3900589]] | Гайка, шестиугольный фланж головы | 2 | M8 обеспечивает заземление кабеля L на левом берегу 3 ручной крышки отверстия. |
+| Защищает p-клип, удерживающий проводку CentinalTM, проводку жгута ветки к L-кронштейну на блоке задней левой части двигателя. |  |  |  |
+| [[3900629]] | К черту, шестиугольные фланцевые болты | 2 | M8 обеспечивает заземление кабеля к L-кронштейну на блоке сзади слева от двигателя. |
+| [[3900630]] | К черту, шестиугольные фланцевые болты | 1 | M8 крепит p-клип на кронштейн на передней левой крышке послеохладителя. |
+| [[3900679]] | К черту, шестиугольные фланцевые болты | 3 | M10 устанавливает коробку для проводов жгута проводов в задней части двигателя на корпус маховика или опорную кронштейн. |
+| Горы к передней части квантовой проводов жгута к передней крышке крана в нижней точке болтов. |  |  |  |
+| [[3906216]] | Гайка, шестиугольные фланцевые болты | 1 | M6 обеспечивает p-клип на шпиль на кронштейне на левом берегу передней топливной рельсы. |
+| [[3913372]] | К черту, шестиугольные фланцевые болты | 1 | M12 обеспечивает p-клип удерживая продувную ветку жгута к адаптеру масляной поддона. |
+| [[4007074]] | Локтевой, с наружной резьбой фитинг | 1 | Топливный насос № 20 впускной установки. |
+| [[4066935]] | Сцепление, проводка | 1 | Подгонка для обеспечения сцепления вентилятора / охлаждающей температурной проводов упряжка проводов упряжка ветка к левому берегу передней крышки послеохладителя. |
+| 4067054 | электропроводка жгут, электронный модуль управления проводкой | 1 | Упряжка для проводов двигателя, установленная на левом берегу с опцией **No** CenseTM. Упряжка для проводов будет иметь пикатные предохранители Packard, герметичную OEM-ячейку, забитые задние раковины, трубопровод Y's и T's и Schlemer. |
+| 4086487 | электропроводка жгут, электронный модуль управления проводкой | 1 | Задняя часть жгута проводов двигателя для опции **No** CenseTM (установлена на корпус маховика или опорный кронштейн на корпус маховика). |
+| [[4088734]] | Датчик, давление | 1 | Датчик давления масляной винты (прозрачный калибр от 0 до 689 кПа \[0 до 100 psiг\]), установленный на корпусе маховика. |
+| [[4100552]] | Скоба | 12 | Защищает ветку сетки датчика уровня масла на правом берегу от клепковой крышки. |
+| Смазочный фильтр головки. |  |  |  |
+| Переходник масляного поддона. |  |  |  |
+| Защищает проводку CentinalTM от ветки электропроводки до L-кронштейна на блоке в задней левой части двигателя. |  |  |  |
+| Обеспечивает датчик давления топливного насоса проводкой ремня жгута для фланца топливного насоса. |  |  |  |
+| Обеспечивает датчик давления охлаждающей жидкости проводку жгута жгута проводов ветки жгута для кулачков в нижней точке болтов. |  |  |  |
+| 4100627 | Хлопья, гибкие | 1 | Адаптер шланга датчика давления охлаждающей жидкости. |
+| 4100631 | Адаптер, кольцо | 1 | Адаптер, установленный в блок цилиндров в месте запуска Ким-Хота. |
+| 4101147 | Хлопья, гибкие | 1 | Номер 20 шланг топливного фильтра - шланг топливного насоса с локтем 90 градусов. |
+| Двигатели QSK60 с одноцилиндровыми воздушными компрессорами добавляются в комплект 60-E |  |  |  |
+| 4100720 | Хлопья, гибкие | 1 | Топливный насос электронный клапан управления сборкой топливного шланга. |
+| Двигатели QSK60 Twin одиночные цилиндрические воздушные компрессоры Добавить в комплект 60-E |  |  |  |
+| 4080587 | Хлопья, гибкие | 1 | Топливный насос электронный клапан управления сборкой топливного шланга. |
+| Двигатели QSK60 без воздушного компрессора добавляют в комплект 60-E |  |  |  |
+| 4065606 | Хлопья, гибкие |  | Топливный насос электронный клапан управления сборкой топливного шланга. |
+| Двигатели QSK60 с корпусом «00» Flywheel Добавить в комплект 60-E |  |  |  |
+| 3408471 | Датчик, скорость | 1 | Четыре штифтовых однопланковых датчика скорости для корпуса маховика «00». |
+| Двигатели QSK60 с корпусом «0» Flywheel Добавить в комплект 60-E |  |  |  |
+| 3408472 | Датчик, скорость | 1 | Четыре штифтовых однопланковых датчика скорости для корпуса маховика «0». |
+| [[3902460]] | К черту, шестиугольные фланцевые болты | 2 | M10 крепится кронштейном к корпусу маховика. |
+| [[4067011]] | Брекет, внешний модуль управления проводкой | 1 | Кронштейн для крепления задней части коробки проводов жгута на корпус маховика. |
+| Двигатели QSK60 с соленоидом Rockford Fan Clutch добавляются в комплект 60-E |  |  |  |
+| 114307 | Сцепление, трубка | 1 | Сцепление для поддержки проводов сцепления вентилятора с помощью удлинителя ветки проводов. |
+| [[3093956]] | К черту, шестиугольные фланцевые затворы | 1 | M8 обеспечивает p-clip для проводов сцепления вентилятора с помощью вспомогательной скобки ветки. |
+| [[3900589]] | Гайка, шестиугольный фланж | 1 | M8 обеспечивает p-clip для проводов сцепления вентилятора с помощью вспомогательной скобки ветки. |
+| [[3629452]] | Скоба | 1 | Защищает вентилятор сцепления проводов жгута ветви для поддержки скобки. |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 1 | M10 крепится к подлокотнику шкива холостого хода. |
+| 4066664 | электропроводка жгут, электронный модуль управления проводкой | 1 | Усилитель сцепления вентилятора. |
+| Двигатели QSK60 с системой пополнения масла CentinalTM с поджиганием и макияжем добавляются в комплект 60-E |  |  |  |
+| [[3170823]] | Локтевой, с наружной резьбой фитинг | 1 |  |
+| [[3682300]] | Союз, штыревой | 1 |  |
+| [[3900635]] | К черту, шестиугольные фланцевые затворы | 2 |  |
+| [[3901249]] | К черту, шестиугольные фланцевые затворы | 2 |  |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 3 |  |
+| [[4000694]] | Коннектор, мужчина | 1 |  |
+| 4066833 | Кронштейн, клапан | 1 |  |
+| 4086288 | Адаптер, кольцо | 1 |  |
+| [[4086294]] | Союз, штыревой | 1 |  |
+| [[4086355]] | Хлопья, гибкие | 1 |  |
+| [[4086356]] | Хлопья, гибкие | 1 |  |
+| [[4086357]] | Хлопья, гибкие | 1 |  |
+| [[4086382]] | хлор, сохраняя | 1 |  |
+| [[4086648]] | Валве, контроль над маслом | 1 |  |
+| Двигатели QSK60 с системой пополнения масла CentinalTM добавляются в комплект 60-E |  |  |  |
+| [[3170823]] | Локтевой, с наружной резьбой фитинг | 1 |  |
+| [[3682300]] | Союз, штыревой | 1 |  |
+| [[3900635]] | К черту, шестиугольные фланцевые затворы | 2 |  |
+| [[3901249]] | К черту, шестиугольные фланцевые затворы | 2 |  |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 3 |  |
+| [[4000694]] | Коннектор, мужчина | 1 |  |
+| [[4016411]] | Локтевой, с наружной резьбой фитинг | 1 |  |
+| [[4016412]] | Адаптер, снижающий | 1 |  |
+| 4016565 | Хлопья, гибкие | 1 |  |
+| 4066833 | Кронштейн, клапан | 1 |  |
+| [[4086294]] | Союз, штыревой | 1 |  |
+| [[4086355]] | Хлопья, гибкие | 1 |  |
+| [[4086357]] | Хлопья, гибкие | 1 |  |
+| [[4086648]] | Валве, контроль над маслом | 1 |  |
 
-| Kit 60-F Harnesses, Sensor and Mounting Hardware for QSK60 Engines Phase 2.0 With Cense™ |  |  |  |
+| Комплект 60-F проводных ремней, датчика и монтажного оборудования для двигателей QSK60 фазы 2.0 с CenseTM |  |  |  |
 |---|---|---|---|
-| Part Number | Name | Quantity | Remarks |
-| 68152 | Clip | 1 | Secures breakout for coolant temperature sensor and fan clutch solenoid to bracket on left bank front after cooler cover. |
-| 68152 B | Clip | 1 | Secures blowby harness breakout to oil pan rail. |
-| 69465 | Clip | 1 | Secures harness breakout that links middle and front section of the left bank harness to the cam follower cover at the upper capscrew location. |
-| 108722 | Clip | 4 | Secures exhaust gas temperature sensor harness to support brace on the right bank rear after cooler cover at the rear of the engine. |
-| Secures exhaust gas temperature sensor harness to support brace on the left bank front after cooler cover at the front of the engine. |  |  |  |
-| Secures exhaust gas temperature sensor harness to support brace on the right bank front after cooler cover towards the middle of the engine. |  |  |  |
-| Secures exhaust gas temperature sensor harness to support brace on the left bank rear after cooler cover towards the middle of the engine. |  |  |  |
-| 180371 | Clip | 20 | Secures exhaust gas temperature sensor harness to Z-bracket on rocker housing (left bank 1 **only**). |
-| Secures exhaust gas temperature sensor harnesses to rocker housing below water transfer tubes (all except left bank 1). |  |  |  |
-| Secures exhaust gas temperature sensor harness above water transfer tubes (left bank 5 and right bank 4). |  |  |  |
-| 202888 | Clip | 1 | P-clip to secures coolant pressure senor hose to L-bracket on the right bank 1 hand hole cover. |
-| [[3062329]] | Clamp, wire tie | 1 | secures exhaust gas temperature sensor breakout to coolant/fan clutch breakout at the left bank front or the engine. |
-| [[3089316]] | Screw, hexagonal flange head capscrew | 9 | M10 secures quantum harness to the left bank cam follower covers at the left and middle capscrew locations. |
-| Secures Cense™ harness box to the cam covers on the right bank of the engine. |  |  |  |
-| [[3093828]] | Nut, hexagonal head flange | 1 | M10 secures p-clip for coolant pressure sensor hose to L-bracket on the left bank 1 hand hole cover. |
-| [[3093956]] | Screw, hexagonal flange head capscrew | 49 | M8 mounts the Z-bracket to the rocker housing below the water transfer tubes. |
-| Secures p-clip to Z-bracket on rocker housing. |  |  |  |
-| Secures wiring brace to rocker housing (left bank 1). |  |  |  |
-| Secures p-clip to rocker housing (left bank 5 and right bank 4). |  |  |  |
-| Secures p-clips above water transfer tubes (left bank 5 and right bank 4). |  |  |  |
-| Secures p-clips to rocker housing below water transfer tubes. |  |  |  |
-| Secures wiring brace to rocker housing. |  |  |  |
-| [[3093957]] | Screw, hexagonal flange capscrew | 2 | M10 mounts L-bracket for Centinal™ harness breakout to block at rear left of the engine. |
-| Secures p-clip for coolant pressure sensor hose adapter to L-bracket mounted on the left bank 1 hand hole cover. |  |  |  |
-| 3331658 | Connector, female | 1 | Adapter for left bank 1 exhaust gas temperature sensor harness. |
-| [[3332136]] | Union, male | 1 | Male union fitting coolant pressure hose. |
-| 3408539 | Sensor, temperature | 1 | Exhaust gas temperature sensor left bank 1. |
-| 3408543 | Sensor, temperature | 13 | Exhaust gas temperature sensor all except left bank 1, right bank 4, left bank 5. |
-| 3408544 | Sensor, temperature | 2 | Exhaust gas temperature sensor left bank 5 and right bank 4. |
-| 3408556 | Sensor, temperature | 3 | Left bank front intake manifold (boost) pressure sensor, right bank rear intake manifold (boost) pressure sensor, and coolant pressure sensor. |
-| [[3408558]] | Sensor, temperature | 2 | Pre/post lube filter pressure sensor. |
-| 3408562 | Sensor, temperature | 1 | Fuel rail pressure sensor (part of electronic control valve assembly). |
-| 3408564 | Sensor, temperature | 1 | Timing rail pressure sensor (part of electronic control valve assembly). |
-| 3408566 | Sensor, temperature | 1 | Fuel pump pressure sensor. |
-| [[3410392]] | Elbow, male union | 1 | Number 20 fuel filter head outlet fitting. |
-| [[3627412]] | Clip | 1 | Secures harness breakout for fuel pump pressure sensor and actuator to the cam follower cover at the lower capscrew location. |
-| [[3628553]] | Brace, tube | 3 | L-bracket mounted to hand hole cover left bank 3 for quantum electronic control module ground breakout. |
-| L-bracket for securing coolant pressure sensor hose to the left bank 1 hand hole cover. |  |  |  |
-| L-bracket mounted on hand hole cover left bank 7 for Cense™ ground breakout. |  |  |  |
-| 368585 | Brace, tube | 1 | L-bracket to secures Centinal™/OEM speed sensor breakout to block at the rear left of the engine. |
-| [[3629452]] | Clip | 1 | Secures right bank inlet manifold temperature sensor harness breakout to cam cover at the upper capscrew location. |
-| [[3900589]] | Nut, hexagonal head flange | 3 | M8 secures quantum ground breakout to L-breakout on the left bank 3 hand hole cover. |
-| Secures p-clip holding Centinal™ harness breakout to L-bracket on block at rear left of the engine. |  |  |  |
-| Secures Cense™ ground breakout to L-bracket on the left bank 7 hand hole cover. |  |  |  |
-| [[3900629]] | Screw, hexagonal flange capscrew | 6 | M8 secures quantum electronic control module ground breakout to L-bracket on the left bank 3 hand hole cover. |
-| Secures Centinal™ harness breakout to L-bracket on block at rear left of the engine. |  |  |  |
-| Mounts p-clip onto support brace on the aftercooler covers at the right bank rear of the engine. |  |  |  |
-| Mounts p-clip onto support braces on the right bank front and left bank rear aftercooler covers towards the middle of the engine. |  |  |  |
-| Secures Cense™ electronic control module ground breakout to tube brace mounted on the left bank hand hole cover. |  |  |  |
-| [[3900630]] | Screw, hexagonal flange capscrew | 1 | M8 mounts p-clip onto bracket on front left aftercooler cover. |
-| [[3900635]] | Screw, hexagonal flange head capscrew | 8 | Secures exhaust gas temperature sensor harness boxes to aftercooler covers. |
-| [[3900679]] | Screw, hexagonal flange capscrew | 3 | M10 mounts harness box at the rear of the engine to the flywheel housing or support bracket. |
-| Mounts the front section of the quantum harness to front cam follower cover at lower capscrew location. |  |  |  |
-| [[3906216]] | Nut, hexagonal head flange | 1 | M6 secures p-clip onto stud on the bracket on left bank front fuel rail. |
-| [[3913372]] | Screw, hexagonal flange capscrew | 1 | M12 secures p-clip holding blowby breakout to oil pan adapter. |
-| [[4007074]] | Elbow, male union | 1 | Fuel pump number 20 inlet fitting. |
-| 4066553 | Bracket, electronic control module | 1 | Mounting bracket for Cense™ electronic control module. |
-| 4066560 | Bracket, wiring retainer | 1 | Z-bracket mounted on rock housing below the water transfer tubes (left bank 1). |
-| 4066663 | Brace, wiring | 1 | Secures exhaust gas temperature sensor harness to rocker housing (left bank 1 **only**). |
-| [[4066935]] | Brace, wiring | 2 | Mounts on right bank rear aftercooler cover and supports exhaust gas temperature sensor harness breakout connecting to the main harness. |
-| Brace to secure the fan clutch/coolant temperature harness breakout and the exhaust gas temperature sensor harness breakout on the left bank front aftercooler cover. |  |  |  |
-| [[4066937]] | Brace, wiring | 2 | Mounts on the right bank front and the left bank rear aftercooler cover towards the middle of the engine to support the exhaust gas temperature sensor harness breakouts connecting to the main harness. |
-| 4067050 | Harness, electronic control module wiring | 1 | Engine harness, mounted on the left bank with Cense™ option. Harness will have Packard spade fuses, sealed OEM box, potted back shells, Y's and T's and Schlemer conduit. |
-| 4067051 | Harness, electronic control module wiring | 1 | Right bank Cense™ harness. |
-| 4067052 | Harness, electronic control module wiring | 2 | Right bank front and left bank rear exhaust gas temperature sensor harness boxes. |
-| 4067053 | Harness, electronic control module wiring | 2 | Left bank front and right bank rear exhaust gas temperature sensor harness boxes. |
-| 4086486 | Harness, electronic control module wiring | 1 | Rear section of the engine harness for Cense™ option (mounted on flywheel housing or support bracket on flywheel housing). |
-| [[4088734]] | Sensor, pressure | 1 | Oil rifle pressure sensor (transparent gauge 0 to 100 psig) mounted on flywheel housing. |
-| 4097481 | Brace, wiring | 13 | Secures exhaust gas temperature sensor harnesses to rocker housing (all **except** left bank 1, left bank 5, and right bank 4). |
-| [[4100552]] | Clip | 4 | Secures Centinal™ harness breakout to L-bracket on the block at the rear left of the engine. |
-| Secures fuel pump pressure sensor breakout to fuel pump flange. |  |  |  |
-| Secures coolant pressure sensor harness breakout to cam covers. |  |  |  |
-| 4100627 | Hose, flexible | 1 | Coolant pressure sensor hose adapter. |
-| 1400631 | Adapter, o-ring | 1 | Adapter fitted into cylinder block in the kim-hot start location. |
-| 4101147 | Hose, flexible | 1 | Number 20 fuel filter hose - fuel pump hose with 90 degree elbow. |
-| QSK60 Engines with Single Cylinder Air Compressors Add to Kit 60-F |  |  |  |
-| 4100720 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
-| QSK60 Engines with Twin Cylinder Air Compressors Add to Kit 60-F |  |  |  |
-| 4080587 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
-| QSK60 Engines Without an Air Compressors Add to Kit 60-F |  |  |  |
-| 4065606 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
-| QSK60 Engines With “00” Flywheel Housing Add to Kit 60-F |  |  |  |
-| 3408471 | Sensor, speed | 1 | Four pin single plug speed sensor for “00” flywheel housing. |
-| QSK60 Engines With “0” Flywheel Housing Add to Kit 60 -F |  |  |  |
-| 3408472 | Sensor, speed | 1 | Four pin single plug speed sensor for “00” flywheel housing. |
-| [[3902460]] | Screw, hexagonal flange capscrew | 2 | M10 mounts bracket onto the flywheel housing. |
-| [[4067011]] | Bracket, electronic control module wiring | 1 | Bracket to mount rear section of the harness box on the flywheel housing. |
-| QSK60 Engines Without Eliminator Add to Kit 60-F |  |  |  |
-| [[3062329]] | Clamp, wire tie | 1 |  |
-| [[4066653]] | Harness, electronic control module wiring | 1 | Lubrication filter extension harness. |
-| [[4100552]] | Clip | 4 | Secures the extension harness to cam covers and lubrication filter head. |
-| QSK60 Engines With Eliminator Add to Kit 60-F |  |  |  |
-| [[3900626]] | Screw, hexagonal flange head capscrew | 1 | Secures p-clip to Cense™ harness box. |
-| [[4066652]] | Harness, electronic control module wiring | 1 | Eliminator extension harness. |
-| QSK60 Engines With Rockford Fan Clutch Solenoid Add to Kit 60-F |  |  |  |
-| 114307 | Brace, tube | 1 | Brace to support the fan clutch breakout extension harness. |
-| [[3093956]] | Screw, hexagonal flange head capscrew | 1 | M8 secures p-clip to fan clutch breakout support brace. |
-| [[3900589]] | Nut, hexagonal flange | 1 | M8 secures p-clip to fan clutch breakout support brace. |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 1 | M10 mounts support brace to the idler pulley bracket. |
-| [[3629452]] | Clip | 1 | Secures fan clutch breakout to support brace. |
-| 4066664 | Harness, electronic control module wiring | 1 | Fan clutch extension harness. |
-| QSK60 Engines With Burn and Make-up Centinal™ Oil Replenishing System Add to Kit 60-F |  |  |  |
-| [[3170823]] | Elbow, male union | 1 |  |
-| [[3682300]] | Union, male | 1 |  |
-| [[3900635]] | Screw, hexagonal flange head capscrew | 2 |  |
-| [[3901249]] | Screw, hexagonal flange head capscrew | 2 |  |
-| [[4000694]] | Connector, male | 1 |  |
-| 4066833 | Bracket, valve | 1 |  |
-| [[4086294]] | Union, male | 1 |  |
-| [[4086355]] | Hose, flexible | 1 |  |
-| [[4086357]] | Hose, flexible | 1 |  |
-| [[4086648]] | Valve, oil control | 1 |  |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 3 |  |
-| 4086288 | Adapter, o-ring | 1 |  |
-| [[4086356]] | Hose, flexible | 1 |  |
-| [[4086382]] | Clamp, retaining | 1 |  |
-| QSK60 Engines With Burn Only Centinal™ Oil Replenishing System Add to Kit 60-F |  |  |  |
-| [[3170823]] | Elbow, male union | 1 |  |
-| [[3682300]] | Union, male | 1 |  |
-| [[3900635]] | Screw, hexagonal flange head capscrew | 2 |  |
-| [[3901249]] | Screw, hexagonal flange head capscrew | 2 |  |
-| [[4000694]] | Connector, male | 1 |  |
-| 4066833 | Bracket, valve | 1 |  |
-| [[4086294]] | Union, male | 1 |  |
-| [[4086355]] | Hose, flexible | 1 |  |
-| [[4086357]] | Hose, flexible | 1 |  |
-| [[4086648]] | Valve, oil control | 1 |  |
-| [[4016411]] | Elbow, male union | 1 |  |
-| [[4016412]] | Adapter, reducing | 1 |  |
-| 4016565 | Hose, flexible | 1 |  |
+| Номер детали | Имя | Количество | Замечания |
+| 68152 | Скоба | 1 | Обеспечивает проводку ветки жгута проводов для датчика температуры охлаждающей жидкости и вентилятора сцепления соленоида, чтобы скобка на левом берегу фронта после более прохладной крышки. |
+| 68152 B | Скоба | 1 | Защищает проводку с помощью продувки, проводку с помощью ветки с жгутом для масла. |
+| 69465 | Скоба | 1 | Защищает проводку жгута проводов, которая связывает среднюю и переднюю часть левобережной проводов жгута к крышке крана в верхней точке болтов. |
+| 108722 | Скоба | 4 | Обеспечивает датчик температуры выхлопных газов проводкой ремня для поддержки скобки на правом боковом заднем сиденье после более прохладной крышки в задней части двигателя. |
+| Обеспечивает датчик температуры выхлопных газов проводкой ремня для поддержки скобки на левом берегу фронта после более прохладной крышки в передней части двигателя. |  |  |  |
+| Обеспечивает датчик температуры выхлопных газов проводкой ремня для поддержки скобки на правом боковом фронте после более прохладного покрытия к середине двигателя. |  |  |  |
+| Обеспечивает датчик температуры выхлопных газов проводкой ремня для поддержки скобки на задней части левого берега после более прохладного покрытия к середине двигателя. |  |  |  |
+| 180371 | Скоба | 20 | Обеспечивает датчик температуры выхлопных газов проводкой жгута до Z-бракета на гильзе коромысла (левый берег 1 **только**). |
+| Обеспечивает проводку датчика температуры выхлопных газов в кожух качения ниже водопроводных труб (все, кроме левого берега 1). |  |  |  |
+| Обеспечивает проводку датчика температуры выхлопных газов над водопроводными трубами (левый берег 5 и правый берег 4). |  |  |  |
+| 202888 | Скоба | 1 | P-клип для закрепления сенсорного шланга давления охлаждающей жидкости на L-кронштейне на правой стороне 1 ручной крышки отверстия. |
+| [[3062329]] | Зажим, стяжка | 1 | обеспечивает защиту ветки электропроводки датчика температуры выхлопных газов для ветки электропроводки охлаждающей жидкости / вентилятора сцепления на левом берегу фронта или двигателя. |
+| [[3089316]] | К черту, шестиугольные фланцевые затворы | 9 | M10 обеспечивает квантовую проводку с помощью ремней крана левого берега в местах расположения левого и среднего болтов. |
+| Защищает коробку с жгутом CenseTM от крышек кулачков на правом берегу двигателя. |  |  |  |
+| [[3093828]] | Гайка, шестиугольный фланж головы | 1 | M10 обеспечивает p-клип для шланга датчика давления охлаждающей жидкости к L-кронштейну на левом берегу 1 ручной крышки отверстия. |
+| [[3093956]] | К черту, шестиугольные фланцевые затворы | 49 | M8 монтирует Z-бракет в кожух скалолаза ниже водопроводных труб. |
+| Закрепляет p-клип на Z-бракет на гильзе коромысла. |  |  |  |
+| Защищает проводку скобки к гильзе коромысла (левый берег 1). |  |  |  |
+| Обеспечивает p-клип к гильзе коромысла (левый банк 5 и правый банк 4). |  |  |  |
+| Защищает p-клипы над водопроводными трубами (левый берег 5 и правый берег 4). |  |  |  |
+| Закрепляет p-клипы на гильзу коромысла ниже водопроводных трубок. |  |  |  |
+| Закрепляет проводку в гильзе коромысла. |  |  |  |
+| [[3093957]] | К черту, шестиугольные фланцевые болты | 2 | M10 монтирует L-кронштейн для проводов CentinalTM с помощью ветки жгута для блокировки в заднем левом углу двигателя. |
+| Защищает p-клип для адаптера шланга датчика давления охлаждающей жидкости к L-кронштейну, установленному на крышке отверстия для рук на левом берегу 1. |  |  |  |
+| 3331658 | Коннектор, женщина | 1 | Адаптер для левобережной 1 датчика температуры выхлопных газов проводов. |
+| [[3332136]] | Союз, штыревой | 1 | Наружно резьбовый фитинг, фитинговый шланг давления охлаждающей жидкости. |
+| 3408539 | Датчик, температура | 1 | Датчик температуры выхлопного газа левый берег 1. |
+| 3408543 | Датчик, температура | 13 | Датчик температуры выхлопного газа все, кроме левого берега 1, правого берега 4, левого берега 5. |
+| 3408544 | Датчик, температура | 2 | Датчик температуры выхлопного газа левый берег 5 и правый берег 4. |
+| 3408556 | Датчик, температура | 3 | Датчик давления левого бортового входного коллектора (буст), датчик давления заднего коллектора (буст) правого берега и датчик давления охлаждающей жидкости. |
+| [[3408558]] | Датчик, температура | 2 | Датчик давления фильтра Pre/post lube. |
+| 3408562 | Датчик, температура | 1 | Датчик давления в топливной рельсе (часть электронного клапанного узла управления). |
+| 3408564 | Датчик, температура | 1 | Датчик давления в рамке рельса (часть электронного клапанного узла управления). |
+| 3408566 | Датчик, температура | 1 | Датчик давления топливного насоса. |
+| [[3410392]] | Локтевой, с наружной резьбой фитинг | 1 | Номер 20 топливного фильтра, устанавливающего розетку розетки. |
+| [[3627412]] | Скоба | 1 | Защищает проводку упряжки проводов упряжки ветки для датчика давления топливного насоса и привода к крышке крана в нижней точке болтов. |
+| [[3628553]] | Сцепление, трубка | 3 | L-кронштейн, установленный на крышке ручного отверстия левого берега 3 для квантового электронного модуля управления наземной проводкой жгута проводов. |
+| L-кронштейн для закрепления шланга датчика давления охлаждающей жидкости на левом берегу 1 ручной крышки отверстия. |  |  |  |
+| L-кронштейн, установленный на крышке ручного отверстия левого берега 7 для ветки наземной проводов CenseTM. |  |  |  |
+| 368585 | Сцепление, трубка | 1 | L-кронштейн для закрепления ветки датчика скорости CentinalTM/OEM для блокировки в задней левой части двигателя. |
+| [[3629452]] | Скоба | 1 | Обеспечивает правый впускной коллектор датчика температуры проводов жгута проводов жгута ветки для кулачкового покрытия в верхней точке болтов. |
+| [[3900589]] | Гайка, шестиугольный фланж головы | 3 | M8 обеспечивает квантовую ветку наземной проводов к ветке L-проводов на левом берегу 3-х ручной крышки отверстия. |
+| Защищает p-клип, удерживающий проводку CentinalTM, проводку жгута ветки к L-кронштейну на блоке в заднем левом углу двигателя. |  |  |  |
+| Защищает ветку наземной проводов CenseTM от L-бракета на левом берегу 7-ручного отверстия. |  |  |  |
+| [[3900629]] | К черту, шестиугольные фланцевые болты | 6 | M8 обеспечивает квантовый электронный модуль управления наземной проводкой сетки жгута к L-кронштейну на левом берегу 3-х ручной крышки отверстия. |
+| Защищает проводку CentinalTM от ветки электропроводки до L-кронштейна на блоке слева сзади двигателя. |  |  |  |
+| Накладывает p-клип на опорную скобу на крышках послеохладителя в правом боковом заднем углу двигателя. |  |  |  |
+| Наклоны p-clip на опорные брекеты на правом береге передней и левобережной задней крышки послеохладителя к середине двигателя. |  |  |  |
+| Обеспечивает электронный модуль управления CenseTM наземной проводкой сетки ремня для трубчатой скобки, установленной на крышке левого бокового отверстия для рук. |  |  |  |
+| [[3900630]] | К черту, шестиугольные фланцевые болты | 1 | M8 крепит p-клип на кронштейн на передней левой крышке послеохладителя. |
+| [[3900635]] | К черту, шестиугольные фланцевые затворы | 8 | Обеспечивает датчик температуры выхлопных газов проводкой жгутов для охладителей крышек. |
+| [[3900679]] | К черту, шестиугольные фланцевые болты | 3 | M10 устанавливает коробку для проводов жгута проводов в задней части двигателя на корпус маховика или опорную кронштейн. |
+| Собирает переднюю часть квантовой проводов для передней крышки крана в нижней точке болтов. |  |  |  |
+| [[3906216]] | Гайка, шестиугольный фланж головы | 1 | M6 обеспечивает p-клип на шпиль на кронштейне на левом берегу передней топливной рельсы. |
+| [[3913372]] | К черту, шестиугольные фланцевые болты | 1 | M12 обеспечивает p-клип удерживая продувную проводку ветки жгута к масляному адаптеру. |
+| [[4007074]] | Локтевой, с наружной резьбой фитинг | 1 | Топливный насос № 20 впускной установки. |
+| 4066553 | Кронштейн, электронный модуль управления | 1 | Монтажная кронштейн для электронного модуля управления CenseTM. |
+| 4066560 | Кронштейн, фиксатор проводов | 1 | Z-клетка, установленная на каменном корпусе ниже водопроводных труб (левый берег 1). |
+| 4066663 | Сцепление, проводка | 1 | Обеспечивает датчик температуры выхлопных газов проводкой ремня к кожуху скалолазания (левый берег 1 **только**). |
+| [[4066935]] | Сцепление, проводка | 2 | Горы на правом берегу задней крышки послеохладителя и поддерживает датчик температуры выхлопных газов проводка жгута проводка жгута ветка, соединяющаяся с основной проводкой жгута. |
+| Сцепление для обеспечения вентилятора сцепления/охлаждения температуры проводов жгута проводов ветки жгута и датчика температуры выхлопных газов проводов жгута жгута ветки на левом берегу передней крышки послеохладителя. |  |  |  |
+| [[4066937]] | Сцепление, проводка | 2 | Горы на правом переднем берегу и заднем заднем крышке послеохладителя левого берега по направлению к середине двигателя для поддержки выхлопных газов датчик температуры проводов жгута прорывы, соединяющиеся с основной проводкой жгута. |
+| 4067050 | электропроводка жгут, электронный модуль управления проводкой | 1 | Упряжка для проводов двигателя, установленная на левом берегу с опцией CenseTM. Упряжка для проводов будет иметь пикатные предохранители Packard, герметичную OEM-ячейку, забитые задние раковины, трубопровод Y's и T's и Schlemer. |
+| 4067051 | электропроводка жгут, электронный модуль управления проводкой | 1 | Правобережная упряжка для проводов CenseTM. |
+| 4067052 | электропроводка жгут, электронный модуль управления проводкой | 2 | Справа на передней и сзади на левой стороне датчик температуры выхлопных газов проводка коробки жгута проводов. |
+| 4067053 | электропроводка жгут, электронный модуль управления проводкой | 2 | Спереди слева и сзади справа датчик температуры выхлопных газов проводка коробки жгута проводов. |
+| 4086486 | электропроводка жгут, электронный модуль управления проводкой | 1 | Задняя часть жгута проводов двигателя для опции CenseTM (установлена на корпус маховика или опорный кронштейн на корпус маховика). |
+| [[4088734]] | Датчик, давление | 1 | Датчик давления масляной винты (прозрачный калибр от 0 до 100 psiг), установленный на корпусе маховика. |
+| 4097481 | Сцепление, проводка | 13 | Обеспечивает проводку датчиков температуры выхлопных газов в кожух качения (все**, кроме **левого берега 1, левого берега 5 и правого берега 4). |
+| [[4100552]] | Скоба | 4 | Защищает проводку CentinalTM от ветки электропроводки до L-кронштейна на блоке в задней левой части двигателя. |
+| Обеспечивает датчик давления топливного насоса проводкой ремня жгута для фланца топливного насоса. |  |  |  |
+| Защищает датчик давления охлаждающей жидкости проводку жгута жгута проводов ветки жгута для кулачков. |  |  |  |
+| 4100627 | Хлопья, гибкие | 1 | Адаптер шланга датчика давления охлаждающей жидкости. |
+| 1400631 | Адаптер, кольцо | 1 | Адаптер, установленный в блок цилиндров в месте запуска Ким-Хота. |
+| 4101147 | Хлопья, гибкие | 1 | Номер 20 шланг топливного фильтра - шланг топливного насоса с локтем 90 градусов. |
+| Двигатели QSK60 с одноцилиндровыми воздушными компрессорами добавляются в комплект 60-F |  |  |  |
+| 4100720 | Хлопья, гибкие | 1 | Топливный насос — электронный клапан управления сборочным топливным шлангом. |
+| Двигатели QSK60 с двойными цилиндровыми воздушными компрессорами добавляют в комплект 60-F |  |  |  |
+| 4080587 | Хлопья, гибкие | 1 | Топливный насос — электронный клапан управления сборочным топливным шлангом. |
+| Двигатели QSK60 без воздушных компрессоров добавляют в комплект 60-F |  |  |  |
+| 4065606 | Хлопья, гибкие | 1 | Топливный насос — электронный клапан управления сборочным топливным шлангом. |
+| Двигатели QSK60 с корпусом «00» Flywheel Добавить в комплект 60-F |  |  |  |
+| 3408471 | Датчик, скорость | 1 | Четыре штифтовых однопланковых датчика скорости для корпуса маховика «00». |
+| Двигатели QSK60 с корпусом «0» Flywheel Добавить в комплект 60-F |  |  |  |
+| 3408472 | Датчик, скорость | 1 | Четыре штифтовых однопланковых датчика скорости для корпуса маховика «00». |
+| [[3902460]] | К черту, шестиугольные фланцевые болты | 2 | M10 крепится кронштейном к корпусу маховика. |
+| [[4067011]] | Кронштейн, электронный модуль управления проводкой | 1 | Кронштейн для крепления задней части коробки проводов жгута на корпус маховика. |
+| Двигатели QSK60 без элиминатора добавляют в комплект 60-F |  |  |  |
+| [[3062329]] | Зажим, стяжка | 1 |  |
+| [[4066653]] | электропроводка жгут, электронный модуль управления проводкой | 1 | Смазочный фильтр расширения проводов жгута. |
+| [[4100552]] | Скоба | 4 | Защищает удлинитель проводов упряжкой для кулачков и смазочной головки фильтра. |
+| Двигатели QSK60 с элиминатором добавляют в комплект 60-F |  |  |  |
+| [[3900626]] | К черту, шестиугольные фланцевые затворы | 1 | Обеспечивает p-clip к коробке проводов CenseTM. |
+| [[4066652]] | электропроводка жгут, электронный модуль управления проводкой | 1 | Усилитель расширения Элиминатора. |
+| Двигатели QSK60 с соленоидом Rockford Fan Clutch добавляются в комплект 60-F |  |  |  |
+| 114307 | Сцепление, трубка | 1 | Сцепление для поддержки проводов сцепления вентилятора с помощью удлинителя ветки проводов. |
+| [[3093956]] | К черту, шестиугольные фланцевые затворы | 1 | M8 обеспечивает p-clip для проводов сцепления вентилятора с помощью вспомогательной скобки ветки. |
+| [[3900589]] | Гайка, шестиугольный фланж | 1 | M8 обеспечивает p-clip для проводов сцепления вентилятора с помощью вспомогательной скобки ветки. |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 1 | M10 крепится к подлокотнику шкива холостого хода. |
+| [[3629452]] | Скоба | 1 | Защищает вентилятор сцепления проводов жгута ветви для поддержки скобки. |
+| 4066664 | электропроводка жгут, электронный модуль управления проводкой | 1 | Усилитель сцепления вентилятора. |
+| Двигатели QSK60 с системой пополнения масла CentinalTM для сжигания и макияжа добавляют в комплект 60-F |  |  |  |
+| [[3170823]] | Локтевой, с наружной резьбой фитинг | 1 |  |
+| [[3682300]] | Союз, штыревой | 1 |  |
+| [[3900635]] | К черту, шестиугольные фланцевые затворы | 2 |  |
+| [[3901249]] | К черту, шестиугольные фланцевые затворы | 2 |  |
+| [[4000694]] | Коннектор, мужчина | 1 |  |
+| 4066833 | Кронштейн, клапан | 1 |  |
+| [[4086294]] | Союз, штыревой | 1 |  |
+| [[4086355]] | Хлопья, гибкие | 1 |  |
+| [[4086357]] | Хлопья, гибкие | 1 |  |
+| [[4086648]] | Валве, контроль над маслом | 1 |  |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 3 |  |
+| 4086288 | Адаптер, кольцо | 1 |  |
+| [[4086356]] | Хлопья, гибкие | 1 |  |
+| [[4086382]] | хлор, сохраняя | 1 |  |
+| Двигатели QSK60 с системой пополнения масла CentinalTM добавляются в комплект 60-F |  |  |  |
+| [[3170823]] | Локтевой, с наружной резьбой фитинг | 1 |  |
+| [[3682300]] | Союз, штыревой | 1 |  |
+| [[3900635]] | К черту, шестиугольные фланцевые затворы | 2 |  |
+| [[3901249]] | К черту, шестиугольные фланцевые затворы | 2 |  |
+| [[4000694]] | Коннектор, мужчина | 1 |  |
+| 4066833 | Кронштейн, клапан | 1 |  |
+| [[4086294]] | Союз, штыревой | 1 |  |
+| [[4086355]] | Хлопья, гибкие | 1 |  |
+| [[4086357]] | Хлопья, гибкие | 1 |  |
+| [[4086648]] | Валве, контроль над маслом | 1 |  |
+| [[4016411]] | Локтевой, с наружной резьбой фитинг | 1 |  |
+| [[4016412]] | Адаптер, снижающий | 1 |  |
+| 4016565 | Хлопья, гибкие | 1 |  |
 
-| Kit 60-J Crankcase Breather, Hand Hole Covers and Mounting Hardware for QSK60 Engines Upgrading From Head Deck Breathers to Phase 2.0 Harness and Breather |  |  |  |
+| Комплект 60-J Crankcase Breather, ручные петли и оборудование для монтажа двигателей QSK60, модернизирующихся от головной палубы до электропроводки 2-го этапа и дыхательной системы |  |  |  |
 |---|---|---|---|
-| Part Number | Name | Quantity | Remarks |
-| 4101308 | Cover, camshaft | 1 | Cam cover at left bank. |
-| [[4085924]] | Gasket, camshaft cover | 1 | Gasket for cam cover. |
-| [[3900679]] | Screw, hexagonal flange head capscrew | 5 | Screws |
-| 3901448 | Screw, hexagonal flange head capscrew | 2 | Screws |
-| [[3902460]] | Screw, hexagonal flange head capscrew | 4 | Screws breather box |
-| [[3075658]] | Seal, o-ring | 1 | Seal tube |
-| [[4007901]] | Hose, plain | 1 | Inlet hose |
-| 43828 F | Clamp, hose | 2 | Hose Clamps |
-| [[4086563]] | Hose, plain | 1 | Outlet hose |
-| 43828 B | Clamp, hose | 2 | Hose clamps |
-| [[3635341]] | Tube, air | 1 | Y-tube |
-| [[4086143]] | Hose, plain | 1 | Short hose to sensor |
-| 209773 | Clamp, hose | 4 | Hose clamps |
-| [[4086562]] | Hose, plain | 1 | Long hose |
-| [[4086561]] | Hose, plain | 1 | From the sensor hose |
-| 114307 | Brace, tube | 1 | Brace |
-| 68189 | Clip | 2 | P-clips |
-| [[3093828]] | Nut, hexagonal flange | 1 | Screw |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 1 | Nut |
-| 4086695 | Cover, hand hole | 3 | Plain covers |
-| [[4017621]] | Plug, expansion | 1 | Expansion plugs for head deck |
-| QSK60 Engines With Rear Double Deep Oil Pan Add to Kit 60-J |  |  |  |
-| [[4100596]] | Breather, crankcase | 1 | Breather box |
-| [[4086585]] | Elbow, male adapter | 1 | Elbow |
-| 4100638 | Hose, flexible | 1 | Oil return hose |
-| 4100719 | Hose, flexible | 1 | Oil return hose |
-| [[4086753]] | Clamp, retaining | 2 | Clamp |
-| [[3901249]] | Screw, hexagonal flange head capscrew | 1 | Screw for clamp |
-| [[3903210]] | Nut, hexagonal flange | 1 | Nut |
-| QSK60 Engines With Center Double Deep Oil Pan Add to Kit 60-J |  |  |  |
-| 4101381 | Breather, crankcase | 1 | Breather box |
-| 4101097 | Elbow, male adapter | 1 | Elbow |
-| [[4101407]] | Hose, flexible | 1 | Oil return hose |
-| 4100997 | Hose, flexible | 1 | Oil return hose |
-| [[4086753]] | Clamp, retaining | 2 | Clamp |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 1 | Screw clamps to blankets |
-| [[3089016]] | Screw, hexagonal flange head capscrew | 1 | Screw |
-| [[4101402]] | Bracket, breather | 1 | Bracket 1 |
-| [[4101403]] | Bracket, breather | 1 | Bracket 2 |
-| QSK60 Engines With Front Double Deep Oil Pan Add Kit 60-J |  |  |  |
-| [[4100596]] | Breather, box | 1 | Breather box |
-| 4100641 | Elbow, male adapter | 1 | Elbow 90 degrees |
-| 4100637 | Hose, flexible | 1 | Oil return hose |
-| 4100717 | Hose, flexible | 1 | Oil return hose |
-| [[4086753]] | Clamp, retaining | 2 | Clamp |
-| [[3901249]] | Screw, hexagonal flange head capscrew | 1 | Screw |
-| [[3903210]] | Nut, hexagonal flange | 1 | Nut |
-| [[3628585]] | Brace, tube | 1 | Bracket for drain hose |
-| [[3629451]] | Clip | 1 | P-clip |
-| [[3902662]] | Nut, hexagonal flange | 1 | Nut |
-| [[3093957]] | Screw, hexagonal flange head capscrew | 1 | Screw |
-| QSK60 Engines With Short Dip at Position Left Bank 3 Add to Kit 60-J |  |  |  |
-| 4100687 | Cover, hand hole | 1 | Inlet hand hole cover |
-| [[4100660]] | Seal o-ring | 3 | Hand hole cover o-ring |
-| 4066212 | Hose, plain | 1 | Inlet hose |
-| 43828 F | Clamp, hose | 2 | Hose clamp |
-| 4100764 | Bracket, oil tube | 1 | Bracket filler |
-| [[3902460]] | Screw, hexagonal flange head capscrew | 2 | Clamp screws |
-| [[4100767]] | Tube, breather | 1 | Inlet tube |
-| 131026 | Seal, o-ring | 1 | O-ring dipstick |
-| 4080456 | Dipstick | 1 | Dipstick |
-| QSK60 Engines With Extended Dip at Position Left Bank 3 Add to Kit 60-J |  |  |  |
-| [[4100685]] | Cover, hand hole | 1 | Inlet hand hole cover |
-| [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-ring |
-| 4066212 | Hose, plain | 1 | Inlet hose |
-| 43828 F | Clamp, hose | 2 | Hose clamp |
-| 4100764 | Bracket, oil tube | 1 | Bracket filler |
-| [[3902460]] | Screw, hexagonal flange head capscrew | 4 | Clamp screws |
-| 4100877 | Bracket, oil tube | 1 | Dipstick brace |
-| 108722 | Clip | 1 | P-clip |
-| [[3093957]] | Screw, hexagonal flange head capscrew | 3 | Screw |
-| [[3093828]] | Nut, hexagonal flange | 1 | Nut |
-| [[4100767]] | Tube, breather | 1 | Inlet tube |
-| 4100883 | Bracket, oil tube | 1 | Top dipstick tube bracket |
-| 131026 | Seal, o-ring | 1 | O-ring dipstick |
-| 4080458 | Dipstick | 1 | Dipstick |
-| QSK60 Engines With No Dipstick at Position Left Bank 3 Add to Kit 60-J |  |  |  |
-| 4100768 | Cover, hand hole | 1 | Inlet hand hole cover |
-| [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-rings |
-| 4066212 | Hose, plain | 1 | Inlet hose |
-| 43828 F | Clamp, hose | 2 | Hose clamp |
+| Номер детали | Имя | Количество | Замечания |
+| 4101308 | Прикрытие, распределительный вал | 1 | Камера на левом берегу. |
+| [[4085924]] | Гаскет, крышка распределительного вала | 1 | Прокладка для камеры. |
+| [[3900679]] | К черту, шестиугольные фланцевые затворы | 5 | Винт |
+| 3901448 | К черту, шестиугольные фланцевые затворы | 2 | Винт |
+| [[3902460]] | К черту, шестиугольные фланцевые затворы | 4 | Винтовая коробка для дыхания |
+| [[3075658]] | Тюлень, кольцо | 1 | Трубка для уплотнения |
+| [[4007901]] | Хосе, просто. | 1 | Впускной шланг |
+| 43828 F F | Зажим, шланг | 2 | Зажимы для хозяев |
+| [[4086563]] | Хосе, просто. | 1 | Рубль для розетки |
+| 43828 B | Зажим, шланг | 2 | Зажимы для шланга |
+| [[3635341]] | Труба, воздух | 1 | Трубка |
+| [[4086143]] | Хосе, просто. | 1 | Короткий шланг для сенсора |
+| 209773 | Зажим, шланг | 4 | Зажимы для шланга |
+| [[4086562]] | Хосе, просто. | 1 | Длинный шланг |
+| [[4086561]] | Хосе, просто. | 1 | Из шланга датчика |
+| 114307 | Сцепление, трубка | 1 | Сцепление |
+| 68189 | Скоба | 2 | P-клипы |
+| [[3093828]] | Гайка, шестиугольный фланж | 1 | Винт |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 1 | Гайка |
+| 4086695 | Прикрытие, отверстие для рук | 3 | Обычные покрывала |
+| [[4017621]] | Плагин, расширение | 1 | Расширение штепселей для головной палубы |
+| Двигатели QSK60 с задним двойным глубоким масляным панелем добавляются в комплект 60-J |  |  |  |
+| [[4100596]] | Дыхание, чемодан | 1 | Дыхательная коробка |
+| [[4086585]] | Эльбоу, штуцер с наружной резьбой | 1 | локтевой |
+| 4100638 | Хлопья, гибкие | 1 | Возвратный шланг |
+| 4100719 | Хлопья, гибкие | 1 | Возвратный шланг |
+| [[4086753]] | хлор, сохраняя | 2 | зажим |
+| [[3901249]] | К черту, шестиугольные фланцевые затворы | 1 | К черту зажим |
+| [[3903210]] | Гайка, шестиугольный фланж | 1 | Гайка |
+| Двигатели QSK60 с центральным двойным глубоким масляным панелем добавляются в комплект 60-J |  |  |  |
+| 4101381 | Дыхание, чемодан | 1 | Дыхательная коробка |
+| 4101097 | Эльбоу, штуцер с наружной резьбой | 1 | локтевой |
+| [[4101407]] | Хлопья, гибкие | 1 | Возвратный шланг |
+| 4100997 | Хлопья, гибкие | 1 | Возвратный шланг |
+| [[4086753]] | хлор, сохраняя | 2 | зажим |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 1 | Зажимы для застежек в одеяла |
+| [[3089016]] | К черту, шестиугольные фланцевые затворы | 1 | Винт |
+| [[4101402]] | Брекет, дышащий | 1 | Корзина 1 |
+| [[4101403]] | Брекет, дышащий | 1 | Корзина 2 |
+| Двигатели QSK60 с передним двойным глубоким масляным панелями Добавить комплект 60-J |  |  |  |
+| [[4100596]] | Дыхание, коробка | 1 | Дыхательная коробка |
+| 4100641 | Эльбоу, штуцер с наружной резьбой | 1 | Локтевой 90 градусов |
+| 4100637 | Хлопья, гибкие | 1 | Возвратный шланг |
+| 4100717 | Хлопья, гибкие | 1 | Возвратный шланг |
+| [[4086753]] | хлор, сохраняя | 2 | зажим |
+| [[3901249]] | К черту, шестиугольные фланцевые затворы | 1 | Винт |
+| [[3903210]] | Гайка, шестиугольный фланж | 1 | Гайка |
+| [[3628585]] | Сцепление, трубка | 1 | Кронштейн для дренажного шланга |
+| [[3629451]] | Скоба | 1 | P-клип |
+| [[3902662]] | Гайка, шестиугольный фланж | 1 | Гайка |
+| [[3093957]] | К черту, шестиугольные фланцевые затворы | 1 | Винт |
+| Двигатели QSK60 с коротким падением на левом берегу 3 добавляют в комплект 60-J |  |  |  |
+| 4100687 | Прикрытие, отверстие для рук | 1 | Впускное отверстие для рук |
+| [[4100660]] | Плитка с кольцом | 3 | Ручной проем крышки кольцевой |
+| 4066212 | Хосе, просто. | 1 | Впускной шланг |
+| 43828 F F | Зажим, шланг | 2 | Хомут шланга |
+| 4100764 | Кронштейн, масляная трубка | 1 | Наполнитель кронштейна |
+| [[3902460]] | К черту, шестиугольные фланцевые затворы | 2 | Зажимные винты |
+| [[4100767]] | Трубка, дышащая | 1 | Впускная трубка |
+| 131026 | Тюлень, кольцо | 1 | Измеритель уровня масла в кольце |
+| 4080456 | Маслоизмерительный щуп | 1 | Маслоизмерительный щуп |
+| Двигатели QSK60 с расширенным падением на левом берегу 3 добавляют в комплект 60-J |  |  |  |
+| [[4100685]] | Прикрытие, отверстие для рук | 1 | Впускное отверстие для рук |
+| [[4100660]] | Тюлень, кольцо | 3 | Ручной проем крышки кольцевой |
+| 4066212 | Хосе, просто. | 1 | Впускной шланг |
+| 43828 F F | Зажим, шланг | 2 | Хомут шланга |
+| 4100764 | Кронштейн, масляная трубка | 1 | Наполнитель кронштейна |
+| [[3902460]] | К черту, шестиугольные фланцевые затворы | 4 | Зажимные винты |
+| 4100877 | Кронштейн, масляная трубка | 1 | скобка для измерения уровня масла |
+| 108722 | Скоба | 1 | P-клип |
+| [[3093957]] | К черту, шестиугольные фланцевые затворы | 3 | Винт |
+| [[3093828]] | Гайка, шестиугольный фланж | 1 | Гайка |
+| [[4100767]] | Трубка, дышащая | 1 | Впускная трубка |
+| 4100883 | Кронштейн, масляная трубка | 1 | Верхний уровень масла калибр трубчатого кронштейна |
+| 131026 | Тюлень, кольцо | 1 | Измеритель уровня масла в кольце |
+| 4080458 | Маслоизмерительный щуп | 1 | Маслоизмерительный щуп |
+| Двигатели QSK60 без измерителя уровня масла в положении Левый берег 3 Добавить в комплект 60-J |  |  |  |
+| 4100768 | Прикрытие, отверстие для рук | 1 | Впускное отверстие для рук |
+| [[4100660]] | Тюлень, кольцо | 3 | Ручная крышка с отверстиями |
+| 4066212 | Хосе, просто. | 1 | Впускной шланг |
+| 43828 F F | Зажим, шланг | 2 | Хомут шланга |
 
-| Kit 60-N Crankcase Breather, Hand Hole Covers and Mounting Hardware for QSK60 Engines Upgrading From Single Bank Breathers to Phase 2.0 Harness and Breather |  |  |  |
+| Комплект 60-N Crankcase Breather, ручные петли и монтажное оборудование для двигателей QSK60, модернизирующихся от однобанковских бридеров до электропроводки 2-го этапа и дыхательной системы |  |  |  |
 |---|---|---|---|
-| Part Number | Name | Quantity | Remarks |
-| 4101308 | Cover, camshaft | 1 | Cam cover at left bank |
-| [[4085924]] | Gasket, Camshaft cover | 1 | Gasket for cam cover |
-| [[3900679]] | Screw, hexagonal flange head capscrew | 5 | Screws |
-| 3901448 | Screw, hexagonal flange head capscrew | 2 | Screws |
-| [[3902460]] | Screw, hexagonal flange head capscrew | 4 | Screws breather box |
-| [[3075658]] | Seal, o-ring | 1 | Seal tube |
-| [[4007901]] | Hose, plain | 1 | Inlet hose |
-| 43828 F | Clamp, hose | 2 | Hose Clamps |
-| [[4086563]] | Hose, plain | 1 | Outlet hose |
-| 43828 B | Clamp, hose | 2 | Hose clamps |
-| [[3635341]] | Tube, air | 1 | Y-tube |
-| [[4086143]] | Hose, plain | 1 | Short hose to sensor |
-| 209773 | Clamp, hose | 4 | Hose clamps |
-| [[4086562]] | Hose, plain | 1 | Long hose |
-| [[4086561]] | Hose, plain | 1 | From sensor hose |
-| 114307 | Brace, tube | 1 | Brace |
-| 68189 | Clip | 2 | P-clips |
-| [[3093828]] | Nut, hexagonal flange | 1 | Screw |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 1 | Nut |
-| 4086695 | Cover, hand hole | 2 | Plain covers |
-| QSK60 Engines With Double Deep Rear Oil Pan Add to Kit 60-N |  |  |  |
-| [[4100596]] | Breather, crankcase | 1 | Breather box |
-| [[4086585]] | Elbow, male adapter | 1 | Elbow |
-| 4100638 | Hose, flexible | 1 | Oil return hose |
-| 4100719 | Hose, flexible | 1 | Oil return hose |
-| [[4086753]] | Clamp, retaining | 2 | Clamp |
-| [[3901249]] | Screw, hexagonal flange head capscrew | 1 | Screw for clamp |
-| [[3903210]] | Nut, hexagonal flange | 1 | Nut |
-| QSK60 Engines With Center Double Deep Oil Pan Add to Kit 60-N |  |  |  |
-| 4101381 | Breather, crankcase | 1 | Breather box |
-| 4101097 | Elbow, male adapter | 1 | Elbow |
-| [[4101407]] | Hose, flexible | 1 | Oil return hose |
-| 4100997 | Hose, flexible | 1 | Oil return hose |
-| [[4086753]] | Clamp, retaining | 2 | Clamp |
-| [[3903990]] | Screw, hexagonal flange head capscrew | 1 | Screw clamps to blankets |
-| [[3089016]] | Screw, hexagonal flange head capscrew | 1 | Screw |
-| [[4101402]] | Bracket, breather | 1 | Bracket 1 |
-| [[4101403]] | Bracket, breather | 1 | Bracket 2 |
-| QSK60 Engines With Front Double Deep Oil Pan Add to Kit 60-N |  |  |  |
-| [[4100596]] | Breather, box | 1 | Breather box |
-| 4100641 | Elbow, male adapter | 1 | Elbow 90 degree |
-| 4100637 | Hose, flexible | 1 | Oil return hose |
-| 4100717 | Hose, flexible | 1 | Oil return hose |
-| [[4086753]] | Clamp, retaining | 2 | Clamp |
-| [[3901249]] | Screw, hexagonal flange head capscrew | 1 | Screw |
-| [[3903210]] | Nut, hexagonal flange | 1 | Nut |
-| [[3628585]] | Brace, tube | 1 | Bracket for drain hose |
-| [[3629451]] | Clip | 1 | P-clip |
-| [[3902662]] | Nut, hexagonal flange | 1 | Nut |
-| [[3093957]] | Screw, hexagonal flange head capscrew | 1 | Screw |
-| QSK60 Engines With Short Dip at Position Left Bank 3 Add to Kit 60-N |  |  |  |
-| 4100687 | Cover, hand hole | 1 | Inlet hand hole cover |
-| [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-ring |
-| 4066212 | Hose, plain | 1 | Inlet hose |
-| 43828 F | Clamp, hose | 2 | Hose clamp |
-| 4100764 | Bracket, oil tube | 1 | Bracket filler |
-| [[3902460]] | Screw, hexagonal flange head capscrew | 2 | Clamp screws |
-| [[4100767]] | Tube, breather | 1 | Inlet tube |
-| 131026 | Seal, o-ring | 1 | O-ring dipstick |
-| 4080456 | Dipstick | 1 | Dipstick |
-| QSK60 Engines With Extended Dip at Position Left Bank 3 Add to Kit 60-N |  |  |  |
-| [[4100685]] | Cover, hand hole | 1 | Inlet hand hole cover |
-| [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-ring |
-| 4066212 | Hose, plain | 1 | Inlet hose |
-| 43828 F | Clamp, hose | 2 | Hose Clamp |
-| 4100764 | Bracket, oil tube | 1 | Bracket filler |
-| [[3902460]] | Screw, hexagonal flange head capscrew | 4 | Clamp screws |
-| 4100877 | Bracket, oil tube | 1 | Dipstick brace |
-| 108722 | Clip | 1 | P-clip |
-| [[3093957]] | Screw, hexagonal flange head capscrew | 3 | Screw |
-| [[3093828]] | Nut, hexagonal flange | 1 | Nut |
-| [[4100767]] | Tube, breather | 1 | Inlet tube |
-| 4100883 | Bracket, oil tube | 1 | Top dipstick tube bracket |
-| 131026 | Seal, o-ring | 1 | O-ring dipstick |
-| 4080458 | Dipstick | 1 | Dipstick |
-| QSK60 Engines With No Dipstick at Position Left Bank 3 Add to Kit 60-N |  |  |  |
-| 4100768 | Cover, hand hole | 1 | Inlet hand hole cover |
-| [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-rings |
-| 4066212 | Hose, plain | 1 | Inlet hose |
-| 43828 F | Clamp, hose | 2 | Hose clamp |
+| Номер детали | Имя | Количество | Замечания |
+| 4101308 | Прикрытие, распределительный вал | 1 | Обложка камеры на левом берегу |
+| [[4085924]] | Гаскет, крышка Распредвала | 1 | Гаскет для кулачков |
+| [[3900679]] | К черту, шестиугольные фланцевые затворы | 5 | Винт |
+| 3901448 | К черту, шестиугольные фланцевые затворы | 2 | Винт |
+| [[3902460]] | К черту, шестиугольные фланцевые затворы | 4 | Винтовая коробка для дыхания |
+| [[3075658]] | Тюлень, кольцо | 1 | Трубка для уплотнения |
+| [[4007901]] | Хосе, просто. | 1 | Впускной шланг |
+| 43828 F F | Зажим, шланг | 2 | Зажимы для хозяев |
+| [[4086563]] | Хосе, просто. | 1 | Рубль для розетки |
+| 43828 B | Зажим, шланг | 2 | Зажимы для шланга |
+| [[3635341]] | Труба, воздух | 1 | Трубка |
+| [[4086143]] | Хосе, просто. | 1 | Короткий шланг для сенсора |
+| 209773 | Зажим, шланг | 4 | Зажимы для шланга |
+| [[4086562]] | Хосе, просто. | 1 | Длинный шланг |
+| [[4086561]] | Хосе, просто. | 1 | Из сенсорного шланга |
+| 114307 | Сцепление, трубка | 1 | Сцепление |
+| 68189 | Скоба | 2 | P-клипы |
+| [[3093828]] | Гайка, шестиугольный фланж | 1 | Винт |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 1 | Гайка |
+| 4086695 | Прикрытие, отверстие для рук | 2 | Обычные покрывала |
+| Двигатели QSK60 с двойным глубоким задним маслом добавляют в комплект 60-N |  |  |  |
+| [[4100596]] | Дыхание, чемодан | 1 | Дыхательная коробка |
+| [[4086585]] | Эльбоу, штуцер с наружной резьбой | 1 | локтевой |
+| 4100638 | Хлопья, гибкие | 1 | Возвратный шланг |
+| 4100719 | Хлопья, гибкие | 1 | Возвратный шланг |
+| [[4086753]] | хлор, сохраняя | 2 | зажим |
+| [[3901249]] | К черту, шестиугольные фланцевые затворы | 1 | К черту зажим |
+| [[3903210]] | Гайка, шестиугольный фланж | 1 | Гайка |
+| Двигатели QSK60 с центральным двойным глубоким масляным панелем добавляются в комплект 60-N |  |  |  |
+| 4101381 | Дыхание, чемодан | 1 | Дыхательная коробка |
+| 4101097 | Эльбоу, штуцер с наружной резьбой | 1 | локтевой |
+| [[4101407]] | Хлопья, гибкие | 1 | Возвратный шланг |
+| 4100997 | Хлопья, гибкие | 1 | Возвратный шланг |
+| [[4086753]] | хлор, сохраняя | 2 | зажим |
+| [[3903990]] | К черту, шестиугольные фланцевые затворы | 1 | Зажимы для застежек в одеяла |
+| [[3089016]] | К черту, шестиугольные фланцевые затворы | 1 | Винт |
+| [[4101402]] | Брекет, дышащий | 1 | Корзина 1 |
+| [[4101403]] | Брекет, дышащий | 1 | Корзина 2 |
+| Двигатели QSK60 с передним двойным глубоким масляным панелем добавляются в комплект 60-N |  |  |  |
+| [[4100596]] | Дыхание, коробка | 1 | Дыхательная коробка |
+| 4100641 | Эльбоу, штуцер с наружной резьбой | 1 | локтевой 90 градусов |
+| 4100637 | Хлопья, гибкие | 1 | Возвратный шланг |
+| 4100717 | Хлопья, гибкие | 1 | Возвратный шланг |
+| [[4086753]] | хлор, сохраняя | 2 | зажим |
+| [[3901249]] | К черту, шестиугольные фланцевые затворы | 1 | Винт |
+| [[3903210]] | Гайка, шестиугольный фланж | 1 | Гайка |
+| [[3628585]] | Сцепление, трубка | 1 | Кронштейн для дренажного шланга |
+| [[3629451]] | Скоба | 1 | P-клип |
+| [[3902662]] | Гайка, шестиугольный фланж | 1 | Гайка |
+| [[3093957]] | К черту, шестиугольные фланцевые затворы | 1 | Винт |
+| Двигатели QSK60 с коротким падением на левом берегу 3 добавляют в комплект 60-N |  |  |  |
+| 4100687 | Прикрытие, отверстие для рук | 1 | Впускное отверстие для рук |
+| [[4100660]] | Тюлень, кольцо | 3 | Ручной проем крышки кольцевой |
+| 4066212 | Хосе, просто. | 1 | Впускной шланг |
+| 43828 F F | Зажим, шланг | 2 | Хомут шланга |
+| 4100764 | Кронштейн, масляная трубка | 1 | Наполнитель кронштейна |
+| [[3902460]] | К черту, шестиугольные фланцевые затворы | 2 | Зажимные винты |
+| [[4100767]] | Трубка, дышащая | 1 | Впускная трубка |
+| 131026 | Тюлень, кольцо | 1 | Измеритель уровня масла в кольце |
+| 4080456 | Маслоизмерительный щуп | 1 | Маслоизмерительный щуп |
+| Двигатели QSK60 с расширенным падением на левом берегу 3 добавляют в комплект 60-N |  |  |  |
+| [[4100685]] | Прикрытие, отверстие для рук | 1 | Впускное отверстие для рук |
+| [[4100660]] | Тюлень, кольцо | 3 | Ручной проем крышки кольцевой |
+| 4066212 | Хосе, просто. | 1 | Впускной шланг |
+| 43828 F F | Зажим, шланг | 2 | Хомут шланга |
+| 4100764 | Кронштейн, масляная трубка | 1 | Наполнитель кронштейна |
+| [[3902460]] | К черту, шестиугольные фланцевые затворы | 4 | Зажимные винты |
+| 4100877 | Кронштейн, масляная трубка | 1 | скобка для измерения уровня масла |
+| 108722 | Скоба | 1 | P-клип |
+| [[3093957]] | К черту, шестиугольные фланцевые затворы | 3 | Винт |
+| [[3093828]] | Гайка, шестиугольный фланж | 1 | Гайка |
+| [[4100767]] | Трубка, дышащая | 1 | Впускная трубка |
+| 4100883 | Кронштейн, масляная трубка | 1 | Верхний уровень масла калибр трубчатого кронштейна |
+| 131026 | Тюлень, кольцо | 1 | Измеритель уровня масла в кольце |
+| 4080458 | Маслоизмерительный щуп | 1 | Маслоизмерительный щуп |
+| Двигатели QSK60 без измерителя уровня масла в положении Левый берег 3 Добавить в комплект 60-N |  |  |  |
+| 4100768 | Прикрытие, отверстие для рук | 1 | Впускное отверстие для рук |
+| [[4100660]] | Тюлень, кольцо | 3 | Ручная крышка с отверстиями |
+| 4066212 | Хосе, просто. | 1 | Впускной шланг |
+| 43828 F F | Зажим, шланг | 2 | Хомут шланга |
 
 ## Детали, упомянутые в документе
 
@@ -1084,3 +1094,885 @@ This kit is designed for the QSK60 engines phase 1.5 harness without CENSE™. I
 | [[4101402]] | Breather Bracket | Кронштейн сапуна |
 | [[4101403]] | Breather Bracket | Кронштейн сапуна |
 | [[4101407]] | Flexible Hose | Гибкий шланг |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Phase 2.0 Harness Introduction
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin supersedes 04T19-2. Replace 04T19-2 with this topic.
+>
+> This Technical Service Bulletin introduces the new QSK60 Industrial engine harness and the CENSE™ harness, also known as the Phase 2.0 harness. The new harness supersedes the Phase 1.0 harness in production, but the Phase 1.0 harness will be available for service. Installation procedures for the harnesses will be published in a separate publication. The engine serial number (ESN) first for this change is 33152044.
+>
+> The new harness is a foam-filled metallic enclosure and designed to increase certain sensor, connector, and wiring robustness. New wiring diagrams will be available for the harness. The engine harness consists of two parts: one with three metallic enclosures linked together with two flexible conduits mounted on the left bank; the other is a single metallic enclosure mounted at the rear. The optional CENSE™ harness is mounted on the right bank.
+>
+> Do **not** drill into metallic harness enclosures.
+>
+> #### Engine Harness Overview
+>
+> - The service port box section is mounted on the left bank front intake manifold.
+> - The rear section is connected to the left and right bank sections via 33- and 47-pin Deutsch connectors.
+> - Certain pressure sensors are being replaced with a more robust design.
+>
+> The lower front and middle sections are mounted on the left bank cam follower covers while the third upper front section is mounted on the left bank front intake manifold. The separate rear section is mounted above the flywheel housing. A special bracket is used for engines with the '0' flywheel housing option. The locations for the mounting capscrews for the front and middle harness enclosures are shown in the installation procedure.
+>
+> The original Phase 2.0 harness was designed with cartridge-style fuses. The new improved fuse is a Packard-style design. There are different part numbers for the left bank harness options (with CENSE™ and without CENSE™) for the different fuse designs.
+>
+> | Harness | FuseStyle | Part Number |
+> |---|---|---|
+> | LB harness with CENSE™ | Cartridge Packard | 4066648 4101013 |
+> | LB harness with CENSE™ | Cartridge Packard | 4066649 4101012 |
+>
+> Figure 2, Cartridge-Style Fuse
+>
+> Figure 1, Packard-Style Fuse
+>
+> A new version of the QSK60 wiring harness (Phase 2.0 harness) has been developed to improve product quality. The new features include:
+>
+> - Enclosed aluminum harness pipe
+> - Danfoss brand pressure sensors
+> - DIN-style connectors
+> - Improved exhaust gas temperature sensor thermocouple geometry.
+>
+> These changes increase sensor and wiring harness robustness. The Phase 2.0 harness specifically improves the reliability and durability of the CENSE™ module and the engine wiring harness.
+>
+> The Phase 2.0 harness went into production November 25, 2002. The engine serial number first is 33153219.
+>
+> Phase 2.0 electronics are a major improvement in the design and installation of sensors and Quantum and CENSE™ harnesses.
+>
+> Key Design Features
+>
+> Engine Harness
+>
+> - Phase 2.0 harness employs foamed-pipe technology where the wires are enclosed inside a metallic box section that is foam filled and completely sealed.
+> - The Quantum harness is mounted on the left bank of the engine.
+> - There are four metallic enclosures linked together with flexible conduits.
+> - Two sections are mounted on the left bank cam follower covers.
+> - Service port box section is mounted on the left bank front intake manifold.
+> - Rear section is mounted on a bracket that is fitted to the flywheel housing.
+> - The rear section is connected to the left and right bank sections via 40-pin Deutsch connectors.
+>
+> CENSE™ Harness
+>
+> - CENSE™ electronic control module is mounted on the left bank number 3 cam follower cover
+> - CENSE™ harness is divided into two sections. For the Right Bank sensors/connections, there is a harness box section mounted on the right bank. It is linked to the CENSE™ electronic module on the left bank via a 40-pin Deutsch connector mounted on the rear harness section.
+> - The left bank connections are built into the left bank harness.
+> - The connections for the CENSE™ electronic module are incorporated into the left bank harness.
+>
+> Pressure Sensors and Connection (Danfoss)
+>
+> - The pressure sensor design is very robust.
+> - The DIN-style connector for these sensors has a locking feature that guarantees a firm connection between the sensor and harness. This results in improved robustness in terms of pin fretting.
+> - There is no need for a calibration change as a result of the revision to Danfoss sensors.
+> - These connectors are also keyed and color coded to prevent wrong connections being made in the field as well as on the assembly line.
+> - There is more information concerning the Danfoss sensors in the QSK45 Phase 2.0 harness introduction topic 03T19-30.
+>
+> | Pressure Sensor Part Number Service Adapter and Pencil Connector Matrix |  |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|---|
+> | Pressure Sensor | DIN-Packard Connector Adapter Harness | Old Sensor Part Number | New Sensor Part Number | DIN Connector Keying | DIN Connector Color | Packard Connector Keying | Service Pigtail Part Number |
+> | Boost (left bank front) | 3408507 | 3408347 | 3408556 | Key 3 | Green | Round | 3164710 |
+> | Boost (right bank rear) | 3408507 | 3408347 | 3408556 | Key 3 | Green | Round | 3164710 |
+> | Coolant | 3408508 | 3160404 | 3408556 | Key 3 | Green | Chevy | 3164710 |
+> | Fuel pump | 3408509 | 3408414 | 3408566 | Key 1 | Black | Round | 3164709 |
+> | Fuel rail | [[3408510]] | 3408379 | 3408562 | Key 2 | Gray | Barn | 3164709 |
+> | Oil rifle | 3408511 | 3865337 | [[4088734]] | Key 2 | Gray | Chevy | 3164709 |
+> | Post-filter oil | 3408509 | 3330527 | [[3408558]] | Key 1 | Black | Round | 3164708 |
+> | Pre-filter oil | 3408509 | 3330527 | [[3408558]] | Key 1 | Black | Round | 3164708 |
+> | Timing rail | 3408509 | 3408381 | 3408585 | Key 1 | Black | Round | 3164708 |
+>
+> Other product changes with the QSK60 Phase 2.0 Harness Introduction:
+>
+> - Exhaust gas temperature sensor improvements
+> - Improved breather design includes relocation
+> - Revise oil fill and dipstick arrangement
+> - Left bank oil level sensor relocation
+> - Pan adapter boss for oil level sensor
+> - Integral valve fan clutch control
+> - Relocation of Centinel™ valve to rear of engine on left bank side.
+>
+> **Note · Примечание**
+> The Phase 2.0 Harness can **only** be used in conjunction with the new crankcase breather design.
+>
+> | Harness Phase | Exhaust Gas Temperature Sensor Connector | Lead Length and Routing |
+> |---|---|---|
+> | Phase 1.5 | Packard | 1.2 m \[4 ft\] around intake manifold |
+> | Phase 2.0 | Deutsch | Side port location with shortened lengths. Three exhaust gas temperature sensors bundled per connector |
+>
+> Exhaust Gas Temperature Sensor Improvements
+>
+> - Redesigned to route between cylinder heads
+> - Changed cylinder head port location for improved serviceability
+> - Reduced length and strengthened wall section of Inconel portion
+> - Improved Deutsch type connector with stabilization
+> - Field upfit kit available.
+>
+> Improved design is braided steel covered by a silicone sheath with Deutsch™ connector and heat shrink seal.
+>
+> The old Exhaust Gas Temperature Sensor, Inconel™ design.
+>
+> Phase 2.0 Exhaust Gas Temperature Sensor Routing
+>
+> 1 and 2 Mounting clips.
+>
+> Exhaust Gas Temperature Sensor
+>
+> 1. Exhaust gas temperature sensor harness
+> 2. Exhaust gas temperature sensor tunnel bracket
+> 3. Exhaust gas temperature sensors.
+>
+> Left Bank Engine
+>
+> 1. Crankcase breather.
+>
+> Left Bank Front Engine
+>
+> 1. Fuel pump pressure sensor
+> 2. Left bank lower front harness
+> 3. Intake manifold pressure sensor
+> 4. Intake manifold temperature sensor
+> 5. Left bank middle harness.
+>
+> Left Bank Rear Corner Original Equipment Manufacturer Connectors.
+>
+> 1. 31-pin original equipment manufacturer cab disconnect
+> 2. 21-pin original equipment manufacturer power sensor disconnect
+> 3. 23-pin CENSE™ original equipment manufacturer disconnect.
+>
+> Left Bank Engine
+>
+> 1. Centinel™ Connection
+> 2. Adaptor harness (single plug to two plugs) for original equipment manufacturer speed sensor.
+> 3. Original equipment manufacturer speed sensor.
+>
+> Left Bank Side of Engine (CENSE™ Module)
+>
+> 1. CENSE™ module cover bracket
+> 2. CENSE™ Connector
+> 3. Left bank rear intake manifold temperature sensor (CENSE™ sensor).
+>
+> Left Bank Front
+>
+> 1. Exhaust Gas Temperature Sensor breakout (CENSE™ option only)
+> 2. Fan/clutch coolant temperature sensor breakout
+> 3. P-clips
+> 4. Bracket.
+>
+> Fan Clutch
+>
+> 1. Fan clutch actuator
+> 2. Fan clutch connector
+> 3. P-clips
+> 4. Fan clutch extension harness.
+>
+> Rear of QSK60 2-Stage Engine
+>
+> 1. Right bank harness
+> 2. Rear harness
+>
+> | Service Kits for QSK60 Engines with Head Deck Breather System and Phase 1.0 Harness |  |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|---|
+> |  | Desired Harness |  |  |  |  |  |  |
+> | Desired Breather |  | 60-A Phase 1.0 without CENSE™ | 60-B Phase 1.0 with CENSE™ | 60-C Phase 1.5 without CENSE™ | 60-D Phase 1.5 with CENSE™ | 60-E Phase 2.0 without CENSE™ | 60-F Phase 2.0 with CENSE™ |
+> | 60-G Head deck | **Not** applicable | **Not** applicable | Kit 60-C | Kit 60-D | **Not** applicable | **Not** applicable |  |
+> | 60-H Single bank | Kit 60-H | Kit 60-H | Kits 60-C and 60-H | Kits 60-D and 60-H | **Not** applicable | **Not** applicable |  |
+> | 60-J Production/phase 2 torpedo | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Kits 60-E and 60-J | Kits 60-F and 60-J |  |
+>
+> | Service Kits for QSK60 Engines with Single Bank Breather System and Phase 1.0 Harness |  |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|---|
+> |  | Desired Harness |  |  |  |  |  |  |
+> | Desired Breather |  | 60-A Phase 1.0 without CENSE™ | 60-B Phase 1.0 with CENSE™ | 60-C Phase 1.5 without CENSE™ | 60-D Phase 1.5 with CENSE™ | 60-E Phase 2.0 without CENSE™ | 60-F Phase 2.0 with CENSE™ |
+> | 60-K Head deck | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable |  |
+> | 60-L Single bank | **Not** applicable | **Not** applicable | Kit 60-C | Kit 60-D | **Not** applicable | **Not** applicable |  |
+> | 60-N Production/phase 2 torpedo | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Kits 60-E and 60-N | Kits 60-F and 60-N |  |
+>
+> | Service Kits for QSK60 Engines with Single Bank Breather System and Phase 1.5 Harness |  |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|---|
+> |  | Desired Harness |  |  |  |  |  |  |
+> | Desired Breather |  | 60-A Phase 1.0 without CENSE™ | 60-B Phase 1.0 with CENSE™ | 60-C Phase 1.5 without CENSE™ | 60-D Phase 1.5 with CENSE™ | 60-E Phase 2.0 without CENSE™ | 60-F Phase 2.0 with CENSE™ |
+> | 60-K Head deck | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable |  |
+> | 60-L Single bank | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Not applicable | **Not** applicable |  |
+> | 60-N Production/phase 2 torpedo | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Kits 60-E and 60-N | Kits 60-F and 60-N |  |
+>
+> | Service Kits for QSK60 Engines with Deck Head Breather System and Phase 1.5 Harness |  |  |  |  |  |  |  |
+> |---|---|---|---|---|---|---|---|
+> |  | Desired Harness |  |  |  |  |  |  |
+> | Desired Breather |  | 60-A Phase 1.0 without CENSE™ | 60-B Phase 1.0 with CENSE™ | 60-C Phase 1.5 without CENSE™ | 60-D Phase 1.5 with CENSE™ | 60-E Phase 2.0 without CENSE™ | 60-F Phase 2.0 with CENSE™ |
+> | 60-K Head deck | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable |  |
+> | 60-L Single bank | **Not** applicable | **Not** applicable | Kit 60-L | Kit 60-L | **Not** applicable | **Not** applicable |  |
+> | 60-J Production/phase 2 torpedo | **Not** applicable | **Not** applicable | **Not** applicable | **Not** applicable | Kits 60-E and 60-J | Kits 60-F and 60-J |  |
+>
+> This kit is designed for the QSK60 engines phase 1.5 harness without CENSE™. It contains harnesses, sensors, and mounting hardware.
+>
+> | Kit 60-C Harnesses, Sensors and Mounting Hardware for QSK60 Engines Phase 1.5 Harness Without CENSE™ |  |  |  |
+> |---|---|---|---|
+> | Part Number | Name | Quantity | Remarks |
+> | 69911 | Clip | 3 | Two clips to support the oil level sensor and blowby sensor harness breakouts to the hand hole cover (left bank 3) |
+> | Supports a brace mounted on oil pan rail |  |  |  |
+> | One clip to secure fuel pump pressure sensor and actuator harness breakouts to the left bank 1 and 2 cam cover at the lower capscrew location |  |  |  |
+> | [[3093956]] | Screw, hexagonal flange head capscrew | 1 | M8 mounts p-clip holding oil rifle pressure sensor breakout to the support bracket at the rear of the engine. |
+> | 3171395 | Clip | 4 | Plastic p-clips securing electronic control module harness breakouts to vertically mounted electronic control module bracket. |
+> | 3178520 | Clip | 2 | Secures boost pressure, intake air temperature, or fan clutch breakouts to left bank 1 and 2 cam cover at the upper left and lower middle capscrew locations. |
+> | [[3332136]] | Union, male | 1 | Male union fitting for coolant hose. |
+> | 3408507 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for boost pressure sensor. |
+> | 3408509 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for coolant pressure sensor. |
+> | 3408509 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for timing rail pressure sensor. |
+> | 3408509 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for fuel pump pressure sensor. |
+> | [[3408510]] | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for fuel rail pressure. |
+> | 3408511 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for oil rifle pressure sensor. |
+> | 3408556 | Sensor, pressure | 2 | Danfoss boost pressure sensor (left bank front). |
+> | Coolant pressure sensor. |  |  |  |
+> | 3408562 | Sensor, pressure | 1 | Danfoss fuel rail pressure sensor electronic control valve assembly. |
+> | 3408564 | Sensor, pressure | 1 | Danfoss timing rail pressure sensor electronic control valve assembly. |
+> | 3408566 | Sensor, pressure | 1 | Danfoss fuel pump pressure sensor - remove snubber hose and snubber hose mountings from fuel pump. |
+> | [[3410392]] | Elbow, male union | 1 | Number 20 fuel filter head outlet fitting. |
+> | [[3628553]] | Brace, tube | 1 | Brace to support the oil level sensor and blowby sensor harness breakouts mounted on the oil pan rail. |
+> | [[3629452]] | Clip | 4 | Secures oil level sensor extension harness to oil pan. |
+> | Secures fuel pump actuator harness breakout to bottom of fuel pump flange. |  |  |  |
+> | Secures fuel pump pressure sensor breakout to top of fuel pump flange. |  |  |  |
+> | 3630805 | Clamp, wire tie | 4 | Secures fuel pump sensor and actuator breakouts together. |
+> | Secures the fuel pump sensor and actuator breakouts and the coolant pressure sensor breakout together. |  |  |  |
+> | Secures the fuel temperature and fuel pressure sensor electronic control valve assembly breakouts to the upper horizontal electronic control module bracket. |  |  |  |
+> | Secures engine speed sensor breakouts and oil rifle pressure sensor breakout together. |  |  |  |
+> | 3657731 | Clip | 1 | Secures oil rifle pressure sensor breakout to bracket at rear of engine. |
+> | [[3900589]] | Nut, hexagon flange | 1 | M8 secures p-clip to oil level sensor/blowby sensor support brace. |
+> | [[3900630]] | Screw, hexagonal flange capscrew | 1 | M8 secures p-clip to oil level sensor/blowby sensor support brace. |
+> | [[3900634]] | Screw, hexagonal flange capscrew | 2 | M10 secures enclosure bracket to cam covers. |
+> | [[3900679]] | Screw, hexagonal flange capscrew | 1 | M10 secures enclosure bracket to cam covers. |
+> | [[3901249]] | Screw, hexagonal flange capscrew | 1 | M12 secures oil level sensor/blowby sensor support brace to the oil pan rail. |
+> | [[3906216]] | Nut, hexagon flange | 5 | M6 secures plastic p-clips to vertically mounted electronic control module bracket. |
+> | Secures weatherpack clips, holding speed sensor breakouts, to bracket mounted at the rear of the engine. |  |  |  |
+> | Secures p-clip to fuel rail bracket at the front left of the engine. |  |  |  |
+> | [[3913372]] | Screw, hexagonal flange capscrew | 2 | M12 secures speed sensor/oil pressure sensor bracket of the engine block. |
+> | [[3913638]] | Screw, hexagonal flange capscrew | 3 | M6 secure vertically mounted electronic control module harness support bracket to the horizontal. |
+> | Used to secure weatherpack clips to the support bracket at the rear of the engine. |  |  |  |
+> | 4000659 | Harness, wiring | 1 | Extension harness to connect to oil level sensor located on the right bank side. |
+> | [[4007074]] | Elbow, male union | 1 | Fuel pump number 20 inlet fitting. |
+> | 4016678 | Brace, wiring | 1 | Vertically mounted electronic control module harness breakout support bracket. |
+> | 4017143 | Bracket, enclosure | 1 | Brace to support interconnect box at the rear end of the left bank harness to cam cover. |
+> | 4017568 | Brace, wiring | 2 | Horizontal Electronic control module brackets. |
+> | 4066054 | Bracket, wiring retainer | 1 | Brace to support p-clips for harness breakouts for speed and oil rifle pressure sensor. |
+> | [[4066064]] | Clip | 2 | Weatherpack clips to support harness breakouts for speed sensor. |
+> | 4066168 | Clip | 1 | Secures fan clutch/coolant temperature sensor harness breakouts to the stud on the fuel rail bracket at left bank front of the engine. |
+> | 4086499 | Harness, external control module | 1 | Left bank vehicle and engine harness. |
+> | [[4088734]] | Sensor, pressure | 1 | Oil rifle pressure sensor (transparent gauge 0 to 689 kPa \[0 to 100 psig\] mounted on flywheel housing. |
+> | 4100627 | Hose, flexible | 1 | Coolant pressure sensor hose adapter. |
+> | 4100631 | Adapter, o-ring | 1 | Adapter fitted into cylinder block in the kim-hot start location. |
+> | 4101147 | Hose, flexible | 1 | Number 20 fuel filter hose - fuel pump hose with 90 degree elbow. |
+> | QSK60 Engines Single Cylinder Air Compressors |  |  |  |
+> | 4100720 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
+> | QSK60 Engines with Twin Cylinder Air Compressors |  |  |  |
+> | 4080587 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
+> | QSK60 Engines without An Air Compressor |  |  |  |
+> | 4065606 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
+> | QSK60 Engines With “00” Flywheel Housing |  |  |  |
+> | 3408471 | Sensor, speed | 1 | Four-pin single plug speed sensor for “00” flywheel housing. |
+> | [[3408526]] | Adapter, electrical connector | 1 | Deutsch connector - Packard connector adapter harness for engine speed sensor. |
+> | QSK60 Engines With “0” Flywheel Housing |  |  |  |
+> | 3408472 | Sensor, speed | 1 | Four-pin single plug speed sensor for “0” flywheel housing. |
+> | [[3408526]] | Adapter, electrical connector |  | Deutsch connector - Packard connector adapter harness for engine speed sensor. |
+> | QSK60 Engines With Rockford Fan clutch Solenoid |  |  |  |
+> | 114307 | Brace, tube | 1 | Brace to support the fan clutch breakout. |
+> | [[3093956]] | Screw, hexagon flange head capscrew | 1 | M8 secures p-clip holding fan clutch breakout to support brace. |
+> | [[3629452]] | Clip | 1 | Secures fan clutch breakout to fan clutch breakout support brace. |
+> | [[3900589]] | Nut, hexagon flange | 1 | M8 secures p-clip holding fan clutch breakout to support brace. |
+> | [[3903990]] | Screw, hexagon flange head capscrew | 1 | M10 mounts support brace to idler pulley bracket. |
+>
+> | Kit 60-D Harnesses, Sensors and Mounting Hardware for QSK60 Engines Phase 1.5 With CENSE™ |  |  |  |
+> |---|---|---|---|
+> | Part Number | Name | Quantity | Remarks |
+> | 69911 | Clip | 2 | Clip to support the oil level sensor and blowby sensor harness breakouts to the support brace mounted on the oil pan rail. |
+> | Clip to secure fuel pump sensor and actuator harness breakouts to the left bank plus 2 cam cover at the lower capscrew location. |  |  |  |
+> | 70709 | Washer, plain | 2 | Used in conjunction with p-clip and nut on left bank curved CENSE™ harness brace. |
+> | Used in conjunction with p-clip and nut on right bank curved CENSE™ harness brace. |  |  |  |
+> | 180371 | Clip | 32 | Used on each cylinder support exhaust gas temperature sensor extension harness. |
+> | Support exhaust gas temperature sensor extension harness on Z-bracket mounted under coolant transfer tube. |  |  |  |
+> | [[3081825]] | Clip | 4 | One per quadrant used to secure all four exhaust gas temperature sensor extension harnesses in quadrant to aftercooler cover. |
+> | [[3093946]] | Nut, regular hexagon | 8 | M6 secures clip 4017498 to small studs on wiring harness brace and left bank front brace. |
+> | [[3093956]] | Screw, hexagonal flange capscrew | 1 | M8 mounts p-clip holding oil rifle pressure sensor to the support bracket at the rear of the engine. |
+> | 3171395 | Clip | 4 | Plastic p-clips securing electronic control valve assembly harness breakouts to vertically mounted electronic control module bracket. |
+> | 3171451 | Screw, pan head capscrew | 36 | Connects 4 spacers to the left bank front brace. |
+> | Connects 4 spacers to the left bank rear brace. |  |  |  |
+> | Secures RS232 data link to flange on left bank front harness. |  |  |  |
+> | Connects 4 spacers to the right bank front brace. |  |  |  |
+> | Connects 4 spacers to the right bank rear brace. |  |  |  |
+> | 3171470 | Washer, plain | 4 | Used on RS232 data link support flange on the left bank front brace. |
+> | 3178520 | Clip | 3 | Secures boost pressure/intake air temperature/fan clutch breakouts to left bank 1 cam cover upper left and lower middle capscrew locations. |
+> | Secures oil temperature/oil level/blowby flow harness breakouts to left bank 6 hand hole cover. |  |  |  |
+> | [[3332136]] | Union, male | 1 | Male union fitting for coolant hose. |
+> | 3408507 | Adapter, electric connector | 2 | Danfoss Sensor - Packard connector adapter harness boost pressure sensor (left bank front and right bank rear). |
+> | 3408509 | Adapter, electric connector | 5 | Danfoss Sensor - Packard connector adapter harness coolant pressure sensor. |
+> | Lubrication pressure sensors. |  |  |  |
+> | Timing rail pressure sensor electronic control valve assembly. |  |  |  |
+> | Fuel pump pressure sensor. |  |  |  |
+> | [[3408510]] | Adapter, electric connector | 12 | Danfoss Sensor - Packard connector adapter harness for fuel rail pressure sensor electronic control valve assembly. |
+> | 3408511 | Adapter, electric connector | 1 | Danfoss Sensor - Packard connector adapter harness for oil rifle pressure sensor. |
+> | 3408540 | Sensor, exhaust gas temperature | 16 | Temperature sensors. |
+> | 3408556 | Sensor, pressure | 3 | Danfoss Sensor - boost pressure sensor (left bank front and right bank rear). |
+> | Coolant pressure sensor. |  |  |  |
+> | [[3408558]] | Sensor, pressure | 2 | Danfoss pre and post lube oil pressure sensors. |
+> | 3408562 | Sensor, pressure | 1 | Danfoss fuel rail pressure sensor electronic control valve assembly. |
+> | 3408564 | Sensor, pressure | 1 | Danfoss timing rail pressure sensor electronic control valve assembly. |
+> | 3408566 | Sensor, pressure | 1 | Danfoss fuel pump pressure sensor. |
+> | [[3410392]] | Elbow, male union | 1 | Number 20 fuel filter head outlet fitting. |
+> | [[3628553]] | Brace, tube | 1 | Brace to support the oil level/temperature sensors and the blowby sensor harness breakouts mounted on the oil pan rail. |
+> | 369451 | Clip | 2 | Mounts CENSE™ harness to left bank curved CENSE™ harness brace. |
+> | Mounts CENSE™ harness to right bank curved CENSE™ harness brace. |  |  |  |
+> | [[3629452]] | Clip | 5 | Secures oil level sensor extension harness to oil pan. |
+> | Secures fuel pump actuator harness breakout to bottom of fuel pump flange. |  |  |  |
+> | Secures fuel pump pressure sensor breakout to top of fuel pump flange. |  |  |  |
+> | Secures oil temperature CENSE™ harness breakout to the support on the oil pan rail. |  |  |  |
+> | 3630804 | Clamp, wire tie | 3 | Secures backbone harness to the CENSE™ harness on main brace. |
+> | 3630805 | Clamp, wire tie | 40 | Secures fuel pump sensor and actuator breakouts together. |
+> | Secures the fuel pump sensor and actuator breakouts and the coolant pressure sensor breakout together. |  |  |  |
+> | Secures the fuel temperature and fuel pressure sensor breakouts to the upper horizontal electronic control module brackets. |  |  |  |
+> | Secures engine speed sensor breakouts and oil rifle pressure sensor together. |  |  |  |
+> | Secures backbone harness to CENSE™ harness on left bank curved CENSE™ harness brace. |  |  |  |
+> | Secures exhaust gas temperature sensor extension harness to the CENSE™ harness (2 for each cylinder). |  |  |  |
+> | 3657731 | Clip | 1 | Secures oil rifle pressure sensor breakout to bracket at rear of engine. |
+> | 3823336 | Kit, butt splice | 32 | Connects the exhaust gas temperature sensor extension harness to the CENSE™ harness. |
+> | [[3900589]] | Nut, hexagon flange | 1 | M8 secure p-clip to oil level sensor/blowby sensor support brace mounted on the oil pan rail. |
+> | [[3900629]] | Screw, hexagonal flange capscrew | 4 | M8 secures the right bank curved bracket to the harness brace. |
+> | Secures the left bank curved bracket to the harness brace. |  |  |  |
+> | [[3900629]] | Screw, hexagonal flange capscrew | 20 | M8 secures the left bank front CENSE™ harness brace to the intake manifold (upper). |
+> | Secures the left bank rear CENSE™ harness brace to the intake manifold (upper). |  |  |  |
+> | Secures the right bank front CENSE™ harness brace to the intake manifold (upper). |  |  |  |
+> | Secures the right bank rear CENSE™ harness brace to the intake manifold (upper). |  |  |  |
+> | Secures the exhaust gas temperature sensor Z-bracket to the rocker housing. |  |  |  |
+> | Secures the p-clips to the Z-bracket. |  |  |  |
+> | [[3900630]] | Screw, hexagonal flange capscrew | 1 | M8 secure p-clip to oil level sensor/blowby sensor support brace mounted on the oil pan rail. |
+> | [[3900634]] | Screw, hexagonal flange capscrew | 2 | M10 secure enclosure bracket to cam cover. |
+> | [[3900679]] | Screw, hexagonal flange capscrew | 1 | M10 secures enclosure bracket to cam covers. |
+> | [[3901249]] | Screw, hexagonal flange capscrew | 1 | M12 secures oil level sensor/blowby sensor support brace to the oil pan rail. |
+> | [[3901445]] | Screw, hexagonal flange capscrew | 16 | M8 secures the left bank front CENSE™ harness brace to the intake manifold (lower). |
+> | Secure the left bank rear CENSE™ harness brace to the intake manifold (lower). |  |  |  |
+> | Secures the right bank front CENSE™ harness brace to the intake manifold (lower). |  |  |  |
+> | Secures the right bank front CENSE™ harness brace to the intake manifold (lower). |  |  |  |
+> | [[3902460]] | Screw, hexagonal flange capscrew | 8 | M10 secure the right bank curved bracket to the support bracket. |
+> | Secures the left bank curved bracket to the support bracket. |  |  |  |
+> | Secures the support brackets for the curved brace to the flanges on the CENSE™ module bracket and mount the heat shield. |  |  |  |
+> | [[3903990]] | Screw, hexagonal flange capscrew | 4 | M10 secure the CENSE™ module housing to the mounting brackets. |
+> | [[3906216]] | Nut, hexagon flange | 20 | M6 securing plastic p-clips to vertically mounted electronic control module bracket. |
+> | Secures weatherpack clips, holding speed sensor breakouts, to bracket. |  |  |  |
+> | Secures p-clip to fuel rail bracket mounted at the front left of the engine. |  |  |  |
+> | Left bank front CENSE™ harness brace. |  |  |  |
+> | Left bank rear CENSE™ harness brace. |  |  |  |
+> | Right bank front CENSE™ harness brace. |  |  |  |
+> | Right bank rear CENSE™ harness brace. |  |  |  |
+> | Secures T-section flange to left bank curved CENSE™ harness brace. |  |  |  |
+> | Secures p-clip to left bank curved CENSE™ harness brace. |  |  |  |
+> | Secures T-section flange to right bank curved CENSE™ harness brace. |  |  |  |
+> | Secures p-clip to right bank curved CENSE™ harness brace. |  |  |  |
+> | [[3913372]] | Screw, hexagonal flange capscrew | 2 | M12 secures speed sensor/oil pressure sensor bracket to the engine block. |
+> | [[3913638]] | Screw, hexagonal flange capscrew | 3 | M6 secure vertically mounted electronic control module harness support bracket to the horizontal electronic control module brackets. |
+> | Used to secure weatherpack clips to the support bracket at the rear of the engine. |  |  |  |
+> | 4000659 | Harness, wiring | 1 | Extension harness to connect to oil level sensor mounted on the right bank side. |
+> | [[4007074]] | Elbow, male union | 1 | Fuel pump number 20 inlet fitting. |
+> | 4016678 | Brace, Wiring | 1 | Vertically mounted electronic control valve assembly harness breakout support bracket. |
+> | 4017143 | Bracket, enclosure | 1 | Brace to support interconnect box at the rear end of the left bank harness. |
+> | 4017464 | Harness, external control middle wiring | 1 | Right bank CENSE™ harness wiring. |
+> | 4017465 | Harness, external control middle wiring | 1 | Left bank CENSE™ harness wiring. |
+> | 4017483 | Brace, wiring | 1 | right bank curved brace, supporting CENSE™ harness to the CENSE™ module. |
+> | 4017498 | Clip | 8 | Holds clip 4017499 left bank front brace. |
+> | Right bank front brace. |  |  |  |
+> | 4017499 | Clip | 8 | Supports CENSE™ harness breakouts on harness braces (attached to clip 4017498). |
+> | Left bank front brace. |  |  |  |
+> | Right bank front brace. |  |  |  |
+> | 4017514 | Harness, control middle assembly | 1 | CENSE™ electronic control module harness, housing, cover, and assembly. |
+> | 4017519 | Harness, wiring | 1 | Backbone extension harness. |
+> | 4017568 | Brace, wiring | 2 | Horizontal electronic control module brackets. |
+> | 4017634 | Brace, wiring | 2 | Curved brace support brackets, mounted to flanges on CENSE™ electronic control module housing support brackets. |
+> | 4065922 | Spacer, mounting | 16 | Spacer placed between harness support braces and the intake manifold. |
+> | Left bank front harness support brace. |  |  |  |
+> | Left bank rear harness support brace. |  |  |  |
+> | Right bank front harness support brace. |  |  |  |
+> | Right bank rear harness support brace. |  |  |  |
+> | 4066053 | Shield, heat | 1 | Mounted on the back of the CENSE™ module, on the flanges on the CENSE™ electronic control module housing support brackets. |
+> | 4066054 | Bracket, wiring retainer | 1 | Brace to support p-clips for harness breakouts for speed and oil rifle pressure sensor. |
+> | [[4066064]] | Clip | 2 | Clips to support harness breakouts for speed sensor. |
+> | 4066070 | Brace, wiring | 1 | Left bank rear CENSE™ harness support brace mounted on intake manifolds. |
+> | 4066144 | Brace, wiring | 1 | Right bank rear CENSE™ harness support brace mounted on intake manifolds. |
+> | 4066148 | Brace, wiring | 1 | Left bank front CENSE™ harness support brace mounted on intake manifolds. |
+> | 4066168 | Clip | 1 | Secures fan clutch/coolant temperature sensor to fuel rail bracket at left bank front of the engine. |
+> | 4066560 | Z-bracket | 16 | Mounts p-clip onto the rocker box capscrew under the low temperature aftercooler coolant transfer tube. |
+> | 4066813 | Harness, exhaust gas temperate extension | 16 | Extension harness for exhaust gas temperature sensor. |
+> | 4080161 | Brace, wiring | 1 | Right bank front CENSE™ harness support brace mounted on intake manifolds. |
+> | 4086499 | Harness, electronic control module | 1 | Left bank vehicle and engine harness. |
+> | [[4088734]] | Sensor, pressure | 1 | Oil rifle pressure sensor (transparent gauge 0 to 689 kPa \[0 to 100 psi\] mounted on flywheel housing. |
+> | 4100464 | Brace, wiring | 1 | Left bank curved brace, supporting CENSE™ harness to the CENSE™ module. |
+> | 4100627 | Hose, flexible | 1 | Coolant pressure sensor hose adapter. |
+> | 4100631 | Adapter, o-ring | 1 | Adapter fitted into cylinder block in the kim-hot start location. |
+> | 4101147 | Hose, flexible | 1 | Number 20 fuel filter hose - fuel pump hose with 90 degree elbow. |
+> | QSK60 Engines with Single Cylinder Air Compressors Add to Kit 60-D |  |  |  |
+> | 4100720 |  | 1 | Fuel pump - electronic control valve assembly fuel hose. |
+> | QSK60 Engines with Twin Cylinder Air Compressors Add to Kit 60-D |  |  |  |
+> | 4080587 |  | 1 | Fuel pump - electronic control valve assembly fuel hose. |
+> | QSK60 Engines Without an Air Compressors Add to Kit 60-D |  |  |  |
+> | 4065606 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
+> | QSK60 Engines With “00” Flywheel Housing Add to Kit 60-D |  |  |  |
+> | 3408471 | Sensor, speed | 1 | Four pin single plug speed sensor for “00” flywheel housing. |
+> | [[3408526]] | Adapter, electric connector | 1 | Deutsch connector - Packard connector adapter harness for engine speed sensor. |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 4 | Mounts support brackets to flywheel housing and engine block. |
+> | 4066097 | Bracket, module | 1 | Rear left CENSE™ module support bracket. |
+> | 4066104 | Bracket, module | 1 | Rear right CENSE™ module support bracket. |
+> | QSK60 Engines With “0” Flywheel Housing Add to Kit 60-D |  |  |  |
+> | 3408472 | Sensor, speed | 1 | Four pin single plug speed sensor for “0” flywheel housing. |
+> | [[3408526]] | Adapter, electric connector | 1 | Deutsch connector - Packard connector adapter harness for engine speed sensor. |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 4 | Mounts support brackets to flywheel housing and engine block. |
+> | 4066081 | Bracket, module | 1 | Rear left CENSE™ module support bracket. |
+> | 4066089 | Bracket, module | 1 | CENSE™ module support bracket. |
+> | QSK60 Engines With Rockford Fan Clutch Solenoid Add to Kit 60-D |  |  |  |
+> | 114307 | Brace, tube | 1 | Brace to support the fan clutch breakout. |
+> | [[3093956]] | Screw, hexagonal flange head capscrew | 1 | M8 secures p-clip to fan clutch breakout support brace. |
+> | [[3629452]] | Clip | 1 | Secures fan clutch breakout to fan clutch breakout support brace. |
+> | [[3900589]] | Nut, hexagonal flange | 1 | M8 secures p-clip to fan clutch breakout support brace. |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 1 | M10 mounts support brace to the idler pulley bracket. |
+> | QSK60 Engines Without Eliminator Add to Kit 60-D |  |  |  |
+> | [[3629452]] | Clip | 4 | Secures pre/post oil filter pressure sensor CENSE™ harness breakouts to the cam cover and oil filter head. |
+> | M8 secure the right bank front protective cover to the harness brace. |  |  |  |
+> | [[3900629]] | Screw, hexagonal flange head capscrew | 24 | Secures the right bank rear protective cover to the harness brace. |
+> | Secures the left bank rear protective cover to the harness brace. |  |  |  |
+> | Secures the left bank front protective cover to the harness brace. |  |  |  |
+> | 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
+> | 4017493 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
+> | 4017494 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
+> | 4066130 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
+> | QSK60 Engines With Eliminator Add to Kit 60-D |  |  |  |
+> | 3630805 | Clamp, wire tie | 4 | Secures eliminator post/pre pressure sensor CENSE™ breakouts. |
+> | [[3900629]] | Screw, hexagonal flange head capscrew | 24 | M8 secure the right bank front protective cover to the harness brace. |
+> | Secures the right bank rear protective cover to the harness brace. |  |  |  |
+> | Secures the left bank rear protective cover to the harness brace. |  |  |  |
+> | Secures the left bank front protective cover to the harness brace. |  |  |  |
+> | 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
+> | 4017493 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
+> | 4066130 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
+> | 4080162 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
+> | WA1200 Engine Add to Kit 60-D |  |  |  |
+> | [[3629452]] | Clip | 4 | Secures pre/post oil filter pressure sensor CENSE™ harness breakouts to the cam cover and dummy oil filter head. |
+> | [[3900629]] | Screw, hexagonal flange head capscrew | 24 | M8 secure the right bank front protective cover to the harness brace. |
+> | Secures the right bank rear protective cover to the harness brace. |  |  |  |
+> | Secures the left bank rear protective cover to the harness brace. |  |  |  |
+> | Secures the left bank front protective cover to the harness brace. |  |  |  |
+> | 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
+> | 4066181 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
+> | 4066182 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
+> | 4066183 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
+> | Komatsu Engine Without Eliminator Add to Kit 60-D |  |  |  |
+> | [[3629452]] | Clip | 4 | Secures pre/post oil filter pressure sensor CENSE™ harness breakouts to the cam cover and oil filter head. |
+> | [[3900629]] | Screw, hexagonal flange head capscrew | 24 | M8 secure the right bank front protective cover to the harness brace. |
+> | Secures the right bank rear protective cover to the harness brace. |  |  |  |
+> | Secures the left bank rear protective cover to the harness brace. |  |  |  |
+> | Secures the left bank front protective cover to the harness brace. |  |  |  |
+> | 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
+> | 4017493 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
+> | 4017494 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
+> | 4066183 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
+> | Komatsu Engine With Eliminator Add to Kit 60-D |  |  |  |
+> | 3630805 | Clamp, wire tie | 4 | Secures eliminator post/pre pressure sensor CENSE™ breakouts. |
+> | [[3900629]] | Screw, hexagonal flange head capscrew | 24 | M8 secure the right bank front protective cover to the harness brace. |
+> | Secures the right bank rear protective cover to the harness brace. |  |  |  |
+> | Secures the left bank rear protective cover to the harness brace. |  |  |  |
+> | Secures the left bank front protective cover to the harness brace. |  |  |  |
+> | 4017479 | Cover, protective | 1 | Left bank rear CENSE™ harness protective cover. |
+> | 4017493 | Cover, protective | 1 | Right bank rear CENSE™ harness protective cover. |
+> | 4066183 | Cover, protective | 1 | Right bank front CENSE™ harness protective cover. |
+> | 4080162 | Cover, protective | 1 | Left bank front CENSE™ harness protective cover. |
+>
+> | Kit 60-E Harnesses, Sensors and Mounting Hardware for QSK60 Engines Phase 2.0 Without CENSE™ |  |  |  |
+> |---|---|---|---|
+> | Part Number | Name | Quantity | Remarks |
+> | 68152 | Clip | 1 | Secures breakout for coolant temperature sensor and fan clutch solenoid to bracket on mounted on the left bank front after cooler cover. |
+> | 68152 B | Clip | 1 | Secures blowby harness breakout to oil pan rail. |
+> | 69465 | Clip | 1 | Secures harness breakout that links middle and front section of the left bank harness to the cam follower cover at the upper capscrew location. |
+> | 202888 | Clip | 1 | P-clip to secure coolant pressure sensor hose to L-bracket on the left bank 1 hand hole cover. |
+> | [[3089316]] | Screw, hexagonal flange head capscrew | 3 | Secures quantum harness box to the cam follower covers at the left middle capscrew locations. |
+> | [[3093828]] | Nut, hexagonal head flange | 1 | M10 secures p-clip for coolant pressure sensor hose to L-bracket on the left bank 1 hand hole cover. |
+> | [[3093957]] | Screw, hexagonal flange capscrew | 2 | M10 mounts L-bracket for Centinal™ harness breakout to block at rear left of the engine. |
+> | Secures p-clip for coolant pressure sensor hose adapter to L-bracket mounted on the left bank 1 hand hole cover. |  |  |  |
+> | [[3332136]] | Union, male | 1 | Male union for fitting coolant pressure sensor hose. |
+> | 3408556 | Sensor, pressure | 2 | Left bank front intake manifold (boost) pressure sensor. |
+> | 3408562 | Sensor, pressure | 1 | Fuel rail pressure sensor (part of electronic control valve assembly assembly). |
+> | 3408564 | Sensor, pressure | 1 | Timing rail pressure sensor (part of electronic control valve assembly assembly). |
+> | 3408566 | Sensor, pressure | 1 | Fuel pump pressure sensor. |
+> | [[3410392]] | Elbow, male union | 1 | Number 20 fuel filter head outlet fitting. |
+> | [[3627412]] | Clip | 1 | Secures harness breakout for fuel pump pressure sensor and actuator to the left bank 1 and 2 cam follower cover at the lower capscrew location. |
+> | [[3628553]] | Brace, tube | 2 | L-bracket mounted to hand hole cover left bank 3 for mounting the Quantum electronic control module ground breakout. |
+> | L-bracket for securing coolant pressure sensor hose to the left bank 1 hand hole cover. |  |  |  |
+> | 368585 | Brace tube | 1 | L-bracket to secure Centinal™/OEM speed sensor breakout to block at the rear left of the engine. |
+> | [[3900589]] | Nut, hexagonal head flange | 2 | M8 secures ground cable to L bracket on the left bank 3 hand hole cover. |
+> | Secures p-clip holding Centinal™ harness breakout to L-bracket on block rear left of the engine. |  |  |  |
+> | [[3900629]] | Screw, hexagonal flange capscrew | 2 | M8 secures ground cable to L-bracket on block at rear left of the engine. |
+> | [[3900630]] | Screw, hexagonal flange capscrew | 1 | M8 mounts p-clip onto bracket on front left aftercooler cover. |
+> | [[3900679]] | Screw, hexagonal flange capscrew | 3 | M10 mounts harness box at the rear of the engine to the flywheel housing or support bracket. |
+> | Mounts to the front section of the quantum harness to front cam follower cover at lower capscrew location. |  |  |  |
+> | [[3906216]] | Nut, hexagonal flange capscrew | 1 | M6 secures p-clip onto stud on the bracket on left bank front fuel rail. |
+> | [[3913372]] | Screw, hexagonal flange capscrew | 1 | M12 secures p-clip holding blowby breakout to the oil pan adapter. |
+> | [[4007074]] | Elbow, male union | 1 | Fuel pump number 20 inlet fitting. |
+> | [[4066935]] | Brace, wiring | 1 | Brace to secure fan clutch/coolant temperature harness breakout to the left bank front aftercooler cover. |
+> | 4067054 | Harness, electronic control module wiring | 1 | Engine harness, mounted on the left bank with **No** Cense™ option. Harness will have Packard spade fuses, sealed OEM box, potted back shells, Y's and T's and Schlemer conduit. |
+> | 4086487 | Harness, electronic control module wiring | 1 | Rear section of the engine harness for **No** Cense™ option (mounted on flywheel housing or support bracket on flywheel housing). |
+> | [[4088734]] | Sensor, pressure | 1 | Oil rifle pressure sensor (transparent gauge 0 to 689 kPa \[0 to 100 psig\]) mounted on flywheel housing. |
+> | [[4100552]] | Clip | 12 | Secures oil level sensor breakout on right bank to cam follower cover. |
+> | Lubricating filter head. |  |  |  |
+> | Oil pan adapter. |  |  |  |
+> | Secures Centinal™ harness breakout to L-bracket on block at the rear left of the engine. |  |  |  |
+> | Secures fuel pump pressure sensor breakout to fuel pump flange. |  |  |  |
+> | Secures coolant pressure sensor harness breakout to cam covers at the lower capscrew location. |  |  |  |
+> | 4100627 | Hose, flexible | 1 | Coolant pressure sensor hose adapter. |
+> | 4100631 | Adapter, o-ring | 1 | Adapter fitted into cylinder block in the kim-hot start location. |
+> | 4101147 | Hose, flexible | 1 | Number 20 fuel filter hose - fuel pump hose with 90 degree elbow. |
+> | QSK60 Engines With Single Cylinder Air Compressors Add to Kit 60-E |  |  |  |
+> | 4100720 | Hose, flexible | 1 | Fuel pump electronic control valve assembly fuel hose. |
+> | QSK60 Engines Twin Single Cylinder Air Compressors Add to Kit 60-E |  |  |  |
+> | 4080587 | Hose, flexible | 1 | Fuel pump electronic control valve assembly fuel hose. |
+> | QSK60 Engines Without An Air Compressor Add to Kit 60-E |  |  |  |
+> | 4065606 | Hose, flexible |  | Fuel pump electronic control valve assembly fuel hose. |
+> | QSK60 Engines With “00” Flywheel Housing Add to Kit 60-E |  |  |  |
+> | 3408471 | Sensor, speed | 1 | Four pin single plug speed sensor for “00” flywheel housing. |
+> | QSK60 Engines With “0” Flywheel Housing Add to Kit 60-E |  |  |  |
+> | 3408472 | Sensor, speed | 1 | Four pin single plug speed sensor for “0” flywheel housing. |
+> | [[3902460]] | Screw, hexagonal flange capscrew | 2 | M10 mounts bracket onto the flywheel housing. |
+> | [[4067011]] | Bracket, external control module wiring | 1 | Bracket to mount rear section of the harness box onto the flywheel housing. |
+> | QSK60 Engines With Rockford Fan Clutch Solenoid Add to Kit 60-E |  |  |  |
+> | 114307 | Brace, tube | 1 | Brace to support the fan clutch breakout extension harness. |
+> | [[3093956]] | Screw, hexagonal flange head capscrew | 1 | M8 secures p-clip to fan clutch breakout support brace. |
+> | [[3900589]] | Nut, hexagonal flange | 1 | M8 secures p-clip to fan clutch breakout support brace. |
+> | [[3629452]] | Clip | 1 | Secures fan clutch breakout to support brace. |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 1 | M10 mounts support brace to the idler pulley bracket. |
+> | 4066664 | Harness, electronic control module wiring | 1 | Fan clutch extension harness. |
+> | QSK60 Engines With Burn and Make-Up Centinal™ Oil Replenishing System Add to Kit 60-E |  |  |  |
+> | [[3170823]] | Elbow, male union | 1 |  |
+> | [[3682300]] | Union, male | 1 |  |
+> | [[3900635]] | Screw, hexagonal flange head capscrew | 2 |  |
+> | [[3901249]] | Screw, hexagonal flange head capscrew | 2 |  |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 3 |  |
+> | [[4000694]] | Connector, male | 1 |  |
+> | 4066833 | Bracket, valve | 1 |  |
+> | 4086288 | Adapter, o-ring | 1 |  |
+> | [[4086294]] | Union, male | 1 |  |
+> | [[4086355]] | Hose, flexible | 1 |  |
+> | [[4086356]] | Hose, flexible | 1 |  |
+> | [[4086357]] | Hose, flexible | 1 |  |
+> | [[4086382]] | Clamp, retaining | 1 |  |
+> | [[4086648]] | Valve, oil control | 1 |  |
+> | QSK60 Engines With Burn Only Centinal™ Oil Replenishing System Add to Kit 60-E |  |  |  |
+> | [[3170823]] | Elbow, male union | 1 |  |
+> | [[3682300]] | Union, male | 1 |  |
+> | [[3900635]] | Screw, hexagonal flange head capscrew | 2 |  |
+> | [[3901249]] | Screw, hexagonal flange head capscrew | 2 |  |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 3 |  |
+> | [[4000694]] | Connector, male | 1 |  |
+> | [[4016411]] | Elbow, male union | 1 |  |
+> | [[4016412]] | Adapter, reducing | 1 |  |
+> | 4016565 | Hose, flexible | 1 |  |
+> | 4066833 | Bracket, valve | 1 |  |
+> | [[4086294]] | Union, male | 1 |  |
+> | [[4086355]] | Hose, flexible | 1 |  |
+> | [[4086357]] | Hose, flexible | 1 |  |
+> | [[4086648]] | Valve, oil control | 1 |  |
+>
+> | Kit 60-F Harnesses, Sensor and Mounting Hardware for QSK60 Engines Phase 2.0 With Cense™ |  |  |  |
+> |---|---|---|---|
+> | Part Number | Name | Quantity | Remarks |
+> | 68152 | Clip | 1 | Secures breakout for coolant temperature sensor and fan clutch solenoid to bracket on left bank front after cooler cover. |
+> | 68152 B | Clip | 1 | Secures blowby harness breakout to oil pan rail. |
+> | 69465 | Clip | 1 | Secures harness breakout that links middle and front section of the left bank harness to the cam follower cover at the upper capscrew location. |
+> | 108722 | Clip | 4 | Secures exhaust gas temperature sensor harness to support brace on the right bank rear after cooler cover at the rear of the engine. |
+> | Secures exhaust gas temperature sensor harness to support brace on the left bank front after cooler cover at the front of the engine. |  |  |  |
+> | Secures exhaust gas temperature sensor harness to support brace on the right bank front after cooler cover towards the middle of the engine. |  |  |  |
+> | Secures exhaust gas temperature sensor harness to support brace on the left bank rear after cooler cover towards the middle of the engine. |  |  |  |
+> | 180371 | Clip | 20 | Secures exhaust gas temperature sensor harness to Z-bracket on rocker housing (left bank 1 **only**). |
+> | Secures exhaust gas temperature sensor harnesses to rocker housing below water transfer tubes (all except left bank 1). |  |  |  |
+> | Secures exhaust gas temperature sensor harness above water transfer tubes (left bank 5 and right bank 4). |  |  |  |
+> | 202888 | Clip | 1 | P-clip to secures coolant pressure senor hose to L-bracket on the right bank 1 hand hole cover. |
+> | [[3062329]] | Clamp, wire tie | 1 | secures exhaust gas temperature sensor breakout to coolant/fan clutch breakout at the left bank front or the engine. |
+> | [[3089316]] | Screw, hexagonal flange head capscrew | 9 | M10 secures quantum harness to the left bank cam follower covers at the left and middle capscrew locations. |
+> | Secures Cense™ harness box to the cam covers on the right bank of the engine. |  |  |  |
+> | [[3093828]] | Nut, hexagonal head flange | 1 | M10 secures p-clip for coolant pressure sensor hose to L-bracket on the left bank 1 hand hole cover. |
+> | [[3093956]] | Screw, hexagonal flange head capscrew | 49 | M8 mounts the Z-bracket to the rocker housing below the water transfer tubes. |
+> | Secures p-clip to Z-bracket on rocker housing. |  |  |  |
+> | Secures wiring brace to rocker housing (left bank 1). |  |  |  |
+> | Secures p-clip to rocker housing (left bank 5 and right bank 4). |  |  |  |
+> | Secures p-clips above water transfer tubes (left bank 5 and right bank 4). |  |  |  |
+> | Secures p-clips to rocker housing below water transfer tubes. |  |  |  |
+> | Secures wiring brace to rocker housing. |  |  |  |
+> | [[3093957]] | Screw, hexagonal flange capscrew | 2 | M10 mounts L-bracket for Centinal™ harness breakout to block at rear left of the engine. |
+> | Secures p-clip for coolant pressure sensor hose adapter to L-bracket mounted on the left bank 1 hand hole cover. |  |  |  |
+> | 3331658 | Connector, female | 1 | Adapter for left bank 1 exhaust gas temperature sensor harness. |
+> | [[3332136]] | Union, male | 1 | Male union fitting coolant pressure hose. |
+> | 3408539 | Sensor, temperature | 1 | Exhaust gas temperature sensor left bank 1. |
+> | 3408543 | Sensor, temperature | 13 | Exhaust gas temperature sensor all except left bank 1, right bank 4, left bank 5. |
+> | 3408544 | Sensor, temperature | 2 | Exhaust gas temperature sensor left bank 5 and right bank 4. |
+> | 3408556 | Sensor, temperature | 3 | Left bank front intake manifold (boost) pressure sensor, right bank rear intake manifold (boost) pressure sensor, and coolant pressure sensor. |
+> | [[3408558]] | Sensor, temperature | 2 | Pre/post lube filter pressure sensor. |
+> | 3408562 | Sensor, temperature | 1 | Fuel rail pressure sensor (part of electronic control valve assembly). |
+> | 3408564 | Sensor, temperature | 1 | Timing rail pressure sensor (part of electronic control valve assembly). |
+> | 3408566 | Sensor, temperature | 1 | Fuel pump pressure sensor. |
+> | [[3410392]] | Elbow, male union | 1 | Number 20 fuel filter head outlet fitting. |
+> | [[3627412]] | Clip | 1 | Secures harness breakout for fuel pump pressure sensor and actuator to the cam follower cover at the lower capscrew location. |
+> | [[3628553]] | Brace, tube | 3 | L-bracket mounted to hand hole cover left bank 3 for quantum electronic control module ground breakout. |
+> | L-bracket for securing coolant pressure sensor hose to the left bank 1 hand hole cover. |  |  |  |
+> | L-bracket mounted on hand hole cover left bank 7 for Cense™ ground breakout. |  |  |  |
+> | 368585 | Brace, tube | 1 | L-bracket to secures Centinal™/OEM speed sensor breakout to block at the rear left of the engine. |
+> | [[3629452]] | Clip | 1 | Secures right bank inlet manifold temperature sensor harness breakout to cam cover at the upper capscrew location. |
+> | [[3900589]] | Nut, hexagonal head flange | 3 | M8 secures quantum ground breakout to L-breakout on the left bank 3 hand hole cover. |
+> | Secures p-clip holding Centinal™ harness breakout to L-bracket on block at rear left of the engine. |  |  |  |
+> | Secures Cense™ ground breakout to L-bracket on the left bank 7 hand hole cover. |  |  |  |
+> | [[3900629]] | Screw, hexagonal flange capscrew | 6 | M8 secures quantum electronic control module ground breakout to L-bracket on the left bank 3 hand hole cover. |
+> | Secures Centinal™ harness breakout to L-bracket on block at rear left of the engine. |  |  |  |
+> | Mounts p-clip onto support brace on the aftercooler covers at the right bank rear of the engine. |  |  |  |
+> | Mounts p-clip onto support braces on the right bank front and left bank rear aftercooler covers towards the middle of the engine. |  |  |  |
+> | Secures Cense™ electronic control module ground breakout to tube brace mounted on the left bank hand hole cover. |  |  |  |
+> | [[3900630]] | Screw, hexagonal flange capscrew | 1 | M8 mounts p-clip onto bracket on front left aftercooler cover. |
+> | [[3900635]] | Screw, hexagonal flange head capscrew | 8 | Secures exhaust gas temperature sensor harness boxes to aftercooler covers. |
+> | [[3900679]] | Screw, hexagonal flange capscrew | 3 | M10 mounts harness box at the rear of the engine to the flywheel housing or support bracket. |
+> | Mounts the front section of the quantum harness to front cam follower cover at lower capscrew location. |  |  |  |
+> | [[3906216]] | Nut, hexagonal head flange | 1 | M6 secures p-clip onto stud on the bracket on left bank front fuel rail. |
+> | [[3913372]] | Screw, hexagonal flange capscrew | 1 | M12 secures p-clip holding blowby breakout to oil pan adapter. |
+> | [[4007074]] | Elbow, male union | 1 | Fuel pump number 20 inlet fitting. |
+> | 4066553 | Bracket, electronic control module | 1 | Mounting bracket for Cense™ electronic control module. |
+> | 4066560 | Bracket, wiring retainer | 1 | Z-bracket mounted on rock housing below the water transfer tubes (left bank 1). |
+> | 4066663 | Brace, wiring | 1 | Secures exhaust gas temperature sensor harness to rocker housing (left bank 1 **only**). |
+> | [[4066935]] | Brace, wiring | 2 | Mounts on right bank rear aftercooler cover and supports exhaust gas temperature sensor harness breakout connecting to the main harness. |
+> | Brace to secure the fan clutch/coolant temperature harness breakout and the exhaust gas temperature sensor harness breakout on the left bank front aftercooler cover. |  |  |  |
+> | [[4066937]] | Brace, wiring | 2 | Mounts on the right bank front and the left bank rear aftercooler cover towards the middle of the engine to support the exhaust gas temperature sensor harness breakouts connecting to the main harness. |
+> | 4067050 | Harness, electronic control module wiring | 1 | Engine harness, mounted on the left bank with Cense™ option. Harness will have Packard spade fuses, sealed OEM box, potted back shells, Y's and T's and Schlemer conduit. |
+> | 4067051 | Harness, electronic control module wiring | 1 | Right bank Cense™ harness. |
+> | 4067052 | Harness, electronic control module wiring | 2 | Right bank front and left bank rear exhaust gas temperature sensor harness boxes. |
+> | 4067053 | Harness, electronic control module wiring | 2 | Left bank front and right bank rear exhaust gas temperature sensor harness boxes. |
+> | 4086486 | Harness, electronic control module wiring | 1 | Rear section of the engine harness for Cense™ option (mounted on flywheel housing or support bracket on flywheel housing). |
+> | [[4088734]] | Sensor, pressure | 1 | Oil rifle pressure sensor (transparent gauge 0 to 100 psig) mounted on flywheel housing. |
+> | 4097481 | Brace, wiring | 13 | Secures exhaust gas temperature sensor harnesses to rocker housing (all **except** left bank 1, left bank 5, and right bank 4). |
+> | [[4100552]] | Clip | 4 | Secures Centinal™ harness breakout to L-bracket on the block at the rear left of the engine. |
+> | Secures fuel pump pressure sensor breakout to fuel pump flange. |  |  |  |
+> | Secures coolant pressure sensor harness breakout to cam covers. |  |  |  |
+> | 4100627 | Hose, flexible | 1 | Coolant pressure sensor hose adapter. |
+> | 1400631 | Adapter, o-ring | 1 | Adapter fitted into cylinder block in the kim-hot start location. |
+> | 4101147 | Hose, flexible | 1 | Number 20 fuel filter hose - fuel pump hose with 90 degree elbow. |
+> | QSK60 Engines with Single Cylinder Air Compressors Add to Kit 60-F |  |  |  |
+> | 4100720 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
+> | QSK60 Engines with Twin Cylinder Air Compressors Add to Kit 60-F |  |  |  |
+> | 4080587 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
+> | QSK60 Engines Without an Air Compressors Add to Kit 60-F |  |  |  |
+> | 4065606 | Hose, flexible | 1 | Fuel pump - electronic control valve assembly fuel hose. |
+> | QSK60 Engines With “00” Flywheel Housing Add to Kit 60-F |  |  |  |
+> | 3408471 | Sensor, speed | 1 | Four pin single plug speed sensor for “00” flywheel housing. |
+> | QSK60 Engines With “0” Flywheel Housing Add to Kit 60 -F |  |  |  |
+> | 3408472 | Sensor, speed | 1 | Four pin single plug speed sensor for “00” flywheel housing. |
+> | [[3902460]] | Screw, hexagonal flange capscrew | 2 | M10 mounts bracket onto the flywheel housing. |
+> | [[4067011]] | Bracket, electronic control module wiring | 1 | Bracket to mount rear section of the harness box on the flywheel housing. |
+> | QSK60 Engines Without Eliminator Add to Kit 60-F |  |  |  |
+> | [[3062329]] | Clamp, wire tie | 1 |  |
+> | [[4066653]] | Harness, electronic control module wiring | 1 | Lubrication filter extension harness. |
+> | [[4100552]] | Clip | 4 | Secures the extension harness to cam covers and lubrication filter head. |
+> | QSK60 Engines With Eliminator Add to Kit 60-F |  |  |  |
+> | [[3900626]] | Screw, hexagonal flange head capscrew | 1 | Secures p-clip to Cense™ harness box. |
+> | [[4066652]] | Harness, electronic control module wiring | 1 | Eliminator extension harness. |
+> | QSK60 Engines With Rockford Fan Clutch Solenoid Add to Kit 60-F |  |  |  |
+> | 114307 | Brace, tube | 1 | Brace to support the fan clutch breakout extension harness. |
+> | [[3093956]] | Screw, hexagonal flange head capscrew | 1 | M8 secures p-clip to fan clutch breakout support brace. |
+> | [[3900589]] | Nut, hexagonal flange | 1 | M8 secures p-clip to fan clutch breakout support brace. |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 1 | M10 mounts support brace to the idler pulley bracket. |
+> | [[3629452]] | Clip | 1 | Secures fan clutch breakout to support brace. |
+> | 4066664 | Harness, electronic control module wiring | 1 | Fan clutch extension harness. |
+> | QSK60 Engines With Burn and Make-up Centinal™ Oil Replenishing System Add to Kit 60-F |  |  |  |
+> | [[3170823]] | Elbow, male union | 1 |  |
+> | [[3682300]] | Union, male | 1 |  |
+> | [[3900635]] | Screw, hexagonal flange head capscrew | 2 |  |
+> | [[3901249]] | Screw, hexagonal flange head capscrew | 2 |  |
+> | [[4000694]] | Connector, male | 1 |  |
+> | 4066833 | Bracket, valve | 1 |  |
+> | [[4086294]] | Union, male | 1 |  |
+> | [[4086355]] | Hose, flexible | 1 |  |
+> | [[4086357]] | Hose, flexible | 1 |  |
+> | [[4086648]] | Valve, oil control | 1 |  |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 3 |  |
+> | 4086288 | Adapter, o-ring | 1 |  |
+> | [[4086356]] | Hose, flexible | 1 |  |
+> | [[4086382]] | Clamp, retaining | 1 |  |
+> | QSK60 Engines With Burn Only Centinal™ Oil Replenishing System Add to Kit 60-F |  |  |  |
+> | [[3170823]] | Elbow, male union | 1 |  |
+> | [[3682300]] | Union, male | 1 |  |
+> | [[3900635]] | Screw, hexagonal flange head capscrew | 2 |  |
+> | [[3901249]] | Screw, hexagonal flange head capscrew | 2 |  |
+> | [[4000694]] | Connector, male | 1 |  |
+> | 4066833 | Bracket, valve | 1 |  |
+> | [[4086294]] | Union, male | 1 |  |
+> | [[4086355]] | Hose, flexible | 1 |  |
+> | [[4086357]] | Hose, flexible | 1 |  |
+> | [[4086648]] | Valve, oil control | 1 |  |
+> | [[4016411]] | Elbow, male union | 1 |  |
+> | [[4016412]] | Adapter, reducing | 1 |  |
+> | 4016565 | Hose, flexible | 1 |  |
+>
+> | Kit 60-J Crankcase Breather, Hand Hole Covers and Mounting Hardware for QSK60 Engines Upgrading From Head Deck Breathers to Phase 2.0 Harness and Breather |  |  |  |
+> |---|---|---|---|
+> | Part Number | Name | Quantity | Remarks |
+> | 4101308 | Cover, camshaft | 1 | Cam cover at left bank. |
+> | [[4085924]] | Gasket, camshaft cover | 1 | Gasket for cam cover. |
+> | [[3900679]] | Screw, hexagonal flange head capscrew | 5 | Screws |
+> | 3901448 | Screw, hexagonal flange head capscrew | 2 | Screws |
+> | [[3902460]] | Screw, hexagonal flange head capscrew | 4 | Screws breather box |
+> | [[3075658]] | Seal, o-ring | 1 | Seal tube |
+> | [[4007901]] | Hose, plain | 1 | Inlet hose |
+> | 43828 F | Clamp, hose | 2 | Hose Clamps |
+> | [[4086563]] | Hose, plain | 1 | Outlet hose |
+> | 43828 B | Clamp, hose | 2 | Hose clamps |
+> | [[3635341]] | Tube, air | 1 | Y-tube |
+> | [[4086143]] | Hose, plain | 1 | Short hose to sensor |
+> | 209773 | Clamp, hose | 4 | Hose clamps |
+> | [[4086562]] | Hose, plain | 1 | Long hose |
+> | [[4086561]] | Hose, plain | 1 | From the sensor hose |
+> | 114307 | Brace, tube | 1 | Brace |
+> | 68189 | Clip | 2 | P-clips |
+> | [[3093828]] | Nut, hexagonal flange | 1 | Screw |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 1 | Nut |
+> | 4086695 | Cover, hand hole | 3 | Plain covers |
+> | [[4017621]] | Plug, expansion | 1 | Expansion plugs for head deck |
+> | QSK60 Engines With Rear Double Deep Oil Pan Add to Kit 60-J |  |  |  |
+> | [[4100596]] | Breather, crankcase | 1 | Breather box |
+> | [[4086585]] | Elbow, male adapter | 1 | Elbow |
+> | 4100638 | Hose, flexible | 1 | Oil return hose |
+> | 4100719 | Hose, flexible | 1 | Oil return hose |
+> | [[4086753]] | Clamp, retaining | 2 | Clamp |
+> | [[3901249]] | Screw, hexagonal flange head capscrew | 1 | Screw for clamp |
+> | [[3903210]] | Nut, hexagonal flange | 1 | Nut |
+> | QSK60 Engines With Center Double Deep Oil Pan Add to Kit 60-J |  |  |  |
+> | 4101381 | Breather, crankcase | 1 | Breather box |
+> | 4101097 | Elbow, male adapter | 1 | Elbow |
+> | [[4101407]] | Hose, flexible | 1 | Oil return hose |
+> | 4100997 | Hose, flexible | 1 | Oil return hose |
+> | [[4086753]] | Clamp, retaining | 2 | Clamp |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 1 | Screw clamps to blankets |
+> | [[3089016]] | Screw, hexagonal flange head capscrew | 1 | Screw |
+> | [[4101402]] | Bracket, breather | 1 | Bracket 1 |
+> | [[4101403]] | Bracket, breather | 1 | Bracket 2 |
+> | QSK60 Engines With Front Double Deep Oil Pan Add Kit 60-J |  |  |  |
+> | [[4100596]] | Breather, box | 1 | Breather box |
+> | 4100641 | Elbow, male adapter | 1 | Elbow 90 degrees |
+> | 4100637 | Hose, flexible | 1 | Oil return hose |
+> | 4100717 | Hose, flexible | 1 | Oil return hose |
+> | [[4086753]] | Clamp, retaining | 2 | Clamp |
+> | [[3901249]] | Screw, hexagonal flange head capscrew | 1 | Screw |
+> | [[3903210]] | Nut, hexagonal flange | 1 | Nut |
+> | [[3628585]] | Brace, tube | 1 | Bracket for drain hose |
+> | [[3629451]] | Clip | 1 | P-clip |
+> | [[3902662]] | Nut, hexagonal flange | 1 | Nut |
+> | [[3093957]] | Screw, hexagonal flange head capscrew | 1 | Screw |
+> | QSK60 Engines With Short Dip at Position Left Bank 3 Add to Kit 60-J |  |  |  |
+> | 4100687 | Cover, hand hole | 1 | Inlet hand hole cover |
+> | [[4100660]] | Seal o-ring | 3 | Hand hole cover o-ring |
+> | 4066212 | Hose, plain | 1 | Inlet hose |
+> | 43828 F | Clamp, hose | 2 | Hose clamp |
+> | 4100764 | Bracket, oil tube | 1 | Bracket filler |
+> | [[3902460]] | Screw, hexagonal flange head capscrew | 2 | Clamp screws |
+> | [[4100767]] | Tube, breather | 1 | Inlet tube |
+> | 131026 | Seal, o-ring | 1 | O-ring dipstick |
+> | 4080456 | Dipstick | 1 | Dipstick |
+> | QSK60 Engines With Extended Dip at Position Left Bank 3 Add to Kit 60-J |  |  |  |
+> | [[4100685]] | Cover, hand hole | 1 | Inlet hand hole cover |
+> | [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-ring |
+> | 4066212 | Hose, plain | 1 | Inlet hose |
+> | 43828 F | Clamp, hose | 2 | Hose clamp |
+> | 4100764 | Bracket, oil tube | 1 | Bracket filler |
+> | [[3902460]] | Screw, hexagonal flange head capscrew | 4 | Clamp screws |
+> | 4100877 | Bracket, oil tube | 1 | Dipstick brace |
+> | 108722 | Clip | 1 | P-clip |
+> | [[3093957]] | Screw, hexagonal flange head capscrew | 3 | Screw |
+> | [[3093828]] | Nut, hexagonal flange | 1 | Nut |
+> | [[4100767]] | Tube, breather | 1 | Inlet tube |
+> | 4100883 | Bracket, oil tube | 1 | Top dipstick tube bracket |
+> | 131026 | Seal, o-ring | 1 | O-ring dipstick |
+> | 4080458 | Dipstick | 1 | Dipstick |
+> | QSK60 Engines With No Dipstick at Position Left Bank 3 Add to Kit 60-J |  |  |  |
+> | 4100768 | Cover, hand hole | 1 | Inlet hand hole cover |
+> | [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-rings |
+> | 4066212 | Hose, plain | 1 | Inlet hose |
+> | 43828 F | Clamp, hose | 2 | Hose clamp |
+>
+> | Kit 60-N Crankcase Breather, Hand Hole Covers and Mounting Hardware for QSK60 Engines Upgrading From Single Bank Breathers to Phase 2.0 Harness and Breather |  |  |  |
+> |---|---|---|---|
+> | Part Number | Name | Quantity | Remarks |
+> | 4101308 | Cover, camshaft | 1 | Cam cover at left bank |
+> | [[4085924]] | Gasket, Camshaft cover | 1 | Gasket for cam cover |
+> | [[3900679]] | Screw, hexagonal flange head capscrew | 5 | Screws |
+> | 3901448 | Screw, hexagonal flange head capscrew | 2 | Screws |
+> | [[3902460]] | Screw, hexagonal flange head capscrew | 4 | Screws breather box |
+> | [[3075658]] | Seal, o-ring | 1 | Seal tube |
+> | [[4007901]] | Hose, plain | 1 | Inlet hose |
+> | 43828 F | Clamp, hose | 2 | Hose Clamps |
+> | [[4086563]] | Hose, plain | 1 | Outlet hose |
+> | 43828 B | Clamp, hose | 2 | Hose clamps |
+> | [[3635341]] | Tube, air | 1 | Y-tube |
+> | [[4086143]] | Hose, plain | 1 | Short hose to sensor |
+> | 209773 | Clamp, hose | 4 | Hose clamps |
+> | [[4086562]] | Hose, plain | 1 | Long hose |
+> | [[4086561]] | Hose, plain | 1 | From sensor hose |
+> | 114307 | Brace, tube | 1 | Brace |
+> | 68189 | Clip | 2 | P-clips |
+> | [[3093828]] | Nut, hexagonal flange | 1 | Screw |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 1 | Nut |
+> | 4086695 | Cover, hand hole | 2 | Plain covers |
+> | QSK60 Engines With Double Deep Rear Oil Pan Add to Kit 60-N |  |  |  |
+> | [[4100596]] | Breather, crankcase | 1 | Breather box |
+> | [[4086585]] | Elbow, male adapter | 1 | Elbow |
+> | 4100638 | Hose, flexible | 1 | Oil return hose |
+> | 4100719 | Hose, flexible | 1 | Oil return hose |
+> | [[4086753]] | Clamp, retaining | 2 | Clamp |
+> | [[3901249]] | Screw, hexagonal flange head capscrew | 1 | Screw for clamp |
+> | [[3903210]] | Nut, hexagonal flange | 1 | Nut |
+> | QSK60 Engines With Center Double Deep Oil Pan Add to Kit 60-N |  |  |  |
+> | 4101381 | Breather, crankcase | 1 | Breather box |
+> | 4101097 | Elbow, male adapter | 1 | Elbow |
+> | [[4101407]] | Hose, flexible | 1 | Oil return hose |
+> | 4100997 | Hose, flexible | 1 | Oil return hose |
+> | [[4086753]] | Clamp, retaining | 2 | Clamp |
+> | [[3903990]] | Screw, hexagonal flange head capscrew | 1 | Screw clamps to blankets |
+> | [[3089016]] | Screw, hexagonal flange head capscrew | 1 | Screw |
+> | [[4101402]] | Bracket, breather | 1 | Bracket 1 |
+> | [[4101403]] | Bracket, breather | 1 | Bracket 2 |
+> | QSK60 Engines With Front Double Deep Oil Pan Add to Kit 60-N |  |  |  |
+> | [[4100596]] | Breather, box | 1 | Breather box |
+> | 4100641 | Elbow, male adapter | 1 | Elbow 90 degree |
+> | 4100637 | Hose, flexible | 1 | Oil return hose |
+> | 4100717 | Hose, flexible | 1 | Oil return hose |
+> | [[4086753]] | Clamp, retaining | 2 | Clamp |
+> | [[3901249]] | Screw, hexagonal flange head capscrew | 1 | Screw |
+> | [[3903210]] | Nut, hexagonal flange | 1 | Nut |
+> | [[3628585]] | Brace, tube | 1 | Bracket for drain hose |
+> | [[3629451]] | Clip | 1 | P-clip |
+> | [[3902662]] | Nut, hexagonal flange | 1 | Nut |
+> | [[3093957]] | Screw, hexagonal flange head capscrew | 1 | Screw |
+> | QSK60 Engines With Short Dip at Position Left Bank 3 Add to Kit 60-N |  |  |  |
+> | 4100687 | Cover, hand hole | 1 | Inlet hand hole cover |
+> | [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-ring |
+> | 4066212 | Hose, plain | 1 | Inlet hose |
+> | 43828 F | Clamp, hose | 2 | Hose clamp |
+> | 4100764 | Bracket, oil tube | 1 | Bracket filler |
+> | [[3902460]] | Screw, hexagonal flange head capscrew | 2 | Clamp screws |
+> | [[4100767]] | Tube, breather | 1 | Inlet tube |
+> | 131026 | Seal, o-ring | 1 | O-ring dipstick |
+> | 4080456 | Dipstick | 1 | Dipstick |
+> | QSK60 Engines With Extended Dip at Position Left Bank 3 Add to Kit 60-N |  |  |  |
+> | [[4100685]] | Cover, hand hole | 1 | Inlet hand hole cover |
+> | [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-ring |
+> | 4066212 | Hose, plain | 1 | Inlet hose |
+> | 43828 F | Clamp, hose | 2 | Hose Clamp |
+> | 4100764 | Bracket, oil tube | 1 | Bracket filler |
+> | [[3902460]] | Screw, hexagonal flange head capscrew | 4 | Clamp screws |
+> | 4100877 | Bracket, oil tube | 1 | Dipstick brace |
+> | 108722 | Clip | 1 | P-clip |
+> | [[3093957]] | Screw, hexagonal flange head capscrew | 3 | Screw |
+> | [[3093828]] | Nut, hexagonal flange | 1 | Nut |
+> | [[4100767]] | Tube, breather | 1 | Inlet tube |
+> | 4100883 | Bracket, oil tube | 1 | Top dipstick tube bracket |
+> | 131026 | Seal, o-ring | 1 | O-ring dipstick |
+> | 4080458 | Dipstick | 1 | Dipstick |
+> | QSK60 Engines With No Dipstick at Position Left Bank 3 Add to Kit 60-N |  |  |  |
+> | 4100768 | Cover, hand hole | 1 | Inlet hand hole cover |
+> | [[4100660]] | Seal, o-ring | 3 | Hand hole cover o-rings |
+> | 4066212 | Hose, plain | 1 | Inlet hose |
+> | 43828 F | Clamp, hose | 2 | Hose clamp |

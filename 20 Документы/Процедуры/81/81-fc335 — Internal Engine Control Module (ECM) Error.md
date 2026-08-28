@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666410"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-fc335.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-fc335.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/81"
+  - "перевод/машинный"
 ---
 
 # Internal Engine Control Module (ECM) Error
@@ -31,32 +33,70 @@ tags:
 > **Даты:** изменён 2015-07-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-fc335.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-fc335.pdf)
 
-### Fault Code: 335
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Internal Engine Control Module (ECM) Error
 
-Printable Version
+### Код неисправности: 335
 
-### Overview
+### Модуль внутреннего управления двигателем (ECM)
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 335 PID(P): 254 SPN: 629 FMI: 12 Lamp: None SRT: 00-680 | Internal ECM error. | Data may be lost. |
+| Код неисправности: 335 P(P): 254 SPN: 629 FMI: 12 ламп: Нет, не srt: 00-680 | Внутренняя ошибка ECM. | Данные могут быть потеряны. |
 
 ![[19800425.png]]
 
-Electronic Control Module
+Электронный блок управления
 
-### Circuit Description
+### Описание цепи
 
-The CENSE™ ECM is a computer that is responsible for engine diagnostics.
+CENSETM ECM — это компьютер, который отвечает за диагностику двигателя.
 
-### Component Location
+### Расположение компонента
 
-The CENSE™ ECM is installed on a plate that is located above the flywheel housing.
+CENSETM ECM устанавливается на пластину, которая расположена над обшивкой маховика.
 
-### Shoptalk
+### Практические замечания
 
-This fault code indicates a possible internal ECM failure. The ECM can **not** be repaired in the field. Before replacing the ECM, use INSITE™ for CENSE™ to reset the fault codes and trend log using the CENSE™ data reset command under the Adjustments menu.
+Этот код ошибки указывает на возможный внутренний отказ ECM. В этом случае ЭКМ можно **не** отремонтировать в полевых условиях. Перед заменой ECM используйте INSITETM для CENSETM для сброса кодов ошибок и журнала трендов с помощью команды сброса данных CENSETM в меню «Настройки».
 
-Refer to Troubleshooting Fault Code t05-335
+Устранение неполадок код t05-335
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 335
+>
+> ### Internal Engine Control Module (ECM) Error
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 335 PID(P): 254 SPN: 629 FMI: 12 Lamp: None SRT: 00-680 | Internal ECM error. | Data may be lost. |
+>
+> Electronic Control Module
+>
+> ### Circuit Description
+>
+> The CENSE™ ECM is a computer that is responsible for engine diagnostics.
+>
+> ### Component Location
+>
+> The CENSE™ ECM is installed on a plate that is located above the flywheel housing.
+>
+> ### Shoptalk
+>
+> This fault code indicates a possible internal ECM failure. The ECM can **not** be repaired in the field. Before replacing the ECM, use INSITE™ for CENSE™ to reset the fault codes and trend log using the CENSE™ data reset command under the Adjustments menu.
+>
+> Refer to Troubleshooting Fault Code t05-335

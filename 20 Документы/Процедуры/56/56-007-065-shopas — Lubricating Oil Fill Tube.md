@@ -12,13 +12,15 @@ families:
 manuals:
   - "4021530"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-065-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-065-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Fill Tube
@@ -31,38 +33,76 @@ tags:
 > **Даты:** изменён 2006-01-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-065-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-065-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Stand-alone
 
-For installation instructions refer to Procedure [[56-007-011-tr — Lubricating Oil Dipstick Tube|007-011]], Lubricating Oil Dipstick Tube.
+### Установка
+
+Одинокий
+
+Инструкции по установке относятся к процедуре[[56-007-011-tr — Lubricating Oil Dipstick Tube|007-011]], Измеритель уровня масла моторного масла Tube.
 
 ![[07600288.png]]
 
-Integral Crankcase Breather
+Интегральный капкан-дыхатель
 
-Slide the filler tube over the hand hole cover tube.
+Наполните трубку наполнителя над трубкой для крышки ручного отверстия.
 
-Slide the sleeve (2) onto the filler tube (1).
+Наклоните рукав (2) на наполнительную трубку (1).
 
-Tighten all hose clamps.
+Зажгите все шланги.
 
-> [!tip] Момент затяжки · Torque Value
-> 6 n•m [53 in-lb]
+> [!tip] Момент затяжки
+> 6 Н·м [53 фунт-дюйм]
 
 ![[03600097.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Install the two hoses and four clamps on the oil fill tube.
+Установите два шланга и четыре зажима на масляную трубку.
 
 ![[07601074.png]]
 
-Install the oil fill tube and tighten the hose clamps.
+Установите масляную трубку и затяните зажимы шланга.
 
-| Hose Clamps | 8 n.m | \[71 in-lb\] |
+| Зажимы для хозяев | 8 Н·м | [71 фунт-дюйм] |
 |---|---|---|
 
-Operate the engine and check for leaks.
+Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[07601069.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Stand-alone
+>
+> For installation instructions refer to Procedure [[56-007-011-tr — Lubricating Oil Dipstick Tube|007-011]], Lubricating Oil Dipstick Tube.
+>
+> Integral Crankcase Breather
+>
+> Slide the filler tube over the hand hole cover tube.
+>
+> Slide the sleeve (2) onto the filler tube (1).
+>
+> Tighten all hose clamps.
+>
+> **Момент затяжки · Torque Value**
+> 6 n•m [53 in-lb]
+>
+> with Electronically Actuated Injector
+>
+> Install the two hoses and four clamps on the oil fill tube.
+>
+> Install the oil fill tube and tighten the hose clamps.
+>
+> | Hose Clamps | 8 n.m | \[71 in-lb\] |
+> |---|---|---|
+>
+> Operate the engine and check for leaks.

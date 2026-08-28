@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-005-060-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-005-060-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump Pressure Regulator
@@ -31,18 +33,40 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-005-060-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-005-060-tr.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-To check for a sticking pressure regulator, install a pressure gauge on the Compuchek™ fitting in the side of the fuel shutoff valve.
 
-Start cranking the engine.
+### Первичная проверка
 
-The pressure gauge **must** start moving immediately and increase rapidly until the engine fires (approximately 172 kPa \[25 psi\]). This can take 3 to 5 seconds.
+Для проверки на наличие регулятора давления наклеивания установите датчик измерения давления на компучекеTM, установленный в боковой части клапана отключения топлива.
+
+Начни закручивать двигатель.
+
+Измеритель давления **должен **начать движение немедленно и быстро увеличиваться до тех пор, пока двигатель не загорится (приблизительно 172 кПа[25 psi]). Это может занять от 3 до 5 секунд.
 
 ![[05200043.png]]
 
-If the pressure gauge does **not** move or increases very slowly for more than 6 seconds, the regulator plunger is stuck open and will **not** let pressure build up quickly for a normal start. This can be caused by dirt, rust, or burrs on the plunger, or burrs on the plunger bore.
+Если датчик измерения давления движется или увеличивается очень медленно в течение более 6 секунд, регуляторный плунжер застревает в открытом состоянии и не позволит быстро наращивать давление для нормального запуска. Это может быть вызвано грязью, ржавчиной или заусеницами на плунжере или заусеницами на цилиндре плунжера.
 
-If the plunger is sticking, the gear pump **must** be replaced with a new or ReCon® unit.
+Если плунжер прилипает, то передаточный насос должен быть заменен на новый или ReCon®.
 
 ![[05200044.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> To check for a sticking pressure regulator, install a pressure gauge on the Compuchek™ fitting in the side of the fuel shutoff valve.
+>
+> Start cranking the engine.
+>
+> The pressure gauge **must** start moving immediately and increase rapidly until the engine fires (approximately 172 kPa \[25 psi\]). This can take 3 to 5 seconds.
+>
+> If the pressure gauge does **not** move or increases very slowly for more than 6 seconds, the regulator plunger is stuck open and will **not** let pressure build up quickly for a normal start. This can be caused by dirt, rust, or burrs on the plunger, or burrs on the plunger bore.
+>
+> If the plunger is sticking, the gear pump **must** be replaced with a new or ReCon® unit.

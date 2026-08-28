@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-013-999-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-013-999-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Electrical Equipment - Overview
@@ -35,32 +37,66 @@ tags:
 > **Даты:** изменён 2008-12-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-013-999-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-013-999-tr.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Alternator
 
-The 2002 ISM engine has a new pad-mount alternator option.
+### Общие сведения
 
-The basic heavy-duty electrical system consists of:
+Генератор
 
-- Batteries (1) (usually three or four connected in parallel)
-- A starting motor (2)
-- An alternator (3)
-- A magnetic switch (4)
-- An ignition switch (5)
-- A push-button switch (6)
-- All necessary wiring.
+Двигатель ISM 2002 года имеет новый вариант генератора переменного тока.
 
-All components **must** be carefully matched.
+Основная сверхмощная электрическая система состоит из:
+
+- Аккумуляторы (1) (обычно три или четыре, соединенные параллельно)
+- Стартовый двигатель (2)
+- генератор (3)
+- Магнитный переключатель (4)
+- Переключатель зажигания (5)
+- Переключатель кнопок (6)
+- Вся необходимая проводка.
+
+Все компоненты должны быть тщательно подобраны.
 
 ![[sb800ga.png]]
 
-The accompanying illustrations show typical parallel and series battery connections:
+На прилагаемых иллюстрациях показаны типичные параллельные и серийные соединения аккумуляторов:
 
-- Parallel connection.
+- Параллельное соединение.
 
 ![[sb8coga.png]]
 
-- Series connection.
+- Серийное соединение.
 
 ![[sb8cogb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Alternator
+>
+> The 2002 ISM engine has a new pad-mount alternator option.
+>
+> The basic heavy-duty electrical system consists of:
+>
+> - Batteries (1) (usually three or four connected in parallel)
+> - A starting motor (2)
+> - An alternator (3)
+> - A magnetic switch (4)
+> - An ignition switch (5)
+> - A push-button switch (6)
+> - All necessary wiring.
+>
+> All components **must** be carefully matched.
+>
+> The accompanying illustrations show typical parallel and series battery connections:
+>
+> - Parallel connection.
+>
+> - Series connection.

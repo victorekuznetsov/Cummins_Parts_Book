@@ -69,13 +69,13 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-t081-003-tr | Excessive Use of Engine Lubricating Oil From the Pan With Burn-Only System (oil level in pan below normal) | 28-Apr-2004 |
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-t095-156-tr | Inadequate Use of Engine Lubricating Oil From Pan With Burn-Only System | 28-Apr-2004 |
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-t102-25-tr | Lubricating Oil Consumption From Oil Make-Up Tank Excessive | 28-Apr-2004 |
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-t103-25-tr | Engine Lubricating Oil Level Above Specifications While Using Correct Amount of Make-Up Oil | 28-Apr-2004 |
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-t103-5-tr | Lubricating Oil Level Below Specifications While Using Correct Amount of Make-Up Oil | 28-Apr-2004 |
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-t108-5-tr | No Electrical Power to Centinel Control Module (not applicable for integrated system) | 28-Apr-2004 |
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-t102-5-tr | Engine Lubricating Oil Consumption From Oil Make-Up Tank Inadequate | 29-Apr-2004 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-t081-003-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-t081-003-tr.html) | Excessive Use of Engine Lubricating Oil From the Pan With Burn-Only System (oil level in pan below normal) | 28-Apr-2004 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-t095-156-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-t095-156-tr.html) | Inadequate Use of Engine Lubricating Oil From Pan With Burn-Only System | 28-Apr-2004 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-t102-25-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-t102-25-tr.html) | Lubricating Oil Consumption From Oil Make-Up Tank Excessive | 28-Apr-2004 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-t103-25-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-t103-25-tr.html) | Engine Lubricating Oil Level Above Specifications While Using Correct Amount of Make-Up Oil | 28-Apr-2004 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-t103-5-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-t103-5-tr.html) | Lubricating Oil Level Below Specifications While Using Correct Amount of Make-Up Oil | 28-Apr-2004 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-t108-5-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-t108-5-tr.html) | No Electrical Power to Centinel Control Module (not applicable for integrated system) | 28-Apr-2004 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-t102-5-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-t102-5-tr.html) | Engine Lubricating Oil Consumption From Oil Make-Up Tank Inadequate | 29-Apr-2004 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 
 ### Section 19 - Electronic Engine Controls - Group 19
@@ -172,9 +172,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-titlepage | Titlepage | 20-Apr-2004 |
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-toc | Table of Contents | 20-Apr-2004 |
-| tr-frwd | Foreword | 22-May-2006 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-titlepage.html) | Titlepage | 20-Apr-2004 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-toc.html) | Table of Contents | 20-Apr-2004 |
+| [tr-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/tr-frwd.html) | Foreword | 22-May-2006 |
 
 ### Section F - Familiarization
 
@@ -220,7 +220,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666231 — Centinel™ Master Repair Manual\|3666231]]-backcover | Backcover | 20-Apr-2004 |
+| [[[3666231 — Centinel™ Master Repair Manual\|3666231]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-backcover.html) | Backcover | 20-Apr-2004 |
 
 ### Section 19 - Electronic Controls - Group 19
 

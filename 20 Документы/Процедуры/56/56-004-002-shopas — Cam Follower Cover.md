@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 6
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-004-002-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-004-002-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Cam Follower Cover
@@ -35,30 +37,38 @@ tags:
 > **Даты:** изменён 2013-03-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-004-002-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-004-002-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-Install the gasket, cam follower cover, and capscrews.
+### Установка
+
+с форсункой механического управления
+
+Установите прокладку, крышку крана и болты.
 
 ![[04600002.png]]
 
-Tighten the seven capscrews in the sequence shown in the illustration.
+Затянуть семь болтов в последовательности, показанной на иллюстрации.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[04600003.png]]
 
-with Electronically Actuated Injector
+с форсункой электронного управления
 
-Install the gasket into the cam follower cover.
+Установите прокладку в крышку крана.
 
 ![[04600020.png]]
 
-Install the left bank cam follower covers in the position shown.
+Установите левобережную крышку крана в показанном положении.
 
-Note the locations for the different length capscrews.
+Обратите внимание на места для болтов различной длины.
 
 1. M10 x 80
 2. M10 x 45
@@ -66,18 +76,55 @@ Note the locations for the different length capscrews.
 
 ![[04600024.png]]
 
-Install the right bank cam follower covers in the position shown.
+Установите правый чехол для крана в показанном положении.
 
-Note the locations of the different length capscrews.
+Обратите внимание на расположение болтов различной длины.
 
 1. M10 x 80
 2. M10 x 45
 
 ![[04600025.png]]
 
-Tighten the capscrews in the sequence shown in the illustration.
+Затягивайте болты в последовательности, показанной на иллюстрации.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [33 ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м [33 фунт-фут]
 
 ![[04600003.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> Install the gasket, cam follower cover, and capscrews.
+>
+> Tighten the seven capscrews in the sequence shown in the illustration.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]
+>
+> with Electronically Actuated Injector
+>
+> Install the gasket into the cam follower cover.
+>
+> Install the left bank cam follower covers in the position shown.
+>
+> Note the locations for the different length capscrews.
+>
+> 1. M10 x 80
+> 2. M10 x 45
+> 3. M10 x 65.
+>
+> Install the right bank cam follower covers in the position shown.
+>
+> Note the locations of the different length capscrews.
+>
+> 1. M10 x 80
+> 2. M10 x 45
+>
+> Tighten the capscrews in the sequence shown in the illustration.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [33 ft-lb]

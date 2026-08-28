@@ -11,12 +11,14 @@ manuals:
   - "5659761"
   - "5659762"
   - "5659763"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-100-006.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-100-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/15N"
+  - "перевод/машинный"
 ---
 
 # Cummins® Product Technology
@@ -29,97 +31,202 @@ tags:
 > **Даты:** изменён 2024-11-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-100-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-100-006.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The service model name for this product is **15N CM2380 M104B**.
 
-This engine is being released to meet the following emission regulations:
+### Общие сведения
 
-#### European Union
+Название модели сервиса для этого продукта - **15N CM2380 M104B**.
 
-- Euro VI (Dyno Certification)
+Этот двигатель выпускается в соответствии со следующими правилами выбросов:
 
-#### China
+#### Европейский Союз
 
-- National Standard VI
+- Евро VI (сертификат Дино)
 
-This engine is being released to meet the following diagnostic requirements:
+#### Китай
 
-- On-Board Diagnostics (OBD-E)
-- NS6 Phase B
+- Национальный стандарт VI
 
-The Control Parts List(s) (CPL) associated with this product are:
+Этот двигатель выпускается для удовлетворения следующих диагностических требований:
+
+- Диагностика на борту (OBD-E)
+- NS6 Фаза B
+
+Список(и) контрольных частей (CPL), связанный с этим продуктом:
 
 - 5480
 - 5977
 - 6292
 - 6550
 
-This engine uses the following product technology:
+Этот двигатель использует следующую технологию продукта:
 
-#### Engine
+#### Двигатель
 
-- Number of Cylinders: 6
-- Engine Configuration
-- Engine Orientation
-- Cylinder Block Material
-- Cylinder Head Material
-- Valves Per Cylinder: 4
-- Camshaft Location
-- Camshaft Followers/Tappets
-- Primary Gear Train Location
-- Engine Braking
-- Accessory Drive Option
-- Crankcase Ventilation System
+- Количество цилиндров: 6
+- Конфигурация двигателя
+- Ориентация двигателя
+- Цилиндровый блок материала
+- Материал для цилиндрической головки
+- Вентиляторы на цилиндр: 4
+- Местоположение Camshaft
+- Последователи Camshaft / Таппеты
+- Местоположение основного поезда
+- Тормозной механизм двигателя
+- Аксессуарный привод Option
+- Система вентиляции чучела
 
-#### Fuel System
+#### Топливная система
 
-- Natural Gas (NG)
-- Air/Fuel Mixer
-- Fuel Regulator
-- Fuel Metering Valve
-- Fuel Metering Valve Injector
+- Природный газ (NG)
+- Воздух/топливный миксер
+- Регулятор топлива
+- Топливный клапан
+- Форсунка клапан Fuel Metering
 
-#### Air Handling
+#### Воздушная обработка
 
-- Turbocharger (Single)
-- Charge Air Cooler
-- Engine Intake Throttle Actuator
+- Турбокомпрессор (один)
+- Зарядка Air Cooler
+- Двигатель Throttle Actuator
 
-#### Exhaust System
+#### Система выпуска
 
-- Exhaust Gas Recirculation (EGR)
+- Рециркуляция выхлопных газов (EGR)
 
-#### Electrical Equipment
+#### Электрооборудование
 
-- Starting System
-- Charging System (Voltage Options)
-- Ignition System
+- Стартовая система
+- Система зарядки (варианты напряжения)
+- Система зажигания
 
-#### Electronic Control System
+#### Электронная система управления
 
-- Engine Control Module (Single)
-- ECM Supply Voltage
-- Ignition Control Module
-- Engine Coolant Temperature Sensor
-- Engine Oil Pressure Sensor
-- Engine Oil Temperature Sensor
-- Crankcase Pressure Sensor
-- Closed Crankcase Ventilation System Pressure Sensor
-- Camshaft Position Sensor
-- Crankshaft Position Sensor
-- Intake Manifold Pressure/Temperature Sensor
-- Ambient Air Temperature Sensor
-- Aftertreatment Exhaust Gas Temperature Sensor
-- EGR Differential Pressure Sensor
-- EGR Temperature Sensor
-- Exhaust Gas Pressure Sensor
-- Engine Throttle Intake Pressure Sensor
-- Turbocharger Compressor Intake Humidity/Pressure/Temperature Sensor
-- Knock Sensor
+- Модуль управления двигателем (один)
+- ECM Напряжение поставок
+- Модуль управления зажиганием
+- Датчик температуры охлаждающей жидкости
+- Датчик давления моторного масла
+- Датчик температуры моторного масла
+- Датчик давления в чемодане
+- Закрытый датчик давления системы вентиляции коленчатого чемодана
+- Датчик положения распределительного вала
+- Датчик положения коленчатого вала
+- Датчик давления и температуры впускного коллектора
+- Датчик температуры окружающего воздуха
+- После обработки датчик температуры выхлопных газов
+- EGR датчик дифференциального давления
+- EGR датчик температуры
+- Датчик давления выхлопных газов
+- Двигатель Throttle Intake Pressure Sensor
+- Компрессор с турбокомпрессором Влажность/Давление/Температурный датчик
+- Стучать сенсор
 
-Market applications that will use this engine include, but are **not** limited to:
+Рыночные приложения, которые будут использовать этот двигатель, включают, но не ограничиваются:
 
-#### Truck
+#### Грузовик
 
-- Conventional Truck
+- Обычный грузовик
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The service model name for this product is **15N CM2380 M104B**.
+>
+> This engine is being released to meet the following emission regulations:
+>
+> #### European Union
+>
+> - Euro VI (Dyno Certification)
+>
+> #### China
+>
+> - National Standard VI
+>
+> This engine is being released to meet the following diagnostic requirements:
+>
+> - On-Board Diagnostics (OBD-E)
+> - NS6 Phase B
+>
+> The Control Parts List(s) (CPL) associated with this product are:
+>
+> - 5480
+> - 5977
+> - 6292
+> - 6550
+>
+> This engine uses the following product technology:
+>
+> #### Engine
+>
+> - Number of Cylinders: 6
+> - Engine Configuration
+> - Engine Orientation
+> - Cylinder Block Material
+> - Cylinder Head Material
+> - Valves Per Cylinder: 4
+> - Camshaft Location
+> - Camshaft Followers/Tappets
+> - Primary Gear Train Location
+> - Engine Braking
+> - Accessory Drive Option
+> - Crankcase Ventilation System
+>
+> #### Fuel System
+>
+> - Natural Gas (NG)
+> - Air/Fuel Mixer
+> - Fuel Regulator
+> - Fuel Metering Valve
+> - Fuel Metering Valve Injector
+>
+> #### Air Handling
+>
+> - Turbocharger (Single)
+> - Charge Air Cooler
+> - Engine Intake Throttle Actuator
+>
+> #### Exhaust System
+>
+> - Exhaust Gas Recirculation (EGR)
+>
+> #### Electrical Equipment
+>
+> - Starting System
+> - Charging System (Voltage Options)
+> - Ignition System
+>
+> #### Electronic Control System
+>
+> - Engine Control Module (Single)
+> - ECM Supply Voltage
+> - Ignition Control Module
+> - Engine Coolant Temperature Sensor
+> - Engine Oil Pressure Sensor
+> - Engine Oil Temperature Sensor
+> - Crankcase Pressure Sensor
+> - Closed Crankcase Ventilation System Pressure Sensor
+> - Camshaft Position Sensor
+> - Crankshaft Position Sensor
+> - Intake Manifold Pressure/Temperature Sensor
+> - Ambient Air Temperature Sensor
+> - Aftertreatment Exhaust Gas Temperature Sensor
+> - EGR Differential Pressure Sensor
+> - EGR Temperature Sensor
+> - Exhaust Gas Pressure Sensor
+> - Engine Throttle Intake Pressure Sensor
+> - Turbocharger Compressor Intake Humidity/Pressure/Temperature Sensor
+> - Knock Sensor
+>
+> Market applications that will use this engine include, but are **not** limited to:
+>
+> #### Truck
+>
+> - Conventional Truck

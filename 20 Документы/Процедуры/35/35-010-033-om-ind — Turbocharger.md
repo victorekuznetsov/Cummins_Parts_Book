@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021942"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-033-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-033-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Turbocharger
@@ -35,31 +37,64 @@ tags:
 > **Даты:** изменён 2023-06-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-033-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-033-om-ind.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Tighten the turbocharger mounting nuts.
 
-> [!tip] Момент затяжки · Torque Value
-> 61 n•m [45 ft-lb]
+### Контроль при обслуживании
+
+Затянуть гайки, устанавливающие турбокомпрессор.
+
+> [!tip] Момент затяжки
+> 61 Н·м [45 фунт-фут]
 
 ![[tb2nusa.png]]
 
-Check the turbine housing's sealing surface for exhaust leaks.
+Проверьте уплотнительную поверхность корпуса турбины на наличие утечек выхлопных газов.
 
-If a leak is found, tighten the V-band clamp nut.
+Если утечка обнаружена, затяните зажимный гайка V-диапазона.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
 ![[tb2hskc.png]]
 
-Check the compressor housing sealing surface for leaks.
+Проверьте уплотнительную поверхность корпуса компрессора на наличие утечек.
 
-If a leak is found, tighten the V-band clamp nut.
+Если утечка обнаружена, затяните зажимный гайка V-диапазона.
 
-> [!tip] Момент затяжки · Torque Value
-> 9 n•m [80 in-lb]
+> [!tip] Момент затяжки
+> 9 Н·м [80 фунт-дюйм]
 
-If a malfunction resulted in coolant, oil, excessive fuel or excessive black smoke entering the exhaust system, the aftertreatment system **must** be inspected. Contact a Cummins® Authorized Repair Location.
+Если неисправность привела к попаданию в выхлопную систему охлаждающей жидкости, масла, избыточного топлива или черного дыма, то необходимо проверить систему последующей обработки. Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[tb2hskb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> Tighten the turbocharger mounting nuts.
+>
+> **Момент затяжки · Torque Value**
+> 61 n•m [45 ft-lb]
+>
+> Check the turbine housing's sealing surface for exhaust leaks.
+>
+> If a leak is found, tighten the V-band clamp nut.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> Check the compressor housing sealing surface for leaks.
+>
+> If a leak is found, tighten the V-band clamp nut.
+>
+> **Момент затяжки · Torque Value**
+> 9 n•m [80 in-lb]
+>
+> If a malfunction resulted in coolant, oil, excessive fuel or excessive black smoke entering the exhaust system, the aftertreatment system **must** be inspected. Contact a Cummins® Authorized Repair Location.

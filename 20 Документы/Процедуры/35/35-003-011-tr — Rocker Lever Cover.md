@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 8
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-003-011-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-003-011-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Rocker Lever Cover
@@ -35,70 +37,132 @@ tags:
 > **Даты:** изменён 2014-10-01
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-003-011-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-003-011-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the air piping from the intake manifold.
 
-Remove the hose from the crankcase breather.
+### Снятие
+
+Удалите воздушные трубопроводы из впускного коллектора.
+
+Снимите шланг с задувки из картерного шкафа.
 
 ![[03200037.png]]
 
-Remove the 16 capscrews and the rocker lever cover.
+Удалите 16 болтов и крышку рычага клапанного клапана.
 
-Remove the 16 isolators from the cover.
+Удалите 16 изоляторов с крышки.
 
 ![[03200047.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using a steam cleaner, wear safety glasses or a face shield as well as protective clothing. Hot steam can cause serious personal injury.
+> [!danger] ОПАСНО
+> При использовании пароочистителя надевайте защитные очки или щит для лица, а также защитную одежду. Горячий пар может привести к тяжёлой травме.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!note] Note · Примечание
-> The gasket can be reused if it is **not** damaged.
+> [!note] Примечание
+> Прокладка может быть использована повторно, если она не повреждена.
 
-Remove the gasket and inspect for damage.
+Удалить прокладку и проверить на повреждение.
 
-Steam clean and dry with compressed air.
+чистый с паром и сухой со сжатым воздухом.
 
 ![[vc2cvea.png]]
 
-Inspect the cover for cracks or damage and replace if necessary.
+Осмотрите крышку на наличие трещин или повреждений и замените ее, если это необходимо.
 
-Inspect the isolaters for cracks, tears, or brittleness.
+Осмотрите изоляторы на наличие трещин, слез или хрупкости.
 
-Inspect the capscrews for damage.
+Проверьте болты на предмет повреждения.
 
-Replace the isolater and/or capscrew if damage is found.
+Заменить изолятор и/или болты, если обнаружено повреждение.
 
 ![[vc2cvsa.png]]
 
-### Install
+### Установка
 
-If the gasket was **not** damaged, it can be used again. If the gasket was damaged, it **must** be discarded and a new one used.
+Если прокладка была повреждена, ее можно использовать снова. Если прокладка была повреждена, она должна быть выброшена и использована новая.
 
-Install the gasket on the cover.
+Установите прокладку на крышку.
 
 ![[vc2gkha.png]]
 
-Install the cover on the rocker lever housing.
+Установите крышку на корпусе рычага качения клапанного клапана.
 
-Install the 16 isolators, spacers, and capscrews in the cover.
+Установите 16 изоляторов, спейсеров и болтов в крышку.
 
 ![[03200047.png]]
 
-Tighten the capscrews in the sequence shown.
+Затягивайте болты в показанной последовательности.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [130 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [130 фунт-дюйм]
 
 ![[vc2cvva.png]]
 
-Install the hose on the crankcase breather.
+Установите шланг на задувную машину.
 
-Install the air piping to the intake manifold. Refer to the manufacturer's specifications for the correct torque values.
+Установите воздушные трубопроводы на впускной коллектор. См. спецификации производителя для правильных значений крутящего момента.
 
 ![[03200037.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the air piping from the intake manifold.
+>
+> Remove the hose from the crankcase breather.
+>
+> Remove the 16 capscrews and the rocker lever cover.
+>
+> Remove the 16 isolators from the cover.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using a steam cleaner, wear safety glasses or a face shield as well as protective clothing. Hot steam can cause serious personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **Note · Примечание**
+> The gasket can be reused if it is **not** damaged.
+>
+> Remove the gasket and inspect for damage.
+>
+> Steam clean and dry with compressed air.
+>
+> Inspect the cover for cracks or damage and replace if necessary.
+>
+> Inspect the isolaters for cracks, tears, or brittleness.
+>
+> Inspect the capscrews for damage.
+>
+> Replace the isolater and/or capscrew if damage is found.
+>
+> ### Install
+>
+> If the gasket was **not** damaged, it can be used again. If the gasket was damaged, it **must** be discarded and a new one used.
+>
+> Install the gasket on the cover.
+>
+> Install the cover on the rocker lever housing.
+>
+> Install the 16 isolators, spacers, and capscrews in the cover.
+>
+> Tighten the capscrews in the sequence shown.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [130 in-lb]
+>
+> Install the hose on the crankcase breather.
+>
+> Install the air piping to the intake manifold. Refer to the manufacturer's specifications for the correct torque values.

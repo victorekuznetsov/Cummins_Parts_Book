@@ -29,10 +29,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4915540 — QSX15 Owners Manual\|4915540]]-toc | Table of Contents |  |
-| [[4915540 — QSX15 Owners Manual\|4915540]]-titlepage | Titlepage | 16-Feb-2005 |
+| [[[4915540 — QSX15 Owners Manual\|4915540]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915540/4915540-toc.html) | Table of Contents |  |
+| [[[4915540 — QSX15 Owners Manual\|4915540]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915540/4915540-titlepage.html) | Titlepage | 16-Feb-2005 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915540/own-frwd.html) | Foreword | 14-Jul-2006 |
 
 ### Section i - Introduction
 
@@ -47,13 +47,13 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-frt | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
-| ind-bck | Owner's Warranty Responsibilities | 14-Oct-2003 |
-| ind-qsx | Coverage | 14-Dec-2004 |
-| 3381322 | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
-| 3381321 | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
-| 3381775 | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
-| 3381307 | All Engines Worldwide Generator Drive | 25-Aug-2009 |
+| [ind-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915540/ind-frt.html) | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
+| [ind-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915540/ind-bck.html) | Owner's Warranty Responsibilities | 14-Oct-2003 |
+| [ind-qsx](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915540/ind-qsx.html) | Coverage | 14-Dec-2004 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
+| [3381307](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381307/3381307-history.html) | All Engines Worldwide Generator Drive | 25-Aug-2009 |
 
 ### Section E - Engine Identification
 
@@ -65,7 +65,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4915540 — QSX15 Owners Manual\|4915540]]-backcover | Backcover | 16-Feb-2005 |
+| [[[4915540 — QSX15 Owners Manual\|4915540]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915540/4915540-backcover.html) | Backcover | 16-Feb-2005 |
 
 ### Section V - Maintenance Specifications
 

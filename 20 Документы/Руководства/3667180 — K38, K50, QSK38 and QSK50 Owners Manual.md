@@ -37,10 +37,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]]-toc | Table of Contents |  |
+| [[[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3667180/3667180-toc.html) | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
-| [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]]-titlepage | Titlepage | 26-Mar-2010 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3667180/own-frwd.html) | Foreword | 14-Jul-2006 |
+| [[[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3667180/3667180-titlepage.html) | Titlepage | 26-Mar-2010 |
 
 ### Section i - Introduction
 
@@ -55,13 +55,13 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-frt | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
-| ind-bck | Owner's Warranty Responsibilities | 14-Oct-2003 |
-| ind-k38-k50 | Coverage | 04-Nov-2004 |
-| 3381322 | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
-| 3381321 | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
-| 3381775 | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
-| 3381307 | All Diesel Engines Worldwide Generator Drive | 25-Aug-2009 |
+| [ind-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3667180/ind-frt.html) | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
+| [ind-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3667180/ind-bck.html) | Owner's Warranty Responsibilities | 14-Oct-2003 |
+| [ind-k38-k50](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3667180/ind-k38-k50.html) | Coverage | 04-Nov-2004 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
+| [3381307](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381307/3381307-history.html) | All Diesel Engines Worldwide Generator Drive | 25-Aug-2009 |
 
 ### Section V - Maintenance Specifications
 
@@ -87,7 +87,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]]-backcover | Backcover | 10-Nov-2004 |
+| [[[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3667180/3667180-backcover.html) | Backcover | 10-Nov-2004 |
 
 ### Section 1 - Operating Instructions
 

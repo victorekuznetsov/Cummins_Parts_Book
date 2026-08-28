@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666410"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-fc638.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-fc638.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/81"
+  - "перевод/машинный"
 ---
 
 # Exhaust Gas Temperature Deviation Low for Cylinder 16 - Data Valid But Below Normal Operating Range - Least Severe Level
@@ -31,44 +33,94 @@ tags:
 > **Даты:** изменён 2015-07-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-fc638.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-fc638.pdf)
 
-### Fault Code: 638
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Exhaust Gas Temperature Deviation Low for Cylinder 16 - Data Valid But Below Normal Operating Range - Least Severe Level
 
-Printable Version
+### Код неисправности: 638
 
-### Overview
+### Отклонение температуры выхлопных газов от низкого для цилиндра 16 - данные действительны, но ниже нормального диапазона работы - наименее тяжелый уровень
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 638 PID(P): SPN: 1338 FMI: 0/17 Lamp: Maintenance SRT: | Exhaust Gas Temperature Deviation Low for Cylinder 16 - Data Valid But Below Normal Operating Range - Least Severe Level. | Possible low power. No engine protection for exhaust gas temperature. |
+| Код неисправности: 638 P(P): СПН: 1338 FMI: 0/17 Лампа: Обслуживание SRT: | Отклонение температуры выхлопного газа для цилиндра 16 - данные действительны, но ниже нормального диапазона работы - наименее тяжелый уровень. | Возможно, низкая мощность. Отсутствие защиты двигателя от температуры выхлопных газов. |
 
 ![[19903754.png]]
 
-Exhaust Gas Temperature Sensor Circuit Cylinder 16 - QSK45 and QSK60 Engines
+Цилиндр 16 для датчиков температуры выхлопных газов - двигатели QSK45 и QSK60
 
-### Circuit Description
+### Описание цепи
 
-The exhaust gas temperature sensor circuit cylinder 16 monitors exhaust gas temperature and passes information to the engine control module (ECM) through the engine harness.
+Цилиндр 16 схемы датчика температуры выхлопных газов контролирует температуру выхлопных газов и передает информацию модулю управления двигателем (ECM) через электропроводку двигателя.
 
-### Component Location
+### Расположение компонента
 
-The exhaust gas temperature sensor, cylinder 16, is located in the exhaust manifold at the cylinder head 16 to exhaust manifold interface.
+Датчик температуры выхлопных газов, цилиндр 16, расположен в выпускном коллекторе на головке 16 цилиндра для интерфейса выпускного коллектора.
 
-### Shoptalk
+### Практические замечания
 
-There are multiple CENSE™ ECMs for the engine models included in this manual. The ECM model displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the ECM model displayed in INSITE™ electronic service tool to determine which cylinder is affected. For engines with the present CM2330 ECM, the cylinder numbering sequence is described in the General Engine procedure of Section V in the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. [[56-018-015-tr — General Engine|Refer to Procedure 018-015 in Section V.]]
+Существует несколько ECM CENSETM для моделей двигателей, включенных в это руководство. Модель ECM отображается при подключении электронного инструментария обслуживания INSITETM. При устранении неисправности кода используйте модель ECM, отображаемую в инструменте электронного обслуживания INSITETM, чтобы определить, какой цилиндр затронут. Для двигателей с настоящим CM2330 ECM нумерация цилиндров описана в процедуре общего двигателя раздела V в руководстве по обслуживанию QSK45 и QSK60, бюллетень [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].[[56-018-015-tr — General Engine|См. процедуру 018-015 в разделе V.]]
 
-The exhaust gas temperature sensor circuit cylinder 16 measures the exhaust temperature of cylinder 16. The ECM monitors the temperature and compares it to the exhaust gas temperatures of other cylinders.
+Цилиндр 16 схемы датчика температуры выхлопных газов измеряет температуру выхлопных газов цилиндра 16. ECM контролирует температуру и сравнивает ее с температурой выхлопных газов других цилиндров.
 
-It is possible that the exhaust gas temperature sensor 5 volt supply can be open and a fault will **not** be set. If this happens, the temperature of the exhaust gas temperature sensor will read 474°C \[885°F\] for the entire bank of sensors connected to that exhaust gas temperature sensor converter. See the Engine Performance Troubleshooting Tree in Section TT of the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]], to troubleshoot this condition.
+Возможно, что датчик температуры выхлопных газов 5 вольт питания может быть открыт и неисправность будет установлена. Если это произойдет, температура датчика температуры выхлопных газов будет считываться 474 ° C \[885 ° F \] для всего банка датчиков, подключенных к этому преобразователю датчика температуры выхлопных газов. См. раздел TT Руководства по обслуживанию QSK45 и QSK60, Бюллетень [[4021530 — QSK45 and QSK60 Service Manual\|4021530]], чтобы устранить это состояние.
 
-Possible causes of this fault include:
+Возможные причины этой ошибки включают:
 
-- Restricted aftercooler.
+- Ограниченный послеохладитель.
 
-- Damaged valves, rings, or piston.
+- Поврежденные клапаны, кольца или поршень.
 
-- Injector damage.
+- Повреждение форсунки.
 
-Refer to Troubleshooting Fault Code t05-638.
+См. Код устранения неполадок t05-638.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 638
+>
+> ### Exhaust Gas Temperature Deviation Low for Cylinder 16 - Data Valid But Below Normal Operating Range - Least Severe Level
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 638 PID(P): SPN: 1338 FMI: 0/17 Lamp: Maintenance SRT: | Exhaust Gas Temperature Deviation Low for Cylinder 16 - Data Valid But Below Normal Operating Range - Least Severe Level. | Possible low power. No engine protection for exhaust gas temperature. |
+>
+> Exhaust Gas Temperature Sensor Circuit Cylinder 16 - QSK45 and QSK60 Engines
+>
+> ### Circuit Description
+>
+> The exhaust gas temperature sensor circuit cylinder 16 monitors exhaust gas temperature and passes information to the engine control module (ECM) through the engine harness.
+>
+> ### Component Location
+>
+> The exhaust gas temperature sensor, cylinder 16, is located in the exhaust manifold at the cylinder head 16 to exhaust manifold interface.
+>
+> ### Shoptalk
+>
+> There are multiple CENSE™ ECMs for the engine models included in this manual. The ECM model displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the ECM model displayed in INSITE™ electronic service tool to determine which cylinder is affected. For engines with the present CM2330 ECM, the cylinder numbering sequence is described in the General Engine procedure of Section V in the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. [[56-018-015-tr — General Engine|Refer to Procedure 018-015 in Section V.]]
+>
+> The exhaust gas temperature sensor circuit cylinder 16 measures the exhaust temperature of cylinder 16. The ECM monitors the temperature and compares it to the exhaust gas temperatures of other cylinders.
+>
+> It is possible that the exhaust gas temperature sensor 5 volt supply can be open and a fault will **not** be set. If this happens, the temperature of the exhaust gas temperature sensor will read 474°C \[885°F\] for the entire bank of sensors connected to that exhaust gas temperature sensor converter. See the Engine Performance Troubleshooting Tree in Section TT of the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]], to troubleshoot this condition.
+>
+> Possible causes of this fault include:
+>
+> - Restricted aftercooler.
+>
+> - Damaged valves, rings, or piston.
+>
+> - Injector damage.
+>
+> Refer to Troubleshooting Fault Code t05-638.

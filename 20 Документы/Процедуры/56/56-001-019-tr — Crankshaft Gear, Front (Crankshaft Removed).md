@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-019-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-019-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Crankshaft Gear, Front (Crankshaft Removed)
@@ -35,85 +37,164 @@ tags:
 > **Даты:** изменён 2011-06-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-019-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-019-tr.pdf)
 
-### Disassemble
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the crankshaft gear with the hydraulic gear remover, Part Number 3164375.
 
-Remove the key from the keyway in the crankshaft.
+### Разборка
+
+Удалите коленчатый вал с помощью гидравлического выключателя, номер детали 3164375.
+
+Удалите ключ от ключа в коленчатом валу.
 
 ![[22600094.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Clean the crankshaft gear with solvent and dry with compressed air.
+Очистить коленчатый вал снаряжением с растворителем и высушить сжатым воздухом.
 
-Use a honing stone to polish the outside diameter of the crankshaft, at the location the gear is located.
+Используйте оттачивающий камень для полировки наружного диаметра коленчатого вала, в месте расположения шестерни.
 
-Make sure any small scratches, burrs, or small grooves are removed.
+Убедитесь, что любые мелкие царапины, заусеницы или небольшие канавки удалены.
 
 ![[ks8kema.png]]
 
-Measure the outside diameter of the crankshaft.
+Измерить внешний диаметр коленчатого вала.
 
-| Crankshaft Outside Diameter (Front Gear Location) |  |  |
+| Crankshaft Outside Diameter (местоположение передней части) |  |  |
 |---|---|---|
-| mm |  | in |
-| 184.12 | MIN | 7.249 |
-| 184.16 | MAX | 7.251 |
+| мм |  | в |
+| 184.12 | Мин | 7.249 |
+| 184.16 | Макс | 7.251 |
 
-If the crankshaft is **not** within specifications. The crankshaft **must** be replaced.
+Если коленчатый вал **не** в пределах спецификаций. Валазный вал должен быть заменен.
 
 ![[ks800ta.png]]
 
-Measure the inside diameter of the front crankshaft gear.
+Измерить внутренний диаметр передней коленчатой передачи.
 
-| Front Crankshaft Gear Inside Diameter |  |  |
+| Передний коленчатый вал Gear Inside Diameter |  |  |
 |---|---|---|
-| mm |  | in |
-| 183.97 | MIN | 7.243 |
-| 184.10 | MAX | 7.248 |
+| мм |  | в |
+| 183.97 | Мин | 7.243 |
+| 184.10 | Макс | 7.248 |
 
-If the crankshaft gear is **not** within specifications. The crankshaft gear **must** be replaced.
+Если шестерня коленчатого вала **не** в пределах спецификаций. Заменить коленчатый вал.
 
 ![[ks8geta.png]]
 
-### Assemble
+### Сборка
 
-Install a new key into the crankshaft.
+Установите новый ключ в коленчатый вал.
 
 ![[ks8keha.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe burns, wear protective gloves when installing the heated crankshaft gear.
+> [!danger] ОПАСНО
+> Чтобы уменьшить возможность сильных ожогов, надевайте защитные перчатки при установке нагретого коленчатого вала.
 
-> [!warning] CAUTION · Осторожно
-> When heating the crankshaft gear, do not exceed the specified time or temperature. Damage to the crankshaft gear and to the crankshaft gear teeth will result.
+> [!warning] ОСТОРОЖНО
+> При нагревании коленчатого вала не превышайте заданное время или температуру. Повреждение зубчатой валовой передачи и зубчатой передачи коленчатого вала приведет к повреждению.
 
-> [!warning] CAUTION · Осторожно
-> Do not attempt to install the crankshaft gear without heat. Damage to the crankshaft gear and to the crankshaft gear teeth will result.
+> [!warning] ОСТОРОЖНО
+> Не пытайтесь установить коленчатый вал без тепла. Повреждение зубчатой валовой передачи и зубчатой передачи коленчатого вала приведет к повреждению.
 
-Heat the crankshaft gear in an oven, at a maximum temperature of 210°C \[410°F\], for a minimum of 1/2 hour to a maximum of 1 hour. The inside diameter of the crankshaft gear will become larger and simplify the installation of the crankshaft gear onto the crankshaft.
+Нагрейте коленчатый вал в духовке при максимальной температуре 210 ° C \[410° F \], как минимум, от 1/2 часа до максимума 1 часа. Внутренний диаметр коленчатого вала станет больше и упростит установку коленчатого вала на коленчатый вал.
 
 ![[01600291.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of severe burns, wear protective gloves when installing the heated crankshaft gear.
+> [!danger] ОПАСНО
+> Чтобы уменьшить возможность сильных ожогов, надевайте защитные перчатки при установке нагретого коленчатого вала.
 
-> [!warning] CAUTION · Осторожно
-> Allow the air to cool the crankshaft gear. The use of water or oil to reduce the cooling time can cause the crankshaft gear to crack.
+> [!warning] ОСТОРОЖНО
+> Дайте воздуху охладить коленчатый вал. Использование воды или масла для уменьшения времени охлаждения может привести к треску зубчатого вала.
 
-Lubricate the outside diameter of the crankshaft, at the crankshaft gear location, with Lubriplate® 105 or equivalent.
+Смазать внешний диаметр коленчатого вала, в месте расположения коленчатого вала, с помощью Lubriplate® 105 или эквивалента.
 
-Remove the crankshaft gear from the oven.
+Удалите коленчатый вал из духовки.
 
-The timing marks on the crankshaft gear **must** be visible from the front of the crankshaft after the gear is installed.
+Знаки времени на шестерне коленчатого вала должны быть видны спереди коленчатого вала после установки шестерни.
 
-Align the key way on the crankshaft gear with the key in the crankshaft and install the crankshaft gear.
+Выровнять ключ на коленчатом валу с ключом в коленчатом вале и установить коленчатый вал.
 
 ![[ks8geha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Disassemble
+>
+> Remove the crankshaft gear with the hydraulic gear remover, Part Number 3164375.
+>
+> Remove the key from the keyway in the crankshaft.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the crankshaft gear with solvent and dry with compressed air.
+>
+> Use a honing stone to polish the outside diameter of the crankshaft, at the location the gear is located.
+>
+> Make sure any small scratches, burrs, or small grooves are removed.
+>
+> Measure the outside diameter of the crankshaft.
+>
+> | Crankshaft Outside Diameter (Front Gear Location) |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 184.12 | MIN | 7.249 |
+> | 184.16 | MAX | 7.251 |
+>
+> If the crankshaft is **not** within specifications. The crankshaft **must** be replaced.
+>
+> Measure the inside diameter of the front crankshaft gear.
+>
+> | Front Crankshaft Gear Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 183.97 | MIN | 7.243 |
+> | 184.10 | MAX | 7.248 |
+>
+> If the crankshaft gear is **not** within specifications. The crankshaft gear **must** be replaced.
+>
+> ### Assemble
+>
+> Install a new key into the crankshaft.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe burns, wear protective gloves when installing the heated crankshaft gear.
+>
+> **CAUTION · Осторожно**
+> When heating the crankshaft gear, do not exceed the specified time or temperature. Damage to the crankshaft gear and to the crankshaft gear teeth will result.
+>
+> **CAUTION · Осторожно**
+> Do not attempt to install the crankshaft gear without heat. Damage to the crankshaft gear and to the crankshaft gear teeth will result.
+>
+> Heat the crankshaft gear in an oven, at a maximum temperature of 210°C \[410°F\], for a minimum of 1/2 hour to a maximum of 1 hour. The inside diameter of the crankshaft gear will become larger and simplify the installation of the crankshaft gear onto the crankshaft.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of severe burns, wear protective gloves when installing the heated crankshaft gear.
+>
+> **CAUTION · Осторожно**
+> Allow the air to cool the crankshaft gear. The use of water or oil to reduce the cooling time can cause the crankshaft gear to crack.
+>
+> Lubricate the outside diameter of the crankshaft, at the crankshaft gear location, with Lubriplate® 105 or equivalent.
+>
+> Remove the crankshaft gear from the oven.
+>
+> The timing marks on the crankshaft gear **must** be visible from the front of the crankshaft after the gear is installed.
+>
+> Align the key way on the crankshaft gear with the key in the crankshaft and install the crankshaft gear.

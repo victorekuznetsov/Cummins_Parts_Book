@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-002-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-002-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Engine Support Bracket, Front
@@ -35,14 +37,32 @@ tags:
 > **Даты:** изменён 2009-08-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-016-002-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-016-002-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use a hoist or lifting fixture to support the front of the engine.
 
-Remove the capscrews from the front engine mount.
+### Снятие
+
+Используйте подъемник или подъемный приспособление для поддержки передней части двигателя.
+
+Удалите болты с передней части двигателя.
 
 ![[em2bkma.png]]
 
-Remove the six mounting capscrews and the front engine support.
+Удалите шесть крепежных болтов и переднюю опору двигателя.
 
 ![[em200mc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Use a hoist or lifting fixture to support the front of the engine.
+>
+> Remove the capscrews from the front engine mount.
+>
+> Remove the six mounting capscrews and the front engine support.

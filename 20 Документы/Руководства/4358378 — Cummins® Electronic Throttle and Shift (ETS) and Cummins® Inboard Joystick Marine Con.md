@@ -48,8 +48,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4358378 — Cummins® Electronic Throttle and Shift (ETS) and Cummins® Inboard Joystick Marine Con\|4358378]]-t214-tr | Thruster(s) Will Not Respond To Inboard Joystick Operation | 01-May-2017 |
-| [[4358378 — Cummins® Electronic Throttle and Shift (ETS) and Cummins® Inboard Joystick Marine Con\|4358378]]-t219-tr | Vessel Responds Slowly or Incorrectly During Thruster Operation | 01-May-2017 |
+| [[[4358378 — Cummins® Electronic Throttle and Shift (ETS) and Cummins® Inboard Joystick Marine Con\|4358378]]-t214-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4358378/4358378-t214-tr.html) | Thruster(s) Will Not Respond To Inboard Joystick Operation | 01-May-2017 |
+| [[[4358378 — Cummins® Electronic Throttle and Shift (ETS) and Cummins® Inboard Joystick Marine Con\|4358378]]-t219-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4358378/4358378-t219-tr.html) | Vessel Responds Slowly or Incorrectly During Thruster Operation | 01-May-2017 |
 
 ### Section 15 - Instruments and Controls
 

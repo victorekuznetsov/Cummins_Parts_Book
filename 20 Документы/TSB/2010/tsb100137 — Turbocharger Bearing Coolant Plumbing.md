@@ -10,12 +10,14 @@ engines:
 families:
   - "QSK60"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100137.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100137.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Bearing Coolant Plumbing
@@ -26,20 +28,46 @@ tags:
 > **Даты:** изменён 2001-12-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100137.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100137.pdf)
 
-## Turbocharger Bearing Coolant Plumbing
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Турбокомпрессор с подшипником охлаждения
 
-### Contents
+### Положение о гарантии
 
-This Technical Service Bulletin updates the following procedure in the Troubleshootingand Repair Manual, QSK45 and QSK60 Series Engines, Bulletin 3666261:
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- High-Pressure Turbocharger (010-034).
+### Содержание
 
-This Technical Service Bulletin highlights the importance of the turbochargerbearing housing coolant supply and drain hoses being mounted diagonally opposedto each other to provide adequate coolant flow around the turbocharger bearing.
+В этом бюллетене технической службы обновлена следующая процедура в Руководстве по устранению неполадок и ремонту двигателей серии QSK45 и QSK60, Бюллетень 3666261:
+
+- Турбокомпрессор высокого давления (010-034).
+
+В этом бюллетене технической службы подчеркивается важность подачи охлаждающей жидкости в корпусе турбокомпрессора и сливных шлангов, установленных по диагонали друг против друга, чтобы обеспечить достаточный поток охлаждающей жидкости вокруг подшипника турбокомпрессора.
 
 ![[10600180.png]]
 
-Fig. 1, Turbocharger Coolant Supply and Drain Hose Mounting (highpressure)
+Фиг. 1, Турбонаддув Охлаждающий Снабжение и Утепление Хранилища (высокое давление)
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Turbocharger Bearing Coolant Plumbing
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Technical Service Bulletin updates the following procedure in the Troubleshootingand Repair Manual, QSK45 and QSK60 Series Engines, Bulletin 3666261:
+>
+> - High-Pressure Turbocharger (010-034).
+>
+> This Technical Service Bulletin highlights the importance of the turbochargerbearing housing coolant supply and drain hoses being mounted diagonally opposedto each other to provide adequate coolant flow around the turbocharger bearing.
+>
+> Fig. 1, Turbocharger Coolant Supply and Drain Hose Mounting (highpressure)

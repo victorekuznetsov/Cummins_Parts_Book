@@ -14,13 +14,15 @@ families:
 manuals:
   - "3666239"
 figures: 22
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-008-036-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-008-036-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Fan Hub, Belt Driven
@@ -34,229 +36,422 @@ tags:
 > **Даты:** изменён 2022-08-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-008-036-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-008-036-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Automotive with CM870
 
-- Remove the cooling fan. Refer to Procedure 008-040.
-- Remove the cooling fan drive belt. Refer to Procedure 008-002.
-- Remove the automatic belt tensioner (water pump). Refer to Procedure 008-080.
+### Подготовительные операции
 
-![[ck800wa.png]]
+Автомобильный с CM870
 
-Automotive with CM570
-
-- Remove the cooling fan. Refer to Procedure 008-040.
-- Remove the water pump belt. Refer to Procedure 008-003.
-- Remove the alternator belt Refer to Procedure 013-005.
-
-![[ck800wa.png]]
-
-Industrial CM570 and Power Generation without CM570
-
-- Remove the cooling fan. Refer to Procedure 008-040.
-- Remove the fan and water pump belt. Refer to Procedure 008-003.
-- Remove the alternator drive belt. Refer to Procedure 013-005.
-- Remove the fan hub and the fan hub support. Refer to Procedure 008-088.
+- Удалите охлаждающий вентилятор. См. процедуру 008-040.
+- Удалите ремень привода охлаждающего вентилятора. См. процедуру 008-002.
+- Удалите автоматический натяжитель ремня (водяной насос). См. процедуру 008-080.
 
 ![[ck800wa.png]]
 
-### Remove
+Автомобильный с CM570
 
-Automotive with CM870
+- Удалите охлаждающий вентилятор. См. процедуру 008-040.
+- Удалите ремень водяного насоса. См. процедуру 008-003.
+- Снять ремень генератора см. процедуру 013-005.
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+![[ck800wa.png]]
 
-Remove the mounting capscrews and the fan hub assembly.
+Промышленный CM570 и производство электроэнергии без CM570
+
+- Удалите охлаждающий вентилятор. См. процедуру 008-040.
+- Удалите вентилятор и ремень водяного насоса. См. процедуру 008-003.
+- Снимите ремень привода генератора. См. процедуру 013-005.
+- Удалите фан-хаб и поддержку фан-хаба. См. процедуру 008-088.
+
+![[ck800wa.png]]
+
+### Снятие
+
+Автомобильный с CM870
+
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
+
+Удалите крепежные болты и сборку вентилятора.
 
 ![[08c00146.png]]
 
-Automotive with CM570
+Автомобильный с CM570
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого сборочного устройства.
 
-Remove alternator belt tensioner and bracket.
+Снимите натяжитель ремня генератора и скобку.
 
-Remove the capscrews and the fan hub assembly.
+Удалите болты и сборку вентилятора.
 
 ![[08c00031.png]]
 
-Industrial CM570 and Power Generation without CM570
+Промышленный CM570 и производство электроэнергии без CM570
 
-Remove the fan hub mounting capscrews.
+Удалите крепежные болты вентилятора.
 
-Remove the fan hub from the fan support.
+Удалите фан-хаб из поддержки фан-хаба.
 
 ![[01c00289.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-Automotive with CM870
+Автомобильный с CM870
 
-Inspect the fan hub for the following:
+Осмотрите фан-центр на следующее:
 
-- Freedom of rotation
-- Cracks
-- Grease seal leakage.
+- Свобода ротации
+- Трещины
+- Утечка уплотнения.
 
-Repair or replace the fan hub if the fan hub does **not** rotate freely or if there is evidence of cracks or grease seal leakage.
+Ремонт или замена вентиляторного узла, если вентиляторный центр **не** вращается свободно или если есть признаки трещин или утечки уплотнения смазки.
 
-Refer to the OEM service literature for repair of the fan hub.
+Смотрите литературу OEM-сервиса по ремонту вентиляторного узла.
 
 ![[08c00147.png]]
 
-Measure the fan hub end clearance play. The end clearance is dependent upon the fan hub style.
+Измерьте игру в конце разрешения фан-хаба. Конечный зазор зависит от стиля фан-хаба.
 
-Replace the fan hub if the end clearance is **not** within the manufacturer's specifications.
+Заменить вентиляторный концентратор, если конечный зазор **не** в пределах спецификаций производителя.
 
-Refer to OEM service manual for additional inspection steps.
+См. руководство по обслуживанию OEM для дополнительных этапов проверки.
 
 ![[fa1bdta.png]]
 
-Automotive, Industrial with CM570 and Power Generation without CM570
+Автомобильная и промышленная модель с CM570 и силовой установкой без CM570
 
-Inspect the fan hub for the following:
+Осмотрите фан-центр на следующее:
 
-- Freedom of rotation
-- Cracks
-- Grease seal leakage.
+- Свобода ротации
+- Трещины
+- Утечка уплотнения.
 
-Repair or replace the fan hub if the fan hub does **not** rotate freely or if there is evidence of cracks or grease seal leakage.
+Ремонт или замена вентиляторного узла, если вентиляторный центр **не** вращается свободно или если есть признаки трещин или утечки уплотнения смазки.
 
 ![[08c00031.png]]
 
-Measure the fan hub end clearance. The end clearance is dependent upon the fan hub style.
+Измерьте конечный зазор вентилятора. Конечный зазор зависит от стиля фан-хаба.
 
-Replace or repair the fan hub if the end clearance is **not** within specifications.
+Заменить или отремонтировать вентиляторный концентратор, если конечный зазор **не** в пределах спецификаций.
 
-| Fan Hub End Clearance |  |  |
+| Fan Hub End Clearance (альбом) |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.08 | MIN | 0.003 |
-| 0.25 | MAX | 0.009 |
+| мм |  | в |
+| 0.08 | Мин | 0.003 |
+| 0.25 | Макс | 0.009 |
 
 ![[fa1bdta.png]]
 
-### Disassemble
+### Разборка
 
-Automotive, Industrial with CM570 and Power Generation without CM570
+Автомобильная и промышленная модель с CM570 и силовой установкой без CM570
 
-> [!note] Note · Примечание
-> Disassemble fan hub **only** if fan hub end clearance is larger than exceeds specification.
+> [!note] Примечание
+> Разборка вентиляторного узла **только**, если конечный допуск вентиляторного узла больше, чем превышает спецификацию.
 
-Remove the fan hub cover.
+Удалите крышку фан-хаба.
 
-Remove the lock nut and plain washer.
+Уберите замковый гайка и простую шайбу.
 
-Remove fan hub from fan spindle.
+Удалите фан-хаб из фан-шпинделя.
 
-Remove and discard the roller bearing from fan hub.
+Удалить и выбросить роликовый подшипник из вентиляторного узла.
 
-Remove and discard the oil seal.
+Удалите и выбросьте масляную уплотнение.
 
 ![[08r00570.png]]
 
-### Assemble
+### Сборка
 
-Automotive, Industrial with CM570 and Power Generation without CM570
+Автомобильная и промышленная модель с CM570 и силовой установкой без CM570
 
-Press a new roller bearing into the fan hub so that the captured retaining ring sits towards the rear of the fan hub. Verify the retaining ring seats into the groove of the fan hub.
+Нажмите новый ролик, несущий в вентиляторный концентратор, чтобы захваченное удерживающее кольцо находилось в задней части вентиляторного концентратора. Проверьте удерживающие кольцевые сиденья в канавке вентиляторного узла.
 
 ![[08r00571.png]]
 
-Press a new oil seal into the fan hub.
+Нажмите новую масляную уплотнение в вентиляторный центр.
 
 ![[08r00572.png]]
 
-Install the fan hub assembly to the fan spindle.
+Установите сборку фан-хаба на веретено вентилятора.
 
 ![[08r00573.png]]
 
-Install the plain washer and lock nut.
+Установите простую шайбу и запираю гайку.
 
-Tighten the lock nut.
+Затяните замковый гайка.
 
-> [!tip] Момент затяжки · Torque Value
-> 203 n•m [150 ft-lb]
+> [!tip] Момент затяжки
+> 203 Н·м [150 фунт-фут]
 
-Install the fan hub cover.
+Установите крышку фан-хаба.
 
 ![[08r00574.png]]
 
-### Install
+### Установка
 
-Automotive with CM870
+Автомобильный с CM870
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого сборочного устройства.
 
-Install the fan hub assembly and the capscrews.
+Установите сборку вентилятора и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 113 n•m [83 ft-lb]
+> [!tip] Момент затяжки
+> 113 Н·м [83 фунт-фут]
 
 ![[08c00146.png]]
 
-Automotive with CM570
+Автомобильный с CM570
 
-> [!danger] WARNING · Опасно
-> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+> [!danger] ОПАСНО
+> Этот сборка весит 23 кг[50 фунтов] или более. Чтобы избежать травм, используйте подъемник или получите помощь, чтобы поднять эту сборку.
 
-Install the fan hub and the capscrews.
+Установите вентиляторный центр и болты.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 90 n•m [66 ft-lb]
+> [!tip] Момент затяжки
+> 90 Н·м [66 фунт-фут]
 
-Install the belt tensioner bracket.
+Установите кронштейн натяжителя ремня.
 
 ![[08c00031.png]]
 
-Industrial CM570 and Power Generation without CM570
+Промышленный CM570 и производство электроэнергии без CM570
 
-The fan hub **must** be installed in the correct location on the fan support to allow proper clearance between the fan and fan shroud. Refer to the OEM service manual.
+Вентиляторный концентратор должен быть установлен в правильном месте на опоре вентилятора, чтобы обеспечить надлежащий зазор между вентилятором и вентиляторной оболочкой. См. сервисное руководство изготовителя машины.
 
 ![[rs800sa.png]]
 
-Make certain the correct fan center is used for the application.
+Убедитесь, что для приложения используется правильный фан-центр.
 
-Install the fan hub on the fan support using four capscrews and washers.
+Установите фан-хаб на поддержку вентилятора с помощью четырех болтов и мойщиков.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 90 n•m [66 ft-lb]
+> [!tip] Момент затяжки
+> 90 Н·м [66 фунт-фут]
 
 ![[01c00289.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-Automotive with CM870
+Автомобильный с CM870
 
-- Install the automatic belt tensioner (water pump). Refer to Procedure 008-080.
-- Install the cooling fan drive belt. Refer to Procedure 008-002.
-- Install the cooling fan. Refer to Procedure 008-040.
-
-![[ck800wa.png]]
-
-Automotive with CM570
-
-- Install the alternator belt. Refer to Procedure 013-005.
-- Install the water pump belt. Refer to Procedure 008-003.
-- Install the cooling fan. Refer to Procedure 008-040.
+- Установите автоматический натяжитель ремня (водяной насос). См. процедуру 008-080.
+- Установите ремень привода охлаждающего вентилятора. См. процедуру 008-002.
+- Установите охлаждающий вентилятор. См. процедуру 008-040.
 
 ![[ck800wa.png]]
 
-Industrial CM570 and Power Generation without CM570
+Автомобильный с CM570
 
-- Install the fan hub and fan hub support. Refer to Procedure 008-088.
-- Install the alternator drive belt. Refer to Procedure 013-005.
-- Install the fan and water pump belt. Refer to Procedure 008-003.
-- Install the cooling fan. Refer to Procedure 008-040.
+- Установите ремень генератора. См. процедуру 013-005.
+- Установите ремень водяного насоса. См. процедуру 008-003.
+- Установите охлаждающий вентилятор. См. процедуру 008-040.
 
 ![[ck800wa.png]]
+
+Промышленный CM570 и производство электроэнергии без CM570
+
+- Установите фан-хаб и поддержку фан-хаба. См. процедуру 008-088.
+- Установите ремень привода генератора. См. процедуру 013-005.
+- Установите вентилятор и ремень водяного насоса. См. процедуру 008-003.
+- Установите охлаждающий вентилятор. См. процедуру 008-040.
+
+![[ck800wa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> Automotive with CM870
+>
+> - Remove the cooling fan. Refer to Procedure 008-040.
+> - Remove the cooling fan drive belt. Refer to Procedure 008-002.
+> - Remove the automatic belt tensioner (water pump). Refer to Procedure 008-080.
+>
+> Automotive with CM570
+>
+> - Remove the cooling fan. Refer to Procedure 008-040.
+> - Remove the water pump belt. Refer to Procedure 008-003.
+> - Remove the alternator belt Refer to Procedure 013-005.
+>
+> Industrial CM570 and Power Generation without CM570
+>
+> - Remove the cooling fan. Refer to Procedure 008-040.
+> - Remove the fan and water pump belt. Refer to Procedure 008-003.
+> - Remove the alternator drive belt. Refer to Procedure 013-005.
+> - Remove the fan hub and the fan hub support. Refer to Procedure 008-088.
+>
+> ### Remove
+>
+> Automotive with CM870
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Remove the mounting capscrews and the fan hub assembly.
+>
+> Automotive with CM570
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
+>
+> Remove alternator belt tensioner and bracket.
+>
+> Remove the capscrews and the fan hub assembly.
+>
+> Industrial CM570 and Power Generation without CM570
+>
+> Remove the fan hub mounting capscrews.
+>
+> Remove the fan hub from the fan support.
+>
+> ### Clean and Inspect for Reuse
+>
+> Automotive with CM870
+>
+> Inspect the fan hub for the following:
+>
+> - Freedom of rotation
+> - Cracks
+> - Grease seal leakage.
+>
+> Repair or replace the fan hub if the fan hub does **not** rotate freely or if there is evidence of cracks or grease seal leakage.
+>
+> Refer to the OEM service literature for repair of the fan hub.
+>
+> Measure the fan hub end clearance play. The end clearance is dependent upon the fan hub style.
+>
+> Replace the fan hub if the end clearance is **not** within the manufacturer's specifications.
+>
+> Refer to OEM service manual for additional inspection steps.
+>
+> Automotive, Industrial with CM570 and Power Generation without CM570
+>
+> Inspect the fan hub for the following:
+>
+> - Freedom of rotation
+> - Cracks
+> - Grease seal leakage.
+>
+> Repair or replace the fan hub if the fan hub does **not** rotate freely or if there is evidence of cracks or grease seal leakage.
+>
+> Measure the fan hub end clearance. The end clearance is dependent upon the fan hub style.
+>
+> Replace or repair the fan hub if the end clearance is **not** within specifications.
+>
+> | Fan Hub End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.08 | MIN | 0.003 |
+> | 0.25 | MAX | 0.009 |
+>
+> ### Disassemble
+>
+> Automotive, Industrial with CM570 and Power Generation without CM570
+>
+> **Note · Примечание**
+> Disassemble fan hub **only** if fan hub end clearance is larger than exceeds specification.
+>
+> Remove the fan hub cover.
+>
+> Remove the lock nut and plain washer.
+>
+> Remove fan hub from fan spindle.
+>
+> Remove and discard the roller bearing from fan hub.
+>
+> Remove and discard the oil seal.
+>
+> ### Assemble
+>
+> Automotive, Industrial with CM570 and Power Generation without CM570
+>
+> Press a new roller bearing into the fan hub so that the captured retaining ring sits towards the rear of the fan hub. Verify the retaining ring seats into the groove of the fan hub.
+>
+> Press a new oil seal into the fan hub.
+>
+> Install the fan hub assembly to the fan spindle.
+>
+> Install the plain washer and lock nut.
+>
+> Tighten the lock nut.
+>
+> **Момент затяжки · Torque Value**
+> 203 n•m [150 ft-lb]
+>
+> Install the fan hub cover.
+>
+> ### Install
+>
+> Automotive with CM870
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this assembly.
+>
+> Install the fan hub assembly and the capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 113 n•m [83 ft-lb]
+>
+> Automotive with CM570
+>
+> **WARNING · Опасно**
+> This assembly weighs 23 kg \[50 lb\] or more. To avoid personal injury, use a hoist or get assistance to lift this assembly.
+>
+> Install the fan hub and the capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 90 n•m [66 ft-lb]
+>
+> Install the belt tensioner bracket.
+>
+> Industrial CM570 and Power Generation without CM570
+>
+> The fan hub **must** be installed in the correct location on the fan support to allow proper clearance between the fan and fan shroud. Refer to the OEM service manual.
+>
+> Make certain the correct fan center is used for the application.
+>
+> Install the fan hub on the fan support using four capscrews and washers.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 90 n•m [66 ft-lb]
+>
+> ### Finishing Steps
+>
+> Automotive with CM870
+>
+> - Install the automatic belt tensioner (water pump). Refer to Procedure 008-080.
+> - Install the cooling fan drive belt. Refer to Procedure 008-002.
+> - Install the cooling fan. Refer to Procedure 008-040.
+>
+> Automotive with CM570
+>
+> - Install the alternator belt. Refer to Procedure 013-005.
+> - Install the water pump belt. Refer to Procedure 008-003.
+> - Install the cooling fan. Refer to Procedure 008-040.
+>
+> Industrial CM570 and Power Generation without CM570
+>
+> - Install the fan hub and fan hub support. Refer to Procedure 008-088.
+> - Install the alternator drive belt. Refer to Procedure 013-005.
+> - Install the fan and water pump belt. Refer to Procedure 008-003.
+> - Install the cooling fan. Refer to Procedure 008-040.

@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 11
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-012-010.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-012-010.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Air Compressor Pin Bore Wear
@@ -33,108 +35,202 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-012-010.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-012-010.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> The unloader valve body is installed with spring tension. Use care when removing to prevent personal injury. Always wear protective eyewear.
 
-> [!note] Note · Примечание
-> This procedure applies to SS and ST models **only**.
+### Первичная проверка
 
-Hold the unloader valve body down, and remove the two captive washer capscrews and the two plain washers.
+> [!danger] ОПАСНО
+> Корпус разгрузочного клапана установлен с пружинным натяжением. Используйте уход при удалении, чтобы предотвратить личные травмы. Всегда носите защитные очки.
 
-Remove the unloader valve body.
+> [!note] Примечание
+> Данная процедура применяется к моделям SS и ST** только**.
 
-Remove the o-ring seal.
+Удерживайте корпус разгрузочного клапана и удалите два удерживаемых болта шайбы и два простых шайбы.
 
-Remove the rectangular ring seal.
+Удалите корпус разгрузочного клапана.
+
+Удалите уплотнение с кольцом.
+
+Удалить прямоугольное кольцо.
 
 ![[cp8vaqa.png]]
 
-Remove the unloader valve cap and the unloader valve spring.
+Снимите крышку разгрузочного клапана и пружину разгрузочного клапана.
 
-> [!note] Note · Примечание
-> Disassembly of the center unloader valve on Holset® two-cylinder air compressors is similar to the single-cylinder unloader valve.
+> [!note] Примечание
+> Разборка центрального разгрузочного клапана на двухцилиндровых воздушных компрессорах Holset® аналогична одноцилиндровому разгрузочному клапану.
 
-Remove the intake valve seat and valve.
+Снимите впускное сиденье и клапан.
 
-Remove the intake valve spring.
+Удалите пружину впускного клапана.
 
-To avoid damage to the air compressor, do **not** allow any debris to fall into the air compressor cylinder.
+Чтобы избежать повреждения воздушного компрессора, не позволяйте мусору падать в воздушный компрессорный цилиндр.
 
 ![[cp8vamz.png]]
 
-> [!note] Note · Примечание
-> Do **not** use a screwdriver. A screwdriver can gouge the top of the piston.
+> [!note] Примечание
+> Не используйте отвертку. Отвертка может вытащить верх поршня.
 
-Insert the small end of a 3/8-inch drive socket extension (6 to 10 inches long) through the exhaust valve seat onto the top of the piston.
+Вставьте небольшой конец 3/8-дюймового разъема для привода (длиной от 6 до 10 дюймов) через сиденье выпускного клапана на вершину поршня.
 
 ![[cp8towa.png]]
 
-Bar the crankshaft over until the compressor piston reaches top dead center, and the extension starts to move downward approximately 3 to 6 mm \[1/8 to 1/4 in\].
+Задний вал коленчатого вала продолжается до тех пор, пока поршень компрессора не достигнет верхней мёртвой точки, и удлинение начинает двигаться вниз примерно от 3 до 6 мм \[1/8 до 1/4 дюйма \].
 
 ![[cp800kc.png]]
 
-> [!note] Note · Примечание
-> To prevent damage to the top of the piston, do **not** use a hammer.
+> [!note] Примечание
+> Чтобы предотвратить повреждение верхней части поршня, не используйте молоток.
 
-Give a quick, hard push downward on the extension and listen for a metallic click as wear clearance is taken up.
+Дайте быстрый, жесткий толчок вниз на расширение и слушайте металлический щелчок, когда забирается зазор износа.
 
 ![[cp800kb.png]]
 
-If significant piston motion is felt or a metallic click is heard, the pin bores can be worn, and the compressor **must** be examined further.
+Если ощущается значительное движение поршня или слышится металлический щелчок, штифты могут быть изношены, и компрессор **должен **быть изучен далее.
 
 ![[cp800ke.png]]
 
-If no motion or sound is heard, the compressor is in satisfactory condition and does **not** need to be replaced.
+Если не слышно ни движения, ни звука, компрессор находится в удовлетворительном состоянии и его не нужно заменять.
 
-> [!note] Note · Примечание
-> **Not** all air compressors will exhibit pin bore wear.
+> [!note] Примечание
+> Не все воздушные компрессоры будут демонстрировать износ цилиндров.
 
 ![[cp800kf.png]]
 
-Remove the extension.
+Удалите расширение.
 
 ![[cp800kg.png]]
 
-Install the intake valve spring with the tang down.
+Установите пружину впускного клапана с помощью танга вниз.
 
-Install the intake valve.
+Установите впускной клапан.
 
-Install the intake valve seat with the flange side up.
+Установите сиденье впускного клапана с боковой частью фланца вверх.
 
-Install the unloader valve cap spring.
+Установите пружину разгрузочного клапана.
 
-Install the unloader valve cap.
+Установите крышку разгрузочного клапана.
 
-Use high-temperature grease (Accrolube lubrication Teflon™ grease, or equivalent) to lubricate the outside diameter of the cap.
+Используйте высокотемпературную смазку (смазку TeflonTM или эквивалентную) для смазки наружного диаметра крышки.
 
 ![[cp8vahd.png]]
 
-> [!note] Note · Примечание
-> The rectangular ring seal **must** be installed with the grooved side up.
+> [!note] Примечание
+> Прямоугольное кольцо уплотнения должно быть установлено с выгнутой стороной вверх.
 
-Install the rectangular ring seal.
+Установите прямоугольное кольцо.
 
-Install the o-ring seal.
+Установите уплотнение кольца.
 
-Use clean engine oil to lubricate the o-ring seal.
+Используйте чистое моторное масло для смазки уплотнения кольца.
 
-Install the unloader valve body.
+Установите корпус разгрузочного клапана.
 
-> [!note] Note · Примечание
-> Press the unloader valve body down to be sure the tangs of the unloader valve cap are in the three slots of the intake valve seat.
+> [!note] Примечание
+> Нажмите на корпус разгрузочного клапана, чтобы убедиться, что болты разгрузочного клапана находятся в трех слотах сиденья впускного клапана.
 
 ![[cp8vahi.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not overtighten. Failure to do so can cause compressor damage.
+> [!warning] ОСТОРОЖНО
+> Не перегружайте. Неспособность сделать это может привести к повреждению компрессора.
 
-Hold the unloader body down and install the two plain washers and captive washer capscrews.
+Удерживайте тело разгрузчика и установите две простые шайбы и невольные болты шайбы.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 14 n•m [124 in-lb]
+> [!tip] Момент затяжки
+> 14 Н·м [124 фунт-дюйм]
 
 ![[cp8csoi.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> **WARNING · Опасно**
+> The unloader valve body is installed with spring tension. Use care when removing to prevent personal injury. Always wear protective eyewear.
+>
+> **Note · Примечание**
+> This procedure applies to SS and ST models **only**.
+>
+> Hold the unloader valve body down, and remove the two captive washer capscrews and the two plain washers.
+>
+> Remove the unloader valve body.
+>
+> Remove the o-ring seal.
+>
+> Remove the rectangular ring seal.
+>
+> Remove the unloader valve cap and the unloader valve spring.
+>
+> **Note · Примечание**
+> Disassembly of the center unloader valve on Holset® two-cylinder air compressors is similar to the single-cylinder unloader valve.
+>
+> Remove the intake valve seat and valve.
+>
+> Remove the intake valve spring.
+>
+> To avoid damage to the air compressor, do **not** allow any debris to fall into the air compressor cylinder.
+>
+> **Note · Примечание**
+> Do **not** use a screwdriver. A screwdriver can gouge the top of the piston.
+>
+> Insert the small end of a 3/8-inch drive socket extension (6 to 10 inches long) through the exhaust valve seat onto the top of the piston.
+>
+> Bar the crankshaft over until the compressor piston reaches top dead center, and the extension starts to move downward approximately 3 to 6 mm \[1/8 to 1/4 in\].
+>
+> **Note · Примечание**
+> To prevent damage to the top of the piston, do **not** use a hammer.
+>
+> Give a quick, hard push downward on the extension and listen for a metallic click as wear clearance is taken up.
+>
+> If significant piston motion is felt or a metallic click is heard, the pin bores can be worn, and the compressor **must** be examined further.
+>
+> If no motion or sound is heard, the compressor is in satisfactory condition and does **not** need to be replaced.
+>
+> **Note · Примечание**
+> **Not** all air compressors will exhibit pin bore wear.
+>
+> Remove the extension.
+>
+> Install the intake valve spring with the tang down.
+>
+> Install the intake valve.
+>
+> Install the intake valve seat with the flange side up.
+>
+> Install the unloader valve cap spring.
+>
+> Install the unloader valve cap.
+>
+> Use high-temperature grease (Accrolube lubrication Teflon™ grease, or equivalent) to lubricate the outside diameter of the cap.
+>
+> **Note · Примечание**
+> The rectangular ring seal **must** be installed with the grooved side up.
+>
+> Install the rectangular ring seal.
+>
+> Install the o-ring seal.
+>
+> Use clean engine oil to lubricate the o-ring seal.
+>
+> Install the unloader valve body.
+>
+> **Note · Примечание**
+> Press the unloader valve body down to be sure the tangs of the unloader valve cap are in the three slots of the intake valve seat.
+>
+> **CAUTION · Осторожно**
+> Do not overtighten. Failure to do so can cause compressor damage.
+>
+> Hold the unloader body down and install the two plain washers and captive washer capscrews.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 14 n•m [124 in-lb]

@@ -13,7 +13,8 @@ engines:
 families:
   - "QSM11"
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2009/tsb090018.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb090018.pdf"
 tags:
@@ -21,6 +22,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "год/2018"
+  - "перевод/машинный"
 ---
 
 # INSITE™ 7.2 and PowerMatch™ Calibrations Issue
@@ -31,13 +33,21 @@ tags:
 > **Даты:** выпущен 2018-10-04 · изменён 2018-10-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2009/tsb090018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb090018.pdf)
 
-## INSITE™ 7.2 and PowerMatch™ Calibrations Issue
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-This Early Field Notification describes an issue with INSITE™ 7.2 and PowerMatch™ calibrations. When attempting to transfer the PowerMatch™ calibration, INSITE™ 7.2 will show an error window and then close.
+## INSITETM 7.2 и PowerMatchTM Калибровки
 
-### Confirmation
+### Суть проблемы
+
+В этом раннем уведомлении о поле описывается проблема с калибровками INSITETM 7.2 и PowerMatchTM. При попытке перенести калибровку PowerMatchTM, INSITETM 7.2 покажет окно ошибки, а затем закроется.
+
+### Подтверждение
 
 QSB3.3 CM2150
 
@@ -55,26 +65,76 @@ QSL9 CM554
 
 QSL9 CM850
 
-QSM11 CM570
+QSM11 M570
 
 QSX15 CM570
 
-When trying to send a PowerMatch™ calibration with INSITE™ 7.2, an INSITE™ Service Diagnostic Program window will appear with Debug or Close options. An INSITE™ Service Diagnostic Program with Error Signature information and a Close button will appear. Clicking Close will close INSITE™ 7.2.
+При попытке отправить калибровку PowerMatchTM с помощью INSITETM 7.2 появится окно службы диагностики INSITETM с опциями Debug или Close. Появится программа диагностики услуг INSITETM с информацией об ошибке и кнопкой «Закрыть». Нажатие на кнопку «Закрыть» закрывает INSITETM 7.2.
 
-None
+Нет
 
-None
+Нет
 
-None
+Нет
 
-### Resolution
+### Решение
 
-Download INSITE™ 7.2 Service Pack 1 from INSITE™ website:
+Скачать пакет услуг INSITETM 7.2 Service Pack 1 с веб-сайта INSITETM:
 
 http://care.cummins.com
 
-### Warranty Statement
+### Положение о гарантии
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## INSITE™ 7.2 and PowerMatch™ Calibrations Issue
+>
+> ### Core Issue
+>
+> This Early Field Notification describes an issue with INSITE™ 7.2 and PowerMatch™ calibrations. When attempting to transfer the PowerMatch™ calibration, INSITE™ 7.2 will show an error window and then close.
+>
+> ### Confirmation
+>
+> QSB3.3 CM2150
+>
+> QSB5.9 CM850
+>
+> QSB4.5 CM850
+>
+> QSB6.7 CM850
+>
+> QSC8.3 CM554
+>
+> QSC8.3 CM850
+>
+> QSL9 CM554
+>
+> QSL9 CM850
+>
+> QSM11 CM570
+>
+> QSX15 CM570
+>
+> When trying to send a PowerMatch™ calibration with INSITE™ 7.2, an INSITE™ Service Diagnostic Program window will appear with Debug or Close options. An INSITE™ Service Diagnostic Program with Error Signature information and a Close button will appear. Clicking Close will close INSITE™ 7.2.
+>
+> None
+>
+> None
+>
+> None
+>
+> ### Resolution
+>
+> Download INSITE™ 7.2 Service Pack 1 from INSITE™ website:
+>
+> http://care.cummins.com
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Document History

@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-009-004-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-009-004-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Accessory Drive Pulley
@@ -35,33 +37,66 @@ tags:
 > **Даты:** изменён 2009-02-26
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-009-004-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-009-004-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Slip Fit
 
-Remove the freon compressor drive belt, if equipped. Refer to the manufacturer's instructions.
+### Снятие
 
-Remove the accessory drive pulley retaining capscrew.
+Скользящий фит
+
+Удалите фреоновый компрессорный приводной ремень, если он оборудован. См. указания изготовителя.
+
+Удалите вспомогательный привод шкива, удерживающий болты.
 
 ![[ad2csmb.png]]
 
-The accessory drive pulley is slip fit, and does **not** require a puller to be removed from the engine.
+Приводной шкив аксессуара подходит для скольжения и не требует, чтобы съёмник был удален из двигателя.
 
-Remove the accessory drive pulley.
+Удалите дополнительный приводной шкив.
 
 ![[ad2pumc.png]]
 
-Interference Fit
+Помехи Fit
 
-Remove the freon compressor drive, if equipped. Refer to the manufacturer's instructions.
+Удалите фреоновый компрессор, если он оборудован. См. указания изготовителя.
 
-Remove the pulley retainer capscrew.
+Удалите болты шкивов.
 
-> [!note] Note · Примечание
+> [!note] Примечание
+> Ранние серийные двигатели имеют защелкивающее кольцо и не имеют болтов.
+
+![[ad2csmb.png]]
+
+Используйте стандартный съёмник, номер детали ST-647 или номер детали 3376104, чтобы снять шкив.
+
+![[ad2pumc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Slip Fit
+>
+> Remove the freon compressor drive belt, if equipped. Refer to the manufacturer's instructions.
+>
+> Remove the accessory drive pulley retaining capscrew.
+>
+> The accessory drive pulley is slip fit, and does **not** require a puller to be removed from the engine.
+>
+> Remove the accessory drive pulley.
+>
+> Interference Fit
+>
+> Remove the freon compressor drive, if equipped. Refer to the manufacturer's instructions.
+>
+> Remove the pulley retainer capscrew.
+>
+> **Note · Примечание**
 > Earlier production engines have a retainer snap ring and no capscrews.
-
-![[ad2csmb.png]]
-
-Use a standard puller, Part Number ST-647 or Part Number 3376104, to remove the pulley.
-
-![[ad2pumc.png]]
+>
+> Use a standard puller, Part Number ST-647 or Part Number 3376104, to remove the pulley.

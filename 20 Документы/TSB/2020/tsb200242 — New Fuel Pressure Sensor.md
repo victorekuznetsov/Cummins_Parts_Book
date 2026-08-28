@@ -8,12 +8,14 @@ engines:
   - "37280605"
 families:
   - "K19"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200242.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200242.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K19"
+  - "перевод/машинный"
 ---
 
 # New Fuel Pressure Sensor
@@ -24,33 +26,74 @@ tags:
 > **Даты:** изменён 2021-01-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200242.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200242.pdf)
 
-## New Fuel Pressure Sensor
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Новый датчик давления топлива
 
-### Contents
+### Положение о гарантии
 
-**Product Affected**
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-- K19 (STC versions **only**)
+### Содержание
 
-**Description of Change**
+**Затронутая продукция**
 
-A new fuel pressure sensor is available.
+- K19 (версии STC **только**)
 
-**Reason for Change**
+**Описание изменения**
 
-Existing fuel pressure sensor can leak. If existing fuel pressure sensor malfunctions, use new fuel pressure sensor part number. See Table 1 below for part number information.
+Доступен новый датчик давления топлива.
 
-**Service Parts Availability**
+**Причина изменения**
 
-Service parts are available. See Table 1 for part numbers.
+Существующий датчик давления топлива может протекать. Если существующий датчик давления топлива неисправен, используйте новый номер детали датчика давления топлива. См. таблицу 1 ниже для информации о номере части.
 
-| Table 1, Service Parts |  |  |  |  |
+**Наличие сервисных деталей**
+
+Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
+
+| Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
-| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-| Fuel Pressure Sensor | 5462262 | No | No | 3408606 |
+| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
+| Датчик давления топлива | 5462262 | Нет | Нет | 3408606 |
 
-### Document History
+### История изменений документа
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## New Fuel Pressure Sensor
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> **Product Affected**
+>
+> - K19 (STC versions **only**)
+>
+> **Description of Change**
+>
+> A new fuel pressure sensor is available.
+>
+> **Reason for Change**
+>
+> Existing fuel pressure sensor can leak. If existing fuel pressure sensor malfunctions, use new fuel pressure sensor part number. See Table 1 below for part number information.
+>
+> **Service Parts Availability**
+>
+> Service parts are available. See Table 1 for part numbers.
+>
+> | Table 1, Service Parts |  |  |  |  |
+> |---|---|---|---|---|
+> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+> | Fuel Pressure Sensor | 5462262 | No | No | 3408606 |
+>
+> ### Document History

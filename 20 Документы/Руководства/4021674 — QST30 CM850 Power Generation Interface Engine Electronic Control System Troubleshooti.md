@@ -33,9 +33,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-toc | Table of Contents |  |
-| tr-frwd | Foreword | 22-May-2006 |
-| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-titlepage | Titlepage | 16-May-2008 |
+| [[[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/4021674-toc.html) | Table of Contents |  |
+| [tr-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/tr-frwd.html) | Foreword | 22-May-2006 |
+| [[[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/4021674-titlepage.html) | Titlepage | 16-May-2008 |
 
 ### Section i - Introduction
 
@@ -56,12 +56,12 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t016-tr | Communication Error — Electronic Service Tool or Control Device | 27-Feb-2008 |
-| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t083-tr | Fault Code Warning Lamps Stay On (No Apparent Reason) | 27-Feb-2008 |
-| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t084-tr | Fault Code Warning Lamps Do Not Illuminate | 27-Feb-2008 |
-| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t087-tr | Fuel Consumption Excessive | 27-Feb-2008 |
-| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t091-tr | Fuel in Coolant | 27-Feb-2008 |
-| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t092-tr | Fuel in the Lubricating Oil | 27-Feb-2008 |
+| [[[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t016-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/4021674-t016-tr.html) | Communication Error — Electronic Service Tool or Control Device | 27-Feb-2008 |
+| [[[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t083-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/4021674-t083-tr.html) | Fault Code Warning Lamps Stay On (No Apparent Reason) | 27-Feb-2008 |
+| [[[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t084-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/4021674-t084-tr.html) | Fault Code Warning Lamps Do Not Illuminate | 27-Feb-2008 |
+| [[[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t087-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/4021674-t087-tr.html) | Fuel Consumption Excessive | 27-Feb-2008 |
+| [[[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t091-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/4021674-t091-tr.html) | Fuel in Coolant | 27-Feb-2008 |
+| [[[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-t092-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/4021674-t092-tr.html) | Fuel in the Lubricating Oil | 27-Feb-2008 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 
 ### Section 19 — Electronic Engine Controls — Group 19
@@ -283,7 +283,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-backcover | Backcover | 17-Jan-2008 |
+| [[[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti\|4021674]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021674/4021674-backcover.html) | Backcover | 17-Jan-2008 |
 
 ### Section 19 - Electronic Engine Controls - Group 19
 

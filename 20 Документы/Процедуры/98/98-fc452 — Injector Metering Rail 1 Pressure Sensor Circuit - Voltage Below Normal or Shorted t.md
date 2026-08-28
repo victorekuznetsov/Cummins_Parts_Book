@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666070"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc452.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc452.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/98"
+  - "перевод/машинный"
 ---
 
 # Injector Metering Rail 1 Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
@@ -30,78 +32,162 @@ tags:
 > **Даты:** изменён 2021-09-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/98/98-fc452.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/98-fc452.pdf)
 
-### Fault Code: 452
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Injector Metering Rail 1 Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
 
-Printable Version
+### Код неисправности: 452
 
-### Overview
+### Форсунка Metering Rail 1 Pressure Sensor Circuit - напряжение ниже нормального или короткое до низкого источника
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 452 PID(P): P94 SPN: FMI: 4 Lamp: On SRT: 00-641 | Low signal voltage detected at the rail pressure sensor circuit. | Power and engine speed derate. |
+| Код неисправности: 452 PID (P): P94 SPN: ФМИ: 4 лампы: На SRT: 00-641 | Низкое напряжение сигнала, обнаруженное на цепи датчика давления рельса. | Мощность и скорость двигателя снижаются. |
 
 ![[19802313.png]]
 
-Rail Pressure Sensor Circuit
+Схема датчика давления на железной дороге
 
-### Circuit Description
+### Описание цепи
 
-The rail pressure sensor is a variable resistance sensor used by the ECM to monitor the fuel rail pressure. This sensor has three circuits: 5 volt supply, return and signal circuits. This rail pressure sensor signal voltage changes based on the pressure in the fuel rail.
+Датчик давления в рельсах представляет собой датчик переменного сопротивления, используемый ECM для мониторинга давления в рельсах топлива. Этот датчик имеет три схемы: 5-вольтная цепь подачи, возврата и сигнала. Этот датчик давления рельса сигнализирует о изменении напряжения на основе давления в топливной рельсе.
 
-### Component Location
+### Расположение компонента
 
-The rail pressure sensor location may vary and is dependent on the engine.
+Расположение датчика давления в рельсах может варьироваться и зависит от двигателя.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs continuously when the keyswitch is in the ON position.
+Эта диагностика выполняется непрерывно, когда переключатель зажигания находится в положении Включения.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The Engine Control Module (ECM) detected the rail pressure signal voltage is out of range low.
+Модуль управления двигателем (ECM) обнаружил, что напряжение сигнала давления в рельсах находится вне диапазона низкого.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-- The ECM illuminates the amber CHECK ENGINE light when the diagnostic runs and fails.
+- ECM освещает янтарный свет CHECK ENGINE, когда диагностика проходит и не удается.
 
-- Engine torque and/or engine speed derate will be active.
+- Скорость двигателя и/или скорость двигателя будут активными.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- The generator set controller displays the fault immediately when the diagnostics runs and fails.
+- Контроллер генераторной установки отображает неисправность сразу же, когда диагностика работает и выходит из строя.
 
-- Engine torque and/or engine speed derate will be active.
+- Скорость двигателя и/или скорость двигателя будут активными.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+- Для проверки ремонта выполните ключевой цикл, запустите двигатель и запустите его на холостом ходу в течение 1 минуты.
 
-- The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого рекомендованным электронным сервисным инструментом Cummins® или его эквивалентом, будет изменено на INACTIVE сразу после диагностических запусков и проходов.
 
-- The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+- ECM выключит лампу янтарного CHECK ENGINE сразу после диагностических прогонов и проходов.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+- Команда «Сбросить все ошибки» в рекомендуемой электронной сервисной оснастке Cummins® или эквиваленте может использоваться для устранения активных и неактивных ошибок.
 
-For Power Generation Applications:
+Для приложений генерации электроэнергии:
 
-- To validate the repair, start the engine and let it run for 1 minute at no load.
+- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
 
-- The generator set controller will turn off the indicator immediately after the user presses reset.
+- Контроллер генераторной установки выключит индикатор сразу после того, как пользователь нажмет сброс.
 
-- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged engine wiring harness.
+- Неисправный или повреждённый жгут проводов двигателя.
 
-- Malfunctioning or damaged OEM wiring harness.
+- Неисправность или повреждение OEM-проводов.
 
-- Damaged or loose connectors.
+- Поврежденные или рыхлые разъемы.
 
-- Malfunctioning or damaged rail pressure sensor.
+- Неисправный или поврежденный датчик давления в рельсах.
 
-Refer to Troubleshooting Fault Code t05-452
+См. Код устранения неполадок t05-452
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 452
+>
+> ### Injector Metering Rail 1 Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 452 PID(P): P94 SPN: FMI: 4 Lamp: On SRT: 00-641 | Low signal voltage detected at the rail pressure sensor circuit. | Power and engine speed derate. |
+>
+> Rail Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The rail pressure sensor is a variable resistance sensor used by the ECM to monitor the fuel rail pressure. This sensor has three circuits: 5 volt supply, return and signal circuits. This rail pressure sensor signal voltage changes based on the pressure in the fuel rail.
+>
+> ### Component Location
+>
+> The rail pressure sensor location may vary and is dependent on the engine.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs continuously when the keyswitch is in the ON position.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The Engine Control Module (ECM) detected the rail pressure signal voltage is out of range low.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> - The ECM illuminates the amber CHECK ENGINE light when the diagnostic runs and fails.
+>
+> - Engine torque and/or engine speed derate will be active.
+>
+> For Power Generation Applications:
+>
+> - The generator set controller displays the fault immediately when the diagnostics runs and fails.
+>
+> - Engine torque and/or engine speed derate will be active.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, perform a key cycle, start the engine and let it idle for 1 minute.
+>
+> - The fault code status displayed by the recommended Cummins® electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the amber CHECK ENGINE lamp immediately after the diagnostic runs and passes.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active and inactive faults.
+>
+> For Power Generation Applications:
+>
+> - To validate the repair, start the engine and let it run for 1 minute at no load.
+>
+> - The generator set controller will turn off the indicator immediately after the user presses reset.
+>
+> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged engine wiring harness.
+>
+> - Malfunctioning or damaged OEM wiring harness.
+>
+> - Damaged or loose connectors.
+>
+> - Malfunctioning or damaged rail pressure sensor.
+>
+> Refer to Troubleshooting Fault Code t05-452

@@ -18,12 +18,14 @@ parts:
   - "4389517"
   - "5371001"
   - "5718681"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-018-024.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-018-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/15N"
+  - "перевод/машинный"
 ---
 
 # Filter Specifications
@@ -37,24 +39,32 @@ tags:
 > **Даты:** изменён 2025-08-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/1016/1016-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/1016-018-024.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Cummins Filtration™, which produces Fleetguard® products, is a division of Cummins Inc. Fleetguard® filters are developed through joint testing at Cummins Inc. and Cummins Filtration™. Fleetguard® filters are standard on new Cummins® engines. Cummins Inc. recommends their use.
 
-Fleetguard® products meet all Cummins® Source Approval Test standards to provide the quality filtration necessary to achieve the engine design life. If other brands are substituted, the purchaser **must** insist on products that the supplier has tested to meet Cummins® high-quality standards.
+### Спецификации
 
-An approved lubricating oil filter **must** be used. Engine durability will be reduced by the use of the wrong lubricating oil filter.
+Cummins FiltrationTM, которая производит продукцию Fleetguard®, является подразделением Cummins Inc. Фильтры Fleetguard® разрабатываются в рамках совместных испытаний в компании Cummins Inc. Cummins FiltrationTM. Фильтры Fleetguard® являются стандартными для новых двигателей Cummins®. Cummins Inc. рекомендует их использование.
 
-Cummins Inc. is **not** responsible for problems caused by filters that do **not** meet Cummins® performance or durability requirements.
+Продукты Fleetguard® соответствуют всем стандартам Cummins® Source Approval Test, чтобы обеспечить качественную фильтрацию, необходимую для достижения срока службы двигателя. Если другие бренды заменяются, покупатель должен настаивать на продуктах, которые поставщик протестировал, чтобы соответствовать высоким стандартам качества Cummins.
 
-| Description | Cummins® Part Number | Supplier Part Number |
+Утвержденный фильтр для моторного масла должен быть использован. Долговечность двигателя будет снижена за счет использования неправильного фильтра моторного масла.
+
+Cummins Inc. не несет ответственности за проблемы, вызванные фильтрами, которые не соответствуют требованиям производительности или долговечности Cummins®.
+
+| Наименование | Cummins® Part Number | Поставщик Часть Номер |
 |---|---|---|
-| Oil filter with Dongfeng and Cummins® logo (maximum change interval 100,000 km) | 5465813 | LF14003NN |
-| Oil filter with Dongfeng and Cummins® logo (maximum change interval 60,000 km) | 5716630 | L120314301 |
-| Oil filter with Cummins® logo | [[5718681]] | LF14003NN |
-| Closed Crankcase Ventilation (CCV) filter | [[4389517]] | CV5300900JX |
-| Fuel filter (spin-on type), if equipped | [[5371001]] | NG0591000MX |
-| Fuel filter (canister type), if equipped | 6385788 | NH05920 |
+| Масляный фильтр с логотипом Dongfeng и Cummins® (максимальный интервал изменения 100 000 км) | 5465813 | LF14003NN |
+| Масляный фильтр с логотипом Dongfeng и Cummins® (максимальный интервал изменения 60 000 км) | 5716630 | L120314301 |
+| Масляный фильтр с логотипом Cummins® | [[5718681]] | LF14003NN |
+| Закрытый фильтр вентиляции (CCV) | [[4389517]] | CV5300900JX |
+| Топливный фильтр (спин-на типе), если он оборудован | [[5371001]] | NG0591000MX |
+| Топливный фильтр (тип баллона), если он оборудован | 6385788 | NH05920 |
 
 ## Детали, упомянутые в документе
 
@@ -63,3 +73,23 @@ Cummins Inc. is **not** responsible for problems caused by filters that do **not
 | [[4389517]] | BREATHER ELEMENT | Элемент сапуна |
 | [[5371001]] | FUEL FILTER ELEMENT | Фильтрующий элемент топливного фильтра |
 | [[5718681]] | LUBRICATING OIL FILTER ELEMENT | Фильтрующий элемент масляного фильтра |
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> Cummins Filtration™, which produces Fleetguard® products, is a division of Cummins Inc. Fleetguard® filters are developed through joint testing at Cummins Inc. and Cummins Filtration™. Fleetguard® filters are standard on new Cummins® engines. Cummins Inc. recommends their use.
+>
+> Fleetguard® products meet all Cummins® Source Approval Test standards to provide the quality filtration necessary to achieve the engine design life. If other brands are substituted, the purchaser **must** insist on products that the supplier has tested to meet Cummins® high-quality standards.
+>
+> An approved lubricating oil filter **must** be used. Engine durability will be reduced by the use of the wrong lubricating oil filter.
+>
+> Cummins Inc. is **not** responsible for problems caused by filters that do **not** meet Cummins® performance or durability requirements.
+>
+> | Description | Cummins® Part Number | Supplier Part Number |
+> |---|---|---|
+> | Oil filter with Dongfeng and Cummins® logo (maximum change interval 100,000 km) | 5465813 | LF14003NN |
+> | Oil filter with Dongfeng and Cummins® logo (maximum change interval 60,000 km) | 5716630 | L120314301 |
+> | Oil filter with Cummins® logo | [[5718681]] | LF14003NN |
+> | Closed Crankcase Ventilation (CCV) filter | [[4389517]] | CV5300900JX |
+> | Fuel filter (spin-on type), if equipped | [[5371001]] | NG0591000MX |
+> | Fuel filter (canister type), if equipped | 6385788 | NH05920 |

@@ -45,9 +45,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-toc | table of contents |  |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-titlepage | titlepage | 14-Sep-2005 |
-| trng-frwd | foreword | 22-May-2006 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-toc.html) | table of contents |  |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-titlepage.html) | titlepage | 14-Sep-2005 |
+| [trng-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/trng-frwd.html) | foreword | 22-May-2006 |
 
 ### Section i - Introduction 204
 
@@ -151,30 +151,30 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t058-tr | Engine Power Output Low - Performance Measurement | 08-May-2003 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t016-tr | Communication Error - Electronic Service Tool or Control Device | 17-Nov-2003 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t064-tr | Engine Shuts Off Unexpectedly or Dies During Deceleration | 17-Nov-2003 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t072-tr | Engine Starts But Will Not Keep Running | 17-Nov-2003 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t083-tr | Fault Code Warning Lamps Stay On (No Apparent Reason) | 04-Dec-2003 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t084-tr | Fault Code Warning Lamps Do Not Illuminate | 04-Dec-2003 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t091-tr | Fuel in Coolant | 04-Dec-2003 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t041-tr | Engine Decelerates Slowly | 09-Jan-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t062-tr | Engine Runs Rough or Misfires | 09-Jan-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t066-tr | Engine Speed Surges at Low or High Idle | 09-Jan-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t067-tr | Engine Speed Surges Under Load or in Operating Range | 09-Jan-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t080-tr | Engine Will Not Reach Rated Speed (RPM) | 09-Jan-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t087-tr | Fuel Consumption Excessive | 09-Jan-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t092-tr | Fuel in the Lubricating Oil | 09-Jan-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t116-tr | Smoke, Black - Excessive | 09-Jan-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t118-tr | Smoke, White - Excessive | 09-Jan-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t044-tr | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 13-Apr-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t057-tr | Engine Power Output Low | 13-Apr-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t073-tr | Engine Transient Response Poor | 13-Apr-2004 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t043-tr | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 29-Jan-2008 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t081-tr | Engine Will Not Shut Off | 27-May-2008 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t058-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t058-tr.html) | Engine Power Output Low - Performance Measurement | 08-May-2003 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t016-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t016-tr.html) | Communication Error - Electronic Service Tool or Control Device | 17-Nov-2003 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t064-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t064-tr.html) | Engine Shuts Off Unexpectedly or Dies During Deceleration | 17-Nov-2003 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t072-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t072-tr.html) | Engine Starts But Will Not Keep Running | 17-Nov-2003 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t083-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t083-tr.html) | Fault Code Warning Lamps Stay On (No Apparent Reason) | 04-Dec-2003 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t084-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t084-tr.html) | Fault Code Warning Lamps Do Not Illuminate | 04-Dec-2003 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t091-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t091-tr.html) | Fuel in Coolant | 04-Dec-2003 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t041-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t041-tr.html) | Engine Decelerates Slowly | 09-Jan-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t062-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t062-tr.html) | Engine Runs Rough or Misfires | 09-Jan-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t066-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t066-tr.html) | Engine Speed Surges at Low or High Idle | 09-Jan-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t067-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t067-tr.html) | Engine Speed Surges Under Load or in Operating Range | 09-Jan-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t080-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t080-tr.html) | Engine Will Not Reach Rated Speed (RPM) | 09-Jan-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t087-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t087-tr.html) | Fuel Consumption Excessive | 09-Jan-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t092-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t092-tr.html) | Fuel in the Lubricating Oil | 09-Jan-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t116-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t116-tr.html) | Smoke, Black - Excessive | 09-Jan-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t118-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t118-tr.html) | Smoke, White - Excessive | 09-Jan-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t044-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t044-tr.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 13-Apr-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t057-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t057-tr.html) | Engine Power Output Low | 13-Apr-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t073-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t073-tr.html) | Engine Transient Response Poor | 13-Apr-2004 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t043-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t043-tr.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 29-Jan-2008 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t081-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t081-tr.html) | Engine Will Not Shut Off | 27-May-2008 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t021-tr | Coolant Loss - Internal | 20-Jul-2022 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t025-tr | Coolant in the Lubricating Oil | 20-Jul-2022 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t021-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t021-tr.html) | Coolant Loss - Internal | 20-Jul-2022 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t025-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t025-tr.html) | Coolant in the Lubricating Oil | 20-Jul-2022 |
 
 ### Section E - Engine and System Identification
 
@@ -421,7 +421,7 @@ tags:
 | [[01-fc112 — Engine Timing Actuator is Not Responding to ECM Commands\|01-fc112]] | Engine Timing Actuator is Not Responding to ECM Commands | 03-Oct-2011 |
 | [[01-t05-112 — FAULT CODE 112 - Timing Actuator is Not Responding to ECM Commands\|01-t05-112]] | Engine Timing Actuator is Not Responding to ECM Commands | 03-Oct-2011 |
 | [[01-fc423 — Fuel Timing Pressure or Timing Actuator Stuck\|01-fc423]] | Fuel Timing Pressure or Timing Actuator Stuck | 09-Jun-2023 |
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t092-5-tr | Fuel Leak - External | 11-Jul-2025 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-t092-5-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-t092-5-tr.html) | Fuel Leak - External | 11-Jul-2025 |
 
 ### Section V - Specifications
 
@@ -453,7 +453,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-backcover | Backcover | 14-Sep-2005 |
+| [[[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst\|4021419]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021419/4021419-backcover.html) | Backcover | 14-Sep-2005 |
 
 ### Section L - Service Literature
 

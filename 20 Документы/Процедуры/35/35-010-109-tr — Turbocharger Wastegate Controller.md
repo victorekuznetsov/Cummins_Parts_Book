@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666322"
 figures: 7
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-109-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-109-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Wastegate Controller
@@ -31,102 +33,198 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-109-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-109-tr.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Remove the electrical leads of each coil of the wastegate controller.
 
-Remove the wastegate actuator hose from the wastegate controller.
+### Снятие
 
-Remove the wastegate controller capscrews.
+Удалите электрические провода каждой катушки контроллера обходного клапана турбины.
+
+Удалите шланг привода обходного клапана турбины из контроллера обходного клапана турбины.
+
+Удалите болты контроллера обходного клапана турбины.
 
 ![[10200066.png]]
 
-### Disassemble
+### Разборка
 
-Remove the rectangular ring seal from the intake manifold inlet of the wastegate controller.
+Удалить прямоугольное кольцевое уплотнение из впускного коллектора контроллера обходного клапана турбины.
 
-Remove the four capscrews for the coil.
+Удалите четыре болта для катушки.
 
-Remove the coil and shutoff valve shield.
+Снимите катушку и запорный клапанный экран.
 
-Remove the valve spring, valve disc, and rectangular ring seal from the controller housing.
+Удалите пружину клапана, клапанный диск и прямоугольное кольцевое уплотнение из корпуса контроллера.
 
 ![[10200065.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-> [!warning] CAUTION · Осторожно
-> Controller orifices can not be removed from the controller housing. Attempting to remove orifices can result in damage to the housing or orifice.
+> [!warning] ОСТОРОЖНО
+> Отверстия контроллера не могут быть удалены из корпуса контроллера. Попытка удалить отверстия может привести к повреждению корпуса или отверстия.
 
-Check for plugged orifices in the controller housing. All of the parts except the coil assembly can be cleaned using mineral spirits.
+Проверьте наличие заглубленных отверстий в корпусе контроллера. Все детали, кроме сборки катушки, можно очистить с помощью минеральных спиртов.
 
-> [!note] Note · Примечание
-> Do **not** get solvent on the coil. Clean the coil with a dry cloth. Use a 200 grit emery cloth and a flat surface to polish the coil surface.
+> [!note] Примечание
+> Не надо, не надо, на катушку накачивать растворитель. Очистите катушку сухой тканью. Используйте 200-гранатовую салфетку и плоскую поверхность для полировки поверхности катушки.
 
-A wire brush can **only** be used on the coil terminal.
+Проволочная щетка может **только **использоваться на терминале катушки.
 
-Visually check the valve disc, valve spring, and shutoff valve shield for dirt, metal parts, bonding separation, corrosion, cracks, or wear. Replace if necessary.
+Визуально проверьте клапанный диск, пружину клапана и запорный клапанный экран на наличие грязи, металлических деталей, разделения склеивания, коррозии, трещин или износа. Заменить, если это необходимо.
 
-Use a wire brush to clean any corrosion from the coil terminal.
+Используйте проволочную щетку для очистки любой коррозии от терминала катушки.
 
 ![[gr8vaka.png]]
 
-Check the coil assembly with a multimeter.
+Проверьте сборку катушки с помощью мультиметра.
 
-Replace the coil if **not** within specifications.
+Заменить катушку, если **не** в пределах спецификаций.
 
-If the coil assembly shows zero ohms, there is an electrical short in the coil.
+Если в сборке катушки показаны нулевые омы, в катушке есть электрический шорт.
 
-| Solenoid | Ohms | C° \[F°\] |
+| Электромагнит (соленоид) | Омс | C° \[F°\] |
 |---|---|---|
-| 24 VDC | 26-40 | -18 to 100 \[0 to 212\] |
-| 12 VDC | 6-10 | -18 to 100 \[0 to 212\] |
+| 24 VDC | 26-40 | -18 до 100 \[0 до 212\] |
+| 12 VDC | 6-10 | -18 до 100 \[0 до 212\] |
 
-Tighten the nut that holds the electrical connection post on the coil.
+Затяните гайку, которая удерживает электрический соединительный столб на катушке.
 
-> [!tip] Момент затяжки · Torque Value
-> 1.695 n•m [15 in-lb]
+> [!tip] Момент затяжки
+> 1.695 Н·м [15 фунт-дюйм]
 
 ![[fv8etka.png]]
 
-### Assemble
+### Сборка
 
-Assemble the valve as shown.
+Соберите клапан, как показано.
 
-Install these parts as follows:
+Установите эти части следующим образом:
 
-- Install a new rectangular ring seal in the controller housing.
-- Install the valve disk with the rubber bulls-eye side down
-- Install the valve spring on the valve disc with the cavity side positioned upward.
-
-![[10200065.png]]
-
-The coil **must** be orientated with the electrical connection post at the three o'clock position, when the controller is installed on the engine.
-
-Make sure the coil is the correct voltage. The coil voltage and part number are cast into the terminal connection end of the coil.
-
-- Install the shutoff shield and coil on the control valve body.
-- Tighten the capscrews.
-
-> [!tip] Момент затяжки · Torque Value
-> 8 n•m [72 in-lb]
+- Установите новое прямоугольное кольцевое уплотнение в корпус контроллера.
+- Установите клапанный диск с резиновой стороной быков-глаз вниз
+- Установите пружину клапана на клапанный диск с стороной полости, расположенной вверх.
 
 ![[10200065.png]]
 
-### Install
+Катушка **должна** быть ориентирована с электрическим соединительным узлом в трехчасовом положении, когда контроллер установлен на двигателе.
 
-- Install a new rectangular ring seal around the intake manifold connection of the wastegate controller.
-- Place the wastegate controller on the intake manifold and tighten the capscrews.
+Убедитесь, что катушка правильного напряжения. Напряжение катушки и номер детали отбрасываются в конец терминального соединения катушки.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+- Установите выключатель и катушку на корпус управляющего клапана.
+- Затяните болты.
 
-- Refit the wastegate actuator hose to the wastegate controller.
-- Install the electrical connections on the coils.
-- Install the nut on the threaded post of the coils.
-- Use two wrenches to hold the post of the nut firmly while tightening the connection nut.
+> [!tip] Момент затяжки
+> 8 Н·м [72 фунт-дюйм]
 
-> [!tip] Момент затяжки · Torque Value
-> 1.695 n•m [15 in-lb]
+![[10200065.png]]
+
+### Установка
+
+- Установите новое прямоугольное кольцевое уплотнение вокруг впускного коллектора, соединяющего контроллер обходного клапана турбины.
+- Поместите регулятор обходного клапана турбины на впускной коллектор и затяните болты.
+
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
+
+- Переоборудовать шланг привода обходного клапана турбины в контроллер обходного клапана турбины.
+- Установите электрические соединения на катушки.
+- Установите гайку на резьбовом посту катушек.
+- Используйте два гаечных ключа, чтобы крепко удерживать пост гайки при затягивании соединительного гайки.
+
+> [!tip] Момент затяжки
+> 1.695 Н·м [15 фунт-дюйм]
 
 ![[10200066.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Remove the electrical leads of each coil of the wastegate controller.
+>
+> Remove the wastegate actuator hose from the wastegate controller.
+>
+> Remove the wastegate controller capscrews.
+>
+> ### Disassemble
+>
+> Remove the rectangular ring seal from the intake manifold inlet of the wastegate controller.
+>
+> Remove the four capscrews for the coil.
+>
+> Remove the coil and shutoff valve shield.
+>
+> Remove the valve spring, valve disc, and rectangular ring seal from the controller housing.
+>
+> ### Inspect for Reuse
+>
+> **CAUTION · Осторожно**
+> Controller orifices can not be removed from the controller housing. Attempting to remove orifices can result in damage to the housing or orifice.
+>
+> Check for plugged orifices in the controller housing. All of the parts except the coil assembly can be cleaned using mineral spirits.
+>
+> **Note · Примечание**
+> Do **not** get solvent on the coil. Clean the coil with a dry cloth. Use a 200 grit emery cloth and a flat surface to polish the coil surface.
+>
+> A wire brush can **only** be used on the coil terminal.
+>
+> Visually check the valve disc, valve spring, and shutoff valve shield for dirt, metal parts, bonding separation, corrosion, cracks, or wear. Replace if necessary.
+>
+> Use a wire brush to clean any corrosion from the coil terminal.
+>
+> Check the coil assembly with a multimeter.
+>
+> Replace the coil if **not** within specifications.
+>
+> If the coil assembly shows zero ohms, there is an electrical short in the coil.
+>
+> | Solenoid | Ohms | C° \[F°\] |
+> |---|---|---|
+> | 24 VDC | 26-40 | -18 to 100 \[0 to 212\] |
+> | 12 VDC | 6-10 | -18 to 100 \[0 to 212\] |
+>
+> Tighten the nut that holds the electrical connection post on the coil.
+>
+> **Момент затяжки · Torque Value**
+> 1.695 n•m [15 in-lb]
+>
+> ### Assemble
+>
+> Assemble the valve as shown.
+>
+> Install these parts as follows:
+>
+> - Install a new rectangular ring seal in the controller housing.
+> - Install the valve disk with the rubber bulls-eye side down
+> - Install the valve spring on the valve disc with the cavity side positioned upward.
+>
+> The coil **must** be orientated with the electrical connection post at the three o'clock position, when the controller is installed on the engine.
+>
+> Make sure the coil is the correct voltage. The coil voltage and part number are cast into the terminal connection end of the coil.
+>
+> - Install the shutoff shield and coil on the control valve body.
+> - Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 8 n•m [72 in-lb]
+>
+> ### Install
+>
+> - Install a new rectangular ring seal around the intake manifold connection of the wastegate controller.
+> - Place the wastegate controller on the intake manifold and tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> - Refit the wastegate actuator hose to the wastegate controller.
+> - Install the electrical connections on the coils.
+> - Install the nut on the threaded post of the coils.
+> - Use two wrenches to hold the post of the nut firmly while tightening the connection nut.
+>
+> **Момент затяжки · Torque Value**
+> 1.695 n•m [15 in-lb]

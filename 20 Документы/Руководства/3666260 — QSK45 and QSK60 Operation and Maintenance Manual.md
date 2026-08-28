@@ -30,10 +30,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-toc | Table of Contents |  |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-titlepage | Titlepage | 31-Oct-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-toc.html) | Table of Contents |  |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-titlepage.html) | Titlepage | 31-Oct-2005 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| om-frwd | Foreword | 22-May-2006 |
+| [om-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/om-frwd.html) | Foreword | 22-May-2006 |
 
 ### Section i - Introduction
 
@@ -169,21 +169,21 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 07-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t061-011-om | Engine Runs Rough at Idle, Warm Engine | 07-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t043-om | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 11-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t057-om | Engine Power Output Low | 11-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t024-om | Coolant Temperature Below Normal | 15-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t026-om | Coolant Temperature Above Normal | 15-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t072-om | Engine Starts But Will Not Keep Running | 15-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 15-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t080-om | Engine Will Not Reach Rated Speed (RPM) | 15-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t081-om | Engine Will Not Shut Off | 15-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t081-001-om | Excessive Noise | 15-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t081-011-om | Exhaust Black Smoke - Excessive Under Load | 15-Nov-2005 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t105-om | Lubricating Oil Pressure Low | 15-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t044-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t044-om.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 07-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t061-011-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t061-011-om.html) | Engine Runs Rough at Idle, Warm Engine | 07-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t043-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t043-om.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 11-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t057-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t057-om.html) | Engine Power Output Low | 11-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t024-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t024-om.html) | Coolant Temperature Below Normal | 15-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t026-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t026-om.html) | Coolant Temperature Above Normal | 15-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t072-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t072-om.html) | Engine Starts But Will Not Keep Running | 15-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t077-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t077-om.html) | Engine Will Not Crank or Cranks Slowly (Air Starter) | 15-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t080-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t080-om.html) | Engine Will Not Reach Rated Speed (RPM) | 15-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t081-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t081-om.html) | Engine Will Not Shut Off | 15-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t081-001-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t081-001-om.html) | Excessive Noise | 15-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t081-011-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t081-011-om.html) | Exhaust Black Smoke - Excessive Under Load | 15-Nov-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t105-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t105-om.html) | Lubricating Oil Pressure Low | 15-Nov-2005 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t105-011-om | Exhaust Black Smoke - Excessive Under Load | 23-Jan-2020 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t105-011-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-t105-011-om.html) | Exhaust Black Smoke - Excessive Under Load | 23-Jan-2020 |
 
 ### Section 2 - Maintenance Guidelines
 
@@ -259,13 +259,13 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-frt | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
-| ind-bck | Owner's Warranty Responsibilities | 14-Oct-2003 |
-| ind-qsk19-qsk23 | Coverage | 22-Dec-2004 |
-| 3381322 | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
-| 3381321 | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
-| 3381775 | All Engines Worldwide Commercial Marine Propulsion Auxiliary Products | 12-May-2009 |
-| 3381307 | All Engines Worldwide Generator Drive | 25-Aug-2009 |
+| [ind-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/ind-frt.html) | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
+| [ind-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/ind-bck.html) | Owner's Warranty Responsibilities | 14-Oct-2003 |
+| [ind-qsk19-qsk23](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/ind-qsk19-qsk23.html) | Coverage | 22-Dec-2004 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Worldwide Commercial Marine Propulsion Auxiliary Products | 12-May-2009 |
+| [3381307](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381307/3381307-history.html) | All Engines Worldwide Generator Drive | 25-Aug-2009 |
 
 ### Section SS - Seasonal Storage (Marine Only)
 
@@ -316,7 +316,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-backcover | Backcover | 31-Oct-2005 |
+| [[[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666260/3666260-backcover.html) | Backcover | 31-Oct-2005 |
 
 ### Section S - Service Assistance
 

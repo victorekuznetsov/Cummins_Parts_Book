@@ -14,12 +14,14 @@ parts:
   - "3521225"
   - "3527651"
   - "3528221"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/4907692.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/install_inst/4907692.pdf"
 tags:
   - "документ/установка"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Turbocharger Turbine Housing Replacement Kit
@@ -30,26 +32,34 @@ tags:
 > **Даты:** выпущен 2006-10-10 · изменён 2006-10-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/4907692.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/install_inst/4907692.pdf)
 
-## Turbocharger Turbine Housing Replacement Kit
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Purpose
 
-The document provides the installation and cleaning procedures for the Turbocharger Turbine Housing Replacement Kit, Part Number 3598096.
+## Турбонаддув Турбинный корпус Замена комплекта
 
-The turbocharger turbine housing replacement kit is used on the QSX15 series engine. The turbocharger turbine housing replacement kit includes the following items:
+### Назначение
 
-| Table 1, Turbocharger Turbine Housing Replacement Kit, Part Number 3598096 |  |  |
+Документ предусматривает процедуры установки и очистки корпуса турбины турбокомпрессора, номер детали 3598096.
+
+Замена корпуса турбокомпрессора используется на двигателе серии QSX15. Набор для замены корпуса турбины турбокомпрессора включает в себя следующие элементы:
+
+| Таблица 1, Турбонаддувная турбинная гильза Замена комплекта, номер детали 3598096 |  |  |
 |---|---|---|
-| Part Number | Description | Quantity |
-| [[3504967]] | Plain washer | 4 |
-| 3518004 | Lockwasher | 3 |
-| [[3521225]] | Hexagon head set screw | 4 |
-| [[3527651]] | Cover plate | 1 |
-| [[3528221]] | Retaining ring | 1 |
-| 3596957 | Actuator bracket | 1 |
-| 3598031 | Groove pin | 1 |
-| 3598095 | Turbine housing | 1 |
-| 3759526 | Hexagon head set screw | 3 |
+| Номер детали | Наименование | Количество |
+| [[3504967]] | Плоская шайба | 4 |
+| 3518004 | Посудомойка | 3 |
+| [[3521225]] | Установочный винт с шестигранной головкой | 4 |
+| [[3527651]] | Крышка-пластина | 1 |
+| [[3528221]] | Стопорное кольцо | 1 |
+| 3596957 | Кронштейн исполнительного механизма | 1 |
+| 3598031 | Штифт с насечкой | 1 |
+| 3598095 | Корпус турбины | 1 |
+| 3759526 | Установочный винт с шестигранной головкой | 3 |
 
 ## Детали, упомянутые в документе
 
@@ -59,3 +69,25 @@ The turbocharger turbine housing replacement kit is used on the QSX15 series eng
 | [[3521225]] | HEXAGON HEAD SET SCREW | Установочный винт с шестигранной головкой |
 | [[3527651]] | COVER PLATE | Крышка-пластина |
 | [[3528221]] | Retaining Ring | Стопорное кольцо |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Turbocharger Turbine Housing Replacement Kit
+>
+> ### Purpose
+>
+> The document provides the installation and cleaning procedures for the Turbocharger Turbine Housing Replacement Kit, Part Number 3598096.
+>
+> The turbocharger turbine housing replacement kit is used on the QSX15 series engine. The turbocharger turbine housing replacement kit includes the following items:
+>
+> | Table 1, Turbocharger Turbine Housing Replacement Kit, Part Number 3598096 |  |  |
+> |---|---|---|
+> | Part Number | Description | Quantity |
+> | [[3504967]] | Plain washer | 4 |
+> | 3518004 | Lockwasher | 3 |
+> | [[3521225]] | Hexagon head set screw | 4 |
+> | [[3527651]] | Cover plate | 1 |
+> | [[3528221]] | Retaining ring | 1 |
+> | 3596957 | Actuator bracket | 1 |
+> | 3598031 | Groove pin | 1 |
+> | 3598095 | Turbine housing | 1 |
+> | 3759526 | Hexagon head set screw | 3 |

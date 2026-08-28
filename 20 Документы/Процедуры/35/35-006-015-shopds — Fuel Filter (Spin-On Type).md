@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-006-015-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-006-015-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fuel Filter (Spin-On Type)
@@ -35,16 +37,36 @@ tags:
 > **Даты:** изменён 2011-10-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-006-015-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-006-015-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Clean the area around the fuel filter and the fuel filter head.
 
-Remove the fuel filter with a filter wrench.
+### Снятие
+
+Очистите область вокруг топливного фильтра и головки топливного фильтра.
+
+Удалите топливный фильтр с помощью фильтрующего гаечного ключа.
 
 ![[ff8etma.png]]
 
-Remove the thread adapter sealing ring (1).
+Удалите герметичное кольцо адаптера резьбы (1).
 
-Use a clean, lint-free towel to clean the gasket surface on the fuel filter head.
+Используйте чистое полотенце без винта для очистки поверхности прокладки на головке установки топливного фильтра.
 
 ![[ff2hdva.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Clean the area around the fuel filter and the fuel filter head.
+>
+> Remove the fuel filter with a filter wrench.
+>
+> Remove the thread adapter sealing ring (1).
+>
+> Use a clean, lint-free towel to clean the gasket surface on the fuel filter head.

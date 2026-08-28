@@ -13,13 +13,15 @@ families:
 parts:
   - "3630969"
   - "3637730"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2008/tsb080080.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb080080.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
   - "год/2012"
+  - "перевод/машинный"
 ---
 
 # Oil Cooler Cover Nut Gasket Leaks
@@ -30,31 +32,39 @@ tags:
 > **Даты:** выпущен 2012-04-25 · изменён 2012-04-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2008/tsb080080.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb080080.pdf)
 
-## Oil Cooler Cover Nut Gasket Leaks
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Core Issue
 
-Some QSK45, QSK60, QSK78, and QSK60G engines are experiencing slow leaks at the oil cooler cover nut gasket, Part Number [[3630969]]. For clarification, this gasket seals the large oil cooler studs. This is **not** the oil cooler plate gasket.
+## Масляной охладитель Nut Gasket Leaks
 
-### Confirmation
+### Суть проблемы
 
-QSK45, QSK60, QSK78, and QSK60G engines.
+Некоторые двигатели QSK45, QSK60, QSK78 и QSK60G испытывают медленные утечки на прокладке гайки масляного охладителя, часть номер[[3630969]]. Для уточнения, эта прокладка запечатывает большие шипы охладителя масла. Это **не** прокладка плиты для охлаждения масла.
 
-This issue can result in a slow external coolant leak.
+### Подтверждение
 
-There will be signs of engine coolant on top of the oil cooler cover around the large oil cooler nuts.
+Двигатели QSK45, QSK60, QSK78 и QSK60G.
 
-Still under investigation.
+Эта проблема может привести к медленной внешней утечки охлаждающей жидкости.
 
-There is no potential for component damage.
+Поверх крышки масляного охладителя будут признаки охлаждающей жидкости двигателя вокруг больших гаек масляного охладителя.
 
-### Resolution
+Все еще под следствием.
 
-Replace the paper gasket, Part Number [[3630969]], with an edge-molded gasket, Part Number [[3637730]]. Additionally, use Loctite™ 271, Part Number 3375068, on the oil cooler stud threads.
+Потенциального повреждения компонентов нет.
 
-### Warranty Statement
+### Решение
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+Заменить бумажный прокладку, номер детали[[3630969]], с гранеобразной прокладкой, номер детали[[3637730]]. Кроме того, используйте LoctiteTM 271, Part Number 3375068, на резьбе шпильки масляного охладителя.
+
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
 ## Детали, упомянутые в документе
 
@@ -62,3 +72,30 @@ The information in this document has no effect on present warranty coverage or r
 |---|---|---|
 | [[3630969]] | Lubricating Oil Cooler Housing Gasket | Прокладка корпуса маслоохладителя |
 | [[3637730]] | LUBRICATING OIL COOLER COVER GASKET | Прокладка крышки маслоохладителя |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Oil Cooler Cover Nut Gasket Leaks
+>
+> ### Core Issue
+>
+> Some QSK45, QSK60, QSK78, and QSK60G engines are experiencing slow leaks at the oil cooler cover nut gasket, Part Number [[3630969]]. For clarification, this gasket seals the large oil cooler studs. This is **not** the oil cooler plate gasket.
+>
+> ### Confirmation
+>
+> QSK45, QSK60, QSK78, and QSK60G engines.
+>
+> This issue can result in a slow external coolant leak.
+>
+> There will be signs of engine coolant on top of the oil cooler cover around the large oil cooler nuts.
+>
+> Still under investigation.
+>
+> There is no potential for component damage.
+>
+> ### Resolution
+>
+> Replace the paper gasket, Part Number [[3630969]], with an edge-molded gasket, Part Number [[3637730]]. Additionally, use Loctite™ 271, Part Number 3375068, on the oil cooler stud threads.
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.

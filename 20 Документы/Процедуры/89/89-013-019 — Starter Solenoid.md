@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021375"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-013-019.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-013-019.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Starter Solenoid
@@ -33,49 +35,88 @@ tags:
 > **Даты:** изменён 2003-07-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-013-019.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-013-019.pdf)
 
-### Voltage Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Use the multimeter, Part No. 3164488, and set it to measure DC voltage.
 
-Connect the multimeter positive lead to the starter solenoid positive cable terminal and the negative lead to the battery cable connection at the starting motor. The multimeter **must** show system voltage.
+### Проверка напряжения
+
+Используйте мультиметр, номер детали. 3164488, и установить его для измерения постоянного напряжения.
+
+Подключите многометровый положительный щуп к стартовому соленоидному положительному кабельному терминалу, а отрицательный щуп к соединению аккумуляторного кабеля в пусковом двигателе. Мультиметр **должен** показывать напряжение системы.
 
 ![[sb800ki.png]]
 
-If the multimeter does **not** indicate system voltage, check the battery to starting motor cable for broken, loose, or corroded connections.
+Если мультиметр **не** указывает на системное напряжение, проверьте аккумулятор на запуск кабеля двигателя для неработающих, рыхлых или разъединенных соединений.
 
 ![[sb800kk.png]]
 
-If the multimeter indicates system voltage, but the starting motor will **not** operate, check the wire connecting the starter solenoid to the starter switch for broken, loose, or corroded connections.
+Если мультиметр указывает на системное напряжение, но пусковой двигатель будет **не** работать, проверьте провод, соединяющий стартер соленоид с стартерным выключателем для сломанных, рыхлых или корродированных соединений.
 
 ![[sb800kl.png]]
 
-If the wire connecting the starter solenoid and starter switch is **not** loose or damaged and the starter will **not** operate:
+Если провод, соединяющий стартер соленоид и стартерный выключатель, **не **свободен или поврежден, и стартер **не **работает:
 
-- Remove the cable connecting the starting motor and starter solenoid from the solenoid terminal.
-- Connect the multimeter positive lead to the solenoid **positive** terminal and the negative lead to a chassis or engine ground.
+- Удалите кабель, соединяющий пусковой двигатель и стартер соленоида из соленоидного терминала.
+- Подключите многометровый положительный щуп к соленоидному **позитивному** терминалу, а отрицательный щуп к шасси или земле двигателя.
 
 ![[sb800km.png]]
 
-Turn the starter switch to the START position.
+Поверните стартовый переключатель в положение START.
 
-If the multimeter indicates system voltage, the starter solenoid is malfunctioning and **must** be replaced.
+Если мультиметр указывает на напряжение системы, стартер соленоида неисправен и должен быть заменен.
 
 ![[sb800kn.png]]
 
-If the multimeter does **not** indicate system voltage, check the wire connecting the starter solenoid to the magnetic switch for broken, loose, or corroded connections.
+Если мультиметр **не** указывает на напряжение системы, проверьте провод, соединяющий стартер соленоид с магнитным переключателем для сломанных, рыхлых или корродированных соединений.
 
 ![[sb800ko.png]]
 
-If the wire connecting the starter solenoid to the magnetic switch is **not** loose or damaged and the starting motor will **not** operate:
+Если провод, соединяющий стартер соленоид с магнитным переключателем, **не является свободным или поврежденным, и пусковой двигатель будет **не работать:
 
-- Check the cable connecting the starter solenoid to the starting motor for broken, loose, or corroded connections.
+- Проверьте кабель, соединяющий стартер соленоид с пусковым двигателем для сломанных, рыхлых или коррозионных соединений.
 
 ![[sb800kp.png]]
 
-Check the cable connecting the starter to the battery for broken, loose, or corroded connections.
+Проверьте кабель, соединяющий стартер с батареей для сломанных, рыхлых или коррозийных соединений.
 
 ![[sb8cosa.png]]
 
-If the cables are **not** loose or damaged, the starting motor is defective and **must** be replaced. Refer to Procedure [[89-013-020 — Starting Motor|013-020]].
+Если кабели не рыхлые или повреждены, пусковой двигатель неисправен и должен быть заменен. См. процедуру[[89-013-020 — Starting Motor|013-020]].
 
 ![[sb2cosa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Voltage Check
+>
+> Use the multimeter, Part No. 3164488, and set it to measure DC voltage.
+>
+> Connect the multimeter positive lead to the starter solenoid positive cable terminal and the negative lead to the battery cable connection at the starting motor. The multimeter **must** show system voltage.
+>
+> If the multimeter does **not** indicate system voltage, check the battery to starting motor cable for broken, loose, or corroded connections.
+>
+> If the multimeter indicates system voltage, but the starting motor will **not** operate, check the wire connecting the starter solenoid to the starter switch for broken, loose, or corroded connections.
+>
+> If the wire connecting the starter solenoid and starter switch is **not** loose or damaged and the starter will **not** operate:
+>
+> - Remove the cable connecting the starting motor and starter solenoid from the solenoid terminal.
+> - Connect the multimeter positive lead to the solenoid **positive** terminal and the negative lead to a chassis or engine ground.
+>
+> Turn the starter switch to the START position.
+>
+> If the multimeter indicates system voltage, the starter solenoid is malfunctioning and **must** be replaced.
+>
+> If the multimeter does **not** indicate system voltage, check the wire connecting the starter solenoid to the magnetic switch for broken, loose, or corroded connections.
+>
+> If the wire connecting the starter solenoid to the magnetic switch is **not** loose or damaged and the starting motor will **not** operate:
+>
+> - Check the cable connecting the starter solenoid to the starting motor for broken, loose, or corroded connections.
+>
+> Check the cable connecting the starter to the battery for broken, loose, or corroded connections.
+>
+> If the cables are **not** loose or damaged, the starting motor is defective and **must** be replaced. Refer to Procedure [[89-013-020 — Starting Motor|013-020]].

@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-032-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-032-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Heat Shield
@@ -35,18 +37,42 @@ tags:
 > **Даты:** изменён 2005-10-13
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-011-032-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-011-032-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install the EGR cooler connection heat shield. The top hole in the shield locates over the stud on the water manifold mounting capscrew.
 
-Install the nut onto the stud and the capscrew into the cylinder head.
+### Установка
 
-Tighten the nut and capscrew.
+Установите теплозащитный экран EGR-холодильника. Верхнее отверстие в щите расположено над шпилькой на монтажных болтах водяного коллектора.
 
-| Nut | 20 n.m | \[180 in-lb\] |
+Установите гайку на шпильку и болты в головку цилиндра.
+
+Затяните гайки и болты.
+
+| Гайка | 20 Н·м | [180 фунт-дюйм] |
 |---|---|---|
 
-| Capscrew | 45 n.m | \[35 ft-lb\] |
+| болты | 45 Н·м | [35 фунт-фут] |
 |---|---|---|
 
 ![[11200116.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Install the EGR cooler connection heat shield. The top hole in the shield locates over the stud on the water manifold mounting capscrew.
+>
+> Install the nut onto the stud and the capscrew into the cylinder head.
+>
+> Tighten the nut and capscrew.
+>
+> | Nut | 20 n.m | \[180 in-lb\] |
+> |---|---|---|
+>
+> | Capscrew | 45 n.m | \[35 ft-lb\] |
+> |---|---|---|

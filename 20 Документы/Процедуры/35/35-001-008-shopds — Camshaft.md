@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 5
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-008-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-008-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Camshaft
@@ -35,34 +37,66 @@ tags:
 > **Даты:** изменён 2009-03-05
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-001-008-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-001-008-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Raise the cam follower assemblies, and use a wire to tie the cam followers up away from the camshaft.
 
-Rotate the camshaft to align the holes in the camshaft gear with the thrust plate capscrews.
+### Снятие
 
-Remove the thrust plate capscrews.
+Поднимите краны и используйте провод, чтобы связать краны от распределительного вала.
+
+Поверните распределительный вал, чтобы выровнять отверстия в распределительной передаче с болтами пластин тяги.
+
+Удалите болты тяговых пластин.
 
 ![[cg2csmb.png]]
 
-Remove the three capscrews and the camshaft rear cover plate.
+Удалите три болта и заднюю крышку распределительного вала.
 
 ![[cg2plmb.png]]
 
-Install camshaft installation pilot, Part Number 3376388, as follows:
+Установите пилот установки распределительного вала, номер детали 3376388, следующим образом:
 
-- Install the expander (1), Part Number 3376923, in the camshaft through the rear cover plate opening.
-- Turn the screw inside the expander **clockwise** to expand the swell plug.
+- Установите расширитель (1), номер детали 3376923, в распределительном вале через заднее отверстие крышки.
+- Поверните винт внутри расширителя **по часовой стрелке**, чтобы расширить вилку набухания.
 
 ![[cg2tohe.png]]
 
-- Install the arbor sleeve (2) over the expander.
-- Install the locating pilot extensions (3) to the expander.
+- Установите рукав арбора (2) над расширителем.
+- Установите размещающие пилотные расширения (3) на расширитель.
 
 ![[cg2tohf.png]]
 
-Use one hand to rotate slowly and pull the camshaft from the cylinder block and the other hand to balance the camshaft as it is removed.
+Используйте одну руку, чтобы медленно вращаться и вытягивать распределительный вал из блока цилиндров, а другую руку, чтобы сбалансировать распределительный вал, когда он удаляется.
 
-Remove the camshaft pilot tool.
+Удалите инструмент пилота распредвала.
 
 ![[cg200hc.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Raise the cam follower assemblies, and use a wire to tie the cam followers up away from the camshaft.
+>
+> Rotate the camshaft to align the holes in the camshaft gear with the thrust plate capscrews.
+>
+> Remove the thrust plate capscrews.
+>
+> Remove the three capscrews and the camshaft rear cover plate.
+>
+> Install camshaft installation pilot, Part Number 3376388, as follows:
+>
+> - Install the expander (1), Part Number 3376923, in the camshaft through the rear cover plate opening.
+> - Turn the screw inside the expander **clockwise** to expand the swell plug.
+>
+> - Install the arbor sleeve (2) over the expander.
+> - Install the locating pilot extensions (3) to the expander.
+>
+> Use one hand to rotate slowly and pull the camshaft from the cylinder block and the other hand to balance the camshaft as it is removed.
+>
+> Remove the camshaft pilot tool.

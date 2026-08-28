@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
   - "4915528"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/50/50-018-017.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/50-018-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/50"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil System
@@ -35,44 +37,96 @@ tags:
 > **Даты:** изменён 2012-03-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/50/50-018-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/50-018-017.pdf)
 
-### Specifications
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-#### Lubricating Oil Pressure, Main Oil Rifle (15W-40 oil at 107°C \[225°F\]):
 
-| Minimum at rated rpm | 465 kPa \[67.5 psi\] |
+### Спецификации
+
+#### Давление моторного масла, основная масляная винт (масло 15W-40 при 107 ° C \[225 ° F \]):
+
+| Минимальный уровень rpm | 465 кПа[67.5 psi] |
 |---|---|
 
-| Maximum at rated rpm | 552 kPa \[80 psi\] |
+| Максимально в номинальном обороте | 552 кПа[80 psi] |
 |---|---|
 
-| Minimum at idle rpm | 172 kPa \[25 psi\] |
+| Минимальный уровень в idle rpm | 172 кПа[25 psi] |
 |---|---|
 
-#### Oil Pump - Pumping Capacity
+#### Масляной насос - насосная мощность
 
-| Maximum at Rated Speed (1900 rpm) | 1420 liters/min \[375 gal/min\] |
+| Максимальная скорость (1900 об/мин) | 1420 литров/мин.[375 галл./мин.] |
 |---|---|
 
-#### Lubricating Oil Temperature
+#### Температура моторного масла
 
-| Maximum | 120°C \[248°F\] |
+| Максимум | 120°C[248°F] |
 |---|---|
 
-#### Eliminator Oil Capacity - Engine Operation
+#### Элиминатор Масляная мощность - Операция двигателя
 
-| Maximum | 20 liters \[5.2 gal\] |
+| Максимум | 20 литров [5,2 галлона] |
 |---|---|
 
-#### Sump Configuration - System Capacity
+#### Конфигурация насоса - емкость системы
 
-| Center Sump - Low Level | 242.5 liters \[64 gal\] |
+| Центр СУМП - Низкий уровень | 242,5 литра[64 галлона] |
 |---|---|
 
-| Center Sump - High Level | 280 liters \[74 gal\] |
+| Центр СУМП - Высокий уровень | 280 литров[74 галлона] |
 |---|---|
 
-| Rear Sump - Low Level | 242.5 liters \[64 gal\] |
+| Задний сумп - низкий уровень | 242,5 литра[64 галлона] |
 |---|---|
 
-| Rear Sump - High Level | 280 liters \[74 gal\] |
+| Задний сумп - высокий уровень | 280 литров[74 галлона] |
 |---|---|
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> #### Lubricating Oil Pressure, Main Oil Rifle (15W-40 oil at 107°C \[225°F\]):
+>
+> | Minimum at rated rpm | 465 kPa \[67.5 psi\] |
+> |---|---|
+>
+> | Maximum at rated rpm | 552 kPa \[80 psi\] |
+> |---|---|
+>
+> | Minimum at idle rpm | 172 kPa \[25 psi\] |
+> |---|---|
+>
+> #### Oil Pump - Pumping Capacity
+>
+> | Maximum at Rated Speed (1900 rpm) | 1420 liters/min \[375 gal/min\] |
+> |---|---|
+>
+> #### Lubricating Oil Temperature
+>
+> | Maximum | 120°C \[248°F\] |
+> |---|---|
+>
+> #### Eliminator Oil Capacity - Engine Operation
+>
+> | Maximum | 20 liters \[5.2 gal\] |
+> |---|---|
+>
+> #### Sump Configuration - System Capacity
+>
+> | Center Sump - Low Level | 242.5 liters \[64 gal\] |
+> |---|---|
+>
+> | Center Sump - High Level | 280 liters \[74 gal\] |
+> |---|---|
+>
+> | Rear Sump - Low Level | 242.5 liters \[64 gal\] |
+> |---|---|
+>
+> | Rear Sump - High Level | 280 liters \[74 gal\] |
+> |---|---|

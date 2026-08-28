@@ -63,7 +63,7 @@ tags:
 | 0.05 | Мин | 0.002 |
 | 0.13 | Макс | 0.005 |
 
-Если осевой зазор превышает технические характеристики, турбокомпрессор  должен быть заменен или перестроен. См. Bulletin 3810243, HC5 Series Turbocharger Shop Manual, for rebuild instructions.
+Если осевой зазор превышает технические характеристики, турбокомпрессор должен быть заменен или перестроен. См. Bulletin 3810243, HC5 Series Turbocharger Shop Manual, for rebuild instructions.
 
 ![[tb800jb.png]]
 
@@ -87,7 +87,7 @@ tags:
 | 0.20 | Мин | 0.008 |
 | 0.53 | Макс | 0.021 |
 
-Если зазор превышает спецификацию, деталь  должна быть заменена или перестроена. См. Bulletin 3810243, HC5 Series Turbocharger Shop Manual for rebuild instructions.
+Если зазор превышает спецификацию, деталь должна быть заменена или перестроена. См. Bulletin 3810243, HC5 Series Turbocharger Shop Manual for rebuild instructions.
 
 ![[tb800ja.png]]
 
@@ -102,7 +102,7 @@ tags:
 | 0.09 | Мин | 0.004 |
 | 0.13 | Макс | 0.005 |
 
-Если конечный зазор превышает технические характеристики, турбокомпрессор  должен быть заменен или перестроен. См. Bulletin 3810235, Exhaust - Gas Turbocharger RR-153, Instructions for Operation and Maintenance or Bulletin 3810325, Exhaust - Gas Turbocharger, RR-151-12, Instructions for Operation and Maintenance.
+Если конечный зазор превышает технические характеристики, турбокомпрессор должен быть заменен или перестроен. См. Bulletin 3810235, Exhaust - Gas Turbocharger RR-153, Instructions for Operation and Maintenance or Bulletin 3810325, Exhaust - Gas Turbocharger, RR-151-12, Instructions for Operation and Maintenance.
 
 ![[tb800jb.png]]
 
@@ -117,7 +117,7 @@ tags:
 | RR-153 |  | 0.55 | Макс | 0.021 |
 | RR-151 |  | 0.75 | Макс | 0.030 |
 
-Если радиальный зазор превышает спецификацию, деталь  должна быть заменена или перестроена. См. Bulletin 3810235, Exhaust - Gas Turbocharger, RR-153, Instructions for operation and Maintenance or Bulletin Number 3810315, Exhaust - Gas Turbocharger, RR-151-12, Instructions for Operation and Maintenance.
+Если радиальный зазор превышает спецификацию, деталь должна быть заменена или перестроена. См. Bulletin 3810235, Exhaust - Gas Turbocharger, RR-153, Instructions for operation and Maintenance or Bulletin Number 3810315, Exhaust - Gas Turbocharger, RR-151-12, Instructions for Operation and Maintenance.
 
 ![[tb800ja.png]]
 
@@ -132,7 +132,7 @@ tags:
 | 0.10 | Мин | 0.004 |
 | 0.23 | Макс | 0.009 |
 
-Если конечный зазор превышает технические характеристики, турбокомпрессор  должен быть заменен или перестроен. См. Bulletin 33379091, Turbocharger Component Shop Manual, for rebuild instructions.
+Если конечный зазор превышает технические характеристики, турбокомпрессор должен быть заменен или перестроен. См. Bulletin 33379091, Turbocharger Component Shop Manual, for rebuild instructions.
 
 ![[tb800jb.png]]
 

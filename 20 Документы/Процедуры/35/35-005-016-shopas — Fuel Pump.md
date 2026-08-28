@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-005-016-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-005-016-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Fuel Pump
@@ -35,34 +37,70 @@ tags:
 > **Даты:** изменён 2011-09-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-005-016-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-005-016-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install the jaw coupling spider, a new mounting gasket, and fuel pump.
 
-Install the four mounting capscrews.
+### Установка
+
+Установите челюсть сцепляющего паука, новую монтажную прокладку и топливный насос.
+
+Установите четыре крепежных болта.
 
 ![[gr8hsha.png]]
 
-Install the two fuel pump support brackets to cylinder block bracket capscrews.
+Установите два топливных кронштейна поддержки насоса на цилиндр блок болтов.
 
-Tighten the support bracket to engine mounting capscrews.
+Закрепите опорный кронштейн на болтах крепления двигателя.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
-Tighten the fuel pump mounting capscrews.
+Затянуть болты для установки топливного насоса.
 
-> [!tip] Момент затяжки · Torque Value
-> 47 n•m [35 ft-lb]
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
 
 ![[fp2bkhe.png]]
 
-Connect the fuel plumbing.
+Подключите водопровод.
 
-Connect the electric wire to the shutoff solenoid.
+Подключите электрический провод к выключенному соленоиду.
 
-Connect the battery cables.
+Подсоедините провода аккумуляторных батарей.
 
-Start the engine and check for leaks.
+Запустите двигатель и проверьте наличие утечек.
 
 ![[fv2swka.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Install the jaw coupling spider, a new mounting gasket, and fuel pump.
+>
+> Install the four mounting capscrews.
+>
+> Install the two fuel pump support brackets to cylinder block bracket capscrews.
+>
+> Tighten the support bracket to engine mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Tighten the fuel pump mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Connect the fuel plumbing.
+>
+> Connect the electric wire to the shutoff solenoid.
+>
+> Connect the battery cables.
+>
+> Start the engine and check for leaks.

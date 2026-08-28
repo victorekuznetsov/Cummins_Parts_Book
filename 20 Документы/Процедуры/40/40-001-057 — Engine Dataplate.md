@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 9
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-057.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-057.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Engine Dataplate
@@ -33,92 +35,174 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-001-057.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-001-057.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Front Gear Train
 
-The engine data plate is typically located on the front gear housing next to the fuel injection pump.
+### Общие сведения
 
-Two types of data plates are typically used:
+Поезд Front Gear
 
-1. Metal stamped data plate which is riveted in place
-2. A printed plastic data plate label adhered in place.
+Табличка данных двигателя обычно расположена на передней коробке передач рядом с насосом для впрыска топлива.
 
-If the data plate is damaged, missing or incorrect, contact your local Cummins Inc. Service location to obtain a new data plate.
+Обычно используются два типа пластин данных:
+
+1. Металлическая штампованная табличка с данными, которая заклепана на месте
+2. На месте была нанесена печатная пластиковая табличка с данными.
+
+Если номерной знак поврежден, отсутствует или некорректен, обратитесь в местную компанию Cummins Inc. Местоположение службы для получения новой таблички с данными.
 
 ![[00900060.png]]
 
-Rear Gear Train
+Поезд Rear Gear
 
-The engine data plate is typically located on the rocker lever cover, but may be located on the gear housing.
+Тарелка данных двигателя обычно расположена на крышке рычага качения клапанного клапана, но может быть расположена на корпусе зубчатой передачи.
 
-Two types of data plates are typically used:
+Обычно используются два типа пластин данных:
 
-1. Metal stamped data plate which is riveted in place
-2. A printed plastic data plate label adhered in place.
+1. Металлическая штампованная табличка с данными, которая заклепана на месте
+2. На месте была нанесена печатная пластиковая табличка с данными.
 
-If the data plate is damaged, missing or incorrect, contact your local Cummins Inc. Service location to obtain a new data plate.
+Если номерной знак поврежден, отсутствует или некорректен, обратитесь в местную компанию Cummins Inc. Местоположение службы для получения новой таблички с данными.
 
 ![[00d00076.png]]
 
-### Remove
+### Снятие
 
-For metal stamped dataplates, remove the rivets securing the engine data plate.
+Для металлических штампованных табличек с данными удалите заклепки, защищающие пластину данных двигателя.
 
-> [!note] Note · Примечание
-> If the data plate is to be reused, care **must** be taken **not** damage the data on the plate.
+> [!note] Примечание
+> Если тарелка данных должна быть повторно использована, следует позаботиться о том, чтобы она не повредила данные на тарелке.
 
-Using a flat chisel and hammer, drive the chisel under the head of the rivet to pry the rivet out.
+Используя плоский долот и молоток, прогоните долото под головой клепки, чтобы вырвать клепку.
 
 ![[ap900mb.png]]
 
-For printed plastic dataplates, using the sharp edge of a gasket scraper, peel up a corner of the data plate. Then pull on the corner to remove the data plate.
+Для печатных пластиковых табличек, используя острый край прокладки скребка, отслаивают угол пластины данных. Затем нажмите на угол, чтобы удалить пластину данных.
 
-> [!note] Note · Примечание
-> In most instances the data plate will be damaged during removal, contact your local Cummins Inc. Service location to obtain a new data plate.
+> [!note] Примечание
+> В большинстве случаев, когда номерной знак будет поврежден во время удаления, обратитесь в местную компанию Cummins Inc. Местоположение службы для получения новой таблички с данными.
 
 ![[00d00073.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Using solvent, clean the area where the data plate will be mounted.
+Используя растворитель, очистите область, где будет установлена табличка с данными.
 
-Remove any left over adhesive from the printed plastic data plate. Use solvent with an abrasive pad, Part Number 3823258 or equivalent.
+Удалите все, что осталось от клея, из печатной пластиковой пластины данных. Используйте растворитель с абразивной прокладкой, номером части 3823258 или эквивалентом.
 
-Dry with compressed air.
+Просушите сжатым воздухом.
 
 ![[03d00051.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> When drilling holes for the data plate location, do not completely drill through the mounting location. Only drill deep enough to install the new blind rivets. Drill through will result in an oil leak.
+> [!warning] ОСТОРОЖНО
+> При бурении отверстий для расположения пластины данных не полностью просверливайте место установки. Только просверлить достаточно глубоко, чтобы установить новые заклепки. Пролив через бурение приведет к утечке масла.
 
-For metal stamped dataplates, if attaching the data plate to a new component or if the old rivet locations are damaged, drill new holes and attach with new blind rivets.
+Для металлических штампованных табличек, если прикрепление пластины данных к новому компоненту или если старые места заклепки повреждены, просверлите новые отверстия и прикрепите новые слепые заклепки.
 
-> [!note] Note · Примечание
-> The data plate should be located in the same area as it was previously installed.
+> [!note] Примечание
+> Табличка данных должна располагаться в том же районе, в котором она была установлена ранее.
 
 ![[ap900xa.png]]
 
-Install the data plate with new blind rivets. Drive the rivets until they contact the data plate.
+Установите табличку с новыми слепыми заклепками. Ведите заклепки, пока они не свяжутся с пластиной данных.
 
 ![[ap900hc.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not drive the rivets too far, they will cut through and damage the data plate.
+> [!warning] ОСТОРОЖНО
+> Не загоняйте заклепки слишком далеко, они прорежут и повредят пластину данных.
 
 ![[gh9plva.png]]
 
-For printed plastic dataplates, peel the backing off of the new data plate. Apply the new data plate to the appropriate mounting surface. Rub the data plate with a clean rag to work out any air bubbles and to adhere the data plate to the mounting surface.
+Для печатных пластиковых табличек отслаивайтесь от новой пластины данных. Нанесите новую табличку данных на соответствующую монтажную поверхность. Натирайте пластину данных чистой тряпкой, чтобы проработать любые пузырьки воздуха и приклеить пластину данных к монтажной поверхности.
 
-> [!note] Note · Примечание
-> The data plate should be located in the same area as it was previously installed.
+> [!note] Примечание
+> Табличка данных должна располагаться в том же районе, в котором она была установлена ранее.
 
 ![[00d00073.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Front Gear Train
+>
+> The engine data plate is typically located on the front gear housing next to the fuel injection pump.
+>
+> Two types of data plates are typically used:
+>
+> 1. Metal stamped data plate which is riveted in place
+> 2. A printed plastic data plate label adhered in place.
+>
+> If the data plate is damaged, missing or incorrect, contact your local Cummins Inc. Service location to obtain a new data plate.
+>
+> Rear Gear Train
+>
+> The engine data plate is typically located on the rocker lever cover, but may be located on the gear housing.
+>
+> Two types of data plates are typically used:
+>
+> 1. Metal stamped data plate which is riveted in place
+> 2. A printed plastic data plate label adhered in place.
+>
+> If the data plate is damaged, missing or incorrect, contact your local Cummins Inc. Service location to obtain a new data plate.
+>
+> ### Remove
+>
+> For metal stamped dataplates, remove the rivets securing the engine data plate.
+>
+> **Note · Примечание**
+> If the data plate is to be reused, care **must** be taken **not** damage the data on the plate.
+>
+> Using a flat chisel and hammer, drive the chisel under the head of the rivet to pry the rivet out.
+>
+> For printed plastic dataplates, using the sharp edge of a gasket scraper, peel up a corner of the data plate. Then pull on the corner to remove the data plate.
+>
+> **Note · Примечание**
+> In most instances the data plate will be damaged during removal, contact your local Cummins Inc. Service location to obtain a new data plate.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Using solvent, clean the area where the data plate will be mounted.
+>
+> Remove any left over adhesive from the printed plastic data plate. Use solvent with an abrasive pad, Part Number 3823258 or equivalent.
+>
+> Dry with compressed air.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> When drilling holes for the data plate location, do not completely drill through the mounting location. Only drill deep enough to install the new blind rivets. Drill through will result in an oil leak.
+>
+> For metal stamped dataplates, if attaching the data plate to a new component or if the old rivet locations are damaged, drill new holes and attach with new blind rivets.
+>
+> **Note · Примечание**
+> The data plate should be located in the same area as it was previously installed.
+>
+> Install the data plate with new blind rivets. Drive the rivets until they contact the data plate.
+>
+> **CAUTION · Осторожно**
+> Do not drive the rivets too far, they will cut through and damage the data plate.
+>
+> For printed plastic dataplates, peel the backing off of the new data plate. Apply the new data plate to the appropriate mounting surface. Rub the data plate with a clean rag to work out any air bubbles and to adhere the data plate to the mounting surface.
+>
+> **Note · Примечание**
+> The data plate should be located in the same area as it was previously installed.

@@ -14,13 +14,15 @@ families:
 manuals:
   - "4021499"
 figures: 24
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-036-tr.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-008-036-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K19"
   - "группа/18"
+  - "перевод/машинный"
 ---
 
 # Fan Hub, Belt Driven
@@ -34,291 +36,542 @@ tags:
 > **Даты:** изменён 2022-09-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-008-036-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-008-036-tr.pdf)
 
-### Preparatory Steps
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-- Remove the cooling fan. Refer to Procedure 008-040.
-- Remove the cooling fan drive belt. [[18-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002]].
+
+### Подготовительные операции
+
+- Удалите охлаждающий вентилятор. См. процедуру 008-040.
+- Удалите ремень привода охлаждающего вентилятора.[[18-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002]].
 
 ![[ck800wa.png]]
 
-### Remove
+### Снятие
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-Remove the seven fan hub mounting nuts and remove the fan hub.
+Удалите семь крепежных гаек вентилятора и удалите вентиляторный центр.
 
-Remove the o-ring (4) and seal (5).
+Удалите кольцо (4) и уплотнение (5).
 
-Discard the o-ring and seal.
+Отбросьте кольцо и уплотнение.
 
 ![[fa4bdha.png]]
 
-### Inspect for Reuse
+### Проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Clean the fan hub with solvent.
+Очистите вентиляторный хаб растворителем.
 
-Rotate the pulley to check for rough or damaged bearings.
+Поверните шкив, чтобы проверить наличие грубых или поврежденных подшипников.
 
-Check the grease seals for damage.
+Проверьте уплотнения для жира на предмет повреждения.
 
-Check the bearing end clearance.
+Проверьте конечный зазор подшипника.
 
-| Belt Driven Fan Hub Bearing End Clearance |  |  |
+| Запуск поворотного флангового хаба Bearing End Clearance |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.08 | MIN | 0.003 |
-| 0.41 | MAX | 0.016 |
+| мм |  | в |
+| 0.08 | Мин | 0.003 |
+| 0.41 | Макс | 0.016 |
 
-If the fan hub is **not** within specifications, the fan hub **must** be reconditioned
+Если фан-хаб **не** в пределах спецификаций, фан-хаб должен быть восстановлен.
 
 ![[fa400sa.png]]
 
-Make sure the o-ring (1) and seal (2) are removed.
+Убедитесь, что уплотнение (1) и уплотнение (2) удалены.
 
-Check the support (3) for damage.
+Проверьте поддержку (3) на наличие повреждений.
 
 ![[08400463.png]]
 
-Remove the pipe plugs (4).
+Удалите трубные пробки (4).
 
-Install a grease fitting in one of the pipe plug holes.
+Установите смазку, помещающуюся в одно из отверстий для заглушек труб.
 
-Using a grease gun, pump grease that meets the NGLI GC-LG wheel bearing grease requirements into the fan hub until it begins to come out of the open hole.
+Используя смазочный пистолет, смазка насоса, которая соответствует требованиям к смазке колеса NGLI GC-LG, до тех пор, пока она не начнет выходить из открытого отверстия.
 
-Remove the grease fitting.
+Удалите масляную подголовник.
 
-Install pipe plugs (4).
+Установите трубные пробки (4).
 
-Tighten the pipe plugs.
+Затяните трубы.
 
-> [!tip] Момент затяжки · Torque Value
-> 15 n•m [120 in-lb]
+> [!tip] Момент затяжки
+> 15 Н·м [120 фунт-дюйм]
 
 ![[08400465.png]]
 
-### Disassemble
+### Разборка
 
-Remove the listed parts:
+Удалите перечисленные части:
 
-- (1) Dust cover
-- (2) O-ring
-- (3) Locknut
-- (4) Washer.
+- (1) Пылевое покрытие
+- 2) О-кольцо
+- 3) Локнат
+- 4) Шайба.
 
 ![[08400452.png]]
 
-Remove the pulley assembly (6).
+Удалить шкивную сборку (6).
 
-Remove and tag the front roller bearing (5).
+Удалить и пометить передний роликовый подшипник (5).
 
 ![[08400453.png]]
 
-Turn the pulley assembly over and remove the listed parts:
+Переверните шкив и удалите перечисленные части:
 
-- (7) Seal
-- (5) Inner roller bearing
-- (8) Inner bearing spacer.
+- 7 Уплотнение
+- 5) Внутренний роликовый подшипник
+- 8) Внутренняя подшипниковая прокладка.
 
-> [!note] Note · Примечание
-> The outer bearing spacer can **not** be removed until the outer bearing race is removed.
+> [!note] Примечание
+> Наружный подшипниковый прокладочный аппарат может **не** быть удален до тех пор, пока не будет удалена внешняя подшипниковая гонка.
 
 ![[08400454.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear eye and face protection when removing the bearing races. The bearing races are hardened and can chip.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, используйте защиту глаз и лица при снятии подшипников. Подшипники гонок затвердевают и могут чип.
 
-> [!note] Note · Примечание
-> Do **not** remove the bearing race unless replacing the bearing.
+> [!note] Примечание
+> Не удаляйте подшипник, если только он не заменяет подшипник.
 
-Use a hammer and a drift to drive the rear bearing race (1) out of the pulley (2).
+Используйте молоток и дрейф, чтобы вытащить заднюю гонку (1) из шкива (2).
 
-Remove the outer bearing spacer (3).
+Удалить подшипник 3.
 
 ![[08400466.png]]
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear eye and face protection when removing the bearing races. The bearing races are hardened and can chip.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, используйте защиту глаз и лица при снятии подшипников. Подшипники гонок затвердевают и могут чип.
 
-> [!note] Note · Примечание
-> Do **not** remove the bearing race unless replacing the bearing.
+> [!note] Примечание
+> Не удаляйте подшипник, если только он не заменяет подшипник.
 
-Turn the pulley over.
+Переверни шкив.
 
-Use a hammer and drift to drive the front bearing race (4) out of the pulley.
+Используйте молоток и дрейф, чтобы вытащить переднюю гонку (4) из шкива.
 
 ![[08400467.png]]
 
-### Clean and Inspect for Reuse
+### Очистка и проверка при повторном использовании
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!warning] CAUTION · Осторожно
-> Do not allow the force of the compressed air to turn the bearing when cleaning. Bearing damage will result because of the lack of lubrication.
+> [!warning] ОСТОРОЖНО
+> Не допускайте, чтобы сила сжатого воздуха поворачивала подшипник при чистке. Повреждение подшипников будет вызвано отсутствием смазки.
 
-Clean the parts with solvent and dry with compressed air.
+Очистите детали растворителем и высушите сжатым воздухом.
 
-Inspect the bearings for wear.
+Осмотрите подшипники для ношения.
 
-If the bearings are worn, the bearings and bearing races **must** be replaced.
+Если подшипники изношены, подшипники и подшипники должны быть заменены.
 
 ![[08400455.png]]
 
-Check for shaft wear at the seal location.
+Проверьте износ вала в месте уплотнения.
 
-If the shaft is worn, it **must** be replaced.
+Если вал изношен, его следует заменить.
 
-Measure the shaft in the bearing location.
+Измерьте вал в месте подшипника.
 
-| Fan Hub Shaft Outside Diameter |  |  |
+| Фан Хаб Шафт снаружи диаметра |  |  |
 |---|---|---|
-| mm |  | in |
-| 34.912 | MIN | 1.375 |
-| 34.925 | MAX | 1.378 |
+| мм |  | в |
+| 34.912 | Мин | 1.375 |
+| 34.925 | Макс | 1.378 |
 
-If the shaft is **not** within specifications, it **must** be replaced.
+Если вал **не** в пределах спецификаций, он должен быть заменен.
 
 ![[08400456.png]]
 
-If the bearing races were removed, measure the inside diameter of the fan hub pulley at each side of the retaining ring.
+Если подшипниковые гонки были удалены, измерьте внутренний диаметр шкива вентилятора с каждой стороны удерживающего кольца.
 
-| Fan Hub Pulley Bore Inside Diameter |  |  |
+| Цилиндровый двигатель Fan Hub Pulley с внутренним диаметром |  |  |
 |---|---|---|
-| mm |  | in |
-| 65.049 | MIN | 2.561 |
-| 65.075 | MAX | 2.562 |
+| мм |  | в |
+| 65.049 | Мин | 2.561 |
+| 65.075 | Макс | 2.562 |
 
-If the fan hub pulley is **not** within specifications, it **must** be replaced.
+Если шкив фан-хаба **не** в спецификациях, его необходимо заменить.
 
 ![[08400468.png]]
 
-### Assemble
+### Сборка
 
-If the front bearing race was removed, use a mandrel (6) and a arbor press to install the front bearing race (4).
+Если передняя подшипниковая гонка была удалена, используйте подмандатную (6) и пресс-конструкцию для установки передней подшипниковой гонки (4).
 
-Push the bearing race into the bore until it touches the retaining ring.
+Подшипник гонку в цилиндр боро, пока он не коснется удерживающего кольца.
 
 ![[08400469.png]]
 
-If the rear bearing race was removed, install the outer bearing spacer (3). Push the spacer until it touches the front bearing race (4).
+Если задняя подшипниковая гонка была снята, установите внешний подшипниковый прокладочный элемент (3). Нажмите на прокладку, пока она не коснется передней подшипниковой гонки (4).
 
-Use a mandrel (6) and an arbor press to install the rear bearing race (1).
+Используйте подмандатную (6) и пресс-конструкцию для установки задней подшипниковой гонки (1).
 
-Push the race until it touches the spacer (3).
+Проталкивайте гонку до тех пор, пока она не коснется пропеллера (3).
 
-The spacer will **not** turn when the race is in the proper position.
+Пространство будет **не** поворачиваться, когда гонка находится в правильном положении.
 
 ![[08400470.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not lubricate the seal surface of the shaft. The seal and seal surface must be clean and dry.
+> [!warning] ОСТОРОЖНО
+> Не смазывайте уплотненную поверхность вала. Поверхность уплотнения и уплотнения должна быть чистой и сухой.
 
-Lubricate the bearing (5) with wheel bearing type grease that meets the NGLI GC-LG wheel bearing grease requirements and install it into the fan hub pulley.
+Смазать подшипник (5) смазкой типа подшипника колеса, которая соответствует требованиям к смазке подшипника колеса NGLI GC-LG, и установить его в шкив вентилятора.
 
-Install the seal (7) with a mandrel.
+Установите уплотнение (7) с помощью мангрели.
 
-The seal **must** be **not** more than 0.51 mm \[0.020 in\] below the top surface of the pulley.
+Уплотнение **должно быть **не более 0,51 мм \[0,020 дюйма \] ниже верхней поверхности шкива.
 
 ![[08400457.png]]
 
-Turn the pulley (6) over and install it onto the shaft. The rear bearing **must** slide easily onto the shaft.
+Переверните шкив (6) и установите его на вал. Задний подшипник **должен** легко скользить по валу.
 
-If it does **not** check the shaft for chips or burrs.
+Если это не так, проверьте вал на наличие чипов или заусениц.
 
-Install the inner bearing spacer (8).
+Установите внутренний подшипник (8).
 
-Fill the cavity between the spacer and the pulley with water pump type grease.
+Заполните полость между спейсером и шкивом смазкой типа водяного насоса.
 
 ![[08400458.png]]
 
-Lubricate the front bearing with grease that meets the NGLI GC-LG wheel bearing grease requirements.
+Смазать передний подшипник смазкой, которая соответствует требованиям к колесной подшипниковой смазке NGLI GC-LG.
 
-Install the front bearing into the fan hub.
+Установите передний подшипник в вентиляторный узел.
 
-The bearing **must** slide easily over the shaft. If it does **not** check the shaft for chips or burrs.
+Подшипник **должен **легко скользить по валу. Если это не так, проверьте вал на наличие чипов или заусениц.
 
 ![[08400459.png]]
 
-Install the washer (4) and locknut (3).
+Установите шайбу (4) и шприц (3).
 
-Tighten the locknut.
+Затяните локон.
 
-> [!tip] Момент затяжки · Torque Value
-> 205 n•m [150 ft-lb]
+> [!tip] Момент затяжки
+> 205 Н·м [150 фунт-фут]
 
 ![[08400460.png]]
 
-Measure the bearing end clearance with a dial indicator.
+Измерить оконечный зазор подшипника с помощью индикатора циферблата.
 
-| Belt Driven Fan Hub Bearing End Clearance |  |  |
+| Запуск поворотного флангового хаба Bearing End Clearance |  |  |
 |---|---|---|
-| mm |  | in |
-| 0.08 | MIN | 0.003 |
-| 0.41 | MAX | 0.016 |
+| мм |  | в |
+| 0.08 | Мин | 0.003 |
+| 0.41 | Макс | 0.016 |
 
-If the clearance is **not** within specifications, make sure the spacer has been installed correctly.
+Если зазор **не** в пределах спецификаций, убедитесь, что прокладка была установлена правильно.
 
-The bearings **must** touch both of the bearing spacers.
+Подшипники **должны **касаться обоих подшипников.
 
 ![[08400461.png]]
 
-> [!warning] CAUTION · Осторожно
-> Do not use more grease than specified. Too much grease will cause overheating and failure.
+> [!warning] ОСТОРОЖНО
+> Не используйте больше смазки, чем указано. Слишком много жира вызовет перегрев и сбой.
 
-Fill the cavity of the pulley to the top of the locknut with grease that meets the NGLI GC-LG wheel bearing grease requirements.
+Заполните полость шкива к верхней части локона жиром, который соответствует требованиям к смазке колеса NGLI GC-LG.
 
-Install the o-ring (2) onto the dust cover (1).
+Установите кольцо (2) на пылевую крышку (1).
 
-Lubricate the o-ring with vegetable oil.
+Смазать кольцо о-кольцом растительным маслом.
 
-Install the dust cover.
+Установите пылевое покрытие.
 
 ![[08400462.png]]
 
-### Install
+### Установка
 
-> [!danger] WARNING · Опасно
-> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+> [!danger] ОПАСНО
+> Этот компонент весит 23 кг[50 фунтов] или более. Чтобы уменьшить вероятность получения травмы, используйте подъемник или получите помощь в подъеме этого компонента.
 
-If the studs have been removed check the protrusion.
+Если шпильки были удалены, проверьте выступ.
 
-| Stud Protrusion From Front Cover |  |  |
+| Протрузия шпильки от Front Cover |  |  |
 |---|---|---|
-| mm |  | in |
-| 50.17 | MIN | 1.975 |
-| 51.44 | MAX | 2.025 |
+| мм |  | в |
+| 50.17 | Мин | 1.975 |
+| 51.44 | Макс | 2.025 |
 
-Lubricate the o-ring (4) and seal ring (5) with vegetable oil.
+Смазать кольцо (4) и кольцо (5) тюленя растительным маслом.
 
-Install the o-ring and seal ring into the fan hub.
+Установите кольцо и кольцо уплотнения в вентиляторный центр.
 
-Install the fan hub and seven lock washers and nuts.
+Установите вентиляторный хаб и семь шайб и гаек.
 
-Tighten the nuts.
+Затяните гайки.
 
-> [!tip] Момент затяжки · Torque Value
-> 35 n•m [25 ft-lb]
+> [!tip] Момент затяжки
+> 35 Н·м [25 фунт-фут]
 
 ![[fa4bdha.png]]
 
-### Finishing Steps
+### Завершающие операции
 
-- Install the cooling fan drive belt. [[18-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002]].
-- Install the cooling fan. Refer to Procedure 008-040.
+- Установите ремень привода охлаждающего вентилятора.[[18-008-002-tr — Drive Belt, Cooling Fan|См. процедуру 008-002]].
+- Установите охлаждающий вентилятор. См. процедуру 008-040.
 
 ![[ck800wa.png]]
 
-### Inspect
+### Осмотр
 
-Every 6000 hours or 2 years inspect the fan hub for wobble and grease leakage. Replace with a new or rebuilt unit as necessary.
+Каждые 6000 часов или 2 года осмотрите вентиляторный узел на наличие колебания и утечки смазки. Заменить на новый или восстановленный блок по мере необходимости.
 
-Refer to a Cummins Authorized Repair Location for removal and replacement or fan hub.
+См. авторизованное место ремонта Cummins для удаления и замены или вентиляторного узла.
 
 ![[fa400sa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Preparatory Steps
+>
+> - Remove the cooling fan. Refer to Procedure 008-040.
+> - Remove the cooling fan drive belt. [[18-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002]].
+>
+> ### Remove
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> Remove the seven fan hub mounting nuts and remove the fan hub.
+>
+> Remove the o-ring (4) and seal (5).
+>
+> Discard the o-ring and seal.
+>
+> ### Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Clean the fan hub with solvent.
+>
+> Rotate the pulley to check for rough or damaged bearings.
+>
+> Check the grease seals for damage.
+>
+> Check the bearing end clearance.
+>
+> | Belt Driven Fan Hub Bearing End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.08 | MIN | 0.003 |
+> | 0.41 | MAX | 0.016 |
+>
+> If the fan hub is **not** within specifications, the fan hub **must** be reconditioned
+>
+> Make sure the o-ring (1) and seal (2) are removed.
+>
+> Check the support (3) for damage.
+>
+> Remove the pipe plugs (4).
+>
+> Install a grease fitting in one of the pipe plug holes.
+>
+> Using a grease gun, pump grease that meets the NGLI GC-LG wheel bearing grease requirements into the fan hub until it begins to come out of the open hole.
+>
+> Remove the grease fitting.
+>
+> Install pipe plugs (4).
+>
+> Tighten the pipe plugs.
+>
+> **Момент затяжки · Torque Value**
+> 15 n•m [120 in-lb]
+>
+> ### Disassemble
+>
+> Remove the listed parts:
+>
+> - (1) Dust cover
+> - (2) O-ring
+> - (3) Locknut
+> - (4) Washer.
+>
+> Remove the pulley assembly (6).
+>
+> Remove and tag the front roller bearing (5).
+>
+> Turn the pulley assembly over and remove the listed parts:
+>
+> - (7) Seal
+> - (5) Inner roller bearing
+> - (8) Inner bearing spacer.
+>
+> **Note · Примечание**
+> The outer bearing spacer can **not** be removed until the outer bearing race is removed.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear eye and face protection when removing the bearing races. The bearing races are hardened and can chip.
+>
+> **Note · Примечание**
+> Do **not** remove the bearing race unless replacing the bearing.
+>
+> Use a hammer and a drift to drive the rear bearing race (1) out of the pulley (2).
+>
+> Remove the outer bearing spacer (3).
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear eye and face protection when removing the bearing races. The bearing races are hardened and can chip.
+>
+> **Note · Примечание**
+> Do **not** remove the bearing race unless replacing the bearing.
+>
+> Turn the pulley over.
+>
+> Use a hammer and drift to drive the front bearing race (4) out of the pulley.
+>
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **CAUTION · Осторожно**
+> Do not allow the force of the compressed air to turn the bearing when cleaning. Bearing damage will result because of the lack of lubrication.
+>
+> Clean the parts with solvent and dry with compressed air.
+>
+> Inspect the bearings for wear.
+>
+> If the bearings are worn, the bearings and bearing races **must** be replaced.
+>
+> Check for shaft wear at the seal location.
+>
+> If the shaft is worn, it **must** be replaced.
+>
+> Measure the shaft in the bearing location.
+>
+> | Fan Hub Shaft Outside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 34.912 | MIN | 1.375 |
+> | 34.925 | MAX | 1.378 |
+>
+> If the shaft is **not** within specifications, it **must** be replaced.
+>
+> If the bearing races were removed, measure the inside diameter of the fan hub pulley at each side of the retaining ring.
+>
+> | Fan Hub Pulley Bore Inside Diameter |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 65.049 | MIN | 2.561 |
+> | 65.075 | MAX | 2.562 |
+>
+> If the fan hub pulley is **not** within specifications, it **must** be replaced.
+>
+> ### Assemble
+>
+> If the front bearing race was removed, use a mandrel (6) and a arbor press to install the front bearing race (4).
+>
+> Push the bearing race into the bore until it touches the retaining ring.
+>
+> If the rear bearing race was removed, install the outer bearing spacer (3). Push the spacer until it touches the front bearing race (4).
+>
+> Use a mandrel (6) and an arbor press to install the rear bearing race (1).
+>
+> Push the race until it touches the spacer (3).
+>
+> The spacer will **not** turn when the race is in the proper position.
+>
+> **CAUTION · Осторожно**
+> Do not lubricate the seal surface of the shaft. The seal and seal surface must be clean and dry.
+>
+> Lubricate the bearing (5) with wheel bearing type grease that meets the NGLI GC-LG wheel bearing grease requirements and install it into the fan hub pulley.
+>
+> Install the seal (7) with a mandrel.
+>
+> The seal **must** be **not** more than 0.51 mm \[0.020 in\] below the top surface of the pulley.
+>
+> Turn the pulley (6) over and install it onto the shaft. The rear bearing **must** slide easily onto the shaft.
+>
+> If it does **not** check the shaft for chips or burrs.
+>
+> Install the inner bearing spacer (8).
+>
+> Fill the cavity between the spacer and the pulley with water pump type grease.
+>
+> Lubricate the front bearing with grease that meets the NGLI GC-LG wheel bearing grease requirements.
+>
+> Install the front bearing into the fan hub.
+>
+> The bearing **must** slide easily over the shaft. If it does **not** check the shaft for chips or burrs.
+>
+> Install the washer (4) and locknut (3).
+>
+> Tighten the locknut.
+>
+> **Момент затяжки · Torque Value**
+> 205 n•m [150 ft-lb]
+>
+> Measure the bearing end clearance with a dial indicator.
+>
+> | Belt Driven Fan Hub Bearing End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.08 | MIN | 0.003 |
+> | 0.41 | MAX | 0.016 |
+>
+> If the clearance is **not** within specifications, make sure the spacer has been installed correctly.
+>
+> The bearings **must** touch both of the bearing spacers.
+>
+> **CAUTION · Осторожно**
+> Do not use more grease than specified. Too much grease will cause overheating and failure.
+>
+> Fill the cavity of the pulley to the top of the locknut with grease that meets the NGLI GC-LG wheel bearing grease requirements.
+>
+> Install the o-ring (2) onto the dust cover (1).
+>
+> Lubricate the o-ring with vegetable oil.
+>
+> Install the dust cover.
+>
+> ### Install
+>
+> **WARNING · Опасно**
+> This component weighs 23 kg \[50 lb\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift this component.
+>
+> If the studs have been removed check the protrusion.
+>
+> | Stud Protrusion From Front Cover |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 50.17 | MIN | 1.975 |
+> | 51.44 | MAX | 2.025 |
+>
+> Lubricate the o-ring (4) and seal ring (5) with vegetable oil.
+>
+> Install the o-ring and seal ring into the fan hub.
+>
+> Install the fan hub and seven lock washers and nuts.
+>
+> Tighten the nuts.
+>
+> **Момент затяжки · Torque Value**
+> 35 n•m [25 ft-lb]
+>
+> ### Finishing Steps
+>
+> - Install the cooling fan drive belt. [[18-008-002-tr — Drive Belt, Cooling Fan|Refer to Procedure 008-002]].
+> - Install the cooling fan. Refer to Procedure 008-040.
+>
+> ### Inspect
+>
+> Every 6000 hours or 2 years inspect the fan hub for wobble and grease leakage. Replace with a new or rebuilt unit as necessary.
+>
+> Refer to a Cummins Authorized Repair Location for removal and replacement or fan hub.

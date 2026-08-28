@@ -13,13 +13,15 @@ families:
   - "QSX15"
 manuals:
   - "4960314"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-205-001-owner.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-205-001-owner.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Additional Service Literature
@@ -33,24 +35,56 @@ tags:
 > **Даты:** изменён 2009-12-10
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-205-001-owner.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-205-001-owner.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The following publications can be purchased:
 
-| Bulletin Number | Title of Publication |
+### Общие сведения
+
+Можно приобрести следующие публикации:
+
+| Номер бюллетеня | Название публикации |
 |---|---|
-| [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] | Signature™, ISX, and QSX15 Engines Service Manual |
-| 4021560 | Electronic Control System, Troubleshooting and Repair Manual, ISM 876 and ISX CM871 |
-| [[5613122 — ISX CM570 Fault Code Troubleshooting Manual Change History\|5613122]] | ISX CM570 Fault Code Troubleshooting Manual |
-| [[5613123 — QSX15 CM570 Fault Code Troubleshooting Manual Change History\|5613123]] | QSX15 CM570 Fault Code Troubleshooting Manual |
-| 4021334 | Troubleshooting and Repair Manual, CM870 Electronic Control System, Signature™ and ISX Engines |
-| 4021341 | Signature™ and ISX CM870 Control Module Wiring Diagram |
-| 4021575 | ISX CM871 Wiring Diagram |
-| 3666268 | Signature™ and ISX Wiring Diagram |
-| 3379000 | Air for Your Engines |
-| 3379001 | Fuels for Cummins® Engines |
-| 3379009 | Operation of Diesel Engines in Cold Climates |
-| 3387266 | Cold Weather Operation |
-| 3666132 | Coolant Requirements and Maintenance Bulletin |
-| 3666209 | Cooling System Maintenance Extended Interval |
-| 3810340 | Cummins® Engine Oil Recommendations |
+| [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] | Руководство по обслуживанию двигателей SignatureTM, ISX и QSX15 |
+| 4021560 | Электронная система управления, руководство по устранению неполадок и ремонту, ISM 876 и ISX CM871 |
+| [[5613122 — ISX CM570 Fault Code Troubleshooting Manual Change History\|5613122]] | ISX CM570 Руководство по устранению неисправностей кода |
+| [[5613123 — QSX15 CM570 Fault Code Troubleshooting Manual Change History\|5613123]] | QSX15 CM570 Руководство по устранению неисправностей кода |
+| 4021334 | Руководство по устранению неполадок и ремонту, электронная система управления CM870, подпись TM и двигатели ISX |
+| 4021341 | SignatureTM и ISX CM870 Control Module Wiring Diagram |
+| 4021575 | ISX CM871 Диаграмма проводов |
+| 3666268 | SignatureTM и ISX Wiring Diagram |
+| 3379000 | Воздух для ваших двигателей |
+| 3379001 | Топливо для двигателей Cummins® |
+| 3379009 | Эксплуатация дизельных двигателей в холодном климате |
+| 3387266 | Холодная погода Операция |
+| 3666132 | Требования к охлаждению и бюллетень технического обслуживания |
+| 3666209 | Система охлаждения для обслуживания расширенный интервал |
+| 3810340 | Рекомендации по моторному маслу Cummins® |
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> The following publications can be purchased:
+>
+> | Bulletin Number | Title of Publication |
+> |---|---|
+> | [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] | Signature™, ISX, and QSX15 Engines Service Manual |
+> | 4021560 | Electronic Control System, Troubleshooting and Repair Manual, ISM 876 and ISX CM871 |
+> | [[5613122 — ISX CM570 Fault Code Troubleshooting Manual Change History\|5613122]] | ISX CM570 Fault Code Troubleshooting Manual |
+> | [[5613123 — QSX15 CM570 Fault Code Troubleshooting Manual Change History\|5613123]] | QSX15 CM570 Fault Code Troubleshooting Manual |
+> | 4021334 | Troubleshooting and Repair Manual, CM870 Electronic Control System, Signature™ and ISX Engines |
+> | 4021341 | Signature™ and ISX CM870 Control Module Wiring Diagram |
+> | 4021575 | ISX CM871 Wiring Diagram |
+> | 3666268 | Signature™ and ISX Wiring Diagram |
+> | 3379000 | Air for Your Engines |
+> | 3379001 | Fuels for Cummins® Engines |
+> | 3379009 | Operation of Diesel Engines in Cold Climates |
+> | 3387266 | Cold Weather Operation |
+> | 3666132 | Coolant Requirements and Maintenance Bulletin |
+> | 3666209 | Cooling System Maintenance Extended Interval |
+> | 3810340 | Cummins® Engine Oil Recommendations |

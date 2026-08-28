@@ -15,7 +15,8 @@ families:
 manuals:
   - "3666415"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-295.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-295.pdf"
 tags:
@@ -23,6 +24,7 @@ tags:
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "группа/97"
+  - "перевод/машинный"
 ---
 
 # Cab Thermostat Harness
@@ -35,32 +37,64 @@ tags:
 > **Даты:** изменён 2003-06-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/97/97-019-295.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/97-019-295.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Turn the keyswitch to the OFF position.
 
-Disconnect the cab thermostat harness from the cab thermostat.
+### Снятие
 
-This connection location typically can be found behind the panel where the thermostat is mounted.
+Переведите замок зажигания в положение OFF.
+
+Отсоедините проводку термостата кабины от термостата кабины.
+
+Это место соединения обычно можно найти за панелью, где установлен термостат.
 
 ![[19802871.png]]
 
-Disconnect the cab thermostat harness from the cab harness.
+Отсоедините термостат кабины от электропроводки кабины.
 
-Remove the cab thermostat harness.
+Снимите с кабины термостат проводов ремня.
 
-This harness is typically located under or in the dash, on the driver's side of the cab.
+Эта проводка, как правило, расположена под или в приборной панели, на стороне водителя кабины.
 
 ![[15800049.png]]
 
-### Install
+### Установка
 
-Turn the keyswitch to the OFF position.
+Переведите замок зажигания в положение OFF.
 
-Connect the cab thermostat harness to the cab harness.
+Подключите кабину термостата к кабине проводов.
 
 ![[15800049.png]]
 
-Connect the cab thermostat harness to the cab thermostat.
+Подключите кабину термостата к кабине термостата.
 
 ![[19802871.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> Turn the keyswitch to the OFF position.
+>
+> Disconnect the cab thermostat harness from the cab thermostat.
+>
+> This connection location typically can be found behind the panel where the thermostat is mounted.
+>
+> Disconnect the cab thermostat harness from the cab harness.
+>
+> Remove the cab thermostat harness.
+>
+> This harness is typically located under or in the dash, on the driver's side of the cab.
+>
+> ### Install
+>
+> Turn the keyswitch to the OFF position.
+>
+> Connect the cab thermostat harness to the cab harness.
+>
+> Connect the cab thermostat harness to the cab thermostat.

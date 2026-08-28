@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-022-001_11.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-022-001_11.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Service Tools
@@ -35,6 +37,14 @@ tags:
 > **Даты:** изменён 2005-06-30
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-022-001_11.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-022-001_11.pdf)
 
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
 ![[eg100ja-h.png]]
 
 ![[3377132.png]]
@@ -43,8 +53,16 @@ tags:
 
 ![[ks8toge.png]]
 
-| **Tool Number** ST-1111-3 | **Manometer** Used to measure exhaust restriction. |  |
+| **Инструментальный номер** ST-1111-3 | **Манометр** Используется для измерения ограничения выхлопных газов. |  |
 |---|---|---|
-| **Tool Number** 3824879 | **Anti-Seize Compound** Used to speed assembly and disassembly of studs, bolts, capscrews, flanges, and fittings. |  |
-| **Tool Number** 3375958 | **Nylon Lifting Sling (2 in x 6 ft)** Aid in the removal and installation of heavy components. |  |
-| **Tool Number** 3375957 | **Nylon Lift Strap (1 in x 6 ft)** Aid in the removal and installation of heavy components. |  |
+| **Инструментальный номер **3824879 | **Антиразмерное соединение** Используется для ускорения сборки и разборки шпиль, болтов, болтов, фланцев и фитингов. |  |
+| **Номер инструмента **3375958 | **Нилонная подъёмная повязка (2 х 6 футов)** Помощь в удалении и установке тяжёлых компонентов. |  |
+| **Инструментальный номер **3375957 | **Нилоновый лифт (1 х 6 футов)** Помощь в удалении и установке тяжелых компонентов. |  |
+
+
+> [!quote]- Original (English) · английский оригинал
+> | **Tool Number** ST-1111-3 | **Manometer** Used to measure exhaust restriction. |  |
+> |---|---|---|
+> | **Tool Number** 3824879 | **Anti-Seize Compound** Used to speed assembly and disassembly of studs, bolts, capscrews, flanges, and fittings. |  |
+> | **Tool Number** 3375958 | **Nylon Lifting Sling (2 in x 6 ft)** Aid in the removal and installation of heavy components. |  |
+> | **Tool Number** 3375957 | **Nylon Lift Strap (1 in x 6 ft)** Aid in the removal and installation of heavy components. |  |

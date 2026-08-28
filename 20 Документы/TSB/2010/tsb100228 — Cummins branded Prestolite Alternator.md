@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100228.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100228.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Cummins branded Prestolite Alternator
@@ -25,19 +27,46 @@ tags:
 > **Даты:** изменён 2003-09-08
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100228.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100228.pdf)
 
-## Cummins branded Prestolite Alternator
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Cummins выпустили новый Prestolite Alternator
 
-### Contents
+### Положение о гарантии
 
-This Service Parts Topic is to introduce the new brushless Cummins Branded Prestolite alternator on QSK45 and QSK60 industrial engines. The new brushless alternator was introduced to improve reliability in high vibration and dusty environments found in industrial applications. Cummins Branded Delco 31SI alternator part number 4016557 has been obsoleted and superceded by the Cummins Branded Prestolite part number 4100763.
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-When installing part number 4100763 in place of part number 4016557 mounting flange part number 3094584 must also be installed.
+### Содержание
 
-ESN first was 33152994 built October 21, 2002.
+Тематика Сервисных частей заключается в том, чтобы представить новый бесщеточный престолитовый генератор Cummins на промышленных двигателях QSK45 и QSK60. Новый бесщеточный генератор был введен для повышения надежности в условиях высокой вибрации и пыли, которые используются в промышленности. Части генератора переменного тока Cummins Branded Delco 31SI под номером 4016557 были устарели и заменены на части Cummins Branded Prestolite под номером 4100763.
 
-> [!note] Note · Примечание
+При установке части № 4100763 вместо части № 4016557 также должна быть установлена крепежная фланцевая номер детали 3094584.
+
+ESN был построен 21 октября 2002 года и имел номер 33152994.
+
+> [!note] Примечание
+> Это улучшение продукта не подлежит кампании.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Cummins branded Prestolite Alternator
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service Parts Topic is to introduce the new brushless Cummins Branded Prestolite alternator on QSK45 and QSK60 industrial engines. The new brushless alternator was introduced to improve reliability in high vibration and dusty environments found in industrial applications. Cummins Branded Delco 31SI alternator part number 4016557 has been obsoleted and superceded by the Cummins Branded Prestolite part number 4100763.
+>
+> When installing part number 4100763 in place of part number 4016557 mounting flange part number 3094584 must also be installed.
+>
+> ESN first was 33152994 built October 21, 2002.
+>
+> **Note · Примечание**
 > This is a product improvement **not** subject to campaign.

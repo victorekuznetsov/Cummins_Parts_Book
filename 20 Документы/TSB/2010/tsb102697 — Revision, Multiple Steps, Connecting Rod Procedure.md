@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102697.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102697.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Revision, Multiple Steps, Connecting Rod Procedure
@@ -25,12 +27,32 @@ tags:
 > **Даты:** изменён 2008-03-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102697.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102697.pdf)
 
-## Revision, Multiple Steps, Connecting Rod Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр, несколько шагов, процедура подключения Рода
 
-### Contents
+### Положение о гарантии
 
-The purpose of the Service/Parts Topic is to add a General Information section, revise the Clean and Inspect for Reuse section, and revise the Measure section in the Connecting Rod procedure (001-014).
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Цель темы Услуги/Частей состоит в том, чтобы добавить раздел «Общая информация», пересмотреть раздел «Чистота и проверка для повторного использования» и пересмотреть раздел «Меры» в процедуре «Связной штандарт» (001-014).
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision, Multiple Steps, Connecting Rod Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> The purpose of the Service/Parts Topic is to add a General Information section, revise the Clean and Inspect for Reuse section, and revise the Measure section in the Connecting Rod procedure (001-014).

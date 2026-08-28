@@ -12,13 +12,15 @@ families:
 manuals:
   - "3666410"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-fc2155.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-fc2155.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/81"
+  - "перевод/машинный"
 ---
 
 # Post-Oil Filter Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
@@ -31,32 +33,70 @@ tags:
 > **Даты:** изменён 2015-07-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-fc2155.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-fc2155.pdf)
 
-### Fault Code: 2155
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Post-Oil Filter Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
 
-Printable Version
+### Код неисправности: 2155
 
-### Overview
+### Схема датчика давления после фильтрации масла - напряжение ниже нормального или короткое до низкого источника
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 2155 PID(P): 100 SPN: 611 FMI: 4 Lamp: None SRT: 00-686 | Post-Oil Filter Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source. Low voltage detected on SIGNAL pin 09 of the main harness A ECM connector. | Fault Code 612 is disabled. |
+| Код неисправности: 2155 PID(P): 100 SPN: 611 FMI: 4 лампы: Нет, не srt: 00-686 | Схема датчика давления после фильтрации масла - напряжение ниже нормального или короткое до низкого источника. Низкое напряжение, обнаруженное на контакте SIGNAL 09 основной проводов ремня разъема A ECM. | Код 612 неисправности отключен. |
 
 ![[19802529.png]]
 
-Post-Filter Oil Pressure Sensor Circuit
+Схема датчика давления после фильтра
 
-### Circuit Description
+### Описание цепи
 
-The post-filter oil pressure is the engine oil pressure after the oil has passed through the oil filters. The post-filter oil pressure sensor sends the post-filter oil pressure signal to the CENSE™ ECM.
+Давление масла после фильтра - это давление масла двигателя после того, как масло прошло через масляные фильтры. Датчик давления масла после фильтра посылает сигнал давления масла после фильтра в ECM CENSETM.
 
-### Component Location
+### Расположение компонента
 
-The post-filter oil pressure sensor is located on the oil outlet side of the lubricating oil system filter head.
+Датчик давления масла после фильтра расположен на стороне выхода масла головки фильтра системы моторного масла.
 
-### Shoptalk
+### Практические замечания
 
-- If the fault occurs **only** in a cold environment, allow the oil to warm up and see if the fault becomes inactive.
+- Если неисправность возникает только в холодной среде, позвольте маслу прогреться и посмотрите, не станет ли неисправность неактивной.
 
-Refer to Troubleshooting Fault Code t05-2155
+См. Код устранения неисправностей t05-2155
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 2155
+>
+> ### Post-Oil Filter Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 2155 PID(P): 100 SPN: 611 FMI: 4 Lamp: None SRT: 00-686 | Post-Oil Filter Pressure Sensor Circuit - Voltage Below Normal or Shorted to Low Source. Low voltage detected on SIGNAL pin 09 of the main harness A ECM connector. | Fault Code 612 is disabled. |
+>
+> Post-Filter Oil Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The post-filter oil pressure is the engine oil pressure after the oil has passed through the oil filters. The post-filter oil pressure sensor sends the post-filter oil pressure signal to the CENSE™ ECM.
+>
+> ### Component Location
+>
+> The post-filter oil pressure sensor is located on the oil outlet side of the lubricating oil system filter head.
+>
+> ### Shoptalk
+>
+> - If the fault occurs **only** in a cold environment, allow the oil to warm up and see if the fault becomes inactive.
+>
+> Refer to Troubleshooting Fault Code t05-2155

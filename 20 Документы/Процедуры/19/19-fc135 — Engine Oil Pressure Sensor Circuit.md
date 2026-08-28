@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc135.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc135.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Engine Oil Pressure Sensor Circuit
@@ -34,36 +36,78 @@ tags:
 > **Даты:** изменён 2026-05-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc135.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc135.pdf)
 
-### Fault Code: 135
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Oil Pressure Sensor Circuit
 
-Printable Version
+### Код неисправности: 135
 
-### Overview
+### Схема датчика давления моторного масла
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 135 PID(P): P100 SPN: 100 FMI: 3 Lamp: Yellow SRT: 00-352 | More than 4.88-VDC detected at the engine oil pressure sensor signal pin 24 of the engine harness. | No engine protection for oil pressure. Centinel™ system is disabled. |
+| Код неисправности: 135 PID (P): P100 SPN: 100 FMI: 3 лампы: Желтая СТО: 00-352 | Более 4,88-VDC обнаружен у датчика давления моторного масла сигнал контакта 24 проводов двигателя жгута. | Отсутствие защиты двигателя от давления масла. Система CentinelTM отключена. |
 
 ![[19400133.png]]
 
-Engine Oil Pressure Sensor Circuit
+Схема датчика давления моторного масла
 
-### Circuit Description
+### Описание цепи
 
-The engine oil pressure sensor monitors oil pressure and passes information to the ECM through pin 24 of the engine harness. The ECM monitors the voltage on pin 24 and expects to see the voltage vary between 0.5 and 4.5-VDC during normal engine operation. Voltage above 4.88-VDC on pin 24 will trip Fault Code 135 and can be caused by shorts in the supply, signal, or return wires, an open circuit in the return wire, or a failed sensor.
+Датчик давления моторного масла контролирует давление масла и передает информацию в ECM через контакт 24 с ремнем электропроводки двигателя. ECM контролирует напряжение на контакте 24 и ожидает, что напряжение будет варьироваться от 0,5 до 4,5-VDC во время нормальной работы двигателя. Напряжение выше 4,88-VDC при контакте 24 будет срабатывать с кодом 135 по умолчанию и может быть вызвано шортами в проводах подачи, сигнала или возврата, открытой цепью в обратном проводе или неисправным датчиком.
 
-### Component Location
+### Расположение компонента
 
-The engine oil pressure sensor is located on the engine block to the upper left of the ECM.
+Датчик давления масла двигателя расположен на блоке двигателя в верхнем левом углу ECM.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged engine oil pressure sensor
+- Неисправность или повреждение датчика давления моторного масла
 
-- Malfunctioning or damaged engine wiring harness
+- Неисправная или поврежденная электропроводка двигателя
 
-Refer to Troubleshooting Fault Code t05-135
+Устранение неполадок код t05-135
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 135
+>
+> ### Engine Oil Pressure Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 135 PID(P): P100 SPN: 100 FMI: 3 Lamp: Yellow SRT: 00-352 | More than 4.88-VDC detected at the engine oil pressure sensor signal pin 24 of the engine harness. | No engine protection for oil pressure. Centinel™ system is disabled. |
+>
+> Engine Oil Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The engine oil pressure sensor monitors oil pressure and passes information to the ECM through pin 24 of the engine harness. The ECM monitors the voltage on pin 24 and expects to see the voltage vary between 0.5 and 4.5-VDC during normal engine operation. Voltage above 4.88-VDC on pin 24 will trip Fault Code 135 and can be caused by shorts in the supply, signal, or return wires, an open circuit in the return wire, or a failed sensor.
+>
+> ### Component Location
+>
+> The engine oil pressure sensor is located on the engine block to the upper left of the ECM.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged engine oil pressure sensor
+>
+> - Malfunctioning or damaged engine wiring harness
+>
+> Refer to Troubleshooting Fault Code t05-135

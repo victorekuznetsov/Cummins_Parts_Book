@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 10
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-017.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Coolant Vent Lines
@@ -35,69 +37,126 @@ tags:
 > **Даты:** изменён 2004-04-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-008-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-008-017.pdf)
 
-### General Information
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Aftercooled Engines
 
-The cooling system **must** be designed to allow the air to escape while filling the radiator.
+### Общие сведения
+
+Послеохлажденные двигатели
+
+Система охлаждения должна быть разработана таким образом, чтобы воздух мог выходить во время заполнения радиатора.
 
 ![[ra800vb.png]]
 
-The aftercooler vent line (number 4 hose) is routed from the top of the aftercooler to the top of the thermostat housing.
+Линия вентиляции послеохладителя (номер 4 шланга) направляется от верхней части охладителя к верхней части корпуса термостата.
 
 ![[08600225.png]]
 
-The number 6 hose engine vent line (7) is routed from the top of the thermostat housing to the radiator top tank expansion space above the water level.
+Линия вентиляции двигателя № 6 (7) направляется от верхней части корпуса термостата к пространству расширения верхней части резервуара радиатора над уровнем воды.
 
 ![[rp4vegb.png]]
 
-> [!warning] CAUTION · Осторожно
+> [!warning] ОСТОРОЖНО
+> Не направляйте линию заполнения или вентиляции таким образом, чтобы воздух мог попасть в систему. Воздух, захваченный в системе, может вызвать кавитацию водяного насоса и недостаточный уровень охлаждающей жидкости.
+
+Маршрут линии вентиляции от линии макияжа или заполнения.
+
+Линия вентиляции **должна **иметь непрерывный подъем, чтобы предотвратить воздушный замок и недостаточное вентиляционное отверстие.
+
+![[rp8veba.png]]
+
+ЛЕТ
+
+Система охлаждения должна быть разработана таким образом, чтобы воздух мог выходить во время заполнения радиатора.
+
+![[ra800vb.png]]
+
+Линия вентиляции двигателя и линия вентиляции послеохладителя направляются от верхней части корпуса термостата к пространству расширения верхней части резервуара радиатора над уровнем воды.
+
+![[rp4vegb.png]]
+
+> [!warning] ОСТОРОЖНО
+> Не направляйте линию заполнения или вентиляции таким образом, чтобы воздух мог попасть в систему. Воздух, захваченный в системе охлаждающей жидкости, может вызвать кавитацию водяного насоса и недостаточный уровень охлаждающей жидкости.
+
+Маршрут линии вентиляции от линии макияжа или заполнения.
+
+Линия вентиляции **должна **иметь непрерывный подъем, чтобы предотвратить воздушный замок и недостаточное вентиляционное отверстие.
+
+![[rp8veba.png]]
+
+QSK60 Морские применения
+
+Система охлаждения должна быть разработана таким образом, чтобы воздух мог выходить во время заполнения радиатора.
+
+![[ra800vb.png]]
+
+Линия вентиляции двигателя и линия вентиляции послеохладителя направляются от верхней части корпуса термостата к пространству расширения верхней части резервуара радиатора над уровнем воды.
+
+![[rp4vegb.png]]
+
+> [!warning] ОСТОРОЖНО
+> Не направляйте линию заполнения или вентиляции таким образом, чтобы воздух мог попасть в систему. Воздух, захваченный в системе охлаждающей жидкости, может вызвать кавитацию водяного насоса и недостаточный уровень охлаждающей жидкости.
+
+Маршрут линии вентиляции от линии макияжа или заполнения.
+
+Линия вентиляции **должна **иметь непрерывный подъем, чтобы предотвратить воздушный замок и недостаточное вентиляционное отверстие.
+
+Маршрутизируйте линию вентиляции теплового экрана выхлопного коллектора от линии макияжа или заполнения.
+
+Выхлопной коллектор тепловой защиты линии вентиляции **должен **иметь непрерывный подъем, чтобы предотвратить воздушный замок и неадекватное вентиляционное отверстие.
+
+![[rp8veba.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Aftercooled Engines
+>
+> The cooling system **must** be designed to allow the air to escape while filling the radiator.
+>
+> The aftercooler vent line (number 4 hose) is routed from the top of the aftercooler to the top of the thermostat housing.
+>
+> The number 6 hose engine vent line (7) is routed from the top of the thermostat housing to the radiator top tank expansion space above the water level.
+>
+> **CAUTION · Осторожно**
 > Do not route the fill or vent line in a manner that will allow air to be trapped in the system. Air trapped in the system can cause water pump cavitation and inadequate coolant level.
-
-Route the vent line away from the makeup or fill line.
-
-The vent line **must** have a continuous rise to prevent air lock and inadequate venting.
-
-![[rp8veba.png]]
-
-LTA
-
-The cooling system **must** be designed to allow the air to escape while filling the radiator.
-
-![[ra800vb.png]]
-
-The engine vent line and the aftercooler vent line are routed from the top of the thermostat housing to the radiator top tank expansion space above the water level.
-
-![[rp4vegb.png]]
-
-> [!warning] CAUTION · Осторожно
+>
+> Route the vent line away from the makeup or fill line.
+>
+> The vent line **must** have a continuous rise to prevent air lock and inadequate venting.
+>
+> LTA
+>
+> The cooling system **must** be designed to allow the air to escape while filling the radiator.
+>
+> The engine vent line and the aftercooler vent line are routed from the top of the thermostat housing to the radiator top tank expansion space above the water level.
+>
+> **CAUTION · Осторожно**
 > Do not route the fill or vent line in a manner that will allow air to be trapped in the system. Air trapped in the coolant system can cause water pump cavitation and inadequate coolant level.
-
-Route the vent line away from the makeup or fill line.
-
-The vent line **must** have a continuous rise to prevent air lock and inadequate venting.
-
-![[rp8veba.png]]
-
-QSK60 Marine Applications
-
-The cooling system **must** be designed to allow the air to escape while filling the radiator.
-
-![[ra800vb.png]]
-
-The engine vent line and the aftercooler vent line are routed from the top of the thermostat housing to the radiator top tank expansion space above the water level.
-
-![[rp4vegb.png]]
-
-> [!warning] CAUTION · Осторожно
+>
+> Route the vent line away from the makeup or fill line.
+>
+> The vent line **must** have a continuous rise to prevent air lock and inadequate venting.
+>
+> QSK60 Marine Applications
+>
+> The cooling system **must** be designed to allow the air to escape while filling the radiator.
+>
+> The engine vent line and the aftercooler vent line are routed from the top of the thermostat housing to the radiator top tank expansion space above the water level.
+>
+> **CAUTION · Осторожно**
 > Do not route the fill or vent line in a manner that will allow air to be trapped in the system. Air trapped in the coolant system can cause water pump cavitation and inadequate coolant level.
-
-Route the vent line away from the makeup or fill line.
-
-The vent line **must** have a continuous rise to prevent air lock and inadequate venting.
-
-Route the exhaust manifold heat shield vent line away from the makeup or fill line.
-
-The exhaust manifold heat shield vent line **must** have a continuous rise to prevent air lock and inadequate venting.
-
-![[rp8veba.png]]
+>
+> Route the vent line away from the makeup or fill line.
+>
+> The vent line **must** have a continuous rise to prevent air lock and inadequate venting.
+>
+> Route the exhaust manifold heat shield vent line away from the makeup or fill line.
+>
+> The exhaust manifold heat shield vent line **must** have a continuous rise to prevent air lock and inadequate venting.

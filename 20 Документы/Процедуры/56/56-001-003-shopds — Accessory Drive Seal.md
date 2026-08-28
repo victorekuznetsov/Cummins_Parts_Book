@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-003-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-003-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Accessory Drive Seal
@@ -35,14 +37,32 @@ tags:
 > **Даты:** изменён 2021-04-22
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-001-003-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-001-003-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-The rotational part of the seal is removed from the shaft and gear housing when removing the pulley. This **must** be removed from the pulley and discarded.
+
+### Снятие
+
+Вращательная часть уплотнения снимается с вала и зубчатого кожуха при снятии шкива. Это должно быть удалено с шкива и выброшено.
 
 ![[00r01579.png]]
 
-Remove and discard the stationary part of the seal assembly from the gear cover and shaft.
+Удалить и выбросить стационарную часть уплотнительной сборки из шестерни и вала.
 
-Remove the spacer from the end of the shaft.
+Удалите прокладку с конца вала.
 
 ![[00r01580.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> The rotational part of the seal is removed from the shaft and gear housing when removing the pulley. This **must** be removed from the pulley and discarded.
+>
+> Remove and discard the stationary part of the seal assembly from the gear cover and shaft.
+>
+> Remove the spacer from the end of the shaft.

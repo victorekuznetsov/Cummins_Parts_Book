@@ -11,13 +11,15 @@ families:
 manuals:
   - "3666423"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-003-002-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-003-002-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSX15"
   - "группа/10"
+  - "перевод/машинный"
 ---
 
 # Crankcase Breather (Internal)
@@ -30,10 +32,26 @@ tags:
 > **Даты:** изменён 2008-07-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/10/10-003-002-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/10-003-002-om-ind.pdf)
 
-### Replace
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Replace the crankcase breather (internal).
 
-Contact a Cummins® Authorized Repair Location to schedule this maintenance.
+### Замена
+
+Заменить капельницу (внутреннюю).
+
+Свяжитесь с авторизованным местом ремонта Cummins®, чтобы запланировать это обслуживание.
 
 ![[03c00153.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Replace
+>
+> Replace the crankcase breather (internal).
+>
+> Contact a Cummins® Authorized Repair Location to schedule this maintenance.

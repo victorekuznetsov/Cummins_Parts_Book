@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-007-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-007-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Coolant Filter Head
@@ -35,37 +37,76 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-008-007-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-008-007-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-Install a new o-ring on the valve.
 
-Lubricate the o-ring with a film of antiseize compound.
+### Установка
 
-Install the valve in the filter head.
+Установите новое кольцо на клапан.
 
-Tighten the capscrew.
+Смазать кольцо о-кольцом пленкой антисептического соединения.
 
-> [!tip] Момент затяжки · Torque Value
-> 10 n•m [90 in-lb]
+Установите клапан в головку фильтра.
+
+Затяните болт.
+
+> [!tip] Момент затяжки
+> 10 Н·м [90 фунт-дюйм]
 
 ![[wf2vaha.png]]
 
-Use clean 15W-40 oil to lubricate the two new o-rings.
+Используйте чистое масло 15W-40 для смазки двух новых колец.
 
-Install the o-rings on the filter head.
+Установите кольца на головку фильтра.
 
 ![[wf2orha.png]]
 
-> [!warning] CAUTION · Осторожно
-> The control valve must be in the ON position to prevent engine damage.
+> [!warning] ОСТОРОЖНО
+> Клапан управления должен находиться в положении Включения, чтобы предотвратить повреждение двигателя.
 
-Install the filter head and filter, if removed.
+Установите головку фильтра и фильтр, если он удален.
 
-Tighten the capscrews.
+Затяните болты.
 
-> [!tip] Момент затяжки · Torque Value
-> 54 n•m [40 ft-lb]
+> [!tip] Момент затяжки
+> 54 Н·м [40 фунт-фут]
 
-Turn the control valve to the ON position.
+Поверните клапан управления в положение Включения.
 
 ![[wf2bdha.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Install a new o-ring on the valve.
+>
+> Lubricate the o-ring with a film of antiseize compound.
+>
+> Install the valve in the filter head.
+>
+> Tighten the capscrew.
+>
+> **Момент затяжки · Torque Value**
+> 10 n•m [90 in-lb]
+>
+> Use clean 15W-40 oil to lubricate the two new o-rings.
+>
+> Install the o-rings on the filter head.
+>
+> **CAUTION · Осторожно**
+> The control valve must be in the ON position to prevent engine damage.
+>
+> Install the filter head and filter, if removed.
+>
+> Tighten the capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 54 n•m [40 ft-lb]
+>
+> Turn the control valve to the ON position.

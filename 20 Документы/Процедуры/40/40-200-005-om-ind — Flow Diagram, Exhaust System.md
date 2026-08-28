@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021389"
 figures: 3
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-200-005-om-ind.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-200-005-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Flow Diagram, Exhaust System
@@ -33,31 +35,64 @@ tags:
 > **Даты:** изменён 2006-10-03
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-200-005-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-200-005-om-ind.pdf)
 
-### Flow Diagram
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Диаграмма потока
 
 ![[11900052.png]]
 
-Turbocharged with Wastegate
+Турбонаддув с турбинным обходным клапаном
 
-1. Wastegate closed
-2. Wastegate open
-3. Exhaust valve
-4. Exhaust manifold
-5. Turbocharger exhaust inlet
-6. Turbocharger exhaust outlet.
+1. турбинный шунтирующий клапан закрыт
+2. турбинный шунтирующий клапан открыт
+3. Выпускной клапан
+4. Выпускной коллектор
+5. Впускной клапан турбокомпрессора
+6. Выхлопная труба турбокомпрессора.
 
 ![[11900053.png]]
 
-Naturally Aspirated Engine
+Естественно, двигатель
 
-1. Exhaust valve
-2. Exhaust manifold.
+1. Выпускной клапан
+2. Выпускной коллектор.
 
 ![[11900054.png]]
 
-Turbocharged Engine
+Турбонаддувный двигатель
 
-1. Exhaust valve
-2. Exhaust manifold
-3. Turbocharger exhaust inlet
-4. Turbocharger exhaust outlet.
+1. Выпускной клапан
+2. Выпускной коллектор
+3. Впускной клапан турбокомпрессора
+4. Выхлопная труба турбокомпрессора.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Flow Diagram
+>
+> Turbocharged with Wastegate
+>
+> 1. Wastegate closed
+> 2. Wastegate open
+> 3. Exhaust valve
+> 4. Exhaust manifold
+> 5. Turbocharger exhaust inlet
+> 6. Turbocharger exhaust outlet.
+>
+> Naturally Aspirated Engine
+>
+> 1. Exhaust valve
+> 2. Exhaust manifold.
+>
+> Turbocharged Engine
+>
+> 1. Exhaust valve
+> 2. Exhaust manifold
+> 3. Turbocharger exhaust inlet
+> 4. Turbocharger exhaust outlet.

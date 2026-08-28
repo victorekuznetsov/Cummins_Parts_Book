@@ -9,12 +9,14 @@ engines:
   - "33224343"
 families:
   - "QSK60"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103129.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103129.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "перевод/машинный"
 ---
 
 # Piston and Cylinder Liner Procedure, Multiple Section Revisions
@@ -25,14 +27,36 @@ tags:
 > **Даты:** изменён 2008-12-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103129.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103129.pdf)
 
-## Piston and Cylinder Liner Procedure, Multiple Section Revisions
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Процедура поршневых и цилиндрических гильз, пересмотр нескольких разделов
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises Procedure 001-045 (Piston and Cylinder Liner) in Section 1 of the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-An additional cylinder liner removal tool and related usage has been added, in addition to the inclusion of a straight torque value for tightening the connecting rods when working through the hand hole covers.
+### Содержание
+
+Тематика данного сервиса/частей пересматривает Процедура 001-045 (Пистон и цилиндрический гильза) в разделе 1 Руководства по обслуживанию QSK45 и QSK60, Бюллетень [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+
+Добавлен дополнительный инструмент для удаления цилиндрических вкладышей и связанного с ним использования, в дополнение к включению значения прямого крутящего момента для затягивания шатунов при работе через крышки ручного отверстия.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Piston and Cylinder Liner Procedure, Multiple Section Revisions
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises Procedure 001-045 (Piston and Cylinder Liner) in Section 1 of the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+>
+> An additional cylinder liner removal tool and related usage has been added, in addition to the inclusion of a straight torque value for tightening the connecting rods when working through the hand hole covers.

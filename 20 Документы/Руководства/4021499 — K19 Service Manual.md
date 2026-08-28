@@ -96,8 +96,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021499 — K19 Service Manual\|4021499]]-t102-tr | Lubricating Oil Consumption Excessive | 20-Aug-2012 |
-| [[4021499 — K19 Service Manual\|4021499]]-t102-tr | Lubricating Oil Consumption Excessive | 14-Jan-2014 |
+| [[[4021499 — K19 Service Manual\|4021499]]-t102-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021499/4021499-t102-tr.html) | Lubricating Oil Consumption Excessive | 20-Aug-2012 |
+| [[[4021499 — K19 Service Manual\|4021499]]-t102-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021499/4021499-t102-tr.html) | Lubricating Oil Consumption Excessive | 14-Jan-2014 |
 
 ### Section 16 - Mounting Adaptations - Group 16
 
@@ -109,7 +109,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021499 — K19 Service Manual\|4021499]]-t107-tr | Lubricating Oil Temperature Above Specification | 08-Oct-2014 |
+| [[[4021499 — K19 Service Manual\|4021499]]-t107-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021499/4021499-t107-tr.html) | Lubricating Oil Temperature Above Specification | 08-Oct-2014 |
 
 ### Section 3 - Maintenance Procedures at Daily Interval
 
@@ -199,7 +199,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021499 — K19 Service Manual\|4021499]]-t122-tr | Turbocharger Leaks Engine Oil or Fuel | 25-Aug-2021 |
+| [[[4021499 — K19 Service Manual\|4021499]]-t122-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021499/4021499-t122-tr.html) | Turbocharger Leaks Engine Oil or Fuel | 25-Aug-2021 |
 
 ### Section 6 - Injectors and Fuel Lines - Group 06
 

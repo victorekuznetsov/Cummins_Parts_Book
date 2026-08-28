@@ -8,12 +8,14 @@ engines:
   - "80248213"
 families:
   - "QSX15"
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102275.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102275.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Revision, Install Step, Flywheel Procedure
@@ -24,14 +26,36 @@ tags:
 > **Даты:** изменён 2007-07-25
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb102275.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb102275.pdf)
 
-## Revision, Install Step, Flywheel Procedure
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Warranty Statement
 
-The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+## Пересмотр, Установка шага, процедура Flywheel
 
-### Contents
+### Положение о гарантии
 
-This Service/Parts Topic revises Procedure 016-005, (Flywheel).
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
 
-This update is to clarify the installation procedure for the ISX flywheel pilot bearing spacer.
+### Содержание
+
+Эта тема службы/частей пересматривает Процедуру 016-005 (Малыш).
+
+Это обновление должно уточнить процедуру установки пилотного подшипника ISX.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Revision, Install Step, Flywheel Procedure
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises Procedure 016-005, (Flywheel).
+>
+> This update is to clarify the installation procedure for the ISX flywheel pilot bearing spacer.

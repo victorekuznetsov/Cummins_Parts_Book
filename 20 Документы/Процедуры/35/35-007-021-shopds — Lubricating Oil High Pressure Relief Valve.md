@@ -15,13 +15,15 @@ families:
 manuals:
   - "3666322"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-007-021-shopds.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-007-021-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSM11"
   - "группа/35"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil High Pressure Relief Valve
@@ -35,13 +37,32 @@ tags:
 > **Даты:** изменён 2009-01-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-007-021-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-007-021-shopds.pdf)
 
-### Remove
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> Use caution while removing the retainer plug (1). The pressure relief valve spring (2) is under compression. Personal injury can result. Wear face and eye protection.
 
-Use light-duty puller kit, Part Number 3375784 or equivalent, to remove the retainer plug (1).
+### Снятие
 
-Remove the pressure relief valve spring (2), washer (3), and valve disc (4).
+> [!danger] ОПАСНО
+> Используйте осторожность при удалении вилки (1). Резервный клапан давления пружина (2) находится под сжатием. Личная травма может быть результатом. Носите защиту лица и глаз.
+
+Используйте комплект для съёмника, номер детали 3375784 или эквивалент, чтобы удалить вилку (1).
+
+Удалите пружину (2) клапана сброса давления, шайбу (3) и клапанный диск (4).
 
 ![[ck2vama.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Remove
+>
+> **WARNING · Опасно**
+> Use caution while removing the retainer plug (1). The pressure relief valve spring (2) is under compression. Personal injury can result. Wear face and eye protection.
+>
+> Use light-duty puller kit, Part Number 3375784 or equivalent, to remove the retainer plug (1).
+>
+> Remove the pressure relief valve spring (2), washer (3), and valve disc (4).

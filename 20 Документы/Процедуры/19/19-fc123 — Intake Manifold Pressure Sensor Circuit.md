@@ -17,7 +17,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc123.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc123.pdf"
 tags:
@@ -25,6 +26,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Intake Manifold Pressure Sensor Circuit
@@ -38,36 +40,78 @@ tags:
 > **Даты:** изменён 2026-05-28
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc123.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc123.pdf)
 
-### Fault Code: 123
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Intake Manifold Pressure Sensor Circuit
 
-Printable Version
+### Код неисправности: 123
 
-### Overview
+### Цепь датчика давления во впускном коллекторе
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 123 PID(P): P102 SPN: 102 FMI: 4 Lamp: None SRT: 00-349 | Less than 0.33-VDC detected at the intake manifold air pressure sensor signal pin 35 of the engine harness. | Engine power derate to no-air setting. |
+| Код неисправности: 123 P(P): P102 SPN: 102 FMI: 4 лампы: Нет, не srt: 00-349 | Менее 0,33-VDC обнаруживается при входном коллекторе датчика давления воздуха, контактирующего с 35 проводкой двигателя ремня. | Мощность двигателя снижается до уровня без воздуха. |
 
 ![[19400118.png]]
 
-Intake Manifold Pressure Sensor Circuit
+Цепь датчика давления во впускном коллекторе
 
-### Circuit Description
+### Описание цепи
 
-The intake manifold pressure sensor monitors boost pressure and passes information to the ECM through pin 35 of the engine harness. The ECM monitors the voltage on pin 35 and expects to see the voltage vary between 0.5 and 4.5-VDC during normal engine operation. Voltage below 0.33-VDC on pin 35 can be caused by shorts in the supply, signal, or return wires, an open circuit in the supply or signal wires, low supply voltage from the ECM, or a failed sensor.
+Датчик давления впускного коллектора контролирует давление повышения и передает информацию в ECM через контакт 35 с ремнем электропроводки двигателя. ECM контролирует напряжение на контакте 35 и ожидает, что напряжение будет варьироваться от 0,5 до 4,5-VDC во время нормальной работы двигателя. Напряжение ниже 0,33-VDC на контакте 35 может быть вызвано шортами в подаче, сигнале или обратном проводе, открытой цепью в подаче или сигнальных проводах, низким напряжением питания от ECM или неисправным датчиком.
 
-### Component Location
+### Расположение компонента
 
-The intake manifold pressure sensor is located on the middle lower edge of the air intake manifold.
+Датчик давления впускного коллектора расположен на среднем нижнем краю коллектора впускного воздуха.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Malfunctioning or damaged intake manifold pressure sensor
+- Неисправность или повреждение датчика давления впускного коллектора
 
-- Malfunctioning or damaged engine wiring harness
+- Неисправная или поврежденная электропроводка двигателя
 
-Refer to Troubleshooting Fault Code t05-123
+См. Устранение неполадок код t05-123
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 123
+>
+> ### Intake Manifold Pressure Sensor Circuit
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 123 PID(P): P102 SPN: 102 FMI: 4 Lamp: None SRT: 00-349 | Less than 0.33-VDC detected at the intake manifold air pressure sensor signal pin 35 of the engine harness. | Engine power derate to no-air setting. |
+>
+> Intake Manifold Pressure Sensor Circuit
+>
+> ### Circuit Description
+>
+> The intake manifold pressure sensor monitors boost pressure and passes information to the ECM through pin 35 of the engine harness. The ECM monitors the voltage on pin 35 and expects to see the voltage vary between 0.5 and 4.5-VDC during normal engine operation. Voltage below 0.33-VDC on pin 35 can be caused by shorts in the supply, signal, or return wires, an open circuit in the supply or signal wires, low supply voltage from the ECM, or a failed sensor.
+>
+> ### Component Location
+>
+> The intake manifold pressure sensor is located on the middle lower edge of the air intake manifold.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Malfunctioning or damaged intake manifold pressure sensor
+>
+> - Malfunctioning or damaged engine wiring harness
+>
+> Refer to Troubleshooting Fault Code t05-123

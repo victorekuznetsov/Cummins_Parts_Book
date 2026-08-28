@@ -14,7 +14,8 @@ families:
 manuals:
   - "3666113"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc2364.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc2364.pdf"
 tags:
@@ -22,6 +23,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK60"
   - "группа/19"
+  - "перевод/машинный"
 ---
 
 # Engine Cold Start Aid - Condition Exists
@@ -34,64 +36,134 @@ tags:
 > **Даты:** изменён 2020-01-27
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/19/19-fc2364.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/19-fc2364.pdf)
 
-### Fault Code: 2364
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-### Engine Cold Start Aid - Condition Exists
 
-Printable Version
+### Код неисправности: 2364
 
-### Overview
+### Холодный старт двигателя: состояние существует
 
-| Codes | Reason | Effect |
+Версия для печати
+
+### Обзор
+
+| Коды | Причина | Последствия |
 |---|---|---|
-| Fault Code: 2364 PID(P): SPN: 854 FMI: 11/31 Lamp: Red SRT: | An open or short circuit has been detected on the ether injection circuit. | Ether start functionality will be disabled. Engine may **not** start or may be difficult to start. |
+| Код неисправности: 2364 PID(P): СПН: 854 FMI: 11/31 лампа: Красная СТО: | Открытое или короткое замыкание было обнаружено на схеме впрыска эфира. | Функционал Ether Start будет отключен. Двигатель может **не** запускаться или может быть трудно запустить. |
 
 ![[19400679.png]]
 
-Ether Injection Start Circuit
+Начало инъекций эфира
 
-### Circuit Description
+### Описание цепи
 
-The ether injection circuit is a device used by the engine to control the ether injection operation. The ether injection circuit utilizes a Pulse Width Modulated (PWM) signal. A PWM signal is pulsed voltage signal between 0-VDC and system voltage. The frequency of the pulsed voltage signal is dependent on the application requirement.
+Схема впрыска эфира - это устройство, используемое двигателем для управления операцией впрыска эфира. Схема впрыска эфира использует сигнал с модулированной шириной импульса (PWM). PWM сигнал - импульсный сигнал напряжения между 0-VDC и напряжением системы. Частота импульсного сигнала напряжения зависит от требования приложения.
 
-### Component Location
+### Расположение компонента
 
-The control solenoid location varies by OEM. Refer to the appropriate OEM service manual to determine the location.
+Контрольное местоположение соленоидов варьируется в зависимости от OEM. См. соответствующее руководство по обслуживанию OEM для определения местоположения.
 
-### Conditions For Running The Diagnostics
+### Условия выполнения диагностики
 
-This diagnostic runs when the keyswitch is in the ON position and when the pulse width modulated (PWM) device is getting energized or de-energized. In some cases, the diagnostics can also run at some fixed intervals.
+Эта диагностика выполняется, когда переключатель зажигания находится в положении Включения и когда устройство с модулированной шириной импульса (PWM) получает питание или разрядку. В некоторых случаях диагностика может также проводиться через определенные фиксированные интервалы.
 
-### Conditions For Setting The Fault Codes
+### Условия установки кодов неисправностей
 
-The ether injection circuit pulse width modulated (PWM) signal voltage was greater than 0-VDC when the PWM signal was turned OFF by the ECM.
+Напряжение сигнала с модулированной шириной импульса схемы впрыска эфира (PWM) было больше, чем 0-VDC, когда сигнал PWM был выключен ECM.
 
-The ether injection circuit pulse width modulated (PWM) signal was not at system voltage when the PWM signal was turned ON.
+Сигнал с модулированной шириной импульса цепи впрыска эфира (PWM) не был на системном напряжении, когда сигнал PWM был включен.
 
-### Action Taken When The Fault Code Is Active
+### Действия системы при активном коде неисправности
 
-The ECM illuminates the white MAINTENANCE lamp or flashes the amber CHECK ENGINE lamp, indicating a maintenance condition, immediately after the diagnostic runs and fails.
+ECM освещает белую лампу MAINTENANCE или мигает лампой янтарной CHECK ENGINE, указывая на состояние обслуживания, сразу после диагностических прогонов и сбоев.
 
-The ether injection operation will be disabled.
+Операция инъекции эфира будет отключена.
 
-### Conditions For Clearing The Fault Code
+### Условия сброса кода неисправности
 
-- To validate the repair, perform a key cycle, and leave the key in the ON position for 1 minute.
+- Для проверки ремонта выполните цикл ключей и оставьте ключ в положении Включено на 1 минуту.
 
-- The fault code status displayed by the recommended Cummins electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+- Состояние кода ошибки, отображаемого рекомендуемым инструментом или эквивалентом электронного сервиса Cummins, будет изменено на INACTIVE сразу после диагностических запусков и проходов.
 
-- The ECM will turn off the flashing amber CHECK ENGINE lamp / MAINTENANCE lamp immediately after the diagnostic runs and passes.
+- ECM отключит мигающую лампу CHECK ENGINE / MAINTENANCE сразу после диагностических прогонов и проходов.
 
-- The “Reset All Faults” command in the recommended Cummins electronic service tool or equivalent can be used to clear active and inactive faults.
+- Команда «Сбросить все ошибки» в рекомендуемой электронной сервисной оснастке Cummins или эквиваленте может использоваться для устранения активных и неактивных ошибок.
 
-### Shoptalk
+### Практические замечания
 
-Possible causes of this fault code include:
+Возможные причины этого кода неисправности:
 
-- Open signal or return circuit in the solenoid or harness.
+- Открытый сигнал или обратная цепь в соленоидной или проводной упряжке.
 
-- Signal circuit shorted to voltage source.
+- Схема сигнала, сокращенная до источника напряжения.
 
-- Short circuit to ground in the harness or solenoid.
+- Короткое замыкание на землю в проводной упряжке или соленоиде.
 
-Refer to Troubleshooting Fault Code t05-384
+См. Код устранения неполадок t05-384
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Fault Code: 2364
+>
+> ### Engine Cold Start Aid - Condition Exists
+>
+> Printable Version
+>
+> ### Overview
+>
+> | Codes | Reason | Effect |
+> |---|---|---|
+> | Fault Code: 2364 PID(P): SPN: 854 FMI: 11/31 Lamp: Red SRT: | An open or short circuit has been detected on the ether injection circuit. | Ether start functionality will be disabled. Engine may **not** start or may be difficult to start. |
+>
+> Ether Injection Start Circuit
+>
+> ### Circuit Description
+>
+> The ether injection circuit is a device used by the engine to control the ether injection operation. The ether injection circuit utilizes a Pulse Width Modulated (PWM) signal. A PWM signal is pulsed voltage signal between 0-VDC and system voltage. The frequency of the pulsed voltage signal is dependent on the application requirement.
+>
+> ### Component Location
+>
+> The control solenoid location varies by OEM. Refer to the appropriate OEM service manual to determine the location.
+>
+> ### Conditions For Running The Diagnostics
+>
+> This diagnostic runs when the keyswitch is in the ON position and when the pulse width modulated (PWM) device is getting energized or de-energized. In some cases, the diagnostics can also run at some fixed intervals.
+>
+> ### Conditions For Setting The Fault Codes
+>
+> The ether injection circuit pulse width modulated (PWM) signal voltage was greater than 0-VDC when the PWM signal was turned OFF by the ECM.
+>
+> The ether injection circuit pulse width modulated (PWM) signal was not at system voltage when the PWM signal was turned ON.
+>
+> ### Action Taken When The Fault Code Is Active
+>
+> The ECM illuminates the white MAINTENANCE lamp or flashes the amber CHECK ENGINE lamp, indicating a maintenance condition, immediately after the diagnostic runs and fails.
+>
+> The ether injection operation will be disabled.
+>
+> ### Conditions For Clearing The Fault Code
+>
+> - To validate the repair, perform a key cycle, and leave the key in the ON position for 1 minute.
+>
+> - The fault code status displayed by the recommended Cummins electronic service tool or equivalent will change to INACTIVE immediately after the diagnostic runs and passes.
+>
+> - The ECM will turn off the flashing amber CHECK ENGINE lamp / MAINTENANCE lamp immediately after the diagnostic runs and passes.
+>
+> - The “Reset All Faults” command in the recommended Cummins electronic service tool or equivalent can be used to clear active and inactive faults.
+>
+> ### Shoptalk
+>
+> Possible causes of this fault code include:
+>
+> - Open signal or return circuit in the solenoid or harness.
+>
+> - Signal circuit shorted to voltage source.
+>
+> - Short circuit to ground in the harness or solenoid.
+>
+> Refer to Troubleshooting Fault Code t05-384

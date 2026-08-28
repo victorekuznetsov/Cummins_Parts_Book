@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-015-shopas.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-015-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Fuel Filter (Spin-On Type)
@@ -35,22 +37,48 @@ tags:
 > **Даты:** изменён 2010-06-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-015-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-015-shopas.pdf)
 
-### Install
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-with Mechanically Actuated Injector
 
-Install the new thread adapter sealing ring supplied with the new filter.
+### Установка
 
-A fuel-water separator or fuel filter and water separator combination **must** be installed.
+с форсункой механического управления
 
-Apply a light coating of clean engine oil to the surface of the filter gasket.
+Установите новое кольцо уплотнения адаптера резьбы, снабженное новым фильтром.
 
-Fill the fuel filter with clean fuel.
+Должен быть установлен сепаратор топливной воды или топливный фильтр и комбинация сепаратора воды.
+
+Нанесите легкое покрытие чистого моторного масла на поверхность прокладки фильтра.
+
+Заполните топливный фильтр чистым топливом.
 
 ![[ff8bdka.png]]
 
-Install the filter on the filter head. Turn the filter until the gasket touches the surface of the filter head.
+Установите фильтр на головку фильтра. Поверните фильтр до тех пор, пока прокладка не коснется поверхности головки фильтра.
 
-Tighten the filter an additional ½ to ¾ of a turn after the gasket touches the filter head surface.
+Затягивайте фильтр дополнительно от 1⁄2 до 3⁄4 поворота после того, как прокладка касается поверхности головки фильтра.
 
 ![[ff8bdaa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> with Mechanically Actuated Injector
+>
+> Install the new thread adapter sealing ring supplied with the new filter.
+>
+> A fuel-water separator or fuel filter and water separator combination **must** be installed.
+>
+> Apply a light coating of clean engine oil to the surface of the filter gasket.
+>
+> Fill the fuel filter with clean fuel.
+>
+> Install the filter on the filter head. Turn the filter until the gasket touches the surface of the filter head.
+>
+> Tighten the filter an additional ½ to ¾ of a turn after the gasket touches the filter head surface.

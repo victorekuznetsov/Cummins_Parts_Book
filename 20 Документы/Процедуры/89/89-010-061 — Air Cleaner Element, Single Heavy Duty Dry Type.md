@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021374"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-010-061.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-010-061.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Air Cleaner Element, Single Heavy Duty Dry Type
@@ -33,36 +35,78 @@ tags:
 > **Даты:** изменён 2003-01-06
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-010-061.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-010-061.pdf)
 
-### Maintenance Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!note] Note · Примечание
-> The illustrations in this section show typical dry-type air cleaner parts. The particular engine parts can vary.
 
-Heavy-duty air cleaners combine centrifugal cleaning with element filtering before air enters the engines.
+### Контроль при обслуживании
 
-Before disassembly, wipe dirt from the cover and the upper portion of the air cleaner.
+> [!note] Примечание
+> На иллюстрациях в этом разделе показаны типичные детали воздухоочистителя сухого типа. Конкретные детали двигателя могут варьироваться.
 
-> [!warning] CAUTION · Осторожно
-> Holes, loose-end seals, dented sealing surfaces, and other forms of damage render the cleaner inoperative and require immediate element replacement.
+Тяжёлые воздухоочистители сочетают центробежную очистку с фильтрацией элементов перед попаданием воздуха в двигатели.
 
-> [!note] Note · Примечание
-> Cummins Inc. does **not** recommend cleaning paper-type air cleaner elements.
+Перед разборкой протереть грязь с крышки и верхней части воздухоочистителя.
 
-To clean the single types:
+> [!warning] ОСТОРОЖНО
+> Отверстия, рыхлые уплотнения, мягкие уплотнительные поверхности и другие формы повреждений делают очиститель неработоспособным и требуют немедленной замены элементов.
 
-Loosen the wing nut (2) and remove the band securing the dust pan (1).
+> [!note] Примечание
+> Cummins Inc. **не** рекомендует чистить воздух в бумажном виде.
 
-Loosen the wing nut (2). Remove the dust shield (3) from the dust pan (1). Clean the dust pan and shield.
+Для очистки отдельных типов:
 
-> [!warning] CAUTION · Осторожно
-> Pull the cover and the element straight out during removal from the housing to reduce the possibility of damage to the element.
+Освободите крыло (2) и удалите полосу, защищающую пылесос (1).
 
-Remove the wing nut (5) that secures the air cleaner primary element in the air cleaner housing. Inspect the rubber sealing washer on the wing nut (4).
+Освободите крыло (2). Удалите пылевой щит (3) из пылесоса (1). Очистите пылесборник и щит.
 
-Install the new primary element.
+> [!warning] ОСТОРОЖНО
+> Вытаскивайте крышку и элемент прямо во время удаления из кожуха, чтобы уменьшить вероятность повреждения элемента.
 
-Be sure the gasket washer is in position under the wing nut before tightening.
+Удалите крыло (5), которое обеспечивает защиту воздуха от первичного элемента в корпусе воздухоочистителя. Осмотрите резиновую уплотнительную шайбу на гайке крыла (4).
 
-Assemble the dust shield and dust pan. Position them to the air cleaner housing and secure with the band.
+Установите новый основной элемент.
+
+Убедитесь, что прокладочная шайба находится в положении под крылом гайки перед затягиванием.
+
+Соберите пылевой щит и пылесборник. Поместите их в корпус воздухоочистителя и закрепите с помощью полосы.
 
 ![[ac4etgb.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Maintenance Check
+>
+> **Note · Примечание**
+> The illustrations in this section show typical dry-type air cleaner parts. The particular engine parts can vary.
+>
+> Heavy-duty air cleaners combine centrifugal cleaning with element filtering before air enters the engines.
+>
+> Before disassembly, wipe dirt from the cover and the upper portion of the air cleaner.
+>
+> **CAUTION · Осторожно**
+> Holes, loose-end seals, dented sealing surfaces, and other forms of damage render the cleaner inoperative and require immediate element replacement.
+>
+> **Note · Примечание**
+> Cummins Inc. does **not** recommend cleaning paper-type air cleaner elements.
+>
+> To clean the single types:
+>
+> Loosen the wing nut (2) and remove the band securing the dust pan (1).
+>
+> Loosen the wing nut (2). Remove the dust shield (3) from the dust pan (1). Clean the dust pan and shield.
+>
+> **CAUTION · Осторожно**
+> Pull the cover and the element straight out during removal from the housing to reduce the possibility of damage to the element.
+>
+> Remove the wing nut (5) that secures the air cleaner primary element in the air cleaner housing. Inspect the rubber sealing washer on the wing nut (4).
+>
+> Install the new primary element.
+>
+> Be sure the gasket washer is in position under the wing nut before tightening.
+>
+> Assemble the dust shield and dust pan. Position them to the air cleaner housing and secure with the band.

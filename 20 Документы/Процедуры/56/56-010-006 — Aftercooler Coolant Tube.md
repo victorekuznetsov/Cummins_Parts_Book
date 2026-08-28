@@ -15,13 +15,15 @@ families:
 manuals:
   - "4021530"
 figures: 2
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-006.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
   - "группа/56"
+  - "перевод/машинный"
 ---
 
 # Aftercooler Coolant Tube
@@ -35,22 +37,48 @@ tags:
 > **Даты:** изменён 2003-06-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-006.pdf)
 
-### Clean and Inspect for Reuse
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+### Очистка и проверка при повторном использовании
 
-Clean the aftercooler water inlet and outlet tubes with solvent and dry with compressed air.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Make sure the tubes are clean and free from debris.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+
+Очистить впускную и выпускную трубки послеохладителя водой растворителем и высушить сжатым воздухом.
+
+Убедитесь, что трубы чистые и свободные от мусора.
 
 ![[07a00048.png]]
 
-Check the tubes for cracks, dents or damage.
+Проверьте трубы на наличие трещин, вмятин или повреждений.
 
-Replace the tube if damaged.
+Замените трубку, если она повреждена.
 
 ![[lp5tbsa.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Clean and Inspect for Reuse
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> Clean the aftercooler water inlet and outlet tubes with solvent and dry with compressed air.
+>
+> Make sure the tubes are clean and free from debris.
+>
+> Check the tubes for cracks, dents or damage.
+>
+> Replace the tube if damaged.

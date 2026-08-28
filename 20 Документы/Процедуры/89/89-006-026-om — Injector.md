@@ -13,13 +13,15 @@ families:
 manuals:
   - "4021374"
 figures: 1
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-006-026-om.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-006-026-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK23"
   - "группа/89"
+  - "перевод/машинный"
 ---
 
 # Injector
@@ -33,12 +35,30 @@ tags:
 > **Даты:** изменён 2026-07-21
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/89/89-006-026-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/89-006-026-om.pdf)
 
-### Replace
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-This procedure requires special equipment and **must** be done at the nearest Cummins® Authorized Repair Location.
 
-Replacement of the fuel injectors is required at engine half life to rebuild.
+### Замена
 
-Half life to rebuild varies by application. Contact the nearest Cummins® Authorized Repair Location if **not** sure of this interval.
+Эта процедура требует специального оборудования и должна быть выполнена в ближайшем авторизованном месте ремонта Cummins®.
+
+Замена топливного форсунка требуется при периоде полураспада двигателя для восстановления.
+
+Полжизни для восстановления варьируются в зависимости от применения. Свяжитесь с ближайшим авторизованным ремонтным центром Cummins®, если не уверен в этом интервале.
 
 ![[fi801ua.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Replace
+>
+> This procedure requires special equipment and **must** be done at the nearest Cummins® Authorized Repair Location.
+>
+> Replacement of the fuel injectors is required at engine half life to rebuild.
+>
+> Half life to rebuild varies by application. Contact the nearest Cummins® Authorized Repair Location if **not** sure of this interval.

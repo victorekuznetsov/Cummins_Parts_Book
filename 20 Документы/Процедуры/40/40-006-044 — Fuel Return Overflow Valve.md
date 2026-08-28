@@ -13,13 +13,15 @@ families:
 manuals:
   - "3666087"
 figures: 4
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-044.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-044.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/6B5.9"
   - "группа/40"
+  - "перевод/машинный"
 ---
 
 # Fuel Return Overflow Valve
@@ -33,37 +35,74 @@ tags:
 > **Даты:** изменён 2006-03-31
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-006-044.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-006-044.pdf)
 
-### Initial Check
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-> [!warning] CAUTION · Осторожно
-> A sticky check ball or spring will result in engine low power.
 
-Use a small screwdriver to make sure that the check ball is **not** sticking in the high-pressure relief valve assembly.
+### Первичная проверка
+
+> [!warning] ОСТОРОЖНО
+> Липкий контрольный шар или пружина приведут к низкой мощности двигателя.
+
+Используйте небольшую отвертку, чтобы убедиться, что контрольный шар **не** прилипает к клапану высокого давления.
 
 ![[fs9cbsa.png]]
 
-### Remove
+### Снятие
 
-Bosch® In-Line Pump: Remove pressure relief valve and washer.
+Bosch® In-Line Pump: Снимите клапан сброса давления и шайбу.
 
-Remove the pressure relief valve and sealing washer.
+Снимите клапан сброса давления и уплотнительную шайбу.
 
 ![[ft9vama.png]]
 
-### Clean
+### Очистка
 
-> [!danger] WARNING · Опасно
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+> [!danger] ОПАСНО
+> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Thoroughly flush the high-pressure relief valve with cleaning solution.
+Тщательно промыть предохранительный клапан высокого давления очищающим раствором.
 
 ![[fs9vaea.png]]
 
-### Install
+### Установка
 
-> [!warning] CAUTION · Осторожно
-> Do not use the center cap as a vent. This will cause damage to the overflow valve.
+> [!warning] ОСТОРОЖНО
+> Не используйте центральную крышку в качестве вентиляционного отверстия. Это приведет к повреждению переливного клапана.
 
-Install the high-pressure relief valve assembly in the reverse order of removal.
+Установите предохранительный клапан высокого давления в обратном порядке удаления.
 
 ![[ft9tbhi.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Initial Check
+>
+> **CAUTION · Осторожно**
+> A sticky check ball or spring will result in engine low power.
+>
+> Use a small screwdriver to make sure that the check ball is **not** sticking in the high-pressure relief valve assembly.
+>
+> ### Remove
+>
+> Bosch® In-Line Pump: Remove pressure relief valve and washer.
+>
+> Remove the pressure relief valve and sealing washer.
+>
+> ### Clean
+>
+> **WARNING · Опасно**
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+>
+> Thoroughly flush the high-pressure relief valve with cleaning solution.
+>
+> ### Install
+>
+> **CAUTION · Осторожно**
+> Do not use the center cap as a vent. This will cause damage to the overflow valve.
+>
+> Install the high-pressure relief valve assembly in the reverse order of removal.

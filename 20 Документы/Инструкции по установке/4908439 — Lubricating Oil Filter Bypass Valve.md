@@ -16,13 +16,15 @@ families:
 parts:
   - "4357177"
 figures: 15
-lang: "en"
+lang: "ru+en"
+translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/4908439.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/install_inst/4908439.pdf"
 tags:
   - "документ/установка"
   - "двигатель/QSM11"
   - "двигатель/QSX15"
+  - "перевод/машинный"
 ---
 
 # Lubricating Oil Filter Bypass Valve
@@ -33,160 +35,291 @@ tags:
 > **Даты:** выпущен 2015-04-27 · изменён 2015-05-11
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/4908439.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/install_inst/4908439.pdf)
 
-## Lubricating Oil Filter Bypass Valve
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
 
-A new lubricating oil filter bypass valve, Part Number [[4357177]], has been released.
 
-**Product Affected**
+## Моторное масло фильтр обход клапана
 
-- All ISX/QSX 11.9 liter engines
-- All ISX/QSX 12 liter engines
-- All ISX/QSX 15 liter engines
+Новый фильтр для моторного масла, обходной клапан, номер детали[[4357177]]был освобожден.
 
-Lubricating oil filter bypass valve, Part Number [[4357177]], replaced the lubricating oil filter bypass valve, Part Number 3820320.
+**Затронутая продукция**
 
-The new lubricating oil filter bypass valve is backwards compatible with all prior lubricating oil filter cooler housing designs.
+- Все двигатели ISX/QSX 11,9 л
+- Все двигатели ISX/QSX 12 литров
+- Все двигатели ISX/QSX 15 литров
 
-**Preparatory Steps**
+Моторное масло фильтра обходной клапан, часть номер[[4357177]], замененный фильтром моторного масла обходной клапан, номер детали 3820320.
 
-Park vehicle on a level surface and in an area where it is safe to idle for an extended period of time.
+Новый обходной клапан фильтра моторного масла обратно совместим со всеми предыдущими конструкциями корпуса фильтра для моторного масла.
 
-Turn engine OFF and set vehicle brake(s).
+**Подготовительные мероприятия**
 
-Chock vehicle wheels or use an appropriate anti-roll device to stabilize vehicle.
+Парковать автомобиль на ровной поверхности и в зоне, где безопасно простаивать в течение длительного периода времени.
 
-Open vehicle hood.
+Выключите двигатель и установите тормоз(ы) транспортного средства.
 
-Disconnect the batteries. See Original Equipment Manufacturer (OEM) service information.
+Ударьте колеса транспортного средства или используйте соответствующее антипрокатное устройство для стабилизации транспортного средства.
+
+Открыть капот.
+
+Отсоедините аккумуляторные батареи. См. информацию об услугах производителя оригинального оборудования (OEM).
 
 ![[07r00031.png]]
 
-**Locating Component**
+**Компонент размещения**
 
-> [!danger] WARNING · Опасно
-> The exhaust and exhaust components can remain hot after the engine has been shut down or secured. To avoid the risk of fire, property damage, burns or other serious personal injury, allow the exhaust system to cool before beginning this procedure or repair and make sure that no combustible materials are located where they might come in contact with hot exhaust or exhaust components
+> [!danger] ОПАСНО
+> Выхлопные и выхлопные компоненты могут оставаться горячими после выключения или закрепления двигателя. Чтобы избежать риска пожара, повреждения имущества, ожогов или других серьезных травм, позвольте выхлопной системе остыть перед началом этой процедуры или ремонта и убедитесь, что горючие материалы не находятся там, где они могут вступать в контакт с горячими выхлопными газами или компонентами выхлопных газов.
 
-Locate turbocharger on exhaust side of engine.
+Найдите турбокомпрессор на выхлопной стороне двигателя.
 
 ![[07r00033.png]]
 
-Locate lubricating oil filter bypass valve retaining plug just below turbocharger.
+Найдите фильтр моторного масла, блокирующий клапан, удерживающий штепсель чуть ниже турбокомпрессора.
 
 ![[07r00034.png]]
 
-Inspect face of retaining plug for a highly visible paint marking (such as white or yellow paint).
+Осмотрите поверхность удерживающей пробки для хорошо видимой маркировки краски (например, белой или желтой краски).
 
-A paint marking indicates the new lubricating oil filter bypass valve has already been installed. No further action is necessary.
+Маркировка краски указывает на то, что новый фильтр для моторного масла уже установлен. Никаких дальнейших действий не требуется.
 
 ![[07r00035.png]]
 
-Locate the following items in order to complete the repair:
+Найдите следующие пункты для завершения ремонта:
 
-1. Gloves
-2. Safety glasses
-3. Lint free cloth
-4. Paint marker (white or yellow)
-5. Needle nose pliers
-6. Ratchet wrench and extension
-7. 17 mm Allen® wrench or hex socket
-8. Torque wrench
-9. Clean engine oil
-10. Drip pan or absorbent mat
+1. перчатки
+2. Очки безопасности
+3. бесплатная ткань
+4. Маркер краски (белый или желтый)
+5. Игольчатый нос
+6. Рябковый гаечный ключ и расширение
+7. 17 мм Allen® гаечный ключ или гекс-розетка
+8. гаечный ключ
+9. Чистое моторное масло
+10. Капельница или абсорбирующий коврик
 
 ![[07r00036.png]]
 
-**Remove**
+**Удалить**
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+> [!danger] ОПАСНО
+> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, надевайте защитные перчатки при обращении с деталями с острыми краями.
 
-> [!danger] WARNING · Опасно
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+> [!danger] ОПАСНО
+> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-> [!danger] WARNING · Опасно
-> To reduce the possibility of personal injury, wear the appropriate eye and face protection when removing the straight threaded o-ring plug holding in the lubricating oil filter bypass valve spring. The spring is under pressure and can cause personal injury.
+> [!danger] ОПАСНО
+> Чтобы уменьшить вероятность получения травмы, используйте соответствующую защиту глаз и лица при удалении прямой резьбовой кольцевой пробки, удерживающей в фильтре моторного масла обводную пружину клапана. Пружина находится под давлением и может нанести травму.
 
-> [!danger] WARNING · Опасно
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+> [!danger] ОПАСНО
+> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
-Place an appropriate drip pan or absorbent mat directly under the oil filter in order to properly contain any lubricating oil that may escape during the repair process.
+Поместите подходящую капельницу или абсорбирующий коврик непосредственно под масляным фильтром, чтобы правильно содержать любое моторное масло, которое может вырваться во время процесса ремонта.
 
-Clean area around the lubricating oil filter bypass valve plug prior to removal.
+Чистая область вокруг фильтра моторного масла обходить клапанную заглушку перед удалением.
 
-Use 17mm Allen® wrench or hex socket to loosen the lubricating oil filter bypass valve plug.
+Используйте 17-мм гаечный ключ Allen® или шестнадцатеричное гнездо, чтобы ослабить фильтр моторного масла, чтобы обойти клапанную заглушку.
 
 ![[07r00037.png]]
 
-Remove retaining plug (1), spring (2), and plunger (3) from lubricating oil cooler housing.
+Удалите удерживающую пробку (1), пружину (2) и плунжер (3) из кожуха охладителя моторного масла.
 
-Spring (2) and plunger (3) **must** be discarded.
+Пружина (2) и плунжер (3) должны быть выброшены.
 
-Using a clean lint free cloth, clean retaining plug.
+Используя чистую ткань без ворсинок, чистую удерживающую пробку.
 
 ![[07r00038.png]]
 
-**Install**
+**Установить**
 
-Inspect new lubricating oil filter bypass valve to verify two o-rings are correctly installed as shown.
+Проверить новый фильтр моторного масла, чтобы проверить, правильно ли установлены два кольца, как показано.
 
 ![[07r00039.png]]
 
-Lubricate the lubricating oil filter bypass valve with clean engine oil.
+Смазать фильтр моторного масла обходным клапаном чистым моторным маслом.
 
 ![[07r00040.png]]
 
-Insert lubricating oil filter bypass valve into lubricating oil cooler housing. Marking stating “THIS END OUT” **must** be visible.
+Вставить фильтр моторного масла в обходной клапан в корпус охладителя моторного масла. Маркировка «Это конец» должна быть видна.
 
 ![[07r00041.png]]
 
-Fully seat lubricating oil filter bypass valve in lubricating oil cooler housing. Verify o-rings are in proper location.
+Полностью сиденье фильтра моторного масла обходной клапан в корпусе охладителя моторного масла. Проверьте, что кольца находятся в правильном месте.
 
 ![[07r00042.png]]
 
-Install retaining plug into lubricating oil cooler housing.
+Установите удерживающую вилку в корпус охладителя моторного масла.
 
-Tighten retaining plug.
+Затягивание удерживающей вилки.
 
-> [!tip] Момент затяжки · Torque Value
-> 45 n•m [[33] ft-lb]
+> [!tip] Момент затяжки
+> 45 Н·м[33] фунт-фут
 
 ![[07r00043.png]]
 
-If installing new lubricating oil filter bypass valve for the first time, clearly mark entire face of retaining plug using a high quality paint marker that is highly visible (such as yellow or white). Liberally apply paint marking.
+Если впервые установить новый фильтр для моторного масла, четко пометьте всю поверхность удерживающей пробки с помощью высококачественного маркера краски, который хорошо виден (например, желтый или белый). Либерально применять маркировку краской.
 
 ![[07r00044.png]]
 
-**Finishing Steps**
+**Завершающие шаги**
 
-Connect the batteries. See OEM service information.
+Подсоедините аккумуляторные батареи. См. информацию об услугах OEM.
 
-Verify the vehicle brake(s) are set.
+Проверьте, установлены ли тормоза (торможения) транспортного средства.
 
-Start engine and operate to normal operating temperature. Check for leaks.
+Запустите двигатель и работайте до нормальной рабочей температуры. Проверьте на отсутствие утечек.
 
-If leaks are found, turn engine OFF and verify proper torque procedure was followed.
+Если утечки обнаружены, выключите двигатель и проверьте, соблюдалась ли правильная процедура крутящего момента.
 
-If leak persists remove plug and inspect plug o-ring and plug for damage.
+Если утечка сохраняется, удалите вилку и проверьте вилку o-кольца и вилку на повреждение.
 
-If no problem is found and oil leak persists please contact a Cummins® certified repair location.
+Если не обнаружено никаких проблем и утечка масла сохраняется, пожалуйста, свяжитесь с сертифицированным ремонтным центром Cummins®.
 
 ![[01c00750.png]]
 
-Turn engine OFF and set vehicle brake(s).
+Выключите двигатель и установите тормоз(ы) транспортного средства.
 
-Close vehicle hood.
+Закройте капот.
 
-Remove wheel chocks or other anti-roll device.
+Удалите рулевые петли или другое анти-ролльное устройство.
 
 ![[07r00031.png]]
 
-### Document History
+### История изменений документа
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[4357177]] | PRESSURE RELIEF VALVE | Предохранительный клапан давления |
+
+> [!quote]- Original (English) · английский оригинал
+> ## Lubricating Oil Filter Bypass Valve
+>
+> A new lubricating oil filter bypass valve, Part Number [[4357177]], has been released.
+>
+> **Product Affected**
+>
+> - All ISX/QSX 11.9 liter engines
+> - All ISX/QSX 12 liter engines
+> - All ISX/QSX 15 liter engines
+>
+> Lubricating oil filter bypass valve, Part Number [[4357177]], replaced the lubricating oil filter bypass valve, Part Number 3820320.
+>
+> The new lubricating oil filter bypass valve is backwards compatible with all prior lubricating oil filter cooler housing designs.
+>
+> **Preparatory Steps**
+>
+> Park vehicle on a level surface and in an area where it is safe to idle for an extended period of time.
+>
+> Turn engine OFF and set vehicle brake(s).
+>
+> Chock vehicle wheels or use an appropriate anti-roll device to stabilize vehicle.
+>
+> Open vehicle hood.
+>
+> Disconnect the batteries. See Original Equipment Manufacturer (OEM) service information.
+>
+> **Locating Component**
+>
+> **WARNING · Опасно**
+> The exhaust and exhaust components can remain hot after the engine has been shut down or secured. To avoid the risk of fire, property damage, burns or other serious personal injury, allow the exhaust system to cool before beginning this procedure or repair and make sure that no combustible materials are located where they might come in contact with hot exhaust or exhaust components
+>
+> Locate turbocharger on exhaust side of engine.
+>
+> Locate lubricating oil filter bypass valve retaining plug just below turbocharger.
+>
+> Inspect face of retaining plug for a highly visible paint marking (such as white or yellow paint).
+>
+> A paint marking indicates the new lubricating oil filter bypass valve has already been installed. No further action is necessary.
+>
+> Locate the following items in order to complete the repair:
+>
+> 1. Gloves
+> 2. Safety glasses
+> 3. Lint free cloth
+> 4. Paint marker (white or yellow)
+> 5. Needle nose pliers
+> 6. Ratchet wrench and extension
+> 7. 17 mm Allen® wrench or hex socket
+> 8. Torque wrench
+> 9. Clean engine oil
+> 10. Drip pan or absorbent mat
+>
+> **Remove**
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear protective gloves when handling parts with sharp edges.
+>
+> **WARNING · Опасно**
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+>
+> **WARNING · Опасно**
+> To reduce the possibility of personal injury, wear the appropriate eye and face protection when removing the straight threaded o-ring plug holding in the lubricating oil filter bypass valve spring. The spring is under pressure and can cause personal injury.
+>
+> **WARNING · Опасно**
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
+>
+> Place an appropriate drip pan or absorbent mat directly under the oil filter in order to properly contain any lubricating oil that may escape during the repair process.
+>
+> Clean area around the lubricating oil filter bypass valve plug prior to removal.
+>
+> Use 17mm Allen® wrench or hex socket to loosen the lubricating oil filter bypass valve plug.
+>
+> Remove retaining plug (1), spring (2), and plunger (3) from lubricating oil cooler housing.
+>
+> Spring (2) and plunger (3) **must** be discarded.
+>
+> Using a clean lint free cloth, clean retaining plug.
+>
+> **Install**
+>
+> Inspect new lubricating oil filter bypass valve to verify two o-rings are correctly installed as shown.
+>
+> Lubricate the lubricating oil filter bypass valve with clean engine oil.
+>
+> Insert lubricating oil filter bypass valve into lubricating oil cooler housing. Marking stating “THIS END OUT” **must** be visible.
+>
+> Fully seat lubricating oil filter bypass valve in lubricating oil cooler housing. Verify o-rings are in proper location.
+>
+> Install retaining plug into lubricating oil cooler housing.
+>
+> Tighten retaining plug.
+>
+> **Момент затяжки · Torque Value**
+> 45 n•m [[33] ft-lb]
+>
+> If installing new lubricating oil filter bypass valve for the first time, clearly mark entire face of retaining plug using a high quality paint marker that is highly visible (such as yellow or white). Liberally apply paint marking.
+>
+> **Finishing Steps**
+>
+> Connect the batteries. See OEM service information.
+>
+> Verify the vehicle brake(s) are set.
+>
+> Start engine and operate to normal operating temperature. Check for leaks.
+>
+> If leaks are found, turn engine OFF and verify proper torque procedure was followed.
+>
+> If leak persists remove plug and inspect plug o-ring and plug for damage.
+>
+> If no problem is found and oil leak persists please contact a Cummins® certified repair location.
+>
+> Turn engine OFF and set vehicle brake(s).
+>
+> Close vehicle hood.
+>
+> Remove wheel chocks or other anti-roll device.
+>
+> ### Document History
