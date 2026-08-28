@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc719.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc719.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc719.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Blowby Pressure Sensor - Shorted High
@@ -34,72 +32,34 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc719.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc719.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc719.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc719.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 719
 
+### Blowby Pressure Sensor - Shorted High
 
-### Код неисправности: 719
+Printable Version
 
-### Датчик давления прорыва газов — замыкание на плюс
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 719 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Для этого используется схема с датчиком давления с закороченным газом. | Отсутствие защиты двигателя от давления продува. |
+| Fault Code: 719 PID(P): SPN: FMI: Lamp: Warning SRT: | Crankcase blowby pressure sensor circuit - shorted high. | No engine protection for blowby pressure. |
 
 ![[19803587.png]]
 
-Схема датчика давления Blowby Pressure Sensor Circuit
+Blowby Pressure Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик давления продувки контролирует давление продувки газообразного картера и передает информацию в электронный модуль управления (ECM). Высокое напряжение будет сбивать Код 719 по умолчанию и может быть вызвано шортами в проводах подачи, сигнала или возврата, открытым в обратном проводе или неисправным датчиком.
+The blowby pressure sensor monitors crankcase blowby pressure and passes information to the electronic control module (ECM). High voltage will trip Fault Code 719 and can be caused by shorts in the supply, signal, or return wires, an open in the return wire, or a failed sensor.
 
-### Расположение компонента
+### Component Location
 
-См. схемы двигателя. 100-002 для расположения компонентов.
+Refer to the Engine Diagrams. 100-002 for the component location.
 
-### Практические замечания
+### Shoptalk
 
-Подтвердите, что дыхательные аппараты, дыхательные трубки и датчик продува ** не *** затрудняются.
+Confirm that the crankcase breathers, breather tubes, and blowby sensor are **not** obstructed.
 
-Устранение неполадок код t05-719
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 719
->
-> ### Blowby Pressure Sensor - Shorted High
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 719 PID(P): SPN: FMI: Lamp: Warning SRT: | Crankcase blowby pressure sensor circuit - shorted high. | No engine protection for blowby pressure. |
->
-> Blowby Pressure Sensor Circuit
->
-> ### Circuit Description
->
-> The blowby pressure sensor monitors crankcase blowby pressure and passes information to the electronic control module (ECM). High voltage will trip Fault Code 719 and can be caused by shorts in the supply, signal, or return wires, an open in the return wire, or a failed sensor.
->
-> ### Component Location
->
-> Refer to the Engine Diagrams. 100-002 for the component location.
->
-> ### Shoptalk
->
-> Confirm that the crankcase breathers, breather tubes, and blowby sensor are **not** obstructed.
->
-> Refer to Troubleshooting Fault Code t05-719
+Refer to Troubleshooting Fault Code t05-719

@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021528"
 figures: 11
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-016-005-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-016-005-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-016-005-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
-  - "перевод/машинный"
 ---
 
 # Flywheel
@@ -34,282 +32,149 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 16 - Mounting Adaptations - Group 16
 > **Даты:** изменён 2016-04-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-016-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-016-005-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-016-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-016-005-tr.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Preparatory Steps
 
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
 
-### Подготовительные операции
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift the component or assembly.
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+- Disconnect the batteries. See equipment manufacturer service information.
+- Disconnect the air starter to prevent accidental engine starting. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
+- Remove the transmission, clutch, and all related components. See equipment manufacturer service information.
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
+### Remove
 
-- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
-- Отключите воздушный стартер, чтобы предотвратить случайный запуск двигателя.[[102-012-022 — Air Starting Motor|См. процедуру 012-022 в разделе 12.]]
-- Удалите трансмиссию, сцепление и все связанные компоненты. См. сервисную документацию изготовителя оборудования.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift the component or assembly.
 
-### Снятие
+Remove two capscrews and install two guide studs.
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
+Install the tee-handles.
 
-Удалите два болта и установите два направляющих шпилька.
+Install the lifting straps.
 
-Установите ручки.
+Remove the remaining capscrews.
 
-Установите подъемные ремни.
+A mallet can be used to tap the flywheel, if necessary.
 
-Удалите оставшиеся болты.
-
-Молот может быть использован для прикосновения маховика, если это необходимо.
-
-Удалите маховик.
+Remove the flywheel.
 
 ![[fw400ma.png]]
 
-### Проверка при повторном использовании
+### Inspect for Reuse
 
-> [!danger] ОПАСНО
-> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к травмам.
+> [!danger] WARNING · Опасно
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause personal injury.
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-Используйте растворитель или пар для очистки маховика.
+Use solvent or steam to clean the flywheel.
 
-Используйте проволочную щетку для очистки цилиндра пилота коленчатого вала.
+Use a wire brush to clean the crankshaft pilot bore.
 
-Просушите сжатым воздухом.
+Dry with compressed air.
 
 ![[fw1brea.png]]
 
-Проверьте зубы кольцевой передачи на износ или повреждение.
+Inspect the teeth of the ring gear for wear or damage.
 
-Если зубы кольцевой передачи изношены или повреждены, кольцевая передача ** должна быть заменена.
+If the teeth of the ring gear are worn or damaged, the ring gear **must** be replaced.
 
 ![[fw1rgsa.png]]
 
-Используйте прокладку красителя, часть 3375452, чтобы проверить область крепления болтов на наличие трещин. В зоне установки маховика не должно быть никаких трещин.
+Use the dye penetrant, Part Number 3375452, to check the area of the mounting capscrew holes for cracks. There **must not** be any cracks in the flywheel mounting area.
 
-Осмотрите устанавливаемое пробоотверстие на предмет повреждения. Если пробоотверстие повреждено, маховик *** должен быть заменен.
+Inspect the mounting pilot hole for damage. If the pilot hole is damaged, the flywheel **must** be replaced.
 
 ![[fw1brsa.png]]
 
-> [!danger] ОПАСНО
-> Cummins Inc. Не рекомендуется повторное использование маховика. Восстановление маховика может привести к тому, что он будет слишком тонким и вызовет личные травмы, повреждение имущества или приведет к поломке.
+> [!danger] WARNING · Опасно
+> Cummins Inc. does not recommend resurfacing the flywheel. Resurfacing the flywheel can cause it to be too thin and cause personal injury, property damage, or result in breakage.
 
-Осмотрите лицо маховика на наличие трещин или других повреждений.
+Inspect the face of the flywheel for cracks or other damage.
 
-Маховик ** должен быть заменен, если он треснул или иным образом поврежден.
+The flywheel **must** be replaced if cracked or otherwise damaged.
 
 ![[fw1bdsa.png]]
 
-### Установка
+### Install
 
-Установите рулонный штифт (1) в коленчатом валу.
+Install the roll pin (1) in the crankshaft.
 
-Штырь требуется для выравнивания меток времени, которые находятся на маховике.
+The pin is required to align the timing marks that are on the flywheel.
 
-> [!note] Примечание
-> Маховик и флаксплит** не одинаковы для двигателей K38 и K50. Отметки регулировки клапана и форсунки, которые наклеиваются на детали, различны.
+> [!note] Note · Примечание
+> The flywheel and flexplate are **not** the same for K38 and K50 engines. The valve and injector adjustment marks that are stamped on the parts are different.
 
 ![[fw6piha.png]]
 
-Смазать маховики крепления болтов резьбой и фланцевыми головными поверхностями чистым моторным маслом.
+Lubricate the flywheel mounting capscrew threads and flange head surfaces with clean engine oil.
 
-Установите стиральную машину на болты и смазайте стиральную машину (1).
+Install the washer onto the capscrew and lubricate the washer (1).
 
 ![[la600hb.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift the component or assembly.
 
-Установите два направляющих шпильки, чтобы предотвратить вращение маховика.
+Install two guide studs to prevent the flywheel from rotating.
 
-Установите маховик.
+Install the flywheel.
 
-Установите болты для крепления маховика.
+Install the flywheel mounting capscrews.
 
-Удалите два направляющих шпилька и установите последние два болта для крепления маховика.
+Remove the two guide studs and install the last two flywheel mounting capscrews.
 
 ![[fw400ha.png]]
 
-Затягивать болты для крепления маховика в показанной последовательности.
+Tighten the flywheel mounting capscrews in the sequence shown.
 
-Момент затяжки:
+Torque Value:
 
 ![[fw800ob.png]]
 
-Измерьте общий показатель маховика.
+Measure the flywheel total indicator runout.
 
-> [!note] Примечание
-> Крайний зазор коленчатого вала должен толкаться или тянуться в одном и том же направлении каждый раз, когда измеряется точка.
+> [!note] Note · Примечание
+> The crankshaft end clearance must be pushed or pulled in the same direction each time a point is measured.
 
-Прикрепите индикатор, как показано. Продолжайте смотреть на индикатор при вращении двигателя.
+Attach an indicator as shown. Continue to look at the indicator while rotating the engine.
 
-Максимальный радиальный разбег составляет 0,13 мм \[0,005 дюйма\]. Если спуск **не*** в пределах спецификации, пилот на маховике *** не*** правильно расположен на коленчатом валу.
+Maximum radial runout is 0.13 mm \[0.005 inch\]. If the runout is **not** within specification, the pilot on the flywheel is **not** positioned correctly on the crankshaft.
 
-Если пилот поврежден, маховик должен быть заменен.
+If the pilot is damaged, the flywheel **must** be replaced.
 
 ![[fw800sg.png]]
 
-Максимально допустимый посадочный отрезок маховика определяется расстоянием от центра маховика до точки контакта измерения, деленной на 1000. Измерьте полный разбег маховика.
+The maximum allowable flywheel face runout is determined by the distance from the center of the flywheel to the contact point of measurement, divided by 1000. Measure the flywheel face total runout.
 
-| Flywheel Face Total Indicator Runout (альбом) |  |  |
+| Flywheel Face Total Indicator Runout |  |  |
 |---|---|---|
-| Номер 0 (с расстоянием 254 мм \[10 в\] центре) |  |  |
-|  | мм | в |
-| Макс | 0.254 | 0.010 |
+| Number 0 (with a 254 mm \[10 in\] center distance) |  |  |
+|  | mm | in |
+| MAX | 0.254 | 0.010 |
 
-Если выравнивание маховика ** не** в пределах спецификаций, проверьте наличие помех между маховиком и коленчатым валом.
+If the flywheel alignment is **not** within specifications, check for interference between the flywheel and the crankshaft.
 
 ![[fw800sf.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift the component or assembly.
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Для уменьшения возможности дуги сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
-
-- Установите приводной блок и связанные с ним компоненты. См. сервисную документацию изготовителя оборудования.
-- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
-- Подключите стартер.[[102-012-022 — Air Starting Motor|См. процедуру 012-022 в разделе 12.]]
-- Запустите двигатель и проверьте его правильность.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Preparatory Steps
->
-> **WARNING · Опасно**
+> [!danger] WARNING · Опасно
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift the component or assembly.
->
-> - Disconnect the batteries. See equipment manufacturer service information.
-> - Disconnect the air starter to prevent accidental engine starting. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
-> - Remove the transmission, clutch, and all related components. See equipment manufacturer service information.
->
-> ### Remove
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift the component or assembly.
->
-> Remove two capscrews and install two guide studs.
->
-> Install the tee-handles.
->
-> Install the lifting straps.
->
-> Remove the remaining capscrews.
->
-> A mallet can be used to tap the flywheel, if necessary.
->
-> Remove the flywheel.
->
-> ### Inspect for Reuse
->
-> **WARNING · Опасно**
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause personal injury.
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> Use solvent or steam to clean the flywheel.
->
-> Use a wire brush to clean the crankshaft pilot bore.
->
-> Dry with compressed air.
->
-> Inspect the teeth of the ring gear for wear or damage.
->
-> If the teeth of the ring gear are worn or damaged, the ring gear **must** be replaced.
->
-> Use the dye penetrant, Part Number 3375452, to check the area of the mounting capscrew holes for cracks. There **must not** be any cracks in the flywheel mounting area.
->
-> Inspect the mounting pilot hole for damage. If the pilot hole is damaged, the flywheel **must** be replaced.
->
-> **WARNING · Опасно**
-> Cummins Inc. does not recommend resurfacing the flywheel. Resurfacing the flywheel can cause it to be too thin and cause personal injury, property damage, or result in breakage.
->
-> Inspect the face of the flywheel for cracks or other damage.
->
-> The flywheel **must** be replaced if cracked or otherwise damaged.
->
-> ### Install
->
-> Install the roll pin (1) in the crankshaft.
->
-> The pin is required to align the timing marks that are on the flywheel.
->
-> **Note · Примечание**
-> The flywheel and flexplate are **not** the same for K38 and K50 engines. The valve and injector adjustment marks that are stamped on the parts are different.
->
-> Lubricate the flywheel mounting capscrew threads and flange head surfaces with clean engine oil.
->
-> Install the washer onto the capscrew and lubricate the washer (1).
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift the component or assembly.
->
-> Install two guide studs to prevent the flywheel from rotating.
->
-> Install the flywheel.
->
-> Install the flywheel mounting capscrews.
->
-> Remove the two guide studs and install the last two flywheel mounting capscrews.
->
-> Tighten the flywheel mounting capscrews in the sequence shown.
->
-> Torque Value:
->
-> Measure the flywheel total indicator runout.
->
-> **Note · Примечание**
-> The crankshaft end clearance must be pushed or pulled in the same direction each time a point is measured.
->
-> Attach an indicator as shown. Continue to look at the indicator while rotating the engine.
->
-> Maximum radial runout is 0.13 mm \[0.005 inch\]. If the runout is **not** within specification, the pilot on the flywheel is **not** positioned correctly on the crankshaft.
->
-> If the pilot is damaged, the flywheel **must** be replaced.
->
-> The maximum allowable flywheel face runout is determined by the distance from the center of the flywheel to the contact point of measurement, divided by 1000. Measure the flywheel face total runout.
->
-> | Flywheel Face Total Indicator Runout |  |  |
-> |---|---|---|
-> | Number 0 (with a 254 mm \[10 in\] center distance) |  |  |
-> |  | mm | in |
-> | MAX | 0.254 | 0.010 |
->
-> If the flywheel alignment is **not** within specifications, check for interference between the flywheel and the crankshaft.
->
-> ### Finishing Steps
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift the component or assembly.
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first, and attach the negative (-) battery cable last.
->
-> - Install the drive unit and related components. See equipment manufacturer service information.
-> - Connect the batteries. See equipment manufacturer service information.
-> - Connect the air starter. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
-> - Start the engine and check for proper operation.
+
+- Install the drive unit and related components. See equipment manufacturer service information.
+- Connect the batteries. See equipment manufacturer service information.
+- Connect the air starter. [[102-012-022 — Air Starting Motor|Refer to Procedure 012-022 in Section 12.]]
+- Start the engine and check for proper operation.

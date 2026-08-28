@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1417.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1417.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1417.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Controller Power Down Fault
@@ -34,72 +32,34 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1417.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1417.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1417.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1417.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 1417
 
+### Controller Power Down Fault
 
-### Код неисправности: 1417
+Printable Version
 
-### Неисправность отключения питания контроллера
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 1417 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Была обнаружена ошибка отключения питания контроллера. | ECM может ** не** отключаться из-за какого-то неизвестного состояния. Возможен дренаж батареи. |
+| Fault Code: 1417 PID(P): SPN: FMI: Lamp: Warning SRT: | A controller power-down error has been detected. | The ECM can **not** power down because of some unknown condition. Possible drain on battery. |
 
 ![[19802494.png]]
 
-СХУ ECM
+GCS ECM
 
-### Описание цепи
+### Circuit Description
 
-ECM проверяет во время последовательности выключения питания, чтобы увидеть, отключается ли питание. Если линия электропередачи все еще горячая, она проверяется по причине **не** отключения. Если нет причин, то должна быть проблема с модулем, который не позволяет ему отключаться.
+The ECM checks during the power-down sequences to see if power is being shut off. If the power line is still hot, it checks for a reason for **not** shutting down. If no reason exists, then there **must** be a problem with the module that is **not** allowing it to power down.
 
-### Расположение компонента
+### Component Location
 
-См. руководство по OEM для определения местоположения ECM.
+Refer to the OEM manual for location of the ECM.
 
-### Практические замечания
+### Shoptalk
 
-Эта ошибка указывает на аппаратный сбой в ECM.
+This fault indicates a hardware failure in the ECM.
 
-См. Код устранения неисправностей t05-1417
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 1417
->
-> ### Controller Power Down Fault
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 1417 PID(P): SPN: FMI: Lamp: Warning SRT: | A controller power-down error has been detected. | The ECM can **not** power down because of some unknown condition. Possible drain on battery. |
->
-> GCS ECM
->
-> ### Circuit Description
->
-> The ECM checks during the power-down sequences to see if power is being shut off. If the power line is still hot, it checks for a reason for **not** shutting down. If no reason exists, then there **must** be a problem with the module that is **not** allowing it to power down.
->
-> ### Component Location
->
-> Refer to the OEM manual for location of the ECM.
->
-> ### Shoptalk
->
-> This fault indicates a hardware failure in the ECM.
->
-> Refer to Troubleshooting Fault Code t05-1417
+Refer to Troubleshooting Fault Code t05-1417

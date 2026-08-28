@@ -8,109 +8,64 @@ title_ru: "Цепь привода перепускного клапана ту�
 modified: "2012-07-05"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
   - "3666266"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc491.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc491.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc491.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
-  - "перевод/машинный"
 ---
 
 # Wastegate Actuator Number 2 Circuit
 **Цепь привода перепускного клапана турбины №2**
 
 > [!abstract] Процедура · `82-fc491`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2012-07-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc491.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc491.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc491.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc491.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 491
 
+### Wastegate Actuator Number 2 Circuit
 
-### Код неисправности: 491
+Printable Version
 
-### Цепь привода перепускного клапана турбины №2
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 491 PID (P): S088 SPN: 1189 FMI: 3/3 лампы: Желтая СТО: | Высокое напряжение, обнаруженное в цепи 2-го привода обходного клапана турбины, когда напряжение не подавалось модулем управления двигателем (ECM). | Двигатель будет работать с поломкой. |
+| Fault Code: 491 PID(P): S088 SPN: 1189 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the wastegate actuator number 2 circuit when no voltage was being supplied by the engine control module (ECM). | Engine will run derated. |
 
 ![[19c00620.png]]
 
-Цепь привода перепускного клапана турбины №2
+Wastegate Actuator Number 2 Circuit
 
-### Описание цепи
+### Circuit Description
 
-Вентиляционные приводы турбинного обхода - это устройства, используемые ECM для управления давлением наддува.
+The wastegate actuators are devices used by the ECM to control boost pressure.
 
-### Расположение компонента
+### Component Location
 
-Контроллер обходного клапана турбины расположен на впускном роге воздуха. Привод № 2 является самым передним соленоидом на контроллере.
+The wastegate controller is located on the air inlet horn. Actuator number 2 is the front-most solenoid on the controller.
 
-### Практические замечания
+### Shoptalk
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- Короткое замыкание к источнику напряжения в электропроводке
+- A short circuit to voltage source in the harness
 
-- Открытая схема в проводной упряжке, разъёме или клапане управления обходным клапаном турбины
+- An open circuit in the harness, connector, or wastegate control valve
 
-- Неправильно установленный турбинный шунтирующий клапан привода соленоид.
+- Improperly mounted wastegate actuator solenoid.
 
-Устранение неполадок код t05-491
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 491
->
-> ### Wastegate Actuator Number 2 Circuit
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 491 PID(P): S088 SPN: 1189 FMI: 3/3 Lamp: Yellow SRT: | High voltage detected at the wastegate actuator number 2 circuit when no voltage was being supplied by the engine control module (ECM). | Engine will run derated. |
->
-> Wastegate Actuator Number 2 Circuit
->
-> ### Circuit Description
->
-> The wastegate actuators are devices used by the ECM to control boost pressure.
->
-> ### Component Location
->
-> The wastegate controller is located on the air inlet horn. Actuator number 2 is the front-most solenoid on the controller.
->
-> ### Shoptalk
->
-> Possible causes of this fault code include:
->
-> - A short circuit to voltage source in the harness
->
-> - An open circuit in the harness, connector, or wastegate control valve
->
-> - Improperly mounted wastegate actuator solenoid.
->
-> Refer to Troubleshooting Fault Code t05-491
+Refer to Troubleshooting Fault Code t05-491

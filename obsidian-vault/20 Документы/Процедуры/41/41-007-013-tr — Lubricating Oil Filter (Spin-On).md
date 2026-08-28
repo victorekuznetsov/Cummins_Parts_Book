@@ -8,203 +8,117 @@ title_ru: "Масляный фильтр (навинчиваемый)"
 modified: "2009-06-09"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
   - "3666003"
 figures: 7
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-007-013-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-007-013-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-007-013-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
-  - "перевод/машинный"
 ---
 
 # Lubricating Oil Filter (Spin-On)
 **Масляный фильтр (навинчиваемый)**
 
 > [!abstract] Процедура · `41-007-013-tr`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2009-06-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-007-013-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-007-013-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-007-013-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-007-013-tr.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Measure
 
+Remove the oil plugs from the lubricating oil cooler housing at the filter inlet and outlet pressure ports and install manual gauges.
 
-### Измерение
+The following parts, or equivalent, are available for use:
 
-Удалите масляные пробки из корпуса охладителя моторного масла на входных и выпускных отверстиях фильтра и установите ручные датчики.
-
-Для использования доступны следующие части или эквивалент:
-
-| ** Часть номера** | **Описание** |
+| **Part Number** | **Description** |
 |---|---|
-| 3377244 | КомпьючекTM фитинг (1/8 дюйма 27 NPT) |
-| 3376920 | Сцепление CompuchekTM (1/4 дюйма трубной резьбы) |
-| 3164491 | Электронный адаптер давления для многометровой (1/4-NPT трубы) |
-| 3164488 или 3164489 | Электронный цифровой мультиметр |
+| 3377244 | Compuchek™ fitting (1/8 inch 27 NPT) |
+| 3376920 | Compuchek™ coupling (1/4 inch pipe thread) |
+| 3164491 | Electronic pressure adapter for multimeter (1/4-NPT pipe) |
+| 3164488 or 3164489 | Electronic digital multimeter |
 
-| **Информация об устройстве** |  |
+| **Engine Information** |  |
 |---|---|
-| Тип фильтра масла |  |
-| Майлз на фильтре |  |
-| Тип масла |  |
+| Oil Filter Type |  |
+| Miles on Filter |  |
+| Oil Type |  |
 
 ![[07900154.png]]
 
-Управляйте двигателем при каждой указанной оборотной частоте и записывайте соответствующие значения давления:
+Operate the engine at each rpm indicated and record the corresponding pressure values:
 
-|  | ** Двигатель RPM** | **Впуск фильтра давления масла** | ** Нефтяной фильтр давления ** | ** Вход - выход = дифференциальное давление** | **Инструменты электронного обслуживания INSITETM** |
+|  | **Engine RPM** | **Oil Pressure Filter Inlet** | **Oil Filter Pressure Outlet** | **Inlet - Outlet = Differential Pressure** | **INSITE™ electronic service tool** |
 |---|---|---|---|---|---|
-| Низкий холостый |  |  |  |  |  |
-| Высокое холостое |  |  |  |  |  |
+| Low Idle |  |  |  |  |  |
+| High Idle |  |  |  |  |  |
 
-Падение давления более 172 кПа[25 psi] при рабочей температуре с использованием масла 15 Вт-40 указывает на то, что фильтр подключен.
+A pressure drop greater than 172 kPa \[25 psi\], at operating temperature using 15W-40 oil, indicates the filter is plugged.
 
-Определите причины заглушенного фильтра. Проверить Cummins Inc. В настоящее время соблюдаются руководящие принципы технического обслуживания.
+Identify the causes of a plugged filter. Verify the Cummins Inc. maintenance guidelines are being met.
 
-Используйте следующую процедуру для проверки возможного загрязнения жидкости. См. процедуру 007-083 в разделе 7.
+Use the following procedure to check for possible fluid contamination. [[100-007-083 — Lubricating Oil and Filter Analysis|Refer to Procedure 007-083 in Section 7.]]
 
-Измените как моторное масло, так и фильтр моторного масла, если фильтр подключен.
+Change both the lubricating oil and the lubricating oil filter, if the filter is plugged.
 
-Смотрите следующий бюллетень для получения дополнительной информации о затыкании фильтра моторного масла.
+See the following bulletin for additional information about lubricating oil filter plugging.
 
-[[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|См. Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin 3810340.]]
+[[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|Refer to Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin 3810340.]]
 
-### Снятие
+### Remove
 
-Очистите область вокруг головки фильтра моторного масла.
+Clean the area around the lubricating oil filter head.
 
-Удалите масляный фильтр с помощью гаечного ключа масляного фильтра, номер детали. 3375049.
+Remove the oil filter with oil filter wrench, Part No. 3375049.
 
-Очистите прокладку поверхности головки фильтра.
+Clean the gasket surface of the filter head.
 
 ![[lf9etma.png]]
 
-### Установка
+### Install
 
-Смазать прокладку масляного фильтра чистым моторным маслом.
+Lubricate the oil filter gasket with clean engine oil.
 
-Заполните масляный фильтр чистым моторным маслом.
+Fill the oil filter with clean engine oil.
 
 ![[lf900wa.png]]
 
-Установите фильтр на головку масляного фильтра. Затягивайте фильтр до тех пор, пока прокладка не свяжется с поверхностью головки фильтра.
+Install the filter on the oil filter head. Tighten the filter until the gasket contacts the filter head surface.
 
-Используйте гаечный ключ масляного фильтра, номер детали. 3375049, затянуть фильтр дополнительно на 1⁄2-3⁄4 оборота или следовать инструкциям, подаваемым масляным фильтром.
+Use oil filter wrench, Part No. 3375049, to tighten the filter an additional ½ to ¾ of a turn, or follow the instructions supplied with the oil filter.
 
 ![[lf9etha.png]]
 
-Запустите двигатель и проверьте на отсутствие утечек.
+Operate the engine and check for leaks.
 
 ![[lf900sa.png]]
 
-### Осмотр
+### Inspect
 
-> [!danger] ОПАСНО
-> Тщательно разрежьте фильтр полного потока масла (верхний участок комбинированного фильтра). Фильтрующий элемент пружины находится под сжатием и может нанести личную травму.
+> [!danger] WARNING · Опасно
+> Carefully cut the full-flow oil filter (upper section of combination filter) open. The filter element spring is under compression and can cause personal injury.
 
 ![[lf9etba.png]]
 
-Используйте труборез, номер детали. 3376579, для открытия фильтра полного потока масла (верхняя часть обходного фильтра).
+Use the tube cutter, Part No. 3376579, to open the full-flow oil filter (upper section of the bypass filter).
 
-Проверить фильтрующий элемент на наличие влаги или металлических частиц.
+Inspect the filter element for evidence of moisture or metal particles.
 
-| ** Металл** | **Вероятный источник** |
+| **Metal** | **Probable Source** |
 |---|---|
-| медь | Подшипники и втулки |
-| Хром | Поршневые кольца |
-| железо | Линейные цилиндры |
-| Ведущий | Накладной материал |
-| алюминий | Пистонский костюм или потасовка |
+| Copper | Bearings and bushings |
+| Chromium | Piston rings |
+| Iron | Cylinder liners |
+| Lead | Bearing overlay material |
+| Aluminum | Piston wear or scuffing |
 
 ![[lf9etsc.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Measure
->
-> Remove the oil plugs from the lubricating oil cooler housing at the filter inlet and outlet pressure ports and install manual gauges.
->
-> The following parts, or equivalent, are available for use:
->
-> | **Part Number** | **Description** |
-> |---|---|
-> | 3377244 | Compuchek™ fitting (1/8 inch 27 NPT) |
-> | 3376920 | Compuchek™ coupling (1/4 inch pipe thread) |
-> | 3164491 | Electronic pressure adapter for multimeter (1/4-NPT pipe) |
-> | 3164488 or 3164489 | Electronic digital multimeter |
->
-> | **Engine Information** |  |
-> |---|---|
-> | Oil Filter Type |  |
-> | Miles on Filter |  |
-> | Oil Type |  |
->
-> Operate the engine at each rpm indicated and record the corresponding pressure values:
->
-> |  | **Engine RPM** | **Oil Pressure Filter Inlet** | **Oil Filter Pressure Outlet** | **Inlet - Outlet = Differential Pressure** | **INSITE™ electronic service tool** |
-> |---|---|---|---|---|---|
-> | Low Idle |  |  |  |  |  |
-> | High Idle |  |  |  |  |  |
->
-> A pressure drop greater than 172 kPa \[25 psi\], at operating temperature using 15W-40 oil, indicates the filter is plugged.
->
-> Identify the causes of a plugged filter. Verify the Cummins Inc. maintenance guidelines are being met.
->
-> Use the following procedure to check for possible fluid contamination. Refer to Procedure 007-083 in Section 7.
->
-> Change both the lubricating oil and the lubricating oil filter, if the filter is plugged.
->
-> See the following bulletin for additional information about lubricating oil filter plugging.
->
-> [[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|Refer to Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin 3810340.]]
->
-> ### Remove
->
-> Clean the area around the lubricating oil filter head.
->
-> Remove the oil filter with oil filter wrench, Part No. 3375049.
->
-> Clean the gasket surface of the filter head.
->
-> ### Install
->
-> Lubricate the oil filter gasket with clean engine oil.
->
-> Fill the oil filter with clean engine oil.
->
-> Install the filter on the oil filter head. Tighten the filter until the gasket contacts the filter head surface.
->
-> Use oil filter wrench, Part No. 3375049, to tighten the filter an additional ½ to ¾ of a turn, or follow the instructions supplied with the oil filter.
->
-> Operate the engine and check for leaks.
->
-> ### Inspect
->
-> **WARNING · Опасно**
-> Carefully cut the full-flow oil filter (upper section of combination filter) open. The filter element spring is under compression and can cause personal injury.
->
-> Use the tube cutter, Part No. 3376579, to open the full-flow oil filter (upper section of the bypass filter).
->
-> Inspect the filter element for evidence of moisture or metal particles.
->
-> | **Metal** | **Probable Source** |
-> |---|---|
-> | Copper | Bearings and bushings |
-> | Chromium | Piston rings |
-> | Iron | Cylinder liners |
-> | Lead | Bearing overlay material |
-> | Aluminum | Piston wear or scuffing |

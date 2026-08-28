@@ -8,277 +8,154 @@ title_ru: "Топливная магистраль (слив)"
 modified: "2022-08-09"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 7
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-021.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-006-021.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-021.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Fuel Manifold (Drain)
 **Топливная магистраль (слив)**
 
 > [!abstract] Процедура · `20-006-021`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 6 - Injectors and Fuel Lines - Group 06
 > **Даты:** изменён 2022-08-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-021.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-006-021.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-021.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-021.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Select Service Tools
 
+Recommended Cummins® Service Tools
 
-### Выбор сервисного инструмента
+- Fuel System Clean Care Kit, Part Number 4919073
+- QD™ contact cleaner, Part Number 3824510, or equivalent
 
-Рекомендованный сервисный инструмент Cummins®
+Additional Service Items
 
-- Набор для чистого ухода за топливной системой, номер детали 4919073
-- Контактный очиститель QDTM, номер детали 3824510 или эквивалент
+- No additional service items required.
 
-Дополнительные сервисные позиции
+### Preparatory Steps
 
-- Никаких дополнительных предметов обслуживания не требуется.
+Recommended Cummins® Service Tools
 
-### Подготовительные операции
+- Fuel System Clean Care Kit, Part Number 4919073
+- QD™ contact cleaner, Part Number 3824510, or equivalent
 
-Рекомендованный сервисный инструмент Cummins®
+Additional Service Items
 
-- Набор для чистого ухода за топливной системой, номер детали 4919073
-- Контактный очиститель QDTM, номер детали 3824510 или эквивалент
+- No additional service items required.
 
-Дополнительные сервисные позиции
+> [!danger] WARNING · Опасно
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
 
-- Никаких дополнительных предметов обслуживания не требуется.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-> [!danger] ОПАСНО
-> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
+> [!warning] CAUTION · Осторожно
+> Clean all fittings before disassembly. Dirt or contaminants can damage the fuel system.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+Before servicing any fuel system components, (such as fuel lines, fuel pump, injectors, etc.), which would expose the fuel system or internal engine components to potential contaminants prior to disassembly, clean the fittings, mounting hardware, and the area around the component to be removed. Dirt or contaminants can be introduced into the fuel system and engine if the surrounding areas are **not** cleaned, resulting in damage to the fuel system and engine. [[99-000-009 — Engine Cleaning|Refer to Procedure 000-009]] in Section 0.
 
-> [!warning] ОСТОРОЖНО
-> Очистите все фитинги перед разборкой. Грязь или загрязняющие вещества могут повредить топливную систему.
-
-Перед обслуживанием любых компонентов топливной системы (таких как топливные линии, топливный насос, форсунка и т. Д.), Которые подвергнут топливную систему или внутренние компоненты двигателя потенциальным загрязнителям перед разборкой, очистите фитинги, монтажное оборудование и область вокруг компонента, который должен быть удален. Грязь или загрязняющие вещества могут быть введены в топливную систему и двигатель, если окружающие области не очищены, что приводит к повреждению топливной системы и двигателя.[[99-000-009 — Engine Cleaning|См. процедуру 000-009]]В разделе 0.
-
-Для предотвращения повреждения от мусора и загрязнения, крышка, крышка или заглушка любых отверстий как можно скорее при обслуживании топливной системы. Колпачки и вилки можно найти в комплекте для очистки топливной системы, номер детали 4919073.
+To prevent damage from debris and contamination, cover, cap, or plug any openings as soon as possible when servicing the fuel system. Caps and plugs can be found in Fuel System Clean Care Kit, Part Number 4919073.
 
 ![[00c00155.png]]
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-- Отсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
-- Отсоедините обратную линию топлива транспортного средства от коллектора слива топлива. См. сервисную документацию изготовителя оборудования.
-- Отсоедините линии слива топлива от коллектора слива топлива.[[20-006-013-tr — Fuel Drain Lines|См. процедуру 006-013]]в разделе 6.
+- Disconnect the batteries. See equipment manufacturer service information.
+- Disconnect the vehicle fuel return line from the fuel drain manifold. See equipment manufacturer service information.
+- Disconnect the fuel drain lines from the fuel drain manifold. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013]] in Section 6.
 
-### Снятие
+### Remove
 
-Удалите два ореха, закрепляющие коллектор слива топлива в двигатель.
+Remove the two nuts securing the fuel drain manifold to the engine.
 
-Удалите коллектор слива топлива.
+Remove the fuel drain manifold.
 
 ![[06k00105.png]]
 
-### Разборка
+### Disassemble
 
-Трубопроводный коллектор имеет три фитинга:
+The fuel drain manifold has three fittings:
 
-1. вентиль обратной проверки форсунки
-2. Линия слива клапанов под давлением
-3. Проверка клапана с низким давлением
+1. Injector return check valve
+2. Pressure limiting valve drain line
+3. Low-pressure air bleed line check valve
 
-Удалите фитинги из коллектора слива топлива.
+Remove the fittings from the fuel drain manifold.
 
-Уплотнительные кольца утилизируйте.
+Discard the o-rings.
 
 ![[06k00104.png]]
 
-### Очистка и проверка при повторном использовании
+### Clean and Inspect for Reuse
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
+> [!danger] WARNING · Опасно
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
 
-Очистите все части. Используйте контактный очиститель QDTM, номер 3824510 или эквивалент.
+Clean all parts. Use QD™ contact cleaner, Part Number 3824510, or equivalent.
 
 ![[06400313.png]]
 
-Осмотрите топливный коллектор на наличие трещин, полосатых резьб и других повреждений. Заменить, если поврежден.
+Inspect the fuel manifold for cracks, stripped threads, and other damage. Replace, if damaged.
 
-Осмотрите союзную арматуру и проверьте клапаны на наличие трещин, полосатых резьб и других повреждений. Заменить, если поврежден.
+Inspect the union fittings and check valves for cracks, stripped threads, and other damage. Replace, if damaged.
 
 ![[06400314.png]]
 
-### Сборка
+### Assemble
 
-Смазать все новые кольца растительным маслом перед установкой.
+Lubricate all new o-rings with vegetable oil prior to installation.
 
-Установите форсунка обратного контрольного клапана (1) с новыми кольцами в коллектор слива топлива.
+Install the injector return check valve (1) with new o-rings into the fuel drain manifold.
 
-> [!tip] Момент затяжки
-> 54 Н·м [40 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 54 n•m [40 ft-lb]
 
-Для опций с внешним резьбовым фитинговым локтем установите крепление 2-го клапана лимтинга давления с новыми кольцами в коллектор слива топлива.
+For options with a male union elbow, install the pressure limting valve union fitting (2) with new o-rings into the fuel drain manifold.
 
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
 
-Установите контрольный клапан (3) с воздушным кровотечением низкого давления с новыми кольцами в коллектор слива топлива.
+Install the low-pressure air bleed check valve (3) with new o-rings into the fuel drain manifold.
 
-> [!tip] Момент затяжки
-> 37 Н·м [27 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 37 n•m [27 ft-lb]
 
 ![[06k00104.png]]
 
-### Установка
+### Install
 
-Установите коллектор слива топлива на двигатель.
+Install the fuel drain manifold to the engine.
 
-Затяните два ореха.
+Tighten the two nuts.
 
-> [!tip] Момент затяжки
-> 27 Н·м [239 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 27 n•m [239 ft-lb]
 
 ![[06k00105.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
-
-- Соедините линии слива топлива.[[20-006-013-tr — Fuel Drain Lines|См. процедуру 006-013]]в разделе 6.
-- Подключите обратную линию топлива к коллекторам слива топлива. См. сервисную документацию изготовителя оборудования.
-- Подсоедините аккумуляторные батареи. См. сервисную документацию изготовителя оборудования.
-- Управляйте двигателем. Проверьте на отсутствие утечек.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Select Service Tools
->
-> Recommended Cummins® Service Tools
->
-> - Fuel System Clean Care Kit, Part Number 4919073
-> - QD™ contact cleaner, Part Number 3824510, or equivalent
->
-> Additional Service Items
->
-> - No additional service items required.
->
-> ### Preparatory Steps
->
-> Recommended Cummins® Service Tools
->
-> - Fuel System Clean Care Kit, Part Number 4919073
-> - QD™ contact cleaner, Part Number 3824510, or equivalent
->
-> Additional Service Items
->
-> - No additional service items required.
->
-> **WARNING · Опасно**
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> **CAUTION · Осторожно**
-> Clean all fittings before disassembly. Dirt or contaminants can damage the fuel system.
->
-> Before servicing any fuel system components, (such as fuel lines, fuel pump, injectors, etc.), which would expose the fuel system or internal engine components to potential contaminants prior to disassembly, clean the fittings, mounting hardware, and the area around the component to be removed. Dirt or contaminants can be introduced into the fuel system and engine if the surrounding areas are **not** cleaned, resulting in damage to the fuel system and engine. [[99-000-009 — Engine Cleaning|Refer to Procedure 000-009]] in Section 0.
->
-> To prevent damage from debris and contamination, cover, cap, or plug any openings as soon as possible when servicing the fuel system. Caps and plugs can be found in Fuel System Clean Care Kit, Part Number 4919073.
->
-> **WARNING · Опасно**
+> [!danger] WARNING · Опасно
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> - Disconnect the batteries. See equipment manufacturer service information.
-> - Disconnect the vehicle fuel return line from the fuel drain manifold. See equipment manufacturer service information.
-> - Disconnect the fuel drain lines from the fuel drain manifold. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013]] in Section 6.
->
-> ### Remove
->
-> Remove the two nuts securing the fuel drain manifold to the engine.
->
-> Remove the fuel drain manifold.
->
-> ### Disassemble
->
-> The fuel drain manifold has three fittings:
->
-> 1. Injector return check valve
-> 2. Pressure limiting valve drain line
-> 3. Low-pressure air bleed line check valve
->
-> Remove the fittings from the fuel drain manifold.
->
-> Discard the o-rings.
->
-> ### Clean and Inspect for Reuse
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
->
-> Clean all parts. Use QD™ contact cleaner, Part Number 3824510, or equivalent.
->
-> Inspect the fuel manifold for cracks, stripped threads, and other damage. Replace, if damaged.
->
-> Inspect the union fittings and check valves for cracks, stripped threads, and other damage. Replace, if damaged.
->
-> ### Assemble
->
-> Lubricate all new o-rings with vegetable oil prior to installation.
->
-> Install the injector return check valve (1) with new o-rings into the fuel drain manifold.
->
-> **Момент затяжки · Torque Value**
-> 54 n•m [40 ft-lb]
->
-> For options with a male union elbow, install the pressure limting valve union fitting (2) with new o-rings into the fuel drain manifold.
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Install the low-pressure air bleed check valve (3) with new o-rings into the fuel drain manifold.
->
-> **Момент затяжки · Torque Value**
-> 37 n•m [27 ft-lb]
->
-> ### Install
->
-> Install the fuel drain manifold to the engine.
->
-> Tighten the two nuts.
->
-> **Момент затяжки · Torque Value**
-> 27 n•m [239 ft-lb]
->
-> ### Finishing Steps
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> - Connect the fuel drain lines. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013]] in Section 6.
-> - Connect the fuel return line to the fuel drain manifold. See equipment manufacturer service information.
-> - Connect the batteries. See equipment manufacturer service information.
-> - Operate the engine. Check for leaks.
+
+- Connect the fuel drain lines. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013]] in Section 6.
+- Connect the fuel return line to the fuel drain manifold. See equipment manufacturer service information.
+- Connect the batteries. See equipment manufacturer service information.
+- Operate the engine. Check for leaks.

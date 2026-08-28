@@ -8,155 +8,96 @@ title_ru: "Пульт машинного отделения"
 modified: "2010-07-19"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021587"
 figures: 10
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-024.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-015-024.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-015-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/115"
-  - "перевод/машинный"
 ---
 
 # Engine Room Panel
 **Пульт машинного отделения**
 
 > [!abstract] Процедура · `115-015-024`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]]
 > **Секции:** Section 15 — Instruments and Controls
 > **Даты:** изменён 2010-07-19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-015-024.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-015-024.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
+Instrument Panel
 
-### Снятие
-
-Панель инструментов
-
-Отсоедините разъем от задней панели прибора ED3.
+Disconnect the connector from the back of the ED3 instrument panel.
 
 ![[17800143.png]]
 
-Удалите клеммные кронштейны, устанавливающие винты.
+Remove the terminal strip bracket mounting screws.
 
-Разрешите терминальной полосе и скобке висеть бесплатно.
+Allow the terminal strip and bracket to hang free.
 
 ![[17800144.png]]
 
-Удалите оставшиеся винты для монтажа приборной панели ED3.
+Remove the remaining ED3 instrument panel mounting screws.
 
-Вытащите приборную панель ED3 из передней части двери панели машинного отделения.
+Slide the ED3 instrument panel out of the front of the engine room panel door.
 
 ![[17800145.png]]
 
-Панель индикаторов контроля
+Control Indicator Panel
 
-Отключите все разъемы от панели управления.
+Disconnect all connectors from the control panel.
 
 ![[17800146.png]]
 
-Удалите крепежные орехи.
+Remove the mounting nuts.
 
-Сдвиньте панель управления через переднюю панельную дверь машинного отделения.
+Slide the control panel through the front of the engine room panel door.
 
 ![[17800147.png]]
 
-### Установка
+### Install
 
-Панель инструментов
+Instrument Panel
 
-Сдвиньте приборную панель ED3 в переднюю часть двери панели машинного отделения.
+Slide the ED3 instrument panel into the front of the engine room panel door.
 
-Введите два некарманных винта в панель приборов ED3.
+Thread the two non-bracket screws into the ED3 instrument panel.
 
 ![[17800144.png]]
 
-Поместите терминальную полосу и крепление кронштейна на дверцу панели машинного отделения.
+Place the terminal strip and mounting bracket onto the engine room panel door.
 
-Нажмите на два крепежных винта.
+Thread the two mounting screws.
 
-Закрутите все четыре винта.
+Tighten all four screws.
 
 ![[17800143.png]]
 
-Подключите вилку к задней панели прибора ED3.
+Connect the plug into the back of the ED3 instrument panel.
 
 ![[17800156.png]]
 
-Панель индикаторов контроля
+Control Indicator Panel
 
-Сдвиньте панель управления через переднюю панельную дверь машинного отделения.
+Slide the control panel through the front of the engine room panel door.
 
-Установите крепежные гайки.
+Install the mounting nuts.
 
 ![[17800147.png]]
 
-Подключите все разъемы к панели управления.
+Connect all connectors to the control panel.
 
-Управляйте двигателем и проверяйте его правильность.
+Operate the engine and check for proper operation.
 
 ![[17800158.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> Instrument Panel
->
-> Disconnect the connector from the back of the ED3 instrument panel.
->
-> Remove the terminal strip bracket mounting screws.
->
-> Allow the terminal strip and bracket to hang free.
->
-> Remove the remaining ED3 instrument panel mounting screws.
->
-> Slide the ED3 instrument panel out of the front of the engine room panel door.
->
-> Control Indicator Panel
->
-> Disconnect all connectors from the control panel.
->
-> Remove the mounting nuts.
->
-> Slide the control panel through the front of the engine room panel door.
->
-> ### Install
->
-> Instrument Panel
->
-> Slide the ED3 instrument panel into the front of the engine room panel door.
->
-> Thread the two non-bracket screws into the ED3 instrument panel.
->
-> Place the terminal strip and mounting bracket onto the engine room panel door.
->
-> Thread the two mounting screws.
->
-> Tighten all four screws.
->
-> Connect the plug into the back of the ED3 instrument panel.
->
-> Control Indicator Panel
->
-> Slide the control panel through the front of the engine room panel door.
->
-> Install the mounting nuts.
->
-> Connect all connectors to the control panel.
->
-> Operate the engine and check for proper operation.

@@ -14,15 +14,13 @@ families:
 manuals:
   - "4022102"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc5633prop.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc5633prop.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc5633prop.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
-  - "перевод/машинный"
 ---
 
 # Marine Low Load Protection - Condition Exists
@@ -34,116 +32,56 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2016-11-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc5633prop.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc5633prop.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc5633prop.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc5633prop.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 5633 (Propulsion)
 
+### Marine Low Load Protection - Condition Exists
 
-### Код неисправности: 5633 (Движение)
+Printable Version
 
-### Судовая защита от малой нагрузки — условие возникло
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 5633 PID(P): СПН: 520891 FMI: 31 лампа: Обслуживание SRT: | Судовая защита от малой нагрузки — условие возникло. Низкая нагрузка была обнаружена модулем управления двигателем (ECM). | Ни одного на выступление. |
+| Fault Code: 5633 PID(P): SPN: 520891 FMI: 31 Lamp: Maintenance SRT: | Marine Low Load Protection - Condition Exists. Low load condition has been detected by the engine control module (ECM). | None on performance. |
 
 ![[19d02662.png]]
 
-### Описание цепи
+### Circuit Description
 
-Marine Low Load Protection контролирует работу двигателя в условиях низкой нагрузки менее чем на 15 процентов от номинального крутящего момента. Эта функция необходима для ограничения воздействия двигателя в таких условиях работы, предупреждая оператора.
+Marine Low Load Protection monitors the engine operating in a low load condition of less than 15 percent of rated torque. This feature is needed to limit engine exposure in such working conditions by alerting the operator.
 
-### Расположение компонента
+### Component Location
 
-Неприменимые
+Not Applicable
 
-### Условия выполнения диагностики
+### Conditions For Running The Diagnostics
 
-- Эта диагностика выполняется, когда крутящий момент двигателя падает ниже порога низкой нагрузки.
+- This diagnostic runs when the engine torque falls below the low load threshold.
 
-### Условия установки кодов неисправностей
+### Conditions For Setting The Fault Codes
 
-- ECM обнаружил значения скорости и крутящего момента в области низкой нагрузки в течение более чем калибруемого времени.
+- The ECM detected speed and torque values in the low load region for more than a calibratable time.
 
-### Действия системы при активном коде неисправности
+### Action Taken When The Fault Code Is Active
 
-- ECM освещает белую лампу MAINTENANCE сразу же после запуска и отказа диагностического устройства.
+- The ECM illuminates the white MAINTENANCE lamp immediately when the diagnostic runs and fails.
 
-### Условия сброса кода неисправности
+### Conditions For Clearing The Fault Code
 
-- ECM обнаружила значения скорости и крутящего момента в обычной операционной области во время морского испытания.
+- The ECM detected speed and torque values in the normal operating region during a sea trial.
 
-- Состояние кода ошибки, отображаемого инструментами электронного сервиса INSITETM, изменится на INACTIVE после запуска и прохождения диагностики.
+- The fault code status displayed by INSITE™ electronic service tool will change to INACTIVE after the diagnostic runs and passes.
 
-- ECM выключит белую лампу MAINTENANCE сразу после диагностических прогонов и проходов.
+- The ECM will turn off the white MAINTENANCE lamp immediately after the diagnostic runs and passes.
 
-### Практические замечания
+### Shoptalk
 
-- Это код ошибки **только **, который становится активным, если крутящий момент двигателя падает ниже порога низкой нагрузки в течение калибруемого времени.
+- This is an information- **only** fault code that becomes active if the engine torque falls below the low load threshold for a calibratable time.
 
-- Высокий уровень неактивного кода 5633 может указывать на то, что двигатель часто работает ниже ожидаемой области. Рабочий цикл судна или оборудование, возможно, потребуется исследовать, чтобы понять состояние неисправности.
+- High counts of inactive Fault Code 5633 can indicate the engine is often operated below the normal expected region. Vessel operating duty cycle or equipment may need to be investigated to understand fault condition.
 
-- Ремонт не требуется.
+- No repairs are necessary.
 
-См. Код 5633 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 5633 (Propulsion)
->
-> ### Marine Low Load Protection - Condition Exists
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 5633 PID(P): SPN: 520891 FMI: 31 Lamp: Maintenance SRT: | Marine Low Load Protection - Condition Exists. Low load condition has been detected by the engine control module (ECM). | None on performance. |
->
-> ### Circuit Description
->
-> Marine Low Load Protection monitors the engine operating in a low load condition of less than 15 percent of rated torque. This feature is needed to limit engine exposure in such working conditions by alerting the operator.
->
-> ### Component Location
->
-> Not Applicable
->
-> ### Conditions For Running The Diagnostics
->
-> - This diagnostic runs when the engine torque falls below the low load threshold.
->
-> ### Conditions For Setting The Fault Codes
->
-> - The ECM detected speed and torque values in the low load region for more than a calibratable time.
->
-> ### Action Taken When The Fault Code Is Active
->
-> - The ECM illuminates the white MAINTENANCE lamp immediately when the diagnostic runs and fails.
->
-> ### Conditions For Clearing The Fault Code
->
-> - The ECM detected speed and torque values in the normal operating region during a sea trial.
->
-> - The fault code status displayed by INSITE™ electronic service tool will change to INACTIVE after the diagnostic runs and passes.
->
-> - The ECM will turn off the white MAINTENANCE lamp immediately after the diagnostic runs and passes.
->
-> ### Shoptalk
->
-> - This is an information- **only** fault code that becomes active if the engine torque falls below the low load threshold for a calibratable time.
->
-> - High counts of inactive Fault Code 5633 can indicate the engine is often operated below the normal expected region. Vessel operating duty cycle or equipment may need to be investigated to understand fault condition.
->
-> - No repairs are necessary.
->
-> Refer to Troubleshooting Fault Code 5633.
+Refer to Troubleshooting Fault Code 5633.

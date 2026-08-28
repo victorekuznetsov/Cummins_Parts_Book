@@ -14,15 +14,13 @@ families:
 manuals:
   - "4022102"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc521.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc521.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc521.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
-  - "перевод/машинный"
 ---
 
 # Transmission Oil Temperature Sensor Circuit - Voltage Above Normal or Shorted to High Source
@@ -34,92 +32,44 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2016-12-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc521.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc521.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc521.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc521.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 521
 
+### Transmission Oil Temperature Sensor Circuit - Voltage Above Normal or Shorted to High Source
 
-### Код неисправности: 521
+Printable Version
 
-### Цепь датчика температуры масла трансмиссии — напряжение выше нормы
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 521 P(P): СПН: 175 ФМИ: 3 лампы: Янтарная СРТ: | Схема датчика температуры масла (Gear) - напряжение выше нормального или короткое до высокого источника. Высокое напряжение сигнала, обнаруженное в цепи датчика температуры масла передачи (Gear). | ** Нет** Защита двигателя от температуры трансмиссионного масла. |
+| Fault Code: 521 PID(P): SPN: 175 FMI: 3 Lamp: Amber SRT: | Transmission (Gear) Oil Temperature Sensor Circuit - Voltage Above Normal or Shorted to High Source. High signal voltage detected at transmission (gear) oil temperature sensor circuit. | **No** engine protection for transmission oil temperature. |
 
 ![[19k00131.png]]
 
-Схема датчика температуры масла (Gear)
+Transmission (Gear) Oil Temperature Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик температуры масла трансмиссии (Gear) используется модулем управления двигателем (ECM) для мониторинга температуры масла трансмиссии. ECM контролирует напряжение на контакте сигнала и преобразует его в температурное значение.
+The transmission (gear) oil temperature sensor is used by the engine control module (ECM) to monitor the transmission oil temperature. The ECM monitors the voltage on the SIGNAL pin and converts it to a temperature value.
 
-### Расположение компонента
+### Component Location
 
-Датчик температуры масла (Gear) расположен в трансмиссии.
+The transmission (gear) oil temperature sensor is located in the transmission.
 
-### Практические замечания
+### Shoptalk
 
-У моделей двигателей, охваченных этим руководством, несколько электронных блоков управления. У каждого блока управления свой адрес источника, который отображается при подключении INSITE™. При поиске неисправности по коду определяйте затронутый блок управления и цепь по адресу источника, который показывает INSITE™.
+There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the source address displayed in INSITE™ electronic service tool to determine which ECM and circuit is affected.
 
-Перед устранением неисправностей кода 521 проверьте наличие нескольких неисправностей.
+Before troubleshooting Fault Code 521, check for multiple faults.
 
-Датчик температуры масла трансмиссии (Gear) разделяет провода RETURN в ремне электропроводки двигателя с другими датчиками. Открытое возвращение может привести к активации нескольких кодов ошибок.
+The transmission (gear) oil temperature sensor share RETURN wires in the engine harness with other sensors. An open return can cause multiple fault codes to be active.
 
-Возможные причины этого кода неисправности включают:
+Possible causes for this fault code include:
 
-- Открытая обратная цепь в электропроводке, разъемах или датчике
+- Open return circuit in the harness, connectors, or sensor
 
-- Открытая сигнальная цепь или сокращенная до источника напряжения.
+- Open signal circuit or shorted to a voltage source.
 
-См. Код 521 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 521
->
-> ### Transmission Oil Temperature Sensor Circuit - Voltage Above Normal or Shorted to High Source
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 521 PID(P): SPN: 175 FMI: 3 Lamp: Amber SRT: | Transmission (Gear) Oil Temperature Sensor Circuit - Voltage Above Normal or Shorted to High Source. High signal voltage detected at transmission (gear) oil temperature sensor circuit. | **No** engine protection for transmission oil temperature. |
->
-> Transmission (Gear) Oil Temperature Sensor Circuit
->
-> ### Circuit Description
->
-> The transmission (gear) oil temperature sensor is used by the engine control module (ECM) to monitor the transmission oil temperature. The ECM monitors the voltage on the SIGNAL pin and converts it to a temperature value.
->
-> ### Component Location
->
-> The transmission (gear) oil temperature sensor is located in the transmission.
->
-> ### Shoptalk
->
-> There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the source address displayed in INSITE™ electronic service tool to determine which ECM and circuit is affected.
->
-> Before troubleshooting Fault Code 521, check for multiple faults.
->
-> The transmission (gear) oil temperature sensor share RETURN wires in the engine harness with other sensors. An open return can cause multiple fault codes to be active.
->
-> Possible causes for this fault code include:
->
-> - Open return circuit in the harness, connectors, or sensor
->
-> - Open signal circuit or shorted to a voltage source.
->
-> Refer to Troubleshooting Fault Code 521.
+Refer to Troubleshooting Fault Code 521.

@@ -8,191 +8,116 @@ title_ru: "Топливный насос"
 modified: "2017-10-27"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 12
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-016-shopds.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-016-shopds.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-016-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Fuel Pump
 **Топливный насос**
 
 > [!abstract] Процедура · `20-005-016-shopds`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section DS - Engine Disassembly - Group 00
 > **Даты:** изменён 2017-10-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-016-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-016-shopds.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-016-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-016-shopds.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
+with Mechanically Actuated Injector
 
-### Снятие
+Disconnect the fuel inlet hose (1).
 
-с форсункой механического управления
+Disconnect the electronic fuel control valve supply hose (2).
 
-Отсоедините впускной шланг топлива (1).
-
-Отсоедините электронный шланг подачи топливного клапана (2).
-
-Удалите и отбросьте кольца.
+Remove and discard the o-rings.
 
 ![[06400007.png]]
 
-Удалите четыре крепежных болта и топливный насос.
+Remove the four mounting capscrews and the fuel pump.
 
-Установите муфту привода топливного насоса (3).
+Install the fuel pump drive coupling (3).
 
-Снимите и утилизируйте прокладку.
+Remove and discard the gasket.
 
 ![[05400320.png]]
 
-Железнодорожное применение
+Rail Applications
 
-Насос для очистки моторного масла (A) ** должен быть удален до удаления топливного насоса (B), чтобы обеспечить доступ к болтам для монтажа топливного насоса.[[20-007-060 — Oil Scavenge Pump|См. процедуру 007-060 в разделе 7.]]
+The lubricating oil scavenge pump (A) **must** be removed prior to removing the fuel pump (B) to allow access to the fuel pump mounting capscrews. [[20-007-060 — Oil Scavenge Pump|Refer to Procedure 007-060 in Section 7.]]
 
 ![[17400021.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-Отсоедините проводную упряжку от герметизирующего узла 1 топливного насоса и датчика давления 1 топливного форсунка.
+Disconnect the wiring harness from the fuel pump pressurizing assembly 1 and the injector metering rail 1 pressure sensor.
 
 ![[05400248.png]]
 
-Удалите два болта, закрепляющие опорную кронштейна (2) топливного насоса, в опорную кронштейн (3), расположенную на блоке двигателя.
+Remove the two capscrews securing the fuel pump support bracket (2) to the support bracket (3) located on the engine block.
 
 ![[05400290.png]]
 
-**Не снимайте опорную кронштейн (1) с топливного насоса, если топливный насос не нуждается в замене.
+Do **not** remove the support bracket (1) from the fuel pump unless the fuel pump needs to be replaced.
 
 ![[05400252.png]]
 
-Прикрепить инструмент для удаления и установки топливного насоса, номер детали 4918227 или эквивалент.
+Attach the fuel pump removal and installation service tool, Part Number 4918227, or equivalent.
 
-Оборудование для удаления и установки топливного насоса состоит из следующих элементов:
+The fuel pump removal and installation service tool consists of the following:
 
-1. Маленький подъемный разъём
-2. Подъёмный кронштейн
-3. Большой подъемный разъём
-4. Подъемный разъём
-5. Стой.
+1. Small lifting connector
+2. Lifting bracket
+3. Large lifting connector
+4. Lifting connector
+5. Stop.
 
-Используйте небольшой разъём (1) подъемной кронштейна для прикрепления цепи к верхнему отверстию подъемной кронштейна.
+Use the small lifting bracket connector (1) to attach the chain to the top hole of the lifting bracket.
 
-Прикрепить один большой подъемный разъём (3) примерно к третьему звену цепи над скобкой. Прикрепите второй подъемный разъём к последнему звену цепи.
+Attach one large lifting connector (3) to approximately the third link of the chain above the bracket. Attach the second lifting connector to the last link of the chain.
 
 ![[05400291.png]]
 
-Установите кронштейн на топливный насос с помощью двух болтов М10.
+Install the bracket onto the fuel pump using two M10 capscrews.
 
 ![[05400255.png]]
 
-Поместите нижний большой подъемный разъем над соответствующим боссом на верхней части топливного насоса. Вставьте стоп (1) в фитинг на верхней части топливного насоса, пока он не станет ручным.
+Place the bottom large lifting connector over the fitting boss on the top of the fuel pump. Screw the stop (1) into the fitting on top of the fuel pump until it is hand-tight.
 
 ![[05400256.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-Прикрепить верхний большой подъемный разъем к подходящему подъемному устройству (способному поднимать не менее 227 кг \[500 фунтов \]).
+Attach the top large lifting connector to a suitable lifting device (capable of lifting at least 227 kg \[500 lb\]).
 
-Поднимите подъемное устройство до тех пор, пока в цепочке не будет слакса.
+Raise the lifting device until there is no slack in the chain.
 
 ![[05400257.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-Удалите пять болтов, обеспечивающих топливный насос.
+Remove the five capscrews securing the fuel pump.
 
-Удалите топливный насос из двигателя с подъемным устройством. Отбросьте кольца, которые запечатывают порт подачи масла (1) и топливный насос в привод топливного насоса.
+Remove the fuel pump from the engine with a lifting device. Discard the o-rings which seal the oil supply port (1) and fuel pump to the fuel pump drive.
 
-Подключите порт (1) подачи масла с помощью чистой пластиковой пробки.
+Plug the oil supply port (1) with a clean plastic plug.
 
 ![[05400258.png]]
 
-Удалите четыре болта, обеспечивающие подвеску топливного насоса, в блок двигателя.
+Remove the four capscrews securing the fuel pump support bracket to the engine block.
 
 ![[05400251.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> with Mechanically Actuated Injector
->
-> Disconnect the fuel inlet hose (1).
->
-> Disconnect the electronic fuel control valve supply hose (2).
->
-> Remove and discard the o-rings.
->
-> Remove the four mounting capscrews and the fuel pump.
->
-> Install the fuel pump drive coupling (3).
->
-> Remove and discard the gasket.
->
-> Rail Applications
->
-> The lubricating oil scavenge pump (A) **must** be removed prior to removing the fuel pump (B) to allow access to the fuel pump mounting capscrews. [[20-007-060 — Oil Scavenge Pump|Refer to Procedure 007-060 in Section 7.]]
->
-> with Electronically Actuated Injector
->
-> Disconnect the wiring harness from the fuel pump pressurizing assembly 1 and the injector metering rail 1 pressure sensor.
->
-> Remove the two capscrews securing the fuel pump support bracket (2) to the support bracket (3) located on the engine block.
->
-> Do **not** remove the support bracket (1) from the fuel pump unless the fuel pump needs to be replaced.
->
-> Attach the fuel pump removal and installation service tool, Part Number 4918227, or equivalent.
->
-> The fuel pump removal and installation service tool consists of the following:
->
-> 1. Small lifting connector
-> 2. Lifting bracket
-> 3. Large lifting connector
-> 4. Lifting connector
-> 5. Stop.
->
-> Use the small lifting bracket connector (1) to attach the chain to the top hole of the lifting bracket.
->
-> Attach one large lifting connector (3) to approximately the third link of the chain above the bracket. Attach the second lifting connector to the last link of the chain.
->
-> Install the bracket onto the fuel pump using two M10 capscrews.
->
-> Place the bottom large lifting connector over the fitting boss on the top of the fuel pump. Screw the stop (1) into the fitting on top of the fuel pump until it is hand-tight.
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
->
-> Attach the top large lifting connector to a suitable lifting device (capable of lifting at least 227 kg \[500 lb\]).
->
-> Raise the lifting device until there is no slack in the chain.
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
->
-> Remove the five capscrews securing the fuel pump.
->
-> Remove the fuel pump from the engine with a lifting device. Discard the o-rings which seal the oil supply port (1) and fuel pump to the fuel pump drive.
->
-> Plug the oil supply port (1) with a clean plastic plug.
->
-> Remove the four capscrews securing the fuel pump support bracket to the engine block.

@@ -13,15 +13,13 @@ engines:
   - "37295879"
 families:
   - "QST30"
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101053.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101053.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101053.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2010"
-  - "перевод/машинный"
   - "тема/cylinder-block"
 ---
 
@@ -33,58 +31,26 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2010-09-27 · изменён 2010-09-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101053.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101053.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101053.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101053.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+## Piston Reuse Guidelines Update
 
+### Warranty Statement
 
-## Обновление указаний по повторному использованию поршней
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
 
-### Положение о гарантии
+### Contents
 
-Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+This document announces changes and additions to the Inspect for Reuse section of Procedure 001-043 (Piston) in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
 
-### Содержание
+The changes include new reuse guidelines for:
 
-В настоящем документе сообщается об изменениях и дополнениях к разделу Процедуры 001-043 (Piston) Инспекции по повторному использованию в Руководстве по обслуживанию QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]].
+- Ring grooves
+- Piston crown
+- Piston pin outside diameter
+- Piston pin bore inside diameter
+- Piston skirt outside diameter.
 
-Изменения включают новые руководящие принципы повторного использования для:
+Refer to Procedure 001-043 in Section 1.
 
-- Кольцевые канавки
-- Корона Пистона
-- Пистонская штифта наружного диаметра
-- цилиндр Piston pin с внутренним диаметром
-- Поршневая юбка наружного диаметра.
-
-См. процедуру 001-043 в разделе 1.
-
-### История изменений документа
-
-
-> [!quote]- Original (English) · английский оригинал
-> ## Piston Reuse Guidelines Update
->
-> ### Warranty Statement
->
-> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
->
-> ### Contents
->
-> This document announces changes and additions to the Inspect for Reuse section of Procedure 001-043 (Piston) in the QST30 Service Manual, Bulletin [[4021539 — QST30 Service Manual\|4021539]].
->
-> The changes include new reuse guidelines for:
->
-> - Ring grooves
-> - Piston crown
-> - Piston pin outside diameter
-> - Piston pin bore inside diameter
-> - Piston skirt outside diameter.
->
-> Refer to Procedure 001-043 in Section 1.
->
-> ### Document History
+### Document History

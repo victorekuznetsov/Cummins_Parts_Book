@@ -14,15 +14,13 @@ families:
 manuals:
   - "4022102"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc2619.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc2619.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc2619.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
-  - "перевод/машинный"
 ---
 
 # Auxiliary Equipment Sensor Input 1 Engine Protection Critical - Special Instructions
@@ -34,84 +32,40 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-21
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc2619.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc2619.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc2619.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc2619.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 2619
 
+### Auxiliary Equipment Sensor Input 1 Engine Protection Critical - Special Instructions
 
-### Код неисправности: 2619
+Printable Version
 
-### Вход датчика вспомогательного оборудования 1, защита двигателя — особые указания
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 2619 PID(P): СПН: 701 FMI: 31 лампа: Янтарная СРТ: | Вход датчика вспомогательного оборудования 1, защита двигателя — особые указания. Выключение воздуха активируется от скорости двигателя или E-stop оператора. | Двигатель отключается, если включена функция защиты двигателя. |
+| Fault Code: 2619 PID(P): SPN: 701 FMI: 31 Lamp: Amber SRT: | Auxiliary Equipment Sensor Input 1 Engine Protection Critical - Special Instructions. The air shutoff is activated from engine overspeed or operator's E-stop. | Engine shuts down if engine protection shutdown feature is enabled. |
 
 ![[19f00001.png]]
 
-Air Shutoff (OEM Switch/Dual Output) и E-stop Circuit
+Air Shutoff (OEM Switch/Dual Output) and E-stop Circuit
 
-### Описание цепи
+### Circuit Description
 
-Схема использует сигнал OEM E-stop или сверхскоростной двигатель для активации отключения воздуха.
+The circuit uses the OEM E-stop signal or engine overspeed to activate the air shutoff.
 
-### Расположение компонента
+### Component Location
 
-Кнопка E-Stop расположена на двери панели клиентского интерфейса (CIB).
+The E-Stop button is located on the door of the customer interface box (CIB) panel.
 
-### Практические замечания
+### Shoptalk
 
-Это для двигателей с одним или несколькими OEM-предоставленными клапанами отключения воздуха.
+This is for engines with one or more OEM supplied air shutoff valves.
 
-Отключение воздуха использует вход OEM-коммутатора для аварийной остановки отключения воздуха. Закрытие переключателя от E-stop оператора или от скорости двигателя приведет к активации отключения воздуха. Причинами этого кода неисправности являются:
+The air shutoff uses the OEM switch input for the emergency air shutoff stop. A switch closure from either the operator's E-stop or engine overspeed will cause the air shutoff to activate. Causes of this fault code are:
 
-- Оператор нажимает кнопку остановки двигателя.
+- Operator pushes engine stop button.
 
-- Событие отключения скорости, как командует ECM.
+- Overspeed shutdown event as commanded by the ECM.
 
-См. Код устранения неисправностей t05-2619
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 2619
->
-> ### Auxiliary Equipment Sensor Input 1 Engine Protection Critical - Special Instructions
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 2619 PID(P): SPN: 701 FMI: 31 Lamp: Amber SRT: | Auxiliary Equipment Sensor Input 1 Engine Protection Critical - Special Instructions. The air shutoff is activated from engine overspeed or operator's E-stop. | Engine shuts down if engine protection shutdown feature is enabled. |
->
-> Air Shutoff (OEM Switch/Dual Output) and E-stop Circuit
->
-> ### Circuit Description
->
-> The circuit uses the OEM E-stop signal or engine overspeed to activate the air shutoff.
->
-> ### Component Location
->
-> The E-Stop button is located on the door of the customer interface box (CIB) panel.
->
-> ### Shoptalk
->
-> This is for engines with one or more OEM supplied air shutoff valves.
->
-> The air shutoff uses the OEM switch input for the emergency air shutoff stop. A switch closure from either the operator's E-stop or engine overspeed will cause the air shutoff to activate. Causes of this fault code are:
->
-> - Operator pushes engine stop button.
->
-> - Overspeed shutdown event as commanded by the ECM.
->
-> Refer to Troubleshooting Fault Code t05-2619
+Refer to Troubleshooting Fault Code t05-2619

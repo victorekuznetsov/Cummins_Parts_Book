@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 9
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-111.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-111.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-111.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Timing Actuator
@@ -34,176 +32,94 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2004-07-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-111.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-111.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-111.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-111.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
-
-
-### Общие сведения
+### General Information
 
 QSX15
 
-Приводы синхронизации расположены на двигателе перед ECM. Их две штуки. Передний привод синхронизации расположен на корпусе подачи топлива. Это второй привод с передней части двигателя.
+The timing actuators are located on the engine in front of the ECM. There are two of them. The front timing actuator is located on the fuel delivery housing. It is the second actuator from the front of the engine.
 
-Задний привод синхронизации расположен на корпусе подачи топлива. Это второй привод сзади двигателя.
+The rear timing actuator is located on the fuel delivery housing. It is the second actuator from the rear of the engine.
 
 ![[05c00001.png]]
 
-QSK23, QSK45, QSK60 и QSK78
+QSK23, QSK45, QSK60, and QSK78
 
-Рельсовые приводы синхронизации являются частью корпуса управляющего клапана.
+The timing rail actuators are part of the control valve body.
 
 ![[19400301.png]]
 
-### Проверка
+### Test
 
-> [!note] Примечание
-> Эта процедура испытаний используется только для двигателей серии QSX15.
+> [!note] Note · Примечание
+> This test procedure is used **only** for QSX15 series engines.
 
-Выполните электронный сервисный тест на производительность цилиндра INSITETM, чтобы определить, не вышел ли из строя привод. Если банк терпит неудачу, это может указывать на сбой привода.
+Perform the INSITE™ electronic service tool cylinder performance test to determine if an actuator has failed. If a bank fails, this could indicate an actuator failure.
 
-Если в банке не сработали только два топливных форсунка, повторите тест. Переключите передний и задний приводы заправки, чтобы определить, следует ли за приводом неисправный банк цилиндров. Если это так, то необходимо заменить неисправный привод заправки.
+If **only** two injectors in a bank fail, repeat the test. Swap the front and rear fueling actuators to determine if the failed bank of cylinders follows the actuator. If so, replace the failed fueling actuator as necessary.
 
-Если **не**, поменяйте передний и задний приводы синхронизации, чтобы определить, следует ли за приводом неисправный берег цилиндров. Если это так, то заменяйте неисправный привод синхронизации по мере необходимости.
+If **not**, swap the front and rear timing actuator to determine if the failed bank of cylinders follows the actuator. If so, replace failed timing actuator as necessary.
 
 ![[19800902.png]]
 
-### Снятие
+### Remove
 
 QSX15
 
-Очистите область вокруг привода синхронизации.
+Clean the area around the timing actuator.
 
-Отсоедините разъем привода синхронизации от жгута проводов двигателя.
-
-![[19802663.png]]
-
-Удалите три болта, обеспечивающие привод синхронизации.
+Disconnect the timing actuator connector from the engine harness.
 
 ![[19802663.png]]
 
-QSK23, QSK45, QSK60 и QSK78
+Remove the three capscrews securing the timing actuator.
 
-Очистите область вокруг привода синхронизации.
+![[19802663.png]]
 
-Отсоедините разъемы привода синхронизации от ремня электропроводки двигателя.
+QSK23, QSK45, QSK60, and QSK78
 
-> [!note] Примечание
-> Рельсовые приводы синхронизации являются частью корпуса управляющего клапана.
+Clean the area around the timing actuator.
+
+Disconnect the timing actuator connectors from the engine harness.
+
+> [!note] Note · Примечание
+> The timing rail actuators are part of the control valve body.
 
 ![[19400300.png]]
 
-Удалите привод синхронизации.
+Remove the timing actuator.
 
 ![[19400301.png]]
 
-### Установка
+### Install
 
 QSX15
 
-Установите новые кольца. Нанесите смазку на канавку с кольцевым покрытием, чтобы сохранить кольцевое отверстие во время установки.
+Install new o-rings. Apply grease to the o-ring groove to retain the o-ring during installation.
 
-Установите новый привод времени.
+Install a new timing actuator.
 
-> [!tip] Момент затяжки
-> 5.4 Н·м [48 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 5.4 n•m [48 in-lb]
 
-Подключите жгут электропроводки двигателя к приводу синхронизации.
+Connect the engine harness to the timing actuator.
 
-Запустите двигатель и проверьте наличие утечек.
+Start the engine and check for leaks.
 
 ![[19802663.png]]
 
-QSK23, QSK45, QSK60 и QSK78
+QSK23, QSK45, QSK60, and QSK78
 
-Осмотрите новое кольцо.
+Inspect the new o-ring.
 
-Установите новый привод рельсов времени.
+Install a new timing rail actuator.
 
-> [!tip] Момент затяжки
-> 25 Н·м [18 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 25 n•m [18 ft-lb]
 
-Подключите жгут электропроводки двигателя к приводу рельсов синхронизации.
+Connect the engine harness to the timing rail actuator.
 
-Запустите двигатель и проверьте наличие утечек.
+Start the engine and check for leaks.
 
 ![[19400302.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### General Information
->
-> QSX15
->
-> The timing actuators are located on the engine in front of the ECM. There are two of them. The front timing actuator is located on the fuel delivery housing. It is the second actuator from the front of the engine.
->
-> The rear timing actuator is located on the fuel delivery housing. It is the second actuator from the rear of the engine.
->
-> QSK23, QSK45, QSK60, and QSK78
->
-> The timing rail actuators are part of the control valve body.
->
-> ### Test
->
-> **Note · Примечание**
-> This test procedure is used **only** for QSX15 series engines.
->
-> Perform the INSITE™ electronic service tool cylinder performance test to determine if an actuator has failed. If a bank fails, this could indicate an actuator failure.
->
-> If **only** two injectors in a bank fail, repeat the test. Swap the front and rear fueling actuators to determine if the failed bank of cylinders follows the actuator. If so, replace the failed fueling actuator as necessary.
->
-> If **not**, swap the front and rear timing actuator to determine if the failed bank of cylinders follows the actuator. If so, replace failed timing actuator as necessary.
->
-> ### Remove
->
-> QSX15
->
-> Clean the area around the timing actuator.
->
-> Disconnect the timing actuator connector from the engine harness.
->
-> Remove the three capscrews securing the timing actuator.
->
-> QSK23, QSK45, QSK60, and QSK78
->
-> Clean the area around the timing actuator.
->
-> Disconnect the timing actuator connectors from the engine harness.
->
-> **Note · Примечание**
-> The timing rail actuators are part of the control valve body.
->
-> Remove the timing actuator.
->
-> ### Install
->
-> QSX15
->
-> Install new o-rings. Apply grease to the o-ring groove to retain the o-ring during installation.
->
-> Install a new timing actuator.
->
-> **Момент затяжки · Torque Value**
-> 5.4 n•m [48 in-lb]
->
-> Connect the engine harness to the timing actuator.
->
-> Start the engine and check for leaks.
->
-> QSK23, QSK45, QSK60, and QSK78
->
-> Inspect the new o-ring.
->
-> Install a new timing rail actuator.
->
-> **Момент затяжки · Torque Value**
-> 25 n•m [18 ft-lb]
->
-> Connect the engine harness to the timing rail actuator.
->
-> Start the engine and check for leaks.

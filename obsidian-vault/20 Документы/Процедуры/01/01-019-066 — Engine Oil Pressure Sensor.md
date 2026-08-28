@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 6
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-066.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-066.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-066.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Engine Oil Pressure Sensor
@@ -34,104 +32,55 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2003-07-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-066.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-066.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
-
-### Снятие
-
-Отсоедините жгут электропроводки двигателя от датчика.
+Disconnect the engine harness from the sensor.
 
 ![[19400437.png]]
 
-Удалите датчик давления масла из блока двигателя с глубоководной розеткой, номер детали 3823843.
+Remove the oil pressure sensor from the engine block with a deep-well socket, Part Number 3823843.
 
 ![[19801029.png]]
 
-### Проверка
+### Test
 
-Подключите инструмент электронного сервиса к шине данных CAN.
+Connect the electronic service tool to the datalink.
 
 ![[19800902.png]]
 
-Подключите жгут электропроводки двигателя к датчику давления моторного масла.
+Connect the engine harness to the lubricating oil pressure sensor.
 
-Дайте датчику и проводах висеть в воздухе.
+Allow the sensor and harness to hang in air.
 
 ![[08600402.png]]
 
-Мониторинг давления моторного масла с помощью электронного инструментария.
+Monitor the lubricating oil pressure with the electronic service tool.
 
-Для двигателей QSK23, QSK45 и QSK60 датчик давления моторного масла ** должен ** находиться в пределах ±17,2 кПа \[2,5 psi\] (измерительный датчик) нуля.
+For the QSK23, QSK45, and QSK60 engines the lubricating oil pressure sensor **must** be within ±17.2 kPa \[2.5 psi\] (gauge) of zero.
 
-Для двигателей QSX15, QST30 и QSK78 датчик давления моторного масла ** должен ** находиться в пределах ±17,2 кПа \[2,5 psi\] (абсолютно) значения барометрического датчика давления.
+For the QSX15, QST30 and QSK78 engines the lubricating oil pressure sensor **must** be within ±17.2 kPa \[2.5 psi\] (absolute) of the barometric pressure sensor value.
 
-Если датчик давления моторного масла ** не** в пределах спецификаций, датчик давления моторного масла *** должен быть заменен.
+If the lubricating oil pressure sensor is **not** within specifications the lubricating oil pressure sensor **must** be replaced.
 
-Отсоедините датчик давления моторного масла от электропроводки двигателя.
+Disconnect the lubricating oil pressure sensor from the engine harness.
 
-Отключите инструмент электронного сервиса.
+Disconnect the electronic service tool.
 
 ![[19800902.png]]
 
-### Установка
+### Install
 
-Если используется новый датчик давления моторного масла, убедитесь, что установлено кольцо.
+If a new lubricating oil pressure sensor is used make sure the o-ring is installed.
 
-Установите датчик давления моторного масла в блок двигателя.
+Install the lubricating oil pressure sensor into the engine block.
 
-Используйте глубоководную розетку, номер детали 3823843, чтобы затянуть датчик давления моторного масла.
+Use a deep-well socket, Part Number 3823843 to tighten the lubricating oil pressure sensor.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Подключите жгут электропроводки двигателя к датчику давления моторного масла.
+Connect the engine harness to the lubricating oil pressure sensor.
 
 ![[19400438.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> Disconnect the engine harness from the sensor.
->
-> Remove the oil pressure sensor from the engine block with a deep-well socket, Part Number 3823843.
->
-> ### Test
->
-> Connect the electronic service tool to the datalink.
->
-> Connect the engine harness to the lubricating oil pressure sensor.
->
-> Allow the sensor and harness to hang in air.
->
-> Monitor the lubricating oil pressure with the electronic service tool.
->
-> For the QSK23, QSK45, and QSK60 engines the lubricating oil pressure sensor **must** be within ±17.2 kPa \[2.5 psi\] (gauge) of zero.
->
-> For the QSX15, QST30 and QSK78 engines the lubricating oil pressure sensor **must** be within ±17.2 kPa \[2.5 psi\] (absolute) of the barometric pressure sensor value.
->
-> If the lubricating oil pressure sensor is **not** within specifications the lubricating oil pressure sensor **must** be replaced.
->
-> Disconnect the lubricating oil pressure sensor from the engine harness.
->
-> Disconnect the electronic service tool.
->
-> ### Install
->
-> If a new lubricating oil pressure sensor is used make sure the o-ring is installed.
->
-> Install the lubricating oil pressure sensor into the engine block.
->
-> Use a deep-well socket, Part Number 3823843 to tighten the lubricating oil pressure sensor.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Connect the engine harness to the lubricating oil pressure sensor.

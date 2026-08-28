@@ -9,29 +9,61 @@ released: "2011-04-28"
 modified: "2025-10-10"
 group: "07 - Lubricating Oil Systems"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "37269910"
+  - "37280605"
   - "37292556"
   - "37295879"
+  - "41340468"
   - "41349633"
+  - "41353297"
+  - "77804793"
+  - "77804810"
+  - "80141463"
+  - "80248213"
+  - "82099327"
+  - "85017333"
   - "93058669"
+  - "93087701"
+  - "93948840"
 families:
+  - "15N"
+  - "A8.5"
   - "C8.3 · 6C8.3"
+  - "K19"
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSB6.7"
   - "QSK19"
+  - "QSK23"
+  - "QSK50"
+  - "QSK60"
   - "QST30"
+  - "QSX15"
+  - "QSZ13"
 figures: 7
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3379214.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3379214.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3379214.pdf"
 tags:
   - "документ/бюллетень"
+  - "двигатель/15N"
+  - "двигатель/A8.5"
   - "двигатель/C8.3"
+  - "двигатель/K19"
   - "двигатель/K38/K50"
+  - "двигатель/QSB6.7"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
-  - "перевод/машинный"
+  - "двигатель/QSX15"
+  - "двигатель/QSZ13"
   - "тема/lubricating-oil-systems"
 ---
 
@@ -40,52 +72,44 @@ tags:
 
 > [!abstract] Сервисный бюллетень · `3379214`
 > **Раздел Cummins:** 07 - Lubricating Oil Systems
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSK60, QSK19, QST30
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[77804793 — A8.5 CM2670 L153B CPL 6235|77804793]], [[77804810 — 15N CM2380 M104B CPL 5977|77804810]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[85017333 — QSK23 CM500 CPL 2858|85017333]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]], [[93948840 — QSZ13 CM2150 Z102 CPL 4858|93948840]]
+> **Семейство:** 15N, A8.5, C8.3 · 6C8.3, K19, K38/K50 · QSK38, QSK50, QSK60, QSB6.7, QSK19, QSK23, QSK50, QSK60, QST30, QSX15, QSZ13
 > **Даты:** выпущен 2011-04-28 · изменён 2025-10-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3379214.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3379214.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3379214.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3379214.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+## Lubricating Oil Consumption and Acceptable Limits
 
+This publication was written to familiarize field personnel with the causes of excessive lubricating oil consumption. Inspection and analysis of the internal engine components will provide a knowledge of the factors that contribute to piston ring and cylinder liner wear. Knowledge of the relationship between engine operation and the wear factors that cause excessive lubricating oil consumption will enable efforts to be directed toward extending the service life of the engine.
 
-## Расход моторного масла и допустимые пределы
+Excessive lubricating oil consumption is defined as the addition of lubricating oil to the crankcase at an unacceptably high rate.
 
-Данная публикация была написана для ознакомления полевых кадров с причинами чрезмерного потребления моторного масла. Проверка и анализ внутренних компонентов двигателя даст представление о факторах, которые способствуют износу поршневого кольца и цилиндрового лайнера. Знание взаимосвязи между работой двигателя и износоустойчивостью, которые вызывают чрезмерное потребление моторного масла, позволит направить усилия на продление срока службы двигателя.
-
-Чрезмерное потребление моторного масла определяется как добавление моторного масла в картер с неприемлемо высокой скоростью.
-
-| Таблица 1 Допустимое использование моторного масла - в любое время в течение периода покрытия |  |  |  |  |  |  |  |  |  |
+| Table 1, Acceptable Lubricating Oil Usage - Any Time During Coverage Period |  |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|
-| Семейство двигателей | Мили за кварт | Мили за литр | Мили за имперскую кварту | Квартальная квартплата | КМ в литере | Квартет Имперской Квартет | Г-н Пер Кварт | Г-жа Пер Литер | ↑ Пер Имперская кварта |
-| Серия А |  |  |  |  |  |  | 10 | 10.6 | 12 |
+| Engine Family | Miles Per Quart | Miles Per Liter | Miles Per Imperial Quart | KM Per Quart | KM Per Liter | KM Per Imperial Quart | Hrs Per Quart | Hrs Per Liter | Hrs Per Imperial Quart |
+| A- Series |  |  |  |  |  |  | 10 | 10.6 | 12 |
 | B3.3/4B | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
 | ISF/QSF/F | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
 | ISV | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
-| 6B/ISB/QSB | Ссылка на оценщик потребления масла в разделе «Инструменты обслуживания» в QuickServe® Online. |  |  |  |  |  |  |  |  |
-| ISB6.7 G/B6.7N/B6.7O | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
+| 6B/ISB/QSB | Reference the oil consumption evaluator under the "Service Tools" tab in QuickServe® Online. |  |  |  |  |  |  |  |  |
+| ISB6.7 G/ B6.7N/B6.7O | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
 | 6C/ISC/QSC/ISL | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
 | ISL G/L9N | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
 | V/VT-378 | 250 | 265 | 310 | 400 | 425 | 485 | 4 | 4.3 | 4.8 |
 | V/VT-504 | 250 | 265 | 310 | 400 | 425 | 485 | 4 | 4.3 | 4.8 |
-| ВТ-555 | 250 | 265 | 310 | 400 | 425 | 485 | 4 | 4.3 | 4.8 |
-| L1010 | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
-| М11/МУП | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
+| VT-555 | 250 | 265 | 310 | 400 | 425 | 485 | 4 | 4.3 | 4.8 |
+| L10 | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
+| M11/ISM | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
 | ISG11 | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
 | ISG/QSG12 | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
 | ISZ/QSZ | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
 | N14/NT | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
-| ISX/QSX/SignatureTM | Ссылка на оценщик потребления масла в разделе «Инструменты обслуживания» в QuickServe® Online. |  |  |  |  |  |  |  |  |
+| ISX/QSX/Signature™ | Reference the oil consumption evaluator under the "Service Tools" tab in QuickServe® Online. |  |  |  |  |  |  |  |  |
 | ISX12 G/ISX12N | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
 | V/VT/VTA-903 | 250 | 265 | 310 | 400 | 425 | 485 | 4 | 4.3 | 4.8 |
 | KT/KTA19 | 200 | 210 | 250 | 320 | 340 | 390 | 3 | 3.2 | 3.6 |
 | V/VT/VTA28 |  |  |  |  |  |  | 2 | 2.1 | 1.1 |
 | KT/KTA38 |  |  |  |  |  |  | 1.5 | 1.6 | 1.8 |
-| ТА50 |  |  |  |  |  |  | 1.1 | 1.2 | 1.3 |
+| KTA50 |  |  |  |  |  |  | 1.1 | 1.2 | 1.3 |
 | QSK19 |  |  |  |  |  |  | 3 | 3.2 | 3.6 |
 | QST30 |  |  |  |  |  |  | 1.7 | 1.8 | 2 |
 | QSK23 |  |  |  |  |  |  | 1.7 | 1.8 | 2 |
@@ -97,890 +121,430 @@ tags:
 | QSK95 |  |  |  |  |  |  | 0.55 | 0.58 | 0.66 |
 | HSK78 |  |  |  |  |  |  | 0.6 | 0.65 | 0.72 |
 
-Cummins Inc. Определение термина «приемлемое использование моторного масла», как указано в следующей таблице:
+Cummins Inc. defines "Acceptable Lubricating Oil Usage" as outlined in the following table:
 
-| Таблица 2, Допустимое использование моторного масла (транзитный автобус, челночный автобус и школьный автобус) - В любое время в течение периода покрытия |  |  |  |  |  |  |  |  |  |
+| Table 2, Acceptable Lubricating Oil Usage (Transit Bus, Shuttle Bus, and School Bus) - Any Time During Coverage Period |  |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|
-| Семейство двигателей | Мили за кварт | Мили за литр | Мили за имперскую кварту | Квартальная квартплата | КМ в литере | Квартет Имперской Квартет | Г-н Пер Кварт | Г-жа Пер Литер | ↑ Пер Имперская кварта |
-| B | Ссылка на оценщик потребления масла в разделе «Инструменты обслуживания» в QuickServe® Online |  |  |  |  |  |  |  |  |
+| Engine Family | Miles Per Quart | Miles Per Liter | Miles Per Imperial Quart | KM Per Quart | KM Per Liter | KM Per Imperial Quart | Hrs Per Quart | Hrs Per Liter | Hrs Per Imperial Quart |
+| B | Reference the oil consumption evaluator under the "Service Tools" tab in QuickServe® Online |  |  |  |  |  |  |  |  |
 | C | 150 | 160 | 180 | 240 | 255 | 290 | 8.0 | 8.5 | 10.0 |
 | L, M, N | 100 | 105 | 120 | 160 | 170 | 195 | 4.0 | 4.3 | 5.0 |
-| ISB6.7 G/B6.7N/B6.7O | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
+| ISB6.7 G/ B6.7N/B6.7O | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
 | ISL G/L9N | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
 
-## Категоризация/обобщение
+## Categorizing/Generalizing
 
-Из-за улучшений «аппаратного обеспечения» жалоба на потребление моторного масла является проблемой, которая должна оцениваться на основе двигателя и двигателя и не классифицироваться или обобщаться.
+Because of “Hardware” improvements, a lubricating oil consumption complaint is a problem that **must** be evaluated on an engine-to-engine basis and **not** categorized or generalized.
 
-Условия цилиндрического лайнера, которые приводят к потреблению моторного масла:
+Cylinder liner conditions which result in lubricating oil consumption are:
 
-- Изношенные лайнеры из-за абразивов
-- Счет
-- Сволочь.
+- Worn liners due to abrasives
+- Scoring
+- Scuffing.
 
-## До разборки
+## Prior to Disassembly
 
-Точно определить основной вклад (ы) в проблему использования моторного масла. Неточный анализ может привести к ненужному и дорогостоящему ремонту, который может решить проблему.
+Accurately determine the primary contributor(s) to the lubricating oil usage problem. An inaccurate analysis can result in unnecessary and costly repairs which may or may **not** solve the problem.
 
-Для оценки жалобы на потребление моторного масла требуется:
+To evaluate a lubricating oil consumption complaint requires:
 
-1. Анализ применения двигателя
-2. Обзор истории технического обслуживания
-3. Инспекция внешних утечек.
+1. Analysis of the engine application
+2. Review of the maintenance history
+3. Inspection for external leaks.
 
-## Обзор заявок
+## Application Review
 
 ![[07800200.png]]
 
-Рисунок 1: Уровень потребления моторного масла
+Figure 1: Lubricating Oil Consumption Rate
 
-Инспекция применения важна, потому что потребление моторного масла сильно зависит от мощности (коэффициент нагрузки). (Рисунок 1). Следует определить, является ли двигатель двигателем 290 BHP в приложении двигателя 400 BHP. Если это так, то следует ожидать более короткого срока службы от ухудшения контроля моторного масла. Для определения среднего коэффициента нагрузки на двигатель необходимы рейтинг двигателя, информация о передаче, отношение задней оси, маршрут и валовая масса транспортного средства, а также маршрут и валовая масса транспортного средства, входящего. Другая полезная информация о применении - период холостого хода двигателя в течение зимы.
+Application inspection is important because lubricating oil consumption depends strongly on horsepower output (load factor). (Figure 1). It should be determined if the engine is a 290 BHP engine in a 400 BHP engine application. If so, shorter life from a deterioration in lubricating oil control **must** be expected. To determine the average load factor on the engine, the engine rating, transmission information, rear axle ratio, route and gross vehicle weight outbound, and route and gross vehicle weight inbound are needed. Other useful application information is the period of engine idling during the winter.
 
-С точки зрения анализа отказов, определите, является ли уровень моторного масла в двигателе правильным. Правильно ли калибрована измерительная приборная панель уровня масла или автоматический блок добавления моторного масла? Слишком много моторного масла в картере увеличивает потребление моторного масла. Если чрезвычайно высокий, коленчатый вал будет опускаться в моторное масло и заливать цилиндры и / или нагревать моторное масло, которое уменьшает вязкость.
+From a failure analysis standpoint, determine if the engine lubricating oil level is correct. Is the dipstick or the automatic lubricating oil addition unit properly calibrated? Too much lubricating oil in the crankcase increases lubricating oil consumption. If extremely high, the crankshaft will dip into the lubricating oil and flood the cylinders and/or heat the lubricating oil which decreases viscosity.
 
-Обратите внимание на уровень моторного масла двигателя на измерителе уровня масла, слив и сбор моторного масла из двигателя. Измерьте объем собранного моторного масла. Была ли калибровка измерительной шкалы уровня масла правильной? Если используется автоматический блок добавления моторного масла, правильно ли он калиброван для поддержания уровня моторного масла на полпути между высоким и низким уровнями? Если уровень масла в двигателе был слишком высоким, то необходимо исправить калибровку измерителя уровня масла или автоматического датчика сложения.
+Note the engine lubricating oil level on the dipstick, drain, and collect the lubricating oil from the engine. Measure the volume of lubricating oil collected. Was the dipstick calibration correct? If an automatic lubricating oil addition unit is used, was it correctly calibrated to maintain the lubricating oil level midway between the high and low levels? If the engine lubricating oil level was too high, correct the calibration of the dipstick or the automatic addition sensor.
 
-Двигатель работает слишком горячий или слишком холодный? Перегрев вызывает повышение температуры поршня и моторного масла, что приводит к более быстрой деградации моторного масла и более быстрому накоплению отложений углерода в поршне. Как правило, при каждом повышении температуры на 11 ° C [20 ° F] скорость химической реакции, которая приводит к отложениям, удваивается.
+Is the engine operating too hot or too cold? Overheating causes increased piston and lubricating oil temperature which result in faster lubricating oil degradation, and faster accumulation of piston carbon deposits. As a rule of thumb, for every 11°C \[ 20°F\] increase in temperature, the chemical reaction rates which produce deposits double.
 
-Переохлаждение может привести к образованию конденсации в смазочном масле, что приводит к тому, что пакет добавок моторного масла выпадает из раствора и фильтров включения возможности. Конденсация происходит через нормальный процесс горения и будет ** не** полностью испаряться и выходить через дыхательный аппарат при переохлаждении.
+Overcooling can cause condensation to form in the lubricating oil, thus causing the lubricating oil additive package to drop out of solution and possibility plug filters. The condensation occurs through the normal combustion process and will **not** fully vaporize and exit through the breather if overcooled.
 
-Перед разборкой двигателя система воздухозаборника должна быть полностью и тщательно проверена. Ищите любые утечки на чистой стороне воздухоочистителя и любые новые компоненты в системе воздухозаборника. Утечки или новые компоненты в системе воздухозаборника могут указывать на недостаточную фильтрацию воздуха и последующий абразивный износ компонентов цилиндра. Система воздухозаборника должна быть проверена соответствующим методом. Тщательное внимание следует использовать при осмотре всех сантехнических соединений и зажимов. Особого внимания заслуживают прокладка поверхности и плоскостность некоторых фронтальных систем воздухоочистителя. Эта базовая пластина легко деформируется, что приводит к проблемам с уплотнением прокладки воздухоочистителя. Помните, что большинство проблем с износом компонентов цилиндров являются результатом недостаточной фильтрации воздуха.
+Before engine disassembly, the air intake system should be completely and thoroughly checked. Look for any leaks on the clean side of the air cleaner and for any new components in the air intake system. Leaks or new components in the air intake system may indicate inadequate air filtration and subsequent abrasive wear of cylinder components. The air intake system should be checked by an appropriate method. Careful attention should be used in inspecting all plumbing connections and clamps. The gasket surface and baseplate flatness of some frontal air cleaner systems deserve special attention. This baseplate is easily warped, which results in problems with the air cleaner gasket sealing. Remember, most abrasive wear problems with cylinder components result from inadequate air filtration.
 
-При выявлении этих проблем с приложением *** необходимо исправить. Коррекция их поможет облегчить проблему потребления моторного масла или может предотвратить повторную неисправность.
+When identified, these application problems **must** be corrected. Correcting them will help alleviate a lubricating oil consumption problem or may prevent a repeat malfunction.
 
-## Обзор истории технического обслуживания
+## Maintenance History Review
 
-Инспекция истории технического обслуживания важна, потому что она может дать подсказки для выявления факторов, способствующих проблеме использования моторного масла. Проверка истории технического обслуживания включает в себя определение того, было ли техническое обслуживание всегда** выполнено квалифицированным персоналом в магазинах с хорошей практикой. Во всех случаях, и особенно если ответ на вышеуказанный вопрос НЕТ, следует проявлять осторожность при осмотре двигателя. Следует отметить предыдущие неисправности двигателя, особенно охлаждающей жидкости или топлива в смазочном масле, и перегрев. Охлаждение в смазочном масле может привести к выпадению добавки моторного масла и затыканию фильтра. Потеря добавок моторного масла приводит к увеличению износа и неспособности моторного масла нейтрализовать побочные продукты кислого сгорания. Эти кислые продукты сгорания значительно увеличивают скорость накопления поршневых отложений. Фильтровые заглушки приводят к циркуляции нефильтрованного моторного масла, которое может содержать износ мусора и грязи, что ускоряет износ компонентов цилиндра.
+A maintenance history inspection is important because it may provide clues for identifying contributors to the lubricating oil usage problem. A maintenance history inspection includes determining if maintenance was **always** performed by qualified personnel in shops with good shop practices. In all cases, and especially if the answer to the above question is NO, care should be exercised in examining the engine. Previous engine malfunctions, particularly coolant or fuel in the lubricating oil, and overheating should be noted. Coolant in the lubricating oil can result in lubricating oil additive drop-out and filter plugging. Loss of the lubricating oil additives results in increased wear, and inability of the lubricating oil to neutralize acidic combustion by-products. These acidic combustion products greatly increase the accumulation rate of piston deposits. Filter plugging results in the circulation of unfiltered lubricating oil, which may contain wear debris and dirt which accelerates cylinder component wear.
 
-Известно, что топливо в смазочном масле увеличивает скорость накопления поршневых отложений. Это происходит потому, что летучее топливо мигрирует в зону кольцевого пояса, частично окисляется высокими температурами и выдуваемыми газами и образует нерастворимые смолы, которые сливаются с горячим поршнем. Перегрев, как уже упоминалось, повышает поршневые температуры, которые увеличивают скорость накопления поршневых отложений.
+Fuel in the lubricating oil is known to increase the accumulation rate of piston deposits. This occurs because the volatile fuel migrates into the ring-belt-zone, becomes partially oxidized by high temperatures and blow-by gases, and forms insoluble resins which fuse to the hot piston. Overheating, as previously mentioned, raises piston temperatures which increase the accumulation rate of piston deposits.
 
-Хорошая история обслуживания включает в себя:
+A good maintenance history includes:
 
-- Бренд моторного масла
-- Вязкость моторного масла
-- Интервалы изменения моторного масла
-- Фильтр полного потока и интервал изменения
-- Обходной фильтрующий элемент и интервал изменения
-- Элемент воздухоочистителя и интервал изменения.
+- Lubricating oil brand
+- Lubricating oil viscosity
+- Lubricating oil change intervals
+- Full flow filter element and change interval
+- Bypass filter element and change interval
+- Air cleaner element and change interval.
 
-Кроме того, должна быть получена история грузовика в прошлом, касающаяся заглушки фильтра, использования моторного масла и топливных добавок, а также смешивания моторного масла и топлива. Это полезная информация для корреляций о том, почему проблемы потребления моторного масла возникают такими темпами, как сегодня. Теперь, когда потенциальные проблемы применения и история технического обслуживания были рассмотрены, пришло время рассмотреть, как моторное масло выходит из двигателей.
+In addition, the past history of the truck, with respect to filter plugging, use of lubricating oil and fuel additives, and the blending of lubricating oil and fuel **must** be obtained. This is useful information for correlations on why lubricating oil consumption problems occur at the rate they do today. Now that potential application problems and maintenance history have been reviewed, it is time to consider how the lubricating oil escapes from the engines.
 
-## Внешняя проверка утечек
+## External Leak Inspection
 
-Проверьте двигатель на внешнюю утечку перед очисткой. Помните, что, хотя ни одна утечка не приводит к чрезмерному потреблению моторного масла, несколько небольших утечек могут иметь значение. Проверьте трубку капельницы для выпрыгивания моторного масла. Некоторые потери являются нормальными.
+Examine the engine for external leakage before cleaning. Remember, while no single leak results in excessive lubricating oil consumption, several small leaks can make the difference. Check the crankcase breather tube for lubricating oil escaping. Some loss is normal.
 
-Обратите внимание на все источники внешней утечки, чтобы они могли быть исследованы и восстановлены. Измерьте продувку двигателя на динамометрическом стенде ** только **, если чрезмерная потеря моторного масла происходит через дыхательный аппарат.
+Note all sources of external leakage so that they may be investigated and repaired. Measure the engine blow-by on a chassis dynamometer **only** if excessive lubricating oil loss appears to be occurring through the breather.
 
-## Внутренний осмотр утечки
+## Internal Leak Inspection
 
-После устранения или устранения проблем с внешней утечкой необходимо провести внутреннюю проверку на утечку. Три фактора, способствующие внутренней утечке, - это уплотнения турбокомпрессора, направляющие клапана и воздушные компрессоры.
+Having eliminated or corrected external leakage problems, internal leakage inspection **must** be performed. Three contributors to internal leakage are turbocharger seals, valve guides, and air compressors.
 
-Чтобы определить, протекают ли боковые уплотнения турбины, удалите выхлопные трубы и исследуйте колесо турбины на предмет чрезмерных отложений. Утечки уплотнения турбины приводят к выходу моторного масла из двигателя в выхлоп.
+To determine if the turbine side seals are leaking, remove the exhaust pipes and examine the turbine wheel for excessive deposits. Turbine seal leaks result in lubricating oil escaping from the engine into the exhaust.
 
-> [!note] Примечание
-> Мокрые выхлопные порты ** не всегда** составляют потребление моторного масла. Если двигатель работает без турбокомпрессора, он будет перегружать топливо и выдувать избыток топлива из выхлопа.
+> [!note] Note · Примечание
+> Wet exhaust ports do **not always** constitute lubricating oil consumption. Should an engine be run without turbocharger boost, it will overfuel and blow the excess fuel out of the exhaust.
 
-Чтобы определить, протекают ли боковые уплотнения компрессора, удалите воздушный кроссовер и исследуйте его и впускной коллектор. Чрезмерное количество моторного масла и/или остатков моторного масла указывает на утечку.
+To determine if the compressor side seals are leaking, remove the air crossover and examine it and the intake manifold. Excessive lubricating oil and/or lubricating oil residue indicates a leak.
 
-Чтобы определить, отвечает ли воздушный компрессор за внутреннюю утечку, проверьте резервуары подачи воздуха в грузовике и источник поступления воздуха в воздушный компрессор для моторного масла (коллектор для приема или воздухоочиститель). Если избыточное моторное масло присутствует в любом месте, воздушный компрессор вызывает подозрение.
+To determine if the air compressor is responsible for internal leakage, check the truck air supply tanks and the air intake source of the air compressor for lubricating oil (intake manifold or air cleaner). If excess lubricating oil is present at either location, the air compressor is suspect.
 
-Ни турбокомпрессор, ни воздушный компрессор по отдельности не могут протечь достаточное количество моторного масла, чтобы привести к чрезмерному использованию моторного масла, но многие небольшие утечки вместе могут привести к чрезмерному использованию моторного масла и потреблению моторного масла. Ремонт турбокомпрессора и/или воздушного компрессора, если это необходимо.
+Neither the turbocharger nor the air compressor individually can leak sufficient lubricating oil to result in excessive lubricating oil usage, but many small leaks together may result in excess lubricating oil usage and lubricating oil consumption. Repair the turbocharger and/or air compressor, if required.
 
-## Анализ неудач
+## Failure Analysis
 
-Потребление моторного масла в камере сгорания определяется как утечка моторного масла мимо поршневых колец и горение. Причинами этой потери моторного масла являются цилиндровые вкладыши, поршни, поршневые кольца и поршневые отложения. Они будут рассматриваться отдельно от точки зрения анализа неудач.
+Lubricating oil consumption in the combustion chamber is defined as lubricating oil leaking past the piston rings and burning. Causes of this loss of lubricating oil are cylinder liners, pistons, piston rings, and piston deposits. These will be considered separately from a failure analysis standpoint.
 
-## Анализ депозитов в Пистоне и Пистоне
+## Piston and Piston Deposit Analysis
 
-Было показано, что месторождения земли в поршне и верхнего кольцевого канавочного слоя вызывают потерю контроля моторного масла, когда они начинают полировать и грабить цилиндровые вкладыши. Чрезмерные верхние участки земли и верхние кольцевые канавки сами по себе не являются дефектом материала или изготовления. Поршень, демонстрирующий верхние отложения земли, которые привели к потере контроля моторного масла, показан на рисунке 2.
+Piston top land and top ring groove deposits have been shown to cause the loss of lubricating oil control when they start to polish and rake the cylinder liners. Excessive top land and top ring groove deposits in themselves do **not** constitute a defect in material or workmanship. A piston exhibiting top land deposits which resulted in a loss of lubricating oil control is shown in Figure 2.
 
 ![[07800203.png]]
 
-Рисунок 2:
+Figure 2:
 
-Поршень, снятый с двигателя с потреблением моторного масла 570 MPQ на 300 000 миль, показан на рисунке 3.
+A piston removed from an engine with lubricating oil consumption of 570 MPQ at 300,000 miles is shown in Figure 3.
 
 ![[07800202.png]]
 
-Рисунок 3:
+Figure 3:
 
-Этот поршень, показанный на рисунке 3, не имеет тяжелых верхних отложений углерода на суше. В лаборатории было показано, что очистка только отложений с поршневых верхних земель восстанавливает контроль базового уровня моторного масла без изменения одного компонента.
+This piston shown in Figure 3, does **not** exhibit heavy top land carbon deposits. In the laboratory, cleaning **only** the deposits from the piston top lands has been shown to restore baseline lubricating oil control without changing a single component.
 
-После удаления поршней необходимо оценить степень, в которой их отложения влияют на потребление моторного масла. Районы верхнего края и в канавке, которые были отполированы, являются районами, где произошла потеря контроля моторного масла. При проведении анализа отказов эти области должны быть задокументированы путем оценки процентного содержания заливки для каждого поршня и верхнего канавочного отверстия. Для того, чтобы поршень стал основным источником потребления моторного масла, требуется ** только ** приблизительно 30% верхнего упаковочного пакета или 70% верхнего канавочного залива. См. рисунок 4.
+Once the pistons are removed, the degree by which their deposits were affecting the lubricating oil consumption needs to be evaluated. The areas of the top land and in the groove, which have been polished, are areas where there was a loss of lubricating oil control. When performing the failure analysis, those areas need to be documented by estimating the percentages of fill for each piston and top groove. It takes **only** approximately 30 percent top land pack or 70 percent top groove fill for a piston to be the major contributor to lubricating oil consumption. See Figure 4.
 
 ![[07800204.png]]
 
-Рисунок 4: Примеры депозитов в поршне
+Figure 4: Piston Deposit Examples
 
-## Ошибки сборки
+## Assembly Errors
 
-Четыре ошибки сборки поршневого кольца приводят к потреблению моторного масла:
+Four piston ring assembly errors result in lubricating oil consumption:
 
-- Перевернутые промежуточные кольца
-- Расширитель разлома или перекрытия масляного кольца
-- Пропавшие кольца
-- Неправильные кольца установлены.
+- Upside-down intermediate rings
+- Oil ring expander breakage or overlapping
+- Missing rings
+- Incorrect rings installed.
 
-Перевернутые промежуточные кольца легко распознаются, потому что полированная кольцевая сторона, которая уплотняет нижнюю поршневую канавку, ** не** примыкает к полосе износа на кольцевой поверхности.
+Upside-down intermediate rings are easily identified because the polished ring side, which seals on the lower piston groove, is **not** adjacent to the wear band on the ring face.
 
 ![[07800206.png]]
 
-Рисунок 5: Промежуточные кольца
+Figure 5: Intermediate Rings
 
-Расширители масляного кольца могут быть идентифицированы путем их изучения до того, как масляное кольцо будет удалено из поршня. Изучение концов экспандера после удаления также покажет характерный польский рисунок. См. Рисунок 6.
+Overlapped oil ring expanders may be identified by examining them before the oil ring is removed from the piston. Examination of the expander ends following removal will also show a characteristic polish pattern. See Figure 6.
 
 ![[07800207.png]]
 
-Рисунок 6:
+Figure 6:
 
-Своеобразный рисунок сидения в задней части канавки кольца поршневого масла также свидетельствует о перекрывшемся расширителе.
+A peculiar seating pattern in the back of the piston oil ring groove also gives evidence of an overlapped expander.
 
-## Скаффинг и забивание
+## Scuffing and Scoring
 
-Забитые или потрепанные лайнеры делятся на две категории. Первая из них — неисправности ниже 15 000 миль, обычно вызванные:
+Scored or scuffed liners fall into two categories. The first being malfunctions below 15,000 miles usually caused by:
 
-- Неправильные расчистки деталей
-- Неправильные испытания двигателя.
+- Improper parts clearances
+- Improper engine tests run-in.
 
-Вторая категория включает неисправности, превышающие 15 000 миль, вызванные:
+The second category covers malfunctions above 15,000 miles caused by:
 
-- Разбитые поршневые кольца
-- Абразивный износ
-- перегрев
-- Chrome отслаивается от верхнего кольца.
+- Broken piston rings
+- Abrasive wear
+- Overheating
+- Chrome flaking off the top ring.
 
-Линейки цилиндров с начинкой легко идентифицируются по вертикальным баллам соломенного цвета, а также по связанному с ними поршневому кольцу.
+Scuffed cylinder liners are easily identified by straw colored vertical scores as well as by an associated scuffed piston ring.
 
-Много раз повреждения лайнера будут более серьезными и заметными, чем повреждения поршневого кольца, особенно в начале процесса стирки, когда контроль моторного масла первоначально теряется. Баллы лайнеров от разбитых поршневых колец характеризуются глубокими канавками.
+Many times the liner damage will be more severe and noticeable than piston ring damage, particularly early in the scuffing process when the lubricating oil control is initially lost. Liner scores from broken piston rings are characterized by a deep groove.
 
-Проблемы с поршнем, которые приводят к потреблению моторного масла, в основном вызваны износом кольцевой канавки, вызванным:
+Piston problems which result in lubricating oil consumption are primarily ring groove wear caused by:
 
-- Разбитые поршневые кольца
-- Абразивный износ
-- Пистон забивает
-- Поршневые потасовки.
+- Broken piston rings
+- Abrasive wear
+- Piston scoring
+- Piston scuffing.
 
-Поршневые забивки и потасовки могут снова быть классифицированы как неисправности ниже и выше 15 000 миль по тем же причинам, которые ранее упоминались под потасовками и забитыми лайнерами.
+Piston scoring and scuffing may again be categorized as below and above 15,000 mile malfunctions due to the same reasons previously mentioned under scuffed and scored liners.
 
-Дефекты поршневого кольца, которые приводят к потреблению моторного масла:
+Piston ring defects which result in lubricating oil consumption are:
 
-- Разбитые поршневые кольца
-- Неправильно собранные поршневые кольца
-- Кольца поршня, которые носят абразивы
-- Надутые поршневые кольца из-за перегрева
-- Chrome отслаивается от верхнего кольца.
+- Broken piston rings
+- Incorrectly assembled piston rings
+- Piston rings worn by abrasives
+- Scuffed piston rings due to overheating
+- Chrome flaking off the top ring.
 
-Разбитые поршневые кольца обычно вызваны неправильной сборкой, чрезмерным расширением (когда разрыв составляет 180 градусов до конечного зазора) и дефектами в материале поршневого кольца. Кольцевые боковые зазоры, которые являются чрезмерными, также могут привести к сломанным кольцам.
+Broken piston rings usually are caused by misassembly, over-expansion (when the break is 180 degrees to the end gap), and defects in the piston ring material. Ring side clearances which are excessive may also result in broken rings.
 
-## Абразивный наряд
+## Abrasive Wear
 
-Поршневые кольца, которые носят абразивы, являются спорным предметом. Источники абразивов хорошо известны: недостаточная фильтрация воздуха, недостаточная фильтрация моторного масла, вызванная заглушением фильтра, абразивы из грязных перестроек или других внешних источников. Споры касаются степени износа колец. Это наиболее важный фактор, который следует отметить. Полнолицевая контактная полоса на верхнем кольце с хромированным покрытием, протертым на кольце и щелях, и первое промежуточное кольцо, протертое почти до полного контакта с лицом, обычно являются признаками того, что неисправность была вызвана абразивами из-за недостаточной фильтрации воздуха. Масляные кольца, которые носят широко и через хромированную обшивку, а также значительный износ нижних промежуточных колец, указывают на абразивный износ от недостаточной фильтрации моторного масла. Во всех случаях следует учитывать время, прошедшее с момента появления нового или перестроенного двигателя.
+Piston rings worn by abrasives are a controversial subject. The sources of the abrasives are well known: inadequate air filtration, inadequate lubricating oil filtration caused by filter plugging, and abrasives from dirty rebuilds or other external sources. The controversy involves the degree of wear to the rings. It is the most significant factor which should be noted. A full-face contact wear band on the top ring with the chrome plating worn through at the ring and gaps, and the first intermediate ring worn nearly to full-face contact are usually signs that the malfunction was caused by abrasives from inadequate air filtration. Oil rings worn wide and through the chrome plating, as well as significant wear of the lower intermediate rings, indicate abrasive wear from inadequate lubricating oil filtration. In all cases, the time since the engine was new or rebuilt should be taken into account.
 
-Цепочка, змееподобные следы, наблюдаемые на нижней стороне кольца, также указывает на то, что в двигателе присутствовали абразивы. Эти метки производятся одной большой абразивной частицей, пойманной между движущимся кольцом и стационарным поршневым кольцом.
+Chaining, the snake-like marks observed on the lower ring side face, also indicates that abrasives were present in the engine. These marks are produced by a single large abrasive particle trapped between the moving ring and the stationary piston ring groove.
 
-Линии, которые носят абразивы, очень редки, если не задействовано большое количество грязи. Если такие образцы износа будут найдены, проверьте наличие серьезных недостатков в системах фильтрации воздуха и моторного масла. Записи должны быть проверены, чтобы проверить тип магазина, который в последний раз перестраивал двигатель, поскольку источником может быть встроенная грязь или несанкционированный оттачивающий абразив лайнера.
+Liners worn by abrasives are very rare unless large amounts of dirt are involved. Should such wear patterns be found, inspect for gross inadequacies in the air and lubricating oil filtration systems. The records should be checked to verify the type of shop which last rebuilt the engine as built-in dirt or unauthorized liner honing abrasive may have been the source.
 
-Случаи износа линейных элементов редки, поскольку абразивные частицы обычно встраиваются в более мягкий чугунный линейный элемент вместо того, чтобы садиться в более жесткие поршневые кольца (см. рисунок 7).
+Liner wear cases are rare since the abrasive particles usually embed in the softer cast iron liner instead of taking seat in the harder piston rings (see Figure 7).
 
 ![[07800217.png]]
 
-Рисунок 7:
+Figure 7:
 
-Большинство износа от абразивов происходит к движущимся поршневым кольцам, которые перемещаются по встроенным абразивным частицам. Об этом говорилось ранее, когда рассматривался вопрос об износе поршневого кольца. Изнашивание лайнера происходит только тогда, когда чрезвычайно жесткие абразивы вставляются в верхнее кольцо с хромовым покрытием или когда через двигатель проходит чрезмерная грязь. В любом случае, износ лайнера в зоне кольцевого путешествия происходит.
+Most wear from abrasives occurs to the moving piston rings which travel over the embedded abrasive particles. This was discussed earlier when piston ring wear was considered. Liner wear occurs **only** when extremely hard abrasives embed in the chromium plated top ring or when excessive dirt passes through the engine. In either case, liner wear in the ring travel area occurs.
 
-## перегрев
+## Overheating
 
-Причинами перегрева являются:
+The causes of overheating are:
 
-- Потеря охлаждающей жидкости
-- Чрезмерно высокие температуры охлаждающей жидкости
-- перезаправка
-- Неправильная холодная процедура.
+- Coolant loss
+- Excessively high coolant temperatures
+- Overfueling
+- Improper cold starting procedures.
 
 ## Chrome Flaking
 
-Хромовое схлопывание - это отслаивание хромированной пластины от верхнего кольца сжатия, обычно начинающееся на верхнем краю кольца. Это происходит как на шоссе, так и вне шоссейных приложений.
+Chrome flaking is the flaking off of the chrome plating from the top compression ring, usually initiating at the top edge of the ring. It occurs in both on-highway and off-highway applications.
 
-Возможные причины хромового шелушения:
+Possible causes for chrome flaking are:
 
-- Абразивы, которые носят хром тонким, заставляя его хлопать
-- Высокое серное топливо, которое атакует хромовое покрытие и разрушает связь, удерживающую покрытие с железным основанием
-- Плохая начальная хромированная обшивка
-- Высокие температуры, которые термически разрушают хромовую связь с железным основанием.
+- Abrasives which wear the chrome thin, causing it to flake
+- High sulfur fuels which attack the chrome plating and destroy the bond holding the plating to the iron base
+- Poor initial chrome plating bond
+- High temperatures which thermally destroy the chrome bond to the iron base.
 
-## Восстановить процедуры
+## Rebuild Procedures
 
-При реконструкции требуются специальные инструкции из-за чрезмерного потребления моторного масла:
+Special instructions are required when rebuilding because of excessive lubricating oil consumption:
 
-1. Повторно использовать поршни, за исключением тех, которые повреждены или демонстрируют изношенные поршневые кольцевые канавки.
-2. Неповрежденные лайнеры также должны быть повторно использованы, за исключением лайнеров, которые носят из-за неадекватных проблем с фильтрацией воздуха. Линейки будут демонстрировать яркий пол по всей площади кольцевых путешествий.
-3. Линейки цилиндров и поршни, подлежащие повторному использованию, должны быть очищены путем промывки, как описано в руководстве по эксплуатации двигателя, а затем проверены.
-4. Крайняя осторожность ** должна быть осуществлена при чистке канавок поршневого кольца, чтобы ** не** исказить их.
+1. Reuse pistons, except those which are damaged or exhibit worn piston ring grooves.
+2. Undamaged liners should also be reused, except for liners worn from inadequate air filtration problems. The liners will exhibit bright polish over the entire ring travel areas.
+3. Cylinder liners and pistons to be reused should be cleaned by washing as described in the engine service manual and then inspected.
+4. Extreme care **must** be exercised when cleaning the piston ring grooves so as **not** to distort them.
 
-## В кратком содержании
+## In Summary
 
-1. Сегодняшнее оборудование является лучшим из доступных с существующей технологией.
-2. Жалоба на потребление моторного масла является проблемой, которая ** должна** оцениваться на основе двигателя и ** НЕ** категоризироваться или обобщаться. Сегодняшняя задача состоит в том, чтобы точно определить основной вклад (ы) в проблемы использования моторного масла.
-3. Оценка жалоб на потребление моторного масла требует анализа применения двигателя, истории технического обслуживания двигателя, внешних утечек и внутренних компонентов двигателя в этом порядке.
-4. Если наблюдаются внешние утечки или внутренние утечки, отремонтируйте их и оцените расход моторного масла на 5000 миль или 30 дней.
-5. Если внешние или внутренние утечки отсутствуют, а двигатель был заполнен моторным маслом, потребуется разборка и осмотр внутренних деталей. Тщательно оценить системы воздухозаборника перед разборкой для помощи в последующем анализе отказов.
-6. Анализ отказов позволяет установить, какие из следующих внутренних компонентов вызвали значительное потребление моторного масла:
-7. Верхняя земля и верхняя поршневая канавка углеродных отложений
-8. Пистонские кольца собраны неправильно
-9. Забитые или забитые лайнеры и поршневые кольца
-10. Порванные или забитые поршни
-11. Разбитые поршневые кольца
-12. Пистонские кольца носят из-за абразивов
-13. Изношенные лайнеры из абразивов
-14. Надетые поршневые кольца
-15. Chrome отслаивается от верхнего поршневого кольца.
-16. Укажите стоимость ремонта ответственной стороне.
-17. Ремонт двигателя, повторное использование поршней и цилиндровых вкладышей, если они ** не ** дефектны.
+1. Today's hardware is the best available with present technology.
+2. A lubricating oil consumption complaint is a problem which **must** be evaluated on an engine-to-engine basis and **NOT** categorized or generalized. Today's challenge is to accurately determine the primary contributor(s) to the lubricating oil usage problems.
+3. Evaluation of lubricating oil consumption complaints requires analysis of the application of the engine, engine maintenance history, external leaks, and internal engine components, in that order.
+4. If external leaks or internal leaks are observed, repair them and evaluate the lubricating oil consumption for 5,000 miles or 30 days.
+5. If external or internal leaks are **not** present, and the engine was **not** overfilled with lubricating oil, disassembly and inspection of the internal parts will be required. Closely evaluate air intake systems prior to disassembly for help in subsequent failure analysis.
+6. By failure analysis, establish which of the following internal component problems caused extensive lubricating oil consumption:
+7. Top land and top piston ring groove carbon deposits
+8. Piston rings assembled incorrectly
+9. Scuffed or scored liners and piston rings
+10. Scuffed or scored pistons
+11. Broken piston rings
+12. Piston rings worn due to abrasives
+13. Worn liners from abrasives
+14. Worn piston ring grooves
+15. Chrome flaking off top piston ring.
+16. Assign the repair cost to the party responsible.
+17. Repair the engine, reusing pistons and cylinder liners if they are **not** defective.
 
-## Отчет о потреблении моторного масла - 1
+## Lubricating Oil Consumption Report - 1
 
-- Имя пользователя: \_\________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Модель двигателя: \_\_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Серийный номер двигателя: \_\_\_\__\_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Автомобильная модель: \_\________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Дистрибьютор/директор:\_\\_\\__\\_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Мили/часы: \_\___\__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- CPL Номер: \_\_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Дата: \_\___\_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Customer Name:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Engine Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Engine Serial Number:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Vehicle Make/Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Distributor/Director:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Miles/Hours:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- CPL Number:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Date:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-## Проверка списка перед демонтажем
+## Check List Prior to Disassembly
 
-1. Обзор приложения
-2. Проверить уровень моторного масла; Слишком полный: \_\____, Правильно: \_\____, Слишком низкий: \________
-3. Моторное масло и пополнение для проверки маркировок измерительных приборов уровня масла; Наполненные: \_\____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-4. История перегрева; Да: \_\_____, Нет: \________
-5. История переохлаждения; Да: \_\_____, Нет: \________
-6. Система впуска воздуха: Если применимо, следуйте процедуре 010-024 в разделе 10. См. соответствующее Руководство по обслуживанию.
-7. Правильно установлен; Да: \_\_____, Нет: \________
-8. Новые детали и т.д.; Да: \_\_____, Нет: \________
-9. Утечки в системе воздухозаборника; Да: \_\____, Нет: \________
-10. Все зажимы шланга плотные; Да: \_\_____, Нет: \________
-11. Любые изготовленные детали в системе воздухозаборника; Да: \_\_____, Нет: \_______
-12. Обзор истории технического обслуживания
+1. Review Application
+2. Check lubricating oil level; Too Full:\_\_\_\_\_, Correct:\_\_\_\_\_, Too Low:\_\_\_\_\_
+3. Drain lubricating oil and refill to check dipstick markings; Overfilled by: \_\_\_\_\_qts, Underfilled by:\_\_\_\_\_ qts
+4. History of overheating; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+5. History of overcooling; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+6. Air intake system: If applicable, follow procedure 010-024 in Section 10. See corresponding Service Manual.
+7. Properly installed; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+8. New parts-ducting, etc.; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+9. Leaks in air intake system; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+10. All hose clamps tight; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+11. Any fabricated parts in air intake system; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+12. Review of Maintenance History
 
-1. Предыдущие неисправности
-2. Топливо в смазочном масле; Да: \_\____, Нет: \_______
-3. Охлаждение в смазочном масле; Да: \_\____, Нет: \_______
-4. Инородный материал в смазочном масле; Да: \_\____, Нет: \_______
-5. Утечка турбокомпрессора; Да: \_\_____, Нет: \________
-6. Проблемы с топливными форсунками; Да: \_\___________
-7. Моторное масло
-8. Бренд: \_\_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-9. Вязкость: \_\_\______________________
-10. Интервал изменения: \_\_\_\___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-11. Обходной фильтр моторного масла
-12. Модель: \_\__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-13. Элемент: \_\________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-14. Интервал изменения: \_\_\_\___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-15. Фильтр полного потока
-16. Элемент: \_\________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-17. Интервал изменения: \_\_\_\___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-18. История подключения; Да: \_\_____, Нет: \________
-19. Очиститель воздуха
-20. Изготовление и модель: \_\______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-21. Элемент: \_\________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-22. Интервал изменения: \_\_\_\___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-23. Всегда используйте восстановленный элемент; Да: \_\_____, Нет: \________
+1. Previous malfunctions
+2. Fuel in lubricating oil; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+3. Coolant in lubricating oil; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+4. Foreign material in lubricating oil; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+5. Turbocharger seals leaking; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+6. Injector problems; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+7. Lubricating Oil
+8. Brand:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+9. Viscosity:\_\_\_\_\_\_\_\_\_\_\_\_\_
+10. Change interval:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_miles/hours
+11. Bypass lubricating oil filter
+12. Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+13. Element:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+14. Change interval:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_miles/hours
+15. Full-flow filter
+16. Element:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+17. Change interval:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_miles/hours
+18. History of plugging; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+19. Air Cleaner
+20. Make and Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+21. Element:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+22. Change interval:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_miles/hours
+23. Ever use a reconditioned element; Yes:\_\_\_\_\_, No:\_\_\_\_\_
 
-1. Проверьте внешние утечки
-2. Утечки из трещин или пористых отливок, родственных прокладок и уплотнений вала
-3. Блок цилиндра; Да: \_\_\___________
-4. Голова цилиндра (-ы); Да: \_\_____, Нет: \_______
-5. Корпус турбокомпрессора; Да: \_\____, Нет: \__________
-6. Грушевые покрытия; Да: \_\_________, Нет: \_______
-7. Обложки клапанов; Да: \_\_\___________
-8. Коробка для рок-н-ролла; Да: \_\_____, Нет: \_______
-9. Камерный корпус; Да: \_\_____, Нет: \_______
-10. Уплотнения коленчатого вала; Да: \_\_____, Нет: \________
-11. Приводные пломбы; Да: \_\_____, Нет: \________
-12. Наружные линии и фитинги моторного масла; Да: \_\____, Нет: \________
-13. Фильтры для моторного масла; Да: \_\____, Нет: \_______
-14. Моторное масло, потерянное из дыхательной трубки (дорожная трубка); Да: \_\____, Нет: \________
+1. Check for External Leaks
+2. Leaks from cracked or porous castings, related gaskets, and shaft seals
+3. Cylinder block; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+4. Cylinder head(s); Yes:\_\_\_\_\_, No:\_\_\_\_\_
+5. Turbocharger housing; Yes:\_\_\_\_\_, No:\_\_\_\_\_\_
+6. Gear covers; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+7. Valve covers; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+8. Rock box housing; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+9. Cambox housing; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+10. Crankshaft seals; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+11. Accessory drive seals; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+12. External lubricating oil lines and fittings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+13. Lubricating oil filters; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+14. Lubricating oil lost from breather (road draft tube); Yes:\_\_\_\_\_, No:\_\_\_\_\_
 
-> [!note] Примечание
-> очищать паром **только ***, если это необходимо для определения точного местоположения нескольких утечек.
-
-1. Проверьте внутренние утечки
-2. Утечки внутренними печатями в камеры сгорания или в выхлопные газы
-3. Сбоку турбины турбокомпрессора; Да: \_\____, Нет: \_______
-4. Сбоку нагнетатели на боковых уплотнениях; Да: \_\_____, Нет: \________
-5. - воздушное компрессорное моторное масло в воздушных резервуарах; Да: \_\____, Нет: \_______
-6. 5. *** После всех вышеперечисленных проверок, исправления утечек и использования многовязкого моторного масла, если потребление моторного масла все еще сохраняется, разобрать двигатель, чтобы определить, что не удалось в цилиндрах, чтобы вызвать потребление моторного масла.
-
-Подпись: \_\_\_\____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
-## Отчет о потреблении моторного масла - 2
-
-- Имя пользователя: \_\________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Модель двигателя: \_\_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Серийный номер двигателя: \_\_\_\__\_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Автомобильная модель: \_\________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Дистрибьютор/директор:\_\\_\\__\\_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Мили/часы: \_\___\__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- CPL Номер: \_\_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Дата: \_\___\_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
-## Проверка списка анализа отказов после разборки
-
-#### Анализ цилиндрических линейных
-
-- Польский верхний разворот кольца от поршневых отложений; Да: \_\_____, Нет: \_________
-- Цилиндровые числа и сторона выхлопа или впускания \_\\_\\_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Надутые или забитые номера цилиндров \_\\__\\_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Изношенные или глубоко поцарапанные гильзы цилиндров с номерами \_\\_\\__\_\________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
-#### Анализ Пистона
-
-- Месторождения в поршнях на верхней земле и/или верхнем канаве
-- Piston Number 1; Percent Land Coverage: \_\\___, Percent Groove Fill: \_\____
-- Piston Number 2; Percent Land Coverage: \_\_\__, Percent Groove Fill: \_\____
-- Piston Number 3; Percent Land Overage: \_\_\__, Percent Groove Fill: \_\____
-- Piston Number 4; Percent Land Overage: \_\_\__, Percent Groove Fill: \_\____
-- Piston Number 5; Percent Land Overage: \_\__\__, Percent Groove Fill: \_\____
-- Piston Number 6; Percent Land Overage: \_\_\__, Percent Groove Fill: \_\____
-- (См. примеры в книге «Технический обзор потребления нефти»)
-- Пистон № 1 Кольцевая грувовая одежда
-- Верхнее кольцо — вне указанных пределов; Да: \_\_____, Нет: \_\_______
-- 1-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- 2-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- Пистон No2 Кольцевая грувовая одежда
-- Верхнее кольцо — вне указанных пределов; Да: \_\_____, Нет: \_\_______
-- 1-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- 2-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- Кольцо масла - вне указанных пределов; Да: \_\____, Нет: \________
-- Пистон № 3 Кольцевая грувовая одежда
-- Верхнее кольцо — вне указанных пределов; Да: \_\_____, Нет: \_\_______
-- 1-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- 2-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- Кольцо масла - вне указанных пределов; Да: \_\____, Нет: \________
-- Пистон № 4 Кольцевая грувовая одежда
-- Верхнее кольцо — вне указанных пределов; Да: \_\_____, Нет: \_\_______
-- 1-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- 2-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- Кольцо масла - вне указанных пределов; Да: \_\____, Нет: \________
-- Пистон Номер 5 Кольцевая грувовая одежда
-- Верхнее кольцо — вне указанных пределов; Да: \_\_____, Нет: \_\_______
-- 1-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- 2-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- Кольцо масла - вне указанных пределов; Да: \_\____, Нет: \________
-- Пистон № 6 Кольцевая грувовая одежда
-- Верхнее кольцо — вне указанных пределов; Да: \_\_____, Нет: \_\_______
-- 1-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- 2-й Промежуточный - вне указанных пределов; Да: \_\_____, Нет: \_\______
-- Кольцо масла - вне указанных пределов; Да: \_\____, Нет: \________
-- Порванные или забитые поршни
-- Пистон номер 1: \_\___
-- Пистон Номер 2: \_\___
-- Пистон Номер 3: \_\___
-- Пистон Номер 4: \_\___
-- Пистон Номер 5: \_\___
-- Пистон Номер 6: \_\___
-
-#### Анализ кольца Пистона
-
-- Перевернутые промежуточные кольца; Да: \_\____, Нет: \_\_____
-- Цилиндровые числа и кольцевые местоположения: \_\\_\\____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Накладываемые на масло кольца-расширители; Да: \_\________, Нет: \________
-- Цилиндровые числа: \_\_\_\__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Разбитые поршневые кольца; Да: \_\_\__, Нет: \_\____
-- Цилиндровые числа и тип кольца: \_\_\_\_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Поршневые кольца; Да: \_\____, Нет: \_______
-- Цилиндровые числа и тип кольца: \_\_\_\_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Хромовое хлопанье верхних колец; Да: \_\_____, Нет: \________
-- Цилиндровые числа: \_\_\_\__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
-#### Кольцо Пистона (количество одежды)
-
-- Пистон Номер 1
-- Верхнее кольцо; 0:\_\_______, 1/4:\_\____, 1/2:\______, 3/4:\________, Полное лицо:\________,
-- 1-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- 2-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- Пистон Номер 2
-- Верхнее кольцо; 0:\_\_______, 1/4:\_\____, 1/2:\______, 3/4:\________, Полное лицо:\________,
-- 1-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- 2-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- Пистон Номер 3
-- Верхнее кольцо; 0:\_\_______, 1/4:\_\____, 1/2:\______, 3/4:\________, Полное лицо:\________,
-- 1-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- 2-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- Пистон Номер 4
-- Верхнее кольцо; 0:\_\_______, 1/4:\_\____, 1/2:\______, 3/4:\________, Полное лицо:\________,
-- 1-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- 2-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- Пистон Номер 5
-- Верхнее кольцо; 0:\_\_______, 1/4:\_\____, 1/2:\______, 3/4:\________, Полное лицо:\________,
-- 1-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- 2-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- Пистон Номер 6
-- Верхнее кольцо; 0:\_\_______, 1/4:\_\____, 1/2:\______, 3/4:\________, Полное лицо:\________,
-- 1-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-- 2-й Интер. кольцо; 0:\\_\\____, 1/4:\\____, 1/2:\\_____, 3/4:\\_______, Полное лицо:\_\_____,
-
-Подпись: \_\_\_\____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
-### История изменений документа
-
-
-> [!quote]- Original (English) · английский оригинал
-> ## Lubricating Oil Consumption and Acceptable Limits
->
-> This publication was written to familiarize field personnel with the causes of excessive lubricating oil consumption. Inspection and analysis of the internal engine components will provide a knowledge of the factors that contribute to piston ring and cylinder liner wear. Knowledge of the relationship between engine operation and the wear factors that cause excessive lubricating oil consumption will enable efforts to be directed toward extending the service life of the engine.
->
-> Excessive lubricating oil consumption is defined as the addition of lubricating oil to the crankcase at an unacceptably high rate.
->
-> | Table 1, Acceptable Lubricating Oil Usage - Any Time During Coverage Period |  |  |  |  |  |  |  |  |  |
-> |---|---|---|---|---|---|---|---|---|---|
-> | Engine Family | Miles Per Quart | Miles Per Liter | Miles Per Imperial Quart | KM Per Quart | KM Per Liter | KM Per Imperial Quart | Hrs Per Quart | Hrs Per Liter | Hrs Per Imperial Quart |
-> | A- Series |  |  |  |  |  |  | 10 | 10.6 | 12 |
-> | B3.3/4B | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
-> | ISF/QSF/F | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
-> | ISV | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
-> | 6B/ISB/QSB | Reference the oil consumption evaluator under the "Service Tools" tab in QuickServe® Online. |  |  |  |  |  |  |  |  |
-> | ISB6.7 G/ B6.7N/B6.7O | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
-> | 6C/ISC/QSC/ISL | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
-> | ISL G/L9N | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
-> | V/VT-378 | 250 | 265 | 310 | 400 | 425 | 485 | 4 | 4.3 | 4.8 |
-> | V/VT-504 | 250 | 265 | 310 | 400 | 425 | 485 | 4 | 4.3 | 4.8 |
-> | VT-555 | 250 | 265 | 310 | 400 | 425 | 485 | 4 | 4.3 | 4.8 |
-> | L10 | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
-> | M11/ISM | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
-> | ISG11 | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
-> | ISG/QSG12 | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
-> | ISZ/QSZ | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
-> | N14/NT | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
-> | ISX/QSX/Signature™ | Reference the oil consumption evaluator under the "Service Tools" tab in QuickServe® Online. |  |  |  |  |  |  |  |  |
-> | ISX12 G/ISX12N | 500 | 530 | 620 | 800 | 850 | 970 | 7 | 7.4 | 8.4 |
-> | V/VT/VTA-903 | 250 | 265 | 310 | 400 | 425 | 485 | 4 | 4.3 | 4.8 |
-> | KT/KTA19 | 200 | 210 | 250 | 320 | 340 | 390 | 3 | 3.2 | 3.6 |
-> | V/VT/VTA28 |  |  |  |  |  |  | 2 | 2.1 | 1.1 |
-> | KT/KTA38 |  |  |  |  |  |  | 1.5 | 1.6 | 1.8 |
-> | KTA50 |  |  |  |  |  |  | 1.1 | 1.2 | 1.3 |
-> | QSK19 |  |  |  |  |  |  | 3 | 3.2 | 3.6 |
-> | QST30 |  |  |  |  |  |  | 1.7 | 1.8 | 2 |
-> | QSK23 |  |  |  |  |  |  | 1.7 | 1.8 | 2 |
-> | QSK38 |  |  |  |  |  |  | 1.3 | 1.4 | 1.5 |
-> | QSK45 |  |  |  |  |  |  | 1.25 | 1.3 | 1.5 |
-> | QSK50 |  |  |  |  |  |  | 1 | 1.1 | 1.2 |
-> | QSK60 |  |  |  |  |  |  | 0.9 | 0.95 | 1.1 |
-> | QSK78 |  |  |  |  |  |  | 0.6 | 0.65 | 0.72 |
-> | QSK95 |  |  |  |  |  |  | 0.55 | 0.58 | 0.66 |
-> | HSK78 |  |  |  |  |  |  | 0.6 | 0.65 | 0.72 |
->
-> Cummins Inc. defines "Acceptable Lubricating Oil Usage" as outlined in the following table:
->
-> | Table 2, Acceptable Lubricating Oil Usage (Transit Bus, Shuttle Bus, and School Bus) - Any Time During Coverage Period |  |  |  |  |  |  |  |  |  |
-> |---|---|---|---|---|---|---|---|---|---|
-> | Engine Family | Miles Per Quart | Miles Per Liter | Miles Per Imperial Quart | KM Per Quart | KM Per Liter | KM Per Imperial Quart | Hrs Per Quart | Hrs Per Liter | Hrs Per Imperial Quart |
-> | B | Reference the oil consumption evaluator under the "Service Tools" tab in QuickServe® Online |  |  |  |  |  |  |  |  |
-> | C | 150 | 160 | 180 | 240 | 255 | 290 | 8.0 | 8.5 | 10.0 |
-> | L, M, N | 100 | 105 | 120 | 160 | 170 | 195 | 4.0 | 4.3 | 5.0 |
-> | ISB6.7 G/ B6.7N/B6.7O | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
-> | ISL G/L9N | 400 | 425 | 475 | 650 | 675 | 775 | 10 | 10.6 | 12 |
->
-> ## Categorizing/Generalizing
->
-> Because of “Hardware” improvements, a lubricating oil consumption complaint is a problem that **must** be evaluated on an engine-to-engine basis and **not** categorized or generalized.
->
-> Cylinder liner conditions which result in lubricating oil consumption are:
->
-> - Worn liners due to abrasives
-> - Scoring
-> - Scuffing.
->
-> ## Prior to Disassembly
->
-> Accurately determine the primary contributor(s) to the lubricating oil usage problem. An inaccurate analysis can result in unnecessary and costly repairs which may or may **not** solve the problem.
->
-> To evaluate a lubricating oil consumption complaint requires:
->
-> 1. Analysis of the engine application
-> 2. Review of the maintenance history
-> 3. Inspection for external leaks.
->
-> ## Application Review
->
-> Figure 1: Lubricating Oil Consumption Rate
->
-> Application inspection is important because lubricating oil consumption depends strongly on horsepower output (load factor). (Figure 1). It should be determined if the engine is a 290 BHP engine in a 400 BHP engine application. If so, shorter life from a deterioration in lubricating oil control **must** be expected. To determine the average load factor on the engine, the engine rating, transmission information, rear axle ratio, route and gross vehicle weight outbound, and route and gross vehicle weight inbound are needed. Other useful application information is the period of engine idling during the winter.
->
-> From a failure analysis standpoint, determine if the engine lubricating oil level is correct. Is the dipstick or the automatic lubricating oil addition unit properly calibrated? Too much lubricating oil in the crankcase increases lubricating oil consumption. If extremely high, the crankshaft will dip into the lubricating oil and flood the cylinders and/or heat the lubricating oil which decreases viscosity.
->
-> Note the engine lubricating oil level on the dipstick, drain, and collect the lubricating oil from the engine. Measure the volume of lubricating oil collected. Was the dipstick calibration correct? If an automatic lubricating oil addition unit is used, was it correctly calibrated to maintain the lubricating oil level midway between the high and low levels? If the engine lubricating oil level was too high, correct the calibration of the dipstick or the automatic addition sensor.
->
-> Is the engine operating too hot or too cold? Overheating causes increased piston and lubricating oil temperature which result in faster lubricating oil degradation, and faster accumulation of piston carbon deposits. As a rule of thumb, for every 11°C \[ 20°F\] increase in temperature, the chemical reaction rates which produce deposits double.
->
-> Overcooling can cause condensation to form in the lubricating oil, thus causing the lubricating oil additive package to drop out of solution and possibility plug filters. The condensation occurs through the normal combustion process and will **not** fully vaporize and exit through the breather if overcooled.
->
-> Before engine disassembly, the air intake system should be completely and thoroughly checked. Look for any leaks on the clean side of the air cleaner and for any new components in the air intake system. Leaks or new components in the air intake system may indicate inadequate air filtration and subsequent abrasive wear of cylinder components. The air intake system should be checked by an appropriate method. Careful attention should be used in inspecting all plumbing connections and clamps. The gasket surface and baseplate flatness of some frontal air cleaner systems deserve special attention. This baseplate is easily warped, which results in problems with the air cleaner gasket sealing. Remember, most abrasive wear problems with cylinder components result from inadequate air filtration.
->
-> When identified, these application problems **must** be corrected. Correcting them will help alleviate a lubricating oil consumption problem or may prevent a repeat malfunction.
->
-> ## Maintenance History Review
->
-> A maintenance history inspection is important because it may provide clues for identifying contributors to the lubricating oil usage problem. A maintenance history inspection includes determining if maintenance was **always** performed by qualified personnel in shops with good shop practices. In all cases, and especially if the answer to the above question is NO, care should be exercised in examining the engine. Previous engine malfunctions, particularly coolant or fuel in the lubricating oil, and overheating should be noted. Coolant in the lubricating oil can result in lubricating oil additive drop-out and filter plugging. Loss of the lubricating oil additives results in increased wear, and inability of the lubricating oil to neutralize acidic combustion by-products. These acidic combustion products greatly increase the accumulation rate of piston deposits. Filter plugging results in the circulation of unfiltered lubricating oil, which may contain wear debris and dirt which accelerates cylinder component wear.
->
-> Fuel in the lubricating oil is known to increase the accumulation rate of piston deposits. This occurs because the volatile fuel migrates into the ring-belt-zone, becomes partially oxidized by high temperatures and blow-by gases, and forms insoluble resins which fuse to the hot piston. Overheating, as previously mentioned, raises piston temperatures which increase the accumulation rate of piston deposits.
->
-> A good maintenance history includes:
->
-> - Lubricating oil brand
-> - Lubricating oil viscosity
-> - Lubricating oil change intervals
-> - Full flow filter element and change interval
-> - Bypass filter element and change interval
-> - Air cleaner element and change interval.
->
-> In addition, the past history of the truck, with respect to filter plugging, use of lubricating oil and fuel additives, and the blending of lubricating oil and fuel **must** be obtained. This is useful information for correlations on why lubricating oil consumption problems occur at the rate they do today. Now that potential application problems and maintenance history have been reviewed, it is time to consider how the lubricating oil escapes from the engines.
->
-> ## External Leak Inspection
->
-> Examine the engine for external leakage before cleaning. Remember, while no single leak results in excessive lubricating oil consumption, several small leaks can make the difference. Check the crankcase breather tube for lubricating oil escaping. Some loss is normal.
->
-> Note all sources of external leakage so that they may be investigated and repaired. Measure the engine blow-by on a chassis dynamometer **only** if excessive lubricating oil loss appears to be occurring through the breather.
->
-> ## Internal Leak Inspection
->
-> Having eliminated or corrected external leakage problems, internal leakage inspection **must** be performed. Three contributors to internal leakage are turbocharger seals, valve guides, and air compressors.
->
-> To determine if the turbine side seals are leaking, remove the exhaust pipes and examine the turbine wheel for excessive deposits. Turbine seal leaks result in lubricating oil escaping from the engine into the exhaust.
->
-> **Note · Примечание**
-> Wet exhaust ports do **not always** constitute lubricating oil consumption. Should an engine be run without turbocharger boost, it will overfuel and blow the excess fuel out of the exhaust.
->
-> To determine if the compressor side seals are leaking, remove the air crossover and examine it and the intake manifold. Excessive lubricating oil and/or lubricating oil residue indicates a leak.
->
-> To determine if the air compressor is responsible for internal leakage, check the truck air supply tanks and the air intake source of the air compressor for lubricating oil (intake manifold or air cleaner). If excess lubricating oil is present at either location, the air compressor is suspect.
->
-> Neither the turbocharger nor the air compressor individually can leak sufficient lubricating oil to result in excessive lubricating oil usage, but many small leaks together may result in excess lubricating oil usage and lubricating oil consumption. Repair the turbocharger and/or air compressor, if required.
->
-> ## Failure Analysis
->
-> Lubricating oil consumption in the combustion chamber is defined as lubricating oil leaking past the piston rings and burning. Causes of this loss of lubricating oil are cylinder liners, pistons, piston rings, and piston deposits. These will be considered separately from a failure analysis standpoint.
->
-> ## Piston and Piston Deposit Analysis
->
-> Piston top land and top ring groove deposits have been shown to cause the loss of lubricating oil control when they start to polish and rake the cylinder liners. Excessive top land and top ring groove deposits in themselves do **not** constitute a defect in material or workmanship. A piston exhibiting top land deposits which resulted in a loss of lubricating oil control is shown in Figure 2.
->
-> Figure 2:
->
-> A piston removed from an engine with lubricating oil consumption of 570 MPQ at 300,000 miles is shown in Figure 3.
->
-> Figure 3:
->
-> This piston shown in Figure 3, does **not** exhibit heavy top land carbon deposits. In the laboratory, cleaning **only** the deposits from the piston top lands has been shown to restore baseline lubricating oil control without changing a single component.
->
-> Once the pistons are removed, the degree by which their deposits were affecting the lubricating oil consumption needs to be evaluated. The areas of the top land and in the groove, which have been polished, are areas where there was a loss of lubricating oil control. When performing the failure analysis, those areas need to be documented by estimating the percentages of fill for each piston and top groove. It takes **only** approximately 30 percent top land pack or 70 percent top groove fill for a piston to be the major contributor to lubricating oil consumption. See Figure 4.
->
-> Figure 4: Piston Deposit Examples
->
-> ## Assembly Errors
->
-> Four piston ring assembly errors result in lubricating oil consumption:
->
-> - Upside-down intermediate rings
-> - Oil ring expander breakage or overlapping
-> - Missing rings
-> - Incorrect rings installed.
->
-> Upside-down intermediate rings are easily identified because the polished ring side, which seals on the lower piston groove, is **not** adjacent to the wear band on the ring face.
->
-> Figure 5: Intermediate Rings
->
-> Overlapped oil ring expanders may be identified by examining them before the oil ring is removed from the piston. Examination of the expander ends following removal will also show a characteristic polish pattern. See Figure 6.
->
-> Figure 6:
->
-> A peculiar seating pattern in the back of the piston oil ring groove also gives evidence of an overlapped expander.
->
-> ## Scuffing and Scoring
->
-> Scored or scuffed liners fall into two categories. The first being malfunctions below 15,000 miles usually caused by:
->
-> - Improper parts clearances
-> - Improper engine tests run-in.
->
-> The second category covers malfunctions above 15,000 miles caused by:
->
-> - Broken piston rings
-> - Abrasive wear
-> - Overheating
-> - Chrome flaking off the top ring.
->
-> Scuffed cylinder liners are easily identified by straw colored vertical scores as well as by an associated scuffed piston ring.
->
-> Many times the liner damage will be more severe and noticeable than piston ring damage, particularly early in the scuffing process when the lubricating oil control is initially lost. Liner scores from broken piston rings are characterized by a deep groove.
->
-> Piston problems which result in lubricating oil consumption are primarily ring groove wear caused by:
->
-> - Broken piston rings
-> - Abrasive wear
-> - Piston scoring
-> - Piston scuffing.
->
-> Piston scoring and scuffing may again be categorized as below and above 15,000 mile malfunctions due to the same reasons previously mentioned under scuffed and scored liners.
->
-> Piston ring defects which result in lubricating oil consumption are:
->
-> - Broken piston rings
-> - Incorrectly assembled piston rings
-> - Piston rings worn by abrasives
-> - Scuffed piston rings due to overheating
-> - Chrome flaking off the top ring.
->
-> Broken piston rings usually are caused by misassembly, over-expansion (when the break is 180 degrees to the end gap), and defects in the piston ring material. Ring side clearances which are excessive may also result in broken rings.
->
-> ## Abrasive Wear
->
-> Piston rings worn by abrasives are a controversial subject. The sources of the abrasives are well known: inadequate air filtration, inadequate lubricating oil filtration caused by filter plugging, and abrasives from dirty rebuilds or other external sources. The controversy involves the degree of wear to the rings. It is the most significant factor which should be noted. A full-face contact wear band on the top ring with the chrome plating worn through at the ring and gaps, and the first intermediate ring worn nearly to full-face contact are usually signs that the malfunction was caused by abrasives from inadequate air filtration. Oil rings worn wide and through the chrome plating, as well as significant wear of the lower intermediate rings, indicate abrasive wear from inadequate lubricating oil filtration. In all cases, the time since the engine was new or rebuilt should be taken into account.
->
-> Chaining, the snake-like marks observed on the lower ring side face, also indicates that abrasives were present in the engine. These marks are produced by a single large abrasive particle trapped between the moving ring and the stationary piston ring groove.
->
-> Liners worn by abrasives are very rare unless large amounts of dirt are involved. Should such wear patterns be found, inspect for gross inadequacies in the air and lubricating oil filtration systems. The records should be checked to verify the type of shop which last rebuilt the engine as built-in dirt or unauthorized liner honing abrasive may have been the source.
->
-> Liner wear cases are rare since the abrasive particles usually embed in the softer cast iron liner instead of taking seat in the harder piston rings (see Figure 7).
->
-> Figure 7:
->
-> Most wear from abrasives occurs to the moving piston rings which travel over the embedded abrasive particles. This was discussed earlier when piston ring wear was considered. Liner wear occurs **only** when extremely hard abrasives embed in the chromium plated top ring or when excessive dirt passes through the engine. In either case, liner wear in the ring travel area occurs.
->
-> ## Overheating
->
-> The causes of overheating are:
->
-> - Coolant loss
-> - Excessively high coolant temperatures
-> - Overfueling
-> - Improper cold starting procedures.
->
-> ## Chrome Flaking
->
-> Chrome flaking is the flaking off of the chrome plating from the top compression ring, usually initiating at the top edge of the ring. It occurs in both on-highway and off-highway applications.
->
-> Possible causes for chrome flaking are:
->
-> - Abrasives which wear the chrome thin, causing it to flake
-> - High sulfur fuels which attack the chrome plating and destroy the bond holding the plating to the iron base
-> - Poor initial chrome plating bond
-> - High temperatures which thermally destroy the chrome bond to the iron base.
->
-> ## Rebuild Procedures
->
-> Special instructions are required when rebuilding because of excessive lubricating oil consumption:
->
-> 1. Reuse pistons, except those which are damaged or exhibit worn piston ring grooves.
-> 2. Undamaged liners should also be reused, except for liners worn from inadequate air filtration problems. The liners will exhibit bright polish over the entire ring travel areas.
-> 3. Cylinder liners and pistons to be reused should be cleaned by washing as described in the engine service manual and then inspected.
-> 4. Extreme care **must** be exercised when cleaning the piston ring grooves so as **not** to distort them.
->
-> ## In Summary
->
-> 1. Today's hardware is the best available with present technology.
-> 2. A lubricating oil consumption complaint is a problem which **must** be evaluated on an engine-to-engine basis and **NOT** categorized or generalized. Today's challenge is to accurately determine the primary contributor(s) to the lubricating oil usage problems.
-> 3. Evaluation of lubricating oil consumption complaints requires analysis of the application of the engine, engine maintenance history, external leaks, and internal engine components, in that order.
-> 4. If external leaks or internal leaks are observed, repair them and evaluate the lubricating oil consumption for 5,000 miles or 30 days.
-> 5. If external or internal leaks are **not** present, and the engine was **not** overfilled with lubricating oil, disassembly and inspection of the internal parts will be required. Closely evaluate air intake systems prior to disassembly for help in subsequent failure analysis.
-> 6. By failure analysis, establish which of the following internal component problems caused extensive lubricating oil consumption:
-> 7. Top land and top piston ring groove carbon deposits
-> 8. Piston rings assembled incorrectly
-> 9. Scuffed or scored liners and piston rings
-> 10. Scuffed or scored pistons
-> 11. Broken piston rings
-> 12. Piston rings worn due to abrasives
-> 13. Worn liners from abrasives
-> 14. Worn piston ring grooves
-> 15. Chrome flaking off top piston ring.
-> 16. Assign the repair cost to the party responsible.
-> 17. Repair the engine, reusing pistons and cylinder liners if they are **not** defective.
->
-> ## Lubricating Oil Consumption Report - 1
->
-> - Customer Name:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Engine Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Engine Serial Number:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Vehicle Make/Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Distributor/Director:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Miles/Hours:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - CPL Number:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Date:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
->
-> ## Check List Prior to Disassembly
->
-> 1. Review Application
-> 2. Check lubricating oil level; Too Full:\_\_\_\_\_, Correct:\_\_\_\_\_, Too Low:\_\_\_\_\_
-> 3. Drain lubricating oil and refill to check dipstick markings; Overfilled by: \_\_\_\_\_qts, Underfilled by:\_\_\_\_\_ qts
-> 4. History of overheating; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 5. History of overcooling; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 6. Air intake system: If applicable, follow procedure 010-024 in Section 10. See corresponding Service Manual.
-> 7. Properly installed; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 8. New parts-ducting, etc.; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 9. Leaks in air intake system; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 10. All hose clamps tight; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 11. Any fabricated parts in air intake system; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 12. Review of Maintenance History
->
-> 1. Previous malfunctions
-> 2. Fuel in lubricating oil; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 3. Coolant in lubricating oil; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 4. Foreign material in lubricating oil; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 5. Turbocharger seals leaking; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 6. Injector problems; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 7. Lubricating Oil
-> 8. Brand:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> 9. Viscosity:\_\_\_\_\_\_\_\_\_\_\_\_\_
-> 10. Change interval:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_miles/hours
-> 11. Bypass lubricating oil filter
-> 12. Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> 13. Element:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> 14. Change interval:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_miles/hours
-> 15. Full-flow filter
-> 16. Element:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> 17. Change interval:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_miles/hours
-> 18. History of plugging; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 19. Air Cleaner
-> 20. Make and Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> 21. Element:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> 22. Change interval:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_miles/hours
-> 23. Ever use a reconditioned element; Yes:\_\_\_\_\_, No:\_\_\_\_\_
->
-> 1. Check for External Leaks
-> 2. Leaks from cracked or porous castings, related gaskets, and shaft seals
-> 3. Cylinder block; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 4. Cylinder head(s); Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 5. Turbocharger housing; Yes:\_\_\_\_\_, No:\_\_\_\_\_\_
-> 6. Gear covers; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 7. Valve covers; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 8. Rock box housing; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 9. Cambox housing; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 10. Crankshaft seals; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 11. Accessory drive seals; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 12. External lubricating oil lines and fittings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 13. Lubricating oil filters; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 14. Lubricating oil lost from breather (road draft tube); Yes:\_\_\_\_\_, No:\_\_\_\_\_
->
-> **Note · Примечание**
+> [!note] Note · Примечание
 > Steam clean **only** if necessary to determine exact locations of multiple leaks.
->
-> 1. Check for Internal Leaks
-> 2. Leaks by internal seals into combustion chambers or into the exhaust
-> 3. Turbocharger turbine side seals; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 4. Turbocharger compressor side seals; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 5. Air compressor-excessive lubricating oil in air tanks; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> 6. 5. **Only** after all above checks are done, leaks corrected, and multi-viscosity lubricating oil used, if lubricating oil consumption still persists, disassemble the engine to determine what has failed in the cylinders to cause the lubricating oil consumption.
->
-> Signed:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
->
-> ## Lubrication Oil Consumption Report - 2
->
-> - Customer Name:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Engine Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Engine Serial Number:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Vehicle Make/Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Distributor/Director:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Miles/Hours:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - CPL Number:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Date:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
->
-> ## Failure Analysis Check List After Disassembly
->
-> #### Cylinder Liner Analysis
->
-> - Polish above top ring reversal from piston deposits; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Cylinder numbers and exhaust or intake side\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Scuffed or scored liners cylinder numbers\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Worn or deeply scratched liners cylinder numbers\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_; Yes:\_\_\_\_\_, No:\_\_\_\_\_
->
-> #### Piston Analysis
->
-> - Piston deposits on top land and/or top groove
-> - Piston Number 1; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
-> - Piston Number 2; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
-> - Piston Number 3; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
-> - Piston Number 4; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
-> - Piston Number 5; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
-> - Piston Number 6; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
-> - (See examples in “Technical Overview of Oil Consumption” Book)
-> - Piston Number 1 Ring Groove Wear
-> - Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Piston Number 2 Ring Groove Wear
-> - Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Piston Number 3 Ring Groove Wear
-> - Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Piston Number 4 Ring Groove Wear
-> - Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Piston Number 5 Ring Groove Wear
-> - Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Piston Number 6 Ring Groove Wear
-> - Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Scuffed or scored pistons
-> - Piston Number 1:\_\_\_\_\_
-> - Piston Number 2:\_\_\_\_\_
-> - Piston Number 3:\_\_\_\_\_
-> - Piston Number 4:\_\_\_\_\_
-> - Piston Number 5:\_\_\_\_\_
-> - Piston Number 6:\_\_\_\_\_
->
-> #### Piston Ring Analysis
->
-> - Upside down intermediate rings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Cylinder numbers and ring locations:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Overlapped oil ring expanders; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Cylinder numbers:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Broken piston rings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Cylinder numbers and ring type:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Scuffed piston rings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Cylinder numbers and ring type:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-> - Chrome flaking of top rings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
-> - Cylinder numbers:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
->
-> #### Piston Ring Wear/Amount of Wear
->
-> - Piston Number 1
-> - Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - Piston Number 2
-> - Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - Piston Number 3
-> - Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - Piston Number 4
-> - Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - Piston Number 5
-> - Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - Piston Number 6
-> - Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
-> - 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
->
-> Signed:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
->
-> ### Document History
+
+1. Check for Internal Leaks
+2. Leaks by internal seals into combustion chambers or into the exhaust
+3. Turbocharger turbine side seals; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+4. Turbocharger compressor side seals; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+5. Air compressor-excessive lubricating oil in air tanks; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+6. 5. **Only** after all above checks are done, leaks corrected, and multi-viscosity lubricating oil used, if lubricating oil consumption still persists, disassemble the engine to determine what has failed in the cylinders to cause the lubricating oil consumption.
+
+Signed:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## Lubrication Oil Consumption Report - 2
+
+- Customer Name:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Engine Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Engine Serial Number:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Vehicle Make/Model:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Distributor/Director:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Miles/Hours:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- CPL Number:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Date:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+## Failure Analysis Check List After Disassembly
+
+#### Cylinder Liner Analysis
+
+- Polish above top ring reversal from piston deposits; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Cylinder numbers and exhaust or intake side\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Scuffed or scored liners cylinder numbers\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Worn or deeply scratched liners cylinder numbers\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+
+#### Piston Analysis
+
+- Piston deposits on top land and/or top groove
+- Piston Number 1; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
+- Piston Number 2; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
+- Piston Number 3; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
+- Piston Number 4; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
+- Piston Number 5; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
+- Piston Number 6; Percent Land Coverage:\_\_\_\_\_, Percent Groove Fill:\_\_\_\_\_
+- (See examples in “Technical Overview of Oil Consumption” Book)
+- Piston Number 1 Ring Groove Wear
+- Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Piston Number 2 Ring Groove Wear
+- Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Piston Number 3 Ring Groove Wear
+- Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Piston Number 4 Ring Groove Wear
+- Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Piston Number 5 Ring Groove Wear
+- Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Piston Number 6 Ring Groove Wear
+- Top Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 1st Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- 2nd Intermediate - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Oil Ring - Out of Specification; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Scuffed or scored pistons
+- Piston Number 1:\_\_\_\_\_
+- Piston Number 2:\_\_\_\_\_
+- Piston Number 3:\_\_\_\_\_
+- Piston Number 4:\_\_\_\_\_
+- Piston Number 5:\_\_\_\_\_
+- Piston Number 6:\_\_\_\_\_
+
+#### Piston Ring Analysis
+
+- Upside down intermediate rings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Cylinder numbers and ring locations:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Overlapped oil ring expanders; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Cylinder numbers:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Broken piston rings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Cylinder numbers and ring type:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Scuffed piston rings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Cylinder numbers and ring type:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Chrome flaking of top rings; Yes:\_\_\_\_\_, No:\_\_\_\_\_
+- Cylinder numbers:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### Piston Ring Wear/Amount of Wear
+
+- Piston Number 1
+- Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- Piston Number 2
+- Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- Piston Number 3
+- Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- Piston Number 4
+- Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- Piston Number 5
+- Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- Piston Number 6
+- Top ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 1st Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+- 2nd Inter. ring; 0:\_\_\_\_\_, 1/4:\_\_\_\_\_, 1/2:\_\_\_\_\_, 3/4:\_\_\_\_\_, Full Face:\_\_\_\_\_
+
+Signed:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+### Document History

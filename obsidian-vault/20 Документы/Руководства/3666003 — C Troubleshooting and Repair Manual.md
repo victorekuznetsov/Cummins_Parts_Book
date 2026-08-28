@@ -7,11 +7,12 @@ title_en: "C Troubleshooting and Repair Manual"
 title_ru: "Руководство по диагностике и ремонту серии C"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666003-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666003-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/C8.3"
@@ -21,9 +22,9 @@ tags:
 **Руководство по диагностике и ремонту серии C**
 
 > [!abstract] Руководство · `3666003-history`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666003-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666003-history.pdf)
 
 
 ## Оглавление руководства (306 процедур)

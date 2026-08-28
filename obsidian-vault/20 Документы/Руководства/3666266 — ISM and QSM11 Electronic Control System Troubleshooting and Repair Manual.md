@@ -7,11 +7,12 @@ title_en: "ISM and QSM11 Electronic Control System Troubleshooting and Repair Ma
 title_ru: "ISM и QSM11: руководство по диагностике и ремонту системы управления"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666266/3666266-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666266-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666266-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/NT/NTA855"
@@ -21,9 +22,9 @@ tags:
 **ISM и QSM11: руководство по диагностике и ремонту системы управления**
 
 > [!abstract] Руководство · `3666266-history`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666266/3666266-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666266-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666266/3666266-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666266-history.pdf)
 
 
 ## Оглавление руководства (308 процедур)

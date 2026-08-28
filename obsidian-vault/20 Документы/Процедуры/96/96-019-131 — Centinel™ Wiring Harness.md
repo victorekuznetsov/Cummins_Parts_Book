@@ -10,1613 +10,940 @@ engines:
   - "37292556"
   - "37295879"
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
   - "QST30"
 manuals:
   - "3666231"
 figures: 124
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-019-131.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/96-019-131.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/96-019-131.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "группа/96"
-  - "перевод/машинный"
 ---
 
 # Centinel™ Wiring Harness
 **Жгут проводов Centinel™**
 
 > [!abstract] Процедура · `96-019-131`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11, QST30
 > **Входит в руководства:** [[3666231 — Centinel™ Master Repair Manual|3666231]]
 > **Секции:** Section G - Installation Guidelines
 > **Даты:** изменён 2004-05-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-019-131.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/96-019-131.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-019-131.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/96-019-131.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Install
 
+Burn-Only, L and M Series Engines
 
-### Установка
+It will be necessary to choose a location for mounting the heavy-duty Centinel™ control module. Location of the Centinel™ control module should provide visibility of the diagnostic lamps to operators and maintenance personnel.
 
-Двигатели серии L и M Burn-Only
+Recommended locations include:
 
-Необходимо будет выбрать место для установки сверхмощного модуля управления CentinelTM. Расположение модуля управления CentinelTM должно обеспечивать видимость диагностических ламп операторам и обслуживающему персоналу.
+- Inside the cab
+- On the frame rail
+- On the rear of the cab.
 
-Рекомендуемые места включают:
-
-- Внутри кабины
-- На раме рельс
-- На задней части кабины.
-
-> [!note] Примечание
-> Не монтируйте модуль управления Heavy-Duty CentinelTM под капотом или в моторном отсеке. Модуль управления CentinelTM **не*** предназначен (или покрывается гарантией) для температур моторного отсека.
+> [!note] Note · Примечание
+> Do **not** mount the Heavy-Duty Centinel™ control module under the hood or in the engine compartment. The Centinel™ control module is **not** designed (or covered by warranty) for engine compartment temperatures.
 
 ![[nobox.png]]
 
-> [!note] Примечание
-> Завершите установку электропроводки перед использованием p-зажимов или завязок для защиты электропроводки от трения.
+> [!note] Note · Примечание
+> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure the wiring harness from rubbing.
 
-Найдите и удалите проводную упряжку CentinelTM из упаковки.
+Locate and remove the Centinel™ wiring harness from the package.
 
-> [!note] Примечание
-> При подключении проводной ремни к модулю управления CentinelTM убедитесь, что блокировки разъема задействованы.
+> [!note] Note · Примечание
+> When connecting the harness to the Centinel™ control module, verify that the connector locks are engaged.
 
-Установите 12-контактный разъем к модулю управления CentinelTM.
+Install the 12-pin connector to the Centinel™ control module.
 
 ![[05100036.png]]
 
-Найдите три вилки для мониторинга масла в упаковке. *** Будет установлена только одна из вилок, в зависимости от типа масла, используемого в двигателе.
+Locate the three oil monitoring plugs in the package. **Only** one of the plugs will be installed, depending on the type of oil to be used in the engine.
 
-1. Стандартная масляная пробка для мониторинга - белый провод
-2. Продвинутая масляная пробка монитора - черный провод
-3. Сервисная вилка - красный провод.
+1. Standard oil monitoring plug - white wire
+2. Advanced oil monitor plug - black wire
+3. Service plug - red wire.
 
-> [!note] Примечание
-> Вилка службы используется для установки установленной системы CentinelTM в эксплуатацию и сброса системы после замены масла.
+> [!note] Note · Примечание
+> The service plug is used to place the installed Centinel™ system into service and to reset the system after an oil change.
 
 ![[05100038.png]]
 
-Удалите крышку от масляной контрольной пробки на проводной упряжке CentinelTM и установите соответствующую калибровочную пробку.
+Remove the cover from the oil monitoring plug on the Centinel™ wiring harness and install the appropriate calibration plug.
 
-Установите соответствующую калибровочную вилку.
+Install the appropriate calibration plug.
 
-> [!note] Примечание
-> См. процедуру[[96-018-003 — Lubricating Oil Recommendations and Specifications|018-003]]для двигателей с определенными коэффициентами смешивания.
+> [!note] Note · Примечание
+> Refer to Procedure [[96-018-003 — Lubricating Oil Recommendations and Specifications|018-003]] for engine specific blend rates.
 
 ![[05100039.png]]
 
-Маршрутируйте проводную упряжку CentinelTM к раме рельса напротив выхлопа и вперед к клапану управления маслом.
+Route the Centinel™ wiring harness to the frame rail opposite the exhaust and forward to the oil control valve.
 
-Защитите проводку от трения с помощью P-зажима и завязывания оберток.
+Secure the harness from rubbing using P-clamp and tie wraps.
 
 ![[17800019.png]]
 
-Найдите разъем с маркировкой BURN SOLENOID и соедините его с разъемом на верхней части клапана управления маслом, ведущего к ожоговому соленоиду.
+Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve leading to the burn solenoid.
 
 ![[05100041.png]]
 
-Найдите разъем с маркировкой MAKE-UP SOLENOID и соедините его с разъемом на верхней части клапана управления маслом, ведущего к соленоиду макияжа.
+Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
 
 ![[05100040.png]]
 
-> [!note] Примечание
-> Данный шаг распространяется на двигатели, оснащенные системой CELECTTM Plus **только**. Для двигателей, не относящихся к CELECTTM Plus, продолжайте следующий шаг.
+> [!note] Note · Примечание
+> This step applies to engines equipped with the CELECT™ Plus system **only**. For non-CELECT™ Plus engines, continue to the next step.
 
-Возле двигателя ECM найдите и удалите крышку из разъема шины данных CAN.
+Near the engine ECM, locate and remove the cover from the engine datalink connector.
 
-Установите разъем с маркировкой DIAGNOSTIC LAMP ENGINE CAN CONNECTOR шины данных.
+Install the connector labeled DIAGNOSTIC LAMP ENGINE DATALINK CONNECTOR.
 
 ![[05100043.png]]
 
-Пробурите 1/4-дюймовое отверстие в месте на брандмауэре моторного отсека.
+Drill a 1/4-inch hole in a location on the firewall of the engine compartment.
 
-Установите громмет, предусмотренный в комплекте, и проведите провода через него и в кабину.
+Install the grommet provided in the kit and route the wires through it and into the cab.
 
 ![[17800024.png]]
 
-Для двигателей, которые не имеют 6-контактного разъема шины данных CAN от ECM, необходимо установить два провода для шины данных CAN внутри кабины. Эти провода будут сплайсированы в разъем шины данных J1587 CAN. Это будут те же провода, которые направляются в шину данных CAN, обычно расположенную под приборной панелью. Найдите провода, которые ведут к этому разъему и соедините, как указано в следующей таблице:
+For engines that do **not** have a 6-pin datalink connector by the ECM, it is necessary to install two wires for the datalink inside the cab. These wires will be spliced into the J1587 datalink connector. These will be the same wires that are routed to the datalink, usually located under the dashboard. Locate the wires that lead to this connector and connect as specified in the following table:
 
-| сигнал | 8-Pin Connector | 6-Pin Connector | 2-Pin Connector |
+| Signal | 8-Pin Connector | 6-Pin Connector | 2-Pin Connector |
 |---|---|---|---|
-| CAN Data Bus (+) | Контакт 1 | Пин А | Пин А |
-| Шина данных CAN (-) | Контакт 2 | Пин Б | Пин Б |
+| Datalink (+) | Pin 1 | Pin A | Pin A |
+| Datalink (-) | Pin 2 | Pin B | Pin B |
 
 ![[05100044.png]]
 
-Сплайсируйте провода, используя приведенную выше таблицу в качестве ссылки (полярность).
+Splice the wires using the above table as a reference (polarity).
 
-Сплайсы приклада предназначены для обеспечения наилучшего возможного холодного соединения суставов при правильном хромании.
+Butt splices are designed to provide the best possible cold joint connection when properly crimped.
 
 ![[17800025.png]]
 
-> [!warning] ОСТОРОЖНО
-> Перегрев сплайса приклада может привести к повреждению провода.
+> [!warning] CAUTION · Осторожно
+> Overheating of the butt splice can lead to wire damage.
 
-Сплайсы с затылком также обеспечивают защиту от коррозии. После обжимания соединения нагрейте термоусадочную трубку тепловым пистолетом, пока термоусадочная трубка не запечатает сустав.
+Butt splices also provide protection against corrosion. After crimping the connection, heat the shrink tube with a heat gun until the shrink tube has sealed the joint.
 
 ![[17800026.png]]
 
-> [!note] Примечание
-> Очень важно, чтобы система Centinel была правильно заземлена.
+> [!note] Note · Примечание
+> It is very important that the Centinel™ system be properly grounded.
 
-Найдите черный щуп (землю) на проводной упряжке CentinelTM.
+Locate the black lead (ground) on the Centinel™ wiring harness.
 
-Соедините грунтовый свинец с грунтовым на стартере (2).
+Connect the ground lead to ground on the starter (2).
 
-Подключите красный щуп (положительный) проводов жгута к положительному посту (1) стартера соленоида.
+Connect the red lead (positive) of the harness to the positive post (1) of the starter solenoid.
 
 ![[05100046.png]]
 
-Подключите последний оставшийся провод на проводной ремне CentinelTM к положительному посту на соленоиде отключения топлива.
+Connect the last remaining wire on the Centinel™ harness to the positive post on fuel shutoff solenoid.
 
-> [!note] Примечание
-> Проверьте все проводов и сантехники, чтобы убедиться, что ваши соединения и зажимы плотные, и все компоненты защищены от трения.
+> [!note] Note · Примечание
+> Inspect all the wiring and plumbing lines to make certain your connections and clamps are tight, and all components are secured from rubbing.
 
 ![[05100053.png]]
 
-На проводной упряжке CentinelTM найдите два проводных разъёма с маркировкой LOW OIL LEVEL SENSOR. Закрепите разъем с помощью прыгунной проводов, найденной в комплекте для преобразования только для сжигания.
+On the Centinel™ wiring harness, locate the two wire connectors labeled LOW OIL LEVEL SENSOR. Cap the connector with the jumper harness found in the burn-only conversion kit.
 
-> [!note] Примечание
-> Система CentinelTM использует ту же проводку, что и стандартная система CentinelTM. Поскольку стандартная система использует масляный баллон с выключателем / датчиком низкого уровня масла, в системе только для сжигания этот датчик должен быть подпрыгнут (для имитации резервуара с адекватным масляным макияжем) для модуля управления CentinelTM для правильной работы системы.
+> [!note] Note · Примечание
+> The burn-only Centinel™ system uses the same harness as the standard Centinel™ system. As the standard system uses a make-up oil tank with a low oil level switch/sensor, in the burn-only system this sensor pickup in the harness **must** be jumped (to simulate a tank with adequate make-up oil) for the Centinel™ control module to operate the system properly.
 
 ![[07800058.png]]
 
-> [!note] Примечание
-> Проводная упряжка CentinelTM имеет длину около 20 футов. В зависимости от того, где находится модуль управления CentinelTM или ламповая коробка, может быть значительная длина избыточной электропроводки. Этот избыток должен быть свернут вместе и надежно увязан с дороги.
+> [!note] Note · Примечание
+> The Centinel™ wiring harness is about 20 feet long. Depending on where the Centinel™ control module or lamp box is located, there can be a considerable length of excess harness. This excess **must** be rolled together and securely tie-wrapped out of the way.
 
 ![[07800059.png]]
 
-Сжигание с помощью двигателей серии L и M
+Burn With Make-Up, L and M Series Engines
 
-> [!note] Примечание
-> Завершите установку электропроводки перед использованием p-зажимов или завязок для защиты электропроводки от трения.
+> [!note] Note · Примечание
+> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure the wiring harness from rubbing.
 
-Найдите и удалите проводную упряжку CentinelTM из упаковки.
+Locate and remove the Centinel™ wiring harness from the package.
 
-> [!note] Примечание
-> При подключении проводной ремни к модулю управления CentinelTM убедитесь, что блокировки разъема задействованы.
+> [!note] Note · Примечание
+> When connecting the harness to the Centinel™ control module, verify that the connector locks are engaged.
 
-Установите 12-контактный разъем к модулю управления CentinelTM.
+Install the 12-pin connector to the Centinel™ control module.
 
 ![[05100036.png]]
 
-Используйте p-зажимы для обеспечения электропроводки ремня для масляного резервуара для макияжа.
+Use p-clamps to secure the harness to the make-up oil tank.
 
 ![[17800020.png]]
 
-Найдите соединение на проводной жгуте проводов с маркировкой MAKE-UP TANK и подключите его к датчику макияжа.
+Locate the connection on the wiring harness labeled MAKE-UP TANK sensor and connect it to the make-up tank sensor.
 
 ![[05100037.png]]
 
-Найдите три масляных калибровочных пробки в упаковке. *** Будет установлена только одна из вилок, в зависимости от типа масла, используемого в двигателе.
+Locate the three oil calibration plugs in the package. **Only** one of the plugs will be installed, depending on the type of oil to be used in the engine.
 
-1. Стандартная масляная пробка для мониторинга - белый провод
-2. Продвинутая масляная пробка монитора - черный провод
-3. Сервисная вилка - красный провод.
+1. Standard oil monitoring plug - white wire
+2. Advanced oil monitor plug - black wire
+3. Service plug - red wire.
 
-> [!note] Примечание
-> Вилка службы используется для установки установленной системы CentinelTM в эксплуатацию и сброса системы после замены масла.
+> [!note] Note · Примечание
+> The service plug is used to place the installed Centinel™ system into service and to reset the system after an oil change.
 
 ![[05100038.png]]
 
-Удалите крышку от масляной контрольной пробки на проводной упряжке CentinelTM и установите соответствующую калибровочную пробку.
+Remove the cover from the oil monitoring plug on the Centinel™ wiring harness and install the appropriate calibration plug.
 
-> [!note] Примечание
-> См. процедуру[[96-018-003 — Lubricating Oil Recommendations and Specifications|018-003]]для двигателей с определенными коэффициентами смешивания.
+> [!note] Note · Примечание
+> Refer to Procedure [[96-018-003 — Lubricating Oil Recommendations and Specifications|018-003]] for engine specific blend rates.
 
 ![[05100039.png]]
 
-Маршрутируйте проводную упряжку CentinelTM к раме рельса напротив выхлопа и вперед к клапану управления маслом.
+Route the Centinel™ wiring harness to the frame rail opposite the exhaust and forward to the oil control valve.
 
-Защитите проводку от трения с помощью P-зажима и завязывания оберток.
+Secure the harness from rubbing using P-clamp and tie wraps.
 
 ![[17800019.png]]
 
-Найдите разъем с маркировкой BURN SOLENOID и соедините его с разъемом на верхней части клапана управления маслом, ведущего к ожоговому соленоиду.
+Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve leading to the burn solenoid.
 
 ![[05100041.png]]
 
-Найдите разъем с маркировкой MAKE-UP SOLENOID и соедините его с разъемом на верхней части клапана управления маслом, ведущего к соленоиду макияжа.
+Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
 
 ![[05100040.png]]
 
-> [!note] Примечание
-> Данный шаг распространяется на двигатели, оснащенные системой CELECTTM Plus **только**. Для двигателей, не относящихся к CELECTTM Plus, продолжайте следующий шаг.
+> [!note] Note · Примечание
+> This step applies to engines equipped with the CELECT™ Plus system **only**. For non-CELECT™ Plus engines, continue to the next step.
 
-Возле двигателя ECM найдите и удалите крышку из разъема шины данных CAN.
+Near the engine ECM, locate and remove the cover from the engine datalink connector.
 
-Установите разъем с маркировкой DIAGNOSTIC LAMP ENGINE CAN CONNECTOR шины данных.
+Install the connector labeled DIAGNOSTIC LAMP ENGINE DATALINK CONNECTOR.
 
 ![[05100043.png]]
 
-Пробурите 1/4-дюймовое отверстие в месте на брандмауэре моторного отсека.
+Drill a 1/4-inch hole in a location on the firewall of the engine compartment.
 
-Установите громмет, предусмотренный в комплекте, и проведите провода через него в кабину.
+Install the grommet provided in the kit and route the wires through it into the cab.
 
 ![[17800024.png]]
 
-Для двигателей, которые не имеют 6-контактного разъема шины данных CAN от ECM, необходимо установить два провода для шины данных CAN внутри кабины. Эти провода будут сплайсированы в разъем шины данных J1587 CAN. Это будут те же провода, которые направляются в шину данных CAN, обычно расположенную под приборной панелью. Найдите провода, которые ведут к этому разъему и соедините, как указано в следующей таблице:
+For engines that do **not** have a 6-pin datalink connector by the ECM, it is necessary to install two wires for the datalink inside the cab. These wires will be spliced into the J1587 datalink connector. These will be the same wires that are routed to the datalink, usually located under the dashboard. Locate the wires that lead to this connector and connect as specified in the following table:
 
-| сигнал | 8-Pin Connector | 6-Pin Connector | 2-Pin Connector |
+| Signal | 8-Pin Connector | 6-Pin Connector | 2-Pin Connector |
 |---|---|---|---|
-| CAN Data Bus (+) | Контакт 1 | Пин А | Пин А |
-| Шина данных CAN (-) | Контакт 2 | Пин Б | Пин Б |
+| Datalink (+) | Pin 1 | Pin A | Pin A |
+| Datalink (-) | Pin 2 | Pin B | Pin B |
 
 ![[05100044.png]]
 
-Сплайсируйте провода, используя приведенную выше таблицу в качестве ссылки (полярность).
+Splice the wires using the above table as a reference (polarity).
 
-Сплайсы приклада предназначены для обеспечения наилучшего возможного холодного соединения суставов при правильном хромании.
+Butt splices are designed to provide the best possible cold joint connection when properly crimped.
 
 ![[17800025.png]]
 
-> [!warning] ОСТОРОЖНО
-> Перегрев сплайса приклада может привести к повреждению провода.
+> [!warning] CAUTION · Осторожно
+> Overheating of the butt splice can lead to wire damage.
 
-Сплайсы с затылком также обеспечивают защиту от коррозии. После обжимания соединения нагрейте термоусадочную трубку тепловым пистолетом, пока термоусадочная трубка не запечатает сустав.
+Butt splices also provide protection against corrosion. After crimping the connection, heat the shrink tube with a heat gun until the shrink tube has sealed the joint.
 
 ![[17800026.png]]
 
-> [!note] Примечание
-> Очень важно, чтобы система Centinel была правильно заземлена.
+> [!note] Note · Примечание
+> It is very important that the Centinel™ system be properly grounded.
 
-Найдите черный щуп (землю) на проводной упряжке CentinelTM.
+Locate the black lead (ground) on the Centinel™ wiring harness.
 
-Соедините грунтовый свинец с грунтовым на стартере (2).
+Connect the ground lead to ground on the starter (2).
 
-Подключите красный щуп (положительный) проводов жгута к положительному посту (1) стартера соленоида.
+Connect the red lead (positive) of the harness to the positive post (1) of the starter solenoid.
 
 ![[05100046.png]]
 
-Подключите последний оставшийся провод на проводной ремне CentinelTM к положительному посту на соленоиде отключения топлива.
+Connect the last remaining wire on the Centinel™ harness to the positive post on fuel shutoff solenoid.
 
-> [!note] Примечание
-> Проверьте все проводов и сантехники, чтобы убедиться, что ваши соединения и зажимы плотные, и все компоненты защищены от трения.
+> [!note] Note · Примечание
+> Inspect all the wiring and plumbing lines to make certain your connections and clamps are tight, and all components are secured from rubbing.
 
 ![[05100053.png]]
 
-Только для сжигания, ISM двигатели
+Burn-Only, ISM Engines
 
-Установите прыгунную проводку CentinelTM между ремнем (6-контактный разъем) и управляющим клапаном соленоид (2-контактный разъем).
+Install the Centinel™ jumper harness between the engine harness (6-pin connector) and the control valve solenoid (2-pin connector).
 
-Убедитесь, что блокировки разъема задействованы.
+Verify that the connector locks are engaged.
 
-> [!note] Примечание
-> Для сжигания только контакты 24 и 25 из 31-контактного OEM-разъема ** должны быть перепрыгиваны для имитации адекватного масла, доступного в макияжном баке, даже если есть **no** макияжный бак.
+> [!note] Note · Примечание
+> For burn-only, pins 24 and 25 of the 31-pin OEM connector **must** be jumped to simulate adequate oil is available in the make-up tank, even though there is **no** make-up tank.
 
-Найдите прыгунную проводку в клапане только для сжигания и монтажном или конверсионном комплекте.
+Locate the jumper wiring harness in the burn-only valve and mounting or conversion kit.
 
-Найдите 31-контактный разъем OEM-интерфейса на стороне блока двигателя.
+Locate the 31-pin OEM interface connector on the side of the engine block.
 
 ![[07800085.png]]
 
-Отключите 31-контактный OEM-разъем. Найдите контакты 24 и 25 в разъеме интерфейса OEM и удалите разъемные заглушки в 24- и 25-контактных местах.
+Disconnect the 31-pin OEM connector. Locate pins 24 and 25 in the OEM interface connector, and remove the connector cavity plugs in the 24- and 25-pin locations.
 
-Установите две гнездовые розетки прыгуна проводов (поставляемые в комплекте) в контакты 24 и 25.
+Install the two female sockets of the jumper harness (supplied in the kit) into pins 24 and 25.
 
-> [!note] Примечание
-> Убедитесь, что розетки «защелкнут» твердо на месте.
+> [!note] Note · Примечание
+> Make certain the sockets "snap" solidly into place.
 
-Подключите OEM 31-контактный разъем, чтобы убедиться, что разъем надежно заблокирован на месте.
+Reconnect the OEM 31-pin connector, making absolutely certain the connector is solidly locked in place.
 
-Использование предоставленных завязок для защиты остальной части датчика уровня масляного макияжа приводит к тому, что избегайте потрескивания и убедитесь, что на розетки штифта наносится напряжение **no**.
+Use provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and to make sure **no** stress is applied to the pin sockets.
 
 ![[07800175.png]]
 
-Правильно переустановить любое оборудование Cummins или клиента, которое было удалено или перемещено из-за помех.
+Properly reinstall any Cummins or customer hardware that was removed or relocated because of interference.
 
 ![[nobox.png]]
 
-Сжигать с помощью Make-Up, ISM
+Burn With Make-Up, ISM Engines
 
-Установите прыгунную проводку CentinelTM между ремнем (6-контактный разъем) и управляющим клапаном соленоид (2-контактный разъем).
+Install the Centinel™ jumper harness between the engine harness (6-pin connector) and the control valve solenoid (2-pin connector).
 
-Убедитесь, что блокировки разъема задействованы.
+Verify that the connector locks are engaged.
 
 ![[07800085.png]]
 
-Вставьте разъем датчика уровня масла в датчик уровня масла, установленный в масляном макияже.
+Insert the oil level sensor connector into the oil level sensor installed in the oil make-up tank.
 
-Убедитесь, что блокировки разъема задействованы.
+Verify that the connector locks are engaged.
 
 ![[05100037.png]]
 
-Батт-сплик два 16-мерных калибровочных провода (**не** снабжены комплектом) в двух сплайсах датчика уровня масла.
+Butt-splice two number 16-gauge wires (**not** furnished with the kit) in the two oil level sensor connector butt splices.
 
-Используйте тепловой пистолет или эквивалент, чтобы нагреть сплайсы приклада, чтобы уменьшить и запечатать соединения.
+Use a heat gun, or equivalent, to heat the butt splices to shrink and seal the connections.
 
 ![[17800026.png]]
 
-Проводите два провода вдоль шланга для макияжа к 31-контактному разъему OEM-интерфейса.
+Route the two wires along the make-up hose to the 31-pin OEM interface connector.
 
-Используйте предоставленные завязные обертки, чтобы закрепить шланг для макияжа и провода к раме.
+Use the provided tie wraps to secure the make-up hose and wires to the frame rail.
 
 ![[17800019.png]]
 
-Разрежьте провода до размера и приклада соответствующие гнездовые разъемы гнезда (Cummins Part Number 3822921 - **не** снабженный комплектом) до числа 16-мерных калибровочных проводов.
+Cut the wires to size and butt-splice appropriate female socket connectors (Cummins Part Number 3822921 - **not** furnished with the kit) to the number 16-gauge wires.
 
-> [!note] Примечание
-> Части 3822921 Cummins являются обычным ремонтным элементом, найденным в комплекте (-ах) ремонта проводной упряжки Cummins.
+> [!note] Note · Примечание
+> Cummins Part Number 3822921 is a common repair item found in the Cummins harness repair kit(s).
 
 ![[07800086.png]]
 
-Отключите 31-контактный OEM-разъем. Найдите точки 24 и 25 и удалите их полости.
+Disconnect the 31-pin OEM connector. Locate pin locations 24 and 25 and remove their cavity plugs.
 
-Установите две гнездовые розетки в контакты 24 и 25.
+Install the two female sockets into pins 24 and 25.
 
-> [!note] Примечание
-> Убедитесь, что розетки «защелкнуты» надежно на месте.
+> [!note] Note · Примечание
+> Make sure the sockets "snap" securely into place.
 
 ![[07800087.png]]
 
-Подключите 31-контактный OEM-разъем, убедившись, что разъем надежно заблокирован на месте.
+Connect the 31-pin OEM connector, making sure the connector is securely locked in place.
 
-Используйте предоставленные завязывания для защиты остальной части датчика уровня масляного макияжа, чтобы избежать потрескивания и убедиться, что на розетки штифта не наносится напряжение.
+Use the provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and to make sure no stress is applied to the pin sockets.
 
 ![[07800088.png]]
 
-Правильно переустановить любое оборудование Cummins или клиента, которое было удалено или перемещено в качестве помех.
+Properly reinstall any Cummins or customer hardware that was removed or relocated as interference.
 
 ![[nobox.png]]
 
-Двигатели N14
+N14 Engines
 
-> [!note] Примечание
-> Следующим шагом является использование двигателей N14 CELECTTM и CELECTTM Plus с **Burn-Only** приложениями.
+> [!note] Note · Примечание
+> The following step is for N14 CELECT™ and CELECT™ Plus engines with **Burn-Only** applications.
 
-Необходимо будет выбрать место для установки сверхмощного модуля управления CentinelTM. Расположение модуля управления CentinelTM должно обеспечивать видимость диагностических ламп операторам и обслуживающему персоналу.
+It will be necessary to choose a location for mounting the heavy-duty Centinel™ control module. Location of the Centinel™ control module should provide visibility of the diagnostic lamps to operators and maintenance personnel.
 
-Рекомендуемые места включают:
+Recommended locations include:
 
-- Внутри кабины
-- На раме рельс
-- На задней части кабины.
+- Inside the cab
+- On the frame rail
+- On the rear of the cab.
 
-> [!note] Примечание
-> **Не** монтировать сверхмощный модуль управления CentinelTM под капотом или в моторном отсеке. Модуль управления CentinelTM **не*** предназначен (или покрывается гарантией) для температур моторного отсека.
+> [!note] Note · Примечание
+> Do **not** mount the heavy-duty Centinel™ control module under the hood or in the engine compartment. The Centinel™ control module is **not** designed (or covered by warranty) for engine compartment temperatures.
 
 ![[nobox.png]]
 
-Используйте p-зажимы для обеспечения электропроводки ремня для масляного резервуара для макияжа.
+Use p-clamps to secure the harness to the make-up oil tank.
 
 ![[17800020.png]]
 
-Найдите и соедините соединение на проводной упряжке с надписью LOW OIL LEVEL SENSOR.
+Locate and connect the connection on the wiring harness labeled LOW OIL LEVEL SENSOR.
 
 ![[05100037.png]]
 
-> [!note] Примечание
-> Следующие шаги предназначены для двигателей N14 CELECTTM и CELECTTM Plus с **Burn-Only** или **Burn With Make-Up**.
+> [!note] Note · Примечание
+> The following steps are for N14 CELECT™ and CELECT™ Plus engines with **Burn-Only** or **Burn With Make-Up** applications.
 
-> [!note] Примечание
-> Завершите установку электропроводки перед использованием p-зажимов или завязок для защиты электропроводки от трения.
+> [!note] Note · Примечание
+> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure the wiring harness from rubbing.
 
-Найдите и удалите проводную упряжку CentinelTM из упаковки.
+Locate and remove the Centinel™ wiring harness from the package.
 
-> [!note] Примечание
-> При подключении проводной ремни к модулю управления CentinelTM убедитесь, что блокировки разъема задействованы.
+> [!note] Note · Примечание
+> When connecting the harness to the Centinel™ control module, verify that the connector locks are engaged.
 
-Установите 12-контактный разъем к модулю управления CentinelTM.
+Install the 12-pin connector to the Centinel™ control module.
 
 ![[05100036.png]]
 
-Найдите три вилки для мониторинга масла в упаковке. *** Будет установлена только одна из вилок, в зависимости от типа масла, используемого в двигателе.
+Locate the three oil monitoring plugs in the package. **Only** one of the plugs will be installed, depending on the type of oil to be used in the engine.
 
-1. Стандартная масляная пробка для мониторинга - белый провод
-2. Продвинутая масляная пробка монитора - черный провод
-3. Сервисная вилка - красный провод.
+1. Standard oil monitoring plug - white wire
+2. Advanced oil monitor plug - black wire
+3. Service plug - red wire.
 
-> [!note] Примечание
-> Вилка службы используется для установки установленной системы CentinelTM в эксплуатацию и сброса системы после замены масла.
+> [!note] Note · Примечание
+> The service plug is used to place the installed Centinel™ system into service and to reset the system after an oil change.
 
 ![[05100038.png]]
 
-Удалите крышку от масляной контрольной пробки на проводной упряжке CentinelTM и установите соответствующую калибровочную пробку.
+Remove the cover from the oil monitoring plug on the Centinel™ wiring harness and install the appropriate calibration plug.
 
-> [!note] Примечание
-> См. процедуру[[96-018-003 — Lubricating Oil Recommendations and Specifications|018-003]]для двигателей с определенными коэффициентами смешивания.
+> [!note] Note · Примечание
+> Refer to Procedure [[96-018-003 — Lubricating Oil Recommendations and Specifications|018-003]] for engine specific blend rates.
 
 ![[05100039.png]]
 
-Маршрутируйте проводную упряжку CentinelTM к раме рельса напротив выхлопа и вперед к клапану управления маслом.
+Route the Centinel™ wiring harness to the frame rail opposite the exhaust and forward to the oil control valve.
 
-Защитите проводку от трения с помощью P-зажима и завязывания оберток.
+Secure the harness from rubbing using P-clamp and tie wraps.
 
 ![[17800019.png]]
 
-Найдите разъем с маркировкой BURN SOLENOID и соедините его с разъемом на верхней части клапана управления маслом, ведущего к ожоговому соленоиду.
+Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve leading to the burn solenoid.
 
 ![[05100041.png]]
 
-Найдите разъем с маркировкой MAKE-UP SOLENOID и соедините его с разъемом на верхней части клапана управления маслом, ведущего к соленоиду макияжа.
+Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
 
 ![[05100040.png]]
 
-> [!note] Примечание
-> Данный шаг распространяется на двигатели, оснащенные системой CELECTTM Plus **только**. Для двигателей, не относящихся к CELECTTM Plus, продолжайте следующий шаг.
+> [!note] Note · Примечание
+> This step applies to engines equipped with the CELECT™ Plus system **only**. For non-CELECT™ Plus engines, continue to the next step.
 
-Возле двигателя ECM найдите и удалите крышку из разъема шины данных CAN.
+Near the engine ECM, locate and remove the cover from the engine datalink connector.
 
-Установите разъем с маркировкой DIAGNOSTIC LAMP ENGINE CAN CONNECTOR шины данных.
+Install the connector labeled DIAGNOSTIC LAMP ENGINE DATALINK CONNECTOR.
 
 ![[05100043.png]]
 
-Пробурите 1/4-дюймовое отверстие в месте на брандмауэре моторного отсека.
+Drill a 1/4-inch hole in a location on the firewall of the engine compartment.
 
-Установите громмет, предусмотренный в комплекте, и проведите провода через него в кабину.
+Install the grommet provided in the kit and route the wires through it into the cab.
 
 ![[17800024.png]]
 
-Для двигателей, которые не имеют 6-контактного разъема шины данных CAN от ECM, необходимо установить два провода для шины данных CAN внутри кабины. Эти провода будут сплайсированы в разъем шины данных J1587 CAN. Это будут те же провода, которые направляются в шину данных CAN, обычно расположенную под приборной панелью. Найдите провода, которые ведут к этому разъему и соедините, как указано в следующей таблице:
+For engines that do **not** have a 6-pin datalink connector by the ECM, it is necessary to install two wires for the datalink inside the cab. These wires will be spliced into the J1587 datalink connector. These will be the same wires that are routed to the datalink, usually located under the dashboard. Locate the wires that lead to this connector and connect as specified in the following table:
 
-| сигнал | 8-Pin Connector | 6-Pin Connector | 2-Pin Connector |
+| Signal | 8-Pin Connector | 6-Pin Connector | 2-Pin Connector |
 |---|---|---|---|
-| CAN Data Bus (+) | Контакт 1 | Пин А | Пин А |
-| Шина данных CAN (-) | Контакт 2 | Пин Б | Пин Б |
+| Datalink (+) | Pin 1 | Pin A | Pin A |
+| Datalink (-) | Pin 2 | Pin B | Pin B |
 
 ![[05100044.png]]
 
-Сплайсируйте провода, используя приведенную выше таблицу в качестве ссылки (полярность).
+Splice the wires using the above table as a reference (polarity).
 
-Задние сплайсы предназначены для обеспечения наилучшего возможного холодного соединения суставов при правильном хромании.
+Butt-splices are designed to provide the best possible cold joint connection when properly crimped.
 
 ![[17800025.png]]
 
-> [!warning] ОСТОРОЖНО
-> Перегрев сплайса приклада может привести к повреждению провода.
+> [!warning] CAUTION · Осторожно
+> Overheating of the butt splice can lead to wire damage.
 
-Сплайсы с затылком также обеспечивают защиту от коррозии. После обжимания соединения нагрейте термоусадочную трубку тепловым пистолетом, пока термоусадочная трубка не запечатает сустав.
+Butt splices also provide protection against corrosion. After crimping the connection, heat the shrink tube with a heat gun until the shrink tube has sealed the joint.
 
 ![[17800026.png]]
 
-> [!note] Примечание
-> Очень важно, чтобы система Centinel была правильно заземлена.
+> [!note] Note · Примечание
+> It is very important that the Centinel™ system be properly grounded.
 
-Найдите черный щуп (землю) на проводной упряжке CentinelTM.
+Locate the black lead (ground) on the Centinel™ wiring harness.
 
-Соедините грунтовый свинец с грунтовым на стартере (2).
+Connect the ground lead to ground on the starter (2).
 
-Подключите красный щуп (положительный) проводов жгута к положительному посту (1) стартера соленоида.
+Connect the red lead (positive) of the harness to the positive post (1) of the starter solenoid.
 
 ![[05100046.png]]
 
-Подключите последний оставшийся провод на проводной ремне CentinelTM к положительному посту на соленоиде отключения топлива.
+Connect the last remaining wire on the Centinel™ harness to the positive post on fuel shutoff solenoid.
 
-> [!note] Примечание
-> Проверьте все проводов и сантехники, чтобы убедиться, что ваши соединения и зажимы плотные, и все компоненты защищены от трения.
+> [!note] Note · Примечание
+> Inspect all the wiring and plumbing lines to make certain your connections and clamps are tight, and all components are secured from rubbing.
 
 ![[05100053.png]]
 
-На проводной упряжке CentinelTM найдите два проводных разъёма с маркировкой LOW OIL LEVEL SENSOR. Закрепите разъем с помощью прыгунной проводов, найденной в комплекте для преобразования только для сжигания.
+On the Centinel™ wiring harness, locate the two wire connectors labeled LOW OIL LEVEL SENSOR. Cap the connector with the jumper harness found in the burn-only conversion kit.
 
-> [!note] Примечание
-> Система CentinelTM использует ту же проводку, что и стандартная система CentinelTM. Поскольку стандартная система использует масляный баллон с выключателем / датчиком низкого уровня масла, в системе только для сжигания этот датчик должен быть подпрыгнут (для имитации резервуара с адекватным масляным макияжем) для модуля управления CentinelTM для правильной работы системы.
+> [!note] Note · Примечание
+> The burn-only Centinel™ system uses the same harness as the standard Centinel™ system. As the standard system uses a make-up oil tank with a low oil level switch/sensor, in the burn-only system this sensor pickup in the harness **must** be jumped (to simulate a tank with adequate make-up oil) for the Centinel™ control module to operate the system properly.
 
 ![[07800058.png]]
 
-> [!note] Примечание
-> Проводная упряжка CentinelTM имеет длину около 20 футов. В зависимости от того, где находится модуль управления CentinelTM или ламповая коробка, может быть значительная длина избыточной электропроводки. Этот избыток следует сворачивать вместе и надежно связывать с дороги.
+> [!note] Note · Примечание
+> The Centinel™ wiring harness is about 20 feet long. Depending on where the Centinel™ control module or lamp box is located, there can be a considerable length of excess harness. This excess should be rolled together and securely tie-wrapped out of the way.
 
 ![[07800059.png]]
 
-> [!note] Примечание
-> Следующие шаги применяются к двигателям N14 PT® и STC.
+> [!note] Note · Примечание
+> The following steps apply to N14 PT® and STC engines.
 
-> [!note] Примечание
-> Завершите установку электропроводки перед использованием P-зажимов или завязок, чтобы защитить ее от трения.
+> [!note] Note · Примечание
+> Complete the installation of the wiring harness before using P-clamps or tie wraps to secure it from rubbing.
 
-Установите 28-контактный разъем на модуль управления CentinelTM.
+Install the 28-pin connector to the Centinel™ control module.
 
 ![[07100075.png]]
 
-Определите коннекторный преобразователь Tower-to-shroud. Безопасно подключите эту часть к 2-контактному клапану управления маслом соленоидного свинца.
+Identify the tower-to-shroud connector converter. Securely connect this part to the 2-pin oil control valve solenoid lead.
 
 ![[07800085.png]]
 
-Найдите разъем с маркировкой RAIL PRESSURE SENSOR и соедините его с датчиком рельса, расположенным поверх блока соединения топлива.
+Locate the connector labeled RAIL PRESSURE SENSOR, and connect it to the rail sensor located on top of the fuel connecting block.
 
 ![[07100093.png]]
 
-> [!note] Примечание
-> Очень важно, чтобы система Centinel была правильно заземлена.
+> [!note] Note · Примечание
+> It is very important that the Centinel™ system be properly grounded.
 
-> [!note] Примечание
-> Для применений, где блок двигателя электрически изолирован от отрицательного (-) аккумуляторного терминала, заземляющий блок на проводной ремне CentinelTM ** должен быть подключен к отрицательной (-) обратной линии батареи вместо крепления кронштейна, болтаемого на двигателе.
+> [!note] Note · Примечание
+> For applications where the engine block is electrically isolated from the negative (-) battery terminal, the block ground lead on the Centinel™ harness **must** be connected to the negative (-) battery return line instead of the mounting bracket bolted on the engine.
 
-Найдите черный провод упряжки грунтового свинца и прикрепите его к кронштейну клапана управления маслом.
+Locate the black harness ground lead and fasten it to the oil control valve bracket.
 
 ![[07100083.png]]
 
-Маршрутируйте электропроводку CentinelTM к масляному макияжу.
+Route the Centinel™ wiring harness to the oil make-up tank.
 
-Защитите проводку от трения с помощью P-зажимов и завязок.
+Secure the harness from rubbing using P-clamps and tie wraps.
 
 ![[17800019.png]]
 
-Найдите соединение на проводной упряжке с маркировкой LOW OIL LEVEL SENSOR и подключите его к датчику макияжа.
+Locate the connection on the wiring harness labeled LOW OIL LEVEL SENSOR and connect it to the make-up tank sensor.
 
 ![[05100037.png]]
 
-Найдите соединение с маркировкой DIAGNOSTIC LAMPS и подключите его к диагностическому лампоуборочному устройству.
+Locate the connection marked DIAGNOSTIC LAMPS and connect it to the diagnostic lamp assembly.
 
-Используйте P-зажим для крепления проводов к нефтяному баку.
+Use a P-clamp to attach the wiring to the oil tank.
 
 ![[13800034.png]]
 
-Осмотрите все проводов и сантехнические линии, чтобы убедиться, что соединения плотные, зажимы плотные, и все защищено от трения.
+Inspect all of the wiring and plumbing lines to make certain that the connections are tight, the clamps are tight, and everything is secured from rubbing.
 
-Найдите соединения с пометкой FUEL SHUTOFF SOLENOID.
+Locate the connections marked FUEL SHUTOFF SOLENOID.
 
-Маршрут и подключение проводов жгута к отключающему соленоиду топлива.
+Route and connect the harness to the fuel shutoff solenoid.
 
 ![[05100053.png]]
 
-Двигатели ISX
+ISX Engines
 
-Вставьте разъем датчика уровня масла в датчик уровня масла, установленный в масляном макияже.
+Insert the oil level sensor connector into the oil level sensor installed in the oil make-up tank.
 
-Убедитесь, что блокировки разъема задействованы.
+Verify that the connector locks are engaged.
 
 ![[05100037.png]]
 
-Батт-сплайс два 16-измерительных калибровочных провода в двух сплайсах датчика уровня масла.
+Butt-splice two 16-gauge wires in the two oil level sensor connector butt splices.
 
-Используйте тепловой пистолет или эквивалент, чтобы нагреть сплайсы приклада, чтобы уменьшить и запечатать соединения.
+Use a heat gun, or equivalent, to heat the butt splices to shrink and seal the connections.
 
 ![[17800026.png]]
 
-Проводите два провода вдоль шланга для макияжа к 31-контактному разъему OEM-интерфейса.
+Route the two wires along the make-up hose to the 31-pin OEM interface connector.
 
-Используйте предоставленные завязные обертки, чтобы закрепить шланг для макияжа и провода к раме.
+Use the provided tie wraps to secure the make-up hose and wires to the frame rail.
 
 ![[17800019.png]]
 
-Разрежьте провода до размера и прикладного уплотнения соответствующих гнездовых разъемов к 16-мерным калибровочным проводам.
+Cut the wires to size and butt-splice appropriate female socket connectors to the 16-gauge wires.
 
-> [!note] Примечание
-> Cummins, номер детали 3822921, является обычным ремонтным элементом, найденным в комплекте (-ах) ремонта проводов Cummins.
+> [!note] Note · Примечание
+> Cummins, Part Number 3822921, is a common repair item found in the Cummins harness repair kit(s).
 
 ![[07800086.png]]
 
-Отключите 31-контактный OEM-разъем. Найдите точки 24 и 25 и удалите их полости.
+Disconnect the 31-pin OEM connector. Locate pin locations 24 and 25, and remove their cavity plugs.
 
-Установите две гнездовые розетки в контакты 24 и 25.
+Install two female sockets into pins 24 and 25.
 
-> [!note] Примечание
-> Убедитесь, что розетки «защелкнуты» надежно на месте.
+> [!note] Note · Примечание
+> Make sure the sockets “snap” securely into place.
 
 ![[07800087.png]]
 
-Подключите 31-контактный OEM-разъем, убедившись, что разъем надежно заблокирован на месте.
+Connect the 31-pin OEM connector, making sure the connector is securely locked in place.
 
-Использование предоставленных завязок для защиты остальной части датчика уровня масляного макияжа приводит к тому, чтобы избежать потрескивания и убедиться, что на розетки штифта не наносится напряжение.
+Use provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and to make sure no stress is applied to the pin sockets.
 
 ![[07800088.png]]
 
-Только для горения, двигатели K19
+Burn-Only, K19 Engines
 
-> [!note] Примечание
-> Завершите установку электропроводки перед использованием p-зажимов или завязок, чтобы защитить ее от трения.
+> [!note] Note · Примечание
+> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure it from rubbing.
 
-Найдите и удалите проводную упряжку CentinelTM из упаковки.
+Locate and remove the Centinel™ wiring harness from the package.
 
-Установите 28-контактный разъем на модуль управления CentinelTM.
+Install the 28-pin connector to the Centinel™ control module.
 
-> [!tip] Момент затяжки
-> 1 Н·м [9 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 1 n•m [9 in-lb]
 
 ![[05400055.png]]
 
-Найдите разъем с маркировкой BURN SOLENOID и соедините его с разъемом на верхней части клапана управления маслом до горелого соленоида.
+Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve to the burn solenoid.
 
 ![[05100041.png]]
 
-Найдите разъем с маркировкой MAKE-UP SOLENOID и соедините его с разъемом на верхней части клапана управления маслом, ведущего к соленоиду макияжа.
+Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
 
 ![[05100040.png]]
 
-Найдите разъем с маркировкой RAIL PRESSURE SENSOR и соедините его с датчиком рельса, расположенным в верхней части топливного соединительного блока.
+Locate the connector labeled RAIL PRESSURE SENSOR and connect it to the rail sensor located on the top of the fuel connecting block.
 
 ![[05400056.png]]
 
-Используйте p-зажим, предусмотренный в комплекте для установки, чтобы прикрепить проводную упряжку к болту клапана управления нижним левым скобом.
+Use the p-clamp provided in the upfit kit to attach the harness to the bottom left bracket control valve bolt.
 
 ![[05600052.png]]
 
-> [!note] Примечание
-> Очень важно, чтобы система CentinelTM была правильно заземлена.
+> [!note] Note · Примечание
+> It is very important that the Centinel™ system is properly grounded.
 
-> [!note] Примечание
-> Для приложений, где блок двигателя электрически изолирован от отрицательного клемма батареи, заземляющий блок на проводной ремне CentinelTM должен быть подключен к отрицательной обратной линии батареи вместо крепления кронштейна, болтаемого на двигателе.
+> [!note] Note · Примечание
+> For applications where the engine block is electrically isolated from the negative battery terminal, the block ground lead on the Centinel™ harness **must** be connected to the negative battery return line instead of to the mounting bracket bolted on the engine.
 
-Найдите черный щуп на проводной упряжке CentinelTM.
+Locate the black lead on the Centinel™ wiring harness.
 
-Используйте болт 1/4-20 для заземления свинца на неокрашенном 1/4-дюймовом резьбовом отверстии на монтажном скобке.
+Use a 1/4-20 bolt to ground the lead to the unpainted 1/4-inch threaded hole on the mounting bracket.
 
-> [!tip] Момент затяжки
-> 9 Н·м [80 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 9 n•m [80 in-lb]
 
 ![[05600055.png]]
 
-На проводной упряжке CentinelTM найдите два проводных разъёма с маркировкой LOW OIL LEVEL SENSOR. Закрепите разъем с помощью прыгунной проводов, найденной в комплекте для преобразования только для сжигания.
+On the Centinel™ wiring harness, locate the two wire connectors labeled LOW OIL LEVEL SENSOR. Cap the connector with the jumper harness found in the burn-only conversion kit.
 
-> [!note] Примечание
-> Система CentinelTM использует ту же проводку, что и стандартная система CentinelTM. Поскольку стандартная система использует масляный баллон с выключателем / датчиком низкого уровня масла, в системе только для сжигания этот датчик должен быть подпрыгнут (для имитации резервуара с адекватным масляным макияжем) для модуля управления CentinelTM для правильной работы системы.
+> [!note] Note · Примечание
+> The burn-only Centinel™ system uses the same harness as the standard Centinel™ system. As the standard system uses a make-up oil tank with a low oil level switch/sensor, in the burn-only system this sensor pickup in the harness **must** be jumped (to simulate a tank with adequate make-up oil) for the Centinel™ control module to operate the system properly.
 
 ![[07800058.png]]
 
-Необходимо будет выбрать место для установки высокопроизводительной диагностической лампы (которая обычно устанавливается в бак). Расположение светильника CentinelTM должно обеспечивать видимость диагностических ламп для операторов и обслуживающего персонала.
+It will be necessary to choose a location for mounting the high-horsepower diagnostic lamp box (which is normally tank mounted). Location of the Centinel™ lamp box should provide visibility of the diagnostic lamps to operators and maintenance personnel.
 
-Рекомендуемые места включают:
+Recommended locations include:
 
-- Внутри кабины
-- На раме рельс
-- На задней части кабины.
+- Inside the cab
+- On the frame rail
+- On the rear of the cab.
 
-> [!note] Примечание
-> **Не** монтировать высокопроизводительную диагностическую ламповую коробку под капотом или в моторном отсеке. Ламповая коробка CentinelTM **не** предназначена (или покрывается гарантией) для температур моторного отсека.
+> [!note] Note · Примечание
+> Do **not** mount the high-horsepower diagnostic lamp box under the hood or in the engine compartment. The Centinel™ lamp box is **not** designed (or covered by warranty) for engine compartment temperatures.
 
 ![[nobox.png]]
 
-> [!note] Примечание
-> Проводная упряжка CentinelTM имеет длину около 20 футов. В зависимости от того, где находится модуль управления CentinelTM или ламповая коробка, может быть значительная длина избыточной электропроводки. Этот избыток следует сворачивать вместе и надежно связывать с дороги.
+> [!note] Note · Примечание
+> The Centinel™ wiring harness is about 20 feet long. Depending on where the Centinel™ control module or lamp box is located, there can be a considerable length of excess harness. This excess should be rolled together and securely tie-wrapped out of the way.
 
 ![[07800059.png]]
 
-Сжигание с помощью двигателей K19
+Burn With Make-Up, K19 Engines
 
-> [!note] Примечание
-> Завершите установку электропроводки перед использованием p-зажимов или завязок, чтобы защитить ее от трения.
+> [!note] Note · Примечание
+> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure it from rubbing.
 
-Найдите и удалите проводную упряжку CentinelTM из упаковки.
+Locate and remove the Centinel™ wiring harness from the package.
 
-Установите 28-контактный разъем на модуль управления CentinelTM.
+Install the 28-pin connector to the Centinel™ control module.
 
-> [!tip] Момент затяжки
-> 1 Н·м [9 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 1 n•m [9 in-lb]
 
 ![[05400055.png]]
 
-Найдите разъем с маркировкой BURN SOLENOID и соедините его с разъемом на верхней части клапана управления маслом до горелого соленоида.
+Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve to the burn solenoid.
 
 ![[05100041.png]]
 
-Найдите разъем с маркировкой MAKE-UP SOLENOID и соедините его с разъемом на верхней части клапана управления маслом, ведущего к соленоиду макияжа.
+Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
 
 ![[05100040.png]]
 
-Найдите разъем с маркировкой RAIL PRESSURE SENSOR и соедините его с датчиком рельса, расположенным в верхней части топливного соединительного блока.
+Locate the connector labeled RAIL PRESSURE SENSOR and connect it to the rail sensor located on the top of the fuel connecting block.
 
 ![[05400056.png]]
 
-Используйте p-зажим, предусмотренный в комплекте для установки, чтобы прикрепить проводную упряжку к нижней левой кронштейну для управления болтом клапана.
+Use the p-clamp provided in the upfit kit to attach the harness to the bottom left bracket to control valve bolt.
 
 ![[05600052.png]]
 
-> [!note] Примечание
-> Очень важно, чтобы система Centinel была правильно заземлена.
+> [!note] Note · Примечание
+> It is very important that the Centinel™ system be properly grounded.
 
-> [!note] Примечание
-> Для приложений, где блок двигателя электрически изолирован от отрицательного клемма батареи, заземляющий блок на проводной ремне CentinelTM должен быть подключен к отрицательной обратной линии батареи вместо крепления кронштейна, болтаемого на двигателе.
+> [!note] Note · Примечание
+> For applications where the engine block is electrically isolated from the negative battery terminal, the block ground lead on the Centinel™ harness **must** be connected to the negative battery return line instead of to the mounting bracket bolted on the engine.
 
-Найдите черный щуп на проводной упряжке CentinelTM.
+Locate the black lead on the Centinel™ wiring harness.
 
-Используйте болт 1/4-20 для заземления свинца на неокрашенном 1/4-дюймовом резьбовом отверстии на монтажном скобке.
+Use a 1/4-20 bolt to ground the lead to the unpainted 1/4-inch threaded hole on the mounting bracket.
 
-> [!tip] Момент затяжки
-> 9 Н·м [80 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 9 n•m [80 in-lb]
 
 ![[05600055.png]]
 
-Маршрутируйте электропроводку CentinelTM к масляному макияжу. Защитите проводку от трения с помощью p-зажимов и завязок.
+Route the Centinel™ wiring harness to the oil make-up tank. Secure the harness from rubbing using p-clamps and tie-wraps.
 
 ![[17800019.png]]
 
-Найдите соединение на проводной упряжке с маркировкой LOW OIL LEVEL SENSOR и подключите его к датчику макияжа.
+Locate the connection on the wiring harness labeled LOW OIL LEVEL SENSOR and connect it to the make-up tank sensor.
 
 ![[05100037.png]]
 
-Найдите соединение с маркировкой DIAGNOSTIC LAMPS и подключите его к диагностическому лампоуборочному устройству.
+Locate the connection marked DIAGNOSTIC LAMPS and connect it to the diagnostic lamp assembly.
 
-Используйте p-зажим из комплекта для установки проводов на нефтяной бак.
+Use a p-clamp from the upfit kit to attach the wiring to the oil tank.
 
 ![[13800034.png]]
 
-> [!note] Примечание
-> Проверьте все проводов и сантехники, чтобы убедиться, что ваши соединения плотные, зажимы плотные, и все защищено от трения.
+> [!note] Note · Примечание
+> Inspect all the wiring and plumbing lines to make sure your connections are tight, clamps are tight, and everything is secured from rubbing.
 
-Найдите соединения с пометкой FUEL SHUTOFF SOLENOID. Маршрут и подключение проводов жгута к отключающему соленоиду топлива.
+Locate the connections marked FUEL SHUTOFF SOLENOID. Route and connect the harness to the fuel shutoff solenoid.
 
 ![[05100053.png]]
 
-Двигатели K38 и K50 Burn-Only
+Burn-Only, K38 and K50 Engines
 
-> [!note] Примечание
-> Завершите установку электропроводки перед использованием p-зажимов или завязок, чтобы защитить ее от трения.
+> [!note] Note · Примечание
+> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure it from rubbing.
 
-Найдите и удалите проводную упряжку CentinelTM из упаковки.
+Locate and remove the Centinel™ wiring harness from the package.
 
-Установите 28-контактный разъем на модуль управления CentinelTM.
+Install the 28-pin connector to the Centinel™ control module.
 
-> [!tip] Момент затяжки
-> 1 Н·м [9 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 1 n•m [9 in-lb]
 
 ![[05400055.png]]
 
-Найдите разъем с маркировкой BURN SOLENOID и соедините его с разъемом на верхней части клапана управления маслом до горелого соленоида.
+Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve to the burn solenoid.
 
 ![[05100041.png]]
 
-Найдите разъем с маркировкой MAKE-UP SOLENOID и соедините его с разъемом на верхней части клапана управления маслом с соленоидом макияжа.
+Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve to the make-up solenoid.
 
 ![[05100040.png]]
 
-Найдите разъем с маркировкой RAIL PRESSURE SENSOR и соедините его с датчиком рельса, расположенным в верхней части топливного соединительного блока.
+Locate the connector labeled RAIL PRESSURE SENSOR and connect it to the rail sensor located on the top of the fuel connecting block.
 
 ![[05400056.png]]
 
-Используйте p-зажим, предусмотренный в комплекте для установки, чтобы прикрепить проводную упряжку к нижней левой кронштейну для управления болтом клапана.
+Use the p-clamp provided in the upfit kit to attach the harness to the bottom left bracket to control valve bolt.
 
 ![[05600052.png]]
 
-> [!note] Примечание
-> Очень важно, чтобы система Centinel была правильно заземлена.
+> [!note] Note · Примечание
+> It is very important that the Centinel™ system be properly grounded.
 
-Найдите черный щуп на проводной упряжке CentinelTM.
+Locate the black lead on the Centinel™ wiring harness.
 
-Используйте болт 1/4-20 для заземления свинца на неокрашенном 1/4-дюймовом резьбовом отверстии на монтажном скобке.
+Use a 1/4-20 bolt to ground the lead to the unpainted 1/4-inch threaded hole on the mounting bracket.
 
-> [!tip] Момент затяжки
-> 9 Н·м [80 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 9 n•m [80 in-lb]
 
 ![[05600055.png]]
 
-На проводной упряжке CentinelTM найдите два проводных разъёма с маркировкой LOW OIL LEVEL SENSOR. Закрепите разъем с помощью прыгунной проводов, найденной в комплекте для преобразования только для сжигания.
+On the Centinel™ wiring harness, locate the two wire connectors labeled LOW OIL LEVEL SENSOR. Cap the connector with the jumper harness found in the burn-only conversion kit.
 
-> [!note] Примечание
-> Система CentinelTM использует ту же проводку, что и стандартная система CentinelTM. Поскольку стандартная система использует масляный баллон с выключателем / датчиком низкого уровня масла, в системе только для сжигания этот датчик должен быть подпрыгнут (для имитации резервуара с адекватным масляным макияжем) для модуля управления CentinelTM для правильной работы системы.
+> [!note] Note · Примечание
+> The burn-only Centinel™ system uses the same harness as the standard Centinel™ system. As the standard system uses a make-up oil tank with a low oil level switch/sensor, in the burn-only system this sensor pickup in the harness **must** be jumped (to simulate a tank with adequate make-up oil) for the Centinel™ control module to operate the system properly.
 
 ![[07800058.png]]
 
-Необходимо будет выбрать место для установки высокопроизводительной диагностической лампы (которая обычно устанавливается в бак). Расположение светильника CentinelTM должно обеспечивать видимость диагностических ламп для операторов и обслуживающего персонала.
+It will be necessary to choose a location for mounting the high-horsepower diagnostic lamp box (which is normally tank mounted). Location of the Centinel™ lamp box should provide visibility of the diagnostic lamps to operators and maintenance personnel.
 
-Рекомендуемые места включают:
+Recommended locations include:
 
-- Внутри кабины
-- На раме рельс
-- На задней части кабины.
+- Inside the cab
+- On the frame rail
+- On the rear of the cab.
 
-> [!note] Примечание
-> **Не** монтировать высокопроизводительную диагностическую ламповую коробку под капотом или в моторном отсеке. Ламповая коробка CentinelTM **не** предназначена (или покрывается гарантией) для температур моторного отсека.
+> [!note] Note · Примечание
+> Do **not** mount the high-horsepower diagnostic lamp box under the hood or in the engine compartment. The Centinel™ lamp box is **not** designed (or covered by warranty) for engine compartment temperatures.
 
 ![[nobox.png]]
 
-> [!note] Примечание
-> Проводная упряжка CentinelTM имеет длину около 20 футов. В зависимости от того, где находится модуль управления CentinelTM или ламповая коробка, может быть значительная длина избыточной электропроводки. Этот избыток следует сворачивать вместе и надежно связывать с дороги.
+> [!note] Note · Примечание
+> The Centinel™ wiring harness is about 20 feet long. Depending on where the Centinel™ control module or lamp box is located, there can be a considerable length of excess harness. This excess should be rolled together and securely tie-wrapped out of the way.
 
 ![[07800059.png]]
 
-Сжигание с помощью двигателей K38, K50 и Make-Up
+Burn With Make-Up, K38 and K50 Engines
 
-> [!note] Примечание
-> Завершите установку электропроводки перед использованием p-зажимов или завязок, чтобы защитить ее от трения.
+> [!note] Note · Примечание
+> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure it from rubbing.
 
-Найдите и удалите проводную упряжку CentinelTM из упаковки.
+Locate and remove the Centinel™ wiring harness from the package.
 
-Установите 28-контактный разъем на модуль управления CentinelTM.
+Install the 28-pin connector to the Centinel™ control module.
 
-> [!tip] Момент затяжки
-> 1 Н·м [9 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 1 n•m [9 in-lb]
 
 ![[05400055.png]]
 
-Найдите разъем с маркировкой BURN SOLENOID и соедините его с разъемом на верхней части клапана управления маслом, ведущего к ожоговому соленоиду.
+Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve leading to the burn solenoid.
 
 ![[05100041.png]]
 
-Найдите разъем с маркировкой MAKE-UP SOLENOID и соедините его с разъемом на верхней части клапана управления маслом с соленоидом макияжа.
+Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve to the make-up solenoid.
 
 ![[05100040.png]]
 
-Найдите разъем с маркировкой RAIL PRESSURE SENSOR и соедините его с датчиком рельса, расположенным в верхней части топливного соединительного блока.
+Locate the connector labeled RAIL PRESSURE SENSOR and connect it to the rail sensor located on the top of the fuel connecting block.
 
 ![[05400056.png]]
 
-Используйте p-зажим, предусмотренный в комплекте для установки, чтобы прикрепить проводную упряжку к нижней левой кронштейну для управления болтом клапана.
+Use the p-clamp provided in the upfit kit to attach the harness to the bottom left bracket to control valve bolt.
 
 ![[05600052.png]]
 
-> [!note] Примечание
-> Очень важно, чтобы система Centinel была правильно заземлена.
+> [!note] Note · Примечание
+> It is very important that the Centinel™ system be properly grounded.
 
-Найдите черный щуп на проводной упряжке CentinelTM.
+Locate the black lead on the Centinel™ wiring harness.
 
-Используйте болт 1/4-20 для заземления свинца на неокрашенном 1/4-дюймовом резьбовом отверстии на монтажном скобке.
+Use a 1/4-20 bolt to ground the lead to the unpainted 1/4-inch threaded hole on the mounting bracket.
 
-> [!tip] Момент затяжки
-> 9 Н·м [80 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 9 n•m [80 in-lb]
 
 ![[05600055.png]]
 
-Маршрутируйте электропроводку CentinelTM к масляному макияжу. Защитите проводку от трения с помощью p-зажимов и завязок.
+Route the Centinel™ wiring harness to the oil make-up tank. Secure the harness from rubbing using p-clamps and tie wraps.
 
 ![[17800019.png]]
 
-Найдите соединение на проводной упряжке с маркировкой MAKE-UP TANK SENSOR и подключите его к датчику макияжа.
+Locate the connection on the wiring harness labeled MAKE-UP TANK SENSOR and connect it to the make-up tank sensor.
 
 ![[05100037.png]]
 
-Найдите соединение с маркировкой DIAGNOSTIC LAMPS и подключите его к диагностическому лампоуборочному устройству.
+Locate the connection marked DIAGNOSTIC LAMPS and connect it to the diagnostic lamp assembly.
 
-Используйте p-зажим из комплекта для установки проводов на нефтяной бак.
+Use a p-clamp from the upfit kit to attach the wiring to the oil tank.
 
 ![[13800034.png]]
 
-> [!note] Примечание
-> Проверьте все проводов и сантехники, чтобы убедиться, что ваши соединения плотные, зажимы плотные, и все защищено от трения.
+> [!note] Note · Примечание
+> Inspect all the wiring and plumbing lines to make sure your connections are tight, clamps are tight, and everything is secured from rubbing.
 
-Найдите соединения с пометкой FUEL SHUTOFF SOLENOID. Маршрут и подключение проводов жгута к отключающему соленоиду топлива.
+Locate the connections marked FUEL SHUTOFF SOLENOID. Route and connect the harness to the fuel shutoff solenoid.
 
 ![[05100053.png]]
 
-Двигатели QSK45 и QSK60
+Burn-Only, QSK45 and QSK60 Engines
 
-Установите прыгунную проводку CentinelTM между ремнем (6-контактный разъем) и управляющим клапаном соленоид (2-контактный разъем).
+Install the Centinel™ jumper harness between the engine harness (6-pin connector) and the control valve solenoid (2-pin connector).
 
-Убедитесь, что блокировки разъема задействованы.
+Verify that the connector locks are engaged.
 
-> [!note] Примечание
-> Для сжигания только контакты 23 и 30 из 31-контактного OEM-разъема ** должны быть подпрыгиваны для имитации адекватного масла, доступного в макияжном баке, даже если есть **no** макияжный бак.
+> [!note] Note · Примечание
+> For burn-only, pins 23 and 30 of the 31-pin OEM connector **must** be jumped to simulate adequate oil is available in the make-up tank, even though there is **no** make-up tank.
 
 ![[07800085.png]]
 
-> [!note] Примечание
-> Сделайте прыгунную проволоку, сплайсируя соответствующие гнездовые разъемы, номер детали 3822921, с проволокой измерительной ширины № 16. Части 3822921 Cummins являются обычным ремонтным элементом, найденным в комплекте (-ах) ремонта проводной упряжки Cummins.
+> [!note] Note · Примечание
+> Make a jumper wire by splicing the appropriate female socket connectors, Part Number 3822921, to a number 16 gauge wire. Cummins Part Number 3822921 is a common repair item found in the Cummins harness repair kit(s).
 
-Отключите 31-контактный OEM-разъем. Найдите точки 23 и 30 и удалите их полости.
+Disconnect the 31-pin OEM connector. Locate pin locations 23 and 30 and remove their cavity plugs.
 
-Установите две гнездовые розетки прыгуна в контакты 23 и 30.
+Install the two female sockets of the jumper wire into pins 23 and 30.
 
-> [!note] Примечание
-> Убедитесь, что розетки «защелкнуты» надежно на месте.
+> [!note] Note · Примечание
+> Make certain the sockets "snap" securely into place.
 
 ![[07800089.png]]
 
-Подключите 31-контактный OEM-разъем, чтобы убедиться, что разъем надежно заблокирован на месте.
+Connect the 31-pin OEM connector making certain the connector is securely locked in place.
 
-Использование предоставленных завязок для защиты остальной части датчика уровня масляного макияжа приводит к тому, что избегайте потрескивания и убедитесь, что на розетки штифта не наносится напряжение.
+Use provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and making certain there is no stress applied to the pin sockets.
 
 ![[07800175.png]]
 
-Правильно переустановить все оборудование Cummins или клиентского оборудования, которое было удалено или перемещено.
+Properly reinstall any Cummins or customer hardware that was removed or relocated.
 
 ![[nobox.png]]
 
-Сжигание с помощью двигателей QSK45 и QSK60
+Burn With Make-Up, QSK45 and QSK60 Engines
 
-Установите прыгунную проводку CentinelTM между ремнем (6-контактный разъем) и управляющим клапаном соленоид (2-контактный разъем).
+Install the Centinel™ jumper harness between the engine harness (6-pin connector) and the control valve solenoid (2-pin connector).
 
-Убедитесь, что блокировки разъема задействованы.
+Verify that the connector locks are engaged.
 
 ![[07800085.png]]
 
-Вставьте разъем датчика уровня масла в датчик уровня масла, установленный в масляном макияже.
+Insert the oil level sensor connector into the oil level sensor installed in the oil make-up tank.
 
-Убедитесь, что блокировки разъема задействованы.
+Verify that the connector locks are engaged.
 
 ![[05100037.png]]
 
-Задница-разрез два 16-мерных калибровочных провода (**не** меблированные) в двух сплайсах датчика уровня масла.
+Butt-splice two number 16-gauge wires (**not** furnished) in the two oil level sensor connector butt splices.
 
-Используйте тепловой пистолет или эквивалент, чтобы нагреть сплайсы приклада, чтобы уменьшить и запечатать соединения.
+Use a heat gun, or equivalent, to heat the butt splices to shrink and seal the connections.
 
-Используйте предоставленные завязные обертки, чтобы закрепить два провода в шланге для макияжа, убедившись, что на подкладки и разъем датчика наложена нагрузка * * * *.
+Use the provided tie wraps to secure the two wires to the make-up hose, making certain there is **no** stress applied to the butt-splices and sensor connector.
 
 ![[17800026.png]]
 
-Проводите два провода вдоль шланга для макияжа к 31-контактному разъему OEM-интерфейса.
+Route the two wires along the make-up hose to the 31-pin OEM interface connector.
 
-Используйте предоставленные галстуковые обертки для закрепления грима и проводов к раме рельса.
+Use provided tie wraps to secure the make-up hose and wires to the frame rail.
 
 ![[17800019.png]]
 
-Разрежьте провода до размера и соответствующих гнездовых разъемов, номер детали 3822921 (**не** меблированная), до 16-мерных калибровочных проводов.
+Cut the wires to size and butt-splice appropriate female socket connectors, Part Number 3822921 (**not** furnished), to the number 16-gauge wires.
 
-> [!note] Примечание
-> Части 3822921 Cummins являются обычным ремонтным элементом, найденным в комплекте (-ах) ремонта проводной упряжки Cummins.
+> [!note] Note · Примечание
+> Cummins Part Number 3822921 is a common repair item found in the Cummins harness repair kit(s).
 
 ![[07800086.png]]
 
-Отключите 31-контактный OEM-разъем. Найдите точки 23 и 30 и удалите их полости.
+Disconnect the 31-pin OEM connector. Locate pin locations 23 and 30 and remove their cavity plugs.
 
-Установите две гнездовые розетки в контакты 23 и 30.
+Install the two female sockets into pins 23 and 30.
 
-> [!note] Примечание
-> Убедитесь, что розетки «защелкнуты» надежно на месте.
+> [!note] Note · Примечание
+> Make certain the sockets "snap" securely into place.
 
 ![[07800087.png]]
 
-Подключите OEM 31-контактный разъем, чтобы убедиться, что разъем надежно заблокирован на месте.
+Connect the OEM 31-pin connector making certain the connector is securely locked in place.
 
-Использование предоставленных завязок для защиты остальной части датчика уровня масляного макияжа приводит к тому, что избегайте потрескивания и убедитесь, что на розетки штифта не наносится напряжение.
+Use provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and making certain there is no stress applied to the pin sockets.
 
 ![[07800088.png]]
 
-Правильно переустановить все оборудование Cummins или клиентского оборудования, которое было удалено или перемещено.
+Properly reinstall any Cummins or customer hardware that was removed or relocated.
 
 ![[nobox.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Install
->
-> Burn-Only, L and M Series Engines
->
-> It will be necessary to choose a location for mounting the heavy-duty Centinel™ control module. Location of the Centinel™ control module should provide visibility of the diagnostic lamps to operators and maintenance personnel.
->
-> Recommended locations include:
->
-> - Inside the cab
-> - On the frame rail
-> - On the rear of the cab.
->
-> **Note · Примечание**
-> Do **not** mount the Heavy-Duty Centinel™ control module under the hood or in the engine compartment. The Centinel™ control module is **not** designed (or covered by warranty) for engine compartment temperatures.
->
-> **Note · Примечание**
-> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure the wiring harness from rubbing.
->
-> Locate and remove the Centinel™ wiring harness from the package.
->
-> **Note · Примечание**
-> When connecting the harness to the Centinel™ control module, verify that the connector locks are engaged.
->
-> Install the 12-pin connector to the Centinel™ control module.
->
-> Locate the three oil monitoring plugs in the package. **Only** one of the plugs will be installed, depending on the type of oil to be used in the engine.
->
-> 1. Standard oil monitoring plug - white wire
-> 2. Advanced oil monitor plug - black wire
-> 3. Service plug - red wire.
->
-> **Note · Примечание**
-> The service plug is used to place the installed Centinel™ system into service and to reset the system after an oil change.
->
-> Remove the cover from the oil monitoring plug on the Centinel™ wiring harness and install the appropriate calibration plug.
->
-> Install the appropriate calibration plug.
->
-> **Note · Примечание**
-> Refer to Procedure [[96-018-003 — Lubricating Oil Recommendations and Specifications|018-003]] for engine specific blend rates.
->
-> Route the Centinel™ wiring harness to the frame rail opposite the exhaust and forward to the oil control valve.
->
-> Secure the harness from rubbing using P-clamp and tie wraps.
->
-> Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve leading to the burn solenoid.
->
-> Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
->
-> **Note · Примечание**
-> This step applies to engines equipped with the CELECT™ Plus system **only**. For non-CELECT™ Plus engines, continue to the next step.
->
-> Near the engine ECM, locate and remove the cover from the engine datalink connector.
->
-> Install the connector labeled DIAGNOSTIC LAMP ENGINE DATALINK CONNECTOR.
->
-> Drill a 1/4-inch hole in a location on the firewall of the engine compartment.
->
-> Install the grommet provided in the kit and route the wires through it and into the cab.
->
-> For engines that do **not** have a 6-pin datalink connector by the ECM, it is necessary to install two wires for the datalink inside the cab. These wires will be spliced into the J1587 datalink connector. These will be the same wires that are routed to the datalink, usually located under the dashboard. Locate the wires that lead to this connector and connect as specified in the following table:
->
-> | Signal | 8-Pin Connector | 6-Pin Connector | 2-Pin Connector |
-> |---|---|---|---|
-> | Datalink (+) | Pin 1 | Pin A | Pin A |
-> | Datalink (-) | Pin 2 | Pin B | Pin B |
->
-> Splice the wires using the above table as a reference (polarity).
->
-> Butt splices are designed to provide the best possible cold joint connection when properly crimped.
->
-> **CAUTION · Осторожно**
-> Overheating of the butt splice can lead to wire damage.
->
-> Butt splices also provide protection against corrosion. After crimping the connection, heat the shrink tube with a heat gun until the shrink tube has sealed the joint.
->
-> **Note · Примечание**
-> It is very important that the Centinel™ system be properly grounded.
->
-> Locate the black lead (ground) on the Centinel™ wiring harness.
->
-> Connect the ground lead to ground on the starter (2).
->
-> Connect the red lead (positive) of the harness to the positive post (1) of the starter solenoid.
->
-> Connect the last remaining wire on the Centinel™ harness to the positive post on fuel shutoff solenoid.
->
-> **Note · Примечание**
-> Inspect all the wiring and plumbing lines to make certain your connections and clamps are tight, and all components are secured from rubbing.
->
-> On the Centinel™ wiring harness, locate the two wire connectors labeled LOW OIL LEVEL SENSOR. Cap the connector with the jumper harness found in the burn-only conversion kit.
->
-> **Note · Примечание**
-> The burn-only Centinel™ system uses the same harness as the standard Centinel™ system. As the standard system uses a make-up oil tank with a low oil level switch/sensor, in the burn-only system this sensor pickup in the harness **must** be jumped (to simulate a tank with adequate make-up oil) for the Centinel™ control module to operate the system properly.
->
-> **Note · Примечание**
-> The Centinel™ wiring harness is about 20 feet long. Depending on where the Centinel™ control module or lamp box is located, there can be a considerable length of excess harness. This excess **must** be rolled together and securely tie-wrapped out of the way.
->
-> Burn With Make-Up, L and M Series Engines
->
-> **Note · Примечание**
-> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure the wiring harness from rubbing.
->
-> Locate and remove the Centinel™ wiring harness from the package.
->
-> **Note · Примечание**
-> When connecting the harness to the Centinel™ control module, verify that the connector locks are engaged.
->
-> Install the 12-pin connector to the Centinel™ control module.
->
-> Use p-clamps to secure the harness to the make-up oil tank.
->
-> Locate the connection on the wiring harness labeled MAKE-UP TANK sensor and connect it to the make-up tank sensor.
->
-> Locate the three oil calibration plugs in the package. **Only** one of the plugs will be installed, depending on the type of oil to be used in the engine.
->
-> 1. Standard oil monitoring plug - white wire
-> 2. Advanced oil monitor plug - black wire
-> 3. Service plug - red wire.
->
-> **Note · Примечание**
-> The service plug is used to place the installed Centinel™ system into service and to reset the system after an oil change.
->
-> Remove the cover from the oil monitoring plug on the Centinel™ wiring harness and install the appropriate calibration plug.
->
-> **Note · Примечание**
-> Refer to Procedure [[96-018-003 — Lubricating Oil Recommendations and Specifications|018-003]] for engine specific blend rates.
->
-> Route the Centinel™ wiring harness to the frame rail opposite the exhaust and forward to the oil control valve.
->
-> Secure the harness from rubbing using P-clamp and tie wraps.
->
-> Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve leading to the burn solenoid.
->
-> Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
->
-> **Note · Примечание**
-> This step applies to engines equipped with the CELECT™ Plus system **only**. For non-CELECT™ Plus engines, continue to the next step.
->
-> Near the engine ECM, locate and remove the cover from the engine datalink connector.
->
-> Install the connector labeled DIAGNOSTIC LAMP ENGINE DATALINK CONNECTOR.
->
-> Drill a 1/4-inch hole in a location on the firewall of the engine compartment.
->
-> Install the grommet provided in the kit and route the wires through it into the cab.
->
-> For engines that do **not** have a 6-pin datalink connector by the ECM, it is necessary to install two wires for the datalink inside the cab. These wires will be spliced into the J1587 datalink connector. These will be the same wires that are routed to the datalink, usually located under the dashboard. Locate the wires that lead to this connector and connect as specified in the following table:
->
-> | Signal | 8-Pin Connector | 6-Pin Connector | 2-Pin Connector |
-> |---|---|---|---|
-> | Datalink (+) | Pin 1 | Pin A | Pin A |
-> | Datalink (-) | Pin 2 | Pin B | Pin B |
->
-> Splice the wires using the above table as a reference (polarity).
->
-> Butt splices are designed to provide the best possible cold joint connection when properly crimped.
->
-> **CAUTION · Осторожно**
-> Overheating of the butt splice can lead to wire damage.
->
-> Butt splices also provide protection against corrosion. After crimping the connection, heat the shrink tube with a heat gun until the shrink tube has sealed the joint.
->
-> **Note · Примечание**
-> It is very important that the Centinel™ system be properly grounded.
->
-> Locate the black lead (ground) on the Centinel™ wiring harness.
->
-> Connect the ground lead to ground on the starter (2).
->
-> Connect the red lead (positive) of the harness to the positive post (1) of the starter solenoid.
->
-> Connect the last remaining wire on the Centinel™ harness to the positive post on fuel shutoff solenoid.
->
-> **Note · Примечание**
-> Inspect all the wiring and plumbing lines to make certain your connections and clamps are tight, and all components are secured from rubbing.
->
-> Burn-Only, ISM Engines
->
-> Install the Centinel™ jumper harness between the engine harness (6-pin connector) and the control valve solenoid (2-pin connector).
->
-> Verify that the connector locks are engaged.
->
-> **Note · Примечание**
-> For burn-only, pins 24 and 25 of the 31-pin OEM connector **must** be jumped to simulate adequate oil is available in the make-up tank, even though there is **no** make-up tank.
->
-> Locate the jumper wiring harness in the burn-only valve and mounting or conversion kit.
->
-> Locate the 31-pin OEM interface connector on the side of the engine block.
->
-> Disconnect the 31-pin OEM connector. Locate pins 24 and 25 in the OEM interface connector, and remove the connector cavity plugs in the 24- and 25-pin locations.
->
-> Install the two female sockets of the jumper harness (supplied in the kit) into pins 24 and 25.
->
-> **Note · Примечание**
-> Make certain the sockets "snap" solidly into place.
->
-> Reconnect the OEM 31-pin connector, making absolutely certain the connector is solidly locked in place.
->
-> Use provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and to make sure **no** stress is applied to the pin sockets.
->
-> Properly reinstall any Cummins or customer hardware that was removed or relocated because of interference.
->
-> Burn With Make-Up, ISM Engines
->
-> Install the Centinel™ jumper harness between the engine harness (6-pin connector) and the control valve solenoid (2-pin connector).
->
-> Verify that the connector locks are engaged.
->
-> Insert the oil level sensor connector into the oil level sensor installed in the oil make-up tank.
->
-> Verify that the connector locks are engaged.
->
-> Butt-splice two number 16-gauge wires (**not** furnished with the kit) in the two oil level sensor connector butt splices.
->
-> Use a heat gun, or equivalent, to heat the butt splices to shrink and seal the connections.
->
-> Route the two wires along the make-up hose to the 31-pin OEM interface connector.
->
-> Use the provided tie wraps to secure the make-up hose and wires to the frame rail.
->
-> Cut the wires to size and butt-splice appropriate female socket connectors (Cummins Part Number 3822921 - **not** furnished with the kit) to the number 16-gauge wires.
->
-> **Note · Примечание**
-> Cummins Part Number 3822921 is a common repair item found in the Cummins harness repair kit(s).
->
-> Disconnect the 31-pin OEM connector. Locate pin locations 24 and 25 and remove their cavity plugs.
->
-> Install the two female sockets into pins 24 and 25.
->
-> **Note · Примечание**
-> Make sure the sockets "snap" securely into place.
->
-> Connect the 31-pin OEM connector, making sure the connector is securely locked in place.
->
-> Use the provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and to make sure no stress is applied to the pin sockets.
->
-> Properly reinstall any Cummins or customer hardware that was removed or relocated as interference.
->
-> N14 Engines
->
-> **Note · Примечание**
-> The following step is for N14 CELECT™ and CELECT™ Plus engines with **Burn-Only** applications.
->
-> It will be necessary to choose a location for mounting the heavy-duty Centinel™ control module. Location of the Centinel™ control module should provide visibility of the diagnostic lamps to operators and maintenance personnel.
->
-> Recommended locations include:
->
-> - Inside the cab
-> - On the frame rail
-> - On the rear of the cab.
->
-> **Note · Примечание**
-> Do **not** mount the heavy-duty Centinel™ control module under the hood or in the engine compartment. The Centinel™ control module is **not** designed (or covered by warranty) for engine compartment temperatures.
->
-> Use p-clamps to secure the harness to the make-up oil tank.
->
-> Locate and connect the connection on the wiring harness labeled LOW OIL LEVEL SENSOR.
->
-> **Note · Примечание**
-> The following steps are for N14 CELECT™ and CELECT™ Plus engines with **Burn-Only** or **Burn With Make-Up** applications.
->
-> **Note · Примечание**
-> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure the wiring harness from rubbing.
->
-> Locate and remove the Centinel™ wiring harness from the package.
->
-> **Note · Примечание**
-> When connecting the harness to the Centinel™ control module, verify that the connector locks are engaged.
->
-> Install the 12-pin connector to the Centinel™ control module.
->
-> Locate the three oil monitoring plugs in the package. **Only** one of the plugs will be installed, depending on the type of oil to be used in the engine.
->
-> 1. Standard oil monitoring plug - white wire
-> 2. Advanced oil monitor plug - black wire
-> 3. Service plug - red wire.
->
-> **Note · Примечание**
-> The service plug is used to place the installed Centinel™ system into service and to reset the system after an oil change.
->
-> Remove the cover from the oil monitoring plug on the Centinel™ wiring harness and install the appropriate calibration plug.
->
-> **Note · Примечание**
-> Refer to Procedure [[96-018-003 — Lubricating Oil Recommendations and Specifications|018-003]] for engine specific blend rates.
->
-> Route the Centinel™ wiring harness to the frame rail opposite the exhaust and forward to the oil control valve.
->
-> Secure the harness from rubbing using P-clamp and tie wraps.
->
-> Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve leading to the burn solenoid.
->
-> Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
->
-> **Note · Примечание**
-> This step applies to engines equipped with the CELECT™ Plus system **only**. For non-CELECT™ Plus engines, continue to the next step.
->
-> Near the engine ECM, locate and remove the cover from the engine datalink connector.
->
-> Install the connector labeled DIAGNOSTIC LAMP ENGINE DATALINK CONNECTOR.
->
-> Drill a 1/4-inch hole in a location on the firewall of the engine compartment.
->
-> Install the grommet provided in the kit and route the wires through it into the cab.
->
-> For engines that do **not** have a 6-pin datalink connector by the ECM, it is necessary to install two wires for the datalink inside the cab. These wires will be spliced into the J1587 datalink connector. These will be the same wires that are routed to the datalink, usually located under the dashboard. Locate the wires that lead to this connector and connect as specified in the following table:
->
-> | Signal | 8-Pin Connector | 6-Pin Connector | 2-Pin Connector |
-> |---|---|---|---|
-> | Datalink (+) | Pin 1 | Pin A | Pin A |
-> | Datalink (-) | Pin 2 | Pin B | Pin B |
->
-> Splice the wires using the above table as a reference (polarity).
->
-> Butt-splices are designed to provide the best possible cold joint connection when properly crimped.
->
-> **CAUTION · Осторожно**
-> Overheating of the butt splice can lead to wire damage.
->
-> Butt splices also provide protection against corrosion. After crimping the connection, heat the shrink tube with a heat gun until the shrink tube has sealed the joint.
->
-> **Note · Примечание**
-> It is very important that the Centinel™ system be properly grounded.
->
-> Locate the black lead (ground) on the Centinel™ wiring harness.
->
-> Connect the ground lead to ground on the starter (2).
->
-> Connect the red lead (positive) of the harness to the positive post (1) of the starter solenoid.
->
-> Connect the last remaining wire on the Centinel™ harness to the positive post on fuel shutoff solenoid.
->
-> **Note · Примечание**
-> Inspect all the wiring and plumbing lines to make certain your connections and clamps are tight, and all components are secured from rubbing.
->
-> On the Centinel™ wiring harness, locate the two wire connectors labeled LOW OIL LEVEL SENSOR. Cap the connector with the jumper harness found in the burn-only conversion kit.
->
-> **Note · Примечание**
-> The burn-only Centinel™ system uses the same harness as the standard Centinel™ system. As the standard system uses a make-up oil tank with a low oil level switch/sensor, in the burn-only system this sensor pickup in the harness **must** be jumped (to simulate a tank with adequate make-up oil) for the Centinel™ control module to operate the system properly.
->
-> **Note · Примечание**
-> The Centinel™ wiring harness is about 20 feet long. Depending on where the Centinel™ control module or lamp box is located, there can be a considerable length of excess harness. This excess should be rolled together and securely tie-wrapped out of the way.
->
-> **Note · Примечание**
-> The following steps apply to N14 PT® and STC engines.
->
-> **Note · Примечание**
-> Complete the installation of the wiring harness before using P-clamps or tie wraps to secure it from rubbing.
->
-> Install the 28-pin connector to the Centinel™ control module.
->
-> Identify the tower-to-shroud connector converter. Securely connect this part to the 2-pin oil control valve solenoid lead.
->
-> Locate the connector labeled RAIL PRESSURE SENSOR, and connect it to the rail sensor located on top of the fuel connecting block.
->
-> **Note · Примечание**
-> It is very important that the Centinel™ system be properly grounded.
->
-> **Note · Примечание**
-> For applications where the engine block is electrically isolated from the negative (-) battery terminal, the block ground lead on the Centinel™ harness **must** be connected to the negative (-) battery return line instead of the mounting bracket bolted on the engine.
->
-> Locate the black harness ground lead and fasten it to the oil control valve bracket.
->
-> Route the Centinel™ wiring harness to the oil make-up tank.
->
-> Secure the harness from rubbing using P-clamps and tie wraps.
->
-> Locate the connection on the wiring harness labeled LOW OIL LEVEL SENSOR and connect it to the make-up tank sensor.
->
-> Locate the connection marked DIAGNOSTIC LAMPS and connect it to the diagnostic lamp assembly.
->
-> Use a P-clamp to attach the wiring to the oil tank.
->
-> Inspect all of the wiring and plumbing lines to make certain that the connections are tight, the clamps are tight, and everything is secured from rubbing.
->
-> Locate the connections marked FUEL SHUTOFF SOLENOID.
->
-> Route and connect the harness to the fuel shutoff solenoid.
->
-> ISX Engines
->
-> Insert the oil level sensor connector into the oil level sensor installed in the oil make-up tank.
->
-> Verify that the connector locks are engaged.
->
-> Butt-splice two 16-gauge wires in the two oil level sensor connector butt splices.
->
-> Use a heat gun, or equivalent, to heat the butt splices to shrink and seal the connections.
->
-> Route the two wires along the make-up hose to the 31-pin OEM interface connector.
->
-> Use the provided tie wraps to secure the make-up hose and wires to the frame rail.
->
-> Cut the wires to size and butt-splice appropriate female socket connectors to the 16-gauge wires.
->
-> **Note · Примечание**
-> Cummins, Part Number 3822921, is a common repair item found in the Cummins harness repair kit(s).
->
-> Disconnect the 31-pin OEM connector. Locate pin locations 24 and 25, and remove their cavity plugs.
->
-> Install two female sockets into pins 24 and 25.
->
-> **Note · Примечание**
-> Make sure the sockets “snap” securely into place.
->
-> Connect the 31-pin OEM connector, making sure the connector is securely locked in place.
->
-> Use provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and to make sure no stress is applied to the pin sockets.
->
-> Burn-Only, K19 Engines
->
-> **Note · Примечание**
-> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure it from rubbing.
->
-> Locate and remove the Centinel™ wiring harness from the package.
->
-> Install the 28-pin connector to the Centinel™ control module.
->
-> **Момент затяжки · Torque Value**
-> 1 n•m [9 in-lb]
->
-> Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve to the burn solenoid.
->
-> Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
->
-> Locate the connector labeled RAIL PRESSURE SENSOR and connect it to the rail sensor located on the top of the fuel connecting block.
->
-> Use the p-clamp provided in the upfit kit to attach the harness to the bottom left bracket control valve bolt.
->
-> **Note · Примечание**
-> It is very important that the Centinel™ system is properly grounded.
->
-> **Note · Примечание**
-> For applications where the engine block is electrically isolated from the negative battery terminal, the block ground lead on the Centinel™ harness **must** be connected to the negative battery return line instead of to the mounting bracket bolted on the engine.
->
-> Locate the black lead on the Centinel™ wiring harness.
->
-> Use a 1/4-20 bolt to ground the lead to the unpainted 1/4-inch threaded hole on the mounting bracket.
->
-> **Момент затяжки · Torque Value**
-> 9 n•m [80 in-lb]
->
-> On the Centinel™ wiring harness, locate the two wire connectors labeled LOW OIL LEVEL SENSOR. Cap the connector with the jumper harness found in the burn-only conversion kit.
->
-> **Note · Примечание**
-> The burn-only Centinel™ system uses the same harness as the standard Centinel™ system. As the standard system uses a make-up oil tank with a low oil level switch/sensor, in the burn-only system this sensor pickup in the harness **must** be jumped (to simulate a tank with adequate make-up oil) for the Centinel™ control module to operate the system properly.
->
-> It will be necessary to choose a location for mounting the high-horsepower diagnostic lamp box (which is normally tank mounted). Location of the Centinel™ lamp box should provide visibility of the diagnostic lamps to operators and maintenance personnel.
->
-> Recommended locations include:
->
-> - Inside the cab
-> - On the frame rail
-> - On the rear of the cab.
->
-> **Note · Примечание**
-> Do **not** mount the high-horsepower diagnostic lamp box under the hood or in the engine compartment. The Centinel™ lamp box is **not** designed (or covered by warranty) for engine compartment temperatures.
->
-> **Note · Примечание**
-> The Centinel™ wiring harness is about 20 feet long. Depending on where the Centinel™ control module or lamp box is located, there can be a considerable length of excess harness. This excess should be rolled together and securely tie-wrapped out of the way.
->
-> Burn With Make-Up, K19 Engines
->
-> **Note · Примечание**
-> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure it from rubbing.
->
-> Locate and remove the Centinel™ wiring harness from the package.
->
-> Install the 28-pin connector to the Centinel™ control module.
->
-> **Момент затяжки · Torque Value**
-> 1 n•m [9 in-lb]
->
-> Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve to the burn solenoid.
->
-> Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve leading to the make-up solenoid.
->
-> Locate the connector labeled RAIL PRESSURE SENSOR and connect it to the rail sensor located on the top of the fuel connecting block.
->
-> Use the p-clamp provided in the upfit kit to attach the harness to the bottom left bracket to control valve bolt.
->
-> **Note · Примечание**
-> It is very important that the Centinel™ system be properly grounded.
->
-> **Note · Примечание**
-> For applications where the engine block is electrically isolated from the negative battery terminal, the block ground lead on the Centinel™ harness **must** be connected to the negative battery return line instead of to the mounting bracket bolted on the engine.
->
-> Locate the black lead on the Centinel™ wiring harness.
->
-> Use a 1/4-20 bolt to ground the lead to the unpainted 1/4-inch threaded hole on the mounting bracket.
->
-> **Момент затяжки · Torque Value**
-> 9 n•m [80 in-lb]
->
-> Route the Centinel™ wiring harness to the oil make-up tank. Secure the harness from rubbing using p-clamps and tie-wraps.
->
-> Locate the connection on the wiring harness labeled LOW OIL LEVEL SENSOR and connect it to the make-up tank sensor.
->
-> Locate the connection marked DIAGNOSTIC LAMPS and connect it to the diagnostic lamp assembly.
->
-> Use a p-clamp from the upfit kit to attach the wiring to the oil tank.
->
-> **Note · Примечание**
-> Inspect all the wiring and plumbing lines to make sure your connections are tight, clamps are tight, and everything is secured from rubbing.
->
-> Locate the connections marked FUEL SHUTOFF SOLENOID. Route and connect the harness to the fuel shutoff solenoid.
->
-> Burn-Only, K38 and K50 Engines
->
-> **Note · Примечание**
-> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure it from rubbing.
->
-> Locate and remove the Centinel™ wiring harness from the package.
->
-> Install the 28-pin connector to the Centinel™ control module.
->
-> **Момент затяжки · Torque Value**
-> 1 n•m [9 in-lb]
->
-> Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve to the burn solenoid.
->
-> Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve to the make-up solenoid.
->
-> Locate the connector labeled RAIL PRESSURE SENSOR and connect it to the rail sensor located on the top of the fuel connecting block.
->
-> Use the p-clamp provided in the upfit kit to attach the harness to the bottom left bracket to control valve bolt.
->
-> **Note · Примечание**
-> It is very important that the Centinel™ system be properly grounded.
->
-> Locate the black lead on the Centinel™ wiring harness.
->
-> Use a 1/4-20 bolt to ground the lead to the unpainted 1/4-inch threaded hole on the mounting bracket.
->
-> **Момент затяжки · Torque Value**
-> 9 n•m [80 in-lb]
->
-> On the Centinel™ wiring harness, locate the two wire connectors labeled LOW OIL LEVEL SENSOR. Cap the connector with the jumper harness found in the burn-only conversion kit.
->
-> **Note · Примечание**
-> The burn-only Centinel™ system uses the same harness as the standard Centinel™ system. As the standard system uses a make-up oil tank with a low oil level switch/sensor, in the burn-only system this sensor pickup in the harness **must** be jumped (to simulate a tank with adequate make-up oil) for the Centinel™ control module to operate the system properly.
->
-> It will be necessary to choose a location for mounting the high-horsepower diagnostic lamp box (which is normally tank mounted). Location of the Centinel™ lamp box should provide visibility of the diagnostic lamps to operators and maintenance personnel.
->
-> Recommended locations include:
->
-> - Inside the cab
-> - On the frame rail
-> - On the rear of the cab.
->
-> **Note · Примечание**
-> Do **not** mount the high-horsepower diagnostic lamp box under the hood or in the engine compartment. The Centinel™ lamp box is **not** designed (or covered by warranty) for engine compartment temperatures.
->
-> **Note · Примечание**
-> The Centinel™ wiring harness is about 20 feet long. Depending on where the Centinel™ control module or lamp box is located, there can be a considerable length of excess harness. This excess should be rolled together and securely tie-wrapped out of the way.
->
-> Burn With Make-Up, K38 and K50 Engines
->
-> **Note · Примечание**
-> Complete the installation of the wiring harness before using p-clamps or tie wraps to secure it from rubbing.
->
-> Locate and remove the Centinel™ wiring harness from the package.
->
-> Install the 28-pin connector to the Centinel™ control module.
->
-> **Момент затяжки · Torque Value**
-> 1 n•m [9 in-lb]
->
-> Locate the connector labeled BURN SOLENOID and connect it to the connector on the top of the oil control valve leading to the burn solenoid.
->
-> Locate the connector labeled MAKE-UP SOLENOID and connect it to the connector on the top of the oil control valve to the make-up solenoid.
->
-> Locate the connector labeled RAIL PRESSURE SENSOR and connect it to the rail sensor located on the top of the fuel connecting block.
->
-> Use the p-clamp provided in the upfit kit to attach the harness to the bottom left bracket to control valve bolt.
->
-> **Note · Примечание**
-> It is very important that the Centinel™ system be properly grounded.
->
-> Locate the black lead on the Centinel™ wiring harness.
->
-> Use a 1/4-20 bolt to ground the lead to the unpainted 1/4-inch threaded hole on the mounting bracket.
->
-> **Момент затяжки · Torque Value**
-> 9 n•m [80 in-lb]
->
-> Route the Centinel™ wiring harness to the oil make-up tank. Secure the harness from rubbing using p-clamps and tie wraps.
->
-> Locate the connection on the wiring harness labeled MAKE-UP TANK SENSOR and connect it to the make-up tank sensor.
->
-> Locate the connection marked DIAGNOSTIC LAMPS and connect it to the diagnostic lamp assembly.
->
-> Use a p-clamp from the upfit kit to attach the wiring to the oil tank.
->
-> **Note · Примечание**
-> Inspect all the wiring and plumbing lines to make sure your connections are tight, clamps are tight, and everything is secured from rubbing.
->
-> Locate the connections marked FUEL SHUTOFF SOLENOID. Route and connect the harness to the fuel shutoff solenoid.
->
-> Burn-Only, QSK45 and QSK60 Engines
->
-> Install the Centinel™ jumper harness between the engine harness (6-pin connector) and the control valve solenoid (2-pin connector).
->
-> Verify that the connector locks are engaged.
->
-> **Note · Примечание**
-> For burn-only, pins 23 and 30 of the 31-pin OEM connector **must** be jumped to simulate adequate oil is available in the make-up tank, even though there is **no** make-up tank.
->
-> **Note · Примечание**
-> Make a jumper wire by splicing the appropriate female socket connectors, Part Number 3822921, to a number 16 gauge wire. Cummins Part Number 3822921 is a common repair item found in the Cummins harness repair kit(s).
->
-> Disconnect the 31-pin OEM connector. Locate pin locations 23 and 30 and remove their cavity plugs.
->
-> Install the two female sockets of the jumper wire into pins 23 and 30.
->
-> **Note · Примечание**
-> Make certain the sockets "snap" securely into place.
->
-> Connect the 31-pin OEM connector making certain the connector is securely locked in place.
->
-> Use provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and making certain there is no stress applied to the pin sockets.
->
-> Properly reinstall any Cummins or customer hardware that was removed or relocated.
->
-> Burn With Make-Up, QSK45 and QSK60 Engines
->
-> Install the Centinel™ jumper harness between the engine harness (6-pin connector) and the control valve solenoid (2-pin connector).
->
-> Verify that the connector locks are engaged.
->
-> Insert the oil level sensor connector into the oil level sensor installed in the oil make-up tank.
->
-> Verify that the connector locks are engaged.
->
-> Butt-splice two number 16-gauge wires (**not** furnished) in the two oil level sensor connector butt splices.
->
-> Use a heat gun, or equivalent, to heat the butt splices to shrink and seal the connections.
->
-> Use the provided tie wraps to secure the two wires to the make-up hose, making certain there is **no** stress applied to the butt-splices and sensor connector.
->
-> Route the two wires along the make-up hose to the 31-pin OEM interface connector.
->
-> Use provided tie wraps to secure the make-up hose and wires to the frame rail.
->
-> Cut the wires to size and butt-splice appropriate female socket connectors, Part Number 3822921 (**not** furnished), to the number 16-gauge wires.
->
-> **Note · Примечание**
-> Cummins Part Number 3822921 is a common repair item found in the Cummins harness repair kit(s).
->
-> Disconnect the 31-pin OEM connector. Locate pin locations 23 and 30 and remove their cavity plugs.
->
-> Install the two female sockets into pins 23 and 30.
->
-> **Note · Примечание**
-> Make certain the sockets "snap" securely into place.
->
-> Connect the OEM 31-pin connector making certain the connector is securely locked in place.
->
-> Use provided tie wraps to secure the remainder of the oil make-up level sensor leads to avoid chafing and making certain there is no stress applied to the pin sockets.
->
-> Properly reinstall any Cummins or customer hardware that was removed or relocated.

@@ -9,12 +9,16 @@ released: "2012-04-09"
 modified: "2012-04-09"
 group: "06 - Injectors and Fuel Lines"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
   - "41349633"
+  - "41353297"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK19"
+  - "QSK50"
 parts:
   - "2896819"
   - "2896821"
@@ -24,16 +28,15 @@ parts:
   - "2896831"
   - "2896833"
   - "2896835"
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120093.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120093.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120093.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
+  - "двигатель/QSK50"
   - "год/2012"
-  - "перевод/машинный"
   - "тема/injectors-and-fuel-lines"
 ---
 
@@ -42,49 +45,41 @@ tags:
 
 > [!abstract] TSB · `tsb120093`
 > **Раздел Cummins:** 06 - Injectors and Fuel Lines
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19, QSK50
 > **Даты:** выпущен 2012-04-09 · изменён 2012-04-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120093.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120093.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120093.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120093.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+## New High-Pressure Injector Supply Lines for MCRS Engines
 
+### Warranty Statement
 
-## Новые магистрали высокого давления форсунок для двигателей MCRS
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
 
-### Положение о гарантии
+### Contents
 
-Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+This document introduces new high-pressure injector supply lines for the QSK19 MCRS, QSK38 MCRS, QSK50 MCRS, and QSK60 MCRS engines with electronically actuated injectors. The new lines are more resistant to water, dirt, and debris intrusion through the grommet.
 
-### Содержание
-
-В этом документе представлены новые линии подачи топливных форсунок высокого давления для двигателей QSK19 MCRS, QSK38 MCRS, QSK50 MCRS и QSK60 MCRS с электронным топливным форсуном. Новые линии более устойчивы к вторжению воды, грязи и мусора через громмет.
-
-| Новая и старая высоконапорная форсунка Информация о линии подачи |  |  |  |  |  |
+| New and Old High-Pressure Injector Supply Line Information |  |  |  |  |  |
 |---|---|---|---|---|---|
-| **Новый номер** | ** Старый номер** | ** Машина** | ** Заявление** | ** Описание места** | ** Дата реализации проекта** |
-| [[2896819]] | 4918081 | QSK19 | Строительство и PowerGen | Накачка на форсунка | 23 января 2012 года |
-| [[2896821]] | 4924231 | QSK19 | Строительство, PowerGen & Marine | форсунка для топлива | 23 января 2012 года |
-| [[2896823]] | 4924626 | QSK38/50/60 | Строительство, PowerGen & Marine | форсунка для топлива | 20 февраля 2012 |
-| [[2896825]] | 4924630 | QSK60 | Строительство, PowerGen & Marine | Накачка в форсунка LB | 20 февраля 2012 |
-| [[2896827]] | 4924634 | QSK60 | Строительство и PowerGen | Откачка в RB Junction | 20 февраля 2012 |
-| [[2896831]] | 4927491 | QSK38/50 | Строительство, PowerGen & Marine | Накачка в форсунка LB | 20 февраля 2012 |
-| [[2896833]] | 4927495 | QSK38/50 | Строительство, PowerGen & Marine | Откачка в RB Junction | 20 февраля 2012 |
-| [[2896835]] | 4927499 | QSK38/50 | Строительство, PowerGen & Marine | RB-контакт | 20 февраля 2012 |
-| 2896837 | 4956285 | QSK38/50 | морской пехотинец | RB-контакт | 20 февраля 2012 |
-| 2896911 | 4956288 | QSK38/50 | морской пехотинец | Откачка в RB Junction | 20 февраля 2012 |
-| 2896913 | 4956294 | QSK38/50 | морской пехотинец | RB Соединение с топливным форсункой | 20 февраля 2012 |
-| 2896916 | 4970128 | QSK19 | морской пехотинец | Накачка на форсунка | 23 января 2012 года |
-| 2896918 | 4970865 | QSK60 | морской пехотинец | Откачка в RB Junction | 20 февраля 2012 |
+| **New Part Number** | **Old Part Number** | **Engine** | **Application** | **Location Description** | **Plant Implementation Date** |
+| [[2896819]] | 4918081 | QSK19 | Construction & PowerGen | Pump to Injector | 23-Jan-2012 |
+| [[2896821]] | 4924231 | QSK19 | Construction, PowerGen & Marine | Injector to Injector | 23-Jan-2012 |
+| [[2896823]] | 4924626 | QSK38/50/60 | Construction, PowerGen & Marine | Injector to Injector | 20-Feb-2012 |
+| [[2896825]] | 4924630 | QSK60 | Construction, PowerGen & Marine | Pump to LB Injector | 20-Feb-2012 |
+| [[2896827]] | 4924634 | QSK60 | Construction & PowerGen | Pump to RB Junction | 20-Feb-2012 |
+| [[2896831]] | 4927491 | QSK38/50 | Construction, PowerGen & Marine | Pump to LB Injector | 20-Feb-2012 |
+| [[2896833]] | 4927495 | QSK38/50 | Construction, PowerGen & Marine | Pump to RB Junction | 20-Feb-2012 |
+| [[2896835]] | 4927499 | QSK38/50 | Construction, PowerGen & Marine | RB Junction | 20-Feb-2012 |
+| 2896837 | 4956285 | QSK38/50 | Marine | RB Junction | 20-Feb-2012 |
+| 2896911 | 4956288 | QSK38/50 | Marine | Pump to RB Junction | 20-Feb-2012 |
+| 2896913 | 4956294 | QSK38/50 | Marine | RB Junction to Injector | 20-Feb-2012 |
+| 2896916 | 4970128 | QSK19 | Marine | Pump to Injector | 23-Jan-2012 |
+| 2896918 | 4970865 | QSK60 | Marine | Pump to RB Junction | 20-Feb-2012 |
 
-Ссылка на раздел Процедуры 006-051 «Чистое и повторное использование» при обнаружении коррозии, грязи или мусора на линиях подачи топливных форсунок.
+Refererence to the Clean and Inspect for Reuse section of Procedure 006-051 if any corrosion, dirt, or debris, is found on injector supply lines.
 
-### История изменений документа
+### Document History
 
 ## Детали, упомянутые в документе
 
@@ -98,35 +93,3 @@ tags:
 | [[2896831]] | INJECTOR FUEL SUPPLY TUBE | Топливоподводящая трубка форсунки |
 | [[2896833]] | INJECTOR FUEL SUPPLY TUBE | Топливоподводящая трубка форсунки |
 | [[2896835]] | INJECTOR FUEL SUPPLY TUBE | Топливоподводящая трубка форсунки |
-
-> [!quote]- Original (English) · английский оригинал
-> ## New High-Pressure Injector Supply Lines for MCRS Engines
->
-> ### Warranty Statement
->
-> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
->
-> ### Contents
->
-> This document introduces new high-pressure injector supply lines for the QSK19 MCRS, QSK38 MCRS, QSK50 MCRS, and QSK60 MCRS engines with electronically actuated injectors. The new lines are more resistant to water, dirt, and debris intrusion through the grommet.
->
-> | New and Old High-Pressure Injector Supply Line Information |  |  |  |  |  |
-> |---|---|---|---|---|---|
-> | **New Part Number** | **Old Part Number** | **Engine** | **Application** | **Location Description** | **Plant Implementation Date** |
-> | [[2896819]] | 4918081 | QSK19 | Construction & PowerGen | Pump to Injector | 23-Jan-2012 |
-> | [[2896821]] | 4924231 | QSK19 | Construction, PowerGen & Marine | Injector to Injector | 23-Jan-2012 |
-> | [[2896823]] | 4924626 | QSK38/50/60 | Construction, PowerGen & Marine | Injector to Injector | 20-Feb-2012 |
-> | [[2896825]] | 4924630 | QSK60 | Construction, PowerGen & Marine | Pump to LB Injector | 20-Feb-2012 |
-> | [[2896827]] | 4924634 | QSK60 | Construction & PowerGen | Pump to RB Junction | 20-Feb-2012 |
-> | [[2896831]] | 4927491 | QSK38/50 | Construction, PowerGen & Marine | Pump to LB Injector | 20-Feb-2012 |
-> | [[2896833]] | 4927495 | QSK38/50 | Construction, PowerGen & Marine | Pump to RB Junction | 20-Feb-2012 |
-> | [[2896835]] | 4927499 | QSK38/50 | Construction, PowerGen & Marine | RB Junction | 20-Feb-2012 |
-> | 2896837 | 4956285 | QSK38/50 | Marine | RB Junction | 20-Feb-2012 |
-> | 2896911 | 4956288 | QSK38/50 | Marine | Pump to RB Junction | 20-Feb-2012 |
-> | 2896913 | 4956294 | QSK38/50 | Marine | RB Junction to Injector | 20-Feb-2012 |
-> | 2896916 | 4970128 | QSK19 | Marine | Pump to Injector | 23-Jan-2012 |
-> | 2896918 | 4970865 | QSK60 | Marine | Pump to RB Junction | 20-Feb-2012 |
->
-> Refererence to the Clean and Inspect for Reuse section of Procedure 006-051 if any corrosion, dirt, or debris, is found on injector supply lines.
->
-> ### Document History

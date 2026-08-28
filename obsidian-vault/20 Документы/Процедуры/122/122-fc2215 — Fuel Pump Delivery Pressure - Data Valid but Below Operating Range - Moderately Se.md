@@ -14,15 +14,13 @@ families:
 manuals:
   - "4022102"
 figures: 8
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc2215.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc2215.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc2215.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
-  - "перевод/машинный"
 ---
 
 # Fuel Pump Delivery Pressure - Data Valid but Below Operating Range - Moderately Severe Level
@@ -34,142 +32,76 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-12-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc2215.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc2215.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc2215.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc2215.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 2215
 
+### Fuel Pump Delivery Pressure - Data Valid but Below Operating Range - Moderately Severe Level
 
-### Код неисправности: 2215
+Printable Version
 
-### Давление подачи топливного насоса ниже рабочего диапазона — умеренный уровень
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 2215 PID(P): СПН: 94 ФМИ: 18 ламп: Янтарная СРТ: | Давление подачи топливного насоса ниже рабочего диапазона — умеренный уровень. Давление подачи топливного насоса низкое. | Низкая мощность. |
+| Fault Code: 2215 PID(P): SPN: 94 FMI: 18 Lamp: Amber SRT: | Fuel Pump Delivery Pressure - Data Valid but Below Operating Range - Moderately Severe Level. Fuel pump supply pressure low. | Low power. |
 
 ![[19602267.png]]
 
-QSK38 CM2150 Industrial - Схема датчика давления подачи топлива
+QSK38 CM2150 Industrial - Fuel Delivery Pressure Sensor Circuit
 
 ![[19e00960.png]]
 
-QSK38 CM2150 Power Generation/QSK38 CM2150 Power Generation (Military Application) - Схема датчика давления подачи топлива
+QSK38 CM2150 Power Generation/QSK38 CM2150 Power Generation (Military Application) - Fuel Delivery Pressure Sensor Circuit
 
 ![[19602268.png]]
 
-QSK38 CM2150 Marine - Схема датчика давления при доставке топлива
+QSK38 CM2150 Marine - Fuel Delivery Pressure Sensor Circuit
 
 ![[19602269.png]]
 
-QSK50 CM2150 Power Generation без усовершенствованного мониторинга двигателя / QSK50 CM2150 Power Generation с расширенным мониторингом двигателя и QSK60 CM2150 Power Generation - схема датчика давления подачи топлива
+QSK50 CM2150 Power Generation without Advanced Engine Monitoring/QSK50 CM2150 Power Generation with Advanced Engine Monitoring and QSK60 CM2150 Power Generation - Fuel Delivery Pressure Sensor Circuit
 
 ![[19602270.png]]
 
-QSK50 CM2150 Industrial - Схема датчика давления подачи топлива
+QSK50 CM2150 Industrial - Fuel Delivery Pressure Sensor Circuit
 
 ![[19602271.png]]
 
-QSK60 CM2150 Промышленный - Схема датчика давления подачи топлива
+QSK60 CM2150 Industrial - Fuel Delivery Pressure Sensor Circuit
 
 ![[19602272.png]]
 
-QSK50 CM2150 Marine - Схема датчика давления при доставке топлива
+QSK50 CM2150 Marine - Fuel Delivery Pressure Sensor Circuit
 
 ![[19602273.png]]
 
-QSK60 CM2150 Marine/QSK60 CM2150 Drill Rig - Схема датчика давления подачи топлива
+QSK60 CM2150 Marine/QSK60 CM2150 Drill Rig - Fuel Delivery Pressure Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик давления подачи топлива используется электронным модулем управления (ECM) для мониторинга давления подачи топлива непосредственно перед фильтром второй ступени. ECM контролирует напряжение на контакте сигнала давления подачи топлива и преобразует его в значение давления.
+The fuel delivery pressure sensor is used by the electronic control module (ECM) to monitor fuel supply pressure directly before the second stage filter. The ECM monitors the voltage on the fuel delivery pressure signal pin and converts it to a pressure value.
 
-### Расположение компонента
+### Component Location
 
-Датчик давления подачи топлива расположен во второй ступени топливного фильтра, устанавливающего головку.
+The fuel delivery pressure sensor is located in the second stage fuel filter head.
 
-### Практические замечания
+### Shoptalk
 
-У моделей двигателей, охваченных этим руководством, несколько электронных блоков управления. У каждого блока управления свой адрес источника, который отображается при подключении INSITE™. При поиске неисправности по коду определяйте затронутый блок управления и цепь по адресу источника, который показывает INSITE™.
+There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the source address displayed in INSITE™ electronic service tool to determine which ECM and circuit is affected.
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- 1 стадия ограничения топливного фильтра
+- Stage 1 fuel filter restriction high
 
-- Высокое ограничение впуска топлива
+- Fuel inlet restriction high
 
-- Низкий расход топлива из геротора
+- Low fuel flow from gerotor
 
-- Застрявший механический клапан в героторной оболочке
+- Stuck mechanical dump valve in gerotor housing
 
-- Застрял регулятор низкого давления в топливном насосе высокого давления
+- Stuck low-pressure regulator in high-pressure fuel pump
 
-- Воздух в топливе.
+- Air in fuel.
 
-См. код 2215 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 2215
->
-> ### Fuel Pump Delivery Pressure - Data Valid but Below Operating Range - Moderately Severe Level
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 2215 PID(P): SPN: 94 FMI: 18 Lamp: Amber SRT: | Fuel Pump Delivery Pressure - Data Valid but Below Operating Range - Moderately Severe Level. Fuel pump supply pressure low. | Low power. |
->
-> QSK38 CM2150 Industrial - Fuel Delivery Pressure Sensor Circuit
->
-> QSK38 CM2150 Power Generation/QSK38 CM2150 Power Generation (Military Application) - Fuel Delivery Pressure Sensor Circuit
->
-> QSK38 CM2150 Marine - Fuel Delivery Pressure Sensor Circuit
->
-> QSK50 CM2150 Power Generation without Advanced Engine Monitoring/QSK50 CM2150 Power Generation with Advanced Engine Monitoring and QSK60 CM2150 Power Generation - Fuel Delivery Pressure Sensor Circuit
->
-> QSK50 CM2150 Industrial - Fuel Delivery Pressure Sensor Circuit
->
-> QSK60 CM2150 Industrial - Fuel Delivery Pressure Sensor Circuit
->
-> QSK50 CM2150 Marine - Fuel Delivery Pressure Sensor Circuit
->
-> QSK60 CM2150 Marine/QSK60 CM2150 Drill Rig - Fuel Delivery Pressure Sensor Circuit
->
-> ### Circuit Description
->
-> The fuel delivery pressure sensor is used by the electronic control module (ECM) to monitor fuel supply pressure directly before the second stage filter. The ECM monitors the voltage on the fuel delivery pressure signal pin and converts it to a pressure value.
->
-> ### Component Location
->
-> The fuel delivery pressure sensor is located in the second stage fuel filter head.
->
-> ### Shoptalk
->
-> There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the source address displayed in INSITE™ electronic service tool to determine which ECM and circuit is affected.
->
-> Possible causes of this fault code include:
->
-> - Stage 1 fuel filter restriction high
->
-> - Fuel inlet restriction high
->
-> - Low fuel flow from gerotor
->
-> - Stuck mechanical dump valve in gerotor housing
->
-> - Stuck low-pressure regulator in high-pressure fuel pump
->
-> - Air in fuel.
->
-> Refer to Troubleshooting Fault Code 2215.
+Refer to Troubleshooting Fault Code 2215.

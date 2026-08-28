@@ -9,22 +9,34 @@ released: "2020-07-17"
 modified: "2020-09-24"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
+  - "QSK60"
 parts:
+  - "3639554"
+  - "3639672"
+  - "4016423"
+  - "4328041"
   - "4328043"
+  - "4331734"
   - "4379736"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/5659817.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/5659817.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/5659817.pdf"
 tags:
   - "документ/бюллетень"
   - "двигатель/K38/K50"
-  - "перевод/машинный"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -33,22 +45,14 @@ tags:
 
 > [!abstract] Сервисный бюллетень · `5659817`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50, QSK60
 > **Даты:** выпущен 2020-07-17 · изменён 2020-09-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/5659817.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/5659817.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/5659817.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/5659817.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+## Extended Service Interval Program for Locomotive Applications
 
-
-## Программа увеличенных интервалов обслуживания для локомотивов
-
-**Затронутая продукция**
+**Product Affected**
 
 - QSK38 CM850 MCRS
 - QSK38 CM2150 MCRS
@@ -59,989 +63,498 @@ tags:
 - QSK60 CM2150 MCRS
 - QSK78 CM500
 
-> [!note] Примечание
-> Если модель двигателя или приложение не перечислены выше, обратитесь к дистрибьютору Cummins или фильтрации Cummins.
+> [!note] Note · Примечание
+> If an engine model or an application is not listed above, contact Cummins Distributor or Cummins Filtration.
 
-**Обзор контента**
+**Content Overview**
 
-Цель настоящего документа заключается в определении шагов, необходимых для продления интервала обслуживания приложений Locomotive.
+The purpose of this document is to identify the steps required to extend the service interval for Locomotive applications.
 
-Раздел 1: Оценка сайта
+Section 1: Site Assessment
 
-Раздел 2: Спецификации на жидкостные жидкости
+Section 2: Fluid Specifications
 
-Раздел 3: Мониторинг жидкости и фильтра
+Section 3: Fluid and Filter Monitoring
 
-Раздел 4: Первоначальные требования к оборудованию и фильтру
+Section 4: Initial Equipment Upgrades and Filter Requirements
 
-Раздел 5: Расширенные интервалы технического обслуживания
+Section 5: Extended Maintenance Intervals
 
-Раздел 6: Испытание моторного масла на интервальное расширение
+Section 6: Lubricating Oil Drain Interval Extension Test
 
-Раздел 7: Дополнительная сервисная литература
+Section 7: Additional Service Literature
 
-Интервалы технического обслуживания, обсуждаемые в этом документе, включают:
+Maintenance intervals discussed within this document include:
 
-- Слив охлаждающей жидкости
-- Фильтры охлаждения
-- Топливные фильтры
-- Слив моторного масла
-- Фильтры для моторного масла
+- Coolant drain
+- Coolant filters
+- Fuel filters
+- Lubricating oil drain
+- Lubricating oil filters
 
-> [!note] Примечание
-> Руководящие принципы и требования, содержащиеся в настоящем бюллетене, могут быть изменены без предварительного уведомления. Проконсультируйтесь с местным дистрибьютором или фильтрацией Cummins.
+> [!note] Note · Примечание
+> The guidelines and requirements in this bulletin are subject to change without notice. Consult your local Cummins Distributor or Cummins Filtration.
 
-> [!note] Примечание
-> Перед принятием этой информации конечный пользователь обязан связаться с дистрибьютором или фильтрацией Cummins, чтобы полностью понять информацию. Cummins Inc. не несет ответственности за неточную передачу этой процедуры и невыполнение Гарантии Cummins.
+> [!note] Note · Примечание
+> Before adopting this information, it is the responsibility of the end user to contact Cummins Distributor or Cummins Filtration to understand the information in its entirety. Cummins Inc. is not responsible for inaccurate handing of this procedure and failure to Cummins Warranty.
 
-** Расширенный интервал обслуживания для программных требований локомотивных приложений Раздел 1: Оценка сайта**
+**Extended Service Interval for Locomotive Applications Program RequirementsSection 1: Site Assessment**
 
-Оборудование, место, условия эксплуатации и окружающая среда влияют на возможность увеличения интервалов технического обслуживания. Изготовление и модель оборудования, строгая практика технического обслуживания на объекте, более высокие и низкие нагрузки, длительные периоды холостого хода, а также погодные и экологические экстремальные условия, такие как влажные, пыльные, замерзающие и горячие работы, могут потребовать более частого технического обслуживания, чем указано в Руководстве по техническому обслуживанию.
+The equipment, site, operating conditions, and environment affect the ability to extend maintenance intervals. The make and model of the equipment, site's rigorous maintenance practice, higher and low loads, long idling periods, and weather and environmental extreme conditions such as wet, dusty, freezing, and hot operation might require more frequent maintenance than specified in the Maintenance Manual.
 
-Оценка сайта должна быть завершена, чтобы обеспечить успех с этой расширенной программой интервалов обслуживания. Чтобы запланировать оценку сайта, свяжитесь с местным дистрибьютором Cummins или фильтрацией Cummins.
+A site assessment must be completed to ensure success with this extended maintenance interval program. To schedule a site assessment, contact your local Cummins Distributor or Cummins Filtration.
 
-** Раздел 2: Спецификации по текучести**
+**Section 2: Fluid Specifications**
 
-> [!note] Примечание
-> Любые отклонения от жидкостей (моторное масло, топливо, охлаждающая жидкость) и спецификаций фильтра, как определено в этом бюллетене службы, аннулируют использование этого бюллетеня расширенной службы. Жидкость и фильтры, не соответствующие требованиям, перечисленным в настоящем документе, должны соответствовать стандартным интервалам технического обслуживания, определенным в соответствующем Руководстве по эксплуатации и техническому обслуживанию.
+> [!note] Note · Примечание
+> Any deviations from the fluid (lubricating oil, fuel, coolant) and filter specifications as defined in this service bulletin will void the use of this extended service bulletin. Fluid and filters not meeting the requirements listed in this document must follow the standard maintenance intervals defined in the corresponding Operation and Maintenance Manual.
 
-Требования к смазочному маслу
+Lubricating Oil Requirements
 
-- Моторное масло ** должно** соответствовать требованиям, установленным Cummins Inc.
-- Используемое моторное масло ** должно быть зарегистрировано в Регистрационном списке Cummins Oil. **Примечание: ** https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/oil\_registration.html
-- Интервалы слива моторного масла ** должны *** следовать интервалам, указанным в соответствующем Руководстве по эксплуатации и техническому обслуживанию, если только расширенные интервалы слива не доказаны протоколом испытаний, описанным в этом бюллетене.
+- Lubricating oil **must** meet the requirements specified by Cummins Inc.
+- Lubricating oil used **must** be registered in Cummins Oil Registration List. **Note:** https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/oil\_registration.html
+- Lubricating oil drain intervals **must** follow the intervals specified in the corresponding Operation and Maintenance Manual unless extended drain intervals are proven through a testing protocol described in this bulletin.
 
-> [!note] Примечание
-> Во время тестирования лучше всего смешивать два типа или марки масла, даже если оба зарегистрированы в соответствующей спецификации Cummins. В некоторых случаях было отмечено, что смешивание масел приводит к проблемам в интерпретации последствий оттока расширенной нефти из смеси масел.
+> [!note] Note · Примечание
+> During testing it is best **not** to mix two types or brands of oil, even if both are registered to an appropriate Cummins specification. In some cases, it has been observed that mixing oils led to challenges in interpreting the effects of extended oil drains from the mixing of oils.
 
-Требования к топливу
+Fuel Requirements
 
-- Топливо должно соответствовать требованиям, установленным Cummins Inc.
+- Fuels must meet the requirements as specified by Cummins Inc.
 
-Конкретные требования к топливу включают:
+Specific fuel requirements include:
 
-- Топливо должно соответствовать стандарту Международной организации по стандартизации (ISO) 4406 по чистоте 18/16/13 или лучше на входе топливного фильтра стадии 1 с максимальным содержанием воды 200 ppm.
-- Топливо, которое соответствует или превышает процедуру A по методу испытаний на тенденцию фильтрации (ASTM) D2068 с высоким пределом 1.41.
-- Топливо должно пройти тест качества топлива с использованием набора анализа чистоты переносного топлива Cummins Fleetguard, часть FK36000.
-- Топливо, соответствующее или превышающее стандарт ASTM D975-15b «Стандартные спецификации для дизельных топлив».
-- Могут использоваться только топливные добавки, которые не продемонстрировали негативного влияния на топливный фильтр или срок службы топливной системы.
-- Если используется зимняя, холодная погода или топливо на большой высоте:
-- Если используется биотопливо:
-- Если содержание серы в топливе превышает 15 ppm, интервалы слива моторного масла ** должны быть проверены с использованием процедуры, описанной в разделе 6.
-- Если содержание серы в топливе превышает 500 ppm, то длительные интервалы слива не поддерживаются.
+- Fuels **must** meet International Organization for Standardization (ISO) 4406 cleanliness code of 18/16/13 or better at the inlet of the stage 1 fuel filter with a maximum water content of 200 ppm.
+- Fuels that meet or exceed American Society for Testing and Materials (ASTM) D2068 “Filter Plugging Tendency Tests” procedure A with a Filter Blocking Tendency (FBT) calculation high limit of 1.41.
+- Fuel **must** pass the fuel quality test using the Cummins Fleetguard Portable Fuel Cleanliness Analysis Kit, part number FK36000.
+- Fuels that meet or exceed ASTM D975 - 15b “Standard Specification for Diesel Fuel Oils.”
+- Only fuel additives that have demonstrated no negative effect on fuel filter or fuel system life can be used.
+- If winter, cold weather, or high altitude fuel is used:
+- If biofuel is used:
+- If sulfur content in fuel is higher than 15 ppm, lubricating oil drain intervals **must** be verified using the procedure in Section 6.
+- If sulfur content in fuel is higher than 500 ppm, extended drain intervals will not be supported.
 
-Требования к охлаждению
+Coolant Requirements
 
-> [!note] Примечание
-> **Не смешивайте два типа продуктов или брендов.
+> [!note] Note · Примечание
+> Do **not** mix two types of coolant products or brands.
 
-> [!note] Примечание
-> **не** поверх системы охлаждения с водой или обычной охлаждающей жидкостью.
+> [!note] Note · Примечание
+> Do **not** top off coolant system with water or conventional coolant.
 
-- Охлаждение ** должно соответствовать требованиям, установленным Cummins Inc.
-- Используемые охладители должны быть зарегистрированы в Регистрационном списке охладителей Cummins и в соответствии со спецификацией CES 14603 и должны быть полностью сформулированы предварительно смешанные охлаждающие жидкости с органической кислотой (OAT). Справочный регистрационный список охлаждающих жидкостей. **Примечание: ** https://quickserve.cummins.com/qs3/qsolIservice/serviceproducts/coolant\_registration.html
-- Было доказано, что следующие охлаждающие жидкости способны удовлетворять расширенным интервалам слива:
+- Coolant **must** meet the requirements specified by Cummins Inc.
+- Coolants used **must** be registered in Cummins Coolant Registration List and in accordance with CES 14603 coolant specification and be fully formulated pre-mixed organic acid technology (OAT) coolant. Reference Coolant Registration List. **Note:** https://quickserve.cummins.com/qs3/qsolIservice/serviceproducts/coolant\_registration.html
+- The following coolants have been proven capable of meeting extended drain intervals:
 
-** Раздел 3: Мониторинг жидкостей и фильтров**
+**Section 3: Fluid and Filter Monitoring**
 
-В этом разделе представлены руководящие принципы и требования по сбору, мониторингу, флагу, действию и анализу жидкостей и фильтров двигателя, которые предоставляют информацию для руководства программой расширенного интервала обслуживания локомотивных приложений.
+This section provides the guidelines and requirements to collect, monitor, flag, act, and analyze engine fluids and filters that provide information to guide the Extended Service Interval for Locomotive Applications Program.
 
-Пробы и анализ моторного масла:
+Lubricating Oil Sampling and Analysis:
 
-- См. Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
-- См. Service Bulletin, Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin 2883452.
+- See Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
+- See Service Bulletin, Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin 2883452.
 
-Отбор проб и анализ топлива:
+Fuel Sampling and Analysis:
 
-- Для двигателя с высоким давлением (HPI), Cummins Inc. Рекомендуется брать образцы топлива непосредственно из оборудования транспортного средства на входе в всасывающий боковой топливный фильтр.
-- Для двигателей с модульной общей железнодорожной системой (MCRS) образцы ** должны ** ссылаться на Bulletin 4022123, Fuel Sampling for Particle Counting Test.
-- Если образец топлива не соответствует указанным требованиям, повторно посетите аудит сайта, чтобы определить возможности для улучшения качества топлива.
+- For High Pressure Injection (HPI) Engine, Cummins Inc. recommends fuel samples be taken directly from vehicle equipment at the inlet to suction side fuel filter.
+- For Modular Common Rail System (MCRS) Engines, samples **must** refer to Bulletin 4022123, Fuel Sampling for Particle Counting Test.
+- If the fuel sample does **not** meet the requirements specified, revisit the site audit to identify opportunities for improved fuel quality.
 
-Анализ пробы охлаждающих жидкостей:
+Coolant Sampling Analysis:
 
-- См. соответствующее Руководство по эксплуатации и техническому обслуживанию, в разделе V - техническое обслуживание и спецификация, процедура 018-004 Рекомендации и спецификации по охлаждению
-- Если молибдат, нитрит и рН находятся в пределах спецификации, изучите методы технического обслуживания и отправьте образец охлаждающей жидкости для проверки загрязнения. Охлаждение** должно быть заменено. См. соответствующее Руководство по обслуживанию. Справочная процедура 008-018 Система охлаждения.
-- Если молибдат, нитрит и рН находятся в пределах спецификации, изучите методы технического обслуживания и отправьте образец охлаждающей жидкости для проверки загрязнения. Охлаждение** должно быть заменено. См. соответствующее Руководство по обслуживанию. Справочная процедура 008-018 Система охлаждения.
+- See the corresponding Operation and Maintenance Manual, under Section V - Maintenance and Specification, procedure 018-004 Coolant Recommendations and Specifications
+- If molybdate, nitrite, and pH are **not** within specification, investigate maintenance practices and send coolant sample for contamination check. Coolant **must** be replaced. See the corresponding Service Manual. Reference procedure 008-018 Cooling System.
+- If molybdate, nitrite, and pH are **not** within specification, investigate maintenance practices and send coolant sample for contamination check. Coolant **must** be replaced. See the corresponding Service Manual. Reference procedure 008-018 Cooling System.
 
-В таблицах 1 и 2 ниже указан анализ жидкости, который должен быть выполнен во время работы при использовании расширенных интервалов обслуживания.
+Table 1 and Table 2 below specify the fluid analysis to be performed during operation when using extended service intervals.
 
-| **Таблица 1, Требования к анализу проб жидкости двигателя** |  |  |  |
+| **Table 1, Engine Fluid Sampling Analysis Requirements** |  |  |  |
 |---|---|---|---|
-| ** Жидкость** | ** Интервал выборки** | ** Предложенный метод и месторасположение** | ** Целевой и измерительный пакет** |
-| Моторное масло | 250 часов | В бюллетене 4022060 по обслуживанию: Собирайте образец масла из порта под давлением во время холостого хода двигателя или вакуумным насосом через измерительную трубку для измерения уровня масла в смазке. | Тест 1 на качество масла и загрязняющих веществ: |
-| Элементальные металлы индуктивно связной плазмы (ICP) |  |  |  |
-| • Вязкость при 100°C \[212°F \] |  |  |  |
-| • Процент воды |  |  |  |
-| • Разбавление топлива |  |  |  |
-| • Процент сажи |  |  |  |
-| • Нитратация окисления I |  |  |  |
-| • Общее базовое число (TBN) |  |  |  |
-| охлаждающий | 4000 часов | Путем вакуумного насоса через крышку заливки радиатора или через быстрое заполнение I дренажный порт | Тест 2 для пределов замены охлаждающих жидкостей: |
-| • Сульфат |  |  |  |
-| • Хлорид, фторид, бромид |  |  |  |
+| **Fluid** | **Sampling Interval** | **Suggested Method and Location** | **Purpose and Test Package** |
+| Lubricating Oil | 250 hours | Per Service Bulletin 4022060: Collect oil sample from pressurized port while engine idling or by vacuum pump through lubricating oil dipstick retaining tube. | Test1 for Oil Quality and Contaminants: |
+| • Elemental Metals by Inductively Coupled Plasma (ICP) |  |  |  |
+| • Viscosity at 100°C \[ 212°F \] |  |  |  |
+| • Water Percentage |  |  |  |
+| • Fuel Dilution |  |  |  |
+| • Soot Percentage |  |  |  |
+| • Oxidation I Nitration |  |  |  |
+| • Total Base Number (TBN) |  |  |  |
+| Coolant | 4000 hours | By vacuum pump through radiator fill cap or through quick fill I drain port | Test2 for Coolant Replacement Limits: |
+| • Sulfate |  |  |  |
+| • Chloride, Fluoride, Bromide |  |  |  |
 | • pH |  |  |  |
-| • Нефть и топливные загрязнители |  |  |  |
-| • Смазка, цветение припоя, силикагель, ржавчина или чешуя |  |  |  |
-| охлаждающий | каждые 6 месяцев | Путем вакуумного насоса через крышку заливки радиатора или через быстрое заполнение I дренажный порт | Тест на уровень гликола: |
-| • Набор для испытаний охлаждающей жидкости, бортовой номер CC8997 |  |  |  |
-| топливо | Как и требовалось: Образец топлива из оборудования для качества и чистоты, если топливные фильтры не достигают требуемого срока службы или срок службы топливного фильтра уменьшается от установленного базового уровня. | Используйте пробоотборный порт выше по течению от топливных фильтров 1-й ступени и внизу топливного бака оборудования через порт на топливном баке оборудования. | Ссылка на вестник включения топливного фильтра, 5504538. |
-| При использовании Cummins® Fleetguard® Monitor: 1Справочный монитор CC36136, 2Справочный монитор CC2700. |  |  |  |
+| • Oil and fuel contaminants |  |  |  |
+| • Grease, solder bloom, silica gel, rust or scale |  |  |  |
+| Coolant | Every 6 months | By vacuum pump through radiator fill cap or through quick fill I drain port | Test for Glycol Levels: |
+| • Coolant Test Kit, Fleetguard Part Number CC8997 |  |  |  |
+| Fuel | As Needed: Sample fuel from equipment for quality and cleanliness if fuel filters do not reach required life or fuel filter life decreases from established baseline. | Use sampling port upstream of Stage 1 fuel filters and at bottom of equipment fuel tank through port on equipment fuel tank. | Reference the Fuel Filter Plugging Bulletin, 5504538. |
+| If using Cummins® Fleetguard® Monitor: 1Reference Monitor™ CC36136, 2Reference Monitor™ CC2700. |  |  |  |
 
-| Таблица 2, Требования к хранению навалочных грузов, хранению резервуаров и отбору жидкостей для сервисного оборудования |  |  |  |
+| Table 2, Bulk Storage, Tank Storage, and Service Equipment Fluid Sampling Requirements |  |  |  |
 |---|---|---|---|
-| Жидкость | Интервал выборки | Предлагаемый метод и место | Цель и тесты Cummins® Монитор программы Измерительный пакет |
-| Насыпное хранение - моторное масло | Минимальный квартальный и при изменении марки или спецификации моторного масла | При помощи клапана отбора проб, установленного в цистерне для массовых грузов | Тест 1 на качество масла и загрязняющих веществ: |
-| Элементальные металлы индуктивно связной плазмы (ICP) |  |  |  |
-| • Вязкость при 100°C \[212°F \] |  |  |  |
-| • Процент воды |  |  |  |
-| • Разбавление топлива |  |  |  |
-| • Процент сажи |  |  |  |
-| • Нитратация окисления I |  |  |  |
-| • Общее базовое число (TBN) |  |  |  |
-| Хранение навалом - охладитель | Минимальный ежеквартальный и при изменении на марку или спецификацию охлаждающей жидкости | При помощи клапана отбора проб, установленного в цистерне для массовых грузов | Тест 2 на качество и загрязняющие вещества: |
-| • Визуальные эффекты (пена, цвет, масло, топливо, магнитные и немагнитные осадки и запах) |  |  |  |
-| 12 металлов индуктивно связной плазмы (ICP) |  |  |  |
-| • Процент антифриза |  |  |  |
-| • Точка замерзания |  |  |  |
-| • Точка кипения |  |  |  |
+| Fluid | Sampling Interval | Suggested Method and Location | Purpose and Tests Cummins® Monitor Program Test Package |
+| Bulk Storage - Lubricating Oil | Minimum of quarterly and if change to lubricating oil brand or specification | By sampling valve installed in bulk tank | Test1 for Oil Quality and Contaminants: |
+| • Elemental Metals by Inductively Coupled Plasma (ICP) |  |  |  |
+| • Viscosity at 100°C \[ 212°F \] |  |  |  |
+| • Water Percent |  |  |  |
+| • Fuel Dilution |  |  |  |
+| • Soot Percent |  |  |  |
+| • Oxidation I Nitration |  |  |  |
+| • Total Base Number (TBN) |  |  |  |
+| Bulk Storage - Coolant | Minimum of quarterly and if change to coolant brand or specification | By sampling valve installed in bulk tank | Test2 for Coolant Quality and Contaminants: |
+| • Visuals (foam, color, oil, fuel, magnetic and non-magnetic precipitate and odor) |  |  |  |
+| • 12 Metals by Inductively Coupled Plasma (ICP) |  |  |  |
+| • Percent Antifreeze |  |  |  |
+| • Freeze Point |  |  |  |
+| • Boil Point |  |  |  |
 | • pH |  |  |  |
-| • Тяжесть |  |  |  |
-| • Номер SCA |  |  |  |
-| • Нитриты |  |  |  |
-| • полностью растворенные твердые |  |  |  |
-| • Конкретная проводимость |  |  |  |
-| Навал, резервуарное и полевое оборудование - топливо | Ежемесячно или чаще, если топливные фильтры оборудования не достигают требуемого срока службы или срок службы фильтра уменьшается с установленного базового уровня. | Путем отбора проб клапана, установленного в резервуаре для массовых грузов, со счетчиком частиц на месте и бутылками для проб. В нижней части оборудования топливный бак через порт на оборудовании топливный бак с пробными бутылками. | Тест 3 на качество топлива и загрязняющие вещества: |
-| 24 металла индуктивно связной плазмы (ICP) |  |  |  |
-| • Вязкость при 40°C[104°F] |  |  |  |
-| • Процент серы |  |  |  |
-| • API Гравитация |  |  |  |
-| • Дистилляция |  |  |  |
+| • Hardness |  |  |  |
+| • SCA Number |  |  |  |
+| • Nitrites |  |  |  |
+| • Total Dissolved Solids |  |  |  |
+| • Specific Conductance |  |  |  |
+| Bulk, Tank Storage and Field Service Equipment - Fuel | Monthly or more frequently if fuel filters of equipment do not reach required life or filter life decreases from established baseline. | By sampling valve installed in bulk tank, with particle counter in place and sample bottles. At bottom of equipment fuel tank through port on equipment fuel tank with sample bottles. | Test3 for Fuel Quality and Contaminants: |
+| • 24 Metals by Inductively Coupled Plasma (ICP) |  |  |  |
+| • Viscosity at 40°C \[ 104°F \] |  |  |  |
+| • Percent Sulfur |  |  |  |
+| • API Gravity |  |  |  |
+| • Distillation |  |  |  |
 | • Flash Point |  |  |  |
-| Облачная точка |  |  |  |
-| • Пур-Пойнт |  |  |  |
-| • Вода и осадок |  |  |  |
-| • Бактерии, грибы и плесень |  |  |  |
-| • Расчетный индекс цетана |  |  |  |
-| • Термическая стабильность |  |  |  |
-| • Вода методом титрования Карла Фишера |  |  |  |
-| Тест 4 для подсчета частиц топлива ISO и загрязняющих веществ: |  |  |  |
-| PPM ISO - подсчет частиц |  |  |  |
-| Тест на фильтрацию: |  |  |  |
-| • Комплект анализа чистоты переносного топлива Cummins Fleetguard, номер детали FK36000 или ASTM D2068 - Процедура А. |  |  |  |
-| При использовании Cummins® Fleetguard® MonitorTM: 1Справочный монитор CC36136 2Справочный монитор CC2700 3Справочный монитор CC2651, 4Справочный монитор CC2719 |  |  |  |
+| • Cloud Point |  |  |  |
+| • Pour Point |  |  |  |
+| • Water and Sediment |  |  |  |
+| • Bacteria, Fungi and Mold |  |  |  |
+| • Calculated Cetane Index |  |  |  |
+| • Thermal Stability |  |  |  |
+| • Water by Karl Fischer titration method |  |  |  |
+| Test4 for Fuel ISO Particle Counts and Contaminants: |  |  |  |
+| • PPM ISO Particle Count |  |  |  |
+| Test for Filter Plugging: |  |  |  |
+| • Cummins Fleetguard Portable Fuel Cleanliness Analysis Kit, part number FK36000 or ASTM D2068 - Procedure A. |  |  |  |
+| If using Cummins® Fleetguard® Monitor™: 1Reference Monitor™ CC36136 2Reference Monitor™ CC2700 3Reference Monitor™ CC2651, 4Reference Monitor™ CC2719 |  |  |  |
 
-Для получения дополнительной информации о Fleetguard® MonitorTM, см. CumminsFiltration.com.
+For more information about Fleetguard® Monitor™, reference CumminsFiltration.com.
 
-** Раздел 4: Первоначальные обновления оборудования и текущие требования к фильтру **
+**Section 4: Initial Equipment Upgrades and Ongoing Filter Requirements**
 
-> [!note] Примечание
-> Руководящие принципы и требования, содержащиеся в настоящем бюллетене, могут быть изменены без предварительного уведомления. Проконсультируйтесь с местным дистрибьютором или фильтрацией Cummins.
+> [!note] Note · Примечание
+> The guidelines and requirements in this bulletin are subject to change without notice. Consult your local Cummins Distributor or Cummins Filtration.
 
-> [!note] Примечание
-> Перед принятием этой информации конечный пользователь обязан связаться с дистрибьютором или фильтрацией Cummins, чтобы полностью понять информацию. Cummins Inc. ** не несет ответственности за неточную обработку этой процедуры и невыполнение Гарантии Cummins.
+> [!note] Note · Примечание
+> Before adopting this information, it is the responsibility of the end user to contact Cummins Distributor or Cummins Filtration to understand the information in its entirety. Cummins Inc. is **not** responsible for inaccurate handling of this procedure and failure to Cummins Warranty.
 
-> [!note] Примечание
-> Неисправности, которые могут возникнуть в результате установки или использования вспомогательных устройств, аксессуаров или расходных материалов другого производителя, не подпадают под действие гарантии Cummins®.
+> [!note] Note · Примечание
+> Failure that might occur due to installing or using other manufacturer's auxiliary devices, accessories or consumables, are **not** covered under Cummins® Warranty.
 
-> [!note] Примечание
-> Любые отклонения от спецификаций на жидкость и фильтр, как определено в этом бюллетене, аннулируют использование этого бюллетеня расширенного обслуживания. Жидкость и фильтры ** не**, отвечающие требованиям, перечисленным в настоящем документе **, должны** следовать стандартным интервалам технического обслуживания, определенным в соответствующем Руководстве по эксплуатации и техническому обслуживанию.
+> [!note] Note · Примечание
+> Any deviations from the fluid and filter specifications as defined in this service bulletin will void the use of this extended service bulletin. Fluid and filters **not** meeting the requirements listed in this document **must** follow the standard maintenance intervals defined in the corresponding Operation and Maintenance Manual.
 
-Для увеличения интервалов технического обслуживания требуется следующее:
+Extending maintenance intervals requires the following:
 
-- Топливо: Расширенная фильтрация с использованием топливных систем Industrial ProTM с использованием Nanonet®
-- Моторное масло: VenturiTM Комбо смазочные фильтры и/или центрифуга SpiratecTM фильтрация моторного масла
-- Охлаждающий: StrataporeTM расширенная сервисная фильтрация охлаждающей жидкости
+- Fuel: Advanced filtration inclusive Industrial Pro™ fuel systems with Nanonet® media
+- Lubricating Oil: Venturi™ Combo lube filters and/or Spiratec™ centrifuge lubricating oil filtration
+- Coolant: Stratapore™ extended service coolant filtration
 
-Фильтры для моторного масла
+Lubricating Oil Filters
 
-Для двигателей с EliminatorTM замените ротор EliminatorTM на цельный центробежный фильтр для моторного масла с технологией SpiraTecTM, как показано в таблице 3. Справочный технический бюллетень 160036.
+For engines with Eliminator™, replace Eliminator™ rotor with one-piece centrifugal lubricating oil filter with SpiraTec™ technology as shown in Table 3. Reference Technical Service Bulletin 160036.
 
-Выполните следующие проверки:
+Perform the following checks:
 
-1. Предел отливки крышки центрифуги был скорректирован для размещения нового центробежного фильтра. На крышках центрифуг с скорректированной допуском проштампована буква «V». Если на крышке центрифуги не проштампована буква "V", заменить крышку центрифуги крышкой центрифуги, Часть 4016423, проштампованной буквой "V" или измельчить/заполнить любые высокие пятна, обнаруженные на линии разъединения на внутренней стороне крышки центрифуги.
-2. Измерьте зазор между шпинделем и втулками внутри цельного центробежного фильтра моторного масла, замените шпиндель, если он находится за пределами указанных пределов. Справочный бюллетень 3666253.
+1. The casting tolerance of the centrifuge cover has been adjusted to accommodate the new centrifugal filter. Centrifuge covers with the adjusted tolerance are stamped with the letter “V”. If the centrifuge cover is not stamped with the letter "V", replace the centrifuge cover with a centrifuge cover, Part Number [[4016423]], stamped with the letter "V" or grind/file any high spots found at the parting line on the inside of the centrifuge cover.
+2. Measure clearance between the spindle and the bushings inside the one-piece centrifugal lubricating oil filter, replace the spindle if out of specification. Reference Bulletin 3666253.
 
-| ** Таблица 3, Номера деталей фильтра для фильтрации масла в центрифуге или удаленной центрифуги** |  |  |  |
+| **Table 3, Centrifuge Oil Filter Part Numbers for Eliminator™ or Remote Centrifuge** |  |  |  |
 |---|---|---|---|
-| ** Модели двигателей** | **Описание** | **Cummins® Part Numbers** | ** Флотгард® Часть Номер** |
-| QSK50 (Все версии) QSK60 (Все версии) | Однопицевый центробежный фильтр с технологией SpiraTecTM | 4331734 | CS41018 |
-| QSK78 (все версии) | Однопицевый центробежный фильтр с технологией SpiraTecTM | 3649569 | CS41019 |
+| **Engine Model** | **Description** | **Cummins® Part Numbers** | **Fleetguard® Part Number** |
+| QSK50 (All Versions) QSK60 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | [[4331734]] | CS41018 |
+| QSK78 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | 3649569 | CS41019 |
 
-Топливные фильтры
+Fuel Filters
 
-Для двигателей с топливной системой высокого давления (HPI)® удалите головку крепления топливного фильтра на двигателе и установите топливный фильтр Industrial Pro, как показано в таблице 4. Справочные инструкции по установке, входящие в комплект с топливными фильтрами.
+For engines with a High Pressure Injection (HPI)® fuel system, remove the on-engine fuel filter head and install off engine Industrial Pro fuel filter as shown in Table 4. Reference installation instructions included in the box with the fuel filters.
 
-Для двигателей с модульной общей системой рельсового топлива (MCRS) этап 1 и этап 2 фильтрации, как показано в таблице 4. Справочные инструкции по установке, входящие в комплект с топливными фильтрами.
+For engines with a Modular Common Rail System (MCRS) fuel system, upgrade stage 1 and stage 2 filtration as shown in Table 4. Reference installation instructions included in the box with the fuel filters.
 
-| ** Таблица 4, головка крепления топливного фильтра и номера частей элемента топливного фильтра** |  |  |  |  |  |  |  |  |
+| **Table 4, Fuel Filter Head and Fuel Filter Element Part Numbers** |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|
-| ** Модели двигателей** | **Фильтрационная стадия** | **Описание** | ** Количество** | **Численная часть номера** | ** Номер детали самолета** | ** Количество** | **Численная часть номера** | ** Номер детали самолета** |
-| QSK38 (Все версии) QSK50 (Все версии) QSK60 (Все версии) | Стадия 0 (требуется только при использовании насоса Cummins) | 14" Сборка, Drain клапан, 25 Micron filter | 1 | 3639554 | Неприменимые | 1 | 3639672 | Неприменимые |
-| QSK38 (все версии) | Этап 1 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / вправо | 1 | 4328042 | FH23901 | 1 | [[4328043]] | FS53014 |
-| Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / Out Left | 1 | 4328041 | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
-| Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / влево / Out Left | 1 | 4328064 | FH23905 | 1 | [[4328043]] | FS53014 |  |  |
-| Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Вправо / Out Right | 1 | 4328065 | FH23906 | 1 | [[4328043]] | FS53014 |  |  |
-| QSK50 (Все версии) QSK60 (Все версии) | Этап 1 | Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром Nanonet. Вправо / Out Right | 1 | 4381962 | FH23907 | 2 | [[4328043]] | FS53014 |
-| Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром Nanonet. Влево / Out Left | 1 | 4381959 | FH23908 | 2 | [[4328043]] | FS53014 |  |  |
-| Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром Nanonet. Влево / вправо | 1 | 4381960 | FH23910 | 2 | [[4328043]] | FS53014 |  |  |
-| Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром Nanonet. Влево / влево / Out Left | 1 | 4381961 | FH23911 | 2 | [[4328043]] | FS53014 |  |  |
-| QSK78 (все версии) | Этап 1 | Industrial Pro Unit, Triple Tall Tall, Bracket, WIF, Clear Bowl с 5-микронным нано-фильтром. Влево / вправо | 1 | 5374777 | FH23930 | 3 | [[4328043]] | FS53014 |
-| QSK38 CM850 CM2150 | Этап 2 | На головке фильтра конфигурации двигателя или удаленной установки с 3-микронным фильтром NanoNet® | 1 | 4380732 | Неприменимые | 2 | 5375819 | FF63042NN |
-| QSK50 CM850 CM2150 QSK60 CM850 CM2150 | Этап 2 | На головке фильтра конфигурации двигателя или удаленной установки с 3-микронным фильтром NanoNet® | 1 | 4380859 | Неприменимые | 3 | 5375819 | FF63042NN |
+| **Engine Model** | **Filtration Stage** | **Description** | **Quantity** | **Cummins Part Number** | **Fleetguard Part Number** | **Quantity** | **Cummins Part Number** | **Fleetguard Part Number** |
+| QSK38 (All Versions) QSK50 (All Versions) QSK60 (All Versions) | Stage 0 (only required if Cummins lift pump is used) | 14" Assembly, Drain Valve, 25 Micron filter | 1 | [[3639554]] | Not Applicable | 1 | [[3639672]] | Not Applicable |
+| QSK38 (All Versions) | Stage 1 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Left / Out Right | 1 | 4328042 | FH23901 | 1 | [[4328043]] | FS53014 |
+| Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Left | 1 | [[4328041]] | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
+| Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Left / Out Left | 1 | 4328064 | FH23905 | 1 | [[4328043]] | FS53014 |  |  |
+| Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Right | 1 | 4328065 | FH23906 | 1 | [[4328043]] | FS53014 |  |  |
+| QSK50 (All Versions) QSK60 (All Versions) | Stage 1 | Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Right / Out Right | 1 | 4381962 | FH23907 | 2 | [[4328043]] | FS53014 |
+| Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Right / Out Left | 1 | 4381959 | FH23908 | 2 | [[4328043]] | FS53014 |  |  |
+| Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Left / Out Right | 1 | 4381960 | FH23910 | 2 | [[4328043]] | FS53014 |  |  |
+| Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Left / Out Left | 1 | 4381961 | FH23911 | 2 | [[4328043]] | FS53014 |  |  |
+| QSK78 (All Versions | Stage 1 | Industrial Pro Unit, Triple Tall Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Left / Out Right | 1 | 5374777 | FH23930 | 3 | [[4328043]] | FS53014 |
+| QSK38 CM850 CM2150 | Stage 2 | On Engine or Remote Mount Configuration Filter Head with 3 Micron NanoNet® filter | 1 | 4380732 | Not Applicable | 2 | 5375819 | FF63042NN |
+| QSK50 CM850 CM2150 QSK60 CM850 CM2150 | Stage 2 | On Engine or Remote Mount Configuration Filter Head with 3 Micron NanoNet® filter | 1 | 4380859 | Not Applicable | 3 | 5375819 | FF63042NN |
 
-Если приложение использует MCRS CM850 или MCRS CM2150 для Tier 2 и нуждается в обновлении до Tier 4 Stage 2 Filtration Package, двухступенчатый клапан с воздушным кровотечением необходим, как показано в таблице 5. Справочный технический бюллетень 1800021.
+If an application uses a MCRS CM850 or MCRS CM2150 for Tier 2 and needs to be upgraded to Tier 4 Stage 2 Filtration Package, the two-stage air bleed valve is needed as shown in Table 5. Reference Technical Service Bulletin 1800021.
 
-| Таблица 5, Ассоциированная аппаратура |  |
+| Table 5, Associated Hardware |  |
 |---|---|
-| Наименование | Cummins® Part Number |
-| 2-ступенчатая воздушная кровоточащая клапан | [[4379736]] |
+| Description | Cummins® Part Number |
+| 2 Stage Air Bleed Valve | [[4379736]] |
 
-> [!note] Примечание
-> Воздушный кровоточащий клапан необходим только при модернизации топливного фильтра, устанавливающего головку.
+> [!note] Note · Примечание
+> Air bleed valve is only needed when upgrading fuel filter head.
 
-Фильтры с охлаждающим покрытием
+Coolant Filters
 
-Модернизированные варианты фильтрации охлаждающей жидкости предлагают более высокую емкость и улучшенную производительность фильтрации. Удалите существующие фильтры охлаждающей жидкости и замените их фильтрами охлаждающей жидкости StrataPoreTM. См. таблицу 6 ниже для номеров частей.
+The upgraded coolant filtration options offer higher capacity and improved filtration performance. Remove existing coolant filters and replace with StrataPore™ coolant filters. See Table 6 below for part numbers.
 
-| Таблица 6, Номера частей фильтра охлаждения |  |  |
+| Table 6, Coolant Filter Part Numbers |  |  |
 |---|---|---|
-| Наименование | Cummins® Part Number | Fleetguard - Часть номер |
-| На двигателе, без DCA*, StrataPoreTM | 3098690 | WF2123 |
-| * Только фильтры без DCA должны использоваться в сочетании с ОАТ-охлаждающим веществом. |  |  |
+| Description | Cummins® Part Number | Fleetguard® Part Number |
+| On-engine, no DCA\*, StrataPore™ media | 3098690 | WF2123 |
+| \*Only filters with no DCA should be used in combination with OAT coolant. |  |  |
 
-** Раздел 5: Продление интервалов технического обслуживания**
+**Section 5: Extended Maintenance Intervals**
 
-> [!note] Примечание
-> См. Руководство по эксплуатации для различных условий запуска двигателя при температуре окружающей среды. См. Продукт жидких кумминов для изменения элементов в различных условиях окружающей среды.
+> [!note] Note · Примечание
+> Refer to the Service Manual for different ambient temperature engine start up conditions. Refer to Fluid Cummins Product for change of elements on different ambient conditions.
 
-Сезонные требования:
+Seasonal Requirements:
 
-Подготовка к холодной погоде:
+Cold Weather Preparation:
 
-- Проверьте работу нагревателей топливного фильтра.
-- Тест на уровень гликоля с комплектом для испытаний охлаждающей жидкости, номер детали CC8997.
-- Проверьте уровень охлаждающей жидкости / Top Off. См. сервисную документацию изготовителя оборудования.
+- Check operation of fuel filter heaters.
+- Test for Glycol Levels with Coolant Test Kit, Fleetguard Part Number CC8997.
+- Check coolant level / Top Off. See equipment manufacturer service information.
 
-> [!note] Примечание
-> Экстремальные зимние или солевые коррозионные среды могут потребовать смазки воротничковой резьбы на топливных фильтрах стадии 1 с противозахватным соединением, Номер детали 3163086, каждые 180 дней.
+> [!note] Note · Примечание
+> Extreme winter or salt corrosion environments may require lubrication of the collar threads on stage 1 fuel filters with anti-seize compound, Part Number 3163086, every 180 days.
 
-Подготовка к жаркой погоде:
+Hot Weather Preparation:
 
-- Тест на уровень гликоля с комплектом для испытаний охлаждающей жидкости, номер детали CC8997.
-- Проверьте уровень охлаждающей жидкости / сверху. См. сервисную документацию изготовителя оборудования.
+- Test for Glycol Levels with Coolant Test Kit, Fleetguard Part Number CC8997.
+- Check coolant level / top off. See equipment manufacturer service information.
 
-Время и условия, основанные на требованиях:
+Time and Condition Based Requirements:
 
-| **Таблица 7, интервалы технического обслуживания локомотивов** |  |  |  |  |  |  |  |  |  |  |  |
+| **Table 7, Time Based Maintenance Intervals for Locomotives** |  |  |  |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| ** Система** | ** Список задач технического обслуживания** | **Как требуется** | ** Ежедневно и еженедельно** | **250 часов** | *500 часов** | * 1000 часов** | **1500 часов** | *2000 часов** | ** 3000 часов** | **4000 часов** | **4500 часов** |
-| охлаждающий | Испытательный охлаждающая жидкость для пределов замены | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |
-| охлаждающий | Изменение фильтров охлаждающей жидкости |  |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |
-| охлаждающий | Сверху охлаждение | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Слив воды и осадка из нижней чаши топливных фильтров Industrial ProTM | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить топливные фильтры 1-й ступени | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить топливные фильтры 2-й ступени | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Моторное масло | Собрать образец моторного масла и выполнить анализ моторного масла | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Моторное масло | Изменение двигателя моторного масла |  | В соответствии с Руководством по эксплуатации и техническому обслуживанию или Интервалом моторного масла, установленным в разделе 6. |  |  |  |  |  |  |  |  |
-| Моторное масло | Смена ротора в EliminatorTM / Centrifuge |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Если QSK38 CM850 CM2150 использует параметры QSK50/60 и количества, указанные в таблице 4, можно достичь 2000 часов. |  |  |  |  |  |  |  |  |  |  |  |
+| **System** | **List of Maintenance Tasks** | **As Required** | **Daily and Weekly** | **250 Hours** | **500 Hours** | **1000 Hours** | **1500 Hours** | **2000 Hours** | **3000 Hours** | **4000 Hours** | **4500 Hours** |
+| Coolant | Test coolant for replacement limits | X |  |  |  |  |  |  |  | X |  |
+| Coolant | Change coolant filters |  |  |  |  |  |  |  |  | X |  |
+| Coolant | Top off coolant | X |  |  | X | X | X | X | X | X | X |
+| Fuel | Drain water and sediment from lower bowl of Industrial Pro™ fuel filters | X | X | X | X | X | X | X | X | X | X |
+| Fuel | Replace stage 1 fuel filters | X |  |  |  |  | X |  | X |  | X |
+| Fuel | Replace stage 2 fuel filters | X |  |  |  |  | X |  | X |  | X |
+| Lubricating Oil | Collect lubricating oil sample and perform lubricating oil analysis | X |  | X | X | X | X | X | X | X | X |
+| Lubricating Oil | Change engine lubricating oil |  | According to Operation and Maintenance Manual or Lubricating Oil Drain Interval Established in Section 6. |  |  |  |  |  |  |  |  |
+| Lubricating Oil | Change rotor in Eliminator™ / Centrifuge |  |  |  |  |  | X |  | X |  | X |
+| If the QSK38 CM850 CM2150 uses the QSK50/60 options and quantities outlined in Table 4, 2000 hours can be achieved. |  |  |  |  |  |  |  |  |  |  |  |
 
-| **Таблица 8, Интервалы технического обслуживания фильтров на основе условий** |  |
+| **Table 8, Condition Based Filter Mainenance Intervals** |  |
 |---|---|
-| ** Система** | ** Показатели замещения** |
-| Фильтры для топлива, этап 1 | Заменить на основании графика в Таблице 7 или с использованием визуальной индикации на устройствах Industrial ProTM или по указаниям FleetguardFITTM. |
-| Фильтры для топлива, этап 2 | Заменить на основании графика в таблице 7 или по указанию FleetguardFITTM. |
-| Моторное масло, ЭлиминаторTM/удаленный ротор центрифуги | Заменить на основании графика в Таблице 7 или одновременно с заменой моторного масла и фильтров моторного масла. |
-| Фильтры для охлаждения / воды | Заменить на основе графика в таблице 7. |
+| **System** | **Replacement Indicators** |
+| Fuel Filters, Stage 1 | Replace based on schedule in Table 7 or using visual indication on Industrial Pro™ units or when indicated by FleetguardFIT™. |
+| Fuel Filters, Stage 2 | Replace based on schedule in Table 7 or when indicated by FleetguardFIT™. |
+| Lubricating Oil, Eliminator™ / remote centrifuge rotor | Replace based on schedule in Table 7 or at the same time as lubricating oil and lubricating oil filters are replaced. |
+| Coolant / Water filters | Replace based on schedule in Table 7. |
 
-Флитгард Фитт
+FleetguardFIT™
 
-Технология фильтрации интеллекта (FIT) представляет собой систему мониторинга фильтрации в режиме реального времени, которая обеспечивает полную видимость для фильтрации (топливо, люб и воздух) и жизни масла, что позволяет проактивно обнаруживать проблемы с помощью интеллектуального зондирования и расширенной аналитики данных. Чтобы узнать больше о FleetguardFIT и о том, как его включить в свой двигатель, свяжитесь с Cummins Filtration по адресу info@fleetguardfit.com.
+Filtration Intelligence Technology (FIT) is a real-time filtration monitoring system that provides full visibility to filter (Fuel, Lube and Air) and oil life enabling proactive problem detection using intelligent sensing and advanced data analytics. To learn more about FleetguardFIT and how to get it onto your engine, contact Cummins Filtration at info@fleetguardfit.com.
 
-> [!note] Примечание
-> Если топливные фильтры достигают требуемого срока службы или срок службы фильтра уменьшается, требуется оценка качества топлива, состояния топливного бака, систем хранения и системы фильтрации навалочных сыпей.
+> [!note] Note · Примечание
+> If fuel filters do **not** reach required life or filter life decreases, assessment of fuel quality, fuel tank condition, storage systems and bulk filtration system is required.
 
-** Раздел 6: Испытание на моторное масло для увеличения интервала слива**
+**Section 6: Lubricating Oil Drain Interval Extension Test**
 
-> [!warning] ОСТОРОЖНО
-> Использование синтетического базового моторного масла не оправдывает расширенные интервалы изменения моторного масла. Расширенные интервалы изменения масла могут уменьшить срок службы двигателя в результате коррозии, отложений и износа.
+> [!warning] CAUTION · Осторожно
+> The use of a synthetic base lubricating oil does not justify extended lubricating oil change intervals. Extended oil change intervals can decrease engine life as the result of corrosion, deposits, and wear.
 
-> [!warning] ОСТОРОЖНО
-> Если оборудование использует удаленный резервуар для моторного масла, в котором непрерывно циркулирует моторное масло (не масляный баллон CentinelTM), моторное масло в удаленном резервуаре должно быть изменено при изменении моторного масла в отстойнике для моторного масла двигателя.
+> [!warning] CAUTION · Осторожно
+> If the equipment is using a remote lubricating oil tank in which lubricating oil is continuously circulated ( not a Centinel™ oil make-up tank), the lubricating oil in the remote tank must be changed when the lubricating oil in the engine lubricating oil sump is changed.
 
-Цель данного теста заключается в увеличении интервала между изменениями моторного масла с использованием результатов анализа моторного масла, полученных в рамках программы анализа жидкостей Fleetguard® Monitor или другой эквивалентной лаборатории.
+The purpose of this test is to increase the interval between lubricating oil changes using lubricating oil analysis results from the Fleetguard® Monitor Fluid Analysis Program or another equivalent laboratory.
 
-Этот метод установки интервала моторного масла с оптимизацией фильтра заменяет использование метода диаграммы моторного масла при использовании этого бюллетеня службы.
+This method for setting the Lubricating Oil Drain Interval with Filter Optimization replaces the use of the Lubricating Oil Chart Method when using this Service Bulletin.
 
-**не** Расширить интервалы изменения фильтров моторного масла и моторного масла за пределы, указанные в графике технического обслуживания, если не выполнены все условия, требуемые настоящим бюллетенем обслуживания:
+Do **not** extend lubricating oil and lubricating oil filter change intervals beyond the limits specified in the maintenance schedule, unless all conditions required by this service bulletin are met:
 
-- Завершение оценки сайта, как определено в разделе 1.
-- Моторное масло соответствует спецификациям в разделе 2.
-- Использование фильтров для моторного масла, указанных в разделе 3.
-- Система мониторинга моторного масла действует в соответствии с разделом 4.
+- Completion of site assessment as defined in Section 1.
+- Lubricating oil meets Specifications in Section 2.
+- Use of lubricating oil filters specified in Section 3.
+- Lubricating oil monitoring system is in place as specified in Section 4.
 
-Если автопарк состоит из моделей двигателей смешанного типа, различных рабочих циклов или оборудования с различными конфигурациями систем моторного масла, каждая группа должна рассматриваться отдельно. Минимум три единицы каждой должны быть тщательно оценены до принятия интервала дренажа для флота. Двигатели сегмента:
+If fleet is made up of mixed engine models, varying duty cycles, or equipment with differing lubricating oil system configurations, each group must be considered separately. A minimum of three units of each should be evaluated thoroughly prior to adopting a drain interval for the fleet. Segment engines by:
 
-- Модель двигателя
-- Мощность системы моторного масла (включая любые удаленные резервуары для моторного масла, где моторное масло постоянно циркулирует)
-- Использование систем пополнения моторного масла CentinelTM
-- Использование EliminatorTM против спина на фильтрах моторного масла и центрифуге
-- Цикл дежурства
-- Используемое моторное масло (наименование бренда, категория производительности и степень вязкости)
+- Engine Model
+- Lubricating oil system capacity (including any remote lubricating oil tanks where the lubricating oil is continuously circulated)
+- Use of Centinel™ lubricating oil replenishment systems
+- Use of Eliminator™ vs spin on lubricating oil filters and centrifuge
+- Duty cycle
+- Lubricating oil used (brand name, performance category, and viscosity grade)
 
-> [!note] Примечание
-> Интервал моторного масла, установленный этим процессом, может применяться только к двигателям в том же сегменте, что и определено выше, и с конкретным моторным маслом, используемым для установления расширенного интервала слива моторного масла. Любые изменения в смазочном масле (включая изменения в степени вязкости), рабочем цикле или системе моторного масла двигателя потребуют повторной проверки интервала слива моторного масла.
+> [!note] Note · Примечание
+> The Lubricating Oil Drain Interval Extension established by this process can only be applied to engines in the same segment as defined above and with the specific lubricating oil used to establish the extended lubricating oil drain interval. Any changes to the lubricating oil (including changes to viscosity grade), duty cycle, or engine lubricating oil system will require re-verification of the lubricating oil drain interval.
 
-Образцы моторного масла должны быть отправлены в лабораторию, способную проверить параметры в Таблице 9 с использованием указанного метода испытаний.
+Lubricating oil samples must be sent to a lab capable of testing the parameters in Table 9 using the specified test method.
 
-| Таблица 9, Параметры анализа масла |  |  |
+| Table 9, Oil Analysis Test Parameters |  |  |
 |---|---|---|
-| Тип параметра | Параметр, единица | Рекомендуемый метод испытаний |
-| Здоровье моторного масла | Общее базовое число (TBN), мг KOH/г | ASTM D4739 |
-| Общее количество кислот (TAN), мг KOH/г | ASTM D664 |  |
-| Окисление, абс/см | ASTM E2412 или ASTM D7414 |  |
-| Нитратация, Абс/см | ASTM E2412 |  |
-| Вязкость при 100°C \[212°F \], cSt | ASTM D445 |  |
-| загрязнение | Разбавление топлива, масса Процент топлива в масле | ASTM 7593 |
-| Сажа, масса Процент сажи в масле | ASTM E1131 |  |
-| Натрий - Na, ppm | D5185 |  |
-| Калий - К, ppm | D5185 |  |
-| Кремний - Si, ppm | D5185 |  |
-| Алюминий - Al, ppm | D5185 |  |
-| Носить металлы | Железный - Fe, ppm | D5185 |
-| Свинец - Pb, ppm | D5185 |  |
-| Медь - Cu, ppm | D5185 |  |
-| Алюминий - Al, ppm | D5185 |  |
+| Parameter Type | Parameter, Unit | Recommended Test Method |
+| Lubricating Oil Health | Total Base Number (TBN), mg KOH/g | ASTM D4739 |
+| Total Acid Number (TAN), mg KOH/g | ASTM D664 |  |
+| Oxidation, abs/cm | ASTM E2412 or ASTM D7414\* |  |
+| Nitration, abs/cm | ASTM E2412 |  |
+| Viscosity at 100°C \[ 212°F \], cSt | ASTM D445 |  |
+| Contamination | Fuel Dilution, massPercent fuel in oil | ASTM D7593 |
+| Soot, massPercent soot in oil | ASTM E1131 |  |
+| Sodium - Na, ppm | D5185 |  |
+| Potassium - K, ppm | D5185 |  |
+| Silicon - Si, ppm | D5185 |  |
+| Aluminum - Al, ppm | D5185 |  |
+| Wear Metals | Iron - Fe, ppm | D5185 |
+| Lead - Pb, ppm | D5185 |  |
+| Copper - Cu, ppm | D5185 |  |
+| Aluminum - Al, ppm | D5185 |  |
 | Tin - Sn, ppm | D5185 |  |
-| Хром - Cr, ppm | D5185 |  |
-| * Данные инфракрасной спектроскопии преобразования Фурье (FTIR) для окисления могут использовать либо метод ASTM, но должны сообщать, использовались ли методы трендирования или вычитания. |  |  |
+| Chromium - Cr, ppm | D5185 |  |
+| \*The Fourier transform infrared spectroscopy (FTIR) data for oxidation can use either ASTM method but should report whether trending or subtraction methods were used. |  |  |
 
-Сборник проб моторного масла:
+Collection of Lubricating Oil Sample:
 
-Образцы рекомендуется принимать с интервалами, указанными в таблице 11. Для процедуры отбора проб см. Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
+Samples recommended to be taken at intervals specified in Table 11. For sampling procedure, See Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
 
-Для установления трендовых линий необходимо собрать не менее пяти образцов моторного масла на интервал слива масла ***. Для моторного масла, которое может **не** достичь интервала, установленного в плане отбора проб, собирайте образцы моторного масла с более частыми интервалами (каждые 50 часов или каждые 75 часов), чтобы определить соответствующий интервал слива моторного масла.
+A minimum of five lubricating oil samples per oil drain interval **must** be collected to establish trend lines. For lubricating oil that can **not** reach the interval established in the sampling plan, collect lubricating oil samples at more frequent intervals (every 50 hours or every 75 hours) to determine the appropriate lubricating oil drain interval.
 
-Нанести на образец следующую информацию перед отправкой на анализ:
+Label the sample with the following information before submitting for analysis:
 
-- Модель двигателя/серийный номер
-- Мили/часы использования моторного масла
-- Мили/часы, накопленные на двигателе с момента его восстановления
-- Используемое моторное масло (наименование бренда, категория производительности и степень вязкости)
-- Была собрана дата выборки
-- Применение двигателя
-- Количество нового моторного масла, добавленного после предыдущей замены моторного масла.
+- Engine model/serial number
+- Miles/hours of lubricating oil use
+- Miles/hours accumulated on engine since new or rebuild
+- Lubricating oil used (brand name, performance category and viscosity grade)
+- Date sample was collected
+- Engine application
+- Amount of new lubricating oil added since previous lubricating oil change.
 
-Проверка целостности моторного масла:
+Verification of Lubricating Oil Integrity:
 
-Как тренды, так и ограничения используются для определения соответствующего интервала слива моторного масла. Cummins Inc. Клиент должен сотрудничать, чтобы определить соответствующий интервал слива моторного масла. Документация о валидации интервала слива моторного масла ** должна быть сохранена в файле оценки сайта.
+Both trending and limits are used to determine the appropriate lubricating oil drain interval. Cummins Inc. and the Customer should collaborate to determine the appropriate lubricating oil drain interval. Documentation of the lubricating oil drain interval validation **must** be retained in the site assessment file.
 
-Линейная тенденция на протяжении каждого интервала слива моторного масла:
+Linear trending throughout each lubricating oil drain interval of:
 
-- Общее базовое число (TBN)
-- Общее количество кислот (TAN)
-- окисление
-- Нитратация
-- Сажа (Сажа может не сразу начать тренд; когда трендовая сажа обычно линейна).
-- железо
-- Ведущий
-- медь
+- Total Base Number (TBN)
+- Total Acid Number (TAN)
+- Oxidation
+- Nitration
+- Soot (Soot may not begin trending immediately; when trending soot is usually linear.)
+- Iron
+- Lead
+- Copper
 
-Линейный пример тренда Ключ к рисунку 1:
+Linear Trending Example Key for Figure 1:
 
-1. Линейная тенденция значения параметра анализа моторного масла по сравнению с часами на смазочном масле.
-2. Точка, в которой значение параметра анализа моторного масла отклоняется от линейной линии тренда.
-3. Часы на смазочном масле, при которых значение параметра анализа моторного масла отклоняется от линейной линии тренда.
-4. Установлен предел моторного масла. Вычтите 20% из часов на смазочном масле, где значение параметра отклоняется от линейной линии тренда.
+1. Linear trend of lubricating oil analysis parameter value vs hours on lubricating oil.
+2. Point at which lubricating oil analysis parameter value deviates from linear trend line.
+3. Hours on lubricating oil at which lubricating oil analysis parameter value deviates from linear trend line.
+4. Established lubricating oil drain limit. Subtract 20% from hours on lubricating oil where parameter value deviates from linear trend line.
 
 ![[17r00795.png]]
 
-Рисунок 1, пример линейного тренда
+Figure 1, Linear Trending Example
 
-Параметры анализа моторного масла находятся в пределах, определенных в таблице 10.
+Lubricating Oil Analysis Parameters are within limits defined in Table 10.
 
-| Таблица 10, Пределы параметров анализа нефти |  |
+| Table 10, Oil Analysis Parameter Limits |  |
 |---|---|
-| Параметр анализа нефти | Предельная стоимость |
-| Общее количество кислот (TAN) мг KOH/g | 2.5 увеличение по сравнению с новым моторным маслом или равное TBN |
-| Общее базовое число (TBN) мг KOH/g | 2.5 Минимальный или равный TAN |
-| Растворимость топлива % | 5% |
-| сажа % | 5% |
-| Вязкость 100°C \[212°F \] cSt | Для XW-40: |
-| Мин: 12.5 MAX: 16.3 |  |
-| Для XW-30: |  |
-| Мин: 9.3 MAX: 12.5 |  |
-| Окисление abs/cm – прямой тренд | 151 |
-| Нитратация abs/cm – прямой тренд | 25 |
-| 1 Увеличение по сравнению с новым (неиспользованный образец масла) |  |
+| Oil Analysis Parameter | Limit Value |
+| Total Acid Number (TAN) mg KOH/g | 2.5 increase over new lubricating oil or equal to TBN |
+| Total Base Number (TBN) mg KOH/g | 2.5 minimum or equal to TAN |
+| Fuel Dilution Percent | 5% |
+| Soot Percent | 5% |
+| Viscosity 100°C \[ 212°F \] cSt | For XW-40: |
+| MIN: 12.5 MAX: 16.3 |  |
+| For XW-30: |  |
+| MIN: 9.3 MAX: 12.5 |  |
+| Oxidation abs/cm – direct trending | 151 |
+| Nitration abs/cm – direct trending | 25 |
+| 1 Increase over new (unused oil sample) |  |
 
-Повторите план образца для 3 различных интервалов слива моторного масла на каждом из 3 двигателей в одном сегменте.
+Repeat sample plan for 3 different lubricating oil drain intervals on each of the 3 engines in the same segment.
 
-Окончательный слив моторного масла будет представлять собой часы, в течение которых любой из образцов не соответствовал критериям испытаний на целостность моторного масла, сниженным на 20%.
+Final lubricating oil drain will be the hours at which any of the samples did **not** meet the lubricating oil integrity test criteria reduced by 20%.
 
-20% маржа добавляется к утвержденному интервалу слива моторного масла, чтобы учесть изменения скорости деградации моторного масла по мере старения двигателя.
+20% margin is added to the approved lubricating oil drain interval to account for changes in rate of lubricating oil degradation as the engine ages.
 
-| Таблица 11, пример Плана отбора проб моторного масла |  |  |
+| Table 11, Example Lubricating Oil Sampling Plan |  |  |
 |---|---|---|
-| Номер выборки | Часы моторного масла | Наименование |
-| 0 | Базовая линия | Образец неиспользованного моторного масла из контейнера. |
-| 1 | 0 | Соберите образец после заполнения отстойника новым моторным маслом и позвольте двигателю простаивать в течение 5 минут. |
-| 2 | 250 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 3 | 500 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 4 | 750 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 5 | 1000 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 6 | 1250 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 7 | 1300 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 8 | 1350 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 9 | 1400 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 10 | 1450 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 11 | 1500 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 12 | 1550 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 13 | 1600 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 14 | 1650 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 15 | 1700 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 16 | 1750 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 17 | 1800 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 18 | 1850 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
-| 19 | 1900 | Конец теста. Соберите образец перед сливом моторного масла. |
+| Sample Number | Lubricating Oil Hours | Description |
+| 0 | Baseline | Sample unused lubricating oil from the container. |
+| 1 | 0 | Collect sample after filling the sump with new lubricating oil and letting the engine idle for 5 minutes. |
+| 2 | 250 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 3 | 500 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 4 | 750 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 5 | 1000 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 6 | 1250 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 7 | 1300 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 8 | 1350 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 9 | 1400 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 10 | 1450 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 11 | 1500 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 12 | 1550 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 13 | 1600 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 14 | 1650 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 15 | 1700 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 16 | 1750 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 17 | 1800 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 18 | 1850 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
+| 19 | 1900 | End of test. Collect sample before draining lubricating oil. |
 
-** Раздел 7: Дополнительная литература**
+**Section 7: Additional Service Literature**
 
-Литература найдена на QuickServe® Online:
+Literature found on QuickServe® Online:
 
-С 2007 года компания Cummins Inc. Начала использовать названия моделей сервисов. Для содействия в определении соответствующего названия модели обслуживания:
+Beginning in 2007, Cummins Inc. started using service model names. For assistance in identifying associated service model name:
 
-- См. Technical Service Bulletin, Cummins® Service Engine Model Identification, [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Обзор связанных с Cummins® технологических процедур.
+- See Technical Service Bulletin, Cummins® Service Engine Model Identification, [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review associated Cummins® Product Technology procedures.
 
-Сервисные бюллетени:
+Service Bulletins:
 
-- См. Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
-- См. Service Bulletin, Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin 2883452.
-- См. Service Bulletin, Fuel Sampling for Particle Counting Test, Bulletin 4022123.
+- See Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
+- See Service Bulletin, Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin 2883452.
+- See Service Bulletin, Fuel Sampling for Particle Counting Test, Bulletin 4022123.
 
-Руководство по эксплуатации и техническому обслуживанию:
+Operation and Maintenance Manuals:
 
-- См. Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Просмотрите соответствующие процедуры Cummins® Product Technology.
-- См. QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin 3666260.
-- См. K38, K50, QSK38 и QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].
-- См. QSK45 and QSK60 Operation and Maintenance Manual, Bulletin 4915528.
-- См. QSK78 CM500 (HPI) Operation and Maintenance Manual, Bulletin 3666714.
+- See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
+- See QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]].
+- See K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].
+- See QSK45 and QSK60 Operation and Maintenance Manual, Bulletin [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]].
+- See QSK78 CM500 (HPI) Operation and Maintenance Manual, Bulletin 3666714.
 
-Руководства по обслуживанию:
+Service Manuals:
 
-- Руководство по эксплуатации жидкостей для продуктов Cummins, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
-- См. Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Просмотрите соответствующие процедуры Cummins® Product Technology.
-- См. QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin 4021530.
-- См. K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
-- См. QSK45 и QSK60 Service Manual, Bulletin 4021530.
+- Fluids for Cummins Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
+- See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
+- See QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+- See K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
+- See QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 
-Литература не найдена в QuickServe® Online:
+Literature not found on QuickServe® Online:
 
 Hardcopy Service Bulletin:
 
-- Сервисный бюллетень, Качество топлива для двигателей большой мощности с модульными общими железнодорожными топливными системами (MCRS), бюллетень 4091849
+- Service Bulletin, Fuel Quality for High Horsepower Engines with Modular Common Rail Fuel Systems (MCRS), Bulletin 4091849
 
-### История изменений документа
+### Document History
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
+| [[3639554]] | FUEL FILTER | Топливный фильтр |
+| [[3639672]] | FUEL FILTER ELEMENT | Фильтрующий элемент топливного фильтра |
+| [[4016423]] | CENTRIFUGE COVER |  |
+| [[4328041]] | FUEL FILTER | Топливный фильтр |
 | [[4328043]] | FUEL FILTER ELEMENT | Фильтрующий элемент топливного фильтра |
+| [[4331734]] | FILTER,CENTRIFUGE |  |
 | [[4379736]] | CHECK VALVE | Обратный клапан |
-
-> [!quote]- Original (English) · английский оригинал
-> ## Extended Service Interval Program for Locomotive Applications
->
-> **Product Affected**
->
-> - QSK38 CM850 MCRS
-> - QSK38 CM2150 MCRS
-> - QSK50 CM850 MCRS
-> - QSK50 CM2150 MCRS
-> - QSK60 CM500
-> - QSK60 CM850 MCRS
-> - QSK60 CM2150 MCRS
-> - QSK78 CM500
->
-> **Note · Примечание**
-> If an engine model or an application is not listed above, contact Cummins Distributor or Cummins Filtration.
->
-> **Content Overview**
->
-> The purpose of this document is to identify the steps required to extend the service interval for Locomotive applications.
->
-> Section 1: Site Assessment
->
-> Section 2: Fluid Specifications
->
-> Section 3: Fluid and Filter Monitoring
->
-> Section 4: Initial Equipment Upgrades and Filter Requirements
->
-> Section 5: Extended Maintenance Intervals
->
-> Section 6: Lubricating Oil Drain Interval Extension Test
->
-> Section 7: Additional Service Literature
->
-> Maintenance intervals discussed within this document include:
->
-> - Coolant drain
-> - Coolant filters
-> - Fuel filters
-> - Lubricating oil drain
-> - Lubricating oil filters
->
-> **Note · Примечание**
-> The guidelines and requirements in this bulletin are subject to change without notice. Consult your local Cummins Distributor or Cummins Filtration.
->
-> **Note · Примечание**
-> Before adopting this information, it is the responsibility of the end user to contact Cummins Distributor or Cummins Filtration to understand the information in its entirety. Cummins Inc. is not responsible for inaccurate handing of this procedure and failure to Cummins Warranty.
->
-> **Extended Service Interval for Locomotive Applications Program RequirementsSection 1: Site Assessment**
->
-> The equipment, site, operating conditions, and environment affect the ability to extend maintenance intervals. The make and model of the equipment, site's rigorous maintenance practice, higher and low loads, long idling periods, and weather and environmental extreme conditions such as wet, dusty, freezing, and hot operation might require more frequent maintenance than specified in the Maintenance Manual.
->
-> A site assessment must be completed to ensure success with this extended maintenance interval program. To schedule a site assessment, contact your local Cummins Distributor or Cummins Filtration.
->
-> **Section 2: Fluid Specifications**
->
-> **Note · Примечание**
-> Any deviations from the fluid (lubricating oil, fuel, coolant) and filter specifications as defined in this service bulletin will void the use of this extended service bulletin. Fluid and filters not meeting the requirements listed in this document must follow the standard maintenance intervals defined in the corresponding Operation and Maintenance Manual.
->
-> Lubricating Oil Requirements
->
-> - Lubricating oil **must** meet the requirements specified by Cummins Inc.
-> - Lubricating oil used **must** be registered in Cummins Oil Registration List. **Note:** https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/oil\_registration.html
-> - Lubricating oil drain intervals **must** follow the intervals specified in the corresponding Operation and Maintenance Manual unless extended drain intervals are proven through a testing protocol described in this bulletin.
->
-> **Note · Примечание**
-> During testing it is best **not** to mix two types or brands of oil, even if both are registered to an appropriate Cummins specification. In some cases, it has been observed that mixing oils led to challenges in interpreting the effects of extended oil drains from the mixing of oils.
->
-> Fuel Requirements
->
-> - Fuels must meet the requirements as specified by Cummins Inc.
->
-> Specific fuel requirements include:
->
-> - Fuels **must** meet International Organization for Standardization (ISO) 4406 cleanliness code of 18/16/13 or better at the inlet of the stage 1 fuel filter with a maximum water content of 200 ppm.
-> - Fuels that meet or exceed American Society for Testing and Materials (ASTM) D2068 “Filter Plugging Tendency Tests” procedure A with a Filter Blocking Tendency (FBT) calculation high limit of 1.41.
-> - Fuel **must** pass the fuel quality test using the Cummins Fleetguard Portable Fuel Cleanliness Analysis Kit, part number FK36000.
-> - Fuels that meet or exceed ASTM D975 - 15b “Standard Specification for Diesel Fuel Oils.”
-> - Only fuel additives that have demonstrated no negative effect on fuel filter or fuel system life can be used.
-> - If winter, cold weather, or high altitude fuel is used:
-> - If biofuel is used:
-> - If sulfur content in fuel is higher than 15 ppm, lubricating oil drain intervals **must** be verified using the procedure in Section 6.
-> - If sulfur content in fuel is higher than 500 ppm, extended drain intervals will not be supported.
->
-> Coolant Requirements
->
-> **Note · Примечание**
-> Do **not** mix two types of coolant products or brands.
->
-> **Note · Примечание**
-> Do **not** top off coolant system with water or conventional coolant.
->
-> - Coolant **must** meet the requirements specified by Cummins Inc.
-> - Coolants used **must** be registered in Cummins Coolant Registration List and in accordance with CES 14603 coolant specification and be fully formulated pre-mixed organic acid technology (OAT) coolant. Reference Coolant Registration List. **Note:** https://quickserve.cummins.com/qs3/qsolIservice/serviceproducts/coolant\_registration.html
-> - The following coolants have been proven capable of meeting extended drain intervals:
->
-> **Section 3: Fluid and Filter Monitoring**
->
-> This section provides the guidelines and requirements to collect, monitor, flag, act, and analyze engine fluids and filters that provide information to guide the Extended Service Interval for Locomotive Applications Program.
->
-> Lubricating Oil Sampling and Analysis:
->
-> - See Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
-> - See Service Bulletin, Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin 2883452.
->
-> Fuel Sampling and Analysis:
->
-> - For High Pressure Injection (HPI) Engine, Cummins Inc. recommends fuel samples be taken directly from vehicle equipment at the inlet to suction side fuel filter.
-> - For Modular Common Rail System (MCRS) Engines, samples **must** refer to Bulletin 4022123, Fuel Sampling for Particle Counting Test.
-> - If the fuel sample does **not** meet the requirements specified, revisit the site audit to identify opportunities for improved fuel quality.
->
-> Coolant Sampling Analysis:
->
-> - See the corresponding Operation and Maintenance Manual, under Section V - Maintenance and Specification, procedure 018-004 Coolant Recommendations and Specifications
-> - If molybdate, nitrite, and pH are **not** within specification, investigate maintenance practices and send coolant sample for contamination check. Coolant **must** be replaced. See the corresponding Service Manual. Reference procedure 008-018 Cooling System.
-> - If molybdate, nitrite, and pH are **not** within specification, investigate maintenance practices and send coolant sample for contamination check. Coolant **must** be replaced. See the corresponding Service Manual. Reference procedure 008-018 Cooling System.
->
-> Table 1 and Table 2 below specify the fluid analysis to be performed during operation when using extended service intervals.
->
-> | **Table 1, Engine Fluid Sampling Analysis Requirements** |  |  |  |
-> |---|---|---|---|
-> | **Fluid** | **Sampling Interval** | **Suggested Method and Location** | **Purpose and Test Package** |
-> | Lubricating Oil | 250 hours | Per Service Bulletin 4022060: Collect oil sample from pressurized port while engine idling or by vacuum pump through lubricating oil dipstick retaining tube. | Test1 for Oil Quality and Contaminants: |
-> | • Elemental Metals by Inductively Coupled Plasma (ICP) |  |  |  |
-> | • Viscosity at 100°C \[ 212°F \] |  |  |  |
-> | • Water Percentage |  |  |  |
-> | • Fuel Dilution |  |  |  |
-> | • Soot Percentage |  |  |  |
-> | • Oxidation I Nitration |  |  |  |
-> | • Total Base Number (TBN) |  |  |  |
-> | Coolant | 4000 hours | By vacuum pump through radiator fill cap or through quick fill I drain port | Test2 for Coolant Replacement Limits: |
-> | • Sulfate |  |  |  |
-> | • Chloride, Fluoride, Bromide |  |  |  |
-> | • pH |  |  |  |
-> | • Oil and fuel contaminants |  |  |  |
-> | • Grease, solder bloom, silica gel, rust or scale |  |  |  |
-> | Coolant | Every 6 months | By vacuum pump through radiator fill cap or through quick fill I drain port | Test for Glycol Levels: |
-> | • Coolant Test Kit, Fleetguard Part Number CC8997 |  |  |  |
-> | Fuel | As Needed: Sample fuel from equipment for quality and cleanliness if fuel filters do not reach required life or fuel filter life decreases from established baseline. | Use sampling port upstream of Stage 1 fuel filters and at bottom of equipment fuel tank through port on equipment fuel tank. | Reference the Fuel Filter Plugging Bulletin, 5504538. |
-> | If using Cummins® Fleetguard® Monitor: 1Reference Monitor™ CC36136, 2Reference Monitor™ CC2700. |  |  |  |
->
-> | Table 2, Bulk Storage, Tank Storage, and Service Equipment Fluid Sampling Requirements |  |  |  |
-> |---|---|---|---|
-> | Fluid | Sampling Interval | Suggested Method and Location | Purpose and Tests Cummins® Monitor Program Test Package |
-> | Bulk Storage - Lubricating Oil | Minimum of quarterly and if change to lubricating oil brand or specification | By sampling valve installed in bulk tank | Test1 for Oil Quality and Contaminants: |
-> | • Elemental Metals by Inductively Coupled Plasma (ICP) |  |  |  |
-> | • Viscosity at 100°C \[ 212°F \] |  |  |  |
-> | • Water Percent |  |  |  |
-> | • Fuel Dilution |  |  |  |
-> | • Soot Percent |  |  |  |
-> | • Oxidation I Nitration |  |  |  |
-> | • Total Base Number (TBN) |  |  |  |
-> | Bulk Storage - Coolant | Minimum of quarterly and if change to coolant brand or specification | By sampling valve installed in bulk tank | Test2 for Coolant Quality and Contaminants: |
-> | • Visuals (foam, color, oil, fuel, magnetic and non-magnetic precipitate and odor) |  |  |  |
-> | • 12 Metals by Inductively Coupled Plasma (ICP) |  |  |  |
-> | • Percent Antifreeze |  |  |  |
-> | • Freeze Point |  |  |  |
-> | • Boil Point |  |  |  |
-> | • pH |  |  |  |
-> | • Hardness |  |  |  |
-> | • SCA Number |  |  |  |
-> | • Nitrites |  |  |  |
-> | • Total Dissolved Solids |  |  |  |
-> | • Specific Conductance |  |  |  |
-> | Bulk, Tank Storage and Field Service Equipment - Fuel | Monthly or more frequently if fuel filters of equipment do not reach required life or filter life decreases from established baseline. | By sampling valve installed in bulk tank, with particle counter in place and sample bottles. At bottom of equipment fuel tank through port on equipment fuel tank with sample bottles. | Test3 for Fuel Quality and Contaminants: |
-> | • 24 Metals by Inductively Coupled Plasma (ICP) |  |  |  |
-> | • Viscosity at 40°C \[ 104°F \] |  |  |  |
-> | • Percent Sulfur |  |  |  |
-> | • API Gravity |  |  |  |
-> | • Distillation |  |  |  |
-> | • Flash Point |  |  |  |
-> | • Cloud Point |  |  |  |
-> | • Pour Point |  |  |  |
-> | • Water and Sediment |  |  |  |
-> | • Bacteria, Fungi and Mold |  |  |  |
-> | • Calculated Cetane Index |  |  |  |
-> | • Thermal Stability |  |  |  |
-> | • Water by Karl Fischer titration method |  |  |  |
-> | Test4 for Fuel ISO Particle Counts and Contaminants: |  |  |  |
-> | • PPM ISO Particle Count |  |  |  |
-> | Test for Filter Plugging: |  |  |  |
-> | • Cummins Fleetguard Portable Fuel Cleanliness Analysis Kit, part number FK36000 or ASTM D2068 - Procedure A. |  |  |  |
-> | If using Cummins® Fleetguard® Monitor™: 1Reference Monitor™ CC36136 2Reference Monitor™ CC2700 3Reference Monitor™ CC2651, 4Reference Monitor™ CC2719 |  |  |  |
->
-> For more information about Fleetguard® Monitor™, reference CumminsFiltration.com.
->
-> **Section 4: Initial Equipment Upgrades and Ongoing Filter Requirements**
->
-> **Note · Примечание**
-> The guidelines and requirements in this bulletin are subject to change without notice. Consult your local Cummins Distributor or Cummins Filtration.
->
-> **Note · Примечание**
-> Before adopting this information, it is the responsibility of the end user to contact Cummins Distributor or Cummins Filtration to understand the information in its entirety. Cummins Inc. is **not** responsible for inaccurate handling of this procedure and failure to Cummins Warranty.
->
-> **Note · Примечание**
-> Failure that might occur due to installing or using other manufacturer's auxiliary devices, accessories or consumables, are **not** covered under Cummins® Warranty.
->
-> **Note · Примечание**
-> Any deviations from the fluid and filter specifications as defined in this service bulletin will void the use of this extended service bulletin. Fluid and filters **not** meeting the requirements listed in this document **must** follow the standard maintenance intervals defined in the corresponding Operation and Maintenance Manual.
->
-> Extending maintenance intervals requires the following:
->
-> - Fuel: Advanced filtration inclusive Industrial Pro™ fuel systems with Nanonet® media
-> - Lubricating Oil: Venturi™ Combo lube filters and/or Spiratec™ centrifuge lubricating oil filtration
-> - Coolant: Stratapore™ extended service coolant filtration
->
-> Lubricating Oil Filters
->
-> For engines with Eliminator™, replace Eliminator™ rotor with one-piece centrifugal lubricating oil filter with SpiraTec™ technology as shown in Table 3. Reference Technical Service Bulletin 160036.
->
-> Perform the following checks:
->
-> 1. The casting tolerance of the centrifuge cover has been adjusted to accommodate the new centrifugal filter. Centrifuge covers with the adjusted tolerance are stamped with the letter “V”. If the centrifuge cover is not stamped with the letter "V", replace the centrifuge cover with a centrifuge cover, Part Number 4016423, stamped with the letter "V" or grind/file any high spots found at the parting line on the inside of the centrifuge cover.
-> 2. Measure clearance between the spindle and the bushings inside the one-piece centrifugal lubricating oil filter, replace the spindle if out of specification. Reference Bulletin 3666253.
->
-> | **Table 3, Centrifuge Oil Filter Part Numbers for Eliminator™ or Remote Centrifuge** |  |  |  |
-> |---|---|---|---|
-> | **Engine Model** | **Description** | **Cummins® Part Numbers** | **Fleetguard® Part Number** |
-> | QSK50 (All Versions) QSK60 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | 4331734 | CS41018 |
-> | QSK78 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | 3649569 | CS41019 |
->
-> Fuel Filters
->
-> For engines with a High Pressure Injection (HPI)® fuel system, remove the on-engine fuel filter head and install off engine Industrial Pro fuel filter as shown in Table 4. Reference installation instructions included in the box with the fuel filters.
->
-> For engines with a Modular Common Rail System (MCRS) fuel system, upgrade stage 1 and stage 2 filtration as shown in Table 4. Reference installation instructions included in the box with the fuel filters.
->
-> | **Table 4, Fuel Filter Head and Fuel Filter Element Part Numbers** |  |  |  |  |  |  |  |  |
-> |---|---|---|---|---|---|---|---|---|
-> | **Engine Model** | **Filtration Stage** | **Description** | **Quantity** | **Cummins Part Number** | **Fleetguard Part Number** | **Quantity** | **Cummins Part Number** | **Fleetguard Part Number** |
-> | QSK38 (All Versions) QSK50 (All Versions) QSK60 (All Versions) | Stage 0 (only required if Cummins lift pump is used) | 14" Assembly, Drain Valve, 25 Micron filter | 1 | 3639554 | Not Applicable | 1 | 3639672 | Not Applicable |
-> | QSK38 (All Versions) | Stage 1 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Left / Out Right | 1 | 4328042 | FH23901 | 1 | [[4328043]] | FS53014 |
-> | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Left | 1 | 4328041 | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
-> | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Left / Out Left | 1 | 4328064 | FH23905 | 1 | [[4328043]] | FS53014 |  |  |
-> | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Right | 1 | 4328065 | FH23906 | 1 | [[4328043]] | FS53014 |  |  |
-> | QSK50 (All Versions) QSK60 (All Versions) | Stage 1 | Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Right / Out Right | 1 | 4381962 | FH23907 | 2 | [[4328043]] | FS53014 |
-> | Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Right / Out Left | 1 | 4381959 | FH23908 | 2 | [[4328043]] | FS53014 |  |  |
-> | Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Left / Out Right | 1 | 4381960 | FH23910 | 2 | [[4328043]] | FS53014 |  |  |
-> | Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Left / Out Left | 1 | 4381961 | FH23911 | 2 | [[4328043]] | FS53014 |  |  |
-> | QSK78 (All Versions | Stage 1 | Industrial Pro Unit, Triple Tall Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Left / Out Right | 1 | 5374777 | FH23930 | 3 | [[4328043]] | FS53014 |
-> | QSK38 CM850 CM2150 | Stage 2 | On Engine or Remote Mount Configuration Filter Head with 3 Micron NanoNet® filter | 1 | 4380732 | Not Applicable | 2 | 5375819 | FF63042NN |
-> | QSK50 CM850 CM2150 QSK60 CM850 CM2150 | Stage 2 | On Engine or Remote Mount Configuration Filter Head with 3 Micron NanoNet® filter | 1 | 4380859 | Not Applicable | 3 | 5375819 | FF63042NN |
->
-> If an application uses a MCRS CM850 or MCRS CM2150 for Tier 2 and needs to be upgraded to Tier 4 Stage 2 Filtration Package, the two-stage air bleed valve is needed as shown in Table 5. Reference Technical Service Bulletin 1800021.
->
-> | Table 5, Associated Hardware |  |
-> |---|---|
-> | Description | Cummins® Part Number |
-> | 2 Stage Air Bleed Valve | [[4379736]] |
->
-> **Note · Примечание**
-> Air bleed valve is only needed when upgrading fuel filter head.
->
-> Coolant Filters
->
-> The upgraded coolant filtration options offer higher capacity and improved filtration performance. Remove existing coolant filters and replace with StrataPore™ coolant filters. See Table 6 below for part numbers.
->
-> | Table 6, Coolant Filter Part Numbers |  |  |
-> |---|---|---|
-> | Description | Cummins® Part Number | Fleetguard® Part Number |
-> | On-engine, no DCA\*, StrataPore™ media | 3098690 | WF2123 |
-> | \*Only filters with no DCA should be used in combination with OAT coolant. |  |  |
->
-> **Section 5: Extended Maintenance Intervals**
->
-> **Note · Примечание**
-> Refer to the Service Manual for different ambient temperature engine start up conditions. Refer to Fluid Cummins Product for change of elements on different ambient conditions.
->
-> Seasonal Requirements:
->
-> Cold Weather Preparation:
->
-> - Check operation of fuel filter heaters.
-> - Test for Glycol Levels with Coolant Test Kit, Fleetguard Part Number CC8997.
-> - Check coolant level / Top Off. See equipment manufacturer service information.
->
-> **Note · Примечание**
-> Extreme winter or salt corrosion environments may require lubrication of the collar threads on stage 1 fuel filters with anti-seize compound, Part Number 3163086, every 180 days.
->
-> Hot Weather Preparation:
->
-> - Test for Glycol Levels with Coolant Test Kit, Fleetguard Part Number CC8997.
-> - Check coolant level / top off. See equipment manufacturer service information.
->
-> Time and Condition Based Requirements:
->
-> | **Table 7, Time Based Maintenance Intervals for Locomotives** |  |  |  |  |  |  |  |  |  |  |  |
-> |---|---|---|---|---|---|---|---|---|---|---|---|
-> | **System** | **List of Maintenance Tasks** | **As Required** | **Daily and Weekly** | **250 Hours** | **500 Hours** | **1000 Hours** | **1500 Hours** | **2000 Hours** | **3000 Hours** | **4000 Hours** | **4500 Hours** |
-> | Coolant | Test coolant for replacement limits | X |  |  |  |  |  |  |  | X |  |
-> | Coolant | Change coolant filters |  |  |  |  |  |  |  |  | X |  |
-> | Coolant | Top off coolant | X |  |  | X | X | X | X | X | X | X |
-> | Fuel | Drain water and sediment from lower bowl of Industrial Pro™ fuel filters | X | X | X | X | X | X | X | X | X | X |
-> | Fuel | Replace stage 1 fuel filters | X |  |  |  |  | X |  | X |  | X |
-> | Fuel | Replace stage 2 fuel filters | X |  |  |  |  | X |  | X |  | X |
-> | Lubricating Oil | Collect lubricating oil sample and perform lubricating oil analysis | X |  | X | X | X | X | X | X | X | X |
-> | Lubricating Oil | Change engine lubricating oil |  | According to Operation and Maintenance Manual or Lubricating Oil Drain Interval Established in Section 6. |  |  |  |  |  |  |  |  |
-> | Lubricating Oil | Change rotor in Eliminator™ / Centrifuge |  |  |  |  |  | X |  | X |  | X |
-> | If the QSK38 CM850 CM2150 uses the QSK50/60 options and quantities outlined in Table 4, 2000 hours can be achieved. |  |  |  |  |  |  |  |  |  |  |  |
->
-> | **Table 8, Condition Based Filter Mainenance Intervals** |  |
-> |---|---|
-> | **System** | **Replacement Indicators** |
-> | Fuel Filters, Stage 1 | Replace based on schedule in Table 7 or using visual indication on Industrial Pro™ units or when indicated by FleetguardFIT™. |
-> | Fuel Filters, Stage 2 | Replace based on schedule in Table 7 or when indicated by FleetguardFIT™. |
-> | Lubricating Oil, Eliminator™ / remote centrifuge rotor | Replace based on schedule in Table 7 or at the same time as lubricating oil and lubricating oil filters are replaced. |
-> | Coolant / Water filters | Replace based on schedule in Table 7. |
->
-> FleetguardFIT™
->
-> Filtration Intelligence Technology (FIT) is a real-time filtration monitoring system that provides full visibility to filter (Fuel, Lube and Air) and oil life enabling proactive problem detection using intelligent sensing and advanced data analytics. To learn more about FleetguardFIT and how to get it onto your engine, contact Cummins Filtration at info@fleetguardfit.com.
->
-> **Note · Примечание**
-> If fuel filters do **not** reach required life or filter life decreases, assessment of fuel quality, fuel tank condition, storage systems and bulk filtration system is required.
->
-> **Section 6: Lubricating Oil Drain Interval Extension Test**
->
-> **CAUTION · Осторожно**
-> The use of a synthetic base lubricating oil does not justify extended lubricating oil change intervals. Extended oil change intervals can decrease engine life as the result of corrosion, deposits, and wear.
->
-> **CAUTION · Осторожно**
-> If the equipment is using a remote lubricating oil tank in which lubricating oil is continuously circulated ( not a Centinel™ oil make-up tank), the lubricating oil in the remote tank must be changed when the lubricating oil in the engine lubricating oil sump is changed.
->
-> The purpose of this test is to increase the interval between lubricating oil changes using lubricating oil analysis results from the Fleetguard® Monitor Fluid Analysis Program or another equivalent laboratory.
->
-> This method for setting the Lubricating Oil Drain Interval with Filter Optimization replaces the use of the Lubricating Oil Chart Method when using this Service Bulletin.
->
-> Do **not** extend lubricating oil and lubricating oil filter change intervals beyond the limits specified in the maintenance schedule, unless all conditions required by this service bulletin are met:
->
-> - Completion of site assessment as defined in Section 1.
-> - Lubricating oil meets Specifications in Section 2.
-> - Use of lubricating oil filters specified in Section 3.
-> - Lubricating oil monitoring system is in place as specified in Section 4.
->
-> If fleet is made up of mixed engine models, varying duty cycles, or equipment with differing lubricating oil system configurations, each group must be considered separately. A minimum of three units of each should be evaluated thoroughly prior to adopting a drain interval for the fleet. Segment engines by:
->
-> - Engine Model
-> - Lubricating oil system capacity (including any remote lubricating oil tanks where the lubricating oil is continuously circulated)
-> - Use of Centinel™ lubricating oil replenishment systems
-> - Use of Eliminator™ vs spin on lubricating oil filters and centrifuge
-> - Duty cycle
-> - Lubricating oil used (brand name, performance category, and viscosity grade)
->
-> **Note · Примечание**
-> The Lubricating Oil Drain Interval Extension established by this process can only be applied to engines in the same segment as defined above and with the specific lubricating oil used to establish the extended lubricating oil drain interval. Any changes to the lubricating oil (including changes to viscosity grade), duty cycle, or engine lubricating oil system will require re-verification of the lubricating oil drain interval.
->
-> Lubricating oil samples must be sent to a lab capable of testing the parameters in Table 9 using the specified test method.
->
-> | Table 9, Oil Analysis Test Parameters |  |  |
-> |---|---|---|
-> | Parameter Type | Parameter, Unit | Recommended Test Method |
-> | Lubricating Oil Health | Total Base Number (TBN), mg KOH/g | ASTM D4739 |
-> | Total Acid Number (TAN), mg KOH/g | ASTM D664 |  |
-> | Oxidation, abs/cm | ASTM E2412 or ASTM D7414\* |  |
-> | Nitration, abs/cm | ASTM E2412 |  |
-> | Viscosity at 100°C \[ 212°F \], cSt | ASTM D445 |  |
-> | Contamination | Fuel Dilution, massPercent fuel in oil | ASTM D7593 |
-> | Soot, massPercent soot in oil | ASTM E1131 |  |
-> | Sodium - Na, ppm | D5185 |  |
-> | Potassium - K, ppm | D5185 |  |
-> | Silicon - Si, ppm | D5185 |  |
-> | Aluminum - Al, ppm | D5185 |  |
-> | Wear Metals | Iron - Fe, ppm | D5185 |
-> | Lead - Pb, ppm | D5185 |  |
-> | Copper - Cu, ppm | D5185 |  |
-> | Aluminum - Al, ppm | D5185 |  |
-> | Tin - Sn, ppm | D5185 |  |
-> | Chromium - Cr, ppm | D5185 |  |
-> | \*The Fourier transform infrared spectroscopy (FTIR) data for oxidation can use either ASTM method but should report whether trending or subtraction methods were used. |  |  |
->
-> Collection of Lubricating Oil Sample:
->
-> Samples recommended to be taken at intervals specified in Table 11. For sampling procedure, See Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
->
-> A minimum of five lubricating oil samples per oil drain interval **must** be collected to establish trend lines. For lubricating oil that can **not** reach the interval established in the sampling plan, collect lubricating oil samples at more frequent intervals (every 50 hours or every 75 hours) to determine the appropriate lubricating oil drain interval.
->
-> Label the sample with the following information before submitting for analysis:
->
-> - Engine model/serial number
-> - Miles/hours of lubricating oil use
-> - Miles/hours accumulated on engine since new or rebuild
-> - Lubricating oil used (brand name, performance category and viscosity grade)
-> - Date sample was collected
-> - Engine application
-> - Amount of new lubricating oil added since previous lubricating oil change.
->
-> Verification of Lubricating Oil Integrity:
->
-> Both trending and limits are used to determine the appropriate lubricating oil drain interval. Cummins Inc. and the Customer should collaborate to determine the appropriate lubricating oil drain interval. Documentation of the lubricating oil drain interval validation **must** be retained in the site assessment file.
->
-> Linear trending throughout each lubricating oil drain interval of:
->
-> - Total Base Number (TBN)
-> - Total Acid Number (TAN)
-> - Oxidation
-> - Nitration
-> - Soot (Soot may not begin trending immediately; when trending soot is usually linear.)
-> - Iron
-> - Lead
-> - Copper
->
-> Linear Trending Example Key for Figure 1:
->
-> 1. Linear trend of lubricating oil analysis parameter value vs hours on lubricating oil.
-> 2. Point at which lubricating oil analysis parameter value deviates from linear trend line.
-> 3. Hours on lubricating oil at which lubricating oil analysis parameter value deviates from linear trend line.
-> 4. Established lubricating oil drain limit. Subtract 20% from hours on lubricating oil where parameter value deviates from linear trend line.
->
-> Figure 1, Linear Trending Example
->
-> Lubricating Oil Analysis Parameters are within limits defined in Table 10.
->
-> | Table 10, Oil Analysis Parameter Limits |  |
-> |---|---|
-> | Oil Analysis Parameter | Limit Value |
-> | Total Acid Number (TAN) mg KOH/g | 2.5 increase over new lubricating oil or equal to TBN |
-> | Total Base Number (TBN) mg KOH/g | 2.5 minimum or equal to TAN |
-> | Fuel Dilution Percent | 5% |
-> | Soot Percent | 5% |
-> | Viscosity 100°C \[ 212°F \] cSt | For XW-40: |
-> | MIN: 12.5 MAX: 16.3 |  |
-> | For XW-30: |  |
-> | MIN: 9.3 MAX: 12.5 |  |
-> | Oxidation abs/cm – direct trending | 151 |
-> | Nitration abs/cm – direct trending | 25 |
-> | 1 Increase over new (unused oil sample) |  |
->
-> Repeat sample plan for 3 different lubricating oil drain intervals on each of the 3 engines in the same segment.
->
-> Final lubricating oil drain will be the hours at which any of the samples did **not** meet the lubricating oil integrity test criteria reduced by 20%.
->
-> 20% margin is added to the approved lubricating oil drain interval to account for changes in rate of lubricating oil degradation as the engine ages.
->
-> | Table 11, Example Lubricating Oil Sampling Plan |  |  |
-> |---|---|---|
-> | Sample Number | Lubricating Oil Hours | Description |
-> | 0 | Baseline | Sample unused lubricating oil from the container. |
-> | 1 | 0 | Collect sample after filling the sump with new lubricating oil and letting the engine idle for 5 minutes. |
-> | 2 | 250 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 3 | 500 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 4 | 750 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 5 | 1000 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 6 | 1250 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 7 | 1300 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 8 | 1350 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 9 | 1400 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 10 | 1450 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 11 | 1500 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 12 | 1550 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 13 | 1600 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 14 | 1650 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 15 | 1700 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 16 | 1750 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 17 | 1800 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 18 | 1850 | Verify Lubricating Oil Integrity using the steps above. Stop test and change lubricating oil if requirements are not met. |
-> | 19 | 1900 | End of test. Collect sample before draining lubricating oil. |
->
-> **Section 7: Additional Service Literature**
->
-> Literature found on QuickServe® Online:
->
-> Beginning in 2007, Cummins Inc. started using service model names. For assistance in identifying associated service model name:
->
-> - See Technical Service Bulletin, Cummins® Service Engine Model Identification, [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review associated Cummins® Product Technology procedures.
->
-> Service Bulletins:
->
-> - See Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
-> - See Service Bulletin, Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin 2883452.
-> - See Service Bulletin, Fuel Sampling for Particle Counting Test, Bulletin 4022123.
->
-> Operation and Maintenance Manuals:
->
-> - See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
-> - See QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin 3666260.
-> - See K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].
-> - See QSK45 and QSK60 Operation and Maintenance Manual, Bulletin 4915528.
-> - See QSK78 CM500 (HPI) Operation and Maintenance Manual, Bulletin 3666714.
->
-> Service Manuals:
->
-> - Fluids for Cummins Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
-> - See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
-> - See QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin 4021530.
-> - See K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
-> - See QSK45 and QSK60 Service Manual, Bulletin 4021530.
->
-> Literature not found on QuickServe® Online:
->
-> Hardcopy Service Bulletin:
->
-> - Service Bulletin, Fuel Quality for High Horsepower Engines with Modular Common Rail Fuel Systems (MCRS), Bulletin 4091849
->
-> ### Document History

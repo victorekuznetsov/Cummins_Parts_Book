@@ -7,11 +7,12 @@ title_en: "NT/NTA855 Big Cam III Construction, Industrial, and Generator Drive"
 title_ru: "NT/NTA855 Big Cam III: строительное, промышленное и генераторное применение"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021631/4021631-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021631-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021631-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/NT/NTA855"
@@ -21,9 +22,9 @@ tags:
 **NT/NTA855 Big Cam III: строительное, промышленное и генераторное применение**
 
 > [!abstract] Руководство · `4021631-history`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021631/4021631-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021631-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021631/4021631-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021631-history.pdf)
 
 
 ## Оглавление руководства (39 процедур)

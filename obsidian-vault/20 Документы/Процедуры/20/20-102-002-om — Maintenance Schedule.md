@@ -8,6 +8,7 @@ title_ru: "Регламент технического обслуживания"
 modified: "2020-06-25"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -15,1021 +16,524 @@ manuals:
 parts:
   - "2867147"
 figures: 5
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-102-002-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-102-002-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-102-002-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Maintenance Schedule
 **Регламент технического обслуживания**
 
 > [!abstract] Процедура · `20-102-002-om`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]]
 > **Секции:** Section 2 - Maintenance Guidelines
 > **Даты:** изменён 2020-06-25
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-102-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-102-002-om.pdf)
-
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
-
-
-### Общие сведения
-
-Все процедуры технического обслуживания, перечисленные для предыдущих интервалов **, также должны быть выполнены.
-
-Для удобства ниже приведены номера разделов, которые содержат конкретные инструкции по выполнению технического обслуживания.
-
-QSK19 CM500, QSK19 CM850 MCRS и QSK19 CM2150 MCRS будут иметь следующие варианты фильтрации моторного масла.
-
-Морские и промышленные:
-
-- Спин-на смазочных масляных фильтров
-- Спин-на фильтре и CentinelTM
-- TM без CentinelTM без TM
-- Элиминатор с CentinelTM.
-
-Генерация электроэнергии
-
-- Элиминатор и Centinel не будут предлагаться.
-
-Spin-on Oil Filter (нефтяной фильтр)
-
-#### Ежедневное техническое обслуживание (раздел 3)
-
-- Трубопроводы впуска воздуха — проверить
-- Ограничение на очистку воздуха 2 - Проверка
-- воздушные баллоны и ресиверы — слить
-- Уровень моторного масла — проверить
-- уровень охлаждающей жидкости — проверить
-- Предочиститель воздухоочистителя — проверить
-- судовой реверс-редуктор — проверить
-- Фильтр забортной воды — очистить
-- Фильтр топлива, дистанционно нагретый - дренаж
-- топливный влагоотделитель — слить
-- Фильтр топлива, дистанционно нагретый 5 - Проверка
-
-#### Процедуры технического обслуживания в течение 250 часов или 6 месяцев 1 (раздел 4)
-
-- Топливный фильтр (Spin-On Type) 4 - Изменение
-- Фильтр топлива (этап 1) 5 - Изменение
-- Фильтр топлива (этап 2) 5 - Изменение
-- Моторное масло и фильтры - Изменение 3
-- Трубка сапуна картера — проверить
-- Концентрация присадки SCA и антифриза — проверить
-- Нефтяной анализ (см. Cummins® Engines) Нефть и нефтяной анализ Рекомендации, Бюллетень[[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]]7
-- Фильтр охлаждения - изменение
-- Компрессор воздуха Очиститель воздуха Элемент 2 - Проверка
-- Пояс привода, альтернативатор - проверка на повторное использование
-- Ремень привода вентилятора — проверить
-- Вентилятор, охлаждение - проверка на повторное использование
-- Жгут проводов двигателя — проверить
-- Цинковый анод - проверка на повторное использование
-- Давление во впускном коллекторе — проверить
-
-#### Процедуры технического обслуживания в 1500 часов или 1 год 1 (раздел 7)
-
-- Ступица вентилятора с ремённым приводом — проверить
-- Сапун картера (наружный) — очистить
-- коленчатый вал — проверить
-- аккумуляторные батареи — проверить
-- опоры двигателя — проверить
-- Шланги системы охлаждения — проверить
-- насос забортной воды — проверить
-- Двигатель чистый с паром - чистый
-- Подогреватель моторного масла — проверить
-- Подогреватель охлаждающей жидкости — проверить
-
-#### Процедуры технического обслуживания в 6000 часов или 2 года 1 (раздел 8)
-
-- Система охлаждения - Flush
-- Ступица вентилятора с ремённым приводом — проверить
-- Натяжной ролик привода вентилятора в сборе — проверить
-- Водяной насос - проверка на повторное использование
-- Нагнетательные магистрали воздушного компрессора — проверить
-- Вибрационный Дампер, Вискоус - Проверка 8
-
-#### Процедуры технического обслуживания в 10 000 часов (раздел 9)
-
-- Форсунка - Замена 6
-- Турбокомпрессор - Check 6
-
-Спин-на масляном фильтре с CentinelTM
-
-#### Ежедневное техническое обслуживание (раздел 3)
-
-- Трубопроводы впуска воздуха — проверить
-- Ограничение на очистку воздуха 2 - Проверка
-- воздушные баллоны и ресиверы — слить
-- Уровень моторного масла — проверить
-- уровень охлаждающей жидкости — проверить
-- Предочиститель воздухоочистителя — проверить
-- судовой реверс-редуктор — проверить
-- Фильтр забортной воды — очистить
-- Уровень масла Centinel™ — проверить
-- Фильтр топлива, дистанционно нагретый - дренаж
-- топливный влагоотделитель — слить
-- Фильтр топлива, дистанционно нагретый 5 - Проверка
-
-#### Процедуры технического обслуживания в течение 250 часов или 6 месяцев 1 (раздел 4)
-
-- Топливный фильтр (Spin-On Type) 4 - Изменение
-- Фильтр топлива (этап 1) 5 - Изменение
-- Фильтр топлива (этап 2) 5 - Изменение
-- Трубка сапуна картера — проверить
-- Концентрация присадки SCA и антифриза — проверить
-- Анализ моторного масла - 7
-- Фильтр охлаждения - изменение
-- Компрессор воздуха Очиститель воздуха Элемент 2 - Проверка
-- Ремень привода генератора — проверить
-- Ремень привода вентилятора — проверить
-- Вентилятор системы охлаждения — проверить
-- Жгут проводов двигателя — проверить
-- Цинковый анод - проверка на повторное использование
-- Давление во впускном коллекторе — проверить
-
-#### Процедуры технического обслуживания в 1000 часов или 1 год (раздел 6)
-
-- Фильтр моторного масла (Spin-On) - Изменение
-
-#### Процедуры технического обслуживания в 1500 часов или 1 год (раздел 7)
-
-- Ступица вентилятора с ремённым приводом — проверить
-- Сапун картера (наружный) — очистить
-- коленчатый вал — проверить
-- аккумуляторные батареи — проверить
-- опоры двигателя — проверить
-- Шланги системы охлаждения — проверить
-- насос забортной воды — проверить
-- Мойка двигателя паром — очистить
-- Подогреватель моторного масла — проверить
-- Подогреватель охлаждающей жидкости — проверить
-
-#### Процедуры технического обслуживания в 6000 часов или 2 года (раздел 8)
-
-- Система охлаждения - Flush
-- Ступица вентилятора с ремённым приводом — проверить
-- Натяжной ролик привода вентилятора в сборе — проверить
-- Водяной насос - проверка на повторное использование
-- Нагнетательные магистрали воздушного компрессора — проверить
-- Вибрационный Дампер, Вискоус - Проверка 8
-
-#### Процедуры технического обслуживания в 10 000 часов (раздел 9)
-
-- Форсунка - Замена 6
-- Турбокомпрессор - Check 6
-
-TM без CentinelTM без TM
-
-#### Ежедневное техническое обслуживание (раздел 3)
-
-- Трубопроводы впуска воздуха — проверить
-- Ограничение на очистку воздуха 2 - Проверка
-- воздушные баллоны и ресиверы — слить
-- Уровень моторного масла — проверить
-- уровень охлаждающей жидкости — проверить
-- Предочиститель воздухоочистителя — проверить
-- судовой реверс-редуктор — проверить
-- Фильтр забортной воды — очистить
-- Фильтр Eliminator™ — проверить
-- Фильтр топлива, дистанционно нагретый - дренаж
-- топливный влагоотделитель — слить
-- Фильтр топлива, дистанционно нагретый 5 - Проверка
-
-#### Процедуры технического обслуживания в течение 250 часов или 6 месяцев 1 (раздел 4)
-
-- Топливный фильтр (Spin-On Type) 4 - Изменение
-- Фильтр топлива (этап 1) 5 - Изменение
-- Фильтр топлива (этап 2) 5 - Изменение
-- Моторное масло - Изменение 3
-- Трубка сапуна картера — проверить
-- Анализ моторного масла - 7
-- Концентрация присадки SCA и антифриза — проверить
-- Фильтр охлаждения - изменение
-- Компрессор воздуха Очиститель воздуха Элемент 2 - Проверка
-- Ремень привода генератора — проверить
-- Ремень привода вентилятора — проверить
-- Вентилятор системы охлаждения — проверить
-- Жгут проводов двигателя — проверить
-- Цинковый анод - проверка на повторное использование
-- Давление во впускном коллекторе — проверить
-
-#### Процедуры технического обслуживания каждые 1000 часов (раздел 5)
-
-- Фильтр ЭлиминаторTM Центрифуга - Изменение
-
-#### Процедуры технического обслуживания в 1500 часов или 1 год 1 (раздел 7)
-
-- Ступица вентилятора с ремённым приводом — проверить
-- Сапун картера (наружный) — очистить
-- коленчатый вал — проверить
-- аккумуляторные батареи — проверить
-- опоры двигателя — проверить
-- Шланги системы охлаждения — проверить
-- насос забортной воды — проверить
-- Мойка двигателя паром — очистить
-- Подогреватель моторного масла — проверить
-- Подогреватель охлаждающей жидкости — проверить
-
-#### Процедуры технического обслуживания в 6000 часов или 2 года 1 (раздел 8)
-
-- Система охлаждения - Flush
-- Ступица вентилятора с ремённым приводом — проверить
-- Натяжной ролик привода вентилятора в сборе — проверить
-- Водяной насос - проверка на повторное использование
-- Нагнетательные магистрали воздушного компрессора — проверить
-- Вибрационный Дампер, Вискоус - Проверка 8
-
-#### Процедуры технического обслуживания в 10 000 часов (раздел 9)
-
-- Форсунка - Замена 6
-- Турбокомпрессор - Check 6
-
-ЭлиминаторTM с CentinelTM
-
-#### Ежедневное техническое обслуживание (раздел 3)
-
-- Трубопроводы впуска воздуха — проверить
-- Ограничение на очистку воздуха 2 - Проверка
-- воздушные баллоны и ресиверы — слить
-- Уровень моторного масла — проверить
-- уровень охлаждающей жидкости — проверить
-- Предочиститель воздухоочистителя — проверить
-- судовой реверс-редуктор — проверить
-- Фильтр забортной воды — очистить
-- Уровень масла Centinel™ — проверить
-- Фильтр топлива, дистанционно нагретый - дренаж
-- топливный влагоотделитель — слить
-- Фильтр топлива, дистанционно нагретый 5 - Проверка
-
-#### Процедуры технического обслуживания в течение 250 часов или 6 месяцев (раздел 4)
-
-- Топливный фильтр (Spin-On Type) 4 - Изменение
-- Фильтр топлива (этап 1) 5 - Изменение
-- Фильтр топлива (этап 2) 5 - Изменение
-- Трубка сапуна картера — проверить
-- Концентрация присадки SCA и антифриза — проверить
-- Анализ моторного масла - Проверка 7
-- Фильтр охлаждения - изменение
-- Компрессор воздуха Очиститель воздуха Элемент 2 - Проверка
-- Ремень привода генератора — проверить
-- Ремень привода вентилятора — проверить
-- Вентилятор системы охлаждения — проверить
-- Жгут проводов двигателя — проверить
-- Цинковый анод - проверка на повторное использование
-- Давление во впускном коллекторе — проверить
-
-#### Процедуры технического обслуживания в 1000 часов (раздел 5)
-
-- Фильтр ЭлиминаторTM Центрифуга - Изменение
-
-#### Процедуры технического обслуживания в 1500 часов или 1 год (раздел 7)
-
-- Ступица вентилятора с ремённым приводом — проверить
-- Сапун картера (наружный) — очистить
-- коленчатый вал — проверить
-- аккумуляторные батареи — проверить
-- опоры двигателя — проверить
-- Шланги системы охлаждения — проверить
-- насос забортной воды — проверить
-- Мойка двигателя паром — очистить
-- Подогреватель моторного масла — проверить
-- Подогреватель охлаждающей жидкости — проверить
-
-#### Процедуры технического обслуживания в 6000 часов или 2 года (раздел 8)
-
-- Система охлаждения - Flush
-- Ступица вентилятора с ремённым приводом — проверить
-- Натяжной ролик привода вентилятора в сборе — проверить
-- Водяной насос - проверка на повторное использование
-- Нагнетательные магистрали воздушного компрессора — проверить
-- Вибрационный Дампер, Вискоус - Проверка 8
-
-#### Процедуры технического обслуживания в 10 000 часов (раздел 9)
-
-- Форсунка - Замена 6
-- Турбокомпрессор - Check 6
-
-Генерация электроэнергии
-
-#### Ежедневное техническое обслуживание (раздел 3)
-
-- Трубопроводы впуска воздуха — проверить
-- Ограничение на очистку воздуха 2 - Проверка
-- воздушные баллоны и ресиверы — слить
-- Уровень моторного масла — проверить
-- уровень охлаждающей жидкости — проверить
-- Предочиститель воздухоочистителя — проверить
-- Фильтр топлива, дистанционно нагретый - дренаж
-- топливный влагоотделитель — слить
-- Фильтр топлива, дистанционно нагретый 5 - Проверка
-
-#### Процедуры технического обслуживания в течение 250 часов или 6 месяцев 1 (раздел 4)
-
-- Топливный фильтр (Spin-On Type) 4 - Изменение
-- Фильтр топлива (этап 1) 5 - Изменение
-- Фильтр топлива (этап 2) 5 - Изменение
-- Моторное масло и фильтры - Изменение 3
-- Трубка сапуна картера — проверить
-- Концентрация присадки SCA и антифриза — проверить
-- Фильтр охлаждения - изменение
-- Компрессор воздуха Очиститель воздуха Элемент 2 - Проверка
-- Ремень привода генератора — проверить
-- Ремень привода вентилятора — проверить
-- Вентилятор системы охлаждения — проверить
-- Жгут проводов двигателя — проверить
-- Давление во впускном коллекторе — проверить
-
-#### Процедуры технического обслуживания в 1500 часов или 1 год 1 (раздел 7)
-
-- Ступица вентилятора с ремённым приводом — проверить
-- Сапун картера (наружный) — очистить
-- коленчатый вал — проверить
-- аккумуляторные батареи — проверить
-- опоры двигателя — проверить
-- Шланги системы охлаждения — проверить
-- двигатель — очистить
-- Подогреватель моторного масла — проверить
-- Подогреватель охлаждающей жидкости — проверить
-
-#### Процедуры технического обслуживания в 6000 часов или 2 года 1 (раздел 8)
-
-- Система охлаждения - Flush
-- Ступица вентилятора с ремённым приводом — проверить
-- Натяжной ролик привода вентилятора в сборе — проверить
-- Водяной насос - проверка на повторное использование
-- Нагнетательные магистрали воздушного компрессора — проверить
-- Вибрационный Дампер, Вискоус - Проверка 8
-
-#### Процедуры технического обслуживания в 10 000 часов (раздел 9)
-
-- Форсунка - Замена 6
-- Турбокомпрессор - Check 6
-
-1. В условиях, когда часы работы не аккумулируются быстрыми темпами, используйте календарное время. Иными словами, используйте часы или календарное время, в зависимости от того, что наступит раньше.
-2. Cummins Inc. Рекомендуется использовать воздухоочистители сухого типа.
-3. Альтернативная информация о сливе нефти доступна в разделе слива нефти этой процедуры.
-4. Механическое приводное топливо впрыскивающее топливо **только **.
-5. Двигатели топливных форсунок с электронным приводом **только**.
-6. Рекомендуется при работе двигателя полжизни для восстановления. Полужизни варьируются в зависимости от применения. Свяжитесь с авторизованным местом ремонта Cummins®, если интервал может быть определен ** не **. Информация о замене форсунки доступна в интервальном разделе замены форсунки этой процедуры.
-7. ****************************************************************************************************************************************************************************************************************************************************************
-8. Вибрационные амортизаторы имеют ограниченный срок службы. Заменить демпфера необходимо после 576 000 км (360 000 миль) или 15 000 часов работы.
-
-### Интервалы изменения масла и топливного фильтра
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-102-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-102-002-om.pdf)
+
+### General Information
+
+All maintenance procedures listed for previous intervals **must** also be performed.
+
+For convenience, listed below are the section numbers that contain specific instructions for performing the maintenance.
+
+The QSK19 CM500, QSK19 CM850 MCRS and QSK19 CM2150 MCRS will have the following lubricating oil filtration options.
+
+Marine and Industrial:
+
+- Spin-on Lubricating Oil Filters
+- Spin-on Filter and Centinel™
+- Eliminator™ without Centinel™
+- Eliminator™ with Centinel™.
+
+Power Generation
+
+- The Eliminator™ and Centinel™ will **not** be offered.
+
+Spin-on Oil Filter
+
+#### Maintenance Procedures at Daily Interval (Section 3)
+
+- Air Intake Piping - Check
+- Air Cleaner Restriction 2 - Check
+- Air Tanks and Reservoirs - Drain
+- Lubricating Oil Level - Check
+- Coolant Level - Check
+- Air Cleaner Precleaner - Check
+- Marine Gear - Check
+- Sea Water Strainer - Clean
+- Fuel Filter, Remote-Mounted - Drain
+- Fuel-Water Separator - Drain
+- Fuel Filter, Remote-Mounted 5 - Check
+
+#### Maintenance Procedures at 250 Hours or 6 Months 1 (Section 4)
+
+- Fuel Filter (Spin-On Type) 4 - Change
+- Fuel Filter (Stage 1) 5 - Change
+- Fuel Filter (Stage 2) 5 - Change
+- Lubricating Oil and Filters - Change 3
+- Crankcase Breather Tube - Check
+- Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
+- Oil Analysis (see Cummins® Engines) Oil and Oil Analysis Recommendations, Bulletin [[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]] 7
+- Coolant Filter - Change
+- Air Compressor Air Cleaner Element 2 - Check
+- Drive Belt, Alternator - Inspect for Reuse
+- Drive Belt, Cooling Fan - Check
+- Fan, Cooling - Inspect for Reuse
+- Engine Wiring Harness - Check
+- Zinc Anode - Inspect for Reuse
+- Intake Manifold Pressure - Check
+
+#### Maintenance Procedures at 1500 Hours or 1 Year 1 (Section 7)
+
+- Fan Hub, Belt Driven - Check
+- Crankcase Breather (External) - Clean
+- Crankshaft - Check
+- Batteries - Check
+- Engine Mounts - Check
+- Cooling System Hoses - Check
+- Sea Water Pump - Check
+- Engine Steam Clean - Clean
+- Engine Oil Heater - Check
+- Engine Coolant Heater - Check
+
+#### Maintenance Procedures at 6000 Hours or 2 Years 1 (Section 8)
+
+- Cooling System - Flush
+- Fan Hub, Belt Driven - Check
+- Fan Drive Idler Pulley Assembly - Check
+- Water Pump - Inspect for Reuse
+- Air Compressor Discharge Lines - Check
+- Vibration Damper, Viscous - Check 8
+
+#### Maintenance Procedures at 10,000 Hours (Section 9)
+
+- Fuel Injectors - Replace 6
+- Turbocharger - Check 6
+
+Spin-on Oil Filter with Centinel™
+
+#### Maintenance Procedures at Daily Interval (Section 3)
+
+- Air Intake Piping - Check
+- Air Cleaner Restriction 2 - Check
+- Air Tanks and Reservoirs - Drain
+- Lubricating Oil Level - Check
+- Coolant Level - Check
+- Air Cleaner Precleaner - Check
+- Marine Gear - Check
+- Sea Water Strainer - Clean
+- Centinel™ Oil Level - Check
+- Fuel Filter, Remote-Mounted - Drain
+- Fuel-Water Separator - Drain
+- Fuel Filter, Remote-Mounted 5 - Check
+
+#### Maintenance Procedures at 250 Hours or 6 Months 1 (Section 4)
+
+- Fuel Filter (Spin-On Type) 4 - Change
+- Fuel Filter (Stage 1) 5 - Change
+- Fuel Filter (Stage 2) 5 - Change
+- Crankcase Breather Tube - Check
+- Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
+- Lubricating Oil Analysis - Check 7
+- Coolant Filter - Change
+- Air Compressor Air Cleaner Element 2 - Check
+- Drive Belt, Alternator - Check
+- Drive Belt, Cooling Fan - Check
+- Fan, Cooling - Check
+- Engine Wiring Harness - Check
+- Zinc Anode - Inspect for Reuse
+- Intake Manifold Pressure - Check
+
+#### Maintenance Procedures at 1000 Hours or 1 Year (Section 6)
+
+- Lubricating Oil Filter (Spin-On) - Change
+
+#### Maintenance Procedures at 1500 Hours or 1 Year (Section 7)
+
+- Fan Hub, Belt Driven - Check
+- Crankcase Breather (External) - Clean
+- Crankshaft - Check
+- Batteries - Check
+- Engine Mounts - Check
+- Cooling System Hoses - Check
+- Sea Water Pump - Check
+- Engine Steam Cleaning - Clean
+- Engine Oil Heater - Check
+- Engine Coolant Heater - Check
+
+#### Maintenance Procedures at 6000 Hours or 2 Year (Section 8)
+
+- Cooling System - Flush
+- Fan Hub, Belt Driven - Check
+- Fan Drive Idler Pulley Assembly - Check
+- Water Pump - Inspect for Reuse
+- Air Compressor Discharge Lines - Check
+- Vibration Damper, Viscous - Check 8
+
+#### Maintenance Procedures at 10,000 Hours (Section 9)
+
+- Fuel Injectors - Replace 6
+- Turbocharger - Check 6
+
+Eliminator™ without Centinel™
+
+#### Maintenance Procedures at Daily Interval (Section 3)
+
+- Air Intake Piping - Check
+- Air Cleaner Restriction 2 - Check
+- Air Tanks and Reservoirs - Drain
+- Lubricating Oil Level - Check
+- Coolant Level - Check
+- Air Cleaner Precleaner - Check
+- Marine Gear - Check
+- Sea Water Strainer - Clean
+- Eliminator™ Filter - Check
+- Fuel Filter, Remote-Mounted - Drain
+- Fuel-Water Separator - Drain
+- Fuel Filter, Remote-Mounted 5 - Check
+
+#### Maintenance Procedures at 250 Hours or 6 Months 1 (Section 4)
+
+- Fuel Filter (Spin-On Type) 4 - Change
+- Fuel Filter (Stage 1) 5 - Change
+- Fuel Filter (Stage 2) 5 - Change
+- Lubricating Oil - Change 3
+- Crankcase Breather Tube - Check
+- Lubricating Oil Analysis - Check 7
+- Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
+- Coolant Filter - Change
+- Air Compressor Air Cleaner Element 2 - Check
+- Drive Belt, Alternator - Check
+- Drive Belt, Cooling Fan - Check
+- Fan, Cooling - Check
+- Engine Wiring Harness - Check
+- Zinc Anode - Inspect for Reuse
+- Intake Manifold Pressure - Check
+
+#### Maintenance Procedures Every 1000 Hours (Section 5)
+
+- Eliminator™ Filter Centrifuge - Change
+
+#### Maintenance Procedures at 1500 Hours or 1 Year 1 (Section 7)
+
+- Fan Hub, Belt Driven - Check
+- Crankcase Breather (External) - Clean
+- Crankshaft - Check
+- Batteries - Check
+- Engine Mounts - Check
+- Cooling System Hoses - Check
+- Sea Water Pump - Check
+- Engine Steam Cleaning - Clean
+- Engine Oil Heater - Check
+- Engine Coolant Heater - Check
+
+#### Maintenance Procedures at 6000 Hours or 2 Years 1 (Section 8)
+
+- Cooling System - Flush
+- Fan Hub, Belt Driven - Check
+- Fan Drive Idler Pulley Assembly - Check
+- Water Pump - Inspect for Reuse
+- Air Compressor Discharge Lines - Check
+- Vibration Damper, Viscous - Check 8
+
+#### Maintenance Procedures at 10,000 Hours (Section 9)
+
+- Fuel Injectors - Replace 6
+- Turbocharger - Check 6
+
+Eliminator™ with Centinel™
+
+#### Maintenance Procedures at Daily Interval (Section 3)
+
+- Air Intake Piping - Check
+- Air Cleaner Restriction 2 - Check
+- Air Tanks and Reservoirs - Drain
+- Lubricating Oil Level - Check
+- Coolant Level - Check
+- Air Cleaner Precleaner - Check
+- Marine Gear - Check
+- Sea Water Strainer - Clean
+- Centinel™ Oil Level - Check
+- Fuel Filter, Remote-Mounted - Drain
+- Fuel-Water Separator - Drain
+- Fuel Filter, Remote-Mounted 5 - Check
+
+#### Maintenance Procedures at 250 Hours or 6 Months (Section 4)
+
+- Fuel Filter (Spin-On Type) 4 - Change
+- Fuel Filter (Stage 1) 5 - Change
+- Fuel Filter (Stage 2) 5 - Change
+- Crankcase Breather Tube - Check
+- Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
+- Lubricating Oil Analysis- Check 7
+- Coolant Filter - Change
+- Air Compressor Air Cleaner Element 2 - Check
+- Drive Belt, Alternator - Check
+- Drive Belt, Cooling Fan - Check
+- Fan, Cooling - Check
+- Engine Wiring Harness - Check
+- Zinc Anode - Inspect for Reuse
+- Intake Manifold Pressure - Check
+
+#### Maintenance Procedures at 1000 Hours (Section 5)
+
+- Eliminator™ Filter Centrifuge - Change
+
+#### Maintenance Procedures at 1500 Hours or 1 Year (Section 7)
+
+- Fan Hub, Belt Driven - Check
+- Crankcase Breather (External) - Clean
+- Crankshaft - Check
+- Batteries - Check
+- Engine Mounts - Check
+- Cooling System Hoses - Check
+- Sea Water Pump - Check
+- Engine Steam Cleaning - Clean
+- Engine Oil Heater - Check
+- Engine Coolant Heater - Check
+
+#### Maintenance Procedures at 6000 Hours or 2 Years (Section 8)
+
+- Cooling System - Flush
+- Fan Hub, Belt Driven - Check
+- Fan Drive Idler Pulley Assembly - Check
+- Water Pump - Inspect for Reuse
+- Air Compressor Discharge Lines - Check
+- Vibration Damper, Viscous - Check 8
+
+#### Maintenance Procedures at 10,000 Hours (Section 9)
+
+- Fuel Injectors - Replace 6
+- Turbocharger - Check 6
+
+Power Generation
+
+#### Maintenance Procedures at Daily Interval (Section 3)
+
+- Air Intake Piping - Check
+- Air Cleaner Restriction 2 - Check
+- Air Tanks and Reservoirs - Drain
+- Lubricating Oil Level - Check
+- Coolant Level - Check
+- Air Cleaner Precleaner - Check
+- Fuel Filter, Remote-Mounted - Drain
+- Fuel-Water Separator - Drain
+- Fuel Filter, Remote-Mounted 5 - Check
+
+#### Maintenance Procedures at 250 Hours or 6 Months 1 (Section 4)
+
+- Fuel Filter (Spin-On Type) 4 - Change
+- Fuel Filter (Stage 1) 5 - Change
+- Fuel Filter (Stage 2) 5 - Change
+- Lubricating Oil and Filters - Change 3
+- Crankcase Breather Tube - Check
+- Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
+- Coolant Filter - Change
+- Air Compressor Air Cleaner Element 2 - Check
+- Drive Belt, Alternator - Check
+- Drive Belt, Cooling Fan - Check
+- Fan, Cooling - Check
+- Engine Wiring Harness - Check
+- Intake Manifold Pressure - Check
+
+#### Maintenance Procedures at 1500 Hours or 1 Year 1 (Section 7)
+
+- Fan Hub, Belt Driven - Check
+- Crankcase Breather (External) - Clean
+- Crankshaft - Check
+- Batteries - Check
+- Engine Mounts - Check
+- Cooling System Hoses - Check
+- Engine - Clean
+- Engine Oil Heater - Check
+- Engine Coolant Heater - Check
+
+#### Maintenance Procedures at 6000 Hours or 2 Years 1 (Section 8)
+
+- Cooling System - Flush
+- Fan Hub, Belt Driven - Check
+- Fan Drive Idler Pulley Assembly - Check
+- Water Pump - Inspect for Reuse
+- Air Compressor Discharge Lines - Check
+- Vibration Damper, Viscous - Check 8
+
+#### Maintenance Procedures at 10,000 Hours (Section 9)
+
+- Fuel Injectors - Replace 6
+- Turbocharger - Check 6
+
+1. Under circumstances where hours of operation are **not** accumulated at a fast rate, use calendar time. In other words, use hours or calendar time, whichever comes first.
+2. Cummins Inc. recommends the use of dry-type air cleaners.
+3. Alternative oil drain information is available in the oil drain section of this procedure.
+4. Mechanically actuated injector engines **only**.
+5. Electronically actuated injector engines **only**.
+6. Recommended at engine half life to rebuild. Half life varies by application. Contact a Cummins® Authorized Repair Location if the interval can **not** be determined. Alternative injector replacement information is available in the injector replacement interval section of this procedure.
+7. **Only** when coupled with Chart Method explained in the oil drain section of this procedure.
+8. Vibration dampers have limited service life. The damper **must** be replaced after 576,000 km \[360,000 miles\], or 15,000 hours of service.
+
+### Oil Drain and Fuel Filter Change Intervals
 
 ![[07400146.png]]
 
-По мере того, как моторное масло становится загрязненным, добавки эфирного масла истощаются. Смазочные масла защищают двигатель, если эти добавки работают должным образом. Прогрессирующее загрязнение масла между интервалами изменения масла и фильтра является нормальным. Количество загрязнения будет варьироваться в зависимости от работы двигателя, километров, миль или часов на потребленном масле, топливе и добавленном новом масле.
+As the engine oil becomes contaminated, essential oil additives are depleted. Lubricating oils protect the engine as long as these additives are functioning properly. Progressive contamination of the oil between oil and filter change intervals is normal. The amount of contamination will vary, depending on the operation of the engine, kilometers, miles, or hours on the oil, fuel consumed, and new oil added.
 
-Продление интервалов изменения масла и фильтра сверх рекомендаций приведет к снижению срока службы двигателя из-за таких факторов, как коррозия, отложения и ускоренный износ.
+Extending oil and filter change intervals beyond recommendations will decrease engine life, due to factors such as corrosion, deposits, and accelerated wear.
 
-Используйте рекомендации по интервалу слива масла в этом разделе, чтобы определить, какой метод интервала слива масла использовать для вашего применения.
+Use the oil drain interval recommendations in this section to determine which oil drain interval method to use for your application.
 
-**Не продлевайте интервалы изменения масла и фильтра более чем на 500 часов или 6 месяцев (за исключением двигателей привода генератора в режиме ожидания), если не используется метод диаграммы. В резервных двигателях с приводом генератора интервалы составляют 500 часов или 12 месяцев, в зависимости от того, что произойдет в первую очередь. Смотрите диаграммы ниже.
+Do **not** extend oil and filter change intervals beyond 500 hours or 6 months (except for standby generator drive engines) unless the Chart Method is used. On standby generator drive engines, the intervals are 500 hours or 12 months, whichever occurs first. See the charts below.
 
-Существует три рекомендуемых метода определения правильного интервала изменения масла и фильтра:
+There are three recommended methods to determine proper oil and filter change interval:
 
-- Метод фиксированного пробега (на основе фиксированного километра, миль, часов или месяцев; в зависимости от того, что происходит в первую очередь). Эта информация содержится в разделе «Общая информация» этой процедуры.
-- Система CentinelTM в сочетании с программой анализа масла.
-- Метод диаграммы (на основе известных показателей расхода топлива в сочетании с программой анализа нефти).
+- Fixed Mileage Method (based on fixed kilometer, miles, hours, or months; whichever occurs first). This information is contained in the General Information section of this procedure.
+- Centinel™ System, coupled with an oil analysis program.
+- Chart method (based on known fuel consumption rates, coupled with oil analysis program).
 
-CentinelTM - с непрерывно работающей системой CentinelTM интервал слива масла может быть увеличен до тех пор, пока анализ масла не потребует изменения масла или не будет известно, что масло загрязнено. Анализ масла требуется с интервалом 250 часов при использовании системы CentinelTM, и *** должен включать измерение сажи. Набор анализа масла Fleetguard®, номер детали CC 2543, соответствует этому требованию. Параметры анализа нефти ** должны** оставаться в пределах, указанных в Таблице 2 Методики анализа нефти для дизельных двигателей большой мощности, Бюллетень службы[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]. См. следующие бюллетени для получения дополнительной информации о отборе и анализе проб нефти:
+Centinel™ - With a continuously operating Centinel™ System, the oil drain interval can be extended until the oil analysis requires the oil to be changed or the oil is known to be contaminated. Oil analysis is required at 250 hour intervals when using the Centinel™ System, and **must** include soot measurement. Fleetguard® Oil Analysis Kit, Part Number CC 2543, meets this requirement. Oil analysis parameters **must** remain within the limits specified in Table 2 of the Oil Analysis Techniques for High Horsepower Diesel Engines, Service Bulletin [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]. Reference the following bulletins for more information on oil sampling and analysis:
 
-- Руководство по эксплуатации жидкостей для продуктов Cummins®, Вестник [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]][[5411406 — Fluids for Cummins® Products Service Manual|5411406]]Раздел 4 Масло для двигателей.
-- Методы анализа масла для дизельных двигателей большой мощности, бюллетень 4022060[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]].
-- Статистический анализ свинцовых показаний образца масла на двигателях большой мощности, Бюллетень 2883452[[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|2883452]].
+- Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] [[5411406 — Fluids for Cummins® Products Service Manual|5411406]], Section 4 Engine Oil.
+- Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060 [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]].
+- Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin 2883452 [[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|2883452]].
 
-Фильтры с премиальным маслом, такие как фильтры серии Fleetguard® LF 9000 или их эквивалент, также необходимы при использовании CentinelTM со спин-он-фильтрами.
+Premium oil filters, such as Fleetguard® LF 9000 series filters, or equivalent, are also required when using Centinel™ with spin-on filters.
 
-Метод диаграммы
+Chart Method
 
-Информация, приведенная ниже, необходима при использовании метода диаграммы для определения правильного интервала изменения масла и фильтра для двигателя.
+The information listed below is required when using the chart method to determine the correct oil and filter change interval for the engine.
 
-- Мощность нефтяной системы (сумма плюс любой объем удаленного резервуара)
-- Средний расход топлива
-- Используйте моторное масло, соответствующее стандартам, перечисленным в Рекомендациях по анализу моторного масла и масла Cummins®, Бюллетень[[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]].
+- Oil system capacity (sump plus any remote tank volume)
+- Average fuel consumption rate
+- Use engine oil that complied to the standards listed in Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin [[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]].
 
-- Анализ масла для демонстрации интервала метода диаграммы является приемлемым. См. следующие служебные бюллетени:
+- Oil analysis to demonstrate the chart method interval is acceptable. Reference the following service bulletins:
 
-Емкость системы может быть определена путем знания объема масла, необходимого для прикосновения к знаку высокого уровня на измерителе уровня масла, и объема любых удаленных нефтяных резервуаров на машине, в которой масло непрерывно циркулирует. Мощности отстойника масла перечислены в руководствах по эксплуатации и техническому обслуживанию для всех двигателей Cummins®. Крайне важно, чтобы общий объем системы был известен при использовании метода диаграммы. Используйте следующую процедуру для получения информации о мощности нефтеотлива.[[20-018-017 — Lubricating Oil System|См. процедуру 018-017 в разделе V.]]Для емкости системы. Если машина оснащена системой запаса масла с резервуаром, удаленным от отстойника моторного масла, объем резервуара *** должен быть добавлен к объему отстойника двигателя для определения общей емкости системы. Это верно только для удаленных резервуаров, в которых нефть постоянно циркулирует.
+System capacity can be determined by knowing the volume of the oil required to touch the high-level mark on the dipstick and volume of any remote oil tanks on the machine in which oil is continuously circulated. Oil sump capacities are listed in the operation and maintenance manuals for all Cummins® engines. It is imperative that the total system volume be known when using the chart method. Use the following procedure for information on the oil sump capacity. [[20-018-017 — Lubricating Oil System|Refer to Procedure 018-017 in Section V]] for system capacity. If the machine is equipped with an oil reserve system with a reservoir remote from the engine oil sump, the reservoir volume **must** be added to the engine sump volume to determine the total system capacity. This is **only** true for remote tanks in which the oil is continuously circulated.
 
-Когда масло изменяется на двигателе с удаленным нефтяным баком, в котором масло непрерывно циркулирует, масло в баке ** должно быть изменено в дополнение к маслу в отстойнике двигателя.
+When oil is changed on an engine with a remote oil tank in which oil is continuously circulated, the oil in the tank **must** be changed in addition to the oil in the engine sump.
 
-Для эффективного использования метода диаграммы необходимо вести и поддерживать точные записи расхода топлива ***. Информация о расходе топлива ** должна быть в литрах в час или галлонах в час для использования диаграмм. Темпы потребления топлива могут меняться с течением времени из-за увеличения или уменьшения рабочего цикла двигателя. Точные записи необходимы для определения среднего расхода топлива в течение заданного интервала изменения масла.
+To use the chart method effectively, accurate fuel consumption records **must** be kept and maintained. Fuel consumption information **must** be in liters per hour or gallons per hour units to use the charts. Fuel consumption rates can change over time because of an increasing or decreasing engine duty cycle. Accurate records are essential in determining average fuel consumption during a given oil change interval.
 
-Диаграммы классифицируются и маркируются по емкости системы для конкретного семейства двигателей. Выберите диаграмму, представляющую правильную емкость нефтяной системы для рассматриваемой модели двигателя. Левая вертикальная ось диаграммы представляет расход топлива в США. галлоны в час. Метод диаграммы показывает как галлоны в час, так и литры в час. Определить точку пересечения нормы расхода топлива по кривой интервала, проведя горизонтальную линию. С этой точки нарисуйте вертикальную линию вниз, пока ii не пересекется с горизонтальной осью, представляющей часы. Этот момент представляет собой допустимый интервал изменения масла.
+The charts are categorized and labeled by the system capacity for a specific engine family. Select the chart representing the correct oil system capacity for engine model in question. The left vertical axis of the chart represents fuel consumption in U.S. gallons per hour. The chart method shows both gallons per hour and liters per hour. Determine the intersection point of the fuel consumption rate on the applicable interval curve by drawing a horizontal line. From this point, draw a vertical line down until ii intersects with the horizontal axis representing hours. This point represents the acceptable oil change interval.
 
-> [!note] Примечание
-> Перед использованием приведенных ниже диаграмм важно отметить степень используемого масла. Справочная таблица 1. Это может повлиять на то, какой график можно использовать.
+> [!note] Note · Примечание
+> Before using the charts below, it is important to note the grade of oil being used. Reference Table 1. This can affect which chart can be used.
 
-| Таблица 1: Классы моторного масла |  |  |  |
+| Table 1: Engine Oil Grades |  |  |  |
 |---|---|---|---|
-| Классификация Северной Америки | Международная классификация | Cummins Engineering Standard (CES) | Наименование |
-| API 1 CD API CE | ACEA 2 E1 | Стандартный обселете. Эти масла больше не рекомендуются для использования в двигателях Cummins®. | **Не используйте метод диаграммы, если используете эти масла. |
+| North America Classification | International Classification | Cummins Engineering Standard (CES) | Description |
+| API 1 CD API CE | ACEA 2 E1 | Standard obselete. These oils are no longer recommend for use in Cummins® engines | Do **not** use the Chart Method if using these oils. |
 | APl 1 CG-4/SH |  |  |  |
 | API CF-4/SG | ACEA 2 E2 | CES 200757 |  |
 | ACEA 2 E3 |  |  |  |
-| APl 1 CH-44 /SJ | JAMA 3 DH-1 ACEA 2 E55 | CES 20071 | Двигатели, использующие эти сорта масла, могут использовать метод диаграммы. |
+| APl 1 CH-44 /SJ | JAMA 3 DH-1 ACEA 2 E55 | CES 20071 | Engines using these oil grades can use the Chart Method |
 | CES 20076 CES 20077 |  |  |  |
 | APl 1 Cl-4 | ACEA 2 E7 | CES 20078 |  |
 | APl 1 CJ-48 | ACEA 2 E9 JAMA3 DH-2 | CES 20081 |  |
-| API — Американский институт нефти. ACEA - Ассоциация европейских конструкторов. JAMA - Японская ассоциация автопроизводителей. CES 20076 добавляет требование 300-часового теста Cummins M11 к API CH-4. CES 20077 добавляет требование 300-часового теста к ACEA ES. Использование масел только с этими обозначениями создает неоправданный риск повреждения двигателя для конструкции двигателей с использованием более совершенных масел. Даже при резко сокращенных интервалах изменения масла следует CES 20075 CF-4/SH и E-3 масла могут быть использованы в районах, где нет ни одного из рекомендуемых масел, но интервал слива масла должен быть уменьшен. Ссылка на соответствующий график технического обслуживания. Использование масел только с этими обозначениями создает неоправданный риск повреждения двигателя для двигателей, предназначенных для использования более современных масел, даже при значительно сокращенных интервалах изменения масла. Масло API CJ-4 должно использоваться только на двигателях, работающих на дизельном топливе с ультранизким содержанием серы. |  |  |  |
+| API - American Petroleum Institute. ACEA - Association des Constructeurs European d' Association. JAMA - Japan Automobile Manufacturer Association. CES 20076 adds the requirement of a 300 hour Cummins® M11 test to API CH-4. CES 20077 adds the requirement of a 300 hour test to ACEA ES. Use of oils with only these designations poses an undue risk of engine damage for engines design to use more advanced oils. Even when drastically shortened oil change intervals are followed CES 20075 CF-4/SH and E-3 oils can be used in areas where none of the recommended oils are available, but the oil drain interval must be reduced. Reference the appropriate maintenance schedule. Use of oils with only these designations poses an undue risk of engine damage for engines designed to use more advanced oils, even when drastically shortened oil change intervals are followed. API CJ-4 oil should only be used on engines running with Ultra Low Sulphur Diesel fuel. |  |  |  |
 
-> [!warning] ОСТОРОЖНО
-> Неточные записи расхода топлива могут привести к некорректным интервалам изменения масла, что может привести к преждевременному износу двигателя и / или отложениям.
+> [!warning] CAUTION · Осторожно
+> Inaccurate fuel consumption records can result in incorrect oil change intervals that can result in premature engine wear and/or deposits.
 
-> [!warning] ОСТОРОЖНО
-> Не продлевайте интервалы изменения масла за пределы максимальной точки, показанной, когда расход топлива меньше минимальной показанной. Это может привести к сокращению срока службы двигателя из-за процессов деградации масла, связанных с легко нагруженными двигателями.
+> [!warning] CAUTION · Осторожно
+> Do not extend oil change intervals beyond the maximum point shown when fuel consumption rates are less than the minimum shown. Doing so can result in shortened engine life due to oil degradation processes associated with lightly loaded engines
 
 ![[07k00084.png]]
 
-38 литров (10 галлонов США)
+38 Liter (10 US Gallon) Sump
 
 ![[07k00085.png]]
 
-60 литров (16 галлонов США)
+60 Liter (16 US Gallon) Sump
 
 ![[07k00086.png]]
 
-72 литра (19 галлонов США)
+72 Liter (19 US Gallon) Sump
 
 ![[00700060.png]]
 
-102 литра (27 галлонов США)
+102 Liter (27 US Gallon) Sump
 
-Чтобы прочитать диаграмму:
+To read the chart:
 
-Предположим, что двигатель имеет 10-галлонную мощность и двигатель потребляет 15 галлонов топлива в час.
+Assume the engine has a 10 gallon sump capacity and the engine consumes 15 gallons of fuel per hour.
 
-- Выберите диаграмму под названием 38 литров (10 галлонов США).
-- Левая вертикальная ось диаграммы представляет расход топлива в галлонах в час.
-- Определите расположение 15 галлонов на левой вертикальной оси и проведите горизонтальную линию по всей диаграмме, пока она не пересекает кривую.
-- В точке пересечения нарисуйте прямую вертикальную линию вниз к нижней части графика.
-- Точка, в которой вертикальная линия пересекает нижнюю горизонтальную ось графика, указывает интервал изменения масла (приблизительно 275 часов в этом примере).
+- Select the chart titled 38 liter (10 US Gallons).
+- The left vertical axis of the chart represents fuel consumption in gallons per hour.
+- Determine the location of 15 gallons on the left vertical axis and draw a horizontal line across the chart until it intersects the curve.
+- At the point of intersection, draw a straight vertical line down to the bottom of the graph.
+- The point at which the vertical line intersects the bottom horizontal axis of the graph indicates the oil change interval (approximetly 275 hours in this example).
 
-#### Интервалы изменения топливного фильтра только для двигателей с электронным приводом
+#### Fuel Filter Change Intervals for Electronically Actuated Injector Engines Only
 
-- Интервалы изменения топливного фильтра устанавливаются на 250 часов, чтобы защитить топливную систему от твердых частиц.
-- **Не все топливные фильтры, доступные на рынке, являются эквивалентными и могут ** не** защищать топливную систему должным образом за пределами 250-часового порога.
-- Cummins Inc. Для достижения интервалов изменения топливного фильтра 1 и 2 стадии требуется следующее оборудование, которое должно быть рассчитано на периоды, превышающие 250 часов, и до *** не ***, превышающие 500 часов:
+- Fuel filter change intervals are set at 250 hours in order to protect the fuel system from hard particles.
+- **Not** all fuel filters available on the market are equivalent, and may **not** protect the fuel system adequately beyond the 250 hour threshold.
+- Cummins Inc. requires the following hardware to achieve Stage 1 and Stage 2 fuel filter change intervals beyond 250 hours, and up to but **not** exceeding 500 hours:
 
-Cummins Inc. **не*** Рекомендует интервалы изменения топливного фильтра более 500 часов.
+Cummins Inc. does **not** recommend fuel filter change intervals exceed 500 hours.
 
-Наиболее распространенной причиной ухудшения характеристик двигателя является плохое качество топлива. Фильтры Fleetguard® NanoNetTM предназначены для работы с большей эффективностью фильтрации, чем другие фильтры, и, таким образом, сохраняют больше загрязняющих веществ. Если наблюдается преждевременное заглушение фильтра, может потребоваться дополнительная фильтрация или улучшение качества топлива для достижения желаемых интервалов обслуживания. Для получения дополнительной информации о рекомендациях по чистоте топлива см. раздел «Чистота топлива»[[3379001 — Fuels for Cummins® Engines|Топливо для двигателей Cummins®, Бюллетень 3379001]].
+The most common cause of degraded engine performance is poor fuel quality. Fleetguard® NanoNet™ media filters are designed to function with greater filtration efficiency than other filters, and thus retain more contaminants. If premature filter plugging is observed, additional filtration or improved fuel quality may be necessary to reach desired maintenance intervals. For more information on fuel cleanliness recommendations, reference the “Fuel Cleanliness” section of the [[3379001 — Fuels for Cummins® Engines|Fuels For Cummins® Engines, Bulletin 3379001]].
 
-### форсунка замена интервал
+### Injector Replacement Interval
 
-Интервалы замены форсунки рекомендуются при периоде полураспада двигателя для восстановления некоторых номеров деталей форсунки. Свяжитесь с дистрибьютором Cummins®, если ** не уверен в этом интервале.
+Injector replacement intervals are recommended at engine half life to rebuild for some injectors part numbers. Contact a Cummins® Distributor if **not** sure of this interval.
 
-Для некоторых номеров деталей форсунки, если выполняются дополнительные требования, интервал замены форсунки восстанавливается.
+For some injector part numbers, if additional requirements are met, the injector replacement interval is at rebuild.
 
-| форсунка замена интервал |  |  |
+| Injector Replacement Interval |  |  |
 |---|---|---|
-| форсунка Часть номер | Наименование | Интервал замены |
-| 4924587, 4928053, 4928106 | С1 форсунка | Полжизни, чтобы восстановить |
-| 2881083, 4964170, 4964171 | С2 форсунка | Полжизни, чтобы восстановить |
-| 2881088 | Форсунка С3 без ограничения потока | Полжизни, чтобы восстановить |
-| 3867149 | Форсунка C3 для двигателей T3 с уникальным соплом | Полжизни, чтобы восстановить |
-| [[2867147]] | Форсунка C3 с ограничителями расхода, не использующий топливные фильтры NanoNetTM 1 или с уровнями серы топлива \> 500 ppm | Полжизни, чтобы восстановить |
-| [[2867147]] | Форсунка C3 с ограничителями расхода, с использованием топливных фильтров NanoNetTM 1, уровни серы топлива \<500 ppm | Восстановление |
+| Injector Part Number | Description | Replacement Interval |
+| 4924587, 4928053, 4928106 | C1 Injectors | Half life to rebuild |
+| 2881083, 4964170, 4964171 | C2 Injectors | Half life to rebuild |
+| 2881088 | C3 Injectors without flow limiters | Half life to rebuild |
+| 3867149 | C3 Injectors for T3 engines with unique nozzle | Half life to rebuild |
+| [[2867147]] | C3 Injectors with flow limiters, not using NanoNet™ fuel filters 1 or with fuel sulfur levels \> 500 ppm | Half life to rebuild |
+| [[2867147]] | C3 Injectors with flow limiters, using NanoNet™ fuel filters 1, fuel sulfur levels \<500 ppm | Rebuild |
 
-1 Нанотная фильтрация топлива:
+1 Nanonet Fuel Filtration:
 
-- Фильтрующая головка FH239 серии Industrial Pro или FH240 серии Sea Pro® должна быть установлена в качестве головки крепления топливного фильтра 1-й ступени.
-- Фильтры для носителя топлива Fleetguard® NanoNetTM** должны использоваться на топливных фильтрах 1-й и 2-й стадий.
-- Используйте следующую процедуру для номеров деталей топливного фильтра. См. процедуру 018-024 в разделе V.
+- FH239 series Industrial Pro or FH240 series Sea Pro® filter head **must** be installed as the Stage 1 fuel filter head.
+- Fleetguard® NanoNet™ media fuel filters **must** be used on Stage 1 and Stage 2 fuel filters.
+- Use the following procedure for fuel filter part numbers. Refer to Procedure 018-024 in Section V.
 
-### Интервал охлаждающей дренажной системы
+### Coolant Drain Interval
 
-| Интервалы технического обслуживания системы охлаждения до 568 литров[150 галлов] |  |  |  |  |  |
+| Maintenance Intervals for Cooling System up to 568 liters \[150 gal\] |  |  |  |  |  |
 |---|---|---|---|---|---|
-| Размер системы в литрах \[gal\] | 79-144 \[21-30\] | 117-189 \[31-50\] | 193-284 \[51-75\] | 288-378 \[76-100\] | 382-568 \[101-150\] |
-| Часы | Единицы SCA |  |  |  |  |
+| System Size in liters \[gal\] | 79-144 \[21-30\] | 117-189 \[31-50\] | 193-284 \[51-75\] | 288-378 \[76-100\] | 382-568 \[101-150\] |
+| Hours | Units of SCA |  |  |  |  |
 | 751-1000 | 25 | 50 | 80 | 75 | 150 |
 | 501-750 | 20 | 35 | 60 | 100 | 110 |
 | 251-500 | 15 | 25 | 40 | 50 | 75 |
 | 0-250 | 10 | 15 | 20 | 25 | 40 |
 
-| Интервалы технического обслуживания системы охлаждения до 1514 литров [400 галлов] |  |  |  |  |  |
+| Maintenance Intervals for Cooling System up to 1514 liters \[400 gal\] |  |  |  |  |  |
 |---|---|---|---|---|---|
-| Размер системы в литрах \[gal\] | 572-757 \[151-200\] | 761-946 \[201-250\] | 950-1135 \[251-300\] | 1139-1325 \[301-350\] | 1329-1514 \[351-400\] |
-| Часы | Единицы SCA |  |  |  |  |
+| System Size in liters \[gal\] | 572-757 \[151-200\] | 761-946 \[201-250\] | 950-1135 \[251-300\] | 1139-1325 \[301-350\] | 1329-1514 \[351-400\] |
+| Hours | Units of SCA |  |  |  |  |
 | 751-1000 | 200 | 250 | 300 | 350 | 400 |
 | 751-1000 | 150 | 190 | 225 | 260 | 300 |
 | 251-500 | 100 | 125 | 150 | 175 | 200 |
 | 0-250 | 50 | 65 | 75 | 90 | 100 |
 
-> [!note] Примечание
-> Проконсультируйтесь с информацией о техническом обслуживании производителя оборудования для общей емкости системы охлаждения.
+> [!note] Note · Примечание
+> Consult the vehicle equipment manufacturer's maintenance information for total cooling system capacity.
 
-> [!note] Примечание
-> При сливе и замене охлаждающей жидкости ** всегда** предварительно заряжайте систему охлаждения до уровня SCA 1,5 единицы на галлон. Этот уровень концентрации ** не должен быть допущен к снижению ниже 1,2 единицы и ** должен контролироваться, когда уровень превышает 3 единицы. Действия, необходимые при уровне ниже 1,2, представляют собой фильтр и жидкий предварительный заряд; от 1,2 до 3.0 единиц, фильтр **только **; выше 3.0, тестируйте при каждом изменении масла до тех пор, пока уровень не упадет до 3.0 или ниже.
+> [!note] Note · Примечание
+> When draining and replacing the coolant, **always** pre-charge the cooling system to a SCA level of 1.5 units per gallon. This concentration level **must not** be allowed to go below 1.2 units and **must** be controlled when the level is greater than 3 units. Action needed when the level goes below 1.2 is a filter and liquid pre-charge; from 1.2 to 3.0 units, filter **only**; above 3.0, test at every oil change until level falls to 3.0 or below.
 
-При выполнении работ, требующих слива системы охлаждения, примите особые меры предосторожности, чтобы собрать ее в чистый контейнер, запечатать, чтобы предотвратить загрязнение, и сэкономить на повторном использовании.
+When performing service which requires draining the cooling system, take special precautions to collect it in a clean container, seal it to prevent contamination, and save for reuse.
 
-1. Меняйте фильтры охлаждающей жидкости при каждом изменении масла, чтобы защитить систему охлаждения. Проконсультируйтесь с диаграммой емкости охлаждающей жидкости, чтобы определить правильный фильтр охлаждающей жидкости для заданной емкости системы охлаждения и интервала слива масла.
-2. После того, как необходимое количество блоков SCA было определено для заданной емкости системы охлаждения и интервала обслуживания из диаграммы выше, таблица в следующей процедуре может быть использована для определения правильного номера части фильтра.[[20-018-024-om — Filter Specifications|См. процедуру 018-024 в разделе V.]]
+1. Change coolant filters at each oil change to protect the cooling system. Consult the coolant capacity chart to determine the correct coolant filter for a given cooling system capacity and oil drain interval.
+2. Once the required number of SCA units has been determined for a given cooling system capacity and maintenance interval from the chart above, the table in the following procedure can be used to determine the correct filter part number. [[20-018-024-om — Filter Specifications|Refer to Procedure 018-024 in Section V.]]
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[2867147]] | INJECTOR | Форсунка |
-
-> [!quote]- Original (English) · английский оригинал
-> ### General Information
->
-> All maintenance procedures listed for previous intervals **must** also be performed.
->
-> For convenience, listed below are the section numbers that contain specific instructions for performing the maintenance.
->
-> The QSK19 CM500, QSK19 CM850 MCRS and QSK19 CM2150 MCRS will have the following lubricating oil filtration options.
->
-> Marine and Industrial:
->
-> - Spin-on Lubricating Oil Filters
-> - Spin-on Filter and Centinel™
-> - Eliminator™ without Centinel™
-> - Eliminator™ with Centinel™.
->
-> Power Generation
->
-> - The Eliminator™ and Centinel™ will **not** be offered.
->
-> Spin-on Oil Filter
->
-> #### Maintenance Procedures at Daily Interval (Section 3)
->
-> - Air Intake Piping - Check
-> - Air Cleaner Restriction 2 - Check
-> - Air Tanks and Reservoirs - Drain
-> - Lubricating Oil Level - Check
-> - Coolant Level - Check
-> - Air Cleaner Precleaner - Check
-> - Marine Gear - Check
-> - Sea Water Strainer - Clean
-> - Fuel Filter, Remote-Mounted - Drain
-> - Fuel-Water Separator - Drain
-> - Fuel Filter, Remote-Mounted 5 - Check
->
-> #### Maintenance Procedures at 250 Hours or 6 Months 1 (Section 4)
->
-> - Fuel Filter (Spin-On Type) 4 - Change
-> - Fuel Filter (Stage 1) 5 - Change
-> - Fuel Filter (Stage 2) 5 - Change
-> - Lubricating Oil and Filters - Change 3
-> - Crankcase Breather Tube - Check
-> - Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
-> - Oil Analysis (see Cummins® Engines) Oil and Oil Analysis Recommendations, Bulletin [[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]] 7
-> - Coolant Filter - Change
-> - Air Compressor Air Cleaner Element 2 - Check
-> - Drive Belt, Alternator - Inspect for Reuse
-> - Drive Belt, Cooling Fan - Check
-> - Fan, Cooling - Inspect for Reuse
-> - Engine Wiring Harness - Check
-> - Zinc Anode - Inspect for Reuse
-> - Intake Manifold Pressure - Check
->
-> #### Maintenance Procedures at 1500 Hours or 1 Year 1 (Section 7)
->
-> - Fan Hub, Belt Driven - Check
-> - Crankcase Breather (External) - Clean
-> - Crankshaft - Check
-> - Batteries - Check
-> - Engine Mounts - Check
-> - Cooling System Hoses - Check
-> - Sea Water Pump - Check
-> - Engine Steam Clean - Clean
-> - Engine Oil Heater - Check
-> - Engine Coolant Heater - Check
->
-> #### Maintenance Procedures at 6000 Hours or 2 Years 1 (Section 8)
->
-> - Cooling System - Flush
-> - Fan Hub, Belt Driven - Check
-> - Fan Drive Idler Pulley Assembly - Check
-> - Water Pump - Inspect for Reuse
-> - Air Compressor Discharge Lines - Check
-> - Vibration Damper, Viscous - Check 8
->
-> #### Maintenance Procedures at 10,000 Hours (Section 9)
->
-> - Fuel Injectors - Replace 6
-> - Turbocharger - Check 6
->
-> Spin-on Oil Filter with Centinel™
->
-> #### Maintenance Procedures at Daily Interval (Section 3)
->
-> - Air Intake Piping - Check
-> - Air Cleaner Restriction 2 - Check
-> - Air Tanks and Reservoirs - Drain
-> - Lubricating Oil Level - Check
-> - Coolant Level - Check
-> - Air Cleaner Precleaner - Check
-> - Marine Gear - Check
-> - Sea Water Strainer - Clean
-> - Centinel™ Oil Level - Check
-> - Fuel Filter, Remote-Mounted - Drain
-> - Fuel-Water Separator - Drain
-> - Fuel Filter, Remote-Mounted 5 - Check
->
-> #### Maintenance Procedures at 250 Hours or 6 Months 1 (Section 4)
->
-> - Fuel Filter (Spin-On Type) 4 - Change
-> - Fuel Filter (Stage 1) 5 - Change
-> - Fuel Filter (Stage 2) 5 - Change
-> - Crankcase Breather Tube - Check
-> - Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
-> - Lubricating Oil Analysis - Check 7
-> - Coolant Filter - Change
-> - Air Compressor Air Cleaner Element 2 - Check
-> - Drive Belt, Alternator - Check
-> - Drive Belt, Cooling Fan - Check
-> - Fan, Cooling - Check
-> - Engine Wiring Harness - Check
-> - Zinc Anode - Inspect for Reuse
-> - Intake Manifold Pressure - Check
->
-> #### Maintenance Procedures at 1000 Hours or 1 Year (Section 6)
->
-> - Lubricating Oil Filter (Spin-On) - Change
->
-> #### Maintenance Procedures at 1500 Hours or 1 Year (Section 7)
->
-> - Fan Hub, Belt Driven - Check
-> - Crankcase Breather (External) - Clean
-> - Crankshaft - Check
-> - Batteries - Check
-> - Engine Mounts - Check
-> - Cooling System Hoses - Check
-> - Sea Water Pump - Check
-> - Engine Steam Cleaning - Clean
-> - Engine Oil Heater - Check
-> - Engine Coolant Heater - Check
->
-> #### Maintenance Procedures at 6000 Hours or 2 Year (Section 8)
->
-> - Cooling System - Flush
-> - Fan Hub, Belt Driven - Check
-> - Fan Drive Idler Pulley Assembly - Check
-> - Water Pump - Inspect for Reuse
-> - Air Compressor Discharge Lines - Check
-> - Vibration Damper, Viscous - Check 8
->
-> #### Maintenance Procedures at 10,000 Hours (Section 9)
->
-> - Fuel Injectors - Replace 6
-> - Turbocharger - Check 6
->
-> Eliminator™ without Centinel™
->
-> #### Maintenance Procedures at Daily Interval (Section 3)
->
-> - Air Intake Piping - Check
-> - Air Cleaner Restriction 2 - Check
-> - Air Tanks and Reservoirs - Drain
-> - Lubricating Oil Level - Check
-> - Coolant Level - Check
-> - Air Cleaner Precleaner - Check
-> - Marine Gear - Check
-> - Sea Water Strainer - Clean
-> - Eliminator™ Filter - Check
-> - Fuel Filter, Remote-Mounted - Drain
-> - Fuel-Water Separator - Drain
-> - Fuel Filter, Remote-Mounted 5 - Check
->
-> #### Maintenance Procedures at 250 Hours or 6 Months 1 (Section 4)
->
-> - Fuel Filter (Spin-On Type) 4 - Change
-> - Fuel Filter (Stage 1) 5 - Change
-> - Fuel Filter (Stage 2) 5 - Change
-> - Lubricating Oil - Change 3
-> - Crankcase Breather Tube - Check
-> - Lubricating Oil Analysis - Check 7
-> - Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
-> - Coolant Filter - Change
-> - Air Compressor Air Cleaner Element 2 - Check
-> - Drive Belt, Alternator - Check
-> - Drive Belt, Cooling Fan - Check
-> - Fan, Cooling - Check
-> - Engine Wiring Harness - Check
-> - Zinc Anode - Inspect for Reuse
-> - Intake Manifold Pressure - Check
->
-> #### Maintenance Procedures Every 1000 Hours (Section 5)
->
-> - Eliminator™ Filter Centrifuge - Change
->
-> #### Maintenance Procedures at 1500 Hours or 1 Year 1 (Section 7)
->
-> - Fan Hub, Belt Driven - Check
-> - Crankcase Breather (External) - Clean
-> - Crankshaft - Check
-> - Batteries - Check
-> - Engine Mounts - Check
-> - Cooling System Hoses - Check
-> - Sea Water Pump - Check
-> - Engine Steam Cleaning - Clean
-> - Engine Oil Heater - Check
-> - Engine Coolant Heater - Check
->
-> #### Maintenance Procedures at 6000 Hours or 2 Years 1 (Section 8)
->
-> - Cooling System - Flush
-> - Fan Hub, Belt Driven - Check
-> - Fan Drive Idler Pulley Assembly - Check
-> - Water Pump - Inspect for Reuse
-> - Air Compressor Discharge Lines - Check
-> - Vibration Damper, Viscous - Check 8
->
-> #### Maintenance Procedures at 10,000 Hours (Section 9)
->
-> - Fuel Injectors - Replace 6
-> - Turbocharger - Check 6
->
-> Eliminator™ with Centinel™
->
-> #### Maintenance Procedures at Daily Interval (Section 3)
->
-> - Air Intake Piping - Check
-> - Air Cleaner Restriction 2 - Check
-> - Air Tanks and Reservoirs - Drain
-> - Lubricating Oil Level - Check
-> - Coolant Level - Check
-> - Air Cleaner Precleaner - Check
-> - Marine Gear - Check
-> - Sea Water Strainer - Clean
-> - Centinel™ Oil Level - Check
-> - Fuel Filter, Remote-Mounted - Drain
-> - Fuel-Water Separator - Drain
-> - Fuel Filter, Remote-Mounted 5 - Check
->
-> #### Maintenance Procedures at 250 Hours or 6 Months (Section 4)
->
-> - Fuel Filter (Spin-On Type) 4 - Change
-> - Fuel Filter (Stage 1) 5 - Change
-> - Fuel Filter (Stage 2) 5 - Change
-> - Crankcase Breather Tube - Check
-> - Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
-> - Lubricating Oil Analysis- Check 7
-> - Coolant Filter - Change
-> - Air Compressor Air Cleaner Element 2 - Check
-> - Drive Belt, Alternator - Check
-> - Drive Belt, Cooling Fan - Check
-> - Fan, Cooling - Check
-> - Engine Wiring Harness - Check
-> - Zinc Anode - Inspect for Reuse
-> - Intake Manifold Pressure - Check
->
-> #### Maintenance Procedures at 1000 Hours (Section 5)
->
-> - Eliminator™ Filter Centrifuge - Change
->
-> #### Maintenance Procedures at 1500 Hours or 1 Year (Section 7)
->
-> - Fan Hub, Belt Driven - Check
-> - Crankcase Breather (External) - Clean
-> - Crankshaft - Check
-> - Batteries - Check
-> - Engine Mounts - Check
-> - Cooling System Hoses - Check
-> - Sea Water Pump - Check
-> - Engine Steam Cleaning - Clean
-> - Engine Oil Heater - Check
-> - Engine Coolant Heater - Check
->
-> #### Maintenance Procedures at 6000 Hours or 2 Years (Section 8)
->
-> - Cooling System - Flush
-> - Fan Hub, Belt Driven - Check
-> - Fan Drive Idler Pulley Assembly - Check
-> - Water Pump - Inspect for Reuse
-> - Air Compressor Discharge Lines - Check
-> - Vibration Damper, Viscous - Check 8
->
-> #### Maintenance Procedures at 10,000 Hours (Section 9)
->
-> - Fuel Injectors - Replace 6
-> - Turbocharger - Check 6
->
-> Power Generation
->
-> #### Maintenance Procedures at Daily Interval (Section 3)
->
-> - Air Intake Piping - Check
-> - Air Cleaner Restriction 2 - Check
-> - Air Tanks and Reservoirs - Drain
-> - Lubricating Oil Level - Check
-> - Coolant Level - Check
-> - Air Cleaner Precleaner - Check
-> - Fuel Filter, Remote-Mounted - Drain
-> - Fuel-Water Separator - Drain
-> - Fuel Filter, Remote-Mounted 5 - Check
->
-> #### Maintenance Procedures at 250 Hours or 6 Months 1 (Section 4)
->
-> - Fuel Filter (Spin-On Type) 4 - Change
-> - Fuel Filter (Stage 1) 5 - Change
-> - Fuel Filter (Stage 2) 5 - Change
-> - Lubricating Oil and Filters - Change 3
-> - Crankcase Breather Tube - Check
-> - Supplemental Coolant Additive (SCA) and Antifreeze Concentration - Check
-> - Coolant Filter - Change
-> - Air Compressor Air Cleaner Element 2 - Check
-> - Drive Belt, Alternator - Check
-> - Drive Belt, Cooling Fan - Check
-> - Fan, Cooling - Check
-> - Engine Wiring Harness - Check
-> - Intake Manifold Pressure - Check
->
-> #### Maintenance Procedures at 1500 Hours or 1 Year 1 (Section 7)
->
-> - Fan Hub, Belt Driven - Check
-> - Crankcase Breather (External) - Clean
-> - Crankshaft - Check
-> - Batteries - Check
-> - Engine Mounts - Check
-> - Cooling System Hoses - Check
-> - Engine - Clean
-> - Engine Oil Heater - Check
-> - Engine Coolant Heater - Check
->
-> #### Maintenance Procedures at 6000 Hours or 2 Years 1 (Section 8)
->
-> - Cooling System - Flush
-> - Fan Hub, Belt Driven - Check
-> - Fan Drive Idler Pulley Assembly - Check
-> - Water Pump - Inspect for Reuse
-> - Air Compressor Discharge Lines - Check
-> - Vibration Damper, Viscous - Check 8
->
-> #### Maintenance Procedures at 10,000 Hours (Section 9)
->
-> - Fuel Injectors - Replace 6
-> - Turbocharger - Check 6
->
-> 1. Under circumstances where hours of operation are **not** accumulated at a fast rate, use calendar time. In other words, use hours or calendar time, whichever comes first.
-> 2. Cummins Inc. recommends the use of dry-type air cleaners.
-> 3. Alternative oil drain information is available in the oil drain section of this procedure.
-> 4. Mechanically actuated injector engines **only**.
-> 5. Electronically actuated injector engines **only**.
-> 6. Recommended at engine half life to rebuild. Half life varies by application. Contact a Cummins® Authorized Repair Location if the interval can **not** be determined. Alternative injector replacement information is available in the injector replacement interval section of this procedure.
-> 7. **Only** when coupled with Chart Method explained in the oil drain section of this procedure.
-> 8. Vibration dampers have limited service life. The damper **must** be replaced after 576,000 km \[360,000 miles\], or 15,000 hours of service.
->
-> ### Oil Drain and Fuel Filter Change Intervals
->
-> As the engine oil becomes contaminated, essential oil additives are depleted. Lubricating oils protect the engine as long as these additives are functioning properly. Progressive contamination of the oil between oil and filter change intervals is normal. The amount of contamination will vary, depending on the operation of the engine, kilometers, miles, or hours on the oil, fuel consumed, and new oil added.
->
-> Extending oil and filter change intervals beyond recommendations will decrease engine life, due to factors such as corrosion, deposits, and accelerated wear.
->
-> Use the oil drain interval recommendations in this section to determine which oil drain interval method to use for your application.
->
-> Do **not** extend oil and filter change intervals beyond 500 hours or 6 months (except for standby generator drive engines) unless the Chart Method is used. On standby generator drive engines, the intervals are 500 hours or 12 months, whichever occurs first. See the charts below.
->
-> There are three recommended methods to determine proper oil and filter change interval:
->
-> - Fixed Mileage Method (based on fixed kilometer, miles, hours, or months; whichever occurs first). This information is contained in the General Information section of this procedure.
-> - Centinel™ System, coupled with an oil analysis program.
-> - Chart method (based on known fuel consumption rates, coupled with oil analysis program).
->
-> Centinel™ - With a continuously operating Centinel™ System, the oil drain interval can be extended until the oil analysis requires the oil to be changed or the oil is known to be contaminated. Oil analysis is required at 250 hour intervals when using the Centinel™ System, and **must** include soot measurement. Fleetguard® Oil Analysis Kit, Part Number CC 2543, meets this requirement. Oil analysis parameters **must** remain within the limits specified in Table 2 of the Oil Analysis Techniques for High Horsepower Diesel Engines, Service Bulletin [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]]. Reference the following bulletins for more information on oil sampling and analysis:
->
-> - Fluids for Cummins® Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]] [[5411406 — Fluids for Cummins® Products Service Manual|5411406]], Section 4 Engine Oil.
-> - Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060 [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]].
-> - Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines, Bulletin 2883452 [[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines|2883452]].
->
-> Premium oil filters, such as Fleetguard® LF 9000 series filters, or equivalent, are also required when using Centinel™ with spin-on filters.
->
-> Chart Method
->
-> The information listed below is required when using the chart method to determine the correct oil and filter change interval for the engine.
->
-> - Oil system capacity (sump plus any remote tank volume)
-> - Average fuel consumption rate
-> - Use engine oil that complied to the standards listed in Cummins® Engine Oil and Oil Analysis Recommendations, Bulletin [[3810340 — Cummins® Engine Oil and Oil Analysis Recommendations|3810340]].
->
-> - Oil analysis to demonstrate the chart method interval is acceptable. Reference the following service bulletins:
->
-> System capacity can be determined by knowing the volume of the oil required to touch the high-level mark on the dipstick and volume of any remote oil tanks on the machine in which oil is continuously circulated. Oil sump capacities are listed in the operation and maintenance manuals for all Cummins® engines. It is imperative that the total system volume be known when using the chart method. Use the following procedure for information on the oil sump capacity. [[20-018-017 — Lubricating Oil System|Refer to Procedure 018-017 in Section V]] for system capacity. If the machine is equipped with an oil reserve system with a reservoir remote from the engine oil sump, the reservoir volume **must** be added to the engine sump volume to determine the total system capacity. This is **only** true for remote tanks in which the oil is continuously circulated.
->
-> When oil is changed on an engine with a remote oil tank in which oil is continuously circulated, the oil in the tank **must** be changed in addition to the oil in the engine sump.
->
-> To use the chart method effectively, accurate fuel consumption records **must** be kept and maintained. Fuel consumption information **must** be in liters per hour or gallons per hour units to use the charts. Fuel consumption rates can change over time because of an increasing or decreasing engine duty cycle. Accurate records are essential in determining average fuel consumption during a given oil change interval.
->
-> The charts are categorized and labeled by the system capacity for a specific engine family. Select the chart representing the correct oil system capacity for engine model in question. The left vertical axis of the chart represents fuel consumption in U.S. gallons per hour. The chart method shows both gallons per hour and liters per hour. Determine the intersection point of the fuel consumption rate on the applicable interval curve by drawing a horizontal line. From this point, draw a vertical line down until ii intersects with the horizontal axis representing hours. This point represents the acceptable oil change interval.
->
-> **Note · Примечание**
-> Before using the charts below, it is important to note the grade of oil being used. Reference Table 1. This can affect which chart can be used.
->
-> | Table 1: Engine Oil Grades |  |  |  |
-> |---|---|---|---|
-> | North America Classification | International Classification | Cummins Engineering Standard (CES) | Description |
-> | API 1 CD API CE | ACEA 2 E1 | Standard obselete. These oils are no longer recommend for use in Cummins® engines | Do **not** use the Chart Method if using these oils. |
-> | APl 1 CG-4/SH |  |  |  |
-> | API CF-4/SG | ACEA 2 E2 | CES 200757 |  |
-> | ACEA 2 E3 |  |  |  |
-> | APl 1 CH-44 /SJ | JAMA 3 DH-1 ACEA 2 E55 | CES 20071 | Engines using these oil grades can use the Chart Method |
-> | CES 20076 CES 20077 |  |  |  |
-> | APl 1 Cl-4 | ACEA 2 E7 | CES 20078 |  |
-> | APl 1 CJ-48 | ACEA 2 E9 JAMA3 DH-2 | CES 20081 |  |
-> | API - American Petroleum Institute. ACEA - Association des Constructeurs European d' Association. JAMA - Japan Automobile Manufacturer Association. CES 20076 adds the requirement of a 300 hour Cummins® M11 test to API CH-4. CES 20077 adds the requirement of a 300 hour test to ACEA ES. Use of oils with only these designations poses an undue risk of engine damage for engines design to use more advanced oils. Even when drastically shortened oil change intervals are followed CES 20075 CF-4/SH and E-3 oils can be used in areas where none of the recommended oils are available, but the oil drain interval must be reduced. Reference the appropriate maintenance schedule. Use of oils with only these designations poses an undue risk of engine damage for engines designed to use more advanced oils, even when drastically shortened oil change intervals are followed. API CJ-4 oil should only be used on engines running with Ultra Low Sulphur Diesel fuel. |  |  |  |
->
-> **CAUTION · Осторожно**
-> Inaccurate fuel consumption records can result in incorrect oil change intervals that can result in premature engine wear and/or deposits.
->
-> **CAUTION · Осторожно**
-> Do not extend oil change intervals beyond the maximum point shown when fuel consumption rates are less than the minimum shown. Doing so can result in shortened engine life due to oil degradation processes associated with lightly loaded engines
->
-> 38 Liter (10 US Gallon) Sump
->
-> 60 Liter (16 US Gallon) Sump
->
-> 72 Liter (19 US Gallon) Sump
->
-> 102 Liter (27 US Gallon) Sump
->
-> To read the chart:
->
-> Assume the engine has a 10 gallon sump capacity and the engine consumes 15 gallons of fuel per hour.
->
-> - Select the chart titled 38 liter (10 US Gallons).
-> - The left vertical axis of the chart represents fuel consumption in gallons per hour.
-> - Determine the location of 15 gallons on the left vertical axis and draw a horizontal line across the chart until it intersects the curve.
-> - At the point of intersection, draw a straight vertical line down to the bottom of the graph.
-> - The point at which the vertical line intersects the bottom horizontal axis of the graph indicates the oil change interval (approximetly 275 hours in this example).
->
-> #### Fuel Filter Change Intervals for Electronically Actuated Injector Engines Only
->
-> - Fuel filter change intervals are set at 250 hours in order to protect the fuel system from hard particles.
-> - **Not** all fuel filters available on the market are equivalent, and may **not** protect the fuel system adequately beyond the 250 hour threshold.
-> - Cummins Inc. requires the following hardware to achieve Stage 1 and Stage 2 fuel filter change intervals beyond 250 hours, and up to but **not** exceeding 500 hours:
->
-> Cummins Inc. does **not** recommend fuel filter change intervals exceed 500 hours.
->
-> The most common cause of degraded engine performance is poor fuel quality. Fleetguard® NanoNet™ media filters are designed to function with greater filtration efficiency than other filters, and thus retain more contaminants. If premature filter plugging is observed, additional filtration or improved fuel quality may be necessary to reach desired maintenance intervals. For more information on fuel cleanliness recommendations, reference the “Fuel Cleanliness” section of the [[3379001 — Fuels for Cummins® Engines|Fuels For Cummins® Engines, Bulletin 3379001]].
->
-> ### Injector Replacement Interval
->
-> Injector replacement intervals are recommended at engine half life to rebuild for some injectors part numbers. Contact a Cummins® Distributor if **not** sure of this interval.
->
-> For some injector part numbers, if additional requirements are met, the injector replacement interval is at rebuild.
->
-> | Injector Replacement Interval |  |  |
-> |---|---|---|
-> | Injector Part Number | Description | Replacement Interval |
-> | 4924587, 4928053, 4928106 | C1 Injectors | Half life to rebuild |
-> | 2881083, 4964170, 4964171 | C2 Injectors | Half life to rebuild |
-> | 2881088 | C3 Injectors without flow limiters | Half life to rebuild |
-> | 3867149 | C3 Injectors for T3 engines with unique nozzle | Half life to rebuild |
-> | [[2867147]] | C3 Injectors with flow limiters, not using NanoNet™ fuel filters 1 or with fuel sulfur levels \> 500 ppm | Half life to rebuild |
-> | [[2867147]] | C3 Injectors with flow limiters, using NanoNet™ fuel filters 1, fuel sulfur levels \<500 ppm | Rebuild |
->
-> 1 Nanonet Fuel Filtration:
->
-> - FH239 series Industrial Pro or FH240 series Sea Pro® filter head **must** be installed as the Stage 1 fuel filter head.
-> - Fleetguard® NanoNet™ media fuel filters **must** be used on Stage 1 and Stage 2 fuel filters.
-> - Use the following procedure for fuel filter part numbers. Refer to Procedure 018-024 in Section V.
->
-> ### Coolant Drain Interval
->
-> | Maintenance Intervals for Cooling System up to 568 liters \[150 gal\] |  |  |  |  |  |
-> |---|---|---|---|---|---|
-> | System Size in liters \[gal\] | 79-144 \[21-30\] | 117-189 \[31-50\] | 193-284 \[51-75\] | 288-378 \[76-100\] | 382-568 \[101-150\] |
-> | Hours | Units of SCA |  |  |  |  |
-> | 751-1000 | 25 | 50 | 80 | 75 | 150 |
-> | 501-750 | 20 | 35 | 60 | 100 | 110 |
-> | 251-500 | 15 | 25 | 40 | 50 | 75 |
-> | 0-250 | 10 | 15 | 20 | 25 | 40 |
->
-> | Maintenance Intervals for Cooling System up to 1514 liters \[400 gal\] |  |  |  |  |  |
-> |---|---|---|---|---|---|
-> | System Size in liters \[gal\] | 572-757 \[151-200\] | 761-946 \[201-250\] | 950-1135 \[251-300\] | 1139-1325 \[301-350\] | 1329-1514 \[351-400\] |
-> | Hours | Units of SCA |  |  |  |  |
-> | 751-1000 | 200 | 250 | 300 | 350 | 400 |
-> | 751-1000 | 150 | 190 | 225 | 260 | 300 |
-> | 251-500 | 100 | 125 | 150 | 175 | 200 |
-> | 0-250 | 50 | 65 | 75 | 90 | 100 |
->
-> **Note · Примечание**
-> Consult the vehicle equipment manufacturer's maintenance information for total cooling system capacity.
->
-> **Note · Примечание**
-> When draining and replacing the coolant, **always** pre-charge the cooling system to a SCA level of 1.5 units per gallon. This concentration level **must not** be allowed to go below 1.2 units and **must** be controlled when the level is greater than 3 units. Action needed when the level goes below 1.2 is a filter and liquid pre-charge; from 1.2 to 3.0 units, filter **only**; above 3.0, test at every oil change until level falls to 3.0 or below.
->
-> When performing service which requires draining the cooling system, take special precautions to collect it in a clean container, seal it to prevent contamination, and save for reuse.
->
-> 1. Change coolant filters at each oil change to protect the cooling system. Consult the coolant capacity chart to determine the correct coolant filter for a given cooling system capacity and oil drain interval.
-> 2. Once the required number of SCA units has been determined for a given cooling system capacity and maintenance interval from the chart above, the table in the following procedure can be used to determine the correct filter part number. [[20-018-024-om — Filter Specifications|Refer to Procedure 018-024 in Section V.]]

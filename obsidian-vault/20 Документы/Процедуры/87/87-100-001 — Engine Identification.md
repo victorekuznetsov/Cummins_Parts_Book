@@ -14,15 +14,13 @@ families:
 manuals:
   - "3666214"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-100-001.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-100-001.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-100-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
-  - "перевод/машинный"
 ---
 
 # Engine Identification
@@ -34,28 +32,12 @@ tags:
 > **Входит в руководства:** [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]]
 > **Секции:** Section E - System Identification
 > **Даты:** изменён 2003-05-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-100-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-100-001.pdf)
-
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
-
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-100-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-100-001.pdf)
 
 ### ECM Dataplate
 
-Внешний электронный модуль управления (ECM) расположен на передней части ECM.
+The external electronic control module (ECM) dataplate is located on the front of the ECM.
 
-На табличке с данными указаны номер детали ECM, серийный номер ECM, код даты изготовления, серийный номер двигателя и код ECM.
+The dataplate contains the ECM part number, the ECM serial number, the manufacturing date code, the engine serial number, and the ECM code.
 
 ![[19900348.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### ECM Dataplate
->
-> The external electronic control module (ECM) dataplate is located on the front of the ECM.
->
-> The dataplate contains the ECM part number, the ECM serial number, the manufacturing date code, the engine serial number, and the ECM code.

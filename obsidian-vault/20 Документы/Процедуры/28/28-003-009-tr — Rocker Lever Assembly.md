@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021528"
 figures: 29
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-003-009-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-003-009-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-003-009-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/28"
-  - "перевод/машинный"
 ---
 
 # Rocker Lever Assembly
@@ -34,682 +32,367 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 3 - Rocker Levers - Group 03
 > **Даты:** изменён 2013-09-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-003-009-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-003-009-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-003-009-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-003-009-tr.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Preparatory Steps
 
+with Mechanically Actuated Injector
 
-### Подготовительные операции
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-с форсункой механического управления
-
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
-
-- Отсоедините аккумуляторные батареи. См. руководство по обслуживанию производителя оригинального оборудования (OEM).
-- Снимите крышку рычага клапанного клапана.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Disconnect the batteries. Refer to the original equipment manufacturer (OEM) service manual.
+- Remove rocker lever cover. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
 
 ![[ck800wa.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-> [!danger] ОПАСНО
-> Давление топлива в линии достаточно, чтобы проникнуть в кожу и нанести серьезный вред здоровью. Носите перчатки и защитную одежду.
+> [!danger] WARNING · Опасно
+> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
 
-> [!warning] ОСТОРОЖНО
-> Используйте осторожность при отключении или удалении топливных линий, замене фильтров и заправке топливной системы, чтобы топливо не разлилось или не слилось в зону трюма. Не бросайте фильтрующие элементы в трюм. Топливный и топливный фильтры должны быть утилизированы в соответствии с местными экологическими нормами.
+> [!warning] CAUTION · Осторожно
+> Use caution when disconnecting or removing fuel lines, replacing filters, and priming the fuel system so that fuel is not spilled or drained into the bilge area. Do not drop or throw filter elements into the bilge area. The fuel and fuel filter must be disposed of in accordance with local environmental regulations.
 
-- Отсоедините аккумуляторные батареи. См. сервисное руководство изготовителя машины.
-- Удалите линии подачи топлива форсунки.[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
-- Снимите крышку рычага клапанного клапана.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
+- Disconnect the batteries. Refer to the OEM service manual.
+- Remove the injector fuel supply lines. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in section 6.]]
+- Remove rocker lever cover. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
 
 ![[ck800wa.png]]
 
-### Снятие
+### Remove
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-Не позволяйте рычагам коромысла падать с вала во время удаления.
+Do **not** allow the rocker levers to fall off the shaft during removal.
 
-Удалите два крепежных болта и рычаги коромысла.
+Remove the two mounting capscrews and the rocker levers.
 
 ![[03400026.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-Устраните клапанные рычаги, регулирующие винты.
+Loosen the rocker lever adjusting screws.
 
-Устраните крепление болтов вала клапанного клапана и удалите клапанный клапанный блок рычага.
+Loosen the rocker lever shaft mounting capscrews and remove the rocker lever assembly.
 
-Не позволяйте рычагам коромысла падать с вала во время удаления.
+Do **not** allow the rocker levers to fall off the shaft during removal.
 
 ![[03400084.png]]
 
-### Разборка
+### Disassemble
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-Удалите болты и простые шайбы. Вытащите вал. Пометьте детали, чтобы помочь будущей процедуре сборки.
+Remove the capscrews and plain washers. Pull the shaft out. Tag the parts to aid the future assembly procedure.
 
 ![[rh6shfa.png]]
 
-Снимите замковый гайку и регулировочный винт.
+Remove the lock nut and adjusting screw.
 
 ![[rh6lvaa.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-Удалите болты.
+Remove the capscrews.
 
-Вытащите вал из рычагов коромысла.
+Pull the shaft out of the rocker levers.
 
 ![[03400085.png]]
 
-### Очистка и проверка при повторном использовании
+### Clean and Inspect for Reuse
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Носите очки и защитную одежду, чтобы снизить риск получения травм.
+> [!danger] WARNING · Опасно
+> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the risk of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-> [!danger] ОПАСНО
-> Некоторые растворители огнеопасны и токсичны. Перед применением прочитайте указания изготовителя.
+> [!danger] WARNING · Опасно
+> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
 
-Используйте растворитель. Очистите шахту. Используйте сжатый воздух для продувания нефтяных скважин, чтобы убедиться, что пять нефтяных отверстий не заблокированы.
+Use solvent. Clean the shaft. Use compressed air to blow through the oil drillings, to be sure that the five oil holes are **not** blocked.
 
-Вилка (1) в основной масляной винтовке шахты коромысла *** должна быть установлена в кольцевой дюбельной части шахты (выхлопной рычаг).
+The plug (1) in the main oil rifle of the rocker shaft **must** be installed in the ring dowel end of the shaft (exhaust lever end).
 
 ![[rh6shea.png]]
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-Используйте растворитель. Очистите детали.
+Use solvent. Clean the parts.
 
-Используйте сжатый воздух для продувания нефтяных буровых скважин, чтобы убедиться, что они не заблокированы.
+Use compressed air to blow through the oil drillings to be sure that they are **not** blocked.
 
 ![[rh6lvea.png]]
 
-Проверьте вал на предмет повреждения или шероховатости.
+Check the shaft for damage or roughness.
 
-Измерьте внешний диаметр.
+Measure the outside diameter.
 
-| Вал вне диаметра |  |  |
+| Shaft Outside Diameter |  |  |
 |---|---|---|
-| мм |  | в |
-| 34.823 | Мин | 1.3710 |
-| 34.862 | Макс | 1.3725 |
+| mm |  | in |
+| 34.823 | MIN | 1.3710 |
+| 34.862 | MAX | 1.3725 |
 
 ![[rh6shsa.png]]
 
-Проверьте розетку рычага форсунки на износ. Если розетка показывает какие-либо признаки царапин или тупости, ее *** следует заменить. Ожидается польский.
+Check the socket of the injector lever for wear. If the socket shows any signs of scratching or dullness, it **must** be replaced. Polishing is expected.
 
-Проверьте клапанные клапанные клапанные накладки на руке для износа.
+Check the valve rocker lever pads for wear.
 
-Если прокладка была изношена плоской в точке, в которой она контактирует с клапанным мостом, рычаг ** должен быть заменен. Некоторая полировка рычага накладки является нормальным.
+If the pad has been worn flat at the point it contacts the crosshead, the lever **must** be replaced. Some polishing of the lever pad is normal.
 
-> [!note] Примечание
-> Двигатели с электронным топливным форсункой ** не** имеют топливные рычаги форсунки.
+> [!note] Note · Примечание
+> Engines with electronically actuated injectors do **not** have injector levers.
 
 ![[rh6lvsa.png]]
 
-Осмотрите рычаги коромысла на наличие рыхлых заклепок.
+Inspect the rocker levers for loose rivets.
 
-Рука впускного клапана качения (1) ** должна иметь заклепку (2), установленную в нефтяном бурении.
+The intake rocker lever (1) **must** have a rivet (2) installed in the oil drilling.
 
-Рука качения клапана выхлопного клапана (3) ** не должна ** иметь заклепку в нефтяном бурении.
+The exhaust rocker lever (3) **must not** have a rivet in the oil drilling.
 
-> [!note] Примечание
-> Двигатели K2000E, K1800E и K1500E** должны иметь заклепку в рычагах впуска и выхлопа.
+> [!note] Note · Примечание
+> K2000E, K1800E and K1500E engines **must** have a rivet in the intake and exhaust levers.
 
-> [!note] Примечание
-> Все двигатели с топливным форсункой с электронным приводом ** должны ** иметь заклепку в рычагах впуска и выхлопа.
+> [!note] Note · Примечание
+> All engines with electronically actuated injectors **must** have a rivet in the intake and exhaust levers.
 
 ![[rh6lvgb.png]]
 
-Измерьте внутренний диаметр.
+Measure the inside diameter.
 
-| Буширование цилиндра внутри диаметра |  |  |
+| Bushing Bore Inside Diameter |  |  |
 |---|---|---|
-| мм |  | в |
-| 34.887 | Мин | 1.3735 |
-| 34.991 | Макс | 1.3776 |
+| mm |  | in |
+| 34.887 | MIN | 1.3735 |
+| 34.991 | MAX | 1.3776 |
 
-> [!note] Примечание
-> Эта спецификация одинакова для всех рычагов коромысла.
+> [!note] Note · Примечание
+> This specification is the same for all rocker levers.
 
-Если висящий цилиндр, имеющий внутренний диаметр, ** не** в пределах спецификаций, то втулка *** должна быть заменена.
+If the bushing bore inside diameter is **not** within specifications, the bushing **must** be replaced.
 
 ![[rh6lvta.png]]
 
-Используйте набор для обнаружения трещин, часть 3375432 или метод магнитных частиц для проверки рычагов скалолазания. Если используется метод магнитных частиц, обратитесь к инспекции магнитной трещины в этой процедуре.
+Use crack detection kit, Part Number 3375432, or magnetic particle method to inspect the rocker levers. If using the magnetic particle method, reference the magnetic crack inspection in this procedure.
 
-Рычаг ** должен быть заменен, если есть трещина в любом месте.
-
-![[rh6lvsb.png]]
-
-### Магнитный крэк-инспект
-
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
-
-Рука клапанного качалки ** должна быть разобрана для выполнения этой проверки.
-
-Используйте остаточный метод и нанесите ударную силу катушки.
-
-Амперные витки — это электрический ток одного ампера, протекающий через катушку, умноженный на количество витков в катушке.
-
-Ампера (Ampere Turns)
-
-1200-VDC или исправленный VAC
-
-2000-VDC или исправленный VAC
-
-Рычаг ** должен быть заменен, если есть трещина в любом месте.
-
-Размагничивайте рычаг.
-
-Очистить клапанную качалку рычага растворителем.
+The lever **must** be replaced if there is a crack in any location.
 
 ![[rh6lvsb.png]]
 
-### Сборка
+### Magnetic Crack Inspect
 
-с форсункой механического управления
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!warning] ОСТОРОЖНО
-> Втулка должна быть установлена и выровнена в цилиндре втулки правильно. Потеря моторного масла в шахте произойдет, если втулки неправильно установлены.
+The rocker lever **must** be disassembled to perform this inspection.
 
-> [!warning] ОСТОРОЖНО
-> Вилка в конце вала должна быть на том же конце, что и рычаг качения клапана выхлопного клапана. Повреждение сборки коромысла произойдет, если вилка не установлена или установлена в неправильном месте.
+Use the residual method and apply coil shot amperage.
 
-Выровнять щель в втулке, чтобы указать на нос клапанного клапана в руке коромысла, выравнивая нефтяные отверстия в втулке с нефтяными проходами в руке вентильного клапана.
+Ampere turns is an electrical current of one ampere flowing through the coil, multiplied by the number of turns in the coil.
 
-Используйте пресс для арбора и ручную стрелку (1), номер детали 3162458, для механически приводимого в действие форсунки, для установки втулки.
+Amperage (Ampere Turns)
+
+1200-VDC or rectified VAC
+
+2000-VDC or rectified VAC
+
+The lever **must** be replaced if there is a crack in any location.
+
+Demagnetize the lever.
+
+Clean the rocker lever with solvent.
+
+![[rh6lvsb.png]]
+
+### Assemble
+
+with Mechanically Actuated Injector
+
+> [!warning] CAUTION · Осторожно
+> The bushing must be installed and aligned in the bushing bore correctly. A loss of lubricating oil to the shaft will occur if the bushings are incorrectly installed.
+
+> [!warning] CAUTION · Осторожно
+> The plug in the end of the shaft must be on the same end as the exhaust rocker lever. Damage to the rocker assembly will occur if the plug is not installed or installed in the wrong location.
+
+Align the slot in the bushing to point toward the nose of the rocker lever while aligning the oil holes in the bushing with the oil passages in the rocker lever.
+
+Use an arbor press and a rocker lever mandrel (1), Part Number 3162458, for mechanically actuated injectors, to install the bushing.
 
 ![[03400137.png]]
 
-Установите регулировочный винт и гайку замка в каждый рычаг.
+Install the adjusting screw and the lock nut in each lever.
 
-Делайте **не** полностью затягивать гайку замка до тех пор, пока сборка не будет установлена на двигателе.
+Do **not** completely tighten the lock nut until the assembly is installed on the engine.
 
 ![[rh6lvaa.png]]
 
-> [!warning] ОСТОРОЖНО
-> Не перегружайте прессу. Повреждение клапанного клапана может привести к качению руки.
+> [!warning] CAUTION · Осторожно
+> Do not overstress the press fit. Damage to the rocker lever can result.
 
-Используйте старый розеточный конец проточной трубки для поддержки и выравнивания шара для правильного сидения в рычаге качения топливного форсунка.
+Use an old push tube socket end to support and align the ball for proper seating into the injector rocker lever.
 
-Используйте пресс, чтобы сместить новый шар в полость в руке качели клапанного клапана.
+Use a press to seat the new ball into the cavity in the rocker lever.
 
-Липа на шаре ** должна быть промыта поверхностью на руке качения клапанного клапана.
+The lip on the ball **must** be flush with the surface on the rocker lever.
 
 ![[03400041.png]]
 
-> [!warning] ОСТОРОЖНО
-> Убедитесь, что кольцо расположено на мяче правильно. Если кольцо устанавливается между шаром и гнездом, кольцо в конечном итоге выйдет из строя, что приведет к чрезмерной ударной хватке клапана.
+> [!warning] CAUTION · Осторожно
+> Make sure the o-ring is positioned on the ball properly. If the o-ring is installed between the ball and socket the o-ring will eventually fail, resulting in excessive valve lash.
 
-О-кольцо используется только для удержания гнезда к рычагу качения клапана во время сборки.
+The o-ring is **only** used to retain the socket to the rocker lever during assembly.
 
-Установите новую розетку на шар.
+Install the new socket on the ball.
 
 ![[03600077.png]]
 
-Если удалено, установите приводные вилки в нефтяные бурения в рычагах коромысла.
+If removed, install drive plugs into oil drillings in the rocker levers.
 
-Свяжитесь с авторизованным местом ремонта Cummins® для правильного номера детали механизма герметизации.
+Contact an Authorized Cummins® Repair Location for the proper sealing mechanism part number.
 
 ![[03600125.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-> [!warning] ОСТОРОЖНО
-> Втулка должна быть установлена и выровнена в цилиндре втулки правильно. Потеря моторного масла в шахте произойдет, если втулки неправильно установлены.
+> [!warning] CAUTION · Осторожно
+> The bushing must be installed and aligned in the bushing bore correctly. A loss of lubricating oil to the shaft will occur if the bushings are incorrectly installed.
 
-> [!warning] ОСТОРОЖНО
-> Вилка в конце вала должна быть на том же конце, что и рычаг качения клапана выхлопного клапана. Повреждение сборки коромысла произойдет, если вилка не установлена или установлена в неправильном месте.
+> [!warning] CAUTION · Осторожно
+> The plug in the end of the shaft must be on the same end as the exhaust rocker lever. Damage to the rocker assembly will occur if the plug is not installed or installed in the wrong location.
 
-Выровнять щель в втулке, чтобы указать на нос клапанного клапана в руке коромысла, выравнивая нефтяные отверстия в втулке с нефтяными проходами в руке вентильного клапана.
+Align the slot in the bushing to point toward the nose of the rocker lever while aligning the oil holes in the bushing with the oil passages in the rocker lever.
 
-Используйте пресс для арбора и ручную стрелку для качения клапанного клапана (1), Часть номер ST-1284 или эквивалент, для электрически приводимого в действие форсунки, для установки втулки.
+Use an arbor press and a rocker lever mandrel (1), Part Number ST-1284, or equivalent, for electrically actuated injectors, to install the bushing.
 
 ![[03400137.png]]
 
-Установите регулировочный винт и гайку замка в каждый рычаг.
+Install the adjusting screw and the lock nut in each lever.
 
-Делайте **не** полностью затягивать гайку замка до тех пор, пока сборка не будет установлена на двигателе.
+Do **not** completely tighten the lock nut until the assembly is installed on the engine.
 
 ![[rh6lvaa.png]]
 
-Если удалено, установите приводные вилки в нефтяные бурения в рычагах коромысла.
+If removed, install drive plugs into oil drillings in the rocker levers.
 
-Свяжитесь с авторизованным местом ремонта Cummins® для правильного номера детали механизма герметизации.
+Contact a Cummins® Authorized Repair Location for the proper sealing mechanism part number.
 
 ![[03600125.png]]
 
-### Установка
+### Install
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-> [!warning] ОСТОРОЖНО
-> Нефтяные бурения в шахте должны быть в соответствии с нефтяными бурениями в рычагах скалолазания.
+> [!warning] CAUTION · Осторожно
+> The oil drillings in the shaft must be in alignment with the oil drillings in the rocker levers.
 
-> [!warning] ОСТОРОЖНО
-> Вилка в конце вала должна быть на том же конце, что и рычаг качения клапана выхлопного клапана. Повреждение сборки коромысла произойдет, если вилка не установлена или установлена в неправильном месте.
+> [!warning] CAUTION · Осторожно
+> The plug in the end of the shaft must be on the same end as the exhaust rocker lever. Damage to the rocker assembly will occur if the plug is not installed or installed in the wrong location.
 
-Используйте чистое масло для смазки вала.
+Use clean oil to lubricate the shaft.
 
-Скользите рычагами коромысла по валу в показанной последовательности.
+Slide the rocker levers on the shaft in the sequence shown.
 
-- Рычаг выхлопа (1)
-- рычаг форсунки (2)
-- Взятие рычага (3)
+- Exhaust lever (1)
+- Injector lever (2)
+- Intake lever (3)
 
-Смазать резьбу, гнёзда коромысел и клапанные мостовые прокладки чистым моторным маслом.
+Lubricate the threads, rocker sockets, and crosshead pads with clean engine oil.
 
-Установите шайбы и болты.
+Install the washers and capscrews.
 
 ![[06400111.png]]
 
-Убедитесь, что кольцевой дюбель, который выравнивает вал качелей, установлен в корпусе.
+Make sure the ring dowel that aligns the rocker shaft is installed in the housing.
 
-Убедитесь, что корректирующие винты свободны.
+Make sure the adjusting screws are loose.
 
-Поместите клапанный клапанный рычаг на корпус. Установите болты и затяните палец на два или три оборота.
+Position the rocker lever assembly on the housing. Install the capscrews and finger-tighten two or three revolutions.
 
-Выровнять розетки толкателя с помощью регулирующих винтов.
+Align the push rod sockets with the adjusting screws.
 
-Затяните болты.
+Tighten the capscrews.
 
-> [!tip] Момент затяжки
-> 95 Н·м [70 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 95 n•m [70 ft-lb]
 
 ![[03400026.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-> [!warning] ОСТОРОЖНО
-> Нефтяные бурения в шахте должны быть в соответствии с нефтяными бурениями в рычагах скалолазания.
+> [!warning] CAUTION · Осторожно
+> The oil drillings in the shaft must be in alignment with the oil drillings in the rocker levers.
 
-> [!warning] ОСТОРОЖНО
-> Вилка в конце вала должна быть на том же конце, что и рычаг качения клапана выхлопного клапана. Повреждение сборки коромысла произойдет, если вилка не установлена или установлена в неправильном месте.
+> [!warning] CAUTION · Осторожно
+> The plug in the end of the shaft must be on the same end as the exhaust rocker lever. Damage to the rocker assembly will occur if the plug is not installed or installed in the wrong location.
 
-Используйте чистое масло для смазки вала.
+Use clean oil to lubricate the shaft.
 
-Установите рычаг (1) выхлопа, прокладку (2) и рычаг (3) впуска на вал. Нефтяные бурения в шахте ** должны** выровняться с бурением в рычагах.
+Install the exhaust lever (1), spacer (2), and intake lever (3) onto the shaft. The oil drillings in the shaft **must** align with the drillings in the levers.
 
-> [!note] Примечание
-> Вилка в конце вала ** должна быть на том же конце, что и рычаг качения клапана выхлопного клапана.
+> [!note] Note · Примечание
+> The plug in the end of the shaft **must** be on the same end as the exhaust rocker lever.
 
-Смазать резьбу, гнёзда коромысел и клапанные мостовые прокладки чистым моторным маслом.
+Lubricate the threads, rocker sockets, and crosshead pads with clean engine oil.
 
-Установите шайбы и болты.
+Install the washers and capscrews.
 
 ![[03400087.png]]
 
-Убедитесь, что кольцевой дюбель, который выравнивает вал качелей, установлен в корпусе.
+Make sure the ring dowel that aligns the rocker shaft is installed in the housing.
 
-Убедитесь, что корректирующие винты свободны.
+Make sure the adjusting screws are loose.
 
-Поместите клапанный клапанный рычаг на корпус. Установите болты и затяните палец на два или три оборота.
+Position the rocker lever assembly on the housing. Install the capscrews and finger-tighten two or three revolutions.
 
-Выровнять розетки толкателя с помощью регулирующих винтов.
+Align the push rod sockets with the adjusting screws.
 
-Затяните болты.
+Tighten the capscrews.
 
-> [!tip] Момент затяжки
-> 95 Н·м [70 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 95 n•m [70 ft-lb]
 
 ![[03400084.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-> [!danger] ОПАСНО
-> Давление топлива в линии достаточно, чтобы проникнуть в кожу и нанести серьезный вред здоровью. Носите перчатки и защитную одежду.
+> [!danger] WARNING · Опасно
+> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
 
-- Регулируйте клапаны и форсунка.[[28-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
-- Установите крышки клапанного клапана.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
-- Подсоедините аккумуляторные батареи. См. сервисное руководство изготовителя машины.
-- Запустите двигатель и проверьте на отсутствие утечек.
+- Adjust the valves and injectors. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in section 3.]]
+- Install the rocker lever covers. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+- Connect the batteries. Refer to the OEM service manual.
+- Operate the engine and check for leaks.
 
 ![[ck800wa.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-> [!danger] ОПАСНО
-> Давление топлива в линии достаточно, чтобы проникнуть в кожу и нанести серьезный вред здоровью. Носите перчатки и защитную одежду.
+> [!danger] WARNING · Опасно
+> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
 
-- Отрегулируйте накладные расходы.[[28-003-006-tr — Overhead Set (OBC)|См. процедуру 003-006 в разделе 3.]]
-- Установите крышку коромысел.[[28-003-011-tr — Rocker Lever Cover|См. процедуру 003-011 в разделе 3.]]
-- Установите линии подачи форсунки.[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
-- Подсоедините аккумуляторные батареи. См. сервисное руководство изготовителя машины.
-- Запустите двигатель и проверьте на отсутствие утечек.
+- Adjust the overhead. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
+- Install the rocker lever cover. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
+- Install the injector supply lines. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+- Connect the batteries. Refer to the OEM service manual.
+- Operate the engine and check for leaks.
 
 ![[ck800wa.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Preparatory Steps
->
-> with Mechanically Actuated Injector
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> - Disconnect the batteries. Refer to the original equipment manufacturer (OEM) service manual.
-> - Remove rocker lever cover. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
->
-> with Electronically Actuated Injector
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> **WARNING · Опасно**
-> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
->
-> **CAUTION · Осторожно**
-> Use caution when disconnecting or removing fuel lines, replacing filters, and priming the fuel system so that fuel is not spilled or drained into the bilge area. Do not drop or throw filter elements into the bilge area. The fuel and fuel filter must be disposed of in accordance with local environmental regulations.
->
-> - Disconnect the batteries. Refer to the OEM service manual.
-> - Remove the injector fuel supply lines. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in section 6.]]
-> - Remove rocker lever cover. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
->
-> ### Remove
->
-> with Mechanically Actuated Injector
->
-> Do **not** allow the rocker levers to fall off the shaft during removal.
->
-> Remove the two mounting capscrews and the rocker levers.
->
-> with Electronically Actuated Injector
->
-> Loosen the rocker lever adjusting screws.
->
-> Loosen the rocker lever shaft mounting capscrews and remove the rocker lever assembly.
->
-> Do **not** allow the rocker levers to fall off the shaft during removal.
->
-> ### Disassemble
->
-> with Mechanically Actuated Injector
->
-> Remove the capscrews and plain washers. Pull the shaft out. Tag the parts to aid the future assembly procedure.
->
-> Remove the lock nut and adjusting screw.
->
-> with Electronically Actuated Injector
->
-> Remove the capscrews.
->
-> Pull the shaft out of the rocker levers.
->
-> ### Clean and Inspect for Reuse
->
-> **WARNING · Опасно**
-> When using solvents, acids or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the risk of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> **WARNING · Опасно**
-> Some solvents are flammable and toxic. Read the manufacturer's instructions before using.
->
-> Use solvent. Clean the shaft. Use compressed air to blow through the oil drillings, to be sure that the five oil holes are **not** blocked.
->
-> The plug (1) in the main oil rifle of the rocker shaft **must** be installed in the ring dowel end of the shaft (exhaust lever end).
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> Use solvent. Clean the parts.
->
-> Use compressed air to blow through the oil drillings to be sure that they are **not** blocked.
->
-> Check the shaft for damage or roughness.
->
-> Measure the outside diameter.
->
-> | Shaft Outside Diameter |  |  |
-> |---|---|---|
-> | mm |  | in |
-> | 34.823 | MIN | 1.3710 |
-> | 34.862 | MAX | 1.3725 |
->
-> Check the socket of the injector lever for wear. If the socket shows any signs of scratching or dullness, it **must** be replaced. Polishing is expected.
->
-> Check the valve rocker lever pads for wear.
->
-> If the pad has been worn flat at the point it contacts the crosshead, the lever **must** be replaced. Some polishing of the lever pad is normal.
->
-> **Note · Примечание**
-> Engines with electronically actuated injectors do **not** have injector levers.
->
-> Inspect the rocker levers for loose rivets.
->
-> The intake rocker lever (1) **must** have a rivet (2) installed in the oil drilling.
->
-> The exhaust rocker lever (3) **must not** have a rivet in the oil drilling.
->
-> **Note · Примечание**
-> K2000E, K1800E and K1500E engines **must** have a rivet in the intake and exhaust levers.
->
-> **Note · Примечание**
-> All engines with electronically actuated injectors **must** have a rivet in the intake and exhaust levers.
->
-> Measure the inside diameter.
->
-> | Bushing Bore Inside Diameter |  |  |
-> |---|---|---|
-> | mm |  | in |
-> | 34.887 | MIN | 1.3735 |
-> | 34.991 | MAX | 1.3776 |
->
-> **Note · Примечание**
-> This specification is the same for all rocker levers.
->
-> If the bushing bore inside diameter is **not** within specifications, the bushing **must** be replaced.
->
-> Use crack detection kit, Part Number 3375432, or magnetic particle method to inspect the rocker levers. If using the magnetic particle method, reference the magnetic crack inspection in this procedure.
->
-> The lever **must** be replaced if there is a crack in any location.
->
-> ### Magnetic Crack Inspect
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> The rocker lever **must** be disassembled to perform this inspection.
->
-> Use the residual method and apply coil shot amperage.
->
-> Ampere turns is an electrical current of one ampere flowing through the coil, multiplied by the number of turns in the coil.
->
-> Amperage (Ampere Turns)
->
-> 1200-VDC or rectified VAC
->
-> 2000-VDC or rectified VAC
->
-> The lever **must** be replaced if there is a crack in any location.
->
-> Demagnetize the lever.
->
-> Clean the rocker lever with solvent.
->
-> ### Assemble
->
-> with Mechanically Actuated Injector
->
-> **CAUTION · Осторожно**
-> The bushing must be installed and aligned in the bushing bore correctly. A loss of lubricating oil to the shaft will occur if the bushings are incorrectly installed.
->
-> **CAUTION · Осторожно**
-> The plug in the end of the shaft must be on the same end as the exhaust rocker lever. Damage to the rocker assembly will occur if the plug is not installed or installed in the wrong location.
->
-> Align the slot in the bushing to point toward the nose of the rocker lever while aligning the oil holes in the bushing with the oil passages in the rocker lever.
->
-> Use an arbor press and a rocker lever mandrel (1), Part Number 3162458, for mechanically actuated injectors, to install the bushing.
->
-> Install the adjusting screw and the lock nut in each lever.
->
-> Do **not** completely tighten the lock nut until the assembly is installed on the engine.
->
-> **CAUTION · Осторожно**
-> Do not overstress the press fit. Damage to the rocker lever can result.
->
-> Use an old push tube socket end to support and align the ball for proper seating into the injector rocker lever.
->
-> Use a press to seat the new ball into the cavity in the rocker lever.
->
-> The lip on the ball **must** be flush with the surface on the rocker lever.
->
-> **CAUTION · Осторожно**
-> Make sure the o-ring is positioned on the ball properly. If the o-ring is installed between the ball and socket the o-ring will eventually fail, resulting in excessive valve lash.
->
-> The o-ring is **only** used to retain the socket to the rocker lever during assembly.
->
-> Install the new socket on the ball.
->
-> If removed, install drive plugs into oil drillings in the rocker levers.
->
-> Contact an Authorized Cummins® Repair Location for the proper sealing mechanism part number.
->
-> with Electronically Actuated Injector
->
-> **CAUTION · Осторожно**
-> The bushing must be installed and aligned in the bushing bore correctly. A loss of lubricating oil to the shaft will occur if the bushings are incorrectly installed.
->
-> **CAUTION · Осторожно**
-> The plug in the end of the shaft must be on the same end as the exhaust rocker lever. Damage to the rocker assembly will occur if the plug is not installed or installed in the wrong location.
->
-> Align the slot in the bushing to point toward the nose of the rocker lever while aligning the oil holes in the bushing with the oil passages in the rocker lever.
->
-> Use an arbor press and a rocker lever mandrel (1), Part Number ST-1284, or equivalent, for electrically actuated injectors, to install the bushing.
->
-> Install the adjusting screw and the lock nut in each lever.
->
-> Do **not** completely tighten the lock nut until the assembly is installed on the engine.
->
-> If removed, install drive plugs into oil drillings in the rocker levers.
->
-> Contact a Cummins® Authorized Repair Location for the proper sealing mechanism part number.
->
-> ### Install
->
-> with Mechanically Actuated Injector
->
-> **CAUTION · Осторожно**
-> The oil drillings in the shaft must be in alignment with the oil drillings in the rocker levers.
->
-> **CAUTION · Осторожно**
-> The plug in the end of the shaft must be on the same end as the exhaust rocker lever. Damage to the rocker assembly will occur if the plug is not installed or installed in the wrong location.
->
-> Use clean oil to lubricate the shaft.
->
-> Slide the rocker levers on the shaft in the sequence shown.
->
-> - Exhaust lever (1)
-> - Injector lever (2)
-> - Intake lever (3)
->
-> Lubricate the threads, rocker sockets, and crosshead pads with clean engine oil.
->
-> Install the washers and capscrews.
->
-> Make sure the ring dowel that aligns the rocker shaft is installed in the housing.
->
-> Make sure the adjusting screws are loose.
->
-> Position the rocker lever assembly on the housing. Install the capscrews and finger-tighten two or three revolutions.
->
-> Align the push rod sockets with the adjusting screws.
->
-> Tighten the capscrews.
->
-> **Момент затяжки · Torque Value**
-> 95 n•m [70 ft-lb]
->
-> with Electronically Actuated Injector
->
-> **CAUTION · Осторожно**
-> The oil drillings in the shaft must be in alignment with the oil drillings in the rocker levers.
->
-> **CAUTION · Осторожно**
-> The plug in the end of the shaft must be on the same end as the exhaust rocker lever. Damage to the rocker assembly will occur if the plug is not installed or installed in the wrong location.
->
-> Use clean oil to lubricate the shaft.
->
-> Install the exhaust lever (1), spacer (2), and intake lever (3) onto the shaft. The oil drillings in the shaft **must** align with the drillings in the levers.
->
-> **Note · Примечание**
-> The plug in the end of the shaft **must** be on the same end as the exhaust rocker lever.
->
-> Lubricate the threads, rocker sockets, and crosshead pads with clean engine oil.
->
-> Install the washers and capscrews.
->
-> Make sure the ring dowel that aligns the rocker shaft is installed in the housing.
->
-> Make sure the adjusting screws are loose.
->
-> Position the rocker lever assembly on the housing. Install the capscrews and finger-tighten two or three revolutions.
->
-> Align the push rod sockets with the adjusting screws.
->
-> Tighten the capscrews.
->
-> **Момент затяжки · Torque Value**
-> 95 n•m [70 ft-lb]
->
-> ### Finishing Steps
->
-> with Mechanically Actuated Injector
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> **WARNING · Опасно**
-> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
->
-> - Adjust the valves and injectors. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in section 3.]]
-> - Install the rocker lever covers. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-> - Connect the batteries. Refer to the OEM service manual.
-> - Operate the engine and check for leaks.
->
-> with Electronically Actuated Injector
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> **WARNING · Опасно**
-> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
->
-> - Adjust the overhead. [[28-003-006-tr — Overhead Set (OBC)|Refer to Procedure 003-006 in Section 3.]]
-> - Install the rocker lever cover. [[28-003-011-tr — Rocker Lever Cover|Refer to Procedure 003-011 in Section 3.]]
-> - Install the injector supply lines. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-> - Connect the batteries. Refer to the OEM service manual.
-> - Operate the engine and check for leaks.

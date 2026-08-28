@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc113.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc113.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc113.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
-  - "перевод/машинный"
 ---
 
 # Engine Timing Actuator Driver Circuit - Voltage Above Normal or Shorted to High Source
@@ -34,124 +32,60 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2020-09-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc113.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc113.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc113.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc113.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 113
 
+### Engine Timing Actuator Driver Circuit - Voltage Above Normal or Shorted to High Source
 
-### Код неисправности: 113
+Printable Version
 
-### Цепь драйвера привода опережения впрыска — напряжение выше нормы
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 113 P(P): S20 SPN: 635 FMI: 3/3 лампы: Янтарная СРТ: | Открытая схема или высокое напряжение, обнаруженные на цепи привода синхронизатора. | Возможно снижение производительности двигателя. |
+| Fault Code: 113 PID(P): S20 SPN: 635 FMI: 3/3 Lamp: Amber SRT: | Open circuit or high voltage detected at the timing actuator driver circuit. | Possible reduced engine performance. |
 
 ![[19a00845.png]]
 
-Схема привода привода двигателя
+Engine Timing Actuator Driver Circuit
 
-### Описание цепи
+### Circuit Description
 
-Схема привода синхронизации подает ток на привод синхронизации. ECM командует переменным количеством тока к приводу синхронизации, чтобы контролировать количество давления синхронизации на топливном форсунке.
+The timing actuator circuit supplies current to the timing actuator. The ECM commands a varying amount of current to the timing actuator to control the amount of timing pressure to the injectors.
 
-### Расположение компонента
+### Component Location
 
-Привод синхронизации расположен на электронном клапанном узле управления.
+The timing actuator is located on the electronic control valve assembly.
 
-### Условия выполнения диагностики
+### Conditions For Running The Diagnostics
 
-Эта диагностика выполняется непрерывно, когда контроллер генераторного набора активен.
+This diagnostic runs continuously when the generator set controller is active.
 
-### Условия установки кодов неисправностей
+### Conditions For Setting The Fault Codes
 
-Модуль управления двигателем (ECM) обнаружил, что напряжение цепи привода синхронизации находится вне диапазона.
+The Engine Control Module (ECM) detected the timing actuator circuit voltage is out of range high.
 
-### Действия системы при активном коде неисправности
+### Action Taken When The Fault Code Is Active
 
-- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
+- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
 
-### Условия сброса кода неисправности
+### Conditions For Clearing The Fault Code
 
-- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
+- To validate the repair, start the engine and let it run for 1 minute at no load.
 
-- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
+- The generator set controller will turn off the warning indicator immediately after the user presses reset.
 
-- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
+- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
 
-### Практические замечания
+### Shoptalk
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- Поврежденный или неисправный привод синхронизации.
+- Damaged or malfunctioning timing actuator.
 
-- Поврежденные или рыхлые связи.
+- Damaged or loose connections.
 
-- Неисправный или повреждённый жгут проводов двигателя.
+- Malfunctioning or damaged engine wiring harness.
 
-См. Код 113 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 113
->
-> ### Engine Timing Actuator Driver Circuit - Voltage Above Normal or Shorted to High Source
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 113 PID(P): S20 SPN: 635 FMI: 3/3 Lamp: Amber SRT: | Open circuit or high voltage detected at the timing actuator driver circuit. | Possible reduced engine performance. |
->
-> Engine Timing Actuator Driver Circuit
->
-> ### Circuit Description
->
-> The timing actuator circuit supplies current to the timing actuator. The ECM commands a varying amount of current to the timing actuator to control the amount of timing pressure to the injectors.
->
-> ### Component Location
->
-> The timing actuator is located on the electronic control valve assembly.
->
-> ### Conditions For Running The Diagnostics
->
-> This diagnostic runs continuously when the generator set controller is active.
->
-> ### Conditions For Setting The Fault Codes
->
-> The Engine Control Module (ECM) detected the timing actuator circuit voltage is out of range high.
->
-> ### Action Taken When The Fault Code Is Active
->
-> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
->
-> ### Conditions For Clearing The Fault Code
->
-> - To validate the repair, start the engine and let it run for 1 minute at no load.
->
-> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
->
-> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
->
-> ### Shoptalk
->
-> Possible causes of this fault code include:
->
-> - Damaged or malfunctioning timing actuator.
->
-> - Damaged or loose connections.
->
-> - Malfunctioning or damaged engine wiring harness.
->
-> Refer to Troubleshooting Fault Code 113.
+Refer to Troubleshooting Fault Code 113.

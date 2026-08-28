@@ -8,193 +8,113 @@ title_ru: "Индикатор перепада давления"
 modified: "2008-10-27"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 8
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-073.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-006-073.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-073.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Delta Pressure Indicator
 **Индикатор перепада давления**
 
 > [!abstract] Процедура · `20-006-073`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 6 - Injectors and Fuel Lines - Group 06
 > **Даты:** изменён 2008-10-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-073.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-006-073.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-073.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-073.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Preparatory Steps
 
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-### Подготовительные операции
+> [!danger] WARNING · Опасно
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
-
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
-
-- Отсоедините аккумуляторные батареи.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 (Кабели и соединения аккумуляторов) в разделе 13.]]
-- Тщательно очищайте мусор от всех фитингов и компонентов перед удалением. Убедитесь, что мусор, вода, пар или чистый раствор не попадают в топливную систему.
-- Используйте сжатый воздух для высушивания фитингов и компонентов.
+- Disconnect the batteries. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 (Battery Cables and Connections) in Section 13.]]
+- Thoroughly clean debris from all fittings and components before removal. Be sure that debris, water, steam, or clean solution does not enter the fuel system.
+- Use compressed air to dry the fittings and components.
 
 ![[ck800wa.png]]
 
-### Снятие
+### Remove
 
-Отсоедините дельта-индикатор давления от корпуса индикатора и топливной рельсы.
+Disconnect the delta pressure indicator tube from the indicator housing and fuel rail.
 
 ![[06400485.png]]
 
-Удалите крепежные болты и корпус индикатора дельта-давления из топливной рельсы.
+Remove the delta pressure indicator mounting capscrews and indicator housing from the fuel rail.
 
-Отбросьте уплотнение.
+Discard the o-ring seal.
 
 ![[06400486.png]]
 
-### Очистка и проверка при повторном использовании
+### Clean and Inspect for Reuse
 
-> [!danger] ОПАСНО
-> При работе с пароочистителем надевайте защитные очки или щиток и защитную одежду. Горячий пар может привести к тяжёлой травме.
+> [!danger] WARNING · Опасно
+> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-Тщательно очищайте компоненты индикатора давления дельты водой, паром или чистящим раствором.
+Thoroughly clean the delta pressure indicator components with water, steam, or cleaning solution.
 
-Используйте сжатый воздух для высушивания компонентов.
+Use compressed air to dry the components.
 
 ![[06400487.png]]
 
-Осмотрите индикатор давления дельты на наличие трещин, других повреждений и признаков искривленного корпуса.
+Inspect the delta pressure indicator for cracks, other damage, and indications of a warped housing.
 
 ![[06400488.png]]
 
-### Установка
+### Install
 
-Установите новое кольцо на индикатор давления дельты.
+Install a new o-ring onto the delta pressure indicator.
 
-Установите индикатор давления дельты на топливный рельс.
+Install the delta pressure indicator onto the fuel rail.
 
-Затяните болты.
+Tighten the capscrews.
 
-> [!tip] Момент затяжки
-> 12 Н·м [108 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 12 n•m [108 in-lb]
 
 ![[06400486.png]]
 
-Подсоедините дельта-индикатор давления к корпусу индикатора и топливной рельсе.
+Connect the delta pressure indicator tube onto the indicator housing and fuel rail.
 
-Затяните трубки орехами.
+Tighten the tube nuts.
 
-> [!tip] Момент затяжки
-> 15 Н·м [132 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 15 n•m [132 in-lb]
 
 ![[06400485.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-- Подсоедините аккумуляторные батареи.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 (Кабели и соединения аккумуляторов) в разделе 13.]]
-- Управляйте двигателем до нормальной рабочей температуры и проверяйте наличие утечек.
+- Connect the batteries. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 (Battery Cables and Connections) in Section 13.]]
+- Operate the engine to normal operating temperature and check for leaks.
 
 ![[ck800wa.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Preparatory Steps
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> **WARNING · Опасно**
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> - Disconnect the batteries. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 (Battery Cables and Connections) in Section 13.]]
-> - Thoroughly clean debris from all fittings and components before removal. Be sure that debris, water, steam, or clean solution does not enter the fuel system.
-> - Use compressed air to dry the fittings and components.
->
-> ### Remove
->
-> Disconnect the delta pressure indicator tube from the indicator housing and fuel rail.
->
-> Remove the delta pressure indicator mounting capscrews and indicator housing from the fuel rail.
->
-> Discard the o-ring seal.
->
-> ### Clean and Inspect for Reuse
->
-> **WARNING · Опасно**
-> When using a steam cleaner, wear safety glasses or a face shield, as well as protective clothing. Hot steam can cause serious personal injury.
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> Thoroughly clean the delta pressure indicator components with water, steam, or cleaning solution.
->
-> Use compressed air to dry the components.
->
-> Inspect the delta pressure indicator for cracks, other damage, and indications of a warped housing.
->
-> ### Install
->
-> Install a new o-ring onto the delta pressure indicator.
->
-> Install the delta pressure indicator onto the fuel rail.
->
-> Tighten the capscrews.
->
-> **Момент затяжки · Torque Value**
-> 12 n•m [108 in-lb]
->
-> Connect the delta pressure indicator tube onto the indicator housing and fuel rail.
->
-> Tighten the tube nuts.
->
-> **Момент затяжки · Torque Value**
-> 15 n•m [132 in-lb]
->
-> ### Finishing Steps
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> - Connect the batteries. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 (Battery Cables and Connections) in Section 13.]]
-> - Operate the engine to normal operating temperature and check for leaks.

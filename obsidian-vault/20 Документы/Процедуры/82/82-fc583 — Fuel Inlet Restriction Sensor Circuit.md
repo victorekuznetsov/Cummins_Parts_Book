@@ -8,97 +8,58 @@ title_ru: "Цепь датчика сопротивления на входе т
 modified: "2010-09-02"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
   - "3666266"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc583.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc583.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc583.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
-  - "перевод/машинный"
 ---
 
 # Fuel Inlet Restriction Sensor Circuit
 **Цепь датчика сопротивления на входе топлива**
 
 > [!abstract] Процедура · `82-fc583`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc583.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc583.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc583.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc583.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 583
 
+### Fuel Inlet Restriction Sensor Circuit
 
-### Код неисправности: 583
+Printable Version
 
-### Цепь датчика сопротивления на входе топлива
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 583 PID(P): P015 SPN: 1381 FMI: 1/18 лампы: Желтая СТО: | Ограничение было обнаружено датчиком ограничения впуска топлива. | Предупреждение о впускном контроле топлива установлено. |
+| Fault Code: 583 PID(P): P015 SPN: 1381 FMI: 1/18 Lamp: Yellow SRT: | Restriction has been detected by the fuel inlet restriction sensor. | Fuel inlet restriction monitor warning is set. |
 
 ![[19c00578.png]]
 
-Цепь датчика сопротивления на входе топлива
+Fuel Inlet Restriction Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик ограничения впуска топлива обеспечивает сигнал к электронному модулю управления (ECM).
+The fuel inlet restriction sensor provides a signal to the electronic control module (ECM).
 
-### Расположение компонента
+### Component Location
 
-Датчик ограничения впуска топлива расположен на входе в головку крепления топливного фильтра.
+The fuel inlet restriction sensor is located on the inlet to the fuel filter head.
 
-### Практические замечания
+### Shoptalk
 
-Эта неисправность указывает на то, что ограничение впуска топлива превысило 12 рт.ст. Типичные причины этого кода неисправности включают в себя заглушенный топливный фильтр и обвалившийся шланг подачи топлива.
+This fault indicates that the fuel inlet restriction has exceeded 12 in Hg. Typical causes for this fault code include a plugged fuel filter and a collapsed fuel supply hose.
 
-См. Код устранения неполадок t05-583
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 583
->
-> ### Fuel Inlet Restriction Sensor Circuit
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 583 PID(P): P015 SPN: 1381 FMI: 1/18 Lamp: Yellow SRT: | Restriction has been detected by the fuel inlet restriction sensor. | Fuel inlet restriction monitor warning is set. |
->
-> Fuel Inlet Restriction Sensor Circuit
->
-> ### Circuit Description
->
-> The fuel inlet restriction sensor provides a signal to the electronic control module (ECM).
->
-> ### Component Location
->
-> The fuel inlet restriction sensor is located on the inlet to the fuel filter head.
->
-> ### Shoptalk
->
-> This fault indicates that the fuel inlet restriction has exceeded 12 in Hg. Typical causes for this fault code include a plugged fuel filter and a collapsed fuel supply hose.
->
-> Refer to Troubleshooting Fault Code t05-583
+Refer to Troubleshooting Fault Code t05-583

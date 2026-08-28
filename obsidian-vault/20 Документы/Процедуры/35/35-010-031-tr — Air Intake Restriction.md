@@ -1,0 +1,71 @@
+---
+aliases:
+  - "Сопротивление на впуске воздуха"
+type: "Процедура"
+doc: "35-010-031-tr"
+title_en: "Air Intake Restriction"
+title_ru: "Сопротивление на впуске воздуха"
+modified: "2009-01-23"
+engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
+families:
+  - "QSM11"
+manuals:
+  - "3666322"
+figures: 5
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-031-tr.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-031-tr.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QSM11"
+  - "группа/35"
+---
+
+# Air Intake Restriction
+**Сопротивление на впуске воздуха**
+
+> [!abstract] Процедура · `35-010-031-tr`
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]]
+> **Семейство:** QSM11
+> **Входит в руководства:** [[3666322 — ISM, ISMe, and QSM11 Service Manual|3666322]]
+> **Секции:** Section 10 - Air Intake System - Group 10
+> **Даты:** изменён 2009-01-23
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-010-031-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-010-031-tr.pdf)
+
+### Measure
+
+Install a vacuum gauge or water manometer in the intake air piping.
+
+The gauge adapter **must** be installed at a 90-degree angle to the airflow in a straight section of pipe, one pipe diameter before the turbocharger.
+
+![[ag200wa.png]]
+
+Operate the engine at full throttle and rated rpm with maximum load.
+
+Record the data on the gauge or manometer.
+
+| Inlet Air Restriction |  |  |
+|---|---|---|
+| mm-h2o |  | in-h2o |
+| 63.5 | MAX | 25.0 |
+
+![[xs800ia.png]]
+
+If restriction exceeds specifications:
+
+- Replace or clean the air filter element. Refer to the OEM service manual.
+
+![[ac1etma.png]]
+
+- Inspect the intake piping for damage. Refer to the OEM service manual.
+
+![[ci2tbsa.png]]
+
+Remove the test equipment.
+
+If damage resulted in coolant, oil, excessive fuel or excessive black smoke entering the exhaust system, the aftertreatment system **must** be inspected. [[101-014-013 — Aftertreatment Testing|Refer to Procedure 014-013 in Section 14.]]
+
+![[ag200wa.png]]

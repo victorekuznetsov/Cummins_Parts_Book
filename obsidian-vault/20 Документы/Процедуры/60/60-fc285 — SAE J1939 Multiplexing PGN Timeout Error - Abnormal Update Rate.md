@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc285.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc285.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc285.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
-  - "перевод/машинный"
 ---
 
 # SAE J1939 Multiplexing PGN Timeout Error - Abnormal Update Rate
@@ -34,128 +32,62 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2020-09-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc285.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc285.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc285.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc285.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 285
 
+### SAE J1939 Multiplexing PGN Timeout Error - Abnormal Update Rate
 
-### Код неисправности: 285
+Printable Version
 
-### Тайм-аут PGN мультиплексирования SAE J1939 — недопустимая частота обновления
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 285 PID(P): S231 SPN: 639 FMI: 9/9 лампа: Янтарная СРТ: | Связь между модулем управления двигателем (ECM) и другим устройством на шине данных J1939 CAN была потеряна. | Возможно снижение производительности двигателя. |
+| Fault Code: 285 PID(P): S231 SPN: 639 FMI: 9/9 Lamp: Amber SRT: | Communication between the engine control module (ECM) and another device on the J1939 datalink has been lost. | Possible reduced engine performance. |
 
 ![[19a00866.png]]
 
-J1939 CAN Data Bus Circuit (недоступная ссылка)
+J1939 Datalink Circuit
 
-### Описание цепи
+### Circuit Description
 
-ECM определила, что другое устройство в сети шины данных J1939 CAN перестало обмениваться данными в сети. Устройства в сети шины данных J1939 CAN включают: ECMs и модуль интерфейса генератора. Упряжка проводов для сети шины данных J1939 CAN имеет экранированную витую пару проводов, которые соединяют каждое из сетевых устройств и резистор завершения.
+The ECM identified another device on the J1939 datalink network has stopped communicating on the network. The devices on the J1939 datalink network include: ECMs', and the Generator Interface Module. The harness for the J1939 datalink network has a shielded twisted pair of wires that connect each of the network devices and termination resistor.
 
-### Расположение компонента
+### Component Location
 
-J1939 CAN и устройства J1939 различаются по вариантам OEM.
+The J1939 datalink wiring and the J1939 devices vary by OEM options.
 
-### Условия выполнения диагностики
+### Conditions For Running The Diagnostics
 
-Эта диагностика выполняется непрерывно, когда контроллер генераторного набора активен.
+This diagnostic runs continuously when the generator set controller is active.
 
-### Условия установки кодов неисправностей
+### Conditions For Setting The Fault Codes
 
-Модуль управления двигателем (ECM) не получал сообщения от мультиплексированного устройства.
+The Engine Control Module (ECM) did **not** receive a message from a multiplexed device.
 
-### Действия системы при активном коде неисправности
+### Action Taken When The Fault Code Is Active
 
-- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
+- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
 
-- Мультиплексное устройство будет работать **не**.
+- The multiplexed device will **not** operate.
 
-### Условия сброса кода неисправности
+### Conditions For Clearing The Fault Code
 
-- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
+- To validate the repair, start the engine and let it run for 1 minute at no load.
 
-- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
+- The generator set controller will turn off the warning indicator immediately after the user presses reset.
 
-- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
+- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
 
-### Практические замечания
+### Shoptalk
 
-Каждое интеллектуальное устройство в сети шины данных J1939 CAN нуждается в питании и наземном питании для включения, после включения интеллектуального устройства оно может затем обмениваться данными в сети шины данных J1939 CAN.
+Each smart device on the J1939 datalink network need power and ground to turn on, after the smart device turns on, it can then communicate on the J1939 datalink network.
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- Неисправность или повреждение жгута проводов шины данных J1939 CAN.
+- Malfunctioning or damaged J1939 datalink wiring harness.
 
-- Неисправность или повреждение OEM-проводов.
+- Malfunctioning or damaged OEM wiring harness.
 
-См. Код 285 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 285
->
-> ### SAE J1939 Multiplexing PGN Timeout Error - Abnormal Update Rate
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 285 PID(P): S231 SPN: 639 FMI: 9/9 Lamp: Amber SRT: | Communication between the engine control module (ECM) and another device on the J1939 datalink has been lost. | Possible reduced engine performance. |
->
-> J1939 Datalink Circuit
->
-> ### Circuit Description
->
-> The ECM identified another device on the J1939 datalink network has stopped communicating on the network. The devices on the J1939 datalink network include: ECMs', and the Generator Interface Module. The harness for the J1939 datalink network has a shielded twisted pair of wires that connect each of the network devices and termination resistor.
->
-> ### Component Location
->
-> The J1939 datalink wiring and the J1939 devices vary by OEM options.
->
-> ### Conditions For Running The Diagnostics
->
-> This diagnostic runs continuously when the generator set controller is active.
->
-> ### Conditions For Setting The Fault Codes
->
-> The Engine Control Module (ECM) did **not** receive a message from a multiplexed device.
->
-> ### Action Taken When The Fault Code Is Active
->
-> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
->
-> - The multiplexed device will **not** operate.
->
-> ### Conditions For Clearing The Fault Code
->
-> - To validate the repair, start the engine and let it run for 1 minute at no load.
->
-> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
->
-> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
->
-> ### Shoptalk
->
-> Each smart device on the J1939 datalink network need power and ground to turn on, after the smart device turns on, it can then communicate on the J1939 datalink network.
->
-> Possible causes of this fault code include:
->
-> - Malfunctioning or damaged J1939 datalink wiring harness.
->
-> - Malfunctioning or damaged OEM wiring harness.
->
-> Refer to Troubleshooting Fault Code 285.
+Refer to Troubleshooting Fault Code 285.

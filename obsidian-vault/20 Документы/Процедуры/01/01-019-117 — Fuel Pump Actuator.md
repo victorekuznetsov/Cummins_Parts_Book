@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 3
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-117.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-117.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-117.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Fuel Pump Actuator
@@ -34,54 +32,27 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2003-11-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-117.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-117.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-117.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-117.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
+Clean the area around the fuel pump actuator.
 
-### Снятие
-
-Очистите область вокруг привода топливного насоса.
-
-Отсоедините привод топливного насоса от электропроводки двигателя.
+Disconnect the fuel pump actuator from the engine harness.
 
 ![[19400300.png]]
 
-Удалите привод топливного насоса.
+Remove the fuel pump actuator.
 
 ![[19400301.png]]
 
-### Установка
+### Install
 
-Установите новый привод топливного насоса с помощью нового кольца.
+Install a new fuel pump actuator using a new o-ring.
 
-> [!tip] Момент затяжки
-> 24 Н·м [212 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 24 n•m [212 in-lb]
 
-Подключите приводное соединение.
+Connect the actuator connection.
 
 ![[19400302.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> Clean the area around the fuel pump actuator.
->
-> Disconnect the fuel pump actuator from the engine harness.
->
-> Remove the fuel pump actuator.
->
-> ### Install
->
-> Install a new fuel pump actuator using a new o-ring.
->
-> **Момент затяжки · Torque Value**
-> 24 n•m [212 in-lb]
->
-> Connect the actuator connection.

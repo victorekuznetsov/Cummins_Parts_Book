@@ -8,329 +8,187 @@ title_ru: "Перепускной воздушный канал"
 modified: "2018-11-16"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 14
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-019-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-019-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-019-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Air Crossover
 **Перепускной воздушный канал**
 
 > [!abstract] Процедура · `20-010-019-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2018-11-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-019-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-019-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-019-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-019-tr.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Preparatory Steps
 
-
-### Подготовительные операции
-
-Очистите область вокруг трубы кроссовера, чтобы предотвратить попадание мусора в двигатель.
+Clean the area around the crossover pipe to prevent debris from entering the engine.
 
 ![[ck800wa.png]]
 
-### Снятие
+### Remove
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-Удалите четыре крепежных болта в верхней части воздушного кроссовера.
+Remove the four mounting capscrews at the top of the air crossover.
 
-Освободите четыре болта в нижней части воздушного кроссовера, пока не будет зазора между стиральной машиной и кроссовером.
+Loosen the four capscrews at the bottom of the air crossover until there is clearance between the washer and the crossover.
 
-Удалите воздушные зажимы шланга кроссовера и сполните шланг вниз по розетке турбокомпрессора.
+Remove the air crossover hose clamps and slide the hose down the turbocharger outlet.
 
-Удалите воздушный кроссовер.
+Remove the air crossover.
 
 ![[10400004.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-Удалите четыре крепежных болта на воздушном перекрестке.
+Remove the four mounting capscrews at the air crossover connection.
 
-Удалите восемь болтов от воздушного кроссовера до соединения турбокомпрессора.
+Remove the eight capscrews from the air crossover to turbocharger connection.
 
-Удалите трубку воздушного кроссовера.
+Remove the air crossover tube.
 
-Отбросьте кольцо и прокладку.
+Discard the o-ring and gasket.
 
 ![[10400313.png]]
 
-### Очистка и проверка при повторном использовании
+### Clean and Inspect for Reuse
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-Используйте растворитель для очистки и сушки компрессора.
+Use solvent to clean and dry the compressor.
 
-Используйте сжатый воздух для высушивания деталей.
+Use compressed air to dry the parts.
 
 ![[10400004.png]]
 
-Осмотрите воздушный кроссовер на наличие трещин, разрывов, отверстий и изношенных болтовых отверстий.
+Inspect the air crossover for cracks, breaks, holes, and worn bolt holes.
 
 ![[10400072.png]]
 
-Судовое применение
+Marine Applications
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-Используйте растворитель для очистки компрессора.
+Use solvent to clean the compressor.
 
-Используйте сжатый воздух для высушивания деталей.
+Use compressed air to dry the parts.
 
 ![[10400325.png]]
 
-> [!note] Примечание
-> Морской воздушный шланг (3) отличается от стандартного шланга QSK19.
+> [!note] Note · Примечание
+> The marine air crossover hose (3) is a different material hose than the standard QSK19 hose.
 
-Проверьте шланг кроссовера на наличие трещин.
+Inspect the crossover hose for cracks.
 
-Проверьте цилиндр на наличие любой блокировки.
+Inspect the bore for any blockage.
 
-Осмотрите канавку с кольцом на крепежных флангах и зажимах шланга (4) на предмет любого износа или повреждения.
+Inspect the o-ring groove on the mounting flanges and the hose clamps (4) for any wear or damage.
 
 ![[10400068.png]]
 
-Осмотрите воздушный кроссовер на наличие трещин или поврежденных уплотнительных поверхностей.
+Inspect the air crossover for cracks or damaged sealing surfaces.
 
-Проверьте ремешок связи на предмет повреждения.
+Inspect the link strap for damage.
 
-Замените поврежденные компоненты.
+Replace any damaged components.
 
 ![[10400315.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-Используйте растворитель для очистки и сушки компрессора.
+Use solvent to clean and dry the compressor.
 
-Используйте сжатый воздух для высушивания деталей.
+Use compressed air to dry the parts.
 
 ![[10400325.png]]
 
-### Установка
+### Install
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-Установите шланг и два зажима на воздушном кроссовере.
+Install the hose and the two clamps on the air crossover.
 
-Установите воздушный кроссовер.
+Install the air crossover.
 
-Снимите шланг над турбокомпрессором. Положите зажимы.
+Slide the hose down over the turbocharger. Position the clamps.
 
-Установите прокладку и болты. Рука затягивает болты.
+Install the gasket and capscrews. Hand tighten the capscrews.
 
 ![[10400004.png]]
 
-Затягивайте болты в последовательности, показанной на иллюстрации.
+Tighten the capscrews in the sequence shown in the illustration.
 
-> [!tip] Момент затяжки
-> 45 Н·м [33 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [33 ft-lb]
 
-Затяните хомуты шлангов.
+Tighten the hose clamps.
 
-> [!tip] Момент затяжки
-> 8 Н·м [71 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 8 n•m [71 in-lb]
 
 ![[10400001.png]]
 
-Судовое применение
+Marine Applications
 
-Используйте новые прокладки, о-кольцо и установите воздушную трубку кроссовера.
+Use new gaskets, o-ring, and install the air crossover tube.
 
-Установите четыре крепежных болта на воздушном кроссовере до послеохладительного соединения.
+Install the four mounting capscrews at the air crossover to aftercooler connection.
 
-Уплотните болты в рисунке крестца равномерно.
+Tighten the capscrews in a criscross pattern evenly.
 
-> [!tip] Момент затяжки
-> 45 Н·м [33 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [33 ft-lb]
 
 ![[10400316.png]]
 
-Нанесите противозахватное соединение на резьбу болтов.
+Apply anti-seize compound to the threads of the capscrews.
 
-Установите и затяните восемь болтов для воздушного кроссовера до соединения турбонагнетателя в крестообразном рисунке равномерно.
+Install and tighten the eight capscrews for the air crossover to turbocharger connection in a crisscross pattern evenly.
 
-Момент затяжки:
+Torque Value:
 
-болты для соединения турбокомпрессоров
+Turbocharger Connection Capscrews
 
-Положение и затягивание зажимов шланга.
+Position and tighten the hose clamps.
 
-> [!tip] Момент затяжки
-> 8 Н·м [71 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 8 n•m [71 in-lb]
 
 ![[10400318.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-Управляйте двигателем. Проверьте на отсутствие утечек.
+Operate the engine. Check for leaks.
 
 ![[ck800wa.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Preparatory Steps
->
-> Clean the area around the crossover pipe to prevent debris from entering the engine.
->
-> ### Remove
->
-> with Mechanically Actuated Injector
->
-> Remove the four mounting capscrews at the top of the air crossover.
->
-> Loosen the four capscrews at the bottom of the air crossover until there is clearance between the washer and the crossover.
->
-> Remove the air crossover hose clamps and slide the hose down the turbocharger outlet.
->
-> Remove the air crossover.
->
-> with Electronically Actuated Injector
->
-> Remove the four mounting capscrews at the air crossover connection.
->
-> Remove the eight capscrews from the air crossover to turbocharger connection.
->
-> Remove the air crossover tube.
->
-> Discard the o-ring and gasket.
->
-> ### Clean and Inspect for Reuse
->
-> with Mechanically Actuated Injector
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> Use solvent to clean and dry the compressor.
->
-> Use compressed air to dry the parts.
->
-> Inspect the air crossover for cracks, breaks, holes, and worn bolt holes.
->
-> Marine Applications
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> Use solvent to clean the compressor.
->
-> Use compressed air to dry the parts.
->
-> **Note · Примечание**
-> The marine air crossover hose (3) is a different material hose than the standard QSK19 hose.
->
-> Inspect the crossover hose for cracks.
->
-> Inspect the bore for any blockage.
->
-> Inspect the o-ring groove on the mounting flanges and the hose clamps (4) for any wear or damage.
->
-> Inspect the air crossover for cracks or damaged sealing surfaces.
->
-> Inspect the link strap for damage.
->
-> Replace any damaged components.
->
-> with Electronically Actuated Injector
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> Use solvent to clean and dry the compressor.
->
-> Use compressed air to dry the parts.
->
-> ### Install
->
-> with Mechanically Actuated Injector
->
-> Install the hose and the two clamps on the air crossover.
->
-> Install the air crossover.
->
-> Slide the hose down over the turbocharger. Position the clamps.
->
-> Install the gasket and capscrews. Hand tighten the capscrews.
->
-> Tighten the capscrews in the sequence shown in the illustration.
->
-> **Момент затяжки · Torque Value**
-> 45 n•m [33 ft-lb]
->
-> Tighten the hose clamps.
->
-> **Момент затяжки · Torque Value**
-> 8 n•m [71 in-lb]
->
-> Marine Applications
->
-> Use new gaskets, o-ring, and install the air crossover tube.
->
-> Install the four mounting capscrews at the air crossover to aftercooler connection.
->
-> Tighten the capscrews in a criscross pattern evenly.
->
-> **Момент затяжки · Torque Value**
-> 45 n•m [33 ft-lb]
->
-> Apply anti-seize compound to the threads of the capscrews.
->
-> Install and tighten the eight capscrews for the air crossover to turbocharger connection in a crisscross pattern evenly.
->
-> Torque Value:
->
-> Turbocharger Connection Capscrews
->
-> Position and tighten the hose clamps.
->
-> **Момент затяжки · Torque Value**
-> 8 n•m [71 in-lb]
->
-> ### Finishing Steps
->
-> Operate the engine. Check for leaks.

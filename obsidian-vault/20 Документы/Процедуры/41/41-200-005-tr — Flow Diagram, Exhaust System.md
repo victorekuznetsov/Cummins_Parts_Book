@@ -8,75 +8,48 @@ title_ru: "Схема потоков системы выпуска"
 modified: "2012-06-07"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
   - "3666003"
 figures: 2
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-005-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-200-005-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-200-005-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
   - "группа/41"
-  - "перевод/машинный"
 ---
 
 # Flow Diagram, Exhaust System
 **Схема потоков системы выпуска**
 
 > [!abstract] Процедура · `41-200-005-tr`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section F - Familiarization
 > **Даты:** изменён 2012-06-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-200-005-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-200-005-tr.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Engine Views
 
-
-### Двигатель Views
-
-Судовое применение
+Marine Applications
 
 ![[11d00119.png]]
 
-1. Выпускной клапан
-2. Выпускной коллектор
-3. Турбокомпрессор
-4. Выхлопная труба турбокомпрессора.
+1. Exhaust valve
+2. Exhaust manifold
+3. Turbocharger
+4. Turbocharger exhaust outlet.
 
-Промышленное применение
+Industrial Applications
 
 ![[11900058.png]]
 
-1. Выпускной клапан
-2. Выхлопной коллектор - импульсный тип
-3. Двойной вход в турбокомпрессор
-4. Выхлопная труба турбокомпрессора.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Engine Views
->
-> Marine Applications
->
-> 1. Exhaust valve
-> 2. Exhaust manifold
-> 3. Turbocharger
-> 4. Turbocharger exhaust outlet.
->
-> Industrial Applications
->
-> 1. Exhaust valve
-> 2. Exhaust manifold - pulse-type
-> 3. Dual entry to turbocharger
-> 4. Turbocharger exhaust outlet.
+1. Exhaust valve
+2. Exhaust manifold - pulse-type
+3. Dual entry to turbocharger
+4. Turbocharger exhaust outlet.

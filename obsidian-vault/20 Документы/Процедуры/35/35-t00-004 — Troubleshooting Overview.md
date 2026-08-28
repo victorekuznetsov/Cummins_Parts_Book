@@ -1,0 +1,424 @@
+---
+aliases:
+  - "Поиск неисправностей — обзор"
+type: "Процедура"
+doc: "35-t00-004"
+title_en: "Troubleshooting Overview"
+title_ru: "Поиск неисправностей — обзор"
+modified: "2009-08-25"
+engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
+families:
+  - "QSM11"
+manuals:
+  - "3666322"
+figures: 2
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-t00-004.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-t00-004.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QSM11"
+  - "группа/35"
+---
+
+# Troubleshooting Overview
+**Поиск неисправностей — обзор**
+
+> [!abstract] Процедура · `35-t00-004`
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]]
+> **Семейство:** QSM11
+> **Входит в руководства:** [[3666322 — ISM, ISMe, and QSM11 Service Manual|3666322]]
+> **Секции:** Section TS - Troubleshooting Symptoms
+> **Даты:** изменён 2009-08-25
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-t00-004.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-t00-004.pdf)
+
+### Engine Noise Diagnostic Procedures - General Information
+
+When diagnosing engine noise problems, make sure that noises caused by accessories, such as the air compressor and power takeoff, are **not** mistaken for engine noises. Remove the accessory drive belts to eliminate noise caused by these units. Noise will also travel to other metal parts **not** related to the problem. The use of a stethoscope can help locate an engine noise.
+
+Engine noises heard at crankshaft speed, engine (rpm), are noises related to the crankshaft, rods, pistons, and piston pins. Noises heard at camshaft speed, (one-half of the engine rpm), are related to the valve train. A hand-held digital tachometer can help to determine if the noise is related to components operating at crankshaft or camshaft speed.
+
+Engine noise can sometimes be isolated by performing a cylinder cutout test. [[35-006-005-tr — Cylinder Misfires or Smokes|Refer to Procedure 006-005 in Section 6.]] If the volume of the noise decreases or the noise disappears, it is related to that particular engine cylinder.
+
+There is **not** a definite rule or test that will positively determine the source of a noise complaint.
+
+Engine driven components and accessories, such as gear-driven fan clutches, hydraulic pumps, belt-driven alternators, refrigerant compressors, and turbochargers can contribute to engine noise. Use the following information as a guide to diagnosing engine noise.
+
+### Main Bearing Noise
+
+(Reference the Engine Noise Excessive - Main Bearing symptom tree)
+
+The noise caused by a loose main bearing is a loud dull knock heard when the engine is pulling a load. If all main bearings are loose, a loud clatter will be heard. The knock is heard regularly every other revolution. The noise is the loudest when the engine is lugging or under heavy load. The knock is duller than a connecting rod noise. Low oil pressure can also accompany this condition.
+
+If the bearing is **not** loose enough to produce a knock by itself, the bearing can knock if the oil is too thin, or if there is no oil at the bearing.
+
+An irregular noise can indicate worn crankshaft thrust bearings.
+
+An intermittent sharp knock indicates excessive crankshaft end clearance. Repeated clutch disengagements can cause a change in the noise.
+
+### Connecting Rod Bearing Noise
+
+(Reference the Engine Noise Excessive - Connecting Rod symptom tree)
+
+Connecting rods with excessive clearance knock at all engine speeds, and under both idle and load conditions. When the bearings begin to become loose, the noise can be confused with piston slap or loose piston pins. The noise increases in volume with engine speed. Low oil pressure can also accompany this condition.
+
+### Piston Noise
+
+(Reference the Engine Noise Excessive - Piston symptom tree)
+
+It is difficult to tell the difference between piston pin, connecting rod, and piston noise. A loose piston pin causes a loud double knock which is usually heard when the engine is idling. When the injector to this cylinder is cut out, a noticeable change will be heard in the sound of the knocking noise. However, on some engines the knock becomes more noticeable when the vehicle is operated on the road at steady speed condition.
+
+### Driveability/Low Power/Excessive Fuel Consumption - Checklist
+
+Driveability is a term which in general describes vehicle performance on the road. Driveability problems for an engine can be caused by several different factors. Some of the factors are engine related and some are **not**.
+
+Before troubleshooting, it is important to determine the exact complaint and whether the engine has a real driveability problem or if it simply does **not** meet driver expectations. The Driveability-Low Power Customer Complaint Form is a valuable list of questions that **must** be used to assist the service technician in determining what type of driveability problem the vehicle is experiencing. Complete the checklist before troubleshooting the problem. The form can be found at the end of this section. If an engine is performing to factory specifications but does **not** meet the customer's expectations, it **must** be explained to the customer that nothing is wrong with the vehicle and why.
+
+The troubleshooting symptom charts have been set up to divide driveability problems into two different symptoms: Engine Power Output Low and Engine Acceleration or Response Poor.
+
+Low power is a term that is used in the field to describe many different performance problems. However, in this manual low power is defined as the inability of the engine to produce the power necessary to move the vehicle at a speed that can be reasonably expected under the given conditions of load, grade, wind, and so on. Low power is usually caused by the lack of fuel flow which can be caused by any of the following factors:
+
+- Lack of full travel of the throttle pedal
+- Malfuntioned boost sensor
+- Excessive fuel inlet, intake, exhaust, or drain line restriction
+- Loose fuel pump suction lines.
+
+Low power is **not** the inability of the vehicle to accelerate satisfactorily from a stop or the bottom of a grade. Refer to the performance tree Engine Power Output Low for the proper procedures to locate and correct a low power problem. The chart starts off with basic items which can cause lower power.
+
+Poor acceleration or response is described in this manual as the inability of the vehicle to accelerate satisfactorily from a stop or from the bottom of a grade. It can also be the lag in acceleration during an attempt to pass or overtake another vehicle at conditions less than rated speed and load. Poor acceleration or response is difficult to troubleshoot since it can be caused by factors such as:
+
+- Engine or pump related factors
+- Driver technique
+- Improper gearing
+- Improper engine application
+- Worn clutch or clutch linkage.
+
+Engine related poor acceleration or response can be caused by several different factors such as:
+
+- Malfunctioned boost sensor
+- Excessive drain line restriction
+- Throttle dead band.
+
+Refer to the performance tree Engine Acceleration or Response Poor for the proper procedures to locate and correct a poor acceleration or response complaint. For additional information, see Troubleshooting Driveability Complaints, Bulletin 3387245.
+
+### Driveability/Low Power - Customer Complaint Form
+
+Customer Name/Company \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+- How did the problem occur? Suddenly \_\_\_\_\_\_\_\_ Gradually \_\_\_\_\_\_\_\_
+- At what hour/mileage did the problem begin? Hours \_\_\_\_\_\_\_\_ Miles \_\_\_\_\_\_\_\_ Since New \_\_\_\_\_\_\_\_
+- After engine repair? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+- After equipment repair? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+- After change in equipment use? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+- After change in selectable programmable parameters? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+- If so, what was repaired and when?\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- Does the vehicle also experience poor fuel economy? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+
+Answer the following questions using selections (A through F) listed below. Circle the letter or letters that best describes the complaint.
+
+- A. Compared to fleet
+- B. Compared to competition
+- C. Compared to previous engine
+- D. Personal expectation
+- E. Will **not** pull on hill
+- F. Will **not** pull on flat.
+
+A B C D E F
+
+- Can the vehicle obtain the expected road speed? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+- What is desired speed? rpm/mph \_\_\_\_\_\_\_\_
+- What is achieved speed? rpm/mph \_\_\_\_\_\_\_\_
+- GVW \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+A B C D
+
+- Is the vehicle able to pull the load? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+
+When?
+
+- \_\_\_\_\_\_\_\_ In the hills
+- \_\_\_\_\_\_\_\_ With a loaded trailer
+- \_\_\_\_\_\_\_\_ On the flat
+- \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Other
+
+If no was the answer to the previous questions, fill out the Driveability/Low Power/Excessive Fuel Consumption Checklist and go to the Low Power performance tree. A B C D E F
+
+- Is the vehicle slow to accelerate or respond? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+- From a stop? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+- After a shift? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_ rpm \_\_\_\_\_\_\_\_
+- Before a shift? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_ rpm \_\_\_\_\_\_\_\_
+- No shift? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_ rpm \_\_\_\_\_\_\_\_
+
+A B C D
+
+- Does the vehicle hesitate after periods of long deceleration or coasting? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_ rpm \_\_\_\_\_\_\_\_
+
+If yes was the answer to the previous two questions, fill out the Driveability/Low Power/ Excessive Fuel Consumption Checklist and go to the Poor Acceleration/Response performance tree.
+
+A B C D E F
+
+Additional Comments:
+
+- \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+This form can be copied for convenience.
+
+### Driveability/Low Power/Excessive Fuel Consumption - Checklist
+
+**Vehicle/Equipment Specifications**
+
+Year, Type and Model: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Transmission (RT 14609, etc.): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, Duty Cycle: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Rear Axle Ratio, No. of Axles: \_\_\_\_\_\_\_\_, Application: Industrial \_\_\_\_, Marine \_\_\_\_. Genset \_\_\_\_. Automotive \_\_\_\_
+
+Typical GVW: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, Engine Rating: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Trailer Type and Size: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_, Height: \_\_\_\_\_\_\_\_\_\_, Weight: \_\_\_\_\_\_\_\_\_\_
+
+Tire Size (11R x 24.5, Low Profile, etc.) \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Tire Type: Radial \_\_\_\_\_\_\_\_\_\_, Standard Tread \_\_\_\_\_\_\_\_\_\_, Extra Tread \_\_\_\_\_\_\_\_\_\_
+
+Fan Type: Direct Drive \_\_\_\_\_\_\_\_\_\_, Viscous \_\_\_\_\_\_\_\_\_\_, Clutch \_\_\_\_\_\_\_\_\_\_
+
+Power Steering: Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_Air Conditioner: Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_Air Shield: Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_Freon Compressor: Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+
+| General Information: |  |  |  |  |  |
+|---|---|---|---|---|---|
+| DO Number: | SC Number: |  |  |  |  |
+| Fuel Pump Code: | Fuel Pump Serial Number: |  |  |  |  |
+| Mileage: | Engine Serial Number: |  |  |  |  |
+| Date in Service: | Engine Model and Rating: |  |  |  |  |
+| Cruise Speed and rpm: | Rated Speed and rpm: |  |  |  |  |
+| Road Speed Governor: | Yes | No | Type: |  |  |
+| Engine Brake: | Yes | No | Type/Brand: |  |  |
+| **Chassis and Other Related Items** |  |  |  |  |  |
+| Tank Vents: | OK | Not OK | Obvious Fuel Leaks: | Yes | No |
+| Brake Drag: | OK | Not OK | Axle Alignment: | OK | Not OK |
+| Altitude: | Ambient Temperature: |  |  |  |  |
+| Fuel Heater: |  |  |  |  |  |
+| Fuel Type: | Number 1D | Number 2D | Other |  |  |
+| Typical Terrain: | Flat | Hilly | Percentage Asphalt | Percentage Concrete |  |
+
+Additional Comments:
+
+- \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Recommended Literature:
+
+Troubleshooting Driveability Complaints, Bulletin Number 3387137
+
+Guide to Troubleshooting, Bulletin Number 3379090
+
+Professional Driver Techniques, Bulletin Number 3804818
+
+Guide to LCPM, Bulletin Number 3382021
+
+Troubleshooting Excessive Fuel Consumption, Bulletin Number 3387245
+
+This checklist can be copied for convenience.
+
+### Fuel Consumption - General Information
+
+The cause of excessive fuel consumption is hard to diagnose and correct because of the potential number of factors involved. Actual fuel consumption problems can be caused by any of the following factors:
+
+- Engine factors
+- Vehicle factors and specifications
+- Environmental factors
+- Driver technique and operating practices
+- Fuel system factors
+- Low power/driveability problems.
+
+Before troubleshooting, it is important to determine the exact complaint. Is the complaint based on whether the problem is real or perceived, or does **not** meet driver expectations? The “Fuel Consumption - Customer Complaint Form” is a valuable list of questions that can be used to assist the service technician in determining the cause of the problem. Complete the form before troubleshooting the complaint. The following are some of the factors that **must** be considered when troubleshooting fuel consumption complaints.
+
+1. Result of a Low Power/Driveability Problem: An operator will change driving style to compensate for a low power/driveability problem. Some things the driver is likely to do are, (a) shift to a higher engine rpm or (b) run on the droop curve in a lower gear instead of upshifting to drive at part throttle conditions. These changes in driving style will increase the amount of fuel used.
+2. Driver Technique and Operating Practices: As a general rule, a 1 mph increase in road speed equals a 0.1 mpg increase in fuel consumption. This means that increasing road speed from 50 to 60 mph will result in a loss of fuel mileage of 1 mpg.
+3. Environmental and Seasonal Weather Changes: As a general rule, there can be as much as a 1 to 1.5 mpg difference in fuel consumption depending on the season and the weather conditions.
+4. Excessive Idling Time: Idling the engine can use from 0.5 to 1.5 gallons per hour depending on the engine idle speed.
+5. Truck Route and Terrain: East/west routes experience almost continual cross winds and head winds. Less fuel can be used on north/south routes where parts of the trip are **not only** warmer, but see less wind resistance.
+6. Vehicle Aerodynamics: The largest single power requirement for a truck is the power needed to overcome air resistance. As a general rule, each 10 percent reduction in air resistance results in a 5 percent increase in mpg.
+7. Rolling Resistance: Rolling resistance is the second largest consumer of power on a truck. The type of tire and tread design have a sizeable effect on fuel economy and performance. Changing from a bias ply to a low profile radial tire can reduce rolling resistance by about 36 percent.
+
+Additional vehicle factors, vehicle specifications, and axle alignment can also affect fuel consumption. For additional information on troubleshooting fuel consumption complaints, refer to Troubleshooting Excessive Fuel Consumption, Bulletin 3387245.
+
+### Fuel Consumption - Customer Complaint Form
+
+Customer Name/Company \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Answer the following questions. Some questions require making an X next to the appropriate answer.
+
+1. What fuel mileage is expected? \_\_\_\_\_\_\_\_ Expected mpg
+2. What are the expectations based on? Original mileage \_\_\_\_\_\_\_\_, Other units in fleet \_\_\_\_\_\_\_\_, Competitive engines \_\_\_\_\_\_\_\_Previous engine owned \_\_\_\_\_\_\_\_, Expectations only \_\_\_\_\_\_\_\_, VE/VMS report \_\_\_\_\_\_\_\_
+3. When did the problem occur? Since New \_\_\_\_\_\_\_\_, Suddenly \_\_\_\_\_\_\_\_, Gradually \_\_\_\_\_\_\_\_
+4. Did the problem start after a repair? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_ If so, what was repaired and when? \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+5. Is the vehicle also experiencing a Driveability problem (Low Power or Poor Acceleration/Response)? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+
+If answered Yes, fill out the Driveability/Low Power/Excessive Fuel Consumption Checklist and go to the Engine Power Output Low performance tree.
+
+1. Is the problem seasonal? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+2. Weather conditions during fuel consumption check? Rain \_\_\_\_\_, Snow \_\_\_\_\_, Windy \_\_\_\_\_, Hot Temperatures \_\_\_\_\_, Cold Temperatures \_\_\_\_\_
+3. How is the fuel mileage measured? Tank \_\_\_\_\_, Trip \_\_\_\_\_, Month \_\_\_\_\_, Year \_\_\_\_\_ Hubometer \_\_\_\_\_, Odometer \_\_\_\_\_
+4. Are accurate records kept of fuel added on the road? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+5. Do routes vary between compared vehicles? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+6. Have routes changed for the engine being checked? Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_\_
+7. What are the loads hauled, compared to comparison unit? GVW \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Heavier \_\_\_\_\_\_\_\_, Lighter \_\_\_\_\_\_\_\_
+8. What is the altitude during operation? Below 10,000 feet \_\_\_\_\_\_\_\_, Above 10,000 feet \_\_\_\_\_\_\_\_
+9. How much of the time is the truck spent idling? Hours/day \_\_\_\_\_\_\_\_\_\_
+10. Is the driver technique or operating practices affecting fuel economy?
+
+- High road speed: mph \_\_\_\_\_\_\_\_\_\_
+- Operate at rated speed or above: rpm \_\_\_\_\_\_\_\_\_\_
+- Incorrect shift rpm: Shift rpm \_\_\_\_\_\_\_\_\_\_, Torque Peak \_\_\_\_\_\_\_\_\_\_
+- Operate at a cruise speed: rpm \_\_\_\_\_\_\_\_\_\_
+- Believe compensating for low power: Yes \_\_\_\_\_\_\_\_ No \_\_\_\_\_\_\_
+
+If after filling out this form it appears that the problem is **not** caused by vehicle factors, environmental factors, or driver technique, fill out the Driveability/Low Power/Excessive Fuel Consumption Checklist and go to the Fuel Consumption Excessive performance tree.
+
+This form can be copied for convenience.
+
+### Oil Consumption
+
+In addition to the information that follows, a service publication is available entitled Technical Overview of Oil Consumption, Bulletin Number 3379214.
+
+Cummins Engine Company, Inc. defines “Acceptable Oil Usage” as outlined in the following table.
+
+| ACCEPTABLE OIL USAGE |  |  |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|---|---|
+| ANY TIME DURING COVERAGE PERIOD |  |  |  |  |  |  |  |  |  |
+| ENGINE FAMILY | HRS PER QT | HRS PER LITER | HOURS PER IMPERIAL QUART | MILES PER QUART | MILES PER LITER | MILES PER IMPERIAL QUART | KM PER QUART | KM PER LITER | KM PER IMPERIAL QUART |
+| A | 10.0 | 10.6 | 12.0 | 400 | 425 | 475 | 650 | 675 | 775 |
+| 4B | 10.0 | 10.6 | 12.0 | 400 | 425 | 475 | 650 | 675 | 775 |
+| 6B | 10.0 | 10.6 | 12.0 | 400 | 425 | 475 | 650 | 675 | 775 |
+| 6C | 10.0 | 10.6 | 12.0 | 400 | 425 | 475 | 650 | 675 | 775 |
+| V/VT-378 | 4.0 | 4.3 | 5.0 | - | - | - | - | - | - |
+| V/VT-504 | 4.0 | 4.3 | 5.0 | 250 | 265 | 310 | 400 | 425 | 485 |
+| V/VT-555 | 4.0 | 4.3 | 5.0 | 250 | 265 | 310 | 400 | 425 | 485 |
+| L Series | 4.0 | 4.3 | 5.0 | 250 | 265 | 310 | 400 | 425 | 485 |
+| M Series | 4.0 | 4.3 | 5.0 | 250 | 265 | 310 | 400 | 425 | 485 |
+| N Series | 4.0 | 4.3 | 5.0 | 250 | 265 | 310 | 400 | 425 | 485 |
+| V/VT/VTA-903 | 4.0 | 4.3 | 5.0 | 250 | 265 | 310 | 400 | 425 | 485 |
+| KT/KTA-19 | 3.0 | 3.2 | 3.75 | 200 | 210 | 250 | 320 | 340 | 390 |
+| V/VT/VTA28 | 2.0 | 2.1 | 2.5 | - | - | - | - | - | - |
+| KT/KTA38 | 1.5 | 1.6 | 1.8 | - | - | - | - | - | - |
+| KTA50 | 1.1 | 1.2 | 1.3 | - | - | - | - | - | - |
+
+| ACCEPTABLE OIL USAGE (Transit Bus, Shuttle Bus and School Bus) |  |  |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|---|---|
+| ANY TIME DURING COVERAGE PERIOD |  |  |  |  |  |  |  |  |  |
+| ENGINE FAMILY | HRS PER QT | HRS PER LITER | HOURS PER IMPERIAL QUART | MILES PER QUART | MILES PER LITER | MILES PER IMPERIAL QUART | KM PER QUART | KM PER LITER | KM PER IMPERIAL QUART |
+| B | 10.0 | 10.6 | 12.0 | 200 | 210 | 240 | 320 | 340 | 385 |
+| C | 8.0 | 8.5 | 10.0 | 150 | 160 | 180 | 240 | 255 | 290 |
+| L, M, N | 4.0 | 4.3 | 5.0 | 100 | 105 | 120 | 160 | 170 | 195 |
+
+![[15200020.png]]
+
+| Engine Lubricating Oil Consumption Report |  |  |  |
+|---|---|---|---|
+| Owner's Name | Date of Delivery | Engine Serial Number |  |
+| Month | Day | Year |  |
+| Address | Equipment Manufacturer | Engine Model and HP |  |
+| City | State/Province | Equipment Serial No. | Fuel Pump Serial No. |
+| Engine Application (Describe) | Oil and Filter Change Interval | Complaint Originally Registered |  |
+| Oil | Filters | Date | Mile/Hours/Kilometers |
+| **Lubricating Oil Added** |  |  |  |
+| Date Added Oil | Engine Operation Miles/Hours/Kilometers | Quarts - Liters Oil Added | Brand and Viscosity of Oil Used |
+| Start Test |  |  |  |
+| Last Mileage/Hours/Kilometers \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Minus Start Mileage/Hours/Kilometers \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |  |  |  |
+| Equals Test Mileage/Hours/Kilometers \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Divided By Oil Added \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |  |  |  |
+| Equals \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Usage Rate\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |  |  |  |
+| Customer Signature | Cummins® Dealer | Cummins® Distributor |  |
+| Cummins® Engine Company, Inc. Form 4755 |  |  |  |
+
+![[15200020.png]]
+
+| OIL CONSUMPTION REPORT |  |
+|---|---|
+| Customer Name: | Dist/Dir: |
+| Engine Model: | Mi/Km/Hr: |
+| Engine Serial No.: | CPL No.: |
+| Vehicle Make/Model: | Date: |
+| Review of maintenance history: List any previous failures that could have had a detrimental effect on cylinder component life. Failures could include fuel, coolant, and/or foreign abrasives in the oil, second ring groove beat-out, filter plugging, etc. |  |
+| Lube Oil Used: Brand, Viscosity, Change Interval (mi/km/hr) |  |
+| Combination Oil Filter: Model, Element, Change Interval (mi/km/hr) |  |
+| Bypass Oil Filter: Model, Element, Change Interval (mi/km/hr) |  |
+| Full Flow Oil Filter: Model, Element, Change Interval (mi/km/hr) |  |
+| Air Cleaner: Make and Model, Change Interval |  |
+| List any external engine leaks. |  |
+| Visually check for any internal leaks and list. Check turbocharger seals, valve guides, air compressor, etc. |  |
+| Had the fuel pump been tampered with? \_\_\_\_\_\_\_\_\_\_ What is maximum rail pressure readings? \_\_\_\_\_\_\_\_\_\_ If yes, the pump must be reset to factory specifications and the customer sent out to re-evalute his oil consumption rate and the eligibility requirements must be met again. |  |
+| Drain and refill oil pan to check dipstick markings and notes findings. Warning: Governmental agencies have determined that used engine oil is toxic and carcinogenic. Avoid breathing, injestion, and excessive contact. |  |
+| Only after above checks are completed, leaks corrected and proper documentation is completed, disassemble engine to determine cause for the failure and repair as required. |  |
+| State reason for oil consumption. |  |
+| Signed: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ |  |
+
+### Response Test
+
+This procedure can be used for testing response on heavy duty engines.
+
+For this test, a boost pressure gauge, associated plumbing lines, and a stop watch will be needed.
+
+1. Attach the tractor to a loaded trailer, GVW **must** be 29483.504 to 36287.390 kg \[65,000 to 80,000 pounds\].
+2. Make sure the engine is warmed to operating temperature.
+3. Determine the full boost pressure at torque peak engine speed while applying full throttle. The trailer brakes can also be applied for additional loading, if required. Record the boost pressure at torque peak engine speed.
+4. Perform the coast down test. Select a secondary road that is level and has minimal traffic. Accelerate the vehicle up through the gears to direct fear (1 to 1) and to an engine speed at least 300 rpm above torque peak engine speed. From this point, allow the vehicle to coast down to torque peak engine speed then snap the throttle. Measure the time required to develop 50 percent of torque peak boost (determined in Step Number 3 above).
+5. Repeat Step Number 4 two more times for a total of three data points.
+6. Calculate the average time to 50 percent boost: Average time to 50 percent boost = (time 1 + time 2 ÷ time 3)/3.
+
+The average time **must** be 3 seconds or less for acceptable performance.
+
+### Coolant Loss Pre-Troubleshooting Guide
+
+Before troubleshooting, it is critical to know where the coolant is being lost. It is **not** always obvious where the missing coolant has gone.
+
+Before troubleshooting, it is important to determine the exact complaint by interviewing the driver, looking at the service history, and looking at the ECM information.
+
+Driver Interview Questions
+
+1. Driver's Name?
+2. Engine Serial Number?
+3. What is your complaint?
+4. How is this engine used?
+5. What sort of load factors?
+6. Where is the vehicle driven?
+7. How often do you add coolant?
+8. How do you fill the radiator?
+9. Do you fill to the High or Low mark when the engine is cold (less than 60°C \[140°F\])?
+10. What type of coolant do you add?
+11. Have you seen any coolant on the ground under your vehicle?
+12. Have you seen green or white streaks on the engine or near the coolant overflow hose?
+13. Is there any specific condition when you get indications of coolant loss (weather, altitude, or load)?
+14. Does the engine ever overheat?
+15. Does the warning light flash?
+16. If yes, under what conditions?
+17. What temperature does the coolant run at normally?
+18. Does the cooling fan operate correctly (fan on at 99°C \[210°F\])?
+19. Have you seen any white smoke at operating temperature, or has anyone told you that white smoke is coming out of the exhaust?
+20. Do you have oil analysis performed as part of your maintenance practices?
+21. If so, are there elevated levels of sodium or potassium?
+22. Have you noticed any increase in moisture condensation on the dipstick or oil fill cap, or moisture in the blowby?
+23. Have you noticed a milky appearance in the lubricating oil that might indicate coolant is present?
+24. What other comments do you have that might help us make the correct diagnosis and repair?
+
+Service History Review
+
+Repeat cylinder head or cylinder head gasket repairs can indicate the problem is likely **not** the cylinder head or cylinder head gasket. Repeat problems can indicate a deeper problem in the engine. Keep this information in mind while going through the troubleshooting procedure.
+
+Look at this engine's warranty claims history; who worked on the engine last and what did they do? How many miles/kilometers are on this engine? Has a cylinder head or cylinder head gasket been replaced before? At how many miles were the repairs made?
+
+ECM Data Review
+
+Print out an INSITE™ electronic service tool Image Report from the ECM. Look for high temperature alarms or low coolant level alarms. Either indication confirms a complaint of loosing coolant.
+
+- Are any fault codes logged in the Engine Protection Fault History?
+- ECM Fault Code 235 - Low Coolant (how many times)?
+- ECM Fault Code 151 - High Coolant Temperature (how many times)?
+
+At this point, do you know where the coolant is going? If **not**, and the coolant loss is **not** severe, suggest mounting a catch bottle on the radiator overflow tube to catch any overflow that can possibly be blowing out and becoming lost while at speed. Send the vehicle out to collect more data about where the coolant is or is **not** going. If the catch bottle has some coolant in it, refer back to the Coolant Loss External (out the overflow) interview questions.

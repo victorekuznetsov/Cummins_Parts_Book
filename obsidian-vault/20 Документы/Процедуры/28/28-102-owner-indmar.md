@@ -11,7 +11,7 @@ manuals:
   - "3667180"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-102-owner-indmar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-102-owner-indmar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-102-owner-indmar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -25,7 +25,7 @@ tags:
 > **Семейство:** K38/K50 · QSK38, QSK50, QSK60
 > **Входит в руководства:** [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]]
 > **Секции:** Section 2 - Maintenance Guidelines
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-102-owner-indmar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-102-owner-indmar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-102-owner-indmar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-102-owner-indmar.pdf)
 
 > [!missing] Файл документа не выгружен
 > В выгрузке QuickServe этот документ отсутствует — доступна только карточка и ссылка на источник.

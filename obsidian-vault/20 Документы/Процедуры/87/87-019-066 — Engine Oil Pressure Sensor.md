@@ -14,15 +14,13 @@ families:
 manuals:
   - "3666214"
 figures: 6
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-066.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-019-066.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-019-066.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
-  - "перевод/машинный"
 ---
 
 # Engine Oil Pressure Sensor
@@ -34,74 +32,40 @@ tags:
 > **Входит в руководства:** [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2003-02-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-019-066.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-019-066.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
-
-### Снятие
-
-Поднимите на вкладку и отсоедините разъем от датчика.
+Lift up on the tab and disconnect the connector from the sensor.
 
 ![[19a00254.png]]
 
-Удалите датчик из блока двигателя. Используйте розетку с глубоким флангом, номер детали 3823843.
+Remove the sensor from the engine block. Use a deep flank drive socket, Part Number 3823843.
 
 ![[19a00255.png]]
 
-### Установка
+### Install
 
-Убедитесь, что новый датчик имеет кольцо вокруг поверхности, где он уплотняет блок двигателя.
+Make sure the new sensor has an o-ring around the surface where it seals against the engine block.
 
-Смажьте уплотнительное кольцо чистым моторным маслом.
+Lubricate the o-ring with clean engine oil.
 
 ![[19a00256.png]]
 
-Установите датчик в блок двигателя.
+Install the sensor in the engine block.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[19a00255.png]]
 
-> [!warning] ОСТОРОЖНО
-> Используйте только рекомендованную Cummins смазку DS-ES, номер детали 3822934. Другие смазочные материалы, такие как моторное масло или смазка, в разъемах могут вызвать повреждение ECM, плохую производительность двигателя или преждевременный контактный износ разъема.
+> [!warning] CAUTION · Осторожно
+> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as lubricating oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector pin wear.
 
-Нанесите небольшое количество смазки на соединительные терминалы. Перед установкой заполните всю полость разъема смазкой.
+Apply a small amount of lubricant to the connector terminals. Before installing, fill the entire connector cavity with lubricant.
 
 ![[cel29.png]]
 
-Соедините разъёмы до фиксации.
+Push the connectors together until they lock.
 
 ![[19a00254.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> Lift up on the tab and disconnect the connector from the sensor.
->
-> Remove the sensor from the engine block. Use a deep flank drive socket, Part Number 3823843.
->
-> ### Install
->
-> Make sure the new sensor has an o-ring around the surface where it seals against the engine block.
->
-> Lubricate the o-ring with clean engine oil.
->
-> Install the sensor in the engine block.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **CAUTION · Осторожно**
-> Use only Cummins-recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as lubricating oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector pin wear.
->
-> Apply a small amount of lubricant to the connector terminals. Before installing, fill the entire connector cavity with lubricant.
->
-> Push the connectors together until they lock.

@@ -13,15 +13,13 @@ families:
   - "QST30"
 manuals:
   - "4021674"
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc442-choice.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc442-choice.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc442-choice.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
-  - "перевод/машинный"
 ---
 
 # Fault Code Path Selection
@@ -33,22 +31,8 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2008-01-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc442-choice.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc442-choice.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc442-choice.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc442-choice.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
-
-
-| Вы подключены к порту обслуживания CM850 (адрес источника (00))? | [[60-fc442-ecm2 — Battery 1 Voltage High - Data Valid but Above Normal Operational Range - Modera\|Перейти на 60-fc442-ecm2]] |
+| Are you connected to CM850 service port (source address (00))? | [[60-fc442-ecm2 — Battery 1 Voltage High - Data Valid but Above Normal Operational Range - Modera\|Go to 60-fc442-ecm2]] |
 |---|---|
-| Вы подключены к порту обслуживания CM552 (адрес источника (01))? | [[60-fc442-ecm1 — Battery 1 Voltage - Data Valid but Above Normal Operational Range - Moderately\|Перейти на 60-fc442-ecm1]] |
-
-
-> [!quote]- Original (English) · английский оригинал
-> | Are you connected to CM850 service port (source address (00))? | [[60-fc442-ecm2 — Battery 1 Voltage High - Data Valid but Above Normal Operational Range - Modera\|Go to 60-fc442-ecm2]] |
-> |---|---|
-> | Are you connected to CM552 service port (source address (01))? | [[60-fc442-ecm1 — Battery 1 Voltage - Data Valid but Above Normal Operational Range - Moderately\|Go to 60-fc442-ecm1]] |
+| Are you connected to CM552 service port (source address (01))? | [[60-fc442-ecm1 — Battery 1 Voltage - Data Valid but Above Normal Operational Range - Moderately\|Go to 60-fc442-ecm1]] |

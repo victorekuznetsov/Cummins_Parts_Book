@@ -10,6 +10,7 @@ engines:
   - "33239746"
   - "33239899"
   - "41343322"
+  - "41370103"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "NT/NTA855 · ISM/QSM11"
@@ -17,95 +18,56 @@ manuals:
   - "3667180"
   - "4021631"
 figures: 3
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-009-owner-indmar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-009-owner-indmar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-009-owner-indmar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "двигатель/NT/NTA855"
   - "группа/99"
-  - "перевод/машинный"
 ---
 
 # Engine Shutdown
 **Останов двигателя**
 
 > [!abstract] Процедура · `99-101-009-owner-indmar`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** K38/K50 · QSK38, QSK50, QSK60, NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]], [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive|4021631]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2025-04-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-009-owner-indmar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-009-owner-indmar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-009-owner-indmar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-009-owner-indmar.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### General Information
 
+> [!note] Note · Примечание
+> Damage to the engine resulting from freezing is **not** covered under the Cummins® warranty.
 
-### Общие сведения
-
-> [!note] Примечание
-> Повреждение двигателя в результате замораживания не покрывается гарантией Cummins®.
-
-Процедуры ** должны соблюдаться для защиты двигателя от повреждения от замерзания в период хранения в холодную погоду. Процедура применяется в любое время, когда присутствуют или могут возникнуть условия замораживания.[[99-000-014 — Seasonal Storage|См. процедуру 000-014]](Seasonal Storage) - в разделе SS в соответствующем руководстве по эксплуатации и техническому обслуживанию, для шагов по защите двигателя в эти периоды.
+Procedures **must** be followed to protect the engine from freeze damage during a cold weather storage period. The procedure applies anytime freezing conditions are present or could occur. [[99-000-014 — Seasonal Storage|Refer to Procedure 000-014]] (Seasonal Storage) - in Section SS in appropriate Operation and Maintenance manual, for steps to protect the engine during these periods.
 
 ![[nobox.png]]
 
-Промышленная и энергетическая генерация
+Industrial and Power Generation
 
-Позволить двигателю простаивать 3-5 минут, прежде чем выключить двигатель после полной загрузки. Этот процесс позволяет достаточно охладить поршни, цилиндры, подшипники и компоненты турбокомпрессора.
+Allow the engine to idle 3 to 5 minutes before shutting the engine off after a full-load operation. This process allows adequate cool down of pistons, cylinders, bearings, and turbocharger components.
 
-Включите переключатель зажигания или переключатель зажигания в положение выключения. Если двигатель не выключен, обратитесь к симптому устранения неполадок (раздел TS) в соответствующем руководстве по эксплуатации и техническому обслуживанию.
+Turn the ignition switch or keyswitch to the OFF position. If the engine does **not** shut down, refer to Troubleshooting Symptom (Section TS) in appropriate Operation and Maintenance manual.
 
-Для двигателей, оснащенных модулем управления двигателем (ECM), выключите зажигание минимум на 100 секунд, прежде чем пытаться перезапустить двигатель или попытаться отключить непрерывный (непереключенный) источник питания батареи. Если 100 секунд не прошло, может произойти повреждение информации ECM, кодов неисправностей и внутренних повреждений двигателя.
+For engines equipped with an engine control module (ECM), turn the keyswitch off for a minimum of 100 seconds before attempting to restart the engine or attempting to disconnect the continuous (unswitched) battery power supply. If 100 seconds have **not** passed, corruption to ECM information, fault codes and internal engine damage can occur.
 
 ![[oi800v05.png]]
 
-Судовое применение
+Marine Applications
 
-Для двигателей с экранированными выхлопными коллекторами и турбокомпрессорами, позволяйте двигателям простаивать в течение 10-12 минут, прежде чем выключаться после полной работы нагрузки.
+For engines with shielded exhaust manifolds and turbochargers, allow the engines to idle for 10 to 12 minutes before shutting off after full load operation.
 
-Разрешить двигателю (двигателям) простаивать от 3 до 5 минут до выключения после полной работы нагрузки. Этот процесс позволяет охладить поршни, цилиндры, подшипники и компоненты турбокомпрессора.
+Allow the engine(s) to idle 3 to 5 minutes before shutting off after full load operation. This process allows the cool down of pistons, cylinders, bearings and turbocharger components.
 
-Нажмите кнопку остановки, чтобы остановить двигатель (двигатели). Если двигатель не выключен, обратитесь к симптому устранения неполадок (раздел TS) в соответствующем руководстве по эксплуатации и техническому обслуживанию.
+Push the stop button to stop the engine(s). If the engine does **not** shut down, refer to Troubleshooting Symptom (Section TS) in appropriate Operation and Maintenance manual.
 
-Переведите замок зажигания в положение OFF.
+Turn the keyswitch to the OFF position.
 
-Для двигателей, оснащенных модулем управления двигателем (ECM), выключите зажигание минимум на 100 секунд, прежде чем пытаться перезапустить двигатель или попытаться отключить непрерывный (непереключенный) источник питания батареи. Если 100 секунд не прошло, может произойти повреждение информации ECM, кодов неисправностей и внутренних повреждений двигателя.
+For engines equipped with an engine control module (ECM), turn the keyswitch off for a minimum of 100 seconds before attempting to restart the engine or attempting to disconnect the continuous (unswitched) battery power supply. If 100 seconds have **not** passed, corruption to ECM information, fault codes and internal engine damage can occur.
 
 ![[nobox.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### General Information
->
-> **Note · Примечание**
-> Damage to the engine resulting from freezing is **not** covered under the Cummins® warranty.
->
-> Procedures **must** be followed to protect the engine from freeze damage during a cold weather storage period. The procedure applies anytime freezing conditions are present or could occur. [[99-000-014 — Seasonal Storage|Refer to Procedure 000-014]] (Seasonal Storage) - in Section SS in appropriate Operation and Maintenance manual, for steps to protect the engine during these periods.
->
-> Industrial and Power Generation
->
-> Allow the engine to idle 3 to 5 minutes before shutting the engine off after a full-load operation. This process allows adequate cool down of pistons, cylinders, bearings, and turbocharger components.
->
-> Turn the ignition switch or keyswitch to the OFF position. If the engine does **not** shut down, refer to Troubleshooting Symptom (Section TS) in appropriate Operation and Maintenance manual.
->
-> For engines equipped with an engine control module (ECM), turn the keyswitch off for a minimum of 100 seconds before attempting to restart the engine or attempting to disconnect the continuous (unswitched) battery power supply. If 100 seconds have **not** passed, corruption to ECM information, fault codes and internal engine damage can occur.
->
-> Marine Applications
->
-> For engines with shielded exhaust manifolds and turbochargers, allow the engines to idle for 10 to 12 minutes before shutting off after full load operation.
->
-> Allow the engine(s) to idle 3 to 5 minutes before shutting off after full load operation. This process allows the cool down of pistons, cylinders, bearings and turbocharger components.
->
-> Push the stop button to stop the engine(s). If the engine does **not** shut down, refer to Troubleshooting Symptom (Section TS) in appropriate Operation and Maintenance manual.
->
-> Turn the keyswitch to the OFF position.
->
-> For engines equipped with an engine control module (ECM), turn the keyswitch off for a minimum of 100 seconds before attempting to restart the engine or attempting to disconnect the continuous (unswitched) battery power supply. If 100 seconds have **not** passed, corruption to ECM information, fault codes and internal engine damage can occur.

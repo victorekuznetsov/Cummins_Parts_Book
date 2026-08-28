@@ -7,6 +7,7 @@ title_en: "QSK19 CM2150 MCRS Operation and Maintenance Manual (Manufactured in I
 title_ru: "QSK19 CM2150 MCRS (Индия): руководство по эксплуатации и обслуживанию"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -14,7 +15,7 @@ manuals:
   - "4358454"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4358453/4358453-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4358453-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4358453-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/QSK19"
@@ -24,11 +25,11 @@ tags:
 **QSK19 CM2150 MCRS (Индия): руководство по эксплуатации и обслуживанию**
 
 > [!abstract] Руководство · `4358453-history`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4358453 — QSK19 CM2150 MCRS Operation and Maintenance Manual (Manufactured in India)|4358453]], [[4358454 — QSK19 CM2150 MCRS Owners Manual (Manufactured in India)|4358454]]
 > **Секции:** Back
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4358453/4358453-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4358453-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4358453/4358453-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4358453-history.pdf)
 
 
 ## Оглавление руководства (11 процедур)

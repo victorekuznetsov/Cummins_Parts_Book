@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 7
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-338.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-338.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-019-338.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/105"
-  - "перевод/машинный"
 ---
 
 # Rail Pressure Sensor
@@ -34,106 +32,57 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2004-04-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-338.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-338.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-338.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-019-338.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Initial Check
 
-
-### Первичная проверка
-
-Подключите электронный инструмент к шине данных CAN транспортного средства.
+Connect an electronic service tool to the vehicle datalink.
 
 ![[19400357.png]]
 
-Переведите замок зажигания в положение ON.
+Turn the keyswitch to the ON position.
 
-Мониторинг давления на рельсах с помощью электронного инструментария.
+Monitor the rail pressure with the electronic service tool.
 
-Давление на железной дороге должно быть нулевым psi.
+Rail pressure should be zero psi.
 
 ![[19800978.png]]
 
-Запустите двигатель и запускайте его на холостом ходу.
+Start the engine and let it idle.
 
-Мониторинг давления на рельсах с помощью электронного инструментария.
+Monitor the rail pressure with the electronic service tool.
 
-Давление на рельсах должно быть 15 psi.
+The rail pressure should be 15 psi.
 
 ![[19800979.png]]
 
-### Снятие
+### Remove
 
-Удалить ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]в руководстве по устранению и ремонту неисправностей в системе управления генератором мощности, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78 серии или процедуре 019-031 в электронной системе управления устранением неисправностей и ремонтом, двигателях QSK19, QSK23, QSK45, QSK60 и QSK78.
+Remove the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generator Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines or Procedure [[19-019-031 — Engine Control Module|019-031]] in the Troubleshooting and Repair Manual Electronic Control System, QSK19, QSK23, QSK45, QSK60 and QSK78 Engines.
 
-Очистите корпус управляющего клапана вокруг датчика давления.
+Clean the control valve body around the pressure sensor.
 
-Отсоедините разъем датчика от жгута проводов двигателя.
+Disconnect the sensor connector from the engine harness.
 
 ![[19400371.png]]
 
-Удалите датчик давления с помощью 1 1/4-дюймовой фланговой розетки, части 3823843 и скобы.
+Remove the pressure sensor with a 1 1/4-inch deep flank drive socket, Part Number 3823843, and a ratchet.
 
 ![[19400372.png]]
 
-### Установка
+### Install
 
-Осмотрите новый датчик на наличие кольца.
+Inspect the new sensor for an o-ring.
 
-Установите новый датчик давления и затяните.
+Install the new pressure sensor and tighten.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Подключите сенсорное соединение.
+Connect the sensor connection.
 
 ![[19400373.png]]
 
-Установите ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]в руководстве по устранению и ремонту неисправностей в системе управления генератором мощности, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78 серии или процедуре 019-031 в электронной системе управления устранением неисправностей и ремонтом, двигателях QSK19, QSK23, QSK45, QSK60 и QSK78.
+Install the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generator Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines or Procedure [[19-019-031 — Engine Control Module|019-031]] in the Troubleshooting and Repair Manual Electronic Control System, QSK19, QSK23, QSK45, QSK60 and QSK78 Engines.
 
 ![[19400295.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Initial Check
->
-> Connect an electronic service tool to the vehicle datalink.
->
-> Turn the keyswitch to the ON position.
->
-> Monitor the rail pressure with the electronic service tool.
->
-> Rail pressure should be zero psi.
->
-> Start the engine and let it idle.
->
-> Monitor the rail pressure with the electronic service tool.
->
-> The rail pressure should be 15 psi.
->
-> ### Remove
->
-> Remove the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generator Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines or Procedure 019-031 in the Troubleshooting and Repair Manual Electronic Control System, QSK19, QSK23, QSK45, QSK60 and QSK78 Engines.
->
-> Clean the control valve body around the pressure sensor.
->
-> Disconnect the sensor connector from the engine harness.
->
-> Remove the pressure sensor with a 1 1/4-inch deep flank drive socket, Part Number 3823843, and a ratchet.
->
-> ### Install
->
-> Inspect the new sensor for an o-ring.
->
-> Install the new pressure sensor and tighten.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Connect the sensor connection.
->
-> Install the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generator Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines or Procedure 019-031 in the Troubleshooting and Repair Manual Electronic Control System, QSK19, QSK23, QSK45, QSK60 and QSK78 Engines.

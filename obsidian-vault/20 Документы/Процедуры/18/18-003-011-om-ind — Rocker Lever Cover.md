@@ -7,153 +7,110 @@ title_en: "Rocker Lever Cover"
 title_ru: "Крышка коромысел"
 modified: "2006-08-17"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "33239746"
   - "33239899"
+  - "37269910"
+  - "37280605"
   - "41349633"
+  - "41353297"
+  - "85017333"
 families:
+  - "K19"
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK19"
+  - "QSK23"
+  - "QSK60"
 manuals:
+  - "3666013"
   - "3666120"
   - "3810497"
+  - "4021375"
+  - "4021530"
 figures: 7
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-003-011-om-ind.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-003-011-om-ind.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-003-011-om-ind.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/K19"
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
   - "группа/18"
-  - "перевод/машинный"
 ---
 
 # Rocker Lever Cover
 **Крышка коромысел**
 
 > [!abstract] Процедура · `18-003-011-om-ind`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
-> **Входит в руководства:** [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** K19, K38/K50 · QSK38, QSK50, QSK60, QSK19, QSK23, QSK60
+> **Входит в руководства:** [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual|3666013]], [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]], [[4021375 — QSK23 Troubleshooting and Repair Manual|4021375]], [[4021530 — QSK45 and QSK60 Service Manual|4021530]]
 > **Секции:** Section A - Adjustment, Repair, and Replacement
 > **Даты:** изменён 2006-08-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-003-011-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/18-003-011-om-ind.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/18/18-003-011-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/18-003-011-om-ind.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Preparatory Steps
 
-
-### Подготовительные операции
-
-- Удалите воздушный кроссовер. См. процедуру 010-019.
+- Remove the air crossover. Refer to Procedure 010-019.
 
 ![[ck800wa.png]]
 
-### Снятие
+### Remove
 
-Вдохновители для чокнутых можно установить в любом месте цилиндра. Запишите количество вдохов и их местоположение, прежде чем удалять.
+Crankcase breathers can be mounted in any cylinder location. Record the number of breathers and their location, before removing.
 
-Удалите клапанные клапанные затворы на руке.
+Remove the rocker lever cover capscrews.
 
-Удалите крышку рычага клапанного клапана и прокладку.
+Remove the rocker lever cover and gasket.
 
-Прокладку утилизируйте.
+Discard the gasket.
 
 ![[rh4cuha.png]]
 
-Отсоедините соленоидную проволоку изнутри крышки на двигателях, оснащенных тормозом двигателя.
+Disconnect the solenoid wire from inside the cover on engines equipped with an engine brake.
 
 ![[eb4coha.png]]
 
-### Очистка и проверка при повторном использовании
+### Clean and Inspect for Reuse
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-Очистите крышку рычага качения клапанного клапана растворителем, который ** не** повредит алюминию.
+Clean the rocker lever cover with a solvent that will **not** harm aluminum.
 
-Проверьте клапанную качалку на наличие трещин.
+Inspect the rocker lever for cracks.
 
-Если крышка рычага качения клапанного клапана сломана, ее *** необходимо отремонтировать или заменить.
+If the rocker lever cover is cracked, it **must** be repaired or replaced.
 
 ![[03400138.png]]
 
-### Установка
+### Install
 
-Если двигатель имеет тормоз двигателя, подсоедините соленоидный провод к терминалу внутри крышки.
+If the engine has an engine brake, connect the solenoid wire to the terminal inside the cover.
 
 ![[eb4coha.png]]
 
-> [!warning] ОСТОРОЖНО
-> Использование прокладочного цемента на прокладке предотвратит надлежащее уплотнение прокладки.
+> [!warning] CAUTION · Осторожно
+> The use of gasket cement on the gasket will prevent the gasket from sealing properly.
 
-Установите крышку рычага прокладки и клапанного клапана.
+Install the gasket and rocker lever cover.
 
-Установите шайбы и болты.
+Install the washers and capscrews.
 
-Сначала затяните короткие болты, затем затяните оставшиеся болты.
+Tighten the short capscrew first, then tighten the remaining capscrews.
 
-> [!tip] Момент затяжки
-> 45 Н·м [33 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [33 ft-lb]
 
 ![[rh4cuha.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-- Установите воздушный кроссовер. См. процедуру 010-019.
+- Install the air crossover. Refer to Procedure 010-019.
 
 ![[ck800wa.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Preparatory Steps
->
-> - Remove the air crossover. Refer to Procedure 010-019.
->
-> ### Remove
->
-> Crankcase breathers can be mounted in any cylinder location. Record the number of breathers and their location, before removing.
->
-> Remove the rocker lever cover capscrews.
->
-> Remove the rocker lever cover and gasket.
->
-> Discard the gasket.
->
-> Disconnect the solenoid wire from inside the cover on engines equipped with an engine brake.
->
-> ### Clean and Inspect for Reuse
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> Clean the rocker lever cover with a solvent that will **not** harm aluminum.
->
-> Inspect the rocker lever for cracks.
->
-> If the rocker lever cover is cracked, it **must** be repaired or replaced.
->
-> ### Install
->
-> If the engine has an engine brake, connect the solenoid wire to the terminal inside the cover.
->
-> **CAUTION · Осторожно**
-> The use of gasket cement on the gasket will prevent the gasket from sealing properly.
->
-> Install the gasket and rocker lever cover.
->
-> Install the washers and capscrews.
->
-> Tighten the short capscrew first, then tighten the remaining capscrews.
->
-> **Момент затяжки · Torque Value**
-> 45 n•m [33 ft-lb]
->
-> ### Finishing Steps
->
-> - Install the air crossover. Refer to Procedure 010-019.

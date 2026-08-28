@@ -8,89 +8,54 @@ title_ru: "Привод нейтрали автопереключения"
 modified: "2010-09-02"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
   - "3666266"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc538.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc538.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc538.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
-  - "перевод/машинный"
 ---
 
 # Autoshift Neutral Actuator
 **Привод нейтрали автопереключения**
 
 > [!abstract] Процедура · `82-fc538`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc538.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc538.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc538.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc538.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 538
 
+### Autoshift Neutral Actuator
 
-### Код неисправности: 538
+Printable Version
 
-### Привод нейтрали автопереключения
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 538 P(P): S045 SPN: 719 FMI: 11/11 Лампа: Желтая СТО: | Либо низкое напряжение, обнаруженное на цепи автоматического сдвига нейтрального привода передач, когда командуют + 12 VDC, либо напряжение, обнаруженное, когда не командуется напряжение. | Топ-2 нейтральный привод будет работать **не**. Передача будет ** не** правильно сдвинута. |
+| Fault Code: 538 PID(P): S045 SPN: 719 FMI: 11/11 Lamp: Yellow SRT: | Either low voltage detected on autoshift neutral gear actuator circuit when + 12 VDC are commanded or voltage detected when no voltage is commanded. | Top 2 neutral actuator will **not** function properly. Transmission will **not** shift properly. |
 
 ![[19c00352.png]]
 
-Топ 2 Сдвиг Соленоидной цепи
+Top 2 Shift Solenoid Circuit
 
-### Описание цепи
+### Circuit Description
 
-Автосменный нейтральный привод представляет собой соленоид, управляемый ECM, который управляет передачей Top 2.
+The autoshift neutral actuator is an ECM-driven solenoid that controls a Top 2 transmission.
 
-### Расположение компонента
+### Component Location
 
-Автосменный нейтральный привод расположен на верхней стороне трансмиссии к задней части. См. диаграмму OEM для конкретного местоположения.
+The autoshift neutral actuator is located on the topside of the transmission toward the back. Refer to an OEM diagram for the specific location.
 
-См. Код устранения неполадок t05-538
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 538
->
-> ### Autoshift Neutral Actuator
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 538 PID(P): S045 SPN: 719 FMI: 11/11 Lamp: Yellow SRT: | Either low voltage detected on autoshift neutral gear actuator circuit when + 12 VDC are commanded or voltage detected when no voltage is commanded. | Top 2 neutral actuator will **not** function properly. Transmission will **not** shift properly. |
->
-> Top 2 Shift Solenoid Circuit
->
-> ### Circuit Description
->
-> The autoshift neutral actuator is an ECM-driven solenoid that controls a Top 2 transmission.
->
-> ### Component Location
->
-> The autoshift neutral actuator is located on the topside of the transmission toward the back. Refer to an OEM diagram for the specific location.
->
-> Refer to Troubleshooting Fault Code t05-538
+Refer to Troubleshooting Fault Code t05-538

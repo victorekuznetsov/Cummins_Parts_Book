@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 7
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-399.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-399.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-399.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Fuel Supply Pump Temperature Sensor
@@ -34,88 +32,48 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2002-10-31
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-399.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-399.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-399.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-399.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
+Clean the area around the sensor.
 
-### Снятие
-
-Очистите область вокруг датчика.
-
-Отсоедините датчик от жгута проводов двигателя.
+Disconnect the sensor from the engine harness.
 
 ![[19803740.png]]
 
-Удалите датчик с помощью глубокого колодца, номер детали 3823843.
+Remove the sensor using a deep well socket, Part Number 3823843.
 
 ![[19803741.png]]
 
-### Установка
+### Install
 
-Убедитесь, что новый датчик имеет установленное кольцо.
+Check that the new sensor has an o-ring installed.
 
-Смажьте уплотнительное кольцо чистым моторным маслом.
+Lubricate the o-ring with clean engine oil.
 
 ![[19801035.png]]
 
-Установите новый датчик в насос подачи топлива.
+Install the new sensor into the fuel supply pump.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[19803741.png]]
 
-Используйте быстросушливый электрический контактный очиститель (1), номер детали 3824510, чтобы удалить всю грязь и влагу из разъёма проводов.
+Use quick-dry electrical contact cleaner (1), Part Number 3824510, to remove all dirt and moisture from harness connector.
 
 ![[19801036.png]]
 
-> [!warning] ОСТОРОЖНО
-> Используйте только рекомендованную Cummins смазку DS-ES, номер детали 3822934. Другие смазочные материалы, такие как масло или смазка, в разъемах могут вызвать повреждение ECM, плохую производительность двигателя или преждевременный износ разъема.
+> [!warning] CAUTION · Осторожно
+> Use only Cummins recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector wear.
 
-Нанесите тонкое покрытие смазки на разъём проводов жгута.
+Apply a thin coating of lubricant to the harness connector.
 
 ![[19801037.png]]
 
-Соедините разъёмы до фиксации.
+Push the connectors together until they lock.
 
-Управляйте двигателем, чтобы проверить наличие утечек.
+Operate the engine to check for leaks.
 
 ![[19803740.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> Clean the area around the sensor.
->
-> Disconnect the sensor from the engine harness.
->
-> Remove the sensor using a deep well socket, Part Number 3823843.
->
-> ### Install
->
-> Check that the new sensor has an o-ring installed.
->
-> Lubricate the o-ring with clean engine oil.
->
-> Install the new sensor into the fuel supply pump.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Use quick-dry electrical contact cleaner (1), Part Number 3824510, to remove all dirt and moisture from harness connector.
->
-> **CAUTION · Осторожно**
-> Use only Cummins recommended lubricant DS-ES, Part Number 3822934. Other lubricants, such as oil or grease, in the connectors can cause ECM damage, poor engine performance, or premature connector wear.
->
-> Apply a thin coating of lubricant to the harness connector.
->
-> Push the connectors together until they lock.
->
-> Operate the engine to check for leaks.

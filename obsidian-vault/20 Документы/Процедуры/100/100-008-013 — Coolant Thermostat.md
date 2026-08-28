@@ -7,403 +7,236 @@ title_en: "Coolant Thermostat"
 title_ru: "Термостат системы охлаждения"
 modified: "2003-09-02"
 engines:
+  - "93047320"
   - "93058669"
+  - "93087701"
 families:
+  - "6B5.9"
   - "C8.3 · 6C8.3"
 manuals:
   - "2883407"
   - "3666003"
+  - "3810205"
 figures: 21
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-013.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-008-013.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-008-013.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/C8.3"
   - "группа/100"
-  - "перевод/машинный"
 ---
 
 # Coolant Thermostat
 **Термостат системы охлаждения**
 
 > [!abstract] Процедура · `100-008-013`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
-> **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3666003 — C Troubleshooting and Repair Manual|3666003]]
+> **Двигатели:** [[93047320 — 6B5.9 CPL 3111|93047320]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** 6B5.9, C8.3 · 6C8.3
+> **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3666003 — C Troubleshooting and Repair Manual|3666003]], [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual|3810205]]
 > **Секции:** Section 8 - Cooling System - Group 08 · Section A - Adjustment, Repair, and Replacement
 > **Даты:** изменён 2003-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-008-013.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-008-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-008-013.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Initial Check
 
+> [!danger] WARNING · Опасно
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 
-### Первичная проверка
+> [!danger] WARNING · Опасно
+> Complete this test with the engine coolant temperature below 49°C \[120°F\]. Hot steam can cause serious personal injury.
 
-> [!danger] ОПАСНО
-> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+Drain 2 liters \[2.1 qt\] of coolant. Refer to Procedure 008-018.
 
-> [!danger] ОПАСНО
-> Завершите это испытание с температурой охлаждающей жидкости двигателя ниже 49 ° C \[120°F \]. Горячий пар может привести к тяжёлой травме.
-
-Слить 2 литра \[2.1 квт\] охлаждающей жидкости. См. процедуру 008-018.
-
-Удалите шланг системы охлаждения из корпуса термостата.
+Remove the cooling system hose from the thermostat housing.
 
 ![[ra9homb.png]]
 
-Установите термопару или калибр температуры, который, как известно, является точным, в 3⁄4-дюймовую трубную пробку, расположенную в передней части блока цилиндров.
+Install a thermocouple or temperature gauge, which is known to be accurate, in the ¾-inch pipe plug located at the front of the cylinder block.
 
 ![[ck900kf.png]]
 
-Установите шланг такого же размера на розетку корпуса термостата, которая достаточно длинная, чтобы добраться до удаленного сухого контейнера, используемого для сбора охлаждающей жидкости.
+Install a hose of the same size on the thermostat housing outlet that is long enough to reach a remote, dry container used to collect coolant.
 
-Установите и затяните зажим шланга на выходе корпуса.
+Install and tighten a hose clamp on the housing outlet.
 
-> [!tip] Момент затяжки
-> 6 Н·м [50 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 6 n•m [50 in-lb]
 
-Вставьте конец шланга в сухой контейнер.
+Insert the end of the hose in a dry container.
 
 ![[ra900wo.png]]
 
-Работайте с двигателем на номинальной скорости в течение 1 минуты.
+Operate the engine at rated speed for 1 minute.
 
-Выключите двигатель и измерьте количество охлаждающей жидкости, собранной в контейнере.
+Shut off the engine and measure the amount of coolant collected in the container.
 
-| млечный |  | фл-оз |
+| ml |  | fl-oz |
 |---|---|---|
-| 150 | Макс | 5 |
+| 150 | MAX | 5 |
 
 ![[ec800kc.png]]
 
-Если собрано более 150 мл \[5 fl-oz\] теплоносителя, термостаты протекают и *** должны быть заменены.
+If more than 150 ml \[5 fl-oz\] of coolant is collected, the thermostats are leaking and **must** be replaced.
 
 ![[ra900kc.png]]
 
-Завершите следующий тест на шасси, чтобы определить температуру открытия термостата.
+Complete the following in-chassis test to determine the thermostat opening temperature.
 
-Запустите двигатель и проследите за измерителем температуры воды и контейнером. Начальная температура открытия термостата:
+Start the engine and monitor the water temperature gauge and the container. The thermostat initial opening temperature is:
 
-81-83°C[178-182°F]
+81 to 83°C \[178 to 182°F\]
 
-Выключите двигатель, когда охлаждающая жидкость начинает течь.
+Shut off the engine when the coolant starts to flow.
 
-> [!note] Примечание
-> Если охлаждающая жидкость начинает течь в контейнер во время начального диапазона температуры открытия, термостат должен быть заменен.
+> [!note] Note · Примечание
+> If coolant does **not** start flowing into the container during the initial opening temperature range, the thermostat **must** be replaced.
 
 ![[ra900kd.png]]
 
-### Подготовительные операции
+### Preparatory Steps
 
-> [!danger] ОПАСНО
-> Не снимайте пробку радиатора с горячего двигателя. Снимайте пробку радиатора только после того, как температура охлаждающей жидкости опустится ниже 50 °C \[120 °F\]. Струя горячей охлаждающей жидкости или пар могут привести к травме.
+> [!danger] WARNING · Опасно
+> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
 
-> [!danger] ОПАСНО
-> Охлаждающая жидкость токсична. Хранить в недоступном для детей и животных месте. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+> [!danger] WARNING · Опасно
+> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-Слить 2 литра \[2.1 квт\] охлаждающей жидкости. См. процедуру 008-018.
+Drain 2 liters \[2.1 qt\] of coolant. Refer to Procedure 008-018.
 
-Удалите верхний шланг радиатора из розеточного соединения.
+Remove the upper radiator hose from the outlet connection.
 
-Снимите жгут проводов. См. процедуру[[100-008-002 — Drive Belt, Cooling Fan|008-002]].
+Remove the drive belt. Refer to Procedure [[100-008-002 — Drive Belt, Cooling Fan|008-002]].
 
-Отсоедините аккумуляторные батареи.
+Disconnect the batteries.
 
-Удалите генератор. См. процедуру[[100-013-001 — Alternator|013-001]].
+Remove the alternator. Refer to Procedure [[100-013-001 — Alternator|013-001]].
 
 ![[ck800wa.png]]
 
-### Снятие
+### Remove
 
-Удалите болты из корпуса термостата.
+Remove the capscrews from the thermostat housing.
 
-Удалите соединение с водоотводом.
+Remove the water outlet connection.
 
 ![[wo900ha.png]]
 
-Снять корпус термостата и ремень натяжителя сборки.
+Remove the thermostat housing and belt tensioner assembly.
 
-> [!note] Примечание
-> Если транспортное средство оснащено внешней системой обхода, то необходимо снять опорную часть корпуса термостата (между корпусом термостата и блоком цилиндра) ***.
+> [!note] Note · Примечание
+> If the vehicle is equipped with an external bypass system, the thermostat housing support (between the thermostat housing and cylinder block) **must** be removed.
 
 ![[th900ma.png]]
 
-> [!warning] ОСТОРОЖНО
-> Обломки в системе охлаждения могут привести к повреждению двигателя.
+> [!warning] CAUTION · Осторожно
+> Debris in the cooling system can cause damage to the engine.
 
-Удалите прокладку термостата и очистите поверхность прокладки.
+Remove the thermostat gasket and clean the gasket surface.
 
 ![[08900075.png]]
 
-> [!warning] ОСТОРОЖНО
-> Не зажимайте термостаты за верхней частью блока.
+> [!warning] CAUTION · Осторожно
+> Do not shim the thermostats beyond the top of the block.
 
-Измерьте расстояние от фланца термостата до верхней части поверхности блока каждого термостата, чтобы определить правильную шим(ы) для использования.
+Measure the distance from the thermostat flange to the top of the block surface of each thermostat to determine the proper shim(s) to use.
 
-> [!note] Примечание
-> В число служебных рубашек входят 0,25 мм \[0,010 в\], 0,50 мм \[0,020 в\], 0,75 мм \[0,030 в\] и 1 мм \[0,040 в\].
+> [!note] Note · Примечание
+> The service shims included are 0.25 mm \[0.010 in\], 0.50 mm \[0.020 in\], 0.75 mm \[0.030 in\], and 1 mm \[0.040 in\].
 
-Выберите подходящую комбинацию, которая приблизит высоту термостата как можно ближе к верхней части блока.
+Select the appropriate combination that will bring the thermostat height as close to the top of the block as possible.
 
 ![[08900078.png]]
 
-> [!note] Примечание
-> Можно использовать любую комбинацию шампуров, но укладка ограничена максимум двумя шампурами на цилиндр.
+> [!note] Note · Примечание
+> Any combination of shims can be used, but stacking is limited to a maximum of two shims per bore.
 
-Удалите каждый термостат и вставьте выбранные шины в каждый цилиндрический отсек, убедившись, что каждый шим правильно сидит в цилиндровом отсеке.
+Remove each thermostat and insert the selected shims into each bore, making sure each shim is seated properly in the bore.
 
 ![[08900077.png]]
 
-### Проверка при повторном использовании
+### Inspect for Reuse
 
-Проверьте термостаты на предмет повреждения.
+Inspect the thermostats for damage.
 
-Убедитесь, что оба термостата чисты и свободны от коррозии.
+Make sure both thermostats are clean and free from corrosion.
 
 ![[ec900gc.png]]
 
-Приостановите термостаты и термометр на 100°C[212°F] в емкости с водой.
+Suspend the thermostats and a 100°C \[212°F\] thermometer in a container of water.
 
-> [!note] Примечание
-> Не позволяйте термостатам или термометру касаться контейнера.
+> [!note] Note · Примечание
+> Do **not** allow the thermostats or thermometer to touch the container.
 
-Нагрейте воду медленно, чтобы восковой элемент в термостатах имел достаточно времени, чтобы реагировать на повышение температуры воды.
+Heat the water slowly so the wax element in the thermostats has sufficient time to react to the rising water temperature.
 
-> [!note] Примечание
-> Нормальная рабочая температура отпечатывается на термостате.
+> [!note] Note · Примечание
+> The normal operating temperature is stamped on the thermostat.
 
 ![[ec900sa.png]]
 
-Осмотрите термостаты следующим образом:
+Inspect the thermostats as follows:
 
-- Термостат ** должен ** начать открываться в пределах 1°C \[2°F\] от 82°C \[180°F\].
-- Термостат ** должен быть полностью открыт в пределах 1°C \[2°F\] от 95°C \[203°F\].
+- Thermostat **must** begin to open within 1°C \[2°F\] of 82°C \[180°F\].
+- Thermostat **must** be fully open within 1°C \[2°F\] of 95°C \[203°F\].
 
-> [!note] Примечание
-> Полностью открытый зазор между клапаном потока термостата и фланецом ** должен быть не менее 41,5 мм \[1,63 дюйма \].
+> [!note] Note · Примечание
+> The fully open clearance between the thermostat flow valve and flange **must** be 41.5 mm \[1.63 in\] minimum.
 
 ![[ec900na.png]]
 
-### Установка
+### Install
 
-Установите термостаты поверх служебного шима (ов) в фланцы термостата. Они могут находиться в пределах 0,23 мм \[0,009 дюйма \] от смыва с верхней частью блока, не находясь выше верхней части блока.
+Install the thermostats on top of the service shim(s) in the thermostat flanges. They can be within 0.23 mm \[0.009 in\] of flush with the top of the block, without being above the top of the block.
 
 ![[08900077.png]]
 
-Установите новый прокладку термостата.
+Install a new thermostat gasket.
 
 ![[08900078.png]]
 
-Поместите корпус термостата и натяжитель ремня над термостатами и прокладкой.
+Position the thermostat housing and belt tensioner over the thermostats and gasket.
 
-> [!note] Примечание
-> Если используется внешняя система обхода, должна быть установлена поддержка корпуса термостата (между корпусом термостата и блоком цилиндра) ***.
+> [!note] Note · Примечание
+> If an external bypass system is used, the thermostat housing support (between the thermostat housing and cylinder block) **must** be installed.
 
 ![[08900074.png]]
 
-Убедитесь, что прокладка выровнена с отверстиями болтов.
+Make sure the gasket is aligned with the capscrew holes.
 
-Установите болты и затягивайте пальцы.
+Install the capscrews and finger-tighten.
 
 ![[th9gkhb.png]]
 
-Установите соединение с водоотводом.
+Install the water outlet connection.
 
-Затяните все болты.
+Tighten all capscrews.
 
-> [!tip] Момент затяжки
-> 24 Н·м [212 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 24 n•m [212 in-lb]
 
 ![[wo900ha.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы избежать травм, всегда проветривайте моторное отделение перед обслуживанием батарей. Чтобы избежать дуги, сначала удалите отрицательный (-) кабель батареи и прикрепите отрицательный (-) кабель батареи последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-Установите генератор. См. процедуру[[100-013-001 — Alternator|013-001]].
+Install the alternator. Refer to Procedure [[100-013-001 — Alternator|013-001]].
 
-Установите приводной ремень. См. процедуру[[100-008-002 — Drive Belt, Cooling Fan|008-002]].
+Install the drive belt. Refer to Procedure [[100-008-002 — Drive Belt, Cooling Fan|008-002]].
 
-Установите и затяните электрические соединения батареи.
+Install and tighten the battery's electrical connections.
 
-> [!note] Примечание
-> Во время наполнения воздух ** должен** выпускаться из проходов охлаждающей жидкости двигателя. Откройте клапан слива вентиляционного отверстия двигателя, если он оборудован. Обязательно откройте дренажный клапан на послеохладитель для двигателей с последующим охлаждением. Система ** должна быть заполнена медленно, чтобы предотвратить воздушные замки. Подождите 2-3 минуты, чтобы позволить воздуху вентилироваться; затем добавьте охлаждающую жидкость, чтобы довести уровень до нижней части шеи наполнителя радиатора.
+> [!note] Note · Примечание
+> During filling, air **must** be vented from the engine's coolant passages. Open the engine vent petcock, if equipped. Make sure to open the petcock on the aftercooler for aftercooled engines. The system **must** be filled slowly to prevent air locks. Wait 2 to 3 minutes to allow air to be vented; then add coolant to bring the level to the bottom of the radiator filler neck.
 
-Заправьте систему охлаждения. См. процедуру 008-018.
+Fill the cooling system. Refer to Procedure 008-018.
 
-Управляйте двигателем до нормальной рабочей температуры и проверяйте наличие утечек.
+Operate the engine to normal operating temperature and check for leaks.
 
 ![[ck800wa.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Initial Check
->
-> **WARNING · Опасно**
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
->
-> **WARNING · Опасно**
-> Complete this test with the engine coolant temperature below 49°C \[120°F\]. Hot steam can cause serious personal injury.
->
-> Drain 2 liters \[2.1 qt\] of coolant. Refer to Procedure 008-018.
->
-> Remove the cooling system hose from the thermostat housing.
->
-> Install a thermocouple or temperature gauge, which is known to be accurate, in the ¾-inch pipe plug located at the front of the cylinder block.
->
-> Install a hose of the same size on the thermostat housing outlet that is long enough to reach a remote, dry container used to collect coolant.
->
-> Install and tighten a hose clamp on the housing outlet.
->
-> **Момент затяжки · Torque Value**
-> 6 n•m [50 in-lb]
->
-> Insert the end of the hose in a dry container.
->
-> Operate the engine at rated speed for 1 minute.
->
-> Shut off the engine and measure the amount of coolant collected in the container.
->
-> | ml |  | fl-oz |
-> |---|---|---|
-> | 150 | MAX | 5 |
->
-> If more than 150 ml \[5 fl-oz\] of coolant is collected, the thermostats are leaking and **must** be replaced.
->
-> Complete the following in-chassis test to determine the thermostat opening temperature.
->
-> Start the engine and monitor the water temperature gauge and the container. The thermostat initial opening temperature is:
->
-> 81 to 83°C \[178 to 182°F\]
->
-> Shut off the engine when the coolant starts to flow.
->
-> **Note · Примечание**
-> If coolant does **not** start flowing into the container during the initial opening temperature range, the thermostat **must** be replaced.
->
-> ### Preparatory Steps
->
-> **WARNING · Опасно**
-> Do not remove the pressure cap from a hot engine. Wait until the coolant temperature is below 50°C \[120°F\] before removing the pressure cap. Heated coolant spray or steam can cause personal injury.
->
-> **WARNING · Опасно**
-> Coolant is toxic. Keep away from children and pets. If not reused, dispose of in accordance with local environmental regulations.
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> Drain 2 liters \[2.1 qt\] of coolant. Refer to Procedure 008-018.
->
-> Remove the upper radiator hose from the outlet connection.
->
-> Remove the drive belt. Refer to Procedure [[100-008-002 — Drive Belt, Cooling Fan|008-002]].
->
-> Disconnect the batteries.
->
-> Remove the alternator. Refer to Procedure [[100-013-001 — Alternator|013-001]].
->
-> ### Remove
->
-> Remove the capscrews from the thermostat housing.
->
-> Remove the water outlet connection.
->
-> Remove the thermostat housing and belt tensioner assembly.
->
-> **Note · Примечание**
-> If the vehicle is equipped with an external bypass system, the thermostat housing support (between the thermostat housing and cylinder block) **must** be removed.
->
-> **CAUTION · Осторожно**
-> Debris in the cooling system can cause damage to the engine.
->
-> Remove the thermostat gasket and clean the gasket surface.
->
-> **CAUTION · Осторожно**
-> Do not shim the thermostats beyond the top of the block.
->
-> Measure the distance from the thermostat flange to the top of the block surface of each thermostat to determine the proper shim(s) to use.
->
-> **Note · Примечание**
-> The service shims included are 0.25 mm \[0.010 in\], 0.50 mm \[0.020 in\], 0.75 mm \[0.030 in\], and 1 mm \[0.040 in\].
->
-> Select the appropriate combination that will bring the thermostat height as close to the top of the block as possible.
->
-> **Note · Примечание**
-> Any combination of shims can be used, but stacking is limited to a maximum of two shims per bore.
->
-> Remove each thermostat and insert the selected shims into each bore, making sure each shim is seated properly in the bore.
->
-> ### Inspect for Reuse
->
-> Inspect the thermostats for damage.
->
-> Make sure both thermostats are clean and free from corrosion.
->
-> Suspend the thermostats and a 100°C \[212°F\] thermometer in a container of water.
->
-> **Note · Примечание**
-> Do **not** allow the thermostats or thermometer to touch the container.
->
-> Heat the water slowly so the wax element in the thermostats has sufficient time to react to the rising water temperature.
->
-> **Note · Примечание**
-> The normal operating temperature is stamped on the thermostat.
->
-> Inspect the thermostats as follows:
->
-> - Thermostat **must** begin to open within 1°C \[2°F\] of 82°C \[180°F\].
-> - Thermostat **must** be fully open within 1°C \[2°F\] of 95°C \[203°F\].
->
-> **Note · Примечание**
-> The fully open clearance between the thermostat flow valve and flange **must** be 41.5 mm \[1.63 in\] minimum.
->
-> ### Install
->
-> Install the thermostats on top of the service shim(s) in the thermostat flanges. They can be within 0.23 mm \[0.009 in\] of flush with the top of the block, without being above the top of the block.
->
-> Install a new thermostat gasket.
->
-> Position the thermostat housing and belt tensioner over the thermostats and gasket.
->
-> **Note · Примечание**
-> If an external bypass system is used, the thermostat housing support (between the thermostat housing and cylinder block) **must** be installed.
->
-> Make sure the gasket is aligned with the capscrew holes.
->
-> Install the capscrews and finger-tighten.
->
-> Install the water outlet connection.
->
-> Tighten all capscrews.
->
-> **Момент затяжки · Torque Value**
-> 24 n•m [212 in-lb]
->
-> ### Finishing Steps
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To avoid personal injury, always ventilate the compartment before servicing the batteries. To avoid arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> Install the alternator. Refer to Procedure [[100-013-001 — Alternator|013-001]].
->
-> Install the drive belt. Refer to Procedure [[100-008-002 — Drive Belt, Cooling Fan|008-002]].
->
-> Install and tighten the battery's electrical connections.
->
-> **Note · Примечание**
-> During filling, air **must** be vented from the engine's coolant passages. Open the engine vent petcock, if equipped. Make sure to open the petcock on the aftercooler for aftercooled engines. The system **must** be filled slowly to prevent air locks. Wait 2 to 3 minutes to allow air to be vented; then add coolant to bring the level to the bottom of the radiator filler neck.
->
-> Fill the cooling system. Refer to Procedure 008-018.
->
-> Operate the engine to normal operating temperature and check for leaks.

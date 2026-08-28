@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc223.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc223.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc223.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
-  - "перевод/машинный"
 ---
 
 # Engine Oil Burn Valve Solenoid Driver Circuit - Voltage Below Normal or Shorted to Low Source
@@ -34,124 +32,60 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2020-09-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc223.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc223.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc223.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc223.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 223
 
+### Engine Oil Burn Valve Solenoid Driver Circuit - Voltage Below Normal or Shorted to Low Source
 
-### Код неисправности: 223
+Printable Version
 
-### Цепь драйвера электромагнита клапана впрыска масла — напряжение ниже нормы
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 223 PID(P): S85 SPN: 1265 FMI: 4/4 лампы: Янтарная СРТ: | Низкое напряжение сигнала, обнаруженное на цепи двигателя с горящим клапаном соленоидного водителя. | Модуль управления двигателем (ECM) отключает напряжение питания соленоидного двигателя, и система отключена. |
+| Fault Code: 223 PID(P): S85 SPN: 1265 FMI: 4/4 Lamp: Amber SRT: | Low signal voltage detected at the engine oil burn valve solenoid driver circuit. | Engine control module (ECM) turns off the engine oil burn valve solenoid driver supply voltage and the system is disabled. |
 
 ![[19a00860.png]]
 
-Двигатель сжигает соленоидную цепь.
+Engine Oil Burn Valve Solenoid Driver Circuit.
 
-### Описание цепи
+### Circuit Description
 
-Двигатель сжигающего клапана моторного масла контролирует поток масла в клапане управления маслом во время цикла горения.
+The engine oil burn valve solenoid driver controls the flow of oil in the oil control valve during the burn cycle.
 
-### Расположение компонента
+### Component Location
 
-Соленоид горящего клапана моторного масла расположен в верхней части горящего клапана моторного масла. Расположение ожогового клапана зависит от OEM.
+The engine oil burn valve solenoid is located in the top of the engine oil burn valve. The location of the burn valve is OEM dependent.
 
-### Условия выполнения диагностики
+### Conditions For Running The Diagnostics
 
-Эта диагностика выполняется непрерывно, когда контроллер генераторного набора активен.
+This diagnostic runs continuously when the generator set controller is active.
 
-### Условия установки кодов неисправностей
+### Conditions For Setting The Fault Codes
 
-Модуль управления двигателем (ECM) обнаружил, что двигательный клапан с горящим маслом, соленоидный приводной контур, был ** не ** при напряжении системы, когда водитель был включен.
+The Engine Control Module (ECM) detected the engine oil burn valve solenoid driver circuit was **not** at system voltage when the driver was turned on.
 
-### Действия системы при активном коде неисправности
+### Action Taken When The Fault Code Is Active
 
-- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
+- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
 
-### Условия сброса кода неисправности
+### Conditions For Clearing The Fault Code
 
-- Для проверки ремонта, выполнить ключевой цикл, запустить двигатель и выполнить эксплуатационный тест CentinelTM с использованием рекомендуемой электронной сервисной оснастки Cummins® или эквивалента.
+- To validate the repair, perform a keycycle, start the engine and perform the Centinel™ Operational Test using the recommended Cummins® electronic service tool or equivalent.
 
-- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
+- The generator set controller will turn off the warning indicator immediately after the user presses reset.
 
-- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
+- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
 
-### Практические замечания
+### Shoptalk
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- Поврежденный или неисправный клапан сгорания моторного масла соленоид
+- A damaged or malfunctioning engine oil burn valve solenoid
 
-- Неисправный или повреждённый жгут проводов двигателя.
+- Malfunctioning or damaged engine wiring harness.
 
-- Неисправность или повреждение OEM-проводов.
+- Malfunctioning or damaged OEM wiring harness.
 
-См. Код 223 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 223
->
-> ### Engine Oil Burn Valve Solenoid Driver Circuit - Voltage Below Normal or Shorted to Low Source
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 223 PID(P): S85 SPN: 1265 FMI: 4/4 Lamp: Amber SRT: | Low signal voltage detected at the engine oil burn valve solenoid driver circuit. | Engine control module (ECM) turns off the engine oil burn valve solenoid driver supply voltage and the system is disabled. |
->
-> Engine Oil Burn Valve Solenoid Driver Circuit.
->
-> ### Circuit Description
->
-> The engine oil burn valve solenoid driver controls the flow of oil in the oil control valve during the burn cycle.
->
-> ### Component Location
->
-> The engine oil burn valve solenoid is located in the top of the engine oil burn valve. The location of the burn valve is OEM dependent.
->
-> ### Conditions For Running The Diagnostics
->
-> This diagnostic runs continuously when the generator set controller is active.
->
-> ### Conditions For Setting The Fault Codes
->
-> The Engine Control Module (ECM) detected the engine oil burn valve solenoid driver circuit was **not** at system voltage when the driver was turned on.
->
-> ### Action Taken When The Fault Code Is Active
->
-> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
->
-> ### Conditions For Clearing The Fault Code
->
-> - To validate the repair, perform a keycycle, start the engine and perform the Centinel™ Operational Test using the recommended Cummins® electronic service tool or equivalent.
->
-> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
->
-> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
->
-> ### Shoptalk
->
-> Possible causes of this fault code include:
->
-> - A damaged or malfunctioning engine oil burn valve solenoid
->
-> - Malfunctioning or damaged engine wiring harness.
->
-> - Malfunctioning or damaged OEM wiring harness.
->
-> Refer to Troubleshooting Fault Code 223.
+Refer to Troubleshooting Fault Code 223.

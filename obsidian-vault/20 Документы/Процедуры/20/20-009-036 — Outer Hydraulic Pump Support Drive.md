@@ -8,503 +8,289 @@ title_ru: "Привод наружной опоры гидронасоса"
 modified: "2006-06-30"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 29
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-036.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-036.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-009-036.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Outer Hydraulic Pump Support Drive
 **Привод наружной опоры гидронасоса**
 
 > [!abstract] Процедура · `20-009-036`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 9 - Drive Units - Group 09
 > **Даты:** изменён 2006-06-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-036.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-036.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-036.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-009-036.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
+> [!note] Note · Примечание
+> Some engines will **not** have an outer hydraulic drive. These engines require a cover plate and a non-splined shaft, but do **not** use a hydraulic gear.
 
-### Снятие
+If a cover plate is used, remove the cover plate and non-splined shaft.
 
-> [!note] Примечание
-> Некоторые двигатели ** не ** имеют внешний гидравлический привод. Эти двигатели требуют крышку пластины и нестриженный вал, но не использовать гидравлическую передачу.
-
-Если используется крышечная пластина, удалите крышечную пластину и несплайновый вал.
-
-Удалите семь болтов из гидравлического привода.
+Remove the seven capscrews from the hydraulic drive.
 
 ![[hd4plma.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-> [!warning] ОСТОРОЖНО
-> Необходимо соблюдать осторожность, чтобы избежать возможного поломки болтов, устанавливающих фланцы.
+> [!warning] CAUTION · Осторожно
+> Care must be taken to avoid possible breakage of the capscrew mounting flanges.
 
-Бортовой гидравлический насос поддерживает ** должен** вращаться, чтобы удалить их из корпуса.
+The outboard hydraulic pump supports **must** be rotated to remove them from the housing.
 
-Используйте молоток и осторожно нажмите на сторону опоры.
+Use a mallet, and carefully tap the side of the support.
 
 ![[hd4drwa.png]]
 
-Удалите подвесные гидравлические насосные опоры с помощью pry bar.
+Remove the outboard hydraulic pump supports with a pry bar.
 
-Уберите прокладки.
+Remove the gaskets.
 
-Отбросьте прокладки.
+Discard the gaskets.
 
 ![[hd4drwb.png]]
 
-### Разборка
+### Disassemble
 
-Удалите гидравлический адаптер насоса и/или крышку.
+Remove the hydraulic pump adapter and/or cover plate.
 
-Снимите и утилизируйте прокладку.
+Remove and discard the gasket.
 
 ![[hd4adma.png]]
 
-Удалите скошенное удерживающее кольцо, подшипник и подшипник тяги.
+Remove the tapered retaining ring, bearing spacer, and thrust bearing.
 
-Проверьте подшипник для ношения на плече вала.
+Check the bearing spacer for wear against the shaft shoulder.
 
 ![[if4riwa.png]]
 
-Удалите гидравлическую опору насоса из опресненного приводного вала.
+Remove the hydraulic pump support from the splined drive shaft.
 
 ![[hd4suma.png]]
 
-Удалите подшипник тяги, передачу и незастегнутое удерживающее кольцо из приводного вала.
+Remove the thrust bearing, gear, and non-tapered retaining ring from the drive shaft.
 
 ![[hd4bema.png]]
 
-> [!note] Примечание
-> Удалить втулку **только**, если она **не*** в пределах спецификаций.
+> [!note] Note · Примечание
+> Remove the bushing **only** if it is **not** within specifications.
 
-Удалить втулку с помощью слепого втулочного съёмника. См. процедуру[[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
+Remove the bushing with a blind bushing puller. Refer to Procedure [[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
 
 ![[hd4bsmd.png]]
 
-### Очистка и проверка при повторном использовании
+### Clean and Inspect for Reuse
 
-Очистите снаряжение.
+Clean the gear.
 
-Проверьте снаряжение для бездельников на наличие сколотых, сломанных или потрескавшихся зубов.
+Inspect the idler gear for chipped, broken or cracked teeth.
 
-Проверьте внутренние линии для ношения.
+Check the internal splines for wear.
 
-Если шестерня повреждена, ее необходимо заменить.
+If the gear is damaged, it **must** be replaced.
 
 ![[hd4gesa.png]]
 
-Очистить гидравлический насос приводной шахты.
+Clean the hydraulic pump drive shaft.
 
-Проверьте гидравлический насос привода вала внешних сплайнов для износа.
+Check the hydraulic pump drive shaft external splines for wear.
 
-Если сплайны чрезмерно изношены, гидравлический приводной вал насоса *** должен быть заменен.
+If the splines are excessively worn, the hydraulic pump drive shaft **must** be replaced.
 
 ![[hd4shsa.png]]
 
-Осмотрите диаметры втулки на валу для износа.
+Inspect the bushing diameters on the shaft for wear.
 
-Если ногти будут ловить на царапины или канавки, вал ** должен быть заменен.
+If a fingernail will catch on scratches or grooves, the shaft **must** be replaced.
 
-Измерить диаметр вала в зоне втулки.
+Measure the diameter of the shaft in the bushing area.
 
-| мм |  | в |
+| mm |  | in |
 |---|---|---|
-| 47.536 | Мин | 1.8715 |
-| 47.549 | Макс | 1.8720 |
+| 47.536 | MIN | 1.8715 |
+| 47.549 | MAX | 1.8720 |
 
-Если приводной вал ** не** в пределах спецификаций, он ** должен быть заменен.
+If the drive shaft is **not** within specifications, it **must** be replaced.
 
 ![[hd4bsta.png]]
 
-Проверьте удерживающие кольца на предмет повреждения.
+Check the retaining rings for damage.
 
-Если удерживающее кольцо повреждено, его необходимо заменить.
+If the retaining ring damaged, it **must** be replaced.
 
-Очистить гидравлический насос поддержки втулки.
+Clean the hydraulic pump support bushing.
 
-Осмотрите гидравлический насос поддержки втулки.
+Inspect the hydraulic pump support bushing.
 
-Если ногти будут ловить на царапины или канавки, втулка ** должна быть заменена.
+If a fingernail will catch on scratches or grooves, the bushing **must** be replaced.
 
-Измерьте втулку внутри диаметра.
+Measure the bushing inside diameter.
 
-| мм |  | в |
+| mm |  | in |
 |---|---|---|
-| 47.60 | Мин | 1.874 |
-| 47.68 | Макс | 1.877 |
+| 47.60 | MIN | 1.874 |
+| 47.68 | MAX | 1.877 |
 
-Если втулка ** не** в пределах спецификации, ее *** следует заменить.
+If the bushing is **not** within specification it **must** be replaced.
 
 ![[hd4bssb.png]]
 
-Очистите подшипники тяги.
+Clean the thrust bearings.
 
-Измерить толщину подшипника тяги.
+Measure the thrust bearing thickness.
 
-| мм |  | в |
+| mm |  | in |
 |---|---|---|
-| 2.27 | Мин | 0.085 |
-| 2.31 | Макс | 0.091 |
+| 2.27 | MIN | 0.085 |
+| 2.31 | MAX | 0.091 |
 
-Если подшипник тяги ** не** в пределах спецификаций, он *** должен быть заменен.
+If the thrust bearing is **not** within specifications, it **must** be replaced.
 
 ![[hd4bete.png]]
 
-Измерить гидравлический насос поддержки втулочного цилиндра. См. процедуру[[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
+Measure the hydraulic pump support bushing bore. Refer to Procedure [[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
 
 ![[hd4botd.png]]
 
-### Сборка
+### Assemble
 
-Используйте соответствующую башню и нажмите, чтобы установить втулку в гидравлической поддержке насоса. См. процедуру[[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
+Use the appropriate mandrel and press to install the bushing in the hydraulic pump support. Refer to Procedure [[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
 
 ![[hd4bstf.png]]
 
-Измерьте втулку внутри диаметра. См. процедуру[[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
+Measure the bushing inside diameter. Refer to Procedure [[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
 
-Если втулка ** не** в пределах спецификаций, поддержка *** должна быть заменена.
+If the bushing is **not** within specifications, the support **must** be replaced.
 
 ![[hd4bstg.png]]
 
-Установите незатухшее щелчок на приводной вал.
+Install the non-tapered snap ring onto the drive shaft.
 
-Смазать внешние линии на приводном валу и внутренние линии на шестеренке с помощью Lubriplate® 105 или эквивалента.
+Lubricate the external splines on the drive shaft and the internal splines on the gear with Lubriplate® 105, or equivalent.
 
-Выровняйте и установите шестерню на приводной вал.
+Align and install the gear onto the drive shaft.
 
 ![[hd4shha.png]]
 
-Смазать гидравлический насос опорой на втулку, контрбор и один подшипник тяги.
+Lubricate the hydraulic pump support bushing, counterbore, and one thrust bearing.
 
-Поместите подшипник тяги с выгнутой стороной вверх в противоборство конуса в форме конца гидравлической поддержки насоса.
+Place the thrust bearing, with the grooved side up, into the counterbore of the cone shaped end of the hydraulic pump support.
 
 ![[hd4beaa.png]]
 
-Поместите шестерню и вал на конец с торцевой частью вниз.
+Place the gear and shaft assembly on the end with the gear end down.
 
-Выровнять и установить гидравлический насос поддержки конуса сначала на приводной вал и шестерни сборки.
+Align and install the hydraulic pump support cone end first onto the drive shaft and gear assembly.
 
 ![[hd4suaa.png]]
 
-Смазать подшипник тяги с помощью Lubriplate® 105 или эквивалента.
+Lubricate a thrust bearing with Lubriplate® 105 or equivalent.
 
-Установите подшипник тяги в контрборе гидравлической опоры насоса с выгнутой стороной вверх.
+Install the thrust bearing into the counterbore of the hydraulic pump support with the grooved side up.
 
 ![[hd4beha.png]]
 
-Установите подшипник на приводной вал с скошенной стороной вверх.
+Install the bearing spacer over the drive shaft with the beveled side up.
 
-Установите конусообразное удерживающее кольцо в канавку приводного вала с скошенной стороной вверх.
+Install the tapered retaining ring into the groove of the drive shaft with the beveled side up.
 
 ![[hd4srha.png]]
 
-Измерьте зазор конца передачи.
+Measure the gear end clearance.
 
-| мм |  | в |
+| mm |  | in |
 |---|---|---|
-| 0.10 | Мин | 0.004 |
-| 0.51 | Макс | 0.020 |
+| 0.10 | MIN | 0.004 |
+| 0.51 | MAX | 0.020 |
 
-Если конечный зазор ** не** в пределах спецификаций, то подшипники тяги *** должны быть заменены.
+If the end clearance is **not** within specifications, the thrust bearings **must** be replaced.
 
 ![[hd4geta.png]]
 
-Установите гидравлический адаптер насоса или крышку пластины и прокладку.
+Install the hydraulic pump adapter or cover plate and gasket.
 
-Установите болты.
+Install the capscrews.
 
-Затягивай болты.
+Tighten capscrews.
 
-| Адаптер | 95 Н·м | [70 фунт-фут] |
+| Adapter | 95 n.m | \[70 ft-lb\] |
 |---|---|---|
 
-| Обложка, SAE A Drive | 40 Н·м | [30 фунт-фут] |
+| Cover Plate, SAE A Drive | 40 n.m | \[30 ft-lb\] |
 |---|---|---|
 
-| Обложка, SAE B и C Drive | 95 Н·м | [70 фунт-фут] |
+| Cover Plate, SAE B and C Drive | 95 n.m | \[70 ft-lb\] |
 |---|---|---|
 
 ![[hd4adma.png]]
 
-### Установка
+### Install
 
-Смазать наружные гидравлические втулки насоса в верхней обшивке с помощью Lubriplate® 105 или эквивалента.
+Lubricate the outer hydraulic pump support bushings in the upper housing with Lubriplate® 105 or equivalent.
 
-Смазать поверхности втулки на обоих валах во внешних гидравлических насосах, поддерживающих приводные агрегаты.
+Lubricate the bushing surfaces on both shafts in the outer hydraulic pump support drive assemblies.
 
 ![[hd4bsva.png]]
 
-> [!note] Примечание
-> Некоторые двигатели ** не ** имеют внешний гидравлический привод поддержки насоса. Эти двигатели требуют крышку пластины и нестриженный вал, но не использовать гидравлическую передачу.
+> [!note] Note · Примечание
+> Some engines will **not** have an outer hydraulic pump support drive. These engines require a cover plate and a non-splined shaft, but do **not** use a hydraulic gear.
 
-Нанесите тонкий слой прокладочного клея на прокладки.
+Apply a thin coat of gasket adhesive to the gaskets.
 
-Установите прокладки гидравлического опорного кожуха на оба опорных крепежных фланга на внешних узлах привода гидравлического насоса.
+Install the hydraulic support housing gaskets to both support mounting flanges on the outer hydraulic pump support drive assemblies.
 
 ![[hd4ckwa.png]]
 
-Если используется внешняя гидравлическая крышка насоса, установите несплинированный вал на крышку с болтами 3/8-16 x 11⁄4 дюйма.
+If using the outer hydraulic pump support cover plate, install the non-splined shaft onto the cover plate with a 3/8-16 x 1¼ inch capscrew.
 
-Затяните болт.
+Tighten the capscrew.
 
-> [!tip] Момент затяжки
-> 40 Н·м [30 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 40 n•m [30 ft-lb]
 
-Установите сборку крышечного листа и болты.
+Install the cover plate assembly and capscrews.
 
-Затяните болты.
+Tighten the capscrews.
 
 ![[hd4cvwa.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-Установите три 7/16 - 14 х 4 направляющих шпильки.
+Install three 7/16 - 14 x 4 guide studs.
 
-Установите один внешний гидравлический насос поддержки привода сборки.
+Install one outer hydraulic pump support drive assembly.
 
 ![[hd4plwa.png]]
 
-Установите четыре болта.
+Install four capscrews.
 
-Рука затягивает болты.
+Hand tighten the capscrews.
 
-Установите оставшиеся три болта.
+Install the remaining three capscrews.
 
-Затягивайте болты последовательно.
+Tighten the capscrews in sequence.
 
-> [!tip] Момент затяжки
-> 70 Н·м [50 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 70 n•m [50 ft-lb]
 
 ![[hd4csla.png]]
 
-Используйте ту же процедуру для установки оставшейся внешней сборки гидравлического привода.
+Use the same procedure to install the remaining outer hydraulic drive assembly.
 
 ![[hd4piwb.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> **Note · Примечание**
-> Some engines will **not** have an outer hydraulic drive. These engines require a cover plate and a non-splined shaft, but do **not** use a hydraulic gear.
->
-> If a cover plate is used, remove the cover plate and non-splined shaft.
->
-> Remove the seven capscrews from the hydraulic drive.
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
->
-> **CAUTION · Осторожно**
-> Care must be taken to avoid possible breakage of the capscrew mounting flanges.
->
-> The outboard hydraulic pump supports **must** be rotated to remove them from the housing.
->
-> Use a mallet, and carefully tap the side of the support.
->
-> Remove the outboard hydraulic pump supports with a pry bar.
->
-> Remove the gaskets.
->
-> Discard the gaskets.
->
-> ### Disassemble
->
-> Remove the hydraulic pump adapter and/or cover plate.
->
-> Remove and discard the gasket.
->
-> Remove the tapered retaining ring, bearing spacer, and thrust bearing.
->
-> Check the bearing spacer for wear against the shaft shoulder.
->
-> Remove the hydraulic pump support from the splined drive shaft.
->
-> Remove the thrust bearing, gear, and non-tapered retaining ring from the drive shaft.
->
-> **Note · Примечание**
-> Remove the bushing **only** if it is **not** within specifications.
->
-> Remove the bushing with a blind bushing puller. Refer to Procedure [[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
->
-> ### Clean and Inspect for Reuse
->
-> Clean the gear.
->
-> Inspect the idler gear for chipped, broken or cracked teeth.
->
-> Check the internal splines for wear.
->
-> If the gear is damaged, it **must** be replaced.
->
-> Clean the hydraulic pump drive shaft.
->
-> Check the hydraulic pump drive shaft external splines for wear.
->
-> If the splines are excessively worn, the hydraulic pump drive shaft **must** be replaced.
->
-> Inspect the bushing diameters on the shaft for wear.
->
-> If a fingernail will catch on scratches or grooves, the shaft **must** be replaced.
->
-> Measure the diameter of the shaft in the bushing area.
->
-> | mm |  | in |
-> |---|---|---|
-> | 47.536 | MIN | 1.8715 |
-> | 47.549 | MAX | 1.8720 |
->
-> If the drive shaft is **not** within specifications, it **must** be replaced.
->
-> Check the retaining rings for damage.
->
-> If the retaining ring damaged, it **must** be replaced.
->
-> Clean the hydraulic pump support bushing.
->
-> Inspect the hydraulic pump support bushing.
->
-> If a fingernail will catch on scratches or grooves, the bushing **must** be replaced.
->
-> Measure the bushing inside diameter.
->
-> | mm |  | in |
-> |---|---|---|
-> | 47.60 | MIN | 1.874 |
-> | 47.68 | MAX | 1.877 |
->
-> If the bushing is **not** within specification it **must** be replaced.
->
-> Clean the thrust bearings.
->
-> Measure the thrust bearing thickness.
->
-> | mm |  | in |
-> |---|---|---|
-> | 2.27 | MIN | 0.085 |
-> | 2.31 | MAX | 0.091 |
->
-> If the thrust bearing is **not** within specifications, it **must** be replaced.
->
-> Measure the hydraulic pump support bushing bore. Refer to Procedure [[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
->
-> ### Assemble
->
-> Use the appropriate mandrel and press to install the bushing in the hydraulic pump support. Refer to Procedure [[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
->
-> Measure the bushing inside diameter. Refer to Procedure [[20-009-037 — Hydraulic Pump Support Bushing|009-037]].
->
-> If the bushing is **not** within specifications, the support **must** be replaced.
->
-> Install the non-tapered snap ring onto the drive shaft.
->
-> Lubricate the external splines on the drive shaft and the internal splines on the gear with Lubriplate® 105, or equivalent.
->
-> Align and install the gear onto the drive shaft.
->
-> Lubricate the hydraulic pump support bushing, counterbore, and one thrust bearing.
->
-> Place the thrust bearing, with the grooved side up, into the counterbore of the cone shaped end of the hydraulic pump support.
->
-> Place the gear and shaft assembly on the end with the gear end down.
->
-> Align and install the hydraulic pump support cone end first onto the drive shaft and gear assembly.
->
-> Lubricate a thrust bearing with Lubriplate® 105 or equivalent.
->
-> Install the thrust bearing into the counterbore of the hydraulic pump support with the grooved side up.
->
-> Install the bearing spacer over the drive shaft with the beveled side up.
->
-> Install the tapered retaining ring into the groove of the drive shaft with the beveled side up.
->
-> Measure the gear end clearance.
->
-> | mm |  | in |
-> |---|---|---|
-> | 0.10 | MIN | 0.004 |
-> | 0.51 | MAX | 0.020 |
->
-> If the end clearance is **not** within specifications, the thrust bearings **must** be replaced.
->
-> Install the hydraulic pump adapter or cover plate and gasket.
->
-> Install the capscrews.
->
-> Tighten capscrews.
->
-> | Adapter | 95 n.m | \[70 ft-lb\] |
-> |---|---|---|
->
-> | Cover Plate, SAE A Drive | 40 n.m | \[30 ft-lb\] |
-> |---|---|---|
->
-> | Cover Plate, SAE B and C Drive | 95 n.m | \[70 ft-lb\] |
-> |---|---|---|
->
-> ### Install
->
-> Lubricate the outer hydraulic pump support bushings in the upper housing with Lubriplate® 105 or equivalent.
->
-> Lubricate the bushing surfaces on both shafts in the outer hydraulic pump support drive assemblies.
->
-> **Note · Примечание**
-> Some engines will **not** have an outer hydraulic pump support drive. These engines require a cover plate and a non-splined shaft, but do **not** use a hydraulic gear.
->
-> Apply a thin coat of gasket adhesive to the gaskets.
->
-> Install the hydraulic support housing gaskets to both support mounting flanges on the outer hydraulic pump support drive assemblies.
->
-> If using the outer hydraulic pump support cover plate, install the non-splined shaft onto the cover plate with a 3/8-16 x 1¼ inch capscrew.
->
-> Tighten the capscrew.
->
-> **Момент затяжки · Torque Value**
-> 40 n•m [30 ft-lb]
->
-> Install the cover plate assembly and capscrews.
->
-> Tighten the capscrews.
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
->
-> Install three 7/16 - 14 x 4 guide studs.
->
-> Install one outer hydraulic pump support drive assembly.
->
-> Install four capscrews.
->
-> Hand tighten the capscrews.
->
-> Install the remaining three capscrews.
->
-> Tighten the capscrews in sequence.
->
-> **Момент затяжки · Torque Value**
-> 70 n•m [50 ft-lb]
->
-> Use the same procedure to install the remaining outer hydraulic drive assembly.

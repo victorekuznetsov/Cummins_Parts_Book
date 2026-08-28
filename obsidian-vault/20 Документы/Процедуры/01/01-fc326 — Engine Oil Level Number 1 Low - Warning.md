@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc326.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc326.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc326.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Engine Oil Level Number 1 Low - Warning
@@ -34,72 +32,34 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc326.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc326.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc326.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc326.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 326
 
+### Engine Oil Level Number 1 Low - Warning
 
-### Код неисправности: 326
+Printable Version
 
-### Низкий уровень масла №1 — предупреждение
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 326 P(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Низкий уровень масла №1 — предупреждение. Сигнал напряжения указывает на низкий уровень моторного масла в двигателе. | Зависимое от калибровки отключение двигателя или отсутствие действий со стороны ECM. |
+| Fault Code: 326 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine oil level Number 1 low - warning. Voltage signal indicates low lubricating oil level in the engine. | Calibration-dependent engine shutdown or no action is taken by ECM. |
 
 ![[19803584.png]]
 
-Сенсорная схема уровня масла
+Oil Level Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик уровня масла используется электронным модулем управления (ECM) для мониторинга количества масла в двигателе.
+The oil level sensor is used by the electronic control module (ECM) to monitor the amount of oil in the engine.
 
-### Расположение компонента
+### Component Location
 
-См. схемы двигателя. 100-002 для расположения компонентов.
+Refer to the Engine Diagrams. 100-002 for the component location.
 
-### Практические замечания
+### Shoptalk
 
-4-контактный датчик уровня масла не будет запускать код 326 по умолчанию.
+A 4-pin oil level sensor will not trigger Fault Code 326.
 
-См. Код устранения неполадок t05-326
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 326
->
-> ### Engine Oil Level Number 1 Low - Warning
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 326 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine oil level Number 1 low - warning. Voltage signal indicates low lubricating oil level in the engine. | Calibration-dependent engine shutdown or no action is taken by ECM. |
->
-> Oil Level Sensor Circuit
->
-> ### Circuit Description
->
-> The oil level sensor is used by the electronic control module (ECM) to monitor the amount of oil in the engine.
->
-> ### Component Location
->
-> Refer to the Engine Diagrams. 100-002 for the component location.
->
-> ### Shoptalk
->
-> A 4-pin oil level sensor will not trigger Fault Code 326.
->
-> Refer to Troubleshooting Fault Code t05-326
+Refer to Troubleshooting Fault Code t05-326

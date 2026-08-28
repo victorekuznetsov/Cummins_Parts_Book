@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc173.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc173.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc173.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
-  - "перевод/машинный"
 ---
 
 # Fuel Rack Actuator Driver Mechanically Stuck Closed - Data Valid But Below Normal Operating Range - Moderately Severe Level
@@ -34,120 +32,58 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2020-09-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc173.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc173.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc173.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc173.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 173
 
+### Fuel Rack Actuator Driver Mechanically Stuck Closed - Data Valid But Below Normal Operating Range - Moderately Severe Level
 
-### Код неисправности: 173
+Printable Version
 
-### Привод рейки механически заклинил в закрытом положении — ниже нормы — умеренный уровень
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 173 PID(P): S23 SPN: 638 FMI: 1/18 лампы: Янтарная СРТ: | Реестр управления топливом находится в застрявшем положении. | Возможно снижение производительности двигателя. |
+| Fault Code: 173 PID(P): S23 SPN: 638 FMI: 1/18 Lamp: Amber SRT: | Fuel control rack is in a stuck position. | Possible reduced engine performance. |
 
 ![[19a00845.png]]
 
-Схема привода привода топливного рейка
+Fuel Rack Actuator Driver Circuit
 
-### Описание цепи
+### Circuit Description
 
-Реестр управления топливом и соленоид определяют количество топлива, отмеренное для двигателя.
+The fuel control rack and solenoid determine the quantity of fuel metered to the engine.
 
-### Расположение компонента
+### Component Location
 
-Реестр управления топливом и соленоид являются внутренними частями топливного насоса.
+The fuel control rack and solenoid are internal parts of the fuel injection pump.
 
-### Условия выполнения диагностики
+### Conditions For Running The Diagnostics
 
-Эта диагностика выполняется постоянно, пока контроллер генераторной установки активен или двигатель работает.
+This diagnostic runs continuously when the generator set controller is active or when the engine is running.
 
-### Условия установки кодов неисправностей
+### Conditions For Setting The Fault Codes
 
-Модуль управления двигателем (ECM) обнаружил, что топливный стойка застряла или ** не** реагирует на команды заправки.
+The Engine Control Module (ECM) detected the fuel rack is stuck or **not** responding to fueling commands.
 
-### Действия системы при активном коде неисправности
+### Action Taken When The Fault Code Is Active
 
-- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
+- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
 
-### Условия сброса кода неисправности
+### Conditions For Clearing The Fault Code
 
-- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
+- To validate the repair, start the engine and let it run for 1 minute at no load.
 
-- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
+- The generator set controller will turn off the warning indicator immediately after the user presses reset.
 
-- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
+- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
 
-### Практические замечания
+### Shoptalk
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- Разъем разъема или поврежденного привода.
+- Loose or damaged actuator connector.
 
-- Неисправный топливный насос.
+- Malfunctioning fuel pump.
 
-См. Код 173 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 173
->
-> ### Fuel Rack Actuator Driver Mechanically Stuck Closed - Data Valid But Below Normal Operating Range - Moderately Severe Level
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 173 PID(P): S23 SPN: 638 FMI: 1/18 Lamp: Amber SRT: | Fuel control rack is in a stuck position. | Possible reduced engine performance. |
->
-> Fuel Rack Actuator Driver Circuit
->
-> ### Circuit Description
->
-> The fuel control rack and solenoid determine the quantity of fuel metered to the engine.
->
-> ### Component Location
->
-> The fuel control rack and solenoid are internal parts of the fuel injection pump.
->
-> ### Conditions For Running The Diagnostics
->
-> This diagnostic runs continuously when the generator set controller is active or when the engine is running.
->
-> ### Conditions For Setting The Fault Codes
->
-> The Engine Control Module (ECM) detected the fuel rack is stuck or **not** responding to fueling commands.
->
-> ### Action Taken When The Fault Code Is Active
->
-> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
->
-> ### Conditions For Clearing The Fault Code
->
-> - To validate the repair, start the engine and let it run for 1 minute at no load.
->
-> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
->
-> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
->
-> ### Shoptalk
->
-> Possible causes of this fault code include:
->
-> - Loose or damaged actuator connector.
->
-> - Malfunctioning fuel pump.
->
-> Refer to Troubleshooting Fault Code 173.
+Refer to Troubleshooting Fault Code 173.

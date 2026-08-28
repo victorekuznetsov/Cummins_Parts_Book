@@ -7,175 +7,115 @@ title_en: "Air Shutoff Valve"
 title_ru: "Воздушная отсечная заслонка"
 modified: "2010-02-15"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "4021374"
 figures: 9
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-143-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-010-143-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-143-om.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/56"
-  - "перевод/машинный"
 ---
 
 # Air Shutoff Valve
 **Воздушная отсечная заслонка**
 
 > [!abstract] Процедура · `56-010-143-om`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]]
 > **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months
 > **Даты:** изменён 2010-02-15
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-143-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-010-143-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-143-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-143-om.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Maintenance Check
 
+> [!warning] CAUTION · Осторожно
+> Engine damage may occur if the Emergency Stop Button is pressed with the engine running.
 
-### Контроль при обслуживании
+Turn the keyswitch to the ON position.
 
-> [!warning] ОСТОРОЖНО
-> Повреждение двигателя может произойти, если кнопка аварийной остановки нажата при работе двигателя.
+With the engine OFF, press the emergency stop button on the panel.
 
-Переведите замок зажигания в положение ON.
+Check that the valve closes by observing the linkage movement on the valve body. The valve will close momentarily and then reopen.
 
-При выключенном двигателе нажмите кнопку аварийной остановки на панели.
+If the valve is actuated during engine operation, the valve will close and remain closed while the engine is pulling in air. The time the valve remains closed will depend on the operating conditions of the engine.
 
-Проверьте, что клапан закрывается, наблюдая за движением соединения на корпусе клапана. Клапан будет закрываться на мгновение, а затем снова открываться.
-
-Если клапан приводится в действие во время работы двигателя, клапан закрывается и остается закрытым, пока двигатель тянет воздух. Время, в течение которого клапан остается закрытым, будет зависеть от условий работы двигателя.
-
-> [!note] Примечание
-> Если клапан работает ** не**, обратитесь в авторизованное место ремонта Cummins®.
+> [!note] Note · Примечание
+> If the valve is **not** operating correctly, contact a Cummins® Authorized Repair Location.
 
 ![[10600647.png]]
 
-### Очистка и проверка при повторном использовании
+### Clean and Inspect for Reuse
 
-Проверьте шланг и все зажимы.
+Inspect the hump hose and all clamps.
 
-Замените поврежденные части.
+Replace any damaged parts.
 
 ![[rp8hosa.png]]
 
-Проверьте зажим v-диапазона, чтобы убедиться, что штифт не поврежден.
+Inspect the v-band clamp to make sure the pin is intact.
 
-Замените зажим, если какая-либо его часть повреждена.
+Replace the clamp if any part of it is damaged.
 
-Осмотрите клавиши на воздушном кроссовере и корпусе клапана отключения воздуха.
+Inspect the keyways on the air crossover and air shutoff valve body.
 
-Если повреждена какая-либо часть, замените поврежденную часть.
+If either part is damaged, replace the damaged part.
 
 ![[10600697.png]]
 
-Проверить корпус клапана на наличие трещин или других повреждений.
+Inspect the valve body for cracks or other damage.
 
-Поверните соединительную полосу вручную, чтобы убедиться, что клапан свободно перемещается. Корпус клапана имеет литую стрелку, показывающую направление работы от пробега (обычно открытого) до остановки (закрытого) положения.
+Rotate the linkage bar by hand to make sure that the valve moves freely. The valve body has a cast arrow showing the direction of operation from run (normally open) to stop (closed) positions.
 
-Заменить весь клапанный узел, если обнаружены какие-либо повреждения или если клапан не перемещается свободно.
+Replace the entire valve assembly if any damage is found or if the valve does **not** move freely.
 
-Если элемент уплотнения полностью закрыт, перейдите в раздел «Сборка» и проверьте выравнивание.
+If the seal element doe **not** completely close, go to the Assemble section and check alignment.
 
 ![[10600698.png]]
 
-Осмотрите соленоид, проверив сопротивление: 0,86-1,06 Ом.
+Inspect the solenoid by checking the resistance: 0.86 to 1.06 ohms.
 
-Заменить соленоид, если сопротивление находится за пределами спецификации.
+Replace the solenoid if the resistance is outside of the specification.
 
 ![[10600699.png]]
 
-Осмотрите клевис и пружину, клевисовый штифт и соленоидный вал на предмет повреждения.
+Inspect the clevis and spring, clevis pin, and solenoid shaft for damage.
 
-Замените соленоид, если вы заметили повреждение.
+Replace the solenoid if damage is seen.
 
 ![[10600700.png]]
 
-Проверьте наличие повреждений в прорези в соединительной панели.
+Check for damage to the slotted hole in the linkage bar.
 
-Если повреждение обнаружено, корпус клапана ** должен быть заменен.
+If damage is found, the valve body **must** be replaced.
 
 ![[10600701.png]]
 
-Проверьте резиновый сапог на соленоиде.
+Inspect the rubber boot on the solenoid.
 
-Замените сапог, если он разорван, треснул или иным образом поврежден.
+Replace the boot if torn, cracked, or otherwise damaged.
 
 ![[10600702.png]]
 
-Осмотрите соленоидную монтажную кронштейн для повреждения.
+Inspect the solenoid mounting bracket for damage.
 
-Заменить кронштейн, если монтируемые отверстия изношены или если кронштейн согнут.
+Replace the bracket if the mounting holes are worn or if the bracket is bent.
 
 ![[10600703.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Maintenance Check
->
-> **CAUTION · Осторожно**
-> Engine damage may occur if the Emergency Stop Button is pressed with the engine running.
->
-> Turn the keyswitch to the ON position.
->
-> With the engine OFF, press the emergency stop button on the panel.
->
-> Check that the valve closes by observing the linkage movement on the valve body. The valve will close momentarily and then reopen.
->
-> If the valve is actuated during engine operation, the valve will close and remain closed while the engine is pulling in air. The time the valve remains closed will depend on the operating conditions of the engine.
->
-> **Note · Примечание**
-> If the valve is **not** operating correctly, contact a Cummins® Authorized Repair Location.
->
-> ### Clean and Inspect for Reuse
->
-> Inspect the hump hose and all clamps.
->
-> Replace any damaged parts.
->
-> Inspect the v-band clamp to make sure the pin is intact.
->
-> Replace the clamp if any part of it is damaged.
->
-> Inspect the keyways on the air crossover and air shutoff valve body.
->
-> If either part is damaged, replace the damaged part.
->
-> Inspect the valve body for cracks or other damage.
->
-> Rotate the linkage bar by hand to make sure that the valve moves freely. The valve body has a cast arrow showing the direction of operation from run (normally open) to stop (closed) positions.
->
-> Replace the entire valve assembly if any damage is found or if the valve does **not** move freely.
->
-> If the seal element doe **not** completely close, go to the Assemble section and check alignment.
->
-> Inspect the solenoid by checking the resistance: 0.86 to 1.06 ohms.
->
-> Replace the solenoid if the resistance is outside of the specification.
->
-> Inspect the clevis and spring, clevis pin, and solenoid shaft for damage.
->
-> Replace the solenoid if damage is seen.
->
-> Check for damage to the slotted hole in the linkage bar.
->
-> If damage is found, the valve body **must** be replaced.
->
-> Inspect the rubber boot on the solenoid.
->
-> Replace the boot if torn, cracked, or otherwise damaged.
->
-> Inspect the solenoid mounting bracket for damage.
->
-> Replace the bracket if the mounting holes are worn or if the bracket is bent.

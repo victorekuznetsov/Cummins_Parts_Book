@@ -8,590 +8,581 @@ title_ru: "Топливный насос"
 modified: "2017-10-27"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 81
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-016-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-016-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-016-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Fuel Pump
 **Топливный насос**
 
 > [!abstract] Процедура · `20-005-016-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 5 - Fuel System · Section 5 - Fuel System - Group 05 · Section 5 - Fuel System - Group 5
 > **Даты:** изменён 2017-10-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-016-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-016-tr.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Pressure Test
 
+with Mechanically Actuated Injector
 
-### Испытание на давление
-
-с форсункой механического управления
-
-Используйте тахометр транспортного средства или оптический тахометр, номер 3377642, вместе с отражающей лентой, номер 3377464 или эквивалент, при проверке давления топливного насоса, чтобы определить, достигнута ли указанная обороты двигателя.[[20-018-016 — Fuel System|См. процедуру 018-016 в разделе V.]]
+Use the vehicle tachometer or an optical tachometer, Part Number 3377642, along with reflective tape, Part Number 3377464, or equivalent, while checking the fuel pump pressure to determine if the specified engine rpm is reached. [[20-018-016 — Fuel System|Refer to Procedure 018-016 in Section V.]]
 
 ![[05500011.png]]
 
-Удаленный стартер, номер 3376506, может использоваться для запуска двигателя при измерении давления включения.
+A remote starter, Part Number 3376506, can be used to crank the engine when measuring the cranking pressure.
 
 ![[05500007.png]]
 
-Используйте калибр давления и сборку шланга, Номер детали 3824877 или эквивалент, способный от 0 до 2800 кПа \[0 до 400 psi\] с быстроразъемным фитингом, Номер детали ST-437-7 или эквивалент.
+Use a pressure gauge and hose assembly, Part Number 3824877, or equivalent, capable of 0 to 2800 kPa \[0 to 400 psi\] with a quick-disconnect fitting, Part Number ST-437-7, or equivalent.
 
 ![[05500009.png]]
 
-Кранирование двигателя
+Engine Cranking
 
-Прокрутите двигатель и измерьте давление топлива.
+Crank the engine and measure the fuel pressure.
 
-Измерьте давление топлива на 150 об/мин.
+Measure the fuel pressure at 150 rpm.
 
-| Измерения |  |  |
+| Measurements |  |  |
 |---|---|---|
-|  | каша | пси |
-| Топливное давление | 172 | 25 |
+|  | kpa | psi |
+| Fuel Pressure | 172 | 25 |
 
 ![[05500009.png]]
 
-> [!note] Примечание
-> Давление топлива ** не** значительно изменяется при нагрузке двигателя.
+> [!note] Note · Примечание
+> Fuel pressure will **not** change significantly with engine load.
 
-Запустите двигатель и работайте при заданной оборотах.
+Start the engine and operate at specified rpm.
 
-| Минимальное давление топлива |  |  |
+| Minimum Fuel Pressure |  |  |
 |---|---|---|
-| Двигатель (rpm) | каша | пси |
-| 1500 об/мин | 1344 | 195 |
-| 1800 об/мин | 1551 | 225 |
-| 2100 об/мин | 1724 | 250 |
-| 2350 об/мин | 1827 | 265 |
+| Engine (rpm) | kPa | psi |
+| 1500 rpm | 1344 | 195 |
+| 1800 rpm | 1551 | 225 |
+| 2100 rpm | 1724 | 250 |
+| 2350 rpm | 1827 | 265 |
 
 ![[05500009.png]]
 
-Если давление топливного насоса ** не** в пределах спецификаций, проверьте топливный насос на испытательном стенде топливного насоса.
+If the fuel pump pressure is **not** within specifications, check the fuel pump on a fuel pump test stand.
 
 ![[fi8vasd.png]]
 
-Если давление топливного насоса находится в пределах спецификаций при проверке на испытательном стенде топливного насоса, то проверьте кольца форсунки на предмет повреждения.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе 6.]]
+If the fuel pump pressure is within specifications when checked on a fuel pump test stand, then check the injector o-rings for damage. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
 
 ![[06400008.png]]
 
-### Общие сведения
+### General Information
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-Химическая полоса или накопление в дыре плача является ** не ** оправданием для замены топливного насоса. Если наблюдается устойчивый поток масла или топлива, замените топливный насос. Обратитесь в авторизованный сервисный центр Cummins®.
+A chemical streak or buildup at the weep hole is **not** justification for fuel pump replacement. If a steady flow of oil or fuel is observed, replace the fuel pump. Contact a Cummins® Authorized Repair Location.
 
 ![[05u00007.png]]
 
-> [!danger] ОПАСНО
-> Давление топлива в линии достаточно, чтобы проникнуть в кожу и нанести серьезный вред здоровью. Носите перчатки и защитную одежду.
+> [!danger] WARNING · Опасно
+> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
 
-> [!note] Примечание
-> Давление от топливной системы **MUST** должно быть снято до удаления датчика давления рельса, механического клапана сброса или линий подачи топливного форсунка.
+> [!note] Note · Примечание
+> The pressure from the fuel system **MUST** be relieved before removing the rail pressure sensor, mechanical dump valve, or injector supply lines.
 
-Накройте штепсель с помощью безмятежной ткани. Медленно ослабить вилку на последнем топливном форсунке топливных линий высокого давления от 1/4 до 1/2 оборота. Вилка ** не ** должна быть удалена, чтобы уменьшить давление.
+Cover the plug with a lint-free cloth. Slowly loosen the plug on the last injector of the high-pressure fuel lines 1/4 to 1/2 of a turn. The plug does **not** need to be removed to relieve the pressure.
 
-Подключите электронный сервисный инструмент INSITETM и проверьте давление в топливной рельсе, чтобы убедиться, что давление топлива упало.
+Connect INSITE™ electronic service tool and monitor the fuel rail pressure to verify the fuel pressure has bled down.
 
 ![[19601936.png]]
 
-### Подготовительные операции
+### Preparatory Steps
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
+> [!danger] WARNING · Опасно
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
 
-- Отсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
-- Очистите топливный насос и окружающую территорию.
+- Disconnect the battery cables. See equipment manufacturer service information.
+- Clean the fuel pump and the surrounding area.
 
 ![[ea8coha.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-> [!danger] ОПАСНО
-> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
+> [!danger] WARNING · Опасно
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-> [!warning] ОСТОРОЖНО
-> Очень небольшое количество грязи и мусора может быть очень вредным для топливного насоса. Для поддержания топливных соединений в чистоте во время удаления и установки требуется дополнительная осторожность. Соединения должны быть немедленно закрыты, чтобы они были чистыми, когда компоненты удаляются из топливного насоса.
+> [!warning] CAUTION · Осторожно
+> A very small amount of dirt and debris can be very harmful to the fuel pump. Extra care is required to keep the fuel connections clean during removal and installation. Connections must be covered immediately to keep them clean when components are removed from the fuel pump.
 
-- Отсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
-- Очистите топливный насос и окружающую область и высушите сжатым воздухом.
-- Отсоедините линию слива топлива от топливного насоса. Используйте чистую пластиковую вилку для защиты порта линии слива топлива.[[20-006-013-tr — Fuel Drain Lines|См. процедуру 006-013 в разделе 6.]]
-- Отсоедините линию подачи топливного форсунка от топливного насоса. Используйте чистую пластиковую вилку для защиты порта подачи форсунки.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
-- Отсоедините линии подачи топлива от топливного насоса. Используйте чистую пластиковую вилку для защиты порта линии подачи топлива.[[20-006-024-tr — Fuel Supply Lines|См. процедуру 006-024 в разделе 6.]]
+- Disconnect the battery cables. See equipment manufacturer service information.
+- Clean the fuel pump and surrounding area and dry with compressed air.
+- Disconnect the fuel drain line from the fuel pump. Use a clean plastic plug to protect the fuel drain line port. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+- Disconnect the injector supply line from the fuel pump. Use a clean plastic plug to protect the injector line supply port. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+- Disconnect the fuel supply lines from the fuel pump. Use a clean plastic plug to protect the fuel supply line port. [[20-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
 
 ![[ck800wa.png]]
 
-### Снятие
+### Remove
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-Отсоедините впускной шланг топлива (1).
+Disconnect the fuel inlet hose (1).
 
-Отсоедините электронный шланг подачи топливного клапана (2).
+Disconnect the electronic fuel control valve supply hose (2).
 
-Удалите и отбросьте кольца.
+Remove and discard the o-rings.
 
 ![[06400007.png]]
 
-Удалите четыре крепежных болта и топливный насос.
+Remove the four mounting capscrews and the fuel pump.
 
-Установите муфту привода топливного насоса (3).
+Install the fuel pump drive coupling (3).
 
-Снимите и утилизируйте прокладку.
+Remove and discard the gasket.
 
 ![[05400320.png]]
 
-Железнодорожное применение
+Rail Applications
 
-Насос для очистки моторного масла (A) ** должен быть удален до удаления топливного насоса (B), чтобы обеспечить доступ к болтам для монтажа топливного насоса.[[20-007-060 — Oil Scavenge Pump|См. процедуру 007-060 в разделе 7.]]
+The lubricating oil scavenge pump (A) **must** be removed prior to removing the fuel pump (B) to allow access to the fuel pump mounting capscrews. [[20-007-060 — Oil Scavenge Pump|Refer to Procedure 007-060 in Section 7.]]
 
 ![[17400021.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-Отсоедините проводную упряжку от герметизирующего узла 1 топливного насоса и датчика давления 1 топливного форсунка.
+Disconnect the wiring harness from the fuel pump pressurizing assembly 1 and the injector metering rail 1 pressure sensor.
 
 ![[05400248.png]]
 
-Удалите два болта, закрепляющие опорную кронштейна (2) топливного насоса, в опорную кронштейн (3), расположенную на блоке двигателя.
+Remove the two capscrews securing the fuel pump support bracket (2) to the support bracket (3) located on the engine block.
 
 ![[05400290.png]]
 
-**Не снимайте опорную кронштейн (1) с топливного насоса, если топливный насос не нуждается в замене.
+Do **not** remove the support bracket (1) from the fuel pump unless the fuel pump needs to be replaced.
 
 ![[05400252.png]]
 
-Прикрепить инструмент для удаления и установки топливного насоса, номер детали 4918227 или эквивалент.
+Attach the fuel pump removal and installation service tool, Part Number 4918227, or equivalent.
 
-Оборудование для удаления и установки топливного насоса состоит из следующих элементов:
+The fuel pump removal and installation service tool consists of the following:
 
-1. Маленький подъемный разъём
-2. Подъёмный кронштейн
-3. Большой подъемный разъём
-4. Подъемный разъём
-5. Стой.
+1. Small lifting connector
+2. Lifting bracket
+3. Large lifting connector
+4. Lifting connector
+5. Stop.
 
-Используйте небольшой разъём (1) подъемной кронштейна для прикрепления цепи к верхнему отверстию подъемной кронштейна.
+Use the small lifting bracket connector (1) to attach the chain to the top hole of the lifting bracket.
 
-Прикрепить один большой подъемный разъём (3) примерно к третьему звену цепи над скобкой. Прикрепите второй подъемный разъём к последнему звену цепи.
+Attach one large lifting connector (3) to approximately the third link of the chain above the bracket. Attach the second lifting connector to the last link of the chain.
 
 ![[05400291.png]]
 
-Установите кронштейн на топливный насос с помощью двух болтов М10.
+Install the bracket onto the fuel pump using two M10 capscrews.
 
 ![[05400255.png]]
 
-Поместите нижний большой подъемный разъем над соответствующим боссом на верхней части топливного насоса. Вставьте стоп (1) в фитинг на верхней части топливного насоса, пока он не станет ручным.
+Place the bottom large lifting connector over the fitting boss on the top of the fuel pump. Screw the stop (1) into the fitting on top of the fuel pump until it is hand-tight.
 
 ![[05400256.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-Прикрепить верхний большой подъемный разъем к подходящему подъемному устройству (способному поднимать не менее 227 кг \[500 фунтов \]).
+Attach the top large lifting connector to a suitable lifting device (capable of lifting at least 227 kg \[500 lb\]).
 
-Поднимите подъемное устройство до тех пор, пока в цепочке не будет слакса.
+Raise the lifting device until there is no slack in the chain.
 
 ![[05400257.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-Удалите пять болтов, обеспечивающих топливный насос.
+Remove the five capscrews securing the fuel pump.
 
-Удалите топливный насос из двигателя с подъемным устройством. Отбросьте кольца, которые запечатывают порт подачи масла (1) и топливный насос в привод топливного насоса.
+Remove the fuel pump from the engine with a lifting device. Discard the o-rings which seal the oil supply port (1) and fuel pump to the fuel pump drive.
 
-Подключите порт (1) подачи масла с помощью чистой пластиковой пробки.
+Plug the oil supply port (1) with a clean plastic plug.
 
 ![[05400258.png]]
 
-Удалите четыре болта, обеспечивающие подвеску топливного насоса, в блок двигателя.
+Remove the four capscrews securing the fuel pump support bracket to the engine block.
 
 ![[05400251.png]]
 
-### Разборка
+### Disassemble
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-> [!note] Примечание
-> Топливный насос изготавливается с использованием метрических креплений. Используйте инструменты метрического размера во время разборки и сборки топливного насоса.
+> [!note] Note · Примечание
+> The fuel pump is manufactured using metric fasteners. Use metric size tools during disassembly and assembly of the fuel pump.
 
-Удалите датчик давления подачи топлива из топливного насоса.
+Remove the fuel delivery pressure sensor from the fuel pump.
 
-> [!note] Примечание
-> Старые версии топливного насоса не использовали герметичную стиральную машину.
+> [!note] Note · Примечание
+> Older versions of the fuel pump did **not** use a sealing washer.
 
-Подключите порт в топливном насосе с чистой пластиковой пробкой.
+Plug the port in the fuel pump with a clean plastic plug.
 
-Удалите уплотнительный стиральный механизм с помощью магнита, а затем отбросьте его.
+Remove the sealing washer using a magnet, and then discard it.
 
 ![[05400321.png]]
 
-Удалите механический клапан сброса из топливного насоса. Отбросьте кольцо.
+Remove the mechanical dump valve from the fuel pump. Discard the o-ring.
 
-Подключите порт в топливном насосе с чистой пластиковой пробкой.
+Plug the port in the fuel pump with a clean plastic plug.
 
 ![[05400260.png]]
 
-Удалите топливный насос, дающий давление сборка 1.
+Remove the fuel pump pressurizing assembly 1.
 
-Подключите порт в топливном насосе с чистой пластиковой пробкой.
+Plug the port in the fuel pump with a clean plastic plug.
 
 ![[05400261.png]]
 
-Удалите четыре болта, закрепляющие пластину крышки.
+Remove the four capscrews securing the cover plate.
 
-Снимите крышку и насос. Отбросьте кольцо.
+Remove the cover plate and pump. Discard the o-ring.
 
 ![[05400262.png]]
 
-Удалите два болта, закрепляющие подлокотник топливного насоса (2).
+Remove the two capscrews securing the fuel pump support bracket (2).
 
 ![[05400293.png]]
 
-Удалите два болта, закрепляющие подложку топливного насоса (1) от топливного насоса.
+Remove the two capscrews securing the fuel pump support bracket (1) from the fuel pump.
 
 ![[05400292.png]]
 
-### Очистка и проверка при повторном использовании
+### Clean and Inspect for Reuse
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-> [!warning] ОСТОРОЖНО
-> Положите пластиковые заглушки или ленту на все отверстия. Если грязь попадает в топливный насос, это может привести к повреждению оборудования.
+> [!warning] CAUTION · Осторожно
+> Put plastic cup plugs or tape on all the openings. If dirt enters the fuel pump, it can cause equipment damage.
 
-> [!warning] ОСТОРОЖНО
-> Используйте чистящий растворитель, который не навредит алюминию.
+> [!warning] CAUTION · Осторожно
+> Use a cleaning solvent that will not harm aluminum.
 
-Используйте щетку и растворитель для очистки насоса снаружи.
+Use a brush and solvent to clean the pump exterior.
 
-Просушите сжатым воздухом.
+Dry with compressed air.
 
 ![[05400072.png]]
 
-Осмотрите монтажные поверхности на предмет повреждений.
+Inspect the mounting surfaces for damage.
 
 ![[gr8gkea.png]]
 
-Проверьте корпус топливного насоса и переднюю опору на наличие трещин или других повреждений.
+Inspect the fuel pump body and front support for cracks or other damage.
 
-Осмотрите топливный насосный агрегат на наличие поврежденных болтов и поврежденных или рыхлых топливных фитингов.
+Inspect the fuel pump assembly for damaged capscrews and damaged or loose fuel fittings.
 
-Проверьте муфты для привода на предмет чрезмерного износа или повреждения.
+Inspect the drive coupling lugs for excessive wear or damage.
 
 ![[fp200sa.png]]
 
-Осмотрите сцепление паука на наличие трещин или других повреждений.
+Inspect the spider coupling for cracks or other damage.
 
 ![[fp8cpca.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-Очистить все детали электрическим контактным очистителем, Номер детали 3824510, или эквивалент.
+Clean all parts with electrical contact cleaner, Part Number 3824510, or equivalent.
 
 ![[05400264.png]]
 
-Осмотрите основной насос на наличие признаков повреждения, трещин, утечек или повреждения вала привода. Замените насос, если он поврежден.
+Inspect the main pump for signs of damage, cracks, leaks, or drive shaft damage. Replace the pump, if damaged.
 
 ![[05400265.png]]
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
 
-> [!danger] ОПАСНО
-> При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
 
-Осмотрите каналы подачи и возврата нефти на предмет ограничений, грязи и мусора.
+Inspect the oil supply and return passages for restrictions, dirt, and debris.
 
-Чистый с электрическим контактным очистителем, Номер детали 3824510, или эквивалент.
+Clean with electrical contact cleaner, Part Number 3824510, or equivalent.
 
-Просушите сжатым воздухом.
+Dry with compressed air.
 
 ![[05400266.png]]
 
-Проверьте датчик давления подачи топлива на наличие трещин, полосатых резьб или других повреждений. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронная система управления, QSK19 CM850, Модульный двигатель общей системы железных дорог, Бюллетень 4021493. См. процедуру 019-115 в разделе 19.
+Inspect the fuel delivery pressure sensor for cracks, stripped threads or other damage. Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850, Modular Common Rail System Engine, Bulletin 4021493. Refer to Procedure 019-115 in Section 19.
 
 ![[05400267.png]]
 
-Проверить узел 1 для герметизации топливного насоса на предмет повреждения. Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронная система управления, QSK19 CM850, Модульный двигатель общей системы железных дорог, Бюллетень 4021493. См. процедуру 019-117 в разделе 19.
+Inspect the fuel pump pressurizing assembly 1 for damage. Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850, Modular Common Rail System Engine, Bulletin 4021493. Refer to Procedure 019-117 in Section 19.
 
 ![[05400268.png]]
 
-Осмотрите механический клапан для разрезанных резьб, повреждений, ограниченного прохода или трещин. Замените клапан, если он поврежден.
+Inspect the mechanical dump valve for stripped threads, damage, restricted passage, or cracks. Replace the valve, if damaged.
 
 ![[05400269.png]]
 
-Проверьте покрытие пластины на предмет повреждений и трещин. На крышке также находится регулятор топливного насоса.
+Inspect the cover plate for damage and cracks. The cover plate also contains the regulator for the fuel pump.
 
-Проверьте регулятор на ограничение прохода.
+Check the regulator for passage restriction.
 
 ![[05400270.png]]
 
-> [!note] Примечание
-> Насосные шестерни - это подобранный набор. Переключатели насоса должны быть заменены в виде набора и ** не ** в качестве отдельных передач.
+> [!note] Note · Примечание
+> The pump gears are a matched set. The pump gears are to be replaced as a set and **not** as individual gears.
 
-Проверьте насосные механизмы на износ, трещины, мусор, сломанные и отсутствующие зубы.
+Inspect the pump gears for wear, cracks, debris, and broken and missing teeth.
 
-Проверьте торсионную игру внутренней передачи на приводную спираль в насосе. Замените насосные шестерни, если они повреждены.
+Check for torsional play of the inner gear to the drive spline in the pump. Replace the pump gears, if damaged.
 
 ![[05400271.png]]
 
-Проверьте топливный насос опорные скобки для повреждения, коррозии, трещин и износа. Заменить, если поврежден.
+Inspect the fuel pump support brackets for damage, corrosion, cracks, and wear. Replace if damaged.
 
 ![[05400296.png]]
 
-### калибровать
+### Calibrate
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-Список контрольных частей (CPL), Бюллетень 3379133, представляет собой список основных деталей и спецификаций времени.
+The control parts list (CPL), Bulletin 3379133, is a listing of the basic parts and timing specifications.
 
 ![[lt800gd.png]]
 
-> [!note] Примечание
-> Калибровка топливного насоса ** должна быть выполнена в авторизованном месте ремонта Cummins®.
+> [!note] Note · Примечание
+> Calibration of the fuel pump **must** be performed at a Cummins® Authorized Repair Location.
 
-При снятии топливного насоса с двигателя проверьте номер CPL на табличке (1) топливного насоса, которая расположена на верхней части топливного насоса. Номер CPL на табличке с данными топливного насоса (2) *** должен быть таким же, как номер CPL на табличке (4) с данными двигателя.
+When removing the fuel pump from the engine, check the CPL number on the fuel pump dataplate (1), which is located on the top of the fuel pump. The CPL number on the fuel pump dataplate (2) **must** be the same as the CPL number on the engine dataplate (4).
 
-Если цифры совпадают, то необходимо снова установить топливный насос до тех пор, пока не будет изменен калибровочный код топливного насоса (3), чтобы соответствовать требованиям рейтинга таблички двигателя. Если калибровка топливного насоса изменена, то табличку с данными топливного насоса *** необходимо изменить, чтобы указать новый калибровочный код и номер CPL.
+If the numbers do **not** match, do **not** install the fuel pump again until the fuel pump calibration code (3) has been changed to match the requirements of the engine dataplate rating. If the fuel pump calibration is changed, the fuel pump dataplate **must** be changed to indicate the new calibration code and the CPL number.
 
 ![[fp8plwa.png]]
 
-> [!note] Примечание
-> Дробовик запирается в закрытом положении. Вращение вала ** не** необходимо для проверки давления.
+> [!note] Note · Примечание
+> The throttle shaft is locked in the closed position. Rotation of the shaft is **not** necessary for pressure checks.
 
-Слить топливный насос дизельного топлива как можно полнее, чтобы избежать загрязнения испытательного стенда калибровочной жидкостью. Вращение приводной муфты в направлении ** против часовой стрелки** поможет в удалении жидкости, удерживаемой в корпусе насоса.
+Drain the fuel pump of diesel fuel as completely as possible to avoid contaminating the test stand calibration fluid. Rotation of the drive coupling in a **counterclockwise** direction will aid in removing fluid held within the pump housing.
 
 ![[05400070.png]]
 
-На испытательном стенде установить топливный насос. Ссылка на руководство по эксплуатации и обслуживанию испытательного стенда изготовителя для инструкций по насосу.
+Mount the fuel pump on the test stand. Reference the test stand manufacturer's operating and service manual for pump instructions.
 
 ![[05400068.png]]
 
-Установите подставной насос для привода до 2100 об/мин и продувки любого воздуха из топливного насоса и испытательного стенда.
+Set the stand pump to drive to 2100 rpm and purge any air from the fuel pump and test stand.
 
-> [!note] Примечание
-> Тестируемая жидкость топливного насоса ** должна ** быть 32°-38°C \[90°-100°F\] во время процедуры проверки.
+> [!note] Note · Примечание
+> The fuel pump test stand fluid **must** be 32° to 38°C \[90° to 100°F\] during the check procedure.
 
-При 2100 об/мин установите объем потока, чтобы получить 1157 фунтов в час (Pph). Отрегулируйте ограничение входа в соответствии со следующим:
+At 2100 rpm, set the flow volume to obtain 1157 pounds per hour (Pph). Adjust the inlet restriction according to the following:
 
-> [!note] Примечание
-> 178 мм-Hg (7 in-Hg) значение ограничения входа *** должно использоваться для всех испытательных стендов, где вакуумный калибр находится над внутренней установкой зубчатого насоса. Используйте 127 мм рт.ст. (5 рт.ст.) для вакуумных датчиков на том же уровне, что и впускная установка.
-
-![[05400068.png]]
-
-Контрольный пункт один:
-
-- Настройте испытательный стенд-привод для получения 2100 об/мин.
-- Настройте поток, чтобы получить 1157 Pph.
-- Запишите ограничение оборотов, потока и входа.
-- Прочитайте и запишите значение калибра давления.
-- Калибр **must** читать от 250 до 300 фунтов на квадратный дюйм
-
-Контрольный пункт два:
-
-- Уменьшите скорость привода испытательного стенда до 1300 об/мин.
-- Настройте объем потока для получения 712 Pph.
-- Запишите ограничение оборотов, потока и входа.
-- Давление клапана **must** читать 170 до 200 фунтов на квадратный дюйм.
-
-Контрольный пункт три:
-
-- Уменьшите скорость привода испытательного стенда до 600 об/мин.
-- Настройте объем потока, чтобы получить 286 Pph.
-- Запишите ограничение оборотов, потока и входа.
-- Прочитайте и запишите клапан измерителя давления.
-- Давление клапана **must** читать от 55 до 70 psi.
-
-> [!note] Примечание
-> Топливный насос может ** не** обслуживаться в полевых условиях. Если значения давления ** не** в пределах спецификации, необходимо получить заменяющий насос ***.
+> [!note] Note · Примечание
+> The 178 mm-Hg (7 in-Hg) inlet restriction value **must** be used for all test stands where the vacuum gauge is above the gear pump inner fitting. Use 127 mm-Hg (5 in-Hg) for vacuum gauges at the same level as the inlet fitting.
 
 ![[05400068.png]]
 
-### Сборка
+Check point one:
 
-с форсункой электронного управления
+- Adjust the test stand drive to obtain 2100 rpm.
+- Adjust the flow to obtain 1157 Pph.
+- Record the rpm, flow, and inlet restriction.
+- Read and record the pressure gauge value.
+- The gauge **must** read 250 to 300 psi
 
-Установите шестерни насоса в топливный насос. Смажьте уплотнительное кольцо чистым моторным маслом.
+Check point two:
 
-Установите новое кольцо на крышку и прикрепите крышку к топливному насосу.
+- Reduce the test stand drive speed to 1300 rpm.
+- Adjust the flow volume to obtain 712 Pph.
+- Record the rpm, flow, and inlet restriction.
+- The pressure valve **must** read 170 to 200 psi.
 
-> [!tip] Момент затяжки
-> 19 Н·м [168 фунт-дюйм]
+Check point three:
+
+- Reduce the test stand drive speed to 600 rpm.
+- Adjust the flow volume to obtain 286 Pph.
+- Record the rpm, flow, and inlet restriction.
+- Read and record the pressure gauge valve.
+- The pressure valve **must** read 55 to 70 psi.
+
+> [!note] Note · Примечание
+> The fuel pump can **not** be serviced in the field. If the pressure values are **not** within specification, a replacement pump **must** be obtained.
+
+![[05400068.png]]
+
+### Assemble
+
+with Electronically Actuated Injector
+
+Install the pump gears into the fuel pump. Lubricate the o-ring with clean engine oil.
+
+Install the new o-ring on the cover plate and attach the cover plate to the fuel pump.
+
+> [!tip] Момент затяжки · Torque Value
+> 19 n•m [168 in-lb]
 
 ![[05400262.png]]
 
-Установите на топливный насос герметизирующий агрегат 1 с тремя болтами.
+Install the fuel pump pressurizing assembly 1 on the fuel pump with three capscrews.
 
-> [!tip] Момент затяжки
-> 6.5 Н·м [58 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 6.5 n•m [58 in-lb]
 
 ![[05400261.png]]
 
-Установите новое кольцо на механический клапан сброса.
+Install the new o-ring on the mechanical dump valve.
 
-Установите механический клапан сброса на топливный насос.
+Install the mechanical dump valve on the fuel pump.
 
-[[20-006-061 — Fuel Pressure Relief Valve|См. процедуру 006-061 в разделе 6.]]
+[[20-006-061 — Fuel Pressure Relief Valve|Refer to Procedure 006-061 in Section 6.]]
 
 ![[05400260.png]]
 
-> [!warning] ОСТОРОЖНО
-> Старые версии топливного насоса не использовали уплотнительный шайба. Не используйте уплотнительный шайбу на более старой версии топливного насоса. Уплотнительная стиральная машина не позволит правильному зацеплению резьбы датчика давления подачи топлива, что приведет к повреждению топливного насоса.
+> [!warning] CAUTION · Осторожно
+> Older versions of the fuel pump did not use a sealing washer. Do not use a sealing washer on an older version of the fuel pump. The sealing washer will not allow proper thread engagement of the fuel delivery pressure sensor causing damage to the fuel pump.
 
-> [!note] Примечание
-> Уплотнительная стиральная машина представляет собой одноразовую уплотнение и должна быть заменена, когда датчик давления в рельсах для измерения давления форсунки удаляется или ослабляется.
+> [!note] Note · Примечание
+> The sealing washer is a single use seal and must be replaced when the injector metering rail pressure sensor is removed or loosened.
 
-Установите новую уплотнительную стиральную машину, если она оборудована, и датчик давления подачи топлива на топливный насос.
+Install the new sealing washer, if equipped, and fuel delivery pressure sensor on the fuel pump.
 
-> [!tip] Момент затяжки
-> 136 Н·м [100 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 136 n•m [100 ft-lb]
 
 ![[05400321.png]]
 
-### Установка
+### Install
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-Все двигатели QSK19 используют муфту привода с легким зеленым топливным насосом.
+All QSK19 engines use a light green fuel pump drive coupling.
 
-Установите муфту привода топливного насоса (3), прокладку, топливный насос и четыре болта.
+Install the fuel pump drive coupling (3), gasket, fuel pump, and four capscrews.
 
-Затяните болты.
+Tighten the capscrews.
 
-> [!tip] Момент затяжки
-> 45 Н·м [33 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [33 ft-lb]
 
 ![[05400320.png]]
 
-Проверьте правильность установки колец в обоих местах.
+Check for the proper installation of the o-rings in both locations.
 
-Установите впускной шланг топливного насоса и шланг подачи топлива.
+Install the fuel pump inlet hose and the fuel supply hose.
 
-Затяните шланги.
+Tighten the hoses.
 
-> [!tip] Момент затяжки
-> Топливный насос Входной шланг 88 Н·м [65 футов-лб]
+> [!tip] Момент затяжки · Torque Value
+> Fuel Pump Inlet Hose 88 n•m [65 ft-lb]
 
-> [!tip] Момент затяжки
-> Топливный узел 60 Н·м [44 фут-лб]
+> [!tip] Момент затяжки · Torque Value
+> Fuel Supply Hose 60 n•m [44 ft-lb]
 
 ![[06400007.png]]
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-Установите топливный насос подпорной кронштейн (1) к топливному насосу с двумя болтами.
+Install the fuel pump support bracket (1) to the fuel pump with two capscrews.
 
-> [!tip] Момент затяжки
-> 113 Н·м [83 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 113 n•m [83 ft-lb]
 
 ![[05400292.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-На плоской поверхности уровня поместите насос на конец, с геротор-боковой.
+On a flat level surface, place the pump on end, with the gerotor-side down.
 
-Налейте 104 мл [3,5 унции] свежего чистого моторного масла в одно из одиннадцати доступных буровых установок (1).
+Pour 104 ml \[3.5 oz\] of fresh, clean lubricating oil into one of the eleven available face drillings (1).
 
 ![[05600389.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-Используйте чистое моторное масло для смазки обоих новых колец.
+Use clean engine oil to lubricate both new o-rings.
 
-Установите меньшее кольцо (1) для герметизации бурения масла от привода топливного насоса до топливного насоса.
+Install the smaller o-ring (1) to seal the oil drilling from the fuel pump drive to the fuel pump.
 
-Установите большее кольцо, чтобы запечатать привод топливного насоса к топливному насосу.
+Install the larger o-ring to seal the fuel pump drive to the fuel pump.
 
 ![[05400258.png]]
 
-Установите кронштейн на топливный насос с помощью двух болтов М10.
+Install the bracket onto the fuel pump using two M10 capscrews.
 
 ![[05400255.png]]
 
-Поместите нижний большой подъемный разъем над соответствующим боссом на верхней части топливного насоса. Вставьте стоп (1) в фитинг на верхней части топливного насоса, пока он не станет ручным.
+Place the bottom large lifting connector over the fitting boss on the top of the fuel pump. Screw the stop (1) into the fitting on top of the fuel pump until it is hand-tight.
 
 ![[05400256.png]]
 
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
 
-Прикрепить верхний большой подъемный разъем к подходящему подъемному устройству (способному поднимать не менее 227 кг \[500 фунтов \]).
+Attach the top large lifting connector to a suitable lifting device (capable of lifting at least 227 kg \[500 lb\].
 
-Поднимите подъемное устройство до тех пор, пока в цепочке не будет слакса.
+Raise the lifting device until there is no slack in the chain.
 
-Установите топливный насос на двигатель. Подъемный инструмент имеет положение для установки бара выключателя, чтобы помочь в выравнивании топливного насоса.
+Install the fuel pump onto the engine. The lifting tool has a provision for installing a breaker bar to aid in aligning the fuel pump.
 
-Закрепите топливный насос пятью болтами.
+Secure the fuel pump with five capscrews.
 
-> [!tip] Момент затяжки
-> 113 Н·м [83 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 113 n•m [83 ft-lb]
 
-Удалите установку топливного насоса и инструментальную часть службы удаления.
+Remove the fuel pump installation and removal service tool.
 
 ![[05400257.png]]
 
-Установите подпорный кронштейн топливного насоса (3) на двигатель. Рука затягивает болты.
+Install the fuel pump support bracket (3) to the engine. Hand tighten the capscrews.
 
-Отверстия топливных насосов увеличены, чтобы помочь в выравнивании. Окончательное затягивание произойдет, когда все скобки будут установлены и выровнены.
+The fuel pump support bracket holes are enlarged to aid in alignment. Final tightening will occur when all the brackets are installed and aligned.
 
 ![[05400294.png]]
 
-Закрепите подпорный кронштейн топливного насоса (2) к подложке (3) и топливный насос с болтами. Затяните болты пальцами.
+Secure the fuel pump support bracket (2) to the support bracket (3) and the fuel pump with capscrews. Tighten the capscrews finger-tight.
 
-Отверстия для скобок увеличены, чтобы помочь выравниванию. Окончательное затягивание произойдет, когда все скобки будут установлены и выровнены.
+The bracket holes are enlarged to aid in alignment. Final tightening will occur when all the brackets are installed and aligned.
 
-Со всеми болтами на месте и пальцем туго, затяните все болты.
+With all the capscrews in place and finger tight, tighten all the capscrews.
 
-| резьба | Размер розетки | Н•м | [фунт-фут] |
+| Thread | Socket Size | N•m | \[ft-lb\] |
 |---|---|---|---|
 | 3/8-16 | 9/16 | 40 | 30 |
 | 1/2-13 | 3/4 | 130 | 95 |
@@ -599,714 +590,160 @@ tags:
 
 ![[05400295.png]]
 
-Установите зажим на вентиляционном отверстии форсунки к топливному насосу и на блоке двигателя, где прикрепляется линия подачи форсунки.
+Install a clamp on the injector supply line vent to the fuel pump and on the engine block where the injector supply line attaches.
 
 ![[05400249.png]]
 
-Подключите проводную упряжку к приводу топливного насоса и датчику давления топливного насоса.
+Connect the wiring harness to the fuel pump actuator and fuel pump pressure sensor.
 
 ![[05400248.png]]
 
-### флеш
+### Flush
 
-с форсункой электронного управления
+with Electronically Actuated Injector
 
-Следуйте этим шагам в любое время, когда мусор, который может загрязнить топливную систему, упал в топливный насос.
+Follow these flush steps anytime debris which may contaminate the fuel system is believed to have fallen into the fuel pump.
 
-Необходима запасная линия подачи топлива в виде U-образного форсунка и контейнер для улавливания 3,78 л \[1 галл\] или более топлива.
+A spare U-shaped injector supply line and a container to catch 3.78 L \[1 gal\], or more, fuel are required.
 
 ![[06400474.png]]
 
-Удалите линию подачи топливного форсунка из чистой сумки.
+Remove the injector supply line from the clean bag.
 
-Смазать предварительно нарезанные громметы чистым моторным маслом на наружном и внутреннем диаметрах.
+Lubricate the pre-sliced grommets with clean engine oil on the outside and inside diameters.
 
-Установите громметы на внешней стенке линии подачи топливного форсунка.
+Install the grommets on the outer wall of the injector supply line.
 
-Удалите желтые резьбовые колпачки с концов линии подачи топливного форсунка и отбросьте колпачки.
+Remove the yellow threaded caps from the ends of the injector supply line and discard the caps.
 
 ![[06400461.png]]
 
-Установите новое кольцо на одном конусе линии подачи топливного форсунка.
+Install a new o-ring on one cone end of the injector supply line.
 
 ![[05k00025.png]]
 
-Установите U-образную линию подачи топливного форсунка в розетку топливного насоса.
+Install the U-shaped injector supply line into the fuel pump outlet.
 
-Запустите первую резьба соединительного гайки вручную.
+Start the first thread of the connector nut by hand.
 
-Прокладывайте линию подачи топливного форсунка в подходящий контейнер, который может содержать 3,78 л (1 галл) или более топлива.
+Route the injector supply line into a suitable container that can hold 3.78 L \[1 gal\], or more, of fuel.
 
 ![[05k00026.png]]
 
-> [!note] Примечание
-> Хотя на иллюстрации **не** показано затягивание топливной линии на топливном насосе, технике то же самое.
+> [!note] Note · Примечание
+> Although the illustration does **not** show tightening the fuel line on the fuel pump, the techniqe is the same.
 
-Затянуть соединительный гайку подходящим M27 \[1-1/16 в\] вороньей стопой и гаечным ключом.
+Tighten the connector nut with a suitable M27 \[1-1/16 in\] crow's foot and torque wrench.
 
-> [!tip] Момент затяжки
-> 45 Н·м [33 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [33 ft-lb]
 
 ![[06400478.png]]
 
-> [!note] Примечание
-> Хотя на иллюстрации **не** показано затягивание топливной линии на топливном насосе, технике то же самое.
+> [!note] Note · Примечание
+> Although the illustration does **not** show tightening the fuel line on the fuel pump, the techniqe is the same.
 
-Установите прямоугольные гремметные орехи на соединительные орехи с подходящим M24 \[15/16 в\] вороньего ножка и крутящий момент гаечного ключа. Поддерживайте соединительный орех гаечным ключом при затягивании прямоугольного гремметного ореха.
+Install the rectangular grommet nuts onto the connector nuts with a suitable M24 \[15/16 in\] crow's foot and torque wrench. Support the connector nut with a wrench while tightening the rectangular grommet nut.
 
-> [!tip] Момент затяжки
-> 45 Н·м [33 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [33 ft-lb]
 
 ![[06400479.png]]
 
-> [!danger] ОПАСНО
-> В зависимости от обстоятельств, дизельное топливо является легковоспламеняющимся. При осмотре или выполнении обслуживания или ремонта топливной системы, чтобы уменьшить вероятность пожара и в результате серьезных травм, смерти или повреждения имущества, никогда не курить или разрешать искры или пламя (например, пилотные огни, электрические выключатели или сварочное оборудование) в рабочей зоне.
+> [!danger] WARNING · Опасно
+> Depending on the circumstance, diesel fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
 
-Подтвердите, что линия подачи топливного форсунка маршрутизируется в контейнер.
+Confirm the injector supply line is routed into the container.
 
-Прокрутите двигатель в течение 60 секунд с шагом 15 секунд, чтобы пропустить топливо через насос.
+Crank the engine for 60 seconds in 15 second increments to flush fuel through the pump.
 
-> [!missing]- Иллюстрация `05k00032.png` не извлечена — смотрите PDF-оригинал документа
+![[05k00032.png]]
 
-Освободите прямоугольный гремметный орех на линии подачи U-образного топливного форсунка.
+Loosen the rectangular grommet nut on the U-shaped injector supply line.
 
-Освободите гайку разъема и удалите линию подачи топливного форсунка из топливного насоса.
+Loosen the connector nut and remove the injector supply line from the fuel pump.
 
-Удалите и отбросьте кольца.
+Remove and discard the o-rings.
 
-Сразу после удаления линии подачи топливного форсунка заклепайте концы новыми желтыми резьбовыми колпачками, чтобы предотвратить попадание мусора в линию.
+Immediately after removing the injector supply line, cap the ends with new yellow threaded caps to prevent debris from entering the line.
 
 ![[05k00026.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-с форсункой механического управления
+with Mechanically Actuated Injector
 
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-- Подсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
-- Управляйте двигателем до нормальной рабочей температуры и проверяйте наличие утечек.
-
-![[ck800wa.png]]
-
-с форсункой электронного управления
-
-> [!danger] ОПАСНО
-> Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
-
-- Установите линию подачи топлива.[[20-006-024-tr — Fuel Supply Lines|См. процедуру 006-024 в разделе 6.]]
-- Установите линию подачи форсунки.[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
-- Установите обратную линию топлива.[[20-006-013-tr — Fuel Drain Lines|См. процедуру 006-013 в разделе 6.]]
-- Подсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
-- Запустите двигатель и проверьте на отсутствие утечек.
+- Connect the battery cables. See equipment manufacturer service information.
+- Operate the engine to normal operating temperature and check for leaks.
 
 ![[ck800wa.png]]
 
-### Премьер-министр
+with Electronically Actuated Injector
 
-с форсункой механического управления
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 
-> [!danger] ОПАСНО
-> Топливо огнеопасно. Держите все сигареты, пламя, пилотные огни, дуговое оборудование и выключатели из рабочей зоны и областей, разделяющих вентиляцию, чтобы уменьшить вероятность серьезных травм или смерти при работе на топливной системе.
+- Install the fuel supply line. [[20-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
+- Install the injector supply line. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
+- Install the fuel return line. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
+- Connect the battery cables. See equipment manufacturer service information.
+- Operate the engine and check for leaks.
 
-> [!note] Примечание
-> Эта процедура обычно требуется только тогда, когда топливный насос был изменен, топливные фильтры высохли или топливная система была слита.
+![[ck800wa.png]]
 
-Чтобы уменьшить время проворачивания двигателя, нажмите быстрое отключение, установленное на выходе топливного насоса, пока топливо не будет присутствовать при проворачивании двигателя.
+### Prime
 
-> [!note] Примечание
-> Если насос подачи топлива грязный, очистите внешнюю часть насоса рядом с впускным и выпускным отверстиями.
+with Mechanically Actuated Injector
+
+> [!danger] WARNING · Опасно
+> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
+
+> [!note] Note · Примечание
+> This procedure is normally **only** required when the fuel pump has been changed, the fuel filters are dry, or the fuel system has been drained.
+
+To reduce engine cranking time, depress the quick-disconnect fitting at the fuel pump outlet until fuel is present while cranking the engine.
+
+> [!note] Note · Примечание
+> If the fuel supply pump is dirty, clean the outside of the pump near the fuel inlet and outlet.
 
 ![[05400032.png]]
 
-Пока двигатель работает, ослабьте линию подачи топлива в верхней части топливного насоса. Если топливо не выходит из соединения, насос должен быть заправлен.
+While the engine is cranking, loosen the fuel control supply line at the top of the fuel pump. If fuel does **not** come out of the connection, the pump **must** be primed.
 
-Затянуть линию подачи топлива.
+Tighten the fuel supply line.
 
-> [!tip] Момент затяжки
-> 60 Н·м [44 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 60 n•m [44 ft-lb]
 
 ![[06400068.png]]
 
-Удалите топливный шланг.
+Remove the fuel inlet hose.
 
 ![[06400046.png]]
 
-Удалите впускную установку топливного насоса. Поверните впускную установку на 180 градусов, чтобы указать впускную установку вверх.
+Loosen the fuel pump inlet fitting. Rotate the inlet fitting 180 degrees to point the inlet fitting upward.
 
 ![[05400029.png]]
 
-Заполните топливный насос чистым топливом.
+Fill the fuel pump with clean fuel.
 
 ![[05400031.png]]
 
-Поверните впускной топливный насос, соответствующий его первоначальному положению.
+Rotate the fuel pump inlet fitting to its original position.
 
-Затяните впускную установку.
+Tighten the inlet fitting.
 
-> [!tip] Момент затяжки
-> 23 Н·м [204 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 23 n•m [204 in-lb]
 
 ![[05400030.png]]
 
-Установите впускной шланг топлива на топливный насос.
+Install the fuel inlet hose to the fuel pump.
 
-> [!tip] Момент затяжки
-> 88 Н·м [65 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 88 n•m [65 ft-lb]
 
 ![[06400046.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Pressure Test
->
-> with Mechanically Actuated Injector
->
-> Use the vehicle tachometer or an optical tachometer, Part Number 3377642, along with reflective tape, Part Number 3377464, or equivalent, while checking the fuel pump pressure to determine if the specified engine rpm is reached. [[20-018-016 — Fuel System|Refer to Procedure 018-016 in Section V.]]
->
-> A remote starter, Part Number 3376506, can be used to crank the engine when measuring the cranking pressure.
->
-> Use a pressure gauge and hose assembly, Part Number 3824877, or equivalent, capable of 0 to 2800 kPa \[0 to 400 psi\] with a quick-disconnect fitting, Part Number ST-437-7, or equivalent.
->
-> Engine Cranking
->
-> Crank the engine and measure the fuel pressure.
->
-> Measure the fuel pressure at 150 rpm.
->
-> | Measurements |  |  |
-> |---|---|---|
-> |  | kpa | psi |
-> | Fuel Pressure | 172 | 25 |
->
-> **Note · Примечание**
-> Fuel pressure will **not** change significantly with engine load.
->
-> Start the engine and operate at specified rpm.
->
-> | Minimum Fuel Pressure |  |  |
-> |---|---|---|
-> | Engine (rpm) | kPa | psi |
-> | 1500 rpm | 1344 | 195 |
-> | 1800 rpm | 1551 | 225 |
-> | 2100 rpm | 1724 | 250 |
-> | 2350 rpm | 1827 | 265 |
->
-> If the fuel pump pressure is **not** within specifications, check the fuel pump on a fuel pump test stand.
->
-> If the fuel pump pressure is within specifications when checked on a fuel pump test stand, then check the injector o-rings for damage. [[20-006-026-tr — Injector|Refer to Procedure 006-026 in Section 6.]]
->
-> ### General Information
->
-> with Electronically Actuated Injector
->
-> A chemical streak or buildup at the weep hole is **not** justification for fuel pump replacement. If a steady flow of oil or fuel is observed, replace the fuel pump. Contact a Cummins® Authorized Repair Location.
->
-> **WARNING · Опасно**
-> The pressure of the fuel in the line is sufficient to penetrate the skin and cause serious personal injury. Wear gloves and protective clothing.
->
-> **Note · Примечание**
-> The pressure from the fuel system **MUST** be relieved before removing the rail pressure sensor, mechanical dump valve, or injector supply lines.
->
-> Cover the plug with a lint-free cloth. Slowly loosen the plug on the last injector of the high-pressure fuel lines 1/4 to 1/2 of a turn. The plug does **not** need to be removed to relieve the pressure.
->
-> Connect INSITE™ electronic service tool and monitor the fuel rail pressure to verify the fuel pressure has bled down.
->
-> ### Preparatory Steps
->
-> with Mechanically Actuated Injector
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
->
-> - Disconnect the battery cables. See equipment manufacturer service information.
-> - Clean the fuel pump and the surrounding area.
->
-> with Electronically Actuated Injector
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> **WARNING · Опасно**
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> **CAUTION · Осторожно**
-> A very small amount of dirt and debris can be very harmful to the fuel pump. Extra care is required to keep the fuel connections clean during removal and installation. Connections must be covered immediately to keep them clean when components are removed from the fuel pump.
->
-> - Disconnect the battery cables. See equipment manufacturer service information.
-> - Clean the fuel pump and surrounding area and dry with compressed air.
-> - Disconnect the fuel drain line from the fuel pump. Use a clean plastic plug to protect the fuel drain line port. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
-> - Disconnect the injector supply line from the fuel pump. Use a clean plastic plug to protect the injector line supply port. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-> - Disconnect the fuel supply lines from the fuel pump. Use a clean plastic plug to protect the fuel supply line port. [[20-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
->
-> ### Remove
->
-> with Mechanically Actuated Injector
->
-> Disconnect the fuel inlet hose (1).
->
-> Disconnect the electronic fuel control valve supply hose (2).
->
-> Remove and discard the o-rings.
->
-> Remove the four mounting capscrews and the fuel pump.
->
-> Install the fuel pump drive coupling (3).
->
-> Remove and discard the gasket.
->
-> Rail Applications
->
-> The lubricating oil scavenge pump (A) **must** be removed prior to removing the fuel pump (B) to allow access to the fuel pump mounting capscrews. [[20-007-060 — Oil Scavenge Pump|Refer to Procedure 007-060 in Section 7.]]
->
-> with Electronically Actuated Injector
->
-> Disconnect the wiring harness from the fuel pump pressurizing assembly 1 and the injector metering rail 1 pressure sensor.
->
-> Remove the two capscrews securing the fuel pump support bracket (2) to the support bracket (3) located on the engine block.
->
-> Do **not** remove the support bracket (1) from the fuel pump unless the fuel pump needs to be replaced.
->
-> Attach the fuel pump removal and installation service tool, Part Number 4918227, or equivalent.
->
-> The fuel pump removal and installation service tool consists of the following:
->
-> 1. Small lifting connector
-> 2. Lifting bracket
-> 3. Large lifting connector
-> 4. Lifting connector
-> 5. Stop.
->
-> Use the small lifting bracket connector (1) to attach the chain to the top hole of the lifting bracket.
->
-> Attach one large lifting connector (3) to approximately the third link of the chain above the bracket. Attach the second lifting connector to the last link of the chain.
->
-> Install the bracket onto the fuel pump using two M10 capscrews.
->
-> Place the bottom large lifting connector over the fitting boss on the top of the fuel pump. Screw the stop (1) into the fitting on top of the fuel pump until it is hand-tight.
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
->
-> Attach the top large lifting connector to a suitable lifting device (capable of lifting at least 227 kg \[500 lb\]).
->
-> Raise the lifting device until there is no slack in the chain.
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
->
-> Remove the five capscrews securing the fuel pump.
->
-> Remove the fuel pump from the engine with a lifting device. Discard the o-rings which seal the oil supply port (1) and fuel pump to the fuel pump drive.
->
-> Plug the oil supply port (1) with a clean plastic plug.
->
-> Remove the four capscrews securing the fuel pump support bracket to the engine block.
->
-> ### Disassemble
->
-> with Electronically Actuated Injector
->
-> **Note · Примечание**
-> The fuel pump is manufactured using metric fasteners. Use metric size tools during disassembly and assembly of the fuel pump.
->
-> Remove the fuel delivery pressure sensor from the fuel pump.
->
-> **Note · Примечание**
-> Older versions of the fuel pump did **not** use a sealing washer.
->
-> Plug the port in the fuel pump with a clean plastic plug.
->
-> Remove the sealing washer using a magnet, and then discard it.
->
-> Remove the mechanical dump valve from the fuel pump. Discard the o-ring.
->
-> Plug the port in the fuel pump with a clean plastic plug.
->
-> Remove the fuel pump pressurizing assembly 1.
->
-> Plug the port in the fuel pump with a clean plastic plug.
->
-> Remove the four capscrews securing the cover plate.
->
-> Remove the cover plate and pump. Discard the o-ring.
->
-> Remove the two capscrews securing the fuel pump support bracket (2).
->
-> Remove the two capscrews securing the fuel pump support bracket (1) from the fuel pump.
->
-> ### Clean and Inspect for Reuse
->
-> with Mechanically Actuated Injector
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> **CAUTION · Осторожно**
-> Put plastic cup plugs or tape on all the openings. If dirt enters the fuel pump, it can cause equipment damage.
->
-> **CAUTION · Осторожно**
-> Use a cleaning solvent that will not harm aluminum.
->
-> Use a brush and solvent to clean the pump exterior.
->
-> Dry with compressed air.
->
-> Inspect the mounting surfaces for damage.
->
-> Inspect the fuel pump body and front support for cracks or other damage.
->
-> Inspect the fuel pump assembly for damaged capscrews and damaged or loose fuel fittings.
->
-> Inspect the drive coupling lugs for excessive wear or damage.
->
-> Inspect the spider coupling for cracks or other damage.
->
-> with Electronically Actuated Injector
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> Clean all parts with electrical contact cleaner, Part Number 3824510, or equivalent.
->
-> Inspect the main pump for signs of damage, cracks, leaks, or drive shaft damage. Replace the pump, if damaged.
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
->
-> **WARNING · Опасно**
-> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
->
-> Inspect the oil supply and return passages for restrictions, dirt, and debris.
->
-> Clean with electrical contact cleaner, Part Number 3824510, or equivalent.
->
-> Dry with compressed air.
->
-> Inspect the fuel delivery pressure sensor for cracks, stripped threads or other damage. Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850, Modular Common Rail System Engine, Bulletin 4021493. Refer to Procedure 019-115 in Section 19.
->
-> Inspect the fuel pump pressurizing assembly 1 for damage. Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System, QSK19 CM850, Modular Common Rail System Engine, Bulletin 4021493. Refer to Procedure 019-117 in Section 19.
->
-> Inspect the mechanical dump valve for stripped threads, damage, restricted passage, or cracks. Replace the valve, if damaged.
->
-> Inspect the cover plate for damage and cracks. The cover plate also contains the regulator for the fuel pump.
->
-> Check the regulator for passage restriction.
->
-> **Note · Примечание**
-> The pump gears are a matched set. The pump gears are to be replaced as a set and **not** as individual gears.
->
-> Inspect the pump gears for wear, cracks, debris, and broken and missing teeth.
->
-> Check for torsional play of the inner gear to the drive spline in the pump. Replace the pump gears, if damaged.
->
-> Inspect the fuel pump support brackets for damage, corrosion, cracks, and wear. Replace if damaged.
->
-> ### Calibrate
->
-> with Mechanically Actuated Injector
->
-> The control parts list (CPL), Bulletin 3379133, is a listing of the basic parts and timing specifications.
->
-> **Note · Примечание**
-> Calibration of the fuel pump **must** be performed at a Cummins® Authorized Repair Location.
->
-> When removing the fuel pump from the engine, check the CPL number on the fuel pump dataplate (1), which is located on the top of the fuel pump. The CPL number on the fuel pump dataplate (2) **must** be the same as the CPL number on the engine dataplate (4).
->
-> If the numbers do **not** match, do **not** install the fuel pump again until the fuel pump calibration code (3) has been changed to match the requirements of the engine dataplate rating. If the fuel pump calibration is changed, the fuel pump dataplate **must** be changed to indicate the new calibration code and the CPL number.
->
-> **Note · Примечание**
-> The throttle shaft is locked in the closed position. Rotation of the shaft is **not** necessary for pressure checks.
->
-> Drain the fuel pump of diesel fuel as completely as possible to avoid contaminating the test stand calibration fluid. Rotation of the drive coupling in a **counterclockwise** direction will aid in removing fluid held within the pump housing.
->
-> Mount the fuel pump on the test stand. Reference the test stand manufacturer's operating and service manual for pump instructions.
->
-> Set the stand pump to drive to 2100 rpm and purge any air from the fuel pump and test stand.
->
-> **Note · Примечание**
-> The fuel pump test stand fluid **must** be 32° to 38°C \[90° to 100°F\] during the check procedure.
->
-> At 2100 rpm, set the flow volume to obtain 1157 pounds per hour (Pph). Adjust the inlet restriction according to the following:
->
-> **Note · Примечание**
-> The 178 mm-Hg (7 in-Hg) inlet restriction value **must** be used for all test stands where the vacuum gauge is above the gear pump inner fitting. Use 127 mm-Hg (5 in-Hg) for vacuum gauges at the same level as the inlet fitting.
->
-> Check point one:
->
-> - Adjust the test stand drive to obtain 2100 rpm.
-> - Adjust the flow to obtain 1157 Pph.
-> - Record the rpm, flow, and inlet restriction.
-> - Read and record the pressure gauge value.
-> - The gauge **must** read 250 to 300 psi
->
-> Check point two:
->
-> - Reduce the test stand drive speed to 1300 rpm.
-> - Adjust the flow volume to obtain 712 Pph.
-> - Record the rpm, flow, and inlet restriction.
-> - The pressure valve **must** read 170 to 200 psi.
->
-> Check point three:
->
-> - Reduce the test stand drive speed to 600 rpm.
-> - Adjust the flow volume to obtain 286 Pph.
-> - Record the rpm, flow, and inlet restriction.
-> - Read and record the pressure gauge valve.
-> - The pressure valve **must** read 55 to 70 psi.
->
-> **Note · Примечание**
-> The fuel pump can **not** be serviced in the field. If the pressure values are **not** within specification, a replacement pump **must** be obtained.
->
-> ### Assemble
->
-> with Electronically Actuated Injector
->
-> Install the pump gears into the fuel pump. Lubricate the o-ring with clean engine oil.
->
-> Install the new o-ring on the cover plate and attach the cover plate to the fuel pump.
->
-> **Момент затяжки · Torque Value**
-> 19 n•m [168 in-lb]
->
-> Install the fuel pump pressurizing assembly 1 on the fuel pump with three capscrews.
->
-> **Момент затяжки · Torque Value**
-> 6.5 n•m [58 in-lb]
->
-> Install the new o-ring on the mechanical dump valve.
->
-> Install the mechanical dump valve on the fuel pump.
->
-> [[20-006-061 — Fuel Pressure Relief Valve|Refer to Procedure 006-061 in Section 6.]]
->
-> **CAUTION · Осторожно**
-> Older versions of the fuel pump did not use a sealing washer. Do not use a sealing washer on an older version of the fuel pump. The sealing washer will not allow proper thread engagement of the fuel delivery pressure sensor causing damage to the fuel pump.
->
-> **Note · Примечание**
-> The sealing washer is a single use seal and must be replaced when the injector metering rail pressure sensor is removed or loosened.
->
-> Install the new sealing washer, if equipped, and fuel delivery pressure sensor on the fuel pump.
->
-> **Момент затяжки · Torque Value**
-> 136 n•m [100 ft-lb]
->
-> ### Install
->
-> with Mechanically Actuated Injector
->
-> All QSK19 engines use a light green fuel pump drive coupling.
->
-> Install the fuel pump drive coupling (3), gasket, fuel pump, and four capscrews.
->
-> Tighten the capscrews.
->
-> **Момент затяжки · Torque Value**
-> 45 n•m [33 ft-lb]
->
-> Check for the proper installation of the o-rings in both locations.
->
-> Install the fuel pump inlet hose and the fuel supply hose.
->
-> Tighten the hoses.
->
-> **Момент затяжки · Torque Value**
-> Fuel Pump Inlet Hose 88 n•m [65 ft-lb]
->
-> **Момент затяжки · Torque Value**
-> Fuel Supply Hose 60 n•m [44 ft-lb]
->
-> with Electronically Actuated Injector
->
-> Install the fuel pump support bracket (1) to the fuel pump with two capscrews.
->
-> **Момент затяжки · Torque Value**
-> 113 n•m [83 ft-lb]
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
->
-> On a flat level surface, place the pump on end, with the gerotor-side down.
->
-> Pour 104 ml \[3.5 oz\] of fresh, clean lubricating oil into one of the eleven available face drillings (1).
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
->
-> Use clean engine oil to lubricate both new o-rings.
->
-> Install the smaller o-ring (1) to seal the oil drilling from the fuel pump drive to the fuel pump.
->
-> Install the larger o-ring to seal the fuel pump drive to the fuel pump.
->
-> Install the bracket onto the fuel pump using two M10 capscrews.
->
-> Place the bottom large lifting connector over the fitting boss on the top of the fuel pump. Screw the stop (1) into the fitting on top of the fuel pump until it is hand-tight.
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift this component or assembly.
->
-> Attach the top large lifting connector to a suitable lifting device (capable of lifting at least 227 kg \[500 lb\].
->
-> Raise the lifting device until there is no slack in the chain.
->
-> Install the fuel pump onto the engine. The lifting tool has a provision for installing a breaker bar to aid in aligning the fuel pump.
->
-> Secure the fuel pump with five capscrews.
->
-> **Момент затяжки · Torque Value**
-> 113 n•m [83 ft-lb]
->
-> Remove the fuel pump installation and removal service tool.
->
-> Install the fuel pump support bracket (3) to the engine. Hand tighten the capscrews.
->
-> The fuel pump support bracket holes are enlarged to aid in alignment. Final tightening will occur when all the brackets are installed and aligned.
->
-> Secure the fuel pump support bracket (2) to the support bracket (3) and the fuel pump with capscrews. Tighten the capscrews finger-tight.
->
-> The bracket holes are enlarged to aid in alignment. Final tightening will occur when all the brackets are installed and aligned.
->
-> With all the capscrews in place and finger tight, tighten all the capscrews.
->
-> | Thread | Socket Size | N•m | \[ft-lb\] |
-> |---|---|---|---|
-> | 3/8-16 | 9/16 | 40 | 30 |
-> | 1/2-13 | 3/4 | 130 | 95 |
-> | 5/8-11 | 15/16 | 255 | 190 |
->
-> Install a clamp on the injector supply line vent to the fuel pump and on the engine block where the injector supply line attaches.
->
-> Connect the wiring harness to the fuel pump actuator and fuel pump pressure sensor.
->
-> ### Flush
->
-> with Electronically Actuated Injector
->
-> Follow these flush steps anytime debris which may contaminate the fuel system is believed to have fallen into the fuel pump.
->
-> A spare U-shaped injector supply line and a container to catch 3.78 L \[1 gal\], or more, fuel are required.
->
-> Remove the injector supply line from the clean bag.
->
-> Lubricate the pre-sliced grommets with clean engine oil on the outside and inside diameters.
->
-> Install the grommets on the outer wall of the injector supply line.
->
-> Remove the yellow threaded caps from the ends of the injector supply line and discard the caps.
->
-> Install a new o-ring on one cone end of the injector supply line.
->
-> Install the U-shaped injector supply line into the fuel pump outlet.
->
-> Start the first thread of the connector nut by hand.
->
-> Route the injector supply line into a suitable container that can hold 3.78 L \[1 gal\], or more, of fuel.
->
-> **Note · Примечание**
-> Although the illustration does **not** show tightening the fuel line on the fuel pump, the techniqe is the same.
->
-> Tighten the connector nut with a suitable M27 \[1-1/16 in\] crow's foot and torque wrench.
->
-> **Момент затяжки · Torque Value**
-> 45 n•m [33 ft-lb]
->
-> **Note · Примечание**
-> Although the illustration does **not** show tightening the fuel line on the fuel pump, the techniqe is the same.
->
-> Install the rectangular grommet nuts onto the connector nuts with a suitable M24 \[15/16 in\] crow's foot and torque wrench. Support the connector nut with a wrench while tightening the rectangular grommet nut.
->
-> **Момент затяжки · Torque Value**
-> 45 n•m [33 ft-lb]
->
-> **WARNING · Опасно**
-> Depending on the circumstance, diesel fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
->
-> Confirm the injector supply line is routed into the container.
->
-> Crank the engine for 60 seconds in 15 second increments to flush fuel through the pump.
->
-> Loosen the rectangular grommet nut on the U-shaped injector supply line.
->
-> Loosen the connector nut and remove the injector supply line from the fuel pump.
->
-> Remove and discard the o-rings.
->
-> Immediately after removing the injector supply line, cap the ends with new yellow threaded caps to prevent debris from entering the line.
->
-> ### Finishing Steps
->
-> with Mechanically Actuated Injector
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> - Connect the battery cables. See equipment manufacturer service information.
-> - Operate the engine to normal operating temperature and check for leaks.
->
-> with Electronically Actuated Injector
->
-> **WARNING · Опасно**
-> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
->
-> - Install the fuel supply line. [[20-006-024-tr — Fuel Supply Lines|Refer to Procedure 006-024 in Section 6.]]
-> - Install the injector supply line. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-> - Install the fuel return line. [[20-006-013-tr — Fuel Drain Lines|Refer to Procedure 006-013 in Section 6.]]
-> - Connect the battery cables. See equipment manufacturer service information.
-> - Operate the engine and check for leaks.
->
-> ### Prime
->
-> with Mechanically Actuated Injector
->
-> **WARNING · Опасно**
-> Fuel is flammable. Keep all cigarettes, flames, pilot lights, arcing equipment, and switches out of the work area and areas sharing ventilation to reduce the possibility of severe personal injury or death when working on the fuel system.
->
-> **Note · Примечание**
-> This procedure is normally **only** required when the fuel pump has been changed, the fuel filters are dry, or the fuel system has been drained.
->
-> To reduce engine cranking time, depress the quick-disconnect fitting at the fuel pump outlet until fuel is present while cranking the engine.
->
-> **Note · Примечание**
-> If the fuel supply pump is dirty, clean the outside of the pump near the fuel inlet and outlet.
->
-> While the engine is cranking, loosen the fuel control supply line at the top of the fuel pump. If fuel does **not** come out of the connection, the pump **must** be primed.
->
-> Tighten the fuel supply line.
->
-> **Момент затяжки · Torque Value**
-> 60 n•m [44 ft-lb]
->
-> Remove the fuel inlet hose.
->
-> Loosen the fuel pump inlet fitting. Rotate the inlet fitting 180 degrees to point the inlet fitting upward.
->
-> Fill the fuel pump with clean fuel.
->
-> Rotate the fuel pump inlet fitting to its original position.
->
-> Tighten the inlet fitting.
->
-> **Момент затяжки · Torque Value**
-> 23 n•m [204 in-lb]
->
-> Install the fuel inlet hose to the fuel pump.
->
-> **Момент затяжки · Torque Value**
-> 88 n•m [65 ft-lb]

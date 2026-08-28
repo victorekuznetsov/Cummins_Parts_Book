@@ -10,17 +10,16 @@ modified: "2005-07-11"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101692.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101692.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101692.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
   - "год/2009"
-  - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
 
@@ -29,43 +28,20 @@ tags:
 
 > [!abstract] TSB · `tsb101692`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2009-12-17 · изменён 2005-07-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101692.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101692.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101692.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101692.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+## Revision to Service Tools Procedures
 
+### Warranty Statement
 
-## Изменение процедур сервисного инструмента
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
 
-### Положение о гарантии
+### Contents
 
-Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+This Service/Parts Topic provides information on the revision of Procedure 022-001, Service Tools for the 6C and C8.3 series engines. A new service tool has been released to remove the fuel pump gear.
 
-### Содержание
-
-В данной теме «Сервис/Части» представлена информация о пересмотре Процедуры 022-001, Инструментов обслуживания двигателей серий 6С и С8.3. Выпущена новая сервисная оснастка для снятия шестерни топливного насоса.
-
-> [!note] Примечание
-> Это усовершенствование продукта и ** не подлежит кампании.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ## Revision to Service Tools Procedures
->
-> ### Warranty Statement
->
-> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
->
-> ### Contents
->
-> This Service/Parts Topic provides information on the revision of Procedure 022-001, Service Tools for the 6C and C8.3 series engines. A new service tool has been released to remove the fuel pump gear.
->
-> **Note · Примечание**
+> [!note] Note · Примечание
 > This is a product improvement and **not** subject to campaign.

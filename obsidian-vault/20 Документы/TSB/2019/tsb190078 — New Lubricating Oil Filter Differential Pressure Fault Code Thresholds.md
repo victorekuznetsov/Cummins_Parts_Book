@@ -1,0 +1,657 @@
+---
+type: "TSB"
+doc: "tsb190078"
+title_en: "New Lubricating Oil Filter Differential Pressure Fault Code Thresholds"
+modified: "2025-06-18"
+engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+families:
+  - "QSK60"
+figures: 17
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190078.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190078.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/QSK60"
+---
+
+# New Lubricating Oil Filter Differential Pressure Fault Code Thresholds
+
+> [!abstract] TSB · `tsb190078`
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]]
+> **Семейство:** QSK60
+> **Даты:** изменён 2025-06-18
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190078.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190078.pdf)
+
+## New Lubricating Oil Filter Differential Pressure Fault Code Thresholds
+
+### Warranty Statement
+
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+
+### Contents
+
+**Product Affected**
+
+- QSK38 CM2150 K106
+- QSK38 CM2150 K138M
+- QSK38 CM2150 K142M
+- QSK38 CM2150 MCRS M
+- QSK45 CM500
+- QSK50 CM2150 K107
+- QSK50 CM2150 K140M
+- QSK50 CM2150 MCRS M
+- QSK50 CM2350 K108
+- QSK60 CM2150 K132M
+- QSK60 CM2150 MCRS
+- QSK60 CM2350 K116
+- QSK60 CM2350 K117
+- QSK60 CM500
+- QSK78 CM2350 K126
+- QSK78 CM2350 K137
+- QSK78 CM500
+
+**Description of Change**
+
+This document announces the introduction of unique lubricating oil filter differential pressure fault code thresholds for the two lubricating oil filter types available today: spin-on filter canisters and Eliminator TM filtration systems. In addition, the lubricating oil filter differential pressure feature now supports engine protection derates for engines equipped with Eliminator TM.
+
+**Reason for Change**
+
+In the past, engines equipped with either Eliminator TM filters or spin-on filter canisters used the same lubricating oil filter differential pressure fault code threshold. This fault code threshold was originally designed to alert operators to the condition of lubricating oil filter bypass caused by lubricating oil filter plugging.
+
+Due to the differences in filter element design, Eliminator TM filters require a lower fault threshold. Therefore, two separate thresholds have been implemented; a threshold for engines equipped with Spin-On filters, and another specific for engines equipped with Eliminator TM.
+
+**Verification**
+
+Verify engine control module (ECM) code to ensure this feature is enabled. See Tables 1, 2, 3, 4, 5, 6, 7, and 8 below.
+
+**Customer Communication**
+
+A new Fault Code 3491 with Red Lamp (and an associated speed derate) has been introduced to complement the current FC1362 with Amber Lamp.
+
+Equipment operators can experience an engine derate without any lamp or FC3491 displayed if the equipment's display software is not updated specifically for the new fault code.
+
+For engines equipped with spin-on filter canisters, FC1362 (Amber) will become active when the differential pressure reaches sufficient levels to drive lubricating oil filtration bypass: 345kPa \[ 50 psi \]. Engines equipped with Eliminator TM filtration will see a FC1362 (Amber) once the differential pressure increases beyond nominal stable values indicative of proper backflush operation: 62kPa \[ 9 psi \]. If the lubricating oil filter assembly is **not** serviced, and differential pressure continues to increase, a FC3491/ FC612 (Red) will be received before the differential pressure drives lubricating oil filtration bypass: 96.5kPa \[ 14 psi \]. This FC3491/ FC612 is accompanied by an engine derate to limit the engine ability to force lubricating oil filter bypass operation.
+
+**Service Instructions**
+
+For Marine installations utilizing a C-Command Elite or Elite Plus panels, the panel monitors the lubricating oil differential pressure. To avoid duplicate fault codes, the lubrication oil differential pressure monitoring must be disabled in the Marine panel using the web configuration tool.
+
+1. Connect an ethernet cable into the personal computer and the other end into the ethernet switch inside the panel. If there is no ethernet switch, connect directly to the Diesel Control Unit (DCU). See Figure 1.
+
+![[07r00372.png]]
+
+Figure 1, Ethernet Cable Connection.
+
+2. Go to the Marine panel and select the menu/home button on the DCU. Highlight the Settings button and press the ‘Ok' button. See Figure 2.
+
+![[07r00373.png]]
+
+Figure 2, DCU Menu Screen.
+
+3. Find and highlight the ‘Connect to a PC' button (this will possibly be on the next page) and press ‘Ok' button. See Figure 3.
+
+![[07r00374.png]]
+
+Figure 3, DCU Settings Screen.
+
+4. The IP address will then be displayed. Record the IP address for reference. See Figure 4.
+
+![[07r00375.png]]
+
+Figure 4, DCU IP Address Screen.
+
+5. Select the ‘Down' arrow button and the soft buttons on the bottom of the screen will change. A ‘Toggle' button will appear. Select the soft button below the ‘Toggle' button and a check mark will appear in the ‘Enabled' box. See Figure 5. Then select the ‘Ok' button.
+
+![[07r00376.png]]
+
+Figure 5, DCU IP Address Screen with Toggle Selection and Checked ‘Enabled' Box.
+
+6. Open the internet browser on the computer and connect to the IP address of the DCU noted in Step 3 by typing the IP address in the address bar. See Figure 6. Disconnecting from the Wi-Fi may help to verify that the connection to the DCU is the **only** connected network.
+
+![[07r00377.png]]
+
+Figure 6, Web Browser Configuration Tool.
+
+7. Select ‘DCU' on the home screen at the top of the list to the left. A log-in screen will appear. Leave the username blank and enter ‘1234' for the password.
+
+8. DCU is now connected using the web configuration tool. Select the ‘dcu' tab, then select ‘I/O Configuration.' See Figure 7.
+
+![[07r00378.png]]
+
+Figure 7, DCU Screen.
+
+9. In the ‘I/O Configuration' menu, select the ‘Differential' input under ‘Config Inputs.' See Figure 8.
+
+![[07r00379.png]]
+
+Figure 8, I/O Configuration Screen.
+
+10. If the customer has a QSK38 or QSK50 engine, select ‘Diff Signal \#2.' If the customer has a QSK60 engine, select ‘Diff Signal \#3.' See Figure 9.
+
+![[07r00380.png]]
+
+Figure 9, Engine-Specific Differential Signal Selection.
+
+11. This step is the same for both Diff Signal \#2 and \#3. From the configuration screen, set the ‘Signal Use' drop down menu to ‘Not in use.' Scroll down and click ‘Submit.' See Figure 10 and 11.
+
+![[07r00381.png]]
+
+Figure 10, Diff Signal \#2/\#3 Screen.
+
+![[07r00382.png]]
+
+Figure 11, Diff Signal \#2/\#3 Drop Down Menu.
+
+For new engines built from August 2019, the correct filter type will be selected automatically, and no further action is needed. For engines currently in the field, the default lubricating oil filter selection setting is spin-on filters; therefore, an update may be needed. Using the INSITE™ electronic service tool, one can select between the two types of lubricating oil filters at any time.
+
+Changing the lubricating oil filter type selection using INSITE TM Electronic Service Tool.
+
+1. Go to "Features and Parameters", "Oil Filter Type", and select the lubricating oil filter type that is installed on the engine. See Figures 12 and 13 below.
+
+![[17r00316.png]]
+
+Figure 12, Lubricating Oil Filter Type Navigation.
+
+![[17r00317.png]]
+
+Figure 13, Select Appropriate Lubricating Oil Filter Type.
+
+2. Right click and select "Send To", "ECM" and select "OK". See Figure 14 below.
+
+![[17r00300.png]]
+
+Figure 14, Confirm ECM Adjustment.
+
+3. Turn key switch to OFF position and select "OK" See Figure 15 below.
+
+![[17r00301.png]]
+
+Figure 15, Key Switch Off.
+
+4. Turn key switch to ON position and select "OK". See Figure 16 below.
+
+![[17r00302.png]]
+
+Figure 16, Key Switch On.
+
+5. Follow the prompt and select "OK". Lubricating oil filter type will be successfully saved. See Figure 17 below.
+
+![[17r00303.png]]
+
+Figure 17, ECM Write Succeeded.
+
+**ECM Compatibility**
+
+Verify ECM compatibility. See Tables 1, 2, 3, 4, 5, 6, 7, and 8.
+
+| **Table 1, QSK38 CM2150 MCRS ECM Codes** |  |  |
+|---|---|---|
+| **ECM CODE** | **SC OPTION** | **DO OPTION** |
+| AQ60215.22 | SC6062200 | DO0676600 |
+| AQ60268.13 | SC6070400 | DO0685000 |
+| AQ60269.14 | SC6070500 | DO0685100 |
+| AQ60282.14 | SC6081500 | DO0696800 |
+| AQ60283.10 | SC6081600 | DO0696900 |
+| AQ60284.13 | SC6081700 | DO0697000 |
+| AQ60300.15 | SC6083200 | DO0698700 |
+| AQ60319.18 | SC6084100 | DO0699600 |
+| AQ60339.16 | SC6090600 | DO6006300 |
+| AQ60340.17 | SC6090700 | DO6006400 |
+| AQ60351.13 | SC6094500 | DO6010500 |
+| AQ60393.13 | SC6095000 | DO6011000 |
+| AQ60396.12 | SC6099800 | DO6015900 |
+| AQ60408.11 | SC6094700 | DO6010700 |
+| AQ60409.11 | SC6094900 | DO6010900 |
+| AQ60430.10 | SC6094800 | DO6010800 |
+| AQ60434.13 | SC6105700 | DO6021600 |
+| AQ60435.14 | SC6107500 | DO6023500 |
+| AQ60436.13 | SC6107700 | DO6023700 |
+| AQ60437.14 | SC6107800 | DO6023800 |
+| AQ60459.13 | SC6121100 | DO6037200 |
+| AQ60474.10 | SC6120600 | DO6036700 |
+| AQ60478.10 | SC6122000 | DO6038100 |
+| AQ60505.14 | SC6083100 | DO0698400 |
+| AQ60713.10 | SC6159100 | DO6075600 |
+| AQ60714.10 | SC6159200 | DO6075700 |
+| AQ60722.09 | SC6159700 | DO6076500 |
+| AQ60723.08 | SC6161900 | DO6078200 |
+| AQ60736.08 | SC6157200 | DO6073400 |
+| AQ60737.08 | SC6155100 | DO6071200 |
+| AQ60782.03 | SC6180000 | DO6096600 |
+| AQ60783.03 | SC6180100 | DO6096700 |
+| AQ60784.03 | SC6180200 | DO6096800 |
+| AQ60802.02 | SC6166900 | DO6083200 |
+| AQ60878.01 | SC6199100 | DO6115700 |
+
+| Table 2, QSK38 CM2150 Marine Parent ECM Codes |  |  |
+|---|---|---|
+| ECM CODE | SC OPTION | DO OPTION |
+| AQ60472.09 | SC6106400 | DO6009400 |
+| AQ60522.08 | SC6130300 | DO6046300 |
+| AQ60523.07 | SC6130400 | DO6046400 |
+| AQ60524.08 | SC6130500 | DO6046500 |
+| AQ60535.07 | SC6132700 | DO6048800 |
+| AQ60705.04 | SC6156500 | DO6072700 |
+| AQ60706.04 | SC6156600 | DO6072800 |
+| AQ60707.04 | SC6156700 | DO6072900 |
+| AQ60718.04 | SC6159800 | DO6076200 |
+| AQ60719.04 | SC6159900 | DO6076300 |
+| AQ60720.04 | SC6160000 | DO6076400 |
+| AQ60721.06 | SC6160300 | DO6076600 |
+| AQ60956.02 | SC6209000 | DO6125800 |
+| AQ60975.02 | SC6209800 | DO6126700 |
+| AQ60976.01 | SC6210200 | DO6127100 |
+| AQ60977.01 | SC6210300 | DO6127200 |
+| AQ60978.02 | SC6210600 | DO6127500 |
+| AQ61055.01 | SC6234300 | DO6151100 |
+| AQ60536.06 | SC6132900 | DO6049000 |
+| AQ60708.04 | SC6156800 | DO6073000 |
+| AQ60709.04 | SC6156900 | DO6073100 |
+| AQ60969.02 | SC6210400 | DO6127300 |
+
+| Table 3, QSK38 CM2150 Marine Child ECM Codes |  |  |
+|---|---|---|
+| ECM CODE | SC OPTION | DO OPTION |
+| AR60374.09 | SC6106400 | DO6009400 |
+| AR60389.08 | SC6130300 | DO6046300 |
+| AR60390.07 | SC6130400 | DO6046400 |
+| AR60391.07 | SC6130500 | DO6046500 |
+| AR60403.07 | SC6132700 | DO6048800 |
+| AR60501.05 | SC6156500 | DO6072700 |
+| AR60502.05 | SC6156600 | DO6072800 |
+| AR60503.05 | SC6156700 | DO6072900 |
+| AR60506.04 | SC6159800 | DO6076200 |
+| AR60507.04 | SC6159900 | DO6076300 |
+| AR60508.04 | SC6160000 | DO6076400 |
+| AR60509.04 | SC6160300 | DO6076600 |
+| AR60648.01 | SC6209000 | DO6125800 |
+| AR60650.01 | SC6209800 | DO6126700 |
+| AR60651.01 | SC6210200 | DO6127100 |
+| AR60652.01 | SC6210300 | DO6127200 |
+| AR60653.01 | SC6210600 | DO6127500 |
+| AR60707.01 | SC6234300 | DO6151100 |
+| AR60404.07 | SC6132900 | DO6049000 |
+| AR60504.05 | SC6156800 | DO6073000 |
+| AR60505.05 | SC6156900 | DO6073100 |
+| AR60649.01 | SC6210400 | DO6127300 |
+
+| **Table 4, QSK50/60 CM2150 MCRS ECM Codes** |  |  |
+|---|---|---|
+| **ECM CODE** | **SC OPTION** | **DO OPTION** |
+| AQ60217.25 | SC6062100 | DO0676500 |
+| AQ60218.23 | SC6062000 | DO0676400 |
+| AQ60220.23 | SC6062300 | DO0676700 |
+| AQ60221.21 | SC6064800 | DO0679200 |
+| AQ60236.20 | SC6065900 | DO0680300 |
+| AQ60237.21 | SC6066000 | DO0680400 |
+| AQ60238.21 | SC6069300 | DO0683900 |
+| AQ60252.18 | SC6077600 | DO0692800 |
+| AQ60253.21 | SC6077700 | DO0692900 |
+| AQ60254.25 | SC6078100 | DO0693300 |
+| AQ60255.15 | SC6077900 | DO0693100 |
+| AQ60285.13 | SC6078000 | DO0693200 |
+| AQ60287.17 | SC6070700 | DO0685300 |
+| AQ60288.17 | SC6072000 | DO0686600 |
+| AQ60289.20 | SC6072500 | DO0687100 |
+| AQ60292.15 | SC6082400 | DO0697700 |
+| AQ60293.14 | SC6082500 | DO0697800 |
+| AQ60294.15 | SC6082600 | DO0697900 |
+| AQ60295.13 | SC6082200 | DO0697500 |
+| AQ60296.16 | SC6082300 | DO0697600 |
+| AQ60297.14 | SC6082700 | DO0698000 |
+| AQ60301.17 | SC6083300 | DO0698800 |
+| AQ60302.16 | SC6072200 | DO0686800 |
+| AQ60303.22 | SC6072600 | DO0687200 |
+| AQ60304.19 | SC6083400 | DO0698900 |
+| AQ60305.21 | SC6072300 | DO0686900 |
+| AQ60309.18 | SC6082800 | DO0698100 |
+| AQ60310.18 | SC6082900 | DO0698200 |
+| AQ60312.15 | SC6084700 | DO6000300 |
+| AQ60313.14 | SC6084800 | DO6000400 |
+| AQ60314.17 | SC6084600 | DO6000200 |
+| AQ60315.15 | SC6084900 | DO6000500 |
+| AQ60316.16 | SC6085000 | DO6000600 |
+| AQ60317.17 | SC6070600 | DO0685200 |
+| AQ60318.13 | SC6084200 | DO0699700 |
+| AQ60320.16 | SC6086100 | DO6001800 |
+| AQ60325.15 | SC6088000 | DO6003700 |
+| AQ60326.19 | SC6086300 | DO6002000 |
+| AQ60327.20 | SC6086400 | DO6002100 |
+| AQ60328.22 | SC6086500 | DO6002200 |
+| AQ60329.19 | SC6086600 | DO6002300 |
+| AQ60330.17 | SC6086700 | DO6002400 |
+| AQ60331.15 | SC6088200 | DO6003900 |
+| AQ60335.15 | SC6089100 | DO6004800 |
+| AQ60337.16 | SC6072100 | DO0686700 |
+| AQ60338.20 | SC6092400 | DO6008100 |
+| AQ60341.20 | SC6088300 | DO6004000 |
+| AQ60342.16 | SC6088500 | DO6004200 |
+| AQ60343.16 | SC6091100 | DO6006800 |
+| AQ60344.14 | SC6091200 | DO6006900 |
+| AQ60345.14 | SC6091300 | DO6007000 |
+| AQ60352.15 | SC6095100 | DO6011100 |
+| AQ60359.19 | SC6085300 | DO6001000 |
+| AQ60360.17 | SC6085400 | DO6001100 |
+| AQ60361.17 | SC6085500 | DO6001200 |
+| AQ60362.20 | SC6085600 | DO6001300 |
+| AQ60363.19 | SC6093600 | DO6009600 |
+| AQ60364.17 | SC6093700 | DO6009700 |
+| AQ60365.18 | SC6093800 | DO6009800 |
+| AQ60366.17 | SC6093900 | DO6009900 |
+| AQ60367.17 | SC6096200 | DO6012300 |
+| AQ60368.17 | SC6096300 | DO6012400 |
+| AQ60369.17 | SC6096400 | DO6012500 |
+| AQ60370.17 | SC6096500 | DO6012600 |
+| AQ60371.17 | SC6096600 | DO6012700 |
+| AQ60373.19 | SC6095700 | DO6011800 |
+| AQ60374.18 | SC6095800 | DO6011900 |
+| AQ60375.19 | SC6095900 | DO6012000 |
+| AQ60376.16 | SC6096000 | DO6012100 |
+| AQ60377.18 | SC6096100 | DO6012200 |
+| AQ60378.18 | SC6094000 | DO6010000 |
+| AQ60379.18 | SC6094100 | DO6010100 |
+| AQ60380.17 | SC6094200 | DO6010200 |
+| AQ60381.17 | SC6094400 | DO6010400 |
+| AQ60386.19 | SC6094300 | DO6010300 |
+| AQ60387.20 | SC6096700 | DO6012800 |
+| AQ60388.19 | SC6096800 | DO6012900 |
+| AQ60389.17 | SC6096900 | DO6013000 |
+| AQ60390.17 | SC6097000 | DO6013100 |
+| AQ60391.19 | SC6097200 | DO6013300 |
+| AQ60392.15 | SC6097300 | DO6013400 |
+| AQ60395.18 | SC6097100 | DO6013200 |
+| AQ60397.17 | SC6099600 | DO6015700 |
+| AQ60398.18 | SC6098600 | DO6014700 |
+| AQ60399.20 | SC6098700 | DO6014800 |
+| AQ60401.17 | SC6088100 | DO6003800 |
+| AQ60402.17 | SC6097400 | DO6013500 |
+| AQ60404.18 | SC6099300 | DO6015400 |
+| AQ60410.16 | SC6101300 | DO6017300 |
+| AQ60412.11 | SC6101400 | DO6017400 |
+| AQ60413.12 | SC6101500 | DO6017500 |
+| AQ60415.12 | SC6103900 | DO6019800 |
+| AQ60416.14 | SC6103500 | DO6019500 |
+| AQ60417.15 | SC6104300 | DO6020200 |
+| AQ60420.13 | SC6104500 | DO6020400 |
+| AQ60421.15 | SC6072400 | DO0687000 |
+| AQ60429.15 | SC6086900 | DO6002600 |
+| AQ60431.14 | SC6104400 | DO6020300 |
+| AQ60433.12 | SC6104000 | DO6019900 |
+| AQ60440.16 | SC6105500 | DO6021300 |
+| AQ60441.16 | SC6103100 | DO6019100 |
+| AQ60442.14 | SC6103700 | DO6019700 |
+| AQ60443.19 | SC6104600 | DO6020500 |
+| AQ60444.15 | SC6105600 | DO6021500 |
+| AQ60445.14 | SC6107600 | DO6023600 |
+| AQ60446.17 | SC6107300 | DO6023300 |
+| AQ60451.12 | SC6086800 | DO6002500 |
+| AQ60453.17 | SC6120700 | DO6036800 |
+| AQ60454.17 | SC6120800 | DO6036900 |
+| AQ60455.17 | SC6120900 | DO6037000 |
+| AQ60456.15 | SC6121400 | DO6037500 |
+| AQ60458.13 | SC6121000 | DO6037100 |
+| AQ60463.14 | SC6106900 | DO6022800 |
+| AQ60464.15 | SC6107000 | DO6022900 |
+| AQ60475.15 | SC6121600 | DO6037700 |
+| AQ60476.14 | SC6122200 | DO6038300 |
+| AQ60477.11 | SC6122400 | DO6038500 |
+| AQ60479.14 | SC6124400 | DO6040500 |
+| AQ60480.13 | SC6124500 | DO6040600 |
+| AQ60481.14 | SC6124600 | DO6040700 |
+| AQ60482.12 | SC6125400 | DO6022700 |
+| AQ60484.12 | SC6125900 | DO6041800 |
+| AQ60489.10 | SC6125500 | DO6023000 |
+| AQ60490.17 | SC6124700 | DO6040800 |
+| AQ60491.13 | SC6124800 | DO6040900 |
+| AQ60492.13 | SC6124900 | DO6041000 |
+| AQ60493.14 | SC6125000 | DO6041100 |
+| AQ60498.14 | SC6128600 | DO6044500 |
+| AQ60499.14 | SC6128400 | DO6044300 |
+| AQ60500.14 | SC6128700 | DO6044600 |
+| AQ60501.12 | SC6127200 | DO6043100 |
+| AQ60502.11 | SC6127300 | DO6043200 |
+| AQ60503.11 | SC6127400 | DO6043300 |
+| AQ60504.12 | SC6128800 | DO6044700 |
+| AQ60506.11 | SC6126800 | DO6042700 |
+| AQ60507.11 | SC6126900 | DO6042800 |
+| AQ60508.12 | SC6127000 | DO6042900 |
+| AQ60509.14 | SC6126400 | DO6042300 |
+| AQ60510.11 | SC6126500 | DO6042400 |
+| AQ60511.14 | SC6126600 | DO6042500 |
+| AQ60512.13 | SC6126700 | DO6042600 |
+| AQ60528.10 | SC6131500 | DO6047500 |
+| AQ60530.11 | SC6131800 | DO6047800 |
+| AQ60531.11 | SC6131900 | DO6047900 |
+| AQ60534.08 | SC6132300 | DO6084300 |
+| AQ60677.11 | SC6151600 | DO6067700 |
+| AQ60690.09 | SC6146800 | DO6062900 |
+| AQ60691.12 | SC6155000 | DO6071100 |
+| AQ60694.10 | SC6148500 | DO6064600 |
+| AQ60695.10 | SC6157500 | DO6073700 |
+| AQ60696.10 | SC6157700 | DO6073900 |
+| AQ60700.12 | SC6157900 | DO6074100 |
+| AQ60701.10 | SC6158500 | DO6074700 |
+| AQ60716.09 | SC6159600 | DO6076100 |
+| AQ60717.09 | SC6159500 | DO6076000 |
+| AQ60724.09 | SC6161200 | DO6077500 |
+| AQ60748.06 | SC6166400 | DO6082700 |
+| AQ60749.07 | SC6166500 | DO6082800 |
+| AQ60750.12 | SC6167300 | DO6083600 |
+| AQ60751.07 | SC6168200 | DO6084900 |
+| AQ60759.07 | SC6151400 | DO6088400 |
+| AQ60761.09 | SC6171000 | DO6087600 |
+| AQ60762.07 | SC6171100 | DO6087700 |
+| AQ60763.07 | SC6171200 | DO6087800 |
+| AQ60769.07 | SC6177400 | DO6094000 |
+| AQ60770.05 | SC6177300 | DO6093900 |
+| AQ60773.05 | SC6178300 | DO6094900 |
+| AQ60775.05 | SC6180300 | DO6096900 |
+| AQ60776.05 | SC6180400 | DO6097000 |
+| AQ60777.03 | SC6180500 | DO6097100 |
+| AQ60778.04 | SC6180600 | DO6097200 |
+| AQ60779.04 | SC6180700 | DO6097300 |
+| AQ60780.04 | SC6180800 | DO6097400 |
+| AQ60781.03 | SC6180900 | DO6097500 |
+| AQ60785.04 | SC6181300 | DO6097900 |
+| AQ60786.04 | SC6181400 | DO6098000 |
+| AQ60789.03 | SC6179400 | DO6096000 |
+| AQ60790.03 | SC6179600 | DO6096200 |
+| AQ60791.03 | SC6181900 | DO6098500 |
+| AQ60792.03 | SC6179500 | DO6096100 |
+| AQ60793.03 | SC6127900 | DO6043800 |
+| AQ60796.04 | SC6184400 | DO6101000 |
+| AQ60799.02 | SC6184800 | DO6101400 |
+| AQ60800.04 | SC6181000 | DO6097600 |
+| AQ60801.03 | SC6176400 | DO6093000 |
+| AQ60804.03 | SC6176500 | DO6093100 |
+| AQ60805.04 | SC6168700 | DO6084800 |
+| AQ60807.04 | SC6186400 | DO6102800 |
+| AQ60808.02 | SC6185800 | DO6102500 |
+| AQ60809.04 | SC6187800 | DO6104200 |
+| AQ60811.04 | SC6186000 | DO6102600 |
+| AQ60824.03 | SC6189300 | DO6105900 |
+| AQ60825.03 | SC6190000 | DO6106600 |
+| AQ60874.01 | SC6198100 | DO6114700 |
+| AQ60876.01 | SC6197800 | DO6114400 |
+| AQ60877.01 | SC6198900 | DO6115500 |
+| AQ60879.01 | SC6198000 | DO6114600 |
+| AQ60880.01 | SC6198700 | DO6115200 |
+| AQ60881.01 | SC6191300 | DO6107900 |
+| AQ60882.01 | SC6192900 | DO6109500 |
+| AQ60883.01 | SC6198500 | DO6116000 |
+| AQ60884.01 | SC6199300 | DO6115900 |
+| AQ60886.01 | SC6199900 | DO6116600 |
+| AQ60888.01 | SC6192800 | DO6109400 |
+| AQ60889.01 | SC6191800 | DO6108400 |
+| AQ60890.01 | SC6199800 | DO6116500 |
+| AQ60891.01 | SC6201900 | DO6117800 |
+| AQ60892.01 | SC6200600 | DO6118000 |
+
+| Table 5, QSK60 CM2150 Marine Parent ECM Codes |  |  |
+|---|---|---|
+| ECM CODE | SC OPTION | DO OPTION |
+| AQ60274.11 | SC6067700 | DO0681900 |
+| AQ60275.11 | SC6067800 | DO0682000 |
+| AQ60276.11 | SC6067900 | DO0682100 |
+| AQ60278.11 | SC6068100 | DO0682300 |
+| AQ60279.11 | SC6068200 | DO0682400 |
+| AQ60465.08 | SC6105800 | DO6021700 |
+| AQ60466.08 | SC6105900 | DO6021800 |
+| AQ60467.08 | SC6106000 | DO6021900 |
+| AQ60469.08 | SC6106600 | DO6022400 |
+| AQ60517.07 | SC6123100 | DO6039200 |
+| AQ60817.06 | SC6172500 | DO6089100 |
+| AQ60818.05 | SC6172600 | DO6089200 |
+| AQ60822.04 | SC6188400 | DO6104800 |
+| AQ60823.04 | SC6188500 | DO6104900 |
+| AQ60827.05 | SC6188900 | DO6105300 |
+| AQ60828.05 | SC6189000 | DO6105400 |
+| AQ60875.04 | SC6195500 | DO6112100 |
+| AQ61029.02 | SC6224200 | DO6141200 |
+| AQ60256.09 | SC6068300 | DO0682500 |
+| AQ60257.10 | SC6068400 | DO0682600 |
+| AQ60468.07 | SC6106100 | DO0602200 |
+| AQ60760.04 | SC6165500 | DO6081800 |
+| AQ60814.03 | SC6172300 | DO6088900 |
+| AQ60816.03 | SC6172400 | DO6089000 |
+| AQ60820.05 | SC6188700 | DO6105100 |
+| AQ60821.05 | SC6188800 | DO6105200 |
+| AQ60829.05 | SC6189100 | DO6105500 |
+| AQ60830.05 | SC6189200 | DO6105600 |
+| AQ60992.03 | SC6213700 | DO6131600 |
+| AQ61027.02 | SC6223000 | DO6139400 |
+| AQ61058.01 | SC6233600 | DO6150300 |
+
+| Table 6, QSK60 CM2150 Marine Child 1 ECM Codes |  |  |
+|---|---|---|
+| ECM CODE | SC OPTION | DO OPTION |
+| AR60238.11 | SC6067700 | DO0681900 |
+| AR60240.11 | SC6067800 | DO0682000 |
+| AR60242.11 | SC6067900 | DO0682100 |
+| AR60246.11 | SC6068100 | DO0682300 |
+| AR60248.11 | SC6068200 | DO0682400 |
+| AR60364.08 | SC6105800 | DO6021700 |
+| AR60366.08 | SC6105900 | DO6021800 |
+| AR60368.08 | SC6106000 | DO6021900 |
+| AR60372.08 | SC6123100 | DO6039200 |
+| AR60383.07 | SC6106600 | DO6022400 |
+| AR60569.05 | SC6172500 | DO6089100 |
+| AR60571.05 | SC6172600 | DO6089200 |
+| AR60579.04 | SC6188400 | DO6104800 |
+| AR60581.04 | SC6188500 | DO6104900 |
+| AR60585.05 | SC6188900 | DO6105300 |
+| AR60587.05 | SC6189000 | DO6105400 |
+| AR60597.04 | SC6195500 | DO6112100 |
+| AR60696.03 | SC6224200 | DO6141200 |
+| AR60223.10 | SC6068300 | DO0682500 |
+| AR60225.10 | SC6068400 | DO0682600 |
+| AR60370.08 | SC6106100 | DO0602200 |
+| AR60535.05 | SC6165500 | DO6081800 |
+| AR60565.04 | SC6172300 | DO6088900 |
+| AR60567.04 | SC6172400 | DO6089000 |
+| AR60575.06 | SC6188700 | DO6105100 |
+| AR60577.07 | SC6188800 | DO6105200 |
+| AR60589.06 | SC6189100 | DO6105500 |
+| AR60591.06 | SC6189200 | DO6105600 |
+| AR60666.03 | SC6213700 | DO6131600 |
+| AR60692.03 | SC6223000 | DO6139400 |
+| AR60708.02 | SC6233600 | DO6150300 |
+
+| Table 7, QSK60 CM2150 Marine Child 2 ECM Codes |  |  |
+|---|---|---|
+| ECM CODE | SC OPTION | DO OPTION |
+| AR60239.11 | SC6067700 | DO0681900 |
+| AR60241.11 | SC6067800 | DO0682000 |
+| AR60243.12 | SC6067900 | DO0682100 |
+| AR60247.11 | SC6068100 | DO0682300 |
+| AR60249.11 | SC6068200 | DO0682400 |
+| AR60365.08 | SC6105800 | DO6021700 |
+| AR60367.08 | SC6105900 | DO6021800 |
+| AR60369.08 | SC6106000 | DO6021900 |
+| AR60373.08 | SC6123100 | DO6039200 |
+| AR60384.07 | SC6106600 | DO6022400 |
+| AR60570.05 | SC6172500 | DO6089100 |
+| AR60572.05 | SC6172600 | DO6089200 |
+| AR60580.04 | SC6188400 | DO6104800 |
+| AR60582.04 | SC6188500 | DO6104900 |
+| AR60586.05 | SC6188900 | DO6105300 |
+| AR60588.05 | SC6189000 | DO6105400 |
+| AR60598.04 | SC6195500 | DO6112100 |
+| AR60697.03 | SC6224200 | DO6141200 |
+| AR60224.10 | SC6068300 | DO0682500 |
+| AR60226.10 | SC6068400 | DO0682600 |
+| AR60371.08 | SC6106100 | DO0602200 |
+| AR60536.05 | SC6165500 | DO6081800 |
+| AR60566.04 | SC6172300 | DO6088900 |
+| AR60568.04 | SC6172400 | DO6089000 |
+| AR60576.06 | SC6188700 | DO6105100 |
+| AR60578.07 | SC6188800 | DO6105200 |
+| AR60590.05 | SC6189100 | DO6105500 |
+| AR60592.05 | SC6189200 | DO6105600 |
+| AR60667.03 | SC6213700 | DO6131600 |
+| AR60693.04 | SC6223000 | DO6139400 |
+| AR60709.02 | SC6233600 | DO6150300 |
+
+| **Table 8, QSK45/60/78 HPI ECM Codes** |  |
+|---|---|
+| **ECMCODE** | **SC OPTION** |
+| EP60001.08 | EI0685500 |
+| EP60002.09 | EI0686900 |
+| EP60003.08 | EI0687000 |
+| EP60004.08 | EI0687100 |
+| EP60005.08 | EI0687200 |
+| EP60006.08 | EI0687300 |
+| EP60007.08 | EI0687400 |
+| EP60008.08 | EI0687500 |
+| EP60009.08 | EI0687600 |
+| EP60010.08 | EI0687700 |
+| EP60011.08 | EI0685700 |
+| EP60012.08 | EI0685800 |
+| EP60013.09 | EI0685900 |
+| EP60014.09 | EI0686000 |
+| EP60015.11 | EI0686100 |
+| EP60016.09 | EI0686200 |
+| EP60017.09 | EI0686300 |
+| EP60018.09 | EI0686400 |
+| EP60019.09 | EI0686500 |
+| EP60020.08 | EI0688000 |
+| EP60021.09 | EI0688100 |
+| EP60022.08 | EI0688200 |
+| EP60025.11 | EI0686700 |
+| EP60026.08 | EI0686800 |
+| EP60039.08 | EI0690100 |
+| EP60041.08 | EI0690300 |
+| EP60042.08 | EI0690400 |
+| EP60043.08 | EI0690500 |
+| EP60044.08 | EI0690600 |
+| EP60045.07 | EI0690700 |
+| EP60046.08 | EI0691100 |
+| EP60048.07 | EI0690900 |
+| EP60049.07 | EI0691000 |
+| EP60053.04 | EI0691900 |
+| EP60054.03 | EI0686600 |
+| EP60055.03 | EI0692500 |
+| EP60057.02 | EI0692600 |
+| EP60058.00 | EI0692700 |
+| EP60059.00 | EI0692800 |
+| EP60060.00 | EI0692900 |
+| EP60061.00 | EI0693000 |
+| EP60062.00 | EI0693100 |
+| EP60063.00 | EI0693200 |
+| EP60064.00 | EI0693300 |
+| EP60065.00 | EI0693400 |
+| EP60066.00 | EI0693500 |
+| EP60067.00 | EI0693600 |
+| EP60068.00 | EI0693700 |
+| EP60069.00 | EI0693800 |
+| EP60070.00 | EI0693900 |
+| EP60071.00 | EI0694000 |
+| EP60073.00 | EI0694200 |
+| EP60074.00 | EI0694300 |
+| EP60075.00 | EI0694400 |
+
+### Document History

@@ -10,18 +10,17 @@ modified: "2026-07-09"
 group: "01 - Cylinder Block"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 figures: 2
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240006.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb240006.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb240006.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
   - "год/2024"
-  - "перевод/машинный"
   - "тема/cylinder-block"
 ---
 
@@ -30,149 +29,75 @@ tags:
 
 > [!abstract] TSB · `tsb240006`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2024-01-10 · изменён 2026-07-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb240006.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb240006.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+## New Front Crankshaft Seal and Debris Shield
 
+### Warranty Statement
 
-## Новый передний сальник коленвала и защитный экран
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
 
-### Положение о гарантии
+### Contents
 
-Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+**Product Affected**
 
-### Содержание
+- ISC (All Versions)
+- ISL (All Versions)
+- L9 (All Versions)
+- QSC (All Versions)
+- QSL (All Versions)
 
-**Затронутая продукция**
+**Description of Change**
 
-- ISC (все версии)
-- ISL (все версии)
-- L9 (все версии)
-- QSC (все версии)
-- QSL (все версии)
+- A new front crankshaft seal is available.
+- A new debris shield is available.
 
-**Описание изменения**
+**Reason for Change**
 
-- Доступен новый передний уплотнитель коленчатого вала.
-- Доступен новый щит для мусора.
+- Front crankshaft seal was improved to reduce external oil leaks.
+- New debris shield was developed to work with new front crankshaft seal to improve dust/debris exclusion performance.
 
-**Причина изменения**
+**Service Instructions**
 
-- Передняя уплотнение коленчатого вала была улучшена, чтобы уменьшить внешние утечки масла.
-- Новый щит мусора был разработан для работы с новым передним уплотнением коленчатого вала для улучшения эффективности удаления пыли / мусора.
+- If existing front crankshaft seal has malfunctioned and crankshaft surface does **not** have excessive wear, replace with new front crankshaft seal.
+- If existing front crankshaft seal has malfunctioned **and** crankshaft surface has excessive wear, replace using service kits with wear sleeve included. See corresponding Service Manual. Reference Procedure 001-023 in Section 1.
 
-**Указания по обслуживанию**
+**Service Parts**
 
-- Если существующая передняя уплотнение коленчатого вала неисправно и поверхность коленчатого вала не имеет чрезмерного износа, замените новую переднюю уплотнение коленчатого вала.
-- Если существующая передняя уплотнение коленчатого вала неисправно ** и *** поверхность коленчатого вала имеет чрезмерный износ, замените использование служебных комплектов с включенным износом рукава. См. соответствующее Руководство по обслуживанию. Справочная процедура 001-023 в разделе 1.
+Service parts are offered. See Table 1 for part numbers.
 
-** Услуги**
-
-Предлагаются сервисные части. Номера деталей приведены в таблице 1.
-
-| Таблица 1, Части обслуживания |  |  |  |  |
+| Table 1, Service Parts |  |  |  |  |
 |---|---|---|---|---|
-| Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
-| Сальник | 3942535 | Да | Да | 5682528 |
-| Сальник | 3921927 | Да | Нет | - |
-| Комплект для установки | - | - | - | 5573509 |
-| Защитный экран от загрязнений | 5401041 | Да | Да | 5682529 |
-| Костюм для печати (с надетым рукавом) | 3925343 | Нет | Нет | - |
+| Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
+| Oil seal | 3942535 | Yes | Yes | 5682528 |
+| Oil seal | 3921927 | Yes | No | - |
+| Installation kit | - | - | - | 5573509 |
+| Debris shield | 5401041 | Yes | Yes | 5682529 |
+| Seal kit (with wear sleeve) | 3925343 | No | No | - |
 
-** Совместимость частей**
+**Part Compatibility**
 
-Новый передний уплотнитель коленчатого вала *** совместим только с новым щитом от мусора.
+New front crankshaft seal is **only** compatible with new debris shield.
 
-**Идентификация детали**
+**Part Identification**
 
-Существующие и новые номера передней части коленчатого вала показаны на рисунке 1.
+Existing and new front crankshaft seal part numbers are shown in Figure 1.
 
 ![[01r00465.png]]
 
-Рисунок 1, существующее и новое сравнение печати коленчатого вала.
+Figure 1, Existing and New Front Crankshaft Seal Comparison.
 
-1. Уменьшенная толщина металлического носителя
-2. Отлитая резиновая прокладка на задней стороне металлоносителя
-3. Литой резиновой губы на ID металлоносителя
+1. Reduced metal carrier thickness
+2. Molded rubber gasket on backside of metal carrier
+3. Molded rubber lip on ID of metal carrier
 
-Новый материал щита от мусора - металл, и разница между существующими и новыми номерами деталей можно увидеть на рисунке 2.
+New debris shield material is metal and the difference between existing and new part numbers can be seen in Figure 2.
 
 ![[01r00466.png]]
 
-Рисунок 2, Существующее и Новое Сравнение щита Обломков.
+Figure 2, Existing and New Debris Shield Comparison.
 
-### История изменений документа
-
-
-> [!quote]- Original (English) · английский оригинал
-> ## New Front Crankshaft Seal and Debris Shield
->
-> ### Warranty Statement
->
-> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
->
-> ### Contents
->
-> **Product Affected**
->
-> - ISC (All Versions)
-> - ISL (All Versions)
-> - L9 (All Versions)
-> - QSC (All Versions)
-> - QSL (All Versions)
->
-> **Description of Change**
->
-> - A new front crankshaft seal is available.
-> - A new debris shield is available.
->
-> **Reason for Change**
->
-> - Front crankshaft seal was improved to reduce external oil leaks.
-> - New debris shield was developed to work with new front crankshaft seal to improve dust/debris exclusion performance.
->
-> **Service Instructions**
->
-> - If existing front crankshaft seal has malfunctioned and crankshaft surface does **not** have excessive wear, replace with new front crankshaft seal.
-> - If existing front crankshaft seal has malfunctioned **and** crankshaft surface has excessive wear, replace using service kits with wear sleeve included. See corresponding Service Manual. Reference Procedure 001-023 in Section 1.
->
-> **Service Parts**
->
-> Service parts are offered. See Table 1 for part numbers.
->
-> | Table 1, Service Parts |  |  |  |  |
-> |---|---|---|---|---|
-> | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-> | Oil seal | 3942535 | Yes | Yes | 5682528 |
-> | Oil seal | 3921927 | Yes | No | - |
-> | Installation kit | - | - | - | 5573509 |
-> | Debris shield | 5401041 | Yes | Yes | 5682529 |
-> | Seal kit (with wear sleeve) | 3925343 | No | No | - |
->
-> **Part Compatibility**
->
-> New front crankshaft seal is **only** compatible with new debris shield.
->
-> **Part Identification**
->
-> Existing and new front crankshaft seal part numbers are shown in Figure 1.
->
-> Figure 1, Existing and New Front Crankshaft Seal Comparison.
->
-> 1. Reduced metal carrier thickness
-> 2. Molded rubber gasket on backside of metal carrier
-> 3. Molded rubber lip on ID of metal carrier
->
-> New debris shield material is metal and the difference between existing and new part numbers can be seen in Figure 2.
->
-> Figure 2, Existing and New Debris Shield Comparison.
->
-> ### Document History
+### Document History

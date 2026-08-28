@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc688.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc688.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc688.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Engine Oil Level Number 1 High - Warning
@@ -34,72 +32,34 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc688.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc688.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc688.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc688.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 688
 
+### Engine Oil Level Number 1 High - Warning
 
-### Код неисправности: 688
+Printable Version
 
-### Высокий уровень масла №1 — предупреждение
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 688 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Уровень моторного масла No1 высокий - критический. Сигнал напряжения указывает на очень высокий уровень моторного масла в двигателе. | Двигатель отключится. |
+| Fault Code: 688 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine oil level Number 1 high - critical. Voltage signal indicates very high lubricating oil level in the engine. | Engine will shut down. |
 
 ![[19803584.png]]
 
-Сенсорная схема уровня масла
+Oil Level Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик уровня масла используется ECM для мониторинга количества масла в двигателе. Высокие уровни масла могут привести к выключению двигателя или запуску ** не**.
+The oil level sensor is used by the ECM to monitor the amount of oil in the engine. High oil level detected can cause the engine to shut down or **not** start.
 
-### Расположение компонента
+### Component Location
 
-См. схемы двигателя. 100-002 для расположения компонентов.
+Refer to the Engine Diagrams. 100-002 for the component location.
 
-### Практические замечания
+### Shoptalk
 
-4-контактный датчик уровня масла будет ** не ** запускать код 688.
+A 4-pin oil level sensor will **not** trigger Fault Code 688.
 
-Устранение неполадок код t05-688
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 688
->
-> ### Engine Oil Level Number 1 High - Warning
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 688 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Engine oil level Number 1 high - critical. Voltage signal indicates very high lubricating oil level in the engine. | Engine will shut down. |
->
-> Oil Level Sensor Circuit
->
-> ### Circuit Description
->
-> The oil level sensor is used by the ECM to monitor the amount of oil in the engine. High oil level detected can cause the engine to shut down or **not** start.
->
-> ### Component Location
->
-> Refer to the Engine Diagrams. 100-002 for the component location.
->
-> ### Shoptalk
->
-> A 4-pin oil level sensor will **not** trigger Fault Code 688.
->
-> Refer to Troubleshooting Fault Code t05-688
+Refer to Troubleshooting Fault Code t05-688

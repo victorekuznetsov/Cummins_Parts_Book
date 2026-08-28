@@ -8,299 +8,177 @@ title_ru: "Опора корпуса термостата"
 modified: "2014-02-11"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 19
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-015-shopds.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-015-shopds.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-015-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Coolant Thermostat Housing Support
 **Опора корпуса термостата**
 
 > [!abstract] Процедура · `20-008-015-shopds`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section DS - Engine Disassembly - Group 00
 > **Даты:** изменён 2014-02-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-015-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-015-shopds.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-015-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-015-shopds.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
+Industrial Applications
 
-### Снятие
+Conventional Aftercooling:
 
-Промышленное применение
+Remove both upper radiator hoses from the thermostat housing.
 
-Обычные послеохлаждения:
+Remove the coolant bypass tube clip (9).
 
-Удалите оба верхних шланга радиатора из корпуса термостата.
+Loosen both hose clamps.
 
-Удалите зажим для обхода трубки охлаждающей жидкости (9).
-
-Освободите оба шланговых зажима.
-
-Удалите трубку для обхода охлаждающей жидкости.
+Remove the coolant bypass tube.
 
 ![[08400104.png]]
 
-Удалите трубку обратного охлаждения после охлаждения, трубку подачи охлаждающей жидкости после охлаждения, прокладки и шланги из корпуса термостата.
+Remove the aftercooler coolant return tube, aftercooler coolant supply tube, gaskets, and hoses from the thermostat housing support.
 
 ![[08400105.png]]
 
-Удалите зажим трубки для подачи охлаждающей жидкости после охлаждения (7). Освободите зажимы шланга. Снимите опорную кронштейн (34).
+Remove the aftercooler coolant supply tube clip (7). Loosen the hose clamps. Remove the support bracket (34).
 
-Удалить трубку (31).
+Remove the tube (31).
 
-Удалите и отбросьте кольцо.
+Remove and discard the o-ring.
 
 ![[08400013.png]]
 
-Отсоедините выпускную трубку воздушного компрессора от корпуса термостата.
+Disconnect the air compressor coolant outlet tube from the thermostat housing.
 
-Удалите четыре крепежных болта и термостатный корпус.
+Remove the four mounting capscrews and the thermostat housing assembly.
 
-Удалите трубку для переноса охлаждающей жидкости.
+Remove the coolant transfer tube.
 
-Удалить и выбросить два кольца (19).
+Remove and discard the two o-rings (19).
 
 ![[th4suha.png]]
 
-Низкая температура после охлаждения (LTA):
+Low Temperature Aftercooling (LTA):
 
-Удалите оба верхних шланга радиатора из корпуса термостата.
+Remove both of the upper radiator hoses from the thermostat housing.
 
-Удалите оба верхних шланга LTA-радиатора из корпуса термостата.
+Remove both of the upper LTA radiator hoses from the thermostat housing.
 
-Удалите оба шланга вентиляции из корпуса термостата.
+Remove both of the vent hoses from the thermostat housing.
 
 ![[08400014.png]]
 
-Удалите зажим трубки шунтирующей теплоносителя (9).
+Remove the coolant bypass tube clamp (9).
 
-Освободите оба шланговых зажима.
+Loosen both hose clamps.
 
-Удалите хладагент в обходную трубку и шланг.
+Remove the coolant bypass tube and hose.
 
 ![[xm4clma.png]]
 
-Удалите зажимы для впуска и выпуска воды (7).
+Remove the water inlet and outlet tube clips (7).
 
-Освободите зажимы шланга.
+Loosen the hose clamps.
 
-Снять охладитель трубки опорной кронштейна (34).
+Remove the aftercooler coolant tube support bracket (34).
 
-Удалите трубки охлаждающей жидкости после охлаждения.
+Remove the aftercooler coolant tubes.
 
-Удалите и отбросьте кольца.
+Remove and discard the o-rings.
 
-Отсоедините провод датчика температуры охлаждающей жидкости (17).
+Disconnect the coolant temperature sensor wire (17).
 
 ![[08400012.png]]
 
-Удалите зажим трубки для подачи охлаждающей жидкости после охлаждения (7).
+Remove the aftercooler coolant supply tube clip (7).
 
-Освободите зажимы шланга.
+Loosen the hose clamps.
 
-Снимите опорную кронштейн (34).
+Remove the support bracket (34).
 
-Удалить трубку (31).
+Remove the tube (31).
 
-Удалите и отбросьте кольцо.
+Remove and discard the o-ring.
 
 ![[08400013.png]]
 
-Удалите четыре крепежных болта.
+Remove the four mounting capscrews.
 
-Снять корпус термостата.
+Remove the thermostat housing assembly.
 
-Удалите трубку для переноса охлаждающей жидкости.
+Remove the coolant transfer tube.
 
-Удалить и выбросить два кольца (19).
+Remove and discard the two o-rings (19).
 
 ![[08400010.png]]
 
-> [!note] Примечание
-> Спейсеры используются на чугунных чехлах.
+> [!note] Note · Примечание
+> Spacers are used on cast iron gear covers.
 
-Удалите болты и прокладку.
+Remove the capscrews and spacer.
 
 ![[08k00030.png]]
 
-Судовое применение
+Marine Applications
 
-Отсоедините косметику охлаждающей жидкости и шланги для вентиляции.
+Disconnect the coolant makeup and vent hoses.
 
 ![[08400404.png]]
 
-Отсоедините килевый охладитель подачу и возврат труб.
+Disconnect the keel cooler supply and return pipes.
 
-Удалите гибкие соединения, если это необходимо.
+Remove the flexible connections, if necessary.
 
 ![[08400405.png]]
 
-Удалите удерживающие зажимы из впускной трубы водяного насоса на водяном насосе и в корпусе термостата.
+Remove the retaining clips from the water pump inlet pipe at the water pump and at the thermostat housing.
 
-Удалите впускную трубу водяного насоса.
+Remove the water pump inlet pipe.
 
 ![[08400406.png]]
 
-Удалите удерживающий зажим на нижнем конце трубы подачи LTA.
+Loosen the retaining clip on the lower end of the LTA supply pipe.
 
 ![[08400396.png]]
 
-Удалите удерживающий зажим в корпусе термостата и вытащите трубу питания LTA из корпуса термостата.
+Remove the retaining clip at the thermostat housing and pull the LTA supply pipe out of the thermostat housing.
 
-Труба будет вращаться вокруг нижнего конца.
+The pipe will rotate around the lower end.
 
 ![[08400408.png]]
 
-Удалите два болта, удерживающие фланж водяного рельса, в корпус термостата.
+Remove the two capscrews holding the water rail flange to the thermostat housing.
 
-Отбросьте кольцо.
+Discard the o-ring.
 
 ![[08400409.png]]
 
-Отключите датчик температуры охлаждающей жидкости.
+Disconnect the coolant temperature sensor.
 
 ![[08400410.png]]
 
-Удалите четыре болта из подающих и возвращающих трубок послеохладителя.
+Remove the four capscrews from the aftercooler supply and return tubes.
 
-Уплотнительные кольца утилизируйте.
+Discard the o-rings.
 
 ![[08400411.png]]
 
-Удалите четыре болта, удерживающие корпус термостата, на крышку зубчатой передачи.
+Remove the four capscrews holding the thermostat housing to the gear cover.
 
-Снимите корпус термостата.
+Remove the thermostat housing.
 
 ![[08400412.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> Industrial Applications
->
-> Conventional Aftercooling:
->
-> Remove both upper radiator hoses from the thermostat housing.
->
-> Remove the coolant bypass tube clip (9).
->
-> Loosen both hose clamps.
->
-> Remove the coolant bypass tube.
->
-> Remove the aftercooler coolant return tube, aftercooler coolant supply tube, gaskets, and hoses from the thermostat housing support.
->
-> Remove the aftercooler coolant supply tube clip (7). Loosen the hose clamps. Remove the support bracket (34).
->
-> Remove the tube (31).
->
-> Remove and discard the o-ring.
->
-> Disconnect the air compressor coolant outlet tube from the thermostat housing.
->
-> Remove the four mounting capscrews and the thermostat housing assembly.
->
-> Remove the coolant transfer tube.
->
-> Remove and discard the two o-rings (19).
->
-> Low Temperature Aftercooling (LTA):
->
-> Remove both of the upper radiator hoses from the thermostat housing.
->
-> Remove both of the upper LTA radiator hoses from the thermostat housing.
->
-> Remove both of the vent hoses from the thermostat housing.
->
-> Remove the coolant bypass tube clamp (9).
->
-> Loosen both hose clamps.
->
-> Remove the coolant bypass tube and hose.
->
-> Remove the water inlet and outlet tube clips (7).
->
-> Loosen the hose clamps.
->
-> Remove the aftercooler coolant tube support bracket (34).
->
-> Remove the aftercooler coolant tubes.
->
-> Remove and discard the o-rings.
->
-> Disconnect the coolant temperature sensor wire (17).
->
-> Remove the aftercooler coolant supply tube clip (7).
->
-> Loosen the hose clamps.
->
-> Remove the support bracket (34).
->
-> Remove the tube (31).
->
-> Remove and discard the o-ring.
->
-> Remove the four mounting capscrews.
->
-> Remove the thermostat housing assembly.
->
-> Remove the coolant transfer tube.
->
-> Remove and discard the two o-rings (19).
->
-> **Note · Примечание**
-> Spacers are used on cast iron gear covers.
->
-> Remove the capscrews and spacer.
->
-> Marine Applications
->
-> Disconnect the coolant makeup and vent hoses.
->
-> Disconnect the keel cooler supply and return pipes.
->
-> Remove the flexible connections, if necessary.
->
-> Remove the retaining clips from the water pump inlet pipe at the water pump and at the thermostat housing.
->
-> Remove the water pump inlet pipe.
->
-> Loosen the retaining clip on the lower end of the LTA supply pipe.
->
-> Remove the retaining clip at the thermostat housing and pull the LTA supply pipe out of the thermostat housing.
->
-> The pipe will rotate around the lower end.
->
-> Remove the two capscrews holding the water rail flange to the thermostat housing.
->
-> Discard the o-ring.
->
-> Disconnect the coolant temperature sensor.
->
-> Remove the four capscrews from the aftercooler supply and return tubes.
->
-> Discard the o-rings.
->
-> Remove the four capscrews holding the thermostat housing to the gear cover.
->
-> Remove the thermostat housing.

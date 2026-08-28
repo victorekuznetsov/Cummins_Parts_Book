@@ -13,7 +13,10 @@ engines:
   - "37295879"
   - "41343322"
   - "41349633"
+  - "41353297"
+  - "41370103"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
   - "K38/K50 · QSK38, QSK50, QSK60"
@@ -24,10 +27,9 @@ manuals:
   - "5411406"
 parts:
   - "3315843"
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-375-005.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-375-005.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-375-005.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -36,75 +38,66 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QST30"
   - "группа/00"
-  - "перевод/машинный"
 ---
 
 # Common Diesel Fuel Issues
 **Типичные проблемы дизельного топлива**
 
 > [!abstract] Процедура · `00-375-005`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[41370103 — NH NT 855 CPL 3362|41370103]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSK60, NT/NTA855 · ISM/QSM11, QSK19, QST30
 > **Входит в руководства:** [[5411406 — Fluids for Cummins® Products Service Manual|5411406]]
 > **Секции:** Section 1 - Diesel Fuel
 > **Даты:** изменён 2022-11-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-375-005.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-375-005.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-375-005.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-375-005.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### General Information
 
+This section presents the various winter fuel issues and methods of dealing with them.
 
-### Общие сведения
+Two winter fuel handling issues, wax and ice, have annoyed diesel operators for years. There is no solution to either of these problems that is ideal for all situations, but the better the problem is understood, the less difficult the process of finding a solution becomes. Determining whether a low power complaint is due to a fuel filter plugging complaint is fairly simple: replace the fuel filter with a new filter. If this allows the vehicle to operate normally even for a short period of time, then obviously something in the fuel is plugging the filter and causing the complaint. A simple way of determining whether the filter plugging is caused by wax or ice is to bring the plugged filter into a warm shop, drain out the liquid fuel, place the filter upside down on a piece of paper or in a shallow pan, and allow the filter to warm to room temperature. If there is ice in the filter, it will melt and run out of the filter and the water on the paper or in the pan will be obvious. Most petroleum wax, on the other hand, will **not** melt at room temperature. To speed the analysis process, the filter can be cut open and spread out. Once the cause of the low power complaint is determined, a logical solution can be chosen.
 
-В этом разделе представлены различные вопросы, связанные с зимним топливом, и методы их решения.
+Fuel Wax
 
-Два зимних вопроса по обращению с топливом, воск и лед, раздражали дизельных операторов в течение многих лет. Не существует решения ни одной из этих проблем, которое идеально подходит для всех ситуаций, но чем лучше проблема понята, тем менее трудным становится процесс поиска решения. Определить, вызвана ли жалоба на низкое энергопотребление жалобой на подключение топливного фильтра, довольно просто: Заменить топливный фильтр на новый. Если это позволяет автомобилю нормально работать даже в течение короткого периода времени, то очевидно, что что-то в топливе засоряет фильтр и вызывает жалобу. Простой способ определить, вызвана ли заглушка фильтра воском или льдом, - это принести заглушенный фильтр в теплый магазин, высушить жидкое топливо, поместить фильтр вверх ногами на лист бумаги или на мелкой поддоне и позволить фильтру нагреваться до комнатной температуры. Если в фильтре есть лед, он расплавится и закончится, и вода на бумаге или в кастрюле будет очевидной. С другой стороны, большинство нефтяного воска не будет плавиться при комнатной температуре. Для ускорения процесса анализа фильтр можно разрезать и разложить. После того, как причина жалобы с низким энергопотреблением определена, может быть выбрано логическое решение.
+All middle (or intermediate) distillate fuels, such as jet fuels, heating fuels, and diesel fuels, contain paraffin wax. Paraffin wax is a solid, crystalline mixture of straight-chain or normal hydrocarbons melting in the approximate range of 40 to 60°C \[ 104 to 140°F \]. This paraffin wax occurs naturally in the crude oil from which fuel oils are distilled. The wax content of a distillate fuel varies greatly, depending on the crude oil from which the fuel is produced and in the processing of the fuel. Generally, higher boiling distillate fuels, such as U.S. Number 2-D diesel fuel, have a higher concentration of paraffin wax than lower boiling distillate fuels, such as jet fuel.
 
-Воск для топлива
+Because of the strong relationship between temperature and solubility of wax, wax separation is a problem in handling and using diesel fuel during cold weather. As fuel cools, a temperature is reached at which the soluble paraffin wax in the fuel begins to come out of solution (Cloud Point); any further cooling will cause wax to separate out of solution. The temperature at which a certain fuel will become saturated with wax and causes filter plugging problems is termed the Cold Filter Plugging Point (ASTM D6371). The temperature at which fuel will no longer flow is the Pour Point (ASTM D97). At the pour point, most of the fuel is still liquid, although it is very thick or viscous and trapped in a honeycomb-like network of wax crystals.
 
-Все среднее (или промежуточное) дистиллятное топливо, такое как реактивное топливо, топливо для отопления и дизельное топливо, содержит парафиновый воск. Парафиновый воск представляет собой твердую, кристаллическую смесь углеводородов с прямой цепью или нормальных углеводородов, плавящихся в приблизительном диапазоне от 40 до 60 ° C \[104 до 140° F \]. Этот парафиновый воск естественным образом встречается в сырой нефти, из которой дистиллируются мазуты. Содержание воска в дистиллятном топливе сильно варьируется в зависимости от сырой нефти, из которой производится топливо, и при переработке топлива. Как правило, более кипящие дистиллятные топлива, такие как США. Дизельное топливо № 2-D имеет более высокую концентрацию парафинового воска, чем низкое кипящее дистиллятное топливо, такое как реактивное топливо.
+Since diesel powered equipment is frequently used at temperatures low enough to cause wax to separate, a number of techniques have been devised to prevent the wax from causing problems by plugging fuel screens, lines, filter, and so on, and preventing fuel flow to the engine. Vehicles designed to operate at very low temperatures have provisions for heated fuel tanks, insulated fuel lines, heated fuel filters and other mechanisms to warm the fuel so that the wax does **not** separate. These more elaborate systems are usually **not** practical in more temperate climates where they are needed **only** a few days a year.
 
-Из-за сильной зависимости между температурой и растворимостью воска, разделение воска является проблемой при обращении и использовании дизельного топлива в холодную погоду. По мере охлаждения топлива достигается температура, при которой растворимый парафиновый воск в топливе начинает выходить из раствора (облачная точка); любое дальнейшее охлаждение приведет к отделению воска от раствора. Температура, при которой определенное топливо будет насыщено воском и вызывает проблемы с заглушением фильтра, называется точкой заглушения холодного фильтра (ASTM D6371). Температура, при которой топливо больше не будет течь, - это точка пур (ASTM D97). В точке разлива большая часть топлива все еще жидкая, хотя она очень толстая или вязкая и заперта в сотовой сети восковых кристаллов.
+Fuel Filters
 
-Поскольку дизельное оборудование часто используется при температурах, достаточно низких, чтобы вызвать разделение воска, был разработан ряд методов, чтобы предотвратить проблемы воска, подключая топливные экраны, линии, фильтр и так далее, и предотвращая поток топлива к двигателю. Транспортные средства, предназначенные для работы при очень низких температурах, имеют положения для топливных баков с подогревом, изолированных топливных линий, топливных фильтров с подогревом и других механизмов для нагрева топлива, чтобы воск не разделялся. Эти более сложные системы обычно не практичны в более умеренном климате, где они необходимы только несколько дней в году.
+Fuel filters have already been discussed in detail in the Fuel Filters section of this bulletin. The **only** additional consideration in terms of common issues with winter fuels is that using a large filter or multiple filters in parallel will allow more fuel wax to be filtered before a power loss occurs. Also, relocating the fuel lines and filter out of the wind-stream and wheel splash and into the engine compartment near the engine block will help keep them warm.
 
-Топливные фильтры
+Engine Idling
 
-Топливные фильтры уже подробно рассмотрены в разделе «Топливные фильтры» этого бюллетеня. *** Дополнительное рассмотрение с точки зрения общих проблем с зимним топливом заключается в том, что использование большого фильтра или нескольких фильтров параллельно позволит фильтровать больше воска топлива до потери мощности. Кроме того, перемещение топливных линий и фильтр из потока ветра и брызг колеса в моторное отделение рядом с блоком двигателя поможет им согреться.
+> [!warning] CAUTION · Осторожно
+> Do not idle the engine for excessively long periods of time with engine coolant temperature below the minimum specification found in the applicable engine Owner's Manual. This can result in fuel dilution of the lubricating oil, carbon build up in the cylinder, cylinder head valve sticking, and/or reduced performance.
 
-Идлинг двигателя
+Additives
 
-> [!warning] ОСТОРОЖНО
-> Не запускайте двигатель на холостом ходу в течение чрезмерно длительных периодов времени с температурой охлаждающей жидкости двигателя ниже минимальной спецификации, указанной в Руководстве владельца двигателя. Это может привести к разбавлению топлива моторным маслом, накоплению углерода в цилиндре, прилипанию головного клапана цилиндра и / или снижению производительности.
+There are a number of fuel additives available which reduce the pour point and cold filter plugging point (CFPP) of diesel fuel. These are commonly referred to as pour point depressant additives, cold flow improver additives, wax crystal modifiers, or fluidity improver additives (and can be collectively termed “Winter Additives”). Certain additives can reduce the Pour Point by as much as 21°C \[ 70°F \] and the CFPP by as much as -1°C \[ 30°F \]. A survey of winter blend fuels by the Bureau of Mines (now a part of the Energy Research and Development Administration) revealed that a large percentage of the commercially marketed diesel fuels had been treated with a winter additive. Before purchasing such an additive to treat fuel, ask the fuel supplier whether the fuel already contains a winter additive. Depending on the amount and type of additive already in the fuel, additional additives will or will **not** be necessary.
 
-Добавки
+These additives alter the size and shape of wax crystals, allowing pumping of fuel at lower temperatures. Although certain additives can be very effective, they are **not** a cure all. Their performance varies depending on the paraffin type and content of the fuel treated. Severe weather applications can require fuel warmers in addition to additives. Although other additives are available that can provide some benefits, PowerService Diesel Fuel Supplement® + Cetane Boost® is the **only** fuel additive endorsed by Cummins Inc. to help prevent filter gelling in cold weather applications.
 
-Существует ряд топливных добавок, которые уменьшают точку заливки и точку заглушения холодного фильтра (CFPP) дизельного топлива. Они обычно называются добавками депрессанта точки разлива, добавками для улучшения холодного потока, модификаторами кристаллов воска или добавками для улучшения текучести (и могут быть в совокупности названы «Зимние добавки»). Некоторые добавки могут уменьшить точку накачки на целых 21 ° C \[70 ° F \] и CFPP на целых -1 ° C \[30 ° F \]. Исследование, проведенное Бюро шахт (в настоящее время входит в состав Управления энергетических исследований и разработок), показало, что значительная часть дизельного топлива, продаваемого на рынке, была обработана с помощью зимней добавки. Перед покупкой такой добавки для обработки топлива спросите у поставщика топлива, содержит ли топливо уже зимнюю добавку. В зависимости от количества и типа добавки, уже содержащейся в топливе, дополнительные добавки будут или не будут необходимы.
+Fuel Warmers
 
-Эти добавки изменяют размер и форму кристаллов воска, позволяя перекачивать топливо при более низких температурах. Хотя некоторые добавки могут быть очень эффективными, они не являются лекарством. Их производительность варьируется в зависимости от типа парафина и содержания обработанного топлива. Тяжелые погодные условия могут потребовать топливных нагревателей в дополнение к добавкам. Хотя доступны и другие добавки, которые могут обеспечить некоторые преимущества, PowerService Diesel Fuel Supplement® + Cetane Boost® является единственной топливной добавкой, одобренной Cummins Inc. чтобы помочь предотвратить засорение фильтра в холодную погоду.
+Warming diesel fuel just prior to filtration is an excellent method of preventing fuel filter plugging. If cold fuel is warmed sufficiently, the wax crystals will dissolve in the fuel. The dissolving requires warming to a temperature of approximately 11 to 22°C or 20 to 40°F above the fuel's cold filter plugging point.
 
-Топливные нагреватели
+In order for a fuel warmer to reliably prevent fuel filter plugging due to wax, it **must** be capable of supplying enough heat to the fuel at the maximum fuel flow (**not** just fuel consumption) rate to raise the fuel temperature from the lowest expected fuel temperature (probably the lowest expected ambient temperature) to 11 to 22°C or 20 to 40°F above the fuel's cold filter plugging point. There are four different fuel warmers presently offered by Cummins Filtration™ to raise the temperature of the inlet fuel.
 
-Потепление дизельного топлива непосредственно перед фильтрацией является отличным методом предотвращения заглушения топливного фильтра. Если холодное топливо прогревается достаточно, кристаллы воска растворяются в топливе. Растворимость требует нагревания до температуры примерно от 11 до 22 ° C или от 20 до 40 ° F выше точки заглушения холодного фильтра топлива.
+- Fuel Filter Heater - The Cummins Filtration™ Positive Temperature Coefficient (PTC) fuel filter heats the fuel before the fuel flows into the fuel filter. The heater is installed on the fuel filter head. Most complaints of fuel waxing occur in the fuel filter. The heater uses ceramic discs that sense the fuel temperature and heat the fuel to a temperature just above the cloud point.
 
-Для того, чтобы топливный нагреватель надежно предотвращал заполнение топливного фильтра из-за воска, он должен быть способен подавать достаточно тепла в топливо при максимальной скорости расхода топлива (** не** только расход топлива), чтобы поднять температуру топлива с самой низкой ожидаемой температуры топлива (вероятно, самой низкой ожидаемой температуры окружающей среды) до 11-22 ° C или 20-40° F выше точки заглушения холодного фильтра топлива. В настоящее время Cummins FiltrationTM предлагает четыре различных топливных нагревателя для повышения температуры впускного топлива.
+The PTC heater is self-regulating. Depending on battery voltage, the heaters use from 6 to 25 amperes at maximum output. When no heat is required, the heater uses less than 0.5 ampere. The heater can be left on during engine operation or it can be turned off with the cab switch. The heater reaches full heating capacity in about two minutes. The PTC heater kit is available (see Table 13, Fuel Filter Heaters).
 
-- Нагреватель топливного фильтра - топливный фильтр Cummins FiltrationTM Positive Temperature Coefficient (PTC) нагревает топливо до того, как топливо поступает в топливный фильтр. Нагреватель устанавливается на головку крепления топливного фильтра. Большинство жалоб на воск топлива возникает в топливном фильтре. Нагреватель использует керамические диски, которые чувствуют температуру топлива и нагревают топливо до температуры чуть выше точки облака.
-
-Обогреватель PTC является саморегулируемым. В зависимости от напряжения батареи, нагреватели используют от 6 до 25 ампер при максимальной выходной мощности. Когда нет необходимости в нагревании, нагреватель использует менее 0,5 ампера. Нагреватель может быть оставлен включенным во время работы двигателя или он может быть выключен с помощью выключателя кабины. Нагреватель достигает полной тепловой мощности примерно за две минуты. Набор нагревателей PTC доступен (см. Таблицу 13, Нагреватели топливных фильтров).
-
-| **Таблица 13, нагреватели топливных фильтров** |  |
+| **Table 13, Fuel Filter Heaters** |  |
 |---|---|
-| **Ватты** | **Cummins FiltrationTM Part Number** |
+| **Watts** | **Cummins Filtration™ Part Number** |
 | 300 | 3836029-S |
 
-Набор Cummins FiltrationTM, номер детали 3837317-S, адаптирует нагреватель к большинству головок топливных фильтров с резьбой 1 в 14. Используйте следующий список топливных фильтров для идентификации головок топливных фильтров с резьбой 1 в 14. Нагреватель добавляет около 25 мм \[1 в \] в высоту к топливному фильтру монтажного головного убора.
+A Cummins Filtration™ Kit, Part Number 3837317-S, adapts the heater to most fuel filter heads with 1 in-14 threads. Use the following fuel filter list to identify fuel filter heads with 1 in-14 threads. The heater adds about 25 mm \[ 1 in \] in height to the fuel filter head assembly.
 
-| Список фильтров топлива с 1 в -14 резьбой |  |
+| Fuel Filter List with 1 in -14 Threads |  |
 |---|---|
 | FF-104 | FF-213 |
 | FF-105 | FF-105C |
@@ -112,285 +105,119 @@ tags:
 | FS-1000 | FS-1212 |
 | FF-105D | FS-1003 |
 
-Набор фильтрации Cummins, номер детали 3832054-S, адаптируется к фильтру FS-1251.
+The Cummins Filtration™ Kit, Part Number 3832054-S, adapts to FS-1251 filter.
 
-2. Рециркуляционный топливный нагреватель, номер детали 3305782, может использоваться для нагревания впускного топлива для расхода до 9,5 л/пм \[2,5 г/пм \]. Устройство циркулирует охлаждающей жидкости двигателя вокруг впускного топлива, чтобы согреть топливо. Блок наиболее эффективен, когда для нагрева охлаждающей жидкости используются погружения или нагреватели резервуаров. Дополнительный термостат, номер детали 3305783, может использоваться для обхода топлива при достижении 27 ° C 81 ° F. Используйте Таблицу 14, График повышения температуры, чтобы определить производительность этого топливного нагревателя для различных условий эксплуатации.
+2. Recirculating Fuel Warmer, Part Number 3305782, can be used to warm inlet fuel for flow up to 9.5 l/pm \[ 2.5 gpm \]. The unit circulates engine coolant around the inlet fuel to warm the fuel. The unit is most effective when immersion or tank heaters are used to warm the coolant. An optional thermostat, Part Number 3305783, can be used to bypass fuel when 27°C \[ 81°F \] is reached. Use Table 14, Temperature Rise Chart to determine the performance capability of this fuel warmer for different operating conditions.
 
-Циркулирующий топливный нагреватель, номер детали 3305782 - Данные о производительности
+Recirculating Fuel Warmer, Part Number 3305782 - Performance Data
 
-| ** Таблица 14, График повышения температуры** |  |  |  |
+| **Table 14, Temperature Rise Chart.** |  |  |  |
 |---|---|---|---|
-| ** Температура впускного топлива** | ** Температура расхода топлива на выходе** |  |  |
+| **Inlet Fuel Temperature** | **Outlet Fuel Temperature Fuel Flow Rate** |  |  |
 | **2-1/2 GPM** | **1-1/2 GPM** | **1/2 GPM** |  |
-| -34°C \[ -30°F \] | 0°C \[32°F \] | 3°C[38°F] | 11°C[52°F] |
-| -23°C \[ -10°F \] | 4°C[39°F] | 7°C[45°F] | 13°C[55°F] |
-| -12°C \[10°F \] | 8°C[47°F] | 12°C[53°F] | 15°C[59°F] |
-| -1°C \[30°F \] | 16°C[60°F] | 17°C[62°F] | 19°C[67°F] |
-| 10°C[50°F] | 22°C[71°F] | 23°C[74°F] | 25°C[77°F] |
-| 21°C[70°F] | 29°C[85°F] | 31°C[87°F] | 31°C[88°F] |
+| -34°C \[ -30°F \] | 0°C \[ 32°F \] | 3°C \[ 38°F \] | 11°C \[ 52°F \] |
+| -23°C \[ -10°F \] | 4°C \[ 39°F \] | 7°C \[ 45°F \] | 13°C \[ 55°F \] |
+| -12°C \[ 10°F \] | 8°C \[ 47°F \] | 12°C \[ 53°F \] | 15°C \[ 59°F \] |
+| -1°C \[ 30°F \] | 16°C \[ 60°F \] | 17°C \[ 62°F \] | 19°C \[ 67°F \] |
+| 10°C \[ 50°F \] | 22°C \[ 71°F \] | 23°C \[ 74°F \] | 25°C \[ 77°F \] |
+| 21°C \[ 70°F \] | 29°C \[ 85°F \] | 31°C \[ 87°F \] | 31°C \[ 88°F \] |
 
-3. Thermo BlendTM - Cummins FiltrationTM Thermo BlendTM топливный нагреватель рециркулирует теплое деаэрированное сливное топливо из двигателя в систему фильтрации и впрыска, вместо того, чтобы позволить ему вернуться в бак. Для обеспечения успешной работы обычно требуется 10-15-минутный период разогрева двигателя. Встроенный термостат автоматически обгоняет топливо при 43°C[109°F]. Часть 3310200** должна использоваться для всех дизельных двигателей среднего и тяжелого класса. Часть 3308750** должна использоваться для всех тяжелых транспортных средств вне дорог (например, 12- и 16-цилиндровых двигателей).
+3. Thermo Blend™ - The Cummins Filtration™ Thermo Blend™ fuel warmer recirculates warm deaerated drain fuel from the engine to the filter and injection system, rather than allowing it to return to the tank. A 10 to 15 minute engine-running warm up period is usually necessary to provide successful operation. A built-in thermostat automatically bypasses fuel at 43°C \[ 109°F \]. Part Number 3310200 **must** be used for all Midrange and Heavy Duty diesel engines. Part Number 3308750 **must** be used for all heavy duty off-highway equipment (such as 12 and 16 cylinder engines).
 
-4. Thermo BlendTM FM, Part Number 3310630, The Cummins FiltrationTM Thermo BlendTM FM топливный нагреватель, сочетает в себе принцип обратного нагрева топлива со специальной головкой фильтра. При использовании с Cummins® Part Number[[3315843]](Cummins FiltrationTM Part Number FS-1212) сепаратор топливной воды, он обеспечивает деваксирование топлива, удаление воды и фильтрацию. Встроенный термостат автоматически обгоняет топливо при 21°C \[70°F \]. При использовании топливных нагревателей, не перегревайте топливо. Максимальная температура топлива на входе в топливный насос составляет 70 ° C \[158 ° F \]. Изменения отопительных приборов должны быть обратимыми или иметь некоторые средства для их отключения во время работы в теплую погоду. Топливный бак нагревается топливом возврата (слива) топливного форсунка от двигателя. На типичных установках охлаждающий эффект бака поддерживает температуру топлива на приемлемом уровне.
+4. Thermo Blend™ FM, Part Number 3310630, The Cummins Filtration™ Thermo Blend™ FM fuel warmer, combines the return fuel heating principle with a special filter head. When used with Cummins® Part Number [[3315843]] (Cummins Filtration™ Part Number FS-1212) fuel-water separator, it provides fuel dewaxing, water removal, and filtration. A built-in thermostat automatically bypasses fuel at 21°C \[ 70°F \]. When using fuel warmers, do **not** overheat the fuel. The maximum fuel temperature at the inlet to the fuel pump is 70°C \[ 158°F \]. Alterations of heating devices **must** be reversible, or have some means to turn them off during warm weather operation. The fuel tank is heated by the injector return (drain) fuel from the engine. On typical installations, the cooling effect of the tank maintains fuel temperatures at an acceptable level.
 
-На некоторых установках, таких как акустически закрытые блоки, из-за конструкции происходит небольшое охлаждение резервуара. На этих установках охладитель мазута может использоваться для ограничения температуры топлива на входе топливного насоса до 70 ° C \[158 ° F \] или менее.
+On some installations, such as acoustically enclosed units, little cooling of the tank occurs because of the design. On these installations, a fuel oil cooler can be used to limit the temperature of the fuel at the fuel pump inlet to 70°C \[ 158°F \] or less.
 
-В зависимости от конкретной модели двигателя, лошадиная сила двигателя начнет немного снижаться выше температуры впуска топлива 46 ° C \[115 ° F \]. Процент потерь мощности ** не так велик на двигателях с топливной системой Cummins® PTTM и HPI® (менее 1% на 5 °C или 9 °F) из-за присущих характеристик компенсации вязкости (см. Раздел «Потеря мощности» в этом бюллетене). Работа выше 70°C[158°F] не рекомендуется из-за потери качества смазки топлива с результирующим износом компонентов топливной системы, которые зависят от топлива для смазки. Топливный нагреватель ** не** поможет, если топливо находится ниже точки разлива и может ** не** быть закачано в нагреватель; поэтому в чрезвычайно холодных условиях топливо можно обработать легким дистиллятным топливом или обработать депрессантом точки разлива, чтобы уменьшить точку разлива, или может потребоваться нагреть топливо, чтобы позволить ему течь.
+Depending on the particular engine model involved, the engine horsepower will begin to decrease slightly above fuel inlet temperatures of 46°C \[ 115°F \]. The percent of power loss is **not** as great on engines with the Cummins® PT™ and HPI® fuel system (less than 1 percent per 5°C or 9°F), due to the inherent viscosity compensating characteristics (see Power Loss section in this bulletin). Operation above 70°C \[ 158°F \] is **not** recommended due to the loss of the lubricating quality of the fuel with resultant wear to the fuel system components which depend on fuel for lubrication. A fuel warmer will **not** help if the fuel is below the pour point and can **not** be pumped to the warmer; therefore, in extremely cold conditions, fuel can be treated with light distillate fuel or treated with a pour point depressant to reduce the pour point, or it can be necessary to heat the fuel to allow it to flow.
 
-При использовании топливных нагревателей, которые используют охлаждающую жидкость двигателя в качестве источника тепла, некоторая форма нагрева охлаждающей жидкости во время отключения позволит нагревателю стать более эффективным гораздо быстрее после запуска. Эти топливные нагреватели ** должны быть проверены на наличие утечек. Поскольку топливный нагреватель находится на всасывающей стороне топливного насоса и система охлаждения находится под давлением, любая небольшая утечка позволит охлаждающей жидкости войти в топливную систему.
+When using fuel warmers that use engine coolant as a source of heat, some form of coolant heating during shutoff will allow the heater to become effective much more quickly after start-up. These fuel warmers **must** also be checked for leaks. Since the fuel warmer is on the suction side of the fuel pump and the cooling system is pressurized, any small leak will allow coolant to enter the fuel system.
 
-Другие соображения
+Other Considerations
 
-Воск в топливе будет откладываться в любом ограничении или резком изгибе в системе топливной сантехники. Если во время работы в холодную погоду происходит топливный голод, а заглубленные топливные фильтры ** не найдены, ищите затыкание экранов для захвата бака, резкие изгибы в топливных линиях, фитингах и т. Д.
+Wax in the fuel will deposit in any restriction or sharp bend in the fuel plumbing system. If fuel starvation occurs during cold-weather operation and plugged fuel filters are **not** found, look for plugging of tank pick-up screens, sharp bends in the fuel lines, fittings, and so forth.
 
-Загрязнение воды
+Water Contamination
 
-Свободная вода (не растворенная) в топливе может замерзнуть при низких температурах, а полученные кристаллы льда могут заглушить топливные фильтры, вызывая голод топлива. **************************************************************************************************************************************************************************************************************************************************************** Танки часто «застревают» с пастой для обнаружения воды (обычно получаемой от поставщиков топлива), чтобы убедиться, что они сухие. Если вода обнаружена, ее необходимо выкачать.
+Free water (non-dissolved) in the fuel can freeze at low temperatures and the resulting ice crystals can plug fuel filters causing fuel starvation. Care **must** be taken to keep fuel storage tanks dry. Tanks can be “stuck” often with water detecting paste (usually obtainable from fuel suppliers) to be sure they are dry. If water is detected, it **must** be pumped out.
 
-Уже упоминалось о сохранении резервуаров для хранения сыпучих видов топлива в сухом состоянии; однако, если это является постоянной проблемой, на системе дозирования сыпучих видов топлива может быть установлена сушилка (сепаратор топливной воды).
+Keeping bulk fuel storage tanks dry has already been mentioned; however, if this is a persistent issue, a dryer (fuel-water separator) can be installed on the bulk fuel dispensing system.
 
-Конденсация в топливном баке (баках) транспортного средства происходит, когда воздух в топливном баке (баках) охлаждается в период остановки. Эта влажность может быть уменьшена путем заполнения топливного бака транспортного средства до отключения двигателя, чтобы уменьшить воздушное пространство над топливом.
+Condensation in the vehicle fuel tank(s) occurs when the air in the fuel tank(s) cools down during a shutdown period. This moisture can be reduced by filling the vehicle fuel tank before engine shutdown to reduce the air space above the fuel.
 
-Растворившаяся вода выходит из раствора, когда топливо охлаждается. При охлаждении топлива от 4 до -29°C, [от 39 до -20°F] растворимость воды в топливе снижается на 70 процентов. Таким образом, топливо, перекачиваемое из относительно теплого подземного резервуара в транспортное средство, которое находится в ночное время при минусовых температурах, может привести к разделению свободной воды. Однако этот источник свободной воды почти незначителен, потому что даже при высоких температурах топливо растворяет очень мало воды (0,1 масс. процента при 71°C) \[160°F \].
+Dissolved water comes out of solution as fuel cools. As fuel cools from 4 to -29°C, \[ 39 to -20°F \] the solubility of water in the fuel reduces 70 percent. Therefore, fuel pumped from a relatively warm underground tank into a vehicle which sits overnight in sub-zero temperatures can cause some free water to separate. However, this source of free water is almost negligible, because even at high temperatures, fuel will dissolve very little water (0.1 mass-percent at 71°C) \[ 160°F \]).
 
-> [!note] Примечание
-> Более холодные погодные условия эксплуатации двигателя рекомендации в Бюллетене обслуживания эксплуатации дизельных двигателей в холодном климате, Бюллетень[[3379009 — Operation of Diesel Engines in Cold Climates|3379009]]и в руководстве по эксплуатации и техническому обслуживанию двигателя.
+> [!note] Note · Примечание
+> More cold weather engine operation recommendations are in Service Bulletin Operation of Diesel Engines in Cold Climates, Bulletin [[3379009 — Operation of Diesel Engines in Cold Climates|3379009]] and in the engine operation and maintenance manual.
 
-Микробное загрязнение дизельного топлива
+Microbial Contamination of Diesel Fuel
 
-> [!danger] ОПАСНО
-> Хотя большинство микробов, которые будут жить в топливных баках, являются обычными организмами, которым люди постоянно подвергаются, необходимо избегать контакта с микробами или грибами из топливного бака. Когда топливная система загрязнена и необходима очистка, рабочие должны быть защищены. Помните, что грибы производят репродуктивные споры, и когда они сухие, они могут легко попасть в воздух, поэтому необходимо обеспечить защиту дыхания или сохранить микроорганизмы влажными. Утилизировать воду и ил, удаленные из топливных баков должным образом. Никогда не помещайте эти материалы в санитарную канализационную систему, поскольку они могут убивать бактерии, используемые при обработке сточных вод. Никогда не помещайте их в ливневые канализации или поверхностные водные потоки, поскольку они могут убивать рыб и других водных животных.
+> [!danger] WARNING · Опасно
+> Although most of the microbes that will live in fuel tanks are common organisms to which humans are constantly exposed, contact with microbes or fungi from a fuel tank must be avoided. When a fuel system is contaminated and cleaning is necessary, workers must be protected. Remember that the fungi produce reproductive spores and when dry these can easily become airborne, so breathing protection must be provided or the microorganisms must be kept wet. Dispose of the water and sludge removed from fuel tanks properly. Never place these materials in sanitary sewer system since they can kill bacteria used in sewage treatment. Never place them in storm sewers or surface water streams since they can kill fish and other aquatic animals.
 
-> [!danger] ОПАСНО
-> Наиболее распространенной проблемой, связанной с воздействием этих микробов, является дерматит, который у некоторых людей может быть довольно серьезным. Любая открытая кожа должна быть тщательно вымыта теплой мыльной водой.
+> [!danger] WARNING · Опасно
+> The most common problem associated with exposure to these microbes is dermatitis which in some people can be quite serious. Any exposed skin must be thoroughly washed with warm, soapy water.
 
-> [!danger] ОПАСНО
-> Избегайте еды, питья и курения во время работы с этими микробами. Любое попадание микробов или воздействие на сломанную кожу должно считаться серьезным. Рекомендуется, если это произойдет, работника отвезти к врачу вместе с образцом микробов.
+> [!danger] WARNING · Опасно
+> Avoid eating, drinking and smoking while working with these microbes. Any ingestion of the microbes or exposure to broken skin must be considered serious. It is recommended that if this happens the worker be taken to a doctor, along with a sample of the microbes.
 
-> [!danger] ОПАСНО
-> Биоциды, как правило, являются лишь слегка токсичными для человека и животных, но с ними все равно нужно обращаться осторожно. В случаях приема внутрь или контакта с глазом следуйте рекомендациям производителя. Ищите медицинскую помощь.
+> [!danger] WARNING · Опасно
+> Biocides are generally only mildly toxic to humans and animals but must still be handled carefully. In cases of ingestion or contact with the eye, follow manufacturer's recommendations. Seek medical attention.
 
-В этом разделе рассматриваются вопросы распознавания и решения микробного загрязнения дизельного топлива.
+This section covers the recognition of and solutions to microbial contamination of diesel fuel.
 
-Для защиты от нехватки топлива многие пользователи хранят топливо, и в результате частота микробного загрязнения увеличилась. Микробное загрязнение топлива, хотя и не является новой проблемой, чаще встречается в металлообрабатывающих отраслях, которые используют водорастворимые масла в качестве жидкостей для резки или при долгосрочном хранении углеводородного топлива, чем в дизельном флоте. Все углеводородные виды топлива стерилизуются в основном высокими температурами, встречающимися в процессе переработки, однако они могут быть загрязнены вскоре после выхода из нефтеперерабатывающего завода микроорганизмами. Эти микроорганизмы, в первую очередь бактерии и грибки, существуют довольно безвредно в безвлажном топливе, проходя через топливные системы без каких-либо негативных последствий.
+To protect against fuel shortages, many users have been storing fuel and, as a result, the frequency of microbial contamination has increased. Microbial contamination of fuel, though **not** a new concern, is more common in metalworking industries which use water-soluble oils as cutting fluids or in long-term storage of hydrocarbon fuels than it is in diesel fleet operations. All hydrocarbon fuels are essentially sterilized by the high temperatures encountered in the refining process; however, they can become contaminated soon after leaving the refinery by microorganisms. These microorganisms, primarily bacteria and fungi, exist rather harmlessly in moisture-free fuel, passing through fuel systems without having any negative effects.
 
-Однако в присутствии воды эти микроорганизмы начинают расти и размножаться. Скорость роста зависит от того, насколько хорошо окружающая среда соответствует потребностям конкретного микроорганизма.
+However, in the presence of water, these microorganisms begin to grow and reproduce. The rate of growth depends on how well the environment suits the particular microorganism's needs.
 
-Рост большой колонии микроорганизмов в топливной системе может вызвать несколько проблем. Первый и, как правило, наиболее очевидный - затыкание топливного фильтра зелено-черной или коричневой слизью, часто сопровождающееся неприятным запахом. Эта скользкая, струнная колония также может затыкать острые изгибы в топливных линиях, счетчиках топлива и других ограничениях. Вторая проблема, которую могут вызвать эти микроорганизмы, — коррозия из-за побочных продуктов кислоты, которые некоторые из них производят. Также возможно, если микроорганизмы пройдут через топливный фильтр, то они сформируют отложения и нанесут ущерб топливному насосу и топливному форсунке.
+The growth of a large colony of microorganisms in a fuel system can cause several issues. The first and usually most obvious is fuel filter plugging with a greenish-black or brown slime, frequently accompanied by a foul odor. This slimy, string-like colony can also plug sharp bends in fuel lines, fuel meters, and other restrictions. The second issue these microorganisms can cause is corrosion due to the acid by-products some of them produce. It is also possible, if the microorganisms pass through the fuel filter, that they will form deposits and cause damage in the fuel pump and injectors.
 
-Некоторые показатели микробного загрязнения:
+Some indicators of microbial contamination are:
 
-- Слизевые отложения на стенках резервуаров, трубопроводах или других поверхностях, которые подвергаются воздействию топлива. Эти отложения обычно зелено-черные или коричневые и скользкие на ощупь.
-- Черный или коричневый «струнный» материал, подвешенный в резервуаре с водой.
-- Набухание или волдыри любой резиновой поверхности (стирки, шланги, разъемы и т. Д.), Которая вступает в контакт с топливом.
-- Отложения шлама или слизи на поверхностях фильтров.
-- Грязный запах, напоминающий запах гнилых яиц (сульфид водорода).
+- Slime deposits on tank walls, piping, or other surfaces which are exposed to fuel. These deposits are usually greenish-black or brown and are slick to the touch.
+- Black or brown "stringy" material suspended in tank water bottoms.
+- Swelling or blistering of any rubber surface (washers, hoses, connectors, and so forth) that comes in contact with fuel.
+- Sludge or slime deposits on filter surfaces.
+- Foul odor resembling that of rotten eggs (hydrogen sulfide).
 
-Следующий список показывает измерительные наборы, о которых мы знаем. Перечень комплекта может **не** быть истолкован как рекомендация или одобрение; и тот факт, что комплект ** не** указан **только **, означает, что мы не знаем об этом. Cummins Inc. ** не тестировал ни один из этих комплектов, но только *** просмотрел литературу производителя. Пользователи ** должны ** оценить доступные им комплекты и выбрать один на основе их собственного суждения.
+The following list shows test kits of which we are aware. Listing of a kit can **not** be construed as a recommendation or approval; and, the fact that a kit is **not** listed **only** means we are unaware of it. Cummins Inc. has **not** tested any of these kits, but has **only** reviewed the manufacturer's literature. Users **must** evaluate the kits available to them and select one based on their own judgment.
 
-- Общий счетный пробоотборник, Каталоговый номер МТОО 25 для пакета 25, от корпорации Millipore, Бедфорд, МА 01730, 1-800-645-5476. Total Count Sampler содержит питательные среды, специально разработанные для стимулирования роста бактерий, однако на нем будет расти много грибов. Миллипор рекомендует инкубацию при 35°C[95°F] в течение 24 часов, однако инкубацию при комнатной температуре можно проводить в течение 36-48 часов. Если результаты на Total Count Sampler низкие и все еще подозреваются, повторите выборку с использованием MilliporeTM Yeast и Mold Sampler (каталожный номер MYOO 000 25 для пакета 25). Этот сэмплер содержит питательные среды, которые подавляют рост большинства бактерий, но богат питательными веществами для грибов. Для достижения наилучших результатов используйте оба образца каждый раз, когда тестируются дно воды. Эти пробоотборники MilliporeTM, вероятно, являются наиболее чувствительными из перечисленных, и на самом деле могут привести к переочистке топливной системы. Образцы MilliporeTM также доступны из Millipore в Австралии, Бельгии, Бразилии, Канаде, Дании, Англии, Финляндии, Франции, Италии, Японии, Мексики, Норвегии, Испании, Швеции, Швейцарии и Западной Германии. Запросы из других стран могут быть направлены в Millipore lntertech, Inc., P.O. Бокс 255, Бедфорд, MA 01730 U.S.A.
-- Измерительный комплект для мониторинга микробов (от Air BP®) British Petroleum Cleveland-Hopkins International Airport Cleveland, OH 44135, 1-800-533-2340. Один образец на комплект. Инкубирует при комнатной температуре.
+- Total Count Sampler, Catalog Number MTOO 000 25 for package of 25, from Millipore Corporation, Bedford, MA 01730, 1-800-645-5476. The Total Count Sampler contains a nutrient media specifically designed to encourage bacterial growth; however, many fungi will grow on it. Millipore recommends incubation at 35°C \[ 95°F \] for 24 hours; however, they can be incubated at room temperature for 36 to 48 hours. If the results on the Total Count Sampler are low and are still suspected, re-sample using Millipore™ Yeast and Mold Sampler (Catalog Number MYOO 000 25 for package of 25). This sampler contains a nutrient media which suppresses the growth of most bacteria, but is rich in nutrients for fungi. For best results, use both samplers each time water bottoms are tested. These Millipore™ samplers are probably the most sensitive of those listed, and in fact, can lead to overtreatment of a fuel system. Millipore™ samplers are also available from Millipore in Australia, Belgium, Brazil, Canada, Denmark, England, Finland, France, Italy, Japan, Mexico, Norway, Spain, Sweden, Switzerland, and West Germany. Inquiries from other countries can be directed to Millipore lntertech, Inc., P.O. Box 255, Bedford, MA 01730 U.S.A.
+- Microbe Monitor Test Kit (From Air BP®) British Petroleum Cleveland-Hopkins International Airport Cleveland, OH 44135, 1-800-533-2340. One sample per kit. Incubates at room temperature.
 
-Когда установлено, что микробное загрязнение присутствует и необходимо принять меры, существует несколько подходов. Наиболее очевидным решением является профилактика. Большинство бактерий и грибов, участвующих в этом процессе, являются почвенными организмами, которые могут стать переносимыми по воздуху или по воде. Профилактика попадания микроорганизмов в организм невозможна, поскольку эти организмы могут поступать в топливо по разным маршрутам.
+When it has been established that microbial contamination is present and action **must** be taken, there are several approaches. The most obvious solution is prevention. Most of the bacteria and fungi involved are soil organisms which can become airborne or waterborne. Prevention of the entrance of microorganisms is **not** possible because these organisms can enter the fuel through many different routes.
 
-Рост этих микроорганизмов можно предотвратить. Поскольку все обменные процессы организма проводятся в воде, отказ микроорганизмам в доступе к воде будет препятствовать росту, тем самым предотвращая развитие крупных, проблемных колоний. Поэтому первым и самым важным шагом в профилактике является сохранение топливных систем в сухом состоянии. Сохранить топливную систему полностью сухой невозможно. В тех случаях, когда микробное загрязнение является повторяющейся проблемой, микробицид может быть использован для химической обработки топлива или воды.
+Growth of these microorganisms can be prevented. Since all metabolic processes of an organism are conducted in water, denying the microorganism access to water will prevent growth, thus preventing the development of large, troublesome colonies. Therefore, the first and most important step in prevention is to keep fuel systems dry. Keeping a fuel system entirely dry is impossible. In cases where microbial contamination is a recurring issue, a microbicide can be used to chemically treat the fuel or the water.
 
-Существует три основных класса биоцидов: водорастворимый, топливорастворимый и универсально растворимый. Топливнорастворимые биоциды лучше всего подходят для обработки топлива, которое должно пройти через несколько этапов хранения в процессе распределения. Растворимый в топливе биоцид, вводимый в топливо на ранней стадии распределительной системы, переносится с топливом через всю систему, эффективно стерилизуя топливо до его использования. Топливнорастворимые биоциды легче добавлять в топливную систему, так как точное количество, необходимое для обработки объема топлива, легко определяется, и они имеют низкую токсичность для человека и других форм жизни. Очевидным недостатком биоцидов, растворимых в топливе, является стоимость; каждая партия нового топлива, добавленного в систему, должна быть обработана, поскольку биоцид потребляется по мере потребления топлива.
+There are three general classes of biocides: water-soluble, fuel-soluble, and universally soluble. Fuel-soluble biocides are best suited for treating fuels which are to pass through several storage steps in the distribution process. A fuel-soluble biocide injected into the fuel early in the distribution system is carried with the fuel through the entire downstream system, effectively sterilizing the fuel until usage. Fuel-soluble biocides are easier to add to the fuel system since the exact amount needed to treat a volume of fuel is easily determined and they have a low toxicity to human and other life forms. The obvious disadvantage to fuel-soluble biocides is cost; each batch of new fuel added to the system **must** be treated since the biocide is consumed as the fuel is consumed.
 
-Водорастворимые биоциды более экономичны для использования при обработке одного шага в системе распределения топлива, такой как резервуар для хранения конечного пользователя. Водорастворимые биоциды, поскольку они нерастворимы в топливе, остаются там, где они размещены, пока не будут выкачаны из резервуара; следовательно, общее количество биоцида, приобретенного, меньше. Существует ряд недостатков водорастворимых биоцидов. Поскольку биоцид не переносится топливом вниз по течению, каждый последующий бак в системе должен обрабатываться индивидуально. Существует некоторая трудность в определении того, сколько биоцида поместить в резервуар, поскольку это зависит от того, сколько воды находится в резервуаре. Биоцид может быть тщательно смешан с водой в нижней части резервуара. Водорастворимые биоциды гораздо легче усваиваются людьми и другими формами жизни: и, следовательно, *** должны быть утилизированы должным образом, когда дно воды выкачивается из резервуара. Дно воды, содержащее водорастворимый биоцид, не должно быть помещено в санитарную канализационную систему, поскольку биоцид может уничтожить бактерии, используемые очистными сооружениями. Эти водные дно должны рассматриваться как кислые промышленные жирные отходы.
+Water-soluble biocides are more economical for use in treating one step in a fuel distribution system, such as the end-user's storage tank. The water-soluble biocides, since they are insoluble in fuel, stay where they are placed until the water bottoms are pumped from the tank; therefore, the total amount of biocide purchased is less. There are a number of disadvantages to water soluble biocides. Since no biocide is carried downstream by the fuel, each successive tank in the system **must** be individually treated. There is some difficulty in determining how much biocide to place in a tank, since that depends on how much water is in the tank. The biocide can **not** be thoroughly mixed with the water in the bottom of a tank. Water-soluble biocides are much more easily taken in by humans and other life forms: and therefore, **must** be disposed of properly when water bottoms are pumped from a tank. Water bottoms containing a water-soluble biocide **must not** be placed in a sanitary sewer system because the biocide can destroy the bacteria used by sewage treatment plants. These water bottoms **must** be treated as an acidic, industrial oily waste.
 
-Универсально растворимые биоциды растворимы как в воде, так и в дизельном топливе. Они позволяют обрабатывать всю систему нисходящего потока. Однако, каждая последующая нагрузка топлива не должна быть обработана. Биоцид будет оставаться в любой воде, которая была собрана на дне резервуара для хранения и продолжает подавлять рост микробов. При определенных типах биоцидов интервал между процедурами может составлять до шести месяцев. Как и водорастворимые биоциды, универсально растворимые биоциды легче усваиваются людьми и другими формами жизни. Они также, как правило, дороже, чем другие виды биоцидов.
+Universally soluble biocides are soluble in both water and diesel fuel. They allow you to treat the entire downstream system. However, each subsequent load of fuel does **not** need to be treated. The biocide will remain in any water that has collected at the bottom of the storage tank and continue to inhibit microbial growth. With certain types of biocides, the interval between treatments can be as long as six months. Like water-soluble biocides, universally soluble biocides are more easily taken up by humans and other forms of life. They also tend to be more expensive than the other types of biocides.
 
-Обработка топливного бака, который заражен большой популяцией микроорганизмов, убьет микроорганизмы, но это не устранит затыкание фильтра, которое они могут вызывать. Вода и ил, содержащие микроорганизмы, должны быть удалены из топливных систем. Во-первых, тщательно прочистите топливную систему. Затем к следующим нескольким партиям топлива необходимо добавить биоцид, растворимый в топливе или универсально растворимый, чтобы убить оставшиеся микроорганизмы. Наконец, добавление водорастворимого или универсально растворимого биоцида может продолжаться в течение по крайней мере нескольких месяцев, чтобы убедиться, что все микроорганизмы мертвы. Если микробное загрязнение является повторяющейся проблемой, рекомендуется постоянно продолжать использование водорастворимого или универсально растворимого биоцида, поскольку это будет наиболее экономически эффективным решением проблемы. Это можно сделать, определив количество воды, которая накапливается в днищах резервуаров между выкачиваниями, и добавив примерно в два или три раза количество водорастворимого биоцида, рекомендованного для обработки этого объема воды. Например: Обычно выкачиваете около 379 литров [100 галлонов] водного дна. В этом случае после откачки днища сразу же добавьте в топливный бак в два-три раза больше биоцида, обычно используемого для обработки 379 литров воды. Поскольку биоцид более плотный, чем топливо, он оседает на дно резервуара и растворяется в воде по мере накопления. После заправки топливного бака биоциду *** должно быть разрешено осесть до извлечения из него топлива, чтобы не выкачивать биоцид с топливом.
+Treating a fuel tank that is infested with a large population of microorganisms will kill the microorganisms, but it will **not** eliminate the filter plugging they can be causing. The water and sludge containing the microorganisms **must** be removed from the fuel systems. First, clean the fuel system thoroughly. Next, a fuel-soluble or universally-soluble biocide **must** be added to the next few batches of fuel to kill any remaining microorganisms. Finally, the addition of a water-soluble or universally-soluble biocide can be continued for at least several months to be sure the microorganisms are all dead. If microbial contamination is a recurring issue, it is recommended that use of the water-soluble or universally-soluble biocide be continued permanently, since this will be the most cost effective solution to the problem. This can be done by determining the amount of water that accumulates in tank bottoms between pump outs and adding about double or triple the amount of water-soluble biocide recommended to treat that volume of water. For example: you normally pump out approximately 379 liters \[ 100 gallons \] of water bottoms. In this case, after pumping the bottoms, immediately add to the fuel tank two or three times the amount of biocide normally used to treat 379 liters \[ 100 gallons \] of water. Since the biocide is more dense than fuel, it will settle to the bottom of the tank and will dissolve in the water as it accumulates. After refilling a fuel tank, the biocide **must** be allowed to settle before drawing fuel from it to keep from pumping the biocide out with the fuel.
 
-Раскраска топлива (черное топливо)
+Fuel Discoloration (Black Fuel)
 
-В некоторых двигателях Cummins нормальная работа может привести к тому, что дизельное топливо в двигателе и топливном баке будет выглядеть темным или черным по цвету. Обесцвечивание топлива может быть вызвано следующим: Смешивание моторного масла двигателя с топливом во время работы, образование асфальтенов, деградация топлива из хранилища или из практики смешивания моторного масла с топливом, которое должно быть сожжено двигателем.
+In some Cummins® engines, normal operation can cause the diesel fuel in the engine and fuel tank to appear dark or black in color. Discoloration of the fuel can be caused by the following: engine lubricating oil mixing with the fuel during operation, the formation of asphaltenes, degradation of fuel from storage, or from the practice of blending lubricating oil with fuel to be burned by the engine.
 
-Смешивание моторного моторного масла
+Mixing of engine lubricating oil
 
-В некоторых топливных системах моторное масло двигателя и дизельное топливо используются в непосредственной близости друг от друга для целей смазки и уплотнения. Этот интерфейс является функцией топливного насоса и/или конструкции форсунки. При определенных условиях эксплуатации небольшое количество моторного масла может смешиваться с дизельным топливом и возвращаться в бак, в результате чего топливо будет выглядеть темным. Требуется очень небольшое количество моторного масла (менее 0,1%), чтобы топливо стало заметно темнеть. Это небольшое количество масла в топливе не будет иметь негативного влияния на производительность двигателя, долговечность или надежность.
+In some fuel systems, engine lubricating oil and diesel fuel are used in close proximity to each other for lubricating and sealing purposes. This interface is a function of fuel pump and/or injector design. Under certain operating conditions, a small amount of lubricating oil can mix with the diesel fuel and be returned to the tank, causing the fuel to appear dark in color. It takes a very small amount of lubricating oil (less than 0.1 percent) to cause the fuel to become visibly darkened. This small amount of oil in the fuel will have no adverse affects on engine performance, durability, or reliability.
 
-образование асфальтена
+Asphaltene formation
 
-Это явление характерно для топливных систем, работающих при очень высоких давлениях и температурах топлива. Высокотемпературное топливо, которое не впрыскивается в цилиндр сгорания, возвращается в топливный бак. По мере того, как топливо рециркулируется и подвергается воздействию тех же высоких давлений и температур во время непрерывной работы, асфальтены начинают образовывать более крупные кластеры нерастворимых материалов, которые могут привести к обесцвечиванию топлива. Если эти образования асфальтенов достаточно велики, они будут захвачены фильтрующим элементом и могут привести к высокому ограничению фильтра и сокращению срока службы фильтра.
+This phenomenon is common for fuel systems that operate at very high fuel pressures and temperatures. The high temperature fuel that is **not** injected into a combustion cylinder is returned to the fuel tank. As the fuel is recirculated and exposed to the same high pressures and temperatures during continuous operation, asphaltenes begin to form larger clusters of insoluble materials that can lead to fuel discoloration. If these formations of asphaltenes grow large enough, they will be captured by the filter element and can lead to high filter restriction and shortened filter life.
 
-Образование асфальтена из-за перегрева топлива может усугубляться отсутствием топливных охладителей, топливных баков неправильного размера, неадекватным смешиванием возвратного топлива между баками, низким уровнем топлива или установкой топливного бака, который предотвращает рассеивание тепла. Если подозревается проблема охлаждения двигателя или топливной системы, системы охлаждения должны быть проверены и модифицированы по мере необходимости в соответствии с Cummins Inc. требования. Существующие топливные фильтры, возможно, потребуется изменить размер или добавить дополнительную фильтрацию для увеличения емкости удерживания загрязняющих веществ. Проконсультируйтесь с авторизованным местом ремонта Cummins® для руководства по выбору топливного фильтра и проблемам системы охлаждения.
+Asphaltene formation due to fuel overheating can be aggravated by a lack of fuel coolers, improperly sized fuel tanks, inadequate mixing of return fuel between tanks, low fuel levels, or installation of the fuel tank that prevents dissipation of heat. If an engine or fuel system cooling issue is suspected, the cooling systems **must** be inspected and modified as necessary to comply with Cummins Inc. requirements. Existing fuel filters could possibly need to be resized or additional filtration could possibly need to be added to increase contaminant holding capacity. Consult a Cummins® Authorized Repair Location for guidance in fuel filter selection and cooling system issues.
 
-Деградация топлива из хранилища
+Degradation of fuel from storage
 
-См. раздел «Микробиологическое загрязнение дизельного топлива» этого бюллетеня.
+Refer to the “Microbial Contamination of Diesel Fuel” section of this service bulletin.
 
-Потемнение дизельного топлива вследствие смешивания моторного масла или образования асфальтена не указывает на производственный дефект или другую гарантируемую неисправность и является функцией нормальной работы. Клиенты должны продолжать использовать оборудование, как есть, если обесцвечивание не вызвано перегревом топлива, загрязнением топлива или если срок службы топливного фильтра сокращается и вызывает эксплуатационные трудности с оборудованием.
+Darkening of diesel fuel due to the mixing of lubricating oil or asphaltene formation does **not** indicate a manufacturing defect or other warrantable malfunction, and is a function of normal operation. Customers should continue using the equipment as is, unless the discoloration has resulted from fuel overheating, fuel contamination, or if fuel filter life is being reduced and causing operational difficulties with the equipment.
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3315843]] | FUEL WATER SEPARATOR | Влагоотделитель топлива |
-
-> [!quote]- Original (English) · английский оригинал
-> ### General Information
->
-> This section presents the various winter fuel issues and methods of dealing with them.
->
-> Two winter fuel handling issues, wax and ice, have annoyed diesel operators for years. There is no solution to either of these problems that is ideal for all situations, but the better the problem is understood, the less difficult the process of finding a solution becomes. Determining whether a low power complaint is due to a fuel filter plugging complaint is fairly simple: replace the fuel filter with a new filter. If this allows the vehicle to operate normally even for a short period of time, then obviously something in the fuel is plugging the filter and causing the complaint. A simple way of determining whether the filter plugging is caused by wax or ice is to bring the plugged filter into a warm shop, drain out the liquid fuel, place the filter upside down on a piece of paper or in a shallow pan, and allow the filter to warm to room temperature. If there is ice in the filter, it will melt and run out of the filter and the water on the paper or in the pan will be obvious. Most petroleum wax, on the other hand, will **not** melt at room temperature. To speed the analysis process, the filter can be cut open and spread out. Once the cause of the low power complaint is determined, a logical solution can be chosen.
->
-> Fuel Wax
->
-> All middle (or intermediate) distillate fuels, such as jet fuels, heating fuels, and diesel fuels, contain paraffin wax. Paraffin wax is a solid, crystalline mixture of straight-chain or normal hydrocarbons melting in the approximate range of 40 to 60°C \[ 104 to 140°F \]. This paraffin wax occurs naturally in the crude oil from which fuel oils are distilled. The wax content of a distillate fuel varies greatly, depending on the crude oil from which the fuel is produced and in the processing of the fuel. Generally, higher boiling distillate fuels, such as U.S. Number 2-D diesel fuel, have a higher concentration of paraffin wax than lower boiling distillate fuels, such as jet fuel.
->
-> Because of the strong relationship between temperature and solubility of wax, wax separation is a problem in handling and using diesel fuel during cold weather. As fuel cools, a temperature is reached at which the soluble paraffin wax in the fuel begins to come out of solution (Cloud Point); any further cooling will cause wax to separate out of solution. The temperature at which a certain fuel will become saturated with wax and causes filter plugging problems is termed the Cold Filter Plugging Point (ASTM D6371). The temperature at which fuel will no longer flow is the Pour Point (ASTM D97). At the pour point, most of the fuel is still liquid, although it is very thick or viscous and trapped in a honeycomb-like network of wax crystals.
->
-> Since diesel powered equipment is frequently used at temperatures low enough to cause wax to separate, a number of techniques have been devised to prevent the wax from causing problems by plugging fuel screens, lines, filter, and so on, and preventing fuel flow to the engine. Vehicles designed to operate at very low temperatures have provisions for heated fuel tanks, insulated fuel lines, heated fuel filters and other mechanisms to warm the fuel so that the wax does **not** separate. These more elaborate systems are usually **not** practical in more temperate climates where they are needed **only** a few days a year.
->
-> Fuel Filters
->
-> Fuel filters have already been discussed in detail in the Fuel Filters section of this bulletin. The **only** additional consideration in terms of common issues with winter fuels is that using a large filter or multiple filters in parallel will allow more fuel wax to be filtered before a power loss occurs. Also, relocating the fuel lines and filter out of the wind-stream and wheel splash and into the engine compartment near the engine block will help keep them warm.
->
-> Engine Idling
->
-> **CAUTION · Осторожно**
-> Do not idle the engine for excessively long periods of time with engine coolant temperature below the minimum specification found in the applicable engine Owner's Manual. This can result in fuel dilution of the lubricating oil, carbon build up in the cylinder, cylinder head valve sticking, and/or reduced performance.
->
-> Additives
->
-> There are a number of fuel additives available which reduce the pour point and cold filter plugging point (CFPP) of diesel fuel. These are commonly referred to as pour point depressant additives, cold flow improver additives, wax crystal modifiers, or fluidity improver additives (and can be collectively termed “Winter Additives”). Certain additives can reduce the Pour Point by as much as 21°C \[ 70°F \] and the CFPP by as much as -1°C \[ 30°F \]. A survey of winter blend fuels by the Bureau of Mines (now a part of the Energy Research and Development Administration) revealed that a large percentage of the commercially marketed diesel fuels had been treated with a winter additive. Before purchasing such an additive to treat fuel, ask the fuel supplier whether the fuel already contains a winter additive. Depending on the amount and type of additive already in the fuel, additional additives will or will **not** be necessary.
->
-> These additives alter the size and shape of wax crystals, allowing pumping of fuel at lower temperatures. Although certain additives can be very effective, they are **not** a cure all. Their performance varies depending on the paraffin type and content of the fuel treated. Severe weather applications can require fuel warmers in addition to additives. Although other additives are available that can provide some benefits, PowerService Diesel Fuel Supplement® + Cetane Boost® is the **only** fuel additive endorsed by Cummins Inc. to help prevent filter gelling in cold weather applications.
->
-> Fuel Warmers
->
-> Warming diesel fuel just prior to filtration is an excellent method of preventing fuel filter plugging. If cold fuel is warmed sufficiently, the wax crystals will dissolve in the fuel. The dissolving requires warming to a temperature of approximately 11 to 22°C or 20 to 40°F above the fuel's cold filter plugging point.
->
-> In order for a fuel warmer to reliably prevent fuel filter plugging due to wax, it **must** be capable of supplying enough heat to the fuel at the maximum fuel flow (**not** just fuel consumption) rate to raise the fuel temperature from the lowest expected fuel temperature (probably the lowest expected ambient temperature) to 11 to 22°C or 20 to 40°F above the fuel's cold filter plugging point. There are four different fuel warmers presently offered by Cummins Filtration™ to raise the temperature of the inlet fuel.
->
-> - Fuel Filter Heater - The Cummins Filtration™ Positive Temperature Coefficient (PTC) fuel filter heats the fuel before the fuel flows into the fuel filter. The heater is installed on the fuel filter head. Most complaints of fuel waxing occur in the fuel filter. The heater uses ceramic discs that sense the fuel temperature and heat the fuel to a temperature just above the cloud point.
->
-> The PTC heater is self-regulating. Depending on battery voltage, the heaters use from 6 to 25 amperes at maximum output. When no heat is required, the heater uses less than 0.5 ampere. The heater can be left on during engine operation or it can be turned off with the cab switch. The heater reaches full heating capacity in about two minutes. The PTC heater kit is available (see Table 13, Fuel Filter Heaters).
->
-> | **Table 13, Fuel Filter Heaters** |  |
-> |---|---|
-> | **Watts** | **Cummins Filtration™ Part Number** |
-> | 300 | 3836029-S |
->
-> A Cummins Filtration™ Kit, Part Number 3837317-S, adapts the heater to most fuel filter heads with 1 in-14 threads. Use the following fuel filter list to identify fuel filter heads with 1 in-14 threads. The heater adds about 25 mm \[ 1 in \] in height to the fuel filter head assembly.
->
-> | Fuel Filter List with 1 in -14 Threads |  |
-> |---|---|
-> | FF-104 | FF-213 |
-> | FF-105 | FF-105C |
-> | FS-1242(B) | FS-1001 |
-> | FS-1000 | FS-1212 |
-> | FF-105D | FS-1003 |
->
-> The Cummins Filtration™ Kit, Part Number 3832054-S, adapts to FS-1251 filter.
->
-> 2. Recirculating Fuel Warmer, Part Number 3305782, can be used to warm inlet fuel for flow up to 9.5 l/pm \[ 2.5 gpm \]. The unit circulates engine coolant around the inlet fuel to warm the fuel. The unit is most effective when immersion or tank heaters are used to warm the coolant. An optional thermostat, Part Number 3305783, can be used to bypass fuel when 27°C \[ 81°F \] is reached. Use Table 14, Temperature Rise Chart to determine the performance capability of this fuel warmer for different operating conditions.
->
-> Recirculating Fuel Warmer, Part Number 3305782 - Performance Data
->
-> | **Table 14, Temperature Rise Chart.** |  |  |  |
-> |---|---|---|---|
-> | **Inlet Fuel Temperature** | **Outlet Fuel Temperature Fuel Flow Rate** |  |  |
-> | **2-1/2 GPM** | **1-1/2 GPM** | **1/2 GPM** |  |
-> | -34°C \[ -30°F \] | 0°C \[ 32°F \] | 3°C \[ 38°F \] | 11°C \[ 52°F \] |
-> | -23°C \[ -10°F \] | 4°C \[ 39°F \] | 7°C \[ 45°F \] | 13°C \[ 55°F \] |
-> | -12°C \[ 10°F \] | 8°C \[ 47°F \] | 12°C \[ 53°F \] | 15°C \[ 59°F \] |
-> | -1°C \[ 30°F \] | 16°C \[ 60°F \] | 17°C \[ 62°F \] | 19°C \[ 67°F \] |
-> | 10°C \[ 50°F \] | 22°C \[ 71°F \] | 23°C \[ 74°F \] | 25°C \[ 77°F \] |
-> | 21°C \[ 70°F \] | 29°C \[ 85°F \] | 31°C \[ 87°F \] | 31°C \[ 88°F \] |
->
-> 3. Thermo Blend™ - The Cummins Filtration™ Thermo Blend™ fuel warmer recirculates warm deaerated drain fuel from the engine to the filter and injection system, rather than allowing it to return to the tank. A 10 to 15 minute engine-running warm up period is usually necessary to provide successful operation. A built-in thermostat automatically bypasses fuel at 43°C \[ 109°F \]. Part Number 3310200 **must** be used for all Midrange and Heavy Duty diesel engines. Part Number 3308750 **must** be used for all heavy duty off-highway equipment (such as 12 and 16 cylinder engines).
->
-> 4. Thermo Blend™ FM, Part Number 3310630, The Cummins Filtration™ Thermo Blend™ FM fuel warmer, combines the return fuel heating principle with a special filter head. When used with Cummins® Part Number [[3315843]] (Cummins Filtration™ Part Number FS-1212) fuel-water separator, it provides fuel dewaxing, water removal, and filtration. A built-in thermostat automatically bypasses fuel at 21°C \[ 70°F \]. When using fuel warmers, do **not** overheat the fuel. The maximum fuel temperature at the inlet to the fuel pump is 70°C \[ 158°F \]. Alterations of heating devices **must** be reversible, or have some means to turn them off during warm weather operation. The fuel tank is heated by the injector return (drain) fuel from the engine. On typical installations, the cooling effect of the tank maintains fuel temperatures at an acceptable level.
->
-> On some installations, such as acoustically enclosed units, little cooling of the tank occurs because of the design. On these installations, a fuel oil cooler can be used to limit the temperature of the fuel at the fuel pump inlet to 70°C \[ 158°F \] or less.
->
-> Depending on the particular engine model involved, the engine horsepower will begin to decrease slightly above fuel inlet temperatures of 46°C \[ 115°F \]. The percent of power loss is **not** as great on engines with the Cummins® PT™ and HPI® fuel system (less than 1 percent per 5°C or 9°F), due to the inherent viscosity compensating characteristics (see Power Loss section in this bulletin). Operation above 70°C \[ 158°F \] is **not** recommended due to the loss of the lubricating quality of the fuel with resultant wear to the fuel system components which depend on fuel for lubrication. A fuel warmer will **not** help if the fuel is below the pour point and can **not** be pumped to the warmer; therefore, in extremely cold conditions, fuel can be treated with light distillate fuel or treated with a pour point depressant to reduce the pour point, or it can be necessary to heat the fuel to allow it to flow.
->
-> When using fuel warmers that use engine coolant as a source of heat, some form of coolant heating during shutoff will allow the heater to become effective much more quickly after start-up. These fuel warmers **must** also be checked for leaks. Since the fuel warmer is on the suction side of the fuel pump and the cooling system is pressurized, any small leak will allow coolant to enter the fuel system.
->
-> Other Considerations
->
-> Wax in the fuel will deposit in any restriction or sharp bend in the fuel plumbing system. If fuel starvation occurs during cold-weather operation and plugged fuel filters are **not** found, look for plugging of tank pick-up screens, sharp bends in the fuel lines, fittings, and so forth.
->
-> Water Contamination
->
-> Free water (non-dissolved) in the fuel can freeze at low temperatures and the resulting ice crystals can plug fuel filters causing fuel starvation. Care **must** be taken to keep fuel storage tanks dry. Tanks can be “stuck” often with water detecting paste (usually obtainable from fuel suppliers) to be sure they are dry. If water is detected, it **must** be pumped out.
->
-> Keeping bulk fuel storage tanks dry has already been mentioned; however, if this is a persistent issue, a dryer (fuel-water separator) can be installed on the bulk fuel dispensing system.
->
-> Condensation in the vehicle fuel tank(s) occurs when the air in the fuel tank(s) cools down during a shutdown period. This moisture can be reduced by filling the vehicle fuel tank before engine shutdown to reduce the air space above the fuel.
->
-> Dissolved water comes out of solution as fuel cools. As fuel cools from 4 to -29°C, \[ 39 to -20°F \] the solubility of water in the fuel reduces 70 percent. Therefore, fuel pumped from a relatively warm underground tank into a vehicle which sits overnight in sub-zero temperatures can cause some free water to separate. However, this source of free water is almost negligible, because even at high temperatures, fuel will dissolve very little water (0.1 mass-percent at 71°C) \[ 160°F \]).
->
-> **Note · Примечание**
-> More cold weather engine operation recommendations are in Service Bulletin Operation of Diesel Engines in Cold Climates, Bulletin [[3379009 — Operation of Diesel Engines in Cold Climates|3379009]] and in the engine operation and maintenance manual.
->
-> Microbial Contamination of Diesel Fuel
->
-> **WARNING · Опасно**
-> Although most of the microbes that will live in fuel tanks are common organisms to which humans are constantly exposed, contact with microbes or fungi from a fuel tank must be avoided. When a fuel system is contaminated and cleaning is necessary, workers must be protected. Remember that the fungi produce reproductive spores and when dry these can easily become airborne, so breathing protection must be provided or the microorganisms must be kept wet. Dispose of the water and sludge removed from fuel tanks properly. Never place these materials in sanitary sewer system since they can kill bacteria used in sewage treatment. Never place them in storm sewers or surface water streams since they can kill fish and other aquatic animals.
->
-> **WARNING · Опасно**
-> The most common problem associated with exposure to these microbes is dermatitis which in some people can be quite serious. Any exposed skin must be thoroughly washed with warm, soapy water.
->
-> **WARNING · Опасно**
-> Avoid eating, drinking and smoking while working with these microbes. Any ingestion of the microbes or exposure to broken skin must be considered serious. It is recommended that if this happens the worker be taken to a doctor, along with a sample of the microbes.
->
-> **WARNING · Опасно**
-> Biocides are generally only mildly toxic to humans and animals but must still be handled carefully. In cases of ingestion or contact with the eye, follow manufacturer's recommendations. Seek medical attention.
->
-> This section covers the recognition of and solutions to microbial contamination of diesel fuel.
->
-> To protect against fuel shortages, many users have been storing fuel and, as a result, the frequency of microbial contamination has increased. Microbial contamination of fuel, though **not** a new concern, is more common in metalworking industries which use water-soluble oils as cutting fluids or in long-term storage of hydrocarbon fuels than it is in diesel fleet operations. All hydrocarbon fuels are essentially sterilized by the high temperatures encountered in the refining process; however, they can become contaminated soon after leaving the refinery by microorganisms. These microorganisms, primarily bacteria and fungi, exist rather harmlessly in moisture-free fuel, passing through fuel systems without having any negative effects.
->
-> However, in the presence of water, these microorganisms begin to grow and reproduce. The rate of growth depends on how well the environment suits the particular microorganism's needs.
->
-> The growth of a large colony of microorganisms in a fuel system can cause several issues. The first and usually most obvious is fuel filter plugging with a greenish-black or brown slime, frequently accompanied by a foul odor. This slimy, string-like colony can also plug sharp bends in fuel lines, fuel meters, and other restrictions. The second issue these microorganisms can cause is corrosion due to the acid by-products some of them produce. It is also possible, if the microorganisms pass through the fuel filter, that they will form deposits and cause damage in the fuel pump and injectors.
->
-> Some indicators of microbial contamination are:
->
-> - Slime deposits on tank walls, piping, or other surfaces which are exposed to fuel. These deposits are usually greenish-black or brown and are slick to the touch.
-> - Black or brown "stringy" material suspended in tank water bottoms.
-> - Swelling or blistering of any rubber surface (washers, hoses, connectors, and so forth) that comes in contact with fuel.
-> - Sludge or slime deposits on filter surfaces.
-> - Foul odor resembling that of rotten eggs (hydrogen sulfide).
->
-> The following list shows test kits of which we are aware. Listing of a kit can **not** be construed as a recommendation or approval; and, the fact that a kit is **not** listed **only** means we are unaware of it. Cummins Inc. has **not** tested any of these kits, but has **only** reviewed the manufacturer's literature. Users **must** evaluate the kits available to them and select one based on their own judgment.
->
-> - Total Count Sampler, Catalog Number MTOO 000 25 for package of 25, from Millipore Corporation, Bedford, MA 01730, 1-800-645-5476. The Total Count Sampler contains a nutrient media specifically designed to encourage bacterial growth; however, many fungi will grow on it. Millipore recommends incubation at 35°C \[ 95°F \] for 24 hours; however, they can be incubated at room temperature for 36 to 48 hours. If the results on the Total Count Sampler are low and are still suspected, re-sample using Millipore™ Yeast and Mold Sampler (Catalog Number MYOO 000 25 for package of 25). This sampler contains a nutrient media which suppresses the growth of most bacteria, but is rich in nutrients for fungi. For best results, use both samplers each time water bottoms are tested. These Millipore™ samplers are probably the most sensitive of those listed, and in fact, can lead to overtreatment of a fuel system. Millipore™ samplers are also available from Millipore in Australia, Belgium, Brazil, Canada, Denmark, England, Finland, France, Italy, Japan, Mexico, Norway, Spain, Sweden, Switzerland, and West Germany. Inquiries from other countries can be directed to Millipore lntertech, Inc., P.O. Box 255, Bedford, MA 01730 U.S.A.
-> - Microbe Monitor Test Kit (From Air BP®) British Petroleum Cleveland-Hopkins International Airport Cleveland, OH 44135, 1-800-533-2340. One sample per kit. Incubates at room temperature.
->
-> When it has been established that microbial contamination is present and action **must** be taken, there are several approaches. The most obvious solution is prevention. Most of the bacteria and fungi involved are soil organisms which can become airborne or waterborne. Prevention of the entrance of microorganisms is **not** possible because these organisms can enter the fuel through many different routes.
->
-> Growth of these microorganisms can be prevented. Since all metabolic processes of an organism are conducted in water, denying the microorganism access to water will prevent growth, thus preventing the development of large, troublesome colonies. Therefore, the first and most important step in prevention is to keep fuel systems dry. Keeping a fuel system entirely dry is impossible. In cases where microbial contamination is a recurring issue, a microbicide can be used to chemically treat the fuel or the water.
->
-> There are three general classes of biocides: water-soluble, fuel-soluble, and universally soluble. Fuel-soluble biocides are best suited for treating fuels which are to pass through several storage steps in the distribution process. A fuel-soluble biocide injected into the fuel early in the distribution system is carried with the fuel through the entire downstream system, effectively sterilizing the fuel until usage. Fuel-soluble biocides are easier to add to the fuel system since the exact amount needed to treat a volume of fuel is easily determined and they have a low toxicity to human and other life forms. The obvious disadvantage to fuel-soluble biocides is cost; each batch of new fuel added to the system **must** be treated since the biocide is consumed as the fuel is consumed.
->
-> Water-soluble biocides are more economical for use in treating one step in a fuel distribution system, such as the end-user's storage tank. The water-soluble biocides, since they are insoluble in fuel, stay where they are placed until the water bottoms are pumped from the tank; therefore, the total amount of biocide purchased is less. There are a number of disadvantages to water soluble biocides. Since no biocide is carried downstream by the fuel, each successive tank in the system **must** be individually treated. There is some difficulty in determining how much biocide to place in a tank, since that depends on how much water is in the tank. The biocide can **not** be thoroughly mixed with the water in the bottom of a tank. Water-soluble biocides are much more easily taken in by humans and other life forms: and therefore, **must** be disposed of properly when water bottoms are pumped from a tank. Water bottoms containing a water-soluble biocide **must not** be placed in a sanitary sewer system because the biocide can destroy the bacteria used by sewage treatment plants. These water bottoms **must** be treated as an acidic, industrial oily waste.
->
-> Universally soluble biocides are soluble in both water and diesel fuel. They allow you to treat the entire downstream system. However, each subsequent load of fuel does **not** need to be treated. The biocide will remain in any water that has collected at the bottom of the storage tank and continue to inhibit microbial growth. With certain types of biocides, the interval between treatments can be as long as six months. Like water-soluble biocides, universally soluble biocides are more easily taken up by humans and other forms of life. They also tend to be more expensive than the other types of biocides.
->
-> Treating a fuel tank that is infested with a large population of microorganisms will kill the microorganisms, but it will **not** eliminate the filter plugging they can be causing. The water and sludge containing the microorganisms **must** be removed from the fuel systems. First, clean the fuel system thoroughly. Next, a fuel-soluble or universally-soluble biocide **must** be added to the next few batches of fuel to kill any remaining microorganisms. Finally, the addition of a water-soluble or universally-soluble biocide can be continued for at least several months to be sure the microorganisms are all dead. If microbial contamination is a recurring issue, it is recommended that use of the water-soluble or universally-soluble biocide be continued permanently, since this will be the most cost effective solution to the problem. This can be done by determining the amount of water that accumulates in tank bottoms between pump outs and adding about double or triple the amount of water-soluble biocide recommended to treat that volume of water. For example: you normally pump out approximately 379 liters \[ 100 gallons \] of water bottoms. In this case, after pumping the bottoms, immediately add to the fuel tank two or three times the amount of biocide normally used to treat 379 liters \[ 100 gallons \] of water. Since the biocide is more dense than fuel, it will settle to the bottom of the tank and will dissolve in the water as it accumulates. After refilling a fuel tank, the biocide **must** be allowed to settle before drawing fuel from it to keep from pumping the biocide out with the fuel.
->
-> Fuel Discoloration (Black Fuel)
->
-> In some Cummins® engines, normal operation can cause the diesel fuel in the engine and fuel tank to appear dark or black in color. Discoloration of the fuel can be caused by the following: engine lubricating oil mixing with the fuel during operation, the formation of asphaltenes, degradation of fuel from storage, or from the practice of blending lubricating oil with fuel to be burned by the engine.
->
-> Mixing of engine lubricating oil
->
-> In some fuel systems, engine lubricating oil and diesel fuel are used in close proximity to each other for lubricating and sealing purposes. This interface is a function of fuel pump and/or injector design. Under certain operating conditions, a small amount of lubricating oil can mix with the diesel fuel and be returned to the tank, causing the fuel to appear dark in color. It takes a very small amount of lubricating oil (less than 0.1 percent) to cause the fuel to become visibly darkened. This small amount of oil in the fuel will have no adverse affects on engine performance, durability, or reliability.
->
-> Asphaltene formation
->
-> This phenomenon is common for fuel systems that operate at very high fuel pressures and temperatures. The high temperature fuel that is **not** injected into a combustion cylinder is returned to the fuel tank. As the fuel is recirculated and exposed to the same high pressures and temperatures during continuous operation, asphaltenes begin to form larger clusters of insoluble materials that can lead to fuel discoloration. If these formations of asphaltenes grow large enough, they will be captured by the filter element and can lead to high filter restriction and shortened filter life.
->
-> Asphaltene formation due to fuel overheating can be aggravated by a lack of fuel coolers, improperly sized fuel tanks, inadequate mixing of return fuel between tanks, low fuel levels, or installation of the fuel tank that prevents dissipation of heat. If an engine or fuel system cooling issue is suspected, the cooling systems **must** be inspected and modified as necessary to comply with Cummins Inc. requirements. Existing fuel filters could possibly need to be resized or additional filtration could possibly need to be added to increase contaminant holding capacity. Consult a Cummins® Authorized Repair Location for guidance in fuel filter selection and cooling system issues.
->
-> Degradation of fuel from storage
->
-> Refer to the “Microbial Contamination of Diesel Fuel” section of this service bulletin.
->
-> Darkening of diesel fuel due to the mixing of lubricating oil or asphaltene formation does **not** indicate a manufacturing defect or other warrantable malfunction, and is a function of normal operation. Customers should continue using the equipment as is, unless the discoloration has resulted from fuel overheating, fuel contamination, or if fuel filter life is being reduced and causing operational difficulties with the equipment.

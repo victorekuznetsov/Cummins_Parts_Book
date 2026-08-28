@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1478.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1478.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1478.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Crank Relay Driver Diagnostic
@@ -34,56 +32,26 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1478.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1478.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1478.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1478.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 1478
 
+### Crank Relay Driver Diagnostic
 
-### Код неисправности: 1478
+Printable Version
 
-### Диагностика драйвера реле стартера
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 1478 PCODE(P): СПН: ФМИ: Лампа: СТО: ОПАСНО | Диагностика драйвера реле Крэнка выявила ошибку. | ECM будет ** не** не в состоянии прокрутить двигатель. |
+| Fault Code: 1478 PCODE(P): SPN: FMI: Lamp: SRT: Warning | Crank relay driver diagnostic has detected an error. | The ECM will **not** be able to crank the engine. |
 
 ![[19802649.png]]
 
-Генератор установил ECM-картонную клетку
+Generator Set ECM Card Cage
 
-### Описание цепи
+### Circuit Description
 
-### Расположение компонента
+### Component Location
 
-См. Код устранения неполадок t05-1478
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 1478
->
-> ### Crank Relay Driver Diagnostic
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 1478 PCODE(P): SPN: FMI: Lamp: SRT: Warning | Crank relay driver diagnostic has detected an error. | The ECM will **not** be able to crank the engine. |
->
-> Generator Set ECM Card Cage
->
-> ### Circuit Description
->
-> ### Component Location
->
-> Refer to Troubleshooting Fault Code t05-1478
+Refer to Troubleshooting Fault Code t05-1478

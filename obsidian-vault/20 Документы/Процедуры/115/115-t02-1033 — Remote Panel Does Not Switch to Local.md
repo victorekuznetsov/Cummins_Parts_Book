@@ -8,190 +8,103 @@ title_ru: "Дистанционный пульт не переключается
 modified: "2007-01-08"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021587"
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-t02-1033.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-t02-1033.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-t02-1033.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/115"
-  - "перевод/машинный"
 ---
 
 # Remote Panel Does Not Switch to Local
 **Дистанционный пульт не переключается в местный режим**
 
 > [!abstract] Процедура · `115-t02-1033`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]]
 > **Секции:** Section TT — Troubleshooting Symptoms (New Format)
 > **Даты:** изменён 2007-01-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-t02-1033.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-t02-1033.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-t02-1033.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-t02-1033.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+Printable Version
 
+### Symptoms
 
-Версия для печати
+- Engine will crank when the start button is pushed at the remote panel.
 
-### Симптомы
+### How To Use This Tree
 
-- Двигатель будет сворачивать, когда кнопка запуска нажимается на удаленную панель.
+This symptom tree can be used to troubleshoot engine start symptoms. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
 
-### Как пользоваться этим деревом
+### Shoptalk
 
-Это дерево симптомов может быть использовано для устранения симптомов запуска двигателя. Начните с шага 1 поиска неисправностей. На шаге 2 система задаст ряд вопросов и по симптому выдаст перечень действий по поиску неисправности.
+To initiate engine crank from the engine room panel the following panel parameters **must** be met:
 
-### Практические замечания
+- The engine room power switch on and lamp illuminated.
 
-Для запуска коленчатого двигателя с панели машинного отделения должны быть соблюдены следующие параметры панели **:
+- The engine **must** be stopped.
 
-- Включается силовой выключатель машинного отделения и освещается лампа.
+To initiate engine crank from the remote panel the following panel parameters **must** be met:
 
-- Двигатель должен быть остановлен.
+- The remote panel power lamp illuminated.
 
-Для запуска коленчатого механизма двигателя с удаленной панели должны быть соблюдены следующие параметры панели **:
+- The local start **only** lamp is **not** illuminated.
 
-- Удалённая панель питания лампы освещалась.
+- The engine **must** be stopped.
 
-- Локальная стартовая лампа **только *** не освещается.
+## Troubleshooting Summary
 
-- Двигатель должен быть остановлен.
-
-## Сводка по поиску неисправности
-
-| Степс | Спецификации |  |
+| STEPS | SPECIFICATIONS |  |
 |---|---|---|
-| ШАГ 1. | Проверьте клиентский интерфейс Box Logic |  |
-|  | **ШАГ 1А** Проверьте лампу в локальном режиме | Подсвечивается ли лампа местного режима? |
-|  | **STEP 1B.** Проверьте локальный пуск только лампы на удаленной панели | Локальный старт **только** лампа подсвечивается? |
-| ШАГ 2. | Проверьте панельную систему кабеля |  |
-|  | **STEP 2A.** Проверить кабель дистанционной панели | Сопротивление менее 10 Ом? |
-| ШАГ 3. | Проверка проводки интерфейсной коробки заказчика |  |
-|  | **STEP 3A.** Проверьте провода локального режима питания удаленной панели | Сопротивление менее 10 Ом? |
+| STEP 1. | Check Customer Interface Box Logic Unit |  |
+|  | **STEP 1A.** Check Local Mode Lamp | Is the local mode lamp illuminated? |
+|  | **STEP 1B.** Check Local Start Only Lamp at Remote Panel | Local start **only** lamp illuminated? |
+| STEP 2. | Check Panel System Cable |  |
+|  | **STEP 2A.** Check Remote Panel Cable | Less than 10 ohms resistance? |
+| STEP 3. | Check Customer Interface Box Wiring |  |
+|  | **STEP 3A.** Check the Remote Panel Local Mode Supply Wire | Less than 10 ohms resistance? |
 
-### ШАГ 1. Проверьте клиентский интерфейс Box Logic
+### STEP 1. Check Customer Interface Box Logic Unit
 
-#### ШАГ 1A. Проверьте лампу локального режима
+#### STEP 1A. Check Local Mode Lamp
 
-| **Условия: ** Найдите панель машинного отделения Включите выключатель питания и светильник Открытый клиентский интерфейс. |  |  |
+| **Conditions:** Locate engine room panel Power switch on and lamp illuminated Open customer interface box. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте местный режим лампы. Нажмите кнопку локального запуска. Проверьте локальный режим лампы, освещенной на логическом блоке клиентского интерфейса. | Подсвечивается ли лампа местного режима? *Да** | 1В |
-| Подсвечивается ли лампа местного режима? **NORepair: ** См. панель машинного отделения Не удается переключиться на локальное дерево симптомов. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check local mode lamp. Push the local start only button. Verify local mode lamp illuminated on the customer interface box logic unit. | Is the local mode lamp illuminated? **YES** | 1B |
+| Is the local mode lamp illuminated? **NORepair:** Refer to Engine Room Panel Fails to Switch to Local symptom tree. | Repair complete. |  |
 
-#### ШАГ 1B. Проверьте локальный запуск только лампы на удаленной панели
+#### STEP 1B. Check Local Start Only Lamp at Remote Panel
 
-| ** Условия:** Расположение удаленной панели Светильник Power освещен. |  |  |
+| **Conditions:** Locate remote panel Power lamp illuminated. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте только лампу локального запуска. | Подсвечивается ли лампа «только для старта»? *Да** | Ремонт завершён. |
-| Подсвечивается ли лампа «только для старта»? ** НЕТ** | 2А |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check local start only lamp. | Is local start **only** lamp illuminated? **YES** | Repair complete. |
+| Is local start **only** lamp illuminated? **NO** | 2A |  |
 
-### ШАГ 2. Проверьте панельную систему кабеля
+### STEP 2. Check Panel System Cable
 
-#### ШАГ 2A. Проверьте удаленный панельный кабель
+#### STEP 2A. Check Remote Panel Cable
 
-| **Условия: ** Найти и открыть окно клиентского интерфейса Найти и открыть удаленную панель. |  |  |
+| **Conditions:** Locate and open customer interface box Locate and open remote panel. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте кабель удаленной панели. Установите перемычку между терминалом питания удаленного режима локального режима и терминалом возврата удаленной панели на разъеме панели управления удаленной панелью. Поместите один измерительный щуп на удаленную панель локального режима терминала питания в клиентский интерфейс коробки X4 разъема. Поместите другой измерительный щуп на терминал возврата удаленной панели в разъеме интерфейса клиента X4. | Сопротивление менее 10 Ом? *Да** | 3А |
-| Сопротивление менее 10 Ом? **Заменить кабель.** См. сервисное руководство изготовителя машины. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check the remote panel cable. Install a jumper between remote panel local mode supply terminal and the remote panel return terminal on remote panel control panel connector. Place one test lead on the remote panel local mode supply terminal in customer interface box X4 connector. Place the other test lead on the remote panel return terminal in the customer interface box X4 connector. | Less than 10 ohms resistance? **YES** | 3A |
+| Less than 10 ohms resistance? **NORepair:** Replace the cable. Refer to the OEM service manual. | Repair complete. |  |
 
-### ШАГ 3. Проверка проводки интерфейсной коробки заказчика
+### STEP 3. Check Customer Interface Box Wiring
 
-#### ШАГ 3A. Проверьте локальную сеть удаленной панели
+#### STEP 3A. Check the Remote Panel Local Supply Wire
 
-| **Условия: ** Откройте окно интерфейса клиента Отключите кабель удаленной панели на разъеме X4 окна интерфейса клиента. |  |  |
+| **Conditions:** Open the customer interface box Disconnect remote panel cable at X4 connector of the customer interface box. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте провод питания локального режима удаленной панели. Поместите один измерительный щуп на удаленную панель локального режима питания контакта в разъем X4 клиентского интерфейса коробки. Поместите другой измерительный щуп на локальный терминал поставки в интерфейсе клиента на логический блок. | Сопротивление менее 10 Ом? *** Ремонт:** Заменить пульт дистанционного управления. См. процедуру[[115-015-025 — Remote Panel\|015-025]]. | Ремонт завершён. |
-| Сопротивление менее 10 Ом? **NORepair:** Заменить неисправный провод. См. процедуру[[115-015-023 — Customer Interface Box\|015-023]]. | Ремонт завершён. |  |
-
-
-> [!quote]- Original (English) · английский оригинал
-> Printable Version
->
-> ### Symptoms
->
-> - Engine will crank when the start button is pushed at the remote panel.
->
-> ### How To Use This Tree
->
-> This symptom tree can be used to troubleshoot engine start symptoms. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom.
->
-> ### Shoptalk
->
-> To initiate engine crank from the engine room panel the following panel parameters **must** be met:
->
-> - The engine room power switch on and lamp illuminated.
->
-> - The engine **must** be stopped.
->
-> To initiate engine crank from the remote panel the following panel parameters **must** be met:
->
-> - The remote panel power lamp illuminated.
->
-> - The local start **only** lamp is **not** illuminated.
->
-> - The engine **must** be stopped.
->
-> ## Troubleshooting Summary
->
-> | STEPS | SPECIFICATIONS |  |
-> |---|---|---|
-> | STEP 1. | Check Customer Interface Box Logic Unit |  |
-> |  | **STEP 1A.** Check Local Mode Lamp | Is the local mode lamp illuminated? |
-> |  | **STEP 1B.** Check Local Start Only Lamp at Remote Panel | Local start **only** lamp illuminated? |
-> | STEP 2. | Check Panel System Cable |  |
-> |  | **STEP 2A.** Check Remote Panel Cable | Less than 10 ohms resistance? |
-> | STEP 3. | Check Customer Interface Box Wiring |  |
-> |  | **STEP 3A.** Check the Remote Panel Local Mode Supply Wire | Less than 10 ohms resistance? |
->
-> ### STEP 1. Check Customer Interface Box Logic Unit
->
-> #### STEP 1A. Check Local Mode Lamp
->
-> | **Conditions:** Locate engine room panel Power switch on and lamp illuminated Open customer interface box. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check local mode lamp. Push the local start only button. Verify local mode lamp illuminated on the customer interface box logic unit. | Is the local mode lamp illuminated? **YES** | 1B |
-> | Is the local mode lamp illuminated? **NORepair:** Refer to Engine Room Panel Fails to Switch to Local symptom tree. | Repair complete. |  |
->
-> #### STEP 1B. Check Local Start Only Lamp at Remote Panel
->
-> | **Conditions:** Locate remote panel Power lamp illuminated. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check local start only lamp. | Is local start **only** lamp illuminated? **YES** | Repair complete. |
-> | Is local start **only** lamp illuminated? **NO** | 2A |  |
->
-> ### STEP 2. Check Panel System Cable
->
-> #### STEP 2A. Check Remote Panel Cable
->
-> | **Conditions:** Locate and open customer interface box Locate and open remote panel. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the remote panel cable. Install a jumper between remote panel local mode supply terminal and the remote panel return terminal on remote panel control panel connector. Place one test lead on the remote panel local mode supply terminal in customer interface box X4 connector. Place the other test lead on the remote panel return terminal in the customer interface box X4 connector. | Less than 10 ohms resistance? **YES** | 3A |
-> | Less than 10 ohms resistance? **NORepair:** Replace the cable. Refer to the OEM service manual. | Repair complete. |  |
->
-> ### STEP 3. Check Customer Interface Box Wiring
->
-> #### STEP 3A. Check the Remote Panel Local Supply Wire
->
-> | **Conditions:** Open the customer interface box Disconnect remote panel cable at X4 connector of the customer interface box. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the remote panel local mode supply wire. Place one test lead on the remote panel local mode supply pin in connector X4 of the customer interface box. Place the other test lead on the local mode supply terminal on the customer interface box logic unit. | Less than 10 ohms resistance? **YESRepair:** Replace the remote panel control panel. Refer to Procedure [[115-015-025 — Remote Panel\|015-025]]. | Repair complete. |
-> | Less than 10 ohms resistance? **NORepair:** Replace the faulty wire. Refer to Procedure [[115-015-023 — Customer Interface Box\|015-023]]. | Repair complete. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check the remote panel local mode supply wire. Place one test lead on the remote panel local mode supply pin in connector X4 of the customer interface box. Place the other test lead on the local mode supply terminal on the customer interface box logic unit. | Less than 10 ohms resistance? **YESRepair:** Replace the remote panel control panel. Refer to Procedure [[115-015-025 — Remote Panel\|015-025]]. | Repair complete. |
+| Less than 10 ohms resistance? **NORepair:** Replace the faulty wire. Refer to Procedure [[115-015-023 — Customer Interface Box\|015-023]]. | Repair complete. |  |

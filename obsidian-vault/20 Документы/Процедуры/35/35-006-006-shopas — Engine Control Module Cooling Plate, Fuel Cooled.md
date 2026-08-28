@@ -1,0 +1,47 @@
+---
+type: "Процедура"
+doc: "35-006-006-shopas"
+title_en: "Engine Control Module Cooling Plate, Fuel Cooled"
+modified: "2015-04-01"
+engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
+families:
+  - "QSM11"
+manuals:
+  - "3666322"
+figures: 1
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-006-006-shopas.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-006-006-shopas.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QSM11"
+  - "группа/35"
+---
+
+# Engine Control Module Cooling Plate, Fuel Cooled
+
+> [!abstract] Процедура · `35-006-006-shopas`
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]]
+> **Семейство:** QSM11
+> **Входит в руководства:** [[3666322 — ISM, ISMe, and QSM11 Service Manual|3666322]]
+> **Секции:** Section AS - Engine Assembly - Group 00
+> **Даты:** изменён 2015-04-01
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/35/35-006-006-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/35-006-006-shopas.pdf)
+
+### Install
+
+Install a new cooling plate.
+
+Install the heat-resistant grommets on both sides of the cooling plate.
+
+Install the two heat-resistant star washer grommets at the same mounting location.
+
+Tighten the four capscrews.
+
+> [!tip] Момент затяжки · Torque Value
+> 40 n•m [30 ft-lb]
+
+![[19200118.png]]

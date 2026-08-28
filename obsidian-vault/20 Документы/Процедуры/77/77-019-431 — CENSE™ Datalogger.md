@@ -14,15 +14,13 @@ families:
 manuals:
   - "3810497"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/77/77-019-431.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/77-019-431.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/77-019-431.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/77"
-  - "перевод/машинный"
 ---
 
 # CENSE™ Datalogger
@@ -34,52 +32,24 @@ tags:
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months
 > **Даты:** изменён 2013-01-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/77/77-019-431.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/77-019-431.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/77/77-019-431.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/77-019-431.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Reset
 
+Reset with Mechanically Actuated Injectors
 
-### сброс
+- For CENSE™ CM530 modules **only**, the data **must** be reset every 250 hours in order to maintain maximum memory capacity.
 
-Сброс с помощью механического форсунка топлива
+1. First retrieve the CENSE™ data that has been saved.
+2. Select the fault codes and trend data options for resetting.
 
-- Для модулей CENSETM CM530** только*** данные*** должны сбрасываться каждые 250 часов для поддержания максимальной емкости памяти.
+- Contact a Cummins® Authorized Repair Location for detailed instructions.
 
-1. Сначала извлеките сохраненные данные CENSETM.
-2. Выберите коды ошибок и параметры данных тренда для сброса.
+Reset with Electronically Actuated Injectors
 
-- Свяжитесь с авторизованным местом ремонта Cummins® для получения подробных инструкций.
+- These engines do **not** use CENSE™. Instead they have Advanced Engine Monitoring built into the electronic control modules. This data does **not** need to be reset because it will automatically write over the oldest data in case the memory capacity becomes full. However, this memory can be cleared manually using INSITE™ electronic service tool. Fault logs need to be viewed even if they are **not** going to be reset.
 
-Сброс с помощью электронного форсунки
-
-- Эти двигатели не используют CENSETM. Вместо этого они имеют усовершенствованный мониторинг двигателя, встроенный в электронные модули управления. Эти данные не должны быть сброшены, потому что они будут автоматически записываться по самым старым данным, если емкость памяти станет полной. Однако эта память может быть очищена вручную с помощью инструментария электронного обслуживания INSITETM. Логи ошибок должны быть просмотрены, даже если они ** не будут сброшены.
-
-> [!note] Примечание
-> Модули CENSETM CM2330 не должны быть сброшены.
+> [!note] Note · Примечание
+> The CENSE™ CM2330 modules do **not** need to be reset.
 
 ![[19800902.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Reset
->
-> Reset with Mechanically Actuated Injectors
->
-> - For CENSE™ CM530 modules **only**, the data **must** be reset every 250 hours in order to maintain maximum memory capacity.
->
-> 1. First retrieve the CENSE™ data that has been saved.
-> 2. Select the fault codes and trend data options for resetting.
->
-> - Contact a Cummins® Authorized Repair Location for detailed instructions.
->
-> Reset with Electronically Actuated Injectors
->
-> - These engines do **not** use CENSE™. Instead they have Advanced Engine Monitoring built into the electronic control modules. This data does **not** need to be reset because it will automatically write over the oldest data in case the memory capacity becomes full. However, this memory can be cleared manually using INSITE™ electronic service tool. Fault logs need to be viewed even if they are **not** going to be reset.
->
-> **Note · Примечание**
-> The CENSE™ CM2330 modules do **not** need to be reset.

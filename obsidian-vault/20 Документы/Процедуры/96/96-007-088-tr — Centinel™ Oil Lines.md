@@ -10,2659 +10,1480 @@ engines:
   - "37292556"
   - "37295879"
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
   - "QST30"
 manuals:
   - "3666231"
 figures: 141
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-007-088-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/96-007-088-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/96-007-088-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "группа/96"
-  - "перевод/машинный"
 ---
 
 # Centinel™ Oil Lines
 **Масляные магистрали Centinel™**
 
 > [!abstract] Процедура · `96-007-088-tr`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11, QST30
 > **Входит в руководства:** [[3666231 — Centinel™ Master Repair Manual|3666231]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2004-04-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-007-088-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/96-007-088-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-007-088-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/96-007-088-tr.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Preparatory Steps
 
+> [!danger] WARNING · Опасно
+> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
 
-### Подготовительные операции
+> [!danger] WARNING · Опасно
+> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
 
-> [!danger] ОПАСНО
-> По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
+Drain the Centinel™ system make-up oil tank.
 
-> [!danger] ОПАСНО
-> Чтобы снизить риск травмы, не допускайте попадания горячего масла на кожу.
-
-Сливайте масляный бак системы CentinelTM.
-
-> [!note] Примечание
-> Это масло чистое. Слейте масло в контейнер, достаточно подходящий для повторного использования масла.
+> [!note] Note · Примечание
+> This oil is clean. Drain the oil into a container suitable enough to allow for reuse of the oil.
 
 ![[ck800wa.png]]
 
-### Снятие
+### Remove
 
-Двигатели L10 и M11
+L10 and M11 Engines
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Удалите уплотнение локтя на 90 градусов (1) на торцевой фитинг с номером 4.
+Remove the number 4 face sealing o-ring 90-degree elbow (1) at the fuel return tee fitting.
 
-Удалите 90-градусный локоть на горелый соленоид, чтобы удалить шланг.
+Remove the 90-degree elbow at the burn solenoid to remove the hose.
 
 ![[05200072.png]]
 
-Удалите уплотнение лица № 4 на 90-градусном локте (1) у масляной винтовки.
+Remove the number 4 face sealing o-ring 90-degree elbow (1) at the oil rifle.
 
-Удалите 90-градусный локоть на соленоиде макияжа, чтобы удалить шланг.
+Remove the 90-degree elbow at the make-up solenoid to remove the hose.
 
 ![[05200071.png]]
 
-Удалите уплотнение лица № 6 на 90-градусном локте (1), расположенном на дне клапана управления маслом.
+Remove the number 6 face sealing o-ring 90-degree elbow (1) located on the bottom of the oil control valve.
 
-Удалите уплотнение лица № 6 на 90-градусном локте (2) из адаптера 1/8 NPT в крышке отверстия для рук.
+Remove the number 6 face sealing o-ring 90-degree elbow (2) from the 1/8 NPT adapter in the handhole cover.
 
 ![[05200073.png]]
 
-Только для сжигания, ISM двигатели
+Burn-Only, ISM Engines
 
-> [!note] Примечание
-> Вероятно, потребуется снять стартер на двигателях с низко установленными ECM, чтобы получить доступ к этому порту.
+> [!note] Note · Примечание
+> It will probably be necessary to remove the starter on engines with low mounted ECMs to access this port.
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Удалите шланг подачи масляной винтовки (5) из 9/16-18 прямоточного кольцевого крепления (6) с наружной резьбой в масляной винтовке блока двигателя.
+Remove the oil rifle supply hose (5) from the 9/16-18 straight-thread o-ring male union (6) in the engine block oil rifle.
 
-Удалите шланг (1) для сжигания масла из разъёма 1/8-27 NPTF (2) в тис слива топлива.
+Remove the oil burn hose (1) from the 1/8-27 NPTF connector (2) in the fuel drain tee.
 
 ![[07800078.png]]
 
-Сжигать с помощью Make-Up, ISM
+Burn With Make-Up, ISM Engines
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Удалите шланг подачи масла (2) из управляющего клапана в трос слива топлива.
+Remove the oil supply hose (2) from the control valve to the fuel drain tee.
 
 ![[07800048.png]]
 
-Удалите шланг подачи масляной винтовки (2) из масляной винтовки, установленной на клапан управления (4).
+Remove the oil rifle supply hose (2) from the oil rifle fitting to the control valve (4).
 
-Удалите шланг пополнения масла (8) из клапана (4) управления в крышку отверстия (6).
-
-![[07800047.png]]
-
-Удалите масляную винтовку (1) в блок двигателя масляной винтовки (9/16-18 SAE o-ring), расположенную чуть выше и справа, обращенную к управляющему клапану.
-
-> [!note] Примечание
-> Вероятно, потребуется снять стартер на двигателях с низко установленными ECM, чтобы получить доступ к этому порту.
-
-Удалите чистый масляный фитинг (7) из крышки отверстия для рук.
+Remove the oil replenishment hose (8) from the control valve (4) to the handhole cover (6).
 
 ![[07800047.png]]
 
-Сжигание с помощью двигателей N14
+Remove the oil rifle fitting (1) in the engine block oil rifle port (9/16-18 SAE o-ring), located just up and to the right, facing the control valve.
 
-> [!note] Примечание
-> Следующие шаги применяются к двигателям N14 с установленным стартером на стороне турбокомпрессора.
+> [!note] Note · Примечание
+> It will probably be necessary to remove the starter on engines with low mounted ECMs to access this port.
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the clean oil fitting (7) from the hand hole cover.
 
-Удалите фитинги локтя на блоке и клапане управления маслом и удалите линию шланга № 4 (2).
+![[07800047.png]]
 
-![[07100086.png]]
+Burn With Make-Up, N14 Engines
 
-Удалите шланг № 4, установленный на контрольном клапане и на соленоиде клапана управления маслом.
+> [!note] Note · Примечание
+> The following steps apply to N14 engines with a turbocharger-side mounted starter.
 
-![[07100085.png]]
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-> [!note] Примечание
-> Следующие шаги применяются к двигателям N14 с установленным стартером на стороне топливного насоса.
-
-Удалите линию шланга № 4 из блока и клапана управления маслом.
+Loosen the elbow fittings at the block and oil control valve, and remove the number 4 hose line (2).
 
 ![[07100086.png]]
 
-Удалите линию шланга № 4 на контрольном клапане и на соленоидном клапане управления маслом.
+Remove the number 4 hose fitting at the check valve and at the oil control valve solenoid.
 
 ![[07100085.png]]
 
-Удалите фитинг из масляной винтовки.
+> [!note] Note · Примечание
+> The following steps apply to N14 engines with a fuel pump-side mounted starter.
+
+Remove the number 4 hose line from the block and oil control valve.
+
+![[07100086.png]]
+
+Remove the number 4 hose line at the check valve and at the oil control valve solenoid.
+
+![[07100085.png]]
+
+Remove the fitting from the oil rifle.
 
 ![[05100022.png]]
 
-PT или STC
+PT or STC
 
-Линия давления топлива CentinelTM без проверки клапана
+Centinel™ Fuel Pressure Line without Check Valve
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Удалите линию шланга № 4 на блоке топливного перехода и блоке соединения топлива.
+Remove the number 4 hose line at the fuel junction block and fuel connecting block.
 
 ![[07100084.png]]
 
-CentinelTM Fuel Pressure Sensor Line с галочку
+Centinel™ Fuel Pressure Sensor Line with Check Valve
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Освободите фитинги в клапане управления сливом топлива и масла и удалите линию шланга № 4 (3).
+Loosen the fittings at the fuel drain and oil control valve and remove the number 4 hose line (3).
 
 ![[07100087.png]]
 
-Двигатели N14
+N14 Engines
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Удалите шланг из горящего соленоида (2) и линии возврата топлива.
+Remove the hose from the burn solenoid (2) and the fuel return line.
 
 ![[05100035.png]]
 
-Удалите шланг у масляной винтовки (1) и макияж соленоида.
+Remove the hose at the oil rifle (1) and the make-up solenoid.
 
-Уберите шланг.
+Remove the hose.
 
 ![[05100034.png]]
 
-Удалите чистый масляный шланг со дна клапана CentinelTM и блока двигателя.
+Remove the clean oil hose from the bottom of the Centinel™ valve and the engine block.
 
 ![[05100033.png]]
 
-Двигатели ISX
+ISX Engines
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Устраните зажим шланга (1) на конце управляющего клапана шланга и удалите шланг из разъёма масляного клапана управления масляной подачей.
+Loosen the hose clamp (1) on the control valve end of the hose, and remove the hose from the oil control valve make-up oil supply tube connector.
 
 ![[07c00197.png]]
 
-Отсоедините шланг подачи масляной винтовки (1) от управляющего клапана к разъёму клапана проверки масляной винтовки.
+Disconnect the oil rifle supply hose (1) from the control valve to the oil rifle check valve connector.
 
 ![[07c00195.png]]
 
-Удалите линию (2) макияжа из клапана и разъёма в порту измерительной датчика уровня масла.
+Remove the make-up line (2) from the valve and male connector in the dipstick port.
 
 ![[07c00194.png]]
 
-Отсоедините линию (1) отвода топлива транспортного средства к Т-разъёму.
+Disconnect the vehicle's fuel drain line (1) to the T-connector.
 
-Отсоедините линию сжигания масла от управляющего клапана к Т-коннектору.
+Disconnect the oil burn line from the control valve to the T-connector.
 
 ![[07c00193.png]]
 
-Двигатели K19
+K19 Engines
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Удалите шланг давления топлива из соединительного блока топлива и тиса топливной рельсы.
+Remove the fuel pressure hose from the fuel connecting block and the fuel rail tee.
 
 ![[05400054.png]]
 
-Удалите использованный шланг для сжигания масла из горящего соленоида, и топливо вернется в комплектацию.
+Remove the used oil burn hose from the burn solenoid and the fuel return tee fitting.
 
 ![[05600047.png]]
 
-Удалите использованный шланг подачи масла из головки масляного фильтра и масляной шунтирующей трубки на клапане CentinelTM.
+Remove the used oil supply hose from the oil filter head and the oil bypass tube on the Centinel™ valve.
 
 ![[05400052.png]]
 
-Удалите чистый шланг для пополнения масла из масляной подкладки и дна клапана CentinelTM.
+Remove the clean oil replenishment hose from the oil pan fitting and the bottom of the Centinel™ valve.
 
 ![[05400051.png]]
 
-Двигатели K38 и K50
+K38 and K50 Engines
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Удалите шланг давления топлива из топливного соленоида и соединительного блока топлива.
+Remove the fuel pressure hose from the fuel solenoid and the fuel connecting block.
 
 ![[05600048.png]]
 
-Удалите шланг, идущий от дна клапана CentinelTM, до масляной панели.
+Remove the hose going from the bottom of the Centinel™ valve to the oil pan.
 
 ![[05600045.png]]
 
-Двигатели QSK45 и QSK60
+Burn-Only, QSK45 and QSK60 Engines
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Удалите шланг (10) подачи масла из фитинга в передней крышке передач в верхнюю часть управляющего клапана (8).
+Remove the oil supply hose (10) from the fitting in the front gear cover to the top of the control valve (8).
 
-Удалите 457-мм \[18.0-в\] шланг для сжигания масла (1) из верхней части клапана управления (8) на входную сторону головки установки топливного фильтра (12).
+Remove the 457-mm \[18.0-in\] oil burn hose (1) from the top of the control valve (8) to the inlet side of the fuel filter head (12).
 
-Удалите 167-мм \[6.8-в\] шланг обхода (6) из порта горения клапана управления маслом на входную сторону клапана управления.
+Remove the 167-mm \[6.8-in\] bypass hose (6) from the burn port of the oil control valve to the inlet side of the control valve.
 
 ![[07800172.png]]
 
-Сжигание с помощью двигателей QSK45 и QSK60
+Burn With Make-Up, QSK45 and QSK60 Engines
 
-Удалите галстук, используемый для защиты шлангов. Пометьте и пометьте шланги, когда они удаляются. Укажите их местоположение.
+Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
 
-Удалите 389-мм \[15.3-в\] шланг для сжигания масла (6) от управляющего клапана (8) до впускной стороны головки установки топливного фильтра (12).
-
-![[07800173.png]]
-
-Удалите шланг (10) подачи масла из клапана проверки масла в передней крышке передач в верхнюю часть клапана управления (8).
-
-Удалите 308-мм \[12.1-в\] шланг для пополнения масла (2) из управляющего клапана (8) в штыревой локоть (9) в крышке отверстия для рук.
+Remove the 389-mm \[15.3-in\] oil burn hose (6) from the control valve (8) to the inlet side of fuel filter head (12).
 
 ![[07800173.png]]
 
-### Установка
+Remove the oil supply hose (10) from the oil check valve in the front gear cover to the top of the control valve (8).
 
-Общие сведения
+Remove the 308-mm \[12.1-in\] oil replenishment hose (2) from the control valve (8) to the male elbow (9) in the handhole cover.
 
-> [!danger] ОПАСНО
-> Шкафы не должны быть нанесены вблизи чрезмерно горячих компонентов и должны быть надежно закреплены, чтобы они не контактировали с горячими или движущимися компонентами во время любых условий эксплуатации. Если маршрутизации вблизи горячих компонентов не избежать, то необходимо использовать противопожарный рукав вокруг шланга. Все шланги должны быть надлежащим образом защищены от побоев и закреплены до соответствующей конструкции, так что на соединениях нет нависшей нагрузки.
+![[07800173.png]]
 
-> [!warning] ОСТОРОЖНО
-> Перед установкой каждого шланга № 4 и № 6 наклоните защитный шланг, покрывающий шланг. Неспособность сделать это может вызвать потрескивание и привести к утечке шланга.
+### Install
 
-> [!warning] ОСТОРОЖНО
-> При установке каждого шланга номер 4 и номер 6 убедитесь, что он скользит по заусеницам и спаривается до крышки на фитинге. Неспособность сделать это может привести к отказу подгонки, отказу шланга или обоим.
+General Information
 
-> [!note] Примечание
-> Морские применения требуют, чтобы все шланги и фитинги соответствовали стандартам SAE J1942 и J1527. **Не все шланги и фитинги, поставляемые в комплекты CentinelTM, соответствуют этим стандартам SAE. Металлический макияж танка также может потребоваться для морских применений.
+> [!danger] WARNING · Опасно
+> Hoses must not be routed near excessively hot components and must be securely fastened to ensure they do not contact hot or moving components during any operating conditions. If routing near hot components cannot be avoided, then a fire sleeve around the hose must be used. All hoses must be adequately protected from chafe and fastened to appropriate structure, such that there is no overhung load on connections.
 
-> [!note] Примечание
-> Используйте моторное моторное масло для смазки внутри каждого конца шлангов для облегчения установки.
+> [!warning] CAUTION · Осторожно
+> Before installing each number 4 and number 6 hose, slide protective hose covering over the hose. Failure to do so can cause chafing and lead to hose leakage.
 
-Прежде чем устанавливать окончательные соединения на любом из шлангов для сантехники CentinelTM, установите шланги и убедитесь, что нет никаких изгибов или изгибов. Также помните, что шланги ** должны быть как можно короче.
+> [!warning] CAUTION · Осторожно
+> When installing each number 4 and number 6 hose, make certain that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting failure, hose failure or both.
 
-Все p-зажимы и завязочные обертки ** должны быть установлены после завершения полной сборки. При закреплении шлангов и проводов обязательно держите их подальше от возможных источников тепла, которые могут вызвать преждевременное растрескивание или износ.
+> [!note] Note · Примечание
+> Marine applications require that all hoses and fittings comply to SAE standards J1942 and J1527. **Not** all hoses and fittings supplied in the Centinel™ kits comply with these SAE standards. A metal make-up tank can also be required for Marine applications.
 
-Если установка новой системы или отключение чистых линий масла на макияж системы, система ** должна быть заряжена до того, как двигатель будет возвращен в эксплуатацию. См. процедуру[[96-007-089 — Centinel™ Oil Make-Up Tank|007-089]]Для процедуры прайминга.
+> [!note] Note · Примечание
+> Use engine lubricating oil to lubricate inside each end of the hoses for easier installation.
+
+Before making final connections on any of the hoses for the Centinel™ plumbing, position the hoses and make certain there are no twists or kinks. Also, remember that the hoses **must** be as short as possible.
+
+All p-clamps and tie wraps **must** be installed after completion of the complete assembly. When securing the hoses and wiring, be sure to keep them away from possible heat sources that can cause premature cracking or wear.
+
+If installing a new system or disconnecting clean oil lines on a make-up system, the system **must** be primed before the engine is returned to service. Refer to Procedure [[96-007-089 — Centinel™ Oil Make-Up Tank|007-089]] for the priming procedure.
 
 ![[07800009.png]]
 
-Двигатели L10 и M11
+L10 and M11 Engines
 
-> [!note] Примечание
-> Вероятно, потребуется удалить ECM, чтобы получить доступ к рекомендуемым портам масляных винтовок. Однако на обычных грузовиках с коротким носом сделать это очень сложно и занимает много времени из-за помех кабине и раме рельса. Предполагается, что первым альтернативным местом поставки нефти является выбор одной из двух вилок подачи нефти, расположенных на вспомогательном диске. Если выбрано это место, необходимо будет заказать уплотнение лица 4 кольцом х 1/4 NPT или уплотнение лица 4 кольцом х 9/16-18 кольцом прямой резьб для размещения уплотнения лица 4 кольцом локтем 90 градусов. В качестве последнего выбора, подачу масла на головку масляного фильтра, которая обычно используется для подачи масла на тормоза сжатия, является вариантом. Однако, если вы выберете это место, вы должны использовать проводную линию подачи масла, потому что это место находится на горячей стороне двигателя (турбокомпрессор и выхлопной коллектор).
+> [!note] Note · Примечание
+> It will probably be necessary to remove the ECM to access the recommended oil rifle ports. However, on short-nosed conventional trucks, it is very difficult and time consuming to do this because of interference with the cab and frame rail. It is suggested that the first alternative oil supply location is to choose one of the two oil supply plugs located on the accessory drive. If this location is chosen, it will be necessary to order a number 4 face sealing o-ring x 1/4 NPT or number 4 face sealing o-ring x 9/16-18 straight-thread o-ring to accommodate the number 4 face sealing o-ring, 90-degree elbow. As a last choice, the oil supply on the oil filter head, which is usually used for the oil supply to the compression brakes, is an option. However, if you choose this location, you **must** use a wire-braided oil supply line because this location is on the hot side of the engine (turbocharger and exhaust manifold).
 
-Удалите масляную винтовку на стартовой стороне блока двигателя.
+Remove the oil rifle plug on the starter side of the engine block.
 
 ![[07800032.png]]
 
-Установите 1/4 NPT (**не**) или 9/16-18 прямоточный адаптер с кольцом в масляный порт винтовки.
+Install a 1/4 NPT (**not** shown) or 9/16-18 straight-thread o-ring adapter into the oil rifle port.
 
-| 1/4 ДНЯО | 34 Н·м | [25 фунт-фут] |
+| 1/4 NPT | 34 n.m | \[25 ft-lb\] |
 |---|---|---|
 
-| 9/16-18 Прямолинейное кольцо | 25 Н·м | [221 фунт-дюйм] |
+| 9/16-18 Straight-Thread O-Ring | 25 n.m | \[221 in-lb\] |
 |---|---|---|
 
 ![[07800033.png]]
 
-Установите локтевой уплотнительный номер 4 на локтевой уплотнительный номер 90 градусов на адаптер прямой струи 9/16-18 или 1/4 NPT (**не** показан), который был только что установлен в масляном стрелковом порту.
+Install a number 4 face sealing o-ring 90-degree elbow onto the 9/16-18 straight-thread o-ring or 1/4 NPT (**not** shown) adapter that was just installed in the oil rifle port.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07800034.png]]
 
-Удалите ветку обратной линии топлива из двигателя.
+Remove the fuel return line branch tee from the engine.
 
 ![[05200068.png]]
 
-Найдите новую встроенную фитинговую установку, которая предусмотрена в комплекте для ремонта.
+Find the new in-line tee fitting that is provided in the upfit kit.
 
-Установите и затяните следующее в новый тиз:
+Install and tighten the following into the new tee:
 
 1. 1/8-27 NPT plug
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
-1. 1/8-27 адаптер NPT
+1. 1/8-27 NPT adapter
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
-1. номер 4 торцевая уплотнение о-кольца 90-градусного локтя.
+1. number 4 face sealing o-ring 90-degree elbow.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[05200069.png]]
 
-> [!note] Примечание
-> При установке CentinelTM на двигатели M11, произведенные 19 января 1998 года, а затем (ESN первый 34896714), топливный возвратный тиг, включенный в комплект, будет ** не** совместим с тем, который поставляется на двигателе. В этих ситуациях доступна новая часть (Номер детали 3099764, локтевой, трубчатый разъём).
+> [!note] Note · Примечание
+> When installing Centinel™ on M11 engines produced January 19, 1998, and later (ESN first 34896714), the fuel return tee included in the kit will **not** be compatible with the one supplied on the engine. A new part (Part Number 3099764, elbow, tube Connector) is available to use in these situations.
 
 ![[07800056.png]]
 
-Установите ветку в линию возврата топлива.
+Install the branch tee into the fuel return line.
 
 ![[05200070.png]]
 
-> [!note] Примечание
-> Прежде чем устанавливать окончательные соединения на любых шлангах для сантехники CentinelTM, установите шланги, чтобы убедиться, что нет никаких изгибов или изгибов. Также помните, что шланги должны быть максимально короткими, и установлены так, чтобы они не вступали в контакт с движущимися частями или втирали другие компоненты.
+> [!note] Note · Примечание
+> Before making final connections on any hoses for the Centinel™ plumbing, position the hoses to make sure that there are no twists or kinks. Also, remember that the hoses should be as short as possible, and installed so that they do **not** come in contact with moving parts or rub other components.
 
 ![[07800009.png]]
 
-> [!warning] ОСТОРОЖНО
-> Перед установкой каждого шланга № 4 или № 6 накладывайте на шланг шланг, покрывающий шланг. Неспособность сделать это может вызвать потрескивание и привести к утечке шланга.
+> [!warning] CAUTION · Осторожно
+> Before installing each number 4 or number 6 hose, slide hose covering onto the hose. Failure to do so can cause chafing and lead to hose leakage.
 
-> [!warning] ОСТОРОЖНО
-> При установке каждого шланга номер 4 или номер 6 убедитесь, что он скользит по заусеницам и спаривается до крышки на фитинге. Неспособность сделать это может привести к поломке или сбою шланга.
+> [!warning] CAUTION · Осторожно
+> When installing each number 4 or number 6 hose, make sure that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting or hose failure.
 
 ![[nobox.png]]
 
-> [!note] Примечание
-> При установке шланга на фитинги, смазать внутреннюю часть шланга с чистым моторным маслом, чтобы помочь в установке.
+> [!note] Note · Примечание
+> When installing the hose onto the fittings, lubricate the inside of the hose with clean engine oil to help in installation.
 
-Найдите шланг № 6 в комплекте.
+Locate the number 6 hose in the kit.
 
-Установите уплотнительный уплотнительный уплотнительный узел № 6 90-градусного локтя (1) на нижней части клапана управления маслом.
+Install the number 6 face sealing o-ring 90-degree elbow (1) on the bottom of the oil control valve.
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
-Установите шланг на номер 6 торцевого уплотнения 90-градусного локтя (1), расположенного на дне клапана управления маслом.
+Install the hose on the number 6 face sealing o-ring 90-degree elbow (1) located on the bottom of the oil control valve.
 
-Установите уплотнение лица № 6 на 90-градусном локте (2) на адаптер 1/8 NPT в крышке отверстия для рук.
+Install the number 6 face sealing o-ring 90-degree elbow (2) on the 1/8 NPT adapter in the handhole cover.
 
-> [!tip] Момент затяжки
-> 25 Н·м [221 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 25 n•m [221 in-lb]
 
-Сдвиньте шланг, покрывающий шланг.
+Slide the hose covering onto the hose.
 
-Проведите шланг до торцевого уплотнения № 6 90-градусного локтя, которое было установлено на крышку отверстия для рук, и разрежьте шланг, чтобы он подходил.
+Route the hose to the number 6 face sealing o-ring 90-degree elbow that was installed onto the handhole cover, and cut the hose to fit.
 
-Установите шланг.
+Install the hose.
 
-Закрепите шланг, используя завязывание обертываний, если это необходимо.
+Secure the hose using tie wraps, if necessary.
 
 ![[05200073.png]]
 
-Найдите шланг № 4 в комплекте.
+Locate the number 4 hose in the kit.
 
-Установите шланг на номер 4, герметизирующий кольцо 90-градусного локтя (1) у масляной винтовки.
+Install the hose on the number 4 face sealing o-ring 90-degree elbow (1) at the oil rifle.
 
-Сдвиньте шланг, покрывающий шланг.
+Slide the hose covering onto the hose.
 
-Установить уплотнение лица № 4 на 90-градусном локте (2) в конце шунтирующей трубки, расположенной на верхней части клапана управления маслом.
+Install the number 4 face sealing o-ring 90-degree elbow (2) at the end of the bypass tube located on the top of the oil control valve.
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
-Проведите шланг до торцевого уплотнения № 4 90-градусного локтя (2) в конце шунтирующей трубки, расположенной на верхней части клапана, и разрежьте шланг, чтобы он подходил.
+Route the hose to the number 4 face sealing o-ring 90-degree elbow (2) at the end of the bypass tube located on the top of the valve, and cut the hose to fit.
 
-Установите шланг.
+Install the hose.
 
-Закрепите шланг, используя завязывание обертываний, если это необходимо.
+Secure the hose using tie wraps, if necessary.
 
 ![[05200071.png]]
 
-Установите шланг на торцевое уплотнение № 4 90-градусного локтя (1) на задней подголовнике.
+Install the hose on the number 4 face sealing o-ring 90-degree elbow (1) at the fuel return tee fitting.
 
-Сдвиньте шланг, покрывающий шланг.
+Slide the hose covering onto the hose.
 
-Установите номер 4 торцевой уплотнительной о-кольцевой 90-градусной локоть (1) на ожоговый соленоид.
+Install the number 4 face sealing o-ring 90-degree elbow (1) on the burn solenoid.
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
-Проведите шланг до 4-го торца, закрывающего 90-градусный локтевой сустав (2) на горелом соленоиде, и разрежьте шланг, чтобы он подходил.
+Route the hose to the number 4 face sealing o-ring 90-degree elbow (2) at the burn solenoid, and cut the hose to fit.
 
-Установите шланг.
+Install the hose.
 
-Закрепите шланг, используя завязывание обертываний, если это необходимо.
+Secure the hose using tie wraps, if necessary.
 
 ![[05200072.png]]
 
-Только для сжигания, ISM двигатели
+Burn-Only, ISM Engines
 
-Установите 9/16-18 прямоточного окольца с внешней резьбой (6) в двигательный блок масляной винтовки порт, расположенный чуть выше и справа, обращенный к управляющему клапану.
+Install the 9/16-18 straight-thread o-ring male union (6) in the engine block oil rifle port, located just up and to the right, facing the control valve.
 
-> [!tip] Момент затяжки
-> 36 Н·м [27 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 36 n•m [27 ft-lb]
 
-> [!note] Примечание
-> Вероятно, потребуется снять стартер на двигателях с низко установленными ECM, чтобы получить доступ к этому порту.
-
-![[07800078.png]]
-
-> [!note] Примечание
-> На некоторых заводских установках 6-контактный разъём жгута проводов будет расположен позади ECM. Вытяните разъем, пока стартер удален.
-
-Установите разъем 2 штепселя 1/8-27 NPTF в тис слива топлива.
-
-> [!tip] Момент затяжки
-> 10 Н·м [89 фунт-дюйм]
-
-При необходимости удалите установленный на заводе разъём тиса для слива топлива (если в поставляемом на завод разъёме нет 1/8-дюймового крана и вилки) и установите тиг, подаваемый в комплект.
-
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
-
-Восстановите линию отвода топлива автомобиля.
+> [!note] Note · Примечание
+> It will probably be necessary to remove the starter on engines with low mounted ECMs to access this port.
 
 ![[07800078.png]]
 
-Подключите шланг подачи масляной винтовки (5) к прямоточному кольцу (6) с наружным резьбовым креплением (6) в масляной винтовке блока двигателя. Затяните шланговый разъём.
+> [!note] Note · Примечание
+> On some factory installations, the 6-pin harness connector will be located behind the ECM. Pull down the connector while the starter is removed.
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+Install the 1/8-27 NPTF male connector (2) into the fuel drain tee.
 
-Установите и подтяните шланг для сжигания масла (1) к разъёму 1/8-27 NPTF (2) в тисе для слива топлива. Ориентируйте шланг, чтобы избежать ненужных изломов. Затяните оба шланговых разъёма.
+> [!tip] Момент затяжки · Torque Value
+> 10 n•m [89 in-lb]
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+If necessary, remove the factory-supplied fuel drain tee connector (if there is no 1/8-inch tap and plug in the factory-supplied connector) and install the fuel drain tee supplied in the kit.
 
-Используя предоставленные завязывания, защитите шланги по мере необходимости, чтобы избежать помех и помех.
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
+
+Reconnect the vehicle's fuel drain line.
 
 ![[07800078.png]]
 
-Сжигать с помощью Make-Up, ISM
+Connect the oil rifle supply hose (5) to the 9/16-18 straight-thread o-ring male union (6) in the engine block oil rifle. Tighten the hose connector.
 
-Установите масляную винтовку (1) в блок двигателя масляной винтовки порт (9/16-18 SAE o-ring), расположенный чуть выше и справа, обращенный к управляющему клапану.
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
-> [!note] Примечание
-> Вероятно, потребуется удалить ECM, чтобы получить доступ к этому порту на двигателе с низкими установленными ECM.
+Install and tighten the oil burn hose (1) to the 1/8-27 NPTF connector (2) in the fuel drain tee. Orient the hose to avoid unnecessary kinks. Tighten both hose connectors.
 
-> [!tip] Момент затяжки
-> 36 Н·м [27 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
+
+Using provided tie wraps, secure the hoses as necessary to avoid chafing and interference.
+
+![[07800078.png]]
+
+Burn With Make-Up, ISM Engines
+
+Install the oil rifle fitting (1) in the engine block oil rifle port (9/16-18 SAE o-ring), located just up and to the right, facing the control valve.
+
+> [!note] Note · Примечание
+> It will probably be necessary to remove the ECM to access this port on engine with low mounted ECMs.
+
+> [!tip] Момент затяжки · Torque Value
+> 36 n•m [27 ft-lb]
 
 ![[07800183.png]]
 
-Установите разъем 2 штепселя 1/8-27 NPTF в тис слива топлива.
+Install the 1/8-27 NPTF male connector (2) into the fuel drain tee.
 
-> [!tip] Момент затяжки
-> 10 Н·м [89 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 10 n•m [89 in-lb]
 
-При необходимости удалите установленный на заводе разъём тиса для слива топлива (если в поставляемом на завод разъёме нет 1/8-дюймового крана и вилки) и установите тиг, подаваемый в комплект.
+If necessary, remove the factory-supplied fuel drain tee connector (if there is no 1/8-inch tap and plug in the factory-supplied connector) and install the fuel drain tee supplied in the kit.
 
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
 
-Восстановите линию отвода топлива автомобиля.
+Reconnect the vehicle's fuel drain line.
 
 ![[07800184.png]]
 
-Установите 3/8-24 прямоточного окольца с внешней резьбой (3) в крышку ручного отверстия (4), поставляемую в комплекте.
+Install the 3/8-24 straight-thread o-ring male union (3) into the handhole cover (4) supplied in the kit.
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
 ![[07800185.png]]
 
-Установите крышку и прокладку ручного отверстия, поставляемые в комплекте, с использованием четырех поставляемых болтов. Для кронштейна топливного фильтра, установленного на крышке люка, два болта и два болта и пружинные шайбы вставляются через кронштейн и крышку топливного фильтра.
+Install the handhole cover and gasket supplied in the kit using the four capscrews supplied. For a factory-supplied handhole cover-mounted fuel filter bracket, two of the capscrews and the two capscrews and spring washers are inserted through the fuel filter bracket and cover.
 
-Затяните все четыре болта.
+Tighten all four capscrews.
 
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
 
 ![[07800077.png]]
 
-Подключите шланг подачи масляной винтовки (5) от масляной винтовки к клапану управления.
+Connect the oil rifle supply hose (5) from the oil rifle fitting to the control valve.
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
-Закрепите шланг к блоку с помощью предоставленного p-клипа и 25-мм пленных болтов шайбы.
+Secure the hose to the block using the provided p-clip and the 25 mm captive washer capscrew.
 
-> [!tip] Момент затяжки
-> 45 Н·м [35 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [35 ft-lb]
 
-Подключите шланг пополнения масла (7) от управляющего клапана к крышке отверстия для рук (4).
+Connect the oil replenishment hose (7) from the control valve to the handhole cover (4).
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
 ![[07800186.png]]
 
-Установите и затяните шланг для сжигания масла (8) от клапана управления до тиса слива топлива.
+Install and tighten the oil burn hose (8) from the control valve to the fuel drain tee.
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
-Используя предоставленные завязывания, защитите шланги по мере необходимости, чтобы избежать помех и помех.
+Using provided tie wraps, secure the hoses as necessary to avoid chafing and interference.
 
 ![[07800187.png]]
 
-PT или STC
+PT or STC
 
-> [!note] Примечание
-> Следующие шаги применяются к турбокомпрессору-поездному установленному стартеру N14 с двигателями PT® или STC.
+> [!note] Note · Примечание
+> The following steps apply to Turbocharger-Side Mounted Starter, N14 with PT® or STC engines.
 
-> [!note] Примечание
-> Масляная винтовка содержит три 1/8-дюймовых трубных заглушки и две 9/16-дюймовые кольцевые заглушки.
+> [!note] Note · Примечание
+> The oil rifle contains three 1/8-inch pipe plugs and two 9/16-inch o-ring plugs.
 
-Выберите наиболее удобное место для установки контрольного клапана. Удалите 1/8-дюймовый трубчатый заглушек из масляной винтовки.
+Choose the most convenient location to install the check valve. Remove the 1/8-inch pipe plug from the oil rifle.
 
-> [!note] Примечание
-> Местоположение, указанное в сопроводительной иллюстрации, представляет собой порт подачи моторного масла в клапан управления маслом.
+> [!note] Note · Примечание
+> The location show in the accompanying illustration is the used engine oil supply port to the oil control valve.
 
 ![[05100021.png]]
 
-Установите контрольный клапан в масляную винтовку. Контрольный клапан представляет собой 1/8-дюймовый NPTF до 6-го торцевого уплотнительного кольцевого фитинга.
+Install the check valve into the oil rifle. The check valve is a 1/8-inch NPTF to number 6 face sealing o-ring fitting.
 
-> [!tip] Момент затяжки
-> 34 Н·м [25 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 34 n•m [25 ft-lb]
 
 ![[05100022.png]]
 
-Свободно прикрепить уплотнительное кольцо для лица с номером 4 к локтевой муфте с номером 4 для шланга к контрольному клапану.
+Loosely attach the number 4 face sealing o-ring to the number 4 hose elbow coupling to the check valve.
 
 ![[05100023.png]]
 
-Измерить расстояние между локтевой муфтой с номером 4 в контрольном клапане (2) и прямым шлюзовым шлангом (1) в масляном управляющем клапане соленоида с использованием шланга с номером 4. Разрежьте шланг на длину.
+Measure the distance between the number 4 hose elbow coupling at the check valve (2) and the straight push lock hose fitting (1) at the oil control valve solenoid using the number 4 hose. Cut the hose to length.
 
-Нарежьте кусок шлангового покрытия, чтобы соответствовать длине шланга 4. Сдвиньте крышку шланга над шлангом.
+Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
 
-Удалите свободно прикрепленный шланг локтевой сцепки из контрольного клапана и поместите его в бирку. Смазать как шланг, так и колючий конец локтя чистым маслом. Нажмите шланг № 4 полностью на локтевую поверхность.
+Remove the loosely attached hose elbow coupling from the check valve and place it in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto the elbow.
 
-Повторите предыдущий шаг с помощью прямого шлюзового шланга, который свободно прикреплен к управляющему клапану соленоида.
+Repeat the previous step with the straight push lock hose fitting that is loosely attached to the control valve solenoid.
 
-Установите линию шланга № 4 и затяните локтевую установку на контрольном клапане и прямой шлюзовой шланг, устанавливаемый на соленоидном клапане управления маслом.
+Install the number 4 hose line and tighten the elbow fitting at the check valve and the straight push lock hose fitting at the oil control valve solenoid.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07100085.png]]
 
-> [!note] Примечание
-> Если стартер находится **не** на стороне турбокомпрессора двигателя, обратитесь к топливному насосу-поездному установленному стартеру N14 с PT® или STC.
+> [!note] Note · Примечание
+> If the starter is **not** on the turbocharger side of the engine, refer to Fuel Pump-Side Mounted Starter, N14 with PT® or STC.
 
-Удалите 9/16-18 прямой резьбовой кольцевой штепсель из блока цилиндров. Линия пополнения свежего масла к масляной кастрюле будет прикреплена к этому месту.
+Remove the 9/16-18 straight thread o-ring plug from the cylinder block. The fresh oil replenishment line to the oil pan will be attached to this location.
 
 ![[05100019.png]]
 
-Установите прямое кольцо 9/16-18 на номер 4, закрывающее кольцо и затягивающее.
+Install the 9/16-18 straight thread o-ring to the number 4 face sealing o-ring and tighten.
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
-Свободно прикрепить локтевую муфту с номером 4 к фиксирующей окольцевой герметизации номера 4 на блоке цилиндров.
+Loosely attach a number 4 hose elbow coupling to the number 4 face sealing o-ring fitting at the cylinder block.
 
 ![[05100020.png]]
 
-Измерьте расстояние между локтевыми муфтами с номером 4 в блоке и верхним центром клапана управления маслом (место расположения розетки свежего масла) с использованием шланга с номером 4. Разрежьте шланг на длину.
+Measure the distance between the number 4 hose elbow couplings at the block and the top center of the oil control valve (fresh oil outlet location) using the number 4 hose. Cut the hose to length.
 
-Нарежьте кусок шлангового покрытия, чтобы соответствовать длине шланга 4. Сдвиньте крышку шланга над шлангом.
+Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
 
-Удалите свободно прикрепленные локтевые муфты из блока и клапана управления маслом.
+Remove the loosely attached hose elbow couplings from the block and oil control valve.
 
-Поместите каждую из фитингов в таз. Смазать как шланг, так и колючий конец локтя чистым маслом. Нажмите шланг № 4 полностью на каждый локтей.
+Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto each elbow.
 
-Установите линию шланга № 4 (2) и затяните фитинги локтя на блоке и клапане управления маслом.
+Install the number 4 hose line (2), and tighten the elbow fittings at the block and oil control valve.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07100086.png]]
 
-> [!note] Примечание
-> Следующие шаги применяются к топливному насосу-поезду с установленным пусковым устройством N14 с двигателями PT® или STC.
+> [!note] Note · Примечание
+> The following steps apply to Fuel Pump-Side Mounted Starter, N14 with PT® or STC engines.
 
-> [!note] Примечание
-> Масляная винтовка содержит три 1/8-дюймовых трубных заглушки и две 9/16-дюймовые кольцевые заглушки.
+> [!note] Note · Примечание
+> The oil rifle contains three 1/8-inch pipe plugs and two 9/16-inch o-ring plugs.
 
-Выберите наиболее удобное место для установки контрольного клапана. Удалите 1/8-дюймовый трубчатый заглушек из масляной винтовки.
+Choose the most convenient location to install the check valve. Remove the 1/8-inch pipe plug from the oil rifle.
 
-> [!note] Примечание
-> Местоположение, указанное в сопроводительной иллюстрации, представляет собой порт подачи моторного масла в клапан управления маслом.
+> [!note] Note · Примечание
+> The location show in the accompanying illustration is the used engine oil supply port to the oil control valve.
 
 ![[05100021.png]]
 
-Установите контрольный клапан в масляную винтовку. Контрольный клапан представляет собой 1/8-дюймовый NPTF до 6-го торцевого уплотнительного кольцевого фитинга.
+Install the check valve into the oil rifle. The check valve is a 1/8-inch NPTF to number 6 face sealing o-ring fitting.
 
-> [!tip] Момент затяжки
-> 34 Н·м [25 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 34 n•m [25 ft-lb]
 
 ![[05100022.png]]
 
-Свободно прикрепить уплотнительное кольцо для лица с номером 4 к локтевой муфте с номером 4 для шланга к контрольному клапану.
+Loosely attach the number 4 face sealing o-ring to the number 4 hose elbow coupling to the check valve.
 
 ![[05100023.png]]
 
-Измерить расстояние между локтевой муфтой с номером 4 в контрольном клапане (2) и прямым шлюзовым шлангом (1) в масляном управляющем клапане соленоида с использованием шланга с номером 4. Разрежьте шланг на длину.
+Measure the distance between the number 4 hose elbow coupling at the check valve (2) and the straight push lock hose fitting (1) at the oil control valve solenoid using the number 4 hose. Cut the hose to length.
 
-Нарежьте кусок шлангового покрытия, чтобы соответствовать длине шланга 4. Сдвиньте крышку шланга над шлангом.
+Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
 
-Удалите свободно прикрепленный шланг локтевой сцепки из контрольного клапана и поместите его в бирку. Смазать как шланг, так и колючий конец локтя чистым маслом. Нажмите шланг № 4 полностью на локтевую поверхность.
+Remove the loosely attached hose elbow coupling from the check valve and place it in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto the elbow.
 
-Повторите предыдущий шаг с помощью прямого шлюзового шланга, который свободно прикреплен к управляющему клапану соленоида.
+Repeat the previous step with the straight push lock hose fitting that is loosely attached to the control valve solenoid.
 
-Установите линию шланга № 4 и затяните локтевую установку на контрольном клапане и прямой шлюзовой шланг, устанавливаемый на соленоидном клапане управления маслом.
+Install the number 4 hose line and tighten the elbow fitting at the check valve and the straight push lock hose fitting at the oil control valve solenoid.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07100085.png]]
 
-> [!note] Примечание
-> Если стартер находится **не** на стороне турбокомпрессора двигателя, обратитесь к топливному насосу-поездному установленному стартеру N14 с PT® или STC.
+> [!note] Note · Примечание
+> If the starter is **not** on the turbocharger side of the engine, refer to Fuel Pump-Side Mounted Starter, N14 with PT® or STC.
 
-Удалите 9/16-18 прямой резьбовой кольцевой штепсель из блока цилиндров. Линия пополнения свежего масла к масляной кастрюле будет прикреплена к этому месту.
+Remove the 9/16-18 straight thread o-ring plug from the cylinder block. The fresh oil replenishment line to the oil pan will be attached to this location.
 
 ![[05100019.png]]
 
-Установите прямое кольцо 9/16-18 на номер 4, закрывающее кольцо и затягивающее.
+Install the 9/16-18 straight thread o-ring to the number 4 face sealing o-ring and tighten.
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
-Свободно прикрепить локтевую муфту с номером 4 к фиксирующей окольцевой герметизации номера 4 на блоке цилиндров.
+Loosely attach a number 4 hose elbow coupling to the number 4 face sealing o-ring fitting at the cylinder block.
 
 ![[05100020.png]]
 
-> [!note] Примечание
-> Блок цилиндра, вероятно, будет расположен позади стартера. Если это так, то необходимо будет использовать другую блок-плагину, которая обычно используется для слива нефти STC. В этом случае потребуется «Т» для объединения линии нефтеотвода STC и линии пополнения CentinelTM. Следующие шаги описывают процедуру.
+> [!note] Note · Примечание
+> The cylinder block plug will probably be located behind the starter. If this is true, it will be necessary to use the other block plug that is commonly used for the STC oil drain. In this case, a “T” will be required to combine the STC oil drain line and Centinel™ replenishment line. The following steps outline the procedure.
 
-Удалите линию 1 слива масла STC и установите 9/16-18 прямолинейное кольцо с резьб на 1/4 гнездового адаптера с кольцевым NPTF.
+Remove the STC oil drain line (1), and install the 9/16-18 straight thread o-ring to 1/4 NPTF female o-ring adapter.
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
 ![[07100089.png]]
 
-Установите тис уличной трубы (3) в штуцер с внутренней резьбой с кольцом (4).
+Install the street pipe tee (3) into the female o-ring adapter (4).
 
-> [!tip] Момент затяжки
-> 26 Н·м [230 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 26 n•m [230 in-lb]
 
-Установите 1/4 NPTF на фитинг для уплотнения окольцевого фитинга № 4 (2) в уличную трубу.
+Install the 1/4 NPTF to number 4 face sealing o-ring fitting (2) into the street pipe tee.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Установите 5/8-18 x 45-градусную вспышку на 1/4 NPTF фитинг (5) в уличный трубный тиг.
+Install the 5/8-18 x 45-degree flare to 1/4 NPTF fitting (5) into the street pipe tee.
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
-Установите линию нефтеотвода STC (1) на факельное крепление на уличном трубопроводе Т-соединение.
+Install the STC oil drain line (1) to the flare fitting at the street pipe T-connection.
 
-> [!tip] Момент затяжки
-> 30 Н·м [22 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 30 n•m [22 ft-lb]
 
-Свободно прикрепите локтевую муфту с номером 4 к уплотнительной кольцевой кольцевой муфте с номером, установленной на уличной трубе.
+Loosely attach a number 4 hose elbow coupling to the number face sealing o-ring fitting at the street pipe tee.
 
 ![[07100090.png]]
 
-Измерьте расстояние между локтевыми муфтами с номером 4 на уличной трубе и верхним центром клапана управления маслом (месторасположение розетки свежего масла) с использованием шланга с номером 4. Разрежьте шланг на длину.
+Measure the distance between the number 4 hose elbow couplings at the street pipe tee and the top center of the oil control valve (fresh oil outlet location) using the number 4 hose. Cut the hose to length.
 
-Нарежьте кусок шлангового покрытия, чтобы соответствовать длине шланга 4. Сдвиньте крышку шланга над шлангом.
+Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
 
-Удалите свободно прикрепленные муфты локтя шланга из уличного трубопровода и клапана управления маслом.
+Remove the loosely attached hose elbow couplings from the street pipe tee and oil control valve.
 
-Поместите каждую из фитингов в таз. Смазать как шланг, так и колючий конец локтя чистым маслом. Нажмите шланг № 4 полностью на каждый локтей.
+Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto each elbow.
 
-Установите линию шланга № 4 и затяните фитинги локтя на блоке и клапане управления маслом.
+Install the number 4 hose line, and tighten the elbow fittings at the block and oil control valve.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07100086.png]]
 
-Удалите линию слива топлива из разъёма линии слива двигателя.
+Remove the fuel drain line from the engine drain line connector.
 
 ![[05400043.png]]
 
-Установите поворотный адаптер шланга с 1/8-дюймовым NPTF-нажатием на фитинг линии слива топлива.
+Install the swivel hose adapter with the 1/8-inch NPTF tap onto the fuel drain line fitting.
 
-> [!tip] Момент затяжки
-> 54 Н·м [40 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 54 n•m [40 ft-lb]
 
 ![[07800169.png]]
 
-Установите 1/8-27 на разъем FSOR 4-го номера к поворотному адаптеру шланга.
+Install the 1/8-27 to number 4 FSOR male connector to the swivel hose adapter.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07800168.png]]
 
-Свободно прикрепите прямое соединение с шлангом № 4 FSOR к поворотному адаптеру шланга.
+Loosely attach a number 4 FSOR straight hose coupling to the swivel hose adapter.
 
 ![[07100097.png]]
 
-Подключите линию слива топлива к поворотному адаптеру шланга.
+Connect the fuel drain line to the swivel hose adapter.
 
-> [!tip] Момент затяжки
-> 54 Н·м [40 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 54 n•m [40 ft-lb]
 
 ![[07100098.png]]
 
-Измерьте расстояние между подгоном топливного стока и шлангом № 4, установленным на передней поверхности клапана управления маслом (используемой розеткой моторного масла), используя шланг № 4. Разрежьте шланг на длину.
+Measure the distance between the fuel drain fitting and the number 4 hose fitting on the front face of the oil control valve (used engine oil outlet) using the number 4 hose. Cut the hose to length.
 
-Нарежьте кусок шлангового покрытия, чтобы соответствовать длине шланга 4. Сдвиньте крышку шланга над шлангом.
+Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
 
-Удалите свободно прикрепленные фитинги из клапана управления сливом топлива и масла.
+Remove the loosely attached fittings from the fuel drain and oil control valve.
 
-Поместите каждую из фитингов в таз. Смазать как шланг, так и колючий конец фитинга чистым маслом. Нажмите шланг № 4 полностью на каждую фитинг.
+Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the fitting with clean oil. Push the number 4 hose completely onto each fitting.
 
-Установите линию шланга № 4 (3) и затяните фитинги на клапане управления сливом топлива и масла.
+Install the number 4 hose line (3), and tighten the fittings at the fuel drain and oil control valve.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07100087.png]]
 
-CentinelTM Fuel Pressure Sensor Line с галочку
+Centinel™ Fuel Pressure Sensor Line with Check Valve
 
-> [!note] Примечание
-> Если линия давления топлива на топливном форсунке имеет установленный контрольный клапан, перед контрольным клапаном должна быть установлена линия датчика давления топлива CentinelTM ***.
+> [!note] Note · Примечание
+> If the fuel pressure line to the injectors has a check valve installed, the Centinel™ fuel pressure sensor line **must** be installed prior to the check valve.
 
-Если линия давления топлива на топливном форсунке имеет установленный контрольный клапан, установите один из 9/16-18 STOR на номер 4 FSOR, наружно резьбовых фитинговых разъемов (2) на топливный соединительный блок (3).
+If the fuel pressure line to the injectors has a check valve installed, install one of the 9/16-18 STOR to number 4 FSOR male union connectors (2) to the fuel connecting block (3).
 
-> [!tip] Момент затяжки
-> 34 Н·м [25 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 34 n•m [25 ft-lb]
 
-Установите либо прямое, либо 90-градусное локтевое шланговое соединение (1) с внешним резьбовым фитинговым разъемом.
+Install either a straight or 90-degree elbow hose coupling (1) to the male union connector.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-> [!note] Примечание
-> Выберите, какой из них подходит для применения.
+> [!note] Note · Примечание
+> Choose whichever fitting suits the application.
 
-Если линия давления топлива на топливном форсунке ** не** имеет установленный контрольный клапан, обратитесь к следующей процедуре.
+If the fuel pressure line to the injectors does **not** have a check valve installed, refer to the following procedure.
 
 ![[07100077.png]]
 
-Удалите линию подачи топлива STC (2), если она оборудована, из тройки топливной линии давления в верхней части топливного насоса.
+Remove the STC fuel supply line (2), if equipped, from the fuel pressure line tee at the top of the fuel pump.
 
-Удалите линию подачи топлива под давлением топливного форсунка (1) с верхней части топливного насоса.
+Remove the injector fuel pressure supply line (1) from the top of the fuel pump.
 
-Удалите Т-образный (3) из верхней части топливного насоса.
+Remove the T-fitting (3) from the top of the fuel pump.
 
 ![[07100091.png]]
 
-Установите 1/8-дюймовый трубный сосок (5) в дно гнездового кросс-фиттинга (6). Для того чтобы удержать гнездовую поперечную подгонку на месте, потребуется визи.
+Install the 1/8-inch pipe nipple (5) into the bottom of the female cross-fitting (6). A vise will be needed to hold the female cross-fitting in place.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Установите 1/8 NPTF на гнездовую фару (2) в верхней части гнездового кросс-фиттинга.
+Install the 1/8 NPTF to female flare fitting (2) into the top of the female cross-fitting.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Установите 1/8 NPTF на номер 4 FSOR, фитинг (1) в одну руку гнездового кросс-фиттинга.
+Install the 1/8 NPTF to number 4 FSOR fitting (1) into one arm of the female cross-fitting.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Установите 1/8 NPTF на 45-градусную вспышку (3) в другую руку гнездового кросс-фиттинга.
+Install the 1/8 NPTF to 45-degree flare fitting (3) into the other arm of the female cross-fitting.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Уплотните линию подачи топлива STC (4) до 45-градусной факельной установки.
+Tighten the STC fuel supply line (4) to the 45-degree flare fitting.
 
-> [!tip] Момент затяжки
-> 30 Н·м [22 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 30 n•m [22 ft-lb]
 
-Подсоедините линию давления топлива в форсунке к гнездовой вспышке, установленной на гнездовой поперечной подгонке.
+Reconnect the injector fuel pressure line to the female flare fitting at the female cross-fitting.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07100092.png]]
 
-Свободно прикрепите локтевую муфту с номером 4 к фитингу с номером 4 FSOR.
+Loosely attach the number 4 hose elbow coupling to the number 4 FSOR fitting.
 
-Измерьте расстояние между номером 4 FSOR, устанавливаемым на топливном насосе, и прямым шлангом № 4, соединяющим блок топлива, используя шланг № 4. Разрежьте шланг на длину.
+Measure the distance between the number 4 FSOR fitting at the fuel pump to the number 4 straight hose coupling at the fuel connecting block using the number 4 hose. Cut the hose to length.
 
-Нарежьте кусок шлангового покрытия, чтобы соответствовать длине шланга 4. Сдвиньте крышку шланга над шлангом.
+Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
 
-Удалите свободно прикрепленные фитинги на топливном насосе и блоке датчика давления топлива.
+Remove the loosely attached fittings at the fuel pump and fuel pressure sensor block.
 
-Поместите каждую из фитингов в таз. Смазать как шланг, так и колючий конец фитинга чистым маслом. Нажмите шланг № 4 полностью на каждую фитинг.
+Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the fitting with clean oil. Push the number 4 hose completely onto each fitting.
 
-Установите линию шланга № 4 и затяните фитинги на топливном насосе и блоке датчика давления топлива.
+Install the number 4 hose line, and tighten the fittings at the fuel pump and fuel pressure sensor block.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07100088.png]]
 
-Линия давления топлива без галочки
+Fuel Pressure Line without Check Valve
 
-> [!note] Примечание
-> Два блока перехода расположены в линии давления к топливной форсунке (один возле центра на стороне двигателя и один возле задней части двигателя перед входом в линию давления в головку цилиндра). Линия подачи топлива STC, если она оборудована, обычно соединена с центральным блоком перехода на стороне двигателя. Однако задний перемычек двигателя также доступен при необходимости.
+> [!note] Note · Примечание
+> Two junction blocks are located in the pressure line to the injectors (one near the engine-side center and one near the engine rear prior to the pressure line entrance to the cylinder head). The STC fuel supply line, if equipped, is normally connected to the engine-side center junction block. However, the engine rear junction also is available if necessary.
 
-Если линия давления топлива на топливном форсунке ** не** имеет установленный контрольный клапан, удалите 1/8-дюймовый пробку трубы из блока перехода.
+If the fuel pressure line to the injectors does **not** have a check valve installed, remove the 1/8-inch pipe plug from the junction block.
 
-Установите 1/8 NPTF на разъем FSOR 4 номер в место расположения соединительного блока трубы.
+Install a 1/8 NPTF to number 4 FSOR male connector into the pipe plug location on the junction block.
 
-Свободно прикрепите локтевую муфту с номером 4 к фитингу с номером 4 FSOR.
+Loosely attach a number 4 hose elbow coupling to the number 4 FSOR fitting.
 
-Если линия давления топлива на форсунка имеет установленный контрольный клапан, обратитесь к предыдущей процедуре.
+If the fuel pressure line to the injectors does have a check valve installed, refer to the previous procedure.
 
 ![[nobox.png]]
 
-Установите один из 9/16-18 STOR на номер 4 FSOR, подгоняемый наружно резьбовыми фитинговыми разъемами (2) к топливному соединительному блоку (3).
+Install one of the 9/16-18 STOR to number 4 FSOR male union connectors (2) to the fuel connecting block (3).
 
-> [!tip] Момент затяжки
-> 34 Н·м [25 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 34 n•m [25 ft-lb]
 
-Установите либо прямое, либо 90-градусное локтевое шланговое соединение (1) с внешним резьбовым фитинговым разъемом.
+Install either a straight or 90-degree elbow hose coupling (1) to the male union connector.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-> [!note] Примечание
-> Выберите, какой из них подходит для применения.
+> [!note] Note · Примечание
+> Choose whichever fitting suits the application.
 
 ![[07100077.png]]
 
-Измерьте расстояние между локтевыми муфтами с номером 4 на соединительном блоке топлива на монтажном кронштейне CentinelTM и блоке топливного перехода с использованием шланга с номером 4. Разрежьте шланг на длину.
+Measure the distance between the number 4 hose elbow couplings at the fuel connecting block on the Centinel™ mounting bracket and fuel junction block using the number 4 hose. Cut the hose to length.
 
-Нарежьте кусок шлангового покрытия, чтобы соответствовать длине шланга 4. Сдвиньте крышку шланга над шлангом.
+Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
 
-Удалите свободно прикрепленные фитинги на блоке топливного перехода и блоке соединения топлива.
+Remove the loosely attached fittings at the fuel junction block and fuel connecting block.
 
-Поместите каждую из фитингов в таз. Смазать как шланг, так и колючий конец локтя чистым маслом. Нажмите шланг № 4 полностью на каждый локтей.
+Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto each elbow.
 
-Установите линию шланга № 4 и затяните фитинги на блоке топливного перехода и блоке подключения топлива.
+Install the number 4 hose line, and tighten the fittings at the fuel junction block and fuel connecting block.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07100084.png]]
 
-Двигатели N14
+N14 Engines
 
-Удалите 9/16-18 кольцевую пробку со стороны топливного насоса двигателя.
+Remove the 9/16-18 o-ring plug from the fuel pump side of the engine.
 
 ![[05100019.png]]
 
-Установите 9/16-18 прямоточный адаптер с кольцом, где была удалена пробка.
+Install a 9/16-18 straight-thread o-ring adapter where the plug was removed.
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
-Установите локтевой уплотнитель с номером 6 на 90-градусный локтевой адаптер с прямой резьбой 9/16-16, который был только что установлен.
+Install a number 6 face sealing o-ring 90-degree elbow onto the 9/16-16 straight-thread o-ring adapter that was just installed.
 
-> [!tip] Момент затяжки
-> 26 Н·м [230 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 26 n•m [230 in-lb]
 
 ![[05100020.png]]
 
-Удалите масляную винтовку 9/16-18 или 1/8-27 NPT (**не**) из середины топливного насоса на стороне блока двигателя.
+Remove the 9/16-18 oil rifle o-ring plug or 1/8-27 NPT plug (**not** shown) from the middle of the fuel pump side of the engine block.
 
-> [!note] Примечание
-> Если этот порт недоступен, найдите доступный порт на главной масляной винтовке.
+> [!note] Note · Примечание
+> If this port is **not** available, locate an available port on the main oil rifle.
 
 ![[05100021.png]]
 
-Установите адаптер с прямым кольцевым приводом 9/16-18 или адаптер с 1/8 NPT (**не**) в порт масляной винтовки.
+Install a 9/16-18 straight-thread o-ring adapter or a 1/8 NPT adapter (**not** shown) into the oil rifle port.
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
 ![[05100022.png]]
 
-Установите локтевой уплотнитель с кольцевым кольцом № 4 на 9/16-18 прямоточный адаптер с кольцевым кольцом, который был только что установлен в масляном порту винтовки.
+Install a number 4 face sealing o-ring 90-degree elbow onto the 9/16-18 straight-thread o-ring adapter that was just installed in the oil rifle port.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[05100023.png]]
 
-Удалите ветку обратной линии топлива из двигателя.
+Remove the fuel return line branch tee from the engine.
 
 ![[05100024.png]]
 
-Используя новый топливный возвратный тиз, который был предусмотрен в комплекте для ремонта, установите следующее:
+Using the new fuel return tee that was provided in the upfit kit, install the following:
 
-1. 1/8-27 NPT подключается к верхней части троса
+1. 1/8-27 NPT plug into the top of the tee
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
-1. 1/8-27 Адаптеры ДНЯО в нижней части троса
+1. 1/8-27 NPT adapter into the bottom of the tee
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
-1. номер 4 герметизация обручального кольца прямой фитинга или 90-градусный локтевой на 1/8-27 NPT адаптер.
+1. number 4 face sealing o-ring straight fitting or a 90-degree elbow onto the 1/8-27 NPT adapter.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[05100026.png]]
 
-> [!note] Примечание
-> При установке CentinelTM на двигатели N14, произведенные 29 января 1998 года, а затем (ESN первый 11877641), топливный возвратный тиг, включенный в комплект, будет **не** совместим с тем, который поставляется на двигателе. Новая деталь (Номер детали 3099992, локтевой разъем, разъём трубки) доступна для использования в этих ситуациях.
+> [!note] Note · Примечание
+> When installing Centinel™ on N14 engines produced January 29, 1998, and later (ESN first 11877641), the fuel return tee included in the kit will **not** be compatible with the one supplied on the engine. The new part (Part Number 3099992, elbow, tube connector) is available to use in these situations.
 
 ![[07800057.png]]
 
-Установите новый топливный возвратный ветвь в линию возврата топлива.
+Install the new fuel return branch tee into the fuel return line.
 
 ![[05100025.png]]
 
-> [!note] Примечание
-> Прежде чем устанавливать окончательные соединения на любом из шлангов для сантехники CentinelTM, установите шланги, чтобы убедиться, что нет никаких изгибов или изгибов. Также помните, что шланги должны быть как можно короче и установлены так, чтобы они не вступали в контакт с движущимися частями, не втирали другие компоненты или не вступали в контакт с горячими поверхностями.
+> [!note] Note · Примечание
+> Before making final connections on any of the hoses for the Centinel™ plumbing, position the hoses to make sure there are no twists or kinks. Also, remember that the hoses should be as short as possible, and installed so that they do **not** come in contact with moving parts, rub other components, or come in contact with hot surfaces.
 
 ![[07800009.png]]
 
-> [!warning] ОСТОРОЖНО
-> Перед установкой каждого шланга № 4 или № 6 накладывайте на шланг шланг, покрывающий шланг. Неспособность сделать это может вызвать потрескивание и привести к утечке шланга.
+> [!warning] CAUTION · Осторожно
+> Before installing each number 4 or number 6 hose, slide hose covering onto the hose. Failure to do so can cause chafing and lead to hose leakage.
 
-> [!warning] ОСТОРОЖНО
-> При установке каждого шланга номер 4 или номер 6 убедитесь, что он скользит по заусеницам и спаривается до крышки на фитинге. Неспособность сделать это может привести к поломке или сбою шланга.
+> [!warning] CAUTION · Осторожно
+> When installing each number 4 or number 6 hose, make sure that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting or hose failure.
 
-> [!note] Примечание
-> При установке шланга на фитинги, смазать внутреннюю часть шланга с чистым моторным маслом, чтобы помочь в установке.
+> [!note] Note · Примечание
+> When installing the hose onto the fittings, lubricate the inside of the hose with clean engine oil to help in installation.
 
 ![[nobox.png]]
 
-Найдите шланг № 6 в комплекте.
+Locate the number 6 hose in the kit.
 
-Сдвиньте шланг, покрывающий шланг.
+Slide the hose covering onto the hose.
 
-Установите шланг на уплотнительный уплотнительный уплотнительный узел № 6 90-градусного локтя (1), расположенный на дне клапана управления маслом.
+Install the hose onto the number 6 face sealing o-ring 90-degree elbow (1) located on the bottom of the oil control valve.
 
-Проведите шланг до номера 6, герметизируя кольцо 90-градусного локтя (2), установленное в левой части двигателя, и разрежьте шланг, чтобы он подходил.
+Route the hose to the number 6 face sealing o-ring 90-degree elbow (2) installed in the left side of the engine, and cut the hose to fit.
 
-Установите шланг.
+Install the hose.
 
-Закрепите шланг, используя завязывание обертываний, если это необходимо.
+Secure the hose using tie wraps, if necessary.
 
 ![[05100033.png]]
 
-Найдите шланг № 4 в комплекте.
+Locate the number 4 hose in the kit.
 
-Сдвиньте шланг, покрывающий шланг.
+Slide the hose covering onto the hose.
 
-Установите шланг на торцевую уплотнение № 4 90-градусного локтя на масляной винтовке (1).
+Install the hose onto the number 4 face sealing o-ring 90-degree elbow at the oil rifle (1).
 
-Проведите шланг до 4 90-градусного торца для запечатывания локтя или торцевого кольцевого прямого крепления в конце шунтирующей трубки (2), расположенной в верхней части клапана, и разрежьте шланг, чтобы он подходил.
+Route the hose to the number 4 90-degree face sealing o-ring elbow or face sealing o-ring straight fitting at the end of the bypass tube (2), located at the top of the valve, and cut the hose to fit.
 
-Установите шланг.
+Install the hose.
 
-Закрепите шланг, используя завязывание обертываний, по мере необходимости.
+Secure the hose using tie wraps, as necessary.
 
 ![[05100034.png]]
 
-Найдите шланг № 4 в комплекте.
+Locate the number 4 hose in the kit.
 
-Сдвиньте шланг, покрывающий шланг.
+Slide the hose covering onto the hose.
 
-Установить на 90-градусную герметичную окольную локтевую или огранительную окольную прямую установку на топливной обратной тройной фитинг (1).
+Install onto the 90-degree face sealing o-ring elbow or face sealing o-ring straight fitting at the fuel return tee fitting (1).
 
-Проведите шланг до 4-го лица, уплотняющего локтем 90-градусный локтей при ожоге соленоидом (2), и разрежьте шланг, чтобы он подходил.
+Route the hose to the number 4 face sealing o-ring 90-degree elbow at burn solenoid (2), and cut the hose to fit.
 
-Установите шланг.
+Install the hose.
 
-Закрепите шланг, используя завязывание обертываний, по мере необходимости.
+Secure the hose using tie wraps, as necessary.
 
 ![[05100035.png]]
 
-Двигатели ISX
+ISX Engines
 
-Установите Т-коннектор (2) на модуль интегрированной топливной системы возврата топлива и затягивания.
+Install the T-connector (2) to the integrated fuel system module fuel return and tighten.
 
-> [!tip] Момент затяжки
-> 54 Н·м [40 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 54 n•m [40 ft-lb]
 
-Подключите линию (1) отвода топлива транспортного средства к Т-разъёму и затяните.
+Connect the vehicle's fuel drain line (1) to the T-connector and tighten.
 
-> [!tip] Момент затяжки
-> 54 Н·м [40 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 54 n•m [40 ft-lb]
 
-Соедините линию сжигания масла от управляющего клапана к Т-разъёму и затяните.
+Connect the oil burn line from the control valve to the T-connector and tighten.
 
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
 
 ![[07c00193.png]]
 
-Установите M18 x 1.5 SAE уплотнительное кольцо, пронизанное внешней резьбой (1), в неиспользованный порт калибра уровня масла и затяните.
+Install the M18 x 1.5 SAE o-ring male union (1) into the unused dipstick port and tighten.
 
-> [!tip] Момент затяжки
-> 75 Н·м [55 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 75 n•m [55 ft-lb]
 
-Установите линию (2) макияжа на клапан и разъём в порту измерительной датчика уровня масла.
+Install the make-up line (2) to the valve and male connector in the dipstick port.
 
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
 
-Использовать предоставленные P-clip (3) и M10-1,5 x 16-мм болты (4) для закрепления шланга (2) во избежание помех и помех. Затяните болт.
+Use provided P-clip (3) and M10-1.5 x 16-mm capscrew (4) to secure the hose (2) to avoid chafing and interference. Tighten the capscrew.
 
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
 
 ![[07c00194.png]]
 
-Подключите шланг подачи масляной винтовки (1) от управляющего клапана к разъёму клапана проверки масляной винтовки. Поместите разъём и шланг контрольного клапана, чтобы убедиться, что между шлангом и впускным коллектором есть зазор.
+Connect the oil rifle supply hose (1) from the control valve to the oil rifle check valve connector. Position the check valve connector and hose to make certain that there is clearance between the hose and the intake manifold.
 
-Затяните разъем.
+Tighten the connector.
 
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
 
 ![[07c00195.png]]
 
-Маршрутизатор шланга для макияжа (1) по рамной рельсе, которая находится напротив выхлопа и вперед к 3/4-дюймовому разъёму трубы, расположенному на заднем конце клапана управления маслом. Подстриги шланг.
+Route the make-up tank hose (1) along the fram rail that is opposite the exhaust and forward to the 3/4-inch tube connector located on the back end of the oil control valve. Cut the hose to fit.
 
 ![[02c00049.png]]
 
-> [!note] Примечание
-> Для более простой установки используйте чистое моторное масло для смазки конца шланга перед установкой шланга на дренажную арматуру.
+> [!note] Note · Примечание
+> For easier installation, use clean engine oil to lubricate the end of the hose before installing the hose onto the drain fitting.
 
-> [!note] Примечание
-> При установке шланга подачи макияжа убедитесь, что он расположен и закреплен таким образом, чтобы избежать потрескивания. При необходимости перенаправить шланг для подачи макияжа.
+> [!note] Note · Примечание
+> When installing the make-up supply hose, verify that it is located and secured in such a way as to avoid chafing. If necessary, reroute the make-up supply hose.
 
-Установите шланг (1) на конец управляющего клапана шланга и установите шланг на разъём масляного управляющего клапана масляной подводящей трубки.
+Install a hose clamp (1) onto the control valve end of the hose, and install the hose onto the oil control valve make-up oil supply tube connector.
 
-Сдвиньте зажим шланга в положение над фитингом и затяните.
+Slide the hose clamp into position over the fitting and tighten.
 
-После установки проводов датчика уровня масла в масляном масле, используйте предоставленные завязные обертки, чтобы закрепить шланг к раме.
+After installing the oil make-up tank oil level sensor wiring, use the provided tie wraps to secure the hose to the frame rail.
 
 ![[07c00197.png]]
 
-Двигатели K19
+K19 Engines
 
-Удалите 3/4-дюймовую пробку с левой стороны масляной панели.
+Remove the 3/4-inch plug from the left side of the oil pan.
 
 ![[05400040.png]]
 
-Найдите адаптер 1/4 NPT в комплекте для установки.
+Locate the 1/4 NPT adapter in the upfit kit.
 
-Установите редуктор втулки и затяните.
+Install the reducer bushing and tighten.
 
-> [!tip] Момент затяжки
-> 27 Н·м [239 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 27 n•m [239 in-lb]
 
-Установите уплотнение лица № 6, прямое крепление к адаптеру, только что установленному в редукторе.
+Install a number 6 face sealing o-ring straight fitting onto the adapter just installed in the reducer.
 
-> [!tip] Момент затяжки
-> 26 Н·м [230 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 26 n•m [230 in-lb]
 
 ![[05400042.png]]
 
-Удалите шланг из линии обратного отвода топлива.
+Remove the hose from the fuel return drain line.
 
 ![[05400043.png]]
 
-Установите поворотный фитинг ST-434-1 на фитинг слива топлива.
+Install the swivel fitting, ST-434-1, onto the fuel drain fitting.
 
-> [!tip] Момент затяжки
-> 54 Н·м [40 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 54 n•m [40 ft-lb]
 
 ![[07800169.png]]
 
-Установите адаптер 1/8-27 NPT в поворотную фитингу. Поместите адаптер поверх поворотной фитинги.
+Install a 1/8-27 NPT adapter into the swivel fitting. Position the adapter on top of the swivel fitting.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07800168.png]]
 
-Установите локтевой уплотнитель с номером 4 на 90 градусов к адаптеру, который только что был установлен.
+Install a number 4 face sealing o-ring 90-degree elbow to the adapter that was just installed.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07800166.png]]
 
-Установите шланг обратной линии слива топлива, который был удален обратно на поворотную фитингу.
+Install the fuel return drain line hose that was removed back onto the swivel fitting.
 
-> [!tip] Момент затяжки
-> 54 Н·м [40 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 54 n•m [40 ft-lb]
 
 ![[07800167.png]]
 
-> [!note] Примечание
-> Если порт тиз недоступен, используйте разъем 1/8 NPT, доступный на соленоиде отключения топливного насоса.
+> [!note] Note · Примечание
+> If the tee port is unavailable, use the 1/8 NPT plug available on the fuel pump shutoff solenoid.
 
-Удалите вилку из топливного рельсового троса.
+Remove the plug from the fuel rail tee.
 
 ![[05400047.png]]
 
-Установите адаптер 1/8 NPT, где пробка была удалена из топливного рельсового троса или соленоида отключения топливного насоса.
+Install a 1/8 NPT adapter where the plug was removed from the fuel rail tee or fuel pump shutoff solenoid.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Установите 90-градусный локтевой уплотнитель для лица на фитинге.
+Install a 90-degree face sealing o-ring elbow onto the tee fitting.
 
 ![[05400048.png]]
 
-> [!note] Примечание
-> Удалите пробку с чистой масляной стороны головки фильтра.
+> [!note] Note · Примечание
+> Remove the plug from the clean oil side of the filter head.
 
-Удалите пробку с головки масляного фильтра на левой стороне двигателя.
+Remove the plug from the oil filter head on the left side of the engine.
 
 ![[05400045.png]]
 
-Установите адаптер 1/8-27 NPT в головку масляного фильтра, где была удалена пробка.
+Install a 1/8-27 NPT adapter into the oil filter head where the plug was removed.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Установить номер 4 уплотнение лица прямым фитингом или 90-градусное уплотнение лица локтем (**не**) на адаптере 1/8-27 NPT.
+Install a number 4 face sealing o-ring straight fitting or 90-degree face sealing o-ring elbow (**not** shown) on the 1/8-27 NPT adapter.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[05400046.png]]
 
-> [!warning] ОСТОРОЖНО
-> Перед установкой каждого шланга № 4 и № 6 наклоните защитный шланг, покрывающий шланг. Неспособность сделать это может вызвать потрескивание и привести к утечке шланга.
+> [!warning] CAUTION · Осторожно
+> Before installing each number 4 and number 6 hose, slide protective hose covering over the hose. Failure to do so can cause chafing and lead to hose leakage.
 
-> [!warning] ОСТОРОЖНО
-> При установке каждого шланга номер 4 и номер 6 убедитесь, что он скользит по заусеницам и спаривается до крышки на фитинге. Неспособность сделать это может привести к сбою фитинга / хозяина.
+> [!warning] CAUTION · Осторожно
+> When installing each number 4 and number 6 hose, make certain that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting/hose failure.
 
-> [!note] Примечание
-> Прежде чем устанавливать окончательные соединения на любом из шлангов для сантехники CentinelTM, установите шланги и убедитесь, что нет никаких изгибов или изгибов. Также помните, что шланги должны быть как можно короче.
+> [!note] Note · Примечание
+> Before making final connections on any of the hoses for the Centinel™ plumbing, position the hoses and make certain there are no twist or kinks. Also, remember that the hoses should be as short as possible.
 
-> [!note] Примечание
-> Используйте моторное масло для смазки внутри каждого конца шлангов для облегчения установки.
+> [!note] Note · Примечание
+> Use engine oil to lubricate inside each end of the hoses for easier installation.
 
-> [!note] Примечание
-> Все p-зажимы и завязочные обертки должны быть установлены после завершения полной сборки. При закреплении шлангов и проводов обязательно держите их подальше от возможных источников тепла, которые могут вызвать преждевременное растрескивание или износ.
+> [!note] Note · Примечание
+> All p-clamps and tie wraps should be installed after completion of the complete assembly. When securing the hoses and wiring, be sure to keep them away from possible heat sources that can cause premature cracking or wear.
 
 ![[07800009.png]]
 
-Найдите шланг № 6 в комплекте.
+Locate the number 6 hose in the kit.
 
-Нанесите защитный шланг, покрывающий шланг.
+Slide a protective hose covering onto the hose.
 
-Установите шланг (1) на уплотнительное кольцо № 6 90-градусного локтя или прямое крепление, расположенное в нижней части клапана.
+Install the hose (1) onto the number 6 face sealing o-ring 90-degree elbow or straight fitting located at the bottom of the valve.
 
-> [!note] Примечание
-> Для ожога это будет 90-градусная установка, поступающая из u-трубки.
+> [!note] Note · Примечание
+> For burn-only, this will be a 90-degree fitting coming from the u-tube.
 
-Проведите шланг (2) по прямому монтажу под номером 6, который был установлен на масляной поддоне, и разрежьте шланг, чтобы он подходил.
+Route the hose (2) onto the number 6 straight fitting that was installed on the oil pan, and cut the hose to fit.
 
-Установите шланг.
+Install the hose.
 
-Закрепите шланг с помощью галстуковых ремней, если это необходимо.
+Secure the hose using tie straps, if necessary.
 
 ![[05400051.png]]
 
-Найдите шланг № 4 в комплекте.
+Locate the number 4 hose in the kit.
 
-Нанесите защитный шланг, покрывающий шланг.
+Slide a protective hose covering onto the hose.
 
-Установите шланг (А) на прямую фитинг № 4, расположенную на масляной головке фильтра.
+Install the hose (A) on the number 4 straight fitting located on the oil filter head.
 
-Проведите шланг (B) до 4-го прямолинейного монтажа в конце обхода моторного масла, расположенного поверх клапана, и разрежьте шланг, чтобы он подходил.
+Route the hose (B) to the number 4 straight fitting at the end of the lubricating oil bypass located on top of the valve, and cut the hose to fit.
 
-Установите шланг на фитинг.
+Install the hose on the fitting.
 
-Закрепите шланг с помощью p-зажимов.
+Secure the hose with p-clamps.
 
 ![[05400052.png]]
 
-Найдите шланг № 4 в комплекте.
+Locate the number 4 hose in the kit.
 
-Нанесите защитный шланг, покрывающий шланг.
+Slide a protective hose covering onto the hose.
 
-Установите шланг (1) на торцевой уплотнительной локтевой кольцевой окне № 4 90-градусной формы на подгоночной тройной фитинге.
+Install the hose (1) on the number 4 face sealing o-ring 90-degree elbow at the fuel return tee fitting.
 
-Проведите шланг (2) к уплотнению лица № 4 90-градусным локтем на горелом соленоиде и разрежьте шланг, чтобы он подходил.
+Route the hose (2) to the number 4 face sealing o-ring 90-degree elbow at the burn solenoid, and cut the hose to fit.
 
-Установите шланг на фитинг.
+Install the hose on the fitting.
 
-Закрепите шланг, используя завязывание обертываний, если это необходимо.
+Secure the hose using tie wraps, if necessary.
 
 ![[05600047.png]]
 
-Найдите шланг № 4 в комплекте.
+Locate the number 4 hose in the kit.
 
-Нанесите защитный шланг, покрывающий шланг.
+Slide a protective hose covering onto the hose.
 
-Установите шланг на торцевой уплотнительной локтевой решетке № 4 90 градусов на тройке топливной рельсы (1).
+Install the hose on the number 4 face sealing o-ring 90-degree elbow at the fuel rail tee (1).
 
-Проведите шланг до торцевого уплотнения № 4 90-градусного локтя на блоке (2) соединения топлива и разрежьте шланг, чтобы он подходил.
+Route the hose to the number 4 face sealing o-ring 90-degree elbow at the fuel connecting block (2), and cut the hose to fit.
 
-Установите шланг на фитинг.
+Install the hose on the fitting.
 
-Закрепите шланг, используя завязывание обертываний, если это необходимо.
+Secure the hose using tie wraps, if necessary.
 
 ![[05400054.png]]
 
-Двигатели K38 и K50
+K38 and K50 Engines
 
-Удалите 1/2-20 прямоточную пробку с левой стороны масляной панели.
+Remove the 1/2-20 straight-thread plug from the left side of the oil pan.
 
 ![[05600037.png]]
 
-Найдите 1/2-20 адаптер из комплекта апгрейда.
+Locate 1/2-20 adapter from the upfit kit.
 
-Отрежьте кольцо.
+Cut off the o-ring.
 
-Установите уплотнительный стиральный станок туда, где только что было удалено кольцо.
+Install a sealing washer to where the o-ring was just removed.
 
 ![[05400041.png]]
 
-Там, где пробка была удалена из масляной поддона, установите адаптер 1/2-20 с уплотнительной стиральной машиной.
+Where the plug was removed from the oil pan, install the 1/2-20 adapter with a sealing washer.
 
-> [!tip] Момент затяжки
-> 22 Н·м [195 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 22 n•m [195 in-lb]
 
-Установите локтевой уплотнитель с торцевым кольцом № 6 на редуктор, только что установленный в масляной панели.
+Install a number 6 face sealing o-ring 90-degree elbow onto the reducer just installed in the oil pan.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[05600038.png]]
 
-Удалите шланг из линии обратного отвода топлива.
+Remove the hose from the fuel return drain line.
 
 ![[07800131.png]]
 
-Установите поворотную фитингу на фитинг слива топлива.
+Install the swivel fitting onto the fuel drain fitting.
 
-> [!tip] Момент затяжки
-> 54 Н·м [40 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 54 n•m [40 ft-lb]
 
 ![[07800164.png]]
 
-Установите адаптер 1/8-27 NPT в фитинг. Поместите адаптер поверх поворотной фитинги.
+Install a 1/8-27 NPT adapter into the fitting. Position the adapter on top of the swivel fitting.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[05600040.png]]
 
-Установите на адаптер уплотнение лица номером 4 на 90-градусном локте.
+Install a number 4 face sealing o-ring 90-degree elbow to the adapter.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[07800171.png]]
 
-Установите обратную линию топлива обратно на конец поворотной фитинги.
+Install the fuel return line back onto the end of the swivel fitting.
 
-> [!tip] Момент затяжки
-> 54 Н·м [40 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 54 n•m [40 ft-lb]
 
 ![[07800170.png]]
 
-> [!note] Примечание
-> Удалите пробку с чистой масляной стороны головки фильтра.
+> [!note] Note · Примечание
+> Remove the plug from the clean oil side of the filter head.
 
-Удалите пробку с головки масляного фильтра на левой стороне двигателя (1).
+Remove the plug from the oil filter head on the left side of the engine (1).
 
 ![[05600041.png]]
 
-Установите адаптер 1/4-18 NPT в головку масляного фильтра, где была удалена пробка.
+Install a 1/4-18 NPT adapter into the oil filter head where the plug was removed.
 
-> [!tip] Момент затяжки
-> 27 Н·м [239 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 27 n•m [239 in-lb]
 
-Установите уплотнение локтя на 90 градусов (1) на 9/16-18 адаптер на масляной головке фильтра.
+Install a number 4 face sealing o-ring 90-degree elbow (1) onto the 9/16-18 adapter on the oil filter head.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[05600042.png]]
 
-Удалите пробку (1) из топливного соленоида.
+Remove the plug (1) from the fuel solenoid.
 
 ![[05600043.png]]
 
-Установите 1/2-20 или 1/4-18 NPT (1) (в зависимости от необходимости) адаптер, из которого была удалена пробка из топливного соленоида.
+Install a 1/2-20 or 1/4-18 NPT (1) (whichever is necessary) adapter from where the plug was removed from the fuel solenoid.
 
-> [!tip] Момент затяжки
-> 20 Н·м [177 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 20 n•m [177 in-lb]
 
-Установите локтевую петлю с торцевой герметизацией 4 на фитинге 2.
+Install a number 4 face sealing o-ring 90-degree elbow onto the tee fitting (2).
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
 ![[05600044.png]]
 
-> [!warning] ОСТОРОЖНО
-> Перед установкой каждого шланга № 4 и № 6 наклоните защитный шланг, покрывающий шланг. Неспособность сделать это может вызвать потрескивание и привести к утечке шланга.
+> [!warning] CAUTION · Осторожно
+> Before installing each number 4 and number 6 hose, slide protective hose covering over the hose. Failure to do so can cause chafing and lead to hose leakage.
 
-> [!warning] ОСТОРОЖНО
-> При установке каждого шланга номер 4 и номер 6 убедитесь, что он скользит по заусеницам и спаривается до крышки на фитинге. Неспособность сделать это может привести к сбою фитинга / хозяина.
+> [!warning] CAUTION · Осторожно
+> When installing each number 4 and number 6 hose, make certain that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting/hose failure.
 
-> [!note] Примечание
-> Прежде чем устанавливать окончательные соединения на любом из шлангов для сантехники CentinelTM, установите шланги и убедитесь, что нет никаких изгибов или изгибов. Также помните, что шланги должны быть как можно короче.
+> [!note] Note · Примечание
+> Before making final connections on any of the hoses for the Centinel™ plumbing, position the hoses and make sure there are no twists or kinks. Also, remember that the hoses should be as short as possible.
 
-> [!note] Примечание
-> Используйте моторное масло для смазки внутри каждого конца шлангов для облегчения установки.
+> [!note] Note · Примечание
+> Use engine oil to lubricate inside each end of the hoses for easier installation.
 
-> [!note] Примечание
-> Все p-зажимы и завязочные обертки должны быть установлены после завершения полной сборки. При закреплении шлангов и проводов обязательно держите их подальше от возможных источников тепла, которые могут вызвать преждевременное растрескивание или износ.
+> [!note] Note · Примечание
+> All p-clamps and tie wraps should be installed after completion of the complete assembly. When securing the hoses and wiring be, sure to keep them away from possible heat sources that can cause premature cracking or wear.
 
 ![[07800009.png]]
 
-Найдите шланг № 6 в комплекте.
+Locate the number 6 hose in the kit.
 
-Нанесите защитный шланг, покрывающий шланг.
+Slide a protective hose covering onto the hose.
 
-Установите шланг (1) на фитинг с прямым герметизирующим кольцом числа 6, расположенный в нижней части клапана.
+Install the hose (1) onto the number 6 face sealing o-ring straight fitting located at the bottom of the valve.
 
-> [!note] Примечание
-> Только для ожога это будет тиф, выходящий из трубки.
+> [!note] Note · Примечание
+> For burn-only, this will be the tee coming off the u-tube.
 
-Проведите шланг (2) по торцевой герметизации № 6 90-градусного локтя, который был установлен на масляной поддоне, и разрежьте шланг, чтобы он подходил.
+Route the hose (2) onto the number 6 face sealing o-ring 90-degree elbow that was installed on the oil pan, and cut the hose to fit.
 
-Установите шланг.
+Install the hose.
 
-Закрепите шланг, используя три из поставляемых p-зажимов вдоль рельса маслобойки.
+Secure the hose using three of the supplied p-clamps along the oil pan rail.
 
 ![[05600045.png]]
 
-Найдите шланг № 4 в комплекте.
+Locate the number 4 hose in the kit.
 
-Нажмите защитный шланг, покрывающий шланг.
+Slide the protective hose covering onto the hose.
 
-Установите шланг (1) на уплотнение лица № 4 90-градусным локтем, расположенным на масляной головке фильтра.
+Install the hose (1) on the number 4 face sealing o-ring 90-degree elbow located on the oil filter head.
 
-Проведите шланг до уплотнительного кольца № 4, расположенного в конце обхода моторного масла (2), расположенного поверх клапана, и разрежьте шланг, чтобы он соответствовал.
+Route the hose to the number 4 sealing o-ring straight fitting at the end of the lubricating oil bypass (2) located on top of the valve, and cut the hose to fit.
 
-Установите шланг на фитинг.
+Install the hose on the fitting.
 
-Закрепите шланг с p-зажимами и завязывайте обертки по мере необходимости.
+Secure the hose with p-clamps and tie wraps as necessary.
 
 ![[05400052.png]]
 
-Найдите шланг № 4 в комплекте.
+Locate the number 4 hose in the kit.
 
-Скользите защитное покрытие над шлангом.
+Slide the protective covering over the hose.
 
-Установите шланг на номер 4 90-градусный торцевой локтевой уплотнитель на возвратно-поворотном фитинге (1).
+Install the hose on the number 4 90-degree face sealing o-ring elbow at the fuel return swivel fitting (1).
 
-Проведите шланг до номера 4 90-градусной торцевой локтевой кости на горелом соленоиде (2) и разрежьте шланг, чтобы он подходил.
+Route the hose to the number 4 90-degree face sealing o-ring elbow at the burn solenoid (2), and cut the hose to fit.
 
-Установите шланг на фитинг.
+Install the hose on the fitting.
 
-Закрепите шланг, используя завязывание обертываний, если это необходимо.
+Secure the hose using tie wraps, if necessary.
 
 ![[05600047.png]]
 
-Найдите шланг № 4 в комплекте.
+Locate the number 4 hose in the kit.
 
-Скользите защитное покрытие над шлангом.
+Slide the protective covering over the hose.
 
-Установите шланг на торцевое уплотнение № 4 90-градусного локтя на топливном соленоиде.
+Install the hose on the number 4 face sealing o-ring 90-degree elbow at the fuel solenoid.
 
-Проведите шланг до торцевого уплотнения № 4 на 90-градусном локте в блоке соединения топлива и разрежьте шланг, чтобы он подходил.
+Route the hose to the number 4 face sealing o-ring 90-degree elbow at the fuel connecting block, and cut the hose to fit.
 
-Установите шланг на фитинг.
+Install the hose on the fitting.
 
-Закрепите шланг, используя завязывание обертываний, если это необходимо.
+Secure the hose using tie wraps, if necessary.
 
 ![[05600048.png]]
 
-Двигатели QSK45 и QSK60
+Burn-Only, QSK45 and QSK60 Engines
 
-Удалить вилку с впускной стороны топливного фильтра, устанавливающего головку. Установите адаптер (2) в открытый порт в головке установки топливного фильтра (12).
+Remove plug from inlet side of fuel filter head. Install the adapter (2) into the open port in the fuel filter head (12).
 
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
 
-Установите в адаптер разъём 3 штыревого локтя 2, установленный на входной стороне головки крепления топливного фильтра 12.
+Install the male elbow (3) connector into the adapter (2) fitted to the inlet side of the fuel filter head (12).
 
-> [!tip] Момент затяжки
-> 34 Н·м [25 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 34 n•m [25 ft-lb]
 
-Установите контрольный клапан в корпусе передач.
+Install the check valve in the gear housing.
 
-> [!tip] Момент затяжки
-> 34 Н·м [25 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 34 n•m [25 ft-lb]
 
-Установите и затяните шланг (10) подачи масла от клапана проверки масла в передней крышке передач до верхней части клапана управления (8).
+Install and tighten the oil supply hose (10) from the oil check valve in the front gear cover to the top of the control valve (8).
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
-Установите и затяните 457-мм \[18.0-в\] шланг для сжигания масла (1) от верхней части клапана управления (8) до входной стороны головки крепления топливного фильтра (12).
+Install and tighten the 457-mm \[18.0-in\] oil burn hose (1) from the top of the control valve (8) to the inlet side of the fuel filter head (12).
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
-Установите и затяните 167-мм \[6,8-в\] обходной шланг (6) от порта горения клапана управления маслом до входной стороны клапана управления.
+Install and tighten the 167-mm \[6.8-in\] bypass hose (6) from the burn port of the oil control valve to the inlet side of the control valve.
 
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 16 n•m [142 in-lb]
 
-Используя предоставленные завязывания, защитите шланги по мере необходимости, чтобы избежать помех и помех.
+Using provided tie wraps, secure the hoses as necessary to avoid chafing and interference.
 
 ![[07800172.png]]
 
-Сжигание с помощью двигателей QSK45 и QSK60
+Burn With Make-Up, QSK45 and QSK60 Engines
 
-Удалить вилку с впускной стороны топливного фильтра, устанавливающего головку. Установите адаптер (4) в открытый порт в головке крепления топливного фильтра (12).
+Remove plug from inlet side of fuel filter head. Install the adapter (4) into the open port in the fuel filter head (12).
 
-> [!tip] Момент затяжки
-> 47 Н·м [35 фунт-фут]
-
-![[07800173.png]]
-
-Установите клапан (1) проверки масляной винтовки в переднем чехле передней передачи.
-
-> [!tip] Момент затяжки
-> 36 Н·м [27 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> 47 n•m [35 ft-lb]
 
 ![[07800173.png]]
 
-Установите разъем (5) штыревого локтя в адаптер (4), установленный на входной стороне головки крепления топливного фильтра (12).
+Install the oil rifle check valve (1) in the front gear cover port.
 
-> [!tip] Момент затяжки
-> 34 Н·м [25 фунт-фут]
-
-![[07800173.png]]
-
-Установите штыревой локоть (9) в крышку отверстия для рук.
-
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
-
-![[07800173.png]]
-
-Установите и затяните шланг (10) подачи масла от клапана проверки масла в передней крышке передач до верхней части клапана управления (8).
-
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
-
-Установите и затяните 308-мм \[12.1-в\] шланг для пополнения масла (2) от управляющего клапана (8) до штыревого локтя (9) в крышке забоя.
-
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
-
-![[07800173.png]]
-
-Установите и затяните 389-мм \[15.3-в\] шланг для сжигания масла (6) от управляющего клапана (8) до впускной стороны головки установки топливного фильтра (12).
-
-> [!tip] Момент затяжки
-> 16 Н·м [142 фунт-дюйм]
-
-Используя предоставленные завязывания, защитите шланги по мере необходимости, чтобы избежать помех и помех.
-
-![[07800173.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Preparatory Steps
->
-> **WARNING · Опасно**
-> Some state and federal agencies have determined that used engine oil can be carcinogenic and cause reproductive toxicity. Avoid inhalation of vapors, ingestion, and prolonged contact with used engine oil. If not reused, dispose of in accordance with local environmental regulations.
->
-> **WARNING · Опасно**
-> To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
->
-> Drain the Centinel™ system make-up oil tank.
->
-> **Note · Примечание**
-> This oil is clean. Drain the oil into a container suitable enough to allow for reuse of the oil.
->
-> ### Remove
->
-> L10 and M11 Engines
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Remove the number 4 face sealing o-ring 90-degree elbow (1) at the fuel return tee fitting.
->
-> Remove the 90-degree elbow at the burn solenoid to remove the hose.
->
-> Remove the number 4 face sealing o-ring 90-degree elbow (1) at the oil rifle.
->
-> Remove the 90-degree elbow at the make-up solenoid to remove the hose.
->
-> Remove the number 6 face sealing o-ring 90-degree elbow (1) located on the bottom of the oil control valve.
->
-> Remove the number 6 face sealing o-ring 90-degree elbow (2) from the 1/8 NPT adapter in the handhole cover.
->
-> Burn-Only, ISM Engines
->
-> **Note · Примечание**
-> It will probably be necessary to remove the starter on engines with low mounted ECMs to access this port.
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Remove the oil rifle supply hose (5) from the 9/16-18 straight-thread o-ring male union (6) in the engine block oil rifle.
->
-> Remove the oil burn hose (1) from the 1/8-27 NPTF connector (2) in the fuel drain tee.
->
-> Burn With Make-Up, ISM Engines
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Remove the oil supply hose (2) from the control valve to the fuel drain tee.
->
-> Remove the oil rifle supply hose (2) from the oil rifle fitting to the control valve (4).
->
-> Remove the oil replenishment hose (8) from the control valve (4) to the handhole cover (6).
->
-> Remove the oil rifle fitting (1) in the engine block oil rifle port (9/16-18 SAE o-ring), located just up and to the right, facing the control valve.
->
-> **Note · Примечание**
-> It will probably be necessary to remove the starter on engines with low mounted ECMs to access this port.
->
-> Remove the clean oil fitting (7) from the hand hole cover.
->
-> Burn With Make-Up, N14 Engines
->
-> **Note · Примечание**
-> The following steps apply to N14 engines with a turbocharger-side mounted starter.
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Loosen the elbow fittings at the block and oil control valve, and remove the number 4 hose line (2).
->
-> Remove the number 4 hose fitting at the check valve and at the oil control valve solenoid.
->
-> **Note · Примечание**
-> The following steps apply to N14 engines with a fuel pump-side mounted starter.
->
-> Remove the number 4 hose line from the block and oil control valve.
->
-> Remove the number 4 hose line at the check valve and at the oil control valve solenoid.
->
-> Remove the fitting from the oil rifle.
->
-> PT or STC
->
-> Centinel™ Fuel Pressure Line without Check Valve
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Remove the number 4 hose line at the fuel junction block and fuel connecting block.
->
-> Centinel™ Fuel Pressure Sensor Line with Check Valve
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Loosen the fittings at the fuel drain and oil control valve and remove the number 4 hose line (3).
->
-> N14 Engines
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Remove the hose from the burn solenoid (2) and the fuel return line.
->
-> Remove the hose at the oil rifle (1) and the make-up solenoid.
->
-> Remove the hose.
->
-> Remove the clean oil hose from the bottom of the Centinel™ valve and the engine block.
->
-> ISX Engines
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Loosen the hose clamp (1) on the control valve end of the hose, and remove the hose from the oil control valve make-up oil supply tube connector.
->
-> Disconnect the oil rifle supply hose (1) from the control valve to the oil rifle check valve connector.
->
-> Remove the make-up line (2) from the valve and male connector in the dipstick port.
->
-> Disconnect the vehicle's fuel drain line (1) to the T-connector.
->
-> Disconnect the oil burn line from the control valve to the T-connector.
->
-> K19 Engines
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Remove the fuel pressure hose from the fuel connecting block and the fuel rail tee.
->
-> Remove the used oil burn hose from the burn solenoid and the fuel return tee fitting.
->
-> Remove the used oil supply hose from the oil filter head and the oil bypass tube on the Centinel™ valve.
->
-> Remove the clean oil replenishment hose from the oil pan fitting and the bottom of the Centinel™ valve.
->
-> K38 and K50 Engines
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Remove the fuel pressure hose from the fuel solenoid and the fuel connecting block.
->
-> Remove the hose going from the bottom of the Centinel™ valve to the oil pan.
->
-> Burn-Only, QSK45 and QSK60 Engines
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Remove the oil supply hose (10) from the fitting in the front gear cover to the top of the control valve (8).
->
-> Remove the 457-mm \[18.0-in\] oil burn hose (1) from the top of the control valve (8) to the inlet side of the fuel filter head (12).
->
-> Remove the 167-mm \[6.8-in\] bypass hose (6) from the burn port of the oil control valve to the inlet side of the control valve.
->
-> Burn With Make-Up, QSK45 and QSK60 Engines
->
-> Remove the tie wraps used to secure the hoses. Tag and mark the hoses as they are removed. Note their location.
->
-> Remove the 389-mm \[15.3-in\] oil burn hose (6) from the control valve (8) to the inlet side of fuel filter head (12).
->
-> Remove the oil supply hose (10) from the oil check valve in the front gear cover to the top of the control valve (8).
->
-> Remove the 308-mm \[12.1-in\] oil replenishment hose (2) from the control valve (8) to the male elbow (9) in the handhole cover.
->
-> ### Install
->
-> General Information
->
-> **WARNING · Опасно**
-> Hoses must not be routed near excessively hot components and must be securely fastened to ensure they do not contact hot or moving components during any operating conditions. If routing near hot components cannot be avoided, then a fire sleeve around the hose must be used. All hoses must be adequately protected from chafe and fastened to appropriate structure, such that there is no overhung load on connections.
->
-> **CAUTION · Осторожно**
-> Before installing each number 4 and number 6 hose, slide protective hose covering over the hose. Failure to do so can cause chafing and lead to hose leakage.
->
-> **CAUTION · Осторожно**
-> When installing each number 4 and number 6 hose, make certain that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting failure, hose failure or both.
->
-> **Note · Примечание**
-> Marine applications require that all hoses and fittings comply to SAE standards J1942 and J1527. **Not** all hoses and fittings supplied in the Centinel™ kits comply with these SAE standards. A metal make-up tank can also be required for Marine applications.
->
-> **Note · Примечание**
-> Use engine lubricating oil to lubricate inside each end of the hoses for easier installation.
->
-> Before making final connections on any of the hoses for the Centinel™ plumbing, position the hoses and make certain there are no twists or kinks. Also, remember that the hoses **must** be as short as possible.
->
-> All p-clamps and tie wraps **must** be installed after completion of the complete assembly. When securing the hoses and wiring, be sure to keep them away from possible heat sources that can cause premature cracking or wear.
->
-> If installing a new system or disconnecting clean oil lines on a make-up system, the system **must** be primed before the engine is returned to service. Refer to Procedure [[96-007-089 — Centinel™ Oil Make-Up Tank|007-089]] for the priming procedure.
->
-> L10 and M11 Engines
->
-> **Note · Примечание**
-> It will probably be necessary to remove the ECM to access the recommended oil rifle ports. However, on short-nosed conventional trucks, it is very difficult and time consuming to do this because of interference with the cab and frame rail. It is suggested that the first alternative oil supply location is to choose one of the two oil supply plugs located on the accessory drive. If this location is chosen, it will be necessary to order a number 4 face sealing o-ring x 1/4 NPT or number 4 face sealing o-ring x 9/16-18 straight-thread o-ring to accommodate the number 4 face sealing o-ring, 90-degree elbow. As a last choice, the oil supply on the oil filter head, which is usually used for the oil supply to the compression brakes, is an option. However, if you choose this location, you **must** use a wire-braided oil supply line because this location is on the hot side of the engine (turbocharger and exhaust manifold).
->
-> Remove the oil rifle plug on the starter side of the engine block.
->
-> Install a 1/4 NPT (**not** shown) or 9/16-18 straight-thread o-ring adapter into the oil rifle port.
->
-> | 1/4 NPT | 34 n.m | \[25 ft-lb\] |
-> |---|---|---|
->
-> | 9/16-18 Straight-Thread O-Ring | 25 n.m | \[221 in-lb\] |
-> |---|---|---|
->
-> Install a number 4 face sealing o-ring 90-degree elbow onto the 9/16-18 straight-thread o-ring or 1/4 NPT (**not** shown) adapter that was just installed in the oil rifle port.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Remove the fuel return line branch tee from the engine.
->
-> Find the new in-line tee fitting that is provided in the upfit kit.
->
-> Install and tighten the following into the new tee:
->
-> 1. 1/8-27 NPT plug
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> 1. 1/8-27 NPT adapter
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> 1. number 4 face sealing o-ring 90-degree elbow.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **Note · Примечание**
-> When installing Centinel™ on M11 engines produced January 19, 1998, and later (ESN first 34896714), the fuel return tee included in the kit will **not** be compatible with the one supplied on the engine. A new part (Part Number 3099764, elbow, tube Connector) is available to use in these situations.
->
-> Install the branch tee into the fuel return line.
->
-> **Note · Примечание**
-> Before making final connections on any hoses for the Centinel™ plumbing, position the hoses to make sure that there are no twists or kinks. Also, remember that the hoses should be as short as possible, and installed so that they do **not** come in contact with moving parts or rub other components.
->
-> **CAUTION · Осторожно**
-> Before installing each number 4 or number 6 hose, slide hose covering onto the hose. Failure to do so can cause chafing and lead to hose leakage.
->
-> **CAUTION · Осторожно**
-> When installing each number 4 or number 6 hose, make sure that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting or hose failure.
->
-> **Note · Примечание**
-> When installing the hose onto the fittings, lubricate the inside of the hose with clean engine oil to help in installation.
->
-> Locate the number 6 hose in the kit.
->
-> Install the number 6 face sealing o-ring 90-degree elbow (1) on the bottom of the oil control valve.
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Install the hose on the number 6 face sealing o-ring 90-degree elbow (1) located on the bottom of the oil control valve.
->
-> Install the number 6 face sealing o-ring 90-degree elbow (2) on the 1/8 NPT adapter in the handhole cover.
->
-> **Момент затяжки · Torque Value**
-> 25 n•m [221 in-lb]
->
-> Slide the hose covering onto the hose.
->
-> Route the hose to the number 6 face sealing o-ring 90-degree elbow that was installed onto the handhole cover, and cut the hose to fit.
->
-> Install the hose.
->
-> Secure the hose using tie wraps, if necessary.
->
-> Locate the number 4 hose in the kit.
->
-> Install the hose on the number 4 face sealing o-ring 90-degree elbow (1) at the oil rifle.
->
-> Slide the hose covering onto the hose.
->
-> Install the number 4 face sealing o-ring 90-degree elbow (2) at the end of the bypass tube located on the top of the oil control valve.
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Route the hose to the number 4 face sealing o-ring 90-degree elbow (2) at the end of the bypass tube located on the top of the valve, and cut the hose to fit.
->
-> Install the hose.
->
-> Secure the hose using tie wraps, if necessary.
->
-> Install the hose on the number 4 face sealing o-ring 90-degree elbow (1) at the fuel return tee fitting.
->
-> Slide the hose covering onto the hose.
->
-> Install the number 4 face sealing o-ring 90-degree elbow (1) on the burn solenoid.
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Route the hose to the number 4 face sealing o-ring 90-degree elbow (2) at the burn solenoid, and cut the hose to fit.
->
-> Install the hose.
->
-> Secure the hose using tie wraps, if necessary.
->
-> Burn-Only, ISM Engines
->
-> Install the 9/16-18 straight-thread o-ring male union (6) in the engine block oil rifle port, located just up and to the right, facing the control valve.
->
-> **Момент затяжки · Torque Value**
+> [!tip] Момент затяжки · Torque Value
 > 36 n•m [27 ft-lb]
->
-> **Note · Примечание**
-> It will probably be necessary to remove the starter on engines with low mounted ECMs to access this port.
->
-> **Note · Примечание**
-> On some factory installations, the 6-pin harness connector will be located behind the ECM. Pull down the connector while the starter is removed.
->
-> Install the 1/8-27 NPTF male connector (2) into the fuel drain tee.
->
-> **Момент затяжки · Torque Value**
-> 10 n•m [89 in-lb]
->
-> If necessary, remove the factory-supplied fuel drain tee connector (if there is no 1/8-inch tap and plug in the factory-supplied connector) and install the fuel drain tee supplied in the kit.
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Reconnect the vehicle's fuel drain line.
->
-> Connect the oil rifle supply hose (5) to the 9/16-18 straight-thread o-ring male union (6) in the engine block oil rifle. Tighten the hose connector.
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Install and tighten the oil burn hose (1) to the 1/8-27 NPTF connector (2) in the fuel drain tee. Orient the hose to avoid unnecessary kinks. Tighten both hose connectors.
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Using provided tie wraps, secure the hoses as necessary to avoid chafing and interference.
->
-> Burn With Make-Up, ISM Engines
->
-> Install the oil rifle fitting (1) in the engine block oil rifle port (9/16-18 SAE o-ring), located just up and to the right, facing the control valve.
->
-> **Note · Примечание**
-> It will probably be necessary to remove the ECM to access this port on engine with low mounted ECMs.
->
-> **Момент затяжки · Torque Value**
-> 36 n•m [27 ft-lb]
->
-> Install the 1/8-27 NPTF male connector (2) into the fuel drain tee.
->
-> **Момент затяжки · Torque Value**
-> 10 n•m [89 in-lb]
->
-> If necessary, remove the factory-supplied fuel drain tee connector (if there is no 1/8-inch tap and plug in the factory-supplied connector) and install the fuel drain tee supplied in the kit.
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Reconnect the vehicle's fuel drain line.
->
-> Install the 3/8-24 straight-thread o-ring male union (3) into the handhole cover (4) supplied in the kit.
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Install the handhole cover and gasket supplied in the kit using the four capscrews supplied. For a factory-supplied handhole cover-mounted fuel filter bracket, two of the capscrews and the two capscrews and spring washers are inserted through the fuel filter bracket and cover.
->
-> Tighten all four capscrews.
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Connect the oil rifle supply hose (5) from the oil rifle fitting to the control valve.
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Secure the hose to the block using the provided p-clip and the 25 mm captive washer capscrew.
->
-> **Момент затяжки · Torque Value**
-> 45 n•m [35 ft-lb]
->
-> Connect the oil replenishment hose (7) from the control valve to the handhole cover (4).
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Install and tighten the oil burn hose (8) from the control valve to the fuel drain tee.
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Using provided tie wraps, secure the hoses as necessary to avoid chafing and interference.
->
-> PT or STC
->
-> **Note · Примечание**
-> The following steps apply to Turbocharger-Side Mounted Starter, N14 with PT® or STC engines.
->
-> **Note · Примечание**
-> The oil rifle contains three 1/8-inch pipe plugs and two 9/16-inch o-ring plugs.
->
-> Choose the most convenient location to install the check valve. Remove the 1/8-inch pipe plug from the oil rifle.
->
-> **Note · Примечание**
-> The location show in the accompanying illustration is the used engine oil supply port to the oil control valve.
->
-> Install the check valve into the oil rifle. The check valve is a 1/8-inch NPTF to number 6 face sealing o-ring fitting.
->
-> **Момент затяжки · Torque Value**
+
+![[07800173.png]]
+
+Install the male elbow (5) connector into the adapter (4) fitted to the inlet side of the fuel filter head (12).
+
+> [!tip] Момент затяжки · Torque Value
 > 34 n•m [25 ft-lb]
->
-> Loosely attach the number 4 face sealing o-ring to the number 4 hose elbow coupling to the check valve.
->
-> Measure the distance between the number 4 hose elbow coupling at the check valve (2) and the straight push lock hose fitting (1) at the oil control valve solenoid using the number 4 hose. Cut the hose to length.
->
-> Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
->
-> Remove the loosely attached hose elbow coupling from the check valve and place it in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto the elbow.
->
-> Repeat the previous step with the straight push lock hose fitting that is loosely attached to the control valve solenoid.
->
-> Install the number 4 hose line and tighten the elbow fitting at the check valve and the straight push lock hose fitting at the oil control valve solenoid.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **Note · Примечание**
-> If the starter is **not** on the turbocharger side of the engine, refer to Fuel Pump-Side Mounted Starter, N14 with PT® or STC.
->
-> Remove the 9/16-18 straight thread o-ring plug from the cylinder block. The fresh oil replenishment line to the oil pan will be attached to this location.
->
-> Install the 9/16-18 straight thread o-ring to the number 4 face sealing o-ring and tighten.
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> Loosely attach a number 4 hose elbow coupling to the number 4 face sealing o-ring fitting at the cylinder block.
->
-> Measure the distance between the number 4 hose elbow couplings at the block and the top center of the oil control valve (fresh oil outlet location) using the number 4 hose. Cut the hose to length.
->
-> Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
->
-> Remove the loosely attached hose elbow couplings from the block and oil control valve.
->
-> Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto each elbow.
->
-> Install the number 4 hose line (2), and tighten the elbow fittings at the block and oil control valve.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **Note · Примечание**
-> The following steps apply to Fuel Pump-Side Mounted Starter, N14 with PT® or STC engines.
->
-> **Note · Примечание**
-> The oil rifle contains three 1/8-inch pipe plugs and two 9/16-inch o-ring plugs.
->
-> Choose the most convenient location to install the check valve. Remove the 1/8-inch pipe plug from the oil rifle.
->
-> **Note · Примечание**
-> The location show in the accompanying illustration is the used engine oil supply port to the oil control valve.
->
-> Install the check valve into the oil rifle. The check valve is a 1/8-inch NPTF to number 6 face sealing o-ring fitting.
->
-> **Момент затяжки · Torque Value**
-> 34 n•m [25 ft-lb]
->
-> Loosely attach the number 4 face sealing o-ring to the number 4 hose elbow coupling to the check valve.
->
-> Measure the distance between the number 4 hose elbow coupling at the check valve (2) and the straight push lock hose fitting (1) at the oil control valve solenoid using the number 4 hose. Cut the hose to length.
->
-> Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
->
-> Remove the loosely attached hose elbow coupling from the check valve and place it in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto the elbow.
->
-> Repeat the previous step with the straight push lock hose fitting that is loosely attached to the control valve solenoid.
->
-> Install the number 4 hose line and tighten the elbow fitting at the check valve and the straight push lock hose fitting at the oil control valve solenoid.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **Note · Примечание**
-> If the starter is **not** on the turbocharger side of the engine, refer to Fuel Pump-Side Mounted Starter, N14 with PT® or STC.
->
-> Remove the 9/16-18 straight thread o-ring plug from the cylinder block. The fresh oil replenishment line to the oil pan will be attached to this location.
->
-> Install the 9/16-18 straight thread o-ring to the number 4 face sealing o-ring and tighten.
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> Loosely attach a number 4 hose elbow coupling to the number 4 face sealing o-ring fitting at the cylinder block.
->
-> **Note · Примечание**
-> The cylinder block plug will probably be located behind the starter. If this is true, it will be necessary to use the other block plug that is commonly used for the STC oil drain. In this case, a “T” will be required to combine the STC oil drain line and Centinel™ replenishment line. The following steps outline the procedure.
->
-> Remove the STC oil drain line (1), and install the 9/16-18 straight thread o-ring to 1/4 NPTF female o-ring adapter.
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> Install the street pipe tee (3) into the female o-ring adapter (4).
->
-> **Момент затяжки · Torque Value**
-> 26 n•m [230 in-lb]
->
-> Install the 1/4 NPTF to number 4 face sealing o-ring fitting (2) into the street pipe tee.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install the 5/8-18 x 45-degree flare to 1/4 NPTF fitting (5) into the street pipe tee.
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> Install the STC oil drain line (1) to the flare fitting at the street pipe T-connection.
->
-> **Момент затяжки · Torque Value**
-> 30 n•m [22 ft-lb]
->
-> Loosely attach a number 4 hose elbow coupling to the number face sealing o-ring fitting at the street pipe tee.
->
-> Measure the distance between the number 4 hose elbow couplings at the street pipe tee and the top center of the oil control valve (fresh oil outlet location) using the number 4 hose. Cut the hose to length.
->
-> Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
->
-> Remove the loosely attached hose elbow couplings from the street pipe tee and oil control valve.
->
-> Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto each elbow.
->
-> Install the number 4 hose line, and tighten the elbow fittings at the block and oil control valve.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Remove the fuel drain line from the engine drain line connector.
->
-> Install the swivel hose adapter with the 1/8-inch NPTF tap onto the fuel drain line fitting.
->
-> **Момент затяжки · Torque Value**
-> 54 n•m [40 ft-lb]
->
-> Install the 1/8-27 to number 4 FSOR male connector to the swivel hose adapter.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Loosely attach a number 4 FSOR straight hose coupling to the swivel hose adapter.
->
-> Connect the fuel drain line to the swivel hose adapter.
->
-> **Момент затяжки · Torque Value**
-> 54 n•m [40 ft-lb]
->
-> Measure the distance between the fuel drain fitting and the number 4 hose fitting on the front face of the oil control valve (used engine oil outlet) using the number 4 hose. Cut the hose to length.
->
-> Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
->
-> Remove the loosely attached fittings from the fuel drain and oil control valve.
->
-> Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the fitting with clean oil. Push the number 4 hose completely onto each fitting.
->
-> Install the number 4 hose line (3), and tighten the fittings at the fuel drain and oil control valve.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Centinel™ Fuel Pressure Sensor Line with Check Valve
->
-> **Note · Примечание**
-> If the fuel pressure line to the injectors has a check valve installed, the Centinel™ fuel pressure sensor line **must** be installed prior to the check valve.
->
-> If the fuel pressure line to the injectors has a check valve installed, install one of the 9/16-18 STOR to number 4 FSOR male union connectors (2) to the fuel connecting block (3).
->
-> **Момент затяжки · Torque Value**
-> 34 n•m [25 ft-lb]
->
-> Install either a straight or 90-degree elbow hose coupling (1) to the male union connector.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **Note · Примечание**
-> Choose whichever fitting suits the application.
->
-> If the fuel pressure line to the injectors does **not** have a check valve installed, refer to the following procedure.
->
-> Remove the STC fuel supply line (2), if equipped, from the fuel pressure line tee at the top of the fuel pump.
->
-> Remove the injector fuel pressure supply line (1) from the top of the fuel pump.
->
-> Remove the T-fitting (3) from the top of the fuel pump.
->
-> Install the 1/8-inch pipe nipple (5) into the bottom of the female cross-fitting (6). A vise will be needed to hold the female cross-fitting in place.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install the 1/8 NPTF to female flare fitting (2) into the top of the female cross-fitting.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install the 1/8 NPTF to number 4 FSOR fitting (1) into one arm of the female cross-fitting.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install the 1/8 NPTF to 45-degree flare fitting (3) into the other arm of the female cross-fitting.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Tighten the STC fuel supply line (4) to the 45-degree flare fitting.
->
-> **Момент затяжки · Torque Value**
-> 30 n•m [22 ft-lb]
->
-> Reconnect the injector fuel pressure line to the female flare fitting at the female cross-fitting.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Loosely attach the number 4 hose elbow coupling to the number 4 FSOR fitting.
->
-> Measure the distance between the number 4 FSOR fitting at the fuel pump to the number 4 straight hose coupling at the fuel connecting block using the number 4 hose. Cut the hose to length.
->
-> Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
->
-> Remove the loosely attached fittings at the fuel pump and fuel pressure sensor block.
->
-> Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the fitting with clean oil. Push the number 4 hose completely onto each fitting.
->
-> Install the number 4 hose line, and tighten the fittings at the fuel pump and fuel pressure sensor block.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Fuel Pressure Line without Check Valve
->
-> **Note · Примечание**
-> Two junction blocks are located in the pressure line to the injectors (one near the engine-side center and one near the engine rear prior to the pressure line entrance to the cylinder head). The STC fuel supply line, if equipped, is normally connected to the engine-side center junction block. However, the engine rear junction also is available if necessary.
->
-> If the fuel pressure line to the injectors does **not** have a check valve installed, remove the 1/8-inch pipe plug from the junction block.
->
-> Install a 1/8 NPTF to number 4 FSOR male connector into the pipe plug location on the junction block.
->
-> Loosely attach a number 4 hose elbow coupling to the number 4 FSOR fitting.
->
-> If the fuel pressure line to the injectors does have a check valve installed, refer to the previous procedure.
->
-> Install one of the 9/16-18 STOR to number 4 FSOR male union connectors (2) to the fuel connecting block (3).
->
-> **Момент затяжки · Torque Value**
-> 34 n•m [25 ft-lb]
->
-> Install either a straight or 90-degree elbow hose coupling (1) to the male union connector.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **Note · Примечание**
-> Choose whichever fitting suits the application.
->
-> Measure the distance between the number 4 hose elbow couplings at the fuel connecting block on the Centinel™ mounting bracket and fuel junction block using the number 4 hose. Cut the hose to length.
->
-> Cut a piece of hose cover to match the number 4 hose length. Slide the hose cover over the hose.
->
-> Remove the loosely attached fittings at the fuel junction block and fuel connecting block.
->
-> Place each of the fittings in a vise. Lubricate both the hose and the barbed end of the elbow with clean oil. Push the number 4 hose completely onto each elbow.
->
-> Install the number 4 hose line, and tighten the fittings at the fuel junction block and fuel connecting block.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> N14 Engines
->
-> Remove the 9/16-18 o-ring plug from the fuel pump side of the engine.
->
-> Install a 9/16-18 straight-thread o-ring adapter where the plug was removed.
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> Install a number 6 face sealing o-ring 90-degree elbow onto the 9/16-16 straight-thread o-ring adapter that was just installed.
->
-> **Момент затяжки · Torque Value**
-> 26 n•m [230 in-lb]
->
-> Remove the 9/16-18 oil rifle o-ring plug or 1/8-27 NPT plug (**not** shown) from the middle of the fuel pump side of the engine block.
->
-> **Note · Примечание**
-> If this port is **not** available, locate an available port on the main oil rifle.
->
-> Install a 9/16-18 straight-thread o-ring adapter or a 1/8 NPT adapter (**not** shown) into the oil rifle port.
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> Install a number 4 face sealing o-ring 90-degree elbow onto the 9/16-18 straight-thread o-ring adapter that was just installed in the oil rifle port.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Remove the fuel return line branch tee from the engine.
->
-> Using the new fuel return tee that was provided in the upfit kit, install the following:
->
-> 1. 1/8-27 NPT plug into the top of the tee
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> 1. 1/8-27 NPT adapter into the bottom of the tee
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> 1. number 4 face sealing o-ring straight fitting or a 90-degree elbow onto the 1/8-27 NPT adapter.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **Note · Примечание**
-> When installing Centinel™ on N14 engines produced January 29, 1998, and later (ESN first 11877641), the fuel return tee included in the kit will **not** be compatible with the one supplied on the engine. The new part (Part Number 3099992, elbow, tube connector) is available to use in these situations.
->
-> Install the new fuel return branch tee into the fuel return line.
->
-> **Note · Примечание**
-> Before making final connections on any of the hoses for the Centinel™ plumbing, position the hoses to make sure there are no twists or kinks. Also, remember that the hoses should be as short as possible, and installed so that they do **not** come in contact with moving parts, rub other components, or come in contact with hot surfaces.
->
-> **CAUTION · Осторожно**
-> Before installing each number 4 or number 6 hose, slide hose covering onto the hose. Failure to do so can cause chafing and lead to hose leakage.
->
-> **CAUTION · Осторожно**
-> When installing each number 4 or number 6 hose, make sure that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting or hose failure.
->
-> **Note · Примечание**
-> When installing the hose onto the fittings, lubricate the inside of the hose with clean engine oil to help in installation.
->
-> Locate the number 6 hose in the kit.
->
-> Slide the hose covering onto the hose.
->
-> Install the hose onto the number 6 face sealing o-ring 90-degree elbow (1) located on the bottom of the oil control valve.
->
-> Route the hose to the number 6 face sealing o-ring 90-degree elbow (2) installed in the left side of the engine, and cut the hose to fit.
->
-> Install the hose.
->
-> Secure the hose using tie wraps, if necessary.
->
-> Locate the number 4 hose in the kit.
->
-> Slide the hose covering onto the hose.
->
-> Install the hose onto the number 4 face sealing o-ring 90-degree elbow at the oil rifle (1).
->
-> Route the hose to the number 4 90-degree face sealing o-ring elbow or face sealing o-ring straight fitting at the end of the bypass tube (2), located at the top of the valve, and cut the hose to fit.
->
-> Install the hose.
->
-> Secure the hose using tie wraps, as necessary.
->
-> Locate the number 4 hose in the kit.
->
-> Slide the hose covering onto the hose.
->
-> Install onto the 90-degree face sealing o-ring elbow or face sealing o-ring straight fitting at the fuel return tee fitting (1).
->
-> Route the hose to the number 4 face sealing o-ring 90-degree elbow at burn solenoid (2), and cut the hose to fit.
->
-> Install the hose.
->
-> Secure the hose using tie wraps, as necessary.
->
-> ISX Engines
->
-> Install the T-connector (2) to the integrated fuel system module fuel return and tighten.
->
-> **Момент затяжки · Torque Value**
-> 54 n•m [40 ft-lb]
->
-> Connect the vehicle's fuel drain line (1) to the T-connector and tighten.
->
-> **Момент затяжки · Torque Value**
-> 54 n•m [40 ft-lb]
->
-> Connect the oil burn line from the control valve to the T-connector and tighten.
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Install the M18 x 1.5 SAE o-ring male union (1) into the unused dipstick port and tighten.
->
-> **Момент затяжки · Torque Value**
-> 75 n•m [55 ft-lb]
->
-> Install the make-up line (2) to the valve and male connector in the dipstick port.
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Use provided P-clip (3) and M10-1.5 x 16-mm capscrew (4) to secure the hose (2) to avoid chafing and interference. Tighten the capscrew.
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Connect the oil rifle supply hose (1) from the control valve to the oil rifle check valve connector. Position the check valve connector and hose to make certain that there is clearance between the hose and the intake manifold.
->
-> Tighten the connector.
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Route the make-up tank hose (1) along the fram rail that is opposite the exhaust and forward to the 3/4-inch tube connector located on the back end of the oil control valve. Cut the hose to fit.
->
-> **Note · Примечание**
-> For easier installation, use clean engine oil to lubricate the end of the hose before installing the hose onto the drain fitting.
->
-> **Note · Примечание**
-> When installing the make-up supply hose, verify that it is located and secured in such a way as to avoid chafing. If necessary, reroute the make-up supply hose.
->
-> Install a hose clamp (1) onto the control valve end of the hose, and install the hose onto the oil control valve make-up oil supply tube connector.
->
-> Slide the hose clamp into position over the fitting and tighten.
->
-> After installing the oil make-up tank oil level sensor wiring, use the provided tie wraps to secure the hose to the frame rail.
->
-> K19 Engines
->
-> Remove the 3/4-inch plug from the left side of the oil pan.
->
-> Locate the 1/4 NPT adapter in the upfit kit.
->
-> Install the reducer bushing and tighten.
->
-> **Момент затяжки · Torque Value**
-> 27 n•m [239 in-lb]
->
-> Install a number 6 face sealing o-ring straight fitting onto the adapter just installed in the reducer.
->
-> **Момент затяжки · Torque Value**
-> 26 n•m [230 in-lb]
->
-> Remove the hose from the fuel return drain line.
->
-> Install the swivel fitting, ST-434-1, onto the fuel drain fitting.
->
-> **Момент затяжки · Torque Value**
-> 54 n•m [40 ft-lb]
->
-> Install a 1/8-27 NPT adapter into the swivel fitting. Position the adapter on top of the swivel fitting.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install a number 4 face sealing o-ring 90-degree elbow to the adapter that was just installed.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install the fuel return drain line hose that was removed back onto the swivel fitting.
->
-> **Момент затяжки · Torque Value**
-> 54 n•m [40 ft-lb]
->
-> **Note · Примечание**
-> If the tee port is unavailable, use the 1/8 NPT plug available on the fuel pump shutoff solenoid.
->
-> Remove the plug from the fuel rail tee.
->
-> Install a 1/8 NPT adapter where the plug was removed from the fuel rail tee or fuel pump shutoff solenoid.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install a 90-degree face sealing o-ring elbow onto the tee fitting.
->
-> **Note · Примечание**
-> Remove the plug from the clean oil side of the filter head.
->
-> Remove the plug from the oil filter head on the left side of the engine.
->
-> Install a 1/8-27 NPT adapter into the oil filter head where the plug was removed.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install a number 4 face sealing o-ring straight fitting or 90-degree face sealing o-ring elbow (**not** shown) on the 1/8-27 NPT adapter.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **CAUTION · Осторожно**
-> Before installing each number 4 and number 6 hose, slide protective hose covering over the hose. Failure to do so can cause chafing and lead to hose leakage.
->
-> **CAUTION · Осторожно**
-> When installing each number 4 and number 6 hose, make certain that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting/hose failure.
->
-> **Note · Примечание**
-> Before making final connections on any of the hoses for the Centinel™ plumbing, position the hoses and make certain there are no twist or kinks. Also, remember that the hoses should be as short as possible.
->
-> **Note · Примечание**
-> Use engine oil to lubricate inside each end of the hoses for easier installation.
->
-> **Note · Примечание**
-> All p-clamps and tie wraps should be installed after completion of the complete assembly. When securing the hoses and wiring, be sure to keep them away from possible heat sources that can cause premature cracking or wear.
->
-> Locate the number 6 hose in the kit.
->
-> Slide a protective hose covering onto the hose.
->
-> Install the hose (1) onto the number 6 face sealing o-ring 90-degree elbow or straight fitting located at the bottom of the valve.
->
-> **Note · Примечание**
-> For burn-only, this will be a 90-degree fitting coming from the u-tube.
->
-> Route the hose (2) onto the number 6 straight fitting that was installed on the oil pan, and cut the hose to fit.
->
-> Install the hose.
->
-> Secure the hose using tie straps, if necessary.
->
-> Locate the number 4 hose in the kit.
->
-> Slide a protective hose covering onto the hose.
->
-> Install the hose (A) on the number 4 straight fitting located on the oil filter head.
->
-> Route the hose (B) to the number 4 straight fitting at the end of the lubricating oil bypass located on top of the valve, and cut the hose to fit.
->
-> Install the hose on the fitting.
->
-> Secure the hose with p-clamps.
->
-> Locate the number 4 hose in the kit.
->
-> Slide a protective hose covering onto the hose.
->
-> Install the hose (1) on the number 4 face sealing o-ring 90-degree elbow at the fuel return tee fitting.
->
-> Route the hose (2) to the number 4 face sealing o-ring 90-degree elbow at the burn solenoid, and cut the hose to fit.
->
-> Install the hose on the fitting.
->
-> Secure the hose using tie wraps, if necessary.
->
-> Locate the number 4 hose in the kit.
->
-> Slide a protective hose covering onto the hose.
->
-> Install the hose on the number 4 face sealing o-ring 90-degree elbow at the fuel rail tee (1).
->
-> Route the hose to the number 4 face sealing o-ring 90-degree elbow at the fuel connecting block (2), and cut the hose to fit.
->
-> Install the hose on the fitting.
->
-> Secure the hose using tie wraps, if necessary.
->
-> K38 and K50 Engines
->
-> Remove the 1/2-20 straight-thread plug from the left side of the oil pan.
->
-> Locate 1/2-20 adapter from the upfit kit.
->
-> Cut off the o-ring.
->
-> Install a sealing washer to where the o-ring was just removed.
->
-> Where the plug was removed from the oil pan, install the 1/2-20 adapter with a sealing washer.
->
-> **Момент затяжки · Torque Value**
-> 22 n•m [195 in-lb]
->
-> Install a number 6 face sealing o-ring 90-degree elbow onto the reducer just installed in the oil pan.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Remove the hose from the fuel return drain line.
->
-> Install the swivel fitting onto the fuel drain fitting.
->
-> **Момент затяжки · Torque Value**
-> 54 n•m [40 ft-lb]
->
-> Install a 1/8-27 NPT adapter into the fitting. Position the adapter on top of the swivel fitting.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install a number 4 face sealing o-ring 90-degree elbow to the adapter.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Install the fuel return line back onto the end of the swivel fitting.
->
-> **Момент затяжки · Torque Value**
-> 54 n•m [40 ft-lb]
->
-> **Note · Примечание**
-> Remove the plug from the clean oil side of the filter head.
->
-> Remove the plug from the oil filter head on the left side of the engine (1).
->
-> Install a 1/4-18 NPT adapter into the oil filter head where the plug was removed.
->
-> **Момент затяжки · Torque Value**
-> 27 n•m [239 in-lb]
->
-> Install a number 4 face sealing o-ring 90-degree elbow (1) onto the 9/16-18 adapter on the oil filter head.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Remove the plug (1) from the fuel solenoid.
->
-> Install a 1/2-20 or 1/4-18 NPT (1) (whichever is necessary) adapter from where the plug was removed from the fuel solenoid.
->
-> **Момент затяжки · Torque Value**
-> 20 n•m [177 in-lb]
->
-> Install a number 4 face sealing o-ring 90-degree elbow onto the tee fitting (2).
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> **CAUTION · Осторожно**
-> Before installing each number 4 and number 6 hose, slide protective hose covering over the hose. Failure to do so can cause chafing and lead to hose leakage.
->
-> **CAUTION · Осторожно**
-> When installing each number 4 and number 6 hose, make certain that it slides all the way over the barbs and mates up to the cap on the fitting. Failure to do so can lead to fitting/hose failure.
->
-> **Note · Примечание**
-> Before making final connections on any of the hoses for the Centinel™ plumbing, position the hoses and make sure there are no twists or kinks. Also, remember that the hoses should be as short as possible.
->
-> **Note · Примечание**
-> Use engine oil to lubricate inside each end of the hoses for easier installation.
->
-> **Note · Примечание**
-> All p-clamps and tie wraps should be installed after completion of the complete assembly. When securing the hoses and wiring be, sure to keep them away from possible heat sources that can cause premature cracking or wear.
->
-> Locate the number 6 hose in the kit.
->
-> Slide a protective hose covering onto the hose.
->
-> Install the hose (1) onto the number 6 face sealing o-ring straight fitting located at the bottom of the valve.
->
-> **Note · Примечание**
-> For burn-only, this will be the tee coming off the u-tube.
->
-> Route the hose (2) onto the number 6 face sealing o-ring 90-degree elbow that was installed on the oil pan, and cut the hose to fit.
->
-> Install the hose.
->
-> Secure the hose using three of the supplied p-clamps along the oil pan rail.
->
-> Locate the number 4 hose in the kit.
->
-> Slide the protective hose covering onto the hose.
->
-> Install the hose (1) on the number 4 face sealing o-ring 90-degree elbow located on the oil filter head.
->
-> Route the hose to the number 4 sealing o-ring straight fitting at the end of the lubricating oil bypass (2) located on top of the valve, and cut the hose to fit.
->
-> Install the hose on the fitting.
->
-> Secure the hose with p-clamps and tie wraps as necessary.
->
-> Locate the number 4 hose in the kit.
->
-> Slide the protective covering over the hose.
->
-> Install the hose on the number 4 90-degree face sealing o-ring elbow at the fuel return swivel fitting (1).
->
-> Route the hose to the number 4 90-degree face sealing o-ring elbow at the burn solenoid (2), and cut the hose to fit.
->
-> Install the hose on the fitting.
->
-> Secure the hose using tie wraps, if necessary.
->
-> Locate the number 4 hose in the kit.
->
-> Slide the protective covering over the hose.
->
-> Install the hose on the number 4 face sealing o-ring 90-degree elbow at the fuel solenoid.
->
-> Route the hose to the number 4 face sealing o-ring 90-degree elbow at the fuel connecting block, and cut the hose to fit.
->
-> Install the hose on the fitting.
->
-> Secure the hose using tie wraps, if necessary.
->
-> Burn-Only, QSK45 and QSK60 Engines
->
-> Remove plug from inlet side of fuel filter head. Install the adapter (2) into the open port in the fuel filter head (12).
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Install the male elbow (3) connector into the adapter (2) fitted to the inlet side of the fuel filter head (12).
->
-> **Момент затяжки · Torque Value**
-> 34 n•m [25 ft-lb]
->
-> Install the check valve in the gear housing.
->
-> **Момент затяжки · Torque Value**
-> 34 n•m [25 ft-lb]
->
-> Install and tighten the oil supply hose (10) from the oil check valve in the front gear cover to the top of the control valve (8).
->
-> **Момент затяжки · Torque Value**
+
+![[07800173.png]]
+
+Install the male elbow (9) into the handhole cover.
+
+> [!tip] Момент затяжки · Torque Value
 > 16 n•m [142 in-lb]
->
-> Install and tighten the 457-mm \[18.0-in\] oil burn hose (1) from the top of the control valve (8) to the inlet side of the fuel filter head (12).
->
-> **Момент затяжки · Torque Value**
+
+![[07800173.png]]
+
+Install and tighten the oil supply hose (10) from the oil check valve in the front gear cover to the top of the control valve (8).
+
+> [!tip] Момент затяжки · Torque Value
 > 16 n•m [142 in-lb]
->
-> Install and tighten the 167-mm \[6.8-in\] bypass hose (6) from the burn port of the oil control valve to the inlet side of the control valve.
->
-> **Момент затяжки · Torque Value**
+
+Install and tighten the 308-mm \[12.1-in\] oil replenishment hose (2) from the control valve (8) to the male elbow (9) in the handhole cover.
+
+> [!tip] Момент затяжки · Torque Value
 > 16 n•m [142 in-lb]
->
-> Using provided tie wraps, secure the hoses as necessary to avoid chafing and interference.
->
-> Burn With Make-Up, QSK45 and QSK60 Engines
->
-> Remove plug from inlet side of fuel filter head. Install the adapter (4) into the open port in the fuel filter head (12).
->
-> **Момент затяжки · Torque Value**
-> 47 n•m [35 ft-lb]
->
-> Install the oil rifle check valve (1) in the front gear cover port.
->
-> **Момент затяжки · Torque Value**
-> 36 n•m [27 ft-lb]
->
-> Install the male elbow (5) connector into the adapter (4) fitted to the inlet side of the fuel filter head (12).
->
-> **Момент затяжки · Torque Value**
-> 34 n•m [25 ft-lb]
->
-> Install the male elbow (9) into the handhole cover.
->
-> **Момент затяжки · Torque Value**
+
+![[07800173.png]]
+
+Install and tighten the 389-mm \[15.3-in\] oil burn hose (6) from the control valve (8) to the inlet side of fuel filter head (12).
+
+> [!tip] Момент затяжки · Torque Value
 > 16 n•m [142 in-lb]
->
-> Install and tighten the oil supply hose (10) from the oil check valve in the front gear cover to the top of the control valve (8).
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Install and tighten the 308-mm \[12.1-in\] oil replenishment hose (2) from the control valve (8) to the male elbow (9) in the handhole cover.
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Install and tighten the 389-mm \[15.3-in\] oil burn hose (6) from the control valve (8) to the inlet side of fuel filter head (12).
->
-> **Момент затяжки · Torque Value**
-> 16 n•m [142 in-lb]
->
-> Using provided tie wraps, secure the hoses as necessary to avoid chafing and interference.
+
+Using provided tie wraps, secure the hoses as necessary to avoid chafing and interference.
+
+![[07800173.png]]

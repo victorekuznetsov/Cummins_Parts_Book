@@ -8,127 +8,77 @@ title_ru: "Ремень привода генератора"
 modified: "2018-06-22"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 5
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-005-shopas.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-005-shopas.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-005-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Charging System Alternator Drive Belt
 **Ремень привода генератора**
 
 > [!abstract] Процедура · `20-013-005-shopas`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section AS - Engine Assembly - Group 00
 > **Даты:** изменён 2018-06-22
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-005-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-005-shopas.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-005-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-005-shopas.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Install
 
-
-### Установка
-
-Не пытайтесь пощипать пояс на шкиве. Поверните регулировочный винт ** против часовой стрелки **, чтобы сократить соединение, если это необходимо. Установите ремень генератора.
+Do **not** attempt to pry the belt on the pulley. Turn the adjusting screw **counterclockwise** to shorten the link if necessary. Install the alternator belt.
 
 ![[eh4blmb.png]]
 
-### Регулировка
+### Adjust
 
-> [!note] Примечание
-> Нижний локон имеет левую резьба.
+> [!note] Note · Примечание
+> The lower jam nut has left-hand threads.
 
-Устранить генератор переменного тока и регулировать крепление болтов.
+Loosen the alternator and adjusting link mounting capscrews.
 
-Освободите гайки от винта, который регулирует.
+Loosen the jam nuts on the adjusting screw.
 
 ![[eh4lkua.png]]
 
-Поверните регулирующий винт ** по часовой стрелке**, чтобы затянуть натяжение ремня.
+Turn the adjusting screw **clockwise** to tighten the belt tension.
 
 ![[eh4lkub.png]]
 
-> [!note] Примечание
-> Нижний локон имеет левую резьба.
+> [!note] Note · Примечание
+> The lower jam nut has left-hand threads.
 
-Затяните гайки на регулировочном винте.
+Tighten the jam nuts on the adjusting screw.
 
-Затягивать регулировочные звенья и крепления генераторов переменного тока.
+Tighten the adjusting link and alternator mounting capscrews.
 
-> [!tip] Момент затяжки
-> Jam Nuts 55 Н·м [41 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> Jam Nuts 55 n•m [41 ft-lb]
 
-> [!tip] Момент затяжки
-> Альтернатор Установка болтов 55 Н·м [41 фут-лб]
+> [!tip] Момент затяжки · Torque Value
+> Alternator Mounting Capscrews 55 n•m [41 ft-lb]
 
 ![[eh4lkuc.png]]
 
-Проверьте натяжение ремня снова, чтобы убедиться, что это правильно.
+Check the belt tension again to be sure it is correct.
 
-Натяжение ремня ** должно быть:
+The belt tension **must** be:
 
-| Измерения |  |  |
+| Measurements |  |  |
 |---|---|---|
-|  | n | хулиган |
-| Напряжение пояса: | 310 | 70 |
+|  | n | lbf |
+| Belt Tension: | 310 | 70 |
 
-Если натяжение ремня находится в пределах спецификации, повторите раздел «Настройка» этой процедуры.
+If the belt tension is **not** within specification, repeat the Adjust section of this procedure.
 
 ![[eh4toga.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Install
->
-> Do **not** attempt to pry the belt on the pulley. Turn the adjusting screw **counterclockwise** to shorten the link if necessary. Install the alternator belt.
->
-> ### Adjust
->
-> **Note · Примечание**
-> The lower jam nut has left-hand threads.
->
-> Loosen the alternator and adjusting link mounting capscrews.
->
-> Loosen the jam nuts on the adjusting screw.
->
-> Turn the adjusting screw **clockwise** to tighten the belt tension.
->
-> **Note · Примечание**
-> The lower jam nut has left-hand threads.
->
-> Tighten the jam nuts on the adjusting screw.
->
-> Tighten the adjusting link and alternator mounting capscrews.
->
-> **Момент затяжки · Torque Value**
-> Jam Nuts 55 n•m [41 ft-lb]
->
-> **Момент затяжки · Torque Value**
-> Alternator Mounting Capscrews 55 n•m [41 ft-lb]
->
-> Check the belt tension again to be sure it is correct.
->
-> The belt tension **must** be:
->
-> | Measurements |  |  |
-> |---|---|---|
-> |  | n | lbf |
-> | Belt Tension: | 310 | 70 |
->
-> If the belt tension is **not** within specification, repeat the Adjust section of this procedure.

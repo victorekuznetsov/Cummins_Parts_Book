@@ -8,113 +8,66 @@ title_ru: "Цепь питания часов реального времени"
 modified: "2010-09-02"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
   - "3666266"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc319.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc319.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc319.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
-  - "перевод/машинный"
 ---
 
 # Real-Time Clock Power Circuit
 **Цепь питания часов реального времени**
 
 > [!abstract] Процедура · `82-fc319`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc319.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc319.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc319.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc319.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 319
 
+Real-Time Clock Power Circuit
 
-### Код неисправности: 319
+### Real-Time Clock Power Circuit
 
-Цепь питания часов реального времени
+Printable Version
 
-### Цепь питания часов реального времени
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 319 P(P): P251 SPN: 251 ФМИ: 2/2 лампы: Обслуживание SRT: | Часы в реальном времени теряют мощность. | Ни одного на выступление. Данные в ECM будут ** не** иметь точную информацию о времени и дате. |
+| Fault Code: 319 PID(P): P251 SPN: 251 FMI: 2/2 Lamp: Maintenance SRT: | Real-time clock lost power. | None on performance. Data in the ECM will **not** have accurate time and date information. |
 
 ![[19200382.png]]
 
-Цепь питания часов реального времени
+Real-Time Clock Power Circuit
 
-### Описание цепи
+### Circuit Description
 
-В обычных условиях эксплуатации часы реального времени в ECM питаются от аккумуляторов автомобиля. Если питание от батареи к ECM потеряно, то часы в реальном времени будут питаться от резервного модуля батареи (если он оборудован).
+Under ordinary operating conditions, the real-time clock in the ECM is powered by the vehicle's batteries. If battery power to the ECM is lost, then the real-time clock will be powered by a battery backup module (if equipped).
 
-### Расположение компонента
+### Component Location
 
-Модуль резервного копирования аккумулятора в режиме реального времени закреплен на проводной ремне в непосредственной близости от ECM. ECM расположен на стороне топливного насоса двигателя либо над воздушным компрессором (высокогорный), либо над стартером (низкогорный).
+The real-time clock battery backup module is secured to the wiring harness in the vicinity of the ECM. The ECM is located on the fuel pump side of the engine either above the air compressor (high-mount) or above the starter (low-mount).
 
-### Практические замечания
+### Shoptalk
 
-Эта ошибка указывает на то, что часы реального времени в ECM потеряли мощность. Возможные причины такой вины:
+This fault indicates that the real-time clock in the ECM lost power. Possible causes for this fault:
 
-- Слабый или неисправный резервный модуль батареи
+- A weak or failed battery backup module
 
-- Неисправная проводка или разъемы между модулем резервного копирования батареи и ECM
+- Failed wiring or connectors between the battery backup module and ECM
 
-- Двигатель ** не** оснащен резервным модулем аккумулятора и потерял мощность аккумулятора автомобиля.
+- The engine is **not** equipped with a battery backup module, and lost vehicle battery power to the ECM.
 
-См. Код устранения неполадок t05-319
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 319
->
-> Real-Time Clock Power Circuit
->
-> ### Real-Time Clock Power Circuit
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 319 PID(P): P251 SPN: 251 FMI: 2/2 Lamp: Maintenance SRT: | Real-time clock lost power. | None on performance. Data in the ECM will **not** have accurate time and date information. |
->
-> Real-Time Clock Power Circuit
->
-> ### Circuit Description
->
-> Under ordinary operating conditions, the real-time clock in the ECM is powered by the vehicle's batteries. If battery power to the ECM is lost, then the real-time clock will be powered by a battery backup module (if equipped).
->
-> ### Component Location
->
-> The real-time clock battery backup module is secured to the wiring harness in the vicinity of the ECM. The ECM is located on the fuel pump side of the engine either above the air compressor (high-mount) or above the starter (low-mount).
->
-> ### Shoptalk
->
-> This fault indicates that the real-time clock in the ECM lost power. Possible causes for this fault:
->
-> - A weak or failed battery backup module
->
-> - Failed wiring or connectors between the battery backup module and ECM
->
-> - The engine is **not** equipped with a battery backup module, and lost vehicle battery power to the ECM.
->
-> Refer to Troubleshooting Fault Code t05-319
+Refer to Troubleshooting Fault Code t05-319

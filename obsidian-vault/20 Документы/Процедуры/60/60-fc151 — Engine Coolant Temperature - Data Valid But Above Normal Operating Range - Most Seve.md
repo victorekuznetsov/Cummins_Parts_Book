@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc151.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc151.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc151.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
-  - "перевод/машинный"
 ---
 
 # Engine Coolant Temperature - Data Valid But Above Normal Operating Range - Most Severe Level
@@ -34,144 +32,70 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2020-09-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc151.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc151.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc151.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc151.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 151
 
+### Engine Coolant Temperature - Data Valid But Above Normal Operating Range - Most Severe Level
 
-### Код неисправности: 151
+Printable Version
 
-### Температура ОЖ выше нормы — наивысший уровень
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 151 PID(P): P110 SPN: 110 FMI: 0/0 лампа: Красная СТО: | Сигнал температуры охлаждающей жидкости двигателя указывает температуру охлаждающей жидкости двигателя выше критического предела защиты двигателя. | Двигатель отключится. |
+| Fault Code: 151 PID(P): P110 SPN: 110 FMI: 0/0 Lamp: Red SRT: | Engine coolant temperature signal indicates engine coolant temperature above engine protection critical limit. | Engine will shut down. |
 
 ![[19a00848.png]]
 
-Схема датчика температуры двигателя
+Engine Coolant Temperature Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик температуры охлаждающей жидкости двигателя представляет собой датчик переменного резистора, используемый ECM для мониторинга температуры охлаждающей жидкости двигателя. Датчик температуры охлаждающей жидкости двигателя имеет две схемы: сигнал и обратные цепи. Напряжение сигнала указывает на температуру охлаждающей жидкости.
+The engine coolant temperature sensor is a variable resistor sensor used by the ECM to monitor the engine coolant temperature. The engine coolant temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the coolant temperature.
 
-### Расположение компонента
+### Component Location
 
-Датчик температуры охлаждающей жидкости двигателя расположен на корпусе термостата.
+The engine coolant temperature sensor is located on the thermostat housing.
 
-### Условия выполнения диагностики
+### Conditions For Running The Diagnostics
 
-Эта диагностика выполняется постоянно, пока контроллер генераторной установки активен или двигатель работает.
+This diagnostic runs continuously when the generator set controller is active or when the engine is running.
 
-### Условия установки кодов неисправностей
+### Conditions For Setting The Fault Codes
 
-Модуль управления двигателем (ECM) обнаружил, что температура охлаждающей жидкости двигателя была выше предела защиты двигателя.
+The Engine Control Module (ECM) detected the engine coolant temperature was greater than the engine protection limit.
 
-### Действия системы при активном коде неисправности
+### Action Taken When The Fault Code Is Active
 
-- Контроллер генераторной установки отображает неисправность выключения сразу же, когда диагностика работает и выходит из строя.
+- The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
 
-- Выходной крутящий момент двигателя будет уменьшен.
+- The torque output of the engine will be reduced.
 
-- Двигатель будет отключен, если включена функция защиты двигателя.
+- The engine will be shut down if the Engine Protection Shutdown feature is enabled.
 
-### Условия сброса кода неисправности
+### Conditions For Clearing The Fault Code
 
-- Для проверки ремонта доведите двигатель до рабочей температуры и запускайте его в нормальных условиях нагрузки в течение 15 минут.
+- To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
 
-- Контроллер генераторной установки отключит индикатор выключения сразу после того, как пользователь нажмет сброс.
+- The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
 
-- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
+- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
 
-### Практические замечания
+### Shoptalk
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- Затрудняется протекание воздуха через радиатор.
+- Obstructed airflow through the radiator.
 
-- Уровень охлаждающей жидкости в двигателе низкий
+- Engine coolant level low
 
-- Сжатые или ограниченные шланги системы охлаждения.
+- Collapsed or restricted cooling system hoses.
 
-- Неисправный термостат охлаждающей жидкости двигателя.
+- Malfunctioning engine coolant thermostat.
 
-- Неисправный водяной насос.
+- A malfunctioning water pump.
 
-- Неисправный датчик температуры охлаждающей жидкости двигателя
+- Malfunctioning engine coolant temperature sensor
 
-См. Код 151 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 151
->
-> ### Engine Coolant Temperature - Data Valid But Above Normal Operating Range - Most Severe Level
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 151 PID(P): P110 SPN: 110 FMI: 0/0 Lamp: Red SRT: | Engine coolant temperature signal indicates engine coolant temperature above engine protection critical limit. | Engine will shut down. |
->
-> Engine Coolant Temperature Sensor Circuit
->
-> ### Circuit Description
->
-> The engine coolant temperature sensor is a variable resistor sensor used by the ECM to monitor the engine coolant temperature. The engine coolant temperature sensor has two circuits: signal, and return circuits. The signal voltage indicates the coolant temperature.
->
-> ### Component Location
->
-> The engine coolant temperature sensor is located on the thermostat housing.
->
-> ### Conditions For Running The Diagnostics
->
-> This diagnostic runs continuously when the generator set controller is active or when the engine is running.
->
-> ### Conditions For Setting The Fault Codes
->
-> The Engine Control Module (ECM) detected the engine coolant temperature was greater than the engine protection limit.
->
-> ### Action Taken When The Fault Code Is Active
->
-> - The generator set controller displays a shutdown fault immediately when the diagnostics runs and fails.
->
-> - The torque output of the engine will be reduced.
->
-> - The engine will be shut down if the Engine Protection Shutdown feature is enabled.
->
-> ### Conditions For Clearing The Fault Code
->
-> - To validate the repair, bring the engine up to operating temperature and run it in normal loaded conditions for 15 minutes.
->
-> - The generator set controller will turn off the shutdown indicator immediately after the user presses the reset.
->
-> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
->
-> ### Shoptalk
->
-> Possible causes of this fault code include:
->
-> - Obstructed airflow through the radiator.
->
-> - Engine coolant level low
->
-> - Collapsed or restricted cooling system hoses.
->
-> - Malfunctioning engine coolant thermostat.
->
-> - A malfunctioning water pump.
->
-> - Malfunctioning engine coolant temperature sensor
->
-> Refer to Troubleshooting Fault Code 151.
+Refer to Troubleshooting Fault Code 151.

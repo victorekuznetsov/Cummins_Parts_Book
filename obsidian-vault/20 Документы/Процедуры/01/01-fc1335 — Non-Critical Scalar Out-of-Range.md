@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1335.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1335.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1335.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Non-Critical Scalar Out-of-Range
@@ -34,56 +32,26 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2012-05-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1335.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1335.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1335.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1335.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 1335
 
+### Non-Critical Scalar Out-of-Range
 
-### Код неисправности: 1335
+Printable Version
 
-### Некритический скалярный параметр вне диапазона
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 1335 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Одна или несколько отделок были установлены так, что некритический скаляр в недальнем диапазоне. | Нет защиты от генераторов. Возможная потеря производительности. |
+| Fault Code: 1335 PID(P): SPN: FMI: Lamp: Warning SRT: | One or more trims have been set so that a non-critical scalar in out-of-range. | No alternator protection. Possible loss of performance. |
 
 ![[19802494.png]]
 
-Электронный блок управления двигателем
+Engine Control Module
 
-### Описание цепи
+### Circuit Description
 
-### Расположение компонента
+### Component Location
 
-См. Код устранения неполадок t05-1335.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 1335
->
-> ### Non-Critical Scalar Out-of-Range
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 1335 PID(P): SPN: FMI: Lamp: Warning SRT: | One or more trims have been set so that a non-critical scalar in out-of-range. | No alternator protection. Possible loss of performance. |
->
-> Engine Control Module
->
-> ### Circuit Description
->
-> ### Component Location
->
-> Refer to Troubleshooting Fault Code t05-1335.
+Refer to Troubleshooting Fault Code t05-1335.

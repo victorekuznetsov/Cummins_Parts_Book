@@ -8,97 +8,58 @@ title_ru: "Цепь датчика атмосферного давления"
 modified: "2010-09-02"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
   - "3666266"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc222.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc222.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc222.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
   - "группа/82"
-  - "перевод/машинный"
 ---
 
 # Ambient Air Pressure Sensor Circuit
 **Цепь датчика атмосферного давления**
 
 > [!abstract] Процедура · `82-fc222`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc222.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc222.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc222.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc222.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 222
 
+### Ambient Air Pressure Sensor Circuit
 
-### Код неисправности: 222
+Printable Version
 
-### Цепь датчика атмосферного давления
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 222 PID(P): P108 SPN: 108 FMI: 4/4 лампы: Желтая СТО: | Низкое напряжение, обнаруженное в цепи давления окружающего воздуха. | Снижает мощность двигателя. |
+| Fault Code: 222 PID(P): P108 SPN: 108 FMI: 4/4 Lamp: Yellow SRT: | Low voltage detected at the ambient air pressure circuit. | Derate in power output of engine. |
 
 ![[19c00652.png]]
 
-Цепь датчика атмосферного давления
+Ambient Air Pressure Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик давления окружающего воздуха контролирует атмосферное давление и передает информацию в электронный модуль управления (ECM) через датчик проводов ремня.
+The ambient air pressure sensor monitors atmospheric pressure and passes information to the electronic control module (ECM) through the sensor harness.
 
-### Расположение компонента
+### Component Location
 
-Датчик давления окружающего воздуха расположен ниже ECM.
+The ambient air pressure sensor is located below the ECM.
 
-### Практические замечания
+### Shoptalk
 
-Мониторинг показания давления окружающего воздуха с помощью служебной инструментальной установки, чтобы подтвердить, что показания давления соответствуют фактическому давлению воздуха.
+Monitor the ambient air pressure reading with a service tool to confirm that the pressure reading matches the actual air pressure.
 
-См. Код устранения неполадок t05-222
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 222
->
-> ### Ambient Air Pressure Sensor Circuit
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 222 PID(P): P108 SPN: 108 FMI: 4/4 Lamp: Yellow SRT: | Low voltage detected at the ambient air pressure circuit. | Derate in power output of engine. |
->
-> Ambient Air Pressure Sensor Circuit
->
-> ### Circuit Description
->
-> The ambient air pressure sensor monitors atmospheric pressure and passes information to the electronic control module (ECM) through the sensor harness.
->
-> ### Component Location
->
-> The ambient air pressure sensor is located below the ECM.
->
-> ### Shoptalk
->
-> Monitor the ambient air pressure reading with a service tool to confirm that the pressure reading matches the actual air pressure.
->
-> Refer to Troubleshooting Fault Code t05-222
+Refer to Troubleshooting Fault Code t05-222

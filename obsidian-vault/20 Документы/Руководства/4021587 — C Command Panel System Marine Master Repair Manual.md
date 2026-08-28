@@ -7,11 +7,12 @@ title_en: "C Command Panel System Marine Master Repair Manual"
 title_ru: "Судовая пультовая система C Command: руководство по ремонту"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021587/4021587-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021587-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021587-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/QSK19"
@@ -21,9 +22,9 @@ tags:
 **Судовая пультовая система C Command: руководство по ремонту**
 
 > [!abstract] Руководство · `4021587-history`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021587/4021587-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021587-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021587/4021587-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021587-history.pdf)
 
 
 ## Оглавление руководства (65 процедур)

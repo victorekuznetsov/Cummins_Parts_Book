@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021674"
 figures: 3
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-038.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-038.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-038.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
-  - "перевод/машинный"
 ---
 
 # Engine Position Sensor (EPS)
@@ -34,78 +32,39 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section 19 — Electronic Engine Controls — Group 19
 > **Даты:** изменён 2007-12-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-038.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-038.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-038.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-038.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
+Use INSITE™ electronic service tool to read the fault codes and to determine if the sensor needs to be replaced.
 
-### Снятие
+Disconnect the sensor from the engine harness.
 
-Используйте инструмент электронного обслуживания INSITETM для считывания кодов неисправностей и определения необходимости замены датчика.
+Remove the engine position sensor from the cylinder block.
 
-Отсоедините датчик от жгута проводов двигателя.
-
-Удалите датчик положения двигателя из блока цилиндров.
-
-[[60-100-002 — Engine Diagrams|См. процедуру 100-002 (Диаграммы двигателя) в разделе Е для определения местоположения датчика.]]
+[[60-100-002 — Engine Diagrams|Refer to Procedure 100-002 (Engine Diagrams) in Section E for sensor location.]]
 
 ![[19a00889.png]]
 
-### Проверка при повторном использовании
+### Inspect for Reuse
 
-Осмотрите датчик положения двигателя на предмет обломков, трещин или сколов горшка, экструдированного горшка и повреждения от контакта с кулачковой передачей.
+Inspect the engine position sensor for debris, cracked or chipped potting, extruded potting, and damage from contact with the cam gear.
 
-Если на датчике положения двигателя есть мусор, очистите датчик.
+If there is debris on the engine position sensor, clean the sensor.
 
-Если датчик сколот, треснул, экструдировался или иным образом поврежден, замените датчик.
+If the sensor is chipped, cracked, extruded, or otherwise damaged, replace the sensor.
 
 ![[19800369.png]]
 
-### Установка
+### Install
 
-Установите новое кольцо на датчик положения двигателя.
+Install a new o-ring onto the engine position sensor.
 
-Установите новый датчик в монтажное отверстие.
+Install the new sensor into the mounting hole.
 
-Подключите датчик к жгуту проводов двигателя. Соедините разъёмы до фиксации.
+Connect the sensor to the engine harness. Push the connectors together until they lock.
 
-> [!tip] Момент затяжки
-> 25 Н·м [221 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 25 n•m [221 in-lb]
 
 ![[19a00889.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> Use INSITE™ electronic service tool to read the fault codes and to determine if the sensor needs to be replaced.
->
-> Disconnect the sensor from the engine harness.
->
-> Remove the engine position sensor from the cylinder block.
->
-> [[60-100-002 — Engine Diagrams|Refer to Procedure 100-002 (Engine Diagrams) in Section E for sensor location.]]
->
-> ### Inspect for Reuse
->
-> Inspect the engine position sensor for debris, cracked or chipped potting, extruded potting, and damage from contact with the cam gear.
->
-> If there is debris on the engine position sensor, clean the sensor.
->
-> If the sensor is chipped, cracked, extruded, or otherwise damaged, replace the sensor.
->
-> ### Install
->
-> Install a new o-ring onto the engine position sensor.
->
-> Install the new sensor into the mounting hole.
->
-> Connect the sensor to the engine harness. Push the connectors together until they lock.
->
-> **Момент затяжки · Torque Value**
-> 25 n•m [221 in-lb]

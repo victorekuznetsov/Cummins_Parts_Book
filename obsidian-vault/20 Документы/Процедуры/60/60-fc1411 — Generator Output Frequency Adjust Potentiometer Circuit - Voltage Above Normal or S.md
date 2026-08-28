@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1411.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc1411.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1411.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
-  - "перевод/машинный"
 ---
 
 # Generator Output Frequency Adjust Potentiometer Circuit - Voltage Above Normal or Shorted to High Source
@@ -34,128 +32,62 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2020-09-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1411.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc1411.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1411.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1411.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 1411
 
+### Generator Output Frequency Adjust Potentiometer Circuit - Voltage Above Normal or Shorted to High Source
 
-### Код неисправности: 1411
+Printable Version
 
-### Цепь потенциометра регулировки частоты генератора — напряжение выше нормы
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 1411 PID(P): S151 SPN: 4182 FMI: 3/3 лампы: Янтарная СРТ: | Высокое напряжение сигнала, обнаруженное на выходной частоте генератора, регулирует схему потенциометра. | Нет. |
+| Fault Code: 1411 PID(P): S151 SPN: 4182 FMI: 3/3 Lamp: Amber SRT: | High signal voltage detected at the generator output frequency adjust potentiometer circuit. | None. |
 
 ![[19a00875.png]]
 
-Генератор выходной частоты регулирует цепь потенциометра.
+Generator Output Frequency Adjust Potentiometer Circuit.
 
-### Описание цепи
+### Circuit Description
 
-Потенциометр регулирования выходной частоты генератора представляет собой потенциометр, используемый ECM для регулирования частоты генератора. Это частота, на которой выходное напряжение генераторной установки начинает падать. Потенциометр имеет три схемы: 5-вольтная цепь подачи, возврата и сигнала. Напряжение цепи сигнала указывает на то, что выходная частота генератора регулирует вход потенциометра в ECM.
+The generator output frequency adjust potentiometer is a potentiometer used by the ECM to regulate the generator frequency. This is the frequency at which the generator set output voltage starts to drop. The potentiometer has three circuits: 5 volt supply, return, and signal circuits. The signal circuit voltage indicates the generator output frequency adjust potentiometer input to the ECM.
 
-### Расположение компонента
+### Component Location
 
-Генератор выходной частоты регулировки потенциометра расположен на панели управления генератором.
+The generator output frequency adjust potentiometer is located on the generator control panel.
 
-### Условия выполнения диагностики
+### Conditions For Running The Diagnostics
 
-Эта диагностика выполняется непрерывно, когда контроллер генераторного набора активен.
+This diagnostic runs continuously when the generator set controller is active.
 
-### Условия установки кодов неисправностей
+### Conditions For Setting The Fault Codes
 
-Модуль управления двигателем (ECM) обнаружил, что напряжение сигнала регулятора выходной частоты генератора было вне диапазона.
+The Engine Control Module (ECM) detected the generator output frequency adjust potentiometer signal voltage was out of range high.
 
-### Действия системы при активном коде неисправности
+### Action Taken When The Fault Code Is Active
 
-- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
+- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
 
-### Условия сброса кода неисправности
+### Conditions For Clearing The Fault Code
 
-- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
+- To validate the repair, start the engine and let it run for 1 minute at no load.
 
-- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
+- The generator set controller will turn off the warning indicator immediately after the user presses reset.
 
-- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
+- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
 
-### Практические замечания
+### Shoptalk
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- Грязный генератор частот регулирует потенциометр.
+- A dirty generator frequency adjust potentiometer.
 
-- Неисправный частотный регулятор генератора потенциометр.
+- Malfunctioning generator frequency adjust potentiometer.
 
-- Неисправный или повреждённый жгут проводов двигателя.
+- Malfunctioning or damaged engine wiring harness.
 
-- Неисправность или повреждение OEM-проводов.
+- Malfunctioning or damaged OEM wiring harness.
 
-См. Код 1411 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 1411
->
-> ### Generator Output Frequency Adjust Potentiometer Circuit - Voltage Above Normal or Shorted to High Source
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 1411 PID(P): S151 SPN: 4182 FMI: 3/3 Lamp: Amber SRT: | High signal voltage detected at the generator output frequency adjust potentiometer circuit. | None. |
->
-> Generator Output Frequency Adjust Potentiometer Circuit.
->
-> ### Circuit Description
->
-> The generator output frequency adjust potentiometer is a potentiometer used by the ECM to regulate the generator frequency. This is the frequency at which the generator set output voltage starts to drop. The potentiometer has three circuits: 5 volt supply, return, and signal circuits. The signal circuit voltage indicates the generator output frequency adjust potentiometer input to the ECM.
->
-> ### Component Location
->
-> The generator output frequency adjust potentiometer is located on the generator control panel.
->
-> ### Conditions For Running The Diagnostics
->
-> This diagnostic runs continuously when the generator set controller is active.
->
-> ### Conditions For Setting The Fault Codes
->
-> The Engine Control Module (ECM) detected the generator output frequency adjust potentiometer signal voltage was out of range high.
->
-> ### Action Taken When The Fault Code Is Active
->
-> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
->
-> ### Conditions For Clearing The Fault Code
->
-> - To validate the repair, start the engine and let it run for 1 minute at no load.
->
-> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
->
-> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
->
-> ### Shoptalk
->
-> Possible causes of this fault code include:
->
-> - A dirty generator frequency adjust potentiometer.
->
-> - Malfunctioning generator frequency adjust potentiometer.
->
-> - Malfunctioning or damaged engine wiring harness.
->
-> - Malfunctioning or damaged OEM wiring harness.
->
-> Refer to Troubleshooting Fault Code 1411.
+Refer to Troubleshooting Fault Code 1411.

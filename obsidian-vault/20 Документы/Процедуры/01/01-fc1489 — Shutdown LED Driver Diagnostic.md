@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1489.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1489.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1489.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Shutdown LED Driver Diagnostic
@@ -34,80 +32,38 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1489.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1489.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1489.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1489.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 1489
 
+### Shutdown LED Driver Diagnostic
 
-### Код неисправности: 1489
+Printable Version
 
-### Диагностика драйвера светодиода останова
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 1489 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Диагностика выключения панели коммутатора LED-драйвера выявила ошибку. | Светодиод выключения ** не** работает правильно. Никаких действий со стороны ЕКМ не предпринимается. Никаких потерь в производительности. |
+| Fault Code: 1489 PID(P): SPN: FMI: Lamp: Warning SRT: | Switch panel shutdown LED driver diagnostic has detected an error. | The shutdown LED will **not** function correctly. No action is taken by the ECM. No loss of performance. |
 
 ![[19802915.png]]
 
-Выключение LED Driver Circuit
+Shutdown LED Driver Circuit
 
-### Описание цепи
+### Circuit Description
 
-ECM проверяет выключаемый светодиодный драйвер, чтобы убедиться в правильной работе. ECM использует лампу отключения, чтобы сообщить оператору, что с генераторной установкой произошел критический сбой.
+The ECM checks the shutdown LED driver to be sure of correct operation. The ECM uses the shutdown lamp to inform the operator that a critical fault has occurred with the generator set.
 
-ECM контролирует напряжение (никакое падение напряжения не будет сбивать Код 1489 по умолчанию) и может быть вызвано шортами, отверстиями, плохими лампами или неисправным светодиодным драйвером выключения в ECM.
+The ECM monitors the voltage (no voltage drop will trip Fault Code 1489) and can be caused by shorts, opens, bad bulbs, or a failed shutdown LED driver in the ECM.
 
-### Расположение компонента
+### Component Location
 
-См. раздел E для определения местоположения панели переключателя и выключателя.
+Refer to Section E for location of the switch panel and the shutdown lamp.
 
-### Практические замечания
+### Shoptalk
 
-Возможные режимы отказа - открытая цепь, короткая к земле, выгоревшая лампа и потеря питания.
+The possible failure modes are open circuit, short to ground, burned-out bulb, and loss of supply.
 
-Правильная работа диагностического светильника может быть проверена путем проверки, чтобы увидеть, что лампы кратковременно загораются при включении ECM.
+Proper diagnostic lamp operation can be verified by checking to see that the lamps briefly light when the ECM is powered up.
 
-См. Код устранения неполадок t05-1489
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 1489
->
-> ### Shutdown LED Driver Diagnostic
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 1489 PID(P): SPN: FMI: Lamp: Warning SRT: | Switch panel shutdown LED driver diagnostic has detected an error. | The shutdown LED will **not** function correctly. No action is taken by the ECM. No loss of performance. |
->
-> Shutdown LED Driver Circuit
->
-> ### Circuit Description
->
-> The ECM checks the shutdown LED driver to be sure of correct operation. The ECM uses the shutdown lamp to inform the operator that a critical fault has occurred with the generator set.
->
-> The ECM monitors the voltage (no voltage drop will trip Fault Code 1489) and can be caused by shorts, opens, bad bulbs, or a failed shutdown LED driver in the ECM.
->
-> ### Component Location
->
-> Refer to Section E for location of the switch panel and the shutdown lamp.
->
-> ### Shoptalk
->
-> The possible failure modes are open circuit, short to ground, burned-out bulb, and loss of supply.
->
-> Proper diagnostic lamp operation can be verified by checking to see that the lamps briefly light when the ECM is powered up.
->
-> Refer to Troubleshooting Fault Code t05-1489
+Refer to Troubleshooting Fault Code t05-1489

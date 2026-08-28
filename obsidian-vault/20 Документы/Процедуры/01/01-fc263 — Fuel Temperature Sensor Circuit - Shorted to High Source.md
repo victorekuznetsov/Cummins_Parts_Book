@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc263.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc263.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc263.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Fuel Temperature Sensor Circuit - Shorted to High Source
@@ -34,72 +32,34 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2011-01-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc263.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc263.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc263.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc263.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 263
 
+### Fuel Temperature Sensor Circuit - Shorted to High Source
 
-### Код неисправности: 263
+Printable Version
 
-### Цепь датчика температуры топлива — замыкание на плюс
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 263 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Сигнал датчика температуры топлива двигателя высоко закорочен. | Отсутствие защиты двигателя от температуры топлива. Никакого влияния на производительность. |
+| Fault Code: 263 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine fuel temperature sensor signal is shorted high. | No engine protection for fuel temperature. No effect on performance. |
 
 ![[19803592.png]]
 
-Схема датчика температуры топлива
+Fuel Temperature Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик температуры топлива используется электронным модулем управления (ECM) для мониторинга температуры топлива. Температура топлива используется ECM для системы защиты двигателя, управления временем и заправкой. Если напряжение высокое, ECM регистрирует код 263 ошибки. Высокое напряжение может быть вызвано открытиями в сигнале или обратных проводах, шортами напряжения к сигналу или обратным проводам или неисправным открытым датчиком.
+The fuel temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the fuel. The fuel temperature is used by the ECM for the engine protection system, timing, and fueling control. If the voltage is high, the ECM will log Fault Code 263. High voltage can be caused by opens in the signal or return wires, voltage shorts to the signal or return wires, or a failed open sensor.
 
-### Расположение компонента
+### Component Location
 
-Используйте следующую процедуру для подробного просмотра местоположения компонента.[[01-100-002-tr — Engine Diagrams|См. процедуру 100-002 в разделе E.]]
+Use the following procedure for a detailed component location view. [[01-100-002-tr — Engine Diagrams|Refer to Procedure 100-002 in Section E.]]
 
-### Практические замечания
+### Shoptalk
 
-Сопротивление датчика изменяется в зависимости от температуры.
+The resistance of the sensor varies with the temperature.
 
-См. Код устранения неполадок t05-263.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 263
->
-> ### Fuel Temperature Sensor Circuit - Shorted to High Source
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 263 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine fuel temperature sensor signal is shorted high. | No engine protection for fuel temperature. No effect on performance. |
->
-> Fuel Temperature Sensor Circuit
->
-> ### Circuit Description
->
-> The fuel temperature sensor is used by the electronic control module (ECM) to monitor the temperature of the fuel. The fuel temperature is used by the ECM for the engine protection system, timing, and fueling control. If the voltage is high, the ECM will log Fault Code 263. High voltage can be caused by opens in the signal or return wires, voltage shorts to the signal or return wires, or a failed open sensor.
->
-> ### Component Location
->
-> Use the following procedure for a detailed component location view. [[01-100-002-tr — Engine Diagrams|Refer to Procedure 100-002 in Section E.]]
->
-> ### Shoptalk
->
-> The resistance of the sensor varies with the temperature.
->
-> Refer to Troubleshooting Fault Code t05-263.
+Refer to Troubleshooting Fault Code t05-263.

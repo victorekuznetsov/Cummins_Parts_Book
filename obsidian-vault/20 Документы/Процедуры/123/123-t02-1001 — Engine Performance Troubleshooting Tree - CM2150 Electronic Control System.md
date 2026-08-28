@@ -8,969 +8,493 @@ title_ru: "Дерево диагностики мощностных характ
 modified: "2018-12-07"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
   - "4022094"
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-t02-1001.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/123-t02-1001.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-t02-1001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/123"
-  - "перевод/машинный"
 ---
 
 # Engine Performance Troubleshooting Tree - CM2150 Electronic Control System
 **Дерево диагностики мощностных характеристик — система CM2150**
 
 > [!abstract] Процедура · `123-t02-1001`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]], [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual|4022094]]
 > **Секции:** Section TT - Troubleshooting Symptoms (New Format)
 > **Даты:** изменён 2018-12-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-t02-1001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/123-t02-1001.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/123/123-t02-1001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/123-t02-1001.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+Printable Version
 
+### Symptoms
 
-Версия для печати
+- Engine Acceleration or Response Poor
 
-### Симптомы
+- Cranking Fuel Pressure Low
 
-- Ускорение двигателя или реакция Плохо
+- Engine Operating Fuel Pressure Low
 
-- Низкое давление топлива
+- Engine Decelerates Slowly
 
-- Двигатель с низким давлением топлива
+- Engine Difficult to Start or Will Not Start (Exhaust Smoke)
 
-- Двигатель медленно падает
+- Engine Difficult to Start or Will Not Start (No Exhaust Smoke)
 
-- Двигатель трудно запустить или не запустится (выхлопной дым)
+- Engine Power Output Low
 
-- Двигатель трудно запустить или не запустится (без выхлопного дыма)
+- Engine Runs Rough at Idle
 
-- Мощность двигателя низкая
+- Engine Runs Rough or Misfires
 
-- Двигатель работает в Idle
+- Engine Speed Surges at Low or High Idle
 
-- Двигатель работает грубо или неисправности
+- Engine Speed Surges Under Load or in Operating Range
 
-- Скорость двигателя растет при низком или высоком холостом ходу
+- Smoke, Black - Excessive
 
-- Скорость двигателя растет под нагрузкой или в рабочем диапазоне
+- Smoke, White - Excessive
 
-- Дым, черный - чрезмерный
+- Engine Shuts Off or Dies Unexpectedly or Dies During Deceleration
 
-- Дым, белый - чрезмерный
+- Engine Starts But Will Not Keep Running
 
-- Двигатель отключается или неожиданно умирает или умирает во время торможения
+- Engine Will Not Reach Rated Speed (RPM)
 
-- Двигатель запускается, но не будет продолжать работать
+- Intake Manifold Pressure (Boost) Below Normal
 
-- Двигатель не будет достигать скорости (RPM)
+- Intake Manifold Pressure (Boost) Above Normal
 
-- давление в коллекторе (повышение ниже нормы)
+### How To Use This Tree
 
-- давление в коллекторе (повышение) выше нормального
+This symptom tree can be used to troubleshoot all the performance-based symptoms listed above. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom. Perform the list of troubleshooting in the sequence shown in the Specifications/Repair section of the tree.
 
-### Как пользоваться этим деревом
+### Shoptalk
 
-Это дерево симптомов может быть использовано для устранения всех симптомов, перечисленных выше. Начните с шага 1 поиска неисправностей. На шаге 2 система задаст ряд вопросов и по симптому выдаст перечень действий по поиску неисправности. Выполните список устранения неполадок в последовательности, показанной в разделе Спецификации / Ремонт дерева.
+Driveability is a term that in general describes vehicle performance on the road. Driveability problems for an engine can be caused by several different factors. Some of the factors are engine-related and some are **not**. Before troubleshooting, it is important to determine the exact complaint and whether the engine has a real driveability problem, or if it simply does **not** meet driver expectations.
 
-### Практические замечания
+Low power is a term that is used in the field to describe many different performance problems. Low power is defined as the inability of the engine to produce the power necessary to move the vehicle at a speed that can be reasonably expected under the given conditions of load, grade, wind, and so on.
 
-Движимость - это термин, который в целом описывает характеристики транспортного средства на дороге. Проблемы с управляемостью двигателя могут быть вызваны несколькими различными факторами. Некоторые из этих факторов связаны с двигателем, а некоторые - не связаны. Перед устранением неполадок важно определить точную жалобу и наличие у двигателя реальной проблемы с управляемостью, или если он просто не соответствует ожиданиям водителя.
+Poor acceleration or response is described as the inability of the vehicle to accelerate satisfactorily from a stop or from the bottom of a grade. It can also be the lag in acceleration during an attempt to pass or overtake another vehicle at conditions less than rated speed and load. Poor acceleration or response is difficult to troubleshoot, since it can be caused by several factors.
 
-Низкая мощность - это термин, который используется в этой области для описания многих различных проблем производительности. Низкая мощность определяется как неспособность двигателя вырабатывать мощность, необходимую для перемещения транспортного средства со скоростью, которая может разумно ожидаться в данных условиях нагрузки, класса, ветра и т. Д.
+## Troubleshooting Summary
 
-Плохое ускорение или ответ описывается как неспособность транспортного средства удовлетворительно ускоряться от остановки или снизу класса. Это также может быть задержка в ускорении во время попытки проехать или обогнать другое транспортное средство при условиях, меньших номинальной скорости и нагрузки. Плохое ускорение или ответ трудно устранить, так как это может быть вызвано несколькими факторами.
-
-## Сводка по поиску неисправности
-
-| Степс | Спецификации |  |
+| STEPS | SPECIFICATIONS |  |
 |---|---|---|
-| ШАГ 1. | Выполняйте основные процедуры устранения неполадок. |  |
-|  | **STEP 1A.** Проверка активных кодов неисправностей или большого количества неактивных кодов неисправностей. | Активные коды неисправностей или большое количество неактивных кодов неисправностей? |
-|  | **STEP 1B.** Проверка основных неисправностей. | Все шаги проверены на правильность? |
-| ШАГ 2. | Определение симптома двигателя. |  |
-|  | **ШАГ 2А.** Низкая мощность, плохое ускорение или слабая реакция. | Симптом двигателя: низкая мощность, плохое ускорение или плохой ответ? |
-|  | **STEP 2B.** Неисправность двигателя, скачок скорости двигателя или неустойчивость скорости двигателя. | Симптом двигателя - Ошибка двигателя, скачок скорости двигателя или неустойчивая скорость двигателя? |
-|  | 2С. Чрезмерный белый или черный дым. | Симптом двигателя: чрезмерный белый или черный дым? |
-|  | **STEP 2D.** Низкое давление коллектора (буст). | Симптом двигателя - низкое давление коллектора (буст)? |
-|  | **ШАГ 2Е.** Высокое давление коллектора впуска (буст). | Симптом двигателя - высокое давление коллектора (буст)? |
-|  | ** Двигатель будет ** не** запускаться или трудно запускать, двигатель неожиданно отключается. | Симптом двигателя: двигатель не запускается или трудно запускается, двигатель неожиданно отключается? |
-| ШАГ 3. | Не начинайте процедуры устранения неполадок. |  |
-|  | **STEP 3A.** Проверить работу стартовых средств в холодную погоду. | Необходимые холодные погодные стартовые средства, работающие должным образом? |
-|  | **STEP 3B.** Проверьте другие коды неисправностей, которые объясняют условие отсутствия запуска. | Любые коды неисправностей, которые могут вызвать состояние без запуска, активируются во время проворачивания? |
-|  | **STEP 3C** Проверьте скорость двигателя во время проворачивания. | Скорость вращения двигателя более 150 об/мин. |
-|  | **STEP 3D.** Проверьте напряжение переключателя зажигания модуля управления двигателем (ECM). | напряжение переключателя зажигания равно напряжению батареи? |
-|  | **ШАГ 3Е.** Проверьте напряжение питания аккумулятора ECM. | Напряжение питания батареи ECM равно напряжению батареи? |
-|  | **STEP 3F.** Проверить давление рельсов топлива на форсунка. | Давление на топливных рельсах более 300 бар[4351 psi] при проворачивании? |
-|  | **STEP 3G.** Проверьте давление топлива от героторного насоса при проворачивании двигателя. | Давление подачи топлива более 500 кПа[73 psi]? |
-|  | **STEP 3G-1.** Проверьте ограничение на впускное топливо. | Ограничение выше, чем спецификация? |
-|  | **STEP 3G-2.** Проверить давление насоса подъёмного горючего. | Давление топлива 3 бар \[44 psi\] после работы насоса в течение 30 секунд? |
-|  | **STEP 3G-3.** Проверьте, запускается ли двигатель. | Двигатель запускается? |
-|  | **STEP 3G-4.** Проверить правильность работы контрольного клапана вблизи насоса топливного подъемника. | Проверьте клапан рядом с насосом для подъёма топлива, работающим должным образом? |
-|  | **STEP 3G-5.** Проверьте, запускается ли двигатель. | Двигатель запускается? |
-|  | **STEP 3H.** Проверка на утечку внешнего топливного рельса (высокого давления). | Утечка топлива на рельсах? |
-|  | **STEP 3I.** Проверить работу соленоида форсунки. | Инструмент для испытания топливных форсунок показывает зеленый свет? |
-|  | **STEP 3J.** Измерить расход топлива из всех топливных форсунок. | Слив топлива из блока слива топлива больше, чем спецификация? |
-|  | **STEP 3J-1.** Выделить расход топливного форсунка из каждого топливного форсунка. | Слив топлива из топливного форсунка больше, чем спецификация? |
-|  | **STEP 3K.** Используйте инструмент для электронного обслуживания INSITETM для выполнения клика по клику привода топливного насоса. | Привод топливного насоса щелкает, когда ему командуют с диагностическим тестом в электронном сервисном оборудовании INSITETM? |
-|  | **STEP 3L.** Измерить расход топлива из клапана сброса давления топлива. | Сливной поток топлива из клапана сброса давления топлива больше, чем спецификация? |
-| ШАГ 4. | Процедуры устранения неполадок топливной системы. |  |
-|  | **STEP 4A.** Проверка кодов неисправностей. | Активные коды неисправностей топливной системы? |
-|  | **STEP 4B.** Измерить ограничение впуска топлива. | Ограничение впуска топлива выше спецификаций? |
-|  | **STEP 4C** Проверить топливный фильтр 1 стадии на монтаже головных проверочных клапанов для правильной работы. | топливный фильтр, устанавливающий головные контрольные клапаны в хорошем состоянии и свободный от ограничений проход? |
-|  | **STEP 4D.** Используйте инструмент для электронного обслуживания INSITETM для выполнения клика-теста на привод топливного насоса. | Привод топливного насоса щелкает, когда ему командуют с диагностическим тестом в электронном сервисном оборудовании INSITETM? |
-|  | **ШАГ 4Е.** Измерить расход топлива из всех топливных форсунок. | Слив топлива из блока слива топлива больше, чем спецификация? |
-|  | **ШАГ 4Е-1.** Выделить расход топливного форсунка из каждого топливного форсунка. | Слив топлива из топливного форсунка больше, чем спецификация? |
-|  | **STEP 4F.** Выполняйте однократный циклометрический вырезанный тест. | Недостаток или чрезмерный дым, связанный с одним цилиндром? |
-|  | **STEP 4G.** Аудио-проверка работы форсунки. | Мисс слышала что-нибудь от индивидуального форсунка? |
-| ШАГ 5. | Процедуры устранения неполадок при работе с воздухом. |  |
-|  | **STEP 5A.** Проверить лезвия турбокомпрессора на предмет повреждения. | Повреждения, обнаруженные на лопастях турбокомпрессора? |
-|  | **STEP 5B.** Проверьте осевой и радиальный зазоры турбокомпрессора. | Осевые и радиальные зазоры подшипников турбокомпрессора в заданных пределах? |
-|  | **STEP 5C** Проверьте охладитель воздуха. | Зарядите кондиционер без трещин или других повреждений? |
-|  | **STEP 5D.** Проверьте ограничения на впуск воздуха. | Ограничение впуска воздуха более 0,635 м-Н 2 О[25 в-Н 2 О]? |
-| ШАГ 6. | Процедуры устранения неполадок с помощью электронных функций. |  |
-|  | **ШАГ 6А.** Проверить движение педали дроссельной заслонки. | Положение дроссельной заслонки считывает 0 процентов, когда дроссель высвобождается, и 100 процентов, когда дроссель подавлен? |
-|  | **STEP 6B** Проверить точность датчика давления окружающего воздуха. | Считывание инструктивного инструментария INSITETM в пределах 102 мм рт.ст. \[4 in-Hg\] локального барометрического давления? |
-|  | **STEP 6C** Проверить точность датчика давления коллектора впуска. | Давление впускного коллектора составляет менее 102 мм рт.ст. \[4 in-Hg\]? |
-| ШАГ 7. | Процедуры устранения неполадок базового двигателя. |  |
-|  | **STEP 7A.** Проверить, являются ли корректировки накладных расходов правильными. | Накладные настройки в пределах лимитов сброса? |
-|  | **STEP 7B.** Проверить ограничение выхлопных газов. | Давление в задней части выхлопной трубы менее 76 мм рт.ст. \[3 in-Hg\]? |
+| STEP 1. | Perform basic troubleshooting procedures. |  |
+|  | **STEP 1A.** Check for active fault codes or high counts of inactive fault codes. | Active fault codes or high counts of inactive fault codes? |
+|  | **STEP 1B.** Perform basic troubleshooting checks. | All steps verified to be correct? |
+| STEP 2. | Determination of engine symptom. |  |
+|  | **STEP 2A.** Low power, poor acceleration, or poor response. | Engine symptom - Low Power, Poor Acceleration, or Poor Response? |
+|  | **STEP 2B.** Engine misfire, engine speed surge, or engine speed unstable. | Engine symptom - Engine Misfire, Engine Speed Surge, or Engine Speed Unstable? |
+|  | **STEP 2C.** Excessive white or black smoke. | Engine symptom - Excessive White or Black Smoke? |
+|  | **STEP 2D.** Low intake manifold pressure (boost). | Engine symptom - Low Intake Manifold Pressure (boost)? |
+|  | **STEP 2E.** High intake manifold pressure (boost). | Engine symptom - High Intake Manifold Pressure (boost)? |
+|  | **STEP 2F.** Engine will **not** start or difficult to start, engine shuts off unexpectedly. | Engine symptom - Engine Will Not Start or Difficult to Start, Engine Shuts Off Unexpectedly? |
+| STEP 3. | No-start troubleshooting procedures. |  |
+|  | **STEP 3A.** Verify the operation of cold weather starting aids. | Necessary cold weather starting aids operating properly? |
+|  | **STEP 3B.** Check for other fault codes that explain a no-start condition. | Any fault codes that can cause a no-start condition come active during cranking? |
+|  | **STEP 3C.** Check engine speed during cranking. | Engine cranking speed greater than 150 rpm? |
+|  | **STEP 3D.** Check the engine control module (ECM) keyswitch voltage. | Keyswitch voltage equal to battery voltage? |
+|  | **STEP 3E.** Check the ECM battery supply voltage. | ECM battery supply voltage equal to the battery voltage? |
+|  | **STEP 3F.** Check fuel rail pressure to the injectors. | Fuel rail pressure greater than 300 bar \[4351 psi\] while cranking? |
+|  | **STEP 3G.** Check for fuel pressure from the gerotor pump while cranking the engine. | Fuel supply pressure greater than 500 kPa \[73 psi\]? |
+|  | **STEP 3G-1.** Check the inlet fuel restriction. | Restriction higher than the specification? |
+|  | **STEP 3G-2.** Check fuel lift pump pressure. | Fuel pressure 3 bar \[44 psi\] after pump operating for 30 seconds? |
+|  | **STEP 3G-3.** Check if the engine starts. | Engine starts? |
+|  | **STEP 3G-4.** Check for proper operation of the check valve near the fuel lift pump. | Check valve near the fuel lift pump operating properly? |
+|  | **STEP 3G-5.** Check if engine starts. | Engine starts? |
+|  | **STEP 3H.** Check for external fuel rail (high pressure) leakage. | Fuel rail leakage present? |
+|  | **STEP 3I.** Check injector solenoid operation. | Injector tester tool show a green light? |
+|  | **STEP 3J.** Measure the injector drain flow from all injectors. | Drain fuel flow from the fuel drain block greater than the specification? |
+|  | **STEP 3J-1.** Isolate the injector drain flow from each of the injectors. | Drain fuel flow from the injector greater than the specification? |
+|  | **STEP 3K.** Use INSITE™ electronic service tool to perform Fuel Pump Actuator Click Test. | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? |
+|  | **STEP 3L.** Measure the fuel drain flow from the fuel pressure relief valve. | Drain fuel flow from the fuel pressure relief valve greater than the specification? |
+| STEP 4. | Fuel system troubleshooting procedures. |  |
+|  | **STEP 4A.** Check for fault codes. | Fuel system fault codes active? |
+|  | **STEP 4B.** Measure the fuel inlet restriction. | Fuel inlet restriction above specifications? |
+|  | **STEP 4C.** Check stage 1 fuel filter head check valves for proper operation. | Fuel filter head check valves in good condition and the passageway free of restrictions? |
+|  | **STEP 4D.** Use INSITE™ electronic service tool to perform fuel pump actuator click test. | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? |
+|  | **STEP 4E.** Measure the injector drain flow from all injectors. | Drain fuel flow from the fuel drain block greater than the specification? |
+|  | **STEP 4E-1.** Isolate the injector drain flow from each of the injectors. | Drain fuel flow from the injector greater than the specification? |
+|  | **STEP 4F.** Perform Single Cylinder Cut-out Test. | Miss or excessive smoke attributed to a single cylinder? |
+|  | **STEP 4G.** Audio check for injector operation. | Miss heard from any individual injector? |
+| STEP 5. | Air handling troubleshooting procedures. |  |
+|  | **STEP 5A.** Inspect the turbocharger blades for damage. | Damage found on turbocharger blades? |
+|  | **STEP 5B.** Check the turbocharger axial and radial clearances. | Turbocharger axial and radial bearing clearances within specification? |
+|  | **STEP 5C.** Inspect the charge air cooler. | Charge air cooler free of cracks or other damage? |
+|  | **STEP 5D.** Check air intake restrictions. | Air intake restriction greater than 0.635 m-H 2 O \[25 in-H 2 O\]? |
+| STEP 6. | Electronic feature troubleshooting procedures. |  |
+|  | **STEP 6A.** Verify throttle pedal travel. | Throttle position reads 0 percent when the throttle is released and 100 percent when the throttle is depressed? |
+|  | **STEP 6B.** Check ambient air pressure sensor accuracy. | INSITE™ electronic service tool reading within 102 mm-Hg \[4 in-Hg\] of local barometric pressure? |
+|  | **STEP 6C.** Check intake manifold pressure sensor accuracy. | Intake manifold pressure reading less than 102 mm-Hg \[4 in-Hg\]? |
+| STEP 7. | Base engine troubleshooting procedures. |  |
+|  | **STEP 7A.** Verify overhead adjustments are correct. | Overhead settings within the reset limits? |
+|  | **STEP 7B.** Check exhaust restriction. | Exhaust back pressure less than 76 mm-Hg \[3 in-Hg\]? |
 
-### ШАГ 1. Выполняйте основные процедуры устранения неполадок.
+### STEP 1. Perform basic troubleshooting procedures.
 
-#### ШАГ 1A. Проверьте наличие активных кодов неисправностей или большое количество неактивных кодов неисправностей.
+#### STEP 1A. Check for active fault codes or high counts of inactive fault codes.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте наличие активных кодов неисправностей. Используйте инструмент электронного сервиса INSITETM для считывания кодов неисправностей. | Активные коды неисправностей или большое количество неактивных кодов неисправностей? **************************************************************************************************************************************************************************************************************************************************************** | Ремонт завершён. |
-| Активные коды неисправностей или большое количество неактивных кодов неисправностей? ** НЕТ** | 1В |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check for active fault codes. Use INSITE™ electronic service tool to read the fault codes. | Active fault codes or high counts of inactive fault codes? **YESRepair:** Follow the electronic fault code trees for the appropriate troubleshooting procedures. | Repair complete. |
+| Active fault codes or high counts of inactive fault codes? **NO** | 1B |  |
 
-#### ШАГ 1B. Выполняйте основные проверки устранения неполадок.
+#### STEP 1B. Perform basic troubleshooting checks.
 
-| ** Условия: ** Нет. |  |  |
+| **Conditions:** None. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Следующие пункты ** должны быть проверены или проверены перед продолжением: Проверить уровень топлива в баках Проверить не было никаких изменений в списке контрольных частей (CPL) компонентов на двигателе Проверить уровень топлива правильно для применения Проверить двигатель работает в пределах рекомендуемой высоты Проверить моторное масло на правильном уровне Проверить двигательные паразиты не изменились Проверить двигатель рабочий цикл не изменил Проверить скорость вращения двигателя больше 150 об/мин Проверить напряжение батареи в пределах спецификаций. | Все шаги проверены на правильность? *Да** | 2А |
-| Все шаги проверены на правильность? **NORepair:** Исправить неисправность и проверить жалобу больше не присутствует после ремонта. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| The following items **must** be checked or verified before continuing: Verify the fuel level in the tanks Verify there have not been any changes to control parts list (CPL) components on the engine Verify fuel grade is correct for application Verify the engine is operating within the recommended altitude Verify engine oil is at the correct level Verify engine parasitics have not changed Verify engine duty cycle has not changed Verify engine cranking speed is greater than 150 rpm Verify battery voltage is within specifications. | All steps verified to be correct? **YES** | 2A |
+| All steps verified to be correct? **NORepair:** Correct the malfunction and verify complaint is no longer present after repair. | Repair complete. |  |
 
-### ШАГ 2. Определение симптомов двигателя.
+### STEP 2. Determination of engine symptoms.
 
-#### ШАГ 2A. Низкая мощность, плохое ускорение или плохая реакция.
+#### STEP 2A. Low power, poor acceleration, or poor response.
 
-| ** Условия: ** Нет. |  |  |
+| **Conditions:** None. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проведите собеседование с оператором и проверьте жалобу. Интервью с оператором. | Симптом двигателя: низкая мощность, плохое ускорение или плохой ответ? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 4 - Проверка топливной системы Шаг 5 - Проверка управления воздухом Шаг 6 - Проверка электроники Шаг 7 - Проверка базового двигателя. | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта. |
-| Симптом двигателя: низкая мощность, плохое ускорение или плохой ответ? ** НЕТ** | 2В |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Low Power, Poor Acceleration, or Poor Response? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Air Handling Checks Step 6 - Electronics Checks Step 7 - Base Engine Checks. | Perform the troubleshooting steps suggested in the repair procedure. |
+| Engine symptom - Low Power, Poor Acceleration, or Poor Response? **NO** | 2B |  |
 
-#### ШАГ 2B. Ошибка двигателя, скачок скорости двигателя или неустойчивая скорость двигателя.
+#### STEP 2B. Engine misfire, engine speed surge, or engine speed unstable.
 
-| ** Условия: ** Нет. |  |  |
+| **Conditions:** None. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проведите собеседование с оператором и проверьте жалобу. Интервью с оператором. | Симптом двигателя - Ошибка двигателя, скачок скорости двигателя или неустойчивая скорость двигателя? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 4 - Проверка топливной системы Шаг 5 - Проверка управления воздухом Шаг 6 - Проверка электроники Шаг 7 - Проверка ограничения выхлопа. | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта. |
-| Симптом двигателя - Ошибка двигателя, скачок скорости двигателя или неустойчивая скорость двигателя? ** НЕТ** | 2C |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Engine Misfire, Engine Speed Surge, or Engine Speed Unstable? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Air Handling Checks Step 6 - Electronics Checks Step 7 - Exhaust Restriction Check. | Perform the troubleshooting steps suggested in the repair procedure. |
+| Engine symptom - Engine Misfire, Engine Speed Surge, or Engine Speed Unstable? **NO** | 2C |  |
 
-#### ШАГ 2C. Чрезмерный белый или черный дым.
+#### STEP 2C. Excessive white or black smoke.
 
-| ** Условия: ** Нет. |  |  |
+| **Conditions:** None. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проведите собеседование с оператором и проверьте жалобу. Интервью с оператором. | Симптом двигателя: чрезмерный белый или черный дым? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 4 - Проверка топливной системы Шаг 5 - Проверка управления воздухом Шаг 6 - Проверка электронной системы Шаг 7 - Проверка ограничения выхлопа. | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта. |
-| Симптом двигателя: чрезмерный белый или черный дым? ** НЕТ** | 2D |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Excessive White or Black Smoke? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Air Handling Checks Step 6 - Electronic System Checks Step 7 - Exhaust Restriction Check. | Perform the troubleshooting steps suggested in the repair procedure. |
+| Engine symptom - Excessive White or Black Smoke? **NO** | 2D |  |
 
-#### ШАГ 2D. Низкое давление коллектора (буст).
+#### STEP 2D. Low intake manifold pressure (boost).
 
-| ** Условия: ** Нет. |  |  |
+| **Conditions:** None. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проведите собеседование с оператором и проверьте жалобу. Интервью с оператором. | Симптом двигателя - низкое давление коллектора (буст)? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 5 - Проверка управления воздухом Шаг 4 - Проверка топливной системы Шаг 7 - Проверка базового двигателя. | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта. |
-| Симптом двигателя - низкое давление коллектора (буст)? ** НЕТ** | 2Е |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Low Intake Manifold Pressure (boost)? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 5 - Air Handling Checks Step 4 - Fuel System Checks Step 7 - Base Engine Checks. | Perform the troubleshooting steps suggested in the repair procedure. |
+| Engine symptom - Low Intake Manifold Pressure (boost)? **NO** | 2E |  |
 
-#### ШАГ 2E. Высокое давление коллектора (буст).
+#### STEP 2E. High intake manifold pressure (boost).
 
-| ** Условия: ** Нет. |  |  |
+| **Conditions:** None. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проведите собеседование с оператором и проверьте жалобу. Интервью с оператором. | Симптом двигателя - высокое давление коллектора (буст)? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 6 - Электроника проверяет Шаг 7 - Проверка ограничения выхлопа. | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта. |
-| Симптом двигателя - высокое давление коллектора (буст)? ** НЕТ** | 2F |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Interview the operator and verify the complaint. Interview the operator. | Engine symptom - High Intake Manifold Pressure (boost)? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 6 - Electronics Checks Step 7 - Exhaust Restriction Check. | Perform the troubleshooting steps suggested in the repair procedure. |
+| Engine symptom - High Intake Manifold Pressure (boost)? **NO** | 2F |  |
 
-#### ШАГ 2F. Двигатель не заводится или его трудно запустить, двигатель неожиданно отключается.
+#### STEP 2F. Engine will not start or difficult to start, engine shuts off unexpectedly.
 
-| ** Условия: ** Нет. |  |  |
+| **Conditions:** None. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проведите собеседование с оператором и проверьте жалобу. Интервью с оператором. | Симптом двигателя - двигатель не запустится или трудно запустится, двигатель неожиданно отключается? **YESRepair:** Выполните шаги по устранению неполадок в рекомендуемом порядке, указанном ниже: Шаг 3 - Без стартовых проверок Шаг 4 - Проверка топливной системы Шаг 5 - Проверка управления воздухом Шаг 6 - Проверка электроники. | Выполните шаги по устранению неполадок, предложенные в процедуре ремонта. |
-| Симптом двигателя - двигатель не запустится или трудно запустится, двигатель неожиданно отключается? ** НЕТ** | Вернитесь к правильному дереву симптомов. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Engine Will **Not** Start or Difficult to Start, Engine Shuts Off Unexpectedly? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 3 - No Start Checks Step 4 - Fuel System Checks Step 5 - Air Handling Checks Step 6 - Electronics Checks. | Perform the troubleshooting steps suggested in the repair procedure. |
+| Engine symptom - Engine Will **Not** Start or Difficult to Start, Engine Shuts Off Unexpectedly? **NO** | Return to correct symptom tree. |  |
 
-### ШАГ 3. Не начинайте процедуры устранения неполадок.
+### STEP 3. No-start troubleshooting procedures.
 
-#### ШАГ 3A. Проверьте работу стартовых средств холодной погоды.
+#### STEP 3A. Verify the operation of cold weather starting aids.
 
-| **Условия:** Включить переключатель зажигания. |  |  |
+| **Conditions:** Turn keyswitch ON. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте холодную погоду, начиная помощь. См. Operation of Diesel Engines in Cold Climates, Bulletin 3379009. | Необходимые холодные погодные стартовые средства, работающие должным образом? *Да** | 3B |
-| Необходимые холодные погодные стартовые средства, работающие должным образом? **NORepair:** Установите или отремонтируйте стартовые средства для холодной погоды. См. Operation of Diesel Engines in Cold Climates, Bulletin 3379009. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check cold weather starting aids. Refer to the Operation of Diesel Engines in Cold Climates, Bulletin 3379009. | Necessary cold weather starting aids operating properly? **YES** | 3B |
+| Necessary cold weather starting aids operating properly? **NORepair:** Install or repair cold weather starting aids. Refer to the Operation of Diesel Engines in Cold Climates, Bulletin 3379009. | Repair complete. |  |
 
-#### ШАГ 3B. Проверьте другие коды неисправностей, которые объясняют условие отсутствия запуска.
+#### STEP 3B. Check for other fault codes that explain a no-start condition.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Используйте инструмент электронного сервиса INSITETM для считывания информации о коде неисправности. Ищите коды неисправностей, которые активируются во время неудачной попытки запуска и могут быть причиной состояния без запуска. | Любые коды неисправностей, которые могут вызвать состояние без запуска, активируются во время проворачивания? **************************************************************************************************************************************************************************************************************************************************************** | Ремонт завершён. |
-| Любые коды неисправностей, которые могут вызвать состояние без запуска, активируются во время проворачивания? ** НЕТ** | 3C |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Use INSITE™ electronic service tool to read fault code information. Look for fault codes that come active during a failed start attempt and can be the cause of a no-start condition. | Any fault codes that can cause a no-start condition come active during cranking? **YESRepair:** Follow the electronic fault code trees for the appropriate troubleshooting procedures. | Repair complete. |
+| Any fault codes that can cause a no-start condition come active during cranking? **NO** | 3C |  |
 
-#### ШАГ 3C. Проверьте скорость двигателя во время проворачивания.
+#### STEP 3C. Check engine speed during cranking.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Используйте электронный сервисный инструмент INSITETM для мониторинга скорости двигателя и давления на рельсах при проворачивании двигателя. Проверьте скорость двигателя во время проворачивания. Мониторинг давления рельсов топлива во время проворачивания (для запуска двигателя требуется минимальное давление 300 бар \[4351 psi \]). Если после завершения всех подэтапов этапа 3 наблюдается более низкое давление в топливной рельсовой магистрали, переходите к этапу 5 для дальнейших процедур устранения неполадок в топливной системе. | Скорость вращения двигателя более 150 об/мин. *Да** | 3D |
-| Скорость вращения двигателя более 150 об/мин. **NORepair: ** Найдите и исправьте причину низкой скорости проворачивания. Проверьте батареи, пусковой двигатель двигателя и дополнительные нагрузки. Смотрите, как двигатель будет **Не** Кранк или Кранкс медленно устраняет неполадки дерева симптомов. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Use INSITE™ electronic service tool to monitor engine speed and fuel rail pressure while cranking the engine. Check engine speed during cranking. Monitor fuel rail pressure during cranking, (300bar \[4351 psi\] minimum pressure is required to start the engine). If lower fuel rail pressure is observed after completing all sub-steps of Step 3, proceed to Step 5 for further fuel system troubleshooting procedures. | Engine cranking speed greater than 150 rpm? **YES** | 3D |
+| Engine cranking speed greater than 150 rpm? **NORepair:** Find and correct the cause for low cranking speed. Check the batteries, engine starting motor, and accessory loads. See the Engine Will **Not** Crank or Cranks Slowly troubleshooting symptom tree. | Repair complete. |  |
 
-#### ШАГ 3D. Проверьте напряжение переключателя зажигания ECM.
+#### STEP 3D. Check the ECM keyswitch voltage.
 
-| **Условия:** Отсоедините ремень электропроводки двигателя от разъема пин-кодов ECM 50. Включите зажигание. |  |  |
+| **Conditions:** Disconnect the engine wiring harness from the ECM 50 pin connector. Turn keyswitch ON. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерить напряжение сигнала от входного переключателя зажигания SIGNAL провода проводов двигателя на землю блока двигателя. Измерить напряжение переключателя зажигания с помощью переключателя зажигания в положении Включения, а также переключателя зажигания в положении коленчатого включения. См. схему проводов цепи или схему проводов для идентификации контакта с разъемом. | напряжение переключателя зажигания равно напряжению батареи? *Да** | 3E |
-| напряжение переключателя зажигания равно напряжению батареи? **NORepair:** Ремонт или замена оригинального оборудования производителя (OEM) силовой проводов ремня. См. сервисную документацию изготовителя оборудования. Ремонт или замена выключателя зажигания. См. процедуру 019-064 в разделе 19. Проверьте соединения аккумуляторов и предохранители. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 013-009 в разделе 13. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the signal voltage from the keyswitch input SIGNAL wire of the engine wiring harness to the engine block ground. Measure the keyswitch voltage with the keyswitch in the ON position and also with the keyswitch in the cranking position. Refer to the circuit wiring diagram or wiring diagram for connector pin identification. | Keyswitch voltage equal to battery voltage? **YES** | 3E |
+| Keyswitch voltage equal to battery voltage? **NORepair:** Repair or replace the original equipment manufacturer (OEM) power wiring harness. See equipment manufacturer service information. Repair or replace the keyswitch. Refer to Procedure 019-064 in Section 19. Check the battery connections and fuse terminals. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 013-009 in Section 13. | Repair complete. |  |
 
-#### ШАГ 3E. Проверьте напряжение питания батареи ECM.
+#### STEP 3E. Check the ECM battery supply voltage.
 
-| **Условия:** Выключите замок зажигания. Отсоедините электропроводку ECM от электропроводки ECM. |  |  |
+| **Conditions:** Turn keyswitch OFF. Disconnect the ECM power wiring harness from the ECM. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте напряжение от патрубка аккумулятора ECM SUPPLY (-) до патрубка аккумулятора ECM SUPPLY (+) в разъеме электропроводки ECM. Измерить напряжение ECM с выключателем зажигания в положении ON, а также с выключателем зажигания в положении коленчатого. См. схему или схему проводов для идентификации контакта с разъемом. | Напряжение питания батареи ECM равно напряжению батареи? *Да** | 3F |
-| Напряжение питания батареи ECM равно напряжению батареи? **NORepair:** См. информацию об услугах производителя оборудования. Ремонт или замена электропроводки ECM. Проверьте соединения аккумуляторов и предохранители. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 013-009 в разделе 13. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the voltage from the ECM battery SUPPLY (-) pin to the ECM battery SUPPLY (+) pins in the ECM power wiring harness connector. Measure the ECM voltage with the keyswitch in the ON position and also with the keyswitch in the cranking position. Refer to the circuit diagram or wiring diagram for connector pin identification. | ECM battery supply voltage equal to the battery voltage? **YES** | 3F |
+| ECM battery supply voltage equal to the battery voltage? **NORepair:** See equipment manufacturer service information. Repair or replace the ECM power wiring harness. Check the battery connections and fuse terminals. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 013-009 in Section 13. | Repair complete. |  |
 
-#### ШАГ 3F. Проверьте давление рельсов топлива на форсунка.
+#### STEP 3F. Check fuel rail pressure to the injectors.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте давление на выходе топливной рельсы при сворачивании двигателя. Скорость проворачивания должна быть больше 150 об/мин в течение 30 секунд. | Давление на топливных рельсах более 300 бар[4351 psi] при проворачивании? *Да** | 4B |
-| Давление на топливных рельсах более 300 бар[4351 psi] при проворачивании? ** НЕТ** | 3G |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the fuel rail pressure output pressure while cranking the engine. The cranking speed must be greater than 150 rpm for 30 seconds. | Fuel rail pressure greater than 300 bar \[4351 psi\] while cranking? **YES** | 4B |
+| Fuel rail pressure greater than 300 bar \[4351 psi\] while cranking? **NO** | 3G |  |
 
-#### ШАГ 3G. Проверьте давление топлива от героторного насоса при запуске двигателя.
+#### STEP 3G. Check for fuel pressure from the gerotor pump while cranking the engine.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Попробуйте запустить двигатель, задействуя двигатель запуска двигателя в течение не менее 30 секунд. Используйте инструмент электронного обслуживания INSITETM для мониторинга давления топлива. | Давление подачи топлива более 500 кПа[73 psi]? *Да** | 3х |
-| Давление подачи топлива более 500 кПа[73 psi]? ** НЕТ** | 3G-1 |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Attempt to start the engine by engaging the engine starting motor for at least 30 continuous seconds. Use INSITE™ electronic service tool to monitor fuel pressure. | Fuel supply pressure greater than 500 kPa \[73 psi\]? **YES** | 3H |
+| Fuel supply pressure greater than 500 kPa \[73 psi\]? **NO** | 3G-1 |  |
 
-#### ШАГ 3G-1. Проверьте ограничение впускного топлива.
+#### STEP 3G-1. Check the inlet fuel restriction.
 
-| **Условия:** Включить переключатель зажигания. |  |  |
+| **Conditions:** Turn keyswitch ON. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте ограничение топлива и ограничение фильтра стадии 1. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-020 в разделе 6. | Ограничение выше, чем спецификация? *** Если ограничение на вход превышает спецификации, см. информацию об услугах производителя оборудования для определения источника высокого ограничения. Если ограничение фильтра стадии 1 выше, чем спецификации, замените фильтр стадии 1. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-015 в разделе 6. | Ремонт завершён. |
-| Ограничение выше, чем спецификация? ** НЕТ** | 3G-2 |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check the fuel restriction and stage 1 filter restriction. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | Restriction higher than the specification? **YESRepair:** If the inlet restriction is higher than specifications, see equipment manufacturer service information to determine the source of the high restriction. If the stage 1 filter restriction is higher than specifications, replace the stage 1 filter. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-015 in Section 6. | Repair complete. |
+| Restriction higher than the specification? **NO** | 3G-2 |  |
 
-#### ШАГ 3G-2. Проверьте давление насоса топливного лифта.
+#### STEP 3G-2. Check fuel lift pump pressure.
 
-| **Условия:** Включить переключатель зажигания. Прикрепить калибр давления топлива к розетке фильтра топливного фильтра, устанавливающего розетку фильтра первой ступени. |  |  |
+| **Conditions:** Turn keyswitch ON. Attach a fuel pressure gauge to the fuel filter head stage one filter outlet. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте давление на выходе насоса топливного лифта. Включите переключатель зажигания, но двигатель не работает. Слушайте, чтобы работал насос для подъёма топлива. Насос будет работать при включенном переключателе зажигания, а затем выключен. | Давление топлива 3 бар \[44 psi\] после работы насоса в течение 30 секунд? *** Ремонт:** Заменить проверочный клапан с воздушным кровотечением. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-020 в разделе 6. | 3G-3 |
-| Давление топлива 3 бар \[44 psi\] после работы насоса в течение 30 секунд? ** НЕТ** | 3G-4 |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the fuel lift pump output pressure. Turn keyswitch ON, but engine not operating. Listen for the fuel lift pump to operate. The pump will operate at keyswitch ON then shut OFF. | Fuel pressure 3 bar \[44 psi\] after pump operating for 30 seconds? **YESRepair:** Replace the air bleed check valve. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | 3G-3 |
+| Fuel pressure 3 bar \[44 psi\] after pump operating for 30 seconds? **NO** | 3G-4 |  |
 
-#### ШАГ 3G-3. Проверьте, запускается ли двигатель.
+#### STEP 3G-3. Check if engine starts.
 
-| **Условия:** Включить переключатель зажигания. |  |  |
+| **Conditions:** Turn keyswitch ON. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте, запускается ли двигатель. Попробуйте запустить двигатель. | Двигатель запускается? **Ремонт:** Замена проверочного клапана с воздушным кровотечением на предыдущем этапе устранила проблему. | Ремонт завершён. |
-| Двигатель запускается? **NORepair:** Заменить топливный насос. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 005-016 в разделе 5. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check if engine starts. Attempt to start the engine. | Engine starts? **YESRepair:** The replacement of the air bleed check valve in the previous step corrected the problem. | Repair complete. |
+| Engine starts? **NORepair:** Replace the fuel pump. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 005-016 in Section 5. | Repair complete. |  |
 
-#### ШАГ 3G-4. Проверьте правильность работы контрольного клапана вблизи насоса топливного подъемника.
+#### STEP 3G-4. Check for proper operation of the check valve near the fuel lift pump.
 
-| **Условия:** Включить переключатель зажигания. |  |  |
+| **Conditions:** Turn keyswitch ON. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте контрольный клапан для правильной работы. Включите переключатель зажигания, но двигатель не работает. | Проверьте клапан рядом с насосом для подъёма топлива, работающим правильно? *** Ремонт:** Заменить проверочный клапан с воздушным кровотечением. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-020 в разделе 6. | 3G-5 |
-| Проверьте клапан рядом с насосом для подъёма топлива, работающим правильно? **NORepair:** Заменить клапан проверки воздуха рядом с насосом для подъёма топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-008 в разделе 6. | Ремонт завершён |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Inspect the check valve for proper operation. Turn keyswitch ON, but engine not operating. | Check valve near the fuel lift pump operating correctly? **YESRepair:** Replace the air bleed check valve. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | 3G-5 |
+| Check valve near the fuel lift pump operating correctly? **NORepair:** Replace the air check valve near the fuel lift pump. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-008 in Section 6. | Repair complete |  |
 
-#### ШАГ 3G-5. Проверьте, запускается ли двигатель.
+#### STEP 3G-5. Check if engine starts.
 
-| **Условия:** Включить переключатель зажигания. |  |  |
+| **Conditions:** Turn keyswitch ON. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте, запускается ли двигатель. Попробуйте запустить двигатель. | Двигатель запускается? **Ремонт:** Замена проверочного клапана с воздушным кровотечением на предыдущем этапе устранила проблему. | Ремонт завершён. |
-| Двигатель запускается? **NORepair:** Заменить насос для подъёма топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 005-045 в разделе 6. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check if engine starts. Attempt to start the engine. | Engine starts? **YESRepair:** The replacement of the air bleed check valve in the previous step corrected the problem. | Repair complete. |
+| Engine starts? **NORepair:** Replace the fuel lift pump. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 005-045 in Section 6. | Repair complete. |  |
 
-#### ШАГ 3H. Проверьте наличие внешних утечек топливной рельсы (высокого давления).
+#### STEP 3H. Check for external fuel rail (high-pressure) leaks.
 
-| ** Условия: ** Запуск двигателя для повышения давления топлива. |  |  |
+| **Conditions:** Crank the engine to develop fuel pressure. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте топливный рельс на наличие утечек. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-051 в разделе 6. | Утечка топлива на рельсах? *** Ремонт: ** Заменить любые компоненты, связанные с утечкой. | Ремонт завершён. |
-| Утечка топлива на рельсах? ** НЕТ** | 3II |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Inspect the fuel rail for leaks. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-051 in Section 6. | Fuel rail leakage present? **YESRepair:** Replace any components associated with the leak. | Repair complete. |
+| Fuel rail leakage present? **NO** | 3I |  |
 
-#### ШАГ 3I. Проверьте работу форсунки соленоида.
+#### STEP 3I. Check injector solenoid operation.
 
-| **Условия:** Включить переключатель зажигания. Прикрепить тестер форсунки, номер детали 2892293, к топливному форсунке. |  |  |
+| **Conditions:** Turn keyswitch ON. Attach the injector tester, Part Number 2892293, to an injector. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Испытание всей форсунки с использованием инструмента испытания форсунки. Включите переключатель зажигания и прикрепите инструмент для испытания форсунки к 2-контактному разъему форсунки. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Инструмент для испытания топливных форсунок показывает зеленый свет? *Да** | 3J |
-| Инструмент для испытания топливных форсунок показывает зеленый свет? **NORepair:** Заменить неисправный форсунка. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Test all injectors using the injector tester tool. Turn the keyswitch ON, and attach the injector tester tool to the 2 pin injector connector. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Injector tester tool show a green light? **YES** | 3J |
+| Injector tester tool show a green light? **NORepair:** Replace the malfunctioning injector. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |  |
 
-#### ШАГ 3J. Измерьте расход топлива из всех топливных форсунок.
+#### STEP 3J. Measure the injector drain flow from all injectors.
 
-| ** Условия: ** Кран-двигатель не менее 150 об/мин. Отключите весь форсунка. Подключите соответствующие сервисные инструменты для измерения расхода топливного форсунка на блоке слива топлива. |  |  |
+| **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure injector drain flow at the fuel drain block. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте поток обратного расхода топлива форсунки на блоке слива топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Слив топлива из блока слива топлива больше, чем спецификация? *Да** | 3J-1-1 |
-| Слив топлива из блока слива топлива больше, чем спецификация? ** НЕТ** | 3K |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the injector return fuel drain flow at the fuel drain block. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Drain fuel flow from the fuel drain block greater than the specification? **YES** | 3J-1 |
+| Drain fuel flow from the fuel drain block greater than the specification? **NO** | 3K |  |
 
-#### ШАГ 3J-1. Изолируйте поток слива топливного форсунка от каждого из топливных форсунок.
+#### STEP 3J-1. Isolate the injector drain flow from each of the injectors.
 
-| ** Условия: ** Кран-двигатель не менее 150 об/мин. Отключите весь форсунка. Подключите соответствующие сервисные инструменты для измерения расхода топливного форсунка на каждой головке цилиндра. |  |  |
+| **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure injector drain flow at each cylinder head. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте поток обратного расхода топлива форсунки на блоке слива топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Слив топлива из топливного форсунка больше, чем спецификация? *** Заменить неисправный форсунка. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Ремонт завершён. |
-| Слив топлива из топливного форсунка больше, чем спецификация? ** НЕТ** | 3K |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the injector return fuel drain flow at the fuel drain block. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Drain fuel flow from the injector greater than the specification? **YESRepair:** Replace any malfunctioning injectors. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |
+| Drain fuel flow from the injector greater than the specification? **NO** | 3K |  |
 
-#### ШАГ 3K. Используйте инструмент электронного обслуживания INSITETM для выполнения теста нажатия на привод топливного насоса.
+#### STEP 3K. Use INSITE™ electronic service tool to perform the Fuel Pump Actuator Click Test.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Выполните тест на клик привода топливного насоса. Используйте инструмент электронного обслуживания INSITETM для выполнения теста нажатия на привод топливного насоса. | Привод топливного насоса щелкает, когда ему командуют с диагностическим тестом в электронном сервисном оборудовании INSITETM? *Да** | 3L |
-| Привод топливного насоса щелкает, когда ему командуют с диагностическим тестом в электронном сервисном оборудовании INSITETM? **NORepair:** Заменить привод топливного насоса. См. процедуру 019-117 в разделе 19. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Perform the Fuel Pump Actuator Click Test. Use INSITE™ electronic service tool to perform the Fuel Pump Actuator Click Test. | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? **YES** | 3L |
+| Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? **NORepair:** Replace the fuel pump actuator. Refer to Procedure 019-117 in Section 19. | Repair complete. |  |
 
-#### ШАГ 3L. Измерить расход топлива от клапана сброса давления топлива.
+#### STEP 3L. Measure the fuel drain flow from the fuel pressure relief valve.
 
-| ** Условия: ** Кран-двигатель не менее 150 об/мин. Отключите весь форсунка. Подключите соответствующие сервисные инструменты для измерения расхода топлива из клапана сброса давления топлива. |  |  |
+| **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure fuel drain flow from the fuel pressure relief valve. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте поток обратного расхода топлива форсунки на блоке слива топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-061 в разделе 6. | Сливной поток топлива из клапана сброса давления топлива больше, чем спецификация? *** Ремонт:** Заменить клапан сброса давления топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-061 в разделе 6. | Ремонт завершён. |
-| Сливной поток топлива из клапана сброса давления топлива больше, чем спецификация? **NORepair:** Заменить топливный насос. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 005-016 в разделе 5. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the injector return fuel drain flow at the fuel drain block. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-061 in Section 6. | Drain fuel flow from the fuel pressure relief valve greater than the specification? **YESRepair:** Replace the fuel pressure relief valve. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-061 in Section 6. | Repair complete. |
+| Drain fuel flow from the fuel pressure relief valve greater than the specification? **NORepair:** Replace the fuel pump. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 005-016 in Section 5. | Repair complete. |  |
 
-### ШАГ 4. Процедуры устранения неполадок топливной системы.
+### STEP 4. Fuel system troubleshooting procedures.
 
-#### ШАГ 4A. Проверьте коды неисправностей.
+#### STEP 4A. Check for fault codes.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Используйте инструмент электронного сервиса INSITETM для считывания информации о коде неисправности. Определить, имеются ли коды неисправностей активной топливной системы, связанные с жалобой. | Активные коды неисправностей топливной системы? **************************************************************************************************************************************************************************************************************************************************************** | Ремонт завершён. |
-| Активные коды неисправностей топливной системы? ** НЕТ** | 4B |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Use INSITE™ electronic service tool to read the fault code information. Determine if there are active fuel system fault codes related to the complaint. | Fuel system fault codes active? **YESRepair:** Follow the electronic fault code trees for the appropriate troubleshooting procedures. | Repair complete. |
+| Fuel system fault codes active? **NO** | 4B |  |
 
-#### ШАГ 4B. Измерить ограничение впуска топлива.
+#### STEP 4B. Measure the fuel inlet restriction.
 
-| ** Условия:** Проверить наличие ограничения на впуск топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-020 в разделе 6. |  |  |
+| **Conditions:** Check for fuel inlet restriction. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерить ограничение впуска топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-020 в разделе 6. | Ограничение впуска топлива выше спецификации? **Ремонт: ** Найдите и исправьте причину высокого ограничения входа. Ищите заглушенные топливные фильтры OEM или экраны, клапан обхода обводного насоса с ограниченным подъемом, защемленные топливные линии OEM или трубу с ограниченным подставкой в топливном баке OEM. | Ремонт завершён. |
-| Ограничение впуска топлива выше спецификации? ** НЕТ** | 4C |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the fuel inlet restriction. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | Fuel inlet restriction above specification? **YESRepair:** Find and correct the cause of the high inlet restriction. Look for plugged OEM fuel filters, or screens, a restricted lift pump bypass check valve, pinched OEM fuel lines or a restricted stand pipe in the OEM fuel tank. | Repair complete. |
+| Fuel inlet restriction above specification? **NO** | 4C |  |
 
-#### ШАГ 4C. Проверьте этап 1 топливного фильтра, устанавливающего головные контрольные клапаны для правильной работы.
+#### STEP 4C. Check stage 1 fuel filter head check valves for proper operation.
 
-| ** Условия: ** Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-008 в разделе 6. |  |  |
+| **Conditions:** Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-008 in Section 6. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте топливный фильтр, устанавливающий головные контрольные клапаны для правильной работы. Проверочный клапан предотвращает обратный поток топлива через фильтр первой ступени во время заточки и работы при правильной установке. Застрявший контрольный клапан не позволит потоку топлива от подъемного насоса запускать двигатель. | топливный фильтр, устанавливающий головные контрольные клапаны в хорошем состоянии и свободный от ограничений проход? *Да** | 4D |
-| топливный фильтр, устанавливающий головные контрольные клапаны в хорошем состоянии и свободный от ограничений проход? **NORepair:** Заменить контрольный клапан топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-008 в разделе 6. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check fuel filter head check valves for proper operation. The check valve prevents back-flow of fuel through the first stage filter during priming and operation when installed properly. A stuck check valve will not allow fuel flow from the lift pump to prime the engine. | Fuel filter head check valves in good condition and the passageway free of restrictions? **YES** | 4D |
+| Fuel filter head check valves in good condition and the passageway free of restrictions? **NORepair:** Replace the fuel check valve. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-008 in Section 6. | Repair complete. |  |
 
-#### ШАГ 4D. Используйте инструмент электронного обслуживания INSITETM для выполнения теста на щелчок кнопок привода топливного насоса.
+#### STEP 4D. Use INSITE™ electronic service tool to perform the fuel pump actuator click test.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Выполните тест на клик привода топливного насоса. Используйте инструмент электронного обслуживания INSITETM для выполнения теста на щелчок кнопок привода топливного насоса. | Привод топливного насоса щелкает, когда ему командуют с диагностическим тестом в электронном сервисном оборудовании INSITETM? *Да** | 4Е |
-| Привод топливного насоса щелкает, когда ему командуют с диагностическим тестом в электронном сервисном оборудовании INSITETM? **NORepair:** Заменить привод топливного насоса. См. процедуру 019-117 в разделе 19. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Perform the fuel pump actuator click test. Use INSITE™ electronic service tool to perform the fuel pump actuator click test. | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? **YES** | 4E |
+| Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? **NORepair:** Replace the fuel pump actuator. Refer to Procedure 019-117 in Section 19. | Repair complete. |  |
 
-#### ШАГ 4E. Измерьте расход топлива из всех топливных форсунок.
+#### STEP 4E. Measure the injector drain flow from all injectors.
 
-| ** Условия: ** Кран-двигатель не менее 150 об/мин. Отключите весь форсунка. Подключите соответствующие сервисные инструменты для измерения расхода топливного форсунка на блоке слива топлива. |  |  |
+| **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure injector drain flow at the fuel drain block. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте поток обратного расхода топлива форсунки на блоке слива топлива. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Слив топлива из блока слива топлива больше, чем спецификация? *Да** | 4Е-1 |
-| Слив топлива из блока слива топлива больше, чем спецификация? ** НЕТ** | 4G |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the injector return fuel drain flow at the fuel drain block. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Drain fuel flow from the fuel drain block greater than the specification? **YES** | 4E-1 |
+| Drain fuel flow from the fuel drain block greater than the specification? **NO** | 4G |  |
 
-#### ШАГ 4E-1. Изолируйте поток слива топливного форсунка от каждого из топливных форсунок.
+#### STEP 4E-1. Isolate the injector drain flow from each of the injectors.
 
-| ** Условия: ** Кран-двигатель не менее 150 об/мин. Отключите весь форсунка. Подключите соответствующие сервисные инструменты для измерения расхода топливного форсунка на каждой головке цилиндра. |  |  |
+| **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure injector drain flow at each cylinder head. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте поток обратного слива топлива форсунки в головке цилиндра. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Слив топлива из топливного форсунка больше, чем спецификация? *** Заменить неисправный форсунка. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Ремонт завершён. |
-| Слив топлива из топливного форсунка больше, чем спецификация? ** НЕТ** | 4G |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the injector return fuel drain flow at the cylinder head. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Drain fuel flow from the injector greater than the specification? **YESRepair:** Replace any malfunctioning injectors. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |
+| Drain fuel flow from the injector greater than the specification? **NO** | 4G |  |
 
-#### ШАГ 4F. Выполните одноцилиндровое вырезание теста.
+#### STEP 4F. Perform single cylinder cut-out test.
 
-| **Условия:** Включить переключатель зажигания. Работайте с двигателем на низком холостом ходу. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Operate engine at low idle. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Выполните однократный циклиндровый вырезанный тест. Работайте с двигателем при нагрузке. Используйте инструмент электронного обслуживания INSITETM для выполнения испытания на вырезание цилиндра для отключения индивидуального форсунки. | Недостаток или чрезмерный дым, связанный с одним цилиндром? **Ремонт: ** Ищите причину жалобы, включая удары клапана и чрезмерное давление в картере, которые могут указывать на повреждение цилиндра или износ доли распределительного вала. Если не обнаружено других повреждений, замените форсунка в цилиндре, который был идентифицирован с помощью испытания на вырез одного цилиндра. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Ремонт завершён. |
-| Недостаток или чрезмерный дым, связанный с одним цилиндром? ** НЕТ** | 4G |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Perform Single Cylinder Cut-out Test. Operate the engine at load. Use INSITE™ electronic service tool to perform the Cylinder Cut-out Test to disable individual injectors. | Miss or excessive smoke attributed to a single cylinder? **YESRepair:** Look for a cause of the complaint, including valve lash and excessive crankcase pressure, that can indicate power cylinder damage or camshaft lobe wear. If no other damage is found, replace the injector in the cylinder that was identified using the single cylinder cut-out test. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |
+| Miss or excessive smoke attributed to a single cylinder? **NO** | 4G |  |
 
-#### ШАГ 4G. Аудио проверка работы форсунки.
+#### STEP 4G. Audio check for injector operation.
 
-| **Условия:** Включить переключатель зажигания. Работайте с двигателем на холостом ходу. |  |  |
+| **Conditions:** Turn keyswitch ON. Operate engine at idle. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Выполните аудио-проверку на каждом топливном форсунке, чтобы проверить правильность работы. При работе двигателя на холостом ходу используйте стетоскоп механика (Snap-OnTM, Part Number GA111D или аналогичный), чтобы определить любую индивидуальную ненадлежащую работу форсунки. | Можно ли услышать промах от любого отдельного топливного форсунка? *** Заменить неисправный форсунка. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 006-026 в разделе 6. | Ремонт завершён. |
-| Можно ли услышать промах от любого отдельного топливного форсунка? ** НЕТ** | 2А |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Perform an audio check on each injector to verify proper operation. With the engine running at idle, use a mechanic's stethoscope (Snap-On™, Part Number GA111D, or similar) to identify any individual injector improper operation. | Can a miss be heard from any individual injector? **YESRepair:** Replace any malfunctioning injectors. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |
+| Can a miss be heard from any individual injector? **NO** | 2A |  |
 
-### ШАГ 5. Процедуры устранения неполадок при работе с воздухом.
+### STEP 5. Air handling troubleshooting procedures.
 
-#### ШАГ 5A. Осмотрите лопасти турбокомпрессора на предмет повреждений.
+#### STEP 5A. Inspect the turbocharger blades for damage.
 
-| **Условия:** Выключите замок зажигания. Удалите впускные и выхлопные трубы из турбокомпрессора. |  |  |
+| **Conditions:** Turn keyswitch OFF. Remove the intake and exhaust pipes from the turbocharger. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Осмотрите лопасти компрессора и турбины на предмет повреждения или износа. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 010-033 в разделе 10. | Повреждения, обнаруженные на лопастях турбокомпрессора? *** Ремонт:** Заменить сборку турбокомпрессора. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-010-033-tr — Turbocharger\|См. процедуру 010-033 в разделе 10.]] | Ремонт завершён. |
-| Повреждения, обнаруженные на лопастях турбокомпрессора? ** НЕТ** | 5В |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Inspect the compressor and turbine blades for damage or wear. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 010-033 in Section 10. | Damage found on turbocharger blades? **YESRepair:** Replace the turbocharger assembly. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete. |
+| Damage found on turbocharger blades? **NO** | 5B |  |
 
-#### ШАГ 5B. Проверьте осевой и радиальный зазоры турбокомпрессора.
+#### STEP 5B. Check the turbocharger axial and radial clearances.
 
-| **Условия:** Выключите замок зажигания. |  |  |
+| **Conditions:** Turn keyswitch OFF. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте турбокомпрессор на правильный осевой и радиальный зазор. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру s 010-033 в разделе 10. | Осевые и радиальные зазоры подшипников турбокомпрессора в заданных пределах? *Да** | 5С |
-| Осевые и радиальные зазоры подшипников турбокомпрессора в заданных пределах? **NORepair:** Заменить сборку турбокомпрессора. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-010-033-tr — Turbocharger\|См. процедуру 010-033 в разделе 10.]] | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check the turbocharger for correct axial and radial clearance. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure s 010-033 in Section 10. | Turbocharger axial and radial bearing clearances within specification? **YES** | 5C |
+| Turbocharger axial and radial bearing clearances within specification? **NORepair:** Replace the turbocharger assembly. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete. |  |
 
-#### ШАГ 5C. Проверьте охладитель воздуха.
+#### STEP 5C. Inspect the charge air cooler.
 
-| **Условия:** Выключите замок зажигания. |  |  |
+| **Conditions:** Turn keyswitch OFF. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте охладитель воздуха. Проверьте охладитель воздуха заряда на предмет повреждения. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 010-027 в разделе 10. | Зарядите кондиционер без трещин или других повреждений? *Да** | 5D |
-| Зарядите кондиционер без трещин или других повреждений? **NORepair: ** Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-010-027 — Charge-Air Cooler\|См. процедуру 010-027 в разделе 10.]] | Ремонт завершён |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Inspect the charge air cooler. Inspect the charge air cooler for damage. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 010-027 in Section 10. | Charge air cooler free of cracks or other damage? **YES** | 5D |
+| Charge air cooler free of cracks or other damage? **NORepair:** Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-010-027 — Charge-Air Cooler\|Refer to Procedure 010-027 in Section 10.]] | Repair complete |  |
 
-#### ШАГ 5D. Проверьте ограничение на впуск воздуха.
+#### STEP 5D. Check air intake restriction.
 
-| **Условия:** Выключите замок зажигания. Установите вакуумный калибр или водный манометр в трубопроводах воздухозаборника. |  |  |
+| **Conditions:** Turn keyswitch OFF. Install a vacuum gauge or water manometer in the air intake piping. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте ограничение системы воздухозаборника. Установите вакуумный калибр в систему воздухозаборника. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 010-031 в разделе 10. | Ограничение впуска воздуха более 0,635 м-Н 2 О[25 в-Н 2 О]? *Да** | Ремонт завершён. |
-| Ограничение впуска воздуха более 0,635 м-Н 2 О[25 в-Н 2 О]? ** НЕТ** | 2А |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check air intake system restriction. Install a vacuum gauge into the air intake system. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 010-031 in Section 10. | Air intake restriction greater than 0.635 m-H 2 O \[25 in-H 2 O\]? **YES** | Repair complete. |
+| Air intake restriction greater than 0.635 m-H 2 O \[25 in-H 2 O\]? **NO** | 2A |  |
 
-### ШАГ 6. Процедуры устранения неполадок с помощью электронных функций.
+### STEP 6. Electronic feature troubleshooting procedures.
 
-#### ШАГ 6A. Проверьте движение педалей дроссельной заслонки.
+#### STEP 6A. Verify throttle pedal travel.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте движение педалей дроссельной заслонки. Используйте инструмент электронного обслуживания INSITETM для мониторинга положения дроссельной заслонки при полном подавлении и освобождении педали дроссельной заслонки. | Положение дроссельной заслонки считывает 0 процентов, когда дроссель высвобождается, и 100 процентов, когда дроссель подавлен? *Да** | 6B |
-| Положение дроссельной заслонки считывает 0 процентов, когда дроссель высвобождается, и 100 процентов, когда дроссель подавлен? **NORepair:** Определить и исправить причину ограничения педали дроссельной заслонки. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Verify throttle pedal travel. Use INSITE™ electronic service tool to monitor throttle position while fully depressing and releasing the throttle pedal. | Throttle position reads 0 percent when the throttle is released and 100 percent when the throttle is depressed? **YES** | 6B |
+| Throttle position reads 0 percent when the throttle is released and 100 percent when the throttle is depressed? **NORepair:** Determine and correct the cause of the throttle pedal restriction. | Repair complete. |  |
 
-#### ШАГ 6B. Проверьте точность датчика давления окружающего воздуха.
+#### STEP 6B. Check ambient air pressure sensor accuracy.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Используйте инструмент электронного обслуживания INSITETM для мониторинга барометрического давления воздуха. Сравните показания барометрического давления с локальным барометрическим давлением. | Считывание инструктивного инструментария INSITETM в пределах 102 мм рт.ст. \[4 in-Hg\] локального барометрического давления? *Да** | 6C |
-| Считывание инструктивного инструментария INSITETM в пределах 102 мм рт.ст. \[4 in-Hg\] локального барометрического давления? **NORepair:** Заменить барометрический датчик давления. См. процедуру 019-004 в разделе 19. | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Use INSITE™ electronic service tool to monitor the barometric air pressure. Compare INSITE™ electronic service tool barometric pressure readings with the local barometric pressure. | INSITE™ electronic service tool reading within 102 mm-Hg \[4 in-Hg\] of local barometric pressure? **YES** | 6C |
+| INSITE™ electronic service tool reading within 102 mm-Hg \[4 in-Hg\] of local barometric pressure? **NORepair:** Replace the barometric pressure sensor. Refer to Procedure 019-004 in Section 19. | Repair complete. |  |
 
-#### ШАГ 6C. Проверьте точность датчика давления впускного коллектора.
+#### STEP 6C. Check intake manifold pressure sensor accuracy.
 
-| **Условия:** Включить переключатель зажигания. Подключите инструмент электронного сервиса INSITETM. |  |  |
+| **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте точность датчика давления впускного коллектора. Используйте инструмент электронного обслуживания INSITETM для мониторинга значения давления впускного коллектора без работы двигателя. | Давление впускного коллектора составляет менее 102 мм рт.ст. \[4 in-Hg\]? *Да** | 7А |
-| Давление впускного коллектора составляет менее 102 мм рт.ст. \[4 in-Hg\]? **NORepair:** Заменить датчик давления коллектора впуска. См. процедуру 019-061 в разделе 19. | Ремонт завершён |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check intake manifold pressure sensor accuracy. Use INSITE™ electronic service tool to monitor the value of intake manifold pressure without the engine operating. | Intake manifold pressure reading less than 102 mm-Hg \[4 in-Hg\]? **YES** | 7A |
+| Intake manifold pressure reading less than 102 mm-Hg \[4 in-Hg\]? **NORepair:** Replace the intake manifold pressure sensor. Refer to Procedure 019-061 in Section 19. | Repair complete |  |
 
-### ШАГ 7. Процедуры устранения неполадок базового двигателя.
+### STEP 7. Base engine troubleshooting procedures.
 
-#### ШАГ 7A. Проверить, что корректировки накладных расходов являются правильными.
+#### STEP 7A. Verify overhead adjustments are correct.
 
-| **Условия:** Выключите замок зажигания. Снимите крышку коромысел. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 003-011 в разделе 3. |  |  |
+| **Conditions:** Turn keyswitch OFF. Remove the rocker lever cover. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 003-011 in Section 3. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Измерьте накладные расходы. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 003-006 в разделе 3. | Накладные настройки в пределах лимитов сброса? *Да** | 7B |
-| ** Настройки в пределах лимитов сброса. **NORepair:** Отрегулируйте настройки накладных расходов. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-003-006-tr — Overhead Set (OBC)\|См. процедуру 003-006 в разделе 3.]] | Ремонт завершён. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Measure the overhead setting. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 003-006 in Section 3. | Overhead settings within the reset limits? **YES** | 7B |
+| **Overhead** settings within the reset limits? **NORepair:** Adjust the overhead settings. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-003-006-tr — Overhead Set (OBC)\|Refer to Procedure 003-006 in Section 3.]] | Repair complete. |  |
 
-#### ШАГ 7B. Проверьте ограничение выхлопа.
+#### STEP 7B. Check exhaust restriction.
 
-| ** Условия: ** Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, Бюллетень [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. См. процедуру 011-009 в разделе 11. |  |  |
+| **Conditions:** Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 011-009 in Section 11. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверьте обратное давление выхлопной системы. Используйте следующую процедуру в руководстве по обслуживанию QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS, в бюллетене [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-011-009 — Exhaust Restriction\|См. процедуру 011-009 в разделе 11.]] | Давление в задней части выхлопной трубы менее 76 мм рт.ст. \[3 in-Hg\]? *Да** | 2А |
-| Давление в задней части выхлопной трубы менее 76 мм рт.ст. \[3 in-Hg\]? **NORepair:** Проверить выхлопную систему на предмет наличия источника высокого ограничения. | Ремонт завершён. |  |
-
-
-> [!quote]- Original (English) · английский оригинал
-> Printable Version
->
-> ### Symptoms
->
-> - Engine Acceleration or Response Poor
->
-> - Cranking Fuel Pressure Low
->
-> - Engine Operating Fuel Pressure Low
->
-> - Engine Decelerates Slowly
->
-> - Engine Difficult to Start or Will Not Start (Exhaust Smoke)
->
-> - Engine Difficult to Start or Will Not Start (No Exhaust Smoke)
->
-> - Engine Power Output Low
->
-> - Engine Runs Rough at Idle
->
-> - Engine Runs Rough or Misfires
->
-> - Engine Speed Surges at Low or High Idle
->
-> - Engine Speed Surges Under Load or in Operating Range
->
-> - Smoke, Black - Excessive
->
-> - Smoke, White - Excessive
->
-> - Engine Shuts Off or Dies Unexpectedly or Dies During Deceleration
->
-> - Engine Starts But Will Not Keep Running
->
-> - Engine Will Not Reach Rated Speed (RPM)
->
-> - Intake Manifold Pressure (Boost) Below Normal
->
-> - Intake Manifold Pressure (Boost) Above Normal
->
-> ### How To Use This Tree
->
-> This symptom tree can be used to troubleshoot all the performance-based symptoms listed above. Start by performing Step 1 troubleshooting. Step 2 will ask a series of questions and will provide a list of troubleshooting steps to perform, depending on the symptom. Perform the list of troubleshooting in the sequence shown in the Specifications/Repair section of the tree.
->
-> ### Shoptalk
->
-> Driveability is a term that in general describes vehicle performance on the road. Driveability problems for an engine can be caused by several different factors. Some of the factors are engine-related and some are **not**. Before troubleshooting, it is important to determine the exact complaint and whether the engine has a real driveability problem, or if it simply does **not** meet driver expectations.
->
-> Low power is a term that is used in the field to describe many different performance problems. Low power is defined as the inability of the engine to produce the power necessary to move the vehicle at a speed that can be reasonably expected under the given conditions of load, grade, wind, and so on.
->
-> Poor acceleration or response is described as the inability of the vehicle to accelerate satisfactorily from a stop or from the bottom of a grade. It can also be the lag in acceleration during an attempt to pass or overtake another vehicle at conditions less than rated speed and load. Poor acceleration or response is difficult to troubleshoot, since it can be caused by several factors.
->
-> ## Troubleshooting Summary
->
-> | STEPS | SPECIFICATIONS |  |
-> |---|---|---|
-> | STEP 1. | Perform basic troubleshooting procedures. |  |
-> |  | **STEP 1A.** Check for active fault codes or high counts of inactive fault codes. | Active fault codes or high counts of inactive fault codes? |
-> |  | **STEP 1B.** Perform basic troubleshooting checks. | All steps verified to be correct? |
-> | STEP 2. | Determination of engine symptom. |  |
-> |  | **STEP 2A.** Low power, poor acceleration, or poor response. | Engine symptom - Low Power, Poor Acceleration, or Poor Response? |
-> |  | **STEP 2B.** Engine misfire, engine speed surge, or engine speed unstable. | Engine symptom - Engine Misfire, Engine Speed Surge, or Engine Speed Unstable? |
-> |  | **STEP 2C.** Excessive white or black smoke. | Engine symptom - Excessive White or Black Smoke? |
-> |  | **STEP 2D.** Low intake manifold pressure (boost). | Engine symptom - Low Intake Manifold Pressure (boost)? |
-> |  | **STEP 2E.** High intake manifold pressure (boost). | Engine symptom - High Intake Manifold Pressure (boost)? |
-> |  | **STEP 2F.** Engine will **not** start or difficult to start, engine shuts off unexpectedly. | Engine symptom - Engine Will Not Start or Difficult to Start, Engine Shuts Off Unexpectedly? |
-> | STEP 3. | No-start troubleshooting procedures. |  |
-> |  | **STEP 3A.** Verify the operation of cold weather starting aids. | Necessary cold weather starting aids operating properly? |
-> |  | **STEP 3B.** Check for other fault codes that explain a no-start condition. | Any fault codes that can cause a no-start condition come active during cranking? |
-> |  | **STEP 3C.** Check engine speed during cranking. | Engine cranking speed greater than 150 rpm? |
-> |  | **STEP 3D.** Check the engine control module (ECM) keyswitch voltage. | Keyswitch voltage equal to battery voltage? |
-> |  | **STEP 3E.** Check the ECM battery supply voltage. | ECM battery supply voltage equal to the battery voltage? |
-> |  | **STEP 3F.** Check fuel rail pressure to the injectors. | Fuel rail pressure greater than 300 bar \[4351 psi\] while cranking? |
-> |  | **STEP 3G.** Check for fuel pressure from the gerotor pump while cranking the engine. | Fuel supply pressure greater than 500 kPa \[73 psi\]? |
-> |  | **STEP 3G-1.** Check the inlet fuel restriction. | Restriction higher than the specification? |
-> |  | **STEP 3G-2.** Check fuel lift pump pressure. | Fuel pressure 3 bar \[44 psi\] after pump operating for 30 seconds? |
-> |  | **STEP 3G-3.** Check if the engine starts. | Engine starts? |
-> |  | **STEP 3G-4.** Check for proper operation of the check valve near the fuel lift pump. | Check valve near the fuel lift pump operating properly? |
-> |  | **STEP 3G-5.** Check if engine starts. | Engine starts? |
-> |  | **STEP 3H.** Check for external fuel rail (high pressure) leakage. | Fuel rail leakage present? |
-> |  | **STEP 3I.** Check injector solenoid operation. | Injector tester tool show a green light? |
-> |  | **STEP 3J.** Measure the injector drain flow from all injectors. | Drain fuel flow from the fuel drain block greater than the specification? |
-> |  | **STEP 3J-1.** Isolate the injector drain flow from each of the injectors. | Drain fuel flow from the injector greater than the specification? |
-> |  | **STEP 3K.** Use INSITE™ electronic service tool to perform Fuel Pump Actuator Click Test. | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? |
-> |  | **STEP 3L.** Measure the fuel drain flow from the fuel pressure relief valve. | Drain fuel flow from the fuel pressure relief valve greater than the specification? |
-> | STEP 4. | Fuel system troubleshooting procedures. |  |
-> |  | **STEP 4A.** Check for fault codes. | Fuel system fault codes active? |
-> |  | **STEP 4B.** Measure the fuel inlet restriction. | Fuel inlet restriction above specifications? |
-> |  | **STEP 4C.** Check stage 1 fuel filter head check valves for proper operation. | Fuel filter head check valves in good condition and the passageway free of restrictions? |
-> |  | **STEP 4D.** Use INSITE™ electronic service tool to perform fuel pump actuator click test. | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? |
-> |  | **STEP 4E.** Measure the injector drain flow from all injectors. | Drain fuel flow from the fuel drain block greater than the specification? |
-> |  | **STEP 4E-1.** Isolate the injector drain flow from each of the injectors. | Drain fuel flow from the injector greater than the specification? |
-> |  | **STEP 4F.** Perform Single Cylinder Cut-out Test. | Miss or excessive smoke attributed to a single cylinder? |
-> |  | **STEP 4G.** Audio check for injector operation. | Miss heard from any individual injector? |
-> | STEP 5. | Air handling troubleshooting procedures. |  |
-> |  | **STEP 5A.** Inspect the turbocharger blades for damage. | Damage found on turbocharger blades? |
-> |  | **STEP 5B.** Check the turbocharger axial and radial clearances. | Turbocharger axial and radial bearing clearances within specification? |
-> |  | **STEP 5C.** Inspect the charge air cooler. | Charge air cooler free of cracks or other damage? |
-> |  | **STEP 5D.** Check air intake restrictions. | Air intake restriction greater than 0.635 m-H 2 O \[25 in-H 2 O\]? |
-> | STEP 6. | Electronic feature troubleshooting procedures. |  |
-> |  | **STEP 6A.** Verify throttle pedal travel. | Throttle position reads 0 percent when the throttle is released and 100 percent when the throttle is depressed? |
-> |  | **STEP 6B.** Check ambient air pressure sensor accuracy. | INSITE™ electronic service tool reading within 102 mm-Hg \[4 in-Hg\] of local barometric pressure? |
-> |  | **STEP 6C.** Check intake manifold pressure sensor accuracy. | Intake manifold pressure reading less than 102 mm-Hg \[4 in-Hg\]? |
-> | STEP 7. | Base engine troubleshooting procedures. |  |
-> |  | **STEP 7A.** Verify overhead adjustments are correct. | Overhead settings within the reset limits? |
-> |  | **STEP 7B.** Check exhaust restriction. | Exhaust back pressure less than 76 mm-Hg \[3 in-Hg\]? |
->
-> ### STEP 1. Perform basic troubleshooting procedures.
->
-> #### STEP 1A. Check for active fault codes or high counts of inactive fault codes.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check for active fault codes. Use INSITE™ electronic service tool to read the fault codes. | Active fault codes or high counts of inactive fault codes? **YESRepair:** Follow the electronic fault code trees for the appropriate troubleshooting procedures. | Repair complete. |
-> | Active fault codes or high counts of inactive fault codes? **NO** | 1B |  |
->
-> #### STEP 1B. Perform basic troubleshooting checks.
->
-> | **Conditions:** None. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | The following items **must** be checked or verified before continuing: Verify the fuel level in the tanks Verify there have not been any changes to control parts list (CPL) components on the engine Verify fuel grade is correct for application Verify the engine is operating within the recommended altitude Verify engine oil is at the correct level Verify engine parasitics have not changed Verify engine duty cycle has not changed Verify engine cranking speed is greater than 150 rpm Verify battery voltage is within specifications. | All steps verified to be correct? **YES** | 2A |
-> | All steps verified to be correct? **NORepair:** Correct the malfunction and verify complaint is no longer present after repair. | Repair complete. |  |
->
-> ### STEP 2. Determination of engine symptoms.
->
-> #### STEP 2A. Low power, poor acceleration, or poor response.
->
-> | **Conditions:** None. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Low Power, Poor Acceleration, or Poor Response? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Air Handling Checks Step 6 - Electronics Checks Step 7 - Base Engine Checks. | Perform the troubleshooting steps suggested in the repair procedure. |
-> | Engine symptom - Low Power, Poor Acceleration, or Poor Response? **NO** | 2B |  |
->
-> #### STEP 2B. Engine misfire, engine speed surge, or engine speed unstable.
->
-> | **Conditions:** None. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Engine Misfire, Engine Speed Surge, or Engine Speed Unstable? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Air Handling Checks Step 6 - Electronics Checks Step 7 - Exhaust Restriction Check. | Perform the troubleshooting steps suggested in the repair procedure. |
-> | Engine symptom - Engine Misfire, Engine Speed Surge, or Engine Speed Unstable? **NO** | 2C |  |
->
-> #### STEP 2C. Excessive white or black smoke.
->
-> | **Conditions:** None. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Excessive White or Black Smoke? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 4 - Fuel System Checks Step 5 - Air Handling Checks Step 6 - Electronic System Checks Step 7 - Exhaust Restriction Check. | Perform the troubleshooting steps suggested in the repair procedure. |
-> | Engine symptom - Excessive White or Black Smoke? **NO** | 2D |  |
->
-> #### STEP 2D. Low intake manifold pressure (boost).
->
-> | **Conditions:** None. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Low Intake Manifold Pressure (boost)? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 5 - Air Handling Checks Step 4 - Fuel System Checks Step 7 - Base Engine Checks. | Perform the troubleshooting steps suggested in the repair procedure. |
-> | Engine symptom - Low Intake Manifold Pressure (boost)? **NO** | 2E |  |
->
-> #### STEP 2E. High intake manifold pressure (boost).
->
-> | **Conditions:** None. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Interview the operator and verify the complaint. Interview the operator. | Engine symptom - High Intake Manifold Pressure (boost)? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 6 - Electronics Checks Step 7 - Exhaust Restriction Check. | Perform the troubleshooting steps suggested in the repair procedure. |
-> | Engine symptom - High Intake Manifold Pressure (boost)? **NO** | 2F |  |
->
-> #### STEP 2F. Engine will not start or difficult to start, engine shuts off unexpectedly.
->
-> | **Conditions:** None. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Interview the operator and verify the complaint. Interview the operator. | Engine symptom - Engine Will **Not** Start or Difficult to Start, Engine Shuts Off Unexpectedly? **YESRepair:** Perform the troubleshooting steps in the recommended order listed below: Step 3 - No Start Checks Step 4 - Fuel System Checks Step 5 - Air Handling Checks Step 6 - Electronics Checks. | Perform the troubleshooting steps suggested in the repair procedure. |
-> | Engine symptom - Engine Will **Not** Start or Difficult to Start, Engine Shuts Off Unexpectedly? **NO** | Return to correct symptom tree. |  |
->
-> ### STEP 3. No-start troubleshooting procedures.
->
-> #### STEP 3A. Verify the operation of cold weather starting aids.
->
-> | **Conditions:** Turn keyswitch ON. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check cold weather starting aids. Refer to the Operation of Diesel Engines in Cold Climates, Bulletin 3379009. | Necessary cold weather starting aids operating properly? **YES** | 3B |
-> | Necessary cold weather starting aids operating properly? **NORepair:** Install or repair cold weather starting aids. Refer to the Operation of Diesel Engines in Cold Climates, Bulletin 3379009. | Repair complete. |  |
->
-> #### STEP 3B. Check for other fault codes that explain a no-start condition.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Use INSITE™ electronic service tool to read fault code information. Look for fault codes that come active during a failed start attempt and can be the cause of a no-start condition. | Any fault codes that can cause a no-start condition come active during cranking? **YESRepair:** Follow the electronic fault code trees for the appropriate troubleshooting procedures. | Repair complete. |
-> | Any fault codes that can cause a no-start condition come active during cranking? **NO** | 3C |  |
->
-> #### STEP 3C. Check engine speed during cranking.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Use INSITE™ electronic service tool to monitor engine speed and fuel rail pressure while cranking the engine. Check engine speed during cranking. Monitor fuel rail pressure during cranking, (300bar \[4351 psi\] minimum pressure is required to start the engine). If lower fuel rail pressure is observed after completing all sub-steps of Step 3, proceed to Step 5 for further fuel system troubleshooting procedures. | Engine cranking speed greater than 150 rpm? **YES** | 3D |
-> | Engine cranking speed greater than 150 rpm? **NORepair:** Find and correct the cause for low cranking speed. Check the batteries, engine starting motor, and accessory loads. See the Engine Will **Not** Crank or Cranks Slowly troubleshooting symptom tree. | Repair complete. |  |
->
-> #### STEP 3D. Check the ECM keyswitch voltage.
->
-> | **Conditions:** Disconnect the engine wiring harness from the ECM 50 pin connector. Turn keyswitch ON. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the signal voltage from the keyswitch input SIGNAL wire of the engine wiring harness to the engine block ground. Measure the keyswitch voltage with the keyswitch in the ON position and also with the keyswitch in the cranking position. Refer to the circuit wiring diagram or wiring diagram for connector pin identification. | Keyswitch voltage equal to battery voltage? **YES** | 3E |
-> | Keyswitch voltage equal to battery voltage? **NORepair:** Repair or replace the original equipment manufacturer (OEM) power wiring harness. See equipment manufacturer service information. Repair or replace the keyswitch. Refer to Procedure 019-064 in Section 19. Check the battery connections and fuse terminals. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 013-009 in Section 13. | Repair complete. |  |
->
-> #### STEP 3E. Check the ECM battery supply voltage.
->
-> | **Conditions:** Turn keyswitch OFF. Disconnect the ECM power wiring harness from the ECM. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the voltage from the ECM battery SUPPLY (-) pin to the ECM battery SUPPLY (+) pins in the ECM power wiring harness connector. Measure the ECM voltage with the keyswitch in the ON position and also with the keyswitch in the cranking position. Refer to the circuit diagram or wiring diagram for connector pin identification. | ECM battery supply voltage equal to the battery voltage? **YES** | 3F |
-> | ECM battery supply voltage equal to the battery voltage? **NORepair:** See equipment manufacturer service information. Repair or replace the ECM power wiring harness. Check the battery connections and fuse terminals. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 013-009 in Section 13. | Repair complete. |  |
->
-> #### STEP 3F. Check fuel rail pressure to the injectors.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the fuel rail pressure output pressure while cranking the engine. The cranking speed must be greater than 150 rpm for 30 seconds. | Fuel rail pressure greater than 300 bar \[4351 psi\] while cranking? **YES** | 4B |
-> | Fuel rail pressure greater than 300 bar \[4351 psi\] while cranking? **NO** | 3G |  |
->
-> #### STEP 3G. Check for fuel pressure from the gerotor pump while cranking the engine.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Attempt to start the engine by engaging the engine starting motor for at least 30 continuous seconds. Use INSITE™ electronic service tool to monitor fuel pressure. | Fuel supply pressure greater than 500 kPa \[73 psi\]? **YES** | 3H |
-> | Fuel supply pressure greater than 500 kPa \[73 psi\]? **NO** | 3G-1 |  |
->
-> #### STEP 3G-1. Check the inlet fuel restriction.
->
-> | **Conditions:** Turn keyswitch ON. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the fuel restriction and stage 1 filter restriction. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | Restriction higher than the specification? **YESRepair:** If the inlet restriction is higher than specifications, see equipment manufacturer service information to determine the source of the high restriction. If the stage 1 filter restriction is higher than specifications, replace the stage 1 filter. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-015 in Section 6. | Repair complete. |
-> | Restriction higher than the specification? **NO** | 3G-2 |  |
->
-> #### STEP 3G-2. Check fuel lift pump pressure.
->
-> | **Conditions:** Turn keyswitch ON. Attach a fuel pressure gauge to the fuel filter head stage one filter outlet. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the fuel lift pump output pressure. Turn keyswitch ON, but engine not operating. Listen for the fuel lift pump to operate. The pump will operate at keyswitch ON then shut OFF. | Fuel pressure 3 bar \[44 psi\] after pump operating for 30 seconds? **YESRepair:** Replace the air bleed check valve. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | 3G-3 |
-> | Fuel pressure 3 bar \[44 psi\] after pump operating for 30 seconds? **NO** | 3G-4 |  |
->
-> #### STEP 3G-3. Check if engine starts.
->
-> | **Conditions:** Turn keyswitch ON. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check if engine starts. Attempt to start the engine. | Engine starts? **YESRepair:** The replacement of the air bleed check valve in the previous step corrected the problem. | Repair complete. |
-> | Engine starts? **NORepair:** Replace the fuel pump. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 005-016 in Section 5. | Repair complete. |  |
->
-> #### STEP 3G-4. Check for proper operation of the check valve near the fuel lift pump.
->
-> | **Conditions:** Turn keyswitch ON. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect the check valve for proper operation. Turn keyswitch ON, but engine not operating. | Check valve near the fuel lift pump operating correctly? **YESRepair:** Replace the air bleed check valve. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | 3G-5 |
-> | Check valve near the fuel lift pump operating correctly? **NORepair:** Replace the air check valve near the fuel lift pump. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-008 in Section 6. | Repair complete |  |
->
-> #### STEP 3G-5. Check if engine starts.
->
-> | **Conditions:** Turn keyswitch ON. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check if engine starts. Attempt to start the engine. | Engine starts? **YESRepair:** The replacement of the air bleed check valve in the previous step corrected the problem. | Repair complete. |
-> | Engine starts? **NORepair:** Replace the fuel lift pump. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 005-045 in Section 6. | Repair complete. |  |
->
-> #### STEP 3H. Check for external fuel rail (high-pressure) leaks.
->
-> | **Conditions:** Crank the engine to develop fuel pressure. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect the fuel rail for leaks. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-051 in Section 6. | Fuel rail leakage present? **YESRepair:** Replace any components associated with the leak. | Repair complete. |
-> | Fuel rail leakage present? **NO** | 3I |  |
->
-> #### STEP 3I. Check injector solenoid operation.
->
-> | **Conditions:** Turn keyswitch ON. Attach the injector tester, Part Number 2892293, to an injector. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Test all injectors using the injector tester tool. Turn the keyswitch ON, and attach the injector tester tool to the 2 pin injector connector. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Injector tester tool show a green light? **YES** | 3J |
-> | Injector tester tool show a green light? **NORepair:** Replace the malfunctioning injector. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |  |
->
-> #### STEP 3J. Measure the injector drain flow from all injectors.
->
-> | **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure injector drain flow at the fuel drain block. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the injector return fuel drain flow at the fuel drain block. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Drain fuel flow from the fuel drain block greater than the specification? **YES** | 3J-1 |
-> | Drain fuel flow from the fuel drain block greater than the specification? **NO** | 3K |  |
->
-> #### STEP 3J-1. Isolate the injector drain flow from each of the injectors.
->
-> | **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure injector drain flow at each cylinder head. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the injector return fuel drain flow at the fuel drain block. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Drain fuel flow from the injector greater than the specification? **YESRepair:** Replace any malfunctioning injectors. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |
-> | Drain fuel flow from the injector greater than the specification? **NO** | 3K |  |
->
-> #### STEP 3K. Use INSITE™ electronic service tool to perform the Fuel Pump Actuator Click Test.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Perform the Fuel Pump Actuator Click Test. Use INSITE™ electronic service tool to perform the Fuel Pump Actuator Click Test. | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? **YES** | 3L |
-> | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? **NORepair:** Replace the fuel pump actuator. Refer to Procedure 019-117 in Section 19. | Repair complete. |  |
->
-> #### STEP 3L. Measure the fuel drain flow from the fuel pressure relief valve.
->
-> | **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure fuel drain flow from the fuel pressure relief valve. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the injector return fuel drain flow at the fuel drain block. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-061 in Section 6. | Drain fuel flow from the fuel pressure relief valve greater than the specification? **YESRepair:** Replace the fuel pressure relief valve. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-061 in Section 6. | Repair complete. |
-> | Drain fuel flow from the fuel pressure relief valve greater than the specification? **NORepair:** Replace the fuel pump. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 005-016 in Section 5. | Repair complete. |  |
->
-> ### STEP 4. Fuel system troubleshooting procedures.
->
-> #### STEP 4A. Check for fault codes.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Use INSITE™ electronic service tool to read the fault code information. Determine if there are active fuel system fault codes related to the complaint. | Fuel system fault codes active? **YESRepair:** Follow the electronic fault code trees for the appropriate troubleshooting procedures. | Repair complete. |
-> | Fuel system fault codes active? **NO** | 4B |  |
->
-> #### STEP 4B. Measure the fuel inlet restriction.
->
-> | **Conditions:** Check for fuel inlet restriction. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the fuel inlet restriction. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-020 in Section 6. | Fuel inlet restriction above specification? **YESRepair:** Find and correct the cause of the high inlet restriction. Look for plugged OEM fuel filters, or screens, a restricted lift pump bypass check valve, pinched OEM fuel lines or a restricted stand pipe in the OEM fuel tank. | Repair complete. |
-> | Fuel inlet restriction above specification? **NO** | 4C |  |
->
-> #### STEP 4C. Check stage 1 fuel filter head check valves for proper operation.
->
-> | **Conditions:** Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-008 in Section 6. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check fuel filter head check valves for proper operation. The check valve prevents back-flow of fuel through the first stage filter during priming and operation when installed properly. A stuck check valve will not allow fuel flow from the lift pump to prime the engine. | Fuel filter head check valves in good condition and the passageway free of restrictions? **YES** | 4D |
-> | Fuel filter head check valves in good condition and the passageway free of restrictions? **NORepair:** Replace the fuel check valve. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-008 in Section 6. | Repair complete. |  |
->
-> #### STEP 4D. Use INSITE™ electronic service tool to perform the fuel pump actuator click test.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Perform the fuel pump actuator click test. Use INSITE™ electronic service tool to perform the fuel pump actuator click test. | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? **YES** | 4E |
-> | Fuel pump actuator clicks when commanded with the diagnostic test in INSITE™ electronic service tool? **NORepair:** Replace the fuel pump actuator. Refer to Procedure 019-117 in Section 19. | Repair complete. |  |
->
-> #### STEP 4E. Measure the injector drain flow from all injectors.
->
-> | **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure injector drain flow at the fuel drain block. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the injector return fuel drain flow at the fuel drain block. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Drain fuel flow from the fuel drain block greater than the specification? **YES** | 4E-1 |
-> | Drain fuel flow from the fuel drain block greater than the specification? **NO** | 4G |  |
->
-> #### STEP 4E-1. Isolate the injector drain flow from each of the injectors.
->
-> | **Conditions:** Crank engine to at least 150 rpm. Unplug all injectors. Connect appropriate service tools to measure injector drain flow at each cylinder head. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the injector return fuel drain flow at the cylinder head. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Drain fuel flow from the injector greater than the specification? **YESRepair:** Replace any malfunctioning injectors. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |
-> | Drain fuel flow from the injector greater than the specification? **NO** | 4G |  |
->
-> #### STEP 4F. Perform single cylinder cut-out test.
->
-> | **Conditions:** Turn keyswitch ON. Operate engine at low idle. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Perform Single Cylinder Cut-out Test. Operate the engine at load. Use INSITE™ electronic service tool to perform the Cylinder Cut-out Test to disable individual injectors. | Miss or excessive smoke attributed to a single cylinder? **YESRepair:** Look for a cause of the complaint, including valve lash and excessive crankcase pressure, that can indicate power cylinder damage or camshaft lobe wear. If no other damage is found, replace the injector in the cylinder that was identified using the single cylinder cut-out test. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |
-> | Miss or excessive smoke attributed to a single cylinder? **NO** | 4G |  |
->
-> #### STEP 4G. Audio check for injector operation.
->
-> | **Conditions:** Turn keyswitch ON. Operate engine at idle. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Perform an audio check on each injector to verify proper operation. With the engine running at idle, use a mechanic's stethoscope (Snap-On™, Part Number GA111D, or similar) to identify any individual injector improper operation. | Can a miss be heard from any individual injector? **YESRepair:** Replace any malfunctioning injectors. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 006-026 in Section 6. | Repair complete. |
-> | Can a miss be heard from any individual injector? **NO** | 2A |  |
->
-> ### STEP 5. Air handling troubleshooting procedures.
->
-> #### STEP 5A. Inspect the turbocharger blades for damage.
->
-> | **Conditions:** Turn keyswitch OFF. Remove the intake and exhaust pipes from the turbocharger. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect the compressor and turbine blades for damage or wear. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 010-033 in Section 10. | Damage found on turbocharger blades? **YESRepair:** Replace the turbocharger assembly. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete. |
-> | Damage found on turbocharger blades? **NO** | 5B |  |
->
-> #### STEP 5B. Check the turbocharger axial and radial clearances.
->
-> | **Conditions:** Turn keyswitch OFF. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the turbocharger for correct axial and radial clearance. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure s 010-033 in Section 10. | Turbocharger axial and radial bearing clearances within specification? **YES** | 5C |
-> | Turbocharger axial and radial bearing clearances within specification? **NORepair:** Replace the turbocharger assembly. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-010-033-tr — Turbocharger\|Refer to Procedure 010-033 in Section 10.]] | Repair complete. |  |
->
-> #### STEP 5C. Inspect the charge air cooler.
->
-> | **Conditions:** Turn keyswitch OFF. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Inspect the charge air cooler. Inspect the charge air cooler for damage. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 010-027 in Section 10. | Charge air cooler free of cracks or other damage? **YES** | 5D |
-> | Charge air cooler free of cracks or other damage? **NORepair:** Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-010-027 — Charge-Air Cooler\|Refer to Procedure 010-027 in Section 10.]] | Repair complete |  |
->
-> #### STEP 5D. Check air intake restriction.
->
-> | **Conditions:** Turn keyswitch OFF. Install a vacuum gauge or water manometer in the air intake piping. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check air intake system restriction. Install a vacuum gauge into the air intake system. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 010-031 in Section 10. | Air intake restriction greater than 0.635 m-H 2 O \[25 in-H 2 O\]? **YES** | Repair complete. |
-> | Air intake restriction greater than 0.635 m-H 2 O \[25 in-H 2 O\]? **NO** | 2A |  |
->
-> ### STEP 6. Electronic feature troubleshooting procedures.
->
-> #### STEP 6A. Verify throttle pedal travel.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Verify throttle pedal travel. Use INSITE™ electronic service tool to monitor throttle position while fully depressing and releasing the throttle pedal. | Throttle position reads 0 percent when the throttle is released and 100 percent when the throttle is depressed? **YES** | 6B |
-> | Throttle position reads 0 percent when the throttle is released and 100 percent when the throttle is depressed? **NORepair:** Determine and correct the cause of the throttle pedal restriction. | Repair complete. |  |
->
-> #### STEP 6B. Check ambient air pressure sensor accuracy.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Use INSITE™ electronic service tool to monitor the barometric air pressure. Compare INSITE™ electronic service tool barometric pressure readings with the local barometric pressure. | INSITE™ electronic service tool reading within 102 mm-Hg \[4 in-Hg\] of local barometric pressure? **YES** | 6C |
-> | INSITE™ electronic service tool reading within 102 mm-Hg \[4 in-Hg\] of local barometric pressure? **NORepair:** Replace the barometric pressure sensor. Refer to Procedure 019-004 in Section 19. | Repair complete. |  |
->
-> #### STEP 6C. Check intake manifold pressure sensor accuracy.
->
-> | **Conditions:** Turn keyswitch ON. Connect INSITE™ electronic service tool. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check intake manifold pressure sensor accuracy. Use INSITE™ electronic service tool to monitor the value of intake manifold pressure without the engine operating. | Intake manifold pressure reading less than 102 mm-Hg \[4 in-Hg\]? **YES** | 7A |
-> | Intake manifold pressure reading less than 102 mm-Hg \[4 in-Hg\]? **NORepair:** Replace the intake manifold pressure sensor. Refer to Procedure 019-061 in Section 19. | Repair complete |  |
->
-> ### STEP 7. Base engine troubleshooting procedures.
->
-> #### STEP 7A. Verify overhead adjustments are correct.
->
-> | **Conditions:** Turn keyswitch OFF. Remove the rocker lever cover. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 003-011 in Section 3. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Measure the overhead setting. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 003-006 in Section 3. | Overhead settings within the reset limits? **YES** | 7B |
-> | **Overhead** settings within the reset limits? **NORepair:** Adjust the overhead settings. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-003-006-tr — Overhead Set (OBC)\|Refer to Procedure 003-006 in Section 3.]] | Repair complete. |  |
->
-> #### STEP 7B. Check exhaust restriction.
->
-> | **Conditions:** Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. Refer to Procedure 011-009 in Section 11. |  |  |
-> |---|---|---|
-> | **Action** | **Specification/Repair** | **Next Step** |
-> | Check the exhaust system back pressure. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-011-009 — Exhaust Restriction\|Refer to Procedure 011-009 in Section 11.]] | Exhaust back pressure less than 76 mm-Hg \[3 in-Hg\]? **YES** | 2A |
-> | Exhaust back pressure less than 76 mm-Hg \[3 in-Hg\]? **NORepair:** Inspect exhaust system for source of high restriction. | Repair complete. |  |
+| **Action** | **Specification/Repair** | **Next Step** |
+| Check the exhaust system back pressure. Use the following procedure in the QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-011-009 — Exhaust Restriction\|Refer to Procedure 011-009 in Section 11.]] | Exhaust back pressure less than 76 mm-Hg \[3 in-Hg\]? **YES** | 2A |
+| Exhaust back pressure less than 76 mm-Hg \[3 in-Hg\]? **NORepair:** Inspect exhaust system for source of high restriction. | Repair complete. |  |

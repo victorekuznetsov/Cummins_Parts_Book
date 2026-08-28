@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1452.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1452.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1452.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Generator Circuit Breaker - Failed to Close - Condition Exists
@@ -34,88 +32,42 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2012-05-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1452.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1452.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1452.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1452.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 1452
 
+### Generator Circuit Breaker - Failed to Close - Condition Exists
 
-### Код неисправности: 1452
+Printable Version
 
-### Выключатель генератора не включился — условие возникло
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 1452 PID(P): СПН: ФМИ: Лампа: Отключение SRT: | Выключатель генератора не удалось закрыть. | Генератор будет отключен. |
+| Fault Code: 1452 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Generator circuit breaker failed to close. | Generator set will shut down. |
 
 ![[19802904.png]]
 
-Генератор Set Circuit Breaker Circuit
+Generator Set Circuit Breaker Circuit
 
-### Описание цепи
+### Circuit Description
 
-Выключатель генераторной установки - это переключатель для подключения генераторной установки к шине. Выключатель открывается, когда происходят события, что заставляет генераторную установку больше не подключаться к шине. Выключатель закрывается, когда генераторная установка должна быть подключена к шине.
+The generator set circuit breaker is the switch for the generator set's connection to the bus. The circuit breaker opens when events have occurred, which forces the generator set to no longer be connected to the bus. The circuit breaker closes when the generator set is to be connected to the bus.
 
-Этот код неисправности используется модулем управления двигателем (ECM) для того, чтобы сообщить оператору, что из-за события генераторная установка может ** не** подключиться к шине.
+This fault code is used by the engine control module (ECM) to tell the operator that due to an event, the generator set can **not** connect to the bus.
 
-### Расположение компонента
+### Component Location
 
-См. раздел E для определения местоположения клетки карты ECM.
+Refer to Section E for location of the ECM card cage.
 
-См. документацию о клиенте/объекте/установке для определения местоположения выключателя генераторной установки.
+Refer to customer/facility/installation documentation for the location of the generator set circuit breaker.
 
-### Практические замечания
+### Shoptalk
 
-Убедитесь, что механизм зарядки параллельного выключателя функционирует должным образом.
+Verify that the charging mechanism of the paralleling breaker is functioning properly.
 
-Проверьте закрытый сигнал на выключатель.
+Check the closed signal to the breaker.
 
-Убедитесь, что вспомогательные контактные сигналы от выключателя к ECM работают.
+Verify that the auxiliary contact signals from the breaker to ECM are operational.
 
-См. Код устранения неполадок t05-1452.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 1452
->
-> ### Generator Circuit Breaker - Failed to Close - Condition Exists
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 1452 PID(P): SPN: FMI: Lamp: Shutdown SRT: | Generator circuit breaker failed to close. | Generator set will shut down. |
->
-> Generator Set Circuit Breaker Circuit
->
-> ### Circuit Description
->
-> The generator set circuit breaker is the switch for the generator set's connection to the bus. The circuit breaker opens when events have occurred, which forces the generator set to no longer be connected to the bus. The circuit breaker closes when the generator set is to be connected to the bus.
->
-> This fault code is used by the engine control module (ECM) to tell the operator that due to an event, the generator set can **not** connect to the bus.
->
-> ### Component Location
->
-> Refer to Section E for location of the ECM card cage.
->
-> Refer to customer/facility/installation documentation for the location of the generator set circuit breaker.
->
-> ### Shoptalk
->
-> Verify that the charging mechanism of the paralleling breaker is functioning properly.
->
-> Check the closed signal to the breaker.
->
-> Verify that the auxiliary contact signals from the breaker to ECM are operational.
->
-> Refer to Troubleshooting Fault Code t05-1452.
+Refer to Troubleshooting Fault Code t05-1452.

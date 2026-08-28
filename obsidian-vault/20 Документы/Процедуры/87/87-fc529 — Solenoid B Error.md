@@ -14,15 +14,13 @@ families:
 manuals:
   - "3666214"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc529.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc529.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc529.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
-  - "перевод/машинный"
 ---
 
 # Solenoid B Error
@@ -34,64 +32,30 @@ tags:
 > **Входит в руководства:** [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc529.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc529.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc529.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc529.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 529
 
+### Solenoid B Error
 
-### Код неисправности: 529
+Printable Version
 
-### Ошибка электромагнита B
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 529 PID(P): S051 SPN: P02 FMI: 703 лампы: Желтая СТО: | Менее 17 VDC обнаружены при контакте подачи соленоида В 21 ремня электропроводки двигателя. | Электронный модуль управления (ECM) не выполняет никаких действий. |
+| Fault Code: 529 PID(P): S051 SPN: P02 FMI: 703 Lamp: Yellow SRT: | Less than 17 VDC detected at solenoid B supply pin 21 of the engine harness. | No action is taken by the electronic control module (ECM). |
 
 ![[19a00673.png]]
 
-Соленоидная B-схема
+Solenoid B Circuit
 
-### Описание цепи
+### Circuit Description
 
-Водитель соленоида будет управлять двигателем и функциями транспортного средства, закрывая или открывая переключаемый выход соленоида, на основе 11 выбранных параметров двигателя. Выход соленоидов будет контролировать такие функции, как сцепление вентилятора, нагреватель впускной сетки, индикатор ограничения очистки воздуха или индикатор дифференциального давления масляного фильтра.
+The solenoid driver will control engine and vehicle functions by closing or opening a switched solenoid output, based on 11 selected engine parameters. The solenoid output will control functions such as a fan clutch, an intake grid heater, an air cleaner restriction indicator, or an oil filter differential pressure indicator.
 
-### Расположение компонента
+### Component Location
 
-Соленоидный драйвер является OEM-устройством, и местоположение соленоида зависит от OEM-устройства.
+The solenoid driver is an OEM device, and the location of the solenoid is dependent upon the OEM.
 
-См. Код устранения неполадок t05-529
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 529
->
-> ### Solenoid B Error
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 529 PID(P): S051 SPN: P02 FMI: 703 Lamp: Yellow SRT: | Less than 17 VDC detected at solenoid B supply pin 21 of the engine harness. | No action is taken by the electronic control module (ECM). |
->
-> Solenoid B Circuit
->
-> ### Circuit Description
->
-> The solenoid driver will control engine and vehicle functions by closing or opening a switched solenoid output, based on 11 selected engine parameters. The solenoid output will control functions such as a fan clutch, an intake grid heater, an air cleaner restriction indicator, or an oil filter differential pressure indicator.
->
-> ### Component Location
->
-> The solenoid driver is an OEM device, and the location of the solenoid is dependent upon the OEM.
->
-> Refer to Troubleshooting Fault Code t05-529
+Refer to Troubleshooting Fault Code t05-529

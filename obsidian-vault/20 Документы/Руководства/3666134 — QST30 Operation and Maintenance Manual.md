@@ -12,7 +12,7 @@ families:
   - "QST30"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666134/3666134-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666134-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666134-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/QST30"
@@ -24,7 +24,7 @@ tags:
 > [!abstract] Руководство · `3666134-history`
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666134/3666134-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666134-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666134/3666134-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666134-history.pdf)
 
 
 ## Оглавление руководства (328 процедур)
@@ -184,19 +184,19 @@ tags:
 | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]]-t105-om | Lubricating Oil Pressure Low | 21-Dec-2004 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troublershooting Procedures and Techniques | 25-Jun-2009 |
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| 3666260-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 07-Nov-2005 |
-| 3666260-t061-011-om | Engine Runs Rough at Idle, Warm Engine | 07-Nov-2005 |
-| 3666260-t043-om | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 11-Nov-2005 |
-| 3666260-t057-om | Engine Power Output Low | 11-Nov-2005 |
-| 3666260-t024-om | Coolant Temperature Below Normal | 15-Nov-2005 |
-| 3666260-t026-om | Coolant Temperature Above Normal | 15-Nov-2005 |
-| 3666260-t072-om | Engine Starts But Will Not Keep Running | 15-Nov-2005 |
-| 3666260-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 15-Nov-2005 |
-| 3666260-t080-om | Engine Will Not Reach Rated Speed (RPM) | 15-Nov-2005 |
-| 3666260-t081-om | Engine Will Not Shut Off | 15-Nov-2005 |
-| 3666260-t081-001-om | Excessive Noise | 15-Nov-2005 |
-| 3666260-t081-011-om | Exhaust Black Smoke - Excessive Under Load | 15-Nov-2005 |
-| 3666260-t105-om | Lubricating Oil Pressure Low | 15-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 07-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t061-011-om | Engine Runs Rough at Idle, Warm Engine | 07-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t043-om | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 11-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t057-om | Engine Power Output Low | 11-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t024-om | Coolant Temperature Below Normal | 15-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t026-om | Coolant Temperature Above Normal | 15-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t072-om | Engine Starts But Will Not Keep Running | 15-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 15-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t080-om | Engine Will Not Reach Rated Speed (RPM) | 15-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t081-om | Engine Will Not Shut Off | 15-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t081-001-om | Excessive Noise | 15-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t081-011-om | Exhaust Black Smoke - Excessive Under Load | 15-Nov-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-t105-om | Lubricating Oil Pressure Low | 15-Nov-2005 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 
 ### Section A - Adjustment, Repair, and Replacement
@@ -420,8 +420,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3666260-toc | Table of Contents |  |
-| 3666260-titlepage | Titlepage | 31-Oct-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-toc | Table of Contents |  |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-titlepage | Titlepage | 31-Oct-2005 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | om-frwd | Foreword | 22-May-2006 |
 
@@ -495,7 +495,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3666260-backcover | Backcover | 31-Oct-2005 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]]-backcover | Backcover | 31-Oct-2005 |
 
 ### Section V - Maintenance Guidelines
 

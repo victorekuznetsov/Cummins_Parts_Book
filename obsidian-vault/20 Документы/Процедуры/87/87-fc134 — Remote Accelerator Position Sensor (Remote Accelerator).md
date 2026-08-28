@@ -14,15 +14,13 @@ families:
 manuals:
   - "3666214"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc134.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc134.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc134.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/87"
-  - "перевод/машинный"
 ---
 
 # Remote Accelerator Position Sensor (Remote Accelerator)
@@ -34,84 +32,40 @@ tags:
 > **Входит в руководства:** [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc134.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc134.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc134.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc134.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 134
 
+### Remote Accelerator Position Sensor (Remote Accelerator)
 
-### Код неисправности: 134
+Printable Version
 
-### Датчик положения дистанционного акселератора
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 134 PID(P): P029 SPN: 029 FMI: 4 лампы: Красная СТО: | Низкое напряжение, обнаруженное на удаленном ускорителе, сигнализирует о контакте 9 с интерфейсом проводов оригинального оборудования производителя (OEM). | Калибровочная зависимость мощности и скорости снижается. |
+| Fault Code: 134 PID(P): P029 SPN: 029 FMI: 4 Lamp: Red SRT: | Low voltage detected at the remote accelerator position signal pin 9 of the original equipment manufacturer's (OEM) interface harness. | Calibration-dependent power and speed derate. |
 
 ![[19a00607.png]]
 
-Датчик положения дистанционного акселератора
+Remote Accelerator Position Sensor
 
-### Описание цепи
+### Circuit Description
 
-Педаль удаленного ускорителя обеспечивает вторую команду ускорителя электронному модулю управления (ECM) через OEM-проводку и OEM-интерфейс. ECM использует этот сигнал вместо основного ускорителя для определения команды заправки стойки топливного насоса RP39.
+The remote accelerator pedal provides a second accelerator command to the electronic control module (ECM) through the OEM harness and the OEM interface harness. The ECM uses this signal in place of the primary accelerator to determine the fueling command for the RP39 fuel pump rack.
 
-### Расположение компонента
+### Component Location
 
-Расположение педали удаленного ускорителя варьируется в зависимости от каждого OEM. См. руководство по OEM.
+The remote accelerator pedal location varies with each OEM. Refer to the OEM manual.
 
-### Практические замечания
+### Shoptalk
 
-Удаленный ускоритель используется вместо основного ускорителя, когда оператор сигнализирует ECM, заземляя контакт 45 на проводной ремне OEM. Датчик положения ускорителя представляет собой потенциометр. Спецификации сопротивления датчика положения ускорителя следующие:
+The remote accelerator is used in place of the primary accelerator when the operator signals the ECM by grounding pin 45 on the OEM harness. The accelerator position sensor is a potentiometer. The resistance specifications of the accelerator position sensor are as follow:
 
-- Между предложением и возвратом = 2000-3000 Ом
+- Between supply and return = 2000 to 3000 ohms
 
-- Между поставкой и сигналом: Высвобожденный = 1500 до 3000 Ом, угнетенный = 200 до 1500 Ом.
+- Between supply and signal: Released = 1500 to 3000 ohms, Depressed = 200 to 1500 ohms.
 
-Примечание: Если датчик положения ускорителя или акселератора изменен или после калибровочной загрузки, проведите педаль акселератора (переключатель зажигания поворота) через его полное путешествие три раза. Эта процедура калибрует новый ускоритель с помощью ECM.
+Note: If the accelerator or accelerator position sensor is changed, or after a calibration download, cycle the accelerator pedal (turn keyswitch ON) through its complete travel three times. This procedure calibrates the new accelerator with the ECM.
 
-Устранение неполадок код t05-134
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 134
->
-> ### Remote Accelerator Position Sensor (Remote Accelerator)
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 134 PID(P): P029 SPN: 029 FMI: 4 Lamp: Red SRT: | Low voltage detected at the remote accelerator position signal pin 9 of the original equipment manufacturer's (OEM) interface harness. | Calibration-dependent power and speed derate. |
->
-> Remote Accelerator Position Sensor
->
-> ### Circuit Description
->
-> The remote accelerator pedal provides a second accelerator command to the electronic control module (ECM) through the OEM harness and the OEM interface harness. The ECM uses this signal in place of the primary accelerator to determine the fueling command for the RP39 fuel pump rack.
->
-> ### Component Location
->
-> The remote accelerator pedal location varies with each OEM. Refer to the OEM manual.
->
-> ### Shoptalk
->
-> The remote accelerator is used in place of the primary accelerator when the operator signals the ECM by grounding pin 45 on the OEM harness. The accelerator position sensor is a potentiometer. The resistance specifications of the accelerator position sensor are as follow:
->
-> - Between supply and return = 2000 to 3000 ohms
->
-> - Between supply and signal: Released = 1500 to 3000 ohms, Depressed = 200 to 1500 ohms.
->
-> Note: If the accelerator or accelerator position sensor is changed, or after a calibration download, cycle the accelerator pedal (turn keyswitch ON) through its complete travel three times. This procedure calibrates the new accelerator with the ECM.
->
-> Refer to Troubleshooting Fault Code t05-134
+Refer to Troubleshooting Fault Code t05-134

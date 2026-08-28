@@ -14,15 +14,13 @@ families:
 manuals:
   - "4022102"
 figures: 2
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc3722.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc3722.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc3722.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
   - "группа/122"
-  - "перевод/машинный"
 ---
 
 # Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect
@@ -34,134 +32,66 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2015-06-25
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc3722.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc3722.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc3722.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc3722.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 3722
 
+### Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect
 
-### Код неисправности: 3722
+Printable Version
 
-### Разбаланс давления во впускных коллекторах рядов — данные нестабильны или неверны
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 3722 PID(P): СПН: ФМИ: Лампа: Обслуживание SRT: | Разбаланс давления во впускных коллекторах рядов — данные нестабильны или неверны. | Отключение двигателя или выключение. |
+| Fault Code: 3722 PID(P): SPN: FMI: Lamp: Maintenance SRT: | Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect. | Engine shutdown or derate. |
 
 ![[19601948.png]]
 
-QSK50 CM2150 Power Generation с усовершенствованным мониторингом двигателя - схема датчика давления в коллекторе 1
+QSK50 CM2150 Power Generation with Advanced Engine Monitoring - Intake Manifold 1 Pressure Sensor Circuit
 
 ![[19602218.png]]
 
-QSK50 CM2150 Power Generation с усовершенствованным мониторингом двигателя - схема датчика давления в коллекторе 2
+QSK50 CM2150 Power Generation with Advanced Engine Monitoring - Intake Manifold 2 Pressure Sensor Circuits
 
-### Описание цепи
+### Circuit Description
 
-Датчики давления впускного коллектора 1 и 2 контролируют давление воздуха впускного коллектора и передают информацию в модуль управления двигателем (ECM) через электропроводку двигателя. ECM рассчитывает дифференциальное давление между левым и правым берегом на основе этой информации.
+The intake manifold 1 and 2 pressure sensors monitor intake manifold air pressure and pass information to the engine control module (ECM) through the engine harness. The ECM calculates a differential pressure between the left and right bank based on this information.
 
-### Расположение компонента
+### Component Location
 
-Датчики давления впускного коллектора 1 расположены в левом и правом боковом переднем коллекторе воздухозаборника.
+The intake manifold 1 pressure sensors are located in the left and right bank front air intake manifold.
 
-### Условия выполнения диагностики
+### Conditions For Running The Diagnostics
 
-- Эта диагностика выполняется непрерывно, когда переключатель зажигания ECM находится в положении Включения.
+- This diagnostic runs continuously when the ECM keyswitch is in the ON position.
 
-### Условия установки кодов неисправностей
+### Conditions For Setting The Fault Codes
 
-- Если дифференциал давления наддува между датчиками давления впускного коллектора левого и правого берега превышает калиброванное значение за калиброванное количество времени, то неисправность активируется.
+- If the boost pressure differential between the left and right bank intake manifold pressure sensors exceeded a calibrated value for a calibrated amount of time, the fault will activate.
 
-### Действия системы при активном коде неисправности
+### Action Taken When The Fault Code Is Active
 
-- Не применяется
+- N/A
 
-### Условия сброса кода неисправности
+### Conditions For Clearing The Fault Code
 
-- Не применяется
+- N/A
 
-### Практические замечания
+### Shoptalk
 
-У моделей двигателей, охваченных этим руководством, несколько электронных блоков управления. У каждого блока управления свой адрес источника, который отображается при подключении INSITE™. При поиске неисправности по коду определяйте затронутый блок управления и цепь по адресу источника, который показывает INSITE™.
+There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the source address displayed in INSITE™ electronic service tool to determine which ECM and circuit is affected.
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- Фильтры с ограниченным воздухозаборником
+- Restricted air intake filters
 
-- Система впускного воздуха усиливает утечку
+- An intake air system boost leak
 
-- Закрытый впускной клапан отключается
+- A closed intake air shut off valve
 
-- Проблема с одним из турбокомпрессоров
+- An issue with one of the turbochargers
 
-- Многократный неисправный форсунка на одном берегу.
+- Multiple malfunctioning injectors on one bank.
 
-См. Код устранения неполадок t05-3722.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 3722
->
-> ### Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 3722 PID(P): SPN: FMI: Lamp: Maintenance SRT: | Intake Manifold Pressure Bank Imbalance - Data Erratic, Intermittent, or Incorrect. | Engine shutdown or derate. |
->
-> QSK50 CM2150 Power Generation with Advanced Engine Monitoring - Intake Manifold 1 Pressure Sensor Circuit
->
-> QSK50 CM2150 Power Generation with Advanced Engine Monitoring - Intake Manifold 2 Pressure Sensor Circuits
->
-> ### Circuit Description
->
-> The intake manifold 1 and 2 pressure sensors monitor intake manifold air pressure and pass information to the engine control module (ECM) through the engine harness. The ECM calculates a differential pressure between the left and right bank based on this information.
->
-> ### Component Location
->
-> The intake manifold 1 pressure sensors are located in the left and right bank front air intake manifold.
->
-> ### Conditions For Running The Diagnostics
->
-> - This diagnostic runs continuously when the ECM keyswitch is in the ON position.
->
-> ### Conditions For Setting The Fault Codes
->
-> - If the boost pressure differential between the left and right bank intake manifold pressure sensors exceeded a calibrated value for a calibrated amount of time, the fault will activate.
->
-> ### Action Taken When The Fault Code Is Active
->
-> - N/A
->
-> ### Conditions For Clearing The Fault Code
->
-> - N/A
->
-> ### Shoptalk
->
-> There are multiple ECMs for the engine models included in this manual. Each ECM has an individual source address that displays when INSITE™ electronic service tool is connected. When troubleshooting a fault code, use the source address displayed in INSITE™ electronic service tool to determine which ECM and circuit is affected.
->
-> Possible causes of this fault code include:
->
-> - Restricted air intake filters
->
-> - An intake air system boost leak
->
-> - A closed intake air shut off valve
->
-> - An issue with one of the turbochargers
->
-> - Multiple malfunctioning injectors on one bank.
->
-> Refer to Troubleshooting Fault Code t05-3722.
+Refer to Troubleshooting Fault Code t05-3722.

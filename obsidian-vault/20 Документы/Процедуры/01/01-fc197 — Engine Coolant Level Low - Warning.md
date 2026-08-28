@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc197.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc197.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc197.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Engine Coolant Level Low - Warning
@@ -34,80 +32,38 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc197.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc197.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc197.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc197.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 197
 
+### Engine Coolant Level Low - Warning
 
-### Код неисправности: 197
+Printable Version
 
-### Низкий уровень охлаждающей жидкости — предупреждение
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 197 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Низкий уровень охлаждающей жидкости — предупреждение. Сигнал напряжения указывает на низкий уровень охлаждающей жидкости радиатора. | Никаких действий со стороны ЕКМ не предпринимается. Коды 146, 151, 228 и/или 233 ошибок также могут быть зарегистрированы. |
+| Fault Code: 197 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine coolant level low - warning. Voltage signal indicates low radiator coolant level. | No action is taken by the ECM. Fault Codes 146, 151, 228, and/or 233 can also be logged. |
 
 ![[19803601.png]]
 
-Цепь датчика уровня охлаждающей жидкости
+Coolant Level Sensor Circuit
 
-### Описание цепи
+### Circuit Description
 
-Датчик уровня охлаждающей жидкости контролирует уровень охлаждающей жидкости в системе охлаждающей жидкости и передает информацию в электронный модуль управления (ECM).
+The coolant level sensor monitors the coolant level within the coolant system and passes information to the electronic control module (ECM).
 
-### Расположение компонента
+### Component Location
 
-См. схемы двигателя. 100-002 для расположения компонентов.
+Refer to the Engine Diagrams. 100-002 for the component location.
 
-### Практические замечания
+### Shoptalk
 
-- Когда уровень охлаждающей жидкости падает ниже определенного уровня, будет активирован выпадение мощности, что снизит выходную мощность на 50 процентов в течение 30-секундного периода.
+- When the coolant level drops below a certain level, a power derate will be activated, which will decrease the power output by 50 percent over a 30-second period.
 
-- Если в цепи уровня охлаждающей жидкости используется штепсель, убедитесь, что он правильно подключен, переключатель уровня охлаждающей жидкости с высоким сигналом ** должен быть сокращен до подачи переключателя уровня охлаждающей жидкости, а переключатель уровня охлаждающей жидкости с низким сигналом * * * должен быть сокращен до возврата переключателя уровня охлаждающей жидкости.
+- If a shorting plug is used in the coolant level circuit, verify that it is wired correctly, the coolant level switch high signal **must** be shorted to the coolant level switch supply, and the coolant level switch low signal **must** be shorted to the coolant level switch return.
 
-- Осмотрите проводную упряжку между четырехсторонним разъемом и датчиком уровня охлаждающей жидкости на предмет повреждения.
+- Inspect the wiring harness between the four-way connector and the coolant level sensor for damage.
 
-См. Код устранения неполадок t05-197
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 197
->
-> ### Engine Coolant Level Low - Warning
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 197 PID(P): SPN: FMI: Lamp: Warning SRT: | Engine coolant level low - warning. Voltage signal indicates low radiator coolant level. | No action is taken by the ECM. Fault Codes 146, 151, 228, and/or 233 can also be logged. |
->
-> Coolant Level Sensor Circuit
->
-> ### Circuit Description
->
-> The coolant level sensor monitors the coolant level within the coolant system and passes information to the electronic control module (ECM).
->
-> ### Component Location
->
-> Refer to the Engine Diagrams. 100-002 for the component location.
->
-> ### Shoptalk
->
-> - When the coolant level drops below a certain level, a power derate will be activated, which will decrease the power output by 50 percent over a 30-second period.
->
-> - If a shorting plug is used in the coolant level circuit, verify that it is wired correctly, the coolant level switch high signal **must** be shorted to the coolant level switch supply, and the coolant level switch low signal **must** be shorted to the coolant level switch return.
->
-> - Inspect the wiring harness between the four-way connector and the coolant level sensor for damage.
->
-> Refer to Troubleshooting Fault Code t05-197
+Refer to Troubleshooting Fault Code t05-197

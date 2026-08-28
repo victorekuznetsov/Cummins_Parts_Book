@@ -24,15 +24,13 @@ parts:
   - "4068146"
   - "4295331"
   - "4975421"
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100650.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100650.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100650.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
   - "год/2007"
-  - "перевод/машинный"
   - "тема/cooling-system"
 ---
 
@@ -44,29 +42,21 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2007-11-30 · изменён 2007-11-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100650.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100650.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100650.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100650.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+## New Fan Tensioner Options
 
+### Warranty Statement
 
-## Новые варианты натяжителя вентилятора
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
 
-### Положение о гарантии
+### Contents
 
-Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+This Technical Service Bulletin introduces new industrial fan tensioner options for the QST30 engine. The new design features a more robust tensioner configuration. The old and new options are listed below.
 
-### Содержание
+The ESN first for these options is 37232255, built November 8, 2007.
 
-В этом бюллетене технического обслуживания представлены новые промышленные варианты натяжителей вентиляторов для двигателя QST30. Новый дизайн имеет более надежную конфигурацию натяжителя. Старые и новые варианты перечислены ниже.
-
-ESN, первый для этих вариантов, 37232255, построен 8 ноября 2007 года.
-
-| Старые напряженные опционы | Новые номера опционов Tensioner |
+| Old Tensioner Options Numbers | New Tensioner Options Numbers |
 |---|---|
 | FA5081 | FA5092 |
 | FA5070 | FA5091 |
@@ -76,225 +66,225 @@ ESN, первый для этих вариантов, 37232255, построен
 | FA5076 | FA5086 |
 | FA5080 | FA5090 |
 
-Ниже приведены списки частей для новых вариантов.
+The following are the parts lists for the new options
 
-| Список опционных частей - FA5091 |  |  |
+| New Option Parts List - FA5091 |  |  |
 |---|---|---|
-| Номер детали | Количество | Наименование |
-| [[3064111]] | 3 | Винтовка Hexagon Head Cap |
-| [[3092350]] | 4 | Винтовка Hexagon Head Cap |
-| 3176459 | 1 | Пояс, V Рибб |
-| 3056480 | 1 | Хаб, Фан. |
-| S 603 | 4 | Уошер, Лок |
-| 153581 | 4 | К черту, Двенадцать Поинт Кэп |
-| 3093978 | 1 | Брекет, подъем |
-| [[3093753]] | 8 | Винтовка Hexagon Head Cap |
-| [[3094718]] | 1 | Поддержка, фанат |
-| [[3093761]] | 2 | Винтовка Hexagon Head Cap |
-| [[4068146]] | 1 | Брекет, Идлер Пулли |
-| [[3896083]] | 2 | Винтовка Hexagon Head Cap |
-| [[4295331]] | 2 | Спейсер, Маунтинг |
-| [[4975421]] | 1 | Исполнитель: Fan Drive Idle |
-| S 608 | 3 | Уошер, Лок |
-| 4975435 | 1 | Род, контроль. |
-| S 121 B | 2 | Винтовка Hexagon Head Cap |
-| S 610 | 2 | Уошер, Лок |
-| S696 | 2 | Стиральная машина, Плейн |
-| 117267 | 1 | Стиральная машина, противовес |
-| [[3027728]] | 2 | Спейсер, Маунтинг |
-| 4975438 | 1 | Брекет, Напряжённый пояс |
-| 169196 | 4 | Винтовка Hexagon Head Cap |
-| 3092289 | 2 | Пластина, зажим |
-| 3092060 | 1 | Брекет, Напряжённый пояс |
+| Part Number | Quantity | Description |
+| [[3064111]] | 3 | Screw, Hexagon Head Cap |
+| [[3092350]] | 4 | Screw, Hexagon Head Cap |
+| 3176459 | 1 | Belt, V Ribbed |
+| 3056480 | 1 | Hub, Fan |
+| S 603 | 4 | Washer, Lock |
+| 153581 | 4 | Screw, Twelve Point Cap |
+| 3093978 | 1 | Bracket, Lifting |
+| [[3093753]] | 8 | Screw, Hexagon Head Cap |
+| [[3094718]] | 1 | Support, Fan |
+| [[3093761]] | 2 | Screw, Hexagon Head Cap |
+| [[4068146]] | 1 | Bracket, Idler Pulley |
+| [[3896083]] | 2 | Screw, Hexagon Head Cap |
+| [[4295331]] | 2 | Spacer, Mounting |
+| [[4975421]] | 1 | Assembly, Fan Drive Idle |
+| S 608 | 3 | Washer, Lock |
+| 4975435 | 1 | Rod, Control |
+| S 121 B | 2 | Screw, Hexagon Head Cap |
+| S 610 | 2 | Washer, Lock |
+| S 696 | 2 | Washer, Plain |
+| 117267 | 1 | Washer, Counter Weight |
+| [[3027728]] | 2 | Spacer, Mounting |
+| 4975438 | 1 | Bracket, Belt Tensioner |
+| 169196 | 4 | Screw, Hexagon Head Cap |
+| 3092289 | 2 | Plate, Clamping |
+| 3092060 | 1 | Bracket, Belt Tensioner |
 
-| Список опционных частей - FA5087 |  |  |
+| New Option Parts List - FA5087 |  |  |
 |---|---|---|
-| Номер детали | Количество | Наименование |
-| [[3064111]] | 3 | Винтовка Hexagon Head Cap |
-| [[3092350]] | 4 | Винтовка Hexagon Head Cap |
-| 3176460 | 1 | Пояс, V Рибб |
-| 3056480 | 1 | Хаб, Фан. |
-| S 603 | 4 | Уошер, Лок |
-| 153581 | 4 | К черту, Двенадцать Поинт Кэп |
-| 3093978 | 1 | Брекет, подъем |
-| [[3093753]] | 8 | Винтовка Hexagon Head Cap |
-| [[3094718]] | 1 | Поддержка, фанат |
-| [[3093761]] | 2 | Винтовка Hexagon Head Cap |
-| [[4068146]] | 1 | Брекет, Идлер Пулли |
-| [[3896083]] | 2 | Винтовка Hexagon Head Cap |
-| [[4295331]] | 2 | Спейсер, Маунтинг |
-| [[4975421]] | 1 | Исполнитель: Fan Drive Idle |
-| S 608 | 3 | Уошер, Лок |
-| 4975435 | 1 | Род, контроль. |
-| S 121 B | 2 | Винтовка Hexagon Head Cap |
-| S 610 | 2 | Уошер, Лок |
-| S696 | 2 | Стиральная машина, Плейн |
-| 117267 | 1 | Стиральная машина, противовес |
-| [[3027728]] | 2 | Спейсер, Маунтинг |
-| 4975438 | 1 | Брекет, Напряжённый пояс |
-| 169196 | 4 | Винтовка Hexagon Head Cap |
-| 3092289 | 2 | Пластина, зажим |
-| 3092060 | 1 | Брекет, Напряжённый пояс |
+| Part Number | Quantity | Description |
+| [[3064111]] | 3 | Screw, Hexagon Head Cap |
+| [[3092350]] | 4 | Screw, Hexagon Head Cap |
+| 3176460 | 1 | Belt, V Ribbed |
+| 3056480 | 1 | Hub, Fan |
+| S 603 | 4 | Washer, Lock |
+| 153581 | 4 | Screw, Twelve Point Cap |
+| 3093978 | 1 | Bracket, Lifting |
+| [[3093753]] | 8 | Screw, Hexagon Head Cap |
+| [[3094718]] | 1 | Support, Fan |
+| [[3093761]] | 2 | Screw, Hexagon Head Cap |
+| [[4068146]] | 1 | Bracket, Idler Pulley |
+| [[3896083]] | 2 | Screw, Hexagon Head Cap |
+| [[4295331]] | 2 | Spacer, Mounting |
+| [[4975421]] | 1 | Assembly, Fan Drive Idle |
+| S 608 | 3 | Washer, Lock |
+| 4975435 | 1 | Rod, Control |
+| S 121 B | 2 | Screw, Hexagon Head Cap |
+| S 610 | 2 | Washer, Lock |
+| S 696 | 2 | Washer, Plain |
+| 117267 | 1 | Washer, Counter Weight |
+| [[3027728]] | 2 | Spacer, Mounting |
+| 4975438 | 1 | Bracket, Belt Tensioner |
+| 169196 | 4 | Screw, Hexagon Head Cap |
+| 3092289 | 2 | Plate, Clamping |
+| 3092060 | 1 | Bracket, Belt Tensioner |
 
-| Список опционных частей - FA5088 |  |  |
+| New Option Parts List - FA5088 |  |  |
 |---|---|---|
-| Номер детали | Количество | Наименование |
-| [[3064111]] | 3 | Винтовка Hexagon Head Cap |
-| [[3092350]] | 4 | Винтовка Hexagon Head Cap |
-| 3176457 | 1 | Пояс, V Рибб |
-| 3056480 | 1 | Хаб, Фан. |
-| S 603 | 4 | Уошер, Лок |
-| 153581 | 4 | К черту, Двенадцать Поинт Кэп |
-| 3093978 | 1 | Брекет, подъем |
-| [[3093753]] | 8 | Винтовка Hexagon Head Cap |
-| [[3094718]] | 1 | Поддержка, фанат |
-| [[3093761]] | 2 | Винтовка Hexagon Head Cap |
-| [[4068146]] | 1 | Брекет, Идлер Пулли |
-| [[3896083]] | 2 | Винтовка Hexagon Head Cap |
-| [[4295331]] | 2 | Спейсер, Маунтинг |
-| [[4975421]] | 1 | Исполнитель: Fan Drive Idle |
-| S 608 | 3 | Уошер, Лок |
-| 4975435 | 1 | Род, контроль. |
-| S 121 B | 2 | Винтовка Hexagon Head Cap |
-| S 610 | 2 | Уошер, Лок |
-| S696 | 2 | Стиральная машина, Плейн |
-| 117267 | 1 | Стиральная машина, противовес |
-| [[3027728]] | 2 | Спейсер, Маунтинг |
-| 4975438 | 1 | Брекет, Напряжённый пояс |
-| 169196 | 4 | Винтовка Hexagon Head Cap |
-| 3092289 | 2 | Пластина, зажим |
-| 3092060 | 1 | Брекет, Напряжённый пояс |
+| Part Number | Quantity | Description |
+| [[3064111]] | 3 | Screw, Hexagon Head Cap |
+| [[3092350]] | 4 | Screw, Hexagon Head Cap |
+| 3176457 | 1 | Belt, V Ribbed |
+| 3056480 | 1 | Hub, Fan |
+| S 603 | 4 | Washer, Lock |
+| 153581 | 4 | Screw, Twelve Point Cap |
+| 3093978 | 1 | Bracket, Lifting |
+| [[3093753]] | 8 | Screw, Hexagon Head Cap |
+| [[3094718]] | 1 | Support, Fan |
+| [[3093761]] | 2 | Screw, Hexagon Head Cap |
+| [[4068146]] | 1 | Bracket, Idler Pulley |
+| [[3896083]] | 2 | Screw, Hexagon Head Cap |
+| [[4295331]] | 2 | Spacer, Mounting |
+| [[4975421]] | 1 | Assembly, Fan Drive Idle |
+| S 608 | 3 | Washer, Lock |
+| 4975435 | 1 | Rod, Control |
+| S 121 B | 2 | Screw, Hexagon Head Cap |
+| S 610 | 2 | Washer, Lock |
+| S 696 | 2 | Washer, Plain |
+| 117267 | 1 | Washer, Counter Weight |
+| [[3027728]] | 2 | Spacer, Mounting |
+| 4975438 | 1 | Bracket, Belt Tensioner |
+| 169196 | 4 | Screw, Hexagon Head Cap |
+| 3092289 | 2 | Plate, Clamping |
+| 3092060 | 1 | Bracket, Belt Tensioner |
 
-| Список опционных частей - FA5085 |  |  |
+| New Option Parts List - FA5085 |  |  |
 |---|---|---|
-| Номер детали | Количество | Наименование |
-| 3044490 | 1 | Пояс, V Рибб |
-| [[3064111]] | 3 | Винтовка Hexagon Head Cap |
-| [[3092350]] | 4 | Винтовка Hexagon Head Cap |
-| 3056480 | 1 | Хаб, Фан. |
-| S 603 | 4 | Уошер, Лок |
-| 153581 | 4 | К черту, Двенадцать Поинт Кэп |
-| 3093978 | 1 | Брекет, подъем |
-| [[3093753]] | 8 | Винтовка Hexagon Head Cap |
-| [[3094718]] | 1 | Поддержка, фанат |
-| [[3093761]] | 2 | Винтовка Hexagon Head Cap |
-| [[4068146]] | 1 | Брекет, Идлер Пулли |
-| [[3896083]] | 2 | Винтовка Hexagon Head Cap |
-| [[4295331]] | 2 | Спейсер, Маунтинг |
-| [[4975421]] | 1 | Исполнитель: Fan Drive Idle |
-| S 608 | 3 | Уошер, Лок |
-| 4975435 | 1 | Род, контроль. |
-| S 121 | 2 | Винтовка Hexagon Head Cap |
-| S 610 | 2 | Уошер, Лок |
-| S696 | 2 | Стиральная машина, Плейн |
-| 117267 | 1 | Стиральная машина, противовес |
-| [[3027728]] | 2 | Спейсер, Маунтинг |
-| 4975438 | 1 | Брекет, Напряжённый пояс |
-| 169196 | 4 | Винтовка Hexagon Head Cap |
-| 3092289 | 2 | Пластина, зажим |
-| 3092060 | 1 | Брекет, Напряжённый пояс |
+| Part Number | Quantity | Description |
+| 3044490 | 1 | Belt, V Ribbed |
+| [[3064111]] | 3 | Screw, Hexagon Head Cap |
+| [[3092350]] | 4 | Screw, Hexagon Head Cap |
+| 3056480 | 1 | Hub, Fan |
+| S 603 | 4 | Washer, Lock |
+| 153581 | 4 | Screw, Twelve Point Cap |
+| 3093978 | 1 | Bracket, Lifting |
+| [[3093753]] | 8 | Screw, Hexagon Head Cap |
+| [[3094718]] | 1 | Support, Fan |
+| [[3093761]] | 2 | Screw, Hexagon Head Cap |
+| [[4068146]] | 1 | Bracket, Idler Pulley |
+| [[3896083]] | 2 | Screw, Hexagon Head Cap |
+| [[4295331]] | 2 | Spacer, Mounting |
+| [[4975421]] | 1 | Assembly, Fan Drive Idle |
+| S 608 | 3 | Washer, Lock |
+| 4975435 | 1 | Rod, Control |
+| S 121 | 2 | Screw, Hexagon Head Cap |
+| S 610 | 2 | Washer, Lock |
+| S 696 | 2 | Washer, Plain |
+| 117267 | 1 | Washer, Counter Weight |
+| [[3027728]] | 2 | Spacer, Mounting |
+| 4975438 | 1 | Bracket, Belt Tensioner |
+| 169196 | 4 | Screw, Hexagon Head Cap |
+| 3092289 | 2 | Plate, Clamping |
+| 3092060 | 1 | Bracket, Belt Tensioner |
 
-| Список опционных частей - FA5086 |  |  |
+| New Option Parts List - FA5086 |  |  |
 |---|---|---|
-| Номер детали | Количество | Наименование |
-| 3044491 | 1 | Пояс, V Рибб |
-| [[3064111]] | 3 | Винтовка Hexagon Head Cap |
-| [[3092350]] | 3 | Винтовка Hexagon Head Cap |
-| 3056480 | 1 | Хаб, Фан. |
-| S 603 | 4 | Уошер, Лок |
-| 153581 | 4 | К черту, Двенадцать Поинт Кэп |
-| 3093978 | 1 | Брекет, подъем |
-| [[3093753]] | 8 | Винтовка Hexagon Head Cap |
-| [[3094718]] | 1 | Поддержка, фанат |
-| [[3093761]] | 3 | Винтовка Hexagon Head Cap |
-| 4068013 | 1 | Брекет, Идлер Пулли |
-| 3092474 | 2 | Винтовка Hexagon Head Cap |
-| 3092485 | 2 | Спейсер, Маунтинг |
-| 3092512 | 1 | Спейсер, Маунтинг |
-| 3281674 | 1 | Винтовка Hexagon Head Cap |
-| 4068019 | 1 | Собрание, Идлер Пулли |
-| 3035803 | 3 | Орех, обычный шестиугольник |
-| 3093756 | 3 | Винтовка Hexagon Head Cap |
-| [[4068146]] | 1 | Брекет, Идлер Пулли |
-| [[3896083]] | 2 | Винтовка Hexagon Head Cap |
-| [[4295331]] | 2 | Спейсер, Маунтинг |
-| [[4975421]] | 1 | Исполнитель: Fan Drive Idle |
-| S 608 | 3 | Уошер, Лок |
-| 4975435 | 1 | Род, контроль. |
-| S 121 | 2 | Винтовка Hexagon Head Cap |
-| S 610 | 2 | Уошер, Лок |
-| S696 | 2 | Стиральная машина, Плейн |
-| 117267 | 1 | Стиральная машина, противовес |
-| [[3027728]] | 2 | Спейсер, Маунтинг |
-| 4975438 | 1 | Брекет, Напряжённый пояс |
-| 169196 | 4 | Винтовка Hexagon Head Cap |
-| 3092289 | 2 | Пластина, зажим |
+| Part Number | Quantity | Description |
+| 3044491 | 1 | Belt, V Ribbed |
+| [[3064111]] | 3 | Screw, Hexagon Head Cap |
+| [[3092350]] | 3 | Screw, Hexagon Head Cap |
+| 3056480 | 1 | Hub, Fan |
+| S 603 | 4 | Washer, Lock |
+| 153581 | 4 | Screw, Twelve Point Cap |
+| 3093978 | 1 | Bracket, Lifting |
+| [[3093753]] | 8 | Screw, Hexagon Head Cap |
+| [[3094718]] | 1 | Support, Fan |
+| [[3093761]] | 3 | Screw, Hexagon Head Cap |
+| 4068013 | 1 | Bracket, Idler Pulley |
+| 3092474 | 2 | Screw, Hexagon Head Cap |
+| 3092485 | 2 | Spacer, Mounting |
+| 3092512 | 1 | Spacer, Mounting |
+| 3281674 | 1 | Screw, Hexagon Head Cap |
+| 4068019 | 1 | Assembly, Idler Pulley |
+| 3035803 | 3 | Nut, Regular Hexagon |
+| 3093756 | 3 | Screw, Hexagon Head Cap |
+| [[4068146]] | 1 | Bracket, Idler Pulley |
+| [[3896083]] | 2 | Screw, Hexagon Head Cap |
+| [[4295331]] | 2 | Spacer, Mounting |
+| [[4975421]] | 1 | Assembly, Fan Drive Idle |
+| S 608 | 3 | Washer, Lock |
+| 4975435 | 1 | Rod, Control |
+| S 121 | 2 | Screw, Hexagon Head Cap |
+| S 610 | 2 | Washer, Lock |
+| S 696 | 2 | Washer, Plain |
+| 117267 | 1 | Washer, Counter Weight |
+| [[3027728]] | 2 | Spacer, Mounting |
+| 4975438 | 1 | Bracket, Belt Tensioner |
+| 169196 | 4 | Screw, Hexagon Head Cap |
+| 3092289 | 2 | Plate, Clamping |
 
-| Список опционных частей - FA5090 |  |  |
+| New Option Parts List - FA5090 |  |  |
 |---|---|---|
-| Номер детали | Количество | Наименование |
-| 3044490 | 1 | Пояс, V Рибб |
-| [[3064111]] | 3 | Винтовка Hexagon Head Cap |
-| [[3092350]] | 4 | Винтовка Hexagon Head Cap |
-| 3056480 | 1 | Хаб, Фан. |
-| S 603 | 4 | Уошер, Лок |
-| 153581 | 4 | К черту, Двенадцать Поинт Кэп |
-| 3093978 | 1 | Брекет, подъем |
-| [[3093753]] | 8 | Винтовка Hexagon Head Cap |
-| [[3094718]] | 1 | Поддержка, фанат |
-| [[3093761]] | 2 | Винтовка Hexagon Head Cap |
-| [[4068146]] | 1 | Брекет, Идлер Пулли |
-| [[3896083]] | 2 | Винтовка Hexagon Head Cap |
-| [[4295331]] | 2 | Спейсер, Маунтинг |
-| [[4975421]] | 1 | Исполнитель: Fan Drive Idle |
-| S 608 | 3 | Уошер, Лок |
-| 4975435 | 1 | Род, контроль. |
-| S 121 | 2 | Винтовка Hexagon Head Cap |
-| S 610 | 2 | Уошер, Лок |
-| S696 | 2 | Стиральная машина, Плейн |
-| 117267 | 1 | Стиральная машина, противовес |
-| [[3027728]] | 2 | Спейсер, Маунтинг |
-| 4975438 | 1 | Брекет, Напряжённый пояс |
-| 169196 | 4 | Винтовка Hexagon Head Cap |
-| 3092289 | 2 | Пластина, зажим |
-| 3092060 | 1 | Брекет, Напряжённый пояс |
+| Part Number | Quantity | Description |
+| 3044490 | 1 | Belt, V Ribbed |
+| [[3064111]] | 3 | Screw, Hexagon Head Cap |
+| [[3092350]] | 4 | Screw, Hexagon Head Cap |
+| 3056480 | 1 | Hub, Fan |
+| S 603 | 4 | Washer, Lock |
+| 153581 | 4 | Screw, Twelve Point Cap |
+| 3093978 | 1 | Bracket, Lifting |
+| [[3093753]] | 8 | Screw, Hexagon Head Cap |
+| [[3094718]] | 1 | Support, Fan |
+| [[3093761]] | 2 | Screw, Hexagon Head Cap |
+| [[4068146]] | 1 | Bracket, Idler Pulley |
+| [[3896083]] | 2 | Screw, Hexagon Head Cap |
+| [[4295331]] | 2 | Spacer, Mounting |
+| [[4975421]] | 1 | Assembly, Fan Drive Idle |
+| S 608 | 3 | Washer, Lock |
+| 4975435 | 1 | Rod, Control |
+| S 121 | 2 | Screw, Hexagon Head Cap |
+| S 610 | 2 | Washer, Lock |
+| S 696 | 2 | Washer, Plain |
+| 117267 | 1 | Washer, Counter Weight |
+| [[3027728]] | 2 | Spacer, Mounting |
+| 4975438 | 1 | Bracket, Belt Tensioner |
+| 169196 | 4 | Screw, Hexagon Head Cap |
+| 3092289 | 2 | Plate, Clamping |
+| 3092060 | 1 | Bracket, Belt Tensioner |
 
-| Список опционных частей - FA5092 |  |  |
+| New Option Parts List - FA5092 |  |  |
 |---|---|---|
-| Номер детали | Количество | Наименование |
-| 3044490 | 1 | Пояс, V Рибб |
-| 4295499 | 1 | Брекет, Идлер Пулли |
-| [[3092350]] | 3 | Винтовка Hexagon Head Cap |
-| 3092474 | 2 | Винтовка Hexagon Head Cap |
-| 3092485 | 1 | Спейсер, Маунтинг |
-| 3092512 | 1 | Спейсер, Маунтинг |
-| 3093978 | 1 | Брекет, подъем |
-| [[3093753]] | 8 | Винтовка Hexagon Head Cap |
-| [[3094718]] | 1 | Поддержка, фанат |
-| [[3093761]] | 2 | Винтовка Hexagon Head Cap |
-| 3626879 | 1 | Сцепление, Фан |
-| S 603 | 4 | Уошер, Лок |
-| 153581 | 4 | К черту, Двенадцать Поинт Кэп |
-| 3092163 | 1 | Эльбоу, женщина-адаптер |
-| 3092170 | 1 | Ниппель, Обычная труба |
-| 3092171 | 1 | Связь, передача нефти |
-| 3170812 | 1 | Коннектор, мужчина |
-| 3866230 | 1 | Связь, передача нефти |
-| [[4068146]] | 1 | Брекет, Идлер Пулли |
-| [[4295331]] | 2 | Спейсер, Маунтинг |
-| [[3896083]] | 2 | Винтовка Hexagon Head Cap |
-| [[4975421]] | 1 | Исполнитель: Fan Drive Idler |
-| S 608 | 3 | Уошер, Лок |
-| [[3064111]] | 3 | Винтовка Hexagon Head Cap |
-| 4975435 | 1 | Род, контроль. |
-| S121 B | 2 | Винтовка Hexagon Head Cap |
-| S610 | 2 | Уошер, Лок |
-| S696 | 2 | Стиральная машина, Плейн |
-| 117267 | 1 | Стиральная машина, противовес |
-| [[3027728]] | 2 | Спейсер, Маунтинг |
-| 4975438 | 1 | Брекет, Напряжённый пояс |
-| 169196 | 4 | Винтовка Hexagon Head Cap |
-| 3092289 | 2 | Пластина, зажим |
+| Part Number | Quantity | Description |
+| 3044490 | 1 | Belt, V Ribbed |
+| 4295499 | 1 | Bracket, Idler Pulley |
+| [[3092350]] | 3 | Screw, Hexagon Head Cap |
+| 3092474 | 2 | Screw, Hexagon Head Cap |
+| 3092485 | 1 | Spacer, Mounting |
+| 3092512 | 1 | Spacer, Mounting |
+| 3093978 | 1 | Bracket, Lifting |
+| [[3093753]] | 8 | Screw, Hexagon Head Cap |
+| [[3094718]] | 1 | Support, Fan |
+| [[3093761]] | 2 | Screw, Hexagon Head Cap |
+| 3626879 | 1 | Clutch, Fan |
+| S 603 | 4 | Washer, Lock |
+| 153581 | 4 | Screw, Twelve Point Cap |
+| 3092163 | 1 | Elbow, Female Adapter |
+| 3092170 | 1 | Nipple, Plain Pipe |
+| 3092171 | 1 | Connection, Oil Transfer |
+| 3170812 | 1 | Connector, Male |
+| 3866230 | 1 | Connection, Oil Transfer |
+| [[4068146]] | 1 | Bracket, Idler Pulley |
+| [[4295331]] | 2 | Spacer, Mounting |
+| [[3896083]] | 2 | Screw, Hexagon Head Cap |
+| [[4975421]] | 1 | Assembly, Fan Drive Idler |
+| S 608 | 3 | Washer, Lock |
+| [[3064111]] | 3 | Screw, Hexagon Head Cap |
+| 4975435 | 1 | Rod, Control |
+| S121 B | 2 | Screw, Hexagon Head Cap |
+| S610 | 2 | Washer, Lock |
+| S696 | 2 | Washer, Plain |
+| 117267 | 1 | Washer, Counter Weight |
+| [[3027728]] | 2 | Spacer, Mounting |
+| 4975438 | 1 | Bracket, Belt Tensioner |
+| 169196 | 4 | Screw, Hexagon Head Cap |
+| 3092289 | 2 | Plate, Clamping |
 
 ## Детали, упомянутые в документе
 
@@ -310,246 +300,3 @@ ESN, первый для этих вариантов, 37232255, построен
 | [[4068146]] | IDLER PULLEY BRACKET | Кронштейн натяжного ролика |
 | [[4295331]] | MOUNTING SPACER | Монтажная распорная втулка |
 | [[4975421]] | IDLER PULLEY | Натяжной ролик |
-
-> [!quote]- Original (English) · английский оригинал
-> ## New Fan Tensioner Options
->
-> ### Warranty Statement
->
-> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
->
-> ### Contents
->
-> This Technical Service Bulletin introduces new industrial fan tensioner options for the QST30 engine. The new design features a more robust tensioner configuration. The old and new options are listed below.
->
-> The ESN first for these options is 37232255, built November 8, 2007.
->
-> | Old Tensioner Options Numbers | New Tensioner Options Numbers |
-> |---|---|
-> | FA5081 | FA5092 |
-> | FA5070 | FA5091 |
-> | FA5071 | FA5087 |
-> | FA5072 | FA5088 |
-> | FA5073 | FA5085 |
-> | FA5076 | FA5086 |
-> | FA5080 | FA5090 |
->
-> The following are the parts lists for the new options
->
-> | New Option Parts List - FA5091 |  |  |
-> |---|---|---|
-> | Part Number | Quantity | Description |
-> | [[3064111]] | 3 | Screw, Hexagon Head Cap |
-> | [[3092350]] | 4 | Screw, Hexagon Head Cap |
-> | 3176459 | 1 | Belt, V Ribbed |
-> | 3056480 | 1 | Hub, Fan |
-> | S 603 | 4 | Washer, Lock |
-> | 153581 | 4 | Screw, Twelve Point Cap |
-> | 3093978 | 1 | Bracket, Lifting |
-> | [[3093753]] | 8 | Screw, Hexagon Head Cap |
-> | [[3094718]] | 1 | Support, Fan |
-> | [[3093761]] | 2 | Screw, Hexagon Head Cap |
-> | [[4068146]] | 1 | Bracket, Idler Pulley |
-> | [[3896083]] | 2 | Screw, Hexagon Head Cap |
-> | [[4295331]] | 2 | Spacer, Mounting |
-> | [[4975421]] | 1 | Assembly, Fan Drive Idle |
-> | S 608 | 3 | Washer, Lock |
-> | 4975435 | 1 | Rod, Control |
-> | S 121 B | 2 | Screw, Hexagon Head Cap |
-> | S 610 | 2 | Washer, Lock |
-> | S 696 | 2 | Washer, Plain |
-> | 117267 | 1 | Washer, Counter Weight |
-> | [[3027728]] | 2 | Spacer, Mounting |
-> | 4975438 | 1 | Bracket, Belt Tensioner |
-> | 169196 | 4 | Screw, Hexagon Head Cap |
-> | 3092289 | 2 | Plate, Clamping |
-> | 3092060 | 1 | Bracket, Belt Tensioner |
->
-> | New Option Parts List - FA5087 |  |  |
-> |---|---|---|
-> | Part Number | Quantity | Description |
-> | [[3064111]] | 3 | Screw, Hexagon Head Cap |
-> | [[3092350]] | 4 | Screw, Hexagon Head Cap |
-> | 3176460 | 1 | Belt, V Ribbed |
-> | 3056480 | 1 | Hub, Fan |
-> | S 603 | 4 | Washer, Lock |
-> | 153581 | 4 | Screw, Twelve Point Cap |
-> | 3093978 | 1 | Bracket, Lifting |
-> | [[3093753]] | 8 | Screw, Hexagon Head Cap |
-> | [[3094718]] | 1 | Support, Fan |
-> | [[3093761]] | 2 | Screw, Hexagon Head Cap |
-> | [[4068146]] | 1 | Bracket, Idler Pulley |
-> | [[3896083]] | 2 | Screw, Hexagon Head Cap |
-> | [[4295331]] | 2 | Spacer, Mounting |
-> | [[4975421]] | 1 | Assembly, Fan Drive Idle |
-> | S 608 | 3 | Washer, Lock |
-> | 4975435 | 1 | Rod, Control |
-> | S 121 B | 2 | Screw, Hexagon Head Cap |
-> | S 610 | 2 | Washer, Lock |
-> | S 696 | 2 | Washer, Plain |
-> | 117267 | 1 | Washer, Counter Weight |
-> | [[3027728]] | 2 | Spacer, Mounting |
-> | 4975438 | 1 | Bracket, Belt Tensioner |
-> | 169196 | 4 | Screw, Hexagon Head Cap |
-> | 3092289 | 2 | Plate, Clamping |
-> | 3092060 | 1 | Bracket, Belt Tensioner |
->
-> | New Option Parts List - FA5088 |  |  |
-> |---|---|---|
-> | Part Number | Quantity | Description |
-> | [[3064111]] | 3 | Screw, Hexagon Head Cap |
-> | [[3092350]] | 4 | Screw, Hexagon Head Cap |
-> | 3176457 | 1 | Belt, V Ribbed |
-> | 3056480 | 1 | Hub, Fan |
-> | S 603 | 4 | Washer, Lock |
-> | 153581 | 4 | Screw, Twelve Point Cap |
-> | 3093978 | 1 | Bracket, Lifting |
-> | [[3093753]] | 8 | Screw, Hexagon Head Cap |
-> | [[3094718]] | 1 | Support, Fan |
-> | [[3093761]] | 2 | Screw, Hexagon Head Cap |
-> | [[4068146]] | 1 | Bracket, Idler Pulley |
-> | [[3896083]] | 2 | Screw, Hexagon Head Cap |
-> | [[4295331]] | 2 | Spacer, Mounting |
-> | [[4975421]] | 1 | Assembly, Fan Drive Idle |
-> | S 608 | 3 | Washer, Lock |
-> | 4975435 | 1 | Rod, Control |
-> | S 121 B | 2 | Screw, Hexagon Head Cap |
-> | S 610 | 2 | Washer, Lock |
-> | S 696 | 2 | Washer, Plain |
-> | 117267 | 1 | Washer, Counter Weight |
-> | [[3027728]] | 2 | Spacer, Mounting |
-> | 4975438 | 1 | Bracket, Belt Tensioner |
-> | 169196 | 4 | Screw, Hexagon Head Cap |
-> | 3092289 | 2 | Plate, Clamping |
-> | 3092060 | 1 | Bracket, Belt Tensioner |
->
-> | New Option Parts List - FA5085 |  |  |
-> |---|---|---|
-> | Part Number | Quantity | Description |
-> | 3044490 | 1 | Belt, V Ribbed |
-> | [[3064111]] | 3 | Screw, Hexagon Head Cap |
-> | [[3092350]] | 4 | Screw, Hexagon Head Cap |
-> | 3056480 | 1 | Hub, Fan |
-> | S 603 | 4 | Washer, Lock |
-> | 153581 | 4 | Screw, Twelve Point Cap |
-> | 3093978 | 1 | Bracket, Lifting |
-> | [[3093753]] | 8 | Screw, Hexagon Head Cap |
-> | [[3094718]] | 1 | Support, Fan |
-> | [[3093761]] | 2 | Screw, Hexagon Head Cap |
-> | [[4068146]] | 1 | Bracket, Idler Pulley |
-> | [[3896083]] | 2 | Screw, Hexagon Head Cap |
-> | [[4295331]] | 2 | Spacer, Mounting |
-> | [[4975421]] | 1 | Assembly, Fan Drive Idle |
-> | S 608 | 3 | Washer, Lock |
-> | 4975435 | 1 | Rod, Control |
-> | S 121 | 2 | Screw, Hexagon Head Cap |
-> | S 610 | 2 | Washer, Lock |
-> | S 696 | 2 | Washer, Plain |
-> | 117267 | 1 | Washer, Counter Weight |
-> | [[3027728]] | 2 | Spacer, Mounting |
-> | 4975438 | 1 | Bracket, Belt Tensioner |
-> | 169196 | 4 | Screw, Hexagon Head Cap |
-> | 3092289 | 2 | Plate, Clamping |
-> | 3092060 | 1 | Bracket, Belt Tensioner |
->
-> | New Option Parts List - FA5086 |  |  |
-> |---|---|---|
-> | Part Number | Quantity | Description |
-> | 3044491 | 1 | Belt, V Ribbed |
-> | [[3064111]] | 3 | Screw, Hexagon Head Cap |
-> | [[3092350]] | 3 | Screw, Hexagon Head Cap |
-> | 3056480 | 1 | Hub, Fan |
-> | S 603 | 4 | Washer, Lock |
-> | 153581 | 4 | Screw, Twelve Point Cap |
-> | 3093978 | 1 | Bracket, Lifting |
-> | [[3093753]] | 8 | Screw, Hexagon Head Cap |
-> | [[3094718]] | 1 | Support, Fan |
-> | [[3093761]] | 3 | Screw, Hexagon Head Cap |
-> | 4068013 | 1 | Bracket, Idler Pulley |
-> | 3092474 | 2 | Screw, Hexagon Head Cap |
-> | 3092485 | 2 | Spacer, Mounting |
-> | 3092512 | 1 | Spacer, Mounting |
-> | 3281674 | 1 | Screw, Hexagon Head Cap |
-> | 4068019 | 1 | Assembly, Idler Pulley |
-> | 3035803 | 3 | Nut, Regular Hexagon |
-> | 3093756 | 3 | Screw, Hexagon Head Cap |
-> | [[4068146]] | 1 | Bracket, Idler Pulley |
-> | [[3896083]] | 2 | Screw, Hexagon Head Cap |
-> | [[4295331]] | 2 | Spacer, Mounting |
-> | [[4975421]] | 1 | Assembly, Fan Drive Idle |
-> | S 608 | 3 | Washer, Lock |
-> | 4975435 | 1 | Rod, Control |
-> | S 121 | 2 | Screw, Hexagon Head Cap |
-> | S 610 | 2 | Washer, Lock |
-> | S 696 | 2 | Washer, Plain |
-> | 117267 | 1 | Washer, Counter Weight |
-> | [[3027728]] | 2 | Spacer, Mounting |
-> | 4975438 | 1 | Bracket, Belt Tensioner |
-> | 169196 | 4 | Screw, Hexagon Head Cap |
-> | 3092289 | 2 | Plate, Clamping |
->
-> | New Option Parts List - FA5090 |  |  |
-> |---|---|---|
-> | Part Number | Quantity | Description |
-> | 3044490 | 1 | Belt, V Ribbed |
-> | [[3064111]] | 3 | Screw, Hexagon Head Cap |
-> | [[3092350]] | 4 | Screw, Hexagon Head Cap |
-> | 3056480 | 1 | Hub, Fan |
-> | S 603 | 4 | Washer, Lock |
-> | 153581 | 4 | Screw, Twelve Point Cap |
-> | 3093978 | 1 | Bracket, Lifting |
-> | [[3093753]] | 8 | Screw, Hexagon Head Cap |
-> | [[3094718]] | 1 | Support, Fan |
-> | [[3093761]] | 2 | Screw, Hexagon Head Cap |
-> | [[4068146]] | 1 | Bracket, Idler Pulley |
-> | [[3896083]] | 2 | Screw, Hexagon Head Cap |
-> | [[4295331]] | 2 | Spacer, Mounting |
-> | [[4975421]] | 1 | Assembly, Fan Drive Idle |
-> | S 608 | 3 | Washer, Lock |
-> | 4975435 | 1 | Rod, Control |
-> | S 121 | 2 | Screw, Hexagon Head Cap |
-> | S 610 | 2 | Washer, Lock |
-> | S 696 | 2 | Washer, Plain |
-> | 117267 | 1 | Washer, Counter Weight |
-> | [[3027728]] | 2 | Spacer, Mounting |
-> | 4975438 | 1 | Bracket, Belt Tensioner |
-> | 169196 | 4 | Screw, Hexagon Head Cap |
-> | 3092289 | 2 | Plate, Clamping |
-> | 3092060 | 1 | Bracket, Belt Tensioner |
->
-> | New Option Parts List - FA5092 |  |  |
-> |---|---|---|
-> | Part Number | Quantity | Description |
-> | 3044490 | 1 | Belt, V Ribbed |
-> | 4295499 | 1 | Bracket, Idler Pulley |
-> | [[3092350]] | 3 | Screw, Hexagon Head Cap |
-> | 3092474 | 2 | Screw, Hexagon Head Cap |
-> | 3092485 | 1 | Spacer, Mounting |
-> | 3092512 | 1 | Spacer, Mounting |
-> | 3093978 | 1 | Bracket, Lifting |
-> | [[3093753]] | 8 | Screw, Hexagon Head Cap |
-> | [[3094718]] | 1 | Support, Fan |
-> | [[3093761]] | 2 | Screw, Hexagon Head Cap |
-> | 3626879 | 1 | Clutch, Fan |
-> | S 603 | 4 | Washer, Lock |
-> | 153581 | 4 | Screw, Twelve Point Cap |
-> | 3092163 | 1 | Elbow, Female Adapter |
-> | 3092170 | 1 | Nipple, Plain Pipe |
-> | 3092171 | 1 | Connection, Oil Transfer |
-> | 3170812 | 1 | Connector, Male |
-> | 3866230 | 1 | Connection, Oil Transfer |
-> | [[4068146]] | 1 | Bracket, Idler Pulley |
-> | [[4295331]] | 2 | Spacer, Mounting |
-> | [[3896083]] | 2 | Screw, Hexagon Head Cap |
-> | [[4975421]] | 1 | Assembly, Fan Drive Idler |
-> | S 608 | 3 | Washer, Lock |
-> | [[3064111]] | 3 | Screw, Hexagon Head Cap |
-> | 4975435 | 1 | Rod, Control |
-> | S121 B | 2 | Screw, Hexagon Head Cap |
-> | S610 | 2 | Washer, Lock |
-> | S696 | 2 | Washer, Plain |
-> | 117267 | 1 | Washer, Counter Weight |
-> | [[3027728]] | 2 | Spacer, Mounting |
-> | 4975438 | 1 | Bracket, Belt Tensioner |
-> | 169196 | 4 | Screw, Hexagon Head Cap |
-> | 3092289 | 2 | Plate, Clamping |

@@ -8,317 +8,193 @@ title_ru: "Жгут проводов двигателя"
 modified: "2007-04-16"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021617"
 figures: 26
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-043.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-043.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-043.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/116"
-  - "перевод/машинный"
 ---
 
 # Engine Wiring Harness
 **Жгут проводов двигателя**
 
 > [!abstract] Процедура · `116-019-043`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual|4021617]]
 > **Секции:** Section 19 - Electronic Engine Controls
 > **Даты:** изменён 2007-04-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-043.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-043.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Remove
 
-
-### Снятие
-
-Отключите кабель, который соединяет окно интерфейса клиента с разъемом C Command Elite Plus.
+Disconnect the cable that connects the customer interface box to the C Command Elite Plus harness connector.
 
 ![[19601015.png]]
 
-Разблокируйте винты разъема и удалите разъемы из низкоскоростного переключателя давления масла (1) и высокоскоростного переключателя давления масла (2).
+Loosen the connector screws and remove the connectors from the low speed oil pressure switch (1) and the high speed oil pressure switch (2).
 
-Освободите четыре болта головы Аллена и удалите блок давления масла.
+Loosen the four allen head capscrews and remove the oil pressure block.
 
-Отключите оба разъема датчика скорости двигателя (3).
+Disconnect both engine speed sensor connectors (3).
 
-> [!note] Примечание
-> Для каждого судна предусмотрены дополнительный запасной разъем датчика давления и запасной разъем датчика температуры. Если судно использовало дополнительные разъемы, отсоедините разъемы.
+> [!note] Note · Примечание
+> An optional spare pressure sensor connector and a spare temperature sensor connector are provided for each vessel. If the vessel has used the optional connectors, disconnect the connectors.
 
 ![[19601016.png]]
 
-Освободите винт разъема и удалите разъем из датчика давления фильтра перед маслом.
+Loosen the connector screw and remove the connector from the pre-oil filter pressure sensor.
 
 ![[19601017.png]]
 
-Освободите винт разъема и удалите разъем из датчика температуры масла.
+Loosen the connector screw and remove the connector from the oil temperature sensor.
 
 ![[19601018.png]]
 
-Освободите соединительные винты и удалите разъёмы из:
+Loosen the connector screws and remove the connectors from the:
 
-- Датчик давления морской воды (1)
-- Переключатель температуры охлаждающей жидкости (2)
-- Переключатель давления охлаждающей жидкости (3)
-- Датчик давления охлаждающей жидкости (4).
+- Sea water pressure sensor (1)
+- Coolant temperature switch (2)
+- Coolant pressure switch (3)
+- Coolant pressure sensor (4).
 
-Отключите разъем переключателя индикатора утечки топлива (5).
+Disconnect the fuel leakage indicator switch connector (5).
 
 ![[19601019.png]]
 
-Удалите p-клипы с задней части передней крышки.
+Remove the p-clips from the back of the front cover.
 
-Маршрутируйте жгут и разъёмы проводов вниз по задней части передней крышки и позвольте жгуту проводов поддерживаться с помощью масляных пан-р-клипов.
+Route the harness and connectors down the back of the front cover and allow the harness to be supported by the oil pan p-clips.
 
 ![[19601020.png]]
 
-Удалите p-клипы из масляной кастрюли.
+Remove the p-clips from the oil pan.
 
-Позвольте электропроводке быть поддерживаемой p-клипами по фильтру элиминатора.
+Allow the harness to be supported by the p-clips over the eliminator filter.
 
 ![[19601021.png]]
 
-Удалите p-клипы из впускного коллектора.
+Remove the p-clips from the intake manifold.
 
 ![[19601022.png]]
 
-Снимите болты скоб.
+Remove the bracket capscrews.
 
-Удалите соединительную кронштейн и монтажную упряжку проводов из двигателя.
+Remove the harness connector bracket and harness assembly from the engine.
 
 ![[19601023.png]]
 
-### ремонт
+### Repair
 
-Разъемы в стиле DIN могут быть заменены или разъем может быть повернут в корпусе разъема для положения проводов.
+The DIN style connectors can be replaced or the connector can be turned in the connector housing for harness position.
 
-Удалите тепловой экран, который покрывает соединительный орех и провод.
+Remove the heat shield that covers the connector nut and wire.
 
 ![[19601024.png]]
 
-Удалите гайку разъема из разъема.
+Remove the connector nut from the connector.
 
-Скользите по проволоке по гайке, резиновому громму и стиральной машине.
+Slide the nut, rubber grommet, and washer down the wire.
 
 ![[19601025.png]]
 
-Используйте небольшую отвертку, чтобы вырвать разъем из корпуса.
+Use a small screwdriver to pry the connector out of the housing.
 
 ![[19601026.png]]
 
-Освободите винты соединительного терминала и удалите провод.
+Loosen the connector terminal screws and remove the wire.
 
 ![[19601027.png]]
 
-Проводите провода через гребень теплоусадочного разъёма, резиновый громмет, стиральную машину и соединительную кожух.
+Thread the wires through the heat shrink connector nut, rubber grommet, washer, and connector housing.
 
-Поместите провода в соединительные терминалы и затяните винты.
+Place the wires into the connector terminals and tighten the screws.
 
 ![[19601028.png]]
 
-Сдвиньте разъем в корпус.
+Slide the connector into the housing.
 
-Нажмите на разъем, пока он не зацепится за корпус.
+Press the connector until it snaps into the housing.
 
 ![[19601026.png]]
 
-Сдвиньте резиновый громмет и стиральную машину в разъем.
+Slide the rubber grommet and washer into the connector.
 
-Заткните гайку в корпус разъема и затяните.
+Thread the nut into the connector housing and tighten.
 
 ![[19601025.png]]
 
-Поместите теплоусадку на провод и соединительный орех.
+Position the heat shrink over the wire and connector nut.
 
-Используйте тепловой пистолет, чтобы нагреть тепло, которое сжимается на месте.
+Use a heat gun to heat the heat shrink into place.
 
 ![[19601024.png]]
 
-### Установка
+### Install
 
-Поместите соединительную кронштейн жгута проводов на блок.
+Place the harness connector bracket onto the block.
 
-Установите болты.
+Install the capscrews.
 
 ![[19601023.png]]
 
-Прокладывайте проводку вдоль впускного коллектора.
+Route the harness along the intake manifold.
 
-Установите p-клипы вдоль впускного коллектора.
+Install the p-clips along the intake manifold.
 
 ![[19601022.png]]
 
-Прокладывайте проводку вниз по блоку двигателя, вдоль бокового фильтра элиминатора, к масляной панели.
+Route the harness down the engine block, along the side of the eliminator filter, to the oil pan.
 
-Маршрутируйте проводку, спрячьте масляную поддон и установите p-клипы.
+Route the harness down the oil pan and install the p-clips.
 
 ![[19601021.png]]
 
-Маршрут проводов запрягает заднюю часть передней крышки и устанавливает p-клипы.
+Route the harness up the back of the front cover and install the p-clips.
 
 ![[19601020.png]]
 
-Установите разъемы и затяните разъемные винты для:
+Install the connectors and tighten the connector screws for the:
 
-- Датчик давления морской воды (1)
-- Переключатель температуры охлаждающей жидкости (2)
-- Переключатель давления охлаждающей жидкости (3)
-- Датчик давления охлаждающей жидкости (4).
+- Sea water pressure sensor (1)
+- Coolant temperature switch (2)
+- Coolant pressure switch (3)
+- Coolant pressure sensor (4).
 
-Подключите разъем переключателя индикатора утечки топлива (5).
+Connect the fuel leakage indicator switch connector (5).
 
 ![[19601019.png]]
 
-Установите разъем на датчик температуры масла и затяните разъемный винт.
+Install the connector onto the oil temperature sensor and tighten the connector screw.
 
 ![[19601018.png]]
 
-Установите разъем на датчик давления предмасляного фильтра и затяните разъемный винт.
+Install the connector onto the pre-oil filter pressure sensor and tighten the connector screw.
 
 ![[19601017.png]]
 
-Поместите блок переключателя давления масла и сборку переключателя на блок двигателя и установите четыре болта на голове Аллена.
+Place the oil pressure switch block and switch assembly onto the engine block and install the four allen head capscrews.
 
-Установите разъемы и затяните разъемные винты для:
+Install the connectors and tighten the connector screws for the:
 
-- Низкоскоростной переключатель давления масла (1)
-- Высокоскоростной переключатель давления масла (2).
+- Low speed oil pressure switch (1)
+- High speed oil pressure switch (2).
 
-Подключите оба датчика скорости двигателя (3).
+Connect both of the engine speed sensor connectors (3).
 
-> [!note] Примечание
-> Для каждого судна предусмотрены дополнительный запасной разъем датчика давления и запасной разъем датчика температуры. Если судно использовало дополнительные разъемы, соедините разъемы.
+> [!note] Note · Примечание
+> An optional spare pressure sensor connector and a spare temperature sensor connector are provided for each vessel. If the vessel has used the optional connectors, connect the connectors.
 
 ![[19601016.png]]
 
-Подключите кабель, который соединяет окно интерфейса клиента с разъемом C Command Elite Plus.
+Connect the cable that connects the customer interface box to the C Command Elite Plus harness connector.
 
 ![[19601015.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Remove
->
-> Disconnect the cable that connects the customer interface box to the C Command Elite Plus harness connector.
->
-> Loosen the connector screws and remove the connectors from the low speed oil pressure switch (1) and the high speed oil pressure switch (2).
->
-> Loosen the four allen head capscrews and remove the oil pressure block.
->
-> Disconnect both engine speed sensor connectors (3).
->
-> **Note · Примечание**
-> An optional spare pressure sensor connector and a spare temperature sensor connector are provided for each vessel. If the vessel has used the optional connectors, disconnect the connectors.
->
-> Loosen the connector screw and remove the connector from the pre-oil filter pressure sensor.
->
-> Loosen the connector screw and remove the connector from the oil temperature sensor.
->
-> Loosen the connector screws and remove the connectors from the:
->
-> - Sea water pressure sensor (1)
-> - Coolant temperature switch (2)
-> - Coolant pressure switch (3)
-> - Coolant pressure sensor (4).
->
-> Disconnect the fuel leakage indicator switch connector (5).
->
-> Remove the p-clips from the back of the front cover.
->
-> Route the harness and connectors down the back of the front cover and allow the harness to be supported by the oil pan p-clips.
->
-> Remove the p-clips from the oil pan.
->
-> Allow the harness to be supported by the p-clips over the eliminator filter.
->
-> Remove the p-clips from the intake manifold.
->
-> Remove the bracket capscrews.
->
-> Remove the harness connector bracket and harness assembly from the engine.
->
-> ### Repair
->
-> The DIN style connectors can be replaced or the connector can be turned in the connector housing for harness position.
->
-> Remove the heat shield that covers the connector nut and wire.
->
-> Remove the connector nut from the connector.
->
-> Slide the nut, rubber grommet, and washer down the wire.
->
-> Use a small screwdriver to pry the connector out of the housing.
->
-> Loosen the connector terminal screws and remove the wire.
->
-> Thread the wires through the heat shrink connector nut, rubber grommet, washer, and connector housing.
->
-> Place the wires into the connector terminals and tighten the screws.
->
-> Slide the connector into the housing.
->
-> Press the connector until it snaps into the housing.
->
-> Slide the rubber grommet and washer into the connector.
->
-> Thread the nut into the connector housing and tighten.
->
-> Position the heat shrink over the wire and connector nut.
->
-> Use a heat gun to heat the heat shrink into place.
->
-> ### Install
->
-> Place the harness connector bracket onto the block.
->
-> Install the capscrews.
->
-> Route the harness along the intake manifold.
->
-> Install the p-clips along the intake manifold.
->
-> Route the harness down the engine block, along the side of the eliminator filter, to the oil pan.
->
-> Route the harness down the oil pan and install the p-clips.
->
-> Route the harness up the back of the front cover and install the p-clips.
->
-> Install the connectors and tighten the connector screws for the:
->
-> - Sea water pressure sensor (1)
-> - Coolant temperature switch (2)
-> - Coolant pressure switch (3)
-> - Coolant pressure sensor (4).
->
-> Connect the fuel leakage indicator switch connector (5).
->
-> Install the connector onto the oil temperature sensor and tighten the connector screw.
->
-> Install the connector onto the pre-oil filter pressure sensor and tighten the connector screw.
->
-> Place the oil pressure switch block and switch assembly onto the engine block and install the four allen head capscrews.
->
-> Install the connectors and tighten the connector screws for the:
->
-> - Low speed oil pressure switch (1)
-> - High speed oil pressure switch (2).
->
-> Connect both of the engine speed sensor connectors (3).
->
-> **Note · Примечание**
-> An optional spare pressure sensor connector and a spare temperature sensor connector are provided for each vessel. If the vessel has used the optional connectors, connect the connectors.
->
-> Connect the cable that connects the customer interface box to the C Command Elite Plus harness connector.

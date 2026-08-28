@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1456.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1456.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1456.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Electric Bus Voltage and/or Frequency Are Out of Range for Synchronizing to Occur - Condition Exists
@@ -34,88 +32,42 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2012-05-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1456.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1456.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1456.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1456.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 1456
 
+### Electric Bus Voltage and/or Frequency Are Out of Range for Synchronizing to Occur - Condition Exists
 
-### Код неисправности: 1456
+Printable Version
 
-### Напряжение и/или частота сети вне диапазона синхронизации — условие возникло
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 1456 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Напряжение электрической шины и/или частота находятся вне диапазона для синхронизации. | Генератор будет продолжать работать, но не будет ** поднимать нагрузку. |
+| Fault Code: 1456 PID(P): SPN: FMI: Lamp: Warning SRT: | Electric bus voltage and/or frequency are out of range for synchronizing to occur. | Generator will continue to run, but will **not** pick up load. |
 
 ![[19802905.png]]
 
-Схема генератора
+Generator Circuit
 
-### Описание цепи
+### Circuit Description
 
-Генераторная установка подбирает электрическую нагрузку из автобуса. Для того чтобы генератор подключался к шине (кроме мертвой шины), он должен соответствовать порогу, напряжению и частоте шины. Генераторная установка может **не** подключаться к шине, в то время как напряжение и частота находятся за пределами порога, в противном случае может произойти повреждение генераторной установки.
+The generator set picks up the electrical load from the bus. For the generator to connect to a bus (other than a dead bus), it **must** match, with a threshold, the voltage and frequency of the bus. The generator set can **not** connect to the bus while voltage and frequency are outside the threshold otherwise, damage could occur to the generator set.
 
-Этот код неисправности используется модулем управления двигателем (ECM) для того, чтобы сообщить оператору, что из-за частоты или напряжения, находящихся за пределами синхронизирующего порога, генераторная установка может ** не** подключаться к шине.
+This fault code is used by the engine control module (ECM) to tell the operator that, due to either the frequency or voltage being outside the synchronizing threshold, the generator set can **not** connect to the bus.
 
-### Расположение компонента
+### Component Location
 
-Справочный раздел E для определения местоположения клетки карты ECM.
+Reference Section E for location of the ECM card cage.
 
-Справочная клиентская/факультативно-установочная документация для определения местоположения генераторного набора выключателя и интерфейса с электрической шиной.
+Reference customer/facility/installation documentation for the location of the generator set circuit breaker and interface with the electric bus.
 
-### Практические замечания
+### Shoptalk
 
-Проверьте губернатора на правильность настройки.
+Check the governor for correct setup.
 
-Проверьте параметры синхронизации для правильной настройки.
+Check the synchronizing parameters for correct setup.
 
-Проверьте топливную систему на наличие проблем, которые могут вызвать нестабильность.
+Check the fuel system for problems that can cause instability.
 
-См. Код устранения неполадок t05-1456.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 1456
->
-> ### Electric Bus Voltage and/or Frequency Are Out of Range for Synchronizing to Occur - Condition Exists
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 1456 PID(P): SPN: FMI: Lamp: Warning SRT: | Electric bus voltage and/or frequency are out of range for synchronizing to occur. | Generator will continue to run, but will **not** pick up load. |
->
-> Generator Circuit
->
-> ### Circuit Description
->
-> The generator set picks up the electrical load from the bus. For the generator to connect to a bus (other than a dead bus), it **must** match, with a threshold, the voltage and frequency of the bus. The generator set can **not** connect to the bus while voltage and frequency are outside the threshold otherwise, damage could occur to the generator set.
->
-> This fault code is used by the engine control module (ECM) to tell the operator that, due to either the frequency or voltage being outside the synchronizing threshold, the generator set can **not** connect to the bus.
->
-> ### Component Location
->
-> Reference Section E for location of the ECM card cage.
->
-> Reference customer/facility/installation documentation for the location of the generator set circuit breaker and interface with the electric bus.
->
-> ### Shoptalk
->
-> Check the governor for correct setup.
->
-> Check the synchronizing parameters for correct setup.
->
-> Check the fuel system for problems that can cause instability.
->
-> Refer to Troubleshooting Fault Code t05-1456.
+Refer to Troubleshooting Fault Code t05-1456.

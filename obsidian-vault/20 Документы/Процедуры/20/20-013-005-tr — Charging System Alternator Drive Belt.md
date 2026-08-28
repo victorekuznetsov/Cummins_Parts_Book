@@ -8,197 +8,117 @@ title_ru: "Ремень привода генератора"
 modified: "2018-06-22"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 10
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-005-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-005-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-005-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Charging System Alternator Drive Belt
 **Ремень привода генератора**
 
 > [!abstract] Процедура · `20-013-005-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 13 - Electrical Equipment - Group 13
 > **Даты:** изменён 2018-06-22
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-005-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-005-tr.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Preparatory Steps
 
-
-### Подготовительные операции
-
-- Отсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
-- Снимите защитную полосу привода генератора. См. процедуру 008-001 в разделе 8.
+- Disconnect the battery cables. See equipment manufacturer service information.
+- Remove the alternator drive belt guard. Refer to Procedure 008-001 in Section 8.
 
 ![[ck800wa.png]]
 
-### Снятие
+### Remove
 
-Устранить регулировочное звено и крепления генератора.
+Loosen the adjusting link and the alternator mounting capscrews.
 
-> [!note] Примечание
-> Нижний локон имеет левую резьба.
+> [!note] Note · Примечание
+> The lower jam nut has left-hand threads.
 
-Освободите оба ореха. Поверните регулирующий винт, чтобы снять натяжение ремня.
+Loosen both of the jam nuts. Turn the adjusting screw to relieve the belt tension.
 
-Снимите ремень.
+Remove the belt.
 
 ![[eh4blmb.png]]
 
-### Проверка при повторном использовании
+### Inspect for Reuse
 
-Проверьте ремень на износ.
+Check the belt for wear.
 
-Если пояс указывает на какой-либо износ, его *** следует заменить.
+If the belt indicates any wear, it **must** be replaced.
 
 ![[fa800sa.png]]
 
-Осмотрите пояс на наличие трещин, остекления, слез или порезов. Ремень должен быть заменен, если он поврежден.
+Inspect the belt for cracks, glazing, tears, or cuts. The belt **must** be replaced if damaged.
 
 ![[13400029.png]]
 
-### Установка
+### Install
 
-Не пытайтесь пощипать пояс на шкиве. Поверните регулировочный винт ** против часовой стрелки **, чтобы сократить соединение, если это необходимо. Установите ремень генератора.
+Do **not** attempt to pry the belt on the pulley. Turn the adjusting screw **counterclockwise** to shorten the link if necessary. Install the alternator belt.
 
 ![[eh4blmb.png]]
 
-### Регулировка
+### Adjust
 
-> [!note] Примечание
-> Нижний локон имеет левую резьба.
+> [!note] Note · Примечание
+> The lower jam nut has left-hand threads.
 
-Устранить генератор переменного тока и регулировать крепление болтов.
+Loosen the alternator and adjusting link mounting capscrews.
 
-Освободите гайки от винта, который регулирует.
+Loosen the jam nuts on the adjusting screw.
 
 ![[eh4lkua.png]]
 
-Поверните регулирующий винт ** по часовой стрелке**, чтобы затянуть натяжение ремня.
+Turn the adjusting screw **clockwise** to tighten the belt tension.
 
 ![[eh4lkub.png]]
 
-> [!note] Примечание
-> Нижний локон имеет левую резьба.
+> [!note] Note · Примечание
+> The lower jam nut has left-hand threads.
 
-Затяните гайки на регулировочном винте.
+Tighten the jam nuts on the adjusting screw.
 
-Затягивать регулировочные звенья и крепления генераторов переменного тока.
+Tighten the adjusting link and alternator mounting capscrews.
 
-> [!tip] Момент затяжки
-> Jam Nuts 55 Н·м [41 фунт-фут]
+> [!tip] Момент затяжки · Torque Value
+> Jam Nuts 55 n•m [41 ft-lb]
 
-> [!tip] Момент затяжки
-> Альтернатор Установка болтов 55 Н·м [41 фут-лб]
+> [!tip] Момент затяжки · Torque Value
+> Alternator Mounting Capscrews 55 n•m [41 ft-lb]
 
 ![[eh4lkuc.png]]
 
-Проверьте натяжение ремня снова, чтобы убедиться, что это правильно.
+Check the belt tension again to be sure it is correct.
 
-Натяжение ремня ** должно быть:
+The belt tension **must** be:
 
-| Измерения |  |  |
+| Measurements |  |  |
 |---|---|---|
-|  | n | хулиган |
-| Напряжение пояса: | 310 | 70 |
+|  | n | lbf |
+| Belt Tension: | 310 | 70 |
 
-Если натяжение ремня находится в пределах спецификации, повторите раздел «Настройка» этой процедуры.
+If the belt tension is **not** within specification, repeat the Adjust section of this procedure.
 
 ![[eh4toga.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-- Установите защитную ремень привода генератора. См. процедуру 008-001 в разделе 8.
-- Подсоедините провода аккумуляторных батарей. См. сервисную документацию изготовителя оборудования.
-- Запускай двигатель. Проверьте правильность операции.
+- Install the alternator drive belt guard. Refer to Procedure 008-001 in Section 8.
+- Connect the battery cables. See equipment manufacturer service information.
+- Start the engine. Check for proper operation.
 
 ![[ck800wa.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Preparatory Steps
->
-> - Disconnect the battery cables. See equipment manufacturer service information.
-> - Remove the alternator drive belt guard. Refer to Procedure 008-001 in Section 8.
->
-> ### Remove
->
-> Loosen the adjusting link and the alternator mounting capscrews.
->
-> **Note · Примечание**
-> The lower jam nut has left-hand threads.
->
-> Loosen both of the jam nuts. Turn the adjusting screw to relieve the belt tension.
->
-> Remove the belt.
->
-> ### Inspect for Reuse
->
-> Check the belt for wear.
->
-> If the belt indicates any wear, it **must** be replaced.
->
-> Inspect the belt for cracks, glazing, tears, or cuts. The belt **must** be replaced if damaged.
->
-> ### Install
->
-> Do **not** attempt to pry the belt on the pulley. Turn the adjusting screw **counterclockwise** to shorten the link if necessary. Install the alternator belt.
->
-> ### Adjust
->
-> **Note · Примечание**
-> The lower jam nut has left-hand threads.
->
-> Loosen the alternator and adjusting link mounting capscrews.
->
-> Loosen the jam nuts on the adjusting screw.
->
-> Turn the adjusting screw **clockwise** to tighten the belt tension.
->
-> **Note · Примечание**
-> The lower jam nut has left-hand threads.
->
-> Tighten the jam nuts on the adjusting screw.
->
-> Tighten the adjusting link and alternator mounting capscrews.
->
-> **Момент затяжки · Torque Value**
-> Jam Nuts 55 n•m [41 ft-lb]
->
-> **Момент затяжки · Torque Value**
-> Alternator Mounting Capscrews 55 n•m [41 ft-lb]
->
-> Check the belt tension again to be sure it is correct.
->
-> The belt tension **must** be:
->
-> | Measurements |  |  |
-> |---|---|---|
-> |  | n | lbf |
-> | Belt Tension: | 310 | 70 |
->
-> If the belt tension is **not** within specification, repeat the Adjust section of this procedure.
->
-> ### Finishing Steps
->
-> - Install the alternator drive belt guard. Refer to Procedure 008-001 in Section 8.
-> - Connect the battery cables. See equipment manufacturer service information.
-> - Start the engine. Check for proper operation.

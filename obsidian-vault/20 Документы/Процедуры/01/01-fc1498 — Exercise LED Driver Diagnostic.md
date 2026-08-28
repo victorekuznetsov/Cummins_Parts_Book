@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021419"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1498.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1498.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1498.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/01"
-  - "перевод/машинный"
 ---
 
 # Exercise LED Driver Diagnostic
@@ -34,76 +32,36 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1498.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1498.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1498.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1498.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 1498
 
+### Exercise LED Driver Diagnostic
 
-### Код неисправности: 1498
+Printable Version
 
-### Диагностика драйвера светодиода контрольной наработки
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 1498 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Диагностика драйвера Switch-панели Exercise LED выявила ошибку. | Упражнение светодиод будет ** не ** работать правильно. Никаких действий со стороны ЕКМ не предпринимается. Никаких потерь в производительности. |
+| Fault Code: 1498 PID(P): SPN: FMI: Lamp: Warning SRT: | Switch panel Exercise LED driver diagnostic has detected an error. | The Exercise LED will **not** function correctly. No action taken by ECM. No loss of performance. |
 
 ![[19802923.png]]
 
-Упражнение LED Driver Circuit
+Exercise LED Driver Circuit
 
-### Описание цепи
+### Circuit Description
 
-ECM проверяет драйвер светодиода для обеспечения правильной работы. ECM использует лампу для упражнений, чтобы сообщить оператору, находится ли генераторная установка в режиме упражнений.
+The ECM checks the Exercise LED driver to ensure correct operation. The ECM uses Exercise lamp to inform the operator if the generator set is in exercise mode.
 
-### Расположение компонента
+### Component Location
 
-См. раздел E для определения местоположения панели переключателя и лампы для упражнений.
+Refer to section E for location of the switch panel, and Exercise lamp.
 
-### Практические замечания
+### Shoptalk
 
-Возможные режимы отказа - это открытые цепи, короткие до земли, выгоревший светодиод и потеря напряжения питания внутри ECM.
+Possible failure modes are open circuits, short to ground, burned-out LED, and loss of supply voltage inside the ECM.
 
-Правильная работа диагностического светильника может быть проверена путем проверки, чтобы увидеть, что лампы кратковременно загораются при включении ECM.
+Proper diagnostic lamp operation can be verified by checking to see that the lamps briefly light when the ECM is powered up.
 
-См. Код устранения неисправностей t05-1498
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 1498
->
-> ### Exercise LED Driver Diagnostic
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 1498 PID(P): SPN: FMI: Lamp: Warning SRT: | Switch panel Exercise LED driver diagnostic has detected an error. | The Exercise LED will **not** function correctly. No action taken by ECM. No loss of performance. |
->
-> Exercise LED Driver Circuit
->
-> ### Circuit Description
->
-> The ECM checks the Exercise LED driver to ensure correct operation. The ECM uses Exercise lamp to inform the operator if the generator set is in exercise mode.
->
-> ### Component Location
->
-> Refer to section E for location of the switch panel, and Exercise lamp.
->
-> ### Shoptalk
->
-> Possible failure modes are open circuits, short to ground, burned-out LED, and loss of supply voltage inside the ECM.
->
-> Proper diagnostic lamp operation can be verified by checking to see that the lamps briefly light when the ECM is powered up.
->
-> Refer to Troubleshooting Fault Code t05-1498
+Refer to Troubleshooting Fault Code t05-1498

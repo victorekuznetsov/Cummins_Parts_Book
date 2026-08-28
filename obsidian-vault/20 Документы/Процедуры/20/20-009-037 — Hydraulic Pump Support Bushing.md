@@ -8,149 +8,90 @@ title_ru: "Втулка опоры гидронасоса"
 modified: "2006-06-30"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 7
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-037.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-037.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-009-037.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Hydraulic Pump Support Bushing
 **Втулка опоры гидронасоса**
 
 > [!abstract] Процедура · `20-009-037`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 9 - Drive Units - Group 09
 > **Даты:** изменён 2006-06-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-037.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-037.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-037.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-009-037.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Preparatory Steps
 
-
-### Подготовительные операции
-
-- Удалите поддержку гидравлического насоса с привода задней передачи (верхняя сборка). См. процедуру[[20-009-024-tr — Rear Gear Drive (Upper Assembly)|009-024]].
+- Remove the hydraulic pump support from the rear gear drive (upper assembly). Refer to Procedure [[20-009-024-tr — Rear Gear Drive (Upper Assembly)|009-024]].
 
 ![[ck800wa.png]]
 
-### Снятие
+### Remove
 
-Используйте слепой съёмник для снятия шин.
+Use a blind bushing puller to remove the bushing.
 
 ![[hd4bsmd.png]]
 
-### Проверка при повторном использовании
+### Inspect for Reuse
 
-Измерить цилиндр втулки.
+Measure the bushing bore.
 
-> [!note] Примечание
-> Если втулочный цилиндр имеет **не*** в пределах спецификаций, замените опору.
+> [!note] Note · Примечание
+> If the bushing bore is **not** within specifications, replace the support.
 
-| мм |  | в |
+| mm |  | in |
 |---|---|---|
-| 53.86 | Мин | 2.121 |
-| 53.92 | Макс | 2.123 |
+| 53.86 | MIN | 2.121 |
+| 53.92 | MAX | 2.123 |
 
 ![[hd4botd.png]]
 
-### Установка
+### Install
 
-Используйте бушинговую хворостовую и пресс. Установите втулку с опорой или ** не более **, чем 5,08 мм \[0,200 дюйма \] ниже поверхности.
+Use a bushing mandrel and a press. Install the bushing flush with the support or **no more** than 5.08 mm \[0.200 in\] below the surface.
 
 ![[hd4bstf.png]]
 
-Измерьте втулку внутри диаметра снова.
+Measure the bushing inside diameter again.
 
-| мм |  | в |
+| mm |  | in |
 |---|---|---|
-| 47.60 | Мин | 1.874 |
-| 47.68 | Макс | 1.877 |
+| 47.60 | MIN | 1.874 |
+| 47.68 | MAX | 1.877 |
 
-> [!note] Примечание
-> Если втулка ** не** в пределах спецификаций, замените опору.
+> [!note] Note · Примечание
+> If the bushing is **not** within specifications, replace the support.
 
 ![[hd4bstg.png]]
 
-### Сборка
+### Assemble
 
-Используйте Loctite® 609 или эквивалент. Нанесите гладкое покрытие на внутренний диаметр шестерни.
+Use Loctite® 609 or equivalent. Apply a smooth coating on the inside diameter of the gear.
 
-Поддержите передачу.
+Support the gear.
 
-Используйте пресс-конструкцию арбора, чтобы нажать вал в шестеренок, пока он не коснется плеча вала.
+Use an arbor press to press the shaft in the gear until it touches the shoulder of the shaft.
 
-Выровняйте и установите шестерню на приводной вал.
+Align and install the gear onto the drive shaft.
 
 ![[dw6geaa.png]]
 
-### Завершающие операции
+### Finishing Steps
 
-- Установите опору насоса в привод задней передачи (верхняя сборка). См. процедуру[[20-009-024-tr — Rear Gear Drive (Upper Assembly)|009-024]].
+- Install the pump support into the rear gear drive (upper assembly). Refer to Procedure [[20-009-024-tr — Rear Gear Drive (Upper Assembly)|009-024]].
 
 ![[ck800wa.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Preparatory Steps
->
-> - Remove the hydraulic pump support from the rear gear drive (upper assembly). Refer to Procedure [[20-009-024-tr — Rear Gear Drive (Upper Assembly)|009-024]].
->
-> ### Remove
->
-> Use a blind bushing puller to remove the bushing.
->
-> ### Inspect for Reuse
->
-> Measure the bushing bore.
->
-> **Note · Примечание**
-> If the bushing bore is **not** within specifications, replace the support.
->
-> | mm |  | in |
-> |---|---|---|
-> | 53.86 | MIN | 2.121 |
-> | 53.92 | MAX | 2.123 |
->
-> ### Install
->
-> Use a bushing mandrel and a press. Install the bushing flush with the support or **no more** than 5.08 mm \[0.200 in\] below the surface.
->
-> Measure the bushing inside diameter again.
->
-> | mm |  | in |
-> |---|---|---|
-> | 47.60 | MIN | 1.874 |
-> | 47.68 | MAX | 1.877 |
->
-> **Note · Примечание**
-> If the bushing is **not** within specifications, replace the support.
->
-> ### Assemble
->
-> Use Loctite® 609 or equivalent. Apply a smooth coating on the inside diameter of the gear.
->
-> Support the gear.
->
-> Use an arbor press to press the shaft in the gear until it touches the shoulder of the shaft.
->
-> Align and install the gear onto the drive shaft.
->
-> ### Finishing Steps
->
-> - Install the pump support into the rear gear drive (upper assembly). Refer to Procedure [[20-009-024-tr — Rear Gear Drive (Upper Assembly)|009-024]].

@@ -14,15 +14,13 @@ families:
 manuals:
   - "4021674"
 figures: 1
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1427.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc1427.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1427.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/60"
-  - "перевод/машинный"
 ---
 
 # Overspeed Shutdown Relay Driver Diagnostic Has Detected an Error - Condition Exists
@@ -34,128 +32,62 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2020-09-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1427.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc1427.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1427.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1427.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Fault Code: 1427
 
+### Overspeed Shutdown Relay Driver Diagnostic Has Detected an Error - Condition Exists
 
-### Код неисправности: 1427
+Printable Version
 
-### Диагностика драйвера реле останова по разносу выявила ошибку — условие возникло
+### Overview
 
-Версия для печати
-
-### Обзор
-
-| Коды | Причина | Последствия |
+| Codes | Reason | Effect |
 |---|---|---|
-| Код неисправности: 1427 P(P): СПН: 4185 FMI: 11/31 лампа: Янтарная СРТ: | Ошибка обнаружена в цепи водителя сверхскоростной лампы. | Светильник выключения скорости ** не** включается. |
+| Fault Code: 1427 PID(P): SPN: 4185 FMI: 11/31 Lamp: Amber SRT: | Error detected in the overspeed lamp driver circuit. | The overspeed shutdown lamp will **not** turn on. |
 
 ![[19a00878.png]]
 
-Выключатель сверхскоростной лампы Circuit
+Overspeed shutdown lamp Circuit
 
-### Описание цепи
+### Circuit Description
 
-Светильник выключения сверхскоростной сигнализации будет указывать, когда двигатель достиг сверхскоростной скорости.
+The overspeed shutdown lamp will indicate when the engine has reached overspeed.
 
-### Расположение компонента
+### Component Location
 
-Светильник выключения сверхскоростной системы расположен на панели управления генераторной установкой.
+The overspeed shutdown lamp is located on the generator set control panel.
 
-### Условия выполнения диагностики
+### Conditions For Running The Diagnostics
 
-Эта диагностика выполняется непрерывно, когда двигатель работает.
+This diagnostic runs continuously when the engine is running.
 
-### Условия установки кодов неисправностей
+### Conditions For Setting The Fault Codes
 
-Модуль управления двигателем (ECM) обнаружил ошибку в цепи лампы накаливания двигателя.
+The Engine Control Module (ECM) detected an error in the engine overspeed lamp circuit.
 
-### Действия системы при активном коде неисправности
+### Action Taken When The Fault Code Is Active
 
-- Контроллер генераторной установки показывает предупреждение сразу, как только диагностика выявляет отказ.
+- The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
 
-### Условия сброса кода неисправности
+### Conditions For Clearing The Fault Code
 
-- Чтобы проверить результат ремонта, запустите двигатель и дайте ему поработать 1 минуту без нагрузки.
+- To validate the repair, start the engine and let it run for 1 minute at no load.
 
-- Контроллер генераторной установки гасит предупреждающий индикатор сразу после нажатия сброса.
+- The generator set controller will turn off the warning indicator immediately after the user presses reset.
 
-- Для сброса активных неисправностей можно воспользоваться командой «Reset All Faults» в рекомендованной программе Cummins® или её аналоге.
+- The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
 
-### Практические замечания
+### Shoptalk
 
-Возможные причины этого кода неисправности:
+Possible causes of this fault code include:
 
-- Поврежденная или неисправная лампа выключения сверхскоростной
+- Damaged or malfunctioning overspeed shutdown lamp
 
-- Низкое напряжение на лампе выключения сверхскоростной
+- Low voltage to the overspeed shutdown lamp
 
-- Неисправный или повреждённый жгут проводов двигателя.
+- Malfunctioning or damaged engine wiring harness.
 
-- Неисправность или повреждение OEM-проводов.
+- Malfunctioning or damaged OEM wiring harness.
 
-См. Код 1427 устранения неполадок.
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Fault Code: 1427
->
-> ### Overspeed Shutdown Relay Driver Diagnostic Has Detected an Error - Condition Exists
->
-> Printable Version
->
-> ### Overview
->
-> | Codes | Reason | Effect |
-> |---|---|---|
-> | Fault Code: 1427 PID(P): SPN: 4185 FMI: 11/31 Lamp: Amber SRT: | Error detected in the overspeed lamp driver circuit. | The overspeed shutdown lamp will **not** turn on. |
->
-> Overspeed shutdown lamp Circuit
->
-> ### Circuit Description
->
-> The overspeed shutdown lamp will indicate when the engine has reached overspeed.
->
-> ### Component Location
->
-> The overspeed shutdown lamp is located on the generator set control panel.
->
-> ### Conditions For Running The Diagnostics
->
-> This diagnostic runs continuously when the engine is running.
->
-> ### Conditions For Setting The Fault Codes
->
-> The Engine Control Module (ECM) detected an error in the engine overspeed lamp circuit.
->
-> ### Action Taken When The Fault Code Is Active
->
-> - The generator set controller displays a warning fault immediately when the diagnostics runs and fails.
->
-> ### Conditions For Clearing The Fault Code
->
-> - To validate the repair, start the engine and let it run for 1 minute at no load.
->
-> - The generator set controller will turn off the warning indicator immediately after the user presses reset.
->
-> - The “Reset All Faults” command in the recommended Cummins® electronic service tool or equivalent can be used to clear active faults.
->
-> ### Shoptalk
->
-> Possible causes of this fault code include:
->
-> - Damaged or malfunctioning overspeed shutdown lamp
->
-> - Low voltage to the overspeed shutdown lamp
->
-> - Malfunctioning or damaged engine wiring harness.
->
-> - Malfunctioning or damaged OEM wiring harness.
->
-> Refer to Troubleshooting Fault Code 1427.
+Refer to Troubleshooting Fault Code 1427.

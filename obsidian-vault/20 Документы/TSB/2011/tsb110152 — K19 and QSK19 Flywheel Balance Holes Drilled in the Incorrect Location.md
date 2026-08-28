@@ -9,19 +9,22 @@ released: "2011-06-01"
 modified: "2011-06-01"
 group: "16 - Mounting Adaptations"
 engines:
+  - "37269910"
+  - "37280605"
   - "41349633"
+  - "41353297"
 families:
+  - "K19"
   - "QSK19"
 figures: 3
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110152.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110152.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110152.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/QSK19"
   - "год/2011"
-  - "перевод/машинный"
   - "тема/mounting-adaptations"
 ---
 
@@ -30,71 +33,37 @@ tags:
 
 > [!abstract] TSB · `tsb110152`
 > **Раздел Cummins:** 16 - Mounting Adaptations
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
+> **Двигатели:** [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K19, QSK19
 > **Даты:** выпущен 2011-06-01 · изменён 2011-06-01
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110152.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110152.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110152.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110152.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+## K19 and QSK19 Flywheel Balance Holes Drilled in the Incorrect Location
 
+### Core Issue
 
-## K19 и QSK19: балансировочные отверстия маховика просверлены неверно
+The K19/QSK19 flywheel balance holes were drilled in the incorrect location on Part Number 3090758, and 3024105 flywheels. The flywheels are permitted for use and will have no effect on engine performance or durability. These flywheels have been installed on production engines and sold as service parts.
 
-### Суть проблемы
+### Confirmation
 
-Отверстия баланса маховиков K19/QSK19 пробурены в неправильном месте на Части № 3090758 и 3024105 маховиков. Маховики разрешены к использованию и не будут влиять на производительность или долговечность двигателя. Эти маховики были установлены на производственных двигателях и продаются в качестве служебных частей.
-
-### Подтверждение
-
-Балансовые отверстия в маховике должны быть на внешнем большинстве кольца задней поверхности (1), но были пробурены на одном из внутренних колец (2). Это связано с ошибкой производства поставщика и не влияет на производительность маховика.
+The balance holes in the flywheel should be on the outer most ring of the rear surface (1), but have been drilled on one of the inner rings (2). This is due to a supplier production error and does **not** affect the performance of the flywheel.
 
 ![[16i00002.png]]
 
-### Решение
+### Resolution
 
-Летающие колеса с балансовыми отверстиями в неправильных местах разрешены к использованию и не будут влиять на производительность или долговечность двигателя. Эти маховики ** не являются дефектными и должны ** не** быть возвращены.
+Flywheels with balance holes in the incorrect locations are permitted for use and will have no effect on engine performance or durability. These flywheels are **not** defective and should **not** be returned.
 
 ![[16i00003.png]]
 
-Фотография 1: Отверстия, пробуренные в неправильном месте (поверхность 2).
+Picture 1: Holes drilled in the incorrect location (Surface 2).
 
 ![[16i00004.png]]
 
-Фотография 2: Отверстия, пробуренные в правильном месте (поверхность 1).
+Picture 2: Holes drilled in the correct location (Surface 1).
 
-### Положение о гарантии
+### Warranty Statement
 
-Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
 
-### История изменений документа
-
-
-> [!quote]- Original (English) · английский оригинал
-> ## K19 and QSK19 Flywheel Balance Holes Drilled in the Incorrect Location
->
-> ### Core Issue
->
-> The K19/QSK19 flywheel balance holes were drilled in the incorrect location on Part Number 3090758, and 3024105 flywheels. The flywheels are permitted for use and will have no effect on engine performance or durability. These flywheels have been installed on production engines and sold as service parts.
->
-> ### Confirmation
->
-> The balance holes in the flywheel should be on the outer most ring of the rear surface (1), but have been drilled on one of the inner rings (2). This is due to a supplier production error and does **not** affect the performance of the flywheel.
->
-> ### Resolution
->
-> Flywheels with balance holes in the incorrect locations are permitted for use and will have no effect on engine performance or durability. These flywheels are **not** defective and should **not** be returned.
->
-> Picture 1: Holes drilled in the incorrect location (Surface 2).
->
-> Picture 2: Holes drilled in the correct location (Surface 1).
->
-> ### Warranty Statement
->
-> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
->
-> ### Document History
+### Document History

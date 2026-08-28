@@ -20,15 +20,13 @@ parts:
   - "3889311"
   - "4010476"
   - "4367100"
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-018-024.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-018-024.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-018-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
   - "группа/57"
-  - "перевод/машинный"
 ---
 
 # Filter Specifications
@@ -40,80 +38,72 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[4915520 — QST30 Owners Manual|4915520]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2022-09-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-018-024.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-018-024.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Specifications
 
+Fleetguard® is a subsidiary of Cummins Inc. Fleetguard® filters are developed through joint testing at Cummins Inc. and Fleetguard®. Fleetguard® filters are standard on new Cummins engines. Cummins Inc. recommends their use.
 
-### Спецификации
+Fleetguard® products meet all Cummins Inc. Source Approval Test standards to provide the quality filtration necessary to achieve the engine's design life. If other brands are substituted, the purchaser **must** insist on products that the supplier has tested to meet Cummins Inc. high-quality standards.
 
-Fleetguard® является дочерней компанией Cummins Inc. Фильтры Fleetguard® разрабатываются в рамках совместных испытаний в компании Cummins Inc. и Fleetguard®. Фильтры Fleetguard® являются стандартными для новых двигателей Cummins. Cummins Inc. рекомендует их использование.
+Cummins Inc. is **not** responsible for problems caused by non-genuine filters which do **not** meet Cummins Inc. performance and/or durability requirements.
 
-Продукты Fleetguard® соответствуют всем требованиям Cummins Inc. Стандарты испытаний на источник для обеспечения качественной фильтрации, необходимой для достижения срока службы двигателя. Если другие бренды заменяются, покупатель должен настаивать на продуктах, которые поставщик протестировал для удовлетворения Cummins Inc. Высокие стандарты качества.
+Filter Types and Part Numbers:
 
-Cummins Inc. ** не несет ответственности за проблемы, вызванные ненастоящими фильтрами, которые не соответствуют требованиям Cummins Inc. Требования к производительности и/или долговечности.
+#### Lubricating Oil Filter (Full Flow)
 
-Типы фильтров и номера частей:
-
-#### Фильтр моторного масла (полный поток)
-
-| Cummins Part Number (Часовой номер) | [[3889310]] |
+| Cummins Part Number | [[3889310]] |
 |---|---|
 
-| Fleetguard - Часть номер | LF670 |
+| Fleetguard® Part Number | LF670 |
 |---|---|
 
-#### Фильтр моторного масла (Bypass)
+#### Lubricating Oil Filter (Bypass)
 
-| Cummins Part Number (Часовой номер) | [[3889311]] |
+| Cummins Part Number | [[3889311]] |
 |---|---|
 
-| Fleetguard - Часть номер | LF777 |
+| Fleetguard® Part Number | LF777 |
 |---|---|
 
-#### Фильтр моторного масла (полный поток)
+#### Lubricating Oil Filter (Full Flow)
 
-| Cummins Part Number (Часовой номер) | [[4367100]] |
+| Cummins Part Number | [[4367100]] |
 |---|---|
 
-| Fleetguard - Часть номер | LF14000NN |
+| Fleetguard® Part Number | LF14000NN |
 |---|---|
 
-#### Фильтр топлива (20 микрон, без разделения воды)
+#### Fuel Filter (20 micron, no water separation)
 
-| Cummins Part Number (Часовой номер) | 3313306 |
+| Cummins Part Number | 3313306 |
 |---|---|
 
-| Fleetguard - Часть номер | FF202 |
+| Fleetguard® Part Number | FF202 |
 |---|---|
 
-#### Топливный фильтр (10 микрон, с разделением воды)
+#### Fuel Filter (10 micron, with water separation)
 
-| Cummins Part Number (Часовой номер) | 3089916 |
+| Cummins Part Number | 3089916 |
 |---|---|
 
-| Fleetguard - Часть номер | FS1006 |
+| Fleetguard® Part Number | FS1006 |
 |---|---|
 
-#### Топливный префильтр (140 мкм, без разделения воды)
+#### Fuel Prefilter (140 micron, no water separation)
 
-| Cummins Part Number (Часовой номер) | [[4010476]] |
+| Cummins Part Number | [[4010476]] |
 |---|---|
 
-| Fleetguard - Часть номер | FF2203 |
+| Fleetguard® Part Number | FF2203 |
 |---|---|
 
-#### Фильтр охлаждающей жидкости
+#### Coolant Filter
 
-| Cummins Part Number (Часовой номер) | [[3100308]] |
+| Cummins Part Number | [[3100308]] |
 |---|---|
 
-| Fleetguard - Часть номер | WF2075 |
+| Fleetguard® Part Number | WF2075 |
 |---|---|
 
 ## Детали, упомянутые в документе
@@ -125,70 +115,3 @@ Cummins Inc. ** не несет ответственности за пробле
 | [[3889311]] | OIL BYPASS FILTER ELEMENT | Элемент фильтра тонкой очистки масла |
 | [[4010476]] | FUEL FILTER | Топливный фильтр |
 | [[4367100]] | LUBRICATING OIL FILTER | Масляный фильтр |
-
-> [!quote]- Original (English) · английский оригинал
-> ### Specifications
->
-> Fleetguard® is a subsidiary of Cummins Inc. Fleetguard® filters are developed through joint testing at Cummins Inc. and Fleetguard®. Fleetguard® filters are standard on new Cummins engines. Cummins Inc. recommends their use.
->
-> Fleetguard® products meet all Cummins Inc. Source Approval Test standards to provide the quality filtration necessary to achieve the engine's design life. If other brands are substituted, the purchaser **must** insist on products that the supplier has tested to meet Cummins Inc. high-quality standards.
->
-> Cummins Inc. is **not** responsible for problems caused by non-genuine filters which do **not** meet Cummins Inc. performance and/or durability requirements.
->
-> Filter Types and Part Numbers:
->
-> #### Lubricating Oil Filter (Full Flow)
->
-> | Cummins Part Number | [[3889310]] |
-> |---|---|
->
-> | Fleetguard® Part Number | LF670 |
-> |---|---|
->
-> #### Lubricating Oil Filter (Bypass)
->
-> | Cummins Part Number | [[3889311]] |
-> |---|---|
->
-> | Fleetguard® Part Number | LF777 |
-> |---|---|
->
-> #### Lubricating Oil Filter (Full Flow)
->
-> | Cummins Part Number | [[4367100]] |
-> |---|---|
->
-> | Fleetguard® Part Number | LF14000NN |
-> |---|---|
->
-> #### Fuel Filter (20 micron, no water separation)
->
-> | Cummins Part Number | 3313306 |
-> |---|---|
->
-> | Fleetguard® Part Number | FF202 |
-> |---|---|
->
-> #### Fuel Filter (10 micron, with water separation)
->
-> | Cummins Part Number | 3089916 |
-> |---|---|
->
-> | Fleetguard® Part Number | FS1006 |
-> |---|---|
->
-> #### Fuel Prefilter (140 micron, no water separation)
->
-> | Cummins Part Number | [[4010476]] |
-> |---|---|
->
-> | Fleetguard® Part Number | FF2203 |
-> |---|---|
->
-> #### Coolant Filter
->
-> | Cummins Part Number | [[3100308]] |
-> |---|---|
->
-> | Fleetguard® Part Number | WF2075 |
-> |---|---|

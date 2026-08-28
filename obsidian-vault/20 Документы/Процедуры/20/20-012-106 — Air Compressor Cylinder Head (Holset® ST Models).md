@@ -8,701 +8,434 @@ title_ru: "Головка воздушного компрессора (моде�
 modified: "2006-06-30"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
   - "4021592"
 figures: 75
-lang: "ru+en"
-translation: "машинный черновик"
+lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-106.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-012-106.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-106.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "группа/20"
-  - "перевод/машинный"
 ---
 
 # Air Compressor Cylinder Head (Holset® ST Models)
 **Головка воздушного компрессора (модели Holset® ST)**
 
 > [!abstract] Процедура · `20-012-106`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 12 - Compressed Air System - Group 12
 > **Даты:** изменён 2006-06-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-106.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-012-106.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-106.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-106.pdf)
 
-> [!info]- Перевод на русский — машинный черновик
-> Русский текст получен автоматическим переводом с английского
-> с подстановкой отраслевой терминологии Cummins; он не
-> проходил редакторскую вычитку.
-> **Юридически значим только английский оригинал** — он
-> приведён в свёрнутом блоке в конце заметки и в PDF.
+### Disassemble
 
+> [!danger] WARNING · Опасно
+> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
 
-### Разборка
-
-> [!danger] ОПАСНО
-> Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы предотвратить серьезные травмы, обязательно обратитесь за помощью или используйте соответствующее подъемное оборудование для подъема компонента или сборки.
-
-Используйте два болта 5/16 - 18 х 1 1/4 дюйма для установки воздушного компрессора на монтажной пластине, часть номер ST-749, которая используется с шаровой шторой, часть номер ST-302.
+Use two 5/16 - 18 x 1 1/4 inch capscrews to mount the air compressor on the mounting plate, Part Number ST-749, which is used with the ball joint vise, Part Number ST-302.
 
 ![[cp8bdwa.png]]
 
-Удалите центральный разгрузчик корпуса шестиугольника головные болты и замкните стиральную машину.
+Remove the center unloader body hexagon head capscrew and lock washer.
 
 ![[cp8csmb.png]]
 
-Удалите удерживающий зажим.
+Remove the retaining clamp.
 
 ![[cp8clma.png]]
 
-> [!warning] ОСТОРОЖНО
-> Корпус разгрузочного клапана установлен с пружинным натяжением. Тщательно удаляйте, чтобы избежать травм. Носите защиту лица и глаз.
+> [!warning] CAUTION · Осторожно
+> The unloader valve body is installed with spring tension. Carefully remove to avoid personal injury. Wear face and eye protection.
 
-Удалите корпус разгрузочного клапана.
+Remove the unloading valve body.
 
 ![[cp8bdmb.png]]
 
-Удалите крышку разгрузочного клапана, если она установлена.
+Remove the unloader valve cap, if installed.
 
 ![[cp8cuma.png]]
 
-Удалить и выбросить уплотнение с кольцом.
+Remove and discard the o-ring seal.
 
 ![[cp8orma.png]]
 
-Используйте колечко для удаления прямоугольного кольцевого уплотнения, если оно установлено.
+Use an o-ring pick to remove the rectangular ring seal, if installed.
 
-Отбросьте печать.
+Discard the seal.
 
 ![[cp8sema.png]]
 
-Удалите пружину разгрузочного клапана.
+Remove the unloader valve cap spring.
 
 ![[cp8spma.png]]
 
-Используйте колечко для удаления уплотнения.
+Use an o-ring pick to remove the o-ring seal.
 
-Отбросьте печать.
+Discard the seal.
 
 ![[cp8ormb.png]]
 
-Разгрузить два разгрузчика шестиугольник головных болтов.
+Loosen the two unloader body hexagon head capscrews.
 
 ![[cp8csmc.png]]
 
-> [!danger] ОПАСНО
-> Тело разгрузчика устанавливается с пружинным натяжением, его необходимо аккуратно снять, чтобы избежать травмирования. Всегда носите защитный налет.
+> [!danger] WARNING · Опасно
+> The unloader body is installed with spring tension, it must be removed carefully to avoid personal injury. Always wear protective eye wear.
 
-Держитесь за тело разгрузчика и медленно удалите два болта разгрузчика и два простых шайбы, чтобы предотвратить разгрузчика тела от выкидывания на свободу и причинение личной травмы.
+Hold down on the unloader body and slowly remove the two unloader body capscrews and the two plain washers so as to prevent the unloader body from being thrown free and causing personal injury.
 
 ![[cp8csmd.png]]
 
-Удалите корпус разгрузочного клапана.
+Remove the unloader valve body.
 
 ![[cp8bdme.png]]
 
-Снимите шапку разгрузчика.
+Remove the unloader cap.
 
 ![[cp8cumb.png]]
 
-Удалите и отбросьте верхнюю уплотнение.
+Remove and discard the top o-ring seal.
 
 ![[cp8ormc.png]]
 
-Удалите и отбросьте нижнюю уплотнение.
+Remove and discard the bottom o-ring seal.
 
 ![[cp8ormd.png]]
 
-Используйте колечко для удаления прямоугольного кольцевого уплотнения.
+Use an o-ring pick to remove the rectangular ring seal.
 
-Отбросьте печать.
+Discard the seal.
 
 ![[cp8semb.png]]
 
-Удалите пружину разгрузчика.
+Remove the unloader cap spring.
 
-Повторите последние восемь шагов, чтобы удалить другой разгрузчик.
+Repeat the last eight steps to remove the other unloader body assembly.
 
 ![[cp8spmb.png]]
 
-Для ST676 удалите десять оставшихся шестиугольников и два шайбы.
+For the ST676, remove the ten remaining hexagon head capscrews and two lock washers.
 
-Для ST773 удалите восемь стиральных болтов и два шестиугольных головных болта и шайбы.
+For the ST773, remove the eight captive washer capscrews and the two hexagon head capscrews and lock washers.
 
 ![[cp8csme.png]]
 
-Снимите крышку.
+Remove the cover.
 
 ![[cp8cvmc.png]]
 
-Удалить и выбросить прокладку крышки.
+Remove and discard the cover gasket.
 
 ![[cp8gkma.png]]
 
-Снимите впускное клапанное сиденье.
+Remove the intake valve seat.
 
 ![[cp8vami.png]]
 
-Удалить впускной клапан.
+Remove the intake valve.
 
 ![[cp8vamj.png]]
 
-Удалите пружину впускного клапана.
+Remove the intake valve spring.
 
-Повторите последние три шага, чтобы удалить другой впускной клапан.
+Repeat the last three steps to remove the other intake valve assembly.
 
 ![[cp8spmc.png]]
 
-Убери голову.
+Remove the head.
 
 ![[cp8hdmd.png]]
 
-Удалить и выбросить прокладку головы.
+Remove and discard the head gasket.
 
 ![[cp8gkmb.png]]
 
-Используйте пресс и инструмент для удаления сиденья воздушного компрессора, номер детали 3377416, чтобы удалить сиденье выхлопного клапана из головы.
+Use a press and an air compressor seat removal tool, Part Number 3377416, to remove the exhaust valve seat assembly from the head.
 
 ![[cp8semc.png]]
 
-Удалите выхлопной клапан.
+Remove the exhaust valve.
 
 ![[cp8vamk.png]]
 
-Удалить и выбросить уплотнение с кольцом.
+Remove and discard the o-ring seal.
 
 ![[cp8orme.png]]
 
-Удалите пружину выпускного клапана.
+Remove the exhaust valve spring.
 
 ![[cp8spmd.png]]
 
-Снимите износостойкую пластину.
+Remove the wear plate.
 
-Повторите последние пять шагов, чтобы разобрать другой сборочный узел сиденья выпускного клапана.
+Repeat the last five steps to disassemble the other exhaust valve seat assembly.
 
 ![[cp8plma.png]]
 
-### Очистка и проверка при повторном использовании
+### Clean and Inspect for Reuse
 
-> [!danger] ОПАСНО
-> При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Носите очки и защитную одежду.
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing.
 
-Замочите детали в керосиновой эмульсии на основе чистящего средства, предназначенного для удаления углерода. Уборщик должен иметь рН 9,5 или менее, чтобы избежать черного цвета алюминиевых деталей. С производителем или поставщиком более чистых продуктов ** необходимо связаться по поводу концентрации раствора, температуры и времени выдержки.
+Soak the parts in a kerosene emulsion based cleaner designed to remove carbon. The cleaner **must** have a pH of 9.5 or less to avoid turning aluminum parts black. The cleaner manufacturer or supplier **must** be contacted about solution concentration, temperature and soak time.
 
 ![[cp8bdec.png]]
 
-> [!note] Примечание
-> Не используйте скребок для удаления углерода и масштабирования, герметизирующие поверхности могут быть повреждены.
+> [!note] Note · Примечание
+> Do **not** use a scraper to remove carbon and scale, the sealing surfaces can be damaged.
 
-Части могут быть очищены жесткой неметаллической щеткой.
+The parts can be scrubbed with a stiff nonmetallic bristle brush.
 
 ![[cp8bdei.png]]
 
-Измерить диаметр пресса сиденья выхлопного клапана в головке цилиндра.
+Measure the exhaust valve seat press fit diameter in the cylinder head.
 
-Заменить, если износ больше 20,688 мм \[0,8145 дюйма\].
+Replace if worn larger than 20.688 mm \[0.8145 inch\].
 
 ![[cp8brna.png]]
 
-Измерить диаметр пресса сиденья выхлопного клапана.
+Measure the exhaust valve seat press fit diameter.
 
-Заменить, если износ меньше 20,714 мм \[0,8155 дюйма\].
+Replace if worn smaller than 20.714 mm \[0.8155 inch\].
 
 ![[cp8sena.png]]
 
-Нанесите "сцепление" на поверхность выхлопных газов для проверки сиденья.
+Apply "bluing" to the exhaust seating surface to check the seat.
 
-Если поверхность сиденья **не** на 100% истинно откинуть и заменить клапанное сиденье.
+If the seating surface is **not** 100 percent true discard and replace the valve seat.
 
 ![[12800028.png]]
 
-Измерить высоту сиденья выхлопного клапана.
+Measure the exhaust valve seat height.
 
-Если высота меньше 12,32 мм \[0,485 дюйма\], заменить сиденье выпускного клапана.
+If the height is less than 12.32 mm \[0.485 inch\] replace the exhaust valve seat.
 
 ![[cp8vata.png]]
 
-Нанести "сцепление" на поверхность впускного клапана.
+Apply "bluing" to the intake valve seating surface.
 
-Если поверхность сиденья ** не**, то 100% замените сиденье впускного клапана.
+If the seating surface is **not** 100 percent true replace the intake valve seat.
 
 ![[12800029.png]]
 
-Измерить высоту сиденья впускного клапана.
+Measure the intake valve seat height.
 
-Если высота меньше 6,86 мм \[0,270 дюйма\], заменить сиденье впускного клапана.
+If the height is less than 6.86 mm \[0.270 inch\] replace the intake valve seat.
 
 ![[cp8vana.png]]
 
-Осмотрите выпускные и впускные клапаны на наличие трещин и повреждений.
+Inspect the exhaust and intake valves for cracks and damage.
 
-Измерьте клапаны для плоскостности. Клапаны ** должны быть плоскими в пределах 0,03 мм \[0,001 дюйма\].
+Measure valves for flatness. The valves **must** be flat within 0.03 mm \[0.001 inch\].
 
-Замените клапаны, если они сломаны, повреждены или **не** плоские.
+Replace the valves if cracked, damaged, or **not** flat.
 
-> [!note] Примечание
-> Cummins Turbo Technologies рекомендует устанавливать новые клапаны во время реконструкции.
+> [!note] Note · Примечание
+> Cummins Turbo Technologies recommends that new valves be installed during rebuild.
 
 ![[cp8vask.png]]
 
-Используйте клапанный пружинный тестер, часть 3375182, для проверки пружин.
+Use a valve spring tester, Part Number 3375182, to check the springs.
 
-Заменить, если **не** в пределах, перечисленных в таблице спецификаций усилий компрессора на передней части этого раздела.
+Replace if **not** within limits listed in the Compressor Spring Force Specifications Table at the front of this section.
 
-> [!note] Примечание
-> Cummins Turbo Technologies рекомендует устанавливать новые источники во время реконструкции.
+> [!note] Note · Примечание
+> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
 
 ![[cp8spta.png]]
 
-Осмотрите верхнюю часть разгрузочной шапки, где расположены прямоугольные кольцевые сиденья уплотнения для забивания.
+Inspect the upper part of the unloader cap where the rectangular ring seal seats for scoring.
 
-Заменить, если забит.
+Replace if scored.
 
 ![[cp8cusc.png]]
 
-### Сборка
+### Assemble
 
-Установите износостойкую пластину.
+Install the wear plate.
 
 ![[cp8plma.png]]
 
-Установите пружину выпускного клапана с танговой торцевой станцией **down**.
+Install the exhaust valve spring with the tang end **down**.
 
-> [!note] Примечание
-> Cummins Turbo Technologies рекомендует устанавливать новые источники во время реконструкции.
+> [!note] Note · Примечание
+> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
 
 ![[cp8spmd.png]]
 
-Установите новое уплотнение.
+Install a new o-ring seal.
 
 ![[cp8orme.png]]
 
-Установите выпускной клапан.
+Install the exhaust valve.
 
-> [!note] Примечание
-> Cummins Turbo Technologies рекомендует устанавливать новые выпускные клапаны во время реконструкции.
+> [!note] Note · Примечание
+> Cummins Turbo Technologies recommends that new exhaust valves be installed during rebuild.
 
 ![[cp8vamk.png]]
 
-Используйте чистое масло 15W-40 для смазки уплотнения.
+Use clean 15W-40 oil to lubricate the seal.
 
 ![[cp8orwa.png]]
 
-> [!note] Примечание
-> **Не использовать чрезмерное давление на сиденье выпускного клапана, чтобы сделать это может исказить клапан.
+> [!note] Note · Примечание
+> Do **not** use excessive pressure on the exhaust valve seats, to do so can distort the valve.
 
-Используйте ручной пресс и инструмент установки воздушного компрессора, номер детали 3377415, чтобы нажать на сиденье выхлопного клапана в голову.
+Use a hand press and an air compressor seat installation tool, Part Number 3377415, to press the exhaust valve seat into the head.
 
-Повторите последние шесть шагов для установки другого клапана выхлопной системы.
+Repeat the last six steps to install the other exhaust valve assembly.
 
 ![[cp8seha.png]]
 
-Установите новую прокладку головки цилиндра.
+Install a new cylinder head gasket.
 
 ![[cp8gkmb.png]]
 
-Установите голову.
+Install the head.
 
 ![[cp8hdmd.png]]
 
-Установите новую прокладку крышки.
+Install a new cover gasket.
 
 ![[cp8gkma.png]]
 
-Установите крышку.
+Install the cover.
 
 ![[cp8cvmc.png]]
 
-Для ST676 установите восемь шестиугольных головных болтов и затяните палец.
+For the ST676, install the eight hexagon head capscrews and finger tighten.
 
-Для ST773 установите восемь стиральных болтов в неволе.
+For the ST773, install the eight captive washer capscrews.
 
 ![[cp8cshc.png]]
 
-Используйте опору для кольцевой установки, чтобы правильно установить новое уплотнение для кольцевой панели.
+Use an o-ring pick to correctly install the new o-ring seal.
 
 ![[cp8orhb.png]]
 
-Установите разгрузочную пружину.
+Install the unloading spring.
 
-> [!note] Примечание
-> Cummins Turbo Technologies рекомендует устанавливать новые источники во время реконструкции.
+> [!note] Note · Примечание
+> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
 
 ![[cp8sphb.png]]
 
-> [!warning] ОСТОРОЖНО
-> Прямоугольное кольцевое уплотнение должно быть установлено с выгнутой стороной вверх; несоблюдение этого требования приведет к повреждению системы подачи воздуха и отказу тормозов.
+> [!warning] CAUTION · Осторожно
+> The rectangular ring seal must be installed with the grooved side up; failure to do so will result in air system damage and brake failure.
 
-Используйте колечко для правильной установки нового прямоугольного кольцевого уплотнения, если корпус разгрузчика имеет полость для этого кольца.
+Use an o-ring pick to correctly install the new rectangular ring seal, if the unloader body has a cavity for this o-ring.
 
 ![[cp8sehc.png]]
 
-Установите новое уплотнение.
+Install a new o-ring seal.
 
 ![[cp8orma.png]]
 
-Используйте антисептик для смазки наружного диаметра разгрузочного клапана.
+Use antiseize compound to lubricate the outside diameter of the unloader valve cap.
 
 ![[cp8cuwa.png]]
 
-Установите колпачок в корпус разгрузочного клапана.
+Install the cap into the unloading valve body.
 
 ![[cp8cuma.png]]
 
-Используйте чистое масло 15W-40 для смазки уплотнения.
+Use clean 15W-40 oil to lubricate the seal.
 
 ![[cp8orwb.png]]
 
-> [!warning] ОСТОРОЖНО
-> Корпус разгрузочного клапана устанавливается под весенним натяжением. Тщательно установить, чтобы избежать травм. Носите защиту лица и глаз.
+> [!warning] CAUTION · Осторожно
+> The unloader valve body is installed under spring tension. Carefully install to avoid personal injury. Wear face and eye protection.
 
-Установите тело в крышку.
+Install the body into the cover.
 
 ![[cp8bdha.png]]
 
-Установите удерживающий зажим и три шайбы замка и три шестиугольных головных болта.
+Install the retaining clamp and the three lock washers and the three hexagon head capscrews.
 
 ![[cp8cshd.png]]
 
-Затягивайте болты в показанной последовательности.
+Tighten the capscrews in the sequence shown.
 
-> [!tip] Момент затяжки
-> 41 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 41 n•m [124 in-lb]
 
 ![[cp8csog.png]]
 
-Установите пружину впускного клапана с танговой торцевой станцией **down**.
+Install the intake valve spring with the tang end **down**.
 
-> [!note] Примечание
-> Cummins Turbo Technologies рекомендует устанавливать новые источники во время реконструкции.
+> [!note] Note · Примечание
+> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
 
 ![[cp8sphc.png]]
 
-Установите впускной клапан.
+Install the intake valve.
 
-> [!note] Примечание
-> Cummins Turbo Technologies рекомендует устанавливать новые впускные клапаны во время реконструкции.
+> [!note] Note · Примечание
+> Cummins Turbo Technologies recommends that new intake valves be installed during rebuild.
 
 ![[cp8vahf.png]]
 
-Установите сиденье впускного клапана с фланцевым концом **up**.
+Install the intake valve seat with the flange end **up**.
 
 ![[cp8vahg.png]]
 
-Установите пружину разгрузчика.
+Install the unloader cap spring.
 
-> [!note] Примечание
-> Cummins Turbo Technologies рекомендует устанавливать новые источники во время реконструкции.
+> [!note] Note · Примечание
+> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
 
 ![[cp8sphd.png]]
 
-Используйте антисептик для смазки наружного диаметра разгрузочного клапана.
+Use antiseize compound to lubricate the outside diameter of the unloader valve cap.
 
 ![[cp8cuwb.png]]
 
-Установите крышку в крышку и убедитесь, что три касания находятся в трех слотах сиденья впускного клапана.
+Install the cap into the cover and make sure the three tangs are in the three slots of the intake valve seat.
 
 ![[cp8cuha.png]]
 
-> [!warning] ОСТОРОЖНО
-> Прямоугольное кольцевое уплотнение должно быть установлено с выгнутой стороной вверх; несоблюдение этого требования приведет к повреждению системы подачи воздуха и отказу тормозов.
+> [!warning] CAUTION · Осторожно
+> The rectangular ring seal must be installed with the grooved side up; failure to do so will result in air system damage and brake failure.
 
-Используйте колечко для правильной установки нового прямоугольного кольцевого уплотнения.
+Use an o-ring pick to correctly install the new rectangular ring seal.
 
 ![[cp8sehb.png]]
 
-Установите новое нижнее уплотнение.
+Install a new bottom o-ring seal.
 
 ![[cp8ormd.png]]
 
-Установите новое верхнее уплотнение.
+Install a new top o-ring seal.
 
 ![[cp8ormc.png]]
 
-Используйте чистое масло 15W-40 для смазки уплотнений.
+Use clean 15W-40 oil to lubricate the seals.
 
 ![[cp8bdwc.png]]
 
-Установите разгрузочный корпус в крышку.
+Install the unloading body into the cover.
 
 ![[cp8bdhb.png]]
 
-> [!danger] ОПАСНО
-> Корпус разгрузчика устанавливается с весенним натяжением. Он должен быть установлен так, как описано, чтобы предотвратить травмы.
+> [!danger] WARNING · Опасно
+> The unloader body is installed with spring tension. It must be installed as described to prevent personal injury.
 
-Удерживайте разгрузочный корпус твердо и установите болты и простые шайбы, чтобы предотвратить выкидывание тела разгрузчика на свободу и причинение личной травмы.
+Hold down on the unloading body firmly and install the capscrews and plain washers so as to prevent the unloader body from being thrown free and causing personal injury.
 
 ![[cp8cshe.png]]
 
-Затяните болты.
+Tighten the capscrews.
 
-> [!tip] Момент затяжки
-> 14 Н·м [124 фунт-дюйм]
+> [!tip] Момент затяжки · Torque Value
+> 14 n•m [124 in-lb]
 
-Повторите последние тринадцать шагов для установки другой разгрузочной сборки кузова.
+Repeat the last thirteen steps to install the other unloading body assembly.
 
 ![[cp8csoh.png]]
-
-
-> [!quote]- Original (English) · английский оригинал
-> ### Disassemble
->
-> **WARNING · Опасно**
-> This component or assembly weighs greater than 23 kg \[50 lb\]. To prevent serious personal injury, be sure to have assistance or use appropriate lifting equipment to lift component or assembly.
->
-> Use two 5/16 - 18 x 1 1/4 inch capscrews to mount the air compressor on the mounting plate, Part Number ST-749, which is used with the ball joint vise, Part Number ST-302.
->
-> Remove the center unloader body hexagon head capscrew and lock washer.
->
-> Remove the retaining clamp.
->
-> **CAUTION · Осторожно**
-> The unloader valve body is installed with spring tension. Carefully remove to avoid personal injury. Wear face and eye protection.
->
-> Remove the unloading valve body.
->
-> Remove the unloader valve cap, if installed.
->
-> Remove and discard the o-ring seal.
->
-> Use an o-ring pick to remove the rectangular ring seal, if installed.
->
-> Discard the seal.
->
-> Remove the unloader valve cap spring.
->
-> Use an o-ring pick to remove the o-ring seal.
->
-> Discard the seal.
->
-> Loosen the two unloader body hexagon head capscrews.
->
-> **WARNING · Опасно**
-> The unloader body is installed with spring tension, it must be removed carefully to avoid personal injury. Always wear protective eye wear.
->
-> Hold down on the unloader body and slowly remove the two unloader body capscrews and the two plain washers so as to prevent the unloader body from being thrown free and causing personal injury.
->
-> Remove the unloader valve body.
->
-> Remove the unloader cap.
->
-> Remove and discard the top o-ring seal.
->
-> Remove and discard the bottom o-ring seal.
->
-> Use an o-ring pick to remove the rectangular ring seal.
->
-> Discard the seal.
->
-> Remove the unloader cap spring.
->
-> Repeat the last eight steps to remove the other unloader body assembly.
->
-> For the ST676, remove the ten remaining hexagon head capscrews and two lock washers.
->
-> For the ST773, remove the eight captive washer capscrews and the two hexagon head capscrews and lock washers.
->
-> Remove the cover.
->
-> Remove and discard the cover gasket.
->
-> Remove the intake valve seat.
->
-> Remove the intake valve.
->
-> Remove the intake valve spring.
->
-> Repeat the last three steps to remove the other intake valve assembly.
->
-> Remove the head.
->
-> Remove and discard the head gasket.
->
-> Use a press and an air compressor seat removal tool, Part Number 3377416, to remove the exhaust valve seat assembly from the head.
->
-> Remove the exhaust valve.
->
-> Remove and discard the o-ring seal.
->
-> Remove the exhaust valve spring.
->
-> Remove the wear plate.
->
-> Repeat the last five steps to disassemble the other exhaust valve seat assembly.
->
-> ### Clean and Inspect for Reuse
->
-> **WARNING · Опасно**
-> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing.
->
-> Soak the parts in a kerosene emulsion based cleaner designed to remove carbon. The cleaner **must** have a pH of 9.5 or less to avoid turning aluminum parts black. The cleaner manufacturer or supplier **must** be contacted about solution concentration, temperature and soak time.
->
-> **Note · Примечание**
-> Do **not** use a scraper to remove carbon and scale, the sealing surfaces can be damaged.
->
-> The parts can be scrubbed with a stiff nonmetallic bristle brush.
->
-> Measure the exhaust valve seat press fit diameter in the cylinder head.
->
-> Replace if worn larger than 20.688 mm \[0.8145 inch\].
->
-> Measure the exhaust valve seat press fit diameter.
->
-> Replace if worn smaller than 20.714 mm \[0.8155 inch\].
->
-> Apply "bluing" to the exhaust seating surface to check the seat.
->
-> If the seating surface is **not** 100 percent true discard and replace the valve seat.
->
-> Measure the exhaust valve seat height.
->
-> If the height is less than 12.32 mm \[0.485 inch\] replace the exhaust valve seat.
->
-> Apply "bluing" to the intake valve seating surface.
->
-> If the seating surface is **not** 100 percent true replace the intake valve seat.
->
-> Measure the intake valve seat height.
->
-> If the height is less than 6.86 mm \[0.270 inch\] replace the intake valve seat.
->
-> Inspect the exhaust and intake valves for cracks and damage.
->
-> Measure valves for flatness. The valves **must** be flat within 0.03 mm \[0.001 inch\].
->
-> Replace the valves if cracked, damaged, or **not** flat.
->
-> **Note · Примечание**
-> Cummins Turbo Technologies recommends that new valves be installed during rebuild.
->
-> Use a valve spring tester, Part Number 3375182, to check the springs.
->
-> Replace if **not** within limits listed in the Compressor Spring Force Specifications Table at the front of this section.
->
-> **Note · Примечание**
-> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
->
-> Inspect the upper part of the unloader cap where the rectangular ring seal seats for scoring.
->
-> Replace if scored.
->
-> ### Assemble
->
-> Install the wear plate.
->
-> Install the exhaust valve spring with the tang end **down**.
->
-> **Note · Примечание**
-> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
->
-> Install a new o-ring seal.
->
-> Install the exhaust valve.
->
-> **Note · Примечание**
-> Cummins Turbo Technologies recommends that new exhaust valves be installed during rebuild.
->
-> Use clean 15W-40 oil to lubricate the seal.
->
-> **Note · Примечание**
-> Do **not** use excessive pressure on the exhaust valve seats, to do so can distort the valve.
->
-> Use a hand press and an air compressor seat installation tool, Part Number 3377415, to press the exhaust valve seat into the head.
->
-> Repeat the last six steps to install the other exhaust valve assembly.
->
-> Install a new cylinder head gasket.
->
-> Install the head.
->
-> Install a new cover gasket.
->
-> Install the cover.
->
-> For the ST676, install the eight hexagon head capscrews and finger tighten.
->
-> For the ST773, install the eight captive washer capscrews.
->
-> Use an o-ring pick to correctly install the new o-ring seal.
->
-> Install the unloading spring.
->
-> **Note · Примечание**
-> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
->
-> **CAUTION · Осторожно**
-> The rectangular ring seal must be installed with the grooved side up; failure to do so will result in air system damage and brake failure.
->
-> Use an o-ring pick to correctly install the new rectangular ring seal, if the unloader body has a cavity for this o-ring.
->
-> Install a new o-ring seal.
->
-> Use antiseize compound to lubricate the outside diameter of the unloader valve cap.
->
-> Install the cap into the unloading valve body.
->
-> Use clean 15W-40 oil to lubricate the seal.
->
-> **CAUTION · Осторожно**
-> The unloader valve body is installed under spring tension. Carefully install to avoid personal injury. Wear face and eye protection.
->
-> Install the body into the cover.
->
-> Install the retaining clamp and the three lock washers and the three hexagon head capscrews.
->
-> Tighten the capscrews in the sequence shown.
->
-> **Момент затяжки · Torque Value**
-> 41 n•m [124 in-lb]
->
-> Install the intake valve spring with the tang end **down**.
->
-> **Note · Примечание**
-> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
->
-> Install the intake valve.
->
-> **Note · Примечание**
-> Cummins Turbo Technologies recommends that new intake valves be installed during rebuild.
->
-> Install the intake valve seat with the flange end **up**.
->
-> Install the unloader cap spring.
->
-> **Note · Примечание**
-> Cummins Turbo Technologies recommends that new springs be installed during rebuild.
->
-> Use antiseize compound to lubricate the outside diameter of the unloader valve cap.
->
-> Install the cap into the cover and make sure the three tangs are in the three slots of the intake valve seat.
->
-> **CAUTION · Осторожно**
-> The rectangular ring seal must be installed with the grooved side up; failure to do so will result in air system damage and brake failure.
->
-> Use an o-ring pick to correctly install the new rectangular ring seal.
->
-> Install a new bottom o-ring seal.
->
-> Install a new top o-ring seal.
->
-> Use clean 15W-40 oil to lubricate the seals.
->
-> Install the unloading body into the cover.
->
-> **WARNING · Опасно**
-> The unloader body is installed with spring tension. It must be installed as described to prevent personal injury.
->
-> Hold down on the unloading body firmly and install the capscrews and plain washers so as to prevent the unloader body from being thrown free and causing personal injury.
->
-> Tighten the capscrews.
->
-> **Момент затяжки · Torque Value**
-> 14 n•m [124 in-lb]
->
-> Repeat the last thirteen steps to install the other unloading body assembly.
