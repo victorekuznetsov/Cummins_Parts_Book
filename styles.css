@@ -776,3 +776,27 @@ table.parts th.th-lvl2{
   border:1px solid var(--line); border-left:3px solid var(--accent-2);
   border-radius:8px; padding:10px 14px; font-size:13px; box-shadow:var(--shadow);
 }
+
+/* ---- поиск по текстам документов ---- */
+.fts-hit{padding:9px 0; border-bottom:1px solid var(--line-soft)}
+.fts-hit:last-child{border-bottom:none}
+.fts-head{margin-bottom:3px}
+.fts-snip{font-size:13px; color:var(--muted); line-height:1.5; margin:2px 0 4px}
+.fts-snip mark{background:#ffe08a; color:#3a2c00; padding:0 1px; border-radius:2px}
+.fts-meta{display:flex; flex-wrap:wrap; gap:6px; align-items:center; font-size:12px}
+
+/* ---- документы по детали в карточке каталога ---- */
+.pc-docs{display:flex; flex-direction:column; gap:6px}
+a.pc-doc{
+  display:flex; align-items:baseline; gap:8px; text-decoration:none;
+  padding:6px 8px; border:1px solid var(--line); border-radius:7px;
+  background:var(--panel); color:var(--text);
+}
+a.pc-doc:hover{border-color:var(--accent-2); background:var(--hover)}
+.pc-doc-cat{
+  font-size:10.5px; text-transform:uppercase; letter-spacing:.3px; color:var(--accent-2);
+  border:1px solid var(--line); border-radius:9px; padding:0 6px; white-space:nowrap;
+}
+.pc-doc-title{flex:1 1 auto}
+.pc-doc-no{font-family:Consolas,"Courier New",monospace; font-size:11.5px; color:var(--muted)}
+a.pc-doc.more{justify-content:center; color:var(--accent-2); border-style:dashed}

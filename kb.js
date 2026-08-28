@@ -401,6 +401,24 @@ function docSide(id, d) {
     });
     h.push("</ul></section>");
   }
+  if (d.g) {
+    var sameGroup = Object.keys(DOCS).filter(function (x) {
+      return x !== id && DOCS[x].g === d.g;
+    });
+    if (sameGroup.length) {
+      h.push('<section><h3>Раздел «' + esc(d.g) + '» <span class="cnt">' +
+             sameGroup.length + '</span></h3><ul class="side-list">');
+      sortIds(sameGroup).slice(0, 12).forEach(function (x) {
+        h.push("<li>" + badge(DOCS[x].c) + " " + docLink(x, DOCS[x].ru || DOCS[x].t) + "</li>");
+      });
+      h.push("</ul>");
+      if (sameGroup.length > 12) {
+        h.push('<p class="sub"><a class="lnk" href="#/docs/all/' +
+               encodeURIComponent(d.g) + '">весь раздел →</a></p>');
+      }
+      h.push("</section>");
+    }
+  }
   var group = String(id).split("-")[0];
   var siblings = Object.keys(DOCS).filter(function (x) {
     return x !== id && DOCS[x].c === d.c && String(x).split("-")[0] === group;
@@ -595,18 +613,38 @@ function viewPart(no) {
     p.e.forEach(function (e) { side.push("<li>" + engineLink(e) + "</li>"); });
     side.push("</ul></section>");
   }
-  if (p.d && p.d.length) {
-    side.push('<section><h3>Упоминается в документах <span class="cnt">' + p.d.length +
-              "</span></h3><ul class=\"side-list\">");
-    sortIds(p.d).slice(0, 80).forEach(function (k) {
-      var id = k.split("|")[1] || k;
-      var dd = DOCS[id];
-      side.push("<li>" + (dd ? badge(dd.c) + " " + docLink(id, dd.ru || dd.t) : esc(id)) + "</li>");
-    });
-    side.push("</ul></section>");
-  }
+  side.push('<section id="part-docs"></section>');
   render('<div class="doc-layout">' + h.join("") +
          '<aside class="doc-side">' + side.join("") + "</aside></div>");
+  partDocs(no, sortIds(p.d || []).map(function (k) { return String(k).split("|")[1] || k; }));
+}
+
+/* Документы, где встречается номер детали: связи из сборки плюс живой поиск
+   по текстам — так находятся и те документы, где номер просто упомянут. */
+function partDocs(no, known) {
+  var box = document.getElementById("part-docs");
+  if (!box) return;
+  box.innerHTML = '<h3>Упоминается в документах</h3><p class="sub">Ищу в текстах…</p>';
+  withFts(function (f) {
+    var ids = f ? ftsSearch(no) : [];
+    var seen = {}, all = [];
+    (known || []).concat(ids).forEach(function (id) {
+      if (DOCS[id] && !seen[id]) { seen[id] = 1; all.push(id); }
+    });
+    if (!all.length) { box.innerHTML = ""; return; }
+    var out = ['<h3>Упоминается в документах <span class="cnt">' + all.length + "</span></h3>",
+               '<ul class="side-list">'];
+    all.slice(0, 60).forEach(function (id) {
+      var d = DOCS[id];
+      out.push("<li>" + badge(d.c) + " " + docLink(id, d.ru || d.t) + "</li>");
+    });
+    out.push("</ul>");
+    if (all.length > 60) {
+      out.push('<p class="sub"><a class="lnk" href="#/search/' + encodeURIComponent(no) +
+               '">показать все ' + all.length + " →</a></p>");
+    }
+    box.innerHTML = out.join("");
+  });
 }
 
 /* ============================================================ двигатель */
@@ -694,9 +732,11 @@ function viewSearch(q) {
     inp._t = setTimeout(function () {
       location.replace("#/search/" + encodeURIComponent(v));
       document.getElementById("kb-res").innerHTML = searchHtml(v);
+      runFts(v);
     }, 180);
   };
   document.getElementById("kb-res").innerHTML = searchHtml(q);
+  runFts(q);
 }
 
 function searchHtml(q) {
@@ -705,6 +745,15 @@ function searchHtml(q) {
   var lo = q.toLowerCase();
   var num = q.toUpperCase().replace(/[\s-]/g, "");
   var h = [];
+
+  /* номер документа: 00-379-007, TSB 250144, 3666253 — точное совпадение первым */
+  var byNo = docsByNumber(q);
+  if (byNo.length) {
+    h.push('<section class="kb-card wide"><h2>Документ по номеру <span class="cnt">' +
+      byNo.length + "</span></h2>");
+    byNo.slice(0, 12).forEach(function (id) { h.push(docResultRow(id, "")); });
+    h.push("</section>");
+  }
 
   /* машины парка: по VIN, серийному номеру двигателя, модели и CPL */
   var fl = FLEET.m.filter(function (m) {
@@ -737,7 +786,7 @@ function searchHtml(q) {
   }).slice(0, 300);
 
   h.push('<div class="res-tabs"><span>Найдено: детали Cummins ' + pHits.length +
-    " · детали машин " + mHits.length + " · документы " + dHits.length + "</span></div>");
+    " · документы " + dHits.length + "</span></div>");
 
   if (pHits.length) {
     h.push('<section class="kb-card wide"><h2>Детали Cummins</h2><table class="kb-table">');
@@ -761,10 +810,159 @@ function searchHtml(q) {
     });
     h.push("</table></section>");
   }
-  if (!pHits.length && !dHits.length) {
-    h.push('<p class="empty">Ничего не найдено.</p>');
+  h.push('<div id="fts-res"></div>');
+  if (!pHits.length && !dHits.length && !byNo.length) {
+    h.push('<p class="sub">По заголовкам ничего не нашлось — ищу в текстах документов…</p>');
   }
   return h.join("");
+}
+
+
+/* ============================ полнотекстовый поиск по текстам документов ===
+   Индекс data/kb_fts.js (слово -> документы, русский и английский) грузится
+   при первом текстовом поиске: он весит несколько мегабайт и на открытии
+   страницы не нужен. */
+var FTS = null, FTS_WAIT = null;
+function withFts(cb) {
+  if (FTS) { cb(FTS); return; }
+  if (window.KB_FTS) { FTS = window.KB_FTS; cb(FTS); return; }
+  if (FTS_WAIT) { FTS_WAIT.push(cb); return; }
+  FTS_WAIT = [cb];
+  loadScript("data/kb_fts.js", function () {
+    FTS = window.KB_FTS || null;
+    var q = FTS_WAIT; FTS_WAIT = null;
+    q.forEach(function (f) { f(FTS); });
+  });
+}
+var WORD_RE = /[a-zà-ÿ]{3,}|[а-яё]{3,}|\d{4,}/g;
+var RU_TAIL = /(иями|ыми|ими|ями|ами|ого|его|ому|ему|ать|ять|еть|ить|ой|ый|ий|ая|яя|ое|ее|ые|ие|ов|ев|ей|ам|ям|ах|ях|ом|ем|ь|я|ю|а|о|у|ы|и|е)$/;
+/* поиск по началу слова: «прокладки» и «прокладка» должны находить друг друга,
+   поэтому у запроса отсекается типовое окончание, а в индексе берутся все
+   слова с таким началом */
+function ftsStem(t) {
+  if (/^[а-яё]+$/.test(t) && t.length > 5) return t.replace(RU_TAIL, "");
+  if (/^[a-z]+$/.test(t) && t.length > 4) return t.replace(/(ings|ing|ies|ed|es|s)$/, "");
+  return t;
+}
+function ftsTokens(q) { return String(q || "").toLowerCase().match(WORD_RE) || []; }
+function lowerBound(arr, x) {
+  var lo = 0, hi = arr.length;
+  while (lo < hi) { var m = (lo + hi) >> 1; if (arr[m] < x) lo = m + 1; else hi = m; }
+  return lo;
+}
+/* документы, где встречается слово (или слова с таким началом) */
+function ftsWord(token) {
+  if (!FTS) return null;
+  var pref = ftsStem(token), i = lowerBound(FTS.w, pref), out = {}, n = 0;
+  while (i < FTS.w.length && FTS.w[i].indexOf(pref) === 0 && n < 600) {
+    FTS.p[i].forEach(function (d) { out[d] = 1; });
+    i++; n++;
+  }
+  return out;
+}
+/* документы, где есть все слова запроса */
+function ftsSearch(q) {
+  var toks = ftsTokens(q);
+  if (!FTS || !toks.length) return [];
+  var acc = null;
+  for (var i = 0; i < toks.length; i++) {
+    var w = ftsWord(toks[i]);
+    if (!w) return [];
+    if (!acc) { acc = w; continue; }
+    var next = {};
+    Object.keys(w).forEach(function (d) { if (acc[d]) next[d] = 1; });
+    acc = next;
+    if (!Object.keys(acc).length) break;
+  }
+  var lo = String(q).toLowerCase();
+  return Object.keys(acc || {}).map(function (d) { return FTS.ids[d]; })
+    .filter(function (id) { return DOCS[id]; })
+    .sort(function (a, b) {
+      var A = DOCS[a], B = DOCS[b];
+      var ta = ((A.ru || "") + " " + A.t).toLowerCase().indexOf(lo) >= 0 ? 0 : 1;
+      var tb = ((B.ru || "") + " " + B.t).toLowerCase().indexOf(lo) >= 0 ? 0 : 1;
+      if (ta !== tb) return ta - tb;
+      return (B.mo || B.d || "").localeCompare(A.mo || A.d || "");
+    });
+}
+/* фрагмент текста вокруг найденного слова */
+function ftsSnippet(id, toks, cb) {
+  withBody(id, function (body) {
+    var text = String(body || "").replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/g, " ")
+      .replace(/\s+/g, " ").trim();
+    if (!text) { cb(""); return; }
+    var lowText = text.toLowerCase(), at = -1;
+    for (var i = 0; i < toks.length && at < 0; i++) at = lowText.indexOf(ftsStem(toks[i]));
+    if (at < 0) at = 0;
+    var from = Math.max(0, at - 90), part = text.slice(from, from + 260);
+    var html = esc((from ? "… " : "") + part + (from + 260 < text.length ? " …" : ""));
+    toks.forEach(function (t) {
+      var st = ftsStem(t);
+      if (st.length < 3) return;
+      try {
+        html = html.replace(new RegExp("(" + st.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "[а-яёa-z]*)", "ig"),
+                            "<mark>$1</mark>");
+      } catch (e) {}
+    });
+    cb(html);
+  });
+}
+/* строка результата: номер, заголовок, двигатели, ссылки */
+function docResultRow(id, snippet) {
+  var d = DOCS[id] || {};
+  var eng = (d.e || []).slice(0, 6).map(function (e) {
+    return '<a class="chip" href="#/engine/' + esc(e) + '">' + esc(e) + "</a>";
+  }).join(" ");
+  return '<div class="fts-hit"><div class="fts-head">' + badge(d.c) + " " +
+    docLink(id, d.ru || d.t || id) + ' <span class="sub">' + esc(id) +
+    (d.ru && d.t ? " · " + esc(d.t) : "") + "</span></div>" +
+    (snippet ? '<div class="fts-snip">' + snippet + "</div>" : "") +
+    '<div class="fts-meta">' + eng +
+    (d.g ? ' <a class="lnk" href="#/docs/' + esc(d.c) + "/" + encodeURIComponent(d.g) +
+           '">' + esc(d.g) + "</a>" : "") +
+    (d.mn && d.mn.length ? ' <a class="lnk doc" href="#/manual/' + esc(d.mn[0]) + '">руководство ' +
+           esc(d.mn[0]) + "</a>" : "") + "</div></div>";
+}
+/* асинхронная догрузка индекса и отрисовка результатов в подготовленный блок */
+function runFts(q, boxId, limit) {
+  var box = document.getElementById(boxId || "fts-res");
+  if (!box) return;
+  var toks = ftsTokens(q);
+  if (!toks.length) { box.innerHTML = ""; return; }
+  box.innerHTML = '<p class="sub">Ищу в текстах документов…</p>';
+  withFts(function (fts) {
+    if (!fts) { box.innerHTML = '<p class="sub">Индекс текстов недоступен.</p>'; return; }
+    var ids = ftsSearch(q), top = ids.slice(0, limit || 40);
+    if (!ids.length) {
+      box.innerHTML = '<section class="kb-card wide"><h2>В тексте документов</h2>' +
+        '<p class="empty">Ничего не найдено.</p></section>';
+      return;
+    }
+    var rows = top.map(function (id) { return '<div id="fts-' + esc(id) + '">' +
+      docResultRow(id, "") + "</div>"; });
+    box.innerHTML = '<section class="kb-card wide"><h2>В тексте документов ' +
+      '<span class="cnt">' + ids.length + "</span></h2>" + rows.join("") +
+      (ids.length > top.length ? '<p class="sub">Показаны первые ' + top.length +
+        " — уточните запрос.</p>" : "") + "</section>";
+    top.slice(0, 5).forEach(function (id) {          // фрагменты — для первых пяти
+      ftsSnippet(id, toks, function (sn) {
+        var cell = document.getElementById("fts-" + id);
+        if (cell && sn) cell.innerHTML = docResultRow(id, sn);
+      });
+    });
+  });
+}
+/* поиск документа по номеру: 00-379-007, TSB 250144, 3666253 */
+function docsByNumber(q) {
+  var norm = String(q).toUpperCase().replace(/[\s–—-]/g, "");
+  if (norm.length < 4) return [];
+  var exact = [], starts = [];
+  Object.keys(DOCS).forEach(function (id) {
+    var n = id.toUpperCase().replace(/[\s–—-]/g, "");
+    if (n === norm) exact.push(id);
+    else if (starts.length < 40 && n.indexOf(norm) === 0) starts.push(id);
+  });
+  return exact.concat(sortIds(starts));
 }
 
 /* ------------------------------------------------- списки деталей целиком */
@@ -1022,7 +1220,14 @@ window.KB = {
              (r[1] && r[1].toLowerCase().indexOf(lo) !== -1) ||
              (r[2] && r[2].toLowerCase().indexOf(lo) !== -1);
     });
-    if (!hits.length) return;
+    if (!hits.length) {                 // по заголовкам пусто — ищем в текстах
+      var only = document.createElement("div");
+      only.className = "kb-inline";
+      only.innerHTML = '<div id="cat-fts"></div>';
+      box.appendChild(only);
+      runFts(q, "cat-fts", 8);
+      return;
+    }
     var wrap = document.createElement("div");
     wrap.className = "kb-inline";
     var head = "<h3>Документы базы знаний <span class=\"cnt\">" + hits.length + "</span>" +
@@ -1032,8 +1237,10 @@ window.KB = {
       return "<tr><td class='c-id'>" + docLink(r[0], r[0]) + "</td><td>" + badge(r[3]) + " " +
         esc(r[2] || r[1]) + "</td><td class='c-date'>" + esc(d.d || "") + "</td></tr>";
     }).join("");
-    wrap.innerHTML = head + '<table class="kb-table">' + rows + "</table>";
+    wrap.innerHTML = head + '<table class="kb-table">' + rows + "</table>" +
+      '<div id="cat-fts"></div>';
     box.appendChild(wrap);
+    runFts(q, "cat-fts", 8);          // плюс документы, где слова встречаются в тексте
   },
   /* ссылки на базу знаний в карточке детали каталога */
   decoratePartCard: function (pn) {
@@ -1056,6 +1263,21 @@ window.KB = {
   },
   photoUrl: photoUrl,
   ruPart: function (pn) { return (PARTS[pn] && PARTS[pn].ru) || ""; },
+  /* документы, где встречается номер детали — для карточки детали в каталоге */
+  docsForPart: function (pn, cb) {
+    withFts(function (f) {
+      var ids = f ? ftsSearch(pn) : [];
+      var stat = ((PARTS[pn] && PARTS[pn].d) || []).map(function (k) {
+        return String(k).split("|")[1] || k;
+      });
+      var seen = {}, out = [];
+      stat.concat(ids).forEach(function (id) {
+        var d = DOCS[id];
+        if (d && !seen[id]) { seen[id] = 1; out.push({ id: id, cat: d.c, title: d.ru || d.t }); }
+      });
+      cb(out);
+    });
+  },
   ruOption: function (no) { return (NAMES.opt && NAMES.opt[no]) || ""; },
   route: route
 };

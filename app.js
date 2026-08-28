@@ -667,8 +667,43 @@ function openPartCard(pn) {
   $("pc-used").classList.toggle("hidden", !used.length);
 
   if (window.KB && window.KB.decoratePartCard) window.KB.decoratePartCard(pn);
+  renderPartDocs(pn);
   $("part-card").classList.remove("hidden");
   $("part-overlay").classList.remove("hidden");
+}
+
+/* Документы базы знаний, где встречается номер детали: процедуры ремонта,
+   бюллетени, TSB. Список приходит из базы знаний (поиск по текстам), поэтому
+   заполняется асинхронно. */
+function renderPartDocs(pn) {
+  var box = $("pc-docs"), body = $("pc-docs-body");
+  if (!box || !body) return;
+  box.classList.add("hidden");
+  body.innerHTML = "";
+  if (!(window.KB && window.KB.docsForPart)) return;
+  window.KB.docsForPart(pn, function (docs) {
+    if (!docs || !docs.length || $("pc-title").textContent.indexOf(pn) < 0) return;
+    var CAT = { procedures: "процедура", tsb: "TSB", bulletin: "бюллетень",
+                sti: "инструмент", install_inst: "установка", manual: "руководство",
+                outlines: "чертёж" };
+    body.innerHTML = "";
+    docs.slice(0, 8).forEach(function (d) {
+      var a = el("a", "pc-doc");
+      a.href = "#/doc/" + encodeURIComponent(d.id);
+      a.appendChild(el("span", "pc-doc-cat", CAT[d.cat] || d.cat));
+      a.appendChild(el("span", "pc-doc-title", d.title || d.id));
+      a.appendChild(el("span", "pc-doc-no", d.id));
+      a.onclick = function () { closePartCard(); };
+      body.appendChild(a);
+    });
+    if (docs.length > 8) {
+      var more = el("a", "pc-doc more", "показать все " + docs.length + " →");
+      more.href = "#/search/" + encodeURIComponent(pn);
+      more.onclick = function () { closePartCard(); };
+      body.appendChild(more);
+    }
+    box.classList.remove("hidden");
+  });
 }
 
 function addAttr(tbl, name, value) {
@@ -912,7 +947,9 @@ function doSearchIn(q) {
       o.parts.forEach(function (p) {
         var num = normNo(p.no);
         var hitNo = num && num.indexOf(norm) !== -1;
-        var hitNm = p.name && re.test(p.name);
+        // ищем и по русскому наименованию из базы знаний, не только по английскому
+        var ruNm = (window.KB && p.no) ? window.KB.ruPart(p.no) : "";
+        var hitNm = (p.name && re.test(p.name)) || (ruNm && re.test(ruNm));
         if (!hitNo && !hitNm) return;
         var key = p.no + "|" + o.no;
         if (seen[key]) return;
@@ -940,6 +977,15 @@ function doSearchIn(q) {
       });
     });
 
+    /* Узлы: по названию (английскому и русскому) — чтобы «блок цилиндров»
+       открывал сам узел, а не только детали из него. */
+    cat.options.forEach(function (o) {
+      var ruOpt = optionRu(o.no);
+      var hitNo = normNo(o.no).indexOf(norm) !== -1;
+      if (!hitNo && !(o.name && re.test(o.name)) && !(ruOpt && re.test(ruOpt))) return;
+      hits.push({ isOption: true, o: o, eng: eng, exact: normNo(o.no) === norm });
+    });
+
     /* Комплекты: их номера не встречаются ни в одном узле, поэтому без
        отдельного прохода номер комплекта не находился вовсе. */
     (cat.kits || []).forEach(function (kit) {
@@ -955,7 +1001,8 @@ function doSearchIn(q) {
   hits.sort(function (a, b) {
     if (a.exact !== b.exact) return a.exact ? -1 : 1;
     if (a.eng.esn !== b.eng.esn) return a.eng.esn === C.esn ? -1 : 1;
-    var an = a.isKit ? a.kit.no : a.p.no, bn = b.isKit ? b.kit.no : b.p.no;
+    var an = a.isKit ? a.kit.no : (a.isOption ? a.o.no : a.p.no);
+    var bn = b.isKit ? b.kit.no : (b.isOption ? b.o.no : b.p.no);
     return (an || "").localeCompare(bn || "");
   });
 
@@ -981,6 +1028,24 @@ function doSearchIn(q) {
       d.onclick = function () {
         if (h.eng.esn !== C.esn) selectEngine(h.eng.esn);
         openKitCard(h.kit.no);
+      };
+      box.appendChild(d);
+      return;
+    }
+    if (h.isOption) {
+      var ono = el("span", "hit-no", h.o.no);
+      ono.appendChild(el("span", "chip-sup", "узел"));
+      d.appendChild(ono);
+      var ruO = optionRu(h.o.no);
+      var onm = el("span", "hit-name");
+      onm.innerHTML = (ruO ? "<b>" + highlight(ruO, q) + "</b> · " : "") + highlight(h.o.name || "", q);
+      d.appendChild(onm);
+      var owhere = "узел · позиций: " + (h.o.parts || []).length;
+      if (h.eng.esn !== C.esn) owhere = (h.eng.machine || h.eng.model) + " → " + owhere;
+      d.appendChild(el("span", "hit-where", owhere));
+      d.onclick = function () {
+        if (h.eng.esn !== C.esn) selectEngine(h.eng.esn, function () { openOption(h.o.no); });
+        else openOption(h.o.no);
       };
       box.appendChild(d);
       return;

@@ -208,7 +208,12 @@ python3 obsidian-vault/_build/write_fleet.py
 python3 obsidian-vault/_build/write_fleet_polyus.py
 python3 obsidian-vault/_build/build_index.py       # главная, индексы, темы
 python3 obsidian-vault/_build/web_data.py          # data/kb_*.js для каталога
+python3 obsidian-vault/_build/build_fts.py         # data/kb_fts.js — поиск по текстам
 ```
+
+Поиск по текстам документов работает по индексу `data/kb_fts.js` (слово →
+документы, русские и английские тексты). Он весит около 8 МБ и грузится в
+браузер только при первом текстовом поиске.
 
 Промежуточное состояние пишется в `kb_build/` (в репозиторий не попадает).
 Уже переведённые документы сохраняются между пересборками: `web_data.py` берёт

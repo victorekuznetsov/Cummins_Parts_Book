@@ -27,9 +27,10 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-BUILD = os.path.dirname(os.path.abspath(__file__))
-CACHE = os.path.join(BUILD, "_cache")
-OUT = os.path.join(BUILD, "_cache_ru")
+from common import BUILD          # kb_build/ — общее состояние сборки
+SCRIPTS = os.path.dirname(os.path.abspath(__file__))
+CACHE = os.path.join(BUILD, "_cache")        # английские тексты (build_docs.py)
+OUT = os.path.join(BUILD, "_cache_ru")       # русские тексты (их читают write_docs и web_data)
 CATS = ("procedures", "tsb", "bulletin", "sti", "install_inst", "outlines")
 
 # --------------------------------------------------------------- источник
@@ -648,12 +649,21 @@ def translatable(text):
     return parts
 
 
+def dict_path(name):
+    """Словарь терминологии: рядом со скриптами или в состоянии сборки."""
+    for base in (SCRIPTS, BUILD):
+        p = os.path.join(base, name)
+        if os.path.exists(p):
+            return p
+    return ""
+
+
 def build_memory():
     """Память переводов: выверенные фразы + названия документов и деталей."""
     mem = {}
     for fn in ("ru_docs.json", "ru_parts.json", "ru_memory.json"):
-        path = os.path.join(BUILD, fn)
-        if not os.path.exists(path):
+        path = dict_path(fn)
+        if not path:
             continue
         for k, v in json.load(open(path, encoding="utf-8")).items():
             k = (k or "").strip()
@@ -671,8 +681,8 @@ def build_component_ru():
     """Названия узлов для пунктов регламента: «Water Pump - Check»."""
     comp = {}
     for fn in ("ru_docs.json", "ru_parts.json", "ru_glossary.json"):
-        path = os.path.join(BUILD, fn)
-        if not os.path.exists(path):
+        path = dict_path(fn)
+        if not path:
             continue
         for k, v in json.load(open(path, encoding="utf-8")).items():
             if k and v:
@@ -719,12 +729,21 @@ def main():
     mt_path = os.path.join(BUILD, "_mt_cache.json")
     mt_cache = json.load(open(mt_path, encoding="utf-8")) if os.path.exists(mt_path) else {}
 
+    force = "--force" in sys.argv
     files = []
     for cat in CATS:
-        if only and cat != only:
+        if only and only != "--force" and cat != only:
             continue
-        files += sorted(glob.glob(os.path.join(CACHE, cat, "*.md")))
-    print(f"файлов к переводу: {len(files)}", flush=True)
+        for f in sorted(glob.glob(os.path.join(CACHE, cat, "*.md"))):
+            # уже переведённые документы не трогаем: перевод — долгий прогон,
+            # а готовые тексты уже выверены (см. fix_translation_marks.py)
+            if not force and os.path.exists(os.path.join(OUT, cat, os.path.basename(f))):
+                continue
+            files.append(f)
+    print(f"файлов к переводу: {len(files)}"
+          + ("" if force else " (уже переведённые пропущены)"), flush=True)
+    if not files:
+        print("нечего переводить"); return
 
     # ------------------------------------------------- что нужно перевести
     need = set()
