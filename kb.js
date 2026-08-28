@@ -354,6 +354,7 @@ function viewDoc(id) {
         '<a href="#" data-lang-set="ru">показать перевод на русский</a>.</div>';
     }
     box.innerHTML = head + (body || '<p class="sub">Текст документа не выгружен.</p>');
+    fixFigures(box);
   });
 }
 
