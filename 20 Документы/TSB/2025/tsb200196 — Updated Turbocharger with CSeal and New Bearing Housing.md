@@ -9,21 +9,32 @@ released: "2025-09-10"
 modified: "2025-09-10"
 group: "10 - Intake Air Systems"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "41349633"
+  - "41353297"
+  - "85017333"
 families:
   - "QSK19"
+  - "QSK23"
+  - "QSK60"
 parts:
   - "5638753"
   - "5638754"
   - "5638766"
   - "5638770"
+  - "6390477"
+  - "6390867"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200196.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200196.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200196.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
   - "год/2025"
   - "перевод/машинный"
   - "тема/intake-air-systems"
@@ -34,10 +45,10 @@ tags:
 
 > [!abstract] TSB · `tsb200196`
 > **Раздел Cummins:** 10 - Intake Air Systems
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK19, QSK23, QSK60
 > **Даты:** выпущен 2025-09-10 · изменён 2025-09-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200196.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200196.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200196.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200196.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -141,6 +152,8 @@ tags:
 | [[5638754]] | Turbocharger Kit | Комплект турбокомпрессора |
 | [[5638766]] | Aftermarket Turbocharger | Турбокомпрессор вторичного рынка |
 | [[5638770]] | Aftermarket Turbocharger | Турбокомпрессор вторичного рынка |
+| [[6390477]] | TURBOCHARGER | Турбокомпрессор |
+| [[6390867]] | Turbocharger Kit | Комплект турбокомпрессора |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Updated Turbocharger with CSeal and New Bearing Housing
@@ -192,7 +205,7 @@ tags:
 > | Part Description | Engine Platform | Existing Part number | Existing Service Kit Number | Obsolete | Superseded | New Part Number | New Service Kit Number |
 > | Turbocharger | QSK19 CM500 | 4033047, 4037424 | 4089964 | No | No | 6391532, 6391531 | 6391540 |
 > | Turbocharger | QSK19 CM850 and CM2150 MCRS | 4040240, 3777194, 4033010, 4040241, 5552117 | 4956137 | No | No | 6390248, 6390246, 6390250, 6390249, 6390247 | 6390251 |
-> | Turbocharger | QSK23 CM500 | 3798613 | 5321707 | Yes | Yes | 6390477 | 6390867 |
+> | Turbocharger | QSK23 CM500 | 3798613 | 5321707 | Yes | Yes | [[6390477]] | [[6390867]] |
 > | Turbocharger | QSK60 K117 and K136 | 5458891 | 5460081 | Yes | Yes | 5603061 | 5603065 |
 > | 5548275 |  |  |  |  |  |  |  |
 > | Turbocharger | QSK60 CM2150 | 4047296 | 5321637 | Yes | Yes | [[5638766]] | [[5638753]] |
@@ -217,7 +230,7 @@ tags:
 > | 37293715 60608152 (ReCon®) | 13 May 2024 17 May 2024 | QSK19 CM500 | 6391532 | Seymour Engine Plant |
 > | 37292361 | 18 December 2023 | QSK19 CM2150 | 6390250 | Seymour Engine Plant |
 > | 37293696 60608174 (ReCon®) | 09 May 2024 25 June 2024 | QSK19 CM2150 | 6390246 | Seymour Engine Plant |
-> | 85016741 | 18 August 2023 | QSK23 CM500 | 6390477 | PHP |
+> | 85016741 | 18 August 2023 | QSK23 CM500 | [[6390477]] | PHP |
 > | 33221662 | 18 May 2020 | QSK60 K136 | 5603061 | Daventry Engine Plant |
 > | 33223224 | 2 November 2020 | QSK60 CM2150 | [[5638766]], [[5638770]] | Daventry Engine Plant |
 > | 33224739 | 7 May 2021 | QSK60 K135 | 5638764 | Daventry Engine Plant |

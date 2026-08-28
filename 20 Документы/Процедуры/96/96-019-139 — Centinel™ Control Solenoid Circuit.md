@@ -10,6 +10,7 @@ engines:
   - "37292556"
   - "37295879"
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
   - "QST30"
@@ -19,7 +20,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-019-139.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/96-019-139.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/96-019-139.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -32,12 +33,12 @@ tags:
 **Цепь управляющего электромагнита Centinel™**
 
 > [!abstract] Процедура · `96-019-139`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11, QST30
 > **Входит в руководства:** [[3666231 — Centinel™ Master Repair Manual|3666231]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2004-02-25
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-019-139.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/96-019-139.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-019-139.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/96-019-139.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -67,7 +68,7 @@ tags:
 
 ### Проверка сопротивления
 
-Значение сопротивления соленоидной цепи очень низкое. Соленоидное сопротивление также чувствительно к температуре. Для того чтобы считывать точное значение сопротивления, сопротивление мультиметра ** должно быть вычтено из общего сопротивления соленоидной цепи.
+Значение сопротивления соленоидной цепи очень низкое. Соленоидное сопротивление также чувствительно к температуре. Для того чтобы считывать точное значение сопротивления, сопротивление мультиметра должно быть вычтено из общего сопротивления соленоидной цепи.
 
 ![[nobox.png]]
 

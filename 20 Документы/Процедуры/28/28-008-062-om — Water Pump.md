@@ -17,7 +17,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-062-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-062-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-062-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months · Section 8 - Maintenance Procedures at 6000 Hours or 2 Years
 > **Даты:** изменён 2020-03-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-062-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-062-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-062-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-062-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -61,7 +61,7 @@ tags:
 Незначительное накопление химических веществ или наращивание на сливном отверстии водяного насоса (1) является нормальным. Не ремонтируйте и не заменяйте водяной насос, если фактическая утечка не подтверждена. Свяжитесь с авторизованным местом ремонта Cummins® для замены.
 
 > [!note] Примечание
-> Двигатели с установленным фильтром (2) для слезоточивого отверстия могут испытывать случайную капельную и небольшую химическую нарастание на фильтре. Это нормально и не указывает на утечку насоса. **Не заменяйте водяной насос, если фактическая утечка не подтверждена.
+> Двигатели с установленным фильтром (2) для слезоточивого отверстия могут испытывать случайную капельную и небольшую химическую нарастание на фильтре. Это нормально и не указывает на утечку насоса. Не заменяйте водяной насос, если фактическая утечка не подтверждена.
 
 Эти двигатели имеют два насосных элемента на общем валу. Есть только одна дыра для плача.
 

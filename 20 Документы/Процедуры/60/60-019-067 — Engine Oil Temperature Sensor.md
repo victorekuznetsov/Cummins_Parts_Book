@@ -17,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-067.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-067.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-067.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section 19 — Electronic Engine Controls — Group 19
 > **Даты:** изменён 2007-12-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-067.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-067.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-067.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-067.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -82,7 +82,7 @@ tags:
 
 ### Проверка сопротивления
 
-Отключите разъем датчика. Выберите функцию сопротивления на мультиметре. Прикрепите соответствующий испытательный щуп к многометровым зондам. Прикоснитесь к двум испытательным зондам на датчике. Измерьте сопротивление. Мультиметр ** должен ** показывать от 115 до 244k ом. Значение сопротивления зависит от температуры, как показано в таблице ниже.
+Отключите разъем датчика. Выберите функцию сопротивления на мультиметре. Прикрепите соответствующий испытательный щуп к многометровым зондам. Прикоснитесь к двум испытательным зондам на датчике. Измерьте сопротивление. Мультиметр **должен** показывать от 115 до 244k ом. Значение сопротивления зависит от температуры, как показано в таблице ниже.
 
 | температура | температура | диапазон |
 |---|---|---|
@@ -109,7 +109,7 @@ tags:
 
 Измерьте сопротивление.
 
-Мультиметр ** должен ** показывать более 100k ом, что является открытой схемой. Если цепь ** не ** закрыта, то внутри датчика есть короткое расстояние до земли шасси.
+Мультиметр **должен** показывать более 100k ом, что является открытой схемой. Если цепь **не** закрыта, то внутри датчика есть короткое расстояние до земли шасси.
 
 Замените датчик.
 

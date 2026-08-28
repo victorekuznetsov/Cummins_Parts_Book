@@ -10,12 +10,13 @@ modified: "2009-11-20"
 group: "05 - Fuel Systems (Pumps)"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666244.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3666244.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3666244.pdf"
 tags:
   - "документ/бюллетень"
   - "двигатель/C8.3"
@@ -28,10 +29,10 @@ tags:
 
 > [!abstract] Сервисный бюллетень · `3666244`
 > **Раздел Cummins:** 05 - Fuel Systems (Pumps)
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 1997-07-01 · изменён 2009-11-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666244.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3666244.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666244.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3666244.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -58,7 +59,7 @@ tags:
 > [!note] Примечание
 > Это ограничение распространяется на все компании Cummins Inc. Моторные насосы среднего класса.
 
-Если есть жалоба на мощность или производительность, обратитесь к соответствующему руководству по устранению неполадок и ремонту для дерева симптомов «Engine Power Output Low». Если проблема не решена, насос для впрыска топлива может быть удален и проверен уполномоченным персоналом топливного оборудования только **.
+Если есть жалоба на мощность или производительность, обратитесь к соответствующему руководству по устранению неполадок и ремонту для дерева симптомов «Engine Power Output Low». Если проблема не решена, насос для впрыска топлива может быть удален и проверен уполномоченным персоналом топливного оборудования только.
 
 > [!warning] ОСТОРОЖНО
 > Не регулируйте насосы для впрыска топлива двигателя среднего диапазона. Корректировка может привести к отказу оборудования и нарушению государственных и федеральных законов.

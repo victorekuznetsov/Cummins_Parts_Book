@@ -17,7 +17,7 @@ figures: 23
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-003-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-200-003-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-200-003-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section D - System Diagrams
 > **Даты:** изменён 2010-11-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-003-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-200-003-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-003-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-200-003-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -442,7 +442,7 @@ QSK50 Морской охладитель (Теплообменник)
 3. Термостаты открываются
 4. Охлаждающий поток к килевому охладитель или теплообменник
 5. Термостаты закрылись
-6. Обход охлаждающей жидкости к насосу для водяной куртки. ** Примечание:** Морские двигатели QSK50 с CM2150 и в конфигурации с килевым охлаждением будут иметь вставку вместо одного термостата. При обращении к двигателю вставка будет расположена в левом самом положении в корпусе термостата. Эта вставка приведет к тому, что поток в это положение всегда будет следовать по пути закрытого термостата.
+6. Обход охлаждающей жидкости к насосу для водяной куртки. **Примечание:** Морские двигатели QSK50 с CM2150 и в конфигурации с килевым охлаждением будут иметь вставку вместо одного термостата. При обращении к двигателю вставка будет расположена в левом самом положении в корпусе термостата. Эта вставка приведет к тому, что поток в это положение всегда будет следовать по пути закрытого термостата.
 
 ![[08e00179.png]]
 

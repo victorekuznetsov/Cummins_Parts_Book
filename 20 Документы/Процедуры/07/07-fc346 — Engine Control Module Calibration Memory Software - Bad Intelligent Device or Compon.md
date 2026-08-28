@@ -8,6 +8,7 @@ title_ru: "ПО калибровочной памяти ЭБУ — неиспр�
 modified: "2016-10-07"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc346.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-fc346.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-fc346.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **ПО калибровочной памяти ЭБУ — неисправное устройство**
 
 > [!abstract] Процедура · `07-fc346`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[4021442 — C8.3 Marine Electronic Control System Troubleshooting and Repair Manual|4021442]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2016-10-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc346.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-fc346.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc346.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-fc346.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -69,7 +70,7 @@ ECM расположен на боковой стороне двигателя. 
 
 ### Практические замечания
 
-Этот код неисправности может быть вызван внутренней неисправностью ECM. Это также может быть вызвано, если питание батареи отключено до завершения последовательности выключения питания. Ремонт в ЦСКА ** невозможен.
+Этот код неисправности может быть вызван внутренней неисправностью ECM. Это также может быть вызвано, если питание батареи отключено до завершения последовательности выключения питания. Ремонт в ЦСКА невозможен.
 
 См. Код 346 устранения неполадок.
 

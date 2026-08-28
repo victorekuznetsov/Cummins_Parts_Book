@@ -6,25 +6,42 @@ doc: "3666121-history"
 title_en: "Holset® Air Compressors Master Repair Manual"
 title_ru: "Воздушные компрессоры Holset®: руководство по ремонту"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "35354607"
+  - "35373113"
   - "37292556"
   - "37295879"
+  - "71156161"
+  - "80141463"
+  - "80248213"
+  - "93047320"
 families:
+  - "6B5.9"
+  - "QSK60"
+  - "QSM11"
   - "QST30"
+  - "QSX15"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666121-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666121-history.pdf"
 tags:
   - "документ/руководство"
+  - "двигатель/6B5.9"
+  - "двигатель/QSK60"
+  - "двигатель/QSM11"
   - "двигатель/QST30"
+  - "двигатель/QSX15"
 ---
 
 # Holset® Air Compressors Master Repair Manual
 **Воздушные компрессоры Holset®: руководство по ремонту**
 
 > [!abstract] Руководство · `3666121-history`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666121-history.pdf)
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[93047320 — 6B5.9 CPL 3111|93047320]]
+> **Семейство:** 6B5.9, QSK60, QSM11, QST30, QSX15
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666121-history.pdf)
 
 
 ## Оглавление руководства (55 процедур)

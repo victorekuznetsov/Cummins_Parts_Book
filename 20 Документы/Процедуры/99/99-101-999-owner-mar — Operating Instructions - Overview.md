@@ -7,19 +7,30 @@ title_en: "Operating Instructions - Overview"
 title_ru: "Инструкции по эксплуатации — обзор"
 modified: "2023-07-20"
 engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
+  - "93047320"
   - "93058669"
+  - "93087701"
 families:
+  - "6B5.9"
   - "C8.3 · 6C8.3"
+  - "QSM11"
 manuals:
+  - "4021939"
   - "4915514"
+  - "4960270"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-999-owner-mar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-999-owner-mar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-999-owner-mar.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/C8.3"
+  - "двигатель/QSM11"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -28,12 +39,12 @@ tags:
 **Инструкции по эксплуатации — обзор**
 
 > [!abstract] Процедура · `99-101-999-owner-mar`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
-> **Входит в руководства:** [[4915514 — C8.3 Recreational Marine Owners Manual|4915514]]
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[93047320 — 6B5.9 CPL 3111|93047320]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** 6B5.9, C8.3 · 6C8.3, QSM11
+> **Входит в руководства:** [[4021939 — QSM11 Marine Owners Manual|4021939]], [[4915514 — C8.3 Recreational Marine Owners Manual|4915514]], [[4960270 — B3.9 and B5.9 Recreational Marine Owners Manual|4960270]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2023-07-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-999-owner-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-999-owner-mar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-999-owner-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-999-owner-mar.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского

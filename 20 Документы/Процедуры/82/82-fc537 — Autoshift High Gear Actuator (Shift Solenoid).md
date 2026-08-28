@@ -8,6 +8,7 @@ title_ru: "Привод повышающей передачи автоперек
 modified: "2010-09-02"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -16,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc537.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc537.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc537.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -28,12 +29,12 @@ tags:
 **Привод повышающей передачи автопереключения (электромагнит)**
 
 > [!abstract] Процедура · `82-fc537`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc537.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc537.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc537.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc537.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 537 PID(P): S043 SPN: 717 FMI: 11/11 Лампа: Желтая СТО: | Либо низкое напряжение, обнаруженное на цепи привода с высокой передачей автоподключения, когда (+) 12 VDC, либо напряжение, обнаруженное, когда напряжение не командуется. | Топ-2 сдвига соленоида будет ** не** функционировать должным образом. Передача будет ** не** правильно сдвинута. |
+| Код неисправности: 537 PID(P): S043 SPN: 717 FMI: 11/11 Лампа: Желтая СТО: | Либо низкое напряжение, обнаруженное на цепи привода с высокой передачей автоподключения, когда (+) 12 VDC, либо напряжение, обнаруженное, когда напряжение не командуется. | Топ-2 сдвига соленоида будет **не** функционировать должным образом. Передача будет **не** правильно сдвинута. |
 
 ![[19c00352.png]]
 

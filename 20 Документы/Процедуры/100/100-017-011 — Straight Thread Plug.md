@@ -7,18 +7,23 @@ title_en: "Straight Thread Plug"
 title_ru: "Пробка с цилиндрической резьбой"
 modified: "2023-06-23"
 engines:
+  - "93047320"
   - "93058669"
+  - "93087701"
 families:
+  - "6B5.9"
   - "C8.3 · 6C8.3"
 manuals:
   - "3666003"
+  - "3666087"
 figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-017-011.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-017-011.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-017-011.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/C8.3"
   - "группа/100"
   - "перевод/машинный"
@@ -28,12 +33,12 @@ tags:
 **Пробка с цилиндрической резьбой**
 
 > [!abstract] Процедура · `100-017-011`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
-> **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
+> **Двигатели:** [[93047320 — 6B5.9 CPL 3111|93047320]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** 6B5.9, C8.3 · 6C8.3
+> **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]], [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]]
 > **Секции:** Section 17 - Miscellaneous - Group 17
 > **Даты:** изменён 2023-06-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-017-011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-017-011.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-017-011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-017-011.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -60,7 +65,7 @@ tags:
 1. Прямая резьба с помощью кольцевой
 2. Прямая резьба с герметиком, сформированным на месте.
 
-Эти две вилки являются взаимозаменяемыми и многоразовыми. Разница между двумя вилками **только ** - это момент затяжки установки. Смотрите этап установки этой процедуры.
+Эти две вилки являются взаимозаменяемыми и многоразовыми. Разница между двумя вилками **только** - это момент затяжки установки. Смотрите этап установки этой процедуры.
 
 ![[17900066.png]]
 

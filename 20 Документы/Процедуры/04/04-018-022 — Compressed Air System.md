@@ -16,7 +16,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/04/04-018-022.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/04-018-022.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/04-018-022.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Входит в руководства:** [[3666121 — Holset® Air Compressors Master Repair Manual|3666121]]
 > **Секции:** Section V - Specifications
 > **Даты:** изменён 2005-06-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/04/04-018-022.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/04-018-022.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/04/04-018-022.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/04-018-022.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -506,7 +506,7 @@ Holset® SS338/QE338 A/C Модели
 | Размеры поддержки - расстояние между торчащими лицами |  |  |  |  |
 |---|---|---|---|---|
 |  | Мин | Макс |  |  |
-| Часть номер поддержки | мм | [в] | мм | [в] |
+| Номер детали поддержки | мм | [в] | мм | [в] |
 | 3005152 | 32.893 | 1.295 | 33.274 | 1.310 |
 | 3005153 | 32.893 | 1.295 | 33.147 | 1.305 |
 | 3050367 | 32.893 | 1.295 | 33.147 | 1.305 |
@@ -516,7 +516,7 @@ Holset® SS296/SS296E/QE296 A/C Модели
 | Размеры поддержки - расстояние между торчащими лицами |  |  |  |  |
 |---|---|---|---|---|
 |  | Мин | Макс |  |  |
-| Часть номер поддержки | мм | [в] | мм | [в] |
+| Номер детали поддержки | мм | [в] | мм | [в] |
 | 152105 | 42.52 | 1.674 | 43.08 | 1.696 |
 | 156088 | 60.55 | 2.384 | 61.11 | 2.406 |
 | 156097 | 127.86 | 5.034 | 128.42 | 5.056 |
@@ -559,7 +559,7 @@ Holset® SS338/QE338 A/C Модели
 | Размеры поддержки - Crankshaft End Clearance |  |  |  |  |
 |---|---|---|---|---|
 |  | Мин | Макс |  |  |
-| Часть номер поддержки | мм | [в] | мм | [в] |
+| Номер детали поддержки | мм | [в] | мм | [в] |
 | 3005152 | 0.05 | 0.002 | 0.38 | 0.015 |
 | 3005153 | 0.05 | 0.002 | 0.38 | 0.015 |
 | 3050367 | 0.10 | 0.004 | 0.38 | 0.015 |
@@ -569,7 +569,7 @@ Holset® SS296/SS296E/QE296 A/C Модели
 | Размеры поддержки - Crankshaft End Clearance |  |  |  |  |
 |---|---|---|---|---|
 |  | Мин | Макс |  |  |
-| Часть номер поддержки | мм | [в] | мм | [в] |
+| Номер детали поддержки | мм | [в] | мм | [в] |
 | 152105 | 0.15 | 0.006 | 0.76 | 0.030 |
 | 156088 | 0.18 | 0.007 | 0.79 | 0.031 |
 | 156097 | 0.20 | 0.008 | 0.81 | 0.032 |

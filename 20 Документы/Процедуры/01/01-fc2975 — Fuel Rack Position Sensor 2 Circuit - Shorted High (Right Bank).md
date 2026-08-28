@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc2975.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc2975.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc2975.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc2975.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc2975.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc2975.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc2975.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -88,7 +88,7 @@ ECM посылает фиксированный сигнал частоты и �
 
 - Плохая ECM.
 
-Эта ошибка не требует ** неисправности двигателя. Двигатель может перескочить и выключиться. Если код ошибки 234 (неисправность скорости) и код ошибки 2975 присутствуют, сначала устраните неисправность кода 2975. Если вы отслеживаете положение топливной стойки на правом берегу, она будет считывать ноль миллиметров (нулевое заправление).
+Эта ошибка не требует неисправности двигателя. Двигатель может перескочить и выключиться. Если код ошибки 234 (неисправность скорости) и код ошибки 2975 присутствуют, сначала устраните неисправность кода 2975. Если вы отслеживаете положение топливной стойки на правом берегу, она будет считывать ноль миллиметров (нулевое заправление).
 
 Если код 2975 и 182 ошибки активны, сначала устраните код 182 ошибки.
 

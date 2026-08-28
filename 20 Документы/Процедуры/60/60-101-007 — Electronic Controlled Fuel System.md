@@ -17,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-101-007.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-101-007.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-101-007.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section F — Familiarization
 > **Даты:** изменён 2007-12-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-101-007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-101-007.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-101-007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-101-007.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -72,7 +72,7 @@ ECM имеют некоторые функции мониторинга, кот�
 - Коды неисправностей в электронной топливной системе двигателя
 - Коды неисправностей системы защиты двигателя
 
-Все коды ошибок, записанные будут либо активными (код ошибки активен на двигателе), либо неактивными (код ошибки был активен в одно время, но ** не ** в этот момент).
+Все коды ошибок, записанные будут либо активными (код ошибки активен на двигателе), либо неактивными (код ошибки был активен в одно время, но **не** в этот момент).
 
 Активные и неактивные коды неисправностей можно просматривать с помощью инструментария электронного обслуживания INSITETM.
 

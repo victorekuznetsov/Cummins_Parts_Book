@@ -16,7 +16,7 @@ families:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2004/tsb040013.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb040013.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb040013.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2004-04-06 · изменён 2004-04-06
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2004/tsb040013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb040013.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2004/tsb040013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb040013.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,7 +55,7 @@ QST30.
 
 Испытательный стенд QST30 калибровочной электропроводки, номер детали 3164458, был построен без необходимых проводов перемычки, необходимых для правильной работы. Это приводит к невозможности передачи калибровок в ECM и может привести к различным кодам неисправностей.
 
-Все испытательные стенды QST30, номер детали 3164458, первоначально демонстрировали эту проблему. ** Только те, кто уведомил об этом Сервисные продукты или Сервисные инструменты, получили ремонтные компоненты и инструкции.
+Все испытательные стенды QST30, номер детали 3164458, первоначально демонстрировали эту проблему. Только те, кто уведомил об этом Сервисные продукты или Сервисные инструменты, получили ремонтные компоненты и инструкции.
 
 Первоначальная испытательная стенда калибровочной проводов жгутов была построена неправильно. С этого времени были выпущены измерительные стенды калибровки QST30 с загрузкой ROM. Ни одна из измерительных штанги калибровки QST30 с загрузкой ROM не демонстрирует эту проблему.
 

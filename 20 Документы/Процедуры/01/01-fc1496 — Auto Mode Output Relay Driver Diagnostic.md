@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1496.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1496.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1496.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1496.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1496.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1496.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1496.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 1496 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Диагностика драйвера реле Auto Mode выявила ошибку. | Любые функции клиента, зависящие от выхода в автоматическом режиме, будут работать ** не**. Никаких действий со стороны ЕКМ не предпринимается. Никаких потерь в производительности. |
+| Код неисправности: 1496 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Диагностика драйвера реле Auto Mode выявила ошибку. | Любые функции клиента, зависящие от выхода в автоматическом режиме, будут работать **не**. Никаких действий со стороны ЕКМ не предпринимается. Никаких потерь в производительности. |
 
 ![[19802921.png]]
 
@@ -70,7 +70,7 @@ ECM проверяет драйвер выходного реле Auto Mode, ч�
 
 ### Практические замечания
 
-Когда управление находится в автоматическом режиме, схема будет обеспечивать B положительное (+) напряжение. Когда управление **не*** в автоматическом режиме, схема будет открыта. Возможные режимы отказа - короткие замыкания, короткие к земле и потеря напряжения питания внутри ECM.
+Когда управление находится в автоматическом режиме, схема будет обеспечивать B положительное (+) напряжение. Когда управление **не** в автоматическом режиме, схема будет открыта. Возможные режимы отказа - короткие замыкания, короткие к земле и потеря напряжения питания внутри ECM.
 
 См. Код устранения неисправностей t05-1496
 

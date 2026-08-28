@@ -9,15 +9,20 @@ released: "2011-05-05"
 modified: "2011-05-05"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "37269910"
+  - "37280605"
   - "41343322"
+  - "41370103"
 families:
+  - "K19"
   - "NT/NTA855 · ISM/QSM11"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110134.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110134.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110134.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/NT/NTA855"
   - "год/2011"
   - "перевод/машинный"
@@ -29,10 +34,10 @@ tags:
 
 > [!abstract] TSB · `tsb110134`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
-> **Семейство:** NT/NTA855 · ISM/QSM11
+> **Двигатели:** [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
+> **Семейство:** K19, NT/NTA855 · ISM/QSM11
 > **Даты:** выпущен 2011-05-05 · изменён 2011-05-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110134.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110134.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110134.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110134.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,7 +62,7 @@ tags:
 Были пересмотрены и имеются следующие публикации:
 
 - Руководство по эксплуатации и техническому обслуживанию CENTRYTM System (PT), Бюллетень No. 3666069
-- Система устранения неполадок и ремонта CENTRYTM, Бюллетень No. 3666070
+- Система устранения неполадок и ремонта CENTRYTM, Бюллетень No. [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]
 - CENTRYTM Wiring Diagram, Bulletin No. 3666078.
 
 **СтолетиеTM Фаза IIНовое оборудование**
@@ -69,15 +74,15 @@ ECM фазы II и электропроводка двигателя CENTRY пр
 
 **Больты-коннекторы Torque** 0.7N•m \[6 фунт-дюйм\]
 
-** Новые калибровки**
+**Новые калибровки**
 
 Первая новая функция — возможность использования CENTRYTM с новой системой электропривода GE STATEX III+. Система STATEX III+ обеспечивает сигнал дроссельной заслонки переменной частоты для управления шпилем двигателя. Фаза II CENTRYTM совместима с сигналом частотного дроссельного заслонка. Требуется новая электропроводка двигателя с управлением дроссельной заслонки с переменной частотой. См. таблицу 1 для информации о номере части.
 
 Это усовершенствование продукта и не подлежит кампании.
 
-| ** Таблица 1: Системные компоненты и номера частей CENTRYTM** |  |  |  |
+| **Таблица 1: Системные компоненты и номера частей CENTRYTM** |  |  |  |
 |---|---|---|---|
-| ** Пункт No** | **Описание** | ** Фаза I Компонентная номер детали** | ** Фаза II Компонентная номер детали** |
+| **Пункт No** | **Описание** | **Фаза I Компонентная номер детали** | **Фаза II Компонентная номер детали** |
 | 1 | 12 Вольт ECM | 3619026 | 3654717 |
 | 1 | 24 Вольт ECM | 3619027 | 3654718 |
 | 2 | Датчик давления в топливной рампе | 3080416 | 3080416 |
@@ -113,7 +118,7 @@ ECM фазы II и электропроводка двигателя CENTRY пр
 > The following publications have been revised and are available:
 >
 > - Operation and Maintenance Manual CENTRY™ System (PT), Bulletin No. 3666069
-> - Troubleshooting and Repair Manual CENTRY™ System, Bulletin No. 3666070
+> - Troubleshooting and Repair Manual CENTRY™ System, Bulletin No. [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]
 > - CENTRY™ Wiring Diagram, Bulletin No. 3666078.
 >
 > **CENTURY™ Phase IINew Hardware**

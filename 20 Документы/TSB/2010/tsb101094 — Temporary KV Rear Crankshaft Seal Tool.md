@@ -9,18 +9,24 @@ released: "2010-11-30"
 modified: "2010-11-30"
 group: "01 - Cylinder Block"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
+parts:
+  - "3900627"
 figures: 14
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101094.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101094.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101094.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2010"
   - "перевод/машинный"
   - "тема/cylinder-block"
@@ -31,10 +37,10 @@ tags:
 
 > [!abstract] TSB · `tsb101094`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
 > **Даты:** выпущен 2010-11-30 · изменён 2010-11-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101094.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101094.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101094.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101094.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -73,7 +79,7 @@ tags:
 Шаг 2 - Измените текущую поддержку QSK45/60 и прокладки.
 
 - Удлинить опорные монтажные отверстия (внешне) до показанного размера
-- Наружные края скрепляйте с опорой; внешний диаметр ** не должен ** превышать 184 мм
+- Наружные края скрепляйте с опорой; внешний диаметр **не должен** превышать 184 мм
 - Уменьшите высоту проема до 25 мм.
 
 Шаг 3 - Горячая адаптёрная пластина к блоку драйверов QSK45/60.
@@ -99,7 +105,7 @@ tags:
 Поместите уплотнение на коленчатый вал и слегка нажмите мягким молотком, чтобы начать уплотнение на месте.
 
 > [!note] Примечание
-> Номер детали печати печатается на передней стороне печати. Номер детали ** должен ** при установке отклоняться от блока цилиндров.
+> Номер детали печати печатается на передней стороне печати. Номер детали **должен** при установке отклоняться от блока цилиндров.
 
 ![[01s00021.png]]
 
@@ -144,6 +150,11 @@ tags:
 
 ### История изменений документа
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3900627]] | HEXAGON FLANGE HEAD CAP SCREW | Болт с шестигранной головкой и фланцем |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Temporary KV Rear Crankshaft Seal Tool
@@ -177,7 +188,7 @@ tags:
 > Step 3 - Mount adaptor plate to QSK45/60 driver unit.
 >
 > - The stepped edge faces away from the tool
-> - Use 4 of M6x1x14 mm capscrews (Part Number 3900627)
+> - Use 4 of M6x1x14 mm capscrews (Part Number [[3900627]])
 > - Align the outside diameter of the adaptor plate with the outside diameter of the driver unit.
 >
 > Figure 3, Installation of adaptor plate to QSK45/60 driver unit.

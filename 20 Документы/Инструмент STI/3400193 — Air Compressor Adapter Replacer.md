@@ -8,21 +8,35 @@ title_ru: "Оправка переходника воздушного компр
 released: "2004-01-23"
 modified: "2004-01-27"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "37269910"
+  - "37280605"
   - "37292556"
   - "37295879"
+  - "80141463"
+  - "80248213"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+  - "K19"
+  - "QSK60"
   - "QST30"
+  - "QSX15"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400193.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400193.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400193.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/C8.3"
+  - "двигатель/K19"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
+  - "двигатель/QSX15"
   - "перевод/машинный"
 ---
 
@@ -30,10 +44,10 @@ tags:
 **Оправка переходника воздушного компрессора**
 
 > [!abstract] Инструкция по инструменту · `3400193`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3, QST30
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** C8.3 · 6C8.3, K19, QSK60, QST30, QSX15
 > **Даты:** выпущен 2004-01-23 · изменён 2004-01-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400193.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400193.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400193.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400193.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского

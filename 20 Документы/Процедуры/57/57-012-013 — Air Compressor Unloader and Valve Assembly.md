@@ -17,7 +17,7 @@ figures: 13
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-012-013.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-012-013.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-012-013.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section 6 - Maintenance Procedures at 6000 Hours or 2 Years
 > **Даты:** изменён 2002-07-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-012-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-012-013.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-012-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-012-013.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -105,7 +105,7 @@ tags:
 
 См. Cummins Two-Cylinder Air Compressor Shop Manual, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 
-Замените пружину разгрузчика, если она ** не соответствует указанным спецификациям, или если использована неправильная пружина.
+Замените пружину разгрузчика, если она не соответствует указанным спецификациям, или если использована неправильная пружина.
 
 > [!note] Примечание
 > Для двухцилиндровых воздушных компрессоров Holset® проверьте как цилиндрические, так и центральные разгрузочные пружины. Holset® Engineering Co., Inc. Рекомендуется устанавливать новые источники во время реконструкции.
@@ -113,7 +113,7 @@ tags:
 ![[cp8sptb.png]]
 
 > [!note] Примечание
-> Если компрессор имеет плоскую шапку (1) разгрузчика типа шляпы, он ** должен ** использовать пружину разгрузчика и сиденье клапана, отличное от того, которое используется с трехступенчатым разгрузчиком.
+> Если компрессор имеет плоскую шапку (1) разгрузчика типа шляпы, он **должен** использовать пружину разгрузчика и сиденье клапана, отличное от того, которое используется с трехступенчатым разгрузчиком.
 
 ![[ca2vaga.png]]
 
@@ -136,9 +136,9 @@ tags:
 
 ![[cp8vasa.png]]
 
-Если разгрузочный клапан чистый или **только ** слегка лакированный, установите новое кольцо на корпус разгрузчика и новое прямоугольное уплотнение внутри полости корпуса разгрузчика.
+Если разгрузочный клапан чистый или **только** слегка лакированный, установите новое кольцо на корпус разгрузчика и новое прямоугольное уплотнение внутри полости корпуса разгрузчика.
 
-Открытая сторона прямоугольного уплотнения ** должна** обращена к верхней части корпуса разгрузчика.
+Открытая сторона прямоугольного уплотнения **должна** обращена к верхней части корпуса разгрузчика.
 
 ![[cp8seda.png]]
 

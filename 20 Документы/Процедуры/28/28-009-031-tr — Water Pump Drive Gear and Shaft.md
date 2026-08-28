@@ -17,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-009-031-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-009-031-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-009-031-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 9 - Drive Units - Group 09
 > **Даты:** изменён 2014-11-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-009-031-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-009-031-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-009-031-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-009-031-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -48,7 +48,7 @@ tags:
 
 с форсункой механического управления
 
-*** Снимите с вала только тогда, когда необходимо заменить передачу или вал**.
+**Снимите с вала только тогда, когда необходимо заменить передачу или вал**.
 
 Используйте пресс-форму беседки. Поддерживайте вал и шестерню, как показано.
 
@@ -104,9 +104,9 @@ tags:
 | 0.23 | Мин | 0.009 |
 | 0.33 | Макс | 0.013 |
 
-Если конечный зазор ** не** в пределах спецификаций, убедитесь, что оба подшипника тяги правильно расположены в противолодках корпуса водяного насоса.
+Если конечный зазор **не** в пределах спецификаций, убедитесь, что оба подшипника тяги правильно расположены в противолодках корпуса водяного насоса.
 
-Если подшипники расположены правильно и конечный зазор ** не** в пределах спецификаций, привод *** должен быть полностью разобран и проверялись размеры отдельных компонентов.
+Если подшипники расположены правильно и конечный зазор **не** в пределах спецификаций, привод  должен быть полностью разобран и проверялись размеры отдельных компонентов.
 
 ![[dw6drta.png]]
 

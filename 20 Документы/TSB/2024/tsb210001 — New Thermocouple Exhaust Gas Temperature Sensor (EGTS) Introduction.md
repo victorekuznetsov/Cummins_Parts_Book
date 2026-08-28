@@ -9,16 +9,22 @@ released: "2024-02-19"
 modified: "2024-02-19"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
 parts:
   - "3015283"
   - "3609817"
+  - "3641274"
+  - "4326918"
   - "4924291"
   - "5372025"
   - "5372029"
+  - "5372878"
   - "5376160"
   - "5376161"
   - "5462023"
@@ -30,17 +36,20 @@ parts:
   - "5538145"
   - "5538146"
   - "5538148"
+  - "5538926"
   - "5538937"
+  - "5538957"
   - "5539796"
   - "5572259"
 figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210001.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210001.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210001.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2024"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -51,10 +60,10 @@ tags:
 
 > [!abstract] TSB · `tsb210001`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
 > **Даты:** выпущен 2024-02-19 · изменён 2024-02-19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210001.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210001.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -102,7 +111,7 @@ tags:
 **Решение**
 
 - Выпущена новая более длинная термопара кузова EGTS, которая имеет более высокую рабочую температуру вокруг области выхлопного коллектора. Раздел Доступность Сервисных Частей ниже для номеров частей.
-- Существующие терморезисторы EGTS ** не совместимы с термопарой EGTS. См. раздел Совместимость частей ниже.
+- Существующие терморезисторы EGTS не совместимы с термопарой EGTS. См. раздел Совместимость частей ниже.
 
 **Описание изменения**
 
@@ -208,9 +217,9 @@ tags:
 | Опора кронштейна | - | - | - | [[5376161]] | 16 |
 | Аналоговые конверторные коробки | - | - | - | [[5572259]] | 2 |
 
-** Совместимость частей**
+**Совместимость частей**
 
-Термопары EGTS ** не*** совместимы с обратной связью и *** не могут быть смешаны с терморезистором EGTS на одном двигателе.
+Термопары EGTS **не** совместимы с обратной связью и  не могут быть смешаны с терморезистором EGTS на одном двигателе.
 
 **Статус в производстве**
 
@@ -238,9 +247,12 @@ tags:
 |---|---|---|
 | [[3015283]] | CAPTIVE WASHER CAP SCREW | Болт с неотделяемой шайбой |
 | [[3609817]] | CAPTIVE WASHER CAP SCREW | Болт с неотделяемой шайбой |
+| [[3641274]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
+| [[4326918]] | TEMPERATURE SENSOR | Датчик температуры |
 | [[4924291]] | CLIP | Скоба |
 | [[5372025]] | WATER TUBE BRACKET | Кронштейн водяной трубки |
 | [[5372029]] | CABLE BRACKET | Кронштейн кабеля |
+| [[5372878]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
 | [[5376160]] | SENSOR BRACKET | Кронштейн датчика |
 | [[5376161]] | BRACKET SUPPORT | Опора кронштейна |
 | [[5462023]] | TEMPERATURE SENSOR | Датчик температуры |
@@ -252,7 +264,9 @@ tags:
 | [[5538145]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
 | [[5538146]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
 | [[5538148]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
+| [[5538926]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
 | [[5538937]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
+| [[5538957]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
 | [[5539796]] | WEAR SLEEVE | Ремонтная втулка (износостойкая) |
 | [[5572259]] | ELECTRONIC INTERFACE MODULE | Электронный интерфейсный модуль |
 
@@ -359,7 +373,7 @@ tags:
 > | Table 2, Service Parts |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number | Quantity Per Engine |
-> | Temperature, Sensor | 4326918 | No | No | [[5462023]] | 1 |
+> | Temperature, Sensor | [[4326918]] | No | No | [[5462023]] | 1 |
 > | [[5462024]] | 10 |  |  |  |  |
 > | [[5462025]] | 2 |  |  |  |  |
 > | [[5462026]] | 3 |  |  |  |  |
@@ -373,12 +387,12 @@ tags:
 > | LB Main Harness- Industrial | 3649114 | No | No | [[5538144]] | 1 |
 > | LB Main Harness – Industrial (LIEBHERR) | 3649235 | No | No | 5538740 | 1 |
 > | RB Main Harness - Industrial | 3645547 | No | No | [[5538145]] | 1 |
-> | LB Injector/ EGTS Harness | 5538957 | No | No | [[5538148]] | 2 |
-> | RB Injector/ EGTS Harness | 5372878 | No | No | [[5538146]] | 2 |
+> | LB Injector/ EGTS Harness | [[5538957]] | No | No | [[5538148]] | 2 |
+> | RB Injector/ EGTS Harness | [[5372878]] | No | No | [[5538146]] | 2 |
 > | LB Main / Injector / EGTS Harness (AGGREKO) | 3650849 | No | No | 6416926 | 1 |
 > | RB Main / Injector / EGTS Harness (AGGREKO) | 2880749 | No | No | 6416933 | 1 |
-> | Fuel Filter Harness (Off Engine) | 3643872 | No | No | 5538926 | 1 |
-> | Fuel Filter Harness (On Engine) | 3641274 | No | No | [[5538937]] | 1 |
+> | Fuel Filter Harness (Off Engine) | 3643872 | No | No | [[5538926]] | 1 |
+> | Fuel Filter Harness (On Engine) | [[3641274]] | No | No | [[5538937]] | 1 |
 > | Quadrant Harness Protection Bracket | - | - | - | [[5372029]] | 4 |
 > | Convertor Box Mounting Bracket | - | - | - | [[5538108]] | 2 |
 > | Sensor Bracket | - | - | - | [[5376160]] | 16 |

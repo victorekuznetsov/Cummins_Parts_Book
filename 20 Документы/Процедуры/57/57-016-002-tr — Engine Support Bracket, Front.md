@@ -17,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-016-002-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-016-002-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-016-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 16 - Mounting Adaptations - Group 16
 > **Даты:** изменён 2021-02-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-016-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-016-002-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-016-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-016-002-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -102,7 +102,7 @@ tags:
 
 Используйте высокопроизводительную смазку промышленного типа (NLGI Grade Number 2), обогащенную добавками с экстремальным давлением (EP), такими как BP EnergreaseTM FPG или Castrol SpheerolTM EPL 2, или ее эквивалент.
 
-Если вышеуказанные смазки ** не доступны на местном уровне, обратитесь к дистрибьютору Cummins® за консультацией по другим одобренным эквивалентам Cummins®.
+Если вышеуказанные смазки не доступны на местном уровне, обратитесь к дистрибьютору Cummins® за консультацией по другим одобренным эквивалентам Cummins®.
 
 Смазать поддержку до тех пор, пока смазка не появится снаружи поддержки.
 
@@ -112,7 +112,7 @@ tags:
 
 Используйте измеритель зазора или эквивалент для проверки зазора трунниона.
 
-Если зазор ** не** в пределах спецификаций, замените трюннион или переднюю крышку.
+Если зазор **не** в пределах спецификаций, замените трюннион или переднюю крышку.
 
 | Зазор Трунниона |  |  |
 |---|---|---|

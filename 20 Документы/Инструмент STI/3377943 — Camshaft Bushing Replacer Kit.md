@@ -9,13 +9,14 @@ released: "2003-04-09"
 modified: "2003-04-10"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377943.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377943.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3377943.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/C8.3"
@@ -26,10 +27,10 @@ tags:
 **Комплект для замены втулок распредвала**
 
 > [!abstract] Инструкция по инструменту · `3377943`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2003-04-09 · изменён 2003-04-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377943.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377943.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377943.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3377943.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -106,7 +107,7 @@ tags:
 
 Убедитесь, что нефтяные дыры выровнены.
 
-Стержень диаметром 3,2 мм \[0,126-в\]** должен свободно проходить через отверстие для моторного масла.
+Стержень диаметром 3,2 мм \[0,126-в\] должен свободно проходить через отверстие для моторного масла.
 
 Измерить вал втулки внутри диаметра. См. соответствующее руководство по обслуживанию для спецификаций.
 

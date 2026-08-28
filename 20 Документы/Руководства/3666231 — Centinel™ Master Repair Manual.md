@@ -6,28 +6,47 @@ doc: "3666231-history"
 title_en: "Centinel™ Master Repair Manual"
 title_ru: "Руководство по ремонту системы Centinel™"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "35354607"
+  - "35373113"
+  - "37269910"
+  - "37280605"
   - "37292556"
   - "37295879"
   - "41343322"
+  - "41370103"
+  - "71156161"
+  - "80141463"
+  - "80248213"
 families:
+  - "K19"
   - "NT/NTA855 · ISM/QSM11"
+  - "QSK60"
+  - "QSM11"
   - "QST30"
+  - "QSX15"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666231-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666231-history.pdf"
 tags:
   - "документ/руководство"
+  - "двигатель/K19"
   - "двигатель/NT/NTA855"
+  - "двигатель/QSK60"
+  - "двигатель/QSM11"
   - "двигатель/QST30"
+  - "двигатель/QSX15"
 ---
 
 # Centinel™ Master Repair Manual
 **Руководство по ремонту системы Centinel™**
 
 > [!abstract] Руководство · `3666231-history`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]]
-> **Семейство:** NT/NTA855 · ISM/QSM11, QST30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666231-history.pdf)
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]]
+> **Семейство:** K19, NT/NTA855 · ISM/QSM11, QSK60, QSM11, QST30, QSX15
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666231/3666231-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666231-history.pdf)
 
 
 ## Оглавление руководства (107 процедур)

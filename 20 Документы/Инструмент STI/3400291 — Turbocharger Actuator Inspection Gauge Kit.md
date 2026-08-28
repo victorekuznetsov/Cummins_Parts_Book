@@ -9,13 +9,14 @@ released: "2008-08-15"
 modified: "2009-10-26"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400291.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400291.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400291.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/C8.3"
@@ -26,10 +27,10 @@ tags:
 **Комплект калибра для проверки привода турбокомпрессора**
 
 > [!abstract] Инструкция по инструменту · `3400291`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2008-08-15 · изменён 2009-10-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400291.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400291.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400291.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400291.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -47,8 +48,8 @@ tags:
 
 В этом документе представлена информация для прибора для контроля за турбокомпрессорами, номер детали 4919281. Набор определит, имеет ли турбокомпрессор с изменяемой геометрией полный ход механизма изменяемой геометрии и предотвратит ненужную замену турбокомпрессора для двигателей ISB, ISBe4 (4 цилиндра), ISBe4 (6 цилиндра), QSB6.7, QSB4.5, ISL, ISLe3, QSL9, 6C, C8.3, ISC, ISM, ISMe, QSM11, SignatureTM, ISX и QSX15. Дополнительную информацию см. в следующих публикациях.
 
-- См. процедуру 010-134 (Актуатор турбокомпрессора с изменяемой геометрией, Электрический) в разделе 10 в Руководстве по обслуживанию SignatureTM, ISX и QSX15, Бюллетень 3666239.
-- См. процедуру 010-134 (Актуатор турбокомпрессора с изменяемой геометрией, Электрический) в разделе 10 в руководстве по обслуживанию ISM, ISMe и QSM11, Бюллетень 3666322.
+- См. процедуру 010-134 (Актуатор турбокомпрессора с изменяемой геометрией, Электрический) в разделе 10 в Руководстве по обслуживанию SignatureTM, ISX и QSX15, Бюллетень [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]].
+- См. процедуру 010-134 (Актуатор турбокомпрессора с изменяемой геометрией, Электрический) в разделе 10 в руководстве по обслуживанию ISM, ISMe и QSM11, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]].
 - См. процедуру 010-134 (Актуатор турбокомпрессора с изменяемой геометрией, Электрический) в разделе 10 в Руководстве по обслуживанию ISB CM2150, Бюллетень 4021578.
 - См. процедуру 010-134 (Актуатор турбокомпрессора с изменяемой геометрией, Электрический) в разделе 10 в руководстве по обслуживанию ISC и ISL CM2150, Бюллетень 4021569.
 
@@ -71,8 +72,8 @@ tags:
 >
 > This document provides information for Turbocharger Actuator Inspection Gauge Kit, Part Number 4919281. The kit will identify if a variable geometry turbocharger has full travel of the variable geometry mechanism and will prevent unnecessary replacement of a turbocharger for the ISB, ISBe4 (4 Cylinder), ISBe4 (6 Cylinder), QSB6.7, QSB4.5, ISL, ISLe3, QSL9, 6C, C8.3, ISC, ISM, ISMe, QSM11, Signature™, ISX, and QSX15 engines. For additional information see the following publications.
 >
-> - Refer to Procedure 010-134 (Variable Geometry Turbocharger Actuator, Electric) in Section 10 in the Signature™, ISX, and QSX15 Service Manual, Bulletin 3666239.
-> - Refer to Procedure 010-134 (Variable Geometry Turbocharger Actuator, Electric) in Section 10 in the ISM, ISMe, and QSM11 Service Manual, Bulletin 3666322.
+> - [[10-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 (Variable Geometry Turbocharger Actuator, Electric) in Section 10 in the Signature™, ISX, and QSX15 Service Manual, Bulletin 3666239.]]
+> - [[35-010-134 — Variable Geometry Turbocharger Actuator, Electric|Refer to Procedure 010-134 (Variable Geometry Turbocharger Actuator, Electric) in Section 10 in the ISM, ISMe, and QSM11 Service Manual, Bulletin 3666322.]]
 > - Refer to Procedure 010-134 (Variable Geometry Turbocharger Actuator, Electric) in Section 10 in ISB CM2150 Service Manual, Bulletin 4021578.
 > - Refer to Procedure 010-134 (Variable Geometry Turbocharger Actuator, Electric) in Section 10 in ISC and ISL CM2150 Service Manual, Bulletin 4021569.
 >

@@ -17,7 +17,7 @@ figures: 13
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-174.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-174.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-174.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section 19 — Electronic Engine Controls — Group 19
 > **Даты:** изменён 2008-01-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-174.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-174.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-174.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-174.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -71,12 +71,12 @@ tags:
 
 ![[19802397.png]]
 
-Два 6-контактных разъема шины данных CAN на стороне двигателя ** не используются с сервисной оснасткой. Они представляют собой порты шины данных J1587/1708 CAN и используются только для общего инструмента. Для оснащения двигателей QST30 электронным сервисом INSITETM требуется протокол связи J1939 с адаптером INLINETM II.
+Два 6-контактных разъема шины данных CAN на стороне двигателя не используются с сервисной оснасткой. Они представляют собой порты шины данных J1587/1708 CAN и используются только для общего инструмента. Для оснащения двигателей QST30 электронным сервисом INSITETM требуется протокол связи J1939 с адаптером INLINETM II.
 
 На двигателях с 9-контактным разъемом шины данных CAN были удалены терминалы интерфейса сервисной оснастки на магистрали J1939. Используйте этот 9-контактный разъем шины данных CAN с помощью инструментария службы для связи с обоими ECM.
 
 > [!note] Примечание
-> Двигатели с двумя круглыми 6-контактными разъемами DeutschTM ** должны ** использовать треугольный 3-контактный интерфейсный разъем для инструментов Deutsch. 6-контактные разъемы ** не** будут работать с электронным сервисным оборудованием INSITETM.
+> Двигатели с двумя круглыми 6-контактными разъемами DeutschTM **должны** использовать треугольный 3-контактный интерфейсный разъем для инструментов Deutsch. 6-контактные разъемы **не** будут работать с электронным сервисным оборудованием INSITETM.
 
 ![[19802393.png]]
 

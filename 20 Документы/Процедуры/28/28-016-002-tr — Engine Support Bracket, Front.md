@@ -17,7 +17,7 @@ figures: 15
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-016-002-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-016-002-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-016-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 16 - Mounting Adaptations - Group 16
 > **Даты:** изменён 2015-04-01
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-016-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-016-002-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-016-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-016-002-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -82,7 +82,7 @@ tags:
 
 ![[ew600la.png]]
 
-Если передняя часть двигателя ** должна поддерживаться снизу, пока работа выполняется на переднем конце, сначала слейте масло и удалите сборку адаптера масляного поддона.[[28-007-027-tr — Lubricating Oil Pan Adapter|См. процедуру 007-027 в разделе 7.]].
+Если передняя часть двигателя должна поддерживаться снизу, пока работа выполняется на переднем конце, сначала слейте масло и удалите сборку адаптера масляного поддона.[[28-007-027-tr — Lubricating Oil Pan Adapter|См. процедуру 007-027 в разделе 7.]].
 
 ![[op600ha.png]]
 
@@ -129,11 +129,11 @@ tags:
 | 210.03 | Мин | 8.269 |
 | 210.08 | Макс | 8.271 |
 
-Если передний опорный цилиндр имеет **не*** в пределах спецификаций, передний опорный кронштейн двигателя *** должен быть заменен.
+Если передний опорный цилиндр имеет **не** в пределах спецификаций, передний опорный кронштейн двигателя  должен быть заменен.
 
 ![[16600007.png]]
 
-Проверьте рукав транниона на предмет повреждений. Рукав *** должен быть заменен, если он изношен или треснул.
+Проверьте рукав транниона на предмет повреждений. Рукав  должен быть заменен, если он изношен или треснул.
 
 ![[gc6cvsa.png]]
 
@@ -144,7 +144,7 @@ tags:
 
 Используйте высокопроизводительную смазку промышленного типа (NLGI Grade Number 2), обогащенную добавками с экстремальным давлением (EP), такими как BP EnergreaseTM FPG или Castrol SpheerolTM EPL 2, или ее эквивалент.
 
-Если вышеуказанные смазки ** не доступны на местном уровне, обратитесь к дистрибьютору Cummins® за консультацией по другим одобренным эквивалентам Cummins®.
+Если вышеуказанные смазки не доступны на местном уровне, обратитесь к дистрибьютору Cummins® за консультацией по другим одобренным эквивалентам Cummins®.
 
 Смазать цилиндрический шнурок крепления и рукав обрезки на передней стойке.
 

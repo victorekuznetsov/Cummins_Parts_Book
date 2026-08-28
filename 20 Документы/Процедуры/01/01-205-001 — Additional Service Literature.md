@@ -16,7 +16,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-205-001.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-205-001.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-205-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section L - Service Literature
 > **Даты:** изменён 2012-02-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-205-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-205-001.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-205-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-205-001.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -50,15 +50,15 @@ tags:
 | Номер бюллетеня | Название публикации |
 |---|---|
 | [[4021539 — QST30 Service Manual\|4021539]] | QST30: сервисное руководство |
-| 3666239 | Руководство по устранению неполадок и ремонту, подпись, двигатели ISX и QSX15 |
+| [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] | Руководство по устранению неполадок и ремонту, подпись, двигатели ISX и QSX15 |
 | 3666261 | Руководство по устранению неполадок и ремонту, топливная система QSK, двигатели QSK45/60 |
 | 3666727 | Руководство по устранению неполадок и ремонту, двигатели QSK78 |
-| 4021375 | Руководство по устранению неполадок и ремонту, двигатели QSK23 |
+| [[4021375 — QSK23 Troubleshooting and Repair Manual\|4021375]] | Руководство по устранению неполадок и ремонту, двигатели QSK23 |
 | 3666190 | QST30 Магазинное руководство |
 | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Руководство по эксплуатации и техническому обслуживанию, QST30 |
-| 3666260 | Руководство по эксплуатации и техническому обслуживанию, топливная система QSK, двигатели QSK45/60 |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Руководство по эксплуатации и техническому обслуживанию, топливная система QSK, двигатели QSK45/60 |
 | 3666714 | Руководство по эксплуатации и техническому обслуживанию, двигатели QSK78 |
-| 4021374 | Руководство по эксплуатации и техническому обслуживанию, двигатели QSK23 |
+| [[4021374 — QSK23 Operation and Maintenance Manual\|4021374]] | Руководство по эксплуатации и техническому обслуживанию, двигатели QSK23 |
 | 3666347 | QSK45/60 Генератор-привод системы управления Диаграмма проводов |
 | 4021348 | QSX15 Generator-Drive Control System с системой подключения к принтеру |
 | 3666349 | QSX15 Generator-Drive Control System Wiring Diagram (Система управления приводом генератора) |
@@ -86,15 +86,15 @@ tags:
 > | Bulletin Number | Title of Publication |
 > |---|---|
 > | [[4021539 — QST30 Service Manual\|4021539]] | QST30 Service Manual |
-> | 3666239 | Troubleshooting and Repair Manual, Signature, ISX, and QSX15 Engines |
+> | [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] | Troubleshooting and Repair Manual, Signature, ISX, and QSX15 Engines |
 > | 3666261 | Troubleshooting and Repair Manual, QSK Fuel System, QSK45/60 Engines |
 > | 3666727 | Troubleshooting and Repair Manual, QSK78 Engines |
-> | 4021375 | Troubleshooting and Repair Manual, QSK23 Engines |
+> | [[4021375 — QSK23 Troubleshooting and Repair Manual\|4021375]] | Troubleshooting and Repair Manual, QSK23 Engines |
 > | 3666190 | QST30 Shop Manual |
 > | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Operation and Maintenance Manual, QST30 |
-> | 3666260 | Operation and Maintenance Manual, QSK Fuel System, QSK45/60 Engines |
+> | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Operation and Maintenance Manual, QSK Fuel System, QSK45/60 Engines |
 > | 3666714 | Operation and Maintenance Manual, QSK78 Engines |
-> | 4021374 | Operation and Maintenance Manual, QSK23 Engines |
+> | [[4021374 — QSK23 Operation and Maintenance Manual\|4021374]] | Operation and Maintenance Manual, QSK23 Engines |
 > | 3666347 | QSK45/60 Generator-Drive Control System Wiring Diagram |
 > | 4021348 | QSX15 Generator-Drive Control System with Priming Pump Wiring Diagram |
 > | 3666349 | QSX15 Generator-Drive Control System Wiring Diagram |

@@ -17,7 +17,7 @@ figures: 9
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-115.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-115.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-115.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2011-12-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-115.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-115.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-115.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-115.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -87,7 +87,7 @@ tags:
 > [!note] Примечание
 > Давление топливной системы **MUST** должно быть снято перед удалением датчика давления в рельсах.
 
-Накройте штепсель с помощью безмятежной ткани. Медленно ослабить вилку на последнем топливном форсунке топливной магистрали высокого давления 1/4-1/2 поворота. Вилка ** не ** должна быть удалена, чтобы уменьшить давление. *** Необходимо удалить только один штепсель.
+Накройте штепсель с помощью безмятежной ткани. Медленно ослабить вилку на последнем топливном форсунке топливной магистрали высокого давления 1/4-1/2 поворота. Вилка **не **должна быть удалена, чтобы уменьшить давление.  Необходимо удалить только один штепсель.
 
 Подключите электронный сервисный инструмент INSITETM и проверьте, что давление топлива снизилось, контролируя давление топлива.
 

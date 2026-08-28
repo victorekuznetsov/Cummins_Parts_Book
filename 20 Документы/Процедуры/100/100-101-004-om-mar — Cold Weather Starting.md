@@ -8,6 +8,7 @@ title_ru: "Пуск в холодную погоду"
 modified: "2008-10-29"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -17,7 +18,7 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-004-om-mar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-101-004-om-mar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-101-004-om-mar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -29,12 +30,12 @@ tags:
 **Пуск в холодную погоду**
 
 > [!abstract] Процедура · `100-101-004-om-mar`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]], [[4915514 — C8.3 Recreational Marine Owners Manual|4915514]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2008-10-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-004-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-101-004-om-mar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-004-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-101-004-om-mar.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -59,7 +60,7 @@ tags:
 > [!danger] ОПАСНО
 > Не используйте стартовые жидкости с этим двигателем. Этот двигатель оснащен впускным воздушным обогревателем; использование стартовой жидкости может вызвать взрыв, пожар, травмы, серьезные повреждения двигателя и имущественные повреждения.
 
-**только *** рекомендуемые средства запуска холодной погоды для морских применений - это предварительные нагреватели охлаждающей жидкости двигателя и нагреватели погружения масляной поддона. Свяжитесь с авторизованным местом ремонта Cummins® для получения дополнительной информации
+**только **рекомендуемые средства запуска холодной погоды для морских применений - это предварительные нагреватели охлаждающей жидкости двигателя и нагреватели погружения масляной поддона. Свяжитесь с авторизованным местом ремонта Cummins® для получения дополнительной информации
 
 Стартовые средства для холодной погоды доступны для вашего двигателя. Свяжитесь с авторизованным местом ремонта Cummins® для получения дополнительной информации.
 

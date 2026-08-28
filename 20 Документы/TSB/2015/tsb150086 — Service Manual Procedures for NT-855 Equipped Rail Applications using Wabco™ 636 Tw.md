@@ -10,12 +10,13 @@ modified: "2015-06-04"
 group: "12 - Air System (Compressed)"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150086.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150086.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150086.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
@@ -29,10 +30,10 @@ tags:
 
 > [!abstract] TSB · `tsb150086`
 > **Раздел Cummins:** 12 - Air System (Compressed)
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Даты:** выпущен 2015-06-04 · изменён 2015-06-04
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150086.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150086.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150086.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150086.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,7 +53,7 @@ tags:
 
 **Затронутая продукция**
 
-Дизельные многофункциональные установки и железнодорожные вагоны **Только **
+Дизельные многофункциональные установки и железнодорожные вагоны **Только**
 
 ReCon® NT-855 Двигатели:
 
@@ -174,7 +175,7 @@ ReCon® NT-855 Двигатели:
 > | Refer to Procedure 012-018 in Section 12. | Air Governor (Air Compressor Pumps Continuously) |
 > | Refer to Procedure 012-015 in Section 12. | Air Compressor Discharge Lines |
 > | Refer to Procedure 012-019 in Section 12. | Air Leaks, Compressed Air System |
-> | Refer to Procedure 012-020 in Section 12. | Air Compressor (Oil Carryover) |
+> | [[101-012-020 — Air Compressor (Oil Carryover)\|Refer to Procedure 012-020 in Section 12.]] | Air Compressor (Oil Carryover) |
 > | Refer to Procedure 012-024 in Section 12. | Air Pressure Relief Valve |
 > | Refer to Procedure 012-109 in Section 12. | Air Compressor Inlet Tube |
 >

@@ -8,6 +8,7 @@ title_ru: "Венец маховика"
 modified: "2004-06-28"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-016-008-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-016-008-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-016-008-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Венец маховика**
 
 > [!abstract] Процедура · `20-016-008-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 16 - Mounting Adaptations - Group 16
 > **Даты:** изменён 2004-06-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-016-008-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-016-008-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-016-008-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-016-008-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -63,7 +64,7 @@ tags:
 > [!danger] ОПАСНО
 > Чтобы уменьшить вероятность серьезного повреждения глаз, используйте защиту глаз при вождении кольцевой передачи от маховика.
 
-Если нагревательный факел ** не доступен, кольцевое снаряжение можно снять латунным дрейфом и молотком.
+Если нагревательный факел не доступен, кольцевое снаряжение можно снять латунным дрейфом и молотком.
 
 Если этот метод используется для удаления кольцевой передачи из разгибаемого узла, убедитесь, что для поддержки адаптера кольцевой передачи используется деревянный блок.
 
@@ -87,7 +88,7 @@ tags:
 > [!danger] ОПАСНО
 > Чтобы уменьшить вероятность сильных ожогов, надевайте защитные перчатки при установке нагретого кольцевого шестерни.
 
-Используйте нагревательное пламя для нагрева кольцевой передачи, если печь ** недоступна.
+Используйте нагревательное пламя для нагрева кольцевой передачи, если печь недоступна.
 
 Используйте карандаш Темпильстик® или его эквивалент, чтобы проверить температуру кольцевого снаряжения. Нагрейте кольцевую передачу до 232 ° C \[450° F \].
 

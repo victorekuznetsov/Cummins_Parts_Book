@@ -10,12 +10,13 @@ modified: "2012-10-23"
 group: "19 - Electronic Engine Controls"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120277.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120277.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120277.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
@@ -29,10 +30,10 @@ tags:
 
 > [!abstract] TSB · `tsb120277`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Даты:** выпущен 2012-10-23 · изменён 2012-10-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120277.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120277.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120277.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120277.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,7 +58,7 @@ tags:
 
 ### Решение
 
-Модуль управления двигателем (ECM) ** должен быть откалиброван с помощью последней калибровки, доступной на диске INCALTM. Это должно изменить Mux\_Timeout\_Fault\_Count, который должен быть установлен на более чем 2000 миллисекунд \[2.0 секунды\]. Если он все еще установлен на 500 миллисекунд или все еще происходит неисправность, следуйте обычному процессу эскалации для Cummins, Inc.
+Модуль управления двигателем (ECM) должен быть откалиброван с помощью последней калибровки, доступной на диске INCALTM. Это должно изменить Mux\_Timeout\_Fault\_Count, который должен быть установлен на более чем 2000 миллисекунд \[2.0 секунды\]. Если он все еще установлен на 500 миллисекунд или все еще происходит неисправность, следуйте обычному процессу эскалации для Cummins, Inc.
 
 ### Положение о гарантии
 

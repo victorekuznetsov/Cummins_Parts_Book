@@ -9,17 +9,21 @@ released: "2011-02-25"
 modified: "2026-05-14"
 group: "01 - Cylinder Block"
 engines:
+  - "82099327"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+  - "QSB6.7"
 figures: 15
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101063.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101063.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101063.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
+  - "двигатель/QSB6.7"
   - "год/2011"
   - "перевод/машинный"
   - "тема/cylinder-block"
@@ -30,10 +34,10 @@ tags:
 
 > [!abstract] TSB · `tsb101063`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
+> **Двигатели:** [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** C8.3 · 6C8.3, QSB6.7
 > **Даты:** выпущен 2011-02-25 · изменён 2026-05-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101063.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101063.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101063.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101063.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,8 +59,8 @@ tags:
 
 | Серийный номер двигателя для установки ключа |  |  |  |  |  |
 |---|---|---|---|---|---|
-| ** Серийный номер двигателя** | ** Завод** | ** Месторасположение** | **Блокировка ESN Location Key** |  |  |
-| ** Все серии B (4 цилиндра)** | ** Все серии B (6 цилиндров)** | ** Все серии C и L** |  |  |  |
+| **Серийный номер двигателя** | **Завод** | **Месторасположение** | **Блокировка ESN Location Key** |  |  |
+| **Все серии B (4 цилиндра)** | **Все серии B (6 цилиндров)** | **Все серии C и L** |  |  |  |
 | 20, 21, 22 | ДЕП | Дарлингтон, Англия, Великобритания | А. | А. | А. |
 | 44, 45, 46, 73 | RMEP | Rocky Mount, США | А. | А. | А. |
 | 51, 69 | ДЦК | Китай | B | B | - |

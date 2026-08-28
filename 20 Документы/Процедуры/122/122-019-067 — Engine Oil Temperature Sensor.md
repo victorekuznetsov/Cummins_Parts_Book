@@ -17,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-067.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-067.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-067.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Controls
 > **Даты:** изменён 2017-04-21
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-067.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-067.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-067.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-067.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -73,7 +73,7 @@ tags:
 
 Прикоснитесь к двум испытательным зондам на датчике. Измерьте сопротивление.
 
-Мультиметр ** должен ** показывать от 115 до 244k ом. Значение сопротивления зависит от температуры, как показано в таблице ниже.
+Мультиметр **должен** показывать от 115 до 244k ом. Значение сопротивления зависит от температуры, как показано в таблице ниже.
 
 | температура | диапазон |  |
 |---|---|---|
@@ -100,7 +100,7 @@ tags:
 
 Измерьте сопротивление.
 
-Мультиметр ** должен ** показывать более 100k ом, что является открытой схемой. Если цепь ** не ** закрыта, то внутри датчика есть короткое расстояние до земли шасси. Замените датчик.
+Мультиметр **должен** показывать более 100k ом, что является открытой схемой. Если цепь **не** закрыта, то внутри датчика есть короткое расстояние до земли шасси. Замените датчик.
 
 ![[19801621.png]]
 

@@ -17,7 +17,7 @@ figures: 18
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-067-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-067-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-067-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2018-11-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-067-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-067-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-067-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-067-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -118,14 +118,14 @@ tags:
 Установите шесть направляющих шпильок к двигателю в показанных местах.
 
 > [!note] Примечание
-> **Не использовать гид-шпильки. Это поможет в удалении шпильки после установки фильтра EliminatorTM.
+> Не использовать гид-шпильки. Это поможет в удалении шпильки после установки фильтра EliminatorTM.
 
 Установите прокладку над направляющими шпильками.
 
 Убедитесь, что шесть монтажных отверстий видны через каждую прокладку.
 
 > [!note] Примечание
-> Одинаковая прокладка устанавливается как в местах, так и в одной ориентации. Для правильной установки номер детали печатается в верхнем правом углу прокладки. Номер детали ** должен ** отклоняться от блока цилиндров.
+> Одинаковая прокладка устанавливается как в местах, так и в одной ориентации. Для правильной установки номер детали печатается в верхнем правом углу прокладки. Номер детали **должен** отклоняться от блока цилиндров.
 
 ![[07400462.png]]
 

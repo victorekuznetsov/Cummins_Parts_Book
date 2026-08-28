@@ -17,7 +17,7 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-137-shopds.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-137-shopds.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-137-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 8 - Cooling System - Group 08
 > **Даты:** изменён 2010-11-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-137-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-137-shopds.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-137-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-137-shopds.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -47,7 +47,7 @@ tags:
 ### Снятие
 
 > [!note] Примечание
-> *** При необходимости снимите локти с охладителя судового оборудования.
+>  При необходимости снимите локти с охладителя судового оборудования.
 
 Удалите болт, закрепляющий p-затворы (1) вместе.
 
@@ -58,7 +58,7 @@ tags:
 ![[08e00173.png]]
 
 > [!note] Примечание
-> *** При необходимости удалите фитинги из водяного насоса LTA.
+>  При необходимости удалите фитинги из водяного насоса LTA.
 
 Удалите болт, закрепляющий p-затворы (1) вместе.
 

@@ -17,7 +17,7 @@ figures: 17
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-013-020-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-013-020-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-013-020-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 13 - Electrical Equipment - Group 13
 > **Даты:** изменён 2026-08-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-013-020-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-013-020-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-013-020-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-013-020-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -100,7 +100,7 @@ Delco Remy® Стартовый двигатель
 Отбросьте прокладки.
 
 > [!note] Примечание
-> **Не все двигатели содержат прокладки и прокладки.
+> Не все двигатели содержат прокладки и прокладки.
 
 ![[st600ha.png]]
 
@@ -136,7 +136,7 @@ Delco Remy® Стартовый двигатель
 
 Используйте моторное масло для смазки втулки.
 
-Трубную пробку *** необходимо снять для смазки втулки на некоторых стартерных двигателях.
+Трубную пробку  необходимо снять для смазки втулки на некоторых стартерных двигателях.
 
 ![[st800wa.png]]
 
@@ -188,7 +188,7 @@ Delco Remy® Стартовый двигатель
 > Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
 > [!note] Примечание
-> **Не все двигатели используют прокладки.
+> Не все двигатели используют прокладки.
 
 Влажный тип корпуса маховика требует прокладок для стартерного двигателя.
 

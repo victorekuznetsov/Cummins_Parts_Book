@@ -9,18 +9,34 @@ released: "2017-05-05"
 modified: "2017-05-05"
 group: "07 - Lubricating Oil Systems"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
+  - "QSK60"
+parts:
+  - "3393587"
+  - "3393591"
+  - "3631862"
+  - "3631863"
+  - "3631864"
+  - "3631865"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150164.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150164.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150164.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
   - "год/2017"
   - "перевод/машинный"
   - "тема/lubricating-oil-systems"
@@ -31,10 +47,10 @@ tags:
 
 > [!abstract] TSB · `tsb150164`
 > **Раздел Cummins:** 07 - Lubricating Oil Systems
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50, QSK60
 > **Даты:** выпущен 2017-05-05 · изменён 2017-05-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150164.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150164.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150164.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150164.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -76,7 +92,7 @@ tags:
 
 | Таблица 1, Части обслуживания |  |
 |---|---|
-| Наименование | Fleetguard - Часть номер |
+| Наименование | Fleetguard - Номер детали |
 | Однопицевый элиминатор TM Центробежный масляный фильтр с технологией SpiraTecTM | CS41018 |
 
 | Таблица 2, Номера частей центробежного нефтяного фильтра |  |  |  |  |  |
@@ -98,18 +114,18 @@ tags:
 
 Рисунок 1 - Центробежный фильтр для масла с стеком дисков Alfa Laval
 
-** Совместимость частей**
+**Совместимость частей**
 
 Новый усовершенствованный цельный центробежный масляный фильтр обратно совместим.
 
 > [!note] Примечание
-> Если цельная центрифуга установлена на двигателе, который ранее имел ограничительное отверстие, установленное на вал центрифуги, ограничитель ** должен быть удален. Его можно снять с вала с помощью шестигранного ключа.
+> Если цельная центрифуга установлена на двигателе, который ранее имел ограничительное отверстие, установленное на вал центрифуги, ограничитель должен быть удален. Его можно снять с вала с помощью шестигранного ключа.
 
 **Идентификация детали**
 
 Новый усовершенствованный цельный центробежный масляный фильтр можно отличить, используя номер детали, указанный на фильтре.
 
-** Часть структуры**
+**Часть структуры**
 
 Модернизированный номер детали центробежного масляного фильтра, состоящий из одного элемента, не устарел или заменил существующие номера детали фильтрации. Существующие номера фильтрационных деталей останутся в наличии.
 
@@ -120,7 +136,7 @@ tags:
 | Тип ручного | Двигатель | Номер бюллетеня | Название процедуры | Процедура | Раздел |
 | Эксплуатация и техническое обслуживание | K38, K50, QSK38 и QSK50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Центрифуга фильтра Eliminator | 007-066 | 6 |
 | QSK38 M2150 | 4332769 | 007-066 |  |  |  |
-| QSK45/QSK60 | 3666260 | 007-066 |  |  |  |
+| QSK45/QSK60 | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | 007-066 |  |  |  |
 | QSK50 CM2150 | 4332774 | 007-066 |  |  |  |
 | QSK50 CM2350 | 4332824 | 007-066 |  |  |  |
 | QSK60 CM2350 | 4367445 | 007-066 |  |  |  |
@@ -128,6 +144,16 @@ tags:
 
 ### История изменений документа
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3393587]] | O Ring Seal | Уплотнительное кольцо |
+| [[3393591]] | OIL STRAINER |  |
+| [[3631862]] | FLUID MANIFOLD |  |
+| [[3631863]] | OIL STRAINER |  |
+| [[3631864]] | CONNECTION RETAINER |  |
+| [[3631865]] | RETAINING RING | Стопорное кольцо |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Optional One-Piece Eliminator™ Centrifugal Oil Filter Upgrade
@@ -170,14 +196,14 @@ tags:
 > | Original Filtration Part Numbers | Upgraded Filtration Part Numbers |  |  |  |  |
 > | Centrifugal Oil Filter with Alfa Laval™ disc stack | Cummins Filtration™ Centrifugal Oil Filter with ConeStaC™ Technology | One-Piece Eliminator™ Centrifugal Oil Filter with SpiraTec™ Technology |  |  |  |
 > | Description (Location in Figure 1) | Part Number | Description | Part Number | Description | Part Number |
-> | O-ring (2) | 3393587 | O-ring | 3393587 | Centrifugal Oil Filter | Fleetguard® CS41018 |
+> | O-ring (2) | [[3393587]] | O-ring | [[3393587]] | Centrifugal Oil Filter | Fleetguard® CS41018 |
 > | Rotor Body Assembly (21) | 3649833 | Rotor Body Assembly | 3649833 |  |  |
 > | Rotor Cover (22) | 3631861 | Rotor Cover | 3631861 |  |  |
-> | Distributor (23) | 3631862 | ConeStaC™ for Centrifugal By-Pass Filter | Fleetguard® CS44000 |  |  |
-> | Top Disc (24) | 3631863 |  |  |  |  |
-> | Bowl Disc (25) | 3393591 |  |  |  |  |
-> | Distributing Cone (26) | 3631864 |  |  |  |  |
-> | Snap Ring (27) | 3631865 |  |  |  |  |
+> | Distributor (23) | [[3631862]] | ConeStaC™ for Centrifugal By-Pass Filter | Fleetguard® CS44000 |  |  |
+> | Top Disc (24) | [[3631863]] |  |  |  |  |
+> | Bowl Disc (25) | [[3393591]] |  |  |  |  |
+> | Distributing Cone (26) | [[3631864]] |  |  |  |  |
+> | Snap Ring (27) | [[3631865]] |  |  |  |  |
 > | Sludge Collecting Paper (4) | 3393592 |  |  |  |  |
 >
 > Figure 1, Centrifugal Oil Filter with Alfa Laval Disc Stack
@@ -204,7 +230,7 @@ tags:
 > | Manual Type | Engine | Bulletin Number | Procedure Title | Procedure | Section |
 > | Operation and Maintenance | K38, K50, QSK38 and QSK50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Eliminator Filter Centrifuge | 007-066 | 6 |
 > | QSK38 CM2150 | 4332769 | 007-066 |  |  |  |
-> | QSK45/QSK60 | 3666260 | 007-066 |  |  |  |
+> | QSK45/QSK60 | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | 007-066 |  |  |  |
 > | QSK50 CM2150 | 4332774 | 007-066 |  |  |  |
 > | QSK50 CM2350 | 4332824 | 007-066 |  |  |  |
 > | QSK60 CM2350 | 4367445 | 007-066 |  |  |  |

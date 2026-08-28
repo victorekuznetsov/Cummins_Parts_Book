@@ -17,7 +17,7 @@ figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-005-083.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-005-083.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-005-083.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 5 - Fuel System - Group 05
 > **Даты:** изменён 2022-07-06
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-005-083.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-005-083.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-005-083.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-005-083.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -78,7 +78,7 @@ tags:
 
 Выключите замок зажигания автомобиля.
 
-Отключите 9-контактный электрический разъем впрыска топлива Deutsch. **Не отсоединять 2-контактный разъем устройства EHAB.
+Отключите 9-контактный электрический разъем впрыска топлива Deutsch. Не отсоединять 2-контактный разъем устройства EHAB.
 
 ![[19a00338.png]]
 
@@ -96,7 +96,7 @@ tags:
 
 Внутреннее сопротивление EHAB должно быть от 38,5 до 43,5 Ом.
 
-Если устройство Bosch® EHAB не проходит ни одного испытания, оно должно быть обслуживается авторизованным местом ремонта Bosch® или заменено. На данный момент устройство Bosch® EHAB** является только заменяемым в качестве сборки.
+Если устройство Bosch® EHAB не проходит ни одного испытания, оно должно быть обслуживается авторизованным местом ремонта Bosch® или заменено. На данный момент устройство Bosch® EHAB является только заменяемым в качестве сборки.
 
 ![[19a00753.png]]
 

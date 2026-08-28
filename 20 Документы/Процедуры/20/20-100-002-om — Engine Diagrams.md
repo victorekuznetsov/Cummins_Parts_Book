@@ -8,6 +8,7 @@ title_ru: "Схемы двигателя"
 modified: "2014-01-31"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 20
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-100-002-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-100-002-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-100-002-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Схемы двигателя**
 
 > [!abstract] Процедура · `20-100-002-om`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]]
 > **Секции:** Section E - Engine Identification · Section E - Engine and System Idenification
 > **Даты:** изменён 2014-01-31
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-100-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-100-002-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-100-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-100-002-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -114,7 +115,7 @@ tags:
 4. Фан-идлер и сборка
 5. Впуск охлаждающей жидкости
 6. Фильтр охлаждающей жидкости
-7. Альтернативное местоположение датчика скорости коленчатого вала/положения (привод генератора **только **)
+7. Альтернативное местоположение датчика скорости коленчатого вала/положения (привод генератора **только**)
 8. Стартер
 9. Картер маховика
 10. Маслоохладитель

@@ -7,21 +7,27 @@ title_en: "Exhaust Gas Temperature Sensor Converter"
 title_ru: "Преобразователь датчика температуры ОГ"
 modified: "2021-07-21"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "33239746"
   - "33239899"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK60"
 manuals:
   - "4021528"
+  - "4021530"
   - "4022102"
 figures: 16
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-450.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-450.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-450.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
+  - "двигатель/QSK60"
   - "группа/122"
   - "перевод/машинный"
 ---
@@ -30,12 +36,12 @@ tags:
 **Преобразователь датчика температуры ОГ**
 
 > [!abstract] Процедура · `122-019-450`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
-> **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]], [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK60
+> **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]], [[4021530 — QSK45 and QSK60 Service Manual|4021530]], [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Controls - Group 19
 > **Даты:** изменён 2021-07-21
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-450.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-450.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-450.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-450.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,7 +63,7 @@ tags:
 
 ![[00r01636.png]]
 
-** QSK60**
+**QSK60**
 
 Этот двигатель имеет два преобразователя датчиков температуры выхлопных газов: Один на правом берегу, другой на левом берегу.
 
@@ -70,7 +76,7 @@ tags:
 > [!danger] ОПАСНО
 > Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
-- Отсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Этот материал содержится в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике 4021530 или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
+- Отсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Этот материал содержится в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике [[4021530 — QSK45 and QSK60 Service Manual\|4021530]] или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 - Отсоедините проводку двигателя от кабеля жгута проводов от коробки преобразователя температуры выхлопных газов.
 
 ![[ck800wa.png]]
@@ -93,7 +99,7 @@ tags:
 
 ![[00r01639.png]]
 
-** QSK60**
+**QSK60**
 
 Отсоедините преобразователь датчика температуры выхлопных газов от основного разъёма проводов.
 
@@ -111,7 +117,7 @@ tags:
 
 Термопара
 
-QSK50 и QSK60**
+QSK50 и QSK60
 
 Проверить преобразователь и заменить, если:
 
@@ -158,7 +164,7 @@ QSK50 и QSK60**
 
 ![[00r01638.png]]
 
-** QSK60**
+**QSK60**
 
 Установите температурный преобразователь выхлопных газов в монтажную кронштейн с четырьмя монтажными болтами.
 
@@ -187,7 +193,7 @@ QSK50 и QSK60**
 > Аккумуляторные батареи выделяют взрывоопасные газы. Чтобы снизить риск травмы, перед обслуживанием аккумуляторных батарей обязательно проветрите помещение. Чтобы снизить риск искрения, минусовой (-) провод аккумуляторной батареи снимайте первым, а подсоединяйте последним.
 
 - Подключите проводку двигателя кабеля жгута проводов к коробке преобразователя температуры выхлопных газов.
-- Подсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Эта процедура описана в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике 4021530 или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
+- Подсоедините провода аккумуляторных батарей.[[99-013-009 — Battery Cables and Connections|См. процедуру 013-009 в разделе 13.]]Эта процедура описана в QSK45 и QSK60, Руководстве по обслуживанию, Вестнике [[4021530 — QSK45 and QSK60 Service Manual\|4021530]] или K38, K50 и QSK50, Руководстве по обслуживанию, Вестнике [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 - Подключение рекомендованного Cummins® электронного сервисного инструментария или эквивалента.
 - Управляйте двигателем и проверяйте активные коды неисправностей.
 
@@ -216,7 +222,7 @@ QSK50 и QSK60**
 > **WARNING · Опасно**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 >
-> - Disconnect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedue is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
+> - Disconnect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedue is found in QSK45 and QSK60, Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]] or the K38, K50 and QSK50, Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 > - Disconnect the engine harness cable from the exhaust gas temperature converter box.
 >
 > ### Remove
@@ -307,6 +313,6 @@ QSK50 и QSK60**
 > Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
 >
 > - Connect the engine harness cable to the exhaust gas temperature converter box.
-> - Connect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedure is found in QSK45 and QSK60, Service Manual, Bulletin 4021530 or the K38, K50 and QSK50, Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
+> - Connect the battery cables. [[99-013-009 — Battery Cables and Connections|Refer to Procedure 013-009 in Section 13.]] This procedure is found in QSK45 and QSK60, Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]] or the K38, K50 and QSK50, Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 > - Connect recommended Cummins® electronic service tool or equivalent.
 > - Operate the engine and check for active fault codes.

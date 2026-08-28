@@ -17,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-066.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-066.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-066.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2003-07-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-066.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-066.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-066.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -68,11 +68,11 @@ tags:
 
 Мониторинг давления моторного масла с помощью электронного инструментария.
 
-Для двигателей QSK23, QSK45 и QSK60 датчик давления моторного масла ** должен ** находиться в пределах ±17,2 кПа \[2,5 psi\] (измерительный датчик) нуля.
+Для двигателей QSK23, QSK45 и QSK60 датчик давления моторного масла **должен** находиться в пределах ±17,2 кПа \[2,5 psi\] (измерительный датчик) нуля.
 
-Для двигателей QSX15, QST30 и QSK78 датчик давления моторного масла ** должен ** находиться в пределах ±17,2 кПа \[2,5 psi\] (абсолютно) значения барометрического датчика давления.
+Для двигателей QSX15, QST30 и QSK78 датчик давления моторного масла **должен** находиться в пределах ±17,2 кПа \[2,5 psi\] (абсолютно) значения барометрического датчика давления.
 
-Если датчик давления моторного масла ** не** в пределах спецификаций, датчик давления моторного масла *** должен быть заменен.
+Если датчик давления моторного масла **не** в пределах спецификаций, датчик давления моторного масла  должен быть заменен.
 
 Отсоедините датчик давления моторного масла от электропроводки двигателя.
 

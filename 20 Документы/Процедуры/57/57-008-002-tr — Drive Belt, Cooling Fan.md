@@ -17,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-002-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-002-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 8 - Cooling System - Group 08
 > **Даты:** изменён 2017-03-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-002-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-002-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,7 +49,7 @@ tags:
 - Удалите охлаждающий вентилятор и прокладки. См. процедуру 008-040 в разделе 8.
 
 > [!note] Примечание
-> В некоторых приложениях ремень привода охлаждающего вентилятора достаточно длинный, чтобы очистить лопасти вентилятора, и удаление вентилятора и прокладок ** не требуется.
+> В некоторых приложениях ремень привода охлаждающего вентилятора достаточно длинный, чтобы очистить лопасти вентилятора, и удаление вентилятора и прокладок не требуется.
 
 - Удалите натяжитель ремня охлаждения.[[57-008-087-tr — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе 8.]]
 
@@ -81,7 +81,7 @@ tags:
 Если детали сломаны или изношены, они должны быть заменены.
 
 - Убедитесь, что шкив холостого хода свободно
-- Убедитесь, что подшипник работает гладко и ** не имеет никакой бесплатной игры.
+- Убедитесь, что подшипник работает гладко и не имеет никакой бесплатной игры.
 - Осмотрите шкив холостого хода на предмет повреждения или износа.
 
 ![[08k00031.png]]

@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc521.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc521.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc521.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2016-12-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc521.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc521.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc521.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc521.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 521 P(P): СПН: 175 ФМИ: 3 лампы: Янтарная СРТ: | Схема датчика температуры масла (Gear) - напряжение выше нормального или короткое до высокого источника. Высокое напряжение сигнала, обнаруженное в цепи датчика температуры масла передачи (Gear). | ** Нет** Защита двигателя от температуры трансмиссионного масла. |
+| Код неисправности: 521 P(P): СПН: 175 ФМИ: 3 лампы: Янтарная СРТ: | Схема датчика температуры масла (Gear) - напряжение выше нормального или короткое до высокого источника. Высокое напряжение сигнала, обнаруженное в цепи датчика температуры масла передачи (Gear). | **Нет** Защита двигателя от температуры трансмиссионного масла. |
 
 ![[19k00131.png]]
 

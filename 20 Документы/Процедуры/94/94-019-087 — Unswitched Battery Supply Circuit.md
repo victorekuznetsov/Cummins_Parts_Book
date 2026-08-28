@@ -17,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-087.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-087.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-087.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual|3666184]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2003-03-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-087.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-087.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-087.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-087.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -69,7 +69,7 @@ ECM получает постоянное напряжение от батаре
 > [!warning] ОСТОРОЖНО
 > Не используйте ни пробы, ни зацепки, кроме Части Нет. 3822758. Разъём будет повреждён. Лиды должны плотно вписываться в разъем без расширения штифтов в разъеме.
 
-Включить испытательный щуп в контакт 38 с ремнем электропроводки двигателя. Подключите аллигатор к многометровому щупу. Прикоснитесь к другому щупу к соединению батареи на ремне электропроводки двигателя. Измерьте сопротивление. Сопротивление ** должно быть 10 Ом или меньше.
+Включить испытательный щуп в контакт 38 с ремнем электропроводки двигателя. Подключите аллигатор к многометровому щупу. Прикоснитесь к другому щупу к соединению батареи на ремне электропроводки двигателя. Измерьте сопротивление. Сопротивление должно быть 10 Ом или меньше.
 
 Повторите этот шаг для контактов 16 на 20.
 

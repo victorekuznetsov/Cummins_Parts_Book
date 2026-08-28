@@ -17,7 +17,7 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-056-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-056-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-056-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2005-10-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-056-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-056-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-056-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-056-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -98,7 +98,7 @@ tags:
 > **WARNING · Опасно**
 > To reduce the possibility of personal injury, avoid direct contact of hot oil with your skin.
 >
-> - Partially drain the engine lubricating oil system from the makeup tank. Refer to Procedure 007-037 in the Troubleshooting and Repair Manual, QSK45 and QSK60 Series Engines, Bulletin 3666261.
+> - Partially drain the engine lubricating oil system from the makeup tank. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]] in the Troubleshooting and Repair Manual, QSK45 and QSK60 Series Engines, Bulletin 3666261.
 >
 > ### Remove
 >
@@ -123,5 +123,5 @@ tags:
 >
 > ### Finishing Steps
 >
-> - Fill the engine and makeup tank to the proper level with lubricating oil. Refer to Procedure 007-037 in the Troubleshooting and Repair Manual, QSK45 and QSK60 Series Engines, Bulletin 3666261.
+> - Fill the engine and makeup tank to the proper level with lubricating oil. Refer to Procedure [[56-007-037-tr — Lubricating Oil System|007-037]] in the Troubleshooting and Repair Manual, QSK45 and QSK60 Series Engines, Bulletin 3666261.
 > - Operate the engine and check for leaks.

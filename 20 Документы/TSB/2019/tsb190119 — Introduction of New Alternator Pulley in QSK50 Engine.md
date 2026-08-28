@@ -9,17 +9,23 @@ released: "2019-07-09"
 modified: "2019-07-26"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
+parts:
+  - "3014711"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190119.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190119.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190119.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2019"
   - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
@@ -30,10 +36,10 @@ tags:
 
 > [!abstract] TSB · `tsb190119`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
 > **Даты:** выпущен 2019-07-09 · изменён 2019-07-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190119.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190119.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190119.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190119.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +59,7 @@ tags:
 
 **Затронутая продукция**
 
-- QSK50 CM2150 MCRS ** (только промышленное исполнение) Описание изменений **
+- QSK50 CM2150 MCRS **(только промышленное исполнение) Описание изменений**
 
 ­
 
@@ -75,22 +81,22 @@ tags:
 
 Сервисные детали доступны для заказа. См. таблицу 1.
 
-| ** Таблица 1, номера запасных частей Alternator Pulley** |  |  |
+| **Таблица 1, номера запасных частей Alternator Pulley** |  |  |
 |---|---|---|
-| ** Часть описания** | ** Существующий номер детали** | **Новый номер** |
+| **Часть описания** | **Существующий номер детали** | **Новый номер** |
 | Пулли, Альтернатор | 3014711 | 4399016 |
 
-** Совместимость частей**
+**Совместимость частей**
 
-Эта часть не может быть смешана в одном двигателе из-за внесенных изменений, и эта часть совместима в соответствии с Таблицей 1 **только **.
+Эта часть не может быть смешана в одном двигателе из-за внесенных изменений, и эта часть совместима в соответствии с Таблицей 1 **только**.
 
-** Часть структуры**
+**Часть структуры**
 
 Старый номер детали следует заменить новым номером детали.
 
 **Часть инвентаризации**
 
-Старые номера запасных частей должны быть использованы ** не **.
+Старые номера запасных частей должны быть использованы **не**.
 
 **Статус в производстве**
 
@@ -98,12 +104,17 @@ tags:
 
 | **Таблица 2, Информация о производстве** |  |  |
 |---|---|---|
-| ** Номер двигателя Сериэль (ESN) Первый** | ** Дата строительства**** | ** Завод** |
+| **Номер двигателя Сериэль (ESN) Первый** | **Дата строительства** | **Завод** |
 | 25443943 | 22 февраля 2019 г. | KCL, Cummins India LTD. |
 | *Дата сборки двигателя можно найти на табличке с данными двигателя. |  |  |
 
 ### История изменений документа
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3014711]] | ALTERNATOR PULLEY | Шкив генератора |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Introduction of New Alternator Pulley in QSK50 Engine
@@ -141,7 +152,7 @@ tags:
 > | **Table 1, Alternator Pulley Part Numbers** |  |  |
 > |---|---|---|
 > | **Part Description** | **Existing Part Number** | **New Part Number** |
-> | Pulley, Alternator | 3014711 | 4399016 |
+> | Pulley, Alternator | [[3014711]] | 4399016 |
 >
 > **Part Compatibility**
 >

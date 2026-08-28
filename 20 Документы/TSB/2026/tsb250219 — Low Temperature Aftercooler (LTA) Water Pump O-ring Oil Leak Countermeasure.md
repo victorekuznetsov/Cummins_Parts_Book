@@ -14,12 +14,13 @@ engines:
 families:
   - "QST30"
 parts:
+  - "3033248"
   - "4025376"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250219.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb250219.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb250219.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -36,7 +37,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2026-01-09 · изменён 2026-01-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250219.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb250219.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250219.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb250219.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -58,7 +59,7 @@ tags:
 
 QST30 CM552
 
-** Резюме проблемы**
+**Резюме проблемы**
 
 Симптом:
 
@@ -80,7 +81,7 @@ QST30 CM552
 
 Рисунок 1 Пример установки уплотнения для колец водяного насоса LTA
 
-** Услуги**
+**Услуги**
 
 Предлагаются сервисные части. Номера деталей приведены в таблице 1.
 
@@ -95,6 +96,7 @@ QST30 CM552
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
+| [[3033248]] | O Ring Seal | Уплотнительное кольцо |
 | [[4025376]] | O RING SEAL | Уплотнительное кольцо |
 
 > [!quote]- Original (English) · английский оригинал
@@ -126,7 +128,7 @@ QST30 CM552
 >
 > **Resolution**
 >
-> As a countermeasure for this issue, replace failed seal part number [[4025376]] with seal part number 3033248, which has higher temperature exposure capabilities. See image 1 for referenced o-ring seal.
+> As a countermeasure for this issue, replace failed seal part number [[4025376]] with seal part number [[3033248]], which has higher temperature exposure capabilities. See image 1 for referenced o-ring seal.
 >
 > Figure 1, Example of LTA water pump mounting o-ring seal
 >
@@ -137,6 +139,6 @@ QST30 CM552
 > | Table 1, Service Parts |  |  |  |  |
 > |---|---|---|---|---|
 > | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-> | SEAL,O RING | [[4025376]] | No | No | 3033248 |
+> | SEAL,O RING | [[4025376]] | No | No | [[3033248]] |
 >
 > ### Document History

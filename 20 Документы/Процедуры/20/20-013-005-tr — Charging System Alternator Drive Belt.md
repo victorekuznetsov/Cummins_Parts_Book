@@ -8,6 +8,7 @@ title_ru: "Ремень привода генератора"
 modified: "2018-06-22"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-005-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-005-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-005-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Ремень привода генератора**
 
 > [!abstract] Процедура · `20-013-005-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 13 - Electrical Equipment - Group 13
 > **Даты:** изменён 2018-06-22
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-005-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-005-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -67,7 +68,7 @@ tags:
 
 Проверьте ремень на износ.
 
-Если пояс указывает на какой-либо износ, его *** следует заменить.
+Если пояс указывает на какой-либо износ, его  следует заменить.
 
 ![[fa800sa.png]]
 
@@ -77,7 +78,7 @@ tags:
 
 ### Установка
 
-Не пытайтесь пощипать пояс на шкиве. Поверните регулировочный винт ** против часовой стрелки **, чтобы сократить соединение, если это необходимо. Установите ремень генератора.
+Не пытайтесь пощипать пояс на шкиве. Поверните регулировочный винт **против часовой стрелки**, чтобы сократить соединение, если это необходимо. Установите ремень генератора.
 
 ![[eh4blmb.png]]
 
@@ -92,7 +93,7 @@ tags:
 
 ![[eh4lkua.png]]
 
-Поверните регулирующий винт ** по часовой стрелке**, чтобы затянуть натяжение ремня.
+Поверните регулирующий винт **по часовой стрелке**, чтобы затянуть натяжение ремня.
 
 ![[eh4lkub.png]]
 
@@ -113,7 +114,7 @@ tags:
 
 Проверьте натяжение ремня снова, чтобы убедиться, что это правильно.
 
-Натяжение ремня ** должно быть:
+Натяжение ремня должно быть:
 
 | Измерения |  |  |
 |---|---|---|

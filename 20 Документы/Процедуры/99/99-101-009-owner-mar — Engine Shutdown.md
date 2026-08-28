@@ -7,19 +7,30 @@ title_en: "Engine Shutdown"
 title_ru: "Останов двигателя"
 modified: "2025-04-23"
 engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
+  - "93047320"
   - "93058669"
+  - "93087701"
 families:
+  - "6B5.9"
   - "C8.3 · 6C8.3"
+  - "QSM11"
 manuals:
+  - "4021939"
   - "4915514"
+  - "4960270"
 figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-009-owner-mar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-009-owner-mar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-009-owner-mar.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/C8.3"
+  - "двигатель/QSM11"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -28,12 +39,12 @@ tags:
 **Останов двигателя**
 
 > [!abstract] Процедура · `99-101-009-owner-mar`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
-> **Входит в руководства:** [[4915514 — C8.3 Recreational Marine Owners Manual|4915514]]
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[93047320 — 6B5.9 CPL 3111|93047320]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** 6B5.9, C8.3 · 6C8.3, QSM11
+> **Входит в руководства:** [[4021939 — QSM11 Marine Owners Manual|4021939]], [[4915514 — C8.3 Recreational Marine Owners Manual|4915514]], [[4960270 — B3.9 and B5.9 Recreational Marine Owners Manual|4960270]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2025-04-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-009-owner-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-009-owner-mar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-009-owner-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-009-owner-mar.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,12 +64,12 @@ tags:
 
 Переведите замок зажигания в положение OFF.
 
-Нажмите кнопку STOP, чтобы остановить двигатель (двигатели), или, если он оснащен переключателем зажигания **только **, поверните переключатель зажигания в положение выключения.
+Нажмите кнопку STOP, чтобы остановить двигатель (двигатели), или, если он оснащен переключателем зажигания **только**, поверните переключатель зажигания в положение выключения.
 
 Для двигателей, оснащенных модулем управления двигателем (ECM), выключите зажигание минимум на 100 секунд, прежде чем пытаться перезапустить двигатель или попытаться отключить непрерывный (непереключенный) источник питания батареи. Если 100 секунд не прошло, может произойти повреждение информации ECM, кодов неисправностей и внутренних повреждений двигателя.
 
 > [!note] Примечание
-> Информация ниже написана для двигателей, оснащенных системой управления, поставляемой производителем оригинального оборудования (OEM). Для двигателей, оснащенных системой управления Cummins, обратитесь к C Command Connect и Connect Premier Marine Panel System PS102 & PS103 Owners Manual, Bulletin 5411481, для получения дополнительной информации.
+> Информация ниже написана для двигателей, оснащенных системой управления, поставляемой производителем оригинального оборудования (OEM). Для двигателей, оснащенных системой управления Cummins, обратитесь к C Command Connect и Connect Premier Marine Panel System PS102 & PS103 Owners Manual, Bulletin [[5411481 — C Command Connect and Connect Premier Marine Panel System PS102, PS103 and PS108\|5411481]], для получения дополнительной информации.
 
 ![[15d00007.png]]
 
@@ -77,7 +88,7 @@ tags:
 > [!note] Примечание
 > Повреждение двигателя в результате замораживания не покрывается гарантией Cummins®.
 
-Процедуры ** должны соблюдаться для защиты двигателя от повреждения от замерзания в период хранения в холодную погоду. Процедура применяется в любое время, когда присутствуют или могут возникнуть условия замораживания.[[99-000-014 — Seasonal Storage|См. процедуру 000-014]](Seasonal Storage) - в разделе SS в соответствующем руководстве по эксплуатации и техническому обслуживанию, для шагов по защите двигателя в эти периоды.
+Процедуры должны соблюдаться для защиты двигателя от повреждения от замерзания в период хранения в холодную погоду. Процедура применяется в любое время, когда присутствуют или могут возникнуть условия замораживания.[[99-000-014 — Seasonal Storage|См. процедуру 000-014]](Seasonal Storage) - в разделе SS в соответствующем руководстве по эксплуатации и техническому обслуживанию, для шагов по защите двигателя в эти периоды.
 
 ![[nobox.png]]
 
@@ -98,7 +109,7 @@ tags:
 > For engines equipped with an engine control module (ECM), turn the keyswitch off for a minimum of 100 seconds before attempting to restart the engine or attempting to disconnect the continuous (unswitched) battery power supply. If 100 seconds have **not** passed, corruption to ECM information, fault codes and internal engine damage can occur.
 >
 > **Note · Примечание**
-> The information below is written for engines equipped with an original equipment manufacturer (OEM) supplied control system. For engines equipped with the Cummins supplied controls system, refer to C Command Connect and Connect Premier Marine Panel System PS102 & PS103 Owners Manual, Bulletin 5411481, for additional information.
+> The information below is written for engines equipped with an original equipment manufacturer (OEM) supplied control system. For engines equipped with the Cummins supplied controls system, refer to C Command Connect and Connect Premier Marine Panel System PS102 & PS103 Owners Manual, Bulletin [[5411481 — C Command Connect and Connect Premier Marine Panel System PS102, PS103 and PS108\|5411481]], for additional information.
 >
 > If equipped, push the engine stop switch to the OFF position.
 >

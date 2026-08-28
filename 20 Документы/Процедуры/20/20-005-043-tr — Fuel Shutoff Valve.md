@@ -8,6 +8,7 @@ title_ru: "Клапан отсечки топлива"
 modified: "2026-02-13"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-043-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-043-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-043-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Клапан отсечки топлива**
 
 > [!abstract] Процедура · `20-005-043-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 5 - Fuel System - Group 05
 > **Даты:** изменён 2026-02-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-043-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-043-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-043-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-043-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -84,7 +85,7 @@ tags:
 
 с форсункой механического управления
 
-Используйте минеральные спирты. Очистить все детали **, кроме ** сборки катушки.
+Используйте минеральные спирты. Очистить все детали**, кроме** сборки катушки.
 
 > [!note] Примечание
 > Не надо, не надо, на катушку накачивать растворитель. Очистите катушку сухой тканью. Используйте 200-гранатовую салфетку и плоскую поверхность для полировки поверхности катушки.
@@ -135,7 +136,7 @@ tags:
 
 Поместите резиновую сторону на клапанный диск (4) на приводной диск (5).
 
-Установите пружину (3) клапана со стороной чашки к катушке. Внутренний диаметр пружины (3)** должен** опираться на диаметр лоцмана клапанного диска (4).
+Установите пружину (3) клапана со стороной чашки к катушке. Внутренний диаметр пружины (3)**должен** опираться на диаметр лоцмана клапанного диска (4).
 
 Установите новое о-кольцо (6) в корпус привода (7).
 
@@ -161,7 +162,7 @@ tags:
 
 ### Проверка напряжения
 
-Используйте мультиметр для проверки напряжения на катушке. Измерьте напряжение от подсоединения соленоида к заземлению блока двигателя. Мультиметр ** должен** показывать напряжение батареи.
+Используйте мультиметр для проверки напряжения на катушке. Измерьте напряжение от подсоединения соленоида к заземлению блока двигателя. Мультиметр **должен** показывать напряжение батареи.
 
 Прокрутите двигатель, чтобы обеспечить напряжение к клеммам запорного клапана топлива.
 
@@ -183,7 +184,7 @@ tags:
 >
 > with Mechanically Actuated Injector
 >
-> Remove the electronic control module (ECM). Refer to Procedure 019-031 in Section 19.
+> Remove the electronic control module (ECM). [[19-019-031 — Engine Control Module|Refer to Procedure 019-031 in Section 19.]]
 >
 > ### Remove
 >
@@ -287,4 +288,4 @@ tags:
 >
 > with Mechanically Actuated Injector
 >
-> Install the ECM. Refer to Procedure 019-031 in Section 19.
+> Install the ECM. [[19-019-031 — Engine Control Module|Refer to Procedure 019-031 in Section 19.]]

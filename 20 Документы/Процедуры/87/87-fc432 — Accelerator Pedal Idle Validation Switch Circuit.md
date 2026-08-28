@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc432.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc432.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc432.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc432.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc432.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc432.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc432.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 432 PID(P): P091 SPN: 091 ФМИ: 13 ламп: Красная СТО: | Напряжение, обнаруженное при контакте 26 сигнала холостого хода проводов OEM, когда напряжение при контакте 30 сигнала положения ускорителя проводов OEM указывает, что педаль **не*** находится в холостом ходу, или напряжение, обнаруженное при контакте 25 сигнала холостого хода валидации вне холостого хода проводов OEM, когда напряжение при контакте 30 сигнала положения ускорителя проводов OEM указывает, что педаль находится в покое. | Двигатель не будет реагировать на акселератор. Двигатель будет простаивать только ***. |
+| Код неисправности: 432 PID(P): P091 SPN: 091 ФМИ: 13 ламп: Красная СТО: | Напряжение, обнаруженное при контакте 26 сигнала холостого хода проводов OEM, когда напряжение при контакте 30 сигнала положения ускорителя проводов OEM указывает, что педаль **не** находится в холостом ходу, или напряжение, обнаруженное при контакте 25 сигнала холостого хода валидации вне холостого хода проводов OEM, когда напряжение при контакте 30 сигнала положения ускорителя проводов OEM указывает, что педаль находится в покое. | Двигатель не будет реагировать на акселератор. Двигатель будет простаивать только . |
 
 ![[19a00759.png]]
 

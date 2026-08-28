@@ -13,11 +13,13 @@ families:
   - "QST30"
 manuals:
   - "4021539"
+parts:
+  - "3803994"
 figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-001-023-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-001-023-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-001-023-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +36,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2022-08-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-001-023-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-001-023-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-001-023-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-001-023-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -72,7 +74,7 @@ tags:
 
 Проверьте коленчатый вал на износ поверхности контакта масляного уплотнения.
 
-Если следы износа соблюдаются, деталь *** должна быть отремонтирована или заменена.
+Если следы износа соблюдаются, деталь  должна быть отремонтирована или заменена.
 
 Используйте рекомендации по повторному использованию коленчатого вала, чтобы определить, необходимо ли компенсировать износ коленчатого вала. См. процедуру 001-016 в разделе 1.
 
@@ -94,7 +96,7 @@ tags:
 > Убедитесь, что расширение коленчатого вала установлено на смывной щетке, и нет резких краев, выступающих. Неспособность сделать это может привести к повреждению нового уплотнения коленчатого вала.
 
 > [!note] Примечание
-> Смазочные материалы ** не должны использоваться во время процесса установки.
+> Смазочные материалы не должны использоваться во время процесса установки.
 
 Расширение коленчатого вала устанавливается с помощью коленчатого вала в качестве направляющего. Используйте передний инструмент установки/удаления коленчатого вала, Номер детали 3163485, для установки уплотнения, Номер детали 3803994.
 
@@ -112,11 +114,11 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Уплотнение должно быть равномерно нажато на область цилиндра. Невыполнение этого требования может привести к повреждению печати.
 
-Затягивайте болты (4) не более чем на 1/2 оборота за раз, чередуя болты в шаблоне ** по часовой стрелке ** до тех пор, пока инструмент установки (1) не соприкоснется с расширением коленчатого вала.
+Затягивайте болты (4) не более чем на 1/2 оборота за раз, чередуя болты в шаблоне **по часовой стрелке** до тех пор, пока инструмент установки (1) не соприкоснется с расширением коленчатого вала.
 
 Удалите болты (4) и передний инструмент уплотнения коленчатого вала (1) из коленчатого вала.
 
-Проверьте печать. Проверить, что желтая пыльная губа не повреждена. Желтая пылевая уплотнитель ** должна** располагаться на расстоянии 15 мм \[0,59 дюйма\] от края укромного уплотнения коробки передач.
+Проверьте печать. Проверить, что желтая пыльная губа не повреждена. Желтая пылевая уплотнитель **должна** располагаться на расстоянии 15 мм \[0,59 дюйма\] от края укромного уплотнения коробки передач.
 
 ![[22a00008.png]]
 
@@ -130,6 +132,11 @@ tags:
 
 ![[ck800wa.png]]
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3803994]] | Front Crankshaft Seal Kit | Комплект переднего сальника коленвала |
 
 > [!quote]- Original (English) · английский оригинал
 > ### Preparatory Steps
@@ -160,7 +167,7 @@ tags:
 >
 > ### Install
 >
-> If necessary to compensate for crankshaft wear, install a sleeve, Part Number 3803994, onto the crankshaft.
+> If necessary to compensate for crankshaft wear, install a sleeve, Part Number [[3803994]], onto the crankshaft.
 >
 > Clean the first 60 mm \[2.36 in\] of the crankshaft with Scotch-Brite™ 7448 abrasive pad, Part Number 3823258, or equivalent.
 >
@@ -174,7 +181,7 @@ tags:
 > **Note · Примечание**
 > Lubricants **must not** be used during the installation process.
 >
-> The crankshaft extension mounts by using the crankshaft dowel as a guide. Use the front crankshaft installation/removal tool, Part Number 3163485, to install the seal, Part Number 3803994.
+> The crankshaft extension mounts by using the crankshaft dowel as a guide. Use the front crankshaft installation/removal tool, Part Number 3163485, to install the seal, Part Number [[3803994]].
 >
 > Mount the crankshaft extension with the three slotted capscrews. Securely tighten the capscrews.
 >

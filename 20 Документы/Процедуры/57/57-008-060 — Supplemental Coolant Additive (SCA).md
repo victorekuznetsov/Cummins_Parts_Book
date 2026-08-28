@@ -17,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-060.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-060.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-060.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months
 > **Даты:** изменён 2003-01-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-060.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-060.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-060.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-060.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -71,11 +71,11 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Недостаточная концентрация добавок охлаждающей жидкости может привести к линейной прокладке и коррозии системы. Чрезмерная концентрация может привести к утечке уплотнения водяного насоса.
 
-Рекомендуемый уровень концентрации дополнительных добавок к охлаждающей жидкости составляет 1,5 единицы на 3,8 литра \[1 галл\] охлаждающей жидкости. Уровень добавки ** не должен ** опускаться ниже 1,2 единицы или превышать 3 единицы на 3,8 литра \[1 галл\] охлаждающей жидкости.
+Рекомендуемый уровень концентрации дополнительных добавок к охлаждающей жидкости составляет 1,5 единицы на 3,8 литра \[1 галл\] охлаждающей жидкости. Уровень добавки **не должен** опускаться ниже 1,2 единицы или превышать 3 единицы на 3,8 литра \[1 галл\] охлаждающей жидкости.
 
 ![[ra600wa.png]]
 
-При изменении охлаждающей жидкости начальная концентрация DCA4 ** должна быть между 1,5 и 3 единицами на 3,8 литра \[1 галл\] охлаждающей жидкости (первоначальный заряд).
+При изменении охлаждающей жидкости начальная концентрация DCA4 должна быть между 1,5 и 3 единицами на 3,8 литра \[1 галл\] охлаждающей жидкости (первоначальный заряд).
 
 > [!note] Примечание
 > Система охлаждения должна быть чистой перед добавлением DCA4.

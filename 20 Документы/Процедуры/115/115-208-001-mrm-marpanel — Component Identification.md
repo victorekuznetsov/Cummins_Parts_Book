@@ -8,6 +8,7 @@ title_ru: "Идентификация компонентов"
 modified: "2008-10-09"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 11
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-208-001-mrm-marpanel.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-208-001-mrm-marpanel.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-208-001-mrm-marpanel.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Идентификация компонентов**
 
 > [!abstract] Процедура · `115-208-001-mrm-marpanel`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]]
 > **Секции:** Section E — Engine and System Identification
 > **Даты:** изменён 2008-10-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-208-001-mrm-marpanel.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-208-001-mrm-marpanel.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-208-001-mrm-marpanel.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-208-001-mrm-marpanel.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -108,7 +109,7 @@ tags:
 
 1. Цифровой дисплей ED-3
 2. Переключатель питания
-3. Локальный запуск **** с кнопки
+3. Локальный запуск  с кнопки
 4. Кнопка тишины тревоги
 5. Кнопка остановки двигателя
 6. Локальный старт только переключается
@@ -143,7 +144,7 @@ tags:
 4. Кнопка остановки двигателя
 5. Будильник
 6. Кнопка запуска двигателя
-7. Локальный старт **** лампа
+7. Локальный старт  лампа
 
 ![[17800080.png]]
 
@@ -155,7 +156,7 @@ tags:
 4. Разъемы панели управления.
 
 > [!note] Примечание
-> ** Не** Показано: SAE J1939 CAN дата-автобусный порт. Порт обслуживания шины данных SAE J1939 CAN представляет собой свиной хвост и свободно висит в корпусе клиента.
+> **Не** Показано: SAE J1939 CAN дата-автобусный порт. Порт обслуживания шины данных SAE J1939 CAN представляет собой свиной хвост и свободно висит в корпусе клиента.
 
 ![[15400069.png]]
 

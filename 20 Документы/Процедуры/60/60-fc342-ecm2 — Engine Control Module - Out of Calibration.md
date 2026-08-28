@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc342-ecm2.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc342-ecm2.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc342-ecm2.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2012-12-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc342-ecm2.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc342-ecm2.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc342-ecm2.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc342-ecm2.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 342 P(P): Нет SPN: ФМИ: 13 ламп: Красная СТО: | Электронный блок управления — вне калибровки. Калибровка ECM ** не совпадает. | Двигатель не запускается **. |
+| Код неисправности: 342 P(P): Нет SPN: ФМИ: 13 ламп: Красная СТО: | Электронный блок управления — вне калибровки. Калибровка ECM **не совпадает. | Двигатель не запускается**. |
 
 ![[19a00867.png]]
 
@@ -62,7 +62,7 @@ tags:
 
 ### Описание цепи
 
-Код 342 ошибки указывает, что калибровки в ECM ** не** одинаковы.
+Код 342 ошибки указывает, что калибровки в ECM **не** одинаковы.
 
 ### Расположение компонента
 

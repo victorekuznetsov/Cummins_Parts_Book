@@ -13,7 +13,10 @@ engines:
   - "37295879"
   - "41343322"
   - "41349633"
+  - "41353297"
+  - "41370103"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
   - "K38/K50 · QSK38, QSK50, QSK60"
@@ -25,7 +28,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-379-007.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-379-007.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-379-007.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -41,12 +44,12 @@ tags:
 **Проверка охлаждающей жидкости**
 
 > [!abstract] Процедура · `00-379-007`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[41370103 — NH NT 855 CPL 3362|41370103]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSK60, NT/NTA855 · ISM/QSM11, QSK19, QST30
 > **Входит в руководства:** [[5411406 — Fluids for Cummins® Products Service Manual|5411406]]
 > **Секции:** Section 5 - Coolant
 > **Даты:** изменён 2017-12-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-379-007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-379-007.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-379-007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-379-007.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -64,21 +67,21 @@ tags:
 
 Рекомендуемые методы испытаний охлаждающей жидкости включают:
 
-- ** Рефрактометр** - обеспечивает более точную меру точки замерзания, чем измерительные полоски. Этот уровень точности обычно не требуется для полевых измерений.
-- ** Измерительная полоса** - обеспечивает некоторое указание на защиту от замерзания в дополнение к уровням добавок. Менее точные, чем рефрактометры. **не следует использовать в качестве инструмента для поддержания концентрации дополнительной добавки к охлаждающей жидкости (SCA) на нижнем конце рекомендуемого диапазона. Эта практика исторически приводит к кавитации цилиндрового лайнера.
-- ** Программа анализа охлаждающей жидкости** - выполняется в лабораториях и предлагает дополнительную полезную информацию, но требует отправки образцов охлаждающей жидкости в лабораторию. Обеспечить руководство по эффективности лечения охлаждающей жидкостью, раннему обнаружению предупреждения и дальнейшим действиям по лечению. ** Не следует использовать в качестве метода для минимизации лечения. Лабораторные измерения обычно включают следующее:
+- **Рефрактометр** - обеспечивает более точную меру точки замерзания, чем измерительные полоски. Этот уровень точности обычно не требуется для полевых измерений.
+- **Измерительная полоса** - обеспечивает некоторое указание на защиту от замерзания в дополнение к уровням добавок. Менее точные, чем рефрактометры. не следует использовать в качестве инструмента для поддержания концентрации дополнительной добавки к охлаждающей жидкости (SCA) на нижнем конце рекомендуемого диапазона. Эта практика исторически приводит к кавитации цилиндрового лайнера.
+- **Программа анализа охлаждающей жидкости** - выполняется в лабораториях и предлагает дополнительную полезную информацию, но требует отправки образцов охлаждающей жидкости в лабораторию. Обеспечить руководство по эффективности лечения охлаждающей жидкостью, раннему обнаружению предупреждения и дальнейшим действиям по лечению. Не следует использовать в качестве метода для минимизации лечения. Лабораторные измерения обычно включают следующее:
 
 Cummins Inc. Рекомендуется использовать следующие продукты Fleetguard®, показанные в таблице 1 ниже. Свяжитесь с Cummins® Filtration Technical Assistance по адресу 800-223-4583 или www.cumminsfiltration.com для получения дополнительной информации.
 
 | Таблица 1 - Поставки и услуги по испытанию охлаждающей жидкости Fleetguard® |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|
-| Продукт | Часть номер(ы) | Гликол/Антифриз Процент | СКА | Пределы замены | pH | Хлорид | сульфат | Заметки |
-| Рефрактометр | CC2806 | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |  |  |  |  |  | **Не совместим с глицерином, неводными или органическими кислотными хладагентами (OAT) |
-| Рефрактометр | CC8998 | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |  |  |  |  |  | **Не совместим с глицерином, неводными или ОАТ-охладителями |
-| 3-WayTM SCA и измерительные полосы для точек замерзания 1 | CC2602 CC2602A CC2602B CC2602M CC2602AM | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |  |  |  |  | ** Не совместимы с ОАТ-охладителями |
-| Тест на качество хладагента Quick-ChekTM 2 | CC2718 |  |  |  | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | **Не совместим с красными охлаждающими веществами, не совместим с ES CompleatTM OAT и платиной PG |
-| 4-WayTM ES CompleatTM OAT Test Strip | CC8997 | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |  | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |  |  | **Только для использования с ES CompleatTM OAT |
-| Мониторинг C-программы | CC2700 CC2706 | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | Программа лабораторного анализа для всех охлаждающих жидкостей Fleetguard®, **только ***, доступных в Северной Америке |
+| Продукт | Номер(а) детали | Гликол/Антифриз Процент | SCA | Пределы замены | pH | Хлорид | сульфат | Заметки |
+| Рефрактометр | CC2806 | x |  |  |  |  |  | Не совместим с глицерином, неводными или органическими кислотными хладагентами (OAT) |
+| Рефрактометр | CC8998 | x |  |  |  |  |  | Не совместим с глицерином, неводными или ОАТ-охладителями |
+| 3-WayTM SCA и измерительные полосы для точек замерзания 1 | CC2602 CC2602A CC2602B CC2602M CC2602AM | x | x |  |  |  |  | Не совместимы с ОАТ-охладителями |
+| Тест на качество хладагента Quick-ChekTM 2 | CC2718 |  |  |  | x | x | x | Не совместим с красными охлаждающими веществами, не совместим с ES CompleatTM OAT и платиной PG |
+| 4-WayTM ES CompleatTM OAT Test Strip | CC8997 | x | x |  | x |  |  | Только для использования с ES CompleatTM OAT |
+| Мониторинг C-программы | CC2700 CC2706 | x | x | x | x | x | x | Программа лабораторного анализа для всех охлаждающих жидкостей Fleetguard®, **только**, доступных в Северной Америке |
 | 3-WayTM тяжелый рабочий испытательный комплект охлаждающей жидкости подходит для охлаждающих жидкостей, содержащих нитрит и/или молибдат для защиты от прокалывания цилиндров. Поскольку набор измеряет нитрит и молибдат отдельно, набор может надежно измерять как составы Fleetguard® SCA, так и наиболее конкурентоспособные составы SCA. Тест-полоски Quick-ChekTM Coolant Quality Test Strips обеспечивают индикатор здоровья охлаждающей жидкости, но не измеряют все параметры, необходимые для проверки замены охлаждающей жидкости. |  |  |  |  |  |  |  |  |
 
 

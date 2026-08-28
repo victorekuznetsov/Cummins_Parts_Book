@@ -25,7 +25,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100362.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100362.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100362.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -42,7 +42,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2005-05-03 · изменён 2005-05-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100362.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100362.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100362.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100362.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -82,7 +82,7 @@ tags:
 | 6 | [[3093734]] | болты, шестиугольник | 1 |
 | 7 | [[3093624]] | Зажим, трубка | 2 |
 
-| * Удалить существующий номер детали: |  |  |
+| Удалить существующий номер детали: |  |  |
 |---|---|---|
 | [[3094813]] | болты, шестиугольный фланж головы (от расположения клапанного клапана качалки). Этот винт заменяется номером детали[[3093764]]. | 1 |
 

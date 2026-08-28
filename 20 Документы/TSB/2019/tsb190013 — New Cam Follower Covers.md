@@ -10,6 +10,7 @@ modified: "2019-01-17"
 group: "04 - Cam Follower/Tappets"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 parts:
@@ -17,7 +18,7 @@ parts:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190013.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190013.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190013.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
@@ -31,10 +32,10 @@ tags:
 
 > [!abstract] TSB · `tsb190013`
 > **Раздел Cummins:** 04 - Cam Follower/Tappets
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Даты:** выпущен 2019-01-17 · изменён 2019-01-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190013.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190013.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -76,9 +77,9 @@ tags:
 | Исполнитель: Camshaft Follower | 3480213 | Да | Да | 5483672 |
 | Исполнитель: Camshaft Follower | НА | Нет | Нет | 4314206 |
 
-** Совместимость частей**
+**Совместимость частей**
 
-Новая крышка последователя кулачного вала **только ** совместима с использованием прокладки части номера кулачного вала последователя[[4314215]].
+Новая крышка последователя кулачного вала **только** совместима с использованием прокладки части номера кулачного вала последователя[[4314215]].
 
 **Статус в производстве**
 

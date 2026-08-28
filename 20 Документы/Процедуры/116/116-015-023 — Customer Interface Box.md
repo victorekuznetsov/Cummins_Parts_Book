@@ -8,6 +8,7 @@ title_ru: "Интерфейсная коробка заказчика"
 modified: "2010-01-25"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 69
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-015-023.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-015-023.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-015-023.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Интерфейсная коробка заказчика**
 
 > [!abstract] Процедура · `116-015-023`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual|4021617]]
 > **Секции:** Section 15 - Instruments and Controls
 > **Даты:** изменён 2010-01-25
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-015-023.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-015-023.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-015-023.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-015-023.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -168,11 +169,11 @@ Power Switch
 
 ![[15600157.png]]
 
-Удалите коммутаторную сборку, повернув коммутаторную сборку ** против часовой стрелки** и вытащив наружу.
+Удалите коммутаторную сборку, повернув коммутаторную сборку **против часовой стрелки** и вытащив наружу.
 
 ![[15600158.png]]
 
-Поверните кнопку крепления гайки ** против часовой стрелки** и удалите гайку.
+Поверните кнопку крепления гайки **против часовой стрелки** и удалите гайку.
 
 Вытащите кнопку из панели.
 

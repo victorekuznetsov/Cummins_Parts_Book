@@ -1,0 +1,54 @@
+---
+type: "Процедура"
+doc: "40-003-024-shopas"
+title_en: "Closed Crankcase Ventilation Hoses"
+modified: "2006-03-31"
+engines:
+  - "93047320"
+families:
+  - "6B5.9"
+manuals:
+  - "3666087"
+figures: 2
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-003-024-shopas.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-003-024-shopas.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/6B5.9"
+  - "группа/40"
+---
+
+# Closed Crankcase Ventilation Hoses
+
+> [!abstract] Процедура · `40-003-024-shopas`
+> **Двигатели:** [[93047320 — 6B5.9 CPL 3111|93047320]]
+> **Семейство:** 6B5.9
+> **Входит в руководства:** [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]]
+> **Секции:** Section AS - Engine Assembly - Group 00
+> **Даты:** изменён 2006-03-31
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-003-024-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-003-024-shopas.pdf)
+
+### Install
+
+Front Gear Train
+
+Install the closed crankcase ventilation hoses and valve.
+
+Tighten the hose clamps.
+
+> [!tip] Момент затяжки · Torque Value
+> 8 n•m [71 in-lb]
+
+![[03900095.png]]
+
+Rear Gear Train
+
+Install the closed crankcase ventilation hoses and valve.
+
+Secure the hose clamps.
+
+> [!tip] Момент затяжки · Torque Value
+> 8 n•m [71 in-lb]
+
+![[03d00168.png]]

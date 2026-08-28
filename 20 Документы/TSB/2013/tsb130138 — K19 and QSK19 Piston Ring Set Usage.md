@@ -9,20 +9,28 @@ released: "2013-09-20"
 modified: "2014-07-29"
 group: "01 - Cylinder Block"
 engines:
+  - "37269910"
+  - "37280605"
   - "41349633"
+  - "41353297"
 families:
+  - "K19"
   - "QSK19"
 parts:
   - "3090450"
+  - "3090460"
+  - "4081176"
   - "4090028"
+  - "4352282"
   - "4910253"
   - "4924584"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130138.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130138.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130138.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/QSK19"
   - "год/2013"
   - "перевод/машинный"
@@ -34,10 +42,10 @@ tags:
 
 > [!abstract] TSB · `tsb130138`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
+> **Двигатели:** [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K19, QSK19
 > **Даты:** выпущен 2013-09-20 · изменён 2014-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130138.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130138.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130138.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130138.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -104,7 +112,10 @@ tags:
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3090450]] | Oil Piston Ring | Маслосъёмное поршневое кольцо |
+| [[3090460]] | COMPRESSION PISTON RING | Компрессионное поршневое кольцо |
+| [[4081176]] | COMPRESSION PISTON RING | Компрессионное поршневое кольцо |
 | [[4090028]] | Piston Ring Set | Комплект поршневых колец |
+| [[4352282]] | Piston Ring Kit | Комплект поршневых колец |
 | [[4910253]] | COMPRESSION PISTON RING | Компрессионное поршневое кольцо |
 | [[4924584]] | COMPRESSION PISTON RING | Компрессионное поршневое кольцо |
 
@@ -140,16 +151,16 @@ tags:
 > | Description | Part Number |
 > | Piston Ring Set | 4955975 |
 > | Ring, oil piston | [[3090450]] |
-> | Ring, compression piston | 3090460 |
+> | Ring, compression piston | [[3090460]] |
 > | Ring, compression piston (top) | [[4924584]] |
 >
 > | K19 Except Marine |  |
 > |---|---|
 > | Description | Part Number |
-> | Piston Ring Set | 4352282 |
+> | Piston Ring Set | [[4352282]] |
 > | Ring, oil piston | [[3090450]] |
-> | Ring, compression piston | 3090460 |
-> | Ring, compression piston (top) | 4081176 |
+> | Ring, compression piston | [[3090460]] |
+> | Ring, compression piston (top) | [[4081176]] |
 >
 > | Natural Gas Engines |  |
 > |---|---|
@@ -157,6 +168,6 @@ tags:
 > | Piston Ring Set | 2881745 |
 > | Ring, oil piston | [[3090450]] |
 > | Ring, compression piston | 3068813 |
-> | Ring, compression piston (top) | 4081176 |
+> | Ring, compression piston (top) | [[4081176]] |
 >
 > ### Document History

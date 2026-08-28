@@ -8,6 +8,7 @@ title_ru: "Мультиплексирование шины J1939"
 modified: "2010-09-02"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -16,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc285.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc285.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc285.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -28,12 +29,12 @@ tags:
 **Мультиплексирование шины J1939**
 
 > [!abstract] Процедура · `82-fc285`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc285.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc285.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc285.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc285.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 285 PID(P): S231 SPN: 639 FMI: 9/9 лампа: Желтая СТО: | ECM ожидала информацию от мультиплексного устройства, но не получила ее достаточно быстро или вообще не получила. | По крайней мере, одно мультиплексное устройство будет работать ** не**. |
+| Код неисправности: 285 PID(P): S231 SPN: 639 FMI: 9/9 лампа: Желтая СТО: | ECM ожидала информацию от мультиплексного устройства, но не получила ее достаточно быстро или вообще не получила. | По крайней мере, одно мультиплексное устройство будет работать **не**. |
 
 ![[19c00340.png]]
 
@@ -79,7 +80,7 @@ ECM расположен на впускной стороне двигателя
 
 - Мультиплексное устройство, которое действительно является **не** мультиплексированным
 
-- VECU ** не** правильно настроен для передачи информации на одном из своих мультиплексированных устройств.
+- VECU **не** правильно настроен для передачи информации на одном из своих мультиплексированных устройств.
 
 См. Код устранения неполадок t05-285
 

@@ -9,23 +9,43 @@ released: "2009-12-17"
 modified: "2004-10-29"
 group: "23 - Information Products"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "35354607"
+  - "35373113"
+  - "37269910"
+  - "37280605"
   - "37292556"
   - "37295879"
   - "41343322"
+  - "41370103"
+  - "71156161"
+  - "80141463"
+  - "80248213"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+  - "K19"
   - "NT/NTA855 · ISM/QSM11"
+  - "QSK60"
+  - "QSM11"
   - "QST30"
+  - "QSX15"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101519.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101519.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101519.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
+  - "двигатель/K19"
   - "двигатель/NT/NTA855"
+  - "двигатель/QSK60"
+  - "двигатель/QSM11"
   - "двигатель/QST30"
+  - "двигатель/QSX15"
   - "год/2009"
   - "перевод/машинный"
   - "тема/information-products"
@@ -36,10 +56,10 @@ tags:
 
 > [!abstract] TSB · `tsb101519`
 > **Раздел Cummins:** 23 - Information Products
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3, NT/NTA855 · ISM/QSM11, QST30
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** C8.3 · 6C8.3, K19, NT/NTA855 · ISM/QSM11, QSK60, QSM11, QST30, QSX15
 > **Даты:** выпущен 2009-12-17 · изменён 2004-10-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101519.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101519.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101519.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101519.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -66,7 +86,7 @@ tags:
 Прилагается пересмотренная общая инструкция по уборке, которая будет размещена во всех служебных публикациях, где эти инструкции включены. Полевым мастерским настоятельно рекомендуется ознакомиться с этими инструкциями со всеми техниками и включить общие инструкции по уборке в программы обучения техников и новые программы ориентации техников.
 
 > [!note] Примечание
-> Это улучшение продукта ** не подлежит кампании.
+> Это улучшение продукта не подлежит кампании.
 
 
 > [!quote]- Original (English) · английский оригинал

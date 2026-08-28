@@ -17,7 +17,7 @@ figures: 9
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-002-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-200-002-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-200-002-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section D - System Diagrams
 > **Даты:** изменён 2020-07-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-200-002-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-200-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-200-002-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,8 +52,8 @@ tags:
 
 1. Масляная впускная трубка
 2. Масляный насос
-3. Клапан высокого давления (двигатель K38 **только **)
-4. Клапан высокого давления (двигатель K50 **только **)
+3. Клапан высокого давления (двигатель K38 **только**)
+4. Клапан высокого давления (двигатель K50 **только**)
 5. Обложка для джампера
 6. Маслоохладитель
 7. Масляный фильтр
@@ -85,7 +85,7 @@ Piston Cooling, Connecting Rod и Overhead
 > Двигатели с бортовыми поршневыми охлаждающими соплами **не** будут оснащены элементами (2) и (4).
 
 > [!note] Примечание
-> Старые двигатели с бортовыми поршневыми охлаждающими соплами ** не** будут оснащены изделием (10).
+> Старые двигатели с бортовыми поршневыми охлаждающими соплами **не** будут оснащены изделием (10).
 
 ![[00600453.png]]
 
@@ -133,7 +133,7 @@ Piston Cooling, Connecting Rod и Overhead
 13. Сопло для охлаждения поршня (центральная установка).
 
 > [!note] Примечание
-> Двигатели с центральными поршневыми охлаждающими соплами ** не** будут оснащены элементами (8), (9) или (10).
+> Двигатели с центральными поршневыми охлаждающими соплами **не** будут оснащены элементами (8), (9) или (10).
 
 ![[00600297.png]]
 

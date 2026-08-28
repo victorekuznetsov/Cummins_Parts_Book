@@ -8,6 +8,7 @@ title_ru: "Турбокомпрессор"
 modified: "2017-03-28"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -17,7 +18,7 @@ figures: 41
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-010-033-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-010-033-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-010-033-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -29,12 +30,12 @@ tags:
 **Турбокомпрессор**
 
 > [!abstract] Процедура · `41-010-033-tr`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 10 - Air Intake System - Group 10 · Section A - Adjustment, Repair, and Replacement
 > **Даты:** изменён 2017-03-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-010-033-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-010-033-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-010-033-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-010-033-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -114,7 +115,7 @@ tags:
 
 Проверьте ограничение потребления.[[100-010-031 — Air Intake Restriction|См. процедуру 010-031]].
 
-Если чрезмерное ограничение потребления ** не найдено, замените турбокомпрессор. См. шаги удаления и установки в этой процедуре.
+Если чрезмерное ограничение потребления не найдено, замените турбокомпрессор. См. шаги удаления и установки в этой процедуре.
 
 > [!note] Примечание
 > Если двигатель испытывает неисправность турбокомпрессора или любой другой случай, когда масло помещается в систему зарядного воздуха, система зарядного воздуха должна быть проверена и очищена. См. процедуру 010-027.
@@ -157,7 +158,7 @@ tags:
 
 Желтое свечение указывает на утечку масла из двигателя.
 
-Если желтое свечение ** не видно в впускной трубе турбины, замените турбокомпрессор. См. шаги удаления и установки в этой процедуре.
+Если желтое свечение не видно в впускной трубе турбины, замените турбокомпрессор. См. шаги удаления и установки в этой процедуре.
 
 ![[10900104.png]]
 
@@ -334,7 +335,7 @@ tags:
 ![[10900129.png]]
 
 > [!note] Примечание
-> Турбокомпрессор ** должен быть предварительно смазан перед запуском.
+> Турбокомпрессор должен быть предварительно смазан перед запуском.
 
 Налейте 50-60 куб.см \[2-3 фл унции \] чистого моторного масла в масляную подачу.
 
@@ -463,7 +464,7 @@ tags:
 > If excessive intake restriction is **not** found, replace the turbocharger. See the Remove and Install steps in this procedure.
 >
 > **Note · Примечание**
-> If the engine experiences a turbocharger malfunction or any other occasion where oil is put into the charge air system, the charge air system **must** be inspected and cleaned. Refer to Procedure 010-027.
+> If the engine experiences a turbocharger malfunction or any other occasion where oil is put into the charge air system, the charge air system **must** be inspected and cleaned. [[100-010-027 — Charge-Air Cooler|Refer to Procedure 010-027]].
 >
 > Add 1 unit of fluorescent tracer, Part Number 3376891, to each 38 liters \[10.0 gal\] of engine lubricating oil.
 >
@@ -572,10 +573,10 @@ tags:
 > If cracks that go all the way through the outer walls are found, the turbocharger **must** be replaced.
 >
 > **Note · Примечание**
-> A charge air cooler malfunction can cause progressive damage to the turbine housing. If the turbine housing is damaged, check the charge air cooler. Refer to Procedure 010-027.
+> A charge air cooler malfunction can cause progressive damage to the turbine housing. If the turbine housing is damaged, check the charge air cooler. [[100-010-027 — Charge-Air Cooler|Refer to Procedure 010-027]].
 >
 > **Note · Примечание**
-> If the engine experiences a turbocharger malfunction or any other occasion where oil or debris is put into the charge air system, the charge air system **must** be inspected and cleaned. Refer to Procedure 010-027.
+> If the engine experiences a turbocharger malfunction or any other occasion where oil or debris is put into the charge air system, the charge air system **must** be inspected and cleaned. [[100-010-027 — Charge-Air Cooler|Refer to Procedure 010-027]].
 >
 > ### Install
 >

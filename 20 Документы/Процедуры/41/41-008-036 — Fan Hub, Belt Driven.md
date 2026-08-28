@@ -8,6 +8,7 @@ title_ru: "Ступица вентилятора с ремённым приво�
 modified: "2008-04-29"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-036.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-036.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-008-036.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Ступица вентилятора с ремённым приводом**
 
 > [!abstract] Процедура · `41-008-036`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 8 - Cooling System - Group 08
 > **Даты:** изменён 2008-04-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-036.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-008-036.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-008-036.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-008-036.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -84,13 +85,13 @@ tags:
 
 Поверните фан-хаб вручную, чтобы проверить свободу вращения.
 
-Вентиляторный центр ** должен ** вращаться свободно без каких-либо колебаний или чрезмерного разрешения на конец.
+Вентиляторный центр **должен** вращаться свободно без каких-либо колебаний или чрезмерного разрешения на конец.
 
 ![[fa900sb.png]]
 
 Проверьте подшипник вентилятора на износ.
 
-Подшипник ** должен ** иметь минимальное количество движения бок о бок или в конце игры.
+Подшипник **должен** иметь минимальное количество движения бок о бок или в конце игры.
 
 Заменить концентратор вентилятора, если в концентраторе вентилятора имеется более 0,15 мм \[0,006 дюйма\] осевого зазора.
 

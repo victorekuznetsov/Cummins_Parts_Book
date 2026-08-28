@@ -16,11 +16,12 @@ families:
 parts:
   - "3093754"
   - "3093755"
+  - "3093940"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210256.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210256.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210256.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -37,7 +38,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2021-11-18 · изменён 2021-11-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210256.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210256.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210256.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210256.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -66,7 +67,7 @@ ESN Build Date Range:
 
 - 1 сентября 2021 года
 
-** Резюме проблемы**
+**Резюме проблемы**
 
 Симптом:
 
@@ -116,6 +117,7 @@ ESN Build Date Range:
 |---|---|---|
 | [[3093754]] | HEXAGON HEAD CAP SCREW | Болт с шестигранной головкой |
 | [[3093755]] | HEXAGON HEAD CAP SCREW | Болт с шестигранной головкой |
+| [[3093940]] | HEXAGON FLANGE HEAD CAP SCREW | Болт с шестигранной головкой и фланцем |
 
 > [!quote]- Original (English) · английский оригинал
 > ## External Coolant Leak: Incorrect Lifting Bracket Capscrews
@@ -156,7 +158,7 @@ ESN Build Date Range:
 >
 > - Engines are to be inspected to verify the lifting bracket capscrews are fully seated.
 >
-> Figure 2, (1) Correct Capscrew, Part Number [[3093754]]; (2) Incorrect Capscrew, Part Number [[3093755]]; (3) Acceptable Substitute Capscrew, Part Number 3093940.
+> Figure 2, (1) Correct Capscrew, Part Number [[3093754]]; (2) Incorrect Capscrew, Part Number [[3093755]]; (3) Acceptable Substitute Capscrew, Part Number [[3093940]].
 >
 > **Resolution**
 >
@@ -173,6 +175,6 @@ ESN Build Date Range:
 > | Part Description | Part Number |
 > | Incorrect 50 mm 10.9 capscrew | [[3093755]] |
 > | Correct 45 mm 10.9 capscrew | [[3093754]] |
-> | Substitution 45 mm 10.9 flange capscrew | 3093940 |
+> | Substitution 45 mm 10.9 flange capscrew | [[3093940]] |
 >
 > ### Document History

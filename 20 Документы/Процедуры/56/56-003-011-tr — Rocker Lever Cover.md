@@ -1,0 +1,323 @@
+---
+aliases:
+  - "Крышка коромысел"
+type: "Процедура"
+doc: "56-003-011-tr"
+title_en: "Rocker Lever Cover"
+title_ru: "Крышка коромысел"
+modified: "2019-03-27"
+engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+families:
+  - "QSK60"
+manuals:
+  - "4021530"
+figures: 33
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-011-tr.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-003-011-tr.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QSK60"
+  - "группа/56"
+---
+
+# Rocker Lever Cover
+**Крышка коромысел**
+
+> [!abstract] Процедура · `56-003-011-tr`
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]]
+> **Семейство:** QSK60
+> **Входит в руководства:** [[4021530 — QSK45 and QSK60 Service Manual|4021530]]
+> **Секции:** Section 3 - Rocker Levers - Group 03 · Section 3 Rocker Levers - Group 03
+> **Даты:** изменён 2019-03-27
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-003-011-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-003-011-tr.pdf)
+
+### Preparatory Steps
+
+QSK60 Marine Applications
+
+- Remove the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 in Section 10.]].
+
+![[ck800wa.png]]
+
+QSK45 Engines
+
+Loosen the hose clamps (19) between the air crossover (17) and the turbocharger.
+
+Loosen the hose clamps (15) between the T-connection (13) and the aftercooler.
+
+Remove the V-band clamp (18) between the air crossover and the T-connection. Pull the air crossover and the hose (16) from the turbocharger. Push the hose (12) on the T-connection (13) as far as possible.
+
+Remove the four capscrews. Remove the T-connection and gasket (14). Remove the hose from the connection.
+
+Discard the gasket.
+
+![[im6coha.png]]
+
+QSK60 Engines
+
+> [!note] Note · Примечание
+> The QSK60 engine contains an individual air crossover for each aftercooler. The configuration of the left-bank front and right-bank rear air crossovers are different from those used on the right-bank front and left-bank rear, but the removal procedures are the same.
+
+Loosen the two hose clamps between the turbocharger and the air crossover.
+
+Remove the 12 capscrews from the air crossover.
+
+Remove the air crossover, gasket, and hose from the turbocharger and aftercooler.
+
+Discard the gasket.
+
+![[10600074.png]]
+
+with Electronically Actuated Injector
+
+Remove the high-pressure injector supply lines. Refer to Procedure 006-051.
+
+![[ck800wa.png]]
+
+### Remove
+
+with Mechanically Actuated Injector
+
+Remove the mounting capscrews from the rocker lever cover.
+
+Remove the rocker lever cover and gasket.
+
+Discard the gasket.
+
+![[07400026.png]]
+
+with Electronically Actuated Injector
+
+Disconnect the electrical connectors for the injector and exhaust gas temperature sensor.
+
+![[06600254.png]]
+
+Remove the two P-clips securing the wiring harness to the rocker lever cover.
+
+![[06600255.png]]
+
+Remove the injector wiring harness from the rocker cover bracket by using a small flat tip screwdriver to release the locking mechanism.
+
+![[06600256.png]]
+
+Remove the two capscrews securing the two brackets to the rocker lever cover and remove the brackets.
+
+![[06600260.png]]
+
+Remove the P-clip securing the exhaust gas temperature sensor wire to the injector cover plate.
+
+![[06600261.png]]
+
+If equipped with a turbocharger speed sensor, remove the four capscrews securing the brackets to the rocker lever cover plate (left bank rear most cylinder).
+
+![[06600262.png]]
+
+Remove the two capscrews securing the injector cover plate to the rocker lever cover and remove the injector cover plate. Pry injector cover plate evenly on opposite sides using a heel bar.
+
+Remove the o-ring seal from the rocker lever cover plate and discard it.
+
+![[06600257.png]]
+
+Remove the four capscrews securing the rocker lever cover.
+
+Remove the rocker lever cover and gasket.
+
+Discard the old gasket.
+
+![[06600258.png]]
+
+Install the cylinder head protective cover, Part Number 4918282, in the hole located between the push tubes to prevent debris from entering the engine while the rocker lever cover is removed.
+
+![[22400276.png]]
+
+### Clean and Inspect for Reuse
+
+with Mechanically Actuated Injector
+
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+
+Use solvent to clean the rocker lever cover. Dry with compressed air.
+
+Inspect the rocker lever cover for cracks.
+
+![[03400004.png]]
+
+with Electronically Actuated Injector
+
+> [!danger] WARNING · Опасно
+> When using solvents, acids, or alkaline materials for cleaning, follow the manufacturer's recommendations for use. Wear goggles and protective clothing to reduce the possibility of personal injury.
+
+> [!danger] WARNING · Опасно
+> Wear appropriate eye and face protection when using compressed air. Flying debris and dirt can cause personal injury.
+
+Use solvent to clean the rocker lever cover. Dry with compressed air.
+
+Inspect all parts for cracks, damaged or stripped threads, and damaged capscrew holes.
+
+![[06600259.png]]
+
+Inspect the injector cover plate for cracks, damage, stripped threads, or damaged holes. Replace if damaged.
+
+Inspect the injector cover plate's dust seal for signs of tears or damage. Replace if damaged.
+
+![[03600157.png]]
+
+### Install
+
+with Mechanically Actuated Injector
+
+> [!warning] CAUTION · Осторожно
+> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
+
+Install a new gasket, rocker lever cover, and mounting capscrews.
+
+Tighten the capscrews.
+
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [33 ft-lb]
+
+![[07400026.png]]
+
+with Electronically Actuated Injector
+
+Remove the cylinder head protective cover from the push tube hole.
+
+![[22400276.png]]
+
+> [!warning] CAUTION · Осторожно
+> Do not use gasket cement. Gasket cement will prevent the gasket from sealing properly.
+
+Install the new rocker lever cover gasket and the rocker lever cover.
+
+Install the rocker lever cover capscrews and tighten.
+
+Torque Value:
+
+Rocker Lever Cover Capscrews
+
+![[06600258.png]]
+
+If the injector cover plate's dust seal was damaged and needs to be replaced, lubricate the new dust seal with clean engine oil.
+
+Tap the seal into place using a soft rubber mallet.
+
+Check that the smooth side of the seal is facing upward and the side with the groove is facing downward.
+
+![[03600158.png]]
+
+Lubricate the large o-ring and damper on the injector with clean engine oil. The engine oil will protect the o-ring and damper during the installation of the rocker lever cover plate.
+
+Install the new o-ring on the rocker lever cover plate.
+
+Install the rocker lever cover plate on the injector and tap it into place with a soft rubber mallet.
+
+Install the rocker lever cover plate capscrews and tighten.
+
+Torque Value:
+
+Rocker Lever Cover Plate Capscrews
+
+![[06600257.png]]
+
+If equipped with a turbocharger speed sensor, install the four capscrews securing the brackets to the rocker lever cover plate (left bank rear most cylinder).
+
+Torque Value:
+
+Turbocharger Speed Sensor Bracket Capscrews
+
+![[06600262.png]]
+
+Install the P-clip securing the exhaust gas temperature sensor wire to the injector cover plate.
+
+Torque Value:
+
+Exhaust Gas Temperature Sensor P-clip Capscrews
+
+![[06600261.png]]
+
+Install the two brackets and capscrews that retain the injector and exhaust gas temperature sensor connectors.
+
+Torque Value:
+
+Sensor Bracket Capscrews
+
+![[06600260.png]]
+
+Install the injector wiring harness connector to the bracket by sliding it onto the bracket until the connector locks into position.
+
+If the locking fixture on the connector is missing, use a cable tie, Part Number 3822924, or equivalent, to secure the wiring harness to the bracket.
+
+![[06600263.png]]
+
+Install the two P-clips securing the wiring harness to the rocker lever cover brackets.
+
+Torque Value:
+
+P-clip Capscrews
+
+![[06600255.png]]
+
+Connect the electrical connectors for the injector and exhaust gas temperature sensor.
+
+![[06600254.png]]
+
+### Finishing Steps
+
+with Electronically Actuated Injector
+
+- Install the high-pressure injector fuel supply lines. Refer to Procedure 006-051.
+
+![[ck800wa.png]]
+
+QSK45 Engines
+
+Position the air crossover and the hose (16) on the turbocharger. Install the V-band clamp (18) on the air crossover and the T-connection.
+
+Install the hose clamps (15) between the T-connection (13) and the aftercooler.
+
+Install the T-connection and gasket (14) with four capscrews. Install the hose on the connection.
+
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [33 ft-lb]
+
+Install the hose clamps (19 and 15) between the air crossover (17) and the turbocharger.
+
+> [!tip] Момент затяжки · Torque Value
+> 9 n•m [80 in-lb]
+
+![[im6coha.png]]
+
+QSK60 Engines
+
+> [!note] Note · Примечание
+> The QSK60 engine contains an individual air crossover for each aftercooler. The configuration of the left-bank front and right-bank rear air crossovers are different from those used on the right-bank front and left-bank rear, but the installation procedures are the same.
+
+Position the air crossover, gasket, and hose on the turbocharger and aftercooler.
+
+Install the two hose clamps (1) between the turbocharger and the air crossover (3).
+
+> [!tip] Момент затяжки · Torque Value
+> 9 n•m [80 in-lb]
+
+![[10600074.png]]
+
+Install and tighten the 12 capscrews on the air crossover in the pattern shown.
+
+> [!tip] Момент затяжки · Torque Value
+> 45 n•m [33 ft-lb]
+
+![[10600087.png]]
+
+QSK60 Marine Applications
+
+- Install the aftercooler heat shields. [[56-010-129-tr — Aftercooler Heat Shield|Refer to Procedure 010-129 in Section 10.]].
+
+![[ck800wa.png]]

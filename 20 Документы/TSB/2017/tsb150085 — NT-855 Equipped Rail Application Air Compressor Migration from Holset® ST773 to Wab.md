@@ -10,12 +10,13 @@ modified: "2017-04-13"
 group: "12 - Air System (Compressed)"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150085.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150085.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150085.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
@@ -29,10 +30,10 @@ tags:
 
 > [!abstract] TSB · `tsb150085`
 > **Раздел Cummins:** 12 - Air System (Compressed)
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Даты:** выпущен 2017-04-13 · изменён 2017-04-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150085.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150085.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150085.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150085.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,7 +53,7 @@ tags:
 
 **Затронутая продукция**
 
-Дизельные многофункциональные установки и железнодорожные вагоны **Только **
+Дизельные многофункциональные установки и железнодорожные вагоны **Только**
 
 ReCon® NT-855 Двигатели:
 

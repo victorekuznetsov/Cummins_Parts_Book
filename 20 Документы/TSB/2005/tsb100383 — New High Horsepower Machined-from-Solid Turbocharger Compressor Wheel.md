@@ -16,7 +16,7 @@ families:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100383.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100383.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100383.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2005-08-23 · изменён 2005-08-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100383.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100383.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100383.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100383.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,9 +57,9 @@ tags:
 
 Новое компрессорное колесо обрабатывается из цельного заготовки алюминия для уменьшения количества включений в колесо. Все поверхности механизированного из твердого колеса обрабатываются.
 
-Данное усовершенствование продукта ** не** покрывается гарантией.
+Данное усовершенствование продукта **не** покрывается гарантией.
 
-** Только некоторые, высокопроизводительные циклические приложения требуют использования турбокомпрессоров с колёсами компрессора с турбокомпрессором.
+Только некоторые, высокопроизводительные циклические приложения требуют использования турбокомпрессоров с колёсами компрессора с турбокомпрессором.
 
 Проконсультируйтесь с QuickServe® Online, чтобы определить, имеет ли право данная комбинация двигателей и приложений получать это улучшение продукта.
 

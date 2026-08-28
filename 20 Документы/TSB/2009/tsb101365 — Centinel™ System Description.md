@@ -9,18 +9,23 @@ released: "2009-12-17"
 modified: "2004-01-27"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
+  - "37269910"
+  - "37280605"
   - "37292556"
   - "37295879"
   - "41343322"
+  - "41370103"
 families:
+  - "K19"
   - "NT/NTA855 · ISM/QSM11"
   - "QST30"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101365.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101365.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101365.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/NT/NTA855"
   - "двигатель/QST30"
   - "год/2009"
@@ -33,10 +38,10 @@ tags:
 
 > [!abstract] TSB · `tsb101365`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]]
-> **Семейство:** NT/NTA855 · ISM/QSM11, QST30
+> **Двигатели:** [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
+> **Семейство:** K19, NT/NTA855 · ISM/QSM11, QST30
 > **Даты:** выпущен 2009-12-17 · изменён 2004-01-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101365.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101365.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101365.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101365.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского

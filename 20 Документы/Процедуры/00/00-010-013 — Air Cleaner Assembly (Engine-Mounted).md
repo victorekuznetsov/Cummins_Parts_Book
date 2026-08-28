@@ -7,20 +7,28 @@ title_en: "Air Cleaner Assembly (Engine-Mounted)"
 title_ru: "Воздухоочиститель в сборе (на двигателе)"
 modified: "2019-03-07"
 engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+  - "QSM11"
 manuals:
   - "3381968"
   - "4021330"
+  - "4021940"
+  - "4021942"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-010-013.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-010-013.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-010-013.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
+  - "двигатель/QSM11"
   - "группа/00"
   - "перевод/машинный"
 ---
@@ -29,12 +37,12 @@ tags:
 **Воздухоочиститель в сборе (на двигателе)**
 
 > [!abstract] Процедура · `00-010-013`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
-> **Входит в руководства:** [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]]
-> **Секции:** Section 5 - Maintenance Procedures at 300 Hours or 1 Year · Section 6 - Maintenance Procedures at 300 Hours or 1 Year · Section 9 - Maintenance Procedures at 1000 Hours or 1 Year
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** C8.3 · 6C8.3, QSM11
+> **Входит в руководства:** [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]], [[4021940 — QSM11 Marine Operation and Maintenance Manual|4021940]], [[4021942 — QSM11 Industrial Operation and Maintenance Manual|4021942]]
+> **Секции:** Section 5 - Maintenance Procedures at 1500 Hours or 1 Year · Section 5 - Maintenance Procedures at 300 Hours or 1 Year · Section 6 - Maintenance Procedures at 1500 Hours or 1 Year · Section 6 - Maintenance Procedures at 300 Hours or 1 Year · Section 9 - Maintenance Procedures at 1000 Hours or 1 Year
 > **Даты:** изменён 2019-03-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-010-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/00-010-013.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/00/00-010-013.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/00-010-013.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского

@@ -10,18 +10,21 @@ modified: "2012-10-24"
 group: "10 - Intake Air Systems"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 parts:
+  - "3003536"
   - "3016182"
   - "3093632"
   - "3627095"
+  - "4000574"
   - "4967359"
 figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100603.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100603.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100603.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
@@ -35,10 +38,10 @@ tags:
 
 > [!abstract] TSB · `tsb100603`
 > **Раздел Cummins:** 10 - Intake Air Systems
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Даты:** выпущен 2013-11-15 · изменён 2012-10-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100603.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100603.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100603.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100603.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -136,9 +139,11 @@ P-clip Torque Value: 45 Н-м[33 фут-лб]
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
+| [[3003536]] | ELBOW HOSE COUPLING | Угловое шланговое соединение |
 | [[3016182]] | LOCK NUT | Контргайка |
 | [[3093632]] | MOUNTING SPACER | Монтажная распорная втулка |
 | [[3627095]] | HEXAGON HEAD CAP SCREW | Болт с шестигранной головкой |
+| [[4000574]] | TUBE BRACE | Кронштейн трубки |
 | [[4967359]] | Female Connector | Штуцер с внутренней резьбой |
 
 > [!quote]- Original (English) · английский оригинал
@@ -183,10 +188,10 @@ P-clip Torque Value: 45 Н-м[33 фут-лб]
 > | S602 | Washer, plain | 3 |
 > | S604 | Washer, lock | 1 |
 > | 43828A | Clamp, hose | 2 |
-> | 3003536 | Elbow, hose | 1 |
+> | [[3003536]] | Elbow, hose | 1 |
 > | [[3093632]] | Spacer, mounting | 1 |
 > | 3200393 | Clip | 1 |
-> | 4000574 | Brace, tube | 1 |
+> | [[4000574]] | Brace, tube | 1 |
 > | 4094903 | Tube, turbocharger oil drain | 1 |
 > | [[4967359]] | Connector, female | 1 |
 >

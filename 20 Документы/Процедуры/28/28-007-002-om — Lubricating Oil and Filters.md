@@ -17,7 +17,7 @@ figures: 13
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-002-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-002-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-002-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months · Section 5 - Maintenance Procedures at 250 Hours or 1 Year · Section 6 - Maintenance Procedures at 1000 Hours or 1 Year
 > **Даты:** изменён 2013-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-002-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-002-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -82,7 +82,7 @@ tags:
 
 Используйте гаечный ключ масляного фильтра, номер детали 3375049, или эквивалент, для удаления полного потока и обхода масляных фильтров.
 
-Откажитесь от фильтров, если ** не** требуется для анализа отказов.
+Откажитесь от фильтров, если **не** требуется для анализа отказов.
 
 ![[07600230.png]]
 
@@ -140,7 +140,7 @@ Cummins Inc. Рекомендуется использовать высокок�
 
 Заполните двигатель на правильный уровень чистым моторным маслом. См. процедуру 018-017 в разделе V для мощности моторного масла.
 
-Проверьте уровень масла на измерителе уровня масла. Уровень ** должен быть до высокой отметки (H) на измерителе уровня масла. ** Не переполняйте. Слить лишнее масло в кастрюлю.
+Проверьте уровень масла на измерителе уровня масла. Уровень **должен быть до высокой отметки (H) на измерителе уровня масла.** Не переполняйте. Слить лишнее масло в кастрюлю.
 
 Чтобы правильно проверить уровень масла:
 
@@ -158,7 +158,7 @@ Cummins Inc. Рекомендуется использовать высокок�
 
 Управляйте двигателем на низкой скорости холостого хода, чтобы проверить наличие утечек в масляных фильтрах и дренажной пробке (заглушках).
 
-Проверить, что нефть течет через резервуар. Бак ** должен** нагреваться, когда смазочное моторное масло циркулирует.
+Проверить, что нефть течет через резервуар. Бак **должен** нагреваться, когда смазочное моторное масло циркулирует.
 
 ![[07600232.png]]
 

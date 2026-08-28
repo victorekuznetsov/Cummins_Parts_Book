@@ -8,6 +8,7 @@ title_ru: "Венец маховика"
 modified: "2005-06-07"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-016-008.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-016-008.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-016-008.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Венец маховика**
 
 > [!abstract] Процедура · `100-016-008`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 16 - Mounting Adaptations - Group 16
 > **Даты:** изменён 2005-06-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-016-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-016-008.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-016-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-016-008.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +57,7 @@ tags:
 Проверьте зубы кольцевой передачи на наличие трещин и чипсов.
 
 > [!note] Примечание
-> Если зубья кольцевой передачи повреждены, кольцевую передачу *** необходимо заменить.
+> Если зубья кольцевой передачи повреждены, кольцевую передачу  необходимо заменить.
 
 ![[fw9cshb.png]]
 

@@ -17,7 +17,7 @@ figures: 49
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-100-002-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-100-002-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-100-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section E - Engine and System Identification
 > **Даты:** изменён 2007-09-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-100-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-100-002-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-100-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-100-002-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -322,11 +322,11 @@ QSK23 (Верхний вид)
 2. Выпускной коллектор
 3. Крышка коромысел
 4. Турбокомпрессор
-5. Датчик скорости двигателя (промышленный **только **)
+5. Датчик скорости двигателя (промышленный **только**)
 6. Впускной коллектор
 7. Зарядка воздушных трубопроводов (турбонаддув для зарядки воздушного охладителя)
 8. Головка топливного фильтра
-9. Головка фильтра охлаждающей жидкости (только для промышленных целей)**
+9. Головка фильтра охлаждающей жидкости (только для промышленных целей)
 10. Сборка Fan Hub
 11. Выход охлаждающей жидкости двигателя.
 
@@ -343,7 +343,7 @@ QSK23 (Front View)
 7. Масляный поддон
 8. Гаситель крутильных колебаний
 9. Передняя крышка шестерён
-10. Натяжитель для охлаждения вентиляторного ремня (промышленный **только **)
+10. Натяжитель для охлаждения вентиляторного ремня (промышленный **только**)
 11. Датчик температуры охлаждающей жидкости
 12. Корпус термостата
 13. Сборка Fan Hub
@@ -357,8 +357,8 @@ QSK23 (задний вид)
 2. Картер маховика
 3. Масляный поддон
 4. Дыхательный клапан для масла
-5. Датчик скорости двигателя (промышленный **только **)
-6. Электрические соединения OEM (промышленные **только ** 7)
+5. Датчик скорости двигателя (промышленный **только**)
+6. Электрические соединения OEM (промышленные **только** 7)
 
 ![[19803650.png]]
 

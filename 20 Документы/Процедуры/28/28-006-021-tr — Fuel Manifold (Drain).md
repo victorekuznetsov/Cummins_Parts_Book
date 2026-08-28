@@ -17,7 +17,7 @@ figures: 21
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-021-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-006-021-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-021-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 6 - Injectors and Fuel Lines - Group 06
 > **Даты:** изменён 2020-01-06
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-021-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-006-021-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-021-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-021-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -75,7 +75,7 @@ tags:
 
 ![[06600248.png]]
 
-** Двигатели QSK38 и QSK50 с героторным топливным насосом
+Двигатели QSK38 и QSK50 с героторным топливным насосом
 
 Для двигателей, оснащенных героторной дренажной линией между дренажным коллекторным блоком и геротором, удалите локтевую фитинг со стороны блока.
 
@@ -179,7 +179,7 @@ tags:
 
 ![[06600247.png]]
 
-** Двигатели QSK38 и QSK50 с героторным топливным насосом
+Двигатели QSK38 и QSK50 с героторным топливным насосом
 
 Для двигателей, оснащенных героторной дренажной линией между дренажным коллекторным блоком и геротором, замените кольцо и установите локтевую фитинг на боковой стороне блока.
 

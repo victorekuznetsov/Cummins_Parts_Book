@@ -9,12 +9,16 @@ released: "2021-06-02"
 modified: "2021-06-02"
 group: "05 - Fuel Systems (Pumps)"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
   - "41349633"
+  - "41353297"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK19"
+  - "QSK50"
 parts:
   - "2867147"
   - "2867148"
@@ -25,16 +29,18 @@ parts:
   - "2881589"
   - "2882025"
   - "3900633"
+  - "4326918"
   - "4995445"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100978.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100978.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100978.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
+  - "двигатель/QSK50"
   - "год/2021"
   - "перевод/машинный"
   - "тема/fuel-systems-pumps"
@@ -45,10 +51,10 @@ tags:
 
 > [!abstract] TSB · `tsb100978`
 > **Раздел Cummins:** 05 - Fuel Systems (Pumps)
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19, QSK50
 > **Даты:** выпущен 2021-06-02 · изменён 2021-06-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100978.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100978.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100978.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100978.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -69,9 +75,9 @@ tags:
 В этом документе анонсирована новая топливная система MCRS, которая включает в себя новый форсунка, топливный насос, электропроводные ремни, модуль управления двигателем (ECM), калибровку и служебную информацию. Эту новую систему обычно называют топливной системой C3. Это обеспечивает улучшенную надежность. Эта топливная система будет первоначально выпущена для промышленных применений, морских применений и двигателей QSK50 CM2150 с системой мониторинга двигателя.
 
 > [!note] Примечание
-> Обновление форсунки в стиле C2 до форсунки в стиле C3 является ** не** требованием.
+> Обновление форсунки в стиле C2 до форсунки в стиле C3 является **не** требованием.
 
-При обслуживании двигателя необходимо проверить ESN*** для определения типа топливной системы. Тип топливной системы можно определить визуально проверяя ECM.
+При обслуживании двигателя необходимо проверить ESN для определения типа топливной системы. Тип топливной системы можно определить визуально проверяя ECM.
 
 ![[19c01042.png]]
 
@@ -86,11 +92,11 @@ tags:
 Для всех топливных систем MCRS были изменены процедуры обслуживания, включающие в себя шаги по снижению давления топлива при обслуживании топливной системы.
 
 > [!note] Примечание
-> Расширение жгута проводов, номер детали 2881173, ** должно использоваться при установке быстрого насоса IMV на медленном двигателе IMV для преодоления разрыва в жгуте проводов.
+> Расширение жгута проводов, номер детали 2881173, должно использоваться при установке быстрого насоса IMV на медленном двигателе IMV для преодоления разрыва в жгуте проводов.
 
 - Используйте следующую процедуру в Руководстве по обслуживанию, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Вестник [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
 - Используйте следующую процедуру в Руководстве по обслуживанию, K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-006-051-tr — Injector Supply Lines (High Pressure)|См. процедуру 006-051 в разделе 6.]]
-- Используйте следующую процедуру в Руководстве по обслуживанию, QSK45 и QSK60, Вестник 4021530. См. процедуру 006-051 в разделе 6.
+- Используйте следующую процедуру в Руководстве по обслуживанию, QSK45 и QSK60, Вестник [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. См. процедуру 006-051 в разделе 6.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, QSK38, QSK50 и модульной общей железнодорожной системе QSK60 CM850, Бюллетень 4021533. См. процедуру 019-115 в разделе 19.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, QSK38, QSK50 и модульной общей железнодорожной системе QSK60 CM2150, Бюллетень [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]]. См. процедуру 019-115 в разделе 19.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Электронная система управления QSK19 CM850 Модульная общая железнодорожная система, Вестник 4021493. См. процедуру 019-115 в разделе 19.
@@ -194,7 +200,7 @@ tags:
 | QSK60 Power Generation форсунка - нет ограничителя потока | форсунка (количество: 16) | 2881089 |
 | QSK60 Power Generation форсунка - нет ограничителя потока | Комплект форсунки | 2882130 или 2882130NX |
 
-* Если двигатель установлен с CM850 на CM2150, то можно повторно использовать топливный насос и передние магистральные провода. Электронный привод управления топливом необходим для установки топливного насоса. Для достижения Электронного исполнительного органа управления топливом может потребоваться основная проводка. Термисторные ЭГТ могут потребоваться, если ** не** уже установлен на двигателе.
+* Если двигатель установлен с CM850 на CM2150, то можно повторно использовать топливный насос и передние магистральные провода. Электронный привод управления топливом необходим для установки топливного насоса. Для достижения Электронного исполнительного органа управления топливом может потребоваться основная проводка. Термисторные ЭГТ могут потребоваться, если **не** уже установлен на двигателе.
 
 | Таблица 2 |  |
 |---|---|
@@ -238,6 +244,7 @@ tags:
 | [[2881589]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
 | [[2882025]] | Fuel Actuator Kit | Комплект исполнительного механизма подачи топлива |
 | [[3900633]] | HEXAGON FLANGE HEAD CAP SCREW | Болт с шестигранной головкой и фланцем |
+| [[4326918]] | TEMPERATURE SENSOR | Датчик температуры |
 | [[4995445]] | ELECTRONIC CONTROL MODULE | Электронный блок управления |
 
 > [!quote]- Original (English) · английский оригинал
@@ -269,7 +276,7 @@ tags:
 >
 > - Use the following procedure in Service Manual, QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
 > - Use the following procedure in Service Manual, K38, K50, QSK38, and QSK50, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6.]]
-> - Use the following procedure in Service Manual, QSK45 and QSK60, Bulletin 4021530. Refer to Procedure 006-051 in Section 6
+> - Use the following procedure in Service Manual, QSK45 and QSK60, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. [[56-006-051-tr — Injector Supply Lines (High Pressure)|Refer to Procedure 006-051 in Section 6]]
 > - Use the following procedure in the Troubleshooting and Repair Manual, QSK38, QSK50, and QSK60 CM850 Modular Common Rail System, Bulletin 4021533. Refer to Procedure 019-115 in Section 19.
 > - Use the following procedure in the Troubleshooting and Repair Manual, QSK38, QSK50, and QSK60 CM2150 Modular Common Rail System, Bulletin [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]]. Refer to Procedure 019-115 in Section 19.
 > - Use the following procedure in the Troubleshooting and Repair Manual, Electronic Control System QSK19 CM850 Modular Common Rail System, Bulletin 4021493. Refer to Procedure 019-115 in Section 19.
@@ -321,7 +328,7 @@ tags:
 > | QSK50 Industrial Right Bank Harness | HARNESS, ETR CNT MDL WRG | 3642412 |
 > | QSK50 Industrial Left Bank Injector / EGT Main Wiring Harness | HARNESS, ETR CNT MDL WRG | 3642413 |
 > | QSK50 Industrial Right Bank Injector / EGT Main Wiring Harness | HARNESS, ETR CNT MDL WRG | 3642414 |
-> | QSK38/50 Industrial Thermistor EGT\* | SENSOR, TEMPERATURE | 4326918 |
+> | QSK38/50 Industrial Thermistor EGT\* | SENSOR, TEMPERATURE | [[4326918]] |
 > | QSK50 Marine Left Bank Base Wiring Harness | HARNESS, ETR CNT MDL WRG | 2862869 |
 > | QSK50 Marine Left Bank Premium Wiring Harness | HARNESS, ETR CNT MDL WRG | 2862868 |
 > | QSK50 Marine Left Bank Classed Wiring Harness | HARNESS, ETR CNT MDL WRG | 2862885 |
@@ -332,7 +339,7 @@ tags:
 > | QSK38/50 Marine Left Bank Injector Main Wiring Harness | HARNESS, ETR CNT MDL WRG | 4998577 |
 > | QSK38/50 Marine Right Bank Injector Main Wiring Harness | HARNESS, ETR CNT MDL WRG | 4998578 |
 > | QSK38/50 Marine Left Bank Injector / EGT Main Wiring Harness | HARNESS, ETR CNT MDL WRG | 4998575 |
-> | QSK Industrial Thermistor EGT\* | SENSOR, TEMPERATURE | 4326918 |
+> | QSK Industrial Thermistor EGT\* | SENSOR, TEMPERATURE | [[4326918]] |
 > | QSK38/50 Marine Right Bank Injector / EGT Main Wiring Harness | HARNESS, ETR CNT MDL WRG | 4998576 |
 > | QSK38/50 Marine Left Bank Front / Front Mount Fuel Filter Main Wiring Harness\* | HARNESS, ETR CNT MDL WRG | 2881344 |
 > | QSK38/50 Marine Fuel Filter Main Wiring Harness | HARNESS, ETR CNT MDL WRG | 4998522 |

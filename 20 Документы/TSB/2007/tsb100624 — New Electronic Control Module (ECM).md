@@ -12,6 +12,7 @@ engines:
   - "37292556"
   - "37295879"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
   - "QST30"
@@ -20,7 +21,7 @@ parts:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100624.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100624.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100624.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
@@ -35,10 +36,10 @@ tags:
 
 > [!abstract] TSB · `tsb100624`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3, QST30
 > **Даты:** выпущен 2007-09-06 · изменён 2007-09-06
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100624.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100624.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100624.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100624.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -64,7 +65,7 @@ tags:
 
 Производство нового модуля началось 29 мая 2007 года с серийного номера двигателя (ESN) 37229155 для промышленных двигателей QST30. Двигатель 480CE Marine больше не производится, и поэтому он не будет иметь никакого производственного использования нового модуля.
 
-Все существующие калибровки QST30 Industrial и 480CE Marine для предыдущего CM552 ECM, Part Number 3408576, не совместимы с новым модулем Part Number.[[4954430]]. Новые калибровочные версии были выпущены и будут доступны с CD-ROM INCAL 2007 года. Эти новые калибровочные изменения также обратно совместимы со всеми предыдущими ECM CM552. ** Только калибровки с июля 2007 года или более нового CD-ROM INCALTM могут быть использованы с новым ECM, номером части[[4954430]].
+Все существующие калибровки QST30 Industrial и 480CE Marine для предыдущего CM552 ECM, Part Number 3408576, не совместимы с новым модулем Part Number.[[4954430]]. Новые калибровочные версии были выпущены и будут доступны с CD-ROM INCAL 2007 года. Эти новые калибровочные изменения также обратно совместимы со всеми предыдущими ECM CM552. Только калибровки с июля 2007 года или более нового CD-ROM INCALTM могут быть использованы с новым ECM, номером части[[4954430]].
 
 | Наименование | Новый номер детали | Прежний номер детали |
 |---|---|---|

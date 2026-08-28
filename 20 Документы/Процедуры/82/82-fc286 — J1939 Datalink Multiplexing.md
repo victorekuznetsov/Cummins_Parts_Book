@@ -8,6 +8,7 @@ title_ru: "Мультиплексирование шины J1939"
 modified: "2010-09-02"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -16,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc286.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc286.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc286.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -28,12 +29,12 @@ tags:
 **Мультиплексирование шины J1939**
 
 > [!abstract] Процедура · `82-fc286`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc286.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc286.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc286.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc286.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 286 PID(P): S231 SPN: 639 FMI: 13/13 Лампа: Желтая СТО: | ECM ожидала информацию от мультиплексного устройства, но только *** получила часть необходимой информации. | По крайней мере, одно мультиплексное устройство будет работать ** не**. |
+| Код неисправности: 286 PID(P): S231 SPN: 639 FMI: 13/13 Лампа: Желтая СТО: | ECM ожидала информацию от мультиплексного устройства, но только **получила часть необходимой информации. | По крайней мере, одно мультиплексное устройство будет работать **не. |
 
 ![[19c00340.png]]
 
@@ -69,7 +70,7 @@ ECM расположен на впускной стороне двигателя
 
 ### Практические замечания
 
-Эта ошибка возникает, когда ECM настроен на получение информации от нескольких мультиплексных переключателей из VECU (ов) и только *** получает некоторые из переключателей. Это означает, что ECM настроен на прием слишком большого количества коммутаторов или VECU (ы) настроен на передачу слишком малого количества коммутаторов.
+Эта ошибка возникает, когда ECM настроен на получение информации от нескольких мультиплексных переключателей из VECU (ов) и только  получает некоторые из переключателей. Это означает, что ECM настроен на прием слишком большого количества коммутаторов или VECU (ы) настроен на передачу слишком малого количества коммутаторов.
 
 Устранение неполадок код t05-286
 

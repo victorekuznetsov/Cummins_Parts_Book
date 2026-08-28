@@ -17,7 +17,7 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-095.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-095.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-095.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual|3666184]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2003-03-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-095.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-095.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-095.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-095.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -60,11 +60,11 @@ tags:
 
 ![[19800348.png]]
 
-Поместите Idle/Rated выключатель в положение RATED и измерьте сопротивление. Мультиметр **должен** показать обрыв цепи (100 кОм и более). Если схема ** не открыта, выключатель вышел из строя и ** должен быть заменен. См. OEM устранение неполадок и процедуры ремонта.
+Поместите Idle/Rated выключатель в положение RATED и измерьте сопротивление. Мультиметр **должен** показать обрыв цепи (100 кОм и более). Если схема **не открыта, выключатель вышел из строя и** должен быть заменен. См. OEM устранение неполадок и процедуры ремонта.
 
 ![[19a00053.png]]
 
-Переместите переключатель в положение IDLE и измерьте сопротивление. Мультиметр **должен** показать замкнутую цепь (10 Ом и менее). Если схема ** не** закрыта, выключатель вышел из строя и ** должен быть заменен. См. OEM устранение неполадок и процедуры ремонта.
+Переместите переключатель в положение IDLE и измерьте сопротивление. Мультиметр **должен** показать замкнутую цепь (10 Ом и менее). Если схема **не** закрыта, выключатель вышел из строя и должен быть заменен. См. OEM устранение неполадок и процедуры ремонта.
 
 ![[19a00054.png]]
 

@@ -17,7 +17,7 @@ figures: 153
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-043.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-043.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-043.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Controls · Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2014-04-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-043.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-043.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -467,14 +467,14 @@ QSK45, QSK60 и QSK78
 
 Отсоедините жгут проводов проводов двигателя и опорный кронштейн ремня электропроводки двигателя от двигателя.
 
-Убедитесь, что все соединения на ремне электропроводки двигателя отключены и ** не** запутаны.
+Убедитесь, что все соединения на ремне электропроводки двигателя отключены и **не** запутаны.
 
 ![[19400774.png]]
 
 > [!note] Примечание
 > Этот шаг может быть выполнен на двигателе QSK78. Снаряд для проводов двигателя и опорный кронштейн двигателя - это одна деталь.
 
-Медленно оттяните жгут проводов двигателя от блока двигателя, убедившись, что провода ** не ** связываются или спутываются.
+Медленно оттяните жгут проводов двигателя от блока двигателя, убедившись, что провода **не** связываются или спутываются.
 
 ![[19400778.png]]
 
@@ -794,7 +794,7 @@ QST30 Обновление
 > 2.8 Н·м [25 фунт-дюйм]
 
 > [!note] Примечание
-> Не делайте ***-переворот разъема, как повреждение может произойти.
+> Не делайте -переворот разъема, как повреждение может произойти.
 
 ![[19802555.png]]
 

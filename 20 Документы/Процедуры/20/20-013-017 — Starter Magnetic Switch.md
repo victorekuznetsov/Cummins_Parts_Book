@@ -8,6 +8,7 @@ title_ru: "Втягивающее реле стартера"
 modified: "2006-06-30"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-017.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-017.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Втягивающее реле стартера**
 
 > [!abstract] Процедура · `20-013-017`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 13 - Electrical Equipment - Group 13
 > **Даты:** изменён 2006-06-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-013-017.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-013-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-013-017.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -63,7 +64,7 @@ tags:
 
 Установите мультиметр для измерения сопротивления (OHMS).
 
-При стартовом переключателе в положении OFF мультиметр ** должен** указывать сопротивление на бесконечности.
+При стартовом переключателе в положении OFF мультиметр **должен** указывать сопротивление на бесконечности.
 
 - Если мультиметр указывает на нулевое сопротивление («0») или очень малое сопротивление, замените магнитный переключатель.
 - Если мультиметр указывает на сопротивление на бесконечности, следуйте следующим инструкциям.
@@ -72,7 +73,7 @@ tags:
 
 Поверните стартовый переключатель в положение START.
 
-Мультиметр ** должен ** указывать нулевое сопротивление (0) или очень малое сопротивление. Слышный щелчок будет слышен, когда стартовый переключатель будет повернут в положение START.
+Мультиметр **должен** указывать нулевое сопротивление (0) или очень малое сопротивление. Слышный щелчок будет слышен, когда стартовый переключатель будет повернут в положение START.
 
 ![[sb800ta.png]]
 
@@ -91,7 +92,7 @@ tags:
 
 ![[sb800ky.png]]
 
-Если мультиметр указывает на **no** напряжение, магнитный переключатель ** не** является причиной жалобы. См. процедуру[[20-013-018 — Starter Switch|013-018]].
+Если мультиметр указывает на **no** напряжение, магнитный переключатель **не** является причиной жалобы. См. процедуру[[20-013-018 — Starter Switch|013-018]].
 
 ![[sb200ka.png]]
 

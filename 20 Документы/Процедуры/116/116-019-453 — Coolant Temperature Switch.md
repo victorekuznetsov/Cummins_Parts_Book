@@ -8,6 +8,7 @@ title_ru: "Датчик-реле температуры охлаждающей �
 modified: "2007-04-16"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-453.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-453.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-453.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Датчик-реле температуры охлаждающей жидкости**
 
 > [!abstract] Процедура · `116-019-453`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual|4021617]]
 > **Секции:** Section 19 - Electronic Engine Controls
 > **Даты:** изменён 2007-04-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-453.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-453.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-453.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-453.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,7 +56,7 @@ tags:
 
 ![[19600970.png]]
 
-Лампа датчика переключателя температуры охлаждающей жидкости двигателя установлена в латунный корпус, расположенный в коллекторе охлаждающей жидкости. Охладитель ** не ** необходимо слить, чтобы удалить лампочку датчика.
+Лампа датчика переключателя температуры охлаждающей жидкости двигателя установлена в латунный корпус, расположенный в коллекторе охлаждающей жидкости. Охладитель **не** необходимо слить, чтобы удалить лампочку датчика.
 
 Освободите лампу и гайку датчика температуры охлаждающей жидкости двигателя.
 

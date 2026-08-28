@@ -8,6 +8,7 @@ title_ru: "Датчик температуры воздуха во впускн�
 modified: "2003-12-01"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 9
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-059.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-019-059.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-019-059.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Датчик температуры воздуха во впускном коллекторе**
 
 > [!abstract] Процедура · `07-019-059`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[4021442 — C8.3 Marine Electronic Control System Troubleshooting and Repair Manual|4021442]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2003-12-01
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-059.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-019-059.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-059.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-019-059.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -89,11 +90,11 @@ tags:
 
 Используйте мультиметр для измерения сопротивления между двумя штифтами датчика температуры воздуха.
 
-Сопротивление ** должно быть от 600 до 36k ом.
+Сопротивление должно быть от 600 до 36k ом.
 
-Если сопротивление ** не** в пределах спецификаций, замените датчик.
+Если сопротивление **не** в пределах спецификаций, замените датчик.
 
-Если сопротивление находится в пределах спецификаций, датчик ** должен быть проверен на короткое время до заземления.
+Если сопротивление находится в пределах спецификаций, датчик должен быть проверен на короткое время до заземления.
 
 * Значение сопротивления зависит от температуры следующим образом:
 
@@ -112,9 +113,9 @@ tags:
 
 Измерьте сопротивление от одного из штифтов датчика температуры воздуха на впускном блоке двигателя.
 
-Мультиметр ** должен** показывать открытую схему (более 100k ом).
+Мультиметр **должен** показывать открытую схему (более 100k ом).
 
-Если схема ** не** открыта, замените датчик.
+Если схема **не** открыта, замените датчик.
 
 > [!missing]- Иллюстрация `19901412.png` не извлечена — смотрите PDF-оригинал документа
 

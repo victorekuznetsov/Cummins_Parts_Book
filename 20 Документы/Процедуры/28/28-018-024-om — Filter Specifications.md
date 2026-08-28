@@ -19,11 +19,12 @@ parts:
   - "3889311"
   - "4058965"
   - "4328043"
+  - "4331734"
   - "5417137"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-018-024-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-018-024-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-018-024-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -40,7 +41,7 @@ tags:
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section V - Maintenance Guidelines · Section V - Maintenance Specifications
 > **Даты:** изменён 2022-08-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-018-024-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-018-024-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-018-024-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-018-024-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,9 +57,9 @@ Fleetguard/Nelson® является дочерней компанией Cummins
 
 Продукты Fleetguard/Nelson® соответствуют всем стандартам Cummins® Source Approval Test, чтобы обеспечить качественную фильтрацию, необходимую для достижения срока службы двигателя. Если другие бренды заменяются, покупатель должен настаивать на продуктах, которые поставщик протестировал для удовлетворения потребностей Cummins Inc. Высокие стандарты качества.
 
-Cummins Inc. ** не может быть ответственным за проблемы, вызванные ненастоящими фильтрами, которые не соответствуют требованиям Cummins Inc. Требования к производительности или долговечности.
+Cummins Inc. не может быть ответственным за проблемы, вызванные ненастоящими фильтрами, которые не соответствуют требованиям Cummins Inc. Требования к производительности или долговечности.
 
-| Тип фильтра | Cummins® Part Number | Fleetguard - Часть номер |
+| Тип фильтра | Cummins® Part Number | Fleetguard - Номер детали |
 |---|---|---|
 | Моторное масло (полный поток) | [[3889310]] | LF670 |
 |  | 3310169 | LF3325 |
@@ -128,6 +129,7 @@ Cummins Inc. ** не может быть ответственным за про�
 | [[3889311]] | OIL BYPASS FILTER ELEMENT | Элемент фильтра тонкой очистки масла |
 | [[4058965]] | CORROSION RESISTOR | Антикоррозионный фильтр |
 | [[4328043]] | FUEL FILTER ELEMENT | Фильтрующий элемент топливного фильтра |
+| [[4331734]] | FILTER,CENTRIFUGE |  |
 | [[5417137]] | FUEL FILTER | Топливный фильтр |
 
 > [!quote]- Original (English) · английский оригинал
@@ -145,7 +147,7 @@ Cummins Inc. ** не может быть ответственным за про�
 > |  | 3310169 | LF3325 |
 > |  | 3313305 | LF3363 |
 > |  | 3313305 | LF3363 |
-> | Lube Centrifugal By-Pass Filter | 4331734 | CS41018 |
+> | Lube Centrifugal By-Pass Filter | [[4331734]] | CS41018 |
 > | Lubricating Oil (bypass) | [[3889311]] | LF777 |
 > | Lubricating Oil (venturi combo without Centinel™) | 3101870 | LF9024 |
 > | Lubricating Oil (venturi combo for use with Centinel™) | 4197219 | LF9034 |

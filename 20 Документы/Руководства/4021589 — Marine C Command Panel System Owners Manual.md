@@ -6,28 +6,33 @@ doc: "4021589-history"
 title_en: "Marine C Command Panel System Owners Manual"
 title_ru: "Судовая пультовая система C Command: руководство владельца"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
   - "41349633"
+  - "41353297"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
   - "QSK19"
+  - "QSK50"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021589-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021589-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
+  - "двигатель/QSK50"
 ---
 
 # Marine C Command Panel System Owners Manual
 **Судовая пультовая система C Command: руководство владельца**
 
 > [!abstract] Руководство · `4021589-history`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021589-history.pdf)
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19, QSK50
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021589-history.pdf)
 
 
 ## Оглавление руководства (20 процедур)

@@ -9,12 +9,24 @@ released: "2015-11-12"
 modified: "2026-06-18"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
+  - "85017333"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK23"
+  - "QSK50"
+  - "QSK60"
 parts:
+  - "4096196"
+  - "4328041"
   - "4328043"
+  - "4331734"
   - "4379736"
   - "4920071"
   - "5375337"
@@ -22,10 +34,13 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/4388840.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/4388840.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/4388840.pdf"
 tags:
   - "документ/бюллетень"
   - "двигатель/K38/K50"
+  - "двигатель/QSK23"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
   - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
@@ -35,10 +50,10 @@ tags:
 
 > [!abstract] Сервисный бюллетень · `4388840`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK23, QSK50, QSK60
 > **Даты:** выпущен 2015-11-12 · изменён 2026-06-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/4388840.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/4388840.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/4388840.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/4388840.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -126,23 +141,23 @@ tags:
 > [!note] Примечание
 > Перед принятием этой информации конечный пользователь обязан связаться с дистрибьютором или фильтрацией Cummins, чтобы полностью понять информацию. Cummins Inc. не несет ответственности за неточную передачу этой процедуры и невыполнение Гарантии Cummins.
 
-** Расширенный интервал обслуживания для внедорожных приложений для горных работ (Требования к программе) Раздел 1: Оценка сайта**
+**Расширенный интервал обслуживания для внедорожных приложений для горных работ (Требования к программе) Раздел 1: Оценка сайта**
 
 Оборудование, место, условия эксплуатации и окружающая среда влияют на возможность увеличения интервалов технического обслуживания. Изготовление и модель оборудования, строгая практика технического обслуживания на объекте, более высокие и низкие нагрузки, длительные периоды холостого хода, а также погодные и экологические экстремальные условия, такие как влажные, пыльные, замерзающие и горячие работы, могут потребовать более частого технического обслуживания, чем указано в Руководстве по техническому обслуживанию.
 
-Оценка сайта ** должна быть завершена, чтобы обеспечить успех с этой расширенной программой интервалов обслуживания. Чтобы запланировать оценку сайта, свяжитесь с местным дистрибьютором Cummins или фильтрацией Cummins.
+Оценка сайта должна быть завершена, чтобы обеспечить успех с этой расширенной программой интервалов обслуживания. Чтобы запланировать оценку сайта, свяжитесь с местным дистрибьютором Cummins или фильтрацией Cummins.
 
-** Раздел 2: Спецификации по текучести**
+**Раздел 2: Спецификации по текучести**
 
 > [!note] Примечание
-> Любые отклонения от жидкостей (моторное масло, топливо, охлаждающая жидкость) и спецификаций фильтра, как определено в этом бюллетене службы, аннулируют использование этого бюллетеня расширенной службы. Жидкость и фильтры ** не**, отвечающие требованиям, перечисленным в настоящем документе **, должны** следовать стандартным интервалам технического обслуживания, определенным в соответствующем Руководстве по эксплуатации и техническому обслуживанию.
+> Любые отклонения от жидкостей (моторное масло, топливо, охлаждающая жидкость) и спецификаций фильтра, как определено в этом бюллетене службы, аннулируют использование этого бюллетеня расширенной службы. Жидкость и фильтры **не**, отвечающие требованиям, перечисленным в настоящем документе**, должны** следовать стандартным интервалам технического обслуживания, определенным в соответствующем Руководстве по эксплуатации и техническому обслуживанию.
 
-** Требования к смазочному маслу**
+**Требования к смазочному маслу**
 
-- Моторное масло ** должно** соответствовать требованиям, установленным Cummins Inc.
-- Используемое моторное масло ** должно быть зарегистрировано в Регистрационном списке Cummins Oil. **Примечание:**[https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/oil\_registration.html](https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/oil_registration.html)
-- Интервалы слива моторного масла ** должны *** следовать интервалам, указанным в соответствующем Руководстве по эксплуатации и техническому обслуживанию, если только расширенные интервалы слива не доказаны протоколом испытаний, описанным в этом бюллетене.
-- Если содержание серы в топливе превышает 15 частей на миллион (ppm), интервалы слива масла (**) должны быть проверены с использованием процедуры, описанной в разделе 6.
+- Моторное масло **должно** соответствовать требованиям, установленным Cummins Inc.
+- Используемое моторное масло **должно быть зарегистрировано в Регистрационном списке Cummins Oil. **Примечание:[https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/oil\_registration.html](https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/oil_registration.html)
+- Интервалы слива моторного масла **должны **следовать интервалам, указанным в соответствующем Руководстве по эксплуатации и техническому обслуживанию, если только расширенные интервалы слива не доказаны протоколом испытаний, описанным в этом бюллетене.
+- Если содержание серы в топливе превышает 15 частей на миллион (ppm), интервалы слива масла () должны быть проверены с использованием процедуры, описанной в разделе 6.
 - Если содержание серы в топливе превышает 500 ppm, то длительные интервалы слива будут поддерживаться.
 
 > [!note] Примечание
@@ -158,13 +173,13 @@ tags:
 - Топливо, которое соответствует или превышает процедуру A по методу испытаний на тенденцию фильтрации (ASTM) D2068 с высоким пределом 1.41.
 - Топливо должно пройти тест на качество топлива с использованием набора анализа чистоты переносного топлива Cummins Fleetguard, часть FK36000.
 - Топливо, соответствующее или превышающее стандарт ASTM D975-15b «Стандартные спецификации для дизельных топлив».
-- ** Могут использоваться только топливные добавки, которые не оказали негативного влияния на топливный фильтр или срок службы топливной системы.
+- Могут использоваться только топливные добавки, которые не оказали негативного влияния на топливный фильтр или срок службы топливной системы.
 - Если используется зимняя, холодная погода или топливо на большой высоте:
 - Если используется биотопливо:
-- Если содержание серы в топливе превышает 15 ppm, интервалы слива моторного масла с интервалами слива масла *** должны быть проверены с использованием процедуры, описанной в разделе 6.
+- Если содержание серы в топливе превышает 15 ppm, интервалы слива моторного масла с интервалами слива масла  должны быть проверены с использованием процедуры, описанной в разделе 6.
 - Если содержание серы в топливе превышает 500 ppm, то длительные интервалы слива будут поддерживаться.
 
-** Требования к охлаждению**
+**Требования к охлаждению**
 
 > [!note] Примечание
 > Не смешивайте два типа продуктов или брендов.
@@ -172,11 +187,11 @@ tags:
 > [!note] Примечание
 > Не пополняйте систему охлаждающей жидкости водой или обычной охлаждающей жидкостью.
 
-- Охлаждение ** должно соответствовать требованиям, установленным Cummins Inc.
+- Охлаждение должно соответствовать требованиям, установленным Cummins Inc.
 - Используемые охладители должны быть зарегистрированы в Регистрационном списке охладителей Cummins и в соответствии со спецификацией CES 14603 и должны быть полностью сформулированы предварительно смешанные охлаждающие жидкости с органической кислотой (OAT). Справочный регистрационный список охлаждающих жидкостей. **Примечание:**[https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/coolant\_registration.html](https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/coolant_registration.html)
 - Было доказано, что следующие охлаждающие жидкости способны удовлетворять расширенным интервалам слива:
 
-** Раздел 3: Мониторинг жидкостей и фильтров**
+**Раздел 3: Мониторинг жидкостей и фильтров**
 
 В этом разделе представлены руководящие принципы и требования по сбору, мониторингу, флагу, действию и анализу жидкостей и фильтров двигателя, которые предоставляют информацию для руководства расширенной служебной интервал для внедорожной программы горных приложений.
 
@@ -188,13 +203,13 @@ tags:
 Отбор проб и анализ топлива:
 
 - Для двигателя с высоким давлением (HPI), Cummins Inc. рекомендует брать образцы топлива непосредственно из транспортного средства/оборудования на входе в всасывающий боковой топливный фильтр.
-- Для двигателей с модульной общей железнодорожной системой (MCRS) образцы ** должны ** ссылаться на Bulletin 4022123, Fuel Sampling for Particle Counting Test.
+- Для двигателей с модульной общей железнодорожной системой (MCRS) образцы **должны** ссылаться на Bulletin 4022123, Fuel Sampling for Particle Counting Test.
 - Если образец топлива не соответствует указанным требованиям, повторно посетите аудит сайта, чтобы определить возможности для улучшения качества топлива.
 
 Анализ пробы охлаждающих жидкостей:
 
 - См. соответствующее Руководство по эксплуатации и техническому обслуживанию, в разделе V - Обслуживание и спецификация, процедура 018-004 Рекомендации и спецификации по охлаждению.
-- Если молибдат, нитрит и рН находятся в пределах спецификации, изучите методы технического обслуживания и отправьте образец охлаждающей жидкости для проверки загрязнения. Охлаждение** должно быть заменено. См. соответствующее Руководство по обслуживанию. Справочная процедура 008-018 Система охлаждения.
+- Если молибдат, нитрит и рН находятся в пределах спецификации, изучите методы технического обслуживания и отправьте образец охлаждающей жидкости для проверки загрязнения. Охлаждение должно быть заменено. См. соответствующее Руководство по обслуживанию. Справочная процедура 008-018 Система охлаждения.
 - Если точка замерзания находится **не** в пределах спецификации при измерении с помощью 4-х сторонних полосок для присадок/замораживания, Fleetguard® Part Number CC8997, проверьте результаты с помощью рефрактометра. Если подтверждено, что точка замерзания находится за пределами указанных пределов, замените охлаждающую жидкость. См. соответствующее Руководство по обслуживанию. Справочная процедура 008-018 Система охлаждения.
 
 В таблицах 1 и 2 ниже указан анализ жидкости, который должен быть выполнен во время работы при использовании расширенных интервалов обслуживания.
@@ -220,7 +235,7 @@ tags:
 
 Для получения дополнительной информации о Fleetguard® MonitorTM, см. CumminsFiltration.com.
 
-** Раздел 4: Первоначальные обновления оборудования и текущие требования к фильтру **
+**Раздел 4: Первоначальные обновления оборудования и текущие требования к фильтру**
 
 > [!note] Примечание
 > Руководящие принципы и требования, содержащиеся в настоящем бюллетене, могут быть изменены без предварительного уведомления. Проконсультируйтесь с местным дистрибьютором или фильтрацией Cummins.
@@ -244,7 +259,7 @@ tags:
 
 - Охлаждающий: StrataporeTM расширенная сервисная фильтрация охлаждающей жидкости
 
-** Фильтры для моторного масла**
+**Фильтры для моторного масла**
 
 Для двигателей с фильтрами для моторного масла добавьте удаленную центрифугу и используйте цельный центробежный масляный фильтр с SpiraTecTM, как показано в таблицах 3 и 4.
 
@@ -258,28 +273,28 @@ tags:
 | Таблица 3, Номера деталей фильтра для моторного масла на двигателе |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|
 |  | Оригинальные номера фильтрационных частей | Модернизированный фильтрационный номер детали Fleetguard® Part Number |  |  |  |  |
-| Модель двигателя | Наименование | Cummins® Part Number | Fleetguard - Часть номер | Наименование | Cummins® Part Number | Fleetguard - Часть номер |
+| Модель двигателя | Наименование | Cummins® Part Number | Fleetguard - Номер детали | Наименование | Cummins® Part Number | Fleetguard - Номер детали |
 | K38 (Все версии) K50 (Все версии) QSK23 CM500 | Фильтр моторного масла на двигателе | 3310169 | LF3325 | VenturiTM Комбо-спин-на фильтрах со StrataPoreTM | 4096196 | LF9325 |
 | QSK38 CM850 / CM2150 QSK50 CM850 / CM2150 QSK60 CM500 / CM850 / CM2150 QSK78 CM500 | VenturiTM Combo с спин-он фильтрами StrataPoreTM | [[4920071]] | LF9050 | Фильтры с полным потоком на двигателе с Nanonet Media | [[5375337]] | LF14005NN |
 | QSK38 CM2350 / QSK50 CM2350 | VenturiTM Combo с спин-он фильтрами StrataPoreTM | 3647559 | LF9540 | Фильтр моторного масла на двигателе | 3648053 | LF17564 |
 | QSK60 CM2350 | Фильтр моторного масла на двигателе | 3648053 | LF17564 | Неприменимые | Неприменимые | Неприменимые |
 | QSK78 C2350 | Фильтр моторного масла на двигателе | 4349561 | LF17562 | Неприменимые | Неприменимые | Неприменимые |
 
-| Таблица 4, Удаленная центрифужная оболочка Часть номеров |  |  |  |
+| Таблица 4, Удаленная центрифужная оболочка Номер деталиов |  |  |  |
 |---|---|---|---|
-| Модель двигателя | Наименование | Cummins® Part Number | Fleetguard - Часть номер |
+| Модель двигателя | Наименование | Cummins® Part Number | Fleetguard - Номер детали |
 | QSK23 CM500 | Удаленная центрифуга | Неприменимые | CH41111 |
 | K38 (Все версии) QSK38 (Все версии) K50 (Все версии) QSK50 (Все версии) QSK60 (Все версии) QSK78 (Все версии) | Удаленная центрифуга – боковой дренаж | 5373170 | CH44120 |
 | Удаленная центрифуга – донная дренаж | 5373171 | CH44105 |  |
 
 | Таблица 5, Номера деталей фильтра для центрифуг или удаленной центрифуги |  |  |  |
 |---|---|---|---|
-| Модель двигателя | Наименование | Cummins® Part Number | Fleetguard - Часть номер |
+| Модель двигателя | Наименование | Cummins® Part Number | Fleetguard - Номер детали |
 | QSK23 CM500 | Однопицевый центробежный фильтр с технологией SpiraTecTM | 4968791 | CS41011 |
 | K38 (Все версии) QSK38 (Все версии) K50 (Все версии) QSK50 (Все версии) QSK60 (Все версии) | Однопицевый центробежный фильтр с технологией SpiraTecTM | 4331734 | CS41018 |
 | QSK78 (все версии) | Однопицевый центробежный фильтр с технологией SpiraTecTM | 3649569 | CS41019 |
 
-** Фильтры для топлива**
+**Фильтры для топлива**
 
 Для двигателей с топливной системой высокого давления (HPI) удалите головку крепления топливного фильтра на двигателе и установите топливные фильтры IndustriaPro. Справочные инструкции по установке, входящие в комплект с топливными фильтрами.
 
@@ -287,7 +302,7 @@ tags:
 
 | Таблица 6, головка крепления топливного фильтра и номера частей элемента топливного фильтра |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|
-| ** Модели двигателей** | **Фильтрационная стадия** | **Описание** | ** Количество** | **Численная часть номера** | ** Номер детали самолета** | ** Количество** | **Численная часть номера** | ** Номер детали самолета** |
+| **Модели двигателей** | **Фильтрационная стадия** | **Описание** | **Количество** | **Численная часть номера** | **Номер детали самолета** | **Количество** | **Численная часть номера** | **Номер детали самолета** |
 | K38 (Все версии) QSK38 (Все версии QSK23 CM500) | Этап 1 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / вправо | 1 | 4328042 | FH23901 | 1 | [[4328043]] | FS53014 |
 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / Out Left | 1 | 4328041 | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / влево / Out Left | 1 | 4328064 | FH23905 | 1 | [[4328043]] | FS53014 |  |  |
@@ -304,7 +319,7 @@ tags:
 | QSK78 CM2350 1 | Этап 2 | На двигателе или удаленной конфигурационной головке фильтра с 3-микронным фильтром NanoNet® | 1 | 4380859 | Неприменимые | 3 | 5375819 | FF63042NN |
 | 1 модернизация топливного фильтра для крепления головки не требуется на двигателях QSK50, QSK60 и QSK78 CM2350. 2 Экскаваторы и лопаты с использованием двигателей QSK50 с топливными фильтрами 2 ступени двигателя (2 фильтрующих элемента) могут не достигать расширенных интервалов технического обслуживания. Переключитесь на удаленную головку фильтра крепления (3 фильтрующих элемента) для этого приложения для достижения расширенных интервалов обслуживания. |  |  |  |  |  |  |  |  |
 
-** Фильтры для топлива**
+**Фильтры для топлива**
 
 Для двигателей с топливной системой высокого давления (HPI) удалите головку крепления топливного фильтра на двигателе и установите топливные фильтры IndustriaPro. Справочные инструкции по установке, входящие в комплект с топливными фильтрами.
 
@@ -318,34 +333,34 @@ tags:
 > [!note] Примечание
 > Воздушный кровоточащий клапан необходим только при модернизации топливного фильтра, устанавливающего головку. Модернизация головки топливного фильтра не требуется на двигателях QSK50, QSK60 и QSK78 CM2350.
 
-** Фильтры для топливных баков**
+**Фильтры для топливных баков**
 
-Топливный бак оборудования должен иметь систему фильтрации, установленную на вентиляционном отверстии топливного бака, чтобы удалить загрязняющие вещества из проглоченного воздуха. Фильтр вентиляционного отверстия топливного бака предотвращает загрязнение топливных баков мелкими частицами в воздухе по мере втягивания воздуха. Система вентиляции топливного бака ** должна ** обеспечивать самую быструю скорость заполнения топлива, которую испытывает транспортное средство. См. сервисную документацию изготовителя оборудования.
+Топливный бак оборудования должен иметь систему фильтрации, установленную на вентиляционном отверстии топливного бака, чтобы удалить загрязняющие вещества из проглоченного воздуха. Фильтр вентиляционного отверстия топливного бака предотвращает загрязнение топливных баков мелкими частицами в воздухе по мере втягивания воздуха. Система вентиляции топливного бака **должна** обеспечивать самую быструю скорость заполнения топлива, которую испытывает транспортное средство. См. сервисную документацию изготовителя оборудования.
 
 - Для оборудования с существующими вентиляционными фильтрами топливных баков установите усовершенствованный вентиляционный фильтр топливных баков, как определено в таблице 8 ниже. См. информацию об услугах производителя оборудования для информации об установке.
 - Для оборудования без существующих фильтров вентиляционных отверстий топливных баков установите как систему вентиляционных отверстий топливных баков, как определено в таблице 9 ниже, так и фильтр вентиляционных отверстий топливных баков, как определено в таблице 8 ниже. См. информацию об услугах производителя оборудования для информации об установке.
 
-| ** Таблица 8, Фильтр топливных баков, номер детали ** |  |
+| **Таблица 8, Фильтр топливных баков, номер детали** |  |
 |---|---|
-| **Описание** | ** Флотгард® Часть Номер** |
+| **Описание** | **Флотгард® Часть Номер** |
 | Фильтр вентиляционного отверстия топливного бака, 3 микрона | HF30195 |
 
-| ** Таблица 9, номер запасного отделения топливного бака** |  |
+| **Таблица 9, номер запасного отделения топливного бака** |  |
 |---|---|
 | **Описание** | **Hydrau-Flo® Part Number** |
 | Система вентиляции топливного бака подходит для 1000 литров в минуту быстрого заполнения | HF1008Z0010 |
 
-** Фильтры с охлаждением**
+**Фильтры с охлаждением**
 
 Модернизированные варианты фильтрации охлаждающей жидкости предлагают более высокую емкость и улучшенную производительность фильтрации. Удалите существующие фильтры охлаждающей жидкости и замените их фильтрами охлаждающей жидкости StrataPoreTM. См. таблицу 10 ниже для номеров частей.
 
 | Таблица 10, Номера частей фильтра охлаждения |  |  |
 |---|---|---|
-| Наименование | Cummins® Part Number | Fleetguard - Часть номер |
+| Наименование | Cummins® Part Number | Fleetguard - Номер детали |
 | На двигателе, без DCA*, StrataPoreTM | 3098690 | WF2123 |
-| * Только фильтры без DCA должны использоваться в сочетании с ОАТ-охлаждающим веществом. |  |  |
+| Только фильтры без DCA должны использоваться в сочетании с ОАТ-охлаждающим веществом. |  |  |
 
-** Фильтры **
+**Фильтры**
 
 > [!danger] ОПАСНО
 > Этот компонент или сборка весит более 23 кг [50 фунтов ]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
@@ -356,9 +371,9 @@ tags:
 
 Для достижения расширенных интервалов технического обслуживания максимально допустимое ограничение впуска с чистым фильтрующим элементом составляет 253 мм H2O \[10 в H2O \].
 
-| ** Таблица 11, фильтр для очистки воздуха Часть номеров** |  |  |  |
+| **Таблица 11, фильтр для очистки воздуха Номер деталиов** |  |  |  |
 |---|---|---|---|
-| ** Тип** | **Описание** | **Оригинальный номер Fleetguard®** | **Обновить номера запасных частей NanoForce® Fleetguard®** |
+| **Тип** | **Описание** | **Оригинальный номер Fleetguard®** | **Обновить номера запасных частей NanoForce® Fleetguard®** |
 | Осевая печать | первичный | AF1605 или AF1605M | AF1605NF |
 | вторичный | AF1604 | Не меняет номер детали |  |
 | Осевая печать | первичный | AF879 или AF879M | AF879NF |
@@ -371,10 +386,10 @@ tags:
 | вторичный | AF27697 | AF25150 |  |
 | \* Для установки AF27993NF требуется однократная установка SP1307 |  |  |  |
 
-** Раздел 5: Продление интервалов технического обслуживания**
+**Раздел 5: Продление интервалов технического обслуживания**
 
 > [!warning] ОСТОРОЖНО
-> Никогда не мойте и не чистите воздушные фильтры. Промывка или очистка фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра фильтра
+> Никогда не мойте и не чистите воздушные фильтры. Промывка или очистка фильтра
 
 > [!note] Примечание
 > См. Руководство по эксплуатации для различных условий запуска двигателя при температуре окружающей среды. См. Продукт жидких кумминов для изменения элементов в различных условиях окружающей среды.
@@ -402,38 +417,38 @@ tags:
 | Таблица 12, Интервалы технического обслуживания грузовых автомобилей с учетом времени |  |  |  |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Система | Список задач технического обслуживания | Как требуется | Ежедневно и еженедельно | 250 часов | 500 часов | 1000 часов | 1500 часов | 2000 часов | 3000 часов | 4000 часов | 5000 часов |
-| Воздух | Изменение первичных фильтрующих элементов для очистки воздуха | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Воздух | Изменение фильтраторов вторичного воздухоочистителя | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |
-| Воздух | Осмотрите и очистите корпуса фильтров для очистки воздуха | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| охлаждающий | Испытательный охлаждающая жидкость для пределов замены | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |
-| охлаждающий | Изменение фильтров охлаждающей жидкости |  |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |
-| охлаждающий | Сверху охлаждение | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Слив воды и осадка из нижней чаши топливных фильтров Industrial ProTM | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить топливные фильтры 1-й ступени | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить топливные фильтры 2-й ступени | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить фильтры для заправки топливных баков | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Моторное масло | Собрать образец моторного масла и выполнить анализ моторного масла | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
+| Воздух | Изменение первичных фильтрующих элементов для очистки воздуха | X |  |  |  | X |  | X | X | X | X |
+| Воздух | Изменение фильтраторов вторичного воздухоочистителя | X |  |  |  |  |  |  | X |  |  |
+| Воздух | Осмотрите и очистите корпуса фильтров для очистки воздуха | X |  |  |  |  |  |  |  |  | X |
+| охлаждающий | Испытательный охлаждающая жидкость для пределов замены | X |  |  |  |  |  |  |  | X |  |
+| охлаждающий | Изменение фильтров охлаждающей жидкости |  |  |  |  |  |  |  |  | X |  |
+| охлаждающий | Сверху охлаждение | X |  |  | X | X | X | X | X | X | X |
+| топливо | Слив воды и осадка из нижней чаши топливных фильтров Industrial ProTM | X | X | X | X | X | X | X | X | X | X |
+| топливо | Заменить топливные фильтры 1-й ступени | X |  |  |  | X |  | X | X | X | X |
+| топливо | Заменить топливные фильтры 2-й ступени | X |  |  |  | X |  | X | X | X | X |
+| топливо | Заменить фильтры для заправки топливных баков | X |  |  |  | X |  | X | X | X | X |
+| Моторное масло | Собрать образец моторного масла и выполнить анализ моторного масла | X |  | X | X | X | X | X | X | X | X |
 | Моторное масло | Изменение двигателя моторного масла |  | В соответствии с Руководством по эксплуатации и техническому обслуживанию или Интервалом моторного масла, установленным в разделе 6. |  |  |  |  |  |  |  |  |
-| Моторное масло | Смена ротора в EliminatorTM / Centrifuge |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Моторное масло | Замена фильтров моторного масла (при установке) |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
+| Моторное масло | Смена ротора в EliminatorTM / Centrifuge |  |  |  |  | X |  | X | X | X | X |
+| Моторное масло | Замена фильтров моторного масла (при установке) |  |  |  |  | X |  | X | X | X | X |
 
 | Таблица 13, Интервалы технического обслуживания, основанные на времени, для экскаваторов и погрузчиков |  |  |  |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Система | Список задач технического обслуживания | Как требуется | Ежедневно и еженедельно | 250 часов | 500 часов | 1000 часов | 1500 часов | 2000 часов | 3000 часов | 4000 часов | 5000 часов |
-| Воздух | Изменение первичных фильтрующих элементов для очистки воздуха | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Воздух | Изменение фильтраторов вторичного воздухоочистителя | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |
-| Воздух | Осмотрите и очистите корпуса фильтров для очистки воздуха | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| охлаждающий | Испытательный охлаждающая жидкость для пределов замены | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |
-| охлаждающий | Изменение фильтров охлаждающей жидкости |  |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |
-| охлаждающий | Сверху охлаждение | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Слив воды и осадка из нижней чаши топливных фильтров Industrial ProTM | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить топливные фильтры 1-й ступени | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить топливные фильтры 2-й ступени | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить фильтры для заправки топливных баков | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Моторное масло | Собрать образец моторного масла и выполнить анализ моторного масла | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
+| Воздух | Изменение первичных фильтрующих элементов для очистки воздуха | X |  |  | X | X | X | X | X | X | X |
+| Воздух | Изменение фильтраторов вторичного воздухоочистителя | X |  |  | X | X | X |  | X |  |  |
+| Воздух | Осмотрите и очистите корпуса фильтров для очистки воздуха | X |  |  |  |  |  |  |  |  | X |
+| охлаждающий | Испытательный охлаждающая жидкость для пределов замены | X |  |  |  |  |  |  |  | X |  |
+| охлаждающий | Изменение фильтров охлаждающей жидкости |  |  |  |  |  |  |  |  | X |  |
+| охлаждающий | Сверху охлаждение | X |  |  | X | X | X | X | X | X | X |
+| топливо | Слив воды и осадка из нижней чаши топливных фильтров Industrial ProTM | X | X | X | X | X | X | X | X | X | X |
+| топливо | Заменить топливные фильтры 1-й ступени | X |  |  | X | X | X | X | X | X | X |
+| топливо | Заменить топливные фильтры 2-й ступени | X |  |  | X | X | X | X | X | X | X |
+| топливо | Заменить фильтры для заправки топливных баков | X |  |  | X | X | X | X | X | X | X |
+| Моторное масло | Собрать образец моторного масла и выполнить анализ моторного масла | X |  | X | X | X | X | X | X | X | X |
 | Моторное масло | Изменение двигателя моторного масла | В соответствии с Руководством по эксплуатации и техническому обслуживанию или интервалом моторного масла, установленным в соответствии с разделом 6. |  |  |  |  |  |  |  |  |  |
-| Моторное масло | Смена ротора в EliminatorTM / Centrifuge |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Моторное масло | Замена фильтров моторного масла (при установке) |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
+| Моторное масло | Смена ротора в EliminatorTM / Centrifuge |  |  |  |  | X | X | X | X | X | X |
+| Моторное масло | Замена фильтров моторного масла (при установке) |  |  |  |  | X | X | X | X | X | X |
 
 | Таблица 14, Интервалы обслуживания фильтров на основе состояния |  |
 |---|---|
@@ -454,7 +469,7 @@ tags:
 > [!note] Примечание
 > Если топливные фильтры достигают требуемого срока службы или срок службы фильтра уменьшается, требуется оценка качества топлива, состояния топливного бака, систем хранения и системы фильтрации навалочных сыпей.
 
-** Раздел 6: Испытание на моторное масло для увеличения интервала слива**
+**Раздел 6: Испытание на моторное масло для увеличения интервала слива**
 
 > [!warning] ОСТОРОЖНО
 > Использование синтетического базового моторного масла не оправдывает расширенные интервалы изменения моторного масла. Расширенные интервалы изменения масла могут уменьшить срок службы двигателя в результате коррозии, отложений и износа.
@@ -483,9 +498,9 @@ tags:
 - Используемое моторное масло (наименование бренда, категория производительности и степень вязкости)
 
 > [!note] Примечание
-> Интервал моторного масла, установленный этим процессом, может *** применяться только к двигателям в том же сегменте, что и определено выше, и с конкретным моторным маслом, используемым для установления расширенного интервала слива моторного масла. Любые изменения в смазочном масле (включая изменения в степени вязкости), рабочем цикле или системе моторного масла двигателя потребуют повторной проверки интервала слива моторного масла.
+> Интервал моторного масла, установленный этим процессом, может  применяться только к двигателям в том же сегменте, что и определено выше, и с конкретным моторным маслом, используемым для установления расширенного интервала слива моторного масла. Любые изменения в смазочном масле (включая изменения в степени вязкости), рабочем цикле или системе моторного масла двигателя потребуют повторной проверки интервала слива моторного масла.
 
-Образцы моторного масла** должны быть отправлены в лабораторию, способную проверить параметры в Таблице 14 с использованием указанного метода испытаний.
+Образцы моторного масла должны быть отправлены в лабораторию, способную проверить параметры в Таблице 14 с использованием указанного метода испытаний.
 
 | Таблица 15, Параметры анализа масла |  |  |
 |---|---|---|
@@ -507,13 +522,13 @@ tags:
 | Алюминий - Al, ppm | D5185 |  |
 | Tin - Sn, ppm | D5185 |  |
 | Хром - Cr, ppm | D5185 |  |
-| * Данные инфракрасной спектроскопии преобразования Фурье (FTIR) для окисления могут использовать либо метод ASTM, но должны сообщать, использовались ли методы трендирования или вычитания. |  |  |
+| Данные инфракрасной спектроскопии преобразования Фурье (FTIR) для окисления могут использовать либо метод ASTM, но должны сообщать, использовались ли методы трендирования или вычитания. |  |  |
 
 **Сбор пробы моторного масла:**
 
-Образцы ** должны быть взяты с интервалами, указанными в таблице 17 или 18 ниже. Для процедуры отбора проб см. Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]].
+Образцы должны быть взяты с интервалами, указанными в таблице 17 или 18 ниже. Для процедуры отбора проб см. Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin[[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines|4022060]].
 
-Для установления трендовых линий необходимо собрать не менее пяти образцов моторного масла на интервал слива масла ***. Для моторного масла, которое не может достичь интервала, установленного в плане отбора проб, собирайте образцы моторного масла с более частыми интервалами (каждые 50 часов или каждые 75 часов), чтобы определить соответствующий интервал слива моторного масла.
+Для установления трендовых линий необходимо собрать не менее пяти образцов моторного масла на интервал слива масла . Для моторного масла, которое не может достичь интервала, установленного в плане отбора проб, собирайте образцы моторного масла с более частыми интервалами (каждые 50 часов или каждые 75 часов), чтобы определить соответствующий интервал слива моторного масла.
 
 Нанести на образец следующую информацию перед отправкой на анализ:
 
@@ -525,9 +540,9 @@ tags:
 - Применение двигателя
 - Количество нового моторного масла, добавленного после предыдущей замены моторного масла.
 
-** Проверка целостности моторного масла:**
+**Проверка целостности моторного масла:**
 
-Как тренды, так и ограничения используются для определения соответствующего интервала слива моторного масла. Cummins Inc. Клиент должен сотрудничать, чтобы определить соответствующий интервал слива моторного масла. Документация о валидации интервала слива моторного масла ** должна быть сохранена в файле оценки сайта.
+Как тренды, так и ограничения используются для определения соответствующего интервала слива моторного масла. Cummins Inc. Клиент должен сотрудничать, чтобы определить соответствующий интервал слива моторного масла. Документация о валидации интервала слива моторного масла должна быть сохранена в файле оценки сайта.
 
 1. Линейная тенденция на протяжении каждого интервала слива моторного масла:
 
@@ -535,7 +550,7 @@ tags:
 - Общее количество кислот (TAN)
 - окисление
 - Нитратация
-- Сажа (Сажа может ** не ** сразу начать тренд; когда трендовая сажа обычно линейна).
+- Сажа (Сажа может **не** сразу начать тренд; когда трендовая сажа обычно линейна).
 - железо
 - Ведущий
 - медь
@@ -606,7 +621,7 @@ tags:
 | 6 | 550 | Проверить целостность моторного масла с помощью шагов выше. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
 | 7 | 600 | Конец теста. Соберите образец перед сливом моторного масла. |
 
-** Раздел 7: Дополнительная литература**
+**Раздел 7: Дополнительная литература**
 
 Литература найдена на QuickServe® Online:
 
@@ -623,10 +638,10 @@ tags:
 Руководство по эксплуатации и техническому обслуживанию:
 
 - См. Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Просмотрите соответствующие процедуры Cummins® Product Technology.
-- См. QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin 3666260.
+- См. QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]].
 - См. K38, K50, QSK38 и QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].
 - См. QSK38 CM2350 K125 Operation and Maintenance Manual, Bulletin 5613390.
-- См. QSK45 and QSK60 Operation and Maintenance Manual, Bulletin 4915528.
+- См. QSK45 and QSK60 Operation and Maintenance Manual, Bulletin [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]].
 - См. QSK50 CM2350 K108 (MCRS) Operation and Maintenance Manual, Bulletin 4332824.
 - См. QSK60 CM2350 K116 (MCRS) Operation and Maintenance Manual, Bulletin 4367445.
 - См. QSK60 CM2350 K121 (MCRS) Operation and Maintenance Manual, Bulletin 4388646.
@@ -643,10 +658,10 @@ tags:
 
 - Руководство по эксплуатации жидкостей для продуктов Cummins, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 - См. Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Просмотрите соответствующие процедуры Cummins® Product Technology.
-- См. QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin 4021530.
+- См. QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 - См. K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 - См. QSK38 Service Manual, Bulletin 5613391.
-- См. QSK45 и QSK60 Service Manual, Bulletin 4021530.
+- См. QSK45 и QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 - См. QSK50 CM2350 K108 Service Manual, Bulletin 4332823.
 - См. QSK60 CM2350 K116 Service Manual, Bulletin 4367444.
 - См. QSK60 CM2350 K121 Service Manual, Bulletin 438 8 645.
@@ -671,7 +686,10 @@ tags:
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
+| [[4096196]] | LUBRICATING OIL FILTER | Масляный фильтр |
+| [[4328041]] | FUEL FILTER | Топливный фильтр |
 | [[4328043]] | FUEL FILTER ELEMENT | Фильтрующий элемент топливного фильтра |
+| [[4331734]] | FILTER,CENTRIFUGE |  |
 | [[4379736]] | CHECK VALVE | Обратный клапан |
 | [[4920071]] | LUBRICATING OIL FILTER | Масляный фильтр |
 | [[5375337]] | LUBRICATING OIL FILTER | Масляный фильтр |
@@ -888,7 +906,7 @@ tags:
 > |---|---|---|---|---|---|---|
 > |  | Original Filtration Part Numbers | Upgraded Filtration Part Numbers Fleetguard® Part Number |  |  |  |  |
 > | Engine Model | Description | Cummins® Part Number | Fleetguard® Part Number | Description | Cummins® Part Number | Fleetguard® Part Number |
-> | K38 (All Versions) K50 (All Versions) QSK23 CM500 | On-Engine Spin-On Lubricating Oil Filter | 3310169 | LF3325 | Venturi™ Combo-spin-on filters with StrataPore™ | 4096196 | LF9325 |
+> | K38 (All Versions) K50 (All Versions) QSK23 CM500 | On-Engine Spin-On Lubricating Oil Filter | 3310169 | LF3325 | Venturi™ Combo-spin-on filters with StrataPore™ | [[4096196]] | LF9325 |
 > | QSK38 CM850 / CM2150 QSK50 CM850 / CM2150 QSK60 CM500 / CM850 / CM2150 QSK78 CM500 | Venturi™ Combo spin-on filters with StrataPore™ | [[4920071]] | LF9050 | On-Engine Full Flow filters with Nanonet Media | [[5375337]] | LF14005NN |
 > | QSK38 CM2350 / QSK50 CM2350 | Venturi™ Combo spin-on filters with StrataPore™ | 3647559 | LF9540 | On-Engine Spin-On Lubricating oil filter | 3648053 | LF17564 |
 > | QSK60 CM2350 | On-Engine Spin-On Lubricating Oil Filter | 3648053 | LF17564 | Not Applicable | Not Applicable | Not Applicable |
@@ -905,7 +923,7 @@ tags:
 > |---|---|---|---|
 > | Engine Model | Description | Cummins® Part Number | Fleetguard® Part Number |
 > | QSK23 CM500 | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | 4968791 | CS41011 |
-> | K38 (All Versions) QSK38 (All Versions) K50 (All Versions) QSK50 (All Versions) QSK60 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | 4331734 | CS41018 |
+> | K38 (All Versions) QSK38 (All Versions) K50 (All Versions) QSK50 (All Versions) QSK60 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | [[4331734]] | CS41018 |
 > | QSK78 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | 3649569 | CS41019 |
 >
 > **Fuel Filters**
@@ -918,7 +936,7 @@ tags:
 > |---|---|---|---|---|---|---|---|---|
 > | **Engine Model** | **Filtration Stage** | **Description** | **Quantity** | **Cummins Part Number** | **Fleetguard Part Number** | **Quantity** | **Cummins Part Number** | **Fleetguard Part Number** |
 > | K38 (All Versions) QSK38 (All Versions QSK23 CM500 | Stage 1 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Left / Out Right | 1 | 4328042 | FH23901 | 1 | [[4328043]] | FS53014 |
-> | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Left | 1 | 4328041 | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
+> | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Left | 1 | [[4328041]] | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
 > | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Left / Out Left | 1 | 4328064 | FH23905 | 1 | [[4328043]] | FS53014 |  |  |
 > | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Right | 1 | 4328065 | FH23906 | 1 | [[4328043]] | FS53014 |  |  |
 > | K50 (All Versions) QSK50 (All Versions) QSK60 (All Versions) | Stage 1 | Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Right / Out Right | 1 | 4381962 | FH23907 | 2 | [[4328043]] | FS53014 |
@@ -1250,10 +1268,10 @@ tags:
 > Operation and Maintenance Manuals:
 >
 > - See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
-> - See QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin 3666260.
+> - See QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]].
 > - See K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].
 > - See QSK38 CM2350 K125 Operation and Maintenance Manual, Bulletin 5613390.
-> - See QSK45 and QSK60 Operation and Maintenance Manual, Bulletin 4915528.
+> - See QSK45 and QSK60 Operation and Maintenance Manual, Bulletin [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]].
 > - See QSK50 CM2350 K108 (MCRS) Operation and Maintenance Manual, Bulletin 4332824.
 > - See QSK60 CM2350 K116 (MCRS) Operation and Maintenance Manual, Bulletin 4367445.
 > - See QSK60 CM2350 K121 (MCRS) Operation and Maintenance Manual, Bulletin 4388646.
@@ -1270,10 +1288,10 @@ tags:
 >
 > - Fluids for Cummins Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 > - See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
-> - See QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin 4021530.
+> - See QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 > - See K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
 > - See QSK38 Service Manual, Bulletin 5613391.
-> - See QSK45 and QSK60 Service Manual, Bulletin 4021530.
+> - See QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 > - See QSK50 CM2350 K108 Service Manual, Bulletin 4332823.
 > - See QSK60 CM2350 K116 Service Manual, Bulletin 4367444.
 > - See QSK60 CM2350 K121 Service Manual, Bulletin 438 8 645.

@@ -17,7 +17,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-001-063-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-001-063-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-001-063-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2015-09-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-001-063-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-001-063-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-001-063-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-001-063-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -46,7 +46,7 @@ tags:
 
 ### Очистка и проверка при повторном использовании
 
-Вал для шестерни бездельника водяного насоса и шестерни бездельника распределительного вала ** различны**. Ватерна водяного насоса имеет интегральный фланж, который валы распредвала не имеют **.
+Вал для шестерни бездельника водяного насоса и шестерни бездельника распределительного вала **различны**. Ватерна водяного насоса имеет интегральный фланж, который валы распредвала не имеют.
 
 > [!danger] ОПАСНО
 > При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
@@ -73,7 +73,7 @@ tags:
 | 47.714 | Макс | 1.8785 |
 
 > [!note] Примечание
-> Втулка в шестерне с точностью надоедает после установки. Если возможность обработки ** недоступна, замените втулку и передачу в качестве сборки.
+> Втулка в шестерне с точностью надоедает после установки. Если возможность обработки недоступна, замените втулку и передачу в качестве сборки.
 
 ![[hd8geta.png]]
 

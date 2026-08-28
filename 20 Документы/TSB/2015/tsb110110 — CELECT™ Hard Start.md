@@ -9,16 +9,22 @@ released: "2015-03-26"
 modified: "2015-03-26"
 group: "05 - Fuel Systems (Pumps)"
 engines:
+  - "35354607"
+  - "35373113"
   - "41343322"
+  - "41370103"
+  - "71156161"
 families:
   - "NT/NTA855 · ISM/QSM11"
+  - "QSM11"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110110.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110110.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110110.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
+  - "двигатель/QSM11"
   - "год/2015"
   - "перевод/машинный"
   - "тема/fuel-systems-pumps"
@@ -29,10 +35,10 @@ tags:
 
 > [!abstract] TSB · `tsb110110`
 > **Раздел Cummins:** 05 - Fuel Systems (Pumps)
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
-> **Семейство:** NT/NTA855 · ISM/QSM11
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]], [[71156161 — QSM11 CM570 CPL 8543|71156161]]
+> **Семейство:** NT/NTA855 · ISM/QSM11, QSM11
 > **Даты:** выпущен 2015-03-26 · изменён 2015-03-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110110.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110110.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110110.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110110.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -60,16 +66,16 @@ tags:
 > [!note] Примечание
 > Медленные старты определяются как требующие больше, чем обычное время проворачивания от 2 до 5 секунд.
 
-** Причины возникновения: **
+**Причины возникновения:**
 
 - Отвод топлива в топливный бак может быть вызван:
 
 > [!note] Примечание
-> Небольшая утечка кольца может ** не** иметь видимую утечку, но может протекать достаточно, чтобы осушить всасывающую линию в течение ночи.
+> Небольшая утечка кольца может **не** иметь видимую утечку, но может протекать достаточно, чтобы осушить всасывающую линию в течение ночи.
 
 - Застрявший открытый регулятор давления заставит топливо работать слишком медленно. Застрявший регулятор может быть создан при любом из следующих условий:
 
-** Устранение неполадок:**
+**Устранение неполадок:**
 
 - Чтобы определить, какой симптом вызывает тяжелое начало, выполните следующие шаги:
 

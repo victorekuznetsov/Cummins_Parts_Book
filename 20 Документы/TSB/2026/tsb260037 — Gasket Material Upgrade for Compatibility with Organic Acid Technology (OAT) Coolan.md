@@ -10,20 +10,25 @@ modified: "2026-06-22"
 group: "21 - Main Generator"
 engines:
   - "41349633"
+  - "41353297"
+  - "85017333"
 families:
   - "QSK19"
+  - "QSK23"
 parts:
   - "3014449"
   - "3202283"
+  - "4095558"
   - "4914260"
   - "6602757"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260037.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb260037.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb260037.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
   - "год/2026"
   - "перевод/машинный"
   - "тема/main-generator"
@@ -34,10 +39,10 @@ tags:
 
 > [!abstract] TSB · `tsb260037`
 > **Раздел Cummins:** 21 - Main Generator
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK19, QSK23
 > **Даты:** выпущен 2026-06-22 · изменён 2026-06-22
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260037.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb260037.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260037.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb260037.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -81,7 +86,7 @@ tags:
 - G50
 - GTA50E GMEICS G115
 
-** Резюме проблемы**
+**Резюме проблемы**
 
 Симптом:
 
@@ -99,7 +104,7 @@ tags:
 
 Заменить неисправную прокладку, изготовленную из ранее несовместимого материала, прокладкой, изготовленной из материала на основе нитрила, которая, как доказано, совместима с охлаждающей жидкостью ОАТ. Заменить неисправную прокладку на замененный эквивалент прокладки. См. таблицу 1.
 
-** Услуги**
+**Услуги**
 
 Предлагаются сервисные части. Номера деталей приведены в таблице 1.
 
@@ -140,9 +145,10 @@ tags:
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3014449]] | Flange Gasket | Прокладка фланца |
-| [[3202283]] | WATER PUMP GASKET | Прокладка водяного насоса |
+| [[3202283]] | Water Pump Gasket | Прокладка водяного насоса |
+| [[4095558]] | THERMOSTAT HOUSING GASKET | Прокладка корпуса термостата |
 | [[4914260]] | RADIATOR GASKET | Прокладка радиатора |
-| [[6602757]] | FLANGE GASKET | Прокладка фланца |
+| [[6602757]] | Flange Gasket | Прокладка фланца |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Gasket Material Upgrade for Compatibility with Organic Acid Technology (OAT) Coolant
@@ -215,7 +221,7 @@ tags:
 > | Thermostat Housing Gasket | 140329 | Yes | Yes | 6602765 |  |
 > | QSK19 | Connection Gasket | 3201783 | Yes | Yes | 6602752 |
 > | Water Pump Gasket | [[3202283]] | Yes | Yes | 6602753 |  |
-> | QSK23 | Thermostat Housing Gasket | 4095558 | Yes | Yes | 6602760 |
+> | QSK23 | Thermostat Housing Gasket | [[4095558]] | Yes | Yes | 6602760 |
 > | K38, KTA38, K50, GTA50, G38, GTA38E G CMEICS G114, GTA38 G CMEICS G116C, G50, and GTA50E G CMEICS G115 | Water Transfer Connection Gasket | 3015545 | Yes | Yes | 6602754 |
 > | Water Transfer Connection Gasket | 206556 | Yes | Yes | 6602751 |  |
 > | Water Transfer Connection Gasket | 207535 | Yes | Yes | 6602764 |  |

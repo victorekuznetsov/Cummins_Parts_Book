@@ -18,7 +18,7 @@ figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-100-001.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-100-001.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-100-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -35,7 +35,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[4915520 — QST30 Owners Manual|4915520]]
 > **Секции:** Section E - Engine Identification
 > **Даты:** изменён 2013-02-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-100-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-100-001.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-100-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-100-001.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -90,7 +90,7 @@ tags:
 
 На табличке с данными двигателя указаны конкретные факты о вашем двигателе. Серийный номер двигателя (ESN) (1), список контрольных частей (CPL) (2), модель (3) и рейтинги мощности и оборотов в минуту предоставляют информацию для заказа деталей и выполнения обслуживания.
 
-Диаграмма двигателя ** не должна быть изменена, если она не одобрена Cummins Inc.
+Диаграмма двигателя не должна быть изменена, если она не одобрена Cummins Inc.
 
 Диаграмма двигателя на двигателях QST30 расположена на левобережной стороне послеохладителя.
 

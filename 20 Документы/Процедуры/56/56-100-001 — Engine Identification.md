@@ -7,19 +7,31 @@ title_en: "Engine Identification"
 title_ru: "Идентификация двигателя"
 modified: "2005-07-15"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "4021374"
+  - "4021530"
+  - "4915528"
 figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-100-001.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-100-001.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-100-001.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/56"
   - "перевод/машинный"
@@ -29,12 +41,12 @@ tags:
 **Идентификация двигателя**
 
 > [!abstract] Процедура · `56-100-001`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]], [[4021530 — QSK45 and QSK60 Service Manual|4021530]], [[4915528 — QSK45 and QSK60 Owners Manual|4915528]]
 > **Секции:** Section E - Engine and System Identification
 > **Даты:** изменён 2005-07-15
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-100-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-100-001.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-100-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-100-001.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -82,7 +94,7 @@ P =
 - РПМ.
 
 > [!note] Примечание
-> Диаграмма двигателя ** не должна быть изменена, если она не одобрена Cummins Inc.
+> Диаграмма двигателя не должна быть изменена, если она не одобрена Cummins Inc.
 
 Диаграмма на двигателях QSK45 и QSK60 расположена в задней части блока двигателя напротив стартера.
 

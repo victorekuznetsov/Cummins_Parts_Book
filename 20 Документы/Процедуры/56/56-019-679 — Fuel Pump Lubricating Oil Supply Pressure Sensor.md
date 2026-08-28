@@ -17,7 +17,7 @@ figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-019-679.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-019-679.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-019-679.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Controls - Group 19
 > **Даты:** изменён 2020-05-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-019-679.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-019-679.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-019-679.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-019-679.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -145,7 +145,7 @@ tags:
 
 ### Снятие
 
-Отсоедините электропроводку двигателя от датчика давления моторного масла топливного насоса двигателя, повернув разъем ** против часовой стрелки **.
+Отсоедините электропроводку двигателя от датчика давления моторного масла топливного насоса двигателя, повернув разъем **против часовой стрелки**.
 
 Удалить датчик.
 
@@ -345,5 +345,5 @@ tags:
 >
 > - Connect air supply line to air starting motor, if equipped. Refer to Procedure 012-022 in Section 12.
 > - Connect batteries and power supplies. See equipment manufacturer service information.
-> - Fill lubricating oil pan, if necessary. Refer to Procedure 007-037 in Section 7.
+> - Fill lubricating oil pan, if necessary. [[56-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037]] in Section 7.
 > - Operate engine. Check for leaks.

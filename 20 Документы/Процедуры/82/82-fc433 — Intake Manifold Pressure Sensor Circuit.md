@@ -8,6 +8,7 @@ title_ru: "Цепь датчика давления во впускном кол
 modified: "2010-09-02"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -16,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc433.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc433.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc433.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -28,12 +29,12 @@ tags:
 **Цепь датчика давления во впускном коллекторе**
 
 > [!abstract] Процедура · `82-fc433`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc433.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc433.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc433.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc433.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 433 PID(P): P102 SPN: 102 FMI: 2/2 лампы: Желтая СТО: | Сигнал напряжения в цепи давления впускного коллектора указывает на высокое давление впускного коллектора, но другие характеристики двигателя указывают, что давление впускного коллектора ** должно быть низким. | Склоняйтесь к безвоздушной обстановке. |
+| Код неисправности: 433 PID(P): P102 SPN: 102 FMI: 2/2 лампы: Желтая СТО: | Сигнал напряжения в цепи давления впускного коллектора указывает на высокое давление впускного коллектора, но другие характеристики двигателя указывают, что давление впускного коллектора должно быть низким. | Склоняйтесь к безвоздушной обстановке. |
 
 ![[19200329.png]]
 
@@ -69,7 +70,7 @@ tags:
 
 ### Практические замечания
 
-ECM проверяет наличие этой неисправности **только *** при скоростях вращения двигателя до 50 об/мин выше установленной скорости холостого хода. Если давление впускного коллектора в это время показывает слишком высокое значение, ECM регистрирует этот код неисправности.
+ECM проверяет наличие этой неисправности **только **при скоростях вращения двигателя до 50 об/мин выше установленной скорости холостого хода. Если давление впускного коллектора в это время показывает слишком высокое значение, ECM регистрирует этот код неисправности.
 
 Устранение неполадок код t05-433
 

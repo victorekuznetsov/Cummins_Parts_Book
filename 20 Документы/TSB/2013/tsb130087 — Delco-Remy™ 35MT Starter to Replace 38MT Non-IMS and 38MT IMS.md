@@ -10,12 +10,13 @@ modified: "2013-05-14"
 group: "13 - Electrical Equipment"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130087.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130087.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130087.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
@@ -29,10 +30,10 @@ tags:
 
 > [!abstract] TSB · `tsb130087`
 > **Раздел Cummins:** 13 - Electrical Equipment
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2013-05-14 · изменён 2013-05-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130087.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130087.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130087.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130087.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +55,7 @@ tags:
 
 См. таблицу 1 ниже для определения соответствующего номера части.
 
-| Таблица 1: Часть номер Суперсессионный стол |  |
+| Таблица 1: Номер детали Суперсессионный стол |  |
 |---|---|
 | Новый номер детали | Прежний номер детали |
 | 5267908 | 3965283 |

@@ -21,6 +21,7 @@ parts:
   - "3086244"
   - "3086251"
   - "3086252"
+  - "3086253"
   - "3086269"
   - "3090194"
   - "3402156"
@@ -28,7 +29,7 @@ parts:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110232.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110232.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110232.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -45,7 +46,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2011-09-28 · изменён 2011-09-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110232.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110232.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110232.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110232.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -99,7 +100,7 @@ tags:
 
 Используйте следующую процедуру в Руководстве по эксплуатации, QST30, Бюллетень [[4021539 — QST30 Service Manual\|4021539]] для информации о сборке натяжителя ремня вентилятора.[[57-008-087-tr — Cooling Fan Belt Tensioner|См. процедуру 008-087 в разделе 8.]]
 
-Это изменение дизайна предназначено для улучшения дизайна ** только ** и не влияет на гарантию. Если ремень вентилятора обнаружен на двигателе QST30, замените натяжитель ремня вентилятора на этот пересмотренный дизайн.
+Это изменение дизайна предназначено для улучшения дизайна **только** и не влияет на гарантию. Если ремень вентилятора обнаружен на двигателе QST30, замените натяжитель ремня вентилятора на этот пересмотренный дизайн.
 
 ### История изменений документа
 
@@ -114,8 +115,9 @@ tags:
 | [[3086244]] | BELT TENSIONER HOUSING | Корпус натяжителя ремня |
 | [[3086251]] | SPRING RETAINER | Тарелка пружины |
 | [[3086252]] | CLEVIS PIN | Палец вилки |
+| [[3086253]] | CONTROL ROD END | Наконечник тяги управления |
 | [[3086269]] | COMPRESSION SPRING | Пружина сжатия |
-| [[3090194]] | DUST SEAL | Пыльник |
+| [[3090194]] | Dust Seal | Пыльник |
 | [[3402156]] | SPRING GUIDE | Направляющая пружины |
 | [[4068466]] | HEXAGON HEAD CAP SCREW | Болт с шестигранной головкой |
 
@@ -156,7 +158,7 @@ tags:
 > |  | 3086247 | 1 | Piece |
 > | [[3086251]] |  | 1 | Retainer, Spring |
 > | [[3086252]] |  | 1 | Pin, Clevis |
-> | 3086253 |  | 1 | End, Control Rod |
+> | [[3086253]] |  | 1 | End, Control Rod |
 > | [[3086269]] |  | 1 | Spring, Compression |
 > | [[3090194]] |  | 1 | Seal, Dust |
 > | [[3402156]] |  | 1 | Guide, Spring |

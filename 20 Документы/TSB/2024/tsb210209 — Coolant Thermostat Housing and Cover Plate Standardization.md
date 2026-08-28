@@ -9,21 +9,26 @@ released: "2024-05-01"
 modified: "2024-05-01"
 group: "08 - Cooling System"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
 parts:
   - "3650106"
   - "3818885"
   - "4372912"
+  - "5376167"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210209.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210209.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210209.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2024"
   - "перевод/машинный"
   - "тема/cooling-system"
@@ -34,10 +39,10 @@ tags:
 
 > [!abstract] TSB · `tsb210209`
 > **Раздел Cummins:** 08 - Cooling System
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
 > **Даты:** выпущен 2024-05-01 · изменён 2024-05-01
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210209.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210209.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210209.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210209.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -92,9 +97,9 @@ tags:
 | Котик, оринг | [[3818885]] | Нет | Нет | - |
 | ГАЗКЕТ | - | - | - | [[3650106]] |
 
-** Совместимость частей**
+**Совместимость частей**
 
-- Новая прокладка ** не** обратно совместима с существующим корпусом термостата охлаждающей жидкости.
+- Новая прокладка **не** обратно совместима с существующим корпусом термостата охлаждающей жидкости.
 - Новый корпус термостата охлаждающей жидкости совместим с существующей крышечной пластиной, когда крышечная пластина установлена в обратной ориентации и используется с прокладкой.
 
 **Часть инвентаризации**
@@ -110,6 +115,7 @@ tags:
 | [[3650106]] | CORROSION RESISTOR GASKET | Прокладка антикоррозионного фильтра |
 | [[3818885]] | O Ring Seal | Уплотнительное кольцо |
 | [[4372912]] | THERMOSTAT HOUSING | Корпус термостата |
+| [[5376167]] | COVER PLATE | Крышка-пластина |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Coolant Thermostat Housing and Cover Plate Standardization
@@ -152,7 +158,7 @@ tags:
 > | Table 1, Service Parts |  |  |  |  |
 > |---|---|---|---|---|
 > | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-> | PLATE, COVER | 3003379 | Yes | Yes | 5376167 |
+> | PLATE, COVER | 3003379 | Yes | Yes | [[5376167]] |
 > | HOUSING, THERMOSTAT | 3035844 | Yes | Yes | [[4372912]] |
 > | SEAL, ORING | [[3818885]] | No | No | - |
 > | GASKET | - | - | - | [[3650106]] |

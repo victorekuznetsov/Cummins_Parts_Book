@@ -17,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-002-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-002-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-002-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section 5 - Maintenance Procedures at 2000 Hours or 1 Year
 > **Даты:** изменён 2017-03-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-002-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-002-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -72,7 +72,7 @@ tags:
 Если детали сломаны или изношены, они должны быть заменены.
 
 - Убедитесь, что шкив холостого хода свободно
-- Убедитесь, что подшипник работает гладко и ** не имеет никакой бесплатной игры.
+- Убедитесь, что подшипник работает гладко и не имеет никакой бесплатной игры.
 - Осмотрите шкив холостого хода на предмет повреждения или износа.
 
 ![[08k00031.png]]

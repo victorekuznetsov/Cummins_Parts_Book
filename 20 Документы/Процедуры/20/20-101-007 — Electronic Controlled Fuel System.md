@@ -8,6 +8,7 @@ title_ru: "Топливная система с электронным упра�
 modified: "2013-11-05"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 14
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-101-007.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-101-007.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-101-007.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Топливная система с электронным управлением**
 
 > [!abstract] Процедура · `20-101-007`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2013-11-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-101-007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-101-007.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-101-007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-101-007.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -61,7 +62,7 @@ tags:
 
 Активные коды неисправностей можно прочитать с помощью предупреждающих (янтарных) и стоп-сигналов (красных) в панели кабины или инструментария электронного обслуживания INSITETM.
 
-Неактивные коды ошибок ** могут быть просмотрены только с помощью инструментария электронного обслуживания INSITETM.
+Неактивные коды ошибок могут быть просмотрены только с помощью инструментария электронного обслуживания INSITETM.
 
 ![[19400330.png]]
 
@@ -128,7 +129,7 @@ tags:
 
 Когда диагностический код неисправности записывается в ECM, данные ввода и вывода ECM регистрируются со всех датчиков и коммутаторов. Данные снимка позволяют просматривать и использовать взаимосвязи между входами и выходами ECM во время устранения неполадок.
 
-Данные снимка кода ошибки ** могут быть просмотрены только с помощью инструментария электронного обслуживания INSITETM.
+Данные снимка кода ошибки могут быть просмотрены только с помощью инструментария электронного обслуживания INSITETM.
 
 ![[19400349.png]]
 

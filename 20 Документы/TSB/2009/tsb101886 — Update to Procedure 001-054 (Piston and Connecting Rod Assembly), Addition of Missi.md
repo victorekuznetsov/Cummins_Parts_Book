@@ -10,12 +10,13 @@ modified: "2006-04-19"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101886.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101886.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101886.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
@@ -29,10 +30,10 @@ tags:
 
 > [!abstract] TSB · `tsb101886`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Даты:** выпущен 2009-12-17 · изменён 2006-04-19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101886.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101886.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101886.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101886.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +57,7 @@ tags:
 > Это усовершенствование продукта и не подлежит кампании.
 
 > [!note] Примечание
-> Это изменение не будет *** выпускать какие-либо новые части или влиять на номера деталей.
+> Это изменение не будет  выпускать какие-либо новые части или влиять на номера деталей.
 
 
 > [!quote]- Original (English) · английский оригинал

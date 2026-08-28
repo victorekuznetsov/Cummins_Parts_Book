@@ -19,7 +19,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240023.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb240023.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb240023.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -36,7 +36,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2024-01-29 · изменён 2024-01-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240023.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb240023.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240023.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb240023.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -58,7 +58,7 @@ tags:
 
 - QST30 CM552
 
-** Резюме проблемы**
+**Резюме проблемы**
 
 Симптом:
 
@@ -88,7 +88,7 @@ tags:
 2. Прямоугольное кольцо, номер детали 129888
 3. Прямоугольное кольцо, часть номер[[4975411]]
 
-** Услуги**
+**Услуги**
 
 См. Таблица 1 для минимальных номеров деталей, которые будут необходимы во время замены щита клапана Shutoff.
 

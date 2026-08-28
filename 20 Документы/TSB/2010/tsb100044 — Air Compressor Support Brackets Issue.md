@@ -9,16 +9,21 @@ released: "2010-05-04"
 modified: "2010-05-04"
 group: "12 - Air System (Compressed)"
 engines:
+  - "37269910"
+  - "37280605"
   - "41349633"
+  - "41353297"
 families:
+  - "K19"
   - "QSK19"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100044.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100044.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100044.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/QSK19"
   - "год/2010"
   - "перевод/машинный"
@@ -30,10 +35,10 @@ tags:
 
 > [!abstract] TSB · `tsb100044`
 > **Раздел Cummins:** 12 - Air System (Compressed)
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
+> **Двигатели:** [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K19, QSK19
 > **Даты:** выпущен 2010-05-04 · изменён 2010-05-04
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100044.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100044.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100044.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100044.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -61,7 +66,7 @@ tags:
 
 Проверьте сварные швы на скобках на наличие трещин или других признаков повреждения.
 
-Если что-либо из этого наблюдается, то сборку скобки *** следует заменить.
+Если что-либо из этого наблюдается, то сборку скобки  следует заменить.
 
 Причиной, как предполагается, является чрезмерное движение в скобках во время работы двигателя. Движение в скобке вызывает износ в рукаве и скобчатых отверстиях. Этот износ позволяет увеличить вибрационную и колебательную нагрузку на кронштейн и корпус компрессора.
 
@@ -69,7 +74,7 @@ tags:
 
 ### Решение
 
-Проверяйте скобки в течение 250 часов регулярного технического обслуживания или во время других ремонтных работ. Если видны трещины/ломки или износ, скобки *** должны быть заменены.
+Проверяйте скобки в течение 250 часов регулярного технического обслуживания или во время других ремонтных работ. Если видны трещины/ломки или износ, скобки  должны быть заменены.
 
 ![[12400054.png]]
 

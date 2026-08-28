@@ -9,17 +9,24 @@ released: "1999-11-01"
 modified: "2015-02-27"
 group: "04 - Cam Follower/Tappets"
 engines:
+  - "77804793"
+  - "82099327"
   - "93058669"
+  - "93087701"
 families:
+  - "A8.5"
   - "C8.3 · 6C8.3"
+  - "QSB6.7"
 figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666475.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3666475.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3666475.pdf"
 tags:
   - "документ/бюллетень"
+  - "двигатель/A8.5"
   - "двигатель/C8.3"
+  - "двигатель/QSB6.7"
   - "перевод/машинный"
   - "тема/cam-follower-tappets"
 ---
@@ -29,10 +36,10 @@ tags:
 
 > [!abstract] Сервисный бюллетень · `3666475`
 > **Раздел Cummins:** 04 - Cam Follower/Tappets
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
+> **Двигатели:** [[77804793 — A8.5 CM2670 L153B CPL 6235|77804793]], [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** A8.5, C8.3 · 6C8.3, QSB6.7
 > **Даты:** выпущен 1999-11-01 · изменён 2015-02-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666475.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3666475.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3666475.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3666475.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -109,7 +116,7 @@ tags:
 | Таблица 2, Руководящие принципы для снижения аппетита |  |  |  |
 |---|---|---|---|
 | Шкала ранжирования | Состояние таппета | повторное использование | Процент оставшейся жизни крана |
-| 0 | Новый кран ** никогда** не работает | Нет ограничений | 100% |
+| 0 | Новый кран **никогда** не работает | Нет ограничений | 100% |
 | 1 | Носить польский, как новый | Безусловное повторное использование | 90% |
 | 2 | Нормальный польский износ, несколько ям менее 2 мм в диаметре | Безусловное повторное использование | 70% |
 | 3 | Тяжелый износ, множественные питтинги, волновой износ, грубый поверхностный дистресс | Условное повторное использование 1 | 50% |

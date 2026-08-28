@@ -8,6 +8,7 @@ title_ru: "Снятие двигателя"
 modified: "2004-12-07"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 14
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-000-001.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-000-001.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-000-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Снятие двигателя**
 
 > [!abstract] Процедура · `41-000-001`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 0 - Complete Engine - Group 00
 > **Даты:** изменён 2004-12-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-000-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-000-001.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-000-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-000-001.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -106,7 +107,7 @@ tags:
 > [!danger] ОПАСНО
 > Этот сборка весит 23 кг[50 фунтов] или более. Чтобы избежать травм, используйте подъемник или получите помощь, чтобы поднять эту сборку.
 
-Оборудование для подъема двигателя ** должно быть спроектировано так, чтобы безопасно поднимать двигатель и трансмиссию в качестве сборки.
+Оборудование для подъема двигателя должно быть спроектировано так, чтобы безопасно поднимать двигатель и трансмиссию в качестве сборки.
 
 > [!note] Примечание
 > В тех случаях, когда задние крепления двигателя крепятся к трансмиссии, вероятно, потребуется удалить двигатель и трансмиссию в виде сборки.
@@ -117,7 +118,7 @@ tags:
 > Используйте правильно оцененный подъемник и подъемник двигателя.
 
 > [!note] Примечание
-> Если передача ** не** удалена, поместите опору под передачу, чтобы предотвратить ее падение.
+> Если передача **не** удалена, поместите опору под передачу, чтобы предотвратить ее падение.
 
 Прикрепить крепление для подъема двигателя, номер детали. 3163264, к крепящимся на двигателе подъемным скобкам.
 

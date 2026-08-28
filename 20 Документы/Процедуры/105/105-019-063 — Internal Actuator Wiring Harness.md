@@ -8,6 +8,7 @@ title_ru: "Внутренний жгут исполнительного меха
 modified: "2004-08-18"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -16,7 +17,7 @@ figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-063.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-063.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-019-063.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -28,12 +29,12 @@ tags:
 **Внутренний жгут исполнительного механизма**
 
 > [!abstract] Процедура · `105-019-063`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section 19 - Electronic Engine Controls
 > **Даты:** изменён 2004-08-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-063.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-063.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-063.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-019-063.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -47,7 +48,7 @@ tags:
 
 Снимите крышку коромысел.
 
-Для двигателей ISM обратитесь к процедуре 003-011 в руководстве по устранению неполадок и ремонту, ISM, ISM e и QSM11 Engines, Bulletin 3666322.
+Для двигателей ISM обратитесь к процедуре 003-011 в руководстве по устранению неполадок и ремонту, ISM, ISM e и QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]].
 
 Для двигателей M11 обратитесь к процедуре 003-011 в руководстве по устранению неполадок и ремонту, двигателям серии M11 (STC, CELECTTM, CELECTTM Plus Models), бюллетень 3666139.
 
@@ -125,7 +126,7 @@ tags:
 
 Установите крышку коромысел.
 
-Для двигателей ISM обратитесь к процедуре 003-011 в руководстве по устранению неполадок и ремонту, ISM, ISM e и QSM11 Engines, Bulletin 3666322.
+Для двигателей ISM обратитесь к процедуре 003-011 в руководстве по устранению неполадок и ремонту, ISM, ISM e и QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]].
 
 Для двигателей M11 обратитесь к процедуре 003-011 в руководстве по устранению неполадок и ремонту, двигателям серии M11 (STC, CELECTTM, CELECTTM Plus Models), бюллетень 3666139.
 
@@ -137,7 +138,7 @@ tags:
 >
 > Remove the rocker lever cover.
 >
-> For the ISM engines refer to Procedure 003-011 in Troubleshooting and Repair Manual, ISM, ISM e, and QSM11 Engines, Bulletin 3666322.
+> For the ISM engines refer to Procedure 003-011 in Troubleshooting and Repair Manual, ISM, ISM e, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]].
 >
 > For the M11 engines refer to Procedure 003-011 in the Troubleshooting and Repair Manual, M11 Series Engines (STC, CELECT™, CELECT™ Plus Models), Bulletin 3666139.
 >
@@ -193,6 +194,6 @@ tags:
 >
 > Install the rocker lever cover.
 >
-> For the ISM engines refer to Procedure 003-011 in Troubleshooting and Repair Manual, ISM, ISM e, and QSM11 Engines, Bulletin 3666322.
+> For the ISM engines refer to Procedure 003-011 in Troubleshooting and Repair Manual, ISM, ISM e, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]].
 >
 > For the M11 engines refer to Procedure 003-011 in the Troubleshooting and Repair Manual, M11 Series Engines (STC, CELECT™, CELECT™ Plus Models), Bulletin 3666139.

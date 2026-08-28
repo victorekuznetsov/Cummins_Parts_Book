@@ -9,17 +9,21 @@ released: "2014-08-26"
 modified: "2014-08-26"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140112.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb140112.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb140112.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2014"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -30,10 +34,10 @@ tags:
 
 > [!abstract] TSB · `tsb140112`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
 > **Даты:** выпущен 2014-08-26 · изменён 2014-08-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140112.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb140112.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140112.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb140112.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -68,7 +72,7 @@ tags:
 - Более 50% (8) датчиков температуры выхлопных газов не функционируют или не работают.
 - Пользователь по выбору отключает 50% (8) датчиков температуры выхлопных газов.
 
-Когда вышеупомянутые условия будут выполнены, диагностические неисправные лампы, относящиеся к датчикам EGT, будут отображаться ** не**. Кроме того, показания температуры будут недоступны для любых оставшихся датчиков EGT, даже если они подключены и функционируют.
+Когда вышеупомянутые условия будут выполнены, диагностические неисправные лампы, относящиеся к датчикам EGT, будут отображаться **не**. Кроме того, показания температуры будут недоступны для любых оставшихся датчиков EGT, даже если они подключены и функционируют.
 
 Если датчики отключены от проводной ремни, крышка должна использоваться для предотвращения попадания грязи и воды при отключении. Для каждого отсоединенного датчика EGT требуется одна часть. Свяжитесь с местным дистрибьютором Cummins® для получения информации об этих частях.
 

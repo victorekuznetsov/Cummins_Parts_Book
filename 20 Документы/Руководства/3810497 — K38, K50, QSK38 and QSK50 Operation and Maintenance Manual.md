@@ -6,25 +6,29 @@ doc: "3810497-history"
 title_en: "K38, K50, QSK38 and QSK50 Operation and Maintenance Manual"
 title_ru: "K38, K50, QSK38 и QSK50: руководство по эксплуатации и обслуживанию"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810497/3810497-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3810497-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3810497-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
 ---
 
 # K38, K50, QSK38 and QSK50 Operation and Maintenance Manual
 **K38, K50, QSK38 и QSK50: руководство по эксплуатации и обслуживанию**
 
 > [!abstract] Руководство · `3810497-history`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810497/3810497-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3810497-history.pdf)
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3810497/3810497-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3810497-history.pdf)
 
 
 ## Оглавление руководства (370 процедур)
@@ -212,20 +216,20 @@ tags:
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-t057-om | This troubleshooting symptom tree has been updated to include details of inspecting the filter screen in the fuel pump shutoff valve block. | 19-Jan-2012 |
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| 3666013-t024-om | Coolant Temperature is Below Normal | 14-Jul-2006 |
-| 3666013-t026-om | Coolant Temperature Above Normal | 14-Jul-2006 |
-| 3666013-t026-155-om | Coolant Temperature Above Normal (Marine) | 14-Jul-2006 |
-| 3666013-t043-om | Engine Hard to Start or Will Not Start (Exhaust Smoke) | 14-Jul-2006 |
-| 3666013-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 14-Jul-2006 |
-| 3666013-t061-011-om | Engine Runs Rough at Idle, Warm Engine | 14-Jul-2006 |
-| 3666013-t072-om | Engine Starts But Will Not Keep Runnings | 14-Jul-2006 |
-| 3666013-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 14-Jul-2006 |
-| 3666013-t078-om | Engine Will Not Crank | 14-Jul-2006 |
-| 3666013-t080-om | Engine Will Not Reach Rated Speed (RPM) | 14-Jul-2006 |
-| 3666013-t081-om | Engine Will Not Shut Off | 14-Jul-2006 |
-| 3666013-t081-006-om | Exhaust Smoke Excessive Under Load | 14-Jul-2006 |
-| 3666013-t105-om | Lubricating Oil Pressure Low | 14-Jul-2006 |
-| 3666013-t057-om | Engine Power Output Low | 19-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t024-om | Coolant Temperature is Below Normal | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-om | Coolant Temperature Above Normal | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-155-om | Coolant Temperature Above Normal (Marine) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t043-om | Engine Hard to Start or Will Not Start (Exhaust Smoke) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t061-011-om | Engine Runs Rough at Idle, Warm Engine | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t072-om | Engine Starts But Will Not Keep Runnings | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t078-om | Engine Will Not Crank | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t080-om | Engine Will Not Reach Rated Speed (RPM) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-om | Engine Will Not Shut Off | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-006-om | Exhaust Smoke Excessive Under Load | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t105-om | Lubricating Oil Pressure Low | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t057-om | Engine Power Output Low | 19-Jul-2006 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 
 ### Section W - Warranty
@@ -330,10 +334,10 @@ tags:
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | om-frwd | Foreword | 22-May-2006 |
 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-titlepage | Titlepage | 31-Jan-2007 |
-| 3666013-toc | Table of Contents |  |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-toc | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | om-frwd | Foreword | 22-May-2006 |
-| 3666013-titlepage | Titlepage | 10-Oct-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-titlepage | Titlepage | 10-Oct-2006 |
 
 ### Section SS - Seasonal Storage (Marine Only)
 
@@ -400,7 +404,7 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]]-backcover | Backcover | 31-Jan-2007 |
-| 3666013-backcover | Backcover | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-backcover | Backcover | 14-Jul-2006 |
 
 ### Section 9 - Maintenance Procedures at 6000 Hours
 

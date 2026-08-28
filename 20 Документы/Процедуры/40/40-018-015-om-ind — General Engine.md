@@ -1,0 +1,99 @@
+---
+aliases:
+  - "Общие сведения о двигателе"
+type: "Процедура"
+doc: "40-018-015-om-ind"
+title_en: "General Engine"
+title_ru: "Общие сведения о двигателе"
+modified: "2019-12-12"
+engines:
+  - "93047320"
+families:
+  - "6B5.9"
+manuals:
+  - "4021389"
+  - "4021391"
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-015-om-ind.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-015-om-ind.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/6B5.9"
+  - "группа/40"
+---
+
+# General Engine
+**Общие сведения о двигателе**
+
+> [!abstract] Процедура · `40-018-015-om-ind`
+> **Двигатели:** [[93047320 — 6B5.9 CPL 3111|93047320]]
+> **Семейство:** 6B5.9
+> **Входит в руководства:** [[4021389 — B3.9, B4.5, B5.9 Industrial Operation and Maintenance Manual|4021389]], [[4021391 — B3.9, B4.5, and B5.9 Industrial Owners Manual|4021391]]
+> **Секции:** Section V - Maintenance Specifications
+> **Даты:** изменён 2019-12-12
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-015-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-015-om-ind.pdf)
+
+### Specifications
+
+| Horsepower | Refer to engine dataplate |
+|---|---|
+
+#### Engine Weight (Dry) Less Flywheel and Electronics
+
+| B4.5 (naturally aspirated) | 326 kg \[721 lb\] |
+|---|---|
+
+| B4.5 and B3.9 (turbocharged) | 338 kg \[745 lb\] |
+|---|---|
+
+| B5.9 | 432 kg \[952 lb\] |
+|---|---|
+
+| Compression Ratio | 18:1 |
+|---|---|
+
+#### Bore
+
+| B3.9 and B5.9 | 102 mm \[4.02 in\] |
+|---|---|
+
+| B4.5 | 107 mm \[4.21 in\] |
+|---|---|
+
+#### Stroke
+
+| B3.9 and B5.9 | 120 mm \[4.72 in\] |
+|---|---|
+
+| B4.5 | 138 mm \[5.42 in\] |
+|---|---|
+
+#### Displacement
+
+| B3.9 | 3.9 liters \[238 C.I.D.\] |
+|---|---|
+
+| B4.5 | 4.5 liters \[275 C.I.D.\] |
+|---|---|
+
+| B5.9 | 5.9 liters \[359 C.I.D.\] |
+|---|---|
+
+#### Firing Order
+
+| B3.9 and B4.5 | 1-3-4-2 |
+|---|---|
+
+| B5.9 | 1-5-3-6-2-4 |
+|---|---|
+
+#### Valve Clearance
+
+| Intake | 0.25 mm \[0.010 in\] |
+|---|---|
+
+| Exhaust | 0.51 mm \[0.020 in\] |
+|---|---|
+
+| Crankshaft Rotation (viewed from the front of the engine) | **Clockwise** |
+|---|---|

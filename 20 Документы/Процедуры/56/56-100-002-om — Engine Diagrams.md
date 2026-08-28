@@ -7,19 +7,29 @@ title_en: "Engine Diagrams"
 title_ru: "Схемы двигателя"
 modified: "2010-02-11"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "4021374"
 figures: 53
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-100-002-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-100-002-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-100-002-om.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/56"
   - "перевод/машинный"
@@ -29,12 +39,12 @@ tags:
 **Схемы двигателя**
 
 > [!abstract] Процедура · `56-100-002-om`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]]
 > **Секции:** Section E - Engine and System Identification
 > **Даты:** изменён 2010-02-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-100-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-100-002-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-100-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-100-002-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -211,7 +221,7 @@ QSK60 Морская сигнализация, безопасность и па�
 6. Датчик температуры коллектора
 7. Датчик температуры масла
 8. Датчик утечки топлива
-9. Датчик давления морской воды (теплообменник охлаждает двигатель **только **)
+9. Датчик давления морской воды (теплообменник охлаждает двигатель **только**)
 10. Переключатель температуры на выходе охлаждающей жидкости
 11. Послеохладитель датчик температуры впуска воды.
 
@@ -221,7 +231,7 @@ QSK60 Морская сигнализация, безопасность и па�
 
 1. Датчики температуры выхлопных газов цилиндра
 2. Датчик температуры выхлопного стека
-3. Переключатель уровня охлаждающей жидкости (двигатели теплообменника **только **)
+3. Переключатель уровня охлаждающей жидкости (двигатели теплообменника **только**)
 4. Датчик температуры охлаждающей жидкости
 5. Переключатель давления на входе охлаждающей жидкости
 6. Датчик давления на входе охлаждающей жидкости

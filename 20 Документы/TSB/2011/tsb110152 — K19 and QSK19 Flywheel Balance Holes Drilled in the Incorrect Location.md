@@ -9,16 +9,21 @@ released: "2011-06-01"
 modified: "2011-06-01"
 group: "16 - Mounting Adaptations"
 engines:
+  - "37269910"
+  - "37280605"
   - "41349633"
+  - "41353297"
 families:
+  - "K19"
   - "QSK19"
 figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110152.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110152.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110152.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/QSK19"
   - "год/2011"
   - "перевод/машинный"
@@ -30,10 +35,10 @@ tags:
 
 > [!abstract] TSB · `tsb110152`
 > **Раздел Cummins:** 16 - Mounting Adaptations
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
+> **Двигатели:** [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K19, QSK19
 > **Даты:** выпущен 2011-06-01 · изменён 2011-06-01
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110152.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110152.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110152.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110152.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,7 +62,7 @@ tags:
 
 ### Решение
 
-Летающие колеса с балансовыми отверстиями в неправильных местах разрешены к использованию и не будут влиять на производительность или долговечность двигателя. Эти маховики ** не являются дефектными и должны ** не** быть возвращены.
+Летающие колеса с балансовыми отверстиями в неправильных местах разрешены к использованию и не будут влиять на производительность или долговечность двигателя. Эти маховики **не являются дефектными и должны **не быть возвращены.
 
 ![[16i00003.png]]
 

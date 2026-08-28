@@ -19,7 +19,7 @@ parts:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200144.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200144.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200144.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -36,7 +36,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2020-07-20 · изменён 2020-07-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200144.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200144.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200144.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200144.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -68,7 +68,7 @@ tags:
 
 Клиент может не испытывать перезапуска или жесткого перезапуска.
 
-** Режим отказа:**
+**Режим отказа:**
 
 После исследования было установлено, что прелюбальный насос не может удовлетворить требования давления прелюбационного переключателя давления с помощью графиков, разработанных на изображениях ECM. Переключатель давления тока, по-видимому, устанавливается на верхнем конце допуска при 30-34 кПа или 4,35-4,93 psi. Из-за низкой вязкости масла после того, как двигатель достигает \>85 ° C, давление прелюбия ниже 4 psi, переключатель никогда не закрывается, чтобы подзарядить цепь стартера для запуска маховика и перевернуть двигатель.
 

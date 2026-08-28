@@ -17,7 +17,7 @@ figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-657.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-657.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-657.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2017-01-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-657.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-019-657.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-019-657.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-019-657.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -96,7 +96,7 @@ tags:
 
 ![[19e02081.png]]
 
-Маршрутизатор датчика температуры выхлопных газов проводкой упряжки ** по часовой стрелке** вокруг форсунки.
+Маршрутизатор датчика температуры выхлопных газов проводкой упряжки **по часовой стрелке** вокруг форсунки.
 
 Установите P-зажимы на крышку рычага клапанного клапана.
 
@@ -119,7 +119,7 @@ tags:
 
 ![[19e02081.png]]
 
-Маршрутизатор датчика температуры выхлопных газов проводкой упряжки ** по часовой стрелке** вокруг форсунки.
+Маршрутизатор датчика температуры выхлопных газов проводкой упряжки **по часовой стрелке** вокруг форсунки.
 
 Установите P-зажимы на крышку рычага качения клапанного клапана и боковую сторону топливной рельсовой кронштейн.
 

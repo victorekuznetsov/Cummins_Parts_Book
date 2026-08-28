@@ -7,20 +7,32 @@ title_en: "Driving Techniques"
 title_ru: "Приёмы вождения"
 modified: "2023-07-10"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "37292556"
   - "37295879"
+  - "80141463"
+  - "80248213"
 families:
+  - "QSK60"
   - "QST30"
+  - "QSX15"
 manuals:
+  - "3666251"
   - "4915520"
+  - "4915528"
+  - "4960314"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-006.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-006.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-006.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
+  - "двигатель/QSX15"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -29,12 +41,12 @@ tags:
 **Приёмы вождения**
 
 > [!abstract] Процедура · `99-101-006`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[4915520 — QST30 Owners Manual|4915520]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]]
+> **Семейство:** QSK60, QST30, QSX15
+> **Входит в руководства:** [[3666251 — Signature and ISX Operation and Maintenance Manual|3666251]], [[4915520 — QST30 Owners Manual|4915520]], [[4915528 — QSK45 and QSK60 Owners Manual|4915528]], [[4960314 — ISX Owners Manual|4960314]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2023-07-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-006.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-006.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского

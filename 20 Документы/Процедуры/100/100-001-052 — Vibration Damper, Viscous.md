@@ -8,6 +8,7 @@ title_ru: "Вязкостный гаситель крутильных колеб
 modified: "2017-03-23"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-001-052.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-001-052.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-001-052.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Вязкостный гаситель крутильных колебаний**
 
 > [!abstract] Процедура · `100-001-052`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2017-03-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-001-052.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-001-052.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-001-052.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-001-052.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -106,7 +107,7 @@ tags:
 
 Установите приводной ремень.[[100-008-002 — Drive Belt, Cooling Fan|См. процедуру 008-002 в разделе 8.]].
 
-** Совет по обслуживанию: ** Если вы испытываете трудности с установкой приводного ремня (ремень кажется слишком коротким), сначала поместите ремень над канавками, а затем, удерживая натяжитель, переведите ремень через шкив водяного насоса.
+**Совет по обслуживанию:** Если вы испытываете трудности с установкой приводного ремня (ремень кажется слишком коротким), сначала поместите ремень над канавками, а затем, удерживая натяжитель, переведите ремень через шкив водяного насоса.
 
 Управляйте двигателем, чтобы проверить работу вибрационного демпфера и ремня привода.
 

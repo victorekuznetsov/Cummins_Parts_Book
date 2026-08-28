@@ -9,21 +9,49 @@ released: "2019-08-14"
 modified: "2019-08-14"
 group: "22 - Service Tools"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "35354607"
+  - "35373113"
+  - "41340468"
   - "41349633"
+  - "41353297"
+  - "71156161"
+  - "80141463"
+  - "80248213"
+  - "82099327"
+  - "85017333"
+  - "93948840"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSB6.7"
   - "QSK19"
+  - "QSK23"
+  - "QSK50"
+  - "QSK60"
+  - "QSM11"
+  - "QSX15"
+  - "QSZ13"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190044.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190044.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190044.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSB6.7"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
+  - "двигатель/QSM11"
+  - "двигатель/QSX15"
+  - "двигатель/QSZ13"
   - "год/2019"
   - "перевод/машинный"
   - "тема/service-tools"
@@ -34,10 +62,10 @@ tags:
 
 > [!abstract] TSB · `tsb190044`
 > **Раздел Cummins:** 22 - Service Tools
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[85017333 — QSK23 CM500 CPL 2858|85017333]], [[93948840 — QSZ13 CM2150 Z102 CPL 4858|93948840]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSB6.7, QSK19, QSK23, QSK50, QSK60, QSM11, QSX15, QSZ13
 > **Даты:** выпущен 2019-08-14 · изменён 2019-08-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190044.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190044.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190044.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190044.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,7 +83,7 @@ tags:
 
 ### Содержание
 
-** Пострадавшие продукты**
+**Пострадавшие продукты**
 
 - Все продукты двигателя с электронным управлением
 

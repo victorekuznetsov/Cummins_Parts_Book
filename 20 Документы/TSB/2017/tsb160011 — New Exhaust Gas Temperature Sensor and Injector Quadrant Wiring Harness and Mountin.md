@@ -9,20 +9,26 @@ released: "2017-01-10"
 modified: "2019-09-03"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
 parts:
   - "5372029"
+  - "5372878"
+  - "5372879"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2016/tsb160011.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb160011.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb160011.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2017"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -33,10 +39,10 @@ tags:
 
 > [!abstract] TSB · `tsb160011`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
 > **Даты:** выпущен 2017-01-10 · изменён 2019-09-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2016/tsb160011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb160011.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2016/tsb160011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb160011.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -86,7 +92,7 @@ tags:
 
 **Указания по обслуживанию**
 
-Новые кронштейны крышки распределительного вала также необходимы при установке новой электропроводки и сборок кронштейнов. Кронштейн крышки распределительного вала установлен на блок цилиндров и один ** должен быть установлен для каждого используемого блока проводов квадранта двигателя.
+Новые кронштейны крышки распределительного вала также необходимы при установке новой электропроводки и сборок кронштейнов. Кронштейн крышки распределительного вала установлен на блок цилиндров и один должен быть установлен для каждого используемого блока проводов квадранта двигателя.
 
 **Наличие сервисных деталей**
 
@@ -100,7 +106,7 @@ tags:
 | Совместимая проводная функциональность EliminatorTM | Неприменимые | 5372879 | 1 | Правильно. |  |  |
 | Кронштейн крышки Camshaft | [[5372029]] | 2 | Левый и правый |  |  |  |
 
-** Совместимость частей**
+**Совместимость частей**
 
 Новые детали совместимы с устаревшими частями, но Cummins Inc. Все квадранты двигателей должны иметь новые компоненты.
 
@@ -152,6 +158,8 @@ tags:
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[5372029]] | CABLE BRACKET | Кронштейн кабеля |
+| [[5372878]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
+| [[5372879]] | ELECTRONIC CONTROL MODULE WIRING HARNESS | Жгут проводов блока управления |
 
 > [!quote]- Original (English) · английский оригинал
 > ## New Exhaust Gas Temperature Sensor and Injector Quadrant Wiring Harness and Mounting Brackets
@@ -204,8 +212,8 @@ tags:
 > |---|---|---|---|---|---|---|
 > | Part Description | Existing Part Number | Obsoleted | Superseded | New Part Number | Quantity Per Engine Bank | Engine Bank |
 > | Wiring Harness and Bracket Assembly | 3642413 | Yes | Yes | 5372877 | 2 | Left |
-> | Wiring Harness and Bracket Assembly | 3642414 | Yes | Yes | 5372878 | 2 | Right |
-> | Eliminator™ Compatible Wiring Harness | Not Applicable | 5372879 | 1 | Right |  |  |
+> | Wiring Harness and Bracket Assembly | 3642414 | Yes | Yes | [[5372878]] | 2 | Right |
+> | Eliminator™ Compatible Wiring Harness | Not Applicable | [[5372879]] | 1 | Right |  |  |
 > | Camshaft Cover Bracket | [[5372029]] | 2 | Left and Right |  |  |  |
 >
 > **Part Compatibility**

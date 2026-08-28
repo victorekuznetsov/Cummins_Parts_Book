@@ -8,6 +8,7 @@ title_ru: "Передний сальник коленчатого вала"
 modified: "2006-06-26"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-023-shopas.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-023-shopas.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-023-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Передний сальник коленчатого вала**
 
 > [!abstract] Процедура · `20-001-023-shopas`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section AS - Engine Assembly - Group 00
 > **Даты:** изменён 2006-06-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-023-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-023-shopas.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-023-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-023-shopas.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -72,7 +73,7 @@ tags:
 Удалите инструмент установки.
 
 > [!note] Примечание
-> Это нормально для уплотнительного фланца, чтобы пружинать от передней крышки, когда инструмент установки удален. Сделайте **не** попытку снова запечатать фланж в качестве щитка передач и повреждения уплотнения ** может** привести к повреждению.
+> Это нормально для уплотнительного фланца, чтобы пружинать от передней крышки, когда инструмент установки удален. Сделайте **не** попытку снова запечатать фланж в качестве щитка передач и повреждения уплотнения **может** привести к повреждению.
 
 ![[01400092.png]]
 

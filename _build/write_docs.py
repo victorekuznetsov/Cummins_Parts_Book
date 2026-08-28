@@ -14,6 +14,7 @@ from common import (BUILD, CAT_DIR, CAT_RU, CAT_TAG, DIRS, DOC_ESN, PDF_BASE,
 
 STATE = os.path.join(BUILD, "state_docs.json")
 CACHE = os.path.join(BUILD, "_cache")
+CACHE_RU = os.path.join(BUILD, "_cache_ru")
 
 
 def engine_note_names(cat_state):
@@ -21,6 +22,72 @@ def engine_note_names(cat_state):
     for esn, e in cat_state.get("engines", {}).items():
         out[esn] = safe_name(f"{esn} — {e['model']} CPL {e['cpl']}")
     return out
+
+
+# ------------------------------- номера документов в тексте -> wiki-ссылки
+PROT = re.compile(r"\[\[[^\]]*\]\]|`[^`]*`|\]\([^)]*\)|https?://\S+")
+REF_PROC = re.compile(r"\b(\d{2,3}-\d{3}-\d{3}(?:-[a-zA-Z]{2})?)\b")
+REF_TSB = re.compile(r"\bTSB[\s\u00a0]?(\d{6})\b", re.I)
+REF_MAN = re.compile(r"\b(\d{7})\b")
+
+
+def make_linkifier(note_of):
+    """note_of(вид, номер) -> имя заметки либо None."""
+
+    def one(text):
+        def proc(m):
+            n = note_of("doc", m.group(1))
+            return f"[[{n}\\|{m.group(1)}]]" if n else m.group(0)
+
+        def tsb(m):
+            n = note_of("doc", "tsb" + m.group(1))
+            return f"[[{n}\\|{m.group(0)}]]" if n else m.group(0)
+
+        def man(m):
+            n = note_of("manual", m.group(1))
+            return f"[[{n}\\|{m.group(1)}]]" if n else m.group(0)
+
+        text = REF_TSB.sub(tsb, text)
+        text = REF_PROC.sub(proc, text)
+        return REF_MAN.sub(man, text)
+
+    def run(md):
+        """Подставляет ссылки только вне уже готовых ссылок и кода."""
+        out = []
+        pos = 0
+        for m in PROT.finditer(md):
+            out.append(one(md[pos:m.start()]))
+            out.append(m.group(0))
+            pos = m.end()
+        out.append(one(md[pos:]))
+        return "".join(out)
+
+    return run
+
+
+def en_fold(body):
+    """Английский оригинал в свёрнутом callout.
+
+    Иллюстрации не дублируем — они показаны в русском тексте выше; вложенные
+    callout-ы разворачиваем в жирные подзаголовки, иначе Obsidian рисует
+    callout внутри callout-а."""
+    out = []
+    for ln in body.split("\n"):
+        s = ln.rstrip()
+        if s.lstrip().startswith("!["):
+            continue
+        m = re.match(r"^>\s*\[!(\w+)\][+-]?\s*(.*)$", s.strip())
+        if m:
+            out.append("**" + (m.group(2).strip() or m.group(1).upper()) + "**")
+            continue
+        if s.lstrip().startswith(">"):
+            s = re.sub(r"^\s*>\s?", "", s)
+        out.append(s)
+    text = re.sub(r"\n{3,}", "\n\n", "\n".join(out).strip())
+    if not text:
+        return ""
+    quoted = "\n".join(("> " + l) if l.strip() else ">" for l in text.split("\n"))
+    return "\n> [!quote]- Original (English) · английский оригинал\n" + quoted + "\n"
 
 
 def doc_folder(cat, doc_id, meta):
@@ -63,6 +130,20 @@ def main():
         if d["cat"] == "manual":
             manual_titles[d["id"].replace("-history", "")] = d
 
+    # номер документа в тексте -> имя заметки, на которую ставим ссылку
+    note_by_doc = {}
+    note_by_man = {}
+    for key, d in docs.items():
+        if d["cat"] == "manual":
+            note_by_man[d["id"].replace("-history", "")] = d["note"]
+        else:
+            note_by_doc[d["id"]] = d["note"]
+
+    def note_of(kind, num):
+        return note_by_man.get(num) if kind == "manual" else note_by_doc.get(num)
+
+    linkify = make_linkifier(note_of)
+
     written = 0
     for key, d in sorted(docs.items()):
         cat, did, note = d["cat"], d["id"], d["note"]
@@ -72,6 +153,10 @@ def main():
         cache_file = os.path.join(CACHE, cat, did + ".md")
         if os.path.exists(cache_file):
             body = open(cache_file, encoding="utf-8").read().strip()
+        body_ru = ""
+        ru_file = os.path.join(CACHE_RU, cat, did + ".md")
+        if cat != "manual" and os.path.exists(ru_file):
+            body_ru = open(ru_file, encoding="utf-8").read().strip()
 
         families = sorted({DOC_ESN[e][0] for e in d["engines"] if e in DOC_ESN})
         cat_engines = sorted({c for e in d["engines"] if e in DOC_ESN
@@ -86,6 +171,8 @@ def main():
                 tags.append("год/" + year)
         if cat == "procedures" and re.match(r"^[0-9]{1,3}-", did):
             tags.append("группа/" + did.split("-")[0])
+        if body_ru:
+            tags.append("перевод/машинный")
         if d.get("group"):
             tags.append("тема/" + re.sub(r"[^0-9A-Za-zА-Яа-я]+", "-",
                                          d["group"].split(" - ")[-1]).strip("-").lower())
@@ -105,6 +192,8 @@ def main():
             "manuals": d.get("manuals", []),
             "parts": d.get("parts", []),
             "figures": d.get("figures", 0) or None,
+            "lang": "ru+en" if body_ru else "en",
+            "translation": "машинный черновик" if body_ru else "",
             "source": d.get("url", ""),
             "pdf": PDF_BASE + d.get("pdf_rel", ""),
             "tags": tags,
@@ -144,6 +233,16 @@ def main():
         head.append("\n".join(info))
         head.append("")
 
+        if body_ru:
+            head.append(
+                "> [!info]- Перевод на русский — машинный черновик\n"
+                "> Русский текст получен автоматическим переводом с английского\n"
+                "> с подстановкой отраслевой терминологии Cummins; он не\n"
+                "> проходил редакторскую вычитку.\n"
+                "> **Юридически значим только английский оригинал** — он\n"
+                "> приведён в свёрнутом блоке в конце заметки и в PDF.\n")
+            head.append("")
+
         if not d.get("present"):
             head.append("> [!missing] Файл документа не выгружен\n"
                         "> В выгрузке QuickServe этот документ отсутствует — "
@@ -181,7 +280,11 @@ def main():
                 out.append("")
             body = "\n".join(out)
 
-        text = "\n".join(head) + "\n" + body + "\n" + parts_block
+        if body_ru:
+            text = ("\n".join(head) + "\n" + linkify(body_ru) + "\n" + parts_block
+                    + "\n" + linkify(en_fold(body)))
+        else:
+            text = "\n".join(head) + "\n" + linkify(body) + "\n" + parts_block
         write_note(os.path.join(doc_folder(cat, did, d), note + ".md"), text)
         written += 1
 

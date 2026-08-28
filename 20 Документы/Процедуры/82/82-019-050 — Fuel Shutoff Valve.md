@@ -8,6 +8,7 @@ title_ru: "Клапан отсечки топлива"
 modified: "2004-12-15"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -16,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-019-050.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-019-050.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-019-050.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -28,12 +29,12 @@ tags:
 **Клапан отсечки топлива**
 
 > [!abstract] Процедура · `82-019-050`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section 19 - Electronic Engine Controls
 > **Даты:** изменён 2004-12-15
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-019-050.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-019-050.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-019-050.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-019-050.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -70,7 +71,7 @@ tags:
 > [!note] Примечание
 > Если соленоид показывает 0 Ом, в катушке есть электрический шорт.
 
-Если сопротивление катушки правильное, то сборку клапана *** необходимо проверить. Если сопротивление катушки не соответствует спецификации, катушка должна быть заменена. См. процедуру 005-043 в руководстве ISM/QSM11 по устранению неполадок и ремонту, Бюллетень 3666322, для проверки клапана.
+Если сопротивление катушки правильное, то сборку клапана  необходимо проверить. Если сопротивление катушки не соответствует спецификации, катушка должна быть заменена. См. процедуру 005-043 в руководстве ISM/QSM11 по устранению неполадок и ремонту, Бюллетень [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]], для проверки клапана.
 
 Установите соленоидный провод после завершения ремонта.
 
@@ -88,7 +89,7 @@ tags:
 
 Используйте мультиметр для проверки напряжения на катушке.
 
-Напряжение ** должно быть таким же, как напряжение батареи.
+Напряжение должно быть таким же, как напряжение батареи.
 
 Выключите зажигание автомобиля.
 
@@ -144,7 +145,7 @@ tags:
 > **Note · Примечание**
 > If the solenoid shows 0 ohms, there is an electrical short in the coil.
 >
-> If the coil resistance is correct, the assembly of the valve **must** be checked. If the coil resistance does **not** meet specification, the coil **must** be replaced. Refer to Procedure 005-043 in the ISM/QSM11 Troubleshooting and Repair Manual, Bulletin 3666322, for inspection of the valve.
+> If the coil resistance is correct, the assembly of the valve **must** be checked. If the coil resistance does **not** meet specification, the coil **must** be replaced. Refer to Procedure [[35-005-043 — Fuel Shutoff Valve|005-043]] in the ISM/QSM11 Troubleshooting and Repair Manual, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]], for inspection of the valve.
 >
 > Install the solenoid wire after completing the repair.
 >

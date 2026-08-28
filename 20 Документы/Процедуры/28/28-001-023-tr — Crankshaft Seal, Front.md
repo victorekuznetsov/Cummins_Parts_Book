@@ -17,7 +17,7 @@ figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-001-023-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-001-023-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-001-023-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2015-09-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-001-023-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-001-023-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-001-023-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-001-023-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -88,7 +88,7 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Не обязательно полностью разрезать рукав износа. Если рукав полностью разрезан, коленчатый вал может быть поврежден.
 
-Если установлена служебная печать с износостойким рукавом, износостойкий рукав *** должен быть снят с коленчатого вала.
+Если установлена служебная печать с износостойким рукавом, износостойкий рукав  должен быть снят с коленчатого вала.
 
 Установите защитный рукав, номер детали 3824764, в цилиндр уплотнения передней шестерни. Защитный рукав защитит переднюю крышку переднего колеса цилиндра от повреждений. Вставьте расширитель (дизель), номер детали 5298877, между износостойким рукавом и защитным рукавом.
 
@@ -109,7 +109,7 @@ tags:
 
 Проверьте на повреждение на уплотнительной зоне коленчатого вала.
 
-Если коленчатый вал выгнут, то должна быть установлена печать, содержащая износной рукав и специальную негабаритную печать ***. См. раздел Установка ниже для установки сборки рукава и уплотнения.
+Если коленчатый вал выгнут, то должна быть установлена печать, содержащая износной рукав и специальную негабаритную печать . См. раздел Установка ниже для установки сборки рукава и уплотнения.
 
 ![[01500035.png]]
 

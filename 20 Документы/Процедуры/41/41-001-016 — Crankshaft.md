@@ -8,6 +8,7 @@ title_ru: "Коленчатый вал"
 modified: "2004-12-07"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 33
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-001-016.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-001-016.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-001-016.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Коленчатый вал**
 
 > [!abstract] Процедура · `41-001-016`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2004-12-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-001-016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-001-016.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-001-016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-001-016.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -47,7 +48,7 @@ tags:
 
 Кранчхейт использует кованые противовесы.
 
-Для обслуживания доступны негабаритные основные подшипники и подшипники тяги. Cummins Engine Company, Inc., рекомендует перемалывать ** все** основные или соединительные стержневые журналы, когда требуется перемалывать. См. руководство по магазинам серии C, Бюллетень No. 3666008.
+Для обслуживания доступны негабаритные основные подшипники и подшипники тяги. Cummins Engine Company, Inc., рекомендует перемалывать **все** основные или соединительные стержневые журналы, когда требуется перемалывать. См. руководство по магазинам серии C, Бюллетень No. 3666008.
 
 ![[ks900gd.png]]
 
@@ -121,7 +122,7 @@ tags:
 - Используйте набор резьбовых вставок, номер детали 3822709.
 
 > [!note] Примечание
-> Если в одном конце повреждено более двух резьбовых отверстий, коленчатый вал *** должен быть заменен.
+> Если в одном конце повреждено более двух резьбовых отверстий, коленчатый вал  должен быть заменен.
 
 ![[ks900sf.png]]
 
@@ -186,11 +187,11 @@ tags:
 | Размер тяги |  |  |  |  |
 |---|---|---|---|---|
 |  | негабаритный | 0.000 | 0,25 мм | 0,50 мм |
-| Журналист | 0.000 | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| диаметр | 0,25 мм | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |
-|  | 0,50 мм | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-|  | 0,75 мм | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |
-|  | 1.00 мм | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |
+| Журналист | 0.000 | X | X | X |
+| диаметр | 0,25 мм | X | X |  |
+|  | 0,50 мм | X |  | X |
+|  | 0,75 мм | X |  |  |
+|  | 1.00 мм | X |  |  |
 
 ![[ks900gd.png]]
 
@@ -224,7 +225,7 @@ tags:
 Используйте легкое консервантное масло для смазки коленчатого вала, чтобы предотвратить ржавчину.
 
 > [!note] Примечание
-> Если коленчатый вал ** не будет использоваться немедленно, защитите деталь пластиковой крышкой, чтобы грязь не прилипала к маслу.
+> Если коленчатый вал не будет использоваться немедленно, защитите деталь пластиковой крышкой, чтобы грязь не прилипала к маслу.
 
 ![[ks200wb.png]]
 
@@ -252,7 +253,7 @@ tags:
 ![[mb9behd.png]]
 
 > [!note] Примечание
-> Основные подшипники пронумерованы для местоположения. № 1 начинается с передней части блока цилиндров, и цифры ** должны ** обращены к стороне распределительного вала двигателя.
+> Основные подшипники пронумерованы для местоположения. № 1 начинается с передней части блока цилиндров, и цифры **должны** обращены к стороне распределительного вала двигателя.
 
 При правильной установке основные подшипники будут на одной стороне.
 
@@ -262,7 +263,7 @@ tags:
 
 ![[mb900hc.png]]
 
-Журнал подшипников тяги ** не имеет тангов или слотов. Уход ** должен быть сделан, чтобы убедиться, что номер, проштампованный на главной подшипниковой крышке, расположен на стороне распределительного вала двигателя.
+Журнал подшипников тяги **не имеет тангов или слотов. Уход** должен быть сделан, чтобы убедиться, что номер, проштампованный на главной подшипниковой крышке, расположен на стороне распределительного вала двигателя.
 
 ![[mb900sa.png]]
 
@@ -281,7 +282,7 @@ tags:
 
 Затягивать основные несущие болты равномерно, следуя проиллюстрированной последовательности.
 
-| ** Момент затяжки:** | ШАГ 1. | 50 Н·м[37 фунт-фут] |
+| **Момент затяжки:** | ШАГ 1. | 50 Н·м[37 фунт-фут] |
 |---|---|---|
 
 |  | ШАГ 2. | 95 Н·м[70 фунт-фут] |
@@ -293,9 +294,9 @@ tags:
 > [!missing]- Иллюстрация `mb9csha.png` не извлечена — смотрите PDF-оригинал документа
 
 > [!note] Примечание
-> Кранкшафт ** должен** свободно вращаться после установки основных подшипников.
+> Кранкшафт **должен** свободно вращаться после установки основных подшипников.
 
-Осмотрите основные подшипниковые установки и размер основных подшипников, если коленчатый вал будет ** не** свободно вращаться.
+Осмотрите основные подшипниковые установки и размер основных подшипников, если коленчатый вал будет **не** свободно вращаться.
 
 ![[ks900se.png]]
 

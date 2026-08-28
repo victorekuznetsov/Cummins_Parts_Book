@@ -8,6 +8,7 @@ title_ru: "Электронный блок управления двигател
 modified: "2024-09-24"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-031.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-019-031.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-019-031.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Электронный блок управления двигателем**
 
 > [!abstract] Процедура · `07-019-031`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[4021442 — C8.3 Marine Electronic Control System Troubleshooting and Repair Manual|4021442]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2024-09-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-031.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-019-031.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-019-031.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-019-031.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -88,7 +89,7 @@ tags:
 
 Распространяйте смазку через носовой части разъема, чтобы она проникала в каждое отверстие штифта и смазывала контакты.
 
-Смазка ** не должна быть видна на поверхности носового платка.
+Смазка не должна быть видна на поверхности носового платка.
 
 ![[19900520.png]]
 
@@ -99,7 +100,7 @@ tags:
 > [!tip] Момент затяжки
 > 3 Н·м [27 фунт-дюйм]
 
-При замене ECM новый ECM** должен быть откалиброван с использованием электронного инструментария.
+При замене ECM новый ECM должен быть откалиброван с использованием электронного инструментария.
 
 ![[19900515.png]]
 

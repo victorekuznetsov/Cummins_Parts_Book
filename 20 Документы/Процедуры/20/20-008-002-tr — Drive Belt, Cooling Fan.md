@@ -8,6 +8,7 @@ title_ru: "Ремень привода вентилятора"
 modified: "2017-03-24"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-002-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-002-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Ремень привода вентилятора**
 
 > [!abstract] Процедура · `20-008-002-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 8 - Cooling System - Group 08
 > **Даты:** изменён 2017-03-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-002-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-002-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +57,7 @@ tags:
 > [!danger] ОПАСНО
 > Бездельник с поясом вентилятора находится под напряжением. Чтобы уменьшить вероятность получения травмы, не позволяйте рукам встать между бездельником и поясом или вентиляторным узлом.
 
-Освободите орехи (1 и 2). Поверните гайку (1)** против часовой стрелки** до конца резьбового стержня, чтобы снять напряжение на поясе.
+Освободите орехи (1 и 2). Поверните гайку (1)**против часовой стрелки** до конца резьбового стержня, чтобы снять напряжение на поясе.
 
 ![[08400007.png]]
 
@@ -71,7 +72,7 @@ tags:
 Если детали сломаны или изношены, они должны быть заменены.
 
 - Убедитесь, что шкив холостого хода свободно
-- Убедитесь, что подшипник работает гладко и ** не имеет никакой бесплатной игры.
+- Убедитесь, что подшипник работает гладко и не имеет никакой бесплатной игры.
 - Осмотрите шкив холостого хода на предмет повреждения или износа.
 
 ![[08k00031.png]]

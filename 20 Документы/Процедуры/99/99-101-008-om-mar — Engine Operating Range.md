@@ -7,19 +7,30 @@ title_en: "Engine Operating Range"
 title_ru: "Рабочий диапазон двигателя"
 modified: "2025-02-11"
 engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
+  - "93047320"
   - "93058669"
+  - "93087701"
 families:
+  - "6B5.9"
   - "C8.3 · 6C8.3"
+  - "QSM11"
 manuals:
   - "3381968"
+  - "4021538"
+  - "4021940"
 figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-008-om-mar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-008-om-mar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-008-om-mar.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/C8.3"
+  - "двигатель/QSM11"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -28,12 +39,12 @@ tags:
 **Рабочий диапазон двигателя**
 
 > [!abstract] Процедура · `99-101-008-om-mar`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
-> **Входит в руководства:** [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]]
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[93047320 — 6B5.9 CPL 3111|93047320]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** 6B5.9, C8.3 · 6C8.3, QSM11
+> **Входит в руководства:** [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]], [[4021538 — B3.9 and B5.9 Recreational Marine Operation and Maintenance Manual|4021538]], [[4021940 — QSM11 Marine Operation and Maintenance Manual|4021940]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2025-02-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-008-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-008-om-mar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-008-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-008-om-mar.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского

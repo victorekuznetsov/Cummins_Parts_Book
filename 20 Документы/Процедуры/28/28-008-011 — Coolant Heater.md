@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-011.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-011.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-011.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 7 - Maintenance Procedures at 1500 Hours or 1 Year
 > **Даты:** изменён 2004-06-01
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-011.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-011.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,7 +55,7 @@ tags:
 > [!note] Примечание
 > Выходное соединение от нагревателя охлаждающей жидкости будет испытывать большое количество тепловых циклов и, следовательно, должно быть высокого качества с определенными эксплуатационными возможностями.
 
-Заменой шлангового материала для нагревателя охлаждающей жидкости на соединение блок- шлангов *** должен быть полиэфирный усиленный силиконовый резиновый материал, способный к температурам 120°C \[250°F\] и минимальному рабочему давлению 689 кПа \[100 psi\].
+Заменой шлангового материала для нагревателя охлаждающей жидкости на соединение блок- шлангов  должен быть полиэфирный усиленный силиконовый резиновый материал, способный к температурам 120°C \[250°F\] и минимальному рабочему давлению 689 кПа \[100 psi\].
 
 | Измерения |  |  |
 |---|---|---|

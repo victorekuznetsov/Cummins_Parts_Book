@@ -10,12 +10,13 @@ modified: "2010-02-19"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104082.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb104082.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104082.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
@@ -29,10 +30,10 @@ tags:
 
 > [!abstract] TSB · `tsb104082`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Даты:** выпущен 2009-12-17 · изменён 2010-02-19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104082.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb104082.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104082.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104082.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +55,7 @@ tags:
 
 Эта процедура была пересмотрена, чтобы позволить более легко устанавливать дополнительный привод на двигателях MRCS, поскольку не требуется выстраивать временные метки на шасси и шасси бездействия.
 
-Такое положение бездельника** не** имеет значения при синхронизации привода аксессуара. **** необходимо центрировать знак времени на распределительном вале в верхнем временном отверстии, а затем поместить знак времени вспомогательного приводного механизма в центре нижнего временного отверстия.
+Такое положение бездельника**не** имеет значения при синхронизации привода аксессуара.  необходимо центрировать знак времени на распределительном вале в верхнем временном отверстии, а затем поместить знак времени вспомогательного приводного механизма в центре нижнего временного отверстия.
 
 Это предотвращает необходимость многократного перекрытия двигателя, чтобы выровнять верхние временные метки.
 

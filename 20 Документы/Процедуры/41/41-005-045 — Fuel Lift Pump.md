@@ -8,16 +8,19 @@ title_ru: "Топливоподкачивающий насос"
 modified: "2003-05-13"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
   - "2883407"
   - "3666003"
+parts:
+  - "3914284"
 figures: 16
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-005-045.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-005-045.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-005-045.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -29,12 +32,12 @@ tags:
 **Топливоподкачивающий насос**
 
 > [!abstract] Процедура · `41-005-045`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 5 - Fuel System - Group 05 · Section A - Adjustment, Repair, and Replacement
 > **Даты:** изменён 2003-05-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-005-045.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-005-045.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-005-045.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-005-045.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -178,7 +181,7 @@ tags:
 > [!tip] Момент затяжки
 > 24 Н·м [18 фунт-фут]
 
-5-мм \[0.20-в\] спейсер (1), номер 3914284, *** должен быть установлен вместе с прокладкой, номер 3931348, с каждой стороны спейсера.
+5-мм \[0.20-в\] спейсер (1), номер 3914284,  должен быть установлен вместе с прокладкой, номер 3931348, с каждой стороны спейсера.
 
 > [!note] Примечание
 > Для некоторых приложений кронштейн, используемый для поддержки других вариантов, заменит 5-мм пробел.
@@ -192,6 +195,11 @@ tags:
 
 ![[ft9tbmd.png]]
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3914284]] | MOUNTING SPACER | Монтажная распорная втулка |
 
 > [!quote]- Original (English) · английский оригинал
 > ### Initial Check
@@ -300,7 +308,7 @@ tags:
 > **Момент затяжки · Torque Value**
 > 24 n•m [18 ft-lb]
 >
-> The 5-mm \[0.20-in\] spacer (1), Part Number 3914284, **must** be installed along with a gasket, Part Number 3931348, on each side of the spacer.
+> The 5-mm \[0.20-in\] spacer (1), Part Number [[3914284]], **must** be installed along with a gasket, Part Number 3931348, on each side of the spacer.
 >
 > **Note · Примечание**
 > For some applications, a bracket used for supporting other options will replace the 5-mm spacer.

@@ -8,6 +8,7 @@ title_ru: "Питание датчика подачи топлива"
 modified: "2010-09-02"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -16,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc387.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc387.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc387.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -28,12 +29,12 @@ tags:
 **Питание датчика подачи топлива**
 
 > [!abstract] Процедура · `82-fc387`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-09-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc387.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-fc387.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-fc387.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-fc387.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 387 PID(P): P221 SPN: 1043 FMI: 3/3 лампы: Желтая СТО: | Высокое напряжение, обнаруженное на линии подачи напряжения ECM к дроссельной заслоне (поставке VTP). | Двигатель будет только *** простаивать. |
+| Код неисправности: 387 PID(P): P221 SPN: 1043 FMI: 3/3 лампы: Желтая СТО: | Высокое напряжение, обнаруженное на линии подачи напряжения ECM к дроссельной заслоне (поставке VTP). | Двигатель будет только  простаивать. |
 
 ![[19c00644.png]]
 
@@ -61,7 +62,7 @@ tags:
 
 ### Описание цепи
 
-ECM поставляет дросселя и дистанционного дросселя с +5 VDC. Если линия подачи на дроссель повреждена, дроссель будет работать ** не** правильно.
+ECM поставляет дросселя и дистанционного дросселя с +5 VDC. Если линия подачи на дроссель повреждена, дроссель будет работать **не** правильно.
 
 ### Расположение компонента
 

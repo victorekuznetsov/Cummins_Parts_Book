@@ -16,13 +16,14 @@ families:
 parts:
   - "3035083"
   - "3035806"
+  - "3041247"
   - "3093939"
   - "3920447"
 figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260089.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb260089.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb260089.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -39,7 +40,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2026-06-22 · изменён 2026-06-22
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260089.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb260089.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260089.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb260089.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -61,7 +62,7 @@ tags:
 
 - QST30 CM552
 
-** Резюме проблемы**
+**Резюме проблемы**
 
 Симптом:
 
@@ -87,7 +88,7 @@ tags:
 
 Установка:
 
-1. Установите болты на защитный механизм вибрационного демпфера. Используемая стиральная машина варьируется в зависимости от места установки. Изолятор ** должен быть расположен между вибрационным демпфером и двигателем.
+1. Установите болты на защитный механизм вибрационного демпфера. Используемая стиральная машина варьируется в зависимости от места установки. Изолятор должен быть расположен между вибрационным демпфером и двигателем.
 
 Верхние места крепления будут использовать каждый:
 
@@ -114,7 +115,7 @@ tags:
 В левом нижнем месте крепления будут использоваться:
 
 - Номер детали[[3920447]]- болты - количество 1
-- Номер детали 4975786 — удерживающее кольцо — величина 1 (**Не видна на снимке, расположена между скобкой и изолятором)
+- Номер детали 4975786 — удерживающее кольцо — величина 1 (Не видна на снимке, расположена между скобкой и изолятором)
 - Номер детали[[3035083]]- изолятор - количество 1
 
 ![[17r02707.png]]
@@ -147,7 +148,7 @@ tags:
 
 Рисунок 7, нижняя часть слева после установки
 
-** Услуги**
+**Услуги**
 
 Предлагаются сервисные части. Номера деталей приведены в таблице 1.
 
@@ -169,6 +170,7 @@ tags:
 |---|---|---|
 | [[3035083]] | VIBRATION ISOLATOR | Виброизолятор |
 | [[3035806]] | PLAIN WASHER | Плоская шайба |
+| [[3041247]] | PLAIN WASHER | Плоская шайба |
 | [[3093939]] | HEXAGON FLANGE HEAD CAP SCREW | Болт с шестигранной головкой и фланцем |
 | [[3920447]] | HEXAGON FLANGE HEAD CAP SCREW | Болт с шестигранной головкой и фланцем |
 
@@ -217,7 +219,7 @@ tags:
 >
 > - Part Number [[3920447]] – capscrew – quantity 1
 > - Part Number 4975786 – retaining ring – quantity 1(**Not** visible in picture, locate between bracket and first washer)
-> - Part Number 3041247 – plain washer – quantity 1
+> - Part Number [[3041247]] – plain washer – quantity 1
 > - Part Number [[3035083]] – isolator – quantity 1
 >
 > Figure 1, Capscrew Assembly for Top Mounting Locations
@@ -267,7 +269,7 @@ tags:
 > | Vibration Damper Guard | 4975804 | No | No | 6636278 |
 > | Isolator | - | No | No | [[3035083]] |
 > | Plain Washer | - | No | No | [[3035806]] |
-> | Plain Washer | - | No | No | 3041247 |
+> | Plain Washer | - | No | No | [[3041247]] |
 > | Hex Flange Head Capscrew | [[3093939]] | No | No | [[3920447]] |
 > | Retaining Ring | 4975786 | No | No | 4975786 |
 >

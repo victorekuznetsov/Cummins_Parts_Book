@@ -16,7 +16,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-000-006.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-000-006.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-000-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section ES - Engine Storage
 > **Даты:** изменён 2019-02-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-000-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-000-006.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-000-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-000-006.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -86,7 +86,7 @@ tags:
 
 Отключите электрическую проводку от топливного насоса соленоида.
 
-Включите ручной запорный клапан топливного насоса ** против часовой стрелки **, пока он не остановится.
+Включите ручной запорный клапан топливного насоса **против часовой стрелки**, пока он не остановится.
 
 Медленно проворачивайте двигатель. Распылите моторное масло в впускной коллектор и впуск воздушного компрессора.
 
@@ -96,7 +96,7 @@ tags:
 
 Установите метку предостережения на двигателе, которая гласит:
 
-- Двигатель не содержит масла **. ** Не пытайтесь управлять двигателем.
+- Двигатель не содержит масла**.** Не пытайтесь управлять двигателем.
 
 Храните двигатель в сухом месте и имеет однородную температуру.
 

@@ -9,17 +9,21 @@ released: "2022-06-09"
 modified: "2022-06-09"
 group: "11 - Exhaust System"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2022/tsb220121.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb220121.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb220121.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2022"
   - "перевод/машинный"
   - "тема/exhaust-system"
@@ -30,10 +34,10 @@ tags:
 
 > [!abstract] TSB · `tsb220121`
 > **Раздел Cummins:** 11 - Exhaust System
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
 > **Даты:** выпущен 2022-06-09 · изменён 2022-06-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2022/tsb220121.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb220121.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2022/tsb220121.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb220121.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -66,9 +70,9 @@ tags:
 
 **Указания по обслуживанию**
 
-Новые номера деталей ** должны быть установлены в виде пары. См. раздел Совместимость частей ниже для получения дополнительной информации.
+Новые номера деталей должны быть установлены в виде пары. См. раздел Совместимость частей ниже для получения дополнительной информации.
 
-** Услуги**
+**Услуги**
 
 Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
 
@@ -78,9 +82,9 @@ tags:
 | Щит, тепло | 3643681 | Да | Да | 5542292 |
 | Щит, тепло | 3643682 | Да | Да | 5542293 |
 
-** Совместимость частей**
+**Совместимость частей**
 
-- ** Не смешивайте существующие и новые номера деталей.
+- Не смешивайте существующие и новые номера деталей.
 - Пример: 5542292 предназначен для установки в 5542293 и будет **не** в 3643682.
 - Новые детали вместе дают полную обратную совместимость с общей сборкой теплового экрана.
 

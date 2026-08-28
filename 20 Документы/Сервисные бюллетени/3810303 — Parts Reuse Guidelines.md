@@ -9,16 +9,28 @@ released: "2016-07-11"
 modified: "2016-09-09"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "37269910"
+  - "37280605"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "K19"
+  - "QSK23"
+  - "QSK60"
   - "QST30"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3810303.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3810303.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3810303.pdf"
 tags:
   - "документ/бюллетень"
+  - "двигатель/K19"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
   - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
@@ -29,10 +41,10 @@ tags:
 
 > [!abstract] Сервисный бюллетень · `3810303`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** K19, QSK23, QSK60, QST30
 > **Даты:** выпущен 2016-07-11 · изменён 2016-09-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3810303.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/3810303.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/3810303.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/3810303.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,7 +64,7 @@ tags:
 
 Бюллетени Сервиса, перечисленные ниже, не применяются ко всем двигателям. Чтобы проверить применимость, сделайте следующее:
 
-1. Прочитайте название бюллетеня службы. Если компонент или система ** не** на двигателе, то он ** не** применяется.
+1. Прочитайте название бюллетеня службы. Если компонент или система **не** на двигателе, то он **не** применяется.
 2. Ищите список двигателей или других квалификаторов в разделе заголовка или введения документа.
 
 | Таблица 1: Руководство по повторному использованию - Базовый двигатель |  |
@@ -96,9 +108,9 @@ tags:
 > |---|---|
 > | Service Bulletin | Title |
 > | 5411359 | Bearing, Counterbore, Cylinder Liner, and Piston Reuse Guidelines for NH/NT and L10 Engines (Originally created in year 1986) |
-> | 4021468 | Articulated Piston Skirt Reuse Guidelines for Signature, ISX, and QSX15 Engines |
-> | 4021925 | Single Piece, Open Skirt Piston Reuse Guidelines |
-> | 4383753 | Cylinder Liner Counterbore Ledge Reuse Guidelines |
+> | [[4021468 — Articulated Piston Skirt Reuse Guidelines for Signature, ISX, and QSX15 Engines\|4021468]] | Articulated Piston Skirt Reuse Guidelines for Signature, ISX, and QSX15 Engines |
+> | [[4021925 — Single Piece, Open Skirt Piston Reuse Guidelines\|4021925]] | Single Piece, Open Skirt Piston Reuse Guidelines |
+> | [[4383753 — Cylinder Liner Counterbore Ledge Reuse Guidelines\|4383753]] | Cylinder Liner Counterbore Ledge Reuse Guidelines |
 > | [[3810387 — Analysis and Prevention of Bearing Failures\|3810387]] | Analysis and Prevention of Bearing Failures |
 > | [[3666052 — Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappet\|3666052]] | Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappets |
 > | [[3666475 — Camshaft and Tappet Reuse Guidelines\|3666475]] | Camshaft and Tappet Reuse Guidelines |
@@ -106,10 +118,10 @@ tags:
 > | Table 2: List of Reuse Guidelines - Exhaust System |  |
 > |---|---|
 > | Service Bulletin | Title |
-> | 2883594 | EGR Cooler Reuse Guidelines for ISX CM871, ISX12/ISX11.9 CM2250, ISX15 CM2250, QSX15 CM2250 ECF, QSX11.9 CM2250 ECF, PowerGen QSX15 CM2250 ECF, and PowerGen QSX15 CM2250 |
+> | [[2883594 — EGR Cooler Reuse Guidelines\|2883594]] | EGR Cooler Reuse Guidelines for ISX CM871, ISX12/ISX11.9 CM2250, ISX15 CM2250, QSX15 CM2250 ECF, QSX11.9 CM2250 ECF, PowerGen QSX15 CM2250 ECF, and PowerGen QSX15 CM2250 |
 > | 4367442 | HE300WG Turbocharger Turbine Housing Reuse Guidelines |
-> | 4021600 | Aftertreatment Diesel Oxidation Catalyst and Aftertreatment Diesel Particulate Filter Reuse Guidelines |
+> | [[4021600 — Aftertreatment Diesel Oxidation Catalyst (DOC) and Aftertreatment Diesel Particulate\|4021600]] | Aftertreatment Diesel Oxidation Catalyst and Aftertreatment Diesel Particulate Filter Reuse Guidelines |
 > | 4022032 | Three Way Catalyst Inspection and Reuse Guidelines |
-> | 4325971 | Aftertreatment Diesel Exhaust Fluid Dosing and Selective Catalytic Reduction System Reuse Guidelines |
+> | [[4325971 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing and Selective Catalytic Reduction (S\|4325971]] | Aftertreatment Diesel Exhaust Fluid Dosing and Selective Catalytic Reduction System Reuse Guidelines |
 >
 > ### Document History

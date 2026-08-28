@@ -15,6 +15,7 @@ families:
   - "QST30"
 parts:
   - "3009477"
+  - "3347591"
   - "4975421"
   - "5593572"
   - "5593573"
@@ -24,7 +25,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210148.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210148.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210148.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -41,7 +42,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2021-11-08 · изменён 2021-11-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210148.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210148.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210148.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210148.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -158,7 +159,7 @@ tags:
 
 | Таблица 2, Информация о производстве |  |  |  |
 |---|---|---|---|
-| ESN First | Постройте дату 1 | растение | Часть номеров изменить |
+| ESN First | Постройте дату 1 | растение | Номер деталиов изменить |
 | 37284240 | 26 марта-2021 | Сеймурский моторный завод | 5593601 |
 | 37284240 | 26 марта-2021 | Сеймурский моторный завод | 5593606 |
 | 37284951 | 2 июля-2021 | Сеймурский моторный завод | [[5593585]] |
@@ -189,6 +190,7 @@ tags:
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3009477]] | SLEEVE | Втулка |
+| [[3347591]] | CONTROL ROD END | Наконечник тяги управления |
 | [[4975421]] | IDLER PULLEY | Натяжной ролик |
 | [[5593572]] | SLEEVE | Втулка |
 | [[5593573]] | CONTROL ROD END | Наконечник тяги управления |
@@ -277,10 +279,10 @@ tags:
 > | Table 1, Service Parts |  |  |  |  |
 > |---|---|---|---|---|
 > | Part Description | Existing Part Number | Obsolete | Superseded | New/Alternative Part Number |
-> | End, Control Rod (Male thread) | 3347591 | No | No | 5593601 |
+> | End, Control Rod (Male thread) | [[3347591]] | No | No | 5593601 |
 > | End, Control Rod (Female thread) | 177269 | No | No | 5593603 |
 > | Tensioner, Belt | 2888890 | No | No | [[5593585]] |
-> | End, Control Rod (Male thread) | 3347591 | No | Yes | [[5593573]] |
+> | End, Control Rod (Male thread) | [[3347591]] | No | Yes | [[5593573]] |
 > | End, Control Rod (Female thread) | 177269 | No | Yes | [[5593574]] |
 > | Assembly, Fan Drive Idler (New sleeves) | [[4975421]] | No | No | Same |
 > | Sleeve | [[3009477]] | No | Yes | [[5593572]] |

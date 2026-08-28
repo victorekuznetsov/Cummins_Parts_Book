@@ -17,7 +17,7 @@ figures: 11
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-002-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-007-002-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-007-002-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months
 > **Даты:** изменён 2016-03-22
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-007-002-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-007-002-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -58,7 +58,7 @@ tags:
 
 Работайте с двигателем до тех пор, пока температура воды не достигнет 60°C[140°F]. Выключи двигатель.
 
-Удалите масляную сливную пробку со дна моторного масла. **Не удаляйте верхние пробки с обеих сторон масляной панели, чтобы слить масло. Они не позволят нефти полностью слиться.
+Удалите масляную сливную пробку со дна моторного масла. Не удаляйте верхние пробки с обеих сторон масляной панели, чтобы слить масло. Они не позволят нефти полностью слиться.
 
 ![[07a00018.png]]
 

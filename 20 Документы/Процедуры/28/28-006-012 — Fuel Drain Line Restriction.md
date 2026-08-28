@@ -17,7 +17,7 @@ figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-012.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-006-012.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-012.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 6 - Injectors and Fuel Lines - Group 06
 > **Даты:** изменён 2021-07-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-012.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-006-012.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-012.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-012.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -50,7 +50,7 @@ tags:
 
 Удалите шланг для слива топлива.
 
-Установите адаптер и датчик измерения давления Часть номер ST-1273, или эквивалент, между шлангом для слива топлива и установкой слива топлива двигателя. Минимальная мощность калибра должна составлять 200 мм рт.ст. \[8 in-Hg\].
+Установите адаптер и датчик измерения давления Номер детали ST-1273, или эквивалент, между шлангом для слива топлива и установкой слива топлива двигателя. Минимальная мощность калибра должна составлять 200 мм рт.ст. \[8 in-Hg\].
 
 - Установите адаптер на входном конце контрольного клапана (если он оборудован).
 - Используйте адаптер шланга от Part Number ST-434 для подключения шланга для измерения давления.
@@ -63,7 +63,7 @@ tags:
 
 ![[oi8gaga.png]]
 
-Убедитесь, что линия стока ** не имеет каких-либо петель или ** не ** обжимается.
+Убедитесь, что линия стока **не имеет каких-либо петель или **не обжимается.
 
 ![[ft8hoca.png]]
 
@@ -107,7 +107,7 @@ tags:
 
 ![[06300060.png]]
 
-Запуск и эксплуатация двигателя при высоком холостом ходу, **no** нагрузке. Ограничение линии слива топлива ** должно быть менее 34 кПа \[10 in-Hg\].
+Запуск и эксплуатация двигателя при высоком холостом ходу, **no** нагрузке. Ограничение линии слива топлива должно быть менее 34 кПа \[10 in-Hg\].
 
 ![[06400053.png]]
 

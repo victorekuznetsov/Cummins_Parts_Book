@@ -24,7 +24,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240188.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb240188.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb240188.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -41,7 +41,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2025-10-16 · изменён 2025-10-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240188.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb240188.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2024/tsb240188.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb240188.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -97,7 +97,7 @@ tags:
 
 Для полевых ремонтов все три насоса для подъема топлива должны быть заменены, если один или несколько насосов для подъема топлива неисправны.
 
-** Услуги**
+**Услуги**
 
 Предлагаются сервисные части. См. таблицу 4 для номеров частей.
 
@@ -134,9 +134,9 @@ tags:
 
 **Публикации затронуты**
 
-| ** Таблица 5, Затронутые публикации** |  |  |  |  |  |
+| **Таблица 5, Затронутые публикации** |  |  |  |  |  |
 |---|---|---|---|---|---|
-| ** Типы **** | ** Машина** | ** Номер бюллетеня** | **Заголовок процедуры** | ** Процедура** | ** Раздел ** |
+| **Типы**| **Машина** | **Номер бюллетеня** | **Заголовок процедуры** | **Процедура** | **Раздел**|
 | Руководство по обслуживанию | QST30 | [[4021539 — QST30 Service Manual\|4021539]] | Топливоподкачивающий насос | См. процедуру 005-045 | 5 |
 | Руководство по эксплуатации и техническому обслуживанию | QST30 | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Регламент технического обслуживания | [[57-102-002-om — Maintenance Schedule\|См. процедуру 102-002]] | 2 |
 | Руководство по эксплуатации и техническому обслуживанию | QST30 | [[3666134 — QST30 Operation and Maintenance Manual\|3666134]] | Топливоподкачивающий насос | См. процедуру 005-045 | 6 |

@@ -10,13 +10,14 @@ modified: "2020-06-01"
 group: "02 - Cylinder Head"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200118.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200118.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200118.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
@@ -30,10 +31,10 @@ tags:
 
 > [!abstract] TSB · `tsb200118`
 > **Раздел Cummins:** 02 - Cylinder Head
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Даты:** выпущен 2020-06-01 · изменён 2020-06-01
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200118.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200118.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200118.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200118.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -74,7 +75,7 @@ tags:
 
 **Наличие сервисных деталей**
 
-Номера деталей ** не** изменены для головок цилиндров. Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
+Номера деталей **не** изменены для головок цилиндров. Сервисные детали доступны для заказа. Номера деталей приведены в таблице 1.
 
 | Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|

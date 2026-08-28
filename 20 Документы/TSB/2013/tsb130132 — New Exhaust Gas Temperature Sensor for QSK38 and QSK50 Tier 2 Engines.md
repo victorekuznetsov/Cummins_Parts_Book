@@ -9,17 +9,23 @@ released: "2013-09-05"
 modified: "2013-09-05"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
+parts:
+  - "4326918"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130132.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130132.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130132.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2013"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -30,10 +36,10 @@ tags:
 
 > [!abstract] TSB · `tsb130132`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
 > **Даты:** выпущен 2013-09-05 · изменён 2013-09-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130132.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130132.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130132.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130132.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -68,6 +74,11 @@ tags:
 
 ### История изменений документа
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[4326918]] | TEMPERATURE SENSOR | Датчик температуры |
 
 > [!quote]- Original (English) · английский оригинал
 > ## New Exhaust Gas Temperature Sensor for QSK38 and QSK50 Tier 2 Engines
@@ -89,7 +100,7 @@ tags:
 > | Table 1: New Exhaust Gas Temperature Sensor Numbers |  |  |
 > |---|---|---|
 > | Description | New Part Number | Old Part Number |
-> | Exhaust Gas Temperature Sensor | 4326918 | 4954490 |
+> | Exhaust Gas Temperature Sensor | [[4326918]] | 4954490 |
 >
 > Use the following procedure for more information on removal and installation of the exhaust gas temperature sensor in the K38 and K50 CENSE™ Electronic Control System Troubleshooting and Repair Manual, Bulletin [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M\|4022102]]. [[122-019-013 — Exhaust Temperature Sensor|Refer to Procedure 019-013 in Section 19.]]
 >

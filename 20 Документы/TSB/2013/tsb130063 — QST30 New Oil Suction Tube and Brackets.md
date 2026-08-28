@@ -21,7 +21,7 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130063.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130063.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130063.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -38,7 +38,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2013-12-13 · изменён 2013-12-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130063.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130063.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130063.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130063.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +56,7 @@ tags:
 
 ### Содержание
 
-В этом документе представлены новые всасывающие трубки и скобки для QST30 с задней глубокой отстойной подачей; вариант OP5137 **только **. Масляная всасывающая трубка и скобки были разработаны для уменьшения растрескивания масляной всасывающей трубки, вызванного вибрацией.
+В этом документе представлены новые всасывающие трубки и скобки для QST30 с задней глубокой отстойной подачей; вариант OP5137 **только**. Масляная всасывающая трубка и скобки были разработаны для уменьшения растрескивания масляной всасывающей трубки, вызванного вибрацией.
 
 Новая трубка сделана из более толстого материала. Кроме того, пикап был перенесен вперед по сравнению с предыдущим дизайном. Конструкция кронштейна изменилась с одной центральной кронштейн, на блок-монтированный кронштейн и вертикальный кронштейн.
 

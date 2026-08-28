@@ -7,11 +7,12 @@ title_en: "C Command Elite and C Command Elite Plus Panel System Marine Owners M
 title_ru: "C Command Elite и Elite Plus: судовое руководство владельца пультовой системы"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/4021618-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021618-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021618-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/QSK19"
@@ -21,9 +22,9 @@ tags:
 **C Command Elite и Elite Plus: судовое руководство владельца пультовой системы**
 
 > [!abstract] Руководство · `4021618-history`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/4021618-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021618-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/4021618-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021618-history.pdf)
 
 
 ## Оглавление руководства (20 процедур)

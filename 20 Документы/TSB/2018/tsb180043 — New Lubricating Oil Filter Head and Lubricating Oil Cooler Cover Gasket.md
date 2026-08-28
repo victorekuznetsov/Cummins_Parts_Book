@@ -10,6 +10,7 @@ modified: "2018-08-13"
 group: "07 - Lubricating Oil Systems"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 parts:
@@ -19,7 +20,7 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180043.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb180043.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180043.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
@@ -33,10 +34,10 @@ tags:
 
 > [!abstract] TSB · `tsb180043`
 > **Раздел Cummins:** 07 - Lubricating Oil Systems
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2018-08-13 · изменён 2018-08-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb180043.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180043.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -98,9 +99,9 @@ tags:
 | 4936582 | Да | Да | 5475712 |  |
 | Прокладка крышки маслоохладителя | [[3929011]] | Нет | Нет | 5403905 |
 
-** Совместимость частей**
+**Совместимость частей**
 
-Новая прокладка крышки моторного масла *** совместима только с новыми номерами головных частей фильтра моторного масла.
+Новая прокладка крышки моторного масла  совместима только с новыми номерами головных частей фильтра моторного масла.
 
 **Идентификация детали**
 

@@ -7,19 +7,29 @@ title_en: "Fuel Filter, Remote Mounted"
 title_ru: "Топливный фильтр выносного монтажа"
 modified: "2011-08-30"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "4021374"
 figures: 11
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-011-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-006-011-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-011-om.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/56"
   - "перевод/машинный"
@@ -29,12 +39,12 @@ tags:
 **Топливный фильтр выносного монтажа**
 
 > [!abstract] Процедура · `56-006-011-om`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]]
 > **Секции:** Section 3 - Maintenance Procedures at Daily Interval
 > **Даты:** изменён 2011-08-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-011-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-006-011-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-011-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-011-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +63,7 @@ tags:
 
 #### Промышленное применение и генераторные установки
 
-- Накопленная вода ** должна быть слита ежедневно.
+- Накопленная вода должна быть слита ежедневно.
 - Для топлива, имеющего высокое содержание воды, потребуется более частое дренаж.
 - Не позволяйте топливу стекать на землю. Дренажное топливо должно быть утилизировано в соответствии с местными экологическими нормами.
 
@@ -92,7 +102,7 @@ tags:
 
 #### Применение двойного/тройного фильтра
 
-- Накопленная вода ** должна быть слита ежедневно.
+- Накопленная вода должна быть слита ежедневно.
 - Для топлива, имеющего высокое содержание воды, потребуется более частое дренаж.
 
 Выключи двигатель.
@@ -127,7 +137,7 @@ tags:
 
 #### Морские Triplex/Quadplex приложения
 
-- Накопленная вода ** должна быть слита ежедневно.
+- Накопленная вода должна быть слита ежедневно.
 - Для топлива, имеющего высокое содержание воды, потребуется более частое дренаж.
 
 Переместить ручку фильтр-селектора в положение выключения для фильтра, который должен быть слит.
@@ -164,10 +174,10 @@ tags:
 
 Фильтры 1-й стадии промышленного и энергетического применения содержат четкую крышку для проверки уровня топлива в фильтре. Со временем уровень топлива в фильтре будет повышаться по мере загрязнения фильтра.
 
-Фильтр *** должен быть заменен, если уровень топлива достигает верхней части фильтрующего элемента (1) до стандартного интервала технического обслуживания. Проверьте уровень топлива в фильтре. Заменить, если это необходимо. См. процедуру 006-075 в разделе 4.
+Фильтр  должен быть заменен, если уровень топлива достигает верхней части фильтрующего элемента (1) до стандартного интервала технического обслуживания. Проверьте уровень топлива в фильтре. Заменить, если это необходимо. См. процедуру 006-075 в разделе 4.
 
 > [!note] Примечание
-> Уровень топлива в фильтре ** не **, чтобы использоваться в качестве монитора продолжительности жизни. Срок службы фильтра должен ** не ** превышать стандартный интервал обслуживания.
+> Уровень топлива в фильтре **не**, чтобы использоваться в качестве монитора продолжительности жизни. Срок службы фильтра должен **не** превышать стандартный интервал обслуживания.
 
 ![[06s00004.png]]
 
@@ -178,12 +188,12 @@ tags:
 Фильтрующий элемент в этих системах фильтрации использует стальную крышку и, следовательно, содержит всплывающий индикатор, указывающий, когда фильтры загрязнены до стандартного интервала обслуживания. Всплывающий индикатор расположен на правой стороне корпуса фильтра на неклассированных системах и между двумя фильтрами на классных системах, как указано стрелками.
 
 > [!note] Примечание
-> Всплывающие индикаторы ** не** показаны на этих графиках.
+> Всплывающие индикаторы **не** показаны на этих графиках.
 
 Когда индикатор всплывет, все фильтры должны быть изменены. См. процедуру 006-075 в разделе 4.
 
 > [!note] Примечание
-> Всплывающий индикатор ** не ** используется в качестве монитора продолжительности жизни. Срок службы фильтра ** не должен ** превышать стандартный интервал обслуживания.
+> Всплывающий индикатор **не** используется в качестве монитора продолжительности жизни. Срок службы фильтра **не должен** превышать стандартный интервал обслуживания.
 
 ![[06s00005.png]]
 
@@ -218,7 +228,7 @@ tags:
 >
 > Start the engine, raising the rpm for 1 minute to purge the air from the system.
 >
-> If the engine fails to start, prime the filter to remove the excess air. Refer to Procedure 006-015 in Section 6. [[56-006-015-om — Fuel Filter (Spin-On Type)|Refer to Procedure 006-015 in Section 4.]]
+> If the engine fails to start, prime the filter to remove the excess air. [[56-006-015-tr — Fuel Filter (Spin-On Type)|Refer to Procedure 006-015 in Section 6.]] [[56-006-015-om — Fuel Filter (Spin-On Type)|Refer to Procedure 006-015 in Section 4.]]
 >
 > **WARNING · Опасно**
 > Depending on the circumstance, fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
@@ -250,7 +260,7 @@ tags:
 >
 > Start the engine, raising the rpm for 1 minute to purge the air from the system.
 >
-> If the engine does **not** start, perform the prime procedure to remove the excess air. Refer to Procedure 006-015 in Section 6. [[56-006-015-om — Fuel Filter (Spin-On Type)|Refer to Procedure 006-015 in Section 4.]]
+> If the engine does **not** start, perform the prime procedure to remove the excess air. [[56-006-015-tr — Fuel Filter (Spin-On Type)|Refer to Procedure 006-015 in Section 6.]] [[56-006-015-om — Fuel Filter (Spin-On Type)|Refer to Procedure 006-015 in Section 4.]]
 >
 > **WARNING · Опасно**
 > Depending on the circumstance, fuel is flammable. When inspecting or performing service or repairs on the fuel system, to reduce the possibility of fire and resulting severe personal injury, death or property damage, never smoke or allow sparks or flames (such as pilot lights, electrical switches, or welding equipment) in the work area.
@@ -281,7 +291,7 @@ tags:
 >
 > If the engine is in operation, slowly open the selector valve handle to the ON position, allowing extra time to purge air from the system.
 >
-> If the engine fails to run properly perform the prime procedure to remove the excess air. Refer to Procedure 006-015 in Section 6. [[56-006-015-om — Fuel Filter (Spin-On Type)|Refer to Procedure 006-015 in Section 4.]]
+> If the engine fails to run properly perform the prime procedure to remove the excess air. [[56-006-015-tr — Fuel Filter (Spin-On Type)|Refer to Procedure 006-015 in Section 6.]] [[56-006-015-om — Fuel Filter (Spin-On Type)|Refer to Procedure 006-015 in Section 4.]]
 >
 > ### Maintenance Check
 >
@@ -291,7 +301,7 @@ tags:
 >
 > Industrial and Power Generation application stage 1 filters contain a clear cover for inspection of the fuel level in the filter. Over time the fuel level in the filter will rise as the filter becomes contaminated.
 >
-> The filter **must** be replaced if the fuel level reaches the top of the filter element (1) prior to the standard maintenance interval. Check the fuel level in the filter. Replace if required. Refer to Procedure 006-075 in Section 4.
+> The filter **must** be replaced if the fuel level reaches the top of the filter element (1) prior to the standard maintenance interval. Check the fuel level in the filter. Replace if required. [[56-006-075-om — Fuel Filter (Stage 1)|Refer to Procedure 006-075 in Section 4.]]
 >
 > **Note · Примечание**
 > The fuel level in the filter is **not** to be used as an extended life monitor. Filter life must **not** exceed the standard maintenance interval.
@@ -305,7 +315,7 @@ tags:
 > **Note · Примечание**
 > The pop-up indicators are **not** shown on these graphics.
 >
-> When the indicator pops up, all filters **must** be changed. Refer to Procedure 006-075 in Section 4.
+> When the indicator pops up, all filters **must** be changed. [[56-006-075-om — Fuel Filter (Stage 1)|Refer to Procedure 006-075 in Section 4.]]
 >
 > **Note · Примечание**
 > The pop up indicator is **not** to be used as an extended life monitor. Filter life **must not** exceed the standard maintenance interval.

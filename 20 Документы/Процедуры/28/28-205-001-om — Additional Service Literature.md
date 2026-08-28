@@ -17,7 +17,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-205-001-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-205-001-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-205-001-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]], [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section L - Service Literature
 > **Даты:** изменён 2010-07-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-205-001-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-205-001-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-205-001-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-205-001-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -51,7 +51,7 @@ tags:
 | Вестник | Название публикации |
 |---|---|
 | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Руководство по эксплуатации K38, K50, QSK38 и QSK50 |
-| 3666070 | Руководство по устранению неполадок и ремонту системы CENTRYTM |
+| [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]] | Руководство по устранению неполадок и ремонту системы CENTRYTM |
 | 3810385 | Руководство по устранению неполадок и ремонту, система контроля времени выполнения шагов |
 | 3810432 | Руководство по устранению неполадок и ремонту двигателей серий K38 и K50 |
 | 4021533 | QSK50 и QSK60 (CM850 Modular Common Rail System) Руководство по устранению неполадок и ремонту |
@@ -107,7 +107,7 @@ tags:
 > | Bulletin | Title of Publication |
 > |---|---|
 > | [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] | Service Manual K38, K50, QSK38 and QSK50 |
-> | 3666070 | CENTRY™ System Troubleshooting and Repair Manual |
+> | [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]] | CENTRY™ System Troubleshooting and Repair Manual |
 > | 3810385 | Troubleshooting and Repair Manual, Step Timing Control System |
 > | 3810432 | Troubleshooting and Repair Manual, K38 and K50 Series Engines |
 > | 4021533 | QSK50 and QSK60 (CM850 Modular Common Rail System) Troubleshooting and Repair Manual |

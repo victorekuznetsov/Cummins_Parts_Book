@@ -23,7 +23,7 @@ parts:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-018-024.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-018-024.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-018-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -40,7 +40,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[4915520 — QST30 Owners Manual|4915520]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2022-09-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-018-024.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-018-024.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +56,7 @@ Fleetguard® является дочерней компанией Cummins Inc. �
 
 Продукты Fleetguard® соответствуют всем требованиям Cummins Inc. Стандарты испытаний на источник для обеспечения качественной фильтрации, необходимой для достижения срока службы двигателя. Если другие бренды заменяются, покупатель должен настаивать на продуктах, которые поставщик протестировал для удовлетворения Cummins Inc. Высокие стандарты качества.
 
-Cummins Inc. ** не несет ответственности за проблемы, вызванные ненастоящими фильтрами, которые не соответствуют требованиям Cummins Inc. Требования к производительности и/или долговечности.
+Cummins Inc. не несет ответственности за проблемы, вызванные ненастоящими фильтрами, которые не соответствуют требованиям Cummins Inc. Требования к производительности и/или долговечности.
 
 Типы фильтров и номера частей:
 
@@ -65,7 +65,7 @@ Cummins Inc. ** не несет ответственности за пробле
 | Cummins Part Number (Часовой номер) | [[3889310]] |
 |---|---|
 
-| Fleetguard - Часть номер | LF670 |
+| Fleetguard - Номер детали | LF670 |
 |---|---|
 
 #### Фильтр моторного масла (Bypass)
@@ -73,7 +73,7 @@ Cummins Inc. ** не несет ответственности за пробле
 | Cummins Part Number (Часовой номер) | [[3889311]] |
 |---|---|
 
-| Fleetguard - Часть номер | LF777 |
+| Fleetguard - Номер детали | LF777 |
 |---|---|
 
 #### Фильтр моторного масла (полный поток)
@@ -81,7 +81,7 @@ Cummins Inc. ** не несет ответственности за пробле
 | Cummins Part Number (Часовой номер) | [[4367100]] |
 |---|---|
 
-| Fleetguard - Часть номер | LF14000NN |
+| Fleetguard - Номер детали | LF14000NN |
 |---|---|
 
 #### Фильтр топлива (20 микрон, без разделения воды)
@@ -89,7 +89,7 @@ Cummins Inc. ** не несет ответственности за пробле
 | Cummins Part Number (Часовой номер) | 3313306 |
 |---|---|
 
-| Fleetguard - Часть номер | FF202 |
+| Fleetguard - Номер детали | FF202 |
 |---|---|
 
 #### Топливный фильтр (10 микрон, с разделением воды)
@@ -97,7 +97,7 @@ Cummins Inc. ** не несет ответственности за пробле
 | Cummins Part Number (Часовой номер) | 3089916 |
 |---|---|
 
-| Fleetguard - Часть номер | FS1006 |
+| Fleetguard - Номер детали | FS1006 |
 |---|---|
 
 #### Топливный префильтр (140 мкм, без разделения воды)
@@ -105,7 +105,7 @@ Cummins Inc. ** не несет ответственности за пробле
 | Cummins Part Number (Часовой номер) | [[4010476]] |
 |---|---|
 
-| Fleetguard - Часть номер | FF2203 |
+| Fleetguard - Номер детали | FF2203 |
 |---|---|
 
 #### Фильтр охлаждающей жидкости
@@ -113,7 +113,7 @@ Cummins Inc. ** не несет ответственности за пробле
 | Cummins Part Number (Часовой номер) | [[3100308]] |
 |---|---|
 
-| Fleetguard - Часть номер | WF2075 |
+| Fleetguard - Номер детали | WF2075 |
 |---|---|
 
 ## Детали, упомянутые в документе

@@ -10,12 +10,15 @@ modified: "2010-02-09"
 group: "01 - Cylinder Block"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+parts:
+  - "3934486"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100917.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100917.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100917.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
@@ -29,10 +32,10 @@ tags:
 
 > [!abstract] TSB · `tsb100917`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2010-02-09 · изменён 2010-02-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100917.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100917.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100917.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100917.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -59,12 +62,17 @@ tags:
 | Все | 3911698 | 3911699 | 3934486 |
 
 > [!note] Примечание
-> Ремонт должен заменить заднюю печать ** только **, если это необходимо.
+> Ремонт должен заменить заднюю печать **только**, если это необходимо.
 
 Исправление было произведено 16 октября 2009 года. Серийный номер двигателя (ESN) - 73039070.
 
 В настоящее время ТОР 0959 издана с подробными инструкциями по ремонту.
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3934486]] | Rr Crankseal Serv Kit |  |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Rear Crankshaft Seal for Dry Flywheel Housing Arrangements
@@ -77,11 +85,11 @@ tags:
 >
 > This Technical Service Bulletin identifies a rear crankshaft seal for dry flywheel housing arrangements on some 6C, ISC CM850, ISC CM2150, QSC, ISL CM2150, ISLG, QSL9, C8.3G, C Gas Plus, and L Gas Plus engines that were originally built with a crankshaft seal for wet flywheel housing arrangements.
 >
-> The option content of FH9523 allowed the assembly of a wet rear seal, Part Number 3911698, into a dry flywheel housing arrangement, Part Number 3911699. The replacement dry rear seal kit is Part Number 3934486.
+> The option content of FH9523 allowed the assembly of a wet rear seal, Part Number 3911698, into a dry flywheel housing arrangement, Part Number 3911699. The replacement dry rear seal kit is Part Number [[3934486]].
 >
 > | Engine Serial Number (ESN) | Wet Seal | Dry Seal | Replacement Kit |
 > |---|---|---|---|
-> | All | 3911698 | 3911699 | 3934486 |
+> | All | 3911698 | 3911699 | [[3934486]] |
 >
 > **Note · Примечание**
 > The repair is to replace the rear seal **only** if required.

@@ -8,6 +8,7 @@ title_ru: "Передняя крышка шестерён"
 modified: "2017-05-24"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 23
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-031-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-031-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-031-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Передняя крышка шестерён**
 
 > [!abstract] Процедура · `20-001-031-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 1 - Cylinder Block · Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2017-05-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-031-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-031-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-031-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-031-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -102,7 +103,7 @@ tags:
 > [!danger] ОПАСНО
 > Масса этого узла больше 23 кг \[50 фунтов\]. Чтобы не получить тяжёлую травму, поднимайте этот узел с помощником или подходящим грузоподъёмным оборудованием.
 
-Дюбель мастера ** должен быть удален до того, как можно будет снять крышку передач.
+Дюбель мастера должен быть удален до того, как можно будет снять крышку передач.
 
 Используйте болты 5/16-18 или резьбовый стержень. Используйте старый поршневой штифт или молоток. Уберите дюбель.
 
@@ -132,7 +133,7 @@ tags:
 
 ![[01400337.png]]
 
-Измерьте внутренний диаметр втулок. Втулки *** должны быть заменены, если ** не** в пределах спецификаций.
+Измерьте внутренний диаметр втулок. Втулки **должны быть заменены, если **не в пределах спецификаций.
 
 | Драйв и водяной насос Драйв Бушинг внутри диаметра |  |  |
 |---|---|---|
@@ -201,7 +202,7 @@ tags:
 | 18.215 | Мин | 0.717 |
 | 18.265 | Макс | 0.719 |
 
-Втулка *** должна быть заменена, если ** не** в пределах спецификаций.
+Втулка **должна быть заменена, если **не в пределах спецификаций.
 
 > [!missing]- Иллюстрация `01400333.png` не извлечена — смотрите PDF-оригинал документа
 

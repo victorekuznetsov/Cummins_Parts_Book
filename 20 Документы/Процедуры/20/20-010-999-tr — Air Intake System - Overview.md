@@ -8,6 +8,7 @@ title_ru: "Система впуска воздуха — обзор"
 modified: "2006-06-28"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-999-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-999-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-999-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Система впуска воздуха — обзор**
 
 > [!abstract] Процедура · `20-010-999-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section F - Familiarization
 > **Даты:** изменён 2006-06-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-999-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-999-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-999-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-999-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +57,7 @@ tags:
 
 ![[10400003.png]]
 
-Все двигатели QSK19 имеют турбокомпрессоры. Турбокомпрессоры также имеют охлажденные водой подшипники. Это дает турбокомпрессору увеличенный срок службы за счет снижения вреда от **горячих ** отключений.
+Все двигатели QSK19 имеют турбокомпрессоры. Турбокомпрессоры также имеют охлажденные водой подшипники. Это дает турбокомпрессору увеличенный срок службы за счет снижения вреда от **горячих** отключений.
 
 Турбокомпрессор использует энергию выхлопных газов для поворота колеса турбины. Это колесо турбины приводит в действие компрессорный импеллер, который обеспечивает под давлением воздух для двигателя для сгорания.
 

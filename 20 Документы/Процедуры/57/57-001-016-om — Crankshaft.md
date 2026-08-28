@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-001-016-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-001-016-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-001-016-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section 5 - Maintenance Procedures at 2000 Hours or 1 Year
 > **Даты:** изменён 2013-01-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-001-016-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-001-016-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-001-016-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-001-016-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -51,7 +51,7 @@ tags:
 
 Измерьте конечный зазор, прикрепив индикатор к стойке против демпфера или шкива, при этом пощупывая переднюю крышку и внутреннюю часть шкива или демпфера.
 
-Конечный зазор ** должен присутствовать с двигателем, установленным в блоке и собранным в трансмиссию или преобразователь.
+Конечный зазор должен присутствовать с двигателем, установленным в блоке и собранным в трансмиссию или преобразователь.
 
 Используйте индикатор циферблата для измерения оконечного зазора коленчатого вала.
 
@@ -63,7 +63,7 @@ tags:
 
 Предельный ремонт: 0,50 мм \[0,0197 в\].
 
-Если разрешение ** не** в пределах спецификаций, обратитесь в авторизованное место ремонта Cummins®.
+Если разрешение **не** в пределах спецификаций, обратитесь в авторизованное место ремонта Cummins®.
 
 ![[01a00003.png]]
 

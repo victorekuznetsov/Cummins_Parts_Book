@@ -8,6 +8,7 @@ title_ru: "Датчик давления масла до фильтра"
 modified: "2007-04-16"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-126.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-126.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-126.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Датчик давления масла до фильтра**
 
 > [!abstract] Процедура · `116-019-126`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual|4021617]]
 > **Секции:** Section 19 - Electronic Engine Controls
 > **Даты:** изменён 2007-04-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-126.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-019-126.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-019-126.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-019-126.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,19 +53,19 @@ tags:
 
 Удалите разъем C Command Elite Plus с проводкой предварительного фильтра для датчика давления масла.
 
-Удалите датчик давления масла предварительного фильтра из контрольного клапана, повернув датчик давления предварительного фильтра ** против часовой стрелки ** с помощью гаечного ключа.
+Удалите датчик давления масла предварительного фильтра из контрольного клапана, повернув датчик давления предварительного фильтра **против часовой стрелки** с помощью гаечного ключа.
 
 ![[19600976.png]]
 
 ### Установка
 
-Установите датчик давления масла предварительного фильтра в контрольный клапан, повернув датчик давления ** по часовой стрелке **.
+Установите датчик давления масла предварительного фильтра в контрольный клапан, повернув датчик давления **по часовой стрелке**.
 
 ![[19600976.png]]
 
 Установите соединительный гай и затяните.
 
-Если разъем проводов C Command Elite Plus ** не** выровнен, выполните следующие действия:
+Если разъем проводов C Command Elite Plus **не** выровнен, выполните следующие действия:
 
 - Удалите орех
 - Расширьте разъем из корпуса и выровните разъем с разъемом C Command Elite Plus.

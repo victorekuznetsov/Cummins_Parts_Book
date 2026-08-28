@@ -9,19 +9,26 @@ released: "2018-09-24"
 modified: "2023-07-05"
 group: "01 - Cylinder Block"
 engines:
+  - "82099327"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+  - "QSB6.7"
 parts:
+  - "3934486"
+  - "4955566"
+  - "5259499"
   - "5405392"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180112.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb180112.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180112.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
+  - "двигатель/QSB6.7"
   - "год/2018"
   - "перевод/машинный"
   - "тема/cylinder-block"
@@ -32,10 +39,10 @@ tags:
 
 > [!abstract] TSB · `tsb180112`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
+> **Двигатели:** [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** C8.3 · 6C8.3, QSB6.7
 > **Даты:** выпущен 2018-09-24 · изменён 2023-07-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180112.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb180112.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180112.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180112.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -80,13 +87,13 @@ tags:
 
 **Клиентская коммуникация**
 
-Консультирование клиентов, которые самостоятельно обслуживают, о том, что новые необходимые повторно используемые инструменты для обслуживания уплотнений заднего коленчатого вала ** должны ** использоваться для безопасной установки и удаления уплотнений заднего коленчатого вала в случае протечек вперед. Новые необходимые сервисные инструменты многоразовые.
+Консультирование клиентов, которые самостоятельно обслуживают, о том, что новые необходимые повторно используемые инструменты для обслуживания уплотнений заднего коленчатого вала **должны** использоваться для безопасной установки и удаления уплотнений заднего коленчатого вала в случае протечек вперед. Новые необходимые сервисные инструменты многоразовые.
 
 **Указания по обслуживанию**
 
 Новые необходимые сервисные инструменты многоразовые и предназначены для замены существующих одноразовых наборов услуг. Литература по ассоциированным услугам публикуется в соответствующих руководствах по обслуживанию.
 
-Инструмент для централизации ** должен использоваться с передними двигателями передних передних шестерен.
+Инструмент для централизации должен использоваться с передними двигателями передних передних шестерен.
 
 **Наличие сервисных деталей**
 
@@ -116,7 +123,7 @@ tags:
 | Руководство по обслуживанию | ISB6.7 CM2350 B101 Руководство по эксплуатации | 2883567 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
 | Руководство по обслуживанию | QSB6.7 CM2250 EC (173 л.с. или ниже) Руководство по обслуживанию | 2883621 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
 | Руководство по обслуживанию | Серия C Устранение неполадок и руководство по ремонту | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Crankshaft Seal, Rear Crankshaft Seal Carrier, Rear | См. процедуру 001-024 См. процедуру 001-104 | 1 |
-| Руководство по обслуживанию | B3.9, B4.5, B4.5 RGT и B5.9 Руководство по обслуживанию | 3666087 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
+| Руководство по обслуживанию | B3.9, B4.5, B4.5 RGT и B5.9 Руководство по обслуживанию | [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]] | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
 | Руководство по обслуживанию | B5.9G, B5.9LPG, B Gas Plus, B LPG Plus, B Gas International и G5.9 Руководство по устранению неполадок и ремонту | 3666164 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
 | Руководство по обслуживанию | ISB и QSB5.9-44 Руководство по устранению неполадок и ремонту | 3666193 | Задний сальник коленчатого вала | См. процедуру 001-024 | 1 |
 | Руководство по обслуживанию | C8.3G, C Gas Plus и L Gas Plus Устранение неполадок и ремонт | 3666206 | Crankshaft Seal, Rear Crankshaft Seal Carrier, Rear | См. процедуру 001-024 См. процедуру 001-104 | 1 |
@@ -161,7 +168,10 @@ tags:
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
-| [[5405392]] | OIL SEAL | Сальник |
+| [[3934486]] | Rr Crankseal Serv Kit |  |
+| [[4955566]] | Crankshaft Seal Kit |  |
+| [[5259499]] | Oil Seal | Сальник |
+| [[5405392]] | Oil Seal | Сальник |
 
 > [!quote]- Original (English) · английский оригинал
 > ## New Rear Crankshaft Seal Service Tools
@@ -218,9 +228,9 @@ tags:
 > | Remover, (Lip) Crankshaft Seal | - | - | - | 5395330 |
 > | Installer, (Lip) Crankshaft Seal | - | - | - | 5395259 |
 > | Guide, Centering | - | - | - | 5395409 |
-> | Seal, Oil | 5259499 | No | Yes | [[5405392]] |
-> | Kit, Crankshaft Seal | 4955566 | Yes | Yes | [[5405392]] |
-> | Kit, Crankshaft Seal | 3934486 | Yes | Yes | [[5405392]] |
+> | Seal, Oil | [[5259499]] | No | Yes | [[5405392]] |
+> | Kit, Crankshaft Seal | [[4955566]] | Yes | Yes | [[5405392]] |
+> | Kit, Crankshaft Seal | [[3934486]] | Yes | Yes | [[5405392]] |
 > | Kit, Crankshaft Seal | 5264562 | Yes | Yes | [[5405392]] |
 >
 > **Publications Affected**
@@ -235,7 +245,7 @@ tags:
 > | Service Manual | ISB6.7 CM2350 B101 Service Manual | 2883567 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
 > | Service Manual | QSB6.7 CM2250 EC (173 HP or Below) Service Manual | 2883621 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
 > | Service Manual | C Series Troubleshooting and Repair Manual | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] | Crankshaft Seal, Rear Crankshaft Seal Carrier, Rear | Refer to Procedure 001-024 Refer to Procedure 001-104 | 1 |
-> | Service Manual | B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual | 3666087 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
+> | Service Manual | B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual | [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]] | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
 > | Service Manual | B5.9G, B5.9LPG, B Gas Plus, B LPG Plus, B Gas International, and G5.9 Troubleshooting and Repair Manual | 3666164 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
 > | Service Manual | ISB and QSB5.9-44 Troubleshooting and Repair Manual | 3666193 | Crankshaft Seal, Rear | Refer to Procedure 001-024 | 1 |
 > | Service Manual | C8.3G, C Gas Plus, and L Gas Plus Troubleshooting and Repair Manual | 3666206 | Crankshaft Seal, Rear Crankshaft Seal Carrier, Rear | Refer to Procedure 001-024 Refer to Procedure 001-104 | 1 |

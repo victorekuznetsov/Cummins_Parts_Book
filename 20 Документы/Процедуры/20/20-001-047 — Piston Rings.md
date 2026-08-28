@@ -8,6 +8,7 @@ title_ru: "Поршневые кольца"
 modified: "2026-01-05"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-047.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-047.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-047.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Поршневые кольца**
 
 > [!abstract] Процедура · `20-001-047`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2026-01-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-047.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-047.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-047.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-047.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,7 +58,7 @@ tags:
 
 Убедитесь, что вкладыши находятся в определенных пределах, прежде чем измерять разрывы поршневых колец.
 
-- Для двигателя K19 используйте следующую процедуру в руководстве по эксплуатации K19, в бюллетене 4021499. См. процедуру 001-028 в разделе 1.
+- Для двигателя K19 используйте следующую процедуру в руководстве по эксплуатации K19, в бюллетене [[4021499 — K19 Service Manual\|4021499]]. См. процедуру 001-028 в разделе 1.
 - Для двигателя QSK19 используйте следующую процедуру в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-001-028-tr — Cylinder Liner|См. процедуру 001-028 в разделе 1.]]
 
 > [!note] Примечание
@@ -74,7 +75,7 @@ tags:
 Тщательно удалите поршень и проведите измерение кольцевого зазора.
 
 > [!note] Примечание
-> Двигатели, построенные после декабря 2008 года, имеют пересмотренное верхнее поршневое кольцо. Для этих двигателей верхний разрыв поршневого кольца ** должен быть измерен с использованием спецификации для форсунки с электронным приводом.
+> Двигатели, построенные после декабря 2008 года, имеют пересмотренное верхнее поршневое кольцо. Для этих двигателей верхний разрыв поршневого кольца должен быть измерен с использованием спецификации для форсунки с электронным приводом.
 
 > [!note] Примечание
 > Любой двигатель, построенный до декабря 2008 года, может иметь то же самое верхнее поршневое кольцо, используемое в поршнях форсунки с электронным приводом, или же верхнее поршневое кольцо, используемое в поршнях форсунки с механическим приводом. Проверьте номер детали на верхнем поршневом кольце, чтобы убедиться, что правильные допуски используются для разрыва поршневого кольца.
@@ -86,7 +87,7 @@ tags:
 
 Используйте калибр для проверки разрыва поршневого кольца.
 
-Кольцо *** должно быть заменено, если оно ** не соответствует следующим требованиям.
+Кольцо **должно быть заменено, если оно** не соответствует следующим требованиям.
 
 | Piston Ring Gap - механически приводимый в действие форсунка |  |  |  |
 |---|---|---|---|
@@ -104,7 +105,7 @@ tags:
 
 Убедитесь, что вкладыши находятся в определенных пределах, прежде чем измерять разрывы поршневых колец.
 
-- Для двигателя K19 используйте следующую процедуру в руководстве по эксплуатации K19, в бюллетене 4021499. См. процедуру 001-028 в разделе 1.
+- Для двигателя K19 используйте следующую процедуру в руководстве по эксплуатации K19, в бюллетене [[4021499 — K19 Service Manual\|4021499]]. См. процедуру 001-028 в разделе 1.
 - Для двигателя QSK19 используйте следующую процедуру в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]].[[20-001-028-tr — Cylinder Liner|См. процедуру 001-028 в разделе 1.]]
 
 > [!note] Примечание
@@ -127,7 +128,7 @@ tags:
 
 Используйте калибр для проверки разрыва поршневого кольца.
 
-Кольцо *** должно быть заменено, если оно ** не соответствует следующим требованиям.
+Кольцо **должно быть заменено, если оно** не соответствует следующим требованиям.
 
 | Piston Ring Gap - форсунка с электронным приводом |  |  |  |
 |---|---|---|---|
@@ -144,9 +145,9 @@ tags:
 ### Установка
 
 > [!note] Примечание
-> **не** устанавливайте поршневые кольца до тех пор, пока поршень не будет установлен на стержень. Для двигателя K19 используйте следующую процедуру в руководстве по эксплуатации K19, Bulletin 4021499, для сборки поршня для подключения стержня. См. процедуру 001-054 в разделе 1. Для двигателя QSK19 используйте следующую процедуру в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], чтобы собрать поршень для подключения стержня.[[20-001-054-tr — Piston and Connecting Rod Assembly|См. процедуру 001-054 в разделе 1.]]
+> **не** устанавливайте поршневые кольца до тех пор, пока поршень не будет установлен на стержень. Для двигателя K19 используйте следующую процедуру в руководстве по эксплуатации K19, Bulletin [[4021499 — K19 Service Manual\|4021499]], для сборки поршня для подключения стержня. См. процедуру 001-054 в разделе 1. Для двигателя QSK19 используйте следующую процедуру в QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], чтобы собрать поршень для подключения стержня.[[20-001-054-tr — Piston and Connecting Rod Assembly|См. процедуру 001-054 в разделе 1.]]
 
-Верхняя сторона поршневых колец отмечена номером детали. Отправочный пакет отмечен местоположением. Номер детали на кольце ** должен быть расположен к вершине поршня.
+Верхняя сторона поршневых колец отмечена номером детали. Отправочный пакет отмечен местоположением. Номер детали на кольце должен быть расположен к вершине поршня.
 
 ![[01e00006.png]]
 
@@ -156,7 +157,7 @@ tags:
 
 Выровняйте брешь кольца с цилиндром поршневого штифта. Поверните кольца, пока зазоры не будут расположены, как показано.
 
-Зазор в масляном кольце расширителя (2)** должен быть повернут на 180 градусов против зазора на масляном кольце (1).
+Зазор в масляном кольце расширителя (2) должен быть повернут на 180 градусов против зазора на масляном кольце (1).
 
 Поместите оставшееся кольцо примерно на 120 градусов в сторону от нефтяного кольца, как показано на иллюстрации.
 
@@ -176,7 +177,7 @@ tags:
 >
 > Make certain the liners are within specification prior to measuring piston ring gaps.
 >
-> - For the K19 engine, use the following procedure in K19 Service Manual, Bulletin 4021499. Refer to Procedure 001-028 in Section 1.
+> - For the K19 engine, use the following procedure in K19 Service Manual, Bulletin [[4021499 — K19 Service Manual\|4021499]]. [[18-001-028-tr — Cylinder Liner|Refer to Procedure 001-028 in Section 1.]]
 > - For the QSK19 engine, use the following procedure in QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-001-028-tr — Cylinder Liner|Refer to Procedure 001-028 in Section 1.]]
 >
 > **Note · Примечание**
@@ -217,7 +218,7 @@ tags:
 >
 > Make certain the liners are within specification prior to measuring piston ring gaps.
 >
-> - For the K19 engine, use the following procedure in K19 Service Manual, Bulletin 4021499. Refer to Procedure 001-028 in Section 1.
+> - For the K19 engine, use the following procedure in K19 Service Manual, Bulletin [[4021499 — K19 Service Manual\|4021499]]. [[18-001-028-tr — Cylinder Liner|Refer to Procedure 001-028 in Section 1.]]
 > - For the QSK19 engine, use the following procedure in QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. [[20-001-028-tr — Cylinder Liner|Refer to Procedure 001-028 in Section 1.]]
 >
 > **Note · Примечание**
@@ -251,7 +252,7 @@ tags:
 > ### Install
 >
 > **Note · Примечание**
-> Do **not** install the piston rings until the piston is installed onto the rod. For the K19 engine, use the following procedure in K19 Service Manual, Bulletin 4021499, to assemble the piston to connecting rod. Refer to Procedure 001-054 in Section 1. For the QSK19 engine, use the following procedure in QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], to assemble the piston to connecting rod. [[20-001-054-tr — Piston and Connecting Rod Assembly|Refer to Procedure 001-054 in Section 1.]]
+> Do **not** install the piston rings until the piston is installed onto the rod. For the K19 engine, use the following procedure in K19 Service Manual, Bulletin [[4021499 — K19 Service Manual\|4021499]], to assemble the piston to connecting rod. [[18-001-054-tr — Piston and Connecting Rod Assembly|Refer to Procedure 001-054 in Section 1.]] For the QSK19 engine, use the following procedure in QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]], to assemble the piston to connecting rod. [[20-001-054-tr — Piston and Connecting Rod Assembly|Refer to Procedure 001-054 in Section 1.]]
 >
 > The top side of the piston rings are marked with the part number. The shipping package is marked with the location. The part number on the ring **must** be positioned toward the top of the piston.
 >

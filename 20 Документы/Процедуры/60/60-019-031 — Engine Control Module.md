@@ -17,7 +17,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-031.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-031.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-031.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section 19 - Electronic Controls · Section 19 — Electronic Engine Controls — Group 19
 > **Даты:** изменён 2014-04-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-031.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-019-031.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-019-031.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-019-031.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,7 +55,7 @@ tags:
 
 Подключите инструмент электронного обслуживания INSITETM к разъему службы передачи данных CM850 (публичная шина данных CAN) SAE J1939 CAN.
 
-Инструменты электронного обслуживания INSITETM** должны быть в состоянии общаться с ECM. Если инструмент электронного обслуживания INSITETM не взаимодействует с ECM, обратитесь к руководству пользователя по инструментированию электронного сервиса INSITETM или к дереву устранения неполадок в связи с связью ECM № Communication.
+Инструменты электронного обслуживания INSITETM должны быть в состоянии общаться с ECM. Если инструмент электронного обслуживания INSITETM не взаимодействует с ECM, обратитесь к руководству пользователя по инструментированию электронного сервиса INSITETM или к дереву устранения неполадок в связи с связью ECM № Communication.
 
 Запись всех программируемых параметров. Эта информация будет использоваться для калибровки ECM. См. Инсайт Электронный сервис инструмент руководство пользователя.
 

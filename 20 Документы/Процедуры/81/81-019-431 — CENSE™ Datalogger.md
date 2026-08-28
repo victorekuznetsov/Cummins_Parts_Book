@@ -7,19 +7,30 @@ title_en: "CENSE™ Datalogger"
 title_ru: "Регистратор данных CENSE™"
 modified: "2013-01-18"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "3666410"
+  - "4021374"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-019-431.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/81-019-431.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-019-431.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
   - "группа/81"
   - "перевод/машинный"
@@ -29,12 +40,12 @@ tags:
 **Регистратор данных CENSE™**
 
 > [!abstract] Процедура · `81-019-431`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
-> **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[3666410 — QSK45 and QSK60 CENSE™ Electronic Control System Troubleshooting and Repair Manual|3666410]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]]
+> **Секции:** Section 19 - Electronic Engine Controls - Group 19 · Section 4 - Maintenance Procedures at 250 Hours or 6 Months
 > **Даты:** изменён 2013-01-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-019-431.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/81-019-431.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/81/81-019-431.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/81-019-431.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -48,9 +59,9 @@ tags:
 
 с форсункой механического управления
 
-Данные CENSETM** должны сбрасываться каждые 250 часов для поддержания максимальной емкости памяти.
+Данные CENSETM должны сбрасываться каждые 250 часов для поддержания максимальной емкости памяти.
 
-Для модулей CENSETM CM530** только*** данные*** должны сбрасываться каждые 250 часов для поддержания максимальной емкости памяти.
+Для модулей CENSETM CM530** только** данные должны сбрасываться каждые 250 часов для поддержания максимальной емкости памяти.
 
 1. Сначала извлеките сохраненные данные CENSETM.
 2. Выберите коды ошибок и параметры данных тренда для сброса.
@@ -61,7 +72,7 @@ tags:
 
 с форсункой электронного управления
 
-Эти двигатели не используют CENSETM. Вместо этого они разработали усовершенствованный мониторинг двигателя, встроенный в ECM. Эти данные не должны быть сброшены, потому что они будут автоматически записываться по самым старым данным, если емкость памяти станет полной. Однако эта память может быть очищена вручную с помощью инструментария электронного обслуживания INSITETM. Журналы ошибок ** должны просматриваться каждые 250 часов, даже если они ** не будут сбрасывать.
+Эти двигатели не используют CENSETM. Вместо этого они разработали усовершенствованный мониторинг двигателя, встроенный в ECM. Эти данные не должны быть сброшены, потому что они будут автоматически записываться по самым старым данным, если емкость памяти станет полной. Однако эта память может быть очищена вручную с помощью инструментария электронного обслуживания INSITETM. Журналы ошибок **должны просматриваться каждые 250 часов, даже если они** не будут сбрасывать.
 
 > [!note] Примечание
 > Модули CENSETM CM2330 не нуждаются в сбросе.

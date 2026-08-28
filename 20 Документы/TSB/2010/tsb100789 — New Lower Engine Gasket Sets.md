@@ -1,0 +1,549 @@
+---
+type: "TSB"
+doc: "tsb100789"
+title_en: "New Lower Engine Gasket Sets"
+modified: "2009-02-09"
+engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+families:
+  - "QSK60"
+parts:
+  - "3007512"
+  - "3011076"
+  - "3014668"
+  - "3033248"
+  - "3035026"
+  - "3035083"
+  - "3035084"
+  - "3037537"
+  - "3040817"
+  - "3042542"
+  - "3046201"
+  - "3075658"
+  - "3076102"
+  - "3076226"
+  - "3081489"
+  - "3082132"
+  - "3085709"
+  - "3088386"
+  - "3089019"
+  - "3089240"
+  - "3089261"
+  - "3089262"
+  - "3089271"
+  - "3089370"
+  - "3089392"
+  - "3089886"
+  - "3089891"
+  - "3171648"
+  - "3171792"
+  - "3177556"
+  - "3179035"
+  - "3328589"
+  - "3330202"
+  - "3331821"
+  - "3331969"
+  - "3331970"
+  - "3332034"
+  - "3332035"
+  - "3332084"
+  - "3332085"
+  - "3332116"
+  - "3332160"
+  - "3332183"
+  - "3332297"
+  - "3332298"
+  - "3332299"
+  - "3332391"
+  - "3410850"
+  - "3627695"
+  - "3630740"
+  - "3630969"
+  - "3632840"
+  - "3633325"
+  - "3678603"
+  - "3678606"
+  - "3678786"
+  - "3678846"
+  - "3678912"
+  - "3678925"
+  - "3679139"
+  - "3865398"
+  - "3913994"
+  - "3922794"
+  - "4006223"
+  - "4007165"
+  - "4016183"
+  - "4016906"
+  - "4066135"
+  - "4066136"
+  - "4066222"
+  - "4066223"
+  - "4066285"
+  - "4080395"
+  - "4080404"
+  - "4085923"
+  - "4089148"
+  - "4100660"
+  - "4100983"
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100789.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100789.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/QSK60"
+---
+
+# New Lower Engine Gasket Sets
+
+> [!abstract] TSB · `tsb100789`
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]]
+> **Семейство:** QSK60
+> **Даты:** изменён 2009-02-09
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100789.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100789.pdf)
+
+## New Lower Engine Gasket Sets
+
+### Warranty Statement
+
+The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+
+### Contents
+
+This Technical Service Bulletin replaces 02T0-8. Discard 02T0-8 and replace it with this Service/Parts Topic.
+
+This Technical Service Bulletin introduces new lower engine gasket sets which can be purchased for smaller repairs.
+
+The old lower gasket set for the QSK60, Part Number [[4089148]], and a lower gasket set for the QSK45, Part Number 4066323, are large sets with numerous different o-rings, seals, and hoses. The new gaskets sets are divided into specific components on the engine.
+
+A combination of the new, smaller, lower gasket sets are equivalent to the original larger, obsolete, lower gasket set.
+
+| Table 1, QSK60 Obsolete Lower Gasket Set, Part Number [[4089148]] |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 108172 | Seal, o-ring | 1 |
+| 145507 | Seal, o-ring | 3 |
+| 206457 | Seal, o-ring | 1 |
+| 212161 | Seal, o-ring | 1 |
+| [[3007512]] | Seal, o-ring | 1 |
+| [[3011076]] | Seal, o-ring | 16 |
+| [[3014668]] | Seal, o-ring | 16 |
+| [[3033248]] | Seal, o-ring | 1 |
+| [[3035026]] | Seal, o-ring | 2 |
+| [[3035083]] | Isolator, Vibration | 3 |
+| [[3035084]] | Isolator, Vibration | 3 |
+| [[3040817]] | Seal, o-ring | 1 |
+| [[3042542]] | Seal, o-ring | 2 |
+| [[3046201]] | Seal, o-ring | 1 |
+| [[3075658]] | Seal, o-ring | 1 |
+| [[3076102]] | Seal, o-ring | 1 |
+| [[3076226]] | Gasket, air compressor | 1 |
+| [[3081489]] | Seal, oil | 16 |
+| [[3082132]] | Gasket, cover plate | 2 |
+| [[3085709]] | Seal, o-ring | 6 |
+| [[3088386]] | Ring, liner seal | 16 |
+| [[3089019]] | Seal, o-ring | 4 |
+| [[3089240]] | Seal, o-ring | 9 |
+| [[3089261]] | Gasket, water pump | 1 |
+| [[3089262]] | Gasket, water pump | 1 |
+| [[3089271]] | Nut, lock | 8 |
+| [[3089370]] | Seal, o-ring | 16 |
+| [[3089392]] | Seal, o-ring | 3 |
+| [[3089886]] | Seal, rectangular ring | 2 |
+| [[3089891]] | Seal, rectangular ring | 1 |
+| [[3171648]] | Gasket, oil pan | 1 |
+| [[3171792]] | Seal, o-ring | 4 |
+| [[3177556]] | Seal, rectangular ring | 6 |
+| [[3179035]] | Gasket, water transfer connection | 2 |
+| [[3328589]] | Seal, o-ring | 4 |
+| [[3330202]] | Seal, o-ring | 4 |
+| [[3331821]] | Gasket, fuel pump | 1 |
+| [[3331969]] | Gasket, spacer | 1 |
+| [[3331970]] | Gasket, spacer | 1 |
+| [[3332034]] | Gasket, camshaft cover | 8 |
+| [[3332035]] | Gasket, gear cover | 1 |
+| [[3332084]] | Gasket, oil pan adapter | 2 |
+| [[3332085]] | Gasket, oil pan cover | 1 |
+| [[3332116]] | Gasket, breather | 2 |
+| [[3332160]] | Seal, o-ring | 1 |
+| [[3332183]] | Gasket, connection | 2 |
+| [[3332297]] | Gasket, accessory drive support | 1 |
+| [[3332298]] | Gasket, hydraulic drive support | 1 |
+| [[3332299]] | Gasket, water pump support | 1 |
+| [[3332391]] | Gasket, water pump | 1 |
+| [[3410850]] | Gasket, water header cover | 4 |
+| [[3627695]] | Seal, o-ring | 2 |
+| [[3630740]] | Seal, o-ring | 1 |
+| [[3630969]] | Gasket, lubricating oil cooler cover | 8 |
+| [[3632840]] | Seal, o-ring | 6 |
+| [[3633325]] | Seal, o-ring | 2 |
+| [[3678603]] | Seal, o-ring | 2 |
+| [[3678606]] | Seal, o-ring | 6 |
+| [[3678786]] | Seal, o-ring | 5 |
+| [[3678846]] | Seal, o-ring | 5 |
+| [[3678912]] | Seal, o-ring | 15 |
+| [[3678925]] | Seal, o-ring | 3 |
+| [[3679139]] | Seal, o-ring | 4 |
+| [[3865398]] | Seal, o-ring | 2 |
+| [[3913994]] | Seal, o-ring | 1 |
+| [[3922794]] | Seal, o-ring | 4 |
+| [[4006223]] | Gasket, flywheel housing | 1 |
+| [[4007165]] | Gasket, Gear housing | 1 |
+| [[4016183]] | Seal, o-ring | 2 |
+| [[4016906]] | Adapter, o-ring | 1 |
+| [[4066135]] | Gasket, filter head | 2 |
+| [[4066136]] | Gasket, filter head | 2 |
+| [[4066222]] | Seal, oil | 1 |
+| [[4066223]] | Seal, oil | 1 |
+| [[4066285]] | Gasket, filter head | 1 |
+| [[4080395]] | Spacer, mounting | 1 |
+| [[4080404]] | Seal, oil | 1 |
+| [[4085923]] | Spacer, mounting | 1 |
+
+To obtain a complete lower gasket set for the QSK60 engine, the following small gasket set part numbers **must** be ordered:
+
+| Table 2: QSK60 Lower Gasket Set Part Number |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 4089874 | Lower block gasket set (Table 3) | 1 |
+| 4089306 | Lower oil pan gasket set (Table 4) | 1 |
+| 4089307 | Lower pump gasket set (Table 5) | 1 |
+| 4089308 | Lower fuel gasket set (Table 6) | 1 |
+| 4089875 | Lower accessory gasket set (Table 7) | 1 |
+
+| Table 3, Lower Block Gasket Set, Part Number 4089874 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 108172 | Seal, o-ring | 1 |
+| 212161 | Seal, o-ring | 16 |
+| [[3035026]] | Seal, o-ring | 2 |
+| [[3089240]] | Seal, o-ring | 9 |
+| [[3089271]] | Nut, lock | 8 |
+| [[3088386]] | Ring, liner seal | 16 |
+| [[3331969]] | Gasket, spacer | 1 |
+| [[3331970]] | Gasket, spacer | 1 |
+| [[3332034]] | Gasket, camshaft | 8 |
+| [[3332298]] | Gasket, hydraulic drive | 1 |
+| [[3410850]] | Gasket, water | 4 |
+| [[3630740]] | Seal, o-ring | 1 |
+| [[3630969]] | Gasket, lubricating oil | 8 |
+| [[3632840]] | Seal, o-ring | 6 |
+| [[3678786]] | Seal, o-ring | 5 |
+| [[3678846]] | Seal, o-ring | 5 |
+| [[3679139]] | Seal, o-ring | 4 |
+| [[3913994]] | Seal, o-ring | 1 |
+| [[3922794]] | Seal, o-ring | 4 |
+| [[4006223]] | Gasket, flywheel | 1 |
+| [[4007165]] | Gasket, gear housing | 1 |
+| [[4016183]] | Seal, o-ring | 2 |
+| [[4066222]] | Seal, oil | 1 |
+| [[4066223]] | Seal, oil | 1 |
+| [[4100660]] | Seal, o-ring | 16 |
+| 4100625 | Seal, oil | 1 |
+| 4100624 | Seal, oil | 1 |
+| [[4100983]] | Gasket, gear cover | 1 |
+
+| Table 4: QSK60 Lower Oil Pan Gasket Set, Part Number 4089306 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| [[3089019]] | Seal, o-ring | 4 |
+| [[3089886]] | Seal, rectangular | 2 |
+| [[3089891]] | Seal, rectangular | 1 |
+| [[3171648]] | Gasket, oil pan | 1 |
+| [[3171792]] | Seal, o-ring | 4 |
+| [[3332084]] | Gasket, oil pan | 1 |
+| [[3332085]] | Gasket, oil pan | 2 |
+| [[3627695]] | Seal, o-ring | 1 |
+| [[3633325]] | Seal, o-ring | 2 |
+| [[3678606]] | Seal, o-ring | 6 |
+| [[3678912]] | Seal, o-ring | 15 |
+| [[4066135]] | Gasket, filter | 2 |
+| [[4066136]] | Gasket, filter | 2 |
+| 4066186 | plug, expansion | 1 |
+| [[4066285]] | Gasket, filter | 1 |
+
+| Table 5: QSK60 Lower Pump Gasket Set, Part Number 4089307 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 206457 | Seal, o-ring | 1 |
+| [[3007512]] | Seal, o-ring | 1 |
+| [[3033248]] | Seal, o-ring | 1 |
+| [[3082132]] | Gasket, cover | 2 |
+| [[3089261]] | Gasket, water | 1 |
+| [[3089262]] | Gasket, water | 1 |
+| [[3179035]] | Gasket, water transfer | 2 |
+| [[3332299]] | Gasket, water | 1 |
+| [[3332391]] | Gasket, water | 1 |
+| 3410348 | Gasket, water pump | 1 |
+| [[3678603]] | Seal, o-ring | 2 |
+| [[3678925]] | Seal, o-ring | 3 |
+| [[4016906]] | Adapter, o-ring | 1 |
+
+| Table 6: QSK60 Lower Fuel Gasket Set, Part Number 4089308 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 145507 | Seal, o-ring | 3 |
+| [[3037537]] | Seal, o-ring |  |
+| [[3042542]] | Seal, o-ring | 3 |
+| [[3075658]] | Seal, o-ring | 1 |
+| [[3076226]] | Gasket, air cooler | 1 |
+| [[3085709]] | Seal, o-ring | 6 |
+| [[3089240]] | Seal, o-ring | 1 |
+| [[3328589]] | Seal, o-ring | 4 |
+| [[3330202]] | Seal, o-ring | 4 |
+| [[3331821]] | Gasket, fuel pump | 1 |
+| [[3332183]] | Gasket, connection | 1 |
+| [[3332297]] | Gasket, accessory drive | 1 |
+| [[3678925]] | Seal, o-ring | 1 |
+| [[3865398]] | Seal, o-ring | 2 |
+
+| Table 7: QSK60 Lower Accessory Gasket Set, Part Number 4089875 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| [[3035083]] | Isolator, vibration | 3 |
+| [[3035084]] | Isolator, vibration | 3 |
+| [[3040817]] | Seal, o-ring | 1 |
+| [[3046201]] | Seal, o-ring | 1 |
+| [[3076102]] | Seal, o-ring | 1 |
+| [[3089392]] | Seal, o-ring | 3 |
+| [[3332116]] | Gasket, breather | 2 |
+| [[3332160]] | Seal, o-ring | 1 |
+| [[3627695]] | Seal, o-ring | 1 |
+| [[4080395]] | Spacer, mounting | 2 |
+| [[4080404]] | Seal, oil | 2 |
+| [[4085923]] | Spacer, mounting | 2 |
+
+| Table 8: QSK45 Obsolete Lower Gasket Set, Part Number 4066323 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 108172 | Seal, o-ring | 1 |
+| 206457 | Seal, o-ring | 1 |
+| 212161 | Seal, o-ring | 12 |
+| [[3011076]] | Seal, o-ring | 12 |
+| [[3014668]] | Seal, d-ring | 12 |
+| [[3035026]] | Seal, o-ring | 2 |
+| [[3082132]] | Gasket, cover | 2 |
+| [[3085709]] | Seal, o-ring | 1 |
+| [[3089019]] | Seal, o-ring | 2 |
+| [[3089240]] | Seal, o-ring | 4 |
+| [[3089261]] | Gasket, water pump | 1 |
+| [[3089370]] | Seal, o-ring | 11 |
+| [[3177556]] | Seal, rectangular ring | 6 |
+| [[3331969]] | Gasket, spacer | 1 |
+| [[3331970]] | Gasket, spacer | 1 |
+| [[3332034]] | Gasket, camshaft | 6 |
+| [[3332035]] | Gasket, gear housing | 1 |
+| 3332083 | Gasket, oil pan | 1 |
+| [[3332085]] | Gasket, oil pan | 3 |
+| [[3332160]] | Seal, o-ring | 3 |
+| [[3332183]] | Gasket, connection | 1 |
+| [[3332297]] | Gasket, accessory drive | 1 |
+| [[3627695]] | Seal, o-ring | 1 |
+| [[3630969]] | Gasket, lubrication oil cooler housing | 6 |
+| [[3678606]] | Seal, o-ring | 2 |
+| [[3678786]] | Seal, o-ring | 1 |
+| [[3678846]] | Seal, o-ring | 1 |
+| [[3678912]] | Seal, o-ring | 6 |
+| [[3679139]] | Seal, o-ring | 1 |
+| [[3913994]] | Seal, o-ring | 1 |
+| [[3922794]] | Seal, o-ring | 2 |
+| [[4006223]] | Gasket, flywheel housing | 1 |
+| [[4007165]] | Gasket, gear housing | 1 |
+| [[4066135]] | Gasket, filter | 1 |
+| [[4066136]] | Gasket, filter head | 1 |
+| 4066286 | Gasket, filter | 1 |
+
+To obtain a complete lower gasket set for the QSK45 engine, the following small gasket set part numbers **must** be ordered:
+
+| Table 9: QSK45 Lower Gasket Set Part Numbers |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 4089316 | Lower block gasket set (Table 10) | 1 |
+| 4089317 | Lower oil pan gasket set (Table 11) | 1 |
+| 4089307 | Lower pump gasket set (Table 12) | 1 |
+| 4089308 | Lower fuel gasket set (Table 13) | 1 |
+| 4089875 | Lower accessory gasket set (Table 14) | 1 |
+
+| Table 10: QSK45 Lower Block Gasket Set, Part Number 4089316 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 108172 | Seal, o-ring | 1 |
+| 212161 | Seal, o-ring | 16 |
+| [[3035026]] | Seal, o-ring | 2 |
+| [[3089240]] | Seal, o-ring | 9 |
+| [[3089271]] | Nut, lock | 8 |
+| [[3089370]] | Seal, o-ring | 16 |
+| [[3177556]] | Seal, rectangular | 6 |
+| [[3331969]] | Gasket, spacer | 1 |
+| [[3331970]] | Gasket, spacer | 1 |
+| [[3332034]] | Gasket, camshaft | 6 |
+| [[3332035]] | Gasket, gear cover | 1 |
+| [[3332298]] | Gasket, hydraulic drive | 1 |
+| 3089170 | Gasket, water | 3 |
+| [[3630740]] | Seal, o-ring | 2 |
+| [[3630969]] | Gasket, lubricating oil | 8 |
+| [[3632840]] | Seal, o-ring | 6 |
+| [[3678786]] | Seal, o-ring | 5 |
+| [[3678846]] | Seal, o-ring | 4 |
+| [[3679139]] | Seal, o-ring | 4 |
+| [[3913994]] | Seal, o-ring | 1 |
+| [[3922794]] | Seal, o-ring | 2 |
+| [[4006223]] | Gasket, flywheel | 1 |
+| [[4007165]] | Gasket, gear housing | 1 |
+| [[4016183]] | Seal, o-ring | 2 |
+| [[4066222]] | Seal, oil | 1 |
+| [[4066223]] | Seal, oil | 1 |
+| [[3088386]] | Ring, liner seal | 16 |
+
+| Table 11: QSK45 Lower Oil Pan Gasket Set, Part Number 4089317 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| [[3089019]] | Seal, o-ring | 4 |
+| [[3089886]] | Seal, rectangular | 2 |
+| [[3089891]] | Seal, rectangular | 1 |
+| [[3171648]] | Gasket, oil pan | 1 |
+| [[3171792]] | Seal, o-ring | 3 |
+| 3332083 | Gasket, oil pan | 1 |
+| [[3332085]] | Gasket, oil pan | 3 |
+| [[3627695]] | Seal, o-ring | 1 |
+| [[3678606]] | Seal, o-ring | 6 |
+| [[3678912]] | Seal, o-ring | 15 |
+| [[4066135]] | Gasket, filter | 2 |
+| [[4066136]] | Gasket, filter | 2 |
+| 4066286 | Gasket, filter | 1 |
+
+| Table 12: QSK45 Lower Pump Gasket Set, Part Number 4089307 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 206457 | Seal, o-ring | 1 |
+| [[3007512]] | Seal, o-ring | 1 |
+| [[3033248]] | Seal, o-ring | 1 |
+| [[3082132]] | Gasket, cover | 2 |
+| [[3089261]] | Gasket, water | 1 |
+| [[3089262]] | Gasket, water | 1 |
+| [[3179035]] | Gasket, water transfer | 2 |
+| [[3332299]] | Gasket, water | 1 |
+| [[3332391]] | Gasket, water | 1 |
+| 3410348 | Gasket, water pump | 1 |
+| [[3678603]] | Seal, o-ring | 2 |
+| [[3678925]] | Seal, o-ring | 3 |
+| [[4016906]] | Adapter, o-ring | 1 |
+
+| Table 13: QSK45 Lower Fuel Gasket Set, Part Number 4089308 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| 145507 | Seal, o-ring | 3 |
+| [[3037537]] | Seal, o-ring | 2 |
+| [[3042542]] | Seal, o-ring | 3 |
+| [[3075658]] | Seal, o-ring | 1 |
+| [[3076226]] | Gasket, air cooler | 1 |
+| [[3085709]] | Seal, o-ring | 6 |
+| [[3089240]] | Seal, o-ring | 1 |
+| [[3328589]] | Seal, o-ring | 4 |
+| [[3330202]] | Seal, o-ring | 4 |
+| [[3331821]] | Gasket, fuel pump | 1 |
+| [[3332183]] | Gasket, connection | 1 |
+| [[3332297]] | Gasket, accessory drive | 1 |
+| [[3678925]] | Seal, o-ring | 1 |
+| [[3865398]] | Seal, o-ring | 2 |
+
+| Table 14: QSK45 Lower Accessory Gasket Set, Part Number 4089875 |  |  |
+|---|---|---|
+| Part Number | Description | Quantity |
+| [[3035083]] | Isolator, vibration | 3 |
+| [[3035084]] | Isolator, vibration | 3 |
+| [[3040817]] | Seal, o-ring | 1 |
+| [[3046201]] | Seal, o-ring | 1 |
+| [[3076102]] | Seal, o-ring | 1 |
+| [[3089392]] | Seal, o-ring | 3 |
+| [[3332116]] | Gasket, breather | 2 |
+| [[3332160]] | Seal, o-ring | 1 |
+| [[3627695]] | Seal, o-ring | 1 |
+| [[4080395]] | Spacer, mounting | 2 |
+| [[4080404]] | Seal, oil | 2 |
+| [[4085923]] | Spacer, mounting | 2 |
+
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3007512]] | O Ring Seal | Уплотнительное кольцо |
+| [[3011076]] | O Ring Seal | Уплотнительное кольцо |
+| [[3014668]] | O Ring Seal | Уплотнительное кольцо |
+| [[3033248]] | O Ring Seal | Уплотнительное кольцо |
+| [[3035026]] | O Ring Seal | Уплотнительное кольцо |
+| [[3035083]] | VIBRATION ISOLATOR | Виброизолятор |
+| [[3035084]] | VIBRATION ISOLATOR | Виброизолятор |
+| [[3037537]] | O RING SEAL | Уплотнительное кольцо |
+| [[3040817]] | O Ring Seal | Уплотнительное кольцо |
+| [[3042542]] | O RING SEAL | Уплотнительное кольцо |
+| [[3046201]] | O RING SEAL | Уплотнительное кольцо |
+| [[3075658]] | O RING SEAL | Уплотнительное кольцо |
+| [[3076102]] | O Ring Seal | Уплотнительное кольцо |
+| [[3076226]] | Air Compressor Gasket | Прокладка воздушного компрессора |
+| [[3081489]] | Oil Seal | Сальник |
+| [[3082132]] | COVER PLATE GASKET | Прокладка крышки-пластины |
+| [[3085709]] | O RING SEAL | Уплотнительное кольцо |
+| [[3088386]] | LINER SEAL RING | Уплотнительное кольцо гильзы |
+| [[3089019]] | O RING SEAL | Уплотнительное кольцо |
+| [[3089240]] | O RING SEAL | Уплотнительное кольцо |
+| [[3089261]] | Water Pump Gasket | Прокладка водяного насоса |
+| [[3089262]] | Water Pump Gasket | Прокладка водяного насоса |
+| [[3089271]] | LOCK NUT | Контргайка |
+| [[3089370]] | O Ring Seal | Уплотнительное кольцо |
+| [[3089392]] | O RING SEAL | Уплотнительное кольцо |
+| [[3089886]] | RECTANGULAR RING SEAL | Уплотнительное кольцо прямоугольного сечения |
+| [[3089891]] | RECTANGULAR RING SEAL | Уплотнительное кольцо прямоугольного сечения |
+| [[3171648]] | Oil Pan Cover Gasket | Прокладка крышки масляного поддона |
+| [[3171792]] | O Ring Seal | Уплотнительное кольцо |
+| [[3177556]] | Rectangular Ring Seal | Уплотнительное кольцо прямоугольного сечения |
+| [[3179035]] | Water Transfer Connection Gasket | Прокладка перепускного водяного соединения |
+| [[3328589]] | O RING SEAL | Уплотнительное кольцо |
+| [[3330202]] | O Ring Seal | Уплотнительное кольцо |
+| [[3331821]] | FUEL PUMP GASKET | Прокладка топливного насоса |
+| [[3331969]] | FRONT COVER GASKET | Прокладка передней крышки |
+| [[3331970]] | GEAR COVER GASKET | Прокладка крышки шестерён |
+| [[3332034]] | Camshaft Cover Gasket | Прокладка крышки распредвала |
+| [[3332035]] | Gear Housing Gasket | Прокладка картера шестерён |
+| [[3332084]] | OIL PAN ADAPTER GASKET | Прокладка переходника масляного поддона |
+| [[3332085]] | OIL PAN COVER GASKET | Прокладка крышки масляного поддона |
+| [[3332116]] | Breather Gasket | Прокладка сапуна |
+| [[3332160]] | O RING SEAL | Уплотнительное кольцо |
+| [[3332183]] | CONNECTION GASKET | Прокладка соединения |
+| [[3332297]] | ACCESSORY DRIVE SUPPORT GASKET | Прокладка опоры привода вспомогательного оборудования |
+| [[3332298]] | HYDRAULIC DRIVE SUPPORT GASKET | Прокладка опоры привода гидронасоса |
+| [[3332299]] | WATER PUMP SUPPORT GASKET | Прокладка опоры водяного насоса |
+| [[3332391]] | WATER PUMP GASKET | Прокладка водяного насоса |
+| [[3410850]] | WATER HEADER COVER GASKET | Прокладка крышки водяного коллектора |
+| [[3627695]] | O RING SEAL | Уплотнительное кольцо |
+| [[3630740]] | O RING SEAL | Уплотнительное кольцо |
+| [[3630969]] | Lubricating Oil Cooler Housing Gasket | Прокладка корпуса маслоохладителя |
+| [[3632840]] | O Ring Seal | Уплотнительное кольцо |
+| [[3633325]] | O Ring Seal | Уплотнительное кольцо |
+| [[3678603]] | O RING SEAL | Уплотнительное кольцо |
+| [[3678606]] | O RING SEAL | Уплотнительное кольцо |
+| [[3678786]] | O RING SEAL | Уплотнительное кольцо |
+| [[3678846]] | O RING SEAL | Уплотнительное кольцо |
+| [[3678912]] | O RING SEAL | Уплотнительное кольцо |
+| [[3678925]] | O RING SEAL | Уплотнительное кольцо |
+| [[3679139]] | O RING SEAL | Уплотнительное кольцо |
+| [[3865398]] | O RING SEAL | Уплотнительное кольцо |
+| [[3913994]] | O RING SEAL | Уплотнительное кольцо |
+| [[3922794]] | O RING SEAL | Уплотнительное кольцо |
+| [[4006223]] | FLYWHEEL HOUSING GASKET | Прокладка картера маховика |
+| [[4007165]] | GEAR HOUSING GASKET | Прокладка картера шестерён |
+| [[4016183]] | O Ring Seal | Уплотнительное кольцо |
+| [[4016906]] | O RING ADAPTER | Переходник с уплотнительным кольцом |
+| [[4066135]] | FILTER HEAD GASKET | Прокладка головки фильтра |
+| [[4066136]] | FILTER HEAD GASKET | Прокладка головки фильтра |
+| [[4066222]] | Oil Seal | Сальник |
+| [[4066223]] | Oil Seal | Сальник |
+| [[4066285]] | Filter Head Gasket | Прокладка головки фильтра |
+| [[4080395]] | MOUNTING SPACER | Монтажная распорная втулка |
+| [[4080404]] | OIL SEAL | Сальник |
+| [[4085923]] | Mounting Spacer | Монтажная распорная втулка |
+| [[4089148]] | Lower Engine Gasket Set |  |
+| [[4100660]] | O RING SEAL | Уплотнительное кольцо |
+| [[4100983]] | GEAR COVER GASKET | Прокладка крышки шестерён |

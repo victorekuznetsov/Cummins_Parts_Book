@@ -17,7 +17,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-047-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-010-047-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-010-047-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2007-07-25
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-047-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-010-047-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-047-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-010-047-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +56,7 @@ tags:
 
 ### Измерение
 
-Проверьте радиальный зазор ***** компрессорного крыльца и турбинного колеса.
+Проверьте радиальный зазор  компрессорного крыльца и турбинного колеса.
 
 Используйте руку, чтобы подтолкнуть колесо компрессора или турбины к корпусу.
 
@@ -67,7 +67,7 @@ tags:
 | 0.08 | Мин | 0.003 |
 | 0.18 | Макс | 0.007 |
 
-Если радиальный зазор подшипника ** не** в пределах спецификации, турбокомпрессор *** должен быть заменен. См. Бюллетень № 3379091, Руководство по комплектующим турбокомпрессорам, для инструкций по восстановлению.
+Если радиальный зазор подшипника **не** в пределах спецификации, турбокомпрессор  должен быть заменен. См. Бюллетень № 3379091, Руководство по комплектующим турбокомпрессорам, для инструкций по восстановлению.
 
 ![[tb8ipsc.png]]
 

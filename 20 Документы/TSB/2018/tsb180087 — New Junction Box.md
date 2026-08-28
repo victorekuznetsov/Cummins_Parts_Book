@@ -10,13 +10,14 @@ modified: "2018-07-10"
 group: "13 - Electrical Equipment"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180087.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb180087.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180087.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
@@ -30,10 +31,10 @@ tags:
 
 > [!abstract] TSB · `tsb180087`
 > **Раздел Cummins:** 13 - Electrical Equipment
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Даты:** выпущен 2018-06-25 · изменён 2018-07-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180087.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb180087.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180087.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180087.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -98,7 +99,7 @@ tags:
 | Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
 | Соединение коробок | 5278518 | Нет | Да | 4398425 |
 
-** Совместимость частей**
+**Совместимость частей**
 
 Эти части не могут быть смешаны в одном двигателе.
 

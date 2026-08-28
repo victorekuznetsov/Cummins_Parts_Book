@@ -8,6 +8,7 @@ title_ru: "Дистанционный пульт"
 modified: "2006-06-19"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-025.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-015-025.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-015-025.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Дистанционный пульт**
 
 > [!abstract] Процедура · `115-015-025`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]]
 > **Секции:** Section 15 — Instruments and Controls
 > **Даты:** изменён 2006-06-19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-025.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-015-025.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-015-025.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-015-025.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -71,7 +72,7 @@ tags:
 Панель индикаторов контроля
 
 > [!note] Примечание
-> Панель управления пультом дистанционного управления ** не** продается с шкафом для монтажа. Это позволяет устанавливать панель управления на существующих станциях рулевого управления, станциях крыльев моста и т. Д.
+> Панель управления пультом дистанционного управления **не** продается с шкафом для монтажа. Это позволяет устанавливать панель управления на существующих станциях рулевого управления, станциях крыльев моста и т. Д.
 
 Получите доступ к панели управления.
 

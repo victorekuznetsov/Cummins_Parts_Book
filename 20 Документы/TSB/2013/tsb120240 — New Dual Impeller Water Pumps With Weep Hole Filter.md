@@ -9,20 +9,24 @@ released: "2013-09-11"
 modified: "2013-09-11"
 group: "08 - Cooling System"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
 parts:
   - "3252438"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120240.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120240.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120240.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2013"
   - "перевод/машинный"
   - "тема/cooling-system"
@@ -33,10 +37,10 @@ tags:
 
 > [!abstract] TSB · `tsb120240`
 > **Раздел Cummins:** 08 - Cooling System
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
 > **Даты:** выпущен 2013-09-11 · изменён 2013-09-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120240.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120240.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120240.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120240.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -79,9 +83,9 @@ tags:
 | Наименование | Номер детали |
 | Соединитель трубки | [[3252438]] |
 | Водяная трубка (с фильтром) | 3648346 |
-| Debris Shield (фильтр **только **) | 3648319 |
+| Debris Shield (фильтр **только**) | 3648319 |
 
-Для получения дополнительной информации о снятии и установке фильтра водяного насоса и слезоточивого отверстия, см. Процедуру 008-062 в Руководстве по обслуживанию K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] или Руководстве по обслуживанию QSK45 и QSK60, Вестник 4021530.
+Для получения дополнительной информации о снятии и установке фильтра водяного насоса и слезоточивого отверстия, см. Процедуру 008-062 в Руководстве по обслуживанию K38, K50, QSK38 и QSK50, Вестник [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]] или Руководстве по обслуживанию QSK45 и QSK60, Вестник [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 
 ![[08e00185.png]]
 
@@ -131,7 +135,7 @@ tags:
 > | Water Drain Tube (with filter) | 3648346 |
 > | Debris Shield (filter **only**) | 3648319 |
 >
-> For further information on removal and installation of the water pump and weep hole filter, reference Procedure 008-062 in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]], or the QSK45 and QSK60 Service Manual, Bulletin 4021530.
+> For further information on removal and installation of the water pump and weep hole filter, reference Procedure 008-062 in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]], or the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 >
 > Figure 1, New water pump with weep hole relocated and filter installed.
 >

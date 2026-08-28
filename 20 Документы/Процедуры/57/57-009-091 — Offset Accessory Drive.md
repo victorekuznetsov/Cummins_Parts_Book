@@ -17,7 +17,7 @@ figures: 15
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-091.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-009-091.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-091.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 9 - Drive Units - Group 09
 > **Даты:** изменён 2026-01-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-091.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-009-091.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-091.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-091.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -91,7 +91,7 @@ tags:
 
 Переключите передачу офсетного привода.
 
-Восстановите диск, если он ** не ** поворачивается плавно.
+Восстановите диск, если он **не** поворачивается плавно.
 
 ![[09n00014.png]]
 
@@ -103,7 +103,7 @@ tags:
 | 0.33 | Мин | 0.013 |
 | 0.45 | Макс | 0.018 |
 
-Заменить подшипники тяги, если зазор ** не** в пределах спецификаций.
+Заменить подшипники тяги, если зазор **не** в пределах спецификаций.
 
 ![[09n00015.png]]
 

@@ -9,16 +9,23 @@ released: "2012-12-21"
 modified: "2012-12-21"
 group: "07 - Lubricating Oil Systems"
 engines:
+  - "37269910"
+  - "37280605"
   - "41349633"
+  - "41353297"
 families:
+  - "K19"
   - "QSK19"
+parts:
+  - "4000595"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120287.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120287.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120287.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/QSK19"
   - "год/2012"
   - "перевод/машинный"
@@ -30,10 +37,10 @@ tags:
 
 > [!abstract] TSB · `tsb120287`
 > **Раздел Cummins:** 07 - Lubricating Oil Systems
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
+> **Двигатели:** [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K19, QSK19
 > **Даты:** выпущен 2012-12-21 · изменён 2012-12-21
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120287.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120287.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120287.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120287.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -73,6 +80,11 @@ tags:
 
 ### История изменений документа
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[4000595]] | OIL PAN ADAPTER GASKET | Прокладка переходника масляного поддона |
 
 > [!quote]- Original (English) · английский оригинал
 > ## K/QSK19 Edge Molded Rubber Oil Pan Adapter Gasket
@@ -87,16 +99,16 @@ tags:
 >
 > | New Part Number | Old Part Number |
 > |---|---|
-> | 2888747 | 4000595 |
+> | 2888747 | [[4000595]] |
 >
-> All QSK19 engines built in the Seymour Engine Plant as of 11/15/2012 build date will use oil pan adapter gasket, Part Number 2888747. ESN first for this change is 37256362. At this time, the K series engines will continue to be built using oil pan adapter gasket, Part Number 4000595.
+> All QSK19 engines built in the Seymour Engine Plant as of 11/15/2012 build date will use oil pan adapter gasket, Part Number 2888747. ESN first for this change is 37256362. At this time, the K series engines will continue to be built using oil pan adapter gasket, Part Number [[4000595]].
 >
-> Oil pan adapter gasket, Part Number 4000595, will **no** longer be used in service. All kits containing oil pan adapter gasket, Part Number 4000595, will now contain the new oil pan adapter gasket, Part Number 2888747. The effective date for this change at the Part Distribution Centers is 12/15/2012. It is important to note that oil pan adapter gasket, Part Number 2888747, can be installed on K series engines also.
+> Oil pan adapter gasket, Part Number [[4000595]], will **no** longer be used in service. All kits containing oil pan adapter gasket, Part Number [[4000595]], will now contain the new oil pan adapter gasket, Part Number 2888747. The effective date for this change at the Part Distribution Centers is 12/15/2012. It is important to note that oil pan adapter gasket, Part Number 2888747, can be installed on K series engines also.
 >
 > Installation of this new gasket is critical to the gasket's ability to seal properly. The proper installation procedure must be followed in order to maintain a leak free joint. The installation procedure can be found in the service manual for the engine being serviced, in Procedure 007-027 (Lubricating Oil Pan Adapter).
 >
 > New Oil Pan Adapter Gasket, Part Number 2888747
 >
-> Old Oil Pan Adapter Gasket, Part Number 4000595
+> Old Oil Pan Adapter Gasket, Part Number [[4000595]]
 >
 > ### Document History

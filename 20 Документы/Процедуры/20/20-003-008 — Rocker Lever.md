@@ -8,6 +8,7 @@ title_ru: "Коромысло клапана"
 modified: "2026-02-18"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-008.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-003-008.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-008.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Коромысло клапана**
 
 > [!abstract] Процедура · `20-003-008`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 3 - Rocker Levers - Group 03
 > **Даты:** изменён 2026-02-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-003-008.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-008.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -64,7 +65,7 @@ tags:
 ### Магнитный крэк-инспект
 
 > [!note] Примечание
-> Рука клапанного качалки ** должна быть разобрана для проведения этой проверки.
+> Рука клапанного качалки должна быть разобрана для проведения этой проверки.
 
 Используйте остаточный метод. Применить усилие выстрела катушки.
 
@@ -77,7 +78,7 @@ tags:
 > [!note] Примечание
 > Амперный виток — это электрический ток одного ампера, протекающий через катушку, умноженный на количество витков в катушке.
 
-Рычаг ** должен быть заменен, если есть трещина в любом месте.
+Рычаг должен быть заменен, если есть трещина в любом месте.
 
 Размагничивайте рычаг.
 
@@ -101,7 +102,7 @@ tags:
 
 Используйте пресс, чтобы сместить новый шар в полость в руке качели клапанного клапана.
 
-Липа на шаре ** должна быть промыта поверхностью на руке качения клапанного клапана.
+Липа на шаре должна быть промыта поверхностью на руке качения клапанного клапана.
 
 > [!note] Примечание
 > Используйте старый конец розетки проточной трубки, чтобы помочь удерживать и выравнивать для правильного сидения.

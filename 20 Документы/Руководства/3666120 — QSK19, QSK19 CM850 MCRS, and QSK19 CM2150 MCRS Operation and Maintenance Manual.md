@@ -7,11 +7,12 @@ title_en: "QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintena
 title_ru: "QSK19 (CM850/CM2150 MCRS): руководство по эксплуатации и обслуживанию"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666120/3666120-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666120-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666120-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/QSK19"
@@ -21,9 +22,9 @@ tags:
 **QSK19 (CM850/CM2150 MCRS): руководство по эксплуатации и обслуживанию**
 
 > [!abstract] Руководство · `3666120-history`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666120/3666120-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666120-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666120/3666120-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666120-history.pdf)
 
 
 ## Оглавление руководства (356 процедур)
@@ -36,10 +37,10 @@ tags:
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | om-frwd | Foreword | 22-May-2006 |
 | [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]-titlepage | Titlepage | 05-Feb-2010 |
-| 3666013-toc | Table of Contents |  |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-toc | Table of Contents |  |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
 | om-frwd | Foreword | 22-May-2006 |
-| 3666013-titlepage | Titlepage | 10-Oct-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-titlepage | Titlepage | 10-Oct-2006 |
 
 ### Section i - Introduction
 
@@ -186,20 +187,20 @@ tags:
 | [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]-t081-006-om | Exhaust Smoke Excessive Under Load | 12-Feb-2007 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| 3666013-t024-om | Coolant Temperature is Below Normal | 14-Jul-2006 |
-| 3666013-t026-om | Coolant Temperature Above Normal | 14-Jul-2006 |
-| 3666013-t026-155-om | Coolant Temperature Above Normal (Marine) | 14-Jul-2006 |
-| 3666013-t043-om | Engine Hard to Start or Will Not Start (Exhaust Smoke) | 14-Jul-2006 |
-| 3666013-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 14-Jul-2006 |
-| 3666013-t061-011-om | Engine Runs Rough at Idle, Warm Engine | 14-Jul-2006 |
-| 3666013-t072-om | Engine Starts But Will Not Keep Runnings | 14-Jul-2006 |
-| 3666013-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 14-Jul-2006 |
-| 3666013-t078-om | Engine Will Not Crank | 14-Jul-2006 |
-| 3666013-t080-om | Engine Will Not Reach Rated Speed (RPM) | 14-Jul-2006 |
-| 3666013-t081-om | Engine Will Not Shut Off | 14-Jul-2006 |
-| 3666013-t081-006-om | Exhaust Smoke Excessive Under Load | 14-Jul-2006 |
-| 3666013-t105-om | Lubricating Oil Pressure Low | 14-Jul-2006 |
-| 3666013-t057-om | Engine Power Output Low | 19-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t024-om | Coolant Temperature is Below Normal | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-om | Coolant Temperature Above Normal | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-155-om | Coolant Temperature Above Normal (Marine) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t043-om | Engine Hard to Start or Will Not Start (Exhaust Smoke) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t044-om | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t061-011-om | Engine Runs Rough at Idle, Warm Engine | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t072-om | Engine Starts But Will Not Keep Runnings | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t077-om | Engine Will Not Crank or Cranks Slowly (Air Starter) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t078-om | Engine Will Not Crank | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t080-om | Engine Will Not Reach Rated Speed (RPM) | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-om | Engine Will Not Shut Off | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-006-om | Exhaust Smoke Excessive Under Load | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t105-om | Lubricating Oil Pressure Low | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t057-om | Engine Power Output Low | 19-Jul-2006 |
 | [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 
 ### Section D - System Diagrams
@@ -416,7 +417,7 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]]-backcover | Backcover | 31-Jan-2007 |
-| 3666013-backcover | Backcover | 14-Jul-2006 |
+| [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-backcover | Backcover | 14-Jul-2006 |
 
 ### Section E - Engine Identification
 

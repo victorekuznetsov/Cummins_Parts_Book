@@ -17,7 +17,7 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260059.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb260059.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb260059.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2026-05-11 · изменён 2026-05-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260059.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb260059.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2026/tsb260059.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb260059.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,7 +57,7 @@ tags:
 - QST30 CM552
 - QST30 CM2350 T101
 
-** Резюме проблемы**
+**Резюме проблемы**
 
 #### Симптом:
 
@@ -70,7 +70,7 @@ tags:
 
 **Проверка**
 
-Убедитесь, что у вас есть вспомогательная приводная система водяного насоса LTA, которая включает в себя DF5749 или DF5752 с опциями TB5820 или TB5828. Проверить внешнюю утечку моторного масла происходит из пресса на месте уплотнительного соединения и ** не** из соседних соединений.
+Убедитесь, что у вас есть вспомогательная приводная система водяного насоса LTA, которая включает в себя DF5749 или DF5752 с опциями TB5820 или TB5828. Проверить внешнюю утечку моторного масла происходит из пресса на месте уплотнительного соединения и **не** из соседних соединений.
 
 **Решение**
 
@@ -84,7 +84,7 @@ tags:
 
 Рисунок 2, нажмите на место, печать полностью сиденья в пазухе
 
-** Услуги**
+**Услуги**
 
 Предлагаются сервисные части. Номера деталей приведены в таблице 1.
 

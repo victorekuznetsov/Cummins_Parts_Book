@@ -1,0 +1,63 @@
+---
+aliases:
+  - "Генератор системы зарядки"
+type: "Процедура"
+doc: "56-013-001-shopds"
+title_en: "Charging System Alternator"
+title_ru: "Генератор системы зарядки"
+modified: "2024-11-11"
+engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+families:
+  - "QSK60"
+manuals:
+  - "4021530"
+figures: 3
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-001-shopds.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-001-shopds.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QSK60"
+  - "группа/56"
+---
+
+# Charging System Alternator
+**Генератор системы зарядки**
+
+> [!abstract] Процедура · `56-013-001-shopds`
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]]
+> **Семейство:** QSK60
+> **Входит в руководства:** [[4021530 — QSK45 and QSK60 Service Manual|4021530]]
+> **Секции:** Section DS - Engine Disassembly - Group 00
+> **Даты:** изменён 2024-11-11
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-013-001-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-013-001-shopds.pdf)
+
+### Remove
+
+> [!danger] WARNING · Опасно
+> Batteries can emit explosive gases. To reduce the possibility of personal injury, always ventilate the compartment before servicing the batteries. To reduce the possibility of arcing, remove the negative (-) battery cable first and attach the negative (-) battery cable last.
+
+Disconnect the batteries.
+
+Disconnect the wiring from the alternator.
+
+![[19400050.png]]
+
+Loosen the adjusting link and the alternator mounting capscrews.
+
+The lower jam nut has left-hand threads.
+
+Loosen both of the jam nuts. Turn the adjusting screw to relieve the belt tension.
+
+Remove the alternator belt.
+
+![[eh4blmb.png]]
+
+The three capscrews are SAE Grade 8 and the three spacers are hardened. Keep the parts together to aid the assembly procedure.
+
+Remove the parts as shown.
+
+![[13600005.png]]

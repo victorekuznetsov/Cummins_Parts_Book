@@ -9,20 +9,30 @@ released: "2022-04-06"
 modified: "2022-04-06"
 group: "11 - Exhaust System"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
   - "K38/K50 · QSK38, QSK50, QSK60"
+  - "QSK50"
+  - "QSK60"
 parts:
+  - "3089765"
   - "4936174"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210042.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210042.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210042.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
   - "год/2022"
   - "перевод/машинный"
   - "тема/exhaust-system"
@@ -33,10 +43,10 @@ tags:
 
 > [!abstract] TSB · `tsb210042`
 > **Раздел Cummins:** 11 - Exhaust System
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50, QSK60
 > **Даты:** выпущен 2022-04-06 · изменён 2022-04-06
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210042.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210042.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210042.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210042.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -109,7 +119,7 @@ V-диапазонные болты разрываются, что привод�
 | Таблица 3, Затронутые публикации |  |  |  |  |
 |---|---|---|---|---|
 | Тип ручного | Двигатель | Номер бюллетеня | Процедура | Раздел |
-| Руководство по обслуживанию | QSK60 CM500,850,2150 | 4021530 | См. процедуру 011-007 | 11 |
+| Руководство по обслуживанию | QSK60 CM500,850,2150 | [[4021530 — QSK45 and QSK60 Service Manual\|4021530]] | См. процедуру 011-007 | 11 |
 | Руководство по обслуживанию | QSK60 CM2250 K112 | 4367454 | См. процедуру 011-007 | 11 |
 | Руководство по обслуживанию | QSK60 CM2350 K116 | 4367444 | См. процедуру 011-007 | 11 |
 | Руководство по обслуживанию | QSK60 CM2350 K117 | 4367449 | См. процедуру 011-007 | 11 |
@@ -123,6 +133,7 @@ V-диапазонные болты разрываются, что привод�
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
+| [[3089765]] | V BAND CLAMP | Хомут V-образный |
 | [[4936174]] | V BAND CLAMP | Хомут V-образный |
 
 > [!quote]- Original (English) · английский оригинал
@@ -164,7 +175,7 @@ V-диапазонные болты разрываются, что привод�
 > | Table 1, Service Parts |  |  |  |  |
 > |---|---|---|---|---|
 > | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
-> | Exhaust V-band Clamp | 3089765 | No | Yes | [[4936174]] |
+> | Exhaust V-band Clamp | [[3089765]] | No | Yes | [[4936174]] |
 >
 > **Part Identification**
 >
@@ -187,7 +198,7 @@ V-диапазонные болты разрываются, что привод�
 > | Table 3, Publications Affected |  |  |  |  |
 > |---|---|---|---|---|
 > | Manual Type | Engine | Bulletin Number | Procedure | Section |
-> | Service Manual | QSK60 CM500,850,2150 | 4021530 | Refer to Procedure 011-007 | 11 |
+> | Service Manual | QSK60 CM500,850,2150 | [[4021530 — QSK45 and QSK60 Service Manual\|4021530]] | Refer to Procedure 011-007 | 11 |
 > | Service Manual | QSK60 CM2250 K112 | 4367454 | Refer to Procedure 011-007 | 11 |
 > | Service Manual | QSK60 CM2350 K116 | 4367444 | Refer to Procedure 011-007 | 11 |
 > | Service Manual | QSK60 CM2350 K117 | 4367449 | Refer to Procedure 011-007 | 11 |

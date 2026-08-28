@@ -8,18 +8,27 @@ title_ru: "Порядок обычного пуска"
 modified: "2023-09-11"
 engines:
   - "41343322"
+  - "41370103"
+  - "80141463"
+  - "80248213"
 families:
   - "NT/NTA855 · ISM/QSM11"
+  - "QSX15"
 manuals:
+  - "3666251"
+  - "3666423"
   - "4021631"
+  - "4915540"
+  - "4960314"
 figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-101-014.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/101-101-014.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-101-014.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
+  - "двигатель/QSX15"
   - "группа/101"
   - "перевод/машинный"
 ---
@@ -28,12 +37,12 @@ tags:
 **Порядок обычного пуска**
 
 > [!abstract] Процедура · `101-101-014`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
-> **Семейство:** NT/NTA855 · ISM/QSM11
-> **Входит в руководства:** [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive|4021631]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]]
+> **Семейство:** NT/NTA855 · ISM/QSM11, QSX15
+> **Входит в руководства:** [[3666251 — Signature and ISX Operation and Maintenance Manual|3666251]], [[3666423 — QSX15 Operation and Maintenance Manual|3666423]], [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive|4021631]], [[4915540 — QSX15 Owners Manual|4915540]], [[4960314 — ISX Owners Manual|4960314]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2023-09-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-101-014.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/101-101-014.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-101-014.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-101-014.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,7 +64,7 @@ tags:
 - Вода в топливе обнаружена
 - Низкий уровень охлаждающей жидкости.
 
-Если предупреждающий свет мигает в течение 30 секунд при включении переключателя зажигания и вода сливается из всасывающего бокового водоотделяющего топливного фильтра, то топливный фильтр со стороны давления *** должен быть заменен.
+Если предупреждающий свет мигает в течение 30 секунд при включении переключателя зажигания и вода сливается из всасывающего бокового водоотделяющего топливного фильтра, то топливный фильтр со стороны давления  должен быть заменен.
 
 ![[19900833.png]]
 

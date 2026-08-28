@@ -8,6 +8,7 @@ title_ru: "Проставочная пластина крышки шестерё
 modified: "2020-02-06"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 11
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-029-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-029-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-029-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Проставочная пластина крышки шестерён**
 
 > [!abstract] Процедура · `20-001-029-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2020-02-06
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-029-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-029-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-029-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-029-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -128,7 +129,7 @@ tags:
 ### Установка
 
 > [!note] Примечание
-> Удалите старую прокладку адаптера на перфорации. Гаскет предназначен для удаления при перфорации. Прокладка стального сердечника ** не может** быть разрезана без повреждения поверхности поддона.
+> Удалите старую прокладку адаптера на перфорации. Гаскет предназначен для удаления при перфорации. Прокладка стального сердечника **не может** быть разрезана без повреждения поверхности поддона.
 
 Используйте герметик из серебра Cummins®, номер детали 3823494, в каждом из четырех Т-соединений, которые пересекают прокладку нефтяного резервуара.
 
@@ -138,7 +139,7 @@ tags:
 
 ![[01k00100.png]]
 
-Бриллиантовый дюбель (15) ** должен быть установлен с плоской поверхностью, обращенной к главному дюжету в правом нижнем углу блока. Руководящие шпильки (14) помогут в установке.
+Бриллиантовый дюбель (15) должен быть установлен с плоской поверхностью, обращенной к главному дюжету в правом нижнем углу блока. Руководящие шпильки (14) помогут в установке.
 
 ![[gc4gkha.png]]
 
@@ -167,11 +168,11 @@ tags:
 ![[01400113.png]]
 
 > [!note] Примечание
-> Если адаптеры масляной подушки удалены, выравнивание пластины распорки ** должно быть проверено. Если установлен адаптер масляной панели, выравнивание ** не требует проверки.
+> Если адаптеры масляной подушки удалены, выравнивание пластины распорки **должно быть проверено. Если установлен адаптер масляной панели, выравнивание** не требует проверки.
 
 Используйте измерительный блок, номер детали ST-547 или эквивалент, и измерьте расстояние от нижней части блока до нижней части пластины.
 
-Нижняя часть пластины или корпуса ** должна быть в пределах 0,05 мм \[0,002 дюйма\] от нижней части блока.
+Нижняя часть пластины или корпуса должна быть в пределах 0,05 мм \[0,002 дюйма\] от нижней части блока.
 
 Выровнять плиту с днищем блока, если это необходимо.
 
@@ -235,7 +236,7 @@ tags:
 > - Remove the camshaft idler gear. [[20-001-036-tr — Idler Gear, Camshaft|Refer to Procedure 001-036 in Section 1.]]
 > - Remove the camshaft gear. [[20-001-012-tr — Camshaft Gear (Camshaft Installed)|Refer to Procedure 001-012 in Section 1.]]
 > - Remove the hydraulic pump idler gear. [[20-001-039-tr — Idler Gear, Hydraulic Pump|Refer to Procedure 001-039 in Section 1.]]
-> - Remove the engine crankshaft speed/position sensor. Refer to Procedure 019-042 in Section 19, in the QSK19 CM850 Modular Comman Rail System Series Engine Troubleshooting and Repair Manual, Bulletin 4021493.
+> - Remove the engine crankshaft speed/position sensor. [[19-019-042 — Engine Speed Sensor (ESS)|Refer to Procedure 019-042 in Section 19,]] in the QSK19 CM850 Modular Comman Rail System Series Engine Troubleshooting and Repair Manual, Bulletin 4021493.
 >
 > ### Remove
 >
@@ -344,7 +345,7 @@ tags:
 > - Install the camshaft idler. [[20-001-036-tr — Idler Gear, Camshaft|Refer to Procedure 001-036 in Section 1.]]
 > - If the camshaft or camshaft gear was replaced, check the timing. Machining tolerances can cause the timing to be out of specifications. [[20-006-025-tr — Static Injection Timing|Refer to Procedure 006-025 in Section 6.]]
 > - Install the accessory drive plate. [[20-009-001-tr — Accessory Drive|Refer to Procedure 009-001 in Section 9.]]
-> - Install the engine crankshaft speed/position sensor. Refer to Procedure 019-042 in Section 19, in the QSK19 CM850 Modular Common Rail System Series Engine Troubleshooting and Repair Manual, Bulletin 4021493.
+> - Install the engine crankshaft speed/position sensor. [[19-019-042 — Engine Speed Sensor (ESS)|Refer to Procedure 019-042 in Section 19,]] in the QSK19 CM850 Modular Common Rail System Series Engine Troubleshooting and Repair Manual, Bulletin 4021493.
 > - Install the gear cover and related components. [[20-001-031-tr — Gear Cover, Front|Refer to Procedure 001-031 in Section 1.]]
 > - Fill with lubricating oil. [[20-007-037 — Lubricating Oil System|Refer to Procedure 007-037 in Section 7]].
 > - Fill with coolant. [[20-008-018-tr — Cooling System|Refer to Procedure 008-018 in Section 8.]]

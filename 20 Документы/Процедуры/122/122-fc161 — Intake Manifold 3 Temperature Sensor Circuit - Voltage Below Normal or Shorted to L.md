@@ -17,7 +17,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc161.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc161.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc161.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2015-09-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc161.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc161.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc161.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc161.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 161 PID(P): СПН: 1132 FMI: 4/4 лампы: Янтарная СРТ: | Цепь датчика температуры коллектора 3 — напряжение ниже нормы. Низкое напряжение сигнала, обнаруженное в впускном коллекторе 3 температурной цепи. | Возможен белый дым. Вентилятор останется включенным, если он будет контролироваться ECM. ** Нет** Защита двигателя от температуры впускного коллектора. |
+| Код неисправности: 161 PID(P): СПН: 1132 FMI: 4/4 лампы: Янтарная СРТ: | Цепь датчика температуры коллектора 3 — напряжение ниже нормы. Низкое напряжение сигнала, обнаруженное в впускном коллекторе 3 температурной цепи. | Возможен белый дым. Вентилятор останется включенным, если он будет контролироваться ECM. **Нет** Защита двигателя от температуры впускного коллектора. |
 
 ![[19601969.png]]
 

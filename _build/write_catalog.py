@@ -7,12 +7,10 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from common import (BUILD, DIRS, DOC_ESN, FAMILY_OF_CAT, VAULT, frontmatter,
+from common import (engine_registry, BUILD, DIRS, DOC_ESN, FAMILY_OF_CAT, VAULT, frontmatter,
                     load_json, safe_name, write_note)
 
-MACHINE_OF_ESN = {
-    "33239899": "NTE200", "33239746": "NTE240", "37295879": "TR100A",
-}
+
 
 
 def ru_name(ru_parts, name):
@@ -121,10 +119,12 @@ def main():
         if p.get("price"):
             out.append("## Цена")
             out.append("")
-            out.append("| Каталог машины | Цена | Группа | Наименование в прайсе |")
-            out.append("|---|---|---|---|")
-            for machine, pr in sorted(p["price"].items()):
-                out.append(f"| [[{machine}]] | {pr['price']} | {pr['group']} | {pr['name']} |")
+            out.append("| Прайс «Горная Евразия» | Цена |")
+            out.append("|---|---|")
+            if p["price"].get("cur") is not None:
+                out.append(f"| текущая | {p['price']['cur']} |")
+            if p["price"].get("new") is not None:
+                out.append(f"| несогласованная | {p['price']['new']} |")
             out.append("")
 
         if p["options"]:
@@ -267,6 +267,7 @@ def main():
         write_note(f"{DIRS['kit']}/{k['esn']}/{kit_note[key]}.md", "\n".join(out))
 
     # ------------------------------------------------------------ двигатели
+    reg = engine_registry()
     for esn, e in engines.items():
         fam, doc_esn = FAMILY_OF_CAT.get(esn, ("", ""))
         eng_docs = by_engine.get(doc_esn, []) if doc_esn else []
@@ -279,7 +280,7 @@ def main():
             "config": e.get("config", ""),
             "build_date": e.get("build", ""),
             "family": fam,
-            "machine": MACHINE_OF_ESN.get(esn, ""),
+            "machine": reg.get(esn, {}).get("machine", ""),
             "options_count": len(e["options"]),
             "kits_count": len(e["kits"]),
             "parts_rows": e["parts_total"],
@@ -292,8 +293,6 @@ def main():
                 f"**Конфигурация:** {e.get('config','')}",
                 f"> **Дата сборки:** {e.get('build','')} · **Завод:** {e.get('plant','')} · "
                 f"**Группа:** {e.get('group','')}"]
-        if MACHINE_OF_ESN.get(esn):
-            info.append(f"> **Машина:** [[{MACHINE_OF_ESN[esn]}]]")
         if fam:
             info.append(f"> **Семейство документации:** {fam}")
         info.append(f"> **Узлов:** {len(e['options'])} · **Комплектов:** {len(e['kits'])} · "

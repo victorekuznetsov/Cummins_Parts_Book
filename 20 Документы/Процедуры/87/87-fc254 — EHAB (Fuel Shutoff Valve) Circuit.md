@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc254.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc254.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc254.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc254.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc254.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc254.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc254.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -70,11 +70,11 @@ EHAB (запорный клапан) является неотъемлемой �
 
 ### Практические замечания
 
-- EHAB (клапан отключения топлива) ** только ** останавливает топливо на топливном насосе RP39.
+- EHAB (клапан отключения топлива) **только** останавливает топливо на топливном насосе RP39.
 
 - Осмотрите цепь EHAB (запорный клапан топлива) для внешних проводов, которые могут быть подключены для питания другого устройства. Удалите любые дополнительные провода, которые находятся в цепи.
 
-- Если на транспортном средстве установлена внешняя система отключения, которая использует EHAB (клапан отключения топлива) для отключения двигателя, убедитесь, что он ** не** вышел из строя и понизил напряжение на EHAB (клапан отключения топлива).
+- Если на транспортном средстве установлена внешняя система отключения, которая использует EHAB (клапан отключения топлива) для отключения двигателя, убедитесь, что он **не** вышел из строя и понизил напряжение на EHAB (клапан отключения топлива).
 
 - Проверьте блок двигателя на проволоке шасси, чтобы убедиться, что он надежно закреплен на чистой, сухой поверхности.
 

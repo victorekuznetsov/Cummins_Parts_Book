@@ -8,6 +8,7 @@ title_ru: "Порядок обычного пуска"
 modified: "2009-06-17"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 9
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-014-om-auto.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-101-014-om-auto.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-101-014-om-auto.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Порядок обычного пуска**
 
 > [!abstract] Процедура · `100-101-014-om-auto`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[4915544 — C8.3 Automotive, Recreational Vehicle, and Bus Owners Manual|4915544]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2009-06-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-014-om-auto.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-101-014-om-auto.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-014-om-auto.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-101-014-om-auto.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -98,14 +99,14 @@ tags:
 На этой иллюстрации показано типичное параллельное подключение батареи. Это удваивает проворачивание.
 
 > [!note] Примечание
-> ** Всегда ссылайтесь на соответствующую литературу по OEM для процедур запуска прыжков. Несоблюдение правильных процедур может привести к повреждению ЭХМ и другого электрооборудования.
+> Всегда ссылайтесь на соответствующую литературу по OEM для процедур запуска прыжков. Несоблюдение правильных процедур может привести к повреждению ЭХМ и другого электрооборудования.
 
 ![[sb8coga.png]]
 
 На этой иллюстрации показано типичное соединение аккумулятора серии. Эта компоновка, положительная (+) к отрицательной (-), удваивает напряжение.
 
 > [!note] Примечание
-> ** Всегда ссылайтесь на соответствующую литературу по OEM для процедур запуска прыжков. Несоблюдение правильных процедур может привести к повреждению ЭХМ и другого электрооборудования.
+> Всегда ссылайтесь на соответствующую литературу по OEM для процедур запуска прыжков. Несоблюдение правильных процедур может привести к повреждению ЭХМ и другого электрооборудования.
 
 ![[sb8cogb.png]]
 

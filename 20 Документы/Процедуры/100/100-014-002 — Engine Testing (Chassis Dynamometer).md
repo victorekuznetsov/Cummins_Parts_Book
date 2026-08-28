@@ -7,18 +7,23 @@ title_en: "Engine Testing (Chassis Dynamometer)"
 title_ru: "Испытание двигателя (стенд с беговыми барабанами)"
 modified: "2025-04-17"
 engines:
+  - "93047320"
   - "93058669"
+  - "93087701"
 families:
+  - "6B5.9"
   - "C8.3 · 6C8.3"
 manuals:
   - "3666003"
+  - "3666087"
 figures: 11
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-014-002.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-014-002.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-014-002.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/C8.3"
   - "группа/100"
   - "перевод/машинный"
@@ -28,12 +33,12 @@ tags:
 **Испытание двигателя (стенд с беговыми барабанами)**
 
 > [!abstract] Процедура · `100-014-002`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
-> **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
+> **Двигатели:** [[93047320 — 6B5.9 CPL 3111|93047320]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** 6B5.9, C8.3 · 6C8.3
+> **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]], [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]]
 > **Секции:** Section 14 - Engine Testing - Group 14
 > **Даты:** изменён 2025-04-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-014-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-014-002.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-014-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-014-002.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -65,10 +70,10 @@ tags:
 - 30% для трехосных транспортных средств
 - 35% для рекреационных автомобилей.
 
-Эти спецификации применяются к осям привода **только **, **не** бирки оси.
+Эти спецификации применяются к осям привода **только**, **не** бирки оси.
 
 > [!note] Примечание
-> Эти проценты используются для включения двигателя только *** и ** не *** используются в качестве абсолютных цифр.
+> Эти проценты используются для включения двигателя только **и **не  используются в качестве абсолютных цифр.
 
 ![[oi901vu.png]]
 
@@ -84,7 +89,7 @@ tags:
 
 При эксплуатации динамометра шасси соблюдайте общие меры предосторожности, перечисленные ниже:
 
-- Используйте шины, которые имеют более 160 км \[100 миль \] использования. **Не использовать новые шины.
+- Используйте шины, которые имеют более 160 км \[100 миль \] использования. Не использовать новые шины.
 - **не** использовать повторно используемые шины или шины различных размеров или конструкций.
 
 ![[oi901vy.png]]
@@ -132,7 +137,7 @@ tags:
 - Используйте следующую процедуру в Руководстве по обслуживанию, ISF2.8 CM2220 E и ISF2.8 CM2220 AN Bulletin 4022178. См. процедуру 014-006 в разделе 14.
 - Используйте следующую процедуру в Руководстве по обслуживанию, ISF3.8 CM2220 Bulletin 4021704. См. процедуру 014-006 в разделе 14.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Двигатели ISB и QSB5.9, Бюллетень 3666193. См. процедуру 014-006 в разделе 14.
-- Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, B3.9, B4.5 и B5.9 Series Engines, Bulletin 3666087. См. процедуру 014-006 в разделе 14.
+- Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, B3.9, B4.5 и B5.9 Series Engines, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]]. См. процедуру 014-006 в разделе 14.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, ISC, ISCe, QSC8.3, двигателях ISL и QSL9, Бюллетень 4021418. См. процедуру 014-006 в разделе 14.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, Серия C, Вестник [[3666003 — C Troubleshooting and Repair Manual\|3666003]].[[41-014-006 — Engine Run-in (Engine Dynamometer)|См. процедуру 014-006 в разделе 14.]]
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту, ISB, ISBe 4 и 6 Цилиндр, Вестник 4021271. См. процедуру 014-006 в разделе 14.
@@ -244,11 +249,11 @@ tags:
 > - Use the following procedure in the Service Manual, ISF2.8 CM2220 E and ISF2.8 CM2220 AN Bulletin 4022178. Refer to Procedure 014-006 in Section 14.
 > - Use the following procedure in the Service Manual, ISF3.8 CM2220 Bulletin 4021704. Refer to Procedure 014-006 in Section 14.
 > - Use the following procedure in the Troubleshooting and Repair Manual, ISB and QSB5.9 Engines, Bulletin 3666193. Refer to Procedure 014-006 in Section 14.
-> - Use the following procedure in the Troubleshooting and Repair Manual, B3.9, B4.5, and B5.9 Series Engines, Bulletin 3666087. Refer to Procedure 014-006 in Section 14.
+> - Use the following procedure in the Troubleshooting and Repair Manual, B3.9, B4.5, and B5.9 Series Engines, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]]. [[40-014-006 — Engine Run-in (Engine Dynamometer)|Refer to Procedure 014-006 in Section 14.]]
 > - Use the following procedure in the Troubleshooting and Repair Manual, ISC, ISCe, QSC8.3, ISL and QSL9 Engines, Bulletin 4021418. Refer to Procedure 014-006 in Section 14.
 > - Use the following procedure in the Troubleshooting and Repair Manual, C Series, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. [[41-014-006 — Engine Run-in (Engine Dynamometer)|Refer to Procedure 014-006 in Section 14.]]
 > - Use the following procedure in the Troubleshooting and Repair Manual, ISB, ISBe 4 and 6 Cylinder, Bulletin 4021271. Refer to Procedure 014-006 in Section 14.
-> - Use the following procedure in the Troubleshooting and Repair Manual, B Series, Bulletin 3810207. Refer to Procedure 014-006 in Section 14.
+> - Use the following procedure in the Troubleshooting and Repair Manual, B Series, Bulletin 3810207. [[40-014-006 — Engine Run-in (Engine Dynamometer)|Refer to Procedure 014-006 in Section 14.]]
 > - Use the following procedure in the QSL9 CM2350 L102 and L9 CM2450 L181C Service Manual, Bulletin 4332796. Refer to Procedure 014-006 in Section 14.
 > - Use the following procedure in the QSL9 CM2350 L118 and L9 CM2450 L182C Service Manual, Bulletin 4388626. Refer to Procedure 014-006 in Section 14.
 > - Use the following procedure in the L9 CM2350 L116B Service Manual, Bulletin 5411330. Refer to Procedure 014-006 in Section 14.

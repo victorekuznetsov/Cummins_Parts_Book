@@ -16,7 +16,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-018-006.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-018-006.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-018-006.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2002-11-22
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-018-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-018-006.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-018-006.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-018-006.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -47,7 +47,7 @@ tags:
 
 | компонент | Размер бранча | Момент затяжки |  |
 |---|---|---|---|
-|  | **mm \[in\]** | ** Н*м** | **[фунт-фут]** |
+|  | **mm \[in\]** | **Н*м** | **[фунт-фут]** |
 | Шлюпка для слива масла | 12 | 60 | 45 |
 | клапанный мост, регулирующий винтовой шлюзовый орех с помощью адаптера | 17 | 45 | 35 |
 | клапанный мост, регулирующий винтовой шлюзовый орех без адаптера | 17 | 60 | 45 |

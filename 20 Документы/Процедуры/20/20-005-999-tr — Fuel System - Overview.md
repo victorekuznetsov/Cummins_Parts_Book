@@ -8,6 +8,7 @@ title_ru: "Топливная система — обзор"
 modified: "2006-06-30"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-999-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-999-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-999-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Топливная система — обзор**
 
 > [!abstract] Процедура · `20-005-999-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section F - Familiarization
 > **Даты:** изменён 2006-06-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-999-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-999-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-999-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-999-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,14 +54,14 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Загрязнения с топливным насосом могут аннулировать гарантию двигателя, снизить производительность двигателя и быть нарушением закона.
 
-Топливная система QSK используется на двигателе QSK19. Дополнительная информация о топливной системе QSK доступна в Руководстве по устранению неполадок и ремонту, Электронной системе управления топливом, QSK19, QSK23, QSK45, QSK60 и двигателях QSK78, Бюллетень 3666113.
+Топливная система QSK используется на двигателе QSK19. Дополнительная информация о топливной системе QSK доступна в Руководстве по устранению неполадок и ремонту, Электронной системе управления топливом, QSK19, QSK23, QSK45, QSK60 и двигателях QSK78, Бюллетень [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]].
 
 > [!note] Примечание
 > Гарантийный ремонт не должен производиться на топливный насос, если работа не выполняется в магазине, отвечающем всем требованиям, установленным Cummins Inc. Для точной калибровки, тестирования и ремонта топливных систем на двигателях Cummins®.
 
 ![[06400099.png]]
 
-Производительность двигателя определяется списком контрольных частей (CPL) и кодом топливного насоса. Калибровка топливного насоса ** должна быть в пределах опубликованных спецификаций. Калибровка топливных насосов сертифицирована несколькими агентствами по выбросам.
+Производительность двигателя определяется списком контрольных частей (CPL) и кодом топливного насоса. Калибровка топливного насоса должна быть в пределах опубликованных спецификаций. Калибровка топливных насосов сертифицирована несколькими агентствами по выбросам.
 
 Топливная система QSK с механически приводимой в действие форсунки использует топливный насос типа PT для подачи линейного давления переключения передач от 414 кПа \[60 psi\] при 600 об/мин до 1931 кПа \[280 psi\] при 2100 об/мин на электронный клапан управления топливом.
 
@@ -72,7 +73,7 @@ tags:
 
 ![[05400010.png]]
 
-Топливный насос QSK содержит **не** клапан управления воздушным топливом (AFC). Насос **только ** имеет крышку для управления воздушным топливом (AFC).
+Топливный насос QSK содержит **не** клапан управления воздушным топливом (AFC). Насос **только** имеет крышку для управления воздушным топливом (AFC).
 
 ![[05400011.png]]
 
@@ -100,9 +101,9 @@ tags:
 
 ![[05400012.png]]
 
-Насос для очистки моторного масла (A) ** должен быть удален до удаления топливного насоса (B), чтобы обеспечить доступ к болтам для монтажа топливного насоса.
+Насос для очистки моторного масла (A) должен быть удален до удаления топливного насоса (B), чтобы обеспечить доступ к болтам для монтажа топливного насоса.
 
-Топливный насос (B) ** должен быть установлен до установки насоса для очистки моторного масла (A).
+Топливный насос (B) должен быть установлен до установки насоса для очистки моторного масла (A).
 
 ![[17400021.png]]
 
@@ -147,7 +148,7 @@ Cummins Inc. рекомендует клапан шарового типа и **
 
 ![[06400063.png]]
 
-Топливный насос QSK для форсунки с механическим приводом содержит интегральный контрольный клапан в выпускной розетке топливного насоса. Дополнительный контрольный клапан ** не требуется, когда максимальный уровень топлива выше слива топливного форсунка или когда топливные фильтры ниже, чем топливный бак.
+Топливный насос QSK для форсунки с механическим приводом содержит интегральный контрольный клапан в выпускной розетке топливного насоса. Дополнительный контрольный клапан не требуется, когда максимальный уровень топлива выше слива топливного форсунка или когда топливные фильтры ниже, чем топливный бак.
 
 > [!missing]- Иллюстрация `05400026.png` не извлечена — смотрите PDF-оригинал документа
 
@@ -165,7 +166,7 @@ Cummins Inc. рекомендует клапан шарового типа и **
 > **CAUTION · Осторожно**
 > Tampering with the fuel pump can void the engine warranty, lower engine performance, and be a violation of law.
 >
-> The QSK fuel system is used on the QSK19 engine. Additional information about the QSK fuel system is available in the Troubleshooting and Repair Manual, Electronic Control Fuel System, QSK19, QSK23, QSK45, QSK60, and QSK78 Engines, Bulletin 3666113.
+> The QSK fuel system is used on the QSK19 engine. Additional information about the QSK fuel system is available in the Troubleshooting and Repair Manual, Electronic Control Fuel System, QSK19, QSK23, QSK45, QSK60, and QSK78 Engines, Bulletin [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R|3666113]].
 >
 > **Note · Примечание**
 > Warranty repairs are **not** to be made to the fuel pump unless the work is performed in a shop meeting all requirements established by Cummins Inc. to accurately calibrate, test and repair the fuel systems on Cummins® engines.
