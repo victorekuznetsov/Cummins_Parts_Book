@@ -654,8 +654,23 @@ function openPartCard(pn) {
     if (k === "Sellable") v = (v === "Y" ? "да" : "нет");
     addAttr(atb, RU[k] || k, v);
   });
-  if (card.recon) addAttr(atb, "Аналог Recon", card.recon);
   at.classList.toggle("hidden", !atb.children.length);
+
+  // аналоги ReCon (заводское восстановление): отдельный сертифицированный
+  // номер, не деталь из каталога — поэтому не кликабелен, только справочно
+  var reconBox = $("pc-recon"), reconBody = $("pc-recon-body");
+  reconBody.innerHTML = "";
+  var reconList = card.recon || [];
+  if (reconList.length) {
+    reconList.forEach(function (r) {
+      if (!r || !r.reconPart) return;
+      reconBody.appendChild(el("span", "sup-no cur", r.reconPart));
+    });
+    reconBody.appendChild(el("div", "sup-note",
+      "Восстановленный узел (ReCon) под отдельным номером поставки — заказывается " +
+      "как обменный узел, а не как эта деталь."));
+    reconBox.classList.remove("hidden");
+  } else reconBox.classList.add("hidden");
 
   // где применяется
   var used = card.used || [];
@@ -977,6 +992,25 @@ function doSearchIn(q) {
       });
     });
 
+    // совпадения по номерам аналогов ReCon (восстановленный узел под другим номером)
+    var reconOf = {};
+    Object.keys(cards).forEach(function (pn) {
+      (cards[pn].recon || []).forEach(function (r) {
+        if (r.reconPart && normNo(r.reconPart).indexOf(norm) !== -1) reconOf[pn] = r.reconPart;
+      });
+    });
+    Object.keys(reconOf).forEach(function (pn) {
+      cat.options.forEach(function (o) {
+        o.parts.forEach(function (p) {
+          if (p.no !== pn) return;
+          var key = p.no + "|" + o.no;
+          if (seen[key]) return;
+          seen[key] = 1;
+          hits.push({ p: p, o: o, eng: eng, exact: false, recon: reconOf[pn] });
+        });
+      });
+    });
+
     /* Узлы: по названию (английскому и русскому) — чтобы «блок цилиндров»
        открывал сам узел, а не только детали из него. */
     cat.options.forEach(function (o) {
@@ -1052,6 +1086,7 @@ function doSearchIn(q) {
     }
     var no = el("span", "hit-no", h.p.no || "—");
     if (h.via) no.appendChild(el("span", "chip-sup", "вместо " + h.via));
+    if (h.recon) no.appendChild(el("span", "chip-sup", "аналог ReCon " + h.recon));
     d.appendChild(no);
     var nm = el("span", "hit-name");
     var ruHit = (window.KB && h.p.no) ? window.KB.ruPart(h.p.no) : "";
@@ -1350,7 +1385,7 @@ var GIDX = null;          // глобальный индекс: прямые н�
 var checkResults = null;
 function buildGlobalIndex() {
   if (GIDX) return GIDX;
-  var direct = {}, via = {}, kit = {};
+  var direct = {}, via = {}, kit = {}, recon = {};
   ENGINES.forEach(function (e) {
     var cat = ALL[e.esn]; if (!cat) return;
     cat.options.forEach(function (o) {
@@ -1384,8 +1419,19 @@ function buildGlobalIndex() {
       (kit[normNo(k.no)] || (kit[normNo(k.no)] = [])).push({ esn: e.esn, machine: e.machine,
         model: cat.model, no: k.no, name: k.name || "", cnt: kitComponents(k).length });
     });
+    /* Номера аналогов ReCon (заводское восстановление) — отдельный сертифицированный
+       номер поставки, отличный от номера каталожной детали; список поставщика может
+       содержать именно его. */
+    Object.keys(cards).forEach(function (pn) {
+      (cards[pn].recon || []).forEach(function (r) {
+        if (!r.reconPart) return;
+        var n = normNo(r.reconPart);
+        (recon[n] || (recon[n] = [])).push({ esn: e.esn, machine: e.machine,
+          model: cat.model, no: pn, cur: curNoFor(cat, pn), reconPart: r.reconPart });
+      });
+    });
   });
-  GIDX = { direct: direct, via: via, kit: kit };
+  GIDX = { direct: direct, via: via, kit: kit, recon: recon };
   return GIDX;
 }
 function parseNumbers(text) {
@@ -1401,6 +1447,10 @@ function whereList(hits, status) {
     if (status === "kit") {
       var ruK = (window.KB && window.KB.ruPart) ? window.KB.ruPart(h.no) : "";
       return label + " → комплект «" + (ruK || h.name || h.no) + "» · составляющих: " + h.cnt;
+    }
+    if (status === "recon") {
+      return label + " → аналог ReCon детали " + h.no +
+        (h.cur && h.cur !== h.no ? " (действующий " + h.cur + ")" : "");
     }
     if (sup) return label + " → действующий " + h.no + (h.cur && h.cur !== h.no ? " (" + h.cur + ")" : "");
     var units = Object.keys(h.units).map(function (u) { return h.units[u]; });
@@ -1424,7 +1474,7 @@ function openHit(r) {
   if (h.esn !== C.esn) selectEngine(h.esn);
   if (r.status === "kit") {
     openKitCard(h.no);
-  } else if (r.status === "sup") {
+  } else if (r.status === "sup" || r.status === "recon") {
     var loc = findOptionOfPart(h.esn, h.no);
     if (loc) openOption(loc, h.no);
   } else {
@@ -1433,16 +1483,17 @@ function openHit(r) {
 }
 function runCheck() {
   var nums = parseNumbers($("check-input").value), idx = buildGlobalIndex();
-  var results = [], cOk = 0, cSup = 0, cKit = 0, cNo = 0;
+  var results = [], cOk = 0, cSup = 0, cKit = 0, cRecon = 0, cNo = 0;
   nums.forEach(function (raw) {
-    var n = normNo(raw), d = idx.direct[n], v = idx.via[n], k = idx.kit[n];
+    var n = normNo(raw), d = idx.direct[n], v = idx.via[n], k = idx.kit[n], rc = idx.recon[n];
     if (d && d.length) { cOk++; results.push({ raw: raw, status: "ok", hits: d }); }
     else if (k && k.length) { cKit++; results.push({ raw: raw, status: "kit", hits: k }); }
+    else if (rc && rc.length) { cRecon++; results.push({ raw: raw, status: "recon", hits: rc }); }
     else if (v && v.length) { cSup++; results.push({ raw: raw, status: "sup", hits: v }); }
     else { cNo++; results.push({ raw: raw, status: "no", hits: [] }); }
   });
   checkResults = results;
-  renderCheck(results, { ok: cOk, sup: cSup, kit: cKit, no: cNo, total: nums.length });
+  renderCheck(results, { ok: cOk, sup: cSup, kit: cKit, recon: cRecon, no: cNo, total: nums.length });
   $("check-dl").disabled = !results.length;
 }
 function renderCheck(results, sum) {
@@ -1452,6 +1503,7 @@ function renderCheck(results, sum) {
   pill("ok", "В каталоге: " + sum.ok);
   pill("sup", "Как заменённый: " + sum.sup);
   pill("kit", "Комплекты: " + sum.kit);
+  pill("recon", "Аналоги ReCon: " + sum.recon);
   pill("no", "Нет: " + sum.no);
   var box = $("check-results"); box.innerHTML = "";
   if (!results.length) { box.appendChild(el("p", "sub", "Введите номера и нажмите «Проверить».")); return; }
@@ -1464,7 +1516,8 @@ function renderCheck(results, sum) {
     tr.appendChild(el("td", "r-no", r.raw));
     var tdS = el("td");
     var label = r.status === "ok" ? "в каталоге" : r.status === "kit" ? "комплект"
-              : r.status === "sup" ? "заменённый" : "нет в каталоге";
+              : r.status === "sup" ? "заменённый" : r.status === "recon" ? "аналог ReCon"
+              : "нет в каталоге";
     tdS.appendChild(el("span", "status " + r.status, label));
     tr.appendChild(tdS);
     var tdW = el("td", "r-where");
@@ -1488,11 +1541,12 @@ function downloadCheck() {
   var rows = [head];
   checkResults.forEach(function (r) {
     var status = r.status === "ok" ? "в каталоге" : r.status === "kit" ? "комплект"
-               : r.status === "sup" ? "заменённый" : "нет в каталоге";
+               : r.status === "sup" ? "заменённый" : r.status === "recon" ? "аналог ReCon"
+               : "нет в каталоге";
     var where = r.status === "no" ? "" : whereList(r.hits, r.status).join(" | ");
-    var cur = r.status === "sup" ? (r.hits[0] ? r.hits[0].no : "") : "";
+    var cur = (r.status === "sup" || r.status === "recon") ? (r.hits[0] ? r.hits[0].no : "") : "";
     var kits = {};
-    if (r.status === "ok" || r.status === "sup") {
+    if (r.status === "ok" || r.status === "sup" || r.status === "recon") {
       r.hits.forEach(function (h) {
         kitsForNoIn(ALL[h.esn] || {}, h.no).forEach(function (kn) { kits[kn] = 1; });
       });

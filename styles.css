@@ -758,6 +758,8 @@ table.parts tr.hit-row .pn{color:var(--accent-2)}
 /* проверка списка: номер оказался комплектом */
 .check-summary .pill.kit{background:var(--accent-soft); color:var(--accent-2); border-color:var(--accent-2)}
 .status.kit{background:var(--accent-soft); color:var(--accent-2)}
+.check-summary .pill.recon{background:#eef0ff; color:#3f4bd6; border-color:#c9cdf7}
+.status.recon{background:#eef0ff; color:#3f4bd6}
 
 /* заголовок таблицы позиций: две цены одного прайса под общей шапкой */
 table.parts th.th-group{
