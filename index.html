@@ -278,6 +278,12 @@
 <script src="data/kb_photos.js"></script>
 <script src="data/kb_topics.js"></script>
 <script src="data/kb_search.js"></script>
+<script>
+  /* тонкий деплой: PDF документов и иллюстрации в этой сборке не
+     выкладываются — база знаний подставляет ссылки на QuickServe,
+     фотографии деталей берутся с parts.cummins.com */
+  window.KB_LOCAL_FILES = false;
+</script>
 <script src="kb.js"></script>
 <script src="app.js?v=3"></script>
 </body>
