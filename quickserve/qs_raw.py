@@ -17,7 +17,8 @@ STATUS = os.path.join(BASE, "qs_raw.status")
 
 NEW_ESNS = ["33210083","33219033","33224343","33224404","35354607","35373113",
             "37269910","37280605","41340468","71156161","77804793","77804810",
-            "80141463","80248213","82099327","85017333","93047320","93948840"]
+            "80141463","80248213","82099327","85017333","93047320","93948840",
+            "33239746"]  # NTE240, QSK60 CM2150 MCRS, CPL 3451 — своей выгрузки не было
 
 CAT_RE = re.compile(r"/qs3/pubsys2/xml/\w+/(tsb|bulletin|manual|install_inst|sti|outlines|procedures)/")
 PROC_RE = re.compile(r"/qs3/pubsys2/xml/en/procedures/[A-Za-z0-9/_.-]+\.html")
