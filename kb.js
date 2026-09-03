@@ -711,6 +711,20 @@ function viewEngine(esn) {
       ".</p></section>");
   }
 
+  var fc = window.KB_FAULT_CODES && window.KB_FAULT_CODES[esn];
+  if (fc) {
+    h.push('<section class="kb-card wide"><h2>Коды неисправностей (SPN/FMI)</h2>' +
+      '<p class="lead">Источник: ' + esc(fc.source) + '. <b>Не QuickServe</b> — ' + esc(fc.note) +
+      "</p>");
+    h.push('<div class="kb-table-wrap"><table class="kb-table"><thead><tr>');
+    fc.cols.forEach(function (c) { h.push("<th>" + esc(c) + "</th>"); });
+    h.push("</tr></thead><tbody>");
+    fc.rows.forEach(function (r) {
+      h.push("<tr>" + r.map(function (v) { return "<td>" + esc(v) + "</td>"; }).join("") + "</tr>");
+    });
+    h.push("</tbody></table></div></section>");
+  }
+
   if (cat) {
     h.push('<section class="kb-card wide"><h2>Системы и узлы</h2>');
     (cat.systems || []).forEach(function (s) {
