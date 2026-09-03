@@ -484,6 +484,8 @@ body.kb-mode .kb-root{display:block; max-width:none; margin:0; padding:18px 24px
 .kb-table .c-eng{white-space:nowrap; width:1%}
 .kb-table .c-ext{width:1%; color:var(--muted); cursor:help}
 .kb-table .sub{color:var(--muted); font-size:12.5px}
+.kb-table-wrap{overflow-x:auto; max-height:70vh; overflow-y:auto; border:1px solid var(--line-soft); border-radius:8px}
+.kb-table-wrap .kb-table th{position:sticky; top:0; background:var(--bg); z-index:1}
 .empty{color:var(--muted); padding:18px 0}
 
 .chip{
