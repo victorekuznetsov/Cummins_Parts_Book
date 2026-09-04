@@ -18,10 +18,11 @@ engines:
   - "41353297"
   - "85017333"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
   - "QSK23"
   - "QSK60"
+  - "QSK60 CM2150 MCRS"
   - "QST30"
 manuals:
   - "3666120"
@@ -41,6 +42,7 @@ tags:
   - "двигатель/QSK19"
   - "двигатель/QSK23"
   - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QST30"
   - "группа/102"
   - "перевод/машинный"
@@ -51,7 +53,7 @@ tags:
 
 > [!abstract] Процедура · `102-101-004`
 > **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19, QSK23, QSK60, QST30
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19, QSK23, QSK60, QSK60 CM2150 MCRS, QST30
 > **Входит в руководства:** [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]], [[4915528 — QSK45 and QSK60 Owners Manual|4915528]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2015-08-17

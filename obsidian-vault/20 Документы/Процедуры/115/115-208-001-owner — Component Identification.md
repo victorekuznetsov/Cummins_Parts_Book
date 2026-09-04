@@ -7,12 +7,11 @@ title_en: "Component Identification"
 title_ru: "Идентификация компонентов"
 modified: "2008-10-09"
 engines:
-  - "33239746"
   - "33239899"
   - "41349633"
   - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
 manuals:
   - "4021589"
@@ -33,8 +32,8 @@ tags:
 **Идентификация компонентов**
 
 > [!abstract] Процедура · `115-208-001-owner`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19
 > **Входит в руководства:** [[4021589 — Marine C Command Panel System Owners Manual|4021589]]
 > **Секции:** Section E - Engine and System Identification
 > **Даты:** изменён 2008-10-09

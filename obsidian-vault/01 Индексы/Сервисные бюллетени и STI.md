@@ -4,13 +4,33 @@ type: "Индекс"
 
 # Сервисные бюллетени и STI
 
-## Сервисные бюллетени (82)
+## Сервисные бюллетени (111)
 
 | Номер | Название | Русское название | Дата |
 |---|---|---|---|
 | [[4021686 — Advanced Engine Performance Troubleshooting Techniques\|4021686]] | Advanced Engine Performance Troubleshooting Techniques | Углублённые методы диагностики мощностных характеристик | 2010-10-11 |
 | [[3666212 — Aftermarket Water in Fuel Indicator Installation Guide\|3666212]] | Aftermarket Water in Fuel Indicator Installation Guide | Руководство по установке индикатора воды в топливе | 1998-04-01 |
+| [[6497107 — Aftertreatment Diesel Exhaust (DEF) Fluid Pressure Sensor OEM Wiring Harness Pin to P\|6497107]] | Aftertreatment Diesel Exhaust (DEF) Fluid Pressure Sensor OEM Wiring Harness Pin to Pin Short |  | 2023-08-30 |
+| [[6497147 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Pump Motor Circuit Pin to Groun\|6497147]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Pump Motor Circuit Pin to Ground Short |  | 2023-08-30 |
+| [[6497149 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Pump Motor Circuit Pin to Pin S\|6497149]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Pump Motor Circuit Pin to Pin Short |  | 2023-08-30 |
+| [[6497130 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Pump Motor Open Circuit Check\|6497130]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Pump Motor Open Circuit Check |  | 2023-08-30 |
+| [[6497146 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Pump Motor Open Circuit Check\|6497146]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Pump Motor Open Circuit Check |  | 2023-08-30 |
+| [[6497129 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Relay Circuit Pin to Pin Short\|6497129]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Relay Circuit Pin to Pin Short |  | 2023-08-30 |
+| [[6497131 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Relay Open Circuit Check\|6497131]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Relay Open Circuit Check |  | 2023-08-30 |
+| [[6497150 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Relay Open Circuit Check\|6497150]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Relay Open Circuit Check |  | 2023-08-30 |
+| [[6497108 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Relay Voltage Check\|6497108]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Relay Voltage Check |  | 2023-08-30 |
+| [[6497136 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Circuit Pin to Ground Short\|6497136]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Circuit Pin to Ground Short |  | 2023-08-30 |
+| [[6497137 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Circuit Pin to Ground Short\|6497137]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Circuit Pin to Ground Short |  | 2023-08-30 |
+| [[6497138 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Circuit Pin to Pin Short\|6497138]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Circuit Pin to Pin Short |  | 2023-08-30 |
+| [[6497134 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Open Circuit Check\|6497134]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Open Circuit Check |  | 2023-08-30 |
+| [[6497140 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Resistance Check\|6497140]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Resistance Check |  | 2023-08-30 |
+| [[6497141 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Resistance Check\|6497141]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Resistance Check |  | 2023-08-30 |
+| [[6497142 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Resistance Check\|6497142]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Resistance Check |  | 2023-08-30 |
 | [[4325971 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing and Selective Catalytic Reduction (S\|4325971]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing and Selective Catalytic Reduction (SCR) System Reuse Guidelines |  | 2012-07-24 |
+| [[6497144 — Aftertreatment Diesel Exhaust Fluid (DEF) Pressure Sensor OEM Wiring Harness Pin to P\|6497144]] | Aftertreatment Diesel Exhaust Fluid (DEF) Pressure Sensor OEM Wiring Harness Pin to Pin Short |  | 2023-08-30 |
+| [[6497145 — Aftertreatment Diesel Exhaust Fluid (DEF) Pressure Sensor OEM Wiring Harness Pin to P\|6497145]] | Aftertreatment Diesel Exhaust Fluid (DEF) Pressure Sensor OEM Wiring Harness Pin to Pin Short |  | 2023-08-30 |
+| [[6497135 — Aftertreatment Diesel Exhaust Fluid Dosing (DEF) Valve Open Circuit Check\|6497135]] | Aftertreatment Diesel Exhaust Fluid Dosing (DEF) Valve Open Circuit Check |  | 2023-08-30 |
+| [[6516969 — Aftertreatment Diesel Exhaust Fluid Dosing Valve Resistance Check\|6516969]] | Aftertreatment Diesel Exhaust Fluid Dosing Valve Resistance Check |  | 2023-11-30 |
 | [[4021600 — Aftertreatment Diesel Oxidation Catalyst (DOC) and Aftertreatment Diesel Particulate\|4021600]] | Aftertreatment Diesel Oxidation Catalyst (DOC) and Aftertreatment Diesel Particulate Filter (DPF) Reuse Guidelines |  | 2014-09-10 |
 | [[5467581 — Aftertreatment Selective Catalytic Reduction (SCR) Reuse Guidelines\|5467581]] | Aftertreatment Selective Catalytic Reduction (SCR) Reuse Guidelines |  | 2017-05-19 |
 | [[3379000 — Air for Your Engine\|3379000]] | Air for Your Engine | Воздух для вашего двигателя | 1981-03-01 |
@@ -18,8 +38,10 @@ type: "Индекс"
 | [[3810387 — Analysis and Prevention of Bearing Failures\|3810387]] | Analysis and Prevention of Bearing Failures | Анализ и предотвращение отказов подшипников | 2015-11-02 |
 | [[4021468 — Articulated Piston Skirt Reuse Guidelines for Signature, ISX, and QSX15 Engines\|4021468]] | Articulated Piston Skirt Reuse Guidelines for Signature, ISX, and QSX15 Engines |  | 2003-08-01 |
 | [[4358564 — Asbestos-Containing Gaskets on Cummins China Joint Venture Legacy Product\|4358564]] | Asbestos-Containing Gaskets on Cummins China Joint Venture Legacy Product | Асбестосодержащие прокладки на устаревшей продукции СП Cummins China | 2013-12-06 |
+| [[4021673 — Automatic and Automated Manual Transmission, Fan, Gear Down Protection Setup and Trou\|4021673]] | Automatic and Automated Manual Transmission, Fan, Gear Down Protection Setup and Troubleshooting |  | 2007-10-16 |
 | [[3810451 — Bearing Corrosion\|3810451]] | Bearing Corrosion | Коррозия подшипников | 2011-11-01 |
 | [[6715931 — Biodiesel Blend Operational Guidelines for Indonesia\|6715931]] | Biodiesel Blend Operational Guidelines for Indonesia |  | 2026-08-13 |
+| [[6642787 — California Aftertreatment Regulation Adherence\|6642787]] | California Aftertreatment Regulation Adherence |  | 2025-07-15 |
 | [[3666052 — Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappet\|3666052]] | Camshaft Reuse Guidelines for Cummins® Engines with Roller Followers or Roller Tappets | Указания по повторному использованию распредвалов двигателей Cummins® с роликовыми толкателями | 2007-03-15 |
 | [[3666475 — Camshaft and Tappet Reuse Guidelines\|3666475]] | Camshaft and Tappet Reuse Guidelines | Указания по повторному использованию распредвала и толкателей | 1999-11-01 |
 | [[3666243 — Catalyst Muffler for Service Use Only\|3666243]] | Catalyst Muffler for Service Use Only | Каталитический глушитель только для сервисного применения | 1998-04-01 |
@@ -42,11 +64,14 @@ type: "Индекс"
 | [[5676975 — Cylinder Liner Reuse Guidelines\|5676975]] | Cylinder Liner Reuse Guidelines |  | 2021-04-14 |
 | [[5613284 — Cylinder Machining Instruction for Oversize Idler Shaft\|5613284]] | Cylinder Machining Instruction for Oversize Idler Shaft |  | 2019-12-31 |
 | [[4021566 — Diesel Exhaust Fluid (DEF) Specifications for Cummins® Selective Catalytic Reduction\|4021566]] | Diesel Exhaust Fluid (DEF) Specifications for Cummins® Selective Catalytic Reduction (SCR) Systems |  | 2012-08-27 |
+| [[5659823 — Diesel Fuel Contaminated with Water, Gasoline, or Diesel Exhaust Fluid (DEF)\|5659823]] | Diesel Fuel Contaminated with Water, Gasoline, or Diesel Exhaust Fluid (DEF) |  | 2020-08-04 |
 | [[4021669 — Drive Line Alignment for Single Bearing Alternators\|4021669]] | Drive Line Alignment for Single Bearing Alternators | Центровка привода одноопорных генераторов | 2007-05-25 |
 | [[2883594 — EGR Cooler Reuse Guidelines\|2883594]] | EGR Cooler Reuse Guidelines |  | 2011-02-17 |
 | [[3666253 — Eliminator™ Filter\|3666253]] | Eliminator™ Filter | Фильтр Eliminator™ | 2010-03-24 |
 | [[6643906 — Engine Control Module (ECM) Calibration Download with Cummins® Electronic Service Too\|6643906]] | Engine Control Module (ECM) Calibration Download with Cummins® Electronic Service Tools |  | 2025-07-22 |
+| [[6458441 — Engine Control Module (ECM) Replacements Outside of Published Troubleshooting\|6458441]] | Engine Control Module (ECM) Replacements Outside of Published Troubleshooting |  | 2023-03-01 |
 | [[3666094 — Excessive Fuel Consumption Troubleshooting\|3666094]] | Excessive Fuel Consumption Troubleshooting |  | 2007-11-30 |
+| [[5579934 — Exhaust Gas Recirculation (EGR) System Intake Air Connection Inspection and Cleaning\|5579934]] | Exhaust Gas Recirculation (EGR) System Intake Air Connection Inspection and Cleaning Guidelines |  | 2019-07-22 |
 | [[5659817 — Extended Service Interval Program for Locomotive Applications\|5659817]] | Extended Service Interval Program for Locomotive Applications | Программа увеличенных интервалов обслуживания для локомотивов | 2020-07-17 |
 | [[4388840 — Extended Service Interval Program for Mining Applications\|4388840]] | Extended Service Interval Program for Mining Applications | Программа увеличенных интервалов обслуживания для карьерной техники | 2015-11-12 |
 | [[3666209 — Extended Service Interval, Cooling System Maintenance\|3666209]] | Extended Service Interval, Cooling System Maintenance | Увеличенный интервал обслуживания системы охлаждения | 2016-05-09 |
@@ -64,6 +89,7 @@ type: "Индекс"
 | [[4021325 — Low-Hour, False Head Gasket Oil Leaks\|4021325]] | Low-Hour, False Head Gasket Oil Leaks | Ложные утечки масла через прокладку ГБЦ на малой наработке | 2001-05-01 |
 | [[3379214 — Lubricating Oil Consumption and Acceptable Limits\|3379214]] | Lubricating Oil Consumption and Acceptable Limits | Расход моторного масла и допустимые пределы | 2011-04-28 |
 | [[2883397 — Maintenance Monitor Feature Description and Manual Reset Procedure\|2883397]] | Maintenance Monitor Feature Description and Manual Reset Procedure |  | 2009-10-18 |
+| [[6506608 — Minimum Flywheel Dimensions for Resurfacing and Reuse\|6506608]] | Minimum Flywheel Dimensions for Resurfacing and Reuse |  | 2023-10-13 |
 | [[4021378 — Multiplexing Troubleshooting\|4021378]] | Multiplexing Troubleshooting | Диагностика мультиплексирования | 2011-04-25 |
 | [[4022060 — Oil Analysis Techniques for High Horsepower Diesel Engines\|4022060]] | Oil Analysis Techniques for High Horsepower Diesel Engines | Методы анализа масла для дизелей большой мощности | 2012-10-04 |
 | [[2883408 — On-Board Diagnostics (OBD) for EPA ARB Certified Engines\|2883408]] | On-Board Diagnostics (OBD) for EPA/ARB Certified Engines |  | 2013-01-21 |
@@ -82,10 +108,13 @@ type: "Индекс"
 | [[4022147 — QSK45 and QSK60 Cylinder Block Machining Procedure to Upgrade to Straight Split Conne\|4022147]] | QSK45 and QSK60 Cylinder Block Machining Procedure to Upgrade to Straight Split Connecting Rods |  | 2008-09-22 |
 | [[6628629 — Rockford® Fan Clutch\|6628629]] | Rockford® Fan Clutch | Муфта вентилятора Rockford® | 2025-05-06 |
 | [[4326041 — Safe Work Procedure for Internal Engine and Engine Component Gaskets\|4326041]] | Safe Work Procedure for Internal Engine and Engine Component Gaskets | Порядок безопасной работы с прокладками двигателя | 2012-12-20 |
+| [[6467611 — Self-Calibrating Variable Geometry Turbocharger (VGT) Actuator\|6467611]] | Self-Calibrating Variable Geometry Turbocharger (VGT) Actuator |  | 2023-04-06 |
+| [[5677212 — Service Direction for North America on Tampered Emissions Control Devices\|5677212]] | Service Direction for North America on Tampered Emissions Control Devices |  | 2021-07-16 |
 | [[4021403 — Signature ISX HPI Rev 1 to Rev 2 Fuel System Conversion\|4021403]] | Signature/ISX HPI Rev 1 to Rev 2 Fuel System Conversion |  | 2006-12-06 |
 | [[4021925 — Single Piece, Open Skirt Piston Reuse Guidelines\|4021925]] | Single Piece, Open Skirt Piston Reuse Guidelines |  | 2008-05-26 |
 | [[4383578 — Spark Plug Reuse Guidelines\|4383578]] | Spark Plug Reuse Guidelines |  | 2014-07-28 |
 | [[2883452 — Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines\|2883452]] | Statistical Analysis of Oil Sample Lead Readings on High Horsepower Engines | Статистический анализ содержания свинца в пробах масла двигателей большой мощности | 2010-04-23 |
+| [[5504262 — Storage of Individual UL2 and UL2.2 Aftertreatment Diesel Exhaust Fluid (DEF) System\|5504262]] | Storage of Individual UL2 and UL2.2 Aftertreatment Diesel Exhaust Fluid (DEF) System Components |  | 2018-01-18 |
 | [[5504213 — Turbocharger Lubricating Oil Leak Troubleshooting\|5504213]] | Turbocharger Lubricating Oil Leak Troubleshooting | Диагностика утечек масла турбокомпрессора | 2017-11-10 |
 | [[4332738 — Turbocharger Training for Fixed Geometry Products\|4332738]] | Turbocharger Training for Fixed Geometry Products | Обучение по турбокомпрессорам с фиксированной геометрией | 2013-03-11 |
 | [[3666244 — Unauthorized Adjustment of Midrange Fuel Injection Pumps\|3666244]] | Unauthorized Adjustment of Midrange Fuel Injection Pumps | Несанкционированная регулировка ТНВД двигателей MidRange | 1997-07-01 |
@@ -194,23 +223,32 @@ type: "Индекс"
 | [[3377933 — Valve Stem Seal Installer\|3377933]] | Valve Stem Seal Installer |  | 2002-11-18 |
 | [[3400458 — Water Pump Seal Replacer Kit\|3400458]] | Water Pump Seal Replacer Kit |  | 2013-02-14 |
 
-## Инструкции по установке (14)
+## Инструкции по установке (23)
 
 | Номер | Название | Русское название | Дата |
 |---|---|---|---|
+| [[5414639 — Aftertreatment Outlet NOx Sensor High Temperature Sealant Installation Instructions\|5414639]] | Aftertreatment Outlet NOx Sensor High Temperature Sealant Installation Instructions |  | 2017-12-04 |
+| [[4908441 — Aftertreatment Outlet NOx Sensor Internal Water Shield\|4908441]] | Aftertreatment Outlet NOx Sensor Internal Water Shield |  | 2015-05-12 |
 | [[6707823 — Assembly Instructions for Cummins® Off-Highway Engines\|6707823]] | Assembly Instructions for Cummins® Off-Highway Engines | Инструкции по сборке внедорожных двигателей Cummins® | 2026-06-25 |
 | [[4908413 — Dual Fuel Build Quality Sign-Off Sheet\|4908413]] | Dual Fuel Build Quality Sign-Off Sheet | Лист приёмки качества сборки газодизельной системы | 2014-11-07 |
 | [[4908109 — Duplicate Kit Installations\|4908109]] | Duplicate Kit Installations | Повторная установка комплектов | 2013-04-08 |
 | [[4907798 — Fan Drive Idler Pulley Assembly\|4907798]] | Fan Drive Idler Pulley Assembly | Натяжной ролик привода вентилятора в сборе | 2009-02-10 |
 | [[4907689 — Fuel Lift Pump Kit, Remote Mount\|4907689]] | Fuel Lift Pump Kit, Remote Mount |  | 2006-06-19 |
+| [[4908436 — Fuel Pump Short Block Service Kit Installation Instructions\|4908436]] | Fuel Pump Short Block Service Kit Installation Instructions |  | 2015-03-11 |
 | [[5659983 — High Horse Power Fuel Injector Clamp\|5659983]] | High Horse Power Fuel Injector Clamp | Прижим форсунки двигателей большой мощности | 2020-12-01 |
 | [[4021494 — ISX, Signature, and QSX15 Upgrade Kit Reminders\|4021494]] | ISX, Signature, and QSX15 Upgrade Kit Reminders |  | 2004-04-15 |
 | [[4908439 — Lubricating Oil Filter Bypass Valve\|4908439]] | Lubricating Oil Filter Bypass Valve |  | 2015-04-27 |
+| [[5414461 — Naturally Aspirated Air Compressor Upfit for Kenworth and Peterbilt\|5414461]] | Naturally Aspirated Air Compressor Upfit for Kenworth and Peterbilt |  | 2016-06-28 |
+| [[5414606 — New Exhaust Gas Temperature Sensor and Injector Quadrant Wiring Harness and Mounting\|5414606]] | New Exhaust Gas Temperature Sensor and Injector Quadrant Wiring Harness and Mounting Bracket Installation Instructions |  | 2016-10-07 |
 | [[4907733 — New Speed Switch\|4907733]] | New Speed Switch | Новый датчик-реле частоты вращения | 2007-09-09 |
 | [[4021488 — Oil Passage Plug Installation Instruction\|4021488]] | Oil Passage Plug Installation Instruction |  | 2004-03-11 |
 | [[4908412 — QSK50 Tier 2 Dual Fuel Kit Installation Instructions\|4908412]] | QSK50 Tier 2 Dual Fuel Kit Installation Instructions | Инструкции по установке газодизельного комплекта QSK50 Tier 2 | 2014-11-07 |
+| [[5414612 — Route Parameter Manager Kit Installation Instructions\|5414612]] | Route Parameter Manager Kit Installation Instructions |  | 2016-11-14 |
 | [[4907711 — Single Piece Piston Kit Installation Instruction\|4907711]] | Single Piece Piston Kit Installation Instruction |  | 2007-06-12 |
+| [[5414654 — Steel Fuel Supply Tube Installation Instructions\|5414654]] | Steel Fuel Supply Tube Installation Instructions |  | 2018-11-05 |
+| [[5414689 — Thermal Recirculation Valve Upfit Kit Installation Instructions\|5414689]] | Thermal Recirculation Valve Upfit Kit Installation Instructions |  | 2020-11-19 |
 | [[4907692 — Turbocharger Turbine Housing Replacement Kit\|4907692]] | Turbocharger Turbine Housing Replacement Kit |  | 2006-10-10 |
+| [[6583693 — Variable Geometry Turbocharger Actuator Installation\|6583693]] | Variable Geometry Turbocharger Actuator Installation |  | 2024-09-18 |
 | [[4907834 — Water Pump Dust Shield (Excluder)\|4907834]] | Water Pump Dust Shield (Excluder) |  | 2009-08-08 |
 
 ## Габаритные чертежи (1)

@@ -20,9 +20,10 @@ engines:
   - "93087701"
 families:
   - "C8.3 · 6C8.3"
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
   - "QSK50"
+  - "QSK60 CM2150 MCRS"
   - "QSX15"
 figures: 3
 lang: "ru+en"
@@ -35,6 +36,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QSX15"
   - "перевод/машинный"
 ---
@@ -44,7 +46,7 @@ tags:
 
 > [!abstract] Инструкция по установке · `6707823`
 > **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
-> **Семейство:** C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSK60, QSK19, QSK50, QSX15
+> **Семейство:** C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSK19, QSK50, QSK60 CM2150 MCRS, QSX15
 > **Даты:** выпущен 2026-06-25 · изменён 2026-08-07
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/6707823.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/install_inst/6707823.pdf)
 

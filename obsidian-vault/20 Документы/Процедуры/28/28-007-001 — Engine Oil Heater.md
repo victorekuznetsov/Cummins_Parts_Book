@@ -7,10 +7,9 @@ title_en: "Engine Oil Heater"
 title_ru: "Подогреватель моторного масла"
 modified: "2004-06-01"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
 figures: 1
@@ -29,8 +28,8 @@ tags:
 **Подогреватель моторного масла**
 
 > [!abstract] Процедура · `28-007-001`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 7 - Maintenance Procedures at 1500 Hours or 1 Year
 > **Даты:** изменён 2004-06-01

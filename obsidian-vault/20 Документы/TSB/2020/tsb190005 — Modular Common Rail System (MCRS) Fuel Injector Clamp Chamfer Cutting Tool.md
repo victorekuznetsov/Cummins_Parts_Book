@@ -16,9 +16,10 @@ engines:
   - "41349633"
   - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
   - "QSK50"
+  - "QSK60 CM2150 MCRS"
 parts:
   - "5375028"
 lang: "ru+en"
@@ -30,6 +31,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2020"
   - "перевод/машинный"
   - "тема/injectors-and-fuel-lines"
@@ -41,7 +43,7 @@ tags:
 > [!abstract] TSB · `tsb190005`
 > **Раздел Cummins:** 06 - Injectors and Fuel Lines
 > **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19, QSK50
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2020-12-02 · изменён 2020-12-02
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190005.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190005.pdf)
 

@@ -7,10 +7,9 @@ title_en: "Electrical System"
 title_ru: "Электрическая система"
 modified: "2005-04-14"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
 lang: "ru+en"
@@ -28,8 +27,8 @@ tags:
 **Электрическая система**
 
 > [!abstract] Процедура · `28-018-021`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2005-04-14

@@ -9,11 +9,10 @@ released: "2014-11-07"
 modified: "2015-07-20"
 engines:
   - "33224404"
-  - "33239746"
   - "33239899"
   - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK50"
 parts:
   - "2897654"
@@ -48,8 +47,8 @@ tags:
 **Инструкции по установке газодизельного комплекта QSK50 Tier 2**
 
 > [!abstract] Инструкция по установке · `4908412`
-> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50
 > **Даты:** выпущен 2014-11-07 · изменён 2015-07-20
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/install_inst/4908412.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/install_inst/4908412.pdf)
 

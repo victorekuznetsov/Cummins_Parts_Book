@@ -18,10 +18,11 @@ engines:
   - "41340468"
   - "85017333"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK23"
   - "QSK50"
   - "QSK60"
+  - "QSK60 CM2150 MCRS"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
@@ -33,6 +34,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK50"
   - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2020"
   - "перевод/машинный"
   - "тема/lubricating-oil-systems"
@@ -44,7 +46,7 @@ tags:
 > [!abstract] TSB · `tsb190145`
 > **Раздел Cummins:** 07 - Lubricating Oil Systems
 > **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK23, QSK50, QSK60
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK23, QSK50, QSK60, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2020-11-19 · изменён 2020-11-19
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190145.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190145.pdf)
 

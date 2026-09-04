@@ -7,12 +7,11 @@ title_en: "Operating Instructions - Overview"
 title_ru: "Инструкции по эксплуатации — обзор"
 modified: "2006-05-22"
 engines:
-  - "33239746"
   - "33239899"
   - "41349633"
   - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
 manuals:
   - "4021589"
@@ -33,8 +32,8 @@ tags:
 **Инструкции по эксплуатации — обзор**
 
 > [!abstract] Процедура · `115-101-999`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19
 > **Входит в руководства:** [[4021589 — Marine C Command Panel System Owners Manual|4021589]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2006-05-22

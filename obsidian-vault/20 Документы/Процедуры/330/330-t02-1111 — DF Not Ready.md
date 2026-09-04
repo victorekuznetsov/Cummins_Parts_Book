@@ -7,10 +7,9 @@ title_en: "DF Not Ready"
 title_ru: "Газодизельный режим не готов"
 modified: "2024-08-06"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4358403"
 figures: 1
@@ -29,8 +28,8 @@ tags:
 **Газодизельный режим не готов**
 
 > [!abstract] Процедура · `330-t02-1111`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4358403 — Dual Fuel Technology DF101 Master Repair Manual|4358403]]
 > **Секции:** Section TA - Troubleshooting Alarm Codes
 > **Даты:** изменён 2024-08-06

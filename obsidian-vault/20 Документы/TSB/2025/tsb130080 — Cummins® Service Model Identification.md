@@ -22,10 +22,11 @@ engines:
 families:
   - "15N"
   - "A8.5"
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSB6.7"
   - "QSK19"
   - "QSK50"
+  - "QSK60 CM2150 MCRS"
   - "QSZ13"
 lang: "ru+en"
 translation: "машинный черновик"
@@ -39,6 +40,7 @@ tags:
   - "двигатель/QSB6.7"
   - "двигатель/QSK19"
   - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QSZ13"
   - "год/2025"
   - "перевод/машинный"
@@ -51,7 +53,7 @@ tags:
 > [!abstract] TSB · `tsb130080`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
 > **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[77804793 — A8.5 CM2670 L153B CPL 6235|77804793]], [[77804810 — 15N CM2380 M104B CPL 5977|77804810]], [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[93948840 — QSZ13 CM2150 Z102 CPL 4858|93948840]]
-> **Семейство:** 15N, A8.5, K38/K50 · QSK38, QSK50, QSK60, QSB6.7, QSK19, QSK50, QSZ13
+> **Семейство:** 15N, A8.5, K38/K50 · QSK38, QSK50, QSB6.7, QSK19, QSK50, QSK60 CM2150 MCRS, QSZ13
 > **Даты:** выпущен 2025-10-22 · изменён 2026-07-16
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130080.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130080.pdf)
 
@@ -531,7 +533,7 @@ tags:
 | X13 CM2670 X122B | 5504460 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | X13 CM2880 X138B | 5613141 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | ISX15 CM2350 X101 | 4310641 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
-| X15 CM2350 X114B | 5411181 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
+| X15 CM2350 X114B | [[5411181 — X15 CM2350 X114B - Efficiency Series Service Manual\|5411181]] | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | X15 CM2350 X116B | 5411186 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | X15 CM2350 X123B | 5504510 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
 | X15 CM2350 X125M | 5504345 | См. процедуру 100-006 в разделе E. | Cummins® Product Technology |
@@ -1048,7 +1050,7 @@ tags:
 > | X13 CM2670 X122B | 5504460 | Refer to Procedure 100-006 in Section E. | Cummins® Product Technology |
 > | X13 CM2880 X138B | 5613141 | Refer to Procedure 100-006 in Section E. | Cummins® Product Technology |
 > | ISX15 CM2350 X101 | 4310641 | Refer to Procedure 100-006 in Section E. | Cummins® Product Technology |
-> | X15 CM2350 X114B | 5411181 | Refer to Procedure 100-006 in Section E. | Cummins® Product Technology |
+> | X15 CM2350 X114B | [[5411181 — X15 CM2350 X114B - Efficiency Series Service Manual\|5411181]] | Refer to Procedure 100-006 in Section E. | Cummins® Product Technology |
 > | X15 CM2350 X116B | 5411186 | Refer to Procedure 100-006 in Section E. | Cummins® Product Technology |
 > | X15 CM2350 X123B | 5504510 | Refer to Procedure 100-006 in Section E. | Cummins® Product Technology |
 > | X15 CM2350 X125M | 5504345 | Refer to Procedure 100-006 in Section E. | Cummins® Product Technology |

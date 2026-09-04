@@ -16,9 +16,10 @@ engines:
   - "41349633"
   - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
   - "QSK50"
+  - "QSK60 CM2150 MCRS"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101011.html"
@@ -28,6 +29,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
   - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2009"
   - "перевод/машинный"
   - "тема/fuel-systems-pumps"
@@ -39,7 +41,7 @@ tags:
 > [!abstract] TSB · `tsb101011`
 > **Раздел Cummins:** 05 - Fuel Systems (Pumps)
 > **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19, QSK50
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2009-11-17 · изменён 2009-11-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101011.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101011.pdf)
 

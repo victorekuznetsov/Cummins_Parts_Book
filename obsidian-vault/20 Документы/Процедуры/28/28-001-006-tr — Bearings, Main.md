@@ -7,10 +7,9 @@ title_en: "Bearings, Main"
 title_ru: "Коренные подшипники"
 modified: "2023-10-23"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 parts:
@@ -31,8 +30,8 @@ tags:
 **Коренные подшипники**
 
 > [!abstract] Процедура · `28-001-006-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 1 - Cylinder Block · Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2023-10-23

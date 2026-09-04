@@ -7,10 +7,9 @@ title_en: "Intake Manifold 3 Temperature Sensor Circuit - Voltage Below Normal o
 title_ru: "Цепь датчика температуры коллектора 3 — напряжение ниже нормы"
 modified: "2015-09-03"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 figures: 3
@@ -29,8 +28,8 @@ tags:
 **Цепь датчика температуры коллектора 3 — напряжение ниже нормы**
 
 > [!abstract] Процедура · `122-fc161`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2015-09-03

@@ -7,10 +7,9 @@ title_en: "Water Pump"
 title_ru: "Водяной насос"
 modified: "2020-03-26"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
 figures: 3
@@ -29,8 +28,8 @@ tags:
 **Водяной насос**
 
 > [!abstract] Процедура · `28-008-062-om`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months · Section 8 - Maintenance Procedures at 6000 Hours or 2 Years
 > **Даты:** изменён 2020-03-26

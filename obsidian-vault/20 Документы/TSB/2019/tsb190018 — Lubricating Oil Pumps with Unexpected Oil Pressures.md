@@ -167,7 +167,7 @@ tags:
 | QSX15 CM2350 X105 | 4332669 |  |  |
 | QSX15 CM2350 X106 | 4332714 |  |  |
 | QSX15 CM2250 X115 | 4388741 |  |  |
-| X15 CM2350 X114B - Серия эффективности, X15 CM2350 X116B - Серия производительности | 5411183 |  |  |
+| X15 CM2350 X114B - Серия эффективности, X15 CM2350 X116B - Серия производительности | [[5411183 — X15 CM2350 X114B - Efficiency Series and X15 CM2350 X116B - Performance Series Owners\|5411183]] |  |  |
 | QSX15 CM2350 X118 | 5467249 |  |  |
 
 ### История изменений документа
@@ -305,7 +305,7 @@ tags:
 > | QSX15 CM2350 X105 | 4332669 |  |  |
 > | QSX15 CM2350 X106 | 4332714 |  |  |
 > | QSX15 CM2250 X115 | 4388741 |  |  |
-> | X15 CM2350 X114B - Efficiency Series, X15 CM2350 X116B - Performance Series | 5411183 |  |  |
+> | X15 CM2350 X114B - Efficiency Series, X15 CM2350 X116B - Performance Series | [[5411183 — X15 CM2350 X114B - Efficiency Series and X15 CM2350 X116B - Performance Series Owners\|5411183]] |  |  |
 > | QSX15 CM2350 X118 | 5467249 |  |  |
 >
 > ### Document History

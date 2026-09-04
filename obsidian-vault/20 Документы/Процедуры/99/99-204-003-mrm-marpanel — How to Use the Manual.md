@@ -10,11 +10,13 @@ engines:
   - "33210083"
   - "33219033"
   - "33224343"
+  - "33239746"
   - "41349633"
   - "41353297"
 families:
   - "QSK19"
   - "QSK60"
+  - "QSK60 CM2150 MCRS"
 manuals:
   - "4021555"
   - "4021587"
@@ -27,6 +29,7 @@ tags:
   - "документ/процедура"
   - "двигатель/QSK19"
   - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -35,8 +38,8 @@ tags:
 **Как пользоваться руководством**
 
 > [!abstract] Процедура · `99-204-003-mrm-marpanel`
-> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
-> **Семейство:** QSK19, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** QSK19, QSK60, QSK60 CM2150 MCRS
 > **Входит в руководства:** [[4021555 — QSK60 Marine Alarm and Safety System Master Repair Manual|4021555]], [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]], [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual|4021617]]
 > **Секции:** Section i - Introduction · Section i — Introduction
 > **Даты:** изменён 2012-03-21

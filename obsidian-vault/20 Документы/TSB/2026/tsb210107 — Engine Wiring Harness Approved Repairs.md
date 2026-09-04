@@ -14,8 +14,9 @@ engines:
   - "33239899"
   - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK50"
+  - "QSK60 CM2150 MCRS"
 figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
@@ -25,6 +26,7 @@ tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2026"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -36,7 +38,7 @@ tags:
 > [!abstract] TSB · `tsb210107`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
 > **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2026-01-12 · изменён 2026-01-12
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210107.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210107.pdf)
 

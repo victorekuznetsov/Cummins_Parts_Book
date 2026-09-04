@@ -35,12 +35,13 @@ engines:
 families:
   - "C8.3 · 6C8.3"
   - "K19"
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSB6.7"
   - "QSK19"
   - "QSK23"
   - "QSK50"
   - "QSK60"
+  - "QSK60 CM2150 MCRS"
   - "QSM11"
   - "QST30"
   - "QSX15"
@@ -60,6 +61,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK50"
   - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QSM11"
   - "двигатель/QST30"
   - "двигатель/QSX15"
@@ -74,7 +76,7 @@ tags:
 > [!abstract] Сервисный бюллетень · `5613318`
 > **Раздел Cummins:** 10 - Intake Air Systems
 > **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[85017333 — QSK23 CM500 CPL 2858|85017333]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]], [[93948840 — QSZ13 CM2150 Z102 CPL 4858|93948840]]
-> **Семейство:** C8.3 · 6C8.3, K19, K38/K50 · QSK38, QSK50, QSK60, QSB6.7, QSK19, QSK23, QSK50, QSK60, QSM11, QST30, QSX15, QSZ13
+> **Семейство:** C8.3 · 6C8.3, K19, K38/K50 · QSK38, QSK50, QSB6.7, QSK19, QSK23, QSK50, QSK60, QSK60 CM2150 MCRS, QSM11, QST30, QSX15, QSZ13
 > **Даты:** выпущен 2020-01-17 · изменён 2026-07-23
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/5613318.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/5613318.pdf)
 
@@ -112,7 +114,7 @@ tags:
 Возможные причины
 
 - Не использовать фильтр для очистки воздуха. См. требования к OEM-сервису.
-- Свободные или поврежденные зажимы для впуска между корпусом фильтра для очистки воздуха и входом турбокомпрессора. Двигатели X15, построенные до 2022 года, см. Технический бюллетень службы (TSB), Новый адаптер турбокомпрессора и Уплотнительное кольцо, TSB210110.
+- Свободные или поврежденные зажимы для впуска между корпусом фильтра для очистки воздуха и входом турбокомпрессора. Двигатели X15, построенные до 2022 года, см. Технический бюллетень службы (TSB), Новый адаптер турбокомпрессора и Уплотнительное кольцо, [[tsb210110 — New Turbocharger Adapter and O-ring\|TSB210110]].
 - Изношенные, рыхлые или сломанные воздушные защелки/зажимное оборудование
 - Свободное или плохое подходящее соединение на входе турбокомпрессора
 - Схлопнувшиеся или спрятанные впускные трубопроводы
@@ -284,7 +286,7 @@ tags:
 - Цилиндровые наборы (поршни, кольца и гильзы)
 - Воздушный компрессор
 - Все связанные прокладки и уплотнения, включая все O-кольца, удаляются для тестирования или во время ремонта.
-- Для X15, если двигатель был **не** построен с Уплотнительное кольцом на адаптере турбокомпрессора, нанесите в адаптер к стыку турбокомпрессора бусину из силиконового герметика, номер детали 3164067. См. TSB210110.
+- Для X15, если двигатель был **не** построен с Уплотнительное кольцом на адаптере турбокомпрессора, нанесите в адаптер к стыку турбокомпрессора бусину из силиконового герметика, номер детали 3164067. См. [[tsb210110 — New Turbocharger Adapter and O-ring\|TSB210110]].
 
 Части, которые должны быть очищены и проверены перед повторным использованием на всех двигателях:
 
@@ -344,7 +346,7 @@ tags:
 > Possible Causes
 >
 > - **Not** using an approved air filter. See OEM service requirements.
-> - Loose or damaged intake clamps between the air filter housing and the turbocharger inlet. For X15 engines built before 2022, see Technical Service Bulletin (TSB), New Turbocharger Adapter and O-ring, TSB210110.
+> - Loose or damaged intake clamps between the air filter housing and the turbocharger inlet. For X15 engines built before 2022, see Technical Service Bulletin (TSB), New Turbocharger Adapter and O-ring, [[tsb210110 — New Turbocharger Adapter and O-ring\|TSB210110]].
 > - Worn, loose, or broken air housing latches/clamping hardware
 > - Loose or poor fitting connection at the turbocharger inlet
 > - Collapsed or buckled intake piping
@@ -484,7 +486,7 @@ tags:
 > - Cylinder kits (pistons, rings and liners)
 > - Air compressor
 > - All associated gaskets and seals including all O-rings removed for testing or during repair.
-> - For X15, if engine was **not** built with an O-ring on the turbocharger adapter, apply a bead of silicone sealant, Part Number 3164067, in the adapter to turbocharger joint. Refer to TSB210110.
+> - For X15, if engine was **not** built with an O-ring on the turbocharger adapter, apply a bead of silicone sealant, Part Number 3164067, in the adapter to turbocharger joint. Refer to [[tsb210110 — New Turbocharger Adapter and O-ring\|TSB210110]].
 >
 > Parts that **must** be cleaned and inspected prior to reuse on all engines:
 >

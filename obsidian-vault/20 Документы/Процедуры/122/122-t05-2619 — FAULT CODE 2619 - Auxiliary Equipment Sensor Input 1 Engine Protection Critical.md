@@ -7,10 +7,9 @@ title_en: "FAULT CODE 2619 - Auxiliary Equipment Sensor Input 1 Engine Protectio
 title_ru: "Код 2619 — вход датчика вспомогательного оборудования 1, защита двигателя — особые указания"
 modified: "2012-08-07"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 lang: "ru+en"
@@ -28,8 +27,8 @@ tags:
 **Код 2619 — вход датчика вспомогательного оборудования 1, защита двигателя — особые указания**
 
 > [!abstract] Процедура · `122-t05-2619`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2012-08-07

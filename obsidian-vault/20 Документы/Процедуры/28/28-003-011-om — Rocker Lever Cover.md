@@ -7,10 +7,9 @@ title_en: "Rocker Lever Cover"
 title_ru: "Крышка коромысел"
 modified: "2023-07-19"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
 figures: 24
@@ -29,8 +28,8 @@ tags:
 **Крышка коромысел**
 
 > [!abstract] Процедура · `28-003-011-om`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section A - Adjustment, Repair, and Replacement
 > **Даты:** изменён 2023-07-19

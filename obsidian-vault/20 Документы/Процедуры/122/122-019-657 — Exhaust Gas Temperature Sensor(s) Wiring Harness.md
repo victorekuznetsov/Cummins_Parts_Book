@@ -7,10 +7,9 @@ title_en: "Exhaust Gas Temperature Sensor(s) Wiring Harness"
 title_ru: "Жгут проводов датчиков температуры ОГ"
 modified: "2017-01-23"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 figures: 10
@@ -29,8 +28,8 @@ tags:
 **Жгут проводов датчиков температуры ОГ**
 
 > [!abstract] Процедура · `122-019-657`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2017-01-23

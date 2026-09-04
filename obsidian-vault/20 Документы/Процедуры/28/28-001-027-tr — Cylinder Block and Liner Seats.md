@@ -7,10 +7,9 @@ title_en: "Cylinder Block and Liner Seats"
 title_ru: "Блок цилиндров и посадочные места гильз"
 modified: "2019-07-02"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 20
@@ -29,8 +28,8 @@ tags:
 **Блок цилиндров и посадочные места гильз**
 
 > [!abstract] Процедура · `28-001-027-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 1 - Cylinder Block · Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2019-07-02

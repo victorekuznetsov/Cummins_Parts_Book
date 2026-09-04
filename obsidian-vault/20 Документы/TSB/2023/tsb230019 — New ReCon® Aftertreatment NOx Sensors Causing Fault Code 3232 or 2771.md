@@ -25,10 +25,11 @@ engines:
 families:
   - "A8.5"
   - "C8.3 · 6C8.3"
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSB6.7"
   - "QSK19"
   - "QSK50"
+  - "QSK60 CM2150 MCRS"
   - "QSX15"
   - "QSZ13"
 figures: 1
@@ -44,6 +45,7 @@ tags:
   - "двигатель/QSB6.7"
   - "двигатель/QSK19"
   - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QSX15"
   - "двигатель/QSZ13"
   - "год/2023"
@@ -57,7 +59,7 @@ tags:
 > [!abstract] TSB · `tsb230019`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
 > **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[77804793 — A8.5 CM2670 L153B CPL 6235|77804793]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]], [[93948840 — QSZ13 CM2150 Z102 CPL 4858|93948840]]
-> **Семейство:** A8.5, C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSK60, QSB6.7, QSK19, QSK50, QSX15, QSZ13
+> **Семейство:** A8.5, C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSB6.7, QSK19, QSK50, QSK60 CM2150 MCRS, QSX15, QSZ13
 > **Даты:** выпущен 2023-04-04 · изменён 2023-04-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2023/tsb230019.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb230019.pdf)
 

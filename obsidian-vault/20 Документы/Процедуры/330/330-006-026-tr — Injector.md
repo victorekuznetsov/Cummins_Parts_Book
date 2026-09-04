@@ -7,10 +7,9 @@ title_en: "Injector"
 title_ru: "Форсунка"
 modified: "2025-02-20"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4358403"
 parts:
@@ -31,8 +30,8 @@ tags:
 **Форсунка**
 
 > [!abstract] Процедура · `330-006-026-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4358403 — Dual Fuel Technology DF101 Master Repair Manual|4358403]]
 > **Секции:** Section 3 - Routine Maintenance
 > **Даты:** изменён 2025-02-20

@@ -7,10 +7,9 @@ title_en: "Engine Oil Temperature Sensor"
 title_ru: "Датчик температуры моторного масла"
 modified: "2017-04-21"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 figures: 7
@@ -29,8 +28,8 @@ tags:
 **Датчик температуры моторного масла**
 
 > [!abstract] Процедура · `122-019-067`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Controls
 > **Даты:** изменён 2017-04-21

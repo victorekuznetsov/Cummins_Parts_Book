@@ -361,7 +361,7 @@ Cummins Inc. **не** поддерживает локализованные ма
 > **CAUTION · Осторожно**
 > If the aftertreatment DPF was replaced, verify that the DPF part number, control parts list (CPL) number, and engine control module (ECM) calibration code are correct. A mismatch of DPF part number, CPL number, and ECM calibration code will result in improper aftertreatment regeneration and could damage the DPF.
 >
-> Service locations in California. See Service Bulletin, California Aftertreatment Regulation Adherence, Bulletin 6642787.
+> Service locations in California. See Service Bulletin, California Aftertreatment Regulation Adherence, Bulletin [[6642787 — California Aftertreatment Regulation Adherence|6642787]].
 >
 > Install new gaskets on the inlet and outlet of the aftertreatment DPF canister.
 >

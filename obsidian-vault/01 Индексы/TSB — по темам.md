@@ -524,15 +524,19 @@ type: "Индекс"
 | [[tsb110153 — INSITE™ Engine Abuse History Usage\|tsb110153]] | INSITE™ Engine Abuse History Usage | Использование журнала нарушений эксплуатации в INSITE™ | 2011-06-01 |
 | [[tsb101519 — New General Cleaning Instruction\|tsb101519]] | New General Cleaning Instruction | Новая общая инструкция по очистке | 2009-12-17 |
 
-## Без раздела (800)
+## Без раздела (961)
 
 | Номер | Название | Русское название | Дата |
 |---|---|---|---|
+| [[tsb120309 — Fault Code 3714, 3712, 6255, or 6254 Active with No Other Active Fault Codes\|tsb120309]] | Fault Code 3714, 3712, 6255, or 6254 Active with No Other Active Fault Codes |  | 2026-06-08 |
 | [[tsb140017 — Breather Filter and Crankcase Tube Freezing Issue in Below Freezing Temperatures\|tsb140017]] | Breather Filter and Crankcase Tube Freezing Issue in Below Freezing Temperatures |  | 2026-04-23 |
 | [[tsb101089 — Engineering Field Test Calibrations (X Calibrations)\|tsb101089]] | Engineering Field Test Calibrations (X Calibrations) |  | 2024-10-04 |
+| [[tsb150002 — Diesel Exhaust Fluid (DEF) Cleanliness\|tsb150002]] | Diesel Exhaust Fluid (DEF) Cleanliness |  | 2023-01-10 |
+| [[tsb110181 — Engine Speed Instability Related to Truck Vacuum Blower or Pump Engagement\|tsb110181]] | Engine Speed Instability Related to Truck Vacuum Blower or Pump Engagement |  | 2022-05-26 |
 | [[tsb090070 — Diesel Exhaust Fluid (DEF) Exhaust Blockage (Crystallization Polymerization) and Fa\|tsb090070]] | Diesel Exhaust Fluid (DEF) Exhaust Blockage (Crystallization/Polymerization) and Fault Codes 1682, 2973, 2772, 2773, 3548, 3538, 3568, 3582, and 5655 |  | 2021-11-12 |
 | [[tsb101044 — New Injector Camshaft Follower Assembly for K19, K38, and K50 Engines\|tsb101044]] | New Injector Camshaft Follower Assembly for K19, K38, and K50 Engines. |  | 2021-02-17 |
 | [[tsb070007 — Troubleshooting and Repair Direction for High Blowby and or Oil Consumption\|tsb070007]] | Troubleshooting and Repair Direction for High Blowby and/or Oil Consumption |  | 2020-01-17 |
+| [[tsb140122 — QSK60 CM850 and CM2150 Exhaust Gas Temperature Sensors Shorted Low or High\|tsb140122]] | QSK60 CM850 and CM2150 Exhaust Gas Temperature Sensors Shorted Low or High |  | 2019-03-27 |
 | [[tsb120285 — Belt Shredding on QSX15 CM570 With Fan Centers 18” and Above\|tsb120285]] | Belt Shredding on QSX15 CM570 With Fan Centers 18” and Above |  | 2018-11-07 |
 | [[tsb090018 — INSITE™ 7.2 and PowerMatch™ Calibrations Issue\|tsb090018]] | INSITE™ 7.2 and PowerMatch™ Calibrations Issue |  | 2018-10-04 |
 | [[tsb120053 — ISX15 and QSX15 Wide Valve Camshaft Lobe and Valve Rocker Lever Roller Release\|tsb120053]] | ISX15 and QSX15 Wide Valve Camshaft Lobe and Valve Rocker Lever Roller Release |  | 2018-04-30 |
@@ -540,6 +544,7 @@ type: "Индекс"
 | [[tsb140030 — ISX15 and QSX15 Early Life Oil Consumption Caused by Vertical Liner Lobing\|tsb140030]] | ISX15 and QSX15 Early Life Oil Consumption Caused by Vertical Liner Lobing |  | 2016-03-14 |
 | [[tsb150072 — High Horsepower Aluminum Piston Debond Failures\|tsb150072]] | High Horsepower Aluminum Piston Debond Failures |  | 2015-06-02 |
 | [[tsb150001 — Incorrect Coolant Pre-Heater Installation Resulting in Piston Scuffing on QSK23 Eng\|tsb150001]] | Incorrect Coolant Pre-Heater Installation Resulting in Piston Scuffing on QSK23 Engines |  | 2015-01-21 |
+| [[tsb140137 — ISX 12 15 CM2250 CM2350 Variable Geometry Turbocharger (VGT) Turbocharger Bearing H\|tsb140137]] | ISX 12/15 CM2250/CM2350 Variable Geometry Turbocharger (VGT) Turbocharger Bearing Housing Coolant Leak Test - Service Tool Leaks |  | 2014-10-07 |
 | [[tsb140096 — Reducing Stray Currents in the Cooling System Caused by Inadequate Alternator Groun\|tsb140096]] | Reducing Stray Currents in the Cooling System Caused by Inadequate Alternator Grounding |  | 2014-08-11 |
 | [[tsb140063 — Cylinder Head Gasket Exhaust Side Coolant Orifices Misaligned with Cylinder Block P\|tsb140063]] | Cylinder Head Gasket Exhaust Side Coolant Orifices Misaligned with Cylinder Block Passages |  | 2014-05-28 |
 | [[tsb130055 — Heavy Duty Thermostat Stuck Open and or Missing Flange Seal\|tsb130055]] | Heavy Duty Thermostat Stuck Open and/or Missing Flange Seal |  | 2013-05-13 |
@@ -550,6 +555,7 @@ type: "Индекс"
 | [[tsb120004 — External Oil Leaks at Rocker Housing Gasket Reduced by Loctite™ 243 Applied to the\|tsb120004]] | External Oil Leaks at Rocker Housing Gasket Reduced by Loctite™ 243 Applied to the Intake Port Capscrews |  | 2012-01-18 |
 | [[tsb110287 — Calibration Issue on October 2011 INCAL™ DVD\|tsb110287]] | Calibration Issue on October 2011 INCAL™ DVD |  | 2011-10-17 |
 | [[tsb110191 — INSITE™ 7.5 Features and Parameters Issues with QSM11 and QSX15\|tsb110191]] | INSITE™ 7.5 Features and Parameters Issues with QSM11 and QSX15 |  | 2011-07-11 |
+| [[tsb110073 — ECM and Engine Distance Offset Issue with INSITE™ Electronic Service Tool\|tsb110073]] | ECM and Engine Distance Offset Issue with INSITE™ Electronic Service Tool |  | 2011-03-21 |
 | [[tsb110002 — Possible Water Pump Cylinder Block Interference on ISM and QSM11 Engine Application\|tsb110002]] | Possible Water Pump/Cylinder Block Interference on ISM and QSM11 Engine Applications |  | 2011-02-21 |
 | [[tsb110001 — Alternator Change\|tsb110001]] | Alternator Change | Замена генератора (изменение конструкции) | 2011-01-04 |
 | [[tsb101099 — Crankcase Blowby Measurement Procedure Update\|tsb101099]] | Crankcase Blowby Measurement Procedure Update |  | 2010-12-01 |
@@ -710,6 +716,7 @@ type: "Индекс"
 | [[tsb100783 — New Bushed Gear Lubricating Oil Pumps\|tsb100783]] | New Bushed Gear Lubricating Oil Pumps |  |  |
 | [[tsb100789 — New Lower Engine Gasket Sets\|tsb100789]] | New Lower Engine Gasket Sets |  |  |
 | [[tsb100794 — New Cylinder Block\|tsb100794]] | New Cylinder Block |  |  |
+| [[tsb100796 — New Injector Copper Seals\|tsb100796]] | New Injector Copper Seals |  |  |
 | [[tsb100800 — New Connecting Rod Bearing\|tsb100800]] | New Connecting Rod Bearing |  |  |
 | [[tsb100802 — New Piston Ring Sets\|tsb100802]] | New Piston Ring Sets |  |  |
 | [[tsb100812 — New Turbochargers and Related Service Kits\|tsb100812]] | New Turbochargers and Related Service Kits |  |  |
@@ -727,6 +734,7 @@ type: "Индекс"
 | [[tsb100885 — New Eliminator™ Bracket\|tsb100885]] | New Eliminator™ Bracket |  |  |
 | [[tsb100886 — New Crankshaft\|tsb100886]] | New Crankshaft |  |  |
 | [[tsb100892 — New Intake and Exhaust Valves\|tsb100892]] | New Intake and Exhaust Valves |  |  |
+| [[tsb100893 — New Fuel Pumps\|tsb100893]] | New Fuel Pumps |  |  |
 | [[tsb100901 — New Crankshaft\|tsb100901]] | New Crankshaft |  |  |
 | [[tsb100903 — New Exhaust Manifold\|tsb100903]] | New Exhaust Manifold |  |  |
 | [[tsb100907 — Main Bearing Part Number Reinstatements\|tsb100907]] | Main Bearing Part Number Reinstatements |  |  |
@@ -736,6 +744,7 @@ type: "Индекс"
 | [[tsb100930 — New Front Gear Cover Strip Seal\|tsb100930]] | New Front Gear Cover Strip Seal |  |  |
 | [[tsb100935 — Obsolete Lift Pump Gaskets\|tsb100935]] | Obsolete Lift Pump Gaskets |  |  |
 | [[tsb100938 — Oversize Cylinder Liners\|tsb100938]] | Oversize Cylinder Liners |  |  |
+| [[tsb100942 — QSK60 Drill Rig Engine Introduction\|tsb100942]] | QSK60 Drill Rig Engine Introduction |  |  |
 | [[tsb100950 — New Tachometer Hourmeter\|tsb100950]] | New Tachometer/Hourmeter |  |  |
 | [[tsb100956 — New CENSE™ Wiring Harness and Exhaust Gas Temperature Sensors\|tsb100956]] | New CENSE™ Wiring Harness and Exhaust Gas Temperature Sensors |  |  |
 | [[tsb100977 — Service Part for LTA Water Pump Reuse\|tsb100977]] | Service Part for LTA Water Pump Reuse |  |  |
@@ -1090,6 +1099,7 @@ type: "Индекс"
 | [[tsb103435 — Aftercooler Assembly Procedure, Install Section Revision\|tsb103435]] | Aftercooler Assembly Procedure, Install Section Revision |  |  |
 | [[tsb103441 — Fault Code 255, Major Revision\|tsb103441]] | Fault Code 255, Major Revision |  |  |
 | [[tsb103446 — Fault Code 449, Component Location Section Revision\|tsb103446]] | Fault Code 449, Component Location Section Revision |  |  |
+| [[tsb103447 — Engine Performance Troubleshooting Tree, Multiple Guided Step Revisions\|tsb103447]] | Engine Performance Troubleshooting Tree, Multiple Guided Step Revisions |  |  |
 | [[tsb103458 — Maintenance Schedule, Crankcase Breather Element Revision\|tsb103458]] | Maintenance Schedule, Crankcase Breather Element Revision |  |  |
 | [[tsb103497 — Flywheel Housing Procedure, Install Section Revision\|tsb103497]] | Flywheel Housing Procedure, Install Section Revision |  |  |
 | [[tsb103499 — Cylinder Head Procedure, Multiple Section Revisions\|tsb103499]] | Cylinder Head Procedure, Multiple Section Revisions | Процедура головки блока: изменения нескольких разделов |  |
@@ -1151,6 +1161,7 @@ type: "Индекс"
 | [[tsb104130 — Cylinder Head Procedure, Inspect for Reuse and Measure Section Revisions\|tsb104130]] | Cylinder Head Procedure, Inspect for Reuse and Measure Section Revisions |  |  |
 | [[tsb104141 — Lubricating Oil Dipstick and Lubricating Oil Leaks, Procedure Additions\|tsb104141]] | Lubricating Oil Dipstick and Lubricating Oil Leaks, Procedure Additions |  |  |
 | [[tsb104171 — Cooling System Procedure, Major Revision\|tsb104171]] | Cooling System Procedure, Major Revision |  |  |
+| [[tsb104182 — QSK60 Drill Rig Engine Introduction\|tsb104182]] | QSK60 Drill Rig Engine Introduction |  |  |
 | [[tsb104184 — Revision to Engine Installation Procedure\|tsb104184]] | Revision to Engine Installation Procedure |  |  |
 | [[tsb104200 — (Bearings, Connecting Rod) Procedure, Clean and Inspect for Reuse Section Revision\|tsb104200]] | (Bearings, Connecting Rod) Procedure, Clean and Inspect for Reuse Section Revision | Процедура «Шатунные вкладыши»: изменение раздела очистки и проверки |  |
 | [[tsb104222 — Fan Drive Idler Arm Assembly Procedure, Multiple Section Revisions\|tsb104222]] | Fan Drive Idler Arm Assembly Procedure, Multiple Section Revisions |  |  |
@@ -1197,6 +1208,7 @@ type: "Индекс"
 | [[tsb130001 — New ISX15 and QSX15 Cylinder Block Assembly\|tsb130001]] | New ISX15 and QSX15 Cylinder Block Assembly |  |  |
 | [[tsb130004 — Updated Cylinder Block Cleaning and Inspection Process\|tsb130004]] | Updated Cylinder Block Cleaning and Inspection Process |  |  |
 | [[tsb130007 — New Gear Part Numbers for QSK45, QSK60, and QSK78 Engines\|tsb130007]] | New Gear Part Numbers for QSK45, QSK60, and QSK78 Engines |  |  |
+| [[tsb130044 — New Fuel Pump Gear Pump with Revised Fuel Line Locations\|tsb130044]] | New Fuel Pump Gear Pump with Revised Fuel Line Locations |  |  |
 | [[tsb130046 — New Piston Top Compression Ring for ISX CM570, ISX CM870, ISX CM871, and QSX15 CM57\|tsb130046]] | New Piston Top Compression Ring for ISX CM570, ISX CM870, ISX CM871, and QSX15 CM570 |  |  |
 | [[tsb130067 — ReCon® Engine Control Module (ECM) Release for ISX CM570 and ISM CM570\|tsb130067]] | ReCon® Engine Control Module (ECM) Release for ISX CM570 and ISM CM570 |  |  |
 | [[tsb130094 — Injector Return Flow Specification Change for ISB CM2150, ISB6.7 CM2250, QSB6.7 CM2\|tsb130094]] | Injector Return Flow Specification Change for ISB CM2150, ISB6.7 CM2250, QSB6.7 CM2250, QSB6.7 CM2250 EC and ISB6.7 CM2350&nbsp; |  |  |
@@ -1205,6 +1217,7 @@ type: "Индекс"
 | [[tsb130119 — New Rockford® Fan Solenoid Mounting Bracket and Hose\|tsb130119]] | New Rockford® Fan Solenoid Mounting Bracket and Hose |  |  |
 | [[tsb130142 — CENSE™ CM530 Obsoleted and Replaced by Next Generation CENSE™ CM2330\|tsb130142]] | CENSE™ CM530 Obsoleted and Replaced by Next Generation CENSE™ CM2330 |  |  |
 | [[tsb130149 — Next Generation CENSE™ CM2330 - INSITE™ Electronic Service Tool, Image Trend Log Co\|tsb130149]] | Next Generation CENSE™ CM2330 - INSITE™ Electronic Service Tool, Image/Trend Log Collection Instructions |  |  |
+| [[tsb140019 — Fuel Pump - Plunger and Tappet Roller Inspection and Repair\|tsb140019]] | Fuel Pump - Plunger and Tappet Roller Inspection and Repair |  |  |
 | [[tsb140045 — New Engine Speed Sensors\|tsb140045]] | New Engine Speed Sensors |  |  |
 | [[tsb140059 — Brushless Alternator Option For Harsh Environmental Conditions\|tsb140059]] | Brushless Alternator Option For Harsh Environmental Conditions |  |  |
 | [[tsb140091 — New QSK45 and QSK60 Low Temperature Aftercooler (LTA) Water Pump\|tsb140091]] | New QSK45 and QSK60 Low Temperature Aftercooler (LTA) Water Pump |  |  |
@@ -1212,50 +1225,106 @@ type: "Индекс"
 | [[tsb140113 — ISX and QSX Engines Crankshaft and Rear Seal Compatibility and Part Number Change\|tsb140113]] | ISX and QSX Engines Crankshaft and Rear Seal Compatibility and Part Number Change |  |  |
 | [[tsb140133 — New Rear Gear Camshaft Idler Shaft\|tsb140133]] | New Rear Gear Camshaft Idler Shaft |  |  |
 | [[tsb140138 — ISX15 and QSX15 Cylinder Liner Shim Supersession\|tsb140138]] | ISX15 and QSX15 Cylinder Liner Shim Supersession |  |  |
+| [[tsb140141 — Exhaust Gas Recirculation (EGR) Cooler Connection Adapter Exhaust Outlet Tube\|tsb140141]] | Exhaust Gas Recirculation (EGR) Cooler Connection Adapter Exhaust Outlet Tube |  |  |
 | [[tsb140145 — New Valve Springs for All Four Valve per Cylinder B C F L Series Engines\|tsb140145]] | New Valve Springs for All Four Valve per Cylinder B/C/F/L Series Engines |  |  |
 | [[tsb140150 — New Valve Springs for QSK45 and QSK60\|tsb140150]] | New Valve Springs for QSK45 and QSK60 |  |  |
 | [[tsb140160 — New QSK60 Turbocharger Kit\|tsb140160]] | New QSK60 Turbocharger Kit |  |  |
 | [[tsb140163 — ISX15 and QSX15 External Coolant or Oil Leak from Lubricating Oil Cooler\|tsb140163]] | ISX15 and QSX15 External Coolant or Oil Leak from Lubricating Oil Cooler |  |  |
+| [[tsb150011 — Thermal Recirculation Valve Introduction\|tsb150011]] | Thermal Recirculation Valve Introduction |  |  |
 | [[tsb150019 — New Rear Power Take Off (REPTO) Idler Shaft and Capscrew\|tsb150019]] | New Rear Power Take Off (REPTO) Idler Shaft and Capscrew |  |  |
 | [[tsb150046 — New Low Temperature Aftercooling Coolant Hose\|tsb150046]] | New Low Temperature Aftercooling Coolant Hose |  |  |
 | [[tsb150047 — New Integrated Cylinder Head Valve Guide Seal and Valve Spring Guide\|tsb150047]] | New Integrated Cylinder Head Valve Guide Seal and Valve Spring Guide |  |  |
 | [[tsb150051 — Engine Brake Wiring Harness Design Change\|tsb150051]] | Engine Brake Wiring Harness Design Change |  |  |
+| [[tsb150067 — Change of Turbocharger Oil Supply Line and Routing\|tsb150067]] | Change of Turbocharger Oil Supply Line and Routing |  |  |
 | [[tsb150069 — Anti-Polishing Ring Cylinder Liner Release to Prevent Bore Polish and Elevated Oil\|tsb150069]] | Anti-Polishing Ring Cylinder Liner Release to Prevent Bore Polish and Elevated Oil Consumption Caused by Piston Top Land Carbon Packing |  |  |
+| [[tsb150099 — Advanced Dynamic Efficient Powertrain Technology (ADEPT™)\|tsb150099]] | Advanced Dynamic Efficient Powertrain Technology (ADEPT™) |  |  |
+| [[tsb150113 — New Fuel Pump with Diamond-Like Coated Tappet Roller Pin\|tsb150113]] | New Fuel Pump with Diamond-Like Coated Tappet Roller Pin |  |  |
+| [[tsb150116 — New Service Tool for Diesel Exhaust Fluid (DEF) System Troubleshooting\|tsb150116]] | New Service Tool for Diesel Exhaust Fluid (DEF) System Troubleshooting |  |  |
 | [[tsb150119 — Starting Motor Armature Malfunction Leading to an Engine No Start Condition\|tsb150119]] | Starting Motor Armature Malfunction Leading to an Engine No Start Condition |  |  |
 | [[tsb150130 — Intake Valve Chordal Malfunctions\|tsb150130]] | Intake Valve Chordal Malfunctions |  |  |
 | [[tsb150134 — New Cylinder Head Gasket Part Numbers\|tsb150134]] | New Cylinder Head Gasket Part Numbers |  |  |
 | [[tsb150139 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Identification Label\|tsb150139]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Identification Label |  |  |
+| [[tsb150158 — Bosch® Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Pump with Unidentified Flui\|tsb150158]] | Bosch® Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Pump with Unidentified Fluid at Seams |  |  |
+| [[tsb150163 — Excessive Lubricating Oil Consumption on Engines Outside of Warranty or Extended Co\|tsb150163]] | Excessive Lubricating Oil Consumption on Engines Outside of Warranty or Extended Coverage Period |  |  |
 | [[tsb150166 — New Piston, Low Temperature Aftercooled (LTA) Thermostat, and Engine Control Module\|tsb150166]] | New Piston, Low Temperature Aftercooled (LTA) Thermostat, and Engine Control Module (ECM) Calibrations for Haul Trucks Operating at High Altitude. |  |  |
+| [[tsb150171 — High Mount Mid Mount - Angled Turbochargers with Top Mount Turbocharger Actuator\|tsb150171]] | High Mount / Mid Mount - Angled Turbochargers with Top Mount Turbocharger Actuator - Lubricating Oil Found at Turbocharger Sector Gear and Turbocharger Actuator Gear When Turbocharger Actuator is Removed |  |  |
 | [[tsb150179 — New Valve Camshaft Removal and Installation Service Tool Kit\|tsb150179]] | New Valve Camshaft Removal and Installation Service Tool Kit |  |  |
+| [[tsb150187 — Fault Codes 322, 323, 324, 325, 331, and 332 Generated By Metallic Debris on Inject\|tsb150187]] | Fault Codes 322, 323, 324, 325, 331, and 332 Generated By Metallic Debris on Injector |  |  |
+| [[tsb160010 — INSITE™ Electronic Service Tool Error When Adjusting Aftertreatment Diesel Exhaust\|tsb160010]] | INSITE™ Electronic Service Tool Error When Adjusting Aftertreatment Diesel Exhaust Fluid Level System Configuration Programmable Parameters |  |  |
+| [[tsb160012 — New High Pressure Turbocharger Turbine Housing and Service Kit\|tsb160012]] | New High Pressure Turbocharger Turbine Housing and Service Kit |  |  |
 | [[tsb160017 — New Lubricating Oil Filter Bypass Valve\|tsb160017]] | New Lubricating Oil Filter Bypass Valve |  |  |
 | [[tsb160018 — Lubricating Oil Cooler O-Ring Replacement\|tsb160018]] | Lubricating Oil Cooler O-Ring Replacement |  |  |
 | [[tsb160020 — New Cylinder Head Capscrews and Torque Specification Revision\|tsb160020]] | New Cylinder Head Capscrews and Torque Specification Revision |  |  |
+| [[tsb160021 — New Cummins® Service Tool J1939 Datalink Component Isolation Kit\|tsb160021]] | New Cummins® Service Tool: J1939 Datalink Component Isolation Kit |  |  |
 | [[tsb160024 — New Remote Mounted Lubricating Oil Filter Head Assembly to Prevent Low Lubricating\|tsb160024]] | New Remote Mounted Lubricating Oil Filter Head Assembly to Prevent Low Lubricating Oil Pressure |  |  |
 | [[tsb160030 — New J-seal Compatible Exhaust Manifold Sections for All Three Piece Exhaust Manifol\|tsb160030]] | New J-seal Compatible Exhaust Manifold Sections for All Three Piece Exhaust Manifolds |  |  |
+| [[tsb160031 — Diesel Exhaust Fluid (DEF) Quality Fault Codes on International® Truck and IC™ Bus\|tsb160031]] | Diesel Exhaust Fluid (DEF) Quality Fault Codes on International® Truck and IC™ Bus Chassis |  |  |
+| [[tsb160035 — Cooling Fan Drive Belt Shredding on Recreational Vehicle Applications\|tsb160035]] | Cooling Fan Drive Belt Shredding on Recreational Vehicle Applications |  |  |
 | [[tsb160042 — Excessive Gear Train Noise Whine\|tsb160042]] | Excessive Gear Train Noise/Whine |  |  |
+| [[tsb160055 — SmartAccel™ Feature Release and Initial Tuning Guide\|tsb160055]] | SmartAccel™ Feature Release and Initial Tuning Guide |  |  |
 | [[tsb160060 — Action Needed When Calibrating Wirtgen® W200 and W200H Engine Control Module (ECM)\|tsb160060]] | Action Needed When Calibrating Wirtgen® W200 and W200H Engine Control Module (ECM) to Retain Low Idle Speed and Grid Heater Parameter Settings |  |  |
 | [[tsb160085 — New Lubricating Oil Filter Cooler Head Part Number\|tsb160085]] | New Lubricating Oil Filter Cooler Head Part Number |  |  |
 | [[tsb160088 — New Intake and Exhaust Rocker Levers\|tsb160088]] | New Intake and Exhaust Rocker Levers |  |  |
 | [[tsb160091 — Cylinder Bore and Cylinder Liner Inspection Gauge Kit\|tsb160091]] | Cylinder Bore and Cylinder Liner Inspection Gauge Kit |  |  |
+| [[tsb160095 — New Exhaust Gas Temperature Sensor and Injector Quadrant Wiring Harness and Mountin\|tsb160095]] | New Exhaust Gas Temperature Sensor and Injector Quadrant Wiring Harness and Mounting Bracket |  |  |
 | [[tsb160116 — New Piston Ring Compressor\|tsb160116]] | New Piston Ring Compressor |  |  |
+| [[tsb160119 — X15 CM2350 X114B - Efficiency Series and X15 CM2350 X116B - Performance Series Engi\|tsb160119]] | X15 CM2350 X114B - Efficiency Series and X15 CM2350 X116B - Performance Series Engine Introduction |  |  |
+| [[tsb170001 — Fault Code 3574 and or Fault Code 6485 Caused by Diesel Exhaust Fluid (DEF) Tank De\|tsb170001]] | Fault Code 3574 and/or Fault Code 6485 Caused by Diesel Exhaust Fluid (DEF) Tank Debris: Kenworth™ and Peterbilt™ Chassis |  |  |
+| [[tsb170002 — Injector Sleeve Seal Leakage Causing Fuel and Coolant Cross-Contamination\|tsb170002]] | Injector Sleeve Seal Leakage Causing Fuel and Coolant Cross-Contamination |  |  |
+| [[tsb170003 — Fault Codes 1867 and 2962 Caused by Water Intrusion\|tsb170003]] | Fault Codes 1867 and 2962 Caused by Water Intrusion |  |  |
 | [[tsb170004 — Injector Sleeve Seal Leakage Causing Fuel and Coolant Cross-Contamination Optional\|tsb170004]] | Injector Sleeve Seal Leakage Causing Fuel and Coolant Cross-Contamination: Optional Repair |  |  |
 | [[tsb170009 — Coolant in Lubricating Oil Water Pump Weep Hole Plug Removal\|tsb170009]] | Coolant in Lubricating Oil: Water Pump Weep Hole Plug Removal |  |  |
 | [[tsb170014 — Oversized Cylinder Liners and Shims\|tsb170014]] | Oversized Cylinder Liners and Shims |  |  |
+| [[tsb170026 — Engine Cleaning\|tsb170026]] | Engine Cleaning | Очистка двигателя |  |
+| [[tsb170031 — Fault Code 6255 Present With No Other Fault Codes and Possible Diesel Exhaust Fluid\|tsb170031]] | Fault Code 6255 Present With No Other Fault Codes and Possible Diesel Exhaust Fluid (DEF) Lamp Illumination |  |  |
+| [[tsb170045 — Crankcase Pressure Sensor Fault Code 555 or 556 Reoccurring Issue in Cold Weather\|tsb170045]] | Crankcase Pressure Sensor Fault Code 555 or 556: Reoccurring Issue in Cold Weather |  |  |
+| [[tsb170047 — Aftertreatment System Alignment Arrows Misaligned on Firetruck Applications\|tsb170047]] | Aftertreatment System Alignment Arrows Misaligned on Firetruck Applications |  |  |
+| [[tsb170048 — Aftertreatment Sensor Interchangeability Matrix\|tsb170048]] | Aftertreatment Sensor Interchangeability Matrix |  |  |
+| [[tsb170054 — Fault Codes 1713, 1715, 3868, 4277, 4572, and 4677 Caused by Diesel Exhaust Fluid (\|tsb170054]] | Fault Codes 1713, 1715, 3868, 4277, 4572, and 4677 Caused by Diesel Exhaust Fluid (DEF) Tank Heater Control Valve Stuck Partially Open |  |  |
 | [[tsb170060 — New Stainless Steel Exhaust Manifold Capscrew and Spacer\|tsb170060]] | New Stainless Steel Exhaust Manifold Capscrew and Spacer |  |  |
+| [[tsb170063 — Fault Codes 3545 and 1887 Caused by Water or Soap Contaminants in Exhaust System\|tsb170063]] | Fault Codes 3545 and 1887 Caused by Water or Soap Contaminants in Exhaust System |  |  |
+| [[tsb170064 — Injector Fault Codes 1139, 1141, 1142, 1143, 1144, or 1145\|tsb170064]] | Injector Fault Codes 1139, 1141, 1142, 1143, 1144, or 1145 |  |  |
+| [[tsb170070 — Adhesive Aftertreatment Main Body Gasket\|tsb170070]] | Adhesive Aftertreatment Main Body Gasket |  |  |
+| [[tsb170079 — Incorrect Aftertreatment Part Number Etching\|tsb170079]] | Incorrect Aftertreatment Part Number Etching |  |  |
+| [[tsb170085 — Fault Code 5867 PACCAR™ Chassis with Battery Disconnect Switch\|tsb170085]] | Fault Code 5867: PACCAR™ Chassis with Battery Disconnect Switch |  |  |
+| [[tsb170092 — New Exhaust Gas Temperature Sensor\|tsb170092]] | New Exhaust Gas Temperature Sensor |  |  |
 | [[tsb170094 — New Fuel Supply Line\|tsb170094]] | New Fuel Supply Line |  |  |
 | [[tsb170095 — New Blowby Pressure Sensor\|tsb170095]] | New Blowby Pressure Sensor |  |  |
+| [[tsb170099 — New Engine Oil Pressure Sensor\|tsb170099]] | New Engine Oil Pressure Sensor |  |  |
+| [[tsb170102 — Belt Shredding Charging System Alternator Out of Alignment\|tsb170102]] | Belt Shredding: Charging System Alternator Out of Alignment |  |  |
+| [[tsb170108 — Single Module Aftertreatment Selective Catalytic Reduction (SCR) Insulation Heat Sh\|tsb170108]] | Single Module Aftertreatment Selective Catalytic Reduction (SCR) Insulation Heat Shield Cracking |  |  |
 | [[tsb170115 — New Turbocharger Oil Drain Tube\|tsb170115]] | New Turbocharger Oil Drain Tube |  |  |
 | [[tsb170117 — Rocker Lever Ball Fracture and Replacement Low Power and Engine Smoking\|tsb170117]] | Rocker Lever Ball Fracture and Replacement: Low Power and Engine Smoking |  |  |
+| [[tsb170122 — White Residue Diesel Exhaust Fluid (DEF) Staining On Exhaust\|tsb170122]] | White Residue / Diesel Exhaust Fluid (DEF) Staining On Exhaust |  |  |
+| [[tsb170124 — Fuel Pump Timing Correction to Reduce Engine Noise\|tsb170124]] | Fuel Pump Timing Correction to Reduce Engine Noise |  |  |
 | [[tsb180024 — New Engine Piston Kits with Diamond Like Coated Piston Pins\|tsb180024]] | New Engine Piston Kits with Diamond Like Coated Piston Pins |  |  |
+| [[tsb180033 — Additional Pre-Lubrication Switch\|tsb180033]] | Additional Pre-Lubrication Switch | Дополнительный датчик предпусковой прокачки |  |
+| [[tsb180034 — Aftertreatment Diesel Particulate Filter (DPF) Restriction Test Will Not Complete\|tsb180034]] | Aftertreatment Diesel Particulate Filter (DPF) Restriction Test Will Not Complete |  |  |
 | [[tsb180045 — Enhanced Oiling Rocker Lever Identification\|tsb180045]] | Enhanced Oiling Rocker Lever Identification |  |  |
+| [[tsb180046 — Broken Aftertreatment Diesel Oxidation Catalyst (DOC) Baffle Fault Code 1664 or 169\|tsb180046]] | Broken Aftertreatment Diesel Oxidation Catalyst (DOC) Baffle: Fault Code 1664 or 1691 |  |  |
+| [[tsb180047 — Aftertreatment Diesel Exhaust Fluid Dosing Unit Heating Element Discoloration\|tsb180047]] | Aftertreatment Diesel Exhaust Fluid Dosing Unit Heating Element Discoloration |  |  |
+| [[tsb180051 — New Gear Housing and Fuel Pump Idler Shaft\|tsb180051]] | New Gear Housing and Fuel Pump Idler Shaft |  |  |
+| [[tsb180052 — Changes to Base Engine Timing\|tsb180052]] | Changes to Base Engine Timing |  |  |
+| [[tsb180056 — INSITE Electronic Service Tool Image Aftertreatment Regeneration Temperature Histor\|tsb180056]] | INSITE Electronic Service Tool Image Aftertreatment Regeneration Temperature History Incorrect |  |  |
 | [[tsb180059 — New Water Inlet Connection\|tsb180059]] | New Water Inlet Connection |  |  |
+| [[tsb180065 — Navistar Engine Control Module (ECM) Programmable Parameters\|tsb180065]] | Navistar Engine Control Module (ECM) Programmable Parameters |  |  |
+| [[tsb180071 — Fuel Pump Low Pressure Fuel Supply Tube Malfunction\|tsb180071]] | Fuel Pump Low Pressure Fuel Supply Tube Malfunction |  |  |
 | [[tsb180085 — New Fuel Pump Supply Hoses and Electronic Control Valve Assembly\|tsb180085]] | New Fuel Pump Supply Hoses and Electronic Control Valve Assembly |  |  |
 | [[tsb180091 — New Camshaft Thrust Bearings\|tsb180091]] | New Camshaft Thrust Bearings |  |  |
 | [[tsb180092 — Improved Aftercooler and Intercooler Cores\|tsb180092]] | Improved Aftercooler and Intercooler Cores |  |  |
+| [[tsb180096 — Fault Code 4769 and 6255\|tsb180096]] | Fault Code 4769 and 6255 |  |  |
 | [[tsb180099 — New Engine Oil Pressure Transducer\|tsb180099]] | New Engine Oil Pressure Transducer |  |  |
+| [[tsb180106 — Service Instructions for Variable Geometry Turbocharger Actuator Water Intrusion Pr\|tsb180106]] | Service Instructions for Variable Geometry Turbocharger Actuator Water Intrusion Prevention |  |  |
+| [[tsb180129 — Fault Code 3567and 3568 PACCAR™\|tsb180129]] | Fault Code 3567and 3568: PACCAR™ |  |  |
 | [[tsb180136 — Belt Shredding\|tsb180136]] | Belt Shredding |  |  |
+| [[tsb180137 — New Aftertreatment Decomposition Tube\|tsb180137]] | New Aftertreatment Decomposition Tube |  |  |
+| [[tsb180139 — UL2 DEF Dosing Unit External DEF Leaks\|tsb180139]] | UL2 DEF Dosing Unit External DEF Leaks |  |  |
 | [[tsb180160 — Oversized Cylinder Head Gaskets\|tsb180160]] | Oversized Cylinder Head Gaskets |  |  |
+| [[tsb180165 — Navistar® Aftertreatment Backpressure Diagnostic FC6786 on International HX520 and\|tsb180165]] | Navistar® Aftertreatment Backpressure Diagnostic FC6786 on International HX520 and HX620 Chassis |  |  |
 | [[tsb180179 — Upper and Lower Gasket Kits\|tsb180179]] | Upper and Lower Gasket Kits |  |  |
+| [[tsb190001 — Dedicated Fuel Pump Lubricating Oil Filter Introduction\|tsb190001]] | Dedicated Fuel Pump Lubricating Oil Filter Introduction |  |  |
+| [[tsb190003 — Engine Control Module (ECM) Malfunctions Due to Incorrect Switch Input Wiring\|tsb190003]] | Engine Control Module (ECM) Malfunctions Due to Incorrect Switch Input Wiring |  |  |
+| [[tsb190017 — High Number of Inactive Counts of Fault Code 7125\|tsb190017]] | High Number of Inactive Counts of Fault Code 7125 |  |  |
 | [[tsb190018 — Lubricating Oil Pumps with Unexpected Oil Pressures\|tsb190018]] | Lubricating Oil Pumps with Unexpected Oil Pressures |  |  |
 | [[tsb190035 — Cylinder Liner Installer Kit 3164606 Update\|tsb190035]] | Cylinder Liner Installer Kit 3164606 Update |  |  |
 | [[tsb190041 — Unable to Create Engine Control Module (ECM) Work Order Image Using INLINE 6 and J1\|tsb190041]] | Unable to Create Engine Control Module (ECM) Work Order Image Using INLINE 6 and J1708 Communication Protocol |  |  |
@@ -1264,67 +1333,159 @@ type: "Индекс"
 | [[tsb190074 — Western Star Charging System Alternator Bracket Interference with Water Pump\|tsb190074]] | Western Star Charging System Alternator Bracket Interference with Water Pump |  |  |
 | [[tsb190078 — New Lubricating Oil Filter Differential Pressure Fault Code Thresholds\|tsb190078]] | New Lubricating Oil Filter Differential Pressure Fault Code Thresholds |  |  |
 | [[tsb190089 — Heavy Duty Coolant Thermostat Housing Lip Seal Material Change\|tsb190089]] | Heavy Duty Coolant Thermostat Housing Lip Seal Material Change |  |  |
+| [[tsb190091 — Incorrect Pressure Temperature Sensor Fault Code 125, 222, 295, 743, 1664, 2191, 29\|tsb190091]] | Incorrect Pressure/Temperature Sensor: Fault Code 125, 222, 295, 743, 1664, 2191, 2973, 5989 |  |  |
 | [[tsb190107 — Copper Sealing Ring Replacement on Injector Engine Power Output Low and Engine Runs\|tsb190107]] | Copper Sealing Ring Replacement on Injector: Engine Power Output Low and Engine Runs Rough or Misfires&nbsp; |  |  |
 | [[tsb190108 — New Counterbore Cutting Tool Improvement Kit\|tsb190108]] | New Counterbore Cutting Tool Improvement Kit |  |  |
+| [[tsb190112 — Crank No Start Condition Units Equipped with Endurant™ Transmission\|tsb190112]] | Crank No Start Condition: Units Equipped with Endurant™ Transmission |  |  |
+| [[tsb190114 — Shortened Suction Side Fuel Filter Life Fault Code 559\|tsb190114]] | Shortened Suction Side Fuel Filter Life: Fault Code 559 |  |  |
+| [[tsb190115 — Navistar® Dashboard Odometer Discrepancy\|tsb190115]] | Navistar® Dashboard Odometer Discrepancy |  |  |
 | [[tsb190118 — Jumper Harness for Lead-Free Transition of Ambient Air Pressure (AAP) Sensor\|tsb190118]] | Jumper Harness for Lead-Free Transition of Ambient Air Pressure (AAP) Sensor |  |  |
 | [[tsb190140 — Introduction of a New Switch Pressure\|tsb190140]] | Introduction of a New Switch Pressure |  |  |
 | [[tsb190158 — Engine Cooling Fan Will Not Disengage New Rockford Fan Clutch Solenoid\|tsb190158]] | Engine Cooling Fan Will Not Disengage: New Rockford Fan Clutch Solenoid |  |  |
+| [[tsb190159 — &nbsp;Air Compressor Pumping Noise Troubleshooting\|tsb190159]] | &nbsp;Air Compressor Pumping Noise Troubleshooting |  |  |
+| [[tsb190160 — Unique Flywheel or Flywheel Housing Required for Use with an Eaton EndurantTM Trans\|tsb190160]] | Unique Flywheel or Flywheel Housing Required for Use with an Eaton EndurantTM Transmission: Potential Engine Damage or Clutch Will Not Calibrate Error Message |  |  |
 | [[tsb190170 — Front Gear Cover Inspection to Prevent Front Gear Cover Cracking\|tsb190170]] | Front Gear Cover Inspection to Prevent Front Gear Cover Cracking |  |  |
 | [[tsb190180 — Incorrect Diagnoses of Exhaust Manifold Lubricating Oil Carryover\|tsb190180]] | Incorrect Diagnoses of Exhaust Manifold Lubricating Oil Carryover |  |  |
+| [[tsb190185 — Fault Code 197 – Intermittent Low Coolant Indicator - PACCAR\|tsb190185]] | Fault Code 197 – Intermittent Low Coolant Indicator - PACCAR |  |  |
+| [[tsb190190 — Aftertreatment Selective Catalytic Reduction (SCR) Cracked Broken Outlet Flange\|tsb190190]] | Aftertreatment Selective Catalytic Reduction (SCR) Cracked/Broken Outlet Flange |  |  |
 | [[tsb190195 — Introduction of Twin Oil Hole Rocker Lever in K19 Engine\|tsb190195]] | Introduction of Twin Oil Hole Rocker Lever in K19 Engine |  |  |
+| [[tsb190202 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit and DEF Dosing Valve&nbsp;wit\|tsb190202]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit and DEF Dosing Valve&nbsp;with OEM Wiring Harness Fault Codes |  |  |
 | [[tsb190206 — New OEM Software to Prevent Engine Brake Rocker Lever Assembly Wear on Epiroc’s MT\|tsb190206]] | New OEM Software to Prevent Engine Brake Rocker Lever Assembly Wear on Epiroc’s MT-42 Unit |  |  |
+| [[tsb190208 — Navistar X15 FC 3558\|tsb190208]] | Navistar X15 FC 3558 |  |  |
 | [[tsb190215 — Proper Troubleshooting for Misfire Fault Codes\|tsb190215]] | Proper Troubleshooting for Misfire Fault Codes |  |  |
+| [[tsb200003 — Introducing XPI Injector and High-Pressure Fuel Connector Kits\|tsb200003]] | Introducing XPI Injector and High-Pressure Fuel Connector Kits |  |  |
 | [[tsb200004 — New Idler Pulley and Secondary Tensioner with Dust Seals\|tsb200004]] | New Idler Pulley and Secondary Tensioner with Dust Seals |  |  |
+| [[tsb200008 — Introduction of Turbocharger Actuator Boot Cover Service Kit\|tsb200008]] | Introduction of Turbocharger Actuator Boot Cover Service Kit |  |  |
+| [[tsb200013 — New QSK60 Lube Filter\|tsb200013]] | New QSK60 Lube Filter |  |  |
 | [[tsb200038 — Lubricating Oil Pump Noise\|tsb200038]] | Lubricating Oil Pump Noise |  |  |
+| [[tsb200046 — QSK60 Construction 3000hp Rebuild Steel to FCD Power Cylinder\|tsb200046]] | QSK60 Construction 3000hp Rebuild Steel to FCD Power Cylinder |  |  |
+| [[tsb200080 — New Aftertreatment Diesel Particulate Filter Differential Pressure Sensor\|tsb200080]] | New Aftertreatment Diesel Particulate Filter Differential Pressure Sensor |  |  |
 | [[tsb200090 — New Rear Crankshaft Seal\|tsb200090]] | New Rear Crankshaft Seal |  |  |
 | [[tsb200091 — New CM2940 Replacement for CM400 (24V only)\|tsb200091]] | New CM2940 Replacement for CM400 (24V only) |  |  |
 | [[tsb200098 — New Accessory Drive Support\|tsb200098]] | New Accessory Drive Support |  |  |
+| [[tsb200101 — New Piston Second Ring for QSK60 Tier 2 and Tier 3 Diesel Engines\|tsb200101]] | New Piston Second Ring for QSK60 Tier 2 and Tier 3 Diesel Engines |  |  |
+| [[tsb200102 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Does Not Run During the DEF S\|tsb200102]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Does Not Run During the DEF System Leak Test in INSITE™ Electronic Service Tool: Fault Code 1682 or 3574 |  |  |
 | [[tsb200112 — QSK60 CM500 Lube Pump White Stripe Check\|tsb200112]] | QSK60 CM500 Lube Pump White Stripe Check |  |  |
+| [[tsb200116 — Cold Weather Fault Codes\|tsb200116]] | Cold Weather Fault Codes |  |  |
+| [[tsb200140 — Low Pressure Gear Pump and Lines\|tsb200140]] | Low Pressure Gear Pump and Lines |  |  |
 | [[tsb200148 — Exhaust Valve Face Surface Finish Change\|tsb200148]] | Exhaust Valve Face Surface Finish Change |  |  |
 | [[tsb200152 — PT Fuel Pump Data Plate Interpretation\|tsb200152]] | PT Fuel Pump Data Plate Interpretation |  |  |
 | [[tsb200168 — Engine Wiring Harness Routing\|tsb200168]] | Engine Wiring Harness Routing |  |  |
 | [[tsb200181 — Updated In-Service Liner Protrusion\|tsb200181]] | Updated In-Service Liner Protrusion |  |  |
+| [[tsb200189 — Diagnostics for Failed Urea Quality Sensor Root Cause for PACCAR Chassis\|tsb200189]] | Diagnostics for Failed Urea Quality Sensor Root Cause for PACCAR Chassis |  |  |
+| [[tsb200210 — Fault Code 6637 on PACCAR™ Chassis with Horton® Fan Controller\|tsb200210]] | Fault Code 6637 on PACCAR™ Chassis with Horton® Fan Controller |  |  |
+| [[tsb200219 — Release of Thermal Recirculation Valve with Integrated Check Valve\|tsb200219]] | Release of Thermal Recirculation Valve with Integrated Check Valve |  |  |
 | [[tsb200221 — Main Bearing Kit Selection\|tsb200221]] | Main Bearing Kit Selection |  |  |
 | [[tsb200223 — New Intercooler Transfer Tube Connection\|tsb200223]] | New Intercooler Transfer Tube Connection |  |  |
 | [[tsb200225 — Lifting Eye and Rocker Bolt Capscrew\|tsb200225]] | Lifting Eye and Rocker Bolt Capscrew |  |  |
+| [[tsb200226 — New Long Oil Supply Tube Bracket Bolts\|tsb200226]] | New Long Oil Supply Tube Bracket Bolts |  |  |
 | [[tsb200242 — New Fuel Pressure Sensor\|tsb200242]] | New Fuel Pressure Sensor |  |  |
+| [[tsb210002 — New Thermocouple Exhaust Gas Temperature Sensor (EGTS) Introduction\|tsb210002]] | New Thermocouple Exhaust Gas Temperature Sensor (EGTS) Introduction | Введение термопарного датчика температуры ОГ (EGTS) |  |
 | [[tsb210009 — New Cylinder Block to Reduce MCRS Fuel Pump Malfunction\|tsb210009]] | New Cylinder Block to Reduce MCRS Fuel Pump Malfunction |  |  |
+| [[tsb210017 — False Occurrences of Fault Code 3492 or 3656 Caused by AutoStart Feature\|tsb210017]] | False Occurrences of Fault Code 3492 or 3656 Caused by AutoStart Feature |  |  |
+| [[tsb210020 — Allison Transmission® Fault P2637 Caused by Engine Control Module (ECM) Calibration\|tsb210020]] | Allison Transmission® Fault P2637 Caused by Engine Control Module (ECM) Calibration |  |  |
+| [[tsb210021 — Aftertreatment Over Temperature Fault Codes Caused by Prolonged PTO Operation Above\|tsb210021]] | Aftertreatment Over Temperature Fault Codes Caused by Prolonged PTO Operation Above 1000 rpm During Winter Months |  |  |
+| [[tsb210023 — Choosing Correct Exhaust Gas Recirculation (EGR) Temperature Sensor with Replacemen\|tsb210023]] | Choosing Correct Exhaust Gas Recirculation (EGR) Temperature Sensor with Replacement of Main Engine Wiring Harness |  |  |
 | [[tsb210043 — New Cylinder Head with Improved Casting\|tsb210043]] | New Cylinder Head with Improved Casting |  |  |
 | [[tsb210045 — Lubricating Oil Pressure Regulator Update Low Lubricating Oil Pressure Fault Code 1\|tsb210045]] | Lubricating Oil Pressure Regulator Update: Low Lubricating Oil Pressure Fault Code 143 |  |  |
+| [[tsb210054 — False Occurrences of Fault Code 555 and 556\|tsb210054]] | False Occurrences of Fault Code 555 and 556 |  |  |
 | [[tsb210062 — Starter O-ring Cut or Damaged During Starter Installation\|tsb210062]] | Starter O-ring Cut or Damaged During Starter Installation |  |  |
 | [[tsb210064 — T4 Offset Pin Piston\|tsb210064]] | T4 Offset Pin Piston |  |  |
 | [[tsb210075 — Lubricating Oil System Pressure Pulsations\|tsb210075]] | Lubricating Oil System Pressure Pulsations |  |  |
+| [[tsb210080 — Self-Calibrating Turbocharger Actuator\|tsb210080]] | Self-Calibrating Turbocharger Actuator |  |  |
+| [[tsb210088 — Camshaft Idler Plate or Camshaft Idler Gear Cover Seal Lubricating Oil Leak Misdiag\|tsb210088]] | Camshaft Idler Plate or Camshaft Idler Gear Cover Seal Lubricating Oil Leak Misdiagnosed as Leaking Front Gear Housing Gasket and New SRTs |  |  |
+| [[tsb210091 — Aftertreatment DPF Regen Analyzer (ARA) Available to Diagnose Black Smoke, Regenera\|tsb210091]] | Aftertreatment DPF Regen Analyzer (ARA) Available to Diagnose: Black Smoke, Regeneration Excessive, Stationary Regeneration Will Not Complete, Turbocharger Noise |  |  |
 | [[tsb210096 — Exhaust Valve Insert Material Change for Industrial, Construction, and Powergen App\|tsb210096]] | Exhaust Valve Insert Material Change for Industrial, Construction, and Powergen Applications |  |  |
+| [[tsb210110 — New Turbocharger Adapter and O-ring\|tsb210110]] | New Turbocharger Adapter and O-ring |  |  |
+| [[tsb210127 — Misfire Fault Codes Caused by Aftermarket Exhaust Gas Pressure Sensor\|tsb210127]] | Misfire Fault Codes Caused by Aftermarket Exhaust Gas Pressure Sensor |  |  |
 | [[tsb210160 — New Flywheel Housing and Rear Crankshaft Seal\|tsb210160]] | New Flywheel Housing and Rear Crankshaft Seal |  |  |
+| [[tsb210182 — Engine Not Responding to Request For Speed and or Torque Control After ECM Calibrat\|tsb210182]] | Engine Not Responding to Request For Speed and/or Torque Control After ECM Calibration Code Update |  |  |
+| [[tsb210187 — Fault Codes 3868, 4572 and 4677 Caused by Diesel Exhaust Fluid (DEF) Header Malfunc\|tsb210187]] | Fault Codes 3868, 4572 and 4677 Caused by Diesel Exhaust Fluid (DEF) Header Malfunction |  |  |
 | [[tsb210188 — New Accessory Drive Seal Lubricating Oil Leaks\|tsb210188]] | New Accessory Drive Seal: Lubricating Oil Leaks |  |  |
+| [[tsb210192 — Engine Wiring Harness Malfunctions Causing Datalink Fault Codes\|tsb210192]] | Engine Wiring Harness Malfunctions Causing Datalink Fault Codes |  |  |
+| [[tsb210202 — Engine Shuts Down During Air Handling Performance Test\|tsb210202]] | Engine Shuts Down During Air Handling Performance Test |  |  |
 | [[tsb210233 — 15N CM2380 M104B Engine Introduction\|tsb210233]] | 15N CM2380 M104B Engine Introduction |  |  |
 | [[tsb210248 — New Air Compressor\|tsb210248]] | New Air Compressor | Новый воздушный компрессор |  |
 | [[tsb210250 — New Lubricating Oil Pan Adapter\|tsb210250]] | New Lubricating Oil Pan Adapter |  |  |
+| [[tsb210275 — Air Handling Performance Test Available to Diagnose Restricted Exhaust Gas Recircul\|tsb210275]] | Air Handling Performance Test Available to Diagnose Restricted Exhaust Gas Recirculation (EGR) Cooler |  |  |
+| [[tsb210281 — Lubricating Oil Leak from Upper Gear Cover\|tsb210281]] | Lubricating Oil Leak from Upper Gear Cover |  |  |
+| [[tsb220008 — New Exhaust Muffler Bracket\|tsb220008]] | New Exhaust Muffler Bracket |  |  |
+| [[tsb220016 — Leaking Coolant From Turbocharger Coolant Return Line\|tsb220016]] | Leaking Coolant From Turbocharger Coolant Return Line |  |  |
+| [[tsb220065 — SmartAccel™ Stumble, Misfire, or Hesitation During a Snap Throttle with a Stationar\|tsb220065]] | SmartAccel™ Stumble, Misfire, or Hesitation During a Snap Throttle with a Stationary Vehicle |  |  |
+| [[tsb220076 — Fuel Pump Gear Pump Weep Hole Plugging Procedure to Resolve Nuisance Lubricating Oi\|tsb220076]] | Fuel Pump Gear Pump Weep Hole Plugging Procedure to Resolve Nuisance Lubricating Oil and Fuel Leak |  |  |
+| [[tsb220078 — New Fuel Pump with Revised Outlet Check Valve\|tsb220078]] | New Fuel Pump with Revised Outlet Check Valve |  |  |
+| [[tsb220085 — Aftertreatment Diesel Particulate Filter (DPF) Maintenance\|tsb220085]] | Aftertreatment Diesel Particulate Filter (DPF) Maintenance |  |  |
 | [[tsb220095 — New Lubricating Oil Pump\|tsb220095]] | New Lubricating Oil Pump |  |  |
+| [[tsb220096 — Fault Code 5383 Aftertreatment Diesel Particulate Filter (DPF) Ash Load Percent - M\|tsb220096]] | Fault Code 5383 Aftertreatment Diesel Particulate Filter (DPF) Ash Load Percent - Maintenance |  |  |
+| [[tsb220122 — Exhaust Gas Recirculation (EGR) Cooler Leaks Caused by Truck Wash Chemicals Fault C\|tsb220122]] | Exhaust Gas Recirculation (EGR) Cooler Leaks Caused by Truck Wash Chemicals: Fault Code 197 and Internal Coolant Leak |  |  |
+| [[tsb220129 — Cylinder Head Intake Valve Stem Seal Change\|tsb220129]] | Cylinder Head Intake Valve Stem Seal Change |  |  |
+| [[tsb220130 — Improved Exhaust Manifold\|tsb220130]] | Improved Exhaust Manifold |  |  |
+| [[tsb220145 — Remotely Mounted Fuel Pump Dedicated Lubricating Oil Filter\|tsb220145]] | Remotely Mounted Fuel Pump Dedicated Lubricating Oil Filter |  |  |
+| [[tsb220146 — New Fuel Pump Oil Supply Line\|tsb220146]] | New Fuel Pump Oil Supply Line |  |  |
+| [[tsb220159 — Air Handling Performance Test and NOx Sensor Diagnostic Steps with Engine Control M\|tsb220159]] | Air Handling Performance Test and NOx Sensor Diagnostic Steps with Engine Control Module (ECM) Calibration Code Revision with DEF Header Calibration Revision |  |  |
+| [[tsb220160 — New Variable Geometry Turbocharger (VGT) Actuator Sealing Gaskets Fault Codes 1894\|tsb220160]] | New Variable Geometry Turbocharger (VGT) Actuator Sealing Gaskets: Fault Codes 1894, 1897, 2636, 2634, 2387, 6432, or 2449. |  |  |
+| [[tsb220162 — J1939 Data Link Diagnostic Tool\|tsb220162]] | J1939 Data Link Diagnostic Tool |  |  |
+| [[tsb220165 — New 12 Volt Variable Geometry Turbocharger (VGT) Actuator Fault Code 1894, 1897, 26\|tsb220165]] | New 12 Volt Variable Geometry Turbocharger (VGT) Actuator: Fault Code 1894, 1897, 2636, 2634, 2387, 6432, or 2449 |  |  |
 | [[tsb220182 — Engine Oil Pressure Switch Replacement Part Number Engine Lubricating Oil Leak\|tsb220182]] | Engine Oil Pressure Switch Replacement Part Number: Engine Lubricating Oil Leak |  |  |
 | [[tsb220183 — Flywheel Capscrews Breaking Upon Removal\|tsb220183]] | Flywheel Capscrews Breaking Upon Removal |  |  |
+| [[tsb220192 — Premature Battery Power loss Fault Code 1117\|tsb220192]] | Premature Battery Power loss: Fault Code 1117 |  |  |
+| [[tsb220194 — Reducing Occurrences of Fault Code 197\|tsb220194]] | Reducing Occurrences of Fault Code 197 |  |  |
+| [[tsb220195 — Coolant Level Sensor Identification Fault Code 195 or 196\|tsb220195]] | Coolant Level Sensor Identification: Fault Code 195 or 196 |  |  |
+| [[tsb220199 — Aftertreatment NOx Sensor Test Available\|tsb220199]] | Aftertreatment NOx Sensor Test Available |  |  |
+| [[tsb220204 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Circuit Load Test\|tsb220204]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Unit Circuit Load Test |  |  |
 | [[tsb220210 — Improved Injector Upper Plunger Assembly\|tsb220210]] | Improved Injector Upper Plunger Assembly |  |  |
+| [[tsb220211 — New Two Stage Turbocharger Frame\|tsb220211]] | New Two Stage Turbocharger Frame |  |  |
+| [[tsb220218 — New Lubricating Oil Pan Suction Tube and Assembly\|tsb220218]] | New Lubricating Oil Pan Suction Tube and Assembly |  |  |
+| [[tsb220223 — New Heatshield Capscrew\|tsb220223]] | New Heatshield Capscrew |  |  |
 | [[tsb220231 — Updated Turbocharger Service Parts for Turbine to Bearing Housing Bolted Joint\|tsb220231]] | Updated Turbocharger Service Parts for Turbine to Bearing Housing Bolted Joint |  |  |
 | [[tsb220234 — New Eliminator Casting Body\|tsb220234]] | New Eliminator Casting Body |  |  |
+| [[tsb220244 — Idler Pulley Bracket Installation for Option FA1611 and FA1608\|tsb220244]] | Idler Pulley Bracket Installation for Option FA1611 and FA1608 |  |  |
+| [[tsb220250 — Fault Code 1881, 1883, 3133, 3134, 3135, 5715 5716, or 6786 with Fault Code 1921, 1\|tsb220250]] | Fault Code 1881, 1883, 3133, 3134, 3135, 5715 5716, or 6786 with Fault Code 1921, 1922, 1981, or 2639 |  |  |
+| [[tsb220253 — New Insulated Flexplate\|tsb220253]] | New Insulated Flexplate |  |  |
+| [[tsb220262 — Debris Found in Fuel Filter Misdiagnosed as Fuel System Malfunction\|tsb220262]] | Debris Found in Fuel Filter Misdiagnosed as Fuel System Malfunction |  |  |
+| [[tsb230007 — New Fuel Pump Accessory Drive and Electronic Chip Detector\|tsb230007]] | New Fuel Pump Accessory Drive and Electronic Chip Detector |  |  |
+| [[tsb230020 — Variable Geometry Turbocharger (VGT) Electronic Actuator Installation and Calibrati\|tsb230020]] | Variable Geometry Turbocharger (VGT) Electronic Actuator Installation and Calibration Did Not Pass |  |  |
+| [[tsb230043 — Injector Exhaust Gas Temperature Sensor (EGTS) Harness Bracket Conversion and Cable\|tsb230043]] | Injector / Exhaust Gas Temperature Sensor (EGTS) Harness Bracket Conversion and Cable Tie Tension Optimisation to Improve Harness Restraint |  |  |
+| [[tsb230059 — Vibration Incidents for On-Highway Vehicles\|tsb230059]] | Vibration Incidents for On-Highway Vehicles |  |  |
+| [[tsb230078 — Leaking Coolant From Low Temperature Aftercooler (LTA) Core\|tsb230078]] | Leaking Coolant From Low Temperature Aftercooler (LTA) Core |  |  |
+| [[tsb230104 — Fault Code 2198 During Cummins® Electronic Service Tool VGT Hysteresis Test\|tsb230104]] | Fault Code 2198 During Cummins® Electronic Service Tool VGT Hysteresis Test |  |  |
 | [[tsb230152 — New Lubricating Oil pump and Lubricating Oil Pump Regulator Spring\|tsb230152]] | New Lubricating Oil pump and Lubricating Oil Pump Regulator Spring |  |  |
+| [[tsb230161 — New Turbocharger Bellows Exhaust Leak\|tsb230161]] | New Turbocharger Bellows: Exhaust Leak |  |  |
 | [[tsb230177 — Loose or Worn Accessory Drive Assembly&nbsp;and Damage Mitigation Recommendations\|tsb230177]] | Loose or Worn Accessory Drive Assembly&nbsp;and Damage Mitigation Recommendations |  |  |
 | [[tsb230178 — Improved Injector Bias Spring Engine Runs Rough or Misfires\|tsb230178]] | Improved Injector Bias Spring: Engine Runs Rough or Misfires |  |  |
+| [[tsb230188 — Internal Debris in The Old Style Aftertreatment DPF Differential Pressure Sensor\|tsb230188]] | Internal Debris in The Old Style Aftertreatment DPF Differential Pressure Sensor |  |  |
+| [[tsb230190 — Internal Actuator Wiring Harness Intermittent Signal Injector Fault Codes\|tsb230190]] | Internal Actuator Wiring Harness Intermittent Signal: Injector Fault Codes |  |  |
+| [[tsb230202 — New Prestolite™ Starting Motor Interference with Aftertreatment Intake NOx Sensor B\|tsb230202]] | New Prestolite™ Starting Motor Interference with Aftertreatment Intake NOx Sensor Bracket: Engine Will Not Crank or Cranks Slowly |  |  |
 | [[tsb230203 — New Upper Idler Gear Idler Shaft\|tsb230203]] | New Upper Idler Gear Idler Shaft |  |  |
+| [[tsb230207 — J1939 Data Link Diagnostic Tool Not Available in INSITE™ Electronic Service Tool Ve\|tsb230207]] | J1939 Data Link Diagnostic Tool Not Available in INSITE™ Electronic Service Tool Version 8.8.0 or Newer When Using Nexiq NEXIQ USB- Link™ II Data Link Adapter Version 2.7.0.3 or Newer. |  |  |
 | [[tsb230228 — ReCon® Engines Without Electronic Control Modules (ECM)\|tsb230228]] | ReCon® Engines Without Electronic Control Modules (ECM) |  |  |
 | [[tsb240007 — Camshaft Thrust Plate Installation\|tsb240007]] | Camshaft Thrust Plate Installation |  |  |
 | [[tsb240015 — New Turbocharger Oil Supply Flexible Hose Part Number\|tsb240015]] | New Turbocharger Oil Supply Flexible Hose Part Number |  |  |
+| [[tsb240033 — New Injector Kit Part Numbers\|tsb240033]] | New Injector Kit Part Numbers |  |  |
 | [[tsb240036 — Engine Will Not Crank or Cranks Slowly (Electric Starter) Debris and Dust in Electr\|tsb240036]] | Engine Will Not Crank or Cranks Slowly (Electric Starter): Debris and Dust in Electric Starting Motor | Двигатель не проворачивается или вращается медленно: грязь и пыль в стартере |  |
 | [[tsb240060 — New Rocker Lever Cover Part Number\|tsb240060]] | New Rocker Lever Cover Part Number |  |  |
 | [[tsb240108 — New Prelube Solenoid\|tsb240108]] | New Prelube Solenoid |  |  |
+| [[tsb240152 — New Engine Heat Shields\|tsb240152]] | New Engine Heat Shields |  |  |
 | [[tsb240157 — Valve Traceability for ReCon® Cylinder Heads\|tsb240157]] | Valve Traceability for ReCon® Cylinder Heads |  |  |
 | [[tsb240158 — Instructions to Locate ECM Part Number for ReCon® Engines Without ECM\|tsb240158]] | Instructions to Locate ECM Part Number for ReCon® Engines Without ECM |  |  |
 | [[tsb240160 — New Piston Pin\|tsb240160]] | New Piston Pin |  |  |
+| [[tsb240169 — Air Handling Performance Test Freezes after Engine Start Fault Code 1117\|tsb240169]] | Air Handling Performance Test Freezes after Engine Start: Fault Code 1117 |  |  |
+| [[tsb240170 — Variable Geometry Turbocharger Actuator Installed Incorrectly\|tsb240170]] | Variable Geometry Turbocharger Actuator Installed Incorrectly |  |  |
 | [[tsb240195 — ReCon® Engines without Electronic Control Modules (ECM)\|tsb240195]] | ReCon® Engines without Electronic Control Modules (ECM) |  |  |
+| [[tsb240227 — Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Inlet Filter with Fault Code\|tsb240227]] | Aftertreatment Diesel Exhaust Fluid (DEF) Dosing Valve Inlet Filter with Fault Code(s) 1682 and 7325 |  |  |
 | [[tsb240230 — Changes to Engine Control Module (ECM) Calibration Downloads with Cummins® Electron\|tsb240230]] | Changes to Engine Control Module (ECM) Calibration Downloads with Cummins® Electronic Service Tool |  |  |
+| [[tsb250016 — Engine Control Module (ECM) Calibration Code Change to Exhaust Gas Temperature (EGT\|tsb250016]] | Engine Control Module (ECM) Calibration Code Change to Exhaust Gas Temperature (EGT) Sensor Thresholds: White Smoke |  |  |
 | [[tsb250034 — A8.5 CM2670 L153B Engine Introduction\|tsb250034]] | A8.5 CM2670 L153B Engine Introduction |  |  |
 | [[tsb250061 — New Accessory Drive Support Excessive Engine Noise\|tsb250061]] | New Accessory Drive Support: Excessive Engine Noise |  |  |
+| [[tsb250072 — Accelerator Pedal Intermittent Drop Out with No Fault Code\|tsb250072]] | Accelerator Pedal Intermittent Drop Out with No Fault Code |  |  |
+| [[tsb250097 — New Fuel Pump Part Numbers\|tsb250097]] | New Fuel Pump Part Numbers |  |  |
+| [[tsb250124 — Hybrid MCRS Fuel Pump Service Kit Upfit\|tsb250124]] | Hybrid MCRS Fuel Pump Service Kit Upfit |  |  |
 | [[tsb250138 — New Exhaust Manifold Gasket\|tsb250138]] | New Exhaust Manifold Gasket |  |  |
 | [[tsb250170 — Injector Rocker Lever Adjusting Screw Improvement Low Power, High Blowby, and Engin\|tsb250170]] | Injector Rocker Lever Adjusting Screw Improvement: Low Power, High Blowby, and Engine Noise |  |  |
 | [[tsb250174 — Water Pump Coolant Leak New Water Pump Available\|tsb250174]] | Water Pump Coolant Leak: New Water Pump Available |  |  |
+| [[tsb250211 — J1939 Data Link Diagnostic Tool Not Available in INSITE™ Electronic Service Tool Ve\|tsb250211]] | J1939 Data Link Diagnostic Tool Not Available in INSITE™ Electronic Service Tool Version 9.1.1.92 |  |  |
+| [[tsb260035 — Exhaust Valve Malfunction\|tsb260035]] | Exhaust Valve Malfunction |  |  |
 | [[tsb260042 — Fuel Pump Improvement\|tsb260042]] | Fuel Pump Improvement |  |  |
 | [[tsb260061 — Revised Air Intake Manifold bracket for QSK23 Air Intake Manifold Heater Coil Fatig\|tsb260061]] | Revised Air Intake Manifold bracket for QSK23 Air Intake Manifold Heater Coil Fatigue Malfunction |  |  |
+| [[tsb260094 — Intake Air throttle Air Shut-off Valve Intermediate gear\|tsb260094]] | Intake Air throttle/ Air Shut-off Valve Intermediate gear |  |  |
+| [[tsb260122 — New Variable Geometry Turbocharger (VGT) Actuator Kits\|tsb260122]] | New Variable Geometry Turbocharger (VGT) Actuator Kits |  |  |

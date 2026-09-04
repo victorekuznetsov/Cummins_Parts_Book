@@ -7,10 +7,9 @@ title_en: "Fuel Filter (Stage 1)"
 title_ru: "Топливный фильтр (ступень 1)"
 modified: "2013-08-13"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 42
@@ -29,8 +28,8 @@ tags:
 **Топливный фильтр (ступень 1)**
 
 > [!abstract] Процедура · `28-006-075-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 6 - Injectors and Fuel Lines - Group 06
 > **Даты:** изменён 2013-08-13

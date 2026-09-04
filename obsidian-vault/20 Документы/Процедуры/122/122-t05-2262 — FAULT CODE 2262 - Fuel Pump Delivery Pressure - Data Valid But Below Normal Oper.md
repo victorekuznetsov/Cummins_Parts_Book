@@ -7,10 +7,9 @@ title_en: "FAULT CODE 2262 - Fuel Pump Delivery Pressure - Data Valid But Below 
 title_ru: "Код 2262 — давление подачи топливного насоса ниже нормы — низший уровень"
 modified: "2015-04-07"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 lang: "ru+en"
@@ -28,8 +27,8 @@ tags:
 **Код 2262 — давление подачи топливного насоса ниже нормы — низший уровень**
 
 > [!abstract] Процедура · `122-t05-2262`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2015-04-07

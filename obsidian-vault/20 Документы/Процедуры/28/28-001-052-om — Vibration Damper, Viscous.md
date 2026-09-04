@@ -7,10 +7,9 @@ title_en: "Vibration Damper, Viscous"
 title_ru: "Вязкостный гаситель крутильных колебаний"
 modified: "2023-05-24"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
 figures: 4
@@ -29,8 +28,8 @@ tags:
 **Вязкостный гаситель крутильных колебаний**
 
 > [!abstract] Процедура · `28-001-052-om`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 8 - Maintenance Procedures at 6000 Hours or 2 Years
 > **Даты:** изменён 2023-05-24

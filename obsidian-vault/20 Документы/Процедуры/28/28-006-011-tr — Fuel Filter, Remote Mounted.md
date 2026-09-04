@@ -7,10 +7,9 @@ title_en: "Fuel Filter, Remote Mounted"
 title_ru: "Топливный фильтр выносного монтажа"
 modified: "2013-12-04"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
 figures: 11
@@ -29,8 +28,8 @@ tags:
 **Топливный фильтр выносного монтажа**
 
 > [!abstract] Процедура · `28-006-011-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 3 - Maintenance Procedures at Daily Interval
 > **Даты:** изменён 2013-12-04

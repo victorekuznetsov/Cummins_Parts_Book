@@ -14,8 +14,9 @@ engines:
   - "33239899"
   - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK50"
+  - "QSK60 CM2150 MCRS"
 parts:
   - "3678611"
   - "5417125"
@@ -29,6 +30,7 @@ tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2019"
   - "перевод/машинный"
   - "тема/fuel-systems-pumps"
@@ -40,7 +42,7 @@ tags:
 > [!abstract] TSB · `tsb190052`
 > **Раздел Cummins:** 05 - Fuel Systems (Pumps)
 > **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2019-04-29 · изменён 2019-04-29
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190052.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190052.pdf)
 

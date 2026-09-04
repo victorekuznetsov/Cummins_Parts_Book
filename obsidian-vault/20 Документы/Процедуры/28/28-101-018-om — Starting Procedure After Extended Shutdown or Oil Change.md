@@ -7,10 +7,9 @@ title_en: "Starting Procedure After Extended Shutdown or Oil Change"
 title_ru: "Порядок пуска после длительной стоянки или замены масла"
 modified: "2008-10-20"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3667180"
   - "3810497"
@@ -30,8 +29,8 @@ tags:
 **Порядок пуска после длительной стоянки или замены масла**
 
 > [!abstract] Процедура · `28-101-018-om`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]], [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2008-10-20

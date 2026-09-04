@@ -7,10 +7,9 @@ title_en: "Exhaust Temperature Sensor"
 title_ru: "Датчик температуры отработавших газов"
 modified: "2021-07-28"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 figures: 28
@@ -29,8 +28,8 @@ tags:
 **Датчик температуры отработавших газов**
 
 > [!abstract] Процедура · `122-019-013`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Controls
 > **Даты:** изменён 2021-07-28

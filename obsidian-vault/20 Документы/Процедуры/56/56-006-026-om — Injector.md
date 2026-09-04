@@ -10,8 +10,10 @@ engines:
   - "33210083"
   - "33219033"
   - "33224343"
+  - "33239746"
 families:
   - "QSK60"
+  - "QSK60 CM2150 MCRS"
 manuals:
   - "3666260"
 figures: 2
@@ -22,6 +24,7 @@ pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/
 tags:
   - "документ/процедура"
   - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "группа/56"
   - "перевод/машинный"
 ---
@@ -30,8 +33,8 @@ tags:
 **Форсунка**
 
 > [!abstract] Процедура · `56-006-026-om`
-> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]]
-> **Семейство:** QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]]
+> **Семейство:** QSK60, QSK60 CM2150 MCRS
 > **Входит в руководства:** [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]]
 > **Секции:** Section 9 - Maintenance Procedures at 10000 Hours
 > **Даты:** изменён 2025-11-12

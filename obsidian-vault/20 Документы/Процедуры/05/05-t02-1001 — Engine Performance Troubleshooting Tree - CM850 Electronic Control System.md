@@ -7,10 +7,9 @@ title_en: "Engine Performance Troubleshooting Tree - CM850 Electronic Control Sy
 title_ru: "Дерево диагностики мощностных характеристик — система CM850"
 modified: "2015-05-29"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 lang: "ru+en"
@@ -28,8 +27,8 @@ tags:
 **Дерево диагностики мощностных характеристик — система CM850**
 
 > [!abstract] Процедура · `05-t02-1001`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section TT - Troubleshooting Performance Troubleshooting Tree - New Format)
 > **Даты:** изменён 2015-05-29

@@ -96,7 +96,7 @@ tags:
 
 - См. B6.7 CM2350 B121B Service Manual, Bulletin 5411223. См. процедуру 100-001 в разделе E.
 - См. L9 CM2350 L116B Service Manual, Bulletin 5411330. См. процедуру 100-001 в разделе E.
-- См. X15 CM2350 X114B Service Manual, Bulletin 5411181. См. процедуру 100-001 в разделе E.
+- См. X15 CM2350 X114B Service Manual, Bulletin [[5411181 — X15 CM2350 X114B - Efficiency Series Service Manual\|5411181]]. См. процедуру 100-001 в разделе E.
 - См. X15 CM2350 X116B Service Manual, Bulletin 5411186. См. процедуру 100-001 в разделе E.
 
 **III. QuickServe Online (QSOL) Ссылка**
@@ -184,7 +184,7 @@ tags:
 >
 > - See B6.7 CM2350 B121B Service Manual, Bulletin 5411223. Refer to Procedure 100-001 in Section E.
 > - See L9 CM2350 L116B Service Manual, Bulletin 5411330. Refer to Procedure 100-001 in Section E.
-> - See X15 CM2350 X114B Service Manual, Bulletin 5411181. Refer to Procedure 100-001 in Section E.
+> - See X15 CM2350 X114B Service Manual, Bulletin [[5411181 — X15 CM2350 X114B - Efficiency Series Service Manual\|5411181]]. Refer to Procedure 100-001 in Section E.
 > - See X15 CM2350 X116B Service Manual, Bulletin 5411186. Refer to Procedure 100-001 in Section E.
 >
 > **III. QuickServe Online (QSOL) Reference**

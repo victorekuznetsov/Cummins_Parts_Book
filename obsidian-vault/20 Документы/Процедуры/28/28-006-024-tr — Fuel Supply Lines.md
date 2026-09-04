@@ -7,10 +7,9 @@ title_en: "Fuel Supply Lines"
 title_ru: "Магистрали подачи топлива"
 modified: "2020-01-14"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 51
@@ -29,8 +28,8 @@ tags:
 **Магистрали подачи топлива**
 
 > [!abstract] Процедура · `28-006-024-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 6 - Injectors and Fuel Lines - Group 06
 > **Даты:** изменён 2020-01-14

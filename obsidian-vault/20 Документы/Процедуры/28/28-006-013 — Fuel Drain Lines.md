@@ -7,10 +7,9 @@ title_en: "Fuel Drain Lines"
 title_ru: "Магистрали слива топлива"
 modified: "2019-12-23"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
   - "4021528"
@@ -30,8 +29,8 @@ tags:
 **Магистрали слива топлива**
 
 > [!abstract] Процедура · `28-006-013`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]], [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 6 - Injectors and Fuel Lines - Group 06 · Section A - Adjustment, Repair, and Replacement
 > **Даты:** изменён 2019-12-23

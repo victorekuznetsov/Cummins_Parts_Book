@@ -7,12 +7,11 @@ title_en: "Coolant Recommendations and Specifications"
 title_ru: "Рекомендации и спецификации по охлаждающей жидкости"
 modified: "2026-05-12"
 engines:
-  - "33239746"
   - "33239899"
   - "93047320"
 families:
   - "6B5.9"
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810205"
   - "4021389"
@@ -36,8 +35,8 @@ tags:
 **Рекомендации и спецификации по охлаждающей жидкости**
 
 > [!abstract] Процедура · `00-018-004`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[93047320 — 6B5.9 CPL 3111|93047320]]
-> **Семейство:** 6B5.9, K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[93047320 — 6B5.9 CPL 3111|93047320]]
+> **Семейство:** 6B5.9, K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810205 — B Automotive, Recreational Vehicle, and Bus Operation and Maintenance Manual|3810205]], [[4021389 — B3.9, B4.5, B5.9 Industrial Operation and Maintenance Manual|4021389]], [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]], [[4021538 — B3.9 and B5.9 Recreational Marine Operation and Maintenance Manual|4021538]], [[4960250 — B Automotive, Recreational Vehicle, and Bus Owners Manual|4960250]], [[4960270 — B3.9 and B5.9 Recreational Marine Owners Manual|4960270]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2026-05-12

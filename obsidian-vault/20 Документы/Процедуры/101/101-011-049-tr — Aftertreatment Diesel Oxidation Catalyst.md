@@ -392,7 +392,7 @@ tags:
 > **WARNING · Опасно**
 > The component weighs 23 kg \[50 lbs\] or more. To reduce the possibility of personal injury, use a hoist or get assistance to lift the component.
 >
-> Service locations in California. See Service Bulletin, California Aftertreatment Regulation Adherence, Bulletin 6642787.
+> Service locations in California. See Service Bulletin, California Aftertreatment Regulation Adherence, Bulletin [[6642787 — California Aftertreatment Regulation Adherence|6642787]].
 >
 > Install new gaskets on the inlet and outlet of the exhaust gas catalyst.
 >

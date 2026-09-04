@@ -7,10 +7,9 @@ title_en: "Engine Control Module Critical Internal Failure - Bad Intelligent Dev
 title_ru: "Критический внутренний отказ ЭБУ — неисправное устройство"
 modified: "2016-08-08"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 figures: 1
@@ -29,8 +28,8 @@ tags:
 **Критический внутренний отказ ЭБУ — неисправное устройство**
 
 > [!abstract] Процедура · `122-fc111`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2016-08-08

@@ -7,12 +7,11 @@ title_en: "FAULT CODE 5633 - Marine Low Load Protection - Condition Exists"
 title_ru: "Код 5633 — судовая защита от малой нагрузки — условие возникло"
 modified: "2016-11-02"
 engines:
-  - "33239746"
   - "33239899"
   - "41349633"
   - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
 manuals:
   - "4022094"
@@ -33,8 +32,8 @@ tags:
 **Код 5633 — судовая защита от малой нагрузки — условие возникло**
 
 > [!abstract] Процедура · `00-t05-5633`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19
 > **Входит в руководства:** [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual|4022094]], [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2016-11-02

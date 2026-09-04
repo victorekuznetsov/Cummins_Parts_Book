@@ -7,10 +7,9 @@ title_en: "FAULT CODE 559 - Injector Metering Rail 1 Pressure - Data Valid But B
 title_ru: "Код 559 — давление в топливной рампе 1 ниже нормы — умеренный уровень"
 modified: "2015-04-07"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 lang: "ru+en"
@@ -28,8 +27,8 @@ tags:
 **Код 559 — давление в топливной рампе 1 ниже нормы — умеренный уровень**
 
 > [!abstract] Процедура · `122-t05-559`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2015-04-07

@@ -7,8 +7,10 @@ engines:
   - "33210083"
   - "33219033"
   - "33224343"
+  - "33239746"
 families:
   - "QSK60"
+  - "QSK60 CM2150 MCRS"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
@@ -17,14 +19,15 @@ pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/
 tags:
   - "документ/tsb"
   - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "перевод/машинный"
 ---
 
 # Connecting Rod Reuse Guidelines at Rebuild or Repair
 
 > [!abstract] TSB · `tsb103946`
-> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]]
-> **Семейство:** QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]]
+> **Семейство:** QSK60, QSK60 CM2150 MCRS
 > **Даты:** изменён 2009-12-15
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103946.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103946.pdf)
 

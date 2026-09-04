@@ -7,10 +7,9 @@ title_en: "Turbocharger Radial Bearing Clearance"
 title_ru: "Радиальный зазор подшипника турбокомпрессора"
 modified: "2007-07-25"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 3
@@ -29,8 +28,8 @@ tags:
 **Радиальный зазор подшипника турбокомпрессора**
 
 > [!abstract] Процедура · `28-010-047-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2007-07-25

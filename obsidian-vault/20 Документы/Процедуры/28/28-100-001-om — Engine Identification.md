@@ -7,10 +7,9 @@ title_en: "Engine Identification"
 title_ru: "Идентификация двигателя"
 modified: "2010-05-26"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3667180"
   - "3810497"
@@ -30,8 +29,8 @@ tags:
 **Идентификация двигателя**
 
 > [!abstract] Процедура · `28-100-001-om`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]], [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section E - Engine Identification · Section E - Engine and System Identification
 > **Даты:** изменён 2010-05-26

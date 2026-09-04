@@ -13,8 +13,9 @@ engines:
   - "33239899"
   - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK50"
+  - "QSK60 CM2150 MCRS"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
@@ -24,6 +25,7 @@ tags:
   - "документ/инструмент"
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "перевод/машинный"
 ---
 
@@ -32,7 +34,7 @@ tags:
 
 > [!abstract] Инструкция по инструменту · `3400337`
 > **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2009-07-02 · изменён 2009-09-24
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400337.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400337.pdf)
 

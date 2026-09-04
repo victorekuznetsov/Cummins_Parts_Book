@@ -7,10 +7,9 @@ title_en: "Lubricating Oil System"
 title_ru: "Система смазки"
 modified: "2014-03-04"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3667180"
 lang: "ru+en"
@@ -28,8 +27,8 @@ tags:
 **Система смазки**
 
 > [!abstract] Процедура · `28-018-017-owner`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2014-03-04

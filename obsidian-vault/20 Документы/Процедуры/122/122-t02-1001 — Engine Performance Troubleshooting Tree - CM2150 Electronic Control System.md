@@ -7,10 +7,9 @@ title_en: "Engine Performance Troubleshooting Tree - CM2150 Electronic Control S
 title_ru: "Дерево диагностики мощностных характеристик — система CM2150"
 modified: "2013-08-05"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 lang: "ru+en"
@@ -28,8 +27,8 @@ tags:
 **Дерево диагностики мощностных характеристик — система CM2150**
 
 > [!abstract] Процедура · `122-t02-1001`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TT - Troubleshooting Performance Troubleshooting Tree - New Format) · Section TT - Troubleshooting Symptoms (New Format) · Section TT -Troubleshooting Symptoms (New Format)
 > **Даты:** изменён 2013-08-05

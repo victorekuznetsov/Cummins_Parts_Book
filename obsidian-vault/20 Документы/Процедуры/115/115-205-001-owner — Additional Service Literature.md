@@ -7,12 +7,11 @@ title_en: "Additional Service Literature"
 title_ru: "Дополнительная сервисная литература"
 modified: "2007-01-08"
 engines:
-  - "33239746"
   - "33239899"
   - "41349633"
   - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
 manuals:
   - "4021589"
@@ -32,8 +31,8 @@ tags:
 **Дополнительная сервисная литература**
 
 > [!abstract] Процедура · `115-205-001-owner`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19
 > **Входит в руководства:** [[4021589 — Marine C Command Panel System Owners Manual|4021589]]
 > **Секции:** Section L - Service Literature
 > **Даты:** изменён 2007-01-08

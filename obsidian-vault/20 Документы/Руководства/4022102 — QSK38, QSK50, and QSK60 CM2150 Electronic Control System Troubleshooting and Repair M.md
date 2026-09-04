@@ -11,8 +11,9 @@ engines:
   - "33239899"
   - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK50"
+  - "QSK60 CM2150 MCRS"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4022102/4022102-history.html"
 pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4022102-history.pdf"
@@ -20,6 +21,7 @@ tags:
   - "документ/руководство"
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
 ---
 
 # QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair Manual
@@ -27,7 +29,7 @@ tags:
 
 > [!abstract] Руководство · `4022102-history`
 > **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4022102/4022102-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4022102-history.pdf)
 
 

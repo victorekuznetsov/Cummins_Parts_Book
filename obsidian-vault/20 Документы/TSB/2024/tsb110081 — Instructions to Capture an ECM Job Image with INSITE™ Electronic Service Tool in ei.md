@@ -24,11 +24,12 @@ engines:
   - "82099327"
   - "85017333"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSB6.7"
   - "QSK23"
   - "QSK50"
   - "QSK60"
+  - "QSK60 CM2150 MCRS"
   - "QSM11"
   - "QSX15"
 lang: "ru+en"
@@ -42,6 +43,7 @@ tags:
   - "двигатель/QSK23"
   - "двигатель/QSK50"
   - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QSM11"
   - "двигатель/QSX15"
   - "год/2024"
@@ -55,7 +57,7 @@ tags:
 > [!abstract] TSB · `tsb110081`
 > **Раздел Cummins:** 22 - Service Tools
 > **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSB6.7, QSK23, QSK50, QSK60, QSM11, QSX15
+> **Семейство:** K38/K50 · QSK38, QSK50, QSB6.7, QSK23, QSK50, QSK60, QSK60 CM2150 MCRS, QSM11, QSX15
 > **Даты:** выпущен 2024-10-04 · изменён 2024-10-04
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110081.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110081.pdf)
 

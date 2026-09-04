@@ -17,9 +17,10 @@ engines:
   - "33239899"
   - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK50"
   - "QSK60"
+  - "QSK60 CM2150 MCRS"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2023/tsb230094.html"
@@ -29,6 +30,7 @@ tags:
   - "двигатель/K38/K50"
   - "двигатель/QSK50"
   - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2023"
   - "перевод/машинный"
   - "тема/miscellaneous"
@@ -40,7 +42,7 @@ tags:
 > [!abstract] TSB · `tsb230094`
 > **Раздел Cummins:** 17 - Miscellaneous
 > **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK50, QSK60
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2023-05-17 · изменён 2023-05-17
 > **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2023/tsb230094.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb230094.pdf)
 
