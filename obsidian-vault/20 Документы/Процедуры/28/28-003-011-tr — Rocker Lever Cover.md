@@ -7,17 +7,16 @@ title_en: "Rocker Lever Cover"
 title_ru: "Крышка коромысел"
 modified: "2023-07-19"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 31
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-003-011-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-003-011-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-003-011-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Крышка коромысел**
 
 > [!abstract] Процедура · `28-003-011-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 3 - Rocker Levers · Section 3 - Rocker Levers - Group 03 · Section 3 Rocker Levers - Group 03
 > **Даты:** изменён 2023-07-19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-003-011-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-003-011-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-003-011-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-003-011-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -212,11 +211,11 @@ tags:
 
 Проверьте адаптерную трубку на наличие трещин, изгибов или других повреждений.
 
-Если повреждена, то адаптерная трубка *** должна быть заменена.
+Если повреждена, то адаптерная трубка должна быть заменена.
 
 Осмотрите крышку уплотнительной трубки на наличие трещин или других повреждений.
 
-Если поврежден, крышка трубки ** должна быть заменена.
+Если поврежден, крышка трубки должна быть заменена.
 
 ![[03z00012.png]]
 
@@ -230,7 +229,7 @@ tags:
 
 Установите новые кольца.
 
-Босс на трубе ** должен** плотно прилегать к нижней стороне крышки клапанного клапана.
+Босс на трубе **должен** плотно прилегать к нижней стороне крышки клапанного клапана.
 
 ![[03z00013.png]]
 
@@ -311,9 +310,9 @@ tags:
 
 ![[03k00005.png]]
 
-Установите разъём форсунки с жгутом к кронштейну, разместив его на кронштейн до тех пор, пока разъём не заблокируется в положение.
+Установите разъём форсунки с жгутом к кронштейну, разложив его на кронштейн до тех пор, пока разъём не заблокируется в положение.
 
-Если блокировка на разъеме отсутствует, используйте кабельный галстук, Номер детали 3822924 или эквивалент, чтобы закрепить проводку в скобке.
+Если блокировка на разъеме отсутствует, используйте кабельный стяжка, Номер детали 3822924 или эквивалент, чтобы закрепить проводку в скобке.
 
 ![[03k00003.png]]
 

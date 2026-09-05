@@ -9,18 +9,32 @@ released: "2020-11-19"
 modified: "2020-11-19"
 group: "07 - Lubricating Oil Systems"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
+  - "85017333"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK23"
+  - "QSK50"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190145.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190145.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190145.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK23"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2020"
   - "перевод/машинный"
   - "тема/lubricating-oil-systems"
@@ -31,10 +45,10 @@ tags:
 
 > [!abstract] TSB · `tsb190145`
 > **Раздел Cummins:** 07 - Lubricating Oil Systems
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK23, QSK50, QSK60, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2020-11-19 · изменён 2020-11-19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190145.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190145.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190145.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190145.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -86,7 +100,7 @@ tags:
 
 Использование смазочных масел xW-40 было проверено более тщательно и обеспечивает более толстую пленку для моторного масла для защиты от повреждений, вызванных тяжелым рабочим циклом или загрязнением моторного масла.
 
-Технические требования, которые требуют использования 30-масштабного моторного масла**, должны быть подтверждены для одного или нескольких из следующих условий: CES 20076, CES 20077, CES 20078, CES 20081, CES 20086. Свяжитесь с местным дистрибьютором Cummins® для получения дополнительной информации.
+Технические требования, которые требуют использования 30-масштабного моторного масла, должны быть подтверждены для одного или нескольких из следующих условий: CES 20076, CES 20077, CES 20078, CES 20081, CES 20086. Свяжитесь с местным дистрибьютором Cummins® для получения дополнительной информации.
 
 **Публикации затронуты**
 
@@ -98,8 +112,8 @@ tags:
 | Руководство по эксплуатации и техническому обслуживанию | QSK78 CM500 | 3666714 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK78 CM2250 K104 | 4332683 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK78 CM2250 K104 | 4332684 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Руководство по эксплуатации и техническому обслуживанию | QSK60 CM2150 MCRS | 3666260 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Владелец Руководства | QSK60 CM2150 MCRS | 4915528 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Руководство по эксплуатации и техническому обслуживанию | QSK60 CM2150 MCRS | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Владелец Руководства | QSK60 CM2150 MCRS | [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK60 CM2250 K112 | 4367455 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK60 CM2250 K112 | 4367456 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK60 CM2350 K116 | 4367445 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
@@ -108,18 +122,18 @@ tags:
 | Владелец Руководства | QSK60 CM2350 K117 | 4367451 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK60 CM2350 K121 | 4388646 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK60 CM2350 K121 | 4388647 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Руководство по эксплуатации и техническому обслуживанию | QSK60 CM500 | 3666260 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Владелец Руководства | QSK60 CM500 | 4915528 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Руководство по эксплуатации и техническому обслуживанию | QSK60 CM850 MCRS | 3666260 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Владелец Руководства | QSK60 CM850 MCRS | 4915528 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Руководство по эксплуатации и техническому обслуживанию | QSK60 CM500 | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Владелец Руководства | QSK60 CM500 | [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Руководство по эксплуатации и техническому обслуживанию | QSK60 CM850 MCRS | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Владелец Руководства | QSK60 CM850 MCRS | [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK50 CM850 MCRS | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK50 CM850 MCRS | [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK50 CM2350 K108 | 4332824 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK50 CM2350 K108 | 4332825 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | QSK50 CM2150 K107 | 4332774 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | QSK50 CM2150 K107 | 4332775 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Руководство по эксплуатации и техническому обслуживанию | QSK45 CM500 | 3666260 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
-| Владелец Руководства | QSK45 CM500 | 4915528 | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Руководство по эксплуатации и техническому обслуживанию | QSK45 CM500 | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
+| Владелец Руководства | QSK45 CM500 | [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Руководство по эксплуатации и техническому обслуживанию | К50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 | Владелец Руководства | К50 | [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | Рекомендации и спецификации по моторному маслу | 018-003 | VV |
 
@@ -179,8 +193,8 @@ tags:
 > | Operation and Maintenance Manual | QSK78 CM500 | 3666714 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK78 CM2250 K104 | 4332683 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK78 CM2250 K104 | 4332684 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Operation and Maintenance Manual | QSK60 CM2150 MCRS | 3666260 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Owners Manual | QSK60 CM2150 MCRS | 4915528 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Operation and Maintenance Manual | QSK60 CM2150 MCRS | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Owners Manual | QSK60 CM2150 MCRS | [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK60 CM2250 K112 | 4367455 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK60 CM2250 K112 | 4367456 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK60 CM2350 K116 | 4367445 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
@@ -189,18 +203,18 @@ tags:
 > | Owners Manual | QSK60 CM2350 K117 | 4367451 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK60 CM2350 K121 | 4388646 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK60 CM2350 K121 | 4388647 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Operation and Maintenance Manual | QSK60 CM500 | 3666260 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Owners Manual | QSK60 CM500 | 4915528 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Operation and Maintenance Manual | QSK60 CM850 MCRS | 3666260 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Owners Manual | QSK60 CM850 MCRS | 4915528 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Operation and Maintenance Manual | QSK60 CM500 | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Owners Manual | QSK60 CM500 | [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Operation and Maintenance Manual | QSK60 CM850 MCRS | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Owners Manual | QSK60 CM850 MCRS | [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK50 CM850 MCRS | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK50 CM850 MCRS | [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK50 CM2350 K108 | 4332824 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK50 CM2350 K108 | 4332825 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | QSK50 CM2150 K107 | 4332774 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | QSK50 CM2150 K107 | 4332775 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Operation and Maintenance Manual | QSK45 CM500 | 3666260 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
-> | Owners Manual | QSK45 CM500 | 4915528 | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Operation and Maintenance Manual | QSK45 CM500 | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
+> | Owners Manual | QSK45 CM500 | [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Operation and Maintenance Manual | K50 | [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 > | Owners Manual | K50 | [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual\|3667180]] | Lubricating Oil Recommendations and Specifications | 018-003 | V |
 >

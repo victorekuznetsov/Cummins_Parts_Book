@@ -1,0 +1,144 @@
+---
+aliases:
+  - "Система смазки"
+type: "Процедура"
+doc: "40-018-017-om-ind"
+title_en: "Lubricating Oil System"
+title_ru: "Система смазки"
+modified: "2007-05-21"
+engines:
+  - "93047320"
+families:
+  - "6B5.9"
+manuals:
+  - "4021389"
+  - "4021391"
+lang: "ru+en"
+translation: "машинный черновик"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-017-om-ind.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-017-om-ind.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/6B5.9"
+  - "группа/40"
+  - "перевод/машинный"
+---
+
+# Lubricating Oil System
+**Система смазки**
+
+> [!abstract] Процедура · `40-018-017-om-ind`
+> **Двигатели:** [[93047320 — 6B5.9 CPL 3111|93047320]]
+> **Семейство:** 6B5.9
+> **Входит в руководства:** [[4021389 — B3.9, B4.5, B5.9 Industrial Operation and Maintenance Manual|4021389]], [[4021391 — B3.9, B4.5, and B5.9 Industrial Owners Manual|4021391]]
+> **Секции:** Section V - Maintenance Specifications
+> **Даты:** изменён 2007-05-21
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-018-017-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-018-017-om-ind.pdf)
+
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Спецификации
+
+#### Масляное давление
+
+Низкий холостый ход (минимум разрешен) 69 кПа[10 psi\] При номинальной скорости (минимум разрешен) 207 кПа[30 psi\)
+
+#### Регулируемое давление
+
+B3.9, B4.5 и B5.9 345 кПа \[50 psi\]B4.5 RGT 448 кПа \[65 psi\] до 517 кПа \[75 psi\]
+
+#### Масляная мощность стандартного двигателя
+
+#### Стандартный - только масляной пан
+
+B3.9 и B4.5 9.5 литров \[10 qt\]B4.5 RGT 11 литров \[11.6 qt\]B5.9 14.2 литров \[15 qt\]
+
+#### Масляная мощность стандартного двигателя
+
+#### Системные требования Standard Oil Pan
+
+B3.9 и B4.5 10.9 литров \[11.5 qt\]B4.5 RGT 13 литров \[13.7 qt\]B5.9 16.3 литров \[17.2 qt\]
+
+#### Масляная мощность стандартного двигателя
+
+#### Масло Пан Низкий - Высокий - Стандартный Пан
+
+B3.9 и B4.5 8,5-9,5 литра \[9-10 квт\]B4,5 RGT 9-11 литров \[9,6-11,6 квт\]B5,9 12-14,2 литра \[13-15 квт\]
+
+#### Масляная мощность стандартного двигателя
+
+#### Deep Sump - Oil Pan Only (только упаковка)
+
+B3.9 и B4.5 14.5 литров \[15.3 qt\]B4.5 RGT 16 литров \[16.9 qt\]B5.9 24.0 литров \[25.4 qt\]
+
+#### Масляная мощность стандартного двигателя
+
+#### Системные требования Deep Sump Oil Pan
+
+B3.9 и B4.5 15.9 литров \[16.8 qt\]B4.5 RGT 18 литров \[19.0 qt\] B5.9 26.1 литров \[27.6 qt\]
+
+#### Масляная мощность стандартного двигателя
+
+#### Масляной пан низкий - высокий - глубокий суп
+
+B3.9 и B4.5 11,5 до 14,5 литров \[12,1 до 15,3 квт\]B4,5 RGT 10 до 16 литров \[10,3 до 16,9 квт\]B5,9 16,5 до 24,0 литров \[17,4 до 25,4 квт\]
+
+> [!note] Примечание
+> Если тип/масляная емкость масляного поддон в **не** известна: Свяжитесь с местным дистрибьютором / дилером Cummins Определите мощность варианта масляной панели для двигателя, обслуживаемого с помощью QuickServe OnLine, и серийный номер двигателя Заполните смазочную масляную панель до самой маленькой емкости масляной панели, указанной для двигателя, обслуживаемого. Затем добавьте 0,95 литра \[1 квт\] масла за раз, пока оно не достигнет высокой отметки на измерителе уровня масла. Запишите количество добавленных кварт, чтобы мощность была известна при следующем сливе масла.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Specifications
+>
+> #### Oil Pressure
+>
+> Low Idle (minimum allowed) 69 kPa \[10 psi\]At Rated Speed (minimum allowed) 207 kPa \[30 psi\]
+>
+> #### Regulated Pressure
+>
+> B3.9, B4.5, and B5.9 345 kPa \[50 psi\]B4.5 RGT 448 kPa \[65 psi\] to 517kPa \[75 psi\]
+>
+> #### Oil Capacity of Standard Engine
+>
+> #### Standard - Oil Pan Only
+>
+> B3.9 and B4.5 9.5 liters \[10 qt\]B4.5 RGT 11 liters \[11.6 qt\]B5.9 14.2 liters \[15 qt\]
+>
+> #### Oil Capacity of Standard Engine
+>
+> #### Total System - Standard Oil Pan
+>
+> B3.9 and B4.5 10.9 liters \[11.5 qt\]B4.5 RGT 13 liters \[13.7 qt\]B5.9 16.3 liters \[17.2 qt\]
+>
+> #### Oil Capacity of Standard Engine
+>
+> #### Oil Pan Low - High - Standard Oil Pan
+>
+> B3.9 and B4.5 8.5 to 9.5 liters \[9 to 10 qt\]B4.5 RGT 9 to 11 liters \[9.6 to 11.6 qt\]B5.9 12 to 14.2 liters \[13 to 15 qt\]
+>
+> #### Oil Capacity of Standard Engine
+>
+> #### Deep Sump - Oil Pan Only
+>
+> B3.9 and B4.5 14.5 liters \[15.3 qt\]B4.5 RGT 16 liters \[16.9 qt\]B5.9 24.0 liters \[25.4 qt\]
+>
+> #### Oil Capacity of Standard Engine
+>
+> #### Total System - Deep Sump Oil Pan
+>
+> B3.9 and B4.5 15.9 liters \[16.8 qt\]B4.5 RGT 18 liters \[19.0 qt\] B5.9 26.1 liters \[27.6 qt\]
+>
+> #### Oil Capacity of Standard Engine
+>
+> #### Oil Pan Low - High - Deep Sump Oil Pan
+>
+> B3.9 and B4.5 11.5 to 14.5 liters \[12.1 to 15.3 qt\]B4.5 RGT 10 to 16 liters \[10.3 to 16.9 qt\]B5.9 16.5 to 24.0 liters \[17.4 to 25.4 qt\]
+>
+> **Note · Примечание**
+> If the type/oil capacity of the oil pan in **not** known: Contact a local Cummins Distributor/Dealer Determine the capacity of the oil pan option for the engine being serviced by using QuickServe OnLine and the engine serial number Fill the lubricating oil pan to the smallest oil pan capacity listed for the engine being serviced. Then add 0.95 liters \[1 qt\] of oil at a time until it reaches the high mark on the dipstick. Record the number of quarts added so that capacity is known the next time the oil is drained.

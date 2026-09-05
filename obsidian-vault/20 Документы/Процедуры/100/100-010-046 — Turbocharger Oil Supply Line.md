@@ -8,6 +8,7 @@ title_ru: "Маслоподводящая магистраль турбоком�
 modified: "2008-08-05"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-046.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-010-046.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-010-046.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Маслоподводящая магистраль турбокомпрессора**
 
 > [!abstract] Процедура · `100-010-046`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2008-08-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-046.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-010-046.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-010-046.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-010-046.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -45,7 +46,7 @@ tags:
 
 ### Первичная проверка
 
-Проверьте линию на наличие утечек или повреждений нефти. Заменить по мере необходимости.
+Проверьте линию на наличие утечек или повреждений масла. Заменить по мере необходимости.
 
 ![[10900116.png]]
 
@@ -76,7 +77,7 @@ tags:
 
 Установите линию подачи масла как на головке фильтра, так и на корпусе турбоподшипника.
 
-Затянуть линию подачи нефти до окончательного крутящего момента.
+Затянуть линию подачи масла до окончательного крутящего момента.
 
 > [!tip] Момент затяжки
 > 24 Н·м [212 фунт-дюйм]

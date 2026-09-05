@@ -9,21 +9,28 @@ released: "2019-04-29"
 modified: "2019-04-29"
 group: "05 - Fuel Systems (Pumps)"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 parts:
   - "3678611"
   - "5417125"
+  - "5417128"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190052.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190052.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190052.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2019"
   - "перевод/машинный"
   - "тема/fuel-systems-pumps"
@@ -34,10 +41,10 @@ tags:
 
 > [!abstract] TSB · `tsb190052`
 > **Раздел Cummins:** 05 - Fuel Systems (Pumps)
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2019-04-29 · изменён 2019-04-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190052.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb190052.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2019/tsb190052.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb190052.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -86,12 +93,12 @@ tags:
 |---|---|---|---|---|
 | Часть описание | Существующий номер детали | устарелый | Заменённый | Новый номер детали |
 | Манифольд, фюэль | 4381483 | Да | Да | [[5417125]] |
-| КРИН, ФИЛЬТЕР | - | Нет | Нет | 5417128 |
+| КРИН, ФИЛЬТЕР | - | Нет | Нет | [[5417128]] |
 | Плюг, испуганный | - | Нет | Нет | [[3678611]] |
 
-** Совместимость частей**
+**Совместимость частей**
 
-- Если двигатель оснащен вариантом топливного насоса FP6970, то впускной фильтр-сборник топливного насоса ** не** совместим.
+- Если двигатель оснащен вариантом топливного насоса FP6970, то впускной фильтр-сборник топливного насоса **не** совместим.
 
 **Статус в производстве**
 
@@ -111,6 +118,7 @@ tags:
 |---|---|---|
 | [[3678611]] | THREADED PLUG | Резьбовая пробка |
 | [[5417125]] | FUEL MANIFOLD | Топливная магистраль |
+| [[5417128]] | FILTER SCREEN | Сетчатый фильтр |
 
 > [!quote]- Original (English) · английский оригинал
 > ## New Fuel Pump Inlet Filter Screen
@@ -150,7 +158,7 @@ tags:
 > |---|---|---|---|---|
 > | Part Description | Existing Part Number | Obsolete | Superseded | New Part Number |
 > | MANIFOLD, FUEL | 4381483 | Yes | Yes | [[5417125]] |
-> | SCREEN, FILTER | - | No | No | 5417128 |
+> | SCREEN, FILTER | - | No | No | [[5417128]] |
 > | PLUG, THREADED | - | No | No | [[3678611]] |
 >
 > **Part Compatibility**

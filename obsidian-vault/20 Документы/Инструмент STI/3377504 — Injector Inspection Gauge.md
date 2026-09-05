@@ -10,13 +10,14 @@ modified: "2013-03-12"
 revision: "1"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377504.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377504.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3377504.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/NT/NTA855"
@@ -27,10 +28,10 @@ tags:
 **Калибр для проверки форсунок**
 
 > [!abstract] Инструкция по инструменту · `3377504`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Даты:** выпущен 2013-03-12 · изменён 2013-03-12 · ревизия 1
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377504.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377504.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377504.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3377504.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -64,7 +65,7 @@ tags:
 | 7 | 3823266 | форсунка Plunger Ball | 1 |
 
 > [!note] Примечание
-> ** Не включено в этот комплект: Обновление комплекта для 91N14, L10 и раннего M11, номер детали 3823860.
+> Не включено в этот комплект: Обновление комплекта для 91N14, L10 и раннего M11, номер детали 3823860.
 
 #### Работа
 

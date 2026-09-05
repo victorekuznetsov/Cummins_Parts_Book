@@ -17,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-025-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-007-025-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-007-025-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2025-10-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-025-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-007-025-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-025-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-007-025-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -86,23 +86,23 @@ tags:
 ![[op2bdea.png]]
 
 > [!note] Примечание
-> Если обнаружены трещины, замените поврежденную часть. **Не пытайтесь отремонтировать масляную поддонную сварку.
+> Если обнаружены трещины, замените поврежденную часть. Не пытайтесь отремонтировать масляную поддонную сварку.
 
 Осмотрите масляную кастрюлю, всасывающую трубку и монтажную кронштейн для трещин и других повреждений.
 
 ![[07a00021.png]]
 
 > [!note] Примечание
-> Если резьбовые отверстия можно **не** отремонтировать с помощью кранов, перечисленных в таблице ниже, масляную поддонную панель *** необходимо заменить.
+> Если резьбовые отверстия можно **не** отремонтировать с помощью кранов, перечисленных в таблице ниже, масляную поддонную панель необходимо заменить.
 
 Осмотрите резьбовые отверстия на предмет повреждений. Поврежденные резьбы можно преследовать следующими кранами.
 
-| ** Нефтяные стружки** |  |
+| **Масляные стружки** |  |
 |---|---|
 | Расположение нитки | Размер кнопок |
 | Измеритель температуры | М14 |
 | Обогреватель масляного отвода | M33 |
-| Слив нефти | M27 |
+| Слив масла | M27 |
 | Прелюб | M33 |
 
 ![[07a00112.png]]

@@ -17,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-173.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-173.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-173.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2003-11-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-173.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-173.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-173.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-173.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,11 +52,11 @@ tags:
 
 Удалите шланг (1) с верхней части соленоида.
 
-При удержании соленоидного ореха (3) ослабить и удалить 3/8-24 SAE o-кольцевой адаптер (2).
+При удержании соленоидного гайки (3) ослабить и удалить 3/8-24 SAE o-кольцевой адаптер (2).
 
 ![[05800071.png]]
 
-Освободить и удалить соленоид, удерживающий орех (1).
+Освободить и удалить соленоид, удерживающий гайка (1).
 
 Поднимите и удалите соленоидную крышку и соленоид (2) из клапана.
 
@@ -70,7 +70,7 @@ tags:
 
 Смазать и установить новое о-кольцо (5) на соленоидное крепление.
 
-Установите два стиральных / прокладочных устройства (4) и пружинную стиральную машину (3).
+Установите два шайбых / прокладочных устройства (4) и пружинную шайбу (3).
 
 Поместите новый соленоид и крышку (2) на крепление клапана.
 

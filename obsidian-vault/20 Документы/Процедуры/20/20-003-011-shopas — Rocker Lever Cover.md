@@ -8,6 +8,7 @@ title_ru: "Крышка коромысел"
 modified: "2018-11-20"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-011-shopas.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-003-011-shopas.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-011-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Крышка коромысел**
 
 > [!abstract] Процедура · `20-003-011-shopas`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section AS - Engine Assembly - Group 00
 > **Даты:** изменён 2018-11-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-011-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-003-011-shopas.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-003-011-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-003-011-shopas.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -101,7 +102,7 @@ tags:
 
 Подключите проводку топливного форсунка к кронштейну, сползая на кронштейн до тех пор, пока электрическое соединение не заблокируется в положение.
 
-Если функция блокировки электрического соединения отсутствует, используйте кабельный галстук, Номер детали 3822924 или эквивалент, чтобы закрепить проводку в скобке.
+Если функция блокировки электрического соединения отсутствует, используйте кабельный стяжка, Номер детали 3822924 или эквивалент, чтобы закрепить проводку в скобке.
 
 ![[03400169.png]]
 
@@ -109,7 +110,7 @@ tags:
 
 Для двигателей с задним турбокомпрессором:
 
-Установите два новых проволочных галстука из нержавеющей стали (1), чтобы обеспечить подключение датчика скорости турбокомпрессора к турбокомпрессору
+Установите два новых проволочных стяжки из нержавеющей стали (1), чтобы обеспечить подключение датчика скорости турбокомпрессора к турбокомпрессору
 
 Установите P-затворы, которые обеспечивают проводку датчика скорости турбокомпрессора к крышке топливного форсунка (2) и к крышке рычага клапанного клапана (3).
 

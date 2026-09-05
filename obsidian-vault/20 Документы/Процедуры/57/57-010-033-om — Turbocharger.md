@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-010-033-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-010-033-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-010-033-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section 6 - Maintenance Procedures at 6000 Hours or 2 Years · Section 7 - Maintenance Procedures at 6000 Hours or 2 Years
 > **Даты:** изменён 2026-05-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-010-033-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-010-033-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-010-033-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-010-033-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,9 +52,9 @@ tags:
 
 Ищите поврежденные или трещины компрессора или лопасти турбины.
 
-Вал турбокомпрессора ** должен** вращаться свободно.
+Вал турбокомпрессора **должен** вращаться свободно.
 
-** не должно быть никакого контакта между компрессорными/турбинными колесами и корпусом при использовании давления легкого пальца.
+не должно быть никакого контакта между компрессорными/турбинными колесами и корпусом при использовании давления легкого пальца.
 
 Если проверка указывает на проблему, обратитесь за помощью в авторизованное место ремонта Cummins®. Используйте номер модели на табличке данных турбокомпрессора в качестве ссылки.
 

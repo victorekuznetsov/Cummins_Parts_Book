@@ -11,10 +11,10 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from common import frontmatter, write_note
+from common import SRC, frontmatter, write_note
 
-FLEET = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                     "fleet")
+# списки парка лежат в корне репозитория (fleet/), а не рядом с хранилищем
+FLEET = os.path.join(SRC, "fleet")
 FOLDER = "11 Машины/Парк"
 
 

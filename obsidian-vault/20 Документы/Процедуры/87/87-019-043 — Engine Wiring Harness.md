@@ -17,7 +17,7 @@ figures: 49
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-043.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-019-043.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-019-043.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2018-08-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-019-043.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-019-043.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -91,7 +91,7 @@ tags:
 
 ![[19a00334.png]]
 
-Разрежьте галстуки на кронштейне корпуса термостата, трубке послеохладителя и топливной трубке.
+Разрежьте стяжки на кронштейне корпуса термостата, трубке послеохладителя и топливной трубке.
 
 ![[19801067.png]]
 
@@ -191,7 +191,7 @@ tags:
 
 ![[19a00334.png]]
 
-Установите галстуки на кронштейн корпуса термостата, трубку послеохладителя и топливную трубку.
+Установите стяжки на кронштейн корпуса термостата, трубку послеохладителя и топливную трубку.
 
 ![[19801067.png]]
 

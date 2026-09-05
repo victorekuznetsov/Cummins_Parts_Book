@@ -8,6 +8,7 @@ title_ru: "Поршень с шатуном в сборе"
 modified: "2014-08-20"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-054-shopds.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-054-shopds.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-054-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Поршень с шатуном в сборе**
 
 > [!abstract] Процедура · `20-001-054-shopds`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section DS - Engine Disassembly - Group 00
 > **Даты:** изменён 2014-08-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-054-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-054-shopds.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-054-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-054-shopds.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -80,7 +81,7 @@ tags:
 
 ![[01400002.png]]
 
-Соединяющие стержни ** должны ** иметь номер цилиндра, помеченный как на стержне, так и на крышке сбоку, расположенной по направлению к распределительному валу. Проверьте стержни на наличие правильной маркировки. Используйте стальную марку и пометьте любой стержень, который ** не** правильно помечен.
+Соединяющие стержни **должны **иметь номер цилиндра, помеченный как на стержне, так и на крышке сбоку, расположенной по направлению к распределительному валу. Проверьте стержни на наличие правильной маркировки. Используйте стальную марку и пометьте любой стержень, который **не** правильно помечен.
 
 Освободите болты до тех пор, пока не будет 6 мм \[1/4 в\] зазора между крышкой стержня и головкой болтов.
 
@@ -94,7 +95,7 @@ tags:
 
 ![[cx400mb.png]]
 
-Установите два соединительных направляющих штифта, номер детали 3375098, или эквивалент, в соединительный штифт. Подтолкните поршень и шатун вверх, пока поршневые кольца не окажутся над цилиндрическим лайнером.
+Установите два соединительных направляющих штифта, номер детали 3375098, или эквивалент, в соединительный штифт. Подтолкните поршень и шатун вверх, пока поршневые кольца не окажутся над цилиндрическим гильзой.
 
 ![[cx400mc.png]]
 

@@ -8,6 +8,7 @@ title_ru: "Дополнительная сервисная литература"
 modified: "2002-06-03"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -15,7 +16,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-205-001.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-205-001.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-205-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -27,12 +28,12 @@ tags:
 **Дополнительная сервисная литература**
 
 > [!abstract] Процедура · `82-205-001`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section L - Service Literature
 > **Даты:** изменён 2002-06-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-205-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-205-001.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-205-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-205-001.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +55,7 @@ tags:
 | 3387622 | Холодная погода Операция |
 | 3666209 | Система охлаждения для обслуживания расширенный интервал |
 | 3666132 | Требования к охлаждению и техническому обслуживанию |
-| 3666322 | Руководство по устранению неполадок и ремонту, двигатели серии ISM и QSM11 |
+| [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] | Руководство по устранению неполадок и ремонту, двигатели серии ISM и QSM11 |
 | 3666075 | Руководство по магазинам, двигатели серии M11 |
 | 3666404 | Руководство по эксплуатации и техническому обслуживанию, QSM11 Морской и промышленный |
 | 3666413 | QSM11 Индустриальная схема проводов |
@@ -76,7 +77,7 @@ tags:
 > | 3387622 | Cold Weather Operation |
 > | 3666209 | Cooling System Maintenance Extended Interval |
 > | 3666132 | Coolant Requirements and Maintenance |
-> | 3666322 | Troubleshooting and Repair Manual, ISM and QSM11 Series Engines |
+> | [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] | Troubleshooting and Repair Manual, ISM and QSM11 Series Engines |
 > | 3666075 | Shop Manual, M11 Series Engines |
 > | 3666404 | Operation and Maintenance Manual, QSM11 Marine and Industrial |
 > | 3666413 | QSM11 Industrial Wiring Diagram |

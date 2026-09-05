@@ -7,42 +7,81 @@ title_en: "Electromagnetic Interference (EMI)"
 title_ru: "Электромагнитные помехи (EMI)"
 modified: "2023-02-13"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "33239746"
   - "33239899"
+  - "35354607"
+  - "35373113"
   - "37292556"
   - "37295879"
   - "41343322"
   - "41349633"
+  - "41353297"
+  - "41370103"
+  - "71156161"
+  - "80141463"
+  - "80248213"
+  - "85017333"
+  - "93047320"
   - "93058669"
+  - "93087701"
 families:
+  - "6B5.9"
   - "C8.3 · 6C8.3"
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "NT/NTA855 · ISM/QSM11"
   - "QSK19"
+  - "QSK23"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
+  - "QSM11"
   - "QST30"
+  - "QSX15"
 manuals:
   - "2883407"
   - "3381968"
   - "3666120"
   - "3666134"
+  - "3666251"
+  - "3666260"
+  - "3666423"
   - "3667180"
   - "3810497"
   - "4021330"
+  - "4021374"
+  - "4021389"
+  - "4021391"
   - "4021631"
+  - "4021939"
+  - "4021940"
+  - "4021941"
+  - "4021942"
   - "4915514"
   - "4915520"
+  - "4915528"
+  - "4915540"
   - "4915548"
+  - "4915552"
+  - "4960314"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-002.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-002.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-002.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/C8.3"
   - "двигатель/K38/K50"
   - "двигатель/NT/NTA855"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
+  - "двигатель/QSM11"
   - "двигатель/QST30"
+  - "двигатель/QSX15"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -51,12 +90,12 @@ tags:
 **Электромагнитные помехи (EMI)**
 
 > [!abstract] Процедура · `99-101-002`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, QSK60, NT/NTA855 · ISM/QSM11, QSK19, QST30
-> **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]], [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]], [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]], [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive|4021631]], [[4915514 — C8.3 Recreational Marine Owners Manual|4915514]], [[4915520 — QST30 Owners Manual|4915520]], [[4915548 — C8.3 Commercial Marine and Industrial Owners Manual|4915548]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[41370103 — NH NT 855 CPL 3362|41370103]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[85017333 — QSK23 CM500 CPL 2858|85017333]], [[93047320 — 6B5.9 CPL 3111|93047320]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** 6B5.9, C8.3 · 6C8.3, K38/K50 · QSK38, QSK50, NT/NTA855 · ISM/QSM11, QSK19, QSK23, QSK60, QSK60 CM2150 MCRS, QSM11, QST30, QSX15
+> **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]], [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666251 — Signature and ISX Operation and Maintenance Manual|3666251]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[3666423 — QSX15 Operation and Maintenance Manual|3666423]], [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]], [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]], [[4021389 — B3.9, B4.5, B5.9 Industrial Operation and Maintenance Manual|4021389]], [[4021391 — B3.9, B4.5, and B5.9 Industrial Owners Manual|4021391]], [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive|4021631]], [[4021939 — QSM11 Marine Owners Manual|4021939]], [[4021940 — QSM11 Marine Operation and Maintenance Manual|4021940]], [[4021941 — QSM11 Industrial Owners Manual|4021941]], [[4021942 — QSM11 Industrial Operation and Maintenance Manual|4021942]], [[4915514 — C8.3 Recreational Marine Owners Manual|4915514]], [[4915520 — QST30 Owners Manual|4915520]], [[4915528 — QSK45 and QSK60 Owners Manual|4915528]], [[4915540 — QSX15 Owners Manual|4915540]], [[4915548 — C8.3 Commercial Marine and Industrial Owners Manual|4915548]], [[4915552 — QSK23 Owners Manual|4915552]], [[4960314 — ISX Owners Manual|4960314]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2023-02-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-002.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-002.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -68,7 +107,7 @@ tags:
 
 ### Общие сведения
 
-Некоторые приложения используют аксессуары (такие как CB-радиоприемники, мобильные передатчики и т. Д.), Если ** не** установлена и используется правильно, радиочастотная энергия, генерируемая этими аксессуарами, может вызвать электромагнитные помехи (EMI) условия, чтобы существовать между аксессуаром и системами с электронным управлением Cummins®. Cummins Inc. ** не несет ответственности за любые проблемы с производительностью с помощью систем с электронным управлением или аксессуара, вызванные EMI. EMI не рассматривается Cummins Inc. быть неисправностью системы и, следовательно, ** не является** оправданным.
+Некоторые приложения используют аксессуары (такие как CB-радиоприемники, мобильные передатчики и т. Д.), Если **не** установлена и используется правильно, радиочастотная энергия, генерируемая этими аксессуарами, может вызвать электромагнитные помехи (EMI) условия, чтобы существовать между аксессуаром и системами с электронным управлением Cummins®. Cummins Inc. **не несет ответственности за любые проблемы с производительностью с помощью систем с электронным управлением или аксессуара, вызванные EMI. EMI не рассматривается Cummins Inc. быть неисправностью системы и, следовательно, **не является оправданным.
 
 ### Системная восприимчивость EMI
 

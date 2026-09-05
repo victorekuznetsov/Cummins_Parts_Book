@@ -8,6 +8,7 @@ title_ru: "Спецификации фильтров Cummins®/Fleetguard®"
 modified: "2013-08-06"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -20,7 +21,7 @@ parts:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-018-024.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-018-024.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-018-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -32,12 +33,12 @@ tags:
 **Спецификации фильтров Cummins®/Fleetguard®**
 
 > [!abstract] Процедура · `20-018-024`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section V - Maintenance Guidelines · Section V - Maintenance Specifications · Section V - Specifications
 > **Даты:** изменён 2013-08-06
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-018-024.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-018-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-018-024.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,13 +54,13 @@ Fleetguard является дочерней компанией Cummins Inc. Ф�
 
 Продукты Fleetguard® соответствуют всем требованиям Cummins Inc. Стандарты испытаний на источник для обеспечения качественной фильтрации, необходимой для достижения срока службы двигателя. Если другие бренды заменяются, покупатель должен настаивать на продуктах, которые поставщик протестировал для удовлетворения потребностей Cummins Inc. Высокие стандарты качества.
 
-Cummins Inc. ** не может быть ответственным за проблемы, вызванные ненастоящими фильтрами, которые не соответствуют Cummins Inc. Требования к производительности или долговечности.
+Cummins Inc. не может быть ответственным за проблемы, вызванные ненастоящими фильтрами, которые не соответствуют Cummins Inc. Требования к производительности или долговечности.
 
-При использовании фильтра моторного масла (полный поток) также должен использоваться фильтр моторного масла (обходной фильтр) ***.
+При использовании фильтра моторного масла (полный поток) также должен использоваться фильтр моторного масла (обходной фильтр).
 
 | Фильтры для двигателей с механическим топливным форсункой |  |  |
 |---|---|---|
-| Cummins® Part Number | Fleetguard - Часть номер | Фильтр Стиль |
+| Cummins® Part Number | Fleetguard - Номер детали | Фильтр Стиль |
 | [[3889310]] | LF670 | Фильтр моторного масла (полный поток) |
 | [[3889311]] | LF777 | Фильтр моторного масла (обходной) |
 | 3318853 | LF3000 | Фильтр моторного масла (комбинация) |
@@ -69,7 +70,7 @@ Cummins Inc. ** не может быть ответственным за про�
 
 | Фильтры для двигателей с электронным топливным форсункой |  |  |
 |---|---|---|
-| Cummins® Part Number | Fleetguard - Часть номер | Фильтр Стиль |
+| Cummins® Part Number | Fleetguard - Номер детали | Фильтр Стиль |
 | 3101869 | LF9001 | Фильтр моторного масла (Venturi Combo) |
 | [[3100308]] | WF2075 | Фильтр охлаждающей жидкости |
 | 2881458 (1) | FF5782 (1) | Фильтр топлива, стадия 2 (СМИ NanoNetTM) |
@@ -89,7 +90,7 @@ Cummins Inc. ** не может быть ответственным за про�
 | WF2071 | 4 | WF2051 | 4 |
 | WF2072 | 6 | WF2052 | 6 |
 | WF2073 | 8 | WF2053 | 8 |
-| WF2074 | 12 | ** Недоступно* | 12 |
+| WF2074 | 12 | Недоступно* | 12 |
 | WF2075 | 15 | WF2054 | 15 |
 | WF2076 | 23 | WF2055 | 23 |
 | WF2077 | (полосатый фильтр без SCA) | WF2077 | (полосатый фильтр без SCA) |

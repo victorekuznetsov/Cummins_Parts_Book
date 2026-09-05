@@ -9,10 +9,14 @@ released: "2012-03-16"
 modified: "2012-06-25"
 group: "06 - Injectors and Fuel Lines"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 parts:
   - "2862797"
   - "2862800"
@@ -26,10 +30,12 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120052.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120052.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120052.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2012"
   - "перевод/машинный"
   - "тема/injectors-and-fuel-lines"
@@ -40,10 +46,10 @@ tags:
 
 > [!abstract] TSB · `tsb120052`
 > **Раздел Cummins:** 06 - Injectors and Fuel Lines
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2012-03-16 · изменён 2012-06-25
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120052.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120052.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120052.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120052.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -83,7 +89,7 @@ tags:
 
 | QSK38 MCRS с топливным форсункой с электронным приводом |  |  |  |
 |---|---|---|---|
-| **Новый номер** | ** Старый номер** | ** Описание места** | **Впервые** |
+| **Новый номер** | **Старый номер** | **Описание места** | **Впервые** |
 | [[2862797]] | 4924664 | MDV заправляет дренажный блок | 33192055 |
 | [[2862800]] | 4928091 | FPPA заправляет дренажный блок | 33192055 |
 | 2862846 | 4928090 | форсунка Drain from Cylinder Block to Fuel Drain Block | 33192055 |
@@ -93,7 +99,7 @@ tags:
 
 | QSK50 MCRS с топливным форсункой с электронным приводом |  |  |  |
 |---|---|---|---|
-| **Новый номер** | ** Старый номер** | ** Описание места** | **Впервые** |
+| **Новый номер** | **Старый номер** | **Описание места** | **Впервые** |
 | [[2862797]] | 4924664 | MDV заправляет дренажный блок | 33190519 |
 | [[2862800]] | 4927608 | FPPA заправляет дренажный блок | 33190519 |
 | [[4970295]] | 4924275 | форсунка Drain from Cylinder Block to Fuel Drain Block | 33190519 |
@@ -102,7 +108,7 @@ tags:
 
 | QSK60 MCRS с топливным форсункой с электронным приводом |  |  |  |
 |---|---|---|---|
-| **Новый номер** | ** Старый номер** | ** Описание места** | **Впервые** |
+| **Новый номер** | **Старый номер** | **Описание места** | **Впервые** |
 | [[4970292]] | 4924792 | MDV заправляет дренажный блок | 33191928 |
 | [[3646242]] | 4927530 | FPPA заправляет дренажный блок | 33191928 |
 | [[2866775]] | 4924793 | форсунка Drain from Cylinder Block to Fuel Drain Block | 33191928 |

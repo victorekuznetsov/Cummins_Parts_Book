@@ -9,21 +9,37 @@ released: "2020-07-17"
 modified: "2020-09-24"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
 parts:
+  - "3639554"
+  - "3639672"
+  - "4016423"
+  - "4328041"
   - "4328043"
+  - "4331734"
   - "4379736"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/5659817.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/5659817.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/5659817.pdf"
 tags:
   - "документ/бюллетень"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "перевод/машинный"
   - "тема/complete-engine-troubleshooting"
 ---
@@ -33,10 +49,10 @@ tags:
 
 > [!abstract] Сервисный бюллетень · `5659817`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2020-07-17 · изменён 2020-09-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/5659817.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/bulletin/5659817.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/bulletin/5659817.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/bulletin/5659817.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -94,25 +110,25 @@ tags:
 > [!note] Примечание
 > Перед принятием этой информации конечный пользователь обязан связаться с дистрибьютором или фильтрацией Cummins, чтобы полностью понять информацию. Cummins Inc. не несет ответственности за неточную передачу этой процедуры и невыполнение Гарантии Cummins.
 
-** Расширенный интервал обслуживания для программных требований локомотивных приложений Раздел 1: Оценка сайта**
+**Расширенный интервал обслуживания для программных требований локомотивных приложений Раздел 1: Оценка сайта**
 
 Оборудование, место, условия эксплуатации и окружающая среда влияют на возможность увеличения интервалов технического обслуживания. Изготовление и модель оборудования, строгая практика технического обслуживания на объекте, более высокие и низкие нагрузки, длительные периоды холостого хода, а также погодные и экологические экстремальные условия, такие как влажные, пыльные, замерзающие и горячие работы, могут потребовать более частого технического обслуживания, чем указано в Руководстве по техническому обслуживанию.
 
 Оценка сайта должна быть завершена, чтобы обеспечить успех с этой расширенной программой интервалов обслуживания. Чтобы запланировать оценку сайта, свяжитесь с местным дистрибьютором Cummins или фильтрацией Cummins.
 
-** Раздел 2: Спецификации по текучести**
+**Раздел 2: Спецификации по текучести**
 
 > [!note] Примечание
 > Любые отклонения от жидкостей (моторное масло, топливо, охлаждающая жидкость) и спецификаций фильтра, как определено в этом бюллетене службы, аннулируют использование этого бюллетеня расширенной службы. Жидкость и фильтры, не соответствующие требованиям, перечисленным в настоящем документе, должны соответствовать стандартным интервалам технического обслуживания, определенным в соответствующем Руководстве по эксплуатации и техническому обслуживанию.
 
 Требования к смазочному маслу
 
-- Моторное масло ** должно** соответствовать требованиям, установленным Cummins Inc.
-- Используемое моторное масло ** должно быть зарегистрировано в Регистрационном списке Cummins Oil. **Примечание: ** https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/oil\_registration.html
-- Интервалы слива моторного масла ** должны *** следовать интервалам, указанным в соответствующем Руководстве по эксплуатации и техническому обслуживанию, если только расширенные интервалы слива не доказаны протоколом испытаний, описанным в этом бюллетене.
+- Моторное масло **должно** соответствовать требованиям, установленным Cummins Inc.
+- Используемое моторное масло **должно быть зарегистрировано в Регистрационном списке Cummins Oil. **Примечание: https://quickserve.cummins.com/qs3/qsol/service/serviceproducts/oil\_registration.html
+- Интервалы слива моторного масла **должны **следовать интервалам, указанным в соответствующем Руководстве по эксплуатации и техническому обслуживанию, если только расширенные интервалы слива не доказаны протоколом испытаний, описанным в этом бюллетене.
 
 > [!note] Примечание
-> Во время тестирования лучше всего смешивать два типа или марки масла, даже если оба зарегистрированы в соответствующей спецификации Cummins. В некоторых случаях было отмечено, что смешивание масел приводит к проблемам в интерпретации последствий оттока расширенной нефти из смеси масел.
+> Во время тестирования лучше всего смешивать два типа или марки масла, даже если оба зарегистрированы в соответствующей спецификации Cummins. В некоторых случаях было отмечено, что смешивание масел приводит к проблемам в интерпретации последствий оттока расширенной масла из смеси масел.
 
 Требования к топливу
 
@@ -127,22 +143,22 @@ tags:
 - Могут использоваться только топливные добавки, которые не продемонстрировали негативного влияния на топливный фильтр или срок службы топливной системы.
 - Если используется зимняя, холодная погода или топливо на большой высоте:
 - Если используется биотопливо:
-- Если содержание серы в топливе превышает 15 ppm, интервалы слива моторного масла ** должны быть проверены с использованием процедуры, описанной в разделе 6.
+- Если содержание серы в топливе превышает 15 ppm, интервалы слива моторного масла должны быть проверены с использованием процедуры, описанной в разделе 6.
 - Если содержание серы в топливе превышает 500 ppm, то длительные интервалы слива не поддерживаются.
 
 Требования к охлаждению
 
 > [!note] Примечание
-> **Не смешивайте два типа продуктов или брендов.
+> Не смешивайте два типа продуктов или брендов.
 
 > [!note] Примечание
 > **не** поверх системы охлаждения с водой или обычной охлаждающей жидкостью.
 
-- Охлаждение ** должно соответствовать требованиям, установленным Cummins Inc.
-- Используемые охладители должны быть зарегистрированы в Регистрационном списке охладителей Cummins и в соответствии со спецификацией CES 14603 и должны быть полностью сформулированы предварительно смешанные охлаждающие жидкости с органической кислотой (OAT). Справочный регистрационный список охлаждающих жидкостей. **Примечание: ** https://quickserve.cummins.com/qs3/qsolIservice/serviceproducts/coolant\_registration.html
+- Охлаждение должно соответствовать требованиям, установленным Cummins Inc.
+- Используемые охладители должны быть зарегистрированы в Регистрационном списке охладителей Cummins и в соответствии со спецификацией CES 14603 и должны быть полностью сформулированы предварительно смешанные охлаждающие жидкости с органической кислотой (OAT). Справочный регистрационный список охлаждающих жидкостей. **Примечание: **https://quickserve.cummins.com/qs3/qsolIservice/serviceproducts/coolant\_registration.html
 - Было доказано, что следующие охлаждающие жидкости способны удовлетворять расширенным интервалам слива:
 
-** Раздел 3: Мониторинг жидкостей и фильтров**
+**Раздел 3: Мониторинг жидкостей и фильтров**
 
 В этом разделе представлены руководящие принципы и требования по сбору, мониторингу, флагу, действию и анализу жидкостей и фильтров двигателя, которые предоставляют информацию для руководства программой расширенного интервала обслуживания локомотивных приложений.
 
@@ -154,20 +170,20 @@ tags:
 Отбор проб и анализ топлива:
 
 - Для двигателя с высоким давлением (HPI), Cummins Inc. Рекомендуется брать образцы топлива непосредственно из оборудования транспортного средства на входе в всасывающий боковой топливный фильтр.
-- Для двигателей с модульной общей железнодорожной системой (MCRS) образцы ** должны ** ссылаться на Bulletin 4022123, Fuel Sampling for Particle Counting Test.
+- Для двигателей с модульной общей железнодорожной системой (MCRS) образцы **должны **ссылаться на Bulletin 4022123, Fuel Sampling for Particle Counting Test.
 - Если образец топлива не соответствует указанным требованиям, повторно посетите аудит сайта, чтобы определить возможности для улучшения качества топлива.
 
 Анализ пробы охлаждающих жидкостей:
 
 - См. соответствующее Руководство по эксплуатации и техническому обслуживанию, в разделе V - техническое обслуживание и спецификация, процедура 018-004 Рекомендации и спецификации по охлаждению
-- Если молибдат, нитрит и рН находятся в пределах спецификации, изучите методы технического обслуживания и отправьте образец охлаждающей жидкости для проверки загрязнения. Охлаждение** должно быть заменено. См. соответствующее Руководство по обслуживанию. Справочная процедура 008-018 Система охлаждения.
-- Если молибдат, нитрит и рН находятся в пределах спецификации, изучите методы технического обслуживания и отправьте образец охлаждающей жидкости для проверки загрязнения. Охлаждение** должно быть заменено. См. соответствующее Руководство по обслуживанию. Справочная процедура 008-018 Система охлаждения.
+- Если молибдат, нитрит и рН находятся в пределах спецификации, изучите методы технического обслуживания и отправьте образец охлаждающей жидкости для проверки загрязнения. Охлаждение должно быть заменено. См. соответствующее Руководство по обслуживанию. Справочная процедура 008-018 Система охлаждения.
+- Если молибдат, нитрит и рН находятся в пределах спецификации, изучите методы технического обслуживания и отправьте образец охлаждающей жидкости для проверки загрязнения. Охлаждение должно быть заменено. См. соответствующее Руководство по обслуживанию. Справочная процедура 008-018 Система охлаждения.
 
 В таблицах 1 и 2 ниже указан анализ жидкости, который должен быть выполнен во время работы при использовании расширенных интервалов обслуживания.
 
 | **Таблица 1, Требования к анализу проб жидкости двигателя** |  |  |  |
 |---|---|---|---|
-| ** Жидкость** | ** Интервал выборки** | ** Предложенный метод и месторасположение** | ** Целевой и измерительный пакет** |
+| **Жидкость** | **Интервал выборки** | **Предложенный метод и месторасположение** | **Целевой и измерительный пакет** |
 | Моторное масло | 250 часов | В бюллетене 4022060 по обслуживанию: Собирайте образец масла из порта под давлением во время холостого хода двигателя или вакуумным насосом через измерительную трубку для измерения уровня масла в смазке. | Тест 1 на качество масла и загрязняющих веществ: |
 | Элементальные металлы индуктивно связной плазмы (ICP) |  |  |  |
 | • Вязкость при 100°C \[212°F \] |  |  |  |
@@ -180,7 +196,7 @@ tags:
 | • Сульфат |  |  |  |
 | • Хлорид, фторид, бромид |  |  |  |
 | • pH |  |  |  |
-| • Нефть и топливные загрязнители |  |  |  |
+| • Масло и топливные загрязнители |  |  |  |
 | • Смазка, цветение припоя, силикагель, ржавчина или чешуя |  |  |  |
 | охлаждающий | каждые 6 месяцев | Путем вакуумного насоса через крышку заливки радиатора или через быстрое заполнение I дренажный порт | Тест на уровень гликола: |
 | • Набор для испытаний охлаждающей жидкости, бортовой номер CC8997 |  |  |  |
@@ -232,19 +248,19 @@ tags:
 
 Для получения дополнительной информации о Fleetguard® MonitorTM, см. CumminsFiltration.com.
 
-** Раздел 4: Первоначальные обновления оборудования и текущие требования к фильтру **
+**Раздел 4: Первоначальные обновления оборудования и текущие требования к фильтру**
 
 > [!note] Примечание
 > Руководящие принципы и требования, содержащиеся в настоящем бюллетене, могут быть изменены без предварительного уведомления. Проконсультируйтесь с местным дистрибьютором или фильтрацией Cummins.
 
 > [!note] Примечание
-> Перед принятием этой информации конечный пользователь обязан связаться с дистрибьютором или фильтрацией Cummins, чтобы полностью понять информацию. Cummins Inc. ** не несет ответственности за неточную обработку этой процедуры и невыполнение Гарантии Cummins.
+> Перед принятием этой информации конечный пользователь обязан связаться с дистрибьютором или фильтрацией Cummins, чтобы полностью понять информацию. Cummins Inc. не несет ответственности за неточную обработку этой процедуры и невыполнение Гарантии Cummins.
 
 > [!note] Примечание
 > Неисправности, которые могут возникнуть в результате установки или использования вспомогательных устройств, аксессуаров или расходных материалов другого производителя, не подпадают под действие гарантии Cummins®.
 
 > [!note] Примечание
-> Любые отклонения от спецификаций на жидкость и фильтр, как определено в этом бюллетене, аннулируют использование этого бюллетеня расширенного обслуживания. Жидкость и фильтры ** не**, отвечающие требованиям, перечисленным в настоящем документе **, должны** следовать стандартным интервалам технического обслуживания, определенным в соответствующем Руководстве по эксплуатации и техническому обслуживанию.
+> Любые отклонения от спецификаций на жидкость и фильтр, как определено в этом бюллетене, аннулируют использование этого бюллетеня расширенного обслуживания. Жидкость и фильтры **не**, отвечающие требованиям, перечисленным в настоящем документе**, должны** следовать стандартным интервалам технического обслуживания, определенным в соответствующем Руководстве по эксплуатации и техническому обслуживанию.
 
 Для увеличения интервалов технического обслуживания требуется следующее:
 
@@ -258,13 +274,13 @@ tags:
 
 Выполните следующие проверки:
 
-1. Предел отливки крышки центрифуги был скорректирован для размещения нового центробежного фильтра. На крышках центрифуг с скорректированной допуском проштампована буква «V». Если на крышке центрифуги не проштампована буква "V", заменить крышку центрифуги крышкой центрифуги, Часть 4016423, проштампованной буквой "V" или измельчить/заполнить любые высокие пятна, обнаруженные на линии разъединения на внутренней стороне крышки центрифуги.
+1. Предел отливки крышки центрифуги был скорректирован для размещения нового центробежного фильтра. На крышках центрифуг с скорректированной допуском проштампована буква «V». Если крышка центрифуги не проштампована буквой "V", заменить крышку центрифуги крышкой центрифуги, Часть Номер[[4016423]], проштампованный буквой «V» или измельчить/заполнить любые высокие пятна, найденные на линии разъединения на внутренней стороне крышки центрифуги.
 2. Измерьте зазор между шпинделем и втулками внутри цельного центробежного фильтра моторного масла, замените шпиндель, если он находится за пределами указанных пределов. Справочный бюллетень 3666253.
 
-| ** Таблица 3, Номера деталей фильтра для фильтрации масла в центрифуге или удаленной центрифуги** |  |  |  |
+| **Таблица 3, Номера деталей фильтра для фильтрации масла в центрифуге или удаленной центрифуги** |  |  |  |
 |---|---|---|---|
-| ** Модели двигателей** | **Описание** | **Cummins® Part Numbers** | ** Флотгард® Часть Номер** |
-| QSK50 (Все версии) QSK60 (Все версии) | Однопицевый центробежный фильтр с технологией SpiraTecTM | 4331734 | CS41018 |
+| **Модели двигателей** | **Описание** | **Cummins® Part Numbers** | **Флотгард® Часть Номер** |
+| QSK50 (Все версии) QSK60 (Все версии) | Однопицевый центробежный фильтр с технологией SpiraTecTM | [[4331734]] | CS41018 |
 | QSK78 (все версии) | Однопицевый центробежный фильтр с технологией SpiraTecTM | 3649569 | CS41019 |
 
 Топливные фильтры
@@ -273,12 +289,12 @@ tags:
 
 Для двигателей с модульной общей системой рельсового топлива (MCRS) этап 1 и этап 2 фильтрации, как показано в таблице 4. Справочные инструкции по установке, входящие в комплект с топливными фильтрами.
 
-| ** Таблица 4, головка крепления топливного фильтра и номера частей элемента топливного фильтра** |  |  |  |  |  |  |  |  |
+| **Таблица 4, головка крепления топливного фильтра и номера частей элемента топливного фильтра** |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|
-| ** Модели двигателей** | **Фильтрационная стадия** | **Описание** | ** Количество** | **Численная часть номера** | ** Номер детали самолета** | ** Количество** | **Численная часть номера** | ** Номер детали самолета** |
-| QSK38 (Все версии) QSK50 (Все версии) QSK60 (Все версии) | Стадия 0 (требуется только при использовании насоса Cummins) | 14" Сборка, Drain клапан, 25 Micron filter | 1 | 3639554 | Неприменимые | 1 | 3639672 | Неприменимые |
+| **Модели двигателей** | **Фильтрационная стадия** | **Описание** | **Количество** | **Численная часть номера** | **Номер детали самолета** | **Количество** | **Численная часть номера** | **Номер детали самолета** |
+| QSK38 (Все версии) QSK50 (Все версии) QSK60 (Все версии) | Стадия 0 (требуется только при использовании насоса Cummins) | 14" Сборка, Drain клапан, 25 Micron filter | 1 | [[3639554]] | Неприменимые | 1 | [[3639672]] | Неприменимые |
 | QSK38 (все версии) | Этап 1 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / вправо | 1 | 4328042 | FH23901 | 1 | [[4328043]] | FS53014 |
-| Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / Out Left | 1 | 4328041 | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
+| Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / Out Left | 1 | [[4328041]] | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Влево / влево / Out Left | 1 | 4328064 | FH23905 | 1 | [[4328043]] | FS53014 |  |  |
 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром NanoNet®. Вправо / Out Right | 1 | 4328065 | FH23906 | 1 | [[4328043]] | FS53014 |  |  |
 | QSK50 (Все версии) QSK60 (Все версии) | Этап 1 | Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl с 5-микронным фильтром Nanonet. Вправо / Out Right | 1 | 4381962 | FH23907 | 2 | [[4328043]] | FS53014 |
@@ -305,11 +321,11 @@ tags:
 
 | Таблица 6, Номера частей фильтра охлаждения |  |  |
 |---|---|---|
-| Наименование | Cummins® Part Number | Fleetguard - Часть номер |
+| Наименование | Cummins® Part Number | Fleetguard - Номер детали |
 | На двигателе, без DCA*, StrataPoreTM | 3098690 | WF2123 |
-| * Только фильтры без DCA должны использоваться в сочетании с ОАТ-охлаждающим веществом. |  |  |
+| Только фильтры без DCA должны использоваться в сочетании с ОАТ-охлаждающим веществом. |  |  |
 
-** Раздел 5: Продление интервалов технического обслуживания**
+**Раздел 5: Продление интервалов технического обслуживания**
 
 > [!note] Примечание
 > См. Руководство по эксплуатации для различных условий запуска двигателя при температуре окружающей среды. См. Продукт жидких кумминов для изменения элементов в различных условиях окружающей среды.
@@ -334,21 +350,21 @@ tags:
 
 | **Таблица 7, интервалы технического обслуживания локомотивов** |  |  |  |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| ** Система** | ** Список задач технического обслуживания** | **Как требуется** | ** Ежедневно и еженедельно** | **250 часов** | *500 часов** | * 1000 часов** | **1500 часов** | *2000 часов** | ** 3000 часов** | **4000 часов** | **4500 часов** |
-| охлаждающий | Испытательный охлаждающая жидкость для пределов замены | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |
-| охлаждающий | Изменение фильтров охлаждающей жидкости |  |  |  |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |
-| охлаждающий | Сверху охлаждение | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Слив воды и осадка из нижней чаши топливных фильтров Industrial ProTM | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить топливные фильтры 1-й ступени | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| топливо | Заменить топливные фильтры 2-й ступени | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
-| Моторное масло | Собрать образец моторного масла и выполнить анализ моторного масла | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
+| **Система** | **Список задач технического обслуживания** | **Как требуется** | **Ежедневно и еженедельно** | **250 часов** | *500 часов** | 1000 часов** | **1500 часов** | *2000 часов** | **3000 часов** | **4000 часов** | **4500 часов |
+| охлаждающий | Испытательный охлаждающая жидкость для пределов замены | X |  |  |  |  |  |  |  | X |  |
+| охлаждающий | Изменение фильтров охлаждающей жидкости |  |  |  |  |  |  |  |  | X |  |
+| охлаждающий | Сверху охлаждение | X |  |  | X | X | X | X | X | X | X |
+| топливо | Слив воды и осадка из нижней чаши топливных фильтров Industrial ProTM | X | X | X | X | X | X | X | X | X | X |
+| топливо | Заменить топливные фильтры 1-й ступени | X |  |  |  |  | X |  | X |  | X |
+| топливо | Заменить топливные фильтры 2-й ступени | X |  |  |  |  | X |  | X |  | X |
+| Моторное масло | Собрать образец моторного масла и выполнить анализ моторного масла | X |  | X | X | X | X | X | X | X | X |
 | Моторное масло | Изменение двигателя моторного масла |  | В соответствии с Руководством по эксплуатации и техническому обслуживанию или Интервалом моторного масла, установленным в разделе 6. |  |  |  |  |  |  |  |  |
-| Моторное масло | Смена ротора в EliminatorTM / Centrifuge |  |  |  |  |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |  | XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX |
+| Моторное масло | Смена ротора в EliminatorTM / Centrifuge |  |  |  |  |  | X |  | X |  | X |
 | Если QSK38 CM850 CM2150 использует параметры QSK50/60 и количества, указанные в таблице 4, можно достичь 2000 часов. |  |  |  |  |  |  |  |  |  |  |  |
 
 | **Таблица 8, Интервалы технического обслуживания фильтров на основе условий** |  |
 |---|---|
-| ** Система** | ** Показатели замещения** |
+| **Система** | **Показатели замещения** |
 | Фильтры для топлива, этап 1 | Заменить на основании графика в Таблице 7 или с использованием визуальной индикации на устройствах Industrial ProTM или по указаниям FleetguardFITTM. |
 | Фильтры для топлива, этап 2 | Заменить на основании графика в таблице 7 или по указанию FleetguardFITTM. |
 | Моторное масло, ЭлиминаторTM/удаленный ротор центрифуги | Заменить на основании графика в Таблице 7 или одновременно с заменой моторного масла и фильтров моторного масла. |
@@ -361,7 +377,7 @@ tags:
 > [!note] Примечание
 > Если топливные фильтры достигают требуемого срока службы или срок службы фильтра уменьшается, требуется оценка качества топлива, состояния топливного бака, систем хранения и системы фильтрации навалочных сыпей.
 
-** Раздел 6: Испытание на моторное масло для увеличения интервала слива**
+**Раздел 6: Испытание на моторное масло для увеличения интервала слива**
 
 > [!warning] ОСТОРОЖНО
 > Использование синтетического базового моторного масла не оправдывает расширенные интервалы изменения моторного масла. Расширенные интервалы изменения масла могут уменьшить срок службы двигателя в результате коррозии, отложений и износа.
@@ -414,13 +430,13 @@ tags:
 | Алюминий - Al, ppm | D5185 |  |
 | Tin - Sn, ppm | D5185 |  |
 | Хром - Cr, ppm | D5185 |  |
-| * Данные инфракрасной спектроскопии преобразования Фурье (FTIR) для окисления могут использовать либо метод ASTM, но должны сообщать, использовались ли методы трендирования или вычитания. |  |  |
+| Данные инфракрасной спектроскопии преобразования Фурье (FTIR) для окисления могут использовать либо метод ASTM, но должны сообщать, использовались ли методы трендирования или вычитания. |  |  |
 
 Сборник проб моторного масла:
 
 Образцы рекомендуется принимать с интервалами, указанными в таблице 11. Для процедуры отбора проб см. Service Bulletin, Oil Analysis Techniques for High Horsepower Diesel Engines, Bulletin 4022060.
 
-Для установления трендовых линий необходимо собрать не менее пяти образцов моторного масла на интервал слива масла ***. Для моторного масла, которое может **не** достичь интервала, установленного в плане отбора проб, собирайте образцы моторного масла с более частыми интервалами (каждые 50 часов или каждые 75 часов), чтобы определить соответствующий интервал слива моторного масла.
+Для установления трендовых линий необходимо собрать не менее пяти образцов моторного масла на интервал слива масла**. Для моторного масла, которое может **не достичь интервала, установленного в плане отбора проб, собирайте образцы моторного масла с более частыми интервалами (каждые 50 часов или каждые 75 часов), чтобы определить соответствующий интервал слива моторного масла.
 
 Нанести на образец следующую информацию перед отправкой на анализ:
 
@@ -434,7 +450,7 @@ tags:
 
 Проверка целостности моторного масла:
 
-Как тренды, так и ограничения используются для определения соответствующего интервала слива моторного масла. Cummins Inc. Клиент должен сотрудничать, чтобы определить соответствующий интервал слива моторного масла. Документация о валидации интервала слива моторного масла ** должна быть сохранена в файле оценки сайта.
+Как тренды, так и ограничения используются для определения соответствующего интервала слива моторного масла. Cummins Inc. Клиент должен сотрудничать, чтобы определить соответствующий интервал слива моторного масла. Документация о валидации интервала слива моторного масла должна быть сохранена в файле оценки сайта.
 
 Линейная тенденция на протяжении каждого интервала слива моторного масла:
 
@@ -460,9 +476,9 @@ tags:
 
 Параметры анализа моторного масла находятся в пределах, определенных в таблице 10.
 
-| Таблица 10, Пределы параметров анализа нефти |  |
+| Таблица 10, Пределы параметров анализа масла |  |
 |---|---|
-| Параметр анализа нефти | Предельная стоимость |
+| Параметр анализа масла | Предельная стоимость |
 | Общее количество кислот (TAN) мг KOH/g | 2.5 увеличение по сравнению с новым моторным маслом или равное TBN |
 | Общее базовое число (TBN) мг KOH/g | 2.5 Минимальный или равный TAN |
 | Растворимость топлива % | 5% |
@@ -505,7 +521,7 @@ tags:
 | 18 | 1850 | Проверить целостность моторного масла с помощью вышеуказанных шагов. Прекратить тестирование и изменить моторное масло, если требования не выполнены. |
 | 19 | 1900 | Конец теста. Соберите образец перед сливом моторного масла. |
 
-** Раздел 7: Дополнительная литература**
+**Раздел 7: Дополнительная литература**
 
 Литература найдена на QuickServe® Online:
 
@@ -522,18 +538,18 @@ tags:
 Руководство по эксплуатации и техническому обслуживанию:
 
 - См. Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Просмотрите соответствующие процедуры Cummins® Product Technology.
-- См. QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin 3666260.
+- См. QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]].
 - См. K38, K50, QSK38 и QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].
-- См. QSK45 and QSK60 Operation and Maintenance Manual, Bulletin 4915528.
+- См. QSK45 and QSK60 Operation and Maintenance Manual, Bulletin [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]].
 - См. QSK78 CM500 (HPI) Operation and Maintenance Manual, Bulletin 3666714.
 
 Руководства по обслуживанию:
 
 - Руководство по эксплуатации жидкостей для продуктов Cummins, Бюллетень [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 - См. Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Просмотрите соответствующие процедуры Cummins® Product Technology.
-- См. QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin 4021530.
+- См. QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 - См. K38, K50, QSK38, и QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
-- См. QSK45 и QSK60 Service Manual, Bulletin 4021530.
+- См. QSK45 и QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 
 Литература не найдена в QuickServe® Online:
 
@@ -547,7 +563,12 @@ Hardcopy Service Bulletin:
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
+| [[3639554]] | FUEL FILTER | Топливный фильтр |
+| [[3639672]] | FUEL FILTER ELEMENT | Фильтрующий элемент топливного фильтра |
+| [[4016423]] | CENTRIFUGE COVER |  |
+| [[4328041]] | FUEL FILTER | Топливный фильтр |
 | [[4328043]] | FUEL FILTER ELEMENT | Фильтрующий элемент топливного фильтра |
+| [[4331734]] | FILTER,CENTRIFUGE |  |
 | [[4379736]] | CHECK VALVE | Обратный клапан |
 
 > [!quote]- Original (English) · английский оригинал
@@ -763,13 +784,13 @@ Hardcopy Service Bulletin:
 >
 > Perform the following checks:
 >
-> 1. The casting tolerance of the centrifuge cover has been adjusted to accommodate the new centrifugal filter. Centrifuge covers with the adjusted tolerance are stamped with the letter “V”. If the centrifuge cover is not stamped with the letter "V", replace the centrifuge cover with a centrifuge cover, Part Number 4016423, stamped with the letter "V" or grind/file any high spots found at the parting line on the inside of the centrifuge cover.
+> 1. The casting tolerance of the centrifuge cover has been adjusted to accommodate the new centrifugal filter. Centrifuge covers with the adjusted tolerance are stamped with the letter “V”. If the centrifuge cover is not stamped with the letter "V", replace the centrifuge cover with a centrifuge cover, Part Number [[4016423]], stamped with the letter "V" or grind/file any high spots found at the parting line on the inside of the centrifuge cover.
 > 2. Measure clearance between the spindle and the bushings inside the one-piece centrifugal lubricating oil filter, replace the spindle if out of specification. Reference Bulletin 3666253.
 >
 > | **Table 3, Centrifuge Oil Filter Part Numbers for Eliminator™ or Remote Centrifuge** |  |  |  |
 > |---|---|---|---|
 > | **Engine Model** | **Description** | **Cummins® Part Numbers** | **Fleetguard® Part Number** |
-> | QSK50 (All Versions) QSK60 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | 4331734 | CS41018 |
+> | QSK50 (All Versions) QSK60 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | [[4331734]] | CS41018 |
 > | QSK78 (All Versions) | One-Piece Centrifugal Oil Filter with SpiraTec™ Technology | 3649569 | CS41019 |
 >
 > Fuel Filters
@@ -781,9 +802,9 @@ Hardcopy Service Bulletin:
 > | **Table 4, Fuel Filter Head and Fuel Filter Element Part Numbers** |  |  |  |  |  |  |  |  |
 > |---|---|---|---|---|---|---|---|---|
 > | **Engine Model** | **Filtration Stage** | **Description** | **Quantity** | **Cummins Part Number** | **Fleetguard Part Number** | **Quantity** | **Cummins Part Number** | **Fleetguard Part Number** |
-> | QSK38 (All Versions) QSK50 (All Versions) QSK60 (All Versions) | Stage 0 (only required if Cummins lift pump is used) | 14" Assembly, Drain Valve, 25 Micron filter | 1 | 3639554 | Not Applicable | 1 | 3639672 | Not Applicable |
+> | QSK38 (All Versions) QSK50 (All Versions) QSK60 (All Versions) | Stage 0 (only required if Cummins lift pump is used) | 14" Assembly, Drain Valve, 25 Micron filter | 1 | [[3639554]] | Not Applicable | 1 | [[3639672]] | Not Applicable |
 > | QSK38 (All Versions) | Stage 1 | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Left / Out Right | 1 | 4328042 | FH23901 | 1 | [[4328043]] | FS53014 |
-> | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Left | 1 | 4328041 | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
+> | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Left | 1 | [[4328041]] | FH23903 | 1 | [[4328043]] | FS53014 |  |  |
 > | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Left / Out Left | 1 | 4328064 | FH23905 | 1 | [[4328043]] | FS53014 |  |  |
 > | Industrial Pro Unit, Single, Tall, Bracket, WIF, Clear Bowl with 5 Micron NanoNet® filter. In Right / Out Right | 1 | 4328065 | FH23906 | 1 | [[4328043]] | FS53014 |  |  |
 > | QSK50 (All Versions) QSK60 (All Versions) | Stage 1 | Industrial Pro Unit, Dual Tall, Bracket, WIF, Clear Bowl with 5 Micron Nanonet filter. In Right / Out Right | 1 | 4381962 | FH23907 | 2 | [[4328043]] | FS53014 |
@@ -1025,18 +1046,18 @@ Hardcopy Service Bulletin:
 > Operation and Maintenance Manuals:
 >
 > - See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
-> - See QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin 3666260.
+> - See QSK45 and QSK60 (MCRS and HPI) Operation and Maintenance, Bulletin [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]].
 > - See K38, K50, QSK38 and QSK50 Operation and Maintenance Manual, Bulletin [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual\|3810497]].
-> - See QSK45 and QSK60 Operation and Maintenance Manual, Bulletin 4915528.
+> - See QSK45 and QSK60 Operation and Maintenance Manual, Bulletin [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]].
 > - See QSK78 CM500 (HPI) Operation and Maintenance Manual, Bulletin 3666714.
 >
 > Service Manuals:
 >
 > - Fluids for Cummins Products Service Manual, Bulletin [[5411406 — Fluids for Cummins® Products Service Manual\|5411406]].
 > - See Cummins® Service Engine Model Identification, Bulletin [[tsb130080 — Cummins® Service Model Identification\|TSB130080]]. Review the associated Cummins® Product Technology procedures.
-> - See QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin 4021530.
+> - See QSK45 and QSK60 (MCRS and HPI) Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 > - See K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].
-> - See QSK45 and QSK60 Service Manual, Bulletin 4021530.
+> - See QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
 >
 > Literature not found on QuickServe® Online:
 >

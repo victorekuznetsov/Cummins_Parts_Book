@@ -17,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-059.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-059.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-059.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2002-12-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-059.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-059.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-059.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-059.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -73,7 +73,7 @@ tags:
 
 ![[19400436.png]]
 
-Используйте мультиметр для измерения сопротивления между двумя штифтами датчика температуры воздуха. Сопротивление ** должно быть от 600 до 36K ом. Если сопротивление ** не** правильно, замените датчик. Если сопротивление правильное, датчик ** должен быть проверен на короткое время до земли.
+Используйте мультиметр для измерения сопротивления между двумя штифтами датчика температуры воздуха. Сопротивление **должно быть от 600 до 36K ом. Если сопротивление **не** правильно, замените датчик. Если сопротивление правильное, датчик **должен быть проверен на короткое время до земли.
 
 ![[19800980.png]]
 
@@ -92,9 +92,9 @@ tags:
 
 ### Проверка на замыкание на массу
 
-Измерьте сопротивление от штифта датчика температуры воздуха на входе в блок двигателя. Мультиметр ** должен** показывать открытую схему (более 100 К Ом). Если схема ** не** открыта, замените датчик.
+Измерьте сопротивление от штифта датчика температуры воздуха на входе в блок двигателя. Мультиметр **должен** показывать открытую схему (более 100 К Ом). Если схема **не** открыта, замените датчик.
 
-> [!missing]- Иллюстрация `19800981.png` не извлечена — смотрите PDF-оригинал документа
+![[19800981.png]]
 
 
 > [!quote]- Original (English) · английский оригинал

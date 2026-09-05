@@ -1,0 +1,289 @@
+---
+type: "Руководство"
+doc: "3666013-history"
+title_en: "K19 Industrial and Marine Operation and Maintenance Manual"
+engines:
+  - "37269910"
+  - "37280605"
+families:
+  - "K19"
+lang: "en"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-history.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666013-history.pdf"
+tags:
+  - "документ/руководство"
+  - "двигатель/K19"
+---
+
+# K19 Industrial and Marine Operation and Maintenance Manual
+
+> [!abstract] Руководство · `3666013-history`
+> **Двигатели:** [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]]
+> **Семейство:** K19
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666013-history.pdf)
+
+
+## Оглавление руководства (163 процедур)
+
+### front
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-toc.html) | Table of Contents |  |
+| [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
+| [om-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/om-frwd.html) | Foreword | 22-May-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-titlepage.html) | Titlepage | 10-Oct-2006 |
+
+### Section i - Introduction
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-204-004 — Symbols\|99-204-004]] | Symbols | 12-Mar-2002 |
+| [[99-204-005 — Illustrations\|99-204-005]] | Illustrations | 12-Mar-2002 |
+| [[99-204-001 — To the Owner and Operator\|99-204-001]] | To the Owner and Operator | 04-May-2006 |
+| [[99-204-008 — General Cleaning Instructions\|99-204-008]] | General Cleaning Instructions | 24-Jul-2007 |
+| [[99-204-002-om-indmar\|99-204-002-om-indmar]] | About the Manual | 10-Sep-2009 |
+| [[99-204-007-om-indmar\|99-204-007-om-indmar]] | General Repair Instructions | 08-Oct-2009 |
+| [[99-204-003-om-indmar\|99-204-003-om-indmar]] | How to Use the Manual | 06-Jan-2010 |
+| [[99-204-006-om-indmar\|99-204-006-om-indmar]] | General Safety Instructions | 25-Jan-2010 |
+| [[99-204-009 — Acronyms and Abbreviations\|99-204-009]] | Acronyms and Abbreviations | 24-Mar-2010 |
+
+### Section 3 - Maintenance Procedures at Daily Interval
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-103-999 — Daily Maintenance Procedures - Overview\|99-103-999]] | Daily Maintenance Procedures | 14-Mar-2002 |
+| [[99-006-043 — Fuel-Water Separator\|99-006-043]] | Fuel-Water Separator | 14-Mar-2002 |
+| [[99-010-015 — Air Cleaner Precleaner\|99-010-015]] | Air Cleaner Precleaner | 13-Feb-2003 |
+| [[99-008-067 — Sea Water Strainer\|99-008-067]] | Seawater Strainer | 29-Jan-2004 |
+| [[18-103-001 — Engine Operation Report\|18-103-001]] | Engine Operation Report | 28-Jul-2006 |
+| [[18-103-004 — Unusual Engine Noise\|18-103-004]] | Unusual Engine Noise | 28-Jul-2006 |
+| [[99-007-043-om-indmar\|99-007-043-om-indmar]] | Lubricating Oil Level | 14-Oct-2009 |
+| [[99-008-066 — Coolant Level\|99-008-066]] | Coolant Level | 19-Nov-2009 |
+| [[99-103-002 — Drive Belts\|99-103-002]] | Drive Belts | 25-Jan-2010 |
+
+### Section 4 - Maintenance Procedures at Weekly Interval
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-999-999 — Maintenance Procedures - Overview\|99-999-999]] | Maintenance Procedures | 14-Mar-2002 |
+| [[99-010-058 — Air Intake Piping\|99-010-058]] | Air Intake Piping | 14-Mar-2002 |
+| [[99-012-021 — Air Tanks and Reservoirs\|99-012-021]] | Air Tanks and Reservoirs | 14-Mar-2002 |
+| [[102-010-061 — Air Cleaner Element, Single Heavy Duty Dry Type\|102-010-061]] | Air Cleaner Element, Single Heavy-Duty Dry Type | 02-Mar-2004 |
+| [[102-010-062 — Air Cleaner Element, Dual Heavy Duty Dry Type\|102-010-062]] | Air Cleaner Element, Dual Heavy Duty Dry Type | 02-Mar-2004 |
+| [[102-010-063 — Air Cleaner Element, Cartridge Type\|102-010-063]] | Air Cleaner Element, Cartridge Type | 02-Mar-2004 |
+| [[18-010-086 — Air Cleaner Restriction Indicator\|18-010-086]] | Air Cleaner Restriction Indicator | 28-Jul-2006 |
+| [[18-010-014 — Air Cleaner Element\|18-010-014]] | Air Cleaner Element | 28-Jul-2006 |
+| [[99-008-045 — Radiator Hoses\|99-008-045]] | Radiator Hoses | 15-Oct-2009 |
+| [[18-007-051 — Lubricating Oil Analysis\|18-007-051]] | Lubricating Oil Analysis | 25-May-2013 |
+
+### Section 5 - Maintenance Procedures at 250 Hours or 6 Months
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-999-999 — Maintenance Procedures - Overview\|99-999-999]] | Maintenance Procedures - Overview | 14-Mar-2002 |
+| [[99-003-018 — Crankcase Breather Tube\|99-003-018]] | Crankcase Breather | 14-Mar-2002 |
+| [[99-008-040 — Fan, Cooling\|99-008-040]] | Fan, Cooling | 08-Oct-2002 |
+| [[18-006-015-om-ind — Fuel Filter (Spin-On Type)\|18-006-015-om-ind]] | Fuel Filter (Spin-On) | 28-Jul-2006 |
+| [[18-007-002 — Lubricating Oil and Filters\|18-007-002]] | Lubricating Oil and Filters | 28-Jul-2006 |
+| [[18-007-013-om-ind — Lubricating Oil Filter (Spin-On)\|18-007-013-om-ind]] | Lubricating Oil Filter (Spin-On) | 28-Jul-2006 |
+| [[18-008-006-om-ind — Coolant Filter\|18-008-006-om-ind]] | Coolant Filter | 28-Jul-2006 |
+| [[18-012-001 — Air Compressor Air Cleaner Element\|18-012-001]] | Air Compressor Air Cleaner Element | 28-Jul-2006 |
+| [[18-008-002-om-rep — Drive Belt, Cooling Fan\|18-008-002-om-rep]] | Drive Belt, Cooling Fan | 28-Jul-2006 |
+| [[99-008-046 — Supplemental Coolant Additive (SCA) and Antifreeze Concentration\|99-008-046]] | Supplemental Coolant Additive (SCA) and Antifreeze Concentration | 03-Nov-2009 |
+| [[18-007-002 — Lubricating Oil and Filters\|18-007-002]] | Lubricating Oil and Filters | 25-Aug-2021 |
+
+### Section 6 - Maintenance Procedures at 1500 Hours or 1 Year
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-999-999 — Maintenance Procedures - Overview\|99-999-999]] | Maintenance Procedures - Overview | 14-Mar-2002 |
+| [[99-013-007 — Batteries\|99-013-007]] | Batteries | 26-Aug-2003 |
+| [[18-003-001 — Crankcase Breather (External)\|18-003-001]] | Crankcase Breather, External | 19-Oct-2004 |
+| [[00-008-059 — Zinc Anode\|00-008-059]] | Zinc Anode | 20-Apr-2006 |
+| [[18-003-006-om-ind — Overhead Set (OBC)\|18-003-006-om-ind]] | Overhead Set (OBC) | 28-Jul-2006 |
+| [[18-003-007-om-ind — Overhead Set (Travel Method)\|18-003-007-om-ind]] | Overhead Set (Dial Indicator) | 28-Jul-2006 |
+| [[18-008-045-om-ind — Radiator Hoses\|18-008-045-om-ind]] | Radiator Hoses | 28-Jul-2006 |
+| [[18-008-029-om-ind — Fan Drive Idler Arm Assembly\|18-008-029-om-ind]] | Fan Drive Idler Arm Assembly | 28-Jul-2006 |
+| [[18-016-002-om-ind — Engine Support Bracket, Front\|18-016-002-om-ind]] | Engine Support Bracket, Front | 28-Jul-2006 |
+| [[102-016-010-om — Engine Mounts\|102-016-010-om]] | Engine Mounts | 04-Nov-2009 |
+| [[18-016-002-om-ind — Engine Support Bracket, Front\|18-016-002-om-ind]] | Engine Support Bracket, Front | 01-Apr-2015 |
+| [[102-016-010-om — Engine Mounts\|102-016-010-om]] | Engine Mounts | 02-Apr-2015 |
+| [[18-008-029-om-ind — Fan Drive Idler Arm Assembly\|18-008-029-om-ind]] | Fan Drive Idler Arm Assembly | 07-May-2015 |
+| [[18-003-006-om-ind — Overhead Set (OBC)\|18-003-006-om-ind]] | Overhead Set (OBC) | 20-Sep-2016 |
+
+### Section 7 - Maintenance Procedures at 6000 Hours or 2 Years
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-999-999 — Maintenance Procedures - Overview\|99-999-999]] | Maintenance Procedure | 14-Mar-2002 |
+| [[99-012-015 — Air Compressor Discharge Lines\|99-012-015]] | Air Compressor Discharger Lines | 14-Mar-2002 |
+| [[18-005-016-om-ind — Fuel Pump\|18-005-016-om-ind]] | Fuel Pump | 31-Jul-2006 |
+| [[18-006-026-om-ind — Injector\|18-006-026-om-ind]] | Injectors | 31-Jul-2006 |
+| [[18-008-018-om-ind — Cooling System\|18-008-018-om-ind]] | Cooling System | 31-Jul-2006 |
+| [[18-008-036-om-ind — Fan Hub, Belt Driven\|18-008-036-om-ind]] | Fan Hub, Belt Driven | 31-Jul-2006 |
+| [[18-008-037-om-ind — Fan Hub, Gear Driven\|18-008-037-om-ind]] | Fan Hub, Gear Driven | 31-Jul-2006 |
+| [[18-008-030-om-ind — Fan Drive Idler Pulley Assembly\|18-008-030-om-ind]] | Fan Drive Idler Pulley Assembly | 31-Jul-2006 |
+| [[18-008-062-om-ind — Water Pump\|18-008-062-om-ind]] | Water Pump | 31-Jul-2006 |
+| [[18-010-033-om-ind — Turbocharger\|18-010-033-om-ind]] | Turbocharger | 31-Jul-2006 |
+| [[18-012-014-om-ind — Air Compressor\|18-012-014-om-ind]] | Air Compressor | 31-Jul-2006 |
+| [[18-012-013 — Air Compressor Unloader and Valve Assembly\|18-012-013]] | Air Compressor Unloader and Valve Assembly | 31-Jul-2006 |
+| [[99-001-052 — Vibration Damper, Viscous\|99-001-052]] | Vibration Damper, Viscous | 22-Oct-2007 |
+| [[18-010-037-om-ind — Turbocharger, Water-Cooled\|18-010-037-om-ind]] | Turbocharger, Water Cooled | 12-Dec-2008 |
+| [[18-008-057-om-ind — Sea Water Pump\|18-008-057-om-ind]] | Seawater Pump | 01-Apr-2009 |
+| [[99-001-051 — Vibration Damper, Rubber\|99-001-051]] | Vibration Damper, Rubber | 18-Nov-2009 |
+| [[18-008-018-om-ind — Cooling System\|18-008-018-om-ind]] | Cooling System | 07-Apr-2015 |
+
+### Section TS - Troubleshooting Symptoms
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t024-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t024-om.html) | Coolant Temperature is Below Normal | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t026-om.html) | Coolant Temperature Above Normal | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t026-155-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t026-155-om.html) | Coolant Temperature Above Normal (Marine) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t043-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t043-om.html) | Engine Hard to Start or Will Not Start (Exhaust Smoke) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t044-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t044-om.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t061-011-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t061-011-om.html) | Engine Runs Rough at Idle, Warm Engine | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t072-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t072-om.html) | Engine Starts But Will Not Keep Runnings | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t077-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t077-om.html) | Engine Will Not Crank or Cranks Slowly (Air Starter) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t078-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t078-om.html) | Engine Will Not Crank | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t080-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t080-om.html) | Engine Will Not Reach Rated Speed (RPM) | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t081-om.html) | Engine Will Not Shut Off | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t081-006-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t081-006-om.html) | Exhaust Smoke Excessive Under Load | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t105-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t105-om.html) | Lubricating Oil Pressure Low | 14-Jul-2006 |
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-t057-om](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-t057-om.html) | Engine Power Output Low | 19-Jul-2006 |
+| [[99-t00-001-om — Troubleshooting Procedures and Techniques\|99-t00-001-om]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
+
+### Section 1 - Operating Instructions
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[00-101-014 — Normal Starting Procedure\|00-101-014]] | Normal Starting Procedure | 31-Oct-2002 |
+| [[18-101-019 — Step Timing Control (STC)\|18-101-019]] | Step Timing Control (STC) | 28-Jul-2006 |
+| [[00-101-018 — Starting Procedure After Extended Shutdown or Oil Change\|00-101-018]] | Starting Procedure After Extended Shutdown or Oil Change | 09-Jan-2009 |
+| [[99-101-009-om-indmar — Engine Shutdown\|99-101-009-om-indmar]] | Engine Shutdown | 16-Sep-2009 |
+| [[00-101-004-om — Cold Weather Starting\|00-101-004-om]] | Cold Weather Starting | 13-Nov-2009 |
+| [[99-101-999-om-indmar — Operating Instructions - Overview\|99-101-999-om-indmar]] | Operating Instructions - Overview | 25-Jan-2010 |
+| [[99-101-008-om-indmar — Manual Not Available\|99-101-008-om-indmar]] | Engine Operating Range | 25-Jan-2010 |
+| [[99-101-015-om-indmar — Operating the Engine\|99-101-015-om-indmar]] | Operating the Engine | 04-Feb-2010 |
+
+### Section D - System Diagrams
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[00-200-999 — System Diagrams - Overview\|00-200-999]] | System Diagrams - Overview | 21-Apr-2003 |
+| [[18-200-001 — Flow Diagram, Fuel System\|18-200-001]] | Flow Diagram, Fuel System | 03-Oct-2006 |
+| [[18-200-002 — Flow Diagram, Lubricating Oil System\|18-200-002]] | Flow Diagram, Lubricating Oil System | 03-Oct-2006 |
+| [[18-200-003 — Flow Diagram, Cooling System\|18-200-003]] | Flow Diagram, Cooling System | 03-Oct-2006 |
+| [[18-200-004 — Flow Diagram, Air Intake System\|18-200-004]] | Flow Diagram, Air Intake System | 03-Oct-2006 |
+| [[18-200-005 — Flow Diagram, Exhaust System\|18-200-005]] | Flow Diagram, Exhaust System | 03-Oct-2006 |
+| [[18-200-006 — Flow Diagram, Compressed Air System\|18-200-006]] | Flow Diagram, Compressed Air System | 03-Oct-2006 |
+
+### Section A - Adjustment, Repair, and Replacement
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-013-009 — Battery Cables and Connections\|99-013-009]] | Battery Cables and Connections | 26-Aug-2003 |
+| [[102-012-022 — Air Starting Motor\|102-012-022]] | Air Starting Motor | 02-Mar-2004 |
+| [[18-008-002-om-ind — Drive Belt, Cooling Fan\|18-008-002-om-ind]] | Drive Belt, Cooling Fan | 28-Jul-2006 |
+| [[18-013-005-om-ind — Drive Belt, Alternator\|18-013-005-om-ind]] | Drive Belt, Alternator | 31-Jul-2006 |
+| [[18-003-011-om-ind — Rocker Lever Cover\|18-003-011-om-ind]] | Rocker Lever Cover | 17-Aug-2006 |
+| [[18-007-009 — Lubricating Oil Dipstick\|18-007-009]] | Lubricating Oil Dipstick | 18-Mar-2010 |
+| [[18-013-005-om-ind — Drive Belt, Alternator\|18-013-005-om-ind]] | Drive Belt, Alternator | 07-Jan-2011 |
+| [[18-008-001-om-ind — Belt Guard\|18-008-001-om-ind]] | Belt Guard | 07-Jan-2011 |
+| [[18-008-087-om-ind — Cooling Fan Belt Tensioner\|18-008-087-om-ind]] | Cooling Fan Belt Tensioner | 28-Sep-2011 |
+
+### Section V - Maintenance Specifications
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[102-018-004 — Coolant Recommendations and Specifications\|102-018-004]] | Coolant Recommendations and Specifications | 02-Mar-2004 |
+| [[99-018-010 — Fraction, Decimal, Millimeter Conversions\|99-018-010]] | Fraction, Decimal, Millimeter Conversions | 03-Mar-2004 |
+| [[99-018-011 — Newton-Meter to Foot-Pound Conversions\|99-018-011]] | Newton-Meter to Foot-Pound Conversions | 03-Mar-2004 |
+| [[99-018-012 — Pipe Plug Torque Values\|99-018-012]] | Pipe Plug Torque Values | 03-Mar-2004 |
+| [[99-018-013 — Tap-Drill Chart - U.S. Customary and Metric\|99-018-013]] | Tap-Drill Chart - U.S. Customary and Metric | 03-Mar-2004 |
+| [[99-018-014 — Weights and Measures - Conversion Factors\|99-018-014]] | Weights and Measures - Conversion Factors | 03-Mar-2004 |
+| [[18-018-024 — Cummins Fleetguard® Filter Specifications\|18-018-024]] | Cummins/Fleetguard® Filter Specifications | 31-Jul-2006 |
+| [[18-018-006 — Engine Component Torque Values\|18-018-006]] | Engine Component Torque Values | 31-Jul-2006 |
+| [[102-018-002 — Fuel Recommendations and Specifications\|102-018-002]] | Fuel Recommendations and Specifications | 31-Jan-2007 |
+| [[102-018-003 — Lubricating Oil Recommendations and Specifications\|102-018-003]] | Lubricating Oil Recommendations and Specifications | 08-May-2007 |
+| [[18-018-015 — General Engine\|18-018-015]] | General Specifications | 16-May-2007 |
+| [[18-018-018 — Cooling System\|18-018-018]] | Cooling System | 16-May-2007 |
+| [[18-018-019 — Air Intake System\|18-018-019]] | Air Intake System | 16-May-2007 |
+| [[18-018-020 — Exhaust System\|18-018-020]] | Exhaust System | 16-May-2007 |
+| [[18-018-021 — Electrical System\|18-018-021]] | Electrical System | 16-May-2007 |
+| [[18-018-022 — Compressed Air System\|18-018-022]] | Compressed Air System | 16-May-2007 |
+| [[18-018-016 — Fuel System\|18-018-016]] | Fuel System | 24-May-2007 |
+| [[18-018-017 — Lubricating Oil System\|18-018-017]] | Lubricating Oil System | 02-Dec-2008 |
+| [[99-018-005 — Drive Belt Tension\|99-018-005]] | Drive Belt Tension | 25-Jan-2010 |
+| [[99-018-009 — Capscrew Markings and Torque Values\|99-018-009]] | Capscrew Markings and Torque Values | 25-Jan-2010 |
+| [[102-018-003 — Lubricating Oil Recommendations and Specifications\|102-018-003]] | Lubricating Oil Recommendations and Specifications | 20-Dec-2011 |
+| [[102-018-002 — Fuel Recommendations and Specifications\|102-018-002]] | Fuel Recommendations and Specifications | 28-Aug-2013 |
+| [[102-018-003 — Lubricating Oil Recommendations and Specifications\|102-018-003]] | Lubricating Oil Recommendations and Specifications | 28-Sep-2015 |
+
+### Section E - Engine Identification
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[18-100-001 — Engine Identification\|18-100-001]] | Engine Identification | 06-Oct-2004 |
+| [[18-100-002 — Engine Diagrams\|18-100-002]] | Engine Diagrams | 03-Oct-2006 |
+
+### Section SS - Seasonal Storage (Marine Only)
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-000-014 — Seasonal Storage\|99-000-014]] | Seasonal Storage | 28-Sep-2005 |
+
+### Section S - Service Assistance
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-202-005\|99-202-005]] | Division and Regional Offices | 31-May-2006 |
+| [[99-202-008\|99-202-008]] | Distributors - International | 24-Jul-2006 |
+| [[99-202-007\|99-202-007]] | Regional Offices - International | 24-Apr-2008 |
+| [[99-202-006\|99-202-006]] | Distributors and Branches | 04-Dec-2008 |
+| [[99-202-003\|99-202-003]] | Emergency and Technical Service | 25-Feb-2009 |
+| [[99-202-002 — Routine Service and Parts\|99-202-002]] | Routine Service and Parts | 19-Nov-2009 |
+| [[99-202-004\|99-202-004]] | Problem Solving | 19-Nov-2009 |
+
+### Section L - Service Literature
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-205-002 — Service Literature Ordering Location\|99-205-002]] | Service Literature Ordering Location | 27-Jun-2006 |
+| [[18-205-001-om — Additional Service Literature\|18-205-001-om]] | Additional Service Literature | 31-Jul-2006 |
+| [[99-205-004 — Cummins Customized Parts Catalog\|99-205-004]] | Cummins Customized Part Catalog | 22-Jul-2009 |
+
+### back
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666013/3666013-backcover.html) | Backcover | 14-Jul-2006 |
+
+### Section 2 - Maintenance Guidelines
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[18-102-004 — Tool Requirements\|18-102-004]] | Tool Requirements | 28-Jul-2006 |
+| [[18-102-002-om-ind — Maintenance Schedule\|18-102-002-om-ind]] | Maintenance Schedule | 10-Oct-2006 |
+| [[99-102-001 — Maintenance Record Form\|99-102-001]] | Maintenance Record Form | 13-Oct-2009 |
+| [[99-102-999 — Maintenance Guidelines - Overview\|99-102-999]] | Maintenance Guidelines - Overview | 17-Nov-2009 |
+| [[18-102-002-om-ind — Maintenance Schedule\|18-102-002-om-ind]] | Maintenance Schedule | 23-Mar-2011 |
+| [[18-102-002-om-ind — Maintenance Schedule\|18-102-002-om-ind]] | Maintenance Schedule | 22-Oct-2013 |
+
+### Section W - Warranty
+
+| Номер | Название | Дата |
+|---|---|---|
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | All Engines International Industrial (Off-Highway) | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | All Engines United States and Canada Industrial (Off-Highway) | 20-Jun-2007 |
+| [3381310](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381310/3381310-history.html) | K19 Engines Australia and New Zealand Automotive | 27-Mar-2008 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
+| [3381307](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381307/3381307-history.html) | All Diesel Engines Worldwide Generator Drive | 25-Aug-2009 |
+
+### Section ES - Engine Storage
+
+| Номер | Название | Дата |
+|---|---|---|
+| [[99-000-005-om-ind\|99-000-005-om-ind]] | Engine Storage - Long Term | 09-Oct-2009 |

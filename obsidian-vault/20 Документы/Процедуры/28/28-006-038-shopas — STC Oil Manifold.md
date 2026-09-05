@@ -7,17 +7,16 @@ title_en: "STC Oil Manifold"
 title_ru: "Масляный коллектор STC"
 modified: "2013-01-18"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-038-shopas.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-006-038-shopas.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-038-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Масляный коллектор STC**
 
 > [!abstract] Процедура · `28-006-038-shopas`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section AS - Engine Assembly - Group 00
 > **Даты:** изменён 2013-01-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-038-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-006-038-shopas.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-006-038-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-006-038-shopas.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,15 +48,15 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Убедитесь, что уплотнения с кольцом остаются на месте. Если уплотнения выпадают, может возникнуть утечка масла
 
-** Только двигатели, имеющие STC (HVT), имеют масляные коллекторы.
+Только двигатели, имеющие STC (HVT), имеют масляные коллекторы.
 
 > [!note] Примечание
-> Двигатели K38 и K50 с STC (HVT) имеют четыре масляных коллектора. Коллекторы ** не** одинаковы для двигателей К38 и К50. Каждый коллектор соединяется с тремя корпусами рычага клапанного клапана на K38 и четырьмя корпусами рычага клапанного клапана на K50.
+> Двигатели K38 и K50 с STC (HVT) имеют четыре масляных коллектора. Коллекторы **не** одинаковы для двигателей К38 и К50. Каждый коллектор соединяется с тремя корпусами рычага клапанного клапана на K38 и четырьмя корпусами рычага клапанного клапана на K50.
 
 > [!note] Примечание
 > Каждый двигатель имеет два разных коллектора. Левый (LB) передний и правый (RB) задние коллекторы одинаковы. Задние и передние коллекторы «LB» одинаковы.
 
-Используйте любриплат для удержания уплотнений (1) в противоборстве на коллекторах. Установите уплотнения с кольцом на масляный коллектор. В каждом корпусе рычага качения клапанного клапана требуется одна печать.
+Используйте любриплат для удержания уплотнений (1) в противоборстве на коллекторах. Установите уплотнения с кольцом на масляный коллектор. В каждом корпусе рычага качения клапанного клапана требуется одна уплотнение.
 
 ![[om600ha.png]]
 

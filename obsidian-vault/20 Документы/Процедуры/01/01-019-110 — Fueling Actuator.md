@@ -17,7 +17,7 @@ figures: 9
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-110.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-110.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-110.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2004-07-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-110.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-110.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-110.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-110.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -65,7 +65,7 @@ tags:
 
 Выполните электронный сервисный тест на производительность цилиндра INSITETM, чтобы определить, не вышел ли из строя привод. Если банк терпит неудачу, это может указывать на сбой привода.
 
-Если в банке не сработали только два топливных форсунка, повторите тест. Переключите передний и задний приводы заправки, чтобы определить, следует ли за приводом неисправный банк цилиндров. Если это так, то необходимо заменить неисправный привод заправки.
+Если в банке не сработали только два топливных форсунка, повторите тест. Переключите передний и задний приводы заправки, чтобы определить, следует ли за приводом неисправный ряд цилиндров. Если это так, то необходимо заменить неисправный привод заправки.
 
 Если **не**, поменяйте передний и задний приводы синхронизации, чтобы определить, следует ли за приводом неисправный берег цилиндров. Если это так, то заменяйте неисправный привод синхронизации по мере необходимости.
 
@@ -127,7 +127,7 @@ QSK23, QSK45, QSK60 и QSK78
 
 Запустите двигатель и проверьте наличие утечек.
 
-> [!missing]- Иллюстрация `19400370.png` не извлечена — смотрите PDF-оригинал документа
+![[19400370.png]]
 
 
 > [!quote]- Original (English) · английский оригинал

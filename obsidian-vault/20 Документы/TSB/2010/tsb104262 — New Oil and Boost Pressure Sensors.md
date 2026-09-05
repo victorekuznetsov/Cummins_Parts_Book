@@ -9,19 +9,30 @@ released: "2010-12-15"
 modified: "2010-12-15"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "35354607"
+  - "35373113"
+  - "37269910"
+  - "37280605"
   - "41343322"
   - "41349633"
+  - "41353297"
+  - "41370103"
+  - "71156161"
 families:
+  - "K19"
   - "NT/NTA855 · ISM/QSM11"
   - "QSK19"
+  - "QSM11"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104262.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb104262.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104262.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/NT/NTA855"
   - "двигатель/QSK19"
+  - "двигатель/QSM11"
   - "год/2010"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -32,10 +43,10 @@ tags:
 
 > [!abstract] TSB · `tsb104262`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** NT/NTA855 · ISM/QSM11, QSK19
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[41370103 — NH NT 855 CPL 3362|41370103]], [[71156161 — QSM11 CM570 CPL 8543|71156161]]
+> **Семейство:** K19, NT/NTA855 · ISM/QSM11, QSK19, QSM11
 > **Даты:** выпущен 2010-12-15 · изменён 2010-12-15
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104262.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb104262.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104262.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104262.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -61,9 +72,9 @@ tags:
 
 | Сенсор | Двигатель | Серийный номер двигателя | Дата постройки |
 |---|---|---|---|
-| Нефтяное давление | M11, ISM, QSM11 | 34876832 | 4 сентября 1997 года |
-| Нефтяное давление | N14 | 11863064 | 26 сентября 1997 года |
-| Нефтяное давление | K6, K19, QSK19 | 37178720 | 14 октября 1997 года |
+| Масляное давление | M11, ISM, QSM11 | 34876832 | 4 сентября 1997 года |
+| Масляное давление | N14 | 11863064 | 26 сентября 1997 года |
+| Масляное давление | K6, K19, QSK19 | 37178720 | 14 октября 1997 года |
 | Повышение давления | M11, ISM, QSM11 | 34877105 | 8 сентября 1997 года |
 | Повышение давления | N14 | 11863179 | 29 сентября 1997 года |
 | Повышение давления | QSK19 | 37178706 | 13 октября 1997 года |

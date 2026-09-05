@@ -106,6 +106,19 @@ def doc_folder(cat, doc_id, meta):
     return CAT_DIR.get(cat, DIRS["docs"])
 
 
+def qs_doc_url(doc_id, manual_id):
+    """Адрес документа на QuickServe — для строк оглавления, которых нет в выгрузке."""
+    base = "https://quickserve.cummins.com/qs3/pubsys2/xml/en/"
+    if re.match(r"^\d{2,3}-\d{3}-\d{3}", doc_id):
+        return base + "procedures/" + doc_id.split("-")[0] + "/" + doc_id + ".html"
+    m = re.match(r"^(\d{6,8})-", doc_id)
+    if m:
+        return base + "manual/" + m.group(1) + "/" + doc_id + ".html"
+    if re.match(r"^\d{6,8}$", doc_id):
+        return base + "manual/" + doc_id + "/" + doc_id + "-history.html"
+    return base + "manual/" + manual_id + "/" + doc_id + ".html"
+
+
 def main():
     state = load_json(STATE, {})
     docs = state.get("docs", {})
@@ -274,7 +287,9 @@ def main():
                 out.append("|---|---|---|")
                 for r in items:
                     tgt = state["names"].get(f"{r['cat']}|{r['id']}")
-                    link = f"[[{tgt}\\|{r['id']}]]" if tgt else r["id"]
+                    # чего нет в выгрузке — ссылкой на оригинал в QuickServe
+                    link = f"[[{tgt}\\|{r['id']}]]" if tgt else \
+                        f"[{r['id']}]({qs_doc_url(r['id'], mid)})"
                     date = r["date"] if r["date"] != "Not Available" else ""
                     out.append(f"| {link} | {r['title']} | {date} |")
                 out.append("")

@@ -7,17 +7,16 @@ title_en: "Lubricating Oil Filter Head (Remote-Mounted)"
 title_ru: "Головка масляного фильтра (выносная)"
 modified: "2021-10-11"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-017.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-017.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Головка масляного фильтра (выносная)**
 
 > [!abstract] Процедура · `28-007-017`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2021-10-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-017.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-017.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -83,10 +82,10 @@ tags:
 > Адаптеры для головки обходного фильтра отличаются от головки фильтра полного потока или топливного фильтра. Адаптеры имеют различную резьбу, чтобы предотвратить установку неправильного фильтрующего элемента. Адаптеры для обходного масляного фильтра имеют небольшое отверстие, 2,56 мм \[0,101 дюйма\], в центре.
 
 > [!note] Примечание
-> Часть головки фильтра ** не** показана для ясности.
+> Часть головки фильтра **не** показана для ясности.
 
 > [!note] Примечание
-> **Не требуется удалять адаптеры, если они не повреждены или не рыхлые.
+> Не требуется удалять адаптеры, если они не повреждены или не рыхлые.
 
 Проверьте адаптеры.
 
@@ -94,7 +93,7 @@ tags:
 
 ### Сборка
 
-Если адаптер **должен** быть заменен, то Loctite 242® или эквивалент *** должен быть надет на резьбу, которая касается резьбы в головке фильтра.
+Если адаптер **должен** быть заменен, то Loctite 242® или эквивалент должен быть надет на резьбу, которая касается резьбы в головке фильтра.
 
 > [!tip] Момент затяжки
 > 203 Н·м [150 фунт-фут]

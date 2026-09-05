@@ -8,6 +8,7 @@ title_ru: "Датчик давления ресивера"
 modified: "2005-01-28"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -16,7 +17,7 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-019-161.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-019-161.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-019-161.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -28,12 +29,12 @@ tags:
 **Датчик давления ресивера**
 
 > [!abstract] Процедура · `82-019-161`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section 19 - Electronic Engine Controls
 > **Даты:** изменён 2005-01-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-019-161.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-019-161.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-019-161.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-019-161.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -48,7 +49,7 @@ tags:
 > [!danger] ОПАСНО
 > Слить воздушный компрессорный бак и все линии перед удалением или установкой датчика давления влажного резервуара. Неспособность слить воздушный компрессор и линии давления может привести к личным травмам, механическим повреждениям или электрическим повреждениям или всему вышеперечисленному.
 
-Датчик давления в мокром резервуаре не работает. **** Заменить его следует с помощью замены электронного компрессора. См. процедуру[[82-019-169 — Electronic Air Compressor Governor|019-169]].
+Датчик давления в мокром резервуаре не работает. Заменить его следует с помощью замены электронного компрессора. См. процедуру[[82-019-169 — Electronic Air Compressor Governor|019-169]].
 
 ![[19200316.png]]
 
@@ -57,7 +58,7 @@ tags:
 > [!danger] ОПАСНО
 > Слить воздушный компрессорный бак и все линии перед удалением или установкой датчика давления влажного резервуара. Неспособность слить воздушный компрессор и линии давления может привести к личным травмам, механическим повреждениям или электрическим повреждениям или всему вышеперечисленному.
 
-Датчик давления в мокром резервуаре не работает. **** Заменить его следует с помощью замены электронного компрессора. См. процедуру[[82-019-169 — Electronic Air Compressor Governor|019-169]].
+Датчик давления в мокром резервуаре не работает. Заменить его следует с помощью замены электронного компрессора. См. процедуру[[82-019-169 — Electronic Air Compressor Governor|019-169]].
 
 ![[19200315.png]]
 

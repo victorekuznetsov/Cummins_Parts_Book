@@ -9,17 +9,20 @@ released: "2009-10-24"
 modified: "2009-10-24"
 group: "22 - Service Tools"
 engines:
-  - "33239746"
+  - "33224404"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101003.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101003.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101003.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2009"
   - "перевод/машинный"
   - "тема/service-tools"
@@ -30,10 +33,10 @@ tags:
 
 > [!abstract] TSB · `tsb101003`
 > **Раздел Cummins:** 22 - Service Tools
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50
 > **Даты:** выпущен 2009-10-24 · изменён 2009-10-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101003.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101003.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101003.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101003.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -47,7 +50,7 @@ tags:
 
 ### Суть проблемы
 
-Это раннее уведомление о поле описывает проблему, которая возникает с некоторыми электронными модулями управления (ECM) во время попытки калибровки. Из-за возможной проблемы с тайм-аутом во время загрузки калибровки, первоначальная передача калибровки может выйти из строя и привести к загрузке ROM. Все остальные попытки калибровки будут неудачными.
+Это раннее уведомление о поле описывает проблему, которая возникает с некоторыми электронными модулями управления (ECM) во время попытки калибровки. Из-за возможной проблемы с тайм-аутом во время загрузки калибровки, первоначальная передача калибровки может выйти из строя и привести к загрузке ECM. Все остальные попытки калибровки будут неудачными.
 
 ### Подтверждение
 

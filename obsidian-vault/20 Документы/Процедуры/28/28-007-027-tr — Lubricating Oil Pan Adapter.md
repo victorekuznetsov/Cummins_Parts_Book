@@ -7,17 +7,16 @@ title_en: "Lubricating Oil Pan Adapter"
 title_ru: "Переходник масляного поддона"
 modified: "2010-11-23"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-027-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-027-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-027-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Переходник масляного поддона**
 
 > [!abstract] Процедура · `28-007-027-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2010-11-23
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-027-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-027-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-027-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-027-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -59,7 +58,7 @@ tags:
 - Удалите фильтры моторного масла.[[28-007-013-tr — Lubricating Oil Filter (Spin-On)|См. процедуру 007-013 в разделе 7.]]
 - Удалите топливный фильтр, если это необходимо. См. процедуру 006-015 в разделе 6.
 - Снимите скобки для морской шестерни для охлаждения масла водопровода, если она оборудована.[[28-008-137-tr — Marine Gear Oil Cooler Plumbing|См. процедуру 008-137 в разделе 8.]]
-- Удалите масляную поддонную панель из адаптера масляной поддонной панели.
+- Удалите масляную кастрюлю из адаптера масляной кастрюли.
 - Удалите пластины крышки из адаптера масляной подкладки, если это необходимо.
 
 ![[ck800wa.png]]
@@ -76,7 +75,7 @@ tags:
 Прокладку утилизируйте.
 
 > [!note] Примечание
-> Зазор ** должен быть достаточным из масляной всасывающей трубки до того, как адаптер можно будет вытащить из нижней части двигателя.
+> Зазор должен быть достаточным из масляной всасывающей трубки до того, как адаптер можно будет вытащить из нижней части двигателя.
 
 ![[op600ha.png]]
 

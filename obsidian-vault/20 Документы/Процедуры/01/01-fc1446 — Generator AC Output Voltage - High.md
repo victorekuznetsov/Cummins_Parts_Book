@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1446.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1446.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1446.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2012-05-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1446.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1446.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1446.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1446.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -74,7 +74,7 @@ tags:
 
 Если напряжения на выходных проводах генератора соответствуют **не** напряжениям, считываемым электронным сервисным оборудованием, проблема может быть в цепях датчика напряжения.
 
-На холостом ходу, если электронный сервисный инструмент INSITETM показывает большее, чем остаточное напряжение от генератора, проблема может быть либо с PMG, либо с полевым проводом, либо с регулятором напряжения. Если отключить разъем 10 и выходное напряжение переменного тока упадет до остаточного, проблема будет с регулятором напряжения. Если напряжение падает **не **, проблема заключается в PMG или проводах поля.
+На холостом ходу, если электронный сервисный инструмент INSITETM показывает большее, чем остаточное напряжение от генератора, проблема может быть либо с PMG, либо с полевым проводом, либо с регулятором напряжения. Если отключить разъем 10 и выходное напряжение переменного тока упадет до остаточного, проблема будет с регулятором напряжения. Если напряжение падает **не**, проблема заключается в PMG или проводах поля.
 
 См. Код устранения неполадок t05-1446.
 

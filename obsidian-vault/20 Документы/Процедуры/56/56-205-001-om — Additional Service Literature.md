@@ -7,18 +7,32 @@ title_en: "Additional Service Literature"
 title_ru: "Дополнительная сервисная литература"
 modified: "2009-11-17"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33239746"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "4021374"
+  - "4915528"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-205-001-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-205-001-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-205-001-om.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QST30"
   - "группа/56"
   - "перевод/машинный"
@@ -28,12 +42,12 @@ tags:
 **Дополнительная сервисная литература**
 
 > [!abstract] Процедура · `56-205-001-om`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QSK60 CM2150 MCRS, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]], [[4915528 — QSK45 and QSK60 Owners Manual|4915528]]
 > **Секции:** Section L - Service Literature
 > **Даты:** изменён 2009-11-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-205-001-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-205-001-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-205-001-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-205-001-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,7 +63,7 @@ tags:
 
 | Вестник | Название публикации |
 |---|---|
-| 4021530 | Руководство по эксплуатации QSK45 и QSK60 |
+| [[4021530 — QSK45 and QSK60 Service Manual\|4021530]] | Руководство по эксплуатации QSK45 и QSK60 |
 | 3666393 | QSX15/QSK45/60 Система управления приводом генератора, устранение неполадок и ремонт |
 | 3666394 | QSX15/QSK45/60 Генератор Установка управления питанием 3200, устранение неполадок и ремонт |
 | 4021533 | QSK38, QSK50 и QSK60 (Модульные системы общего железнодорожного сообщения) Устранение неполадок и ремонт |
@@ -85,8 +99,8 @@ tags:
 | 4022119 | Модульные общие железнодорожные системы QSK60 CM2150 с C Commant EliteTM и Elite PlusTM с панельной системой проводной схемы |
 | 4022120 | Модульная общая железнодорожная система QSK60 CM2150 Морской вспомогательный модуль с системой проводов C CommandTM Panel |
 | 4022121 | Модульная система Common Rail Systems Marine Auxiliary QSK60 CM2150 с C Command EliteTM и C Command Elite PlusTM |
-| 3666260 | QSK45 и QSK60 Руководство по эксплуатации и техническому обслуживанию |
-| 4915528 | QSK45 и QSK60 Руководство для владельцев |
+| [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | QSK45 и QSK60 Руководство по эксплуатации и техническому обслуживанию |
+| [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | QSK45 и QSK60 Руководство для владельцев |
 | [[4021587 — C Command Panel System Marine Master Repair Manual\|4021587]] | Руководство по ремонту, Панельная система Marine C CommandTM |
 | [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]] | Руководство по ремонту, панельная система Marine C Command EliteTM и C Command Elite PlusTM |
 | [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Air Compressor Master Manual |
@@ -105,7 +119,7 @@ tags:
 >
 > | Bulletin | Title of Publication |
 > |---|---|
-> | 4021530 | QSK45 and QSK60 Series Service Manual |
+> | [[4021530 — QSK45 and QSK60 Service Manual\|4021530]] | QSK45 and QSK60 Series Service Manual |
 > | 3666393 | QSX15/QSK45/60 Generator-Drive Control System, Troubleshooting and Repair |
 > | 3666394 | QSX15/QSK45/60 Generator Set Power Command Control Version 3200, Troubleshooting and Repair |
 > | 4021533 | QSK38, QSK50 and QSK60 (Modular Common Rail System) Troubleshooting and Repair |
@@ -141,8 +155,8 @@ tags:
 > | 4022119 | QSK60 CM2150 Modular Common Rail Systems Marine Propulsion with C Commant Elite™ and Elite Plus™ Panel System Wiring Diagram |
 > | 4022120 | QSK60 CM2150 Modular Common Rail Systems Marine Auxiliary with C Command™ Panel System Wiring Diagram |
 > | 4022121 | QSK60 CM2150 Modular Common Rail Systems Marine Auxiliary with C Command Elite™, and C Command Elite Plus™ Panel System Wiring Diagram |
-> | 3666260 | QSK45 and QSK60 Operation and Maintenance Manual |
-> | 4915528 | QSK45 and QSK60 Owners Manual |
+> | [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual\|3666260]] | QSK45 and QSK60 Operation and Maintenance Manual |
+> | [[4915528 — QSK45 and QSK60 Owners Manual\|4915528]] | QSK45 and QSK60 Owners Manual |
 > | [[4021587 — C Command Panel System Marine Master Repair Manual\|4021587]] | Master Repair Manual, Marine C Command™ Panel System |
 > | [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]] | Master Repair Manual, Marine C Command Elite™ and C Command Elite Plus™ Panel System |
 > | [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]] | Holset® Air Compressor Master Repair Manual |

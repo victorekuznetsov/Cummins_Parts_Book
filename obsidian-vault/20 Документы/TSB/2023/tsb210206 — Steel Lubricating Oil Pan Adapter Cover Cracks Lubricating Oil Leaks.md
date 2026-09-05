@@ -10,6 +10,7 @@ modified: "2023-01-05"
 group: "07 - Lubricating Oil Systems"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 parts:
@@ -22,7 +23,7 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210206.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210206.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210206.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
@@ -36,10 +37,10 @@ tags:
 
 > [!abstract] TSB · `tsb210206`
 > **Раздел Cummins:** 07 - Lubricating Oil Systems
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Даты:** выпущен 2023-01-05 · изменён 2023-01-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210206.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210206.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210206.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210206.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -61,7 +62,7 @@ tags:
 
 - QSK19 (все версии)
 
-** Резюме проблемы**
+**Резюме проблемы**
 
 Симптом:
 
@@ -130,7 +131,7 @@ tags:
 | [[3040838]] | CAPTIVE WASHER CAP SCREW | Болт с неотделяемой шайбой |
 | [[3055069]] | THREADED PLUG | Резьбовая пробка |
 | [[3070780]] | OIL PAN ADAPTER COVER | Крышка переходника масляного поддона |
-| [[3073213]] | ADAPTER GASKET | Прокладка переходника |
+| [[3073213]] | Adapter Gasket | Прокладка переходника |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Steel Lubricating Oil Pan Adapter Cover Cracks: Lubricating Oil Leaks

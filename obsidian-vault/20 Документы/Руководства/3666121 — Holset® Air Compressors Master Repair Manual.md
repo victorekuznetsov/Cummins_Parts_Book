@@ -6,25 +6,42 @@ doc: "3666121-history"
 title_en: "Holset® Air Compressors Master Repair Manual"
 title_ru: "Воздушные компрессоры Holset®: руководство по ремонту"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "35354607"
+  - "35373113"
   - "37292556"
   - "37295879"
+  - "71156161"
+  - "80141463"
+  - "80248213"
+  - "93047320"
 families:
+  - "6B5.9"
+  - "QSK60"
+  - "QSM11"
   - "QST30"
+  - "QSX15"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666121-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666121-history.pdf"
 tags:
   - "документ/руководство"
+  - "двигатель/6B5.9"
+  - "двигатель/QSK60"
+  - "двигатель/QSM11"
   - "двигатель/QST30"
+  - "двигатель/QSX15"
 ---
 
 # Holset® Air Compressors Master Repair Manual
 **Воздушные компрессоры Holset®: руководство по ремонту**
 
 > [!abstract] Руководство · `3666121-history`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666121-history.pdf)
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[93047320 — 6B5.9 CPL 3111|93047320]]
+> **Семейство:** 6B5.9, QSK60, QSM11, QST30, QSX15
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666121-history.pdf)
 
 
 ## Оглавление руководства (55 процедур)
@@ -47,13 +64,13 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptoms Charts | 03-Apr-2002 |
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t004-tr | Air Compressor Air Pressure Rises Slowly | 13-Jun-2005 |
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t006-tr | Air Compressor Noise is Excessive | 13-Jun-2005 |
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t007-tr | Air Compressor Pumping Excess Lubricating Oil into the Air System | 13-Jun-2005 |
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t008-tr | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 13-Jun-2005 |
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t009-tr | Air Compressor Will Not Pump Air | 13-Jun-2005 |
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t010-tr | Air Compressor Will Not Stop Pumping | 13-Jun-2005 |
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t005-tr | Air Compressor Cycles Frequently | 15-Jun-2005 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t004-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-t004-tr.html) | Air Compressor Air Pressure Rises Slowly | 13-Jun-2005 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t006-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-t006-tr.html) | Air Compressor Noise is Excessive | 13-Jun-2005 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t007-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-t007-tr.html) | Air Compressor Pumping Excess Lubricating Oil into the Air System | 13-Jun-2005 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t008-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-t008-tr.html) | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 13-Jun-2005 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t009-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-t009-tr.html) | Air Compressor Will Not Pump Air | 13-Jun-2005 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t010-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-t010-tr.html) | Air Compressor Will Not Stop Pumping | 13-Jun-2005 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-t005-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-t005-tr.html) | Air Compressor Cycles Frequently | 15-Jun-2005 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
 
 ### Section V - Specifications
@@ -96,9 +113,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-titlepage | Titlepage | 13-Jun-2005 |
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-toc | Table of Contents | 13-Jun-2005 |
-| mrm-frwd | Foreword | 22-May-2006 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-titlepage.html) | Titlepage | 13-Jun-2005 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-toc.html) | Table of Contents | 13-Jun-2005 |
+| [mrm-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/mrm-frwd.html) | Foreword | 22-May-2006 |
 
 ### Section E - Component Identification
 
@@ -132,4 +149,4 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-backcover | Backcover | 13-Jun-2005 |
+| [[[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666121/3666121-backcover.html) | Backcover | 13-Jun-2005 |

@@ -8,6 +8,7 @@ title_ru: "Присадка к охлаждающей жидкости (SCA)"
 modified: "2004-12-13"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-060.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-060.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-060.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Присадка к охлаждающей жидкости (SCA)**
 
 > [!abstract] Процедура · `20-008-060`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 8 - Cooling System - Group 08
 > **Даты:** изменён 2004-12-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-060.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-060.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-060.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-060.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,14 +53,14 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Недостаточная концентрация добавок охлаждающей жидкости может привести к серьезному коррозионному повреждению компонентов системы охлаждения. Чрезмерная концентрация может вызвать образование желатина (геля), что может вызвать ограничения и закупорку.
 
-Концентрация SCA ** не должна ** опускаться ниже 1,2 единицы на 3,8 литра \[1 галл\] или превышать 3 единицы на 3,8 литра \[1 галл\].
+Концентрация SCA **не должна **опускаться ниже 1,2 единицы на 3,8 литра \[1 галл\] или превышать 3 единицы на 3,8 литра \[1 галл\].
 
 ![[08800007.png]]
 
-При изменении охлаждающей жидкости начальная SCA или эквивалентная концентрация ** должна быть от 1,2 до 3 единиц на 3,8 литра \[1 галл\] охлаждающей жидкости (первоначальный заряд).
+При изменении охлаждающей жидкости начальная SCA или эквивалентная концентрация должна быть от 1,2 до 3 единиц на 3,8 литра \[1 галл\] охлаждающей жидкости (первоначальный заряд).
 
 > [!note] Примечание
-> Система охлаждения ** должна быть чистой перед добавлением SCA или эквивалента. См. процедуру[[20-008-018-tr — Cooling System|008-018]].
+> Система охлаждения должна быть чистой перед добавлением SCA или эквивалента. См. процедуру[[20-008-018-tr — Cooling System|008-018]].
 
 ![[08800007.png]]
 

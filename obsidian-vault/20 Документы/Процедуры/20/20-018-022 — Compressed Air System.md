@@ -8,6 +8,7 @@ title_ru: "Система сжатого воздуха"
 modified: "2007-01-31"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-018-022.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-018-022.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-018-022.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Система сжатого воздуха**
 
 > [!abstract] Процедура · `20-018-022`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section V - Maintenance Specifications · Section V - Specifications
 > **Даты:** изменён 2007-01-31
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-018-022.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-018-022.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-018-022.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-018-022.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -98,7 +99,7 @@ tags:
 |---|---|
 
 > [!note] Примечание
-> В приложениях, где рабочие циклы в среднем на 10 процентов или более или давление воздуха выше 862 кПа \[125 psi\], используйте линию разряда с минимальным внутренним диаметром 15,9 мм \[0,625 дюйма \] для одноцилиндровых компрессоров и 25,4 мм \[1 дюйм \] для двухцилиндровых компрессоров для предотвращения накопления углерода. Примерами таких применений являются следующие: Откажитесь от грузовиков Пикап и грузовики доставки Транзит автобусы Оборудование с высоким уровнем использования дополнительного воздуха.
+> В приложениях, где рабочие циклы в среднем на 10 процентов или более или давление воздуха выше 862 кПа \[125 psi\], используйте линию разряда с минимальным внутренним диаметром 15,9 мм \[0,625 дюйма \] для одноцилиндровых компрессоров и 25,4 мм \[1 дюйм \] для двухцилиндровых компрессоров для предотвращения накопления углерода. Примерами таких применений являются следующие: Откажитесь от грузовиков Пикап и грузовики доставки Транзит шины Оборудование с высоким уровнем использования дополнительного воздуха.
 
 Holset® SS296, SS296E и SS338E A/C Model
 

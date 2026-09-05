@@ -8,6 +8,7 @@ title_ru: "Выступание форсунки"
 modified: "2014-04-28"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-002-022.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-002-022.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-002-022.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Выступание форсунки**
 
 > [!abstract] Процедура · `20-002-022`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 2 - Cylinder Head - Group 02
 > **Даты:** изменён 2014-04-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-002-022.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-002-022.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-002-022.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-002-022.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,9 +54,9 @@ ReCon® внедрил новый код штамповки для всех го
 > Поддерживайте головку цилиндра, чтобы предотвратить повреждение кончика форсунки, который выступает из поверхности сгорания.
 
 > [!note] Примечание
-> Двигатели с топливным форсункой с электронным приводом ** не** требуют измерения протрузии форсунки.
+> Двигатели с топливным форсункой с электронным приводом **не** требуют измерения протрузии форсунки.
 
-Установите форсунка в головку цилиндра.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе.]]
+Установите форсунку в головку цилиндра.[[20-006-026-tr — Injector|См. процедуру 006-026 в разделе.]]
 
 ![[06400016.png]]
 
@@ -63,7 +64,7 @@ ReCon® внедрил новый код штамповки для всех го
 
 ![[01800004.png]]
 
-Измерьте протрузию форсунки. Если выступ ** не** в пределах спецификаций, используйте уплотнительное кольцо негабаритного размера.
+Измерьте протрузию форсунки. Если выступ **не** в пределах спецификаций, используйте уплотнительное кольцо негабаритного размера.
 
 | Выступание форсунки |  |  |
 |---|---|---|

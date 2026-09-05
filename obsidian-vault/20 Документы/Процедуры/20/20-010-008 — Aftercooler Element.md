@@ -8,6 +8,7 @@ title_ru: "Элемент охладителя наддувочного возд
 modified: "2006-07-05"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-008.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-008.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-008.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Элемент охладителя наддувочного воздуха**
 
 > [!abstract] Процедура · `20-010-008`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2006-07-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-008.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-008.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-008.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -109,7 +110,7 @@ tags:
 
 ![[08400078.png]]
 
-Используйте чистое моторное масло. Смазать уплотнение (5). Установите печать на фиксатор (3).
+Используйте чистое моторное масло. Смазать уплотнение (5). Установите уплотнение на фиксатор (3).
 
 Используйте чистое моторное масло. Смазать внешний диаметр водопроводных боссов на элементе послеохладителя.
 
@@ -122,7 +123,7 @@ tags:
 
 Затягивать и крутить 24 крышки болтов в шагах и значениях, перечисленных ниже.
 
-| ** Момент затяжки:** | ШАГ 1. | 35 Н·м[25 фунт-фут] |
+| **Момент затяжки:** | ШАГ 1. | 35 Н·м[25 фунт-фут] |
 |---|---|---|
 
 |  | ШАГ 2. | 50 Н·м[35 фунт-фут] |

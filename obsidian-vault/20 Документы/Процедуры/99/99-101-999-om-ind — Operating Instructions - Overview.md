@@ -7,29 +7,50 @@ title_en: "Operating Instructions - Overview"
 title_ru: "Инструкции по эксплуатации — обзор"
 modified: "2023-07-20"
 engines:
+  - "35354607"
+  - "35373113"
   - "37292556"
   - "37295879"
   - "41349633"
+  - "41353297"
+  - "71156161"
+  - "80141463"
+  - "80248213"
+  - "85017333"
+  - "93047320"
   - "93058669"
+  - "93087701"
 families:
+  - "6B5.9"
   - "C8.3 · 6C8.3"
   - "QSK19"
+  - "QSK23"
+  - "QSM11"
   - "QST30"
+  - "QSX15"
 manuals:
   - "2883407"
   - "3666120"
   - "3666134"
+  - "3666423"
   - "4021330"
+  - "4021374"
+  - "4021389"
+  - "4021942"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-999-om-ind.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-999-om-ind.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-999-om-ind.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/C8.3"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
+  - "двигатель/QSM11"
   - "двигатель/QST30"
+  - "двигатель/QSX15"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -38,12 +59,12 @@ tags:
 **Инструкции по эксплуатации — обзор**
 
 > [!abstract] Процедура · `99-101-999-om-ind`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3, QSK19, QST30
-> **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]]
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[85017333 — QSK23 CM500 CPL 2858|85017333]], [[93047320 — 6B5.9 CPL 3111|93047320]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** 6B5.9, C8.3 · 6C8.3, QSK19, QSK23, QSM11, QST30, QSX15
+> **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]], [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666423 — QSX15 Operation and Maintenance Manual|3666423]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]], [[4021389 — B3.9, B4.5, B5.9 Industrial Operation and Maintenance Manual|4021389]], [[4021942 — QSM11 Industrial Operation and Maintenance Manual|4021942]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2023-07-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-999-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-999-om-ind.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-999-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-999-om-ind.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского

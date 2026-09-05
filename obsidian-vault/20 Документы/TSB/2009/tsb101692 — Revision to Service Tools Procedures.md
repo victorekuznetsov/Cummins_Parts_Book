@@ -10,12 +10,13 @@ modified: "2005-07-11"
 group: "00 - Complete Engine / Troubleshooting"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101692.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101692.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101692.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
@@ -29,10 +30,10 @@ tags:
 
 > [!abstract] TSB · `tsb101692`
 > **Раздел Cummins:** 00 - Complete Engine / Troubleshooting
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2009-12-17 · изменён 2005-07-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101692.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101692.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101692.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101692.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +54,7 @@ tags:
 В данной теме «Сервис/Части» представлена информация о пересмотре Процедуры 022-001, Инструментов обслуживания двигателей серий 6С и С8.3. Выпущена новая сервисная оснастка для снятия шестерни топливного насоса.
 
 > [!note] Примечание
-> Это усовершенствование продукта и ** не подлежит кампании.
+> Это усовершенствование продукта и не подлежит кампании.
 
 
 > [!quote]- Original (English) · английский оригинал

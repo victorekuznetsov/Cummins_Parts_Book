@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc422.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc422.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc422.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc422.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc422.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc422.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc422.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -70,7 +70,7 @@ tags:
 
 ### Практические замечания
 
-Этот код неисправности будет активен, когда оба сигнальных провода показывают одинаковое напряжение. Открытая цепь в сигнальном проводе может заставить сигнал дать показания 5 VDC для ECM. Проверьте уровень охлаждающей жидкости. Возможный режим отказа заключается в том, что датчик вышел из строя, в то время как уровень охлаждающей жидкости был нормальным, и ECM не будет его обнаруживать. Если уровень охлаждающей жидкости затем снизился, ECM сообщит об ошибке датчика, **не ** низкий уровень охлаждающей жидкости.
+Этот код неисправности будет активен, когда оба сигнальных провода показывают одинаковое напряжение. Открытая цепь в сигнальном проводе может заставить сигнал дать показания 5 VDC для ECM. Проверьте уровень охлаждающей жидкости. Возможный режим отказа заключается в том, что датчик вышел из строя, в то время как уровень охлаждающей жидкости был нормальным, и ECM не будет его обнаруживать. Если уровень охлаждающей жидкости затем снизился, ECM сообщит об ошибке датчика, **не **низкий уровень охлаждающей жидкости.
 
 См. Код устранения неполадок t05-422
 

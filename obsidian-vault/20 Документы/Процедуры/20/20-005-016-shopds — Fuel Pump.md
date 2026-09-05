@@ -8,6 +8,7 @@ title_ru: "Топливный насос"
 modified: "2017-10-27"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-016-shopds.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-016-shopds.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-016-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Топливный насос**
 
 > [!abstract] Процедура · `20-005-016-shopds`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section DS - Engine Disassembly - Group 00
 > **Даты:** изменён 2017-10-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-016-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-016-shopds.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-016-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-016-shopds.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -65,7 +66,7 @@ tags:
 
 Железнодорожное применение
 
-Насос для очистки моторного масла (A) ** должен быть удален до удаления топливного насоса (B), чтобы обеспечить доступ к болтам для монтажа топливного насоса.[[20-007-060 — Oil Scavenge Pump|См. процедуру 007-060 в разделе 7.]]
+Насос для очистки моторного масла (A) должен быть удален до удаления топливного насоса (B), чтобы обеспечить доступ к болтам для монтажа топливного насоса.[[20-007-060 — Oil Scavenge Pump|См. процедуру 007-060 в разделе 7.]]
 
 ![[17400021.png]]
 
@@ -79,7 +80,7 @@ tags:
 
 ![[05400290.png]]
 
-**Не снимайте опорную кронштейн (1) с топливного насоса, если топливный насос не нуждается в замене.
+Не снимайте опорную кронштейн (1) с топливного насоса, если топливный насос не нуждается в замене.
 
 ![[05400252.png]]
 

@@ -9,21 +9,40 @@ released: "2015-12-07"
 modified: "2018-10-04"
 group: "22 - Service Tools"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "37269910"
+  - "37280605"
+  - "41340468"
   - "41349633"
+  - "41353297"
+  - "85017333"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K19"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
+  - "QSK23"
+  - "QSK50"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150183.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150183.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150183.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2015"
   - "перевод/машинный"
   - "тема/service-tools"
@@ -34,10 +53,10 @@ tags:
 
 > [!abstract] TSB · `tsb150183`
 > **Раздел Cummins:** 22 - Service Tools
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** K19, K38/K50 · QSK38, QSK50, QSK19, QSK23, QSK50, QSK60, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2015-12-07 · изменён 2018-10-04
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150183.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150183.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150183.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150183.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -89,7 +108,7 @@ tags:
 
 Дистрибьюторы и дилеры Cummins® должны делиться этим документом со всеми клиентами, которые занимаются самообслуживанием.
 
-** Доступны инструменты и обучение**
+**Доступны инструменты и обучение**
 
 Обновления инструментов для электронных услуг INSITETM, поддержка шины данных CAN и информация, а также учебный материал для инструментов электронных услуг также доступны по адресу http://care.cummins.com
 

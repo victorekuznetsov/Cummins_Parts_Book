@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc514.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc514.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc514.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc514.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc514.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc514.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc514.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -70,7 +70,7 @@ ECM использует сигнал давления рельсов топли
 
 ### Практические замечания
 
-Расчетные топливные рельсы и требуемые параметры топливных рельсов можно контролировать на электронном сервисном оборудовании. Эта неисправность является проверкой контроля ECM привода рельса и последующего расхода топлива. Если требуемый топливный рельс может быть выполнен **не**, если требуется больше тока для привода, или если требуемый топливный рельс превышен и может **не** быть уменьшен путем уменьшения тока для привода, то код 514 по умолчанию регистрируется. Эта ошибка ** не зарегистрирована, когда:
+Расчетные топливные рельсы и требуемые параметры топливных рельсов можно контролировать на электронном сервисном оборудовании. Эта неисправность является проверкой контроля ECM привода рельса и последующего расхода топлива. Если требуемый топливный рельс может быть выполнен **не**, если требуется больше тока для привода, или если требуемый топливный рельс превышен и может **не** быть уменьшен путем уменьшения тока для привода, то код 514 по умолчанию регистрируется. Эта ошибка не зарегистрирована, когда:
 
 - Скорость двигателя ниже 1200 об/мин
 

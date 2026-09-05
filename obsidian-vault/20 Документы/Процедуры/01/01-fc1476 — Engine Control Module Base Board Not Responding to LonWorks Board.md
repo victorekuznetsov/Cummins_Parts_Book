@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1476.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1476.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1476.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2012-05-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1476.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1476.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1476.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1476.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 1476 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Базовая плата ECM ** не отвечает на доску LonWorks. | Никаких действий со стороны ЕКМ не предпринимается. |
+| Код неисправности: 1476 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Базовая плата ECM не отвечает на доску LonWorks. | Никаких действий со стороны ЕКМ не предпринимается. |
 
 ![[19802649.png]]
 
@@ -62,7 +62,7 @@ tags:
 
 ### Описание цепи
 
-Этот код неисправности используется модулем управления двигателем (ECM) для того, чтобы сообщить оператору, что базовая плата ** не** отвечает на команды, отправленные через плату LonWorks.
+Этот код неисправности используется модулем управления двигателем (ECM) для того, чтобы сообщить оператору, что базовая плата **не** отвечает на команды, отправленные через плату LonWorks.
 
 ### Расположение компонента
 

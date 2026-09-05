@@ -8,6 +8,7 @@ title_ru: "Масляный фильтр (навинчиваемый)"
 modified: "2009-06-09"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-007-013-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-007-013-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-007-013-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Масляный фильтр (навинчиваемый)**
 
 > [!abstract] Процедура · `41-007-013-tr`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2009-06-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-007-013-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-007-013-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-007-013-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-007-013-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,7 +50,7 @@ tags:
 
 Для использования доступны следующие части или эквивалент:
 
-| ** Часть номера** | **Описание** |
+| **Номера деталей** | **Описание** |
 |---|---|
 | 3377244 | КомпьючекTM фитинг (1/8 дюйма 27 NPT) |
 | 3376920 | Сцепление CompuchekTM (1/4 дюйма трубной резьбы) |
@@ -66,7 +67,7 @@ tags:
 
 Управляйте двигателем при каждой указанной оборотной частоте и записывайте соответствующие значения давления:
 
-|  | ** Двигатель RPM** | **Впуск фильтра давления масла** | ** Нефтяной фильтр давления ** | ** Вход - выход = дифференциальное давление** | **Инструменты электронного обслуживания INSITETM** |
+|  | **Двигатель RPM** | **Впуск фильтра давления масла** | **Масляной фильтр давления**| **Вход - выход = дифференциальное давление** | **Инструменты электронного обслуживания INSITETM** |
 |---|---|---|---|---|---|
 | Низкий холостый |  |  |  |  |  |
 | Высокое холостое |  |  |  |  |  |
@@ -75,7 +76,7 @@ tags:
 
 Определите причины заглушенного фильтра. Проверить Cummins Inc. В настоящее время соблюдаются руководящие принципы технического обслуживания.
 
-Используйте следующую процедуру для проверки возможного загрязнения жидкости. См. процедуру 007-083 в разделе 7.
+Используйте следующую процедуру для проверки возможного загрязнения жидкости.[[100-007-083 — Lubricating Oil and Filter Analysis|См. процедуру 007-083 в разделе 7.]]
 
 Измените как моторное масло, так и фильтр моторного масла, если фильтр подключен.
 
@@ -122,7 +123,7 @@ tags:
 
 Проверить фильтрующий элемент на наличие влаги или металлических частиц.
 
-| ** Металл** | **Вероятный источник** |
+| **Металл** | **Вероятный источник** |
 |---|---|
 | медь | Подшипники и втулки |
 | Хром | Поршневые кольца |
@@ -164,7 +165,7 @@ tags:
 >
 > Identify the causes of a plugged filter. Verify the Cummins Inc. maintenance guidelines are being met.
 >
-> Use the following procedure to check for possible fluid contamination. Refer to Procedure 007-083 in Section 7.
+> Use the following procedure to check for possible fluid contamination. [[100-007-083 — Lubricating Oil and Filter Analysis|Refer to Procedure 007-083 in Section 7.]]
 >
 > Change both the lubricating oil and the lubricating oil filter, if the filter is plugged.
 >

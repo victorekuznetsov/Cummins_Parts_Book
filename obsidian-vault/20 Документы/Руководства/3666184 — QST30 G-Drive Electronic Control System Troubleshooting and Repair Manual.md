@@ -12,7 +12,7 @@ families:
   - "QST30"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666184-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666184-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/QST30"
@@ -24,7 +24,7 @@ tags:
 > [!abstract] Руководство · `3666184-history`
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666184-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666184-history.pdf)
 
 
 ## Оглавление руководства (89 процедур)
@@ -33,9 +33,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-toc | table of contents |  |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-titlepage | titlepage | 19-Mar-2003 |
-| tr-frwd | foreword | 22-May-2006 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-toc.html) | table of contents |  |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-titlepage.html) | titlepage | 19-Mar-2003 |
+| [tr-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/tr-frwd.html) | foreword | 22-May-2006 |
 
 ### Section i - Introduction
 
@@ -91,23 +91,23 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t016-tr | Communications Error — Electronic Service Tool or Control Device | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t033-tr | Engine Acceleration or Response Slow | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t041-tr | Engine Decelerates Slowly | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t043-tr | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t044-tr | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t057-tr | Engine Power Output Low | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t062-tr | Engine Runs Rough or Misfires | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t064-tr | Engine Shuts Off Unexpectedly or Dies During Deceleration | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t066-tr | Engine Speed Surges at Low or High Idle | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t080-tr | Engine Will Not Reach Rated Speed (RPM) | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t087-tr | Fuel Consumption Excessive | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t091-tr | Fuel in Coolant | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t092-tr | Fuel in Lubricating Oil | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t116-tr | Smoke, Black-Excessive | 06-Feb-2008 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t118-tr | Smoke, White-Excessive | 14-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t016-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t016-tr.html) | Communications Error — Electronic Service Tool or Control Device | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t033-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t033-tr.html) | Engine Acceleration or Response Slow | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t041-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t041-tr.html) | Engine Decelerates Slowly | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t043-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t043-tr.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t044-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t044-tr.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t057-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t057-tr.html) | Engine Power Output Low | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t062-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t062-tr.html) | Engine Runs Rough or Misfires | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t064-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t064-tr.html) | Engine Shuts Off Unexpectedly or Dies During Deceleration | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t066-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t066-tr.html) | Engine Speed Surges at Low or High Idle | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t080-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t080-tr.html) | Engine Will Not Reach Rated Speed (RPM) | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t087-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t087-tr.html) | Fuel Consumption Excessive | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t091-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t091-tr.html) | Fuel in Coolant | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t092-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t092-tr.html) | Fuel in Lubricating Oil | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t116-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t116-tr.html) | Smoke, Black-Excessive | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t118-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t118-tr.html) | Smoke, White-Excessive | 14-Feb-2008 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t092-5-tr | Fuel Leak - External | 11-Jul-2025 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-t092-5-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-t092-5-tr.html) | Fuel Leak - External | 11-Jul-2025 |
 
 ### Section F - Familiarization
 
@@ -157,7 +157,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-backcover | Backcover | 06-Feb-2008 |
+| [[[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual\|3666184]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666184/3666184-backcover.html) | Backcover | 06-Feb-2008 |
 
 ### Section E - Engine Identification
 

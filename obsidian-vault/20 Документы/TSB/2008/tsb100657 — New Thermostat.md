@@ -10,12 +10,13 @@ modified: "2008-04-02"
 group: "08 - Cooling System"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100657.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100657.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100657.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
@@ -29,10 +30,10 @@ tags:
 
 > [!abstract] TSB · `tsb100657`
 > **Раздел Cummins:** 08 - Cooling System
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2008-04-02 · изменён 2008-04-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100657.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100657.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100657.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100657.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -59,7 +60,7 @@ tags:
 
 Термостат, номер детали 4930594, заменяет термостат, номер детали 4936026 для дизельных и газовых двигателей серии C и L, за исключением двигателей ISC и ISL CM2150.
 
-Двигатели ISC и ISL CM2150 имеют более высокую потребность в потоке охлаждающей жидкости из-за добавления охлаждения EGR, и ** ТОЛЬКО** термостат, номер детали 4936026, может использоваться в качестве замены термостата в двигателях ISC и ISL CM2150.
+Двигатели ISC и ISL CM2150 имеют более высокую потребность в потоке охлаждающей жидкости из-за добавления охлаждения EGR, и **ТОЛЬКО** термостат, номер детали 4936026, может использоваться в качестве замены термостата в двигателях ISC и ISL CM2150.
 
 Это число части термостата заменяет текущее число части. Это изменение не влияет на структуру наборов услуг. Текущий номер детали термостата, номер детали термостата, заменяющий номер детали термостата, и дата утверждения перечислены ниже в таблице 1.
 

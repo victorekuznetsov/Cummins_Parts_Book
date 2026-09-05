@@ -17,7 +17,7 @@ figures: 18
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-092.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-009-092.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-092.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 9 - Drive Units - Group 09
 > **Даты:** изменён 2026-05-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-092.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-009-092.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-092.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-092.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -84,7 +84,7 @@ tags:
 
 Удалите привод водяного насоса LTA.
 
-Удалить и отбросить уплотнительные кольца и прямоугольную полосовую печать.
+Удалить и отбросить уплотнительные кольца и прямоугольную полосовую уплотнение.
 
 ![[09n00069.png]]
 
@@ -114,7 +114,7 @@ Front Gear Cover установлен
 
 Переключите привод водяного насоса LTA.
 
-Восстановите привод водяного насоса LTA, если он ** не** поворачивается плавно.
+Восстановите привод водяного насоса LTA, если он **не** поворачивается плавно.
 
 ![[09n00072.png]]
 
@@ -126,7 +126,7 @@ Front Gear Cover установлен
 | 0.19 | Мин | 0.0075 |
 | 0.59 | Макс | 0.0232 |
 
-Заменить подшипники тяги, если зазор ** не** в пределах спецификаций.
+Заменить подшипники тяги, если зазор **не** в пределах спецификаций.
 
 ![[09n00073.png]]
 
@@ -221,7 +221,7 @@ Front Gear Cover установлен
 
 Привод аксессуара установлен
 
-Установите новые уплотнительные кольца и прямоугольную полосовую печать.
+Установите новые уплотнительные кольца и прямоугольную полосовую уплотнение.
 
 Смазочные уплотнительные кольца с LubriplateTM 105, Part Number 3163086 или эквивалент.
 

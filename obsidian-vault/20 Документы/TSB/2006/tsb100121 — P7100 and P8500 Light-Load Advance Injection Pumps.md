@@ -16,7 +16,7 @@ families:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100121.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100121.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100121.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2006-10-30 · изменён 2006-10-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100121.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100121.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100121.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100121.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,7 +57,7 @@ tags:
 
 Двигатели QST30 с рейтингом G3, G4 и G5 теперь используют насосы P8500 с увеличенной нагрузкой. Этот насос использует уникальный разрез спирали для увеличения времени впрыска во время условий работы с легкой нагрузкой для уменьшения белого дыма. Накопитель правого берега - часть 3093278, а насос левого берега - часть 3093279. Единственный способ определить разницу между P8500 и P8500 передовыми насосами легкой нагрузки - это прочитать номер детали на табличке с данными насоса. Номер детали — первые семь цифр четвертой строки на табличке. Двигатели с передовыми насосами с легкой нагрузкой P8500 требуют иной ECM, чем ранее используемые насосы P8500, но другие компоненты топливной системы остаются прежними. Насосы P8500 с заблаговременной загрузкой устанавливаются на все G3, G4 и G5, построенные после 15 июля 2000 года.
 
-** Новые контрольные части **
+**Новые контрольные части**
 
 | Таблица 1, Новые списки контрольных частей для изменения конфигурации |  |
 |---|---|

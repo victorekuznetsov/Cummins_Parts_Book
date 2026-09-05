@@ -9,16 +9,21 @@ released: "2020-03-02"
 modified: "2020-03-02"
 group: "01 - Cylinder Block"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "37292556"
   - "37295879"
 families:
+  - "QSK60"
   - "QST30"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2007/tsb070020.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb070020.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb070020.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/QSK60"
   - "двигатель/QST30"
   - "год/2020"
   - "перевод/машинный"
@@ -30,10 +35,10 @@ tags:
 
 > [!abstract] TSB · `tsb070020`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
+> **Семейство:** QSK60, QST30
 > **Даты:** выпущен 2020-03-02 · изменён 2020-03-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2007/tsb070020.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb070020.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2007/tsb070020.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb070020.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,11 +60,11 @@ tags:
 
 Наблюдались некоторые случаи высокого падения продува и охлаждающей жидкости в масляном отстойнике.
 
-Если двигатель показывает симптомы поршня и поршня лайнера, будет видна центральная линия бортового потасовки.
+Если двигатель показывает симптомы поршня и поршня гильзы, будет видна центральная линия бортового потасовки.
 
 Порка происходит во время холодных стартов, но может не проявлять никаких симптомов, пока не будет накоплено больше часов.
 
-Существует потенциал повреждения поршня, лайнера, шатуна, коленчатого вала и блока двигателя.
+Существует потенциал повреждения поршня, гильзы, шатуна, коленчатого вала и блока двигателя.
 
 ### Решение
 

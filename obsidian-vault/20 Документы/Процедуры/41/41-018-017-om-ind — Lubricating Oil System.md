@@ -8,6 +8,7 @@ title_ru: "Система смазки"
 modified: "2012-07-09"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -17,7 +18,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-018-017-om-ind.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-018-017-om-ind.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-018-017-om-ind.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -29,12 +30,12 @@ tags:
 **Система смазки**
 
 > [!abstract] Процедура · `41-018-017-om-ind`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]], [[4915548 — C8.3 Commercial Marine and Industrial Owners Manual|4915548]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2012-07-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-018-017-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-018-017-om-ind.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-018-017-om-ind.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-018-017-om-ind.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -48,7 +49,7 @@ tags:
 
 Промышленное применение
 
-#### Нефтяное давление
+#### Масляное давление
 
 | При скорости холостого хода - минимальная | 69 кПа[10 psi] |
 |---|---|
@@ -73,7 +74,7 @@ tags:
 | В стороне от стороны | 45 градусов |
 |---|---|
 
-#### Нефтяная мощность стандартного двигателя:
+#### Масляная мощность стандартного двигателя:
 
 | Standard Oil Pan (только для банок) | 18,9 л[20 квт] |
 |---|---|
@@ -81,9 +82,9 @@ tags:
 | Стандартный масляный пан с цилиндрической блок-стифферентной пластиной (только памперс) | 19,9 литра[21 квт] |
 |---|---|
 
-#### Нефть от низкого до высокого:
+#### Масло от низкого до высокого:
 
-| Стандартный нефтяной панк | 15,1-18,9 литра [16-20 квт] |
+| Стандартный масляной панк | 15,1-18,9 литра [16-20 квт] |
 |---|---|
 
 | Стандартный масляный пан с цилиндрической блок-штифферентной пластиной | 16,1-19,9 литра [17-21 квт] |
@@ -100,7 +101,7 @@ tags:
 
 Судовое применение
 
-#### Нефтяное давление
+#### Масляное давление
 
 | При скорости холостого хода - минимальная | 55 кПа[8 psi] |
 |---|---|
@@ -111,7 +112,7 @@ tags:
 | Максимальная допустимая температура масла | 120°C[250°F] |
 |---|---|
 
-| Нефтяной панк-емкость высокая/низкая | 17/13 литров [18/14 квт] |
+| Масляной панк-емкость высокая/низкая | 17/13 литров [18/14 квт] |
 |---|---|
 
 | Общая емкость системы (исключая обходной фильтр) | 21,9 литра[23,2 квт] |

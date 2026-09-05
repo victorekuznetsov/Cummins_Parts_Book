@@ -17,7 +17,7 @@ figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-026.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-026.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-026.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2002-12-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-026.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-026.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-026.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-026.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -84,7 +84,7 @@ tags:
 
 ![[19802483.png]]
 
-Если цепь ** не** закрыта, отремонтируйте или замените электропроводку двигателя. См. процедуру[[01-019-043 — Engine Wiring Harness|019-043]].
+Если цепь **не** закрыта, отремонтируйте или замените электропроводку двигателя. См. процедуру[[01-019-043 — Engine Wiring Harness|019-043]].
 
 Сделайте выше для каждого штифта в 9-пиновом Deutsch.
 
@@ -98,7 +98,7 @@ tags:
 
 Измерить сопротивление от набора данных готового провода, измеряя сопротивление от контакта А 9-контактного разъема Deutsch к блоку двигателя. Мультиметр **должен** показать обрыв цепи (100 кОм и более).
 
-Если схема ** не** открыта, отремонтируйте или замените электропроводку двигателя. См. процедуру[[01-019-043 — Engine Wiring Harness|019-043]].
+Если схема **не** открыта, отремонтируйте или замените электропроводку двигателя. См. процедуру[[01-019-043 — Engine Wiring Harness|019-043]].
 
 Делайте это для каждого штифта в 9-пиновом Deutsch, кроме земли.
 
@@ -106,13 +106,13 @@ tags:
 
 ### Проверка на замыкание между контактами
 
-** Deutsche Connector**
+**Deutsche Connector**
 
 Удалите разъем удлинителя проводов ремня от разъема ECM 05.
 
 Используйте измерительный щуп, номер детали 3824811, для 9-контактного разъема Deutsch. Измерьте сопротивление от узла обнаружения носителя ко всем другим штангам в разъеме. Мультиметр **должен** показать обрыв цепи (100 кОм и более).
 
-Если схема ** не** открыта, отремонтируйте или замените электропроводку двигателя. См. процедуру[[01-019-043 — Engine Wiring Harness|019-043]].
+Если схема **не** открыта, отремонтируйте или замените электропроводку двигателя. См. процедуру[[01-019-043 — Engine Wiring Harness|019-043]].
 
 Следуйте приведенным выше инструкциям для каждого штифта в 9-контактном разъеме Deutsch.
 

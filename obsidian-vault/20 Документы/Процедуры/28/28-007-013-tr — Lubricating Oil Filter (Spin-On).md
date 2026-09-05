@@ -7,17 +7,16 @@ title_en: "Lubricating Oil Filter (Spin-On)"
 title_ru: "Масляный фильтр (навинчиваемый)"
 modified: "2021-05-25"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 14
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-013-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-013-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-013-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Масляный фильтр (навинчиваемый)**
 
 > [!abstract] Процедура · `28-007-013-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2021-05-25
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-013-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-013-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-013-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-013-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +55,7 @@ tags:
 
 Используйте гаечный ключ масляного фильтра, часть 3400157 или эквивалент. Удалите фильтры полного потока.
 
-Откажитесь от фильтров, если они ** не нужны для анализа отказов.
+Откажитесь от фильтров, если они не нужны для анализа отказов.
 
 ![[lf6etha.png]]
 
@@ -69,7 +68,7 @@ tags:
 > [!note] Примечание
 > Большинство двигателей К50 требуют фильтров для полного потока масла.
 
-Используйте чистое моторное масло. Заполните фильтр маслом. Смазать уплотнения и часть фильтра адаптера, который ** не ** содержит резьбу.
+Используйте чистое моторное масло. Заполните фильтр маслом. Смазать уплотнения и часть фильтра адаптера, который **не **содержит резьбу.
 
 Установите фильтры. См. сервисное руководство изготовителя машины.
 
@@ -107,7 +106,7 @@ Spin-on Type
 
 Если разница в давлении превышает максимально допустимое значение, используется масляный фильтр с чрезмерным ограничением. Замените фильтры и проверьте перепад давления снова.
 
-| ** Измерения** |  |  |  |
+| **Измерения** |  |  |  |
 |---|---|---|---|
 |  | каша | пси |  |
 | Максимальный дифференциал давления фильтра масла | Новые/чистые масляные фильтры | 83 | 12 |

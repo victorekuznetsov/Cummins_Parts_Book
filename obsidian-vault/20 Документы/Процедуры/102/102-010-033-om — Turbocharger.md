@@ -7,17 +7,16 @@ title_en: "Turbocharger"
 title_ru: "Турбокомпрессор"
 modified: "2011-11-02"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
 figures: 6
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-010-033-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-010-033-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-010-033-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Турбокомпрессор**
 
 > [!abstract] Процедура · `102-010-033-om`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 9 - Maintenance Procedures at 6000 Hours
 > **Даты:** изменён 2011-11-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-010-033-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/102-010-033-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/102/102-010-033-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/102-010-033-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -68,13 +67,13 @@ tags:
 | HX82 и HX83 турбокомпрессоры | 0.051 | Мин | 0.002 |
 |  | 0.125 | Макс | 0.005 |
 
-Если турбокомпрессор ** не** в пределах спецификаций, обратитесь в авторизованное место ремонта Cummins®. См. номер модели на табличке с данными турбокомпрессора.
+Если турбокомпрессор **не** в пределах спецификаций, обратитесь в авторизованное место ремонта Cummins®. См. номер модели на табличке с данными турбокомпрессора.
 
 ![[tb8shia.png]]
 
 Подтолкните конец вала компрессора к корпусу.
 
-Используя калибр для считывания, который **не *** более 13 мм \[0,5 дюйма \] в ширину, измеряйте зазор между рабочим колесом и корпусом в минимальной точке зазора.
+Используя калибр для считывания, который **не **более 13 мм \[0,5 дюйма \] в ширину, измеряйте зазор между рабочим колесом и корпусом в минимальной точке зазора.
 
 Выполните те же измерения для колеса турбины.
 
@@ -94,7 +93,7 @@ tags:
 | Турбинное колесо | 0.20 | Мин | 0.008 |
 |  | 0.77 | Макс | 0.031 |
 
-Если турбокомпрессор ** не** в пределах спецификаций, обратитесь в авторизованный ремонтный центр Cummins®. См. номер модели на табличке с данными турбокомпрессора.
+Если турбокомпрессор **не** в пределах спецификаций, обратитесь в авторизованный ремонтный центр Cummins®. См. номер модели на табличке с данными турбокомпрессора.
 
 ![[tb8ipid.png]]
 

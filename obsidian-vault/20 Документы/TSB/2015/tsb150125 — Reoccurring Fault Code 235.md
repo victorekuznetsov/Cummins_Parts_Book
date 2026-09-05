@@ -16,7 +16,7 @@ families:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150125.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150125.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150125.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2015-08-03 · изменён 2015-08-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150125.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150125.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150125.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150125.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -63,7 +63,7 @@ tags:
 
 **Проверка**
 
-Код ошибки 235 на правом берегу виден только с помощью калибровочного программного обеспечения фазы 4. Используя инструмент для электронных услуг INSITETM под заголовком «Информация о калибровке», проверьте этап программного обеспечения для калибровки. Проверить код ошибки ** только ** видно на правом берегу ECM.
+Код ошибки 235 на правом берегу виден только с помощью калибровочного программного обеспечения фазы 4. Используя инструмент для электронных услуг INSITETM под заголовком «Информация о калибровке», проверьте этап программного обеспечения для калибровки. Проверить код ошибки **только **видно на правом берегу ECM.
 
 **Решение**
 
@@ -81,7 +81,7 @@ tags:
 
 Для инструкций по замене штифта используйте следующую процедуру в руководстве по устранению неполадок и ремонту промышленной электронной системы управления QST30, в бюллетене [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual\|3666214]].[[99-019-217 — Bosch™ ECM OEM Connector Series|См. процедуру 019-217 в разделе 19.]]
 
-На фазу 5 калибровочного программного обеспечения ** не** влияет повторяющийся код 235 ошибки правого берега.
+На фазу 5 калибровочного программного обеспечения **не** влияет повторяющийся код 235 ошибки правого берега.
 
 ### История изменений документа
 

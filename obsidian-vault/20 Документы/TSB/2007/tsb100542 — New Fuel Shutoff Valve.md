@@ -15,13 +15,14 @@ families:
   - "QST30"
 parts:
   - "3021420"
+  - "3056009"
   - "3065944"
   - "4088274"
   - "4088863"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100542.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100542.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100542.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -38,7 +39,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2007-01-15 · изменён 2007-01-15
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100542.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100542.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100542.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100542.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -72,15 +73,15 @@ tags:
 |---|---|---|
 | Наименование | Прежний номер детали | Новый номер детали |
 | Сборка, топливный коллектор | 3093521 | 4295494 |
-| - Весна, клапан | - 129768 | - 129768 |
+| - Пружина, клапан | - 129768 | - 129768 |
 | - кожух, привод | - Не применимо | -[[4088863]] |
 | - Щит, запорный клапан | - 129839 | - 129839 |
-| - К черту, стиральная машина в плену | - Не применимо | -[[3065944]] |
+| - К черту, шайба в плену | - Не применимо | -[[3065944]] |
 | - Диск, клапан | - 196057 | - 196057 |
 | - Соленоид | -[[3021420]] | -[[3021420]] |
-| - Диск, привод | - 3056009 | -[[4088274]] |
-| - Тюлень, прямоугольное кольцо | - 3094667 | - 3094667 |
-| - Тюлень, прямоугольное кольцо | - Не применимо | - 129888 |
+| - Диск, привод | -[[3056009]] | -[[4088274]] |
+| - уплотнение, прямоугольное кольцо | - 3094667 | - 3094667 |
+| - уплотнение, прямоугольное кольцо | - Не применимо | - 129888 |
 
 > [!note] Примечание
 > Это усовершенствование продукта и не подлежит кампании.
@@ -90,6 +91,7 @@ tags:
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3021420]] | SOLENOID | Электромагнит (соленоид) |
+| [[3056009]] | ACTUATOR DISC | Диск исполнительного механизма |
 | [[3065944]] | CAPTIVE WASHER CAP SCREW | Болт с неотделяемой шайбой |
 | [[4088274]] | ACTUATOR DISC | Диск исполнительного механизма |
 | [[4088863]] | ACTUATOR HOUSING | Корпус исполнительного механизма |
@@ -125,7 +127,7 @@ tags:
 > | - Screw, captive washer | - Not applicable | - [[3065944]] |
 > | - Disc, valve | - 196057 | - 196057 |
 > | - Solenoid | - [[3021420]] | - [[3021420]] |
-> | - Disc, actuator | - 3056009 | - [[4088274]] |
+> | - Disc, actuator | - [[3056009]] | - [[4088274]] |
 > | - Seal, rectangular ring | - 3094667 | - 3094667 |
 > | - Seal, rectangular ring | - Not applicable | - 129888 |
 >

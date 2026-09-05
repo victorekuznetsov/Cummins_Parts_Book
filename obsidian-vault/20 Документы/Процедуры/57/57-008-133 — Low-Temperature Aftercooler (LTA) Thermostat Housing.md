@@ -17,7 +17,7 @@ figures: 12
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-133.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-133.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-133.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 8 - Cooling System - Group 08
 > **Даты:** изменён 2022-10-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-133.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-133.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-133.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-133.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -128,7 +128,7 @@ tags:
 
 Проверьте термостат на износ или повреждение.
 
-Если ствол термостата изношен или изношен, его *** необходимо заменить. См. процедуру 008-013 в разделе 8.
+Если ствол термостата изношен или изношен, его необходимо заменить. См. процедуру 008-013 в разделе 8.
 
 ![[ec800sc.png]]
 
@@ -169,10 +169,10 @@ tags:
 
 Установите корпус термостата LTA на опору корпуса термостата. Используйте новую прокладку.
 
-Установите два крепежных болта на правой стороне корпуса термостата LTA. Руки затягиваются только ***.
+Установите два крепежных болта на правой стороне корпуса термостата LTA. Руки затягиваются только.
 
 > [!note] Примечание
-> Затворы корпуса термостата LTA ** должны быть стянуты с корпусом термостата LTA и затворами подключения к розетке LTA.
+> Затворы корпуса термостата LTA должны быть стянуты с корпусом термостата LTA и затворами подключения к розетке LTA.
 
 ![[08n00198.png]]
 

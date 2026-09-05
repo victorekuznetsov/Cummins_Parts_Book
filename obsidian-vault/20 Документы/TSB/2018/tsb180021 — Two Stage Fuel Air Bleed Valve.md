@@ -9,10 +9,18 @@ released: "2018-03-08"
 modified: "2018-03-08"
 group: "05 - Fuel Systems (Pumps)"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
 parts:
   - "4334075"
   - "4379736"
@@ -20,10 +28,13 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180021.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb180021.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180021.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2018"
   - "перевод/машинный"
   - "тема/fuel-systems-pumps"
@@ -34,10 +45,10 @@ tags:
 
 > [!abstract] TSB · `tsb180021`
 > **Раздел Cummins:** 05 - Fuel Systems (Pumps)
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2018-03-08 · изменён 2018-03-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180021.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb180021.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2018/tsb180021.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb180021.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -137,14 +148,14 @@ tags:
 
 | Таблица 3, части обслуживания QSK60 для применения: Строительство, генераторный комплекс |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
-| Семейство двигателей | Применение | Вариант | Часть описание | Существующий номер детали | Новый номер детали | Сливной шланг для дренажа топлива | См. процедуру 006-020 |
+| Семейство двигателей | Применение | Вариант | Часть описание | Существующий номер детали | Новый номер детали | Сливной шланг для дренажа топлива | [[56-006-020 — Fuel Inlet Restriction\|См. процедуру 006-020]] |
 | QSKTA60 | генераторный набор | FD 6709 | Вентиляционная вентиляция | 4928063 | [[4379736]] | - |  |
 | QSKTTA60 | генераторный набор | FD 6744 FD 6745 |  |  |  |  |  |
 | QSKTA60 | Строительство | FD 6745 FD 6744 |  |  |  |  |  |
 
-** Совместимость частей**
+**Совместимость частей**
 
-При нанесении фильтрационного пакета Tier 4 Stage 2 на двигатели Tier 2 или Tier 3 должен быть установлен 2-ступенчатый клапан с воздушным кровотечением ***.
+При нанесении фильтрационного пакета Tier 4 Stage 2 на двигатели Tier 2 или Tier 3 должен быть установлен 2-ступенчатый клапан с воздушным кровотечением.
 
 **Статус в производстве**
 
@@ -255,7 +266,7 @@ tags:
 >
 > | Table 3, QSK60 Service Parts for Application: Construction, Generator Set |  |  |  |  |  |  |  |
 > |---|---|---|---|---|---|---|---|
-> | Engine Family | Application | Option | Part Description | Existing Part Number | New Part Number | Fuel Drain Hose Plumbing | Refer to Procedure 006-020 |
+> | Engine Family | Application | Option | Part Description | Existing Part Number | New Part Number | Fuel Drain Hose Plumbing | [[56-006-020 — Fuel Inlet Restriction\|Refer to Procedure 006-020]] |
 > | QSKTA60 | Generator set | FD 6709 | Air Bleed Valve | 4928063 | [[4379736]] | - |  |
 > | QSKTTA60 | Generator set | FD 6744 FD 6745 |  |  |  |  |  |
 > | QSKTA60 | Construction | FD 6745 FD 6744 |  |  |  |  |  |

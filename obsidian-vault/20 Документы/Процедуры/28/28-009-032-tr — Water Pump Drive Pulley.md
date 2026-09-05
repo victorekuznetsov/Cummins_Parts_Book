@@ -7,17 +7,16 @@ title_en: "Water Pump Drive Pulley"
 title_ru: "Шкив привода водяного насоса"
 modified: "2017-05-11"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-009-032-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-009-032-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-009-032-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Шкив привода водяного насоса**
 
 > [!abstract] Процедура · `28-009-032-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 9 - Drive Units
 > **Даты:** изменён 2017-05-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-009-032-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-009-032-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-009-032-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-009-032-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -123,15 +122,15 @@ tags:
 
 Поза
 
-Пресс-он вал Эксклюдер (POSE) печать
+Пресс-он вал Эксклюдер (POSE) уплотнение
 
 > [!warning] ОСТОРОЖНО
 > При установке нового уплотнения POSE плоская (закрытая) сторона уплотнения должна быть к шкиву для правильной установки.
 
 > [!note] Примечание
-> **Не используйте смазку для установки уплотнения POSE.
+> Не используйте смазку для установки уплотнения POSE.
 
-Используйте руку, чтобы нажать печать POSE на рукав износа.
+Используйте руку, чтобы нажать уплотнение POSE на рукав износа.
 
 Нажмите уплотнение POSE на износной рукав, пока уплотнение не будет примерно на 9 мм \[0,375 дюйма \] ниже конца износного рукава.
 

@@ -8,6 +8,7 @@ title_ru: "Цепь датчика давления масла — данные 
 modified: "2012-12-18"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc143.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-fc143.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-fc143.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Цепь датчика давления масла — данные достоверны, ниже нормы**
 
 > [!abstract] Процедура · `07-fc143`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[4021442 — C8.3 Marine Electronic Control System Troubleshooting and Repair Manual|4021442]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2012-12-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc143.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/07-fc143.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/07/07-fc143.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/07-fc143.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -73,7 +74,7 @@ tags:
 
 Проверьте с оператором, на какой скорости двигателя происходит неисправность. Если двигатель работает на слишком низкой скорости под нагрузкой (вспашка), давление масла может опускаться ниже пределов защиты двигателя из-за температуры масла.
 
-Давление масла является функцией скорости двигателя, уровня масла и функции регулятора. Работа двигателя на низкой скорости под нагрузкой будет ** не** привести к низкому давлению масла, если масло не нагревается, уровень масла низкий, регулятор неисправен, или потери происходят где-то в системе.
+Давление масла является функцией скорости двигателя, уровня масла и функции регулятора. Работа двигателя на низкой скорости под нагрузкой будет **не** привести к низкому давлению масла, если масло не нагревается, уровень масла низкий, регулятор неисправен, или потери происходят где-то в системе.
 
 Неисправный датчик также может вызвать неисправность кода 143.
 

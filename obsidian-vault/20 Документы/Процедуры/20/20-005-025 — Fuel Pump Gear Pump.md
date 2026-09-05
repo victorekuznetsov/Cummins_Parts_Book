@@ -8,6 +8,7 @@ title_ru: "Шестерённая секция топливного насоса
 modified: "2006-07-05"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-025.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-025.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-025.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Шестерённая секция топливного насоса**
 
 > [!abstract] Процедура · `20-005-025`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 5 - Fuel System - Group 05
 > **Даты:** изменён 2006-07-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-025.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-005-025.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-005-025.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-005-025.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,7 +50,7 @@ tags:
 
 Если передаточный насос может **не** быть заряжен, то проверьте вращение передаточного насоса.
 
-Поскольку впускная установка переключателя расположена на стороне переключателя, фитинг может ** не** быть удален для проверки вращения переключателя.
+Поскольку впускная установка переключателя расположена на стороне переключателя, фитинг может **не** быть удален для проверки вращения переключателя.
 
 ![[05400009.png]]
 
@@ -68,7 +69,7 @@ tags:
 
 ![[05400028.png]]
 
-Используйте пульт дистанционного запуска, номер детали 3376506. Прокрутите двигатель и убедитесь, что привод аксессуара вращается ** против часовой стрелки **.
+Используйте пульт дистанционного запуска, номер детали 3376506. Прокрутите двигатель и убедитесь, что привод аксессуара вращается **против часовой стрелки**.
 
 ![[05400027.png]]
 

@@ -17,7 +17,7 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-016.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-016.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-016.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section 6 - Maintenance Procedures at 6000 Hours or 2 Years
 > **Даты:** изменён 2002-07-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-016.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-016.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-016.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -48,13 +48,13 @@ tags:
 
 Удалите термостаты из корпуса. См. процедуру[[57-008-013 — Coolant Thermostat|008-013]].
 
-Удалите уплотнения из корпуса. Отбросьте печати.
+Удалите уплотнения из корпуса. Отбросьте уплотнения.
 
 ![[08a00012.png]]
 
 ### Установка
 
-Используйте молот и подружку или розетку диаметром, аналогичным диаметру корпуса уплотнения. Установите уплотнения. Пломба должна быть в нижней части контрбора.
+Используйте молот и подружку или розетку диаметром, аналогичным диаметру корпуса уплотнения. Установите уплотнения. уплотнение должна быть в нижней части контрбора.
 
 ![[th6seha.png]]
 

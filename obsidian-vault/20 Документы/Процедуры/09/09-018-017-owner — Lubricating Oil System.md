@@ -8,6 +8,7 @@ title_ru: "Система смазки"
 modified: "2007-05-16"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -15,7 +16,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/09/09-018-017-owner.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/09-018-017-owner.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/09-018-017-owner.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -27,12 +28,12 @@ tags:
 **Система смазки**
 
 > [!abstract] Процедура · `09-018-017-owner`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive|4021631]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2007-05-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/09/09-018-017-owner.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/09-018-017-owner.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/09/09-018-017-owner.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/09-018-017-owner.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -44,9 +45,9 @@ tags:
 
 ### Спецификации
 
-#### Нефтяное давление
+#### Масляное давление
 
-#### Масляное давление, основная нефтяная винтовка (масло 15W40 при 107 ° C \[225 ° F\])
+#### Масляное давление, основная масляная винт (масло 15W40 при 107 ° C \[225 ° F\])
 
 При холостом (минимально допустимом) 70 кПа[10 psi\] При отсутствии нагрузки регулируется скорость от 240 до 310 кПа[35 до 45 psi\]
 
@@ -54,7 +55,7 @@ tags:
 
 Обходной фильтр (спин-он) 2,65 л \[0,7 USgal\] Фильтр полного потока (спин-он) 2,65 л \[0,7 U.Sgal\] Комбинационный фильтр 2,65 л \[0,7 U.S.gal\]
 
-#### Нефтяной панк потенциал
+#### Масляной панк потенциал
 
 G-Drive 28,4 до 36 литров \[7.5 до 9.5 U.S.gal\] Другие применения 26 до 34 литров \[7.0 до 9.0 U.S.gal\]
 

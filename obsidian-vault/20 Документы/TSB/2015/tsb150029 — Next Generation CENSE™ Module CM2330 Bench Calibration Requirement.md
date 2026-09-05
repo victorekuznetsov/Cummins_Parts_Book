@@ -9,17 +9,28 @@ released: "2015-03-12"
 modified: "2015-03-12"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150029.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150029.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150029.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2015"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -30,10 +41,10 @@ tags:
 
 > [!abstract] TSB · `tsb150029`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2015-03-12 · изменён 2015-03-12
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150029.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150029.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150029.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150029.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -51,11 +62,11 @@ tags:
 
 ### Подтверждение
 
-** Пострадал продукт: ** Все двигатели повышенной мощности с использованием CENSETM следующего поколения CM2330
+**Пострадал продукт: **Все двигатели повышенной мощности с использованием CENSETM следующего поколения CM2330
 
 Клиенты, которые самостоятельно обслуживают свои устройства, ранее могли устанавливать калибровки на новые модули CM530 CENSETM, используя INSITETM для электронного сервисного инструментария CENSETM.
 
-Калибровка CENSETM Module CM2330 следующего поколения может быть установлена с помощью **только*** электронного сервисного инструментария INSITETM с подпиской уровня Pro со стандартным адаптером INLINETM через разъем для разъема службы J1939. См. TSB130133.
+Калибровка CENSETM Module CM2330 следующего поколения может быть установлена с помощью **только** электронного сервисного инструментария INSITETM с подпиской уровня Pro со стандартным адаптером INLINETM через разъем для разъема службы J1939. См. TSB130133.
 
 ### Решение
 

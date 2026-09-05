@@ -10,12 +10,15 @@ modified: "2009-01-15"
 group: "01 - Cylinder Block"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+parts:
+  - "3934486"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100785.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100785.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100785.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
@@ -29,10 +32,10 @@ tags:
 
 > [!abstract] TSB · `tsb100785`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2009-01-15 · изменён 2009-01-15
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100785.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100785.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100785.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100785.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -59,9 +62,14 @@ tags:
 | Таблица 1: Новый и старый каркасный вал |  |  |  |
 |---|---|---|---|
 | Новый номер детали | Наименование | Прежний номер детали | Часть расположения |
-| 3933262 | Задняя печать коленчатого вала | 3970548 | Используйте истощение |
-| 3934486 | Комплект заднего сальника коленвала | 4089342 | Используйте истощение |
+| 3933262 | Задняя уплотнение коленчатого вала | 3970548 | Используйте истощение |
+| [[3934486]] | Комплект заднего сальника коленвала | 4089342 | Используйте истощение |
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3934486]] | Rr Crankseal Serv Kit |  |
 
 > [!quote]- Original (English) · английский оригинал
 > ## New Rear Crankshaft Seal and Seal Kit
@@ -82,4 +90,4 @@ tags:
 > |---|---|---|---|
 > | New Part Number | Description | Old Part Number | Part Disposition |
 > | 3933262 | Rear Crankshaft Seal | 3970548 | Use to Depletion |
-> | 3934486 | Rear Crankshaft Seal Kit | 4089342 | Use to Depletion |
+> | [[3934486]] | Rear Crankshaft Seal Kit | 4089342 | Use to Depletion |

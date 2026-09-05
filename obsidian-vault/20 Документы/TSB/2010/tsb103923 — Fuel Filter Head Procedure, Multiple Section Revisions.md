@@ -1,0 +1,62 @@
+---
+type: "TSB"
+doc: "tsb103923"
+title_en: "Fuel Filter Head Procedure, Multiple Section Revisions"
+modified: "2009-09-18"
+engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+families:
+  - "QSK60"
+lang: "ru+en"
+translation: "машинный черновик"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103923.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103923.pdf"
+tags:
+  - "документ/tsb"
+  - "двигатель/QSK60"
+  - "перевод/машинный"
+---
+
+# Fuel Filter Head Procedure, Multiple Section Revisions
+
+> [!abstract] TSB · `tsb103923`
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]]
+> **Семейство:** QSK60
+> **Даты:** изменён 2009-09-18
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb103923.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb103923.pdf)
+
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+## Головка топливного фильтра, Многоразовые изменения
+
+### Положение о гарантии
+
+Сведения в этом документе не изменяют действующие гарантийные обязательства и практику ремонта и не дают оснований для работ по программам TRP или Campaign.
+
+### Содержание
+
+Эта тема «Сервис/Части» пересматривает разделы процедуры 006-017 (монтажная головка топливного фильтра) в разделе 6 Руководства по обслуживанию серии QSK45 и QSK60, Бюллетень [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+
+Были добавлены спецификации на удаление и крутящий момент для шпилек для топливного фильтра и колец адаптера.
+
+
+> [!quote]- Original (English) · английский оригинал
+> ## Fuel Filter Head Procedure, Multiple Section Revisions
+>
+> ### Warranty Statement
+>
+> The information in this document has no effect on present warranty coverage or repair practices, nor does it authorize TRP or Campaign actions.
+>
+> ### Contents
+>
+> This Service/Parts Topic revises the Disassemble and Assemble Sections of Procedure 006-017 (Fuel Filter Head) in Section 6 of the QSK45 and QSK60 Series Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].
+>
+> Removal specifications and torque specifications for the fuel filter head adapter spuds and adapter rings have been added.

@@ -6,25 +6,28 @@ doc: "4021528-history"
 title_en: "K38, K50, QSK38, and QSK50 Service Manual"
 title_ru: "K38, K50, QSK38 и QSK50: сервисное руководство"
 engines:
-  - "33239746"
+  - "33224404"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021528-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021528-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
 ---
 
 # K38, K50, QSK38, and QSK50 Service Manual
 **K38, K50, QSK38 и QSK50: сервисное руководство**
 
 > [!abstract] Руководство · `4021528-history`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021528-history.pdf)
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021528-history.pdf)
 
 
 ## Оглавление руководства (252 процедур)
@@ -260,13 +263,13 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t108-tr | Lubricating or Transmission Oil in the Coolant | 25-Oct-2011 |
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t057-tr | This troubleshooting symptom tree has been updated to include details of inspecting the filter screen in the fuel pump shutoff valve block. | 19-Jan-2012 |
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t021-tr | Coolant Loss - Internal | 20-Feb-2012 |
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t092 | Fuel in the Lubricating Oil | 21-Apr-2013 |
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t027-tr | Crankcase Gases (Blowby) Excessive | 15-Jun-2018 |
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t104-tr | Lubricating Oil Pressure High | 05-Aug-2019 |
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t105-tr | Lubricating Oil Pressure Low | 22-Jan-2020 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t108-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t108-tr.html) | Lubricating or Transmission Oil in the Coolant | 25-Oct-2011 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t057-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t057-tr.html) | This troubleshooting symptom tree has been updated to include details of inspecting the filter screen in the fuel pump shutoff valve block. | 19-Jan-2012 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t021-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t021-tr.html) | Coolant Loss - Internal | 20-Feb-2012 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t092](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t092.html) | Fuel in the Lubricating Oil | 21-Apr-2013 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t027-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t027-tr.html) | Crankcase Gases (Blowby) Excessive | 15-Jun-2018 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t104-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t104-tr.html) | Lubricating Oil Pressure High | 05-Aug-2019 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t105-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t105-tr.html) | Lubricating Oil Pressure Low | 22-Jan-2020 |
 
 ### Section 08 - Cooling System
 
@@ -316,8 +319,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t102-tr | Lubricating Oil Consumption Excessive | 20-Aug-2012 |
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t102-tr | Lubricating Oil Consumption Excessive | 14-Jan-2014 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t102-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t102-tr.html) | Lubricating Oil Consumption Excessive | 20-Aug-2012 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t102-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t102-tr.html) | Lubricating Oil Consumption Excessive | 14-Jan-2014 |
 
 ### Section 6 - Injectors
 
@@ -392,7 +395,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t107-tr | Lubricating Oil Temperature Above Specfication | 08-Oct-2014 |
+| [[[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]-t107-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021528/4021528-t107-tr.html) | Lubricating Oil Temperature Above Specfication | 08-Oct-2014 |
 
 ### Section 9 - Drive Units
 

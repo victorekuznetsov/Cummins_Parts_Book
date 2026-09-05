@@ -8,6 +8,7 @@ title_ru: "Дополнительная сервисная литература"
 modified: "2016-01-13"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -15,7 +16,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-205-001-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-205-001-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-205-001-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -27,12 +28,12 @@ tags:
 **Дополнительная сервисная литература**
 
 > [!abstract] Процедура · `20-205-001-om`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual|3666120]]
 > **Секции:** Section L - Service Literature
 > **Даты:** изменён 2016-01-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-205-001-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-205-001-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-205-001-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-205-001-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,7 +50,7 @@ tags:
 | Вестник | Название публикации |
 |---|---|
 | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Service Manual |
-| 3666113 | QSK19, QSK23, QSK45, QSK60 и QSK78 Двигатели Электронная система управления Устранение неполадок и ремонт Руководства |
+| [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]] | QSK19, QSK23, QSK45, QSK60 и QSK78 Двигатели Электронная система управления Устранение неполадок и ремонт Руководства |
 | 4021493 | QSK19 CM850 Модульная система общего железнодорожного сообщения Серия Двигатель Электронная система управления Устранение неполадок и ремонт Ручной |
 | [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]] | QSK19 CM2150 Электронная система управления Устранение неполадок и ремонт Руководства |
 | 4021350 | QSK19 Индустриальная схема электропитания |
@@ -94,7 +95,7 @@ tags:
 > | Bulletin | Title of Publication |
 > |---|---|
 > | [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]] | QSK19, QSK19 CM850 MCRS, QSK19 CM2150 MCRS Service Manual |
-> | 3666113 | QSK19, QSK23, QSK45, QSK60, and QSK78 Engines Electronic Control System Troubleshooting and Repair Manual |
+> | [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]] | QSK19, QSK23, QSK45, QSK60, and QSK78 Engines Electronic Control System Troubleshooting and Repair Manual |
 > | 4021493 | QSK19 CM850 Modular Common Rail System Series Engine Electronic Control System Troubleshooting and Repair Manual |
 > | [[4022094 — QSK19 CM2150 and CM2670 Electronic Control System Troubleshooting and Repair Manual\|4022094]] | QSK19 CM2150 Electronic Control System Troubleshooting and Repair Manual |
 > | 4021350 | QSK19 Industrial Power Unit Wiring Diagram |

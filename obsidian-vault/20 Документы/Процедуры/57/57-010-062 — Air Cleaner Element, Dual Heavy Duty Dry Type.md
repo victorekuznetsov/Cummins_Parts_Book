@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-010-062.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-010-062.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-010-062.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section A - Adjustment, Repair, and Replacement
 > **Даты:** изменён 2003-01-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-010-062.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-010-062.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-010-062.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-010-062.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 Освободите крыло (3). Удалите пылевой щит (4) из пылесоса (2). Очистите пылесборник и щит.
 
-Удалите крыло (5), которое обеспечивает защиту воздуха от первичного элемента (6) в корпусе воздухоочистителя. Осмотрите резиновую уплотнительную стиральную машину на крыле.
+Удалите крыло (5), которое обеспечивает защиту воздуха от первичного элемента (6) в корпусе воздухоочистителя. Осмотрите резиновую уплотнительную шайбу на крыле.
 
 Удалите грязный первичный чистящий элемент (6). Если внутренний элемент (8) безопасности заменяется на основе высокого ограничения потребления, удалите гайку (7) крыла и замените внутренний элемент безопасности.
 

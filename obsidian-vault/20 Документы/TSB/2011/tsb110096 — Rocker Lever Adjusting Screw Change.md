@@ -10,14 +10,17 @@ modified: "2011-04-08"
 group: "03 - Rocker Levers"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 parts:
   - "3901717"
+  - "3910810"
+  - "3910811"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110096.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110096.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110096.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
@@ -31,10 +34,10 @@ tags:
 
 > [!abstract] TSB · `tsb110096`
 > **Раздел Cummins:** 03 - Rocker Levers
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2011-04-08 · изменён 2011-04-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110096.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110096.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110096.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110096.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -58,7 +61,7 @@ tags:
 
 Ручка клапанного винта для регулирования винта для двигателей серии B и C была изменена с винта с прорезью, номер детали. 3900706, к внутреннему шестиглавому винту, номер детали. 3934086, как усовершенствование продукта.
 
-Внутренний шестиконтурный винт позволяет автоматизировать регулировку ресниц клапана, завершенную на заводе. **только *** процедурное изменение для обслуживания - использование 5-мм гаечного ключа Аллена вместо плоской отвертки для настройки новых винтов. Сборки слотированных винтов по-прежнему доступны для обслуживания.
+Внутренний шестиконтурный винт позволяет автоматизировать регулировку ресниц клапана, завершенную на заводе. **только **процедурное изменение для обслуживания - использование 5-мм гаечного ключа Аллена вместо плоской отвертки для настройки новых винтов. Сборки слотированных винтов по-прежнему доступны для обслуживания.
 
 ESN First для Cummins Diesel Corporation - 45688397, 20 апреля 1998 года.
 
@@ -70,8 +73,8 @@ ESN First for the Columbus Midrange Engine Plant (англ.)русск. — 5641
 |---|---|---|
 |  | Сплетенный шлюп | Шеф Крюк |
 | Серия C | 3934916 | [[3901717]] |
-| В серии B - Взятие | 3934918 | 3910811 |
-| Серия B Выхлопы | 3934917 | 3910810 |
+| В серии B - Взятие | 3934918 | [[3910811]] |
+| Серия B Выхлопы | 3934917 | [[3910810]] |
 
 > [!note] Примечание
 > Сплюснутые и регулировочные винты могут быть перемешаны, не влияя на производительность двигателя.
@@ -83,6 +86,8 @@ ESN First for the Columbus Midrange Engine Plant (англ.)русск. — 5641
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[3901717]] | ROCKER LEVER | Коромысло клапана |
+| [[3910810]] | ROCKER LEVER | Коромысло клапана |
+| [[3910811]] | ROCKER LEVER | Коромысло клапана |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Rocker Lever Adjusting Screw Change
@@ -111,8 +116,8 @@ ESN First for the Columbus Midrange Engine Plant (англ.)русск. — 5641
 > |---|---|---|
 > |  | Slotted Screw | Hex Screw |
 > | C Series | 3934916 | [[3901717]] |
-> | B Series Intake | 3934918 | 3910811 |
-> | B Series Exhaust | 3934917 | 3910810 |
+> | B Series Intake | 3934918 | [[3910811]] |
+> | B Series Exhaust | 3934917 | [[3910810]] |
 >
 > **Note · Примечание**
 > Slotted and hex adjusting screws can be intermixed without affecting the performance of the engine.

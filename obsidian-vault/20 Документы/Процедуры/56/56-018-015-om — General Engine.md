@@ -7,19 +7,33 @@ title_en: "General Engine"
 title_ru: "Общие сведения о двигателе"
 modified: "2017-08-14"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33239746"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "4021374"
+  - "4915528"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-018-015-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-018-015-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-018-015-om.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QST30"
   - "группа/56"
   - "перевод/машинный"
@@ -29,12 +43,12 @@ tags:
 **Общие сведения о двигателе**
 
 > [!abstract] Процедура · `56-018-015-om`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QSK60 CM2150 MCRS, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]], [[4915528 — QSK45 and QSK60 Owners Manual|4915528]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2017-08-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-018-015-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-018-015-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-018-015-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-018-015-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -67,7 +81,7 @@ tags:
 | вытеснение | 45 литров[2746 C.I.D.] |
 |---|---|
 
-| Огнестрельное предписание | 1R-6L-5R-2L-3R-4L-6R-1L-2R-5L-4R-3L\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ |
+| Огнестрельное предписание | 1R-6L-5R-2L-3R-4L-6R-1L-2R-5L-4R-3L\ |
 |---|---|
 
 | Тип двигателя | 4 цикл, 60 градусов, 12 цилиндров |
@@ -105,7 +119,7 @@ tags:
 | сухой | 5813 кг[12 815 фунтов] |
 |---|---|
 
-| Вращение коленчатого вала (видно спереди двигателя) | ** По часовой стрелке** |
+| Вращение коленчатого вала (видно спереди двигателя) | **По часовой стрелке** |
 |---|---|
 
 #### Настройки клапанов и топливных форсунок:
@@ -309,7 +323,7 @@ tags:
 | 2500 л.с. | 1900 об/мин |
 |---|---|
 
-#### Первичная власть
+#### Первичная питание
 
 | 1563 кВт при 50 Гц | 1500 об/мин |
 |---|---|

@@ -7,11 +7,12 @@ title_en: "C Command Elite and C Command Elite Plus Panel System Marine Owners M
 title_ru: "C Command Elite и Elite Plus: судовое руководство владельца пультовой системы"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/4021618-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021618-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021618-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/QSK19"
@@ -21,9 +22,9 @@ tags:
 **C Command Elite и Elite Plus: судовое руководство владельца пультовой системы**
 
 > [!abstract] Руководство · `4021618-history`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/4021618-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021618-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/4021618-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021618-history.pdf)
 
 
 ## Оглавление руководства (20 процедур)
@@ -32,9 +33,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual\|4021618]]-toc | Table of Contents |  |
-| marpanel-frwd | Forward | 17-Jan-2007 |
-| [[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual\|4021618]]-titlepage | Titlepage | 02-Mar-2007 |
+| [[[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual\|4021618]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/4021618-toc.html) | Table of Contents |  |
+| [marpanel-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/marpanel-frwd.html) | Forward | 17-Jan-2007 |
+| [[[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual\|4021618]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/4021618-titlepage.html) | Titlepage | 02-Mar-2007 |
 
 ### Section i - Introduction
 
@@ -57,8 +58,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3381863 | All Engines Worldwide Marine Recreational Propulsion Products | 15-Oct-2004 |
-| 3381775 | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
+| [3381863](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381863/3381863-history.html) | All Engines Worldwide Marine Recreational Propulsion Products | 15-Oct-2004 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
 
 ### Section L - Service Literature
 
@@ -80,7 +81,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual\|4021618]]-backcover | Backcover | 02-Mar-2007 |
+| [[[4021618 — C Command Elite and C Command Elite Plus Panel System Marine Owners Manual\|4021618]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021618/4021618-backcover.html) | Backcover | 02-Mar-2007 |
 
 ### Section 1 - Operating Instructions
 

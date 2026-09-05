@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc318.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc318.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc318.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc318.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc318.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc318.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc318.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -70,7 +70,7 @@ ECM использует сигнал давления топливного на
 
 ### Практические замечания
 
-Эта неисправность является проверкой на управление ECM приводом топливного насоса и последующим потоком топлива. Если требуемое заправка может быть выполнено **не**, если требуется больше тока для привода или если требуемое заправка превышена и может **не** быть уменьшено путем ограничения количества тока для привода, то код 318 по умолчанию регистрируется. Код 318 ошибки ** не регистрируется, если температура охлаждающей жидкости ниже 0°C \[32°F\].
+Эта неисправность является проверкой на управление ECM приводом топливного насоса и последующим потоком топлива. Если требуемое заправка может быть выполнено **не**, если требуется больше тока для привода или если требуемое заправка превышена и может **не** быть уменьшено путем ограничения количества тока для привода, то код 318 по умолчанию регистрируется. Код 318 ошибки не регистрируется, если температура охлаждающей жидкости ниже 0°C \[32°F\].
 
 - Убедитесь, что правильная калибровка загружена в ECM. Например, если калибровка QSK45 загружена в QSK60 ECM, этот код неисправности будет активирован.
 

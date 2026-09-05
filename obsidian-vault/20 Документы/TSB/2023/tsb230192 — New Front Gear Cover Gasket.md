@@ -10,6 +10,7 @@ modified: "2023-10-03"
 group: "01 - Cylinder Block"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 parts:
@@ -18,7 +19,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2023/tsb230192.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb230192.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb230192.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
@@ -32,10 +33,10 @@ tags:
 
 > [!abstract] TSB · `tsb230192`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Даты:** выпущен 2023-10-03 · изменён 2023-10-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2023/tsb230192.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb230192.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2023/tsb230192.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb230192.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -68,7 +69,7 @@ tags:
 **Указания по обслуживанию**
 
 - Удаление, очистка и осмотр передней шестерни см. соответствующее Руководство по обслуживанию. Справочная процедура 001-031 в разделе 1.
-- **не использовать RTV или прокладочный клей во время установки передней чехлы.
+- не использовать RTV или прокладочный клей во время установки передней чехлы.
 - Пересмотренная прокладка крышки передней передачи имеет четыре места болтов с функцией удержания резины, чтобы помочь с сборкой. См. рисунок 1.
 
 ![[01r00444.png]]
@@ -90,7 +91,7 @@ tags:
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
-| [[4080829]] | GEAR COVER GASKET | Прокладка крышки шестерён |
+| [[4080829]] | Gear Cover Gasket | Прокладка крышки шестерён |
 
 > [!quote]- Original (English) · английский оригинал
 > ## New Front Gear Cover Gasket

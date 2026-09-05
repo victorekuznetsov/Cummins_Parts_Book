@@ -7,17 +7,16 @@ title_en: "Lubricating Oil Dipstick"
 title_ru: "Маслоизмерительный щуп"
 modified: "2005-11-11"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
 figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-009.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-009.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-009.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Маслоизмерительный щуп**
 
 > [!abstract] Процедура · `28-007-009`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section A - Adjustment, Repair, and Replacement
 > **Даты:** изменён 2005-11-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-007-009.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-007-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-007-009.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,7 +54,7 @@ tags:
 > По заключению ряда государственных органов отработанное моторное масло может обладать канцерогенным действием и вредить репродуктивной функции. Не вдыхайте пары, не допускайте попадания внутрь и длительного контакта с отработанным моторным маслом. Если деталь не используется повторно, утилизируйте её по местным природоохранным требованиям.
 
 > [!note] Примечание
-> Для морских применений **только **, калибр уровня масла в смазочном масле может ** не** калиброваться до тех пор, пока двигатель не будет находиться в сосуде и судно не будет находиться в воде.
+> Для морских применений **только**, калибр уровня масла в смазочном масле может **не** калиброваться до тех пор, пока двигатель не будет находиться в сосуде и судно не будет находиться в воде.
 
 Слить моторное масло. См. процедуру[[28-007-002-om — Lubricating Oil and Filters|007-002]](Моторное масло и фильтры) в разделе 4.
 
@@ -89,7 +88,7 @@ tags:
 
 ![[lg8dowb.png]]
 
-Удалите калибр уровня масла и напишите отметку на палке на уровне масла. Нанесите маркировку с Н, чтобы указать высокий уровень масла.
+Удалите калибр уровня масла и напишите отметку на палке на уровне масла. Нанесите маркировку с H, чтобы указать высокий уровень масла.
 
 ![[lg8donb.png]]
 

@@ -8,7 +8,6 @@
 каталоги машин, темы и поисковый индекс.
 """
 import collections
-import csv
 import html
 import json
 import os
@@ -17,7 +16,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from common import BUILD, CAT_RU, DOC_ESN, FAMILY_OF_CAT, NHL, load_json, catalogs
+from urllib.parse import quote
+
+from common import BUILD, CAT_RU, DOC_ESN, FAMILY_OF_CAT, load_json, catalogs
 from web_render import Renderer
 
 WEB = os.environ.get("KB_WEB", "/home/user/kb_web")
@@ -56,50 +57,11 @@ def image_url(name):
 VAULT = os.environ.get("KB_VAULT", "/home/user/kb_vault")
 
 
-def media_map():
-    """Реальные имена файлов графики машин: основа имени -> файл."""
-    out = {}
-    root = os.path.join(VAULT, "90 Приложения", "Медиа машин")
-    if not os.path.isdir(root):
-        return out
-    for machine in sorted(os.listdir(root)):
-        d = os.path.join(root, machine)
-        if not os.path.isdir(d):
-            continue
-        out[machine] = {os.path.splitext(f)[0]: f for f in os.listdir(d)}
-    return out
-
-
-def machine_parts():
-    """Детали машин NHL из all_part_numbers.csv: русские имена, цены, разделы."""
-    out = {}
-    for machine, base in NHL.items():
-        path = os.path.join(base, "data", "all_part_numbers.csv")
-        if not os.path.exists(path):
-            continue
-        with open(path, encoding="utf-8-sig", newline="") as fh:
-            for row in csv.DictReader(fh):
-                no = (row.get("Артикул (Part No.)") or "").strip()
-                no = re.sub(r'^="?|"?"$|"', "", no).strip()
-                if not no:
-                    continue
-                rec = out.setdefault(no, {"ru": "", "en": "", "zh": "", "gr": "",
-                                          "alt": "", "m": {}})
-                rec["ru"] = rec["ru"] or (row.get("Наименование (RU)") or "").strip()
-                rec["en"] = rec["en"] or (row.get("Description (EN)") or "").strip()
-                rec["zh"] = rec["zh"] or (row.get("Description (ZH)") or "").strip()
-                rec["gr"] = rec["gr"] or (row.get("Группа") or "").strip()
-                rec["alt"] = rec["alt"] or (row.get("Взаимозаменяемый артикул") or "").strip()
-                price = (row.get("Цена, CNY без НДС") or "").strip()
-                secs = [s for s in (row.get("Разделы") or "").split() if s]
-                rec["m"][machine] = {"p": price, "s": secs}
-    return out
 
 
 def main():
     docs_state = load_json(os.path.join(BUILD, "state_docs.json"), {})
     cat_state = load_json(os.path.join(BUILD, "state_catalog.json"), {})
-    machines = load_json(os.path.join(BUILD, "state_machines.json"), {})
     links = load_json(os.path.join(BUILD, "state_links.json"), {})
     ru_docs = load_json(os.path.join(BUILD, "ru_docs.json"), {})
     ru_parts = load_json(os.path.join(BUILD, "ru_parts.json"), {})
@@ -137,7 +99,6 @@ def main():
             return f"#/part/{num}" if num in parts else None
         return f"#/doc/{num}" if num in doc_ids else None
 
-    media = media_map()
     manuals_rows = toc
     rend = Renderer(resolve, image_url, ref)
 
@@ -162,6 +123,13 @@ def main():
         ru_file = os.path.join(cache_ru, cat, did + ".md")
         if os.path.exists(ru_file):
             body_ru = rend.render(open(ru_file, encoding="utf-8").read())
+        else:
+            # Готовый русский текст из прошлой сборки (_cache_ru_html/<id>.html):
+            # перевод — отдельный долгий прогон, и пересборка каталога на новой
+            # выгрузке не должна терять уже переведённые документы.
+            html_file = os.path.join(BUILD, "_cache_ru_html", quote(did, safe="") + ".html")
+            if os.path.exists(html_file):
+                body_ru = open(html_file, encoding="utf-8").read()
         chunk = n // CHUNK
         if cat != "manual":
             chunks[chunk][did] = body
@@ -253,7 +221,8 @@ def main():
             rec["sup"] = [[s["no"], s.get("st", ""), 1 if s.get("sell") else 0]
                           for s in card["sup"]]
         if p.get("price"):
-            rec["pr"] = {m: v["price"] for m, v in p["price"].items()}
+            # прайс «Горная Евразия»: текущая и несогласованная цена
+            rec["pr"] = {k: v for k, v in p["price"].items() if v is not None}
         if p.get("photos"):
             rec["ph"] = [u.rsplit("/", 1)[-1] for u in p["photos"][:4]]
         pindex[no] = rec
@@ -275,57 +244,6 @@ def main():
     js("data/kb_names.js", "window.KB_NAMES",
        {"opt": opt_ru, "kit": kit_ru, "part": {no: p["ru"] for no, p in pindex.items() if p["ru"]}})
 
-    # ------------------------------------------------------------------ машины
-    mparts = machine_parts()
-    js("data/kb_mparts.js", "window.KB_MPARTS", mparts)
-
-    mindex = {}
-    for name, m in machines.items():
-        secs = []
-        for s in m.get("sections", []):
-            secs.append({
-                "c": s.get("code", ""), "en": s.get("en", ""), "zh": s.get("zh", ""),
-                "ch": s.get("chapter", ""),
-                "f": [{"i": [os.path.basename(x) for x in fig.get("images", [])],
-                       "p": [[p.get("ref", ""), p.get("pn", ""), p.get("en", ""),
-                              p.get("zh", ""), p.get("qty", "")]
-                             for p in fig.get("parts", [])]}
-                      for fig in s.get("figures", [])],
-            })
-        eng_secs = []
-        for s in m.get("engine_sections", []):
-            eng_secs.append({
-                "c": s.get("code", ""), "en": s.get("en", ""), "zh": s.get("zh", ""),
-                "g": s.get("group", ""),
-                "f": [{"i": [os.path.basename(x) for x in fig.get("images", [])],
-                       "p": [[p.get("ref", ""), p.get("pn", ""), p.get("en", ""),
-                              p.get("zh", ""), p.get("qty", "")]
-                             for p in fig.get("parts", [])]}
-                      for fig in s.get("figures", [])],
-            })
-        svc = []
-        for s in m.get("service", []):
-            cache_file = os.path.join(CACHE, "machines", s["cache"])
-            body = ""
-            if os.path.exists(cache_file):
-                md = open(cache_file, encoding="utf-8").read()
-                md = re.sub(r"!\[\[([^\]]+)\]\]",
-                            lambda mo: f"![[{name}_{mo.group(1)}]]", md)
-                body = rend_machine(rend, name, media.get(name, {})).render(md)
-            svc.append({"c": s["code"], "t": s["title"], "b": body})
-        mindex[name] = {
-            "t": m.get("title_en", ""), "zh": m.get("title_zh", ""),
-            "maker": m.get("maker", ""),
-            "ch": m.get("chapters", []),
-            "s": secs, "es": eng_secs, "svc": svc,
-            "man": m.get("manuals", []),
-            "toc": m.get("repair_toc", []),
-            "wir": m.get("wiring_toc", []),
-        }
-        js(f"data/kb/machine_{name}.js", f"window.KB_MACHINE['{name}']", mindex[name])
-
-    js("data/kb_media.js", "window.KB_MEDIA", media)
-
     # какие фотографии деталей лежат локально
     photo_dir = os.path.join(WEB, "assets", "photos")
     photos = sorted(os.path.splitext(f)[0] for f in os.listdir(photo_dir)) \
@@ -337,12 +255,6 @@ def main():
     if fleet:
         js("data/kb_fleet.js", "window.KB_FLEET",
            {"m": fleet.get("machines", []), "g": fleet.get("groups", [])})
-
-    js("data/kb_machines.js", "window.KB_MACHINE_LIST",
-       {k: {"t": v["t"], "zh": v["zh"], "maker": v["maker"],
-            "ns": len(v["s"]), "nsvc": len(v["svc"]), "nes": len(v["es"]),
-            "ch": v["ch"], "man": v["man"]}
-        for k, v in mindex.items()})
 
     # ------------------------------------------------------------------- темы
     from build_index import TOPICS, topic_match
@@ -365,16 +277,9 @@ def main():
             total += os.path.getsize(os.path.join(root, f))
     print("документов:", dict(stats))
     print("чанков тел:", len(chunks), "| деталей:", len(pindex),
-          "| деталей машин:", len(mparts), "| руководств:", len(manuals))
+          "| руководств:", len(manuals))
     print(f"объём data/: {total/1048576:.1f} МБ")
 
-
-def rend_machine(base, machine, names):
-    """Тот же рендерер, но картинки машин лежат в assets/machines/."""
-    def image(name):
-        real = names.get(os.path.splitext(name)[0])
-        return (f"assets/machines/{machine}/{real}" if real else None), ""
-    return Renderer(base.resolve, image, base.ref)
 
 
 if __name__ == "__main__":

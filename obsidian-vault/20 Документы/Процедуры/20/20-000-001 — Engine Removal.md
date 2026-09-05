@@ -8,6 +8,7 @@ title_ru: "Снятие двигателя"
 modified: "2006-08-03"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 14
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-000-001.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-000-001.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-000-001.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Снятие двигателя**
 
 > [!abstract] Процедура · `20-000-001`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 0 - Complete Engine - Group 00
 > **Даты:** изменён 2006-08-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-000-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-000-001.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-000-001.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-000-001.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -114,7 +115,7 @@ tags:
 Используйте правильно рассчитанный подъемник и подъемный механизм двигателя, номер детали 3162871, для удаления двигателя и поддержки веса двигателя. Удалите передние и задние болты поддержки двигателя.
 
 > [!note] Примечание
-> Если приводной блок ** не** удален, поместите опору под приводной блок, чтобы предотвратить его падение.
+> Если приводной блок **не** удален, поместите опору под приводной блок, чтобы предотвратить его падение.
 
 Используйте 2 подъемных крючка, номер детали 3163091, чтобы поднять двигатель. Поместите крючки между головками цилиндров, под подъемными крючками.
 

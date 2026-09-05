@@ -8,6 +8,7 @@ title_ru: "Жгут проводов двигателя"
 modified: "2014-04-17"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 14
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-043-shopas.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-019-043-shopas.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-019-043-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Жгут проводов двигателя**
 
 > [!abstract] Процедура · `20-019-043-shopas`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section AS - Engine Assembly - Group 00
 > **Даты:** изменён 2014-04-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-043-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-019-043-shopas.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-043-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-019-043-shopas.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -61,7 +62,7 @@ tags:
 
 ![[19400242.png]]
 
-Пристегните жгут проводов к поддерживающим скобкам жгута провода, используя проводные галстуки.
+Пристегните жгут проводов к поддерживающим скобкам жгута провода, используя проводные стяжки.
 
 ![[19801072.png]]
 
@@ -77,7 +78,7 @@ tags:
 
 ![[19400392.png]]
 
-Подключите провод управления отключением топлива к соленоиду отключения топлива. Затяните удерживающий орех.
+Подключите провод управления отключением топлива к соленоиду отключения топлива. Затяните удерживающий гайка.
 
 > [!tip] Момент затяжки
 > 2.8 Н·м [25 фунт-дюйм]

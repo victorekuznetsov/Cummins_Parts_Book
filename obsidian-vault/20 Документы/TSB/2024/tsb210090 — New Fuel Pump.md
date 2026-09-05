@@ -9,23 +9,31 @@ released: "2024-07-03"
 modified: "2024-07-03"
 group: "05 - Fuel Systems (Pumps)"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
   - "41349633"
+  - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 parts:
+  - "5471755"
   - "5471846"
   - "5540246"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210090.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210090.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210090.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2024"
   - "перевод/машинный"
   - "тема/fuel-systems-pumps"
@@ -36,10 +44,10 @@ tags:
 
 > [!abstract] TSB · `tsb210090`
 > **Раздел Cummins:** 05 - Fuel Systems (Pumps)
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2024-07-03 · изменён 2024-07-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210090.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210090.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210090.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210090.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -102,7 +110,7 @@ tags:
 | Топливный насос (QSK38 CM2150 - Промышленный/Морской) | 5471753 | Да | Да | 5574781 |
 | Топливный насос (QSK38 CM850/CM2150 – выработка электроэнергии) | 5471752 | Да | Да | 5471859 |
 | Топливный насос (QSK50 CM2150/QSK60 CM2150/QSK60 CM2250 – выработка электроэнергии) | 5471754 | Да | Да | 5471860 |
-| Топливный насос (QSK50 CM850/QSK50 CM2150/QSK60 CM2250 - Промышленный/Морской) | 5471755 | Да | Да | [[5540246]] |
+| Топливный насос (QSK50 CM850/QSK50 CM2150/QSK60 CM2250 - Промышленный/Морской) | [[5471755]] | Да | Да | [[5540246]] |
 | Топливный насос (QSK19 CM850/CM2150) | 5471751 | Да | Да | [[5471846]] |
 | Топливный насос (QSK19 CM2350) | 5471816, 5481848 | Да | Да | 6393791 |
 
@@ -126,6 +134,7 @@ tags:
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
+| [[5471755]] | FUEL INJECTION PUMP | Топливный насос высокого давления |
 | [[5471846]] | FUEL PUMP | Топливный насос |
 | [[5540246]] | FUEL PUMP | Топливный насос |
 
@@ -183,7 +192,7 @@ tags:
 > | Fuel Pump (QSK38 CM2150 – Industrial/Marine) | 5471753 | Yes | Yes | 5574781 |
 > | Fuel Pump (QSK38 CM850/CM2150 – Power Generation) | 5471752 | Yes | Yes | 5471859 |
 > | Fuel Pump (QSK50 CM2150/QSK60 CM2150/QSK60 CM2250 – Power Generation) | 5471754 | Yes | Yes | 5471860 |
-> | Fuel Pump (QSK50 CM850/QSK50 CM2150/QSK60 CM2250 – Industrial/Marine) | 5471755 | Yes | Yes | [[5540246]] |
+> | Fuel Pump (QSK50 CM850/QSK50 CM2150/QSK60 CM2250 – Industrial/Marine) | [[5471755]] | Yes | Yes | [[5540246]] |
 > | Fuel Pump (QSK19 CM850/CM2150) | 5471751 | Yes | Yes | [[5471846]] |
 > | Fuel Pump (QSK19 CM2350) | 5471816, 5481848 | Yes | Yes | 6393791 |
 >

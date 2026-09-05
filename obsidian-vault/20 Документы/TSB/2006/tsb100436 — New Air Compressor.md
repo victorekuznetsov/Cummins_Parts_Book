@@ -9,16 +9,26 @@ released: "2006-01-31"
 modified: "2006-01-31"
 group: "12 - Air System (Compressed)"
 engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
+  - "80141463"
+  - "80248213"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+  - "QSM11"
+  - "QSX15"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100436.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100436.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100436.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
+  - "двигатель/QSM11"
+  - "двигатель/QSX15"
   - "год/2006"
   - "перевод/машинный"
   - "тема/air-system-compressed"
@@ -29,10 +39,10 @@ tags:
 
 > [!abstract] TSB · `tsb100436`
 > **Раздел Cummins:** 12 - Air System (Compressed)
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** C8.3 · 6C8.3, QSM11, QSX15
 > **Даты:** выпущен 2006-01-31 · изменён 2006-01-31
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100436.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100436.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100436.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100436.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -66,8 +76,8 @@ WabcoTM начала производство новой конструкции 
 
 Для правильной установки воздушного компрессора, справка Процедура 012-014 в одном из следующих служебных изданий:
 
-- Руководство по эксплуатации, ISM, ISMe и QSM11 Двигатели, Бюллетень 3666322
-- Руководство по эксплуатации, двигатели ISX и QSX15, бюллетень 3666239
+- Руководство по обслуживанию, ISM, ISMe и QSM11 Двигатели, Бюллетень[[3666322 — ISM, ISMe, and QSM11 Service Manual|3666322]]
+- Руководство по эксплуатации, двигатели ISX и QSX15, бюллетень[[3666239 — Signature™, ISX, and QSX15 Service Manual|3666239]]
 - Руководство по устранению неполадок и ремонту, двигатели серии C, бюллетень[[3666003 — C Troubleshooting and Repair Manual|3666003]]
 - Руководство по устранению неполадок и ремонту, ISC, ISC e, QSC8.3, ISL, ISL e 3 и двигатели QSL9, Бюллетень 4021418.
 
@@ -77,14 +87,14 @@ WabcoTM начала производство новой конструкции 
 |---|---|---|---|---|---|---|
 | Группа двигателей | Двигатель | Старый Cummins Part Number | Новый номер Cummins Part Number | Дата производства | Серийный номер двигателя (ESN) | Пострадавшие публикации |
 | Средний | Серия C | 3969104 | 4936212 | 22-декабрь 2005 года | 46567259 | [[3666003 — C Troubleshooting and Repair Manual\|3666003]] |
-| 3969108 | 4936213 | **В настоящее время в производстве не | Не применяется |  |  |  |
-| 3969120 | 4936214 | **В настоящее время в производстве не | Не применяется |  |  |  |
-| QSC Tier II (CAPS) | 3969124 | 4936216 | **В настоящее время в производстве не | Не применяется | 4021418 |  |
-| 3968527 | 4936217 | **В настоящее время в производстве не | Не применяется |  |  |  |
+| 3969108 | 4936213 | В настоящее время в производстве не | Не применяется |  |  |  |
+| 3969120 | 4936214 | В настоящее время в производстве не | Не применяется |  |  |  |
+| QSC Tier II (CAPS) | 3969124 | 4936216 | В настоящее время в производстве не | Не применяется | 4021418 |  |
+| 3968527 | 4936217 | В настоящее время в производстве не | Не применяется |  |  |  |
 | ISC, QSC8.3 CM850, ISL, ISL e 3 и QSL9 CAPS и CM850 | 3969110 | 4936218 | 20 декабря 2005 года | 46566258 |  |  |
-| 3969114 | 4936219 | **В настоящее время в производстве не | Не применяется |  |  |  |
-| тяжелый | ISM, ISMe и QSM11 | 3103403 | 4952756 | Не применяется | 35147271 | 3666322 |
-| Подпись, ISX и QSX15 | 3103413 | 4952758 | Не применяется | 79151909 | 3666239 |  |
+| 3969114 | 4936219 | В настоящее время в производстве не | Не применяется |  |  |  |
+| тяжелый | ISM, ISMe и QSM11 | 3103403 | 4952756 | Не применяется | 35147271 | [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] |
+| Подпись, ISX и QSX15 | 3103413 | 4952758 | Не применяется | 79151909 | [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] |  |
 
 > [!note] Примечание
 > Это усовершенствование продукта, и оно не подлежит кампании.
@@ -115,8 +125,8 @@ WabcoTM начала производство новой конструкции 
 >
 > For proper air compressor installation, reference Procedure 012-014 in one of the following service publications:
 >
-> - Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin 3666322
-> - Service Manual, ISX and QSX15 Engines, Bulletin 3666239
+> - Service Manual, ISM, ISMe, and QSM11 Engines, Bulletin [[3666322 — ISM, ISMe, and QSM11 Service Manual|3666322]]
+> - Service Manual, ISX and QSX15 Engines, Bulletin [[3666239 — Signature™, ISX, and QSX15 Service Manual|3666239]]
 > - Troubleshooting and Repair Manual, C Series Engines, Bulletin [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > - Troubleshooting and Repair Manual, ISC, ISC e, QSC8.3, ISL, ISL e 3, and QSL9 Engines, Bulletin 4021418.
 >
@@ -132,8 +142,8 @@ WabcoTM начала производство новой конструкции 
 > | 3968527 | 4936217 | **Not** in production at this time | N/A |  |  |  |
 > | ISC, QSC8.3 CM850, ISL, ISL e 3, and QSL9 CAPS and CM850 | 3969110 | 4936218 | 20-Dec-2005 | 46566258 |  |  |
 > | 3969114 | 4936219 | **Not** in production at this time | N/A |  |  |  |
-> | Heavy-Duty | ISM, ISMe, and QSM11 | 3103403 | 4952756 | N/A | 35147271 | 3666322 |
-> | Signature, ISX, and QSX15 | 3103413 | 4952758 | N/A | 79151909 | 3666239 |  |
+> | Heavy-Duty | ISM, ISMe, and QSM11 | 3103403 | 4952756 | N/A | 35147271 | [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]] |
+> | Signature, ISX, and QSX15 | 3103413 | 4952758 | N/A | 79151909 | [[3666239 — Signature™, ISX, and QSX15 Service Manual\|3666239]] |  |
 >
 > **Note · Примечание**
 > This is a product improvement, and is **not** subject to campaign.

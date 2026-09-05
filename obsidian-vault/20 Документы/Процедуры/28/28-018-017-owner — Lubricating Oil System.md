@@ -7,16 +7,15 @@ title_en: "Lubricating Oil System"
 title_ru: "Система смазки"
 modified: "2014-03-04"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3667180"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-018-017-owner.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-018-017-owner.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-018-017-owner.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -28,12 +27,12 @@ tags:
 **Система смазки**
 
 > [!abstract] Процедура · `28-018-017-owner`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]]
 > **Секции:** Section V - Maintenance Specifications
 > **Даты:** изменён 2014-03-04
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-018-017-owner.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-018-017-owner.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-018-017-owner.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-018-017-owner.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -45,7 +44,7 @@ tags:
 
 ### Спецификации
 
-#### Давление моторного масла, основная нефтяная винтовка (масло 15W-40 при 107 ° C \[225 ° F \]):
+#### Давление моторного масла, основная масляная винт (масло 15W-40 при 107 ° C \[225 ° F \]):
 
 | Минимальный уровень rpm | 310 кПа[45 psi] |
 |---|---|
@@ -68,7 +67,7 @@ tags:
 | Максимальная мощность моторного масла Pan Sump | Смотрите ниже |
 |---|---|
 
-#### Элиминатор Нефтяная мощность - Работа двигателя:
+#### Элиминатор Масляная мощность - Работа двигателя:
 
 | QSK38/K38 и QSK50/K50 | 18 литров \[4.8 галл\] - 20 литров \[5.3 галл\] |
 |---|---|
@@ -116,7 +115,7 @@ tags:
 | Давление моторного масла при номинальной скорости для температур выше 82 ° C \[180°F \] | 207-448 кПа[30-65 psi] |
 |---|---|
 
-| Максимальное потребление нефти | 0,47 л/ч \[0,50 квт/ч\] |
+| Максимальное потребление масла | 0,47 л/ч \[0,50 квт/ч\] |
 |---|---|
 
 | Температура моторного масла - максимальная в супе | 110°C[230°F] |
@@ -140,7 +139,7 @@ tags:
 
 #### Резервуарный резервуар для моторного масла
 
-| Уровень нефти | 151 литр[40 галлов] |
+| Уровень масла | 151 литр[40 галлов] |
 |---|---|
 
 

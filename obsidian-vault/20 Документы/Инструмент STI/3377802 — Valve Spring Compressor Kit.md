@@ -9,17 +9,27 @@ released: "2002-10-14"
 modified: "2012-05-30"
 revision: "03"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "37269910"
+  - "37280605"
   - "41343322"
+  - "41370103"
 families:
+  - "K19"
   - "NT/NTA855 · ISM/QSM11"
+  - "QSK60"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377802.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377802.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3377802.pdf"
 tags:
   - "документ/инструмент"
+  - "двигатель/K19"
   - "двигатель/NT/NTA855"
+  - "двигатель/QSK60"
   - "перевод/машинный"
 ---
 
@@ -27,10 +37,10 @@ tags:
 **Комплект рассухаривателя клапанов**
 
 > [!abstract] Инструкция по инструменту · `3377802`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
-> **Семейство:** NT/NTA855 · ISM/QSM11
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
+> **Семейство:** K19, NT/NTA855 · ISM/QSM11, QSK60
 > **Даты:** выпущен 2002-10-14 · изменён 2012-05-30 · ревизия 03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377802.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377802.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377802.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3377802.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -60,10 +70,10 @@ tags:
 | 2 | S-150-B | Головные болты гнезда, 5/16 - 18 UNC x 1 дюйм | 1 |
 | 2 | S-143-B | Головные болты гнезда, 3/8 - 16 UNC x 1 дюйм | 1 |
 | 2 | 3164006 | Головные болты гнезда, 3/8 - 24 UNF x 2-дюймовый | 1 |
-| ** Не** Показано | 3331123 | Головные болты гнезда, M10 x 1,50 x 40 мм | 1 |
+| **Не** Показано | 3331123 | Головные болты гнезда, M10 x 1,50 x 40 мм | 1 |
 | 3 | 3164003 | болты, 7/8 - 14 UNF x 4-дюймовый | 1 |
 | 4 | 3163178 | Пружинная пластина компрессора клапана (NH, NT, N14 и V28) | Не применяется |
-| 5 | 3164004 | стиральная машина | 1 |
+| 5 | 3164004 | шайба | 1 |
 | Не применяется | Не применяется | Не применяется | Не применяется |
 | Таблица 2, Предметы, используемые с комплектом компрессора клапан Spring, приобретенные отдельно |  |  |  |
 | 4 | 3163579 | Пружинная пластина-компрессор V903 | 1 |

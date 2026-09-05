@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc689.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc689.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc689.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc689.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc689.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc689.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc689.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -62,7 +62,7 @@ Crankshaft Engine Speed Sensor Circuit
 
 ### Описание цепи
 
-Датчик скорости коленчатого вала двигателя предоставляет информацию о скорости двигателя и положении электронному модулю управления (ECM). Датчик ** должен быть включен +5 VDC для работы. Датчик генерирует сигнал, чувствуя движение зубьев-мишеней, обработанных в тональное колесо, которое установлено на коленчатый вал.
+Датчик скорости коленчатого вала двигателя предоставляет информацию о скорости двигателя и положении электронному модулю управления (ECM). Датчик должен быть включен +5 VDC для работы. Датчик генерирует сигнал, чувствуя движение зубьев-мишеней, обработанных в тональное колесо, которое установлено на коленчатый вал.
 
 ### Расположение компонента
 

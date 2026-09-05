@@ -8,6 +8,7 @@ title_ru: "Схема потоков системы смазки"
 modified: "2012-10-11"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-002-om-mar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-200-002-om-mar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-200-002-om-mar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Схема потоков системы смазки**
 
 > [!abstract] Процедура · `41-200-002-om-mar`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]]
 > **Секции:** Section D - System Diagrams
 > **Даты:** изменён 2012-10-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-002-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-200-002-om-mar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-200-002-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-200-002-om-mar.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -51,7 +52,7 @@ tags:
 
 1. Масляный фильтр
 2. Маслоподводящая магистраль турбокомпрессора
-3. Поток к главной масляной винтовке
+3. Поток к главной масляной винте
 4. Магистраль слива масла турбокомпрессора.
 
 ![[07900239.png]]
@@ -62,13 +63,13 @@ tags:
 4. Поток к масляному фильтру
 5. Поток от масляного фильтра
 6. Масляный фильтр шунтирующий клапан
-7. Поток к главной масляной винтовке
+7. Поток к главной масляной винте
 8. Поток в масляную кастрюлю.
 
 ![[07900230.png]]
 
 1. Поток из масляного охладителя
-2. Главная Масляная винтовка
+2. Главная Масляная винт
 3. Поток к насосу для инъекций
 4. Поток к верху
 5. Слив масла насоса для инъекций
@@ -79,14 +80,14 @@ tags:
 
 ![[07900231.png]]
 
-1. Главная Масляная винтовка
+1. Главная Масляная винт
 2. Номер 7 втулка распределительного вала
 3. Поток из цилиндра с валом № 7
 4. Опора коромысел
 5. Труба для переноса масла
 6. Ось коромысел
 7. Коромысло клапана
-8. Нефтяной корыт
+8. Масляной корыт
 9. Крышка коромысел.
 
 Судовое применение

@@ -7,19 +7,29 @@ title_en: "How to Use the Manual"
 title_ru: "Как пользоваться руководством"
 modified: "2012-03-21"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33239746"
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
 manuals:
+  - "4021555"
   - "4021587"
   - "4021617"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-003-mrm-marpanel.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-204-003-mrm-marpanel.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-204-003-mrm-marpanel.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -28,12 +38,12 @@ tags:
 **Как пользоваться руководством**
 
 > [!abstract] Процедура · `99-204-003-mrm-marpanel`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
-> **Входит в руководства:** [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]], [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual|4021617]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** QSK19, QSK60, QSK60 CM2150 MCRS
+> **Входит в руководства:** [[4021555 — QSK60 Marine Alarm and Safety System Master Repair Manual|4021555]], [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]], [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual|4021617]]
 > **Секции:** Section i - Introduction · Section i — Introduction
 > **Даты:** изменён 2012-03-21
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-003-mrm-marpanel.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-204-003-mrm-marpanel.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-204-003-mrm-marpanel.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-204-003-mrm-marpanel.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского

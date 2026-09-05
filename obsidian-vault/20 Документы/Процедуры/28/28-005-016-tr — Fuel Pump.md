@@ -7,17 +7,16 @@ title_en: "Fuel Pump"
 title_ru: "Топливный насос"
 modified: "2020-08-12"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 76
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-005-016-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-005-016-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-005-016-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Топливный насос**
 
 > [!abstract] Процедура · `28-005-016-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 5 - Fuel System - Group 05
 > **Даты:** изменён 2020-08-12
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-005-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-005-016-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-005-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-005-016-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -48,10 +47,10 @@ tags:
 
 с форсункой электронного управления
 
-Химическая полоса или накопление в дыре плача является ** не ** оправданием для замены топливного насоса. Если наблюдается устойчивый поток масла или топлива, замените топливный насос. Обратитесь в авторизованный сервисный центр Cummins®.
+Химическая полоса или накопление в дыре плача является **не **оправданием для замены топливного насоса. Если наблюдается устойчивый поток масла или топлива, замените топливный насос. Обратитесь в авторизованный сервисный центр Cummins®.
 
 > [!note] Примечание
-> Эта проверка может ** не** быть проведена на более поздних насосах, когда отверстие для плача было удалено.
+> Эта проверка может **не** быть проведена на более поздних насосах, когда отверстие для плача было удалено.
 
 ![[05u00007.png]]
 
@@ -59,9 +58,9 @@ tags:
 > Давление топлива в линии достаточно, чтобы проникнуть в кожу и нанести серьезный вред здоровью. Носите перчатки и защитную одежду.
 
 > [!note] Примечание
-> Давление от топливной системы ** должно быть снято перед удалением датчика давления рельса, механического клапана сброса или линий подачи топливного форсунка.
+> Давление от топливной системы должно быть снято перед удалением датчика давления рельса, механического клапана сброса или линий подачи топливного форсунка.
 
-Накройте штепсель с помощью безмятежной ткани. Медленно ослабить вилку на последнем топливном форсунке топливных линий высокого давления от 1/4 до 1/2 оборота. Вилка ** не ** должна быть удалена, чтобы уменьшить давление.
+Накройте штепсель с помощью безмятежной ткани. Медленно ослабить вилку на последнем топливном форсунке топливных линий высокого давления от 1/4 до 1/2 оборота. Вилка **не **должна быть удалена, чтобы уменьшить давление.
 
 Подключите электронный сервисный инструмент INSITETM и проверьте давление в топливной рельсе, чтобы убедиться, что давление топлива упало.
 
@@ -79,10 +78,10 @@ tags:
 
 - Отсоедините провода аккумуляторных батарей. См. сервисное руководство изготовителя машины.
 - Очистите топливный насос и окружающую область, прежде чем вынуть топливный насос из двигателя.
-- Удалите любые зажимы, которые находятся в пределах 450 мм \[18 в \] от ECM. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень 3666070. См. процедуру 019-043 в разделе 19.
-- Удалите три крепежных болта ECM и осторожно отведите ECM от топливного насоса. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень 3666070. См. процедуру 019-031 в разделе 19.
-- Отсоедините электропровода управления топливом от электронного клапана управления топливом. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень 3666070. См. процедуру 019-030 в разделе 19.
-- Отсоедините провода к клапану отключения топлива. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень 3666070. См. процедуру 019-050 в разделе 19.
+- Удалите любые зажимы, которые находятся в пределах 450 мм \[18 в \] от ECM. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]].[[98-019-043 — Engine Wiring Harness|См. процедуру 019-043 в разделе 19.]]
+- Удалите три крепежных болта ECM и осторожно отведите ECM от топливного насоса. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]].[[98-019-031 — Engine Control Module|См. процедуру 019-031 в разделе 19.]]
+- Отсоедините электропровода управления топливом от электронного клапана управления топливом. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]].[[98-019-030 — EFC Module|См. процедуру 019-030 в разделе 19.]]
+- Отсоедините провода к клапану отключения топлива. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]].[[98-019-050 — Fuel Shutoff Valve|См. процедуру 019-050 в разделе 19.]]
 
 ![[ck800wa.png]]
 
@@ -153,7 +152,7 @@ tags:
 
 ![[05600259.png]]
 
-Удалите два болта и шайбы (2), закрепляющие опорную скобу насоса (3), на опорную скобу (1), прикрепленную к насосу.
+Удалите два болта и шайбы (2), закрепляющие опорную скобу насоса (3), в опорную скобу (1), прикрепленную к насосу.
 
 Удалите три болта и шайбы (4), закрепляющие подпорную скобу насоса на блоке двигателя.
 
@@ -231,7 +230,7 @@ tags:
 Удалите два болта и прокладки (1), закрепляющие верхний топливный насос кронштейн поддержки топливного насоса.
 
 > [!note] Примечание
-> Спейсеры *** должны быть сохранены для установки. Верхняя опорная кронштейна ** не должна быть установлена без прокладок.
+> Спейсеры **должны быть сохранены для установки. Верхняя опорная кронштейна **не должна быть установлена без прокладок.
 
 ![[05600261.png]]
 
@@ -246,10 +245,10 @@ tags:
 
 Удалите датчик давления 1 форсунки (7).
 
-Удалить герметичную стиральную машину (8). Используйте магнит, а затем откажитесь от уплотнительной стиральной машины.
+Удалить герметичную шайбу (8). Используйте магнит, а затем откажитесь от уплотнительной шайбы.
 
 > [!note] Примечание
-> Старые версии топливного насоса не использовали герметичную стиральную машину.
+> Старые версии топливного насоса не использовали герметичную шайбу.
 
 Подключите рельс 1 датчика давления форсунки с чистой пластиковой пробкой.
 
@@ -290,7 +289,7 @@ tags:
 
 Убедитесь, что один и тот же номер списка контрольных частей (CPL) находится как на табличке топливного насоса, так и на табличке двигателя.
 
-Если номер CPL на табличке с топливным насосом ** не** соответствует номеру CPL на табличке с данными двигателя, топливный насос *** должен быть снова откалиброван в соответствии с правильной спецификацией для двигателя.
+Если номер CPL на табличке с топливным насосом **не** соответствует номеру CPL на табличке с данными двигателя, топливный насос должен быть снова откалиброван в соответствии с правильной спецификацией для двигателя.
 
 ![[fp2plga.png]]
 
@@ -325,7 +324,7 @@ tags:
 
 Проверьте уплотнения для проверки пробоотвода топливного насоса.
 
-Если уплотнения для проверки на предмет несанкционированного доступа были сломаны или отсутствуют, топливный насос ** должен быть откалиброван. См. PTTM Fuel Pump (Type G) Rebuild and Calibration Instructions, Bulletin 3379084.
+Если уплотнения для проверки на предмет несанкционированного доступа были сломаны или отсутствуют, топливный насос должен быть откалиброван. См. PTTM Fuel Pump (Type G) Rebuild and Calibration Instructions, Bulletin 3379084.
 
 Установите новые уплотнения для проверки на предмет подделки.
 
@@ -376,10 +375,10 @@ tags:
 > [!danger] ОПАСНО
 > При работе со сжатым воздухом применяйте защиту глаз и лица. Разлетающиеся частицы и грязь могут привести к травме.
 
-Осмотрите каналы подачи и возврата нефти на предмет ограничений, грязи и мусора.
+Осмотрите каналы подачи и возврата масла на предмет ограничений, грязи и мусора.
 
 > [!note] Примечание
-> Некоторые насосы имеют уплотнения, установленные в двух нижних проходах для слива масла. Их следует удалить ** не**.
+> Некоторые насосы имеют уплотнения, установленные в двух нижних проходах для слива масла. Их следует удалить **не**.
 
 Очистите проходы электрическим контактным очистителем, Номер детали 3824510, или эквивалент.
 
@@ -442,21 +441,21 @@ tags:
 Затяните болты.
 
 > [!note] Примечание
-> Уплотнительная стиральная машина (8) представляет собой одноразовую уплотнение и должна быть заменена, когда датчик давления (7) измерения давления в топливной форсунке удаляется или ослабляется.
+> Уплотнительная шайба (8) представляет собой одноразовую уплотнение и должна быть заменена, когда датчик давления (7) измерения давления в топливной форсунке удаляется или ослабляется.
 
-Установите новую уплотнительную стиральную машину (8), затем установите датчик давления 1 топливного форсунка (7).
+Установите новую уплотнительную шайбу (8), затем установите датчик давления 1 топливного форсунка (7).
 
 > [!tip] Момент затяжки
 > 136 Н·м [100 фунт-фут]
 
 > [!note] Примечание
-> Старые версии топливного насоса не использовали герметичную стиральную машину. Использование герметичной стиральной машины на более старой версии топливного насоса ** не** позволит правильно зацепить резьба датчика давления.
+> Старые версии топливного насоса не использовали герметичную шайбу. Использование герметичной шайбы на более старой версии топливного насоса **не** позволит правильно зацепить резьба датчика давления.
 
 Установить механический клапан (6).[[102-006-061 — Fuel Pressure Relief Valve|См. процедуру 006-061 в разделе 6.]]
 
 ![[05600277.png]]
 
-Установите верхний топливный насос на топливный насос, используя два болта и прокладки (1). Убедитесь, что оба спайсера используются. В это время затягивайте болты. **Не затягивайте.
+Установите верхний топливный насос на топливный насос, используя два болта и прокладки (1). Убедитесь, что оба спайсера используются. В это время затягивайте болты. Не затягивайте.
 
 ![[05600261.png]]
 
@@ -480,7 +479,7 @@ tags:
 
 с форсункой электронного управления
 
-Калибровка ** не требуется на двигателях, оснащенных модульными топливными системами общего рельса.
+Калибровка не требуется на двигателях, оснащенных модульными топливными системами общего рельса.
 
 ![[nobox.png]]
 
@@ -581,17 +580,17 @@ tags:
 
 Установите два болта и шайбы (4), закрепляющие топливный насос опорной кронштейн (3) к кронштейну (2), прикрепленному к топливному насосу.
 
-** Только затягивайте болты в это время.
+Только затягивайте болты в это время.
 
 ![[05600260.png]]
 
 Установите три болта и шайбы (4), закрепляющие кронштейн поддержки топливного насоса (3) на блоке двигателя.
 
-** Только затягивайте болты в это время.
+Только затягивайте болты в это время.
 
 Установите два болта и шайбы (2), закрепляющие подложку топливного насоса (3) к подложке (1) подложки топливного насоса.
 
-** Только затягивайте болты в это время.
+Только затягивайте болты в это время.
 
 После того, как все болты установлены и рука затянута, затянуть болты.
 
@@ -654,7 +653,7 @@ tags:
 
 Установите две линии подачи топлива U-образного форсунка в розетки топливного насоса.
 
-Запустите первую резьба соединительного ореха вручную.
+Запустите первую резьба соединительного гайки вручную.
 
 Маршрутизация линий подачи топливного форсунка в подходящий контейнер, который может содержать 3,78 л \[1 галл\] или более топлива.
 
@@ -673,7 +672,7 @@ tags:
 > [!note] Примечание
 > Хотя на иллюстрации **не** показано затягивание топливной линии на топливном насосе, технике то же самое.
 
-Установите прямоугольные гремметные орехи на соединительные орехи с подходящим M24 \[15/16 в\] вороньего ножка и крутящий момент гаечного ключа. Поддерживайте соединительный орех гаечным ключом при затягивании прямоугольного гремметного ореха.
+Установите прямоугольные гремметные гайки на соединительные гайки с подходящим M24 \[15/16 в\] вороньего ножка и гаечный ключ. Поддерживайте соединительный гайка гаечным ключом при затягивании прямоугольного гремметного гайки.
 
 > [!tip] Момент затяжки
 > 45 Н·м [33 фунт-фут]
@@ -709,10 +708,10 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Не перекручивайте и не изгибайте проводную упряжку CENTRYTM. Повреждение проводной упряжки может произойти.
 
-- Подключите провода к клапану отключения топлива. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень 3666070. См. процедуру 019-050 в разделе 19.
-- Подключите электропровода управления электронным топливом к электронному клапану управления топливом. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень 3666070. См. процедуру 019-030 в разделе 19.
-- Установите три крепежных болта ECM и осторожно отведите ECM от топливного насоса. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень 3666070. См. процедуру 019-031 в разделе 19.
-- Установите любые зажимы для удержания проводов, которые находятся в пределах 450 мм \[18 в \] от ECM. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень 3666070. См. процедуру 019-043 в разделе 19.
+- Подключите провода к клапану отключения топлива. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]].[[98-019-050 — Fuel Shutoff Valve|См. процедуру 019-050 в разделе 19.]]
+- Подключите электропровода управления электронным топливом к электронному клапану управления топливом. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]].[[98-019-030 — EFC Module|См. процедуру 019-030 в разделе 19.]]
+- Установите три крепежных болта ECM и осторожно отведите ECM от топливного насоса. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]].[[98-019-031 — Engine Control Module|См. процедуру 019-031 в разделе 19.]]
+- Установите любые зажимы для удержания проводов, которые находятся в пределах 450 мм \[18 в \] от ECM. Используйте следующую процедуру из руководства по устранению неполадок и ремонту топливной системы CENTRYTM, Бюллетень [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]].[[98-019-043 — Engine Wiring Harness|См. процедуру 019-043 в разделе 19.]]
 - Подсоедините провода аккумуляторных батарей. См. сервисное руководство изготовителя машины.
 - Запустите двигатель и проверьте на отсутствие утечек.
 
@@ -778,10 +777,10 @@ tags:
 >
 > - Disconnect the battery cables. Refer to the OEM service manual.
 > - Clean the fuel pump and the surrounding area before removing the fuel pump from the engine.
-> - Remove any wiring harness hold-down clamps that are within 450 mm \[18 in\] of the ECM. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin 3666070. Refer to Procedure 019-043 in Section 19.
-> - Remove the three ECM mounting capscrews and carefully move the ECM away from the fuel pump. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin 3666070. Refer to Procedure 019-031 in Section 19.
-> - Disconnect the electronic fuel control electrical wires from the electronic fuel control valve. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin 3666070. Refer to Procedure 019-030 in Section 19.
-> - Disconnect the wires to the fuel shutoff valve. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin 3666070. Refer to Procedure 019-050 in Section 19.
+> - Remove any wiring harness hold-down clamps that are within 450 mm \[18 in\] of the ECM. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]. [[98-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19.]]
+> - Remove the three ECM mounting capscrews and carefully move the ECM away from the fuel pump. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]. [[98-019-031 — Engine Control Module|Refer to Procedure 019-031 in Section 19.]]
+> - Disconnect the electronic fuel control electrical wires from the electronic fuel control valve. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]. [[98-019-030 — EFC Module|Refer to Procedure 019-030 in Section 19.]]
+> - Disconnect the wires to the fuel shutoff valve. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]. [[98-019-050 — Fuel Shutoff Valve|Refer to Procedure 019-050 in Section 19.]]
 >
 > PT
 >
@@ -1266,10 +1265,10 @@ tags:
 > **CAUTION · Осторожно**
 > Do not over twist or bend the CENTRY™ wiring harness. Damage to the wiring harness can occur.
 >
-> - Connect the wires to the fuel shutoff valve. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin 3666070. Refer to Procedure 019-050 in Section 19.
-> - Connect the electronic fuel control electrical wires to the electronic fuel control valve. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin 3666070. Refer to Procedure 019-030 in Section 19.
-> - Install the three ECM mounting capscrews and carefully move the ECM away from the fuel pump. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin 3666070. Refer to Procedure 019-031 in Section 19.
-> - Install any wiring harness hold-down clamps that are within 450 mm \[18 in\] of the ECM. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin 3666070. Refer to Procedure 019-043 in Section 19.
+> - Connect the wires to the fuel shutoff valve. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]. [[98-019-050 — Fuel Shutoff Valve|Refer to Procedure 019-050 in Section 19.]]
+> - Connect the electronic fuel control electrical wires to the electronic fuel control valve. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]. [[98-019-030 — EFC Module|Refer to Procedure 019-030 in Section 19.]]
+> - Install the three ECM mounting capscrews and carefully move the ECM away from the fuel pump. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]. [[98-019-031 — Engine Control Module|Refer to Procedure 019-031 in Section 19.]]
+> - Install any wiring harness hold-down clamps that are within 450 mm \[18 in\] of the ECM. Use the following procedure from the CENTRY™ Fuel System Troubleshooting and Repair Manual, Bulletin [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual\|3666070]]. [[98-019-043 — Engine Wiring Harness|Refer to Procedure 019-043 in Section 19.]]
 > - Connect the battery cables. Refer to the OEM service manual.
 > - Operate the engine and check for leaks.
 >

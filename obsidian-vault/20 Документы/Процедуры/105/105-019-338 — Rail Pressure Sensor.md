@@ -17,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-338.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-338.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-019-338.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2004-04-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-338.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/105-019-338.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/105/105-019-338.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/105-019-338.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -68,7 +68,7 @@ tags:
 
 ### Снятие
 
-Удалить ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]в руководстве по устранению и ремонту неисправностей в системе управления генератором мощности, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78 серии или процедуре 019-031 в электронной системе управления устранением неисправностей и ремонтом, двигателях QSK19, QSK23, QSK45, QSK60 и QSK78.
+Удалить ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]Руководство по устранению неполадок и ремонту в системе управления генератором питания, двигатели или процедура серии QSX15, QSK23, QSK45, QSK60 и QSK78[[19-019-031 — Engine Control Module|019-031]]В системе электронного управления по устранению неполадок и ремонту, QSK19, QSK23, QSK45, QSK60 и QSK78.
 
 Очистите корпус управляющего клапана вокруг датчика давления.
 
@@ -93,7 +93,7 @@ tags:
 
 ![[19400373.png]]
 
-Установите ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]в руководстве по устранению и ремонту неисправностей в системе управления генератором мощности, двигателях QSX15, QSK23, QSK45, QSK60 и QSK78 серии или процедуре 019-031 в электронной системе управления устранением неисправностей и ремонтом, двигателях QSK19, QSK23, QSK45, QSK60 и QSK78.
+Установите ECM. См. процедуру[[01-019-031 — Engine Control Module|019-031]]Руководство по устранению неполадок и ремонту в системе управления генератором питания, двигатели или процедура серии QSX15, QSK23, QSK45, QSK60 и QSK78[[19-019-031 — Engine Control Module|019-031]]В системе электронного управления по устранению неполадок и ремонту, QSK19, QSK23, QSK45, QSK60 и QSK78.
 
 ![[19400295.png]]
 
@@ -117,7 +117,7 @@ tags:
 >
 > ### Remove
 >
-> Remove the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generator Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines or Procedure 019-031 in the Troubleshooting and Repair Manual Electronic Control System, QSK19, QSK23, QSK45, QSK60 and QSK78 Engines.
+> Remove the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generator Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines or Procedure [[19-019-031 — Engine Control Module|019-031]] in the Troubleshooting and Repair Manual Electronic Control System, QSK19, QSK23, QSK45, QSK60 and QSK78 Engines.
 >
 > Clean the control valve body around the pressure sensor.
 >
@@ -136,4 +136,4 @@ tags:
 >
 > Connect the sensor connection.
 >
-> Install the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generator Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines or Procedure 019-031 in the Troubleshooting and Repair Manual Electronic Control System, QSK19, QSK23, QSK45, QSK60 and QSK78 Engines.
+> Install the ECM. Refer to Procedure [[01-019-031 — Engine Control Module|019-031]] in the Power Generator Control System Troubleshooting and Repair Manual, QSX15, QSK23, QSK45, QSK60 and QSK78 Series Engines or Procedure [[19-019-031 — Engine Control Module|019-031]] in the Troubleshooting and Repair Manual Electronic Control System, QSK19, QSK23, QSK45, QSK60 and QSK78 Engines.

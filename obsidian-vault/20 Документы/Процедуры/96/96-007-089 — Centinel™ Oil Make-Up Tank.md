@@ -10,6 +10,7 @@ engines:
   - "37292556"
   - "37295879"
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
   - "QST30"
@@ -19,7 +20,7 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-007-089.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/96-007-089.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/96-007-089.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -32,12 +33,12 @@ tags:
 **Бак подпитки маслом Centinel™**
 
 > [!abstract] Процедура · `96-007-089`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11, QST30
 > **Входит в руководства:** [[3666231 — Centinel™ Master Repair Manual|3666231]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2004-04-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-007-089.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/96-007-089.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/96/96-007-089.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/96-007-089.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -74,7 +75,7 @@ tags:
 Временно подключите любые вентиляционные отверстия резервуара по мере необходимости и приложите давление воздуха от 69 до 103 кПа \[10 до 15 psi \] к масляному макияжу, чтобы протолкнуть масло через шланг и клапан. Из-за разницы в установке это давление, вероятно, необходимо будет увеличить с шагом от 14 до 21 кПа [2 до 3 psi].
 
 > [!note] Примечание
-> Это требование о давлении очистки ** должно учитываться в любой конструкции резервуара для масляного макияжа, не поставляемого компанией Cummins.
+> Это требование о давлении очистки должно учитываться в любой конструкции резервуара для масляного макияжа, не поставляемого компанией Cummins.
 
 ![[07800091.png]]
 

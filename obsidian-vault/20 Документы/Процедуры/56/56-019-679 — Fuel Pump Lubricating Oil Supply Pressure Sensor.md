@@ -7,17 +7,16 @@ title_en: "Fuel Pump Lubricating Oil Supply Pressure Sensor"
 title_ru: "Датчик давления подачи масла к топливному насосу"
 modified: "2020-05-14"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-019-679.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-019-679.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-019-679.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Датчик давления подачи масла к топливному насосу**
 
 > [!abstract] Процедура · `56-019-679`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Controls - Group 19
 > **Даты:** изменён 2020-05-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-019-679.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-019-679.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-019-679.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-019-679.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -145,7 +144,7 @@ tags:
 
 ### Снятие
 
-Отсоедините электропроводку двигателя от датчика давления моторного масла топливного насоса двигателя, повернув разъем ** против часовой стрелки **.
+Отсоедините электропроводку двигателя от датчика давления моторного масла топливного насоса двигателя, повернув разъем **против часовой стрелки**.
 
 Удалить датчик.
 
@@ -174,7 +173,7 @@ tags:
 Заменить разъем, если:
 
 - Снаряд треснул или сломался
-- Тюлени отсутствуют или повреждены
+- уплотнения отсутствуют или повреждены
 - Терминалы, загрязненные грязью, мусором или влагой
 - Терминалы разъединены, согнуты, сломаны, отодвинуты назад или расширены.
 
@@ -200,7 +199,7 @@ tags:
 
 - Подключите линию подачи воздуха к пусковому двигателю, если он оборудован. См. процедуру 012-022 в разделе 12.
 - Подключите батареи и источники питания. См. сервисную документацию изготовителя оборудования.
-- Заполните моторное масло, если это необходимо. См. процедуру 007-037 в разделе 7.
+- Заполните моторное масло, если это необходимо.[[56-007-037-tr — Lubricating Oil System|См. процедуру 007-037]]В разделе 7.
 - Операционный двигатель. Проверьте на отсутствие утечек.
 
 
@@ -345,5 +344,5 @@ tags:
 >
 > - Connect air supply line to air starting motor, if equipped. Refer to Procedure 012-022 in Section 12.
 > - Connect batteries and power supplies. See equipment manufacturer service information.
-> - Fill lubricating oil pan, if necessary. Refer to Procedure 007-037 in Section 7.
+> - Fill lubricating oil pan, if necessary. [[56-007-037-tr — Lubricating Oil System|Refer to Procedure 007-037]] in Section 7.
 > - Operate engine. Check for leaks.

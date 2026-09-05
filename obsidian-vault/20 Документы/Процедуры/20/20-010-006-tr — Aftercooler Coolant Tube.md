@@ -8,6 +8,7 @@ title_ru: "Трубка ОЖ охладителя наддувочного во�
 modified: "2013-03-06"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 13
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-006-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-006-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-006-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Трубка ОЖ охладителя наддувочного воздуха**
 
 > [!abstract] Процедура · `20-010-006-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2013-03-06
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-006-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-006-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-006-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-006-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -83,7 +84,7 @@ tags:
 
 Удалите два болта из передающей трубки на переходе охлаждающей жидкости и p-зажиме.
 
-Снимите передаточный тюбик и наденьте рукав. Отбросьте кольцо.
+Снимите передаточный трубка и наденьте рукав. Отбросьте кольцо.
 
 ![[10400304.png]]
 
@@ -113,15 +114,15 @@ tags:
 Судовое применение
 
 > [!warning] ОСТОРОЖНО
-> Не используйте нефть на основе нефти. Это приведет к отеку кольца.
+> Не используйте масло на основе масла. Это приведет к отеку кольца.
 
-Смазать кольцо с растительным маслом и установить его на передаточной трубке. Установите износной рукав, передаточный тюбик и два болта в шунтирующую трубку.
+Смазать кольцо с растительным маслом и установить его на передаточной трубке. Установите износной рукав, передаточный трубка и два болта в шунтирующую трубку.
 
 Установите болты p-зажима.
 
 Момент затяжки:
 
-Затворы трансфер-тюбика
+Затворы трансфер-трубки
 
 ![[10400304.png]]
 
@@ -145,7 +146,7 @@ tags:
 
 Момент затяжки:
 
-Затворы трансфер-тюбика
+Затворы трансфер-трубки
 
 Установите соединение впускной передачи охлаждающей жидкости и шесть шлангов.
 

@@ -8,6 +8,7 @@ title_ru: "Шланги охлаждения турбокомпрессора"
 modified: "2011-07-11"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-041-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-041-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-041-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Шланги охлаждения турбокомпрессора**
 
 > [!abstract] Процедура · `20-010-041-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2011-07-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-041-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-010-041-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-010-041-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-010-041-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -107,7 +108,7 @@ tags:
 
 Установите новые кольца уплотнения лица и соедините шланг возврата хладагента турбокомпрессора с турбокомпрессором и трубкой коллектора воды.
 
-Убедитесь, что шланг для возврата охлаждающей жидкости ** не *** в контакте с шлангом для подачи масла. Используйте следующую процедуру, если они находятся в контакте, и требуется больше разрешения.[[20-010-046 — Turbocharger Oil Supply Line|См. процедуру 010-046 в разделе 10.]]
+Убедитесь, что шланг для возврата охлаждающей жидкости **не **в контакте с шлангом для подачи масла. Используйте следующую процедуру, если они находятся в контакте, и требуется больше разрешения.[[20-010-046 — Turbocharger Oil Supply Line|См. процедуру 010-046 в разделе 10.]]
 
 Момент затяжки:
 

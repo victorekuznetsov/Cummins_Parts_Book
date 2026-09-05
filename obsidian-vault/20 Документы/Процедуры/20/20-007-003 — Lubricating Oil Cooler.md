@@ -8,6 +8,7 @@ title_ru: "Маслоохладитель"
 modified: "2015-08-20"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-003.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-003.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-003.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Маслоохладитель**
 
 > [!abstract] Процедура · `20-007-003`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2015-08-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-003.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-003.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-003.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-003.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,11 +58,11 @@ tags:
 
 ![[oi400la.png]]
 
-** Закрыть** клапан Номер. 1 и **open** valve Number. 2. Прочитайте давление масла после того, как масло прошло через охладители масла.
+**Закрыть** клапан Номер. 1 и **open** valve Number. 2. Прочитайте давление масла после того, как масло прошло через охладители масла.
 
 ![[lc4pcla.png]]
 
-** Открытый** клапан Номер. 1 и **close** valve Number. 2. Прочитайте давление масла, подаваемого в масляные охладители.
+**Открытый** клапан Номер. 1 и **close** valve Number. 2. Прочитайте давление масла, подаваемого в масляные охладители.
 
 Сравните разницу между двумя давлениями. Если разница составляет более 138 кПа[20 psi], замените масляные элементы охладителя.[[20-007-007-tr — Lubricating Oil Cooler Element|См. процедуру 007-007 в разделе 7.]]
 

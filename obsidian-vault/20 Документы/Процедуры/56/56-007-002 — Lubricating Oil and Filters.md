@@ -7,19 +7,32 @@ title_en: "Lubricating Oil and Filters"
 title_ru: "Моторное масло и фильтры"
 modified: "2023-01-04"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33239746"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "4021374"
 figures: 22
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-002.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-007-002.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-002.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QST30"
   - "группа/56"
   - "перевод/машинный"
@@ -29,12 +42,12 @@ tags:
 **Моторное масло и фильтры**
 
 > [!abstract] Процедура · `56-007-002`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
-> **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months · Section 5 - Maintenance Procedures at 250 Hours or 1 Year · Section 6 - Maintenance Procedures at 1000 Hours or 1 Year · Section 7 - Lubricating Oil System - Group 07
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QSK60 CM2150 MCRS, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]]
+> **Секции:** Section 4 - Maintenance Procedures at 240 Hours or 6 Months · Section 4 - Maintenance Procedures at 250 Hours or 6 Months · Section 5 - Maintenance Procedures at 250 Hours or 1 Year · Section 6 - Maintenance Procedures at 1000 Hours or 1 Year · Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2023-01-04
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-007-002.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-007-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-007-002.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -69,13 +82,13 @@ tags:
 ### Снятие
 
 > [!note] Примечание
-> Центрифуга EliminatorTM и центрифуга Bypass** не должны обслуживаться до 1000-часового интервала обслуживания.
+> Центрифуга EliminatorTM и центрифуга Bypass не должны обслуживаться до 1000-часового интервала обслуживания.
 
 Двигатель QSK45 имеет три комбинированных масляных фильтра, а QSK60 имеет четыре комбинированных масляных фильтра.
 
 Используйте гаечный ключ масляного фильтра, часть 3375049, или эквивалент, для удаления масляных фильтров.
 
-Откажитесь от фильтра, если ** не** требуется для анализа отказов.
+Откажитесь от фильтра, если **не** требуется для анализа отказов.
 
 ![[07600230.png]]
 
@@ -83,7 +96,7 @@ tags:
 
 Используйте гаечный ключ масляного фильтра, часть 3400158 или эквивалент, чтобы удалить масляный фильтр, если это применимо.
 
-Откажитесь от фильтра, если ** не** требуется для анализа отказов.
+Откажитесь от фильтра, если **не** требуется для анализа отказов.
 
 ![[07500014.png]]
 
@@ -98,7 +111,7 @@ tags:
 ### Очистка
 
 > [!note] Примечание
-> Центрифуга EliminatorTM и центрифуга Bypass** не должны обслуживаться до 1000-часового интервала обслуживания.
+> Центрифуга EliminatorTM и центрифуга Bypass не должны обслуживаться до 1000-часового интервала обслуживания.
 
 > [!note] Примечание
 > Масляный фильтр о-кольцо может прилипать к головке фильтра. Убедитесь, что он удален.
@@ -183,7 +196,7 @@ tags:
 
 ![[07600258.png]]
 
-Используйте высококачественное моторное масло мощностью 15 Вт-40, которое соответствует классификации производительности Американского нефтяного института (API) CE или CF4 или лучше.
+Используйте высококачественное моторное масло мощностью 15 Вт-40, которое соответствует классификации производительности Американского масляного института (API) CE или CF4 или лучше.
 
 Выберите правильное масло для рабочего климата.[[56-018-017 — Lubricating Oil System|См. процедуру 018-017 в разделе V.]]
 
@@ -191,7 +204,7 @@ tags:
 
 Заполните двигатель на правильный уровень чистым моторным маслом.[[56-018-017 — Lubricating Oil System|См. процедуру 018-017 в разделе V для мощности моторного масла.]]
 
-Проверьте уровень масла на измерителе уровня масла. Уровень ** должен быть до высокой отметки (H) на измерителе уровня масла. ** Не переполняйте. Слить лишнее масло в кастрюлю.
+Проверьте уровень масла на измерителе уровня масла. Уровень **должен быть до высокой отметки (H) на измерителе уровня масла. **Не переполняйте. Слить лишнее масло в кастрюлю.
 
 Чтобы правильно проверить уровень масла:
 

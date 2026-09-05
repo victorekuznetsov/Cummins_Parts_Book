@@ -6,28 +6,32 @@ doc: "4021589-history"
 title_en: "Marine C Command Panel System Owners Manual"
 title_ru: "Судовая пультовая система C Command: руководство владельца"
 engines:
-  - "33239746"
+  - "33224404"
   - "33239899"
+  - "41340468"
   - "41349633"
+  - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
+  - "QSK50"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021589-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021589-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
+  - "двигатель/QSK50"
 ---
 
 # Marine C Command Panel System Owners Manual
 **Судовая пультовая система C Command: руководство владельца**
 
 > [!abstract] Руководство · `4021589-history`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021589-history.pdf)
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19, QSK50
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021589-history.pdf)
 
 
 ## Оглавление руководства (20 процедур)
@@ -36,9 +40,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-toc | Table of Contents |  |
-| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-titlepage | Titlepage | 08-Jan-2007 |
-| marpanel-frwd | Forword | 17-Jan-2007 |
+| [[[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-toc.html) | Table of Contents |  |
+| [[[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-titlepage.html) | Titlepage | 08-Jan-2007 |
+| [marpanel-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/marpanel-frwd.html) | Forword | 17-Jan-2007 |
 
 ### Section i - Introduction
 
@@ -61,8 +65,8 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| 3381863 | All Engines Worldwide Marine Recreational Propulsion Products | 15-Oct-2004 |
-| 3381775 | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
+| [3381863](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381863/3381863-history.html) | All Engines Worldwide Marine Recreational Propulsion Products | 15-Oct-2004 |
+| [3381775](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381775/3381775-history.html) | All Engines Worldwide Marine/Commercial Propulsion and Auxiliary Products | 12-May-2009 |
 
 ### Section 1 - Operating Instructions
 
@@ -82,7 +86,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-backcover | Backcover | 08-Jan-2007 |
+| [[[4021589 — Marine C Command Panel System Owners Manual\|4021589]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021589/4021589-backcover.html) | Backcover | 08-Jan-2007 |
 
 ### Section E - Engine and System Identification
 

@@ -1,0 +1,264 @@
+---
+aliases:
+  - "Загрязнение моторного масла"
+type: "Процедура"
+doc: "40-007-044"
+title_en: "Lubricating Oil Contamination"
+title_ru: "Загрязнение моторного масла"
+modified: "2006-03-31"
+engines:
+  - "93047320"
+families:
+  - "6B5.9"
+manuals:
+  - "3666087"
+figures: 20
+lang: "ru+en"
+translation: "машинный черновик"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-007-044.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-007-044.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/6B5.9"
+  - "группа/40"
+  - "перевод/машинный"
+---
+
+# Lubricating Oil Contamination
+**Загрязнение моторного масла**
+
+> [!abstract] Процедура · `40-007-044`
+> **Двигатели:** [[93047320 — 6B5.9 CPL 3111|93047320]]
+> **Семейство:** 6B5.9
+> **Входит в руководства:** [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]]
+> **Секции:** Section 7 - Lubricating Oil System - Group 07
+> **Даты:** изменён 2006-03-31
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/40/40-007-044.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/40-007-044.pdf)
+
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Общие сведения
+
+Разбавление моторного масла
+
+> [!warning] ОСТОРОЖНО
+> Разбавленное масло может вызвать серьезные повреждения двигателя.
+
+Проверьте состояние моторного масла.
+
+- Тонкое, черное моторное масло является показателем топлива в масле.
+- Молочная обесцвечивание является показателем охлаждающей жидкости в смазочном масле.
+
+![[oi901ka.png]]
+
+Охлаждение в масле может быть вызвано:
+
+- Утечка разъемов
+- Моторное масло охлаждающий элемент протекающий
+- Поврежденная головка цилиндра или прокладка
+- Разбитый блок двигателя
+- Литье пористости.
+
+![[oi900kv.png]]
+
+Охлажденное моторное масло
+
+Поскольку конструкция охладителя для моторного масла не требует прокладок или уплотнений для поддержания разделения масла и охлаждающей жидкости, сам элемент должен утечь, чтобы позволить смешивание жидкостей. Видишь?[[40-007-003-tr — Lubricating Oil Cooler|Процедура 007-003]].
+
+![[lc9etkc.png]]
+
+Во время работы давление моторного масла будет выше, чем давление охлаждающей жидкости. Утечка в охладитель моторного масла будет проявляться как моторное масло в охлаждающей жидкости.
+
+Однако после отключения двигателя остаточное давление в системе охлаждающей жидкости может привести к тому, что охлаждающая жидкость просачивается через путь утечки в моторное масло.
+
+![[ov900ka.png]]
+
+Чтобы проверить наличие утечек, надавите на систему охлаждения до 140 кПа[20 psi]. При давлении системы удалите следующие компоненты и проверьте наличие утечек.
+
+- Крышки клапанов (утечки указывают на трещину головы)
+- Сливная масляная пробка (утечки указывают на дефектный охладитель моторного масла, прокладку головы, трещину головы или блока)
+- Tappet cover (утечка вилки расширения).
+
+![[ew900ka.png]]
+
+Охлаждение в смазочном масле может быть вызвано поврежденной прокладкой головки цилиндра или трещиной головки цилиндра или блока.
+
+Удалите головку цилиндра и прокладку, а также проверьте наличие трещин или повреждений.
+
+![[kn9gkma.png]]
+
+Топливное моторное масло
+
+Разбавление топлива ограничивается пятью источниками:
+
+1. Уплотнение вала насоса
+2. Топливо, протекающее через кольца
+3. Топливоподкачивающий насос
+4. Трещина в головке цилиндра от местоположения топливного фильтра до воздухозаборника
+5. Утечка форсунки.
+
+![[fs900kd.png]]
+
+Используйте следующую логику для определения источника разбавления масла топливом:
+
+![[07900086.png]]
+
+Изношенный или поврежденный уплотнитель вала насоса для впрыска топлива позволит топливу просачиваться в корпус зубчатой коробки, а затем в масляный поддон.
+
+![[dp9shka.png]]
+
+Уплотнение предназначено для обеспечения повышенной уплотнения по мере увеличения давления корпуса насоса. Давление заставляет губу (1) плотнее вокруг вала.
+
+Изношенная уплотнение может просачиваться во время запуска и отключения, когда давление в случае низкого. Изношенное уплотнение может **не **легко быть обнаружено путем давления на насос.
+
+![[dp9seka.png]]
+
+Втулка (2) в насосе для впрыска топлива Bosch® VE может вызвать утечку уплотнения. Если втулка свободна в корпусе, она будет двигаться к уплотнению, поднимающему губу (1) и обеспечивающему путь утечки для топлива.
+
+![[dp9bska.png]]
+
+> [!note] Примечание
+> Следующие шаги применяются только к двигателям передних передних передних поездов. Для двигателей задних зубчатых составов не имеется надлежащего доступа для проверки утечки уплотнения топливного насоса на двигателе.
+
+Для проверки такой утечки или поврежденного уплотнения (Bosch® VE **только**), удалите соединение с коллектором слива топлива (1) на насосе и установите пробку (2).
+
+![[ft900ka.png]]
+
+Удалите крышку доступа и поверните двигатель, чтобы одно из отверстий в шестерне насоса впрыска топлива обнажило заднюю коробку передач.
+
+![[dp9cvka.png]]
+
+Включите клапан отключения топлива, повернув переключатель в положение Включения.
+
+![[oi901vb.png]]
+
+Используйте небольшое зеркало, чтобы проверить наличие утечек при накачке рычага на подъемном насосе. Если обнаружена утечка, замените насос для впрыска. Видишь?[[40-005-014-tr — Fuel Injection Pump, Rotary|Процедура 005-014]].
+
+![[fs900ke.png]]
+
+Неполное сгорание в цилиндрах может привести к несгоревшему топливу, стекающему в масляную кастрюлю.
+
+Это состояние может быть вызвано утечкой форсунки или снижением сжатия, вызванным неадекватным уплотнением поршневого кольца.
+
+![[fi900ka.png]]
+
+Увеличение белого выхлопного дыма в течение первого начала дня является симптомом утечки форсунки.
+
+Утечка форсунки также приведет к тому, что двигатель будет работать грубо и иметь низкую мощность.
+
+Удалить и отремонтировать или заменить утечку форсунки. См. процедуру[[40-006-026-tr — Injector|006-026]].
+
+![[fi900kb.png]]
+
+Для двух клапанов на цилиндровые двигатели, выполнить проверку сжатия, чтобы проверить уплотнение поршневого кольца. Видишь?[[40-014-008 — Engine Testing (In Chassis)|Процедура 014-008]].
+
+Для четырех клапанов на цилиндровые двигатели, выполнить проверку на удар. Видишь?[[100-014-010 — Crankcase Blowby, Measure|Процедура 014-010]].
+
+![[pi9rika.png]]
+
+Существует отдаленная возможность для топлива стекать в масло из насоса для передачи топлива диафрагмы.
+
+Для этого диафрагма в насосе разорвется, и дренажное отверстие должно быть заглушено.
+
+![[fs901kd.png]]
+
+На двигателях с головными топливными фильтрами, еще одна отдаленная возможность, заключается в том, что трещина или пористость в литье головы позволит топливу просачиваться в воздухозаборник и на цилиндры.
+
+![[fs900kg.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### General Information
+>
+> Lubricating Oil Dilution
+>
+> **CAUTION · Осторожно**
+> Diluted oil can cause severe engine damage.
+>
+> Check the condition of the lubricating oil.
+>
+> - Thin, black lubricating oil is an indication of fuel in the oil.
+> - Milky discoloration is an indication of coolant in the lubricating oil.
+>
+> Coolant in the oil can be caused by:
+>
+> - Expansion plugs leaking
+> - Lubricating oil cooler element leaking
+> - Damaged cylinder head or gasket
+> - Cracked engine block
+> - Casting porosity.
+>
+> Coolant-Diluted Lubricating Oil
+>
+> Since the lubricating oil cooler design does **not** require gaskets or seals to maintain the separation of oil and coolant, the element itself **must** leak to allow mixing of the fluids. Refer to [[40-007-003-tr — Lubricating Oil Cooler|Procedure 007-003]].
+>
+> During operation, the lubricating oil pressure will be higher than coolant pressure. A leak in the lubricating oil cooler will show as lubricating oil in the coolant.
+>
+> However, following an engine shutdown, the residual pressure in the coolant system can cause coolant to seep through the leak path into the lubricating oil.
+>
+> To check for leaks, pressurize the cooling system to 140 kPa \[20 psi\]. With the system pressurized, remove the following components, and inspect for leaks.
+>
+> - Valve covers (leaks indicate cracked head)
+> - Lubricating oil drain plug (leaks indicate defective lubricating oil cooler, head gasket, cracked head or block)
+> - Tappet cover (expansion plug leak).
+>
+> Coolant in the lubricating oil can be caused by a damaged cylinder head gasket or cracked cylinder head or block.
+>
+> Remove the cylinder head and gasket, and inspect for cracks or damage.
+>
+> Fuel-Diluted Lubricating Oil
+>
+> Fuel dilution is limited to five sources:
+>
+> 1. Injection pump shaft seal
+> 2. Fuel leaking by the rings
+> 3. Fuel transfer pump
+> 4. A crack in the cylinder head from the fuel filter location to the air intake
+> 5. Injector leakage.
+>
+> Use the following logic to determine the source of the oil dilution with fuel:
+>
+> A worn or damaged fuel injection pump shaft seal will allow fuel to leak into the gear housing and then into the lubricating oil pan.
+>
+> The seal is designed to provide increased sealing as the pump case pressure increases. Pressure forces the lip (1) tighter around the shaft.
+>
+> A worn seal could leak during start-up and shutdown when case pressure is low. A worn seal can **not** easily be detected by pressurizing the pump.
+>
+> The bushing (2) in the Bosch® VE fuel injection pump can cause a seal leak. If the bushing is loose in the housing, it will move toward the seal raising the lip (1) and providing a leak path for fuel.
+>
+> **Note · Примечание**
+> The following steps only apply to front gear train engines. For rear gear train engines, there is no adequate access to check for fuel pump seal leakage on engine.
+>
+> To check for such a leak, or a damaged seal (Bosch® VE **only**), remove the fuel drain manifold connection (1) at the pump, and install a plug (2).
+>
+> Remove the access cover, and rotate the engine so one of the holes in the fuel injection pump gear exposes the back gear housing.
+>
+> Activate the fuel shutdown valve by turning the switch to the ON position.
+>
+> Use a small mirror to check for leaks while pumping the priming lever on the lift pump. If a leak is found, replace the injection pump. Refer to [[40-005-014-tr — Fuel Injection Pump, Rotary|Procedure 005-014]].
+>
+> Incomplete combustion in the cylinders can result in unburned fuel draining into the oil pan.
+>
+> This condition can be caused by a leaking injector or reduced compression caused by inadequate piston ring sealing.
+>
+> An increase in white exhaust smoke during the first start of the day is a symptom that an injector is leaking.
+>
+> An injector leak will also cause the engine to run rough and have low power.
+>
+> Remove and repair or replace leaking injectors. Refer to Procedure [[40-006-026-tr — Injector|006-026]].
+>
+> For two valve per cylinder engines, perform a compression check to verify piston ring sealing. Refer to [[40-014-008 — Engine Testing (In Chassis)|Procedure 014-008]].
+>
+> For four valve per cylinder engines, perform a blow-by check. Refer to [[100-014-010 — Crankcase Blowby, Measure|Procedure 014-010]].
+>
+> There is a remote possibility for fuel to drain into the oil from the diaphragm-type fuel transfer pump.
+>
+> For this to happen, the diaphragm in the pump will break and the drain hole will need to be plugged.
+>
+> On engines with head mounted fuel filters, another remote possibility, is that a crack or porosity in the head casting will allow fuel to leak to the air intake and onto the cylinders.

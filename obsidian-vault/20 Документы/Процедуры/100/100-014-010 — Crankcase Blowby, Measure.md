@@ -7,20 +7,25 @@ title_en: "Crankcase Blowby, Measure"
 title_ru: "Измерение прорыва газов в картер"
 modified: "2026-02-12"
 engines:
+  - "93047320"
   - "93058669"
+  - "93087701"
 families:
+  - "6B5.9"
   - "C8.3 · 6C8.3"
 manuals:
   - "3666003"
+  - "3666087"
 parts:
   - "3089567"
 figures: 27
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-014-010.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-014-010.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-014-010.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/C8.3"
   - "группа/100"
   - "перевод/машинный"
@@ -30,12 +35,12 @@ tags:
 **Измерение прорыва газов в картер**
 
 > [!abstract] Процедура · `100-014-010`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
-> **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
+> **Двигатели:** [[93047320 — 6B5.9 CPL 3111|93047320]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** 6B5.9, C8.3 · 6C8.3
+> **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]], [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]]
 > **Секции:** Section 14 - Engine Testing · Section 14 - Engine Testing - Group 14
 > **Даты:** изменён 2026-02-12
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-014-010.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-014-010.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-014-010.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-014-010.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -81,7 +86,7 @@ Blowby обычно измеряется для следующих ситуац�
 
 ![[pi900ka.png]]
 
-Термины «дувной продув» и «перенос» (нефть из дыхательной трубки) обычно используются взаимозаменяемо.
+Термины «дувной продув» и «перенос» (масло из дыхательной трубки) обычно используются взаимозаменяемо.
 
 При измерении продува, и есть чрезмерное количество масла, выходящего из дыхательной трубки, количество масла может повлиять на измерение продува.
 
@@ -91,7 +96,7 @@ Blowby обычно измеряется для следующих ситуац�
 
 - Найдите другое местоположение на двигателе для измерения продува (залив масла, крышка для заливки масла, неиспользованное место слива турбокомпрессора и т. Д.)
 - Очистите любой остаток масла от передышки. тщательно высушить перед измерением продува
-- Определите, есть ли проблема, вызывающая затопление дыхательного канала нефтью, например:
+- Определите, есть ли проблема, вызывающая затопление дыхательного канала маслом, например:
 - Неправильный уровень масла
 - Эксплуатация автомобиля (чрезмерная угловатость, чрезмерное движение двигателя из стороны в сторону)
 - Внутренние компоненты двигателя, отклоняющие масло в сторону дыхательной полости (поршневые охлаждающие сопла, вспомогательные сливные масла и т. Д.)
@@ -189,19 +194,19 @@ Blowby обычно измеряется для следующих ситуац�
 | 584.2 \[ 23 \] | 246 \[ 8.687 \] |
 | 609.6 \[ 24 \] | 248 \[ 8.758 \] |
 
-Следующая диаграмма содержит общие спецификации на обдув для двигателей MidRange. Из-за широкого разнообразия типов двигателей, конфигураций и рейтингов эти спецификации предназначены для использования только в качестве руководства, чтобы помочь определить, существует ли проблема. Эти спецификации ** не предназначены для использования в качестве пределов осуждаемого двигателя.
+Следующая диаграмма содержит общие спецификации на обдув для двигателей MidRange. Из-за широкого разнообразия типов двигателей, конфигураций и рейтингов эти спецификации предназначены для использования только в качестве руководства, чтобы помочь определить, существует ли проблема. Эти спецификации не предназначены для использования в качестве пределов осуждаемого двигателя.
 
 Если предполагается, что причиной чрезмерного продува двигателя является повреждение внутреннего двигателя, могут быть приняты другие меры для подтверждения этого повреждения.
 
-Измерение продувки ** должно учитываться только при подтверждении взлома двигателя после реконструкции или при наличии другого симптома. Эти симптомы могут включать:
+Измерение продувки должно учитываться только при подтверждении взлома двигателя после реконструкции или при наличии другого симптома. Эти симптомы могут включать:
 
 - Чрезмерное перемещение (масло из трубки капкан-дыхатель)
 - Высокое давление в картере (для двигателей, оснащенных датчиком давления в картере)
 - Низкая мощность
-- Потребление нефти
+- Потребление масла
 - Выхлопной дым.
 
-Если нет других симптомов, измерения продува необходимо ** не **.
+Если нет других симптомов, измерения продува необходимо **не**.
 
 ![[pi900ka.png]]
 
@@ -246,7 +251,7 @@ Blowby обычно измеряется для следующих ситуац�
 Перед измерением давления продувки проверьте трубку капкан-духовку на наличие препятствий.
 
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей серии C, в бюллетене [[3666003 — C Troubleshooting and Repair Manual\|3666003]].[[100-003-018 — Crankcase Breather Tube|См. процедуру 003-018 в разделе 3.]]
-- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin 3666087. См. процедуру 003-018 в разделе 3.
+- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]].[[40-003-018-tr — Crankcase Breather Tube|См. процедуру 003-018 в разделе 3.]]
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей ISB и QSB5.9-44, Bulletin 3666193.[[100-003-018 — Crankcase Breather Tube|См. процедуру 003-018 в разделе 3.]]
 - Используйте следующую процедуру в руководстве по обслуживанию ISBe, ISB и QSB (Общая система железнодорожного топлива), в бюллетене 4021271. См. процедуру 003-018 в разделе 3.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту двигателей серии QSB3.9-30, QSB4.5-30 и QSB5.9-30, Бюллетень 4021398. См. процедуру 003-018 в разделе 3.
@@ -289,7 +294,7 @@ Blowby обычно измеряется для следующих ситуац�
 Проверьте уровень масла в двигателе и, при необходимости, правильную калибровку измерителя уровня масла. Слишком высокий уровень может вызвать более высокое, чем обычно, давление продува и/или чрезмерное перемещение.
 
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей серии C, в бюллетене [[3666003 — C Troubleshooting and Repair Manual\|3666003]].[[100-007-011 — Lubricating Oil Dipstick Tube|См. процедуру 007-011 в разделе 7.]]
-- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin 3666087. См. процедуру 007-011 в разделе 7.
+- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]].[[40-007-011-tr — Lubricating Oil Dipstick Tube|См. процедуру 007-011 в разделе 7.]]
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей ISB и QSB5.9-44, Bulletin 3666193. См. процедуру 007-011 в разделе 7.
 - Используйте следующую процедуру в руководстве по обслуживанию ISBe, ISB и QSB (Общая система железнодорожного топлива), в бюллетене 4021271. См. процедуру 007-011 в разделе 7.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту двигателей серии QSB3.9-30, QSB4.5-30 и QSB5.9-30, Бюллетень 4021398. См. процедуру 007-011 в разделе 7.
@@ -305,8 +310,8 @@ Blowby обычно измеряется для следующих ситуац�
 - Используйте следующую процедуру в руководстве по обслуживанию ISF2.8 CM2220, ISF2.8 CM2220E, ISF2.8 CM2220 AN и ISF2.8 CM2220 IAN, в бюллетене 4022178. См. процедуру 007-011 в разделе 7.
 - Используйте следующую процедуру в руководстве по обслуживанию ISB6.7 CM2250, Бюллетень 4022254. См. процедуру 007-011 в разделе 7.
 - Используйте следующую процедуру в руководстве по обслуживанию ISB6.7 CM2350 B101, Бюллетень 2883567. См. процедуру 007-011 в разделе 7.
-- Используйте следующую процедуру в руководстве по обслуживанию ISB4.5 CM2350 B104, Бюллетень 4332646. См. процедуру 007-043 в разделе 7.
-- Используйте следующую процедуру в руководстве по обслуживанию ISB6.7 CM2350 B103, Бюллетень 4332641. См. процедуру 007-043 в разделе 7.
+- Используйте следующую процедуру в руководстве по обслуживанию ISB4.5 CM2350 B104, Бюллетень 4332646.[[99-007-043-tr — Lubricating Oil Level|См. процедуру 007-043 в разделе 7.]]
+- Используйте следующую процедуру в руководстве по обслуживанию ISB6.7 CM2350 B103, Бюллетень 4332641.[[99-007-043-tr — Lubricating Oil Level|См. процедуру 007-043 в разделе 7.]]
 - Используйте следующую процедуру в руководстве по обслуживанию QSB6.7 CM2350 B105 и B6.7 CM2450 B232C, Bulletin 4332778. См. процедуру 007-011 в разделе 7.
 - Используйте следующую процедуру в руководстве по обслуживанию QSL9 CM2350 L102 и L9 CM2450 L181C, Бюллетень 4332796. См. процедуру 007-011 в разделе 7.
 - Используйте следующую процедуру в руководстве по обслуживанию ISF3.8 CM2220 F110, Бюллетень 4358480. См. процедуру 007-011 в разделе 7.
@@ -417,7 +422,7 @@ Blowby обычно измеряется для следующих ситуац�
 
 - Для запуска двигателя, динамометр шасси или динамометр двигателя
 - Для испытания двигателя, динамометр шасси или динамометр двигателя
-- Испытание на скорость срабатывания (для двигателей, оснащенных автоматическими коробками передач **только **).
+- Испытание на скорость срабатывания (для двигателей, оснащенных автоматическими коробками передач **только**).
 
 ![[oi902vk.png]]
 
@@ -441,7 +446,7 @@ Blowby обычно измеряется для следующих ситуац�
 Вклад в процесс выхлопного торможения:
 
 > [!note] Примечание
-> **Не все транспортные средства оборудованы выхлопным тормозом.
+> Не все транспортные средства оборудованы выхлопным тормозом.
 
 При еще установленной сервисной оснастке двигателя измеряйте давление продува во время работы выхлопного тормоза, если он оборудован.
 
@@ -464,7 +469,7 @@ Blowby обычно измеряется для следующих ситуац�
 
 Установите вилку в измерительном порту.
 
-> [!missing]- Иллюстрация `11d00020.png` не извлечена — смотрите PDF-оригинал документа
+![[11d00020.png]]
 
 Базовый компонент двигателя Blowby:
 
@@ -473,7 +478,7 @@ Blowby обычно измеряется для следующих ситуац�
 Зазор клапана является чрезмерным или клапанные стебельные уплотнения повреждены.
 
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей серии C, в бюллетене [[3666003 — C Troubleshooting and Repair Manual\|3666003]].[[41-002-004-tr — Cylinder Head|См. процедуру 002-004 в разделе 2.]]
-- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin 3666087. См. процедуру 002-004 в разделе 2.
+- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]].[[40-002-004-tr — Cylinder Head|См. процедуру 002-004 в разделе 2.]]
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей ISB и QSB5.9-44, Bulletin 3666193. См. процедуру 002-004 в разделе 2.
 - Используйте следующую процедуру в руководстве по обслуживанию ISBe, ISB и QSB (Общая система железнодорожного топлива), в бюллетене 4021271. См. процедуру 002-004 в разделе 2.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту двигателей серии QSB3.9-30, QSB4.5-30 и QSB5.9-30, Бюллетень 4021398. См. процедуру 002-004 в разделе 2.
@@ -506,7 +511,7 @@ Blowby обычно измеряется для следующих ситуац�
 Направляющие цилиндрические головные клапаны чрезмерно изношены.
 
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей серии C, в бюллетене [[3666003 — C Troubleshooting and Repair Manual\|3666003]].[[41-002-004-tr — Cylinder Head|См. процедуру 002-004 в разделе 2.]]
-- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin 3666087. См. процедуру 002-004 в разделе 2.
+- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]].[[40-002-004-tr — Cylinder Head|См. процедуру 002-004 в разделе 2.]]
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей ISB и QSB5.9-44, Bulletin 3666193. См. процедуру 002-004 в разделе 2.
 - Используйте следующую процедуру в руководстве по обслуживанию ISBe, ISB и QSB (Общая система железнодорожного топлива), в бюллетене 4021271. См. процедуру 002-004 в разделе 2.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту двигателей серии QSB3.9-30, QSB4.5-30 и QSB5.9-30, Бюллетень 4021398. См. процедуру 002-004 в разделе 2.
@@ -542,7 +547,7 @@ Blowby обычно измеряется для следующих ситуац�
 Воздушный компрессор неисправен.
 
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей серии C, в бюллетене [[3666003 — C Troubleshooting and Repair Manual\|3666003]].[[100-012-014-tr — Air Compressor|См. процедуру 012-014 в разделе 2.]]
-- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin 3666087. См. процедуру 012-014 в разделе 12.
+- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]].[[40-012-014-tr — Air Compressor|См. процедуру 012-014 в разделе 12.]]
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей ISB и QSB5.9-44, Bulletin 3666193. См. процедуру 012-014 в разделе 12.
 - Используйте следующую процедуру в руководстве по обслуживанию ISBe, ISB и QSB (Общая система железнодорожного топлива), в бюллетене 4021271. См. процедуру 012-014 в разделе 12.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту двигателей серии QSB3.9-30, QSB4.5-30 и QSB5.9-30, Бюллетень 4021398. См. процедуру 012-014 в разделе 12.
@@ -574,7 +579,7 @@ Blowby обычно измеряется для следующих ситуац�
 Поршневые или поршневые кольца носят или повреждают.
 
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей серии C, в бюллетене [[3666003 — C Troubleshooting and Repair Manual\|3666003]].[[100-001-043 — Piston|См. процедуру 001-043 в разделе 1.]]
-- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin 3666087. См. процедуру 001-043 в разделе 1.
+- Используйте следующую процедуру в B3.9, B4.5, B4.5 RGT и B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]].[[40-001-043 — Piston|См. процедуру 001-043 в разделе 1.]]
 - Используйте следующую процедуру в руководстве по устранению неполадок и ремонту двигателей ISB и QSB5.9-44, Bulletin 3666193. См. процедуру 001-043 в разделе 1.
 - Используйте следующую процедуру в руководстве по обслуживанию ISBe, ISB и QSB (Общая система железнодорожного топлива), в бюллетене 4021271. См. процедуру 001-043 в разделе 1.
 - Используйте следующую процедуру в Руководстве по устранению неполадок и ремонту двигателей серии QSB3.9-30, QSB4.5-30 и QSB5.9-30, Бюллетень 4021398. См. процедуру 001-043 в разделе 1.
@@ -803,7 +808,7 @@ Blowby обычно измеряется для следующих ситуац�
 > Prior to measuring blowby pressure, check the crankcase breather tube for obstructions.
 >
 > - Use the following procedure in the C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. [[100-003-018 — Crankcase Breather Tube|Refer to Procedure 003-018 in Section 3.]]
-> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin 3666087. Refer to Procedure 003-018 in Section 3.
+> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]]. [[40-003-018-tr — Crankcase Breather Tube|Refer to Procedure 003-018 in Section 3.]]
 > - Use the following procedure in the ISB and QSB5.9-44 Engines Troubleshooting and Repair Manual, Bulletin 3666193. [[100-003-018 — Crankcase Breather Tube|Refer to Procedure 003-018 in Section 3.]]
 > - Use the following procedure in the ISBe, ISB, and QSB (Common Rail Fuel System) Service Manual, Bulletin 4021271. Refer to Procedure 003-018 in Section 3.
 > - Use the following procedure in the Industrial QSB3.9-30, QSB4.5-30, and QSB5.9-30 Series Engines Troubleshooting and Repair Manual, Bulletin 4021398. Refer to Procedure 003-018 in Section 3.
@@ -842,7 +847,7 @@ Blowby обычно измеряется для следующих ситуац�
 > Check the engine oil level and, if necessary, proper calibration of the dipstick. Level too high can cause a higher than normal blowby pressure and/or excessive carryover.
 >
 > - Use the following procedure in the C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. [[100-007-011 — Lubricating Oil Dipstick Tube|Refer to Procedure 007-011 in Section 7.]]
-> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin 3666087. Refer to Procedure 007-011 in Section 7.
+> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]]. [[40-007-011-tr — Lubricating Oil Dipstick Tube|Refer to Procedure 007-011 in Section 7.]]
 > - Use the following procedure in the ISB and QSB5.9-44 Engines Troubleshooting and Repair Manual, Bulletin 3666193. Refer to Procedure 007-011 in Section 7.
 > - Use the following procedure in the ISBe, ISB, and QSB (Common Rail Fuel System) Service Manual, Bulletin 4021271. Refer to Procedure 007-011 in Section 7.
 > - Use the following procedure in the Industrial QSB3.9-30, QSB4.5-30, and QSB5.9-30 Series Engines Troubleshooting and Repair Manual, Bulletin 4021398. Refer to Procedure 007-011 in Section 7.
@@ -858,8 +863,8 @@ Blowby обычно измеряется для следующих ситуац�
 > - Use the following procedure in the ISF2.8 CM2220, ISF2.8 CM2220E, ISF2.8 CM2220 AN, and ISF2.8 CM2220 IAN Service Manual, Bulletin 4022178. Refer to Procedure 007-011 in Section 7.
 > - Use the following procedure in the ISB6.7 CM2250 Service Manual, Bulletin 4022254. Refer to Procedure 007-011 in Section 7.
 > - Use the following procedure in the ISB6.7 CM2350 B101 Service Manual, Bulletin 2883567. Refer to Procedure 007-011 in Section 7.
-> - Use the following procedure in the ISB4.5 CM2350 B104 Service Manual, Bulletin 4332646. Refer to Procedure 007-043 in Section 7.
-> - Use the following procedure in the ISB6.7 CM2350 B103 Service Manual, Bulletin 4332641. Refer to Procedure 007-043 in Section 7.
+> - Use the following procedure in the ISB4.5 CM2350 B104 Service Manual, Bulletin 4332646. [[99-007-043-tr — Lubricating Oil Level|Refer to Procedure 007-043 in Section 7.]]
+> - Use the following procedure in the ISB6.7 CM2350 B103 Service Manual, Bulletin 4332641. [[99-007-043-tr — Lubricating Oil Level|Refer to Procedure 007-043 in Section 7.]]
 > - Use the following procedure in the QSB6.7 CM2350 B105 and B6.7 CM2450 B232C Service Manual, Bulletin 4332778. Refer to Procedure 007-011 in Section 7.
 > - Use the following procedure in the QSL9 CM2350 L102 and L9 CM2450 L181C Service Manual, Bulletin 4332796. Refer to Procedure 007-011 in Section 7.
 > - Use the following procedure in the ISF3.8 CM2220 F110 Service Manual, Bulletin 4358480. Refer to Procedure 007-011 in Section 7.
@@ -988,7 +993,7 @@ Blowby обычно измеряется для следующих ситуац�
 > Valve stem clearance is excessive or the valve stem seals are damaged.
 >
 > - Use the following procedure in the C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. [[41-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
-> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin 3666087. Refer to Procedure 002-004 in Section 2.
+> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]]. [[40-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
 > - Use the following procedure in the ISB and QSB5.9-44 Engines Troubleshooting and Repair Manual, Bulletin 3666193. Refer to Procedure 002-004 in Section 2.
 > - Use the following procedure in the ISBe, ISB, and QSB (Common Rail Fuel System) Service Manual, Bulletin 4021271. Refer to Procedure 002-004 in Section 2.
 > - Use the following procedure in the Industrial QSB3.9-30, QSB4.5-30, and QSB5.9-30 Series Engines Troubleshooting and Repair Manual, Bulletin 4021398. Refer to Procedure 002-004 in Section 2.
@@ -1021,7 +1026,7 @@ Blowby обычно измеряется для следующих ситуац�
 > Cylinder head valve guides are excessively worn.
 >
 > - Use the following procedure in the C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. [[41-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
-> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin 3666087. Refer to Procedure 002-004 in Section 2.
+> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]]. [[40-002-004-tr — Cylinder Head|Refer to Procedure 002-004 in Section 2.]]
 > - Use the following procedure in the ISB and QSB5.9-44 Engines Troubleshooting and Repair Manual, Bulletin 3666193. Refer to Procedure 002-004 in Section 2.
 > - Use the following procedure in the ISBe, ISB, and QSB (Common Rail Fuel System) Service Manual, Bulletin 4021271. Refer to Procedure 002-004 in Section 2.
 > - Use the following procedure in the Industrial QSB3.9-30, QSB4.5-30, and QSB5.9-30 Series Engines Troubleshooting and Repair Manual, Bulletin 4021398. Refer to Procedure 002-004 in Section 2.
@@ -1057,7 +1062,7 @@ Blowby обычно измеряется для следующих ситуац�
 > Air compressor is malfunctioning.
 >
 > - Use the following procedure in the C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. [[100-012-014-tr — Air Compressor|Refer to Procedure 012-014 in Section 2.]]
-> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin 3666087. Refer to Procedure 012-014 in Section 12.
+> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]]. [[40-012-014-tr — Air Compressor|Refer to Procedure 012-014 in Section 12.]]
 > - Use the following procedure in the ISB and QSB5.9-44 Engines Troubleshooting and Repair Manual, Bulletin 3666193. Refer to Procedure 012-014 in Section 12.
 > - Use the following procedure in the ISBe, ISB, and QSB (Common Rail Fuel System) Service Manual, Bulletin 4021271. Refer to Procedure 012-014 in Section 12.
 > - Use the following procedure in the Industrial QSB3.9-30, QSB4.5-30, and QSB5.9-30 Series Engines Troubleshooting and Repair Manual, Bulletin 4021398. Refer to Procedure 012-014 in Section 12.
@@ -1089,7 +1094,7 @@ Blowby обычно измеряется для следующих ситуац�
 > Piston or piston rings are worn or damaged.
 >
 > - Use the following procedure in the C Series Engines Troubleshooting and Repair Manual, Bulletin [[3666003 — C Troubleshooting and Repair Manual\|3666003]]. [[100-001-043 — Piston|Refer to Procedure 001-043 in Section 1.]]
-> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin 3666087. Refer to Procedure 001-043 in Section 1.
+> - Use the following procedure in the B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual\|3666087]]. [[40-001-043 — Piston|Refer to Procedure 001-043 in Section 1.]]
 > - Use the following procedure in the ISB and QSB5.9-44 Engines Troubleshooting and Repair Manual, Bulletin 3666193. Refer to Procedure 001-043 in Section 1.
 > - Use the following procedure in the ISBe, ISB, and QSB (Common Rail Fuel System) Service Manual, Bulletin 4021271. Refer to Procedure 001-043 in Section 1.
 > - Use the following procedure in the Industrial QSB3.9-30, QSB4.5-30, and QSB5.9-30 Series Engines Troubleshooting and Repair Manual, Bulletin 4021398. Refer to Procedure 001-043 in Section 1.

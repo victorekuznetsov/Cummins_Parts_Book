@@ -8,6 +8,7 @@ title_ru: "Втулка привода водяного насоса"
 modified: "2015-08-20"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-030.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-030.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-009-030.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Втулка привода водяного насоса**
 
 > [!abstract] Процедура · `20-009-030`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 9 - Drive Units - Group 09
 > **Даты:** изменён 2015-08-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-030.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-009-030.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-009-030.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-009-030.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -72,9 +73,9 @@ tags:
 Поддержите корпус.
 
 > [!warning] ОСТОРОЖНО
-> Не блокируйте бурение нефти в кожухе.
+> Не блокируйте бурение масла в кожухе.
 
-Используйте пресс для беседки и подружку для установки втулок. Втулка ** должна быть четной или **максимальной** 0,38 мм \[0,015 дюйма\] ниже поверхности корпуса.
+Используйте пресс для беседки и подружку для установки втулок. Втулка **должна быть четной или **максимальной 0,38 мм \[0,015 дюйма\] ниже поверхности корпуса.
 
 ![[dw6bsha.png]]
 

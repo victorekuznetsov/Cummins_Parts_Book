@@ -8,6 +8,7 @@ title_ru: "Магистрали подачи топлива"
 modified: "2007-03-02"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 43
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-024-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-006-024-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-024-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Магистрали подачи топлива**
 
 > [!abstract] Процедура · `20-006-024-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 6 - Injectors and Fuel Lines - Group 06
 > **Даты:** изменён 2007-03-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-024-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-006-024-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-024-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-024-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +54,7 @@ tags:
 > [!warning] ОСТОРОЖНО
 > При отсоединении и снятии топливных магистралей, замене фильтров и прокачке системы не допускайте пролива и слива топлива в трюм. Не бросайте фильтрующие элементы в трюм. Топливо и топливные фильтры утилизируйте по местным природоохранным требованиям.
 
-- Удалите столько проводов двигателя и кронштейнов, сколько необходимо для получения доступа к топливным трубкам. См. Процедуры 019-043 в Руководстве по устранению неполадок и ремонту, Электронная система управления QSK19, QSK23, QSK45, QSK60 и QSK78, Вестник 3666113 или 019-043 в Руководстве по устранению неполадок и ремонту, Электронная система управления серии QSK19 CM850 Модульный двигатель общей железнодорожной системы, Вестник 4021493.
+- Удалите столько проводов двигателя и кронштейнов, сколько необходимо для получения доступа к топливным трубкам. См. процедуры[[19-019-043 — Engine Wiring Harness|019-043]]в Руководстве по устранению и ремонту неполадок, Электронной системе управления QSK19, QSK23, QSK45, QSK60 и QSK78, Вестнике [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]] или 019-043 в Руководстве по устранению и ремонту неполадок, Электронной системе управления серии QSK19 CM850 Модульный двигатель общей железнодорожной системы, Вестнике 4021493.
 - На двигателях с воздушным компрессором удалите впускное соединение воздуха. Отбросьте шланг и прокладку. См. процедуру[[20-012-014-tr — Air Compressor|012-014]].
 
 ![[ck800wa.png]]
@@ -162,7 +163,7 @@ tags:
 > [!danger] ОПАСНО
 > При очистке растворителями, кислотами и щелочными составами соблюдайте указания их изготовителя. Работайте в защитных очках и защитной одежде, чтобы снизить риск травмы.
 
-Удалить и выбросить печати феррула.
+Удалить и выбросить уплотнения феррула.
 
 Используйте растворитель для промывки трубок и разъемов топливных блоков.
 
@@ -182,7 +183,7 @@ tags:
 
 Осмотрите любые зажимы в шланге, которые будут препятствовать потоку.
 
-Убедитесь, что шланг ** не ** имеет щипцы или петли, которые будут препятствовать потоку.
+Убедитесь, что шланг **не **имеет щипцы или петли, которые будут препятствовать потоку.
 
 ![[fp8hoca.png]]
 
@@ -192,7 +193,7 @@ tags:
 
 ![[fp8tbcc.png]]
 
-Проверьте шланг подачи топлива для защемленных областей, которые предотвращают правильный поток или изношенную сетку. ****************************************************************************************************************************************************************************************************************************************************************
+Проверьте шланг подачи топлива для защемленных областей, которые предотвращают правильный поток или изношенную сетку.
 
 ![[06400047.png]]
 
@@ -279,7 +280,7 @@ tags:
 Установите тиз в верхний порт топливного насоса, сначала позиционируя шлюз.
 
 1. каштан
-2. стиральная машина
+2. шайба
 3. О-ринг.
 
 ![[06400328.png]]
@@ -298,7 +299,7 @@ tags:
 Установите фитинг в порту на задней части топливного насоса, сначала позиционируя шлюз.
 
 1. каштан
-2. стиральная машина
+2. шайба
 3. О-ринг.
 
 ![[06400328.png]]
@@ -361,7 +362,7 @@ tags:
 с форсункой механического управления
 
 - На двигателях, оборудованных воздушным компрессором, устанавливают воздушное впускное соединение компрессора с новым шлангом и прокладкой. См. процедуру[[20-012-014-tr — Air Compressor|012-014]].
-- Установите жгут электропроводки двигателя и скобки. См. Процедуры 019-043 в Руководстве по устранению неполадок и ремонту, Электронная система управления QSK19, QSK23, QSK45, QSK60 и QSK78, Вестник 3666113 или 019-043 в Руководстве по устранению неполадок и ремонту, Электронная система управления серии QSK19 CM850 Модульный двигатель общей железнодорожной системы, Вестник 4021493.
+- Установите жгут электропроводки двигателя и скобки. См. процедуры[[19-019-043 — Engine Wiring Harness|019-043]]в Руководстве по устранению и ремонту неполадок, Электронной системе управления QSK19, QSK23, QSK45, QSK60 и QSK78, Вестнике [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]] или 019-043 в Руководстве по устранению и ремонту неполадок, Электронной системе управления серии QSK19 CM850 Модульный двигатель общей железнодорожной системы, Вестнике 4021493.
 - Запустите двигатель и проверьте на отсутствие утечек.
 
 ![[ck800wa.png]]
@@ -385,7 +386,7 @@ tags:
 > **CAUTION · Осторожно**
 > Do not spill or drain fuel into the bilge area when disconnecting or removing fuel lines, replacing filters, and priming the fuel system. Do not drop or throw filter elements into the bilge area. The fuel and fuel filters must be disposed of in accordance with local environmental regulations.
 >
-> - Remove as much of the engine wire harness and brackets as necessary to gain access to the fuel tubes. Refer to Procedures 019-043 in the Troubleshooting and Repair Manual, Electronic Control System QSK19, QSK23, QSK45, QSK60 and QSK78 Engines, Bulletin 3666113 or 019-043 in the Troubleshooting and Repair Manual, Electronic Control System Series QSK19 CM850 Modular Common Rail System Engine, Bulletin 4021493.
+> - Remove as much of the engine wire harness and brackets as necessary to gain access to the fuel tubes. Refer to Procedures [[19-019-043 — Engine Wiring Harness|019-043]] in the Troubleshooting and Repair Manual, Electronic Control System QSK19, QSK23, QSK45, QSK60 and QSK78 Engines, Bulletin [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]] or 019-043 in the Troubleshooting and Repair Manual, Electronic Control System Series QSK19 CM850 Modular Common Rail System Engine, Bulletin 4021493.
 > - On engines with an air compressor, remove the air inlet connection. Discard the connection hose and the gasket. Refer to Procedure [[20-012-014-tr — Air Compressor|012-014]].
 >
 > with Electronically Actuated Injector
@@ -611,7 +612,7 @@ tags:
 > with Mechanically Actuated Injector
 >
 > - On engines equipped with an air compressor, install the air compressor air inlet connection with a new hose and gasket. Refer to Procedure [[20-012-014-tr — Air Compressor|012-014]].
-> - Install the engine harness and the brackets. Refer to Procedures 019-043 in the Troubleshooting and Repair Manual, Electronic Control System QSK19, QSK23, QSK45, QSK60 and QSK78 Engines, Bulletin 3666113 or 019-043 in the Troubleshooting and Repair Manual, Electronic Control System Series QSK19 CM850 Modular Common Rail System Engine, Bulletin 4021493.
+> - Install the engine harness and the brackets. Refer to Procedures [[19-019-043 — Engine Wiring Harness|019-043]] in the Troubleshooting and Repair Manual, Electronic Control System QSK19, QSK23, QSK45, QSK60 and QSK78 Engines, Bulletin [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R\|3666113]] or 019-043 in the Troubleshooting and Repair Manual, Electronic Control System Series QSK19 CM850 Modular Common Rail System Engine, Bulletin 4021493.
 > - Operate the engine and check for leaks.
 >
 > with Electronically Actuated Injector

@@ -17,7 +17,7 @@ figures: 18
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-043.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-043.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-043.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual|3666184]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2014-04-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-043.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-043.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-043.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -85,19 +85,19 @@ QST30 G-Drive также использует удлинители и адапт
 
 ![[19400242.png]]
 
-Перережьте оставшиеся галстуки, удерживающие жгут проводов двигателя к двигателю.
+Перережьте оставшиеся стяжки, удерживающие жгут проводов двигателя к двигателю.
 
 Удалите жгут электропроводки двигателя.
 
 ![[19801077.png]]
 
-** движок проводов жгут расширения кабель**
+**движок проводов жгут расширения кабель**
 
 Используйте 4 мм \[5/32 дюйма \] шестигранный ключ для отсоединения подключенных кабеля разъемов DeutschTM.
 
 ![[19400242.png]]
 
-** движок проводов жгута Адаптер кабель**
+**движок проводов жгута Адаптер кабель**
 
 Используйте 4 мм \[5/32 дюйма\] шестигранный ключ для отсоединения подключенных кабелей DeutschTM от ECM.
 
@@ -136,7 +136,7 @@ QST30 G-Drive также использует удлинители и адапт
 
 ![[00a00036.png]]
 
-** движок проводов жгут расширения кабель**
+**движок проводов жгут расширения кабель**
 
 Подключите разъемы удлинительного кабеля к проводной ремне. Используйте 4 мм \[5/32 дюйма \] шестигранный ключ для затягивания.
 
@@ -145,7 +145,7 @@ QST30 G-Drive также использует удлинители и адапт
 
 ![[19400242.png]]
 
-** движок проводов жгута Адаптер кабель**
+**движок проводов жгута Адаптер кабель**
 
 Подключите электропроводку двигателя, любой используемый удлинитель проводов двигателя и разъемы ECM Deutsch к адаптерному кабелю адаптера.
 

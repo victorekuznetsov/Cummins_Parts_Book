@@ -8,6 +8,7 @@ title_ru: "Утечки в системах впуска и выпуска"
 modified: "2004-12-08"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 13
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-010-024.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-010-024.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-010-024.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Утечки в системах впуска и выпуска**
 
 > [!abstract] Процедура · `41-010-024`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2004-12-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-010-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-010-024.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-010-024.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-010-024.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -58,7 +59,7 @@ tags:
 Отводы, втягиваемые в сторону всасывания воздуха, могут повредить лопасти компрессора, вызывая дисбаланс, приводящий к отказу подшипника.
 
 > [!note] Примечание
-> Для проверки неисправности подшипника или поврежденного компрессора удалите впускной и выхлопной трубопроводы и проверьте на контакт. Сборка ротора ** должна** вращаться свободно и ** не должна** быть повреждена. Измерение осевого и радиального зазора описано в этом разделе.
+> Для проверки неисправности подшипника или поврежденного компрессора удалите впускной и выхлопной трубопроводы и проверьте на контакт. Сборка ротора **должна** вращаться свободно и **не должна** быть повреждена. Измерение осевого и радиального зазора описано в этом разделе.
 
 ![[ci900kc.png]]
 

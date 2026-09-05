@@ -7,11 +7,11 @@ title_en: "Engine Operating Range"
 title_ru: "Рабочий диапазон двигателя"
 modified: "2025-02-11"
 engines:
-  - "33239746"
   - "33239899"
   - "41343322"
+  - "41370103"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "NT/NTA855 · ISM/QSM11"
 manuals:
   - "3667180"
@@ -20,7 +20,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-008-owner-indmar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-008-owner-indmar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-008-owner-indmar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -33,12 +33,12 @@ tags:
 **Рабочий диапазон двигателя**
 
 > [!abstract] Процедура · `99-101-008-owner-indmar`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41343322 — NH NT 855 CPL 3362|41343322]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, NT/NTA855 · ISM/QSM11
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
+> **Семейство:** K38/K50 · QSK38, QSK50, NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3667180 — K38, K50, QSK38 and QSK50 Owners Manual|3667180]], [[4021631 — NT NTA855 Big Cam III Construction, Industrial, and Generator Drive|4021631]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2025-02-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-008-owner-indmar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-101-008-owner-indmar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-101-008-owner-indmar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-101-008-owner-indmar.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -100,7 +100,7 @@ tags:
 
 Заменить приборную панель управления и затянуть крепежные болты.
 
-> [!missing]- Иллюстрация `13800080.png` не извлечена — смотрите PDF-оригинал документа
+![[13800080.png]]
 
 
 > [!quote]- Original (English) · английский оригинал

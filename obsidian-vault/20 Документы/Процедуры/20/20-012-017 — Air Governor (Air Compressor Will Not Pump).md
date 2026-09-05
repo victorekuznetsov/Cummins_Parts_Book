@@ -8,6 +8,7 @@ title_ru: "Регулятор давления воздуха (компресс�
 modified: "2004-12-07"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-017.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-012-017.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Регулятор давления воздуха (компрессор не нагнетает)**
 
 > [!abstract] Процедура · `20-012-017`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 12 - Compressed Air System - Group 12
 > **Даты:** изменён 2004-12-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-012-017.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-012-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-012-017.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -48,13 +49,13 @@ tags:
 > [!note] Примечание
 > На изображенных иллюстрациях будет показан одноцилиндровый воздушный компрессор модели SS. При необходимости будут показаны различия в процедурах для воздушных компрессоров Holset® моделей SS, QE, ST и Cummins.
 
-Удалите воздухоуправляющую или линию воздухоуправляющего из корпуса разгрузчика воздушного компрессора.
+Удалите воздухоуправляющую или воздушную губернаторскую линию из корпуса разгрузчика воздушного компрессора.
 
 ![[cp8bdsc.png]]
 
 Управляйте двигателем, чтобы активировать воздушный компрессор.
 
-Если воздушный компрессор перекачивается, воздухоотводчик выходит из строя и *** должен быть отремонтирован или заменен. См. указания изготовителя.
+Если воздушный компрессор перекачивается, воздухоотводчик выходит из строя и должен быть отремонтирован или заменен. См. указания изготовителя.
 
 ![[gv800ka.png]]
 
@@ -63,7 +64,7 @@ tags:
 Если разгрузочный клапан в порядке, очистите и проверьте выпускной клапан. См. Holset® Master Repair Manual, Bulletin [[3666121 — Holset® Air Compressors Master Repair Manual\|3666121]].
 
 > [!note] Примечание
-> ** Необычные** воздушные компрессоры могут использоваться в вашем двигателе или приложении.
+> **Необычные** воздушные компрессоры могут использоваться в вашем двигателе или приложении.
 
 ![[cp8vamz.png]]
 

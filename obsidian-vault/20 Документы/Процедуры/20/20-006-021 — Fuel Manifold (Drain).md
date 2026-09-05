@@ -8,6 +8,7 @@ title_ru: "Топливная магистраль (слив)"
 modified: "2022-08-09"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-021.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-006-021.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-021.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Топливная магистраль (слив)**
 
 > [!abstract] Процедура · `20-006-021`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 6 - Injectors and Fuel Lines - Group 06
 > **Даты:** изменён 2022-08-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-021.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-006-021.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-006-021.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-006-021.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -89,7 +90,7 @@ tags:
 
 ### Снятие
 
-Удалите два ореха, закрепляющие коллектор слива топлива в двигатель.
+Удалите два гайки, закрепляющие коллектор слива топлива в двигатель.
 
 Удалите коллектор слива топлива.
 
@@ -131,7 +132,7 @@ tags:
 
 Смазать все новые кольца растительным маслом перед установкой.
 
-Установите форсунка обратного контрольного клапана (1) с новыми кольцами в коллектор слива топлива.
+Установите форсунку обратного контрольного клапана (1) с новыми кольцами в коллектор слива топлива.
 
 > [!tip] Момент затяжки
 > 54 Н·м [40 фунт-фут]
@@ -152,7 +153,7 @@ tags:
 
 Установите коллектор слива топлива на двигатель.
 
-Затяните два ореха.
+Затяните два гайки.
 
 > [!tip] Момент затяжки
 > 27 Н·м [239 фунт-фут]

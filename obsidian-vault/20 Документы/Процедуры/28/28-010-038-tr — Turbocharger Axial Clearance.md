@@ -7,17 +7,16 @@ title_en: "Turbocharger Axial Clearance"
 title_ru: "Осевой зазор турбокомпрессора"
 modified: "2010-08-04"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4021528"
 figures: 9
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-038-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-010-038-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-010-038-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Осевой зазор турбокомпрессора**
 
 > [!abstract] Процедура · `28-010-038-tr`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4021528 — K38, K50, QSK38, and QSK50 Service Manual|4021528]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2010-08-04
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-038-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-010-038-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-010-038-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-010-038-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -63,13 +62,13 @@ tags:
 | 0.05 | Мин | 0.002 |
 | 0.13 | Макс | 0.005 |
 
-Если осевой зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. См. Bulletin 3810243, HC5 Series Turbocharger Shop Manual, for rebuild instructions.
+Если осевой зазор превышает технические характеристики, турбокомпрессор должен быть заменен или перестроен. См. Bulletin 3810243, HC5 Series Turbocharger Shop Manual, for rebuild instructions.
 
 ![[tb800jb.png]]
 
 Используйте давление руки, чтобы подтолкнуть конец вала компрессора к корпусу.
 
-Используйте проволочный тип датчика измерения или датчик измерения датчика ** не шире **, чем 13 мм \[1/2 дюйма \]. Измерить зазор между рабочим колесом и корпусом в точке зазора **минимум**.
+Используйте проволочный тип датчика измерения или датчик измерения датчика **не шире**, чем 13 мм \[1/2 дюйма \]. Измерить зазор между рабочим колесом и корпусом в точке зазора **минимум**.
 
 | Holset® HX5 - Радиальный зазор компрессорного импеллера |  |  |
 |---|---|---|
@@ -87,7 +86,7 @@ tags:
 | 0.20 | Мин | 0.008 |
 | 0.53 | Макс | 0.021 |
 
-Если зазор превышает спецификацию, деталь *** должна быть заменена или перестроена. См. Bulletin 3810243, HC5 Series Turbocharger Shop Manual for rebuild instructions.
+Если зазор превышает спецификацию, деталь должна быть заменена или перестроена. См. Bulletin 3810243, HC5 Series Turbocharger Shop Manual for rebuild instructions.
 
 ![[tb800ja.png]]
 
@@ -102,12 +101,12 @@ tags:
 | 0.09 | Мин | 0.004 |
 | 0.13 | Макс | 0.005 |
 
-Если конечный зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. См. Bulletin 3810235, Exhaust - Gas Turbocharger RR-153, Instructions for Operation and Maintenance or Bulletin 3810325, Exhaust - Gas Turbocharger, RR-151-12, Instructions for Operation and Maintenance.
+Если конечный зазор превышает технические характеристики, турбокомпрессор должен быть заменен или перестроен. См. Bulletin 3810235, Exhaust - Gas Turbocharger RR-153, Instructions for Operation and Maintenance or Bulletin 3810325, Exhaust - Gas Turbocharger, RR-151-12, Instructions for Operation and Maintenance.
 
 ![[tb800jb.png]]
 
 > [!note] Примечание
-> Корпуса компрессора и турбины ** не** требуют удаления для измерения радиального зазора. Показанные части удаляются для ясности.
+> Корпуса компрессора и турбины **не** требуют удаления для измерения радиального зазора. Показанные части удаляются для ясности.
 
 Используйте калибр для измерения радиального зазора.
 
@@ -117,7 +116,7 @@ tags:
 | RR-153 |  | 0.55 | Макс | 0.021 |
 | RR-151 |  | 0.75 | Макс | 0.030 |
 
-Если радиальный зазор превышает спецификацию, деталь *** должна быть заменена или перестроена. См. Bulletin 3810235, Exhaust - Gas Turbocharger, RR-153, Instructions for operation and Maintenance or Bulletin Number 3810315, Exhaust - Gas Turbocharger, RR-151-12, Instructions for Operation and Maintenance.
+Если радиальный зазор превышает спецификацию, деталь должна быть заменена или перестроена. См. Bulletin 3810235, Exhaust - Gas Turbocharger, RR-153, Instructions for operation and Maintenance or Bulletin Number 3810315, Exhaust - Gas Turbocharger, RR-151-12, Instructions for Operation and Maintenance.
 
 ![[tb800ja.png]]
 
@@ -132,14 +131,14 @@ tags:
 | 0.10 | Мин | 0.004 |
 | 0.23 | Макс | 0.009 |
 
-Если конечный зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. См. Bulletin 33379091, Turbocharger Component Shop Manual, for rebuild instructions.
+Если конечный зазор превышает технические характеристики, турбокомпрессор должен быть заменен или перестроен. См. Bulletin 33379091, Turbocharger Component Shop Manual, for rebuild instructions.
 
 ![[tb800jb.png]]
 
 > [!note] Примечание
 > Проверьте модель турбокомпрессора, установленного на двигателе, это для: Honeywell®, все модели.
 
-Технические характеристики для проверки радиального и осевого зазора ** не доступны.
+Технические характеристики для проверки радиального и осевого зазора не доступны.
 
 Осмотрите признаки контакта между фургонами турбокомпрессора и корпусом.
 

@@ -17,7 +17,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-200-002.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-200-002.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-200-002.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section D - System Diagrams
 > **Даты:** изменён 2005-09-21
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-200-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-200-002.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-200-002.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-200-002.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,8 +56,8 @@ tags:
 6. Маслоохладитель
 7. Охладитель низкого давления и моторного масла обходной регулятор
 8. Сигнальная линия
-9. Холодный поток нефти
-10. Теплый поток нефти
+9. Холодный поток масла
+10. Теплый поток масла
 11. Обходные фильтры
 12. Масляный охладитель шунтирующий клапан
 13. пружина обходного клапана
@@ -73,11 +73,11 @@ tags:
 
 Piston Cooling, Connecting Rod, Overhead (перевод)
 
-1. Бурение нефтяных скважин коленчатого вала
-2. Основные нефтяные бурения
+1. Бурение масляных скважин коленчатого вала
+2. Основные масляные бурения
 3. Подключение стержневого штифта к зажиму подачи масла
 4. Верхний клапан клапана качели рукав подачи масла
-5. Piston охлаждает бурение нефти
+5. Piston охлаждает бурение масла
 6. бурение кранового масла
 7. Форсунка охлаждения поршня.
 
@@ -87,14 +87,14 @@ Piston Cooling, Connecting Rod, Overhead (перевод)
 
 1. Правобережная (большая) шестерня
 2. Правобережная (малая) шестерня
-3. Бурение трубопроводов для охлаждения нефти
+3. Бурение трубопроводов для охлаждения масла
 4. Левобережное (большое) снаряжение для бездельников.
 
 ![[07a00151.png]]
 
 Турбокомпрессор
 
-1. Piston охлаждает бурение нефтяных запасов
+1. Piston охлаждает бурение масляных запасов
 2. Поставка масла турбокомпрессора
 3. Слив масла с турбокомпрессора.
 
@@ -103,7 +103,7 @@ Piston Cooling, Connecting Rod, Overhead (перевод)
 Головка масляного фильтра
 
 1. Нефтепродукты
-2. Слив нефти
+2. Слив масла
 3. Масляные фильтры.
 
 

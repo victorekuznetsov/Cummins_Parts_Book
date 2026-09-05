@@ -9,15 +9,20 @@ released: "2011-01-10"
 modified: "2011-01-10"
 group: "13 - Electrical Equipment"
 engines:
+  - "37269910"
+  - "37280605"
   - "41349633"
+  - "41353297"
 families:
+  - "K19"
   - "QSK19"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104267.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb104267.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104267.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/K19"
   - "двигатель/QSK19"
   - "год/2011"
   - "перевод/машинный"
@@ -29,10 +34,10 @@ tags:
 
 > [!abstract] TSB · `tsb104267`
 > **Раздел Cummins:** 13 - Electrical Equipment
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
+> **Двигатели:** [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K19, QSK19
 > **Даты:** выпущен 2011-01-10 · изменён 2011-01-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104267.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb104267.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb104267.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb104267.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,16 +59,16 @@ tags:
 
 Процедуры 008-001 (Охрана пояса) и 013-005 (Пояс привода, Альтернативатор) были обновлены в следующих руководствах:
 
-- Руководство по обслуживанию K19, Вестник 4021499
+- Руководство по обслуживанию K19, Вестник [[4021499 — K19 Service Manual\|4021499]]
 - QSK19, QSK19 CM850 MCRS и QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]
-- K19 Руководство по эксплуатации и техническому обслуживанию в промышленности и на море, Вестник 3666013
+- K19 Руководство по эксплуатации и техническому обслуживанию в промышленности и на море, Вестник [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]
 - QSK19, QSK19 CM850 MCRS, и QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].
 
 Все новые опции полностью совместимы со старыми. Новые ограждения могут быть заменены на старые. Использование оставшегося запаса старых охранников должно быть ограничено заявками за пределами Европейской экономической зоны (ЕЭЗ).
 
 | Таблица 1: Варианты Справочная таблица |  |  |
 |---|---|---|
-| **Семейство двигателей** | ** Старый вариант** | ** Новый вариант** |
+| **Семейство двигателей** | **Старый вариант** | **Новый вариант** |
 | K19 | AP 4704 | AP 4702 |
 | QSK19 | AP 4705 | AP 4703 |
 | QSK19 | DA 4068 | DA 4048 |
@@ -100,9 +105,9 @@ tags:
 >
 > Procedure 008-001 (Belt Guard) and Procedure 013-005 (Drive Belt, Alternator) have been updated in the following manuals:
 >
-> - K19 Service Manual, Bulletin 4021499
+> - K19 Service Manual, Bulletin [[4021499 — K19 Service Manual\|4021499]]
 > - QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]
-> - K19 Industrial and Marine Operation and Maintenance Manual, Bulletin 3666013
+> - K19 Industrial and Marine Operation and Maintenance Manual, Bulletin [[3666013 — K19 Industrial and Marine Operation and Maintenance Manual\|3666013]]
 > - QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual, Bulletin [[3666120 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Operation and Maintenance Manual\|3666120]].
 >
 > All new options are fully compatible with the old options. The new guards can be fitted as replacements for the old ones. Use of the remaining stock of old guards **must** be limited to applications outside of the European Economic Area (EEA).

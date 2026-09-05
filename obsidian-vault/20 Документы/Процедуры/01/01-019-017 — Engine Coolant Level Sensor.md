@@ -17,7 +17,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-017.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-017.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2004-02-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-019-017.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-019-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-019-017.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 Снимите крышку радиатора.
 
-Слить достаточно охлаждающей жидкости из системы охлаждения, чтобы опорожнить верхний резервуар радиатора. См. процедуру 008-018 в Руководстве по устранению неполадок и ремонту QSX15, ISX, Базовом двигателе с подписью, Вестнике 3666239, Руководстве по устранению неполадок и ремонту Двигатели серии QSK23, Вестнике 4021375, Руководстве по устранению неполадок и ремонту Двигатели серии QST30, Вестнике 3666217, Руководстве по устранению неполадок и ремонту Двигатели серии QSK45 и QSK60, Вестнике 3666261, а также в Руководстве по устранению неполадок и ремонту Двигатели серии QSK78, Вестнике 3666727.
+Слить достаточно охлаждающей жидкости из системы охлаждения, чтобы опорожнить верхний резервуар радиатора. См. процедуру 008-018 в Руководстве по устранению неполадок и ремонту QSX15, ISX, Базовый двигатель подписи, Бюллетень[[3666239 — Signature™, ISX, and QSX15 Service Manual|3666239]], Руководство по устранению неполадок и ремонту двигателей серии QSK23, Бюллетень[[4021375 — QSK23 Troubleshooting and Repair Manual|4021375]], Руководство по устранению неполадок и ремонту двигателей серии QST30, Вестник 3666217, Руководство по устранению неполадок и ремонту двигателей серий QSK45 и QSK60, Вестник 3666261, а также в Руководстве по устранению неполадок и ремонту двигателей серии QSK78, Вестник 3666727.
 
 ![[ra800qa.png]]
 
@@ -70,7 +70,7 @@ tags:
 
 Скрепляйте электрические разъемы, пока они не заблокируются.
 
-Заполните систему охлаждения и проверьте наличие утечек. См. процедуру 008-018 в Руководстве по устранению неполадок и ремонту QSX15, ISX, Базовом двигателе с подписью, Вестнике 3666239, Руководстве по устранению неполадок и ремонту Двигатели серии QSK23, Вестнике 4021375, Руководстве по устранению неполадок и ремонту Двигатели серии QST30, Вестнике 3666217, Руководстве по устранению неполадок и ремонту Двигатели серии QSK45 и QSK60, Вестнике 3666261 или Руководстве по устранению неполадок и ремонту Двигатели серии QSK78, Вестнике 3666727.
+Заполните систему охлаждения и проверьте наличие утечек. См. процедуру 008-018 в Руководстве по устранению неполадок и ремонту QSX15, ISX, Базовый двигатель подписи, Бюллетень[[3666239 — Signature™, ISX, and QSX15 Service Manual|3666239]], Руководство по устранению неполадок и ремонту двигателей серии QSK23, Бюллетень[[4021375 — QSK23 Troubleshooting and Repair Manual|4021375]], Руководство по устранению неполадок и ремонту двигателей серии QST30, Вестник 3666217, Руководство по устранению неполадок и ремонту двигателей серий QSK45 и QSK60, Вестник 3666261 или Руководство по устранению неполадок и ремонту двигателей серии QSK78, Вестник 3666727.
 
 ![[19900756.png]]
 
@@ -86,7 +86,7 @@ tags:
 >
 > Remove the radiator cap.
 >
-> Drain enough coolant from the cooling system to empty the radiator top tank. Refer to Procedure 008-018 in the Troubleshooting and Repair Manual QSX15, ISX, Signature Base Engine, Bulletin 3666239, Troubleshooting and Repair Manual QSK23 Series Engines, Bulletin 4021375, Troubleshooting and Repair Manual QST30 Series Engines, Bulletin 3666217, Troubleshooting and Repair Manual QSK45 and QSK60 Series Engines, Bulletin 3666261, and in the Troubleshooting and Repair Manual QSK78 Series Engines, Bulletin 3666727.
+> Drain enough coolant from the cooling system to empty the radiator top tank. Refer to Procedure 008-018 in the Troubleshooting and Repair Manual QSX15, ISX, Signature Base Engine, Bulletin [[3666239 — Signature™, ISX, and QSX15 Service Manual|3666239]], Troubleshooting and Repair Manual QSK23 Series Engines, Bulletin [[4021375 — QSK23 Troubleshooting and Repair Manual|4021375]], Troubleshooting and Repair Manual QST30 Series Engines, Bulletin 3666217, Troubleshooting and Repair Manual QSK45 and QSK60 Series Engines, Bulletin 3666261, and in the Troubleshooting and Repair Manual QSK78 Series Engines, Bulletin 3666727.
 >
 > Lift up on the locking tab and pull the electrical connectors apart.
 >
@@ -98,4 +98,4 @@ tags:
 >
 > Push the electrical connectors together until they lock.
 >
-> Fill the cooling system and check for leaks. Refer to Procedure 008-018 in the Troubleshooting and Repair Manual QSX15, ISX, Signature Base Engine, Bulletin 3666239, Troubleshooting and Repair Manual QSK23 Series Engines, Bulletin 4021375, Troubleshooting and Repair Manual QST30 Series Engines, Bulletin 3666217, Troubleshooting and Repair Manual QSK45 and QSK60 Series Engines, Bulletin 3666261, or Troubleshooting and Repair Manual QSK78 Series Engines, Bulletin 3666727.
+> Fill the cooling system and check for leaks. Refer to Procedure 008-018 in the Troubleshooting and Repair Manual QSX15, ISX, Signature Base Engine, Bulletin [[3666239 — Signature™, ISX, and QSX15 Service Manual|3666239]], Troubleshooting and Repair Manual QSK23 Series Engines, Bulletin [[4021375 — QSK23 Troubleshooting and Repair Manual|4021375]], Troubleshooting and Repair Manual QST30 Series Engines, Bulletin 3666217, Troubleshooting and Repair Manual QSK45 and QSK60 Series Engines, Bulletin 3666261, or Troubleshooting and Repair Manual QSK78 Series Engines, Bulletin 3666727.

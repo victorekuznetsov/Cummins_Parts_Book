@@ -9,16 +9,22 @@ released: "2023-12-08"
 modified: "2024-11-11"
 group: "08 - Cooling System"
 engines:
+  - "82099327"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+  - "QSB6.7"
+parts:
+  - "5256831"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130052.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130052.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130052.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
+  - "двигатель/QSB6.7"
   - "год/2023"
   - "перевод/машинный"
   - "тема/cooling-system"
@@ -29,10 +35,10 @@ tags:
 
 > [!abstract] TSB · `tsb130052`
 > **Раздел Cummins:** 08 - Cooling System
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
+> **Двигатели:** [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** C8.3 · 6C8.3, QSB6.7
 > **Даты:** выпущен 2023-12-08 · изменён 2024-11-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130052.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130052.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130052.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130052.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,11 +60,11 @@ tags:
 
 Некоторые приложения, использующие двигатели ISB/C/L CM850, CM2150, CM2250, CM2350 и CM2450, а также двигатели QSB/C/L CM850, CM2250, CM2350 и CM2450, показали увеличение числа стандартных отказов подшипников поддержки вентилятора. Новая поддержка вентилятора с конусным подшипником большой мощности является болтом на замене стандартной поддержки. Поддержка вентиляторов с высокой степенью нагрузки лучше подходит для приложений с повышенными сбоями стандартных вентиляторов. Таблица 1 содержит номера деталей для стандартных и тяжелых вентиляторов.
 
-| Таблица 1: Фан-поддержка Часть номеров |  |
+| Таблица 1: Фан-поддержка Номер деталиов |  |
 |---|---|
 | Поддержка фанатов Standard Duty | Heavy Duty Tapered Bearing Fan Поддержка |
 | 3911922 | 5254283 |
-| 3285949 | 5256831 |
+| 3285949 | [[5256831]] |
 | 3958412 | 5261322 |
 | 3913433 | 5260996 |
 | 3942896 | 5263529 |
@@ -69,6 +75,11 @@ tags:
 
 ### История изменений документа
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[5256831]] | FAN SUPPORT | Опора вентилятора |
 
 > [!quote]- Original (English) · английский оригинал
 > ## New Heavy Duty Tapered Bearing Fan Support for ISB/C/L CM850 - CM2150 - CM2250 - CM2350 - CM2450, and QSB/C/L CM850 - CM2250 - CM2350 - CM2450 Engines
@@ -87,7 +98,7 @@ tags:
 > |---|---|
 > | Standard Duty Fan Support | Heavy Duty Tapered Bearing Fan Support |
 > | 3911922 | 5254283 |
-> | 3285949 | 5256831 |
+> | 3285949 | [[5256831]] |
 > | 3958412 | 5261322 |
 > | 3913433 | 5260996 |
 > | 3942896 | 5263529 |

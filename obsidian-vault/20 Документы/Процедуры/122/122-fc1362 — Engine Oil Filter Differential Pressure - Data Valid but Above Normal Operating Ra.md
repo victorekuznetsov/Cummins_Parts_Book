@@ -7,17 +7,16 @@ title_en: "Engine Oil Filter Differential Pressure - Data Valid but Above Normal
 title_ru: "Перепад давления на масляном фильтре выше нормы — умеренный уровень"
 modified: "2018-05-10"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc1362.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc1362.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc1362.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Перепад давления на масляном фильтре выше нормы — умеренный уровень**
 
 > [!abstract] Процедура · `122-fc1362`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2018-05-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc1362.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc1362.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc1362.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc1362.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -86,11 +85,11 @@ QSK60 CM2150 Marine/QSK60 CM2150 Drill Rig - контур дифференциа
 
 ### Описание цепи
 
-Дифференциальное давление фильтра моторного масла контролируется электронным модулем управления (ECM) до и после фильтрации. Датчик давления фильтра перед масляным фильтром контролирует давление масла перед фильтрами. Датчик давления после масляного фильтра контролирует давление после масляных фильтров на QSK60. Датчик давления винтовки 1 моторного масла отслеживает это давление на QSK38 и QSK50. ECM контролирует напряжение на контакте сигнала и преобразует его в значение давления.
+Дифференциальное давление фильтра моторного масла контролируется электронным модулем управления (ECM) до и после фильтрации. Датчик давления фильтра перед масляным фильтром контролирует давление масла перед фильтрами. Датчик давления после масляного фильтра контролирует давление после масляных фильтров на QSK60. Датчик давления винты 1 моторного масла отслеживает это давление на QSK38 и QSK50. ECM контролирует напряжение на контакте сигнала и преобразует его в значение давления.
 
 ### Расположение компонента
 
-Датчики давления до и после нефтяного давления расположены на головке фильтра моторного масла или рядом с ней.
+Датчики давления до и после масляного давления расположены на головке фильтра моторного масла или рядом с ней.
 
 ### Практические замечания
 

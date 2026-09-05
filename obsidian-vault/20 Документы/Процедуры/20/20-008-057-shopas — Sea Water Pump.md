@@ -8,6 +8,7 @@ title_ru: "Насос забортной воды"
 modified: "2006-08-03"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 16
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-057-shopas.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-057-shopas.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-057-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Насос забортной воды**
 
 > [!abstract] Процедура · `20-008-057-shopas`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section AS - Engine Assembly - Group 00
 > **Даты:** изменён 2006-08-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-057-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-008-057-shopas.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-008-057-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-008-057-shopas.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,10 +58,10 @@ Jabsco®
 > [!warning] ОСТОРОЖНО
 > Не прикасайтесь к углеродной поверхности механического уплотнения, или могут возникнуть утечки и повреждения.
 
-Установите новое механическое уплотнение на вал морского водяного насоса. Установите печать на углубление корпуса.
+Установите новое механическое уплотнение на вал морского водяного насоса. Установите уплотнение на углубление корпуса.
 
 > [!note] Примечание
-> ** Никогда не используйте механическую печать повторно. ** Всегда** Установите новую печать, пружину и пластину.
+> **Никогда не используйте механическую уплотнение повторно. **Всегда Установите новую уплотнение, пружину и пластину.
 
 ![[08400276.png]]
 
@@ -84,7 +85,7 @@ Jabsco®
 
 ![[08400278.png]]
 
-Установите крыльцо на кулачный лайнер и на опухший вал.
+Установите крыльцо на кулачный гильза и на опухший вал.
 
 ![[08400279.png]]
 

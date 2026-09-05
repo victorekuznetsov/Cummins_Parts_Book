@@ -7,11 +7,12 @@ title_en: "C Troubleshooting and Repair Manual"
 title_ru: "Руководство по диагностике и ремонту серии C"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666003-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666003-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/C8.3"
@@ -21,9 +22,9 @@ tags:
 **Руководство по диагностике и ремонту серии C**
 
 > [!abstract] Руководство · `3666003-history`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/3666003-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/3666003-history.pdf)
 
 
 ## Оглавление руководства (306 процедур)
@@ -32,9 +33,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-toc | Table of Contents |  |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-titlepage | Titlepage | 13-May-2003 |
-| tr-frwd | Foreword | 22-May-2006 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-toc.html) | Table of Contents |  |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-titlepage.html) | Titlepage | 13-May-2003 |
+| [tr-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/tr-frwd.html) | Foreword | 22-May-2006 |
 
 ### Section i - Introduction
 
@@ -54,60 +55,60 @@ tags:
 | Номер | Название | Дата |
 |---|---|---|
 | [[99-t00-002 — Troubleshooting Symptoms Overview\|99-t00-002]] | Troubleshooting Symptom Charts | 03-Apr-2002 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t008-tr | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 20-Jan-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t050-tr | Engine Noise Excessive - Main Bearing | 20-Jan-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t062-tr | Engine Runs Rough or Misfires | 20-Jan-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t066-tr | Engine Speed Surges at Low or High Idle | 20-Jan-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t081-tr | Engine Will Not Shut Off | 20-Jan-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t091-5-tr | Fuel Knock | 20-Jan-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t092-tr | Fuel in Lubricating Oil | 20-Jan-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t097-25-tr | Intake Manifold Air Heater System Malfunctioning | 20-Jan-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t106-tr | Lubricating Oil Sludge in the Crankcase Excessive | 20-Jan-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t080-tr | Engine Will Not Reach Rated Speed (RPM) | 09-Feb-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t118-tr | Smoke, White-Excessive | 03-Mar-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t018-tr | Coolant Contamination | 17-Mar-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t048-tr | Engine Noise Excessive - Combustion Knocks | 17-Mar-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t072-tr | Engine Starts But Will Not Keep Running | 02-Jun-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t087-tr | Fuel Consumption Excessive | 02-Jun-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t093-tr | Fuel or Lubricating Oil Leaking From Exhaust Manifold | 02-Jun-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t013-tr | Alternator Not Charging or Insufficient Charging | 07-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t014-tr | Alternator Overcharging | 07-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t022-tr | Coolant Temperature Above Normal - Gradual Overheat | 07-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t023-tr | Coolant Temperature is Above Normal - Sudden Overheat | 07-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t024-tr | Coolant Temperature is Below Normal | 07-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t026-156-tr | Coolant Temperature Above Normal - Sea Water Coolant System | 07-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t043-tr | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 07-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t008-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t008-tr.html) | Air Compressor Will Not Maintain Adequate Air Pressure (Not Pumping Continuously) | 20-Jan-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t050-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t050-tr.html) | Engine Noise Excessive - Main Bearing | 20-Jan-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t062-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t062-tr.html) | Engine Runs Rough or Misfires | 20-Jan-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t066-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t066-tr.html) | Engine Speed Surges at Low or High Idle | 20-Jan-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t081-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t081-tr.html) | Engine Will Not Shut Off | 20-Jan-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t091-5-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t091-5-tr.html) | Fuel Knock | 20-Jan-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t092-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t092-tr.html) | Fuel in Lubricating Oil | 20-Jan-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t097-25-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t097-25-tr.html) | Intake Manifold Air Heater System Malfunctioning | 20-Jan-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t106-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t106-tr.html) | Lubricating Oil Sludge in the Crankcase Excessive | 20-Jan-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t080-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t080-tr.html) | Engine Will Not Reach Rated Speed (RPM) | 09-Feb-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t118-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t118-tr.html) | Smoke, White-Excessive | 03-Mar-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t018-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t018-tr.html) | Coolant Contamination | 17-Mar-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t048-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t048-tr.html) | Engine Noise Excessive - Combustion Knocks | 17-Mar-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t072-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t072-tr.html) | Engine Starts But Will Not Keep Running | 02-Jun-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t087-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t087-tr.html) | Fuel Consumption Excessive | 02-Jun-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t093-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t093-tr.html) | Fuel or Lubricating Oil Leaking From Exhaust Manifold | 02-Jun-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t013-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t013-tr.html) | Alternator Not Charging or Insufficient Charging | 07-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t014-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t014-tr.html) | Alternator Overcharging | 07-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t022-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t022-tr.html) | Coolant Temperature Above Normal - Gradual Overheat | 07-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t023-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t023-tr.html) | Coolant Temperature is Above Normal - Sudden Overheat | 07-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t024-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t024-tr.html) | Coolant Temperature is Below Normal | 07-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t026-156-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t026-156-tr.html) | Coolant Temperature Above Normal - Sea Water Coolant System | 07-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t043-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t043-tr.html) | Engine Difficult to Start or Will Not Start (Exhaust Smoke) | 07-Dec-2004 |
 | [[41-t00-004 — Troubleshooting Overview\|41-t00-004]] | Troubleshooting Overview | 07-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t004-tr | Air Compressor Air Pressure Rises Slowly | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t005-tr | Air Compressor Cycles Frequently | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t006-tr | Air Compressor Noise is Excessive | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t007-tr | Air Compressor Pumping Excess Lubricating Oil into the Air System | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t009-tr | Air Compressor Will Not Pump Air | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t010-tr | Air Compressor Will Not Stop Pumping | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t019-tr | Coolant Loss | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t025-tr | Coolant in the Lubricating Oil | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t027-tr | Crankcase Gases (Blowby) Excessive | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t033-tr | Engine Acceleration or Response Poor | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t047-tr | Engine Noise Excessive | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t049-tr | Engine Noise Excessive - Connecting Rod | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t051-tr | Engine Noise Excessive - Piston | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t052-tr | Engine Noise Excessive - Turbocharger | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t057-tr | Engine Power Output Low | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t061-tr | Engine Runs Rough at Idle | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t075-tr | Engine Vibration Excessive | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t076-tr | Engine Will Not Crank or Cranks Slowly | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t081-001-tr | Excessive Noise | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t096-tr | Intake Manifold Air Temperature Above Specification | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t102-tr | Lubricating Oil Consumption Excessive | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t107-tr | Lubricating Oil Temperature Above Specification | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t108-tr | Lubricating or Transmission Oil in the Coolant | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t116-tr | Smoke, Black-Excessive | 08-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t044-tr | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 13-Dec-2004 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t104-tr | Lubricating Oil Pressure High | 08-Jun-2007 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t105-tr | Lubricating Oil Pressure Low | 31-Aug-2007 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t004-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t004-tr.html) | Air Compressor Air Pressure Rises Slowly | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t005-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t005-tr.html) | Air Compressor Cycles Frequently | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t006-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t006-tr.html) | Air Compressor Noise is Excessive | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t007-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t007-tr.html) | Air Compressor Pumping Excess Lubricating Oil into the Air System | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t009-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t009-tr.html) | Air Compressor Will Not Pump Air | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t010-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t010-tr.html) | Air Compressor Will Not Stop Pumping | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t019-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t019-tr.html) | Coolant Loss | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t025-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t025-tr.html) | Coolant in the Lubricating Oil | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t027-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t027-tr.html) | Crankcase Gases (Blowby) Excessive | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t033-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t033-tr.html) | Engine Acceleration or Response Poor | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t047-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t047-tr.html) | Engine Noise Excessive | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t049-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t049-tr.html) | Engine Noise Excessive - Connecting Rod | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t051-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t051-tr.html) | Engine Noise Excessive - Piston | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t052-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t052-tr.html) | Engine Noise Excessive - Turbocharger | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t057-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t057-tr.html) | Engine Power Output Low | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t061-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t061-tr.html) | Engine Runs Rough at Idle | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t075-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t075-tr.html) | Engine Vibration Excessive | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t076-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t076-tr.html) | Engine Will Not Crank or Cranks Slowly | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t081-001-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t081-001-tr.html) | Excessive Noise | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t096-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t096-tr.html) | Intake Manifold Air Temperature Above Specification | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t102-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t102-tr.html) | Lubricating Oil Consumption Excessive | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t107-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t107-tr.html) | Lubricating Oil Temperature Above Specification | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t108-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t108-tr.html) | Lubricating or Transmission Oil in the Coolant | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t116-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t116-tr.html) | Smoke, Black-Excessive | 08-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t044-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t044-tr.html) | Engine Difficult to Start or Will Not Start (No Exhaust Smoke) | 13-Dec-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t104-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t104-tr.html) | Lubricating Oil Pressure High | 08-Jun-2007 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t105-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t105-tr.html) | Lubricating Oil Pressure Low | 31-Aug-2007 |
 | [[99-t00-001-tr — Troubleshooting Procedures and Techniques\|99-t00-001-tr]] | Troubleshooting Procedures and Techniques | 25-Jun-2009 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t027-tr | Crankcase Gases (Blowby) Excessive | 07-Jun-2011 |
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t104 | Lubricating Oil Pressure High | 11-Jan-2013 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t027-tr](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t027-tr.html) | Crankcase Gases (Blowby) Excessive | 07-Jun-2011 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-t104](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-t104.html) | Lubricating Oil Pressure High | 11-Jan-2013 |
 
 ### Section 14 - Engine Testing - Group 14
 
@@ -420,7 +421,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[3666003 — C Troubleshooting and Repair Manual\|3666003]]-backcover | Backcover | 29-Nov-2004 |
+| [[[3666003 — C Troubleshooting and Repair Manual\|3666003]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3666003/3666003-backcover.html) | Backcover | 29-Nov-2004 |
 
 ### Section 12 - Compressed Air System - Group 12
 

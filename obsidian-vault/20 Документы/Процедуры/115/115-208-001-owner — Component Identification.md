@@ -7,11 +7,11 @@ title_en: "Component Identification"
 title_ru: "Идентификация компонентов"
 modified: "2008-10-09"
 engines:
-  - "33239746"
   - "33239899"
   - "41349633"
+  - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
 manuals:
   - "4021589"
@@ -19,7 +19,7 @@ figures: 11
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-208-001-owner.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-208-001-owner.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-208-001-owner.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -32,12 +32,12 @@ tags:
 **Идентификация компонентов**
 
 > [!abstract] Процедура · `115-208-001-owner`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19
 > **Входит в руководства:** [[4021589 — Marine C Command Panel System Owners Manual|4021589]]
 > **Секции:** Section E - Engine and System Identification
 > **Даты:** изменён 2008-10-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-208-001-owner.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-208-001-owner.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-208-001-owner.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-208-001-owner.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -112,7 +112,7 @@ tags:
 
 1. Цифровой дисплей ED-3
 2. Переключатель питания
-3. Локальный запуск **** с кнопки
+3. Локальный запуск с кнопки
 4. Кнопка тишины тревоги
 5. Кнопка остановки двигателя
 6. Локальный старт только переключается
@@ -135,7 +135,7 @@ tags:
 Панель машинного отделения (нижний вид)
 
 1. Клиентский интерфейс Box Wiring Usge Connector
-2. SAE J1939 CAN дата-автобусный порт.
+2. SAE J1939 CAN дата-шинный порт.
 
 ![[17800079.png]]
 
@@ -147,7 +147,7 @@ tags:
 4. Кнопка остановки двигателя
 5. Будильник
 6. Кнопка запуска двигателя
-7. Локальный старт **** лампа
+7. Локальный старт лампа
 
 ![[17800080.png]]
 
@@ -159,11 +159,11 @@ tags:
 4. Разъемы панели управления.
 
 > [!note] Примечание
-> ** Не** Показано: SAE J1939 CAN дата-автобусный порт. Порт обслуживания шины данных SAE J1939 CAN представляет собой свиной хвост и свободно висит в корпусе клиента.
+> **Не** Показано: SAE J1939 CAN дата-шинный порт. Порт обслуживания шины данных SAE J1939 CAN представляет собой свиной хвост и свободно висит в корпусе клиента.
 
 ![[15400069.png]]
 
-Факультативная панель переключателей (Front View)
+Факультативная панель коммутатора (Front View)
 
 1. Переключение переключения
 2. Альтернативный выключатель холостого хода

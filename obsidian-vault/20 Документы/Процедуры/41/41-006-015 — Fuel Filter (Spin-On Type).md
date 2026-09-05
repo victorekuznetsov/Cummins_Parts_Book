@@ -8,6 +8,7 @@ title_ru: "Топливный фильтр (навинчиваемый)"
 modified: "2002-08-12"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 9
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-006-015.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-006-015.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-006-015.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Топливный фильтр (навинчиваемый)**
 
 > [!abstract] Процедура · `41-006-015`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]]
 > **Секции:** Section 5 - Maintenance Procedures at 300 Hours or 1 Year
 > **Даты:** изменён 2002-08-12
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-006-015.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-006-015.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-006-015.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-006-015.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -51,7 +52,7 @@ tags:
 
 ### Снятие
 
-** 75-80-мм и 90-95-мм гаечные ключи**
+**75-80-мм и 90-95-мм гаечные ключи**
 
 Удалите топливный фильтр. Очистить прокладку поверхности топливного фильтра монтажной головки.
 
@@ -79,7 +80,7 @@ tags:
 > [!note] Примечание
 > Ручное кровотечение требуется, если:
 
-- Фильтр топлива ** не** заполнен до установки
+- Фильтр топлива **не** заполнен до установки
 - Заменить топливный насос
 - Соединения топливных линий высокого давления ослабляются или заменяются топливные линии
 - Начальный запуск двигателя или запуск после длительного периода отсутствия работы двигателя
@@ -103,7 +104,7 @@ tags:
 > [!danger] ОПАСНО
 > Давление топлива в линии достаточно, чтобы проникнуть в кожу и нанести серьезный вред здоровью. Носите перчатки и защитную одежду.
 
-**17-мм (PES.A, PES.MW) и 19-мм (PES.P)
+17-мм (PES.A, PES.MW) и 19-мм (PES.P)
 
 Удалите фитинги на топливном форсунке и прокрутите двигатель, чтобы позволить втягиваемому воздуху вытекать из линий. Затяните фитинги.
 

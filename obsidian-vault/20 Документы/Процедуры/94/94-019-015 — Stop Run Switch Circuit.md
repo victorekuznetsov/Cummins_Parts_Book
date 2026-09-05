@@ -17,7 +17,7 @@ figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-015.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-015.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-015.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual|3666184]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2003-03-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-015.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-015.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-015.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-015.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -61,7 +61,7 @@ tags:
 
 Поместите выключатель Stop/Run в положение RUN. Мультиметр **должен** показать замкнутую цепь (10 Ом и менее).
 
-Если схема ** не ** закрыта, проверьте наличие открытой цепи в проводах переключателя Stop/Run, учитывая, что переключатель уже проверен.
+Если схема **не **закрыта, проверьте наличие открытой цепи в проводах переключателя Stop/Run, учитывая, что переключатель уже проверен.
 
 Ремонт или замена OEM проводов жгута. См. OEM устранение неполадок и процедуры ремонта.
 
@@ -81,11 +81,11 @@ tags:
 
 Отсоедините разъем от положительного свинца батареи.
 
-Измерьте сопротивление от контакта 63 разъёма OEM-проводов с другими штифтами в разъеме. Мультиметр ** должен** показывать открытую схему (100к Ом или меньше).
+Измерьте сопротивление от контакта 63 разъёма OEM-проводов с другими штифтами в разъеме. Мультиметр **должен** показывать открытую схему (100к Ом или меньше).
 
 Если какая-либо проверка показывает менее 100k Ом, отремонтируйте или замените электропроводку OEM. См. OEM устранение неполадок и процедуры ремонта.
 
-> [!missing]- Иллюстрация `19a00052.png` не извлечена — смотрите PDF-оригинал документа
+![[19a00052.png]]
 
 
 > [!quote]- Original (English) · английский оригинал

@@ -9,18 +9,33 @@ released: "2017-05-05"
 modified: "2020-02-10"
 group: "07 - Lubricating Oil Systems"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
+parts:
+  - "4016423"
+  - "4331734"
+  - "5540796"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2016/tsb160036.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb160036.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb160036.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2017"
   - "перевод/машинный"
   - "тема/lubricating-oil-systems"
@@ -31,10 +46,10 @@ tags:
 
 > [!abstract] TSB · `tsb160036`
 > **Раздел Cummins:** 07 - Lubricating Oil Systems
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2017-05-05 · изменён 2020-02-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2016/tsb160036.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb160036.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2016/tsb160036.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb160036.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -85,7 +100,7 @@ tags:
 
 **Указания по обслуживанию**
 
-- Если обнаружены признаки контакта между крышкой центрифуги и фильтром центрифуги, крышка центрифуги, номер детали 4016423 (крышка центрифуги QSK78), может быть приобретена отдельно и установлена в существующей сборке EliminatorTM для предотвращения контакта фильтра центрифуги с крышкой центрифуги. Применяется для QSK45/60. См. рисунок 1 ниже.
+- Если обнаружены доказательства контакта между крышкой центрифуги и фильтром центрифуги, крышка центрифуги, номер детали[[4016423]](Ковер центрифуги QSK78) можно приобрести отдельно и установить в существующую сборку EliminatorTM для предотвращения контакта фильтра центрифуги с крышкой центрифуги. Применяется для QSK45/60. См. рисунок 1 ниже.
 - Для установки и удаления см. Бюллетень службы, Фильтр ЭлиминаторTM, Бюллетень[[3666253 — Eliminator™ Filter|3666253]].
 
 ![[07r00080.png]]
@@ -96,26 +111,26 @@ tags:
 
 Сервисные детали доступны для заказа. См. таблицу 1.
 
-| ** Таблица 1, Части обслуживания** |  |  |  |  |  |
+| **Таблица 1, Части обслуживания** |  |  |  |  |  |
 |---|---|---|---|---|---|
-| ** Часть описания** | ** Существующий номер детали** | ** Устаревший** | ** Превышенный** | **Новый номер** | **Справочный номер SpiraTecTM** |
-| Фильтр QSK60, моторное масло (ассамблея EliminatorTM) | 3649418 | Да | Да | 5540796 | ** Не применяется |
+| **Часть описания** | **Существующий номер детали** | **Устаревший** | **Превышенный** | **Новый номер** | **Справочный номер SpiraTecTM** |
+| Фильтр QSK60, моторное масло (ассамблея EliminatorTM) | 3649418 | Да | Да | [[5540796]] | Не применяется |
 | Фильтр QSK45, моторное масло (сборка EliminatorTM) | 3649420 | Да | Да | 5540797 |  |
 | Фильтр QSK78, моторное масло (сборка EliminatorTM) | 3649552 | Да | Да | 5540795 |  |
-| Прикрытие, центрифуга | ** Не применяется | 4016423 |  |  |  |
-| Фильтр, центрифуга (QSK45/60) | 4331734 | CS41018 |  |  |  |
-| Фильтр, центрифуга (QSK78) | ** Не применяется | 5538318 | CS41019 |  |  |
-| Фильтр QSK38/50, моторное масло (сборка EliminatorTM) с заправочной трубкой | ** Не применяется | 5540856 | ** Не применяется |  |  |
-| QSK38/50 Без фильтра трубки, моторного масла (сборка EliminatorTM) | ** Не применяется | 5540857 | ** Не применяется |  |  |
+| Прикрытие, центрифуга | Не применяется | [[4016423]] |  |  |  |
+| Фильтр, центрифуга (QSK45/60) | [[4331734]] | CS41018 |  |  |  |
+| Фильтр, центрифуга (QSK78) | Не применяется | 5538318 | CS41019 |  |  |
+| Фильтр QSK38/50, моторное масло (сборка EliminatorTM) с заправочной трубкой | **Не применяется | 5540856 | **Не применяется |  |  |
+| QSK38/50 Без фильтра трубки, моторного масла (сборка EliminatorTM) | **Не применяется | 5540857 | **Не применяется |  |  |
 
-** Совместимость частей**
+**Совместимость частей**
 
 Новые номера деталей обратно совместимы и могут быть смешаны с существующими номерами деталей.
 
 > [!note] Примечание
-> Если цельная центрифуга установлена на двигателе, который ранее имел ограничительное отверстие, установленное на вал центрифуги, ограничитель ** должен быть удален. Его можно снять с вала с помощью шестигранного ключа.
+> Если цельная центрифуга установлена на двигателе, который ранее имел ограничительное отверстие, установленное на вал центрифуги, ограничитель должен быть удален. Его можно снять с вала с помощью шестигранного ключа.
 
-** Рекомендации**
+**Рекомендации**
 
 Замените центрифугу каждые 1000 часов с интервалом инспекции не менее одного часа после 500 часов, чтобы оценить износ куста, если он присутствует.
 
@@ -137,6 +152,13 @@ tags:
 
 ### История изменений документа
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[4016423]] | CENTRIFUGE COVER |  |
+| [[4331734]] | FILTER,CENTRIFUGE |  |
+| [[5540796]] | LUBRICATING OIL FILTER | Масляный фильтр |
 
 > [!quote]- Original (English) · английский оригинал
 > ## New Centrifuge Cover, Eliminator™ Assembly, and Centrifugal Filter for Eliminator™ Oil Filters
@@ -180,7 +202,7 @@ tags:
 >
 > **Service Instructions**
 >
-> - If evidence of contact between the centrifuge cover and centrifuge filter is found, the centrifuge cover, Part Number 4016423 (QSK78 centrifuge cover), can be purchased separately and installed within the existing Eliminator™ assembly to prevent centrifuge filter contact with the centrifuge cover. Applicable to QSK45/60. See Figure 1 below.
+> - If evidence of contact between the centrifuge cover and centrifuge filter is found, the centrifuge cover, Part Number [[4016423]] (QSK78 centrifuge cover), can be purchased separately and installed within the existing Eliminator™ assembly to prevent centrifuge filter contact with the centrifuge cover. Applicable to QSK45/60. See Figure 1 below.
 > - For installation and removal, see Service Bulletin, Eliminator™ Filter, Bulletin [[3666253 — Eliminator™ Filter|3666253]].
 >
 > Figure 1, Evidence of Contact Between Centrifuge Cover and Centrifuge Filter.
@@ -192,11 +214,11 @@ tags:
 > | **Table 1, Service Parts** |  |  |  |  |  |
 > |---|---|---|---|---|---|
 > | **Part Description** | **Existing Part Number** | **Obsoleted** | **Superseded** | **New Part Number** | **SpiraTec™ Reference number** |
-> | QSK60 Filter, Lubricating Oil (Eliminator™ Assembly) | 3649418 | Yes | Yes | 5540796 | **Not** Applicable |
+> | QSK60 Filter, Lubricating Oil (Eliminator™ Assembly) | 3649418 | Yes | Yes | [[5540796]] | **Not** Applicable |
 > | QSK45 Filter, Lubricating Oil (Eliminator™ Assembly) | 3649420 | Yes | Yes | 5540797 |  |
 > | QSK78 Filter, Lubricating Oil (Eliminator™ Assembly) | 3649552 | Yes | Yes | 5540795 |  |
-> | Cover, Centrifuge | **Not** Applicable | 4016423 |  |  |  |
-> | Filter, Centrifuge (QSK45/60) | 4331734 | CS41018 |  |  |  |
+> | Cover, Centrifuge | **Not** Applicable | [[4016423]] |  |  |  |
+> | Filter, Centrifuge (QSK45/60) | [[4331734]] | CS41018 |  |  |  |
 > | Filter, Centrifuge (QSK78) | **Not** Applicable | 5538318 | CS41019 |  |  |
 > | QSK38/50 Filter, Lubricating Oil (Eliminator™ Assembly) With Filling tube | **Not** Applicable | 5540856 | **Not** Applicable |  |  |
 > | QSK38/50 Without Filling tube Filter, Lubricating Oil (Eliminator™ Assembly) | **Not** Applicable | 5540857 | **Not** Applicable |  |  |

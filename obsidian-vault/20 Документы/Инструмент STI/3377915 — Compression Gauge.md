@@ -9,13 +9,14 @@ released: "2003-06-24"
 modified: "2003-06-24"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377915.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377915.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3377915.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/C8.3"
@@ -26,10 +27,10 @@ tags:
 **Компрессометр**
 
 > [!abstract] Инструкция по инструменту · `3377915`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2003-06-24 · изменён 2003-06-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377915.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3377915.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3377915.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3377915.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -60,11 +61,11 @@ tags:
 | 2 | 3164839 | Тестер сжатия серии B (2-клапанный) | 1 |
 | 3 | 3164728 | Испытатель на сжатие серии B3.3 | 1 |
 | 4 | 3164840 | C-серия тестера на сжатие (2-клапана) | 1 |
-| ** Не показана** | 3165128 | A1400, A1700, A2000, A2300 и A2300T тестеры на сжатие | 1 |
+| **Не показана** | 3165128 | A1400, A1700, A2000, A2300 и A2300T тестеры на сжатие | 1 |
 
 Удалите весь форсунка. См. следующие руководства по устранению неполадок и ремонту или капитальному ремонту:
 
-- Устранение неполадок и ремонт двигателей серии В 1991 и 1994 годов Сертификация, Бюллетень 3666087
+- Устранение неполадок и ремонт двигателей серии В 1991 и 1994 годов Сертификация, Бюллетень[[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]]
 - Устранение неполадок и ремонт двигателей серии В, бюллетень 3810207
 - Руководство по устранению неполадок и ремонту двигателей B3.3, Бюллетень 3666418
 - Устранение неполадок и ремонт двигателей серии C 1991 и 1994 годов Сертификация, Бюллетень[[3666003 — C Troubleshooting and Repair Manual|3666003]]
@@ -98,7 +99,7 @@ tags:
 
 Установите все топливные форсунки. См. следующие руководства по устранению неполадок и ремонту или капитальному ремонту:
 
-- Устранение неполадок и ремонт двигателей серии В 1991 и 1994 годов Сертификация, Бюллетень 3666087
+- Устранение неполадок и ремонт двигателей серии В 1991 и 1994 годов Сертификация, Бюллетень[[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]]
 - Устранение неполадок и ремонт двигателей серии В, бюллетень 3810207
 - Руководство по устранению неполадок и ремонту двигателей B3.3, Бюллетень 3666418
 - Устранение неполадок и ремонт двигателей серии C 1991 и 1994 годов Сертификация, Бюллетень[[3666003 — C Troubleshooting and Repair Manual|3666003]]
@@ -132,7 +133,7 @@ tags:
 >
 > Remove all injectors. Refer to the following Troubleshooting and Repair or Master Repair Manuals:
 >
-> - Troubleshooting and Repair Manual B Series Engines 1991 and 1994 Certification Levels, Bulletin 3666087
+> - Troubleshooting and Repair Manual B Series Engines 1991 and 1994 Certification Levels, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]]
 > - Troubleshooting and Repair Manual B Series Engines, Bulletin 3810207
 > - Troubleshooting and Repair Manual B3.3 Engines, Bulletin 3666418
 > - Troubleshooting and Repair Manual C Series Engines 1991 and 1994 Certification Levels, Bulletin [[3666003 — C Troubleshooting and Repair Manual|3666003]]
@@ -160,7 +161,7 @@ tags:
 >
 > Install all injectors. Refer to the following Troubleshooting and Repair or Master Repair Manuals:
 >
-> - Troubleshooting and Repair Manual B Series Engines 1991 and 1994 Certification Levels, Bulletin 3666087
+> - Troubleshooting and Repair Manual B Series Engines 1991 and 1994 Certification Levels, Bulletin [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]]
 > - Troubleshooting and Repair Manual B Series Engines, Bulletin 3810207
 > - Troubleshooting and Repair Manual B3.3 Engines, Bulletin 3666418
 > - Troubleshooting and Repair Manual C Series Engines 1991 and 1994 Certification Levels, Bulletin [[3666003 — C Troubleshooting and Repair Manual|3666003]]

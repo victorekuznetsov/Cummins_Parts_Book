@@ -12,7 +12,7 @@ families:
   - "QST30"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/4915520-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4915520-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4915520-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/QST30"
@@ -24,7 +24,7 @@ tags:
 > [!abstract] Руководство · `4915520-history`
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/4915520-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4915520-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/4915520-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4915520-history.pdf)
 
 
 ## Оглавление руководства (45 процедур)
@@ -33,10 +33,10 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4915520 — QST30 Owners Manual\|4915520]]-toc | Table of Contents |  |
-| [[4915520 — QST30 Owners Manual\|4915520]]-titlepage | Titlepage | 28-Apr-2004 |
+| [[[4915520 — QST30 Owners Manual\|4915520]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/4915520-toc.html) | Table of Contents |  |
+| [[[4915520 — QST30 Owners Manual\|4915520]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/4915520-titlepage.html) | Titlepage | 28-Apr-2004 |
 | [[refno\|refno]] | Important Reference Numbers | 15-Feb-2006 |
-| own-frwd | Foreword | 14-Jul-2006 |
+| [own-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/own-frwd.html) | Foreword | 14-Jul-2006 |
 
 ### Section i - Introduction
 
@@ -89,18 +89,18 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| ind-frt | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
-| ind-bck | Owner's Warranty Responsibilities | 14-Oct-2003 |
-| ind-qst30 | California Emission Control System Warranty, Off-Highway | 01-Mar-2005 |
-| 3381322 | Off-Highway Engines International | 23-Apr-2007 |
-| 3381321 | Off-Highway Engines United States and Canada | 20-Jun-2007 |
-| 3381307 | Worldwide Generator Drive | 25-Aug-2009 |
+| [ind-frt](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/ind-frt.html) | California Emission Control System Warranty, Off-Highway | 09-Oct-2003 |
+| [ind-bck](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/ind-bck.html) | Owner's Warranty Responsibilities | 14-Oct-2003 |
+| [ind-qst30](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/ind-qst30.html) | California Emission Control System Warranty, Off-Highway | 01-Mar-2005 |
+| [3381322](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381322/3381322-history.html) | Off-Highway Engines International | 23-Apr-2007 |
+| [3381321](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381321/3381321-history.html) | Off-Highway Engines United States and Canada | 20-Jun-2007 |
+| [3381307](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/3381307/3381307-history.html) | Worldwide Generator Drive | 25-Aug-2009 |
 
 ### back
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4915520 — QST30 Owners Manual\|4915520]]-backcover | Backcover | 22-Sep-2004 |
+| [[[4915520 — QST30 Owners Manual\|4915520]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4915520/4915520-backcover.html) | Backcover | 22-Sep-2004 |
 
 ### Section 2 - Maintenance Guidelines
 

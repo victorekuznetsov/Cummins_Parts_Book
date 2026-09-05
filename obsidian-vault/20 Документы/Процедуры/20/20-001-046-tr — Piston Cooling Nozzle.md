@@ -8,6 +8,7 @@ title_ru: "Форсунка охлаждения поршня"
 modified: "2006-06-30"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 17
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-046-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-046-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-046-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Форсунка охлаждения поршня**
 
 > [!abstract] Процедура · `20-001-046-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2006-06-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-046-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-046-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-046-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-046-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -123,7 +124,7 @@ tags:
 
 Используйте растворитель, номер детали 3824421, или эквивалент, для очистки форсунок для охлаждения поршня.
 
-Высушить охлаждающие сопла со сжатым воздухом и выдуть нефтяные ходы.
+Высушить охлаждающие сопла со сжатым воздухом и выдуть масляные ходы.
 
 ![[01400117.png]]
 
@@ -143,7 +144,7 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Используйте осторожность при обращении с форсункой охлаждения поршня. Любое повреждение форсунки охлаждения поршня может привести к повреждению двигателя.
 
-Используйте растительное масло для смазки нового кольца. **не*** замочите новое кольцо в моторном масле.
+Используйте растительное масло для смазки нового кольца. **не** замочите новое кольцо в моторном масле.
 
 Установите кольцо в канавке поршневого охлаждающего сопла, которое находится на наименьшем расстоянии от фланца.
 

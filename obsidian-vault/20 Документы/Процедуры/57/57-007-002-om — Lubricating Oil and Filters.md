@@ -17,7 +17,7 @@ figures: 11
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-002-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-007-002-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-007-002-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months
 > **Даты:** изменён 2016-03-22
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-007-002-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-007-002-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-007-002-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -58,7 +58,7 @@ tags:
 
 Работайте с двигателем до тех пор, пока температура воды не достигнет 60°C[140°F]. Выключи двигатель.
 
-Удалите масляную сливную пробку со дна моторного масла. **Не удаляйте верхние пробки с обеих сторон масляной панели, чтобы слить масло. Они не позволят нефти полностью слиться.
+Удалите масляную сливную пробку со дна моторного масла. Не удаляйте верхние пробки с обеих сторон масляной панели, чтобы слить масло. Они не позволят масла полностью слиться.
 
 ![[07a00018.png]]
 
@@ -68,7 +68,7 @@ tags:
 - Диаметр: 41,28 мм \[1,625 in\]
 - Вес: 0,363 кг[0,80 фунта]
 
-В режиме ожидания генератор приложений, Cummins Inc. Рекомендуется проводить отбор проб и анализ нефти во время смены масла для мониторинга уровня загрязнения нефтью.
+В режиме ожидания генератор приложений, Cummins Inc. Рекомендуется проводить отбор проб и анализ масла во время смены масла для мониторинга уровня загрязнения маслом.
 
 ![[07a00018.png]]
 
@@ -156,7 +156,7 @@ tags:
 
 Проверьте уровень масла еще раз. Добавьте масло по мере необходимости, чтобы поднять уровень до отметки «H» (высокий) на измерителе уровня масла.
 
-> [!missing]- Иллюстрация `07a00029.png` не извлечена — смотрите PDF-оригинал документа
+![[07a00029.png]]
 
 
 > [!quote]- Original (English) · английский оригинал

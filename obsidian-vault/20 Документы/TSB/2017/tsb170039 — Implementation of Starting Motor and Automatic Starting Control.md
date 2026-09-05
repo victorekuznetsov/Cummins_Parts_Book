@@ -10,12 +10,15 @@ modified: "2017-04-12"
 group: "13 - Electrical Equipment"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
+parts:
+  - "3636821"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2017/tsb170039.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb170039.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb170039.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/NT/NTA855"
@@ -29,10 +32,10 @@ tags:
 
 > [!abstract] TSB · `tsb170039`
 > **Раздел Cummins:** 13 - Electrical Equipment
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Даты:** выпущен 2017-04-12 · изменён 2017-04-12
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2017/tsb170039.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb170039.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2017/tsb170039.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb170039.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,7 +55,7 @@ tags:
 
 **Затронутая продукция**
 
-Этот TSB *** применяется только к нижеприведенному двигателю, произведенному в Индии:
+Этот TSB применяется только к нижеприведенному двигателю, произведенному в Индии:
 
 - NTA-855-C (Программы строительства **только**)
 
@@ -60,7 +63,7 @@ tags:
 
 Симптом:
 
-- Двигатель не запускается **.
+- Двигатель не запускается.
 
 Первопричина:
 
@@ -77,7 +80,7 @@ tags:
 | Таблица 1, Части обслуживания |  |  |  |  |
 |---|---|---|---|---|
 | Часть описание | Существующий номер детали | Устаревший | Заменённый | Новый номер детали |
-| Мотор, начало | 5278095 | Нет | Да | 3636821 |
+| Мотор, начало | 5278095 | Нет | Да | [[3636821]] |
 | Контроль, начало | - | Нет | Нет | 2868589 |
 
 **Статус в производстве**
@@ -90,6 +93,11 @@ tags:
 
 ### История изменений документа
 
+## Детали, упомянутые в документе
+
+| Артикул | Наименование | Русское название |
+|---|---|---|
+| [[3636821]] | STARTING MOTOR | Стартер |
 
 > [!quote]- Original (English) · английский оригинал
 > ## Implementation of Starting Motor and Automatic Starting Control
@@ -127,7 +135,7 @@ tags:
 > | Table 1, Service Parts |  |  |  |  |
 > |---|---|---|---|---|
 > | Part Description | Existing Part Number | Obsoleted | Superseded | New Part Number |
-> | Motor, Starting | 5278095 | No | Yes | 3636821 |
+> | Motor, Starting | 5278095 | No | Yes | [[3636821]] |
 > | Control, Aut Starting | - | No | No | 2868589 |
 >
 > **Production Status**

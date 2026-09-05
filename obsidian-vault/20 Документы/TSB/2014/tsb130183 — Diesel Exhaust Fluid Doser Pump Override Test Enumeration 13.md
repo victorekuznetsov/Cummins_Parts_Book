@@ -10,16 +10,26 @@ modified: "2014-01-09"
 group: "22 - Service Tools"
 engines:
   - "41349633"
+  - "41353297"
+  - "82099327"
+  - "85017333"
+  - "93948840"
 families:
+  - "QSB6.7"
   - "QSK19"
+  - "QSK23"
+  - "QSZ13"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130183.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130183.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130183.pdf"
 tags:
   - "документ/tsb"
+  - "двигатель/QSB6.7"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
+  - "двигатель/QSZ13"
   - "год/2014"
   - "перевод/машинный"
   - "тема/service-tools"
@@ -30,10 +40,10 @@ tags:
 
 > [!abstract] TSB · `tsb130183`
 > **Раздел Cummins:** 22 - Service Tools
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[82099327 — QSB6.7 CM2150 B109 CPL 4375|82099327]], [[85017333 — QSK23 CM500 CPL 2858|85017333]], [[93948840 — QSZ13 CM2150 Z102 CPL 4858|93948840]]
+> **Семейство:** QSB6.7, QSK19, QSK23, QSZ13
 > **Даты:** выпущен 2014-01-09 · изменён 2014-01-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130183.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130183.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130183.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130183.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского

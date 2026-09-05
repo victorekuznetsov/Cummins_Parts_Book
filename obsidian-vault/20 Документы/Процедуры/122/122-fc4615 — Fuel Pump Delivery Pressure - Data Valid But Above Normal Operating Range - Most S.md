@@ -7,17 +7,16 @@ title_en: "Fuel Pump Delivery Pressure - Data Valid But Above Normal Operating R
 title_ru: "Давление подачи топливного насоса — данные достоверны, но выше нормы — наивысший уровень"
 modified: "2017-04-25"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc4615.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc4615.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc4615.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Давление подачи топливного насоса — данные достоверны, но выше нормы — наивысший уровень**
 
 > [!abstract] Процедура · `122-fc4615`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2017-04-25
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc4615.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc4615.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc4615.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc4615.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -98,9 +97,9 @@ QSK60 CM2150 Marine/QSK60 CM2150 Drill Rig - Схема датчика давл�
 
 ### Условия выполнения диагностики
 
-- Скорость двигателя ** должна быть выше 500 оборотов в минуту в течение 10 секунд, а заправка ** должна быть выше 20 мг / стк в течение 5 секунд, прежде чем начнет приниматься диагностическое решение.
+- Скорость двигателя **должна быть выше 500 оборотов в минуту в течение 10 секунд, а заправка **должна быть выше 20 мг / стк в течение 5 секунд, прежде чем начнет приниматься диагностическое решение.
 
-- Температура топлива ** должна быть больше или равна -10 0С
+- Температура топлива должна быть больше или равна -10 0С
 
 ### Условия установки кодов неисправностей
 

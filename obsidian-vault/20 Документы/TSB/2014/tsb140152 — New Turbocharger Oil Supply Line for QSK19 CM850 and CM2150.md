@@ -10,6 +10,7 @@ modified: "2014-11-06"
 group: "07 - Lubricating Oil Systems"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 parts:
@@ -18,7 +19,7 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140152.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb140152.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb140152.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
@@ -32,10 +33,10 @@ tags:
 
 > [!abstract] TSB · `tsb140152`
 > **Раздел Cummins:** 07 - Lubricating Oil Systems
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Даты:** выпущен 2014-11-06 · изменён 2014-11-06
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140152.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb140152.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140152.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb140152.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -59,11 +60,11 @@ tags:
 
 К новой линии подачи масла турбокомпрессора добавлен участок жесткой трубы. Это изменение улучшает ориентацию линии подачи масла турбокомпрессора между корпусом турбины турбокомпрессора и линией подачи охлаждающей жидкости турбокомпрессора.
 
-** Доступные сервисные части**
+**Доступные сервисные части**
 
 Да. См. таблицу 1.
 
-** Часть структуры**
+**Часть структуры**
 
 Новый номер детали не устарел и заменяет существующий номер детали. Новая часть обратно совместима с существующей. Существующая часть останется доступной.
 
@@ -89,7 +90,7 @@ tags:
 | Новый номер детали | ESN First | Дата постройки | растение |
 | 4333931 | 37262382 | 21 июля 2014 | Сеймурский моторный завод |
 
-Могут также быть затронуты следующие растения, однако информация о дате строительства ** не доступна.
+Могут также быть затронуты следующие растения, однако информация о дате строительства не доступна.
 
 - Компания Chongqing Cummins Engine
 - Cummins India LTD Plant (Индия)

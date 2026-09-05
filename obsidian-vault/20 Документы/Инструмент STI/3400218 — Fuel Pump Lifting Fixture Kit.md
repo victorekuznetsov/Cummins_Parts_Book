@@ -9,20 +9,29 @@ released: "2014-05-20"
 modified: "2014-07-24"
 revision: "02"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 parts:
+  - "3009330"
+  - "3013222"
+  - "3036230"
   - "3900623"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400218.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400218.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400218.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "перевод/машинный"
 ---
 
@@ -30,10 +39,10 @@ tags:
 **Комплект подъёмного приспособления топливного насоса**
 
 > [!abstract] Инструкция по инструменту · `3400218`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2014-05-20 · изменён 2014-07-24 · ревизия 02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400218.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400218.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400218.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400218.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -55,12 +64,12 @@ tags:
 
 Дополнительную информацию о двигателях QSK38 и QSK50 можно найти в руководстве по обслуживанию K38, K50, QSK38 и QSK50, в бюллетене [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]].[[28-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
 
-Дополнительную информацию о двигателе QSK60 можно найти в руководстве по обслуживанию QSK45 и QSK60, Bulletin 4021530. См. процедуру 005-016 в разделе 5.
+Дополнительную информацию о двигателе QSK60 можно найти в руководстве по обслуживанию QSK45 и QSK60, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]].[[56-005-016-tr — Fuel Pump|См. процедуру 005-016 в разделе 5.]]
 
 Адаптер лебедки, номер детали 4918662, предлагается в качестве альтернативы ручке лебедки в случаях, когда существует помеха вращения. Если необходимо использовать адаптер привода лебедки, удалите удерживающий гайку, пружину из вала ручки лебедки и ручку лебедки. Закрепите адаптер в положении, затем установите пружину и удерживающий гайку.
 
 > [!note] Примечание
-> Пружина и подпорный орех необходимы для правильной работы лебедки и могут ** не** быть изменены или навсегда удалены.
+> Пружина и подпорный гайка необходимы для правильной работы лебедки и могут **не** быть изменены или навсегда удалены.
 
 ![[22600344.png]]
 
@@ -75,22 +84,25 @@ tags:
 | 5 | 4918600 | Горячая пластина | 1 | Нет |
 | 6 | 4918602 | Winch (кабель включен) | 1 | Нет |
 | 7 | 3644471 | Шестиугольные фланцевые головные болты (M10 - 1,5 x 210, Класс 9.8) | 4 | Нет |
-| ** Не показана** | 3036230 | Шестиугольные фланцевые головные болты (M10 - 1,5 x 20, Класс 9.8) | 2 | Нет |
-| ** Не показана** | 3009503 | Орех шестиугольника | 3 | Нет |
-| ** Не показана** | 3009330 | Плоская шайба | 3 | Нет |
-| ** Не показана** | [[3900623]] | Головные болты шестиугольника (M10 - 1,5 x 25, Класс 9.8) | 3 | Нет |
-| ** Не показана** | 4918666 | Шестиугольные фланцевые головные болты (3/8 x 16 x 8-1/2, 8 класс) | 4 | Нет |
-| ** Не показана** | 69102 | Шестиугольные фланцевые головные болты (3/8 x 16 x 6-3/4, 5 класс) | 4 | Нет |
-| ** Не показана** | 3013222 | Головные болты шестиугольника (QSK50) | 4 | Да |
-| ** Не показана** | 5299011 | Проставка | 2 | Да |
-| ** Не показана** | 5299012 | Проставка | 2 | Да |
-| ** Не показана** | 5299013 | Головные болты шестиугольника (QSK60) | 4 | Да |
+| **Не показана** | [[3036230]] | Шестиугольные фланцевые головные болты (M10 - 1,5 x 20, Класс 9.8) | 2 | Нет |
+| **Не показана** | 3009503 | Гайка шестиугольника | 3 | Нет |
+| **Не показана** | [[3009330]] | Плоская шайба | 3 | Нет |
+| **Не показана** | [[3900623]] | Головные болты шестиугольника (M10 - 1,5 x 25, Класс 9.8) | 3 | Нет |
+| **Не показана** | 4918666 | Шестиугольные фланцевые головные болты (3/8 x 16 x 8-1/2, 8 класс) | 4 | Нет |
+| **Не показана** | 69102 | Шестиугольные фланцевые головные болты (3/8 x 16 x 6-3/4, 5 класс) | 4 | Нет |
+| **Не показана** | [[3013222]] | Головные болты шестиугольника (QSK50) | 4 | Да |
+| **Не показана** | 5299011 | Проставка | 2 | Да |
+| **Не показана** | 5299012 | Проставка | 2 | Да |
+| **Не показана** | 5299013 | Головные болты шестиугольника (QSK60) | 4 | Да |
 | 8 | 4918662 | Адаптер Winch drive | 1 | Нет |
 
 ## Детали, упомянутые в документе
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
+| [[3009330]] | PLAIN WASHER | Плоская шайба |
+| [[3013222]] | HEXAGON HEAD CAP SCREW | Болт с шестигранной головкой |
+| [[3036230]] | HEXAGON HEAD CAP SCREW | Болт с шестигранной головкой |
 | [[3900623]] | HEXAGON HEAD CAP SCREW | Болт с шестигранной головкой |
 
 > [!quote]- Original (English) · английский оригинал
@@ -106,7 +118,7 @@ tags:
 >
 > Additional information for the QSK38 and QSK50 engines can be found in the K38, K50, QSK38, and QSK50 Service Manual, Bulletin [[4021528 — K38, K50, QSK38, and QSK50 Service Manual\|4021528]]. [[28-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
 >
-> Additional information for the QSK60 engine can be found in the QSK45 and QSK60 Service Manual, Bulletin 4021530. Refer to Procedure 005-016 in Section 5.
+> Additional information for the QSK60 engine can be found in the QSK45 and QSK60 Service Manual, Bulletin [[4021530 — QSK45 and QSK60 Service Manual\|4021530]]. [[56-005-016-tr — Fuel Pump|Refer to Procedure 005-016 in Section 5.]]
 >
 > The winch drive adapter, Part Number 4918662, is offered as an alternative to the winch handle in cases where a rotational obstruction exists. If the winch drive adapter is to be used, remove the retaining nut, the spring from the winch handle shaft, and the winch handle. Thread the adapter into position, then install the spring and retaining nut.
 >
@@ -124,13 +136,13 @@ tags:
 > | 5 | 4918600 | Mounting plate | 1 | No |
 > | 6 | 4918602 | Winch (cable included) | 1 | No |
 > | 7 | 3644471 | Hexagon flange head capscrew (M10 - 1.5 x 210, Class 9.8) | 4 | No |
-> | **Not** shown | 3036230 | Hexagon flange head capscrew (M10 - 1.5 x 20, Class 9.8) | 2 | No |
+> | **Not** shown | [[3036230]] | Hexagon flange head capscrew (M10 - 1.5 x 20, Class 9.8) | 2 | No |
 > | **Not** shown | 3009503 | Hexagon Nut | 3 | No |
-> | **Not** shown | 3009330 | Plain washer | 3 | No |
+> | **Not** shown | [[3009330]] | Plain washer | 3 | No |
 > | **Not** shown | [[3900623]] | Hexagon head capscrew (M10 - 1.5 x 25, Class 9.8) | 3 | No |
 > | **Not** shown | 4918666 | Hexagon flange head capscrew (3/8 x 16 x 8-1/2, Grade 8) | 4 | No |
 > | **Not** shown | 69102 | Hexagon flange head capscrew (3/8 x 16 x 6-3/4, Grade 5) | 4 | No |
-> | **Not** shown | 3013222 | Hexagon head capscrew (QSK50) | 4 | Yes |
+> | **Not** shown | [[3013222]] | Hexagon head capscrew (QSK50) | 4 | Yes |
 > | **Not** shown | 5299011 | Spacer | 2 | Yes |
 > | **Not** shown | 5299012 | Spacer | 2 | Yes |
 > | **Not** shown | 5299013 | Hexagon head capscrew (QSK60) | 4 | Yes |

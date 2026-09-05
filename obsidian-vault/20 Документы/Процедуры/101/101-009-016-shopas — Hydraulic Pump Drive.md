@@ -1,0 +1,192 @@
+---
+aliases:
+  - "Привод гидронасоса"
+type: "Процедура"
+doc: "101-009-016-shopas"
+title_en: "Hydraulic Pump Drive"
+title_ru: "Привод гидронасоса"
+modified: "2019-04-05"
+engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
+families:
+  - "QSM11"
+manuals:
+  - "3666322"
+figures: 8
+lang: "ru+en"
+translation: "машинный черновик"
+source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-009-016-shopas.html"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-009-016-shopas.pdf"
+tags:
+  - "документ/процедура"
+  - "двигатель/QSM11"
+  - "группа/101"
+  - "перевод/машинный"
+---
+
+# Hydraulic Pump Drive
+**Привод гидронасоса**
+
+> [!abstract] Процедура · `101-009-016-shopas`
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]]
+> **Семейство:** QSM11
+> **Входит в руководства:** [[3666322 — ISM, ISMe, and QSM11 Service Manual|3666322]]
+> **Секции:** Section AS - Engine Assembly - Group 00
+> **Даты:** изменён 2019-04-05
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/101/101-009-016-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/101-009-016-shopas.pdf)
+
+> [!info]- Перевод на русский — машинный черновик
+> Русский текст получен автоматическим переводом с английского
+> с подстановкой отраслевой терминологии Cummins; он не
+> проходил редакторскую вычитку.
+> **Юридически значим только английский оригинал** — он
+> приведён в свёрнутом блоке в конце заметки и в PDF.
+
+
+### Установка
+
+Используйте чистое масло 15W-40 для смазки наружного диаметра подшипников иглы.
+
+Используйте чистое масло 15W-40 для смазки подшипников иглы в корпусе зубчатой коробки и гидравлическом адаптере привода насоса.
+
+![[hd2brwa.png]]
+
+Используйте инструмент установки подшипников, Номер детали 3823776, включенный в инструмент установки/удаления подшипников каскада, Номер детали 3823774, для установки подшипников к игле в кожухе передач.
+
+Нажмите на подшипник мягко, пока он не вступит в контакт с плечом в корпусе.
+
+Подшипник **должен** находиться на расстоянии от 0,25 до 0,76 мм \[0,010 до 0,030 дюйма] от наружного края поверхности цилиндра корпуса зубчатой коробки.
+
+![[hd2beha.png]]
+
+Установите подшипник иглы в гидравлический адаптер привода насоса с внутреннего конца (конца, который будет ближе всего к гидравлическому приводу).
+
+Подшипник должен быть центрирован между передней и задней поверхностями.
+
+![[hd2behb.png]]
+
+Используйте LubriplateTM 105 или эквивалент для смазки подшипника иглы в корпусе зубчатой передачи и снаружи гидравлического вала привода.
+
+Установите вал и сборку передач, чтобы внутренние линии вала были обращены от корпуса передач и к задней части двигателя.
+
+![[hd2geha.png]]
+
+Установите новое кольцо на гидравлический адаптер привода. Смазать кольцо чистым маслом 15W-40.
+
+Смазать гидравлический привод адаптера подшипником и цилиндром. Используйте LubriplateTM 105 или эквивалент.
+
+![[hd2adwa.png]]
+
+Установите гидравлический адаптер привода над валом и шестерней.
+
+Запустите три крепежных болта вручную, чтобы выровнять гидравлический адаптер привода с корпусом зубчатой передачи.
+
+Используя резиновый молоток, нажмите на внешний диаметр адаптера, чтобы установить адаптер.
+
+> [!note] Примечание
+> Используйте осторожно **не**, чтобы повредить кольцо во время установки.
+
+Затягивайте крепежные болты.
+
+> [!tip] Момент затяжки
+> 47 Н·м [35 фунт-фут]
+
+![[hd2adha.png]]
+
+Измерить зазор вала.
+
+Используйте набор индикаторов циферблата, номер 3376050, с расширением, номер ST-537-4 и держатель индикатора магнитной базы, номер 3377399.
+
+| Гидравлический насос Driveshaft End Clearance |  |  |
+|---|---|---|
+| мм |  | в |
+| 0.076 | Мин | 0.003 |
+| 0.635 | Макс | 0.025 |
+
+![[hd2geda.png]]
+
+Используйте новую прокладку. Установите гидравлический насос, если он оборудован, или крышку.
+
+Установите два крепежных болта. Ужесточение.
+
+> [!tip] Момент затяжки
+> 8.8/9.8 болтов М10 36 Н·м [27 футов-лб]
+
+> [!tip] Момент затяжки
+> Класс 10.9 M10 болты 51 Н·м [38 футов-lb]
+
+> [!tip] Момент затяжки
+> Класс 8.8/9.8 M12 болты 62 Н·м [46 футов-lb]
+
+> [!tip] Момент затяжки
+> Класс 10.9 M12 болты 88 Н·м [65 футов-lb]
+
+![[hd2bdma.png]]
+
+
+> [!quote]- Original (English) · английский оригинал
+> ### Install
+>
+> Use clean 15W-40 oil to lubricate the outside diameter of the needle bearings.
+>
+> Use clean 15W-40 oil to lubricate the needle bearing bores in the gear housing and hydraulic pump drive adapter.
+>
+> Use bearing installation tool, Part Number 3823776, included in gear housing bearing install/remove tool, Part Number 3823774, to install the needle bearings in the gear housing.
+>
+> Tap the bearing gently until it comes in contact with the shoulder in the housing.
+>
+> The bearing **must** be 0.25 to 0.76 mm \[0.010 to 0.030 in\] past the outside edge of the gear housing bore surface.
+>
+> Install the needle bearing in the hydraulic pump drive adapter from the inside end (the end that will be closest to the hydraulic drive gear).
+>
+> The bearing **must** be centered between the front and rear surfaces.
+>
+> Use Lubriplate™ 105, or equivalent, to lubricate the needle bearing in the gear housing and the outside of the hydraulic driveshaft.
+>
+> Install the shaft and gear assembly so the internal splines of the shaft are facing away from the gear housing and toward the rear of the engine.
+>
+> Install a new o-ring on the hydraulic drive adapter. Lubricate the o-ring with clean 15W-40 oil.
+>
+> Lubricate the hydraulic drive adapter needle bearing and bore. Use Lubriplate™ 105, or equivalent.
+>
+> Install the hydraulic drive adapter over the shaft and gear assembly.
+>
+> Start the three mounting capscrews by hand to align the hydraulic drive adapter with the gear housing.
+>
+> Using a rubber hammer, tap around the outside diameter of the adapter to install the adapter.
+>
+> **Note · Примечание**
+> Use care **not** to damage the o-ring during installation.
+>
+> Tighten the mounting capscrews.
+>
+> **Момент затяжки · Torque Value**
+> 47 n•m [35 ft-lb]
+>
+> Measure driveshaft end clearance.
+>
+> Use dial indicator assembly, Part Number 3376050, with extension, Part Number ST-537-4, and magnetic base indicator holder, Part Number 3377399.
+>
+> | Hydraulic Pump Driveshaft End Clearance |  |  |
+> |---|---|---|
+> | mm |  | in |
+> | 0.076 | MIN | 0.003 |
+> | 0.635 | MAX | 0.025 |
+>
+> Use a new gasket. Install the hydraulic pump, if equipped, or the cover plate.
+>
+> Install the two mounting capscrews. Tighten.
+>
+> **Момент затяжки · Torque Value**
+> Grade 8.8/9.8 M10 capscrew 36 n•m [27 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Grade 10.9 M10 capscrew 51 n•m [38 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Grade 8.8/9.8 M12 capscrew 62 n•m [46 ft-lb]
+>
+> **Момент затяжки · Torque Value**
+> Grade 10.9 M12 capscrew 88 n•m [65 ft-lb]

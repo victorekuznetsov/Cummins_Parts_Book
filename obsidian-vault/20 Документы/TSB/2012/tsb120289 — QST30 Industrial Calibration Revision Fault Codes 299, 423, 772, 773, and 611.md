@@ -16,7 +16,7 @@ families:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120289.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120289.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120289.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2012-12-21 · изменён 2012-12-21
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120289.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120289.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120289.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120289.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -53,7 +53,7 @@ tags:
 
 В этом документе сообщается об обновлении фазы калибровочного программного обеспечения до 5.1.0.5 для двигателей QST30 Industrial. Изменение калибровки было сделано для изменения логики кодов 423, 772 и 773. В калибровку также добавлены коды ошибок 299 и 611.
 
-Коды 772 и 773 по умолчанию предназначены для датчика подъема иглы для левого и правого боковых считываний ** не **, который обнаруживается или находится вне зоны действия.
+Коды 772 и 773 по умолчанию предназначены для датчика подъема иглы для левого и правого боковых считываний **не**, который обнаруживается или находится вне зоны действия.
 
 Коды 772 и 773 больше не будут отображать лампу, но будут записаны в модуле управления двигателем (ECM). Стратегия лампы пересмотренных калибровок соответствует инженерным стандартам Cummins.
 

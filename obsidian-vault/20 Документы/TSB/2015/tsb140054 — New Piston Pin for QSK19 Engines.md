@@ -10,6 +10,7 @@ modified: "2015-02-19"
 group: "01 - Cylinder Block"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 parts:
@@ -22,7 +23,7 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140054.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb140054.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb140054.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QSK19"
@@ -36,10 +37,10 @@ tags:
 
 > [!abstract] TSB · `tsb140054`
 > **Раздел Cummins:** 01 - Cylinder Block
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Даты:** выпущен 2015-02-19 · изменён 2015-02-19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140054.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb140054.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2014/tsb140054.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb140054.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -81,7 +82,7 @@ tags:
 
 Новый стиль поршневой штифт или соответствующий поршневой комплект рекомендуется, если требуется замена.
 
-Существующий стиль поршневого штифта и новый стиль поршневого штифта ** не должны быть смешаны в одном двигателе.
+Существующий стиль поршневого штифта и новый стиль поршневого штифта не должны быть смешаны в одном двигателе.
 
 **Наличие сервисных деталей**
 
@@ -89,12 +90,12 @@ tags:
 
 | Таблица 1, QSK19 Piston Pin |  |  |
 |---|---|---|
-| **Описание** | ** Существующий номер детали** | **Новый номер** |
+| **Описание** | **Существующий номер детали** | **Новый номер** |
 | Поршневой палец | [[4916767]] | [[4910289]] |
 
 | Таблица 2, QSK19 Piston Kits |  |  |
 |---|---|---|
-| **Описание** | ** Существующий номер комплекта ** | **Новый номер комплекта ** |
+| **Описание** | **Существующий номер комплекта**| **Новый номер комплекта**|
 | Кит, Пистон. | [[4090029]] | [[4352366]] |
 | Кит, Пистон. | 4352138 | 4352367 |
 | Кит, двигатель Пистон | 4955233 | 4352368 |

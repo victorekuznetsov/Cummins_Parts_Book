@@ -8,6 +8,7 @@ title_ru: "Порядок обычного пуска"
 modified: "2009-06-17"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -17,7 +18,7 @@ figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-014-om-mar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-101-014-om-mar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-101-014-om-mar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -29,12 +30,12 @@ tags:
 **Порядок обычного пуска**
 
 > [!abstract] Процедура · `100-101-014-om-mar`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3381968 — C8.3 Recreational Marine Operation and Maintenance Manual|3381968]], [[4915514 — C8.3 Recreational Marine Owners Manual|4915514]]
 > **Секции:** Section 1 - Operating Instructions
 > **Даты:** изменён 2009-06-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-014-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-101-014-om-mar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-101-014-om-mar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-101-014-om-mar.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -50,7 +51,7 @@ tags:
 > Чтобы уменьшить вероятность повреждения пускового двигателя, не задействуйте пусковой двигатель более 30 секунд. Подождите 2 минуты между каждой попыткой запуска (только электрические пусковые двигатели).
 
 > [!note] Примечание
-> Существует отдельный переключатель зажигания, подключенный к основной панели. Он будет установлен в руле судна в желаемом месте производителя или установщика. Переключатель зажигания ** должен** находиться в положении Включения или Бегства для запуска двигателя.
+> Существует отдельный переключатель зажигания, подключенный к основной панели. Он будет установлен в руле судна в желаемом месте производителя или установщика. Переключатель зажигания **должен** находиться в положении Включения или Бегства для запуска двигателя.
 
 Отключите приводной блок.
 

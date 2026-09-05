@@ -16,7 +16,7 @@ families:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130148.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130148.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130148.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -33,7 +33,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2013-10-16 · изменён 2013-10-15
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130148.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb130148.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2013/tsb130148.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb130148.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +56,7 @@ tags:
 В результате будет получено семнадцать новых кодов неисправностей, которые заменят существующие, используемые модулем CENSETM CM530. Старый номер находится в поле описания Cummins® таблицы ниже.
 
 > [!note] Примечание
-> Для CENSETM информация о лампе, отображаемая в электронном сервисном оборудовании INSITETM, зависит от производителя оригинального оборудования (OEM) и может ** не** отражать фактическую конфигурацию лампы данного приложения.
+> Для CENSETM информация о лампе, отображаемая в электронном сервисном оборудовании INSITETM, зависит от производителя оригинального оборудования (OEM) и может **не** отражать фактическую конфигурацию лампы данного приложения.
 
 | CENSETM CM2330 - Обновление информации о коде ошибки |  |  |  |
 |---|---|---|---|

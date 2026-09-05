@@ -9,18 +9,24 @@ released: "2022-06-27"
 modified: "2022-06-27"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210137.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210137.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210137.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2022"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -31,10 +37,10 @@ tags:
 
 > [!abstract] TSB · `tsb210137`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2022-06-27 · изменён 2022-06-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210137.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210137.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210137.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210137.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -78,9 +84,9 @@ tags:
 **Указания по обслуживанию**
 
 - Инструменты для электронного обслуживания Cummins INSITETM также могут использоваться для настройки типа выбора датчиков EGT среди термопар, терморезисторов или без них (для двигателей без датчиков EGT).
-- *** Только в электронной версии 8.7.1 для инструментов обслуживания INSITETM и более поздней версии эта функция может быть использована. Подтвердите, что инструмент является версией 8.7.1 и более поздней.
+- Только в электронной версии 8.7.1 для инструментов обслуживания INSITETM и более поздней версии эта функция может быть использована. Подтвердите, что инструмент является версией 8.7.1 и более поздней.
 
-** Изменение выбора типа датчика EGT с помощью инструментария INSITE Electronic Service:**
+**Изменение выбора типа датчика EGT с помощью инструментария INSITE Electronic Service:**
 
 1. Перейдите на «Особенности и параметры» =\> CM2150E\[1\]\[Второй 1\] =\> «Выбор типа датчика EGT» и выберите тип датчика EGT, который установлен на двигателе. См. рисунки 1 и 2 ниже.
 
@@ -125,7 +131,7 @@ tags:
 
 Рисунок 7, ECM Write Succeeded.
 
-** Мониторинг типа датчика ЭГТ:**
+**Мониторинг типа датчика ЭГТ:**
 
 Этот экран используется для мониторинга типа датчика EGT, используемого ECM для обработки ввода EGT.
 

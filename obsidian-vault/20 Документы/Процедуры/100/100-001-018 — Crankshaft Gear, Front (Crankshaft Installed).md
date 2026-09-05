@@ -8,6 +8,7 @@ title_ru: "Передняя шестерня коленвала (вал уста
 modified: "2004-12-07"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-001-018.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-001-018.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-001-018.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Передняя шестерня коленвала (вал установлен)**
 
 > [!abstract] Процедура · `100-001-018`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 1 - Cylinder Block - Group 01
 > **Даты:** изменён 2004-12-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-001-018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-001-018.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-001-018.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-001-018.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -45,7 +46,7 @@ tags:
 
 ### Общие сведения
 
-Передняя передача коленчатого вала имеет помехи, подходящие к коленчатому валу. Если шестеренка повреждена, коленчатый вал также будет поврежден. Если необходимо заменить переднюю коленчатую передачу, коленчатый вал *** должен быть заменен. См. процедуру 001-016 в Руководстве по устранению неполадок и ремонту, C8.3G, C Gas Plus и L Gas Plus Engines, Bulletin 3666206 или Процедура[[41-001-016 — Crankshaft|001-016]]Руководство по устранению неполадок и ремонту, двигатели серии C, бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
+Передняя передача коленчатого вала имеет помехи, подходящие к коленчатому валу. Если шестеренка повреждена, коленчатый вал также будет поврежден. Если необходимо заменить переднюю коленчатую передачу, коленчатый вал должен быть заменен. См. процедуру 001-016 в Руководстве по устранению неполадок и ремонту, C8.3G, C Gas Plus и L Gas Plus Engines, Bulletin 3666206 или Процедура[[41-001-016 — Crankshaft|001-016]]Руководство по устранению неполадок и ремонту, двигатели серии C, бюллетень [[3666003 — C Troubleshooting and Repair Manual\|3666003]].
 
 ![[nobox.png]]
 

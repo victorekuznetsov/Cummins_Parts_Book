@@ -9,20 +9,27 @@ released: "2012-12-11"
 modified: "2012-12-11"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
   - "41349633"
+  - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120296.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120296.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120296.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2012"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -33,10 +40,10 @@ tags:
 
 > [!abstract] TSB · `tsb120296`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2012-12-11 · изменён 2012-12-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120296.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb120296.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2012/tsb120296.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb120296.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -50,7 +57,7 @@ tags:
 
 ### Суть проблемы
 
-После замены двигателя или модернизации с CM850 до CM2150 двигатель может работать нормально в режиме холостого хода, но не реагировать на сообщение TSC1 шины данных CAN. Это связано с тем, что исходное сообщение производителя оборудования (OEM) дроссельной заслонки ** не** соответствует стандарту Общества автомобильных инженеров (SAE) J1939-71.
+После замены двигателя или модернизации с CM850 до CM2150 двигатель может работать нормально в режиме холостого хода, но не реагировать на сообщение TSC1 шины данных CAN. Это связано с тем, что исходное сообщение производителя оборудования (OEM) дроссельной заслонки **не** соответствует стандарту Общества автомобильных инженеров (SAE) J1939-71.
 
 ### Подтверждение
 
@@ -59,7 +66,7 @@ tags:
 | Формат сообщения TSC1 Примеры |  |
 |---|---|
 | Пример правильного формата сообщения TSC1 | Неправильный пример формата сообщения TSC1 |
-| xx0000xx AA BB BB CC 00 00 **DD EE** | xx0000xx AA BB BB CC 00 00 * * 0000 * * |
+| xx0000xx AA BB BB CC 00 00 **DD EE** | xx0000xx AA BB BB CC 00 00 0000 |
 
 AA = режим управления (т.е. Скоростной лимит / Speed Limit
 
@@ -67,9 +74,9 @@ BB = Командовое значение скорости / ограничен
 
 CC = момент затяжки/ограничение
 
-DD = счетчик сообщений (** Должен быть 0xF, если не используется**)
+DD = счетчик сообщений (**Должен быть 0xF, если не используется**)
 
-EE = контрольная сумма (** Должна быть 0xF, если не используется**)
+EE = контрольная сумма (**Должна быть 0xF, если не используется**)
 
 ### Решение
 

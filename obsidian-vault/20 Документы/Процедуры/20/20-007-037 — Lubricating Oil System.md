@@ -8,6 +8,7 @@ title_ru: "Система смазки"
 modified: "2009-04-08"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-037.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-037.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-037.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Система смазки**
 
 > [!abstract] Процедура · `20-007-037`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section 7 - Lubricating Oil System - Group 07
 > **Даты:** изменён 2009-04-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-037.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-037.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-037.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-037.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -66,7 +67,7 @@ tags:
 > 100 Н·м [75 фунт-фут]
 
 > [!note] Примечание
-> Некоторые двигатели имеют масляную панель адаптера, которая имеет сливную пробку. Если пластина имеет сливную пробку, удалите пробку, чтобы слить масло с крышки пластины. Если на крышке плиты ** не ** имеется сливная пробка, то *** не требуется дренажной крышки.
+> Некоторые двигатели имеют масляную панель адаптера, которая имеет сливную пробку. Если пластина имеет сливную пробку, удалите пробку, чтобы слить масло с крышки пластины. Если на крышке плиты **не **имеется сливная пробка, то не требуется дренажной крышки.
 
 ![[07400011.png]]
 
@@ -87,7 +88,7 @@ tags:
 
 Добавить указанное количество чистого моторного масла 15W-40 для заполнения моторного масла.[[20-018-017 — Lubricating Oil System|См. процедуру 018-017 в разделе V.]]
 
-Проверьте уровень масла на измерителе уровня масла. Уровень ** должен быть до отметки «ВЫСОКО» или «Н».
+Проверьте уровень масла на измерителе уровня масла. Уровень должен быть до отметки «ВЫСОКО» или «Н».
 
 ![[oi200vg.png]]
 

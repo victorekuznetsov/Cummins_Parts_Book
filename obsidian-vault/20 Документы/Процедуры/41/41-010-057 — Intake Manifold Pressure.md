@@ -8,6 +8,7 @@ title_ru: "Давление во впускном коллекторе"
 modified: "2007-09-04"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-010-057.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-010-057.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-010-057.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Давление во впускном коллекторе**
 
 > [!abstract] Процедура · `41-010-057`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 10 - Air Intake System - Group 10
 > **Даты:** изменён 2007-09-04
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-010-057.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-010-057.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-010-057.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-010-057.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,10 +50,10 @@ tags:
 
 [[41-018-019-tr — Air Intake System|См. спецификации в Процедуре 018-019 (Система впуска воздуха) в разделе V.]]
 
-Если технические характеристики двигателя ** не указаны**, см. таблицу данных двигателя.
+Если технические характеристики двигателя **не указаны**, см. таблицу данных двигателя.
 
 > [!note] Примечание
-> Если двигатель имеет охлаждение под напряжением воздуха, то охладитель под напряжением воздуха ** должен быть испытан на наличие утечек и ограничение давления на турбокомпрессор.[[100-010-027-tr — Charge-Air Cooler|См. процедуру 010-027 (Charge-Air Cooler) в разделе 10 для испытаний на охладитель воздуха с зарядом.]]
+> Если двигатель имеет охлаждение под напряжением воздуха, то охладитель под напряжением воздуха должен быть испытан на наличие утечек и ограничение давления на турбокомпрессор.[[100-010-027-tr — Charge-Air Cooler|См. процедуру 010-027 (Charge-Air Cooler) в разделе 10 для испытаний на охладитель воздуха с зарядом.]]
 
 ![[10900461.png]]
 

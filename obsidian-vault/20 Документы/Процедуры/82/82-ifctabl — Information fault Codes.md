@@ -8,6 +8,7 @@ title_ru: "Информационные коды неисправностей"
 modified: "2002-06-28"
 engines:
   - "41343322"
+  - "41370103"
 families:
   - "NT/NTA855 · ISM/QSM11"
 manuals:
@@ -15,7 +16,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-ifctabl.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-ifctabl.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-ifctabl.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/NT/NTA855"
@@ -27,12 +28,12 @@ tags:
 **Информационные коды неисправностей**
 
 > [!abstract] Процедура · `82-ifctabl`
-> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]]
+> **Двигатели:** [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]]
 > **Семейство:** NT/NTA855 · ISM/QSM11
 > **Входит в руководства:** [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2002-06-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-ifctabl.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/82-ifctabl.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/82/82-ifctabl.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/82-ifctabl.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -63,7 +64,7 @@ tags:
 
 Действие:
 
-См. процедуру устранения неполадок при симптомах низкого давления в руководстве по устранению неполадок и ремонту серии ISM/QSM11, Бюллетень No. 3666322-00.
+См. процедуру устранения неполадок при симптомах низкого давления в руководстве по устранению неполадок и ремонту серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 
 КОД:
 
@@ -83,7 +84,7 @@ tags:
 
 Действие:
 
-См. процедуру устранения неполадок при высоких температурах охлаждения в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
+См. процедуру устранения неполадок при высоких температурах охлаждения в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 
 КОД:
 
@@ -103,7 +104,7 @@ tags:
 
 Действие:
 
-См. процедуру устранения неполадок при высоком уровне потребления в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
+См. процедуру устранения неполадок при высоком уровне потребления в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 
 КОД:
 
@@ -143,7 +144,7 @@ tags:
 
 Действие:
 
-См. процедуру устранения неполадок при высоких температурах масла в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
+См. процедуру устранения неполадок при высоких температурах масла в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 
 КОД:
 
@@ -261,7 +262,7 @@ tags:
 
 Действие:
 
-См. процедуру устранения неполадок при симптомах низкого давления в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
+См. процедуру устранения неполадок при симптомах низкого давления в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 
 КОД:
 
@@ -281,7 +282,7 @@ tags:
 
 Действие:
 
-Сливать воду из топливного фильтра. См. процедуру устранения неполадок в симптомах воды в топливе в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00, если неисправность повторяется часто.
+Сливать воду из топливного фильтра. См. процедуру устранения неполадок в симптомах воды в топливе в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00, если неисправность повторяется часто.
 
 КОД:
 
@@ -359,7 +360,7 @@ tags:
 
 Действие:
 
-См. процедуру устранения неполадок с симптомами высокой скорости турбокомпрессора в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
+См. процедуру устранения неполадок с симптомами высокой скорости турбокомпрессора в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 
 КОД:
 
@@ -399,7 +400,7 @@ tags:
 
 Действие:
 
-Проверьте систему воздушного транспорта на наличие утечек. См. раздел 012-019 в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
+Проверьте систему воздушного транспорта на наличие утечек. См. раздел 012-019 в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 
 КОД:
 
@@ -419,7 +420,7 @@ tags:
 
 Действие:
 
-Проверьте систему воздушного транспорта на наличие утечек. См. раздел 012-019 в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
+Проверьте систему воздушного транспорта на наличие утечек. См. раздел 012-019 в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 
 КОД:
 
@@ -439,7 +440,7 @@ tags:
 
 Действие:
 
-Проверьте качество топлива. Проверьте, не попадает ли воздух в топливо. Нормально иметь неактивный код 951 по умолчанию после процедуры подачи воздуха в топливную систему, например, изменения фильтра. Выполните испытание производительности цилиндра, чтобы определить, является ли конкретный цилиндр или цилиндры с высокой или низкой мощностью. См. процедуру 014-008 Испытание на эффективность цилиндров в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. 3666322-00.
+Проверьте качество топлива. Проверьте, не попадает ли воздух в топливо. Нормально иметь неактивный код 951 по умолчанию после процедуры подачи воздуха в топливную систему, например, изменения фильтра. Выполните испытание производительности цилиндра, чтобы определить, является ли конкретный цилиндр или цилиндры с высокой или низкой мощностью. См. процедуру 014-008 Испытание на эффективность цилиндров в руководстве по устранению неполадок и ремонту двигателей серии ISM/QSM11, Бюллетень No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 
 
 > [!quote]- Original (English) · английский оригинал
@@ -464,7 +465,7 @@ tags:
 >
 > ACTION:
 >
-> Refer to the Low Oil Pressure symptom troubleshooting procedure in the ISM/QSM11 Series Engines, Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+> Refer to the Low Oil Pressure symptom troubleshooting procedure in the ISM/QSM11 Series Engines, Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 >
 > CODE:
 >
@@ -484,7 +485,7 @@ tags:
 >
 > ACTION:
 >
-> Refer to the High Coolant Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+> Refer to the High Coolant Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 >
 > CODE:
 >
@@ -504,7 +505,7 @@ tags:
 >
 > ACTION:
 >
-> Refer to the High Intake Manifold Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+> Refer to the High Intake Manifold Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 >
 > CODE:
 >
@@ -544,7 +545,7 @@ tags:
 >
 > ACTION:
 >
-> Refer to the High Oil Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+> Refer to the High Oil Temperature symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 >
 > CODE:
 >
@@ -662,7 +663,7 @@ tags:
 >
 > ACTION:
 >
-> Refer to the Low Oil Pressure symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+> Refer to the Low Oil Pressure symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 >
 > CODE:
 >
@@ -682,7 +683,7 @@ tags:
 >
 > ACTION:
 >
-> Drain water from fuel filter. Refer to the Water in Fuel symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00, if fault reoccurs frequently.
+> Drain water from fuel filter. Refer to the Water in Fuel symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00, if fault reoccurs frequently.
 >
 > CODE:
 >
@@ -760,7 +761,7 @@ tags:
 >
 > ACTION:
 >
-> Refer to the High Turbocharger Speed symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+> Refer to the High Turbocharger Speed symptom troubleshooting procedure in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 >
 > CODE:
 >
@@ -800,7 +801,7 @@ tags:
 >
 > ACTION:
 >
-> Check the vehicle air system for leaks. Refer to Section 012-019 in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+> Check the vehicle air system for leaks. Refer to Section 012-019 in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 >
 > CODE:
 >
@@ -820,7 +821,7 @@ tags:
 >
 > ACTION:
 >
-> Check the vehicle air system for leaks. Refer to Section 012-019 in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+> Check the vehicle air system for leaks. Refer to Section 012-019 in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.
 >
 > CODE:
 >
@@ -840,4 +841,4 @@ tags:
 >
 > ACTION:
 >
-> Check fuel quality. Check for air being ingested by the fuel. It is normal to have an inactive Fault Code 951 after a service procedure introduced air into the fuel system, such as a filter change. Perform Cylinder Performance Test to determine if a particular cylinder or cylinders are high or low on power. Refer to Procedure 014-008 Cylinder Performance Test in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. 3666322-00.
+> Check fuel quality. Check for air being ingested by the fuel. It is normal to have an inactive Fault Code 951 after a service procedure introduced air into the fuel system, such as a filter change. Perform Cylinder Performance Test to determine if a particular cylinder or cylinders are high or low on power. Refer to Procedure 014-008 Cylinder Performance Test in the ISM/QSM11 Series Engines Troubleshooting and Repair Manual, Bulletin No. [[3666322 — ISM, ISMe, and QSM11 Service Manual\|3666322]]-00.

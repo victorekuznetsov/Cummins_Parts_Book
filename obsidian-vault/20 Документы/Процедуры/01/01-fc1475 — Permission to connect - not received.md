@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1475.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1475.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1475.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2010-07-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1475.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1475.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1475.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1475.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 1475 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Разрешение на подключение к закрытому автобусу в требуемое время получено не было. | Генераторный набор подключится к мертвому автобусу. |
+| Код неисправности: 1475 PID(P): СПН: ФМИ: Лампа: Предупреждение СТО: | Разрешение на подключение к закрытому шине в требуемое время получено не было. | Генераторный набор подключится к мертвому шине. |
 
 ![[19802910.png]]
 
@@ -62,7 +62,7 @@ tags:
 
 ### Описание цепи
 
-Этот код неисправности используется ECM для того, чтобы сообщить оператору, что ECM не получил команду от параллельного контроллера для подключения к шине. ECM контролирует автобус в течение определенного количества времени, и если ECM все еще видит мертвый автобус после этого установленного количества времени, то он подключится к автобусу.
+Этот код неисправности используется ECM для того, чтобы сообщить оператору, что ECM не получил команду от параллельного контроллера для подключения к шине. ECM контролирует шина в течение определенного количества времени, и если ECM все еще видит мертвый шина после этого установленного количества времени, то он подключится к шине.
 
 Контроллер параллелизма подключен к ECM и может давать ему команды для сбора нагрузки, сброса нагрузки или управляющих команд нагрузки.
 

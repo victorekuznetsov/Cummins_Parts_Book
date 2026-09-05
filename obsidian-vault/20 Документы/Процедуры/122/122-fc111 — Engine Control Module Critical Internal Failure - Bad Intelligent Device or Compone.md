@@ -7,17 +7,16 @@ title_en: "Engine Control Module Critical Internal Failure - Bad Intelligent Dev
 title_ru: "Критический внутренний отказ ЭБУ — неисправное устройство"
 modified: "2016-08-08"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "4022102"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc111.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc111.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc111.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Критический внутренний отказ ЭБУ — неисправное устройство**
 
 > [!abstract] Процедура · `122-fc111`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2016-08-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc111.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/122-fc111.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/122/122-fc111.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/122-fc111.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +53,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 111 PID(P): S254 SPN: 629 FMI: 12 ламп: Красная СТО: | Критический внутренний отказ ЭБУ — неисправное устройство. Ошибка, внутренняя для модуля управления двигателем (ECM), связанная с неисправностями оборудования памяти или внутренними цепями питания напряжения ECM. | Двигатель может ** не** запускаться или может быть трудно запустить. |
+| Код неисправности: 111 PID(P): S254 SPN: 629 FMI: 12 ламп: Красная СТО: | Критический внутренний отказ ЭБУ — неисправное устройство. Ошибка, внутренняя для модуля управления двигателем (ECM), связанная с неисправностями оборудования памяти или внутренними цепями питания напряжения ECM. | Двигатель может **не** запускаться или может быть трудно запустить. |
 
 ![[19d02662.png]]
 
@@ -80,7 +79,7 @@ ECM обнаружил ошибку показаний или записи вн�
 
 - ECM освещает красную лампу STOP ENGINE сразу после диагностических прогонов и выходит из строя.
 
-- Двигатель может ** не** завестись.
+- Двигатель может **не** завестись.
 
 ### Условия сброса кода неисправности
 
@@ -94,7 +93,7 @@ ECM обнаружил ошибку показаний или записи вн�
 
 ### Практические замечания
 
-Этот код неисправности может быть вызван только внутренними неисправностями ECM. Ремонт ** невозможен для ECM.
+Этот код неисправности может быть вызван только внутренними неисправностями ECM. Ремонт невозможен для ECM.
 
 Устранение неполадок код t05-111
 

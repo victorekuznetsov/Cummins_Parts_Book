@@ -17,7 +17,7 @@ figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/04/04-012-017.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/04-012-017.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/04-012-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666121 — Holset® Air Compressors Master Repair Manual|3666121]]
 > **Секции:** Section 12 - Compressed Air System
 > **Даты:** изменён 2005-06-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/04/04-012-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/04-012-017.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/04/04-012-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/04-012-017.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,13 +49,13 @@ tags:
 > [!note] Примечание
 > Показанные иллюстрации будут от одноцилиндрового воздушного компрессора модели SS. При необходимости будут показаны различия в процедурах для воздушных компрессоров модели SS, QE и ST Holset®.
 
-Удалите воздухоуправляющую или линию воздухоуправляющего из корпуса разгрузчика воздушного компрессора.
+Удалите воздухоуправляющую или воздушную губернаторскую линию из корпуса разгрузчика воздушного компрессора.
 
 ![[cp8bdsc.png]]
 
 Управляйте двигателем, чтобы активировать воздушный компрессор.
 
-Если воздушный компрессор перекачивается, воздухоотводчик выходит из строя и *** должен быть отремонтирован или заменен. См. указания изготовителя.
+Если воздушный компрессор перекачивается, воздухоотводчик выходит из строя и должен быть отремонтирован или заменен. См. указания изготовителя.
 
 ![[gv800ka.png]]
 

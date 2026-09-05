@@ -10,13 +10,14 @@ modified: "2015-10-13"
 group: "19 - Electronic Engine Controls"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 figures: 2
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150143.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150143.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150143.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
@@ -30,10 +31,10 @@ tags:
 
 > [!abstract] TSB · `tsb150143`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Даты:** выпущен 2015-10-13 · изменён 2015-10-13
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150143.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150143.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150143.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150143.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -57,7 +58,7 @@ tags:
 
 **Затронутая продукция**
 
-- 6C8.3 (Приложения для воздушных компрессоров **только **)
+- 6C8.3 (Приложения для воздушных компрессоров **только**)
 
 **Решение**
 
@@ -73,7 +74,7 @@ tags:
 
 **Указания по обслуживанию**
 
-Это изменение касается новых серийных двигателей **только **.
+Это изменение касается новых серийных двигателей **только**.
 
 **Статус в производстве**
 
@@ -81,7 +82,7 @@ tags:
 
 | **Таблица 2, Информация о производстве** |  |  |
 |---|---|---|
-| **Впервые** | ** Дата строительства**** | ** Завод** |
+| **Впервые** | **Дата строительства** | **Завод** |
 | 25780103 | 08 июня 2013 | Cummins India LTD. растение |
 | *Дата сборки двигателя можно найти на табличке с данными двигателя. |  |  |
 

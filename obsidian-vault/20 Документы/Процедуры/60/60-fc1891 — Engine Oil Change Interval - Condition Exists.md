@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1891.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc1891.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1891.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]]
 > **Секции:** Section TF — Troubleshooting Fault Codes
 > **Даты:** изменён 2020-09-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1891.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/60-fc1891.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/60/60-fc1891.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/60-fc1891.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -90,7 +90,7 @@ tags:
 
 ### Практические замечания
 
-Когда моторное масло сжигает клапан соленоида, пытается впрыснуть масло и не может, это создает количество промахов. Когда эти подсчеты достигают заданного уровня, код ошибки становится активным. Если бак для масляной косметики ** не используется, рекомендуется менять моторное масло в следующий интервал технического обслуживания.
+Когда моторное масло сжигает клапан соленоида, пытается впрыснуть масло и не может, это создает количество промахов. Когда эти подсчеты достигают заданного уровня, код ошибки становится активным. Если бак для масляной косметики не используется, рекомендуется менять моторное масло в следующий интервал технического обслуживания.
 
 Возможные причины этого кода неисправности:
 

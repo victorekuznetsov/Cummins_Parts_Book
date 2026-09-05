@@ -7,18 +7,42 @@ title_en: "Engine Storage - Long Term"
 title_ru: "Длительное хранение двигателя"
 modified: "2022-07-05"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33239746"
+  - "35354607"
+  - "35373113"
   - "41349633"
+  - "41353297"
+  - "71156161"
+  - "85017333"
+  - "93047320"
 families:
+  - "6B5.9"
   - "QSK19"
+  - "QSK23"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
+  - "QSM11"
 manuals:
+  - "3666087"
+  - "3666322"
+  - "4021375"
+  - "4021530"
   - "4021592"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-000-005-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-000-005-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-000-005-tr.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/6B5.9"
   - "двигатель/QSK19"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
+  - "двигатель/QSM11"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -27,12 +51,12 @@ tags:
 **Длительное хранение двигателя**
 
 > [!abstract] Процедура · `99-000-005-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** QSK19
-> **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
-> **Секции:** Section 0 - Complete Engine - Group 00
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[85017333 — QSK23 CM500 CPL 2858|85017333]], [[93047320 — 6B5.9 CPL 3111|93047320]]
+> **Семейство:** 6B5.9, QSK19, QSK23, QSK60, QSK60 CM2150 MCRS, QSM11
+> **Входит в руководства:** [[3666087 — B3.9, B4.5, B4.5 RGT, and B5.9 Service Manual|3666087]], [[3666322 — ISM, ISMe, and QSM11 Service Manual|3666322]], [[4021375 — QSK23 Troubleshooting and Repair Manual|4021375]], [[4021530 — QSK45 and QSK60 Service Manual|4021530]], [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
+> **Секции:** Section 0 - Complete Engine - Group 00 · Section 0 - Product - Group 00
 > **Даты:** изменён 2022-07-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-000-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-000-005-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-000-005-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-000-005-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -44,7 +68,7 @@ tags:
 
 ### Общие сведения
 
-** Введение**
+**Введение**
 
 Эта процедура описывает правильный метод размещения двигателя в долговременном хранилище (более 6 месяцев) и возврата сохраненного двигателя в эксплуатацию. Процедура хранения применяется к двигателям в рабочем состоянии и применяется независимо от того, останется ли двигатель в оборудовании или будет удален для хранения.
 
@@ -65,17 +89,17 @@ tags:
 
 **Подготовка запасного или восстановленного двигателя для длительного хранения**
 
-Следующие шаги *** применяются только к двигателям, которые получены непосредственно от Cummins Inc. Сборочный завод или мастер-центр.
+Следующие шаги применяются только к двигателям, которые получены непосредственно от Cummins Inc. Сборочный завод или мастер-центр.
 
-- Нанесите легкую смазку или ржавчину, предотвращающую обработанные поверхности, которые ** не** окрашены.
-- Нанесите легкую смазку или ржавчину, предотвращающую любые внутренние литые поверхности, такие как впускные и выпускные соединения охлаждающей жидкости, которые видны и ** не ** окрашены.
+- Нанесите легкую смазку или ржавчину, предотвращающую обработанные поверхности, которые **не** окрашены.
+- Нанесите легкую смазку или ржавчину, предотвращающую любые внутренние литые поверхности, такие как впускные и выпускные соединения охлаждающей жидкости, которые видны и **не **окрашены.
 - Накрывайте отверстия двигателя и компонентов чистыми крышками или тяжелой бумагой и лентой, чтобы предотвратить попадание грязи и влаги в двигатель.
 - Удалите все внешние ремни привода.
 - Установите соответствующий осушитель на двигатель, чтобы поглотить любую влагу.
 - Накройте весь двигатель пластиком.
 - Переместить двигатель или оборудование в соответствующую зону хранения.
 
-** Подготовка двигателя для длительного хранения**
+**Подготовка двигателя для длительного хранения**
 
 Чтобы подготовить двигатель для длительного хранения, выполните следующие шаги. По мере необходимости ссылайтесь на соответствующие процедуры обслуживания.
 
@@ -88,13 +112,13 @@ tags:
 - Накройте весь двигатель пластиком.
 - Переместить двигатель или оборудование в соответствующую зону хранения.
 
-** Подготовка компонентов для длительного хранения**
+**Подготовка компонентов для длительного хранения**
 
-- Для двигателя с рабочим объемом 19 л и выше обратитесь к служебному бюллетеню, хранению отдельных компонентов системы UL2 для последующей обработки дизельных выхлопных газов (DEF), бюллетеню 5504262 для инструкций по подготовке компонентов последствии для длительного хранения. См. процедуру 011-143 в разделе 11 для инструкций по очистке выхлопной жидкости дизельного топлива при подготовке к хранению.
+- Для двигателя с рабочим объемом 19 л и выше обратитесь к служебному бюллетеню, хранению отдельных компонентов системы UL2 после обработки дизельного выхлопного газа (DEF), бюллетеню 5504262 для инструкций по подготовке компонентов послерастворителя для длительного хранения. См. процедуру 011-143 в разделе 11 для инструкций по очистке выхлопной жидкости дизельного топлива при подготовке к хранению.
 
 См. процедуру 011-143 После обработки Дизельной выхлопной жидкости (Diesel Exhaust Fluid Dosing Unit Manual Purge) для инструкций по очистке Дизельной выхлопной жидкости (Diesel Exhaust Fluid) в процессе подготовки к хранению.
 
-** Удаление двигателя из долгосрочного хранения**
+**Удаление двигателя из долгосрочного хранения**
 
 Чтобы удалить двигатель из долгосрочного хранилища, выполните следующие шаги ниже. Также обратитесь к соответствующим процедурам Руководства по обслуживанию.
 
@@ -111,7 +135,7 @@ tags:
 - Запуск двигателя. См. Нормальный процедура начала работ в разделе 1 соответствующего руководства по эксплуатации и техническому обслуживанию.
 - Для двигателей с электронным управлением устранение неполадок любых активных кодов неисправностей.
 
-** Удаление компонентов после обработки для длительного хранения**
+**Удаление компонентов после обработки для длительного хранения**
 
 Для двигателя с рабочим объемом 19 л и выше обратитесь к служебному бюллетеню, хранению отдельных компонентов системы UL2 после обработки дизельного выхлопного газа (DEF), бюллетеню 5504262 для инструкций по подготовке компонентов послерастворителя для удаления из долгосрочного хранения.
 
@@ -165,7 +189,7 @@ tags:
 >
 > **Preparing Aftertreatment Components for Long Term Storage**
 >
-> - For Engine with a displacement of 19 L and above refer to Service Bulletin, Storage of Individual UL2 Aftertreatment Diesel Exhaust Fluid (DEF) System Components, Bulletin 5504262 for instructions on preparing aftertreament components for long term storage. Refer to procedure 011-143 in Section 11 for instructions on Purging the Diesel Exhaust Fluid in preparation for storage.
+> - For Engine with a displacement of 19 L and above refer to Service Bulletin, Storage of Individual UL2 Aftertreatment Diesel Exhaust Fluid (DEF) System Components, Bulletin [[5504262 — Storage of Individual UL2 and UL2.2 Aftertreatment Diesel Exhaust Fluid (DEF) System|5504262]] for instructions on preparing aftertreament components for long term storage. Refer to procedure 011-143 in Section 11 for instructions on Purging the Diesel Exhaust Fluid in preparation for storage.
 >
 > Refer to procedure 011-143 Aftertreatment Diesel Exhaust Fluid Dosing Unit Manual Purge, for instructions on Purging the Diesel Exhaust Fluid in preparation for storage
 >
@@ -188,4 +212,4 @@ tags:
 >
 > **Removing Aftertreatment Components for Long Term Storage**
 >
-> For Engine with a displacement of 19 L and above refer to Service Bulletin, Storage of Individual UL2 Aftertreatment Diesel Exhaust Fluid (DEF) System Components, Bulletin 5504262 for instructions on preparing aftertreament components for removing from long term storage.
+> For Engine with a displacement of 19 L and above refer to Service Bulletin, Storage of Individual UL2 Aftertreatment Diesel Exhaust Fluid (DEF) System Components, Bulletin [[5504262 — Storage of Individual UL2 and UL2.2 Aftertreatment Diesel Exhaust Fluid (DEF) System|5504262]] for instructions on preparing aftertreament components for removing from long term storage.

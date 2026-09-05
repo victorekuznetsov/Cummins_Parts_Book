@@ -7,18 +7,37 @@ title_en: "Bosch Aftertreatment DEF Controller Connector"
 title_ru: "Разъём контроллера DEF системы нейтрализации Bosch"
 modified: "2010-07-20"
 engines:
-  - "33239746"
+  - "33210083"
+  - "33219033"
+  - "33224343"
   - "33239899"
+  - "35354607"
+  - "35373113"
+  - "37269910"
+  - "37280605"
   - "37292556"
   - "37295879"
   - "41343322"
+  - "41370103"
+  - "71156161"
+  - "80141463"
+  - "80248213"
+  - "85017333"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K19"
+  - "K38/K50 · QSK38, QSK50"
   - "NT/NTA855 · ISM/QSM11"
+  - "QSK23"
+  - "QSK60"
+  - "QSM11"
   - "QST30"
+  - "QSX15"
 manuals:
+  - "3666070"
+  - "3666113"
   - "3666231"
   - "3666266"
+  - "3666415"
   - "4021419"
   - "4021674"
   - "4022102"
@@ -26,12 +45,17 @@ figures: 15
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-474.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-474.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-474.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/K19"
   - "двигатель/K38/K50"
   - "двигатель/NT/NTA855"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
+  - "двигатель/QSM11"
   - "двигатель/QST30"
+  - "двигатель/QSX15"
   - "группа/99"
   - "перевод/машинный"
 ---
@@ -40,12 +64,12 @@ tags:
 **Разъём контроллера DEF системы нейтрализации Bosch**
 
 > [!abstract] Процедура · `99-019-474`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, NT/NTA855 · ISM/QSM11, QST30
-> **Входит в руководства:** [[3666231 — Centinel™ Master Repair Manual|3666231]], [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]], [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]], [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]], [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[37269910 — K19 CPL 1253|37269910]], [[37280605 — K19 CPL 447|37280605]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[41343322 — NH NT 855 CPL 3362|41343322]], [[41370103 — NH NT 855 CPL 3362|41370103]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** K19, K38/K50 · QSK38, QSK50, NT/NTA855 · ISM/QSM11, QSK23, QSK60, QSM11, QST30, QSX15
+> **Входит в руководства:** [[3666070 — CENTRY™ Electronic Control System Troubleshooting and Repair Manual|3666070]], [[3666113 — QSK19, QSK23, QSK45, QSK60, and QSK78 Electronic Control System Troubleshooting and R|3666113]], [[3666231 — Centinel™ Master Repair Manual|3666231]], [[3666266 — ISM and QSM11 Electronic Control System Troubleshooting and Repair Manual|3666266]], [[3666415 — ICON Idle Control System Master Repair Manual|3666415]], [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]], [[4021674 — QST30 CM850 Power Generation Interface Engine Electronic Control System Troubleshooti|4021674]], [[4022102 — QSK38, QSK50, and QSK60 CM2150 Electronic Control System Troubleshooting and Repair M|4022102]]
 > **Секции:** Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2010-07-20
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-474.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/99-019-474.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/99/99-019-474.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/99-019-474.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -63,7 +87,7 @@ tags:
 
 Удалите крышку разъема, вставив небольшую отвертку в угловой прорезь на стороне крышки и скручивая. Затем отодвиньте крышку от разъема.
 
-Перережьте проводной галстук, удерживающий проводной связок, чтобы освободить провода.
+Перережьте проводной стяжка, удерживающий проводной связок, чтобы освободить провода.
 
 ![[19804025.png]]
 
@@ -109,7 +133,7 @@ tags:
 ![[19804030.png]]
 
 > [!warning] ОСТОРОЖНО
-> Если провод трудно удалить, не тяните жестко на провод, в противном случае запирающий привязка терминала будет прилипать или терминал будет стягивать провод и оставаться в разъеме.
+> Если провод трудно удалить, не тяните жестко на провод, иначе запирающий тан терминала будет прилипать или терминал будет стягивать провод и оставаться в разъеме.
 
 Тщательно вытащите провод из разъема. Если его трудно удалить, повторите весь процесс.
 
@@ -158,9 +182,9 @@ tags:
 
 Положите пучку провода на место.
 
-Установите проводной галстук, чтобы удерживать проводной пучок на месте на разъеме.
+Установите проводной стяжка, чтобы удерживать проводной пучок на месте на разъеме.
 
-Удалите лишний проводной галстук.
+Удалите лишний проводной стяжка.
 
 ![[19804033.png]]
 
@@ -170,7 +194,7 @@ tags:
 
 Скользите к пучку провода, пока крышка разъема не будет защелкнута на место.
 
-> [!missing]- Иллюстрация `19804034.png` не извлечена — смотрите PDF-оригинал документа
+![[19804034.png]]
 
 
 > [!quote]- Original (English) · английский оригинал

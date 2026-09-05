@@ -16,7 +16,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400237.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400237.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400237.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/QST30"
@@ -30,7 +30,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2006-11-13 · изменён 2006-12-05
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400237.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400237.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400237.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400237.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -50,7 +50,7 @@ tags:
 
 ![[22a00244.png]]
 
-| Таблица 1, комплект установки заднего коленчатого вала для масляной печати, номер детали 4918762 |  |  |  |
+| Таблица 1, комплект установки заднего коленчатого вала для масляной уплотнения, номер детали 4918762 |  |  |  |
 |---|---|---|---|
 | Номер позиции | Номер детали | Наименование | Количество |
 | 1 | 4918752 | Проставка | 1 |
@@ -59,7 +59,7 @@ tags:
 | Таблица 2, Предметы, используемые с установщиком заднего коленчатого вала, приобретенные отдельно |  |  |  |
 |---|---|---|---|
 | Номер позиции | Номер детали | Наименование | Количество |
-| ** Не показана** | 3825195 | Задний Crankshaft Oil Seal / Wear Sleeve Removal and Installation Tool Kit | 1 |
+| **Не показана** | 3825195 | Задний Crankshaft Oil Seal / Wear Sleeve Removal and Installation Tool Kit | 1 |
 
 
 > [!quote]- Original (English) · английский оригинал

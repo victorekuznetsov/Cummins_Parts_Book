@@ -17,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-031.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-031.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-031.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666184 — QST30 G-Drive Electronic Control System Troubleshooting and Repair Manual|3666184]]
 > **Секции:** Section 19 - Electronic Controls · Section 19 - Electronic Engine Controls - Group 19
 > **Даты:** изменён 2014-04-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-031.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/94-019-031.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/94/94-019-031.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/94-019-031.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -46,7 +46,7 @@ tags:
 
 ### Снятие
 
-Отсоедините оригинальное оборудование производства (OEM) проводов и разъёмы жгута проводов двигателя от модуля управления двигателем (ECM).
+Отсоедините оригинальное оборудование производства (OEM) проводов и разъёмы ремня электропроводки двигателя от модуля управления двигателем (ECM).
 
 > [!note] Примечание
 > Записывайте все программируемые параметры, функции и калибровочную информацию из старого ECM для программирования нового ECM.
@@ -87,7 +87,7 @@ tags:
 
 Распространяйте смазку через коннектор носовой части, так что он входит в каждое отверстие штифта и смазывает контакты.
 
-Смазка ** не должна быть видна на поверхности носа.
+Смазка не должна быть видна на поверхности носа.
 
 ![[19400298.png]]
 
@@ -102,7 +102,7 @@ tags:
 > Не делайте крутящего момента, так как может произойти повреждение разъема.
 
 > [!note] Примечание
-> При замене ECM необходимо откалибрование нового ECM ***. Используйте инструмент для электронных услуг INSITETM, номер детали 3825145, для калибровки ECM.
+> При замене ECM необходимо откалибрование нового ECM. Используйте инструмент для электронных услуг INSITETM, номер детали 3825145, для калибровки ECM.
 
 ![[19400299.png]]
 

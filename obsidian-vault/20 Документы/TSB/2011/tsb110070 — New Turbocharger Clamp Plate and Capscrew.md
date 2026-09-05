@@ -9,20 +9,31 @@ released: "2011-03-17"
 modified: "2011-03-17"
 group: "10 - Intake Air Systems"
 engines:
+  - "35354607"
+  - "35373113"
+  - "71156161"
+  - "80141463"
+  - "80248213"
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
+  - "QSM11"
+  - "QSX15"
 parts:
   - "2839879"
   - "2840781"
+  - "3535215"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110070.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110070.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110070.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/C8.3"
+  - "двигатель/QSM11"
+  - "двигатель/QSX15"
   - "год/2011"
   - "перевод/машинный"
   - "тема/intake-air-systems"
@@ -33,10 +44,10 @@ tags:
 
 > [!abstract] TSB · `tsb110070`
 > **Раздел Cummins:** 10 - Intake Air Systems
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
-> **Семейство:** C8.3 · 6C8.3
+> **Двигатели:** [[35354607 — QSM11 CM570 CPL 8608|35354607]], [[35373113 — QSM11 CM570 CPL 8471|35373113]], [[71156161 — QSM11 CM570 CPL 8543|71156161]], [[80141463 — QSX15 CM570 CPL 3088|80141463]], [[80248213 — QSX15 CM570 CPL 8760|80248213]], [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
+> **Семейство:** C8.3 · 6C8.3, QSM11, QSX15
 > **Даты:** выпущен 2011-03-17 · изменён 2011-03-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110070.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb110070.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2011/tsb110070.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb110070.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -96,12 +107,12 @@ tags:
 | 4032887 |  | Комплект, ремонт турбокомпрессора | 1 | Ура. |
 |  | [[2839879]] | Прижимная пластина | 2 | Н. |
 |  | [[2840781]] | болты | 6 | Н. |
-|  | 3535215 | Усилить Клип | 1 | Ура. |
+|  | [[3535215]] | Усилить Клип | 1 | Ура. |
 |  | 4029685 | Инструкция по установке Sheet | 2 | Н. |
 | 4032877 |  | Комплект, ремонт турбокомпрессора | 1 | Ура. |
 |  | 2840780 | Прижимная пластина | 3 | Н. |
 |  | [[2840781]] | болты | 6 | Н. |
-|  | 3535215 | Усилить Клип | 1 | Ура. |
+|  | [[3535215]] | Усилить Клип | 1 | Ура. |
 |  | 4029684 | Инструкция по установке Sheet | 1 | Н. |
 
 ![[10v00002.png]]
@@ -126,8 +137,9 @@ MidRange - черные оксидные зажимные пластины с б
 
 | Артикул | Наименование | Русское название |
 |---|---|---|
-| [[2839879]] | CLAMPING PLATE | Прижимная пластина |
-| [[2840781]] | HEXAGON HEAD SET SCREW | Установочный винт с шестигранной головкой |
+| [[2839879]] | Clamping Plate | Прижимная пластина |
+| [[2840781]] | Hexagon Head Set Screw | Установочный винт с шестигранной головкой |
+| [[3535215]] | Hose Clamp | Хомут шланга |
 
 > [!quote]- Original (English) · английский оригинал
 > ## New Turbocharger Clamp Plate and Capscrew
@@ -180,12 +192,12 @@ MidRange - черные оксидные зажимные пластины с б
 > | 4032887 |  | Kit, Turbocharger Repair | 1 | Y |
 > |  | [[2839879]] | Clamping Plate | 2 | N |
 > |  | [[2840781]] | Capscrews | 6 | N |
-> |  | 3535215 | Boost Clip | 1 | Y |
+> |  | [[3535215]] | Boost Clip | 1 | Y |
 > |  | 4029685 | Installation Instruction Sheet | 2 | N |
 > | 4032877 |  | Kit, Turbocharger Repair | 1 | Y |
 > |  | 2840780 | Clamping Plate | 3 | N |
 > |  | [[2840781]] | Capscrews | 6 | N |
-> |  | 3535215 | Boost Clip | 1 | Y |
+> |  | [[3535215]] | Boost Clip | 1 | Y |
 > |  | 4029684 | Installation Instruction Sheet | 1 | N |
 >
 > MidRange - Old Clamp Plate and Capscrews - Silver in Color/Stainless

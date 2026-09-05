@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-012-022.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-012-022.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-012-022.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section A - Adjustment, Repair, and Replacement
 > **Даты:** изменён 2003-01-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-012-022.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-012-022.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-012-022.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-012-022.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -50,14 +50,14 @@ tags:
 
 **Не** Работайте с двигателем, работающим на воздухе, с давлением воздуха ниже спецификаций.
 
-| ** Измерения** |  |  |  |
+| **Измерения** |  |  |  |
 |---|---|---|---|
 |  | каша | пси |  |
 |  | Минимум | 480 | 70 |
 
 Поддерживайте воздушный компрессор в соответствии с рекомендациями, изложенными в руководстве.
 
-Для максимальной эффективности шланги, трубки и линии ** не должны ** протекать.
+Для максимальной эффективности шланги, трубки и линии **не должны **протекать.
 
 См. руководства производителей оригинального оборудования и производителей двигателей для запуска для получения конкретной информации о пусковых двигателях, клапанах и системах.
 

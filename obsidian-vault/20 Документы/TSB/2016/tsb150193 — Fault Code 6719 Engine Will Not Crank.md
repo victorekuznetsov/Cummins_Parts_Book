@@ -9,20 +9,27 @@ released: "2016-01-28"
 modified: "2016-01-28"
 group: "05 - Fuel Systems (Pumps)"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
   - "41349633"
+  - "41353297"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
   - "QSK19"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150193.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150193.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150193.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
   - "двигатель/QSK19"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2016"
   - "перевод/машинный"
   - "тема/fuel-systems-pumps"
@@ -33,10 +40,10 @@ tags:
 
 > [!abstract] TSB · `tsb150193`
 > **Раздел Cummins:** 05 - Fuel Systems (Pumps)
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60, QSK19
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]], [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK19, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2016-01-28 · изменён 2016-01-28
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150193.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150193.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150193.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150193.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -65,7 +72,7 @@ tags:
 
 Клиенты могут столкнуться с отсутствием кривошипа и состояния запуска после того, как лампа STOP ENGINE (красная лампа) загорается для наиболее серьезных ошибок кода 6719.
 
-Некоторые интерфейсы приложений производителя оригинального оборудования (OEM) ** не** позволяют проворачивать, если активна лампа STOP ENGINE. В кодах калибровки ECM, перечисленных в таблице 1 ниже, код по умолчанию 6719, который вызывает лампу STOP ENGINE, ** не может быть очищен с помощью цикла мощности ECM, если включено включение двигателя ** не**.
+Некоторые интерфейсы приложений производителя оригинального оборудования (OEM) **не** позволяют проворачивать, если активна лампа STOP ENGINE. В кодах калибровки ECM, перечисленных в таблице 1 ниже, код по умолчанию 6719, который вызывает лампу STOP ENGINE, **не может быть очищен с помощью цикла мощности ECM, если включено включение двигателя **не.
 
 Наименее серьезный код 2261 и умеренно тяжелый код 2216 также активны для давления подачи топливного насоса, что означает проблему качества топлива и растущее ограничение топливного фильтра 2-й стадии.
 

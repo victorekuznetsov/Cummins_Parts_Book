@@ -8,18 +8,24 @@ title_ru: "Жгут переключения нескольких модулей
 released: "2009-07-02"
 modified: "2009-09-24"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400337.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400337.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400337.pdf"
 tags:
   - "документ/инструмент"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "перевод/машинный"
 ---
 
@@ -27,10 +33,10 @@ tags:
 **Жгут переключения нескольких модулей в сборе**
 
 > [!abstract] Инструкция по инструменту · `3400337`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2009-07-02 · изменён 2009-09-24
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400337.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/sti/3400337.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/sti/3400337.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/sti/3400337.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -74,7 +80,7 @@ tags:
 
 ![[19601262.png]]
 
-Строй снимает соединение, устанавливая проводной галстук через зажим фиксатора, прикрепленный к 4-контактному разъему. Это обеспечит переключатель проводов жгута свиньи на ROM загрузочной проводов жгута.
+Строй снимает соединение, устанавливая проводной стяжка через зажим фиксатора, прикрепленный к 4-контактному разъему. Это обеспечит переключатель проводов жгута свиньи на ROM загрузочной проводов жгута.
 
 ![[19601263.png]]
 

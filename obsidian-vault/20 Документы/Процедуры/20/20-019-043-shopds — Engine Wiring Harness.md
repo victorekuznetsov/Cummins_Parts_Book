@@ -8,6 +8,7 @@ title_ru: "Жгут проводов двигателя"
 modified: "2014-04-17"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 14
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-043-shopds.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-019-043-shopds.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-019-043-shopds.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Жгут проводов двигателя**
 
 > [!abstract] Процедура · `20-019-043-shopds`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section DS - Engine Disassembly - Group 00
 > **Даты:** изменён 2014-04-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-043-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-019-043-shopds.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-019-043-shopds.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-019-043-shopds.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -51,7 +52,7 @@ tags:
 
 ![[19801065.png]]
 
-Разрежьте галстуки на кронштейне генератора и передней крышке двигателя.
+Разрежьте стяжки на кронштейне генератора и передней крышке двигателя.
 
 ![[19801066.png]]
 
@@ -59,7 +60,7 @@ tags:
 
 ![[19400388.png]]
 
-Разрежьте галстуки на кронштейне корпуса термостата, трубке послеохладителя и топливной трубке.
+Разрежьте стяжки на кронштейне корпуса термостата, трубке послеохладителя и топливной трубке.
 
 ![[19801067.png]]
 
@@ -67,7 +68,7 @@ tags:
 
 ![[19400390.png]]
 
-Разрежьте галстук на разъёме шины данных CAN.
+Разрежьте стяжка на разъёме шины данных CAN.
 
 Снимите скобку.
 
@@ -109,9 +110,9 @@ tags:
 
 ![[19801071.png]]
 
-Разрежьте 17 галстуков, удерживающих ремень проводов двигателя, до опорной кронштейна.
+Разрежьте 17 стяжек, удерживающих ремень проводов двигателя, до опорной кронштейна.
 
-Разрежьте угловой галстук, удерживающий ремень проводов двигателя, до опорной кронштейн.
+Разрежьте угловой стяжка, удерживающий ремень проводов двигателя, до опорной кронштейн.
 
 Удалите жгут электропроводки двигателя.
 

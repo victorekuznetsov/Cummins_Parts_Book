@@ -8,6 +8,7 @@ title_ru: "Сальник привода вспомогательного обо
 modified: "2023-07-11"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 14
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-003-shopas.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-003-shopas.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-003-shopas.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Сальник привода вспомогательного оборудования**
 
 > [!abstract] Процедура · `20-001-003-shopas`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section AS - Engine Assembly - Group 00
 > **Даты:** изменён 2023-07-11
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-003-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-001-003-shopas.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-001-003-shopas.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-001-003-shopas.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,11 +53,11 @@ tags:
 Чтобы помочь в установке уплотнения, используйте небольшую неметаллическую щетку для нанесения тонкой пленки чистого масла SAE 15W-40 на внутренний диаметр корпуса уплотнения.
 
 > [!note] Примечание
-> **не допускать контакта масла с другими участками печати.
+> не допускать контакта масла с другими участками уплотнения.
 
 ![[09400005.png]]
 
-Установите пломбу на вспомогательном приводном валу.
+Установите уплотнение на вспомогательном приводном валу.
 
 ![[01400041.png]]
 
@@ -95,14 +96,14 @@ tags:
 
 ![[01400023.png]]
 
-Установите печать ключа.
+Установите уплотнение ключа.
 
 Установите ключ Woodruf в дополнительный приводной вал.
 
 ![[09400011.png]]
 
 > [!note] Примечание
-> Уплотнение ключа *** должно быть установлено до установки ключа и вспомогательного приводного шкива.
+> Уплотнение ключа должно быть установлено до установки ключа и вспомогательного приводного шкива.
 
 Установите дополнительный приводной шкив.
 

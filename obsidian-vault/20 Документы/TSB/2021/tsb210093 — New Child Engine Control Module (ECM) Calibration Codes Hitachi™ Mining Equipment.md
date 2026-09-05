@@ -9,17 +9,23 @@ released: "2021-04-30"
 modified: "2023-09-26"
 group: "19 - Electronic Engine Controls"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210093.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210093.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210093.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2021"
   - "перевод/машинный"
   - "тема/electronic-engine-controls"
@@ -30,10 +36,10 @@ tags:
 
 > [!abstract] TSB · `tsb210093`
 > **Раздел Cummins:** 19 - Electronic Engine Controls
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2021-04-30 · изменён 2023-09-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210093.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210093.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210093.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210093.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -130,9 +136,9 @@ tags:
 | EX3600/EX8000 | QSK60 | FR6896 | ДО 61080 | AQ60947 | AR60684 | AR60685 |  |  |  |  |  |
 | EX3600/EX8000 | QSK60 | FR6896 | ДО61164 | AQ60948 | AR60684 | AR60685 |  |  |  |  |  |
 
-** Совместимость частей**
+**Совместимость частей**
 
-Коды калибровки ECM ** должны быть правильно подобраны для вашего двигателя и приложения. Если выбран неправильный код калибровки ECM, могут произойти выключения и выключения двигателя из-за неправильных порогов кода неисправности.
+Коды калибровки ECM должны быть правильно подобраны для вашего двигателя и приложения. Если выбран неправильный код калибровки ECM, могут произойти выключения и выключения двигателя из-за неправильных порогов кода неисправности.
 
 ### История изменений документа
 

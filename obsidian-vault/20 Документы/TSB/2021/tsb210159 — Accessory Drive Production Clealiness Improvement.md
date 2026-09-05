@@ -9,22 +9,29 @@ released: "2021-07-27"
 modified: "2021-07-27"
 group: "09 - Drive Units"
 engines:
+  - "33224404"
   - "33239746"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
+  - "QSK60 CM2150 MCRS"
 parts:
   - "4372986"
+  - "4924764"
   - "4924765"
   - "5374289"
   - "5541363"
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210159.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210159.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210159.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
+  - "двигатель/QSK60CM2150MCRS"
   - "год/2021"
   - "перевод/машинный"
   - "тема/drive-units"
@@ -35,10 +42,10 @@ tags:
 
 > [!abstract] TSB · `tsb210159`
 > **Раздел Cummins:** 09 - Drive Units
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50, QSK60 CM2150 MCRS
 > **Даты:** выпущен 2021-07-27 · изменён 2021-07-27
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210159.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb210159.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2021/tsb210159.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb210159.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -98,7 +105,7 @@ tags:
 
 QSK38/50: Продукты:
 
-- 4924764 - Поддержка, УСЛУГИ
+- [[4924764]]- Поддержка, поддержка
 - [[4372986]]- Поддержка, поддержка
 - 5376112 - Поддержка, УСЛУГИ
 - 5541921 - Поддержка, АКСЕССОРИЯ
@@ -136,6 +143,7 @@ QSK60/78: Продукты:
 | Артикул | Наименование | Русское название |
 |---|---|---|
 | [[4372986]] | Accessory Drive Support | Опора привода вспомогательного оборудования |
+| [[4924764]] | ACCESSORY DRIVE SUPPORT | Опора привода вспомогательного оборудования |
 | [[4924765]] | Accessory Drive Shaft | Вал привода вспомогательного оборудования |
 | [[5374289]] | ACCESSORY DRIVE SHAFT | Вал привода вспомогательного оборудования |
 | [[5541363]] | ACCESSORY DRIVE SUPPORT | Опора привода вспомогательного оборудования |
@@ -191,7 +199,7 @@ QSK60/78: Продукты:
 >
 > QSK38/50 Product:
 >
-> - 4924764 - SUPPORT, ACCESSORY
+> - [[4924764]] - SUPPORT, ACCESSORY
 > - [[4372986]] - SUPPORT, ACCESSORY
 > - 5376112 - SUPPORT, ACCESSORY
 > - 5541921 - SUPPORT, ACCESSORY

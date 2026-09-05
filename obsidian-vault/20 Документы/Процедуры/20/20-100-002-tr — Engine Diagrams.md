@@ -8,6 +8,7 @@ title_ru: "Схемы двигателя"
 modified: "2014-01-31"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 19
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-100-002-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-100-002-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-100-002-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Схемы двигателя**
 
 > [!abstract] Процедура · `20-100-002-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section E - Engine Identification · Section E - Engine and System Idenification
 > **Даты:** изменён 2014-01-31
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-100-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-100-002-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-100-002-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-100-002-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -70,7 +71,7 @@ tags:
 Слева - QSK19
 
 1. Охладитель наддувочного воздуха в сборе
-2. Датчик давления винтовки 1
+2. Датчик давления винты 1
 3. Датчик температуры 1 коллектора
 4. Датчик давления 1 на входном коллекторе
 5. Корпус управляющего клапана
@@ -114,7 +115,7 @@ tags:
 4. Фан-идлер и сборка
 5. Впуск охлаждающей жидкости
 6. Фильтр охлаждающей жидкости
-7. Альтернативное местоположение датчика скорости коленчатого вала/положения (привод генератора **только **)
+7. Альтернативное местоположение датчика скорости коленчатого вала/положения (привод генератора **только**)
 8. Стартер
 9. Картер маховика
 10. Маслоохладитель
@@ -142,7 +143,7 @@ tags:
 Слева - Индустриальный QSK19
 
 1. Пять барных проверочных клапанов
-2. Место заливки нефти
+2. Место заливки масла
 3. ЭКМ
 4. Масляные фильтры
 5. Маслоизмерительный щуп
@@ -191,7 +192,7 @@ tags:
 Главная / Новости / QSK19 Industrial
 
 1. Турбокомпрессор
-2. Калибр для измерения уровня нефти
+2. Калибр для измерения уровня масла
 3. Картер маховика
 4. Форсунка
 5. Линия подачи топливного форсунка
@@ -229,7 +230,7 @@ tags:
 1. Вентиляционные отверстия
 2. Коллектор слива топлива
 3. Охладитель наддувочного воздуха
-4. Место заливки нефти
+4. Место заливки масла
 5. Воздушный кроссовер
 6. Картер маховика
 7. Элиминатор TM*
@@ -244,7 +245,7 @@ tags:
 16. Теплообменник
 17. Расширение прицельного стекла танка
 18. Расширительный бачок
-19. Расширение танковой шапки.
+19. Расширение танковой крышки.
 
 \* EliminatorTM - это опция, доступная на двигателях QSK19 Modular Common Rail System Marine.
 

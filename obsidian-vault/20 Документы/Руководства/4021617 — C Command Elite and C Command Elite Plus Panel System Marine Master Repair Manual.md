@@ -7,11 +7,12 @@ title_en: "C Command Elite and C Command Elite Plus Panel System Marine Master R
 title_ru: "C Command Elite и Elite Plus: судовое руководство по ремонту пультовой системы"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 lang: "en"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/4021617-history.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021617-history.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021617-history.pdf"
 tags:
   - "документ/руководство"
   - "двигатель/QSK19"
@@ -21,9 +22,9 @@ tags:
 **C Command Elite и Elite Plus: судовое руководство по ремонту пультовой системы**
 
 > [!abstract] Руководство · `4021617-history`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/4021617-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/manual/4021617-history.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/4021617-history.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/manual/4021617-history.pdf)
 
 
 ## Оглавление руководства (159 процедур)
@@ -32,9 +33,9 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-toc | Table of Contents |  |
-| marpanel-frwd | Foreword | 17-Jan-2007 |
-| [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-titlepage | Titlepage | 02-Mar-2007 |
+| [[[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-toc](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/4021617-toc.html) | Table of Contents |  |
+| [marpanel-frwd](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/marpanel-frwd.html) | Foreword | 17-Jan-2007 |
+| [[[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-titlepage](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/4021617-titlepage.html) | Titlepage | 02-Mar-2007 |
 
 ### Section i - Introduction
 
@@ -223,7 +224,7 @@ tags:
 
 | Номер | Название | Дата |
 |---|---|---|
-| [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-backcover | Backcover | 02-Mar-2007 |
+| [[[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual\|4021617]]-backcover](https://quickserve.cummins.com/qs3/pubsys2/xml/en/manual/4021617/4021617-backcover.html) | Backcover | 02-Mar-2007 |
 
 ### Section 15 - Instruments and Controls
 

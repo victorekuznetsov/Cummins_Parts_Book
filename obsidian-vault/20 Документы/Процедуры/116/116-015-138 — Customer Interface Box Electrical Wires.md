@@ -8,6 +8,7 @@ title_ru: "Электропроводка интерфейсной коробк�
 modified: "2026-04-14"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 7
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-015-138.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-015-138.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-015-138.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Электропроводка интерфейсной коробки заказчика**
 
 > [!abstract] Процедура · `116-015-138`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021617 — C Command Elite and C Command Elite Plus Panel System Marine Master Repair Manual|4021617]]
 > **Секции:** Section 15 - Instruments and Controls - Group 15
 > **Даты:** изменён 2026-04-14
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-015-138.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/116-015-138.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/116/116-015-138.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/116-015-138.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,7 +57,7 @@ tags:
 
 ### Общие сведения
 
-Электрические провода в клиентском интерфейсе (CIB) имеют металлические фермулы, обрезанные на конце провода. Провода ** не продаются в качестве запасных частей. При замене проводов используйте один и тот же калибр и тип провода. Установите новые фермулы на конце заменяющего провода.
+Электрические провода в клиентском интерфейсе (CIB) имеют металлические фермулы, обрезанные на конце провода. Провода не продаются в качестве запасных частей. При замене проводов используйте один и тот же калибр и тип провода. Установите новые фермулы на конце заменяющего провода.
 
 Все компоненты, обработанные в этой процедуре, весят менее 23 кг [50 фунтов].
 

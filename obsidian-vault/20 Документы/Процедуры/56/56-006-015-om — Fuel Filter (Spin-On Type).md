@@ -7,19 +7,32 @@ title_en: "Fuel Filter (Spin-On Type)"
 title_ru: "Топливный фильтр (навинчиваемый)"
 modified: "2010-10-25"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33239746"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "4021374"
 figures: 8
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-015-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-006-015-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-015-om.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QST30"
   - "группа/56"
   - "перевод/машинный"
@@ -29,12 +42,12 @@ tags:
 **Топливный фильтр (навинчиваемый)**
 
 > [!abstract] Процедура · `56-006-015-om`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QSK60 CM2150 MCRS, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]]
 > **Секции:** Section 4 - Maintenance Procedures at 250 Hours or 6 Months
 > **Даты:** изменён 2010-10-25
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-015-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-006-015-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-006-015-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-006-015-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -47,11 +60,11 @@ tags:
 ### Общие сведения
 
 > [!note] Примечание
-> Эта процедура применяется к двигателям с механически приводимым в действие топливным форсункой **только **.
+> Эта процедура применяется к двигателям с механически приводимым в действие топливным форсункой **только**.
 
 Используйте следующие процедуры для двигателей с электронным топливным форсункой.
 
-См. процедуру 006-075 в разделе 4.
+[[56-006-075-om — Fuel Filter (Stage 1)|См. процедуру 006-075 в разделе 4.]]
 
 См. процедуру 006-076 в разделе 4.
 
@@ -108,7 +121,7 @@ tags:
 
 Установите новое кольцо уплотнения адаптера резьбы, снабженное новым фильтром.
 
-Должен быть установлен сепаратор топливной воды или топливный фильтр и комбинация сепаратора воды ***.
+Должен быть установлен сепаратор топливной воды или топливный фильтр и комбинация сепаратора воды.
 
 Нанесите легкое покрытие чистого моторного масла на поверхность прокладки фильтра.
 
@@ -144,7 +157,7 @@ tags:
 >
 > Use the following procedures for engines with electronically actuated injectors.
 >
-> Refer to Procedure 006-075 in Section 4.
+> [[56-006-075-om — Fuel Filter (Stage 1)|Refer to Procedure 006-075 in Section 4.]]
 >
 > Refer to Procedure 006-076 in Section 4.
 >

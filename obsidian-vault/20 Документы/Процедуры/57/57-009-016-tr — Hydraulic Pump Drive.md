@@ -17,7 +17,7 @@ figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-016-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-009-016-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-016-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 9 - Drive Units - Group 09
 > **Даты:** изменён 2015-08-19
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-009-016-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-009-016-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-009-016-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -50,7 +50,7 @@ tags:
 
 Общество автомобильной инженерии (SAE) Фланец двух болтового типа требуется для установки гидравлического насоса в заднюю часть корпуса зубчатой передачи на левобережной стороне двигателя. Фланец типа четырех болтов SAE B требуется для установки гидравлического насоса на переднюю крышку передач. Существует специальный привод, необходимый для соответствия различным размерам приводов сплина, необходимых для дополнительных гидравлических насосов.
 
-Двигатели, которые ** не** имеют установленный привод гидравлического насоса ***, должны *** иметь крышки, установленные на крышке передач и корпусе в соответствующих местах.
+Двигатели, которые **не** имеют установленный привод гидравлического насоса**, должны **иметь крышки, установленные на крышке передач и корпусе в соответствующих местах.
 
 Гидравлический насосный привод может быть установлен путем удаления соответствующей крышки и установки правильного привода для выбранного места монтажа и гидравлического насоса.
 

@@ -9,18 +9,21 @@ released: "2025-07-07"
 modified: "2025-07-07"
 group: "21 - Main Generator"
 engines:
-  - "33239746"
+  - "33224404"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
 figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250118.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb250118.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb250118.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2025"
   - "перевод/машинный"
   - "тема/main-generator"
@@ -31,10 +34,10 @@ tags:
 
 > [!abstract] TSB · `tsb250118`
 > **Раздел Cummins:** 21 - Main Generator
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50
 > **Даты:** выпущен 2025-07-07 · изменён 2025-07-07
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250118.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb250118.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2025/tsb250118.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb250118.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -60,7 +63,7 @@ tags:
 - QSK50 CM2350 K108
 - QSK50 CM2350 K130
 
-** Резюме проблемы**
+**Резюме проблемы**
 
 Симптом:
 
@@ -68,7 +71,7 @@ tags:
 
 **Решение**
 
-- ** Всегда** заменяйте болты адаптеров коленчатого вала во время реконструкции и событий среднего возраста.
+- **Всегда** заменяйте болты адаптеров коленчатого вала во время реконструкции и событий среднего возраста.
 
 ![[ks6adma.png]]
 

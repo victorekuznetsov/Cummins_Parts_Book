@@ -8,6 +8,7 @@ title_ru: "Стартер не отключается"
 modified: "2006-06-12"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -15,7 +16,7 @@ manuals:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-t02-1007.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-t02-1007.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-t02-1007.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -27,12 +28,12 @@ tags:
 **Стартер не отключается**
 
 > [!abstract] Процедура · `115-t02-1007`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021587 — C Command Panel System Marine Master Repair Manual|4021587]]
 > **Секции:** Section TT — Troubleshooting Symptoms (New Format)
 > **Даты:** изменён 2006-06-12
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-t02-1007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/115-t02-1007.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/115/115-t02-1007.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/115-t02-1007.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -65,11 +66,11 @@ tags:
 
 #### ШАГ 1A. Проверьте клиентский интерфейс Box Logic
 
-| **Условия: ** Найти окно клиентского интерфейса Открытый ящик клиентского интерфейса. |  |  |
+| **Условия: **Найти окно клиентского интерфейса Открытый ящик клиентского интерфейса. |  |  |
 |---|---|---|
-| **Действие** | ** Спецификация/ремонт** | ** Следующий шаг** |
-| Проверить лампу коленчатого включения подсвечивается на клиентском интерфейсе коробки логический блок. | Светится ли лампа? *** Ремонт: ** См. дерево устранения неисправностей в незапрашиваемом двигателе. | Ремонт завершён. |
-| Светится ли лампа? ** Норепар: ** См. процедуру[[20-013-020-tr — Starting Motor\|013-020]]QSK19 и QSK19 CM850 Modular Common Rail System Series Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. | Ремонт завершён. |  |
+| **Действие** | **Спецификация/ремонт** | **Следующий шаг** |
+| Проверить лампу коленчатого включения подсвечивается на клиентском интерфейсе коробки логический блок. | Светится ли лампа? **Ремонт: **См. дерево устранения неисправностей в незапрашиваемом двигателе. | Ремонт завершён. |
+| Светится ли лампа? **Норепар: **См. процедуру[[20-013-020-tr — Starting Motor\|013-020]]QSK19 и QSK19 CM850 Modular Common Rail System Series Engines, Bulletin [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual\|4021592]]. | Ремонт завершён. |  |
 
 
 > [!quote]- Original (English) · английский оригинал

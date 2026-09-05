@@ -20,7 +20,7 @@ parts:
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100441.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100441.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100441.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -37,7 +37,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2006-07-26 · изменён 2006-07-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100441.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb100441.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb100441.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb100441.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -174,7 +174,7 @@ QST30 Industrial Tier 1 ограниченное производство нач
 Промышленный двигатель QST30-C состоит из нескольких уникальных деталей. Общее описание этих компонентов и перечень деталей, которые не совместно используются с двигателями QST30. Компоненты организованы группой для удобства использования.
 
 > [!note] Примечание
-> Двигатели QST30-C, используемые в Komatsu, будут иметь марку и обозначение SA12V140 Z-1. ** не будет являться компанией Cummins Inc. маркируется или идентифицируется как QST30-C. Двигатели в приложениях Komatsu** не*** покрываются Cummins Inc. Гарантия, и они будут обслуживаться через сервисную сеть Komatsu.
+> Двигатели QST30-C, используемые в Komatsu, будут иметь марку и обозначение SA12V140 Z-1. **не будет являться компанией Cummins Inc. маркируется или идентифицируется как QST30-C. Двигатели в приложениях Komatsu** не покрываются Cummins Inc. Гарантия, и они будут обслуживаться через сервисную сеть Komatsu.
 
 ## Детали, упомянутые в документе
 

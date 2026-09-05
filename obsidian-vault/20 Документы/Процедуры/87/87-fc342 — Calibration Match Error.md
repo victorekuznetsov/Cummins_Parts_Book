@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc342.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc342.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc342.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666214 — QST30 Industrial Electronic Control System Troubleshooting and Repair Manual|3666214]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2011-03-18
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc342.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/87-fc342.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/87/87-fc342.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/87-fc342.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 | Коды | Причина | Последствия |
 |---|---|---|
-| Код неисправности: 342 P(P): S253 SPN: 630 FMI: 13 ламп: Красная СТО: | Первичные и вторичные калибровки ECM не совпадают. | Двигатель не запускается **. |
+| Код неисправности: 342 P(P): S253 SPN: 630 FMI: 13 ламп: Красная СТО: | Первичные и вторичные калибровки ECM не совпадают. | Двигатель не запускается. |
 
 ![[19900397.png]]
 
@@ -62,7 +62,7 @@ tags:
 
 ### Описание цепи
 
-Код 342 ошибки указывает, что калибровки в первичных и вторичных ЭКМ ** не** одинаковы.
+Код 342 ошибки указывает, что калибровки в первичных и вторичных ЭКМ **не** одинаковы.
 
 ### Расположение компонента
 
@@ -70,7 +70,7 @@ tags:
 
 ### Практические замечания
 
-Этот код ошибки может произойти путем изменения или калибровки одного ECM. Калибровка одного модуля ** не** поддерживается электронным сервисным оборудованием INSITETM для модулей CM552 на промышленных двигателях QST30. Оба модуля ** должны быть откалиброваны вместе.[[87-019-032 — ECM Calibration Code|См. процедуру 019-032 в разделе 19.]]
+Этот код ошибки может произойти путем изменения или калибровки одного ECM. Калибровка одного модуля **не** поддерживается электронным сервисным оборудованием INSITETM для модулей CM552 на промышленных двигателях QST30. Оба модуля должны быть откалиброваны вместе.[[87-019-032 — ECM Calibration Code|См. процедуру 019-032 в разделе 19.]]
 
 См. Код устранения неполадок t05-342.
 

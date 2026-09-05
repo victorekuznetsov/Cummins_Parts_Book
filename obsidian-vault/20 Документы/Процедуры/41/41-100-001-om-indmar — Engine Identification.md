@@ -8,6 +8,7 @@ title_ru: "Идентификация двигателя"
 modified: "2010-07-21"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -18,7 +19,7 @@ figures: 9
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-100-001-om-indmar.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-100-001-om-indmar.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-100-001-om-indmar.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -30,12 +31,12 @@ tags:
 **Идентификация двигателя**
 
 > [!abstract] Процедура · `41-100-001-om-indmar`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[2883407 — C8.3 (India) Operation and Maintenance Manual|2883407]], [[4021330 — C8.3 Commercial Marine and Industrial Operation and Maintenance Manual|4021330]], [[4915548 — C8.3 Commercial Marine and Industrial Owners Manual|4915548]]
 > **Секции:** Section E - Engine Identification · Section E - Engine System Identification
 > **Даты:** изменён 2010-07-21
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-100-001-om-indmar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/41-100-001-om-indmar.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/41/41-100-001-om-indmar.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/41-100-001-om-indmar.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -52,7 +53,7 @@ tags:
 На табличках с данными двигателя отображается конкретная информация о вашем двигателе. Серийный номер двигателя и список контрольных частей (CPL) предоставляют информацию для заказа деталей и руководств по обслуживанию.
 
 > [!note] Примечание
-> Диаграмма двигателя ** не должна быть изменена, если она не одобрена Cummins.
+> Диаграмма двигателя не должна быть изменена, если она не одобрена Cummins.
 
 Промышленный двигательный планшет расположен на верхней стороне корпуса зубчатой передачи. Иметь следующие данные о двигателе при общении с авторизованным местом ремонта Cummins. Информация на табличке данных является **обязательной** при поиске частей обслуживания.
 
@@ -85,7 +86,7 @@ tags:
 6. Рейтинг лошадиных сил на rpm
 7. Топливо, рассчитанное на лошадиные силы
 8. Название модели
-9. Система контроля выбросов (в настоящее время ** не** используется на морском судне)
+9. Система контроля выбросов (в настоящее время **не** используется на морском судне)
 10. Распоряжение об обстреле
 11. Вальве хлещет холодом
 12. Время - Top Dead Center
@@ -97,7 +98,7 @@ tags:
 18. Колумб, Индиана
 19. 47202-3005
 20. Сделано в США.
-21. Идентификация по сертификации двигателей (в настоящее время ** не ** используется на морском судне).
+21. Идентификация по сертификации двигателей (в настоящее время **не **используется на морском судне).
 
 ### Cummins® Номенклатура двигателей
 

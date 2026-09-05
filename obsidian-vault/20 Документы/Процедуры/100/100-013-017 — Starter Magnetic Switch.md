@@ -8,6 +8,7 @@ title_ru: "Втягивающее реле стартера"
 modified: "2003-09-03"
 engines:
   - "93058669"
+  - "93087701"
 families:
   - "C8.3 · 6C8.3"
 manuals:
@@ -16,7 +17,7 @@ figures: 5
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-013-017.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-013-017.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-013-017.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/C8.3"
@@ -28,12 +29,12 @@ tags:
 **Втягивающее реле стартера**
 
 > [!abstract] Процедура · `100-013-017`
-> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]]
+> **Двигатели:** [[93058669 — 6C8.3 CPL 3105|93058669]], [[93087701 — 6C8.3 CPL 3105|93087701]]
 > **Семейство:** C8.3 · 6C8.3
 > **Входит в руководства:** [[3666003 — C Troubleshooting and Repair Manual|3666003]]
 > **Секции:** Section 13 - Electrical Equipment - Group 13
 > **Даты:** изменён 2003-09-03
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-013-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/100-013-017.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/100/100-013-017.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/100-013-017.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -56,11 +57,11 @@ tags:
 
 Установите мультиметр для измерения сопротивления (омов).
 
-При пусковом выключателе двигателя в положении OFF мультиметр *** должен** указывать на бесконечность.
+При пусковом выключателе двигателя в положении OFF мультиметр **должен** указывать на бесконечность.
 
 Поверните стартовый двигатель в положение START.
 
-Мультиметр ** должен ** указывать нулевое или очень малое сопротивление.
+Мультиметр **должен **указывать нулевое или очень малое сопротивление.
 
 ![[es900wa.png]]
 
@@ -75,7 +76,7 @@ tags:
 
 - Подключите один мультиметр к терминалу магнитного переключателя с пометкой S, а другой приведет к хорошей земле.
 - Поверните стартовый двигатель в положение START.
-- Если мультиметр указывает на отсутствие напряжения, магнитный переключатель ** не** является причиной жалобы. См. Starter Motor Switch - Test в этом разделе.
+- Если мультиметр указывает на отсутствие напряжения, магнитный переключатель **не** является причиной жалобы. См. Starter Motor Switch - Test в этом разделе.
 - Если мультиметр указывает на напряжение, магнитный переключатель неисправен и должен быть заменен.
 
 ![[es900wc.png]]

@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-000-009.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-000-009.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-000-009.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
 > **Секции:** Section 5 - Maintenance Procedures at 2000 Hours or 1 Year
 > **Даты:** изменён 2003-01-09
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-000-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-000-009.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-000-009.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-000-009.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,7 +49,7 @@ tags:
 > [!warning] ОСТОРОЖНО
 > Покрыть все отверстия двигателя и электрическое оборудование, чтобы предотвратить повреждение воды.
 
-Очистить паром двигатель ** до** проведения любого обслуживания в течение 2000 часов. Пар — лучший способ очистки грязного двигателя или части оборудования. Если пар ** не доступен, используйте растворитель для мытья двигателя.
+Очистить паром двигатель **до** проведения любого обслуживания в течение 2000 часов. Пар — лучший способ очистки грязного двигателя или части оборудования. Если пар не доступен, используйте растворитель для мытья двигателя.
 
 Защитите все электрические компоненты, отверстия и проводку от полного усилия форсунки для распыления.
 

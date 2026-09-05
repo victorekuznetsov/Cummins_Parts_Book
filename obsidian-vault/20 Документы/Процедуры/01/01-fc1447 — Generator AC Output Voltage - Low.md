@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1447.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1447.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1447.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021419 — QSX15, QSK23, QSK45, QSK60, QSK78, and QST30 Power Generation Electronic Control Syst|4021419]]
 > **Секции:** Section TF - Troubleshooting Fault Codes
 > **Даты:** изменён 2012-05-08
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1447.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/01-fc1447.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/01/01-fc1447.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/01-fc1447.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -72,11 +72,11 @@ ECM использует этот код неисправности, чтобы 
 
 ### Практические замечания
 
-Если выходное напряжение низкое, то управление может ** не** приводить в действие выходное напряжение достаточно высокое. Эта неисправность может быть вызвана неисправным регулятором напряжения, платой PT / CT, плохой PMG на полевых проводах или открытым или коротким замыканием в одной из проводных ремней.
+Если выходное напряжение низкое, то управление может **не** приводить в действие выходное напряжение достаточно высокое. Эта неисправность может быть вызвана неисправным регулятором напряжения, платой PT / CT, плохой PMG на полевых проводах или открытым или коротким замыканием в одной из проводных ремней.
 
 Если напряжения на выходных проводах генератора значительно выше, чем напряжения, считываемые электронным сервисным оборудованием INSITETM, проблема может быть в цепях датчика напряжения.
 
-Если регулятор напряжения получает B положительно (+). Но изолированный источник питания светодиод ** не** освещен, проблема с регулятором напряжения.
+Если регулятор напряжения получает B положительно (+). Но изолированный источник питания светодиод **не** освещен, проблема с регулятором напряжения.
 
 Проверьте перегрузку.
 

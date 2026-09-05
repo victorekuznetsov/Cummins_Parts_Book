@@ -8,6 +8,7 @@ title_ru: "Система смазки — обзор"
 modified: "2014-01-30"
 engines:
   - "41349633"
+  - "41353297"
 families:
   - "QSK19"
 manuals:
@@ -16,7 +17,7 @@ figures: 10
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-999-tr.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-999-tr.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-999-tr.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QSK19"
@@ -28,12 +29,12 @@ tags:
 **Система смазки — обзор**
 
 > [!abstract] Процедура · `20-007-999-tr`
-> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]]
+> **Двигатели:** [[41349633 — QSK19 CM2150 MCRS CPL 3666|41349633]], [[41353297 — QSK19 CM2150 MCRS CPL 3666|41353297]]
 > **Семейство:** QSK19
 > **Входит в руководства:** [[4021592 — QSK19, QSK19 CM850 MCRS, and QSK19 CM2150 MCRS Service Manual|4021592]]
 > **Секции:** Section F - Familiarization
 > **Даты:** изменён 2014-01-30
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-999-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/20-007-999-tr.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/20/20-007-999-tr.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/20-007-999-tr.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -65,15 +66,15 @@ tags:
 - Масло, разбавленное топливом
 - Частицы металла вызывают износ.
 
-**Не разбирать двигатель для ремонта на основе ** только по результатам анализа масла. Также проверьте масляный фильтр. Если фильтр показывает признаки внутреннего повреждения, найдите источник проблемы и отремонтируйте повреждение.[[20-007-002-om — Lubricating Oil and Filters|См. процедуру 007-002 в разделе]]Проверка масляного фильтра.
+**Не разбирать двигатель для ремонта на основе **только по результатам анализа масла. Также проверьте масляный фильтр. Если фильтр показывает признаки внутреннего повреждения, найдите источник проблемы и отремонтируйте повреждение.[[20-007-002-om — Lubricating Oil and Filters|См. процедуру 007-002 в разделе]]Проверка масляного фильтра.
 
 ![[lt801ka.png]]
 
 ![[07400043.png]]
 
-Порты нефтяного давления
+Порты масляного давления
 
-1. Двигатель давления винтовки
+1. Двигатель давления винты
 2. Плагин - фильтрованное масло
 3. Подключите - нефильтрованное масло.
 

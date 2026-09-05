@@ -7,19 +7,32 @@ title_en: "Turbocharger"
 title_ru: "Турбокомпрессор"
 modified: "2022-08-17"
 engines:
+  - "33210083"
+  - "33219033"
+  - "33224343"
+  - "33239746"
   - "37292556"
   - "37295879"
+  - "85017333"
 families:
+  - "QSK23"
+  - "QSK60"
+  - "QSK60 CM2150 MCRS"
   - "QST30"
 manuals:
   - "3666134"
+  - "3666260"
+  - "4021374"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-033-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-010-033-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-033-om.pdf"
 tags:
   - "документ/процедура"
+  - "двигатель/QSK23"
+  - "двигатель/QSK60"
+  - "двигатель/QSK60CM2150MCRS"
   - "двигатель/QST30"
   - "группа/56"
   - "перевод/машинный"
@@ -29,12 +42,12 @@ tags:
 **Турбокомпрессор**
 
 > [!abstract] Процедура · `56-010-033-om`
-> **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
-> **Семейство:** QST30
-> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]]
-> **Секции:** Section 10 - Maintenance Procedures at 10,000 Hours · Section 8 - Maintenance Procedures at 8000 Hours · Section 9 - Maintenance Procedures at 10,000 Hours or 2 Years
+> **Двигатели:** [[33210083 — QSK60 CM500 CPL 2699|33210083]], [[33219033 — QSK60 CM500 CPL 2848|33219033]], [[33224343 — QSK60 CM500 CPL 2849|33224343]], [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]], [[85017333 — QSK23 CM500 CPL 2858|85017333]]
+> **Семейство:** QSK23, QSK60, QSK60 CM2150 MCRS, QST30
+> **Входит в руководства:** [[3666134 — QST30 Operation and Maintenance Manual|3666134]], [[3666260 — QSK45 and QSK60 Operation and Maintenance Manual|3666260]], [[4021374 — QSK23 Operation and Maintenance Manual|4021374]]
+> **Секции:** Section 10 - Air Intake System - Group 10 · Section 10 - Maintenance Procedures at 10,000 Hours · Section 8 - Maintenance Procedures at 8000 Hours · Section 9 - Maintenance Procedures at 10,000 Hours or 2 Years
 > **Даты:** изменён 2022-08-17
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-033-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/56-010-033-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/56/56-010-033-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/56-010-033-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -85,7 +98,7 @@ tags:
 Убедитесь, что движение находится в пределах значений МИН/МАХ МДП, показанных выше.
 
 > [!note] Примечание
-> Если осевой зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®.
+> Если осевой зазор превышает технические характеристики, турбокомпрессор должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[tb800jb.png]]
 
@@ -108,7 +121,7 @@ tags:
 Убедитесь, что движение находится в пределах значений МИН/МАХ МДП, показанных выше.
 
 > [!note] Примечание
-> Если радиальный зазор превышает технические характеристики, турбокомпрессор *** должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®.
+> Если радиальный зазор превышает технические характеристики, турбокомпрессор должен быть заменен или перестроен. Обратитесь в авторизованный сервисный центр Cummins®.
 
 ![[10600221.png]]
 

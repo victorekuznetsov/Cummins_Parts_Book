@@ -17,7 +17,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150118.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150118.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150118.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2015-09-29 · изменён 2015-09-29
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150118.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb150118.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2015/tsb150118.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb150118.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -76,15 +76,15 @@ tags:
 
 **Наличие сервисных деталей**
 
-Части сервиса ** не** доступны **.
+Части сервиса **не** доступны.
 
-Это изменение, которое осуществляется на заводском уровне **только **.
+Это изменение, которое осуществляется на заводском уровне **только**.
 
 **Статус в производстве**
 
 | **Таблица 2, Информация о производстве** |  |  |
 |---|---|---|
-| **Впервые** | ** Дата строительства**** | ** Завод** |
+| **Впервые** | **Дата строительства** | **Завод** |
 | 25390589 | 11 июня 2013 | Компания Cummins India Limited |
 | *Дата сборки двигателя можно найти на табличке с данными двигателя. |  |  |
 

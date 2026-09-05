@@ -21,7 +21,7 @@ figures: 1
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101150.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101150.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101150.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/QST30"
@@ -38,7 +38,7 @@ tags:
 > **Двигатели:** [[37292556 — QST30 CM552 CPL 1244|37292556]], [[37295879 — QST30 CM552 CPL 2139|37295879]]
 > **Семейство:** QST30
 > **Даты:** выпущен 2009-12-17 · изменён 2002-05-10
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101150.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb101150.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2010/tsb101150.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb101150.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -78,7 +78,7 @@ tags:
 | Все остальные | 4067987 |
 
 > [!note] Примечание
-> Топливный коллектор ** не** включен в комплект для ремонта и ** должен быть заказан отдельно.
+> Топливный коллектор **не** включен в комплект для ремонта и должен быть заказан отдельно.
 
 ![[06a00123.png]]
 
@@ -87,11 +87,11 @@ tags:
 | Справочный номер | Номер детали | Количество | Наименование | торм |
 | Не показан | 3089916 | 2 | Фильтр, топливо (FS1006) |  |
 | 1 | [[3094188]] | 1 | Болт, банджо | 7 Н•м[62 фунт-дюйм] |
-| 2 | [[3918188]] | 2 | Стиральная машина, герметизация (M8) |  |
+| 2 | [[3918188]] | 2 | Шайба, герметизация (M8) |  |
 | 3 | 4067979 | 1 | Труба, обход топлива |  |
 | 4 | [[4067813]] | 1 | Прибор, слив топлива | 80 Н•м[59 фунт-фут] |
 | 5 | 4067950 | 1 | Прибор, топливоснабжение | 80 Н•м[59 фунт-фут] |
-| 6 | 2918190 | 2 | Стиральная машина, уплотнение (M10) |  |
+| 6 | 2918190 | 2 | Шайба, уплотнение (M10) |  |
 | 7 | 4067977 | 1 | Проверьте клапан, банджо. | 11 Н•м[97 фунт-дюйм] |
 
 > [!note] Примечание

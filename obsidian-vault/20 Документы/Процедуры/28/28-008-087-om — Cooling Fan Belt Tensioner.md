@@ -7,17 +7,16 @@ title_en: "Cooling Fan Belt Tensioner"
 title_ru: "Натяжитель ремня вентилятора"
 modified: "2007-05-02"
 engines:
-  - "33239746"
   - "33239899"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
 manuals:
   - "3810497"
 figures: 3
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-087-om.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-087-om.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-087-om.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/K38/K50"
@@ -29,12 +28,12 @@ tags:
 **Натяжитель ремня вентилятора**
 
 > [!abstract] Процедура · `28-008-087-om`
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
+> **Семейство:** K38/K50 · QSK38, QSK50
 > **Входит в руководства:** [[3810497 — K38, K50, QSK38 and QSK50 Operation and Maintenance Manual|3810497]]
 > **Секции:** Section 7 - Maintenance Procedures at 1500 Hours or 1 Year
 > **Даты:** изменён 2007-05-02
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-087-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/28-008-087-om.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/28/28-008-087-om.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/28-008-087-om.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -49,9 +48,9 @@ tags:
 Следующий шаг - для двигателей с твердым стержнем управления.
 
 > [!note] Примечание
-> Один из орехов имеет левостороннюю резьбу.
+> Один из гаек имеет левостороннюю резьбу.
 
-Ремень вентилятора ** должен быть установлен и под напряжением вентилятора бездельничного рычага пружины регулировать управляющий стержень. Ремень вентилятора и часть плоской стиральной машины ** не** показаны для ясности.
+Ремень вентилятора **должен быть установлен и под напряжением вентилятора бездельничного рычага пружины регулировать управляющий стержень. Ремень вентилятора и часть плоской шайбы **не показаны для ясности.
 
 Поверните регулирующий винт (10) до тех пор, пока конец слота на нижнем конце рулевого стержня (9) не коснется прокладки (1).
 

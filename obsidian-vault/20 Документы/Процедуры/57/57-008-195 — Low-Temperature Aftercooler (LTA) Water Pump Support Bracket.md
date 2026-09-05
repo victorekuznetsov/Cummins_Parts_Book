@@ -17,7 +17,7 @@ figures: 9
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-195.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-195.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-195.pdf"
 tags:
   - "документ/процедура"
   - "двигатель/QST30"
@@ -34,7 +34,7 @@ tags:
 > **Входит в руководства:** [[4021539 — QST30 Service Manual|4021539]]
 > **Секции:** Section 8 - Cooling System - Group 08
 > **Даты:** изменён 2026-02-26
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-195.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/procedures/57-008-195.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/procedures/57/57-008-195.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/procedures/57-008-195.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -54,7 +54,7 @@ tags:
 
 ![[08n00350.png]]
 
-Удалите орехи, спейсеры и кронштейн водяного насоса LTA.
+Удалите гайки, спейсеры и кронштейн водяного насоса LTA.
 
 ![[08n00351.png]]
 
@@ -80,9 +80,9 @@ tags:
 
 ### Установка
 
-Установите прокладки, кронштейн водяного насоса LTA и орехи.
+Установите прокладки, кронштейн водяного насоса LTA и гайки.
 
-Руки затягивают орехи.
+Руки затягивают гайки.
 
 ![[08n00351.png]]
 
@@ -100,7 +100,7 @@ tags:
 
 ![[08n00349.png]]
 
-Затягивание орехов на кронштейне водяного насоса LTA.
+Затягивание гаек на кронштейне водяного насоса LTA.
 
 > [!tip] Момент затяжки
 > 33 Н·м [24 фунт-фут]

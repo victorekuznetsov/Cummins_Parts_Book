@@ -9,18 +9,21 @@ released: "2020-06-16"
 modified: "2020-06-16"
 group: "08 - Cooling System"
 engines:
-  - "33239746"
+  - "33224404"
   - "33239899"
+  - "41340468"
 families:
-  - "K38/K50 · QSK38, QSK50, QSK60"
+  - "K38/K50 · QSK38, QSK50"
+  - "QSK50"
 figures: 4
 lang: "ru+en"
 translation: "машинный черновик"
 source: "https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200121.html"
-pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200121.pdf"
+pdf: "https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200121.pdf"
 tags:
   - "документ/tsb"
   - "двигатель/K38/K50"
+  - "двигатель/QSK50"
   - "год/2020"
   - "перевод/машинный"
   - "тема/cooling-system"
@@ -31,10 +34,10 @@ tags:
 
 > [!abstract] TSB · `tsb200121`
 > **Раздел Cummins:** 08 - Cooling System
-> **Двигатели:** [[33239746 — QSK60 CM2150 MCRS CPL 3451|33239746]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]]
-> **Семейство:** K38/K50 · QSK38, QSK50, QSK60
+> **Двигатели:** [[33224404 — QSK50 CM2150 MCRS CPL 3391|33224404]], [[33239899 — QSK50 CM2150 MCRS CPL 3379|33239899]], [[41340468 — QSK50 CM2150 MCRS CPL 3728|41340468]]
+> **Семейство:** K38/K50 · QSK38, QSK50, QSK50
 > **Даты:** выпущен 2020-06-16 · изменён 2020-06-16
-> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200121.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/claude/cummins-parts-knowledge-base-qa0n50/bulletins/tsb/tsb200121.pdf)
+> **Источник:** [QuickServe](https://quickserve.cummins.com/qs3/pubsys2/xml/en/tsb/2020/tsb200121.html) · [PDF-оригинал](https://github.com/victorekuznetsov/Cummins_Parts_Book/raw/main/bulletins/tsb/tsb200121.pdf)
 
 > [!info]- Перевод на русский — машинный черновик
 > Русский текст получен автоматическим переводом с английского
@@ -88,14 +91,14 @@ tags:
 
 **Наличие сервисных деталей**
 
-Номер детали ** не** изменился для комплекта водяного насоса. Сервисные детали доступны для заказа.
+Номер детали **не** изменился для комплекта водяного насоса. Сервисные детали доступны для заказа.
 
-| ** Таблица 1, Части обслуживания** |  |  |  |  |
+| **Таблица 1, Части обслуживания** |  |  |  |  |
 |---|---|---|---|---|
-| ** Часть описания** | ** Существующий номер детали** | ** Устаревший** | ** Превышенный** | **Новый номер** |
+| **Часть описания** | **Существующий номер детали** | **Устаревший** | **Превышенный** | **Новый номер** |
 | Комплект водяного насоса | 437611800RX | Нет | Нет | Не применяется |
 
-** Совместимость частей**
+**Совместимость частей**
 
 Все опции полностью совместимы с одинаковой посадкой и функцией. Эти части приемлемы для использования.
 
@@ -111,7 +114,7 @@ tags:
 
 ![[17r00751.png]]
 
-Рисунок 3, Факультативный дизайн без Duckbill Fitment с помощью Weep Hole для утечки из хладагентной печати
+Рисунок 3, Факультативный дизайн без Duckbill Fitment с помощью Weep Hole для утечки из хладагентной уплотнения
 
 ![[17r00752.png]]
 
